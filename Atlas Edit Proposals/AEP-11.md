@@ -6,7 +6,7 @@
 AEP#: 11
 Author(s): Endgame Edge
 Contributors: Atlas Axis
-Status: RFC
+Status: Accepted
 Date Proposed: 2025-04-02
 Date Ratified: 2025-06-23
 Forum URL: https://forum.sky.money/t/aep-11-moderation-policies-of-the-sky-ecosystem-communication-channels/26225
