@@ -4028,7 +4028,7 @@
           </td>
           <td>Agent Role Delineation</td>
           <td>Core</td>
-          <td>Whenever a Star Agent's strategy involves any on-chain or off-chain interaction with Sky Protocol resources or infrastructure, including the Sky Primitives, the operationalization of that strategy is restricted to Executor Agents.</td>
+          <td>Whenever a Star Agent's strategy involves any on-chain or off-chain interaction with Sky Protocol resources or infrastructure, including the Sky Primitives, the operationalization of that strategy is generally restricted to Executor Agents. There is an exception for Star Agents directly operationalizing Allocation System Primitive Instances using internal, proprietary strategies, see <dfn>A.2.4 - Operationalization Of Allocation Instances</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -10616,7 +10616,7 @@
           </td>
           <td>Sky Spread</td>
           <td>Core</td>
-          <td>A fixed margin of 0.05% (Sky Spread) forms part of the overall differential between the Savings Rate and the Base Rate, representing the premium earned by Sky for facilitating the ecosystem's financing. The total spread between the Savings Rate and the Base Rate is therefore 0.25%.</td>
+          <td>A fixed margin of 0.1% (Sky Spread) forms part of the overall differential between the Savings Rate and the Base Rate, representing the premium earned by Sky for facilitating the ecosystem's financing. The total spread between the Savings Rate and the Base Rate is therefore 0.3%.</td>
         </tr>
         <tr>
           <td>
@@ -12400,7 +12400,7 @@
           </td>
           <td>Core Stability Parameters - Parameters - Sky Savings Rate - Relationship To Base Rate</td>
           <td>Core</td>
-          <td>The Sky Savings Rate is 0.25% below the Base Rate. This difference is equal to the sum of (1) the 0.2% Accessibility Reward Fee (see <dfn>A.2.4 - Fees</dfn>), and (2) the 0.05% Sky Spread (see <dfn>A.3.3 - Sky Spread</dfn>).</td>
+          <td>The Sky Savings Rate is 0.3% below the Base Rate. This difference is equal to the sum of (1) the 0.2% Accessibility Reward Fee (see <dfn>A.2.4 - Fees</dfn>) and (2) the 0.1% Sky Spread (see <dfn>A.3.3 - Sky Spread</dfn>).</td>
         </tr>
         <tr>
           <td>
@@ -12439,7 +12439,7 @@
           </td>
           <td>Core Stability Parameters - Parameters - Agent Rate - Relationship To Base Rate</td>
           <td>Core</td>
-          <td>The Agent Rate is 0.05% below the Base Rate. This is equal to the Sky Savings Rate plus the 0.2% Accessibility Reward Fee (see <dfn>A.2.4 - Fees</dfn>).</td>
+          <td>The Agent Rate is 0.1% below the Base Rate. This is equal to the Sky Savings Rate plus the 0.2% Accessibility Reward Fee (see <dfn>A.2.4 - Fees</dfn>).</td>
         </tr>
         <tr>
           <td>
@@ -15590,11 +15590,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.3.4 - Peg Stability Modules</dfn>
+            <dfn>A.3.4 - Peg Stability Module</dfn>
           </td>
-          <td>Peg Stability Modules</td>
+          <td>Peg Stability Module</td>
           <td>Core</td>
-          <td>The documents herein outline the legacy Peg Stability Modules which supported Dai and USDS peg stability under Sky Core management. Going forward, PSMs will be either offboarded or transitioned to Star Agents.</td>
+          <td>The documents herein outline the legacy Peg Stability Module which supported Dai and USDS peg stability under Sky Core management. Going forward, the PSM will be transitioned to Grove.</td>
         </tr>
         <tr>
           <td>
@@ -15693,22 +15693,6 @@
           <td>Lite Peg Stability Module Parameter Modification</td>
           <td>Core</td>
           <td>The Sky Core Stability Facilitators, in consultation with the Sky Core Stability Scope Advisors, may recommend changes to any of the parameters specified in the subdocuments of <dfn>A.3.4 - Lite Peg Stability Module Parameter Definitions</dfn>. These changes will be subject to an Executive Vote through the Operational Weekly Governance Cycle.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.4 - Other Peg Stability Modules</dfn>
-          </td>
-          <td>Other Peg Stability Modules</td>
-          <td>Core</td>
-          <td>All Peg Stability Modules other than the Lite PSM must be offboarded when the migration to the Lite PSM is complete. This will be coordinated by the Stability Facilitators in consultation with the Stability Scope Advisors. The subdocuments herein specify the terms of legacy Peg Stability Modules. These documents become obsolete when the respective Peg Stability Modules have been offboarded.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.4 - USDC PSM And Coinbase Custody</dfn>
-          </td>
-          <td>USDC PSM And Coinbase Custody</td>
-          <td>Core</td>
-          <td><p>Whenever the total amount of USDC in the Peg Stability Module ("PSM") plus the total amount of USDC in GUNI pools falls below 400 million, USDC must be transferred from Coinbase Custody to the PSM to bring the total amount of USDC in the PSM, plus the total amount of USDC in the GUNI pools, to 550m USDC.</p><p>Whenever the total amount of USDC in the PSM, plus the total amount of USDC in GUNI pools exceeds 700 million, USDC must be transferred from the PSM to Coinbase Custody to bring the total amount of USDC in the PSM, plus the total amount of USDC in the GUNI pools, to 550m USDC.</p><p>This mechanism can be fully replaced with an upgraded PSM that makes the Coinbase Custody solution obsolete. The Stability Facilitators can directly trigger an Executive Vote to implement an upgraded PSM.</p></td>
         </tr>
         <tr>
           <td>
