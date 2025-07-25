@@ -1750,7 +1750,7 @@
           </td>
           <td>Aligned Delegates - Misalignment Handling - Whistleblower Bounty</td>
           <td>Section</td>
-          <td><p>If the Governance Facilitators find that an AD has conducted a misaligned act warranting financial penalties or derecognition, that AD's Buffer will be confiscated and used as a whistleblower bounty to compensate any individual/entity who responsibly provided useful data, information or evidence that was helpful to the Facilitators' adjudication.</p><p>The whistleblower bounty is subject to the restrictions specified in <dfn>A.1.5 - Aligned Delegates - Budget And Participation Requirements - AD Buffer Used For Whistleblower Bounties</dfn>.</p></td>
+          <td><p>If the Governance Facilitators find that an AD has conducted a misaligned act warranting financial penalties or derecognition, such penalties may be deducted from the AD's Buffer. The amount deducted is used as a whistleblower bounty to compensate any individual/entity who responsibly provided useful data, information or evidence that was helpful to the Facilitators' adjudication.</p><p>The whistleblower bounty is subject to the restrictions specified in <dfn>A.1.5 - Aligned Delegates - Budget And Participation Requirements - AD Buffer Used For Whistleblower Bounties</dfn>.</p><p>Any remaining funds in the AD's Buffer should be paid out to the derecognized Aligned Delegate.</p></td>
         </tr>
         <tr>
           <td>
@@ -2273,6 +2273,14 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.1.9 - Sky Core Governance Security - General Provisions - Chainlog</dfn>
+          </td>
+          <td>Sky Core Governance Security - General Provisions - Chainlog</td>
+          <td>Core</td>
+          <td>The Chainlog is an on-chain, governance-managed registry that records the official addresses of Sky's core smart contracts. Each contract entry in the Chainlog is identified by a unique key ("Chainlog key"), which is used to reference the contract in documentation, governance actions, and integrations. It serves as the single source of truth for contract addresses in the protocol. The Chainlog is available at https://chainlog.sky.money/. Updates to the Chainlog are defined as housekeeping items (see <dfn>A.1.11 - Weekly Governance Cycle - Operational Weekly Cycle - Definition Of Housekeeping Items</dfn>) and can be included directly in an Executive Vote (see <dfn>A.1.11 - Weekly Governance Cycle - Operational Weekly Cycle - Process for Adding Housekeeping Item In Executive Vote</dfn>).</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.1.9 - A2 - Sky Core Governance Security - Governance Security Delay Requirements</dfn>
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements</td>
@@ -2340,7 +2348,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - Debt Ceiling Breaker Exception</td>
           <td>Core</td>
-          <td><p>The LINE_MOM contract manages the breaker for the Debt Ceilings of a configurable subset of the vault types in the Sky Protocol. This Debt Ceiling Breaker allows a successful governance proposal to reduce the debt ceilings of a pre-configured whitelist of vault types to zero without waiting for the GSM Pause Delay to expire.</p><p>The Debt Ceiling Breaker affects both the Debt Ceiling and the Maximum Debt Ceiling of a given vault type when activated, disabling the Dynamic Debt Ceiling functionality for that vault type if enabled. To reverse the effect, parameters of affected vault types must be reconfigured with an Executive Vote which is subject to GSM Pause Delay.</p><p>The whitelist may be configured via a successful governance proposal, but must wait for the GSM Delay before changes come into effect. The whitelist is defined in <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - Debt Ceiling Breaker Exception Whitelist</dfn> and can be changed via the Weekly Governance Cycle.</p></td>
+          <td><p>The LINE_MOM contract manages the breaker for the Debt Ceilings of a configurable subset of the vault types in the Sky Protocol. This Debt Ceiling Breaker allows a successful governance proposal to reduce the debt ceilings of a pre-configured whitelist of vault types to zero without waiting for the GSM Pause Delay to expire.</p><p>The Debt Ceiling Breaker affects both the Debt Ceiling and the Maximum Debt Ceiling of a given vault type when activated, disabling the Dynamic Debt Ceiling functionality for that vault type if enabled. To reverse the effect, parameters of affected vault types must be reconfigured with an Executive Vote which is subject to the GSM Pause Delay.</p><p>The whitelist may be configured via a successful governance proposal, but must wait for the GSM Pause Delay before changes come into effect. The whitelist is defined in <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - Debt Ceiling Breaker Exception Whitelist</dfn> and can be changed via the Weekly Governance Cycle.</p></td>
         </tr>
         <tr>
           <td>
@@ -2414,7 +2422,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - Dynamic Debt Ceiling Exception</td>
           <td>Core</td>
-          <td><p>The MCD_IAM_AUTO_LINE contract manages the debt ceiling parameters for many of Sky's vault types according to preset rules. Keepers can use the contract to attempt to maintain a Target Available Debt in a given vault type. The contract modifies the debt ceiling up or down to maintain a level of available debt.</p><p>This functionality is exceptional so that the Sky protocol can react to changes in debt demand more quickly than waiting for the GSM delay.</p><p>The risk opened up by this exceptional functionality is a theoretical griefing attack on the IAM that prevents debt from being accessible in affected vault types.</p></td>
+          <td><p>The MCD_IAM_AUTO_LINE contract manages the debt ceiling parameters for many of Sky's vault types according to preset rules. Keepers can use the contract to attempt to maintain a Target Available Debt in a given vault type. The contract modifies the debt ceiling up or down to maintain a level of available debt.</p><p>This functionality is exceptional so that the Sky protocol can react to changes in debt demand more quickly than waiting for the GSM Pause Delay.</p><p>The risk opened up by this exceptional functionality is a theoretical griefing attack on the IAM that prevents debt from being accessible in affected vault types.</p></td>
         </tr>
         <tr>
           <td>
@@ -2422,7 +2430,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - SparkLend Freezer Mom Exception</td>
           <td>Core</td>
-          <td><p>The SparkLend Freezer Mom contract allows Sky Governance to bypass the GSM delay to either freeze or pause any markets in SparkLend. The contract also allows the undoing of such actions for any market in SparkLend.</p><p>This functionality allows Sky Governance to react faster in an emergency. Freezing markets does not allow for new supplies or borrows, while pause restricts all market functionality, including deposits/withdrawals/borrows/repays and liquidations.</p></td>
+          <td><p>The SparkLend FREEZER_MOM contract allows Sky Governance to bypass the GSM Pause Delay to either freeze or pause any markets in SparkLend. The contract also allows the undoing of such actions for any market in SparkLend.</p><p>This functionality allows Sky Governance to react faster in an emergency. Freezing markets does not allow for new supplies or borrows, while pause restricts all market functionality, including deposits/withdrawals/borrows/repays and liquidations.</p></td>
         </tr>
         <tr>
           <td>
@@ -2430,7 +2438,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - Smart Burn Engine Breaker Exception</td>
           <td>Core</td>
-          <td><p>The SplitterMom contract allows for the disabling of the Smart Burn Engine without the GSM delay.</p><p>This functionality is available so that Sky Governance can react to emergencies regarding the Smart Burn Engine.</p><p>Since the Splitter contract also allocates USDS from the Surplus Buffer to USDS Staking Rewards, the activation of SplitterMom also disables these rewards until the activation is reversed by Sky Governance.</p></td>
+          <td><p>The SPLITTER_MOM contract allows for the disabling of the Smart Burn Engine without the GSM Pause Delay.</p><p>This functionality is available so that Sky Governance can react to emergencies regarding the Smart Burn Engine.</p><p></p>Since the Splitter contract also allocates USDS from the Surplus Buffer to USDS Staking Rewards, the activation of SPLITTER_MOM also disables these rewards until the activation is reversed by Sky Governance.</p></td>
         </tr>
         <tr>
           <td>
@@ -2438,7 +2446,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - PSM Breaker Exception</td>
           <td>Core</td>
-          <td>The PSM_MOM contract manages the breaker for swaps through the LitePSM. The PSM Breaker allows a successful governance proposal to halt swaps through the LitePSM.</td>
+          <td>The LITE_PSM_MOM contract manages the breaker for swaps through the LitePSM. The PSM Breaker allows a successful governance proposal to halt swaps through the LitePSM.</td>
         </tr>
         <tr>
           <td>
@@ -2462,7 +2470,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - Bounded External Access Modules - Stability Parameter Bounded External Access Module Exception</td>
           <td>Core</td>
-          <td><p>The Stability Parameter Bounded External Access Module (SP-BEAM) manages the rates applied to Sky Protocol’s native vaults as well as the savings rates. Whitelisted operators can use the SP-BEAM to modify rates without waiting for the GSM Pause Delay. The SP-BEAM modifies rates up or down within specified parameters. See A.3.9 - Measures For Endgame Transition - Stability Parameter Bounded External Access Module.</p><p>This functionality allows the Sky Protocol to react to changes in market rates more quickly than waiting for the Governance and Spell Process execution and GSM Pause Delay.</p><p>The risk opened up by this functionality is malicious action by whitelisted operators setting rates to undesirable values. This risk can be mitigated through the SP-BEAM parameters and the SP_BEAM_MOM.</p></td>
+          <td><p>The Stability Parameter Bounded External Access Module (SP-BEAM) MCD_SPBEAM contract manages the rates applied to Sky Protocol's native vaults as well as the savings rates. Whitelisted operators can use the SP-BEAM to modify rates without waiting for the GSM Pause Delay. The SP-BEAM modifies rates up or down within specified parameters. See <dfn>A.3.9 - Measures For Endgame Transition - Stability Parameter Bounded External Access Module</dfn>.</p><p>This functionality allows the Sky Protocol to react to changes in market rates more quickly than waiting for the Governance and Spell Process execution and the GSM Pause Delay.</p><p>The risk opened up by this functionality is malicious action by whitelisted operators setting rates to undesirable values. This risk can be mitigated through the SP-BEAM parameters and the SPBEAM_MOM.</p></td>
         </tr>
         <tr>
           <td>
@@ -2470,7 +2478,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - Stability Parameter Bounded External Access Module Breaker Exception</td>
           <td>Core</td>
-          <td><p>The SP_BEAM_MOM contract allows Sky Governance to bypass the GSM Pause Delay and disable the Stability Parameter Bounded External Access Module.</p><p>This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the SP-BEAM is hacked or is a malicious actor. Once the SP_BEAM_MOM is activated, the SP-BEAM will not be able to change any rates in the system. If the SP_BEAM_MOM has been triggered, it will still be possible to modify rates through the usual Executive Vote process, subject to the GSM Pause Delay.</p></td>
+          <td><p>The SPBEAM_MOM contract allows Sky Governance to bypass the GSM Pause Delay and disable the Stability Parameter Bounded External Access Module.</p><p>This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the SP-BEAM is hacked or is a malicious actor. Once the SPBEAM_MOM is activated, the SP-BEAM will not be able to change any rates in the system. If the SPBEAM_MOM has been triggered, it will still be possible to modify rates through the usual Executive Vote process, subject to the GSM Pause Delay.</p></td>
         </tr>
         <tr>
           <td>
@@ -10928,7 +10936,7 @@
           </td>
           <td>Token Launch Penalty</td>
           <td>Core</td>
-          <td>If either Spark or Grove (each, a "Star") does not complete its Star Token Generation Event ("TGE") at the time the Risk Framework is finalized and approved by Sky Governance and income generation commences, a penalty of thirty percent (30%) will apply. This penalty will be calculated on the income (as defined in <dfn>A.2.10 - Income Definition</dfn>) the Star is receiving or is meant to receive (including revenue that has accrued but has not been transferred) until the TGE occurs. The penalty shall be deducted from the Genesis Capital Allocation at the time of the Capital Transfer.</td>
+          <td>If either Spark or Grove (each, a "Star") does not complete its Star Token Generation Event ("TGE") by July 1, 2025, a penalty of thirty percent (30%) will apply. This penalty will be calculated on the income (as defined in <dfn>A.2.10 - Income Definition</dfn>) the Star is receiving or is meant to receive (including revenue that has accrued but has not been transferred) until the TGE occurs. The penalty shall be deducted from the Genesis Capital Allocation at the time of the Capital Transfer.</td>
         </tr>
         <tr>
           <td>
@@ -10960,7 +10968,7 @@
           </td>
           <td>Treatment of Expenses Paid By Sky Pre-TGE</td>
           <td>Core</td>
-          <td>Any operational or other expenses incurred by a Star and paid directly by Sky 60 days prior to the Risk Framework finalization and commencement of Income Generation shall be treated as an advance against the Star's Genesis Capital Allocation. The total amount of such expenses shall be documented and shall be deducted from the Star's allocated capital funds at the time of the Capital Transfer (as outlined in <dfn>A.2.10 - Transfer Of Capital Funds</dfn>).</td>
+          <td>Any operational or other expenses incurred by a Star and paid directly by Sky after July 1, 2025 shall be treated as an advance against the Star's Genesis Capital Allocation. The total amount of such expenses shall be documented and shall be deducted from the Star's allocated capital funds at the time of the Capital Transfer (as outlined in <dfn>A.2.10 - Transfer Of Capital Funds</dfn>).</td>
         </tr>
         <tr>
           <td>
@@ -10984,7 +10992,7 @@
           </td>
           <td>Income Generation And Pre-TGE Credit</td>
           <td>Core</td>
-          <td>"Income Generation" shall be deemed to commence upon the finalization of the Risk Framework applicable to each respective Star, which is anticipated to be ready by end of May, 2025. The Risk Framework is deemed finalized when the Atlas Edit proposal for the Risk Framework is formally approved via a Sky Governance vote. From the date of Risk Framework finalization until the Star's TGE, seventy percent (70%) of any income generated by the Star's activities shall be credited to its Capital account (net of any expenses paid by Sky as per <dfn>A.2.10 - Treatment of Expenses Paid By Sky Pre-TGE</dfn>), subject to any penalties.</td>
+          <td>"Income Generation" shall be deemed to commence on July 1, 2025. From that date until the Star's TGE, seventy percent (70%) of any income generated by the Star's activities shall be credited to its capital account (net of any expenses paid by Sky as per <dfn>A.2.10 - Treatment of Expenses Paid By Sky Pre-TGE</dfn>), subject to any penalties.</td>
         </tr>
         <tr>
           <td>
@@ -10992,7 +11000,7 @@
           </td>
           <td>Income Definition</td>
           <td>Core</td>
-          <td>"Income" means all revenues or fees received or accrued by the applicable Star following finalization of its Risk Framework, including: (i) Accessibility Rewards (0.2%), (ii) Accessibility Reward Bonus for 2025 (0.4%), (iii) any Platform Fees charged to users, and (iv) Real World Asset fees charged to users, including any origination, servicing, or related charges, and (v) the blended cost of allocation spread between Junior and Senior Risk Capital.</td>
+          <td>"Income" means all revenues or fees received or accrued by the applicable Star after July 1, 2025, including: (i) Accessibility Rewards (see <dfn>A.2.10 - Accessibility Reward Rate</dfn>), (ii) Accessibility Reward Bonus for 2025 (see <dfn>A.2.10 - 2025 Bonus</dfn>), (iii) any Platform Fees charged to users, and (iv) Real World Asset fees charged to users, including any origination, servicing, or related charges, and (v) the blended cost of allocation spread between Junior and Senior Risk Capital.</td>
         </tr>
         <tr>
           <td>
@@ -13369,7 +13377,7 @@
               <li>Morpho</li>
               <li>Maple</li>
             </ul>
-            The application by a Star Agent of the Risk Framework for lending markets to any protocols not listed above must be approved by its Operational Executor Agent. The Operational Executor shall consult with the Stability Scope Advisors and the Stability Facilitators in making this determination. Any such approval must be posted to the Sky Forum under the tag for the Star Agent.
+            The application by a Star Agent of the risk framework for lending markets to any protocols not listed above must be approved by its Operational Executor Agent. The Operational Executor shall consult with the Stability Scope Advisors and the Stability Facilitators in making this determination. Any such approval must be posted to the Sky Forum under the category for the Star Agent.
           </td>
         </tr>
         <tr>
@@ -21677,7 +21685,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The Root Edit process begins with a SPK token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A SPK token holder must hold at least 1% of the total token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Spark" tag.</td>
+          <td>The Root Edit process begins with a SPK token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A SPK token holder must hold at least 1% of the total token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Spark Star" category.</td>
         </tr>
         <tr>
           <td>
@@ -21693,7 +21701,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>Until the Powerhouse system supports submitting Artifact Edit Proposals, SPK token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Spark" category. The title of the post must include the text "Spark Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total SPK token supply specified in Root Edit Proposal Submission.</td>
+          <td>Until the Powerhouse system supports submitting Artifact Edit Proposals, SPK token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Spark Star" category. The title of the post must include the text "Spark Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total SPK token supply specified in <dfn>Root Edit Proposal Submission</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -21787,7 +21795,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in <dfn>A.1.8 - Emergency Response System - Emergency Response - Definition Of Emergency Situations</dfn>, the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Spark" tag), unless doing so would endanger Spark or its users.</td>
+          <td>In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in <dfn>A.1.8 - Emergency Response System - Emergency Response - Definition Of Emergency Situations</dfn>, the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Spark Star" category), unless doing so would endanger Spark or its users.</td>
         </tr>
         <tr>
           <td>
@@ -22427,7 +22435,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>Operational GovOps reviews Spark's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Spark" tag and work with Spark to resolve the disagreement. If Operational GovOps and Spark cannot resolve the disagreement, it must be escalated to Core GovOps.</td>
+          <td>Operational GovOps reviews Spark's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Spark Star" category and work with Spark to resolve the disagreement. If Operational GovOps and Spark cannot resolve the disagreement, it must be escalated to Core GovOps.</td>
         </tr>
         <tr>
           <td>
@@ -30596,7 +30604,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>Spark uses the Sky Forum for governance-related discussion. Posts should use the "Spark" tag.</td>
+          <td>Spark uses the Sky Forum for governance-related discussion. Posts should use the "Spark Star" category.</td>
         </tr>
         <tr>
           <td>
@@ -32536,7 +32544,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The Root Edit process begins with a GROVE token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A GROVE token holder must hold at least 1% of the total token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Grove" category.</td>
+          <td>The Root Edit process begins with a GROVE token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A GROVE token holder must hold at least 1% of the total token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Grove Star" category.</td>
         </tr>
         <tr>
           <td>
@@ -32552,7 +32560,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>Until the Powerhouse system supports submitting Artifact Edit Proposals, GROVE token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Grove" category. The title of the post must include the text "Grove Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total GROVE token supply specified in Root Edit Proposal Submission.</td>
+          <td>Until the Powerhouse system supports submitting Artifact Edit Proposals, GROVE token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Grove Star" category. The title of the post must include the text "Grove Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total GROVE token supply specified in <dfn>Root Edit Proposal Submission</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -32646,7 +32654,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in <dfn>A.1.8 - Emergency Response System - Emergency Response - Definition Of Emergency Situations</dfn>, the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Grove" tag), unless doing so would endanger Grove or its users.</td>
+          <td>In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in <dfn>A.1.8 - Emergency Response System - Emergency Response - Definition Of Emergency Situations</dfn>, the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Grove Star" category), unless doing so would endanger Grove or its users.</td>
         </tr>
         <tr>
           <td>
@@ -33278,7 +33286,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>Operational GovOps reviews Grove's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Grove" tag and work with Grove to resolve the disagreement. If Operational GovOps and Grove cannot resolve the disagreement, it must be escalated to Core GovOps.</td>
+          <td>Operational GovOps reviews Grove's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Grove Star" category and work with Grove to resolve the disagreement. If Operational GovOps and Grove cannot resolve the disagreement, it must be escalated to Core GovOps.</td>
         </tr>
         <tr>
           <td>
@@ -36191,7 +36199,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>Grove uses the Sky Forum for governance-related discussion. Posts should use the "Grove" tag.</td>
+          <td>Grove uses the Sky Forum for governance-related discussion. Posts should use the "Grove Star" category.</td>
         </tr>
         <tr>
           <td>
@@ -37500,7 +37508,7 @@
           </td>
           <td>Launch Agent 2</td>
           <td>Core</td>
-          <td>The Root Edit process begins with an AGENT2 token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. An AGENT2 token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Launch Agent 2" tag.</td>
+          <td>The Root Edit process begins with an AGENT2 token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. An AGENT2 token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Launch Agent 2 Star" category.</td>
         </tr>
         <tr>
           <td>
@@ -37509,6 +37517,14 @@
           <td>Launch Agent 2</td>
           <td>Core</td>
           <td>For proposals that solely entail a buyback or a grant of AGENT2 tokens, the requirement that AGENT2 token holders must hold at least 1% of the circulating token supply to submit a proposal is waived. However, all other procedural requirements within the Root Edit process continue to apply.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Short-Term Transitionary Measures</dfn>
+          </td>
+          <td>Launch Agent 2</td>
+          <td>Core</td>
+          <td>Until the Powerhouse system supports submitting Artifact Edit Proposals, AGENT2 token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Launch Agent 2 Star" category. The title of the post must include the text "Launch Agent 2 Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total AGENT2 token supply specified in Root Edit Proposal Submission.</td>
         </tr>
         <tr>
           <td>
@@ -37544,6 +37560,14 @@
         </tr>
         <tr>
           <td>
+            <dfn>Short-Term Transitionary Measures</dfn>
+          </td>
+          <td>Launch Agent 2</td>
+          <td>Core</td>
+          <td>Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Governance Facilitators to update the Atlas GitHub repository located at https://github.com/sky-ecosystem/next-gen-atlas/pulls to reflect proposals approved by Star Governance.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Artifact Edit Restrictions</dfn>
           </td>
           <td>Launch Agent 2</td>
@@ -37573,7 +37597,7 @@
           <td>Launch Agent 2</td>
           <td>Core</td>
           <td>
-            In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in <dfn>A.1.8 - Emergency Response System - Emergency Response - Definition Of Emergency Situations</dfn>, the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Launch Agent 2" tag), unless doing so would endanger Launch Agent 2 or its users.
+            In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in <dfn>A.1.8 - Emergency Response System - Emergency Response - Definition Of Emergency Situations</dfn>, the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Launch Agent 2 Star" category), unless doing so would endanger Launch Agent 2 or its users.
           </td>
         </tr>
         <tr>
@@ -38228,7 +38252,7 @@
           </td>
           <td>Launch Agent 2</td>
           <td>Core</td>
-          <td>Operational GovOps reviews Launch Agent 2's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Launch Agent 2" tag and work with Launch Agent 2 to resolve the disagreement. If Operational GovOps and Launch Agent 2 cannot resolve the disagreement, it must be escalated to Core GovOps.</td>
+          <td>Operational GovOps reviews Launch Agent 2's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Launch Agent 2 Star" category and work with Launch Agent 2 to resolve the disagreement. If Operational GovOps and Launch Agent 2 cannot resolve the disagreement, it must be escalated to Core GovOps</td>
         </tr>
         <tr>
           <td>
@@ -40110,7 +40134,7 @@
           </td>
           <td>Launch Agent 2</td>
           <td>Core</td>
-          <td>Launch Agent 2 uses the Sky Forum for governance-related discussion. Posts should use the "Launch Agent 2" tag.</td>
+          <td>Launch Agent 2 uses the Sky Forum for governance-related discussion. Posts should use the "Launch Agent 2 Star" category.</td>
         </tr>
         <tr>
           <td>
@@ -41259,7 +41283,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The Root Edit process begins with an AGENT3 token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. An AGENT3 token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Launch Agent 3" tag.</td>
+          <td>Edit process begins with an AGENT3 token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. An AGENT3 token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Launch Agent 3 Star" category.</td>
         </tr>
         <tr>
           <td>
@@ -41268,6 +41292,14 @@
           <td>Launch Agent 3</td>
           <td>Core</td>
           <td>For proposals that solely entail a buyback or a grant of AGENT3 tokens, the requirement that AGENT3 token holders must hold at least 1% of the circulating token supply to submit a proposal is waived. However, all other procedural requirements within the Root Edit process continue to apply.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Short-Term Transitionary Measures</dfn>
+          </td>
+          <td>Launch Agent 3</td>
+          <td>Core</td>
+          <td>Until the Powerhouse system supports submitting Artifact Edit Proposals, AGENT3 token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Launch Agent 3 Star" category. The title of the post must include the text "Launch Agent 3 Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total AGENT3 token supply specified in Root Edit Proposal Submission.</td>
         </tr>
         <tr>
           <td>
@@ -41303,6 +41335,14 @@
         </tr>
         <tr>
           <td>
+            <dfn>Short-Term Transitionary Measures</dfn>
+          </td>
+          <td>Launch Agent 3</td>
+          <td>Core</td>
+          <td>Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Governance Facilitators to update the Atlas GitHub repository located at https://github.com/sky-ecosystem/next-gen-atlas/pulls to reflect proposals approved by Star Governance.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Artifact Edit Restrictions</dfn>
           </td>
           <td>Launch Agent 3</td>
@@ -41332,7 +41372,7 @@
           <td>Launch Agent 3</td>
           <td>Core</td>
           <td>
-            In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in <dfn>A.1.8 - Emergency Response System - Emergency Response - Definition Of Emergency Situations</dfn>, the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Launch Agent 3" tag), unless doing so would endanger Launch Agent 3 or its users.
+            In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in <dfn>A.1.8 - Emergency Response System - Emergency Response - Definition Of Emergency Situations</dfn>, the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Launch Agent 3 Star" category), unless doing so would endanger Launch Agent 3 or its users.
           </td>
         </tr>
         <tr>
@@ -41987,7 +42027,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>Operational GovOps reviews Launch Agent 3's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Launch Agent 3" tag and work with Launch Agent 3 to resolve the disagreement. If Operational GovOps and Launch Agent 3 cannot resolve the disagreement, it must be escalated to Core GovOps.</td>
+          <td>Operational GovOps reviews Launch Agent 3's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Launch Agent 3 Star" category and work with Launch Agent 3 to resolve the disagreement. If Operational GovOps and Launch Agent 3 cannot resolve the disagreement, it must be escalated to Core GovOps.</td>
         </tr>
         <tr>
           <td>
@@ -45221,7 +45261,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>Launch Agent 3 uses the Sky Forum for governance-related discussion. Posts should use the "Launch Agent 3" tag.</td>
+          <td>Launch Agent 3 uses the Sky Forum for governance-related discussion. Posts should use the "Launch Agent 3 Star" category.</td>
         </tr>
         <tr>
           <td>
