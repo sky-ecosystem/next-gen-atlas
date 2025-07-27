@@ -13433,7 +13433,7 @@
           </td>
           <td>Slippage</td>
           <td>Core</td>
-          <td>The Slippage $S$ is the estimated slippage for liquidating the entire position in one block.</td>
+          <td>The Slippage $S$ is the estimated slippage for liquidating the entire position in one block. The estimated slippage should not exceed 25%.</td>
         </tr>
         <tr>
           <td>
@@ -13580,6 +13580,14 @@
           <td>Ethena-Related Assets</td>
           <td>Core</td>
           <td>The portion of exposure to lending markets that is backed by Ethena-related assets is not subject to the standard Instance Financial RRC calculation. Instead, an alternative calculation method applies: the Instance Financial RRC Ratio for indirect Ethena exposure through lending markets should be applied for this portion. See <dfn>A.3.3 - Near-Term Treatment</dfn>. This portion of exposure is calculated based on the proportional debt amount backed by Ethena-related assets, weighted by the collateral amount times liquidation threshold.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Aave And SparkLend</dfn>
+          </td>
+          <td>Aave And SparkLend</td>
+          <td>Core</td>
+          <td>Because Aave and SparkLend liquidate a maximum of 50% of a user’s position, the Slippage parameter for Aave and SparkLend should be the estimated slippage for liquidating half of the position in one block. See <dfn>A.3.3 - Slippage</dfn>.</td>
         </tr>
         <tr>
           <td>
