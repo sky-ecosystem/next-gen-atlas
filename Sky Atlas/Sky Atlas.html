@@ -539,7 +539,7 @@
           </td>
           <td>SKY Staking Mechanism</td>
           <td>Article</td>
-          <td>This Article governs the SKY Staking Mechanism that grants voting rewards on staked SKY tokens and its associated SKY-backed borrowing mechanism funded via the yUSDS token.</td>
+          <td>This Article governs the SKY Staking Mechanism that grants voting rewards on staked SKY tokens and its associated SKY-backed borrowing mechanism funded via the stUSDS token.</td>
         </tr>
         <tr>
           <td>
@@ -909,11 +909,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.0.1 - Atlas Preamble - Definitions - yUSDS</dfn>
+            <dfn>A.0.1 - Atlas Preamble - Definitions - stUSDS</dfn>
           </td>
-          <td>Atlas Preamble - Definitions - yUSDS</td>
+          <td>Atlas Preamble - Definitions - stUSDS</td>
           <td>Core</td>
-          <td>The token used to provide the capital for SKY Staking leverage is called yUSDS. It ensures that all SKY-backed borrowing is funded by segregated risk capital. Users can deposit USDS into a smart contract and receive yUSDS, which can later be converted back to USDS as long as there is unutilized USDS in the yUSDS converter smart contract.</td>
+          <td>The token used to provide the capital for SKY Staking leverage is called stUSDS. It ensures that all SKY-backed borrowing is funded by segregated risk capital. Users can deposit USDS into a smart contract and receive stUSDS, which can later be converted back to USDS as long as there is unutilized USDS in the stUSDS converter smart contract.</td>
         </tr>
         <tr>
           <td>
@@ -17533,72 +17533,72 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing</td>
           <td>Core</td>
-          <td>SKY stakers can borrow USDS against their staked SKY collateral. This borrowing will be facilitated exclusively by the yUSDS system which will provide protocol-independent, or segregated, risk capital. The yUSDS system is currently in development; its elements are outlined in the subdocuments below. During the transition period to the yUSDS system, the protocol-dependent SKY-backed borrowing system remains operational and is governed by <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures</dfn>.</td>
+          <td>SKY stakers can borrow USDS against their staked SKY collateral. This borrowing will be facilitated exclusively by the stUSDS system which will provide protocol-independent, or segregated, risk capital. The stUSDS system is currently in development; its elements are outlined in the subdocuments below. During the transition period to the stUSDS system, the protocol-dependent SKY-backed borrowing system remains operational and is governed by <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures</dfn>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Function</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Function</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Function</td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Function</td>
           <td>Core</td>
-          <td>yUSDS is a yield-bearing token representing USDS deposited into the yUSDS contract. Its primary function is to provide segregated risk capital for the SKY-backed borrowing mechanism. Users convert USDS to yUSDS to provide this capital and earn the yUSDS Rate. See <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Rate</dfn>. yUSDS can be converted back to USDS subject to available unutilized liquidity in the yUSDS converter contract.</td>
+          <td>stUSDS is a yield-bearing token representing USDS deposited into the stUSDS contract. Its primary function is to provide segregated risk capital for the SKY-backed borrowing mechanism. Users convert USDS to stUSDS to provide this capital and earn the stUSDS Rate. See <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate</dfn>. stUSDS can be converted back to USDS subject to available unutilized liquidity in the stUSDS converter contract.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Rate</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Rate</td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate</td>
           <td>Core</td>
-          <td>The variable yield earned by yUSDS holders is calculated using the formula:<br><pre><code>
-            yUSDS Rate = Utilization * (SKY Borrow Rate - yUSDS Accessibility Reward) + (1 - Utilization) * Sky Savings Rate</code></pre><br> Depositors earn a rate derived from the SKY Borrow Rate less the yUSDS Accessibility Reward on the utilized portion of their capital and the Sky Savings Rate on the unutilized portion.</td>
+          <td>The variable yield earned by stUSDS holders is calculated using the formula:<br><pre><code>
+            stUSDS Rate = Utilization * (SKY Borrow Rate - stUSDS Accessibility Reward) + (1 - Utilization) * Sky Savings Rate</code></pre><br> Depositors earn a rate derived from the SKY Borrow Rate less the stUSDS Accessibility Reward on the utilized portion of their capital and the Sky Savings Rate on the unutilized portion.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Rate - Parameters Definition</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Rate - Parameters Definition</td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition</td>
           <td>Core</td>
-          <td>The parameters of the yUSDS Rate formula are further defined in the documents herein.</td>
+          <td>The parameters of the stUSDS Rate formula are further defined in the documents herein.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Rate - Parameters Definition - Utilization Definition</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Rate - Parameters Definition - Utilization Definition</td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition</td>
           <td>Core</td>
-          <td>Utilization is the percent of funds in the yUSDS contract that are used to fund borrowing against staked SKY.</td>
+          <td>Utilization is the percent of funds in the stUSDS contract that are used to fund borrowing against staked SKY.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Rate - Parameters Definition - SKY Borrow Rate Definition</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - SKY Borrow Rate Definition</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Rate - Parameters Definition - SKY Borrow Rate Definition</td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - SKY Borrow Rate Definition</td>
           <td>Core</td>
           <td>SKY Borrow Rate is the SKY Borrow Rate defined in <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate</dfn>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Rate - Parameters Definition - Sky Savings Rate Definition</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Sky Savings Rate Definition</dfn>
           </td>
-          <td>SSKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Rate - Parameters Definition - Sky Savings Rate Definition</td>
+          <td>SSKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Sky Savings Rate Definition</td>
           <td>Core</td>
           <td>Sky Savings Rate is the Sky Savings Rate defined in <dfn>A.3.2 - Core Stability Parameters - Parameters - Sky Savings Rate.</dfn></td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Rate - Parameters Definition - yUSDS Accessibility Reward Definition</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - stUSDS Accessibility Reward Definition</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Rate - Parameters Definition - yUSDS Accessibility Reward Definition</td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - stUSDS Accessibility Reward Definition</td>
           <td>Core</td>
-          <td>yUSDS Accessibility Reward is defined in <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Accessibility Reward</dfn>.</td>
+          <td>stUSDS Accessibility Reward is defined in <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Accessibility Reward</dfn>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Holders' Risk Bearing</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Holders' Risk Bearing</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Holders' Risk Bearing</td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Holders' Risk Bearing</td>
           <td>Core</td>
-          <td>Holders of yUSDS accept the risk associated with providing capital for SKY-backed borrowing. In the event that the liquidation of a borrower's staked SKY collateral does not cover the outstanding debt, yUSDS balances will be subject to a haircut proportional to the shortfall. This mechanism ensures that the Sky Protocol is isolated from losses originating from the SKY-backed borrowing facility.</td>
+          <td>Holders of stUSDS accept the risk associated with providing capital for SKY-backed borrowing. In the event that the liquidation of a borrower's staked SKY collateral does not cover the outstanding debt, stUSDS balances will be subject to a haircut proportional to the shortfall. This mechanism ensures that the Sky Protocol is isolated from losses originating from the SKY-backed borrowing facility.</td>
         </tr>
         <tr>
           <td>
@@ -17606,7 +17606,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - Debt Ceiling</td>
           <td>Core</td>
-          <td>The maximum amount of USDS that can be borrowed against staked SKY is dynamically determined by, and equal to, the total amount of USDS currently held within the yUSDS contract. This dynamic ceiling will replace the static DC-IAM module and parameters associated with protocol-dependent, SKY-backed borrowing.</td>
+          <td>The maximum amount of USDS that can be borrowed against staked SKY is dynamically determined by, and equal to, the total amount of USDS currently held within the stUSDS contract. This dynamic ceiling will replace the static DC-IAM module and parameters associated with protocol-dependent, SKY-backed borrowing.</td>
         </tr>
         <tr>
           <td>
@@ -17614,7 +17614,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate</td>
           <td>Core</td>
-          <td>The interest rate charged to borrowers (SKY Borrow Rate) is dynamic and market-driven, based on the utilization of funds within the yUSDS contract. This dynamic rate will replace the static Stability Fee parameter associated with protocol-dependent, SKY-backed borrowing.</td>
+          <td>The interest rate charged to borrowers (SKY Borrow Rate) is dynamic and market-driven, based on the utilization of funds within the stUSDS contract. This dynamic rate will replace the static Stability Fee parameter associated with protocol-dependent, SKY-backed borrowing.</td>
         </tr>
         <tr>
           <td>
@@ -17622,7 +17622,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism</td>
           <td>Core</td>
-          <td>The SKY Borrow Rate adjusts to target a 90% utilization rate of the USDS in the yUSDS contract. When yUSDS utilization is below 90%, the rate gradually decreases; when above 90%, it gradually increases. The SKY Borrow Rate cannot fall below the SKY Borrow Minimum Rate. See <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - SKY Borrow Minimum Rate</dfn>.<br> The specific parameters and formula governing the rate of adjustment will be specified in a future iteration of the Atlas.</td>
+          <td>The SKY Borrow Rate adjusts to target a 90% utilization rate of the USDS in the stUSDS contract. When stUSDS utilization is below 90%, the rate gradually decreases; when above 90%, it gradually increases. The SKY Borrow Rate cannot fall below the SKY Borrow Minimum Rate. See <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - SKY Borrow Minimum Rate</dfn>.<br> The specific parameters and formula governing the rate of adjustment will be specified in a future iteration of the Atlas.</td>
         </tr>
         <tr>
           <td>
@@ -17631,7 +17631,7 @@
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - SKY Borrow Minimum Rate</td>
           <td>Core</td>
           <td>The SKY Borrow Minimum Rate is calculated according to the following formula:<pre><code>
-            SKY Borrow Minimum Rate = Sky Savings Rate + yUSDS Accessibility Reward</code></pre><br>The formula ensures the SKY Borrow Minimum Rate covers the baseline cost of capital (Sky Savings Rate) plus the incentive cost (yUSDS Accessibility Reward), preventing value-draining arbitrage where users could borrow below the Sky Savings Rate.</td>
+            SKY Borrow Minimum Rate = Sky Savings Rate + stUSDS Accessibility Reward</code></pre><br>The formula ensures the SKY Borrow Minimum Rate covers the baseline cost of capital (Sky Savings Rate) plus the incentive cost (stUSDS Accessibility Reward), preventing value-draining arbitrage where users could borrow below the Sky Savings Rate.</td>
         </tr>
         <tr>
           <td>
@@ -17651,27 +17651,27 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - SKY Borrow Minimum Rate - Parameters Definition - yUSDS Accessibility Reward Definition</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - SKY Borrow Minimum Rate - Parameters Definition - stUSDS Accessibility Reward Definition</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - SKY Borrow Minimum Rate - Parameters Definition - yUSDS Accessibility Reward Definition</td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - SKY Borrow Minimum Rate - Parameters Definition - stUSDS Accessibility Reward Definition</td>
           <td>Core</td>
-          <td>yUSDS Accessibility Reward is defined in <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Accessibility Reward</dfn>.</td>
+          <td>stUSDS Accessibility Reward is defined in <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Accessibility Reward</dfn>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Risk Parameters</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Risk Parameters</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Risk Parameters</td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Risk Parameters</td>
           <td>Core</td>
-          <td>This document defines the liquidation parameters for SKY-backed loans funded via yUSDS. These parameters will be specified in a future iteration of the Atlas.</td>
+          <td>This document defines the liquidation parameters for SKY-backed loans funded via stUSDS. These parameters will be specified in a future iteration of the Atlas.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Accessibility Reward</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Accessibility Reward</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - yUSDS Accessibility Reward</td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Accessibility Reward</td>
           <td>Core</td>
-          <td>The yUSDS Accessibility Reward is an incentive mechanism, similar to the USDS Accessibility Reward, designed to encourage Star Agents and Integrators to promote yUSDS adoption. See A.2.4 - Accessibility Reward Primitive. It is calculated as a percentage of the yUSDS balance associated with a Reward Code. The reward is initially set at 0.05% for the Integrator portion and 0.05% for the Star Agent Management Fee, totaling 0.1%.</td>
+          <td>The stUSDS Accessibility Reward is an incentive mechanism, similar to the USDS Accessibility Reward, designed to encourage Star Agents and Integrators to promote stUSDS adoption. See A.2.4 - Accessibility Reward Primitive. It is calculated as a percentage of the stUSDS balance associated with a Reward Code. The reward is initially set at 0.05% for the Integrator portion and 0.05% for the Star Agent Management Fee, totaling 0.1%.</td>
         </tr>
         <tr>
           <td>
@@ -17679,7 +17679,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures</td>
           <td>Core</td>
-          <td>The documents herein define short-term logic for SKY staking rewards and SKY-backed borrowing pending the implementation of the Sky Treasury Management Function and the yUSDS system. Short-term logic regarding MKR staking rewards and MKR-backed borrowing is also included herein.</td>
+          <td>The documents herein define short-term logic for SKY staking rewards and SKY-backed borrowing pending the implementation of the Sky Treasury Management Function and the stUSDS system. Short-term logic regarding MKR staking rewards and MKR-backed borrowing is also included herein.</td>
         </tr>
         <tr>
           <td>
@@ -17703,7 +17703,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY-Backed Borrowing</td>
           <td>Core</td>
-          <td>SKY-backed borrowing will be enabled as specified in A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade. In the short term, pending the development of the yUSDS system, SKY-backed borrowing will be funded directly by Sky. This funding must be replaced by the yUSDS system as soon as the yUSDS system is developed.</td>
+          <td>SKY-backed borrowing will be enabled as specified in A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade. In the short term, pending the development of the stUSDS system, SKY-backed borrowing will be funded directly by Sky. This funding must be replaced by the stUSDS system as soon as the stUSDS system is developed.</td>
         </tr>
         <tr>
           <td>
