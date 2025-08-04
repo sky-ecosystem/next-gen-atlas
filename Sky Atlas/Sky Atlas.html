@@ -2482,6 +2482,80 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module</dfn>
+          </td>
+          <td>Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module</td>
+          <td>Core</td>
+          <td>The Linear Interpolation Module (<code>lerp</code>) is a smart contract tool that allows a governance parameter to be adjusted on a straight-line basis over time, without requiring additional Executive Votes. The Linear Interpolation Module refers to the smart contract logic that enables time-based parameter changes. To deploy individual </code>lerp</code> instances, each of which manages the adjustment of a specific parameter over time, the Linear Interpolation Module Factory contract is used. Once authorized through an Executive Vote, the <code>lerp</code> may enact parameter changes without being subject to the GSM Pause Delay. The subdocuments herein specify the features of the <code>lerp</code> and its authorized use.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Features</dfn>
+          </td>
+          <td>Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Features</td>
+          <td>Core</td>
+          <td>The <code>lerp</code> must be activated in an Executive Vote but can thereafter change the value of the designated parameter without additional Executive Votes. Each <code>lerp</code> instance is defined in terms of a <code>start</code> value, representing the desired starting value, an end value, representing the desired ending value, and a <code>duration</code> over which the parameter will be adjusted between the starting value and the ending value. Any user can then permissionlessly call <code>tick</code> to set the governance parameter to the appropriate value based on the time elapsed.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Features - Linear Interpolation Module Parameters</dfn>
+          </td>
+          <td>Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Features - Linear Interpolation Module Parameters</td>
+          <td>Core</td>
+          <td>Each lerp instance has the following parameters:
+            <ul>
+              <li><code>target</code> - The target contract in which a parameter is being changed</li>
+              <li><code>what</code> - The name of the parameter being changed</li>
+              <li><code>startTime</code> - The starting time of this <code>lerp</code> instance</li>
+              <li><code>start</code> - The starting value of that parameter</li>
+              <li><code>end</code> - The ending value of that parameter</li>
+              <li><code>duration</code> - How long this <code>lerp</code> instance will run for</li>
+              <li><code>done</code> - Indicates whether this given <code>lerp</code> instance is completed or not</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Features - Linear Interpolation Module Factory</dfn>
+          </td>
+          <td>Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Features - Linear Interpolation Module Factory</td>
+          <td>Core</td>
+          <td><code>lerp</code> instances are created using a factory contract LERP_FAB that contains standard logic for creating those instances and maintains a registry of all active <code>lerp</code> instances. The contract may also be used to cancel an existing <code>lerp</code> instance through the remove function. The factory contract provides a list method that lists the addresses of all active <code>lerp</code> instances, as well as a <code>tall</code> (short for "tick all") method that calls <code>tick</code> on all active contracts.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Usage Process Definition</dfn>
+          </td>
+          <td>Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Usage Process Definition</td>
+          <td>Core</td>
+          <td>The subdocuments herein define the governance process for using the Linear Interpolation Module.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Usage Process Definition - Linear Interpolation Module Authorization</dfn>
+          </td>
+          <td>Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Usage Process Definition - Linear Interpolation Module Authorization</td>
+          <td>Core</td>
+          <td>The Facilitators responsible for the Scope that governs the parameter to be adjusted by the Linear Interpolation Module, in consultation with the Scope Advisor(s), may recommend deploying the Linear Interpolation Module for parameter adjustments.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Usage Process Definition - Linear Interpolation Module Authorization - Linear Interpolation Module Consideration</dfn>
+          </td>
+          <td>Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Usage Process Definition - Linear Interpolation Module Authorization - Linear Interpolation Module Consideration</td>
+          <td>Core</td>
+          <td>The Facilitators must take into consideration the benefits and costs with using the Linear Interpolation Module. A longer duration has the benefit of adjusting the parameter more slowly, giving users more time to adjust. However, the drawback of a longer duration is that the parameter will not reach its desired end value for a longer period of time. When the cost of a parameter not being at its desired value is high, use of the Linear Interpolation Module is not appropriate and the parameter should be adjusted to its desired value following the required process.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Usage Process Definition - Linear Interpolation Module Authorization - Governance Process For Linear Interpolation Module</dfn>
+          </td>
+          <td>Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Usage Process Definition - Linear Interpolation Module Authorization - Governance Process For Linear Interpolation Module</td>
+          <td>Core</td>
+          <td>The process to utilize the Linear Interpolation Module to adjust a parameter must follow the same governance process required to modify the designated parameter. If the parameter can be updated directly through an Executive Vote, then utilizing the Linear Interpolation Module to adjust it may also be included directly in an Executive Vote. If modifying the parameter requires a prior Governance Poll, then utilizing the Linear Interpolation Module for that parameter must also be preceded by a Governance Poll.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.1.9 - A3 - Sky Core Governance Security - Governance Security Culture And Research</dfn>
           </td>
           <td>Sky Core Governance Security - Governance Security Culture And Research</td>
@@ -10018,7 +10092,143 @@
           </td>
           <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation</td>
           <td>Core</td>
-          <td>In Stage 1 of the implementation of the Monthly Settlement Cycle, the net amount due from each Star to Sky will be calculated using a Simplified Profit And Loss Calculation. The Simplified Profit And Loss Calculation will be specified in a future iteration of the Atlas.</td>
+          <td>In Stage 1 of the implementation of the Monthly Settlement Cycle, the net amount due from each Star to Sky will be calculated using a Simplified Profit And Loss Calculation as specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Stars With Respect To Demand Side Primitives And Agent Rate</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Stars With Respect To Demand Side Primitives And Agent Rate</td>
+          <td>Core</td>
+          <td>The amount due from Sky to each Star with respect to Demand Side Primitives and the Agent Rate is calculated as specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Stars With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Stars With Respect To Accessibility Reward</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Stars With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Stars With Respect To Accessibility Reward</td>
+          <td>Core</td>
+          <td>The amount due from Sky to a Star in a month with respect to the Accessibility Reward is the amount earned by the Star with respect to all USDS and sUSDS balances marked with the Star's reward codes. See <dfn>A.2.4 - Accessibility Reward Primitive</dfn>. This includes any Bonus Accessibility Reward. See <dfn>A.2.10 - 2025 Bonus</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Stars With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Stars With Respect To Agent Rate</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Stars With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Stars With Respect To Agent Rate</td>
+          <td>Core</td>
+          <td>The amount due from Sky to a Star in a month with respect to the Agent Rate is calculated as specified in <dfn>A.3.2 - Core Stability Parameters - Parameters - Agent Rate</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Stars With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Stars With Respect To Accessibility Reward And Agent Rate</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Stars With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Stars With Respect To Accessibility Reward And Agent Rate</td>
+          <td>Core</td>
+          <td>The amount due from Sky to a Star in a month with respect to the Accessibility Reward and the Agent Rate is the sum of the amounts specified in <dfn>A.2.6 - Amount Due From Sky To Stars With Respect To Accessibility Reward</dfn> and <dfn>A.2.6 - Amount Due From Sky To Stars With Respect To Agent Rate</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives</td>
+          <td>Core</td>
+          <td>The amount due from each Star to Sky with respect to Supply Side Primitives is calculated as specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 1: Calculate Total Allocation System Revenue</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 1: Calculate Total Allocation System Revenue</td>
+          <td>Core</td>
+          <td>First, Total Allocation System Revenue is calculated for each Star for the month. Total Allocation System Revenue for a Star in a month is the sum of Instance Revenue for each Active Instance of the Allocation System Primitive that the Star has deployed.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 1: Calculate Total Allocation System Revenue - Instance Revenue</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 1: Calculate Total Allocation System Revenue - Instance Revenue</td>
+          <td>Core</td>
+          <td>First, Total Allocation System Revenue is calculated for each Star for the month. Total Allocation System Revenue for a Star in a month is the sum of Instance Revenue for each Active Instance of the Allocation System Primitive that the Star has deployed.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit</td>
+          <td>Core</td>
+          <td>Second, Total Allocation System Profit is calculated for each Star for the month. Total Allocation System Profit for a Star in a month is the sum of Instance Profit for each Active Instance of the Allocation System Primitive that the Star has deployed.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit - Instance Profit</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit - Instance Profit</td>
+          <td>Core</td>
+          <td>Instance Profit for an Allocation System Instance is equal to the greater of (1) Instance Revenue (see <dfn>A.2.6 - Instance Revenue</dfn>) minus Instance Expenses (see <dfn>A.2.6 - Instance Expense</dfn>) and (2) zero.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit - Instance Profit - Instance Expense</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit - Instance Profit - Instance Expense</td>
+          <td>Core</td>
+          <td>Instance Expense for an Allocation System Instance for a month is the interest expense on the funds from Sky's Collateral Portfolio invested in the Instance. It is calculated on a per block basis based on the amount invested from Sky's Collateral Portfolio and the Base Rate.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit</td>
+          <td>Core</td>
+          <td>Third, Adjusted Allocation System Profit is calculated for each Star for the month. Adjusted Allocation System Profit for a Star in a month is Total Allocation System Profit minus the Distortion Penalty (see <dfn>A.2.6 - Distortion Penalty</dfn>) and the Low Yield Actively Stabilizing Collateral Penalty (see <dfn>A.2.6 - Low Yield Actively Stabilizing Collateral Penalty</dfn>).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Distortion Penalty</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Distortion Penalty</td>
+          <td>Core</td>
+          <td><p>The Distortion Penalty is a discretionary penalty designed to mitigate the potential misalignment caused by the asymmetric nature of the Simplified Profit And Loss Calculation, where Stars earn profits on Allocation System Instances that earn more than the Base Rate but do not suffer losses when Instances earn less than the Base Rate.</p><p>The Core Executor Agent, in consultation with the Stability Facilitators and the Stability Scope Advisors, may assess a penalty of up to 100% of Total Allocation System Profit (see <dfn>A.2.6 - Step 2: Calculate Total Allocation System Profit</dfn>) if it determines that a Star's decisions were distorted by this incentive structure.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty</td>
+          <td>Core</td>
+          <td><p>The Low Yield Actively Stabilizing Collateral Penalty is a formulaic penalty designed to prevent Stars from holding excessive amounts of low yield Actively Stabilizing Collateral.</p><p>The penalty, as a percentage of the Total Allocation System Profit, is the lesser of (1) ten times the Excess Low Yield Actively Stabilizing Collateral Percentage and (2) 100%.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty - Excess Low Yield Actively Stabilizing Collateral Percentage</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty - Excess Low Yield Actively Stabilizing Collateral Percentage</td>
+          <td>Core</td>
+          <td>The Excess Low Yield Actively Stabilizing Collateral Percentage for a Star is equal to the excess of (1) its Low Yield Actively Stabilizing Collateral (see A.2.6 - Low Yield Actively Stabilizing Collateral) as a percentage of its Collateral Portfolio above (2) its Minimum Actively Stabilizing Collateral (see <dfn>A.3.4 - Minimum Actively Stabilizing Collateral</dfn>) as a percentage of its Collateral Portfolio.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty - Excess Low Yield Actively Stabilizing Collateral Percentage - Low Yield Actively Stabilizing Collateral</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty - Excess Low Yield Actively Stabilizing Collateral Percentage - Low Yield Actively Stabilizing Collateral</td>
+          <td>Core</td>
+          <td>Low Yield Actively Stabilizing Collateral is Actively Stabilizing Collateral (see <dfn>A.3.4 - Actively Stabilizing Collateral</dfn>) that earns less than the Base Rate.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 4: Calculate Amount Due To Sky With Respect To Supply Side Primitives</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 4: Calculate Amount Due To Sky With Respect To Supply Side Primitives</td>
+          <td>Core</td>
+          <td>Fourth, the amount due to Sky with respect to Supply Side Primitives is calculated for each Star for the month. The amount due to Sky with respect to Supply Side Primitives is Total Allocation System Revenue (see <dfn>A.2.6 - Step 1: Calculate Total Allocation System Revenue</dfn>) minus Adjusted Allocation System Profit (see <dfn>A.2.6 - Step 3: Calculate Adjusted Allocation System Profit</dfn>).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Net Amount Due From Stars To Sky</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Net Amount Due From Stars To Sky</td>
+          <td>Core</td>
+          <td><p>The net amount due from each Star to Sky is the amount due from the Star to Sky with respect to Supply Side Primitives (see <dfn>A.2.6 - Amount Due From Stars To Sky With Respect To Supply Side Primitives</dfn>) plus any amount due from the Star to Sky with respect to the Token Launch Penalty (see <dfn>A.2.10 - Token Launch Penalty</dfn>) minus the amount due from Sky to the Star with respect to Demand Side Primitives and the Agent Rate (see <dfn>A.2.6 - Amount Due From Sky To Stars With Respect To Demand Side Primitives And Agent Rate</dfn>).</p><p>Net amounts due from a Star to Sky are transferred from the Star's Treasury to the Surplus Buffer through a Star Spell included in an Executive Vote. Net amounts due from Sky to a Star are transferred from the Surplus Buffer to the Star's Treasury through an Executive Vote.</p></td>
         </tr>
         <tr>
           <td>
@@ -10043,14 +10253,6 @@
           <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Actions - Reduction Of Star Allocator Vault Stability Fees</td>
           <td>Core</td>
           <td>The Stability Fees for each Star Allocator Vault must be reduced to zero so that value is transferred from Stars to Sky Core exclusively through Executive Votes. The Core Executor Agent, in consultation with the Stability Facilitators and the Stability Scope Advisors, is directed to use the Stability Parameter Bounded External Access Module to reduce the Stability Fee for each Star Allocator Vault to zero. See <dfn>A.3.9 - Measures For Endgame Transition - Stability Parameter Bounded External Access Module - Allocator Vault Parameters</dfn>.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Actions - Documentation Of Simplified Profit And Loss Calculation</dfn>
-          </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Actions - Documentation Of Simplified Profit And Loss Calculation</td>
-          <td>Core</td>
-          <td>The Core Executor Agent must document the Simplified Profit And Loss Calculation herein.</td>
         </tr>
         <tr>
           <td>
@@ -10482,6 +10684,51 @@
           <td>Grand Prix Airdrops</td>
           <td>Core</td>
           <td>Grove receives any airdrops from the Grand Prix.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.10 - USDe and sUSDe Revenue Share</dfn>
+          </td>
+          <td>USDe and sUSDe Revenue Share</td>
+          <td>Core</td>
+          <td>Spark and Grove agree to share revenue from USDe and sUSDe as specified in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.10 - Revenue Share</dfn>
+          </td>
+          <td>Revenue Share</td>
+          <td>Core</td>
+          <td>Spark and Grove will share 50% of all revenue and expenses associated with Spark's Allocation System investments in USDe and sUSDe. Revenue includes (1) protocol yield on the amount deployed into these assets, (2) any OTC or negotiated arrangements, payments, or incentives, and (3) manual payments or rebates related to withdrawal activity. Expenses include all costs associated with Spark's investment in USDe and sUSDe, including mint / burn fees, swap fees, and costs of borrowing funds from Sky.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.10 - Risk Capital Share</dfn>
+          </td>
+          <td>Risk Capital Share</td>
+          <td>Core</td>
+          <td>Grove agrees to rent to Spark 50% of the Required Risk Capital associated with Spark's investments in USDe and sUSDe as a Junior Risk Capital Rental. See <dfn>A.2.4 - Junior Risk Capital Rental Primitive</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.10 - Implementation</dfn>
+          </td>
+          <td>Implementation</td>
+          <td>Core</td>
+          <td><p>Spark and Grove expressly intend that Grove shares in 50% of the risks of Spark's investment in USDe and sUSDe and not in the risk of any other investments by Spark.</p><p>To the extent that USDe or sUSDe investments experience losses and Spark is allocated a greater than 50% share of those losses relative to Grove under the TIP JRC mechanism (see <dfn>A.3.3 - Initial Loss Absorption By "Tip JRC"</dfn>), Grove will transfer funds to Spark so that Grove and Spark each bear 50% of the losses that occur.</p><p>To the extent that Spark experiences losses on investments other than USDe or sUSDe and a portion of those losses is allocated to the Junior Risk Capital rented from Grove, Spark shall reimburse Grove for those losses.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.10 - Term</dfn>
+          </td>
+          <td>Term</td>
+          <td>Core</td>
+          <td><p>This revenue share shall be effective retroactively, dated back to the launch of Spark's allocation into USDe and sUSDe beginning the week of July 14, 2025.</p><p>It shall remain in effect until one of the following conditions is met, whichever occurs first:</p>
+            <ol>
+              <li>Grove begins to allocate capital to USDe or sUSDe directly; or</li>
+              <li>Spark or Grove terminates the revenue share, with reasonable advance notice to the other party.</li>
+            </ol>
+            <p>Any changes to the structure or scope of this arrangement will be discussed transparently and approved by both Spark and Grove.</p></td>
         </tr>
         <tr>
           <td>
@@ -11088,7 +11335,7 @@
           </td>
           <td>Token Launch Penalty</td>
           <td>Core</td>
-          <td>If either Spark or Grove (each, a "Star") does not complete its Star Token Generation Event ("TGE") by July 1, 2025, a penalty of thirty percent (30%) will apply. This penalty will be calculated on the income (as defined in <dfn>A.2.10 - Income Definition</dfn>) the Star is receiving or is meant to receive (including revenue that has accrued but has not been transferred) until the TGE occurs. The penalty shall be deducted from the Genesis Capital Allocation at the time of the Capital Transfer.</td>
+          <td><p>If either Spark or Grove (each, a "Star") does not complete its Star Token Generation Event ("TGE") by July 1, 2025, a penalty of thirty percent (30%) will apply. This penalty will be calculated on the income (as defined in <dfn>A.2.10 - Income Definition</dfn>) the Star is receiving or is meant to receive (including revenue that has accrued but has not been transferred) until the TGE occurs.</p><p>The penalty shall be deducted from the Genesis Capital Allocation at the time of the Capital Transfer. If the Star has already received its Genesis Capital Allocation, then the 30% penalty is paid as part of the Monthly Settlement Cycle. See <dfn>A.2.6 - Net Amount Due From Stars To Sky</dfn>.</p></td>
         </tr>
         <tr>
           <td>
@@ -12775,7 +13022,30 @@
           </td>
           <td>Application To Real World Assets</td>
           <td>Core</td>
-          <td>Investments in Real World Assets, as defined in <dfn>A.3.3 - Real World Assets</dfn>, automatically have Instance Smart Contract RRC and Instance Admin RRC of zero. An additional type of Legal RRC, reflecting the unique risks of these assets, will be incorporated in future iterations of the Risk Framework.</td>
+          <td> Investments in Real World Assets, as defined in <dfn>A.3.3 - Real World Assets</dfn>, have Instance Smart Contract RRC and Instance Admin RRC as specified in the documents herein. An additional type of Legal RRC, reflecting the unique risks of these assets, will be incorporated in future iterations of the Risk Framework.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Short Term Application To Real World Assets</dfn>
+          </td>
+          <td>Short Term Application To Real World Assets</td>
+          <td>Core</td>
+          <td>In the short term, investments in the following Real World Assets automatically have Instance Smart Contract RRC and Instance Admin RRC of zero:
+            <ul>
+              <li>BUIDL</li>
+              <li>JTRSY</li>
+              <li>USTB</li>
+              <li>JAAA through Centrifuge v2</li>
+            </ul>
+            All other investments in RWAs have Instance Total RRC of 100%.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Long Term Application To Real World Assets</dfn>
+          </td>
+          <td>Long Term Application To Real World Assets</td>
+          <td>Core</td>
+          <td>In the long term, adapted frameworks for Smart Contract Risk and Administrative Risk for Real World Assets must be developed. These frameworks should take into account (1) the reduced risk in an expected worst case scenario due to the legal backstop on these assets and (2) the factors normally considered in assessing Smart Contract Risk and Administrative Risk.</td>
         </tr>
         <tr>
           <td>
@@ -12784,6 +13054,14 @@
           <td>Incorporation Of Additional Types Of RRC</td>
           <td>Core</td>
           <td>Additional types of RRC reflecting other risk factors, including legal risk and oracle risk, will be incorporated in future iterations of the Risk Framework.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Inability To Calculate Types Of RRC</dfn>
+          </td>
+          <td>Inability To Calculate Types Of RRC</td>
+          <td>Core</td>
+          <td>If Instance Financial RRC, Instance Smart Contract Risk RRC, or Instance Admin Risk RRC for an Instance cannot be calculated then the Instance Total RRC is 100%.</td>
         </tr>
         <tr>
           <td>
@@ -12839,7 +13117,7 @@
           </td>
           <td>Financial Risk Models</td>
           <td>Core</td>
-          <td>The conceptual framework for financial risk is implemented through asset class specific risk models. The documents herein define the asset classes that risk models exist or are being developed for, including the high level approach and examples of relevant assets. Investments may only be made using the Allocation System if they are covered by one of the Financial Risk models herein.</td>
+          <td>The conceptual framework for financial risk is implemented through asset class specific risk models. The documents herein define the asset classes that risk models exist or are being developed for, including the high level approach and examples of relevant assets.</td>
         </tr>
         <tr>
           <td>
@@ -12942,9 +13220,25 @@
           <td>In the near term pending development of the implementation of the model for Real World Assets, the following Instance Financial RRC Ratios will apply:
             <ul>
               <li>BUIDL, JTRSY, and USTB - 0% Instance Financial RRC Ratio</li>
-              <li>JAAA - 1.6% Instance Financial RRC Ratio</li>
+              <li>JAAA on Ethereum Mainnet - 1.6% Instance Financial RRC Ratio</li>
+              <li>JAAA on Avalanche - 2.1% Instance Financial RRC Ratio</li>
             </ul>
-            In the near term, only BUIDL, JTRSY, USTB, and JAAA will be eligible for investment under this provision.
+            In the near term, only BUIDL, JTRSY, USTB, and JAAA through Centrifuge v2 will be eligible for investment under this provision. All other investments in Real World Assets have a 100% Instance Total RRC as specified in <dfn>A.3.3 - Short Term Application To Real World Assets</dfn>.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Additional Restrictions On Investments In JAAA On Avalanche</dfn>
+          </td>
+          <td>Additional Restrictions On Investments In JAAA On Avalanche</td>
+          <td>Core</td>
+          <td>Investments in JAAA on Avalanche are subject to the following additional restrictions:
+            <ul>
+              <li>The initial deployment of capital into JAAA on Avalanche may not exceed 20 million USDS;</li>
+              <li>Each additional deployment of capital into JAAA must be approved by the Stability Scope Advisors;</li>
+              <li>The Star must be below a 90% Risk Tolerance Ratio on a pro forma basis assuming that each additional deployment of capital into JAAA requires 100% Instance Total RRC; and</li>
+              <li>Total investments in JAAA on Avalanche may not exceed 250 million USDS.</li>
+            </ul>
           </td>
         </tr>
         <tr>
@@ -14734,14 +15028,6 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.3.3 - Maple</dfn>
-          </td>
-          <td>Maple</td>
-          <td>Core</td>
-          <td>The Smart Contract Risk Rating for Maple is <code>20</code>.</td>
-        </tr>
-        <tr>
-          <td>
             <dfn>A.3.3 - Fluid</dfn>
           </td>
           <td>Fluid</td>
@@ -14835,14 +15121,6 @@
           <td>Exceptions</td>
           <td>Core</td>
           <td>The documents herein define exceptions to the calculation of Instance Administrative RRC for specific protocols.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.3 - Maple</dfn>
-          </td>
-          <td>Maple</td>
-          <td>Core</td>
-          <td>The Administrative Risk Rating for Maple is <code>20</code>.</td>
         </tr>
         <tr>
           <td>
@@ -15618,7 +15896,7 @@
           </td>
           <td>Minimum Actively Stabilizing Collateral</td>
           <td>Core</td>
-          <td>Star Agents must maintain at least 20% of their Collateral Portfolio in Actively Stabilizing Collateral.</td>
+          <td>Star Agents must maintain at least 25% of their Collateral Portfolio in Actively Stabilizing Collateral.</td>
         </tr>
         <tr>
           <td>
@@ -15626,24 +15904,71 @@
           </td>
           <td>Actively Stabilizing Collateral</td>
           <td>Core</td>
-          <td>Actively Stabilizing Collateral must provide buy support at a price of at least 0.999 USD per USDS (10bps downside spread). Actively Stabilizing Collateral includes cash stablecoins (e.g., USDC, USDT) in PSMs or decentralized exchanges (e.g., Curve), other stablecoins, crypto assets, or off-chain Real World Asset (RWA) loans to market makers, provided they meet the specified redemption price and transparency requirements.</td>
+          <td>Actively Stabilizing Collateral is the sum of (1) Resting Actively Stabilizing Collateral and (2) Latent Actively Stabilizing Collateral.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.3.4 - Actively Stabilizing Collateral Calculations</dfn>
+            <dfn>A.3.4 - Resting Actively Stabilizing Collateral</dfn>
           </td>
-          <td>Actively Stabilizing Collateral Calculations</td>
+          <td>Resting Actively Stabilizing Collateral</td>
           <td>Core</td>
-          <td>Actively Stabilizing Collateral is currently calculated as the sum of:
+          <td>Resting Actively Stabilizing Collateral must provide buy support at a price of at least 0.999 USD per USDS (10bps downside spread). Resting Actively Stabilizing Collateral includes cash stablecoins (e.g., USDC, USDT) in PSMs or decentralized exchanges (e.g., Curve), other stablecoins, crypto assets, or off-chain Real World Asset (RWA) loans to market makers, provided they meet the specified redemption price and transparency requirements.</td>
+        </tr>
+        <tr>
+        <tr>
+          <td>
+            <dfn>A.3.4 - Resting Actively Stabilizing Collateral Calculations</dfn>
+          </td>
+          <td>Resting Actively Stabilizing Collateral Calculations</td>
+          <td>Core</td>
+          <td>Resting Actively Stabilizing Collateral is currently calculated as the sum of:
             <ol>
               <li>USDC in the LitePSM;</li>
               <li>USDC in the PSM3 on Base, Arbitrum, Unichain, Optimism;</li>
               <li>USDT in Curve;</li>
-              <li>USDC in GUNI 0.01%;</li>
-              <li>USDC in GUNI 0.05%; and</li>
-              <li>USDC & USDT in a Star ALM Proxy.</li>
+              <li>USDC in GUNI 0.01%; and</li>
+              <li>USDC in GUNI 0.05%.</li>
             </ol>
           </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.4 - Latent Actively Stabilizing Collateral</dfn>
+          </td>
+          <td>Latent Actively Stabilizing Collateral</td>
+          <td>Core</td>
+          <td><p>Latent Actively Stabilizing Collateral consists of cash stablecoins that do not qualify as Resting Actively Stabilizing Collateral but can be converted to Resting Actively Stabilizing Collateral. Latent Actively Stabilizing Collateral may include cash stablecoins deposited into lending protocols, cash stablecoins used to provide liquidity to decentralized exchanges, or liquid staking derivatives of cash stablecoins.</p><p>Assets must satisfy the following requirements to qualify as Latent Actively Stabilizing Collateral:</p>
+            <ol>
+              <li>The assets must be verifiable onchain or through reputable APIs or oracles;</li>
+              <li>The assets must be able to be converted into Resting Actively Stabilizing Collateral within 15 minutes under normal market conditions; and</li>
+              <li>The process to convert the assets into Resting Actively Stabilizing Collateral must be fully automated and triggered automatically when ASC falls below specified levels.</li>
+            </ol>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.4 - Latent Actively Stabilizing Collateral Calculations </dfn>
+          </td>
+          <td>Latent Actively Stabilizing Collateral Calculations </td>
+          <td>Core</td>
+          <td>Latent Actively Stabilizing Collateral is currently calculated as the sum of:
+            <ol>
+              <li>USDC and USDT in Curve;</li>
+              <li>USDC and USDT in Uniswap;</li>
+              <li>USDC and USDT in SparkLend;</li>
+              <li>USDC and USDT in Aave;</li>
+              <li>USDC and USDT in Morpho; and</li>
+              <li>USDC & USDT in a Star ALM Proxy.</li>
+            </ol>
+            The Core Executor Agent, in consultation with the Stability Facilitators and the Stability Scope Advisors, may impose limitations on the size of exposures to these protocols or to specific pools within these protocols that qualify as Latent Actively Stabilizing Collateral in order to prevent excessive risk to Sky.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.4 - Maximum Latent Actively Stabilizing Collateral</dfn>
+          </td>
+          <td>Maximum Latent Actively Stabilizing Collateral</td>
+          <td>Core</td>
+          <td>Latent Actively Stabilizing Collateral may not exceed 25% of Actively Stabilizing Collateral.</td>
         </tr>
         <tr>
           <td>
