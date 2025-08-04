@@ -2494,7 +2494,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Features</td>
           <td>Core</td>
-          <td>The <code>lerp</code> must be activated in an Executive Vote but can thereafter change the value of the designated parameter without additional Executive Votes. Each <code>lerp</code> instance is defined in terms of a <code>start</code> value, representing the desired starting value, an end value, representing the desired ending value, and a <code>duration</code> over which the parameter will be adjusted between the starting value and the ending value. Any user can then permissionlessly call <code>tick</code> to set the governance parameter to the appropriate value based on the time elapsed.</td>
+          <td>The <code>lerp</code> must be activated in an Executive Vote but can thereafter change the value of the designated parameter without additional Executive Votes. Each <code>lerp</code> instance is defined in terms of a <code>start</code> value, representing the desired starting value, an <code>end</code> value, representing the desired ending value, and a <code>duration</code> over which the parameter will be adjusted between the starting value and the ending value. Any user can then permissionlessly call <code>tick</code> to set the governance parameter to the appropriate value based on the time elapsed.</td>
         </tr>
         <tr>
           <td>
@@ -2520,7 +2520,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Features - Linear Interpolation Module Factory</td>
           <td>Core</td>
-          <td><code>lerp</code> instances are created using a factory contract LERP_FAB that contains standard logic for creating those instances and maintains a registry of all active <code>lerp</code> instances. The contract may also be used to cancel an existing <code>lerp</code> instance through the remove function. The factory contract provides a list method that lists the addresses of all active <code>lerp</code> instances, as well as a <code>tall</code> (short for "tick all") method that calls <code>tick</code> on all active contracts.</td>
+          <td><code>lerp</code> instances are created using a factory contract LERP_FAB that contains standard logic for creating those instances and maintains a registry of all active <code>lerp</code> instances. The contract may also be used to cancel an existing <code>lerp</code> instance through the <code>remove</code> function. The factory contract provides a <code>list</code> method that lists the addresses of all active <code>lerp</code> instances, as well as a <code>tall</code> (short for "tick all") method that calls <code>tick</code> on all active contracts.</td>
         </tr>
         <tr>
           <td>
@@ -2544,7 +2544,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module - Linear Interpolation Module Usage Process Definition - Linear Interpolation Module Authorization - Linear Interpolation Module Consideration</td>
           <td>Core</td>
-          <td>The Facilitators must take into consideration the benefits and costs with using the Linear Interpolation Module. A longer duration has the benefit of adjusting the parameter more slowly, giving users more time to adjust. However, the drawback of a longer duration is that the parameter will not reach its desired end value for a longer period of time. When the cost of a parameter not being at its desired value is high, use of the Linear Interpolation Module is not appropriate and the parameter should be adjusted to its desired value following the required process.</td>
+          <td>The Facilitators must take into consideration the benefits and costs with using the Linear Interpolation Module. A longer <code>duration</code> has the benefit of adjusting the parameter more slowly, giving users more time to adjust. However, the drawback of a longer <code>duration</code> is that the parameter will not reach its desired <code>end</code> value for a longer period of time. When the cost of a parameter not being at its desired value is high, use of the Linear Interpolation Module is not appropriate, and the parameter should be adjusted to its desired value following the required process.</td>
         </tr>
         <tr>
           <td>
@@ -10148,7 +10148,7 @@
           </td>
           <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Stars To Sky With Respect To Supply Side Primitives - Step 1: Calculate Total Allocation System Revenue - Instance Revenue</td>
           <td>Core</td>
-          <td>First, Total Allocation System Revenue is calculated for each Star for the month. Total Allocation System Revenue for a Star in a month is the sum of Instance Revenue for each Active Instance of the Allocation System Primitive that the Star has deployed.</td>
+          <td>Instance Revenue for an Allocation System Instance for a month is all earnings from that Instance.</td>
         </tr>
         <tr>
           <td>
