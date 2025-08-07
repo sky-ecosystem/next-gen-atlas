@@ -13489,7 +13489,7 @@
           </td>
           <td>Calculate Capital Requirement Without Buffers</td>
           <td>Core</td>
-          <td><p>The fourth step is to calculate the Capital Requirement Without Buffers $K$. $K$ is calculated as follows:</p><p>$$K = \left[ LGD \times N\left( \frac{N^{-1}(PD) + \sqrt{R} \cdot N^{-1}(0.999)}{\sqrt{1-R}} \right) - RD \times LGD \right]$$</p><p>Here $N$ is the cumulative normal probability distribution function and $N^{-1}$ is the inverse cumulative normal probability distribution function.</p></td>
+          <td><p>The fourth step is to calculate the Capital Requirement Without Buffers $K$. $K$ is calculated as follows:</p><p>$$K = \left[ LGD \times N\left( \frac{N^{-1}(PD) + \sqrt{R} \cdot N^{-1}(0.999)}{\sqrt{1-R}} \right) - PD \times LGD \right]$$</p><p>Here $N$ is the cumulative normal probability distribution function and $N^{-1}$ is the inverse cumulative normal probability distribution function.</p></td>
         </tr>
         <tr>
           <td>
@@ -13694,13 +13694,13 @@
 
                   # 5) Probability of Default
                   try:
-                    RD = (
+                    pd = (
                         norm.cdf(-d1)
                         + norm.cdf(-d2) * (L / D) ** (-2 * a)
                     )
                   except OverflowError:
-                    RD = 1.0
-                  RD = max(0.0, min(pd, 1.0))
+                    pd = 1.0
+                  pd = max(0.0, min(pd, 1.0))
 
                   # 6) Loss Given Default
                   recovery = sum(
