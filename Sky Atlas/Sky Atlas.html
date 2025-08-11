@@ -10172,7 +10172,7 @@
           </td>
           <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit - Instance Profit - Instance Expense</td>
           <td>Core</td>
-          <td>Instance Expense for an Allocation System Instance for a month is the interest expense on the funds from Sky's Collateral Portfolio invested in the Instance. It is calculated on a per block basis based on the amount invested from Sky's Collateral Portfolio and the Base Rate.</td>
+          <td> Instance Expense for an Allocation System Instance for a month is the interest expense on the funds from Sky’s Collateral Portfolio invested in the Instance. It is calculated on a per block basis based on the amount invested from Sky’s Collateral Portfolio and the Agent Credit Line Borrow Rate.</td>
         </tr>
         <tr>
           <td>
@@ -10188,7 +10188,7 @@
           </td>
           <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Distortion Penalty</td>
           <td>Core</td>
-          <td><p>The Distortion Penalty is a discretionary penalty designed to mitigate the potential misalignment caused by the asymmetric nature of the Simplified Profit And Loss Calculation, where Primes earn profits on Allocation System Instances that earn more than the Base Rate but do not suffer losses when Instances earn less than the Base Rate.</p><p>The Core Executor Agent, in consultation with the Stability Facilitators and the Stability Scope Advisors, may assess a penalty of up to 100% of Total Allocation System Profit (see <dfn>A.2.6 - Step 2: Calculate Total Allocation System Profit</dfn>) if it determines that a Prime's decisions were distorted by this incentive structure.</p></td>
+          <td><p>The Distortion Penalty is a discretionary penalty designed to mitigate the potential misalignment caused by the asymmetric nature of the Simplified Profit And Loss Calculation, where Primes earn profits on Allocation System Instances that earn more than the Agent Credit Line Borrow Rate but do not suffer losses when Instances earn less than the Agent Credit Line Borrow Rate.</p><p>The Core Executor Agent, in consultation with the Stability Facilitators and the Stability Scope Advisors, may assess a penalty of up to 100% of Total Allocation System Profit (see <dfn>A.2.6 - Step 2: Calculate Total Allocation System Profit</dfn>) if it determines that a Prime's decisions were distorted by this incentive structure.</p></td>
         </tr>
         <tr>
           <td>
@@ -13034,9 +13034,10 @@
           <td>In the short term, investments in the following Real World Assets automatically have Instance Smart Contract RRC and Instance Administrative RRC of zero:
             <ul>
               <li>BUIDL</li>
-              <li>JTRSY</li>
+              <li>JTRSY through Centrifuge v2</li>
               <li>USTB</li>
               <li>JAAA through Centrifuge v2</li>
+              <li>JTRSY and JAAA through Centrifuge v3 once audits have been approved by the Protocol Security Workstream Lead</li>
             </ul>
             All other investments in RWAs have Instance Total RRC of 100%.
           </td>
@@ -13049,6 +13050,14 @@
           <td>Core</td>
           <td>In the long term, adapted frameworks for Smart Contract Risk and Administrative Risk for Real World Assets must be developed. These frameworks should take into account (1) the reduced risk in an expected worst case scenario due to the legal backstop on these assets and (2) the factors normally considered in assessing Smart Contract Risk and Administrative Risk.</td>
         </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Application To Ethena</dfn>
+          </td>
+          <td>Application To Ethena</td>
+          <td>Core</td>
+          <td> In the short term, direct Ethena exposures automatically have Instance Smart Contract RRC and Instance Administrative RRC of zero. In the long term, given the similarity of these assets to Real World Assets, adapted frameworks for Smart Contract Risk and Administrative Risk for these exposures must be developed. See <dfn>A.3.3 - Long Term Application To Real World Assets</dfn></td>
+        </tr>  
         <tr>
           <td>
             <dfn>A.3.3 - Incorporation Of Additional Types Of RRC</dfn>
@@ -13159,11 +13168,11 @@
           </td>
           <td>Near-Term Treatment</td>
           <td>Core</td>
-          <td>In the near term pending development of the implementation of the model for perpetual positions, the following Instance Financial RRC Ratios will apply:
+          <td>In the near term pending development of the implementation of the model for Real World Assets, the following Instance Financial RRC Ratios will apply:
             <ul>
-              <li>Direct Ethena exposure - 3% Instance Financial RRC Ratio</li>
+              <li>Direct Ethena exposure - 2% Instance Financial RRC Ratio</li>
               <li>Indirect Ethena exposure through lending markets - 4% Instance Financial RRC Ratio</li>
-              <li>All other protocols - 4% Instance Financial RRC Ratio</li>
+              <li>All other protocols - 3% Instance Financial RRC Ratio</li>
             </ul>
             For indirect Ethena exposure through lending markets, only the portion of the exposure to the lending market that is backed by Ethena-related assets (including PT-USDe, PT-sUSDe, and PT-eUSDe) is subject to the Instance Financial RRC Ratio specified above. The Instance Financial RRC Ratio for the remaining portion of the exposure is calculated based on the nature of the assets backing the exposure.
           </td>
@@ -13221,12 +13230,12 @@
           <td>Core</td>
           <td>In the near term pending development of the implementation of the model for Real World Assets, the following Instance Financial RRC Ratios will apply:
             <ul>
-              <li>BUIDL, JTRSY, and USTB - 0% Instance Financial RRC Ratio</li>
+              <li>BUIDL, JTRSY on Ethereum Mainnet, and USTB - 0% Instance Financial RRC Ratio</li>
+              <li>JTRSY on Avalanche - 0.5% Instance Financial RRC Ratio</li>
               <li>JAAA on Ethereum Mainnet - 1.6% Instance Financial RRC Ratio</li>
               <li>JAAA on Avalanche - 2.1% Instance Financial RRC Ratio</li>
             </ul>
-            In the near term, only BUIDL, JTRSY, USTB, and JAAA through Centrifuge v2 will be eligible for investment under this provision. All other investments in Real World Assets have a 100% Instance Total RRC as specified in <dfn>A.3.3 - Short Term Application To Real World Assets</dfn>.
-          </td>
+            In the near term, only the assets specified <def> A.3.3 - Short Term Application To Real World Assets</def> in will be eligible for investment under this provision. All other investments in Real World Assets have a 100% Instance Total RRC as specified in the document cited above.
         </tr>
         <tr>
           <td>
@@ -13236,10 +13245,10 @@
           <td>Core</td>
           <td>Investments in JAAA on Avalanche are subject to the following additional restrictions:
             <ul>
-              <li>The initial deployment of capital into JAAA on Avalanche may not exceed 20 million USDS;</li>
-              <li>Each additional deployment of capital into JAAA must be approved by the Stability Scope Advisors;</li>
-              <li>The Prime must be below a 90% Risk Tolerance Ratio on a pro forma basis assuming that each additional deployment of capital into JAAA requires 100% Instance Total RRC; and</li>
-              <li>Total investments in JAAA on Avalanche may not exceed 250 million USDS.</li>
+              <li>The initial deployment of capital into JAAA on Avalanche may not exceed 20 million USDS in total;</li>
+              <li>Each additional deployment of capital into JTRSY or JAAA must be approved by the Stability Scope Advisors;</li>
+              <li>Until audits of Centrifuge v3 are approved by the Protocol Security Workstream Lead, the Prime must be below a 90% Risk Tolerance Ratio on a pro forma basis assuming that each additional deployment of capital into JTRSY and JAAA requires 100% Instance Total RRC; and</li>
+              <li>Total investments in JTRSY and JAAA on Avalanche may not exceed 250 million USDS.</li>
             </ul>
           </td>
         </tr>
@@ -15927,7 +15936,7 @@
             <ol>
               <li>USDC in the LitePSM;</li>
               <li>USDC in the PSM3 on Base, Arbitrum, Unichain, Optimism;</li>
-              <li>USDT in Curve;</li>
+              <li>USDT in USDT/USDS Curve pool;</li>
               <li>USDC in GUNI 0.01%; and</li>
               <li>USDC in GUNI 0.05%.</li>
             </ol>
@@ -15955,7 +15964,7 @@
           <td>Core</td>
           <td>Latent Actively Stabilizing Collateral is currently calculated as the sum of:
             <ol>
-              <li>USDC and USDT in Curve;</li>
+              <li>USDC and USDT in Curve (not paired with USDS);</li>
               <li>USDC and USDT in Uniswap;</li>
               <li>USDC and USDT in SparkLend;</li>
               <li>USDC and USDT in Aave;</li>
@@ -16372,59 +16381,6 @@
           <td>Real World Assets - Perpetual Yield Strategies - Perpetual Exposure Direct Accumulation</td>
           <td>Core</td>
           <td>The Stability Facilitators can trigger Executive Votes that instruct Arranged Structures to set up mechanisms that allow them to take direct exposure to Ethena sUSDe, or use legal rails to get direct exposure through custodians.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5 - Real World Assets - Perpetual Yield Strategies - Morpho Vaults</dfn>
-          </td>
-          <td>Real World Assets - Perpetual Yield Strategies - Morpho Vaults</td>
-          <td>Core</td>
-          <td>The subdocuments herein define the exposure for the Morpho Vaults and the associated governance processes.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5 - Real World Assets - Perpetual Yield Strategies - Morpho Overcollateralized SUSDe Or USDe DDM</dfn>
-          </td>
-          <td>Real World Assets - Perpetual Yield Strategies - Morpho Overcollateralized SUSDe Or USDe DDM</td>
-          <td>Core</td>
-          <td>The Stability Facilitators can trigger Executive Votes that set up DDMs to Morpho Vaults that have overcollateralized exposure to sUSDe or USDe.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5 - Real World Assets - Perpetual Yield Strategies - Adjustment Of Exposure Morpho Vault</dfn>
-          </td>
-          <td>Real World Assets - Perpetual Yield Strategies - Adjustment Of Exposure Morpho Vault</td>
-          <td>Active Data Controller</td>
-          <td>The level of exposure is defined as Active Data in <dfn>A.3.5 - Current Exposure Of Morpho SUSDe Or USDe DDM Vault</dfn>. The Active Data is updated as follows:
-            <ul>
-              <li>The Responsible Party is the Stability Facilitators.</li>
-              <li>The Update Process must follow the protocol for 'Direct Edit'.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5 - Real World Assets - Perpetual Yield Strategies - Requirements For Adjustment Morpho Vault</dfn>
-          </td>
-          <td>Real World Assets - Perpetual Yield Strategies - Requirements For Adjustment Morpho Vault</td>
-          <td>Core</td>
-          <td>When updating the level of exposure in <dfn>A.3.5 - Current Exposure Of Morpho SUSDe Or USDe DDM Vault</dfn>, the Stability Facilitators shall consult with the Stability Scope Advisors and other recognized Ecosystem Actors.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5 - Real World Assets - Perpetual Yield Strategies - Morpho Vault Multisig</dfn>
-          </td>
-          <td>Real World Assets - Perpetual Yield Strategies - Morpho Vault Multisig</td>
-          <td>Core</td>
-          <td><p>A multisig, controlled by Governance Facilitator JanSky, has been established to adjust the DDM parameters in real time. To prevent abuse, the management of the DDM parameters, and Governance Facilitator JanSky's use of the multisig, must wholly adhere to the Stability Facilitator's instructions, as required by <dfn>A.3.5 - Real World Assets - Perpetual Yield Strategies - Management Of Morpho Vault</dfn>.</p><p>The members of the multisig can be expanded beyond the single JanSky account. The multisig and other relevant control mechanisms can be established through an Executive Vote initiated by the Stability Facilitators at will.</p></td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5 - Real World Assets - Perpetual Yield Strategies - Management Of Morpho Vault</dfn>
-          </td>
-          <td>Real World Assets - Perpetual Yield Strategies - Management Of Morpho Vault</td>
-          <td>Core</td>
-          <td>The parameters of the Metamorpho vault are managed through the multisig controlled by Governance Facilitator JanSky. The Governance Facilitator's use of the multisig must wholly adhere to instructions provided by the Stability Facilitator, which instructions are based on expert advice from the Stability Scope Advisor and other Ecosystem Actors.</td>
         </tr>
         <tr>
           <td>
@@ -25213,19 +25169,19 @@
         </tr>
         <tr>
           <td>
-            <dfn>Phoenix Labs' Operation Of Spark Liquidity Layer And Agreement Regarding Risk Tolerance Ratio</dfn>
+            <dfn>Spark’s Operation Of Spark Liquidity Layer And Agreement Regarding Risk Tolerance Ratio</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>Phoenix Labs will continue to operate the Spark Liquidity Layer and agrees to stay at or below a 90% Risk Tolerance Ratio. See <dfn>A.3.3 - Risk Tolerance Ratio</dfn>.</td>
+          <td>Spark will continue to operate the Spark Liquidity Layer and agrees to stay at or below a 90% Risk Tolerance Ratio. See <dfn>A.3.3 - Risk Tolerance Ratio</dfn>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>Phoenix Labs' Total Risk Capital (TRC) Management Processes</dfn>
+            <dfn>Spark’s Total Risk Capital (TRC) Management Processes</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>As operators of the Spark Liquidity Layer, Phoenix Labs automatically inherits, and is subject to, the base class of operational requirements related to Total Risk Capital management defined in <dfn>A.2.4 - Primes' Total Risk Capital (TRC) Management</dfn>. Modifications to the base operational logic automatically propagate to the Spark Artifact.</td>
+          <td>As operators of the Spark Liquidity Layer, Spark automatically inherits, and is subject to, the base class of operational requirements related to Total Risk Capital management defined in <dfn>A.2.4 - Primes' Total Risk Capital (TRC) Management</dfn>. Modifications to the base operational logic automatically propagate to the Spark Artifact.</td>
         </tr>
         <tr>
           <td>
