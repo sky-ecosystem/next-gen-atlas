@@ -9132,7 +9132,7 @@
                 <ul>
                   <li>Instance Financial RRC (<dfn>A.3.3 - Instance Financial RRC</dfn>)</li>
                   <li>Instance Smart Contract RRC (<dfn>A.3.3 - Instance Smart Contract RRC</dfn>)</li>
-                  <li>Instance Admin RRC (<dfn>A.3.3 - Instance Admin RRC</dfn>)</li>
+                  <li>Instance Administrative RRC (<dfn>A.3.3 - Instance Administrative RRC</dfn>)</li>
                 </ul>
               The models for certain risk-factors are still currently under development. See <dfn>A.2.4 - Interim Notice Regarding RRC Dashboard/API Coverage</dfn>.
               </li>
@@ -13015,7 +13015,7 @@
           </td>
           <td>Instance Total RRC</td>
           <td>Core</td>
-          <td>The Instance Total RRC for an Instance is equal to the sum of the Instance Financial RRC, Instance Smart Contract Risk RRC, and Instance Admin Risk RRC for that Instance. See <dfn>A.3.3 - Instance Financial RRC</dfn>, <dfn>A.3.3 - Instance Smart Contract RRC</dfn>, and <dfn>A.3.3 - Instance Admin RRC</dfn>.</td>
+          <td>The Instance Total RRC for an Instance is equal to the sum of the Instance Financial RRC, Instance Smart Contract Risk RRC, and Instance Administrative Risk RRC for that Instance. See <dfn>A.3.3 - Instance Financial RRC</dfn>, <dfn>A.3.3 - Instance Smart Contract RRC</dfn>, and <dfn>A.3.3 - Instance Administrative RRC</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -13023,7 +13023,7 @@
           </td>
           <td>Application To Real World Assets</td>
           <td>Core</td>
-          <td> Investments in Real World Assets, as defined in <dfn>A.3.3 - Real World Assets</dfn>, have Instance Smart Contract RRC and Instance Admin RRC as specified in the documents herein. An additional type of Legal RRC, reflecting the unique risks of these assets, will be incorporated in future iterations of the Risk Framework.</td>
+          <td> Investments in Real World Assets, as defined in <dfn>A.3.3 - Real World Assets</dfn>, have Instance Smart Contract RRC and Instance Administrative RRC as specified in the documents herein. An additional type of Legal RRC, reflecting the unique risks of these assets, will be incorporated in future iterations of the Risk Framework.</td>
         </tr>
         <tr>
           <td>
@@ -13031,7 +13031,7 @@
           </td>
           <td>Short Term Application To Real World Assets</td>
           <td>Core</td>
-          <td>In the short term, investments in the following Real World Assets automatically have Instance Smart Contract RRC and Instance Admin RRC of zero:
+          <td>In the short term, investments in the following Real World Assets automatically have Instance Smart Contract RRC and Instance Administrative RRC of zero:
             <ul>
               <li>BUIDL</li>
               <li>JTRSY</li>
@@ -13063,7 +13063,7 @@
           </td>
           <td>Inability To Calculate Types Of RRC</td>
           <td>Core</td>
-          <td>If Instance Financial RRC, Instance Smart Contract Risk RRC, or Instance Admin Risk RRC for an Instance cannot be calculated then the Instance Total RRC is 100%.</td>
+          <td>If Instance Financial RRC, Instance Smart Contract Risk RRC, or Instance Administrative Risk RRC for an Instance cannot be calculated then the Instance Total RRC is 100%.</td>
         </tr>
         <tr>
           <td>
@@ -13301,11 +13301,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.3.3 - Instance Admin RRC</dfn>
+            <dfn>A.3.3 - Instance Administrative RRC</dfn>
           </td>
-          <td>Instance Admin RRC</td>
+          <td>Instance Administrative RRC</td>
           <td>Core</td>
-          <td>The documents herein define the conceptual framework for determining the Instance Admin RRC required to protect Sky from admin risk arising from an Instance of the Allocation System Primitive.</td>
+          <td>The documents herein define the conceptual framework for determining the Instance Administrative RRC required to protect Sky from administrative risk arising from an Instance of the Allocation System Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -13313,7 +13313,7 @@
           </td>
           <td>Definition</td>
           <td>Core</td>
-          <td>Admin Risk refers to the risk that an investment through the Allocation System will experience a loss of funds due to abuse of privileged access to a protocol. This risk may arise from a multisig or another actor that has the ability to modify the protocol or access funds without going through a governance process.</td>
+          <td>Administrative Risk refers to the risk that an investment through the Allocation System will experience a loss of funds due to abuse of privileged access to a protocol. This risk may arise from a multisig or another actor that has the ability to modify the protocol or access funds without going through a governance process.</td>
         </tr>
         <tr>
           <td>
@@ -13321,7 +13321,7 @@
           </td>
           <td>Risk Rating</td>
           <td>Core</td>
-          <td>The determination of Admin Risk should initially be based on an evaluation of the risk that an investment could experience losses due to an abuse of privileged access. This determination should take into account factors such as (1) the level of privileged access that exists, (2) the security delay that such access is subject to, and (3) the "Lindiness" of the system.</td>
+          <td>The determination of Administrative Risk should initially be based on an evaluation of the risk that an investment could experience losses due to an abuse of privileged access. This determination should take into account factors such as (1) the level of privileged access that exists, (2) the security delay that such access is subject to, and (3) the "Lindiness" of the system.</td>
         </tr>
         <tr>
           <td>
@@ -13329,7 +13329,7 @@
           </td>
           <td>Required Risk Capital</td>
           <td>Core</td>
-          <td>The risk of an abuse of privileged access in one protocol is unlikely to be correlated with the risk of an abuse of privileged access in an unrelated protocol. Therefore, the risks from small exposures to even relatively risky protocols are likely to be diversified away. In contrast, very large exposures to even relatively safe protocols can create a risk to a Prime Agent and potentially to Sky itself if there is an abuse of privileged access, especially if multiple Prime Agents have the same exposure. To account for this, the calculation of Instance Admin RRC should take into account the risk rating, the level of exposure of the Star, and the level of exposure of the Sky Ecosystem.</td>
+          <td>The risk of an abuse of privileged access in one protocol is unlikely to be correlated with the risk of an abuse of privileged access in an unrelated protocol. Therefore, the risks from small exposures to even relatively risky protocols are likely to be diversified away. In contrast, very large exposures to even relatively safe protocols can create a risk to a Prime Agent and potentially to Sky itself if there is an abuse of privileged access, especially if multiple Prime Agents have the same exposure. To account for this, the calculation of Instance Administrative RRC should take into account the risk rating, the level of exposure of the Star, and the level of exposure of the Sky Ecosystem.</td>
         </tr>
         <tr>
           <td>
@@ -13337,7 +13337,7 @@
           </td>
           <td>Implementation</td>
           <td>Core</td>
-          <td>The implementation of the calculation of Instance Admin RRC is specified in <dfn>A.3.3 - Instance Administrative RRC Calculation</dfn>.</td>
+          <td>The implementation of the calculation of Instance Administrative RRC is specified in <dfn>A.3.3 - Instance Administrative RRC Calculation</dfn>.</td>
         </tr>
         <tr>
           <td>
