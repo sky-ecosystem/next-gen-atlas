@@ -16488,13 +16488,14 @@
           <td>Section</td>
           <td>The current Surplus Buffer Splitter parameters are:
             <ul>
-              <li>vow.hump: 50 million USDS (Threshold of Surplus buffer for Splitter to activate)</li>
+              <li>vow.hump: 1 million USDS (Threshold of Surplus buffer for Splitter to activate)</li>
               <li>vow.bump: 10,000 USDS</li>
               <li>splitter.hop: 2,160 seconds</li>
-              <li>50% of Splitter allocation is set to accumulate SKY</li>
-              <li>50% of Splitter allocation is set to reward SKY stakers</li>
-              <li>burn (the percentage of the vow.bump to be moved to the underlying flapper): 50% (WAD/2). Flapper must maintain its legacy values.</li>
+              <li>25% of Splitter allocation is set to accumulate SKY</li>
+              <li>75% of Splitter allocation is set to reward SKY stakers</li>
+              <li>burn (the percentage of the vow.bump to be moved to the underlying flapper): 25% (WAD/4). Flapper must maintain its legacy values.</li>
             </ul>
+            The Splitter, and other buyback and staking rewards parameters must be set to ensure a SKY buyback of 100,000 USDS per day, and Staking Rewards of 300,000 USDS per day. If necessary this requirement overrides other conflicting Atlas Documents.
           </td>
         </tr>
         <tr>
