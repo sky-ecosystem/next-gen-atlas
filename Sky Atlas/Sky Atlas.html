@@ -447,6 +447,14 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.2.14</dfn>
+          </td>
+          <td>Ecosystem Entity Grants</td>
+          <td>Article</td>
+          <td>This Article defines the Ecosystem Entity Grants, which aim to fund the Sky Frontier Foundation and the Sky Fortification Foundation.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.3.1</dfn>
           </td>
           <td>Scope Improvement</td>
@@ -12686,7 +12694,7 @@
             <dfn>A.2.14 - Ecosystem Entity Grants</dfn>
           </td>
           <td>Ecosystem Entity Grants</td>
-          <td>Core</td>
+          <td>Section</td>
           <td><p>In the next available Executive Vote, the two Ecosystem Entity Grants, the Sky Frontier Grant and the Fortification Grant, must be paid out to the Sky Frontier Foundation and Fortification Foundation.</p><p>Sky Frontier Grant Details:</p>
             <ul>
               <li>Sky Frontier Foundation Address: <code>0xca5183FB9997046fbd9bA8113139bf5a5Af122A0</code></li>
@@ -13040,47 +13048,6 @@
           <td>Instance Total RRC</td>
           <td>Core</td>
           <td>The Instance Total RRC for an Instance is equal to the sum of the Instance Financial RRC, Instance Smart Contract Risk RRC, and Instance Administrative Risk RRC for that Instance. See <dfn>A.3.3 - Instance Financial RRC</dfn>, <dfn>A.3.3 - Instance Smart Contract RRC</dfn>, and <dfn>A.3.3 - Instance Administrative RRC</dfn>.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.3 - Application To Real World Assets</dfn>
-          </td>
-          <td>Application To Real World Assets</td>
-          <td>Core</td>
-          <td> Investments in Real World Assets, as defined in <dfn>A.3.3 - Real World Assets</dfn>, have Instance Smart Contract RRC and Instance Administrative RRC as specified in the documents herein. An additional type of Legal RRC, reflecting the unique risks of these assets, will be incorporated in future iterations of the Risk Framework.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.3 - Short Term Application To Real World Assets</dfn>
-          </td>
-          <td>Short Term Application To Real World Assets</td>
-          <td>Core</td>
-          <td>In the short term, investments in the following Real World Assets automatically have Instance Smart Contract RRC and Instance Administrative RRC of zero:
-            <ul>
-              <li>BUIDL</li>
-              <li>JTRSY through Centrifuge v2</li>
-              <li>USTB</li>
-              <li>JAAA through Centrifuge v2</li>
-              <li>JTRSY and JAAA through Centrifuge v3 once audits have been approved by the Protocol Security Workstream Lead</li>
-            </ul>
-            All other investments in RWAs have Instance Total RRC of 100%.
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.3 - Long Term Application To Real World Assets</dfn>
-          </td>
-          <td>Long Term Application To Real World Assets</td>
-          <td>Core</td>
-          <td>In the long term, adapted frameworks for Smart Contract Risk and Administrative Risk for Real World Assets must be developed. These frameworks should take into account (1) the reduced risk in an expected worst case scenario due to the legal backstop on these assets and (2) the factors normally considered in assessing Smart Contract Risk and Administrative Risk.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.3 - Application To Ethena</dfn>
-          </td>
-          <td>Application To Ethena</td>
-          <td>Core</td>
-          <td>In the short term, direct Ethena exposures automatically have Instance Smart Contract RRC and Instance Administrative RRC of zero. In the long term, given the similarity of these assets to Real World Assets, adapted frameworks for Smart Contract Risk and Administrative Risk for these exposures must be developed. See <dfn>A.3.3 - Long Term Application To Real World Assets</dfn>.</td>
         </tr>  
         <tr>
           <td>
@@ -13176,7 +13143,7 @@
           </td>
           <td>Pending Risk Models</td>
           <td>Core</td>
-          <td>The documents herein define pending asset-class-specific risk models along with near-term Instance Financial RRC Ratios to be used until the models are fully implemented.</td>
+          <td>The documents herein define pending asset-class-specific risk models.</td>
         </tr>
         <tr>
           <td>
@@ -13184,21 +13151,7 @@
           </td>
           <td>Perpetual Positions</td>
           <td>Core</td>
-          <td>The model for perpetual positions uses a modified Credit Risk model to evaluate the risk of tokenized delta-neutral positions, such as Ethena and Resolv. The implementation of the model for perpetual positions will be specified in a future iteration of the Atlas.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.3 - Near-Term Treatment</dfn>
-          </td>
-          <td>Near-Term Treatment</td>
-          <td>Core</td>
-          <td>In the near term pending development of the implementation of the model for perpetual positions, the following Instance Financial RRC Ratios will apply:
-            <ul>
-              <li>Direct Ethena exposure - 2% Instance Financial RRC Ratio</li>
-              <li>Indirect Ethena exposure through lending markets - 3% Instance Financial RRC Ratio</li>
-            </ul>
-            For indirect Ethena exposure through lending markets, only the portion of the exposure to the lending market that is backed by Ethena-related assets (including PT-USDe, PT-sUSDe, and PT-eUSDe) is subject to the Instance Financial RRC Ratio specified above. The Instance Financial RRC Ratio for the remaining portion of the exposure is calculated based on the nature of the assets backing the exposure.
-          </td>
+          <td>The model for perpetual positions uses a modified Credit Risk model to evaluate the risk of tokenized delta-neutral positions, such as Ethena and Resolv. The implementation of the model for perpetual positions is specified in <dfn>A.3.3 - Perpetual Positions</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -13206,15 +13159,7 @@
           </td>
           <td>Direct Exposures</td>
           <td>Core</td>
-          <td>The model for direct exposures combines Market Risk and Liquidity Risk to evaluate the risk of direct asset holdings of volatile cryptoassets, such as ETH, stETH, and WBTC. The implementation of the model for direct exposures will be specified in a future iteration of the Atlas.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.3 - Near Term Treatment</dfn>
-          </td>
-          <td>Near Term Treatment</td>
-          <td>Core</td>
-          <td>In the near term pending development of the implementation of the model for direct exposures, a 25% Instance Financial RRC Ratio will be applied to all direct exposures. In the near term, direct exposures will be considered to be any assets held idle in a wallet controlled by a Prime Agent.</td>
+          <td>The model for direct exposures combines Market Risk and Liquidity Risk to evaluate the risk of direct asset holdings of volatile cryptoassets, such as ETH, stETH, and WBTC. The implementation of the model for direct exposures is specified in <dfn>A.3.3 - Direct Exposures</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -13222,20 +13167,7 @@
           </td>
           <td>Bond-Like Instruments</td>
           <td>Core</td>
-          <td>The model for bond-like instruments uses a modified Credit Risk model to evaluate the risk of cryptoassets with duration risk, such as Pendle's PT-tokens. The implementation of the model for bond-like instruments will be specified in a future iteration of the Atlas.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.3 - Near-Term Treatment</dfn>
-          </td>
-          <td>Near-Term Treatment</td>
-          <td>Core</td>
-          <td>In the near term pending development of the implementation of the model for bond-like exposures, the following Instance Financial RRC Ratios will apply:
-            <ul>
-              <li>PT-USDS - 0% Instance Financial RRC Ratio</li>
-              <li>All other bond-like exposures - 4% Instance Financial RRC Ratio</li>
-            <ul>
-            In the near term, only Pendle PT tokens will be eligible for investment under this provision.</td>
+          <td>The model for bond-like instruments uses a modified Credit Risk model to evaluate the risk of cryptoassets with duration risk, such as Pendle's PT-tokens. The implementation of the model for bond-like instruments is specified in <dfn>A.3.3 - Bond-Like Instruments</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -13243,38 +13175,7 @@
           </td>
           <td>Real World Assets</td>
           <td>Core</td>
-          <td>The model for Real World Assets is based on direct application of existing frameworks to evaluate the risk of tokenized Real World Assets, such as BUIDL, JTRSY, USTB, and JAAA. The implementation of the model for Real World Assets will be specified in a future iteration of the Atlas.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.3 - Near-Term Treatment</dfn>
-          </td>
-          <td>Near Term-Treatment</td>
-          <td>Core</td>
-          <td>In the near term pending development of the implementation of the model for Real World Assets, the following Instance Financial RRC Ratios will apply:
-            <ul>
-              <li>BUIDL, JTRSY on Ethereum Mainnet, and USTB - 0% Instance Financial RRC Ratio</li>
-              <li>JTRSY on Avalanche - 0.5% Instance Financial RRC Ratio</li>
-              <li>JAAA on Ethereum Mainnet - 1.6% Instance Financial RRC Ratio</li>
-              <li>JAAA on Avalanche - 2.1% Instance Financial RRC Ratio</li>
-            </ul>
-           <p>In the near term, only the assets specified in <dfn>A.3.3 - Short Term Application To Real World Assets</dfn> will be eligible for investment under this provision.</p><p>All other investments in Real World Assets have a 100% Instance Total RRC as specified in the document cited above.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.3 - Additional Restrictions On Investments In JTRSY And JAAA On Avalanche</dfn>
-          </td>
-          <td>Additional Restrictions On Investments In JTRSY And JAAA On Avalanche</td>
-          <td>Core</td>
-          <td>Investments in JTRSY and JAAA on Avalanche are subject to the following additional restrictions:
-            <ul>
-              <li>The initial deployment of capital into JTRSY and JAAA on Avalanche may not exceed 20 million USDS in total;</li>
-              <li>Each additional deployment of capital into JTRSY or JAAA must be approved by the Stability Scope Advisors;</li>
-              <li>Until audits of Centrifuge v3 are approved by the Protocol Security Workstream Lead, the Prime must be below a 90% Risk Tolerance Ratio on a pro forma basis assuming that each additional deployment of capital into JTRSY and JAAA requires 100% Instance Total RRC; and</li>
-              <li>Total investments in JTRSY and JAAA on Avalanche may not exceed 250 million USDS.</li>
-            </ul>
-          </td>
+          <td>The model for Real World Assets is based on direct application of existing frameworks to evaluate the risk of tokenized Real World Assets, such as BUIDL, JTRSY, USTB, and JAAA. The implementation of the model for Real World Assets is specified in <dfn>A.3.3 - Real World Assets</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -13282,15 +13183,7 @@
           </td>
           <td>Cash Stablecoins</td>
           <td>Core</td>
-          <td>The model for Cash Stablecoins is based on identifying stablecoins, such as USDC and USDT, that do not present significant Market Risk, Credit Risk, or Liquidity Risk. The implementation of the model for Cash Stablecoins will be specified in a future iteration of the Atlas.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.3 - Near Term Treatment</dfn>
-          </td>
-          <td>Near Term Treatment</td>
-          <td>Core</td>
-          <td>In the near term pending development of the implementation of the model for Cash Stablecoins, a 0% Instance Financial RRC will be applied to Cash Stablecoins. In the near term, only USDS, sUSDS, Dai, sDai, USDC, and USDT (either held directly or through decentralized exchanges such as Curve) will be eligible for investment under this provision.</td>
+          <td>The model for Cash Stablecoins is based on identifying stablecoins, such as USDC and USDT, that do not present significant Market Risk, Credit Risk, or Liquidity Risk. The implementation of the model for Cash Stablecoins is specified in <dfn>A.3.3 - Cash Stablecoins</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -13586,7 +13479,7 @@
           </td>
           <td>Asset Class Specific Implementation</td>
           <td>Core</td>
-          <td>The documents herein define the calculation of Instance Financial RRC for specific asset classes. In the near term, the only implementation that is defined is for lending markets. In the future additional implementations will be added herein.</td>
+          <td>The documents herein define the calculation of Instance Financial RRC for specific asset classes.</td>
         </tr>
         <tr>
           <td>
@@ -14110,6 +14003,118 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.3.3 - Perpetual Positions</dfn>
+          </td>
+          <td>Perpetual Positions</td>
+          <td>Core</td>
+          <td>The implementation of the model for perpetual positions will be specified in a future iteration of the Atlas. The near-term treatment of these assets are specified in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Near-Term Treatment</dfn>
+          </td>
+          <td>Near-Term Treatment</td>
+          <td>Core</td>
+          <td>In the near term pending development of the implementation of the model for perpetual positions, the following Instance Financial RRC Ratios will apply:
+            <ul>
+              <li>Direct Ethena exposure - 2% Instance Financial RRC Ratio</li>
+              </li>Indirect Ethena exposure through lending markets - 3% Instance Financial RRC Ratio</li>
+            </ul>
+            For indirect Ethena exposure through lending markets, only the portion of the exposure to the lending market that is backed by Ethena-related assets (including PT-USDe, PT-sUSDe, and PT-eUSDe) is subject to the Instance Financial RRC Ratio specified above. The Instance Financial RRC Ratio for the remaining portion of the exposure is calculated based on the nature of the assets backing the exposure.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Direct Exposures</dfn>
+          </td>
+          <td>Direct Exposures</td>
+          <td>Core</td>
+          <td>The implementation of the model for direct exposures will be specified in a future iteration of the Atlas. The near-term treatment of these assets are specified in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Near-Term Treatment</dfn>
+          </td>
+          <td>Near-Term Treatment</td>
+          <td>Core</td>
+          <td>In the near term pending development of the implementation of the model for direct exposures, a 25% Instance Financial RRC Ratio will be applied to all direct exposures. In the near term, direct exposures will be considered to be any assets held idle in a wallet controlled by a Prime Agent.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Bond-Like Instruments</dfn>
+          </td>
+          <td>Bond-Like Instruments</td>
+          <td>Core</td>
+          <td>The implementation of the model for bond-like instruments will be specified in a future iteration of the Atlas. The near-term treatment of these assets are specified in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Near-Term Treatment</dfn>
+          </td>
+          <td>Near-Term Treatment</td>
+          <td>Core</td>
+          <td>In the near term pending development of the implementation of the model for bond-like exposures, the following Instance Financial RRC Ratios will apply:
+            <ul>
+              <li>PT-USDS - 0% Instance Financial RRC Ratio</li>
+              <li>All other bond-like exposures - 4% Instance Financial RRC Ratio</li>
+            </ul>
+            In the near term, only Pendle PT tokens will be eligible for investment under this provision.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Real World Assets</dfn>
+          </td>
+          <td>Real World Assets</td>
+          <td>Core</td>
+          <td>The implementation of the model for Real World Assets will be specified in a future iteration of the Atlas. The near-term treatment of these assets are specified in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Near-Term Treatment</dfn>
+          </td>
+          <td>Near-Term Treatment</td>
+          <td>Core</td>
+          <td>In the near term pending development of the implementation of the model for Real World Assets, the following Instance Financial RRC Ratios will apply:
+            <ul>
+              <li>BUIDL, JTRSY on Ethereum Mainnet, and USTB - 0% Instance Financial RRC Ratio</li>
+              <li>JTRSY on Avalanche - 0.5% Instance Financial RRC Ratio</li>
+              <li>JAAA on Ethereum Mainnet - 1.6% Instance Financial RRC Ratio</li>
+              <li>JAAA on Avalanche - 2.1% Instance Financial RRC Ratio</li>
+            </ul>
+            <p>In the near term, only the assets specified in <dfn>A.3.3 - Short Term Application To Real World Assets</dfn> will be eligible for investment under this provision.</p><p>All other investments in Real World Assets have a 100% Instance Total RRC as specified in the document cited above</p>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Additional Restrictions On Investments In JTRSY And JAAA On Avalanche</dfn>
+          </td>
+          <td>Additional Restrictions On Investments In JTRSY And JAAA On Avalanche</td>
+          <td>Core</td>
+          <td>Investments in JTRSY and JAAA on Avalanche are subject to the following additional restrictions:
+            <ul>
+              <li>The initial deployment of capital into JTRSY and JAAA on Avalanche may not exceed 20 million USDS in total;</li>
+              <li>Each additional deployment of capital into JTRSY or JAAA must be approved by the Stability Scope Advisors;</li>
+              <li>Until audits of Centrifuge v3 are approved by the Protocol Security Workstream Lead, the Prime must be below a 90% Risk Tolerance Ratio on a pro forma basis assuming that each additional deployment of capital into JTRSY and JAAA requires 100% Instance Total RRC; and</li>
+              <li>Total investments in JTRSY and JAAA on Avalanche may not exceed 250 million USDS.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Cash Stablecoins</dfn>
+          </td>
+          <td>Cash Stablecoins</td>
+          <td>Core</td>
+          <td>The implementation of the model for Cash Stablecoins will be specified in a future iteration of the Atlas. The near-term treatment of these assets are specified in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Near-Term Treatment</dfn>
+          </td>
+          <td>Near-Term Treatment</td>
+          <td>Core</td>
+          <td>In the near term pending development of the implementation of the model for Cash Stablecoins, a 0% Instance Financial RRC will be applied to Cash Stablecoins. In the near term, only USDS, sUSDS, Dai, sDai, USDC, and USDT (either held directly or through decentralized exchanges such as Curve) will be eligible for investment under this provision.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.3.3 - Instance Smart Contract RRC Implementation</dfn>
           </td>
           <td>Instance Smart Contract RRC Implementation</td>
@@ -14474,7 +14479,7 @@
               <li>Hunter Security</li>
               <li>Omniscia</li>
               <li>Spearbit</li>
-              <li>yAudit</li>
+              <li>Electisec</li>
               <li>MixBytes</li>
               <li>Cyfrin</li>
               <li>SECBIT Labs</li>
@@ -15059,7 +15064,47 @@
           </td>
           <td>Exceptions</td>
           <td>Core</td>
-          <td>The documents herein define exceptions to the calculation of Instance Smart Contract RRC for specific protocols.</td>
+          <td>The documents herein define exceptions to the calculation of Instance Smart Contract RRC for specific asset classes or protocols.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Real World Assets</dfn>
+          </td>
+          <td>Real World Assets</td>
+          <td>Core</td>
+          <td>Investments in Real World Assets, as defined in <dfn>A.3.3 - Real World Assets</dfn>, have Instance Smart Contract RRC and Instance Administrative RRC as specified in the documents herein. An additional type of Legal RRC, reflecting the unique risks of these assets, will be incorporated in future iterations of the Risk Framework.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Short Term Application To Real World Assets</dfn>
+          </td>
+          <td>Short Term Application To Real World Assets</td>
+          <td>Core</td>
+          <td>In the short term, investments in the following Real World Assets automatically have Instance Smart Contract RRC and Instance Administrative RRC of zero:
+            <ul>
+              <li>BUIDL</li>
+              <li>JTRSY through Centrifuge v2</li>
+              <li>USTB</li>
+              <li>JAAA through Centrifuge v2</li>
+              <li>JTRSY and JAAA through Centrifuge v3 once audits have been approved by the Protocol Security Workstream Lead</li>
+            </ul>
+            All other investments in RWAs have Instance Total RRC of 100%.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Long Term Application To Real World Assets</dfn>
+          </td>
+          <td>Long Term Application To Real World Assets</td>
+          <td>Core</td>
+          <td>In the long term, adapted frameworks for Smart Contract Risk and Administrative Risk for Real World Assets must be developed. These frameworks should take into account (1) the reduced risk in an expected worst case scenario due to the legal backstop on these assets and (2) the factors normally considered in assessing Smart Contract Risk and Administrative Risk.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Ethena</dfn>
+          </td>
+          <td>Ethena</td>
+          <td>Core</td>
+          <td>In the short term, direct Ethena exposures automatically have Instance Smart Contract RRC and Instance Administrative RRC of zero. In the long term, given the similarity of these assets to Real World Assets, adapted frameworks for Smart Contract Risk and Administrative Risk for these exposures must be developed. See <dfn>A.3.3 - Long Term Application To Real World Assets</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -15155,7 +15200,23 @@
           </td>
           <td>Exceptions</td>
           <td>Core</td>
-          <td>The documents herein define exceptions to the calculation of Instance Administrative RRC for specific protocols.</td>
+          <td>The documents herein define exceptions to the calculation of Instance Administrative RRC for specific asset classes or protocols.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Real World Assets</dfn>
+          </td>
+          <td>Real World Assets</td>
+          <td>Core</td>
+          <td>The Administrative RRC for Real World Assets is calculated as specified in <dfn>A.3.3 - Real World Assets</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Ethena</dfn>
+          </td>
+          <td>Ethena</td>
+          <td>Core</td>
+          <td>The Administrative RRC for Ethena is calculated as specified in <dfn>A.3.3 - Ethena</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -20592,15 +20653,6 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.3.5 - Current Exposure Of Morpho SUSDe Or USDe DDM Vault</dfn>
-          </td>
-          <td>Current Exposure Of Morpho SUSDe Or USDe DDM Vault
-          </td>
-          <td>Active Data</td>
-          <td>Current target exposure of Morpho sUSDe or USDe vault is: 0 USDS</td>
-        </tr>
-        <tr>
-          <td>
             <dfn>A.3.9 - Communication Channels And Media Assets Listing</dfn>
           </td>
           <td>Communication Channels And Media Assets Listing</td>
@@ -20644,6 +20696,35 @@
               <li>1 USDS</li>
               <li>0 SKY - The SKY can at most be spent at the rate of 48,000,000 SKY per month.</li>
             </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>List of Delegates</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Active Data</td>
+          <td>The information for each Delegate is listed below:
+            <ol>
+              <li>
+                <ul>
+                  <li>Delegate Name: Remi</li>
+                  <li>Delegate Wallet Address: <code>0xDC5D4228a42880F5bbd577A184035503Bd55799a</code></li>
+                  <li>Effective Date: 2025-08-21</li>
+                  <li>Status: Active</li>
+                  <li>Conflict Disclosures: None</li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>Delegate Name: NeoNode</li>
+                  <li>Delegate Wallet Address: <code>0x71faa03C0cEbCbB53236763B6b118aD906d9F6d3</code></li>
+                  <li>Effective Date: 2025-08-21</li>
+                  <li>Status: Active</li>
+                  <li>Conflict Disclosures: None</li>
+                </ul>
+              </li>
+            </ol>
           </td>
         </tr>
         <tr>
@@ -22193,7 +22274,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>Where their review of the proposal results in a finding of alignment with the Sky Core Atlas and Spark Artifact, the Operational Facilitator next triggers a Snapshot poll to allow token holders to vote on the proposal. The poll is open for three (3) days. A poll must have at least 10% of the circulating token supply participating and must have 50% of votes in favor to be approved.</td>
+          <td>Where their review of the proposal results in a finding of alignment with the Sky Core Atlas and Spark Artifact, the Operational Facilitator next triggers a Snapshot poll to allow token holders to vote on the proposal. Token holders may vote directly or through Delegates. See <dfn>Delegation Framework</dfn>. The poll is open for three (3) days. A poll must have at least 10% of the circulating token supply participating and must have 50% of votes in favor to be approved.</td>
         </tr>
         <tr>
           <td>
@@ -31395,6 +31476,384 @@
         </tr>
         <tr>
           <td>
+            <dfn>Delegation Framework</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein specify Spark's governance delegation system, defining the rights and duties of Delegates and Delegators, as well as the processes for onboarding and offboarding Delegates.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Delegate Definition</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>A "Delegate" is a recognized actor empowered to exercise governance voting power on behalf of one or more SPK holders ("Delegators"). Delegates act as trusted representatives and are expected to vote in the long-term best interest of the Spark ecosystem.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>How Delegation Works</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>SPK holders may assign ("delegate") the full voting power of their wallet to an Active Delegate at any time (see <dfn>Registry of Delegates</dfn>). The key features of delegation are specified in the subdocuments herein.</td>
+        </tr>                                                                                 
+        <tr>
+          <td>
+            <dfn>Interfaces</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Delegation can be executed through (i) the Spark App or (ii) directly on Spark's Snapshot page.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Snapshot Voting-Power Lock</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>A snapshot records voting power at each proposal snapshot-block height. Voting power (including delegations) cannot be altered for the duration of a specific active proposal. Changes in voting power are reflected in future votes.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Undelegation & Re-delegation</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Delegators may revoke or move their delegation whenever no proposal is live. All changes take effect at the next snapshot-block.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Restrictions</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>SPK holders may only assign their voting power to Active Delegates. This also means Delegators cannot delegate to another wallet they themselves control, unless it is an Active Delegate wallet.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Delegate Responsibilities</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The responsibilities for Delegates are defined in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Monitor Governance Channels</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Delegate must track the Sky Forum ("Spark Prime" category), Discord, and any other official communication venues for new proposals and discussions.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Review Proposals Thoroughly</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Delegate must evaluate technical, economic, and risk implications before voting.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Vote on Every Proposal</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Delegate must cast a vote (For / Against) on 100% of governance proposals within the designated voting window (see <dfn>Root Edit Token Holder Vote</dfn>).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Abstain Only for Disclosed Conflicts</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The "Abstain" option may be used solely in cases where the Delegate has a documented conflict of interest for the specific proposal.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Disclosure Of Conflicts</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Conflicts must be disclosed to both the Spark Foundation and the Operational Facilitator before the voting window (see <dfn>Root Edit Token Holder Vote</dfn>) for the proposal begins.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Recording Of Conflicts</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>All conflicts are recorded in <dfn>Registry of Delegates</dfn> under the Delegate's entry.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Abstaining For Non-Disclosed Conflicts</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Abstaining for any reason other than a recorded conflict is treated as non-performance under <dfn>Delegate Offboarding</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Report Rationale</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Delegate must post a concise rationale for each vote on the proposal thread.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Maintain Independence</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Delegate must disclose conflicts of interest and abstain where impartiality is compromised (see <dfn>Disclosure Of Conflicts</dfn>). Failure to meet these obligations is grounds for offboarding (see <dfn>Delegate Offboarding</dfn>).</td>
+        </tr>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Delegate Onboarding</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Delegate onboarding process is specified in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Bootstrapping Phase</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>During the bootstrapping phase, before the Spark Risk Council (SRC) is formally established, two (2) initial Delegates will be appointed directly by the Operational Facilitator with the advice and consent of the Spark Foundation through a public announcement on the Sky Forum, following a due diligence review equivalent to the standards set out in Application Requirements. Upon the formal constitution of the SRC, all future Delegate appointments and oversight will be conducted by the SRC as specified below.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Application Requirements</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Prospective Delegates must submit (i) identity & contact info, (ii) delegate wallet address, and (iii) a signed statement accepting the responsibilities in Delegate Responsibilities. These requirements are further specified in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Requirement To Verify Identity</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Every prospective Delegate must complete an initial, confidential identity verification process with the Spark Foundation, subject to additional KYC verification as necessary in the future. Delegates may remain anonymous or pseudonymous to the public.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Conflict-of-Interest Disclosure</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>At onboarding, prospective Delegates must provide any known conflicts of interest to the Spark Foundation and the Operational Facilitator. Disclosures are appended to their entry in <dfn>Registry of Delegates</dfn> and updated as new conflicts arise.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Eligibility</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Individuals or entities listed on any international sanctions list are ineligible to serve as Delegates. In addition, a prospective Delegate may be deemed ineligible if, in the Spark Foundation's sole discretion, their participation would be unlawful or would pose undue risk to Spark.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Ongoing Compliance</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Delegates must promptly update the Spark Foundation on any material change in their legal status. Failure to do so results in automatic suspension until rectified.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Grounds for Disqualification</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Submission of fraudulent information, criminal indictment for financial crime, or repeated governance negligence (see <dfn>Non-Performance Removal</dfn>) triggers an SRC-initiated Delegate Removal vote.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Application Does Not Guarantee Acceptance</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The submission of a Delegate Application is not a guarantee of acceptance and is subject to the above requirements, availability of additional Delegate seats, and the SRC.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Minimum Term</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Delegates are guaranteed to serve at least six (6) months, unless they are in violation of their duties. Delegates can always voluntarily offboard according to the process outlined in Delegate Offboarding.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Delegate Record</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Accepted Delegates are appended to Registry of Delegates.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Delegate Offboarding</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The delegation offboarding process is specified in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Voluntary Offboarding</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>A Delegate can voluntarily offboard by submitting a resignation message in the Spark Star category of Sky Forum with a signed message from their Delegate wallet as proof. The offboarding takes effect immediately after all active proposals conclude.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Non-Performance Removal</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>A Delegate is automatically offboarded if they:
+            <ul>
+              <li>Fail to vote on ≥ 3 proposals in a row; or</li>
+              <li>Maintain a voting percentage less than 85%.</li>
+            </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Emergency Removal</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Spark Risk Council can immediately offboard a delegate if they:
+            <ul>
+              <li>Breach disclosure / conflict-of-interest duties;</li>
+              <li>Engage in malicious or negligent conduct; or</li>
+              <li>Fail to provide acceptable KYC or updated KYC when requested.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Updating of Status</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Upon offboarding, the Delegate's status in <dfn>Registry of Delegates</dfn> is updated to Inactive. SPK delegators must manually revoke their delegations and redelegate if they wish to continue participating in Spark governance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Incentives & Compensation</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Spark currently offers no protocol-level monetary incentives to Delegates.
+            <ul>
+              <li>Delegation is viewed as a pro-bono stewardship role.</li>
+              <li>The governance community may revisit compensation only through a future Root Edit proposal.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Security Requirements & Compromise Procedure</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The security requirements and procedure for a compromised key are specified in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Operational Security</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Delegates must:
+            <ul>
+              <li>Sign votes from a hardware wallet or an equivalent secure device.</li>
+              <li>Use unique signing keys that are never reused for personal transactions.</li>
+              <li>Enable Multi-Factor Authentication on any platform accounts used for governance communication.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Compromised Key Response</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>If a Delegate suspects key compromise, the following steps must be taken:
+            <ul>
+              <li>The Delegate must notify the SRC as soon as the breach is discovered.</li>
+              <li>SRC flags the Delegate in <dfn>Registry of Delegates</dfn> as "Suspended - Security Review" and notifies the governance community on the Sky Forum. All voting power to the suspended address is annulled.</li>
+              <li>The Delegate may submit a new verified address; upon SRC approval, suspensions are lifted and delegations migrate at the next snapshot-block.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Non-Compliance</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Failure to execute the steps in <dfn>Compromised Key Response</dfn> within 48 hours constitutes grounds for emergency removal.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Registry of Delegates</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The subdocuments herein list each active Delegate's name, wallet address, effective date, status and conflict disclosures. Entries are maintained via an Active Data document updated by the Operational Facilitator.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Template Information For Each Delegate</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The list of Delegates must follow this template for each recorded Delegate:
+            <ul>
+              <li>Delegate Name:</li>
+              <li>Delegate Wallet Address:</li>
+              <li>Effective Date:</li>
+              <li>Status: Active/Inactive/Suspended</li>
+              <li>Conflict Disclosures:</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Updating List of Delegates</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Active Data Controller</td>
+          <td><p>The list of Delegates is defined as Active Data in <dfn>List of Delegates</dfn>.</p>
+          The Active Data is updated as follows:
+            <ul>
+              <li>The Responsible Party is the Operational Facilitator.</li>
+              <li>The Update Process must follow the protocol for 'Direct Edit'.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Subject to Change</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Spark reserves the right to vary or amend these terms at its discretion, subject to established Spark Artifact governance procedures related to Artifact edits.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Sky Ecosystem Emergency Response</dfn>
           </td>
           <td>Spark</td>
@@ -32068,110 +32527,6 @@
           <td>Spark</td>
           <td>Core</td>
           <td>The documents herein contain data relevant to SparkLend.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Spark Dai Direct Deposit Module</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein define the parameters and operational processes related to the Spark Dai Direct Deposit Module. Spark is able to temporarily borrow Dai from Sky Core through the Spark Dai Direct Deposit Module (D3M). This will be replaced by borrowing at the Agents Credit Line Borrow Rate specified in after the launch of Agent Vaults and the development of a new Rate System.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Parameters</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The parameters of the Spark Dai Direct Deposit Module are specified in the subdocuments herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Parameter Definitions</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The subdocuments herein define the Spark Dai Direct Deposit Module parameters.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Target Available Debt Definition</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The gap parameter is the target gap between the debt usage and the debt ceiling.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Debt Ceiling Increase Cooldown Definition</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The ttl parameter is the minimum time requirement before it is possible to increase the debt ceiling, expressed in seconds.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Maximum Debt Ceiling Definition</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The line is the maximum amount of debt that can be borrowed under the Spark Dai Direct Deposit Module.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Buffer Definition</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>buffer is a fixed-sized amount of pre-minted Dai which the Spark Dai Direct Deposit Module is designed to maintain in most situations.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Debt Write Off Timelock Definition</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>tau is the timelock required before bad debt can be written off after the Spark Dai Direct Deposit Module has been shut down, expressed in seconds.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Current Configuration</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The current parameters of the Spark Dai Direct Deposit Module are:- gap: 40 million Dai- ttl: 24 hours- line: 2.5 billion Dai- buffer: 100 million Dai- tau: 7 days</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Operational Process Definition</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the Spark Dai Direct Deposit Module. Future iterations of the Artifact will specify operational processes owned by Spark.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Spark Dai Direct Deposit Module Ongoing Management</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The Spark Dai Direct Deposit Module is managed by the Stability Facilitators, in consultation with the Stability Scope Advisors and Phoenix Labs.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Spark Deployment Of New Direct Deposit Modules</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The Stability Facilitators can directly include the deployment of new Direct Deposit Modules in Executive Votes, with risk parameters defined by the Stability Facilitators. These parameters should be based on input from the Stability Scope Advisors and Phoenix Labs and should best serve the needs of the Sky Ecosystem and its collaboration with other protocols.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Data Repository</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein contain data relevant to the Spark Dai Direct Deposit Module.</td>
         </tr>
         <tr>
           <td>
