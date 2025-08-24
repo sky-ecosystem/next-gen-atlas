@@ -14111,7 +14111,7 @@
           </td>
           <td>Near-Term Treatment</td>
           <td>Core</td>
-          <td>In the near term pending development of the implementation of the model for Cash Stablecoins, a 0% Instance Financial RRC will be applied to Cash Stablecoins. In the near term, only USDS, sUSDS, Dai, sDai, USDC, and USDT (either held directly or through decentralized exchanges such as Curve) will be eligible for investment under this provision.</td>
+          <td>In the near term pending development of the implementation of the model for Cash Stablecoins, a 0% Instance Financial RRC will be applied to Cash Stablecoins. In the near term, only USDS, sUSDS, Dai, sDai, USDC, USDT, and pyUSD (either held directly or through decentralized exchanges such as Curve) will be eligible for investment under this provision.</td>
         </tr>
         <tr>
           <td>
@@ -15988,6 +15988,14 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.3.4 - Cash Stablecoins</dfn>
+          </td>
+          <td>Cash Stablecoins</td>
+          <td>Core</td>
+          <td>Cash Stablecoins are defined as USDC, USDT, and pyUSD.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.3.4 - Minimum Actively Stabilizing Collateral</dfn>
           </td>
           <td>Minimum Actively Stabilizing Collateral</td>
@@ -16008,7 +16016,7 @@
           </td>
           <td>Resting Actively Stabilizing Collateral</td>
           <td>Core</td>
-          <td>Resting Actively Stabilizing Collateral must provide buy support at a price of at least 0.999 USD per USDS (10bps downside spread). Resting Actively Stabilizing Collateral includes cash stablecoins (e.g., USDC, USDT) in PSMs or decentralized exchanges (e.g., Curve), other stablecoins, crypto assets, or off-chain Real World Asset (RWA) loans to market makers, provided they meet the specified redemption price and transparency requirements.</td>
+          <td>Resting Actively Stabilizing Collateral must provide buy support at a price of at least 0.999 USD per USDS (10bps downside spread). Resting Actively Stabilizing Collateral includes Cash Stablecoins in PSMs or decentralized exchanges (e.g., Curve), other stablecoins, crypto assets, or off-chain Real World Asset (RWA) loans to market makers, provided they meet the specified redemption price and transparency requirements.</td>
         </tr>
         <tr>
         <tr>
@@ -16021,7 +16029,7 @@
             <ol>
               <li>USDC in the LitePSM;</li>
               <li>USDC in the PSM3 on Base, Arbitrum, Unichain, Optimism;</li>
-              <li>USDT in USDT/USDS Curve pool;</li>
+              <li>Cash Stablecoins in Curve (paired with USDS);</li>
               <li>USDC in GUNI 0.01%; and</li>
               <li>USDC in GUNI 0.05%.</li>
             </ol>
@@ -16033,7 +16041,7 @@
           </td>
           <td>Latent Actively Stabilizing Collateral</td>
           <td>Core</td>
-          <td><p>Latent Actively Stabilizing Collateral consists of cash stablecoins that do not qualify as Resting Actively Stabilizing Collateral but can be converted to Resting Actively Stabilizing Collateral. Latent Actively Stabilizing Collateral may include cash stablecoins deposited into lending protocols, cash stablecoins used to provide liquidity to decentralized exchanges, or liquid staking derivatives of cash stablecoins.</p><p>Assets must satisfy the following requirements to qualify as Latent Actively Stabilizing Collateral:</p>
+          <td><p>Latent Actively Stabilizing Collateral consists of Cash Stablecoins that do not qualify as Resting Actively Stabilizing Collateral but can be converted to Resting Actively Stabilizing Collateral. Latent Actively Stabilizing Collateral may include Cash Stablecoins deposited into lending protocols, Cash Stablecoins used to provide liquidity to decentralized exchanges, or liquid staking derivatives of cash stablecoins.</p><p>Assets must satisfy the following requirements to qualify as Latent Actively Stabilizing Collateral:</p>
             <ol>
               <li>The assets must be verifiable onchain or through reputable APIs or oracles;</li>
               <li>The assets must be able to be converted into Resting Actively Stabilizing Collateral within 15 minutes under normal market conditions; and</li>
@@ -16049,12 +16057,12 @@
           <td>Core</td>
           <td>Latent Actively Stabilizing Collateral is currently calculated as the sum of:
             <ol>
-              <li>USDC and USDT in Curve (not paired with USDS);</li>
-              <li>USDC and USDT in Uniswap;</li>
-              <li>USDC and USDT in SparkLend;</li>
-              <li>USDC and USDT in Aave;</li>
-              <li>USDC and USDT in Morpho; and</li>
-              <li>USDC & USDT in a Prime ALM Proxy.</li>
+              <li>Cash Stablecoins in Curve (not paired with USDS);</li>
+              <li>Cash Stablecoins in Uniswap;</li>
+              <li>Cash Stablecoins in SparkLend;</li>
+              <li>Cash Stablecoins in Aave;</li>
+              <li>Cash Stablecoins in Morpho; and</li>
+              <li>Cash Stablecoins in a Prime ALM Proxy.</li>
             </ol>
             The Core Executor Agent, in consultation with the Stability Facilitators and the Stability Scope Advisors, may impose limitations on the size of exposures to these protocols or to specific pools within these protocols that qualify as Latent Actively Stabilizing Collateral in order to prevent excessive risk to Sky.</td>
         </tr>
