@@ -2510,7 +2510,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - stUSDS Bounded External Access Module Breaker Exception</td>
           <td>Core</td>
-          <td><p>The STUSDS_MOM contract allows Sky Governance to bypass the GSM Pause Delay and disable the stUSDS Bounded External Access Module or set the cap or line stUSDS parameters to zero.</p><p>This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the stUSDS BEAM is hacked or is a malicious actor. Once the STUSDS_MOM is activated to disable the stUSDS BEAM, the stUSDS BEAM will not be able to change any stUSDS parameters in the system. If the STUSDS_MOM has been triggered, it will still be possible to modify stUSDS parameters through the usual Executive Vote process, subject to the GSM Pause Delay.</p>
+          <td><p>The STUSDS_MOM contract allows Sky Governance to bypass the GSM Pause Delay and disable the stUSDS Bounded External Access Module or set the <code>cap</code> or <code>line</code> stUSDS parameters to zero.</p><p>This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the stUSDS BEAM is hacked or is a malicious actor. Once the STUSDS_MOM is activated to disable the stUSDS BEAM, the stUSDS BEAM will not be able to change any stUSDS parameters in the system. If the STUSDS_MOM has been triggered, it will still be possible to modify stUSDS parameters through the usual Executive Vote process, subject to the GSM Pause Delay.</p>
         </tr>
         <tr>
           <td>
@@ -9078,6 +9078,14 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.2.4 - LastAmount</dfn>
+          </td>
+          <td>LastAmount</td>
+          <td>Core</td>
+          <td><code>lastAmount</code> is the remaining allowance available at the last update, used to compute the current rate limit by adding accrued capacity.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.2.4 - Inflow Rate Limits</dfn>
           </td>
           <td>Inflow Rate Limits</td>
@@ -9090,7 +9098,7 @@
           </td>
           <td>Outflow Rate Limits</td>
           <td>Core</td>
-          <td><p>Outflow Rate Limits constrain the rate at which allocated liquidity can be withdrawn or exposure reduced from a scope. "Outflow" means movements that lower exposure or capital allocated to an Instance or market, such as withdrawals, redemptions, or unwind operations.</p><p>Outflow limits are often configured more permissively to prioritize safety and fast exits. When outflow limits are "unlimited, the rate limits contract simply does not apply a cap in that direction.</p></td>
+          <td><p>Outflow Rate Limits constrain the rate at which allocated liquidity can be withdrawn or exposure reduced from a scope. "Outflow" means movements that lower exposure or capital allocated to an Instance or market, such as withdrawals, redemptions, or unwind operations.</p><p>Outflow limits are often configured more permissively to prioritize safety and fast exits. "When outflow limits are "unlimited," the rate limits contract simply does not apply a cap in that direction.</p></td>
         </tr>
         <tr>
           <td>
@@ -9106,7 +9114,7 @@
           </td>
           <td>MaxSlippage</td>
           <td>Core</td>
-          <td><code>maxSlippage</code> is a configurable parameter that sets the maximum allowed price impact or deviation from expected output when executing trades or liquidity operations in a pool. maxslippage is expressed as a decimal and must be a non-zero value. This protects against excessive price impact during volatile market conditions.</td>
+          <td><code>maxSlippage</code> is a configurable parameter that sets the maximum allowed price impact or deviation from expected output when executing trades or liquidity operations in a pool. <code>maxSlippage</code> is expressed as a decimal and must be a non-zero value. This protects against excessive price impact during volatile market conditions.</td>
         </tr>
         <tr>
           <td>
@@ -18449,7 +18457,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition</td>
           <td>Core</td>
-          <td><p>Rfactor is calculated using the formula:</p><p>$$Rfactor = \frac{2u_m - 1}{2u_m \left( u_{opt}(\alpha + 1) - 1 + \frac{\beta u_{opt}}{slope1} \right)}$$</p><p>The parameters of this formula are specified in the documents herein.</p></td>
+          <td><p><code>Rfactor</code> is calculated using the formula:</p><p>$$Rfactor = \frac{2u_m - 1}{2u_m \left( u_{opt}(\alpha + 1) - 1 + \frac{\beta u_{opt}}{slope1} \right)}$$</p><p>The parameters of this formula are specified in the documents herein.</p></td>
         </tr>
         <tr>
           <td>
@@ -18505,7 +18513,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Alpha Definition - SKY Borrow Minimum Rate Definition</td>
           <td>Core</td>
-          <td>SKY Borrow Minimum Rate is the SKY Borrow Minimum Rate specified in <dfn>A.4.4 - SKY Borrow Minimum Rate</dfn>.</td>
+          <td><code>SKY Borrow Minimum Rate</code> is the SKY Borrow Minimum Rate specified in <dfn>A.4.4 - SKY Borrow Minimum Rate</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -18924,7 +18932,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - stUSDS Parameters - Str Parameters</td>
           <td>Core</td>
-          <td>The stUSDS BEAM parameters for the str stUSDS parameter are as follows:
+          <td>The stUSDS BEAM parameters for the <code>str</code> stUSDS parameter are as follows:
             <ul>
               <li><code>max</code> - 5,000 basis points,</li>
               <li><code>min</code> - 200 basis points,</li>
@@ -18938,7 +18946,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - stUSDS Parameters - Duty Parameters</td>
           <td>Core</td>
-          <td>The stUSDS BEAMparameters for the duty stUSDS parameter are as follows:
+          <td>The stUSDS BEAMparameters for the <code>duty</code> stUSDS parameter are as follows:
             <ul>
               <li><code>max</code> - 5,000 basis points,</li>
               <li><code>min</code> - 210 basis points,</li>
