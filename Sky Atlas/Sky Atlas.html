@@ -10278,6 +10278,78 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition</td>
+          <td>Core</td>
+          <td>The documents herein define the initial process for performing the Monthly Settlement Cycle. The calculations to be performed as part of the Monthly Settlement Cycle are defined in <dfn>A.2.6 - Implementation Stages</dfn>. This process definition specifies who performs the calculations and how funds are ultimately paid out.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Initial Calculation By Operational Executor Agent</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Initial Calculation By Operational Executor Agent</td>
+          <td>Core</td>
+          <td>Within five (5) calendar days of the end of each month, each Operational Executor Agent posts on the Sky Forum a calculation of the net amounts due to or from the Prime Agents that it has an Executor Accord with (the “Initial Calculation”). The Initial Calculation must be posted under the “Sky Core” category using the `monthly-settlement-cycle` tag and must contain reasonable supporting detail. The required contents of the Initial Calculation will be further specified in a future iteration of the Atlas.</td>
+        </tr>
+         <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Initial Calculation By Operational Executor Agent - Demand Side Stablecoin Primitive Recipients</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Initial Calculation By Operational Executor Agent - Demand Side Stablecoin Primitive Recipients</td>
+          <td>Core</td>
+          <td>For each Prime Agent, the Initial Calculation must specify whether payments with respect to Demand Side Stablecoin Primitives (see <dfn>A.2.4 - A8 - Demand Side Stablecoin Primitives</dfn>) have already been made by the Operational Executor Agent, and thus should be reimbursed to the Operational Executor Agent instead of being paid to the Prime Agent.</td>
+        </tr>
+         <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council</td>
+          <td>Core</td>
+          <td>Within five (5) calendar days of the posting of each Initial Calculation, BA Labs, on behalf of the Core Council, replies to the Initial Calculation with their own independent calculation of the net amounts due to or from the Prime Agents covered by the Initial Calculation (the “Independent Calculation”). The Independent Calculation must specify whether each amount is an Agreed Amount or a Disputed Amount (<dfn>see A.2.6 - Allowed Deviation</dfn>) and contain reasonable supporting detail. The required contents of the Independent Calculation will be further specified in a future iteration of the Atlas.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Agreed Amount</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Agreed Amount</td>
+          <td>Core</td>
+          <td>The net amount due to or from a Prime Agent in an Initial Calculation is an Agreed Amount if the absolute value of the percentage difference between the amounts in the Initial Calculation and the Independent Calculation is less than or equal to the Allowed Deviation (see <dfn>A.2.6 - Allowed Deviation</dfn>). The net amount due to or from a Prime Agent in an Independent Calculation is also an Agreed Amount if there is no Initial Calculation (see <dfn>A.2.6 - Missing Initial Calculations</dfn>).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Disputed Amount</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Disputed Amount</td>
+          <td>Core</td>
+          <td>The net amount due to or from a Prime Agent in an Initial Calculation is a Disputed Amount if it is not an Agreed Amount.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Allowed Deviation</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Allowed Deviation</td>
+          <td>Core</td>
+          <td>The Allowed Deviation is the maximum allowed deviation, on a percentage basis, between the net amount due to or from a Prime Agent in the Initial Calculation and Independent Calculation before resolution of these differences is required. It recognizes that if the Initial Calculation and Independent Calculation are truly developed independently then differences in methodology are likely to result in small deviations.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Allowed Deviation - A.2.6 - Allowed Deviation Current Value</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Allowed Deviation - A.2.6 - Allowed Deviation Current Value</td>
+          <td>Core</td>
+          <td>The current value of the Allowed Deviation is 1%.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Missing Initial Calculations</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Missing Initial Calculations</td>
+          <td>Core</td>
+          <td>If an Operational Executor Agent does not deliver the Initial Calculation as specified in <dfn>A.2.6 - Initial Calculation By Operational Executor Agent</dfn>, BA Labs must prepare an Independent Calculation with respect to the Prime Agents covered by such Initial Calculation within ten (10) calendar days of the end of each month. The Independent Calculation must be posted under the “Sky Core” category using the `monthly-settlement-cycle tag`, contain reasonable supporting detail, and specify that no Initial Calculation was posted by the Operational Executor Agent.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1</dfn>
           </td>
           <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1</td>
