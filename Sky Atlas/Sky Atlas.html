@@ -599,14 +599,6 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.5.10</dfn>
-          </td>
-          <td>Core Simplification Buffer Budget</td>
-          <td>Article</td>
-          <td>This Article defines the Core Simplification Buffer Budget.</td>
-        </tr>
-        <tr>
-          <td>
             <dfn>A.6.1</dfn>
           </td>
           <td>Agent Artifacts</td>
@@ -938,6 +930,14 @@
           <td>Atlas Preamble - Definitions - Unrewarded USDS</td>
           <td>Core</td>
           <td>Unrewarded USDS are USDS balances that are not receiving the Sky Savings Rate, Integration Boost or USDS Token Rewards. USDS Token Rewards include both SKY and Agent token rewards.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.0.1 - Atlas Preamble - Definitions - Sky Forum</dfn>
+          </td>
+          <td>Atlas Preamble - Definitions - Sky Forum</td>
+          <td>Core</td>
+          <td>The Sky Forum serves as a dedicated platform for governance across the Sky Ecosystem. Community members submit proposals, engage in debate, and align on decisions. Posts are organized by category according to subject matter. For example, proposals or discussions concerning Sky Core must use the “Sky Core” category, while those pertaining to Primes must use the Prime category associated with the Agent. Authors should also apply relevant tags to improve discoverability and cross-referencing. The forum is located at <a href="https://forum.sky.money/">https://forum.sky.money/</a>.</td>
         </tr>
         <tr>
           <td>
@@ -2494,7 +2494,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - stUSDS Bounded External Access Module Exception</td>
           <td>Core</td>
-          <td><p>The stUSDS Bounded External Access Module (stUSDS BEAM) manages the parameters of the stUSDS system. Whitelisted operators can use the stUSDS BEAM to modify rates without waiting for the GSM Pause Delay. The stUSDS BEAM modifies stUSDS parameters within specified ranges. See <dfn>A.4.4 - stUSDS Bounded External Access Module</dfn>.</p><p>This functionality allows the Sky Protocol to update stUSDS parameters more quickly than waiting for the Governance and Spell Process execution and the GSM Pause Delay.</p><p>The risk opened up by this functionality is malicious action by whitelisted operators setting stUSDS parameters to undesirable values. This risk can be mitigated through the stUSDS BEAM parameters and the STUSDS_MOM.</p></td>
+          <td><p>The stUSDS Bounded External Access Module (stUSDS BEAM) manages the parameters of the stUSDS system. Whitelisted operators can use the stUSDS BEAM to modify certain parameters without waiting for the GSM Pause Delay. The stUSDS BEAM modifies stUSDS parameters within specified ranges. See <dfn>A.4.4 - stUSDS Bounded External Access Module</dfn>.</p><p>This functionality allows the Sky Protocol to update stUSDS parameters more quickly than waiting for the Governance and Spell Process execution and the GSM Pause Delay.</p><p>The risk opened up by this functionality is malicious action by whitelisted operators setting stUSDS parameters to undesirable values. This risk can be mitigated through the stUSDS BEAM parameters and the STUSDS_MOM.</p></td>
         </tr>
         <tr>
           <td>
@@ -19324,7 +19324,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology</td>
           <td>Core</td>
-          <td>The documents herein define the methodology that should be used for determining when and how to update stUSDS parameters with the stUSDS BEAM. Initially when stUSDS parameters are set manually by the Operator Multisig (see <dfn>A.4.4 - Manual Parameter Updates By Operator Multisig</dfn>) the Stability Scope Advisors may deviate from these parameters in their best judgment. Once the process is fully automated (see <dfn>A.4.4 - Automatic Updates By Operator Hot Wallet</dfn>) the automated process must fully conform to the specifications herein.</td>
+          <td><p>The documents herein define the methodology that should be used for determining when and how to update stUSDS parameters with the stUSDS BEAM.</p><p>Initially when stUSDS parameters are set manually by the Operator Multisig (see <dfn>A.4.4 - Manual Parameter Updates By Operator Multisig</dfn>) the Stability Scope Advisors may deviate from these parameters in their best judgment. The Stability Scope Advisors should reduce the extent of these deviations over time to minimize the change when the process is fully automated.</p><p>Once the process is fully automated (see <dfn>A.4.4 - Automatic Updates By Operator Hot Wallet</dfn>) the automated process must fully conform to the specifications herein.</p></td>
         </tr>
         <tr>
           <td>
@@ -19941,22 +19941,6 @@
           <td>Core</td>
           <td>The Accessibility Facilitators must work with advisors and Ecosystem Actors to implement a liquidity bootstrapping program using up to 20 million USDS and 320 million SKY. These assets can be used for liquidity programs, or for liquidity infrastructure integration costs. Anything leftover from usage in liquidity programs must be returned to Sky control at the end of the bootstrapping program.<br>The funds can be paid into multisig accounts for future use via executive votes at will by the Accessibility Facilitators.
           </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.5.10 - A1 - Core Simplification Buffer Budget</dfn>
-          </td>
-          <td>Core Simplification Buffer Budget</td>
-          <td>Section</td>
-          <td>The Core Simplification Buffer Budget is a budget of 10,000,000 USDS and 70,000,000 SKY for certain expenses before those expenses are taken over by the Sky Entities, Agents, or other Ecosystem Actors.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.5.10 - Core Simplification Buffer Budget - Core Simplification Project Process Resolution</dfn>
-          </td>
-          <td>Core Simplification Buffer Budget - Core Simplification Project Process Resolution</td>
-          <td>Core</td>
-          <td>A one-time transfer of 8,000,000 USDS is hereby authorized to a wallet controlled by the Accessibility Facilitators. This must be the only transfer from the Core Simplification Buffer Budget and once this transfer has been made a subsequent Atlas Edit Proposal must be submitted to delete the Core Simplification Budget entirely.</td>
         </tr>
         <tr>
           <td>
@@ -32903,7 +32887,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>A Delegate can voluntarily offboard by submitting a resignation message in the Spark Star category of Sky Forum with a signed message from their Delegate wallet as proof. The offboarding takes effect immediately after all active proposals conclude.</td>
+          <td>A Delegate can voluntarily offboard by submitting a resignation message in the Spark Prime category of Sky Forum with a signed message from their Delegate wallet as proof. The offboarding takes effect immediately after all active proposals conclude.</td>
         </tr>
         <tr>
           <td>
