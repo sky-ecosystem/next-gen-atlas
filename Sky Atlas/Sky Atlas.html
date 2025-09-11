@@ -720,7 +720,7 @@
           </td>
           <td>Atlas Preamble - Definitions - Slippery Slope Misalignment</td>
           <td>Core</td>
-          <td><p>Slippery Slope Misalignment is the shortest path to misalignment where incremental misaligned acts are justified in various ways. These can include ignoring the potential significance and larger impact of acts due to their small scale; the trivial way that misalignment occurs; the good intentions of the actor; or the conviction that the ends justifies the means.</p><p>Understanding Slippery Slope Misalignment means understanding that any misalignment at all is always very serious and, if not dealt with, results in increased risk of disequilibrium and alignment failure. In the context of a decentralized ecosystem such as Sky, this could mean a governance attack or financial collapse.</p></td>
+          <td><p>Slippery Slope Misalignment is the shortest path to misalignment where incremental misaligned acts are justified in various ways. These can include ignoring the potential significance and larger impact of acts due to their small scale; the trivial way that misalignment occurs; the good intentions of the actor; or the conviction that the ends justify the means.</p><p>Understanding Slippery Slope Misalignment means understanding that any misalignment at all is always very serious and, if not dealt with, results in increased risk of disequilibrium and alignment failure. In the context of a decentralized ecosystem such as Sky, this could mean a governance attack or financial collapse.</p></td>
         </tr>
         <tr>
           <td>
@@ -930,6 +930,14 @@
           <td>Atlas Preamble - Definitions - Unrewarded USDS</td>
           <td>Core</td>
           <td>Unrewarded USDS are USDS balances that are not receiving the Sky Savings Rate, Integration Boost or USDS Token Rewards. USDS Token Rewards include both SKY and Agent token rewards.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.0.1 - Atlas Preamble - Definitions - Sky Forum</dfn>
+          </td>
+          <td>Atlas Preamble - Definitions - Sky Forum</td>
+          <td>Core</td>
+          <td>The Sky Forum serves as a dedicated platform for governance across the Sky Ecosystem. Community members submit proposals, engage in debate, and align on decisions. Posts are organized by category according to subject matter. For example, proposals or discussions concerning Sky Core must use the “Sky Core” category, while those pertaining to Primes must use the Prime category associated with the Agent. Authors should also apply relevant tags to improve discoverability and cross-referencing. The forum is located at <a href="https://forum.sky.money/">https://forum.sky.money/</a>.</td>
         </tr>
         <tr>
           <td>
@@ -2059,7 +2067,7 @@
           <td>Active Data Controller</td>
           <td><p>The membership of the Emergency Response Group is defined as Active Data in <dfn>A.1.8 - Emergency Response Group Current Membership</dfn>.</p><p>The Active Data is updated as follows:</p>
             <ul>
-              <li>The Responsible Party is the Support Facilitators.</li>
+              <li>The Responsible Party is the Governance Facilitators.</li>
               <li>The Update Process must follow the protocol for ‘Direct Edit’.</li>
             </ul>
           </td>
@@ -2482,11 +2490,27 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - stUSDS Bounded External Access Module Exception</dfn>
+          </td>
+          <td>Sky Core Governance Security - Governance Security Delay Requirements - stUSDS Bounded External Access Module Exception</td>
+          <td>Core</td>
+          <td><p>The stUSDS Bounded External Access Module (stUSDS BEAM) manages the parameters of the stUSDS system. Whitelisted operators can use the stUSDS BEAM to modify certain parameters without waiting for the GSM Pause Delay. The stUSDS BEAM modifies stUSDS parameters within specified ranges. See <dfn>A.4.4 - stUSDS Bounded External Access Module</dfn>.</p><p>This functionality allows the Sky Protocol to update stUSDS parameters more quickly than waiting for the Governance and Spell Process execution and the GSM Pause Delay.</p><p>The risk opened up by this functionality is malicious action by whitelisted operators setting stUSDS parameters to undesirable values. This risk can be mitigated through the stUSDS BEAM parameters and the STUSDS_MOM.</p></td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - Stability Parameter Bounded External Access Module Breaker Exception</dfn>
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - Stability Parameter Bounded External Access Module Breaker Exception</td>
           <td>Core</td>
           <td><p>The SPBEAM_MOM contract allows Sky Governance to bypass the GSM Pause Delay and disable the Stability Parameter Bounded External Access Module.</p><p>This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the SP-BEAM is hacked or is a malicious actor. Once the SPBEAM_MOM is activated, the SP-BEAM will not be able to change any rates in the system. If the SPBEAM_MOM has been triggered, it will still be possible to modify rates through the usual Executive Vote process, subject to the GSM Pause Delay.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - stUSDS Bounded External Access Module Breaker Exception</dfn>
+          </td>
+          <td>Sky Core Governance Security - Governance Security Delay Requirements - stUSDS Bounded External Access Module Breaker Exception</td>
+          <td>Core</td>
+          <td><p>The STUSDS_MOM contract allows Sky Governance to bypass the GSM Pause Delay and disable the stUSDS Bounded External Access Module or set the <code>cap</code> or <code>line</code> stUSDS parameters to zero.</p><p>This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the stUSDS BEAM is hacked or is a malicious actor. Once the STUSDS_MOM is activated to disable the stUSDS BEAM, the stUSDS BEAM will not be able to change any stUSDS parameters in the system. If the STUSDS_MOM has been triggered, it will still be possible to modify stUSDS parameters through the usual Executive Vote process, subject to the GSM Pause Delay.</p>
         </tr>
         <tr>
           <td>
@@ -6286,7 +6310,7 @@
           </td>
           <td>Fees</td>
           <td>Core</td>
-          <td>The documents herein define the methodology for calculating the Accessibility Reward due to the reward recipient for USDS and sUSDS balances attributable to them.</td>
+          <td>The documents herein define the methodology for calculating the Accessibility Reward due to the reward recipient for USDS and sUSDS balances attributable to them. The standard Accessibility Reward rate is set at 0.2%. The total 0.2% fee is divided between the frontend reward recipient and the relevant Prime Agent with an expectation of a 50/50 split.</td>
         </tr>
         <tr>
           <td>
@@ -6294,7 +6318,7 @@
           </td>
           <td>Fee For USDS and sUSDS Balances</td>
           <td>Core</td>
-          <td>The reward recipient is entitled to a 0.1% Accessibility Reward annualized on all USDS and sUSDS balances attributable to them.</td>
+          <td>The frontend reward recipient can earn up to a maximum of a 0.1% Accessibility Reward rate annualized on all USDS and sUSDS balances attributable to them. The specific fee apportionment must be specified in the relevant Prime Agent Artifact.</td>
         </tr>
         <tr>
           <td>
@@ -6302,7 +6326,7 @@
           </td>
           <td>Prime Agent Management Fee</td>
           <td>Core</td>
-          <td>In addition to the fee specified above, the Prime Agent that Invoked the Accessibility Reward Primitive is entitled to a 0.1% management fee annualized on all USDS and sUSDS balances that use the Reward Code.</td>
+          <td>The Prime Agent that Invoked the Accessibility Reward Primitive is entitled to at least a 0.1% Accessibility Reward rate annualized on all USDS and sUSDS balances that use their relevant Reward Code. The specific fee apportionment must be specified in the relevant Prime Agent Artifact.</td>
         </tr>
         <tr>
           <td>
@@ -6344,7 +6368,7 @@
           </td>
           <td>Near-Term Process</td>
           <td>Core</td>
-          <td>In the near term, DAOcraft calculates the Accessibility Reward on behalf of the Support Facilitators. The Accessibility Facilitators then pay the Accessibility Reward from the Accessibility Reward Controller Wallet located on the Ethereum Mainnet at <code>0x05F471262d15EECA4059DadE070e5BEd509a4e73</code> within seven (7) days of the end of every month. The balance of this wallet may be topped up to 3 million USDS. This funding is subject to an Exercutive Vote.</td>
+          <td>In the near term, Amatsu calculates the Accessibility Reward on behalf of the Support Facilitators. The Accessibility Facilitators then pay the Accessibility Reward from the Accessibility Reward Controller Wallet located on the Ethereum Mainnet at <code>0x05f471262d15eeca4059dade070e5bed509a4e73</code> within seven (7) days of the end of every month. The balance of this wallet may be topped up to 3 million USDS. This funding is subject to an Exercutive Vote.</td>
         </tr>
         <tr>
           <td>
@@ -8998,6 +9022,102 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.2.4 - Base Elements</dfn>
+          </td>
+          <td>Base Elements</td>
+          <td>Core</td>
+          <td>The documents herein define base elements of the Allocation System Primitive.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.4 - Liquidity Layer Parameter Definitions</dfn>
+          </td>
+          <td>Liquidity Layer Parameter Definitions</td>
+          <td>Core</td>
+          <td>The documents herein define common parameters of implementations of the Allocation System based on the Spark Liquidity Layer, including the Grove Liquidity Layer.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.4 - Rate Limiter</dfn>
+          </td>
+          <td>Rate Limiter</td>
+          <td>Core</td>
+          <td>Rate Limiter refers to the overall mechanism or system that limits the volume of token movements over time, implemented via the <code>RateLimits</code> contracts. The Rate Limiter manages multiple rate limits and enforces constraints on controller operations to prevent rapid asset drainage and mitigate risks from compromised relayers or other attacks. This ensures that the maximum amount of tokens processed within a specific time period stays within safe bounds. The <code>RateLimits</code> contracts and their addresses for each chain can be found in the Allocation System Primitive for a Prime, under ALM Contracts.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.4 - Rate Limits</dfn>
+          </td>
+          <td>Rate Limits</td>
+          <td>Core</td>
+          <td><p>Rate limits set the maximum allowable amount of tokens that can be processed for specific operations within a given time period. Each rate limit contains the rate limit data: <code>maxAmount</code>, <code>slope</code>, <code>lastAmount</code> and <code>lastUpdated</code>. The current rate limit is calculated using the formula:</p><p><code>currentRateLimit = min(slope * (block.timestamp - lastUpdated) + lastAmount, maxAmount).</code></p><p>The rate limit data <code>maxAmount</code> and <code>slope</code> are configurable parameters that are set and modified by Governance. The rate limit data <code>lastAmount</code> and <code>lastUpdated</code> are internal state data dynamically tracked by the Rate Limiter to perform its calculations.</p><p>Rate limits set caps on the rate of allocation to a given Instance, they do not act as a limit on the total amount that may be allocated to that Instance.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.4 - MaxAmount</dfn>
+          </td>
+          <td>MaxAmount</td>
+          <td>Core</td>
+          <td><code>maxAmount</code> sets a hard cap on the level of allocation to an Instance at any given time. It sets the absolute rate limit regardless of how much time has passed since the last allocation. For example, if <code>maxAmount</code> is set to 1,000,000 tokens, the rate limit will increase over time at the rate determined by the <code>slope</code> until it reaches 1,000,000 tokens, at this point the rate limit will stop increasing, but it will resume increasing once an allocation to the Instance has been made.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.4 - Slope</dfn>
+          </td>
+          <td>Slope</td>
+          <td>Core</td>
+          <td><code>slope</code> is the linear refill rate of a rate limiter's allowance over time. It defines how quickly the capacity to perform additional inflow or outflow accrues after prior consumption. For example, if the slope is set to 1,000,000 tokens per day (converted to per second for on-chain execution), the rate limit will recover at that rate until it reaches the maxAmount.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.4 - LastUpdated</dfn>
+          </td>
+          <td>LastUpdated</td>
+          <td>Core</td>
+          <td><code>lastUpdated</code> is the timestamp when the rate limit was last updated, serving as the reference point for calculating time-elapsed refills in the formula.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.4 - LastAmount</dfn>
+          </td>
+          <td>LastAmount</td>
+          <td>Core</td>
+          <td><code>lastAmount</code> is the remaining allowance available at the last update, used to compute the current rate limit by adding accrued capacity.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.4 - Inflow Rate Limits</dfn>
+          </td>
+          <td>Inflow Rate Limits</td>
+          <td>Core</td>
+          <td>Inflow rate limits constrain the rate at which allocated liquidity can increase into a scope. "Inflow" means movements that raise exposure or capital allocated to an Instance or market, such as depositing, minting, or rebalancing into a position.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.4 - Outflow Rate Limits</dfn>
+          </td>
+          <td>Outflow Rate Limits</td>
+          <td>Core</td>
+          <td><p>Outflow Rate Limits constrain the rate at which allocated liquidity can be withdrawn or exposure reduced from a scope. "Outflow" means movements that lower exposure or capital allocated to an Instance or market, such as withdrawals, redemptions, or unwind operations.</p><p>Outflow limits are often configured more permissively to prioritize safety and fast exits. When outflow limits are "unlimited", the rate limits contract simply does not apply a cap in that direction.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.4 - Rate Limit IDs</dfn>
+          </td>
+          <td>Rate Limit IDs</td>
+          <td>Core</td>
+          <td>A <code>Rate Limit ID</code> is a bytes32 key that uniquely identifies a rate limit. Rate Limit IDs allow the system to maintain independent allowance state for each relevant transaction.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.4 - MaxSlippage</dfn>
+          </td>
+          <td>MaxSlippage</td>
+          <td>Core</td>
+          <td><code>maxSlippage</code> is a configurable parameter that sets the maximum allowed price impact or deviation from expected output when executing trades or liquidity operations in a pool. <code>maxSlippage</code> is expressed as a decimal and must be a non-zero value. This protects against excessive price impact during volatile market conditions.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.2.4 - Allocation System Process Definition</dfn>
           </td>
           <td>Allocation System Process Definition</td>
@@ -10154,277 +10274,477 @@
           </td>
           <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation</td>
           <td>Core</td>
-          <td>The initial implementation of the Monthly Settlement Cycle will occur in three stages as specified in the documents herein. This initial implementation of the Monthly Settlement Cycle does not include the Senior Risk Capital System, which is still being developed, and funds continue to be allocated through Executive Votes rather than the allocation steps of the Treasury Management Function. See <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures</dfn>.</td>
+          <td>The documents herein define the initial implementation of the Monthly Settlement Cycle. This initial implementation of the Monthly Settlement Cycle does not include the Senior Risk Capital System, which is still being developed, and funds continue to be allocated through Executive Votes rather than the allocation steps of the Treasury Management Function. See <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures</dfn>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition</td>
+          <td>Core</td>
+          <td>The documents herein define the initial process for performing the Monthly Settlement Cycle. The calculations to be performed as part of the Monthly Settlement Cycle are defined in <dfn>A.2.6 - Implementation Stages</dfn>. This process definition specifies who performs the calculations and how funds are ultimately paid out.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Initial Calculation By Operational Executor Agent</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Initial Calculation By Operational Executor Agent</td>
+          <td>Core</td>
+          <td>Within five (5) calendar days of the end of each month, each Operational Executor Agent posts on the Sky Forum a calculation of the net amounts due to or from the Prime Agents that it has an Executor Accord with (the “Initial Calculation”). The Initial Calculation must be posted under the “Sky Core” category using the `monthly-settlement-cycle` tag and must contain reasonable supporting detail. The required contents of the Initial Calculation will be further specified in a future iteration of the Atlas.</td>
+        </tr>
+         <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Initial Calculation By Operational Executor Agent - Demand Side Stablecoin Primitive Recipients</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Initial Calculation By Operational Executor Agent - Demand Side Stablecoin Primitive Recipients</td>
+          <td>Core</td>
+          <td>For each Prime Agent, the Initial Calculation must specify whether payments with respect to Demand Side Stablecoin Primitives (see <dfn>A.2.4 - A8 - Demand Side Stablecoin Primitives</dfn>) have already been made by the Operational Executor Agent, and thus should be reimbursed to the Operational Executor Agent instead of being paid to the Prime Agent.</td>
+        </tr>
+         <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council</td>
+          <td>Core</td>
+          <td>Within five (5) calendar days of the posting of each Initial Calculation, BA Labs, on behalf of the Core Council, replies to the Initial Calculation with their own independent calculation of the net amounts due to or from the Prime Agents covered by the Initial Calculation (the “Independent Calculation”). The Independent Calculation must specify whether each amount is an Agreed Amount or a Disputed Amount (<dfn>see A.2.6 - Allowed Deviation</dfn>) and contain reasonable supporting detail. The required contents of the Independent Calculation will be further specified in a future iteration of the Atlas.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Agreed Amount</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Agreed Amount</td>
+          <td>Core</td>
+          <td>The net amount due to or from a Prime Agent in an Initial Calculation is an Agreed Amount if the absolute value of the percentage difference between the amounts in the Initial Calculation and the Independent Calculation is less than or equal to the Allowed Deviation (see <dfn>A.2.6 - Allowed Deviation</dfn>). The net amount due to or from a Prime Agent in an Independent Calculation is also an Agreed Amount if there is no Initial Calculation (see <dfn>A.2.6 - Missing Initial Calculations</dfn>).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Disputed Amount</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Disputed Amount</td>
+          <td>Core</td>
+          <td>The net amount due to or from a Prime Agent in an Initial Calculation is a Disputed Amount if it is not an Agreed Amount.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Allowed Deviation</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Allowed Deviation</td>
+          <td>Core</td>
+          <td>The Allowed Deviation is the maximum allowed deviation, on a percentage basis, between the net amount due to or from a Prime Agent in the Initial Calculation and Independent Calculation before resolution of these differences is required. It recognizes that if the Initial Calculation and Independent Calculation are truly developed independently then differences in methodology are likely to result in small deviations.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Allowed Deviation - A.2.6 - Allowed Deviation Current Value</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Allowed Deviation - A.2.6 - Allowed Deviation Current Value</td>
+          <td>Core</td>
+          <td>The current value of the Allowed Deviation is 1%.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Missing Initial Calculations</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Independent Calculation By BA Labs On Behalf Of Core Council - Missing Initial Calculations</td>
+          <td>Core</td>
+          <td>If an Operational Executor Agent does not deliver the Initial Calculation as specified in <dfn>A.2.6 - Initial Calculation By Operational Executor Agent</dfn>, BA Labs must prepare an Independent Calculation with respect to the Prime Agents covered by such Initial Calculation within ten (10) calendar days of the end of each month. The Independent Calculation must be posted under the “Sky Core” category using the `monthly-settlement-cycle tag`, contain reasonable supporting detail, and specify that no Initial Calculation was posted by the Operational Executor Agent.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Resolution Of Differences By Core GovOps Atlas Axis</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Resolution Of Differences By Core GovOps Atlas Axis</td>
+          <td>Core</td>
+          <td><p>If there are any Disputed Amounts (see <dfn>A.2.6 - Disputed Amount</dfn>), then Core GovOps Atlas Axis must resolve them. Atlas Axis must work with the relevant Operational Executor Agent, relevant Prime Agents, and BA Labs to reach a mutually acceptable resolution and may consult other parties to the extent it deems advisable.</p><p>Core GovOps Atlas Axis makes the final decision in resolving differences between the Initial Calculation and the Independent Calculation (the “Final Calculation”). Atlas Axis must post the Final Calculation as a reply to the Independent Calculation within five (5) calendar days of the posting of an Independent Calculation that includes a Disputed Amount. The Final Calculation must specify the Final Amount and contain reasonable supporting detail. The required contents of the Final Calculation will be further specified in a future iteration of the Atlas.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Resolution Of Differences By Core GovOps Atlas Axis - Final Amount</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Resolution Of Differences By Core GovOps Atlas Axis - Final Amount</td>
+          <td>Core</td>
+          <td>The net amount due to or from a Prime Agent in a Final Calculation is a Final Amount.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Resolution Of Differences By Core GovOps Atlas Axis - Disputes By Prime Agents</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Resolution Of Differences By Core GovOps Atlas Axis - Disputes By Prime Agents</td>
+          <td>Core</td>
+          <td><p>A Prime Agent may dispute the calculation of the net amount due to or from it (a “Dispute Notice”). The Dispute Notice must be posted as a reply to the Initial Calculation within five (5) calendar days of the posting of the Initial Calculation. The Dispute Notice must specify the errors in the Initial Calculation and the Prime’s own calculation of the net amount due to or from it. The required contents of the Dispute Notice will be further specified in a future iteration of the Atlas.</p><p>Core GovOps Atlas Axis may at its discretion resolve the differences between the calculations using the process specified in A.2.6 - Resolution Of Differences By Core GovOps Atlas Axis. Alternatively, Atlas Axis may elect to determine the correct amount and true up any differences in the next Monthly Settlement Cycle as specified in <dfn>A.2.6 - True Up In Subsequent Monthly Settlement Cycle</dfn>. In either case Atlas Axis must post its decision as a reply to the Dispute Notice.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote</td>
+          <td>Core</td>
+          <td>When all amounts due to or from Prime Agents are Agreed Amounts or Final Amounts then the Governance Facilitators, on behalf of the Core Council, must include payments of these amounts in the next Sky Core Executive Vote as specified herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Payment Of Net Amounts Due To Prime Agents</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Payment Of Net Amounts Due To Prime Agents</td>
+          <td>Core</td>
+          <td>Net amounts due to Prime Agents, excluding reimbursements made to Operational Executor Agents (see <dfn>A.2.6 - Reimbursement Of Payments Made By Operational Executor Agents</dfn>), are transferred from the Sky Surplus Buffer to the Prime SubProxy Account through an Executive Vote.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Collection Of Net Amounts Due From Prime Agents</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Collection Of Net Amounts Due From Prime Agents</td>
+          <td>Core</td>
+          <td>Net amounts due from Prime Agents, excluding reimbursements made to Operational Executor Agents (see <dfn>A.2.6 - Reimbursement Of Payments Made By Operational Executor Agents</dfn>) are transferred from the Prime to the Sky Surplus Buffer through a Prime Spell included in an Executive Vote.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Reimbursement Of Payments Made By Operational Executor Agents</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Reimbursement Of Payments Made By Operational Executor Agents</td>
+          <td>Core</td>
+          <td>Reimbursements of payments already made by the Operational Executor Agent with respect to Demand Side Stablecoin Primitives (see <dfn>A.2.4 - A8 - Demand Side Stablecoin Primitives</dfn>) are transferred to the Operational Executor Agent's Buffer through an Executive Vote.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Reimbursement Of Payments Made By Operational Executor Agents - Reimbursement To Accessibility Reward Wallet And Integration Boost Wallets</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Reimbursement Of Payments Made By Operational Executor Agents - Reimbursement To Accessibility Reward Wallet And Integration Boost Wallets</td>
+          <td>Core</td>
+          <td>On an interim basis, Accessibility Reward reimbursements may also be made to the Accessibility Reward Controller Wallet (see <dfn>A.2.4 - Near-Term Process</dfn>) at the request of an Operational Executor Agent. Similarly, Integration Boost reimbursements may also be made to the Integration Boost Wallet (see <dfn>A.2.4 - Near Term Process</dfn>) at the request of an Operational Executor Agent.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - True Up In Subsequent Monthly Settlement Cycle</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - True Up In Subsequent Monthly Settlement Cycle</td>
+          <td>Core</td>
+          <td><p>If the amounts of any payments included in the Sky Core Executive Vote (see <dfn>A.2.6 - Settlement Through Sky Core Executive Vote</dfn>) are subsequently determined to be incorrect, adjustments are included in the next Monthly Settlement Cycle to ensure that each party pays the amount it owes or receives the amount to which it is entitled.</p><p>Core GovOps Atlas Axis must prepare a statement specifying the errors, the correct amounts, and the adjustments needed (the “Correction Calculation”). The Correction Calculation must be posted to the Sky Forum under the “Sky Core” category with the `monthly-settlement-cycle` tag. The required contents of the Correction Calculation will be further specified in a future iteration of the Atlas.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Interim Measures</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Interim Measures</td>
+          <td>Core</td>
+          <td>The documents herein define interim exceptions to the process definition for the Monthly Settlement Cycle.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Interim Measures - Scope Of September 2025 Monthly Settlement Cycle</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Interim Measures - Scope Of September 2025 Monthly Settlement Cycle</td>
+          <td>Core</td>
+          <td>The initial Monthly Settlement Cycle conducted in September 2025 will be for the two month period from July 1, 2025 to August 31, 2025.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Interim Measures - Process For September 2025 Monthly Settlement Cycle</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Interim Measures - Process For September 2025 Monthly Settlement Cycle</td>
+          <td>Core</td>
+          <td>For the initial Monthly Settlement Cycle conducted in September 2025, the Initial Calculation prepared by Operational Executor Agent Amatsu will only include calculations related to Demand Side Stablecoin Primitives (see <dfn>A.2.4 - A8 - Demand Side Stablecoin Primitives</dfn>). The Independent Calculation prepared by BA Labs on behalf of the Core Council will be prepared normally. The calculations related to Demand Side Stablecoin Primitives will be subject to the normal resolution process defined in <dfn>A.2.6 - Resolution Of Differences By Core GovOps Atlas Axis</dfn>. For all other calculations, the amounts in the Independent Calculation will be treated as Agreed Amounts. The Initial Calculation and the Independent Calculation will be posted to the Sky Forum by September 10, 2025.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages</td>
+          <td>Core</td>
+          <td>The initial implementation of the Monthly Settlement Cycle will occur in three stages as specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1</td>
           <td>Core</td>
           <td>The documents herein define Stage 1 of the implementation of the Monthly Settlement Cycle.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation</td>
           <td>Core</td>
           <td>In Stage 1 of the implementation of the Monthly Settlement Cycle, the net amount due from each Prime to Sky will be calculated using a Simplified Profit And Loss Calculation as specified in the documents herein.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate</td>
           <td>Core</td>
           <td>The amount due from Sky to each Prime with respect to Demand Side Primitives and the Agent Rate is calculated as specified in the documents herein.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Accessibility Reward</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Accessibility Reward</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Accessibility Reward</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Accessibility Reward</td>
           <td>Core</td>
           <td>The amount due from Sky to a Prime in a month with respect to the Accessibility Reward is the amount earned by the Prime with respect to all USDS and sUSDS balances marked with the Prime's reward codes. See <dfn>A.2.4 - Accessibility Reward Primitive</dfn>. This includes any Bonus Accessibility Reward. See <dfn>A.2.10 - 2025 Bonus</dfn>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Agent Rate</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Agent Rate</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Agent Rate</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Agent Rate</td>
           <td>Core</td>
           <td>The amount due from Sky to a Prime in a month with respect to the Agent Rate is calculated as specified in <dfn>A.3.2 - Core Stability Parameters - Parameters - Agent Rate</dfn>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Accessibility Reward And Agent Rate</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Accessibility Reward And Agent Rate</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Accessibility Reward And Agent Rate</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Accessibility Reward And Agent Rate</td>
           <td>Core</td>
           <td>The amount due from Sky to a Prime in a month with respect to the Accessibility Reward and the Agent Rate is the sum of the amounts specified in <dfn>A.2.6 - Amount Due From Sky To Primes With Respect To Accessibility Reward</dfn> and <dfn>A.2.6 - Amount Due From Sky To Primes With Respect To Agent Rate</dfn>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives</td>
           <td>Core</td>
           <td>The amount due from each Prime to Sky with respect to Supply Side Primitives is calculated as specified in the documents herein.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 1: Calculate Total Allocation System Revenue</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 1: Calculate Total Allocation System Revenue</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 1: Calculate Total Allocation System Revenue</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 1: Calculate Total Allocation System Revenue</td>
           <td>Core</td>
           <td>First, Total Allocation System Revenue is calculated for each Prime for the month. Total Allocation System Revenue for a Prime in a month is the sum of Instance Revenue for each Active Instance of the Allocation System Primitive that the Prime has deployed.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 1: Calculate Total Allocation System Revenue - Instance Revenue</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 1: Calculate Total Allocation System Revenue - Instance Revenue</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 1: Calculate Total Allocation System Revenue - Instance Revenue</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 1: Calculate Total Allocation System Revenue - Instance Revenue</td>
           <td>Core</td>
           <td>Instance Revenue for an Allocation System Instance for a month is all earnings from that Instance.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit</td>
           <td>Core</td>
           <td>Second, Total Allocation System Profit is calculated for each Prime for the month. Total Allocation System Profit for a Prime in a month is the sum of Instance Profit for each Active Instance of the Allocation System Primitive that the Prime has deployed.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit - Instance Profit</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit - Instance Profit</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit - Instance Profit</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit - Instance Profit</td>
           <td>Core</td>
           <td>Instance Profit for an Allocation System Instance is equal to the greater of (1) Instance Revenue (see <dfn>A.2.6 - Instance Revenue</dfn>) minus Instance Expenses (see <dfn>A.2.6 - Instance Expense</dfn>) and (2) zero.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit - Instance Profit - Instance Expense</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit - Instance Profit - Instance Expense</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit - Instance Profit - Instance Expense</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 2: Calculate Total Allocation System Profit - Instance Profit - Instance Expense</td>
           <td>Core</td>
           <td>Instance Expense for an Allocation System Instance for a month is the interest expense on the funds from Sky's Collateral Portfolio invested in the Instance. It is calculated on a per block basis based on the amount invested from Sky's Collateral Portfolio and the Agent Credit Line Borrow Rate.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit</td>
           <td>Core</td>
           <td>Third, Adjusted Allocation System Profit is calculated for each Prime for the month. Adjusted Allocation System Profit for a Prime in a month is Total Allocation System Profit minus the Distortion Penalty (see <dfn>A.2.6 - Distortion Penalty</dfn>) and the Low Yield Actively Stabilizing Collateral Penalty (see <dfn>A.2.6 - Low Yield Actively Stabilizing Collateral Penalty</dfn>).</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Distortion Penalty</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Distortion Penalty</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Distortion Penalty</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Distortion Penalty</td>
           <td>Core</td>
           <td><p>The Distortion Penalty is a discretionary penalty designed to mitigate the potential misalignment caused by the asymmetric nature of the Simplified Profit And Loss Calculation, where Primes earn profits on Allocation System Instances that earn more than the Agent Credit Line Borrow Rate but do not suffer losses when Instances earn less than the Agent Credit Line Borrow Rate.</p><p>The Core Executor Agent, in consultation with the Stability Facilitators and the Stability Scope Advisors, may assess a penalty of up to 100% of Total Allocation System Profit (see <dfn>A.2.6 - Step 2: Calculate Total Allocation System Profit</dfn>) if it determines that a Prime's decisions were distorted by this incentive structure.</p></td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty</td>
           <td>Core</td>
           <td><p>The Low Yield Actively Stabilizing Collateral Penalty is a formulaic penalty designed to prevent Primes from holding excessive amounts of low yield Actively Stabilizing Collateral.</p><p>The penalty, as a percentage of the Total Allocation System Profit, is the lesser of (1) ten times the Excess Low Yield Actively Stabilizing Collateral Percentage and (2) 100%.</p></td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty - Excess Low Yield Actively Stabilizing Collateral Percentage</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty - Excess Low Yield Actively Stabilizing Collateral Percentage</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty - Excess Low Yield Actively Stabilizing Collateral Percentage</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty - Excess Low Yield Actively Stabilizing Collateral Percentage</td>
           <td>Core</td>
           <td>The Excess Low Yield Actively Stabilizing Collateral Percentage for a Prime is equal to the excess of (1) its Low Yield Actively Stabilizing Collateral (see A.2.6 - Low Yield Actively Stabilizing Collateral) as a percentage of its Collateral Portfolio above (2) its Minimum Actively Stabilizing Collateral (see <dfn>A.3.4 - Minimum Actively Stabilizing Collateral</dfn>) as a percentage of its Collateral Portfolio.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty - Excess Low Yield Actively Stabilizing Collateral Percentage - Low Yield Actively Stabilizing Collateral</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty - Excess Low Yield Actively Stabilizing Collateral Percentage - Low Yield Actively Stabilizing Collateral</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty - Excess Low Yield Actively Stabilizing Collateral Percentage - Low Yield Actively Stabilizing Collateral</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 3: Calculate Adjusted Allocation System Profit - Low Yield Actively Stabilizing Collateral Penalty - Excess Low Yield Actively Stabilizing Collateral Percentage - Low Yield Actively Stabilizing Collateral</td>
           <td>Core</td>
           <td>Low Yield Actively Stabilizing Collateral is Actively Stabilizing Collateral (see <dfn>A.3.4 - Actively Stabilizing Collateral</dfn>) that earns less than the Agent Credit Line Borrow Rate.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 4: Calculate Amount Due To Sky With Respect To Supply Side Primitives</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 4: Calculate Amount Due To Sky With Respect To Supply Side Primitives</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 4: Calculate Amount Due To Sky With Respect To Supply Side Primitives</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Primes To Sky With Respect To Supply Side Primitives - Step 4: Calculate Amount Due To Sky With Respect To Supply Side Primitives</td>
           <td>Core</td>
           <td>Fourth, the amount due to Sky with respect to Supply Side Primitives is calculated for each Prime for the month. The amount due to Sky with respect to Supply Side Primitives is Total Allocation System Revenue (see <dfn>A.2.6 - Step 1: Calculate Total Allocation System Revenue</dfn>) minus Adjusted Allocation System Profit (see <dfn>A.2.6 - Step 3: Calculate Adjusted Allocation System Profit</dfn>).</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Net Amount Due From Primes To Sky</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Net Amount Due From Primes To Sky</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Net Amount Due From Primes To Sky</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Net Amount Due From Primes To Sky</td>
           <td>Core</td>
-          <td><p>The net amount due from each Prime to Sky is the amount due from the Prime to Sky with respect to Supply Side Primitives (see <dfn>A.2.6 - Amount Due From Primes To Sky With Respect To Supply Side Primitives</dfn>) plus any amount due from the Prime to Sky with respect to the Token Launch Penalty (see <dfn>A.2.10 - Token Launch Penalty</dfn>) minus the amount due from Sky to the Prime with respect to Demand Side Primitives and the Agent Rate (see <dfn>A.2.6 - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate</dfn>).</p><p>Net amounts due from a Prime to Sky are transferred from the Prime's Treasury to the Surplus Buffer through a Prime Spell included in an Executive Vote. Net amounts due from Sky to a Prime are transferred from the Surplus Buffer to the Prime's Treasury through an Executive Vote.</p></td>
+          <td><p>The net amount due from each Prime to Sky is the amount due from the Prime to Sky with respect to Supply Side Primitives (see <dfn>A.2.6 - Amount Due From Primes To Sky With Respect To Supply Side Primitives</dfn>) plus any amount due from the Prime to Sky with respect to the Token Launch Penalty (see <dfn>A.2.10 - Token Launch Penalty</dfn>) minus the amount due from Sky to the Prime with respect to Demand Side Primitives and the Agent Rate (see <dfn>A.2.6 - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate</dfn>).</p><p>Net amounts due from a Prime to Sky are transferred from the Prime to the Surplus Buffer through a Prime Spell included in an Executive Vote. Net amounts due from Sky to a Prime are transferred from the Surplus Buffer to the Prime's Treasury through an Executive Vote.</p></td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Timing</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Exceptions</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Timing</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Exceptions</td>
+          <td>Core</td>
+          <td>The documents herein define exceptions to the Simplified Profit And Loss Calculation for specific assets held by certain Prime Agents.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Exceptions - USDT Held By Spark</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Exceptions - USDT Held By Spark</td>
+          <td>Core</td>
+          <td>Spark pays the Agent Credit Line Borrow Rate with respect to funds borrowed by Spark to invest in USDT and held in SparkLend. Spark thus realizes the full profit and loss associated with these investments.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Exceptions - pyUSD Held By Spark</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Exceptions - pyUSD Held By Spark</td>
+          <td>Core</td>
+          <td>Spark pays the Agent Credit Line Borrow Rate with respect to funds borrowed by Spark to invest in pyUSD and held in SparkLend or Spark's ALM Proxy. Spark thus realizes the full profit and loss associated with these investments.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Timing</dfn>
+          </td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Timing</td>
           <td>Core</td>
           <td>Stage 1 is currently expected to be implemented in the August 21, 2025 Executive Vote for the period from July 1, 2025 to July 31, 2025.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Actions</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Actions</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Actions</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Actions</td>
           <td>Core</td>
           <td>The actions specified herein must be completed to achieve Stage 1 implementation of the Monthly Settlement Cycle.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Actions - Reduction Of Prime Allocator Vault Stability Fees</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Actions - Reduction Of Prime Allocator Vault Stability Fees</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Actions - Reduction Of Prime Allocator Vault Stability Fees</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Actions - Reduction Of Prime Allocator Vault Stability Fees</td>
           <td>Core</td>
           <td>The Stability Fees for each Prime Allocator Vault must be reduced to zero so that value is transferred from Primes to Sky Core exclusively through Executive Votes. The Core Executor Agent, in consultation with the Stability Facilitators and the Stability Scope Advisors, is directed to use the Stability Parameter Bounded External Access Module to reduce the Stability Fee for each Prime Allocator Vault to zero. See <dfn>A.3.9 - Measures For Endgame Transition - Stability Parameter Bounded External Access Module - Allocator Vault Parameters</dfn>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Actions - Automation Of Simplified Profit And Loss Calculation</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Actions - Automation Of Simplified Profit And Loss Calculation</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 1 - Stage 1 Actions - Automation Of Simplified Profit And Loss Calculation</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Actions - Automation Of Simplified Profit And Loss Calculation</td>
           <td>Core</td>
           <td>The Stability Scope Advisors must develop tooling to allow the net amount due from each Prime to Sky each month under the Simplified Profit And Loss Calculation to be computed automatically.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 2</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 2</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 2</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 2</td>
           <td>Core</td>
           <td>The documents herein define Stage 2 of the implementation of the Monthly Settlement Cycle.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 2 - Stage 2 Virtual Base Rate</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 2 - Stage 2 Virtual Base Rate</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 2 - Stage 2 Virtual Base Rate</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 2 - Stage 2 Virtual Base Rate</td>
           <td>Core</td>
           <td>In Stage 2 of the implementation of the Monthly Settlement Cycle, the net amount due from each Prime to Sky is calculated as specified in the Atlas without the use of the Simplified Profit And Loss Calculation. However, interest under the Base Rate does not accrue in real time onchain and is instead calculated offchain and paid through Executive Votes as part of the Monthly Settlement Cycle. This is known as the Virtual Base Rate as these calculations occur offchain.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 2 - Stage 2 Timing</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 2 - Stage 2 Timing</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 2 - Stage 2 Timing</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 2 - Stage 2 Timing</td>
           <td>Core</td>
           <td>The timing for Stage 2 implementation of the Monthly Settlement Cycle will be specified in a future iteration of the Atlas.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 2 - Stage 2 Actions</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 2 - Stage 2 Actions</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 2 - Stage 2 Actions</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 2 - Stage 2 Actions</td>
           <td>Core</td>
           <td>The actions specified herein must be completed to achieve Stage 2 implementation of the Monthly Settlement Cycle.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 2 - Stage 2 Actions - Automation Of Monthly Settlement Cycle Calculation Including Virtual Base Rate</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 2 - Stage 2 Actions - Automation Of Monthly Settlement Cycle Calculation Including Virtual Base Rate</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 2 - Stage 2 Actions - Automation Of Monthly Settlement Cycle Calculation Including Virtual Base Rate</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 2 - Stage 2 Actions - Automation Of Monthly Settlement Cycle Calculation Including Virtual Base Rate</td>
           <td>Core</td>
           <td>The Stability Scope Advisors must develop automated tooling for calculating the net amount due from each Prime to Sky each month, incorporating the Virtual Base Rate.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 3</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 3</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 3</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 3</td>
           <td>Core</td>
           <td>The documents herein define Stage 3 of the implementation of the Monthly Settlement Cycle.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 3 - Stage 3 Onchain Base Rate</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 3 - Stage 3 Onchain Base Rate</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 3 - Stage 3 Onchain Base Rate</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 3 - Stage 3 Onchain Base Rate</td>
           <td>Core</td>
           <td>In Stage 3 of the implementation of the Monthly Settlement Cycle, the net amount due from each Prime to Sky is calculated as specified in the Atlas without the use of the Simplified Profit And Loss Calculation. In Stage 3, interest from the Base Rate accrues onchain to the Allocator Vault of each Prime. Thus, in Stage 3 Executive Votes are only required to pay down accrued interest on Allocator Vaults, as necessary, and settle other amounts due to and from Primes .</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 3 - Stage 3 Timing</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 3 - Stage 3 Timing</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 3 - Stage 3 Timing</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 3 - Stage 3 Timing</td>
           <td>Core</td>
           <td>The timing for Stage 3 implementation of the Monthly Settlement Cycle will be specified in a future iteration of the Atlas.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 3 - Stage 3 Actions</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 3 - Stage 3 Actions</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 3 - Stage 3 Actions</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 3 - Stage 3 Actions</td>
           <td>Core</td>
           <td>The actions specified herein must be completed to achieve Stage 3 implementation of the Monthly Settlement Cycle.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 3 - Stage 3 Actions - Integration Of Base Rate Into Allocator Vaults</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 3 - Stage 3 Actions - Integration Of Base Rate Into Allocator Vaults</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 3 - Stage 3 Actions - Integration Of Base Rate Into Allocator Vaults</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 3 - Stage 3 Actions - Integration Of Base Rate Into Allocator Vaults</td>
           <td>Core</td>
           <td>Allocator Vaults must be updated to accrue interest in real time based on the Base Rate.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 3 - Stage 3 Actions - Automation Of Monthly Settlement Cycle Based On Base Rate</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 3 - Stage 3 Actions - Automation Of Monthly Settlement Cycle Based On Base Rate</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Stage 3 - Stage 3 Actions - Automation Of Monthly Settlement Cycle Based On Base Rate</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 3 - Stage 3 Actions - Automation Of Monthly Settlement Cycle Based On Base Rate</td>
           <td>Core</td>
           <td>The Stability Scope Advisors must update the tooling specified in <dfn>A.2.6 - Automation Of Monthly Settlement Cycle Calculation Including Virtual Base Rate</dfn> to reflect the onchain accrual of the Base Rate.</td>
         </tr>
@@ -12628,7 +12948,7 @@
           </td>
           <td>Ecosystem Security Infrastructure - Bug Bounty Program For Critical Infrastructure - Introduction</td>
           <td>Core</td>
-          <td><p>The Bug Bounty Program aims to create incentives for hackers to contribute to the resilience of the Sky Protocol as opposed to exploiting vulnerabilties for personal gain. Immunefi is the party responsible for conducting the Bug Bounty Program; its setup and operations are based on standards set by Immunefi.</p><p>The Sky Ecosystem must continue to maintain a Bug Bounty Program for SparkLend until the launch of the Spark Agent.</p></td>
+          <td><p>The Bug Bounty Program aims to create incentives for hackers to contribute to the resilience of the Sky Protocol as opposed to exploiting vulnerabilities for personal gain. Immunefi is the party responsible for conducting the Bug Bounty Program; its setup and operations are based on standards set by Immunefi.</p><p>The Sky Ecosystem must continue to maintain a Bug Bounty Program for SparkLend until the launch of the Spark Agent.</p></td>
         </tr>
         <tr>
           <td>
@@ -14085,12 +14405,39 @@
           </td>
           <td>Near-Term Treatment</td>
           <td>Core</td>
-          <td>In the near term pending development of the implementation of the model for perpetual positions, the following Instance Financial RRC Ratios will apply:
-            <ul>
-              <li>Direct Ethena exposure - 2% Instance Financial RRC Ratio</li>
-              </li>Indirect Ethena exposure through lending markets - 3% Instance Financial RRC Ratio</li>
-            </ul>
-            For indirect Ethena exposure through lending markets, only the portion of the exposure to the lending market that is backed by Ethena-related assets (including PT-USDe, PT-sUSDe, and PT-eUSDe) is subject to the Instance Financial RRC Ratio specified above. The Instance Financial RRC Ratio for the remaining portion of the exposure is calculated based on the nature of the assets backing the exposure.</td>
+          <td>In the near term pending development of the implementation of the model for perpetual positions, the Instance Financial RRC Ratios specified in the documents herein will apply.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Direct Ethena Exposures</dfn>
+          </td>
+          <td>Direct Ethena Exposures</td>
+          <td>Core</td>
+          <td>Direct Ethena Exposures are exposures from directly holding USDe and sUSDe. Direct Ethena Exposures have a 2% Instance Financial RRC Ratio.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Indirect Ethena Exposures</dfn>
+          </td>
+          <td>Indirect Ethena Exposures</td>
+          <td>Core</td>
+          <td><p>Indirect Ethena Exposures are exposures from lending against Ethena related assets through lending markets. Indirect Ethena Exposures have Instance Financial RRC as specified in the documents herein.</p><p>For indirect Ethena exposure through lending markets, only the portion of the exposure to the lending market that is backed by Ethena related assets is subject to the Instance Financial RRC Ratio specified in the documents herein. The Instance Financial RRC Ratio for the remaining portion of the exposure is calculated based on the nature of the assets backing the exposure.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Lending Ethena Related Assets Against Ethena Related Collateral</dfn>
+          </td>
+          <td>Lending Ethena Related Assets Against Ethena Related Collateral</td>
+          <td>Core</td>
+          <td>For Ethena related assets lent against Ethena related collateral (e.g. lending USDe or sUSDe against PT-USDe or PT-sUSDe), the Instance Financial RRC Ratio is 2%.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Lending Non-Ethena Related Assets Against Ethena Related Collateral</dfn>
+          </td>
+          <td>Lending Non-Ethena Related Assets Against Ethena Related Collateral</td>
+          <td>Core</td>
+          <td>For non-Ethena related assets lent against Ethena related collateral (e.g. lending USDC against PT-USDe or PT-sUSDe, the Instance Financial RRC Ratio is 3%.</td>
         </tr>
         <tr>
           <td>
@@ -14229,7 +14576,7 @@
           </td>
           <td>Smart Contract Risk Rating Calculation</td>
           <td>Core</td>
-          <td><p>The second step in calculating the Instance Smart Contract RRC with respect to an Allocation System opportunity is to calculate the Smart Contract Risk Rating $SCRR$ for the covered smart contracts identified in <dfn>A.3.3 - Defining Relevant Smart Contracts</dfn>. The $SCRR$ is calculated as follows:</p><p>$$\text{SCRR} = min[\text{CAP}, (\text{SR} + \text{CCR}) \times \text{LAF} \times {AAF}]</p><p>$$Here $min$ is the mathematical minimum function that returns the lesser of the specified parameters.</p><p>The parameters of this formula are specified in the subdocuments herein.</p></td>
+          <td><p>The second step in calculating the Instance Smart Contract RRC with respect to an Allocation System opportunity is to calculate the Smart Contract Risk Rating $SCRR$ for the covered smart contracts identified in <dfn>A.3.3 - Defining Relevant Smart Contracts</dfn>. The $SCRR$ is calculated as follows:</p><p>$$\text{SCRR} = min[\text{CAP}, (\text{SR} + \text{CCR}) \times \text{LAF} \times {AF}]$$</p><p>Here $min$ is the mathematical minimum function that returns the lesser of the specified parameters.</p><p>The parameters of this formula are specified in the subdocuments herein.</p></td>
         </tr>
         <tr>
           <td>
@@ -14425,22 +14772,6 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.3.3 - Audit Adjustment Factor</dfn>
-          </td>
-          <td>Audit Adjustment Factor</td>
-          <td>Core</td>
-          <td><p>The Audit Adjustment Factor ${AAF}$ is a measure of the extent to which security audits reduce the risk of a set of smart contracts by identifying and remediating vulnerabilities before they can be exploited. The ${AAF}$ is calculated as follows:</p><p>$$\text{AAF} = \text{AF} \times \text{BaseRisk}$$</p><p>The parameters of this formula are specified in the subdocuments herein.</p></td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.3 - Base Risk</dfn>
-          </td>
-          <td>Base Risk</td>
-          <td>Core</td>
-          <td>The Base Risk $\text{BaseRisk}$ is a base risk factor in the absence of any audits. The $\text{BaseRisk}$ is set to <code>70</code>.</td>
-        </tr>
-        <tr>
-          <td>
             <dfn>A.3.3 - Audit Factor</dfn>
           </td>
           <td>Audit Factor</td>
@@ -14530,6 +14861,7 @@
               <li>ChainSecurity</li>
               <li>OpenZeppelin</li>
               <li>ConsenSys Diligence</li>
+              <li>Trail of Bits</li>
             </ul>
           </td>
         </tr>
@@ -14564,7 +14896,6 @@
               <li>OtterSec</li>
               <li>WatchPug</li>
               <li>Sigma Prime</li>
-              <li>TrailOfBits</li>
               <li>Cantina</li>
               <li>Oxorio</li>
               <li>Enigma Dark</li>
@@ -14573,6 +14904,7 @@
               <li>Solidified</li>
               <li>StErMi</li>
               <li>Sherlock</li>
+              <li>0xMacro</li>
             </ul>
           </td>
         </tr>
@@ -18165,7 +18497,7 @@
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate</td>
           <td>Core</td>
           <td>The variable yield earned by stUSDS holders is calculated using the formula:<br><pre><code>
-            stUSDS Rate = Utilization * (SKY Borrow Rate - stUSDS Accessibility Reward) + (1 - Utilization) * Sky Savings Rate</code></pre><br> Depositors earn a rate derived from the SKY Borrow Rate less the stUSDS Accessibility Reward on the utilized portion of their capital and the Sky Savings Rate on the unutilized portion.</td>
+            stUSDS Rate = Sky Savings Rate + (SKY Borrow Rate - SKY Borrow Minimum Rate) * Utilization - Rfactor * f(Utilization)</code></pre></td>
         </tr>
         <tr>
           <td>
@@ -18177,11 +18509,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Sky Savings Rate Definition</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition</td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Sky Savings Rate Definition</td>
           <td>Core</td>
-          <td>Utilization is the percent of funds in the stUSDS contract that are used to fund borrowing against staked SKY.</td>
+          <td><code>Sky Savings Rate</code> is the Sky Savings Rate defined in <dfn>A.3.2 - Core Stability Parameters - Parameters - Sky Savings Rate</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -18189,23 +18521,287 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - SKY Borrow Rate Definition</td>
           <td>Core</td>
-          <td>SKY Borrow Rate is the SKY Borrow Rate defined in <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate</dfn>.</td>
+          <td><code>SKY Borrow Rate</code> is the SKY Borrow Rate defined in <dfn>A.4.4 - SKY Borrow Rate</dfn>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Sky Savings Rate Definition</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - SKY Borrow Minimum Rate Definition</dfn>
           </td>
-          <td>SSKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Sky Savings Rate Definition</td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - SKY Borrow Minimum Rate Definition</td>
           <td>Core</td>
-          <td>Sky Savings Rate is the Sky Savings Rate defined in <dfn>A.3.2 - Core Stability Parameters - Parameters - Sky Savings Rate.</dfn></td>
+          <td><code>SKY Borrow Minimum Rate</code> is the SKY Borrow Minimum Rate defined in <dfn>A.4.4 - SKY Borrow Minimum Rate</dfn>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - stUSDS Accessibility Reward Definition</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - stUSDS Accessibility Reward Definition</td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition</td>
           <td>Core</td>
-          <td>stUSDS Accessibility Reward is defined in <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Accessibility Reward</dfn>.</td>
+          <td><code>Utilization</code> is the percent of funds in the stUSDS contract that are used to fund borrowing against staked SKY.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition - Utilization Calculation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition - Utilization Calculation</td>
+          <td>Core</td>
+          <td>The <code>Utilization</code> is calculated as a time-weighted utilization over a one (1) day interval.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition - Utilization Calculation - Time-Weighted Utilization</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition - Utilization Calculation - Time-Weighted Utilization</td>
+          <td>Core</td>
+          <td>The documents herein define the process to calculate time-weighted utilization.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition - Utilization Calculation - Time-Weighted Utilization - Determine Start And End Times</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition - Utilization Calculation - Time-Weighted Utilization - Determine Start And End Times</td>
+          <td>Core</td>
+          <td>First, the start time $T_{0}$ and end time $T_{n}$ of the interval, over which time-weighted utilization are to be calculated, are selected.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition - Utilization Calculation - Time-Weighted Utilization - Collect Borrow And Supply Events</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition - Utilization Calculation - Time-Weighted Utilization - Collect Borrow And Supply Events</td>
+          <td>Core</td>
+          <td>Data is then collected on all supply and borrow events, sorted by time, where:
+            <ul>
+              <li>$t_{i}$ is the timestamp of event $i$;</li>
+              <li>$B_{i}$ is the total amount borrowed at time $t_{i}$;</li>
+              <li>$S_{i}$ is the total amount supplied at time $t_{i}$; and</li>
+              <li>$U_{i}$ is the utilization at time $t_{i}$, $\frac{B_{i}}{S_{i}}$.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition - Utilization Calculation - Time-Weighted Utilization - Insert Synthetic Events</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition - Utilization Calculation - Time-Weighted Utilization - Insert Synthetic Events</td>
+          <td>Core</td>
+          <td>If $t_{0}$ is greater than $T_{0}$ then a synthetic event is inserted at $T_{0}$ with values $B_{0}$ and $S_{0}$. Similarly, if $t_{n}$ is less than $T_{n}$ then a synthetic event is inserted at $T_{n}$ with values $B_{n}$ and $S_{n}$.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition - Utilization Calculation - Time-Weighted Utilization - Calculate Time-Weighted Utilization</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition - Utilization Calculation - Time-Weighted Utilization - Calculate Time-Weighted Utilization</td>
+          <td>Core</td>
+          <td><p>Finally, the time-weighted utilization is calculated using the following formula:</p><p>$$\text{Util}_{\mathrm{avg}} = \frac{\sum_{i=0}^{n-1} U_i \cdot (t_{i+1} - t_i)}{T_n - T_0}$$</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition - Utilization Calculation - Time-Weighted Utilization - Reference Implementation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Definition - Utilization Calculation - Time-Weighted Utilization - Reference Implementation</td>
+          <td>Core</td>
+          <td>A reference implementation of the time-weighted utilization formula is included herein. The reference implementation uses sample data and a 30 day interval for illustrative purposes.
+          <pre><code>
+            # Your list of real events: (timestamp, total_borrowed, total_supply)
+            events = [
+            (datetime(2025, 7, 25, 10), 100_000, 200_000),
+            (datetime(2025, 7, 25, 16), 120_000, 210_000),
+            (datetime(2025, 7, 26, 8), 130_000, 220_000),
+            (datetime(2025, 7, 27, 12), 110_000, 215_000),
+            (datetime(2025, 7, 28, 9), 140_000, 225_000),
+            ]
+
+            # Ensure events are sorted
+            events.sort()
+
+            # Get time window
+            now = datetime.utcnow()
+            start_time = now - timedelta(days=30)
+
+            # Add synthetic first event (30d ago) using earliest known borrow/supply
+            first_real_ts, first_borrow, first_supply = events[0]
+            if first_real_ts > start_time:
+            events.insert(0, (start_time, first_borrow, first_supply))
+
+            # Add synthetic final event (now) using most recent known borrow/supply
+            last_real_ts, last_borrow, last_supply = events[-1]
+            if last_real_ts < now:
+            events.append((now, last_borrow, last_supply))
+
+            # Step 1: Compute utilization per event
+            utilizations = []
+            for ts, borrow, supply in events:
+            utilization = borrow / supply if supply != 0 else 0
+            utilizations.append((ts, utilization))
+
+            # Step 2: Compute time-weighted utilization average
+            weighted_sum = 0
+            total_time = 0
+
+            for i in range(len(utilizations) - 1):
+            ts1, util1 = utilizations[i]
+            ts2, _ = utilizations[i + 1]
+
+            time_diff = (ts2 - ts1).total_seconds()
+            weighted_sum += util1 * time_diff
+            total_time += time_diff
+
+            avg_utilization = weighted_sum / total_time if total_time > 0 else 0
+
+            print(f"30-day time-weighted average utilization: {avg_utilization:.2%}")
+          </code></pre></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition</td>
+          <td>Core</td>
+          <td><p><code>Rfactor</code> is calculated using the formula:</p><p>$$Rfactor = \frac{2u_m - 1}{2u_m \left( u_{opt}(\alpha + 1) - 1 + \frac{\beta u_{opt}}{slope1} \right)}$$</p><p>The parameters of this formula are specified in the documents herein.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Maximum Profit Utilization Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Maximum Profit Utilization Definition</td>
+          <td>Core</td>
+          <td>$u_{m}$ is the maximum profit utilization.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Maximum Profit Utilization Definition - Maximum Profit Utilization Current Value</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Maximum Profit Utilization Definition - Maximum Profit Utilization Current Value</td>
+          <td>Core</td>
+          <td>The current value of $u_{m}$ is 70%.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Target Utilization Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Target Utilization Definition</td>
+          <td>Core</td>
+          <td>$u_{opt}$ is the target utilization specified in <dfn>A.4.4 Rate Setting Mechanism</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Alpha Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Alpha Definition</td>
+          <td>Core</td>
+          <td><p>$\alpha$ is calculated using the formula:</p><p><code>alpha = ((SKY Borrow Maximum Rate - SKY Borrow Minimum Rate) / Slope 1) - 1</code></p><p>The parameters of this formula are specified in the documents herein.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Alpha Definition - SKY Borrow Maximum Rate Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Alpha Definition - SKY Borrow Maximum Rate Definition</td>
+          <td>Core</td>
+          <td><code>SKY Borrow Maximum Rate</code> is the maximum value of the SKY Borrow Rate at 100% Utilization.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Alpha Definition - SKY Borrow Maximum Rate Definition - SKY Borrow Maximum Rate Current Value</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Alpha Definition - SKY Borrow Maximum Rate Definition - SKY Borrow Maximum Rate Current Value</td>
+          <td>Core</td>
+          <td>The current value of the <code>SKY Borrow Maximum Rate</code> is 30%.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Alpha Definition - SKY Borrow Minimum Rate Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Alpha Definition - SKY Borrow Minimum Rate Definition</td>
+          <td>Core</td>
+          <td><code>SKY Borrow Minimum Rate</code> is the SKY Borrow Minimum Rate specified in <dfn>A.4.4 - SKY Borrow Minimum Rate</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Alpha Definition - Slope 1 Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Alpha Definition - Slope 1 Definition</td>
+          <td>Core</td>
+          <td><code>Slope</code> 1 is the Slope 1 parameter specified in <dfn>A.4.4 - Slope 1</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Beta Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Beta Definition</td>
+          <td>Core</td>
+          <td>$\beta$ is a tuning parameter that determines how much profit is made at maximum utilization.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Beta Definition - Beta Current Value</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Beta Definition - Beta Current Value</td>
+          <td>Core</td>
+          <td>The current value of $\beta$ is 100%.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Slope 1 Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Rfactor Definition - Slope 1 Definition</td>
+          <td>Core</td>
+          <td>$slope1$ is the Slope 1 parameter specified in <dfn>A.4.4 - Slope 1</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Function Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Function Definition</td>
+          <td>Core</td>
+          <td><p><code>f(Utilization)</code> is calculated using the formula:</p><p><code>f(Utilization) = Utilization * ((SKY Borrow Maximum Rate - SKY Borrow Minimum Rate + Beta) * Utilization + SKY Borrow Minimum Rate - SKY Borrow Rate)</code></p><p>The parameters of this formula are specified in the documents herein.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Function Definition - Utilization Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Function Definition - Utilization Definition</td>
+          <td>Core</td>
+          <td><code>Utilization</code> is the utilization as specified in <dfn>A.4.4 - Utilization Definition</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Function Definition - SKY Borrow Maximum Rate Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Function Definition - SKY Borrow Maximum Rate Definition</td>
+          <td>Core</td>
+          <td><code>SKY Borrow Maximum Rate</code> is the SKY Borrow Maximum Rate specified in <dfn>A.4.4 - SKY Borrow Maximum Rate Definition</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Function Definition - SKY Borrow Minimum Rate Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Function Definition - SKY Borrow Minimum Rate Definition</td>
+          <td>Core</td>
+          <td><code>SKY Borrow Minimum Rate</code> is the SKY Borrow Minimum Rate specified in <dfn>A.4.4 - SKY Borrow Minimum Rate Definition</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Function Definition - Beta Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Function Definition - Beta Definition</td>
+          <td>Core</td>
+          <td><code>Beta</code> is the beta specified in <dfn>A.4.4 - Beta Definition</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Function Definition - SKY Borrow Rate Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Definition - Utilization Function Definition - SKY Borrow Rate Definition</td>
+          <td>Core</td>
+          <td><code>SKY Borrow Rate</code> is the SKY Borrow Rate specified in <dfn>A.4.4 - SKY Borrow Rate</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Modification</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Rate - Parameters Modification</td>
+          <td>Core</td>
+          <td>The parameters specified in <dfn>A.4.4 - Parameters Definition</dfn> that are set by governance may be modified by the Core Executor Agents, in consultation with the Stability Scope Advisors. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.</td>
         </tr>
         <tr>
           <td>
@@ -18237,7 +18833,119 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism</td>
           <td>Core</td>
-          <td>The SKY Borrow Rate adjusts to target a 90% utilization rate of the USDS in the stUSDS contract. When stUSDS utilization is below 90%, the rate gradually decreases; when above 90%, it gradually increases. The SKY Borrow Rate cannot fall below the SKY Borrow Minimum Rate. See <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - SKY Borrow Minimum Rate</dfn>.<br> The specific parameters and formula governing the rate of adjustment will be specified in a future iteration of the Atlas.</td>
+          <td><p>The SKY Borrow Rate adjusts to target a 90% utilization rate of the USDS in the stUSDS contract. When stUSDS utilization is below 90%, the rate gradually decreases; when above 90%, it gradually increases. The SKY Borrow Rate cannot fall below the SKY Borrow Minimum Rate. See <dfn>A.4.4 - SKY Borrow Minimum Rate</dfn>.</p><p>The specific parameters and formula governing the rate of adjustment are specified in the documents herein.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters</td>
+          <td>Core</td>
+          <td>The parameters of the rate setting mechanism are specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Utilization</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Utilization</td>
+          <td>Core</td>
+          <td><code>Utilization</code> is the percentage of funds in the stUSDS contract that are used to fund borrowing against staked SKY specified in <dfn>A.4.4 - Utilization Definition</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Target Utilization</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Target Utilization</td>
+          <td>Core</td>
+          <td><code>Target Utilization</code> is the target utilization rate of USDS in the stUSDS contract specified in <dfn>A.4.4 Rate Setting Mechanism</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - SKY Borrow Minimum Rate</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - SKY Borrow Minimum Rate</td>
+          <td>Core</td>
+          <td><code>SKY Borrow Minimum Rate</code> is the rate that the SKY Borrow Rate cannot fall below specified in <dfn>A.4.4 - SKY Borrow Minimum Rate</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 1</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 1</td>
+          <td>Core</td>
+          <td><code>Slope 1</code> represents the spread of the SKY Borrow Rate over the SKY Borrow Minimum Rate when Utilization is at Target Utilization.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 1 - Slope 1 Current Value</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 1 - Slope 1 Current Value</td>
+          <td>Core</td>
+          <td>The current value of the <dfn>Slope 1</dfn> parameter is 12.575%.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 1 - Slope 1 Modification</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 1 - Slope 1 Modification</td>
+          <td>Core</td>
+          <td>The <code>Slope 1</code> parameter may be modified by the Core Executor Agents, in consultation with the Stability Scope Advisors. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 2</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 2</td>
+          <td>Core</td>
+          <td><code>Slope 2</code> represents the spread of the SKY Borrow Rate at 100% Utilization over the SKY Borrow Rate at Target Utilization.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 2 - Slope 2 Current Value</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 2 - Slope 2 Current Value</td>
+          <td>Core</td>
+          <td>The current value of the <code>Slope 2</code> parameter is 12.575%.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 2 - Slope 2 Modification</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 2 - Slope 2 Modification</td>
+          <td>Core</td>
+          <td>The <code>Slope 2</code> parameter may be modified by the Core Executor Agents, in consultation with the Stability Scope Advisors. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 2 - Slope 2 Methodology</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 2 - Slope 2 Methodology</td>
+          <td>Core</td>
+          <td><p>Under normal circumstances governance should set the <code>Slope 2</code> parameter based on the following formula:</p><p><code>Slope 2 = Slope 1 * alpha</code></p><p>The parameters of this formula are specified in the documents herein.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 2 - Slope 2 Methodology - Slope 1 Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 2 - Slope 2 Methodology - Slope 1 Definition</td>
+          <td>Core</td>
+          <td>The <code>Slope 1</code> parameter is specified in <dfn>A.4.4 - Slope 1</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 2 - Slope 2 Methodology - Alpha Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Parameters - Slope 2 - Slope 2 Methodology - Alpha Definition</td>
+          <td>Core</td>
+          <td>The <code>alpha</code> parameter is specified in <dfn>A.4.4 - Alpha Definition</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Formula</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - Rate Setting Mechanism - Rate Setting Formula</td>
+          <td>Core</td>
+          <td><p>The Sky Borrow Rate is calculated according to the following formula when Utilization is less than or equal to Target Utilization:</p><p><code>SKY Borrow Rate = SKY Borrow Minimum Rate + Utilization / Target Utilization * Slope 1</code></p><p>The SKY Borrow Rate is calculated according to the following formula when Utilization is greater than Target Utilization:</p><p><code>SKY Borrow Rate = SKY Borrow Minimum Rate + Slope 1 + (Utilization - Target Utilization) / (1 - Target Utilization) * Slope 2</code></p></td>
         </tr>
         <tr>
           <td>
@@ -18278,7 +18986,41 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Risk Parameters</td>
           <td>Core</td>
-          <td>This document defines the liquidation parameters for SKY-backed loans funded via stUSDS. These parameters will be specified in a future iteration of the Atlas.</td>
+          <td>The liquidation parameters for SKY-backed loans funded via stUSDS are:
+            <ul>
+              <li>Liquidation Ratio: 125%</li>
+              <li><code>Calc</code>: StairstepExponentialDecrease</li>
+              <li><code>Tau</code>: 0 days</li>
+              <li><code>Tolerance</code>: 0.5</li>
+              <li><code>Cut</code>: 0.99</li>
+              <li><code>Step</code>: 60 seconds</li>
+              <li><code>Buf</code>: 120%</li>
+              <li><code>Cusp</code>: 40%</li>
+              <li><code>Tail</code>: 6,000 seconds</li>
+              <li><code>Chip</code>: 0.1%</li>
+              <li><code>Stopped</code>: 3</li>
+              <li><code>Tip</code>: 300 USDS</li>
+              <li><code>Chop</code>: 13%</li>
+              <li><code>Hole</code>: 250,000</li>
+              <li><code>Dust</code>: 30,000</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Risk Parameters - Modification Of stUSDS Risk Parameters</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Risk Parameters - Modification Of stUSDS Risk Parameters</td>
+          <td>Core</td>
+          <td>Except as specified in <dfn>A.4.4 - Modification Of stUSDS Auction Parameters</dfn>, the Core Executor Agents, in consultation with the Stability Scope Advisors, have the ability to modify any of the parameters defined in <dfn>A.4.4 - stUSDS Risk Parameters</dfn>. The modification of said parameters is pursuant to the Operational Weekly Cycle and can be effected directly via an Executive Vote, without requiring a Governance Poll.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Risk Parameters - Modification Of stUSDS Risk Parameters - Modification Of stUSDS Auction Parameters</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Risk Parameters - Modification Of stUSDS Risk Parameters - Modification Of stUSDS Auction Parameters</td>
+          <td>Core</td>
+          <td>A clear justification and analysis must be provided to validate any proposed changes to the <code>Calc</code>, <code>Tau</code>, <code>Buf</code>, <code>Cusp</code>, <code>Tail</code>, <code>Chip</code>, <code>Tip</code>, <code>Chop</code>, or <code>Hole</code> parameters. Before these changes are added to an Executive Vote, the Core Executor Agents must first propose a Governance Poll. However, in an emergency, the Core Executor Agents have the authority to bypass the Governance Poll and add the proposed parameters directly to an Executive Vote. These parameters must be regularly monitored and updated if needed.</td>
         </tr>
         <tr>
           <td>
@@ -18287,6 +19029,382 @@
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Accessibility Reward</td>
           <td>Core</td>
           <td>The stUSDS Accessibility Reward is an incentive mechanism, similar to the USDS Accessibility Reward, designed to encourage Prime Agents and Integrators to promote stUSDS adoption. See A.2.4 - Accessibility Reward Primitive. It is calculated as a percentage of the stUSDS balance associated with a Reward Code. The reward is initially set at 0.05% for the Integrator portion and 0.05% for the Prime Agent Management Fee, totaling 0.1%.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module</td>
+          <td>Core</td>
+          <td>The stUSDS Bounded External Access Module (stUSDS BEAM) enables designated, Governance-whitelisted operators to adjust the stUSDS Rate (<code>str</code>), the SKY Borrow Rate (<code>dut</code>y), the maximum amount that users can deposit into the stUSDS contract (<code>cap</code>), and the maximum Debt Ceiling (<code>line</code>). Adjustments are governed by the stUSDS BEAM smart contract logic and specific parameters set by Sky Governance. stUSDS BEAM holds four parameters that can be set for each stUSDS parameter: (i) <code>min</code>, (ii) <code>max</code>, (iii) <code>step</code>, and (iv) <code>tau</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions</td>
+          <td>Core</td>
+          <td>The documents herein define the parameters of the stUSDS BEAM.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Min Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Min Definition</td>
+          <td>Core</td>
+          <td>The <code>min</code> parameter defines the minimum value for the <code>str</code> and <code>duty</code> parameters that can be set using the stUSDS BEAM. Each of the <code>str</code> and <code>duty</code> parameters has a specific <code>min</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Max Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Max Definition</td>
+          <td>Core</td>
+          <td>The <code>max</code> parameter defines the maximum value for the <code>str</code> and <code>duty</code> parameters that can be set using the stUSDS BEAM. Each of the <code>str</code> and <code>duty</code> parameters has a specific <code>max</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Step Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Step Definition</td>
+          <td>Core</td>
+          <td>The <code>step</code> parameter limits how much the <code>str</code> and <code>duty</code> parameters can be increased or decreased in a single transaction, bound by the <code>tau</code> parameter. Each of the <code>str</code> and <code>duty</code> parameters has a specific <code>step</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Max Cap Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Max Cap Definition</td>
+          <td>Core</td>
+          <td>The <code>maxCap</code> parameter defines the maximum value for the <code>cap</code> parameter that can be set by the stUSDS BEAM.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Max Cap Definition - Max Cap Current Value</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Max Cap Definition - Max Cap Current Value</td>
+          <td>Core</td>
+          <td>The <code>maxCap</code> is currently set to 1,000,000,000 USDS.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Max Line Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Max Line Definition</td>
+          <td>Core</td>
+          <td>The <code>maxLine</code> parameter defines the maximum value for the <code>line</code> parameter that can be set by the stUSDS BEAM.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Max Line Definition - Max Line Current Value</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Max Line Definition - Max Line Current Value</td>
+          <td>Core</td>
+          <td>The <code>maxLine</code> is currently set to 1,000,000,000 USDS.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Tau Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Tau Definition</td>
+          <td>Core</td>
+          <td><p>The <code>tau</code> parameter defines the minimum time interval, in seconds, that must elapse between consecutive uses or operations of the stUSDS BEAM.</p><p>A stUSDS BEAM operation may adjust one or more parameters. Once a stUSDS BEAM operation is executed, the <code>tau</code> duration must expire before any subsequent stUSDS BEAM operation can be performed.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Tau Definition - Tau Current Value</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Definitions - Tau Definition - Tau Current Value</td>
+          <td>Core</td>
+          <td>The <code>tau</code> is currently set to 57,600 seconds (16 hours).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - stUSDS Parameters</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - stUSDS Parameters</td>
+          <td>Core</td>
+          <td>The stUSDS BEAM parameters for each stUSDS parameter set by the stUSDS BEAM are defined in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - stUSDS Parameters - Str Parameters</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - stUSDS Parameters - Str Parameters</td>
+          <td>Core</td>
+          <td>The stUSDS BEAM parameters for the <code>str</code> stUSDS parameter are as follows:
+            <ul>
+              <li><code>max</code> - 5,000 basis points,</li>
+              <li><code>min</code> - 200 basis points,</li>
+              <li><code>step</code> - 4,000 basis points.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - stUSDS Parameters - Duty Parameters</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - stUSDS Parameters - Duty Parameters</td>
+          <td>Core</td>
+          <td>The stUSDS BEAM parameters for the <code>duty</code> stUSDS parameter are as follows:
+            <ul>
+              <li><code>max</code> - 5,000 basis points,</li>
+              <li><code>min</code> - 210 basis points,</li>
+              <li><code>step</code> - 4,000 basis points.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments</td>
+          <td>Core</td>
+          <td>All stUSDS BEAM parameters can be modified by the Core Executor Agents, in consultation with the Stability Scope Advisors. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators</td>
+          <td>Core</td>
+          <td>The stUSDS BEAM Operators are whitelisted entities that can directly alter the stUSDS parameters set by the stUSDS BEAM. Changes to stUSDS parameters are limited by the <code>max</code>, <code>min</code>, <code>step</code>, and <code>tau</code> parameters. Operators can be added or removed by an Executive Vote.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Multisig</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Multisig</td>
+          <td>Core</td>
+          <td>The Operator Multisig is an Operator of the stUSDS BEAM and is controlled by Core Executor Agent Atlas Axis.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Multisig - Operator Multisig Address</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Multisig - Operator Multisig Address</td>
+          <td>Core</td>
+          <td>The address of the Operator Multisig on the Ethereum Mainnet is <code>0xBB865F94B8A92E57f79fCc89Dfd4dcf0D3fDEA16</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Multisig - Operator Multisig Required Number Of Signers</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Multisig - Operator Multisig Required Number Of Signers</td>
+          <td>Core</td>
+          <td>The Operator Multisig currently has a 2/3 signing requirement.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Multisig - Operator Multisig Signers</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Multisig - Operator Multisig Signers</td>
+          <td>Core</td>
+          <td>The signers of the Operator Multisig are three (3) addresses controlled by Core Executor Agent Atlas Axis.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Multisig - Operator Multisig Usage Standards</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Multisig - Operator Multisig Usage Standards</td>
+          <td>Core</td>
+          <td>The signers of the Operator Multisig must use the multisig to operate the stUSDS BEAM in accordance with the instructions specified in <dfn>A.4.4 - Manual Parameter Updates By Operator Multisig</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Multisig - Operator Multisig Modification</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Multisig - Operator Multisig Modification</td>
+          <td>Core</td>
+          <td>Core Executor Agent Atlas Axis can change the signers of the Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Hot Wallet</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Hot Wallet</td>
+          <td>Core</td>
+          <td>The Operator Hot Wallet is a hot wallet controlled by a bot that will update stUSDS parameters on an automated basis as specified in <dfn>A.4.4 - Automatic Updates By Operator Hot Wallet</dfn>. The wallet is controlled by Ecosystem Actor TechOps under the supervision of Core Executor Agent Atlas Axis in consultation with the Stability Scope Advisors. The addition of the Hot Wallet as an Operator of the stUSDS BEAM is authorized to proceed directly to an Executive Vote without a prior Governance Poll.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Hot Wallet - Operator Hot Wallet Address</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Hot Wallet - Operator Hot Wallet Address</td>
+          <td>Core</td>
+          <td>The address of the Operator Hot Wallet on the Ethereum Mainnet is <code>0xd06C14820048de2Fb7c9de611EcFdaCE18eC8896</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Hot Wallet - Update Of stUSDS Parameters For Hot Wallet</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Hot Wallet - Update Of stUSDS Parameters For Hot Wallet</td>
+          <td>Core</td>
+          <td>When the Operator Hot Wallet is added as an Operator of the stUSDS Rate, the stUSDS BEAM parameters must be updated as follows:
+            <ul>
+              <li>The <code>step</code> parameters for the <code>str</code> and <code>duty</code> parameters must be reduced to 400 basis points; and</li>
+              <li>The <code>tau</code> parameter must be reduced to 4 hours.</li>
+            </ul>
+            These changes are authorized to proceed directly to an Executive Vote without a prior Governance Poll.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Update Process</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Operators - Operator Update Process</td>
+          <td>Core</td>
+          <td>stUSDS BEAM Operators can be modified by the Core Executor Agents, in consultation with the Stability Scope Advisors. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Process</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Process</td>
+          <td>Core</td>
+          <td>The stUSDS parameters set by the stUSDS BEAM are managed by the stUSDS BEAM Operators as specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Process - Initial Parameter Values Set In Executive Vote</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Process - Initial Parameter Values Set In Executive Vote</td>
+          <td>Core</td>
+          <td>The initial parameters set by the stUSDS BEAM in the Executive Vote deploying stUSDS and the stUSDS BEAM are:
+            <ul>
+              <li><code>str</code> - 0 basis points</li>
+              <li><code>duty</code> - 2,000 basis points</li>
+              <li><code>cap</code> - 200,000,000 USDS</li>
+              <li><code>line</code> - 200,000,000 USDS</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Process - Manual Parameter Updates By Operator Multisig</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Process - Manual Parameter Updates By Operator Multisig</td>
+          <td>Core</td>
+          <td>Initially, the stUSDS parameters set by the stUSDS BEAM are managed by the Operator Multisig based on instructions provided by the Stability Scope Advisors.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Process - Manual Parameter Updates By Operator Multisig - Request By Stability Scope Advisors</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Process - Manual Parameter Updates By Operator Multisig - Request By Stability Scope Advisors</td>
+          <td>Core</td>
+          <td>Any requests to change stUSDS parameters set by the stUSDS BEAM must be posted to the Sky Forum by the Stability Scope Advisor recommending the change. Once Utilization is below 100% the Stability Scope Advisors should begin recommending changes based on the methodology specified in <dfn>A.4.4 - Update Methodology</dfn> but may deviate from the values resulting from this methodology if they determine that other values are advisable to support the growth of stUSDS and the interests of the Sky Protocol.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Process - Manual Parameter Updates By Operator Multisig - Operator Execution</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Process - Manual Parameter Updates By Operator Multisig - Operator Execution</td>
+          <td>Core</td>
+          <td>Once a request to change stUSDS parameters has been posted to the Sky Forum by the Stability Scope Advisors, the stUSDS BEAM Operators must prepare and execute the proposed changes in a timely manner. Preparation can include the creation of transaction simulations to verify inputs.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Process - Manual Parameter Updates By Operator Multisig - Public Communication</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Process - Manual Parameter Updates By Operator Multisig - Public Communication</td>
+          <td>Core</td>
+          <td>Once a change in stUSDS parameters set by the stUSDS BEAM has been executed, the execution must be publicly communicated to the Sky Ecosystem. This communication may take the form of either (1) a Forum post or (2) inclusion of the execution in an informational dashboard that allows community members to see each stUSDS parameter change executed by the stUSDS BEAM.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Process - Automatic Updates By Operator Hot Wallet</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Process - Automatic Updates By Operator Hot Wallet</td>
+          <td>Core</td>
+          <td>Once the Operator Hot Wallet has been added as an Operator of the stUSDS BEAM (see <dfn>A.4.4 - Operator Hot Wallet</dfn>), the stUSDS parameters set by the stUSDS BEAM must be set by the Operator Hot Wallet. These changes must be based on the update methodology specified in <dfn>A.4.4 - Update Methodology</dfn> and the results must be publicly visible on an information dashboard.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology</td>
+          <td>Core</td>
+          <td><p>The documents herein define the methodology that should be used for determining when and how to update stUSDS parameters with the stUSDS BEAM.</p><p>Initially when stUSDS parameters are set manually by the Operator Multisig (see <dfn>A.4.4 - Manual Parameter Updates By Operator Multisig</dfn>) the Stability Scope Advisors may deviate from these parameters in their best judgment. The Stability Scope Advisors should reduce the extent of these deviations over time to minimize the change when the process is fully automated.</p><p>Once the process is fully automated (see <dfn>A.4.4 - Automatic Updates By Operator Hot Wallet</dfn>) the automated process must fully conform to the specifications herein.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Conditions For Update</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Conditions For Update</td>
+          <td>Core</td>
+          <td>The stUSDS parameters should be updated if (1) the current Utilization (see <dfn>A.4.4 - Utilization Definition</dfn>) deviates from the Utilization as of the last time the stUSDS parameters were set by more than 2.4% and (2) the time since the last update is greater than tau (see <dfn>A.4.4 - Tau Definition</dfn>).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update</td>
+          <td>Core</td>
+          <td>The new values for each stUSDS parameter should be set to be as close as possible to the values specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Str Calculation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Str Calculation</td>
+          <td>Core</td>
+          <td>The <code>str</code> must be calculated as specified in <dfn>A.4.4 - stUSDS Rate</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Duty Calculation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Duty Calculation</td>
+          <td>Core</td>
+          <td>The <code>duty</code> must be calculated as specified in <dfn>A.4.4 - Rate Setting Formula</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Cap Calculation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Cap Calculation</td>
+          <td>Core</td>
+          <td>The Stability Scope Advisors must calculate the maximum amount that users can deposit into the stUSDS contract (<code>cap</code>) as specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Cap Calculation - Short Term Calculation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Cap Calculation - Short Term Calculation</td>
+          <td>Core</td>
+          <td>In the short term while Utilization is above 100%, the <code>cap</code> must be set to 200,000,000 USDS.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Cap Calculation - Long Term Calculation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Cap Calculation - Long Term Calculation</td>
+          <td>Core</td>
+          <td><p>In the long term, the cap must be gradually increased when Utilization is above 85% according to the following formula:</p><p><code>cap = 1.2 * current SKY borrowing</code></p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Line Calculation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Line Calculation</td>
+          <td>Core</td>
+          <td>The Stability Scope Advisors must calculate the maximum amount that users can borrow against their staked SKY (<code>line</code>) as specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Line Calculation - Short Term Calculation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Line Calculation - Short Term Calculation</td>
+          <td>Core</td>
+          <td>In the short term while Utilization is above 100%, the <code>line</code> must be set to 200,000,000 USDS.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Line Calculation - Long Term Calculation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Line Calculation - Long Term Calculation</td>
+          <td>Core</td>
+          <td><p>In the long term, the line must be gradually increased when Utilization is above 85% according to the following formula:</p><p><code>line = 1.14 * current SKY borrowing</code></p></td>
         </tr>
         <tr>
           <td>
@@ -18838,7 +19956,7 @@
           </td>
           <td>List Of Executor Agent Artifacts</td>
           <td>Section</td>
-          <td>The documents herein each set out the Artifacts for Executor Agent. Executor Agent Artifacts contain all rules, processes, parameters, and information relevant to the Agent.</td>
+          <td>The documents herein each set out the Artifacts for Executor Agents. Executor Agent Artifacts contain all rules, processes, parameters, and information relevant to the Agent.</td>
         </tr>
       </tbody>
     </table>
@@ -19954,7 +21072,7 @@
           </td>
           <td>Determination Of Feasibility Is Itself At The Discretion of Facilitators</td>
           <td>Action Tenet</td>
-          <td>The determination of feasibility may depend on factors such as time constraints, resource availability, or the urgency of the decision. The determination of feasibility Is itself at the discretion of the Facilitators.</td>
+          <td>The determination of feasibility may depend on factors such as time constraints, resource availability, or the urgency of the decision. The determination of feasibility is itself at the discretion of the Facilitators.</td>
         </tr>
         <tr>
           <td>
@@ -22028,11 +23146,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>DAOcraft Instance Configuration Document Location</dfn>
+            <dfn>Amatsu Instance Configuration Document Location</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>This Instance's associated Instance Configuration Document is located at <dfn>DAOcraft Instance Configuration Document</dfn>.</td>
+          <td>This Instance's associated Instance Configuration Document is located at <dfn>Amatsu Instance Configuration Document</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -22092,11 +23210,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>DAOcraft Instance Configuration Document</dfn>
+            <dfn>Amatsu Instance Configuration Document</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the DAOcraft Executor Accord Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the Amatsu Executor Accord Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -22104,7 +23222,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the DAOcraft Instance of the Executor Accord Primitive.</td>
+          <td>The documents herein define the parameters of the Amatsu Instance of the Executor Accord Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -22112,7 +23230,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>In the near term DAOcraft will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.</td>
+          <td>In the near term Amatsu will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.</td>
         </tr>
         <tr>
           <td>
@@ -22120,7 +23238,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the DAOcraft Instance of the Executor Accord Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the Amatsu Instance of the Executor Accord Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -22128,7 +23246,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the DAOcraft Instance of the Executor Accord Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the Amatsu Instance of the Executor Accord Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -22136,7 +23254,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the DAOcraft Instance of the Executor Accord Primitive.</td>
+          <td>The documents herein contain data relevant to the Amatsu Instance of the Executor Accord Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -25305,7 +26423,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The Core Operator Relayer Multisig has the RELAYER_ROLE as defined in <dfn>Relayer Role</dfn> and is controlled by DAOcraft.</td>
+          <td>The Core Operator Relayer Multisig has the RELAYER_ROLE as defined in <dfn>Relayer Role</dfn> and is controlled by Amatsu.</td>
         </tr>
         <tr>
           <td>
@@ -25329,7 +26447,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Ecosystem Actor DAOcraft.</td>
+          <td>The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Ecosystem Actor Amatsu.</td>
         </tr>
         <tr>
           <td>
@@ -25345,7 +26463,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>Ecosystem Actor DAOcraft can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.</td>
+          <td>Ecosystem Actor Amatsu can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.</td>
         </tr>
         <tr>
           <td>
@@ -25392,7 +26510,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td><p>The signers of the Freezer Multisig should exercise their authority to freeze the Spark Liquidity Layer in the event that Spark is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency. The signers should consult with Ecosystem Actor DAOcraft before exercising such authority, unless such consultation would cause a delay that could result in a loss of user funds or harm to Sky or Spark. Ecosystem Actor DAOcraft may also ask the signers to exercise the Freezer Multisig in an emergency. The signers will work with DAOcraft and, if necessary, other Ecosystem Actors, in good faith in determining whether to exercise their authority based on such request.</p><p>Each action executed by the Freezer Multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum.</p></td>
+          <td><p>The signers of the Freezer Multisig should exercise their authority to freeze the Spark Liquidity Layer in the event that Spark is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency. The signers should consult with Ecosystem Actor Amatsu before exercising such authority, unless such consultation would cause a delay that could result in a loss of user funds or harm to Sky or Spark. Ecosystem Actor Amatsu may also ask the signers to exercise the Freezer Multisig in an emergency. The signers will work with Amatsu and, if necessary, other Ecosystem Actors, in good faith in determining whether to exercise their authority based on such request.</p><p>Each action executed by the Freezer Multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum.</p></td>
         </tr>
         <tr>
           <td>
@@ -32878,7 +33996,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>A Delegate can voluntarily offboard by submitting a resignation message in the Spark Star category of Sky Forum with a signed message from their Delegate wallet as proof. The offboarding takes effect immediately after all active proposals conclude.</td>
+          <td>A Delegate can voluntarily offboard by submitting a resignation message in the Spark Prime category of Sky Forum with a signed message from their Delegate wallet as proof. The offboarding takes effect immediately after all active proposals conclude.</td>
         </tr>
         <tr>
           <td>
@@ -34578,11 +35696,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>DAOcraft Instance Configuration Document Location</dfn>
+            <dfn>Amatsu Instance Configuration Document Location</dfn>
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>This Instance's associated Instance Configuration Document is located at <dfn>DAOcraft Instance Configuration Document</dfn>.</td>
+          <td>This Instance's associated Instance Configuration Document is located at <dfn>Amatsu Instance Configuration Document</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -34642,11 +35760,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>DAOcraft Instance Configuration Document</dfn>
+            <dfn>Amatsu Instance Configuration Document</dfn>
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the DAOcraft Executor Accord Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the Amatsu Executor Accord Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -34654,7 +35772,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the DAOcraft Instance of the Executor Accord Primitive.</td>
+          <td>The documents herein define the parameters of the Amatsu Instance of the Executor Accord Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -34662,7 +35780,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>In the near term DAOcraft will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.</td>
+          <td>In the near term Amatsu will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.</td>
         </tr>
         <tr>
           <td>
@@ -34670,7 +35788,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the DAOcraft Instance of the Executor Accord Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the Amatsu Instance of the Executor Accord Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -34678,7 +35796,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the DAOcraft Instance of the Executor Accord Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the Amatsu Instance of the Executor Accord Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -34686,7 +35804,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the DAOcraft Instance of the Executor Accord Primitive.</td>
+          <td>The documents herein contain data relevant to the Amatsu Instance of the Executor Accord Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -40697,12 +41815,12 @@
         </tr>
         <tr>
           <td>
-            <dfn>DAOcraft Instance Configuration Document Location</dfn>
+            <dfn>Amatsu Instance Configuration Document Location</dfn>
           </td>
           <td>Launch Agent 2</td>
           <td>Core</td>
           <td>
-            This Instance's associated Instance Configuration Document is located at <dfn>DAOcraft Instance Configuration Document</dfn>.
+            This Instance's associated Instance Configuration Document is located at <dfn>Amatsu Instance Configuration Document</dfn>.
           </td>
         </tr>
         <tr>
@@ -40765,11 +41883,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>DAOcraft Instance Configuration Document</dfn>
+            <dfn>Amatsu Instance Configuration Document</dfn>
           </td>
           <td>Launch Agent 2</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the DAOcraft Executor Accord Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the Amatsu Executor Accord Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -40777,7 +41895,7 @@
           </td>
           <td>Launch Agent 2</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the DAOcraft Instance of the Executor Accord Primitive.</td>
+          <td>The documents herein define the parameters of the Amatsu Instance of the Executor Accord Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -40785,7 +41903,7 @@
           </td>
           <td>Launch Agent 2</td>
           <td>Core</td>
-          <td>In the near term DAOcraft will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.</td>
+          <td>In the near term Amatsu will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.</td>
         </tr>
         <tr>
           <td>
@@ -40793,7 +41911,7 @@
           </td>
           <td>Launch Agent 2</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the DAOcraft Instance of the Executor Accord Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the Amatsu Instance of the Executor Accord Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -40801,7 +41919,7 @@
           </td>
           <td>Launch Agent 2</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the DAOcraft Instance of the Executor Accord Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the Amatsu Instance of the Executor Accord Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -40809,7 +41927,7 @@
           </td>
           <td>Launch Agent 2</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the DAOcraft Instance of the Executor Accord Primitive.</td>
+          <td>The documents herein contain data relevant to the Amatsu Instance of the Executor Accord Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -44472,12 +45590,12 @@
         </tr>
         <tr>
           <td>
-            <dfn>DAOcraft Instance Configuration Document Location</dfn>
+            <dfn>Amatsu Instance Configuration Document Location</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
           <td>
-            This Instance's associated Instance Configuration Document is located at <dfn>DAOcraft Instance Configuration Document</dfn>.
+            This Instance's associated Instance Configuration Document is located at <dfn>Amatsu Instance Configuration Document</dfn>.
           </td>
         </tr>
         <tr>
@@ -44540,11 +45658,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>DAOcraft Instance Configuration Document</dfn>
+            <dfn>Amatsu Instance Configuration Document</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the DAOcraft Executor Accord Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the Amatsu Executor Accord Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -44552,7 +45670,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the DAOcraft Instance of the Executor Accord Primitive.</td>
+          <td>The documents herein define the parameters of the Amatsu Instance of the Executor Accord Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -44560,7 +45678,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>In the near term DAOcraft will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.</td>
+          <td>In the near term Amatsu will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.</td>
         </tr>
         <tr>
           <td>
@@ -44568,7 +45686,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the DAOcraft Instance of the Executor Accord Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the Amatsu Instance of the Executor Accord Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -44576,7 +45694,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the DAOcraft Instance of the Executor Accord Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the Amatsu Instance of the Executor Accord Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -44584,7 +45702,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the DAOcraft Instance of the Executor Accord Primitive.</td>
+          <td>The documents herein contain data relevant to the Amatsu Instance of the Executor Accord Primitive.</td>
         </tr>
         <tr>
           <td>
