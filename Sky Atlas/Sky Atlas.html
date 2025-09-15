@@ -559,6 +559,14 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.4.6</dfn>
+          </td>
+          <td>Protocol Mechanisms</td>
+          <td>Article</td>
+          <td>When Sky invests capital in Agents, the tokens Sky receives in exchange are distributed in accordance with the terms of the Ecosystem Accord between Sky and the respective Agent.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.5.2</dfn>
           </td>
           <td>Brand Identity</td>
@@ -1006,6 +1014,14 @@
           <td>Core Council Executor Agent</td>
           <td>Core</td>
           <td>Core Council Executor Agents ("Core Executor Agents") are Executor Agents who serve on the Core Council and act as checks on Operational Executor Agents.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.0.1 - Core Council</dfn>
+          </td>
+          <td>Core Council</td>
+          <td>Core</td>
+          <td>The Core Council is a group of Executors responsible for operationalizing the protocol at the Sky Core level. It monitors Operational Executor compliance and enforces the Sky Core Atlas. It also oversees Sky Core governance processes, evolves the Risk Framework, monitors Alignment Conservers, and addresses governance disputes. The Council begins with a single seat held by Core Council Executor Agent 1 and will expand over time to multiple elected seats on a rotational basis, targeting up to seven members in the long term.</td>
         </tr>
         <tr>
           <td>
@@ -10382,19 +10398,19 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Payment Of Net Amounts Due To Prime Agents</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Payment Of Amounts Due To Prime Agents</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Payment Of Net Amounts Due To Prime Agents</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Payment Of Amounts Due To Prime Agents</td>
           <td>Core</td>
-          <td>Net amounts due to Prime Agents, excluding reimbursements made to Operational Executor Agents (see <dfn>A.2.6 - Reimbursement Of Payments Made By Operational Executor Agents</dfn>), are transferred from the Sky Surplus Buffer to the Prime SubProxy Account through an Executive Vote.</td>
+          <td>Amounts due to Prime Agents, excluding reimbursements made to Operational Executor Agents (see <dfn>A.2.6 - Reimbursement Of Payments Made By Operational Executor Agents</dfn>), are transferred from the Sky Surplus Buffer to the Prime SubProxy Account through an Executive Vote.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Collection Of Net Amounts Due From Prime Agents</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Collection Of Amounts Due From Prime Agents</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Collection Of Net Amounts Due From Prime Agents</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Collection Of Amounts Due From Prime Agents</td>
           <td>Core</td>
-          <td>Net amounts due from Prime Agents, excluding reimbursements made to Operational Executor Agents (see <dfn>A.2.6 - Reimbursement Of Payments Made By Operational Executor Agents</dfn>) are transferred from the Prime to the Sky Surplus Buffer through a Prime Spell included in an Executive Vote.</td>
+          <td>Amounts due from Prime Agents, excluding reimbursements made to Operational Executor Agents (see <dfn>A.2.6 - Reimbursement Of Payments Made By Operational Executor Agents</dfn>) are settled in a way that is equivalent to a transfer from the Prime to the Sky Surplus Buffer through actions included in an Executive Vote.</td>
         </tr>
         <tr>
           <td>
@@ -10598,11 +10614,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Net Amount Due From Primes To Sky</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Settlement</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Net Amount Due From Primes To Sky</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Settlement</td>
           <td>Core</td>
-          <td><p>The net amount due from each Prime to Sky is the amount due from the Prime to Sky with respect to Supply Side Primitives (see <dfn>A.2.6 - Amount Due From Primes To Sky With Respect To Supply Side Primitives</dfn>) plus any amount due from the Prime to Sky with respect to the Token Launch Penalty (see <dfn>A.2.10 - Token Launch Penalty</dfn>) minus the amount due from Sky to the Prime with respect to Demand Side Primitives and the Agent Rate (see <dfn>A.2.6 - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate</dfn>).</p><p>Net amounts due from a Prime to Sky are transferred from the Prime to the Surplus Buffer through a Prime Spell included in an Executive Vote. Net amounts due from Sky to a Prime are transferred from the Surplus Buffer to the Prime's Treasury through an Executive Vote.</p></td>
+          <td><p>The amounts due from Sky to each Prime with respect to Demand Side Primitives and the Agent Rate (see <dfn>A.2.6 - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate</dfn>) and the amounts due from each Prime to Sky with respect to Supply Side Primitives (see <dfn>A.2.6 - Amount Due From Prime To Sky With Respect To Supply Side Primitives</dfn>) are settled as specified in <dfn>A.2.6 - Settlement Through Sky Core Executive Vote</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -11807,6 +11823,14 @@
           <td>Spark Senior Risk Capital</td>
           <td>Core</td>
           <td>In the short term before the implementation of the Senior Risk Capital system, Sky will provide Spark with 15 million USDS of Senior Risk Capital. See <dfn>A.3.3 - Short Term Transitionary Measures</dfn>. This Senior Risk Capital will not be transferred by Sky to Spark's SubProxy Account; instead, it will be credited towards Spark’s Total Risk Capital. See <dfn>A.3.3 - Total Risk Capital</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.10 - Grove Senior Risk Capital</dfn>
+          </td>
+          <td>Grove Senior Risk Capital</td>
+          <td>Core</td>
+          <td>In the short term before the implementation of the Senior Risk Capital system, Sky will provide Grove with 15 million USDS of Senior Risk Capital. See <dfn>A.3.3 - Short Term Transitionary Measures</dfn>. This Senior Risk Capital will not be transferred by Sky to Grove's SubProxy Account; instead, it will be credited towards Grove's Total Risk Capital. See <dfn>A.3.3 - Total Risk Capital</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -19316,63 +19340,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology</td>
           <td>Core</td>
-          <td><p>The documents herein define the methodology that should be used for determining when and how to update stUSDS parameters with the stUSDS BEAM.</p><p>Initially when stUSDS parameters are set manually by the Operator Multisig (see <dfn>A.4.4 - Manual Parameter Updates By Operator Multisig</dfn>) the Stability Scope Advisors may deviate from these parameters in their best judgment. The Stability Scope Advisors should reduce the extent of these deviations over time to minimize the change when the process is fully automated.</p><p>Once the process is fully automated (see <dfn>A.4.4 - Automatic Updates By Operator Hot Wallet</dfn>) the automated process must fully conform to the specifications herein.</p></td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Conditions For Update</dfn>
-          </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Conditions For Update</td>
-          <td>Core</td>
-          <td>The stUSDS parameters should be updated if (1) the current Utilization (see <dfn>A.4.4 - Utilization Definition</dfn>) deviates from the Utilization as of the last time the stUSDS parameters were set by more than 2.4% and (2) the time since the last update is greater than tau (see <dfn>A.4.4 - Tau Definition</dfn>).</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update</dfn>
-          </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update</td>
-          <td>Core</td>
-          <td>The new values for each stUSDS parameter should be set to be as close as possible to the values specified in the documents herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Str Calculation</dfn>
-          </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Str Calculation</td>
-          <td>Core</td>
-          <td>The <code>str</code> must be calculated as specified in <dfn>A.4.4 - stUSDS Rate</dfn>.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Duty Calculation</dfn>
-          </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Duty Calculation</td>
-          <td>Core</td>
-          <td>The <code>duty</code> must be calculated as specified in <dfn>A.4.4 - Rate Setting Formula</dfn>.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Cap Calculation</dfn>
-          </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Cap Calculation</td>
-          <td>Core</td>
-          <td>The Stability Scope Advisors must calculate the maximum amount that users can deposit into the stUSDS contract (<code>cap</code>) as specified in the documents herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Cap Calculation - Short Term Calculation</dfn>
-          </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Cap Calculation - Short Term Calculation</td>
-          <td>Core</td>
-          <td>In the short term while Utilization is above 100%, the <code>cap</code> must be set to 200,000,000 USDS.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Cap Calculation - Long Term Calculation</dfn>
-          </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Cap Calculation - Long Term Calculation</td>
-          <td>Core</td>
-          <td><p>In the long term, the cap must be gradually increased when Utilization is above 85% according to the following formula:</p><p><code>cap = 1.2 * current SKY borrowing</code></p></td>
+          <td>The documents herein define the methodology that should be used for determining when and how to update stUSDS parameters with the stUSDS BEAM.</td>
         </tr>
         <tr>
           <td>
@@ -19397,6 +19365,102 @@
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Calculations For Update - Line Calculation - Long Term Calculation</td>
           <td>Core</td>
           <td><p>In the long term, the line must be gradually increased when Utilization is above 85% according to the following formula:</p><p><code>line = 1.14 * current SKY borrowing</code></p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Short Term Process</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Short Term Process</td>
+          <td>Core</td>
+          <td>Initially when stUSDS parameters are set manually by the Operator Multisig (see <dfn>A.4.4 - Manual Parameter Updates By Operator Multisig</dfn>), the Stability Scope Advisors may deviate from the long term process specified in <dfn>A.4.4 - Long Term Process</dfn> in their best judgment based on the guidelines specified herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Short Term Process - Initial Supply Rate</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Short Term Process - Initial Supply Rate</td>
+          <td>Core</td>
+          <td>The initial value of the <code>str</code> parameter must be set extraordinarily high to a value of approximately 40% initially to incentivize deposits. This rate is not sustainable and must be lowered as specified in <dfn>A.4.4 - Gradual Reduction In Supply Rate</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Short Term Process - Gradual Reduction In Supply Rate</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Short Term Process - Gradual Reduction In Supply Rate</td>
+          <td>Core</td>
+          <td>The <code>str</code> parameter must be gradually lowered to a more sustainable level as the market approaches the optimal target of 90% utilization.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Short Term Process - Growth Of Market Size</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Short Term Process - Growth Of Market Size</td>
+          <td>Core</td>
+          <td>The <code>cap</code> and <code>line</code> parameters must be scaled up over time. By the time the market reaches 300,000,000 USDS the str parameter must be normalized to a level that is in line with the Interest Rate Model.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process</td>
+          <td>Core</td>
+          <td>Once the process is fully automated (see <dfn>A.4.4 - Automatic Updates By Operator Hot Wallet</dfn>) the automated process must fully conform to the specifications herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process - Conditions For Update</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process - Conditions For Update</td>
+          <td>Core</td>
+          <td>The stUSDS parameters should be updated if (1) the current Utilization (see <dfn>A.4.4 - Utilization Definition</dfn>) deviates from the Utilization as of the last time the stUSDS parameters were set by more than 2.4% and (2) the time since the last update is greater than tau (see <dfn>A.4.4 - Tau Definition</dfn>).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process - Calculations For Update</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process - Calculations For Update</td>
+          <td>Core</td>
+          <td>The new values for each stUSDS parameter should be set to be as close as possible to the values specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process - Calculations For Update - Str Calculation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process - Calculations For Update - Str Calculation</td>
+          <td>Core</td>
+          <td>The <code>str</code> must be calculated as specified in <dfn>A.4.4 - stUSDS Rate</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process - Calculations For Update - Duty Calculation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process - Calculations For Update - Duty Calculation</td>
+          <td>Core</td>
+          <td>The <code>duty</code> must be calculated as specified in <dfn>A.4.4 - Rate Setting Formula</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process - Calculations For Update - Cap Calculation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process - Calculations For Update - Cap Calculation</td>
+          <td>Core</td>
+          <td>The Stability Scope Advisors must calculate the maximum amount that users can deposit into the stUSDS contract (<code>cap</code>) as specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process - Calculations For Update - Cap Calculation - Short Term Calculation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process - Calculations For Update - Cap Calculation - Short Term Calculation</td>
+          <td>Core</td>
+          <td>In the short term while Utilization is above 100%, the <code>cap</code> must be set to 200,000,000 USDS.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process - Calculations For Update - Cap Calculation - Long Term Calculation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Bounded External Access Module - Parameter Adjustments - Update Methodology - Long Term Process - Calculations For Update - Cap Calculation - Long Term Calculation</td>
+          <td>Core</td>
+          <td><p>In the long term, the cap must be gradually increased when Utilization is above 85% according to the following formula:</p><p><code>cap = 1.2 * current SKY borrowing</code></p></td>
         </tr>
         <tr>
           <td>
@@ -19496,6 +19560,86 @@
               <li>DC-IAM ttl: 30 minutes</li>
             </ul>
           </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>4.6 - A1 - Token Transfers To Sky</dfn>
+          </td>
+          <td>Token Transfers To Sky</td>
+          <td>Section</td>
+          <td>This Section defines standard procedures for sending tokens to Sky.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>4.6 - Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists</dfn>
+          </td>
+          <td>Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists</td>
+          <td>Core</td>
+          <td>The documents herein define processes for sending tokens to Sky. These include the DssBlow2 contract for adding Dai and USDS to the Surplus Buffer, and the Pause Proxy contract for non-stablecoins.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>4.6 - Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Stablecoins To Sky Protocol</dfn>
+          </td>
+          <td>Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Stablecoins To Sky Protocol</td>
+          <td>Core</td>
+          <td>The documents herein define the instructions for transferring stablecoins to Sky.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>4.6 - Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Stablecoins To Sky Protocol - Send Dai Or USDS To DssBlow2 Contract</dfn>
+          </td>
+          <td>Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Stablecoins To Sky Protocol - Send Dai Or USDS To DssBlow2 Contract</td>
+          <td>Core</td>
+          <td>Transfers of Dai or USDS that are not required to pay down vault debt should result in an increase to the Sky Protocol Surplus Buffer (see <dfn>A.3.6 - A1 - Surplus Buffer And Smart Burn Engine - Surplus Buffer</dfn>). This process is handled via the DssBlow2 contract, as described in the subdocuments.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>4.6 - Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Stablecoins To Sky Protocol - Send Dai Or USDS To DssBlow2 Contract - DssBlow2</dfn>
+          </td>
+          <td>Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Stablecoins To Sky Protocol - Send Dai Or USDS To DssBlow2 Contract - DssBlow2</td>
+          <td>Core</td>
+          <td>Dai or USDS tokens can be transferred to the DssBlow2 contract, MCD_BLOW2, at <code>0x81EFc7Dd25241acd8E5620F177E42F4857A02B79</code>. Calling the blow function on this contract will cause any Dai or USDS tokens held by it to be added to the Surplus Buffer. During this process, the ERC-20 tokens are burned and the tokens are instead reflected as an internal balance in the MCD_VAT contract.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>4.6 - Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Stablecoins To Sky Protocol - Send Dai Or USDS To DssBlow2 Contract - DssBlow2 - Unrecoverability Of Non-Dai Or USDS Tokens</dfn>
+          </td>
+          <td>Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Stablecoins To Sky Protocol - Send Dai Or USDS To DssBlow2 Contract - DssBlow2 - Unrecoverability Of Non-Dai Or USDS Tokens</td>
+          <td>Core</td>
+          <td>Only Dai or USDS are supported by DssBlow2. Any other tokens sent to DssBlow2 are not recoverable by Sky. Senders bear full responsibility; such transfers are not considered a valid receipt of funds owed.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>4.6 - Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Stablecoins To Sky Protocol - Transfer Of Other Stablecoins</dfn>
+          </td>
+          <td>Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Stablecoins To Sky Protocol - Transfer Of Other Stablecoins</td>
+          <td>Core</td>
+          <td>Stablecoins other than Dai or USDS cannot be added to the Surplus Buffer via DssBlow2. They should either (1) be converted to Dai or USDS and sent to DssBlow2 or (2) be sent to the Pause Proxy contract without conversion. Receipt of Dai or USDS is Sky's preferred method of receiving stablecoins.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>4.6 - Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Non-Stablecoins To Sky Protocol</dfn>
+          </td>
+          <td>Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Non-Stablecoins To Sky Protocol</td>
+          <td>Core</td>
+          <td>The documents herein define the instructions for transferring non-stablecoins to Sky.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>4.6 - Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Non-Stablecoins To Sky Protocol - Send Non-Stablecoins To Pause Proxy</dfn>
+          </td>
+          <td>Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Non-Stablecoins To Sky Protocol - Send Non-Stablecoins To Pause Proxy</td>
+          <td>Core</td>
+          <td>Transfers of non-stablecoins to Sky should be sent to the Pause Proxy contract.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>4.6 - Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Non-Stablecoins To Sky Protocol - Send Non-Stablecoins To Pause Proxy - Pause Proxy</dfn>
+          </td>
+          <td>Token Transfers To Sky - Process for Returning Tokens To Sky When No Specific Process Exists - Transfer Of Non-Stablecoins To Sky Protocol - Send Non-Stablecoins To Pause Proxy - Pause Proxy</td>
+          <td>Core</td>
+          <td>The Pause Proxy Contract, MCD_PAUSE_PROXY, at <code>0xbe8e3e3618f7474f8cb1d074a26affef007e98fb</code>, is under the direct control of Sky Governance. Sky Governance may take actions through Executive Votes to interact with the tokens held by the Pause Proxy, including selling these tokens.</td>
         </tr>
         <tr>
           <td>
@@ -23422,7 +23566,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The Root Edit process begins with a SPK token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A SPK token holder must hold at least 1% of the total token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Spark Prime" category.</td>
+          <td>The Root Edit process begins with a SPK token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A SPK token holder must hold at least 1% of the total token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Spark Prime" category. The proposal must include an upfront review of opportunities and associated risks, outlining expected benefits, potential risks, and corresponding mitigation strategies for consideration by the community.</td>
         </tr>
         <tr>
           <td>
@@ -23446,7 +23590,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>A future iteration of the Spark Artifact will specify guidelines for obtaining specialized review of proposals requiring advanced technical or financial analysis.</td>
+          <td>All Spark Root Edit proposals must be reviewed by the Spark Risk Council. The mandate, scope, and review process of the SRC are specified in Spark Risk Council.</td>
         </tr>
         <tr>
           <td>
@@ -23454,7 +23598,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td><p>Within seven (7) days of the proposal being submitted, the Operational Facilitator must review the Root Edit Proposal for alignment.</p><p>If the proposal is aligned, the Operational Facilitator must respond to the Forum post to announce their finding. In this Forum post, the Operational Facilitator must also confirm that the proposal is feasible for Operational GovOps to operationalize.</p><p>If the proposal is misaligned, the Operational Facilitator must respond to the Forum post to announce their finding and provide the reasoning for it.</p></td>
+          <td><p>Within seven (7) days of the proposal being submitted, the Operational Facilitator must review the Root Edit Proposal for alignment. The Operational Facilitator also checks if the author of the proposal complies with the requirements in Root Edit Proposal Submission.</p><p>If the proposal is aligned, and the author is entitled to submit it, the Operational Facilitator must respond to the Forum post to announce their finding. In their Forum post, the Operational Facilitator must also confirm that the proposal is feasible for Operational GovOps to operationalize.</p><p>If the proposal is misaligned, or the author is not entitled to submit it, the Operational Facilitator must respond to the Forum post to announce their finding and provide the reasoning for it</p>.</td>
         </tr>
         <tr>
           <td>
@@ -23462,7 +23606,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>Where their review of the proposal results in a finding of alignment with the Sky Core Atlas and Spark Artifact, the Operational Facilitator next triggers a Snapshot poll to allow token holders to vote on the proposal. Token holders may vote directly or through Delegates. See <dfn>Delegation Framework</dfn>. The poll is open for three (3) days. A poll must have more than 50% of votes cast, excluding abstentions, in favor to be approved.</td>
+          <td><p>Where their review of the proposal results in a finding of alignment with the Sky Core Atlas and Spark Artifact, and where the proposal passes review by the SRC (defined as "Passed SRC Review" in SRC Risk Review.), the Operational Facilitator next triggers a Snapshot poll to allow token holders to vote on the proposal. Token holders may vote directly or through Delegates. See <dfn>Delegation Framework</dfn>. The poll is open for three (3) days. A poll must have more than 50% of votes cast, excluding abstentions, in favor to be approved.</p><p>Spark's governance runs in a weekly cycle that begins every Monday. Upon receiving all approvals, the proposal is automatically included in the next cycle. The cut-off time is Friday 8:00 am UTC to ensure the Operational Facilitator has sufficient time to prepare the needed polls for the following Monday. After the cut-off time, it is at the discretion of the Operational Facilitator whether the proposal can be included in the immediate next cycle, or the following cycle.</p></td>
         </tr>
         <tr>
           <td>
@@ -34129,6 +34273,306 @@
           <td>Spark</td>
           <td>Core</td>
           <td>Spark reserves the right to vary or amend these terms at its discretion, subject to established Spark Artifact governance procedures related to Artifact edits.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Risk Council</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the Spark Risk Council (SRC). The SRC safeguards the integrity and security of the Spark Ecosystem by conducting pre-vote risk reviews and, where necessary, preventing proposals from proceeding to a vote in order to protect Spark.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Purpose And Mandate</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The SRC identifies, assesses, and mitigates technical, economic, and governance-process risks posed by proposals subject to Spark Governance. The SRC's mandate is to inform the community of potential risks inherent in proposals and, where necessary, prevent proposals from proceeding that are malicious or likely to expose Spark to substantial, unreasonable risk.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Scope Of Review</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The SRC reviews proposals for (i) security vulnerabilities and operational attack surface, (ii) market and treasury risks, (iii) economic risk, and (iv) misalignment with the Sky Core Atlas or the Spark Artifact. The SRC's authority is limited to reviewing proposals within this scope.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>SRC Risk Review Process</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The subdocuments herein clarify the process of the SRC independent risk review in terms of new Root Edit proposals. See <dfn>Root Edit Proposal Submission</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>SRC Risk Review</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Within seven (7) days (based on the start of the weekly cycle) of a new Atlas Root Edit proposal, the SRC must conduct an independent risk review and post (i) a conclusion ("Passed SRC Review" or "Failed SRC Review") and (ii) a stand-alone risk analysis to the relevant forum thread. Details for each of these deliverables are set out in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>SRC Risk Review Conclusion</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The SRC conclusion must reflect the majority opinion of SRC members. However, individual SRC members are free to post dissenting or concurring opinions at their discretion. See <dfn>Concurring Or Dissenting Opinions</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>SRC Risk Analysis</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The SRC risk analysis must summarize key findings, assumptions, mitigations, and any monitoring plan.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>SRC Risk Review Extension</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The SRC can formally request, at the Operational Facilitator's discretion, an extension of the deadline of seven (7) days by posting a public justification for an extension in the Sky Forum.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Failure To Review</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>If no SRC conclusion or request for extension is posted within seven (7) days of submission, the Operational Facilitator will move the proposal to the Snapshot voting phase, provided the proposal is aligned with the Sky Core Atlas and the Spark Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>"Failed SRC Review" Authority and Procedure</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The subdocuments herein set out the threshold, process and implications of a "Failed SRC Review" determination by the SRC.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Standard</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>A determination of “Failed SRC Review” may be exercised when a proposal is determined to be:
+            <ul>
+              <li>malicious or exploitative;</li>
+              <li>procedurally non-compliant with the Sky Core Atlas or Spark Artifact;</li>
+              <li>likely to expose Spark to substantial, unreasonable risk; or</li>
+              <li>in need of revisions in order for the SRC to evaluate the proposal.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Threshold</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>A determination of "Failed SRC Review" must reflect the majority opinion of SRC members.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Failed SRC Review Notice</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>A "Failed SRC Review" notice must be posted on the Sky Forum in the relevant thread prior to the Snapshot voting window opening (or, if already posted, prior to closure).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Operational Facilitator Designation</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Operational Facilitator marks the proposal "Failed SRC Review".</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Effect</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The proposal does not proceed to Snapshot (or is withdrawn).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Composition, Tenure, And Due Diligence</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The subdocuments herein set out key details about the SRC, including their composition and appointment.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Expertise</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>SRC members shall be domain experts across security, risk/economics, and operations.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Seat Count</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The SRC will have a seat count of three (3).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Bootstrapping Phase</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td><p>During the bootstrapping phase, initial members are appointed directly by the Operational Facilitator in consultation with the Spark Foundation through a public announcement on the Sky Forum. The Operational Facilitator shall either reappoint current SRC members to their seats or appoint new members in consultation with and with the consent of the Spark Foundation on an as-needed basis to allow the Operational Facilitator and the Spark Foundation flexibility during the initial governance procedures.</p><p>Additional procedures on future elections governing the appointment of SRC members voted upon by the community will be specified in a future iteration of the Spark Artifact.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Coordinator</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Nested Contributor Phoenix Labs has a seat on the SRC as a non-voting coordinating member. The role of the coordinator is to facilitate the work of the SRC being done in a timely manner.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Due Diligence</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Members may be required to complete a confidential due diligence process, if the Spark Foundation deems it necessary.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Compensation</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>SRC members will receive compensation for performing their role on terms approved by the Spark Foundation.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Council Meetings</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The subdocuments herein set out details about SRC meetings, including cadence and external participation.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Mid-Term Appointments And Member Changes</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The subdocuments herein set out the process for mid-term appointments and other out-of-schedule replacement rules.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Vacancies Mid-Term (Out-Of-Schedule Replacement Appointment)</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>If a seat becomes vacant (resignation, removal, ineligibility, or failure to complete due diligence), the Operational Facilitator shall make an out-of-schedule replacement appointment. This process is defined in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Notice</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Within seven (7) days of the vacancy, the Operational Facilitator publishes a vacancy notice and forum thread on the Sky Forum describing the circumstances of the vacancy.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Appointment</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Operational Facilitator shall appoint a replacement member of the SRC to fill the vacant seat in consultation with the Spark Foundation and publish a new post in the relevant forum thread in order to announce the appointment.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Term</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The appointee is seated upon due diligence completion to the Spark Foundation's satisfaction and update to the SRC Membership Registry and serves the remainder of the current term.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Seating And Continuity</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Incumbent SRC members remain in office until successors are seated to ensure continuity of SRC operations. Newly appointed members are seated upon completion of due diligence to the Spark Foundation's satisfaction and publication to the SRC Membership Registry.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Process Requirements</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The subdocuments herein set out key deliverables for the SRC as well as rules around conflicts of interest.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Concurring Or Dissenting Opinions</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>In addition to the determinative independent risk review posted by the SRC for each proposal, individual SRC members may post concurring or dissenting opinions in the Sky Forum at their discretion.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Conflicts Of Interest</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>SRC members must disclose conflicts of interest to Spark Foundation and recuse themselves where impartiality is compromised.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Non-Performance</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Repeated failure to meet review timelines; failure to document decisions; blocking valid proposals due to malicious intent or evident poor due diligence; or any other failure to uphold the duties of the SRC set forth in the Spark Artifact may trigger removal and replacement of SRC members at the discretion of the Spark Foundation.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>SRC Membership Registry Process</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The subdocuments herein contain the registry of SRC members, including name or alias, domain expertise, verified governance address, start date, term status, and standing (Active / Recused / Removed). The registry is maintained via an Active Data document updated by the Operational Facilitator per the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Updating SRC Membership Registry</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Active Data Controller</td>
+          <td><p>The SRC Membership Registry is defined as Active Data in SRC Membership Registry List.</p><p>The Active Data is updated as follows:</p>
+            <ul>
+              <li>The Responsible Party is the Operational Facilitator.</li>
+              <li>The Update Process must follow the protocol for 'Direct Edit'.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>SRC Membership Registry List</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Active Data</td>
+          <td>The information for each member of the SRC is listed below:</td>
         </tr>
         <tr>
           <td>
