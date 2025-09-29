@@ -507,7 +507,7 @@
           </td>
           <td>SKY Backstop</td>
           <td>Article</td>
-          <td>This Article governs the SKY Backstop. If the USDS Stablecoin becomes undercollateralized, the Sky Protocol will automatically generate and sell SKY to recapitalize the system.</td>
+          <td>This Article governs the SKY Backstop. If the USDS Stablecoin becomes undercollateralized, the Sky Protocol will automatically generate and sell SKY to recapitalize the system. The period when the recapitalization mechanism is actively minting and selling SKY to close the shortfall is termed a “SKY Backstop Event.”</td>
         </tr>
         <tr>
           <td>
@@ -11710,13 +11710,21 @@
           <td>Core</td>
           <td><p>The founding team of Spark has proposed a cash grant of 800,000 USDS per month to the Spark Foundation from Spark's Genesis Capital Allocation for a three (3) month period, beginning at the time of the Genesis Capital Allocation. The purpose of the grant is to enable Spark Foundation to fulfill its purpose of promoting the growth and development of Spark. This funding will support essential activities such as engineering efforts, community engagement, research, infrastructure, and administrative operations.</p><p>Sky Governance hereby consents to this cash grant. The first month's transfer must be made to the Spark Foundation immediately after the transfer of the Genesis Capital Allocation. See <dfn>A.2.10 - Transfer Of Genesis Capital Allocation To Spark SubProxy</dfn>. Transfers for subsequent months will be made proportionally in Spark Spells included in Sky Executive Votes unless otherwise agreed by Sky and Spark.</p></td>
         </tr>
+         <tr>
+          <td>
+            <dfn>A.2.10 - Genesis Capital Backstop</dfn>
+          </td>
+          <td>Genesis Capital Backstop</td>
+          <td>Core</td>
+          <td>Each genesis capital allocation is subject to the Genesis Capital Backstop (see <def>A.3.9 - Genesis Capital Backstop</def>).</td>
+        </tr>
         <tr>
           <td>
             <dfn>A.2.10 - Intellectual Property</dfn>
           </td>
           <td>Intellectual Property</td>
           <td>Core</td>
-          <td>The subdocuments herein set out agreed terms with respect to intellectual property. </td>
+          <td>The subdocuments herein set out agreed terms with respect to intellectual property.</td>
         </tr>
         <tr>
           <td>
@@ -17639,6 +17647,14 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.3.7 - SKY Backstop - Relation To Genesis Capital Backstop</dfn>
+          </td>
+          <td>SKY Backstop - Relation To Genesis Capital Backstop</td>
+          <td>Section</td>
+          <td>The Genesis Capital Backstop may not be invoked unless a “SKY Backstop Event” is in progress and the price of SKY is zero.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.3.9 - A1 - Measures For Endgame Transition</dfn>
           </td>
           <td>Measures For Endgame Transition</td>
@@ -18570,6 +18586,61 @@
           <td>Measures For Endgame Transition - Offboarding Process - Announcements</td>
           <td>Core</td>
           <td>The public announcements defined in <dfn>A.3.9 - Measures For Endgame Transition - Offboarding Process - Technical Process</dfn> must still be carried out. However, the timing of these announcements no longer constrains the modification of parameters. These announcements must also state that the offboarding is being expedited and explain the reasons for this accelerated process.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.9 - Genesis Capital Backstop</dfn>
+          </td>
+          <td>Genesis Capital Backstop</td>
+          <td>Core</td>
+          <td>If a “SKY Backstop Event” is in progress and the SKY price equals zero, the Sky Protocol must apply a pro-rata haircut across each Genesis Agent's Sky-contributed capital, implemented as a transfer of eligible assets from each Agent to the Sky Surplus Buffer. The haircut must be sized exactly to restore the Surplus Buffer to zero.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.9 - Genesis Capital Backstop - Implementation</dfn>
+          </td>
+          <td>Genesis Capital Backstop- Implementation</td>
+          <td>Core</td>
+          <td><p>In the near term, transfers are made through Executive Votes and may be made through Emergency Spells (see <def>A.1.9 - A4 - Sky Core Governance Security - Emergency Spells</def>) as part of the Emergency Response System (see <def>A.1.8 - A1 - Emergency Response System - Emergency Response</def>)</p><p>A solution must be developed to allow these transfers to be accomplished on an automated basis without waiting for the GSM Pause Delay (see <def>A.1.9 - A2 - Sky Core Governance Security - Governance Security Delay Requirements</def>).</p>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.9 - Genesis Capital Backstop - Post Backstop Settlement</dfn>
+          </td>
+          <td>Genesis Capital Backstop- Post Backstop Settlement</td>
+          <td>Core</td>
+          <td><p>If the haircut restores the Surplus Buffer to zero (i.e., the deficit is fully cleared), Sky will distribute 24 billion SKY to Genesis Agents, in proportion to the amount each Agent lost in the haircut.</p><p>If, after the haircut, the Surplus Buffer remains below zero (i.e., the deficit could not be fully cleared), Sky will adjust the USDS target price below $1 to the extent necessary to settle the remaining deficit; Sky will then distribute 24 billion SKY to USDS holders via an airdrop.</p>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.9 - Genesis Capital Backstop - Genesis Agent Capital Shortfalls</dfn>
+          </td>
+          <td>Genesis Capital Backstop- Genesis Agent Capital Shortfalls</td>
+          <td>Core</td>
+          <td>Transfers of capital from Genesis Agents may cause capital shortfalls for Genesis Agents under the Risk Framework (see <def>A.3.3</def>). Sky will work in good faith with such Agents to waive penalties for a reasonable period of time to allow the Agents to rebuild their capital.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.9 - Genesis Capital Backstop - Relation To SKY Backstop</dfn>
+          </td>
+          <td>Genesis Capital Backstop- Relation To SKY Backstop</td>
+          <td>Core</td>
+          <td>The Genesis Capital Backstop may not be invoked unless a “SKY Backstop Event” is in progress and the price of SKY equals zero.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.9 - Genesis Capital Backstop - Genesis Agents</dfn>
+          </td>
+          <td>Genesis Capital Backstop- Genesis Agents</td>
+          <td>Core</td>
+          <td>Genesis Agents are Agents that receive capital contributions from Sky, including, without limitation:
+            <ul>
+              <li>Spark</li>
+              <li>Grove</li>
+              <li>Launch Agent 2</li>
+              <li>Launch Agent 3</li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>
