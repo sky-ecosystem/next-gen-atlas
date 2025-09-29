@@ -13726,6 +13726,14 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.3.3 - Real World Assets</dfn>
+          </td>
+          <td>Real World Assets</td>
+          <td>Core</td>
+          <td>The model for Real World Assets is based on the direct application of existing frameworks to evaluate the risk of tokenized Real World Assets. The implementation of the model for Real World Assets is specified in <dfn>A.3.3 - Real World Assets</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.3.3 - Pending Risk Models</dfn>
           </td>
           <td>Pending Risk Models</td>
@@ -13755,14 +13763,6 @@
           <td>Bond-Like Instruments</td>
           <td>Core</td>
           <td>The model for bond-like instruments uses a modified Credit Risk model to evaluate the risk of cryptoassets with duration risk, such as Pendle's PT-tokens. The implementation of the model for bond-like instruments is specified in <dfn>A.3.3 - Bond-Like Instruments</dfn>.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.3 - Real World Assets</dfn>
-          </td>
-          <td>Real World Assets</td>
-          <td>Core</td>
-          <td>The model for Real World Assets is based on direct application of existing frameworks to evaluate the risk of tokenized Real World Assets, such as BUIDL, JTRSY, USTB, and JAAA. The implementation of the model for Real World Assets is specified in <dfn>A.3.3 - Real World Assets</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -14815,28 +14815,320 @@
           </td>
           <td>Real World Assets</td>
           <td>Core</td>
-          <td>The implementation of the model for Real World Assets will be specified in a future iteration of the Atlas. The near-term treatment of these assets are specified in the subdocuments herein.</td>
+          <td>The documents herein define the calculation of Instance Financial RRC for Real World Assets.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.3.3 - Near-Term Treatment</dfn>
+            <dfn>A.3.3 - Methodology</dfn>
           </td>
-          <td>Near-Term Treatment</td>
+          <td>Methodology</td>
           <td>Core</td>
-          <td>In the near term pending development of the implementation of the model for Real World Assets, the following Instance Financial RRC Ratios will apply:
-            <ul>
-              <li>BUIDL, JTRSY on Ethereum Mainnet, and USTB - 0% Instance Financial RRC Ratio</li>
-              <li>JTRSY on Avalanche - 0.5% Instance Financial RRC Ratio</li>
-              <li>JAAA on Ethereum Mainnet - 1.6% Instance Financial RRC Ratio</li>
-              <li>JAAA on Avalanche - 2.1% Instance Financial RRC Ratio</li>
-            </ul>
-            <p>In the near term, only the assets specified in <dfn>A.3.3 - Short Term Application To Real World Assets</dfn> will be eligible for investment under this provision.</p><p>All other investments in Real World Assets have a 100% Instance Total RRC as specified in the document cited above</p>.</td>
+          <td>The documents herein define common methodologies that are applicable to the entirety of the process for calculating Instance Financial RRC for Real World Assets.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.3.3 - Additional Restrictions On Investments In JTRSY And JAAA On Avalanche</dfn>
+            <dfn>A.3.3 - Basis In Basel Framework</dfn>
           </td>
-          <td>Additional Restrictions On Investments In JTRSY And JAAA On Avalanche</td>
+          <td>Basis In Basel Framework</td>
+          <td>Core</td>
+          <td>The process for calculating Instance Financial RRC for Real World Assets is based on the Basel Framework developed by the Basel Committee on Bank Supervision. See <a href="https://www.bis.org/basel_framework/index.htm">Basel Framework</a>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Citations To Basel Framework</dfn>
+          </td>
+          <td>Citations To Basel Framework</td>
+          <td>Core</td>
+          <td><p>Citations are made throughout the process for calculating Instance Financial RRC for Real World Assets to relevant provisions from the Basel Framework.</p><p>These citations follow the standard format of <code>[Prefix][Chapter Number].[Paragraph Number]</code>, where <code>Prefix</code> is a three letter prefix indicating the regulatory standard area or chapter family. For example, a citation to <code>CRE20.1</code> refers to Credit Risk Standards, Chapter 20 regarding “Standardised Approach: Individual Exposures”, paragraph 1.</p><p>When reference is made to a range of documents, a hyphen may be used. For example, <code>CRE20.1-93</code> refers to Credit Risk Standards, Chapter 20 regarding “Standardised Approach: Individual Exposures”, paragraphs 1 through 93.</p><p>Similarly, discrete sets of documents may be referenced using a comma. For example, <code>CRE40-41, 45</code> refers to Credit Risk Standards, Chapters 40 to 41 and 45.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Banking Book</dfn>
+          </td>
+          <td>Banking Book</td>
+          <td>Core</td>
+          <td>In the process for calculating Instance Financial RRC for Real World Assets, all exposures are treated as if they were part of the banking book.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Process For Calculating Instance Financial RRC</dfn>
+          </td>
+          <td>Process For Calculating Instance Financial RRC</td>
+          <td>Core</td>
+          <td>The documents herein define the process for calculating Instance Financial RRC for Real World Assets.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Identify Exposure Types</dfn>
+          </td>
+          <td>Identify Exposure Types</td>
+          <td>Core</td>
+          <td>The first step is identifying the Exposure Type that an exposure fits under. The Exposure Types are:
+            <ul>
+              <li>On-Balance Sheet Items (see <code>CRE20.1-93</code>)</li>
+              <li>Off-Balance Sheet Items (see <code>CRE20.94-101</code>)</li>
+              <li>Securitization Tranches (see <code>CRE40-41, 45</code>)</li>
+              <li>Derivatives or Securities Financing Transactions (see <code>CRE50-52</code>)</li>
+              <li>Funds / Collective Investment Undertakings / Exchange Traded Funds (<code>see CRE60</code>)</li>
+              <li>Commodities (see <code>MAR21.13</code>)</li>
+              <li>Foreign Exchange (see <code>MAR21.14</code>)</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Calculate Exposure At Default Including Credit Risk Mitigation</dfn>
+          </td>
+          <td>Calculate Exposure At Default Including Credit Risk Mitigation</td>
+          <td>Core</td>
+          <td>The second step is calculating the Exposure at Default including Credit Risk Mitigation as specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Calculation Of Exposure At Default</dfn>
+          </td>
+          <td>Calculation Of Exposure At Default</td>
+          <td>Core</td>
+          <td>Exposure At Default is calculated as specified in the documents herein.</td>
+        </tr>
+         <tr>
+          <td>
+            <dfn>A.3.3 - Exposure At Default Equal To Book Value</dfn>
+          </td>
+          <td>Exposure At Default Equal To Book Value</td>
+          <td>Core</td>
+          <td>For the following Exposure Types, Exposure At Default is equal to book value:
+            <ul>
+              <li>On-Balance Sheet Items</li>
+              <li>Securitization Tranches</li>
+              <li>Derivatives or Securities Financing Transactions</li>
+              <li>Funds / Collective Investment Undertakings / Exchange Traded Funds</li>
+              <li>Commodities</li>
+              <li>Foreign Exchange</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Exposure At Default Equal To Book Value Multiplied By Credit Conversion Factor</dfn>
+          </td>
+          <td>Exposure At Default Equal To Book Value Multiplied By Credit Conversion Factor</td>
+          <td>Core</td>
+          <td>For the following Exposure Types, Exposure At Default is equal to book value multiplied by the Credit Conversion Factor (see <code>CRE51</code>):
+          <ul>
+            <li>Off-Balance Sheet Items</li>
+          </ul>
+        </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Adjustment For Credit Risk Mitigation</dfn>
+          </td>
+          <td>Adjustment For Credit Risk Mitigation</td>
+          <td>Core</td>
+          <td>The Exposure At Default calculated in A.3.3 - Calculation Of Exposure At Default is then adjusted for Credit Risk Mitigation (see <code>CRE22</code>) to arrive at an adjusted Exposure At Default used for the remainder of the calculations.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Determine Risk Weights</dfn>
+          </td>
+          <td>Determine Risk Weights</td>
+          <td>Core</td>
+          <td>The third step is calculating the Risk Weights as specified in the documents herein.</td>
+        </tr>
+         <tr>
+          <td>
+            <dfn>A.3.3 - On-Balance Sheet Or Off-Balance Sheet Items</dfn>
+          </td>
+          <td>On-Balance Sheet Or Off-Balance Sheet Items</td>
+          <td>Core</td>
+          <td>Credit Risk for On-Balance Sheet or Off-Balance Sheet Items is calculated based on the relevant provisions in the Basel Framework as follows:
+            <table>
+              <tr>
+                <th>Exposure Type</th>
+                <th>Reference</th>
+              </tr>
+              <tr>
+                <td>Sovereigns</td>
+                <td>CRE20.7-10</td>
+             </tr>
+             <tr>
+              <td>Non-central government Public Sector Entities (PSEs)</td>
+              <td>CRE20.11-12</td>
+            </tr>
+            <tr>
+                <td>Multilateral Development Banks</td>
+                <td>CRE20.13-15</td>
+             </tr>
+             <tr>
+              <td>Banks</td>
+              <td>CRE20.16-32</td>
+            </tr>
+            <tr>
+              <td>Covered Bonds</td>
+              <td>CRE20.33-39</td>
+            </tr><tr>
+              <td>Securities, firms, and other financial institutions</td>
+              <td>CRE20.40</td>
+            </tr><tr>
+              <td>Corporates</td>
+              <td>CRE20.41-52</td>
+            </tr><tr>
+              <td>Subordinated debt, equity, and other capital instruments</td>
+              <td>CRE20.53-62</td>
+            </tr><tr>
+              <td>Retail exposure class</td>
+              <td>CRE20.63-68</td>
+            </tr><tr>
+              <td>Real Estate exposure class</td>
+              <td>CRE20.69-91</td>
+            </tr><tr>
+              <td>Direct credit substitutes</td>
+              <td>CRE20.95</td>
+            </tr><tr>
+              <td>Sale and repurchase agreements where the credit risk remains with the bank</td>
+              <td>CRE20.95</td>
+            </tr><tr>
+              <td>Lending of banks' securities or the posting of securities as collateral by banks</td>
+              <td>CRE20.95</td>
+            </tr><tr>
+              <td>Forward assets purchases</td>
+              <td>CRE20.95</td>
+            </tr><tr>
+              <td>Forward forward deposits</td>
+              <td>CRE20.95</td>
+            </tr><tr>
+              <td>Partly paid shares and securities</td>
+              <td>CRE20.95</td>
+            </tr><tr>
+              <td>Credit substitutes not included in any other category</td>
+              <td>CRE20.95</td>
+            </tr><tr>
+              <td>Note issuance facilities</td>
+              <td>CRE20.96</td>
+            </tr><tr>
+              <td>Revolving underwriting facilities</td>
+              <td>CRE20.96</td>
+            </tr><tr>
+              <td>Certain transactions-related contingent items (e.g. performance bonds, bid bonds, warranties, standby letters of credit)</td>
+              <td>CRE20.97</td>
+            </tr><tr>
+              <td>Commitments regardless of the maturity of the underlying facility</td>
+              <td>CRE20.98</td>
+            </tr><tr>
+              <td>Both issuing and confirming banks of short-term self-liquidating trade letters of credit arising from the movement of goods</td>
+              <td>CRE20.99</td>
+            </tr><tr>
+              <td>Commitments that are unconditionally cancellable at any time by the bank without prior notice</td>
+              <td>CRE20.100</td>
+            </tr>
+          </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Securitization Tranches</dfn>
+          </td>
+          <td>Securitization Tranches</td>
+          <td>Core</td>
+          <td>Risk Weights for Securitization Tranches (see <code>CRE40-41, 45</code>) are calculated as follows:
+            <ul>
+              <li>If the Securitization Tranche is rated, then the Securitisation - External Ratings Based Approach should be applied (see <code>CRE42</code>).</li>
+              <li>If the Securitization Tranche is not rated, then the Securitisation - Standard Approach should be applied (see <code>CRE41</code>).</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Derivatives Or Securities Financing Transactions</dfn>
+          </td>
+          <td>Derivatives Or Securities Financing Transactions</td>
+          <td>Core</td>
+          <td>Counterparty Credit Risk for Derivatives or Securities Financing Transactions is calculated based on the relevant provisions in the Basel Framework (see <code>CRE50-52</code>). In addition, if the instrument is an Over The Counter derivative, Credit Valuation Adjustment capital is applied as well (see <code>MAR50</code>).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Funds / Collective Investment Undertakings / Exchange Traded Funds</dfn>
+          </td>
+          <td>Funds / Collective Investment Undertakings / Exchange Traded Funds</td>
+          <td>Core</td>
+          <td>Risk Weights for Funds / Collective Investment Undertakings / Exchange Traded Funds (see <code>CRE60</code>) are calculated as follows:
+          <ul>
+            <li>If look-through is feasible, apply the Look Through Approach (see <code>CRE60.2-5</code>)</li>
+            <li>If look-through is not feasible but the mandate information is available, apply the Mandate Based Approach (see <code>CRE60.6-7</code>)</li>
+            <li>If look-through is not feasible and the mandate information is not available, apply the fallback conservative approach (see <code>CRE60.8</code>)</li>
+          </ul>
+        </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Commodities</dfn>
+          </td>
+          <td>Commodities</td>
+          <td>Core</td>
+          <td>Market Risk for Commodities is calculated based on the relevant provisions in the Basel Framework (see <code>MAR21.13</code>).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Foreign Exchange</dfn>
+          </td>
+          <td>Foreign Exchange</td>
+          <td>Core</td>
+          <td>Market Risk for Foreign Exchange is calculated based on the relevant provisions in the Basel Framework (see <code>MAR21.14</code>).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Aggregate Risk Weighted Assets</dfn>
+          </td>
+          <td>Aggregate Risk Weighted Assets</td>
+          <td>Core</td>
+          <td>The fourth step is calculating Aggregate Risk Weighted Assets (”RWA”).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Calculate Risk Weighted Assets</dfn>
+          </td>
+          <td>Calculate Risk Weighted Assets</td>
+          <td>Core</td>
+          <td>Credit RWA, Market RWA, Counterparty Credit Risk RWA, and Credit Valuation Adjustment RWA are calculated by multiplying the Exposure At Default (see <def>A.3.3 - Calculate Exposure At Default Including Credit Risk Mitigation</def>) by the applicable Risk Weights (see <def>A.3.3 - Determine Risk Weights</def>).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Calculate Aggregate Risk Weighted Assets</dfn>
+          </td>
+          <td>Calculate Aggregate Risk Weighted Assets</td>
+          <td>Core</td>
+          <td>Aggregate RWA is calculated as the sum of (1) Credit RWA, (2) Market RWA, (3) Counterparty Credit RWA, and (4) Credit Valuation Adjustment RWA.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Apply Leverage Adjustment</dfn>
+          </td>
+          <td>Apply Leverage Adjustment</td>
+          <td>Core</td>
+          <td>The fifth step is to adjust the Aggregate RWA specified in <def>A.3.3 - Aggregate Risk Weighted Assets</def> for leverage (see <code>CRE99.128-133</code>).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Determine Required Risk Capital</dfn>
+          </td>
+          <td>Determine Required Risk Capital</td>
+          <td>Core</td>
+          <td>The final step is to multiply the adjusted Aggregate RWA specified in <def>A.3.3 - Apply Leverage Adjustment</def> by an 8% capital ratio to arrive at Instance Financial RRC.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Exceptions</dfn>
+          </td>
+          <td>Exceptions</td>
+          <td>Core</td>
+          <td>The documents herein define exceptions to the calculation of Instance Financial RRC for specific Real World Assets. These exceptions will be removed in a future iteration of the Atlas.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Instance Financial RRC Ratios For Specific Assets</dfn>
+          </td>
+          <td>Instance Financial RRC Ratios For Specific Assets</td>
           <td>Core</td>
           <td>Investments in JTRSY and JAAA on Avalanche are subject to the following additional restrictions:
             <ul>
@@ -14844,6 +15136,21 @@
               <li>Each additional deployment of capital into JTRSY or JAAA must be approved by the Stability Scope Advisors;</li>
               <li>Until audits of Centrifuge v3 are approved by the Protocol Security Workstream Lead, the Prime must be below a 90% Risk Tolerance Ratio on a pro forma basis assuming that each additional deployment of capital into JTRSY and JAAA requires 100% Instance Total RRC; and</li>
               <li>Total investments in JTRSY and JAAA on Avalanche may not exceed 250 million USDS.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Additional Restrictions On Investments In JTRSY And JAAA On Avalanche</dfn>
+          </td>
+          <td>Additional Restrictions On Investments In JTRSY And JAAA On Avalanche</td>
+          <td>Core</td>
+          <td>The following Instance Financial RRC Ratios apply to specific assets:
+            <ul>
+              <li>BUIDL, JTRSY on Ethereum Mainnet, and USTB - 0% Instance Financial RRC Ratio</li>
+              <li>JTRSY on Avalanche - 0.5% Instance Financial RRC Ratio</li>
+              <li>JAAA on Ethereum Mainnet - 1.6% Instance Financial RRC Ratio</li>
+              <li>JAAA on Avalanche - 2.1% Instance Financial RRC Ratio</li>
             </ul>
           </td>
         </tr>
