@@ -18485,7 +18485,7 @@
               <li>Only existing LSE-MKR-A users with drawn debt are allowed to migrate debt to LSEV2-SKY-A initially</li>
               <li>Dust: 30,000</li>
               <li>Duty: 20%</li>
-              <li>Mat: 125%</li>
+              <li>Mat: 145%</li>
               <li>Calc: StairstepExponentialDecrease</li>
               <li>Buf: 120%</li>
               <li>Tail: 6,000 seconds</li>
@@ -25724,6 +25724,14 @@
         </tr>
         <tr>
           <td>
+            <dfn>Ethereum Mainnet - Curve pyUSD/USDS Pool Instance Configuration Document Location</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>This Instance's associated Instance Configuration Document is located at <dfn>Ethereum Mainnet - Curve pyUSD/USDS Pool Instance Configuration Document</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Morpho</dfn>
           </td>
           <td>Spark</td>
@@ -26454,8 +26462,8 @@
           <td>Core</td>
           <td>The maximum amount of USDC that can be bridged to Ethereum Mainnet ALM Proxy using the Circle Cross-Chain Transfer Protocol (<code>LIMIT_USDC_TO_CCTP_ETH</code>) is specified in the document herein.
             <ul>
-              <li><code>maxAmount</code> (USDC): max</li>
-              <li><code>slope</code> (USDC/ day): 0</li>
+              <li><code>maxAmount</code> (USDC): 200,000,000</li>
+              <li><code>slope</code> (USDC/ day): 500,000,000</li>
             </ul>
           </td>
         </tr>
@@ -26566,8 +26574,8 @@
           <td>Core</td>
           <td>The maximum amount of USDC that can be bridged to Base ALM Proxy using the Circle Cross-Chain Transfer Protocol (<code>LIMIT_USDC_TO_CCTP_BASE</code>) is specified in the document herein.
             <ul>
-              <li><code>maxAmount</code> (USDC): max</li>
-              <li><code>slope</code> (USDC/ day): 0</li>
+              <li><code>maxAmount</code> (USDC): 200,000,000</li>
+              <li><code>slope</code> (USDC/ day): 500,000,000</li>
             </ul>
           </td>
         </tr>
@@ -32625,6 +32633,158 @@
         </tr>
         <tr>
           <td>
+            <dfn>Ethereum Mainnet - Curve pyUSD/USDS Pool Instance Configuration Document</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain the Instance Configuration Document for the Curve pyUSD/USDS Pool Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>RRC Framework Full Implementation</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td><strong><code>Pending</code></strong></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the parameters of the Curve pyUSD/USDS Pool Instance of the Allocation System Primitive.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance Identifiers</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the Instance identifiers</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Network</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Ethereum Mainnet</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Target Protocol</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Curve</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Asset Supplied By SLL</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>USDS and PYUSD</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Token</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>PYUSDUSDS</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Contract Addresses</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the Instance contract addresses.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Token Address</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td><code>0xA632D59b9B804a956BfaA9b48Af3A1b74808FC1f</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limit IDs</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The current <code>maxAmount</code>, <code>slope</code> and slippage for this conduit's inflow/outflow/swap are defined in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Inflow Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The inflow rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: 5,000,000</li>
+              <li><code>slope</code>: 50,000,000 per day</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Outflow Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The outflow rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: 5,000,000</li>
+              <li><code>slope</code>: 100,000,000 per day</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Swap Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The swap rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: 5,000,000</li>
+              <li><code>slope</code>: 50,000,000 per day</li>
+              <li>Max slippage: 0.2%</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Off-chain Operational Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance-specific Operational Processes</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Morpho</dfn>
           </td>
           <td>Spark</td>
@@ -35460,7 +35620,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The current USDT cap automator parameters are:• Supply cap ◦ gap: 100 million USDT◦ ttl: 12 hours ◦ max: 500 million USDT• Borrow cap ◦ gap: 50 million USDT ◦ ttl: 12 hours ◦ max: 450 million USDT</td>
+          <td>The current USDT cap automator parameters are:• Supply cap ◦ gap: 1 billion USDT◦ ttl: 12 hours ◦ max: 5 billion USDT• Borrow cap ◦ gap: 200 million USDT ◦ ttl: 12 hours ◦ max: 5 billion USDT</td>
         </tr>
         <tr>
           <td>
@@ -41970,7 +42130,7 @@
           </td>
           <td>Launch Agent 2</td>
           <td>Core</td>
-          <td>The address of Launch Agent 2's SubProxy Account will be specified in a future iteration of the Launch Agent 2 Artifact.</td>
+          <td>The address of Launch Agent 2's SubProxy Account on the Ethereum Mainnet is <code>0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310</code>.</td>
         </tr>
         <tr>
           <td>
