@@ -26236,6 +26236,54 @@
         </tr>
         <tr>
           <td>
+            <dfn>Avalanche/dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>This document contains the ALM Contract Addresses for the SLL on Avalanche.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Controller (ForeignController Avalanche) Contract</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The address of the ALM_CONTROLLER (ForeignController) contract is: <code>TBD</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Freezer Multisig (Avalanche) Address</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The address of the Multisig that has the Freezer Role is specified in <dfn>TBD</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Relayer Multisig (Avalanche) Address</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The address of the Multisigs that has the Relayer Role are specified in <dfn>TBD</dfn> and <dfn>TBD</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Proxy (Avalanche) Contract</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The address of the ALM_PROXY contract is: <code>TBD</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Rate Limits (Avalanche) Contract</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The address of the ALM_RATE_LIMITS contract is: <code>TBD</code></td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Off-Chain Operational Parameters</dfn>
           </td>
           <td>Spark</td>
@@ -26831,6 +26879,66 @@
           <td>The maximum amount of sUSDS that can be withdrawn from the PSM (<code>LIMIT_PSM_WITHDRAW_SUSDS</code>) is specified in the document herein.
             <ul>
               <li><code>maxAmount</code> (sUSDS): Unlimited</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Avalanche</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein list the current RateLimits for the Spark Liquidity Layer on Avalanche.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Avalanche USDC Deposit Maximum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The maximum amount of USDC that can be deposited into the PSM (<code>LIMIT_PSM_DEPOSIT_USDC</code>) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code> (USDC): Unlimited</li>
+              <li><code>slope</code> (USDC/ day): Unlimited</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Avalanche USDC Withdrawal Maximum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The maximum amount of USDC that can be withdrawn from the PSM (<code>LIMIT_PSM_WITHDRAW_USDC</code>) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code> (USDC): Unlimited</li>
+              <li><code>slope</code> (USDC/ day): Unlimited</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>USDC Avalanche ALM Proxy Maximum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The maximum amount of USDC that can be sent to the Avalanche ALM Proxy (<code>LIMIT_USDC_TO_DOMAIN</code>, hashed with Avalanche domain) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code> (USDC): 100,000,000</li>
+              <li><code>slope</code> (USDC/ day): 50,000,000</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>USDC Avalanche ALM Proxy Circle Cross-Chain Transfer Protocol Maximum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The maximum amount of USDC that can be bridged to Avalanche ALM Proxy using the Circle Cross-Chain Transfer Protocol (<code>LIMIT_USDC_TO_CCTP_AVALANCHE</code>) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code> (USDC): 100,000,000</li>
+              <li><code>slope</code> (USDC/ day): 50,000,000</li>
             </ul>
           </td>
         </tr>
