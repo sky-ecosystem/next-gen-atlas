@@ -17542,7 +17542,7 @@
           </td>
           <td>Ethena Required Risk Capital</td>
           <td>Core</td>
-          <td>Ethena Exposures consist of Direct Ethena Exposures (see <dfn>A.3.3 - Direct Ethena Exposures</dfn>) and Indirect Ethena Exposures (see <dfn>A.3.3 - Indirect Ethena Exposures</dfn>). The Instance Financial RRC for Ethena Exposures is specified in the documents herein.</td>
+          <td>Ethena Exposures consist of Direct Ethena Exposures (see <dfn>A.3.3 - Direct Ethena Exposures</dfn>), Indirect Ethena Exposures (see <dfn>A.3.3 - Indirect Ethena Exposures</dfn>), and Pendle Ethena Exposures (see <dfn>A.3.3 - Pendle Ethena Exposures</dfn>). The Instance Financial RRC for Ethena Exposures is specified in the documents herein.</td>
         </tr>
         <tr>
           <td>
@@ -17578,6 +17578,102 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.3.3 - Pendle Ethena Exposures</dfn>
+          </td>
+          <td>Pendle Ethena Exposures</td>
+          <td>Core</td>
+          <td>Pendle Ethena Exposures are exposures from directly holding PT-USDe or PT-sUSDe. The Instance Financial RRC for Pendle Ethena Exposures is specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Maturity Greater Than Six Months</dfn>
+          </td>
+          <td>Maturity Greater Than Six Months</td>
+          <td>Core</td>
+          <td>Pendle Ethena Exposures with more than six (6) months to maturity require 100% Instance Total RRC.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Maturity Less Than Or Equal To Six Months</dfn>
+          </td>
+          <td>Maturity Less Than Or Equal To Six Months</td>
+          <td>Core</td>
+          <td><p>Pendle Ethena Exposures with less than or equal to six (6) months to maturity have Instance Financial RRC calculated as follows:</p><p><code>Instance Financial RRC = initialValue - ((currentTime - startTime) * decayRatePerSecond)</code></p><p>The parameters of this formula are defined in the documents herein.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Initial Value</dfn>
+          </td>
+          <td>Initial Value</td>
+          <td>Core</td>
+          <td>The Initial Value <code>initialValue</code> is the Instance Financial RRC when the PT has exactly six (6) months to maturity. The <code>initialValue</code> is 15%.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Current Time</dfn>
+          </td>
+          <td>Current Time</td>
+          <td>Core</td>
+          <td>The Current Time <code>currentTime</code> is the timestamp of the current Ethereum block.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Start Time</dfn>
+          </td>
+          <td>Start Time</td>
+          <td>Core</td>
+          <td>The Start Time <code>startTime</code> is the timestamp of the block exactly six (6) months before the expiration timestamp of the PT.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Decay Rate Per Second</dfn>
+          </td>
+          <td>Decay Rate Per Second</td>
+          <td>Core</td>
+          <td><p>The Decay Rate Per Second <code>decayRatePerSecond</code> is calculated as follows:</p><p><code>decayRatePerSecond = totalDecay / totalDuration</code></p><p>The parameters of this formula are defined in the documents herein.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Total Decay</dfn>
+          </td>
+          <td>Total Decay</td>
+          <td>Core</td>
+          <td>The Total Decay <code>totalDecay</code> is equal to the Initial Value minus the Final Value.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Final Value</dfn>
+          </td>
+          <td>Final Value</td>
+          <td>Core</td>
+          <td>The Final Value is the Instance Financial RRC when the PT is at maturity. Since the PT is convertible into the underlying asset at this point it is equal to the Instance Financial RRC for Direct Ethena Exposures specified in <dfn>A.3.3 - Direct Ethena Exposures</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Total Duration</dfn>
+          </td>
+          <td>Total Duration</td>
+          <td>Core</td>
+          <td>The Total Duration <code>totalDuration</code> is equal to the Expiration Time minus the Start Time.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Expiration Time</dfn>
+          </td>
+          <td>Expiration Time</td>
+          <td>Core</td>
+          <td>The Expiration Time is the expiration timestamp of the PT.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Concentration Limit</dfn>
+          </td>
+          <td>Concentration Limit</td>
+          <td>Core</td>
+          <td>Any investments made by Prime Agents in Pendle Ethena Exposures in excess of 20% of their total Allocation System Investments require 100% Instance Total RRC.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.3.3 - Ethena Aggregate Exposure Limits</dfn>
           </td>
           <td>Ethena Aggregate Exposure Limits</td>
@@ -17598,7 +17694,21 @@
           </td>
           <td>Ethena Aggregate Exposure Limit</td>
           <td>Core</td>
-          <td>The Ethena Aggregate Exposure Limit is 1,500,000,000 USDS.</td>
+          <td>The Ethena Aggregate Exposure Limit is 1,300,000,000 USDS.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Ethena Exposure Limit</dfn>
+          </td>
+          <td>Ethena Exposure Limit</td>
+          <td>Core</td>
+          <td>The Ethena Exposure Limit for each Agent is:
+            <ul>
+              <li>Spark - One half of the Ethena Aggregate Exposure Limit</li>
+              <li>Grove - One half of the Ethena Aggregate Exposure Limit</li>
+              <li>All other Prime Agents - Zero</li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>
@@ -17606,7 +17716,7 @@
           </td>
           <td>Prohibition On Investments That Would Cause Ethena Aggregate Exposure Limit To Be Exceeded</td>
           <td>Core</td>
-          <td>No Prime Agent may make an investment in Ethena Exposures that would cause the Ethena Aggregate Exposure to exceed the Ethena Aggregate Exposure Limit.</td>
+          <td>No Prime Agent may make an investment in Ethena Exposures that would cause its Ethena Exposures to exceed its Ethena Exposure Limit.</td>
         </tr>
         <tr>
           <td>
@@ -17614,7 +17724,7 @@
           </td>
           <td>Sale Of Investments When Ethena Aggregate Exposure Limit Is Exceeded</td>
           <td>Core</td>
-          <td>If the Ethena Aggregate Exposure exceeds the Ethena Aggregate Exposure Limit, then the Core Council may direct Prime Agents to sell Ethena Exposures to reduce the Ethena Aggregate Exposure below the Ethena Aggregate Exposure Limit.</td>
+          <td>If a Prime Agent's Ethena Exposures exceed its Ethena Exposure Limit, then the Core Council may direct the Agent to sell Ethena Exposures to reduce its Ethena Exposures below its Ethena Exposure Limit.</td>
         </tr>
         <tr>
           <td>
