@@ -23048,6 +23048,55 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY-Backed Borrowing Capped OSM Wrapper</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY-Backed Borrowing Capped OSM Wrapper</td>
+          <td>Core</td>
+          <td><p>In order to prevent excessive price spikes if there is high demand for leverage against SKY tokens, which could potentially lead to excessive USDS borrowing against SKY, a wrapper for the SKY OSM contract has been developed.</p><p>The wrapper enforces an upper limit on the price of SKY for the purposes of SKY-Backed Borrowing, which is set to be the minimum value of:</p>
+            <ol>
+              <li>The current price reported by PIP_SKY.</li>
+              <li>The cap that has been set on the OSM wrapper contract.</li>
+            </ol>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY-Backed Borrowing Capped OSM Wrapper - Cap Parameter</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY-Backed Borrowing Capped OSM Wrapper - Cap Parameter</td>
+          <td>Core</td>
+          <td>The subdocuments herein further describe the <code>cap</code> parameter and the process for its modification.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY-Backed Borrowing Capped OSM Wrapper - Cap Parameter - Definition</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY-Backed Borrowing Capped OSM Wrapper - Cap Parameter - Definition</td>
+          <td>Core</td>
+          <td>The <code>cap</code> parameter represents one of the potential inputs for the SKY-Backed Borrowing Capped OSM Wrapper. The OSM wrapper uses the minimum value of the <code>cap</code> or the PIP_SKY oracle price to determine the price utilized for SKY-backed borrowing.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY-Backed Borrowing Capped OSM Wrapper - Cap Parameter - Modification</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY-Backed Borrowing Capped OSM Wrapper - Cap Parameter - Modification</td>
+          <td>Core</td>
+          <td>The Core Facilitator, in consultation with BA Labs, has the ability to modify the <code>cap</code> parameter. The modification of said parameter is pursuant to the Operational Weekly Cycle and can be effected directly via an Executive Vote, without requiring a prior Governance Poll.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY-Backed Borrowing Capped OSM Wrapper - Cap Parameter - Current Value</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY-Backed Borrowing Capped OSM Wrapper - Cap Parameter - Current Value</td>
+          <td>Core</td>
+          <td>The current value of the cap parameter is:
+            <ul>
+              <li>0.04 USDS.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures</dfn>
           </td>
           <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures</td>
