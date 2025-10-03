@@ -19144,35 +19144,83 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.3.3 - Real World Assets</dfn>
+            <dfn>A.3.3 - BUIDL, JTRSY, USTB, And JAAA</dfn>
           </td>
-          <td>Real World Assets</td>
+          <td>BUIDL, JTRSY, USTB, And JAAA</td>
           <td>Core</td>
-          <td>Investments in Real World Assets, as defined in <dfn>A.3.3 - Real World Assets</dfn>, have Instance Smart Contract RRC and Instance Administrative RRC as specified in the documents herein. An additional type of Legal RRC, reflecting the unique risks of these assets, will be incorporated in future iterations of the Risk Framework.</td>
+          <td>In the short term, investments in BUIDL, JTRSY, USTB, and JAAA have Instance Smart Contract RRC and Instance Administrative RRC of zero.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.3.3 - Short Term Application To Real World Assets</dfn>
+            <dfn>A.3.3 - Legal Recourse Assets</dfn>
           </td>
-          <td>Short Term Application To Real World Assets</td>
+          <td>Legal Recourse Assets</td>
           <td>Core</td>
-          <td>In the short term, investments in the following Real World Assets automatically have Instance Smart Contract RRC and Instance Administrative RRC of zero:
-            <ul>
-              <li>BUIDL</li>
-              <li>JTRSY through Centrifuge v2</li>
-              <li>USTB</li>
-              <li>JAAA through Centrifuge v2</li>
-              <li>JTRSY and JAAA through Centrifuge v3 once audits have been approved by the Protocol Security Workstream Lead</li>
-            </ul>
-            All other investments in RWAs have Instance Total RRC of 100%.</td>
+          <td>The exposure for investments in Legal Recourse Assets is calculated as specified in the documents herein.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.3.3 - Long Term Application To Real World Assets</dfn>
+            <dfn>A.3.3 - Definition</dfn>
           </td>
-          <td>Long Term Application To Real World Assets</td>
+          <td>Definition</td>
           <td>Core</td>
-          <td>In the long term, adapted frameworks for Smart Contract Risk and Administrative Risk for Real World Assets must be developed. These frameworks should take into account (1) the reduced risk in an expected worst case scenario due to the legal backstop on these assets and (2) the factors normally considered in assessing Smart Contract Risk and Administrative Risk.</td>
+          <td>Legal Recourse Assets (”LRAs”) are Real World Assets where legal recourse can be used to recover the assets even if the smart contract is technically hacked or exploited.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Equivalent Loss</dfn>
+          </td>
+          <td>Exposure Calculation</td>
+          <td>Core</td>
+          <td><p>The exposure for investments in Legal Recourse Assets is calculated according to the following formula:</p><p><code>Exposure = Equivalent Loss * Effective Age + Raw Exposure * (1 - Effective Age)</code></p><p>The parameters of this formula are defined in the documents herein.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Equivalent Loss</dfn>
+          </td>
+          <td>Equivalent Loss</td>
+          <td>Core</td>
+          <td><p>Equivalent Loss is an estimate of the loss that the holder of a Legal Recourse Asset would experience if they had to use legal recourse to recover the assets, based on a combination of expected time to recovery and litigation financing costs. It is calculated according to the following formula:</p><p><code>Equivalent Loss = Raw Exposure * Expected Frozen Duration * Litigation Financing Costs</code></p><p>The parameters of this formula are defined in the documents herein.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Raw Exposure</dfn>
+          </td>
+          <td>Raw Exposure</td>
+          <td>Core</td>
+          <td>Raw Exposure is specified in <code>A.3.3 - Raw Exposure</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Expected Frozen Duration</dfn>
+          </td>
+          <td>Expected Frozen Duration</td>
+          <td>Core</td>
+          <td>Expected Frozen Duration is the estimated time, in years or fractions thereof, that the Legal Recourse Asset would remain frozen after a hack or technical exploit before the holder would be able to recover the underlying assets through legal recourse. The value of the Expected Frozen Duration is 0.5.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Litigation Financing Costs</dfn>
+          </td>
+          <td>Litigation Financing Costs</td>
+          <td>Core</td>
+          <td>Litigation Financing Costs are the annual costs of borrowing against the right to receive the future recovery of the assets underlying the Legal Recourse Asset through legal recourse. The value of the Litigation Financing Costs is 20%.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Effective Age</dfn>
+          </td>
+          <td>Effective Age</td>
+          <td>Core</td>
+          <td>The Effective Age is calculated as specified in <dfn>A.3.3 - Effective Age</dfn> except that the Effective Age cannot exceed one (1) year.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Raw Exposure</dfn>
+          </td>
+          <td>Raw Exposure</td>
+          <td>Core</td>
+          <td>The Raw Exposure is the total exposure to the particular Allocation System opportunity.</td>
         </tr>
         <tr>
           <td>
@@ -19288,11 +19336,19 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.3.3 - Real World Assets</dfn>
+            <dfn>A.3.3 - BUIDL, JTRSY, USTB, and JAAA</dfn>
           </td>
-          <td>Real World Assets</td>
+          <td>BUIDL, JTRSY, USTB, and JAAA</td>
           <td>Core</td>
-          <td>The Administrative RRC for Real World Assets is calculated as specified in <dfn>A.3.3 - Real World Assets</dfn>.</td>
+          <td>The Administrative RRC for BUIDL, JTRSY, USTB, and JAAA is calculated as specified in <dfn>A.3.3 - BUIDL, JTRSY, USTB, And JAAA</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.3 - Legal Recourse Assets</dfn>
+          </td>
+          <td>Legal Recourse Assets</td>
+          <td>Core</td>
+          <td>The exposure for investments in Legal Recourse Assets is calculated as specified in <dfn>A.3.3 - Legal Recourse Assets</dfn>.</td>
         </tr>
         <tr>
           <td>
