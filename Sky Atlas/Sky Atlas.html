@@ -4443,7 +4443,7 @@
           </td>
           <td>Sky Core Governance Security - Executive Process Definition - Spell Validators Must Check Deployed Spell Code</td>
           <td>Core</td>
-          <td><p>The Spell validator must ensure that the deployed Spell code matches the Spell code present in the GitHub Repository.</p><p>In order to pass validation, the deployed Spell must not contain any potentially malicious code or any notable functional changes within the <code>DssSpellAction</code>.</p><p>The validation for the Spell code can be done by using the <code>diff-deployed-Spellscript</code> present in the Spell repository on GitHub to ensure that the deployed Spell's code matches locally compiled code. Alternatively, an online tool like diff checker (<a href="https://www.diffchecker.com/">https://www.diffchecker.com/</a>) can be used. The Spell code on Etherscan should be compared with the <code>DssSpell.sol</code> in the GitHub repository for the relevant Spell. If the Spell goes live before the code is merged to the main branch, it's possible to find the branch by the Target Date name of the Spell (e.g., YYYY-MM-DD).</p><p>When comparing, note that the following differences are acceptable and should not be flagged (based on validation guides):</p>
+          <td><p>The Spell validator must ensure that the deployed Spell code matches the Spell code present in the GitHub Repository.</p><p>In order to pass validation, the deployed Spell must not contain any potentially malicious code or any notable functional changes within the <code>DssSpellAction</code>.</p><p>The validation for the Spell code can be done by using the <code>diff-deployed-Spell</code> script present in the Spell repository on GitHub to ensure that the deployed Spell's code matches locally compiled code. Alternatively, an online tool like diff checker (<a href="https://www.diffchecker.com/">https://www.diffchecker.com/</a>) can be used. The Spell code on Etherscan should be compared with the <code>DssSpell.sol</code> in the GitHub repository for the relevant Spell. If the Spell goes live before the code is merged to the main branch, it's possible to find the branch by the Target Date name of the Spell (e.g., YYYY-MM-DD).</p><p>When comparing, note that the following differences are acceptable and should not be flagged (based on validation guides):</p>
             <ul>
               <li>Comments: Lines starting with <code>//</code> or inside <code>/* */</code>.</li>
               <li>Imports and Solidity versions: Multiple declarations in the GitHub code.</li>
@@ -4582,7 +4582,7 @@
                     <ul>
                       <li>Generate the hash directly from the raw GitHub URL at the specific commit:
                         <ul>
-                          <li>Run the following command to generate the hash: <code>cast keccak -- "$(curl -Ls '<EXEC_DOC_RAW_URL>' -o -)"</code></li>
+                          <li>Run the following command to generate the hash: <code>cast keccak -- "$(wget $RAW_EXEC_URL -O -)"</code></li>
                           <li>Use the raw file URL at the specific commit.</li>
                         </ul>
                       </li>
