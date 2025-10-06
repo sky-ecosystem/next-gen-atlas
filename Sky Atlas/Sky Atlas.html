@@ -2552,9 +2552,9 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.1.9 - Sky Core Governance Security - Executive Process Definition - Office Hours</dfn>
+            <dfn>A.1.9 - Sky Core Governance Security - Executive Process Definition - Global Line Modifier</dfn>
           </td>
-          <td>Sky Core Governance Security - Executive Process Definition - Office Hours</td>
+          <td>Sky Core Governance Security - Executive Process Definition - Global Line Modifier</td>
           <td>Core</td>
           <td>The Global Line Modifier, also referred to as the Global Debt Ceiling, defines the system-wide debt ceiling for Sky. It is set to "Yes" if there is a modification to any collateral type's line that necessitates that the global Line is also modified.</td>
         </tr>
@@ -3251,14 +3251,6 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.1.9 - Sky Core Governance Security - Executive Process Definition - Spell Crafting Rules</dfn>
-          </td>
-          <td>Sky Core Governance Security - Executive Process Definition - Spell Crafting Rules</td>
-          <td>Core</td>
-          <td>The Crafter must comply with a number of rules when carrying out their role and responsibilities in spell development. These rules are generally aimed at maximizing the safety and security of the spell and are set out in the subdocuments herein.</td>
-        </tr>
-        <tr>
-          <td>
             <dfn>A.1.9 - Sky Core Governance Security - Executive Process Definition - Previous Spell Code Cleanup</dfn>
           </td>
           <td>Sky Core Governance Security - Executive Process Definition - Previous Spell Code Cleanup</td>
@@ -3904,7 +3896,7 @@
           </td>
           <td>Sky Core Governance Security - Executive Process Definition - Spell Reviewers Must Review All Spell Content</td>
           <td>Core</td>
-          <td>For the Reviewers' checks and review of the Spell before deployment, the Executive Document is the primary source of truth for the Spell.</td>
+          <td>Spell Reviewers must review all relevant content in the Spell; it is prohibited for a Reviewer to selectively omit their review of specific content within a Spell. While unlikely, an actor may attempt to convince the Spell Reviewers that they should skip a section of checklist items within their review checklist and allow for a section of content to be reviewed by a party external to the current Spell Team. Any party encouraging selective review of content must be considered negligent or malicious, especially where the offending party is the Spell Crafter or another entity involved in Spell development.</td>
         </tr>
         <tr>
           <td>
@@ -3912,7 +3904,7 @@
           </td>
           <td>Sky Core Governance Security - Executive Process Definition - Executive Document as Key Reference</td>
           <td>Core</td>
-          <td>Spell Reviewers must review all relevant content in the Spell; it is prohibited for a Reviewer to selectively omit their review of specific content within a Spell. While unlikely, an actor may attempt to convince the Spell Reviewers that they should skip a section of checklist items within their review checklist and allow for a section of content to be reviewed by a party external to the current Spell Team. Any party encouraging selective review of content must be considered negligent or malicious, especially where the offending party is the Spell Crafter or another entity involved in Spell development.</td>
+          <td>For the Reviewers' checks and review of the Spell before deployment, the Executive Document is the primary source of truth for the Spell.</td>
         </tr>
         <tr>
           <td>
@@ -4111,14 +4103,6 @@
             <dfn>A.1.9 - Sky Core Governance Security - Executive Process Definition - Governance Point Reviews Spell Content</dfn>
           </td>
           <td>Sky Core Governance Security - Executive Process Definition - Governance Point Reviews Spell Content</td>
-          <td>Core</td>
-          <td>After the Spell Team has handed over the Spell, the Governance Point is responsible for performing a high-level review of the Spell and completing the final preparation steps required to integrate the Spell into the governance process. These steps include reviewing the Spell, handling the Spell address, and ensuring all necessary checks are completed. Detailed instructions for each step are provided in the subdocuments.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.1.9 - Sky Core Governance Security - Executive Process Definition - Governance Point Reviews Spell And Final Preparation</dfn>
-          </td>
-          <td>Sky Core Governance Security - Executive Process Definition - Governance Point Reviews Spell And Final Preparation</td>
           <td>Core</td>
           <td><p>After the Spell is deployed, the Governance Point must review the Spell to ensure that the Spell is accurate and complete.</p><p>The Governance Point must perform the following checks:</p>
             <ul>
@@ -4423,7 +4407,7 @@
           <td>Core</td>
           <td><p>Ecosystem Spell validators must execute the predefined tests associated with a Spell. These tests are provided as scripts in the Spell repository on GitHub. Validators must run these scripts to verify the correctness, security, and compatibility of the Spell. All tests must pass successfully—without errors or failures—for the Spell to pass validation.</p><p>The best practice for running the tests are specified herein:</p>
             <ul>
-              <li>If you haven't cloned the repository before, run: <code>git clone <https://github.com/sky-ecosystem/Spells-mainnet></code>.</li>
+              <li>If you haven't cloned the repository before, run: <code>git clone https://github.com/sky-ecosystem/Spells-mainnet</code>.</li>
               <li>Navigate to the Spell repository directory by running: <code>cd Spells-mainnet</code>.</li>
               <li>Update the repository for the latest changes by running: <code>git pull</code>.</li>
               <li>Switch to the correct branch by finding the name from the Spell's pull request on GitHub, run the command: <code>git checkout NAME</code>.</li>
