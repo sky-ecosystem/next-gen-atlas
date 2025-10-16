@@ -29301,6 +29301,54 @@
         </tr>
         <tr>
           <td>
+            <dfn>Avalanche/dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>This document contains the ALM Contract Addresses for the SLL on Avalanche.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Controller (ForeignController Avalanche) Contract</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The address of the ALM_CONTROLLER (ForeignController) contract is: <code>TBD</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Freezer Multisig (Avalanche) Address</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The address of the Multisig that has the Freezer Role is specified in <dfn>TBD</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Relayer Multisig (Avalanche) Address</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The address of the Multisigs that has the Relayer Role will be specified in a future iteration of the artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Proxy (Avalanche) Contract</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The address of the ALM_PROXY contract is: <code>TBD</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Rate Limits (Avalanche) Contract</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The address of the ALM_RATE_LIMITS contract is: <code>TBD</code></td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Off-Chain Operational Parameters</dfn>
           </td>
           <td>Spark</td>
@@ -29896,6 +29944,66 @@
           <td>The maximum amount of sUSDS that can be withdrawn from the PSM (<code>LIMIT_PSM_WITHDRAW_SUSDS</code>) is specified in the document herein.
             <ul>
               <li><code>maxAmount</code> (sUSDS): Unlimited</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Avalanche</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein list the current RateLimits for the Spark Liquidity Layer on Avalanche.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Avalanche USDC Deposit Maximum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The maximum amount of USDC that can be deposited into the PSM (<code>LIMIT_PSM_DEPOSIT_USDC</code>) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code> (USDC): Unlimited</li>
+              <li><code>slope</code> (USDC/ day): Unlimited</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Avalanche USDC Withdrawal Maximum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The maximum amount of USDC that can be withdrawn from the PSM (<code>LIMIT_PSM_WITHDRAW_USDC</code>) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code> (USDC): Unlimited</li>
+              <li><code>slope</code> (USDC/ day): Unlimited</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>USDC Avalanche ALM Proxy Maximum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The maximum amount of USDC that can be sent to the Avalanche ALM Proxy (<code>LIMIT_USDC_TO_DOMAIN</code>, hashed with Avalanche domain) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code> (USDC): 100,000,000</li>
+              <li><code>slope</code> (USDC/ day): 50,000,000</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>USDC Avalanche ALM Proxy Circle Cross-Chain Transfer Protocol Maximum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The maximum amount of USDC that can be bridged to Avalanche ALM Proxy using the Circle Cross-Chain Transfer Protocol (<code>LIMIT_USDC_TO_CCTP_AVALANCHE</code>) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code> (USDC): 100,000,000</li>
+              <li><code>slope</code> (USDC/ day): 50,000,000</li>
             </ul>
           </td>
         </tr>
@@ -34897,320 +35005,6 @@
         </tr>
         <tr>
           <td>
-            <dfn>Blackrock</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The Ethereum Mainnet Instances of the Blackrock Protocol with <code>Active</code> Status are stored herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Ethereum Mainnet - Blackrock USDC Instance Configuration Document</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the Blackrock USDC Instance.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>RRC Framework Full Implementation</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td><strong><code>Pending</code></strong></td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Parameters</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein define the parameters of the Blackrock USDC Instance of the Allocation System Primitive</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Instance Identifiers</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein define the Instance identifiers</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Network</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>Ethereum Mainnet</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Target Protocol</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>Blackrock</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Asset Supplied By SLL</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>USDC</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Token</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>BUIDL-I</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Contract Addresses</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein define the Instance contract addresses.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Token Address</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td><code>0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041</code></td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Underlying Asset Address</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td><code>0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48</code></td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Rate Limit IDs</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow is:
-            <ul>
-              <li><code>BUIDLI_DEPOSIT</code>: <code>0xD1917664bE3FdAea377f6E8D5BF043ab5C3b1312</code></li>
-              <li><code>BUIDL_REDEEM</code> (Circle redeem): <code>0x31D3F59Ad4aAC0eeE2247c65EBE8Bf6E9E470a53</code></li>
-              <li><code>BUIDLI_REDEEM</code> (Offchain redeem): <code>0x8780Dd016171B91E4Df47075dA0a947959C34200</code></li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The current <code>maxAmount</code> and <code>slope</code> for this conduit's inflow/outflow are defined in the subdocuments herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Inflow Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The inflow rate limits are:
-            <ul>
-              <li><code>maxAmount</code>: This parameter will be specified in a future iteration of the Spark Artifact.</li>
-              <li><code>slope</code>: This parameter will be specified in a future iteration of the Spark Artifact.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Outflow Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The outflow rate limits are:
-            <ul>
-              <li><code>maxAmount</code>: This parameter will be specified in a future iteration of the Spark Artifact.</li>
-              <li><code>slope</code>: This parameter will be specified in a future iteration of the Spark Artifact.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Off-chain Operational Parameters</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Instance-specific Operational Processes</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Centrifuge</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The Ethereum Mainnet Instances of the Centrifuge Protocol with <code>Active</code> Status are stored herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Ethereum Mainnet - Centrifuge USDC Instance Configuration Document</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the Centrifuge USDC Instance.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>RRC Framework Full Implementation</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td><strong><code>Pending</code></strong></td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Parameters</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein define the parameters of the Centrifuge USDC Instance of the Allocation System Primitive.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Instance Identifiers</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein define the Instance identifiers</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Network</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>Ethereum Mainnet</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Target Protocol</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>Centrifuge</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Asset Supplied By SLL</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>USDC</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Token</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>JTRSY</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Contract Addresses</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein define the Instance contract addresses.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Token Address</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td><code>0x8c213ee79581Ff4984583C6a801e5263418C4b86</code></td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Underlying Asset Address</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td><code>0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48</code></td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Rate Limit IDs</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The current <code>maxAmount</code> and <code>slope</code> for this conduit's inflow/outflow are defined in the subdocuments herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Inflow Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The inflow rate limits are:
-            <ul>
-              <li><code>maxAmount</code>: This parameter will be specified in a future iteration of the Spark Artifact.</li>
-              <li><code>slope</code>: This parameter will be specified in a future iteration of the Spark Artifact.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Outflow Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The outflow rate limits are:
-            <ul>
-              <li><code>maxAmount</code>: This parameter will be specified in a future iteration of the Spark Artifact.</li>
-              <li><code>slope</code>: This parameter will be specified in a future iteration of the Spark Artifact.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Off-chain Operational Parameters</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Instance-specific Operational Processes</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.</td>
-        </tr>
-        <tr>
-          <td>
             <dfn>Superstate</dfn>
           </td>
           <td>Spark</td>
@@ -37268,11 +37062,487 @@
         </tr>
         <tr>
           <td>
+            <dfn>Avalanche</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Avalanche Instances of the Spark Liquidity Layer with <code>Active</code> Status are stored herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Aave</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Avalanche Instances of the Aave Protocol with <code>Active</code> Status are stored herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Avalanche -  Aave v3 USDC Vault Instance Configuration Document</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain the Instance Configuration Document for the Avalanche Aave v3 USDC Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>RRC Framework Full Implementation</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td><strong><code>Covered</code></strong></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the parameters of the Avalanche Aave v3 USDC Vault Instance of the Allocation System Primitive.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance Identifiers</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the Instance identifiers</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Network</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Avalanche</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Target Protocol</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Aave</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Asset Supplied By SLL</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>USDC</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Token</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>aAvaxUSDC</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Contract Addresses</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the Instance contract addresses.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Token Address</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td><code>0x625E7708f30cA75bfd92586e17077590C60eb4cD</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Underlying Asset Address</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td><code>0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limit IDs</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The current <code>maxAmount</code> and <code>slope</code> for this conduit's inflow/outflow are defined in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Inflow Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The inflow rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: 20,000,000 USDC</li>
+              <li><code>slope</code>: 10,000,000 USDC per day</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Outflow Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The outflow rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: Unlimited</li>
+              <li><code>slope</code>: Unlimited</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Off-chain Operational Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance-specific Operational Processes</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes. For the general operational procedures applicable to all Aave-type instances. See <dfn>Aave Functions</dfn> and <dfn>Aave AToken Withdrawal Action</dfn>. For detailed example of the SLL interaction logic for depositing to and withdrawing from Aave see <dfn>Process Definition For Depositing</dfn> and <dfn>Process Definition For Withdrawing</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Completed Instances</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
           <td>The Instances of the SLL with <code>Completed</code> Status are stored herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Blackrock</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Ethereum Mainnet Instances of the Blackrock Protocol with <code>Completed</code> Status are stored herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Ethereum Mainnet - Blackrock USDC Instance Configuration Document</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain the Instance Configuration Document for the Blackrock USDC Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>RRC Framework Full Implementation</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td><strong><code>Pending</code></strong></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the parameters of the Blackrock USDC Instance of the Allocation System Primitive</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance Identifiers</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the Instance identifiers</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Network</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Ethereum Mainnet</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Target Protocol</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Blackrock</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Asset Supplied By SLL</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>USDC</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Token</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>BUIDL-I</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Contract Addresses</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the Instance contract addresses.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Token Address</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td><code>0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Underlying Asset Address</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td><code>0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limit IDs</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow is:
+            <ul>
+              <li><code>BUIDLI_DEPOSIT</code>: <code>0xD1917664bE3FdAea377f6E8D5BF043ab5C3b1312</code></li>
+              <li><code>BUIDL_REDEEM</code> (Circle redeem): <code>0x31D3F59Ad4aAC0eeE2247c65EBE8Bf6E9E470a53</code></li>
+              <li><code>BUIDLI_REDEEM</code> (Offchain redeem): <code>0x8780Dd016171B91E4Df47075dA0a947959C34200</code></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The current <code>maxAmount</code> and <code>slope</code> for this conduit's inflow/outflow are defined in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Inflow Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The inflow rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: 0</li>
+              <li><code>slope</code>: This parameter will be specified in a future iteration of the Spark Artifact.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Outflow Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The outflow rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: This parameter will be specified in a future iteration of the Spark Artifact.</li>
+              <li><code>slope</code>: This parameter will be specified in a future iteration of the Spark Artifact.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Off-chain Operational Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance-specific Operational Processes</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Centrifuge</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Ethereum Mainnet Instances of the Centrifuge Protocol with <code>Completed</code> Status are stored herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Ethereum Mainnet - Centrifuge USDC Instance Configuration Document</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain the Instance Configuration Document for the Centrifuge USDC Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>RRC Framework Full Implementation</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td><strong><code>Pending</code></strong></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the parameters of the Centrifuge USDC Instance of the Allocation System Primitive.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance Identifiers</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the Instance identifiers</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Network</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Ethereum Mainnet</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Target Protocol</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Centrifuge</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Asset Supplied By SLL</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>USDC</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Token</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>JTRSY</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Contract Addresses</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the Instance contract addresses.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Token Address</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td><code>0x8c213ee79581Ff4984583C6a801e5263418C4b86</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Underlying Asset Address</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td><code>0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limit IDs</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The current <code>maxAmount</code> and <code>slope</code> for this conduit's inflow/outflow are defined in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Inflow Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The inflow rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: 0</li>
+              <li><code>slope</code>: This parameter will be specified in a future iteration of the Spark Artifact.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Outflow Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The outflow rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: This parameter will be specified in a future iteration of the Spark Artifact.</li>
+              <li><code>slope</code>: This parameter will be specified in a future iteration of the Spark Artifact.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Off-chain Operational Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance-specific Operational Processes</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.</td>
         </tr>
         <tr>
           <td>
