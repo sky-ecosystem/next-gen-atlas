@@ -1680,12 +1680,12 @@
           <td>Aligned Delegates - Budget And Participation Requirements - AD Monthly Compensation Cycle</td>
           <td>Core</td>
           <td><p>Aligned Delegates are eligible to receive payments from their AD Buffers in a monthly compensation cycle. The Core Facilitator is responsible for calculating the payout due to each Aligned Delegate.</p><p>This includes calculating:</p>
-            <oL>
+            <ol>
               <li>the Aligned Delegates ranked as Ranked Delegate on a daily basis;</li>
               <li>the budget to be deposited into each Aligned Delegate's AD Buffer, which is modified pursuant to voting and communication metrics;</li>
               <li>the balance of each Aligned Delegate’s AD Buffer; and</li>
               <li>the amount to be paid out to each Aligned Delegate.Once calculated by the Core Facilitator, AD payouts are bundled into the next Executive Vote.</li>
-            </oL>
+            </ol>
           </td>
         </tr>
         <tr>
@@ -1910,7 +1910,7 @@
           </td>
           <td>Emergency Response System - Emergency Response</td>
           <td>Section</td>
-          <td><p>The Sky Protocol has often required changes outside of the standard Weekly Governance Cycle and Monthly Governance Cycle to help maintain the peg or to quickly respond to changes in the Ecosystem. This Section defines a general protocol for handling emergency or urgent situations.</p><p><dfn>A.1.9 - A4 - Sky Core Governance Security - Emergency Spells</dfn> governs the resolution of emergency / urgent situations involving the Executive Process.</td>
+          <td><p>The Sky Protocol has often required changes outside of the standard Weekly Governance Cycle and Monthly Governance Cycle to help maintain the peg or to quickly respond to changes in the Ecosystem. This Section defines a general protocol for handling emergency or urgent situations.</p><p><dfn>A.1.9 - A4 - Sky Core Governance Security - Emergency Spells</dfn> governs the resolution of emergency / urgent situations involving the Executive Process.</p></td>
         </tr>
         <tr>
           <td>
@@ -5032,7 +5032,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - Smart Burn Engine Breaker Exception</td>
           <td>Core</td>
-          <td><p>The SPLITTER_MOM contract allows for the disabling of the Smart Burn Engine without the GSM Pause Delay.</p><p>This functionality is available so that Sky Governance can react to emergencies regarding the Smart Burn Engine.</p><p></p>Since the Splitter contract also allocates USDS from the Surplus Buffer to USDS Staking Rewards, the activation of SPLITTER_MOM also disables these rewards until the activation is reversed by Sky Governance.</p></td>
+          <td><p>The SPLITTER_MOM contract allows for the disabling of the Smart Burn Engine without the GSM Pause Delay.</p><p>This functionality is available so that Sky Governance can react to emergencies regarding the Smart Burn Engine.</p><p>Since the Splitter contract also allocates USDS from the Surplus Buffer to USDS Staking Rewards, the activation of SPLITTER_MOM also disables these rewards until the activation is reversed by Sky Governance.</p></td>
         </tr>
         <tr>
           <td>
@@ -5088,7 +5088,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - stUSDS Bounded External Access Module Breaker Exception</td>
           <td>Core</td>
-          <td><p>The STUSDS_MOM contract allows Sky Governance to bypass the GSM Pause Delay and disable the stUSDS Bounded External Access Module or set the <code>cap</code> or <code>line</code> stUSDS parameters to zero.</p><p>This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the stUSDS BEAM is hacked or is a malicious actor. Once the STUSDS_MOM is activated to disable the stUSDS BEAM, the stUSDS BEAM will not be able to change any stUSDS parameters in the system. If the STUSDS_MOM has been triggered, it will still be possible to modify stUSDS parameters through the usual Executive Vote process, subject to the GSM Pause Delay.</p>
+          <td><p>The STUSDS_MOM contract allows Sky Governance to bypass the GSM Pause Delay and disable the stUSDS Bounded External Access Module or set the <code>cap</code> or <code>line</code> stUSDS parameters to zero.</p><p>This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the stUSDS BEAM is hacked or is a malicious actor. Once the STUSDS_MOM is activated to disable the stUSDS BEAM, the stUSDS BEAM will not be able to change any stUSDS parameters in the system. If the STUSDS_MOM has been triggered, it will still be possible to modify stUSDS parameters through the usual Executive Vote process, subject to the GSM Pause Delay.</p></td>
         </tr>
         <tr>
           <td>
@@ -5096,7 +5096,7 @@
           </td>
           <td>Sky Core Governance Security - Governance Security Delay Requirements - Linear Interpolation Module</td>
           <td>Core</td>
-          <td>The Linear Interpolation Module (<code>lerp</code>) is a smart contract tool that allows a governance parameter to be adjusted on a straight-line basis over time, without requiring additional Executive Votes. The Linear Interpolation Module refers to the smart contract logic that enables time-based parameter changes. To deploy individual </code>lerp</code> instances, each of which manages the adjustment of a specific parameter over time, the Linear Interpolation Module Factory contract is used. Once authorized through an Executive Vote, the <code>lerp</code> may enact parameter changes without being subject to the GSM Pause Delay. The subdocuments herein specify the features of the <code>lerp</code> and its authorized use.</td>
+          <td>The Linear Interpolation Module (<code>lerp</code>) is a smart contract tool that allows a governance parameter to be adjusted on a straight-line basis over time, without requiring additional Executive Votes. The Linear Interpolation Module refers to the smart contract logic that enables time-based parameter changes. To deploy individual <code>lerp</code> instances, each of which manages the adjustment of a specific parameter over time, the Linear Interpolation Module Factory contract is used. Once authorized through an Executive Vote, the <code>lerp</code> may enact parameter changes without being subject to the GSM Pause Delay. The subdocuments herein specify the features of the <code>lerp</code> and its authorized use.</td>
         </tr>
         <tr>
           <td>
@@ -5215,7 +5215,7 @@
               <li>VoteWizard</li>
               <li>LDR</li>
               <li>Hexonaut</li>
-              <lI>MonetSupply</lI>
+              <li>MonetSupply</li>
               <li>LucasManuel</li>
             </ul>
           </td>
@@ -5433,7 +5433,7 @@
           </td>
           <td>Sky Core Governance Security - Emergency Spells - Requirement To Validate Authenticity Of Standby Spell</td>
           <td>Core</td>
-          <td><p>One Authorized Representative, as defined in the subdocument below, from each Governance Facilitator must validate the authenticity of the Standby Spell.<br>This validation must be in the form of a written communication in the secure channel specified in <dfn>A.1.8 - Emergency Response System - Emergency Response - Emergency Response Signal Group</dfn>. Only the entities specified in <dfn>A.1.9 - Sky Core Governance Security - Emergency Spells - Current Entities Authorized To Validate Authenticity of Standby Spell</dfn> are authorized to provide the validation of authenticity.</p><p>Pursuant to <dfn>A.1.9 - Sky Core Governance Security - Emergency Spells - ADs’ Role In Standby Spells</dfn>, ADs are prohibited from voting for a Standby Spell without this validation of authenticity.</p></td></td>
+          <td><p>One Authorized Representative, as defined in the subdocument below, from each Governance Facilitator must validate the authenticity of the Standby Spell.<br>This validation must be in the form of a written communication in the secure channel specified in <dfn>A.1.8 - Emergency Response System - Emergency Response - Emergency Response Signal Group</dfn>. Only the entities specified in <dfn>A.1.9 - Sky Core Governance Security - Emergency Spells - Current Entities Authorized To Validate Authenticity of Standby Spell</dfn> are authorized to provide the validation of authenticity.</p><p>Pursuant to <dfn>A.1.9 - Sky Core Governance Security - Emergency Spells - ADs’ Role In Standby Spells</dfn>, ADs are prohibited from voting for a Standby Spell without this validation of authenticity.</p></td>
         </tr>
         <tr>
           <td>
@@ -5732,7 +5732,7 @@
           <td>Sky Core Governance Security - Emergency Spells - Protego - Protego Usage Process Definition - ADs’ Role In Protego Usage</td>
           <td>Core</td>
           <td>ADs are strictly prohibited from voting to use an Emergency Drop Spell, or to give authority to the Protego contract, unless they have first confirmed all of the following requirements:
-            <ol start=1>
+            <ol>
               <li>Receipt of the Support Facilitator’s official notification of the emergency scenario in the Emergency Contact Mechanism specified in <dfn>A.1.8 - Emergency Response System - Emergency Response - Emergency-Contact Mechanism Trigger</dfn>;</li>
               <li>Receipt of the Support Facilitators’ announcement of the decision to use Protego or an Emergency Drop Spell in the communication channel specified in <dfn>A.1.8 - Emergency Response System - Emergency Response - Emergency Response Signal Group</dfn>; and</li>
               <li>All Governance Facilitators have validated the authenticity of the Emergency Drop Spell, if applicable. This validation must fulfill two requirements: (1) the validation must be in the form of a written communication in the secure channel specified in <dfn>A.1.8 - Emergency Response System - Emergency Response - Emergency Response Signal Group</dfn>; and (2) the validation must be provided by the authorized entities listed in <dfn>A.1.9 - Sky Core Governance Security - Emergency Spells - Current Entities Authorized To Validate Authenticity of Emergency Drop Spell</dfn>.</li>
@@ -6050,7 +6050,7 @@
           <td>Monthly Governance Cycle - Atlas Edit Monthly Cycle - Core Facilitators' Initial Verification
           </td>
           <td>Core</td>
-          <td><p>After the Atlas Edit Proposal is triggered, the Core Facilitator must verify that the Atlas Edit Proposal follows the template specified in <dfn>A.1.12 - Monthly Governance Cycle - Atlas Edit Monthly Cycle - Atlas Edit Proposal Template</dfn>.</p><p>The Core Facilitator must also verify that the AEP has been submitted to the Atlas Github repository with a Pull Request by the AEP Author. Alternatively, the AEP author can request the Core Facilitator to create the Pull Request for them.</p><p>If the AEP is successfully verified, the Core Facilitator must
+          <td><p>After the Atlas Edit Proposal is triggered, the Core Facilitator must verify that the Atlas Edit Proposal follows the template specified in <dfn>A.1.12 - Monthly Governance Cycle - Atlas Edit Monthly Cycle - Atlas Edit Proposal Template</dfn>.</p><p>The Core Facilitator must also verify that the AEP has been submitted to the Atlas Github repository with a Pull Request by the AEP Author. Alternatively, the AEP author can request the Core Facilitator to create the Pull Request for them.</p><p>If the AEP is successfully verified, the Core Facilitator must</p>
             <ul>
               <li>Approve the AEP and assign it a formal #</li>
               <li>Update the Preamble to the AEP</li>
@@ -6199,7 +6199,7 @@
           </td>
           <td>Monthly Governance Cycle - Atlas Edit Monthly Cycle - Atlas Edit Proposal Statuses</td>
           <td>Core</td>
-          <td><p>An Atlas Edit Proposal can be assigned several different statuses: RFC, Formal Submission, Rejected-Misaligned, Accepted, Rejected, and Obsolete.</p><p>RFC (Request For Comments):<br>An AEP is in the Request For Comments Period.</p><p>Formal Submission:<br>An AEP has been moved into Formal Submission to the Monthly Governance Cycle.</p><p>Rejected - Misaligned:<br>An AEP has been blocked by the Core Facilitator from entering the Monthly Cycle due to misalignment.</p><p>Accepted:<br>An AEP has been voted on and is officially accepted.</p><p>Rejected:<br>An AEP has been voted on and is not officially accepted.</p><p>Obsolete:<br>An AEP is assigned the status Obsolete when:
+          <td><p>An Atlas Edit Proposal can be assigned several different statuses: RFC, Formal Submission, Rejected-Misaligned, Accepted, Rejected, and Obsolete.</p><p>RFC (Request For Comments):<br>An AEP is in the Request For Comments Period.</p><p>Formal Submission:<br>An AEP has been moved into Formal Submission to the Monthly Governance Cycle.</p><p>Rejected - Misaligned:<br>An AEP has been blocked by the Core Facilitator from entering the Monthly Cycle due to misalignment.</p><p>Accepted:<br>An AEP has been voted on and is officially accepted.</p><p>Rejected:<br>An AEP has been voted on and is not officially accepted.</p><p>Obsolete:<br>An AEP is assigned the status Obsolete when:</p>
             <ul>
               <li>an AEP has been superseded or deprecated</li>
               <li>an AEP has been deferred for over six (6) months</li>
@@ -6213,7 +6213,7 @@
           </td>
           <td>Monthly Governance Cycle - Atlas Edit Monthly Cycle - Process Definition</td>
           <td>Core</td>
-          <td><p>The first Monday of each calendar month marks the beginning of the Monthly Governance Cycle.</p><p>Time is inclusive and based on UTC (Coordinated Universal Time) and the Gregorian Calendar.</p><p><strong>First Wednesday after the first Monday of the month:</strong>
+          <td><p>The first Monday of each calendar month marks the beginning of the Monthly Governance Cycle.</p><p>Time is inclusive and based on UTC (Coordinated Universal Time) and the Gregorian Calendar.</p><p><strong>First Wednesday after the first Monday of the month:</strong></p>
             <ul>
               <li>The Authors of Atlas Edit Proposals must formally submit their AEP before this Day.</li>
               <li>The Formal Submission must be done through a message on the Author's Forum thread that contains the AEP.</li>
@@ -6235,7 +6235,7 @@
             </ul>
             Ratification Polls under the Atlas Edit Monthly Governance Cycle must contain:
             <ul>
-              <li>Links to a specific version of a single Atlas Edit Proposal within the official Atlas GitHub.</p>
+              <li>Links to a specific version of a single Atlas Edit Proposal within the official Atlas GitHub.</li>
             </ul>
             In order for a Ratification Poll to conclude successfully and the contained proposal(s) moved to Accepted status, triggering an edit of the Atlas, each of the following conditions must be true:
             <ul>
@@ -11931,7 +11931,7 @@
           </td>
           <td>Notional Total Risk Capital (TRC) Coverage Strategy</td>
           <td>Core</td>
-          <td><p>As a critical component of the Capital & Operational Plan, the Prime Agent must articulate its strategy for ensuring its Total Risk Capital (TRC) adequately covers the pro-forma Instance RRC of a new or modified Instance and the resulting impact on its Aggregate RRC.</p><p>The Prime's notional TRC coverage strategy must outline how this new Instance's RRC will be notionally accounted for or supported by the Prime's overall TRC pool. If the Prime's current TRC is not sufficient to cover its estimated increased Aggregate RRC, the strategy should outline the Prime Agent's intended steps for acquiring additional JRC/SRC.</p><p>For instance, this risk-capital acquisition strategy could involve:
+          <td><p>As a critical component of the Capital & Operational Plan, the Prime Agent must articulate its strategy for ensuring its Total Risk Capital (TRC) adequately covers the pro-forma Instance RRC of a new or modified Instance and the resulting impact on its Aggregate RRC.</p><p>The Prime's notional TRC coverage strategy must outline how this new Instance's RRC will be notionally accounted for or supported by the Prime's overall TRC pool. If the Prime's current TRC is not sufficient to cover its estimated increased Aggregate RRC, the strategy should outline the Prime Agent's intended steps for acquiring additional JRC/SRC.</p><p>For instance, this risk-capital acquisition strategy could involve:</p>
             <ol>
               <li>Renting Junior Risk Capital (JRC)
                 <ul>
@@ -13363,7 +13363,7 @@
           </td>
           <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Settlement</td>
           <td>Core</td>
-          <td><p>The amounts due from Sky to each Prime with respect to Demand Side Primitives and the Agent Rate (see <dfn>A.2.6 - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate</dfn>) and the amounts due from each Prime to Sky with respect to Supply Side Primitives (see <dfn>A.2.6 - Amount Due From Prime To Sky With Respect To Supply Side Primitives</dfn>) are settled as specified in <dfn>A.2.6 - Settlement Through Sky Core Executive Vote</dfn>.</td>
+          <td><p>The amounts due from Sky to each Prime with respect to Demand Side Primitives and the Agent Rate (see <dfn>A.2.6 - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate</dfn>) and the amounts due from each Prime to Sky with respect to Supply Side Primitives (see <dfn>A.2.6 - Amount Due From Prime To Sky With Respect To Supply Side Primitives</dfn>) are settled as specified in <dfn>A.2.6 - Settlement Through Sky Core Executive Vote</dfn>.</p></td>
         </tr>
         <tr>
           <td>
@@ -13612,7 +13612,6 @@
           <td>Ecosystem Communication Channels - Moderation - Public Communication Of Bans</td>
           <td>Core</td>
           <td>The documents herein define the requirements regarding public communication of bans. The Sky Forum is subject to special requirements that are defined in <dfn>A.2.7 - Ecosystem Communication Channels - Moderation - Sky Forum-Specific Requirements</dfn>. Requirements applicable to all other Ecosystem Communication Channels are defined in <dfn>A.2.7 - Ecosystem Communication Channels - Moderation - Requirements Applicable To All Other Channels</dfn>.</td>
-          </td>
         </tr>
         <tr>
           <td>
@@ -15751,7 +15750,7 @@
           <td>Resilience Research and Preparedness (also "Resilience Research") projects must fulfill at least one of the following objectives:
             <ul>
               <li>Bootstrap necessary infrastructure to develop one of the high-order legal resilience objectives as defined in this Article:
-                <uL>
+                <ul>
                   <li>Legal Defense</li>
                   <li>Legal Risk Management</li>
                   <li>Privacy and Operational Security</li>
@@ -15760,7 +15759,7 @@
                   <li>Public Procurement Framework</li>
                   <li>Atlas Amendment and Audit</li>
                   <li>Technical and Legal Standards</li>
-                </uL>
+                </ul>
               </li>
               <li>Design and implement processes that contribute directly to one of the high-order legal resilience objectives defined in this Article.</li>
               <li>Implement specific preventive or reactive legal risk mitigation tools.</li>
@@ -20002,7 +20001,6 @@
           <td>Resting Actively Stabilizing Collateral must provide buy support at a price of at least 0.999 USD per USDS (10bps downside spread). Resting Actively Stabilizing Collateral includes Cash Stablecoins in PSMs or decentralized exchanges (e.g., Curve), other stablecoins, crypto assets, or off-chain Real World Asset (RWA) loans to market makers, provided they meet the specified redemption price and transparency requirements.</td>
         </tr>
         <tr>
-        <tr>
           <td>
             <dfn>A.3.4 - Resting Actively Stabilizing Collateral Calculations</dfn>
           </td>
@@ -23142,7 +23140,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR Staking Rewards</td>
           <td>Core</td>
-          <td>As the legacy governance token of the Sky Protocol, MKR stakers are currently eligible for USDS rewards. This functionality will be phased out as specified in <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade</dfn>. The documents herein define the parameters for USDS rewards to MKR stakers during this interim period</dfn>.</td>
+          <td>As the legacy governance token of the Sky Protocol, MKR stakers are currently eligible for USDS rewards. This functionality will be phased out as specified in <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade</dfn>. The documents herein define the parameters for USDS rewards to MKR stakers during this interim period.</td>
         </tr>
         <tr>
           <td>
@@ -23653,7 +23651,7 @@
           <td>"Element": The Element Component should contain the unique word or phrase from the Target Document that is being annotated."Annotation": The Annotation Component should concisely disambiguate and bound the semantic meaning of problematic terms in the Target Document. Such terms can be vague, ambiguous or technical jargon specific to the Target Document.</td>
           <td>Supporting Document</td>
           <td>Element Annotation Documents must always be located as subdocuments to the Element Annotation Directory Document of their Target Document. Element Annotation documents are located at the .0.3.X position, with X being the incremented number.</td>
-          <td><p>Element Annotation Documents should be updated as necessary to reflect changes in the understanding or interpretation of the Element and/or any related Atlas document, while maintaining consistency with the Target Document. The Element Annotation should not contradict its Target Document or other context data of the Target Document.</p><p>The "Name" property of each Element Annotation Document instance must follow a standardized template: the annotated Element is listed first, followed by a hyphen, and the phrase "Element Annotation".</td>
+          <td><p>Element Annotation Documents should be updated as necessary to reflect changes in the understanding or interpretation of the Element and/or any related Atlas document, while maintaining consistency with the Target Document. The Element Annotation should not contradict its Target Document or other context data of the Target Document.</p><p>The "Name" property of each Element Annotation Document instance must follow a standardized template: the annotated Element is listed first, followed by a hyphen, and the phrase "Element Annotation".</p></td>
         </tr>
         <tr>
           <td>
@@ -25390,7 +25388,7 @@
           <td>Active Data</td>
           <td>The resolutions of disputes regarding Ecosystem Accords are:
             <ul>
-              <li><strong>Dispute Between Spark And Grove Regarding Effective Date Of Their Ecosystem Accord</strong> (September 2, 2025) - <a href=https://forum.sky.money/t/facilitator-decision-on-grove-spark-dispute/27141>Facilitator Decision on Grove/Spark Dispute</a></li>
+              <li><strong>Dispute Between Spark And Grove Regarding Effective Date Of Their Ecosystem Accord</strong> (September 2, 2025) - <a href="https://forum.sky.money/t/facilitator-decision-on-grove-spark-dispute/27141">Facilitator Decision on Grove/Spark Dispute</a></li>
             </ul>
           </td>
         </tr>
@@ -26027,7 +26025,6 @@
           <td>Spark</td>
           <td>Core</td>
           <td>Phoenix Labs is a development company that provides services to the Spark Foundation. Phoenix Labs is a “Nested Contributor”, i.e., a core contributor to both Spark and Sky.</td>
-        </tr>
         </tr>
         <tr>
           <td>
@@ -36497,6 +36494,7 @@
           <td>Spark</td>
           <td>Core</td>
           <td><strong><code>Covered</code></strong></td>
+        </tr>
         <tr>
           <td>
             <dfn>Parameters</dfn>
@@ -36650,6 +36648,7 @@
           <td>Spark</td>
           <td>Core</td>
           <td><strong><code>Covered</code></strong></td>
+        </tr>
         <tr>
           <td>
             <dfn>Parameters</dfn>
@@ -36803,6 +36802,7 @@
           <td>Spark</td>
           <td>Core</td>
           <td><strong><code>Pending</code></strong></td>
+        </tr>
         <tr>
           <td>
             <dfn>Parameters</dfn>
@@ -37886,7 +37886,8 @@
             <ul>
               <li>Fail to vote on ≥ 3 proposals in a row; or</li>
               <li>Maintain a voting percentage less than 85%.</li>
-            </td>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>
