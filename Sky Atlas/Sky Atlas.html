@@ -28837,7 +28837,7 @@
         </tr>
         <tr>
           <td>
-            <dfn>Ethereum Mainnet - Spark Savings v2 ETH Instance Configuration Document</dfn>
+            <dfn>Ethereum Mainnet - Spark Savings v2 ETH Instance Configuration Document Location</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
@@ -28845,7 +28845,7 @@
         </tr>
         <tr>
           <td>
-            <dfn>Ethereum Mainnet - Spark Savings v2 USDC Instance Configuration Document</dfn>
+            <dfn>Ethereum Mainnet - Spark Savings v2 USDC Instance Configuration Document Location</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
@@ -28853,7 +28853,7 @@
         </tr>
         <tr>
           <td>
-            <dfn>Ethereum Mainnet - Spark Savings v2 USDT Instance Configuration Document</dfn>
+            <dfn>Ethereum Mainnet - Spark Savings v2 USDT Instance Configuration Document Location</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
@@ -28973,7 +28973,7 @@
         </tr>
         <tr>
           <td>
-            <dfn>Avalanche - Aave v3 USDC Vault Instance Configuration Document</dfn>
+            <dfn>Avalanche - Aave v3 USDC Vault Instance Configuration Document Location</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
@@ -28989,7 +28989,7 @@
         </tr>
         <tr>
           <td>
-            <dfn>Avalanche - Spark Savings v2 USDC Instance Configuration Document</dfn>
+            <dfn>Avalanche - Spark Savings v2 USDC Instance Configuration Document Location</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
@@ -36387,11 +36387,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Asset Supplied By SLL</dfn>
+            <dfn>Asset Supplied By Users</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>ETH</td>
+          <td>wETH</td>
         </tr>
         <tr>
           <td>
@@ -36427,6 +36427,54 @@
         </tr>
         <tr>
           <td>
+            <dfn>Rate Limit IDs</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The specific <code>maxAmount</code> and <code>slope</code> for this conduit's inflow/outflow are not defined for this Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Off-chain Operational Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance-specific Operational Processes</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance-specific Operational Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Contract Addresses</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the Instance contract addresses.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Spark Vault v2 Implementation</dfn>
           </td>
           <td>Spark</td>
@@ -36459,46 +36507,6 @@
         </tr>
         <tr>
           <td>
-            <dfn>Rate Limit IDs</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The current <code>maxAmount</code> and <code>slope</code> for this conduit's inflow/outflow are defined in the subdocuments herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Inflow Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The inflow rate limits are:
-            <ul>
-              <li><code>maxAmount</code>: Unlimited</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Outflow Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The outflow rate limits are:
-            <ul>
-              <li><code>maxAmount</code>: Unlimited</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
             <dfn>Risk Parameters Current Configuration</dfn>
           </td>
           <td>Spark</td>
@@ -36518,22 +36526,38 @@
               <li>Current yield (at launch): 0%</li>
             </ul>
           </td>
-        </tr>        
-        <tr>
-          <td>
-            <dfn>Off-chain Operational Parameters</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
         </tr>
         <tr>
           <td>
-            <dfn>Instance-specific Operational Processes</dfn>
+            <dfn>Rate Limits</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.</td>
+          <td>The current <code>maxAmount</code> for this conduit's take and transferAssets operations are defined in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Take Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The take rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: Unlimited</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>TransferAssets Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The transferAssets rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: Unlimited</li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>
@@ -36585,7 +36609,7 @@
         </tr>
         <tr>
           <td>
-            <dfn>Asset Supplied By SLL</dfn>
+            <dfn>Asset Supplied By Users</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
@@ -36625,6 +36649,54 @@
         </tr>
         <tr>
           <td>
+            <dfn>Rate Limit IDs</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The specific <code>maxAmount</code> and <code>slope</code> for this conduit's inflow/outflow are not defined for this Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Off-chain Operational Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance-specific Operational Processes</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance-specific Operational Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Contract Addresses</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the Instance contract addresses.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Spark Vault v2 Implementation</dfn>
           </td>
           <td>Spark</td>
@@ -36654,46 +36726,6 @@
           <td>Spark</td>
           <td>Core</td>
           <td><code>0x1601843c5E9bC251A3272907010AFa41Fa18347E</code></td>
-        </tr>        
-        <tr>
-          <td>
-            <dfn>Rate Limit IDs</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The current <code>maxAmount</code> and <code>slope</code> for this conduit's inflow/outflow are defined in the subdocuments herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Inflow Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The inflow rate limits are:
-            <ul>
-              <li><code>maxAmount</code>: Unlimited</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Outflow Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The outflow rate limits are:
-            <ul>
-              <li><code>maxAmount</code>: Unlimited</li>
-            </ul>
-          </td>
         </tr>
         <tr>
           <td>
@@ -36719,19 +36751,35 @@
         </tr>
         <tr>
           <td>
-            <dfn>Off-chain Operational Parameters</dfn>
+            <dfn>Rate Limits</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
+          <td>The current <code>maxAmount</code> for this conduit's take and transferAssets operations are defined in the subdocuments herein.</td>
         </tr>
         <tr>
           <td>
-            <dfn>Instance-specific Operational Processes</dfn>
+            <dfn>Take Rate Limits</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.</td>
+          <td>The take rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: Unlimited</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>TransferAssets Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The transferAssets rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: Unlimited</li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>
@@ -36783,7 +36831,7 @@
         </tr>
         <tr>
           <td>
-            <dfn>Asset Supplied By SLL</dfn>
+            <dfn>Asset Supplied By Users</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
@@ -36823,6 +36871,54 @@
         </tr>
         <tr>
           <td>
+            <dfn>Rate Limit IDs</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The specific <code>maxAmount</code> and <code>slope</code> for this conduit's inflow/outflow are not defined for this Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Off-chain Operational Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance-specific Operational Processes</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance-specific Operational Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Contract Addresses</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the Instance contract addresses.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Spark Vault v2 Implementation</dfn>
           </td>
           <td>Spark</td>
@@ -36855,46 +36951,6 @@
         </tr>
         <tr>
           <td>
-            <dfn>Rate Limit IDs</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The current <code>maxAmount</code> and <code>slope</code> for this conduit's inflow/outflow are defined in the subdocuments herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Inflow Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The inflow rate limits are:
-            <ul>
-              <li><code>maxAmount</code>: Unlimited</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Outflow Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The outflow rate limits are:
-            <ul>
-              <li><code>maxAmount</code>: Unlimited</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
             <dfn>Risk Parameters Current Configuration</dfn>
           </td>
           <td>Spark</td>
@@ -36917,19 +36973,35 @@
         </tr>
         <tr>
           <td>
-            <dfn>Off-chain Operational Parameters</dfn>
+            <dfn>Rate Limits</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
+          <td>The current <code>maxAmount</code> for this conduit's take and transferAssets operations are defined in the subdocuments herein.</td>
         </tr>
         <tr>
           <td>
-            <dfn>Instance-specific Operational Processes</dfn>
+            <dfn>Take Rate Limits</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.</td>
+          <td>The take rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: Unlimited</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>TransferAssets Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The transferAssets rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: Unlimited</li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>
@@ -37954,7 +38026,7 @@
         </tr>
         <tr>
           <td>
-            <dfn>Asset Supplied By SLL</dfn>
+            <dfn>Asset Supplied By Users</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
@@ -37994,6 +38066,54 @@
         </tr>
         <tr>
           <td>
+            <dfn>Rate Limit IDs</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The specific <code>maxAmount</code> and <code>slope</code> for this conduit's inflow/outflow are not defined for this Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Off-chain Operational Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance-specific Operational Processes</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance-specific Operational Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Contract Addresses</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the Instance contract addresses.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Spark Vault v2 Implementation</dfn>
           </td>
           <td>Spark</td>
@@ -38023,46 +38143,6 @@
           <td>Spark</td>
           <td>Core</td>
           <td><code>0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC</code></td>
-        </tr>        
-        <tr>
-          <td>
-            <dfn>Rate Limit IDs</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The current <code>maxAmount</code> and <code>slope</code> for this conduit's inflow/outflow are defined in the subdocuments herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Inflow Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The inflow rate limits are:
-            <ul>
-              <li><code>maxAmount</code>: Unlimited</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Outflow Rate Limits</dfn>
-          </td>
-          <td>Spark</td>
-          <td>Core</td>
-          <td>The outflow rate limits are:
-            <ul>
-              <li><code>maxAmount</code>: Unlimited</li>
-            </ul>
-          </td>
         </tr>
         <tr>
           <td>
@@ -38088,19 +38168,35 @@
         </tr>
         <tr>
           <td>
-            <dfn>Off-chain Operational Parameters</dfn>
+            <dfn>Rate Limits</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
+          <td>The current <code>maxAmount</code> for this conduit's take and transferAssets operations are defined in the subdocuments herein.</td>
         </tr>
         <tr>
           <td>
-            <dfn>Instance-specific Operational Processes</dfn>
+            <dfn>Take Rate Limits</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.</td>
+          <td>The take rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: Unlimited</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>TransferAssets Rate Limits</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The transferAssets rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: Unlimited</li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>
