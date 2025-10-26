@@ -22154,7 +22154,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking</td>
           <td>Section</td>
-          <td>SKY holders can stake their tokens via the SKY Staking Mechanism available on Ethereum Mainnet and SkyLink Deployments. SKY stakers earn voting rewards sourced from the Sky Treasury Management Function. In lieu of USDS rewards, SKY stakers can choose to earn Agent Token Rewards, including SPK and the tokens of other Prime Agents incubated by Sky. SKY stakers can also borrow USDS against their staked collateral using the SKY-backed borrowing mechanism defined herein.</td>
+          <td>SKY holders can stake their tokens via the SKY Staking Mechanism available on Ethereum Mainnet and SkyLink Deployments. SKY stakers earn voting rewards sourced from the Sky Treasury Management Function. In lieu of USDS rewards and SKY rewards, SKY stakers can choose to earn Agent Token Rewards, including SPK and the tokens of other Prime Agents incubated by Sky. SKY stakers can also borrow USDS against their staked collateral using the SKY-backed borrowing mechanism defined herein.</td>
         </tr>
         <tr>
           <td>
@@ -23239,98 +23239,191 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures</td>
           <td>Core</td>
-          <td>The documents herein define short-term logic for SKY staking rewards and SKY-backed borrowing pending the implementation of the Sky Treasury Management Function and the stUSDS system. Short-term logic regarding MKR staking rewards and MKR-backed borrowing is also included herein.</td>
+          <td>The documents herein define short-term logic for SKY staking rewards pending the implementation of the Sky Treasury Management Function.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term Staking SKY Rewards</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term USDS Rewards For SKY Stakers</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term Staking SKY Rewards</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term USDS Rewards For SKY Stakers</td>
           <td>Core</td>
-          <td>USDS rewards for SKY stakers will be enabled as specified in <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade</dfn>. Until the Treasury Management Function (TMF) is live, USDS rewards for SKY stakers will be temporarily funded by the Smart Burn Engine; this interim mechanism will be discontinued once the TMF becomes operational.</td>
+          <td>Until the Treasury Management Function (TMF) is fully implemented, USDS rewards for SKY stakers will be temporarily funded by the Smart Burn Engine, subject to the parameters of the Smart Burn Engine; this interim mechanism will be discontinued once the TMF becomes fully operational.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term Staking Rewards - SKY Staking Rewards Parameters</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term Staking Rewards - SKY Staking Rewards Parameters</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers</td>
           <td>Core</td>
-          <td>When SKY Staking launches, the short-term Staking Rewards parameters will be specified in this document pursuant to <dfn>A.4.1 - Core Tokens - SKY - Update Smart Burn Engine Parameters</dfn>.</td>
+          <td>Until the Treasury Management Function (TMF) is fully implemented, SKY rewards for SKY stakers will be temporarily funded by SKY from the Protocol Treasury as specified in <dfn>A.4.4 - Implementation</dfn>; this interim mechanism will be discontinued once the TMF becomes fully operational.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY-Backed Borrowing</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY-Backed Borrowing</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation</td>
           <td>Core</td>
-          <td>SKY-backed borrowing will be enabled as specified in A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade. In the short term, pending the development of the stUSDS system, SKY-backed borrowing will be funded directly by Sky. This funding must be replaced by the stUSDS system as soon as the stUSDS system is developed.</td>
+          <td>SKY rewards for SKY stakers are implemented through the Staking Rewards contract, the Vested Rewards Distribution contract, and the Vesting Stream contract, as specified in the documents herein.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY-Backed Borrowing - SKY-Backed Borrowing Parameters</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY-Backed Borrowing - SKY-Backed Borrowing Parameters</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract</td>
           <td>Core</td>
-          <td>When SKY Staking launches, the risk parameters for SKY-backed borrowing funded directly by Sky will be specified in this document pursuant to <dfn>A.4.1 - Core Tokens - SKY - Launch SKY Staking</dfn> and <dfn>A.4.1 - Core Tokens - SKY - Update Liquidation Parameters For Borrowing Against Staked SKY</dfn>.</td>
+          <td>The Staking Rewards contract is the user facing contract that allows SKY stakers to stake their SKY to receive SKY rewards. It maintains the balance of staked SKY receiving SKY rewards for each user and the associated accumulated rewards balance.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR Staking Rewards</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Address</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR Staking Rewards</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Address</td>
           <td>Core</td>
-          <td>As the legacy governance token of the Sky Protocol, MKR stakers are currently eligible for USDS rewards. This functionality will be phased out as specified in <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade</dfn>. The documents herein define the parameters for USDS rewards to MKR stakers during this interim period.</td>
+          <td>The address of the Staking Rewards contract on the Ethereum Mainnet is <code>0xB44C2Fb4181D7Cb06bdFf34A46FdFe4a259B40Fc</code>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR Staking Rewards - MKR Staking Rewards Parameters</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR Staking Rewards - MKR Staking Rewards Parameters</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters</td>
           <td>Core</td>
-          <td>The short-term staking rewards parameters are:
-            <ul>
-              <li>rewardsDistribution: Set to the Splitter</li>
-              <li>rewardsDuration: 15,649 seconds</li>
-              <li>farms (Whitelisted set of farms to choose from): LsMkrUsdsFarm</li>
-              <li>fee (Exit fee): 0%</li>
-            </ul>
-          </td>
+          <td>The parameters of the Staking Rewards contract are specified in the documents herein.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR-Backed Borrowing</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Owner</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR-Backed Borrowing</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Owner</td>
           <td>Core</td>
-          <td>Borrowing against staked MKR is currently supported and funded directly by Sky. This functionality will be phased out as specified in <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade</dfn>. The documents herein define the risk parameters for MKR-backed borrowing during this interim period.</td>
+          <td>The owner of the Staking Rewards contract is the contract that has the ability to control administrative functions for the Staking Rewards contract. The value of the owner parameter is the <code>MCD_PAUSE_PROXY</code>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR-Backed Borrowing - MKR-Backed Borrowing Parameters</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Rewards Distribution Contract Address</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR-Backed Borrowing - MKR-Backed Borrowing Parameters</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Rewards Distribution Contract Address</td>
           <td>Core</td>
-          <td>The current risk parameters for MKR-backed borrowing funded directly by Sky are:
-            <ul>
-              <li>Cut: 0.99</li>
-              <li>Step: 60 seconds</li>
-              <li>Buf: 1.20</li>
-              <li>Cusp: 0.40</li>
-              <li>Tail: 6,000 seconds</li>
-              <li>Chip: 0.1%</li>
-              <li>Tip: 300 DAI</li>
-              <li>Calc: StairstepExponentialDecrease</li>
-              <li>Ilk.chop: 8%</li>
-              <li>Tolerance: 0.5</li>
-              <li>Dust: 30,000 DAI</li>
-              <li>Ilk.hole: 3M DAI</li>
-              <li>Stability Fee: 20%</li>
-              <li>spotter[ilk].mat (Liquidation Ratio): 125%</li>
-              <li>DC-IAM line: 45M</li>
-              <li>DC-IAM gap: 45M</li>
-              <li>DC-IAM ttl: 30 minutes</li>
-            </ul>
+          <td>The Rewards Distribution contract address <code>rewardsDistribution</code> is the address of the Rewards Distribution contract associated with the Staking Rewards contract. The value of the <code>rewardsDistribution</code> parameter is the address of the Rewards Distribution contract specified in <dfn>A.4.4 - Rewards Distribution Contract Address</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Rewards Token</dfn>
           </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Rewards Token</td>
+          <td>Core</td>
+          <td>The Rewards Token <code>rewardsToken</code> is the token that users receive as rewards. The value of the <code>rewardsToken</code> parameter is <code>SKY</code>, representing SKY Tokens.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Staking Token</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Staking Token</td>
+          <td>Core</td>
+          <td>The Staking Token <code>stakingToken</code> is the token that users stake to earn rewards. The value of the <code>stakingToken</code> parameter is <code>LSSKY</code>, representing staked SKY Tokens.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract</td>
+          <td>Core</td>
+          <td>The Rewards Distribution contract is the contract that handles the regular transfer of reward tokens from the Vesting Stream contract to the Staking Rewards contract for distribution to end users.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Address</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Address</td>
+          <td>Core</td>
+          <td>The address of the Rewards Distribution contract on the Ethereum Mainnet is <code>0x675671A8756dDb69F7254AFB030865388Ef699Ee</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Parameters</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Parameters</td>
+          <td>Core</td>
+          <td>The parameters of the Rewards Distribution contract are specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Parameters - Staking Rewards Contract Address</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Parameters - Staking Rewards Contract Address</td>
+          <td>Core</td>
+          <td>The Staking Rewards contract address <code>stakingRewards</code> is the address of the Staking Rewards contract associated with the Rewards Distribution contract. The value of the <code>stakingRewards</code> parameter is the address of the Staking Rewards contract specified in <dfn>A.4.4 - Staking Rewards Contract Address</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Parameters - Vesting Stream Contract Address</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Parameters - Vesting Stream Contract Address</td>
+          <td>Core</td>
+          <td>The Vesting Stream contract address <code>dssVest</code> is the address of the Vesting Stream contract associated with the Rewards Distribution contract. The value of the <code>dssVest</code> parameter is the address of the Vesting Stream contract specified in <dfn>A.4.4 - Vesting Stream</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract</td>
+          <td>Core</td>
+          <td>The Vesting Stream contract manages various vesting streams that vest SKY Tokens from the Protocol Treasury. One of these vesting streams regularly vests SKY Tokens to the Staking Rewards contract.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream</td>
+          <td>Core</td>
+          <td>The address of the Vesting Stream contract is the address corresponding to the <code>MCD_VEST_SKY_TREASURY</code> key in the Chainlog.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Contract Parameters</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Contract Parameters</td>
+          <td>Core</td>
+          <td>The parameters of the vesting stream managed by the Vesting Stream contract that vests SKY Tokens to the Staking Rewards contract are specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Contract Parameters - Vesting Total</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Contract Parameters - Vesting Total</td>
+          <td>Core</td>
+          <td>The Vesting Total <code>vestTot</code> is the number of rewards tokens to be vested in total over the Vesting Duration. The initial value of the <code>vestTot</code> parameter is 1,000,000,000 SKY.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Contract Parameters - Vesting Total</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Contract Parameters - Vesting Total</td>
+          <td>Core</td>
+          <td>The Vesting Duration <code>vestTau</code> is the total duration over which the Vesting Total number of tokens are to be vested linearly. The initial value of the <code>vestTau</code> parameter is 180 days.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Parameter Modification</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Parameter Modification</td>
+          <td>Core</td>
+          <td>The parameters of the vesting stream that vests SKY Tokens to be transferred to the Staking Rewards contract may be modified by the Core Facilitator on the recommendation of the Core Council Risk Advisor through the Operational Weekly Cycle, and can be effected directly via an Executive Vote, without a prior Governance Poll. It is expected that the parameters will be reviewed and updated approximately every 90 days.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Source Of Sky Rewards</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Source Of Sky Rewards</td>
+          <td>Core</td>
+          <td><p>Initially, the SKY Tokens in the Protocol Treasury to fund SKY rewards for SKY stakers will be funded by the 500,000,000 SKY transferred by the Sky Frontier Foundation to the Protocol Treasury.</p><p>The <code>vestTot</code> and <code>vestTau</code> parameters of the Vesting Stream contract are set such that these 500,000,000 SKY will be distributed over three (3) months. After these three (3) months, SKY rewards must be funded by SKY acquired through buybacks and the parameters of the Vesting Stream contract must be adjusted accordingly.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Source Of Sky Rewards - Authorization Of Transfer By Sky Frontier Foundation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Source Of Sky Rewards - Authorization Of Transfer By Sky Frontier Foundation</td>
+          <td>Core</td>
+          <td>Sky Governance hereby confirms that the transfer of the 500,000,000 SKY tokens specified in <dfn>A.4.4 - Source Of SKY Rewards</dfn> is consistent with the terms of the grant to the Sky Frontier Foundation. See <dfn>A.2.15 - A1 - Ecosystem Entity Grants</dfn>.</td>
         </tr>
         <tr>
           <td>
