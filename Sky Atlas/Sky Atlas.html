@@ -20223,7 +20223,7 @@
           </td>
           <td>Application To Sky Core</td>
           <td>Core</td>
-          <td>While its legacy ALM infrastructure is being transferred to Prime Agents, Sky Core manages the portion of the Sky Collateral Portfolio not deployed by Prime Agents ("Sky Core Collateral Portfolio"). During this transitional period, Sky Core must maintain, with respect to the Sky Core Collateral Portfolio, the same percentage of Actively Stabilizing Collateral and Demand Absorption Buffer required of Prime Agents. The required percentages are specified in <dfn>A.3.4 - Minimum Actively Stabilizing Collateral</dfn>. This requirement remains in effect only until all legacy ALM infrastructure has been fully transitioned to Prime Agents.</td>
+          <td>While its legacy ALM infrastructure is being transferred to Prime Agents, Sky Core manages the portion of the Sky Collateral Portfolio not deployed by Prime Agents ("Sky Core Collateral Portfolio"). During this transitional period,  Sky Core allocates the Sky Core Collateral Portfolio to Actively Stabilizing Collateral as specified in <def>A.3.4 - Sky Core Asset Liability Management Rules</def>.</td>
         </tr>
         <tr>
           <td>
@@ -20295,7 +20295,7 @@
           </td>
           <td>Minimum Actively Stabilizing Collateral</td>
           <td>Core</td>
-          <td>Prime Agents must maintain at least 25% of their Collateral Portfolio in Actively Stabilizing Collateral.</td>
+          <td>Prime Agents must maintain at least 5% of their Collateral Portfolio in Actively Stabilizing Collateral.</td>
         </tr>
         <tr>
           <td>
@@ -20374,7 +20374,31 @@
           </td>
           <td>Penalties For Failing To Satisfy Actively Stabilizing Collateral Requirement</td>
           <td>Core</td>
-          <td>If a Prime Agent does not maintain the Minimum Actively Stabilizing Collateral, it will continuously be penalized at a rate of 200% APY on the missing Actively Stabilizing Collateral. This penalty is calculated retroactively per second and settled monthly during the Settlement Cycle.</td>
+          <td>In the near term there will be no penalties for Prime Agents for failing to maintain the Minimum Actively Stabilizing Collateral. Instead, failures to maintain the Minimum Actively Stabilizing Collateral will be detected and reported as specified in <def>A.3.4 - Reporting Of Failures To Satisfy Actively Stabilizing Collateral Requirement</def>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.4 - Reporting Of Failures To Satisfy Actively Stabilizing Collateral Requirement</dfn>
+          </td>
+          <td>Reporting Of Failures To Satisfy Actively Stabilizing Collateral Requirement</td>
+          <td>Core</td>
+          <td>In the near term, the Core Council Risk Advisor must develop a tool to automatically detect and report failures by Prime Agents to maintain the Minimum Actively Stabilizing Collateral. Each violation by a Prime Agent must be reported within 24 hours to the following parties:
+            <ul>
+              <li>the Core Facilitator;</li>
+              <li>Core GovOps;</li>
+              <li>the Operational Facilitator for the Prime Agent;</li>
+              <li>Operational GovOps for the Prime Agent; and</li>
+              <li>the Prime Agent.</li>
+            </ul>
+            In addition, the Core Council Risk Advisor must include a summary of all such violations in the Independent Calculation it prepares as part of each Monthly Settlement Cycle. See <def>A.2.6 - Independent Calculation By Core Council Risk Advisor On Behalf Of Core Council.</def></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.4 - Near Term Exemption For Keel</dfn>
+          </td>
+          <td>Near Term Exemption For Keel</td>
+          <td>Core</td>
+          <td>In the near term, due to limitations in the infrastructure on Solana, Keel is exempt from the requirement to maintain the Minimum Actively Stabilizing Collateral. This exemption will be removed in a future iteration of the Asset Liability Management Framework.</td>
         </tr>
         <tr>
           <td>
@@ -20446,7 +20470,7 @@
           </td>
           <td>Penalties For Failure To Satisfy Peg Defense Obligations</td>
           <td>Core</td>
-          <td>If an Agent fails to fulfill the Peg Defense Obligations, then a penalty of 20 bps on all missing buy volume is applied, calculated in finished blocks of 6 hours from when the Peg Defense Event begins, and settled retroactively as part of the Settlement Cycle.</td>
+          <td>Penalties for failing to fulfill the Peg Defense Obligations will be specified in a future iteration of the Asset Liability Management framework.</td>
         </tr>
         <tr>
           <td>
@@ -20462,31 +20486,7 @@
           </td>
           <td>Sky Core Asset Liability Management Rules</td>
           <td>Core</td>
-          <td>Pursuant to <dfn>A.3.4 - Application To Sky Core</dfn>, Sky Core manages the Sky Core Collateral Portfolio through a simple set of Asset Liability Management rules. These rules allocate excess capital beyond what is needed in the PSMs into Low Risk Real World Assets, and draw on those Low Risk Real World Assets to replenish the PSMs when the balance in the PSMs fall too low.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.4 - Excess Assets In Peg Stability Modules</dfn>
-          </td>
-          <td>Excess Assets In Peg Stability Modules</td>
-          <td>Core</td>
-          <td>If more than 30% of the Sky Core Collateral Portfolio is in PSMs, then any excess above the 30% mark must be allocated towards Low Risk Real World Assets.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.4 - Lack Of Assets In Peg Stability Modules</dfn>
-          </td>
-          <td>Lack Of Assets In Peg Stability Modules</td>
-          <td>Core</td>
-          <td>If less than 20% of the Sky Core Collateral Portfolio is in PSMs, then Low Risk Real World Assets must be sold off to return the PSM exposure to 25%.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.4 - Optimizations</dfn>
-          </td>
-          <td>Optimizations</td>
-          <td>Core</td>
-          <td>Core GovOps can use the Operational Weekly Governance Cycle to modify the Sky Core Asset Liability Management Rules in order to make them more efficient or more resilient. This modification can involve changing any of the logic defined in <dfn>A.3.4 - Sky Core Asset Liability Management Rules</dfn>.</td>
+          <td>Pursuant to <def>A.3.4 - Application To Sky Core</def>, Sky Core manages the Sky Core Collateral Portfolio by allocating capital to the Lite PSM (see <def>A.3.4 - Lite Peg Stability Module</def>).</td>
         </tr>
         <tr>
           <td>
