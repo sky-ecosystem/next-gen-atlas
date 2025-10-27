@@ -2692,6 +2692,140 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.1.9 - Execution Of Agent Spells</dfn>
+          </td>
+          <td>Execution Of Agent Spells</td>
+          <td>Core</td>
+          <td>The execution of Agent Spells is described in the subdocuments herein. Two methods are available: direct execution in a Sky Core Spell and execution through StarGuard. Execution through StarGuard is the preferred method and any exceptions require valid reasoning, except as specified in <dfn>A.1.9 - Short-term Transitionary Measures</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Execution Through StarGuard</dfn>
+          </td>
+          <td>Execution Through StarGuard</td>
+          <td>Core</td>
+          <td>When the execution through the StarGuard method is used, the Agent Spells are whitelisted in Sky Core Spells and later executed using the StarGuard module. The Sky Core Spell includes a whitelist of approved Agent Spells, which allows them to be executed via separate transactions. This enhances resilience and scalability, ensuring robust handling of payloads from multiple active Agents while minimizing risks to Sky Core.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - StarGuard</dfn>
+          </td>
+          <td>StarGuard</td>
+          <td>Core</td>
+          <td>For each Agent, a <code>StarGuard</code> contract is deployed to manage whitelisting and execution of Agent Spells. This contract acts as a standardized "proxy wrapper".</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - StarGuard Functionality</dfn>
+          </td>
+          <td>StarGuard Functionality</td>
+          <td>Core</td>
+          <td>When initiated in a Sky Core Spell, the StarGuard whitelists relevant Agent Spells, enabling their secure execution. This whitelisting allows Agent Spells to run independently, supporting arbitrary complexity and custom features like office hours or expiration times. StarGuard also supports dropping a whitelisted Agent Spell, providing a mechanism to revoke access if needed for security or error correction. This is done via the <code>drop()</code> function.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - StarGuard Ownership</dfn>
+          </td>
+          <td>StarGuard Ownership</td>
+          <td>Core</td>
+          <td>The StarGuard contract is owned by the Pause Proxy, ensuring centralized control and preventing unauthorized changes.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Responsibilities For Agents</dfn>
+          </td>
+          <td>Responsibilities For Agents</td>
+          <td>Core</td>
+          <td>The Agents are required to include logic for the public view method <code>isExecutable()</code> in their Spell. This function is used to signal if the Spell is ready to be executed in a particular block or not. StarGuard cannot execute an Agent Spell if <code>isExecutable()</code> returns <code>False</code>. The value that must be returned for execution to be possible is <code>True</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - StarGuard Whitelisting Authority</dfn>
+          </td>
+          <td>StarGuard Whitelisting Authority</td>
+          <td>Core</td>
+          <td>Only the owner, the Pause Proxy, is able to whitelist new Agent Spells via a Sky Core Spell.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - StarGuard Max Delay</dfn>
+          </td>
+          <td>StarGuard Max Delay</td>
+          <td>Core</td>
+          <td>A configurable <code>maxDelay</code> sets the maximum duration between the whitelisting of the Agent Spell in the Sky Core Spell and the execution of the Agent Spell. This feature ensures Spells do not linger indefinitely, enforcing timely processing and reducing risks from delayed or forgotten actions. The recommended value for <code>maxDelay</code> is seven (7) days.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Requirements For Whitelisting</dfn>
+          </td>
+          <td>Requirements For Whitelisting</td>
+          <td>Core</td>
+          <td>The requirements for whitelisting are:
+            <ul>
+              <li>The address of the Agent Spell.</li>
+              <li>The codehash of the Spell's bytecode.</li>
+              <li>Confirmation that direct execution is not needed. If direct execution is needed, a valid reason must be provided.</li>
+            </ul>
+            This information must be provided by the Agent Spell reviewers to the Governance Point.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Permissionless Execution</dfn>
+          </td>
+          <td>Permissionless Execution</td>
+          <td>Core</td>
+          <td>The triggering of an Agent Spell is permissionless; anyone can initiate execution. A keeper job, StarGuardJob, allows keepers to monitor and execute eligible Spells at the earliest possible block.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Function Call For Execution</dfn>
+          </td>
+          <td>Function Call For Execution</td>
+          <td>Core</td>
+          <td>Execution is initiated on the StarGuard contract via its <code>exec()</code> function, which performs necessary validation checks before calling the SubProxy's <code>exec(spellDataCopy.addr, abi.encodePacked(StarSpellLike.execute.selector))</code> to perform the Spell's actions.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Validation Checks By StarGuard</dfn>
+          </td>
+          <td>Validation Checks By StarGuard</td>
+          <td>Core</td>
+          <td>The following checks are enabled by the contract:
+            <ul>
+              <li>Verifies that the whitelisted Spell is executable only once, enforcing single-use to prevent replay attacks or unauthorized repeats.</li>
+              <li>Verifies that the whitelisted bytecode codehash is valid, protecting against tampering or malicious alterations.</li>
+              <li>Verifies that the Spell meets custom requirements (e.g., office hours) by confirming the <code>spell.isExecutable()</code> view function returns true.</li>
+              <li>Verifies that StarGuard retains access to the SubProxy, ensuring no loss of control during the Agent spell execution.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Direct Execution Through Sky Core Spell</dfn>
+          </td>
+          <td>Direct Execution Through Sky Core Spell</td>
+          <td>Core</td>
+          <td>When the execution through the Sky Core Spell method is used, the Agent Spells are executed directly in the Sky Core Spells.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Sky Core Spell Executes Agent Spell</dfn>
+          </td>
+          <td>Sky Core Spell Executes Agent Spell</td>
+          <td>Core</td>
+          <td>Execution of an Agent Spell is initiated by the Sky Core Spell, which directly calls <code>exec()</code> on the Agent's SubProxy contract to perform the Spell's actions in the same transaction. The SubProxy limits rights to the specific Agent, preventing access to Sky Core contracts. The current SubProxy contract is designed to execute the Agent Spell in the same transaction as the Sky Core Spell.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Short-term Transitionary Measures</dfn>
+          </td>
+          <td>Short-term Transitionary Measures</td>
+          <td>Core</td>
+          <td>During the transitioning phase, before StarGuard is fully implemented and tested, only the Spark Agent will use the process specified in <dfn>A.1.9 - Execution Through StarGuard</dfn>. Other Agent Spells will use the process specified in <dfn>A.1.9 - Direct Execution Through Sky Core Spell</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.1.9 - Sky Core Governance Security - Executive Process Definition - Executive Process Breakdown</dfn>
           </td>
           <td>Sky Core Governance Security - Executive Process Definition - Executive Process Breakdown</td>
