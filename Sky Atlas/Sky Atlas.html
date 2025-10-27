@@ -20628,28 +20628,134 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.3.6 - A2 - Surplus Buffer And Smart Burn Engine - Surplus Buffer Splitter Parameters</dfn>
+            <dfn>A.3.6 - A2 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters</dfn>
           </td>
-          <td>Surplus Buffer And Smart Burn Engine - Surplus Buffer Splitter Parameters</td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters</td>
           <td>Section</td>
-          <td>The current Surplus Buffer Splitter parameters are:
+          <td>The current Smart Burn Engine parameters are:
             <ul>
-              <li>vow.hump: 1 million USDS (Threshold of Surplus buffer for Splitter to activate)</li>
-              <li>vow.bump: 10,000 USDS</li>
-              <li>splitter.hop: 2,160 seconds</li>
-              <li>25% of Splitter allocation is set to accumulate SKY</li>
-              <li>75% of Splitter allocation is set to reward SKY stakers</li>
-              <li>burn (the percentage of the vow.bump to be moved to the underlying flapper): 25% (WAD/4). Flapper must maintain its legacy values.</li>
+              <li>kicker.khump: -200 million USDS (Threshold of Surplus Buffer for Splitter to activate)</li>
+              <li>kicker.kbump: 10,000 USDS</li>
+              <li>splitter.hop: 2,880 seconds</li>
+              <li>100% of Splitter allocation is set to accumulate SKY</li>
+              <li>0% of Splitter allocation is set to reward SKY stakers</li>
+              <li>burn (the percentage of the kicker.kbump to be moved to the underlying flapper): 100% (WAD * 1).</li>
+              <li>LSEV2-SKY-A USDS rewardsDuration: 2,880 seconds</li>
             </ul>
+            The rewardsDuration for the LSEV2-SKY-A USDS rewards contract must be set such that it is equal to the splitter.hop parameter.
           </td>
         </tr>
         <tr>
           <td>
-            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Surplus Buffer Splitter Parameters - Modification </dfn>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module</dfn>
           </td>
-          <td>Surplus Buffer And Smart Burn Engine - Surplus Buffer Splitter Parameters - Modification</td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module</td>
           <td>Core</td>
-          <td>The parameters of the Surplus Buffer Splitter can be modified pursuant to the Operational Weekly Cycle. The Core Facilitator, in consultation with the Core Council Risk Advisor, can propose changes to the <code>bump</code> and <code>hop</code> parameters directly via an Executive Vote without requiring a Governance Poll. Changes to other parameters require a Governance Poll followed by an Executive Vote.</td>
+          <td>The Splitter Module splits funds transferred to it from the Surplus Buffer between accumulating SKY and paying USDS rewards to SKY stakers.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters</td>
+          <td>Core</td>
+          <td>The parameters of the Splitter Module are defined in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - Splitter Interval Parameter</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - Splitter Interval Parameter</td>
+          <td>Core</td>
+          <td>The <code>hop</code> parameter is the time interval between <code>kicker.kbump</code> funds being transferred from the Surplus Buffer to the Splitter. Together with the <code>kicker.kbump</code> parameter, it controls the rate at which funds are transferred from the Surplus Buffer to the Splitter.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - Splitter Interval Parameter - Splitter Interval Current Value</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - Splitter Interval Parameter - Splitter Interval Current Value</td>
+          <td>Core</td>
+          <td>The current value of the <code>hop</code> parameter is specified in <dfn>A.3.6 - A2 - Smart Burn Engine Parameters</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - SKY Accumulation Percentage Parameter</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - SKY Accumulation Percentage Parameter</td>
+          <td>Core</td>
+          <td>The <code>burn</code> parameter is the percentage of each transfer from the Surplus Buffer to the Splitter that is sent to the Flapper contract, which accumulates SKY. The remainder of each transfer is sent to the contract for USDS rewards for SKY stakers.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - SKY Accumulation Percentage Parameter - SKY Accumulation Percentage Current Value</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - SKY Accumulation Percentage Parameter - SKY Accumulation Percentage Current Value</td>
+          <td>Core</td>
+          <td>The current value of the <code>burn</code> parameter is specified in <dfn>A.3.6 - A2 - Smart Burn Engine Parameters</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module</td>
+          <td>Core</td>
+          <td>The Kicker Module allows funds to be transferred from the Surplus Buffer to the Splitter as long as the Surplus Buffer is above a specified signed threshold. This allows funds to be transferred from the Surplus Buffer to the Splitter even when the Surplus Buffer is negative, as long as the Surplus Buffer is above the specified threshold.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters</td>
+          <td>Core</td>
+          <td>The parameters of the Kicker Module are defined in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Threshold Parameter</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Threshold Parameter</td>
+          <td>Core</td>
+          <td>The <code>khump</code> parameter is the minimum value of the Surplus Buffer for funds to be transferred from the Surplus Buffer to the Splitter contract. It is a signed integer with <code>RAD</code> precision.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Threshold Parameter - Kicker Threshold Current Value</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Threshold Parameter - Kicker Threshold Current Value</td>
+          <td>Core</td>
+          <td>The current value of the <code>khump</code> parameter is specified in <dfn>A.3.6 - A2 - Smart Burn Engine Parameters</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Lot Size Parameter</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Lot Size Parameter</td>
+          <td>Core</td>
+          <td>The <code>kbump</code> parameter is the amount of funds transferred from the Surplus Buffer to the Splitter every <code>splitter.hop</code> interval when the Surplus Buffer is greater than <code>kbump</code>. Together with the <code>splitter.hop</code> parameter, it controls the rate at which funds are transferred from the Surplus Buffer to the Splitter.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Lot Size Parameter - Kicker Lot Size Current Value</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Lot Size Parameter - Kicker Lot Size Current Value</td>
+          <td>Core</td>
+          <td>The current value of the <code>kbump</code> parameter is specified in <dfn>A.3.6 - A2 - Smart Burn Engine Parameters</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Deployment</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Deployment</td>
+          <td>Core</td>
+          <td>The activation of the Kicker Module will be executed in the October 30, 2025 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Modification</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Modification</td>
+          <td>Core</td>
+          <td>The parameters of the Smart Burn Engine can be modified pursuant to the Operational Weekly Cycle. The Core Facilitator, in consultation with the Stability Scope Advisors, can propose changes to the <code>kbump</code> and <code>hop</code> parameters directly via an Executive Vote without requiring a Governance Poll. LSEV2-SKY-A-USDS rewardsDuration should always match the value of the hop parameter without requiring prior governance authorization. Changes to other parameters require a Governance Poll followed by an Executive Vote.</td>
         </tr>
         <tr>
           <td>
