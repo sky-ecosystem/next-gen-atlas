@@ -587,7 +587,7 @@
           </td>
           <td>Location Resilience</td>
           <td>Article</td>
-          <td>This Article defines the location-filtering rules applicable to Ecosystem Actors that operate Frontends on behalf of Agents; and Ecosystem Actors that operate Frontends and receive Accessibility Rewards.</td>
+          <td>This Article defines the location-filtering rules applicable to Ecosystem Actors that operate Frontends on behalf of Agents; and Ecosystem Actors that operate Frontends and receive Distribution Rewards.</td>
         </tr>
         <tr>
           <td>
@@ -7579,7 +7579,7 @@
           </td>
           <td>Primitives Must First Be Activated To Be Invoked</td>
           <td>Core</td>
-          <td>An Agent may only Invoke a Primitive that it has previously Globally Activated; the process of Invocation is defined below at <dfn>A.2.4 - Changing Primitive Instance Status</dfn>. In this way, an Agent's decision regarding which Primitives to Activate allows the Agent to express its strategy to token holders. For example, an Agent that was focused on asset gathering might Globally Activate the Accessibility Reward and Integration Boost Primitives, but not the Allocation System Primitive.</td>
+          <td>An Agent may only Invoke a Primitive that it has previously Globally Activated; the process of Invocation is defined below at <dfn>A.2.4 - Changing Primitive Instance Status</dfn>. In this way, an Agent's decision regarding which Primitives to Activate allows the Agent to express its strategy to token holders. For example, an Agent that was focused on asset gathering might Globally Activate the Distribution Reward and Integration Boost Primitives, but not the Allocation System Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -7850,7 +7850,7 @@
               </li>
               <li>Demand Side Stablecoin Primitives
                 <ul>
-                  <li>Accessibility Reward Primitive</li>
+                  <li>Distribution Reward Primitive</li>
                   <li>Integration Boost Primitive</li>
                   <li>Pioneer Chain Primitive</li>
                 </ul>
@@ -7884,7 +7884,7 @@
           </td>
           <td>Primitive Process Definition Schema</td>
           <td>Section</td>
-          <td><p>Process Definitions function as the first-class objects through which Sky Primitives transform high-level governance logic into actionable document-driven workflows. All Sky Primitive Process Definitions are structured according to a common data schema - a set of fields that describe when they can start, how they run step by step, and what they must input or produce upon completion.</p><p>The documents herein define this data schema for Sky Primitive Process Definitions, which are applied to the universal specifications for each Sky Primitive. This common data schema aligns the entire ecosystem, while each Agent Artifact automatically references and extends the universal rules to incorporate the Agent's unique Instance-level strategies, parameters and document-driven process flows.</p><p>At present, only the Accessibility Reward Primitive and the Integration Boost Primitive specifications are structured using this schema. In future iterations of the Atlas, the schema will be applied to all Primitive specifications in this Article.</p></td>
+          <td><p>Process Definitions function as the first-class objects through which Sky Primitives transform high-level governance logic into actionable document-driven workflows. All Sky Primitive Process Definitions are structured according to a common data schema - a set of fields that describe when they can start, how they run step by step, and what they must input or produce upon completion.</p><p>The documents herein define this data schema for Sky Primitive Process Definitions, which are applied to the universal specifications for each Sky Primitive. This common data schema aligns the entire ecosystem, while each Agent Artifact automatically references and extends the universal rules to incorporate the Agent's unique Instance-level strategies, parameters and document-driven process flows.</p><p>At present, only the Distribution Reward Primitive and the Integration Boost Primitive specifications are structured using this schema. In future iterations of the Atlas, the schema will be applied to all Primitive specifications in this Article.</p></td>
         </tr>
         <tr>
           <td>
@@ -8998,7 +8998,7 @@
           </td>
           <td>Token SkyLink Management Settlement Cycle</td>
           <td>Core</td>
-          <td>During each settlement cycle, the Prime Agent Reimbursement Module tallies the total token bridging volume on the new chain. The Prime Agent Reimbursement Module calculates the reimbursement due for bridge development costs as a percent of the token bridging volume, in addition to normal Accessibility Rewards if applicable. Core GovOps executes a payment to the Prime Agent for the amount due for reimbursement of bridge development costs, to the extent that such costs have not already been fully reimbursed. Core GovOps updates the Powerhouse system to reflect the amount of bridge development costs that have been reimbursed.</td>
+          <td>During each settlement cycle, the Prime Agent Reimbursement Module tallies the total token bridging volume on the new chain. The Prime Agent Reimbursement Module calculates the reimbursement due for bridge development costs as a percent of the token bridging volume, in addition to normal Distribution Rewards if applicable. Core GovOps executes a payment to the Prime Agent for the amount due for reimbursement of bridge development costs, to the extent that such costs have not already been fully reimbursed. Core GovOps updates the Powerhouse system to reflect the amount of bridge development costs that have been reimbursed.</td>
         </tr>
         <tr>
           <td>
@@ -9034,11 +9034,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.2.4 - Accessibility Reward Primitive</dfn>
+            <dfn>A.2.4 - Distribution Reward Primitive</dfn>
           </td>
-          <td>Accessibility Reward Primitive</td>
+          <td>Distribution Reward Primitive</td>
           <td>Core</td>
-          <td>The documents herein govern the Accessibility Reward Primitive.</td>
+          <td>The documents herein govern the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -9046,7 +9046,7 @@
           </td>
           <td>Introduction</td>
           <td>Core</td>
-          <td>The documents herein provide an introduction to the Accessibility Reward Primitive.</td>
+          <td>The documents herein provide an introduction to the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -9054,7 +9054,7 @@
           </td>
           <td>Purpose</td>
           <td>Core</td>
-          <td>The purpose of the Accessibility Reward is to incentivize Prime Agents and third parties to drive USDS adoption by providing a financial reward to these actors for all USDS and sUSDS balances attributable to them.</td>
+          <td>The purpose of the Distribution Reward is to incentivize Prime Agents and third parties to drive USDS adoption by providing a financial reward to these actors for all USDS and sUSDS balances attributable to them.</td>
         </tr>
         <tr>
           <td>
@@ -9062,7 +9062,7 @@
           </td>
           <td>Allowed Number Of Instances</td>
           <td>Core</td>
-          <td>Multiple instances of the Accessibility Reward Primitive are allowed. Each instance corresponds to an Accessibility Reward program with an associated Accessibility Reward Code.</td>
+          <td>Multiple instances of the Distribution Reward Primitive are allowed. Each instance corresponds to an Distribution Reward program with an associated Distribution Reward Code.</td>
         </tr>
         <tr>
           <td>
@@ -9070,7 +9070,7 @@
           </td>
           <td>Multi-Instance Coordinator Document</td>
           <td>Core</td>
-          <td>An Agent Artifact that has more than one active instance of the Accessibility Reward Primitive is not required to have a <code>Multi-Instance Coordinator Document</code>, since each Instance can be managed independently.</td>
+          <td>An Agent Artifact that has more than one active instance of the Distribution Reward Primitive is not required to have a <code>Multi-Instance Coordinator Document</code>, since each Instance can be managed independently.</td>
         </tr>
         <tr>
           <td>
@@ -9078,7 +9078,7 @@
           </td>
           <td>Global Specification</td>
           <td>Core</td>
-          <td>The requirements herein apply universally across all possible deployments of the Accessibility Reward Primitive by Prime Agents. They include the steps that Agents must take to deploy the Primitive, including Global Activation of the Primitive, Instance Invocation, and ongoing management of the Primitive Instance(s).</td>
+          <td>The requirements herein apply universally across all possible deployments of the Distribution Reward Primitive by Prime Agents. They include the steps that Agents must take to deploy the Primitive, including Global Activation of the Primitive, Instance Invocation, and ongoing management of the Primitive Instance(s).</td>
         </tr>
         <tr>
           <td>
@@ -9086,7 +9086,7 @@
           </td>
           <td>Base Elements</td>
           <td>Core</td>
-          <td>The documents herein define base elements of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define base elements of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -9094,7 +9094,7 @@
           </td>
           <td>Integrator Program</td>
           <td>Core</td>
-          <td>Integrators are actors that offer access to the Sky Protocol via their frontends or infrastructure. The documents herein define the Integrator Program, which includes the Accessibility Reward and Integration Boost. (Base elements specific to the Integration Boost Primitive are defined in <dfn>A.2.4 - Base Elements</dfn>)</td>
+          <td>Integrators are actors that offer access to the Sky Protocol via their frontends or infrastructure. The documents herein define the Integrator Program, which includes the Distribution Reward and Integration Boost. (Base elements specific to the Integration Boost Primitive are defined in <dfn>A.2.4 - Base Elements</dfn>)</td>
         </tr>
         <tr>
           <td>
@@ -9114,11 +9114,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.2.4 - Compliance With Local Laws And Regulations As A Condition Precedent To Integrators Receiving Accessibility Rewards</dfn>
+            <dfn>A.2.4 - Compliance With Local Laws And Regulations As A Condition Precedent To Integrators Receiving Distribution Rewards</dfn>
           </td>
-          <td>Compliance With Local Laws And Regulations As A Condition Precedent To Integrators Receiving Accessibility Rewards</td>
+          <td>Compliance With Local Laws And Regulations As A Condition Precedent To Integrators Receiving Distribution Rewards</td>
           <td>Core</td>
-          <td><p>This document and its subdocuments define the jurisdictional compliance rules applicable to Integrators that operate user-facing frontends that integrate with, and thus offer access to, the Sky Protocol and receive Accessibility Rewards. Integrators are solely responsible for complying with all relevant legal and regulatory requirements related to their participation in the Integrator Program. Integrators represent and warrant that their participation and activities under the Integrator Program are and will remain in full compliance with all applicable laws and regulations.</p><p>In connection with integrating with, and thereby providing access to, the Sky Protocol, Integrators must operate their frontends and infrastructure in compliance with all relevant legal and regulatory requirements in the jurisdictions applicable to their services. This requires compliance with all relevant legal and regulatory requirements in relation to frontend operations, marketing, and promotions in the jurisdictions where the Integrator provides access to the Sky Protocol through the integration.</p><p>An Integrator's right to participate in the Integrator Program is contingent upon its ongoing compliance with all applicable laws and regulations.</p></td>
+          <td><p>This document and its subdocuments define the jurisdictional compliance rules applicable to Integrators that operate user-facing frontends that integrate with, and thus offer access to, the Sky Protocol and receive Distribution Rewards. Integrators are solely responsible for complying with all relevant legal and regulatory requirements related to their participation in the Integrator Program. Integrators represent and warrant that their participation and activities under the Integrator Program are and will remain in full compliance with all applicable laws and regulations.</p><p>In connection with integrating with, and thereby providing access to, the Sky Protocol, Integrators must operate their frontends and infrastructure in compliance with all relevant legal and regulatory requirements in the jurisdictions applicable to their services. This requires compliance with all relevant legal and regulatory requirements in relation to frontend operations, marketing, and promotions in the jurisdictions where the Integrator provides access to the Sky Protocol through the integration.</p><p>An Integrator's right to participate in the Integrator Program is contingent upon its ongoing compliance with all applicable laws and regulations.</p></td>
         </tr>
         <tr>
           <td>
@@ -9126,7 +9126,7 @@
           </td>
           <td>Consequence For Integrator Non-Compliance With Local Laws And Regulations</td>
           <td>Core</td>
-          <td>Sky Ecosystem Governance, in its absolute and unilateral discretion, retains the right to withhold, revoke, or demand immediate repayment of any and all Accessibility Rewards from any Integrator that is determined, suspected, or alleged to be in violation of the Atlas or any legal, regulatory, or other obligations associated with its integration with, and provision of access to, the Sky Protocol.</td>
+          <td>Sky Ecosystem Governance, in its absolute and unilateral discretion, retains the right to withhold, revoke, or demand immediate repayment of any and all Distribution Rewards from any Integrator that is determined, suspected, or alleged to be in violation of the Atlas or any legal, regulatory, or other obligations associated with its integration with, and provision of access to, the Sky Protocol.</td>
         </tr>
         <tr>
           <td>
@@ -9134,7 +9134,7 @@
           </td>
           <td>Removal From Integrator Program</td>
           <td>Core</td>
-          <td>If Sky Governance removes an Integrator from the Integrator Program, Operational GovOps must remove the Integrator from the list of Current Integrators in <dfn>A.2.4 - List Of Current Integrators</dfn> and deactivate the Instances of the Accessibility Reward and Integration Boost Primitive associated with them.</td>
+          <td>If Sky Governance removes an Integrator from the Integrator Program, Operational GovOps must remove the Integrator from the list of Current Integrators in <dfn>A.2.4 - List Of Current Integrators</dfn> and deactivate the Instances of the Distribution Reward and Integration Boost Primitive associated with them.</td>
         </tr>
         <tr>
           <td>
@@ -9187,7 +9187,7 @@
           </td>
           <td>Near Term Process</td>
           <td>Core</td>
-          <td>The near term Integrator Onboarding process is as follows. When a Prime Agent's Invocation of the Accessibility Reward Primitive involves an actor who is not yet an approved Integrator, that actor must submit an Integrator Application to Viridian Advisors. Viridian Advisors determines, in consultation with Operational GovOps, whether the Integrator Requirements are met, and if so issues a Reward Code to the applicant. After the Reward Code has been issued, the Invocation of the Primitive may proceed.</td>
+          <td>The near term Integrator Onboarding process is as follows. When a Prime Agent's Invocation of the Distribution Reward Primitive involves an actor who is not yet an approved Integrator, that actor must submit an Integrator Application to Viridian Advisors. Viridian Advisors determines, in consultation with Operational GovOps, whether the Integrator Requirements are met, and if so issues a Reward Code to the applicant. After the Reward Code has been issued, the Invocation of the Primitive may proceed.</td>
         </tr>
         <tr>
           <td>
@@ -9275,7 +9275,7 @@
           </td>
           <td>Lifetime</td>
           <td>Core</td>
-          <td>USDS balances are eligible for an Accessibility Reward for a period of ten (10) years from the date of the event marking the USDS balance with the Reward Code. The date of the marking event is determined based on the Primitive Instance's specified Tracking Methodology.</td>
+          <td>USDS balances are eligible for an Distribution Reward for a period of ten (10) years from the date of the event marking the USDS balance with the Reward Code. The date of the marking event is determined based on the Primitive Instance's specified Tracking Methodology.</td>
         </tr>
         <tr>
           <td>
@@ -9315,7 +9315,7 @@
           </td>
           <td>Rewards Distribution</td>
           <td>Core</td>
-          <td>The documents herein define base elements of the Accessibility Reward Primitive related to distribution of Accessibility Rewards.</td>
+          <td>The documents herein define base elements of the Distribution Reward Primitive related to distribution of Distribution Rewards.</td>
         </tr>
         <tr>
           <td>
@@ -9323,7 +9323,7 @@
           </td>
           <td>Reward Cadence</td>
           <td>Core</td>
-          <td>The Accessibility Reward is calculated and distributed on a monthly basis.</td>
+          <td>The Distribution Reward is calculated and distributed on a monthly basis.</td>
         </tr>
         <tr>
           <td>
@@ -9332,7 +9332,7 @@
           <td>Reward Payment</td>
           <td>Core</td>
           <td>
-            The Accessibility Reward payment for each month is equal to (1) the average balance over the month, times (2) the annual Accessibility Reward Fee specified in <dfn>A.2.4 - Fees</dfn>, divided by (3) twelve (12). The Accessibility Reward Fee specified in <dfn>A.2.4 - Fees</dfn> includes all of the following elements:1) Fees for USDS and sUSDS Balances specified in <dfn>A.2.4 - Fee For USDS and sUSDS Balances</dfn>; and2) the Prime Agent Management Fee specified in <dfn>A.2.4 - Prime Agent Management Fee</dfn>.
+            The Distribution Reward payment for each month is equal to (1) the average balance over the month, times (2) the annual Distribution Reward Fee specified in <dfn>A.2.4 - Fees</dfn>, divided by (3) twelve (12). The Distribution Reward Fee specified in <dfn>A.2.4 - Fees</dfn> includes all of the following elements:1) Fees for USDS and sUSDS Balances specified in <dfn>A.2.4 - Fee For USDS and sUSDS Balances</dfn>; and2) the Prime Agent Management Fee specified in <dfn>A.2.4 - Prime Agent Management Fee</dfn>.
           </td>
         </tr>
         <tr>
@@ -9349,7 +9349,7 @@
           </td>
           <td>Near-Term Process</td>
           <td>Core</td>
-          <td>In the near term, Amatsu calculates the Accessibility Reward on behalf of the Support Facilitators. The Accessibility Facilitators then pay the Accessibility Reward from the Accessibility Reward Controller Wallet located on the Ethereum Mainnet at <code>0x05F471262d15EECA4059DadE070e5BEd509a4e73</code> within seven (7) days of the end of every month. The balance of this wallet may be topped up to 3 million USDS. This funding is subject to an Executive Vote.</td>
+          <td>In the near term, Amatsu calculates the Distribution Reward on behalf of the Support Facilitators. The Accessibility Facilitators then pay the Distribution Reward from the Distribution Reward Controller Wallet located on the Ethereum Mainnet at <code>0x05F471262d15EECA4059DadE070e5BEd509a4e73</code> within seven (7) days of the end of every month. The balance of this wallet may be topped up to 3 million USDS. This funding is subject to an Executive Vote.</td>
         </tr>
         <tr>
           <td>
@@ -9358,7 +9358,7 @@
           <td>Long Term Process</td>
           <td>Core</td>
           <td>
-            In the long term, Operational GovOps calculates the Accessibility Reward for each month. Operational GovOps then pays the Accessibility Reward recipient from its Buffer. Later Sky Core reimburses the Operational Agent Buffer for the amount paid as part of the Settlement Cycle. This minimizes the role of Sky Core in Accessibility Reward payments and emphasizes the primary role of the Operational Executor Agent, acting through Operational GovOps, in implementing the Sky Primitives. The process is specified in further detail in <dfn>A.2.4 - Routine Protocol</dfn>.
+            In the long term, Operational GovOps calculates the Distribution Reward for each month. Operational GovOps then pays the Distribution Reward recipient from its Buffer. Later Sky Core reimburses the Operational Agent Buffer for the amount paid as part of the Settlement Cycle. This minimizes the role of Sky Core in Distribution Reward payments and emphasizes the primary role of the Operational Executor Agent, acting through Operational GovOps, in implementing the Sky Primitives. The process is specified in further detail in <dfn>A.2.4 - Routine Protocol</dfn>.
           </td>
         </tr>
         <tr>
@@ -9367,7 +9367,7 @@
           </td>
           <td>Payment Errors</td>
           <td>Core</td>
-          <td>If it is discovered that previous Accessibility Reward calculations were made erroneously, underpayments are resolved retroactively. In cases where an Integrator was overpaid, the Prime Agent associated with the Integrator must reimburse Sky the overpayment amount and can use future Accessibility Rewards that the Integrator earns to reimburse itself.</td>
+          <td>If it is discovered that previous Distribution Reward calculations were made erroneously, underpayments are resolved retroactively. In cases where an Integrator was overpaid, the Prime Agent associated with the Integrator must reimburse Sky the overpayment amount and can use future Distribution Rewards that the Integrator earns to reimburse itself.</td>
         </tr>
         <tr>
           <td>
@@ -9383,7 +9383,7 @@
           </td>
           <td>Current Integrators</td>
           <td>Active Data Controller</td>
-          <td>Current Integrators are Integrators who have a Reward Code specified in an Active Instance of the Accessibility Reward Primitive. The list of Current Integrators is defined as Active Data in <dfn>A.2.4 - List of Current Integrators</dfn>. The Active Data is updated as follows:• The Responsible Party is Operational GovOps.• The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>Current Integrators are Integrators who have a Reward Code specified in an Active Instance of the Distribution Reward Primitive. The list of Current Integrators is defined as Active Data in <dfn>A.2.4 - List of Current Integrators</dfn>. The Active Data is updated as follows:• The Responsible Party is Operational GovOps.• The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -9391,23 +9391,23 @@
           </td>
           <td>Onboarding Integrators</td>
           <td>Active Data Controller</td>
-          <td>Onboarding Integrators are actors whose application to the Integrator Program has been approved, but are specified in an Instance of the Accessibility Reward Primitive or Integration Boost Primitive that is “Pending”, or is not Active yet. The list of Onboarding Integrators is defined as Active Data in <dfn>A.2.4 - List of Onboarding Integrators</dfn>. The Active Data is updated as follows:• The Responsible Party is Operational GovOps.• The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>Onboarding Integrators are actors whose application to the Integrator Program has been approved, but are specified in an Instance of the Distribution Reward Primitive or Integration Boost Primitive that is “Pending”, or is not Active yet. The list of Onboarding Integrators is defined as Active Data in <dfn>A.2.4 - List of Onboarding Integrators</dfn>. The Active Data is updated as follows:• The Responsible Party is Operational GovOps.• The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.4 - Base Elements - Accessibility Reward Reimbursement</dfn>
+            <dfn>A.2.4 - Base Elements - Distribution Reward Reimbursement</dfn>
           </td>
-          <td>Base Elements - Accessibility Reward Reimbursement</td>
+          <td>Base Elements - Distribution Reward Reimbursement</td>
           <td>Core</td>
-          <td>The documents herein specify the Accessibility Reward reimbursement.</td>
+          <td>The documents herein specify the Distribution Reward reimbursement.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.4 - Base Elements - Accessibility Reward Reimbursement - Sky Core Accessibility Reward Reimbursement</dfn>
+            <dfn>A.2.4 - Base Elements - Distribution Reward Reimbursement - Sky Core Distribution Reward Reimbursement</dfn>
           </td>
-          <td>Base Elements - Accessibility Reward Reimbursement - Sky Core Accessibility Reward Reimbursement</td>
+          <td>Base Elements - Distribution Reward Reimbursement - Sky Core Distribution Reward Reimbursement</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward reimbursement payments are defined as Active Data in A.2.4 - Sky Core Accessibility Reward Reimbursement Amounts. The Active Data is updated as follows: • The Responsible Party is Core GovOps.• The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward reimbursement payments are defined as Active Data in A.2.4 - Sky Core Distribution Reward Reimbursement Amounts. The Active Data is updated as follows: • The Responsible Party is Core GovOps.• The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -9415,7 +9415,7 @@
           </td>
           <td>Global Activation</td>
           <td>Core</td>
-          <td>An Agent who intends to deploy the Accessibility Reward Primitive must first Globally Activate it.</td>
+          <td>An Agent who intends to deploy the Distribution Reward Primitive must first Globally Activate it.</td>
         </tr>
         <tr>
           <td>
@@ -9465,7 +9465,7 @@
           </td>
           <td>Process Flow</td>
           <td>Core</td>
-          <td>The Prime Agent uses the Powerhouse interface to Globally Activate (toggle on) the Accessibility Reward Primitive.</td>
+          <td>The Prime Agent uses the Powerhouse interface to Globally Activate (toggle on) the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -9507,7 +9507,7 @@
           </td>
           <td>Instance Invocation Protocol</td>
           <td>Core</td>
-          <td>After fulfilling the requirements for Global Activation, an Agent can Invoke its first Instance of the Accessibility Reward Primitive by following the sequential process specified herein. Subsequent Invocations of the Primitive must also adhere to the same requirements defined below.</td>
+          <td>After fulfilling the requirements for Global Activation, an Agent can Invoke its first Instance of the Distribution Reward Primitive by following the sequential process specified herein. Subsequent Invocations of the Primitive must also adhere to the same requirements defined below.</td>
         </tr>
         <tr>
           <td>
@@ -9556,7 +9556,7 @@
           <td>Dependencies</td>
           <td>Core</td>
           <td>
-            This process is dependent on a Prime Agent Globally Activating the Accessibility Reward Primitive pursuant to <dfn>A.2.4 - Global Activation</dfn>.
+            This process is dependent on a Prime Agent Globally Activating the Distribution Reward Primitive pursuant to <dfn>A.2.4 - Global Activation</dfn>.
           </td>
         </tr>
         <tr>
@@ -9566,7 +9566,7 @@
           <td>Process Flow</td>
           <td>Core</td>
           <td>
-            The process flow is defined herein.• The Prime Agent identifies an opportunity to drive USDS adoption through an Accessibility Reward to either 1) reward an existing Integrator for driving USDS adoption or 2) incentivize a new actor to onboard as an Integrator to drive USDS adoption.• Existing Integrators ◦ The Prime Agent and the third party, if applicable, develop a plan to track USDS utilization attributable to the actor using either on-chain or off-chain data.• Prospective Integrators ◦ Near Term process: • The Prospective Integrator must first apply to the Integrator program and be approved by Viridian Advisors per <dfn>A.2.4 - Near Term Process</dfn>. Post approval, Viridian Advisors issues a Reward Code to the Integrator. • The Prime Agent and the third party develop a plan to track USDS utilization attributable to the actor using either on-chain or off-chain data. ◦ Long Term process: • The Prospective Integrator must first apply to the Integrator program and be approved by Operational GovOps pursuant to <dfn>A.2.4 - Long Term Process</dfn>. Post approval, Operational GovOps issues a Reward Code to the Integrator. • The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data. Where applicable, the plan should include how the Prime Agent will support the prospective Integrator in including the Reward Code in their on-chain infrastructure.• The Prime Agent may also be (or choose to be) an Integrator itself and deploy a Reward Code on its frontend to earn the Accessibility Reward. ◦ Near Term process: • If the Prime Agent is not already an approved Integrator, it must apply to the Program and be approved by Viridian Advisors. Post approval, Viridian Advisors issues a Reward Code to the Prime Agent. • The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data. ◦ Long Term process: • The Prime Agent must first apply to the Integrator program and be approved by Operational GovOps pursuant to <dfn>A.2.4 - Long Term Process</dfn>. Post approval, Operational GovOps issues a Reward Code to the Prime Agent. • The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data.
+            The process flow is defined herein.• The Prime Agent identifies an opportunity to drive USDS adoption through an Distribution Reward to either 1) reward an existing Integrator for driving USDS adoption or 2) incentivize a new actor to onboard as an Integrator to drive USDS adoption.• Existing Integrators ◦ The Prime Agent and the third party, if applicable, develop a plan to track USDS utilization attributable to the actor using either on-chain or off-chain data.• Prospective Integrators ◦ Near Term process: • The Prospective Integrator must first apply to the Integrator program and be approved by Viridian Advisors per <dfn>A.2.4 - Near Term Process</dfn>. Post approval, Viridian Advisors issues a Reward Code to the Integrator. • The Prime Agent and the third party develop a plan to track USDS utilization attributable to the actor using either on-chain or off-chain data. ◦ Long Term process: • The Prospective Integrator must first apply to the Integrator program and be approved by Operational GovOps pursuant to <dfn>A.2.4 - Long Term Process</dfn>. Post approval, Operational GovOps issues a Reward Code to the Integrator. • The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data. Where applicable, the plan should include how the Prime Agent will support the prospective Integrator in including the Reward Code in their on-chain infrastructure.• The Prime Agent may also be (or choose to be) an Integrator itself and deploy a Reward Code on its frontend to earn the Accessibility Reward. ◦ Near Term process: • If the Prime Agent is not already an approved Integrator, it must apply to the Program and be approved by Viridian Advisors. Post approval, Viridian Advisors issues a Reward Code to the Prime Agent. • The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data. ◦ Long Term process: • The Prime Agent must first apply to the Integrator program and be approved by Operational GovOps pursuant to <dfn>A.2.4 - Long Term Process</dfn>. Post approval, Operational GovOps issues a Reward Code to the Prime Agent. • The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data.
           </td>
         </tr>
         <tr>
@@ -9619,7 +9619,7 @@
           </td>
           <td>Process Definition For Operational GovOps Review</td>
           <td>Core</td>
-          <td>The documents herein define the process for Operational GovOps Review for an Invocation of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for Operational GovOps Review for an Invocation of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -9725,7 +9725,7 @@
           </td>
           <td>Process Definition For Artifact Update Draft</td>
           <td>Core</td>
-          <td>The documents herein define the process for preparing the Artifact Update Draft for an Invocation of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for preparing the Artifact Update Draft for an Invocation of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -9825,7 +9825,7 @@
           </td>
           <td>Process Definition For Operational Facilitator Review</td>
           <td>Core</td>
-          <td>The documents herein define the process for Operational Facilitator Review for an Invocation of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for Operational Facilitator Review for an Invocation of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -9919,7 +9919,7 @@
           </td>
           <td>Process Definition For Offchain Vote</td>
           <td>Core</td>
-          <td>The documents herein define the process for an Offchain Vote for an Invocation of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for an Offchain Vote for an Invocation of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -10009,7 +10009,7 @@
           </td>
           <td>Process Definition For Artifact Update</td>
           <td>Core</td>
-          <td>The documents herein define the Artifact Update process for an Invocation of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the Artifact Update process for an Invocation of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -10167,7 +10167,7 @@
           </td>
           <td>Instance Ongoing Management Protocol</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of an Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of an Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -10175,7 +10175,7 @@
           </td>
           <td>Routine Protocol</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for routine ongoing management of an Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for routine ongoing management of an Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -10183,7 +10183,7 @@
           </td>
           <td>Process Definition For Reward Calculation By Operational Govops</td>
           <td>Core</td>
-          <td>The documents herein define the process for Accessibility Reward Calculation by Operational GovOps. The Accessibility Reward Calculation includes the calculation of the Fees for Unrewarded USDS Balances, the Fees for Rewarded USDS Balances, and the Prime Agent Management Fee.</td>
+          <td>The documents herein define the process for Distribution Reward Calculation by Operational GovOps. The Distribution Reward Calculation includes the calculation of the Fees for Unrewarded USDS Balances, the Fees for Rewarded USDS Balances, and the Prime Agent Management Fee.</td>
         </tr>
         <tr>
           <td>
@@ -10207,7 +10207,7 @@
           </td>
           <td>Time-Based Triggers</td>
           <td>Core</td>
-          <td>This process is triggered on the 1st of every month for each Instance of the Accessibility Reward Primitive with an Instance Status of Active.</td>
+          <td>This process is triggered on the 1st of every month for each Instance of the Distribution Reward Primitive with an Instance Status of Active.</td>
         </tr>
         <tr>
           <td>
@@ -10231,7 +10231,7 @@
           </td>
           <td>Process Flow</td>
           <td>Core</td>
-          <td>The process flow is defined herein:• Operational GovOps calculates the eligible USDS and sUSDS balances using the Tracking Methodology specified in the Primitive Instance.• Operational GovOps calculates the Accessibility Reward due based on the USDS and sUSDS balances and the Accessibility Reward formula for each.• Operational GovOps updates the Powerhouse system with both the underlying data and their calculations.</td>
+          <td>The process flow is defined herein:• Operational GovOps calculates the eligible USDS and sUSDS balances using the Tracking Methodology specified in the Primitive Instance.• Operational GovOps calculates the Distribution Reward due based on the USDS and sUSDS balances and the Distribution Reward formula for each.• Operational GovOps updates the Powerhouse system with both the underlying data and their calculations.</td>
         </tr>
         <tr>
           <td>
@@ -10240,7 +10240,7 @@
           <td>Required Primitive Inputs</td>
           <td>Core</td>
           <td>
-            The required Primitive Inputs to this process are specified herein.• Edit Accessibility Reward Payments Document (Active Data) ◦ Updated fields • Status • New value: set to In Progress • Underlying data • New value: populate with underlying data used to calculate the eligible USDS and sUSDS balances • Eligible USDS balance • New value: populate with calculated value • Eligible sUSDS balance • New value: populate with calculated value • Accessibility Reward Due • New value: populate with calculated value. ◦ Responsible party: Operational GovOps. ◦ Trigger-Process: <dfn>A.2.4 - Process Definition For Reward Issuance From Operational Executor Agent Buffer</dfn>.
+            The required Primitive Inputs to this process are specified herein.• Edit Distribution Reward Payments Document (Active Data) ◦ Updated fields • Status • New value: set to In Progress • Underlying data • New value: populate with underlying data used to calculate the eligible USDS and sUSDS balances • Eligible USDS balance • New value: populate with calculated value • Eligible sUSDS balance • New value: populate with calculated value • Distribution Reward Due • New value: populate with calculated value. ◦ Responsible party: Operational GovOps. ◦ Trigger-Process: <dfn>A.2.4 - Process Definition For Reward Issuance From Operational Executor Agent Buffer</dfn>.
           </td>
         </tr>
         <tr>
@@ -10275,7 +10275,7 @@
           </td>
           <td>Process Definition For Reward Issuance From Operational Executor Agent Buffer</td>
           <td>Core</td>
-          <td>The documents herein define the process for Accessibility Reward issuance from the Operational Executor Agent Buffer as part of ongoing management of an Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for Distribution Reward issuance from the Operational Executor Agent Buffer as part of ongoing management of an Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -10307,7 +10307,7 @@
           </td>
           <td>Document Update Triggers</td>
           <td>Core</td>
-          <td>This process is triggered by the Required Primitive Inputs specified in Edit Accessibility Reward Payments Document (Active Data).</td>
+          <td>This process is triggered by the Required Primitive Inputs specified in Edit Distribution Reward Payments Document (Active Data).</td>
         </tr>
         <tr>
           <td>
@@ -10332,7 +10332,7 @@
           <td>Required Primitive Inputs</td>
           <td>Core</td>
           <td>
-            The required Primitive Inputs to this process are specified herein.• Edit Accessibility Reward Payments Document (Active Data) ◦ Updated fields • Status • New value: set to Paid • Transaction Details/Amount Paid • New value: populate with amount paid • Transaction Details/Tx hash • New value: populate with transaction hash ◦ Responsible Party: Operational GovOps ◦ Trigger - Process: <dfn>A.2.4 - Process Definition For Settlement Cycle And Core GovOps Review</dfn>.
+            The required Primitive Inputs to this process are specified herein.• Edit Distribution Reward Payments Document (Active Data) ◦ Updated fields • Status • New value: set to Paid • Transaction Details/Amount Paid • New value: populate with amount paid • Transaction Details/Tx hash • New value: populate with transaction hash ◦ Responsible Party: Operational GovOps ◦ Trigger - Process: <dfn>A.2.4 - Process Definition For Settlement Cycle And Core GovOps Review</dfn>.
           </td>
         </tr>
         <tr>
@@ -10367,7 +10367,7 @@
           </td>
           <td>Process Definition For Settlement Cycle And Core GovOps Review</td>
           <td>Core</td>
-          <td>The documents herein define the process for the Accessibility Reward Settlement Cycle and Core GovOps review as part of ongoing management of an Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the Distribution Reward Settlement Cycle and Core GovOps review as part of ongoing management of an Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -10415,7 +10415,7 @@
           </td>
           <td>Process Flow</td>
           <td>Core</td>
-          <td>The process flow is defined herein.• Core GovOps reviews Accessibility Rewards calculations, including underlying data and calculation of balances and rewards due.• Once Core GovOps has completed review, they update Powerhouse system to indicate that they confirm the accuracy of the Accessibility Reward amounts.</td>
+          <td>The process flow is defined herein.• Core GovOps reviews Distribution Rewards calculations, including underlying data and calculation of balances and rewards due.• Once Core GovOps has completed review, they update Powerhouse system to indicate that they confirm the accuracy of the Distribution Reward amounts.</td>
         </tr>
         <tr>
           <td>
@@ -10424,7 +10424,7 @@
           <td>Required Primitive Inputs</td>
           <td>Core</td>
           <td>
-            The required Primitive Inputs to this process are specified herein and are mutually exclusive pathways.• Core GovOps Confirms Accuracy of Payment ◦ Edit Accessibility Reward Payments Active Data Document • Updated fields • Core GovOps Review/Confirmation ◦ New value: populate with Yes • Core GovOps Review/Commentary ◦ New value (optional): populate with reasoning • Responsible party: Core GovOps • Trigger - Process: <dfn>A.2.4 - Sky Core Atlas Updates</dfn> • Core GovOps Finds Inaccurate Payment ◦ Edit Accessibility Reward Payments Active Data Document • Updated fields • Core GovOps Review/Confirmation ◦ New value: populate with No • Core GovOps Review/Commentary ◦ New value (required): populate with reasoning • Responsible party: Core GovOps • Trigger - Process: Payment Inaccuracy Previously Found By Core GovOps
+            The required Primitive Inputs to this process are specified herein and are mutually exclusive pathways.• Core GovOps Confirms Accuracy of Payment ◦ Edit Distribution Reward Payments Active Data Document • Updated fields • Core GovOps Review/Confirmation ◦ New value: populate with Yes • Core GovOps Review/Commentary ◦ New value (optional): populate with reasoning • Responsible party: Core GovOps • Trigger - Process: <dfn>A.2.4 - Sky Core Atlas Updates</dfn> • Core GovOps Finds Inaccurate Payment ◦ Edit Distribution Reward Payments Active Data Document • Updated fields • Core GovOps Review/Confirmation ◦ New value: populate with No • Core GovOps Review/Commentary ◦ New value (required): populate with reasoning • Responsible party: Core GovOps • Trigger - Process: Payment Inaccuracy Previously Found By Core GovOps
           </td>
         </tr>
         <tr>
@@ -10442,7 +10442,7 @@
           <td>Sky Core Atlas Updates</td>
           <td>Core</td>
           <td>
-            The Sky Core Atlas documents specified herein are updated as the output of this process.• Payment Accuracy Previously Confirmed By Core GovOps ◦ The document A.2.4 - Sky Core Accessibility Reward Reimbursement Amounts in the Sky Core Atlas is updated as follows: • Updated Fields • Status ◦ New value: populate with Pending Payment • Confirmed Reimbursement Due ◦ New value: populate with total Reimbursement amount • Reward Period ◦ New Value: populate with reward period • Operational Executor Agent ◦ New value: Populate with name of Operational Executor Agent • Prime Agent ◦ New value: Populate with name of Prime Agent. • Responsible Party: Core GovOps • Triggers: <dfn>A.2.4 - Process Definition For Executive Vote Reimbursement</dfn> • Payment Inaccuracy Previously Found By Core GovOps ◦ TBD
+            The Sky Core Atlas documents specified herein are updated as the output of this process.• Payment Accuracy Previously Confirmed By Core GovOps ◦ The document A.2.4 - Sky Core Distribution Reward Reimbursement Amounts in the Sky Core Atlas is updated as follows: • Updated Fields • Status ◦ New value: populate with Pending Payment • Confirmed Reimbursement Due ◦ New value: populate with total Reimbursement amount • Reward Period ◦ New Value: populate with reward period • Operational Executor Agent ◦ New value: Populate with name of Operational Executor Agent • Prime Agent ◦ New value: Populate with name of Prime Agent. • Responsible Party: Core GovOps • Triggers: <dfn>A.2.4 - Process Definition For Executive Vote Reimbursement</dfn> • Payment Inaccuracy Previously Found By Core GovOps ◦ TBD
           </td>
         </tr>
         <tr>
@@ -10459,7 +10459,7 @@
           </td>
           <td>Process Definition For Executive Vote Reimbursement</td>
           <td>Core</td>
-          <td>The documents herein define the process for Accessibility Reward Executive Vote reimbursement as part of ongoing management of an Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for Distribution Reward Executive Vote reimbursement as part of ongoing management of an Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -10491,7 +10491,7 @@
           </td>
           <td>Document Update Triggers</td>
           <td>Core</td>
-          <td>This process is triggered by the Document Update specified in <strong>Sky Core Accessibility Reward Reimbursement</strong> <strong>Active Data Document Update.</strong></td>
+          <td>This process is triggered by the Document Update specified in <strong>Sky Core Distribution Reward Reimbursement</strong> <strong>Active Data Document Update.</strong></td>
         </tr>
         <tr>
           <td>
@@ -10507,7 +10507,7 @@
           </td>
           <td>Process Flow</td>
           <td>Core</td>
-          <td>The process flow is defined herein:• Core GovOps includes the Accessibility Reward reimbursement in the next standard Executive Vote.• After the Executive Vote passes, Core GovOps updates the Powerhouse system with the transaction details.</td>
+          <td>The process flow is defined herein:• Core GovOps includes the Distribution Reward reimbursement in the next standard Executive Vote.• After the Executive Vote passes, Core GovOps updates the Powerhouse system with the transaction details.</td>
         </tr>
         <tr>
           <td>
@@ -10515,7 +10515,7 @@
           </td>
           <td>Required Primitive Inputs</td>
           <td>Core</td>
-          <td>The required Primitive Inputs to this process are specified herein and organized as sequential stages.• Core GovOps adds reimbursement to Executive Vote ◦ Edit Sky Core Accessibility Reward Reimbursement Amounts • Updated fields • Executive Vote Settlement/Executive Vote ◦ New value: links to proposal • Status ◦ New value: set to Added to Executive Vote • After Executive Vote passes, Core GovOps updates Powerhouse system ◦ Edit Sky Core Accessibility Reward Reimbursement Amounts • Updated fields • Executive Vote Settlement / Transaction Details/ Amount Paid ◦ New value: populate with amount paid to reimburse Operational Executor Agent Buffer • Executive Vote Settlement / Transaction Details / Tx Hash ◦ New value: Populate with transaction hash • Status ◦ New value: set to Completed</td>
+          <td>The required Primitive Inputs to this process are specified herein and organized as sequential stages.• Core GovOps adds reimbursement to Executive Vote ◦ Edit Sky Core Distribution Reward Reimbursement Amounts • Updated fields • Executive Vote Settlement/Executive Vote ◦ New value: links to proposal • Status ◦ New value: set to Added to Executive Vote • After Executive Vote passes, Core GovOps updates Powerhouse system ◦ Edit Sky Core Distribution Reward Reimbursement Amounts • Updated fields • Executive Vote Settlement / Transaction Details/ Amount Paid ◦ New value: populate with amount paid to reimburse Operational Executor Agent Buffer • Executive Vote Settlement / Transaction Details / Tx Hash ◦ New value: Populate with transaction hash • Status ◦ New value: set to Completed</td>
         </tr>
         <tr>
           <td>
@@ -10535,9 +10535,9 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.2.4 - Sky Core Accessibility Reward Reimbursement Active Data Update</dfn>
+            <dfn>A.2.4 - Sky Core Distribution Reward Reimbursement Active Data Update</dfn>
           </td>
-          <td>Sky Core Accessibility Reward Reimbursement Active Data Update</td>
+          <td>Sky Core Distribution Reward Reimbursement Active Data Update</td>
           <td>Core</td>
           <td>The Document in the Sky Core Atlas is updated as follows:• Updated fields ◦ Status • New value: set to Paid ◦ Responsible Party: Core GovOps ◦ Trigger-Process: None</td>
         </tr>
@@ -10555,7 +10555,7 @@
           </td>
           <td>Non-Routine Protocol</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of an Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of an Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -10563,7 +10563,7 @@
           </td>
           <td>Emergency Protocol</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of an Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of an Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -10729,9 +10729,9 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.2.4 - Accessibility Rewards</dfn>
+            <dfn>A.2.4 - Distribution Rewards</dfn>
           </td>
-          <td>Accessibility Rewards</td>
+          <td>Distribution Rewards</td>
           <td>Core</td>
           <td>Net USDS balances in a DeFi protocol that is receiving an Integration Boost are also eligible for the Accessibility Reward.</td>
         </tr>
@@ -10749,15 +10749,15 @@
           </td>
           <td>No Double Payments</td>
           <td>Core</td>
-          <td>Accessibility Reward may only be paid on net USDS balances of an Integration Boost partner to the extent that an Accessibility Reward is not already being paid on those balances.</td>
+          <td>Distribution Reward may only be paid on net USDS balances of an Integration Boost partner to the extent that an Distribution Reward is not already being paid on those balances.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.4 - Prime Agent May Choose Whether To Share Accessibility Reward With Integration Boost Partner</dfn>
+            <dfn>A.2.4 - Prime Agent May Choose Whether To Share Distribution Reward With Integration Boost Partner</dfn>
           </td>
-          <td>Prime Agent May Choose Whether To Share Accessibility Reward With Integration Boost Partner</td>
+          <td>Prime Agent May Choose Whether To Share Distribution Reward With Integration Boost Partner</td>
           <td>Core</td>
-          <td>Prime Agents may choose whether to share Accessibility Reward payments with Integration Boost Partners.</td>
+          <td>Prime Agents may choose whether to share Distribution Reward payments with Integration Boost Partners.</td>
         </tr>
         <tr>
           <td>
@@ -10931,7 +10931,7 @@
           </td>
           <td>Process Flow</td>
           <td>Core</td>
-          <td>The process flow is defined herein.• The Prime Agent identifies a DeFi protocol or market where an Integration Boost would drive adoption. The Prime Agent estimates the potential earnings from the Accessibility Reward associated with the incremental USDS usage versus the operational cost of funding the Sky Savings Rate payouts.• The Prime Agent and the prospective Integration Boost partner discuss (1) the proposed Integration Boost cadence and (2) whether and how the protocol operator also receives a portion of the Accessibility Reward.</td>
+          <td>The process flow is defined herein.• The Prime Agent identifies a DeFi protocol or market where an Integration Boost would drive adoption. The Prime Agent estimates the potential earnings from the Distribution Reward associated with the incremental USDS usage versus the operational cost of funding the Sky Savings Rate payouts.• The Prime Agent and the prospective Integration Boost partner discuss (1) the proposed Integration Boost cadence and (2) whether and how the protocol operator also receives a portion of the Accessibility Reward.</td>
         </tr>
         <tr>
           <td>
@@ -12435,7 +12435,7 @@
                 </ul>
               </li>
               <li>Prime Agents' internal TRC management systems should enable continuous capital adequacy monitoring. The system must enable the near real-time comparison of the Prime Agent's internally tracked and calculated TRC against its official Aggregate RRC, as obtained from the Sky Core RRC Dashboard/API. See <dfn>A.2.4 - Sky Core Required Risk Capital (RRC) Dashboard And API</dfn>. This core functionality is essential for the Prime Agent to proactively monitor its capital adequacy, identify potential or actual TRC shortfalls, and make timely operational and capital management decisions to maintain compliance.</li>
-              <li><p>Prime Agents' internal TRC management systems should define a RRC-incident (e.g., TRC shortfall) response protocol. The system should enable internal alerting mechanisms that detect when a Prime Agent's TRC approaches predefined internal buffer thresholds relative to its Aggregate RRC. See <dfn>A.3.3 - Risk Tolerance Ratio</dfn>. The system should also detect an actual shortfall where the Prime Agent's held TRC falls below its Aggregate RRC.</p><p>Furthermore, Prime Agent teams should establish and document internal processes for responding to such alerts. Such internal processes should include:</p>
+              <li><p>Prime Agents' internal TRC management systems should define a RRC-incident (e.g., TRC shortfall) response protocol. The system should enable internal alerting mechanisms that detect when a Prime Agent's TRC approaches predefined internal buffer thresholds relative to its Aggregate RRC. See <dfn>A.3.3 - Encumbrance Ratio</dfn>. The system should also detect an actual shortfall where the Prime Agent's held TRC falls below its Aggregate RRC.</p><p>Furthermore, Prime Agent teams should establish and document internal processes for responding to such alerts. Such internal processes should include:</p>
                 <ol>
                   <li>internal escalation and assessment of the shortfall's cause and magnitude;</li>
                   <li>formulation of potential responses or corrective actions, which may include sourcing additional TRC, reducing risk-weighted exposures, or other measures;</li>
@@ -12896,11 +12896,11 @@
         <tr>
           <td>
             <dfn>A.2.5
-              - Treasury Management - Treasury Management - Allocation Steps - Step 0: Net Revenue - Expenses - Accessibility Rewards</dfn>
+              - Treasury Management - Treasury Management - Allocation Steps - Step 0: Net Revenue - Expenses - Distribution Rewards</dfn>
           </td>
-          <td>Treasury Management - Treasury Management - Allocation Steps - Step 0: Net Revenue - Expenses - Accessibility Rewards</td>
+          <td>Treasury Management - Treasury Management - Allocation Steps - Step 0: Net Revenue - Expenses - Distribution Rewards</td>
           <td>Core</td>
-          <td>The Accessibility Reward is paid to Prime Agents and third-party partners that drive adoption of USDS. See A.2.4 - Accessibility Reward Primitive.</td>
+          <td>The Distribution Reward is paid to Prime Agents and third-party partners that drive adoption of USDS. See A.2.4 - Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -12977,20 +12977,20 @@
         <tr>
           <td>
             <dfn>A.2.5
-              - Treasury Management - Treasury Management - Allocation Steps - Step 1: Security and Stability Maintenance - Governance Accessibility Rewards Paid To Integrators</dfn>
+              - Treasury Management - Treasury Management - Allocation Steps - Step 1: Security and Stability Maintenance - Governance Distribution Rewards Paid To Integrators</dfn>
           </td>
-          <td>Treasury Management - Treasury Management - Allocation Steps - Step 1: Security and Stability Maintenance - Governance Accessibility Rewards Paid To Integrators</td>
+          <td>Treasury Management - Treasury Management - Allocation Steps - Step 1: Security and Stability Maintenance - Governance Distribution Rewards Paid To Integrators</td>
           <td>Core</td>
           <td>0.5% of Step 1 Capital is allocated to frontends and other Integrators that facilitate accessible governance, following security and information standards specified in the Atlas. These standards will be specified in a future iteration of the Atlas. See A.2.4 - Core Governance Reward Primitive.</td>
         </tr>
         <tr>
           <td>
             <dfn>A.2.5
-              - Treasury Management - Treasury Management - Allocation Steps - Step 1: Security and Stability Maintenance - Governance Accessibility Rewards Paid To Prime Agents</dfn>
+              - Treasury Management - Treasury Management - Allocation Steps - Step 1: Security and Stability Maintenance - Governance Distribution Rewards Paid To Prime Agents</dfn>
           </td>
-          <td>Treasury Management - Treasury Management - Allocation Steps - Step 1: Security and Stability Maintenance - Governance Accessibility Rewards Paid To Prime Agents</td>
+          <td>Treasury Management - Treasury Management - Allocation Steps - Step 1: Security and Stability Maintenance - Governance Distribution Rewards Paid To Prime Agents</td>
           <td>Core</td>
-          <td>0.5% of Step 1 Capital is allocated to Prime Agents that manage the rewards for Governance Integrators, incentivizing the active participation of Prime Agents. See A.2.5 - Treasury Management - Treasury Management - Allocation Steps - Step 1: Security and Stability Maintenance - Governance Accessibility Rewards Paid To Integrators.</td>
+          <td>0.5% of Step 1 Capital is allocated to Prime Agents that manage the rewards for Governance Integrators, incentivizing the active participation of Prime Agents. See A.2.5 - Treasury Management - Treasury Management - Allocation Steps - Step 1: Security and Stability Maintenance - Governance Distribution Rewards Paid To Integrators.</td>
         </tr>
         <tr>
           <td>
@@ -13617,11 +13617,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Reimbursement Of Payments Made By Operational Executor Agents - Reimbursement To Accessibility Reward Wallet And Integration Boost Wallets</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Reimbursement Of Payments Made By Operational Executor Agents - Reimbursement To Distribution Reward Wallet And Integration Boost Wallets</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Reimbursement Of Payments Made By Operational Executor Agents - Reimbursement To Accessibility Reward Wallet And Integration Boost Wallets</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Process Definition - Settlement Through Sky Core Executive Vote - Reimbursement Of Payments Made By Operational Executor Agents - Reimbursement To Distribution Reward Wallet And Integration Boost Wallets</td>
           <td>Core</td>
-          <td>On an interim basis, Accessibility Reward reimbursements may also be made to the Accessibility Reward Controller Wallet (see <dfn>A.2.4 - Near-Term Process</dfn>) at the request of an Operational Executor Agent. Similarly, Integration Boost reimbursements may also be made to the Integration Boost Wallet (see <dfn>A.2.4 - Near Term Process</dfn>) at the request of an Operational Executor Agent.</td>
+          <td>On an interim basis, Distribution Reward reimbursements may also be made to the Distribution Reward Controller Wallet (see <dfn>A.2.4 - Near-Term Process</dfn>) at the request of an Operational Executor Agent. Similarly, Integration Boost reimbursements may also be made to the Integration Boost Wallet (see <dfn>A.2.4 - Near Term Process</dfn>) at the request of an Operational Executor Agent.</td>
         </tr>
         <tr>
           <td>
@@ -13701,7 +13701,7 @@
           </td>
           <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Accessibility Reward</td>
           <td>Core</td>
-          <td>The amount due from Sky to a Prime in a month with respect to the Accessibility Reward is the amount earned by the Prime with respect to all USDS and sUSDS balances marked with the Prime's reward codes. See <dfn>A.2.4 - Accessibility Reward Primitive</dfn>. This includes any Bonus Accessibility Reward. See <dfn>A.2.10 - 2025 Bonus</dfn>.</td>
+          <td>The amount due from Sky to a Prime in a month with respect to the Distribution Reward is the amount earned by the Prime with respect to all USDS and sUSDS balances marked with the Prime's reward codes. See <dfn>A.2.4 - Distribution Reward Primitive</dfn>. This includes any Bonus Accessibility Reward. See <dfn>A.2.10 - 2025 Bonus</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -13713,11 +13713,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Accessibility Reward And Agent Rate</dfn>
+            <dfn>A.2.6 - Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Distribution Reward And Agent Rate</dfn>
           </td>
-          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Accessibility Reward And Agent Rate</td>
+          <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 1 - Stage 1 Simplified Profit And Loss Calculation - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate - Amount Due From Sky To Primes With Respect To Distribution Reward And Agent Rate</td>
           <td>Core</td>
-          <td>The amount due from Sky to a Prime in a month with respect to the Accessibility Reward and the Agent Rate is the sum of the amounts specified in <dfn>A.2.6 - Amount Due From Sky To Primes With Respect To Accessibility Reward</dfn> and <dfn>A.2.6 - Amount Due From Sky To Primes With Respect To Agent Rate</dfn>.</td>
+          <td>The amount due from Sky to a Prime in a month with respect to the Distribution Reward and the Agent Rate is the sum of the amounts specified in <dfn>A.2.6 - Amount Due From Sky To Primes With Respect To Accessibility Reward</dfn> and <dfn>A.2.6 - Amount Due From Sky To Primes With Respect To Agent Rate</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -14783,7 +14783,7 @@
           </td>
           <td>2025 Bonus</td>
           <td>Core</td>
-          <td>An additional 0.4% Accessibility Reward bonus will apply during the calendar year 2025 (ending December 31, 2025). This bonus is strictly limited to the Prime and does not extend to the Prime Foundation. The bonus is subject to the limitation specified in <dfn>A.2.10 - Bonus Limitation</dfn>.</td>
+          <td>An additional 0.4% Distribution Reward bonus will apply during the calendar year 2025 (ending December 31, 2025). This bonus is strictly limited to the Prime and does not extend to the Prime Foundation. The bonus is subject to the limitation specified in <dfn>A.2.10 - Bonus Limitation</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -14791,7 +14791,7 @@
           </td>
           <td>Bonus Limitation</td>
           <td>Core</td>
-          <td>USDS and sUSDS balances held by the Prime itself are not eligible for the Accessibility Reward bonus specified in <dfn>A.2.10 - 2025 Bonus</dfn>.</td>
+          <td>USDS and sUSDS balances held by the Prime itself are not eligible for the Distribution Reward bonus specified in <dfn>A.2.10 - 2025 Bonus</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -15190,7 +15190,7 @@
           </td>
           <td>Income Definition</td>
           <td>Core</td>
-          <td>"Income" means all revenues or fees received or accrued by the applicable Prime after July 1, 2025, including: (i) Accessibility Rewards (see <dfn>A.2.10 - Accessibility Reward Rate</dfn>), (ii) Accessibility Reward Bonus for 2025 (see <dfn>A.2.10 - 2025 Bonus</dfn>), (iii) any Platform Fees charged to users, and (iv) Real World Asset fees charged to users, including any origination, servicing, or related charges, and (v) the blended cost of allocation spread between Junior and Senior Risk Capital.</td>
+          <td>"Income" means all revenues or fees received or accrued by the applicable Prime after July 1, 2025, including: (i) Distribution Rewards (see <dfn>A.2.10 - Distribution Reward Rate</dfn>), (ii) Distribution Reward Bonus for 2025 (see <dfn>A.2.10 - 2025 Bonus</dfn>), (iii) any Platform Fees charged to users, and (iv) Real World Asset fees charged to users, including any origination, servicing, or related charges, and (v) the blended cost of allocation spread between Junior and Senior Risk Capital.</td>
         </tr>
         <tr>
           <td>
@@ -16615,7 +16615,7 @@
           </td>
           <td>Core Stability Parameters - Parameters - Sky Savings Rate - Relationship To Base Rate</td>
           <td>Core</td>
-          <td>The Sky Savings Rate is 0.3% below the Base Rate. This difference is equal to the sum of (1) the 0.2% Accessibility Reward Fee (see <dfn>A.2.4 - Fees</dfn>) and (2) the 0.1% Sky Spread (see <dfn>A.3.3 - Sky Spread</dfn>).</td>
+          <td>The Sky Savings Rate is 0.3% below the Base Rate. This difference is equal to the sum of (1) the 0.2% Distribution Reward Fee (see <dfn>A.2.4 - Fees</dfn>) and (2) the 0.1% Sky Spread (see <dfn>A.3.3 - Sky Spread</dfn>).</td>
         </tr>
         <tr>
           <td>
@@ -16654,7 +16654,7 @@
           </td>
           <td>Core Stability Parameters - Parameters - Agent Rate - Relationship To Base Rate</td>
           <td>Core</td>
-          <td>The Agent Rate is 0.1% below the Base Rate. This is equal to the Sky Savings Rate plus the 0.2% Accessibility Reward Fee (see <dfn>A.2.4 - Fees</dfn>).</td>
+          <td>The Agent Rate is 0.1% below the Base Rate. This is equal to the Sky Savings Rate plus the 0.2% Distribution Reward Fee (see <dfn>A.2.4 - Fees</dfn>).</td>
         </tr>
         <tr>
           <td>
@@ -16670,7 +16670,7 @@
           </td>
           <td>Core Stability Parameters - Parameters - Agent Rate - Treatment Of sUSDS Balances</td>
           <td>Core</td>
-          <td>Prime Agents receive the Agent Rate on sUSDS balances in a modified form. sUSDS balances already earn the Sky Savings Rate. In addition to this, sUSDS balances earn additional compensation of 0.20% to account for the 0.1% Accessibility Reward Fee (see <dfn>A.2.4 - Fee For USDS and sUSDS Balances</dfn>) and the 0.1% Prime Agent Management Fee (see <dfn>A.2.4 - Prime Agent Management Fee</dfn>) that is paid through the Monthly Settlement Cycle, as specified in <dfn>A.3.2 - Core Stability Parameters - Parameters - Agent Rate - Settlement</dfn>.</td>
+          <td>Prime Agents receive the Agent Rate on sUSDS balances in a modified form. sUSDS balances already earn the Sky Savings Rate. In addition to this, sUSDS balances earn additional compensation of 0.20% to account for the 0.1% Distribution Reward Fee (see <dfn>A.2.4 - Fee For USDS and sUSDS Balances</dfn>) and the 0.1% Prime Agent Management Fee (see <dfn>A.2.4 - Prime Agent Management Fee</dfn>) that is paid through the Monthly Settlement Cycle, as specified in <dfn>A.3.2 - Core Stability Parameters - Parameters - Agent Rate - Settlement</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -16773,7 +16773,7 @@
           </td>
           <td>Core Stability Parameters - Parameters - Agent Credit Line Borrow Rate - Prime Agent Credit Rating System</td>
           <td>Core</td>
-          <td>After the development of a Prime Agent Credit Rating System, the Agent Credit Line Borrow Rate will vary based on the Credit Rating of each Prime Agent. The Credit Rating for a Prime Agent will take into account factors including the Risk Tolerance Ratio.</td>
+          <td>After the development of a Prime Agent Credit Rating System, the Agent Credit Line Borrow Rate will vary based on the Credit Rating of each Prime Agent. The Credit Rating for a Prime Agent will take into account factors including the Encumbrance Ratio.</td>
         </tr>
         <tr>
           <td>
@@ -18437,7 +18437,7 @@
             <ul>
               <li>The initial deployment of capital into JTRSY and JAAA on Avalanche may not exceed 20 million USDS in total;</li>
               <li>Each additional deployment of capital into JTRSY or JAAA must be approved by the Stability Scope Advisors;</li>
-              <li>Until audits of Centrifuge v3 are approved by the Protocol Security Workstream Lead, the Prime must be below a 90% Risk Tolerance Ratio on a pro forma basis assuming that each additional deployment of capital into JTRSY and JAAA requires 100% Instance Total CRR; and</li>
+              <li>Until audits of Centrifuge v3 are approved by the Protocol Security Workstream Lead, the Prime must be below a 90% Encumbrance Ratio on a pro forma basis assuming that each additional deployment of capital into JTRSY and JAAA requires 100% Instance Total CRR; and</li>
               <li>Total investments in JTRSY and JAAA on Avalanche may not exceed 250 million USDS.</li>
             </ul>
           </td>
@@ -19799,7 +19799,7 @@
           </td>
           <td>Sky Spread</td>
           <td>Core</td>
-          <td>Sky takes a spread equal to the Sky Spread on all ESRC balances. The Sky Spread is the difference between (1) the rate at which Prime Agents borrow from Sky and (2) the Sky Savings Rate plus the Accessibility Reward Fee.</td>
+          <td>Sky takes a spread equal to the Sky Spread on all ESRC balances. The Sky Spread is the difference between (1) the rate at which Prime Agents borrow from Sky and (2) the Sky Savings Rate plus the Distribution Reward Fee.</td>
         </tr>
         <tr>
           <td>
@@ -19815,7 +19815,7 @@
           </td>
           <td>srUSDS Accessibility Reward</td>
           <td>Core</td>
-          <td>Prime Agents and third-party partners that drive srUSDS usage are entitled to a srUSDS Accessibility Reward similar to the Accessibility Reward paid on USDS balances. The srUSDS Accessibility Reward Fee is the same as the Accessibility Reward Fee on USDS. See <dfn>A.2.4 - Accessibility Reward Primitive</dfn>.</td>
+          <td>Prime Agents and third-party partners that drive srUSDS usage are entitled to a srUSDS Distribution Reward similar to the Distribution Reward paid on USDS balances. The srUSDS Distribution Reward Fee is the same as the Distribution Reward Fee on USDS. See <dfn>A.2.4 - Distribution Reward Primitive</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -20075,11 +20075,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.3.3 - Risk Tolerance Ratio</dfn>
+            <dfn>A.3.3 - Encumbrance Ratio</dfn>
           </td>
-          <td>Risk Tolerance Ratio</td>
+          <td>Encumbrance Ratio</td>
           <td>Core</td>
-          <td>The Risk Tolerance Ratio for a Prime Agent is the ratio of its Aggregate Required Risk Capital to its Total Risk Capital.</td>
+          <td>The Encumbrance Ratio for a Prime Agent is the ratio of its Aggregate Required Risk Capital to its Total Risk Capital.</td>
         </tr>
         <tr>
           <td>
@@ -20095,7 +20095,7 @@
           </td>
           <td>Low Severity Breach Definition</td>
           <td>Core</td>
-          <td>A Low Severity Breach is one in which the Risk Tolerance Ratio is greater than or equal to 100% but less than 103%.</td>
+          <td>A Low Severity Breach is one in which the Encumbrance Ratio is greater than or equal to 100% but less than 103%.</td>
         </tr>
         <tr>
           <td>
@@ -20103,7 +20103,7 @@
           </td>
           <td>High Severity Breach Definition</td>
           <td>Core</td>
-          <td>A High Severity Breach is one in which the Risk Tolerance Ratio is greater than 103%.</td>
+          <td>A High Severity Breach is one in which the Encumbrance Ratio is greater than 103%.</td>
         </tr>
         <tr>
           <td>
@@ -20207,7 +20207,7 @@
           </td>
           <td>Short-Term Exemption</td>
           <td>Core</td>
-          <td>While the Risk Framework undergoes refinement, penalties for any Prime Agent breaches of Required Risk Capital will be calculated by Core GovOps once the infrastructure is in place to do so. This calculation serves the purposes of system monitoring, data gathering, and framework calibration. However, throughout this interim phase, such calculated penalties will not be formally assessed against Prime Agents, and consequently, Prime Agents will not be required to make payment for these penalties. Notwithstanding this temporary exemption from penalty payment, Prime Agents are expected to maintain a Risk Tolerance Ratio of less than or equal to 90%. See <dfn>A.3.3 - Risk Tolerance Ratio.</dfn></td>
+          <td>While the Risk Framework undergoes refinement, penalties for any Prime Agent breaches of Required Risk Capital will be calculated by Core GovOps once the infrastructure is in place to do so. This calculation serves the purposes of system monitoring, data gathering, and framework calibration. However, throughout this interim phase, such calculated penalties will not be formally assessed against Prime Agents, and consequently, Prime Agents will not be required to make payment for these penalties. Notwithstanding this temporary exemption from penalty payment, Prime Agents are expected to maintain an Encumbrance Ratio of less than or equal to 90%. See <dfn>A.3.3 - Encumbrance Ratio.</dfn></td>
         </tr>
         <tr>
           <td>
@@ -23123,11 +23123,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - SKY Borrow Minimum Rate - Parameters Definition - stUSDS Accessibility Reward Definition</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - SKY Borrow Minimum Rate - Parameters Definition - stUSDS Distribution Reward Definition</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - SKY Borrow Minimum Rate - Parameters Definition - stUSDS Accessibility Reward Definition</td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - SKY Borrow Rate - SKY Borrow Minimum Rate - Parameters Definition - stUSDS Distribution Reward Definition</td>
           <td>Core</td>
-          <td>stUSDS Accessibility Reward is defined in <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Accessibility Reward</dfn>.</td>
+          <td>stUSDS Distribution Reward is defined in <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Accessibility Reward</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -23177,7 +23177,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing - stUSDS Accessibility Reward</td>
           <td>Core</td>
-          <td>The stUSDS Accessibility Reward is an incentive mechanism, similar to the USDS Accessibility Reward, designed to encourage Prime Agents and Integrators to promote stUSDS adoption. See A.2.4 - Accessibility Reward Primitive. It is calculated as a percentage of the stUSDS balance associated with a Reward Code. The reward is initially set at 0.05% for the Integrator portion and 0.05% for the Prime Agent Management Fee, totaling 0.1%.</td>
+          <td>The stUSDS Distribution Reward is an incentive mechanism, similar to the USDS Accessibility Reward, designed to encourage Prime Agents and Integrators to promote stUSDS adoption. See A.2.4 - Distribution Reward Primitive. It is calculated as a percentage of the stUSDS balance associated with a Reward Code. The reward is initially set at 0.05% for the Integrator portion and 0.05% for the Prime Agent Management Fee, totaling 0.1%.</td>
         </tr>
         <tr>
           <td>
@@ -25991,11 +25991,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.2.4 - Sky Core Accessibility Reward Reimbursement Amounts</dfn>
+            <dfn>A.2.4 - Sky Core Distribution Reward Reimbursement Amounts</dfn>
           </td>
-          <td>Sky Core Accessibility Reward Reimbursement Amounts</td>
+          <td>Sky Core Distribution Reward Reimbursement Amounts</td>
           <td>Active Data</td>
-          <td>The current Sky Core Accessibility Reward Reimbursement Amounts are:</td>
+          <td>The current Sky Core Distribution Reward Reimbursement Amounts are:</td>
         </tr>
         <tr>
           <td>
@@ -26109,115 +26109,115 @@
         </tr>
         <tr>
           <td>
-            <dfn>List Of Accessibility Reward Payments</dfn>
+            <dfn>List Of Distribution Reward Payments</dfn>
           </td>
-          <td>List Of Accessibility Reward Payments</td>
+          <td>List Of Distribution Reward Payments</td>
           <td>Active Data</td>
-          <td>The Accessibility Reward Payments are:</td>
+          <td>The Distribution Reward Payments are:</td>
         </tr>
         <tr>
           <td>
-            <dfn>List Of Accessibility Reward Payments</dfn>
+            <dfn>List Of Distribution Reward Payments</dfn>
           </td>
-          <td>List Of Accessibility Reward Payments</td>
+          <td>List Of Distribution Reward Payments</td>
           <td>Active Data</td>
-          <td>The Accessibility Reward Payments are:</td>
+          <td>The Distribution Reward Payments are:</td>
         </tr>
         <tr>
           <td>
-            <dfn>List Of Accessibility Reward Payments</dfn>
+            <dfn>List Of Distribution Reward Payments</dfn>
           </td>
-          <td>List Of Accessibility Reward Payments</td>
+          <td>List Of Distribution Reward Payments</td>
           <td>Active Data</td>
-          <td>The Accessibility Reward Payments are:</td>
+          <td>The Distribution Reward Payments are:</td>
         </tr>
         <tr>
           <td>
-            <dfn>List Of Accessibility Reward Payments</dfn>
+            <dfn>List Of Distribution Reward Payments</dfn>
           </td>
-          <td>List Of Accessibility Reward Payments</td>
+          <td>List Of Distribution Reward Payments</td>
           <td>Active Data</td>
-          <td>The Accessibility Reward Payments are:</td>
+          <td>The Distribution Reward Payments are:</td>
         </tr>
         <tr>
           <td>
-            <dfn>List Of Accessibility Reward Payments</dfn>
+            <dfn>List Of Distribution Reward Payments</dfn>
           </td>
-          <td>List Of Accessibility Reward Payments</td>
+          <td>List Of Distribution Reward Payments</td>
           <td>Active Data</td>
-          <td>The Accessibility Reward Payments are:</td>
+          <td>The Distribution Reward Payments are:</td>
         </tr>
         <tr>
           <td>
-            <dfn>List Of Accessibility Reward Payments</dfn>
+            <dfn>List Of Distribution Reward Payments</dfn>
           </td>
-          <td>List Of Accessibility Reward Payments</td>
+          <td>List Of Distribution Reward Payments</td>
           <td>Active Data</td>
-          <td>The Accessibility Reward Payments are:</td>
+          <td>The Distribution Reward Payments are:</td>
         </tr>
         <tr>
           <td>
-            <dfn>List Of Accessibility Reward Payments</dfn>
+            <dfn>List Of Distribution Reward Payments</dfn>
           </td>
-          <td>List Of Accessibility Reward Payments</td>
+          <td>List Of Distribution Reward Payments</td>
           <td>Active Data</td>
-          <td>The Accessibility Reward Payments are:</td>
+          <td>The Distribution Reward Payments are:</td>
         </tr>
         <tr>
           <td>
-            <dfn>List Of Accessibility Reward Payments</dfn>
+            <dfn>List Of Distribution Reward Payments</dfn>
           </td>
-          <td>List Of Accessibility Reward Payments</td>
+          <td>List Of Distribution Reward Payments</td>
           <td>Active Data</td>
-          <td>The Accessibility Reward Payments are:</td>
+          <td>The Distribution Reward Payments are:</td>
         </tr>
         <tr>
           <td>
-            <dfn>List Of Accessibility Reward Payments</dfn>
+            <dfn>List Of Distribution Reward Payments</dfn>
           </td>
-          <td>List Of Accessibility Reward Payments</td>
+          <td>List Of Distribution Reward Payments</td>
           <td>Active Data</td>
-          <td>The Accessibility Reward Payments are:</td>
+          <td>The Distribution Reward Payments are:</td>
         </tr>
         <tr>
           <td>
-            <dfn>List Of Accessibility Reward Payments</dfn>
+            <dfn>List Of Distribution Reward Payments</dfn>
           </td>
-          <td>List Of Accessibility Reward Payments</td>
+          <td>List Of Distribution Reward Payments</td>
           <td>Active Data</td>
-          <td>The Accessibility Reward Payments are:</td>
+          <td>The Distribution Reward Payments are:</td>
         </tr>
         <tr>
           <td>
-            <dfn>List Of Accessibility Reward Payments</dfn>
+            <dfn>List Of Distribution Reward Payments</dfn>
           </td>
-          <td>List Of Accessibility Reward Payments</td>
+          <td>List Of Distribution Reward Payments</td>
           <td>Active Data</td>
-          <td>The Accessibility Reward Payments are:</td>
+          <td>The Distribution Reward Payments are:</td>
         </tr>
         <tr>
           <td>
-            <dfn>List Of Accessibility Reward Payments</dfn>
+            <dfn>List Of Distribution Reward Payments</dfn>
           </td>
-          <td>List Of Accessibility Reward Payments</td>
+          <td>List Of Distribution Reward Payments</td>
           <td>Active Data</td>
-          <td>The Accessibility Reward Payments are:</td>
+          <td>The Distribution Reward Payments are:</td>
         </tr>
         <tr>
           <td>
-            <dfn>List Of Accessibility Reward Payments</dfn>
+            <dfn>List Of Distribution Reward Payments</dfn>
           </td>
-          <td>List Of Accessibility Reward Payments</td>
+          <td>List Of Distribution Reward Payments</td>
           <td>Active Data</td>
-          <td>The Accessibility Reward Payments are:</td>
+          <td>The Distribution Reward Payments are:</td>
         </tr>
         <tr>
           <td>
-            <dfn>List Of Accessibility Reward Payments</dfn>
+            <dfn>List Of Distribution Reward Payments</dfn>
           </td>
-          <td>List Of Accessibility Reward Payments</td>
+          <td>List Of Distribution Reward Payments</td>
           <td>Active Data</td>
-          <td>The Accessibility Reward Payments are:</td>
+          <td>The Distribution Reward Payments are:</td>
         </tr>
         <tr>
           <td>
@@ -28546,11 +28546,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Primitive</dfn>
+            <dfn>Distribution Reward Primitive</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein contain all data and specifications for Spark's instances of the Accessibility Reward Primitive. See <dfn>A.2.4 - Accessibility Reward Primitive</dfn>.</td>
+          <td>The documents herein contain all data and specifications for Spark's instances of the Distribution Reward Primitive. See <dfn>A.2.4 - Distribution Reward Primitive</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -28558,7 +28558,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein organize all base information relevant to Spark's usage of the Accessibility Reward Primitive.</td>
+          <td>The documents herein organize all base information relevant to Spark's usage of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -28574,7 +28574,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>This document contains a Directory of all Instances of the Accessibility Reward Primitive with Instance status of Active.</td>
+          <td>This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of Active.</td>
         </tr>
         <tr>
           <td>
@@ -28590,7 +28590,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>This document contains a Directory of all Instances of the Accessibility Reward Primitive with Instance status of Completed.</td>
+          <td>This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of Completed.</td>
         </tr>
         <tr>
           <td>
@@ -28598,7 +28598,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>This document contains a Directory of all prospective Instances of the Accessibility Reward Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to <dfn>Active Instances Directory</dfn>, whereas failed Invocations are Archived in <dfn>Hub Data Repository</dfn>.</td>
+          <td>This document contains a Directory of all prospective Instances of the Distribution Reward Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to <dfn>Active Instances Directory</dfn>, whereas failed Invocations are Archived in <dfn>Hub Data Repository</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -28614,7 +28614,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The subtrees for archived Invocations and Instances of the Accessibility Reward Primitive are stored here.</td>
+          <td>The subtrees for archived Invocations and Instances of the Distribution Reward Primitive are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -28622,7 +28622,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The subtrees for failed Invocations of the Accessibility Reward Primitive are stored here.</td>
+          <td>The subtrees for failed Invocations of the Distribution Reward Primitive are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -28630,7 +28630,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The subtrees for Instances of the Accessibility Reward Primitive with Suspended Status are stored here.</td>
+          <td>The subtrees for Instances of the Distribution Reward Primitive with Suspended Status are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -28638,7 +28638,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The Instances of the Accessibility Reward Primitive with Active Status are stored herein.</td>
+          <td>The Instances of the Distribution Reward Primitive with Active Status are stored herein.</td>
         </tr>
         <tr>
           <td>
@@ -28646,7 +28646,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the SparkLend Accessibility Reward Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the SparkLend Distribution Reward Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -28654,7 +28654,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the SparkLend Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the parameters of the SparkLend Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -28678,7 +28678,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the SparkLend Instance of the Accessibility Reward Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the SparkLend Instance of the Distribution Reward Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -28686,7 +28686,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the SparkLend Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the SparkLend Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -28710,7 +28710,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of the SparkLend Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of the SparkLend Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -28718,7 +28718,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the SparkLend Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the SparkLend Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -28726,7 +28726,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the SparkLend Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein contain data relevant to the SparkLend Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -28754,11 +28754,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Payments</dfn>
+            <dfn>Distribution Reward Payments</dfn>
           </td>
           <td>Spark</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward payments for the SparkLend Instance of the Accessibility Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps. - The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward payments for the SparkLend Instance of the Distribution Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps. - The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -28766,7 +28766,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The Instances of the Accessibility Reward Primitive with Completed Status are stored herein.</td>
+          <td>The Instances of the Distribution Reward Primitive with Completed Status are stored herein.</td>
         </tr>
         <tr>
           <td>
@@ -28774,7 +28774,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The in progress Invocations of the Accessibility Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to <dfn>Active Instances</dfn>.</td>
+          <td>The in progress Invocations of the Distribution Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to <dfn>Active Instances</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -30988,11 +30988,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Spark's Operation Of Spark Liquidity Layer And Agreement Regarding Risk Tolerance Ratio</dfn>
+            <dfn>Spark's Operation Of Spark Liquidity Layer And Agreement Regarding Encumbrance Ratio</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>Spark will continue to operate the Spark Liquidity Layer and agrees to stay at or below a 90% Risk Tolerance Ratio. See <dfn>A.3.3 - Risk Tolerance Ratio</dfn>.</td>
+          <td>Spark will continue to operate the Spark Liquidity Layer and agrees to stay at or below a 90% Encumbrance Ratio. See <dfn>A.3.3 - Encumbrance Ratio</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -41260,11 +41260,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Risk Tolerance Ratio</dfn>
+            <dfn>Encumbrance Ratio</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The documents herein define Spark's policy for managing the Risk Tolerance Ratio.</td>
+          <td>The documents herein define Spark's policy for managing the Encumbrance Ratio.</td>
         </tr>
         <tr>
           <td>
@@ -41272,7 +41272,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>The Risk Tolerance Ratio is defined as the ratio of Spark's Required Risk Capital (RRC) to Total Risk Capital (TRC), as these terms are defined in the Sky Atlas Stability Scope (<dfn>A.3.3 - Risk Tolerance Ratio</dfn>). Spark will seek to maintain a Risk Tolerance Ratio not greater than the Target Risk Tolerance Ratio specified in <dfn>Parameters</dfn>.</td>
+          <td>The Encumbrance Ratio is defined as the ratio of Spark's Required Risk Capital (RRC) to Total Risk Capital (TRC), as these terms are defined in the Sky Atlas Stability Scope (<dfn>A.3.3 - Encumbrance Ratio</dfn>). Spark will seek to maintain an Encumbrance Ratio not greater than the Target Encumbrance Ratio specified in <dfn>Parameters</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -41280,7 +41280,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td><p>Spark governance and contributors must take immediate action to reduce the Risk Tolerance Ratio when it exceeds the Target Risk Tolerance Ratio level. These actions may fall into two categories, risk capital actions or allocation system actions.</p><p>Risk capital actions are actions Spark takes to increase Total Risk Capital, including increasing Internal Junior Risk Capital, sourcing External Junior Risk Capital from other Prime Agents or tokenized sources, or sourcing External Senior Risk Capital from Sky or tokenized sources.</p><p>Allocation system actions involve adjusting the capital allocations within the Spark instance of the Allocation System to reduce Required Risk Capital, such as unwinding or disposing of assets requiring higher levels of risk capital as a percent of exposure.</p><p>The operational processes implemented at Spark will meet or exceed the requirements specified in the Sky Atlas at <dfn>A.2.4 - Primes' Total Risk Capital (TRC) Management</dfn>.</p></td>
+          <td><p>Spark governance and contributors must take immediate action to reduce the Encumbrance Ratio when it exceeds the Target Encumbrance Ratio level. These actions may fall into two categories, risk capital actions or allocation system actions.</p><p>Risk capital actions are actions Spark takes to increase Total Risk Capital, including increasing Internal Junior Risk Capital, sourcing External Junior Risk Capital from other Prime Agents or tokenized sources, or sourcing External Senior Risk Capital from Sky or tokenized sources.</p><p>Allocation system actions involve adjusting the capital allocations within the Spark instance of the Allocation System to reduce Required Risk Capital, such as unwinding or disposing of assets requiring higher levels of risk capital as a percent of exposure.</p><p>The operational processes implemented at Spark will meet or exceed the requirements specified in the Sky Atlas at <dfn>A.2.4 - Primes' Total Risk Capital (TRC) Management</dfn>.</p></td>
         </tr>
         <tr>
           <td>
@@ -41288,7 +41288,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td><p>The current Target Risk Tolerance Ratio is 90%.</p><p>This parameter will be maintained in parallel with the value specified in the Spark Artifact Allocation System Primitive section at <dfn>Spark's Operation Of Spark Liquidity Layer And Agreement Regarding Risk Tolerance Ratio</dfn>; any change to one section of the Spark Artifact will require a corresponding change in the other section.</p></td>
+          <td><p>The current Target Encumbrance Ratio is 90%.</p><p>This parameter will be maintained in parallel with the value specified in the Spark Artifact Allocation System Primitive section at <dfn>Spark's Operation Of Spark Liquidity Layer And Agreement Regarding Encumbrance Ratio</dfn>; any change to one section of the Spark Artifact will require a corresponding change in the other section.</p></td>
         </tr>
         <tr>
           <td>
@@ -43306,11 +43306,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Primitive</dfn>
+            <dfn>Distribution Reward Primitive</dfn>
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The documents herein contain all data and specifications for Grove's Instances of the Accessibility Reward Primitive. See <dfn>A.2.4 - Accessibility Reward Primitive</dfn>.</td>
+          <td>The documents herein contain all data and specifications for Grove's Instances of the Distribution Reward Primitive. See <dfn>A.2.4 - Distribution Reward Primitive</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -43318,7 +43318,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The documents herein organize all base information relevant to Grove's usage of the Accessibility Reward Primitive.</td>
+          <td>The documents herein organize all base information relevant to Grove's usage of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -43334,7 +43334,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>This document contains a Directory of all Instances of the Accessibility Reward Primitive with Instance status of Active.</td>
+          <td>This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of Active.</td>
         </tr>
         <tr>
           <td>
@@ -43342,7 +43342,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>This document contains a Directory of all Instances of the Accessibility Reward Primitive with Instance status of Completed.</td>
+          <td>This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of Completed.</td>
         </tr>
         <tr>
           <td>
@@ -43350,7 +43350,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>This document contains a Directory of all prospective Instances of the Accessibility Reward Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to <dfn>Active Instances Directory</dfn>, whereas failed Invocations are Archived in <dfn>Hub Data Repository</dfn>.</td>
+          <td>This document contains a Directory of all prospective Instances of the Distribution Reward Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to <dfn>Active Instances Directory</dfn>, whereas failed Invocations are Archived in <dfn>Hub Data Repository</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -43366,7 +43366,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The subtrees for archived Invocations and Instances of the Accessibility Reward Primitive are stored here.</td>
+          <td>The subtrees for archived Invocations and Instances of the Distribution Reward Primitive are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -43374,7 +43374,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The subtrees for failed Invocations of the Accessibility Reward Primitive are stored here.</td>
+          <td>The subtrees for failed Invocations of the Distribution Reward Primitive are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -43382,7 +43382,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The subtrees for Instances of the Accessibility Reward Primitive with Suspended Status are stored here.</td>
+          <td>The subtrees for Instances of the Distribution Reward Primitive with Suspended Status are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -43390,7 +43390,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The Instances of the Accessibility Reward Primitive with Active Status are stored herein.</td>
+          <td>The Instances of the Distribution Reward Primitive with Active Status are stored herein.</td>
         </tr>
         <tr>
           <td>
@@ -43398,7 +43398,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The Instances of the Accessibility Reward Primitive with Completed Status are stored herein.</td>
+          <td>The Instances of the Distribution Reward Primitive with Completed Status are stored herein.</td>
         </tr>
         <tr>
           <td>
@@ -43406,7 +43406,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The in progress Invocations of the Accessibility Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to <dfn>Active Instances</dfn>.</td>
+          <td>The in progress Invocations of the Distribution Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to <dfn>Active Instances</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -44425,11 +44425,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Grove Labs's Operation Of Grove Liquidity Layer And Agreement Regarding Risk Tolerance Ratio</dfn>
+            <dfn>Grove Labs's Operation Of Grove Liquidity Layer And Agreement Regarding Encumbrance Ratio</dfn>
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>Grove Labs will operate the Grove Liquidity Layer and agrees to stay at or below a 90% Risk Tolerance Ratio. See <dfn>A.3.3 - Risk Tolerance Ratio</dfn>.</td>
+          <td>Grove Labs will operate the Grove Liquidity Layer and agrees to stay at or below a 90% Encumbrance Ratio. See <dfn>A.3.3 - Encumbrance Ratio</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -50907,12 +50907,12 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Primitive</dfn>
+            <dfn>Distribution Reward Primitive</dfn>
           </td>
           <td>Keel</td>
           <td>Core</td>
           <td>
-            The documents herein contain all data and specifications for Keel's Instances of the Accessibility Reward Primitive. See <dfn>A.2.4 - Accessibility Reward Primitive</dfn>.
+            The documents herein contain all data and specifications for Keel's Instances of the Distribution Reward Primitive. See <dfn>A.2.4 - Distribution Reward Primitive</dfn>.
           </td>
         </tr>
         <tr>
@@ -50921,7 +50921,7 @@
           </td>
           <td>Keel</td>
           <td>Core</td>
-          <td>The documents herein organize all base information relevant to Keel's usage of the Accessibility Reward Primitive.</td>
+          <td>The documents herein organize all base information relevant to Keel's usage of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -50937,7 +50937,7 @@
           </td>
           <td>Keel</td>
           <td>Core</td>
-          <td>This document contains a Directory of all Instances of the Accessibility Reward Primitive with Instance status of Active.</td>
+          <td>This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of Active.</td>
         </tr>
         <tr>
           <td>
@@ -50945,7 +50945,7 @@
           </td>
           <td>Keel</td>
           <td>Core</td>
-          <td>This document contains a Directory of all Instances of the Accessibility Reward Primitive with Instance status of Completed.</td>
+          <td>This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of Completed.</td>
         </tr>
         <tr>
           <td>
@@ -50954,7 +50954,7 @@
           <td>Keel</td>
           <td>Core</td>
           <td>
-            This document contains a Directory of all prospective Instances of the Accessibility Reward Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to <dfn>Active Instances</dfn>, whereas failed Invocations are Archived in <dfn>Hub Data Repository</dfn>.
+            This document contains a Directory of all prospective Instances of the Distribution Reward Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to <dfn>Active Instances</dfn>, whereas failed Invocations are Archived in <dfn>Hub Data Repository</dfn>.
           </td>
         </tr>
         <tr>
@@ -50971,7 +50971,7 @@
           </td>
           <td>Keel</td>
           <td>Core</td>
-          <td>The subtrees for archived Invocations and Instances of the Accessibility Reward Primitive are stored here.</td>
+          <td>The subtrees for archived Invocations and Instances of the Distribution Reward Primitive are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -50979,7 +50979,7 @@
           </td>
           <td>Keel</td>
           <td>Core</td>
-          <td>The subtrees for failed Invocations of the Accessibility Reward Primitive are stored here.</td>
+          <td>The subtrees for failed Invocations of the Distribution Reward Primitive are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -50987,7 +50987,7 @@
           </td>
           <td>Keel</td>
           <td>Core</td>
-          <td>The subtrees for Instances of the Accessibility Reward Primitive with Suspended Status are stored here.</td>
+          <td>The subtrees for Instances of the Distribution Reward Primitive with Suspended Status are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -50995,7 +50995,7 @@
           </td>
           <td>Keel</td>
           <td>Core</td>
-          <td>The Instances of the Accessibility Reward Primitive with Active Status are stored herein.</td>
+          <td>The Instances of the Distribution Reward Primitive with Active Status are stored herein.</td>
         </tr>
         <tr>
           <td>
@@ -51003,7 +51003,7 @@
           </td>
           <td>Keel</td>
           <td>Core</td>
-          <td>The Instances of the Accessibility Reward Primitive with Completed Status are stored herein.</td>
+          <td>The Instances of the Distribution Reward Primitive with Completed Status are stored herein.</td>
         </tr>
         <tr>
           <td>
@@ -51012,7 +51012,7 @@
           <td>Keel</td>
           <td>Core</td>
           <td>
-            The in progress Invocations of the Accessibility Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to <dfn>Active Instances</dfn>.
+            The in progress Invocations of the Distribution Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to <dfn>Active Instances</dfn>.
           </td>
         </tr>
         <tr>
@@ -54682,12 +54682,12 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Primitive</dfn>
+            <dfn>Distribution Reward Primitive</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
           <td>
-            The documents herein contain all data and specifications for Launch Agent 3's instances of the Accessibility Reward Primitive. See <dfn>A.2.4 - Accessibility Reward Primitive</dfn>.
+            The documents herein contain all data and specifications for Launch Agent 3's instances of the Distribution Reward Primitive. See <dfn>A.2.4 - Distribution Reward Primitive</dfn>.
           </td>
         </tr>
         <tr>
@@ -54696,7 +54696,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein organize all base information relevant to Launch Agent 3's usage of the Accessibility Reward Primitive.</td>
+          <td>The documents herein organize all base information relevant to Launch Agent 3's usage of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -54712,7 +54712,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>This document contains a Directory of all Instances of the Accessibility Reward Primitive with Instance status of Active.</td>
+          <td>This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of Active.</td>
         </tr>
         <tr>
           <td>
@@ -54800,7 +54800,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>This document contains a Directory of all Instances of the Accessibility Reward Primitive with Instance status of Completed.</td>
+          <td>This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of Completed.</td>
         </tr>
         <tr>
           <td>
@@ -54809,7 +54809,7 @@
           <td>Launch Agent 3</td>
           <td>Core</td>
           <td>
-            This document contains a Directory of all prospective Instances of the Accessibility Reward Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to <dfn>Active Instances Directory</dfn>,; whereas failed Invocations are Archived in <dfn>Hub Data Repository</dfn>.
+            This document contains a Directory of all prospective Instances of the Distribution Reward Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to <dfn>Active Instances Directory</dfn>,; whereas failed Invocations are Archived in <dfn>Hub Data Repository</dfn>.
           </td>
         </tr>
         <tr>
@@ -54876,7 +54876,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The subtrees for archived Invocations and Instances of the Accessibility Reward Primitive are stored here.</td>
+          <td>The subtrees for archived Invocations and Instances of the Distribution Reward Primitive are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -54884,7 +54884,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The subtrees for failed Invocations of the Accessibility Reward Primitive are stored here.</td>
+          <td>The subtrees for failed Invocations of the Distribution Reward Primitive are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -54892,7 +54892,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The subtrees for Instances of the Accessibility Reward Primitive with Suspended Status are stored here.</td>
+          <td>The subtrees for Instances of the Distribution Reward Primitive with Suspended Status are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -54900,7 +54900,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The Instances of the Accessibility Reward Primitive with Active Status are stored herein.</td>
+          <td>The Instances of the Distribution Reward Primitive with Active Status are stored herein.</td>
         </tr>
         <tr>
           <td>
@@ -54908,7 +54908,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the Launch Agent 3 Frontend App Accessibility Reward Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the Launch Agent 3 Frontend App Distribution Reward Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -54916,7 +54916,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the Launch Agent 3 Frontend App Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the parameters of the Launch Agent 3 Frontend App Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -54942,7 +54942,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the Launch Agent 3 Frontend App Instance of the Accessibility Reward Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the Launch Agent 3 Frontend App Instance of the Distribution Reward Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -54950,7 +54950,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the Launch Agent 3 Frontend App Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the Launch Agent 3 Frontend App Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -54976,7 +54976,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of the Launch Agent 3 Frontend App Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of the Launch Agent 3 Frontend App Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -54984,7 +54984,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the Launch Agent 3 Frontend App Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the Launch Agent 3 Frontend App Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -54992,7 +54992,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the Launch Agent 3 Frontend App Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein contain data relevant to the Launch Agent 3 Frontend App Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55020,11 +55020,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Payments</dfn>
+            <dfn>Distribution Reward Payments</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward payments for the Launch Agent 3 Frontend App Instance of the Accessibility Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward payments for the Launch Agent 3 Frontend App Instance of the Distribution Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -55032,7 +55032,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the Launch Agent 3 Frontend Open Source Widgets Accessibility Reward Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the Launch Agent 3 Frontend Open Source Widgets Distribution Reward Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -55040,7 +55040,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the Launch Agent 3 Frontend Open Source Widgets Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the parameters of the Launch Agent 3 Frontend Open Source Widgets Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55066,7 +55066,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the Launch Agent 3 Frontend Open Source Widgets Instance of the Accessibility Reward Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the Launch Agent 3 Frontend Open Source Widgets Instance of the Distribution Reward Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -55074,7 +55074,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the Launch Agent 3 Frontend Open Source Widgets Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the Launch Agent 3 Frontend Open Source Widgets Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55100,7 +55100,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of the Launch Agent 3 Frontend Open Source Widgets Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of the Launch Agent 3 Frontend Open Source Widgets Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55108,7 +55108,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the Launch Agent 3 Frontend Open Source Widgets Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the Launch Agent 3 Frontend Open Source Widgets Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55116,7 +55116,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the Launch Agent 3 Frontend Open Source Widgets Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein contain data relevant to the Launch Agent 3 Frontend Open Source Widgets Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55144,11 +55144,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Payments</dfn>
+            <dfn>Distribution Reward Payments</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward payments for the Launch Agent 3 Frontend Open Source Widgets Instance of the Accessibility Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward payments for the Launch Agent 3 Frontend Open Source Widgets Instance of the Distribution Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -55156,7 +55156,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the Summer.fi Accessibility Reward Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the Summer.fi Distribution Reward Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -55164,7 +55164,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the Summer.fi Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the parameters of the Summer.fi Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55190,7 +55190,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the Summer.fi Instance of the Accessibility Reward Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the Summer.fi Instance of the Distribution Reward Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -55198,7 +55198,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the Summer.fi Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the Summer.fi Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55224,7 +55224,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of the Summer.fi Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of the Summer.fi Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55232,7 +55232,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the Summer.fi Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the Summer.fi Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55240,7 +55240,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the Summer.fi Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein contain data relevant to the Summer.fi Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55268,11 +55268,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Payments</dfn>
+            <dfn>Distribution Reward Payments</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward payments for the Summer.fi Instance of the Accessibility Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward payments for the Summer.fi Instance of the Distribution Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -55288,7 +55288,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the DeFi Saver Accessibility Reward Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the DeFi Saver Distribution Reward Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -55296,7 +55296,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the DeFi Saver Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the parameters of the DeFi Saver Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55322,7 +55322,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the DeFi Saver Instance of the Accessibility Reward Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the DeFi Saver Instance of the Distribution Reward Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -55330,7 +55330,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the DeFi Saver Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the DeFi Saver Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55356,7 +55356,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of the DeFi Saver Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of the DeFi Saver Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55364,7 +55364,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the DeFi Saver Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the DeFi Saver Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55372,7 +55372,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the DeFi Saver Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein contain data relevant to the DeFi Saver Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55400,11 +55400,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Payments</dfn>
+            <dfn>Distribution Reward Payments</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward payments for the DeFi Saver Instance of the Accessibility Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward payments for the DeFi Saver Instance of the Distribution Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -55420,7 +55420,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the CoW Swap Accessibility Reward Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the CoW Swap Distribution Reward Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -55428,7 +55428,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the CoW Swap Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the parameters of the CoW Swap Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55454,7 +55454,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the CoW Swap Instance of the Accessibility Reward Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the CoW Swap Instance of the Distribution Reward Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -55462,7 +55462,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the CoW Swap Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the CoW Swap Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55488,7 +55488,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of the CoW Swap Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of the CoW Swap Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55496,7 +55496,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the CoW Swap Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the CoW Swap Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55504,7 +55504,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the CoW Swap Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein contain data relevant to the CoW Swap Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55532,11 +55532,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Payments</dfn>
+            <dfn>Distribution Reward Payments</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward payments for the CoW Swap Instance of the Accessibility Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward payments for the CoW Swap Instance of the Distribution Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -55552,7 +55552,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the ParaSwap Accessibility Reward Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the ParaSwap Distribution Reward Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -55560,7 +55560,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the ParaSwap Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the parameters of the ParaSwap Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55586,7 +55586,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the ParaSwap Instance of the Accessibility Reward Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the ParaSwap Instance of the Distribution Reward Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -55594,7 +55594,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the ParaSwap Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the ParaSwap Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55620,7 +55620,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of the ParaSwap Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of the ParaSwap Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55628,7 +55628,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the ParaSwap Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the ParaSwap Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55636,7 +55636,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the ParaSwap Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein contain data relevant to the ParaSwap Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55664,11 +55664,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Payments</dfn>
+            <dfn>Distribution Reward Payments</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward payments for the ParaSwap Instance of the Accessibility Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward payments for the ParaSwap Instance of the Distribution Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -55684,7 +55684,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the Yearn (Gimme) Accessibility Reward Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the Yearn (Gimme) Distribution Reward Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -55692,7 +55692,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the Yearn (Gimme) Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the parameters of the Yearn (Gimme) Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55718,7 +55718,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the Yearn (Gimme) Instance of the Accessibility Reward Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the Yearn (Gimme) Instance of the Distribution Reward Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -55726,7 +55726,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the Yearn (Gimme) Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the Yearn (Gimme) Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55752,7 +55752,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of the Yearn (Gimme) Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of the Yearn (Gimme) Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55760,7 +55760,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the Yearn (Gimme) Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the Yearn (Gimme) Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55768,7 +55768,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the Yearn (Gimme) Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein contain data relevant to the Yearn (Gimme) Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55796,11 +55796,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Payments</dfn>
+            <dfn>Distribution Reward Payments</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward payments for the Yearn (Gimme) Instance of the Accessibility Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward payments for the Yearn (Gimme) Instance of the Distribution Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -55816,7 +55816,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the MOM Accessibility Reward Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the MOM Distribution Reward Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -55824,7 +55824,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the MOM Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the parameters of the MOM Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55850,7 +55850,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the MOM Instance of the Accessibility Reward Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the MOM Instance of the Distribution Reward Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -55858,7 +55858,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the MOM Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the MOM Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55884,7 +55884,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of the MOM Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of the MOM Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55892,7 +55892,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the MOM Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the MOM Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55900,7 +55900,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the MOM Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein contain data relevant to the MOM Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -55928,11 +55928,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Payments</dfn>
+            <dfn>Distribution Reward Payments</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward payments for the MOM Instance of the Accessibility Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward payments for the MOM Instance of the Distribution Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -55948,7 +55948,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The Instances of the Accessibility Reward Primitive with Completed Status are stored herein.</td>
+          <td>The Instances of the Distribution Reward Primitive with Completed Status are stored herein.</td>
         </tr>
         <tr>
           <td>
@@ -55957,7 +55957,7 @@
           <td>Launch Agent 3</td>
           <td>Core</td>
           <td>
-            The in progress Invocations of the Accessibility Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to <dfn>Active Instances</dfn>.
+            The in progress Invocations of the Distribution Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to <dfn>Active Instances</dfn>.
           </td>
         </tr>
         <tr>
@@ -55966,7 +55966,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the MetaMask Accessibility Reward Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the MetaMask Distribution Reward Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -55982,7 +55982,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the MetaMask Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the parameters of the MetaMask Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56006,7 +56006,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the MetaMask Instance of the Accessibility Reward Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the MetaMask Instance of the Distribution Reward Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -56014,7 +56014,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the MetaMask Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the MetaMask Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56040,7 +56040,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of the MetaMask Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of the MetaMask Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56048,7 +56048,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the MetaMask Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the MetaMask Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56056,7 +56056,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the MetaMask Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein contain data relevant to the MetaMask Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56084,11 +56084,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Payments</dfn>
+            <dfn>Distribution Reward Payments</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward payments for the MetaMask Instance of the Accessibility Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward payments for the MetaMask Instance of the Distribution Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -56104,7 +56104,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the InstaDapp Accessibility Reward Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the InstaDapp Distribution Reward Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -56120,7 +56120,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the InstaDapp Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the parameters of the InstaDapp Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56144,7 +56144,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the InstaDapp Instance of the Accessibility Reward Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the InstaDapp Instance of the Distribution Reward Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -56152,7 +56152,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the InstaDapp Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the InstaDapp Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56178,7 +56178,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of the InstaDapp Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of the InstaDapp Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56186,7 +56186,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the InstaDapp Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the InstaDapp Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56194,7 +56194,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the InstaDapp Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein contain data relevant to the InstaDapp Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56222,11 +56222,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Payments</dfn>
+            <dfn>Distribution Reward Payments</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward payments for the InstaDapp Instance of the Accessibility Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward payments for the InstaDapp Instance of the Distribution Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -56242,7 +56242,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the Gnosis Protocol Accessibility Reward Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the Gnosis Protocol Distribution Reward Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -56258,7 +56258,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the Gnosis Protocol Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the parameters of the Gnosis Protocol Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56282,7 +56282,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the Gnosis Instance of the Accessibility Reward Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the Gnosis Instance of the Distribution Reward Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -56290,7 +56290,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the Gnosis Protocol Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the Gnosis Protocol Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56316,7 +56316,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of the Gnosis Protocol Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of the Gnosis Protocol Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56324,7 +56324,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the Gnosis Protocol Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the Gnosis Protocol Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56332,7 +56332,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the Gnosis Protocol Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein contain data relevant to the Gnosis Protocol Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56360,11 +56360,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Payments</dfn>
+            <dfn>Distribution Reward Payments</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward payments for the Gnosis Protocol Instance of the Accessibility Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward payments for the Gnosis Protocol Instance of the Distribution Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -56380,7 +56380,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the Piku.co Accessibility Reward Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the Piku.co Distribution Reward Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -56396,7 +56396,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the Piku.co Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the parameters of the Piku.co Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56420,7 +56420,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the Piku.co Instance of the Accessibility Reward Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the Piku.co Instance of the Distribution Reward Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -56428,7 +56428,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the Piku.co Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the Piku.co Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56454,7 +56454,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of the Piku.co Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of the Piku.co Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56462,7 +56462,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the Piku.co Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the Piku.co Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56470,7 +56470,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the Piku.co Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein contain data relevant to the Piku.co Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56498,11 +56498,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Payments</dfn>
+            <dfn>Distribution Reward Payments</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward payments for the Piku.co Instance of the Accessibility Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward payments for the Piku.co Instance of the Distribution Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -56518,7 +56518,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain the Instance Configuration Document for the Lazy Summer Protocol Accessibility Reward Primitive Instance.</td>
+          <td>The documents herein contain the Instance Configuration Document for the Lazy Summer Protocol Distribution Reward Primitive Instance.</td>
         </tr>
         <tr>
           <td>
@@ -56534,7 +56534,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the parameters of the Lazy Summer Protocol Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the parameters of the Lazy Summer Protocol Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56558,7 +56558,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the custom parameters of the Lazy Summer Protocol Instance of the Accessibility Reward Primitive, if any.</td>
+          <td>The documents herein define the custom parameters of the Lazy Summer Protocol Instance of the Distribution Reward Primitive, if any.</td>
         </tr>
         <tr>
           <td>
@@ -56566,7 +56566,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the process for the ongoing management of the Lazy Summer Protocol Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein define the process for the ongoing management of the Lazy Summer Protocol Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56592,7 +56592,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for non-routine ongoing management of the Lazy Summer Protocol Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for non-routine ongoing management of the Lazy Summer Protocol Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56600,7 +56600,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the Lazy Summer Protocol Instance of this Accessibility Reward Primitive.</td>
+          <td>The documents herein define the protocol for handling emergency situations in the ongoing management of the Lazy Summer Protocol Instance of this Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56608,7 +56608,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>The documents herein contain data relevant to the Lazy Summer Protocol Instance of the Accessibility Reward Primitive.</td>
+          <td>The documents herein contain data relevant to the Lazy Summer Protocol Instance of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -56636,11 +56636,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Payments</dfn>
+            <dfn>Distribution Reward Payments</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Active Data Controller</td>
-          <td>The Accessibility Reward payments for the Lazy Summer Protocol Instance of the Accessibility Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
+          <td>The Distribution Reward payments for the Lazy Summer Protocol Instance of the Distribution Reward Primitive are defined as Active Data. The Active Data is updated as follows:- The Responsible Party is Operational GovOps.- The Update Process must follow the protocol for 'Direct Edit'.</td>
         </tr>
         <tr>
           <td>
@@ -57746,11 +57746,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Strategy</dfn>
+            <dfn>Distribution Reward Strategy</dfn>
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>Launch Agent 3's strategy with respect to the Accessibility Reward Primitive is to encourage the broad adoption of USDS by bridging into new communities and DeFi platforms, thereby earning and distributing Accessibility Rewards for USDS balances facilitated through its frontend. Prospective partners should demonstrate strong alignment with Launch Agent 3's mission, and offer clear pathways to engage new user bases and support the sustainable growth of USDS across diverse ecosystems. The guiding criteria are as follows:- <strong>Shared Mission Alignment:</strong> Partners must demonstrate a commitment to promoting user-friendly stablecoin usage and responsible financial empowerment.- <strong>Clear Synergy:</strong> The collaboration should enhance USDS accessibility, by offering either a unique distribution channel or a robust incentive model. - <strong>Community Benefit</strong>: Proposed partnerships should deliver tangible rewards or advantages that resonate with Sky's user base. - <strong>Scalability & Compliance:</strong> Potential integrations should have the capacity to handle increased demand and adhere to the risk management guidelines described in the Atlas.</td>
+          <td>Launch Agent 3's strategy with respect to the Distribution Reward Primitive is to encourage the broad adoption of USDS by bridging into new communities and DeFi platforms, thereby earning and distributing Distribution Rewards for USDS balances facilitated through its frontend. Prospective partners should demonstrate strong alignment with Launch Agent 3's mission, and offer clear pathways to engage new user bases and support the sustainable growth of USDS across diverse ecosystems. The guiding criteria are as follows:- <strong>Shared Mission Alignment:</strong> Partners must demonstrate a commitment to promoting user-friendly stablecoin usage and responsible financial empowerment.- <strong>Clear Synergy:</strong> The collaboration should enhance USDS accessibility, by offering either a unique distribution channel or a robust incentive model. - <strong>Community Benefit</strong>: Proposed partnerships should deliver tangible rewards or advantages that resonate with Sky's user base. - <strong>Scalability & Compliance:</strong> Potential integrations should have the capacity to handle increased demand and adhere to the risk management guidelines described in the Atlas.</td>
         </tr>
         <tr>
           <td>
@@ -59810,12 +59810,12 @@
         </tr>
         <tr>
           <td>
-            <dfn>Accessibility Reward Primitive</dfn>
+            <dfn>Distribution Reward Primitive</dfn>
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
           <td>
-            The documents herein contain all data and specifications for Launch Agent 4's instances of the Accessibility Reward Primitive. See <dfn>A.2.4 - Accessibility Reward Primitive</dfn>.
+            The documents herein contain all data and specifications for Launch Agent 4's instances of the Distribution Reward Primitive. See <dfn>A.2.4 - Distribution Reward Primitive</dfn>.
           </td>
         </tr>
         <tr>
@@ -59824,7 +59824,7 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>The documents herein organize all base information relevant to Launch Agent 4's usage of the Accessibility Reward Primitive.</td>
+          <td>The documents herein organize all base information relevant to Launch Agent 4's usage of the Distribution Reward Primitive.</td>
         </tr>
         <tr>
           <td>
@@ -59840,7 +59840,7 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>This document contains a Directory of all Instances of the Accessibility Reward Primitive with Instance status of <code>Active</code>.</td>
+          <td>This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of <code>Active</code>.</td>
         </tr>
         <tr>
           <td>
@@ -59848,7 +59848,7 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>This document contains a Directory of all Instances of the Accessibility Reward Primitive with Instance status of <code>Completed</code>.</td>
+          <td>This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of <code>Completed</code>.</td>
         </tr>
         <tr>
           <td>
@@ -59857,7 +59857,7 @@
           <td>Launch Agent 4</td>
           <td>Core</td>
           <td>
-            This document contains a Directory of all prospective Instances of the Accessibility Reward Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to <dfn>Active Instances Directory</dfn>, whereas failed Invocations are Archived in <dfn>Hub Data Repository</dfn>.
+            This document contains a Directory of all prospective Instances of the Distribution Reward Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to <dfn>Active Instances Directory</dfn>, whereas failed Invocations are Archived in <dfn>Hub Data Repository</dfn>.
           </td>
         </tr>
         <tr>
@@ -59874,7 +59874,7 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>The subtrees for archived Invocations and Instances of the Accessibility Reward Primitive are stored here.</td>
+          <td>The subtrees for archived Invocations and Instances of the Distribution Reward Primitive are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -59882,7 +59882,7 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>The subtrees for failed Invocations of the Accessibility Reward Primitive are stored here.</td>
+          <td>The subtrees for failed Invocations of the Distribution Reward Primitive are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -59890,7 +59890,7 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>The subtrees for Instances of the Accessibility Reward Primitive with <code>Suspended</code> Status are stored here.</td>
+          <td>The subtrees for Instances of the Distribution Reward Primitive with <code>Suspended</code> Status are stored here.</td>
         </tr>
         <tr>
           <td>
@@ -59898,7 +59898,7 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>The Instances of the Accessibility Reward Primitive with <code>Active</code> Status are stored herein.</td>
+          <td>The Instances of the Distribution Reward Primitive with <code>Active</code> Status are stored herein.</td>
         </tr>
         <tr>
           <td>
@@ -59906,7 +59906,7 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>The Instances of the Accessibility Reward Primitive with <code>Completed</code> Status are stored herein.</td>
+          <td>The Instances of the Distribution Reward Primitive with <code>Completed</code> Status are stored herein.</td>
         </tr>
         <tr>
           <td>
@@ -59915,7 +59915,7 @@
           <td>Launch Agent 4</td>
           <td>Core</td>
           <td>
-            The in progress Invocations of the Accessibility Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to <dfn>Active Instances</dfn>.
+            The in progress Invocations of the Distribution Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to <dfn>Active Instances</dfn>.
           </td>
         </tr>
         <tr>
