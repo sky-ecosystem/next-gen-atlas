@@ -2692,6 +2692,140 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.1.9 - Execution Of Agent Spells</dfn>
+          </td>
+          <td>Execution Of Agent Spells</td>
+          <td>Core</td>
+          <td>The execution of Agent Spells is described in the subdocuments herein. Two methods are available: direct execution in a Sky Core Spell and execution through StarGuard. Execution through StarGuard is the preferred method and any exceptions require valid reasoning, except as specified in <dfn>A.1.9 - Short-term Transitionary Measures</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Execution Through StarGuard</dfn>
+          </td>
+          <td>Execution Through StarGuard</td>
+          <td>Core</td>
+          <td>When the execution through the StarGuard method is used, the Agent Spells are whitelisted in Sky Core Spells and later executed using the StarGuard module. The Sky Core Spell includes a whitelist of approved Agent Spells, which allows them to be executed via separate transactions. This enhances resilience and scalability, ensuring robust handling of payloads from multiple active Agents while minimizing risks to Sky Core.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - StarGuard</dfn>
+          </td>
+          <td>StarGuard</td>
+          <td>Core</td>
+          <td>For each Agent, a <code>StarGuard</code> contract is deployed to manage whitelisting and execution of Agent Spells. This contract acts as a standardized "proxy wrapper".</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - StarGuard Functionality</dfn>
+          </td>
+          <td>StarGuard Functionality</td>
+          <td>Core</td>
+          <td>When initiated in a Sky Core Spell, the StarGuard whitelists relevant Agent Spells, enabling their secure execution. This whitelisting allows Agent Spells to run independently, supporting arbitrary complexity and custom features like office hours or expiration times. StarGuard also supports dropping a whitelisted Agent Spell, providing a mechanism to revoke access if needed for security or error correction. This is done via the <code>drop()</code> function.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - StarGuard Ownership</dfn>
+          </td>
+          <td>StarGuard Ownership</td>
+          <td>Core</td>
+          <td>The StarGuard contract is owned by the Pause Proxy, ensuring centralized control and preventing unauthorized changes.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Responsibilities For Agents</dfn>
+          </td>
+          <td>Responsibilities For Agents</td>
+          <td>Core</td>
+          <td>The Agents are required to include logic for the public view method <code>isExecutable()</code> in their Spell. This function is used to signal if the Spell is ready to be executed in a particular block or not. StarGuard cannot execute an Agent Spell if <code>isExecutable()</code> returns <code>False</code>. The value that must be returned for execution to be possible is <code>True</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - StarGuard Whitelisting Authority</dfn>
+          </td>
+          <td>StarGuard Whitelisting Authority</td>
+          <td>Core</td>
+          <td>Only the owner, the Pause Proxy, is able to whitelist new Agent Spells via a Sky Core Spell.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - StarGuard Max Delay</dfn>
+          </td>
+          <td>StarGuard Max Delay</td>
+          <td>Core</td>
+          <td>A configurable <code>maxDelay</code> sets the maximum duration between the whitelisting of the Agent Spell in the Sky Core Spell and the execution of the Agent Spell. This feature ensures Spells do not linger indefinitely, enforcing timely processing and reducing risks from delayed or forgotten actions. The recommended value for <code>maxDelay</code> is seven (7) days.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Requirements For Whitelisting</dfn>
+          </td>
+          <td>Requirements For Whitelisting</td>
+          <td>Core</td>
+          <td>The requirements for whitelisting are:
+            <ul>
+              <li>The address of the Agent Spell.</li>
+              <li>The codehash of the Spell's bytecode.</li>
+              <li>Confirmation that direct execution is not needed. If direct execution is needed, a valid reason must be provided.</li>
+            </ul>
+            This information must be provided by the Agent Spell reviewers to the Governance Point.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Permissionless Execution</dfn>
+          </td>
+          <td>Permissionless Execution</td>
+          <td>Core</td>
+          <td>The triggering of an Agent Spell is permissionless; anyone can initiate execution. A keeper job, StarGuardJob, allows keepers to monitor and execute eligible Spells at the earliest possible block.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Function Call For Execution</dfn>
+          </td>
+          <td>Function Call For Execution</td>
+          <td>Core</td>
+          <td>Execution is initiated on the StarGuard contract via its <code>exec()</code> function, which performs necessary validation checks before calling the SubProxy's <code>exec(spellDataCopy.addr, abi.encodePacked(StarSpellLike.execute.selector))</code> to perform the Spell's actions.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Validation Checks By StarGuard</dfn>
+          </td>
+          <td>Validation Checks By StarGuard</td>
+          <td>Core</td>
+          <td>The following checks are enabled by the contract:
+            <ul>
+              <li>Verifies that the whitelisted Spell is executable only once, enforcing single-use to prevent replay attacks or unauthorized repeats.</li>
+              <li>Verifies that the whitelisted bytecode codehash is valid, protecting against tampering or malicious alterations.</li>
+              <li>Verifies that the Spell meets custom requirements (e.g., office hours) by confirming the <code>spell.isExecutable()</code> view function returns true.</li>
+              <li>Verifies that StarGuard retains access to the SubProxy, ensuring no loss of control during the Agent spell execution.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Direct Execution Through Sky Core Spell</dfn>
+          </td>
+          <td>Direct Execution Through Sky Core Spell</td>
+          <td>Core</td>
+          <td>When the execution through the Sky Core Spell method is used, the Agent Spells are executed directly in the Sky Core Spells.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Sky Core Spell Executes Agent Spell</dfn>
+          </td>
+          <td>Sky Core Spell Executes Agent Spell</td>
+          <td>Core</td>
+          <td>Execution of an Agent Spell is initiated by the Sky Core Spell, which directly calls <code>exec()</code> on the Agent's SubProxy contract to perform the Spell's actions in the same transaction. The SubProxy limits rights to the specific Agent, preventing access to Sky Core contracts. The current SubProxy contract is designed to execute the Agent Spell in the same transaction as the Sky Core Spell.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9 - Short-term Transitionary Measures</dfn>
+          </td>
+          <td>Short-term Transitionary Measures</td>
+          <td>Core</td>
+          <td>During the transitioning phase, before StarGuard is fully implemented and tested, only the Spark Agent will use the process specified in <dfn>A.1.9 - Execution Through StarGuard</dfn>. Other Agent Spells will use the process specified in <dfn>A.1.9 - Direct Execution Through Sky Core Spell</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.1.9 - Sky Core Governance Security - Executive Process Definition - Executive Process Breakdown</dfn>
           </td>
           <td>Sky Core Governance Security - Executive Process Definition - Executive Process Breakdown</td>
@@ -11877,11 +12011,11 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.2.4 - Direct Sky Exposures</dfn>
+            <dfn>A.2.4 - Sky Direct Exposures</dfn>
           </td>
-          <td>Direct Sky Exposures</td>
+          <td>Sky Direct Exposures</td>
           <td>Core</td>
-          <td>Direct Sky Exposures are exposures that are held directly by Sky but implemented through the Allocation System of a Prime Agent. The documents herein define the rules for Direct Sky Exposures.</td>
+          <td>Sky Direct Exposures are exposures that are held directly by Sky but implemented through the Allocation System of a Prime Agent. The documents herein define the rules for Sky Direct Exposures.</td>
         </tr>
         <tr>
           <td>
@@ -11889,23 +12023,20 @@
           </td>
           <td>Designation Process</td>
           <td>Core</td>
-          <td>Direct Sky Exposures are designated directly by Sky Governance via the Atlas Edit Proposal process. Direct Sky Exposures are recorded in <dfn>A.2.4 - Current Direct Sky Exposures</dfn> and must specify the asset that is being designated as a Direct Sky Exposure and the Prime Agent responsible for implementing the Exposure.</td>
+          <td>Sky Direct Exposures are designated by the Core Facilitator in consultation with the Core Council Risk Advisor via posts to the Sky Forum under the “Sky Core” category. Sky Direct Exposures are recorded in <dfn>A.2.4 - List Of Current Sky Direct Exposures</dfn> and must specify the asset that is being designated as a Sky Direct Exposure and the Prime Agent responsible for implementing the exposure.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.2.4 - Current Direct Sky Exposures</dfn>
+            <dfn>A.2.4 - Current Sky Direct Exposures</dfn>
           </td>
-          <td>Current Direct Sky Exposures</td>
-          <td>Core</td>
-          <td>The current Direct Sky Exposures are specified in the documents herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.2.4 - JAAA Direct Exposure Through Grove</dfn>
-          </td>
-          <td>JAAA Direct Exposure Through Grove</td>
-          <td>Core</td>
-          <td>Investments in JAAA on Ethereum Mainnet by Grove are designated as Direct Sky Exposures.</td>
+          <td>Current Sky Direct Exposures</td>
+          <td>Active Data Controller</td>
+          <td><p>The list of current Sky Direct Exposures is defined as Active Data in <dfn>A.2.4 - List Of Current Sky Direct Exposures</dfn>.</p><p>The Active Data is updated as follows:</p>
+          <ul>
+            <li>The Responsible Party is the Core Facilitator.</li>
+            <li>The Update Process must follow the protocol for 'Direct Edit'.</li>
+          </ul>
+        </td>
         </tr>
         <tr>
           <td>
@@ -11918,7 +12049,7 @@
               <li>Rate limits; and</li>
               <li>Aggregate exposure limits.</li>
             </ul>
-            The Core Facilitator must post the initial values for these parameters and any updates to them to the Sky Forum under the "Sky Core" category. The values for the parameters for Sky Direct Exposures are set by the Core Facilitator and supersede any values for these parameters specified in the Risk Framework.
+            The Core Facilitator must post the initial values for these parameters and any updates to them to the Sky Forum under the “Sky Core” category. The values for the parameters for Sky Direct Exposures are set by the Core Facilitator and supersede any values for these parameters specified in the Risk Framework.
           </td>
         </tr>
         <tr>
@@ -11927,7 +12058,7 @@
           </td>
           <td>Treatment Of Exposures In Excess Of Aggregate Exposure Limit</td>
           <td>Core</td>
-          <td>Any investments in assets that would otherwise qualify as Direct Sky Exposures by a Prime Agent in excess of the aggregate exposure limit are not Direct Sky Exposures and are subject to the customary requirements pursuant to <dfn>A.2.6</dfn> and <dfn>A.3.3</dfn>.</td>
+          <td>Any investments in assets that would otherwise qualify as Sky Direct Exposures by a Prime Agent in excess of the aggregate exposure limit are not Sky Direct Exposures and are subject to the customary requirements pursuant to <dfn>A.2.6</dfn> and <dfn>A.3.3</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -13151,12 +13282,175 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.2.5
-              - Treasury Management - Treasury Management - Short Term Transitionary Measures</dfn>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures</dfn>
           </td>
           <td>Treasury Management - Treasury Management - Short Term Transitionary Measures</td>
           <td>Core</td>
-          <td>As a short-term transitionary measure, the net revenue of the Sky Protocol is currently allocated manually through Executive Votes rather than through the allocation steps defined above. This manual process will be removed in a future iteration of the Atlas.</td>
+          <td>As a short-term transitionary measure, the net revenue of the Sky Protocol is currently allocated through the allocation steps defined above with the modifications specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital</td>
+          <td>Core</td>
+          <td>In the short term, 21% of Step 1 Capital is allocated as specified in the documents herein. The remaining 79% of Step 1 Capital becomes Step 4 Capital and is allocated as specified in <dfn>A.2.5 - Allocation Of Step 4 Capital</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Core Council Buffer</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Core Council Buffer</td>
+          <td>Core</td>
+          <td>20% of Step 1 Capital is allocated to the Core Council Buffer, as specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Core Council Buffer - Core Council Buffer</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Core Council Buffer - Core Council Buffer</td>
+          <td>Core</td>
+          <td>The Core Council Buffer is a multisig controlled by the Core Facilitator and Core GovOps to transfer funds on behalf of the Core Council.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Core Council Buffer - Core Council Buffer - Core Council Buffer Multisig Address</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Core Council Buffer - Core Council Buffer - Core Council Buffer Multisig Address</td>
+          <td>Core</td>
+          <td>The address of the Core Council Buffer Multisig on the Ethereum Mainnet is <code>0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Core Council Buffer - Core Council Buffer - Core Council Buffer Multisig Required Number Of Signers</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Core Council Buffer - Core Council Buffer - Core Council Buffer Multisig Required Number Of Signers</td>
+          <td>Core</td>
+          <td>The Core Council Buffer Multisig has a 3/4 signing requirement.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Core Council Buffer - Core Council Buffer - Core Council Buffer Multisig Signers</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Core Council Buffer - Core Council Buffer - Core Council Buffer Multisig Signers</td>
+          <td>Core</td>
+          <td>The signers of the Core Council Buffer Multisig are two (2) addresses controlled by the Core Facilitator and two (2) addresses controlled by Core GovOps.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Core Council Buffer - Core Council Buffer - Core Council Buffer Multisig Usage Standards</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Core Council Buffer - Core Council Buffer - Core Council Buffer Multisig Usage Standards</td>
+          <td>Core</td>
+          <td>The Core Facilitator and Core GovOps must use the Core Council Buffer Multisig to disburse funds on behalf of the Core Council.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Core Council Buffer - Core Council Buffer - Core Council Buffer Multisig Modification</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Core Council Buffer - Core Council Buffer - Core Council Buffer Multisig Modification</td>
+          <td>Core</td>
+          <td>The Core Facilitator and Core GovOps can change the signers of the Core Council Buffer Multisig so long as:
+            <ul>
+              <li>there are at least four (4) signers;</li>
+              <li>a majority of signers are required to execute transactions; and</li>
+              <li>an equal number of signers are controlled by the Core Facilitator and Core GovOps.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Aligned Delegates Buffer</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Aligned Delegates Buffer</td>
+          <td>Core</td>
+          <td>1% of Step 1 Capital is allocated to the Aligned Delegates Buffer, as specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Aligned Delegates Buffer - Aligned Delegates Buffer</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Aligned Delegates Buffer - Aligned Delegates Buffer</td>
+          <td>Core</td>
+          <td>The Aligned Delegates Buffer is a multisig controlled by the Core Facilitator and Core GovOps to transfer funds to Aligned Delegates.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Aligned Delegates Buffer - Aligned Delegates Buffer - Aligned Delegates Buffer Multisig Address</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Aligned Delegates Buffer - Aligned Delegates Buffer - Aligned Delegates Buffer Multisig Address</td>
+          <td>Core</td>
+          <td>The address of the Aligned Delegates Buffer Multisig on the Ethereum Mainnet is <code>0x37FC5d447c8c54326C62b697f674c93eaD2A93A3</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Aligned Delegates Buffer - Aligned Delegates Buffer - Aligned Delegates Buffer Multisig Required Number Of Signers</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Aligned Delegates Buffer - Aligned Delegates Buffer - Aligned Delegates Buffer Multisig Required Number Of Signers</td>
+          <td>Core</td>
+          <td>The Aligned Delegates Buffer Multisig has a 3/4 signing requirement.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Aligned Delegates Buffer - Aligned Delegates Buffer - Aligned Delegates Buffer Multisig Signers</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Aligned Delegates Buffer - Aligned Delegates Buffer - Aligned Delegates Buffer Multisig Signers</td>
+          <td>Core</td>
+          <td>The signers of the Aligned Delegates Buffer Multisig are two (2) addresses controlled by the Core Facilitator and two (2) addresses controlled by Core GovOps.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Aligned Delegates Buffer - Aligned Delegates Buffer - Aligned Delegates Buffer Multisig Usage Standards</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Aligned Delegates Buffer - Aligned Delegates Buffer - Aligned Delegates Buffer Multisig Usage Standards</td>
+          <td>Core</td>
+          <td>The Core Facilitator and Core GovOps must use the Aligned Delegates Buffer Multisig to disburse funds to Aligned Delegates.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Aligned Delegates Buffer - Aligned Delegates Buffer - Aligned Delegates Buffer Multisig Modification</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 1 Capital - Allocation To Aligned Delegates Buffer - Aligned Delegates Buffer - Aligned Delegates Buffer Multisig Modification</td>
+          <td>Core</td>
+          <td>The Core Facilitator and Core GovOps can change the signers of the Aligned Delegates Buffer Multisig so long as:
+            <ul>
+              <li>there are at least four (4) signers;</li>
+              <li>a majority of signers are required to execute transactions; and</li>
+              <li>an equal number of signers are controlled by the Core Facilitator and Core GovOps.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 4 Capital</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 4 Capital</td>
+          <td>Core</td>
+          <td>In the short term, Step 4 Capital is allocated as specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 4 Capital - Allocation To SKY Buybacks</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 4 Capital - Allocation To SKY Buybacks</td>
+          <td>Core</td>
+          <td>300,000 USDS per day of Step 4 Capital is allocated to SKY buybacks.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 4 Capital - Allocation To Surplus Buffer</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Allocation Of Step 4 Capital - Allocation To Surplus Buffer</td>
+          <td>Core</td>
+          <td>Any remaining Step 4 Capital is allocated to the Surplus Buffer.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures - Implementation</dfn>
+          </td>
+          <td>Treasury Management - Treasury Management - Short Term Transitionary Measures - Implementation</td>
+          <td>Core</td>
+          <td>The allocations specified in <dfn>A.2.5 - Allocation Of Step 1 Capital</dfn> are effective retroactive to September 1, 2025. The next available Executive Vote must include these allocations for the period from September 1, 2025 to September 30, 2025. The amounts to be transferred are 3,876,387 USDS to the Core Council Buffer and 193,820 USDS to the Aligned Delegates Buffer.</td>
         </tr>
         <tr>
           <td>
@@ -13191,7 +13485,7 @@
           </td>
           <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation</td>
           <td>Core</td>
-          <td>The documents herein define the initial implementation of the Monthly Settlement Cycle. This initial implementation of the Monthly Settlement Cycle does not include the Senior Risk Capital System, which is still being developed, and funds continue to be allocated through Executive Votes rather than the allocation steps of the Treasury Management Function. See <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures</dfn>.</td>
+          <td>The documents herein define the initial implementation of the Monthly Settlement Cycle. This initial implementation of the Monthly Settlement Cycle does not include the Senior Risk Capital System, which is still being developed, and funds continue to be allocated through the modified Treasury Management Function. See <dfn>A.2.5 - Treasury Management - Treasury Management - Short Term Transitionary Measures</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -13607,7 +13901,7 @@
           </td>
           <td>Sky Core Monthly Settlement Cycle - Monthly Settlement Cycle Overview - Implementation - Implementation Stages - Stage 2 - Stage 2 Timing</td>
           <td>Core</td>
-          <td>Stage 2 is currently expected to be implemented in the February 2026 Monthly Settlement Cycle for the period from January 1, 2026 to January 31, 2026.</td>
+          <td>Stage 2 will be implemented in the December 2025 Monthly Settlement Cycle for the period from November 1, 2025 to November 30, 2025. If there is no December 2025 Monthly Settlement Cycle, then Stage 2 will be implemented in the January 2026 Monthly Settlement Cycle for the period from November 1, 2025 to December 31, 2025.</td>
         </tr>
         <tr>
           <td>
@@ -14976,7 +15270,7 @@
           </td>
           <td>Transfer From Liquidity Bootstrapping Budget To Keel</td>
           <td>Core</td>
-          <td><p>Sky has transferred 500,000 USDS from the Sky Ecosystem Liquidity Bootstrapping Budget to Launch Agent 2 to provide liquidity to decentralized finance protocols on Solana (see <dfn>A.5.9 - Launch Project - Sky Ecosystem Liquidity Bootstrapping</dfn>). This amount shall be treated as an advance against Launch Agent 2's Genesis Capital Allocation and deducted from Launch Agent 2's allocated capital funds at the time of the Capital Transfer.</p><p>The transfer must be made to a multisig controlled by Launch Agent 2's Operational Executor Agent and the multisig must have the ability to withdraw the liquidity provided to decentralized finance protocols at any time. The address of the multisig on Solana is <code>6cTVPDJ8WR1XGxdgnjzhpYKRqcv78T4Nqt95DY8dvMmn</code>.</p></td>
+          <td><p>Sky has transferred 500,000 USDS from the Sky Ecosystem Liquidity Bootstrapping Budget to Keel to provide liquidity to decentralized finance protocols on Solana (see <dfn>A.5.9 - Launch Project - Sky Ecosystem Liquidity Bootstrapping</dfn>). This amount shall be treated as an advance against Keel's Genesis Capital Allocation and deducted from Keel's allocated capital funds at the time of the Capital Transfer.</p><p>The transfer must be made to a multisig controlled by Keel's Operational Executor Agent and the multisig must have the ability to withdraw the liquidity provided to decentralized finance protocols at any time. The address of the multisig on Solana is <code>6cTVPDJ8WR1XGxdgnjzhpYKRqcv78T4Nqt95DY8dvMmn</code>.</p></td>
         </tr>
         <tr>
           <td>
@@ -16235,19 +16529,19 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.3.2 - Core Stability Parameters - Role Of Core Executor Agents - Setting Base Rate - Adjustment Process - Level Of Actively Stabilizing Collateral</dfn>
+            <dfn>A.3.2 - Core Stability Parameters - Role Of Core Executor Agents - Setting Base Rate - Adjustment Process - Level Of Actively Stabilizing Collateral In Lite PSM</dfn>
           </td>
-          <td>Core Stability Parameters - Role Of Core Executor Agents - Setting Base Rate - Adjustment Process - Level Of Actively Stabilizing Collateral</td>
+          <td>Core Stability Parameters - Role Of Core Executor Agents - Setting Base Rate - Adjustment Process - Level Of Actively Stabilizing Collateral In Lite PSM</td>
           <td>Core</td>
-          <td>The Core Executor Agents should consider the level of Actively Stabilizing Collateral (see <dfn>A.3.4 - Actively Stabilizing Collateral</dfn>) using the following non-binding guidelines:
+          <td>PSM ASC is defined as the level of Actively Stabilizing Collateral (see <dfn>A.3.4 - Actively Stabilizing Collateral</dfn>) in the Lite PSM (see <dfn>A.3.4 - Lite Peg Stability Module</dfn>) as a percentage of the Sky Collateral Portfolio (see <dfn>A.3.4 - Minimum Actively Stabilizing Collateral</dfn>). The Core Executor Agents should consider the level of PSM ASC using the following non-binding guidelines:
             <ul>
-              <li>If total ASC is above 30%, consider decreasing the Base Rate by approximately 2%;</li>
-              <li>If total ASC is between 28% and 30%, consider decreasing the Base Rate by approximately 1%;</li>
-              <li>If total ASC is between 26% and 28%, consider decreasing the Base Rate by approximately 0.3%;</li>
-              <li>If total ASC is between 24% and 26%, consider maintaining the Base Rate at approximately its current level;</li>
-              <li>If total ASC is between 22% and 24%, consider increasing the Base Rate by approximately 0.3%;</li>
-              <li>If total ASC is between 20% and 22%, consider increasing the Base Rate by approximately 1%; and</li>
-              <li>If total ASC is below 20%, consider increasing the Base Rate by approximately 2%.</li>
+              <li>If PSM ASC is above 30%, consider decreasing the Base Rate by approximately 2%;</li>
+              <li>If PSM ASC is between 28% and 30%, consider decreasing the Base Rate by approximately 1%;</li>
+              <li>If PSM ASC is between 26% and 28%, consider decreasing the Base Rate by approximately 0.3%;</li>
+              <li>If PSM ASC is between 24% and 26%, consider maintaining the Base Rate at approximately its current level;</li>
+              <li>If PSM ASC is between 22% and 24%, consider increasing the Base Rate by approximately 0.3%;</li>
+              <li>If PSM ASC is between 20% and 22%, consider increasing the Base Rate by approximately 1%; and</li>
+              <li>If PSM ASC is below 20%, consider increasing the Base Rate by approximately 2%.</li>
             </ul>
           </td>
         </tr>
@@ -17275,7 +17569,6 @@
           <td>The Instance Financial CRR for Fluid is 3% of the amount of funds supplied to Fluid that are borrowed.</td>
         </tr>
         <tr>
-          <tr>
           <td>
             <dfn>A.3.3 - Ethena-Related Assets</dfn>
           </td>
@@ -20050,7 +20343,7 @@
           </td>
           <td>Application To Sky Core</td>
           <td>Core</td>
-          <td>While its legacy ALM infrastructure is being transferred to Prime Agents, Sky Core manages the portion of the Sky Collateral Portfolio not deployed by Prime Agents ("Sky Core Collateral Portfolio"). During this transitional period, Sky Core must maintain, with respect to the Sky Core Collateral Portfolio, the same percentage of Actively Stabilizing Collateral and Demand Absorption Buffer required of Prime Agents. The required percentages are specified in <dfn>A.3.4 - Minimum Actively Stabilizing Collateral</dfn>. This requirement remains in effect only until all legacy ALM infrastructure has been fully transitioned to Prime Agents.</td>
+          <td>While its legacy ALM infrastructure is being transferred to Prime Agents, Sky Core manages the portion of the Sky Collateral Portfolio not deployed by Prime Agents ("Sky Core Collateral Portfolio"). During this transitional period, Sky Core allocates the Sky Core Collateral Portfolio to Actively Stabilizing Collateral as specified in <dfn>A.3.4 - Sky Core Asset Liability Management Rules</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -20122,7 +20415,7 @@
           </td>
           <td>Minimum Actively Stabilizing Collateral</td>
           <td>Core</td>
-          <td>Prime Agents must maintain at least 25% of their Collateral Portfolio in Actively Stabilizing Collateral.</td>
+          <td>Prime Agents must maintain at least 5% of their Collateral Portfolio in Actively Stabilizing Collateral.</td>
         </tr>
         <tr>
           <td>
@@ -20201,7 +20494,31 @@
           </td>
           <td>Penalties For Failing To Satisfy Actively Stabilizing Collateral Requirement</td>
           <td>Core</td>
-          <td>If a Prime Agent does not maintain the Minimum Actively Stabilizing Collateral, it will continuously be penalized at a rate of 200% APY on the missing Actively Stabilizing Collateral. This penalty is calculated retroactively per second and settled monthly during the Settlement Cycle.</td>
+          <td>In the near term there will be no penalties for Prime Agents for failing to maintain the Minimum Actively Stabilizing Collateral. Instead, failures to maintain the Minimum Actively Stabilizing Collateral will be detected and reported as specified in <dfn>A.3.4 - Reporting Of Failures To Satisfy Actively Stabilizing Collateral Requirement</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.4 - Reporting Of Failures To Satisfy Actively Stabilizing Collateral Requirement</dfn>
+          </td>
+          <td>Reporting Of Failures To Satisfy Actively Stabilizing Collateral Requirement</td>
+          <td>Core</td>
+          <td>In the near term, the Core Council Risk Advisor must develop a tool to automatically detect and report failures by Prime Agents to maintain the Minimum Actively Stabilizing Collateral. Each violation by a Prime Agent must be reported within 24 hours to the following parties:
+            <ul>
+              <li>the Core Facilitator;</li>
+              <li>Core GovOps;</li>
+              <li>the Operational Facilitator for the Prime Agent;</li>
+              <li>Operational GovOps for the Prime Agent; and</li>
+              <li>the Prime Agent.</li>
+            </ul>
+            In addition, the Core Council Risk Advisor must include a summary of all such violations in the Independent Calculation it prepares as part of each Monthly Settlement Cycle. See <dfn>A.2.6 - Independent Calculation By Core Council Risk Advisor On Behalf Of Core Council.</dfn></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.4 - Near Term Exemption For Keel</dfn>
+          </td>
+          <td>Near Term Exemption For Keel</td>
+          <td>Core</td>
+          <td>In the near term, due to limitations in the infrastructure on Solana, Keel is exempt from the requirement to maintain the Minimum Actively Stabilizing Collateral. This exemption will be removed in a future iteration of the Asset Liability Management Framework.</td>
         </tr>
         <tr>
           <td>
@@ -20273,7 +20590,7 @@
           </td>
           <td>Penalties For Failure To Satisfy Peg Defense Obligations</td>
           <td>Core</td>
-          <td>If an Agent fails to fulfill the Peg Defense Obligations, then a penalty of 20 bps on all missing buy volume is applied, calculated in finished blocks of 6 hours from when the Peg Defense Event begins, and settled retroactively as part of the Settlement Cycle.</td>
+          <td>Penalties for failing to fulfill the Peg Defense Obligations will be specified in a future iteration of the Asset Liability Management framework.</td>
         </tr>
         <tr>
           <td>
@@ -20289,31 +20606,7 @@
           </td>
           <td>Sky Core Asset Liability Management Rules</td>
           <td>Core</td>
-          <td>Pursuant to <dfn>A.3.4 - Application To Sky Core</dfn>, Sky Core manages the Sky Core Collateral Portfolio through a simple set of Asset Liability Management rules. These rules allocate excess capital beyond what is needed in the PSMs into Low Risk Real World Assets, and draw on those Low Risk Real World Assets to replenish the PSMs when the balance in the PSMs fall too low.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.4 - Excess Assets In Peg Stability Modules</dfn>
-          </td>
-          <td>Excess Assets In Peg Stability Modules</td>
-          <td>Core</td>
-          <td>If more than 30% of the Sky Core Collateral Portfolio is in PSMs, then any excess above the 30% mark must be allocated towards Low Risk Real World Assets.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.4 - Lack Of Assets In Peg Stability Modules</dfn>
-          </td>
-          <td>Lack Of Assets In Peg Stability Modules</td>
-          <td>Core</td>
-          <td>If less than 20% of the Sky Core Collateral Portfolio is in PSMs, then Low Risk Real World Assets must be sold off to return the PSM exposure to 25%.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.4 - Optimizations</dfn>
-          </td>
-          <td>Optimizations</td>
-          <td>Core</td>
-          <td>Core GovOps can use the Operational Weekly Governance Cycle to modify the Sky Core Asset Liability Management Rules in order to make them more efficient or more resilient. This modification can involve changing any of the logic defined in <dfn>A.3.4 - Sky Core Asset Liability Management Rules</dfn>.</td>
+          <td>Pursuant to <dfn>A.3.4 - Application To Sky Core</dfn>, Sky Core manages the Sky Core Collateral Portfolio by allocating capital to the Lite PSM (see <dfn>A.3.4 - Lite Peg Stability Module</dfn>).</td>
         </tr>
         <tr>
           <td>
@@ -20628,28 +20921,134 @@
         </tr>
         <tr>
           <td>
-            <dfn>A.3.6 - A2 - Surplus Buffer And Smart Burn Engine - Surplus Buffer Splitter Parameters</dfn>
+            <dfn>A.3.6 - A2 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters</dfn>
           </td>
-          <td>Surplus Buffer And Smart Burn Engine - Surplus Buffer Splitter Parameters</td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters</td>
           <td>Section</td>
-          <td>The current Surplus Buffer Splitter parameters are:
+          <td>The current Smart Burn Engine parameters are:
             <ul>
-              <li>vow.hump: 1 million USDS (Threshold of Surplus buffer for Splitter to activate)</li>
-              <li>vow.bump: 10,000 USDS</li>
-              <li>splitter.hop: 2,160 seconds</li>
-              <li>25% of Splitter allocation is set to accumulate SKY</li>
-              <li>75% of Splitter allocation is set to reward SKY stakers</li>
-              <li>burn (the percentage of the vow.bump to be moved to the underlying flapper): 25% (WAD/4). Flapper must maintain its legacy values.</li>
+              <li>kicker.khump: -200 million USDS (Threshold of Surplus Buffer for Splitter to activate)</li>
+              <li>kicker.kbump: 10,000 USDS</li>
+              <li>splitter.hop: 2,880 seconds</li>
+              <li>100% of Splitter allocation is set to accumulate SKY</li>
+              <li>0% of Splitter allocation is set to reward SKY stakers</li>
+              <li>burn (the percentage of the kicker.kbump to be moved to the underlying flapper): 100% (WAD * 1)</li>
+              <li>LSEV2-SKY-A USDS rewardsDuration: 2,880 seconds</li>
             </ul>
+            The rewardsDuration for the LSEV2-SKY-A USDS rewards contract must be set such that it is equal to the splitter.hop parameter.
           </td>
         </tr>
         <tr>
           <td>
-            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Surplus Buffer Splitter Parameters - Modification </dfn>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module</dfn>
           </td>
-          <td>Surplus Buffer And Smart Burn Engine - Surplus Buffer Splitter Parameters - Modification</td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module</td>
           <td>Core</td>
-          <td>The parameters of the Surplus Buffer Splitter can be modified pursuant to the Operational Weekly Cycle. The Core Facilitator, in consultation with the Core Council Risk Advisor, can propose changes to the <code>bump</code> and <code>hop</code> parameters directly via an Executive Vote without requiring a Governance Poll. Changes to other parameters require a Governance Poll followed by an Executive Vote.</td>
+          <td>The Splitter Module splits funds transferred to it from the Surplus Buffer between accumulating SKY and paying USDS rewards to SKY stakers.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters</td>
+          <td>Core</td>
+          <td>The parameters of the Splitter Module are defined in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - Splitter Interval Parameter</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - Splitter Interval Parameter</td>
+          <td>Core</td>
+          <td>The <code>hop</code> parameter is the time interval between <code>kicker.kbump</code> funds being transferred from the Surplus Buffer to the Splitter. Together with the <code>kicker.kbump</code> parameter, it controls the rate at which funds are transferred from the Surplus Buffer to the Splitter.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - Splitter Interval Parameter - Splitter Interval Current Value</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - Splitter Interval Parameter - Splitter Interval Current Value</td>
+          <td>Core</td>
+          <td>The current value of the <code>hop</code> parameter is specified in <dfn>A.3.6 - A2 - Smart Burn Engine Parameters</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - SKY Accumulation Percentage Parameter</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - SKY Accumulation Percentage Parameter</td>
+          <td>Core</td>
+          <td>The <code>burn</code> parameter is the percentage of each transfer from the Surplus Buffer to the Splitter that is sent to the Flapper contract, which accumulates SKY. The remainder of each transfer is sent to the contract for USDS rewards for SKY stakers.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - SKY Accumulation Percentage Parameter - SKY Accumulation Percentage Current Value</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Splitter Module - Splitter Module Parameters - SKY Accumulation Percentage Parameter - SKY Accumulation Percentage Current Value</td>
+          <td>Core</td>
+          <td>The current value of the <code>burn</code> parameter is specified in <dfn>A.3.6 - A2 - Smart Burn Engine Parameters</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module</td>
+          <td>Core</td>
+          <td>The Kicker Module allows funds to be transferred from the Surplus Buffer to the Splitter as long as the Surplus Buffer is above a specified signed threshold. This allows funds to be transferred from the Surplus Buffer to the Splitter even when the Surplus Buffer is negative, as long as the Surplus Buffer is above the specified threshold.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters</td>
+          <td>Core</td>
+          <td>The parameters of the Kicker Module are defined in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Threshold Parameter</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Threshold Parameter</td>
+          <td>Core</td>
+          <td>The <code>khump</code> parameter is the minimum value of the Surplus Buffer for funds to be transferred from the Surplus Buffer to the Splitter contract. It is a signed integer with <code>RAD</code> precision.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Threshold Parameter - Kicker Threshold Current Value</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Threshold Parameter - Kicker Threshold Current Value</td>
+          <td>Core</td>
+          <td>The current value of the <code>khump</code> parameter is specified in <dfn>A.3.6 - A2 - Smart Burn Engine Parameters</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Lot Size Parameter</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Lot Size Parameter</td>
+          <td>Core</td>
+          <td>The <code>kbump</code> parameter is the amount of funds transferred from the Surplus Buffer to the Splitter every <code>splitter.hop</code> interval when the Surplus Buffer is greater than <code>kbump</code>. Together with the <code>splitter.hop</code> parameter, it controls the rate at which funds are transferred from the Surplus Buffer to the Splitter.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Lot Size Parameter - Kicker Lot Size Current Value</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Kicker Module Parameters - Kicker Lot Size Parameter - Kicker Lot Size Current Value</td>
+          <td>Core</td>
+          <td>The current value of the <code>kbump</code> parameter is specified in <dfn>A.3.6 - A2 - Smart Burn Engine Parameters</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Deployment</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Kicker Module - Deployment</td>
+          <td>Core</td>
+          <td>The activation of the Kicker Module will be executed in the October 30, 2025 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.6 - Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Modification</dfn>
+          </td>
+          <td>Surplus Buffer And Smart Burn Engine - Smart Burn Engine Parameters - Modification</td>
+          <td>Core</td>
+          <td>The parameters of the Smart Burn Engine can be modified pursuant to the Operational Weekly Cycle. The Core Facilitator, in consultation with the Stability Scope Advisors, can propose changes to the <code>kbump</code> and <code>hop</code> parameters directly via an Executive Vote without requiring a Governance Poll. LSEV2-SKY-A-USDS rewardsDuration should always match the value of the hop parameter without requiring prior governance authorization. Changes to other parameters require a Governance Poll followed by an Executive Vote.</td>
         </tr>
         <tr>
           <td>
@@ -21706,6 +22105,18 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.3.9 - Genesis Capital Backstop - Genesis Capital - Amount Of Capital Contributed By Sky To Agents</dfn>
+          </td>
+          <td>Genesis Capital Backstop - Genesis Capital - Amount Of Capital Contributed By Sky To Agents</td>
+          <td>Core</td>
+          <td>The amount of capital contributed by Sky to Agents is:
+            <ul>
+              <li>Spark - 25,000,000 USDS</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.4.1 - A1 - Core Tokens - USDS</dfn>
           </td>
           <td>Core Tokens - USDS</td>
@@ -22154,7 +22565,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking</td>
           <td>Section</td>
-          <td>SKY holders can stake their tokens via the SKY Staking Mechanism available on Ethereum Mainnet and SkyLink Deployments. SKY stakers earn voting rewards sourced from the Sky Treasury Management Function. In lieu of USDS rewards, SKY stakers can choose to earn Agent Token Rewards, including SPK and the tokens of other Prime Agents incubated by Sky. SKY stakers can also borrow USDS against their staked collateral using the SKY-backed borrowing mechanism defined herein.</td>
+          <td>SKY holders can stake their tokens via the SKY Staking Mechanism available on Ethereum Mainnet and SkyLink Deployments. SKY stakers earn voting rewards sourced from the Sky Treasury Management Function. In lieu of USDS rewards and SKY rewards, SKY stakers can choose to earn Agent Token Rewards, including SPK and the tokens of other Prime Agents incubated by Sky. SKY stakers can also borrow USDS against their staked collateral using the SKY-backed borrowing mechanism defined herein.</td>
         </tr>
         <tr>
           <td>
@@ -23239,98 +23650,191 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures</td>
           <td>Core</td>
-          <td>The documents herein define short-term logic for SKY staking rewards and SKY-backed borrowing pending the implementation of the Sky Treasury Management Function and the stUSDS system. Short-term logic regarding MKR staking rewards and MKR-backed borrowing is also included herein.</td>
+          <td>The documents herein define short-term logic for SKY staking rewards pending the implementation of the Sky Treasury Management Function.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term Staking SKY Rewards</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term USDS Rewards For SKY Stakers</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term Staking SKY Rewards</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term USDS Rewards For SKY Stakers</td>
           <td>Core</td>
-          <td>USDS rewards for SKY stakers will be enabled as specified in <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade</dfn>. Until the Treasury Management Function (TMF) is live, USDS rewards for SKY stakers will be temporarily funded by the Smart Burn Engine; this interim mechanism will be discontinued once the TMF becomes operational.</td>
+          <td>Until the Treasury Management Function (TMF) is fully implemented, USDS rewards for SKY stakers will be temporarily funded by the Smart Burn Engine, subject to the parameters of the Smart Burn Engine; this interim mechanism will be discontinued once the TMF becomes fully operational.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term Staking Rewards - SKY Staking Rewards Parameters</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term Staking Rewards - SKY Staking Rewards Parameters</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers</td>
           <td>Core</td>
-          <td>When SKY Staking launches, the short-term Staking Rewards parameters will be specified in this document pursuant to <dfn>A.4.1 - Core Tokens - SKY - Update Smart Burn Engine Parameters</dfn>.</td>
+          <td>Until the Treasury Management Function (TMF) is fully implemented, SKY rewards for SKY stakers will be temporarily funded by SKY from the Protocol Treasury as specified in <dfn>A.4.4 - Implementation</dfn>; this interim mechanism will be discontinued once the TMF becomes fully operational.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY-Backed Borrowing</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY-Backed Borrowing</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation</td>
           <td>Core</td>
-          <td>SKY-backed borrowing will be enabled as specified in A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade. In the short term, pending the development of the stUSDS system, SKY-backed borrowing will be funded directly by Sky. This funding must be replaced by the stUSDS system as soon as the stUSDS system is developed.</td>
+          <td>SKY rewards for SKY stakers are implemented through the Staking Rewards contract, the Vested Rewards Distribution contract, and the Vesting Stream contract, as specified in the documents herein.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY-Backed Borrowing - SKY-Backed Borrowing Parameters</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY-Backed Borrowing - SKY-Backed Borrowing Parameters</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract</td>
           <td>Core</td>
-          <td>When SKY Staking launches, the risk parameters for SKY-backed borrowing funded directly by Sky will be specified in this document pursuant to <dfn>A.4.1 - Core Tokens - SKY - Launch SKY Staking</dfn> and <dfn>A.4.1 - Core Tokens - SKY - Update Liquidation Parameters For Borrowing Against Staked SKY</dfn>.</td>
+          <td>The Staking Rewards contract is the user facing contract that allows SKY stakers to stake their SKY to receive SKY rewards. It maintains the balance of staked SKY receiving SKY rewards for each user and the associated accumulated rewards balance.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR Staking Rewards</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Address</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR Staking Rewards</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Address</td>
           <td>Core</td>
-          <td>As the legacy governance token of the Sky Protocol, MKR stakers are currently eligible for USDS rewards. This functionality will be phased out as specified in <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade</dfn>. The documents herein define the parameters for USDS rewards to MKR stakers during this interim period.</td>
+          <td>The address of the Staking Rewards contract on the Ethereum Mainnet is <code>0xB44C2Fb4181D7Cb06bdFf34A46FdFe4a259B40Fc</code>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR Staking Rewards - MKR Staking Rewards Parameters</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR Staking Rewards - MKR Staking Rewards Parameters</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters</td>
           <td>Core</td>
-          <td>The short-term staking rewards parameters are:
-            <ul>
-              <li>rewardsDistribution: Set to the Splitter</li>
-              <li>rewardsDuration: 15,649 seconds</li>
-              <li>farms (Whitelisted set of farms to choose from): LsMkrUsdsFarm</li>
-              <li>fee (Exit fee): 0%</li>
-            </ul>
-          </td>
+          <td>The parameters of the Staking Rewards contract are specified in the documents herein.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR-Backed Borrowing</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Owner</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR-Backed Borrowing</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Owner</td>
           <td>Core</td>
-          <td>Borrowing against staked MKR is currently supported and funded directly by Sky. This functionality will be phased out as specified in <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade</dfn>. The documents herein define the risk parameters for MKR-backed borrowing during this interim period.</td>
+          <td>The owner of the Staking Rewards contract is the contract that has the ability to control administrative functions for the Staking Rewards contract. The value of the owner parameter is the <code>MCD_PAUSE_PROXY</code>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR-Backed Borrowing - MKR-Backed Borrowing Parameters</dfn>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Rewards Distribution Contract Address</dfn>
           </td>
-          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short-Term MKR-Backed Borrowing - MKR-Backed Borrowing Parameters</td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Rewards Distribution Contract Address</td>
           <td>Core</td>
-          <td>The current risk parameters for MKR-backed borrowing funded directly by Sky are:
-            <ul>
-              <li>Cut: 0.99</li>
-              <li>Step: 60 seconds</li>
-              <li>Buf: 1.20</li>
-              <li>Cusp: 0.40</li>
-              <li>Tail: 6,000 seconds</li>
-              <li>Chip: 0.1%</li>
-              <li>Tip: 300 DAI</li>
-              <li>Calc: StairstepExponentialDecrease</li>
-              <li>Ilk.chop: 8%</li>
-              <li>Tolerance: 0.5</li>
-              <li>Dust: 30,000 DAI</li>
-              <li>Ilk.hole: 3M DAI</li>
-              <li>Stability Fee: 20%</li>
-              <li>spotter[ilk].mat (Liquidation Ratio): 125%</li>
-              <li>DC-IAM line: 45M</li>
-              <li>DC-IAM gap: 45M</li>
-              <li>DC-IAM ttl: 30 minutes</li>
-            </ul>
+          <td>The Rewards Distribution contract address <code>rewardsDistribution</code> is the address of the Rewards Distribution contract associated with the Staking Rewards contract. The value of the <code>rewardsDistribution</code> parameter is the address of the Rewards Distribution contract specified in <dfn>A.4.4 - Rewards Distribution Contract Address</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Rewards Token</dfn>
           </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Rewards Token</td>
+          <td>Core</td>
+          <td>The Rewards Token <code>rewardsToken</code> is the token that users receive as rewards. The value of the <code>rewardsToken</code> parameter is <code>SKY</code>, representing SKY Tokens.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Staking Token</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Staking Rewards Contract - Staking Rewards Contract Parameters - Staking Token</td>
+          <td>Core</td>
+          <td>The Staking Token <code>stakingToken</code> is the token that users stake to earn rewards. The value of the <code>stakingToken</code> parameter is <code>LSSKY</code>, representing staked SKY Tokens.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract</td>
+          <td>Core</td>
+          <td>The Rewards Distribution contract is the contract that handles the regular transfer of reward tokens from the Vesting Stream contract to the Staking Rewards contract for distribution to end users.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Address</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Address</td>
+          <td>Core</td>
+          <td>The address of the Rewards Distribution contract on the Ethereum Mainnet is <code>0x675671A8756dDb69F7254AFB030865388Ef699Ee</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Parameters</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Parameters</td>
+          <td>Core</td>
+          <td>The parameters of the Rewards Distribution contract are specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Parameters - Staking Rewards Contract Address</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Parameters - Staking Rewards Contract Address</td>
+          <td>Core</td>
+          <td>The Staking Rewards contract address <code>stakingRewards</code> is the address of the Staking Rewards contract associated with the Rewards Distribution contract. The value of the <code>stakingRewards</code> parameter is the address of the Staking Rewards contract specified in <dfn>A.4.4 - Staking Rewards Contract Address</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Parameters - Vesting Stream Contract Address</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Rewards Distribution Contract - Rewards Distribution Contract Parameters - Vesting Stream Contract Address</td>
+          <td>Core</td>
+          <td>The Vesting Stream contract address <code>dssVest</code> is the address of the Vesting Stream contract associated with the Rewards Distribution contract. The value of the <code>dssVest</code> parameter is the address of the Vesting Stream contract specified in <dfn>A.4.4 - Vesting Stream</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract</td>
+          <td>Core</td>
+          <td>The Vesting Stream contract manages various vesting streams that vest SKY Tokens from the Protocol Treasury. One of these vesting streams regularly vests SKY Tokens to the Staking Rewards contract.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream</td>
+          <td>Core</td>
+          <td>The address of the Vesting Stream contract is the address corresponding to the <code>MCD_VEST_SKY_TREASURY</code> key in the Chainlog.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Contract Parameters</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Contract Parameters</td>
+          <td>Core</td>
+          <td>The parameters of the vesting stream managed by the Vesting Stream contract that vests SKY Tokens to the Staking Rewards contract are specified in the documents herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Contract Parameters - Vesting Total</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Contract Parameters - Vesting Total</td>
+          <td>Core</td>
+          <td>The Vesting Total <code>vestTot</code> is the number of rewards tokens to be vested in total over the Vesting Duration. The initial value of the <code>vestTot</code> parameter is 1,000,000,000 SKY.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Contract Parameters - Vesting Duration</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Contract Parameters - Vesting Duration</td>
+          <td>Core</td>
+          <td>The Vesting Duration <code>vestTau</code> is the total duration over which the Vesting Total number of tokens are to be vested linearly. The initial value of the <code>vestTau</code> parameter is 180 days.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Parameter Modification</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Implementation - Vesting Stream Contract - Vesting Stream Parameter Modification</td>
+          <td>Core</td>
+          <td>The parameters of the vesting stream that vests SKY Tokens to be transferred to the Staking Rewards contract may be modified by the Core Facilitator on the recommendation of the Core Council Risk Advisor through the Operational Weekly Cycle, and can be effected directly via an Executive Vote, without a prior Governance Poll. It is expected that the parameters will be reviewed and updated approximately every 90 days.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Source Of SKY Rewards</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Source Of SKY Rewards</td>
+          <td>Core</td>
+          <td><p>Initially, the SKY Tokens in the Protocol Treasury to fund SKY rewards for SKY stakers will be funded by the 500,000,000 SKY transferred by the Sky Frontier Foundation to the Protocol Treasury.</p><p>The <code>vestTot</code> and <code>vestTau</code> parameters of the Vesting Stream contract are set such that these 500,000,000 SKY will be distributed over three (3) months. After these three (3) months, SKY rewards must be funded by SKY acquired through buybacks and the parameters of the Vesting Stream contract must be adjusted accordingly.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Source Of SKY Rewards - Authorization Of Transfer By Sky Frontier Foundation</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures - Short Term SKY Rewards For SKY Stakers - Source Of SKY Rewards - Authorization Of Transfer By Sky Frontier Foundation</td>
+          <td>Core</td>
+          <td>Sky Governance hereby confirms that the transfer of the 500,000,000 SKY tokens specified in <dfn>A.4.4 - Source Of SKY Rewards</dfn> is consistent with the terms of the grant to the Sky Frontier Foundation. See <dfn>A.2.15 - A1 - Ecosystem Entity Grants</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -24377,7 +24881,7 @@
           </td>
           <td>Monitoring And Ensuring - Element Annotation</td>
           <td>Annotation</td>
-          <td>This element refers to the ongoing responsibility of Support Facilitators to monitor the progress of routine governance processes, check for compliance with the rules, and confirm that all necessary documentation and approvals are in place.</td>
+          <td>This element refers to the ongoing responsibility of Core GovOps to monitor the progress of routine governance processes, check for compliance with the rules, and confirm that all necessary documentation and approvals are in place.</td>
         </tr>
         <tr>
           <td>
@@ -24505,7 +25009,7 @@
           </td>
           <td>Properly Notified - Element Annotation</td>
           <td>Annotation</td>
-          <td>This element means that the Support Facilitators have been informed in accordance with the prescribed procedures, including the timing, method, and content of the notification, as required by the relevant Scope.</td>
+          <td>This element means that Core GovOps have been informed in accordance with the prescribed procedures, including the timing, method, and content of the notification, as required by the relevant Scope.</td>
         </tr>
         <tr>
           <td>
@@ -24827,11 +25331,19 @@
         </tr>
         <tr>
           <td>
+            <dfn>In The Transition To Endgame - Immutable Documents Can Be Amended</dfn>
+          </td>
+          <td>In The Transition To Endgame - Immutable Documents Can Be Amended</td>
+          <td>Action Tenet</td>
+          <td>Currently, in the transition to Endgame, the Immutable Documents (Articles and Sections) can be amended pursuant to <dfn>A.1.11</dfn> and <dfn>A.1.12</dfn>. Once the Sky Ecosystem enters the Endgame State, the Immutable Documents of the Atlas will be forever locked down and cannot be changed.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Key Atlas Contributors</dfn>
           </td>
           <td>Key Atlas Contributors</td>
           <td>Action Tenet</td>
-          <td>Key Atlas contributors are individuals or teams that play a crucial role in the development of the Atlas. Relevant workstreams can include community building, research, data collection, data processing, data review, drafting, peer review, etc. The Support Facilitators, in consultation with Atlas Axis or other relevant Ecosystem Actors, will distribute funding based on criteria such as the scope of the contribution, its impact on the Atlas, and the quality of the work produced.</td>
+          <td>Key Atlas contributors are individuals or teams that play a crucial role in the development of the Atlas. Relevant workstreams can include community building, research, data collection, data processing, data review, drafting, peer review, etc. The Core Facilitator, in consultation with Atlas Axis or other relevant Ecosystem Actors, will distribute funding based on criteria such as the scope of the contribution, its impact on the Atlas, and the quality of the work produced.</td>
         </tr>
         <tr>
           <td>
@@ -25492,6 +26004,19 @@
           <td>Sky Core Integration Boost Reimbursement Amounts</td>
           <td>Active Data</td>
           <td>The current Sky Core Integration Boost Reimbursement Amounts are:</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.2.4 - List Of Current Sky Direct Exposures</dfn>
+          </td>
+          <td>List Of Current Sky Direct Exposures</td>
+          <td>Active Data</td>
+          <td>The current Sky Direct Exposures are:
+          <ul>
+            <li>Treasury Bills - Investments in BUIDL, JTRSY, and USTB on Ethereum Mainnet by Grove</li>
+            <li>Collateralized Loan Obligations - Investments in JAAA on Ethereum Mainnet by Grove</li>
+          </ul>
+        </td>
         </tr>
         <tr>
           <td>
@@ -27153,7 +27678,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Governance Facilitators to update the Atlas GitHub repository located at <a href="https://github.com/sky-ecosystem/next-gen-atlas/pulls">Pull requests · sky-ecosystem/next-gen-atlas · GitHub</a> to reflect proposals approved by Prime Governance.</td>
+          <td>Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at <a href="https://github.com/sky-ecosystem/next-gen-atlas/pulls">Pull requests · sky-ecosystem/next-gen-atlas · GitHub</a> to reflect proposals approved by Prime Governance.</td>
         </tr>
         <tr>
           <td>
@@ -28916,7 +29441,6 @@
           <td>This Instance's associated Instance Configuration Document is located at <dfn>Ethereum Mainnet - Curve USDC/USDT Pool Instance Configuration Document</dfn>.</td>
         </tr>
         <tr>
-        <tr>
           <td>
             <dfn>Ethereum Mainnet - Curve pyUSD/USDC Pool Instance Configuration Document Location</dfn>
           </td>
@@ -29550,7 +30074,7 @@
         </tr>
         <tr>
           <td>
-            <dfn>Avalanche/dfn>
+            <dfn>Avalanche</dfn>
           </td>
           <td>Spark</td>
           <td>Core</td>
@@ -41922,7 +42446,7 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Governance Facilitators to update the Atlas GitHub repository located at <a href="https://github.com/sky-ecosystem/next-gen-atlas/pulls">https://github.com/sky-ecosystem/next-gen-atlas/pulls</a> to reflect proposals approved by Prime Governance.</td>
+          <td>Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at <a href="https://github.com/sky-ecosystem/next-gen-atlas/pulls">https://github.com/sky-ecosystem/next-gen-atlas/pulls</a> to reflect proposals approved by Prime Governance.</td>
         </tr>
         <tr>
           <td>
@@ -43742,11 +44266,99 @@
         </tr>
         <tr>
           <td>
-            <dfn>Relayer Multisig</dfn>
+            <dfn>Prime Relayer Multisig</dfn>
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The Core Operator Relayer Multisig has the <code>RELAYER_ROLE</code> as defined in <dfn>Relayer Role</dfn>. In a future iteration of the Grove Artifact, additional logic will be added herein.</td>
+          <td>The Prime Relayer Multisig has the <code>RELAYER_ROLE</code> as defined in <dfn>Relayer Role</dfn>, and is controlled by Grove.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Prime Relayer Multisig - Address</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td>The address of the Prime Relayer Multisig on the Ethereum Mainnet is <code>0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Prime Relayer Multisig - Required Number Of Signers</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td>The Prime Relayer Multisig currently has a 4/7 signing requirement.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Prime Relayer Multisig - Signers</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td>The signers of the Prime Relayer Multisig are seven (7) addresses controlled by Grove.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Prime Relayer Multisig - Usage Standards</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td>The signers of the Prime Relayer Multisig must use the Multisig to exercise the <code>RELAYER_ROLE</code> in accordance with the instructions specified in the Grove Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Prime Relayer Multisig - Modification</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td>Grove can change the signers of the Prime Relayer Multisig at any time, so long as there are at least two (2) signers and at least a majority of signers are required to execute transactions.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Core Operator Relayer Multisig</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td>The Core Operator Relayer Multisig has the <code>RELAYER_ROLE</code> as defined in <dfn>Relayer Role</dfn> and is controlled by Amatsu.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Core Operator Relayer Multisig - Address</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td>The address of the Core Operator Relayer Multisig on the Ethereum Mainnet is <code>0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Core Operator Relayer Multisig- Required Number Of Signers</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td>The Core Operator Relayer Multisig currently has a 2/3 signing requirement.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Core Operator Relayer Multisig - Signers</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td>The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Amatsu.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Core Operator Relayer Multisig - Usage Standards</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td>The signers of the Core Operator Relayer Multisig must use the Multisig to exercise the <code>RELAYER_ROLE</code> in accordance with the instructions specified in the Grove Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Core Operator Relayer Multisig - Modification</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td>Operational GovOps Amatsu can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.</td>
         </tr>
         <tr>
           <td>
@@ -43754,7 +44366,54 @@
           </td>
           <td>Grove</td>
           <td>Core</td>
-          <td>The Freezer Multisig has the <code>FREEZER_ROLE</code> as defined in <dfn>Freezer Role</dfn>. In a future iteration of the Grove Artifact, additional logic will be added herein.</td>
+          <td>The Freezer Multisig has the <code>FREEZER_ROLE</code> as defined in <dfn>Freezer Role</dfn> and is controlled by the Core Facilitator and Operational Facilitator.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Freezer Multisig - Address</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td>The address of the Freezer Multisig on the Ethereum Mainnet is <code>0xB0113804960345fd0a245788b3423319c86940e5</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Freezer Multisig - Required Number Of Signers</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td>The Freezer Multisig currently has a 2/4 signing requirement.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Freezer Multisig - Signers</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td>The Freezer Multisig has the following signers:
+            <ul>
+              <li>VoteWizard</li>
+              <li>JanSky</li>
+              <li>LDR</li>
+              <li>CivicSage</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Freezer Multisig - Usage Standards</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td><p>The signers of the Freezer Multisig should exercise their authority to freeze the Grove Liquidity Layer in the event that Grove is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency. The signers should consult with Operational GovOps Amatsu before exercising such authority, unless such consultation would cause a delay that could result in a loss of user funds or harm to Sky or Grove. Operational GovOps Amatsu may also ask the signers to exercise the Freezer Multisig in an emergency. The signers will work with Amatsu and, if necessary, other Operational GovOps, in good faith in determining whether to exercise their authority based on such request.</p><p>Each action executed by the Freezer Multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Freezer Multisig - Modification</dfn>
+          </td>
+          <td>Grove</td>
+          <td>Core</td>
+          <td><p>Modification of the signers of the Freezer Multisig must be approved through an Atlas Edit Proposal.</p><p>The only exceptions to this are if: 1) a signer self-reports a loss of access to their private key due to any reason; or 2) a signer explicitly expresses their wish to be removed as a signer. In both cases, the signer is required to communicate the loss of access to their private key, or the wish to be removed as a signer, in the form of a public Sky Forum post. The specific signer should be replaced as soon as possible, which does not require a Governance Poll.</p><p>Any changes to the multisig signers that do not fall within the two exceptions listed above, or that have not been ratified by Sky Governance, should be questioned immediately and treated as malicious. Where malicious activity is suspected, the Facilitators must prepare an expedited Executive Vote so that Sky Governance can vote on removing external security access from the multisig.</p></td>
         </tr>
         <tr>
           <td>
@@ -46770,38 +47429,6 @@
         </tr>
         <tr>
           <td>
-            <dfn>Interim Deployment</dfn>
-          </td>
-          <td>Grove</td>
-          <td>Core</td>
-          <td>This Instance is currently defined as an Interim Deployment (see <dfn>A.1.9 - Interim Deployments</dfn>) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Maximum Allocation</dfn>
-          </td>
-          <td>Grove</td>
-          <td>Core</td>
-          <td>The maximum allocation for this Interim Deployment is $25 million.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Rate Limits</dfn>
-          </td>
-          <td>Grove</td>
-          <td>Core</td>
-          <td>The Rate Limits for this Interim Deployment are defined in <dfn>Rate Limits</dfn>.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Instance-specific Operational Processes</dfn>
-          </td>
-          <td>Grove</td>
-          <td>Core</td>
-          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.</td>
-        </tr>
-        <tr>
-          <td>
             <dfn>Ethereum Mainnet - Aave Horizon USDC Instance Configuration Document</dfn>
           </td>
           <td>Grove</td>
@@ -46952,30 +47579,6 @@
           <td>Grove</td>
           <td>Core</td>
           <td>The documents herein contain specific off-chain parameters for this Instance.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Interim Deployment</dfn>
-          </td>
-          <td>Grove</td>
-          <td>Core</td>
-          <td>This Instance is currently defined as an Interim Deployment (see <dfn>A.1.9 - Interim Deployments</dfn>) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Maximum Allocation</dfn>
-          </td>
-          <td>Grove</td>
-          <td>Core</td>
-          <td>The maximum allocation for all Interim Deployments in Aave Horizon is $25 million.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Rate Limits</dfn>
-          </td>
-          <td>Grove</td>
-          <td>Core</td>
-          <td>The Rate Limits for this Interim Deployment are defined in <dfn>Rate Limits</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -47137,30 +47740,6 @@
           <td>Grove</td>
           <td>Core</td>
           <td>The documents herein contain specific off-chain parameters for this Instance.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Interim Deployment</dfn>
-          </td>
-          <td>Grove</td>
-          <td>Core</td>
-          <td>This Instance is currently defined as an Interim Deployment (see <dfn>A.1.9 - Interim Deployments</dfn>) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Maximum Allocation</dfn>
-          </td>
-          <td>Grove</td>
-          <td>Core</td>
-          <td>The maximum allocation for all Interim Deployments in Aave Horizon is $25 million.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Rate Limits</dfn>
-          </td>
-          <td>Grove</td>
-          <td>Core</td>
-          <td>The Rate Limits for this Interim Deployment are defined in <dfn>Rate Limits</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -49442,7 +50021,7 @@
           </td>
           <td>Keel</td>
           <td>Core</td>
-          <td>Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Governance Facilitators to update the Atlas GitHub repository located at https://github.com/sky-ecosystem/next-gen-atlas/pulls to reflect proposals approved by Prime Governance.</td>
+          <td>Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at https://github.com/sky-ecosystem/next-gen-atlas/pulls to reflect proposals approved by Prime Governance.</td>
         </tr>
         <tr>
           <td>
@@ -53217,7 +53796,7 @@
           </td>
           <td>Launch Agent 3</td>
           <td>Core</td>
-          <td>Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Governance Facilitators to update the Atlas GitHub repository located at https://github.com/sky-ecosystem/next-gen-atlas/pulls to reflect proposals approved by Prime Governance.</td>
+          <td>Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at https://github.com/sky-ecosystem/next-gen-atlas/pulls to reflect proposals approved by Prime Governance.</td>
         </tr>
         <tr>
           <td>
