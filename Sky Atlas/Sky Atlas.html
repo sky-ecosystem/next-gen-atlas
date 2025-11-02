@@ -22421,7 +22421,7 @@
           </td>
           <td>Core Tokens - SKY - MKR To SKY Upgrade</td>
           <td>Core</td>
-          <td>Historically, MKR was the governance token of the Sky Protocol. As part of the transition to the Endgame, the technical infrastructure of the Sky Protocol must be upgraded to use SKY as its governance token rather than MKR. The upgrade will take place over three phases, as defined in the documents herein.</td>
+          <td>Historically, MKR was the governance token of the Sky Protocol. As part of the transition to the Endgame, the technical infrastructure of the Sky Protocol was upgraded to use SKY as its governance token rather than MKR.</td>
         </tr>
         <tr>
           <td>
@@ -22429,303 +22429,23 @@
           </td>
           <td>Core Tokens - SKY - MKR To SKY Upgrade Approval</td>
           <td>Core</td>
-          <td><strong>MKR Holders have voted to approve the deprecation of MKR as the governance token of the Sky Protocol with full knowledge of the changes being proposed. See <a href="https://vote.makerdao.com/polling/QmcZNZg3">https://vote.makerdao.com/polling/QmcZNZg3</a>. This deprecation includes all actions defined in <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade</dfn>, including, but not limited to, the removal of voting rights from MKR and the Delayed Upgrade Penalty.</strong></td>
+          <td><strong>MKR holders have voted to approve the deprecation of MKR as the governance token of the Sky Protocol with full knowledge of the changes being proposed. See <a href="https://vote.makerdao.com/polling/QmcZNZg3">https://vote.makerdao.com/polling/QmcZNZg3</a>. This deprecation includes all actions defined in <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade</dfn>, including, but not limited to, the removal of voting rights from MKR and the Delayed Upgrade Penalty.</strong></td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade Phase One</dfn>
+            <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Conversion Contract</dfn>
           </td>
-          <td>Core Tokens - SKY - MKR To SKY Upgrade Phase One</td>
+          <td>Core Tokens - SKY - MKR To SKY Conversion Contract</td>
           <td>Core</td>
-          <td>The documents herein define Phase One of the upgrade from MKR to SKY as the governance token of the Protocol.</td>
+          <td>The MKR to SKY conversion contract MKR_SKY allows users to upgrade from MKR to SKY at a conversion rate of 1 MKR to 24,000 SKY, subject to the Delayed Upgrade Penalty specified in <dfn>A.4.1 - MKR To SKY Upgrade Penalty</dfn>.</td>
         </tr>
         <tr>
           <td>
-            <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade Phase One Timing</dfn>
+            <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade Penalty</dfn>
           </td>
-          <td>Core Tokens - SKY - MKR To SKY Upgrade Phase One Timing</td>
+          <td>Core Tokens - SKY - MKR To SKY Upgrade Penalty</td>
           <td>Core</td>
-          <td>Phase One is expected to occur in the May 15, 2025 Executive Vote.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade Phase One Actions</dfn>
-          </td>
-          <td>Core Tokens - SKY - MKR To SKY Upgrade Phase One Actions</td>
-          <td>Core</td>
-          <td>The actions specified in the documents herein will be taken as part of Phase One. These actions are authorized to proceed directly to an Executive Vote without a prior Governance Poll.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Disable Conversion From SKY To MKR In Existing Conversion Contract</dfn>
-          </td>
-          <td>Core Tokens - SKY - Disable Conversion From SKY To MKR In Existing Conversion Contract</td>
-          <td>Core</td>
-          <td>The functionality to convert SKY to MKR in the existing converter contract located at <code>0xBDcFCA946b6CDd965f99a839e4435Bcdc1bc470B</code> on the Ethereum Mainnet must be disabled.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Launch New MKR To SKY Conversion Contract</dfn>
-          </td>
-          <td>Core Tokens - SKY - Launch New MKR To SKY Conversion Contract</td>
-          <td>Core</td>
-          <td>A new contract that allows upgrading from MKR to SKY must be deployed. This contract must have the following features:
-            <ul>
-              <li>it must allow upgrading from MKR to SKY at a conversion rate of 1 MKR to 24,000 SKY, subject to the Delayed Upgrade Penalty specified below;</li>
-              <li>it must not allow conversion from SKY to MKR;</li>
-              <li>it must support charging a Delayed Upgrade Penalty set by Sky Governance, which applies to all upgrades of MKR to SKY; and</li>
-              <li>the Delayed Upgrade Penalty must initially be set to 0%.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Disable MKR Flop Auctions</dfn>
-          </td>
-          <td>Core Tokens - SKY - Disable MKR Flop Auctions</td>
-          <td>Core</td>
-          <td>MKR flop auctions must be disabled.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Disable Emergency Shutdown Module</dfn>
-          </td>
-          <td>Core Tokens - SKY - Disable Emergency Shutdown Module</td>
-          <td>Core</td>
-          <td>The Emergency Shutdown Module must be disabled by setting the amount of MKR required to trigger it to infinity.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Launch New Chief Contract</dfn>
-          </td>
-          <td>Core Tokens - SKY - Launch New Chief Contract</td>
-          <td>Core</td>
-          <td>A new Chief contract must be deployed to support voting with SKY instead of MKR. The following changes must be made to support upgrade to the new Chief contract:
-            <ul>
-              <li>the ds-pause contract must be set to be operated by the new Chief contract;</li>
-              <li>all MOM contracts must be set to be operated by the new Chief contract;</li>
-              <li>the maxYays parameter in the new Chief contract must be set to 5;</li>
-              <li>the launchThreshold in the new Chief contract must be set to 2,400,000,000 SKY (equivalent to 100,000 MKR); and</li>
-              <li>the liftCooldown must be set to 10 blocks.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Move Authority Of Spark Freezer MOM Contract To New Chief Contract</dfn>
-          </td>
-          <td>Core Tokens - SKY - Move Authority Of Spark Freezer MOM Contract To New Chief Contract</td>
-          <td>Core</td>
-          <td>A Spark Spell must be triggered to move the authority of the Spark Freezer MOM contract to the new Chief contract. See <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - SparkLend Freezer Mom Exception</dfn>.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Launch New SKY Oracle</dfn>
-          </td>
-          <td>Core Tokens - SKY - Launch New SKY Oracle</td>
-          <td>Core</td>
-          <td>A new Oracle Security Module based on the Scribe SKY oracle must be deployed.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Add New SKY Oracle to Oracle Security Module MOM Contract</dfn>
-          </td>
-          <td>Core Tokens - SKY - Add New SKY Oracle to Oracle Security Module MOM Contract</td>
-          <td>Core</td>
-          <td>The new SKY oracle must be added to the OSM_MOM contract. See <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - Oracle Freeze Exception</dfn>.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Update Smart Burn Engine Parameters</dfn>
-          </td>
-          <td>Core Tokens - SKY - Update Smart Burn Engine Parameters</td>
-          <td>Core</td>
-          <td>The parameters of the Smart Burn Engine must be updated as follows:
-            <ul>
-              <li>The oracle must be changed to the new SKY oracle; and</li>
-              <li>The rewardsDuration for the LSEV2-SKY-A USDS rewards contract must be set such that it is equal to the splitter.hop parameter.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Launch SKY Staking</dfn>
-          </td>
-          <td>Core Tokens - SKY - Launch SKY Staking</td>
-          <td>Core</td>
-          <td>SKY Staking must be launched with the following parameters for borrowing against staked SKY:
-            <ul>
-              <li>Ilk: LSEV2-SKY-A</li>
-              <li>Farms:
-                <ul>
-                  <li>LSSKY → USDS (<code>0x38E4254bD82ED5Ee97CD1C4278FAae748d998865</code>)</li>
-                  <li>LSSKY → SPK (<code>0x99cBC0e4E6427F6939536eD24d1275B95ff77404</code>)</li>
-                </ul>
-              </li>
-              <li>Fee: 0</li>
-              <li>DC-IAM line: Set at discretion of Stability Facilitators in consultation with the Core Council Risk Advisor</li>
-              <li>DC-IAM gap: Set at discretion of Stability Facilitators in consultation with the Core Council Risk Advisor</li>
-              <li>DC-IAM ttl: Set at discretion of Stability Facilitators in consultation with the Core Council Risk Advisor</li>
-              <li>Only existing LSE-MKR-A users with drawn debt are allowed to migrate debt to LSEV2-SKY-A initially</li>
-              <li>Dust: 30,000</li>
-              <li>Duty: 20%</li>
-              <li>Mat: 145%</li>
-              <li>Calc: StairstepExponentialDecrease</li>
-              <li>Buf: 120%</li>
-              <li>Tail: 6,000 seconds</li>
-              <li>Cusp: 40%</li>
-              <li>Chip: 0.1%</li>
-              <li>Tip: 300 USDS</li>
-              <li>Stopped: 3</li>
-              <li>Chop: 13%</li>
-              <li>Hole: 250,000</li>
-              <li>Tau: 0 days</li>
-              <li>Cut: 0.99</li>
-              <li>Step: 60 seconds</li>
-              <li>LineMom: Yes</li>
-              <li>Tolerance: 0.5</li>
-              <li>Name: LockstakeSky</li>
-              <li>Symbol: lsSKY</li>
-              <li>Use new SKY Chronicle Scribe oracle instance OSM</li>
-              <li>Deny the CLIPPER_MOM from the new lockstake clipper</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Deploy New Vote Delegate Factory Contract</dfn>
-          </td>
-          <td>Core Tokens - SKY - Deploy New Vote Delegate Factory Contract</td>
-          <td>Core</td>
-          <td>A new Vote Delegate factory contract must be deployed. The Vote Delegate factory contract must support deploying Delegate Contracts to which SKY holders and SKY Staking users can delegate their voting power.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade Phase Two</dfn>
-          </td>
-          <td>Core Tokens - SKY - MKR To SKY Upgrade Phase Two</td>
-          <td>Core</td>
-          <td>The documents herein define Phase Two of the upgrade from MKR to SKY as the governance token of the Protocol.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade Phase Two Timing</dfn>
-          </td>
-          <td>Core Tokens - SKY - MKR To SKY Upgrade Phase Two Timing</td>
-          <td>Core</td>
-          <td>Phase Two is expected to occur in the May 29, 2025 Executive Vote.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade Phase Two Actions</dfn>
-          </td>
-          <td>Core Tokens - SKY - MKR To SKY Upgrade Phase Two Actions</td>
-          <td>Core</td>
-          <td>The actions specified in the documents herein will be taken as part of Phase Two. These actions are authorized to proceed directly to an Executive Vote without a prior Governance Poll.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Update Parameters For Staked Sky</dfn>
-          </td>
-          <td>Core Tokens - SKY - MKR To SKY Upgrade Phase Two Actions</td>
-          <td>Core</td>
-          <td>The parameters for staked SKY must be updated as follows:
-            <ul>
-              <li>USDS rewards on the LSEV2-SKY-A contract must be activated by setting the splitter.burn parameter to 50%;</li>
-              <li>the maxLine parameter must be set to 50,000,000 USDS;</li>
-              <li>the gap parameter must be set to 25,000,000;</li>
-              <li>the ttl parameter must be set to 86,400 seconds; and</li>
-              <li>the autoline parameter must be enabled.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Adjust GSM Pause Delay</dfn>
-          </td>
-          <td>Core Tokens - SKY - Adjust GSM Pause Delay</td>
-          <td>Core</td>
-          <td>The GSM Pause Delay must be set to 24 hours. See <dfn>A.1.9 - Sky Core Governance Security - Governance Security Delay Requirements - Pause Delay Current Value</dfn>.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Revoke Migrator Authority Over Vat Contract</dfn>
-          </td>
-          <td>Core Tokens - SKY - Revoke Migrator Authority Over Vat Contract</td>
-          <td>Core</td>
-          <td>The Migrator contract authority over the Vat contract must be revoked. This authority was necessary for existing users of LSE-MKR-A to migrate to LSEV2-SKY-A but is no longer required.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade Phase Three</dfn>
-          </td>
-          <td>Core Tokens - SKY - MKR To SKY Upgrade Phase Three</td>
-          <td>Core</td>
-          <td>The documents herein define Phase Three of the upgrade from MKR to SKY as the governance token of the Protocol.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade Phase Three Timing</dfn>
-          </td>
-          <td>Core Tokens - SKY - MKR To SKY Upgrade Phase Three Timing</td>
-          <td>Core</td>
-          <td>Phase Three will occur in Executive Votes subsequent to the May 29, 2025 Executive Vote. Unlike Phases One and Two, Phase Three will occur over multiple future Executive Votes.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade Phase Three Actions</dfn>
-          </td>
-          <td>Core Tokens - SKY - MKR To SKY Upgrade Phase Three Actions</td>
-          <td>Core</td>
-          <td>The actions specified in the documents herein will be taken as part of Phase Three. These actions are authorized to proceed directly to an Executive Vote without a prior Governance Poll.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Develop SKY Flop Auctions</dfn>
-          </td>
-          <td>Core Tokens - SKY - Develop SKY Flop Auctions</td>
-          <td>Core</td>
-          <td>Functionality for SKY flop auctions must be developed.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Offboard Borrowing Against Staked MKR</dfn>
-          </td>
-          <td>Core Tokens - SKY - Offboard Borrowing Against Staked MKR</td>
-          <td>Core</td>
-          <td>Seal Engine (LSE-MKR-A) must be offboarded as a collateral type. This will require retiring the existing SKY wrapped oracle and removing it from the MegaPoker keeper as well as other actions that will be identified at a future date.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Upgrade MKR In Pause Proxy To SKY</dfn>
-          </td>
-          <td>Core Tokens - SKY - Upgrade MKR In Pause Proxy To SKY</td>
-          <td>Core</td>
-          <td>The MKR in the Pause Proxy contract must be upgraded to SKY.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Update Liquidation Parameters For Borrowing Against Staked SKY</dfn>
-          </td>
-          <td>Core Tokens - SKY - Update Liquidation Parameters For Borrowing Against Staked SKY</td>
-          <td>Core</td>
-          <td>Once sufficient liquidity has been attained, liquidations must be enabled and parameters for LSEV2-SKY-A must be updated to normal levels.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - Set Conversion Fee In MKR To SKY Conversion Contract To 1%</dfn>
-          </td>
-          <td>Core Tokens - SKY - Set Conversion Fee In MKR To SKY Conversion Contract To 1%</td>
-          <td>Core</td>
-          <td>In the September 18, 2025 Executive Vote, the Delayed Upgrade Penalty for the new MKR to SKY conversion contract (see A.4.1 - Core Tokens - SKY - Launch New MKR To SKY Conversion Contract) must be set to 1%. Thereafter, the Delayed Upgrade Penalty must be increased gradually at the rate of 1 percentage point per three months.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.4.1 - Core Tokens - SKY - MKR To SKY Upgrade Modification Of Phases</dfn>
-          </td>
-          <td>Core Tokens - SKY - MKR To SKY Upgrade Modification Of Phases</td>
-          <td>Core</td>
-          <td>The timing and contents of Phase One, Phase Two, and Phase Three may be adjusted by the Protocol Facilitators in consultation with relevant Ecosystem Actors.</td>
+          <td>In the September 18, 2025 Executive Vote, the Delayed Upgrade Penalty for the MKR to SKY conversion contract was set to 1%. The Delayed Upgrade Penalty will be increased gradually at the rate of 1 percentage point per 3 months thereafter.</td>
         </tr>
         <tr>
           <td>
@@ -22845,6 +22565,14 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY Unstaking</dfn>
+          </td>
+          <td>SKY Staking Mechanism - SKY Staking - SKY Unstaking</td>
+          <td>Core</td>
+          <td>SKY stakers can unstake their staked SKY at any time without penalty, provided the SKY is unencumbered by any borrowed USDS.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - SKY Staking Voting Rewards</dfn>
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY Staking Voting Rewards</td>
@@ -22905,7 +22633,7 @@
           </td>
           <td>SKY Staking Mechanism - SKY Staking - SKY-Backed Borrowing</td>
           <td>Core</td>
-          <td>SKY stakers can borrow USDS against their staked SKY collateral. This borrowing will be facilitated exclusively by the stUSDS system which will provide protocol-independent, or segregated, risk capital. The stUSDS system is currently in development; its elements are outlined in the subdocuments below. During the transition period to the stUSDS system, the protocol-dependent SKY-backed borrowing system remains operational and is governed by <dfn>A.4.4 - SKY Staking Mechanism - SKY Staking - Short Term Transitionary Measures</dfn>.</td>
+          <td>SKY stakers can borrow USDS against their staked SKY collateral. This borrowing will be facilitated exclusively by the stUSDS system which will provide protocol-independent, or segregated, risk capital. The stUSDS elements are outlined in the subdocuments below.</td>
         </tr>
         <tr>
           <td>
@@ -24893,14 +24621,6 @@
         </tr>
         <tr>
           <td>
-            <dfn>Chief Contract - Element Annotation</dfn>
-          </td>
-          <td>Chief Contract - Element Annotation</td>
-          <td>Annotation</td>
-          <td>The element “Chief Contract” refers to the contract that implements the Sky Protocol's on-chain voting mechanism. Under this mechanism, the hat, or current executive authority, is elected via token-weighted votes.</td>
-        </tr>
-        <tr>
-          <td>
             <dfn>Circumvent - Element Annotation</dfn>
           </td>
           <td>Circumvent - Element Annotation</td>
@@ -25145,14 +24865,6 @@
         </tr>
         <tr>
           <td>
-            <dfn>MKR Flop Auctions - Element Annotation</dfn>
-          </td>
-          <td>MKR Flop Auctions - Element Annotation</td>
-          <td>Annotation</td>
-          <td>The element “MKR flop auctions” refers to auctions in which the Sky Protocol issues and auctions off MKR in exchange for Dai. These auctions allow the Sky Protocol to recapitalize itself to offset net debt.</td>
-        </tr>
-        <tr>
-          <td>
             <dfn>Monitoring And Ensuring - Element Annotation</dfn>
           </td>
           <td>Monitoring And Ensuring - Element Annotation</td>
@@ -25358,14 +25070,6 @@
           <td>Separate Claim Protocol And Standard Operational Protocol - Element Annotation</td>
           <td>Annotation</td>
           <td>The element refers to a separate set of procedures to be applied where Sky is the target of a legal or regulatory action. These separate procedures have not yet been defined. Once defined and ratified, they will be detailed in <dfn>A.2.9 - Legal Resilience - Legal Defense Resources - Legal Defense Standard Operational Protocols</dfn>. The Resilience Technical Committee must assist in elaborating this ruleset.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>SKY Flop Auctions - Element Annotation</dfn>
-          </td>
-          <td>SKY Flop Auctions - Element Annotation</td>
-          <td>Annotation</td>
-          <td>The element “SKY flop auctions” refers to auctions in which the Sky Protocol issues and auctions off SKY in exchange for USDS. These auctions allow the Sky Protocol to recapitalize itself to offset net debt.</td>
         </tr>
         <tr>
           <td>
