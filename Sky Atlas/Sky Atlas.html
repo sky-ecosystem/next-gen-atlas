@@ -60167,9 +60167,7 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>
-            The documents herein contain all data and specifications for Launch Agent 4's Instances of the Allocation System Primitive. See <dfn>A.2.4 - Allocation System Primitive</dfn>.
-          </td>
+          <td>The documents herein contain all data and specifications for Launch Agent 4's Allocation System Primitive Instances.</td>
         </tr>
         <tr>
           <td>
@@ -60177,7 +60175,7 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>The documents herein organize all base information relevant to Launch Agent 4's usage of the Allocation System Primitive.</td>
+          <td>The documents herein organize all base information relevant to Launch Agent 4's usage of the Launch Agent 4 Liquidity Layer.</td>
         </tr>
         <tr>
           <td>
@@ -60185,7 +60183,7 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>Active</td>
+          <td><code>Active</code></td>
         </tr>
         <tr>
           <td>
@@ -60194,6 +60192,30 @@
           <td>Launch Agent 4</td>
           <td>Core</td>
           <td>This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of <code>Active</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Ethereum Mainnet</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein contain a Directory of all Instances on Ethereum Mainnet of the Allocation System Primitive with Instance status of <code>Active</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Maple</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The Ethereum Mainnet Instances Directory of the Maple Protocol with <code>Active</code> Status are stored herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Ethereum Mainnet - Maple USDC Instance Configuration Document Location</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>This Instance's associated Instance Configuration Document is located at <dfn>Ethereum Mainnet - Maple USDC Instance Configuration Document</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -60209,9 +60231,7 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>
-            This document contains a Directory of all prospective Instances of the Allocation System Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to <dfn>Active Instances Directory</dfn>, whereas failed Invocations are Archived in <dfn>Hub Data Repository</dfn>.
-          </td>
+          <td>This document contains a Directory of all prospective Instances of the Allocation System Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to <dfn>Active Instances Directory</dfn>, whereas failed Invocations are Archived in <dfn>Hub Data Repository</dfn>.</td>
         </tr>
         <tr>
           <td>
@@ -60251,7 +60271,1349 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>The documents herein specify the logic for coordinating multiple Instances of the Allocation System Primitive. In the future, additional logic will be added herein regarding how capital is allocated between different Instances of the Allocation System Primitive.</td>
+          <td>The documents herein provide general specifications of the Launch Agent 4 Liquidity Layer and define Launch Agent 4's overarching strategy and operational framework for managing across all Instances.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>General Specifications</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein contain general specifications for the Launch Agent 4 Liquidity Layer.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Launch Agent 4 Liquidity Layer Architecture</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein describe the high-level design of the Launch Agent 4 Liquidity Layer, including its key smart contracts and their functionality.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Launch Agent 4 Liquidity Layer Addresses</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein provide the addresses of the Launch Agent 4 Liquidity Layer's constituent contracts.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Allocator Buffer Contract</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The address of the ALLOCATOR_BUFFER contract is: <code>0x51E9681D7a05abFD33EfaFd43e5dd3Afc0093F1D</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Allocator Oracle Contract</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The address of the ALLOCATOR_ORACLE contract is: <code>0xc7B91C401C02B73CBdF424dFaaa60950d5040dB7</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Allocator Registry Contract</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The address of the ALLOCATOR_REGISTRY contract is: <code>0xCdCFA95343DA7821fdD01dc4d0AeDA958051bB3B</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Allocator Roles Contract</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The address of the ALLOCATOR_ROLES contract is: <code>0x9A865A710399cea85dbD9144b7a09C889e94E803</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Allocator Vault Contract</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The address of the ALLOCATOR_VAULT contract is: <code>0xF275110dFE7B80df66a762f968f59B70BABE2b29</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Contracts</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein contain addresses for the ALM Contracts for the Launch Agent 4 Liquidity Layer.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Ethereum Mainnet</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein contain the ALM Contract Addresses for the Launch Agent 4 Liquidity Layer on the Ethereum Mainnet.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Controller Contract</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The address of the ALM_CONTROLLER (MainnetController) contract is: <code>0xF2bB664f16E2df4b0c71F9d2cFc386504E795b7A</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Controller Contract Version</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The ALM_CONTROLLER contract version is: V.1.6.0</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Freezer Multisig Address</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The address of the Multisig that has the Freezer Role is specified in <dfn>Freezer Multisig</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Relayer Multisig Address</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The address of the Multisigs that has the Relayer Role is specified in <dfn>Prime Relayer Multisig</dfn> and <dfn>Core Operator Relayer Multisig</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Proxy Contract</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The address of the ALM_PROXY contract is: <code>0xb6dD7ae22C9922AFEe0642f9Ac13e58633f715A2</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Rate Limits Contract</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The address of the ALM_RATE_LIMITS contract is: <code>0x81f8f5306cF80655Edff78f89860a8D89118E150</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Off-chain Operational Parameters</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein list the off-chain operational parameters for the Launch Agent 4 Liquidity Layer. These operational parameters are protocol settings managed outside of smart contracts (off-chain), used by operators and off-chain systems to guide the functioning of the Launch Agent 4 Liquidity Layer.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Off-chain Operational Parameters For Ethereum Mainnet</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The document herein lists the current off-chain operational parameters for the Launch Agent 4 Liquidity Layer on Ethereum Mainnet.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Minimum Operation Size Ethereum Mainnet</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The minimum transaction size for operations on Ethereum Mainnet is (<code>MAINNET_MIN_OPERATION_SIZE</code>):
+            <ul>
+              <li>This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Debt Ceiling Buffer Ethereum Mainnet</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The buffer amount below the maximum debt ceiling is (<code>DEBT_CEILING_BUFFER</code>):
+            <ul>
+              <li>This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limits</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein list the Rate Limits for the Launch Agent 4 Liquidity Layer on each blockchain.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Ethereum Mainnet</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein list the current RateLimits for the Launch Agent 4 Liquidity Layer on Ethereum Mainnet.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Ethereum Mainnet USDS</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The maximum mint, burn and swap for USDS on Ethereum Mainnet are located herein</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>USDS Mint Maximum</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The maximum amount of USDS that can be minted within the Launch Agent 4 Liquidity Layer (LIMIT_USDS_MINT) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code>: 100,000,000 USDS</li>
+              <li><code>slope</code>: 50,000,000 USDS per day</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>USDS Burn Maximum</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The maximum amount of USDS that can be burned within the Launch Agent 4 Liquidity Layer (LIMIT_USDS_BURN) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code>: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.</li>
+              <li><code>slope</code>: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>USDS For USDC Swap Maximum</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The maximum amount of USDS that can be swapped for USDC by the Launch Agent 4 Liquidity Layer in the Mainnet PSM (<code>LIMIT_USDS_TO_USDC</code>) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code>: 100,000,000 USDS.</li>
+              <li><code>slope</code>: 50,000,000 USDS per day.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Ethereum Mainnet sUSDS</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The maximum deposit and withdraw amounts for sUSDS on Ethereum Mainnet are located herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Ethereum Mainnet sUSDS Deposit Maximum</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The maximum amount of sUSDS that can be deposited (<code>LIMIT_4626_DEPOSIT</code>) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code>: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.</li>
+              <li><code>slope</code>: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Ethereum Mainnet sUSDS Withdrawal Maximum</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The maximum amount of sUSDS that can be withdrawn (<code>LIMIT_4626_WITHDRAW</code>) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code>: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.</li>
+              <li><code>slope</code>: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Ethereum Mainnet USDC ALM Proxy</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The maximum amount that can be transferred and sent to the Ethereum Mainnet ALM Proxy for USDC are located herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>USDC ALM Proxy Maximum</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The maximum amount of USDC that can be sent to the Ethereum Mainnet ALM Proxy (<code>LIMIT_USDC_TO_DOMAIN</code>, hashed with Ethereum domain) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code>: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.</li>
+              <li><code>slope</code>: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>USDC ALM Proxy Circle Cross-Chain Transfer Protocol Maximum</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The maximum amount of USDC that can be bridged to Ethereum Mainnet ALM Proxy using the Circle Cross-Chain Transfer Protocol (<code>LIMIT_USDC_TO_CCTP_ETH</code>) is specified in the document herein.
+            <ul>
+              <li><code>maxAmount</code>: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.</li>
+              <li><code>slope</code>: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>On-chain Parameters</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein list general on-chain parameters for the Launch Agent 4 Liquidity Layer</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Allocator Vault Parameters</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The Allocator Vault parameters for ALLOCATOR-OBEX-A are:
+            <ul>
+              <li><code>duty</code>: 0%</li>
+              <li><code>gap</code>: 50 million USDS</li>
+              <li><code>maxLine</code>: 2.5 billion USDS</li>
+              <li><code>ttl</code>: 86,400 seconds</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Whitelisting of ALMProxy</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The ALMProxy for Launch Agent 4 must be whitelisted on the LitePSM. This will effectively allow Launch Agent 4 to call <code>buyGemNoFee</code> and <code>sellGemNoFee</code> on the <code>MCD_LITE_PSM_USDC_A</code> contract.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Governance Processes</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein describe the specific governance processes for the Launch Agent 4 Liquidity Layer.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Invoking New Instances</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The governance process to invoke a new Instance of the Allocation System Primitive follows the Root Edit process see <dfn>Operational Process Definition</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Multisigs</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define multisigs that have privileged access to manage the Launch Agent 4 Liquidity Layer.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Prime Relayer Multisig</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The Prime Relayer Multisig has the <code>RELAYER_ROLE</code> as defined in <dfn>Relayer Role</dfn>, and is controlled by Launch Agent 4.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Prime Relayer Multisig - Address</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The address of the Prime Relayer Multisig on the Ethereum Mainnet is <code>0x5d36918C8F4726a62257AA79a50E53D553465663</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Prime Relayer Multisig - Required Number Of Signers</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The Prime Relayer Multisig currently has a 4/7 signing requirement.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Prime Relayer Multisig - Signers</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The signers of the Prime Relayer Multisig are seven (7) addresses controlled by Launch Agent 4.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Prime Relayer Multisig - Usage Standards</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The signers of the Prime Relayer Multisig must use the Multisig to exercise the <code>RELAYER_ROLE</code> in accordance with the instructions specified in the Launch Agent 4 Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Prime Relayer Multisig - Modification</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Launch Agent 4 can change the signers of the Prime Relayer Multisig at any time, so long as there are at least seven (7) signers and at least a majority of signers are required to execute transactions.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Core Operator Relayer Multisig</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The Core Operator Relayer Multisig has the <code>RELAYER_ROLE</code> as defined in <dfn>Relayer Role</dfn> and is controlled by Operational GovOps Ozone.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Core Operator Relayer Multisig - Address</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The address of the Core Operator Relayer Multisig on the Ethereum Mainnet is <code>0x2b1D60B11B7015fB83361a219BE01B7564436054</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Core Operator Relayer Multisig- Required Number Of Signers</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The Core Operator Relayer Multisig currently has a 2/3 signing requirement.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Core Operator Relayer Multisig - Signers</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Ozone.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Core Operator Relayer Multisig - Usage Standards</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The signers of the Core Operator Relayer Multisig must use the Multisig to exercise the <code>RELAYER_ROLE</code> in accordance with the instructions specified in the Launch Agent 4 Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Core Operator Relayer Multisig - Modification</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Operational GovOps Ozone can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Freezer Multisig</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The Freezer Multisig has the <code>FREEZER_ROLE</code> as defined in <dfn>Freezer Role</dfn> and is controlled by Launch Agent 4.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Freezer Multisig - Address</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The address of the Freezer Multisig on the Ethereum Mainnet is <code>0x1924b6990B63c5f820b81a23CD40383808D416D8</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Freezer Multisig - Required Number Of Signers</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The Freezer Multisig currently has a 2/4 signing requirement.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Freezer Multisig - Signers</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The signers of the Freezer Multisig are four (4) addresses controlled by Launch Agent 4.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Freezer Multisig - Usage Standards</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The usage standards for the Freezer Multisig will be specified in a future iteration of the Launch Agent 4 Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Freezer Multisig - Modification</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The modification of signers for the Freezer Multisig will be specified in a future iteration of the Launch Agent 4 Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Total Risk Capital (TRC) Management</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein specify requirements related to Launch Agent 4's Total Risk Capital (TRC) management.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rubicon's Operation Of Launch Agent 4 Liquidity Layer And Agreement Regarding Encumbrance Ratio</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Rubicon will operate the Launch Agent 4 Liquidity Layer and agrees to stay at or below a 90% Encumbrance Ratio. See <dfn>A.3.3 - Encumbrance Ratio</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rubicon's Total Risk Capital (TRC) Management Processes</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>As operators of the Launch Agent 4 Liquidity Layer, Rubicon automatically inherits, and is subject to, the base class of operational requirements related to Total Risk Capital management defined in <dfn>A.2.4 - Primes' Total Risk Capital (TRC) Management</dfn>. Modifications to the base operational logic automatically propagate to the Launch Agent 4 Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Launch Agent 4 Liquidity Layer Operational Processes</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein describe common operational procedures for the Launch Agent 4 Liquidity Layer applicable across multiple Instances.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Routine Protocol</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the protocol for routine ongoing management of the Launch Agent 4 Liquidity Layer and its active Instances. </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Role Hierarchy And Permissions</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein defines roles (Admin, Relayer, Freezer) and their responsibilities/permissions for managing the Launch Agent 4 Liquidity Layer.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Default Admin Role</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The admin role (<code>DEFAULT_ADMIN_ROLE</code>) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Launch Agent 4 Proxy.
+            <pre><code>
+            constructor(address admin) {
+              _grantRole(DEFAULT_ADMIN_ROLE, admin);
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Relayer Role</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The <code>RELAYER_ROLE</code> is the address for the Launch Agent 4 Liquidity Layer ALM Planner off-chain system that calls functions on <code>Controller</code> contracts to perform actions on behalf of the <code>ALMProxy</code> contract. The Relayer Role may be granted to an address by any address holding the <code>DEFAULT_ADMIN_ROLE</code>. The Relayer Role may be removed from an address by any address holding the <code>DEFAULT_ADMIN_ROLE</code> or the <code>FREEZER_ROLE</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ALM Controller Role</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The <code>ALM_CONTROLLER_ROLE</code> is the address of the role that can call the <code>call</code> functions on the <code>ALMProxy</code> contract and update <code>RateLimits</code> contract. It includes the <code>MainnetController</code> and <code>ForeignController</code> contracts. ALM Controller contracts are accessed and modified via the Relayer Role.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Freezer Role</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The <code>FREEZER_ROLE</code> is the address of the emergency role that can remove a compromised Relayer.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Controller Functions</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein describe the purpose and operational use of key functions within the Launch Agent 4 Liquidity Layer <code>MainnetController</code> contracts: USDS management (mint/burn USDS), Asset Transfer Management (direct transfers, protocol deposits/withdrawals), Cross-chain Operations (CCTP bridging).</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Mainnet Controller Contract Functions</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the functions controlled by the Controller contract for Launch Agent 4 Liquidity Layer operations on Ethereum Mainnet.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Admin Functions</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the operations performed by the <code>DEFAULT_ADMIN_ROLE</code> within the <code>MainnetController</code> contract.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Set Mint Recipient For Destination Domain</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the steps for an admin to specify which address should receive newly minted tokens on a particular destination domain.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call setMintRecipient Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the admin role is able to set the mint recipient for a destination domain. To do so, they must call the setMintRecipient function on the Controller contract on mainnet providing the destination domain and the mint recipient address. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the admin status of the operator. If the caller does not have the admin role the transaction will revert.</li>
+              <li>The contract will set the selected mint recipient for the specified destination domain.</li>
+              <li>The contract will emit a <code>MintRecipientSet</code> event to the blockchain logs.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function setMintRecipient(uint32 destinationDomain, bytes32 mintRecipient) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Set LayerZero Recipient</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the steps for an admin to specify which address should receive LayerZero messages on a particular destination endpoint.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call setLayerZeroRecipient Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the admin role is able to set the LayerZero recipient for a destination endpoint. To do so, they must call the setLayerZeroRecipient function on the Controller contract on mainnet, providing the destination endpoint ID and the recipient address. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the admin status of the operator. If the caller does not have the admin role the transaction will revert.</li>
+              <li>The contract will set the selected LayerZero recipient for the specified destination endpoint.</li>
+              <li>The contract will emit a <code>LayerZeroRecipientSet</code> event to the blockchain logs.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function setLayerZeroRecipient(uint32 destinationEndpointId, bytes32 layerZeroRecipient) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Set Maximum Slippage</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the steps for an admin to set the maximum allowed slippage for a specific pool.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call setMaximumSlippage Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the admin role is able to set the maximum slippage for a pool. To do so, they must call the <code>setMaxSlippage</code> function on the Controller contract on mainnet, providing the pool address and the maximum slippage value. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the admin status of the operator. If the caller does not have the admin role the transaction will revert.</li>
+              <li>The contract will set the maximum slippage for the specified pool.</li>
+              <li>The contract will emit a <code>MaxSlippageSet</code> event to the blockchain logs.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function setMaxSlippage(address pool, uint256 maxSlippage) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Relayer Functions</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the operations performed by the relayer role (see <dfn>Relayer Role</dfn>) within the <code>MainnetController</code> contract.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Relayer Vault Functions</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the operations that are performed to maintain the desired level of liquidity and debt balance of the Launch Agent 4 Liquidity Layer.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Mint USDS</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the steps for a relayer to mint USDS from the Sky Allocation Vault to the Launch Agent 4 ALM Proxy.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call mintUSDS Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role is able to mint USDS. To do so, they must call the <code>mintUSDS</code> function on the Controller contract on mainnet with the amount of USDS that is required for minting. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role the transaction will revert.</li>
+              <li>The contract will ensure the <code>Rate Limits</code> allow for minting the required amount. If the mint amount does not fall within the available Rate Limit the transaction will revert.</li>
+              <li>The contract will reduce the Rate Limit by the amount of USDS minted in this transaction.</li>
+              <li>The contract will mint the required USDS into the buffer contract.</li>
+              <li>The contract will transfer the newly minted USDS from the buffer to the Proxy.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function mintUSDS(uint256 usdsAmount) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Burn USDS</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the steps for a relayer to return and then burn Launch Agent 4's USDS debt in the Sky Allocation Vault.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call burnUSDS Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role is able to repay vault debt and burn USDS. To do so, they must call the burnUSDS function of the Controller contract on mainnet with the amount of USDS that they wish to burn. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role the transaction will revert.</li>
+              <li>The contract will increase the available Rate Limit for minting USDS by the amount of USDS being burned. This increase will be limited by the <code>maxAmount</code> parameter in the <code>Rate Limit</code> contract.</li>
+              <li>The contract will transfer USDS from the proxy to the buffer.</li>
+              <li>The contract will burn the USDS from the buffer and <code>wipe</code> an equivalent amount from the vault's debt.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function burnUSDS(uint256 usdsAmount) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ERC-20 Functions</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the operations that are performed to transfer ERC-20 assets to specified destinations.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Transfer Asset</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the steps for a relayer to transfer ERC-20 tokens to a destination address.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call transferAsset Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role is able to transfer ERC-20 assets. To do so, they must call the <code>transferAsset</code> function on the Controller contract on mainnet, providing the ERC20 asset address, the destination address, and the amount to transfer. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role the transaction will revert.</li>
+              <li>The contract will ensure the <code>Rate Limits</code> allow for transferring the specified amount of the asset to the destination. If the transfer amount does not fall within the available Rate Limit, the transaction will revert.</li>
+              <li>The contract will execute the ERC-20 <code>transfer</code> function, sending the specified amount of the asset to the destination address.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function transferAsset(address asset, address destination, uint256 amount) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ERC-4626 Functions</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the general Launch Agent 4 Liquidity Layer operational procedures for interacting with ERC-4626-compliant tokenized vaults. ERC-4626 is a standard interface for vaults representing shares of an underlying ERC-20 token. Launch Agent 4 Liquidity Layer can integrate with various ERC-4626 vaults. For instance-specific parameters (such as vault addresses, asset addresses, and rate limits), refer to the relevant ERC-4626 Instance Configuration Document.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Deposit To ERC-4626 Vault</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the steps for a relayer to deposit assets from the ALM Proxy to an ERC-4626 vault to receive yield-bearing shares.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call depositERC4626 Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role can deposit assets into an ERC-4626 vault. To do so, they must call the <code>depositERC4626</code> function on the Controller contract on mainnet, providing the vault token address and the amount of the underlying asset to deposit. The operation will only succeed if the ALM Proxy holds at least the amount of the underlying asset specified for deposit; otherwise, the transaction will revert. The rate limit configuration serves as whitelisting for vaults. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.</li>
+              <li>The contract will ensure the deposit amount is within the allowed rate limit for the specified vault.</li>
+              <li>The contract will approve the vault to spend the underlying asset from the ALM Proxy. The approval and deposit are both performed from the ALM Proxy address.</li>
+              <li>The contract will deposit the specified amount into the vault, and the ALM Proxy will receive the corresponding number of vault shares.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function depositERC4626(address token, uint256 amount) external returns (uint256 shares)
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Withdraw From ERC-4626 Vault</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the steps for a relayer to withdraw a specified amount of the underlying asset from an ERC-4626 vault to the ALM Proxy.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call withdrawERC4626 Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role can withdraw assets from an ERC-4626 vault. To do so, they must call the <code>withdrawERC4626</code> function on the Controller contract on mainnet, providing the vault token address and the amount of the underlying asset to withdraw. The operation will only succeed if the ALM Proxy holds at least the amount of the underlying asset specified for withdrawal; otherwise, the transaction will revert. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.</li>
+              <li>The contract will ensure the withdrawal amount is within the allowed rate limit for the specified vault.</li>
+              <li>The contract will withdraw the specified amount from the vault, burning the necessary number of vault shares held by the ALM Proxy as part of the withdrawal process.</li>
+              <li>The withdrawn assets will be sent to the ALM Proxy.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function withdrawERC4626(address token, uint256 amount) external returns (uint256 shares)
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Redeem ERC-4626 Shares</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the steps for a relayer to redeem vault shares for the underlying asset from an ERC-4626 vault, with the assets sent to the ALM Proxy.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call withdrawERC4626 Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role can redeem vault shares for the underlying asset. To do so, they must call the <code>redeemERC4626</code> function on the Controller contract on mainnet, providing the number of shares to redeem. The address is the ALM Proxy acting as both the owner of the shares being redeemed and the receiver of the resulting assets. The operation will only succeed if the ALM Proxy holds at least the number of shares specified for redemption; otherwise, the transaction will revert. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.</li>
+              <li>The contract will redeem the specified number of shares from the vault, sending the resulting assets to the ALM Proxy.</li>
+              <li>After redemption, the contract will update the withdrawal rate limit based on the amount of assets received.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function redeemERC4626(address token, uint256 shares) external returns (uint256 assets)
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ERC-7540 Functions</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the general Launch Agent 4 Liquidity Layer operational procedures for interacting with ERC-7540-compliant tokenized vaults. ERC-7540 is a standard interface for vaults representing and managing multiple underlying assets within a single vault. Launch Agent 4 Liquidity Layer can integrate with various ERC-7540 vaults. For instance-specific parameters (such as vault addresses, asset addresses, and rate limits), refer to the relevant ERC-7540 Instance Configuration Document.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Deposit To ERC-7540 Vault</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the steps for a relayer to request and claim deposit of assets from the ALM Proxy to an ERC-7540 vault.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call requestDepositERC7540 Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role can request a deposit into an ERC-7540 vault. To do so, they must call the <code>requestDepositERC7540</code> function on the Controller contract on mainnet, providing the vault token address and the amount of the underlying asset to deposit. The operation will only succeed if the ALM Proxy holds at least the amount of the underlying asset specified for deposit; otherwise, the transaction will revert. The Rate Limit configuration serves as whitelisting for vaults. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.</li>
+              <li>The contract will ensure the deposit amount is within the allowed rate limit for the specified vault.</li>
+              <li>The contract will approve the vault to spend the underlying asset from the ALM Proxy. The approval and deposit are both performed from the ALM Proxy address.</li>
+              <li>The contract will submit a deposit request to the vault. Shares will not be received immediately; they must be claimed in a separate step after the vault processes the deposit.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function requestDepositERC7540(address token, uint256 amount) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call claimDepositERC7540 Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role can claim shares from an ERC-7540 vault after a deposit request. To do so, they must call the <code>claimDepositERC7540</code> function on the Controller contract on mainnet, providing the vault token address. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.</li>
+              <li>The contract will determine the maximum number of shares that can be claimed by the ALM Proxy.</li>
+              <li>The contract will approve the vault to spend the underlying asset from the ALM Proxy. The approval and deposit are both performed from the ALM Proxy address.</li>
+              <li>The contract will claim the shares from the vault, and the ALM Proxy will receive the corresponding number of vault shares.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function claimDepositERC7540(address token) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Redeem From ERC-7540 Vault</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the steps for a relayer to request and redeem vault shares for the underlying asset from an ERC-7540 vault, with the assets sent to the ALM Proxy.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call requestRedeemERC7540 Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role can request the redemption of shares from an ERC-7540 vault. To do so, they must call the requestRedeemERC7540 function on the Controller contract on mainnet, providing the vault token address and the number of shares to redeem. The rate limit configuration serves as whitelisting for vaults. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.</li>
+              <li>The contract will ensure the redemption amount is within the allowed rate limit for the specified vault.</li>
+              <li>The contract will submit a redemption request to the vault. Assets will not be received immediately; they must be claimed in a separate step after the vault processes the redemption.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function requestRedeemERC7540(address token, uint256 amount) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call claimRedeemERC7540 Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role can claim assets from an ERC-7540 vault after a redemption request. To do so, they must call the <code>claimRedeemERC7540</code> function on the Controller contract on mainnet, providing the vault token address. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.</li>
+              <li>The contract will determine the maximum amount of assets that can be claimed by the ALM Proxy.</li>
+              <li>The contract will claim the assets from the vault, and the ALM Proxy will receive the corresponding amount of underlying assets.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function claimRedeemERC7540(address token) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Dai / USDS Functions</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the swap operations between Dai and USDS.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Swap USDS to Dai</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define a series of operations for an operator to <code>swap</code> USDS to Dai.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call swapUSDSToDAI Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role can swap USDS to Dai. To do so, they must call the <code>swapUSDSToDAI</code> function on the Controller contract on mainnet, providing the usdsAmount. The operation will only succeed if the Proxy holds enough USDS for the swap; otherwise, the transaction will revert. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.</li>
+              <li>The contract will approve the DaiUsds migrator to spend the specified USDS amount from the Proxy.</li>
+              <li>The contract will swap USDS to Dai at a 1:1 ratio by calling the <code>usdsToDai</code> function on the migrator, sending the resulting DAI to the proxy.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function swapUSDSToDAI(uint256 usdsAmount) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Swap Dai to USDS</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define a series of operations for an operator to <code>swap</code> Dai to USDS.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call swapDAIToUSDS Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role can swap Dai to USDS. To do so, they must call the <code>swapDAIToUSDS</code> function on the Controller contract on mainnet, providing the daiAmount. The operation will only succeed if the Proxy holds enough Dai for the swap; otherwise, the transaction will revert. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.</li>
+              <li>The contract will approve the DaiUsds migrator to spend the specified Dai amount from the Proxy.</li>
+              <li>The contract will swap Dai to USDS at a 1:1 ratio by calling the daiToUsds function on the migrator, sending the resulting USDS to the proxy.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function swapDAIToUSDS(uint256 daiAmount) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>PSM Functions</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the swap operations performed by the Launch Agent 4 Liquidity Layer in the PSM.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Swap USDS to USDC</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define a series of operations for an operator to <code>swap</code> USDS to USDC through the PSM.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call swapUSDSToUSDC Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role can swap USDS to USDC via the PSM. To do so, they must call the <code>swapUSDSToUSDC</code> function on the Controller contract on mainnet, providing the usdcAmount (denominated in 1e6 precision to match PSM USDC handling). The operation will only succeed if the ALM Proxy holds at least the equivalent amount of USDS for the swap; otherwise, the transaction will revert. The rate limit configuration serves as whitelisting for swaps. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.</li>
+              <li>The contract will ensure the swap amount is within the allowed rate limit (LIMIT_USDS_TO_USDC) for the PSM.</li>
+              <li>The contract will convert the USDC amount to an 18-decimal format using psmTo18ConversionFactor.</li>
+              <li>The contract will approve the daiUsds contract to spend the converted amount from the ALM Proxy.</li>
+              <li>The contract will swap USDS to Dai at a 1:1 ratio via daiUsds, sending Dai to the proxy.</li>
+              <li>The contract will approve the PSM to spend the Dai.</li>
+              <li>The contract will swap Dai to USDC at a 1:1 ratio with no fee via psm.buyGemNoFee, sending USDC to the proxy.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function swapUSDSToUSDC(uint256 usdcAmount) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Swap USDC to USDS</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define a series of operations for an operator to <code>swap</code> USDC to USDS through the PSM.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call swapUSDCToUSDS Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role can swap USDC to USDS via the PSM. To do so, they must call the <code>swapUSDCToUSDS</code> function on the Controller contract on mainnet, providing the usdcAmount (denominated in 1e6 precision to match PSM USDC handling). The operation will only succeed if the ALM Proxy holds at least the amount of USDC specified for the swap; otherwise, the transaction will revert. The rate limit configuration serves as whitelisting for swaps. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.</li>
+              <li>The contract will ensure the swap amount is within the allowed rate limit (LIMIT_USDC_TO_USDS) for the PSM.</li>
+              <li>The contract will approve the PSM to spend the USDC from the ALM Proxy.</li>
+              <li>The contract will calculate the swap limit per transaction based on the Dai balance held by the PSM, converting with psmTo18ConversionFactor.</li>
+              <li>If the usdcAmount is less than or equal to the limit, the contract will perform a direct swap of USDC to Dai.</li>
+              <li>If the usdcAmount exceeds the limit, the contract will split the swap into multiple smaller swaps: refill the PSM with Dai via psm.fill, recalculate the limit, swap the maximum allowed amount, update the remaining amount, and repeat until complete (reverting with “DssLitePsm/nothing-to-fill” if PSM cannot be filled).</li>
+              <li>The contract will convert the USDC amount to a Dai amount, accounting for token decimal differences.</li>
+              <li>The contract will approve the daiUsds contract to spend the Dai amount from the ALM Proxy.</li>
+              <li>The contract will swap Dai to USDS at a 1:1 ratio via daiUsds, sending USDS to the proxy.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function swapUSDCToUSDS(uint256 usdcAmount) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Transfer Token Via LayerZero</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the steps for a relayer to <code>transfer</code> a token via LayerZero to a destination endpoint, with the assets sent according to the configured recipient.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call transferTokenLayerZero Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role can transfer tokens via LayerZero. To do so, they must call the <code>transferTokenLayerZero</code> function on the Controller contract on mainnet, providing the oftAddress, amount, and destinationEndpointId (payable for native fees). The operation will only succeed if the ALM Proxy holds sufficient tokens and fees; otherwise, the transaction will revert. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.</li>
+              <li>The contract will ensure the transfer amount is within the allowed rate limit (built from LIMIT_LAYERZERO_TRANSFER, oftAddress, and destinationEndpointId).</li>
+              <li>If approval is required, the contract will approve the token for the oftAddress.</li>
+              <li>The contract will build LayerZero send options and a SendParam struct with destination details, amount, and recipient from layerZeroRecipients.</li>
+              <li>The contract will quote the OFT receipt to set the minimum amount received.</li>
+              <li>The contract will quote the messaging fee and execute the send via proxy.doCallWithValue, passing the fee value.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function transferTokenLayerZero(address oftAddress, uint256 amount, uint32  destinationEndpointId) external payable
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limit Management</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the protocol for querying, setting, and adjusting <code>RateLimits</code> for Instances using their <code>RateLimitID</code>s. The ratelimits must be maintained in line with Launch Agent 4's strategy, market conditions, and security considerations.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Get Rate Limit Data</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Anyone can query the full rate limit data for a specific key. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will return the stored Rate LimitData struct from the _data mapping for the key.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function getRate LimitData(bytes32 key) external override view returns (Rate LimitData memory)
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Set Rate Limit Data</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the admin role is able to set or update rate limit data for a specific key, including maxAmount, slope, and historical values. There are two overloads for flexibility. Calling these functions will carry out the following actions:
+            <ul>
+              <li>The contract will require that lastAmount is less than or equal to maxAmount, reverting with "Rate Limits/invalid-lastAmount" if not.</li>
+              <li>The contract will require that lastUpdated is less than or equal to the current block timestamp, reverting with "Rate Limits/invalid-lastUpdated" if not.</li>
+              <li>The contract will store the provided data in the _data mapping as a Rate LimitData struct.</li>
+              <li>The contract will emit a Rate LimitDataSet event with the key and provided values.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function setRate LimitData(bytes32 key, uint256 maxAmount, uint256 slope, uint256 lastAmount, uint256 lastUpdated) public override onlyRole(DEFAULT_ADMIN_ROLE)
+
+              function setRate LimitData(bytes32 key, uint256 maxAmount, uint256 slope) external override
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Set Unlimited RateLimit</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the admin role is able to set unlimited rate limit data for a specific key by configuring it with maximum values. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will call setRate LimitData internally with type(uint256).max for maxAmount and lastAmount, 0 for slope, and the current block timestamp for lastUpdated.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function setUnlimitedRate LimitData(bytes32 key) external override
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Get Current Rate Limit</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Anyone can query the current rate limit value for a specific key, accounting for time-based slope accrual. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will retrieve the Rate LimitData for the key from the _data mapping.</li>
+              <li>If maxAmount is type(uint256).max (unlimited case), the contract will return type(uint256).max.</li>
+              <li>Otherwise, the contract will calculate and return the minimum of (slope * time elapsed since lastUpdated + lastAmount) and maxAmount.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function getCurrentRate Limit(bytes32 key) public override view returns (uint256)
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Trigger Rate Limit Decrease</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the controller role can trigger a decrease in the rate limit for a specific key by a given amount. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will retrieve the Rate LimitData storage for the key from the data mapping.</li>
+              <li>The contract will require that maxAmount is greater than 0, reverting with "Rate Limits/zero-maxAmount" if not.</li>
+              <li>If maxAmount is type(uint256).max (unlimited case), the contract will return type(uint256).max without changes.</li>
+              <li>The contract will calculate the currentRate Limit using getCurrentRate Limit.</li>
+              <li>The contract will require that amountToDecrease is less than or equal to currentRate Limit, reverting with “Rate Limits/rate-limit-exceeded” if not.</li>
+              <li>The contract will update lastAmount to currentRate Limit minus amountToDecrease and set lastUpdated to the current block timestamp.</li>
+              <li>The contract will emit a Rate LimitDecreaseTriggered event with the key, amountToDecrease, currentRate Limit, and newLimit.</li>
+              <li>The contract will return the newLimit.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function triggerRate LimitDecrease(bytes32 key, uint256 amountToDecrease) external override onlyRole(CONTROLLER) returns (uint256 newLimit)
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance Lifecycle Management</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define processes for invoking (onboarding) new Launch Agent 4 Liquidity Layer Instances and offboarding existing ones. This process will be specified in a future iteration of the Launch Agent 4 Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Upgrading Controller</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the process for deploying new Controller contracts. This process will be specified in a future iteration of the Launch Agent 4 Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Non-Routine Protocol</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the process for non-routine ongoing management of the Launch Agent 4 Liquidity Layer and its active Instances.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Emergency Protocol</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define all the possible actions that can be taken in case of an emergency within Launch Agent 4 Liquidity Layer operations.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Remove Compromised Relayer As Freezer</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>In the event of a compromised Relayer, the <code>FREEZER_ROLE</code> can call the function to <code>removeRelayer</code> from the Controller contract. Only an operator with the freezer role can remove a relayer. To do so, they must call the removeRelayer function on the Controller contract on mainnet, providing the compromised relayer's address. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the caller holds the freezer role. If the caller does not have the freezer role, the transaction will revert.</li>
+              <li>The contract will revoke the relayer role from the specified address.</li>
+              <li>The contract will emit a <code>RelayerRemoved(relayer)</code> event.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function removeRelayer(address relayer) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Redeem All Mainnet Positions</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the actions that should be performed by an operator if there is a need to recover the liquidity from Mainnet Protocols and centralize it in the Mainnet Launch Agent 4 ALM Proxy.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>ERC-4626 Withdrawal Action</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td><p>In order to withdraw all ERC-4626 balances, the operator must call the <code>redeemERC4626</code> function.</p><p>The function call is as follows:</p>
+            <pre><code>
+              function redeemERC4626(address(token), token.balanceOf(address(proxy)))
+            </code></pre>
+            For more detailed instructions on the code to execute this, see <dfn>ERC-4626 Functions</dfn>.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>USDC to USDS Swap Action</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td><p>This document defines the action that should be performed by an operator if there is a need to centralize all recovered liquidity in USDS. The operator must call the <code>swapUSDCToUSDS</code> function.</p><p>The function call is as follows:</p>
+            <pre><code>
+              function swapUSDCToUSDS(usdc.balanceOf(address(proxy))
+            </code></pre>
+            For more detailed instructions on the code to execute this, see <dfn>Swap USDC to USDS</dfn>.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>USDS Burn Action</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td><p>This document defines the action that should be performed if there is a need to repay and then burn Launch Agent 4's USDS debt. The operator must call the <code>burnUSDS</code> function.</p><p>The function call is as follows:</p>
+            <pre><code>
+              function burnUSDS(usds.balanceOf(address(proxy)))
+            </code></pre>
+            More detailed instructions on the code to execute this, see <dfn>Burn USDS</dfn>.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Allocation Strategy</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>In the future, additional logic will be added herein regarding the strategy by which capital is allocated between different Instances of the Launch Agent 4 Liquidity Layer.</td>
         </tr>
         <tr>
           <td>
@@ -60259,7 +61621,228 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>The Instances of the Allocation System Primitive with <code>Active</code> Status are stored herein.</td>
+          <td>The Instances of the Launch Agent 4 Liquidity Layer with <code>Active</code> Status are stored herein. The <code>RRC Framework Full Implementation Coverage</code> status defines whether the Instance Financial RRC is calculated based on a fully implemented risk model (see <dfn>A.3.3 - Fully Implemented Risk Models</dfn>) or a pending risk model (see <dfn>A.3.3 - Pending Risk Models</dfn>). If the Instance Financial RRC is calculated based on a fully implemented risk model the status is <code>Covered</code>. If the Instance Financial RRC is calculated based on a pending risk model the status is <code>Pending</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Ethereum Mainnet Instances</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The Ethereum Mainnet Instances of the Launch Agent 4 Liquidity Layer with <code>Active</code> Status are stored herein and are organized by target protocol.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Maple</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The Ethereum Mainnet Instances of the Maple Protocol with <code>Active</code> Status are stored herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Ethereum Mainnet - Maple USDC Instance Configuration Document</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein contain the Instance Configuration Document for the Maple USDC Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>RRC Framework Full Implementation</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td><strong><code>Covered</code></strong></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Parameters</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the parameters of the Maple USDC Instance of the Allocation System Primitive.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance Identifiers</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the Instance identifiers</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Network</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Ethereum Mainnet</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Target Protocol</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Maple</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Asset Supplied By Launch Agent 4 Liquidity Layer</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>USDC</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Token</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>syrupUSDC</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Contract Addresses</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the Instance contract addresses.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Token Address</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td><code>0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Underlying Asset Address</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td><code>0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limit IDs</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The specific <code>RateLimitID</code>(s) for this conduit's inflow and outflow will be specified in a future iteration of the Launch Agent 4 Artifact.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Inflow RateLimitID</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The inflow RateLimitID is: <code>0x99a69e57b2f387f999d6adff6eb2e707b59fdb54f06ca6211b4f20956e9bfe10</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Outflow RateLimitID</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The outflow RateLimitID is: <code>0x64e6fd9d694640eebeeefc7b5abe32ef09bbabaa3d4e60221461d05a9577dc57</code></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rate Limits</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The current <code>maxAmount</code> and <code>slope</code> for this conduit's inflow/outflow are defined in the subdocuments herein.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Deposit Rate Limits</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The deposit rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: 100,000,000 USDC</li>
+              <li><code>slope</code>: 20,000,000 USDC per day</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Withdrawal Rate Limits</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The withdrawal rate limits are:
+            <ul>
+              <li><code>maxAmount</code>: Unlimited</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Off-chain Operational Parameters</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein contain specific off-chain parameters for this Instance.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Instance-specific Operational Processes</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes. For the general operational procedures applicable to all Aave-type instances. See <dfn>Aave Functions</dfn> and <dfn>Aave AToken Withdrawal Action</dfn>. For detailed example of the SLL interaction logic for depositing to and withdrawing from Aave see <dfn>Process Definition For Depositing</dfn> and <dfn>Process Definition For Withdrawing</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Redeem Maple Shares</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>The documents herein define the steps for a relayer to redeem vault shares from Maple.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call RequestMapleRedemption Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td>Only an operator with the relayer role can request the redemption of shares from Maple. To do so, they must call the <code>requestMapleRedemption</code> function on the Controller contract on mainnet, providing the Maple token address and the number of shares to request. All Maple redemption operations are performed on behalf of the ALM Proxy and the destination address is always set to the proxy by the contract. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.</li>
+              <li>The contract will ensure the redemption amount is within the allowed rate limit for the specified vault and decrease the rate limit for the redemption amount.</li>
+              <li>The contract will submit a redemption request to the vault. Assets will not be received immediately; they must be claimed in a separate step after the vault processes the redemption.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function requestMapleRedemption(address mapleToken, uint256 shares) external
+            </code></pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Call CancelMapleRedemption Function</dfn>
+          </td>
+          <td>Launch Agent 4</td>
+          <td>Core</td>
+          <td> Only an operator with the relayer role can cancel a previously requested redemption of shares from Maple. To do so, they must call the <code>cancelMapleRedemption</code> function on the Controller contract on mainnet, providing the Maple token address and the number of shares to cancel. All Maple cancellations of redemption operations are performed on behalf of the ALM Proxy. Calling this function will carry out the following actions:
+            <ul>
+              <li>The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.</li>
+              <li>The contract will check that a rate limit exists for the asset. If no rate limit exists the transaction will revert.</li>
+              <li>The contract will submit a cancellation request to the vault, removing the specified number of shares from the pending redemption.</li>
+            </ul>
+            The function call is as follows:
+            <pre><code>
+              function cancelMapleRedemption(address mapleToken, uint256 shares) external
+            </code></pre>
+          </td>
         </tr>
         <tr>
           <td>
@@ -60275,9 +61858,7 @@
           </td>
           <td>Launch Agent 4</td>
           <td>Core</td>
-          <td>
-            The in progress Invocations of the Allocation System Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to <dfn>Active Instances</dfn>.
-          </td>
+          <td>The in progress Invocations of the Allocation System Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to <dfn>Active Instances</dfn>.</td>
         </tr>
         <tr>
           <td>
