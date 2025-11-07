@@ -41292,6 +41292,310 @@
         </tr>
         <tr>
           <td>
+            <dfn>Spark Savings Configuration</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein specify Spark's strategy and operational processes for managing parameters and liquidity for the Spark Savings protocol.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Operational Process Definition</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the process for updating Spark Savings Configuration policies and parameters.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings Configuration Changes</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Changes to Spark Savings Configuration policies and parameters are implemented using the Root Edit Primitive.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Onchain Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the onchain parameters that are implemented within Spark Savings.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings Parameters Definitions</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The subdocuments herein provide definitions for Spark Savings onchain parameters.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Default Admin Role</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The default admin role controls upgrades to Spark Savings vault contracts, and has overall admin control over the vault. This role will be assigned to Spark governance to ensure maximum possible security and decentralization.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Setter Role</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The setter role controls the current rewards rate for a Spark Savings vault, within the upper and lower bounds defined by the max yield and min yield onchain parameters.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Taker Role</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The taker role has permission to withdraw a Spark Savings vault's underlying asset from the vault to the Spark Liquidity Layer ALM Proxy contract.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Take Rate Limit</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The take rate limit defines the maximum amount and pace of withdrawals from a Spark Savings vault permitted by the taker role.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Min Yield</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The min yield parameter is the lowest Spark Savings vault rewards rate that can be implemented by the setter role. Typically this value will be 0.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Max Yield</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The max yield parameter is the highest Spark Savings vault rewards rate that can be implemented by the setter role.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Supply Cap</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The supply cap defines the maximum amount of underlying asset that can be deposited to a Spark Savings vault by users.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings Parameters Current Configuration</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The subdocuments herein provide the current configuration of Spark Savings onchain parameters.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings USDC on Ethereum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The current parameters for Spark Savings USDC on Ethereum are:       
+            <ul>
+              <li>Default admin role: 0x3300f198988e4C9C63F75dF86De36421f06af8c4</li>
+              <li>Setter role: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC</li>
+              <li>Taker role: 0x1601843c5E9bC251A3272907010AFa41Fa18347E</li>
+              <li>Take rate limit: unlimited</li>
+              <li>Min yield: 0%</li>
+              <li>Max yield: 10%</li>
+              <li>Supply cap: 250 million</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings USDT on Ethereum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The current parameters for Spark Savings USDT on Ethereum are:       
+            <ul>
+              <li>Default admin role: 0x3300f198988e4C9C63F75dF86De36421f06af8c4</li>
+              <li>Setter role: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC</li>
+              <li>Taker role: 0x1601843c5E9bC251A3272907010AFa41Fa18347E</li>
+              <li>Take rate limit: unlimited</li>
+              <li>Min yield: 0%</li>
+              <li>Max yield: 10%</li>
+              <li>Supply cap: 250 million</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings ETH on Ethereum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The current parameters for Spark Savings ETH on Ethereum are:       
+            <ul>
+              <li>Default admin role: 0x3300f198988e4C9C63F75dF86De36421f06af8c4</li>
+              <li>Setter role: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC</li>
+              <li>Taker role: 0x1601843c5E9bC251A3272907010AFa41Fa18347E</li>
+              <li>Take rate limit: unlimited</li>
+              <li>Min yield: 0%</li>
+              <li>Max yield: 5%</li>
+              <li>Supply cap: 50,000</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings USDC on Avalanche</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The current parameters for Spark Savings USDC on Avalanche are:       
+            <ul>
+              <li>Default admin role: 0x7566DEbC906C17338524A414343fA61BcA26A843</li>
+              <li>Setter role: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC</li>
+              <li>Taker role: 0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC</li>
+              <li>Take rate limit: unlimited</li>
+              <li>Min yield: 0%</li>
+              <li>Max yield: 10%</li>
+              <li>Supply cap: 150 million</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Policies and Operational Parameters</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define the currently active policies for Spark Savings Configuration, alongside relevant operational parameters for implementing the policies.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Target Liquidity</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define Spark's policy for managing the liquidity buffers available for user withdrawals from Spark Savings vaults.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Definition</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>Target Liquidity is the amount of deposited assets that should remain within each Spark Savings vault contract to support instant withdrawals. This value may be defined as a percent of total vault deposits, a fixed quantity of tokens, or a combination of both types of evaluation.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Operational Process</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td><p>The <dfn>Spark Prime Relayer Multisig</dfn> will execute transactions to ensure liquidity within Spark Savings vaults is aligned with the Target Liquidity configurations specified in <dfn>Target Liquidity Current Configuration</dfn>, up to the total amount of user deposits in a given Spark Savings vault. This will be implemented via control of the taker role in the vault and transferAsset rate limit from Spark Liquidity Layer ALM Proxy to the vault.</p><p>In normal conditions, this will be automated via the ALM Planner software. If the Prime Relayer Multisig fails to maintain Spark Savings vault liquidity in alignment with the Target Liquidity configurations, the <dfn>Core Operator Relayer Multisig</dfn> is empowered to effectuate transactions to achieve this.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Target Liquidity Current Configuration</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The subdocuments herein specify the current values for Target Liquidity for each instance of Spark Savings.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings USDC on Ethereum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The current Target Liquidity for Spark Savings USDC on Ethereum is the greater of 10% of total deposits or 1 million USDC.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings USDT on Ethereum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The current Target Liquidity for Spark Savings USDC on Ethereum is the greater of 10% of total deposits or 1 million USDT.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings ETH on Ethereum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The current Target Liquidity for Spark Savings USDC on Ethereum is the greater of 10% of total deposits or 250 ETH.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings USDC on Avalanche</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The current Target Liquidity for Spark Savings USDC on Ethereum is the greater of 10% of total deposits or 1 million USDC.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Rewards Rate</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The documents herein define Spark's policy for managing the rewards rate for Spark Savings vaults.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Definition</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Spark Savings Rewards Rate specifies the yield paid out to depositors on their supplied capital, expressed as an annual percentage rate. The Rewards Rate configuration for each vault may be set as a fixed value, or via reference to external benchmarks such as the Sky Savings Rate, Secured Overnight Funding Rate, SparkLend market supply rates, or other relevant measures.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Operational Process</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Rewards Rate for each Spark Savings vault will be maintained in alignment with the configuration specified in <dfn>Rewards Rate Current Configuration</dfn> via the setter role for each vault. When the currently implemented Rewards Rate diverges from the target value, the setter is responsible for promptly updating the rate onchain.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings USDC on Ethereum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Rewards Rate for Spark Savings USDC on Ethereum will be maintained to be equal to the <dfn>Sky Savings Rate</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings USDT on Ethereum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Rewards Rate for Spark Savings USDT on Ethereum will be maintained to be equal to the <dfn>Sky Savings Rate</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings ETH on Ethereum</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Rewards Rate for Spark Savings ETH on Ethereum will be maintained to be equal to 90% of the supply rate of the SparkLend ETH market on Ethereum.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Spark Savings USDC on Avalanche</dfn>
+          </td>
+          <td>Spark</td>
+          <td>Core</td>
+          <td>The Rewards Rate for Spark Savings USDC on Avalanche will be maintained to be equal to the <dfn>Sky Savings Rate</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Grove</dfn>
           </td>
           <td>Grove</td>
