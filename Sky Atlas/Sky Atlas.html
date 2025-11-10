@@ -12359,6 +12359,14 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.2.4 - No Actively Stabilizing Collateral Requirements With Respect To Sky Direct Exposures</dfn>
+          </td>
+          <td>No Actively Stabilizing Collateral Requirements With Respect To Sky Direct Exposures</td>
+          <td>Core</td>
+          <td>Because Sky Direct Exposures are held by Sky rather than the Prime Agent implementing the exposure through its Allocation System, Prime Agents are not required to hold any Actively Stabilizing Collateral with respect to Sky Direct Exposures. Sky Direct Exposures also do not count towards satisfying a Prime Agent's Actively Stabilizing Collateral requirements.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.2.4 - Liquidity Layer Parameter Definitions</dfn>
           </td>
           <td>Liquidity Layer Parameter Definitions</td>
@@ -20741,8 +20749,9 @@
               <li>USDC in the LitePSM;</li>
               <li>USDC in the PSM3 on Base, Arbitrum, Unichain, Optimism;</li>
               <li>Cash Stablecoins in Curve (paired with USDS);</li>
-              <li>USDC in GUNI 0.01%; and</li>
-              <li>USDC in GUNI 0.05%.</li>
+              <li>USDC in GUNI 0.01%;</li>
+              <li>USDC in GUNI 0.05%; and</li>
+              <li>Cash Stablecoins in Uniswap (paired with USDS).</li>
             </ol>
           </td>
         </tr>
@@ -20769,7 +20778,7 @@
           <td>Latent Actively Stabilizing Collateral is currently calculated as the sum of:
             <ol>
               <li>Cash Stablecoins in Curve (not paired with USDS);</li>
-              <li>Cash Stablecoins in Uniswap;</li>
+              <li>Cash Stablecoins in Uniswap (not paired with USDS);</li>
               <li>Cash Stablecoins in SparkLend;</li>
               <li>Cash Stablecoins in Aave;</li>
               <li>Cash Stablecoins in Morpho; and</li>
@@ -20816,6 +20825,54 @@
           <td>Near Term Exemption For Keel</td>
           <td>Core</td>
           <td>In the near term, due to limitations in the infrastructure on Solana, Keel is exempt from the requirement to maintain the Minimum Actively Stabilizing Collateral. This exemption will be removed in a future iteration of the Asset Liability Management Framework.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.4 - Near Term Actively Stabilizing Collateral Incentive</dfn>
+          </td>
+          <td>Near Term Actively Stabilizing Collateral Incentive</td>
+          <td>Core</td>
+          <td>In the near term, Prime Agents are eligible for an Actively Stabilizing Collateral Incentive for fulfilling Actively Stabilizing Collateral requirements.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.4 - Calculation</dfn>
+          </td>
+          <td>Calculation</td>
+          <td>Core</td>
+          <td><p>The Actively Stabilizing Collateral Incentive is calculated on a per block basis as follows:</p><p><code>Actively Stabilizing Collateral Incentive = Eligible Actively Stabilizing Collateral * (Base Rate - Treasury Bill Rate)</code></p><p>The parameters of this formula are defined in <dfn>A.3.4 - Eligible Actively Stabilizing Collateral</dfn>.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.4 - Eligible Actively Stabilizing Collateral</dfn>
+          </td>
+          <td>Eligible Actively Stabilizing Collateral</td>
+          <td>Core</td>
+          <td>The Eligible Actively Stabilizing Collateral is the lesser of (1) the Prime Agent’s Actively Stabilizing Collateral and (2) the Prime Agent’s Minimum Actively Stabilizing Collateral specified in A.3.4 - Minimum Actively Stabilizing Collateral.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.4 - Base Rate</dfn>
+          </td>
+          <td>Base Rate</td>
+          <td>Core</td>
+          <td>The Base Rate is specified in <dfn>A.3.2 - Core Stability Parameters - Parameters - Base Rate</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.4 - Treasury Bill Rate</dfn>
+          </td>
+          <td>Treasury Bill Rate</td>
+          <td>Core</td>
+          <td>The Treasury Bill Rate is, as of any date of determination, the yield (expressed as an annual rate) on United States Treasury Bills having a maturity of ninety-one (91) days (or, if no such maturity is available, such other maturity as the United States Department of the Treasury shall designate as comparable), as published by the United States Department of the Treasury in its Daily Treasury Yield Curve Rates (or any successor publication or source designated by the United States Department of the Treasury or, if unavailable, by the Federal Reserve). If such rate is not published on the relevant date, the Treasury Bill Rate shall be the most recently published rate prior to that date.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.4 - Payment</dfn>
+          </td>
+          <td>Payment</td>
+          <td>Core</td>
+          <td>The Actively Stabilizing Collateral Incentive is paid on a monthly basis as part of the Monthly Settlement Cycle.</td>
         </tr>
         <tr>
           <td>
@@ -22426,7 +22483,15 @@
           </td>
           <td>Core Tokens - USDS - USDS Launch</td>
           <td>Core</td>
-          <td>In the Endgame Token Launch Phase, USDS is launched as an upgrade to Dai, offering new features, including Token Rewards. Dai can be exchanged to and from USDS at a rate of 1:1.</td>
+          <td>In the Endgame Token Launch Phase, USDS was launched as an upgrade to Dai, offering new features, including Token Rewards. Dai can be exchanged to and from USDS at a rate of 1:1.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.4.1 - Gnosis Payment</dfn>
+          </td>
+          <td>Gnosis Payment</td>
+          <td>Core</td>
+          <td><p>Sky has agreed to compensate Gnosis for the difference between the Sky Savings Rate and the Dai Savings Rate on xDai balances for the period between March 1, 2025 and October 28, 2025.</p><p>The amount of this payment is 1,806,670 USDS and the recipient address on the Ethereum Mainnet is <code>0x849d52316331967b6ff1198e5e32a0eb168d039d</code>. This payment should be included in the next available Executive Vote as determined by the Core Facilitator and is authorized to proceed directly to an Executive Vote without a prior Governance Poll.</p></td>
         </tr>
         <tr>
           <td>
@@ -26026,8 +26091,10 @@
           <td>Active Data</td>
           <td>The current Sky Direct Exposures are:
           <ul>
-            <li>Treasury Bills - Investments in BUIDL, JTRSY, and USTB on Ethereum Mainnet by Grove</li>
-            <li>Collateralized Loan Obligations - Investments in JAAA on Ethereum Mainnet by Grove</li>
+            <li>Treasury Bills - Investments by Grove in BUIDL, JTRSY, and USTB on Ethereum Mainnet</li>
+            <li>Collateralized Loan Obligations - Investments by Grove in JAAA on Ethereum Mainnet</li>
+            <li>Peg Stability Modules - Investments by Spark or Grove in USDC in Peg Stability Modules on blockchains other than Ethereum Mainnet</li>
+            <li>Curve Pools - Investments by Spark in USDT in sUSDS/USDT Curve pools</li>
           </ul>
         </td>
         </tr>
