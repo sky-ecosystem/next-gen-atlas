@@ -11435,9 +11435,9 @@ Payments are made on a monthly basis from the Integration Boost wallets specifie
 
 Funds from the Pre-Pioneer Incentive Pool wallet may be used to incentivize partners on Solana to promote USDS adoption as directed by Keel. Funds from the Pre-Pioneer Incentive Pool may not be transferred to Keel’s SubProxy Account, Keel Foundation, or Matariki Labs.
 
-#### A.2.9.2.4 - Ecosystem Accord 4: Sky And Launch Agent 4 [Core]  <!-- UUID: 6bddc5aa-ac80-43d8-b8c8-8cde14e896df -->
+#### A.2.9.2.4 - Ecosystem Accord 4: Sky And Obex [Core]  <!-- UUID: 6bddc5aa-ac80-43d8-b8c8-8cde14e896df -->
 
-The subdocuments herein record the terms of agreement between Sky and Launch Agent 4 as agreed in Ecosystem Accord 4.
+The subdocuments herein record the terms of agreement between Sky and Obex as agreed in Ecosystem Accord 4.
 
 ##### A.2.9.2.4.1 - Accord Key Details [Core]  <!-- UUID: b82be738-892e-4d55-a42f-84fc1fdf3064 -->
 
@@ -11445,15 +11445,15 @@ The subdocuments herein set out the key details of Ecosystem Accord 4, such as p
 
 ###### A.2.9.2.4.1.1 - Parties To The Accord [Core]  <!-- UUID: 2cd5a1de-89d0-47d0-b671-87d8fec45766 -->
 
-The parties to Ecosystem Accord 4 are Sky and Launch Agent 4, as defined in the subdocuments herein.
+The parties to Ecosystem Accord 4 are Sky and Obex, as defined in the subdocuments herein.
 
 ###### A.2.9.2.4.1.1.1 - Sky Details [Core]  <!-- UUID: acb3e4c8-5edb-4ff0-bf47-e0a770cc08e7 -->
 
 The party ‘Sky’ comprises Sky Core.
 
-###### A.2.9.2.4.1.1.2 - Launch Agent 4 Details [Core]  <!-- UUID: 665a712a-d211-4a7a-b4c9-a8bad61b3f9c -->
+###### A.2.9.2.4.1.1.2 - Obex Details [Core]  <!-- UUID: 665a712a-d211-4a7a-b4c9-a8bad61b3f9c -->
 
-The party ‘Launch Agent 4’ comprises the Launch Agent 4 Prime Agent, Launch Agent 4 Foundation, and Rubicon.
+The party ‘Obex’ comprises the Obex Prime Agent, Obex Foundation, and Rubicon.
 
 ###### A.2.9.2.4.1.2 - Duration Of The Accord [Core]  <!-- UUID: 90e40d2a-3baa-411f-9512-b7cf61762a75 -->
 
@@ -11467,17 +11467,17 @@ The subdocuments herein set out the substantive terms of Ecosystem Accord 4. Add
 
 The subdocuments herein set out agreed terms with respect to Genesis Capital Allocation.
 
-###### A.2.9.2.4.2.1.1 - Launch Agent 4 Initial Allocation [Core]  <!-- UUID: a15698be-8723-4bab-9b25-f393deec41e2 -->
+###### A.2.9.2.4.2.1.1 - Obex Initial Allocation [Core]  <!-- UUID: a15698be-8723-4bab-9b25-f393deec41e2 -->
 
-The Initial Allocation for Launch Agent 4 is 21,000,000 USDS.
+The Initial Allocation for Obex is 21,000,000 USDS.
 
 ###### A.2.9.2.4.2.1.2 - Initial Allocation Distribution [Core]  <!-- UUID: 2ace92dc-2a09-4d9e-9bae-9ea4da1b2f38 -->
 
-The Initial Allocation is distributed in USDS to the Launch Agent 4 SubProxy.
+The Initial Allocation is distributed in USDS to the Obex SubProxy.
 
-###### A.2.9.2.4.2.1.2.1 - Transfer Of Genesis Capital Allocation To Launch Agent 4 SubProxy [Core]  <!-- UUID: c39702fb-bb6a-43c7-b208-18ddd279b1d3 -->
+###### A.2.9.2.4.2.1.2.1 - Transfer Of Genesis Capital Allocation To Obex SubProxy [Core]  <!-- UUID: c39702fb-bb6a-43c7-b208-18ddd279b1d3 -->
 
-The transfer of 21,000,000 USDS from the Surplus Buffer to the Launch Agent 4 SubProxy for the Genesis Capital Allocation must be included in the November 13, 2025 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+The transfer of 21,000,000 USDS from the Surplus Buffer to the Obex SubProxy for the Genesis Capital Allocation must be included in the November 13, 2025 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
 ### A.2.9.0.3.1 - Business Activities - Element Annotation [Annotation]  <!-- UUID: 31df7e2b-184f-428c-9c4f-23fd8054c5d3 -->
 
@@ -16045,7 +16045,7 @@ Genesis Agents are Agents that receive capital contributions from Sky, including
 ◦ Grove    
 ◦ Keel    
 ◦ Launch Agent 3
-◦ Launch Agent 4
+◦ Obex
 
 ##### A.3.7.1.5.6 - Genesis Capital [Core]  <!-- UUID: 18f3de06-064b-4b08-a855-4720240e37f5 -->
 
@@ -16057,7 +16057,7 @@ The amount of capital contributed by Sky to Agents is:
 
 ◦ Spark - 25,000,000 USDS
 
-- Launch Agent 4 - 21,000,000 USDS
+- Obex - 21,000,000 USDS
 
 # A.4 - The Protocol Scope [Scope]  <!-- UUID: 5c20d9af-0bb9-4ca1-a944-1e2cb6f8bb6b -->
 
@@ -37611,29 +37611,29 @@ The guiding criteria are as follows:
 - **Security & Reliability: **The Prime Agent will uphold robust security measures and maintain high availability to prevent disruptions or unauthorized access.
 - **Governance Framework Alignment:** Any updates to the frontend should integrate smoothly with Launch Agent 3’s existing governance mechanisms, preserving uninterrupted voting and proposal workflows.
 
-#### A.6.1.1.5 - Launch Agent 4 [Core]  <!-- UUID: f558e673-cbab-4696-8ca1-3af9b90fe5d4 -->
+#### A.6.1.1.5 - Obex [Core]  <!-- UUID: f558e673-cbab-4696-8ca1-3af9b90fe5d4 -->
 
-The documents herein specify all of the logic for Launch Agent 4, including Launch Agent 4’s strategy and how it uses the Sky Primitives to operationalize this strategy.
+The documents herein specify all of the logic for Obex, including Obex’s strategy and how it uses the Sky Primitives to operationalize this strategy.
 
 ##### A.6.1.1.5.1 - Introduction [Core]  <!-- UUID: e395a323-3c53-4154-a7e6-d54c363f56f2 -->
 
-Launch Agent 4 is an ‘incubator’ Agent operationalizing a turnkey solution for the Sky Ecosystem’s development and deployment of Prime and Halo Agents. This will give Agent founders a streamlined pathway to establish, build, operationalize, fundraise, and launch new Agents. The overall goal of the Launch Agent 4 Agent is to produce Agents for the Sky Ecosystem at scale, supporting cohorts of new Agent founders through leveraging rich content, workstreams and turnkey services for legal, risk, tech, and operational requirements.
+Obex is an ‘incubator’ Agent operationalizing a turnkey solution for the Sky Ecosystem’s development and deployment of Prime and Halo Agents. This will give Agent founders a streamlined pathway to establish, build, operationalize, fundraise, and launch new Agents. The overall goal of the Obex Agent is to produce Agents for the Sky Ecosystem at scale, supporting cohorts of new Agent founders through leveraging rich content, workstreams and turnkey services for legal, risk, tech, and operational requirements.
 
 ##### A.6.1.1.5.2 - Sky Primitives [Core]  <!-- UUID: de2892b7-087c-49ee-8b85-e3753987d38e -->
 
-The documents herein implement the Sky Primitives for Launch Agent 4. See [A.2.3 - Sky Primitives](fcde2604-a138-4c1b-9d9a-14895835c907).
+The documents herein implement the Sky Primitives for Obex. See [A.2.3 - Sky Primitives](fcde2604-a138-4c1b-9d9a-14895835c907).
 
 ###### A.6.1.1.5.2.1 - Genesis Primitives [Core]  <!-- UUID: d5354d3f-8281-49e2-9ff6-c36091afa18a -->
 
-The documents herein implement the Genesis Primitives for Launch Agent 4. See [A.2.3.4 - Genesis Primitives](3d5e3668-8333-4908-adcc-5784cfe7f6b5).
+The documents herein implement the Genesis Primitives for Obex. See [A.2.3.4 - Genesis Primitives](3d5e3668-8333-4908-adcc-5784cfe7f6b5).
 
 ###### A.6.1.1.5.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: de89dc5f-7351-4ea0-bc7b-4a6eb25d6a4d -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s Instance of the Agent Creation Primitive. See [A.2.3.4.1 - Agent Creation Primitive](82b95f6d-4883-4f08-ac3a-9d8189013fbe).
+The documents herein contain all data and specifications for Obex’s Instance of the Agent Creation Primitive. See [A.2.3.4.1 - Agent Creation Primitive](82b95f6d-4883-4f08-ac3a-9d8189013fbe).
 
 ###### A.6.1.1.5.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: 38ef6c16-11fb-400f-ba72-88e7f50fc1e8 -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Agent Creation Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Agent Creation Primitive.
 
 ###### A.6.1.1.5.2.1.1.1.1 - Global Activation Status [Core]  <!-- UUID: d812fe0d-1128-4824-b0df-ea61ba23a624 -->
 
@@ -37689,15 +37689,15 @@ The documents herein define the parameters of the Single Instance of the Agent C
 
 ###### A.6.1.1.5.2.1.1.3.1.1.1 - Name [Core]  <!-- UUID: 05cdc5d1-c73e-4ccd-abe0-dd0a58d0c65c -->
 
-The name of the Agent is Launch Agent 4.
+The name of the Agent is Obex.
 
 ###### A.6.1.1.5.2.1.1.3.1.1.2 - SubProxy Account [Core]  <!-- UUID: 510817f8-7ce6-4b32-b598-186610760525 -->
 
-The address of Launch Agent 4’s SubProxy Account on the Ethereum Mainnet is `0x8be042581f581E3620e29F213EA8b94afA1C8071`.
+The address of Obex’s SubProxy Account on the Ethereum Mainnet is `0x8be042581f581E3620e29F213EA8b94afA1C8071`.
 
 ###### A.6.1.1.5.2.1.1.3.1.1.3 - Genesis Account [Core]  <!-- UUID: d77522ec-0987-474d-87b3-9377f107c9b6 -->
 
-The address of Launch Agent 4’s Genesis Account will be specified in a future iteration of the Launch Agent 4 Artifact.
+The address of Obex’s Genesis Account will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.1.1.3.1.1.4 - Custom Instance Parameters [Core]  <!-- UUID: 6b501d73-1151-46a1-9994-1e51d25729da -->
 
@@ -37729,11 +37729,11 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 ###### A.6.1.1.5.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: 5c7d376d-ebb0-4477-8d96-129d362e7799 -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s instance of the Prime Transformation Primitive. See [A.2.3.4.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
+The documents herein contain all data and specifications for Obex’s instance of the Prime Transformation Primitive. See [A.2.3.4.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
 
 ###### A.6.1.1.5.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: b9e7cf68-feff-4a8b-9126-bc44bf3e7283 -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Prime Transformation Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Prime Transformation Primitive.
 
 ###### A.6.1.1.5.2.1.2.1.1 - Global Activation Status [Core]  <!-- UUID: 32f5e8a7-fdce-4e77-b032-4c1670ecb9da -->
 
@@ -37789,7 +37789,7 @@ The documents herein define the parameters of the Single Instance of the Prime T
 
 ###### A.6.1.1.5.2.1.2.3.1.1.1 - Agent Type [Core]  <!-- UUID: 3275f4de-18d6-4fca-8023-d6f2e3fb4f01 -->
 
-Launch Agent 4 is a Prime Agent.
+Obex is a Prime Agent.
 
 ###### A.6.1.1.5.2.1.2.3.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 65c00572-3f2f-41fa-892d-e568ef1cf7ba -->
 
@@ -37821,11 +37821,11 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 
 ###### A.6.1.1.5.2.1.3 - Executor Transformation Primitive [Core]  <!-- UUID: ad55a2b2-7b47-401f-967e-f89e601e567c -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s instance of the Executor Transformation Primitive. See [A.2.3.4.3 - Executor Transformation Primitive](2f249be5-8edb-41e4-b429-734e1ba2cbc7).
+The documents herein contain all data and specifications for Obex’s instance of the Executor Transformation Primitive. See [A.2.3.4.3 - Executor Transformation Primitive](2f249be5-8edb-41e4-b429-734e1ba2cbc7).
 
 ###### A.6.1.1.5.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: 7b3f85c4-e618-4071-b07f-5c771a3bc873 -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Executor Transformation Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Executor Transformation Primitive.
 
 ###### A.6.1.1.5.2.1.3.1.1 - Global Activation Status [Core]  <!-- UUID: 7e92d813-a224-495a-b2c7-ad83304b977c -->
 
@@ -37873,11 +37873,11 @@ Because the Executor Transformation Primitive is deployed solely for the one-tim
 
 ###### A.6.1.1.5.2.1.4 - Agent Token Primitive [Core]  <!-- UUID: 29c1a185-926e-42e0-a15c-1aad1dbe9068 -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s Instance of the Agent Token Primitive. See [A.2.3.4.4 - Agent Token Primitive](2047c361-db28-4952-a70c-83d07b562064).
+The documents herein contain all data and specifications for Obex’s Instance of the Agent Token Primitive. See [A.2.3.4.4 - Agent Token Primitive](2047c361-db28-4952-a70c-83d07b562064).
 
 ###### A.6.1.1.5.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: ea5efaa6-992d-4e59-9ebb-4c027ee7aa87 -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Agent Token Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Agent Token Primitive.
 
 ###### A.6.1.1.5.2.1.4.1.1 - Global Activation Status [Core]  <!-- UUID: 0dbea81d-1a7b-4c83-8817-20ee5aa3e90b -->
 
@@ -37929,27 +37929,27 @@ The documents herein define the parameters of the Single Instance of the Agent T
 
 ###### A.6.1.1.5.2.1.4.2.1.1.1 - Token Name [Core]  <!-- UUID: 86cff886-c2dd-447b-b300-7f3ac0334624 -->
 
-The name of Launch Agent 4’s token is Launch Agent 4.
+The name of Obex’s token is Obex.
 
 ###### A.6.1.1.5.2.1.4.2.1.1.2 - Token Symbol [Core]  <!-- UUID: 65767abc-766f-43e0-88c1-12b9a1855868 -->
 
-The symbol of Launch Agent 4’s token is AGENT4.
+The symbol of Obex’s token is OBEX.
 
 ###### A.6.1.1.5.2.1.4.2.1.1.3 - Genesis Supply [Core]  <!-- UUID: 19ad3fe9-9161-4ddd-af93-d3fc854d51ed -->
 
-The Genesis Supply of AGENT4 is 10 billion.
+The Genesis Supply of OBEX is 10 billion.
 
 ###### A.6.1.1.5.2.1.4.2.1.1.4 - Token Address [Core]  <!-- UUID: a954b3b9-4230-448e-b926-e7daaad542c5 -->
 
-The address of AGENT4 will be specified in a future iteration of the Launch Agent 4 Artifact.
+The address of OBEX will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.1.4.2.1.1.5 - Token Admin [Core]  <!-- UUID: 2646a808-056e-4907-88bb-b504afe61946 -->
 
-The token Admin will be specified in a future iteration of the Launch Agent 4 Artifact.
+The token Admin will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.1.4.2.1.1.6 - Token Emissions [Core]  <!-- UUID: e687b86c-f6b8-4f2e-aabf-b7922b2d3f6d -->
 
-Token emissions beyond the Genesis Supply are permanently disabled; this cannot be reverted by Launch Agent 4 Governance. Sky Governance retains the ability to revert where Launch Agent 4 is in violation of Risk Capital requirements and emissions are required by the Risk Framework. See [A.3.2 - Risk Capital](55999acf-75fe-4adf-8584-9746ef50d3e4).
+Token emissions beyond the Genesis Supply are permanently disabled; this cannot be reverted by Obex Governance. Sky Governance retains the ability to revert where Obex is in violation of Risk Capital requirements and emissions are required by the Risk Framework. See [A.3.2 - Risk Capital](55999acf-75fe-4adf-8584-9746ef50d3e4).
 
 ###### A.6.1.1.5.2.1.4.2.1.1.7 - Custom Instance Parameters [Core]  <!-- UUID: c40b84ff-e133-434a-bef9-e12aba5ac87c -->
 
@@ -37959,7 +37959,7 @@ The documents herein define the custom parameters of the Single Instance of the 
 
 The documents herein define the operational processes for minting and initial distribution of the tokens from the Genesis Supply.
 
-- These processes will be defined in a future iteration of the Launch Agent 4 Artifact.
+- These processes will be defined in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.1.4.2.1.3 - Data Repository [Core]  <!-- UUID: 596d5aa9-8116-44a0-aca7-e53b5181e62e -->
 
@@ -37987,15 +37987,15 @@ Because the Agent Token Primitive is Invoked solely for the one-time deployment 
 
 ###### A.6.1.1.5.2.2 - Operational Primitives [Core]  <!-- UUID: 91762197-a7e2-4e0c-bce5-4490f23f9667 -->
 
-The documents herein implement the Operational Primitives for Launch Agent 4. See [A.2.3.5 - Operational Primitives](0192ec95-9207-480e-8c51-88d2a1da95ad).
+The documents herein implement the Operational Primitives for Obex. See [A.2.3.5 - Operational Primitives](0192ec95-9207-480e-8c51-88d2a1da95ad).
 
 ###### A.6.1.1.5.2.2.1 - Executor Accord Primitive [Core]  <!-- UUID: e0baddbe-f261-4439-8fc0-e03b521c10ad -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s Instances of the Executor Accord Primitive. See [A.2.3.5.1 - Executor Accord Primitive](88017877-3ec1-4c43-a035-6bebdf11d9bb).
+The documents herein contain all data and specifications for Obex’s Instances of the Executor Accord Primitive. See [A.2.3.5.1 - Executor Accord Primitive](88017877-3ec1-4c43-a035-6bebdf11d9bb).
 
 ###### A.6.1.1.5.2.2.1.1 - Primitive Hub Document [Core]  <!-- UUID: 4f398e78-1f12-447d-bb28-71cfc4e9ce4c -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Executor Accord Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Executor Accord Primitive.
 
 ###### A.6.1.1.5.2.2.1.1.1 - Global Activation Status [Core]  <!-- UUID: 4bb8c2f6-b020-4f18-aa1e-9ac5962c6fac -->
 
@@ -38083,11 +38083,11 @@ The in progress Invocations of the Executor Accord Primitive are contained herei
 
 ###### A.6.1.1.5.2.2.2 - Root Edit Primitive [Core]  <!-- UUID: b69559bf-1acb-4f9c-8638-19fb8ef20fc2 -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s Instance of the Root Edit Primitive. See [A.2.3.5.2 - Root Edit Primitive](78488c6b-d77f-4344-b954-476e415a2c7d).
+The documents herein contain all data and specifications for Obex’s Instance of the Root Edit Primitive. See [A.2.3.5.2 - Root Edit Primitive](78488c6b-d77f-4344-b954-476e415a2c7d).
 
 ###### A.6.1.1.5.2.2.2.1 - Primitive Hub Document [Core]  <!-- UUID: f6e6bc46-aa12-4a74-8433-85ffcfad4917 -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Root Edit Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Root Edit Primitive.
 
 ###### A.6.1.1.5.2.2.2.1.1 - Global Activation Status [Core]  <!-- UUID: 363d6ab5-1065-4cb5-8326-506a7dc62db6 -->
 
@@ -38139,23 +38139,23 @@ The parameters of the Root Edit Primitive are fully specified by the Operational
 
 ###### A.6.1.1.5.2.2.2.2.1.2 - Operational Process Definition [Core]  <!-- UUID: ef3c8fc4-d958-492b-bee6-d96b5f972720 -->
 
-The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 4 Agent Artifact. Information on Launch Agent 4 governance that is unrelated to the use of the Root Edit Primitive is located at [A.6.1.1.5.3.1 - Governance Information Unrelated To Root Edit Primitive](bdad4ea3-7cf2-40fb-a8ab-4bb8b320e4c9).
+The documents herein define the process for using the Root Edit Primitive to update the Obex Agent Artifact. Information on Obex governance that is unrelated to the use of the Root Edit Primitive is located at [A.6.1.1.5.3.1 - Governance Information Unrelated To Root Edit Primitive](bdad4ea3-7cf2-40fb-a8ab-4bb8b320e4c9).
 
 ###### A.6.1.1.5.2.2.2.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: da6d3815-d49e-47a4-8e62-81b66dbab51f -->
 
-The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 4 Agent Artifact in routine or normal conditions (i.e., non-emergency situations).
+The documents herein define the process for using the Root Edit Primitive to update the Obex Agent Artifact in routine or normal conditions (i.e., non-emergency situations).
 
 ###### A.6.1.1.5.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission [Core]  <!-- UUID: fcb1b51e-8bb3-4a55-8cc0-9bec637086c8 -->
 
-The Root Edit process begins with a AGENT4 token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A AGENT4 token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Launch Agent 4 Prime" category.
+The Root Edit process begins with a OBEX token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A OBEX token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Obex Prime" category.
 
 ###### A.6.1.1.5.2.2.2.2.1.2.1.1.1 - Short-Term Transitionary Measures [Core]  <!-- UUID: e0020160-9ee8-4f35-90f1-ba375d625689 -->
 
-Until the Powerhouse system supports submitting Artifact Edit Proposals, AGENT4 token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Launch Agent 4 Prime" category. The title of the post must include the text "Launch Agent 4 Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total AGENT4 token supply specified in [A.6.1.1.5.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](fcb1b51e-8bb3-4a55-8cc0-9bec637086c8).
+Until the Powerhouse system supports submitting Artifact Edit Proposals, OBEX token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Obex Prime" category. The title of the post must include the text "Obex Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total OBEX token supply specified in [A.6.1.1.5.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](fcb1b51e-8bb3-4a55-8cc0-9bec637086c8).
 
 ###### A.6.1.1.5.2.2.2.2.1.2.1.2 - Root Edit Expert Advisor Review [Core]  <!-- UUID: 432c532c-3e3a-41e9-b9dc-88c20d944541 -->
 
-A future iteration of the Launch Agent 4 Artifact will specify guidelines for obtaining specialized review of proposals requiring advanced technical or financial analysis.
+A future iteration of the Obex Artifact will specify guidelines for obtaining specialized review of proposals requiring advanced technical or financial analysis.
 
 ###### A.6.1.1.5.2.2.2.2.1.2.1.3 - Root Edit Proposal Review By Operational Facilitator [Core]  <!-- UUID: d21854da-165b-455d-893c-147db514d31c -->
 
@@ -38167,7 +38167,7 @@ If the proposal is misaligned, the Operational Facilitator must respond to the F
 
 ###### A.6.1.1.5.2.2.2.2.1.2.1.4 - Root Edit Token Holder Vote [Core]  <!-- UUID: b60fe2f0-2aa6-4f36-9d87-e81c2294abc9 -->
 
-Where their review of the proposal results in a finding of alignment with the Sky Core Atlas and Launch Agent 4 Artifact, the Operational Facilitator next triggers a Snapshot poll to allow token holders to vote on the proposal. The poll is open for three (3) days. A poll must have at least 10% of the circulating token supply participating and must have 50% of votes in favor to be approved.
+Where their review of the proposal results in a finding of alignment with the Sky Core Atlas and Obex Artifact, the Operational Facilitator next triggers a Snapshot poll to allow token holders to vote on the proposal. The poll is open for three (3) days. A poll must have at least 10% of the circulating token supply participating and must have 50% of votes in favor to be approved.
 
 ###### A.6.1.1.5.2.2.2.2.1.2.1.5 - Root Edit Artifact Update [Core]  <!-- UUID: e0a6abf0-6191-4605-afa3-cc0de7b72a05 -->
 
@@ -38179,19 +38179,19 @@ Until the Powerhouse system supports updating Agent Artifacts, the Operational F
 
 ###### A.6.1.1.5.2.2.2.2.1.2.1.6 - Artifact Edit Restrictions [Core]  <!-- UUID: c14e9e4d-2819-46cb-b267-a9b13600192a -->
 
-The Launch Agent 4 Artifact cannot be edited in any way that violates the Sky Core Atlas or its specifications of the Sky Primitives, or in any way that is otherwise misaligned. The Operational Facilitator must enforce this rule through their review of Artifact Edit Proposals.
+The Obex Artifact cannot be edited in any way that violates the Sky Core Atlas or its specifications of the Sky Primitives, or in any way that is otherwise misaligned. The Operational Facilitator must enforce this rule through their review of Artifact Edit Proposals.
 
 ###### A.6.1.1.5.2.2.2.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 2dcc5cd2-5936-4779-8ff6-072ad863756f -->
 
-The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 4 Agent Artifact in non-routine conditions.
+The documents herein define the process for using the Root Edit Primitive to update the Obex Agent Artifact in non-routine conditions.
 
 ###### A.6.1.1.5.2.2.2.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: d12b8cf2-2668-4466-ac2e-7404fce6c718 -->
 
-The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 4 Agent Artifact in emergency situations.
+The documents herein define the process for using the Root Edit Primitive to update the Obex Agent Artifact in emergency situations.
 
 ###### A.6.1.1.5.2.2.2.2.1.2.3.1 - Root Edit Voting Process in Emergency Situations [Core]  <!-- UUID: f8b1cf73-d16d-4ca0-aeea-3f95d25245a8 -->
 
-In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.8.1.1 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225), the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Launch Agent 4 Prime" category), unless doing so would endanger Launch Agent 4 or its users.
+In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.8.1.1 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225), the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Obex Prime" category), unless doing so would endanger Obex or its users.
 
 ###### A.6.1.1.5.2.2.2.2.1.3 - Data Repository [Core]  <!-- UUID: 8f8ef2ba-1071-40df-98bc-384d1f6782b5 -->
 
@@ -38219,11 +38219,11 @@ Because the Root Edit Primitive is deployed only once, no further Instances of t
 
 ###### A.6.1.1.5.2.2.3 - Light Agent Primitive [Core]  <!-- UUID: 32cf649f-13f7-41e2-bbe4-347a14532114 -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s Instances of the Light Agent Primitive. See [A.2.3.5.3 - Light Agent Primitive](44028423-2cd1-40cb-89ac-3f762b602b90).
+The documents herein contain all data and specifications for Obex’s Instances of the Light Agent Primitive. See [A.2.3.5.3 - Light Agent Primitive](44028423-2cd1-40cb-89ac-3f762b602b90).
 
 ###### A.6.1.1.5.2.2.3.1 - Primitive Hub Document [Core]  <!-- UUID: c4b311b3-3f2c-483f-b24a-845ef5c6a6df -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Light Agent Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Light Agent Primitive.
 
 ###### A.6.1.1.5.2.2.3.1.1 - Global Activation Status [Core]  <!-- UUID: afc008c0-e6d3-4973-b501-0f9f2db1cfa4 -->
 
@@ -38271,15 +38271,15 @@ The in progress Invocations of the Light Agent Primitive are contained herein. O
 
 ###### A.6.1.1.5.2.3 - Ecosystem Upkeep Primitives [Core]  <!-- UUID: ea7388bc-3689-4b90-80d8-920eb7f25411 -->
 
-The documents herein implement the Ecosystem Upkeep Primitives for Launch Agent 4. See [A.2.3.6 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
+The documents herein implement the Ecosystem Upkeep Primitives for Obex. See [A.2.3.6 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
 ###### A.6.1.1.5.2.3.1 - Distribution Requirement Primitive [Core]  <!-- UUID: 518b0729-7d39-4e94-96ae-4e1dce577b3a -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s Instance of the Distribution Requirement Primitive. See [A.2.3.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
+The documents herein contain all data and specifications for Obex’s Instance of the Distribution Requirement Primitive. See [A.2.3.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
 
 ###### A.6.1.1.5.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 367db765-3d90-449f-88d7-356eb2e5df6b -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Distribution Requirement Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Distribution Requirement Primitive.
 
 ###### A.6.1.1.5.2.3.1.1.1 - Global Activation Status [Core]  <!-- UUID: 6a8a9da7-4c67-4553-84fd-5ad743f50847 -->
 
@@ -38331,7 +38331,7 @@ The documents herein define the parameters of the Single Instance of the Distrib
 
 ###### A.6.1.1.5.2.3.1.2.1.1.1 - Term [Core]  <!-- UUID: 49fe9982-412f-4da4-b81d-92786d3a7709 -->
 
-Launch Agent 4 will buy back and distribute 0.25% of its total token supply per year.
+Obex will buy back and distribute 0.25% of its total token supply per year.
 
 ###### A.6.1.1.5.2.3.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: d58f7727-d553-43b9-b513-d4d490abc16f -->
 
@@ -38347,7 +38347,7 @@ This document defines the protocol for routine ongoing management of the Single 
 
 ###### A.6.1.1.5.2.3.1.2.1.2.1.1 - Process Definition For Buy Back And Distribution Obligation [Core]  <!-- UUID: ec192467-881e-4af6-9378-1fa4e36a6c18 -->
 
-The process to buy back and distribute 0.25% of Launch Agent 4’s tokens per year will be specified in future iterations of the Launch Agent 4 Artifact.
+The process to buy back and distribute 0.25% of Obex’s tokens per year will be specified in future iterations of the Obex Artifact.
 
 ###### A.6.1.1.5.2.3.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: fc2e23dd-7ca5-4487-b7ba-283156adab6f -->
 
@@ -38383,11 +38383,11 @@ Because the Distribution Requirement Primitive is deployed only once, no further
 
 ###### A.6.1.1.5.2.3.2 - Market Cap Fee Primitive [Core]  <!-- UUID: ad5238bd-b200-4f4d-9670-fae8fd1bdb6a -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s instances of the Market Cap Fee Primitive. See [A.2.3.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
+The documents herein contain all data and specifications for Obex’s instances of the Market Cap Fee Primitive. See [A.2.3.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
 ###### A.6.1.1.5.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: fba527ac-64a7-4f7e-8bf2-411f87d3d9b4 -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Market Cap Fee Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Market Cap Fee Primitive.
 
 ###### A.6.1.1.5.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 11fbb511-f13f-4390-a843-7a436f6438cf -->
 
@@ -38435,11 +38435,11 @@ The in progress Invocations of the Market Cap Fee Primitive are contained herein
 
 ###### A.6.1.1.5.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: 1cec73ac-6b70-48ff-a7ff-1d0f689d602f -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s instance of the Upkeep Rebate Primitive. See [A.2.3.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
+The documents herein contain all data and specifications for Obex’s instance of the Upkeep Rebate Primitive. See [A.2.3.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
 ###### A.6.1.1.5.2.3.3.1 - Primitive Hub Document [Core]  <!-- UUID: 36f57327-abff-4ac1-890b-c5097c449b02 -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Upkeep Rebate Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Upkeep Rebate Primitive.
 
 ###### A.6.1.1.5.2.3.3.1.1 - Global Activation Status [Core]  <!-- UUID: 28f93080-7f1f-45f1-a9c6-a78cea11cbbd -->
 
@@ -38497,17 +38497,17 @@ The documents herein define the process for the ongoing management of the Single
 
 This document defines the protocol for routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.5.2.3.3.2.1.2.1.1 - Launch Agent 4 Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 93599af2-bf73-4598-8b78-dfb74549f90d -->
+###### A.6.1.1.5.2.3.3.2.1.2.1.1 - Obex Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 93599af2-bf73-4598-8b78-dfb74549f90d -->
 
-Launch Agent 4 keeps all tokens of other Agents it holds in its SubProxy account.
+Obex keeps all tokens of other Agents it holds in its SubProxy account.
 
-###### A.6.1.1.5.2.3.3.2.1.2.1.2 - Launch Agent 4 Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: eb954d3d-94d9-46d8-a118-a74e0d9da8c0 -->
+###### A.6.1.1.5.2.3.3.2.1.2.1.2 - Obex Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: eb954d3d-94d9-46d8-a118-a74e0d9da8c0 -->
 
-When paying Ecosystem Upkeep fees, Launch Agent 4 deducts the rebate from the fees it pays.
+When paying Ecosystem Upkeep fees, Obex deducts the rebate from the fees it pays.
 
 ###### A.6.1.1.5.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: a8afed5e-3721-40a3-847c-3589a5dfce95 -->
 
-Operational GovOps reviews Launch Agent 4’s calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Launch Agent 4 Prime" category and work with Launch Agent 4 to resolve the disagreement. If Operational GovOps and Launch Agent 4 cannot resolve the disagreement, it must be escalated to Core GovOps.
+Operational GovOps reviews Obex’s calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Obex Prime" category and work with Obex to resolve the disagreement. If Operational GovOps and Obex cannot resolve the disagreement, it must be escalated to Core GovOps.
 
 ###### A.6.1.1.5.2.3.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 025b8abf-69a3-4749-95f3-60a7268983ff -->
 
@@ -38543,15 +38543,15 @@ Because the Upkeep Rebate Primitive is deployed only once, no further Instances 
 
 ###### A.6.1.1.5.2.4 - SkyLink Primitives [Core]  <!-- UUID: e66cbbd1-df57-418d-9699-73d050388fd6 -->
 
-The documents herein implement the SkyLink Primitives for Launch Agent 4. See [A.2.3.7 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
+The documents herein implement the SkyLink Primitives for Obex. See [A.2.3.7 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
 
 ###### A.6.1.1.5.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: 5642de19-bfb3-4d54-9bc9-19b11b60a3c2 -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s Instances of the Token SkyLink Primitive. See [A.2.3.7.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
+The documents herein contain all data and specifications for Obex’s Instances of the Token SkyLink Primitive. See [A.2.3.7.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
 
 ###### A.6.1.1.5.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: 3ce6f8aa-7a27-4701-83cb-d1fc4c41bb28 -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Token SkyLink Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Token SkyLink Primitive.
 
 ###### A.6.1.1.5.2.4.1.1.1 - Global Activation Status [Core]  <!-- UUID: 9d778551-1fd4-4206-a0e0-cb555f6d1e34 -->
 
@@ -38599,15 +38599,15 @@ The in progress Invocations of the Token SkyLink Primitive are contained herein.
 
 ###### A.6.1.1.5.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: 66ca6538-89c2-442e-87c2-9fe2d586b516 -->
 
-The documents herein implement the Demand Side Stablecoin Primitives for Launch Agent 4. See [A.2.3.8 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
+The documents herein implement the Demand Side Stablecoin Primitives for Obex. See [A.2.3.8 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
 
 ###### A.6.1.1.5.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: f055e990-51e6-44c2-8d14-4e8694e62c1d -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s instances of the Distribution Reward Primitive. See [A.2.3.8.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
+The documents herein contain all data and specifications for Obex’s instances of the Distribution Reward Primitive. See [A.2.3.8.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
 
 ###### A.6.1.1.5.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: f11e8f01-a17f-44e7-aac1-56dbd5e9272e -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Distribution Reward Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Distribution Reward Primitive.
 
 ###### A.6.1.1.5.2.5.1.1.1 - Global Activation Status [Core]  <!-- UUID: 94bbd7ec-e724-41e7-b74a-0e567768f219 -->
 
@@ -38655,11 +38655,11 @@ The in progress Invocations of the Distribution Reward Primitive are contained h
 
 ###### A.6.1.1.5.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: edc5cd33-99a9-4687-b3fe-8c3e07da92e8 -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s Instances of the Integration Boost Primitive. See [A.2.3.8.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
+The documents herein contain all data and specifications for Obex’s Instances of the Integration Boost Primitive. See [A.2.3.8.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
 
 ###### A.6.1.1.5.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: f9d5c302-4695-436f-9a06-595c06da2fc9 -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Integration Boost Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Integration Boost Primitive.
 
 ###### A.6.1.1.5.2.5.2.1.1 - Global Activation Status [Core]  <!-- UUID: f6c8017d-81cc-4ad5-ac3c-c68a354f2a61 -->
 
@@ -38707,11 +38707,11 @@ The in progress Invocations of the Integration Boost Primitive are contained her
 
 ###### A.6.1.1.5.2.5.3 - Pioneer Chain Primitive [Core]  <!-- UUID: 2f0a0b71-759e-4f14-b63d-0286450855fe -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s Instances of the Pioneer Chain Primitive. See [A.2.3.8.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
+The documents herein contain all data and specifications for Obex’s Instances of the Pioneer Chain Primitive. See [A.2.3.8.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
 
 ###### A.6.1.1.5.2.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: 7e7dc6f6-bfe1-460e-9fb1-35a906f75259 -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Pioneer Chain Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Pioneer Chain Primitive.
 
 ###### A.6.1.1.5.2.5.3.1.1 - Global Activation Status [Core]  <!-- UUID: c13df592-a35a-4d72-b33e-65c3ee9ba799 -->
 
@@ -38759,15 +38759,15 @@ The in progress Invocations of the Pioneer Chain Primitive are contained herein.
 
 ###### A.6.1.1.5.2.6 - Supply Side Stablecoin Primitives [Core]  <!-- UUID: c63a813f-b434-4c81-8826-df78171f61f0 -->
 
-The documents herein implement the Supply Side Stablecoin Primitives for Launch Agent 4. See [A.2.3.9 - Supply Side Stablecoin Primitives](d1142876-33c2-4e21-9339-d8711525d46f).
+The documents herein implement the Supply Side Stablecoin Primitives for Obex. See [A.2.3.9 - Supply Side Stablecoin Primitives](d1142876-33c2-4e21-9339-d8711525d46f).
 
 ###### A.6.1.1.5.2.6.1 - Allocation System Primitive [Core]  <!-- UUID: fe98c7e7-b7f8-4f2c-800a-bca5192576ac -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s Allocation System Primitive Instances.
+The documents herein contain all data and specifications for Obex’s Allocation System Primitive Instances.
 
 ###### A.6.1.1.5.2.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: cbf426ee-7754-49c5-9040-b29a5126da39 -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Launch Agent 4 Liquidity Layer.
+The documents herein organize all base information relevant to Obex’s usage of the Obex Liquidity Layer.
 
 ###### A.6.1.1.5.2.6.1.1.1 - Global Activation Status [Core]  <!-- UUID: 02a794ce-0d32-4044-80c2-1ba5bf0b1ca0 -->
 
@@ -38815,19 +38815,19 @@ The subtrees for Instances of the Allocation System Primitive with `Suspended` S
 
 ###### A.6.1.1.5.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: aa59c9ff-7347-407f-9d55-59fa499a58c9 -->
 
-The documents herein provide general specifications of the Launch Agent 4 Liquidity Layer and define Launch Agent 4’s overarching strategy and operational framework for managing across all Instances.
+The documents herein provide general specifications of the Obex Liquidity Layer and define Obex’s overarching strategy and operational framework for managing across all Instances.
 
 ###### A.6.1.1.5.2.6.1.2.1 - General Specifications [Core]  <!-- UUID: 1fa01b00-08d6-4344-ab6c-7a0cbea5e06c -->
 
-The documents herein contain general specifications for the Launch Agent 4 Liquidity Layer.
+The documents herein contain general specifications for the Obex Liquidity Layer.
 
-###### A.6.1.1.5.2.6.1.2.1.1 - Launch Agent 4 Liquidity Layer Architecture [Core]  <!-- UUID: c29faa6d-d657-47a0-9379-21b8cd831d02 -->
+###### A.6.1.1.5.2.6.1.2.1.1 - Obex Liquidity Layer Architecture [Core]  <!-- UUID: c29faa6d-d657-47a0-9379-21b8cd831d02 -->
 
-The documents herein describe the high-level design of the Launch Agent 4 Liquidity Layer, including its key smart contracts and their functionality.
+The documents herein describe the high-level design of the Obex Liquidity Layer, including its key smart contracts and their functionality.
 
-###### A.6.1.1.5.2.6.1.2.1.1.1 - Launch Agent 4 Liquidity Layer Addresses [Core]  <!-- UUID: ef875c4e-2303-4b94-8c92-6831ec96fac9 -->
+###### A.6.1.1.5.2.6.1.2.1.1.1 - Obex Liquidity Layer Addresses [Core]  <!-- UUID: ef875c4e-2303-4b94-8c92-6831ec96fac9 -->
 
-The documents herein provide the addresses of the Launch Agent 4 Liquidity Layer’s constituent contracts.
+The documents herein provide the addresses of the Obex Liquidity Layer’s constituent contracts.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.1.1 - Allocator Contract Addresses [Core]  <!-- UUID: 4cd1c7c9-f246-40b1-a31c-4512638f7fd3 -->
 
@@ -38859,11 +38859,11 @@ The address of the ALLOCATOR_VAULT contract is: `0xF275110dFE7B80df66a762f968f59
 
 ###### A.6.1.1.5.2.6.1.2.1.1.1.2 - ALM Contracts [Core]  <!-- UUID: 656c09f6-93a7-4b0b-a268-a495adeffaf0 -->
 
-The documents herein contain addresses for the ALM Contracts for the Launch Agent 4 Liquidity Layer.
+The documents herein contain addresses for the ALM Contracts for the Obex Liquidity Layer.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.1.2.1 - Ethereum Mainnet [Core]  <!-- UUID: 5d99d731-c3ed-461c-a6ea-50ebd741b3d2 -->
 
-The documents herein contain the ALM Contract Addresses for the Launch Agent 4 Liquidity Layer on the Ethereum Mainnet.
+The documents herein contain the ALM Contract Addresses for the Obex Liquidity Layer on the Ethereum Mainnet.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.1.2.2 - ALM Controller Contract [Core]  <!-- UUID: cdb42b2b-e506-4e5e-a088-651b10880cde -->
 
@@ -38891,31 +38891,31 @@ The address of the ALM_RATE_LIMITS contract is: `0x81f8f5306cF80655Edff78f89860a
 
 ###### A.6.1.1.5.2.6.1.2.1.1.2 - Off-chain Operational Parameters [Core]  <!-- UUID: 3f4a771a-ed2f-43ae-b8ad-a4d27e206779 -->
 
-The documents herein list the off-chain operational parameters for the Launch Agent 4 Liquidity Layer. These operational parameters are protocol settings managed outside of smart contracts (off-chain), used by operators and off-chain systems to guide the functioning of the Launch Agent 4 Liquidity Layer.
+The documents herein list the off-chain operational parameters for the Obex Liquidity Layer. These operational parameters are protocol settings managed outside of smart contracts (off-chain), used by operators and off-chain systems to guide the functioning of the Obex Liquidity Layer.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.2.1 - Off-chain Operational Parameters For Ethereum Mainnet [Core]  <!-- UUID: 5915e763-fa01-4202-95c9-b446b94bc92a -->
 
-The document herein lists the current off-chain operational parameters for the Launch Agent 4 Liquidity Layer on Ethereum Mainnet.
+The document herein lists the current off-chain operational parameters for the Obex Liquidity Layer on Ethereum Mainnet.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.2.1.1 - Minimum Operation Size Ethereum Mainnet [Core]  <!-- UUID: 319b996c-7563-4d56-a7b2-4302cebc91f5 -->
 
 The minimum transaction size for operations on Ethereum Mainnet is (`MAINNET_MIN_OPERATION_SIZE`): 
 
-- This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.
+- This parameter will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.2.1.2 - Debt Ceiling Buffer Ethereum Mainnet [Core]  <!-- UUID: ff5d0ea1-bfb0-4e18-8768-603230a3dea6 -->
 
 The buffer amount below the maximum debt ceiling is (`DEBT_CEILING_BUFFER`):
 
-- This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.
+- This parameter will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.3 - Rate Limits [Core]  <!-- UUID: 3dea2074-9594-44af-80b9-f67d831bde1a -->
 
-The documents herein list the Rate Limits for the Launch Agent 4 Liquidity Layer on each blockchain.
+The documents herein list the Rate Limits for the Obex Liquidity Layer on each blockchain.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.3.1 - Ethereum Mainnet [Core]  <!-- UUID: cecaa353-2826-4e19-a641-ee24989d42b6 -->
 
-The documents herein list the current `RateLimits` for the Launch Agent 4 Liquidity Layer on Ethereum Mainnet.
+The documents herein list the current `RateLimits` for the Obex Liquidity Layer on Ethereum Mainnet.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.3.1.1 - Ethereum Mainnet USDS [Core]  <!-- UUID: a97961ff-de69-4a13-b2a4-830a2458e3b9 -->
 
@@ -38923,21 +38923,21 @@ The maximum mint, burn and swap for USDS on Ethereum Mainnet are located herein
 
 ###### A.6.1.1.5.2.6.1.2.1.1.3.1.1.1 - USDS Mint Maximum [Core]  <!-- UUID: 1b4f0be7-31d8-4217-9961-08789613fbb1 -->
 
-The maximum amount of USDS that can be minted within the Launch Agent 4 Liquidity Layer (`LIMIT_USDS_MINT`) is specified in the document herein.
+The maximum amount of USDS that can be minted within the Obex Liquidity Layer (`LIMIT_USDS_MINT`) is specified in the document herein.
 
 - `maxAmount`: 100,000,000 USDS
 - `slope`: 50,000,000 USDS per day
 
 ###### A.6.1.1.5.2.6.1.2.1.1.3.1.1.2 - USDS Burn Maximum [Core]  <!-- UUID: 312ab6a0-55b8-4974-b918-bbd0f69085b3 -->
 
-The maximum amount of USDS that can be burned within the Launch Agent 4 Liquidity Layer (`LIMIT_USDS_BURN`) is specified in the document herein.
+The maximum amount of USDS that can be burned within the Obex Liquidity Layer (`LIMIT_USDS_BURN`) is specified in the document herein.
 
-- `maxAmount`: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.
-- `slope`: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.
+- `maxAmount`: This parameter will be specified in a future iteration of the Obex Artifact.
+- `slope`: This parameter will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.3.1.1.3 - USDS For USDC Swap Maximum [Core]  <!-- UUID: 1bae9188-f480-49d7-91c5-c3f271260e60 -->
 
-The maximum amount of USDS that can be swapped for USDC by the Launch Agent 4 Liquidity Layer in the Mainnet PSM (`LIMIT_USDS_TO_USDC`) is specified in the document herein.
+The maximum amount of USDS that can be swapped for USDC by the Obex Liquidity Layer in the Mainnet PSM (`LIMIT_USDS_TO_USDC`) is specified in the document herein.
 
 - `maxAmount`: 100,000,000 USDS
 - `slope`: 50,000,000 USDS per day
@@ -38950,15 +38950,15 @@ The maximum deposit and withdraw amounts for sUSDS on Ethereum Mainnet are locat
 
 The maximum amount of sUSDS that can be deposited (`LIMIT_4626_DEPOSIT`) is specified in the document herein.
 
-- `maxAmount`: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.
-- `slope`: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.
+- `maxAmount`: This parameter will be specified in a future iteration of the Obex Artifact.
+- `slope`: This parameter will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.3.1.2.2 - Ethereum Mainnet sUSDS Withdrawal Maximum [Core]  <!-- UUID: 40959dc7-e554-4611-b615-25d3ff557bdf -->
 
 The maximum amount of sUSDS that can be withdrawn (`LIMIT_4626_WITHDRAW`) is specified in the document herein.
 
-- `maxAmount`: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.
-- `slope`: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.
+- `maxAmount`: This parameter will be specified in a future iteration of the Obex Artifact.
+- `slope`: This parameter will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.3.1.3 - Ethereum Mainnet USDC ALM Proxy [Core]  <!-- UUID: 8505febf-f853-4de9-89dc-d483d5439cbc -->
 
@@ -38968,19 +38968,19 @@ The maximum amount that can be transferred and sent to the Ethereum Mainnet ALM 
 
 The maximum amount of USDC that can be sent to the Ethereum Mainnet ALM Proxy (`LIMIT_USDC_TO_DOMAIN`, hashed with Ethereum domain) is specified in the document herein.
 
-- `maxAmount`: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.
-- `slope`: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.
+- `maxAmount`: This parameter will be specified in a future iteration of the Obex Artifact.
+- `slope`: This parameter will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.3.1.3.1.1 - USDC ALM Proxy Circle Cross-Chain Transfer Protocol Maximum [Core]  <!-- UUID: 17827367-6342-4e4e-bc1f-652c0f5b079e -->
 
 The maximum amount of USDC that can be bridged to Ethereum Mainnet ALM Proxy using the Circle Cross-Chain Transfer Protocol (`LIMIT_USDC_TO_CCTP_ETH`) is specified in the document herein.
 
-- `maxAmount`: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.
-- `slope`: This parameter will be specified in a future iteration of the Launch Agent 4 Artifact.
+- `maxAmount`: This parameter will be specified in a future iteration of the Obex Artifact.
+- `slope`: This parameter will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.4 - On-chain Parameters [Core]  <!-- UUID: 97d35c04-2b5b-430d-b297-b2b4703d71c0 -->
 
-The documents herein list general on-chain parameters for the Launch Agent 4 Liquidity Layer
+The documents herein list general on-chain parameters for the Obex Liquidity Layer
 
 ###### A.6.1.1.5.2.6.1.2.1.1.4.1 - Allocator Vault Parameters [Core]  <!-- UUID: c30d6144-4cbd-4ef4-90d5-312d24c9858e -->
 
@@ -38993,11 +38993,11 @@ The Allocator Vault parameters for ALLOCATOR-OBEX-A are:
 
 ###### A.6.1.1.5.2.6.1.2.1.1.4.2 - Whitelisting Of ALMProxy [Core]  <!-- UUID: 5c795414-020c-432d-91b6-a7d72495452e -->
 
-The ALMProxy for Launch Agent 4 must be whitelisted on the LitePSM. This will effectively allow Launch Agent 4 to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract.
+The ALMProxy for Obex must be whitelisted on the LitePSM. This will effectively allow Obex to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract.
 
 ###### A.6.1.1.5.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 94015de1-4d83-43d3-998b-093c1a2099fa -->
 
-The documents herein describe the specific governance processes for the Launch Agent 4 Liquidity Layer.
+The documents herein describe the specific governance processes for the Obex Liquidity Layer.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.1 - Invoking New Instances [Core]  <!-- UUID: f6be405d-fae7-474e-882d-5c98985324b6 -->
 
@@ -39005,11 +39005,11 @@ The governance process to invoke a new Instance of the Allocation System Primiti
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2 - Multisigs [Core]  <!-- UUID: 7b3aa284-2872-4ffe-9938-2bbfa7d4525d -->
 
-The documents herein define multisigs that have privileged access to manage the Launch Agent 4 Liquidity Layer.
+The documents herein define multisigs that have privileged access to manage the Obex Liquidity Layer.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.1 - Prime Relayer Multisig [Core]  <!-- UUID: 3b53c3b4-1d13-4197-8078-54523949784f -->
 
-The Prime Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.5.2.6.1.2.2.1.1.2 - Relayer Role](0a8458ff-499e-4ac6-85a3-6ce200df18ae) and is controlled by Launch Agent 4.
+The Prime Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.5.2.6.1.2.2.1.1.2 - Relayer Role](0a8458ff-499e-4ac6-85a3-6ce200df18ae) and is controlled by Obex.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.1.1 - Address [Core]  <!-- UUID: 5d2d1cef-96c5-4881-a7b7-d70e75541fac -->
 
@@ -39021,15 +39021,15 @@ The Prime Relayer Multisig currently has a 4/7 signing requirement.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.1.3 - Signers [Core]  <!-- UUID: b14ad946-9e1c-494a-8849-45c30d625e3d -->
 
-The signers of the Prime Relayer Multisig are seven (7) addresses controlled by Launch Agent 4.
+The signers of the Prime Relayer Multisig are seven (7) addresses controlled by Obex.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.1.4 - Usage Standards [Core]  <!-- UUID: c96f7c83-92e7-4874-9c03-4a450cc904ff -->
 
-The signers of the Prime Relayer Multisig must use the Multisig to exercise the `RELAYER_ROLE` in accordance with the instructions specified in the Launch Agent 4 Artifact.
+The signers of the Prime Relayer Multisig must use the Multisig to exercise the `RELAYER_ROLE` in accordance with the instructions specified in the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.1.5 - Modification [Core]  <!-- UUID: 3212cf2f-ec75-4418-9fe2-f4b751bd19d8 -->
 
-Launch Agent 4 can change the signers of the Prime Relayer Multisig at any time, so long as there are at least seven (7) signers and at least a majority of signers are required to execute transactions.
+Obex can change the signers of the Prime Relayer Multisig at any time, so long as there are at least seven (7) signers and at least a majority of signers are required to execute transactions.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.2 - Core Operator Relayer Multisig [Core]  <!-- UUID: b32dec2f-51e1-44b0-a81b-679b648ed659 -->
 
@@ -39049,7 +39049,7 @@ The signers of the Core Operator Relayer Multisig are three (3) addresses contro
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.2.4 - Usage Standards [Core]  <!-- UUID: 476f94f2-3e35-4d99-9664-c91984104b6b -->
 
-The signers of the Core Operator Relayer Multisig must use the Multisig to exercise the `RELAYER_ROLE` in accordance with the instructions specified in the Launch Agent 4 Artifact.
+The signers of the Core Operator Relayer Multisig must use the Multisig to exercise the `RELAYER_ROLE` in accordance with the instructions specified in the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.2.5 - Modification [Core]  <!-- UUID: a342e39a-ba3e-4871-ad17-17ce3323e6f2 -->
 
@@ -39057,7 +39057,7 @@ Operational GovOps Ozone can change the signers of the Core Operator Relayer Mul
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.3 - Freezer Multisig [Core]  <!-- UUID: 49e6c234-7102-43e0-80a6-fb14e259e1f7 -->
 
-The Freezer Multisig has the `FREEZER_ROLE` as defined in [A.6.1.1.5.2.6.1.2.2.1.1.4 - Freezer Role](afcfa58a-fc3d-4f5d-9bc8-bf40e7fa3ec7) and is controlled by Launch Agent 4.
+The Freezer Multisig has the `FREEZER_ROLE` as defined in [A.6.1.1.5.2.6.1.2.2.1.1.4 - Freezer Role](afcfa58a-fc3d-4f5d-9bc8-bf40e7fa3ec7) and is controlled by Obex.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.3.1 - Address [Core]  <!-- UUID: 6624912c-1cf6-443c-925f-ba1451a1644f -->
 
@@ -39069,50 +39069,50 @@ The Freezer Multisig currently has a 2/4 signing requirement.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.3.3 - Signers [Core]  <!-- UUID: cac6b239-3d5f-4014-98a2-df082c1c6cdb -->
 
-The signers of the Freezer Multisig are four (4) addresses controlled by Launch Agent 4.
+The signers of the Freezer Multisig are four (4) addresses controlled by Obex.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.3.4 - Usage Standards [Core]  <!-- UUID: 0535c9cd-dd37-4a76-815d-836ad1dd1974 -->
 
-The usage standards for the Freezer Multisig will be specified in a future iteration of the Launch Agent 4 Artifact.
+The usage standards for the Freezer Multisig will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.3.5 - Modification [Core]  <!-- UUID: 247ea87b-5649-4c92-aebe-5a5fc45c2c75 -->
 
-The modification of signers for the Freezer Multisig will be specified in a future iteration of the Launch Agent 4 Artifact.
+The modification of signers for the Freezer Multisig will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.1.3 - Total Risk Capital (TRC) Management [Core]  <!-- UUID: f65883db-3b01-4c25-be16-d05c8b95494a -->
 
-The documents herein specify requirements related to Launch Agent 4’s Total Risk Capital (TRC) management.
+The documents herein specify requirements related to Obex’s Total Risk Capital (TRC) management.
 
-###### A.6.1.1.5.2.6.1.2.1.3.1 - Rubicon’s Operation Of Launch Agent 4 Liquidity Layer And Agreement Regarding Encumbrance Ratio [Core]  <!-- UUID: d915471b-230e-41ab-bc86-68bc9453e417 -->
+###### A.6.1.1.5.2.6.1.2.1.3.1 - Rubicon’s Operation Of Obex Liquidity Layer And Agreement Regarding Encumbrance Ratio [Core]  <!-- UUID: d915471b-230e-41ab-bc86-68bc9453e417 -->
 
-Rubicon will operate the Launch Agent 4 Liquidity Layer and agrees to stay at or below a 90% Encumbrance Ratio. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9).
+Rubicon will operate the Obex Liquidity Layer and agrees to stay at or below a 90% Encumbrance Ratio. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9).
 
 ###### A.6.1.1.5.2.6.1.2.1.3.2 - Rubicon’s Total Risk Capital (TRC) Management Processes [Core]  <!-- UUID: 8248b6dc-0dd9-4019-98e6-83c8d5892317 -->
 
-As operators of the Launch Agent 4 Liquidity Layer, Rubicon automatically inherits, and is subject to, the base class of operational requirements related to Total Risk Capital management defined in [A.2.3.9.1.1.3.2.1.2 - Primes’ Total Risk Capital (TRC) Management](3af8a3a2-25e5-44b3-87a4-7df1f2712685). Modifications to the base operational logic automatically propagate to the Launch Agent 4 Artifact.
+As operators of the Obex Liquidity Layer, Rubicon automatically inherits, and is subject to, the base class of operational requirements related to Total Risk Capital management defined in [A.2.3.9.1.1.3.2.1.2 - Primes’ Total Risk Capital (TRC) Management](3af8a3a2-25e5-44b3-87a4-7df1f2712685). Modifications to the base operational logic automatically propagate to the Obex Artifact.
 
-###### A.6.1.1.5.2.6.1.2.2 - Launch Agent 4 Liquidity Layer Operational Processes [Core]  <!-- UUID: f0393207-2bae-42a2-9ca0-df8ffd4d2a39 -->
+###### A.6.1.1.5.2.6.1.2.2 - Obex Liquidity Layer Operational Processes [Core]  <!-- UUID: f0393207-2bae-42a2-9ca0-df8ffd4d2a39 -->
 
-The documents herein describe common operational procedures for the Launch Agent 4 Liquidity Layer applicable across multiple Instances.
+The documents herein describe common operational procedures for the Obex Liquidity Layer applicable across multiple Instances.
 
 ###### A.6.1.1.5.2.6.1.2.2.1 - Routine Protocol [Core]  <!-- UUID: cea1c91e-e940-41ab-99bb-254b821b24ff -->
 
-The documents herein define the protocol for routine ongoing management of the Launch Agent 4 Liquidity Layer and its active Instances.
+The documents herein define the protocol for routine ongoing management of the Obex Liquidity Layer and its active Instances.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.1 - Role Hierarchy And Permissions [Core]  <!-- UUID: 4eb0b4dc-9ffe-4201-b0cf-31e1cde8fcdb -->
 
-The documents herein defines roles (Admin, Relayer, ALM Controller and Freezer) and their responsibilities/permissions for managing the Launch Agent 4 Liquidity Layer.
+The documents herein defines roles (Admin, Relayer, ALM Controller and Freezer) and their responsibilities/permissions for managing the Obex Liquidity Layer.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.1.1 - Default Admin Role [Core]  <!-- UUID: d0dfc54e-e06e-434b-9194-9b1ad5b6be8a -->
 
-The admin role (DEFAULT_ADMIN_ROLE) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Launch Agent 4 Proxy.
+The admin role (DEFAULT_ADMIN_ROLE) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Obex Proxy.
 
 `constructor(address admin) {
 _grantRole(DEFAULT_ADMIN_ROLE, admin);`
 
 ###### A.6.1.1.5.2.6.1.2.2.1.1.2 - Relayer Role [Core]  <!-- UUID: 0a8458ff-499e-4ac6-85a3-6ce200df18ae -->
 
-The `RELAYER_ROLE` is the address for the Launch Agent 4 Liquidity Layer ALM Planner off-chain system that calls functions on `Controller` contracts to perform actions on behalf of the `ALMProxy` contract. The Relayer Role may be granted to an address by any address holding the `DEFAULT_ADMIN_ROLE`. The Relayer Role may be removed from an address by any address holding the `DEFAULT_ADMIN_ROLE` or the `FREEZER_ROLE`.
+The `RELAYER_ROLE` is the address for the Obex Liquidity Layer ALM Planner off-chain system that calls functions on `Controller` contracts to perform actions on behalf of the `ALMProxy` contract. The Relayer Role may be granted to an address by any address holding the `DEFAULT_ADMIN_ROLE`. The Relayer Role may be removed from an address by any address holding the `DEFAULT_ADMIN_ROLE` or the `FREEZER_ROLE`.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.1.3 - ALM Controller Role [Core]  <!-- UUID: 9a8f34e4-1e38-48da-8fc7-e97d8b6dc64f -->
 
@@ -39124,11 +39124,11 @@ The `FREEZER_ROLE` is the address of the emergency role that can remove a compro
 
 ###### A.6.1.1.5.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: b64040c5-b290-478a-b69f-08cd8b5e7003 -->
 
-The documents herein describe the purpose and operational use of key functions within the Launch Agent 4 Liquidity Layer `MainnetController` contracts: USDS management (mint/burn USDS), Asset Transfer Management (direct transfers, protocol deposits/withdrawals), Cross-chain Operations (CCTP bridging).
+The documents herein describe the purpose and operational use of key functions within the Obex Liquidity Layer `MainnetController` contracts: USDS management (mint/burn USDS), Asset Transfer Management (direct transfers, protocol deposits/withdrawals), Cross-chain Operations (CCTP bridging).
 
 ###### A.6.1.1.5.2.6.1.2.2.1.2.1 - Mainnet Controller Contract Functions [Core]  <!-- UUID: 39a5aa5c-19b0-4012-9f8d-2cef298bdd4b -->
 
-The documents herein define the functions controlled by the Controller contract for Launch Agent 4 Liquidity Layer operations on Ethereum Mainnet.
+The documents herein define the functions controlled by the Controller contract for Obex Liquidity Layer operations on Ethereum Mainnet.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.2.1.1 - Admin Functions [Core]  <!-- UUID: abb49068-d94b-4569-9014-bb767ceec6cb -->
 
@@ -39194,11 +39194,11 @@ The documents herein define the operations performed by the relayer role (see [A
 
 ###### A.6.1.1.5.2.6.1.2.2.1.2.1.2.1 - Relayer Vault Functions [Core]  <!-- UUID: dad796ae-ec65-4aec-b0d4-c47e87f3d148 -->
 
-The documents herein define the operations that are performed to maintain the desired level of liquidity and debt balance of the Launch Agent 4 Liquidity Layer.
+The documents herein define the operations that are performed to maintain the desired level of liquidity and debt balance of the Obex Liquidity Layer.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.2.1.2.1.1 - Mint USDS [Core]  <!-- UUID: d56d12e9-b513-4e8c-8e3c-cf9e49d59f2b -->
 
-The documents herein define the steps for a relayer to mint USDS from the Sky Allocation Vault to the Launch Agent 4 ALM Proxy.
+The documents herein define the steps for a relayer to mint USDS from the Sky Allocation Vault to the Obex ALM Proxy.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.2.1.2.1.1.1 - Call mintUSDS Function [Core]  <!-- UUID: e6313c89-b401-468d-882b-bf5e57d0182c -->
 
@@ -39220,7 +39220,7 @@ The function call is as follows:
 
 ###### A.6.1.1.5.2.6.1.2.2.1.2.1.2.1.2 - Burn USDS [Core]  <!-- UUID: 1e27b007-ed34-4c15-9116-d62145572dce -->
 
-The documents herein define the steps for a relayer to return and then burn Launch Agent 4’s USDS debt in the Sky Allocation Vault.
+The documents herein define the steps for a relayer to return and then burn Obex’s USDS debt in the Sky Allocation Vault.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.2.1.2.1.2.1 - Call burnUSDS Function [Core]  <!-- UUID: 9faf62a8-812c-4986-8133-5b3493634b9f -->
 
@@ -39262,7 +39262,7 @@ The function call is as follows:
 
 ###### A.6.1.1.5.2.6.1.2.2.1.2.1.2.3 - ERC-4626 Functions [Core]  <!-- UUID: 08d30ec2-c343-4176-aded-dce33e76d69c -->
 
-The documents herein define the general Launch Agent 4 Liquidity Layer operational procedures for interacting with ERC-4626-compliant tokenized vaults. ERC-4626 is a standard interface for vaults representing shares of an underlying ERC-20 token. Launch Agent 4 Liquidity Layer can integrate with various ERC-4626 vaults. For instance-specific parameters (such as vault addresses, asset addresses, and rate limits), refer to the relevant ERC-4626 Instance Configuration Document.
+The documents herein define the general Obex Liquidity Layer operational procedures for interacting with ERC-4626-compliant tokenized vaults. ERC-4626 is a standard interface for vaults representing shares of an underlying ERC-20 token. Obex Liquidity Layer can integrate with various ERC-4626 vaults. For instance-specific parameters (such as vault addresses, asset addresses, and rate limits), refer to the relevant ERC-4626 Instance Configuration Document.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.2.1.2.3.1 - Deposit To ERC-4626 Vault [Core]  <!-- UUID: bab638ed-79fb-4163-aeb2-c569fc79c8e1 -->
 
@@ -39325,7 +39325,7 @@ The function call is as follows:
 
 ###### A.6.1.1.5.2.6.1.2.2.1.2.1.2.4 - ERC-7540 Functions [Core]  <!-- UUID: e1a57a43-7bac-4f32-b4cc-4de7c050a89b -->
 
-The documents herein define the general Launch Agent 4 Liquidity Layer operational procedures for interacting with ERC-7540-compliant tokenized vaults. ERC-7540 is a standard interface for vaults representing and managing multiple underlying assets within a single vault. Launch Agent 4 Liquidity Layer can integrate with various ERC-7540 vaults. For instance-specific parameters (such as vault addresses, asset addresses, and rate limits), refer to the relevant ERC-7540 Instance Configuration Document.
+The documents herein define the general Obex Liquidity Layer operational procedures for interacting with ERC-7540-compliant tokenized vaults. ERC-7540 is a standard interface for vaults representing and managing multiple underlying assets within a single vault. Obex Liquidity Layer can integrate with various ERC-7540 vaults. For instance-specific parameters (such as vault addresses, asset addresses, and rate limits), refer to the relevant ERC-7540 Instance Configuration Document.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.2.1.2.4.1 - Deposit To ERC-7540 Vault [Core]  <!-- UUID: 63200ccb-fb66-4ce8-a9b9-d056f72ec60b -->
 
@@ -39435,7 +39435,7 @@ The function call is as follows:
 
 ###### A.6.1.1.5.2.6.1.2.2.1.2.1.2.6 - PSM Functions [Core]  <!-- UUID: 8666d408-4c3a-4646-8cbf-d0752167dcd6 -->
 
-The documents herein define the swap operations performed by the Launch Agent 4 Liquidity Layer in the PSM.
+The documents herein define the swap operations performed by the Obex Liquidity Layer in the PSM.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.2.1.2.6.1 - Swap USDS to USDC [Core]  <!-- UUID: 43917647-67dc-4981-8048-522c19b4caf0 -->
 
@@ -39519,7 +39519,7 @@ The function call is as follows:
 
 ###### A.6.1.1.5.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: 73da45c9-78eb-49f3-a1d5-593780e9d362 -->
 
-The documents herein define the protocol for querying, setting, and adjusting `Rate Limits` for Instances using their `Rate LimitID`s. The Rate Limits must be maintained in line with Launch Agent 4’s strategy, market conditions, and security considerations.
+The documents herein define the protocol for querying, setting, and adjusting `Rate Limits` for Instances using their `Rate LimitID`s. The Rate Limits must be maintained in line with Obex’s strategy, market conditions, and security considerations.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.3.1 - Get Rate Limit Data [Core]  <!-- UUID: 716b493e-d102-47c8-8f87-bcb1c809c8ee -->
 
@@ -39599,19 +39599,19 @@ The function call is as follows:
 
 ###### A.6.1.1.5.2.6.1.2.2.1.4 - Instance Lifecycle Management [Core]  <!-- UUID: 2dde3f2b-925d-42a4-9fe1-0cb5bfd86855 -->
 
-The documents herein define processes for invoking (onboarding) new Launch Agent 4 Liquidity Layer Instances and offboarding existing ones. This process will be specified in a future iteration of the Launch Agent 4 Artifact.
+The documents herein define processes for invoking (onboarding) new Obex Liquidity Layer Instances and offboarding existing ones. This process will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.5 - Upgrading Controller [Core]  <!-- UUID: 4e238661-718b-44ec-8473-bad60d76074d -->
 
-The documents herein define the process for deploying new Controller contracts. This process will be specified in a future iteration of the Launch Agent 4 Artifact.
+The documents herein define the process for deploying new Controller contracts. This process will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 7fc9e39e-4f3d-435a-84af-7fc74c449ce0 -->
 
-The documents herein define the process for non-routine ongoing management of the Launch Agent 4 Liquidity Layer and its active Instances.
+The documents herein define the process for non-routine ongoing management of the Obex Liquidity Layer and its active Instances.
 
 ###### A.6.1.1.5.2.6.1.2.2.3 - Emergency Protocol [Core]  <!-- UUID: d99e4cb6-1c6c-4562-948b-c2ac4ea66253 -->
 
-The documents herein define all the possible actions that can be taken in case of an emergency within Launch Agent 4 Liquidity Layer operations.
+The documents herein define all the possible actions that can be taken in case of an emergency within Obex Liquidity Layer operations.
 
 ###### A.6.1.1.5.2.6.1.2.2.3.1 - Remove Compromised Relayer As Freezer [Core]  <!-- UUID: 15c966fc-e579-4277-abb0-6f0b9ad5cbce -->
 
@@ -39629,7 +39629,7 @@ The function call is as follows:
 
 ###### A.6.1.1.5.2.6.1.2.2.3.2 - Redeem All Mainnet Positions [Core]  <!-- UUID: 10597c85-6ce2-4364-a83b-e2d3c93c45c7 -->
 
-The documents herein define the actions that should be performed by an operator if there is a need to recover the liquidity from Mainnet Protocols and centralize it in the Mainnet Launch Agent 4 ALM Proxy.
+The documents herein define the actions that should be performed by an operator if there is a need to recover the liquidity from Mainnet Protocols and centralize it in the Mainnet Obex ALM Proxy.
 
 ###### A.6.1.1.5.2.6.1.2.2.3.2.1 - ERC-4626 Withdrawal Action [Core]  <!-- UUID: 6078cd75-f853-49ca-b7c1-eaab4ef85c72 -->
 
@@ -39653,7 +39653,7 @@ For more detailed instructions on the code to execute this see [A.6.1.1.5.2.6.1.
 
 ###### A.6.1.1.5.2.6.1.2.2.3.4 - USDS Burn Action [Core]  <!-- UUID: 3304ecba-6dad-45af-886e-878648d2abb8 -->
 
-This document defines the action that should be performed if there is a need to repay and then burn Launch Agent 4’s USDS debt. The operator must call the `burnUSDS` function.
+This document defines the action that should be performed if there is a need to repay and then burn Obex’s USDS debt. The operator must call the `burnUSDS` function.
 
 The function call is as follows:
 
@@ -39663,15 +39663,15 @@ More detailed instructions on the code to execute this, see [A.6.1.1.5.2.6.1.2.2
 
 ###### A.6.1.1.5.2.6.1.2.3 - Allocation Strategy [Core]  <!-- UUID: 5611a719-923b-4d95-b246-5bc788d55307 -->
 
-In the future, additional logic will be added herein regarding the strategy by which capital is allocated between different Instances of the Launch Agent 4 Liquidity Layer.
+In the future, additional logic will be added herein regarding the strategy by which capital is allocated between different Instances of the Obex Liquidity Layer.
 
 ###### A.6.1.1.5.2.6.1.3 - Active Instances [Core]  <!-- UUID: ccde7679-912d-403f-aad1-f9a56c8e3387 -->
 
-The Instances of the Launch Agent 4 Liquidity Layer with `Active` Status are stored herein. The `RRC Framework Full Implementation Coverage` status defines whether the Instance Financial RRC is calculated based on a fully implemented risk model (see [A.3.2.1.1.4.3.1 - Fully Implemented Risk Models](419a1d00-fbae-4d26-bd47-8f57677d8001)) or a pending risk model (see [A.3.2.1.1.4.3.2 - Pending Risk Models](81ca88bf-3f6a-4d10-a3e2-d47cf6636d7d)). If the Instance Financial RRC is calculated based on a fully implemented risk model the status is `Covered`. If the Instance Financial RRC is calculated based on a pending risk model the status is `Pending`.
+The Instances of the Obex Liquidity Layer with `Active` Status are stored herein. The `RRC Framework Full Implementation Coverage` status defines whether the Instance Financial RRC is calculated based on a fully implemented risk model (see [A.3.2.1.1.4.3.1 - Fully Implemented Risk Models](419a1d00-fbae-4d26-bd47-8f57677d8001)) or a pending risk model (see [A.3.2.1.1.4.3.2 - Pending Risk Models](81ca88bf-3f6a-4d10-a3e2-d47cf6636d7d)). If the Instance Financial RRC is calculated based on a fully implemented risk model the status is `Covered`. If the Instance Financial RRC is calculated based on a pending risk model the status is `Pending`.
 
 ###### A.6.1.1.5.2.6.1.3.1 - Ethereum Mainnet Instances [Core]  <!-- UUID: a10f4c25-6281-42e5-8247-6ac5cac9f850 -->
 
-The Ethereum Mainnet Instances of the Launch Agent 4 Liquidity Layer with `Active` Status are stored herein and are organized by target protocol.
+The Ethereum Mainnet Instances of the Obex Liquidity Layer with `Active` Status are stored herein and are organized by target protocol.
 
 ###### A.6.1.1.5.2.6.1.3.1.1 - Maple [Core]  <!-- UUID: a03f7eb7-4f1f-441c-98ba-41c87f482186 -->
 
@@ -39701,7 +39701,7 @@ Ethereum Mainnet
 
 Maple
 
-###### A.6.1.1.5.2.6.1.3.1.1.1.2.1.3 - Asset Supplied By Launch Agent 4 Liquidity Layer [Core]  <!-- UUID: 7d83e07d-c05f-4917-97ef-7bca6a6cf184 -->
+###### A.6.1.1.5.2.6.1.3.1.1.1.2.1.3 - Asset Supplied By Obex Liquidity Layer [Core]  <!-- UUID: 7d83e07d-c05f-4917-97ef-7bca6a6cf184 -->
 
 USDC
 
@@ -39723,7 +39723,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.5.2.6.1.3.1.1.1.2.3 - RateLimitIDs [Core]  <!-- UUID: d2d46842-e9dd-4f88-bfa5-5e947381f70b -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Launch Agent 4 Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.3.1.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 97344456-e215-42e5-a149-89f0276e1b4c -->
 
@@ -39757,7 +39757,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.5.2.6.1.3.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 12bfd1a4-fe27-4a7d-8c1e-d0541c690066 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Launch Agent 4 Liquidity Layer processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Obex Liquidity Layer processes.
 
 ###### A.6.1.1.5.2.6.1.3.1.1.1.3.1 - Redeem Maple Shares [Core]  <!-- UUID: 6fb19cf7-516c-4de4-89b9-02288053f905 -->
 
@@ -39793,7 +39793,7 @@ The function call is as follows:
 
 ###### A.6.1.1.5.2.6.1.4 - Completed Instances [Core]  <!-- UUID: 6b16b0d6-a5a1-44da-a95d-e62d38a35ade -->
 
-The Instances of the Launch Agent 4 Liquidity Layer with `Completed` Status are stored herein.
+The Instances of the Obex Liquidity Layer with `Completed` Status are stored herein.
 
 ###### A.6.1.1.5.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: ca2c0cd1-73e3-49f1-b415-65e5f200b097 -->
 
@@ -39801,11 +39801,11 @@ The in progress Invocations of the Allocation System Primitive are contained her
 
 ###### A.6.1.1.5.2.6.2 - Junior Risk Capital Rental Primitive [Core]  <!-- UUID: 473d0f9e-a5dc-48ee-84b9-a48cd2b6f215 -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s Instances of the Junior Risk Capital Rental Primitive. See [A.2.3.9.2 - Junior Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).
+The documents herein contain all data and specifications for Obex’s Instances of the Junior Risk Capital Rental Primitive. See [A.2.3.9.2 - Junior Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).
 
 ###### A.6.1.1.5.2.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: 7c5c39de-a531-42a7-8b74-e8e6ffeb2bc3 -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Junior Risk Capital Rental Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Junior Risk Capital Rental Primitive.
 
 ###### A.6.1.1.5.2.6.2.1.1 - Global Activation Status [Core]  <!-- UUID: c3a0f75a-d418-411a-bc8e-ccde6aa938b1 -->
 
@@ -39853,11 +39853,11 @@ The in progress Invocations of the Junior Risk Capital Rental Primitive are cont
 
 ###### A.6.1.1.5.2.6.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: fab6088e-5b4c-4ab4-af33-051920120273 -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s Instances of the Asset Liability Management Rental Primitive. See [A.2.3.9.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).
+The documents herein contain all data and specifications for Obex’s Instances of the Asset Liability Management Rental Primitive. See [A.2.3.9.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).
 
 ###### A.6.1.1.5.2.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: 804821a4-0344-4642-9575-8bde38f8edef -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Asset Liability Management Rental Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Asset Liability Management Rental Primitive.
 
 ###### A.6.1.1.5.2.6.3.1.1 - Global Activation Status [Core]  <!-- UUID: 80b90a60-c898-4700-8c19-c168709b2bb0 -->
 
@@ -39905,15 +39905,15 @@ The in progress Invocations of the Asset Liability Management Rental Primitive a
 
 ###### A.6.1.1.5.2.7 - Core Governance Primitives [Core]  <!-- UUID: 901fba8d-ac5f-4809-a3d4-e510fc9b74ca -->
 
-The documents herein implement the Core Governance Primitives for Launch Agent 4. See [A.2.3.10 - Core Governance Primitives](6fa54611-c744-4b9d-897d-b2a20e9cae5d).
+The documents herein implement the Core Governance Primitives for Obex. See [A.2.3.10 - Core Governance Primitives](6fa54611-c744-4b9d-897d-b2a20e9cae5d).
 
 ###### A.6.1.1.5.2.7.1 - Core Governance Reward Primitive [Core]  <!-- UUID: 871764eb-5ccb-47fc-8852-0523e989bef6 -->
 
-The documents herein contain all data and specifications for Launch Agent 4’s Instances of the Core Governance Reward Primitive. See [A.2.3.10.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
+The documents herein contain all data and specifications for Obex’s Instances of the Core Governance Reward Primitive. See [A.2.3.10.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
 
 ###### A.6.1.1.5.2.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: e0e1769f-ecbe-4598-a236-318d7b00c929 -->
 
-The documents herein organize all base information relevant to Launch Agent 4’s usage of the Core Governance Reward Primitive.
+The documents herein organize all base information relevant to Obex’s usage of the Core Governance Reward Primitive.
 
 ###### A.6.1.1.5.2.7.1.1.1 - Global Activation Status [Core]  <!-- UUID: a5f4abc0-9d2f-4356-9977-919fcf8ca427 -->
 
@@ -39961,59 +39961,59 @@ The in progress Invocations of the Core Governance Reward Primitive are containe
 
 ##### A.6.1.1.5.3 - Omni Documents [Core]  <!-- UUID: 239c5dd4-46a1-4936-8e31-f37ea2aa802c -->
 
-The documents herein define Launch Agent 4’s strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
+The documents herein define Obex’s strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
 
 ###### A.6.1.1.5.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: bdad4ea3-7cf2-40fb-a8ab-4bb8b320e4c9 -->
 
-The documents herein specify Launch Agent 4 governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Launch Agent 4 Artifact is specified in the Root Edit Primitive above at [A.6.1.1.5.2.2.2 - Root Edit Primitive](b69559bf-1acb-4f9c-8638-19fb8ef20fc2).
+The documents herein specify Obex governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Obex Artifact is specified in the Root Edit Primitive above at [A.6.1.1.5.2.2.2 - Root Edit Primitive](b69559bf-1acb-4f9c-8638-19fb8ef20fc2).
 
 ###### A.6.1.1.5.3.1.1 - Sky Forum [Core]  <!-- UUID: fb92df01-4e93-45ec-8e81-b59d5767ebb7 -->
 
-Launch Agent 4 uses the Sky Forum for governance-related discussion. Posts should use the "Launch Agent 4 Prime" category.
+Obex uses the Sky Forum for governance-related discussion. Posts should use the "Obex Prime" category.
 
 ###### A.6.1.1.5.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: ec6dc53f-7398-4242-afc4-81e436541da2 -->
 
-The documents herein specify Launch Agent 4’s emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Launch Agent 4 Artifact.
+The documents herein specify Obex’s emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: e5ac06b5-0f4a-4506-bfa4-a4d18901e1cc -->
 
-The documents herein specify Launch Agent 4’s emergency response protocol in situations solely impacting Launch Agent 4 versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Launch Agent 4 Artifact.
+The documents herein specify Obex’s emergency response protocol in situations solely impacting Obex versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.3.2 - Strategic Intent And Operating Model [Core]  <!-- UUID: b380c021-e579-47a2-ae01-c85340caa135 -->
 
-Launch Agent 4 is an incubation-focused Prime within the Sky Ecosystem. It provides capital, infrastructure, and technical support to early-stage teams building on Sky Primitives. Launch Agent 4’s purpose is to accelerate aligned builders through structured incubation and funding. The subdocuments herein define the operating model, structure, mandate, and operational standards of Launch Agent 4.
+Obex is an incubation-focused Prime within the Sky Ecosystem. It provides capital, infrastructure, and technical support to early-stage teams building on Sky Primitives. Obex’s purpose is to accelerate aligned builders through structured incubation and funding. The subdocuments herein define the operating model, structure, mandate, and operational standards of Obex.
 
 ###### A.6.1.1.5.3.2.1 - Operating Model [Core]  <!-- UUID: 7d7658f6-31a9-4d73-8d3f-19b87d0e89ec -->
 
-Launch Agent 4 follows a direct-execution model rather than a multi-layered governance system. Key processes include:
+Obex follows a direct-execution model rather than a multi-layered governance system. Key processes include:
 
 - **Incubation Selection:** Projects are sourced, evaluated, and onboarded based on strategic fit, feasibility, and alignment with Sky objectives.
 
-- **Capital Allocation:** All allocations occur through the Launch Agent 4 Incubator Prime, which deploys first-loss or operational capital under predefined parameters.
+- **Capital Allocation:** All allocations occur through the Obex Incubator Prime, which deploys first-loss or operational capital under predefined parameters.
 
 ###### A.6.1.1.5.3.2.2 - Risk and Compliance [Core]  <!-- UUID: d3466d20-01c9-453a-aee0-e7b8f9e17cf0 -->
 
-Launch Agent 4 adheres to the Sky Ecosystem’s standards for risk, transparency, and recourse.
+Obex adheres to the Sky Ecosystem’s standards for risk, transparency, and recourse.
 
 ###### A.6.1.1.5.3.2.3 - Ecosystem Accord Alignment [Core]  <!-- UUID: 7f550ce1-dbd5-43dc-8c03-741eb6b9df4a -->
 
-Launch Agent 4 operates in full alignment with the Sky Atlas. All operations, reporting, and capital flows must comply with the standards established by Sky Governance and any applicable Ecosystem Accords.
+Obex operates in full alignment with the Sky Atlas. All operations, reporting, and capital flows must comply with the standards established by Sky Governance and any applicable Ecosystem Accords.
 
 ###### A.6.1.1.5.3.2.4 - First-Loss and Recourse Principles [Core]  <!-- UUID: 909f6c00-369e-4fd1-b052-1e933a17b669 -->
 
-Capital deployed through Launch Agent 4 carries explicit first-loss protection defined by the Incubator Prime. Each funded project must maintain verifiable recourse through token, equity, or revenue participation agreements enforceable by the Prime’s legal wrapper.
+Capital deployed through Obex carries explicit first-loss protection defined by the Incubator Prime. Each funded project must maintain verifiable recourse through token, equity, or revenue participation agreements enforceable by the Prime’s legal wrapper.
 
 ###### A.6.1.1.5.3.2.5 - Data and Transparency Standards [Core]  <!-- UUID: c861f5fb-e99b-40ca-b535-291b94b69811 -->
 
-Launch Agent 4 maintains an active dashboard reporting total allocations, active projects, utilization, default rates, and realized yields.
+Obex maintains an active dashboard reporting total allocations, active projects, utilization, default rates, and realized yields.
 
 ###### A.6.1.1.5.3.3 - Ecosystem Accords [Core]  <!-- UUID: dba03405-43a8-4ce1-8a16-dfdeb75cda14 -->
 
-Launch Agent 4 has formally agreed to the Ecosystem Accords herein.
+Obex has formally agreed to the Ecosystem Accords herein.
 
 ###### A.6.1.1.5.3.3.1 - Ecosystem Accord 4 [Core]  <!-- UUID: eab0145b-3b7b-4793-92ff-56717d2e5544 -->
 
-Launch Agent 4 engaged in terms of agreement with Sky in Ecosystem Accord 4, located in [A.2.9.2.4 - Ecosystem Accord 4: Sky And Launch Agent 4](6bddc5aa-ac80-43d8-b8c8-8cde14e896df).
+Obex engaged in terms of agreement with Sky in Ecosystem Accord 4, located in [A.2.9.2.4 - Ecosystem Accord 4: Sky And Obex](6bddc5aa-ac80-43d8-b8c8-8cde14e896df).
 
 ### A.6.1.2 - List Of Executor Agent Artifacts [Section]  <!-- UUID: df62511d-afe5-42db-8bd4-6452c5a0f464 -->
 
