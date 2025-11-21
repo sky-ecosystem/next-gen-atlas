@@ -20,7 +20,7 @@ jobs:
         id: validate
         uses: Atlas-Axis/atlas-validator@main
         with:
-          file_path: atlas.md
+          file_path: "Sky Atlas/Sky Atlas.md"
         continue-on-error: true
 
       - name: Comment on PR
