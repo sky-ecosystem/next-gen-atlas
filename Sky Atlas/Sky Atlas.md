@@ -25779,6 +25779,95 @@ The current Target Encumbrance Ratio is 90%.
 
 This parameter will be maintained in parallel with the value specified in the Spark Artifact Allocation System Primitive section at [A.6.1.1.1.2.6.1.2.1.3.1 - Spark’s Operation Of Spark Liquidity Layer And Agreement Regarding Encumbrance Ratio](23f7ed09-99ca-45aa-8e12-dffcf55170af); any change to one section of the Spark Artifact will require a corresponding change in the other section.
 
+###### A.6.1.1.1.3.4.2.2 - Target SubDAO Proxy Value [Core]  <!-- UUID: 2e676b28-14e8-4536-ab70-c49b896da8b8 -->
+
+The documents herein define Spark’s policy for maintaining a SubDAO Proxy balance sufficient to cover anticipated risk exposures and operational expenses.
+
+###### A.6.1.1.1.3.4.2.2.1 - Definitions [Core]  <!-- UUID: fd1df613-3038-4f60-9156-ecd4335addb0 -->
+
+The subdocuments herein provide definitions of target SubDAO Proxy value and relevant parameters.
+
+###### A.6.1.1.1.3.4.2.2.1.1 - Target SubDAO Proxy Value Definition [Core]  <!-- UUID: 3baabdcc-d715-419d-97b7-28936d4b0f95 -->
+
+Target SubDAO Proxy Value is the minimum target value of the Spark DAO SubDAO Proxy, below which Spark will not undertake any non-critical and non-strategic dispositions of SubDAO Proxy assets such as SPK token purchases.
+
+###### A.6.1.1.1.3.4.2.2.1.2 - RRC Lookback Period Definition [Core]  <!-- UUID: 6e832698-c71b-441c-9132-4df8d0357351 -->
+
+The Target SubDAO Proxy Value evaluation method ([A.6.1.1.1.3.4.2.2.2 - Evaluation Method](99d4b8da-fa5c-49ce-b93c-70d07334d7aa)) considers the higher of current Required Risk Capital (RRC) or highest RRC incurred within a trailing period. RRC Lookback Period defines the amount of time to review for the trailing period when evaluating the RRC component of Target SubDAO Proxy Value.
+
+###### A.6.1.1.1.3.4.2.2.1.3 - Spark Product Backstop Definition [Core]  <!-- UUID: ac10196b-18b2-4bc4-8627-0cacac8a3524 -->
+
+The Spark Product Backstop is a fixed value of USDS, updated from time to time by Spark governance via the Spark SubDAO Proxy Policy Changes process ([A.6.1.1.1.3.4.1.1 - Spark SubDAO Proxy Policy Changes](90240e75-6e5f-4a54-8999-ee430cfcf20d)), meant to cover the anticipated risk exposures to Spark products that are not covered under Sky’s Required Risk Capital framework.
+
+###### A.6.1.1.1.3.4.2.2.1.4 - Target Runway Definition [Core]  <!-- UUID: 0bd4cd1e-1a37-4209-8ac4-45c17facafd3 -->
+
+Target Runway defines the amount of operational expenses Spark holds in reserve as part of the Target SubDAO Proxy Value. The operational expenses component of Target SubDAO Proxy Value counts the higher of past month’s operating expenses multiplied by Target Runway (in months), or total operating expenses incurred in trailing period equal to Target Runway.
+
+###### A.6.1.1.1.3.4.2.2.1.5 - Operating Expense Definition [Core]  <!-- UUID: 3ffad8de-515c-45e0-ac75-223d075cb9f8 -->
+
+Operating Expense is defined as the sum of governance approved transfers to the Spark Foundation within a given period.
+
+###### A.6.1.1.1.3.4.2.2.2 - Evaluation Method [Core]  <!-- UUID: 99d4b8da-fa5c-49ce-b93c-70d07334d7aa -->
+
+Target SubDAO Proxy Value is computed as the greater of Required Risk Capital (RRC) plus Spark Product Backstop, or Operational Expense Reserve.
+
+RRC is calculated as the higher of current RRC or highest RRC incurred within the RRC Lookback Period, divided by Risk Tolerance Ratio ([A.6.1.1.1.3.4.2.1 - Encumbrance Ratio](9995ba51-1de7-4b32-8b76-a71462dc4c5b)).
+
+Spark Product Backstop is set manually by Spark governance per [A.6.1.1.1.3.4.2.2.1.3 - Spark Product Backstop Definition](ac10196b-18b2-4bc4-8627-0cacac8a3524).
+
+Operational expense reserve is calculated as the higher of past month’s operating expenses multiplied by Target Runway (in months), or total operating expenses incurred in trailing period equal to Target Runway.
+
+###### A.6.1.1.1.3.4.2.2.3 - Parameters [Core]  <!-- UUID: 7410ed94-db95-437a-a4d2-9120036ec7bd -->
+
+The current Target SubDAO Proxy Value parameters are:
+
+- RRC lookback period: 12 months
+- Spark product backstop: 5 million USDS
+- Target runway: 12 months
+
+###### A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy [Core]  <!-- UUID: 6a4870fa-73f1-4d49-b7ee-d531fb59a971 -->
+
+The documents herein define Spark’s policy for disposition of excess SubDAO Proxy funds above the target SubDAO Proxy value.
+
+###### A.6.1.1.1.3.4.2.3.1 - Definitions [Core]  <!-- UUID: 0da9928f-ae14-4869-b36b-761930422502 -->
+
+The subdocuments herein provide definitions for relevant parameters and values.
+
+###### A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value [Core]  <!-- UUID: 9705a4be-e92f-4195-8e85-1cfe19ec1a0d -->
+
+The Current SubDAO Proxy Value is defined as the sum of all USDS tokens held in the Spark SubDAO on Ethereum at 0x3300f198988e4C9C63F75dF86De36421f06af8c4. Note that the operational process of excess SubDAO Proxy funds disposition as defined in [A.6.1.1.1.3.4.2.3.2 - Operational Process](dfa483c7-5adb-480e-9f82-c97cf4d0f74e) uses the most up to date onchain value for the Current SubDAO Proxy Value, and this does not need to be updated in the Spark Artifact as it is expected to fluctuate frequently based on monthly settlements and other operational processes.
+
+###### A.6.1.1.1.3.4.2.3.1.2 - Standard Buyback Rate [Core]  <!-- UUID: 796dc640-03a7-4608-b676-a235a68174b1 -->
+
+The Standard Buyback rate defines the percentage of excess SubDAO Proxy value that is used for buybacks during each monthly cycle, up to the Enhanced Buyback Threshold.
+
+###### A.6.1.1.1.3.4.2.3.1.3 - Enhanced Buyback Rate [Core]  <!-- UUID: 0efbdfe8-3ccd-4e6a-8195-a52e7f63c1d9 -->
+
+The Enhanced Buyback rate defines the percentage of SubDAO Proxy value in excess of the Enhanced Buyback Threshold that is used for buybacks during each monthly cycle.
+
+###### A.6.1.1.1.3.4.2.3.1.4 - Enhanced Buyback Threshold [Core]  <!-- UUID: e150176c-1da5-4adb-ba5d-f344d0be03ae -->
+
+The Enhanced Buyback threshold defines the threshold over which the Enhanced Buyback Rate is applied to calculate buyback amounts. This variable is specified as a percentage of the Target SubDAO Proxy Value; for example a 200% Enhanced Buyback Threshold means that the Enhanced Buyback Rate will apply to any subDAO proxy value over 2x the Target SubDAO Proxy Value.
+
+###### A.6.1.1.1.3.4.2.3.1.5 - Buyback Executor [Core]  <!-- UUID: d6be588d-e76e-4413-8a3e-c1b59e5bd106 -->
+
+The Buyback Executor is the entity responsible for receiving excess SubDAO Proxy funds in USDS, purchasing SPK, and returning the SPK to the Spark SubDAO Proxy. Initially, this role will be performed by the Spark Operations Multisig.
+
+###### A.6.1.1.1.3.4.2.3.2 - Operational Process [Core]  <!-- UUID: dfa483c7-5adb-480e-9f82-c97cf4d0f74e -->
+
+Each month, immediately following Spark’s monthly settlement with Sky, the Current SubDAO Proxy Value with be calculated based on the definition in [A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value](9705a4be-e92f-4195-8e85-1cfe19ec1a0d), and the Target SubDAO Proxy Value based on the evaluation method in [A.6.1.1.1.3.4.2.2.2 - Evaluation Method](99d4b8da-fa5c-49ce-b93c-70d07334d7aa). If the Current SubDAO Proxy Value is greater than the Target SubDAO Proxy Value, this excess SubDAO Proxy Value is multiplied by the Standard Buyback Rate parameter up to the Enhanced Buyback Threshold, and then by the Enhanced Buyback Rate for any amount in excess of the Enhanced Buyback Threshold. The buyback amount for the month is set as the sum of the two values of the standard and enhanced buybacks.
+
+The next available Spark proxy spell will include a transfer of this calculated buyback amount to the designated Buyback Executor. After using the transferred funds to purchase SPK, the Buyback Executor will transfer all accrued SPK to the Spark SubDAO Proxy.
+
+###### A.6.1.1.1.3.4.2.3.3 - Parameters [Core]  <!-- UUID: b52a4011-5346-4de7-9522-90ae66b81600 -->
+
+The current buyback policy parameters are:
+
+- Standard Buyback rate: 10%
+- Enhanced Buyback rate: 100%
+- Enhanced Buyback threshold: 200%
+- Buyback executor: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC
+
 ###### A.6.1.1.1.3.5 - Spark Savings Configuration [Core]  <!-- UUID: 9b4ce799-3baa-42e8-a742-7e8deb377dfc -->
 
 The documents herein specify Spark's strategy and operational processes for managing parameters and liquidity for the Spark Savings protocol.
