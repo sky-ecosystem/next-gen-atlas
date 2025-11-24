@@ -25823,7 +25823,7 @@ The current Target SubDAO Proxy Value parameters are:
 
 - RRC Lookback Period: 12 months
 - Spark Product Backstop: 5 million USDS
-- Target Runway: 12 months
+- Target Runway: 24 months
 
 ###### A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy [Core]  <!-- UUID: 6a4870fa-73f1-4d49-b7ee-d531fb59a971 -->
 
