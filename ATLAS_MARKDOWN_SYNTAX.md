@@ -50,7 +50,7 @@ Every document in the Atlas Markdown file begins with a title line that follows 
    - Examples: `A.1`, `A.1.2.3`, `A.1.1.0.3.1`, `NR-5`
    - Must follow Atlas numbering rules (see Section 6)
 
-3. **Separator**: Space, hyphen, space: `-`
+3. **Separator**: Space, hyphen, space
    - Must be exactly this format (not just `-` or ` -` or `- `)
 
 4. **Document Name**: The human-readable name of the document
@@ -561,7 +561,7 @@ The key finding from this scenario analysis.
 
 Facilitators should consider these factors.
 
-####### A.1.2.2.1.4.0.4.1.1.1.var1 - Emergency Amendment [Scenario Variation] <!-- UUID: ghi-jkl-456 -->
+###### A.1.2.2.1.4.0.4.1.1.1.var1 - Emergency Amendment [Scenario Variation] <!-- UUID: ghi-jkl-456 -->
 
 This variation covers emergency amendments.
 
