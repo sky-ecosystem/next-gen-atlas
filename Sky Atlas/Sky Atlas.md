@@ -2018,21 +2018,73 @@ Delegate Contracts are smart contracts that can receive delegated voting power f
 
 The element "delegated voting power" refers to the ability of SKY holders and Staking users to entrust their voting power to a Delegate Contract, allowing the Aligned Delegate controlling that contract to cast votes in the Sky Governance process on their behalf. The SKY or Staking user always maintains full ownership of their tokens.
 
-### A.1.5.3 - Eligibility To Receive Budget [Section]  <!-- UUID: cf2bfd51-4f69-432b-abd7-04d16fe0cfae -->
-
-Aligned Delegates are eligible to receive a budget from the Sky Protocol if they fulfill two (2) requirements: 
-
-1) They rank among the top Aligned Delegates based on total Voting Power delegated to their Delegate Contract, and 
-
-2) They fulfill specific participation requirements defined in this Article.
-
-#### A.1.5.3.0.3.1 - Total Voting Power Delegated - Element Annotation [Annotation]  <!-- UUID: 72292d09-0998-4ed6-9bbd-5e69d6248d34 -->
-
-The element "total Voting Power delegated" refers to the cumulative SKY that has been delegated to a Delegate Contract by SKY holders and Staking users.
-
 ### A.1.5.4 - Ranked Delegates [Section]  <!-- UUID: 0836acf0-441d-4215-aee6-dc6d0c884516 -->
 
-Aligned Delegates with the greatest delegated Voting Power are designated as Ranked Delegates and receive a budget. The number of Ranked Delegate slots is specified in [A.1.5.5 - Number of Ranked Delegate Slots](9c3dc9e7-6ee5-4afd-a289-89615c74005d).
+This Section defines Ranked Delegates. Ranked Delegates are Aligned Delegates who are eligible to receive a budget from the Sky Protocol and have additional rights and responsibilities as specified herein.
+
+#### A.1.5.4.1 - Levels Of Ranked Delegates [Core]
+
+Ranked Delegates are divided into three levels as specified in the documents herein.
+
+##### A.1.5.4.1.1 - Level 1 Ranked Delegates [Core]
+
+Level 1 Ranked Delegates are eligible for a higher budget and are expected to contribute to the Sky Protocol at a higher level relative to other Ranked Delegates.
+
+###### A.1.5.4.1.1.1 - Number Of Level 1 Ranked Delegates [Core]
+
+There are two (2) Level 1 Ranked Delegates.
+
+###### A.1.5.4.1.1.2 - Budget For Level 1 Ranked Delegates [Core]
+
+Each Level 1 Ranked Delegate is eligible for a budget of 600,000 USDS per year.
+
+###### A.1.5.4.1.1.3 - Selection Of Level 1 Ranked Delegates [Core]
+
+In the short term, the Level 1 Ranked Delegates are selected directly by Sky Governance. The current Level 1 Ranked Delegates selected by Sky Governance are specified in Current Level 1 Ranked Delegates.
+
+###### A.1.5.4.1.1.3.1 - Current Level 1 Ranked Delegates [Core]
+
+The current Level 1 Ranked Delegates are BLUE and Cloaky.
+
+##### A.1.5.4.1.2 - Level 2 Ranked Delegates [Core]
+
+Level 2 Ranked Delegates are eligible for an intermediate budget and are expected to contribute to the Sky Protocol at an intermediate level relative to other Ranked Delegates.
+
+###### A.1.5.4.1.2.1 - Number Of Level 2 Ranked Delegates [Core]
+
+There is one (1) Level 2 Ranked Delegate.
+
+###### A.1.5.4.1.2.2 - Budget For Level 2 Ranked Delegates  [Core]
+
+Each Level 2 Ranked Delegate is eligible for a budget of 175,000 USDS per year.
+
+###### A.1.5.4.1.2.3 - Selection Of Level 2 Ranked Delegates [Core]
+
+In the short term, the Level 2 Ranked Delegates are selected directly by Sky Governance. The current Level 2 Ranked Delegates selected by Sky Governance are specified in Current Level 2 Ranked Delegates.
+
+###### A.1.5.4.1.2.3.1 - Current Level 2 Ranked Delegates [Core]
+
+The current Level 2 Ranked Delegate is Bonapublica.
+
+##### A.1.5.4.1.3 - Level 3 Ranked Delegates [Core]
+
+Level 3 Ranked Delegates are eligible for a lower budget and are expected to contribute to the Sky Protocol at a lower level relative to other Ranked Delegates.
+
+###### A.1.5.4.1.3.1 - Number Of Level 3 Ranked Delegates [Core]
+
+There are three (3) Level 3 Ranked Delegates.
+
+###### A.1.5.4.1.3.2 - Budget For Level 3 Ranked Delegates  [Core]
+
+Each Level 3 Ranked Delegate is eligible for a budget of 48,000 USDS per year.
+
+###### A.1.5.4.1.3.3 - Selection Of Level 3 Ranked Delegates [Core]
+
+The Level 3 Ranked Delegates are the Aligned Delegates with the greatest delegated Voting Power who are not Level 1 Ranked Delegates or Level 2 Ranked Delegates.
+
+###### A.1.5.4.1.2.3.1 - Delegated Voting Power - Element Annotation [Annotation]
+
+The element ”delegated Voting Power” refers to the cumulative SKY that has been delegated to an Aligned Delegate’s Delegate Contract by SKY holders and Staking users.
 
 ### A.1.5.5 - Number of Ranked Delegate Slots [Section]  <!-- UUID: 9c3dc9e7-6ee5-4afd-a289-89615c74005d -->
 
