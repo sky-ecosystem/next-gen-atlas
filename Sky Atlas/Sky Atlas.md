@@ -1508,7 +1508,7 @@ An Alignment Conserver can assume one of two roles: Aligned Delegate (AD) and Fa
 
 #### A.1.4.5.1 - Exception for ADs Contributing To Atlas Core Development [Core]  <!-- UUID: 79ad7aaa-bf57-40f4-9824-589982e79d0c -->
 
-[A.1.5.14 - Atlas Workstreams](a1158473-3052-4af5-bdf5-c504ae3fdf6f) is an exception to the general rule prohibiting Alignment Conservers from being operationally active in multiple ecosystem roles.
+A.1.5.4.5.2 - Atlas Workstreams is an exception to the general rule prohibiting Alignment Conservers from being operationally active in multiple ecosystem roles.
 
 #### A.1.4.5.2 - Temporary Exception for Facilitator “Ecosystem” [Core]  <!-- UUID: 6aa88317-4dc2-4b50-87bd-27cc6de9c767 -->
 
@@ -2086,129 +2086,39 @@ The Level 3 Ranked Delegates are the Aligned Delegates with the greatest delegat
 
 The element ”delegated Voting Power” refers to the cumulative SKY that has been delegated to an Aligned Delegate’s Delegate Contract by SKY holders and Staking users.
 
-### A.1.5.5 - Number of Ranked Delegate Slots [Section]  <!-- UUID: 9c3dc9e7-6ee5-4afd-a289-89615c74005d -->
+#### A.1.5.4.2 - Budget Accrual [Core]
 
-The six (6) Aligned Delegates with the greatest delegated Voting Power are the Ranked Delegates.
+The budget for Ranked Delegates accrues on a continuous basis.
 
-### A.1.5.6 - Budget For Ranked Delegate Slots [Section]  <!-- UUID: f2f57817-befe-4c14-bd8d-d89ae24e88df -->
+#### A.1.5.4.3 - Budget Contingency [Core]
 
-Each Ranked Delegate (RD) slot is allocated a continually accruing budget, the amount of which is specified in [A.1.5.6.1 - Budget Amount For Ranked Delegate Slots](ef801c98-d49a-4c93-a8a3-bb22e7ee3ade).
+A Ranked Delegate’s allocated budget can be reduced if they do not fully comply with the participation requirements defined in this Article at Voting-Activity Metrics, Voting-Communication Metrics, and Emergency Communications Requirement.
 
-#### A.1.5.6.1 - Budget Amount For Ranked Delegate Slots [Core]  <!-- UUID: ef801c98-d49a-4c93-a8a3-bb22e7ee3ade -->
+##### A.1.5.4.3.1 - Voting-Activity Metrics [Core]
 
-The budget for each Ranked Delegate slot is 48,000 USDS per year.
+The budget allocated to a Ranked Delegate (RD) is modified based on their voting-activity metrics over the past six (6) months. This budget modification takes into account the overall participation of the Ranked Delegate in all votes they are eligible to cast as an Aligned Delegate (AD).
 
-### A.1.5.7 - AD Buffer [Section]  <!-- UUID: b27fa839-94ae-46fb-a5a5-21e8ed5adb0e -->
+If an RD participates in less than 95% of all eligible votes within the last six (6) months, their RD budget is reduced. The reduction is applied on a proportional linear scale: for every percentage point below 95% voting activity, the RD’s budget is reduced correspondingly.
 
-The AD Buffer is an account of USDS that begins accumulating funds when an Aligned Delegate attains Ranked Delegate status. The budget allocated to the AD is deposited into the AD Buffer. Funds within the AD Buffer cannot be accessed or spent until they reach a minimum threshold equivalent to one (1) month's budget allocation.
+Should an RD’s voting activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
 
-Once this threshold is met, the AD will receive payouts from the AD Buffer to the address that controls the AD Delegate Contract. ADs may use this budget for various purposes, including personal compensation, compensation for team members, research expenses, and other relevant activities.
+##### A.1.5.4.3.2 - Voting-Communication Metrics [Core]
 
-#### A.1.5.7.1 - AD Monthly Compensation Cycle [Core]  <!-- UUID: 7851ed05-24b4-4992-9473-16b8a051c43a -->
+The budget allocated to a Ranked Delegate (RD) is modified based on their voting-communication metrics over the past six (6) months. An AD is required to provide an explanation for each vote they participate in. This budget modification takes into account the Ranked Delegate’s fulfillment of this voting-communication requirement in all votes they are eligible to cast as an Aligned Delegate (AD).
 
-Aligned Delegates are eligible to receive payments from their AD Buffers in a monthly compensation cycle. The Core Facilitator is responsible for calculating the payout due to each Aligned Delegate.
+If an RD provides the required voting-communication on less than 95% of all eligible votes within the last six (6) months, their RD budget stream is reduced. The reduction is applied on a proportional linear scale: for every percentage point below 95% voting-communication activity, the RD’s budget is reduced correspondingly.
 
-This includes calculating:
+Should an RD’s voting-communication activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
 
-1. the Aligned Delegates ranked as Ranked Delegate on a daily basis;
-
-2. the budget to be deposited into each Aligned Delegate's AD Buffer, which is modified pursuant to voting and communication metrics;
-
-3. the balance of each Aligned Delegate’s AD Buffer; and
-
-4. the amount to be paid out to each Aligned Delegate.
-
-Once calculated by the Core Facilitator, AD payouts are bundled into the next Executive Vote.
-
-#### A.1.5.7.0.3.1 - One Month’s Budget Allocation - Element Annotation [Annotation]  <!-- UUID: e360a6ac-822f-4ab5-ac39-25f56aeb8f2b -->
-
-To arrive at the value of this one-month budget threshold in USDS, see [A.1.5.6.1 - Budget Amount For Ranked Delegate Slots](ef801c98-d49a-4c93-a8a3-bb22e7ee3ade).
-
-#### NR-10 - AD Budget Management [Needed Research]  <!-- UUID: 6502ce76-3f29-4f50-a68c-9126feba1fb6 -->
-
-**Content**:
-
-Are there risks that should be considered regarding the potential mismanagement or misuse of the AD budget? The Target Document lists several examples of permissible ways to use the AD budget, which indicates implicitly constraints, or disallowed expenditures. How would compliance with these guidelines be monitored?
-
-### A.1.5.8 - AD Buffer And Loss Of Budget [Section]  <!-- UUID: 907b011d-2f73-4ee1-b4e7-27daaad3aa47 -->
-
-If an AD loses its budget due to losing its Ranked Delegate rank, the full contents of the AD Buffer can be paid out in the next monthly compensation cycle, except as specified in [A.1.5.8.1 - Payout Limitations For ADs Triggering Atlas Edit Weekly Cycle Proposals](baea6842-2e17-4587-8d3c-5ac7a3c8b6e6).
-
-#### A.1.5.8.1 - Payout Limitations For ADs Triggering Atlas Edit Weekly Cycle Proposals [Core]  <!-- UUID: baea6842-2e17-4587-8d3c-5ac7a3c8b6e6 -->
-
-If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), no payouts may be made that would reduce their AD Buffer below one (1) month’s worth of the budget specified in [A.1.5.6.1 - Budget Amount For Ranked Delegate Slots](ef801c98-d49a-4c93-a8a3-bb22e7ee3ade) until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
-
-#### A.1.5.8.0.3.1 - One Month’s Budget Allocation - Element Annotation [Annotation]  <!-- UUID: ba40212e-fb72-4537-ba07-ff422d384539 -->
-
-See [A.1.5.7.0.3.1 - One Month’s Budget Allocation - Element Annotation](e360a6ac-822f-4ab5-ac39-25f56aeb8f2b).
-
-### A.1.5.9 - AD Buffer Used For Whistleblower Bounties [Section]  <!-- UUID: a26d6fcf-de00-46db-a4eb-ac6c2b8e712a -->
-
-The AD Buffer also serves as collateral for a whistleblower bounty. This bounty is capped at half of one month’s budget allocation. This bounty is payable to a whistleblower who responsibly provides evidence that is useful to the Facilitators’ investigation of either 1) misalignment by the AD, or 2) a breach of the AD's operational security or privacy.
-
-See [A.1.5.17 - Whistleblower Bounty](7ae648c2-e04c-42b1-8d20-21de8ed6bef2); and [A.1.5.20 - Whistleblower Bounty](74d01046-995f-4783-aa72-c0d33d90b58c).
-
-#### A.1.5.9.0.3.1 - Collateral - Element Annotation [Annotation]  <!-- UUID: 02f6954d-9391-4e94-aad7-ea0c2cabd560 -->
-
-The element "collateral" in this context refers to the funds within the AD Buffer that are set aside to guarantee the availability of a whistleblower bounty.
-
-#### A.1.5.9.0.3.2 - One Month’s Budget Allocation - Element Annotation [Annotation]  <!-- UUID: ff085fc7-6da4-4176-b38f-c0e63ca4fd4a -->
-
-See [A.1.5.7.0.3.1 - One Month’s Budget Allocation - Element Annotation](e360a6ac-822f-4ab5-ac39-25f56aeb8f2b).
-
-#### A.1.5.9.0.3.3 - Operational Security Or Privacy - Element Annotation [Annotation]  <!-- UUID: fd592ff8-ac42-4397-ba02-5a87442d07ab -->
-
-The element "operational security or privacy" refers to disclosure or compromise of sensitive information related to the AD’s identity, location and/or operations.
-
-#### A.1.5.9.0.3.4 - Whistleblower Bounty - Element Annotation [Annotation]  <!-- UUID: 872e042d-5d66-4e50-9096-f4faf6c8fb41 -->
-
-The element "whistleblower bounty" is a financial reward allocated to individuals who responsibly provide credible evidence that is helpful to the Facilitators’ investigation of an AD’s misalignment or operational security breach.
-
-#### NR-11 - AD Whistleblower Bounty [Needed Research]  <!-- UUID: 71c826f0-2713-4756-8b5a-1d820383f301 -->
-
-**Content**:
-
-The element "responsibly provided" in the Target Documents means that whistleblower evidence must have been secured ethically, i.e., publicly available blockchain data. This generally means, no hacking or unauthorized access to systems, or breaches of data protection laws. 
-
-Do challenging gray areas remain? What sort of standards or criteria should be met by whistleblower evidence to be considered responsibly gathered? 
-
-For instance, is evidence gathered from private communication channels considered responsibly obtained if it was leaked to the whistleblower by an insider? How do we handle situations where the evidence is obtained through methods that might be legal but are still ethically questionable? 
-
-And what sort of standards/criteria should be met by whistleblower evidence to be credible and useful in an investigation? 
-
-How to assess the credibility or probative value of evidence, especially when dealing with blockchain data, which can be complex and difficult to interpret? What standards of proof should be required for evidence to be considered credible, particularly in cases where the evidence is circumstantial rather than direct? Perhaps this is already answered by current logic that demands that Facilitators apply the highest standards of Universal Alignment to AC adjudications, without affording benefit of the doubt.
-
-What are the expectations placed on Facilitators to verify whistleblower evidence?
-
-### A.1.5.10 - Budget Contingency [Section]  <!-- UUID: cdea1271-c2fc-4274-bdfb-737e7450c6c4 -->
-
-A Ranked Delegate’s allocated budget can be reduced if they do not fully comply with the participation requirements defined in this Article at [A.1.5.11 - Voting-Activity Metrics](f1fad141-fbcc-4f09-baa0-95875a26d4a3), [A.1.5.12 - Voting-Communication Metrics](fedf06e5-7657-4aaf-9a1d-d2e3b71de773), and [A.1.5.13 - Emergency Communications Requirement](a6bd8d88-4092-4547-86c9-fbda87aeacfd).
-
-### A.1.5.11 - Voting-Activity Metrics [Section]  <!-- UUID: f1fad141-fbcc-4f09-baa0-95875a26d4a3 -->
-
-The budget stream allocated to a Ranked Delegate (RD) is modified based on their voting-activity metrics over the past six (6) months. This budget modification takes into account the overall participation of the Ranked Delegate in all votes they are eligible to cast as an Aligned Delegate (AD).
-
-If an RD participates in less than 95% of all eligible votes within the last six (6) months, their RD budget stream is reduced. The reduction is applied on a proportional linear scale: for every percentage point below 95% voting activity, the RD's budget is reduced correspondingly. 
-
-Should an RD’s voting activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. Their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
-
-#### A.1.5.11.0.3.1 - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57c35484-4c5f-4349-a7fe-097618b4213a -->
+#### A.1.5.4.3.2.0 - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57c35484-4c5f-4349-a7fe-097618b4213a -->
 
 The element "proportional linear scale" describes a method where the budget reduction is directly proportional to the decline in voting activity between 95% and 75%. Here, the pertinent range of voting activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the RD budget decreases by **5%** for every percentage point drop in voting activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).
 
-### A.1.5.12 - Voting-Communication Metrics [Section]  <!-- UUID: fedf06e5-7657-4aaf-9a1d-d2e3b71de773 -->
-
-The budget stream allocated to a Ranked Delegate (RD) is modified based on their voting-communication metrics over the past six (6) months. An AD is required to provide an explanation for each vote they participate in. This budget modification takes into account the Ranked Delegate’s fulfillment of this voting-communication requirement in all votes they are eligible to cast as an Aligned Delegate (AD).
-
-If an RD provides the required voting-communication on less than 95% of all eligible votes within the last six (6) months, their RD budget stream is reduced. The reduction is applied on a proportional linear scale: for every percentage point below 95% voting-communication activity, the RD's budget is reduced correspondingly.
-
-Should a RD’s voting-communication activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. Their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
-
-#### A.1.5.12.0.3.1 - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57a0be8f-c0d8-4d0c-bb99-ca3e63da5058 -->
+#### A.1.5.4.3.2.1 - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57a0be8f-c0d8-4d0c-bb99-ca3e63da5058 -->
 
 The element "proportional linear scale" describes a method where the budget reduction is directly proportional to the decline in voting-communication activity between 95% and 75%. Here, the pertinent range of voting-communication activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the RD budget decreases by **5%** for every percentage point drop in voting-communication activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).
 
-#### A.1.5.12.0.3.2 - Voting-Communication Metrics - Element Annotation [Annotation]  <!-- UUID: ca88baad-2457-4454-9e34-367156a59e78 -->
+#### A.1.5.4.3.2.2 - Voting-Communication Metrics - Element Annotation [Annotation]  <!-- UUID: ca88baad-2457-4454-9e34-367156a59e78 -->
 
 The element "voting-communication metrics" refers to the percentage of votes for which an Aligned Delegate provides the required written explanations or justifications of their casted votes in Governance Polls and Executive Votes. These written explanations are posted in the AD’s Forum thread. 
 
@@ -2226,23 +2136,114 @@ What feedback mechanisms should be in place to help ADs improve their explanatio
 
 What are the risks of not having explicit criteria for voting-communications? One is the potential failure of the Target Document’s objective to ensure that ADs’ voting activity is transparent to SKY holders who have delegated to that AD.
 
-### A.1.5.13 - Emergency Communications Requirement [Section]  <!-- UUID: a6bd8d88-4092-4547-86c9-fbda87aeacfd -->
+##### A.1.5.4.3.3 - Emergency Communications Requirement [Core]
 
 The budget stream allocated to a Ranked Delegate (RD) is modified based on their correct usage of required tools for emergency communications.
 
-Should an RD fail to correctly use the required communications tools, they become completely ineligible to receive RD income. Their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
+Should an RD fail to correctly use the required communications tools, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
 
-#### A.1.5.13.1 - Signal Account Requirement [Core]  <!-- UUID: 90fd52f1-57bf-4416-a09f-37729669a0fe -->
+###### A.1.5.4.3.3.1 - Signal Account Requirement [Core]
 
-RDs are required to maintain an active Signal account to facilitate communications related to emergency / urgent situations. This requirement applies regardless of whether a RD has been appointed to the Emergency Response Group. See [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf). RDs must provide their Signal username to the Core Facilitator.
+RDs are required to maintain an active Signal account to facilitate communications related to emergency / urgent situations. This requirement applies regardless of whether an RD has been appointed to the Emergency Response Group. See [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf). RDs must provide their Signal username to the Core Facilitator.
 
-The Core Facilitator is responsible for maintaining an internal registry of RDs’ Signal accounts. Because the ranked RDs are continually changing, the Core Facilitator must ensure that the internal registry is maintained on a frequent basis. The Core Facilitator must check the active status of the RDs’ Signal accounts by sending test messages and confirming the RDs’ timely response; this must be done regularly, on a schedule known only to the Core Facilitator. If a RD fails to timely respond to the test messages, the Core Facilitator must remove them from RD status.
+The Core Facilitator is responsible for maintaining an internal registry of RDs’ Signal accounts. Because the ranked RDs are continually changing, the Core Facilitator must ensure that the internal registry is maintained on a frequent basis. The Core Facilitator must check the active status of the RDs’ Signal accounts by sending test messages and confirming the RDs’ timely response; this must be done regularly, on a schedule known only to the Core Facilitator. If an RD fails to timely respond to the test messages, the Core Facilitator must remove them from RD status.
 
-### A.1.5.14 - Atlas Workstreams [Section]  <!-- UUID: a1158473-3052-4af5-bdf5-c504ae3fdf6f -->
+#### A.1.5.4.4 - AD Buffer [Core]
 
-Aligned Delegates (ADs) are permitted to concurrently participate in workstreams related to Atlas Core Development, and to receive budgets for this purpose. Such workstreams can include research, data collection, data processing, data review, drafting, peer review, etc. 
+The AD Buffer is an account of USDS that begins accumulating funds when an Aligned Delegate attains Ranked Delegate status. The budget allocated to the AD is credited to the AD Buffer. Funds within the AD Buffer cannot be accessed or spent until they reach a minimum threshold equivalent to one (1) month’s budget allocation based on the current level of the Ranked Delegate.
 
-This document constitutes an exception to [A.1.4.5 - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c), which generally prohibits Alignment Conservers from being operationally active in multiple ecosystem roles.
+Once this threshold is met, the AD will receive payouts from the AD Buffer to the address that controls the AD Delegate Contract. ADs may use this budget for various purposes, including personal compensation, compensation for team members, research expenses, and other relevant activities.
+
+##### A.1.5.4.4.1 - AD Monthly Compensation Cycle [Core]
+
+Aligned Delegates are eligible to receive payments from their AD Buffers in a monthly compensation cycle. The Core Facilitator is responsible for calculating the payout due to each Aligned Delegate.
+
+This includes calculating:
+
+1. the Aligned Delegates ranked as Level 3 Ranked Delegates on a daily basis;
+2. the budget to be deposited into each Aligned Delegate’s AD Buffer, which is modified pursuant to voting and communication metrics;
+3. the balance of each Delegate’s AD Buffer; and
+4. the amount to be paid out to each Aligned Delegate.
+5. Once calculated by the Core Facilitator, AD payouts are paid from the Aligned Delegates Buffer Multisig. See [A.2.4.1.4.1.2.1 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a).
+
+###### A.1.5.4.4.1.1 - One Month’s Budget Allocation [Core]
+
+To arrive at the value of this one-month budget threshold in USDS, see Levels Of Ranked Delegates.
+
+##### A.1.5.4.4.2 - AD Buffer And Loss Of Budget [Core]
+
+If an AD is unranked for an entire month, any contents in its AD Buffer can be paid out in the next monthly compensation cycle, except as specified in Payout Limitations For ADs Triggering Atlas Edit Weekly Cycle Proposals.
+
+#### A.1.5.4.4.2.0 - AD Buffer And Loss Of Budget - Element Annotation [Annotation]  <!-- UUID: ba40212e-fb72-4537-ba07-ff422d384539 -->
+
+See [A.1.5.4.4.2 - AD Buffer And Loss Of Budget - Element Annotation](e360a6ac-822f-4ab5-ac39-25f56aeb8f2b).
+
+###### A.1.5.4.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Weekly Cycle Proposals [Core]
+
+If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), no payouts may be made that would reduce their AD Buffer below one (1) month’s worth of the budget specified in Levels Of Ranked Delegates until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
+
+##### A.1.5.4.4.3 - AD Buffer Used For Whistleblower Bounties [Core]
+
+The AD Buffer also serves as collateral for a whistleblower bounty. This bounty is capped at half of one month’s budget allocation. This bounty is payable to a whistleblower who responsibly provides evidence that is useful to the Facilitators’ investigation of either 1) misalignment by the AD, or 2) a breach of the AD’s operational security or privacy.
+
+See [A.1.5.17 - Whistleblower Bounty](7ae648c2-e04c-42b1-8d20-21de8ed6bef2); and [A.1.5.20 - Whistleblower Bounty](74d01046-995f-4783-aa72-c0d33d90b58c).
+
+#### A.1.5.4.4.3.0 - Collateral - Element Annotation [Annotation]  <!-- UUID: 02f6954d-9391-4e94-aad7-ea0c2cabd560 -->
+
+The element "collateral" in this context refers to the funds within the AD Buffer that are set aside to guarantee the availability of a whistleblower bounty.
+
+#### A.1.5.4.4.3.1 - One Month’s Budget Allocation - Element Annotation [Annotation]  <!-- UUID: ff085fc7-6da4-4176-b38f-c0e63ca4fd4a -->
+
+See [A.1.5.7.0.3.1 - One Month’s Budget Allocation - Element Annotation](e360a6ac-822f-4ab5-ac39-25f56aeb8f2b).
+
+#### A.1.5.4.4.3.2 - Operational Security Or Privacy - Element Annotation [Annotation]  <!-- UUID: fd592ff8-ac42-4397-ba02-5a87442d07ab -->
+
+The element "operational security or privacy" refers to disclosure or compromise of sensitive information related to the AD’s identity, location and/or operations.
+
+#### A.1.5.4.4.3.4 - Whistleblower Bounty - Element Annotation [Annotation]  <!-- UUID: 872e042d-5d66-4e50-9096-f4faf6c8fb41 -->
+
+The element "whistleblower bounty" is a financial reward allocated to individuals who responsibly provide credible evidence that is helpful to the Facilitators’ investigation of an AD’s misalignment or operational security breach.
+
+#### A.1.5.4.5 - Short-Term Transitionary Measures [Core]
+
+The documents herein define short-term transitionary measures related to Ranked Delegates that apply for the period prior to January 1, 2026.
+
+##### A.1.5.4.5.1 - Levels Of Ranked Delegates [Core]
+
+Prior to January 1, 2026, there are zero (0) Level 1 Ranked Delegates, zero (0) Level 2 Ranked Delegates, and six (6) Level 3 Ranked Delegates.
+
+##### A.1.5.4.5.2 - Atlas Workstreams [Core]
+
+Prior to January 1, 2026, Aligned Delegates (ADs) are permitted to concurrently participate in workstreams related to Atlas Core Development, and to receive budgets for this purpose. Such workstreams can include research, data collection, data processing, data review, drafting, peer review, etc.
+
+This document constitutes an exception to [A.1.4.5 - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c) which generally prohibits Alignment Conservers from being operationally active in multiple ecosystem roles.
+
+#### A.1.5.6.1 - Budget Amount For Ranked Delegate Slots [Core]  <!-- UUID: ef801c98-d49a-4c93-a8a3-bb22e7ee3ade -->
+
+The budget for each Ranked Delegate slot is 48,000 USDS per year.
+
+
+#### NR-10 - AD Monthly Compensation Cycle [Needed Research]  <!-- UUID: 6502ce76-3f29-4f50-a68c-9126feba1fb6 -->
+
+**Content**:
+
+Are there risks that should be considered regarding the potential mismanagement or misuse of the AD budget? The Target Document lists several examples of permissible ways to use the AD budget, which indicates implicitly constraints, or disallowed expenditures. How would compliance with these guidelines be monitored?
+
+#### NR-11 - AD Whistleblower Bounty [Needed Research]  <!-- UUID: 71c826f0-2713-4756-8b5a-1d820383f301 -->
+
+**Content**:
+
+The element "responsibly provided" in the Target Documents means that whistleblower evidence must have been secured ethically, i.e., publicly available blockchain data. This generally means, no hacking or unauthorized access to systems, or breaches of data protection laws. 
+
+Do challenging gray areas remain? What sort of standards or criteria should be met by whistleblower evidence to be considered responsibly gathered? 
+
+For instance, is evidence gathered from private communication channels considered responsibly obtained if it was leaked to the whistleblower by an insider? How do we handle situations where the evidence is obtained through methods that might be legal but are still ethically questionable? 
+
+And what sort of standards/criteria should be met by whistleblower evidence to be credible and useful in an investigation? 
+
+How to assess the credibility or probative value of evidence, especially when dealing with blockchain data, which can be complex and difficult to interpret? What standards of proof should be required for evidence to be considered credible, particularly in cases where the evidence is circumstantial rather than direct? Perhaps this is already answered by current logic that demands that Facilitators apply the highest standards of Universal Alignment to AC adjudications, without affording benefit of the doubt.
+
+What are the expectations placed on Facilitators to verify whistleblower evidence?
 
 ### A.1.5.15 - Kickbacks Prohibited [Section]  <!-- UUID: 45e794a0-5092-4dea-a0de-6f373228f760 -->
 
@@ -2266,7 +2267,7 @@ Where the allegation of misalignment concerns the Core Facilitator, a community 
 
 If the Core Facilitator find that an AD has conducted a misaligned act warranting financial penalties or derecognition, such penalties may be deducted from the AD’s Buffer. The amount deducted is used as a whistleblower bounty to compensate any individual/entity who responsibly provided useful data, information or evidence that was helpful to the Facilitators’ adjudication.
 
-The whistleblower bounty is subject to the restrictions specified in [A.1.5.9 - AD Buffer Used For Whistleblower Bounties](a26d6fcf-de00-46db-a4eb-ac6c2b8e712a).
+The whistleblower bounty is subject to the restrictions specified in ##### A.1.5.4.4.3 - AD Buffer Used For Whistleblower Bounties.
 
 Any remaining funds in the AD’s Buffer should be paid out to the derecognized Aligned Delegate.
 
@@ -2334,7 +2335,7 @@ To adhere to this commitment, the Core Facilitator must derecognize the AD withi
 
 ### A.1.5.20 - Whistleblower Bounty [Section]  <!-- UUID: 74d01046-995f-4783-aa72-c0d33d90b58c -->
 
-Where a whistleblower responsibly provided useful information for determining that the operational security of an AD was compromised, part of the AD Buffer can be confiscated and used as a whistleblower bounty. See [A.1.5.9 - AD Buffer Used For Whistleblower Bounties](a26d6fcf-de00-46db-a4eb-ac6c2b8e712a).
+Where a whistleblower responsibly provided useful information for determining that the operational security of an AD was compromised, part of the AD Buffer can be confiscated and used as a whistleblower bounty. See [##### A.1.5.4.4.3 - AD Buffer Used For Whistleblower Bounties.
 
 #### A.1.5.20.0.4.1 - Responsibly Provided - Whistleblower Evidence Of Operational Security Breach Must Be Secured Ethically [Action Tenet]  <!-- UUID: deeced97-64e9-4f82-bd6d-a5c9693ca12c -->
 
@@ -5609,7 +5610,7 @@ The Author of an Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" 
 
 ##### A.1.10.2.1.3 - Triggering Requirement [Core]  <!-- UUID: cef09d74-efc6-45cc-a75b-1132dae9e743 -->
 
-An Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "AEW Proposal") can proceed to a vote only if it is triggered by a Ranked Delegate whose AD Buffer contains at least one (1) month’s worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently specified in [A.1.5.6.1 - Budget Amount For Ranked Delegate Slots](ef801c98-d49a-4c93-a8a3-bb22e7ee3ade). The Core Facilitator is responsible for confirming that these requirements are met.
+An Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "AEW Proposal") can proceed to a vote only if it is triggered by a Ranked Delegate whose AD Buffer contains at least one (1) month’s worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently specified in #### A.1.5.4.1 - Levels Of Ranked Delegates. The Core Facilitator is responsible for confirming that these requirements are met.
 
 Aligned Delegates (including Ranked Delegates) are prohibited from authoring an Atlas Edit Weekly Cycle Proposal. Ranked Delegates are limited to triggering Proposals authored by others. To trigger a Proposal, the Ranked Delegate must post a reply to the Author’s Weekly Cycle Proposal on the Forum. The Ranked Delegate’s post should signal their intent to trigger the Weekly Cycle Proposal. 
 
@@ -5721,7 +5722,7 @@ The author of an Atlas Edit Monthly Cycle proposal ("proposal", "Atlas Edit Prop
 
 ##### A.1.11.2.1.2 - Triggering Requirement [Core]  <!-- UUID: 7bbfd3b1-99b5-4c60-9292-68d776e03886 -->
 
-An Atlas Edit Monthly Cycle Proposal can proceed to verification by the Core Facilitator only if it is triggered by a Ranked Delegate whose AD Buffer contains at least one (1) month’s worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently specified in [A.1.5.6.1 - Budget Amount For Ranked Delegate Slots](ef801c98-d49a-4c93-a8a3-bb22e7ee3ade). The Core Facilitator is responsible for confirming that these requirements are met.
+An Atlas Edit Monthly Cycle Proposal can proceed to verification by the Core Facilitator only if it is triggered by a Ranked Delegate whose AD Buffer contains at least one (1) month’s worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently specified in #### A.1.5.4.1 - Levels Of Ranked Delegates. The Core Facilitator is responsible for confirming that these requirements are met.
 
 Aligned Delegates (including Ranked Delegates) are prohibited from authoring an Atlas Edit Monthly Cycle Proposal. Ranked Delegates are limited to triggering Proposals authored by others. To trigger a Proposal, the Ranked Delegate must post a reply to the Author’s Monthly Cycle Proposal on the Forum. The Ranked Delegate should indicate their intent to trigger the Monthly Cycle Proposal.
 
