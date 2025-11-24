@@ -11479,6 +11479,58 @@ The Initial Allocation is distributed in USDS to the Launch Agent 4 SubProxy.
 
 The transfer of 21,000,000 USDS from the Surplus Buffer to the Launch Agent 4 SubProxy for the Genesis Capital Allocation must be included in the November 13, 2025 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
+#### A.2.9.2.5 Ecosystem Accord 5: Sky And Core Council Executor Agent 1 [Core]
+
+The subdocuments herein record the terms of agreement between Sky and Core Council Executor Agent 1 as agreed in Ecosystem Accord 5.
+
+##### A.2.9.2.5.1 - Accord Key Details [Core]
+
+The subdocuments herein set out the key details of Ecosystem Accord 5, such as parties to the agreement and the duration of the Accord.
+
+###### A.2.9.2.5.1.1 - Parties To The Accord [Core] 
+
+The parties to Ecosystem Accord 5 are Sky and Core Council Executor Agent 1, as defined in the subdocuments herein.
+
+###### A.2.9.2.5.1.1.1 - Sky Details [Core]
+
+The party ‘Sky’ comprises Sky Core.
+
+###### A.2.9.2.4.1.1.2 - Core Council Executor Agent 1 Details [Core]
+
+The party ‘Core Council Executor Agent 1’ comprises the Core Council Executor Agent 1 Executor Agent, Core Council Executor Agent 1 Foundation, and Core Council Executor Agent 1 Development Company.
+
+###### A.2.9.2.5.1.2 - Duration Of The Accord [Core]
+
+The duration of Ecosystem Accord 5 is indefinite, commencing from December 11, 2025.
+
+##### A.2.9.2.5.2 - Accord Substantive Terms [Core]
+
+The subdocuments herein set out the substantive terms of Ecosystem Accord 5. Additional detail regarding the substantive terms of Ecosystem Accord 5 will be specified in a future iteration of the Atlas, as agreed by the Parties to the Accord.
+
+###### A.2.9.2.5.2.1 - Role As Core Executor Agent [Core]
+
+Core Council Executor Agent 1 will serve as the first Core Executor Agent and must carry out the responsibilities of the Core Council. See [A.0.1.1.46 - Core Council](5a03a0c4-a47a-409c-9b23-52ac93e63d45).
+
+###### A.2.9.2.5.2.2 - Genesis Capital Allocation [Core]
+
+To effect the Genesis Capitalization of Core Council Executor Agent 1, Sky Core shall directly transfer (1) 20,000,000 USDS to the Core Council Executor Agent 1 SubProxy and (2) 5,000,000 USDS to the Core Council Buffer (see [A.2.4.1.4.1.1.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)). The 5,000,000 USDS transfer constitutes part of Core Council Executor Agent 1’s Genesis Capital Allocation, deposited directly to its operational payment account.
+
+###### A.2.9.2.5.2.2.1 - Core Council Executor Agent 1 SubProxy Address [Core]
+
+The address of Core Council Executor Agent 1’s SubProxy Account will be specified in the Technical Scope Forum Post for the deployment of the SubProxy Account.
+
+###### A.2.9.2.5.2.2.2 - Use Of Genesis Capital [Core]
+
+The Genesis Capital Allocation will be used to fund the Core Council Executor Agent 1; the incubating Operational Executor Agents; and broader Core operational expenses, including technical infrastructure, spell crafting, risk work, and spell audits.
+
+###### A.2.9.2.5.2.3 - Funding Of Core Council Buffer [Core]
+
+The Core Council Executor Agents holding seats on the Core Council maintain operational authority over the Core Council Buffer, consistent with their mandate to operationalize Sky Core.
+
+Core Council Executor Agent 1 may capitalize the Core Council Buffer from its Genesis Capital allocation to ensure adequate liquidity for operational payments prior to its establishment of dedicated payment infrastructure.
+
+Expenses paid through the Core Council Buffer shall be recorded as operational expenses of Core Council Executor Agent 1, whether funded by the Genesis Capital Allocation deposited directly to the Core Council Buffer or by subsequent transfers from the Core Council Executor Agent 1 SubProxy prior to the establishment of independent payment infrastructure.
+
 ### A.2.9.0.3.1 - Business Activities - Element Annotation [Annotation]  <!-- UUID: 31df7e2b-184f-428c-9c4f-23fd8054c5d3 -->
 
 The element "business activities" refers to the commercial activities, transactions, and interactions that Ecosystem Actors perform within the ecosystem. These may include, but are not limited to, service delivery, product development, collaboration, and information exchange.
