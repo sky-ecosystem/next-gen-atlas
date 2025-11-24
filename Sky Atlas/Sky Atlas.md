@@ -25847,7 +25847,7 @@ The Enhanced Buyback Rate defines the percentage of SubDAO Proxy value in excess
 
 ###### A.6.1.1.1.3.4.2.3.1.4 - Enhanced Buyback Threshold [Core]  <!-- UUID: e150176c-1da5-4adb-ba5d-f344d0be03ae -->
 
-The Enhanced Buyback threshold defines the threshold over which the Enhanced Buyback Rate is applied to calculate buyback amounts. This variable is specified as a percentage of the Target SubDAO Proxy Value; for example, a 200% Enhanced Buyback Threshold means that the Enhanced Buyback Rate will apply to any subDAO proxy value over 2x the Target SubDAO Proxy Value.
+The Enhanced Buyback Threshold defines the threshold over which the Enhanced Buyback Rate is applied to calculate buyback amounts. This variable is specified as a percentage of the Target SubDAO Proxy Value; for example, a 200% Enhanced Buyback Threshold means that the Enhanced Buyback Rate will apply to any subDAO proxy value over 2x the Target SubDAO Proxy Value.
 
 ###### A.6.1.1.1.3.4.2.3.1.5 - Buyback Executor [Core]  <!-- UUID: d6be588d-e76e-4413-8a3e-c1b59e5bd106 -->
 
