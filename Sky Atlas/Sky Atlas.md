@@ -3139,17 +3139,17 @@ Once the Interim Deployment has been deployed and all requirements above have be
 
 Following the Interim Deployment, the Prime will work with the Core Council Risk Advisor to complete a full risk assessment. Once the means to calculate an official Capital Requirement Ratio for the deployment has been determined, the Prime can request that Core GovOps propose a subsequent Atlas Edit Proposal to lift the testing constraints and reduce the RRC to the Atlas-calculated value.
 
-###### A.1.9.2.3.2.2.3 - Execution Of Agent Spells [Core]  <!-- UUID: 5b0fd894-094e-4b0c-91ca-c5b59b710c0c -->
+###### A.1.9.2.3.2.2.3 - Execution Of Prime Spells [Core]  <!-- UUID: 5b0fd894-094e-4b0c-91ca-c5b59b710c0c -->
 
-The execution of Agent Spells is described in the subdocuments herein. Two methods are available: direct execution in a Sky Core Spell and execution through StarGuard. Execution through StarGuard is the preferred method and any exceptions require valid reasoning, except as specified in [A.1.9.2.3.2.2.3.3 - Short-term Transitionary Measures](acd33afa-5061-4b56-b76f-56554614558d).
+The execution of Prime Spells is described in the subdocuments herein. Two methods are available: direct execution in a Sky Core Spell and execution through StarGuard. Execution through StarGuard is the preferred method and any exceptions require valid reasoning, except as specified in [A.1.9.2.3.2.2.3.3 - Short-term Transitionary Measures](acd33afa-5061-4b56-b76f-56554614558d).
 
 ###### A.1.9.2.3.2.2.3.1 - Execution Through StarGuard [Core]  <!-- UUID: 78ec918d-cd9e-4326-bfa9-ab338e658a8b -->
 
-When the execution through the StarGuard method is used, the Agent Spells are whitelisted in Sky Core Spells and later executed using the StarGuard module. The Sky Core Spell includes a whitelist of approved Agent Spells, which allows them to be executed via separate transactions. This enhances resilience and scalability, ensuring robust handling of payloads from multiple active Agents while minimizing risks to Sky Core.
+When the execution through the StarGuard method is used, the Prime Spells are whitelisted in Sky Core Spells and later executed using the StarGuard module. The Sky Core Spell includes a whitelist of approved Prime Spells, which allows them to be executed via separate transactions. This enhances resilience and scalability, ensuring robust handling of payloads from multiple active Agents while minimizing risks to Sky Core.
 
 ###### A.1.9.2.3.2.2.3.1.1 - StarGuard [Core]  <!-- UUID: e5cbb61a-82c3-4fce-b6f2-191911d5c155 -->
 
-For each Agent, a `StarGuard` contract is deployed to manage whitelisting and execution of Agent Spells. This contract acts as a standardized "proxy wrapper".
+For each Agent, a `StarGuard` contract is deployed to manage whitelisting and execution of Prime Spells. This contract acts as a standardized "proxy wrapper".
 
 ###### A.1.9.2.3.2.2.3.1.1.1 - StarGuard Functionality [Core]  <!-- UUID: 04712596-beda-452e-a667-44e6fe707abd -->
 
@@ -3208,10 +3208,6 @@ When the execution through the Sky Core Spell method is used, the Agent Spells a
 ###### A.1.9.2.3.2.2.3.2.1 - Sky Core Spell Executes Agent Spell [Core]  <!-- UUID: a109ad0d-0743-4ae9-bcc1-df04a6e5da43 -->
 
 Execution of an Agent Spell is initiated by the Sky Core Spell, which directly calls `exec()` on the Agent’s SubProxy contract to perform the Spell's actions in the same transaction. The SubProxy limits rights to the specific Agent, preventing access to Sky Core contracts. The current SubProxy contract is designed to execute the Agent Spell in the same transaction as the Sky Core Spell.
-
-###### A.1.9.2.3.2.2.3.3 - Short-term Transitionary Measures [Core]  <!-- UUID: acd33afa-5061-4b56-b76f-56554614558d -->
-
-During the transitioning phase, before StarGuard is fully implemented and tested, only the Spark Agent will use the process specified in [A.1.9.2.3.2.2.3.1 - Execution Through StarGuard](78ec918d-cd9e-4326-bfa9-ab338e658a8b). Other Agent Spells will use the process specified in [A.1.9.2.3.2.2.3.2 - Direct Execution Through Sky Core Spell](ffc88a5e-b7b2-4ed9-8c88-fcbcb7632f14).
 
 #### A.1.9.2.4 - Executive Process Breakdown [Core]  <!-- UUID: 98298ab3-8d08-4c4f-b47b-81242a3e3903 -->
 
@@ -8112,11 +8108,11 @@ No Sky Core Atlas documents are updated as the output of this process.
 
 ###### A.2.3.8.1.2.3.5.4.2 - Agent Artifact Updates [Core]  <!-- UUID: 1efa0fc5-5377-428f-a203-8c3c10dcc153 -->
 
-The Agent Artifact documents specified herein are updated as the output of this process. The Output "sets" are mutually exclusive.
+The Agent Artifact documents specified herein are updated as the output of this process. The Output “sets” are mutually exclusive.
 
 - Proposal Passes
 
-    ◦ Required Primitive Input Trigger: [Proposal Passes](https://www.notion.so/Proposal-Passes-1adf2ff08d7381f0bf56f4a7d0044f20)
+    ◦ Required Primitive Input Trigger: Proposal Passes see A.2.3.8.1.2.3.5.3 - Required Primitive Inputs
     ◦ **Edit ****`Primitive Hub Document/In Progress Invocations Directory/Instance Name`**
         - Updated fields
             - Invocation Status
@@ -8124,7 +8120,7 @@ The Agent Artifact documents specified herein are updated as the output of this 
         - Responsible Party: Operational GovOps
         - Trigger - Process: [A.2.3.8.1.2.3.6 - Process Definition For Artifact Update](b3ed1e74-7ec2-4537-8e1d-2098dc17d984) 
 - Proposal Fails
-    ◦ Required Primitive Input Trigger: [Proposal Fails](https://www.notion.so/Proposal-Fails-1adf2ff08d7381ae889cf6020c003e86)
+    ◦ Required Primitive Input Trigger: Proposal Fails see A.2.3.8.1.2.3.5.3 - Required Primitive Inputs
     ◦ **Edit ****`Primitive Hub Document/In Progress Invocations Directory/Instance Name`**
         - Updated fields
             - Invocation Status
@@ -11178,7 +11174,7 @@ The subdocuments herein set out agreed terms with respect to borrowing capacity 
 
 ###### A.2.9.2.2.2.2.1 - Subsidized Borrowing [Core]  <!-- UUID: 552e7b01-c2d0-4658-ac49-2c74e230aeac -->
 
-Both Spark and Grove are entitled to borrow up to 1,000,000,000 USDS from Sky at a subsidized rate for an initial period of 2 years. The subsidized loan must be triggered before the end of 2025. This subsidized rate is set out in [A.2.9.2.2.2.2.2 - Borrow Rate Mechanism](f97cc4c7-d0d5-47fc-9f86-c00824ae6d7f).
+Both Spark and Grove are entitled to borrow up to 1,000,000,000 USDS from Sky at a subsidized rate for an initial period of 2 years, beginning January 1, 2026. This subsidized rate is set out in [A.2.9.2.2.2.2.2 - Borrow Rate Mechanism](f97cc4c7-d0d5-47fc-9f86-c00824ae6d7f).
 
 ###### A.2.9.2.2.2.2.2 - Borrow Rate Mechanism [Core]  <!-- UUID: f97cc4c7-d0d5-47fc-9f86-c00824ae6d7f -->
 
@@ -11430,14 +11426,6 @@ Sky has transferred 2.4 million USDS from the Sky Ecosystem Liquidity Bootstrapp
 ###### A.2.9.2.2.2.8.6 - Income Definition [Core]  <!-- UUID: fa48f7be-3c7d-4390-8b39-4fdfe9aa06ae -->
 
 "Income" means all revenues or fees received or accrued by the applicable Prime after July 1, 2025, including: (i) Distribution Rewards (see [A.2.9.2.2.2.3.1 - Distribution Reward Rate](8e3cde6b-3b8b-4e9a-b9a0-8c24d84881f6)), (ii) Distribution Reward Bonus for 2025 (see [A.2.9.2.2.2.3.2 - 2025 Bonus](7ca440d3-03fb-4fba-81a8-d2118dc47aa6)), (iii) any Platform Fees charged to users, and (iv) Real World Asset fees charged to users, including any origination, servicing, or related charges, and (v) the blended cost of allocation spread between Junior and Senior Risk Capital.
-
-###### A.2.9.2.2.2.9 - Spark Senior Risk Capital [Core]  <!-- UUID: f763bc3e-671e-44a5-a2ee-17ad8964fb40 -->
-
-In the short term before the implementation of the Senior Risk Capital system, Sky will provide Spark with 15 million USDS of Senior Risk Capital. See [A.3.2.2.4.5 - Short Term Transitionary Measures](d33ac81e-bab1-4969-b46d-e605da2afae3). This Senior Risk Capital will not be transferred by Sky to Spark’s SubProxy Account; instead, it will be credited towards Spark’s Total Risk Capital. See [A.3.2.1.2 - Total Risk Capital](be7589f5-32c0-42d2-8d10-38bceb1de28b).
-
-###### A.2.9.2.2.2.10 - Grove Senior Risk Capital [Core]  <!-- UUID: 01f15222-7abe-494f-8bad-607910b46ad0 -->
-
-In the short term before the implementation of the Senior Risk Capital system, Sky will provide Grove with 15 million USDS of Senior Risk Capital. See [A.3.2.2.4.5 - Short Term Transitionary Measures](d33ac81e-bab1-4969-b46d-e605da2afae3). This Senior Risk Capital will not be transferred by Sky to Grove’s SubProxy Account; instead, it will be credited towards Grove’s Total Risk Capital. See [A.3.2.1.2 - Total Risk Capital](be7589f5-32c0-42d2-8d10-38bceb1de28b).
 
 #### A.2.9.2.3 - Ecosystem Accord 3: Sky And Keel [Core]  <!-- UUID: 63a88b08-e6cd-48bf-9cec-64ce7e42ae0e -->
 
@@ -30723,6 +30711,10 @@ On October 23, 2025, Grove agreed to a DAO Resolution authorizing Bamboo Grove t
 ###### A.6.1.1.2.3.6.3 - Onboard With Ripple, Agora And Paxos [Core]  <!-- UUID: 1890a855-9e68-4705-a20c-085ee8b5f463 -->
 
 On November 20, 2025, a DAO Resolution was passed authorizing the Grove Foundation and Bamboo Grove Ltd to onboard with Ripple, Agora, and Paxos. See [https://gateway.pinata.cloud/ipfs/bafkreia77ngaxn54wy33v3dgzqr3cm4bykulrjldvf4iyahbfy2yv3jebi](https://gateway.pinata.cloud/ipfs/bafkreia77ngaxn54wy33v3dgzqr3cm4bykulrjldvf4iyahbfy2yv3jebi).
+
+###### A.6.1.1.2.3.6.4 - Onboard With Wintermute [Core]
+
+On November 27, 2025, a DAO Resolution was passed authorizing the Grove Foundation and Bamboo Grove Ltd to onboard with Wintermute. See [https://ipfs.io/ipfs/bafkreia72u565ub3iazmbsqsf4jzrobveckb2dtrcspmwn52oenyic72xu](https://ipfs.io/ipfs/bafkreia72u565ub3iazmbsqsf4jzrobveckb2dtrcspmwn52oenyic72xu).
 
 #### A.6.1.1.3 - Keel [Core]  <!-- UUID: bc6aed17-2969-4d04-9af6-c7bf3e4497e6 -->
 
