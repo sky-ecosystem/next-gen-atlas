@@ -19994,21 +19994,13 @@ This document defines the steps to deposit assets from the ALM Proxy to the ERC-
 
 The process for depositing to ERC-4626 Tokens on destination blockchain through the `ForeignController` contract is the same as the one for depositing to ERC-4626 Tokens on Ethereum Mainnet through the `MainnetController` contract; see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2.1 - General Deposit to ERC-4626 Tokens Procedure](862f4064-47e5-4f76-908d-64edfcfe0ddd).
 
-###### A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.2 - Withdraw ERC-4626 Tokens [Core]  <!-- UUID: 49e470dc-9619-4a41-897f-1e1aa532f21b -->
-
-###### A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.3 - Withdraw ERC-4626 Tokens [Core]  <!-- UUID: c2bbf44a-496c-4cf6-b0f6-25f77e66465b -->
+###### A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.2 - Withdraw ERC-4626 Tokens [Core]  <!-- UUID: c2bbf44a-496c-4cf6-b0f6-25f77e66465b -->
 
 This document defines the steps to withdraw a yield-earning balance from the ERC-4626 vault to the ALM Proxy. 
 
 The process for withdrawing ERC-4626 Tokens on destination blockchain through the `ForeignController` contract is the same as the one for withdrawing ERC-4626 Tokens on Ethereum Mainnet through the `MainnetController` contract, see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2.2 - General Withdraw from ERC-4626 Tokens Procedure](e797d1cc-9161-4b7a-8c16-db20a026d001).
 
-###### A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.4 - Redeem ERC-4626 Tokens [Core]  <!-- UUID: 075178b0-d311-43bc-b3c9-37af4c9dffe5 -->
-
-This document defines the steps for an operator to redeem yield-bearing shares from the ERC-4626 vault, receiving the corresponding amount of underlying assets into the ALM Proxy.
-
-The process for redeeming ERC-4626 Tokens on destination blockchain through the `ForeignController` contract is the same as the one for redeeming ERC-4626 Tokens on Ethereum Mainnet through the `MainnetController` contract, see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2.3 - General Redeem from ERC-4626 Tokens Procedure](ed774ab7-c761-444b-963d-7407bf91e243).
-
-###### A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.5 - Redeem ERC-4626 Tokens [Core]  <!-- UUID: ab5eb90f-1007-4560-a0ea-1c25d433c602 -->
+###### A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.3 - Redeem ERC-4626 Tokens [Core]  <!-- UUID: 075178b0-d311-43bc-b3c9-37af4c9dffe5 -->
 
 This document defines the steps for an operator to redeem yield-bearing shares from the ERC-4626 vault, receiving the corresponding amount of underlying assets into the ALM Proxy.
 
