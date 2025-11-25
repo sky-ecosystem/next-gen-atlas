@@ -15838,6 +15838,14 @@ The Stability Parameter Bounded External Access Module parameters for the ALLOCA
 - `step` - 400 basis points,
 - `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
+###### A.3.7.1.2.3.4 - ALLOCATOR-NOVA-A Parameters [Core] <!-- UUID: d52799ce-589d-4ef8-9ee3-ef940866291a -->
+
+The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-OBEX-A Allocator Vault are as follows:
+- `max` - 3,000 basis points,
+- `min` - 0 basis points,
+- `step` - 400 basis points,
+- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+
 ##### A.3.7.1.2.4 - Parameter Adjustments [Core]  <!-- UUID: 2d4aa875-b7ea-49c3-9506-479f0b5d157c -->
 
 All Stability Parameter Bounded External Access Module parameters can be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
