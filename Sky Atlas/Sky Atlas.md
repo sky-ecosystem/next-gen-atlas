@@ -20000,7 +20000,7 @@ This document defines the steps to withdraw a yield-earning balance from the ERC
 
 The process for withdrawing ERC-4626 Tokens on destination blockchain through the `ForeignController` contract is the same as the one for withdrawing ERC-4626 Tokens on Ethereum Mainnet through the `MainnetController` contract, see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2.2 - General Withdraw from ERC-4626 Tokens Procedure](e797d1cc-9161-4b7a-8c16-db20a026d001).
 
-###### A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.3 - Redeem ERC-4626 Tokens [Core]  <!-- UUID: 075178b0-d311-43bc-b3c9-37af4c9dffe5 -->
+###### A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.3 - Redeem ERC-4626 Tokens [Core]  <!-- UUID: ab5eb90f-1007-4560-a0ea-1c25d433c602 -->
 
 This document defines the steps for an operator to redeem yield-bearing shares from the ERC-4626 vault, receiving the corresponding amount of underlying assets into the ALM Proxy.
 
