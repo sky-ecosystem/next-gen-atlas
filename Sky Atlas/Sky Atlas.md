@@ -2092,7 +2092,7 @@ The budget for Ranked Delegates accrues on a continuous basis.
 
 #### A.1.5.4.3 - Budget Contingency [Core]
 
-A Ranked Delegate’s allocated budget can be reduced if they do not fully comply with the participation requirements defined in this Article at Voting-Activity Metrics, Voting-Communication Metrics, and Emergency Communications Requirement.
+A Ranked Delegate's allocated budget can be reduced if they do not fully comply with the participation requirements defined in this Article at Voting-Activity Metrics, Voting-Communication Metrics, and Emergency Communications Requirement.
 
 ##### A.1.5.4.3.1 - Voting-Activity Metrics [Core]
 
@@ -2100,7 +2100,7 @@ The budget allocated to a Ranked Delegate (RD) is modified based on their voting
 
 If an RD participates in less than 95% of all eligible votes within the last six (6) months, their RD budget is reduced. The reduction is applied on a proportional linear scale: for every percentage point below 95% voting activity, the RD’s budget is reduced correspondingly.
 
-Should an RD’s voting activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
+Should an RD's voting activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
 
 ##### A.1.5.4.3.2 - Voting-Communication Metrics [Core]
 
@@ -2108,7 +2108,7 @@ The budget allocated to a Ranked Delegate (RD) is modified based on their voting
 
 If an RD provides the required voting-communication on less than 95% of all eligible votes within the last six (6) months, their RD budget stream is reduced. The reduction is applied on a proportional linear scale: for every percentage point below 95% voting-communication activity, the RD’s budget is reduced correspondingly.
 
-Should an RD’s voting-communication activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
+Should an RD's voting-communication activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
 
 #### A.1.5.4.3.2.0 - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57c35484-4c5f-4349-a7fe-097618b4213a -->
 
@@ -2120,21 +2120,21 @@ The element "proportional linear scale" describes a method where the budget redu
 
 #### A.1.5.4.3.2.2 - Voting-Communication Metrics - Element Annotation [Annotation]  <!-- UUID: ca88baad-2457-4454-9e34-367156a59e78 -->
 
-The element "voting-communication metrics" refers to the percentage of votes for which an Aligned Delegate provides the required written explanations or justifications of their casted votes in Governance Polls and Executive Votes. These written explanations are posted in the AD’s Forum thread. 
+The element "voting-communication metrics" refers to the percentage of votes for which an Aligned Delegate provides the required written explanations or justifications of their casted votes in Governance Polls and Executive Votes. These written explanations are posted in the AD's Forum thread. 
 
-The Target Document’s function is to ensure that SKY holders delegating to the AD have full transparency to understand the AD’s decision-making process.
+The Target Document’s function is to ensure that SKY holders delegating to the AD have full transparency to understand the AD's decision-making process.
 
 #### NR-12 - Criteria For AD Voting-Communication Requirement [Needed Research]  <!-- UUID: ea34cf2b-b756-4c55-b317-7e4802b6f9b3 -->
 
 **Content**:
 
-For the purpose of enforcing the Target Document, should there be explicit criteria for Aligned Delegates’ voting-communications? What constitutes an adequate explanation for each vote? How would the Core Facilitator evaluate ADs’ explanations for quality, completeness, etc.? How can the Core Facilitator objectively assess explanations that may vary widely in style and content?
+For the purpose of enforcing the Target Document, should there be explicit criteria for Aligned Delegates' voting-communications? What constitutes an adequate explanation for each vote? How would the Core Facilitator evaluate ADs' explanations for quality, completeness, etc.? How can the Core Facilitator objectively assess explanations that may vary widely in style and content?
 
-How might ADs’ explanations vary across different types of votes, and should the criteria reflect these differences? Should more complex or high-stakes votes require more detailed explanations than routine or procedural votes?
+How might ADs' explanations vary across different types of votes, and should the criteria reflect these differences? Should more complex or high-stakes votes require more detailed explanations than routine or procedural votes?
 
 What feedback mechanisms should be in place to help ADs improve their explanations?
 
-What are the risks of not having explicit criteria for voting-communications? One is the potential failure of the Target Document’s objective to ensure that ADs’ voting activity is transparent to SKY holders who have delegated to that AD.
+What are the risks of not having explicit criteria for voting-communications? One is the potential failure of the Target Document's objective to ensure that ADs' voting activity is transparent to SKY holders who have delegated to that AD.
 
 ##### A.1.5.4.3.3 - Emergency Communications Requirement [Core]
 
@@ -2146,11 +2146,11 @@ Should an RD fail to correctly use the required communications tools, they becom
 
 RDs are required to maintain an active Signal account to facilitate communications related to emergency / urgent situations. This requirement applies regardless of whether an RD has been appointed to the Emergency Response Group. See [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf). RDs must provide their Signal username to the Core Facilitator.
 
-The Core Facilitator is responsible for maintaining an internal registry of RDs’ Signal accounts. Because the ranked RDs are continually changing, the Core Facilitator must ensure that the internal registry is maintained on a frequent basis. The Core Facilitator must check the active status of the RDs’ Signal accounts by sending test messages and confirming the RDs’ timely response; this must be done regularly, on a schedule known only to the Core Facilitator. If an RD fails to timely respond to the test messages, the Core Facilitator must remove them from RD status.
+The Core Facilitator is responsible for maintaining an internal registry of RDs' Signal accounts. Because the ranked RDs are continually changing, the Core Facilitator must ensure that the internal registry is maintained on a frequent basis. The Core Facilitator must check the active status of the RDs' Signal accounts by sending test messages and confirming the RDs' timely response; this must be done regularly, on a schedule known only to the Core Facilitator. If an RD fails to timely respond to the test messages, the Core Facilitator must remove them from RD status.
 
 #### A.1.5.4.4 - AD Buffer [Core]
 
-The AD Buffer is an account of USDS that begins accumulating funds when an Aligned Delegate attains Ranked Delegate status. The budget allocated to the AD is credited to the AD Buffer. Funds within the AD Buffer cannot be accessed or spent until they reach a minimum threshold equivalent to one (1) month’s budget allocation based on the current level of the Ranked Delegate.
+The AD Buffer is an account of USDS that begins accumulating funds when an Aligned Delegate attains Ranked Delegate status. The budget allocated to the AD is credited to the AD Buffer. Funds within the AD Buffer cannot be accessed or spent until they reach a minimum threshold equivalent to one (1) month's budget allocation based on the current level of the Ranked Delegate.
 
 Once this threshold is met, the AD will receive payouts from the AD Buffer to the address that controls the AD Delegate Contract. ADs may use this budget for various purposes, including personal compensation, compensation for team members, research expenses, and other relevant activities.
 
@@ -2161,12 +2161,12 @@ Aligned Delegates are eligible to receive payments from their AD Buffers in a mo
 This includes calculating:
 
 1. the Aligned Delegates ranked as Level 3 Ranked Delegates on a daily basis;
-2. the budget to be deposited into each Aligned Delegate’s AD Buffer, which is modified pursuant to voting and communication metrics;
-3. the balance of each Delegate’s AD Buffer; and
+2. the budget to be deposited into each Aligned Delegate's AD Buffer, which is modified pursuant to voting and communication metrics;
+3. the balance of each Delegate's AD Buffer; and
 4. the amount to be paid out to each Aligned Delegate.
 5. Once calculated by the Core Facilitator, AD payouts are paid from the Aligned Delegates Buffer Multisig. See [A.2.4.1.4.1.2.1 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a).
 
-###### A.1.5.4.4.1.1 - One Month’s Budget Allocation [Core]
+###### A.1.5.4.4.1.1 - One Month's Budget Allocation [Core]
 
 To arrive at the value of this one-month budget threshold in USDS, see Levels Of Ranked Delegates.
 
@@ -2180,11 +2180,11 @@ See [A.1.5.4.4.2 - AD Buffer And Loss Of Budget - Element Annotation](e360a6ac-8
 
 ###### A.1.5.4.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Weekly Cycle Proposals [Core]
 
-If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), no payouts may be made that would reduce their AD Buffer below one (1) month’s worth of the budget specified in Levels Of Ranked Delegates until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
+If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), no payouts may be made that would reduce their AD Buffer below one (1) month's worth of the budget specified in Levels Of Ranked Delegates until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
 
 ##### A.1.5.4.4.3 - AD Buffer Used For Whistleblower Bounties [Core]
 
-The AD Buffer also serves as collateral for a whistleblower bounty. This bounty is capped at half of one month’s budget allocation. This bounty is payable to a whistleblower who responsibly provides evidence that is useful to the Facilitators’ investigation of either 1) misalignment by the AD, or 2) a breach of the AD’s operational security or privacy.
+The AD Buffer also serves as collateral for a whistleblower bounty. This bounty is capped at half of one month's budget allocation. This bounty is payable to a whistleblower who responsibly provides evidence that is useful to the Facilitators' investigation of either 1) misalignment by the AD, or 2) a breach of the AD’s operational security or privacy.
 
 See [A.1.5.17 - Whistleblower Bounty](7ae648c2-e04c-42b1-8d20-21de8ed6bef2); and [A.1.5.20 - Whistleblower Bounty](74d01046-995f-4783-aa72-c0d33d90b58c).
 
@@ -2192,13 +2192,13 @@ See [A.1.5.17 - Whistleblower Bounty](7ae648c2-e04c-42b1-8d20-21de8ed6bef2); and
 
 The element "collateral" in this context refers to the funds within the AD Buffer that are set aside to guarantee the availability of a whistleblower bounty.
 
-#### A.1.5.4.4.3.1 - One Month’s Budget Allocation - Element Annotation [Annotation]  <!-- UUID: ff085fc7-6da4-4176-b38f-c0e63ca4fd4a -->
+#### A.1.5.4.4.3.1 - One Month's Budget Allocation - Element Annotation [Annotation]  <!-- UUID: ff085fc7-6da4-4176-b38f-c0e63ca4fd4a -->
 
 See [A.1.5.7.0.3.1 - One Month’s Budget Allocation - Element Annotation](e360a6ac-822f-4ab5-ac39-25f56aeb8f2b).
 
 #### A.1.5.4.4.3.2 - Operational Security Or Privacy - Element Annotation [Annotation]  <!-- UUID: fd592ff8-ac42-4397-ba02-5a87442d07ab -->
 
-The element "operational security or privacy" refers to disclosure or compromise of sensitive information related to the AD’s identity, location and/or operations.
+The element "operational security or privacy" refers to disclosure or compromise of sensitive information related to the AD's identity, location and/or operations.
 
 #### A.1.5.4.4.3.4 - Whistleblower Bounty - Element Annotation [Annotation]  <!-- UUID: 872e042d-5d66-4e50-9096-f4faf6c8fb41 -->
 
@@ -8108,7 +8108,7 @@ No Sky Core Atlas documents are updated as the output of this process.
 
 ###### A.2.3.8.1.2.3.5.4.2 - Agent Artifact Updates [Core]  <!-- UUID: 1efa0fc5-5377-428f-a203-8c3c10dcc153 -->
 
-The Agent Artifact documents specified herein are updated as the output of this process. The Output “sets” are mutually exclusive.
+The Agent Artifact documents specified herein are updated as the output of this process. The Output "sets" are mutually exclusive.
 
 - Proposal Passes
 
@@ -11554,11 +11554,11 @@ Core Council Executor Agent 1 will serve as the first Core Executor Agent and mu
 
 ###### A.2.9.2.5.2.2 - Genesis Capital Allocation [Core]
 
-To effect the Genesis Capitalization of Core Council Executor Agent 1, Sky Core shall directly transfer (1) 20,000,000 USDS to the Core Council Executor Agent 1 SubProxy and (2) 5,000,000 USDS to the Core Council Buffer (see [A.2.4.1.4.1.1.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)). The 5,000,000 USDS transfer constitutes part of Core Council Executor Agent 1’s Genesis Capital Allocation, deposited directly to its operational payment account.
+To effect the Genesis Capitalization of Core Council Executor Agent 1, Sky Core shall directly transfer (1) 20,000,000 USDS to the Core Council Executor Agent 1 SubProxy and (2) 5,000,000 USDS to the Core Council Buffer (see [A.2.4.1.4.1.1.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)). The 5,000,000 USDS transfer constitutes part of Core Council Executor Agent 1's Genesis Capital Allocation, deposited directly to its operational payment account.
 
 ###### A.2.9.2.5.2.2.1 - Core Council Executor Agent 1 SubProxy Address [Core]
 
-The address of Core Council Executor Agent 1’s SubProxy Account will be specified in the Technical Scope Forum Post for the deployment of the SubProxy Account.
+The address of Core Council Executor Agent 1's SubProxy Account will be specified in the Technical Scope Forum Post for the deployment of the SubProxy Account.
 
 ###### A.2.9.2.5.2.2.2 - Use Of Genesis Capital [Core]
 
