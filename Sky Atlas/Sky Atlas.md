@@ -2084,7 +2084,7 @@ The Level 3 Ranked Delegates are the Aligned Delegates with the greatest delegat
 
 ###### A.1.5.4.1.2.3.1 - Delegated Voting Power - Element Annotation [Annotation]
 
-The element ”delegated Voting Power” refers to the cumulative SKY that has been delegated to an Aligned Delegate’s Delegate Contract by SKY holders and Staking users.
+The element "delegated Voting Power" refers to the cumulative SKY that has been delegated to an Aligned Delegate's Delegate Contract by SKY holders and Staking users.
 
 #### A.1.5.4.2 - Budget Accrual [Core]
 
