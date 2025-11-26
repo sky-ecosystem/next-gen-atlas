@@ -5606,7 +5606,7 @@ The Author of an Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" 
 
 ##### A.1.10.2.1.3 - Triggering Requirement [Core]  <!-- UUID: cef09d74-efc6-45cc-a75b-1132dae9e743 -->
 
-An Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "AEW Proposal") can proceed to a vote only if it is triggered by a Ranked Delegate whose AD Buffer contains at least one (1) month’s worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently specified in #### A.1.5.4.1 - Levels Of Ranked Delegates. The Core Facilitator is responsible for confirming that these requirements are met.
+An Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "AEW Proposal") can proceed to a vote only if it is triggered by a Ranked Delegate whose AD Buffer contains at least one (1) month’s worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently specified in A.1.5.4.1 - Levels Of Ranked Delegates. The Core Facilitator is responsible for confirming that these requirements are met.
 
 Aligned Delegates (including Ranked Delegates) are prohibited from authoring an Atlas Edit Weekly Cycle Proposal. Ranked Delegates are limited to triggering Proposals authored by others. To trigger a Proposal, the Ranked Delegate must post a reply to the Author’s Weekly Cycle Proposal on the Forum. The Ranked Delegate’s post should signal their intent to trigger the Weekly Cycle Proposal. 
 
@@ -5718,7 +5718,7 @@ The author of an Atlas Edit Monthly Cycle proposal ("proposal", "Atlas Edit Prop
 
 ##### A.1.11.2.1.2 - Triggering Requirement [Core]  <!-- UUID: 7bbfd3b1-99b5-4c60-9292-68d776e03886 -->
 
-An Atlas Edit Monthly Cycle Proposal can proceed to verification by the Core Facilitator only if it is triggered by a Ranked Delegate whose AD Buffer contains at least one (1) month’s worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently specified in #### A.1.5.4.1 - Levels Of Ranked Delegates. The Core Facilitator is responsible for confirming that these requirements are met.
+An Atlas Edit Monthly Cycle Proposal can proceed to verification by the Core Facilitator only if it is triggered by a Ranked Delegate whose AD Buffer contains at least one (1) month’s worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently specified in A.1.5.4.1 - Levels Of Ranked Delegates. The Core Facilitator is responsible for confirming that these requirements are met.
 
 Aligned Delegates (including Ranked Delegates) are prohibited from authoring an Atlas Edit Monthly Cycle Proposal. Ranked Delegates are limited to triggering Proposals authored by others. To trigger a Proposal, the Ranked Delegate must post a reply to the Author’s Monthly Cycle Proposal on the Forum. The Ranked Delegate should indicate their intent to trigger the Monthly Cycle Proposal.
 
