@@ -1,5 +1,9 @@
 # Atlas Markdown Syntax Documentation
 
+![Atlas Markdown File Syntax](Static/atlas-markdown-syntax.png)
+
+![Atlas Document Numbering Rules](Static/atlas-document-numbering-rules.png)
+
 ## 1. UUIDs - Critical Information
 
 **⚠️ IMPORTANT**: Every Atlas document must have a unique UUID identifier in its title line.
