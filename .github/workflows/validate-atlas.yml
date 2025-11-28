@@ -2,8 +2,6 @@ name: Validate Atlas on Pull Request
 
 on:
   pull_request:
-    paths:
-      - "Sky Atlas/Sky Atlas.md"
 
 jobs:
   validate:
