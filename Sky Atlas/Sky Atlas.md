@@ -1508,7 +1508,7 @@ An Alignment Conserver can assume one of two roles: Aligned Delegate (AD) and Fa
 
 #### A.1.4.5.1 - Exception for ADs Contributing To Atlas Core Development [Core]  <!-- UUID: 79ad7aaa-bf57-40f4-9824-589982e79d0c -->
 
-A.1.5.4.5.2 - Atlas Workstreams is an exception to the general rule prohibiting Alignment Conservers from being operationally active in multiple ecosystem roles.
+[A.1.5.4.5.2 - Atlas Workstreams](ee672cbf-035c-4c1a-a76d-da58489b0cd0) is an exception to the general rule prohibiting Alignment Conservers from being operationally active in multiple ecosystem roles.
 
 #### A.1.4.5.2 - Temporary Exception for Facilitator “Ecosystem” [Core]  <!-- UUID: 6aa88317-4dc2-4b50-87bd-27cc6de9c767 -->
 
@@ -2184,7 +2184,7 @@ If an AD is unranked for an entire month, any contents in its AD Buffer can be p
 
 See [A.1.5.4.4.2 - AD Buffer And Loss Of Budget - Element Annotation](e360a6ac-822f-4ab5-ac39-25f56aeb8f2b).
 
-###### A.1.5.4.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Weekly Cycle Proposals [Core]
+###### A.1.5.4.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Weekly Cycle Proposals [Core]  <!-- UUID: 8eca5ff8-8798-465b-b86a-f9ee5c93f213 -->
 
 If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), no payouts may be made that would reduce their AD Buffer below one (1) month's worth of the budget specified in Levels Of Ranked Delegates until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
 
