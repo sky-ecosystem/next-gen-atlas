@@ -40174,7 +40174,7 @@ Obex operates in full alignment with the Sky Atlas. All operations, reporting, a
 
 ###### A.6.1.1.5.3.2.4 - First-Loss and Recourse Principles [Core]  <!-- UUID: 909f6c00-369e-4fd1-b052-1e933a17b669 -->
 
-Capital deployed through Obex carries explicit first-loss protection defined by the Incubator Prime. Each funded project must maintain verifiable recourse through token, equity, or revenue participation agreements enforceable by the Prime’s legal wrapper.
+Capital deployed through Obex carries explicit first-loss protection defined by the Incubator Prime. Each funded project must maintain verifiable recourse through token, equity, or revenue participation agreements enforceable by the Prime's legal wrapper.
 
 ###### A.6.1.1.5.3.2.5 - Data and Transparency Standards [Core]  <!-- UUID: c861f5fb-e99b-40ca-b535-291b94b69811 -->
 
