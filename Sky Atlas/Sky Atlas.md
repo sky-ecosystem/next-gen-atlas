@@ -2224,10 +2224,6 @@ Prior to January 1, 2026, Aligned Delegates (ADs) are permitted to concurrently 
 
 This document constitutes an exception to [A.1.4.5 - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c) which generally prohibits Alignment Conservers from being operationally active in multiple ecosystem roles.
 
-#### A.1.5.6 - Budget Amount For Ranked Delegate Slots [Core]  <!-- UUID: ef801c98-d49a-4c93-a8a3-bb22e7ee3ade -->
-
-The budget for each Ranked Delegate slot is 48,000 USDS per year.
-
 #### NR-11 - AD Whistleblower Bounty [Needed Research]  <!-- UUID: 71c826f0-2713-4756-8b5a-1d820383f301 -->
 
 **Content**:
