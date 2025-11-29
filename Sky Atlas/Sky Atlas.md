@@ -2022,79 +2022,79 @@ The element "delegated voting power" refers to the ability of SKY holders and St
 
 This Section defines Ranked Delegates. Ranked Delegates are Aligned Delegates who are eligible to receive a budget from the Sky Protocol and have additional rights and responsibilities as specified herein.
 
-#### A.1.5.4.1 - Levels Of Ranked Delegates [Core]
+#### A.1.5.4.1 - Levels Of Ranked Delegates [Core]  <!-- UUID: f4857d86-f4e7-43c5-be50-fab9e82f0129 -->
 
 Ranked Delegates are divided into three levels as specified in the documents herein.
 
-##### A.1.5.4.1.1 - Level 1 Ranked Delegates [Core]
+##### A.1.5.4.1.1 - Level 1 Ranked Delegates [Core]  <!-- UUID: cf96f0e7-13e0-4a41-adb0-09a85b53495d -->
 
 Level 1 Ranked Delegates are eligible for a higher budget and are expected to contribute to the Sky Protocol at a higher level relative to other Ranked Delegates.
 
-###### A.1.5.4.1.1.1 - Number Of Level 1 Ranked Delegates [Core]
+###### A.1.5.4.1.1.1 - Number Of Level 1 Ranked Delegates [Core]  <!-- UUID: 1c2ba550-ba6f-49d1-a88d-ad71b779c878 -->
 
 There are two (2) Level 1 Ranked Delegates.
 
-###### A.1.5.4.1.1.2 - Budget For Level 1 Ranked Delegates [Core]
+###### A.1.5.4.1.1.2 - Budget For Level 1 Ranked Delegates [Core]  <!-- UUID: 036babd9-73fe-43a3-8293-b96a5f13e58e -->
 
 Each Level 1 Ranked Delegate is eligible for a budget of 600,000 USDS per year.
 
-###### A.1.5.4.1.1.3 - Selection Of Level 1 Ranked Delegates [Core]
+###### A.1.5.4.1.1.3 - Selection Of Level 1 Ranked Delegates [Core]  <!-- UUID: f52e46d4-2d8c-49ad-852c-acbdca81aadc -->
 
 In the short term, the Level 1 Ranked Delegates are selected directly by Sky Governance. The current Level 1 Ranked Delegates selected by Sky Governance are specified in Current Level 1 Ranked Delegates.
 
-###### A.1.5.4.1.1.3.1 - Current Level 1 Ranked Delegates [Core]
+###### A.1.5.4.1.1.3.1 - Current Level 1 Ranked Delegates [Core]  <!-- UUID: 46c0f334-4421-4e1a-9130-501e3a246e2a -->
 
 The current Level 1 Ranked Delegates are BLUE and Cloaky.
 
-##### A.1.5.4.1.2 - Level 2 Ranked Delegates [Core]
+##### A.1.5.4.1.2 - Level 2 Ranked Delegates [Core]  <!-- UUID: 2f07e41b-ca66-4075-90d0-771bcd8d7823 -->
 
 Level 2 Ranked Delegates are eligible for an intermediate budget and are expected to contribute to the Sky Protocol at an intermediate level relative to other Ranked Delegates.
 
-###### A.1.5.4.1.2.1 - Number Of Level 2 Ranked Delegates [Core]
+###### A.1.5.4.1.2.1 - Number Of Level 2 Ranked Delegates [Core]  <!-- UUID: dc65cc80-ea3d-41fa-a80c-b3aafa1e817e -->
 
 There is one (1) Level 2 Ranked Delegate.
 
-###### A.1.5.4.1.2.2 - Budget For Level 2 Ranked Delegates  [Core]
+###### A.1.5.4.1.2.2 - Budget For Level 2 Ranked Delegates  [Core]  <!-- UUID: 04b54378-1cb5-42cd-be16-e2b93386404d -->
 
 Each Level 2 Ranked Delegate is eligible for a budget of 175,000 USDS per year.
 
-###### A.1.5.4.1.2.3 - Selection Of Level 2 Ranked Delegates [Core]
+###### A.1.5.4.1.2.3 - Selection Of Level 2 Ranked Delegates [Core]  <!-- UUID: 7c6c6579-7738-4835-9a80-d3bc799e84fd -->
 
 In the short term, the Level 2 Ranked Delegates are selected directly by Sky Governance. The current Level 2 Ranked Delegates selected by Sky Governance are specified in Current Level 2 Ranked Delegates.
 
-###### A.1.5.4.1.2.3.1 - Current Level 2 Ranked Delegates [Core]
+###### A.1.5.4.1.2.3.1 - Current Level 2 Ranked Delegates [Core]  <!-- UUID: ebe4da3b-2674-4ee1-b7a8-3d7a4b37fe75 -->
 
 The current Level 2 Ranked Delegate is Bonapublica.
 
-##### A.1.5.4.1.3 - Level 3 Ranked Delegates [Core]
+##### A.1.5.4.1.3 - Level 3 Ranked Delegates [Core]  <!-- UUID: 8b4d704c-4dcb-47c9-aadd-68255e61bb6a -->
 
 Level 3 Ranked Delegates are eligible for a lower budget and are expected to contribute to the Sky Protocol at a lower level relative to other Ranked Delegates.
 
-###### A.1.5.4.1.3.1 - Number Of Level 3 Ranked Delegates [Core]
+###### A.1.5.4.1.3.1 - Number Of Level 3 Ranked Delegates [Core]  <!-- UUID: 8833de34-7904-4624-8396-9ee27a4743fc -->
 
 There are three (3) Level 3 Ranked Delegates.
 
-###### A.1.5.4.1.3.2 - Budget For Level 3 Ranked Delegates  [Core]
+###### A.1.5.4.1.3.2 - Budget For Level 3 Ranked Delegates  [Core]  <!-- UUID: c51b75e1-8390-46c6-b455-3fd1b155af0d -->
 
 Each Level 3 Ranked Delegate is eligible for a budget of 48,000 USDS per year.
 
-###### A.1.5.4.1.3.3 - Selection Of Level 3 Ranked Delegates [Core]
+###### A.1.5.4.1.3.3 - Selection Of Level 3 Ranked Delegates [Core]  <!-- UUID: c3ad0b9f-970a-4495-9640-2553e77ea8ab -->
 
 The Level 3 Ranked Delegates are the Aligned Delegates with the greatest delegated Voting Power who are not Level 1 Ranked Delegates or Level 2 Ranked Delegates.
 
-###### A.1.5.4.1.2.3.1 - Delegated Voting Power - Element Annotation [Annotation]
+###### A.1.5.4.1.3.3.1 - Delegated Voting Power - Element Annotation [Annotation]  <!-- UUID: 8012ae3b-bcd7-4fdc-a93c-8c33d770a7ca -->
 
 The element "delegated Voting Power" refers to the cumulative SKY that has been delegated to an Aligned Delegate's Delegate Contract by SKY holders and Staking users.
 
-#### A.1.5.4.2 - Budget Accrual [Core]
+#### A.1.5.4.2 - Budget Accrual [Core]  <!-- UUID: e16ac70b-5c9c-4a45-8bae-852be2b5b5e0 -->
 
 The budget for Ranked Delegates accrues on a continuous basis.
 
-#### A.1.5.4.3 - Budget Contingency [Core]
+#### A.1.5.4.3 - Budget Contingency [Core]  <!-- UUID: 82f74f4b-8c49-4b1e-9ae7-f6c5e23d3394 -->
 
 A Ranked Delegate's allocated budget can be reduced if they do not fully comply with the participation requirements defined in this Article at Voting-Activity Metrics, Voting-Communication Metrics, and Emergency Communications Requirement.
 
-##### A.1.5.4.3.1 - Voting-Activity Metrics [Core]
+##### A.1.5.4.3.1 - Voting-Activity Metrics [Core]  <!-- UUID: ad1ef0f4-246f-4289-b5fc-ea5c91508ccf -->
 
 The budget allocated to a Ranked Delegate (RD) is modified based on their voting-activity metrics over the past six (6) months. This budget modification takes into account the overall participation of the Ranked Delegate in all votes they are eligible to cast as an Aligned Delegate (AD).
 
@@ -2102,7 +2102,11 @@ If an RD participates in less than 95% of all eligible votes within the last six
 
 Should an RD's voting activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
 
-##### A.1.5.4.3.2 - Voting-Communication Metrics [Core]
+###### A.1.5.4.3.1.0.3.1  - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57a0be8f-c0d8-4d0c-bb99-ca3e63da5058 -->
+
+The element "proportional linear scale" describes a method where the budget reduction is directly proportional to the decline in voting-communication activity between 95% and 75%. Here, the pertinent range of voting-communication activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the RD budget decreases by **5%** for every percentage point drop in voting-communication activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).
+
+##### A.1.5.4.3.2 - Voting-Communication Metrics [Core]  <!-- UUID: f020d1bc-8905-46f8-b3a5-c31bcc0eec79 -->
 
 The budget allocated to a Ranked Delegate (RD) is modified based on their voting-communication metrics over the past six (6) months. An AD is required to provide an explanation for each vote they participate in. This budget modification takes into account the Ranked Delegate’s fulfillment of this voting-communication requirement in all votes they are eligible to cast as an Aligned Delegate (AD).
 
@@ -2110,15 +2114,11 @@ If an RD provides the required voting-communication on less than 95% of all elig
 
 Should an RD's voting-communication activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
 
-#### A.1.5.4.3.2.0 - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57c35484-4c5f-4349-a7fe-097618b4213a -->
+###### A.1.5.4.3.2.0.3.1 - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57c35484-4c5f-4349-a7fe-097618b4213a -->
 
 The element "proportional linear scale" describes a method where the budget reduction is directly proportional to the decline in voting activity between 95% and 75%. Here, the pertinent range of voting activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the RD budget decreases by **5%** for every percentage point drop in voting activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).
 
-#### A.1.5.4.3.2.1 - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57a0be8f-c0d8-4d0c-bb99-ca3e63da5058 -->
-
-The element "proportional linear scale" describes a method where the budget reduction is directly proportional to the decline in voting-communication activity between 95% and 75%. Here, the pertinent range of voting-communication activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the RD budget decreases by **5%** for every percentage point drop in voting-communication activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).
-
-#### A.1.5.4.3.2.2 - Voting-Communication Metrics - Element Annotation [Annotation]  <!-- UUID: ca88baad-2457-4454-9e34-367156a59e78 -->
+#### A.1.5.4.3.2.0.3.2 - Voting-Communication Metrics - Element Annotation [Annotation]  <!-- UUID: ca88baad-2457-4454-9e34-367156a59e78 -->
 
 The element "voting-communication metrics" refers to the percentage of votes for which an Aligned Delegate provides the required written explanations or justifications of their casted votes in Governance Polls and Executive Votes. These written explanations are posted in the AD's Forum thread. 
 
@@ -2136,25 +2136,25 @@ What feedback mechanisms should be in place to help ADs improve their explanatio
 
 What are the risks of not having explicit criteria for voting-communications? One is the potential failure of the Target Document's objective to ensure that ADs' voting activity is transparent to SKY holders who have delegated to that AD.
 
-##### A.1.5.4.3.3 - Emergency Communications Requirement [Core]
+##### A.1.5.4.3.3 - Emergency Communications Requirement [Core]  <!-- UUID: 43db9780-6c0a-458a-94c2-5951b5b80787 -->
 
 The budget stream allocated to a Ranked Delegate (RD) is modified based on their correct usage of required tools for emergency communications.
 
 Should an RD fail to correctly use the required communications tools, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
 
-###### A.1.5.4.3.3.1 - Signal Account Requirement [Core]
+###### A.1.5.4.3.3.1 - Signal Account Requirement [Core]  <!-- UUID: 21d0b626-cd84-4237-8cab-d68f697c276d -->
 
 RDs are required to maintain an active Signal account to facilitate communications related to emergency / urgent situations. This requirement applies regardless of whether an RD has been appointed to the Emergency Response Group. See [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf). RDs must provide their Signal username to the Core Facilitator.
 
 The Core Facilitator is responsible for maintaining an internal registry of RDs' Signal accounts. Because the ranked RDs are continually changing, the Core Facilitator must ensure that the internal registry is maintained on a frequent basis. The Core Facilitator must check the active status of the RDs' Signal accounts by sending test messages and confirming the RDs' timely response; this must be done regularly, on a schedule known only to the Core Facilitator. If an RD fails to timely respond to the test messages, the Core Facilitator must remove them from RD status.
 
-#### A.1.5.4.4 - AD Buffer [Core]
+#### A.1.5.4.4 - AD Buffer [Core]  <!-- UUID: 0625cdd6-f089-47ab-ad3e-209e14064951 -->
 
 The AD Buffer is an account of USDS that begins accumulating funds when an Aligned Delegate attains Ranked Delegate status. The budget allocated to the AD is credited to the AD Buffer. Funds within the AD Buffer cannot be accessed or spent until they reach a minimum threshold equivalent to one (1) month's budget allocation based on the current level of the Ranked Delegate.
 
 Once this threshold is met, the AD will receive payouts from the AD Buffer to the address that controls the AD Delegate Contract. ADs may use this budget for various purposes, including personal compensation, compensation for team members, research expenses, and other relevant activities.
 
-##### A.1.5.4.4.1 - AD Monthly Compensation Cycle [Core]
+##### A.1.5.4.4.1 - AD Monthly Compensation Cycle [Core]  <!-- UUID: 688247c6-c4ed-49e3-96f3-c6a7475d89eb -->
 
 Aligned Delegates are eligible to receive payments from their AD Buffers in a monthly compensation cycle. The Core Facilitator is responsible for calculating the payout due to each Aligned Delegate.
 
@@ -2166,11 +2166,17 @@ This includes calculating:
 4. the amount to be paid out to each Aligned Delegate.
 5. Once calculated by the Core Facilitator, AD payouts are paid from the Aligned Delegates Buffer Multisig. See [A.2.4.1.4.1.2.1 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a).
 
-###### A.1.5.4.4.1.1 - One Month's Budget Allocation [Core]
+###### A.1.5.4.4.1.1 - One Month's Budget Allocation [Core]  <!-- UUID: 48a2c0f5-5f09-44d3-a930-47e6c12fb901 -->
 
 To arrive at the value of this one-month budget threshold in USDS, see Levels Of Ranked Delegates.
 
-##### A.1.5.4.4.2 - AD Buffer And Loss Of Budget [Core]
+#### NR-10 - AD Monthly Compensation Cycle [Needed Research]  <!-- UUID: 6502ce76-3f29-4f50-a68c-9126feba1fb6 -->
+
+**Content**:
+
+Are there risks that should be considered regarding the potential mismanagement or misuse of the AD budget? The Target Document lists several examples of permissible ways to use the AD budget, which indicates implicitly constraints, or disallowed expenditures. How would compliance with these guidelines be monitored?
+
+##### A.1.5.4.4.2 - AD Buffer And Loss Of Budget [Core]  <!-- UUID: add0e307-9fbb-4871-9eab-c7bd18662e01 -->
 
 If an AD is unranked for an entire month, any contents in its AD Buffer can be paid out in the next monthly compensation cycle, except as specified in Payout Limitations For ADs Triggering Atlas Edit Weekly Cycle Proposals.
 
@@ -2182,37 +2188,37 @@ See [A.1.5.4.4.2 - AD Buffer And Loss Of Budget - Element Annotation](e360a6ac-8
 
 If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), no payouts may be made that would reduce their AD Buffer below one (1) month's worth of the budget specified in Levels Of Ranked Delegates until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
 
-##### A.1.5.4.4.3 - AD Buffer Used For Whistleblower Bounties [Core]
+##### A.1.5.4.4.3 - AD Buffer Used For Whistleblower Bounties [Core]  <!-- UUID: 4a29dd32-2333-471a-bea1-1aa0f5413453 -->
 
 The AD Buffer also serves as collateral for a whistleblower bounty. This bounty is capped at half of one month's budget allocation. This bounty is payable to a whistleblower who responsibly provides evidence that is useful to the Facilitators' investigation of either 1) misalignment by the AD, or 2) a breach of the AD’s operational security or privacy.
 
 See [A.1.5.17 - Whistleblower Bounty](7ae648c2-e04c-42b1-8d20-21de8ed6bef2); and [A.1.5.20 - Whistleblower Bounty](74d01046-995f-4783-aa72-c0d33d90b58c).
 
-#### A.1.5.4.4.3.0 - Collateral - Element Annotation [Annotation]  <!-- UUID: 02f6954d-9391-4e94-aad7-ea0c2cabd560 -->
+###### A.1.5.4.4.3.0.3.1 - Collateral - Element Annotation [Annotation]  <!-- UUID: 02f6954d-9391-4e94-aad7-ea0c2cabd560 -->
 
 The element "collateral" in this context refers to the funds within the AD Buffer that are set aside to guarantee the availability of a whistleblower bounty.
 
-#### A.1.5.4.4.3.1 - One Month's Budget Allocation - Element Annotation [Annotation]  <!-- UUID: ff085fc7-6da4-4176-b38f-c0e63ca4fd4a -->
+###### A.1.5.4.4.3.0.3.2 - One Month's Budget Allocation - Element Annotation [Annotation]  <!-- UUID: ff085fc7-6da4-4176-b38f-c0e63ca4fd4a -->
 
 See [A.1.5.7.0.3.1 - One Month’s Budget Allocation - Element Annotation](e360a6ac-822f-4ab5-ac39-25f56aeb8f2b).
 
-#### A.1.5.4.4.3.2 - Operational Security Or Privacy - Element Annotation [Annotation]  <!-- UUID: fd592ff8-ac42-4397-ba02-5a87442d07ab -->
+###### A.1.5.4.4.3.0.3.3 - Operational Security Or Privacy - Element Annotation [Annotation]  <!-- UUID: fd592ff8-ac42-4397-ba02-5a87442d07ab -->
 
 The element "operational security or privacy" refers to disclosure or compromise of sensitive information related to the AD's identity, location and/or operations.
 
-#### A.1.5.4.4.3.4 - Whistleblower Bounty - Element Annotation [Annotation]  <!-- UUID: 872e042d-5d66-4e50-9096-f4faf6c8fb41 -->
+###### A.1.5.4.4.3.4 - Whistleblower Bounty - Element Annotation [Annotation]  <!-- UUID: 872e042d-5d66-4e50-9096-f4faf6c8fb41 -->
 
 The element "whistleblower bounty" is a financial reward allocated to individuals who responsibly provide credible evidence that is helpful to the Facilitators’ investigation of an AD’s misalignment or operational security breach.
 
-#### A.1.5.4.5 - Short-Term Transitionary Measures [Core]
+#### A.1.5.4.5 - Short-Term Transitionary Measures [Core]  <!-- UUID: 17c74a56-fcb2-4f40-8847-d09a37e4e2dd -->
 
 The documents herein define short-term transitionary measures related to Ranked Delegates that apply for the period prior to January 1, 2026.
 
-##### A.1.5.4.5.1 - Levels Of Ranked Delegates [Core]
+##### A.1.5.4.5.1 - Levels Of Ranked Delegates [Core]  <!-- UUID: 35f7309e-4446-48c2-bbf6-9fb564d93860 -->
 
 Prior to January 1, 2026, there are zero (0) Level 1 Ranked Delegates, zero (0) Level 2 Ranked Delegates, and six (6) Level 3 Ranked Delegates.
 
-##### A.1.5.4.5.2 - Atlas Workstreams [Core]
+##### A.1.5.4.5.2 - Atlas Workstreams [Core]  <!-- UUID: ee672cbf-035c-4c1a-a76d-da58489b0cd0 -->
 
 Prior to January 1, 2026, Aligned Delegates (ADs) are permitted to concurrently participate in workstreams related to Atlas Core Development, and to receive budgets for this purpose. Such workstreams can include research, data collection, data processing, data review, drafting, peer review, etc.
 
@@ -2221,13 +2227,6 @@ This document constitutes an exception to [A.1.4.5 - ACs Can Be Operationally Ac
 #### A.1.5.6.1 - Budget Amount For Ranked Delegate Slots [Core]  <!-- UUID: ef801c98-d49a-4c93-a8a3-bb22e7ee3ade -->
 
 The budget for each Ranked Delegate slot is 48,000 USDS per year.
-
-
-#### NR-10 - AD Monthly Compensation Cycle [Needed Research]  <!-- UUID: 6502ce76-3f29-4f50-a68c-9126feba1fb6 -->
-
-**Content**:
-
-Are there risks that should be considered regarding the potential mismanagement or misuse of the AD budget? The Target Document lists several examples of permissible ways to use the AD budget, which indicates implicitly constraints, or disallowed expenditures. How would compliance with these guidelines be monitored?
 
 #### NR-11 - AD Whistleblower Bounty [Needed Research]  <!-- UUID: 71c826f0-2713-4756-8b5a-1d820383f301 -->
 
@@ -3153,7 +3152,7 @@ For each Agent, a `StarGuard` contract is deployed to manage whitelisting and ex
 
 ###### A.1.9.2.3.2.2.3.1.1.1 - StarGuard Functionality [Core]  <!-- UUID: 04712596-beda-452e-a667-44e6fe707abd -->
 
-When initiated in a Sky Core Spell, the StarGuard whitelists relevant Agent Spells, enabling their secure execution. This whitelisting allows Agent Spells to run independently, supporting arbitrary complexity and custom features like office hours or expiration times. StarGuard also supports dropping a whitelisted Agent Spell, providing a mechanism to revoke access if needed for security or error correction. This is done via the `drop()` function.
+When initiated in a Sky Core Spell, the StarGuard whitelists relevant Prime Spells, enabling their secure execution. This whitelisting allows Prime Spells to run independently, supporting arbitrary complexity and custom features like office hours or expiration times. StarGuard also supports dropping a whitelisted Agent Spell, providing a mechanism to revoke access if needed for security or error correction. This is done via the `drop()` function.
 
 ###### A.1.9.2.3.2.2.3.1.1.1.1 - StarGuard Ownership [Core]  <!-- UUID: e6ec35bc-28af-4e06-bc92-c8706add6017 -->
 
@@ -3165,7 +3164,7 @@ The Agents are required to include logic for the public view method `isExecutabl
 
 ###### A.1.9.2.3.2.2.3.1.1.1.3 - StarGuard Whitelisting Authority [Core]  <!-- UUID: f23f9ea7-64e1-4083-93b8-2864b232f451 -->
 
-Only the owner, the Pause Proxy, is able to whitelist new Agent Spells via a Sky Core Spell.
+Only the owner, the Pause Proxy, is able to whitelist new Prime Spells via a Sky Core Spell.
 
 ###### A.1.9.2.3.2.2.3.1.1.1.4 - StarGuard Max Delay [Core]  <!-- UUID: ccb1f61a-660b-4a8a-976f-53915dd21b03 -->
 
@@ -3203,7 +3202,7 @@ The following checks are enabled by the contract:
 
 ###### A.1.9.2.3.2.2.3.2 - Direct Execution Through Sky Core Spell [Core]  <!-- UUID: ffc88a5e-b7b2-4ed9-8c88-fcbcb7632f14 -->
 
-When the execution through the Sky Core Spell method is used, the Agent Spells are executed directly in the Sky Core Spells.
+When the execution through the Sky Core Spell method is used, the Prime Spells are executed directly in the Sky Core Spells.
 
 ###### A.1.9.2.3.2.2.3.2.1 - Sky Core Spell Executes Agent Spell [Core]  <!-- UUID: a109ad0d-0743-4ae9-bcc1-df04a6e5da43 -->
 
@@ -11520,51 +11519,51 @@ The Initial Allocation is distributed in USDS to the Obex SubProxy.
 
 The transfer of 21,000,000 USDS from the Surplus Buffer to the Obex SubProxy for the Genesis Capital Allocation must be included in the November 13, 2025 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
-#### A.2.9.2.5 Ecosystem Accord 5: Sky And Core Council Executor Agent 1 [Core]
+#### A.2.9.2.5 Ecosystem Accord 5: Sky And Core Council Executor Agent 1 [Core]  <!-- UUID: 3aa58bdc-1c86-4a4e-8ca5-5a836cd2e465 -->
 
 The subdocuments herein record the terms of agreement between Sky and Core Council Executor Agent 1 as agreed in Ecosystem Accord 5.
 
-##### A.2.9.2.5.1 - Accord Key Details [Core]
+##### A.2.9.2.5.1 - Accord Key Details [Core]  <!-- UUID: b95a2b5e-f0e7-4ae4-ba47-56588d35e559 -->
 
 The subdocuments herein set out the key details of Ecosystem Accord 5, such as parties to the agreement and the duration of the Accord.
 
-###### A.2.9.2.5.1.1 - Parties To The Accord [Core] 
+###### A.2.9.2.5.1.1 - Parties To The Accord [Core]  <!-- UUID: 711e1403-022d-4617-a835-bc98ab4dc521 -->
 
 The parties to Ecosystem Accord 5 are Sky and Core Council Executor Agent 1, as defined in the subdocuments herein.
 
-###### A.2.9.2.5.1.1.1 - Sky Details [Core]
+###### A.2.9.2.5.1.1.1 - Sky Details [Core]  <!-- UUID: 5999930f-429a-411a-9103-203357fd5e99 -->
 
 The party ‘Sky’ comprises Sky Core.
 
-###### A.2.9.2.4.1.1.2 - Core Council Executor Agent 1 Details [Core]
+###### A.2.9.2.5.1.1.2 - Core Council Executor Agent 1 Details [Core]  <!-- UUID: 3e5e6630-0c08-4e89-ae09-a3c45dd654f2 -->
 
 The party ‘Core Council Executor Agent 1’ comprises the Core Council Executor Agent 1 Executor Agent, Core Council Executor Agent 1 Foundation, and Core Council Executor Agent 1 Development Company.
 
-###### A.2.9.2.5.1.2 - Duration Of The Accord [Core]
+###### A.2.9.2.5.1.2 - Duration Of The Accord [Core]  <!-- UUID: c24d90d8-de2a-4d07-841b-f72ab8bf2b1b -->
 
 The duration of Ecosystem Accord 5 is indefinite, commencing from December 11, 2025.
 
-##### A.2.9.2.5.2 - Accord Substantive Terms [Core]
+##### A.2.9.2.5.2 - Accord Substantive Terms [Core]  <!-- UUID: 265e5d17-6a43-43e0-ac52-ad3bc4f2e8ea -->
 
 The subdocuments herein set out the substantive terms of Ecosystem Accord 5. Additional detail regarding the substantive terms of Ecosystem Accord 5 will be specified in a future iteration of the Atlas, as agreed by the Parties to the Accord.
 
-###### A.2.9.2.5.2.1 - Role As Core Executor Agent [Core]
+###### A.2.9.2.5.2.1 - Role As Core Executor Agent [Core]  <!-- UUID: fbf36985-ee32-4426-b809-b26f36c6e8a7 -->
 
 Core Council Executor Agent 1 will serve as the first Core Executor Agent and must carry out the responsibilities of the Core Council. See [A.0.1.1.46 - Core Council](5a03a0c4-a47a-409c-9b23-52ac93e63d45).
 
-###### A.2.9.2.5.2.2 - Genesis Capital Allocation [Core]
+###### A.2.9.2.5.2.2 - Genesis Capital Allocation [Core]  <!-- UUID: 6dc349a3-183e-4074-8f6e-cff39867363e -->
 
 To effect the Genesis Capitalization of Core Council Executor Agent 1, Sky Core shall directly transfer (1) 20,000,000 USDS to the Core Council Executor Agent 1 SubProxy and (2) 5,000,000 USDS to the Core Council Buffer (see [A.2.4.1.4.1.1.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)). The 5,000,000 USDS transfer constitutes part of Core Council Executor Agent 1's Genesis Capital Allocation, deposited directly to its operational payment account.
 
-###### A.2.9.2.5.2.2.1 - Core Council Executor Agent 1 SubProxy Address [Core]
+###### A.2.9.2.5.2.2.1 - Core Council Executor Agent 1 SubProxy Address [Core]  <!-- UUID: 89c19c75-cd5d-4c21-887d-0f4bfe3e42a7 -->
 
 The address of Core Council Executor Agent 1's SubProxy Account will be specified in the Technical Scope Forum Post for the deployment of the SubProxy Account.
 
-###### A.2.9.2.5.2.2.2 - Use Of Genesis Capital [Core]
+###### A.2.9.2.5.2.2.2 - Use Of Genesis Capital [Core]  <!-- UUID: 7935cb9f-2ca1-475a-8b43-bf21b3fa2370 -->
 
 The Genesis Capital Allocation will be used to fund the Core Council Executor Agent 1; the incubating Operational Executor Agents; and broader Core operational expenses, including technical infrastructure, spell crafting, risk work, and spell audits.
 
-###### A.2.9.2.5.2.3 - Funding Of Core Council Buffer [Core]
+###### A.2.9.2.5.2.3 - Funding Of Core Council Buffer [Core]  <!-- UUID: 3dd54817-d655-4fc5-b6f3-287623c1ba93 -->
 
 The Core Council Executor Agents holding seats on the Core Council maintain operational authority over the Core Council Buffer, consistent with their mandate to operationalize Sky Core.
 
@@ -30712,7 +30711,7 @@ On October 23, 2025, Grove agreed to a DAO Resolution authorizing Bamboo Grove t
 
 On November 20, 2025, a DAO Resolution was passed authorizing the Grove Foundation and Bamboo Grove Ltd to onboard with Ripple, Agora, and Paxos. See [https://gateway.pinata.cloud/ipfs/bafkreia77ngaxn54wy33v3dgzqr3cm4bykulrjldvf4iyahbfy2yv3jebi](https://gateway.pinata.cloud/ipfs/bafkreia77ngaxn54wy33v3dgzqr3cm4bykulrjldvf4iyahbfy2yv3jebi).
 
-###### A.6.1.1.2.3.6.4 - Onboard With Wintermute [Core]
+###### A.6.1.1.2.3.6.4 - Onboard With Wintermute [Core]  <!-- UUID: d2409e5a-a85b-4a51-8f4d-46a437660154 -->
 
 On November 27, 2025, a DAO Resolution was passed authorizing the Grove Foundation and Bamboo Grove Ltd to onboard with Wintermute. See [https://ipfs.io/ipfs/bafkreia72u565ub3iazmbsqsf4jzrobveckb2dtrcspmwn52oenyic72xu](https://ipfs.io/ipfs/bafkreia72u565ub3iazmbsqsf4jzrobveckb2dtrcspmwn52oenyic72xu).
 
