@@ -2200,7 +2200,7 @@ The element "collateral" in this context refers to the funds within the AD Buffe
 
 ###### A.1.5.4.4.3.0.3.2 - One Month's Budget Allocation - Element Annotation [Annotation]  <!-- UUID: ff085fc7-6da4-4176-b38f-c0e63ca4fd4a -->
 
-See [A.1.5.7.0.3.1 - One Month’s Budget Allocation - Element Annotation](e360a6ac-822f-4ab5-ac39-25f56aeb8f2b).
+See [A.1.5.7.0.3.1 - One Month's Budget Allocation - Element Annotation](e360a6ac-822f-4ab5-ac39-25f56aeb8f2b).
 
 ###### A.1.5.4.4.3.0.3.3 - Operational Security Or Privacy - Element Annotation [Annotation]  <!-- UUID: fd592ff8-ac42-4397-ba02-5a87442d07ab -->
 
@@ -2208,7 +2208,7 @@ The element "operational security or privacy" refers to disclosure or compromise
 
 ###### A.1.5.4.4.3.0.3.4 - Whistleblower Bounty - Element Annotation [Annotation]  <!-- UUID: 872e042d-5d66-4e50-9096-f4faf6c8fb41 -->
 
-The element "whistleblower bounty" is a financial reward allocated to individuals who responsibly provide credible evidence that is helpful to the Facilitators’ investigation of an AD’s misalignment or operational security breach.
+The element "whistleblower bounty" is a financial reward allocated to individuals who responsibly provide credible evidence that is helpful to the Facilitators' investigation of an AD's misalignment or operational security breach.
 
 #### A.1.5.4.5 - Short-Term Transitionary Measures [Core]  <!-- UUID: 17c74a56-fcb2-4f40-8847-d09a37e4e2dd -->
 
@@ -5601,7 +5601,7 @@ The Author of an Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" 
 
 ##### A.1.10.2.1.3 - Triggering Requirement [Core]  <!-- UUID: cef09d74-efc6-45cc-a75b-1132dae9e743 -->
 
-An Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "AEW Proposal") can proceed to a vote only if it is triggered by a Ranked Delegate whose AD Buffer contains at least one (1) month’s worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently specified in A.1.5.4.1 - Levels Of Ranked Delegates. The Core Facilitator is responsible for confirming that these requirements are met.
+An Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "AEW Proposal") can proceed to a vote only if it is triggered by a Ranked Delegate whose AD Buffer contains at least one (1) month's worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently specified in [A.1.5.4.1 - Levels Of Ranked Delegates](f4857d86-f4e7-43c5-be50-fab9e82f0129). The Core Facilitator is responsible for confirming that these requirements are met.
 
 Aligned Delegates (including Ranked Delegates) are prohibited from authoring an Atlas Edit Weekly Cycle Proposal. Ranked Delegates are limited to triggering Proposals authored by others. To trigger a Proposal, the Ranked Delegate must post a reply to the Author’s Weekly Cycle Proposal on the Forum. The Ranked Delegate’s post should signal their intent to trigger the Weekly Cycle Proposal. 
 
@@ -5713,7 +5713,7 @@ The author of an Atlas Edit Monthly Cycle proposal ("proposal", "Atlas Edit Prop
 
 ##### A.1.11.2.1.2 - Triggering Requirement [Core]  <!-- UUID: 7bbfd3b1-99b5-4c60-9292-68d776e03886 -->
 
-An Atlas Edit Monthly Cycle Proposal can proceed to verification by the Core Facilitator only if it is triggered by a Ranked Delegate whose AD Buffer contains at least one (1) month’s worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently specified in A.1.5.4.1 - Levels Of Ranked Delegates. The Core Facilitator is responsible for confirming that these requirements are met.
+An Atlas Edit Monthly Cycle Proposal can proceed to verification by the Core Facilitator only if it is triggered by a Ranked Delegate whose AD Buffer contains at least one (1) month's worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently specified in [A.1.5.4.1 - Levels Of Ranked Delegates](f4857d86-f4e7-43c5-be50-fab9e82f0129). The Core Facilitator is responsible for confirming that these requirements are met.
 
 Aligned Delegates (including Ranked Delegates) are prohibited from authoring an Atlas Edit Monthly Cycle Proposal. Ranked Delegates are limited to triggering Proposals authored by others. To trigger a Proposal, the Ranked Delegate must post a reply to the Author’s Monthly Cycle Proposal on the Forum. The Ranked Delegate should indicate their intent to trigger the Monthly Cycle Proposal.
 
@@ -9844,7 +9844,7 @@ The models for certain risk-factors are still currently under development. See [
 
 Some Allocation System Instances displayed on the RRC Dashboard concern asset types whose risk models have not yet been fully developed. See [A.3.2.1.1.4.3 - Financial Risk Models](2af9fa64-ab25-4017-920c-f1c07dff4c06). An active Instance’s respective Instance Configuration Document will specify its `RRC Framework Full Implementation` status as either `Covered` or `Pending`.
 
-###### A.2.3.9.1.1.3.2.1.2 - Primes’ Total Risk Capital (TRC) Management [Core]  <!-- UUID: 3af8a3a2-25e5-44b3-87a4-7df1f2712685 -->
+###### A.2.3.9.1.1.3.2.1.2 - Primes' Total Risk Capital (TRC) Management [Core]  <!-- UUID: 3af8a3a2-25e5-44b3-87a4-7df1f2712685 -->
 
 Prime Agent teams are responsible for managing their Total Risk Capital (TRC) to continuously meet their Aggregate Required Risk Capital (RRC). The accounting of TRC considers all on-chain holdings and any off-chain agreements, encumbrances, or conditions that may affect the immediate availability or eligibility of capital for RRC coverage. For a definition of Total Risk Capital, see [A.3.2.1.2.1 - Total Risk Capital Definition](6f6b25d6-f73c-4733-ba37-12a0a411433c).
 
@@ -11485,11 +11485,11 @@ The parties to Ecosystem Accord 4 are Sky and Obex, as defined in the subdocumen
 
 ###### A.2.9.2.4.1.1.1 - Sky Details [Core]  <!-- UUID: acb3e4c8-5edb-4ff0-bf47-e0a770cc08e7 -->
 
-The party ‘Sky’ comprises Sky Core.
+The party 'Sky' comprises Sky Core.
 
 ###### A.2.9.2.4.1.1.2 - Obex Details [Core]  <!-- UUID: 665a712a-d211-4a7a-b4c9-a8bad61b3f9c -->
 
-The party ‘Obex’ comprises the Obex Prime Agent, Obex Foundation, and Rubicon.
+The party 'Obex' comprises the Obex Prime Agent, Obex Foundation, and Rubicon.
 
 ###### A.2.9.2.4.1.2 - Duration Of The Accord [Core]  <!-- UUID: 90e40d2a-3baa-411f-9512-b7cf61762a75 -->
 
@@ -11529,11 +11529,11 @@ The parties to Ecosystem Accord 5 are Sky and Core Council Executor Agent 1, as 
 
 ###### A.2.9.2.5.1.1.1 - Sky Details [Core]  <!-- UUID: 5999930f-429a-411a-9103-203357fd5e99 -->
 
-The party ‘Sky’ comprises Sky Core.
+The party 'Sky' comprises Sky Core.
 
 ###### A.2.9.2.5.1.1.2 - Core Council Executor Agent 1 Details [Core]  <!-- UUID: 3e5e6630-0c08-4e89-ae09-a3c45dd654f2 -->
 
-The party ‘Core Council Executor Agent 1’ comprises the Core Council Executor Agent 1 Executor Agent, Core Council Executor Agent 1 Foundation, and Core Council Executor Agent 1 Development Company.
+The party 'Core Council Executor Agent 1' comprises the Core Council Executor Agent 1 Executor Agent, Core Council Executor Agent 1 Foundation, and Core Council Executor Agent 1 Development Company.
 
 ###### A.2.9.2.5.1.2 - Duration Of The Accord [Core]  <!-- UUID: c24d90d8-de2a-4d07-841b-f72ab8bf2b1b -->
 
@@ -37790,7 +37790,7 @@ The documents herein specify all of the logic for Obex, including Obex’s strat
 
 ##### A.6.1.1.5.1 - Introduction [Core]  <!-- UUID: e395a323-3c53-4154-a7e6-d54c363f56f2 -->
 
-Obex is an ‘incubator’ Agent operationalizing a turnkey solution for the Sky Ecosystem’s development and deployment of Prime and Halo Agents. This will give Agent founders a streamlined pathway to establish, build, operationalize, fundraise, and launch new Agents. The overall goal of the Obex Agent is to produce Agents for the Sky Ecosystem at scale, supporting cohorts of new Agent founders through leveraging rich content, workstreams and turnkey services for legal, risk, tech, and operational requirements.
+Obex is an 'incubator' Agent operationalizing a turnkey solution for the Sky Ecosystem's development and deployment of Prime and Halo Agents. This will give Agent founders a streamlined pathway to establish, build, operationalize, fundraise, and launch new Agents. The overall goal of the Obex Agent is to produce Agents for the Sky Ecosystem at scale, supporting cohorts of new Agent founders through leveraging rich content, workstreams and turnkey services for legal, risk, tech, and operational requirements.
 
 ##### A.6.1.1.5.2 - Sky Primitives [Core]  <!-- UUID: de2892b7-087c-49ee-8b85-e3753987d38e -->
 
@@ -37802,11 +37802,11 @@ The documents herein implement the Genesis Primitives for Obex. See [A.2.3.4 - G
 
 ###### A.6.1.1.5.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: de89dc5f-7351-4ea0-bc7b-4a6eb25d6a4d -->
 
-The documents herein contain all data and specifications for Obex’s Instance of the Agent Creation Primitive. See [A.2.3.4.1 - Agent Creation Primitive](82b95f6d-4883-4f08-ac3a-9d8189013fbe).
+The documents herein contain all data and specifications for Obex's Instance of the Agent Creation Primitive. See [A.2.3.4.1 - Agent Creation Primitive](82b95f6d-4883-4f08-ac3a-9d8189013fbe).
 
 ###### A.6.1.1.5.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: 38ef6c16-11fb-400f-ba72-88e7f50fc1e8 -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Agent Creation Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Agent Creation Primitive.
 
 ###### A.6.1.1.5.2.1.1.1.1 - Global Activation Status [Core]  <!-- UUID: d812fe0d-1128-4824-b0df-ea61ba23a624 -->
 
@@ -37902,11 +37902,11 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 ###### A.6.1.1.5.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: 5c7d376d-ebb0-4477-8d96-129d362e7799 -->
 
-The documents herein contain all data and specifications for Obex’s instance of the Prime Transformation Primitive. See [A.2.3.4.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
+The documents herein contain all data and specifications for Obex's instance of the Prime Transformation Primitive. See [A.2.3.4.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
 
 ###### A.6.1.1.5.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: b9e7cf68-feff-4a8b-9126-bc44bf3e7283 -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Prime Transformation Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Prime Transformation Primitive.
 
 ###### A.6.1.1.5.2.1.2.1.1 - Global Activation Status [Core]  <!-- UUID: 32f5e8a7-fdce-4e77-b032-4c1670ecb9da -->
 
@@ -37994,11 +37994,11 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 
 ###### A.6.1.1.5.2.1.3 - Executor Transformation Primitive [Core]  <!-- UUID: ad55a2b2-7b47-401f-967e-f89e601e567c -->
 
-The documents herein contain all data and specifications for Obex’s instance of the Executor Transformation Primitive. See [A.2.3.4.3 - Executor Transformation Primitive](2f249be5-8edb-41e4-b429-734e1ba2cbc7).
+The documents herein contain all data and specifications for Obex's instance of the Executor Transformation Primitive. See [A.2.3.4.3 - Executor Transformation Primitive](2f249be5-8edb-41e4-b429-734e1ba2cbc7).
 
 ###### A.6.1.1.5.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: 7b3f85c4-e618-4071-b07f-5c771a3bc873 -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Executor Transformation Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Executor Transformation Primitive.
 
 ###### A.6.1.1.5.2.1.3.1.1 - Global Activation Status [Core]  <!-- UUID: 7e92d813-a224-495a-b2c7-ad83304b977c -->
 
@@ -38046,11 +38046,11 @@ Because the Executor Transformation Primitive is deployed solely for the one-tim
 
 ###### A.6.1.1.5.2.1.4 - Agent Token Primitive [Core]  <!-- UUID: 29c1a185-926e-42e0-a15c-1aad1dbe9068 -->
 
-The documents herein contain all data and specifications for Obex’s Instance of the Agent Token Primitive. See [A.2.3.4.4 - Agent Token Primitive](2047c361-db28-4952-a70c-83d07b562064).
+The documents herein contain all data and specifications for Obex's Instance of the Agent Token Primitive. See [A.2.3.4.4 - Agent Token Primitive](2047c361-db28-4952-a70c-83d07b562064).
 
 ###### A.6.1.1.5.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: ea5efaa6-992d-4e59-9ebb-4c027ee7aa87 -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Agent Token Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Agent Token Primitive.
 
 ###### A.6.1.1.5.2.1.4.1.1 - Global Activation Status [Core]  <!-- UUID: 0dbea81d-1a7b-4c83-8817-20ee5aa3e90b -->
 
@@ -38102,11 +38102,11 @@ The documents herein define the parameters of the Single Instance of the Agent T
 
 ###### A.6.1.1.5.2.1.4.2.1.1.1 - Token Name [Core]  <!-- UUID: 86cff886-c2dd-447b-b300-7f3ac0334624 -->
 
-The name of Obex’s token is Obex.
+The name of Obex's token is Obex.
 
 ###### A.6.1.1.5.2.1.4.2.1.1.2 - Token Symbol [Core]  <!-- UUID: 65767abc-766f-43e0-88c1-12b9a1855868 -->
 
-The symbol of Obex’s token is OBEX.
+The symbol of Obex's token is OBEX.
 
 ###### A.6.1.1.5.2.1.4.2.1.1.3 - Genesis Supply [Core]  <!-- UUID: 19ad3fe9-9161-4ddd-af93-d3fc854d51ed -->
 
@@ -38164,11 +38164,11 @@ The documents herein implement the Operational Primitives for Obex. See [A.2.3.5
 
 ###### A.6.1.1.5.2.2.1 - Executor Accord Primitive [Core]  <!-- UUID: e0baddbe-f261-4439-8fc0-e03b521c10ad -->
 
-The documents herein contain all data and specifications for Obex’s Instances of the Executor Accord Primitive. See [A.2.3.5.1 - Executor Accord Primitive](88017877-3ec1-4c43-a035-6bebdf11d9bb).
+The documents herein contain all data and specifications for Obex's Instances of the Executor Accord Primitive. See [A.2.3.5.1 - Executor Accord Primitive](88017877-3ec1-4c43-a035-6bebdf11d9bb).
 
 ###### A.6.1.1.5.2.2.1.1 - Primitive Hub Document [Core]  <!-- UUID: 4f398e78-1f12-447d-bb28-71cfc4e9ce4c -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Executor Accord Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Executor Accord Primitive.
 
 ###### A.6.1.1.5.2.2.1.1.1 - Global Activation Status [Core]  <!-- UUID: 4bb8c2f6-b020-4f18-aa1e-9ac5962c6fac -->
 
@@ -38256,11 +38256,11 @@ The in progress Invocations of the Executor Accord Primitive are contained herei
 
 ###### A.6.1.1.5.2.2.2 - Root Edit Primitive [Core]  <!-- UUID: b69559bf-1acb-4f9c-8638-19fb8ef20fc2 -->
 
-The documents herein contain all data and specifications for Obex’s Instance of the Root Edit Primitive. See [A.2.3.5.2 - Root Edit Primitive](78488c6b-d77f-4344-b954-476e415a2c7d).
+The documents herein contain all data and specifications for Obex's Instance of the Root Edit Primitive. See [A.2.3.5.2 - Root Edit Primitive](78488c6b-d77f-4344-b954-476e415a2c7d).
 
 ###### A.6.1.1.5.2.2.2.1 - Primitive Hub Document [Core]  <!-- UUID: f6e6bc46-aa12-4a74-8433-85ffcfad4917 -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Root Edit Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Root Edit Primitive.
 
 ###### A.6.1.1.5.2.2.2.1.1 - Global Activation Status [Core]  <!-- UUID: 363d6ab5-1065-4cb5-8326-506a7dc62db6 -->
 
@@ -38392,11 +38392,11 @@ Because the Root Edit Primitive is deployed only once, no further Instances of t
 
 ###### A.6.1.1.5.2.2.3 - Light Agent Primitive [Core]  <!-- UUID: 32cf649f-13f7-41e2-bbe4-347a14532114 -->
 
-The documents herein contain all data and specifications for Obex’s Instances of the Light Agent Primitive. See [A.2.3.5.3 - Light Agent Primitive](44028423-2cd1-40cb-89ac-3f762b602b90).
+The documents herein contain all data and specifications for Obex's Instances of the Light Agent Primitive. See [A.2.3.5.3 - Light Agent Primitive](44028423-2cd1-40cb-89ac-3f762b602b90).
 
 ###### A.6.1.1.5.2.2.3.1 - Primitive Hub Document [Core]  <!-- UUID: c4b311b3-3f2c-483f-b24a-845ef5c6a6df -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Light Agent Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Light Agent Primitive.
 
 ###### A.6.1.1.5.2.2.3.1.1 - Global Activation Status [Core]  <!-- UUID: afc008c0-e6d3-4973-b501-0f9f2db1cfa4 -->
 
@@ -38448,11 +38448,11 @@ The documents herein implement the Ecosystem Upkeep Primitives for Obex. See [A.
 
 ###### A.6.1.1.5.2.3.1 - Distribution Requirement Primitive [Core]  <!-- UUID: 518b0729-7d39-4e94-96ae-4e1dce577b3a -->
 
-The documents herein contain all data and specifications for Obex’s Instance of the Distribution Requirement Primitive. See [A.2.3.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
+The documents herein contain all data and specifications for Obex's Instance of the Distribution Requirement Primitive. See [A.2.3.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
 
 ###### A.6.1.1.5.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 367db765-3d90-449f-88d7-356eb2e5df6b -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Distribution Requirement Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Distribution Requirement Primitive.
 
 ###### A.6.1.1.5.2.3.1.1.1 - Global Activation Status [Core]  <!-- UUID: 6a8a9da7-4c67-4553-84fd-5ad743f50847 -->
 
@@ -38520,7 +38520,7 @@ This document defines the protocol for routine ongoing management of the Single 
 
 ###### A.6.1.1.5.2.3.1.2.1.2.1.1 - Process Definition For Buy Back And Distribution Obligation [Core]  <!-- UUID: ec192467-881e-4af6-9378-1fa4e36a6c18 -->
 
-The process to buy back and distribute 0.25% of Obex’s tokens per year will be specified in future iterations of the Obex Artifact.
+The process to buy back and distribute 0.25% of Obex's tokens per year will be specified in future iterations of the Obex Artifact.
 
 ###### A.6.1.1.5.2.3.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: fc2e23dd-7ca5-4487-b7ba-283156adab6f -->
 
@@ -38556,11 +38556,11 @@ Because the Distribution Requirement Primitive is deployed only once, no further
 
 ###### A.6.1.1.5.2.3.2 - Market Cap Fee Primitive [Core]  <!-- UUID: ad5238bd-b200-4f4d-9670-fae8fd1bdb6a -->
 
-The documents herein contain all data and specifications for Obex’s instances of the Market Cap Fee Primitive. See [A.2.3.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
+The documents herein contain all data and specifications for Obex's instances of the Market Cap Fee Primitive. See [A.2.3.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
 ###### A.6.1.1.5.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: fba527ac-64a7-4f7e-8bf2-411f87d3d9b4 -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Market Cap Fee Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Market Cap Fee Primitive.
 
 ###### A.6.1.1.5.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 11fbb511-f13f-4390-a843-7a436f6438cf -->
 
@@ -38608,11 +38608,11 @@ The in progress Invocations of the Market Cap Fee Primitive are contained herein
 
 ###### A.6.1.1.5.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: 1cec73ac-6b70-48ff-a7ff-1d0f689d602f -->
 
-The documents herein contain all data and specifications for Obex’s instance of the Upkeep Rebate Primitive. See [A.2.3.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
+The documents herein contain all data and specifications for Obex's instance of the Upkeep Rebate Primitive. See [A.2.3.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
 ###### A.6.1.1.5.2.3.3.1 - Primitive Hub Document [Core]  <!-- UUID: 36f57327-abff-4ac1-890b-c5097c449b02 -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Upkeep Rebate Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Upkeep Rebate Primitive.
 
 ###### A.6.1.1.5.2.3.3.1.1 - Global Activation Status [Core]  <!-- UUID: 28f93080-7f1f-45f1-a9c6-a78cea11cbbd -->
 
@@ -38680,7 +38680,7 @@ When paying Ecosystem Upkeep fees, Obex deducts the rebate from the fees it pays
 
 ###### A.6.1.1.5.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: a8afed5e-3721-40a3-847c-3589a5dfce95 -->
 
-Operational GovOps reviews Obex’s calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Obex Prime" category and work with Obex to resolve the disagreement. If Operational GovOps and Obex cannot resolve the disagreement, it must be escalated to Core GovOps.
+Operational GovOps reviews Obex's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Obex Prime" category and work with Obex to resolve the disagreement. If Operational GovOps and Obex cannot resolve the disagreement, it must be escalated to Core GovOps.
 
 ###### A.6.1.1.5.2.3.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 025b8abf-69a3-4749-95f3-60a7268983ff -->
 
@@ -38720,11 +38720,11 @@ The documents herein implement the SkyLink Primitives for Obex. See [A.2.3.7 - S
 
 ###### A.6.1.1.5.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: 5642de19-bfb3-4d54-9bc9-19b11b60a3c2 -->
 
-The documents herein contain all data and specifications for Obex’s Instances of the Token SkyLink Primitive. See [A.2.3.7.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
+The documents herein contain all data and specifications for Obex's Instances of the Token SkyLink Primitive. See [A.2.3.7.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
 
 ###### A.6.1.1.5.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: 3ce6f8aa-7a27-4701-83cb-d1fc4c41bb28 -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Token SkyLink Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Token SkyLink Primitive.
 
 ###### A.6.1.1.5.2.4.1.1.1 - Global Activation Status [Core]  <!-- UUID: 9d778551-1fd4-4206-a0e0-cb555f6d1e34 -->
 
@@ -38776,11 +38776,11 @@ The documents herein implement the Demand Side Stablecoin Primitives for Obex. S
 
 ###### A.6.1.1.5.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: f055e990-51e6-44c2-8d14-4e8694e62c1d -->
 
-The documents herein contain all data and specifications for Obex’s instances of the Distribution Reward Primitive. See [A.2.3.8.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
+The documents herein contain all data and specifications for Obex's instances of the Distribution Reward Primitive. See [A.2.3.8.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
 
 ###### A.6.1.1.5.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: f11e8f01-a17f-44e7-aac1-56dbd5e9272e -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Distribution Reward Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Distribution Reward Primitive.
 
 ###### A.6.1.1.5.2.5.1.1.1 - Global Activation Status [Core]  <!-- UUID: 94bbd7ec-e724-41e7-b74a-0e567768f219 -->
 
@@ -38828,11 +38828,11 @@ The in progress Invocations of the Distribution Reward Primitive are contained h
 
 ###### A.6.1.1.5.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: edc5cd33-99a9-4687-b3fe-8c3e07da92e8 -->
 
-The documents herein contain all data and specifications for Obex’s Instances of the Integration Boost Primitive. See [A.2.3.8.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
+The documents herein contain all data and specifications for Obex's Instances of the Integration Boost Primitive. See [A.2.3.8.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
 
 ###### A.6.1.1.5.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: f9d5c302-4695-436f-9a06-595c06da2fc9 -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Integration Boost Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Integration Boost Primitive.
 
 ###### A.6.1.1.5.2.5.2.1.1 - Global Activation Status [Core]  <!-- UUID: f6c8017d-81cc-4ad5-ac3c-c68a354f2a61 -->
 
@@ -38880,11 +38880,11 @@ The in progress Invocations of the Integration Boost Primitive are contained her
 
 ###### A.6.1.1.5.2.5.3 - Pioneer Chain Primitive [Core]  <!-- UUID: 2f0a0b71-759e-4f14-b63d-0286450855fe -->
 
-The documents herein contain all data and specifications for Obex’s Instances of the Pioneer Chain Primitive. See [A.2.3.8.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
+The documents herein contain all data and specifications for Obex's Instances of the Pioneer Chain Primitive. See [A.2.3.8.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
 
 ###### A.6.1.1.5.2.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: 7e7dc6f6-bfe1-460e-9fb1-35a906f75259 -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Pioneer Chain Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Pioneer Chain Primitive.
 
 ###### A.6.1.1.5.2.5.3.1.1 - Global Activation Status [Core]  <!-- UUID: c13df592-a35a-4d72-b33e-65c3ee9ba799 -->
 
@@ -38936,11 +38936,11 @@ The documents herein implement the Supply Side Stablecoin Primitives for Obex. S
 
 ###### A.6.1.1.5.2.6.1 - Allocation System Primitive [Core]  <!-- UUID: fe98c7e7-b7f8-4f2c-800a-bca5192576ac -->
 
-The documents herein contain all data and specifications for Obex’s Allocation System Primitive Instances.
+The documents herein contain all data and specifications for Obex's Allocation System Primitive Instances.
 
 ###### A.6.1.1.5.2.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: cbf426ee-7754-49c5-9040-b29a5126da39 -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Obex Liquidity Layer.
+The documents herein organize all base information relevant to Obex's usage of the Obex Liquidity Layer.
 
 ###### A.6.1.1.5.2.6.1.1.1 - Global Activation Status [Core]  <!-- UUID: 02a794ce-0d32-4044-80c2-1ba5bf0b1ca0 -->
 
@@ -38988,7 +38988,7 @@ The subtrees for Instances of the Allocation System Primitive with `Suspended` S
 
 ###### A.6.1.1.5.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: aa59c9ff-7347-407f-9d55-59fa499a58c9 -->
 
-The documents herein provide general specifications of the Obex Liquidity Layer and define Obex’s overarching strategy and operational framework for managing across all Instances.
+The documents herein provide general specifications of the Obex Liquidity Layer and define Obex's overarching strategy and operational framework for managing across all Instances.
 
 ###### A.6.1.1.5.2.6.1.2.1 - General Specifications [Core]  <!-- UUID: 1fa01b00-08d6-4344-ab6c-7a0cbea5e06c -->
 
@@ -39000,7 +39000,7 @@ The documents herein describe the high-level design of the Obex Liquidity Layer,
 
 ###### A.6.1.1.5.2.6.1.2.1.1.1 - Obex Liquidity Layer Addresses [Core]  <!-- UUID: ef875c4e-2303-4b94-8c92-6831ec96fac9 -->
 
-The documents herein provide the addresses of the Obex Liquidity Layer’s constituent contracts.
+The documents herein provide the addresses of the Obex Liquidity Layer's constituent contracts.
 
 ###### A.6.1.1.5.2.6.1.2.1.1.1.1 - Allocator Contract Addresses [Core]  <!-- UUID: 4cd1c7c9-f246-40b1-a31c-4512638f7fd3 -->
 
@@ -39256,13 +39256,13 @@ The modification of signers for the Freezer Multisig will be specified in a futu
 
 The documents herein specify requirements related to Obex’s Total Risk Capital (TRC) management.
 
-###### A.6.1.1.5.2.6.1.2.1.3.1 - Rubicon’s Operation Of Obex Liquidity Layer And Agreement Regarding Encumbrance Ratio [Core]  <!-- UUID: d915471b-230e-41ab-bc86-68bc9453e417 -->
+###### A.6.1.1.5.2.6.1.2.1.3.1 - Rubicon's Operation Of Obex Liquidity Layer And Agreement Regarding Encumbrance Ratio [Core]  <!-- UUID: d915471b-230e-41ab-bc86-68bc9453e417 -->
 
 Rubicon will operate the Obex Liquidity Layer and agrees to stay at or below a 90% Encumbrance Ratio. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9).
 
 ###### A.6.1.1.5.2.6.1.2.1.3.2 - Rubicon’s Total Risk Capital (TRC) Management Processes [Core]  <!-- UUID: 8248b6dc-0dd9-4019-98e6-83c8d5892317 -->
 
-As operators of the Obex Liquidity Layer, Rubicon automatically inherits, and is subject to, the base class of operational requirements related to Total Risk Capital management defined in [A.2.3.9.1.1.3.2.1.2 - Primes’ Total Risk Capital (TRC) Management](3af8a3a2-25e5-44b3-87a4-7df1f2712685). Modifications to the base operational logic automatically propagate to the Obex Artifact.
+As operators of the Obex Liquidity Layer, Rubicon automatically inherits, and is subject to, the base class of operational requirements related to Total Risk Capital management defined in [A.2.3.9.1.1.3.2.1.2 - Primes' Total Risk Capital (TRC) Management](3af8a3a2-25e5-44b3-87a4-7df1f2712685). Modifications to the base operational logic automatically propagate to the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.2 - Obex Liquidity Layer Operational Processes [Core]  <!-- UUID: f0393207-2bae-42a2-9ca0-df8ffd4d2a39 -->
 
@@ -39692,7 +39692,7 @@ The function call is as follows:
 
 ###### A.6.1.1.5.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: 73da45c9-78eb-49f3-a1d5-593780e9d362 -->
 
-The documents herein define the protocol for querying, setting, and adjusting `Rate Limits` for Instances using their `Rate LimitID`s. The Rate Limits must be maintained in line with Obex’s strategy, market conditions, and security considerations.
+The documents herein define the protocol for querying, setting, and adjusting `Rate Limits` for Instances using their `Rate LimitID`s. The Rate Limits must be maintained in line with Obex's strategy, market conditions, and security considerations.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.3.1 - Get Rate Limit Data [Core]  <!-- UUID: 716b493e-d102-47c8-8f87-bcb1c809c8ee -->
 
@@ -39826,7 +39826,7 @@ For more detailed instructions on the code to execute this see [A.6.1.1.5.2.6.1.
 
 ###### A.6.1.1.5.2.6.1.2.2.3.4 - USDS Burn Action [Core]  <!-- UUID: 3304ecba-6dad-45af-886e-878648d2abb8 -->
 
-This document defines the action that should be performed if there is a need to repay and then burn Obex’s USDS debt. The operator must call the `burnUSDS` function.
+This document defines the action that should be performed if there is a need to repay and then burn Obex's USDS debt. The operator must call the `burnUSDS` function.
 
 The function call is as follows:
 
@@ -39896,7 +39896,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.5.2.6.1.3.1.1.1.2.3 - RateLimitIDs [Core]  <!-- UUID: d2d46842-e9dd-4f88-bfa5-5e947381f70b -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Obex Artifact.
+The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.3.1.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 97344456-e215-42e5-a149-89f0276e1b4c -->
 
@@ -39974,11 +39974,11 @@ The in progress Invocations of the Allocation System Primitive are contained her
 
 ###### A.6.1.1.5.2.6.2 - Junior Risk Capital Rental Primitive [Core]  <!-- UUID: 473d0f9e-a5dc-48ee-84b9-a48cd2b6f215 -->
 
-The documents herein contain all data and specifications for Obex’s Instances of the Junior Risk Capital Rental Primitive. See [A.2.3.9.2 - Junior Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).
+The documents herein contain all data and specifications for Obex's Instances of the Junior Risk Capital Rental Primitive. See [A.2.3.9.2 - Junior Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).
 
 ###### A.6.1.1.5.2.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: 7c5c39de-a531-42a7-8b74-e8e6ffeb2bc3 -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Junior Risk Capital Rental Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Junior Risk Capital Rental Primitive.
 
 ###### A.6.1.1.5.2.6.2.1.1 - Global Activation Status [Core]  <!-- UUID: c3a0f75a-d418-411a-bc8e-ccde6aa938b1 -->
 
@@ -40026,11 +40026,11 @@ The in progress Invocations of the Junior Risk Capital Rental Primitive are cont
 
 ###### A.6.1.1.5.2.6.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: fab6088e-5b4c-4ab4-af33-051920120273 -->
 
-The documents herein contain all data and specifications for Obex’s Instances of the Asset Liability Management Rental Primitive. See [A.2.3.9.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).
+The documents herein contain all data and specifications for Obex's Instances of the Asset Liability Management Rental Primitive. See [A.2.3.9.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).
 
 ###### A.6.1.1.5.2.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: 804821a4-0344-4642-9575-8bde38f8edef -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Asset Liability Management Rental Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Asset Liability Management Rental Primitive.
 
 ###### A.6.1.1.5.2.6.3.1.1 - Global Activation Status [Core]  <!-- UUID: 80b90a60-c898-4700-8c19-c168709b2bb0 -->
 
@@ -40082,11 +40082,11 @@ The documents herein implement the Core Governance Primitives for Obex. See [A.2
 
 ###### A.6.1.1.5.2.7.1 - Core Governance Reward Primitive [Core]  <!-- UUID: 871764eb-5ccb-47fc-8852-0523e989bef6 -->
 
-The documents herein contain all data and specifications for Obex’s Instances of the Core Governance Reward Primitive. See [A.2.3.10.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
+The documents herein contain all data and specifications for Obex's Instances of the Core Governance Reward Primitive. See [A.2.3.10.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
 
 ###### A.6.1.1.5.2.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: e0e1769f-ecbe-4598-a236-318d7b00c929 -->
 
-The documents herein organize all base information relevant to Obex’s usage of the Core Governance Reward Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Core Governance Reward Primitive.
 
 ###### A.6.1.1.5.2.7.1.1.1 - Global Activation Status [Core]  <!-- UUID: a5f4abc0-9d2f-4356-9977-919fcf8ca427 -->
 
@@ -40134,7 +40134,7 @@ The in progress Invocations of the Core Governance Reward Primitive are containe
 
 ##### A.6.1.1.5.3 - Omni Documents [Core]  <!-- UUID: 239c5dd4-46a1-4936-8e31-f37ea2aa802c -->
 
-The documents herein define Obex’s strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
+The documents herein define Obex's strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
 
 ###### A.6.1.1.5.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: bdad4ea3-7cf2-40fb-a8ab-4bb8b320e4c9 -->
 
@@ -40146,15 +40146,15 @@ Obex uses the Sky Forum for governance-related discussion. Posts should use the 
 
 ###### A.6.1.1.5.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: ec6dc53f-7398-4242-afc4-81e436541da2 -->
 
-The documents herein specify Obex’s emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Obex Artifact.
+The documents herein specify Obex's emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: e5ac06b5-0f4a-4506-bfa4-a4d18901e1cc -->
 
-The documents herein specify Obex’s emergency response protocol in situations solely impacting Obex versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Obex Artifact.
+The documents herein specify Obex's emergency response protocol in situations solely impacting Obex versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Obex Artifact.
 
 ###### A.6.1.1.5.3.2 - Strategic Intent And Operating Model [Core]  <!-- UUID: b380c021-e579-47a2-ae01-c85340caa135 -->
 
-Obex is an incubation-focused Prime within the Sky Ecosystem. It provides capital, infrastructure, and technical support to early-stage teams building on Sky Primitives. Obex’s purpose is to accelerate aligned builders through structured incubation and funding. The subdocuments herein define the operating model, structure, mandate, and operational standards of Obex.
+Obex is an incubation-focused Prime within the Sky Ecosystem. It provides capital, infrastructure, and technical support to early-stage teams building on Sky Primitives. Obex's purpose is to accelerate aligned builders through structured incubation and funding. The subdocuments herein define the operating model, structure, mandate, and operational standards of Obex.
 
 ###### A.6.1.1.5.3.2.1 - Operating Model [Core]  <!-- UUID: 7d7658f6-31a9-4d73-8d3f-19b87d0e89ec -->
 
@@ -40166,7 +40166,7 @@ Obex follows a direct-execution model rather than a multi-layered governance sys
 
 ###### A.6.1.1.5.3.2.2 - Risk and Compliance [Core]  <!-- UUID: d3466d20-01c9-453a-aee0-e7b8f9e17cf0 -->
 
-Obex adheres to the Sky Ecosystem’s standards for risk, transparency, and recourse.
+Obex adheres to the Sky Ecosystem's standards for risk, transparency, and recourse.
 
 ###### A.6.1.1.5.3.2.3 - Ecosystem Accord Alignment [Core]  <!-- UUID: 7f550ce1-dbd5-43dc-8c03-741eb6b9df4a -->
 
