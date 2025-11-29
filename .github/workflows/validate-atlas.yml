@@ -2,50 +2,16 @@ name: Validate Atlas on Pull Request
 
 on:
   pull_request:
-    paths:
-      - "Sky Atlas/Sky Atlas.md"
 
 jobs:
   validate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write # Required for posting comments
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Validate Atlas Markdown
-        id: validate
         uses: Atlas-Axis/atlas-validator@main
         with:
           file_path: "Sky Atlas/Sky Atlas.md"
-        continue-on-error: true
-
-      - name: Comment on PR
-        if: steps.validate.outputs.has_errors == 'true'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-
-            // Read the validation summary file
-            let summary = '';
-            try {
-              summary = fs.readFileSync('validation-summary.md', 'utf8');
-            } catch (error) {
-              summary = '## ⚠️ Validation Summary Not Available\n\nUnable to read validation results.';
-            }
-
-            // Post comment with validation errors
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: summary
-            });
-
-      - name: Fail if validation errors
-        if: steps.validate.outputs.has_errors == 'true'
-        run: exit 1
