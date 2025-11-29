@@ -2082,7 +2082,7 @@ Each Level 3 Ranked Delegate is eligible for a budget of 48,000 USDS per year.
 
 The Level 3 Ranked Delegates are the Aligned Delegates with the greatest delegated Voting Power who are not Level 1 Ranked Delegates or Level 2 Ranked Delegates.
 
-###### A.1.5.4.1.3.3.1 - Delegated Voting Power - Element Annotation [Annotation]  <!-- UUID: 8012ae3b-bcd7-4fdc-a93c-8c33d770a7ca -->
+###### A.1.5.4.1.3.3.0.3.1 - Delegated Voting Power - Element Annotation [Annotation]  <!-- UUID: 8012ae3b-bcd7-4fdc-a93c-8c33d770a7ca -->
 
 The element "delegated Voting Power" refers to the cumulative SKY that has been delegated to an Aligned Delegate's Delegate Contract by SKY holders and Staking users.
 
@@ -2118,7 +2118,7 @@ Should an RD's voting-communication activity fall to 75% of all eligible votes w
 
 The element "proportional linear scale" describes a method where the budget reduction is directly proportional to the decline in voting activity between 95% and 75%. Here, the pertinent range of voting activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the RD budget decreases by **5%** for every percentage point drop in voting activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).
 
-#### A.1.5.4.3.2.0.3.2 - Voting-Communication Metrics - Element Annotation [Annotation]  <!-- UUID: ca88baad-2457-4454-9e34-367156a59e78 -->
+###### A.1.5.4.3.2.0.3.2 - Voting-Communication Metrics - Element Annotation [Annotation]  <!-- UUID: ca88baad-2457-4454-9e34-367156a59e78 -->
 
 The element "voting-communication metrics" refers to the percentage of votes for which an Aligned Delegate provides the required written explanations or justifications of their casted votes in Governance Polls and Executive Votes. These written explanations are posted in the AD's Forum thread. 
 
@@ -2180,7 +2180,7 @@ Are there risks that should be considered regarding the potential mismanagement 
 
 If an AD is unranked for an entire month, any contents in its AD Buffer can be paid out in the next monthly compensation cycle, except as specified in Payout Limitations For ADs Triggering Atlas Edit Weekly Cycle Proposals.
 
-#### A.1.5.4.4.2.0 - AD Buffer And Loss Of Budget - Element Annotation [Annotation]  <!-- UUID: ba40212e-fb72-4537-ba07-ff422d384539 -->
+###### A.1.5.4.4.2.0.3.1 - AD Buffer And Loss Of Budget - Element Annotation [Annotation]  <!-- UUID: ba40212e-fb72-4537-ba07-ff422d384539 -->
 
 See [A.1.5.4.4.2 - AD Buffer And Loss Of Budget - Element Annotation](e360a6ac-822f-4ab5-ac39-25f56aeb8f2b).
 
@@ -2206,7 +2206,7 @@ See [A.1.5.7.0.3.1 - One Month’s Budget Allocation - Element Annotation](e360a
 
 The element "operational security or privacy" refers to disclosure or compromise of sensitive information related to the AD's identity, location and/or operations.
 
-###### A.1.5.4.4.3.4 - Whistleblower Bounty - Element Annotation [Annotation]  <!-- UUID: 872e042d-5d66-4e50-9096-f4faf6c8fb41 -->
+###### A.1.5.4.4.3.0.3.4 - Whistleblower Bounty - Element Annotation [Annotation]  <!-- UUID: 872e042d-5d66-4e50-9096-f4faf6c8fb41 -->
 
 The element "whistleblower bounty" is a financial reward allocated to individuals who responsibly provide credible evidence that is helpful to the Facilitators’ investigation of an AD’s misalignment or operational security breach.
 
@@ -2224,7 +2224,7 @@ Prior to January 1, 2026, Aligned Delegates (ADs) are permitted to concurrently 
 
 This document constitutes an exception to [A.1.4.5 - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c) which generally prohibits Alignment Conservers from being operationally active in multiple ecosystem roles.
 
-#### A.1.5.6.1 - Budget Amount For Ranked Delegate Slots [Core]  <!-- UUID: ef801c98-d49a-4c93-a8a3-bb22e7ee3ade -->
+#### A.1.5.6 - Budget Amount For Ranked Delegate Slots [Core]  <!-- UUID: ef801c98-d49a-4c93-a8a3-bb22e7ee3ade -->
 
 The budget for each Ranked Delegate slot is 48,000 USDS per year.
 
@@ -11519,7 +11519,7 @@ The Initial Allocation is distributed in USDS to the Obex SubProxy.
 
 The transfer of 21,000,000 USDS from the Surplus Buffer to the Obex SubProxy for the Genesis Capital Allocation must be included in the November 13, 2025 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
-#### A.2.9.2.5 Ecosystem Accord 5: Sky And Core Council Executor Agent 1 [Core]  <!-- UUID: 3aa58bdc-1c86-4a4e-8ca5-5a836cd2e465 -->
+#### A.2.9.2.5 - Ecosystem Accord 5: Sky And Core Council Executor Agent 1 [Core]  <!-- UUID: 3aa58bdc-1c86-4a4e-8ca5-5a836cd2e465 -->
 
 The subdocuments herein record the terms of agreement between Sky and Core Council Executor Agent 1 as agreed in Ecosystem Accord 5.
 
