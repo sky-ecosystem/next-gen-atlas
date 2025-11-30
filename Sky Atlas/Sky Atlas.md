@@ -15348,6 +15348,38 @@ The activation of the Kicker Module will be executed in the October 30, 2025 Exe
 
 The parameters of the Smart Burn Engine can be modified pursuant to the Operational Weekly Cycle. The Core Facilitator, in consultation with the Stability Scope Advisors, can propose changes to the `kbump` and `hop` parameters directly via an Executive Vote without requiring a Governance Poll. LSEV2-SKY-A-USDS rewardsDuration should always match the value of the hop parameter without requiring prior governance authorization. Changes to other parameters require a Governance Poll followed by an Executive Vote.
 
+### A.3.5.3 - Sky Capital [Section]  <!-- UUID: f45ca50a-e1d3-4504-8e40-dd45b5fb3f83 -->
+
+This Section defines the different types of Sky capital and rules related to that capital.
+
+#### A.3.5.3.1 - Capital Types [Core]  <!-- UUID: d6973edf-ce53-4f77-b656-677002dfd6b4 -->
+
+The documents herein define the different types of Sky capital.
+
+##### A.3.5.3.1.1 - Aggregate Capital Buffer [Core]  <!-- UUID: cd36d152-1ba6-4958-9afd-d182e488e358 -->
+
+The Aggregate Capital Buffer is the sum of (1) the Sky Surplus Buffer (see [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294)), (2) the Core Council Buffer (see [A.2.4.1.4.1.1.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)), (3) the Aligned Delegates Buffer (see [A.2.4.1.4.1.2.1 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a)), and (4) the capital held in the SubProxy of each Prime Agent. The Aggregate Capital Buffer provides a useful metric for assessing the capital level of the entire Sky Ecosystem on a consolidated basis.
+
+##### A.3.5.3.1.2 - Aggregate Backstop Capital [Core]  <!-- UUID: 6dbead44-5ac4-4c5b-be3c-64eddd004e5c -->
+
+Aggregate Backstop Capital is (1) the sum of the Genesis Capital held in the SubProxy of each Genesis Agent plus (2) the Core Council Buffer plus (3) the Aligned Delegates Buffer minus (4) the Allocated Genesis Capital. Aggregate Backstop Capital represents the “safety net” of excess capital backing USDS beyond standard collateral.
+
+##### A.3.5.3.1.3 - Allocated Genesis Capital [Core]  <!-- UUID: c3b6546e-48f9-42ac-9a6c-524ed7ac91cb -->
+
+Allocated Genesis Capital is the negative of the Surplus Buffer. Allocated Genesis Capital represents the funds Sky Core has deployed into the Genesis Agents to bootstrap innovation and Agent diversity.
+
+#### A.3.5.3.2 - Capital Types [Core]  <!-- UUID: 3b829981-2fe0-49dd-bfef-8a44edc9514d -->
+
+The documents herein define capital targets for Sky and processes for achieving those targets over time.
+
+##### A.3.5.3.2.1 - Target Aggregate Backstop Capital [Core]  <!-- UUID: f73dda95-0b1c-4bdc-b957-469253d27281 -->
+
+The current Target Aggregate Backstop Capital is 125 million USDS.
+
+##### A.3.5.3.2.2 - Capital Retention To Achieve Target Aggregate Backstop Capital [Core]  <!-- UUID: ae3b42cd-cdda-424a-b09a-87e2796538ba -->
+
+When Aggregate Backstop Capital is below Target Aggregate Backstop Capital, Sky Governance will retain 25% of Net Revenue (see [A.2.4.1.2.1 - Step 0: Net Revenue](c09435ff-d876-442a-899c-ad494175500b)) to grow Aggregate Backstop Capital. In the short term, this is implemented on a monthly basis by Sky Governance by adjusting the parameters of the Treasury Management System and the Smart Burn Engine.
+
 ## A.3.6 - SKY Backstop [Article]  <!-- UUID: 4d8b0d82-97da-4041-b185-4b98c2779cbe -->
 
 This Article governs the SKY Backstop. If the USDS Stablecoin becomes undercollateralized, the Sky Protocol will automatically generate and sell SKY to recapitalize the system. The period when the recapitalization mechanism is actively minting and selling SKY to close the shortfall is termed a "SKY Backstop Event."
