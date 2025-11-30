@@ -2114,17 +2114,7 @@ If an RD provides the required voting-communication on less than 95% of all elig
 
 Should an RD's voting-communication activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
 
-###### A.1.5.4.3.2.0.3.1 - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57c35484-4c5f-4349-a7fe-097618b4213a -->
-
-The element "proportional linear scale" describes a method where the budget reduction is directly proportional to the decline in voting activity between 95% and 75%. Here, the pertinent range of voting activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the RD budget decreases by **5%** for every percentage point drop in voting activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).
-
-###### A.1.5.4.3.2.0.3.2 - Voting-Communication Metrics - Element Annotation [Annotation]  <!-- UUID: ca88baad-2457-4454-9e34-367156a59e78 -->
-
-The element "voting-communication metrics" refers to the percentage of votes for which an Aligned Delegate provides the required written explanations or justifications of their casted votes in Governance Polls and Executive Votes. These written explanations are posted in the AD's Forum thread. 
-
-The Target Document’s function is to ensure that SKY holders delegating to the AD have full transparency to understand the AD's decision-making process.
-
-#### NR-12 - Criteria For AD Voting-Communication Requirement [Needed Research]  <!-- UUID: ea34cf2b-b756-4c55-b317-7e4802b6f9b3 -->
+###### NR-12 - Criteria For AD Voting-Communication Requirement [Needed Research]  <!-- UUID: ea34cf2b-b756-4c55-b317-7e4802b6f9b3 -->
 
 **Content**:
 
@@ -2135,6 +2125,16 @@ How might ADs' explanations vary across different types of votes, and should the
 What feedback mechanisms should be in place to help ADs improve their explanations?
 
 What are the risks of not having explicit criteria for voting-communications? One is the potential failure of the Target Document's objective to ensure that ADs' voting activity is transparent to SKY holders who have delegated to that AD.
+
+###### A.1.5.4.3.2.0.3.1 - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57c35484-4c5f-4349-a7fe-097618b4213a -->
+
+The element "proportional linear scale" describes a method where the budget reduction is directly proportional to the decline in voting activity between 95% and 75%. Here, the pertinent range of voting activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the RD budget decreases by **5%** for every percentage point drop in voting activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).
+
+###### A.1.5.4.3.2.0.3.2 - Voting-Communication Metrics - Element Annotation [Annotation]  <!-- UUID: ca88baad-2457-4454-9e34-367156a59e78 -->
+
+The element "voting-communication metrics" refers to the percentage of votes for which an Aligned Delegate provides the required written explanations or justifications of their casted votes in Governance Polls and Executive Votes. These written explanations are posted in the AD's Forum thread. 
+
+The Target Document’s function is to ensure that SKY holders delegating to the AD have full transparency to understand the AD's decision-making process.
 
 ##### A.1.5.4.3.3 - Emergency Communications Requirement [Core]  <!-- UUID: 43db9780-6c0a-458a-94c2-5951b5b80787 -->
 
@@ -2166,15 +2166,15 @@ This includes calculating:
 4. the amount to be paid out to each Aligned Delegate.
 5. Once calculated by the Core Facilitator, AD payouts are paid from the Aligned Delegates Buffer Multisig. See [A.2.4.1.4.1.2.1 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a).
 
-###### A.1.5.4.4.1.1 - One Month's Budget Allocation [Core]  <!-- UUID: 48a2c0f5-5f09-44d3-a930-47e6c12fb901 -->
-
-To arrive at the value of this one-month budget threshold in USDS, see Levels Of Ranked Delegates.
-
-#### NR-10 - AD Monthly Compensation Cycle [Needed Research]  <!-- UUID: 6502ce76-3f29-4f50-a68c-9126feba1fb6 -->
+###### NR-10 - AD Budget Management [Needed Research]  <!-- UUID: 6502ce76-3f29-4f50-a68c-9126feba1fb6 -->
 
 **Content**:
 
 Are there risks that should be considered regarding the potential mismanagement or misuse of the AD budget? The Target Document lists several examples of permissible ways to use the AD budget, which indicates implicitly constraints, or disallowed expenditures. How would compliance with these guidelines be monitored?
+
+###### A.1.5.4.4.1.1 - One Month's Budget Allocation [Core]  <!-- UUID: 48a2c0f5-5f09-44d3-a930-47e6c12fb901 -->
+
+To arrive at the value of this one-month budget threshold in USDS, see Levels Of Ranked Delegates.
 
 ##### A.1.5.4.4.2 - AD Buffer And Loss Of Budget [Core]  <!-- UUID: add0e307-9fbb-4871-9eab-c7bd18662e01 -->
 
@@ -3148,7 +3148,7 @@ For each Agent, a `StarGuard` contract is deployed to manage whitelisting and ex
 
 ###### A.1.9.2.3.2.2.3.1.1.1 - StarGuard Functionality [Core]  <!-- UUID: 04712596-beda-452e-a667-44e6fe707abd -->
 
-When initiated in a Sky Core Spell, the StarGuard whitelists relevant Prime Spells, enabling their secure execution. This whitelisting allows Prime Spells to run independently, supporting arbitrary complexity and custom features like office hours or expiration times. StarGuard also supports dropping a whitelisted Agent Spell, providing a mechanism to revoke access if needed for security or error correction. This is done via the `drop()` function.
+When initiated in a Sky Core Spell, the StarGuard whitelists relevant Prime Spells, enabling their secure execution. This whitelisting allows Prime Spells to run independently, supporting arbitrary complexity and custom features like office hours or expiration times. StarGuard also supports dropping a whitelisted Prime Spell, providing a mechanism to revoke access if needed for security or error correction. This is done via the `drop()` function.
 
 ###### A.1.9.2.3.2.2.3.1.1.1.1 - StarGuard Ownership [Core]  <!-- UUID: e6ec35bc-28af-4e06-bc92-c8706add6017 -->
 
@@ -3156,7 +3156,7 @@ The StarGuard contract is owned by the Pause Proxy, ensuring centralized control
 
 ###### A.1.9.2.3.2.2.3.1.1.1.2 - Responsibilities For Agents [Core]  <!-- UUID: 3deb3282-434c-4d56-b5e3-3a4daad3cd1d -->
 
-The Agents are required to include logic for the public view method `isExecutable()` in their Spell. This function is used to signal if the Spell is ready to be executed in a particular block or not. StarGuard cannot execute an Agent Spell if `isExecutable()` returns `False`. The value that must be returned for execution to be possible is `True`.
+The Agents are required to include logic for the public view method `isExecutable()` in their Spell. This function is used to signal if the Spell is ready to be executed in a particular block or not. StarGuard cannot execute a Prime Spell if `isExecutable()` returns `False`. The value that must be returned for execution to be possible is `True`.
 
 ###### A.1.9.2.3.2.2.3.1.1.1.3 - StarGuard Whitelisting Authority [Core]  <!-- UUID: f23f9ea7-64e1-4083-93b8-2864b232f451 -->
 
@@ -3164,21 +3164,21 @@ Only the owner, the Pause Proxy, is able to whitelist new Prime Spells via a Sky
 
 ###### A.1.9.2.3.2.2.3.1.1.1.4 - StarGuard Max Delay [Core]  <!-- UUID: ccb1f61a-660b-4a8a-976f-53915dd21b03 -->
 
-A configurable `maxDelay` sets the maximum duration between the whitelisting of the Agent Spell in the Sky Core Spell and the execution of the Agent Spell. This feature ensures Spells do not linger indefinitely, enforcing timely processing and reducing risks from delayed or forgotten actions. The recommended value for `maxDelay` is seven (7) days.
+A configurable `maxDelay` sets the maximum duration between the whitelisting of the Prime Spell in the Sky Core Spell and the execution of the Prime Spell. This feature ensures Spells do not linger indefinitely, enforcing timely processing and reducing risks from delayed or forgotten actions. The recommended value for `maxDelay` is seven (7) days.
 
 ###### A.1.9.2.3.2.2.3.1.1.1.5 - Requirements For Whitelisting [Core]  <!-- UUID: a03c9e5a-4fe4-46a2-8ec6-f8900ed90f47 -->
 
 The requirements for whitelisting are:
 
-- The address of the Agent Spell.
+- The address of the Prime Spell.
 - The codehash of the Spell's bytecode.
 - Confirmation that direct execution is not needed. If direct execution is needed, a valid reason must be provided.
 
-This information must be provided by the Agent Spell reviewers to the Governance Point.
+This information must be provided by the Prime Spell reviewers to the Governance Point.
 
 ###### A.1.9.2.3.2.2.3.1.1.1.6 - Permissionless Execution [Core]  <!-- UUID: 50f71e34-6705-4ccb-a911-3797b05f422f -->
 
-The triggering of an Agent Spell is permissionless; anyone can initiate execution. A keeper job, StarGuardJob, allows keepers to monitor and execute eligible Spells at the earliest possible block.
+The triggering of an Prime Spell is permissionless; anyone can initiate execution. A keeper job, StarGuardJob, allows keepers to monitor and execute eligible Spells at the earliest possible block.
 
 ###### A.1.9.2.3.2.2.3.1.1.1.7 - Function Call For Execution [Core]  <!-- UUID: 8113159f-dcf6-4c44-afb0-aed09b1e5cf7 -->
 
@@ -3194,15 +3194,15 @@ The following checks are enabled by the contract:
 
 - Verifies that the Spell meets custom requirements (e.g., office hours) by confirming the `spell.isExecutable()` view function returns true.
 
-- Verifies that StarGuard retains access to the SubProxy, ensuring no loss of control during the Agent spell execution.
+- Verifies that StarGuard retains access to the SubProxy, ensuring no loss of control during the Prime spell execution.
 
 ###### A.1.9.2.3.2.2.3.2 - Direct Execution Through Sky Core Spell [Core]  <!-- UUID: ffc88a5e-b7b2-4ed9-8c88-fcbcb7632f14 -->
 
 When the execution through the Sky Core Spell method is used, the Prime Spells are executed directly in the Sky Core Spells.
 
-###### A.1.9.2.3.2.2.3.2.1 - Sky Core Spell Executes Agent Spell [Core]  <!-- UUID: a109ad0d-0743-4ae9-bcc1-df04a6e5da43 -->
+###### A.1.9.2.3.2.2.3.2.1 - Sky Core Spell Executes Prime Spell [Core]  <!-- UUID: a109ad0d-0743-4ae9-bcc1-df04a6e5da43 -->
 
-Execution of an Agent Spell is initiated by the Sky Core Spell, which directly calls `exec()` on the Agent’s SubProxy contract to perform the Spell's actions in the same transaction. The SubProxy limits rights to the specific Agent, preventing access to Sky Core contracts. The current SubProxy contract is designed to execute the Agent Spell in the same transaction as the Sky Core Spell.
+Execution of a Prime Spell is initiated by the Sky Core Spell, which directly calls `exec()` on the Prime's SubProxy contract to perform the Spell's actions in the same transaction. The SubProxy limits rights to the specific Agent, preventing access to Sky Core contracts. The current SubProxy contract is designed to execute the Prime Spell in the same transaction as the Sky Core Spell.
 
 #### A.1.9.2.4 - Executive Process Breakdown [Core]  <!-- UUID: 98298ab3-8d08-4c4f-b47b-81242a3e3903 -->
 
@@ -3657,7 +3657,7 @@ The document uses different levels of Markdown headings to organize its content 
 
 - Third-level headings are used within the Proposal Details section to describe individual input executive actions. Each action is presented under its own third-level heading, making it easy to identify and review.
 
-- Fourth-level headings are used to describe specific derived actions within an input action. These headings provide additional context or detail necessary for understanding the implications of the input action, such as actions triggered by an Agent spell or changes to market parameters.
+- Fourth-level headings are used to describe specific derived actions within an input action. These headings provide additional context or detail necessary for understanding the implications of the input action, such as actions triggered by a Prime spell or changes to market parameters.
 
 This structured approach ensures that the document is both easy to navigate and comprehensive.
 
@@ -3686,7 +3686,7 @@ This section provides a detailed breakdown of each item included in the proposal
 
 - Input executive actions, which are presented under third-level Markdown headings. Each action includes links to the authorization and proposal documents and explains the implications of the action if the proposal passes.
 
-- Derived actions, which are described under fourth-level Markdown headings when they provide additional context or detail necessary for understanding the implications of an input action. These headings are used to outline specific actions triggered by an input action, such as actions executed by an Agent spell or changes to market parameters. Derived actions that are overly technical, redundant, or irrelevant to the proposal's primary focus may be excluded to maintain clarity and accessibility.
+- Derived actions, which are described under fourth-level Markdown headings when they provide additional context or detail necessary for understanding the implications of an input action. These headings are used to outline specific actions triggered by an input action, such as actions executed by a Prime spell or changes to market parameters. Derived actions that are overly technical, redundant, or irrelevant to the proposal's primary focus may be excluded to maintain clarity and accessibility.
 
 This section ensures that all actions are clearly explained and linked to their reasoning and authorization documents.
 
