@@ -2036,7 +2036,7 @@ There are two (2) Level 1 Ranked Delegates.
 
 ###### A.1.5.4.1.1.2 - Budget For Level 1 Ranked Delegates [Core]  <!-- UUID: 036babd9-73fe-43a3-8293-b96a5f13e58e -->
 
-Each Level 1 Ranked Delegate is eligible for a budget of 600,000 USDS per year.
+Each Level 1 Ranked Delegate is eligible for a budget of 400,000 USDS per year.
 
 ###### A.1.5.4.1.1.3 - Selection Of Level 1 Ranked Delegates [Core]  <!-- UUID: f52e46d4-2d8c-49ad-852c-acbdca81aadc -->
 
@@ -2178,37 +2178,19 @@ To arrive at the value of this one-month budget threshold in USDS, see Levels Of
 
 ##### A.1.5.4.4.2 - AD Buffer And Loss Of Budget [Core]  <!-- UUID: add0e307-9fbb-4871-9eab-c7bd18662e01 -->
 
-If an AD is unranked for an entire month, any contents in its AD Buffer can be paid out in the next monthly compensation cycle, except as specified in Payout Limitations For ADs Triggering Atlas Edit Weekly Cycle Proposals.
-
-###### A.1.5.4.4.2.0.3.1 - AD Buffer And Loss Of Budget - Element Annotation [Annotation]  <!-- UUID: ba40212e-fb72-4537-ba07-ff422d384539 -->
-
-See [A.1.5.4.4.2 - AD Buffer And Loss Of Budget - Element Annotation](e360a6ac-822f-4ab5-ac39-25f56aeb8f2b).
+If an AD is unranked for an entire month, any contents in its AD Buffer can be paid out in the next monthly compensation cycle, except as specified in [A.1.5.3.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Proposals](8eca5ff8-8798-465b-b86a-f9ee5c93f213).
 
 ###### A.1.5.4.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Weekly Cycle Proposals [Core]  <!-- UUID: 8eca5ff8-8798-465b-b86a-f9ee5c93f213 -->
 
-If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), no payouts may be made that would reduce their AD Buffer below one (1) month's worth of the budget specified in Levels Of Ranked Delegates until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
+If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), or [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886), respectively, no payouts may be made that would reduce their AD Buffer below the [A.1.5.4.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f) specified in Triggering Threshold until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
 
-##### A.1.5.4.4.3 - AD Buffer Used For Whistleblower Bounties [Core]  <!-- UUID: 4a29dd32-2333-471a-bea1-1aa0f5413453 -->
+###### A.1.5.4.4.2.1.1 - Triggering Threshold [Core]  <!-- UUID: 2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f -->
 
-The AD Buffer also serves as collateral for a whistleblower bounty. This bounty is capped at half of one month's budget allocation. This bounty is payable to a whistleblower who responsibly provides evidence that is useful to the Facilitators' investigation of either 1) misalignment by the AD, or 2) a breach of the AD’s operational security or privacy.
+The Triggering Threshold is the amount of USDS that a Ranked Delegate must have in its AD Buffer to trigger Atlas Edit Weekly Cycle or Atlas Edit Monthly Cycle Proposals. See [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743) and [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886). The Triggering Threshold is equal to one (1) month of compensation based on the budget for Level 3 Ranked Delegates specified in [A.1.5.3.1.3.2 - Budget For Level 3 Ranked Delegates](c51b75e1-8390-46c6-b455-3fd1b155af0d).
 
-See [A.1.5.17 - Whistleblower Bounty](7ae648c2-e04c-42b1-8d20-21de8ed6bef2); and [A.1.5.20 - Whistleblower Bounty](74d01046-995f-4783-aa72-c0d33d90b58c).
+##### A.1.5.4.4.3 - Deduction Of Penalties From AD Buffer [Core]  <!-- UUID: 4a29dd32-2333-471a-bea1-1aa0f5413453 -->
 
-###### A.1.5.4.4.3.0.3.1 - Collateral - Element Annotation [Annotation]  <!-- UUID: 02f6954d-9391-4e94-aad7-ea0c2cabd560 -->
-
-The element "collateral" in this context refers to the funds within the AD Buffer that are set aside to guarantee the availability of a whistleblower bounty.
-
-###### A.1.5.4.4.3.0.3.2 - One Month's Budget Allocation - Element Annotation [Annotation]  <!-- UUID: ff085fc7-6da4-4176-b38f-c0e63ca4fd4a -->
-
-See [A.1.5.7.0.3.1 - One Month's Budget Allocation - Element Annotation](e360a6ac-822f-4ab5-ac39-25f56aeb8f2b).
-
-###### A.1.5.4.4.3.0.3.3 - Operational Security Or Privacy - Element Annotation [Annotation]  <!-- UUID: fd592ff8-ac42-4397-ba02-5a87442d07ab -->
-
-The element "operational security or privacy" refers to disclosure or compromise of sensitive information related to the AD's identity, location and/or operations.
-
-###### A.1.5.4.4.3.0.3.4 - Whistleblower Bounty - Element Annotation [Annotation]  <!-- UUID: 872e042d-5d66-4e50-9096-f4faf6c8fb41 -->
-
-The element "whistleblower bounty" is a financial reward allocated to individuals who responsibly provide credible evidence that is helpful to the Facilitators' investigation of an AD's misalignment or operational security breach.
+If the Core Facilitator finds that an AD has conducted a misaligned act warranting financial penalties or derecognition, such penalties may be deducted from the AD’s Buffer.
 
 #### A.1.5.4.5 - Short-Term Transitionary Measures [Core]  <!-- UUID: 17c74a56-fcb2-4f40-8847-d09a37e4e2dd -->
 
@@ -2223,22 +2205,6 @@ Prior to January 1, 2026, there are zero (0) Level 1 Ranked Delegates, zero (0) 
 Prior to January 1, 2026, Aligned Delegates (ADs) are permitted to concurrently participate in workstreams related to Atlas Core Development, and to receive budgets for this purpose. Such workstreams can include research, data collection, data processing, data review, drafting, peer review, etc.
 
 This document constitutes an exception to [A.1.4.5 - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c) which generally prohibits Alignment Conservers from being operationally active in multiple ecosystem roles.
-
-#### NR-11 - AD Whistleblower Bounty [Needed Research]  <!-- UUID: 71c826f0-2713-4756-8b5a-1d820383f301 -->
-
-**Content**:
-
-The element "responsibly provided" in the Target Documents means that whistleblower evidence must have been secured ethically, i.e., publicly available blockchain data. This generally means, no hacking or unauthorized access to systems, or breaches of data protection laws. 
-
-Do challenging gray areas remain? What sort of standards or criteria should be met by whistleblower evidence to be considered responsibly gathered? 
-
-For instance, is evidence gathered from private communication channels considered responsibly obtained if it was leaked to the whistleblower by an insider? How do we handle situations where the evidence is obtained through methods that might be legal but are still ethically questionable? 
-
-And what sort of standards/criteria should be met by whistleblower evidence to be credible and useful in an investigation? 
-
-How to assess the credibility or probative value of evidence, especially when dealing with blockchain data, which can be complex and difficult to interpret? What standards of proof should be required for evidence to be considered credible, particularly in cases where the evidence is circumstantial rather than direct? Perhaps this is already answered by current logic that demands that Facilitators apply the highest standards of Universal Alignment to AC adjudications, without affording benefit of the doubt.
-
-What are the expectations placed on Facilitators to verify whistleblower evidence?
 
 ### A.1.5.15 - Kickbacks Prohibited [Section]  <!-- UUID: 45e794a0-5092-4dea-a0de-6f373228f760 -->
 
@@ -2258,61 +2224,9 @@ Any community member or Aligned Delegate with information pertinent to suspected
 
 Where the allegation of misalignment concerns the Core Facilitator, a community member can take their concerns to Core GovOps, who is then empowered to initiate the formal adjudication process.
 
-### A.1.5.17 - Whistleblower Bounty [Section]  <!-- UUID: 7ae648c2-e04c-42b1-8d20-21de8ed6bef2 -->
-
-If the Core Facilitator find that an AD has conducted a misaligned act warranting financial penalties or derecognition, such penalties may be deducted from the AD’s Buffer. The amount deducted is used as a whistleblower bounty to compensate any individual/entity who responsibly provided useful data, information or evidence that was helpful to the Facilitators’ adjudication.
-
-The whistleblower bounty is subject to the restrictions specified in ##### A.1.5.4.4.3 - AD Buffer Used For Whistleblower Bounties.
-
-Any remaining funds in the AD’s Buffer should be paid out to the derecognized Aligned Delegate.
-
-#### A.1.5.17.0.4.1 - Responsibly Provided - Whistleblower Evidence Of Misalignment Must Be Secured Ethically [Action Tenet]  <!-- UUID: ba46ef4f-2ed6-4b16-b5b5-8a3ee01ad18d -->
-
-The phrase "responsibly provided" places limits on the sort of data, evidence and information that will enable a whistleblower to qualify for the bounty. Such data, evidence or information must have been secured ethically. A whistleblower who used publicly available data (e.g., public Discord or Forum posts) to demonstrate that an Aligned Delegate committed misaligned acts will qualify for the bounty. A whistleblower who hacked into the Aligned Delegate’s devices or accounts to make this same demonstration will be disqualified from receiving the bounty. 
-
-Where reasonable people would disagree about the ethical nature of the whistleblower’s actions, the Core Facilitator should err on the side of disqualifying the whistleblower. In such instances, disqualification prevents the setting of precedent that might incentivize future whistleblowers to engage in unethical or illegal activities.
-
-Both the Action Tenet and the above-stated presumption are supported by the Universal Alignment Assumption, which states that the "underlying intent of rules always aims to serve human values and promote public benefit within a given context." See [A.0.1.1.5 - Universal Alignment Assumption](2ea378ee-9b12-4e09-9f42-0c6ec65ef33b).
-
-#### A.1.5.17.0.4.2 - Useful - Whistleblower Evidence Must Have Material Impact [Action Tenet]  <!-- UUID: 989f3891-72dd-4503-94b2-069021c7e947 -->
-
-The element "useful" means that the evidence provided by the whistleblower must have had a material impact on the adjudication. The term "material impact" here does not imply that the adjudication process would have been impossible to resolve without the whistleblower's evidence. Instead, the evidence provided by the whistleblower can still be considered "useful" or of "material impact" if it serves a supportive role in the adjudication, even if it does not play a central or decisive part. The evidence simply needs to contribute meaningfully to the investigation, regardless of the extent of its influence. The Core Facilitator ultimately have broad discretion here in awarding the bounty.
-
-It is important to note that the payment of the whistleblower bounty is dependent on the outcome of the decision. If the Facilitator rule in favor of the AD, the bounty should not be awarded. If the Facilitator rule against the AD, the bounty should be awarded if the whistleblower has responsibly submitted useful evidence.
-
-#### NR-13 - AD Whistleblower Bounty [Needed Research]  <!-- UUID: 02df546f-0c7b-445f-b06d-c51b44b0b84d -->
-
-**Content**:
-
-The element "responsibly provided" in the Target Documents means that whistleblower evidence must have been secured ethically, i.e., publicly available blockchain data. This generally means, no hacking or unauthorized access to systems, or breaches of data protection laws. 
-
-Do challenging gray areas remain? What sort of standards or criteria should be met by whistleblower evidence to be considered responsibly gathered? 
-
-For instance, is evidence gathered from private communication channels considered responsibly obtained if it was leaked to the whistleblower by an insider? How do we handle situations where the evidence is obtained through methods that might be legal but are still ethically questionable? 
-
-And what sort of standards/criteria should be met by whistleblower evidence to be credible and useful in an investigation? 
-
-How to assess the credibility or probative value of evidence, especially when dealing with blockchain data, which can be complex and difficult to interpret? What standards of proof should be required for evidence to be considered credible, particularly in cases where the evidence is circumstantial rather than direct? Perhaps this is already answered by current logic that demands that Facilitators apply the highest standards of Universal Alignment to AC adjudications, without affording benefit of the doubt.
-
-What are the expectations placed on Facilitators to verify whistleblower evidence?
-
 ### A.1.5.18 - Mandate To Maintain High Level of Operational Security [Section]  <!-- UUID: c68b4c5d-adf7-49e6-850a-17a688664d40 -->
 
 Aligned Delegates (ADs) are required to maintain a high level of operational security, adhering to best practices in privacy, cybersecurity, and physical resilience. These measures must be implemented at a level that sufficiently safeguards the Sky Ecosystem from physical risk posed by the potential for attacks against ADs. ADs’ operational security protocols should be regularly reviewed and updated to address emerging risks and ensure continuous protection of the ecosystem.
-
-#### NR-14 - Operational Security Protocols - Research Track [Needed Research]  <!-- UUID: fc6cb4f6-d0da-4696-9e07-9dfccb1ec17e -->
-
-**Content**:
-
-The Core Facilitator may not have the needed experience and skills to adjudicate matters involving operational security best practices. See Endgame Edge Governance Facilitator team Forum post ([https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532#proposal-for-community-discussion-2](https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532#proposal-for-community-discussion-2)) on AD derecognition:
-
-The DAO could hire a security advisor firm/consultant as a Scope Advisor. (This could fall under the Governance Scope and its requirement for Governance Security processes). Their task would be to thoroughly analyze the security needs and risks of the Alignment Conservers and develop ever-evolving Operational Security "Best Practices".
-
-With an explicit framework of agreed-upon Best Practices, all anon Alignment Conservers have a known target to meet. Further, the existence of an objective framework of Best Practices equips the Core Facilitator to easily determine when a breach of opsec best practice has occurred. The explicit framework removes the risk of the Facilitator inappropriately inserting subjective bias into the decision-making process.
-
-The Security Scope Advisor could also assist in reviewing an informant's evidence to evaluate its validity/quality. The Security Scope Advisor could ensure that the methods used by the informant to secure the evidence were ethical. (All communications, evidence and data shared with the Security Scope Advisor would be under confidentiality protection). Finally, such an Advisor would have specialized expertise in opsec and associated matters that the Core Facilitator lacks".
-
-This Needed Research is an extensive Research Track, given the wide-ranging implications and potential mechanisms around opsec best practices, and also how these should map onto the Atlas.
 
 ### A.1.5.19 - Derecognition Required Where AD Operational Security Is Compromised [Section]  <!-- UUID: 7b0da718-62c1-4718-8d9d-47faa1647c6f -->
 
@@ -2327,54 +2241,6 @@ If there is clear evidence or significant suspicion that the operational securit
 The element 'promptly' in the Target Document means 'as soon as is reasonably possible.'
 
 To adhere to this commitment, the Core Facilitator must derecognize the AD within a general timeframe of 1-2 calendar days upon conclusion of an investigation that finds against the AD for breach of operational security. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the Facilitators’ control.
-
-### A.1.5.20 - Whistleblower Bounty [Section]  <!-- UUID: 74d01046-995f-4783-aa72-c0d33d90b58c -->
-
-Where a whistleblower responsibly provided useful information for determining that the operational security of an AD was compromised, part of the AD Buffer can be confiscated and used as a whistleblower bounty. See [##### A.1.5.4.4.3 - AD Buffer Used For Whistleblower Bounties.
-
-#### A.1.5.20.0.4.1 - Responsibly Provided - Whistleblower Evidence Of Operational Security Breach Must Be Secured Ethically [Action Tenet]  <!-- UUID: deeced97-64e9-4f82-bd6d-a5c9693ca12c -->
-
-The phrase "responsibly provided" places limits on the sort of data, evidence and information that will enable a whistleblower to qualify for the bounty. Such data, evidence or information must have been secured ethically. A whistleblower who used publicly available blockchain data to demonstrate that an Aligned Delegate breached operational security best practices will qualify for the bounty. A whistleblower who hacked into the Aligned Delegate’s devices or accounts to make this same demonstration will be disqualified from receiving the bounty. 
-
-Where reasonable people would disagree about the ethical nature of the whistleblower’s actions, the Core Facilitator should err on the side of disqualifying the whistleblower. In such instances, disqualification prevents the setting of precedent that might incentivize future whistleblowers to engage in unethical or illegal activities.
-
-Both the Action Tenet and the above-stated presumption are supported by the Universal Alignment Assumption, which states that the "underlying intent of rules always aims to serve human values and promote public benefit within a given context." See [A.0.1.1.5 - Universal Alignment Assumption](2ea378ee-9b12-4e09-9f42-0c6ec65ef33b).
-
-#### A.1.5.20.0.4.2 - Useful - Whistleblower Evidence Must Have Material Impact [Action Tenet]  <!-- UUID: 5db1e203-819a-4283-b754-37b2e112feb4 -->
-
-The element "useful" means that the evidence provided by the whistleblower must have had a material impact on the adjudication. The term "material impact" here does not imply that the adjudication process would have been impossible to resolve without the whistleblower's evidence. Instead, the evidence provided by the whistleblower can still be considered "useful" or of "material impact" if it serves a supportive role in the adjudication, even if it does not play a central or decisive part. The evidence simply needs to contribute meaningfully to the investigation, regardless of the extent of its influence. The Core Facilitator ultimately have broad discretion here in awarding the bounty.
-
-It is important to note that the payment of the whistleblower bounty is dependent on the outcome of the decision. If the Facilitator rule in favor of the AD, the bounty should not be awarded. If the Facilitator rule against the AD, the bounty should be awarded if the whistleblower has responsibly submitted useful evidence.
-
-#### NR-15 - AD Whistleblower Bounty [Needed Research]  <!-- UUID: 6a1ff9bb-7c8a-43d8-b3e8-a0b0ed241058 -->
-
-**Content**:
-
-The element "responsibly provided" in the Target Documents means that whistleblower evidence must have been secured ethically, i.e., publicly available blockchain data. This generally means, no hacking or unauthorized access to systems, or breaches of data protection laws. 
-
-Do challenging gray areas remain? What sort of standards or criteria should be met by whistleblower evidence to be considered responsibly gathered? 
-
-For instance, is evidence gathered from private communication channels considered responsibly obtained if it was leaked to the whistleblower by an insider? How do we handle situations where the evidence is obtained through methods that might be legal but are still ethically questionable? 
-
-And what sort of standards/criteria should be met by whistleblower evidence to be credible and useful in an investigation? 
-
-How to assess the credibility or probative value of evidence, especially when dealing with blockchain data, which can be complex and difficult to interpret? What standards of proof should be required for evidence to be considered credible, particularly in cases where the evidence is circumstantial rather than direct? Perhaps this is already answered by current logic that demands that Facilitators apply the highest standards of Universal Alignment to AC adjudications, without affording benefit of the doubt.
-
-What are the expectations placed on Facilitators to verify whistleblower evidence?
-
-#### NR-16 - Operational Security Protocols - Research Track [Needed Research]  <!-- UUID: 60e94138-8a37-4a75-8dec-a7b2ca3fc915 -->
-
-**Content**:
-
-The Core Facilitator may not have the needed experience and skills to adjudicate matters involving operational security best practices. See Endgame Edge Governance Facilitator team Forum post ([https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532#proposal-for-community-discussion-2](https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532#proposal-for-community-discussion-2)) on AD derecognition:
-
-The DAO could hire a security advisor firm/consultant as a Scope Advisor. (This could fall under the Governance Scope and its requirement for Governance Security processes). Their task would be to thoroughly analyze the security needs and risks of the Alignment Conservers and develop ever-evolving Operational Security "Best Practices".
-
-With an explicit framework of agreed-upon Best Practices, all anon Alignment Conservers have a known target to meet. Further, the existence of an objective framework of Best Practices equips the Core Facilitator to easily determine when a breach of opsec best practice has occurred. The explicit framework removes the risk of the Facilitator inappropriately inserting subjective bias into the decision-making process.
-
-The Security Scope Advisor could also assist in reviewing an informant's evidence to evaluate its validity/quality. The Security Scope Advisor could ensure that the methods used by the informant to secure the evidence were ethical. (All communications, evidence and data shared with the Security Scope Advisor would be under confidentiality protection). Finally, such an Advisor would have specialized expertise in opsec and associated matters that the Core Facilitator lacks".
-
-This Needed Research is an extensive Research Track, given the wide-ranging implications and potential mechanisms around opsec best practices, and also how these should map onto the Atlas.
 
 ### A.1.5.21 - Facilitators Must Err On Side Of Caution [Section]  <!-- UUID: 09efe31d-28ae-47cc-a81e-caf4f669df95 -->
 
@@ -5601,23 +5467,23 @@ The Author of an Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" 
 
 ##### A.1.10.2.1.3 - Triggering Requirement [Core]  <!-- UUID: cef09d74-efc6-45cc-a75b-1132dae9e743 -->
 
-An Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "AEW Proposal") can proceed to a vote only if it is triggered by a Ranked Delegate whose AD Buffer contains at least one (1) month's worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently specified in [A.1.5.4.1 - Levels Of Ranked Delegates](f4857d86-f4e7-43c5-be50-fab9e82f0129). The Core Facilitator is responsible for confirming that these requirements are met.
+An Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "AEW Proposal") can proceed to a vote only if it is triggered by a Ranked Delegate whose AD Buffer contains at least the Triggering Threshold (see [A.1.5.4.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f)) at the time of triggering the Proposal. The Core Facilitator is responsible for confirming that these requirements are met.
 
-Aligned Delegates (including Ranked Delegates) are prohibited from authoring an Atlas Edit Weekly Cycle Proposal. Ranked Delegates are limited to triggering Proposals authored by others. To trigger a Proposal, the Ranked Delegate must post a reply to the Author’s Weekly Cycle Proposal on the Forum. The Ranked Delegate’s post should signal their intent to trigger the Weekly Cycle Proposal. 
+A Ranked Delegate may trigger a Proposal they authored, provided they meet the Triggering Threshold. To trigger a Proposal, the Ranked Delegate must post a reply to the Author's Weekly Cycle Proposal on the Forum. The Ranked Delegate’s post should signal their intent to trigger the Weekly Cycle Proposal.
 
 Where more than one Ranked Delegate posts an intention to trigger a Weekly Cycle Proposal, the first Ranked Delegate to post a reply to the Author’s Forum post shall be treated as the triggering Ranked Delegate.
 
-If the Weekly Cycle Proposal is subsequently voted down, the triggering Ranked Delegate loses their entire AD Buffer.
+If the Weekly Cycle Proposal is subsequently voted down, the triggering Ranked Delegate loses an amount of USDS from their AD Buffer equal to the Triggering Threshold.
 
 ###### A.1.10.2.1.3.0.4.1 - Ranked Delegate Loss Of Rank After Triggering Proposal Is Inconsequential [Action Tenet]  <!-- UUID: fa3e83ff-02ee-4e24-b88a-660585c6d8f4 -->
 
-A Weekly Cycle Proposal is considered correctly triggered when the triggering Aligned Delegate is a Ranked Delegate with at least one (1) month’s worth of budget in their AD Buffer at the time of triggering the Proposal. It is inconsequential if, after triggering the Proposal, the Ranked Delegate loses Ranked Delegate rank.
+A Weekly Cycle Proposal is considered correctly triggered when the triggering Aligned Delegate is a Ranked Delegate with at least the Triggering Threshold in their AD Buffer at the time of triggering the Proposal. It is inconsequential if, after triggering the Proposal, the Ranked Delegate loses their Ranked Delegate rank.
 
 ###### A.1.10.2.1.3.0.4.1.1.1 - Ranked Delegate Triggers Proposal And Loses Ranked Delegate Rank Immediately Thereafter [Scenario]  <!-- UUID: 9079bf46-34b8-4ba5-a856-7f96f2093acb -->
 
 **Description**:
 
-Entity is a Ranked Delegate with at least one (1) month’s worth of budget in their AD Buffer. Entity triggers a Weekly Cycle Proposal. Immediately thereafter, Entity loses their Ranked Delegate rank. The Core Facilitator continue to prepare a Governance Poll for the Proposal.
+Entity is a Ranked Delegate with at least the Triggering Threshold in their AD Buffer. Entity triggers a Weekly Cycle Proposal. Immediately thereafter, Entity loses their Ranked Delegate rank. The Core Facilitator continues to prepare a Governance Poll for the Proposal.
 
 **Finding**:
 
@@ -5625,17 +5491,17 @@ Aligned as to Entity. Aligned as to the Core Facilitator.
 
 **Additional Guidance**:
 
-The fact that Entity lost their Ranked Delegate rank after triggering the Proposal is inconsequential. Entity satisfied the requirement of being a Ranked Delegate with at least one (1) month’s worth of budget in their AD Buffer at the time of triggering the Proposal, and thus the Proposal was properly triggered. The Core Facilitator acted correctly to prepare a Governance Poll for the Proposal in accord with the process definition for the Atlas Edit Weekly Cycle.
+The fact that Entity lost their Ranked Delegate rank after triggering the Proposal is inconsequential. Entity satisfied the requirement of being a Ranked Delegate with at least the Triggering Threshold in their AD Buffer at the time of triggering the Proposal, and thus the Proposal was properly triggered. The Core Facilitator acted correctly to prepare a Governance Poll for the Proposal in accord with the process definition for the Atlas Edit Weekly Cycle.
 
 ###### A.1.10.2.1.3.0.4.2 - Ranked Delegates Must Stake Their AD Buffer To Trigger Weekly Cycle Proposals [Action Tenet]  <!-- UUID: bba7fb85-c652-4af2-b7ff-0257532be488 -->
 
-To deter spurious or misaligned proposals, Ranked Delegates must "stake" their AD Buffer to trigger a Proposal. A Ranked Delegate can trigger a Weekly Cycle Proposal only if their AD Buffer contains at least one (1) month’s worth of budget at the time of triggering the Proposal. This "staking" requirement of one month’s worth of budget remains in effect until the triggered Proposal is fully resolved - that is, until either (1) the Proposal is rejected by the Core Facilitator for misalignment, or (2) a Sky Governance vote on the Proposal concludes in an approval or rejection. If the Proposal is voted down or rejected for misalignment, the RD will lose their entire AD Buffer.
+To deter spurious or misaligned proposals, Ranked Delegates must "stake" a portion of their AD Buffer to trigger a Proposal. A Ranked Delegate can trigger a Weekly Cycle Proposal only if their AD Buffer contains at least the Triggering Threshold at the time of triggering the Proposal. This "staking" requirement of an amount of USDS equal to the Triggering Threshold remains in effect until the triggered Proposal is fully resolved - that is, until either (1) the Proposal is rejected by the Core Facilitator for misalignment, or (2) a Sky Governance vote on the Proposal concludes in an approval or rejection. If the Proposal is voted down or rejected for misalignment, the RD will lose an amount of USDS from their AD Buffer equal to the Triggering Threshold.
 
 ###### A.1.10.2.1.3.0.4.2.1.1 - Delay In Payment To Ranked Delegate Triggering Proposal [Scenario]  <!-- UUID: 1ebcda5d-5a10-4e78-ba52-5772df38cc56 -->
 
 **Description**:
 
-Entity is a Ranked Delegate with one (1) month’s worth of budget in their AD Buffer. Entity triggers a Weekly Cycle Proposal. Immediately thereafter, Entity loses their Ranked Delegate rank. Three days later, before the Proposal has been voted on, the Core Facilitator distributes compensation to other Aligned Delegates but do not distribute compensation to Entity.
+Entity is a Ranked Delegate with at least the Triggering Threshold in their AD Buffer. Entity triggers a Weekly Cycle Proposal. Immediately thereafter, Entity loses their Ranked Delegate rank. Three days later, before the Proposal has been voted on, the Core Facilitator distributes compensation to other Aligned Delegates but does not distribute compensation to Entity.
 
 **Finding**:
 
@@ -5643,7 +5509,7 @@ Aligned
 
 **Additional Guidance**:
 
-Paying out the AD Buffer would have led to Entity’s AD Buffer dropping below the required threshold of one (1) month’s worth of budget while the Proposal was still unresolved. In this Scenario, the triggering AD cannot receive payout from the AD Buffer until the triggered Proposal is voted on and approved by Sky Governance. Assuming that the Proposal is approved, the Core Facilitator is authorized to disburse the entire contents of the AD Buffer to the triggering AD in the next AD compensation cycle. However, if the Proposal is rejected by the Core Facilitator for misalignment or voted down by Sky Governance, the triggering AD would lose their entire AD Buffer.
+Paying out the AD Buffer would have led to Entity's AD Buffer dropping below the required Triggering Threshold while the Proposal was still unresolved. In this Scenario, the triggering AD cannot receive payout from the AD Buffer until the triggered Proposal is voted on and approved by Sky Governance. Assuming that the Proposal is approved, the Core Facilitator is authorized to disburse the entire contents of the AD Buffer to the triggering AD in the next AD compensation cycle. However, if the Proposal is rejected by the Core Facilitator for misalignment or voted down by Sky Governance, the triggering AD loses an amount of USDS from their AD Buffer equal to the Triggering Threshold.
 
 #### A.1.10.2.2 - Preparation And Publication of Governance Poll [Core]  <!-- UUID: f7e857e0-9de6-47ee-8817-966cb46ac9d6 -->
 
@@ -5713,15 +5579,15 @@ The author of an Atlas Edit Monthly Cycle proposal ("proposal", "Atlas Edit Prop
 
 ##### A.1.11.2.1.2 - Triggering Requirement [Core]  <!-- UUID: 7bbfd3b1-99b5-4c60-9292-68d776e03886 -->
 
-An Atlas Edit Monthly Cycle Proposal can proceed to verification by the Core Facilitator only if it is triggered by a Ranked Delegate whose AD Buffer contains at least one (1) month's worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently specified in [A.1.5.4.1 - Levels Of Ranked Delegates](f4857d86-f4e7-43c5-be50-fab9e82f0129). The Core Facilitator is responsible for confirming that these requirements are met.
+An Atlas Edit Monthly Cycle Proposal can proceed to verification by the Core Facilitator only if it is triggered by a Ranked Delegate whose AD Buffer contains at least the Triggering Threshold (see [A.1.5.4.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f)) at the time of triggering the Proposal. The Core Facilitator is responsible for confirming that these requirements are met.
 
-Aligned Delegates (including Ranked Delegates) are prohibited from authoring an Atlas Edit Monthly Cycle Proposal. Ranked Delegates are limited to triggering Proposals authored by others. To trigger a Proposal, the Ranked Delegate must post a reply to the Author’s Monthly Cycle Proposal on the Forum. The Ranked Delegate should indicate their intent to trigger the Monthly Cycle Proposal.
+A Ranked Delegate may trigger a Proposal they authored, provided they meet the Triggering Threshold. To trigger a Proposal, the Ranked Delegate must post a reply to the Author's Monthly Cycle Proposal on the Forum. The Ranked Delegate should indicate their intent to trigger the Monthly Cycle Proposal.
 
 Where more than one Ranked Delegate posts an intention to trigger a Monthly Cycle Proposal, the first Ranked Delegate to post a reply to the Author’s Forum post shall be treated as the triggering Ranked Delegate.
 
 If the Proposal is edited subsequent to being triggered, the Proposal must be triggered again before proceeding further in the Atlas Edit Monthly Cycle process.
 
-If the Monthly Cycle Proposal is voted down, the triggering Ranked Delegate loses their entire AD Buffer.
+If the Monthly Cycle Proposal is voted down, the triggering Ranked Delegate loses an amount of USDS from their AD Buffer equal to the Triggering Threshold.
 
 ##### A.1.11.2.1.3 - Core Facilitators’ Initial Verification [Core]  <!-- UUID: 05cf14c1-621a-4e86-bab6-0fcbdca12666 -->
 
