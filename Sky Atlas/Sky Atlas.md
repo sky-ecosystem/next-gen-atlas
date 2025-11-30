@@ -9966,6 +9966,8 @@ The documents herein define the allocation steps of the Sky Treasury Management 
 
 The sole function of Step 0 is to establish the Net Revenue of the Sky Protocol. It performs no allocations to downstream functions or buffers, unlike subsequent steps for which this Net Revenue serves as the input.
 
+All items of Income and Expense are recognized on a "cash basis" based on when USDS/DAI enter or leave the Sky Surplus Buffer, Core Council Buffer, or Aligned Delegates Buffer.
+
 ###### A.2.4.1.2.1.1 - Net Revenue [Core]  <!-- UUID: bddce7bf-c568-444b-b196-e15a99016696 -->
 
 Net Revenue is equal to Income minus Expenses. Income is defined in [A.2.4.1.2.1.2 - Income](a0fab275-399d-41ad-a9b0-411d3e5ea5c9). Expenses are defined in [A.2.4.1.2.1.3 - Expenses](88e3c367-fe30-4d59-8ba1-eddc0d88a0ea). Income and Expenses are defined such that Net Revenue must always be positive
@@ -9994,13 +9996,25 @@ Agent Upkeep Fees are fees paid by Agents to contribute to the long-term sustain
 
 Agent Creation Fees are one-time payments collected from founding teams when establishing new Prime Agents. See [A.2.3.3.1.2 - Creation Fee](708ad6b6-8e4a-46b3-9848-523d00a57420).
 
+###### A.2.4.1.2.1.2.6 - Other Income [Core]  <!-- UUID: aebc1c92-6538-4a1c-a90c-4928d9924eeb -->
+
+Other Income includes all sources of income of the Sky Protocol not identified in the other subdocuments of [A.2.4.1.2.1.2 - Income](a0fab275-399d-41ad-a9b0-411d3e5ea5c9), including, without limitation, the sources of income specified in the documents herein.
+
+###### A.2.4.1.2.1.2.6.1 - Sky Core Vault Income [Core]  <!-- UUID: 4a3e1d4d-a1d7-4207-9af8-fa0fd195a929 -->
+
+Sky Core Vault Income is all income from Sky Core Vaults, including, without limitation, liquidation penalties. Sky Core Vaults include, without limitation, (1) all Sky Core Vaults specified in [A.3.7.1.1.1 - Vault Types](64971463-0650-4462-b9c4-1eecb704fa1a) and (2) the Sky Core Vault associated with SKY-Backed Borrowing (see [A.4.4.1.3 - SKY-Backed Borrowing](264b1787-cd75-4d28-9c14-c7d5a724eba7)).
+
+###### A.2.4.1.2.1.2.6.2 - LitePSM Income [Core]  <!-- UUID: edb32ca7-329f-437b-bf02-2bf0e78e7ea7 -->
+
+LitePSM Income is all income from the LitePSM.
+
 ###### A.2.4.1.2.1.3 - Expenses [Core]  <!-- UUID: 88e3c367-fe30-4d59-8ba1-eddc0d88a0ea -->
 
 The documents herein define each of the components of Expenses. These components are added together to arrive at total Expenses.
 
 ###### A.2.4.1.2.1.3.1 - Sky Savings Rate Paid To sUSDS Holders [Core]  <!-- UUID: e6b86b0e-163d-4be4-928d-a81dd6700d57 -->
 
-The Sky Savings Rate is the interest expense paid to sUSDS holders on their balances. It also includes interest paid to sDai holders on their balances.
+The Sky Savings Rate is the interest expense paid to sUSDS holders on their balances. It also includes all other savings-related expenses (other than those paid through the Integration Boost), such as the Dai Savings Rate expense and interest on stUSDS.
 
 ###### A.2.4.1.2.1.3.2 - Sky Savings Rate Paid Through Integration Boost [Core]  <!-- UUID: feb95aa7-e1b1-4ba8-a9a5-f99b5a21477e -->
 
