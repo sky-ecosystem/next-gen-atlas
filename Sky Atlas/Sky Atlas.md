@@ -32850,15 +32850,15 @@ The address of the Freezer Multisig on the Ethereum Mainnet is `0xBCCB60cf518391
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.3.2 - Required Number Of Signers [Core]  <!-- UUID: 354e8b0c-4883-4ae9-9d18-b95fcfe56b3c -->
 
-The Freezer Multisig currently has a 2/4 signing requirement.
+The Freezer Multisig currently has a 2/5 signing requirement.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.3.3 - Signers [Core]  <!-- UUID: 81708b61-3321-42f2-af55-204c56b32eb3 -->
 
-The signers of the Freezer Multisig will be specified in a future iteration of the Atlas.
+ The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Amatsu, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Keel.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.3.4 - Usage Standards [Core]  <!-- UUID: b375c2b6-b52d-42cf-bfd3-01e46af44248 -->
 
-The signers of the Freezer Multisig should exercise their authority to freeze the Keel Liquidity Layer in the event that Keel is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency. The signers should consult with Operational GovOps Amatsu before exercising such authority, unless such consultation would cause a delay that could result in a loss of user funds or harm to Sky or Keel. Amatsu may also ask the signers to exercise the Freezer Multisig in an emergency. The signers will work with Operational GovOps Amatsu and, if necessary, other Ecosystem Actors, in good faith in determining whether to exercise their authority based on such request.
+The signers of the Freezer Multisig should exercise their authority to freeze the Keel Liquidity Layer in the event that Keel is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency.
 
 Each action executed by the Freezer Multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum.
 
