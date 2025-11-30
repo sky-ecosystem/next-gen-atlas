@@ -25953,7 +25953,7 @@ The current parameters for Spark Savings ETH on Ethereum are: 
 The current parameters for Spark Savings USDC on Avalanche are: 
 
 - Default admin role: 0x7566DEbC906C17338524A414343fA61BcA26A843
-- Setter role: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC
+- Setter role: 0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC
 - Taker role: 0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC
 - Take rate limit: unlimited
 - Min yield: 0%
