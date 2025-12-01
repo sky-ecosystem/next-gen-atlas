@@ -22639,7 +22639,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 64e52154-360d-49e5-882c-6ef389b7a2df -->
 
-`0x1601843c5E9bC251A3272907010AFa41Fa18347E`
+`0xdC035D45d973E3EC169d2276DDab16f1e407384F`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2.2.2.3 - Allocator Role Address [Core]  <!-- UUID: e40cb4f0-7ff1-4c64-a936-5e33189952a5 -->
 
