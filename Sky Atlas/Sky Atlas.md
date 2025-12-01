@@ -23035,11 +23035,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.2.2.1 - Token Address [Core]  <!-- UUID: befde66f-e9f7-4f70-b107-ded60431052f -->
 
-`0x73e65DBD630f90604062f6E02fAb9138e713edD9`
+`0x377C3bd93f2a2984E1E7bE6A5C22c525eD4A4815`
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: fa448799-af8f-494d-9db8-5361ea02b576 -->
 
-`0x6B175474E89094C44Da98b954EedeAC495271d0F`
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.2.2.3 - Pool Address [Core]  <!-- UUID: 8efbce12-9417-4ab7-9e55-6194ee592bd4 -->
 
