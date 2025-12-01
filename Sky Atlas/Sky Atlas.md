@@ -27359,15 +27359,19 @@ The Ethereum Mainnet Instances Directory of the Morpho Protocol with `Active` St
 
 ###### A.6.1.1.2.2.6.1.1.2.1.7.1 - Ethereum Mainnet - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document Location [Core]  <!-- UUID: 03708e1d-f0e9-41e6-a792-01ef1b2d969b -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.1 - Ethereum Mainnet - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document](29cb8322-96f5-4f18-b4fe-eb31826af580).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.1 - Ethereum Mainnet - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document](29cb8322-96f5-4f18-b4fe-eb31826af580).
 
 ###### A.6.1.1.2.2.6.1.1.2.1.7.2 - Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document Location [Core]  <!-- UUID: b75109cc-9cce-4831-ac8a-995d7d145383 -->
 
-This Instance’s associated Instance Configuration Document is located at Ethereum Mainnet - Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document.
+This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document](27f06e65-8397-449a-b002-abaa0416badc).
 
 ###### A.6.1.1.2.2.6.1.1.2.1.8 - Securitize [Core]  <!-- UUID: 12a0d375-8f1e-4e62-83ba-d56bc6d3f2ab -->
 
 The Ethereum Mainnet Instances Directory of the Securitize Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.1.2.1.8.1 - Ethereum Mainnet - Securitize Tokenized AAA CLO Fund (STAC) Instance Configuration Document Location [Core]  <!-- UUID: f43479d2-2c76-4a18-8e9b-f59f1e1b493b -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.8.1 - Ethereum Mainnet - Securitize Tokenized AAA CLO Fund (STAC) Instance Configuration Document](a0c4fcd6-ebf9-4124-8767-cf14ab6ab397).
 
 ###### A.6.1.1.2.2.6.1.1.2.1.9 - Galaxy [Core]  <!-- UUID: af6212d3-fc1a-4c34-9352-ea18f8a2a294 -->
 
@@ -27375,7 +27379,7 @@ The Ethereum Mainnet Instances Directory of the Galaxy Protocol with `Active` St
 
 ###### A.6.1.1.2.2.6.1.1.2.1.9.1 - Ethereum Mainnet - Galaxy Arch CLOs Instance Configuration Document Location [Core]  <!-- UUID: af6212d3-fc1a-4c34-9352-ea18f8a2a294 -->
 
-This Instance’s associated Instance Configuration Document is located at Ethereum Mainnet - Galaxy Arch CLOs Instance Configuration Document.
+This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Galaxy Arch CLOs Instance Configuration Document](61afae62-1210-4d80-aa6c-cdb26ef0a287).
 
 ###### A.6.1.1.2.2.6.1.1.2.1.10 - Ripple [Core]  <!-- UUID: 39843e09-154a-497a-8824-54393ea15915 -->
 
@@ -27383,7 +27387,7 @@ The Ethereum Mainnet Instances Directory of the Ripple Protocol with `Active` St
 
 ###### A.6.1.1.2.2.6.1.1.2.1.10.1 - Ethereum Mainnet - Ripple RLUSD Instance Configuration Document Location [Core]  <!-- UUID: 6bf29031-456e-4f6e-bb43-1ceb4a2eb11e -->
 
-This Instance’s associated Instance Configuration Document is located at Ethereum Mainnet - Ripple RLUSD Instance Configuration Document.
+This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Ripple RLUSD Instance Configuration Document](2e28c162-c608-452c-b796-4654ac1139d8).
 
 ###### A.6.1.1.2.2.6.1.1.2.1.11 - Agora [Core]  <!-- UUID: 2417db38-50a7-4394-9cfb-7afcf01e8c85 -->
 
@@ -27391,15 +27395,15 @@ The Ethereum Mainnet Instances Directory of the Agora Protocol with `Active` Sta
 
 ###### A.6.1.1.2.2.6.1.1.2.1.11.1 - Ethereum Mainnet - Agora AUSD Instance Configuration Document Location [Core]  <!-- UUID: ec9d4393-2e68-40a7-b428-efc0452e35d8 -->
 
-This Instance’s associated Instance Configuration Document is located at Ethereum Mainnet - Agora AUSD Instance Configuration Document.
+This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Agora AUSD Instance Configuration Document](0d71b879-0dd7-4c37-9a42-f16d868c4482).
 
-###### A.6.1.1.2.2.6.1.1.2.1.11 - Uniswap [Core]  <!-- UUID: 6285def0-e537-4d18-9776-7534196576e6 -->
+###### A.6.1.1.2.2.6.1.1.2.1.12 - Uniswap [Core]  <!-- UUID: 6285def0-e537-4d18-9776-7534196576e6 -->
 
 The Ethereum Mainnet Instances Directory of the Uniswap Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.6.1.1.2.1.11.1 - EEthereum Mainnet - Monad Uniswap AUSD/USDC Instance Configuration Document Location [Core]  <!-- UUID: e033416b-635b-42c0-9757-4797614d6f7f -->
+###### A.6.1.1.2.2.6.1.1.2.1.12.1 - Ethereum Mainnet - Monad Uniswap AUSD/USDC Instance Configuration Document Location [Core]  <!-- UUID: e033416b-635b-42c0-9757-4797614d6f7f -->
 
-This Instance’s associated Instance Configuration Document is located at Ethereum Mainnet - Monad Uniswap AUSD/USDC Instance Configuration Document.
+This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Monad Uniswap AUSD/USDC Instance Configuration Document](c4d60460-2694-4d88-bf96-4f4141482cb5).
 
 ###### A.6.1.1.2.2.6.1.1.2.2 - Avalanche [Core]  <!-- UUID: 7f10aaf2-b3e8-4dc8-b91f-ff27200a9ccf -->
 
@@ -30136,7 +30140,7 @@ The documents herein contain operational procedures or monitoring requirements u
 
 ###### A.6.1.1.2.2.6.1.3.1.8 - Securitize [Core]  <!-- UUID: b05d9fc2-9a93-4f3b-b0d8-b4f77bc294ce -->
 
-TThe Ethereum Mainnet Instances of the Securitize Protocol with Active Status are stored herein.
+TThe Ethereum Mainnet Instances of the Securitize Protocol with `Active` Status are stored herein.
 
 ###### A.6.1.1.2.2.6.1.3.1.8.1 - Ethereum Mainnet - Securitize Tokenized AAA CLO Fund (STAC) Instance Configuration Document [Core]  <!-- UUID: a0c4fcd6-ebf9-4124-8767-cf14ab6ab397 -->
 
@@ -30221,7 +30225,7 @@ The documents herein contain operational procedures or monitoring requirements u
 
 ###### A.6.1.1.2.2.6.1.3.1.9 - Galaxy [Core]  <!-- UUID: e5507edb-8e06-48d2-a341-47de592d2a60 -->
 
-The Ethereum Mainnet Instances of the Galaxy Protocol with Active Status are stored herein.
+The Ethereum Mainnet Instances of the Galaxy Protocol with `Active` Status are stored herein.
 
 ###### A.6.1.1.2.2.6.1.3.1.9.1 - Ethereum Mainnet - Galaxy Arch CLOs Instance Configuration Document [Core]  <!-- UUID: 61afae62-1210-4d80-aa6c-cdb26ef0a287 -->
 
@@ -30315,7 +30319,7 @@ The maximum allocation for all Interim Deployments in Galaxy is $25 million.
 
 ###### A.6.1.1.2.2.6.1.3.1.9.1.2.5.1.2 - Rate Limits [Core]  <!-- UUID: 5e6b6a10-a542-4a07-ac6c-2b01826aa8f8 -->
 
-The Rate Limits for this Interim Deployment are defined in Rate Limits.
+The Rate Limits for this Interim Deployment are defined in [Rate Limits](23517c75-2462-4def-bab9-3a33c3c03e71).
 
 ###### A.6.1.1.2.2.6.1.3.1.9.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 65650ce9-1f1f-4e51-b60b-12f17efc2e67 -->
 
