@@ -27373,7 +27373,7 @@ The Ethereum Mainnet Instances Directory of the Securitize Protocol with `Active
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.8.1 - Ethereum Mainnet - Securitize Tokenized AAA CLO Fund (STAC) Instance Configuration Document](a0c4fcd6-ebf9-4124-8767-cf14ab6ab397).
 
-###### A.6.1.1.2.2.6.1.1.2.1.9 - Galaxy [Core]  <!-- UUID: af6212d3-fc1a-4c34-9352-ea18f8a2a294 -->
+###### A.6.1.1.2.2.6.1.1.2.1.9 - Galaxy [Core]  <!-- UUID: 040d21e6-c423-45b6-81c0-fc05c1e45bae -->
 
 The Ethereum Mainnet Instances Directory of the Galaxy Protocol with `Active` Status are stored herein.
 
@@ -30447,7 +30447,7 @@ USDC
 
 AUSD
 
-###### A.6.1.1.2.2.6.1.3.1.11.1.2.2 - Contract Addresses [Core]  <!-- UUID: 9c17fd37b-8641-42fa-866e-4c0408d1e5fb -->
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.2 - Contract Addresses [Core]  <!-- UUID: 33e1ff50-f11e-4a94-be47-ac2014ed172e -->
 
 The documents herein define the Instance contract addresses.
 
@@ -40662,7 +40662,7 @@ This document contains a Directory of all Instances of the Agent Creation Primit
 
 This Instance's associated Instance Configuration Document is located at Single Instance Configuration Document.
 
-###### A.6.1.1.6.2.1.1.1.4 - In Progress Invocations Directory [Core]<!-- UUID: 511e162f-148d-4869-8f6f-d7bfd32f9247
+###### A.6.1.1.6.2.1.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 511e162f-148d-4869-8f6f-d7bfd32f9247
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
 
@@ -40710,7 +40710,7 @@ The address of Launch Agent 5's SubProxy Account will be specified in a future i
 
 The address of Launch Agent 5's Genesis Account will be specified in a future iteration of the Launch Agent 5 Artifact.
 
-###### A.6.1.1.6.2.1.1.3.1.1.4 -Custom Instance Parameters [Core]  <!-- UUID: 3eaa6b51-8d31-4ac9-b171-ee234a67efcd -->
+###### A.6.1.1.6.2.1.1.3.1.1.4 - Custom Instance Parameters [Core]  <!-- UUID: 3eaa6b51-8d31-4ac9-b171-ee234a67efcd -->
 
 The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
 
@@ -40976,7 +40976,7 @@ The documents herein define the operational processes for minting and initial di
 
 The documents herein contain data relevant to the Single Instance of the Agent Token Primitive.
 
-###### A.6.1.1.6.2.1.4.2.1.3.1 -Initial Planning [Core]  <!-- UUID: c900576f-7e31-40cc-8c2d-994b6b06bb5a -->
+###### A.6.1.1.6.2.1.4.2.1.3.1 - Initial Planning [Core]  <!-- UUID: c900576f-7e31-40cc-8c2d-994b6b06bb5a -->
 
 The materials associated with initial planning of the Invocation of this Instance are contained herein.
 
