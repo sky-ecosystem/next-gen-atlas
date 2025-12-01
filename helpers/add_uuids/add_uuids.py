@@ -1,5 +1,4 @@
-"""
-Generate and add UUIDs for newly added documents.
+"""Generate and add UUIDs for newly added documents.
 
 Creates backup of original file before making changes.
 """
@@ -17,16 +16,35 @@ UUID_COMMENT_RE = re.compile(r"<!--\s*UUID: [0-9a-fA-F-]+\s*-->")
 
 
 def is_header(line: str) -> bool:
+    """Check if a line is a markdown header.
+
+    Returns:
+        True if the line starts with one or more '#' characters followed by a space.
+
+    """
     return HEADER_RE.match(line) is not None
 
 
 def has_uuid_comment(line: str) -> bool:
+    """Check if a line contains a correctly formatted UUID.
+
+    Returns:
+        True if the line contains a UUID comment.
+
+    """
     return UUID_COMMENT_RE.match(line) is not None
 
 
 def process_markdown(path: Path) -> None:
+    """Process a markdown file to add UUIDs to headers that do not contain them.
+
+    Raises:
+        FileNotFoundError: If the specified markdown file does not exist.
+
+    """
     if not path.exists():
-        raise FileNotFoundError(f"Markdown file path not found: {path}")
+        msg = f"Markdown file path not found: {path}"
+        raise FileNotFoundError(msg)
 
     headers_tagged = 0
 
@@ -47,11 +65,7 @@ def process_markdown(path: Path) -> None:
             no_nl = line.rstrip("\n")
             trimmed = no_nl.rstrip()
 
-            if (
-                is_header(trimmed)
-                and trimmed.endswith("]")
-                and not has_uuid_comment(trimmed)
-            ):
+            if is_header(trimmed) and trimmed.endswith("]") and not has_uuid_comment(trimmed):
                 new_id = uuid.uuid4()
                 new_line = f"{trimmed}  <!-- UUID: {new_id} -->\n"
                 outfile.write(new_line)
@@ -67,7 +81,8 @@ def process_markdown(path: Path) -> None:
     print(f"Updated {path}. Headers tagged with UUIDs: {headers_tagged}")
 
 
-def main():
+def main() -> None:
+    """Execute the program to process the markdown file."""
     process_markdown(MARKDOWN_FILE)
 
 
