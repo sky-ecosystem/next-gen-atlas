@@ -13,7 +13,7 @@ MARKDOWN_FILE = Path("Sky Atlas/Sky Atlas.md")
 
 
 HEADER_RE = re.compile(r"^\s*#+\s+.*")
-UUID_COMMENT_RE = re.compile(r"<!--\s*UUID:: [0-9a-fA-F-]+\s*-->")
+UUID_COMMENT_RE = re.compile(r"<!--\s*UUID: [0-9a-fA-F-]+\s*-->")
 
 
 def is_header(line: str) -> bool:
