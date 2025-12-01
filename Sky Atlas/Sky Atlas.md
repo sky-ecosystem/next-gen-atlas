@@ -27361,13 +27361,45 @@ The Ethereum Mainnet Instances Directory of the Morpho Protocol with `Active` St
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.1 - Ethereum Mainnet - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document](29cb8322-96f5-4f18-b4fe-eb31826af580).
 
-###### A.6.1.1.2.2.6.1.1.2.1.8 - Securitize Tokenized AAA CLO Fund (STAC) [Core]  <!-- UUID: 12a0d375-8f1e-4e62-83ba-d56bc6d3f2ab -->
+###### A.6.1.1.2.2.6.1.1.2.1.7.2 - Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document Location [Core]  <!-- UUID: b75109cc-9cce-4831-ac8a-995d7d145383 -->
 
-The Ethereum Mainnet Instances Directory of the Securitize Tokenized AAA CLO Fund (STAC) with `Active` Status are stored herein.
+This Instance’s associated Instance Configuration Document is located at Ethereum Mainnet - Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document.
 
-###### A.6.1.1.2.2.6.1.1.2.1.8.1 - Ethereum Mainnet - Securitize Tokenized AAA CLO Fund (STAC) Instance Configuration Document Location [Core]  <!-- UUID: f43479d2-2c76-4a18-8e9b-f59f1e1b493b -->
+###### A.6.1.1.2.2.6.1.1.2.1.8 - Securitize [Core]  <!-- UUID: 12a0d375-8f1e-4e62-83ba-d56bc6d3f2ab -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.8.1 - Ethereum Mainnet - Securitize Tokenized AAA CLO Fund (STAC) Instance Configuration Document](a0c4fcd6-ebf9-4124-8767-cf14ab6ab397).
+The Ethereum Mainnet Instances Directory of the Securitize Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.1.2.1.9 - Galaxy [Core]  <!-- UUID: af6212d3-fc1a-4c34-9352-ea18f8a2a294 -->
+
+The Ethereum Mainnet Instances Directory of the Galaxy Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.1.2.1.9.1 - Ethereum Mainnet - Galaxy Arch CLOs Instance Configuration Document Location [Core]  <!-- UUID: af6212d3-fc1a-4c34-9352-ea18f8a2a294 -->
+
+This Instance’s associated Instance Configuration Document is located at Ethereum Mainnet - Galaxy Arch CLOs Instance Configuration Document.
+
+###### A.6.1.1.2.2.6.1.1.2.1.10 - Ripple [Core]  <!-- UUID: 39843e09-154a-497a-8824-54393ea15915 -->
+
+The Ethereum Mainnet Instances Directory of the Ripple Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.1.2.1.10.1 - Ethereum Mainnet - Ripple RLUSD Instance Configuration Document Location [Core]  <!-- UUID: 6bf29031-456e-4f6e-bb43-1ceb4a2eb11e -->
+
+This Instance’s associated Instance Configuration Document is located at Ethereum Mainnet - Ripple RLUSD Instance Configuration Document.
+
+###### A.6.1.1.2.2.6.1.1.2.1.11 - Agora [Core]  <!-- UUID: 2417db38-50a7-4394-9cfb-7afcf01e8c85 -->
+
+The Ethereum Mainnet Instances Directory of the Agora Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.1.2.1.11.1 - Ethereum Mainnet - Agora AUSD Instance Configuration Document Location [Core]  <!-- UUID: ec9d4393-2e68-40a7-b428-efc0452e35d8 -->
+
+This Instance’s associated Instance Configuration Document is located at Ethereum Mainnet - Agora AUSD Instance Configuration Document.
+
+###### A.6.1.1.2.2.6.1.1.2.1.11 - Uniswap [Core]  <!-- UUID: 6285def0-e537-4d18-9776-7534196576e6 -->
+
+The Ethereum Mainnet Instances Directory of the Uniswap Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.1.2.1.11.1 - EEthereum Mainnet - Monad Uniswap AUSD/USDC Instance Configuration Document Location [Core]  <!-- UUID: e033416b-635b-42c0-9757-4797614d6f7f -->
+
+This Instance’s associated Instance Configuration Document is located at Ethereum Mainnet - Monad Uniswap AUSD/USDC Instance Configuration Document.
 
 ###### A.6.1.1.2.2.6.1.1.2.2 - Avalanche [Core]  <!-- UUID: 7f10aaf2-b3e8-4dc8-b91f-ff27200a9ccf -->
 
@@ -27453,25 +27485,49 @@ The subdocuments herein provide the addresses of the Grove Liquidity Layer’s c
 
 The documents herein contain global key addresses for the Allocator Contracts.
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.1.1 - Allocator Buffer Contract [Core]  <!-- UUID: 599b6748-597f-4a9a-b35b-6638a2f8785f -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.1 - Ethereum Mainnet [Core]  <!-- UUID: f8956105-115a-4873-abb8-68458cbacfcf -->
+
+The documents herein contain the Allocator Contract Addresses on the Ethereum Mainnet.
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.1.1 - Allocator Buffer Contract [Core]  <!-- UUID: 599b6748-597f-4a9a-b35b-6638a2f8785f -->
 
 The address of the ALLOCATOR_BUFFER contract is: `0x629aD4D779F46B8A1491D3f76f7E97Cb04D8b1Cd`
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.1.2 - Allocator Oracle Contract [Core]  <!-- UUID: 49c84e7b-8885-4107-9dd6-05de425c6217 -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.1.2 - Allocator Oracle Contract [Core]  <!-- UUID: 49c84e7b-8885-4107-9dd6-05de425c6217 -->
 
 The address of the ALLOCATOR_ORACLE contract is: `0xc7B91C401C02B73CBdF424dFaaa60950d5040dB7`
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.1.3 - Allocator Registry Contract [Core]  <!-- UUID: d2fdbf24-f6bf-4f67-8c7c-4619e57411c8 -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.1.3 - Allocator Registry Contract [Core]  <!-- UUID: d2fdbf24-f6bf-4f67-8c7c-4619e57411c8 -->
 
 The address of the ALLOCATOR_REGISTRY contract is: `0xCdCFA95343DA7821fdD01dc4d0AeDA958051bB3B`
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.1.4 - Allocator Roles Contract [Core]  <!-- UUID: b5ab51c6-e66f-418b-9073-25728227847a -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.1.4 - Allocator Roles Contract [Core]  <!-- UUID: b5ab51c6-e66f-418b-9073-25728227847a -->
 
 The address of the ALLOCATOR_ROLES contract is: `0x9A865A710399cea85dbD9144b7a09C889e94E803`
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.1.5 - Allocator Vault (Bloom-A) Contract [Core]  <!-- UUID: a2060039-8764-412d-a55b-1f705a0612b3 -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.1.5 - Allocator Vault (Bloom-A) Contract [Core]  <!-- UUID: a2060039-8764-412d-a55b-1f705a0612b3 -->
 
 The address of the ALLOCATOR_VAULT (ALLOCATOR-BLOOM-A) contract is: `0x26512A41C8406800f21094a7a7A0f980f6e25d43`
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.2 - Base [Core]  <!-- UUID: 366a6ebc-a35d-42a2-ad9b-86932dd3aac4 -->
+
+The documents herein contain the Allocator Contract Addresses on Base.
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.2.1 - Grove Executor [Core]  <!-- UUID: ac9b04d0-cd27-45a8-9008-6799dbdb6038 -->
+
+The address of the Grove executor on Base is: `0x491EDFB0B8b608044e227225C715981a30F3A44E`
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.2.2 - Grove Receiver [Core]  <!-- UUID: 52f4881b-134f-4eb1-bfe2-ae34abee1a72 -->
+
+The address of the Grove receiver on Base is: `0x5F5cfCB8a463868E37Ab27B5eFF3ba02112dF19a`
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.2.3 - CCTP v1 Mainnet To Base [Core]  <!-- UUID: 5fa11eb9-4399-4ac0-a6c0-ef03a5875254 -->
+
+ The address of the CCTP v1 Mainnet to Base is: `0xBd3fa81B58Ba92a82136038B25aDec7066af3155`
+
+ ###### A.6.1.1.2.2.6.1.2.1.1.1.1.2.4 - CCTP v1 Base To Mainnet [Core]  <!-- UUID: 16efc874-6658-48f0-a1fb-2babd3a90706 -->
+
+The address of the CCTP v1 Base to Mainnet is: `0x1682Ae6375C4E4A97e4B583BC394c861A46D8962`
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2 - ALM Contracts [Core]  <!-- UUID: f233a46b-8dff-4335-8ccf-dc3f1c18a96f -->
 
@@ -27535,7 +27591,7 @@ The address of the ALM_CONTROLLER contract is: `0x08b045609a673996ca10fedbAFAE23
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.3.2 - ALM Controller Contract Version [Core]  <!-- UUID: 312c1860-7eec-4a60-9add-1b64204c2228 -->
 
-The ALM_CONTROLLER contract version will be specified in a future iteration of the Atlas.
+The ALM_CONTROLLER contract version is v.1.6.0.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.3.3 - ALM Freezer Multisig Address [Core]  <!-- UUID: 45278dad-c140-4671-9e33-59ba395d8d11 -->
 
@@ -29988,9 +30044,99 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
-###### A.6.1.1.2.2.6.1.3.1.8 - Securitize Tokenized AAA CLO Fund (STAC) [Core]  <!-- UUID: b05d9fc2-9a93-4f3b-b0d8-b4f77bc294ce -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2 - Ethereum Mainnet - Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document [Core]  <!-- UUID: 27f06e65-8397-449a-b002-abaa0416badc -->
 
-The Ethereum Mainnet Instances of the Securitize Tokenized AAA CLO Fund (STAC) with `Active` Status are stored herein.
+The documents herein contain the Instance Configuration Document for the Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 1487eca9-bca3-48ee-992b-cdd6f90cf2e1 -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2 - Parameters [Core]  <!-- UUID: 4ed65dea-eefa-4cfc-93e8-99187aa14f7f -->
+
+The documents herein define the parameters of the Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 5852f668-1d79-4e62-8f8d-c1f77cec33e5 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.1.1 - Network [Core]  <!-- UUID: be6bd732-a6d7-4a75-8d1c-b4d5103bc81c -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 0c9f30fb-8428-409d-9c76-a48426147bef -->
+
+Morpho
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: f6ba1cac-6a1c-4030-b490-307906cf4350 -->
+
+USDC
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.1.4 - Token [Core]  <!-- UUID: db5c25d7-e55c-46cf-adcd-2f96c65eccb1 -->
+
+grove-bbqAUSD
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.2 - Contract Addresses [Core]  <!-- UUID: 4b90512d-d7af-445c-884b-a57d0e86b5bd -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.2.1 - Token Address (Monad) [Core]  <!-- UUID: fa192507-8cee-42fd-a88a-70d962f8e760 -->
+
+`0x32841A8511D5c2c5b253f45668780B99139e476D`
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 91bb8ea0-7ca5-4c22-8979-cf6b2262f020 -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 19f94109-c950-40e8-949b-dfaf108b90f4 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: e94b8732-7022-4fca-a7ab-b1c92757aa55 -->
+
+The inflow RateLimitID is: `0x098ad67dc41c1a5892ec3ef5fd411198dc11962475e9ef2e0362e6cb7f5a2174`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 94c5adb4-8f74-4c8c-ba53-d06b79fd395a -->
+
+The outflow RateLimitID is: N/A.
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.4 - Rate Limits [Core]  <!-- UUID: 56d33b3e-5c61-40bf-aaa1-d53cf78ac33c -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: f8a8a1ee-fb6c-4f4a-a7e8-c41f8dcccf1a -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 99db86e0-e883-475e-a736-11aa5b3dab5e -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: N/A
+- `slope`: N/A
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 766eb787-b52c-47f0-bc07-3bcf51765c55 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 694b0873-89ee-4919-98cb-3fe2866460d2 -->
+
+The maximum exposure for this Instance is 100 million USDS.
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.5.2 - Capital Requirement Ratio [Core]  <!-- UUID: 9de13260-0e24-4c64-9a2e-f3adaabeb4aa -->
+
+The CRR for this Instance is 5%.
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 3076a14b-eadb-4d3b-87d3-c8ff7e17c420 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.8 - Securitize [Core]  <!-- UUID: b05d9fc2-9a93-4f3b-b0d8-b4f77bc294ce -->
+
+TThe Ethereum Mainnet Instances of the Securitize Protocol with Active Status are stored herein.
 
 ###### A.6.1.1.2.2.6.1.3.1.8.1 - Ethereum Mainnet - Securitize Tokenized AAA CLO Fund (STAC) Instance Configuration Document [Core]  <!-- UUID: a0c4fcd6-ebf9-4124-8767-cf14ab6ab397 -->
 
@@ -30014,7 +30160,7 @@ Ethereum Mainnet
 
 ###### A.6.1.1.2.2.6.1.3.1.8.1.2.1.2 - Target Protocol [Core]  <!-- UUID: f29e4e19-73d2-4a9b-812f-0226be26687a -->
 
-Securitize Tokenized AAA CLO Fund (STAC)
+Securitize
 
 ###### A.6.1.1.2.2.6.1.3.1.8.1.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 5e3282b6-3920-43e8-9659-ad9d0a4f2efe -->
 
@@ -30070,6 +30216,374 @@ The withdrawal rate limits are:
 The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.2.2.6.1.3.1.8.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 0f3ebd6c-2b7f-4125-aea8-68e84476da06 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.9 - Galaxy [Core]  <!-- UUID: e5507edb-8e06-48d2-a341-47de592d2a60 -->
+
+The Ethereum Mainnet Instances of the Galaxy Protocol with Active Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.3.1.9.1 - Ethereum Mainnet - Galaxy Arch CLOs Instance Configuration Document [Core]  <!-- UUID: 61afae62-1210-4d80-aa6c-cdb26ef0a287 -->
+
+The documents herein contain the Instance Configuration Document for the Galaxy Arch CLOs Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 21f548d0-71cc-4a8a-8942-514e87cbd893 -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2 - Parameters [Core]  <!-- UUID: da740e11-eb97-4647-9186-8cce66532f2a -->
+
+The documents herein define the parameters of the Galaxy Arch CLOs Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.1 - Instance Identifiers [Core]  <!-- UUID: b993eda4-2f51-470b-b0a9-e0213576a88d -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.1.1 - Network [Core]  <!-- UUID: d8cf82e0-4c80-4378-844c-ce2dd0a5d04e -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 357d0b0e-7db7-4c2c-9b06-e6e0134c4259 -->
+
+Galaxy
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 0d3d52df-eb9b-4df4-8023-295be72f1193 -->
+
+USDC
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.1.4 - Token [Core]  <!-- UUID: 72e3fb43-419f-437a-b7f4-59ebe16ccd20 -->
+
+GACLO-1
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.2 - Contract Addresses [Core]  <!-- UUID: 221c015b-f830-48d0-9c0e-dbdfcf0865bf -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.2.1 - Token Address (Avalanche) [Core]  <!-- UUID: 931d7521-9740-4913-8f36-52bbb856dca2 -->
+
+`0x2C0aDFF8e114f3cA106051144353aC703D24B901`
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.2.2 - Deposit Address (Mainnet) [Core]  <!-- UUID: 01affe4d-8bba-4783-a6b3-ff32193b63e3 -->
+
+`0x2E3A11807B94E689387f60CD4BF52A56857f2eDC`
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.2.3 - Underlying Asset Address [Core]  <!-- UUID: 44803afa-e8f9-4247-afda-a25fcedd8226 -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 43ad16bf-2a53-492a-a9aa-187e5f3820ec -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: df18f3e6-bde8-4241-86d3-aa98edf3179c -->
+
+The inflow RateLimitID is: `0x0de7fd8a7d8060b09965787f4841cca8a448925e555aaf7ecb4894782ffa2e17`.
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: be343d84-8e63-4e4e-99a3-77323db1f048 -->
+
+The outflow RateLimitID is: N/A.
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.4 - Rate Limits [Core]  <!-- UUID: 23517c75-2462-4def-bab9-3a33c3c03e71 -->
+
+The current maxAmount and slope for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 2e5f7349-fe4b-4c1b-8cc2-541d2ce86bf5 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.4.1 - Withdrawal Rate Limits [Core]  <!-- UUID: c2f613ac-e271-4cbc-9ca7-f644082e5e8e -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: N/A
+- `slope`: N/A
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: efac2756-89e0-4b0e-8313-3097c2660608 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.5.1 - Interim Deployment [Core]  <!-- UUID: a6894406-42dd-4d86-8ee5-8ccab560ce43 -->
+
+This Instance is currently defined as an Interim Deployment (see [A.1.9.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: c3d3a0d2-30bd-42e7-a49e-3b9196d203a7 -->
+
+The maximum allocation for all Interim Deployments in Galaxy is $25 million.
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.5.1.2 - Rate Limits [Core]  <!-- UUID: 5e6b6a10-a542-4a07-ac6c-2b01826aa8f8 -->
+
+The Rate Limits for this Interim Deployment are defined in Rate Limits.
+
+###### A.6.1.1.2.2.6.1.3.1.9.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 65650ce9-1f1f-4e51-b60b-12f17efc2e67 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.10 - Ripple [Core]  <!-- UUID: 9b416c43-4ed8-4c13-ba9f-5f12c9c3e7a0 -->
+
+The Ethereum Mainnet Instances of the Ripple Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.3.1.10.1 - Ethereum Mainnet - Ripple RLUSD Instance Configuration Document [Core]  <!-- UUID: 2e28c162-c608-452c-b796-4654ac1139d8 -->
+
+The documents herein contain the Instance Configuration Document for the Ripple RLUSD Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 3860f545-4d08-45ff-b8b6-98bf78b78c3c -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2 - Parameters [Core]  <!-- UUID: 060ff03e-4aa5-47ce-8d9c-ad6bcca8ac02 -->
+
+The documents herein define the parameters of the Ripple RLUSD Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.1 - Instance Identifiers [Core]  <!-- UUID: fcccfc28-a6fe-4aaa-b0be-e34ffd36fba9 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.1.1 - Network [Core]  <!-- UUID: 7bf6a865-5eb4-4693-b45e-e13dc2e45ef7 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 8c0f9245-59c0-4119-b06e-461e043055f0 -->
+
+Ripple
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: ac03ab87-6983-4202-ab96-3b467887430c -->
+
+USDC
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.1.4 - Token [Core]  <!-- UUID: 026d2917-1690-44ac-97e8-248ca299d1d3 -->
+
+RLUSD
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.2 - Contract Addresses [Core]  <!-- UUID: 9a0b58c8-d674-4a3c-8a68-4856ad42484e -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.2.1 - Token Address [Core]  <!-- UUID: a7a0518a-cc8a-460c-b9a4-58eae7130455 -->
+
+`0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.2.2 - Underlying Asset Address  [Core]  <!-- UUID: 6f3ad27d-cb6d-4135-a0ad-444c3d3b2df6 -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 84298bdc-2033-47d4-89f7-d8d244c1a3bc -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: c52f70d9-7910-4f5b-8ffc-5e48a4d7ac39 -->
+
+The inflow RateLimitID is: `0x1fd0baaf4707a3525f15888ddf89e29b1a008d0f3cf7fb75171233c72003a588`.
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: de5079d5-deaa-4cac-abfa-f4032a0d29a2 -->
+
+The outflow RateLimitID is: `0x786ff17c8a3c0f645317f91a3247bc843ba1ee4d248ab539acec8ba3bf4557ae`.
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.4 - Rate Limits [Core]  <!-- UUID: 5cc1e823-b15a-4792-8b33-ce92a02fd0b0 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 1b66e040-0e9d-4fb7-a3a4-66068899c344 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 8cd46ad3-7589-4ac0-8cb6-a6dbe42bdc81 -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 193f9b5d-a33e-44a0-ba8e-33e480d96243 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.10.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 8b96b7dc-9269-4d51-8b2f-a77d337736fc -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.11 - Agora [Core]  <!-- UUID: 1e4049b8-cd1d-42ef-be21-7f365b6a5341 -->
+
+The Ethereum Mainnet Instances of the Agora Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.3.1.11.1 - Ethereum Mainnet - Agora AUSD Instance Configuration Document [Core]  <!-- UUID: 0d71b879-0dd7-4c37-9a42-f16d868c4482 -->
+
+The documents herein contain the Instance Configuration Document for the Agora AUSD Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: fbfc3072-984e-4538-be7d-4a2dfc1b6057 -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2 - Parameters [Core]  <!-- UUID: fbc9a192-1171-4a09-a223-a5ce4bfdf227 -->
+
+The documents herein define the parameters of the Agora AUSD Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 386b5c26-965d-43c9-b6a7-6f2d9717f57c -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.1.1 - Network [Core]  <!-- UUID: 9c207b7e-5f87-490c-a209-44157b596745 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 7c6e311b-c4b6-498f-a9b1-7c1812d96006 -->
+
+Agora
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 2f2d0122-0b55-4c6a-be9b-05f0a1378ca9 -->
+
+USDC
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.1.4 - Token [Core]  <!-- UUID: a4320ef3-98d4-4c6c-ba33-dd58fd40293c -->
+
+AUSD
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.2 - Contract Addresses [Core]  <!-- UUID: 9c17fd37b-8641-42fa-866e-4c0408d1e5fb -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.2.1 - Token Address [Core]  <!-- UUID: b4a55280-bf9d-477a-9d42-1b2a421f6028 -->
+
+`0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a`
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.2.2 - Underlying Asset Address  [Core]  <!-- UUID: f8bcf8e0-e5a8-41c3-9963-2ba85697265f -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: c5462c4a-eb73-40c3-bc66-6224fb0d7359 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 94e3de3e-d8b7-4d23-8b97-8fd6d4c56281 -->
+
+The inflow RateLimitID is: `0xe21e87b0c2dea42ff4c87e8c92861bea08151ae6c3e0ee3b554d65ebd782987f`.
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: d585ab62-9de7-4b98-88b3-c6b70428fd66 -->
+
+The outflow RateLimitID is: N/A
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.4 - Rate Limits [Core]  <!-- UUID: d60717bb-c122-49b9-9617-d121c05f60cb -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 880c8154-4959-4875-b696-3133f795fe02 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: ce3f0a10-568d-4525-b69d-1669c3cb2e8c -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: N/A
+- `slope`: N/A
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: b13534e8-3758-4255-8c2d-60520fa36ed5 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 3b346059-5587-43d2-addd-92e12f26f83a -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.12 - Uniswap [Core]  <!-- UUID: e8924df2-b3af-4867-8eda-1aa41ebcb785 -->
+
+The Ethereum Mainnet Instances of the Uniswap Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.3.1.12.1 - Ethereum Mainnet - Monad Uniswap AUSD/USDC Instance Configuration Document [Core]  <!-- UUID: c4d60460-2694-4d88-bf96-4f4141482cb5 -->
+
+The documents herein contain the Instance Configuration Document for the Monad Uniswap AUSD/USDC Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 69723e54-7c6b-4ddc-854c-6477b1884e15 -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2 - Parameters [Core]  <!-- UUID: f27e8a20-88f9-4f85-8e3f-28324751cd6d -->
+
+The documents herein define the parameters of the Monad Uniswap AUSD/USDC Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 09991d1f-ecd9-44c4-a15f-726494579136 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.1.1 - Network [Core]  <!-- UUID: 9b511ae4-773f-41e3-a170-070b05026fa9 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.1.2 - Target Protocol [Core]  <!-- UUID: fce86e17-2a7c-4ff2-ada6-6f3ec57b7cf9 -->
+
+Uniswap AUSD/USDC
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: ae4d43f2-e97f-4aa4-ab78-674a11cc246a -->
+
+USDC
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.1.4 - Token [Core]  <!-- UUID: 9ad52308-e46b-463b-ba6a-6bf541323206 -->
+
+Uniswap AUSD/USDC Pool
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.2 - Contract Addresses [Core]  <!-- UUID: 22326048-1218-49b7-99bd-b71bf9f8212c -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.2.1 - Token Address (Monad) [Core]  <!-- UUID: 65f7e17e-61c6-452c-a352-abc2f9e92fb3 -->
+
+`0x6B405DCA74897c9442d369DcF6c0EC230f7E1c7C`
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 4e680b6a-9f48-41d7-b7aa-655a36a5c068 -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 2e3e8ebe-335d-4a66-a466-ca87e4bf42ab -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 5f26f655-a1e1-4e47-b0cb-a59fb7b40e19 -->
+
+The inflow RateLimitID is: `0x098ad67dc41c1a5892ec3ef5fd411198dc11962475e9ef2e0362e6cb7f5a2174`.
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 6e491073-f15f-49bd-ab06-3d5277c75dbb -->
+
+The outflow RateLimitID is: N/A
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.4 - Rate Limits [Core]  <!-- UUID: d7fdb0e6-5763-4cf2-ba60-25b24e9ca655 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 607a906a-da69-4105-a519-6e4cfa529c1d -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: a3862cd4-ff0e-4f7d-bcf9-cc1a207c74d6 -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: N/A
+- `slope`: N/A
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: ad810569-b88a-4d10-9563-cc0e2cfb27f4 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 87167953-c122-4840-ae33-45843bc8204b -->
+
+The maximum exposure for this Instance is 100 million USDS.
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.5.2 - Capital Requirement Ratio [Core]  <!-- UUID: 7a00985a-57b8-45df-9b31-cebc543786a4 -->
+
+The CRR for this Instance is 3%.
+
+###### A.6.1.1.2.2.6.1.3.1.12.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 53743f66-97ba-44ed-b386-b0ab75d9b8e4 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
@@ -30703,6 +31217,10 @@ On November 20, 2025, a DAO Resolution was passed authorizing the Grove Foundati
 ###### A.6.1.1.2.3.6.4 - Onboard With Wintermute [Core]  <!-- UUID: d2409e5a-a85b-4a51-8f4d-46a437660154 -->
 
 On November 27, 2025, a DAO Resolution was passed authorizing the Grove Foundation and Bamboo Grove Ltd to onboard with Wintermute. See [https://ipfs.io/ipfs/bafkreia72u565ub3iazmbsqsf4jzrobveckb2dtrcspmwn52oenyic72xu](https://ipfs.io/ipfs/bafkreia72u565ub3iazmbsqsf4jzrobveckb2dtrcspmwn52oenyic72xu).
+
+###### A.6.1.1.2.3.6.5 - Authorization With Respect To FalconX [Core]  <!-- UUID: 062461fe-fc60-4f7c-ac28-2238756a67ea -->
+
+On December 4, 2025, a DAO Resolution was passed authorizing the Grove Foundation and Bamboo Grove Ltd with respect to FalconX. See [https://ipfs.io/ipfs/bafkreicfhmyziwispejbngiqhfrqjy3xwvxidqnyaaaacprlp4n6gzvw7u](https://ipfs.io/ipfs/bafkreicfhmyziwispejbngiqhfrqjy3xwvxidqnyaaaacprlp4n6gzvw7u).
 
 #### A.6.1.1.3 - Keel [Core]  <!-- UUID: bc6aed17-2969-4d04-9af6-c7bf3e4497e6 -->
 
