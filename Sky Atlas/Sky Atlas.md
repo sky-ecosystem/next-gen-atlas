@@ -18676,6 +18676,10 @@ This Instance's associated Instance Configuration Document is located at
 
 This Instance's associated Instance Configuration Document is located at
 
+###### A.6.1.1.1.2.6.1.1.2.1.11.4 - Ethereum Mainnet - Arkis Instance Configuration Document Location Ethereum Mainnet - Arkis Instance Configuration Document. [Core]  <!-- UUID: be9fe3f4-06a6-4bef-9eec-ac96c227d27c -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.10.1 - Ethereum Mainnet - Arkis Instance Configuration Document](4bb58af1-fc25-442f-83a9-dd40989a7d37).
+
 ###### A.6.1.1.1.2.6.1.1.2.2 - Base [Core]  <!-- UUID: 305a6351-bb16-4e4d-8912-7ef1c3ff26bb -->
 
 The documents herein contain a Directory of all Instances on Base of the Allocation System Primitive with Instance status of `Active`.
