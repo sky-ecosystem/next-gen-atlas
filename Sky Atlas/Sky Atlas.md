@@ -23061,7 +23061,7 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are 
 
 The inflow rate limits are:
 - `maxAmount`: 5,000,000 USDC
-- `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
+- `slope`: 5,000,000 USDC per day
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 61f4c11f-73d0-49f2-ba54-abf214c60881 -->
 
