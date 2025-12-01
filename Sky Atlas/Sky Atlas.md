@@ -22643,7 +22643,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2.2.2.3 - Allocator Role Address [Core]  <!-- UUID: e40cb4f0-7ff1-4c64-a936-5e33189952a5 -->
 
-`0xdC035D45d973E3EC169d2276DDab16f1e407384F`
+`0x1601843c5E9bC251A3272907010AFa41Fa18347E`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 73b8b172-1562-4729-9d21-832bf1efdd19 -->
 
@@ -22719,7 +22719,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.2.2.3 - Allocator Role Address [Core]  <!-- UUID: b63d90f5-1c8a-41e0-8ada-5db9986ec4a2 -->
 
-`0xdC035D45d973E3EC169d2276DDab16f1e407384F`
+`0x1601843c5E9bC251A3272907010AFa41Fa18347E`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 5b0ead44-7dce-4af5-b750-422c8f97c4ce -->
 
