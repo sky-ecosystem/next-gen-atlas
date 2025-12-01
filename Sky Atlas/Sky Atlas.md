@@ -22993,6 +22993,122 @@ The transferAssets rate limits are:
 
 - `maxAmount`: Unlimited
 
+###### A.6.1.1.1.2.6.1.3.1.10 - Arkis [Core]  <!-- UUID: aad2a425-b9e5-4e06-baae-8322b95e98ee -->
+
+The Ethereum Mainnet Instances of Arkis with `active` status are stored herein.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1 - Ethereum Mainnet - Arkis Instance Configuration Document [Core]  <!-- UUID: 497b90e2-7c18-41ca-9ae6-c0c101ba7adf -->
+
+The documents herein contain the Instance Configuration Document for the Spark Prime/Arkis Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2 - RRC Framework Full Implementation [Core]  <!-- UUID: a45a4c46-3590-4277-92b2-31707155c977 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.2 - Parameters [Core]  <!-- UUID: d4a23a51-bf37-4d31-b1ac-f085ff6d5de2 -->
+
+The documents herein define the parameters of the Arkis Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.2.1 - Instance Identifiers [Core]  <!-- UUID: 3827960c-8cdf-4e23-9046-fc78d3ad0dc2 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.2.1.1 - Network [Core]  <!-- UUID: c87e384c-8e8e-4a02-9902-066b2560564d -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.2.1.2 - Target Protocol [Core]  <!-- UUID: ee6bbbdf-e854-4789-984c-c781457434e7 -->
+
+Arkis
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.2.1.3 - Asset Supplied By Users [Core]  <!-- UUID: 10229012-9591-4ac2-a82f-744ffb2a38d0 -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.2.1.4 - Token [Core]  <!-- UUID: 9bf00b29-a6e5-4850-9247-a46b9ee47f2b -->
+
+spUSDT
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.2.2 - Contract Addresses [Core]  <!-- UUID: f8105d2e-11cc-4f40-a2c2-0c919ae89422 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.2.2.1 - Token Address [Core]  <!-- UUID: 224538f9-fde7-43f3-aa9b-1c3cf6036663 -->
+
+`0xe2e7a17dFf93280dec073C995595155283e3C372`
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 2959cf7c-9026-45d9-83d4-2ef755613d33 -->
+
+`0xdAC17F958D2ee523a2206206994597C13D831ec7`
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: d031b87f-ee09-4019-a7d8-1dcc6c698622 -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.2.4 - Rate Limits [Core]  <!-- UUID: ab480592-3e9b-4bdb-9e8d-80e4370a964e -->
+
+The specific `maxAmount` and `slope` for this conduit's inflow/outflow are not defined for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 5059455b-0fc8-4ab7-b9c2-78cfd9ab253f -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 0ae91e4f-3189-4aba-858f-eff906496b9b -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 248a7063-2c28-4077-99af-d2db125d6c02 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.4.1 - Contract Addresses [Core]  <!-- UUID: 1978c0cd-a433-4232-ab94-438ba1fbd511 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.4.1.1 - Spark Vault v2 Implementation [Core]  <!-- UUID: 730c2ba9-d2d3-438c-881b-a36d7c698c2e -->
+
+`0x1b992302652A92611DCd5090D1Cb388C6377f455`
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.4.1.2 - Default admin [Core]  <!-- UUID: a84b734e-7bcf-4a29-8173-bf2388756074 -->
+
+`0x3300f198988e4C9C63F75dF86De36421f06af8c4`
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.4.1.3 - Setter [Core]  <!-- UUID: dfda6276-2747-4135-996a-d516eb734855 -->
+
+`0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC`
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.4.1.4 - Taker [Core]  <!-- UUID: 5fdbbda4-844e-4280-bacd-0cad16dbf3de -->
+
+`0x1601843c5E9bC251A3272907010AFa41Fa18347E`
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.4.2 - Risk Parameters Current Configuration [Core]  <!-- UUID: 64c424db-af06-4910-b9f4-df2560236a99 -->
+
+The subdocuments herein define the current configuration of the risk parameters.
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.4.2.1 - Spark Savings USDT Risk Parameters [Core]  <!-- UUID: 473796c1-c41f-4924-80f6-468f966fa064 -->
+
+The Risk parameters are:
+
+- Supply cap: 500,000,000 USDT
+- Max yield: 10%
+- Current yield (at launch): 0%
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.4.2.2 - Rate Limits [Core]  <!-- UUID: 3802d641-27cf-4ec1-bba4-6a09a84071af -->
+
+The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.4.2.3 - Take Rate Limits [Core]  <!-- UUID: fc186f71-dce3-46d8-bf50-fcccdfad5e5d -->
+
+The take rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: 9c92bc84-cfdf-4356-8fc4-4df33937ec89 -->
+
+The transferAssets rate limits are:
+
+- `maxAmount`: Unlimited
+
 ###### A.6.1.1.1.2.6.1.3.2 - Base [Core]  <!-- UUID: 9ddbfaed-ebb8-4dd4-9f08-d12cad450a00 -->
 
 The Base Instances of the Spark Liquidity Layer with `Active` Status are stored herein.
