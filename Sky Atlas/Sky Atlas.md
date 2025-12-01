@@ -23035,7 +23035,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.4.2.2.1 - Token Address [Core]  <!-- UUID: 32e9ffdc-e437-46cb-a2fc-272fb3e826a7 -->
 
-To be provided when available, before submission in executive vote.
+`0x80128DbB9f07b93DDE62A6daeadb69ED14a7D354`
 
 ###### A.6.1.1.1.2.6.1.3.1.9.4.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: e3bf5dca-f865-45b0-87dd-1bb67b9b52af -->
 
@@ -23075,7 +23075,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.4.4.1.3 - Setter [Core]  <!-- UUID: 2ece6e1d-b07a-4df5-9aa6-616756f64815 -->
 
-`0x1601843c5E9bC251A3272907010AFa41Fa18347E`
+`0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178`
 
 ###### A.6.1.1.1.2.6.1.3.1.9.4.4.1.4 - Taker [Core]  <!-- UUID: 32dc1afe-59e0-472d-8f09-c2a923adb6bb -->
 
