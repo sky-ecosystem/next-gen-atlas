@@ -18676,7 +18676,7 @@ This Instance's associated Instance Configuration Document is located at
 
 This Instance's associated Instance Configuration Document is located at
 
-###### A.6.1.1.1.2.6.1.1.2.1.11.4 - Ethereum Mainnet - Spark Savings v2 PYUSD Instance Configuration Document Location Ethereum Mainnet - Spark Savings v2 PYUSD Instance Configuration Document. [Core]  <!-- UUID: 3dabe1bb-244d-4546-993a-449b988d9199 -->
+###### A.6.1.1.1.2.6.1.1.2.1.11.4 - Ethereum Mainnet - Spark Savings v2 PYUSD Instance Configuration Document Location [Core]  <!-- UUID: 3dabe1bb-244d-4546-993a-449b988d9199 -->
 
 This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Spark Savings v2 spPYUSD Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.9.4](0b280652-ea99-4a53-8c9e-fb23b200d446).
 
