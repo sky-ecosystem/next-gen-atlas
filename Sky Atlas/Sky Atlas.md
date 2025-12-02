@@ -23011,7 +23011,7 @@ The documents herein define the parameters of the Spark Savings v2 spPYUSD Insta
 
 ###### A.6.1.1.1.2.6.1.3.1.9.4.2.1 - Instance Identifiers [Core]  <!-- UUID: d8f4f071-4dd2-4b24-b3fb-da99dc7e05c8 -->
 
-The documents herein define the Instance identifiers
+The documents herein define the Instance identifiers.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.4.2.1.1 - Network [Core]  <!-- UUID: 5df33a54-f040-4784-b3de-1eef0a6aa58a -->
 
