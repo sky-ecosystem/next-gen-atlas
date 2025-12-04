@@ -41210,7 +41210,7 @@ The documents herein define the process for using the Root Edit Primitive to upd
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.3.1 - Root Edit Voting Process In Emergency Situations [Core]  <!-- UUID: 7d31d593-75bb-41ef-86f4-a10ecf83e19f -->
 
-In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.8 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225), the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Launch Agent 5 Prime" category), unless doing so would endanger Launch Agent 5 or its users.
+In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.8.1.1 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225), the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Launch Agent 5 Prime" category), unless doing so would endanger Launch Agent 5 or its users.
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.3 - Data Repository [Core]  <!-- UUID: ffdbcc14-282a-47ae-81c6-7773b2cc09bf -->
 
