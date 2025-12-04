@@ -5057,7 +5057,7 @@ The SparkLend Security Access Multisig can only be used in urgent or emergency s
 
 The multisig should be used to prevent technical vulnerabilities; prevent unwanted functionality of the smart contracts or corresponding parts of the system (e.g., price oracles); or prevent unwanted usage of the smart contracts or corresponding parts of the system which deviates from intended behavior.
 
-The Multsig can also be used in cases where a vulnerability or exploit is discovered in other protocols using the same codebase as SparkLend, and a timely action can prevent or mitigate the damage. 
+The Multisig can also be used in cases where a vulnerability or exploit is discovered in other protocols using the same codebase as SparkLend, and a timely action can prevent or mitigate the damage. 
 
 The Governance Facilitators must ensure that use of the multisig is generally aligned and specifically accords with the requirements defined herein.
 
@@ -5331,7 +5331,7 @@ The `tag` parameter identifies the address of the scheduled Spell to be canceled
 
 The `fax` parameter is the encoded call to be made in the scheduled Spell to be canceled.
 
-###### A.1.9.5.3.1.3.4 - Protego Eta Parameter Definitio [Core]  <!-- UUID: da310ed1-1d3c-425f-9369-c65782b8f092 -->
+###### A.1.9.5.3.1.3.4 - Protego Eta Parameter Definition [Core]  <!-- UUID: da310ed1-1d3c-425f-9369-c65782b8f092 -->
 
 The `eta` parameter is the expiration time of the scheduled Spell to be canceled.
 
@@ -15921,6 +15921,14 @@ The Stability Parameter Bounded External Access Module parameters for the ALLOCA
 ###### A.3.7.1.2.3.3 - ALLOCATOR-BLOOM-A Parameters [Core]  <!-- UUID: 1cca9f9f-1a60-4de6-8ec2-694b87d3ee91 -->
 
 The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-BLOOM-A Allocator Vault are as follows:
+- `max` - 3,000 basis points,
+- `min` - 0 basis points,
+- `step` - 400 basis points,
+- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+
+###### A.3.7.1.2.3.4 - ALLOCATOR-OBEX-A Parameters [Core]  <!-- UUID: d52799ce-589d-4ef8-9ee3-ef940866291a -->
+
+The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-OBEX-A Allocator Vault are as follows:
 - `max` - 3,000 basis points,
 - `min` - 0 basis points,
 - `step` - 400 basis points,
