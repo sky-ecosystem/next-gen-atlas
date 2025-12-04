@@ -26154,6 +26154,307 @@ Spark's strategic investment will be undertaken with the following terms:
 
 Spark Foundation, as legal owner of the interest in PRM LBS LTD, is empowered to exercise all rights and responsibilities related to the investment for the benefit of the Spark ecosystem, and according to generally accepted business practices as well as the Spark Foundation's own professional judgement.
 
+###### A.6.1.1.1.3.7 - Spark Prime Brokerage [Core]  <!-- UUID: 9a2d76b9-95c7-4e11-b3b8-ed74f2188e4f -->
+
+The documents herein specify Spark’s strategy and operational processes for allocating capital via Spark Prime Brokerage, powered by the Arkis protocol prime brokerage infrastructure.
+
+###### A.6.1.1.1.3.7.1 - Operational Process Definition [Core]  <!-- UUID: cb7c2b0f-15e7-48b3-80fc-f2dc46341468 -->
+
+The documents herein define the process for updating Spark Prime Brokerage policies and procedures.
+
+###### A.6.1.1.1.3.7.1.1 - Spark Prime Brokerage Policy Changes [Core]  <!-- UUID: a9061ad0-9dbd-4188-94eb-3f1f6783f271 -->
+
+Changes to Spark Prime Brokerage policies are implemented using the Root Edit Primitive.
+
+###### A.6.1.1.1.3.7.1.2 - Spark Prime Brokerage Policy Change Execution [Core]  <!-- UUID: 3d254422-962c-405c-9c5c-dc72ff37bfec -->
+
+Approved changes to Spark Prime Brokerage policies are executed by either Spark Governance (for onchain updates under Spark governance admin control), or via the Arkis team (for offchain components including the Arkis Margin engine or CEX subaccount management). Policy changes must be executed promptly after Root Edit Primitive approval. If policy changes are not executed as required, Spark must remove all funding allocated through the Arkis protocol infrastructure as soon as reasonably practicable.
+
+###### A.6.1.1.1.3.7.2 - Policies and Mandate [Core]  <!-- UUID: d126ed27-57ef-4bf0-ae49-aabbaec47ad4 -->
+
+The documents herein define the currently active policies and mandate for allocation via Spark Prime Brokerage.
+
+###### A.6.1.1.1.3.7.2.1 - Counterparty Requirements [Core]  <!-- UUID: 15349ede-15d1-4cee-80d9-fd0b5e5f9f3a -->
+
+Borrowers funded via Spark Prime Brokerage must be duly registered by competent authorities in their primary jurisdiction, and must not be subject to sanctions by the US, UK, EU, or UN. Responsibility for verifying KYC/KYB and meeting related compliance requirements is handled by Arkis during the borrower onboarding process.
+
+Borrowers must not be insolvent at the time of loan origination or renewal. Borrowers will self-certify their solvency as part of loan agreements. If a borrower becomes insolvent or enters administration while having an active loan, the entire loan amount becomes due and payable and Arkis may immediately liquidate collateral to recover the loan balance.
+
+###### A.6.1.1.1.3.7.2.2 - Marginable Assets [Core]  <!-- UUID: ef6decfd-b7ce-49a0-85aa-0885921c21f3 -->
+
+The documents herein define the assets or positions that are accepted as margin collateral within instances of the Arkis protocol funded by Spark.
+
+###### A.6.1.1.1.3.7.2.2.1 - Marginable Assets Parameters Definitions [Core]  <!-- UUID: a8a8220e-0380-411a-af53-8ba421bcdba4 -->
+
+The subdocuments herein define the specific risk parameters or limits applicable to each accepted margin collateral asset.
+
+###### A.6.1.1.1.3.7.2.2.1.1 - Collateral Haircut [Core]  <!-- UUID: 131e55ba-86f0-4249-93d1-6d7d40906ab0 -->
+
+The minimum discount applied to net exposure to an asset while calculating position health and stress tested portfolio value, expressed as a negative percentage for accounts net long an asset, or a positive percentage for accounts net short an asset. Spark and Arkis have discretion to implement more conservative collateral haircuts than those listed in the artifact on a case by case basis.
+
+###### A.6.1.1.1.3.7.2.2.1.2 - Exposure Limit [Core]  <!-- UUID: 62b3310b-678a-4159-8a79-6d6433d0e8ab -->
+
+The maximum aggregate gross exposure to a given asset permitted within Spark funded instances of the Arkis protocol. When calculating gross exposure, we use the higher of the sum of long exposure across all positions or short exposure across all positions, without offsetting long and short exposure within each position.
+
+###### A.6.1.1.1.3.7.2.2.1.3 - Staked and Wrapped Versions [Core]  <!-- UUID: d24ea4df-6922-48f1-8b14-f62710c89575 -->
+
+The acceptable staked or wrapped versions of a given marginable asset, including non native bridged versions of an asset.
+
+###### A.6.1.1.1.3.7.2.2.2 - Marginable Assets Current Configuration [Core]  <!-- UUID: 0dfe744f-7918-403b-85e3-520341769e71 -->
+
+The subdocuments herein define the assets currently accepted as margin collateral within Spark funded instances of the Arkis protocol.
+
+###### A.6.1.1.1.3.7.2.2.2.1 - Bitcoin (BTC) [Core]  <!-- UUID: 60525756-fcea-4439-af53-e9c6eb1ef898 -->
+
+- Collateral Haircut: +20% / -20%
+- Exposure Limit: None (native BTC, cbBTC), $100 million (LBTC)
+- Staked and Wrapped Versions: Lombard LBTC, Coinbase cbBTC
+
+###### A.6.1.1.1.3.7.2.2.2.2 - Ether (ETH) [Core]  <!-- UUID: c015634f-20ec-4a86-a056-b0d9b8e46601 -->
+
+- Collateral Haircut: +20% / -20%
+- Exposure Limit: None (ETH/WETH, stETH), $250 million (weETH, native staking)
+- Staked and Wrapped Versions: WETH, Lido stETH/wstETH, Etherfi weETH, native staking with approved provider
+
+###### A.6.1.1.1.3.7.2.2.2.3 - Ripple (XRP) [Core]  <!-- UUID: 4d25dda5-14c0-46cb-8a93-447445d3a154 -->
+
+- Collateral Haircut: +20% / -20%
+- Exposure Limit: $50 million
+- Staked and Wrapped Versions: None
+
+###### A.6.1.1.1.3.7.2.2.2.4 - Solana (SOL) [Core]  <!-- UUID: 4e3841e8-b90e-476d-b0ab-da3786b15978 -->
+
+- Collateral Haircut: +20% / -20%
+- Exposure Limit: $100 million
+- Staked and Wrapped Versions: JitoSOL, Binance BNSOL, Bybit BBSOL, OKX OKSOL, native staking with approved provider
+
+###### A.6.1.1.1.3.7.2.2.2.5 - Dogecoin (DOGE) [Core]  <!-- UUID: 53bb9ea7-b86d-419d-836c-4b4edd21b297 -->
+
+- Collateral Haircut: +25% / -25%
+- Exposure Limit: $25 million
+- Staked and Wrapped Versions: None
+
+###### A.6.1.1.1.3.7.2.2.2.6 - Cardano (ADA) [Core]  <!-- UUID: 66b2fe30-3bf2-4488-a8e2-b26f39a2fad9 -->
+
+- Collateral Haircut: +25% / -25%
+- Exposure Limit: $25 million
+- Staked and Wrapped Versions: None
+
+###### A.6.1.1.1.3.7.2.2.2.7 - Hyperliquid (HYPE) [Core]  <!-- UUID: 6828399d-ea70-4044-a26d-b5c726e573b7 -->
+
+- Collateral Haircut: +25% / -25%
+- Exposure Limit: $50 million
+- Staked and Wrapped Versions: kHYPE, stHYPE, native staking with approved provider
+
+###### A.6.1.1.1.3.7.2.2.2.8 - Zcash (ZEC) [Core]  <!-- UUID: 3847ad1c-a5cb-446d-af95-ad918b2798bf -->
+
+- Collateral Haircut: +30% / -30%
+- Exposure Limit: $20 million
+- Staked and Wrapped Versions: None
+
+###### A.6.1.1.1.3.7.2.2.2.9 - Avalanche (AVAX) [Core]  <!-- UUID: 32d1cdc6-9d76-45b0-83a4-8ee228628987 -->
+
+- Collateral Haircut: +30% / -30%
+- Exposure Limit: $20 million
+- Staked and Wrapped Versions: Benqi sAVAX, native staking with approved provider
+
+###### A.6.1.1.1.3.7.2.2.2.10 - Sui (SUI) [Core]  <!-- UUID: b27f52fc-dee9-448e-bdf7-62453b559bd3 -->
+
+- Collateral Haircut: +30% / -30%
+- Exposure Limit: $20 million
+- Staked and Wrapped Versions: native staking with approved provider
+
+###### A.6.1.1.1.3.7.2.2.2.11 - Near (NEAR) [Core]  <!-- UUID: a33a0224-1005-4875-b202-0935f48f9c82 -->
+
+- Collateral Haircut: +30% / -30%
+- Exposure Limit: $20 million
+- Staked and Wrapped Versions: native staking with approved provider
+
+###### A.6.1.1.1.3.7.2.2.2.12 - Ethena (USDe) [Core]  <!-- UUID: 862b3d39-6298-40ae-b1d7-909e24e87e07 -->
+
+- Collateral Haircut: -10%
+- Exposure Limit: $500 million
+- Staked and Wrapped Versions: sUSDe
+
+###### A.6.1.1.1.3.7.2.2.2.13 - Tether (USDT) [Core]  <!-- UUID: 224b6c35-7ec4-4dfb-8ec1-8efe4d88b942 -->
+
+- Collateral Haircut: 0%
+- Exposure Limit: None
+- Staked and Wrapped Versions: Spark Savings USDT (spUSDT)
+
+###### A.6.1.1.1.3.7.2.2.2.14 - Circle (USDC) [Core]  <!-- UUID: 839c1db9-48d7-45cf-b049-13e3edd0290d -->
+
+- Collateral Haircut: 0%
+- Exposure Limit: None
+- Staked and Wrapped Versions: Spark Savings USDC v2 (spUSDC) and v1 (sUSDC)
+
+###### A.6.1.1.1.3.7.2.2.3 - Pendle PTs [Core]  <!-- UUID: d65ab4f5-a2cf-4817-95e7-f19c8b1a972f -->
+
+Pendle PTs expiring within 120 days linked to approved assets may be accepted as margin collateral. Exposure to Pendle PTs shall not exceed 10 times the total liquidity within the Pendle AMM for the given PT.
+
+###### A.6.1.1.1.3.7.2.2.4 - Perpetual and Calendar Futures [Core]  <!-- UUID: 904fd5ef-ac80-4171-8c29-27cc812a70bd -->
+
+Perpetual futures and calendar futures expiring within 120 days that reference an approved asset as underlying may be included in margin calculations.
+
+###### A.6.1.1.1.3.7.2.2.5 - Unapproved Assets and Products [Core]  <!-- UUID: 5163ebb9-a425-4df6-aba9-b483e8a482c1 -->
+
+Exposure to unapproved assets and/or futures products is not permitted, and incurs a collateral haircut rating of +100% / -100%. Long and short exposure to unapproved products will not be counted as offsetting each other. Frequent or significant exposure to unapproved assets or products may result in recall of the loan amount or liquidation of outstanding positions.
+
+###### A.6.1.1.1.3.7.2.3 - Approved Venues [Core]  <!-- UUID: c0a9aae3-661b-4124-9da7-1a85e01e4358 -->
+
+The documents herein define the venues where Spark Prime Brokerage users are permitted to trade and hold positions.
+
+###### A.6.1.1.1.3.7.2.3.1 - Approved Venues Parameters Definitions [Core]  <!-- UUID: 06fcb0dd-3f54-420c-b518-34790d7a20ab -->
+
+The subdocuments herein define the specific risk parameters or limits applicable to each approved venue.
+
+###### A.6.1.1.1.3.7.2.3.1.1 - Exposure Limit [Core]  <!-- UUID: 5fbe9a91-0142-4d47-b89c-b46c911b313e -->
+
+The exposure limit is the maximum amount of account value, defined in USD based on current value of assets and positions, inclusive of spot assets, collateral for derivatives positions, and both settled and unrealized PNL within derivatives positions.
+
+###### A.6.1.1.1.3.7.2.3.2 - Approved Venues Current Configuration [Core]  <!-- UUID: 0b290136-8726-49b5-92d4-fa3ac320af19 -->
+
+The subdocuments herein define the currently approved venues where positions and assets may be held in Spark funded instances of the Arkis Protocol.
+
+###### A.6.1.1.1.3.7.2.3.2.1 - Onchain [Core]  <!-- UUID: 5f029ce0-cb6e-4364-9cce-8dc7ad8fffbd -->
+
+Users are permitted to hold assets and positions within their onchain Arkis margin account.
+
+- Exposure Limit: None
+
+###### A.6.1.1.1.3.7.2.3.2.2 - Binance [Core]  <!-- UUID: e9f0543a-ce6e-46b3-bdb7-c0fd60239c29 -->
+
+Users are permitted to hold assets and positions within Binance, in a subaccount controlled under the Arkis master account.
+
+- Exposure Limit: $100 million
+
+###### A.6.1.1.1.3.7.2.3.2.3 - OKX [Core]  <!-- UUID: 35f40a50-fca5-4140-ab93-81e58c181b95 -->
+
+Users are permitted to hold assets and positions within OKX, in a subaccount controlled under the Arkis master account.
+
+- Exposure Limit: $100 million
+
+###### A.6.1.1.1.3.7.2.3.2.4 - Bybit [Core]  <!-- UUID: ccb02230-7ade-4935-800d-8e038d104bcd -->
+
+Users are permitted to hold assets and positions within Bybit, in a subaccount controlled under the Arkis master account.
+
+- Exposure Limit: $100 million
+
+###### A.6.1.1.1.3.7.2.3.2.5 - Bitget [Core]  <!-- UUID: 790805e0-4798-4388-afd3-cfc977fa4fee -->
+
+Users are permitted to hold assets and positions within Bitget, in a subaccount controlled under the Arkis master account.
+
+- Exposure Limit: $25 million
+
+###### A.6.1.1.1.3.7.2.3.2.6 - Hyperliquid (Hypercore) [Core]  <!-- UUID: ce034c3a-89af-444b-bfad-bcf2e64e8b19 -->
+
+Users are permitted to hold assets and positions Hyperliquid perpetuals exchange (Hypercore), in a subaccount controlled under the Arkis master account.
+
+- Exposure Limit: $50 million
+
+###### A.6.1.1.1.3.7.2.3.2.7 - Anchorage [Core]  <!-- UUID: f4bd5948-0d52-4fc9-9fa5-530b7768484c -->
+
+Users are permitted to hold assets and positions within Anchorage, in a subaccount controlled under the Arkis master account, or via collateral management account where Arkis holds a secured interest.
+
+- Exposure Limit: $100 million
+
+###### A.6.1.1.1.3.7.2.3.2.8 - Bitgo [Core]  <!-- UUID: 982d2ada-1f8f-422e-94d2-1027e9b0903c -->
+
+Users are permitted to hold assets and positions within Bitgo, in a subaccount controlled under the Arkis master account, or via collateral management account where Arkis holds a secured interest.
+
+- Exposure Limit: $100 million
+
+###### A.6.1.1.1.3.7.2.4 - Loan Terms [Core]  <!-- UUID: b3fed3ac-7b42-4dfd-b35e-c229598781f7 -->
+
+The documents herein specify the policies and parameters for setting loan agreement terms.
+
+###### A.6.1.1.1.3.7.2.4.1 - Loan Term Definitions [Core]  <!-- UUID: c62a0868-5713-4fec-b6b5-aea342bf149c -->
+
+The subdocuments herein define parameters used to specify loan terms.
+
+###### A.6.1.1.1.3.7.2.4.1.1 - Duration [Core]  <!-- UUID: 5e4d2a15-2ac1-4a59-b2e1-412c5b721c0c -->
+
+The length of time that a loan is issued under specific terms. At the conclusion of the loan duration, the loan may either be payable in full, be rolled over upon mutual agreement with equivalent or different loan terms, or be set up as an “evergreen” loan where the loan is automatically extended at the current terms until recalled.
+
+###### A.6.1.1.1.3.7.2.4.1.2 - Borrow Rate [Core]  <!-- UUID: ab65feec-36fd-4138-bf00-df715fb896e5 -->
+
+The minimum borrow rate that accrues on the outstanding loan balance, expressed as an annual percentage. Actual borrow rate charged may be structured in various ways including fixed rate, fixed spread vs a benchmark, performance fee or profit sharing based, or combination of the above. However, loans may not be issued with borrow cost structures below the values specified in this Loan Terms section.
+
+###### A.6.1.1.1.3.7.2.4.2 - Loan Terms Current Configuration [Core]  <!-- UUID: 5f14d3d4-7def-4cbc-b6d8-3775c8262568 -->
+
+The subdocuments herein specify the currently active parameters for loan terms that fall within Spark’s operational mandate.
+
+###### A.6.1.1.1.3.7.2.4.2.1 - Duration [Core]  <!-- UUID: fa2dceca-3851-4844-8013-a399ddcba9b3 -->
+
+Loans may be issued for the following durations:
+
+- Revolving / evergreen / demand
+- Fixed term up to 1 month
+
+###### A.6.1.1.1.3.7.2.4.2.2 - Borrow Rate [Core]  <!-- UUID: 2bdfe55f-7788-480a-800c-09845c9dcd6b -->
+
+The minimum borrow rate for loans via the Arkis infrastructure must be the greater of the following at the time of issuance or renewal:
+
+- Sky Savings Rate + 2%
+- SOFR + 2.5%
+
+###### A.6.1.1.1.3.7.2.5 - Recall and Acceleration [Core]  <!-- UUID: d234e0ca-af2f-4cab-8f84-6e5a39650b05 -->
+
+The documents herein provide details of how and when loans should be recalled, accelerated, or liquidated in order to mitigate risk.
+
+###### A.6.1.1.1.3.7.2.5.1 - Borrower Insolvency [Core]  <!-- UUID: 8f7c70ad-b083-46fa-9550-3f2ae263c293 -->
+
+If a borrower becomes insolvent or enters administration, any outstanding debts facilitated via the Arkis protocol become due and payable immediately. If the borrower does not repay the debt promptly, collateral may be liquidated to protect the interests of the lender.
+
+###### A.6.1.1.1.3.7.2.5.2 - Unapproved Products [Core]  <!-- UUID: a51aef25-bf7e-4467-9678-0b1ea59fb47e -->
+
+If a borrower trades unapproved assets or products, this will be discounted or penalized via the margin calculation as noted in section [A.6.1.1.1.3.7.2.2.5 - Unapproved Assets and Products](5163ebb9-a425-4df6-aba9-b483e8a482c1). Repeated or serious instances of holding unapproved positions may result in the position being liquidated to protect the interests of the lender.
+
+###### A.6.1.1.1.3.7.2.5.3 - Borrow Rate Shortfall [Core]  <!-- UUID: a81f2f5d-796f-49e0-ac34-dbc5650ee2fe -->
+
+If the borrow rate charged on a loan falls below the borrow rate threshold specified in [A.6.1.1.1.3.7.2.4.2.2 - Borrow Rate](2bdfe55f-7788-480a-800c-09845c9dcd6b), either due to variation in the borrow rate itself (e.g., via profit sharing mechanisms) or because the benchmark rate(s) have increased, Spark must recall the debt or adjust the borrow rate at the earliest opportunity.
+
+###### A.6.1.1.1.3.7.2.5.4 - Parameter Updates in Non Emergency Situations [Core]  <!-- UUID: 50fa8061-8133-4765-a17c-4941634a6ff5 -->
+
+Spark may update approved assets and products, risk parameters, and other details of the Spark Prime Brokerage product or allocation strategy into the Arkis protocol via governance. If a previously issued loan no longer conforms with Spark’s current operational mandate due to a non-emergency parameter update, Spark will recall the loan at the earliest possible opportunity, while respecting the agreed loan duration.
+
+###### A.6.1.1.1.3.7.2.5.5 - Emergency Parameter Updates [Core]  <!-- UUID: 4d3f3e27-a0b6-430a-b9b4-ccf48bc49cbb -->
+
+If market conditions or other factors create an immediate and severe risk of capital impairment, Spark and Arkis are empowered to implement immediate changes to risk parameters and configuration to mitigate risk. Actions taken may include preventing new loans or draws on existing loans, adjusting risk parameters of existing positions including increasing margin requirements or haircuts, demanding immediate repayment, up to and including liquidating high risk positions.
+
+###### A.6.1.1.1.3.7.2.6 - Delegation of Rights and Responsibilities [Core]  <!-- UUID: 404a62a2-6918-44e3-9809-1fec0b7ca2a1 -->
+
+Spark Asset Foundation is the legal owner of funds allocated via the Spark Liquidity Layer and is the entity responsible for the Arkis onboarding and capital allocation relationship. Spark Asset Foundation will be empowered to exercise all rights and responsibilities with respect to the Spark Prime Brokerage capital allocation activities via the Arkis protocol, for the benefit of the Spark ecosystem and according to generally accepted business practices and Spark Asset Foundation’s professional judgement.
+
+###### A.6.1.1.1.3.7.2.7 - Account Management [Core]  <!-- UUID: d55a80b7-f3e9-43b2-831c-0f41bbbb7b68 -->
+
+The documents herein define the requirements for controlling and managing offchain accounts and permissions related to Spark Prime.
+
+###### A.6.1.1.1.3.7.2.7.1 - Critical Actions [Core]  <!-- UUID: 8b7e62e7-95f3-40a9-bc3e-22b6645e59cf -->
+
+Critical actions are actions that could conceivably result in the loss of funds if they were executed maliciously or without authorization. The critical actions include:
+
+- Adding a withdrawal address to the whitelist
+- Adding or removing a signer from the account approvals policy
+- Changing the approval quorum
+- Transferring funds to an address under control of an external entity other than Spark Asset Foundation, Spark Foundation, or the Spark Liquidity Layer
+
+###### A.6.1.1.1.3.7.2.7.2 - Address Whitelist [Core]  <!-- UUID: 2f4882cd-ddbf-4419-b69d-b5d6075d702c -->
+
+Accounts shall only whitelist addresses for withdrawals to either an approved collateral agent (which will transfer received funds to borrowers as part of loan origination) or to the Spark Liquidity Layer.
+
+###### A.6.1.1.1.3.7.2.7.3 - Quorum and Signers [Core]  <!-- UUID: 4c8b20c3-e723-4304-904f-7d7f8de5fc8b -->
+
+Accounts must require a quorum of at least 3 signers for Critical Actions. It must not be possible for quorum to be met with signers from a single entity (no single entity will have enough signers to meet the quorum alone, and each critical action will therefore require approval from signers from at least 2 independent entities).
+
+Signers may be sourced from any of the following entities: Spark Asset Foundation (including legal council), Phoenix Labs, Spark Operational Facilitator.
+
+###### A.6.1.1.1.3.7.2.7.4 - Transfers [Core]  <!-- UUID: cffebd02-baee-4b4c-809d-35d4b90246e6 -->
+
+Funds may only be transferred to a collateral agent after confirmation that all necessary steps proceeding loan origination have been completed, including execution of final MLA and provision of configuration file for the loan to the custodian and/or collateral agent.
+
+Funds may be transferred to the designated address for Spark Liquidity Layer at any time without restriction.
+
 ###### A.6.1.1.1.3.8 - Offchain Collateralized Lending [Core]  <!-- UUID: 7905b0d3-4269-4ba5-a3e2-fdb327b087f4 -->
 
 The documents herein specify Spark’s strategy and operational processes for allocating capital via offchain lending arrangements with collateral secured in qualified custodians.
