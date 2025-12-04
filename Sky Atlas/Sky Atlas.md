@@ -23067,7 +23067,6 @@ The inflow rate limits are:
 
 The outflow rate limits are:
 - `maxAmount`: Unlimited
-- `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 389d1003-434b-4acb-a0db-7a587a5ee006 -->
 
