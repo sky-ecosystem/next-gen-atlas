@@ -26330,8 +26330,52 @@ If a borrower becomes insolvent or enters administration, any outstanding debts 
 
 ###### A.6.1.1.1.3.7.2.5.2 - Unapproved Products [Core]  <!-- UUID: a51aef25-bf7e-4467-9678-0b1ea59fb47e -->
 
-If a borrower trades unapproved assets or products, this will be discounted or penalized via the margin calculation as noted above in section A.AG1.3.5.2.2.5. Repeated or serious instances of holding unapproved positions may result in the position being liquidated to protect the interests of the lender.
+If a borrower trades unapproved assets or products, this will be discounted or penalized via the margin calculation as noted in section [A.6.1.1.1.3.7.2.2.5 - Unapproved Assets and Products](5163ebb9-a425-4df6-aba9-b483e8a482c1). Repeated or serious instances of holding unapproved positions may result in the position being liquidated to protect the interests of the lender.
 
+###### A.6.1.1.1.3.7.2.5.3 - Borrow Rate Shortfall [Core]  <!-- UUID: a81f2f5d-796f-49e0-ac34-dbc5650ee2fe -->
+
+If the borrow rate charged on a loan falls below the borrow rate threshold specified in [A.6.1.1.1.3.7.2.4.2.2 - Borrow Rate](2bdfe55f-7788-480a-800c-09845c9dcd6b), either due to variation in the borrow rate itself (e.g., via profit sharing mechanisms) or because the benchmark rate(s) have increased, Spark must recall the debt or adjust the borrow rate at the earliest opportunity.
+
+###### A.6.1.1.1.3.7.2.5.4 - Parameter Updates in Non Emergency Situations [Core]  <!-- UUID: 50fa8061-8133-4765-a17c-4941634a6ff5 -->
+
+Spark may update approved assets and products, risk parameters, and other details of the Spark Prime Brokerage product or allocation strategy into the Arkis protocol via governance. If a previously issued loan no longer conforms with Spark’s current operational mandate due to a non-emergency parameter update, Spark will recall the loan at the earliest possible opportunity, while respecting the agreed loan duration.
+
+###### A.6.1.1.1.3.7.2.5.5 - Emergency Parameter Updates [Core]  <!-- UUID: 4d3f3e27-a0b6-430a-b9b4-ccf48bc49cbb -->
+
+If market conditions or other factors create an immediate and severe risk of capital impairment, Spark and Arkis are empowered to implement immediate changes to risk parameters and configuration to mitigate risk. Actions taken may include preventing new loans or draws on existing loans, adjusting risk parameters of existing positions including increasing margin requirements or haircuts, demanding immediate repayment, up to and including liquidating high risk positions.
+
+###### A.6.1.1.1.3.7.2.6 - Delegation of Rights and Responsibilities [Core]  <!-- UUID: 404a62a2-6918-44e3-9809-1fec0b7ca2a1 -->
+
+Spark Asset Foundation is the legal owner of funds allocated via the Spark Liquidity Layer and is the entity responsible for the Arkis onboarding and capital allocation relationship. Spark Asset Foundation will be empowered to exercise all rights and responsibilities with respect to the Spark Prime Brokerage capital allocation activities via the Arkis protocol, for the benefit of the Spark ecosystem and according to generally accepted business practices and Spark Asset Foundation’s professional judgement.
+
+###### A.6.1.1.1.3.7.2.7 - Account Management [Core]  <!-- UUID: d55a80b7-f3e9-43b2-831c-0f41bbbb7b68 -->
+
+The documents herein define the requirements for controlling and managing offchain accounts and permissions related to Spark Prime.
+
+###### A.6.1.1.1.3.7.2.7.1 - Critical Actions [Core]  <!-- UUID: 8b7e62e7-95f3-40a9-bc3e-22b6645e59cf -->
+
+Critical actions are actions that could conceivably result in the loss of funds if they were executed maliciously or without authorization. The critical actions include:
+
+- Adding a withdrawal address to the whitelist
+- Adding or removing a signer from the account approvals policy
+- Changing the approval quorum
+- Transferring funds to an address under control of an external entity other than Spark Asset Foundation, Spark Foundation, or the Spark Liquidity Layer
+
+###### A.6.1.1.1.3.7.2.7.2 - Address Whitelist [Core]  <!-- UUID: 2f4882cd-ddbf-4419-b69d-b5d6075d702c -->
+
+Accounts shall only whitelist addresses for withdrawals to either an approved collateral agent (which will transfer received funds to borrowers as part of loan origination) or to the Spark Liquidity Layer.
+
+###### A.6.1.1.1.3.7.2.7.3 - Quorum and Signers [Core]  <!-- UUID: 4c8b20c3-e723-4304-904f-7d7f8de5fc8b -->
+
+Accounts must require a quorum of at least 3 signers for Critical Actions. It must not be possible for quorum to be met with signers from a single entity (no single entity will have enough signers to meet the quorum alone, and each critical action will therefore require approval from signers from at least 2 independent entities).
+
+Signers may be sourced from any of the following entities: Spark Asset Foundation (including legal council), Phoenix Labs, Spark Operational Facilitator.
+
+###### A.6.1.1.1.3.7.2.7.4 - Transfers [Core]  <!-- UUID: cffebd02-baee-4b4c-809d-35d4b90246e6 -->
+
+Funds may only be transferred to a collateral agent after confirmation that all necessary steps proceeding loan origination have been completed, including execution of final MLA and provision of configuration file for the loan to the custodian and/or collateral agent.
+
+Funds may be transferred to the designated address for Spark Liquidity Layer at any time without restriction.
 
 #### A.6.1.1.2 - Grove [Core]  <!-- UUID: 727b0de6-095b-485e-bf9c-02108a364480 -->
 
