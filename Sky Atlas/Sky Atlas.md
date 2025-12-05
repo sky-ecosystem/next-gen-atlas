@@ -2180,19 +2180,19 @@ To arrive at the value of this one-month budget threshold in USDS, see Levels Of
 
 If an AD is unranked for an entire month, any contents in its AD Buffer can be paid out in the next monthly compensation cycle, except as specified in [A.1.5.3.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Proposals](8eca5ff8-8798-465b-b86a-f9ee5c93f213).
 
-###### A.1.5.3.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Proposals [Core]  <!-- UUID: 8eca5ff8-8798-465b-b86a-f9ee5c93f213 -->
+###### A.1.5.4.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Proposals [Core]  <!-- UUID: 8eca5ff8-8798-465b-b86a-f9ee5c93f213 -->
 
-If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), or [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886), respectively, no payouts may be made that would reduce their AD Buffer below the [A.1.5.3.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f) specified in Triggering Threshold until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
+If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), or [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886), respectively, no payouts may be made that would reduce their AD Buffer below the [A.1.5.4.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f) specified in Triggering Threshold until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
 
-###### A.1.5.3.4.2.1.1 - Triggering Threshold [Core]  <!-- UUID: 2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f -->
+###### A.1.5.4.4.2.1.1 - Triggering Threshold [Core]  <!-- UUID: 2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f -->
 
 The Triggering Threshold is the amount of USDS that a Ranked Delegate must have in its AD Buffer to trigger Atlas Edit Weekly Cycle or Atlas Edit Monthly Cycle Proposals. See [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743) and [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886). The Triggering Threshold is equal to one (1) month of compensation based on the budget for Level 3 Ranked Delegates specified in [A.1.5.3.1.3.2 - Budget For Level 3 Ranked Delegates](c51b75e1-8390-46c6-b455-3fd1b155af0d).
 
-##### A.1.5.3.4.3 - Deduction Of Penalties From AD Buffer [Core]  <!-- UUID: 4a29dd32-2333-471a-bea1-1aa0f5413453 -->
+##### A.1.5.4.4.3 - Deduction Of Penalties From AD Buffer [Core]  <!-- UUID: 4a29dd32-2333-471a-bea1-1aa0f5413453 -->
 
 If the Core Facilitator finds that an AD has conducted a misaligned act warranting financial penalties or derecognition, such penalties may be deducted from the AD’s Buffer.
 
-#### A.1.5.3.5 - Short-Term Transitionary Measures [Core]  <!-- UUID: 17c74a56-fcb2-4f40-8847-d09a37e4e2dd -->
+#### A.1.5.4.5 - Short-Term Transitionary Measures [Core]  <!-- UUID: 17c74a56-fcb2-4f40-8847-d09a37e4e2dd -->
 
 The documents herein define short-term transitionary measures related to Ranked Delegates that apply for the period prior to January 1, 2026.
 
@@ -2206,7 +2206,7 @@ Prior to January 1, 2026, Aligned Delegates (ADs) are permitted to concurrently 
 
 This document constitutes an exception to [A.1.4.5 - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c) which generally prohibits Alignment Conservers from being operationally active in multiple ecosystem roles.
 
-### A.1.5.4 - Kickbacks Prohibited [Section]  <!-- UUID: 45e794a0-5092-4dea-a0de-6f373228f760 -->
+### A.1.5.15 - Kickbacks Prohibited [Section]  <!-- UUID: 45e794a0-5092-4dea-a0de-6f373228f760 -->
 
 Aligned Delegates are not allowed to provide "kickbacks" from their compensation to SKY holders who delegate to them. Violation of this requirement constitutes misalignment.
 
@@ -2224,11 +2224,11 @@ Any community member or Aligned Delegate with information pertinent to suspected
 
 Where the allegation of misalignment concerns the Core Facilitator, a community member can take their concerns to Core GovOps, who is then empowered to initiate the formal adjudication process.
 
-### A.1.5.6 - Mandate To Maintain High Level of Operational Security [Section]  <!-- UUID: c68b4c5d-adf7-49e6-850a-17a688664d40 -->
+### A.1.5.18 - Mandate To Maintain High Level of Operational Security [Section]  <!-- UUID: c68b4c5d-adf7-49e6-850a-17a688664d40 -->
 
 Aligned Delegates (ADs) are required to maintain a high level of operational security, adhering to best practices in privacy, cybersecurity, and physical resilience. These measures must be implemented at a level that sufficiently safeguards the Sky Ecosystem from physical risk posed by the potential for attacks against ADs. ADs’ operational security protocols should be regularly reviewed and updated to address emerging risks and ensure continuous protection of the ecosystem.
 
-### A.1.5.7 - Derecognition Required Where AD Operational Security Is Compromised [Section]  <!-- UUID: 7b0da718-62c1-4718-8d9d-47faa1647c6f -->
+### A.1.5.19 - Derecognition Required Where AD Operational Security Is Compromised [Section]  <!-- UUID: 7b0da718-62c1-4718-8d9d-47faa1647c6f -->
 
 All Facilitators must act swiftly to investigate ADs who are suspected of breaching their requirements regarding operational security and privacy.
 
@@ -2242,7 +2242,7 @@ The element 'promptly' in the Target Document means 'as soon as is reasonably po
 
 To adhere to this commitment, the Core Facilitator must derecognize the AD within a general timeframe of 1-2 calendar days upon conclusion of an investigation that finds against the AD for breach of operational security. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the Facilitators’ control.
 
-### A.1.5.8 - Facilitators Must Err On Side Of Caution [Section]  <!-- UUID: 09efe31d-28ae-47cc-a81e-caf4f669df95 -->
+### A.1.5.21 - Facilitators Must Err On Side Of Caution [Section]  <!-- UUID: 09efe31d-28ae-47cc-a81e-caf4f669df95 -->
 
 Facilitators are required to err on the side of caution and take action whenever there is any real possibility that the operational security of an Aligned Delegate (AD) is compromised. Facilitators are afforded significant discretion in making judgement calls related to operational security standards for ADs. 
 
@@ -4923,7 +4923,7 @@ The SparkLend Security Access Multisig can only be used in urgent or emergency s
 
 The multisig should be used to prevent technical vulnerabilities; prevent unwanted functionality of the smart contracts or corresponding parts of the system (e.g., price oracles); or prevent unwanted usage of the smart contracts or corresponding parts of the system which deviates from intended behavior.
 
-The Multsig can also be used in cases where a vulnerability or exploit is discovered in other protocols using the same codebase as SparkLend, and a timely action can prevent or mitigate the damage. 
+The Multisig can also be used in cases where a vulnerability or exploit is discovered in other protocols using the same codebase as SparkLend, and a timely action can prevent or mitigate the damage. 
 
 The Governance Facilitators must ensure that use of the multisig is generally aligned and specifically accords with the requirements defined herein.
 
@@ -5197,7 +5197,7 @@ The `tag` parameter identifies the address of the scheduled Spell to be canceled
 
 The `fax` parameter is the encoded call to be made in the scheduled Spell to be canceled.
 
-###### A.1.9.5.3.1.3.4 - Protego Eta Parameter Definitio [Core]  <!-- UUID: da310ed1-1d3c-425f-9369-c65782b8f092 -->
+###### A.1.9.5.3.1.3.4 - Protego Eta Parameter Definition [Core]  <!-- UUID: da310ed1-1d3c-425f-9369-c65782b8f092 -->
 
 The `eta` parameter is the expiration time of the scheduled Spell to be canceled.
 
@@ -5467,7 +5467,7 @@ The Author of an Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" 
 
 ##### A.1.10.2.1.3 - Triggering Requirement [Core]  <!-- UUID: cef09d74-efc6-45cc-a75b-1132dae9e743 -->
 
-An Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "AEW Proposal") can proceed to a vote only if it is triggered by a Ranked Delegate whose AD Buffer contains at least the Triggering Threshold (see [A.1.5.3.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f)) at the time of triggering the Proposal. The Core Facilitator is responsible for confirming that these requirements are met.
+An Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "AEW Proposal") can proceed to a vote only if it is triggered by a Ranked Delegate whose AD Buffer contains at least the Triggering Threshold (see [A.1.5.4.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f)) at the time of triggering the Proposal. The Core Facilitator is responsible for confirming that these requirements are met.
 
 A Ranked Delegate may trigger a Proposal they authored, provided they meet the Triggering Threshold. To trigger a Proposal, the Ranked Delegate must post a reply to the Author's Weekly Cycle Proposal on the Forum. The Ranked Delegate’s post should signal their intent to trigger the Weekly Cycle Proposal.
 
@@ -5579,7 +5579,7 @@ The author of an Atlas Edit Monthly Cycle proposal ("proposal", "Atlas Edit Prop
 
 ##### A.1.11.2.1.2 - Triggering Requirement [Core]  <!-- UUID: 7bbfd3b1-99b5-4c60-9292-68d776e03886 -->
 
-An Atlas Edit Monthly Cycle Proposal can proceed to verification by the Core Facilitator only if it is triggered by a Ranked Delegate whose AD Buffer contains at least the Triggering Threshold (see [A.1.5.3.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f)) at the time of triggering the Proposal. The Core Facilitator is responsible for confirming that these requirements are met.
+An Atlas Edit Monthly Cycle Proposal can proceed to verification by the Core Facilitator only if it is triggered by a Ranked Delegate whose AD Buffer contains at least the Triggering Threshold (see [A.1.5.4.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f)) at the time of triggering the Proposal. The Core Facilitator is responsible for confirming that these requirements are met.
 
 A Ranked Delegate may trigger a Proposal they authored, provided they meet the Triggering Threshold. To trigger a Proposal, the Ranked Delegate must post a reply to the Author's Monthly Cycle Proposal on the Forum. The Ranked Delegate should indicate their intent to trigger the Monthly Cycle Proposal.
 
@@ -15838,6 +15838,14 @@ The Stability Parameter Bounded External Access Module parameters for the ALLOCA
 - `step` - 400 basis points,
 - `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
+###### A.3.7.1.2.3.4 - ALLOCATOR-OBEX-A Parameters [Core]  <!-- UUID: d52799ce-589d-4ef8-9ee3-ef940866291a -->
+
+The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-OBEX-A Allocator Vault are as follows:
+- `max` - 3,000 basis points,
+- `min` - 0 basis points,
+- `step` - 400 basis points,
+- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+
 ##### A.3.7.1.2.4 - Parameter Adjustments [Core]  <!-- UUID: 2d4aa875-b7ea-49c3-9506-479f0b5d157c -->
 
 All Stability Parameter Bounded External Access Module parameters can be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
@@ -18664,17 +18672,17 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 The Ethereum Mainnet Instances Directory of the Spark Savings v2 with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.1.2.1.11.1 - Ethereum Mainnet - Spark Savings v2 ETH Instance Configuration Document Location Ethereum Mainnet - Spark Savings v2 ETH Instance Configuration Document. [Core]  <!-- UUID: 2358e292-c9d1-4c23-9ef2-bb4a48304968 -->
+###### A.6.1.1.1.2.6.1.1.2.1.11.1 - Ethereum Mainnet - Spark Savings v2 ETH Instance Configuration Document Location [Core]  <!-- UUID: 2358e292-c9d1-4c23-9ef2-bb4a48304968 -->
 
-This Instance's associated Instance Configuration Document is located at
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.9.1 - Ethereum Mainnet - Spark Savings v2 ETH Instance Configuration Document](831b4fd8-06c6-4734-bb3a-93678082d8cc).
 
-###### A.6.1.1.1.2.6.1.1.2.1.11.2 - Ethereum Mainnet - Spark Savings v2 USDC Instance Configuration Document Location Ethereum Mainnet - Spark Savings v2 USDC Instance Configuration Document. [Core]  <!-- UUID: de15c2bf-cb03-45cc-9ee2-4acd1695ebc2 -->
+###### A.6.1.1.1.2.6.1.1.2.1.11.2 - Ethereum Mainnet - Spark Savings v2 USDC Instance Configuration Document Location [Core]  <!-- UUID: de15c2bf-cb03-45cc-9ee2-4acd1695ebc2 -->
 
-This Instance's associated Instance Configuration Document is located at
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.9.2 - Ethereum Mainnet - Spark Savings v2 USDC Instance Configuration Document](eeb34a6e-e377-4115-92f9-d299f6d2a5d9).
 
-###### A.6.1.1.1.2.6.1.1.2.1.11.3 - Ethereum Mainnet - Spark Savings v2 USDT Instance Configuration Document Location Ethereum Mainnet - Spark Savings v2 USDT Instance Configuration Document. [Core]  <!-- UUID: 113bbaa4-ac97-4ba7-9f31-20b8102b7a1a -->
+###### A.6.1.1.1.2.6.1.1.2.1.11.3 - Ethereum Mainnet - Spark Savings v2 USDT Instance Configuration Document Location [Core]  <!-- UUID: 113bbaa4-ac97-4ba7-9f31-20b8102b7a1a -->
 
-This Instance's associated Instance Configuration Document is located at
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.9.3 - Ethereum Mainnet - Spark Savings v2 USDT Instance Configuration Document](0cc91e92-4523-4d3b-87a5-bb9a695d696c).
 
 ###### A.6.1.1.1.2.6.1.1.2.2 - Base [Core]  <!-- UUID: 305a6351-bb16-4e4d-8912-7ef1c3ff26bb -->
 
@@ -41202,7 +41210,7 @@ The documents herein define the process for using the Root Edit Primitive to upd
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.3.1 - Root Edit Voting Process In Emergency Situations [Core]  <!-- UUID: 7d31d593-75bb-41ef-86f4-a10ecf83e19f -->
 
-In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.8 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225), the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Launch Agent 5 Prime" category), unless doing so would endanger Launch Agent 5 or its users.
+In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.8.1.1 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225), the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Launch Agent 5 Prime" category), unless doing so would endanger Launch Agent 5 or its users.
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.3 - Data Repository [Core]  <!-- UUID: ffdbcc14-282a-47ae-81c6-7773b2cc09bf -->
 
