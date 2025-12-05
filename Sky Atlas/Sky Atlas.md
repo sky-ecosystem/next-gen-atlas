@@ -2180,19 +2180,19 @@ To arrive at the value of this one-month budget threshold in USDS, see Levels Of
 
 If an AD is unranked for an entire month, any contents in its AD Buffer can be paid out in the next monthly compensation cycle, except as specified in [A.1.5.3.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Proposals](8eca5ff8-8798-465b-b86a-f9ee5c93f213).
 
-###### A.1.5.4.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Proposals [Core]  <!-- UUID: 8eca5ff8-8798-465b-b86a-f9ee5c93f213 -->
+###### A.1.5.3.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Proposals [Core]  <!-- UUID: 8eca5ff8-8798-465b-b86a-f9ee5c93f213 -->
 
-If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), or [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886), respectively, no payouts may be made that would reduce their AD Buffer below the [A.1.5.4.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f) specified in Triggering Threshold until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
+If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), or [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886), respectively, no payouts may be made that would reduce their AD Buffer below the [A.1.5.3.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f) specified in Triggering Threshold until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
 
-###### A.1.5.4.4.2.1.1 - Triggering Threshold [Core]  <!-- UUID: 2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f -->
+###### A.1.5.3.4.2.1.1 - Triggering Threshold [Core]  <!-- UUID: 2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f -->
 
 The Triggering Threshold is the amount of USDS that a Ranked Delegate must have in its AD Buffer to trigger Atlas Edit Weekly Cycle or Atlas Edit Monthly Cycle Proposals. See [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743) and [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886). The Triggering Threshold is equal to one (1) month of compensation based on the budget for Level 3 Ranked Delegates specified in [A.1.5.3.1.3.2 - Budget For Level 3 Ranked Delegates](c51b75e1-8390-46c6-b455-3fd1b155af0d).
 
-##### A.1.5.4.4.3 - Deduction Of Penalties From AD Buffer [Core]  <!-- UUID: 4a29dd32-2333-471a-bea1-1aa0f5413453 -->
+##### A.1.5.3.4.3 - Deduction Of Penalties From AD Buffer [Core]  <!-- UUID: 4a29dd32-2333-471a-bea1-1aa0f5413453 -->
 
 If the Core Facilitator finds that an AD has conducted a misaligned act warranting financial penalties or derecognition, such penalties may be deducted from the AD’s Buffer.
 
-#### A.1.5.4.5 - Short-Term Transitionary Measures [Core]  <!-- UUID: 17c74a56-fcb2-4f40-8847-d09a37e4e2dd -->
+#### A.1.5.3.5 - Short-Term Transitionary Measures [Core]  <!-- UUID: 17c74a56-fcb2-4f40-8847-d09a37e4e2dd -->
 
 The documents herein define short-term transitionary measures related to Ranked Delegates that apply for the period prior to January 1, 2026.
 
@@ -2206,7 +2206,7 @@ Prior to January 1, 2026, Aligned Delegates (ADs) are permitted to concurrently 
 
 This document constitutes an exception to [A.1.4.5 - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c) which generally prohibits Alignment Conservers from being operationally active in multiple ecosystem roles.
 
-### A.1.5.15 - Kickbacks Prohibited [Section]  <!-- UUID: 45e794a0-5092-4dea-a0de-6f373228f760 -->
+### A.1.5.4 - Kickbacks Prohibited [Section]  <!-- UUID: 45e794a0-5092-4dea-a0de-6f373228f760 -->
 
 Aligned Delegates are not allowed to provide "kickbacks" from their compensation to SKY holders who delegate to them. Violation of this requirement constitutes misalignment.
 
@@ -2224,11 +2224,11 @@ Any community member or Aligned Delegate with information pertinent to suspected
 
 Where the allegation of misalignment concerns the Core Facilitator, a community member can take their concerns to Core GovOps, who is then empowered to initiate the formal adjudication process.
 
-### A.1.5.18 - Mandate To Maintain High Level of Operational Security [Section]  <!-- UUID: c68b4c5d-adf7-49e6-850a-17a688664d40 -->
+### A.1.5.6 - Mandate To Maintain High Level of Operational Security [Section]  <!-- UUID: c68b4c5d-adf7-49e6-850a-17a688664d40 -->
 
 Aligned Delegates (ADs) are required to maintain a high level of operational security, adhering to best practices in privacy, cybersecurity, and physical resilience. These measures must be implemented at a level that sufficiently safeguards the Sky Ecosystem from physical risk posed by the potential for attacks against ADs. ADs’ operational security protocols should be regularly reviewed and updated to address emerging risks and ensure continuous protection of the ecosystem.
 
-### A.1.5.19 - Derecognition Required Where AD Operational Security Is Compromised [Section]  <!-- UUID: 7b0da718-62c1-4718-8d9d-47faa1647c6f -->
+### A.1.5.7 - Derecognition Required Where AD Operational Security Is Compromised [Section]  <!-- UUID: 7b0da718-62c1-4718-8d9d-47faa1647c6f -->
 
 All Facilitators must act swiftly to investigate ADs who are suspected of breaching their requirements regarding operational security and privacy.
 
@@ -2242,7 +2242,7 @@ The element 'promptly' in the Target Document means 'as soon as is reasonably po
 
 To adhere to this commitment, the Core Facilitator must derecognize the AD within a general timeframe of 1-2 calendar days upon conclusion of an investigation that finds against the AD for breach of operational security. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the Facilitators’ control.
 
-### A.1.5.21 - Facilitators Must Err On Side Of Caution [Section]  <!-- UUID: 09efe31d-28ae-47cc-a81e-caf4f669df95 -->
+### A.1.5.8 - Facilitators Must Err On Side Of Caution [Section]  <!-- UUID: 09efe31d-28ae-47cc-a81e-caf4f669df95 -->
 
 Facilitators are required to err on the side of caution and take action whenever there is any real possibility that the operational security of an Aligned Delegate (AD) is compromised. Facilitators are afforded significant discretion in making judgement calls related to operational security standards for ADs. 
 
