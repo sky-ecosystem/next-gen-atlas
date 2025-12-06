@@ -26084,6 +26084,231 @@ Spark's strategic investment will be undertaken with the following terms:
 
 Spark Foundation, as legal owner of the interest in PRM LBS LTD, is empowered to exercise all rights and responsibilities related to the investment for the benefit of the Spark ecosystem, and according to generally accepted business practices as well as the Spark Foundation's own professional judgement.
 
+###### A.6.1.1.1.3.8 - Offchain Collateralized Lending [Core]  <!-- UUID: 7905b0d3-4269-4ba5-a3e2-fdb327b087f4 -->
+
+The documents herein specify Spark’s strategy and operational processes for allocating capital via offchain lending arrangements with collateral secured in qualified custodians.
+
+###### A.6.1.1.1.3.8.1 - Operational Process Definition [Core]  <!-- UUID: 8142b2db-e601-4222-a411-5a5caeb4009b -->
+
+The documents herein define the process for updating Offchain Collateralized Lending policies and procedures.
+
+###### A.6.1.1.1.3.8.1.1 - Offchain Collateralized Lending Policy Changes [Core]  <!-- UUID: c9ef7b0f-ed76-42d5-baa8-6afcd288fd58 -->
+
+Changes to Offchain Collateralized Lending policies are implemented using the Root Edit Primitive.
+
+###### A.6.1.1.1.3.8.1.2 - Offchain Collateralized Lending Policy Change Execution [Core]  <!-- UUID: c91355f0-4a54-4dd9-a13d-f40f8c515994 -->
+
+Approved changes to Offchain Collateralized Lending policies are executed by either Spark Governance (for onchain updates under Spark governance admin control), or via the Spark Asset Foundation account held at relevant custodian(s) and related admin panel(s) (for offchain components). Policy changes must be executed promptly after Root Edit Primitive approval. If policy changes are not executed as required, Spark must remove all funding allocated through the Offchain Collateralized Lending infrastructure as soon as reasonably practicable.
+
+###### A.6.1.1.1.3.8.2 - Policies and Mandate [Core]  <!-- UUID: b3ebb481-d63f-45d7-9c9b-93a3a7be1f6d -->
+
+The documents herein define the currently active policies and mandate for allocation via Offchain Collateralized Lending arrangements.
+
+###### A.6.1.1.1.3.8.2.1 - Counterparty Requirements [Core]  <!-- UUID: 5a57a6c6-f88d-439a-9e8b-f11068438bf6 -->
+
+Borrowers funded via Offchain Collateralized Lending must be duly registered by competent authorities in their primary jurisdiction, and must not be subject to sanctions by the US, UK, EU, or UN. Responsibility for verifying KYC/KYB and meeting related compliance requirements is handled by venues (custodians and/or collateral agents) during the borrower onboarding process.
+
+Borrowers must not be insolvent at the time of loan origination or renewal. Borrowers will self-certify their solvency as part of loan agreements. If a borrower becomes insolvent or enters administration while having an active loan, the entire loan amount becomes due and payable and the collateral agent or custodian may immediately liquidate collateral to recover the loan balance.
+
+###### A.6.1.1.1.3.8.2.2 - Marginable Assets [Core]  <!-- UUID: 137b6e3a-b6c7-4660-b135-8aff765a57a0 -->
+
+The documents herein define the assets or positions that are accepted as margin collateral within Offchain Collateralized Lending arrangements funded by Spark.
+
+###### A.6.1.1.1.3.8.2.2.1 - Marginable Assets Parameters Definitions [Core]  <!-- UUID: a8b82143-da87-47bb-8c68-5ce367ed629c -->
+
+The subdocuments herein define the specific risk parameters or limits applicable to each accepted margin collateral asset.
+
+###### A.6.1.1.1.3.8.2.2.1.1 - Initial LTV [Core]  <!-- UUID: 5c35ebd7-da09-4f2e-b709-e081f654609e -->
+
+The maximum ratio of loan amount to collateral value permitted when a new loan is issued. Additionally, when a margin call is triggered, the borrower must return the position to an LTV ratio equal or less than the Initial LTV. Borrowers may only withdraw collateral from their position if their position LTV remains below the Initial LTV threshold after the withdrawal.
+
+###### A.6.1.1.1.3.8.2.2.1.2 - Maintenance LTV [Core]  <!-- UUID: 7f7e0f99-83d7-45b4-b9ba-4ce80bdfe666 -->
+
+The maximum ratio of loan amount to collateral value above which a margin call is triggered. When triggered, the borrower is notified by the collateral agent to meet the margin call by reducing the position LTV to equal or less than the Initial LTV within the Cure Period.
+
+###### A.6.1.1.1.3.8.2.2.1.3 - Liquidation LTV [Core]  <!-- UUID: 5fdde1df-a2b7-4310-9d63-98392e1fdfcd -->
+
+The maximum ratio of loan amount to collateral value above which a position may be liquidated immediately, regardless of whether there is an outstanding margin call in effect.
+
+###### A.6.1.1.1.3.8.2.2.1.4 - Exposure Limit [Core]  <!-- UUID: ee8d2d3f-b5cf-4391-8081-81de0a5936c7 -->
+
+The maximum aggregate exposure to a given asset permitted within Spark funded Offchain Collateralized Lending arrangements. Exposure is calculated based on total loan amounts secured by collateral backages.
+
+###### A.6.1.1.1.3.8.2.2.1.5 - Staked and Wrapped Versions [Core]  <!-- UUID: 634e54de-0818-4307-aeb9-c9aae2d0a774 -->
+
+The acceptable staked or wrapped versions of a given marginable asset, including non native bridged versions of an asset.
+
+###### A.6.1.1.1.3.8.2.2.2 - Marginable Assets Current Configuration [Core]  <!-- UUID: 34d75d61-1df2-4921-890b-cb4ed68abe25 -->
+
+The subdocuments herein define the assets currently accepted as margin collateral within Spark funded Offchain Collateralized Lending arrangements.
+
+###### A.6.1.1.1.3.8.2.2.2 - Marginable Assets Current Configuration [Core]  <!-- UUID: 34d75d61-1df2-4921-890b-cb4ed68abe25 -->
+
+The subdocuments herein define the assets currently accepted as margin collateral within Spark funded Offchain Collateralized Lending arrangements.
+
+###### A.6.1.1.1.3.8.2.2.2.1 - Bitcoin (BTC) [Core]  <!-- UUID: 8fd4dc40-59b1-47ae-ba5c-4782b9550245 -->
+
+- Initial LTV: 70%
+- Maintenance LTV: 85%
+- Liquidation LTV: 90%
+- Exposure limit: Unlimited
+- Staked and wrapped versions: Coinbase cbBTC, Lombard LBTC
+
+###### A.6.1.1.1.3.8.2.2.2.2 - Ether (ETH) [Core]  <!-- UUID: f6d82898-b431-43d5-8c0b-3b8e4aa9e236 -->
+
+- Initial LTV: 70%
+- Maintenance LTV: 85%
+- Liquidation LTV: 90%
+- Exposure limit: Unlimited
+- Staked and wrapped versions: WETH, Lido stETH, Etherfi weETH, Alluvial lsETH, native staking with approved providers
+
+###### A.6.1.1.1.3.8.2.2.2.3 - Ripple (XRP) [Core]  <!-- UUID: ff7bf52c-e89d-4b2e-a55b-8c1b704a48f5 -->
+
+- Initial LTV: 60%
+- Maintenance LTV: 70%
+- Liquidation LTV: 80%
+- Exposure limit: $25 million
+- Staked and wrapped versions: None
+
+###### A.6.1.1.1.3.8.2.2.2.4 - Solana (SOL) [Core]  <!-- UUID: b84f4195-c79d-477f-9361-3a9687ff5934 -->
+
+- Initial LTV: 70%
+- Maintenance LTV: 80%
+- Liquidation LTV: 85%
+- Exposure limit: $100 million
+- Staked and wrapped versions: JitoSOL, native staking with approved providers
+
+###### A.6.1.1.1.3.8.2.2.2.5 - Hyperliquid (HYPE) [Core]  <!-- UUID: e5d67f78-23cd-423c-80e4-2f9a4908a17c -->
+
+- Initial LTV: 60%
+- Maintenance LTV: 70%
+- Liquidation LTV: 80%
+- Exposure limit: $25 million
+- Staked and wrapped versions: Kinetiq kHYPE, native staking with approved providers
+
+###### A.6.1.1.1.3.8.2.3 - Approved Venues [Core]  <!-- UUID: b03b3354-1290-41d6-89fe-d841c3a79d3c -->
+
+The documents herein define the venues where liquidity and collateral related to Offchain Collateralized Lending arrangements may be held.
+
+###### A.6.1.1.1.3.8.2.3.1 - Approved Venues Parameters Definitions [Core]  <!-- UUID: 22fe93af-9188-4308-95ba-ac9917196290 -->
+
+The subdocuments herein define the specific risk parameters or limits applicable to each approved venue.
+
+###### A.6.1.1.1.3.8.2.3.1.1 - Exposure Limit [Core]  <!-- UUID: eeba9879-a5b3-4a85-b9ad-6df6c970f8d3 -->
+
+The exposure limit is the maximum amount of account value, defined in USD based on current value of assets and positions, inclusive of collateral, idle liquidity pending loan issuance, and repaid loan proceeds pending withdrawal or reinvestment, that may be held within each approved venue or under management of each collateral agent.
+
+###### A.6.1.1.1.3.8.2.3.1.2 - Collateral Agent [Core]  <!-- UUID: 7552fd04-f619-4b13-ad86-50b00f6cdfc8 -->
+
+The collateral agent performs certain critical loan servicing functions on behalf of Spark Asset Foundation as lender, including issuing margin calls, performing liquidations, returning loan proceeds to the lender and excess collateral or liquidation proceeds to borrowers. This service may be provided by an affiliate of the venue/custodian, or by a third party. One venue may have multiple approved collateral agents, each with their own maximum exposure limit.
+
+###### A.6.1.1.1.3.8.2.3.2 - Approved Venues Current Configuration [Core]  <!-- UUID: 817e1360-ac36-4282-9604-1ab625755450 -->
+
+The subdocuments herein define the currently approved venues where liquidity and collateral assets may be held for Spark’s Offchain Collateralized Lending activity.
+
+###### A.6.1.1.1.3.8.2.3.2.1 - Anchorage [Core]  <!-- UUID: fd82a25b-ef66-4fa4-b849-f2e34c9a575e -->
+
+Offchain Collateralized Lending may be facilitated via Anchorage, which is approved to hold collateral as well as lending liquidity related to such loans.
+
+- Venue exposure Limit: $100 million
+- Collateral Agent(s):
+- Anchorage Innovations: $100 million
+
+###### A.6.1.1.1.3.8.2.4 - Loan Terms [Core]  <!-- UUID: f80317f5-cf93-4610-b35a-2e60c94011d0 -->
+
+The documents herein specify the policies and parameters for setting loan agreement terms.
+
+###### A.6.1.1.1.3.8.2.4.1 - Loan Terms Definitions [Core]  <!-- UUID: b28fabb2-4e1e-4140-92cf-b6190d5e0031 -->
+
+The subdocuments herein define parameters used to specify loan terms.
+
+###### A.6.1.1.1.3.8.2.4.1.1 - Duration [Core]  <!-- UUID: d8c712e4-b71d-4e0a-812e-e86bb01af27f -->
+
+The length of time that a loan is issued under specific terms. At the conclusion of the loan duration, the loan may either be payable in full, be rolled over upon mutual agreement with equivalent or different loan terms, or be set up as an “evergreen” loan where the loan is automatically extended at the current terms until recalled.
+
+###### A.6.1.1.1.3.8.2.4.1.2 - Borrow Rate [Core]  <!-- UUID: 0ea26c9e-3dc5-43c0-8cc7-d9075afce8f3 -->
+
+The minimum borrow rate that accrues on the outstanding loan balance, expressed as an annual percentage. Actual borrow rate charged may be structured in various ways including fixed rate, fixed spread vs a benchmark, performance fee or profit sharing based, or combination of the above. However, loans may not be issued with borrow cost structures below the values specified in this Loan Terms section.
+
+###### A.6.1.1.1.3.8.2.4.1.3 - Margin Call Cure Period [Core]  <!-- UUID: 0d3f2142-7069-41c6-8b79-e4972a3e4bdc -->
+
+The maximum permitted amount of time for a borrower to meet a margin call before being liquidated.
+
+###### A.6.1.1.1.3.8.2.4.2 - Loan Terms Current Configuration [Core]  <!-- UUID: df6eb53c-1cad-4fcc-97b8-d5bd3ca55ee8 -->
+
+The subdocuments herein specify the currently active parameters for loan terms that fall within Spark’s operational mandate.
+
+###### A.6.1.1.1.3.8.2.4.2.1 - Duration [Core]  <!-- UUID: bc92d589-b079-41f8-a3fa-37300aef91b1 -->
+
+Loans may be issued for the following durations:
+
+- Revolving / evergreen / payable on demand
+- Fixed rate, fixed term for up to 6 months
+
+###### A.6.1.1.1.3.8.2.4.2.2 - Borrow Rate [Core]  <!-- UUID: 67c9fae6-6911-4341-b94b-c03e9305c266 -->
+
+The minimum borrow rate for loans via Offchain Collateralized Lending arrangements must be the greater of the following at the time of issuance or renewal:
+
+- Sky Savings Rate + 1.5%
+- SOFR + 2%
+
+###### A.6.1.1.1.3.8.2.5 - Recall and Acceleration [Core]  <!-- UUID: 19eeb757-6167-4aff-87f4-5f97331ab7e6 -->
+
+The documents herein provide details of how and when loans should be recalled, accelerated, or liquidated in order to mitigate risk.
+
+###### A.6.1.1.1.3.8.2.5.1 - Borrower Insolvency [Core]  <!-- UUID: 86e1af9b-26e8-4170-a4a9-5b7285d861c2 -->
+
+If a borrower becomes insolvent or enters administration, any outstanding debts facilitated via Offchain Collateralized Lending arrangements become due and payable immediately. If the borrower does not repay the debt promptly, collateral may be liquidated to protect the interests of the lender.
+
+###### A.6.1.1.1.3.8.2.5.2 - Cross Default [Core]  <!-- UUID: a080d478-dcc8-4830-be67-136f810422d0 -->
+
+If a borrower defaults on or is liquidated in one Offchain Collateralized Loan funded by Spark, Spark may accelerate any other outstanding loans from the same borrower.
+
+###### A.6.1.1.1.3.8.2.5.3 - Borrow Rate Shortfall [Core]  <!-- UUID: 7953c6c6-337b-4d28-889c-e96fc44ab65d -->
+
+If the borrow rate charged on a loan falls below the borrow rate threshold specified in [A.6.1.1.1.3.8.2.4.2.2 - Borrow Rate](67c9fae6-6911-4341-b94b-c03e9305c266), Spark must recall the debt or adjust the borrow rate at the earliest opportunity.
+
+###### A.6.1.1.1.3.8.2.5.4 - Parameter Updates in Non Emergency Situations [Core]  <!-- UUID: 936fa08a-3148-4c18-9aa2-420780ac884a -->
+
+Spark may update approved assets, risk parameters, and other details of the Offchain Collateralized Lending program via governance. If a previously issued loan no longer conforms with Spark’s current operational mandate due to a non-emergency parameter update, Spark will recall the loan at the earliest possible opportunity, while respecting the agreed loan duration.
+
+###### A.6.1.1.1.3.8.2.5.5 - Emergency Parameter Updates [Core]  <!-- UUID: 72ceaca8-788a-446b-90ac-c41ca65460c3 -->
+
+If market conditions or other factors create an immediate and severe risk of capital impairment, Spark is empowered to implement immediate changes to risk parameters and configuration to mitigate risk. Actions taken may include preventing new loans or draws on existing loans, adjusting configurable parameters, or requesting accelerated repayment and return of capital.
+
+###### A.6.1.1.1.3.8.2.6 - Delegation of Rights and Responsibilities [Core]  <!-- UUID: 4a181787-661e-4c97-9eec-0eaaa4d632c5 -->
+
+Spark Asset Foundation is the legal owner of funds allocated via the Spark Liquidity Layer and onboarded entity for custodians and collateral agents. Spark Asset Foundation will be empowered to exercise all rights and responsibilities with respect to the Offchain Collateralized Lending allocation activities and account management, for the benefit of the Spark ecosystem and according to generally accepted business practices and Spark Asset Foundation’s professional judgement. Spark Asset Foundation may delegate certain operational functions to Phoenix Labs at its discretion, including risk underwriting, sourcing prospective borrowers, and deal negotiation.
+
+###### A.6.1.1.1.3.8.2.7 - Account Management [Core]  <!-- UUID: d6284e0b-441e-478b-b465-9053cd13ffaa -->
+
+The documents herein define the requirements for controlling and managing offchain custody accounts used within Offchain Collateralized Lending arrangements.
+
+###### A.6.1.1.1.3.8.2.7.1 - Critical Actions [Core]  <!-- UUID: b501dc78-2452-40d9-acd7-7a89eef70e25 -->
+
+Critical actions are actions that could conceivably result in the loss of funds if they were executed maliciously or without authorization. The critical actions include:
+
+- Adding a withdrawal address to the whitelist
+- Adding or removing a signer from the account approvals policy
+- Changing the approval quorum
+- Transferring funds to an address under control of an external entity other than Spark Asset Foundation, Spark Foundation, an approved collateral agent, or the Spark Liquidity Layer
+
+###### A.6.1.1.1.3.8.2.7.2 - Address Whitelist [Core]  <!-- UUID: 8787ecfc-d1f5-45fa-a261-c0ff12a20538 -->
+
+Accounts shall only whitelist addresses for withdrawals to either an approved collateral agent (which will transfer received funds to borrowers as part of loan origination) or to the Spark Liquidity Layer.
+
+###### A.6.1.1.1.3.8.2.7.3 - Quorum and Signers [Core]  <!-- UUID: 8f3822f2-8403-444f-9db7-2a9fa2da552f -->
+
+Accounts must require a quorum of at least 3 signers for Critical Actions. It must not be possible for quorum to be met with signers from a single entity (no single entity will have enough signers to meet the quorum alone, and each critical action will therefore require approval from signers from at least 2 independent entities).
+
+Signers may be sourced from any of the following entities: Spark Asset Foundation (including legal council), Phoenix Labs, Spark Operational Facilitator.
+
+###### A.6.1.1.1.3.8.2.7.4 - Transfers [Core]  <!-- UUID: 28517c27-b028-4b7a-9fea-6a70ae706468 -->
+
+Funds may only be transferred to a collateral agent after confirmation that all necessary steps proceeding loan origination have been completed, including execution of final MLA and provision of configuration file for the loan to the custodian and/or collateral agent.
+
+Funds may be transferred to the designated address for Spark Liquidity Layer at any time without restriction.
+
 #### A.6.1.1.2 - Grove [Core]  <!-- UUID: 727b0de6-095b-485e-bf9c-02108a364480 -->
 
 The documents herein specify all of the logic for Grove, including Grove’s strategy and how it uses the Sky Primitives to operationalize this strategy.
