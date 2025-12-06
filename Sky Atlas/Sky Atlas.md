@@ -26142,10 +26142,6 @@ The acceptable staked or wrapped versions of a given marginable asset, including
 
 The subdocuments herein define the assets currently accepted as margin collateral within Spark funded Offchain Collateralized Lending arrangements.
 
-###### A.6.1.1.1.3.8.2.2.2 - Marginable Assets Current Configuration [Core]  <!-- UUID: 34d75d61-1df2-4921-890b-cb4ed68abe25 -->
-
-The subdocuments herein define the assets currently accepted as margin collateral within Spark funded Offchain Collateralized Lending arrangements.
-
 ###### A.6.1.1.1.3.8.2.2.2.1 - Bitcoin (BTC) [Core]  <!-- UUID: 8fd4dc40-59b1-47ae-ba5c-4782b9550245 -->
 
 - Initial LTV: 70%
