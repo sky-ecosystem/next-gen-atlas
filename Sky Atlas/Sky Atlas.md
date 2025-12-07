@@ -26144,7 +26144,7 @@ The subdocuments herein define the assets currently accepted as margin collatera
 
 ###### A.6.1.1.1.3.8.2.2.2.1 - Bitcoin (BTC) [Core]  <!-- UUID: 8fd4dc40-59b1-47ae-ba5c-4782b9550245 -->
 
-- Initial LTV: 70%
+- Initial LTV: 80%
 - Maintenance LTV: 85%
 - Liquidation LTV: 90%
 - Exposure limit: Unlimited
@@ -26206,9 +26206,9 @@ The subdocuments herein define the currently approved venues where liquidity and
 
 Offchain Collateralized Lending may be facilitated via Anchorage, which is approved to hold collateral as well as lending liquidity related to such loans.
 
-- Venue exposure Limit: $100 million
+- Venue exposure Limit: $200 million
 - Collateral Agent(s):
-- Anchorage Innovations: $100 million
+- Anchorage Innovations: $200 million
 
 ###### A.6.1.1.1.3.8.2.4 - Loan Terms [Core]  <!-- UUID: f80317f5-cf93-4610-b35a-2e60c94011d0 -->
 
