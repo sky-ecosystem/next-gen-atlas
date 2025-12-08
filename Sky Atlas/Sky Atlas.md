@@ -26248,6 +26248,10 @@ The minimum borrow rate for loans via Offchain Collateralized Lending arrangemen
 - Sky Savings Rate + 1.5%
 - SOFR + 2%
 
+###### A.6.1.1.1.3.8.2.4.2.3 - Margin Call Cure Period [Core]  <!-- UUID: aedd10ee-5db1-4d38-b720-c451608c19e1 -->
+
+The maximum permitted margin call cure period is 24 hours from the time the Maintenance LTV is breached.
+
 ###### A.6.1.1.1.3.8.2.5 - Recall and Acceleration [Core]  <!-- UUID: 19eeb757-6167-4aff-87f4-5f97331ab7e6 -->
 
 The documents herein provide details of how and when loans should be recalled, accelerated, or liquidated in order to mitigate risk.
