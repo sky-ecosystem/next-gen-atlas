@@ -10275,7 +10275,7 @@ The signers must use the Core Council Buffer Multisig to disburse funds on behal
 
 ###### A.2.4.1.4.1.1.1.5 - Core Council Buffer Multisig Modification [Core]  <!-- UUID: a56fe3ee-c11a-4df0-9cc3-677688c5563d -->
 
-The Core Facilitator and Core GovOps can change the signers of the Core Council Buffer Multisig so long as:
+The signers can change the signers of the Core Council Buffer Multisig so long as:
 
 - there are exactly six (6) signers;
 
@@ -10285,14 +10285,14 @@ The Core Facilitator and Core GovOps can change the signers of the Core Council 
 
 ###### A.2.4.1.4.1.1.1.6 - Consolidation Of Funds Into Core Council Buffer [Core]  <!-- UUID: 8c8778c4-ff4c-4add-ae03-5f32a052f433 -->
 
-All funds in Legacy Accounts (see Legacy Accounts) must be consolidated into the Core Council Buffer as specified in the documents herein.
+All funds in Legacy Accounts (see [A.2.4.1.4.1.1.1.6.1 - Legacy Accounts](6f7153e1-c535-4a35-a7cf-7a66180a1c0e)) must be consolidated into the Core Council Buffer as specified in the documents herein.
 
 ###### A.2.4.1.4.1.1.1.6.1 - Legacy Accounts [Core]  <!-- UUID: 6f7153e1-c535-4a35-a7cf-7a66180a1c0e -->
 
 Legacy Accounts are all accounts controlled by Sky Core, with the exception of the Core Council Buffer and Aligned Delegates Buffer (see [A.2.4.1.4.1.2 - Allocation To Aligned Delegates Buffer](2a9bcfb1-4dad-4baf-a09a-e9264b3d17bb)). This includes, without limitation:
 
 - the Distribution Reward Controller Wallet (see [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2));
-- the Integration Boost Wallets (see A.2.3.8.2.2.1.3.2.1 - Near-Term Process); and
+- the Integration Boost Wallets (see [A.2.3.8.2.2.1.3.2.1 - Near Term Process](4ab621b4-ef8e-4b01-a6aa-9296601033c5)); and
 - the Sky Ecosystem Liquidity Bootstrapping Budget (see [A.5.5.1.1 - Sky Ecosystem Liquidity Bootstrapping](cd4ae79c-0e34-4388-8ac2-41d7677bd955)).
 
 ###### A.2.4.1.4.1.1.1.6.2 - Ecosystem Actors Must Consolidate All Funds From Legacy Accounts Into Core Council Buffer [Core]  <!-- UUID: 294154f2-8d36-4104-a660-89a7b52eeac7 -->
