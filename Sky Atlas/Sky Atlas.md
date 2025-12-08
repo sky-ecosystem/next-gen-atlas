@@ -26301,7 +26301,7 @@ Accounts shall only whitelist addresses for withdrawals to either an approved co
 
 Accounts must require a quorum of at least 3 signers for Critical Actions. It must not be possible for quorum to be met with signers from a single entity (no single entity will have enough signers to meet the quorum alone, and each critical action will therefore require approval from signers from at least 2 independent entities).
 
-Signers may be sourced from any of the following entities: Spark Asset Foundation (including legal council), Phoenix Labs, Spark Operational Facilitator.
+Signers may be sourced from any of the following entities: Spark Asset Foundation (including legal council), Phoenix Labs, Spark Operational Executor Agent.
 
 ###### A.6.1.1.1.3.8.2.7.4 - Transfers [Core]  <!-- UUID: 28517c27-b028-4b7a-9fea-6a70ae706468 -->
 
