@@ -10295,7 +10295,7 @@ Legacy Accounts are all accounts controlled by Sky Core, with the exception of t
 - the Integration Boost Wallets (see A.2.3.8.2.2.1.3.2.1 - Near-Term Process); and
 - the Sky Ecosystem Liquidity Bootstrapping Budget (see [A.5.5.1.1 - Sky Ecosystem Liquidity Bootstrapping](cd4ae79c-0e34-4388-8ac2-41d7677bd955)).
 
-###### A.2.4.1.4.1.1.1.6.2 - Ecosystem Actors Must Consolidate All Funds From Legacy Accounts Into Core Council Buffer [Core]  <!-- UUID: 614ccfe2c-48f6-4c0f-9f16-9b2a06215a9c -->
+###### A.2.4.1.4.1.1.1.6.2 - Ecosystem Actors Must Consolidate All Funds From Legacy Accounts Into Core Council Buffer [Core]  <!-- UUID: 294154f2-8d36-4104-a660-89a7b52eeac7 -->
 
 Relevant Ecosystem Actors must take all necessary actions to transfer all funds from Legacy Accounts into the Core Council Buffer.
 
@@ -10303,7 +10303,7 @@ Relevant Ecosystem Actors must take all necessary actions to transfer all funds 
 
 All funds that would otherwise be transferred into or out of Legacy Accounts must instead be transferred into or out of the Core Council Buffer.
 
-###### A.2.4.1.4.1.1.1.6.3 - Follow-Up Actions [Core]  <!-- UUID: fae8cff1-5ecc-4f4f-a4e1-622df4112eeb -->
+###### A.2.4.1.4.1.1.1.6.3 - Follow-Up Actions [Core]  <!-- UUID: 104c08ce-04db-4b08-8cd7-ae6cf5c3dc09 -->
 
 Core GovOps must propose a subsequent Atlas Edit Proposal removing all references to Legacy Accounts from the Atlas and replacing them with the Core Council Buffer.
 
