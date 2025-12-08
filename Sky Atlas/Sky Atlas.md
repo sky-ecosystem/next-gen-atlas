@@ -3002,7 +3002,7 @@ Following the Interim Deployment, the Prime will work with the Core Council Risk
 
 ###### A.1.9.2.3.2.2.3 - Execution Of Prime Spells [Core]  <!-- UUID: 5b0fd894-094e-4b0c-91ca-c5b59b710c0c -->
 
-The execution of Prime Spells is described in the subdocuments herein. Two methods are available: direct execution in a Sky Core Spell and execution through StarGuard. Execution through StarGuard is the preferred method and any exceptions require valid reasoning, except as specified in [A.1.9.2.3.2.2.3.3 - Short-term Transitionary Measures](acd33afa-5061-4b56-b76f-56554614558d).
+The execution of Prime Spells is described in the subdocuments herein. Two methods are available: direct execution in a Sky Core Spell and execution through StarGuard. Execution through StarGuard is the preferred method and any exceptions require valid reasoning.
 
 ###### A.1.9.2.3.2.2.3.1 - Execution Through StarGuard [Core]  <!-- UUID: 78ec918d-cd9e-4326-bfa9-ab338e658a8b -->
 
@@ -10255,7 +10255,7 @@ In the short term, 21% of Step 1 Capital is allocated as specified in the docume
 
 ###### A.2.4.1.4.1.1.1 - Core Council Buffer [Core]  <!-- UUID: 8b6781d7-f35c-4ffe-b8ed-299fa98e3da7 -->
 
-The Core Council Buffer is a multisig controlled by the Core Facilitator and Core GovOps to transfer funds on behalf of the Core Council.
+The Core Council Buffer is a multisig used to transfer funds on behalf of the Core Council.
 
 ###### A.2.4.1.4.1.1.1.1 - Core Council Buffer Multisig Address [Core]  <!-- UUID: af082bd0-fdcd-4ec1-980a-7fce50e77ed1 -->
 
@@ -10263,25 +10263,49 @@ The address of the Core Council Buffer Multisig on the Ethereum Mainnet is `0x21
 
 ###### A.2.4.1.4.1.1.1.2 - Core Council Buffer Multisig Required Number Of Signers [Core]  <!-- UUID: 7f9cc28d-75af-4fe0-b090-8c85cda9656a -->
 
-The Core Council Buffer Multisig has a 3/4 signing requirement.
+The Core Council Buffer Multisig has a 4/6 signing requirement.
 
 ###### A.2.4.1.4.1.1.1.3 - Core Council Buffer Multisig Signers [Core]  <!-- UUID: 5aeba17d-3869-447d-adcd-8c55f41afc01 -->
 
-The signers of the Core Council Buffer Multisig are two (2) addresses controlled by the Core Facilitator and two (2) addresses controlled by Core GovOps.
+The signers of the Core Council Buffer Multisig are two (2) addresses controlled by the Core Facilitator, two (2) addresses controlled by Core GovOps, one (1) address controlled by Operational GovOps Amatsu, and one (1) address controlled by Operational GovOps Soter Labs.
 
 ###### A.2.4.1.4.1.1.1.4 - Core Council Buffer Multisig Usage Standards [Core]  <!-- UUID: dc6474f6-d285-4e1e-9902-406def4b72be -->
 
-The Core Facilitator and Core GovOps must use the Core Council Buffer Multisig to disburse funds on behalf of the Core Council.
+The signers must use the Core Council Buffer Multisig to disburse funds on behalf of the Core Council.
 
 ###### A.2.4.1.4.1.1.1.5 - Core Council Buffer Multisig Modification [Core]  <!-- UUID: a56fe3ee-c11a-4df0-9cc3-677688c5563d -->
 
 The Core Facilitator and Core GovOps can change the signers of the Core Council Buffer Multisig so long as:
 
-- there are at least four (4) signers;
+- there are exactly six (6) signers;
 
 - a majority of signers are required to execute transactions; and
 
-- an equal number of signers are controlled by the Core Facilitator and Core GovOps.
+- two (2) signers are controlled by the Core Facilitator, two (2) signers are controlled by Core GovOps, one (1) signer is controlled by Operational GovOps Amatsu, and one (1) signer is controlled by Operational GovOps Soter Labs.
+
+###### A.2.4.1.4.1.1.1.6 - Consolidation Of Funds Into Core Council Buffer [Core]  <!-- UUID: 8c8778c4-ff4c-4add-ae03-5f32a052f433 -->
+
+All funds in Legacy Accounts (see Legacy Accounts) must be consolidated into the Core Council Buffer as specified in the documents herein.
+
+###### A.2.4.1.4.1.1.1.6.1 - Legacy Accounts [Core]  <!-- UUID: 6f7153e1-c535-4a35-a7cf-7a66180a1c0e -->
+
+Legacy Accounts are all accounts controlled by Sky Core, with the exception of the Core Council Buffer and Aligned Delegates Buffer (see [A.2.4.1.4.1.2 - Allocation To Aligned Delegates Buffer](2a9bcfb1-4dad-4baf-a09a-e9264b3d17bb)). This includes, without limitation:
+
+- the Distribution Reward Controller Wallet (see [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2));
+- the Integration Boost Wallets (see A.2.3.8.2.2.1.3.2.1 - Near-Term Process); and
+- the Sky Ecosystem Liquidity Bootstrapping Budget (see [A.5.5.1.1 - Sky Ecosystem Liquidity Bootstrapping](cd4ae79c-0e34-4388-8ac2-41d7677bd955)).
+
+###### A.2.4.1.4.1.1.1.6.2 - Ecosystem Actors Must Consolidate All Funds From Legacy Accounts Into Core Council Buffer [Core]  <!-- UUID: 614ccfe2c-48f6-4c0f-9f16-9b2a06215a9c -->
+
+Relevant Ecosystem Actors must take all necessary actions to transfer all funds from Legacy Accounts into the Core Council Buffer.
+
+###### A.2.4.1.4.1.1.1.6.3 - Core Council Buffer Replaces Legacy Accounts [Core]  <!-- UUID: fae8cff1-5ecc-4f4f-a4e1-622df4112eeb -->
+
+All funds that would otherwise be transferred into or out of Legacy Accounts must instead be transferred into or out of the Core Council Buffer.
+
+###### A.2.4.1.4.1.1.1.6.3 - Follow-Up Actions [Core]  <!-- UUID: fae8cff1-5ecc-4f4f-a4e1-622df4112eeb -->
+
+Core GovOps must propose a subsequent Atlas Edit Proposal removing all references to Legacy Accounts from the Atlas and replacing them with the Core Council Buffer.
 
 ###### A.2.4.1.4.1.2 - Allocation To Aligned Delegates Buffer [Core]  <!-- UUID: 2a9bcfb1-4dad-4baf-a09a-e9264b3d17bb -->
 
@@ -10461,7 +10485,9 @@ For the Monthly Settlement Cycle conducted in October 2025, the Initial Calculat
 
 ###### A.2.5.1.2.1.6.4 - Process For November / December 2025 Monthly Settlement Cycle [Core]  <!-- UUID: 5aa66a15-d59c-4f66-9d80-96583698f24d -->
 
-There will be no Monthly Settlement Cycle conducted in December 2025. Instead, the Monthly Settlement Cycle conducted in January 2026 will be for the two month period from November 1, 2025 to December 31, 2025.
+There will be no Monthly Settlement Cycle conducted in December 2025. Instead, the Monthly Settlement Cycle conducted in January 2026 will be for the two-month period from November 1, 2025 to December 31, 2025.
+
+For the Monthly Settlement Cycle conducted in January 2026, the Independent Calculation prepared by the Core Council Risk Advisor on behalf of the Core Council will only include calculations related to Spark. The Initial Calculation prepared by Operational Executor Agent Amatsu will be prepared normally. The calculations related to Spark will be subject to the normal resolution process defined in [A.2.5.1.2.1.3 - Final Calculation By Core GovOps](9de89bf3-9051-44f1-9ec0-d362ee4d4b38). For all other calculations, the amounts in the Initial Calculation will be treated as Agreed Amounts.
 
 ##### A.2.5.1.2.2 - Implementation Stages [Core]  <!-- UUID: cf1d76c1-fc9f-499d-866f-265276e421f0 -->
 
@@ -13025,6 +13051,43 @@ The portion of exposure to lending markets that is backed by Ethena-related asse
 ###### A.3.2.2.1.1.1.1.3.4 - Aave And SparkLend [Core]  <!-- UUID: 5ac25db9-6567-4b83-88a2-59e295db6ed8 -->
 
 Because Aave and SparkLend liquidate a maximum of 50% of a user’s position, the Slippage parameter for Aave and SparkLend should be the estimated slippage for liquidating half of the position in one block. See [A.3.2.2.1.1.1.1.1.2.2 - Slippage](f2612a0d-6bf8-470b-b5b6-884567e1317b).
+
+###### A.3.2.2.1.1.1.1.3.5 - Kamino [Core]  <!-- UUID: 836668a9-235b-458d-80fa-91a9d08c84b4 -->
+
+The CRR for Kamino is:
+
+- 4.98% for USDG on JLP market
+- 4.94% for USDC on JLP market
+- 4.91% for USDT on JLP market
+- 4.87% for PYUSD on JLP market
+- 1.60% for USDG on Main market
+- 1.58% for USDC on Main market
+- 1.48% for EURC on Main market
+- 0.91% for PYUSD on Main market
+- 0.78% for USDT on Main market
+- 0.77% for USDS on Main market
+- 2.12% for USDC on Maple market
+- 0.75% for USDS on Maple market
+
+The maximum exposure a Prime Agent may have to Kamino may not exceed 25,000,000 USDS.
+
+###### A.3.2.2.1.1.1.1.3.5 - Drift [Core]  <!-- UUID: 05036471-be13-42e6-b278-7ae128de708b -->
+
+The CRR for Drift is:
+
+- 3.51% for USDe on Main market
+- 3.49% for USDC on Main market
+- 2.67% for EURC on Main market
+- 2.26% for sUSDe on Main market
+- 2.24% for USDY on Main market
+- 1.90% for USDT on Main market
+- 1.84% for AUSD on Main market
+- 1.82% for syrupUSDC on Main market
+- 1.59% for PYUSD on Main market
+- 1.55% for USDS on Main market
+- 1.52% for USDC on JLP market
+
+The maximum exposure a Prime Agent may have to Drift may not exceed 25,000,000 USDS.
 
 ###### A.3.2.2.1.1.1.1.4 - Reference Implementation [Core]  <!-- UUID: e96da090-34ff-4445-a1d3-22cc69be2e51 -->
 
@@ -16049,11 +16112,12 @@ The Genesis Capital Backstop may not be invoked unless a "SKY Backstop Event" is
 
 Genesis Agents are Agents that receive capital contributions from Sky, including, without limitation:
     
-◦ Spark    
-◦ Grove    
-◦ Keel    
-◦ Launch Agent 3
-◦ Obex
+- Spark    
+- Grove    
+- Keel    
+- Launch Agent 3
+- Obex
+- Core Council Executor Agent 1
 
 ##### A.3.7.1.5.6 - Genesis Capital [Core]  <!-- UUID: 18f3de06-064b-4b08-a855-4720240e37f5 -->
 
@@ -16063,9 +16127,9 @@ The Genesis Capital of an Agent is the lesser of (1) the amount of capital contr
 
 The amount of capital contributed by Sky to Agents is:
 
-◦ Spark - 25,000,000 USDS
-
+- Spark - 25,000,000 USDS
 - Obex - 21,000,000 USDS
+- Core Council Executor Agent 1 - 25,000,000 USDS
 
 # A.4 - The Protocol Scope [Scope]  <!-- UUID: 5c20d9af-0bb9-4ca1-a944-1e2cb6f8bb6b -->
 
@@ -16545,7 +16609,7 @@ The parameters of the SKY Borrow Minimum Rate formula are further defined in the
 
 The liquidation parameters for SKY-backed loans funded via stUSDS are:
  
-◦ Liquidation Ratio: 125%    
+◦ Liquidation Ratio: 120%    
 ◦ `Calc`: StairstepExponentialDecrease    
 ◦ `Tau`: 0 days
 ◦ `Tolerance`: 0.5
@@ -16709,17 +16773,23 @@ The initial parameters set by the stUSDS BEAM in the Executive Vote deploying st
 
 Initially, the stUSDS parameters set by the stUSDS BEAM are managed by the Operator Multisig based on instructions provided by the Core Council Risk Advisor.
 
-###### A.4.4.1.3.8.3.2.2.1 - Request By Core Council Risk Advisor [Core]  <!-- UUID: cfd01132-42f2-46c9-867c-bd9aa62bf78a -->
+###### A.4.4.1.3.8.3.2.2.1 - Instructions By Core Council Risk Advisor [Core]  <!-- UUID: cfd01132-42f2-46c9-867c-bd9aa62bf78a -->
 
-Any requests to change stUSDS parameters set by the stUSDS BEAM must be posted to the Sky Forum by the Core Council Risk Advisor recommending the change. Once Utilization is below 100% the Core Council Risk Advisor should begin recommending changes based on the methodology specified in [A.4.4.1.3.8.3.3 - Update Methodology](e37d1045-215d-4f85-bbc3-70aa2c1b818b) but may deviate from the values resulting from this methodology if they determine that other values are advisable to support the growth of stUSDS and the interests of the Sky Protocol.
+The Core Council Risk Advisor will develop and maintain a stUSDS Dashboard. The stUSDS Dashboard must display the recommended values for each of the stUSDS parameters as of any point in time. The stUSDS Dashboard is located at [https://stusds.herddefi.com/](https://stusds.herddefi.com/).
+
+The recommended values for each of the stUSDS parameters should be based on the methodology specified in [A.4.4.1.3.8.3.3 - Update Methodology](e37d1045-215d-4f85-bbc3-70aa2c1b818b) but the Core Council Risk Advisor may deviate from this methodology if they determine that another methodology is advisable to support the growth of USDS and the interests of the Sky Protocol.
 
 ###### A.4.4.1.3.8.3.2.2.2 - Operator Execution [Core]  <!-- UUID: 420d6ca3-405a-41be-ba0f-cdc52746477c -->
 
-Once a request to change stUSDS parameters has been posted to the Sky Forum by the Core Council Risk Advisor, the stUSDS BEAM Operators must prepare and execute the proposed changes in a timely manner. Preparation can include the creation of transaction simulations to verify inputs.
+On a regular basis, the stUSDS BEAM Operators must prepare and execute changes so that the stUSDS parameters reflect the recommended values in the stUSDS Dashboard. In determining when to make changes, the stUSDS BEAM Operators, in consultation with the Core Council Risk Advisor, should consider factors including:
 
-###### A.4.4.1.3.8.3.2.2.3 - Public Communication [Core]  <!-- UUID: 7318d160-e182-4276-bdf9-7dfc86ca77a5 -->
+- the materiality of the change;
+- the occurrence of weekends and holidays, including Calendar Exceptions to the Monthly Governance Cycle (see [A.1.11.1 - Calendar Exceptions](6c0810e2-390d-4efb-8b31-f36a7f6e1a05)); and
+- such other factors as the stUSDS BEAM Operators and the Core Council Risk Advisor deem relevant.
 
-Once a change in stUSDS parameters set by the stUSDS BEAM has been executed, the execution must be publicly communicated to the Sky Ecosystem. This communication may take the form of either (1) a Forum post or (2) inclusion of the execution in an informational dashboard that allows community members to see each stUSDS parameter change executed by the stUSDS BEAM.
+###### A.4.4.1.3.8.3.2.2.3 - Review By Core Facilitator And Core Council Risk Advisor [Core]  <!-- UUID: 7318d160-e182-4276-bdf9-7dfc86ca77a5 -->
+
+The Core Facilitator and the Core Council Risk Advisor must review the actions of the stUSDS BEAM Operators on a regular basis. If they determine that the stUSDS BEAM Operators are not updating the stUSDS parameters in a way that reflects the recommended values in the stUSDS Dashboard on a timely basis, they must report this to the Core Council.
 
 ###### A.4.4.1.3.8.3.2.3 - Automatic Updates By Operator Hot Wallet [Core]  <!-- UUID: a6e1735f-bd82-4ab6-982b-218013c3455f -->
 
@@ -16820,7 +16890,7 @@ The Core Facilitator, in consultation with the Core Council Risk Advisor, has th
 
 The current value of the `cap` parameter is:
 
-- 0.04 USDS.
+- 0.025 USDS.
 
 #### A.4.4.1.4 - Short Term Transitionary Measures [Core]  <!-- UUID: 22b8f8bf-b477-4439-86f7-ec605d3c657a -->
 
@@ -30317,18 +30387,6 @@ The withdrawal rate limits are:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.9.1.2.5.1 - Interim Deployment [Core]  <!-- UUID: a6894406-42dd-4d86-8ee5-8ccab560ce43 -->
-
-This Instance is currently defined as an Interim Deployment (see [A.1.9.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
-
-###### A.6.1.1.2.2.6.1.3.1.9.1.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: c3d3a0d2-30bd-42e7-a49e-3b9196d203a7 -->
-
-The maximum allocation for all Interim Deployments in Galaxy is $25 million.
-
-###### A.6.1.1.2.2.6.1.3.1.9.1.2.5.1.2 - Rate Limits [Core]  <!-- UUID: 5e6b6a10-a542-4a07-ac6c-2b01826aa8f8 -->
-
-The Rate Limits for this Interim Deployment are defined in [Rate Limits](23517c75-2462-4def-bab9-3a33c3c03e71).
-
 ###### A.6.1.1.2.2.6.1.3.1.9.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 65650ce9-1f1f-4e51-b60b-12f17efc2e67 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
@@ -31233,6 +31291,14 @@ On November 27, 2025, a DAO Resolution was passed authorizing the Grove Foundati
 ###### A.6.1.1.2.3.6.5 - Authorization With Respect To FalconX [Core]  <!-- UUID: 062461fe-fc60-4f7c-ac28-2238756a67ea -->
 
 On December 4, 2025, a DAO Resolution was passed authorizing the Grove Foundation and Bamboo Grove Ltd with respect to FalconX. See [https://ipfs.io/ipfs/bafkreicfhmyziwispejbngiqhfrqjy3xwvxidqnyaaaacprlp4n6gzvw7u](https://ipfs.io/ipfs/bafkreicfhmyziwispejbngiqhfrqjy3xwvxidqnyaaaacprlp4n6gzvw7u).
+
+###### A.6.1.1.2.3.6.6 - Authorization Of Project Grove [Core]  <!-- UUID: 806e65a3-9322-4ab6-8dcb-ecdc4be13c18 -->
+
+On December 11, 2025, a DAO Resolution was passed authorizing Grove Foundation and Grove (BVI) Ltd to take actions related to Project Grove. See [https://ipfs.io/ipfs/bafkreiamufzul447ja3prczy7cfxccvsij73vmareedlqag2xxpcwtcgxu](https://ipfs.io/ipfs/bafkreiamufzul447ja3prczy7cfxccvsij73vmareedlqag2xxpcwtcgxu).
+
+###### A.6.1.1.2.3.6.7 - Authorization To Subscribe And Purchase Notes Issued By Galaxy CLO [Core]  <!-- UUID: db2e4893-d315-4a65-a5cc-133d7763c693 -->
+
+On December 11, 2025, a DAO Resolution was passed authorizing Grove Foundation and Cedar Grove Ltd to subscribe for and purchase the Class B notes issued by Galaxy CLO 2025-1 LLC. See [https://gateway.pinata.cloud/ipfs/bafkreierc3rxu3d64xakeeibkqujkqbhlz3lcsnjymcckaacix55vhya6u](ttps://gateway.pinata.cloud/ipfs/bafkreierc3rxu3d64xakeeibkqujkqbhlz3lcsnjymcckaacix55vhya6u).
 
 #### A.6.1.1.3 - Keel [Core]  <!-- UUID: bc6aed17-2969-4d04-9af6-c7bf3e4497e6 -->
 
@@ -34370,18 +34436,6 @@ The withdrawal rate limits are:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.3.2.6.1.3.1.1.1.2.5.1 - Interim Deployment [Core]  <!-- UUID: bd9985e8-65f5-4152-88dd-4d9b366fa7b8 -->
-
-This Instance is currently defined as an Interim Deployment (see A.1.9 - Interim Deployments) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
-
-###### A.6.1.1.3.2.6.1.3.1.1.1.2.5.1.1 - Kamino Maximum Allocation [Core]  <!-- UUID: 927a9a53-b977-44be-bfc9-46cdd9330cf2 -->
-
-The maximum allocation for all Interim Deployments in Kamino is $25 million.
-
-###### A.6.1.1.3.2.6.1.3.1.1.1.2.5.1.2 - Rate Limits [Core]  <!-- UUID: 81552b6c-7fe7-43ef-abfe-0fd067aaea4b -->
-
-The Rate Limits for this Interim Deployment are defined in [A.6.1.1.3.2.6.1.3.1.1.1.2.4 - Rate Limits](ecde5b24-7807-40ee-b352-f509d4e2daf7).
-
 ###### A.6.1.1.3.2.6.1.3.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 0a1e41de-51bb-4da5-972d-d1e7cfd13ace -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Keel Liquidity Layer processes.
@@ -34462,18 +34516,6 @@ The withdrawal rate limits are:
 ###### A.6.1.1.3.2.6.1.3.1.1.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: fe79db33-1328-4baa-867d-141173666215 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.3.2.6.1.3.1.1.2.2.5.1 - Interim Deployment [Core]  <!-- UUID: 4d7615fb-4c15-480f-94ee-cdd7cc2c2167 -->
-
-This Instance is currently defined as an Interim Deployment (see [A.1.9.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
-
-###### A.6.1.1.3.2.6.1.3.1.1.2.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 70be3fc1-7a65-4577-81e3-c71d987ddaf2 -->
-
-The maximum allocation for all Interim Deployments in Kamino is $25 million.
-
-###### A.6.1.1.3.2.6.1.3.1.1.2.2.5.1.2 - Rate Limits [Core]  <!-- UUID: cb6d6b51-d6a6-485c-99da-5880db5f8efe -->
-
-The Rate Limits for this Interim Deployment are defined in [A.6.1.1.3.2.6.1.3.1.1.2.2.4 - Rate Limits](a1cf8da0-dc37-4abb-9205-aee0a825363a).
 
 ###### A.6.1.1.3.2.6.1.3.1.1.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 44ed77d2-a81c-41d3-a77c-84b6e9293a3e -->
 
@@ -34556,18 +34598,6 @@ The withdrawal rate limits are:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.3.2.6.1.3.1.1.3.2.5.1 - Interim Deployment [Core]  <!-- UUID: 3e2d09d4-21bf-433d-b4b1-ce494c6b7468 -->
-
-This Instance is currently defined as an Interim Deployment (see [A.1.9.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
-
-###### A.6.1.1.3.2.6.1.3.1.1.3.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 18d8aaed-98cd-4bf9-9b19-71eb5f723ccd -->
-
-The maximum allocation for all Interim Deployments in Kamino is $25 million.
-
-###### A.6.1.1.3.2.6.1.3.1.1.3.2.5.1.2 - Rate Limits [Core]  <!-- UUID: df35027d-17a3-4033-b97d-a711373baa32 -->
-
-The Rate Limits for this Interim Deployment are defined in[A.6.1.1.3.2.6.1.3.1.1.3.2.4 - Rate Limits](522805d9-5d8c-4147-ab77-f7472512852e).
-
 ###### A.6.1.1.3.2.6.1.3.1.1.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 7c687440-6b84-40a7-8fa1-db0d15a33309 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Keel Liquidity Layer processes.
@@ -34649,18 +34679,6 @@ The withdrawal rate limits are:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.3.2.6.1.3.1.1.4.2.5.1 - Interim Deployment [Core]  <!-- UUID: f1f3030a-2add-4346-9c0a-7d30aa31fffd -->
-
-This Instance is currently defined as an Interim Deployment (see [A.1.9.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
-
-###### A.6.1.1.3.2.6.1.3.1.1.4.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 25aeaf82-75bf-48f5-8f7b-7a6a2bc1ebba -->
-
-The maximum allocation for all Interim Deployments in Kamino is $25 million.
-
-###### A.6.1.1.3.2.6.1.3.1.1.4.2.5.1.2 - Rate Limits [Core]  <!-- UUID: d5093426-b706-4878-94dd-2925277fdab1 -->
-
-The Rate Limits for this Interim Deployment are defined in[A.6.1.1.3.2.6.1.3.1.1.4.2.4 - Rate Limits](1e88d799-a269-44e7-9ce4-2b3f871ece01).
-
 ###### A.6.1.1.3.2.6.1.3.1.1.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 770281c7-e626-4f05-8c64-0f0af533a7ea -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Keel Liquidity Layer processes.
@@ -34741,18 +34759,6 @@ The withdrawal rate limits are:
 ###### A.6.1.1.3.2.6.1.3.1.1.5.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: b8b3c21f-e712-46cf-b36a-79b0682f107f -->
 
 The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.3.2.6.1.3.1.1.5.2.5.1 - Interim Deployment [Core]  <!-- UUID: e6e4e2cb-de21-44c4-b720-35a57ca68833 -->
-
-This Instance is currently defined as an Interim Deployment (see [A.1.9.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
-
-###### A.6.1.1.3.2.6.1.3.1.1.5.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: f2e63c3e-2723-4c11-8fe2-aa83b84d75d8 -->
-
-The maximum allocation for all Interim Deployments in Kamino is $25 million.
-
-###### A.6.1.1.3.2.6.1.3.1.1.5.2.5.1.2 - Rate Limits [Core]  <!-- UUID: 56fed5c3-b97b-4504-9b25-70cac3c64c39 -->
-
-The Rate Limits for this Interim Deployment are defined in  [A.6.1.1.3.2.6.1.3.1.1.5.2.4 - Rate Limits](cb14e916-8015-46a0-812c-be780edec54f).
 
 ###### A.6.1.1.3.2.6.1.3.1.1.5.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 54403309-9bbe-4cac-bc6c-22cfc7ea9748 -->
 
@@ -34839,18 +34845,6 @@ The withdrawal rate limits are:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.3.2.6.1.3.1.2.1.2.5.1 - Interim Deployment [Core]  <!-- UUID: 1f86dcae-f1f1-4f4d-adcd-c2e77b5a4bbe -->
-
-This Instance is currently defined as an Interim Deployment (see [A.1.9.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
-
-###### A.6.1.1.3.2.6.1.3.1.2.1.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: fd762bc3-dbf8-4948-89fd-58a6ffdd0a5c -->
-
-The maximum allocation for all Interim Deployments in Drift is $25 million.
-
-###### A.6.1.1.3.2.6.1.3.1.2.1.2.5.1.2 - Rate Limits [Core]  <!-- UUID: 4b0edc70-52f4-4b79-884f-3cd36e0a5945 -->
-
-The Rate Limits for this Interim Deployment are defined in [A.6.1.1.3.2.6.1.3.1.2.1.2.4 - Rate Limits](e9d53583-526e-441e-87a6-79038aad553e).
-
 ###### A.6.1.1.3.2.6.1.3.1.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c2bc44bc-1c9e-46d1-977f-abe117105d88 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Keel Liquidity Layer processes.
@@ -34931,18 +34925,6 @@ The withdrawal rate limits are:
 ###### A.6.1.1.3.2.6.1.3.1.2.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 72896ba0-86c9-4291-b8a7-95de8f76acc5 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.3.2.6.1.3.1.2.2.2.5.1 - Interim Deployment [Core]  <!-- UUID: 2269dfd4-264d-4ca9-944e-e4044bb7dff1 -->
-
-This Instance is currently defined as an Interim Deployment (see [A.1.9.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
-
-###### A.6.1.1.3.2.6.1.3.1.2.2.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 0588729e-3694-46d7-ab63-a2a3d6b2950c -->
-
-The maximum allocation for all Interim Deployments in Drift is $25 million.
-
-###### A.6.1.1.3.2.6.1.3.1.2.2.2.5.1.2 - Rate Limits [Core]  <!-- UUID: 19115e2c-d799-4ebd-b370-0fda7302777a -->
-
-The Rate Limits for this Interim Deployment are defined in [A.6.1.1.3.2.6.1.3.1.2.2.2.4 - Rate Limits](b722ec68-1d66-49c7-a728-e64e3667059e).
 
 ###### A.6.1.1.3.2.6.1.3.1.2.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 074a32ed-ca95-4dea-b9de-10dcc9e2b02c -->
 
@@ -35025,18 +35007,6 @@ The withdrawal rate limits are:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.3.2.6.1.3.1.2.3.2.5.1 - Interim Deployment [Core]  <!-- UUID: 329e1088-8f7b-4d30-9725-debfa9fb4306 -->
-
-This Instance is currently defined as an Interim Deployment (see [A.1.9.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
-
-###### A.6.1.1.3.2.6.1.3.1.2.3.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 33ceb216-baea-4d6f-b8e9-5999f8bf6be7 -->
-
-The maximum allocation for all Interim Deployments in Drift is $25 million.
-
-###### A.6.1.1.3.2.6.1.3.1.2.3.2.5.1.2 - Rate Limits [Core]  <!-- UUID: cfa2b3b4-5049-4c65-8dd7-e86faef7d952 -->
-
-The Rate Limits for this Interim Deployment are defined in [A.6.1.1.3.2.6.1.3.1.2.3.2.4 - Rate Limits](c9fcbc68-412f-4c62-a59d-a100ccb1e9f2).
-
 ###### A.6.1.1.3.2.6.1.3.1.2.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: a276dc64-2505-43fa-a3d5-82cebeaeabff -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Keel Liquidity Layer processes.
@@ -35117,18 +35087,6 @@ The withdrawal rate limits are:
 ###### A.6.1.1.3.2.6.1.3.1.2.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 474e5b21-e27b-466d-b337-3a4b205d1f96 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.3.2.6.1.3.1.2.4.2.5.1 - Interim Deployment [Core]  <!-- UUID: 96fa3806-12eb-4ca5-99ff-b930bac8ee7e -->
-
-This Instance is currently defined as an Interim Deployment (see [A.1.9.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
-
-###### A.6.1.1.3.2.6.1.3.1.2.4.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 252badfc-0b4b-4c93-9510-d321bb7c1437 -->
-
-The maximum allocation for all Interim Deployments in Drift is $25 million.
-
-###### A.6.1.1.3.2.6.1.3.1.2.4.2.5.1.2 - Rate Limits [Core]  <!-- UUID: bf25d908-6252-411a-9a6b-6da72bd9d25f -->
-
-The Rate Limits for this Interim Deployment are defined in [A.6.1.1.3.2.6.1.3.1.2.4.2.4 - Rate Limits](715c3865-bf52-41cd-84e3-d57508c27b5f).
 
 ###### A.6.1.1.3.2.6.1.3.1.2.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d05923ef-0b89-4870-a080-920a6e81f417 -->
 
