@@ -42018,7 +42018,7 @@ The documents herein specify all of the logic for Launch Agent 6, including Laun
 
 ##### A.6.1.1.7.1 - Introduction [Core]  <!-- UUID: 963a72da-503f-4150-922e-94155924be8d -->
 
-Launch Agent 6 is an Agent creating a seamless financing experience by bridging the vast pool of digital liquidity with real-world credit demand. Launch Agent 6 credit facilities are delivered to neobanks and fintechs through a model that combines cost savings and a more intuitive borrower experience. The platform abstracts the complexity of DeFi and packages it into a product borrowers are used to. Launch Agent 6 creates vaults enterprises can plug into, payment flows they can embed, and capital they can access in real time.
+Launch Agent 6 is an Agent focused on building credit infrastructure for onchain and traditional finance, with a focus on USD₮ liquidity. In addition to allocating capital to scale Sky’s collateral portfolio, Launch Agent 6 serves as a platform enabling stablecoin distribution hubs—including exchanges, wallets, and neobanks—to access institutional grade lending infrastructure underpinning USDS through a suite of products.
 
 ##### A.6.1.1.7.2 - Sky Primitives [Core]  <!-- UUID: 0d6f6016-eaf1-47e2-b8e7-98bf5e4f1dc0 -->
 
@@ -42338,7 +42338,7 @@ The symbol of Launch Agent 6's token is AGENT6.
 
 ###### A.6.1.1.7.2.1.4.2.1.1.3 - Genesis Supply [Core]  <!-- UUID: a1b32961-6aa2-4385-b515-b1bc334960df -->
 
-The Genesis Supply of AGENT6 is 10 billion.
+The Genesis Supply of AGENT6 is 1 billion.
 
 ###### A.6.1.1.7.2.1.4.2.1.1.4 - Token Address [Core]  <!-- UUID: bd33da7e-609b-4866-89f7-637987cff659 -->
 
@@ -42746,7 +42746,7 @@ The documents herein define the process for the ongoing management of the Single
 
 This document defines the protocol for routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
 
-###### A.6.1.1.7.2.1.6.1.2.2.1.1 - Process Definition [Core]  <!-- UUID: 82841628-ddd7-4ccc-90c3-a45bf961d678 -->
+###### A.6.1.1.7.2.1.6.1.2.2.1.1 - Process Definition For Buy Back And Distribution Obligation [Core]  <!-- UUID: 82841628-ddd7-4ccc-90c3-a45bf961d678 -->
 
 The process to buy back and distribute 0.25% of Launch Agent 6's tokens per year will be specified in future iterations of the Launch Agent 6 Artifact.
 
@@ -42860,7 +42860,7 @@ This document contains a Directory of all Instances of the Upkeep Rebate Primiti
 
 ###### A.6.1.1.7.2.1.6.3.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 6f4901f6-2170-481c-8fd9-7d7c9ef2ab6d -->
 
-This document contains a Directory of all prospective Instances of the Upkeep Rebate Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [Active Instances Directory](17114b33-3010-4053-aa42-bcf3bf3ae73b), whereas failed Invocations are Archived in [Hub Data Repository](d1a41004-f2c2-4a95-9872-ba3f09778366).
+Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.7.2.1.6.3.1.5 - Hub Data Repository [Core]  <!-- UUID: d1a41004-f2c2-4a95-9872-ba3f09778366 -->
 
