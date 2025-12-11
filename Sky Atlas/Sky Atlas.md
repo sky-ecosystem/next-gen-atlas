@@ -22631,6 +22631,10 @@ The documents herein define the Instance contract addresses.
 
 `0xdC035D45d973E3EC169d2276DDab16f1e407384F`
 
+###### A.6.1.1.1.2.6.1.3.1.8.2.2.2.3 - Allocator Role Address [Core]  <!-- UUID: e40cb4f0-7ff1-4c64-a936-5e33189952a5 -->
+
+`0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178`
+
 ###### A.6.1.1.1.2.6.1.3.1.8.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 73b8b172-1562-4729-9d21-832bf1efdd19 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
@@ -22702,6 +22706,10 @@ The documents herein define the Instance contract addresses.
 ###### A.6.1.1.1.2.6.1.3.1.8.3.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: cfad62db-289a-4840-a31b-1ec231c8a1da -->
 
 `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.2.2.3 - Allocator Role Address [Core]  <!-- UUID: b63d90f5-1c8a-41e0-8ada-5db9986ec4a2 -->
+
+`0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 5b0ead44-7dce-4af5-b750-422c8f97c4ce -->
 
@@ -23122,6 +23130,10 @@ The documents herein define the Instance contract addresses.
 ###### A.6.1.1.1.2.6.1.3.2.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 2efab1a6-9c66-4b61-af68-2740efd8d475 -->
 
 `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
+
+###### A.6.1.1.1.2.6.1.3.2.1.1.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 64f057b6-40cc-4ef9-b1c5-36c7430b543f -->
+
+`0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d`
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: c8ac360b-6c77-458f-a481-78b4554dd682 -->
 
