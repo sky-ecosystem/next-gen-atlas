@@ -26123,7 +26123,7 @@ The subdocuments herein provide the current configuration of Spark Savings oncha
 The current parameters for Spark Savings USDC on Ethereum are: 
 
 - Default admin role: 0x3300f198988e4C9C63F75dF86De36421f06af8c4
-- Setter role: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC
+- Setter role: 0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178
 - Taker role: 0x1601843c5E9bC251A3272907010AFa41Fa18347E
 - Take rate limit: unlimited
 - Min yield: 0%
@@ -26135,7 +26135,7 @@ The current parameters for Spark Savings USDC on Ethereum are: 
 The current parameters for Spark Savings USDT on Ethereum are: 
 
 - Default admin role: 0x3300f198988e4C9C63F75dF86De36421f06af8c4
-- Setter role: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC
+- Setter role: 0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178
 - Taker role: 0x1601843c5E9bC251A3272907010AFa41Fa18347E
 - Take rate limit: unlimited
 - Min yield: 0%
@@ -26147,7 +26147,7 @@ The current parameters for Spark Savings USDT on Ethereum are: 
 The current parameters for Spark Savings ETH on Ethereum are: 
 
 - Default admin role: 0x3300f198988e4C9C63F75dF86De36421f06af8c4
-- Setter role: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC
+- Setter role: 0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178
 - Taker role: 0x1601843c5E9bC251A3272907010AFa41Fa18347E
 - Take rate limit: unlimited
 - Min yield: 0%
@@ -26159,7 +26159,7 @@ The current parameters for Spark Savings ETH on Ethereum are: 
 The current parameters for Spark Savings USDC on Avalanche are: 
 
 - Default admin role: 0x7566DEbC906C17338524A414343fA61BcA26A843
-- Setter role: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC
+- Setter role: 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62
 - Taker role: 0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC
 - Take rate limit: unlimited
 - Min yield: 0%
