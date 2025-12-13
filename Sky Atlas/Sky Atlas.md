@@ -23072,6 +23072,18 @@ The outflow rate limits are:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.5.1 - Interim Deployment [Core]  <!-- UUID: e3cf4dc4-c24b-4ecd-a4f9-b8709cf55fb5 -->
+
+This Instance is currently defined as an Interim Deployment (see [A.1.9.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.5.1.1 - Maximum Exposure [Core]  <!-- UUID: baf1fbad-0ef7-424e-832f-bd0c47377144 -->
+
+The Maximum Exposure for all Interim Deployments in Arkis is $20 million.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.5.1.2 - Instance Capital Requirement Ratio [Core]  <!-- UUID: c9cc845b-9971-4ee5-a5ec-e3d2771d85e2 -->
+
+The Instance Capital Requirement Ratio for all Interim Deployments in Arkis is 100%.
+
 ###### A.6.1.1.1.2.6.1.3.1.10.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 0a1caa15-48bb-4047-bf18-76f65ba20410 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
