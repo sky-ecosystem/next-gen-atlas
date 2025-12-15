@@ -11471,6 +11471,70 @@ Core Council Executor Agent 1 may capitalize the Core Council Buffer from its Ge
 
 Expenses paid through the Core Council Buffer shall be recorded as operational expenses of Core Council Executor Agent 1, whether funded by the Genesis Capital Allocation deposited directly to the Core Council Buffer or by subsequent transfers from the Core Council Executor Agent 1 SubProxy prior to the establishment of independent payment infrastructure.
 
+#### A.2.9.2.6 - Ecosystem Accord 6: Sky and Launch Agent 6 [Core]  <!-- UUID: 45125ff8-5435-4cbf-9b20-9f55a1dbc883 -->
+
+The subdocuments herein record the terms of agreement between Sky and Launch Agent 6 as agreed in Ecosystem Accord 6.
+
+##### A.2.9.2.6.1 - Accord Key Details [Core]  <!-- UUID: 262776d7-3f8e-4884-b858-b1942334ebab -->
+
+The subdocuments herein set out the key details of Ecosystem Accord 6, such as parties to the agreement and the duration of the Accord.
+
+###### A.2.9.2.6.1.1 - Parties To The Accord [Core]  <!-- UUID: 0f44e3b9-5fd3-4f1c-8917-97000969d334 -->
+
+The parties to Ecosystem Accord 6 are Sky and Launch Agent 6, as defined in the subdocuments herein.
+
+###### A.2.9.2.6.1.1.1 - Sky Details [Core]  <!-- UUID: dd7f7030-6020-490b-a8a2-196537ed66cd -->
+
+The party 'Sky' comprises Sky Core.
+
+###### A.2.9.2.6.1.1.2 - Launch Agent 6 Details [Core]  <!-- UUID: d9b2da30-bdae-47a6-96ff-966f92ce2b7e -->
+
+The party 'Launch Agent 6' comprises the Launch Agent 6 Prime Agent, Launch Agent 6 Foundation, and Launch Agent 6 Development Company.
+
+###### A.2.9.2.6.1.2 - Duration Of The Accord [Core]  <!-- UUID: 0b2fcb50-7b46-431a-8ab8-9c95c6ce8fb0 -->
+
+The duration of Ecosystem Accord 6 is indefinite, commencing from December 18, 2025.
+
+##### A.2.9.2.6.2 - Accord Sustantive Terms [Core]  <!-- UUID: 8a42e953-8932-41c4-acdc-4bc5b9274e3d -->
+
+The subdocuments herein set out the substantive terms of Ecosystem Accord 6. Additional detail regarding the substantive terms of Ecosystem Accord 6 will be specified in a future iteration of the Atlas, as agreed by the Parties to the Accord.
+
+###### A.2.9.2.6.2.1 - Tokenomics [Core]  <!-- UUID: 66a45926-a68c-41ff-9773-940c627aa03a -->
+
+The subdocuments herein set out agreed terms with respect to tokenomics.
+
+###### A.2.9.2.6.2.1.1 - Total Token Supply [Core]  <!-- UUID: b25e4af5-e97a-4457-83be-c253c7f4d039 -->
+
+The total token supply of AGENT6 shall be 1,000,000,000.
+
+###### A.2.9.2.6.2.1.2 - Token Allocations [Core]  <!-- UUID: 45a052e0-954d-49d9-a691-7adff194a839 -->
+
+Specific token allocations are defined in the subdocuments herein.
+
+###### A.2.9.2.6.2.1.2.1 - Launch Agent 6 Prime Treasury [Core]  <!-- UUID: 1ae8c439-cc0d-400f-90cd-4f5ef10356d6 -->
+
+777,777,778 AGENT6 tokens are allocated to the Launch Agent 6 Prime Treasury (Launch Agent 6’s SubProxy).
+
+###### A.2.9.2.6.2.1.2.2 - Sky Retained Tokens And Reward Pools [Core]  <!-- UUID: efb7339d-fb3d-4f5d-bdea-16ac8c291510 -->
+
+Sky retains 222,222,222 AGENT6 tokens, distributing these as specified in a future iteration of the Atlas.
+
+###### A.2.9.2.6.2.2 - Genesis Capital Allocation [Core]  <!-- UUID: f6ab77a4-8ba4-4f67-8c9f-8cc6a921ae53 -->
+
+The subdocuments herein set out agreed terms with respect to Genesis Capital Allocation.
+
+###### A.2.9.2.6.2.2.1 - Launch Agent 6 Initial Allocation [Core]  <!-- UUID: 94b2eef8-f5fd-4df1-8638-e1b81d032c47 -->
+
+The initial allocation for Launch Agent 6 is 10,000,000 USDS.
+
+###### A.2.9.2.6.2.2.2 - Initial Allocation Distribution [Core]  <!-- UUID: 20eeeaf4-38bc-4440-be1c-a1ee67ee3491 -->
+
+The Initial Allocation is distributed in USDS to the Launch Agent 6 SubProxy.
+
+###### A.2.9.2.6.2.2.2.1 - Transfer Of Genesis Capital Allocation To Launch Agent 6 SubProxy [Core]  <!-- UUID: 4fd99f26-90a3-4385-a3ea-7949f5d56b3f -->
+
+The transfer of 10,000,000 USDS from the Surplus Buffer to the Launch Agent 6 SubProxy for the Genesis Capital Allocation will be included in a future Executive Vote. This action is contingent on mutual agreement by Sky and Launch Agent 6 on a future iteration of this agreement specifying the terms and conditions of the Genesis Capital Allocation.
+
 ### A.2.9.0.3.1 - Business Activities - Element Annotation [Annotation]  <!-- UUID: 31df7e2b-184f-428c-9c4f-23fd8054c5d3 -->
 
 The element "business activities" refers to the commercial activities, transactions, and interactions that Ecosystem Actors perform within the ecosystem. These may include, but are not limited to, service delivery, product development, collaboration, and information exchange.
