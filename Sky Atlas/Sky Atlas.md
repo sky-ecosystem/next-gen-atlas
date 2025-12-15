@@ -10263,11 +10263,11 @@ The address of the Core Council Buffer Multisig on the Ethereum Mainnet is `0x21
 
 ###### A.2.4.1.4.1.1.1.2 - Core Council Buffer Multisig Required Number Of Signers [Core]  <!-- UUID: 7f9cc28d-75af-4fe0-b090-8c85cda9656a -->
 
-The Core Council Buffer Multisig has a 4/6 signing requirement.
+The Core Council Buffer Multisig has a 5/6 signing requirement.
 
 ###### A.2.4.1.4.1.1.1.3 - Core Council Buffer Multisig Signers [Core]  <!-- UUID: 5aeba17d-3869-447d-adcd-8c55f41afc01 -->
 
-The signers of the Core Council Buffer Multisig are two (2) addresses controlled by the Core Facilitator, two (2) addresses controlled by Core GovOps, one (1) address controlled by Operational GovOps Amatsu, and one (1) address controlled by Operational GovOps Soter Labs.
+The signers of the Core Council Buffer Multisig are two (2) addresses controlled by the Core Facilitator, three (3) addresses controlled by Core GovOps, and one (1) address controlled by Operational GovOps Soter Labs.
 
 ###### A.2.4.1.4.1.1.1.4 - Core Council Buffer Multisig Usage Standards [Core]  <!-- UUID: dc6474f6-d285-4e1e-9902-406def4b72be -->
 
@@ -10278,10 +10278,8 @@ The signers must use the Core Council Buffer Multisig to disburse funds on behal
 The signers can change the signers of the Core Council Buffer Multisig so long as:
 
 - there are exactly six (6) signers;
-
-- a majority of signers are required to execute transactions; and
-
-- two (2) signers are controlled by the Core Facilitator, two (2) signers are controlled by Core GovOps, one (1) signer is controlled by Operational GovOps Amatsu, and one (1) signer is controlled by Operational GovOps Soter Labs.
+- exactly five (5) signers are required to execute transactions; and
+- two (2) signers are controlled by the Core Facilitator, three (3) signers are controlled by Core GovOps, and one (1) signer is controlled by Operational GovOps Soter Labs.
 
 ###### A.2.4.1.4.1.1.1.6 - Consolidation Of Funds Into Core Council Buffer [Core]  <!-- UUID: 8c8778c4-ff4c-4add-ae03-5f32a052f433 -->
 
