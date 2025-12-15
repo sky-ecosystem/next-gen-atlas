@@ -13133,7 +13133,7 @@ The CRR for Kamino is:
 
 The maximum exposure a Prime Agent may have to Kamino may not exceed 25,000,000 USDS.
 
-###### A.3.2.2.1.1.1.1.3.5 - Drift [Core]  <!-- UUID: 05036471-be13-42e6-b278-7ae128de708b -->
+###### A.3.2.2.1.1.1.1.3.6 - Drift [Core]  <!-- UUID: 05036471-be13-42e6-b278-7ae128de708b -->
 
 The CRR for Drift is:
 
@@ -13150,6 +13150,17 @@ The CRR for Drift is:
 - 1.52% for USDC on JLP market
 
 The maximum exposure a Prime Agent may have to Drift may not exceed 25,000,000 USDS.
+
+###### A.3.2.2.1.1.1.1.3.7 - Anchorage [Core]  <!-- UUID: 3f49b256-b18d-4a2a-b5a9-f55318455a3c -->
+
+Offchain lending through Anchorage Digital has a CRR of 3.5%. The maximum exposure is 200,000,000 USD. The terms of this offchain lending must conform to the following specifications:
+
+- Collateral Asset: Native BTC
+- Initial LTV: 80% (125% collateralization ratio)
+- Margin Call LTV: 85% (117.6% collateralization ratio)
+- Margin Call Period: 24 hours
+- Liquidation LTV: 90% (111.1% collateralization ratio)
+- Maturity Date: Approximately 6-month duration
 
 ###### A.3.2.2.1.1.1.1.4 - Reference Implementation [Core]  <!-- UUID: e96da090-34ff-4445-a1d3-22cc69be2e51 -->
 
