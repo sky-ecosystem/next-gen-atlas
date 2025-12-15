@@ -3000,75 +3000,76 @@ Once the Interim Deployment has been deployed and all requirements above have be
 
 Following the Interim Deployment, the Prime will work with the Core Council Risk Advisor to complete a full risk assessment. Once the means to calculate an official Capital Requirement Ratio for the deployment has been determined, the Prime can request that Core GovOps propose a subsequent Atlas Edit Proposal to lift the testing constraints and reduce the RRC to the Atlas-calculated value.
 
-###### A.1.9.2.3.2.2.3 - Execution Of Prime Spells [Core]  <!-- UUID: 5b0fd894-094e-4b0c-91ca-c5b59b710c0c -->
+###### A.1.9.2.3.2.3 - Execution Of Agent Spells [Core]  <!-- UUID: 5b0fd894-094e-4b0c-91ca-c5b59b710c0c -->
 
-The execution of Prime Spells is described in the subdocuments herein. Two methods are available: direct execution in a Sky Core Spell and execution through StarGuard. Execution through StarGuard is the preferred method and any exceptions require valid reasoning.
+The execution of Agent Spells is described in the subdocuments herein. Two methods are available: direct execution in a Sky Core Spell and execution through StarGuard. Execution through StarGuard is the preferred method and any exceptions require valid reasoning.
 
-###### A.1.9.2.3.2.2.3.1 - Execution Through StarGuard [Core]  <!-- UUID: 78ec918d-cd9e-4326-bfa9-ab338e658a8b -->
+###### A.1.9.2.3.2.3.1 - Execution Through StarGuard [Core]  <!-- UUID: 78ec918d-cd9e-4326-bfa9-ab338e658a8b -->
 
-When the execution through the StarGuard method is used, the Prime Spells are whitelisted in Sky Core Spells and later executed using the StarGuard module. The Sky Core Spell includes a whitelist of approved Prime Spells, which allows them to be executed via separate transactions. This enhances resilience and scalability, ensuring robust handling of payloads from multiple active Agents while minimizing risks to Sky Core.
+When the execution through the StarGuard method is used, the Agent Spells are whitelisted in Sky Core Spells and later executed using the StarGuard module. The Sky Core Spell includes a whitelist of approved Agent Spells, which allows them to be executed via separate transactions. This enhances resilience and scalability, ensuring robust handling of payloads from multiple active Agents while minimizing risks to Sky Core.
 
-###### A.1.9.2.3.2.2.3.1.1 - StarGuard [Core]  <!-- UUID: e5cbb61a-82c3-4fce-b6f2-191911d5c155 -->
+###### A.1.9.2.3.2.3.1.1 - StarGuard [Core]  <!-- UUID: e5cbb61a-82c3-4fce-b6f2-191911d5c155 -->
 
-For each Agent, a `StarGuard` contract is deployed to manage whitelisting and execution of Prime Spells. This contract acts as a standardized "proxy wrapper".
+For each Agent, a `StarGuard` contract is deployed to manage whitelisting and execution of Agent Spells. This contract acts as a standardized "proxy wrapper".
 
-###### A.1.9.2.3.2.2.3.1.1.1 - StarGuard Functionality [Core]  <!-- UUID: 04712596-beda-452e-a667-44e6fe707abd -->
+###### A.1.9.2.3.2.3.1.1.1 - StarGuard Deployment [Core]  <!-- UUID: 3123f615-d7a0-41a9-9285-e698cae6ee9a -->
 
-When initiated in a Sky Core Spell, the StarGuard whitelists relevant Prime Spells, enabling their secure execution. This whitelisting allows Prime Spells to run independently, supporting arbitrary complexity and custom features like office hours or expiration times. StarGuard also supports dropping a whitelisted Prime Spell, providing a mechanism to revoke access if needed for security or error correction. This is done via the `drop()` function.
+For each new SubProxy, the StarGuard contract should be deployed and initialized in the same Spell and added to the keeper job, StarGuardJob.
 
-###### A.1.9.2.3.2.2.3.1.1.1.1 - StarGuard Ownership [Core]  <!-- UUID: e6ec35bc-28af-4e06-bc92-c8706add6017 -->
+###### A.1.9.2.3.2.3.1.1.2 - StarGuard Functionality [Core]  <!-- UUID: 04712596-beda-452e-a667-44e6fe707abd -->
+
+When initiated in a Sky Core Spell, the StarGuard whitelists relevant Agent Spells, enabling their secure execution. This whitelisting allows Agent Spells to run independently, supporting arbitrary complexity and custom features like office hours or expiration times. StarGuard also supports dropping a whitelisted Agent Spell, providing a mechanism to revoke access if needed for security or error correction. This is done via the `drop()` function.
+
+###### A.1.9.2.3.2.3.1.1.2.1 - StarGuard Ownership [Core]  <!-- UUID: e6ec35bc-28af-4e06-bc92-c8706add6017 -->
 
 The StarGuard contract is owned by the Pause Proxy, ensuring centralized control and preventing unauthorized changes.
 
-###### A.1.9.2.3.2.2.3.1.1.1.2 - Responsibilities For Agents [Core]  <!-- UUID: 3deb3282-434c-4d56-b5e3-3a4daad3cd1d -->
+###### A.1.9.2.3.2.3.1.1.2.2 - Responsibilities For Agents [Core]  <!-- UUID: 3deb3282-434c-4d56-b5e3-3a4daad3cd1d -->
 
-The Agents are required to include logic for the public view method `isExecutable()` in their Spell. This function is used to signal if the Spell is ready to be executed in a particular block or not. StarGuard cannot execute a Prime Spell if `isExecutable()` returns `False`. The value that must be returned for execution to be possible is `True`.
+The Agents are required to include logic for the public view method `isExecutable()` in their Spell. This function is used to signal if the Spell is ready to be executed in a particular block or not. StarGuard cannot execute an Agent Spell if `isExecutable()` returns `False`. The value that must be returned for execution to be possible is `True`.
 
-###### A.1.9.2.3.2.2.3.1.1.1.3 - StarGuard Whitelisting Authority [Core]  <!-- UUID: f23f9ea7-64e1-4083-93b8-2864b232f451 -->
+###### A.1.9.2.3.2.3.1.1.2.3 - StarGuard Whitelisting Authority [Core]  <!-- UUID: f23f9ea7-64e1-4083-93b8-2864b232f451 -->
 
-Only the owner, the Pause Proxy, is able to whitelist new Prime Spells via a Sky Core Spell.
+Only the owner, the Pause Proxy, is able to whitelist new Agent Spells via a Sky Core Spell.
 
-###### A.1.9.2.3.2.2.3.1.1.1.4 - StarGuard Max Delay [Core]  <!-- UUID: ccb1f61a-660b-4a8a-976f-53915dd21b03 -->
+###### A.1.9.2.3.2.3.1.1.2.4 - StarGuard Max Delay [Core]  <!-- UUID: ccb1f61a-660b-4a8a-976f-53915dd21b03 -->
 
-A configurable `maxDelay` sets the maximum duration between the whitelisting of the Prime Spell in the Sky Core Spell and the execution of the Prime Spell. This feature ensures Spells do not linger indefinitely, enforcing timely processing and reducing risks from delayed or forgotten actions. The recommended value for `maxDelay` is seven (7) days.
+A configurable `maxDelay` sets the maximum duration between the whitelisting of the Agent Spell in the Sky Core Spell and the execution of the Agent Spell. This feature ensures Spells do not linger indefinitely, enforcing timely processing and reducing risks from delayed or forgotten actions. The recommended value for `maxDelay` is seven (7) days.
 
-###### A.1.9.2.3.2.2.3.1.1.1.5 - Requirements For Whitelisting [Core]  <!-- UUID: a03c9e5a-4fe4-46a2-8ec6-f8900ed90f47 -->
+###### A.1.9.2.3.2.3.1.1.2.5 - Requirements For Whitelisting [Core]  <!-- UUID: a03c9e5a-4fe4-46a2-8ec6-f8900ed90f47 -->
 
 The requirements for whitelisting are:
 
-- The address of the Prime Spell.
+- The address of the Agent Spell.
 - The codehash of the Spell's bytecode.
 - Confirmation that direct execution is not needed. If direct execution is needed, a valid reason must be provided.
 
-This information must be provided by the Prime Spell reviewers to the Governance Point.
+This information must be provided by the Agent Spell reviewers to the Governance Point.
 
-###### A.1.9.2.3.2.2.3.1.1.1.6 - Permissionless Execution [Core]  <!-- UUID: 50f71e34-6705-4ccb-a911-3797b05f422f -->
+###### A.1.9.2.3.2.3.1.1.2.6 - Permissionless Execution [Core]  <!-- UUID: 50f71e34-6705-4ccb-a911-3797b05f422f -->
 
-The triggering of an Prime Spell is permissionless; anyone can initiate execution. A keeper job, StarGuardJob, allows keepers to monitor and execute eligible Spells at the earliest possible block.
+The triggering of an Agent Spell is permissionless; anyone can initiate execution. A keeper job, StarGuardJob, allows keepers to monitor and execute eligible Spells at the earliest possible block.
 
-###### A.1.9.2.3.2.2.3.1.1.1.7 - Function Call For Execution [Core]  <!-- UUID: 8113159f-dcf6-4c44-afb0-aed09b1e5cf7 -->
+###### A.1.9.2.3.2.3.1.1.2.7 - Function Call For Execution [Core]  <!-- UUID: 8113159f-dcf6-4c44-afb0-aed09b1e5cf7 -->
 
 Execution is initiated on the StarGuard contract via its `exec()` function, which performs necessary validation checks before calling the SubProxy’s `exec(spellDataCopy.addr, abi.encodePacked(StarSpellLike.execute.selector))` to perform the Spell's actions.
 
-###### A.1.9.2.3.2.2.3.1.1.1.7.1 - Validation Checks By StarGuard [Core]  <!-- UUID: e15ea323-038d-4935-a39e-295c152251da -->
+###### A.1.9.2.3.2.3.1.1.2.7.1 - Validation Checks By StarGuard [Core]  <!-- UUID: e15ea323-038d-4935-a39e-295c152251da -->
 
 The following checks are enabled by the contract:
 
 - Verifies that the whitelisted Spell is executable only once, enforcing single-use to prevent replay attacks or unauthorized repeats.
-
 - Verifies that the whitelisted bytecode codehash is valid, protecting against tampering or malicious alterations.
-
 - Verifies that the Spell meets custom requirements (e.g., office hours) by confirming the `spell.isExecutable()` view function returns true.
+- Verifies that StarGuard retains access to the SubProxy, ensuring no loss of control during the Agent Spell execution.
 
-- Verifies that StarGuard retains access to the SubProxy, ensuring no loss of control during the Prime spell execution.
+###### A.1.9.2.3.2.3.2 - Direct Execution Through Sky Core Spell [Core]  <!-- UUID: ffc88a5e-b7b2-4ed9-8c88-fcbcb7632f14 -->
 
-###### A.1.9.2.3.2.2.3.2 - Direct Execution Through Sky Core Spell [Core]  <!-- UUID: ffc88a5e-b7b2-4ed9-8c88-fcbcb7632f14 -->
+When the execution through the Sky Core Spell method is used, the Agent Spells are executed directly in the Sky Core Spells.
 
-When the execution through the Sky Core Spell method is used, the Prime Spells are executed directly in the Sky Core Spells.
+###### A.1.9.2.3.2.3.2.1 - Sky Core Spell Executes Agent Spell [Core]  <!-- UUID: a109ad0d-0743-4ae9-bcc1-df04a6e5da43 -->
 
-###### A.1.9.2.3.2.2.3.2.1 - Sky Core Spell Executes Prime Spell [Core]  <!-- UUID: a109ad0d-0743-4ae9-bcc1-df04a6e5da43 -->
-
-Execution of a Prime Spell is initiated by the Sky Core Spell, which directly calls `exec()` on the Prime's SubProxy contract to perform the Spell's actions in the same transaction. The SubProxy limits rights to the specific Agent, preventing access to Sky Core contracts. The current SubProxy contract is designed to execute the Prime Spell in the same transaction as the Sky Core Spell.
+Execution of an Agent Spell is initiated by the Sky Core Spell, which directly calls `exec()` on the Prime's SubProxy contract to perform the Spell's actions in the same transaction. The SubProxy limits rights to the specific Agent, preventing access to Sky Core contracts. The current SubProxy contract is designed to execute the Agent Spell in the same transaction as the Sky Core Spell.
 
 #### A.1.9.2.4 - Executive Process Breakdown [Core]  <!-- UUID: 98298ab3-8d08-4c4f-b47b-81242a3e3903 -->
 
