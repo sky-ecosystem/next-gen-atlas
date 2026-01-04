@@ -11476,7 +11476,7 @@ Core Council Executor Agent 1 may capitalize the Core Council Buffer from its Ge
 
 Expenses paid through the Core Council Buffer shall be recorded as operational expenses of Core Council Executor Agent 1, whether funded by the Genesis Capital Allocation deposited directly to the Core Council Buffer or by subsequent transfers from the Core Council Executor Agent 1 SubProxy prior to the establishment of independent payment infrastructure.
 
-#### A.2.9.2.6 - Ecosystem Accord 6: Sky and Launch Agent 6 [Core]  <!-- UUID: 45125ff8-5435-4cbf-9b20-9f55a1dbc883 -->
+#### A.2.9.2.6 - Ecosystem Accord 6: Sky And Launch Agent 6 [Core]  <!-- UUID: 45125ff8-5435-4cbf-9b20-9f55a1dbc883 -->
 
 The subdocuments herein record the terms of agreement between Sky and Launch Agent 6 as agreed in Ecosystem Accord 6.
 
@@ -11500,7 +11500,7 @@ The party 'Launch Agent 6' comprises the Launch Agent 6 Prime Agent, Launch Agen
 
 The duration of Ecosystem Accord 6 is indefinite, commencing from December 18, 2025.
 
-##### A.2.9.2.6.2 - Accord Sustantive Terms [Core]  <!-- UUID: 8a42e953-8932-41c4-acdc-4bc5b9274e3d -->
+##### A.2.9.2.6.2 - Accord Substantive Terms [Core]  <!-- UUID: 8a42e953-8932-41c4-acdc-4bc5b9274e3d -->
 
 The subdocuments herein set out the substantive terms of Ecosystem Accord 6. Additional detail regarding the substantive terms of Ecosystem Accord 6 will be specified in a future iteration of the Atlas, as agreed by the Parties to the Accord.
 
@@ -11530,7 +11530,7 @@ The subdocuments herein set out agreed terms with respect to Genesis Capital All
 
 ###### A.2.9.2.6.2.2.1 - Launch Agent 6 Initial Allocation [Core]  <!-- UUID: 94b2eef8-f5fd-4df1-8638-e1b81d032c47 -->
 
-The initial allocation for Launch Agent 6 is 10,000,000 USDS.
+The Initial Allocation for Launch Agent 6 is 10,000,000 USDS.
 
 ###### A.2.9.2.6.2.2.2 - Initial Allocation Distribution [Core]  <!-- UUID: 20eeeaf4-38bc-4440-be1c-a1ee67ee3491 -->
 
