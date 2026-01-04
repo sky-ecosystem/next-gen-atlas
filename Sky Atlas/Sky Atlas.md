@@ -18836,6 +18836,10 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Spark Savings v2 spPYUSD Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.9.4](0b280652-ea99-4a53-8c9e-fb23b200d446).
 
+###### A.6.1.1.1.2.6.1.1.2.1.11.5 - Ethereum Mainnet - Arkis Instance Configuration Document Location [Core]  <!-- UUID: a25915c0-0fc4-48f7-845b-92f446dbbba3 -->
+
+This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Arkis Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.10.1](4bb58af1-fc25-442f-83a9-dd40989a7d37).
+
 ###### A.6.1.1.1.2.6.1.1.2.2 - Base [Core]  <!-- UUID: 305a6351-bb16-4e4d-8912-7ef1c3ff26bb -->
 
 The documents herein contain a Directory of all Instances on Base of the Allocation System Primitive with Instance status of `Active`.
@@ -23272,6 +23276,97 @@ The take rate limits are:
 The transferAssets rate limits are:
 
 - `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.1.10 - Arkis [Core]  <!-- UUID: 61ad54f3-9faa-4a9a-9cee-e685fb8fc4cf -->
+
+The Ethereum Mainnet Instances of the Arkis Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1 - Ethereum Mainnet - Arkis Instance Configuration Document [Core]  <!-- UUID: 4bb58af1-fc25-442f-83a9-dd40989a7d37 -->
+
+The documents herein contain the Instance Configuration Document for the Arkis Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 4ec36447-71fa-4a0f-865a-1353740b663d -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2 - Parameters [Core]  <!-- UUID: e1921ad5-ff6f-4ffe-9e69-1d1796567296 -->
+
+The documents herein define the parameters of the Arkis Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 4aafd731-9770-4f4c-925a-7f54fcca8327 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.1 - Network [Core]  <!-- UUID: cc527da6-8dce-4165-a1ea-22075da1b3e2 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 092f9755-377e-4d34-9abc-7b7293cf5f64 -->
+
+Arkis
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 521360e7-dccc-4066-a69c-ea2a2c6a2306 -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.4 - Token [Core]  <!-- UUID: d148fb40-413f-4ef7-a852-e26f613c8cd0 -->
+
+spUSDC
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.2 - Contract Addresses [Core]  <!-- UUID: 39ee8922-db8a-47d7-a4ac-f183e1314975 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.2.1 - Token Address [Core]  <!-- UUID: befde66f-e9f7-4f70-b107-ded60431052f -->
+
+`0x377C3bd93f2a2984E1E7bE6A5C22c525eD4A4815`
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: fa448799-af8f-494d-9db8-5361ea02b576 -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.2.3 - Pool Address [Core]  <!-- UUID: 8efbce12-9417-4ab7-9e55-6194ee592bd4 -->
+
+The pool address will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 541b2c98-6c5d-4e8d-9aef-30d3b15bd6bc -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4 - Rate Limits [Core]  <!-- UUID: fde9903c-91a1-40f8-bc4a-a6511bb346aa -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: ce2b927e-3338-4101-a538-ca1a02ae917c -->
+
+The inflow rate limits are:
+- `maxAmount`: 5,000,000 USDC
+- `slope`: 5,000,000 USDC per day
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 61f4c11f-73d0-49f2-ba54-abf214c60881 -->
+
+The outflow rate limits are:
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 389d1003-434b-4acb-a0db-7a587a5ee006 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.5.1 - Interim Deployment [Core]  <!-- UUID: e3cf4dc4-c24b-4ecd-a4f9-b8709cf55fb5 -->
+
+This Instance is currently defined as an Interim Deployment (see [A.1.9.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.5.1.1 - Maximum Exposure [Core]  <!-- UUID: baf1fbad-0ef7-424e-832f-bd0c47377144 -->
+
+The Maximum Exposure for all Interim Deployments in Arkis is $20 million.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.5.1.2 - Instance Capital Requirement Ratio [Core]  <!-- UUID: c9cc845b-9971-4ee5-a5ec-e3d2771d85e2 -->
+
+The Instance Capital Requirement Ratio for all Interim Deployments in Arkis is 100%.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 0a1caa15-48bb-4047-bf18-76f65ba20410 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
 ###### A.6.1.1.1.2.6.1.3.2 - Base [Core]  <!-- UUID: 9ddbfaed-ebb8-4dd4-9f08-d12cad450a00 -->
 
