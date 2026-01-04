@@ -33943,11 +33943,15 @@ The address of the instance’s PDA, configured for Keel is `EeWDutgcKNTdQGJkGRr
 
 The ALM_CONTROLLER contract version is: `1.0.0`
 
-###### A.6.1.1.3.2.6.1.2.1.1.1.2.2.5 - ALM Freezer Multisig Address [Core]  <!-- UUID: d321eb55-3592-400a-970d-3ed194c57988 -->
+###### A.6.1.1.3.2.6.1.2.1.1.1.2.2.5 - Solana ALM Controller’s USDC TokenAccount Address [Core]  <!-- UUID: 812bd84c-3826-4cda-9897-a6a50050494f -->
+
+The Instance’s USDC TokenAccount Address is `4UA2CC9fQDTbX1SnJcanYn2QU5PtyB1MGfezDvGFPVwd`.
+
+###### A.6.1.1.3.2.6.1.2.1.1.1.2.2.6 - ALM Freezer Multisig Address [Core]  <!-- UUID: d321eb55-3592-400a-970d-3ed194c57988 -->
 
 The address of the Multisig that has the Freezer Role is specified in [A.6.1.1.3.2.6.1.2.1.2.3.4 - Freezer Multisig](aeee4280-ab46-4269-9430-fef8c2ee6d43).
 
-###### A.6.1.1.3.2.6.1.2.1.1.1.2.2.6 - ALM Relayer Multisig Addresses [Core]  <!-- UUID: 21ec6877-82e9-4897-ac67-f23de2917a4b -->
+###### A.6.1.1.3.2.6.1.2.1.1.1.2.2.7 - ALM Relayer Multisig Addresses [Core]  <!-- UUID: 21ec6877-82e9-4897-ac67-f23de2917a4b -->
 
 The addresses of the Multisigs that have the Relayer Role are specified in [A.6.1.1.3.2.6.1.2.1.2.3.1 - Prime Primary Relayer Address](600dfd83-d3a1-4b26-a906-c412673855b9), [A.6.1.1.3.2.6.1.2.1.2.3.2 - Prime Secondary Relayer Address](3b538bc7-3d18-4091-908d-dc0c3a6e8a62) and [A.6.1.1.3.2.6.1.2.1.2.3.3 - Core Operator Relayer Multisig](ced26169-892b-4ec4-9a16-8fb90e94a9ef).
 
