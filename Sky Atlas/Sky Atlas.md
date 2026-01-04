@@ -16693,7 +16693,7 @@ The stUSDS BEAM parameters for the `str` stUSDS parameter are as follows:
     
 ◦ `max` - 5,000 basis points,    
 ◦ `min` - 200 basis points,    
-◦ `step` - 500 basis points.
+◦ `step` - 1,500 basis points.
 
 ###### A.4.4.1.3.8.2.2 - Duty Parameters [Core]  <!-- UUID: 94da2be4-e21c-4de7-8c0c-21e17718d32b -->
 
@@ -16701,7 +16701,7 @@ The stUSDS BEAM parameters for the `duty` stUSDS parameter are as follows:
     
 ◦ `max` - 5,000 basis points,
 ◦ `min` - 210 basis points,    
-◦ `step` - 500 basis points.
+◦ `step` - 1,500 basis points.
 
 ###### A.4.4.1.3.8.3 - Parameter Adjustments [Core]  <!-- UUID: 91152a4b-6f97-4b8a-831a-0f85c16a78ab -->
 
