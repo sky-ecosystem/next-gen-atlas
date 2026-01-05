@@ -11378,7 +11378,7 @@ Funds from the Pre-Pioneer Incentive Pool wallet may be used to incentivize part
 
 ###### A.2.9.2.3.2.3 - Keel Senior Risk Capital [Core]  <!-- UUID: 1b884ddd-1230-47bb-9b9c-b375bee07b8c -->
 
-In the short term before the implementation of the Senior Risk Capital system, Sky will provide Keel with 7.5 million USDS of Senior Risk Capital. See [A.3.2.2.4.5 - Short Term Transitionary Measures](d33ac81e-bab1-4969-b46d-e605da2afae3). This Senior Risk Capital will not be transferred by Sky to Keel's SubProxy Account; instead, it will be credited to Keel's Total Risk Capital. See [A.3.2.1.2 - Total Risk Capital](be7589f5-32c0-42d2-8d10-38bceb1de28b).
+In the short term before the implementation of the Senior Risk Capital system, Sky will provide Keel with 7.5 million USDS of Senior Risk Capital. See [A.3.2.2.4.5 - Short Term Transitionary Measures](d33ac81e-bab1-4969-b46d-e605da2afae3). This Senior Risk Capital will not be transferred by Sky to Keel's SubProxy Account; instead, it will be credited towards Keel's Total Risk Capital. See [A.3.2.1.2 - Total Risk Capital](be7589f5-32c0-42d2-8d10-38bceb1de28b).
 
 #### A.2.9.2.4 - Ecosystem Accord 4: Sky And Obex [Core]  <!-- UUID: 6bddc5aa-ac80-43d8-b8c8-8cde14e896df -->
 
