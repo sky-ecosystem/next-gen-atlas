@@ -22519,6 +22519,95 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
+###### A.6.1.1.1.2.6.1.3.1.7.5 - Ethereum Mainnet - Curve weETH/WETH-ng for Swaps Instance Configuration Document [Core]  <!-- UUID: cfc335a4-efcf-4f53-9609-1c9784cbb784 -->
+
+The documents herein contain the Instance Configuration Document for the Curve weETH/WETH-ng for Swaps Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 1020417c-dc56-4808-b867-178ca4ca8681 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2 - Parameters [Core]  <!-- UUID: a1dc6fa3-bec8-41ca-bb5a-e60275c03dcf -->
+
+The documents herein define the parameters of the Curve weETH/WETH-ng for Swaps Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.1 - Instance Identifiers [Core]  <!-- UUID: b7f9fa20-dddb-4733-b0e1-9029e79a8aba -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.1.1 - Network [Core]  <!-- UUID: 853b65c3-4b43-436d-9350-cf7ffbed559e -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.1.2 - Target Protocol [Core]  <!-- UUID: 2b599f55-2177-4aad-b9be-a2cda8608900 -->
+
+Curve
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: c7a2911c-faf7-40f4-9a90-c43e75bc2396 -->
+
+N/A - swap only
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.1.4 - Token [Core]  <!-- UUID: 25de66b2-d391-44ab-b88c-9e558679640c -->
+
+crv2pool
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.2 - Contract Addresses [Core]  <!-- UUID: dfbfa2ba-6fd5-4e56-9366-992e64d86ac1 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.2.1 - Token Address [Core]  <!-- UUID: aee3fc62-2c9a-4283-b447-149dc5f4a741 -->
+
+`0xDB74dfDD3BB46bE8Ce6C33dC9D82777BCFc3dEd5`
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: c740d6f1-cda5-46d5-b7a7-6d2358c3770f -->
+
+`0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee`
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.2.3 - Underlying Asset Address [Core]  <!-- UUID: ad094f82-5619-4558-abd1-e793131e9ec0 -->
+
+`0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2`
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.2.3 - Pool Address [Core]  <!-- UUID: 96a50ef4-938b-475e-8244-40d376e95e6e -->
+
+`0xDB74dfDD3BB46bE8Ce6C33dC9D82777BCFc3dEd5`
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7fabde01-b8a5-4226-85d4-b25f55d93b12 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.4 - Rate Limits [Core]  <!-- UUID: dac0cadf-a966-40d3-b739-09a0baceea30 -->
+
+The current `maxAmount`, `slope` and slippage for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 8734b53f-0220-43df-acdc-3c8cb25f323a -->
+
+The inflow rate limits are:
+
+- maxAmount: N/A - swap only
+- slope: N/A - swap only
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 8280f97f-d69c-4fc3-a9d4-42407159a5ea -->
+
+The outflow rate limits are:
+
+- maxAmount: N/A - swap only
+- slope: N/A - swap only
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: b24f80d1-80cc-46c0-895c-d9bdc49e2e8b -->
+
+The swap rate limits are:
+- `maxAmount`: 100
+- `slope`: 1,000 per day
+- Max slippage: 0.25%
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: a8106b30-ef8c-4ce5-a25a-80755ab624d0 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.7.5.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 28a4bce9-e6d9-4840-8b0b-ed7d9f454dd1 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+
 ###### A.6.1.1.1.2.6.1.3.1.8 - Morpho [Core]  <!-- UUID: 8efd627c-7439-4ea9-aabc-ecdffb5cb2ec -->
 
 The Ethereum Mainnet Instances of the Morpho Protocol with `Active` Status are stored herein.
