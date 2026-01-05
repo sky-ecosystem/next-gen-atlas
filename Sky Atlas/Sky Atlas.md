@@ -25311,23 +25311,23 @@ The current tBTC risk parameters are:
 
 - Liquidation Bonus: 8%
 
-- Reserve Factor: 20%
+- Reserve Factor: 99%
 
 - Supply Cap: Set by cap automator
 
 - Borrow Cap: Set by cap automator
 
-- Optimal Utilization: 80%
+- Optimal Utilization: 50%
 
 - Isolated Debt Ceiling: N/A
 
-- Base Rate: 0%
+- Base Rate: 1%
 
 - Slope 1: 1%
 
 - Slope 2: 300%
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 - Collateral: Yes
 
