@@ -22719,6 +22719,18 @@ The documents herein define the Instance contract addresses.
 
 `0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178`
 
+###### A.6.1.1.1.2.6.1.3.1.8.3.2.2.4 - Curator Role Address [Core]  <!-- UUID: ac41be8b-f6c9-4df2-9fac-c543c77e0166 -->
+
+TBD
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.2.2.5 - Guardian Role Address [Core]  <!-- UUID: b7d0b9a8-4dba-4fba-8aab-b5afd645a6d0 -->
+
+TBD
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.2.2.6 - Curator Role and Guardian Role Timelock [Core]  <!-- UUID: d2692d99-d52c-4586-8dbe-b23d8f835f29 -->
+
+Timelock: 240 hours (10 days)
+
 ###### A.6.1.1.1.2.6.1.3.1.8.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 5b0ead44-7dce-4af5-b750-422c8f97c4ce -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
