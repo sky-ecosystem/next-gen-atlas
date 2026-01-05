@@ -22843,7 +22843,7 @@ The subdocuments herein define the current configuration of the risk parameters.
 
 The Risk parameters are:
 
-- Supply cap: 100,000 WETH
+- Supply cap: 250,000 WETH
 - Max yield: 5%
 - Current yield (at launch): 0%
 
