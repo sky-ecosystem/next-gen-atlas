@@ -23392,6 +23392,22 @@ The documents herein contains exposure details for this Instance
 - Pool ID: 0x1c21c59df9db44bf6f645d854ee710a8ca17b479451447e9f56758aee10a2fad
 - Supply cap: 50,000,000
 
+###### A.6.1.1.1.2.6.1.3.2.1.1.4.2 - Contract Addresses [Core]  <!-- UUID: 38936f4a-42da-4d27-a7ef-65ae9b104a7a -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.1 - Curator Role Address [Core]  <!-- UUID: 921d59d4-baaf-45a8-b6ff-93aa879e0e41 -->
+
+TBD
+
+###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.2 - Guardian Role Address [Core]  <!-- UUID: edee318a-59b1-4ff1-9790-8d4606f2f7bd -->
+
+TBD
+
+###### A.6.1.1.1.2.6.1.3.2.1.1.4.3 - Timelock [Core]  <!-- UUID: 63f24280-1724-4d2c-a0b8-aa8a2381afb8 -->
+
+Timelock: 240 hours (10 days)
+
 ###### A.6.1.1.1.2.6.1.3.2.2 - Fluid [Core]  <!-- UUID: 6be8271c-9f42-4eef-a05e-96e73e5d18b4 -->
 
 The Base Instances of the Fluid Protocol with `Active` Status are stored herein.
