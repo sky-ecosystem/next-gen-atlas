@@ -28426,7 +28426,7 @@ The address of the ALM_CONTROLLER contract is: `0x7f8408eBbBC3504F83eeDa52910dd7
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.3.2 - ALM Controller Contract Version [Core]  <!-- UUID: 312c1860-7eec-4a60-9add-1b64204c2228 -->
 
-The ALM_CONTROLLER contract version is v.1.8.0.
+The ALM_CONTROLLER contract version is: 1.8.0.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.3.3 - ALM Freezer Multisig Address [Core]  <!-- UUID: 45278dad-c140-4671-9e33-59ba395d8d11 -->
 
