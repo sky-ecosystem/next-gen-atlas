@@ -3000,75 +3000,76 @@ Once the Interim Deployment has been deployed and all requirements above have be
 
 Following the Interim Deployment, the Prime will work with the Core Council Risk Advisor to complete a full risk assessment. Once the means to calculate an official Capital Requirement Ratio for the deployment has been determined, the Prime can request that Core GovOps propose a subsequent Atlas Edit Proposal to lift the testing constraints and reduce the RRC to the Atlas-calculated value.
 
-###### A.1.9.2.3.2.2.3 - Execution Of Prime Spells [Core]  <!-- UUID: 5b0fd894-094e-4b0c-91ca-c5b59b710c0c -->
+###### A.1.9.2.3.2.3 - Execution Of Agent Spells [Core]  <!-- UUID: 5b0fd894-094e-4b0c-91ca-c5b59b710c0c -->
 
-The execution of Prime Spells is described in the subdocuments herein. Two methods are available: direct execution in a Sky Core Spell and execution through StarGuard. Execution through StarGuard is the preferred method and any exceptions require valid reasoning.
+The execution of Agent Spells is described in the subdocuments herein. Two methods are available: direct execution in a Sky Core Spell and execution through StarGuard. Execution through StarGuard is the preferred method and any exceptions require valid reasoning.
 
-###### A.1.9.2.3.2.2.3.1 - Execution Through StarGuard [Core]  <!-- UUID: 78ec918d-cd9e-4326-bfa9-ab338e658a8b -->
+###### A.1.9.2.3.2.3.1 - Execution Through StarGuard [Core]  <!-- UUID: 78ec918d-cd9e-4326-bfa9-ab338e658a8b -->
 
-When the execution through the StarGuard method is used, the Prime Spells are whitelisted in Sky Core Spells and later executed using the StarGuard module. The Sky Core Spell includes a whitelist of approved Prime Spells, which allows them to be executed via separate transactions. This enhances resilience and scalability, ensuring robust handling of payloads from multiple active Agents while minimizing risks to Sky Core.
+When the execution through the StarGuard method is used, the Agent Spells are whitelisted in Sky Core Spells and later executed using the StarGuard module. The Sky Core Spell includes a whitelist of approved Agent Spells, which allows them to be executed via separate transactions. This enhances resilience and scalability, ensuring robust handling of payloads from multiple active Agents while minimizing risks to Sky Core.
 
-###### A.1.9.2.3.2.2.3.1.1 - StarGuard [Core]  <!-- UUID: e5cbb61a-82c3-4fce-b6f2-191911d5c155 -->
+###### A.1.9.2.3.2.3.1.1 - StarGuard [Core]  <!-- UUID: e5cbb61a-82c3-4fce-b6f2-191911d5c155 -->
 
-For each Agent, a `StarGuard` contract is deployed to manage whitelisting and execution of Prime Spells. This contract acts as a standardized "proxy wrapper".
+For each Agent, a `StarGuard` contract is deployed to manage whitelisting and execution of Agent Spells. This contract acts as a standardized "proxy wrapper".
 
-###### A.1.9.2.3.2.2.3.1.1.1 - StarGuard Functionality [Core]  <!-- UUID: 04712596-beda-452e-a667-44e6fe707abd -->
+###### A.1.9.2.3.2.3.1.1.1 - StarGuard Deployment [Core]  <!-- UUID: 3123f615-d7a0-41a9-9285-e698cae6ee9a -->
 
-When initiated in a Sky Core Spell, the StarGuard whitelists relevant Prime Spells, enabling their secure execution. This whitelisting allows Prime Spells to run independently, supporting arbitrary complexity and custom features like office hours or expiration times. StarGuard also supports dropping a whitelisted Prime Spell, providing a mechanism to revoke access if needed for security or error correction. This is done via the `drop()` function.
+For each new SubProxy, the StarGuard contract should be deployed and initialized in the same Spell and added to the keeper job, StarGuardJob.
 
-###### A.1.9.2.3.2.2.3.1.1.1.1 - StarGuard Ownership [Core]  <!-- UUID: e6ec35bc-28af-4e06-bc92-c8706add6017 -->
+###### A.1.9.2.3.2.3.1.1.2 - StarGuard Functionality [Core]  <!-- UUID: 04712596-beda-452e-a667-44e6fe707abd -->
+
+When initiated in a Sky Core Spell, the StarGuard whitelists relevant Agent Spells, enabling their secure execution. This whitelisting allows Agent Spells to run independently, supporting arbitrary complexity and custom features like office hours or expiration times. StarGuard also supports dropping a whitelisted Agent Spell, providing a mechanism to revoke access if needed for security or error correction. This is done via the `drop()` function.
+
+###### A.1.9.2.3.2.3.1.1.2.1 - StarGuard Ownership [Core]  <!-- UUID: e6ec35bc-28af-4e06-bc92-c8706add6017 -->
 
 The StarGuard contract is owned by the Pause Proxy, ensuring centralized control and preventing unauthorized changes.
 
-###### A.1.9.2.3.2.2.3.1.1.1.2 - Responsibilities For Agents [Core]  <!-- UUID: 3deb3282-434c-4d56-b5e3-3a4daad3cd1d -->
+###### A.1.9.2.3.2.3.1.1.2.2 - Responsibilities For Agents [Core]  <!-- UUID: 3deb3282-434c-4d56-b5e3-3a4daad3cd1d -->
 
-The Agents are required to include logic for the public view method `isExecutable()` in their Spell. This function is used to signal if the Spell is ready to be executed in a particular block or not. StarGuard cannot execute a Prime Spell if `isExecutable()` returns `False`. The value that must be returned for execution to be possible is `True`.
+The Agents are required to include logic for the public view method `isExecutable()` in their Spell. This function is used to signal if the Spell is ready to be executed in a particular block or not. StarGuard cannot execute an Agent Spell if `isExecutable()` returns `False`. The value that must be returned for execution to be possible is `True`.
 
-###### A.1.9.2.3.2.2.3.1.1.1.3 - StarGuard Whitelisting Authority [Core]  <!-- UUID: f23f9ea7-64e1-4083-93b8-2864b232f451 -->
+###### A.1.9.2.3.2.3.1.1.2.3 - StarGuard Whitelisting Authority [Core]  <!-- UUID: f23f9ea7-64e1-4083-93b8-2864b232f451 -->
 
-Only the owner, the Pause Proxy, is able to whitelist new Prime Spells via a Sky Core Spell.
+Only the owner, the Pause Proxy, is able to whitelist new Agent Spells via a Sky Core Spell.
 
-###### A.1.9.2.3.2.2.3.1.1.1.4 - StarGuard Max Delay [Core]  <!-- UUID: ccb1f61a-660b-4a8a-976f-53915dd21b03 -->
+###### A.1.9.2.3.2.3.1.1.2.4 - StarGuard Max Delay [Core]  <!-- UUID: ccb1f61a-660b-4a8a-976f-53915dd21b03 -->
 
-A configurable `maxDelay` sets the maximum duration between the whitelisting of the Prime Spell in the Sky Core Spell and the execution of the Prime Spell. This feature ensures Spells do not linger indefinitely, enforcing timely processing and reducing risks from delayed or forgotten actions. The recommended value for `maxDelay` is seven (7) days.
+A configurable `maxDelay` sets the maximum duration between the whitelisting of the Agent Spell in the Sky Core Spell and the execution of the Agent Spell. This feature ensures Spells do not linger indefinitely, enforcing timely processing and reducing risks from delayed or forgotten actions. The recommended value for `maxDelay` is seven (7) days.
 
-###### A.1.9.2.3.2.2.3.1.1.1.5 - Requirements For Whitelisting [Core]  <!-- UUID: a03c9e5a-4fe4-46a2-8ec6-f8900ed90f47 -->
+###### A.1.9.2.3.2.3.1.1.2.5 - Requirements For Whitelisting [Core]  <!-- UUID: a03c9e5a-4fe4-46a2-8ec6-f8900ed90f47 -->
 
 The requirements for whitelisting are:
 
-- The address of the Prime Spell.
+- The address of the Agent Spell.
 - The codehash of the Spell's bytecode.
 - Confirmation that direct execution is not needed. If direct execution is needed, a valid reason must be provided.
 
-This information must be provided by the Prime Spell reviewers to the Governance Point.
+This information must be provided by the Agent Spell reviewers to the Governance Point.
 
-###### A.1.9.2.3.2.2.3.1.1.1.6 - Permissionless Execution [Core]  <!-- UUID: 50f71e34-6705-4ccb-a911-3797b05f422f -->
+###### A.1.9.2.3.2.3.1.1.2.6 - Permissionless Execution [Core]  <!-- UUID: 50f71e34-6705-4ccb-a911-3797b05f422f -->
 
-The triggering of an Prime Spell is permissionless; anyone can initiate execution. A keeper job, StarGuardJob, allows keepers to monitor and execute eligible Spells at the earliest possible block.
+The triggering of an Agent Spell is permissionless; anyone can initiate execution. A keeper job, StarGuardJob, allows keepers to monitor and execute eligible Spells at the earliest possible block.
 
-###### A.1.9.2.3.2.2.3.1.1.1.7 - Function Call For Execution [Core]  <!-- UUID: 8113159f-dcf6-4c44-afb0-aed09b1e5cf7 -->
+###### A.1.9.2.3.2.3.1.1.2.7 - Function Call For Execution [Core]  <!-- UUID: 8113159f-dcf6-4c44-afb0-aed09b1e5cf7 -->
 
 Execution is initiated on the StarGuard contract via its `exec()` function, which performs necessary validation checks before calling the SubProxy’s `exec(spellDataCopy.addr, abi.encodePacked(StarSpellLike.execute.selector))` to perform the Spell's actions.
 
-###### A.1.9.2.3.2.2.3.1.1.1.7.1 - Validation Checks By StarGuard [Core]  <!-- UUID: e15ea323-038d-4935-a39e-295c152251da -->
+###### A.1.9.2.3.2.3.1.1.2.7.1 - Validation Checks By StarGuard [Core]  <!-- UUID: e15ea323-038d-4935-a39e-295c152251da -->
 
 The following checks are enabled by the contract:
 
 - Verifies that the whitelisted Spell is executable only once, enforcing single-use to prevent replay attacks or unauthorized repeats.
-
 - Verifies that the whitelisted bytecode codehash is valid, protecting against tampering or malicious alterations.
-
 - Verifies that the Spell meets custom requirements (e.g., office hours) by confirming the `spell.isExecutable()` view function returns true.
+- Verifies that StarGuard retains access to the SubProxy, ensuring no loss of control during the Agent Spell execution.
 
-- Verifies that StarGuard retains access to the SubProxy, ensuring no loss of control during the Prime spell execution.
+###### A.1.9.2.3.2.3.2 - Direct Execution Through Sky Core Spell [Core]  <!-- UUID: ffc88a5e-b7b2-4ed9-8c88-fcbcb7632f14 -->
 
-###### A.1.9.2.3.2.2.3.2 - Direct Execution Through Sky Core Spell [Core]  <!-- UUID: ffc88a5e-b7b2-4ed9-8c88-fcbcb7632f14 -->
+When the execution through the Sky Core Spell method is used, the Agent Spells are executed directly in the Sky Core Spells.
 
-When the execution through the Sky Core Spell method is used, the Prime Spells are executed directly in the Sky Core Spells.
+###### A.1.9.2.3.2.3.2.1 - Sky Core Spell Executes Agent Spell [Core]  <!-- UUID: a109ad0d-0743-4ae9-bcc1-df04a6e5da43 -->
 
-###### A.1.9.2.3.2.2.3.2.1 - Sky Core Spell Executes Prime Spell [Core]  <!-- UUID: a109ad0d-0743-4ae9-bcc1-df04a6e5da43 -->
-
-Execution of a Prime Spell is initiated by the Sky Core Spell, which directly calls `exec()` on the Prime's SubProxy contract to perform the Spell's actions in the same transaction. The SubProxy limits rights to the specific Agent, preventing access to Sky Core contracts. The current SubProxy contract is designed to execute the Prime Spell in the same transaction as the Sky Core Spell.
+Execution of an Agent Spell is initiated by the Sky Core Spell, which directly calls `exec()` on the Prime's SubProxy contract to perform the Spell's actions in the same transaction. The SubProxy limits rights to the specific Agent, preventing access to Sky Core contracts. The current SubProxy contract is designed to execute the Agent Spell in the same transaction as the Sky Core Spell.
 
 #### A.1.9.2.4 - Executive Process Breakdown [Core]  <!-- UUID: 98298ab3-8d08-4c4f-b47b-81242a3e3903 -->
 
@@ -10263,11 +10264,11 @@ The address of the Core Council Buffer Multisig on the Ethereum Mainnet is `0x21
 
 ###### A.2.4.1.4.1.1.1.2 - Core Council Buffer Multisig Required Number Of Signers [Core]  <!-- UUID: 7f9cc28d-75af-4fe0-b090-8c85cda9656a -->
 
-The Core Council Buffer Multisig has a 4/6 signing requirement.
+The Core Council Buffer Multisig has a 5/6 signing requirement.
 
 ###### A.2.4.1.4.1.1.1.3 - Core Council Buffer Multisig Signers [Core]  <!-- UUID: 5aeba17d-3869-447d-adcd-8c55f41afc01 -->
 
-The signers of the Core Council Buffer Multisig are two (2) addresses controlled by the Core Facilitator, two (2) addresses controlled by Core GovOps, one (1) address controlled by Operational GovOps Amatsu, and one (1) address controlled by Operational GovOps Soter Labs.
+The signers of the Core Council Buffer Multisig are two (2) addresses controlled by the Core Facilitator, three (3) addresses controlled by Core GovOps, and one (1) address controlled by Operational GovOps Soter Labs.
 
 ###### A.2.4.1.4.1.1.1.4 - Core Council Buffer Multisig Usage Standards [Core]  <!-- UUID: dc6474f6-d285-4e1e-9902-406def4b72be -->
 
@@ -10278,10 +10279,8 @@ The signers must use the Core Council Buffer Multisig to disburse funds on behal
 The signers can change the signers of the Core Council Buffer Multisig so long as:
 
 - there are exactly six (6) signers;
-
-- a majority of signers are required to execute transactions; and
-
-- two (2) signers are controlled by the Core Facilitator, two (2) signers are controlled by Core GovOps, one (1) signer is controlled by Operational GovOps Amatsu, and one (1) signer is controlled by Operational GovOps Soter Labs.
+- exactly five (5) signers are required to execute transactions; and
+- two (2) signers are controlled by the Core Facilitator, three (3) signers are controlled by Core GovOps, and one (1) signer is controlled by Operational GovOps Soter Labs.
 
 ###### A.2.4.1.4.1.1.1.6 - Consolidation Of Funds Into Core Council Buffer [Core]  <!-- UUID: 8c8778c4-ff4c-4add-ae03-5f32a052f433 -->
 
@@ -11377,6 +11376,10 @@ Payments are made on a monthly basis from the Integration Boost wallets specifie
 
 Funds from the Pre-Pioneer Incentive Pool wallet may be used to incentivize partners on Solana to promote USDS adoption as directed by Keel. Funds from the Pre-Pioneer Incentive Pool may not be transferred to Keel’s SubProxy Account, Keel Foundation, or Matariki Labs.
 
+###### A.2.9.2.3.2.3 - Keel Senior Risk Capital [Core]  <!-- UUID: 1b884ddd-1230-47bb-9b9c-b375bee07b8c -->
+
+In the short term before the implementation of the Senior Risk Capital system, Sky will provide Keel with 7.5 million USDS of Senior Risk Capital. See [A.3.2.2.4.5 - Short Term Transitionary Measures](d33ac81e-bab1-4969-b46d-e605da2afae3). This Senior Risk Capital will not be transferred by Sky to Keel's SubProxy Account; instead, it will be credited towards Keel's Total Risk Capital. See [A.3.2.1.2 - Total Risk Capital](be7589f5-32c0-42d2-8d10-38bceb1de28b).
+
 #### A.2.9.2.4 - Ecosystem Accord 4: Sky And Obex [Core]  <!-- UUID: 6bddc5aa-ac80-43d8-b8c8-8cde14e896df -->
 
 The subdocuments herein record the terms of agreement between Sky and Obex as agreed in Ecosystem Accord 4.
@@ -11472,6 +11475,70 @@ The Core Council Executor Agents holding seats on the Core Council maintain oper
 Core Council Executor Agent 1 may capitalize the Core Council Buffer from its Genesis Capital allocation to ensure adequate liquidity for operational payments prior to its establishment of dedicated payment infrastructure.
 
 Expenses paid through the Core Council Buffer shall be recorded as operational expenses of Core Council Executor Agent 1, whether funded by the Genesis Capital Allocation deposited directly to the Core Council Buffer or by subsequent transfers from the Core Council Executor Agent 1 SubProxy prior to the establishment of independent payment infrastructure.
+
+#### A.2.9.2.6 - Ecosystem Accord 6: Sky And Launch Agent 6 [Core]  <!-- UUID: 45125ff8-5435-4cbf-9b20-9f55a1dbc883 -->
+
+The subdocuments herein record the terms of agreement between Sky and Launch Agent 6 as agreed in Ecosystem Accord 6.
+
+##### A.2.9.2.6.1 - Accord Key Details [Core]  <!-- UUID: 262776d7-3f8e-4884-b858-b1942334ebab -->
+
+The subdocuments herein set out the key details of Ecosystem Accord 6, such as parties to the agreement and the duration of the Accord.
+
+###### A.2.9.2.6.1.1 - Parties To The Accord [Core]  <!-- UUID: 0f44e3b9-5fd3-4f1c-8917-97000969d334 -->
+
+The parties to Ecosystem Accord 6 are Sky and Launch Agent 6, as defined in the subdocuments herein.
+
+###### A.2.9.2.6.1.1.1 - Sky Details [Core]  <!-- UUID: dd7f7030-6020-490b-a8a2-196537ed66cd -->
+
+The party 'Sky' comprises Sky Core.
+
+###### A.2.9.2.6.1.1.2 - Launch Agent 6 Details [Core]  <!-- UUID: d9b2da30-bdae-47a6-96ff-966f92ce2b7e -->
+
+The party 'Launch Agent 6' comprises the Launch Agent 6 Prime Agent, Launch Agent 6 Foundation, and Launch Agent 6 Development Company.
+
+###### A.2.9.2.6.1.2 - Duration Of The Accord [Core]  <!-- UUID: 0b2fcb50-7b46-431a-8ab8-9c95c6ce8fb0 -->
+
+The duration of Ecosystem Accord 6 is indefinite, commencing from December 18, 2025.
+
+##### A.2.9.2.6.2 - Accord Substantive Terms [Core]  <!-- UUID: 8a42e953-8932-41c4-acdc-4bc5b9274e3d -->
+
+The subdocuments herein set out the substantive terms of Ecosystem Accord 6. Additional detail regarding the substantive terms of Ecosystem Accord 6 will be specified in a future iteration of the Atlas, as agreed by the Parties to the Accord.
+
+###### A.2.9.2.6.2.1 - Tokenomics [Core]  <!-- UUID: 66a45926-a68c-41ff-9773-940c627aa03a -->
+
+The subdocuments herein set out agreed terms with respect to tokenomics.
+
+###### A.2.9.2.6.2.1.1 - Total Token Supply [Core]  <!-- UUID: b25e4af5-e97a-4457-83be-c253c7f4d039 -->
+
+The total token supply of AGENT6 shall be 1,000,000,000.
+
+###### A.2.9.2.6.2.1.2 - Token Allocations [Core]  <!-- UUID: 45a052e0-954d-49d9-a691-7adff194a839 -->
+
+Specific token allocations are defined in the subdocuments herein.
+
+###### A.2.9.2.6.2.1.2.1 - Launch Agent 6 Prime Treasury [Core]  <!-- UUID: 1ae8c439-cc0d-400f-90cd-4f5ef10356d6 -->
+
+777,777,778 AGENT6 tokens are allocated to the Launch Agent 6 Prime Treasury (Launch Agent 6’s SubProxy).
+
+###### A.2.9.2.6.2.1.2.2 - Sky Retained Tokens And Reward Pools [Core]  <!-- UUID: efb7339d-fb3d-4f5d-bdea-16ac8c291510 -->
+
+Sky retains 222,222,222 AGENT6 tokens, distributing these as specified in a future iteration of the Atlas.
+
+###### A.2.9.2.6.2.2 - Genesis Capital Allocation [Core]  <!-- UUID: f6ab77a4-8ba4-4f67-8c9f-8cc6a921ae53 -->
+
+The subdocuments herein set out agreed terms with respect to Genesis Capital Allocation.
+
+###### A.2.9.2.6.2.2.1 - Launch Agent 6 Initial Allocation [Core]  <!-- UUID: 94b2eef8-f5fd-4df1-8638-e1b81d032c47 -->
+
+The Initial Allocation for Launch Agent 6 is 10,000,000 USDS.
+
+###### A.2.9.2.6.2.2.2 - Initial Allocation Distribution [Core]  <!-- UUID: 20eeeaf4-38bc-4440-be1c-a1ee67ee3491 -->
+
+The Initial Allocation is distributed in USDS to the Launch Agent 6 SubProxy.
+
+###### A.2.9.2.6.2.2.2.1 - Transfer Of Genesis Capital Allocation To Launch Agent 6 SubProxy [Core]  <!-- UUID: 4fd99f26-90a3-4385-a3ea-7949f5d56b3f -->
+
+The transfer of 10,000,000 USDS from the Surplus Buffer to the Launch Agent 6 SubProxy for the Genesis Capital Allocation will be included in a future Executive Vote. This action is contingent on mutual agreement by Sky and Launch Agent 6 on a future iteration of this agreement specifying the terms and conditions of the Genesis Capital Allocation.
 
 ### A.2.9.0.3.1 - Business Activities - Element Annotation [Annotation]  <!-- UUID: 31df7e2b-184f-428c-9c4f-23fd8054c5d3 -->
 
@@ -13071,7 +13138,7 @@ The CRR for Kamino is:
 
 The maximum exposure a Prime Agent may have to Kamino may not exceed 25,000,000 USDS.
 
-###### A.3.2.2.1.1.1.1.3.5 - Drift [Core]  <!-- UUID: 05036471-be13-42e6-b278-7ae128de708b -->
+###### A.3.2.2.1.1.1.1.3.6 - Drift [Core]  <!-- UUID: 05036471-be13-42e6-b278-7ae128de708b -->
 
 The CRR for Drift is:
 
@@ -13088,6 +13155,17 @@ The CRR for Drift is:
 - 1.52% for USDC on JLP market
 
 The maximum exposure a Prime Agent may have to Drift may not exceed 25,000,000 USDS.
+
+###### A.3.2.2.1.1.1.1.3.7 - Anchorage [Core]  <!-- UUID: 3f49b256-b18d-4a2a-b5a9-f55318455a3c -->
+
+Offchain lending through Anchorage Digital has a CRR of 3.5%. The maximum exposure is 200,000,000 USD. The terms of this offchain lending must conform to the following specifications:
+
+- Collateral Asset: Native BTC
+- Initial LTV: 80% (125% collateralization ratio)
+- Margin Call LTV: 85% (117.6% collateralization ratio)
+- Margin Call Period: 24 hours
+- Liquidation LTV: 90% (111.1% collateralization ratio)
+- Maturity Date: Approximately 6-month duration
 
 ###### A.3.2.2.1.1.1.1.4 - Reference Implementation [Core]  <!-- UUID: e96da090-34ff-4445-a1d3-22cc69be2e51 -->
 
