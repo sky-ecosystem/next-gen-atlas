@@ -22681,11 +22681,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.1 - Curator Role Address [Core]  <!-- UUID: ca1eb012-2401-4e24-9e9e-a76f869e422d -->
 
-TBD
+`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.2 - Guardian Role Address [Core]  <!-- UUID: 86831263-5a01-4259-80e6-7829f062a1e6 -->
 
-TBD
+`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2.4.2 - Timelock [Core]  <!-- UUID: bf0333e1-219a-4dc2-89d9-0ac64907c3d2 -->
 
@@ -22777,11 +22777,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1 - Curator Role Address [Core]  <!-- UUID: ac41be8b-f6c9-4df2-9fac-c543c77e0166 -->
 
-TBD
+`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.2 - Guardian Role Address [Core]  <!-- UUID: b7d0b9a8-4dba-4fba-8aab-b5afd645a6d0 -->
 
-TBD
+`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.4.2 - Timelock [Core]  <!-- UUID: d2692d99-d52c-4586-8dbe-b23d8f835f29 -->
 
