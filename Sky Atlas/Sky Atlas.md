@@ -28430,13 +28430,13 @@ The address of the Grove executor on Base is: `0x491EDFB0B8b608044e227225C715981
 
 The address of the Grove receiver on Base is: `0x5F5cfCB8a463868E37Ab27B5eFF3ba02112dF19a`
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.1.2.3 - CCTP v1 Mainnet To Base [Core]  <!-- UUID: 5fa11eb9-4399-4ac0-a6c0-ef03a5875254 -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.2.3 - Circle CCTP v2 Mainnet To Base [Core]  <!-- UUID: 5fa11eb9-4399-4ac0-a6c0-ef03a5875254 -->
 
- The address of the CCTP v1 Mainnet to Base is: `0xBd3fa81B58Ba92a82136038B25aDec7066af3155`
+ The contract address of the Circle CCTP v2 Mainnet to Base is: `0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d`.
 
- ###### A.6.1.1.2.2.6.1.2.1.1.1.1.2.4 - CCTP v1 Base To Mainnet [Core]  <!-- UUID: 16efc874-6658-48f0-a1fb-2babd3a90706 -->
+ ###### A.6.1.1.2.2.6.1.2.1.1.1.1.2.4 - Circle CCTP v2 Base To Mainnet [Core]  <!-- UUID: 16efc874-6658-48f0-a1fb-2babd3a90706 -->
 
-The address of the CCTP v1 Base to Mainnet is: `0x1682Ae6375C4E4A97e4B583BC394c861A46D8962`
+The contract address of the Circle CCTP v2 Base to Mainnet is: `0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d`.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2 - ALM Contracts [Core]  <!-- UUID: f233a46b-8dff-4335-8ccf-dc3f1c18a96f -->
 
@@ -28448,21 +28448,25 @@ The documents herein contain the ALM Contract Addresses for the Grove Liquidity 
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.1.1 - ALM Controller (MainnetController) Contract [Core]  <!-- UUID: 53d016e8-dd83-42ca-a74b-7ed440d50bc5 -->
 
-The address of the ALM_CONTROLLER (MainnetController) contract is: `0x3048386E09c72C20FB268a37d2B630D7f2Ee9138`
+The address of the ALM_CONTROLLER (MainnetController) contract is: `0xfd9dEA9a8D5B955649579Af482DB7198A392A9F5`.
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.2.1.2 - ALM Freezer Multisig (Mainnet) Address [Core]  <!-- UUID: fb21540d-950c-4607-90a3-4736b1f0e517 -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.2.1.2 - ALM Controller Contract Version [Core]  <!-- UUID: 997b6fab-58d4-4d6d-a67f-f857585e829e -->
+
+The ALM_CONTROLLER contract version is: 1.8.0.
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.2.1.3 - ALM Freezer Multisig (Mainnet) Address [Core]  <!-- UUID: fb21540d-950c-4607-90a3-4736b1f0e517 -->
 
 The address of the Multisig that has the Freezer Role is: `0xB0113804960345fd0a245788b3423319c86940e5`
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.2.1.3 - ALM Relayer Multisig (Mainnet) Address [Core]  <!-- UUID: 51b50a8f-eb29-4424-bb0a-8247d2acce7d -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.2.1.4 - ALM Relayer Multisig (Mainnet) Address [Core]  <!-- UUID: 51b50a8f-eb29-4424-bb0a-8247d2acce7d -->
 
 The address of the Multisig that has the Relayer Role is: `0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f`
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.2.1.4 - ALM Proxy (Mainnet) Contract [Core]  <!-- UUID: fda13ac2-b3ed-4b2a-9be6-9247632dafe3 -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.2.1.5 - ALM Proxy (Mainnet) Contract [Core]  <!-- UUID: fda13ac2-b3ed-4b2a-9be6-9247632dafe3 -->
 
 The address of the ALM_PROXY contract is: `0x491EDFB0B8b608044e227225C715981a30F3A44E`
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.2.1.5 - ALM Rate Limits (Mainnet) Contract [Core]  <!-- UUID: d647b167-e936-4521-805e-f7851e48fe94 -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.2.1.6 - ALM Rate Limits (Mainnet) Contract [Core]  <!-- UUID: d647b167-e936-4521-805e-f7851e48fe94 -->
 
 The address of the ALM_RATE_LIMITS contract is: `0x5F5cfCB8a463868E37Ab27B5eFF3ba02112dF19a`
 
@@ -28496,19 +28500,19 @@ The documents herein contain the ALM Contract Addresses for the Grove Liquidity 
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.3.1 - ALM Controller Contract [Core]  <!-- UUID: c3c11dd2-3b15-4f6b-8771-ff1da05f1115 -->
 
-The address of the ALM_CONTROLLER contract is: `0x08b045609a673996ca10fedbAFAE2395A21ba539`
+The address of the ALM_CONTROLLER contract is: `0x7f8408eBbBC3504F83eeDa52910dd75Eba92C955`.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.3.2 - ALM Controller Contract Version [Core]  <!-- UUID: 312c1860-7eec-4a60-9add-1b64204c2228 -->
 
-The ALM_CONTROLLER contract version is v.1.6.0.
+The ALM_CONTROLLER contract version is: 1.8.0.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.3.3 - ALM Freezer Multisig Address [Core]  <!-- UUID: 45278dad-c140-4671-9e33-59ba395d8d11 -->
 
 The address of the Multisig that has the Freezer Role is: `0xB0113804960345fd0a245788b3423319c86940e5`.
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.2.3.4 - ALM Relayer Multisig Address [Core]  <!-- UUID: b8053bf5-44d3-49b7-9eeb-9653df45abd1 -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.2.3.4 - ALM Relayer Multisig Addresses [Core]  <!-- UUID: b8053bf5-44d3-49b7-9eeb-9653df45abd1 -->
 
-The address of the Multisig that has the Relayer Role is: `0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f`.
+The addresses of the Multisigs that have the Relayer Role are: `0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f` and `0x9187807e07112359C481870feB58f0c117a29179`.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.3.5 - ALM Proxy Contract [Core]  <!-- UUID: 5c382a94-ce36-4ffa-862b-4718382450fe -->
 
@@ -28679,7 +28683,7 @@ The maximum amount of USDC that can be bridged to Base ALM Proxy using the Circl
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.2.1.1.3.3.3 - USDC Base ALM Proxy Circle Cross-Chain Transfer Protocol Maximum [Core]  <!-- UUID: 9575357d-2778-4556-80d8-ca1e4ab293a6 -->
+###### A.6.1.1.2.2.6.1.2.1.1.3.3.3 - USDC Ethereum Mainnet ALM Proxy Circle Cross-Chain Transfer Protocol Maximum [Core]  <!-- UUID: 9575357d-2778-4556-80d8-ca1e4ab293a6 -->
 
 The maximum amount of USDC that can be bridged to Ethereum Mainnet from the Base ALM Proxy using the Circle Cross-Chain Transfer Protocol (`LIMIT_USDC_TO_CCTP_Ethereum`) is specified in the document herein.
 
@@ -33939,11 +33943,15 @@ The address of the instance’s PDA, configured for Keel is `EeWDutgcKNTdQGJkGRr
 
 The ALM_CONTROLLER contract version is: `1.0.0`
 
-###### A.6.1.1.3.2.6.1.2.1.1.1.2.2.5 - ALM Freezer Multisig Address [Core]  <!-- UUID: d321eb55-3592-400a-970d-3ed194c57988 -->
+###### A.6.1.1.3.2.6.1.2.1.1.1.2.2.5 - Solana ALM Controller’s USDC TokenAccount Address [Core]  <!-- UUID: 812bd84c-3826-4cda-9897-a6a50050494f -->
+
+The Instance’s USDC TokenAccount Address is `4UA2CC9fQDTbX1SnJcanYn2QU5PtyB1MGfezDvGFPVwd`.
+
+###### A.6.1.1.3.2.6.1.2.1.1.1.2.2.6 - ALM Freezer Multisig Address [Core]  <!-- UUID: d321eb55-3592-400a-970d-3ed194c57988 -->
 
 The address of the Multisig that has the Freezer Role is specified in [A.6.1.1.3.2.6.1.2.1.2.3.4 - Freezer Multisig](aeee4280-ab46-4269-9430-fef8c2ee6d43).
 
-###### A.6.1.1.3.2.6.1.2.1.1.1.2.2.6 - ALM Relayer Multisig Addresses [Core]  <!-- UUID: 21ec6877-82e9-4897-ac67-f23de2917a4b -->
+###### A.6.1.1.3.2.6.1.2.1.1.1.2.2.7 - ALM Relayer Multisig Addresses [Core]  <!-- UUID: 21ec6877-82e9-4897-ac67-f23de2917a4b -->
 
 The addresses of the Multisigs that have the Relayer Role are specified in [A.6.1.1.3.2.6.1.2.1.2.3.1 - Prime Primary Relayer Address](600dfd83-d3a1-4b26-a906-c412673855b9), [A.6.1.1.3.2.6.1.2.1.2.3.2 - Prime Secondary Relayer Address](3b538bc7-3d18-4091-908d-dc0c3a6e8a62) and [A.6.1.1.3.2.6.1.2.1.2.3.3 - Core Operator Relayer Multisig](ced26169-892b-4ec4-9a16-8fb90e94a9ef).
 
