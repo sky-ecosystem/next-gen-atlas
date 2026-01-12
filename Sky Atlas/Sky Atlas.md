@@ -34379,11 +34379,11 @@ Operational GovOps Amatsu can change the signers of the Core Operator Relayer Mu
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4 - Freezer Multisig [Core]  <!-- UUID: aeee4280-ab46-4269-9430-fef8c2ee6d43 -->
 
-The Freezer Multisig has the [A.6.1.1.3.2.6.1.2.2.2.1.1.3 - Freezer Role](6f7becc7-2e70-44e5-8662-25ba7dd1a5f8).
+The Freezer Multisig has the `FREEZER_ROLE` as defined in [A.6.1.1.3.2.6.1.2.2.2.1.1.3 - Freezer Role](6f7becc7-2e70-44e5-8662-25ba7dd1a5f8).
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4.1 - Address [Core]  <!-- UUID: b76dbc30-602e-4464-b797-8b6643d8e2b8 -->
 
-The address of the Freezer Multisig on the Solana is `AUAJeXgLDNoDbBZ1uRguj9hWDZJSQkmoy4xk9U5zJF8h`.
+The address of the Freezer Multisig on Solana is `AUAJeXgLDNoDbBZ1uRguj9hWDZJSQkmoy4xk9U5zJF8h`.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4.2 - State Address [Core]  <!-- UUID: f9d1c2bc-5903-4581-9b0d-9c68f7c64ac8 -->
 
@@ -34391,15 +34391,15 @@ The address of the Freezer Multisig permission configurations is `B24DtbKAV25fcZ
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4.3 - Required Number Of Signers [Core]  <!-- UUID: c900500f-d44a-4c6f-9429-032a28262b68 -->
 
-The Freezer Multisig currently has a 2/4 signing requirement.
+The Freezer Multisig currently has a 2/5 signing requirement.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4.4 - Signers [Core]  <!-- UUID: e6c86321-bef0-435c-a2db-2b82dc7f1c77 -->
 
-The signers of the Freezer Multisig will be specified in a future iteration of the Atlas.
+The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Amatsu, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Keel.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4.5 - Usage Standards [Core]  <!-- UUID: 9a900853-f703-4454-92bf-416fbb157aea -->
 
-The signers of the Freezer Multisig should exercise their authority to freeze the Keel Liquidity Layer in the event that Keel is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency. The signers should consult with Operational GovOps Amatsu before exercising such authority, unless such consultation would cause a delay that could result in a loss of user funds or harm to Sky or Keel. Amatsu may also ask the signers to exercise the Freezer Multisig in an emergency. The signers will work with Operational GovOps Amatsu and, if necessary, other Ecosystem Actors, in good faith in determining whether to exercise their authority based on such request.
+The signers of the Freezer Multisig should exercise their authority to freeze the Keel Liquidity Layer in the event that Keel is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency.
 
 Each action executed by the Freezer Multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum.
 
