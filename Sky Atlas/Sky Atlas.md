@@ -28666,88 +28666,107 @@ The governance process to invoke a new Instance of the Allocation System Primiti
 
 The documents herein define multisigs that have privileged access to manage the Grove Liquidity Layer.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.1 - Prime Relayer Multisig [Core]  <!-- UUID: 5e6f63a8-d0e5-441d-927b-13830f5f9b24 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.1 - Prime Primary Relayer Multisig [Core]  <!-- UUID: 5e6f63a8-d0e5-441d-927b-13830f5f9b24 -->
 
-The Prime Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.2 - Relayer Role](4639e60c-111f-4018-bc8d-501b88c20edd) and is controlled by Grove.
+The Prime Primary Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.2 - Relayer Role](4639e60c-111f-4018-bc8d-501b88c20edd) and is controlled by Grove.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.1.1 - Address [Core]  <!-- UUID: 2ecf77f4-13d5-40dd-a50f-d85aabdbf71b -->
 
-The address of the Prime Relayer Multisig on the Ethereum Mainnet is `0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f`.
+The address of the Prime Primary Relayer Multisig on the Ethereum Mainnet is `0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f`.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.1.2 - Required Number Of Signers [Core]  <!-- UUID: 7c9c4334-71c3-4e55-ad66-7970d244a1a0 -->
 
-The Prime Relayer Multisig currently has a 4/7 signing requirement.
+The Prime Primary Relayer Multisig currently has a 4/7 signing requirement.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.1.3 - Signers [Core]  <!-- UUID: 10b61bac-2e7a-4607-b464-75ac1635c102 -->
 
-The signers of the Prime Relayer Multisig are seven (7) addresses controlled by Grove.
+The signers of the Prime Primary Relayer Multisig are seven (7) addresses controlled by Grove.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.1.4 - Usage Standards [Core]  <!-- UUID: b3f2fd41-9682-46ff-b85e-4a0f0d0885b5 -->
 
-The signers of the Prime Relayer Multisig must use the Multisig to exercise the `RELAYER_ROLE` in accordance with the instructions specified in the Grove Artifact.
+The signers of the Prime Primary Relayer Multisig must use the Multisig to exercise the `RELAYER_ROLE` in accordance with the instructions specified in the Grove Artifact.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.1.5 - Modification [Core]  <!-- UUID: 8baba39e-0d83-4d64-b15a-cf9948583a5e -->
 
-Grove can change the signers of the Prime Relayer Multisig at any time, so long as there are at least two (2) signers and at least a majority of signers are required to execute transactions.
+Grove can change the signers of the Prime Primary Relayer Multisig at any time, so long as there are at least two (2) signers and at least a majority of signers are required to execute transactions.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.2 - Core Operator Relayer Multisig [Core]  <!-- UUID: be75c381-80e1-4c95-8b8b-e990f00a178e -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.2 - Prime Secondary Relayer Multisig [Core]  <!-- UUID: bc712bee-9788-4f31-b671-fbc5aafaf42c -->
+
+The Prime Secondary Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.2 - Relayer Role](4639e60c-111f-4018-bc8d-501b88c20edd) and is controlled by Grove.
+
+###### A.6.1.1.2.2.6.1.2.1.2.2.2.1 - Address [Core]  <!-- UUID: 49588342-eebf-41e2-89eb-eb4f94ba5f36 -->
+
+The address of the Prime Secondary Relayer Multisig is `0x9187807e07112359C481870feB58f0c117a29179`.
+
+###### A.6.1.1.2.2.6.1.2.1.2.2.2.2 - Required Number Of Signers [Core]  <!-- UUID: 8f0b88bf-0fcd-4103-a4c2-e03b61a2e8a7 -->
+
+The Prime Secondary Relayer Multisig currently has a 1/2 signing requirement.
+
+###### A.6.1.1.2.2.6.1.2.1.2.2.2.3 - Signers [Core]  <!-- UUID: 2ff0395a-f47a-478a-8621-28bae36bc2f7 -->
+
+The signers of the Prime Secondary Relayer Multisig are two (2) addresses controlled by Grove.
+
+###### A.6.1.1.2.2.6.1.2.1.2.2.2.4 - Usage Standards [Core]  <!-- UUID: d50351e8-6cca-4d49-abb8-0c7ce3b16b92 -->
+
+The signers of the Prime Secondary Relayer Multisig must use the Multisig to exercise the `RELAYER_ROLE` in accordance with the instructions specified in the Grove Artifact.
+
+###### A.6.1.1.2.2.6.1.2.1.2.2.2.5 - Modification [Core]  <!-- UUID: eecf9254-7939-492a-a4c8-938bbb19c7a0 -->
+
+Grove can change the signers of the Prime Secondary Relayer Multisig at any time, so long as there are at least two (2) signers and at least a majority of signers are required to execute transactions.
+
+###### A.6.1.1.2.2.6.1.2.1.2.2.3 - Core Operator Relayer Multisig [Core]  <!-- UUID: be75c381-80e1-4c95-8b8b-e990f00a178e -->
 
 The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.2 - Relayer Role](4639e60c-111f-4018-bc8d-501b88c20edd), and is controlled by Amatsu.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.2.1 - Address [Core]  <!-- UUID: 712e0f02-b787-4812-8d67-60a81449b238 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.3.1 - Address [Core]  <!-- UUID: 712e0f02-b787-4812-8d67-60a81449b238 -->
 
 The address of the Core Operator Relayer Multisig on the Ethereum Mainnet is `0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96`.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.2.2 - Required Number Of Signers [Core]  <!-- UUID: 9a1af2ad-da1b-460f-89f6-84c513c71418 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.3.2 - Required Number Of Signers [Core]  <!-- UUID: 9a1af2ad-da1b-460f-89f6-84c513c71418 -->
 
 The Core Operator Relayer Multisig currently has a 2/3 signing requirement.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.2.3 - Signers [Core]  <!-- UUID: 7a7df887-8cdf-447e-8d8e-aad3360c7417 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.3.3 - Signers [Core]  <!-- UUID: 7a7df887-8cdf-447e-8d8e-aad3360c7417 -->
 
 The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Amatsu.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.2.4 - Usage Standards [Core]  <!-- UUID: 2014eee2-c5e7-4da7-8925-04b5e4bfd6f5 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.3.4 - Usage Standards [Core]  <!-- UUID: 2014eee2-c5e7-4da7-8925-04b5e4bfd6f5 -->
 
 The signers of the Core Operator Relayer Multisig must use the Multisig to exercise the `RELAYER_ROLE` in accordance with the instructions specified in the Grove Artifact.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.2.5 - Modification [Core]  <!-- UUID: f789a1aa-ddfb-4ddd-85c4-76387ef6d516 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.3.5 - Modification [Core]  <!-- UUID: f789a1aa-ddfb-4ddd-85c4-76387ef6d516 -->
 
 Operational GovOps Amatsu can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.3 - Freezer Multisig [Core]  <!-- UUID: 99bc2dd5-5573-4bb9-9210-5af299d058d9 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.4 - Freezer Multisig [Core]  <!-- UUID: 99bc2dd5-5573-4bb9-9210-5af299d058d9 -->
 
-The Freezer Multisig has the `FREEZER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.4 - Freezer Role](37871a80-dc8f-4804-bce1-5f082e9bca9f) and is controlled by the Core Facilitator and Operational Facilitator.
+The Freezer Multisig has the `FREEZER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.4 - Freezer Role](37871a80-dc8f-4804-bce1-5f082e9bca9f).
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.3.1 - Address [Core]  <!-- UUID: 33cb22ad-7032-4eec-ab47-4c5f5d28e064 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.4.1 - Address [Core]  <!-- UUID: 33cb22ad-7032-4eec-ab47-4c5f5d28e064 -->
 
 The address of the Freezer Multisig on the Ethereum Mainnet is `0xB0113804960345fd0a245788b3423319c86940e5`.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.3.2 - Required Number Of Signers [Core]  <!-- UUID: 939338a1-df49-47cb-9206-810059b6c16a -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.4.2 - Required Number Of Signers [Core]  <!-- UUID: 939338a1-df49-47cb-9206-810059b6c16a -->
 
-The Freezer Multisig currently has a 2/4 signing requirement.
+The Freezer Multisig currently has a 2/5 signing requirement.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.3.3 - Signers [Core]  <!-- UUID: 0a18da19-36e2-4948-93cc-ee86d20617b3 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.4.3 - Signers [Core]  <!-- UUID: 0a18da19-36e2-4948-93cc-ee86d20617b3 -->
 
-The Freezer Multisig has the following signers:
+The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Amatsu, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Grove.
 
-- VoteWizard
-- JanSky
-- LDR
-- CivicSage
+###### A.6.1.1.2.2.6.1.2.1.2.2.4.4 - Usage Standards [Core]  <!-- UUID: 1bd5fe5c-6cb4-4a5a-a84a-03e59736c98a -->
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.3.4 - Usage Standards [Core]  <!-- UUID: 1bd5fe5c-6cb4-4a5a-a84a-03e59736c98a -->
-
-The signers of the Freezer Multisig should exercise their authority to freeze the Grove Liquidity Layer in the event that Grove is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency. The signers should consult with Operational GovOps Amatsu before exercising such authority, unless such consultation would cause a delay that could result in a loss of user funds or harm to Sky or Grove. Operational GovOps Amatsu may also ask the signers to exercise the Freezer Multisig in an emergency. The signers will work with Amatsu and, if necessary, other Operational GovOps, in good faith in determining whether to exercise their authority based on such request.
+The signers of the Freezer Multisig should exercise their authority to freeze the Grove Liquidity Layer in the event that Grove is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency.
 
 Each action executed by the Freezer Multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.3.5 - Modification [Core]  <!-- UUID: 827f87da-917e-4acf-af0a-9e220641b145 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.4.5 - Modification [Core]  <!-- UUID: 827f87da-917e-4acf-af0a-9e220641b145 -->
 
 Modification of the signers of the Freezer Multisig must be approved through an Atlas Edit Proposal.
 
-The only exceptions to this are if: 1) a signer self-reports a loss of access to their private key due to any reason; or 2) a signer explicitly expresses their wish to be removed as a signer. In both cases, the signer is required to communicate the loss of access to their private key, or the wish to be removed as a signer, in the form of a public Sky Forum post. The specific signer should be replaced as soon as possible, which does not require a Governance Poll.
+The only exceptions to this are if: 1) a signer self-reports a loss of access to their private key due to any reason; or 2) a signer explicitly expresses their wish to be removed as a signer. In both cases, the signer is required to communicate the loss of access to their private key, or the wish to be removed as a signer, in the form of a public Sky Forum post. The specific signer should be replaced as soon as possible.
 
-Any changes to the multisig signers that do not fall within the two exceptions listed above, or that have not been ratified by Sky Governance, should be questioned immediately and treated as malicious. Where malicious activity is suspected, the Facilitators must prepare an expedited Executive Vote so that Sky Governance can vote on removing external security access from the multisig.
+Any changes to the Multisig signers that do not fall within the two exceptions listed above, or that have not been ratified by Sky Governance, should be questioned immediately and treated as malicious. Where malicious activity is suspected, the Facilitators must prepare an expedited Executive Vote so that Sky Governance can vote on removing external security access from the Multisig.
 
 ###### A.6.1.1.2.2.6.1.2.1.3 - Total Risk Capital (TRC) Management [Core]  <!-- UUID: 3567039f-c74a-4f4c-85c9-e68ac880009a -->
 
