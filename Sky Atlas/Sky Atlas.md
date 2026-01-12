@@ -13085,27 +13085,9 @@ The documents herein define exceptions to the calculation of Instance Financial 
 
 ###### A.3.2.2.1.1.1.1.3.1 - Maple [Core]  <!-- UUID: d3000c93-d5d5-4a9e-b8c7-484aa3d16633 -->
 
-Because Maple accepts Native BTC and Native SOL as collateral, alternative Slippage parameters should be used for these collaterals. See [A.3.2.2.1.1.1.1.1.2.2 - Slippage](f2612a0d-6bf8-470b-b5b6-884567e1317b). The alternative Slippage parameters to be used are specified in the documents herein.
+The Instance Financial CRR for Maple SyrupUSDC is 3%.
 
-###### A.3.2.2.1.1.1.1.3.1.1 - Native BTC Slippage Parameters [Core]  <!-- UUID: e04ff702-9b21-45be-bc2a-52e0fd655c28 -->
-
-The Slippage for a Native BTC exposure is calculated as half the Slippage for an ETH exposure of the same USD amount:
-
-$$
-\text{slippage}_{btc} = \frac{\text{slippage}_{eth} }{2}
-$$
-
-For example, if the Slippage for a $40M ETH exposure is 2% then the Slippage for a $40M Native BTC exposure would be 1%.
-
-###### A.3.2.2.1.1.1.1.3.1.2 - Native SOL Slippage Parameters [Core]  <!-- UUID: 986fe3f7-3784-472b-9214-935646bb0ed9 -->
-
-The Slippage for a Native SOL exposure is calculated as double the Slippage for an ETH exposure of the same USD amount:
-
-$$
-\text{slippage}_{sol} = 2 \times \text{slippage}_{eth}
-$$
-
-For example, if the Slippage for a $40M ETH exposure is 2% then the Slippage for a $40M Native SOL exposure would be 4%.
+The maximum exposure a Prime Agent may have to Maple SyrupUSDC will be specified in a future iteration of the Atlas.
 
 ###### A.3.2.2.1.1.1.1.3.2 - Fluid [Core]  <!-- UUID: ef7403c9-8663-4759-b5aa-9496eca1f475 -->
 
