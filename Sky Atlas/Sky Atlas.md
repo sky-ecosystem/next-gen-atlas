@@ -28654,6 +28654,19 @@ The maximum amount of USDC that can be bridged to Ethereum Mainnet from the Base
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
+###### A.6.1.1.2.2.6.1.2.1.1.4 - On-chain Parameters [Core]  <!-- UUID: 21a390bd-ffc4-4f14-b8fd-e30aacdcee89 -->
+
+The documents herein list general on-chain parameters for the Grove Liquidity Layer.
+
+###### A.6.1.1.2.2.6.1.2.1.1.4.1 - Allocator Vault Parameters [Core]  <!-- UUID: 4db4b613-f06c-4aae-a091-2a78521fb6de -->
+
+The Allocator Vault parameters for ALLOCATOR-BLOOM-A are:
+
+- duty: 0
+- gap: 250 million USDS
+- maxLine: 5 billion USDS
+- ttl: 24 hours
+
 ###### A.6.1.1.2.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 6859900b-3d53-4a5c-8a00-ddb1cf0c07a4 -->
 
 The documents herein describe the specific governance processes for the Grove Liquidity Layer.
