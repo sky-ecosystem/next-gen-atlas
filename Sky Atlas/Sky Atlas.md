@@ -11018,43 +11018,29 @@ Specific token allocations are defined in the subdocuments herein.
 
 ###### A.2.9.2.2.2.1.2.2 - Sky Retained Tokens And Reward Pools [Core]  <!-- UUID: fb447af6-1581-4711-b73c-dc2e8d65e843 -->
 
-Sky retains 7,000,000,000 GROVE tokens and 6,500,000,000 SPK tokens, distributing these as token rewards over a 10-year period according to the schedules outlined below.
+Sky retains 7,000,000,000 GROVE tokens and 6,500,000,000 SPK tokens. These tokens are distributed as token rewards over time as determined by Sky Governance.
 
 ###### A.2.9.2.2.2.1.2.2.1 - Grove Token Reward Distribution Schedule [Core]  <!-- UUID: 5b43f4d8-9728-411c-92c7-a7ebaf368ca0 -->
 
-Sky will distribute GROVE tokens annually, per the following schedule:  
-  
-| Year | Tokens for USDS Users | Tokens for Staking Users | Total           |  
-|------|------------------------|---------------------------|-----------------|  
-| 1    | 1,225,000,000          | 525,000,000               | 1,750,000,000   |  
-| 2    | 1,225,000,000          | 525,000,000               | 1,750,000,000   |  
-| 3    | 612,500,000            | 262,500,000               | 875,000,000     |  
-| 4    | 612,500,000            | 262,500,000               | 875,000,000     |  
-| 5    | 306,250,000            | 131,250,000               | 437,500,000     |  
-| 6    | 306,250,000            | 131,250,000               | 437,500,000     |  
-| 7    | 153,125,000            | 65,625,000                | 218,750,000     |  
-| 8    | 153,125,000            | 65,625,000                | 218,750,000     |  
-| 9    | 153,125,000            | 65,625,000                | 218,750,000     |  
-| 10   | 153,125,000            | 65,625,000                | 218,750,000     |  
-| Total| 4,900,000,000          | 2,100,000,000             | 7,000,000,000   |
+The distribution of GROVE tokens will be specified in a future iteration of the Atlas.
 
 ###### A.2.9.2.2.2.1.2.2.2 - Spark Token Reward Distribution Schedule [Core]  <!-- UUID: 1f412288-af14-4aab-84e9-79f2e0c39100 -->
 
-Sky will distribute SPK tokens annually, per the following schedule:  
+A portion of the SPK tokens held by Sky are distributed to USDS users as specified in the table below. All other SPK tokens held by Sky are reserved for future token rewards as determined by Sky Governance.
   
-| Year | Tokens for USDS Users | Tokens for Staking Users | Total           |  
-|------|------------------------|---------------------------|-----------------|  
-| 1    | 1,137,500,000          | 487,500,000               | 1,625,000,000   |  
-| 2    | 1,137,500,000          | 487,500,000               | 1,625,000,000   |  
-| 3    | 568,750,000            | 243,750,000               | 812,500,000     |  
-| 4    | 568,750,000            | 243,750,000               | 812,500,000     |  
-| 5    | 284,375,000            | 121,875,000               | 406,250,000     |  
-| 6    | 284,375,000            | 121,875,000               | 406,250,000     |  
-| 7    | 142,187,500            | 60,937,500                | 203,125,000     |  
-| 8    | 142,187,500            | 60,937,500                | 203,125,000     |  
-| 9    | 142,187,500            | 60,937,500                | 203,125,000     |  
-| 10   | 142,187,500            | 60,937,500                | 203,125,000     |  
-| Total| 4,550,000,000          | 1,950,000,000             | 6,500,000,000   |
+| Year | Tokens for USDS Users  |
+|------|------------------------|
+| 1    | 1,137,500,000          |
+| 2    | 1,137,500,000          |
+| 3    | 568,750,000            |
+| 4    | 568,750,000            |
+| 5    | 284,375,000            |
+| 6    | 284,375,000            |
+| 7    | 142,187,500            |
+| 8    | 142,187,500            |
+| 9    | 142,187,500            |
+| 10   | 142,187,500            |
+| Total| 4,550,000,000          |
 
 ###### A.2.9.2.2.2.1.3 - Transfer Limit [Core]  <!-- UUID: da03bcb0-734a-4d36-ab0e-e42a43e23d8a -->
 
@@ -16251,27 +16237,27 @@ At the same time that no new SKY tokens are issued, SKY tokens are bought back a
 
 ##### A.4.1.2.2.4 - Deprecated Emissions Mechanisms [Core]  <!-- UUID: 2f3962e4-c79e-4583-82df-31239dfb84a4 -->
 
-The subdocuments herein define legacy mechanisms involving the issuance of new SKY tokens. Each of these mechanisms is being deprecated. While these mechanisms do not increase the net supply of SKY tokens, they must be replaced with solutions that do not involve any emissions of SKY tokens, as defined in the documents herein.
+The subdocuments herein define legacy mechanisms involving the issuance of new SKY tokens. Each of these mechanisms has been deprecated. While these mechanisms did not increase the net supply of SKY tokens, they have been replaced with solutions that do not involve any emissions of SKY tokens, as defined in the documents herein.
 
 ###### A.4.1.2.2.4.1 - SKY Token Rewards Emissions [Core]  <!-- UUID: 8189e776-d631-44a0-81e5-3b2d5d88ef54 -->
 
-USDS users are able to earn SKY Rewards. See [A.4.3.2 - Token Reward Mechanism](3ff5a7b2-db91-41ab-be19-ddb068b36cc7). These rewards are currently funded by emissions of new SKY tokens.
+USDS users may be able to earn SKY Rewards. See [A.4.3.2 - Token Reward Mechanism](3ff5a7b2-db91-41ab-be19-ddb068b36cc7). These rewards were previously funded by emissions of new SKY tokens.
 
-These ongoing emissions will be eliminated and replaced with a solution that funds these rewards using SKY held by the Sky Protocol.
+These ongoing emissions were eliminated and replaced with a solution that funds these rewards using SKY held by the Sky Protocol.
 
-At the same time that this new solution is implemented, SKY tokens equal to the total SKY emissions previously used to fund SKY Rewards, including the Early Bird Reward (see [A.5.3.1.1.1 - Token Distribution](eaf8cf29-90fd-4b9b-b0a8-02ce8386908c)), will be burned from SKY held by the Sky Protocol.
+At the same time that this new solution was implemented, SKY tokens equal to the total SKY emissions previously used to fund SKY Rewards, including the Early Bird Reward (see [A.5.3.1.1.1 - Token Distribution](eaf8cf29-90fd-4b9b-b0a8-02ce8386908c)), were burned from SKY held by the Sky Protocol.
 
-The combination of these actions will achieve a state where the number of total SKY tokens is exactly the same as if SKY Rewards had never been funded with protocol emissions.
+The combination of these actions achieved a state where the number of total SKY tokens is exactly the same as if SKY Rewards had never been funded with protocol emissions.
 
 ###### A.4.1.2.2.4.2 - MKR To SKY Conversion Emissions [Core]  <!-- UUID: 676636df-729d-46e3-bf34-89d0d33e8051 -->
 
-The legacy MKR to SKY conversion contract (Legacy Conversion Contract) burns MKR and mints new SKY. The new MKR to SKY conversion contract (New Conversion Contract) instead burns MKR and issues SKY from the existing supply of preminted SKY.
+The legacy MKR to SKY conversion contract (Legacy Conversion Contract) burned MKR and minted new SKY. The new MKR to SKY conversion contract (New Conversion Contract) instead burns MKR and issues SKY from the existing supply of preminted SKY.
 
-The Legacy Conversion Contract will be disabled as specified in [A.4.1.2.2.4.2.1 - Disabling Legacy Conversion Contract](1b8248bf-5d88-4d67-8c4a-21981a0aa937). To offset SKY minted by the Legacy Conversion Contract after the deployment of the New Conversion Contract, an equivalent amount of preminted SKY will be burned. This action will ensure the total SKY token supply remains as if these specific emissions from the Legacy Conversion Contract had not occurred.
+The Legacy Conversion Contract was disabled as specified in [A.4.1.2.2.4.2.1 - Disabling Legacy Conversion Contract](1b8248bf-5d88-4d67-8c4a-21981a0aa937). To offset SKY minted by the Legacy Conversion Contract after the deployment of the New Conversion Contract, an equivalent amount of preminted SKY was burned. This action ensured the total SKY token supply remains as if these specific emissions from the Legacy Conversion Contract had not occurred.
 
 ###### A.4.1.2.2.4.2.1 - Disabling Legacy Conversion Contract [Core]  <!-- UUID: 1b8248bf-5d88-4d67-8c4a-21981a0aa937 -->
 
-The disabling of the Legacy Conversion Contract will be executed in the June 26, 2025 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+The disabling of the Legacy Conversion Contract was executed in the June 26, 2025 Executive Vote.
 
 ## A.4.2 - SkyLink [Article]  <!-- UUID: f6d2bae6-7ebc-42cd-a507-900f4bcfb98f -->
 
@@ -16283,7 +16269,7 @@ SkyLink deployments support features including the Savings Rate Mechanism (inclu
 
 ## A.4.3 - Savings Rate And Token Reward Mechanism [Article]  <!-- UUID: c64a37d4-08a8-41bb-beae-4e976b6d0982 -->
 
-This Article regulates the rewards benefitting Dai users and USDS users for holding each Stablecoin. DAI users can access the legacy DAI Savings Rate Mechanism. USDS users can access a built-in Savings Rate, as well as additional Token Reward Mechanisms including SKY and Agent tokens.
+This Article regulates the rewards benefiting Dai users and USDS users for holding each Stablecoin. DAI users can access the legacy DAI Savings Rate Mechanism. USDS users can access a built-in Savings Rate, and also potentially earn rewards through Token Reward Mechanisms, including SKY and Agent tokens, as specified in the subdocuments herein.
 
 ### A.4.3.1 - Savings Rates [Section]  <!-- UUID: 95f2454b-c1c3-476c-b5f8-3f4fead2e2cc -->
 
@@ -16291,27 +16277,15 @@ The Savings Rate Mechanism includes both the legacy Dai Savings Rate Mechanism a
 
 ### A.4.3.2 - Token Reward Mechanism [Section]  <!-- UUID: 3ff5a7b2-db91-41ab-be19-ddb068b36cc7 -->
 
-The Token Rewards Mechanism provides SKY rewards to USDS users. Agent tokens are also distributed through a Token Rewards Mechanism.
+The Token Rewards Mechanism allows USDS users to potentially earn SKY and Agent token rewards as specified in the subdocuments herein.
 
 #### A.4.3.2.1 - SKY Token Rewards [Core]  <!-- UUID: caba97e4-4d4d-4aa9-9ed4-f0d1c8b1c552 -->
 
-With each Executive Vote, the distribution of SKY token rewards to USDS holders is normalized to ensure the effective yield provided by these rewards equals the Sky Savings Rate (SSR) for the upcoming period. The effective yield is defined as: (Total Market Value of Distributed SKY Tokens / Total Eligible USDS Balance).
+SKY token rewards are not currently available to USDS users.
 
-To achieve this normalization, the quantity of SKY token rewards to be distributed is determined through the following calculation, performed for each normalization period:
+#### A.4.3.2.2 - SPK Token Rewards [Core]  <!-- UUID: 4f56e3a5-7d4d-4da7-9045-d4d88fabc756 -->
 
-1. Determine Target Reward Value: Calculate the total US dollar value required to meet the SSR for the period: (Total Eligible USDS Balance * SSR).
-    
-2. Determine SKY Token Quantity: Divide the Target Reward Value (from step 1) by the Current Market Price of SKY (determined at the time of the Executive Vote).
-
-The Core Facilitator, on the recommendation of the Core Council Risk Advisor, may maintain the quantity of SKY token rewards to be distributed for a normalization period at its current level if they conclude that:
-    
-◦ the difference between the effective yield provided by SKY Tokens Rewards and the SSR is not material;
-    
-◦ the difference between the effective yield provided by SKY Token Rewards and the SSR is unlikely to persist due to other factors; or
-    
-◦ adjusting the quantity of SKY Token Rewards is otherwise inadvisable.
-
-The recommendation of the Core Council Risk Advisor must be posted to the Sky Forum.
+SPK token rewards are available to USDS users as specified in [A.2.9.2.2.2.1.2.2.2 - Spark Token Reward Distribution Schedule](1f412288-af14-4aab-84e9-79f2e0c39100).
 
 ## A.4.4 - SKY Staking Mechanism [Article]  <!-- UUID: b8891a30-f255-4694-895c-4399df916da3 -->
 
@@ -16319,7 +16293,7 @@ This Article governs the SKY Staking Mechanism that grants voting rewards on sta
 
 ### A.4.4.1 - SKY Staking [Section]  <!-- UUID: 626bd71c-b413-41b7-a5fe-39fd0d43dbf5 -->
 
-SKY holders can stake their tokens via the SKY Staking Mechanism available on Ethereum Mainnet and SkyLink Deployments. SKY stakers earn voting rewards sourced from the Sky Treasury Management Function. In lieu of USDS rewards and SKY rewards, SKY stakers can choose to earn Agent Token Rewards, including SPK and the tokens of other Prime Agents incubated by Sky. SKY stakers can also borrow USDS against their staked collateral using the SKY-backed borrowing mechanism defined herein.
+SKY holders can stake their tokens via the SKY Staking Mechanism available on Ethereum Mainnet and SkyLink Deployments. SKY stakers earn voting rewards sourced from the Sky Treasury Management Function. SKY stakers may be able to earn USDS rewards, SKY rewards, and Agent Token Rewards, as determined by Sky Governance. SKY stakers can also borrow USDS against their staked collateral using the SKY-backed borrowing mechanism defined herein.
 
 #### A.4.4.1.1 - SKY Unstaking [Core]  <!-- UUID: e945372c-f526-45b9-af12-135f0eb6e830 -->
 
@@ -16958,7 +16932,7 @@ The documents herein define short-term logic for SKY staking rewards pending the
 
 ##### A.4.4.1.4.1 - Short Term USDS Rewards For SKY Stakers [Core]  <!-- UUID: aad249a0-1332-4b5f-9b46-d89873e73b86 -->
 
-Until the Treasury Management Function (TMF) is fully implemented, USDS rewards for SKY stakers will be temporarily funded by the Smart Burn Engine, subject to the parameters of the Smart Burn Engine; this interim mechanism will be discontinued once the TMF becomes fully operational.
+USDS rewards for SKY stakers are not currently available.
 
 ##### A.4.4.1.4.2 - Short Term SKY Rewards For SKY Stakers [Core]  <!-- UUID: aed6511f-f5f0-4b46-a56e-9a7bbc6ea310 -->
 
@@ -17042,13 +17016,11 @@ The parameters of the vesting stream that vests SKY Tokens to be transferred to 
 
 ###### A.4.4.1.4.2.2 - Source Of SKY Rewards [Core]  <!-- UUID: 349a350c-c9b7-4232-a83f-2fb49b91fc74 -->
 
-Initially, the SKY Tokens in the Protocol Treasury to fund SKY rewards for SKY stakers will be funded by the 500,000,000 SKY transferred by the Sky Frontier Foundation to the Protocol Treasury.
-
-The `vestTot` and `vestTau` parameters of the Vesting Stream contract are set such that these 500,000,000 SKY will be distributed over three (3) months. After these three (3) months, SKY rewards must be funded by SKY acquired through buybacks and the parameters of the Vesting Stream contract must be adjusted accordingly.
+The `vestTot` and `vestTau` parameters of the Vesting Stream contract are set such that SKY rewards are funded by SKY acquired through buybacks and the parameters of the Vesting Stream contract must be adjusted accordingly.
 
 ###### A.4.4.1.4.2.2.1 - Authorization Of Transfer By Sky Frontier Foundation [Core]  <!-- UUID: 2789177b-5bc7-486f-8aab-75ea16e21035 -->
 
-Sky Governance hereby confirms that the transfer of the 500,000,000 SKY tokens specified in [A.4.4.1.4.2.2 - Source Of SKY Rewards](349a350c-c9b7-4232-a83f-2fb49b91fc74) is consistent with the terms of the grant to the Sky Frontier Foundation. See [A.2.14.1 - Ecosystem Entity Grants](5d5759e4-8077-4af5-9a1a-eaeab5088dd7).
+ Sky Governance hereby confirms that the transfer of 500,000,000 SKY tokens to initially fund SKY rewards for SKY stakers is consistent with the terms of the grant to the Sky Frontier Foundation. See [A.2.14.1 - Ecosystem Entity Grants](5d5759e4-8077-4af5-9a1a-eaeab5088dd7).
 
 ## A.4.5 - Distribution Of Agent Tokens [Article]  <!-- UUID: e2f1f01f-3303-41c3-b337-f09eb41ba6be -->
 
