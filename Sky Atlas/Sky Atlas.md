@@ -3069,7 +3069,7 @@ When the execution through the Sky Core Spell method is used, the Agent Spells a
 
 ###### A.1.9.2.3.2.3.2.1 - Sky Core Spell Executes Agent Spell [Core]  <!-- UUID: a109ad0d-0743-4ae9-bcc1-df04a6e5da43 -->
 
-Execution of an Agent Spell is initiated by the Sky Core Spell, which directly calls `exec()` on the Prime's SubProxy contract to perform the Spell's actions in the same transaction. The SubProxy limits rights to the specific Agent, preventing access to Sky Core contracts. The current SubProxy contract is designed to execute the Agent Spell in the same transaction as the Sky Core Spell.
+Execution of an Agent Spell is initiated by the Sky Core Spell, which directly calls `exec()` on the Agent’s SubProxy contract to perform the Spell’s actions in the same transaction. The SubProxy limits rights to the specific Agent, preventing access to Sky Core contracts. The current SubProxy contract is designed to execute the Agent Spell in the same transaction as the Sky Core Spell.
 
 #### A.1.9.2.4 - Executive Process Breakdown [Core]  <!-- UUID: 98298ab3-8d08-4c4f-b47b-81242a3e3903 -->
 
