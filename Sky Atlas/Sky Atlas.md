@@ -7476,7 +7476,7 @@ The Active Data is updated as follows:
 
 ###### A.2.3.8.1.2.1.6.1.0.6.1 - Sky Core Distribution Reward Reimbursement Amounts [Active Data]  <!-- UUID: 169eb312-ed63-4a83-9f5d-43b621c0705e -->
 
-The current Sky Core Accessibility Reward Reimbursement Amounts are:
+The current Sky Core Distribution Reward Reimbursement Amounts are:
 
 ###### A.2.3.8.1.2.2 - Global Activation [Core]  <!-- UUID: 49513ac9-43d6-4766-8a51-195e221de3f2 -->
 
@@ -8484,7 +8484,7 @@ Net USDS balances in a DeFi protocol that is receiving an Integration Boost are 
 
 ###### A.2.3.8.2.2.1.4.1 - Reporting Of Net USDS Balances Is Valid Tracking Methodology [Core]  <!-- UUID: a4ca2e70-d013-4c54-8e17-1d6f352ddbc0 -->
 
-The methodology used to report net USDS balances in the protocol for the Integration Boost is itself an acceptable Tracking Methodology for purposes of the Accessibility Reward.
+The methodology used to report net USDS balances in the protocol for the Integration Boost is itself an acceptable Tracking Methodology for purposes of the Distribution Reward.
 
 ###### A.2.3.8.2.2.1.4.2 - No Double Payments [Core]  <!-- UUID: 5828a3a0-243d-48a5-b537-297015a0c5f5 -->
 
@@ -11082,9 +11082,9 @@ Spark and Grove can borrow amounts exceeding the 1,000,000,000 USDS limit at the
 
 Sky’s recourse for bad debt consists of (1) minting Prime Agent tokens; (2) terminating a Prime’s right to further borrowing; and (3) activation of the Resolution Mechanism which includes, without limitation, the authority to suspend all protocol operations, seize or reallocate all of the Prime assets, override or disable smart contract functions, initiate managed restructuring, or execute full and permanent liquidation of the affected sub-protocol and all of its assets, in order to contain risk and preserve the stability and solvency of the broader ecosystem.
 
-###### A.2.9.2.2.2.3 - Accessibility Reward [Core]  <!-- UUID: 85b8e871-2d42-4a85-a887-c33d860bed64 -->
+###### A.2.9.2.2.2.3 - Distribution Reward [Core]  <!-- UUID: 85b8e871-2d42-4a85-a887-c33d860bed64 -->
 
-The subdocuments herein set out agreed terms with respect to the Accessibility Reward.
+The subdocuments herein set out agreed terms with respect to the Distribution Reward.
 
 ###### A.2.9.2.2.2.3.1 - Distribution Reward Rate [Core]  <!-- UUID: 8e3cde6b-3b8b-4e9a-b9a0-8c24d84881f6 -->
 
