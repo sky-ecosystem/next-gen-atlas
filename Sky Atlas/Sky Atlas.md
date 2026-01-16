@@ -36132,31 +36132,29 @@ Keel has formally agreed to the Ecosystem Accords herein.
 
 Keel engaged in terms of agreement with Sky in Ecosystem Accord 3, located in [A.2.9.2.3 - Ecosystem Accord 3: Sky And Keel](63a88b08-e6cd-48bf-9cec-64ce7e42ae0e).
 
-#### A.6.1.1.4 - Launch Agent 3 [Core]  <!-- UUID: c88439b5-f456-4e51-8825-42e0ba83546f -->
+#### A.6.1.1.4 - Skybase [Core]  <!-- UUID: c88439b5-f456-4e51-8825-42e0ba83546f -->
 
-The documents herein specify all of the logic for Launch Agent 3, including Launch Agent 3’s strategy and how it uses the Sky Primitives to operationalize this strategy.
+The documents herein specify all of the logic for Skybase, including Skybase’s strategy and how it uses the Sky Primitives to operationalize this strategy.
 
 ##### A.6.1.1.4.1 - Introduction [Core]  <!-- UUID: a09ca807-8649-45d0-8e80-62baeb042995 -->
 
-Launch Agent 3 is an Agent specializing in creating accessible and user-friendly DeFi interfaces. It operates the Launch Agent 3 Frontend user interface. 
-
-Launch Agent 3 Frontend is a non-custodial web application serving as a gateway to the Sky Protocol. Through its AI-powered interface, Launch Agent 3 Frontend makes digital asset interactions intuitive and accessible for users of all experience levels—all while ensuring users maintain complete control of their assets. Launch Agent 3 Frontend never takes custody of users' private keys or assets; users retain full responsibility for managing their private keys and digital wallet access.
+Skybase is an Agent specializing in creating accessible and user-friendly DeFi interfaces. It operates the Sky.money user interface. Sky.money is a non-custodial web application serving as a gateway to the Sky Protocol. Through its AI-powered interface, Sky.money makes digital asset interactions intuitive and accessible for users of all experience levels—all while ensuring users maintain complete control of their assets. Sky.money never takes custody of users' private keys or assets; users retain full responsibility for managing their private keys and digital wallet access. Skybase also operates select key Sky websites utilizing Sky.money subdomains, such as the Sky Governance Voting Portal (vote.sky.money).
 
 ##### A.6.1.1.4.2 - Sky Primitives [Core]  <!-- UUID: 614f046c-829b-4330-a462-adff2245b36d -->
 
-The documents herein implement the Sky Primitives for Launch Agent 3. See [A.2.3 - Sky Primitives](fcde2604-a138-4c1b-9d9a-14895835c907).
+The documents herein implement the Sky Primitives for Skybase. See [A.2.3 - Sky Primitives](fcde2604-a138-4c1b-9d9a-14895835c907).
 
 ###### A.6.1.1.4.2.1 - Genesis Primitives [Core]  <!-- UUID: f08231e6-caa9-490d-9d7f-4f65f9076084 -->
 
-The documents herein implement the Genesis Primitives for Launch Agent 3. See [A.2.3.4 - Genesis Primitives](3d5e3668-8333-4908-adcc-5784cfe7f6b5).
+The documents herein implement the Genesis Primitives for Skybase. See [A.2.3.4 - Genesis Primitives](3d5e3668-8333-4908-adcc-5784cfe7f6b5).
 
 ###### A.6.1.1.4.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: 301c4673-0279-49e8-9c3b-e810e8223234 -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s Instance of the Agent Creation Primitive. See [A.2.3.4.1 - Agent Creation Primitive](82b95f6d-4883-4f08-ac3a-9d8189013fbe).
+The documents herein contain all data and specifications for Skybase’s Instance of the Agent Creation Primitive. See [A.2.3.4.1 - Agent Creation Primitive](82b95f6d-4883-4f08-ac3a-9d8189013fbe).
 
 ###### A.6.1.1.4.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: df8efa45-85c4-4c66-b984-a5ddfc3f3522 -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Agent Creation Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Agent Creation Primitive.
 
 ###### A.6.1.1.4.2.1.1.1.1 - Global Activation Status [Core]  <!-- UUID: 487d9253-c2ac-44be-a3b4-7474ba38fddd -->
 
@@ -36192,7 +36190,7 @@ The subtrees for failed Invocations of the Agent Creation Primitive are stored h
 
 ###### A.6.1.1.4.2.1.1.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: aa957ab8-fa9a-4ce0-bb47-e34350f16027 -->
 
-The subtrees for Instances of the Agent Creation Primitive with Suspended Status are stored here.
+The subtrees for Instances of the Agent Creation Primitive with `Suspended` Status are stored here.
 
 ###### A.6.1.1.4.2.1.1.2 - Active Instances [Core]  <!-- UUID: 0334421f-a3a0-4016-94fd-5cb0fc026b25 -->
 
@@ -36212,19 +36210,27 @@ The documents herein define the parameters of the Single Instance of the Agent C
 
 ###### A.6.1.1.4.2.1.1.3.1.1.1 - Name [Core]  <!-- UUID: 46d00c31-8877-4db8-981a-659276a86938 -->
 
-The name of the Agent is Launch Agent 3.
+The name of the Agent is Skybase.
 
 ###### A.6.1.1.4.2.1.1.3.1.1.2 - SubProxy Account [Core]  <!-- UUID: daed1676-6039-459e-9136-5e31617d756b -->
 
-The address of Launch Agent 3’s SubProxy Account will be specified in a future iteration of the Launch Agent 3 Artifact.
+The address of Skybase’s SubProxy Account will be specified in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.1.1.3.1.1.3 - Genesis Account [Core]  <!-- UUID: 082cb114-b47e-4371-afe5-d7bcba70704a -->
 
-The address of Launch Agent 3’s Genesis Account will be specified in a future iteration of the Launch Agent 3 Artifact.
+The address of Skybase’s Genesis Account will be specified in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.1.1.3.1.1.4 - Custom Instance Parameters [Core]  <!-- UUID: 7b71508d-de87-4c7b-a09a-7168d1d04f81 -->
 
 The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
+
+###### A.6.1.1.4.2.1.1.3.1.1.4.1 - Skybase Foundation [Core]  <!-- UUID: fe988ac4-6a04-46cd-89b0-c78ba8683f14 -->
+
+The Skybase Foundation is the Prime Foundation associated with Skybase. Its mandate is to support the development, growth, and adoption of Skybase.
+
+###### A.6.1.1.4.2.1.1.3.1.1.4.2 - Development Company [Core]  <!-- UUID: 095eabf8-26a4-484a-bdb7-b581799f4679 -->
+
+Skybase’s Development Company will be updated in a future iteration of the Artifact.
 
 ###### A.6.1.1.4.2.1.1.3.1.2 - Operational Process Definition [Core]  <!-- UUID: c38b8c86-828d-4d31-9ce6-0ba8d8694f1f -->
 
@@ -36252,11 +36258,11 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 ###### A.6.1.1.4.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: 4da364d5-3b83-4858-a820-12d4980f6977 -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s instance of the Prime Transformation Primitive. See [A.2.3.4.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
+The documents herein contain all data and specifications for Skybase’s instance of the Prime Transformation Primitive. See [A.2.3.4.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
 
 ###### A.6.1.1.4.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: f4d35d37-831f-4eee-b18f-d9a3d266655e -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Prime Transformation Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Prime Transformation Primitive.
 
 ###### A.6.1.1.4.2.1.2.1.1 - Global Activation Status [Core]  <!-- UUID: 8d69ca15-79c9-4351-b185-a7cd40c4ad71 -->
 
@@ -36312,7 +36318,7 @@ The documents herein define the parameters of the Single Instance of the Prime T
 
 ###### A.6.1.1.4.2.1.2.3.1.1.1 - Agent Type [Core]  <!-- UUID: afa9a16f-e776-40f1-8e34-923ae661517a -->
 
-Launch Agent 3 is a Prime Agent.
+Skybase is a Prime Agent.
 
 ###### A.6.1.1.4.2.1.2.3.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: de857100-9b4b-4fcd-942c-a3b67a5f9a45 -->
 
@@ -36344,11 +36350,11 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 
 ###### A.6.1.1.4.2.1.3 - Executor Transformation Primitive [Core]  <!-- UUID: 4e2edd9e-61c2-4be1-8cb3-f2be5e1587f3 -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s instance of the Executor Transformation Primitive. See [A.2.3.4.3 - Executor Transformation Primitive](2f249be5-8edb-41e4-b429-734e1ba2cbc7).
+The documents herein contain all data and specifications for Skybase’s instance of the Executor Transformation Primitive. See [A.2.3.4.3 - Executor Transformation Primitive](2f249be5-8edb-41e4-b429-734e1ba2cbc7).
 
 ###### A.6.1.1.4.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: f60f5f5f-3aa8-49de-85fb-95841bb73bdb -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Executor Transformation Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Executor Transformation Primitive.
 
 ###### A.6.1.1.4.2.1.3.1.1 - Global Activation Status [Core]  <!-- UUID: b1246162-614d-42b8-b648-474ba79b22aa -->
 
@@ -36396,11 +36402,11 @@ Because the Executor Transformation Primitive is deployed solely for the one-tim
 
 ###### A.6.1.1.4.2.1.4 - Agent Token Primitive [Core]  <!-- UUID: a4708a14-1030-4935-a4a5-103826d9d4a5 -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s Instance of the Agent Token Primitive. See [A.2.3.4.4 - Agent Token Primitive](2047c361-db28-4952-a70c-83d07b562064).
+The documents herein contain all data and specifications for Skybase’s Instance of the Agent Token Primitive. See [A.2.3.4.4 - Agent Token Primitive](2047c361-db28-4952-a70c-83d07b562064).
 
 ###### A.6.1.1.4.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: ffa68419-fc61-4b60-a4d5-7c1ca4aace6d -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Agent Token Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Agent Token Primitive.
 
 ###### A.6.1.1.4.2.1.4.1.1 - Global Activation Status [Core]  <!-- UUID: 3ac79f75-348c-4329-ba78-53b4882662cc -->
 
@@ -36452,27 +36458,27 @@ The documents herein define the parameters of the Single Instance of the Agent T
 
 ###### A.6.1.1.4.2.1.4.2.1.1.1 - Token Name [Core]  <!-- UUID: 1b5f18b6-ca5f-4c2a-be90-a8e270643e9b -->
 
-The name of Launch Agent 3’s token is Launch Agent 3.
+The name of Skybase’s token is Skybase.
 
 ###### A.6.1.1.4.2.1.4.2.1.1.2 - Token Symbol [Core]  <!-- UUID: 8eb04812-6fe7-43dc-a461-afa09b992cc8 -->
 
-The symbol of Launch Agent 3’s token is AGENT3.
+The symbol of Skybase’s token is SKYBASE.
 
 ###### A.6.1.1.4.2.1.4.2.1.1.3 - Genesis Supply [Core]  <!-- UUID: bc80a5e5-4ef7-4255-9e97-848c9cbbeb36 -->
 
-The Genesis Supply of AGENT3 will be specified in a future iteration of the Launch Agent 3 Artifact.
+The Genesis Supply of SKYBASE will be specified in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.1.4.2.1.1.4 - Token Address [Core]  <!-- UUID: b2270863-75e9-42f6-8c25-749a0f83dcb5 -->
 
-The address of AGENT3 will be specified in a future iteration of the Launch Agent 3 Artifact.
+The address of SKYBASE will be specified in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.1.4.2.1.1.5 - Token Admin [Core]  <!-- UUID: 1f692794-fc64-4cf8-86a7-fabc865eb428 -->
 
-The token Admin will be specified in a future iteration of the Launch Agent 3 Artifact.
+The token Admin will be specified in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.1.4.2.1.1.6 - Token Emissions [Core]  <!-- UUID: f56670f9-5a43-4b47-b94a-99026f8d87c0 -->
 
-Token emissions beyond the Genesis Supply are permanently disabled; this cannot be reverted by Launch Agent 3 Governance. Sky Governance retains the ability to revert where Launch Agent 3 is in violation of Risk Capital requirements and emissions are required by the Risk Framework. See [A.3.2 - Risk Capital](55999acf-75fe-4adf-8584-9746ef50d3e4).
+Token emissions beyond the Genesis Supply are permanently disabled; this cannot be reverted by Skybase Governance. Sky Governance retains the ability to revert where Skybase is in violation of Risk Capital requirements and emissions are required by the Risk Framework. See [A.3.2 - Risk Capital](55999acf-75fe-4adf-8584-9746ef50d3e4).
 
 ###### A.6.1.1.4.2.1.4.2.1.1.7 - Custom Instance Parameters [Core]  <!-- UUID: 65437b13-60b3-4e22-ab0c-c6e5b29756a0 -->
 
@@ -36481,7 +36487,8 @@ The documents herein define the custom parameters of the Single Instance of the 
 ###### A.6.1.1.4.2.1.4.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 652b94ef-66e3-40fe-ba80-4ce5c3d27f03 -->
 
 The documents herein define the operational processes for minting and initial distribution of the tokens from the Genesis Supply.
-- These processes will be defined in a future iteration of the Launch Agent 3 Artifact.
+
+- These processes will be defined in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.1.4.2.1.3 - Data Repository [Core]  <!-- UUID: 5f286327-f846-432a-98d5-31b8ecff7a8c -->
 
@@ -36509,15 +36516,15 @@ Because the Agent Token Primitive is Invoked solely for the one-time deployment 
 
 ###### A.6.1.1.4.2.2 - Operational Primitives [Core]  <!-- UUID: b0336f9e-09fd-415f-a86d-57220811dc80 -->
 
-The documents herein implement the Operational Primitives for Launch Agent 3. See [A.2.3.5 - Operational Primitives](0192ec95-9207-480e-8c51-88d2a1da95ad).
+The documents herein implement the Operational Primitives for Skybase. See [A.2.3.5 - Operational Primitives](0192ec95-9207-480e-8c51-88d2a1da95ad).
 
 ###### A.6.1.1.4.2.2.1 - Executor Accord Primitive [Core]  <!-- UUID: bb6c188b-ae69-4573-8104-44f9577427a1 -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s Instances of the Executor Accord Primitive. See [A.2.3.5.1 - Executor Accord Primitive](88017877-3ec1-4c43-a035-6bebdf11d9bb).
+The documents herein contain all data and specifications for Skybase’s Instances of the Executor Accord Primitive. See [A.2.3.5.1 - Executor Accord Primitive](88017877-3ec1-4c43-a035-6bebdf11d9bb).
 
 ###### A.6.1.1.4.2.2.1.1 - Primitive Hub Document [Core]  <!-- UUID: 8f799c9e-618c-407f-a4a1-899f32d13d52 -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Executor Accord Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Executor Accord Primitive.
 
 ###### A.6.1.1.4.2.2.1.1.1 - Global Activation Status [Core]  <!-- UUID: 3018b2d6-65e3-41af-90ae-f4275e862e13 -->
 
@@ -36527,9 +36534,9 @@ The documents herein organize all base information relevant to Launch Agent 3’
 
 This document contains a Directory of all Instances of the Executor Accord Primitive with Instance status of `Active`.
 
-###### A.6.1.1.4.2.2.1.1.2.1 - Amatsu Instance Configuration Document Location [Core]  <!-- UUID: e396aca8-3823-452e-8bdd-21b0e0e54083 -->
+###### A.6.1.1.4.2.2.1.1.2.1 - Ozone Instance Configuration Document Location [Core]  <!-- UUID: e396aca8-3823-452e-8bdd-21b0e0e54083 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.2.1.2.1 - Amatsu Instance Configuration Document](ff142a80-adb5-49da-87d8-62aabdb36b10).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.2.1.2.1 - Ozone Instance Configuration Document](ff142a80-adb5-49da-87d8-62aabdb36b10).
 
 ###### A.6.1.1.4.2.2.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: f1f78b17-7c65-4d8c-9066-315c25ed8f2d -->
 
@@ -36559,29 +36566,29 @@ The subtrees for Instances of the Executor Accord Primitive with `Suspended` Sta
 
 The Instances of the Executor Accord Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.4.2.2.1.2.1 - Amatsu Instance Configuration Document [Core]  <!-- UUID: ff142a80-adb5-49da-87d8-62aabdb36b10 -->
+###### A.6.1.1.4.2.2.1.2.1 - Ozone Instance Configuration Document [Core]  <!-- UUID: ff142a80-adb5-49da-87d8-62aabdb36b10 -->
 
-The documents herein contain the Instance Configuration Document for the Amatsu Executor Accord Primitive Instance.
+The documents herein contain the Instance Configuration Document for the Ozone Executor Accord Primitive Instance.
 
 ###### A.6.1.1.4.2.2.1.2.1.1 - Parameters [Core]  <!-- UUID: cdcae493-a9b6-4b08-8b03-6f4c7c76eb25 -->
 
-The documents herein define the parameters of the Amatsu Instance of the Executor Accord Primitive.
+The documents herein define the parameters of the Ozone Instance of the Executor Accord Primitive.
 
 ###### A.6.1.1.4.2.2.1.2.1.1.1 - Operational Executor Agent [Core]  <!-- UUID: 82200234-6b7c-4299-a552-66ceac3be5e6 -->
 
-In the near term Amatsu will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.
+In the near term Ozone will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.
 
 ###### A.6.1.1.4.2.2.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 822596a6-882f-416f-bc13-4986b1bf4052 -->
 
-The documents herein define the custom parameters of the Amatsu Instance of the Executor Accord Primitive, if any.
+The documents herein define the custom parameters of the Ozone Instance of the Executor Accord Primitive, if any.
 
 ###### A.6.1.1.4.2.2.1.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 27e3f4f9-6433-4cd5-b4db-7f67b3fb6cdf -->
 
-The documents herein define the process for the ongoing management of the Amatsu Instance of the Executor Accord Primitive.
+The documents herein define the process for the ongoing management of the Ozone Instance of the Executor Accord Primitive.
 
 ###### A.6.1.1.4.2.2.1.2.1.3 - Data Repository [Core]  <!-- UUID: 5120e81d-c44f-47ec-a19a-dff5d4abf152 -->
 
-The documents herein contain data relevant to the Amatsu Instance of the Executor Accord Primitive.
+The documents herein contain data relevant to the Ozone Instance of the Executor Accord Primitive.
 
 ###### A.6.1.1.4.2.2.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 0f2d0ae7-1aa7-4692-9f36-dd00b119885e -->
 
@@ -36605,11 +36612,11 @@ The in progress Invocations of the Executor Accord Primitive are contained herei
 
 ###### A.6.1.1.4.2.2.2 - Root Edit Primitive [Core]  <!-- UUID: 24517c43-dec9-44ec-bc03-e76671dc2e74 -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s Instance of the Root Edit Primitive. See [A.2.3.5.2 - Root Edit Primitive](78488c6b-d77f-4344-b954-476e415a2c7d).
+The documents herein contain all data and specifications for Skybase’s Instance of the Root Edit Primitive. See [A.2.3.5.2 - Root Edit Primitive](78488c6b-d77f-4344-b954-476e415a2c7d).
 
 ###### A.6.1.1.4.2.2.2.1 - Primitive Hub Document [Core]  <!-- UUID: 787f01b6-0503-49aa-8dd1-f08ad222a5c9 -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Root Edit Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Root Edit Primitive.
 
 ###### A.6.1.1.4.2.2.2.1.1 - Global Activation Status [Core]  <!-- UUID: a70572a2-e643-49a1-afa2-3b25c5118c92 -->
 
@@ -36661,39 +36668,39 @@ The parameters of the Root Edit Primitive are fully specified by the Operational
 
 ###### A.6.1.1.4.2.2.2.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 010ed495-c693-4d27-8c18-aa24b64e2715 -->
 
-The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 3 Agent Artifact. Information on Launch Agent 3 governance that is unrelated to the use of the Root Edit Primitive is located at [A.6.1.1.4.3.1 - Governance Information Unrelated To Root Edit Primitive](70804058-8a1b-45ee-bf21-b09a5daefdb9).
+The documents herein define the process for using the Root Edit Primitive to update the Skybase Agent Artifact. Information on Skybase governance that is unrelated to the use of the Root Edit Primitive is located at [A.6.1.1.4.3.1 - Governance Information Unrelated To Root Edit Primitive](70804058-8a1b-45ee-bf21-b09a5daefdb9).
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 759db362-3e1b-4ee8-b07e-9c61f7818154 -->
 
-The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 3 Agent Artifact in routine or normal conditions (i.e., non-emergency situations).
+The documents herein define the process for using the Root Edit Primitive to update the Skybase Agent Artifact in routine or normal conditions (i.e., non-emergency situations).
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission [Core]  <!-- UUID: f57f157c-c260-4671-8150-01acabcd286d -->
 
-The Root Edit process begins with an AGENT3 token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. An AGENT3 token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Launch Agent 3 Prime" category.
+The Root Edit process begins with a SKYBASE token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A SKYBASE token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the “Skybase Prime” category.
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.1.1 - Root Edit Proposal Submission Requirements Exception [Core]  <!-- UUID: 502d08e5-d705-4443-bb71-f29580847d74 -->
 
-For proposals that solely entail a buyback or a grant of AGENT3 tokens, the requirement that AGENT3 token holders must hold at least 1% of the circulating token supply to submit a proposal is waived. However, all other procedural requirements within the Root Edit process continue to apply.
+For proposals that solely entail a buyback or a grant of SKYBASE tokens, the requirement that SKYBASE token holders must hold at least 1% of the circulating token supply to submit a proposal is waived. However, all other procedural requirements within the Root Edit process continue to apply.
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.1.2 - Short-Term Transitionary Measures [Core]  <!-- UUID: f88fc097-7e41-41d7-aac9-992a9a11919f -->
 
-Until the Powerhouse system supports submitting Artifact Edit Proposals, AGENT3 token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Launch Agent 3 Prime" category. The title of the post must include the text "Launch Agent 3 Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total AGENT3 token supply specified in [A.6.1.1.4.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](f57f157c-c260-4671-8150-01acabcd286d).
+Until the Powerhouse system supports submitting Artifact Edit Proposals, SKYBASE token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the “Skybase Prime” category. The title of the post must include the text “Skybase Artifact Edit Proposal”. The post must include cryptographic proof that the author controls an account holding the required percentage of the total SKYBASE token supply specified in [A.6.1.1.4.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](f57f157c-c260-4671-8150-01acabcd286d).
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.2 - Root Edit Expert Advisor Review [Core]  <!-- UUID: 451079fe-fd11-4fef-ae51-6cb533a644c5 -->
 
-A future iteration of the Launch Agent 3 Artifact will specify guidelines for obtaining specialized review of proposals requiring advanced technical or financial analysis.
+A future iteration of the Skybase Artifact will specify guidelines for obtaining specialized review of proposals requiring advanced technical or financial analysis.
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.3 - Root Edit Proposal Review By Operational Facilitator [Core]  <!-- UUID: 76b51e97-ff82-4f52-8c24-7b75d629bb4a -->
 
-Within seven (7) days of the proposal being submitted, the Operational Facilitator must review the Root Edit Proposal for alignment. 
+Within seven (7) days of the proposal being submitted, the Operational Facilitator must review the Root Edit Proposal for alignment.
 
-If the proposal is aligned, the Operational Facilitator must respond to the Forum post to announce their finding. In this Forum post, the Operational Facilitator must also confirm that the proposal is feasible for Operational GovOps to operationalize. 
+If the proposal is aligned, the Operational Facilitator must respond to the Forum post to announce their finding. In this Forum post, the Operational Facilitator must also confirm that the proposal is feasible for Operational GovOps to operationalize.
 
 If the proposal is misaligned, the Operational Facilitator must respond to the Forum post to announce their finding and provide the reasoning for it.
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.4 - Root Edit Token Holder Vote [Core]  <!-- UUID: 836b9942-8fdf-46df-bf38-f5adf87eb390 -->
 
-Where their review of the proposal results in a finding of alignment with the Sky Core Atlas and Launch Agent 3 Artifact, the Operational Facilitator next triggers a Snapshot poll to allow token holders to vote on the proposal. The poll is open for three (3) days. A poll must have at least 10% of the circulating token supply participating and must have more than 50% of votes cast, excluding abstentions, in favor to be approved.
+Where their review of the proposal results in a finding of alignment with the Sky Core Atlas and Skybase Artifact, the Operational Facilitator next triggers a Snapshot poll to allow token holders to vote on the proposal. The poll is open for three (3) days. A poll must have at least 10% of the circulating token supply participating and must have more than 50% of votes cast, excluding abstentions, in favor to be approved.
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.5 - Root Edit Artifact Update [Core]  <!-- UUID: b91f0f85-680d-4eeb-9a2e-7e0e245e4c6d -->
 
@@ -36701,23 +36708,23 @@ At the conclusion of the poll, if the proposal is approved, the Operational Faci
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.5.1 - Short-Term Transitionary Measures [Core]  <!-- UUID: 1adf5e90-53a8-4036-9964-11430891137e -->
 
-Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect proposals approved by Prime Governance.
+Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at https://github.com/sky-ecosystem/next-gen-atlas/pulls to reflect proposals approved by Prime Governance.
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.6 - Artifact Edit Restrictions [Core]  <!-- UUID: f3e8ecec-cb08-4682-9218-d13f567fc00e -->
 
-The Launch Agent 3 Artifact cannot be edited in any way that violates the Sky Core Atlas or its specifications of the Sky Primitives, or in any way that is otherwise misaligned. The Operational Facilitator must enforce this rule through their review of Artifact Edit Proposals.
+The Skybase Artifact cannot be edited in any way that violates the Sky Core Atlas or its specifications of the Sky Primitives, or in any way that is otherwise misaligned. The Operational Facilitator must enforce this rule through their review of Artifact Edit Proposals.
 
 ###### A.6.1.1.4.2.2.2.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: e5477d87-ecc4-4eab-9e11-fe8d76791048 -->
 
-The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 3 Agent Artifact in non-routine conditions.
+The documents herein define the process for using the Root Edit Primitive to update the Skybase Agent Artifact in non-routine conditions.
 
 ###### A.6.1.1.4.2.2.2.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 368ff139-9c2c-4b41-955e-e374996ad274 -->
 
-The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 3 Agent Artifact in urgent or emergency situations.
+The documents herein define the process for using the Root Edit Primitive to update the Skybase Agent Artifact in urgent or emergency situations.
 
 ###### A.6.1.1.4.2.2.2.2.1.2.3.1 - Root Edit Voting Process in Urgent and Emergency Situations [Core]  <!-- UUID: 5edc65d7-8023-4c03-b399-958c5f8869ff -->
 
-In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in [A.1.8.1.1 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225), the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Launch Agent 3 Prime" category), unless doing so would endanger Launch Agent 3 or its users.
+In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in [A.1.8.1.1 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225), the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the “Skybase Prime” category), unless doing so would endanger Skybase or its users.
 
 ###### A.6.1.1.4.2.2.2.2.1.3 - Data Repository [Core]  <!-- UUID: 6f533a79-4263-4b1b-9d47-9ab9e670f0f0 -->
 
@@ -36745,11 +36752,11 @@ Because the Root Edit Primitive is deployed only once, no further Instances of t
 
 ###### A.6.1.1.4.2.2.3 - Light Agent Primitive [Core]  <!-- UUID: ceb79469-e43e-4640-9507-5d1d4eaea3cb -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s Instances of the Light Agent Primitive. See [A.2.3.5.3 - Light Agent Primitive](44028423-2cd1-40cb-89ac-3f762b602b90).
+The documents herein contain all data and specifications for Skybase’s Instances of the Light Agent Primitive. See [A.2.3.5.3 - Light Agent Primitive](44028423-2cd1-40cb-89ac-3f762b602b90).
 
 ###### A.6.1.1.4.2.2.3.1 - Primitive Hub Document [Core]  <!-- UUID: 04e7dd63-49ab-42dd-b195-1e309d7295c9 -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Light Agent Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Light Agent Primitive.
 
 ###### A.6.1.1.4.2.2.3.1.1 - Global Activation Status [Core]  <!-- UUID: 1db03594-b529-4330-a4d9-536178be4303 -->
 
@@ -36797,15 +36804,15 @@ The in progress Invocations of the Light Agent Primitive are contained herein. O
 
 ###### A.6.1.1.4.2.3 - Ecosystem Upkeep Primitives [Core]  <!-- UUID: 833c1933-d81e-4653-af2c-aa03aac70883 -->
 
-The documents herein implement the Ecosystem Upkeep Primitives for Launch Agent 3. See [A.2.3.6 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
+The documents herein implement the Ecosystem Upkeep Primitives for Skybase. See [A.2.3.6 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
 ###### A.6.1.1.4.2.3.1 - Distribution Requirement Primitive [Core]  <!-- UUID: c6ef4a5c-d6f4-42d6-8800-6b7a40e64f50 -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s Instance of the Distribution Requirement Primitive. See [A.2.3.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
+The documents herein contain all data and specifications for Skybase’s Instance of the Distribution Requirement Primitive. See [A.2.3.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
 
 ###### A.6.1.1.4.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 9beebf8b-dfd4-40b4-8de1-f5a3f4a60824 -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Distribution Requirement Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Distribution Requirement Primitive.
 
 ###### A.6.1.1.4.2.3.1.1.1 - Global Activation Status [Core]  <!-- UUID: dbb03eb2-d193-4193-93c7-1d874b9995f3 -->
 
@@ -36857,7 +36864,7 @@ The documents herein define the parameters of the Single Instance of the Distrib
 
 ###### A.6.1.1.4.2.3.1.2.1.1.1 - Terms [Core]  <!-- UUID: 69b65ee6-746a-4d78-8d60-ec40ca2bb6b4 -->
 
-Launch Agent 3 will buy back and distribute 0.25% of its total token supply per year.
+Skybase will buy back and distribute 0.25% of its total token supply per year.
 
 ###### A.6.1.1.4.2.3.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 61232bcd-4510-4ed1-8ede-14d744329c27 -->
 
@@ -36873,7 +36880,7 @@ This document defines the protocol for routine ongoing management of the Single 
 
 ###### A.6.1.1.4.2.3.1.2.1.2.1.1 - Process Definition For Buy Back And Distribution Obligation [Core]  <!-- UUID: e2db4ada-d8af-4481-963b-8ed8adfbd18d -->
 
-The process to buy back and distribute 0.25% of Launch Agent 3’s tokens per year will be specified in future iterations of the Launch Agent 3 Artifact.
+The process to buy back and distribute 0.25% of Skybase’s tokens per year will be specified in future iterations of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.3.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: df35e2e9-116d-4a1c-95d7-1e4b8acdd1c3 -->
 
@@ -36909,11 +36916,11 @@ Because the Distribution Requirement Primitive is deployed only once, no further
 
 ###### A.6.1.1.4.2.3.2 - Market Cap Fee Primitive [Core]  <!-- UUID: 73c34ab2-f346-4c19-8bfa-c96b8c528a54 -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s instances of the Market Cap Fee Primitive. See [A.2.3.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
+The documents herein contain all data and specifications for Skybase’s instances of the Market Cap Fee Primitive. See [A.2.3.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
 ###### A.6.1.1.4.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: f7130548-974b-4c23-a3f6-677cb75250bc -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Market Cap Fee Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Market Cap Fee Primitive.
 
 ###### A.6.1.1.4.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 0e6e03a7-cb5f-432e-b599-01e783b0c179 -->
 
@@ -36961,11 +36968,11 @@ The in progress Invocations of the Market Cap Fee Primitive are contained herein
 
 ###### A.6.1.1.4.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: dec47cc6-dce7-4256-bd23-6b659ae8bc25 -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s instance of the Upkeep Rebate Primitive. See [A.2.3.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
+The documents herein contain all data and specifications for Skybase’s instance of the Upkeep Rebate Primitive. See [A.2.3.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
 ###### A.6.1.1.4.2.3.3.1 - Primitive Hub Document [Core]  <!-- UUID: 6952060d-f1dd-4d86-b2f8-f07090174d1d -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Upkeep Rebate Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Upkeep Rebate Primitive.
 
 ###### A.6.1.1.4.2.3.3.1.1 - Global Activation Status [Core]  <!-- UUID: aec5c887-c2d2-43ee-b00e-e77716b7bb30 -->
 
@@ -37023,17 +37030,17 @@ The documents herein define the process for the ongoing management of the Single
 
 This document defines the protocol for routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.4.2.3.3.2.1.2.1.1 - Launch Agent 3 Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 0d37e672-8a82-433c-a5c7-f88ff248cb6a -->
+###### A.6.1.1.4.2.3.3.2.1.2.1.1 - Skybase Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 0d37e672-8a82-433c-a5c7-f88ff248cb6a -->
 
-Launch Agent 3 keeps all tokens of other Agents it holds in its SubProxy account.
+Skybase keeps all tokens of other Agents it holds in its SubProxy account.
 
-###### A.6.1.1.4.2.3.3.2.1.2.1.2 - Launch Agent 3 Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: d2a0b2dd-353f-46b1-ae2c-1791ce2a0b77 -->
+###### A.6.1.1.4.2.3.3.2.1.2.1.2 - Skybase Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: d2a0b2dd-353f-46b1-ae2c-1791ce2a0b77 -->
 
-When paying Ecosystem Upkeep fees, Launch Agent 3 deducts the rebate from the fees it pays.
+When paying Ecosystem Upkeep fees, Skybase deducts the rebate from the fees it pays.
 
 ###### A.6.1.1.4.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 911e4409-146c-49e6-9f5c-5abdc58d97d3 -->
 
-Operational GovOps reviews Launch Agent 3’s calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Launch Agent 3 Prime" category and work with Launch Agent 3 to resolve the disagreement. If Operational GovOps and Launch Agent 3 cannot resolve the disagreement, it must be escalated to Core GovOps.
+Operational GovOps reviews Skybase’s calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the “Skybase Prime” category and work with Skybase to resolve the disagreement. If Operational GovOps and Skybase cannot resolve the disagreement, it must be escalated to Core GovOps.
 
 ###### A.6.1.1.4.2.3.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 299fa3a2-ce38-4697-b876-faaa5e5ca3a9 -->
 
@@ -37069,15 +37076,15 @@ Because the Upkeep Rebate Primitive is deployed only once, no further Instances 
 
 ###### A.6.1.1.4.2.4 - SkyLink Primitives [Core]  <!-- UUID: 23b316a2-8a07-4295-808f-f787fea871de -->
 
-The documents herein implement the SkyLink Primitives for Launch Agent 3. See [A.2.3.7 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
+The documents herein implement the SkyLink Primitives for Skybase. See [A.2.3.7 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
 
 ###### A.6.1.1.4.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: ddeb2ecf-ea5c-4087-a44d-0a69de3033f7 -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s Instances of the Token SkyLink Primitive. See [A.2.3.7.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
+The documents herein contain all data and specifications for Skybase’s Instances of the Token SkyLink Primitive. See [A.2.3.7.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
 
 ###### A.6.1.1.4.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: 052c7deb-75d9-4be2-aa45-cb3a59d14bd5 -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Token SkyLink Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Token SkyLink Primitive.
 
 ###### A.6.1.1.4.2.4.1.1.1 - Global Activation Status [Core]  <!-- UUID: e8c65465-9db4-48a7-be8e-5e9616779056 -->
 
@@ -37125,15 +37132,15 @@ The in progress Invocations of the Token SkyLink Primitive are contained herein.
 
 ###### A.6.1.1.4.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: 6a390014-e5c9-4656-bdf8-587264a141cd -->
 
-The documents herein implement the Demand Side Stablecoin Primitives for Launch Agent 3. See [A.2.3.8 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
+The documents herein implement the Demand Side Stablecoin Primitives for Skybase. See [A.2.3.8 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
 
 ###### A.6.1.1.4.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: d8e61fc3-18a2-4952-8e5b-43cfb94b0bab -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s instances of the Distribution Reward Primitive. See [A.2.3.8.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
+The documents herein contain all data and specifications for Skybase’s instances of the Distribution Reward Primitive. See [A.2.3.8.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
 
 ###### A.6.1.1.4.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: 10b6c6e8-edee-4a77-a6c4-bbb05db8b364 -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Distribution Reward Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Distribution Reward Primitive.
 
 ###### A.6.1.1.4.2.5.1.1.1 - Global Activation Status [Core]  <!-- UUID: 03230dbb-8896-40b3-b5c3-d3c4ee729606 -->
 
@@ -37143,13 +37150,13 @@ The documents herein organize all base information relevant to Launch Agent 3’
 
 This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of `Active`.
 
-###### A.6.1.1.4.2.5.1.1.2.1 - Launch Agent 3 Frontend App Instance Configuration Document Location [Core]  <!-- UUID: ab7ff4b8-7e62-4a36-8573-581c86293e50 -->
+###### A.6.1.1.4.2.5.1.1.2.1 - Sky.money App Instance Configuration Document Location [Core]  <!-- UUID: ab7ff4b8-7e62-4a36-8573-581c86293e50 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.1 - Launch Agent 3 Frontend App Instance Configuration Document](b52f88c6-427b-45f6-8e1c-81fa27e522c8).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.1 - Sky.money App Instance Configuration Document](b52f88c6-427b-45f6-8e1c-81fa27e522c8).
 
-###### A.6.1.1.4.2.5.1.1.2.2 - Launch Agent 3 Frontend Open Source Widgets Instance Configuration Document Location [Core]  <!-- UUID: 43fbf9b3-7cf6-46f3-a900-c3ef9d193d02 -->
+###### A.6.1.1.4.2.5.1.1.2.2 - Sky.money Open Source Widgets Instance Configuration Document Location [Core]  <!-- UUID: 43fbf9b3-7cf6-46f3-a900-c3ef9d193d02 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.2 - Launch Agent 3 Frontend Open Source Widgets Instance Configuration Document](5aada153-29f6-4304-b56e-9d425dc978a4).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.2 - Sky.money Open Source Widgets Instance Configuration Document](5aada153-29f6-4304-b56e-9d425dc978a4).
 
 ###### A.6.1.1.4.2.5.1.1.2.3 - Summer.fi Instance Configuration Document Location [Core]  <!-- UUID: 0e6a80cb-041c-4dc1-a22b-91fda88ecd92 -->
 
@@ -37175,6 +37182,10 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.8 - MOM Instance Configuration Document](ee4f9b64-aeb7-4813-b187-996e8172fea1).
 
+###### A.6.1.1.4.2.5.1.1.2.9 - Lazy Summer Configuration Document Location [Core]  <!-- UUID: 802c6126-3283-4311-b67f-a05003f7e6bf -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.9 - Lazy Summer Instance Configuration Document](74db9986-5277-4c5f-8e27-f6a312ed591f).
+
 ###### A.6.1.1.4.2.5.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 3c43db85-3995-4c95-a85c-e72786a28501 -->
 
 This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of `Completed`.
@@ -37195,33 +37206,22 @@ Instance Configuration Document Location: [A.6.1.1.4.2.5.1.4.1 - MetaMask Instan
 
 The Invocation Status and Instance Configuration Document location of this prospective Instance are specified below:
 
-Invocation Status: `Planning
-`
+Invocation Status: `Planning`
 Instance Configuration Document Location: [A.6.1.1.4.2.5.1.4.2 - InstaDapp Instance Configuration Document](e870392a-2552-41ca-a148-4be47d34bac7).
 
 ###### A.6.1.1.4.2.5.1.1.4.3 - Gnosis Protocol [Core]  <!-- UUID: d901f747-bd11-4359-b7d3-05752098586e -->
 
 The Invocation Status and Instance Configuration Document location of this prospective Instance are specified below:
 
-Invocation Status: `Planning
-`
+Invocation Status: `Planning`
 Instance Configuration Document Location: [A.6.1.1.4.2.5.1.4.3 - Gnosis Protocol Instance Configuration Document](34cde6e0-89a1-44a4-9ce1-58873b83c63b).
 
 ###### A.6.1.1.4.2.5.1.1.4.4 - Piku.co [Core]  <!-- UUID: befc9c75-0263-443d-b662-fe667a645d79 -->
 
 The Invocation Status and Instance Configuration Document location of this prospective Instance are specified below:
 
-Invocation Status: `Planning
-`
+Invocation Status: `Planning`
 Instance Configuration Document Location: [A.6.1.1.4.2.5.1.4.4 - Piku.co Instance Configuration Document](bc145261-ff5d-4937-abbd-0719390ff124).
-
-###### A.6.1.1.4.2.5.1.1.4.5 - Lazy Summer Protocol [Core]  <!-- UUID: 3485ade3-1cb3-4792-aec4-e3b3fd20d63e -->
-
-The Invocation Status and Instance Configuration Document location of this prospective Instance are specified below:
-
-Invocation Status: `Planning
-`
-Instance Configuration Document Location: [A.6.1.1.4.2.5.1.4.5 - Lazy Summer Protocol Instance Configuration Document](022ab7d1-05c3-422f-815c-0605f7f83f02).
 
 ###### A.6.1.1.4.2.5.1.1.5 - Hub Data Repository [Core]  <!-- UUID: 86d7913a-b8d0-42a8-a6b7-02c190e74373 -->
 
@@ -37243,13 +37243,13 @@ The subtrees for Instances of the Distribution Reward Primitive with `Suspended`
 
 The Instances of the Distribution Reward Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.4.2.5.1.2.1 - Launch Agent 3 Frontend App Instance Configuration Document [Core]  <!-- UUID: b52f88c6-427b-45f6-8e1c-81fa27e522c8 -->
+###### A.6.1.1.4.2.5.1.2.1 - Sky.money App Instance Configuration Document [Core]  <!-- UUID: b52f88c6-427b-45f6-8e1c-81fa27e522c8 -->
 
-The documents herein contain the Instance Configuration Document for the Launch Agent 3 Frontend App Distribution Reward Primitive Instance.
+The documents herein contain the Instance Configuration Document for the Sky.money App Distribution Reward Primitive Instance.
 
 ###### A.6.1.1.4.2.5.1.2.1.1 - Parameters [Core]  <!-- UUID: 5455497f-bfb3-49a0-a788-0b7db4da799b -->
 
-The documents herein define the parameters of the Launch Agent 3 Frontend App Instance of the Distribution Reward Primitive.
+The documents herein define the parameters of the Sky.money App Instance of the Distribution Reward Primitive.
 
 ###### A.6.1.1.4.2.5.1.2.1.1.1 - Reward Code [Core]  <!-- UUID: fcff71ae-93ff-49f7-aa39-a97077a921c6 -->
 
@@ -37261,17 +37261,17 @@ This Instance uses the Tracking Methodology specified in [A.2.3.8.1.2.1.2.2.1 - 
 
 ###### A.6.1.1.4.2.5.1.2.1.1.3 - Custom Instance Parameters [Core]  <!-- UUID: e5ff6cc4-c1d2-4184-a266-010104a6a28f -->
 
-The documents herein define the custom parameters of the Launch Agent 3 Frontend App Instance of the Distribution Reward Primitive, if any.
+The documents herein define the custom parameters of the Sky.money App Instance of the Distribution Reward Primitive, if any.
 
 ###### A.6.1.1.4.2.5.1.2.1.2 - Operational Process Definition [Core]  <!-- UUID: cb266ef8-782b-4bef-af06-be12b727b280 -->
 
-The documents herein define the process for the ongoing management of the Launch Agent 3 Frontend App Instance of the Distribution Reward Primitive.
+The documents herein define the process for the ongoing management of the Sky.money App Instance of the Distribution Reward Primitive.
 
 ###### A.6.1.1.4.2.5.1.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: bd3b25ac-90b8-49f0-ac29-bb51a2290820 -->
 
-This document defines the protocol for routine ongoing management of the Launch Agent 3 Frontend App Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4 - Instance Ongoing Management Protocol](3af0e156-b5c0-493b-bd6f-80185072b7b1), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2). 
+This document defines the protocol for routine ongoing management of the Sky.money App Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
 ###### A.6.1.1.4.2.5.1.2.1.2.1.1 - Agent Customizations [Core]  <!-- UUID: b803a685-e88f-48d9-92e9-7e9e3c574b36 -->
 
@@ -37281,15 +37281,15 @@ The Prime Agent may define instance-specific customization of the routine protoc
 
 ###### A.6.1.1.4.2.5.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: eff49ccd-5874-41d9-aff0-3e3e2a348336 -->
 
-The documents herein define the protocol for non-routine ongoing management of the Launch Agent 3 Frontend App Instance of this Distribution Reward Primitive.
+The documents herein define the protocol for non-routine ongoing management of the Sky.money App Instance of this Distribution Reward Primitive.
 
 ###### A.6.1.1.4.2.5.1.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: d7296a92-3a38-42c3-938c-5327725b0fbb -->
 
-The documents herein define the protocol for handling emergency situations in the ongoing management of the Launch Agent 3 Frontend App Instance of this Distribution Reward Primitive.
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Sky.money App Instance of this Distribution Reward Primitive.
 
 ###### A.6.1.1.4.2.5.1.2.1.3 - Data Repository [Core]  <!-- UUID: 4ef496cf-201e-4a98-9f7e-e61ad7eebfd6 -->
 
-The documents herein contain data relevant to the Launch Agent 3 Frontend App Instance of the Distribution Reward Primitive.
+The documents herein contain data relevant to the Sky.money App Instance of the Distribution Reward Primitive.
 
 ###### A.6.1.1.4.2.5.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: c4fead38-31dc-4a6a-8d98-5f28b1a46f7a -->
 
@@ -37305,9 +37305,10 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 ###### A.6.1.1.4.2.5.1.2.1.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 8ece0051-0eee-427f-b2ea-1abfd52b80cd -->
 
-The Distribution Reward payments for the Launch Agent 3 Frontend App Instance of the Distribution Reward Primitive are defined as Active Data.
+The Distribution Reward payments for the Sky.money App Instance of the Distribution Reward Primitive are defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
@@ -37315,13 +37316,13 @@ The Active Data is updated as follows:
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.2 - Launch Agent 3 Frontend Open Source Widgets Instance Configuration Document [Core]  <!-- UUID: 5aada153-29f6-4304-b56e-9d425dc978a4 -->
+###### A.6.1.1.4.2.5.1.2.2 - Sky.money Open Source Widgets Instance Configuration Document [Core]  <!-- UUID: 5aada153-29f6-4304-b56e-9d425dc978a4 -->
 
-The documents herein contain the Instance Configuration Document for the Launch Agent 3 Frontend Open Source Widgets Distribution Reward Primitive Instance.
+The documents herein contain the Instance Configuration Document for the Sky.money Open Source Widgets Distribution Reward Primitive Instance.
 
 ###### A.6.1.1.4.2.5.1.2.2.1 - Parameters [Core]  <!-- UUID: 159c7e99-c884-4496-aa9b-b7721be4849a -->
 
-The documents herein define the parameters of the Launch Agent 3 Frontend Open Source Widgets Instance of the Distribution Reward Primitive.
+The documents herein define the parameters of the Sky.money Open Source Widgets Instance of the Distribution Reward Primitive.
 
 ###### A.6.1.1.4.2.5.1.2.2.1.1 - Reward Code [Core]  <!-- UUID: 9a774d02-8882-4363-87b9-2efebc8142f8 -->
 
@@ -37333,17 +37334,17 @@ This Instance uses the Tracking Methodology specified in [A.2.3.8.1.2.1.2.2.1 - 
 
 ###### A.6.1.1.4.2.5.1.2.2.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 79e22741-ef2b-4b8e-b97c-acead4550deb -->
 
-The documents herein define the custom parameters of the Launch Agent 3 Frontend Open Source Widgets Instance of the Distribution Reward Primitive, if any.
+The documents herein define the custom parameters of the Sky.money Open Source Widgets Instance of the Distribution Reward Primitive, if any.
 
 ###### A.6.1.1.4.2.5.1.2.2.2 - Operational Process Definition [Core]  <!-- UUID: 4f94c1ee-d908-412a-b4c9-2f59e5bd4e67 -->
 
-The documents herein define the process for the ongoing management of the Launch Agent 3 Frontend Open Source Widgets Instance of the Distribution Reward Primitive.
+The documents herein define the process for the ongoing management of the Open Source Widgets Instance of the Distribution Reward Primitive.
 
 ###### A.6.1.1.4.2.5.1.2.2.2.1 - Routine Protocol [Core]  <!-- UUID: 461e8506-cc90-4c8d-9927-153ee996c432 -->
 
-This document defines the protocol for routine ongoing management of the Launch Agent 3 Frontend Open Source Widgets Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4 - Instance Ongoing Management Protocol](3af0e156-b5c0-493b-bd6f-80185072b7b1), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2). 
+This document defines the protocol for routine ongoing management of the Sky.money Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
 ###### A.6.1.1.4.2.5.1.2.2.2.1.1 - Agent Customizations [Core]  <!-- UUID: 5524ef1f-2b23-457a-b1fc-89773f56a7f3 -->
 
@@ -37353,15 +37354,15 @@ The Prime Agent may define instance-specific customization of the routine protoc
 
 ###### A.6.1.1.4.2.5.1.2.2.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 2ff3ed8b-6466-4a3d-87e0-040fb8940859 -->
 
-The documents herein define the protocol for non-routine ongoing management of the Launch Agent 3 Frontend Open Source Widgets Instance of this Distribution Reward Primitive.
+The documents herein define the protocol for non-routine ongoing management of the Sky.money Open Source Widgets Instance of this Distribution Reward Primitive.
 
 ###### A.6.1.1.4.2.5.1.2.2.2.3 - Emergency Protocol [Core]  <!-- UUID: 45f2cc2c-e96d-455f-808e-e188e5aece34 -->
 
-The documents herein define the protocol for handling emergency situations in the ongoing management of the Launch Agent 3 Frontend Open Source Widgets Instance of this Distribution Reward Primitive.
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Sky.money Open Source Widgets Instance of this Distribution Reward Primitive.
 
 ###### A.6.1.1.4.2.5.1.2.2.3 - Data Repository [Core]  <!-- UUID: b198cdd7-92c2-4ff5-9f10-b0d315ed5f00 -->
 
-The documents herein contain data relevant to the Launch Agent 3 Frontend Open Source Widgets Instance of the Distribution Reward Primitive.
+The documents herein contain data relevant to the Sky.money Open Source Widgets Instance of the Distribution Reward Primitive.
 
 ###### A.6.1.1.4.2.5.1.2.2.3.1 - Initial Planning [Core]  <!-- UUID: 8578558a-5bd3-4256-a8f6-0e14da879257 -->
 
@@ -37377,9 +37378,10 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 ###### A.6.1.1.4.2.5.1.2.2.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: d96439a8-df0d-4ba9-973e-896fac953fad -->
 
-The Distribution Reward payments for the Launch Agent 3 Frontend Open Source Widgets Instance of the Distribution Reward Primitive are defined as Active Data.
+The Distribution Reward payments for the Sky.money Open Source Widgets Instance of the Distribution Reward Primitive are defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
@@ -37413,9 +37415,9 @@ The documents herein define the process for the ongoing management of the Summer
 
 ###### A.6.1.1.4.2.5.1.2.3.2.1 - Routine Protocol [Core]  <!-- UUID: de64fb0f-e867-495f-9e43-c197072e1c3d -->
 
-This document defines the protocol for routine ongoing management of the Summer.fi Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4 - Instance Ongoing Management Protocol](3af0e156-b5c0-493b-bd6f-80185072b7b1), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2). 
+This document defines the protocol for routine ongoing management of the Summer.fi Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
 ###### A.6.1.1.4.2.5.1.2.3.2.1.1 - Agent Customizations [Core]  <!-- UUID: 216473d9-6f63-45ff-aa7b-a6bec64dd6dc -->
 
@@ -37452,6 +37454,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 The Distribution Reward payments for the Summer.fi Instance of the Distribution Reward Primitive are defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
@@ -37461,15 +37464,17 @@ The Distribution Reward Payments are:
 
 ###### A.6.1.1.4.2.5.1.2.3.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 73fc6f80-ac05-423f-ac58-e22dbfa8de3f -->
 
-This Document records information pertaining to Launch Agent 3’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.6.1.1.4.2.5.1.2.3.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 1b25a9fd-1bb0-4425-b9a1-372f737d3a45 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
 - Reward Period
 - Payee
 - Payment Address
@@ -37507,9 +37512,9 @@ The documents herein define the process for the ongoing management of the DeFi S
 
 ###### A.6.1.1.4.2.5.1.2.4.2.1 - Routine Protocol [Core]  <!-- UUID: 2e0cdaa7-5d3a-42c2-808d-220c4823c0e2 -->
 
-This document defines the protocol for routine ongoing management of the DeFi Saver Instance. This Instance inherits the base class of operational logic defined in This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4 - Instance Ongoing Management Protocol](3af0e156-b5c0-493b-bd6f-80185072b7b1), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2). 
+This document defines the protocol for routine ongoing management of the DeFi Saver Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
 ###### A.6.1.1.4.2.5.1.2.4.2.1.1 - Agent Customizations [Core]  <!-- UUID: 9cef88a9-952f-460b-92c3-d6bb90974972 -->
 
@@ -37546,6 +37551,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 The Distribution Reward payments for the DeFi Saver Instance of the Distribution Reward Primitive are defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
@@ -37555,15 +37561,17 @@ The Distribution Reward Payments are:
 
 ###### A.6.1.1.4.2.5.1.2.4.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: e2a262ce-e59a-421c-ab32-803fe41802c4 -->
 
-This Document records information pertaining to Launch Agent 3’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.6.1.1.4.2.5.1.2.4.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 8fc2657e-fb6b-4d43-988c-6f47b71052f1 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
 - Reward Period
 - Payee
 - Payment Address
@@ -37573,7 +37581,7 @@ The payment details consist of a table where each entry represents a single paym
 
 ###### A.6.1.1.4.2.5.1.2.4.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: da35cd2c-4113-4656-a5f5-5b804b5f894f -->
 
-The payment address of this Third Party Partner will be defined in a future iteration of the Launch Agent 3 Artifact.
+DeFi Saver - `0x6467e807dB1E71B9Ef04E0E3aFb962E4B0900B2B`
 
 ###### A.6.1.1.4.2.5.1.2.5 - CoW Swap Instance Configuration Document [Core]  <!-- UUID: 80f22d64-0ccf-4bb2-8da4-d170a95d2161 -->
 
@@ -37589,7 +37597,7 @@ The documents herein define the parameters of the CoW Swap Instance of the Distr
 
 ###### A.6.1.1.4.2.5.1.2.5.1.2 - Tracking Methodology [Core]  <!-- UUID: fc6cd905-6f53-4e3a-9ac8-14ca46fef6af -->
 
-This Instance uses the Tracking Methodology specified in [A.2.3.8.1.2.1.2.2.2 - Ethereum Mainnet CoW Swap Tracking Methodology](1b5cc0ee-0ee8-467e-ab49-33c06ad417dc). Specifically, on-chain Settlement Events on the CoW Swap settlement contract ([https://etherscan.io/address/0x9008D19f58AAbD9eD0D60971565AA8510560ab41](https://etherscan.io/address/0x9008D19f58AAbD9eD0D60971565AA8510560ab41)) are checked for where they coincide perfectly with USDS deposit transactions into sUSDS.
+This Instance uses the Tracking Methodology specified in [A.2.3.8.1.2.1.2.2.2 - Ethereum Mainnet CoW Swap Tracking Methodology](1b5cc0ee-0ee8-467e-ab49-33c06ad417dc). Specifically, on-chain Settlement Events on the CoW Swap settlement contract (https://etherscan.io/address/0x9008D19f58AAbD9eD0D60971565AA8510560ab41) are checked for where they coincide perfectly with USDS deposit transactions into sUSDS.
 
 ###### A.6.1.1.4.2.5.1.2.5.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 947cf303-80e9-4b9f-9403-a9634d876d76 -->
 
@@ -37601,9 +37609,9 @@ The documents herein define the process for the ongoing management of the CoW Sw
 
 ###### A.6.1.1.4.2.5.1.2.5.2.1 - Routine Protocol [Core]  <!-- UUID: c6e84f25-85fe-412e-808a-235e713d4ec2 -->
 
-This document defines the protocol for routine ongoing management of the CoW Swap Instance. This Instance inherits the base class of operational logic defined in This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4 - Instance Ongoing Management Protocol](3af0e156-b5c0-493b-bd6f-80185072b7b1), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2). 
+This document defines the protocol for routine ongoing management of the CoW Swap Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
 ###### A.6.1.1.4.2.5.1.2.5.2.1.1 - Agent Customizations [Core]  <!-- UUID: 1d1a2365-7cf2-409e-9637-5d7f9e6c0752 -->
 
@@ -37640,6 +37648,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 The Distribution Reward payments for the CoW Swap Instance of the Distribution Reward Primitive are defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
@@ -37649,15 +37658,17 @@ The Distribution Reward Payments are:
 
 ###### A.6.1.1.4.2.5.1.2.5.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 84df5c1e-86b7-431d-bb0e-8708f99a572e -->
 
-This Document records information pertaining to Launch Agent 3’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.6.1.1.4.2.5.1.2.5.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 88f6d49f-9473-46c2-a030-d3f74f2d1377 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
 - Reward Period
 - Payee
 - Payment Address
@@ -37695,9 +37706,9 @@ The documents herein define the process for the ongoing management of the ParaSw
 
 ###### A.6.1.1.4.2.5.1.2.6.2.1 - Routine Protocol [Core]  <!-- UUID: bf955649-4ac2-45e2-8376-052e884698e4 -->
 
-This document defines the protocol for routine ongoing management of the ParaSwap Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4 - Instance Ongoing Management Protocol](3af0e156-b5c0-493b-bd6f-80185072b7b1), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2). 
+This document defines the protocol for routine ongoing management of the ParaSwap Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
 ###### A.6.1.1.4.2.5.1.2.6.2.1.1 - Agent Customizations [Core]  <!-- UUID: 200fb6db-3425-4bf5-adde-b9d3bcff412d -->
 
@@ -37734,6 +37745,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 The Distribution Reward payments for the ParaSwap Instance of the Distribution Reward Primitive are defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
@@ -37743,15 +37755,17 @@ The Distribution Reward Payments are:
 
 ###### A.6.1.1.4.2.5.1.2.6.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 81bafe53-8c66-43ec-82fd-5848b9d64555 -->
 
-This Document records information pertaining to Launch Agent 3’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.6.1.1.4.2.5.1.2.6.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 3306dbf8-6c7c-4cfe-b98d-08105282272e -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
 - Reward Period
 - Payee
 - Payment Address
@@ -37761,7 +37775,7 @@ The payment details consist of a table where each entry represents a single paym
 
 ###### A.6.1.1.4.2.5.1.2.6.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 8088e4e4-a594-448c-a3cb-752b907b4f3c -->
 
-The payment address of this Third Party Partner will be defined in a future iteration of the Launch Agent 3 Artifact.
+The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.5.1.2.7 - Yearn (Gimme) Instance Configuration Document [Core]  <!-- UUID: f36ce752-38d1-4dd4-8a51-dd18f2151756 -->
 
@@ -37789,9 +37803,9 @@ The documents herein define the process for the ongoing management of the Yearn 
 
 ###### A.6.1.1.4.2.5.1.2.7.2.1 - Routine Protocol [Core]  <!-- UUID: 1c93fd6d-5cff-46e7-86e5-0af4f6c83b4b -->
 
-This document defines the protocol for routine ongoing management of the Yearn (Gimme) Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4 - Instance Ongoing Management Protocol](3af0e156-b5c0-493b-bd6f-80185072b7b1), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2). 
+This document defines the protocol for routine ongoing management of the Yearn (Gimme) Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
 ###### A.6.1.1.4.2.5.1.2.7.2.1.1 - Agent Customizations [Core]  <!-- UUID: d341791b-eec0-46a8-ada5-f6142ff49034 -->
 
@@ -37828,6 +37842,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 The Distribution Reward payments for the Yearn (Gimme) Instance of the Distribution Reward Primitive are defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
@@ -37837,15 +37852,17 @@ The Distribution Reward Payments are:
 
 ###### A.6.1.1.4.2.5.1.2.7.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 690e54dd-c88a-422e-a06d-e6812035fc1c -->
 
-This Document records information pertaining to Launch Agent 3’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.6.1.1.4.2.5.1.2.7.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 034c4a3d-46fc-46b4-afd0-1187bc29ea07 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
 - Reward Period
 - Payee
 - Payment Address
@@ -37883,9 +37900,9 @@ The documents herein define the process for the ongoing management of the MOM In
 
 ###### A.6.1.1.4.2.5.1.2.8.2.1 - Routine Protocol [Core]  <!-- UUID: 4b22e820-db7b-4f76-8b82-6f60b21ca1d9 -->
 
-This document defines the protocol for routine ongoing management of the MOM Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4 - Instance Ongoing Management Protocol](3af0e156-b5c0-493b-bd6f-80185072b7b1), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2). 
+This document defines the protocol for routine ongoing management of the MOM Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
 ###### A.6.1.1.4.2.5.1.2.8.2.1.1 - Agent Customizations [Core]  <!-- UUID: 9bbe0d8a-a65b-4da4-bdd0-8206c564f090 -->
 
@@ -37922,6 +37939,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 The Distribution Reward payments for the MOM Instance of the Distribution Reward Primitive are defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
@@ -37931,15 +37949,17 @@ The Distribution Reward Payments are:
 
 ###### A.6.1.1.4.2.5.1.2.8.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 74b0e9af-0a6d-4cfc-988a-5621713772fc -->
 
-This Document records information pertaining to Launch Agent 3’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.6.1.1.4.2.5.1.2.8.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: fc1a5e0b-0909-48d1-adc4-77e51a900050 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
 - Reward Period
 - Payee
 - Payment Address
@@ -37949,7 +37969,104 @@ The payment details consist of a table where each entry represents a single paym
 
 ###### A.6.1.1.4.2.5.1.2.8.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 4fc18aff-0fd6-41ea-a5e8-92ea54861c99 -->
 
-The payment address of this Third Party Partner will be defined in a future iteration of the Launch Agent 3 Artifact.
+The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
+
+###### A.6.1.1.4.2.5.1.2.9 - Lazy Summer Protocol Instance Configuration Document [Core]  <!-- UUID: 74db9986-5277-4c5f-8e27-f6a312ed591f -->
+
+The documents herein contain the Instance Configuration Document for the Lazy Summer Protocol Distribution Reward Primitive Instance.
+
+###### A.6.1.1.4.2.5.1.2.9.1 - Parameters [Core]  <!-- UUID: be044103-09bc-410d-872a-1dfefc9410aa -->
+
+The documents herein define the parameters of the Lazy Summer Protocol Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.9.1.1 - Reward Code [Core]  <!-- UUID: a6caf2b3-a62d-495f-a580-1f962df1f994 -->
+
+`1016`.
+
+###### A.6.1.1.4.2.5.1.2.9.1.2 - Tracking Methodology [Core]  <!-- UUID: 02b3a96e-2b37-4cd5-ace8-1849b1ce4840 -->
+
+This parameter will be defined in a future iteration of the Skybase Artifact.
+
+###### A.6.1.1.4.2.5.1.2.9.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 73767654-3011-447b-9232-9e46cd6755aa -->
+
+The documents herein define the custom parameters of the Lazy Summer Protocol Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.4.2.5.1.2.9.2 - Operational Process Definition [Core]  <!-- UUID: d9308330-b4c2-4b7a-9416-3363dc334089 -->
+
+The documents herein define the process for the ongoing management of the Lazy Summer Protocol Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.9.2.1 - Routine Protocol [Core]  <!-- UUID: 4a7215e4-f78e-4a44-9935-d5f18463cb3d -->
+
+This document defines the protocol for routine ongoing management of the Lazy Summer Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
+
+###### A.6.1.1.4.2.5.1.2.9.2.1.1 - Agent Customizations [Core]  <!-- UUID: 65d8cd24-5a71-40b7-8f37-8bd6f07de068 -->
+
+The Prime Agent may define instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.4.2.5.1.2.9.2.2 - Non-Routine Protocol [Core]  <!-- UUID: f6a4b979-13e6-48da-a53c-aef0b06f657b -->
+
+The documents herein define the protocol for non-routine ongoing management of the Lazy Summer Protocol Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.9.2.3 - Emergency Protocol [Core]  <!-- UUID: d607f30d-740a-4988-834a-e0d3522d1972 -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Lazy Summer Protocol Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.9.3 - Data Repository [Core]  <!-- UUID: d6312bd7-c098-4fdd-99b8-a84cee98f64f -->
+
+The documents herein contain data relevant to the Lazy Summer Protocol Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.9.3.1 - Initial Planning [Core]  <!-- UUID: 85861627-db6d-4be3-8057-8aff18035130 -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.2.9.3.2 - Operational GovOps Review [Core]  <!-- UUID: 97a92e00-3f0e-481c-ab18-c3ceb1105d42 -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.2.9.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: cd44d715-d147-42b9-b84b-9a8d370ca6bf -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.2.9.3.4 - Distribution Reward Payments [Core]  <!-- UUID: 42349b55-1334-478b-bddd-d692e55e07b9 -->
+
+The Distribution Reward payments for the Lazy Summer Protocol Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for ‘Direct Edit’.
+
+###### A.6.1.1.4.2.5.1.2.9.3.4.0.6.1 - List Of Distribution Reward Payments [Core]  <!-- UUID: 928ecae3-ee6f-4961-bae0-90dbf42b3b4d -->
+
+The Distribution Reward Payments are:
+
+###### A.6.1.1.4.2.5.1.2.9.3.5 - Third Party Partner Payment Addresses And Transaction Records [Core]  <!-- UUID: 04d4fea9-cc1e-4275-af1a-27f8c9b15d0b -->
+
+This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for ‘Direct Edit’.
+
+###### A.6.1.1.4.2.5.1.2.9.3.5.0.6.1 - Payment Details Per Reward Period [Core]  <!-- UUID: 0b55dd49-4787-4895-be75-091f9c2689f3 -->
+
+The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
+- Reward Period
+- Payee
+- Payment Address
+- Amount Paid
+- Transaction Hash
+- Transaction Date
+
+###### A.6.1.1.4.2.5.1.2.9.3.5.0.6.2 - Third Party Partner Payment Addresses [Core]  <!-- UUID: 08771b54-8577-44ee-9edb-1915c0f6f050 -->
+
+The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.5.1.3 - Completed Instances [Core]  <!-- UUID: 44389e6f-b48e-4426-a6c8-110ec76ebea1 -->
 
@@ -37977,7 +38094,7 @@ The documents herein define the parameters of the MetaMask Instance of the Distr
 
 ###### A.6.1.1.4.2.5.1.4.1.2.2 - Tracking Methodology [Core]  <!-- UUID: 98906b92-72db-4f7e-ac79-053a92728025 -->
 
-This parameter will be defined in a future iteration of the Launch Agent 3 Artifact.
+This parameter will be defined in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.5.1.4.1.2.3 - Custom Instance Parameters [Core]  <!-- UUID: fc5ec9c3-fad3-455d-8cb8-8be082ea388e -->
 
@@ -37989,9 +38106,9 @@ The documents herein define the process for the ongoing management of the MetaMa
 
 ###### A.6.1.1.4.2.5.1.4.1.3.1 - Routine Protocol [Core]  <!-- UUID: 02c6ffc8-5fdc-4a1f-8037-a6a1aeb5e51c -->
 
-This document defines the protocol for routine ongoing management of the MetaMask Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4 - Instance Ongoing Management Protocol](3af0e156-b5c0-493b-bd6f-80185072b7b1), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2). 
+This document defines the protocol for routine ongoing management of the MetaMask Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
 ###### A.6.1.1.4.2.5.1.4.1.3.1.1 - Agent Customizations [Core]  <!-- UUID: e739cfa7-90c6-49f2-9b03-ea4744e7f2e9 -->
 
@@ -38028,6 +38145,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 The Distribution Reward payments for the MetaMask Instance of the Distribution Reward Primitive are defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
@@ -38037,15 +38155,17 @@ The Distribution Reward Payments are:
 
 ###### A.6.1.1.4.2.5.1.4.1.4.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: ded05ed5-e470-4cbc-b3f0-c7d8cd928584 -->
 
-This Document records information pertaining to Launch Agent 3’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.6.1.1.4.2.5.1.4.1.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: aa0ea344-4e89-4b6e-8c32-afc5c19cf8d0 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
 - Reward Period
 - Payee
 - Payment Address
@@ -38055,7 +38175,7 @@ The payment details consist of a table where each entry represents a single paym
 
 ###### A.6.1.1.4.2.5.1.4.1.4.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: b537c8e2-92b6-4d2f-88ff-337acb1e8357 -->
 
-The payment address of this Third Party Partner will be defined in a future iteration of the Launch Agent 3 Artifact.
+The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.5.1.4.2 - InstaDapp Instance Configuration Document [Core]  <!-- UUID: e870392a-2552-41ca-a148-4be47d34bac7 -->
 
@@ -38075,7 +38195,7 @@ The documents herein define the parameters of the InstaDapp Instance of the Dist
 
 ###### A.6.1.1.4.2.5.1.4.2.2.2 - Tracking Methodology [Core]  <!-- UUID: 1dcac5c2-21ec-4714-bf77-f861a851aec4 -->
 
-This parameter will be defined in a future iteration of the Launch Agent 3 Artifact.
+This parameter will be defined in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.5.1.4.2.2.3 - Custom Instance Parameters [Core]  <!-- UUID: 5c7380f4-bb98-4dcc-81de-0f02d4e71bbc -->
 
@@ -38087,9 +38207,9 @@ The documents herein define the process for the ongoing management of the InstaD
 
 ###### A.6.1.1.4.2.5.1.4.2.3.1 - Routine Protocol [Core]  <!-- UUID: c458078b-ffba-428e-950a-9c20a64967d4 -->
 
-This document defines the protocol for routine ongoing management of the InstaDapp Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4 - Instance Ongoing Management Protocol](3af0e156-b5c0-493b-bd6f-80185072b7b1), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2). 
+This document defines the protocol for routine ongoing management of the InstaDapp Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
 ###### A.6.1.1.4.2.5.1.4.2.3.1.1 - Agent Customizations [Core]  <!-- UUID: ae59d85f-0a27-461d-a2ef-4b10dd597fee -->
 
@@ -38126,6 +38246,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 The Distribution Reward payments for the InstaDapp Instance of the Distribution Reward Primitive are defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
@@ -38135,15 +38256,17 @@ The Distribution Reward Payments are:
 
 ###### A.6.1.1.4.2.5.1.4.2.4.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 28b69d1f-44d3-4b97-8aff-809513145245 -->
 
-This Document records information pertaining to Launch Agent 3’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.6.1.1.4.2.5.1.4.2.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 1d995038-ec86-4f39-a02c-21ee651dd3cc -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
 - Reward Period
 - Payee
 - Payment Address
@@ -38153,7 +38276,7 @@ The payment details consist of a table where each entry represents a single paym
 
 ###### A.6.1.1.4.2.5.1.4.2.4.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 1438c4e7-e15b-443c-b9c6-dcdde63920c6 -->
 
-The payment address of this Third Party Partner will be defined in a future iteration of the Launch Agent 3 Artifact.
+The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.5.1.4.3 - Gnosis Protocol Instance Configuration Document [Core]  <!-- UUID: 34cde6e0-89a1-44a4-9ce1-58873b83c63b -->
 
@@ -38173,7 +38296,7 @@ The documents herein define the parameters of the Gnosis Protocol Instance of th
 
 ###### A.6.1.1.4.2.5.1.4.3.2.2 - Tracking Methodology [Core]  <!-- UUID: 07ec38da-a0ca-468e-83b7-2059ad5e4016 -->
 
-This parameter will be defined in a future iteration of the Launch Agent 3 Artifact.
+This parameter will be defined in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.5.1.4.3.2.3 - Custom Instance Parameters [Core]  <!-- UUID: 6fc01270-3033-45b4-8e88-79751b36448c -->
 
@@ -38185,9 +38308,9 @@ The documents herein define the process for the ongoing management of the Gnosis
 
 ###### A.6.1.1.4.2.5.1.4.3.3.1 - Routine Protocol [Core]  <!-- UUID: 34d65ab5-5a03-42a6-848d-ace67c5e9ab0 -->
 
-This document defines the protocol for routine ongoing management of the Gnosis Protocol Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4 - Instance Ongoing Management Protocol](3af0e156-b5c0-493b-bd6f-80185072b7b1), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2). 
+This document defines the protocol for routine ongoing management of the Gnosis Protocol Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
 ###### A.6.1.1.4.2.5.1.4.3.3.1.1 - Agent Customizations [Core]  <!-- UUID: 423d68eb-6fdd-44f4-9bd0-885b44abdd6d -->
 
@@ -38224,6 +38347,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 The Distribution Reward payments for the Gnosis Protocol Instance of the Distribution Reward Primitive are defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
@@ -38233,15 +38357,17 @@ The Distribution Reward Payments are:
 
 ###### A.6.1.1.4.2.5.1.4.3.4.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: efbea98b-9063-4706-a467-050eb2594339 -->
 
-This Document records information pertaining to Launch Agent 3’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.6.1.1.4.2.5.1.4.3.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 985b10b4-837a-48c6-884b-80de88e2462a -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
 - Reward Period
 - Payee
 - Payment Address
@@ -38251,7 +38377,7 @@ The payment details consist of a table where each entry represents a single paym
 
 ###### A.6.1.1.4.2.5.1.4.3.4.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 802462c0-d9d1-42fa-8729-54135634f7f5 -->
 
-The payment address of this Third Party Partner will be defined in a future iteration of the Launch Agent 3 Artifact.
+The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.5.1.4.4 - Piku.co Instance Configuration Document [Core]  <!-- UUID: bc145261-ff5d-4937-abbd-0719390ff124 -->
 
@@ -38271,7 +38397,7 @@ The documents herein define the parameters of the Piku.co Instance of the Distri
 
 ###### A.6.1.1.4.2.5.1.4.4.2.2 - Tracking Methodology [Core]  <!-- UUID: 2785cf23-1be4-4c83-b50e-be57a30c1a79 -->
 
-This parameter will be defined in a future iteration of the Launch Agent 3 Artifact.
+This parameter will be defined in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.5.1.4.4.2.3 - Custom Instance Parameters [Core]  <!-- UUID: 0f252ad2-ea66-49a4-9ff5-10d9bb222532 -->
 
@@ -38283,9 +38409,9 @@ The documents herein define the process for the ongoing management of the Piku.c
 
 ###### A.6.1.1.4.2.5.1.4.4.3.1 - Routine Protocol [Core]  <!-- UUID: a08670ae-0bc5-4424-9b65-38db64441e8d -->
 
-This document defines the protocol for routine ongoing management of the Piku.co Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4 - Instance Ongoing Management Protocol](3af0e156-b5c0-493b-bd6f-80185072b7b1), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2). 
+This document defines the protocol for routine ongoing management of the [Piku.co](http://Piku.co) Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
 ###### A.6.1.1.4.2.5.1.4.4.3.1.1 - Agent Customizations [Core]  <!-- UUID: af262fdb-d5ac-4a53-9ca5-47e0448f7ff4 -->
 
@@ -38322,6 +38448,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 The Distribution Reward payments for the Piku.co Instance of the Distribution Reward Primitive are defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
@@ -38331,15 +38458,17 @@ The Distribution Reward Payments are:
 
 ###### A.6.1.1.4.2.5.1.4.4.4.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 55ab7dfa-57e5-49d2-9dc3-05b0bfe14d04 -->
 
-This Document records information pertaining to Launch Agent 3’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.6.1.1.4.2.5.1.4.4.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: e0517981-c05e-4f31-b8e0-51a690853132 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
 - Reward Period
 - Payee
 - Payment Address
@@ -38349,113 +38478,15 @@ The payment details consist of a table where each entry represents a single paym
 
 ###### A.6.1.1.4.2.5.1.4.4.4.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 49aa9d18-aa7e-464d-a965-f56fd014c02f -->
 
-The payment address of this Third Party Partner will be defined in a future iteration of the Launch Agent 3 Artifact.
-
-###### A.6.1.1.4.2.5.1.4.5 - Lazy Summer Protocol Instance Configuration Document [Core]  <!-- UUID: 022ab7d1-05c3-422f-815c-0605f7f83f02 -->
-
-The documents herein contain the Instance Configuration Document for the Lazy Summer Protocol Distribution Reward Primitive Instance.
-
-###### A.6.1.1.4.2.5.1.4.5.1 - Invocation Status [Core]  <!-- UUID: 33ddd322-7ec0-4d7f-8b53-a78f6479d4ca -->
-
-`Planning`
-
-###### A.6.1.1.4.2.5.1.4.5.2 - Parameters [Core]  <!-- UUID: 8c536779-676d-47e0-8ae9-f0c459a04d2e -->
-
-The documents herein define the parameters of the Lazy Summer Protocol Instance of the Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.4.5.2.1 - Reward Code [Core]  <!-- UUID: ee4af219-fad3-4987-ba88-7b1e35a7d7de -->
-
-`1016`.
-
-###### A.6.1.1.4.2.5.1.4.5.2.2 - Tracking Methodology [Core]  <!-- UUID: 9d2d053d-6ae2-4a9d-b5eb-e1b3457e1524 -->
-
-This parameter will be defined in a future iteration of the Launch Agent 3 Artifact.
-
-###### A.6.1.1.4.2.5.1.4.5.2.3 - Custom Instance Parameters [Core]  <!-- UUID: 00cd6bb6-4342-4856-a706-7c9f1434cb42 -->
-
-The documents herein define the custom parameters of the Lazy Summer Protocol Instance of the Distribution Reward Primitive, if any.
-
-###### A.6.1.1.4.2.5.1.4.5.3 - Operational Process Definition [Core]  <!-- UUID: fe61a44f-ed67-432a-bc7d-c349ccf2ecab -->
-
-The documents herein define the process for the ongoing management of the Lazy Summer Protocol Instance of the Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.4.5.3.1 - Routine Protocol [Core]  <!-- UUID: d085cb25-fc4a-41e2-92ed-26cba7585978 -->
-
-This document defines the protocol for routine ongoing management of the Lazy Summer Protocol Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4 - Instance Ongoing Management Protocol](3af0e156-b5c0-493b-bd6f-80185072b7b1), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
-
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
-
-###### A.6.1.1.4.2.5.1.4.5.3.1.1 - Agent Customizations [Core]  <!-- UUID: 338ba44b-e31f-49b7-bb7a-1a0bcf19dbab -->
-
-The Prime Agent may define instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
-
-[No customization presently.]
-
-###### A.6.1.1.4.2.5.1.4.5.3.2 - Non-Routine Protocol [Core]  <!-- UUID: 45119527-f6d5-46ab-b86b-3b1eb038cba3 -->
-
-The documents herein define the protocol for non-routine ongoing management of the Lazy Summer Protocol Instance of this Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.4.5.3.3 - Emergency Protocol [Core]  <!-- UUID: 165aad80-51a8-48ec-acb8-0ae06a3709c3 -->
-
-The documents herein define the protocol for handling emergency situations in the ongoing management of the Lazy Summer Protocol Instance of this Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.4.5.4 - Data Repository [Core]  <!-- UUID: 04b7677e-dd54-434d-818a-2c5583c23b9c -->
-
-The documents herein contain data relevant to the Lazy Summer Protocol Instance of the Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.4.5.4.1 - Initial Planning [Core]  <!-- UUID: ea3a21c2-0a2b-45ea-bd02-bb65b3c64f2b -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.5.4.2 - Operational GovOps Review [Core]  <!-- UUID: 35a430f6-acc0-4262-8b13-857f26363b55 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.5.4.3 - Artifact Edit Proposal [Core]  <!-- UUID: 4468c565-8eb6-46e8-a1b0-2a8c958fbae0 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.5.4.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 7fda1aa2-f693-4362-a301-06258831aebb -->
-
-The Distribution Reward payments for the Lazy Summer Protocol Instance of the Distribution Reward Primitive are defined as Active Data.
-
-The Active Data is updated as follows:
-- The Responsible Party is Operational GovOps.
-- The Update Process must follow the protocol for ‘Direct Edit’.
-
-###### A.6.1.1.4.2.5.1.4.5.4.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 1597416e-188f-4f62-82a0-0be1d7daef20 -->
-
-The Distribution Reward Payments are:
-
-###### A.6.1.1.4.2.5.1.4.5.4.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 034f992e-bca4-4d38-ae9d-1f6ae2f0c048 -->
-
-This Document records information pertaining to Launch Agent 3’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
-
-The Active Data is updated as follows:
-- The Responsible Party is Operational GovOps.
-- The Update Process must follow the protocol for ‘Direct Edit’.
-
-###### A.6.1.1.4.2.5.1.4.5.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 4d23c261-473d-4c8c-8914-9495e1840165 -->
-
-The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
-- Reward Period
-- Payee
-- Payment Address
-- Amount Paid
-- Transaction Hash
-- Transaction Date
-
-###### A.6.1.1.4.2.5.1.4.5.4.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: e1c26bc8-3578-40d7-9f33-8d0e6a24c5e5 -->
-
-The payment address of this Third Party Partner will be defined in a future iteration of the Launch Agent 3 Artifact.
+The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: 460cd7ec-5947-4f16-bc6e-de5db7c7a139 -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s Instances of the Integration Boost Primitive. See [A.2.3.8.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
+The documents herein contain all data and specifications for Skybase’s Instances of the Integration Boost Primitive. See [A.2.3.8.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
 
 ###### A.6.1.1.4.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: 4d0912c0-d103-43b2-a6bd-c764b83436ec -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Integration Boost Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Integration Boost Primitive.
 
 ###### A.6.1.1.4.2.5.2.1.1 - Global Activation Status [Core]  <!-- UUID: e5199f4b-1c36-45c6-b555-51221ea2d09d -->
 
@@ -38531,7 +38562,7 @@ The payment cadence for the Euler Integration Boost is weekly.
 
 ###### A.6.1.1.4.2.5.2.2.1.1.5 - Integration Boost Data Submission Format [Core]  <!-- UUID: f82e8ec9-565c-4d5e-9121-c66086d4bb73 -->
 
-The Data Submission Responsible Actor calculates the net deposits based on on-chain events and makes the data available through an API endpoint located at [https://info-sky.blockanalitica.com/api/v1/incentivized-pools/](https://info-sky.blockanalitica.com/api/v1/incentivized-pools/).
+The Data Submission Responsible Actor calculates the net deposits based on on-chain events and makes the data available through an API endpoint located at https://info-sky.blockanalitica.com/api/v1/incentivized-pools/.
 
 ###### A.6.1.1.4.2.5.2.2.1.1.6 - Integration Boost Data Submission Responsible Actor [Core]  <!-- UUID: ff5a96bc-61f4-4be7-bacd-9a34dd59cbe8 -->
 
@@ -38551,9 +38582,9 @@ The documents herein define the process for the ongoing management of the Euler 
 
 ###### A.6.1.1.4.2.5.2.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 6fe71ca8-3c28-408e-8b11-3c2fcfcc5778 -->
 
-This document defines the protocol for routine ongoing management of the Euler Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.2.2.4 - Instance Ongoing Management Protocol](805381e5-89e7-4fb9-bda7-a97e84b531ba), subject to the qualifications specified in [A.2.3.8.2.2.1.3.2.1 - Near Term Process](4ab621b4-ef8e-4b01-a6aa-9296601033c5). 
+This document defines the protocol for routine ongoing management of the Euler Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
 ###### A.6.1.1.4.2.5.2.2.1.2.1.1 - Agent Customizations [Core]  <!-- UUID: 4f83666c-ef2e-4527-aeb7-79576b60b221 -->
 
@@ -38587,10 +38618,11 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 ###### A.6.1.1.4.2.5.2.2.1.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 1f3904b0-28b7-48e2-8cc7-ed67f4b90b68 -->
 
-The Integration Boost payments for the Euler Instance of the Integration Boost Primitive are defined as Active Data. 
+The Integration Boost payments for the Euler Instance of the Integration Boost Primitive are defined as Active Data.
 
 The Active Data is updated as follows:
-- The Responsible Party is Operational GovOps. 
+
+- The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.6.1.1.4.2.5.2.2.1.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 358530ef-9012-4e7f-8dc4-192930c180d0 -->
@@ -38635,7 +38667,7 @@ The payment cadence for the Compound Integration Boost is weekly.
 
 ###### A.6.1.1.4.2.5.2.4.1.2.5 - Integration Boost Data Submission Format [Core]  <!-- UUID: 1174bee1-fca4-403e-bfee-36704e00b3c2 -->
 
-The Data Submission Responsible Actor calculates the net deposits based on on-chain events and makes the data available through an API endpoint located at [https://info-sky.blockanalitica.com/api/v1/incentivized-pools/](https://info-sky.blockanalitica.com/api/v1/incentivized-pools/).
+The Data Submission Responsible Actor calculates the net deposits based on on-chain events and makes the data available through an API endpoint located at https://info-sky.blockanalitica.com/api/v1/incentivized-pools/.
 
 ###### A.6.1.1.4.2.5.2.4.1.2.6 - Integration Boost Data Submission Responsible Actor [Core]  <!-- UUID: 45a70053-e0a3-4188-a40b-f6b64ffde9e6 -->
 
@@ -38655,9 +38687,9 @@ The documents herein define the process for the ongoing management of the Compou
 
 ###### A.6.1.1.4.2.5.2.4.1.3.1 - Routine Protocol [Core]  <!-- UUID: 9ad35e12-7bd0-46c8-a753-4a341ab880a2 -->
 
-This document defines the protocol for routine ongoing management of the Compound Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.2.2.4 - Instance Ongoing Management Protocol](805381e5-89e7-4fb9-bda7-a97e84b531ba), subject to the qualifications specified in [A.2.3.8.2.2.1.3.2.1 - Near Term Process](4ab621b4-ef8e-4b01-a6aa-9296601033c5). 
+This document defines the protocol for routine ongoing management of the Compound Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 3 Artifact, a version of the full process definition customized to Launch Agent 3 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
 ###### A.6.1.1.4.2.5.2.4.1.3.1.1 - Agent Customizations [Core]  <!-- UUID: f1e42734-b704-4067-bedb-684bca8a1773 -->
 
@@ -38692,9 +38724,10 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 ###### A.6.1.1.4.2.5.2.4.1.4.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 55b46793-6543-4002-a1d7-9cc33ef46ab6 -->
 
 The Integration Boost payments for the Compound Instance of the Integration Boost Primitive are defined as Active Data.
- 
+
 The Active Data is updated as follows:
-- The Responsible Party is Operational GovOps. 
+
+- The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.6.1.1.4.2.5.2.4.1.4.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: afe3fba8-14b9-47b7-bd71-20be58c47f29 -->
@@ -38703,11 +38736,11 @@ The Integration Boost Payments are:
 
 ###### A.6.1.1.4.2.5.3 - Pioneer Chain Primitive [Core]  <!-- UUID: d096b01c-84a2-44a5-9af6-8888a825e0d4 -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s Instances of the Pioneer Chain Primitive. See [A.2.3.8.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
+The documents herein contain all data and specifications for Skybase’s Instances of the Pioneer Chain Primitive. See [A.2.3.8.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
 
 ###### A.6.1.1.4.2.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: a5890268-5a4c-4b8c-890a-6db09c71aced -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Pioneer Chain Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Pioneer Chain Primitive.
 
 ###### A.6.1.1.4.2.5.3.1.1 - Global Activation Status [Core]  <!-- UUID: 91ae0bcc-bd80-4de1-bbd7-e875d150563a -->
 
@@ -38755,15 +38788,15 @@ The in progress Invocations of the Pioneer Chain Primitive are contained herein.
 
 ###### A.6.1.1.4.2.6 - Supply Side Stablecoin Primitives [Core]  <!-- UUID: b58a8d96-b6df-416e-b81f-2898d82924b4 -->
 
-The documents herein implement the Supply Side Stablecoin Primitives for Launch Agent 3. See [A.2.3.9 - Supply Side Stablecoin Primitives](d1142876-33c2-4e21-9339-d8711525d46f).
+The documents herein implement the Supply Side Stablecoin Primitives for Skybase. See [A.2.3.9 - Supply Side Stablecoin Primitives](d1142876-33c2-4e21-9339-d8711525d46f).
 
 ###### A.6.1.1.4.2.6.1 - Allocation System Primitive [Core]  <!-- UUID: 24b63123-f30f-4dc3-aefa-74b4351c4baa -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s Instances of the Allocation System Primitive. See [A.2.3.9.1 - Allocation System Primitive](9db14ab7-bb4b-4751-8084-843bd4359f2a).
+The documents herein contain all data and specifications for Skybase’s Instances of the Allocation System Primitive. See [A.2.3.9.1 - Allocation System Primitive](9db14ab7-bb4b-4751-8084-843bd4359f2a).
 
 ###### A.6.1.1.4.2.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: 72950044-a7ba-44bf-9910-1e655bfbbb76 -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Allocation System Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Allocation System Primitive.
 
 ###### A.6.1.1.4.2.6.1.1.1 - Global Activation Status [Core]  <!-- UUID: 757a827f-c736-4ac5-8eaf-993567dee621 -->
 
@@ -38815,11 +38848,11 @@ The in progress Invocations of the Allocation System Primitive are contained her
 
 ###### A.6.1.1.4.2.6.2 - Junior Risk Capital Rental Primitive [Core]  <!-- UUID: 09144d1a-2cda-4805-b50d-b3da4f09d48b -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s Instances of the Junior Risk Capital Rental Primitive. See [A.2.3.9.2 - Junior Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).
+The documents herein contain all data and specifications for Skybase’s Instances of the Junior Risk Capital Rental Primitive. See [A.2.3.9.2 - Junior Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).
 
 ###### A.6.1.1.4.2.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: 16bf9c06-af9f-4853-bf8b-5246ada6e580 -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Junior Risk Capital Rental Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Junior Risk Capital Rental Primitive.
 
 ###### A.6.1.1.4.2.6.2.1.1 - Global Activation Status [Core]  <!-- UUID: 84c95412-5704-480d-bf68-7dcffb78cf21 -->
 
@@ -38867,11 +38900,11 @@ The in progress Invocations of the Junior Risk Capital Rental Primitive are cont
 
 ###### A.6.1.1.4.2.6.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: c2f8c143-52a9-41a5-be4a-05c07ca64f6b -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s Instances of the Asset Liability Management Rental Primitive. See [A.2.3.9.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).
+The documents herein contain all data and specifications for Skybase’s Instances of the Asset Liability Management Rental Primitive. See [A.2.3.9.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).
 
 ###### A.6.1.1.4.2.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: 23300804-de11-4f5d-a28f-bc7995b36165 -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Asset Liability Management Rental Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Asset Liability Management Rental Primitive.
 
 ###### A.6.1.1.4.2.6.3.1.1 - Global Activation Status [Core]  <!-- UUID: d57f7f80-a04b-45be-a9e1-3ce55fdf7b03 -->
 
@@ -38919,15 +38952,15 @@ The in progress Invocations of the Asset Liability Management Rental Primitive a
 
 ###### A.6.1.1.4.2.7 - Core Governance Primitives [Core]  <!-- UUID: 095cc4f1-a097-4157-8e81-06031208c39f -->
 
-The documents herein implement the Core Governance Primitives for Launch Agent 3. See [A.2.3.10 - Core Governance Primitives](6fa54611-c744-4b9d-897d-b2a20e9cae5d).
+The documents herein implement the Core Governance Primitives for Skybase. See [A.2.3.10 - Core Governance Primitives](6fa54611-c744-4b9d-897d-b2a20e9cae5d).
 
 ###### A.6.1.1.4.2.7.1 - Core Governance Reward Primitive [Core]  <!-- UUID: 79b5a43d-1abe-4945-9f7d-7fa8a5ac182e -->
 
-The documents herein contain all data and specifications for Launch Agent 3’s Instances of the Core Governance Reward Primitive. See [A.2.3.10.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
+The documents herein contain all data and specifications for Skybase’s Instances of the Core Governance Reward Primitive. See [A.2.3.10.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
 
 ###### A.6.1.1.4.2.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: 58a4cf93-5c1c-4fec-8c5b-2c1c6f167c72 -->
 
-The documents herein organize all base information relevant to Launch Agent 3’s usage of the Core Governance Reward Primitive.
+The documents herein organize all base information relevant to Skybase’s usage of the Core Governance Reward Primitive.
 
 ###### A.6.1.1.4.2.7.1.1.1 - Global Activation Status [Core]  <!-- UUID: 3c76baaa-df7f-464e-80ed-6b48eefbea7f -->
 
@@ -38975,55 +39008,81 @@ The in progress Invocations of the Core Governance Reward Primitive are containe
 
 ##### A.6.1.1.4.3 - Omni Documents [Core]  <!-- UUID: 12153a95-5be4-4f5e-8d04-d3046ad9b7bc -->
 
-The documents herein define Launch Agent 3’s strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
+The documents herein define Skybase’s strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
 
 ###### A.6.1.1.4.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: 70804058-8a1b-45ee-bf21-b09a5daefdb9 -->
 
-The documents herein specify Launch Agent 3 governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Launch Agent 3 Artifact is specified in the Root Edit Primitive above at [A.6.1.1.4.2.2.2 - Root Edit Primitive](24517c43-dec9-44ec-bc03-e76671dc2e74).
+The documents herein specify Skybase governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Skybase Artifact is specified in the Root Edit Primitive above at [A.6.1.1.4.2.2.2 - Root Edit Primitive](24517c43-dec9-44ec-bc03-e76671dc2e74).
 
 ###### A.6.1.1.4.3.1.1 - Sky Forum [Core]  <!-- UUID: 0d482d6a-f140-4798-bf9c-a0c6cb5a2aa5 -->
 
-Launch Agent 3 uses the Sky Forum for governance-related discussion. Posts should use the "Launch Agent 3 Prime" category.
+Skybase uses the Sky Forum for governance-related discussion. Posts should use the “Skybase Prime” category.
 
-###### A.6.1.1.4.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: 31f5b013-30a1-4135-8e04-4e9b7ee6a794 -->
+###### A.6.1.1.4.3.1.2 - Discord [Core]  <!-- UUID: 31f5b013-30a1-4135-8e04-4e9b7ee6a794 -->
 
-The documents herein specify Launch Agent 3’s emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Launch Agent 3 Artifact.
+Skybase also uses Discord for more immediate communication. The Sky Discord is located at https://t.co/v6zG0MZtak.
 
-###### A.6.1.1.4.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: dedeb7e0-af9d-41ef-aec2-cdfb8b3fc437 -->
+###### A.6.1.1.4.3.1.3 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: dedeb7e0-af9d-41ef-aec2-cdfb8b3fc437 -->
 
-The documents herein specify Launch Agent 3’s emergency response protocol in situations solely impacting Launch Agent 3 versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Launch Agent 3 Artifact.
+The documents herein specify Skybase’s emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Skybase Artifact.
+
+###### A.6.1.1.4.3.1.4 - Agent-Specific Emergency Response [Core]  <!-- UUID: 8a9aef44-d044-40e6-91f6-c810d27e9d5c -->
+
+The documents herein specify Skybase’s emergency response protocol in situations solely impacting Skybase versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Skybase Artifact.
 
 ###### A.6.1.1.4.3.2 - Sky Primitives Strategy [Core]  <!-- UUID: 8bc018e0-e343-424e-9089-6a813d168dff -->
 
-The documents herein define Launch Agent 3’s strategic intent with respect to certain Sky Primitives.
+The documents herein define Skybase’s strategic intent with respect to certain Sky Primitives.
 
 ###### A.6.1.1.4.3.2.1 - Distribution Reward Strategy [Core]  <!-- UUID: 825f23f7-739b-4a76-8e23-540b11f1854c -->
 
-Launch Agent 3’s strategy with respect to the Distribution Reward Primitive is to encourage the broad adoption of USDS by bridging into new communities and DeFi platforms, thereby earning and distributing Distribution Rewards for USDS balances facilitated through its frontend. Prospective partners should demonstrate strong alignment with Launch Agent 3’s mission, and offer clear pathways to engage new user bases and support the sustainable growth of USDS across diverse ecosystems.
+Skybase’s strategy with respect to the Distribution Reward Primitive is to encourage the broad adoption of USDS by bridging into new communities and DeFi platforms, thereby earning and distributing Distribution Rewards for USDS balances facilitated through its frontend. Prospective partners should demonstrate strong alignment with Skybase’s mission, and offer clear pathways to engage new user bases and support the sustainable growth of USDS across diverse ecosystems.
 
 The guiding criteria are as follows:
+
 - **Shared Mission Alignment:** Partners must demonstrate a commitment to promoting user-friendly stablecoin usage and responsible financial empowerment.
-- **Clear Synergy:** The collaboration should enhance USDS accessibility, by offering either a unique distribution channel or a robust incentive model. 
-- **Community Benefit**: Proposed partnerships should deliver tangible rewards or advantages that resonate with Sky’s user base. 
-- **Scalability & Compliance: **Potential integrations should have the capacity to handle increased demand and adhere to the risk management guidelines described in the Atlas.
+- **Clear Synergy:** The collaboration should enhance USDS accessibility, by offering either a unique distribution channel or a robust incentive model.
+- **Community Benefit**: Proposed partnerships should deliver tangible rewards or advantages that resonate with Sky’s user base.
+- **Scalability & Compliance:** Potential integrations should have the capacity to handle increased demand and adhere to the risk management guidelines described in the Atlas.
 
 ###### A.6.1.1.4.3.2.2 - Integration Boost Strategy [Core]  <!-- UUID: 8b587f01-c678-4f6d-ba37-a0765f5657b0 -->
 
-Launch Agent 3’s strategy with respect to the Integration Boost Primitive is to deliver a "Sky Savings Rate" (or similar program) to USDS users across selected DeFi platforms. This approach aims to extend the reach of USDS by tapping into fresh communities and expanding its overall market presence.  New collaborations should exhibit compatibility with Launch Agent 3’s accessibility ethos, showcase steady on-chain activity, and present clear opportunities to onboard broader user segments into the Launch Agent 3 ecosystem.
+Skybase’s strategy with respect to the Integration Boost Primitive is to deliver a “Sky Savings Rate” (or similar program) to USDS users across selected DeFi platforms. This approach aims to extend the reach of USDS by tapping into fresh communities and expanding its overall market presence. New collaborations should exhibit compatibility with Skybase’s accessibility ethos, showcase steady on-chain activity, and present clear opportunities to onboard broader user segments into the Skybase ecosystem.
 
 The guiding criteria are as follows:
-- **Long-Term Viability: **Target platforms must exhibit strong on-chain activity and a track record of stability.
+
+- **Long-Term Viability:** Target platforms must exhibit strong on-chain activity and a track record of stability.
 - **Aligned Incentives:** Collaborations should offer meaningful yield enhancements that support the broader Sky mission.
 - **Growth Potential:** Partners must show clear prospects for sustainable scaling, ensuring that users can benefit from ongoing improvements.
 
 ###### A.6.1.1.4.3.2.3 - Core Governance Reward Strategy [Core]  <!-- UUID: 276d8421-4f07-4ac5-812d-88909b5a9ecd -->
 
-Launch Agent 3’s strategy with respect to the Core Governance Reward Primitive is to provide continuous, secure, and user-friendly governance frontend hosting for SKY holders, ensuring critical decision-making processes remain accessible and reliable over time.
+Skybase’s strategy with respect to the Core Governance Reward Primitive is to provide continuous, secure, and user-friendly governance frontend hosting for SKY holders, ensuring critical decision-making processes remain accessible and reliable over time.
 
 The guiding criteria are as follows:
-- **Security & Reliability: **The Prime Agent will uphold robust security measures and maintain high availability to prevent disruptions or unauthorized access.
-- **Governance Framework Alignment:** Any updates to the frontend should integrate smoothly with Launch Agent 3’s existing governance mechanisms, preserving uninterrupted voting and proposal workflows.
 
+- **Security & Reliability:** The Prime Agent will uphold robust security measures and maintain high availability to prevent disruptions or unauthorized access.
+- **Governance Framework Alignment:** Any updates to the frontend should integrate smoothly with Skybase’s existing governance mechanisms, preserving uninterrupted voting and proposal workflows.
+
+###### A.6.1.1.4.3.3 - Ecosystem Accords [Core]  <!-- UUID: 64dd4885-6d75-45c0-86a9-507bc9a55194 -->
+
+Skybase has formally agreed to the Ecosystem Accords herein.
+
+###### A.6.1.1.4.3.3.1 - Ecosystem Accord 7 [Core]  <!-- UUID: b6196792-be39-47cb-9742-620159bf09c2 -->
+
+Skybase engaged in terms of agreement with Sky in Ecosystem Accord 7, located in A.2.9.2.7 - Ecosystem Accord 7: Sky And Skybase.
+
+###### A.6.1.1.4.3.4 - USDS Demand Subsidies [Core]  <!-- UUID: 5e276fe6-1449-47ba-9a7d-cddd1d1a236f -->
+
+Skybase uses capital to provide Subsidies to incentivize strategic markets to promote USDS demand.
+
+###### A.6.1.1.4.3.4.1 - USDS Demand Subsidies Capital [Core]  <!-- UUID: 1d8d603f-33f8-47bb-8562-8eb5701a3aff -->
+
+The source of capital for Skybase’s USDS Demand Subsidies is the Skybase Treasury. Skybase Treasury capital is transferred to the USDS Demand Subsidies Multisig for utilization.
+
+###### A.6.1.1.4.3.4.2 - USDS Demand Subsidies Multisig [Core]  <!-- UUID: 20ee784c-115a-40bb-ae74-d4b3726b0c1b -->
+
+The Skybase USDS Demand Subsidies Multisig address is: `0x3f32bc09d41ee699844f8296e806417d6bf61bba`.
 #### A.6.1.1.5 - Obex [Core]  <!-- UUID: f558e673-cbab-4696-8ca1-3af9b90fe5d4 -->
 
 The documents herein specify all of the logic for Obex, including Obex’s strategy and how it uses the Sky Primitives to operationalize this strategy.
