@@ -39070,7 +39070,29 @@ The source of capital for Skybase’s USDS Demand Subsidies is the Skybase Treas
 
 ###### A.6.1.1.4.3.4.2 - USDS Demand Subsidies Multisig [Core]  <!-- UUID: 20ee784c-115a-40bb-ae74-d4b3726b0c1b -->
 
-The Skybase USDS Demand Subsidies Multisig address is: `0x3f32bc09d41ee699844f8296e806417d6bf61bba`.
+The USDS Demand Subsidies Multisig is controlled by 3 signers from Operational GovOps Soter Labs.
+
+###### A.6.1.1.4.3.4.2.1 - Address [Core]  <!-- UUID: 615835d8-475b-48f6-9e0f-bcaf041a63ff -->
+
+The USDS Demand Subsidies Multisig address on Ethereum Mainnet is `0x3f32bc09d41ee699844f8296e806417d6bf61bba`.
+
+###### A.6.1.1.4.3.4.2.2 - Required Number of Signers [Core]  <!-- UUID: 740a4a39-f560-437a-962c-4255384298a1 -->
+
+The USDS Demand Subsidies Multisig currently has a 2/3 signing requirement.
+
+###### A.6.1.1.4.3.4.2.3 - Signers [Core]  <!-- UUID: dbb22ec2-97fc-47c1-85d3-9b1cc94d3ce0 -->
+
+The USDS Demand Subsidies Multisig has the following signers:
+SoterLabs (SL): 3 signers
+
+###### A.6.1.1.4.3.4.2.4 - Usage Standards [Core]  <!-- UUID: 0d896655-0d03-4c73-b164-3f59668256dd -->
+
+The signers must use the USDS Demand Subsidies Multisig to disburse funds on behalf of Skybase to fund strategic USDS demand incentive opportunities.
+
+###### A.6.1.1.4.3.4.2.5 - Modification [Core]  <!-- UUID: 665ca5c5-ca1b-471a-9a10-16c46ee10cfd -->
+
+Operational GovOps Soter Labs can change the signers of the USDS Demand Subsidies Multisig at any time, so long as there are at least three (3) signers and at least two-thirds of signers are required to execute transactions.
+
 #### A.6.1.1.5 - Obex [Core]  <!-- UUID: f558e673-cbab-4696-8ca1-3af9b90fe5d4 -->
 
 The documents herein specify all of the logic for Obex, including Obex’s strategy and how it uses the Sky Primitives to operationalize this strategy.
