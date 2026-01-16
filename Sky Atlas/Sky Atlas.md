@@ -36708,7 +36708,7 @@ At the conclusion of the poll, if the proposal is approved, the Operational Faci
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.5.1 - Short-Term Transitionary Measures [Core]  <!-- UUID: 1adf5e90-53a8-4036-9964-11430891137e -->
 
-Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at https://github.com/sky-ecosystem/next-gen-atlas/pulls to reflect proposals approved by Prime Governance.
+Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect proposals approved by Prime Governance.
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.6 - Artifact Edit Restrictions [Core]  <!-- UUID: f3e8ecec-cb08-4682-9218-d13f567fc00e -->
 
