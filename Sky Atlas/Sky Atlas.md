@@ -17030,7 +17030,7 @@ The `vestTot` and `vestTau` parameters of the Vesting Stream contract are set su
 
 ###### A.4.4.1.4.2.2.1 - Authorization Of Transfer By Sky Frontier Foundation [Core]  <!-- UUID: 2789177b-5bc7-486f-8aab-75ea16e21035 -->
 
- Sky Governance hereby confirms that the transfer of 500,000,000 SKY tokens to initially fund SKY rewards for SKY stakers is consistent with the terms of the grant to the Sky Frontier Foundation. See [A.2.14.1 - Ecosystem Entity Grants](5d5759e4-8077-4af5-9a1a-eaeab5088dd7).
+Sky Governance hereby confirms that the transfer of 500,000,000 SKY tokens to initially fund SKY rewards for SKY stakers is consistent with the terms of the grant to the Sky Frontier Foundation. See [A.2.14.1 - Ecosystem Entity Grants](5d5759e4-8077-4af5-9a1a-eaeab5088dd7).
 
 ## A.4.5 - Distribution Of Agent Tokens [Article]  <!-- UUID: e2f1f01f-3303-41c3-b337-f09eb41ba6be -->
 
@@ -28690,7 +28690,7 @@ The Prime Primary Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.1.1 - Address [Core]  <!-- UUID: 2ecf77f4-13d5-40dd-a50f-d85aabdbf71b -->
 
-The address of the Prime Primary Relayer Multisig on the Ethereum Mainnet is `0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f`.
+The address of the Prime Primary Relayer Multisig is `0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f`.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.1.2 - Required Number Of Signers [Core]  <!-- UUID: 7c9c4334-71c3-4e55-ad66-7970d244a1a0 -->
 
