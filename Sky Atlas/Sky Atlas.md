@@ -37182,9 +37182,9 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.8 - MOM Instance Configuration Document](ee4f9b64-aeb7-4813-b187-996e8172fea1).
 
-###### A.6.1.1.4.2.5.1.1.2.9 - Lazy Summer Configuration Document Location [Core]  <!-- UUID: 802c6126-3283-4311-b67f-a05003f7e6bf -->
+###### A.6.1.1.4.2.5.1.1.2.9 - Lazy Summer Protocol Instance Configuration Document Location [Core]  <!-- UUID: 802c6126-3283-4311-b67f-a05003f7e6bf -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.9 - Lazy Summer Instance Configuration Document](74db9986-5277-4c5f-8e27-f6a312ed591f).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.9 - Lazy Summer Protocol Instance Configuration Document](74db9986-5277-4c5f-8e27-f6a312ed591f).
 
 ###### A.6.1.1.4.2.5.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 3c43db85-3995-4c95-a85c-e72786a28501 -->
 
@@ -37342,7 +37342,7 @@ The documents herein define the process for the ongoing management of the Open S
 
 ###### A.6.1.1.4.2.5.1.2.2.2.1 - Routine Protocol [Core]  <!-- UUID: 461e8506-cc90-4c8d-9927-153ee996c432 -->
 
-This document defines the protocol for routine ongoing management of the Sky.money Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the Sky.money Frontend Open Source Widgets Instance. This Instance inherits the base class of operational logic defined in [A.2.3.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.3.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
@@ -37474,7 +37474,6 @@ The Active Data is updated as follows:
 ###### A.6.1.1.4.2.5.1.2.3.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 1b25a9fd-1bb0-4425-b9a1-372f737d3a45 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
-
 - Reward Period
 - Payee
 - Payment Address
@@ -37571,7 +37570,6 @@ The Active Data is updated as follows:
 ###### A.6.1.1.4.2.5.1.2.4.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 8fc2657e-fb6b-4d43-988c-6f47b71052f1 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
-
 - Reward Period
 - Payee
 - Payment Address
@@ -37668,7 +37666,6 @@ The Active Data is updated as follows:
 ###### A.6.1.1.4.2.5.1.2.5.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 88f6d49f-9473-46c2-a030-d3f74f2d1377 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
-
 - Reward Period
 - Payee
 - Payment Address
@@ -37765,7 +37762,6 @@ The Active Data is updated as follows:
 ###### A.6.1.1.4.2.5.1.2.6.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 3306dbf8-6c7c-4cfe-b98d-08105282272e -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
-
 - Reward Period
 - Payee
 - Payment Address
@@ -37862,7 +37858,6 @@ The Active Data is updated as follows:
 ###### A.6.1.1.4.2.5.1.2.7.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 034c4a3d-46fc-46b4-afd0-1187bc29ea07 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
-
 - Reward Period
 - Payee
 - Payment Address
@@ -37959,7 +37954,6 @@ The Active Data is updated as follows:
 ###### A.6.1.1.4.2.5.1.2.8.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: fc1a5e0b-0909-48d1-adc4-77e51a900050 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
-
 - Reward Period
 - Payee
 - Payment Address
@@ -38031,7 +38025,7 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.4.2.5.1.2.9.3.4 - Distribution Reward Payments [Core]  <!-- UUID: 42349b55-1334-478b-bddd-d692e55e07b9 -->
+###### A.6.1.1.4.2.5.1.2.9.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 42349b55-1334-478b-bddd-d692e55e07b9 -->
 
 The Distribution Reward payments for the Lazy Summer Protocol Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -38040,11 +38034,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.9.3.4.0.6.1 - List Of Distribution Reward Payments [Core]  <!-- UUID: 928ecae3-ee6f-4961-bae0-90dbf42b3b4d -->
+###### A.6.1.1.4.2.5.1.2.9.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 928ecae3-ee6f-4961-bae0-90dbf42b3b4d -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.9.3.5 - Third Party Partner Payment Addresses And Transaction Records [Core]  <!-- UUID: 04d4fea9-cc1e-4275-af1a-27f8c9b15d0b -->
+###### A.6.1.1.4.2.5.1.2.9.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 04d4fea9-cc1e-4275-af1a-27f8c9b15d0b -->
 
 This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -38053,7 +38047,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.9.3.5.0.6.1 - Payment Details Per Reward Period [Core]  <!-- UUID: 0b55dd49-4787-4895-be75-091f9c2689f3 -->
+###### A.6.1.1.4.2.5.1.2.9.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 0b55dd49-4787-4895-be75-091f9c2689f3 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -38064,7 +38058,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.9.3.5.0.6.2 - Third Party Partner Payment Addresses [Core]  <!-- UUID: 08771b54-8577-44ee-9edb-1915c0f6f050 -->
+###### A.6.1.1.4.2.5.1.2.9.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 08771b54-8577-44ee-9edb-1915c0f6f050 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -38165,7 +38159,6 @@ The Active Data is updated as follows:
 ###### A.6.1.1.4.2.5.1.4.1.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: aa0ea344-4e89-4b6e-8c32-afc5c19cf8d0 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
-
 - Reward Period
 - Payee
 - Payment Address
@@ -38266,7 +38259,6 @@ The Active Data is updated as follows:
 ###### A.6.1.1.4.2.5.1.4.2.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 1d995038-ec86-4f39-a02c-21ee651dd3cc -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
-
 - Reward Period
 - Payee
 - Payment Address
@@ -38367,7 +38359,6 @@ The Active Data is updated as follows:
 ###### A.6.1.1.4.2.5.1.4.3.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 985b10b4-837a-48c6-884b-80de88e2462a -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
-
 - Reward Period
 - Payee
 - Payment Address
@@ -38448,7 +38439,6 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 The Distribution Reward payments for the Piku.co Instance of the Distribution Reward Primitive are defined as Active Data.
 
 The Active Data is updated as follows:
-
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
@@ -38461,14 +38451,12 @@ The Distribution Reward Payments are:
 This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
 The Active Data is updated as follows:
-
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.6.1.1.4.2.5.1.4.4.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: e0517981-c05e-4f31-b8e0-51a690853132 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
-
 - Reward Period
 - Payee
 - Payment Address
@@ -38964,7 +38952,7 @@ The documents herein organize all base information relevant to Skybase’s usage
 
 ###### A.6.1.1.4.2.7.1.1.1 - Global Activation Status [Core]  <!-- UUID: 3c76baaa-df7f-464e-80ed-6b48eefbea7f -->
 
-`Inactive`
+`Active`
 
 ###### A.6.1.1.4.2.7.1.1.2 - Active Instances Directory [Core]  <!-- UUID: 93f4f2d8-68ae-4b33-98a6-e9d9fa764cd0 -->
 
