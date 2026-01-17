@@ -23440,16 +23440,18 @@ The inflow rate limits are:
 The outflow rate limits are:
 - `maxAmount`: 50,000,000
 - `slope`: 200,000,000 per day
-- Max slippage: 0.1%
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 1a2ba197-1389-4cdd-8e55-ca950ecacdca -->
 
 The swap rate limits are:
 - `maxAmount`: 5,000,000
 - `slope`: 50,000,000 per day
-- Max slippage: 0.1%
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.4 - Tick Range and Width [Core]  <!-- UUID: 9e8e50cc-eb69-43f4-b0d6-dd2f0c4fc01a -->
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.4 - Maximum Slippage [Core]  <!-- UUID: 0318bf34-70a0-42a0-9019-e5a48de96ec6 -->
+
+Max slippage: 0.1%
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.5 - Tick Range and Width [Core]  <!-- UUID: 9e8e50cc-eb69-43f4-b0d6-dd2f0c4fc01a -->
 
 - Min lower tick limit: 276,314 (-0.1%)
 - Max upper tick limit: 276,334 (+0.1%)
