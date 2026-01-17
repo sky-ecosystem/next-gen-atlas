@@ -37338,7 +37338,7 @@ The documents herein define the custom parameters of the Sky.money Open Source W
 
 ###### A.6.1.1.4.2.5.1.2.2.2 - Operational Process Definition [Core]  <!-- UUID: 4f94c1ee-d908-412a-b4c9-2f59e5bd4e67 -->
 
-The documents herein define the process for the ongoing management of the Open Source Widgets Instance of the Distribution Reward Primitive.
+The documents herein define the process for the ongoing management of the Sky.money Open Source Widgets Instance of the Distribution Reward Primitive.
 
 ###### A.6.1.1.4.2.5.1.2.2.2.1 - Routine Protocol [Core]  <!-- UUID: 461e8506-cc90-4c8d-9927-153ee996c432 -->
 
