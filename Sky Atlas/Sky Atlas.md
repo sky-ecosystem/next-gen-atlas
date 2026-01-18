@@ -25664,7 +25664,7 @@ The current GNO risk parameters are:
 - Reserve Factor: 50%
 
 
-- Supply Cap: N/A
+- Supply Cap: 100,000 GNO
 
 
 - Borrow Cap: N/A
