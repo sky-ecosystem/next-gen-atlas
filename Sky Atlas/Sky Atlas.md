@@ -25398,7 +25398,7 @@ The current tBTC risk parameters are:
 
 - Liquidation Bonus: 8%
 
-- Reserve Factor: 20%
+- Reserve Factor: 99%
 
 - Supply Cap: Set by cap automator
 
@@ -25414,7 +25414,7 @@ The current tBTC risk parameters are:
 
 - Slope 2: 300%
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 - Collateral: Yes
 
@@ -25456,7 +25456,7 @@ The current ezETH risk parameters are:
 
 - Slope 2: 300%
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 - Collateral: Yes
 
@@ -25498,7 +25498,7 @@ The current rsETH risk parameters are:
 
 - Slope 2: 300%
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 - Collateral: Yes
 
