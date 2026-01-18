@@ -23433,7 +23433,6 @@ The current `maxAmount,` `slope`, ticks, and slippage for this conduit’s in
 The inflow rate limits are:
 - `maxAmount`: 10,000,000
 - `slope`: 100,000,000 per day
-- Max slippage: 0.1%
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 7b1bcd5c-8af6-46bd-8fb0-cbac22bae80a -->
 
