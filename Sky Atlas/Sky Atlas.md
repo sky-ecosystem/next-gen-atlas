@@ -24538,7 +24538,12 @@ The information for each Delegate is listed below:
     ◦ Delegate Wallet Address: `0x71faa03C0cEbCbB53236763B6b118aD906d9F6d3`
     ◦ Effective Date: 2025-08-21
     ◦ Status: Active
-
+- TheMoon
+    ◦ Delegate Name: TheMoon
+    ◦ Delegate Wallet Address: `0xF80A26ee68Bdf0224c18F85876b20858ee5206A9`
+    ◦ Effective Date: 2026-01-14
+    ◦ Status: Active
+    
 ###### A.6.1.1.1.3.1.3.9 - Subject to Change [Core]  <!-- UUID: 57f6f628-dfc3-4819-8265-c85a38c0fc9f -->
 
 Spark reserves the right to vary or amend these terms at its discretion, subject to established Spark Artifact governance procedures related to Artifact edits.
