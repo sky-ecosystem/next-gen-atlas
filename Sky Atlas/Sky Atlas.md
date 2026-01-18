@@ -25644,7 +25644,7 @@ The Protocol Flash Loan Fee is 0.00%.
 
 The subdocuments herein define the current configuration of the SparkLend Gnosis risk parameters.
 
-###### A.6.1.1.1.3.2.1.1.2.2.1 - Gnosis Market GNO Risk Parameters [Core]  <!-- UUID: aacc4fa0-3fd8-44f4-af79-7ec3d4128328 -->
+###### A.6.1.1.1.3.2.1.1.2.2.1 - GNO Risk Parameters [Core]  <!-- UUID: aacc4fa0-3fd8-44f4-af79-7ec3d4128328 -->
 
 The current GNO risk parameters are:
 
@@ -25706,7 +25706,7 @@ The current GNO risk parameters are:
 - Flash Loan Enabled: No
 
 
-###### A.6.1.1.1.3.2.1.1.2.2.2 - Gnosis Market WETH Risk Parameters [Core]  <!-- UUID: dc3b3c32-f891-49fa-bdb4-8944d14e3d56 -->
+###### A.6.1.1.1.3.2.1.1.2.2.2 - WETH Risk Parameters [Core]  <!-- UUID: dc3b3c32-f891-49fa-bdb4-8944d14e3d56 -->
 
 The current WETH risk parameters are:
 
@@ -25773,7 +25773,7 @@ The Slope 1 parameter for WETH is calculated based on the following formula:
 slope 1 = stETH yield + slope 1 spread - base rate
 
 
-###### A.6.1.1.1.3.2.1.1.2.2.3 - Gnosis Market USDT Risk Parameters [Core]  <!-- UUID: f5a396c7-dc2c-4d67-adff-89c5a8c62652 -->
+###### A.6.1.1.1.3.2.1.1.2.2.3 - USDT Risk Parameters [Core]  <!-- UUID: f5a396c7-dc2c-4d67-adff-89c5a8c62652 -->
 
 The current USDT risk parameters are:
 
@@ -25793,10 +25793,10 @@ The current USDT risk parameters are:
 - Reserve Factor: 50%
 
 
-- Supply Cap: $10,000,000
+- Supply Cap: 10,000,000 USDT
 
 
-- Borrow Cap: $8,000,000
+- Borrow Cap: 8,000,000 USDT
 
 
 - Optimal Utilization: 95%
@@ -25835,7 +25835,7 @@ The current USDT risk parameters are:
 - Flash Loan Enabled: Yes
 
 
-###### A.6.1.1.1.3.2.1.1.2.2.4 - Gnosis Market sDai Risk Parameters [Core]  <!-- UUID: 2c982dbd-dee3-45ce-9e45-48d7ebc33acb -->
+###### A.6.1.1.1.3.2.1.1.2.2.4 - sDai Risk Parameters [Core]  <!-- UUID: 2c982dbd-dee3-45ce-9e45-48d7ebc33acb -->
 
 The current sDai risk parameters are:
 
@@ -25849,7 +25849,7 @@ The current sDai risk parameters are:
 - E-mode Category: USD
 
 
-- Liquidation Bonus: 5%
+- Liquidation Bonus: 6%
 
 
 - Reserve Factor: 50%
@@ -25861,13 +25861,13 @@ The current sDai risk parameters are:
 - Borrow Cap: N/A
 
 
-- Optimal Utilization: 100%
+- Optimal Utilization: 80%
 
 
 - Isolated Debt Ceiling: N/A
 
 
-- Base Rate: 1%
+- Base Rate: 0%
 
 
 - Slope 1: 0%
@@ -25979,10 +25979,10 @@ The current USDC risk parameters are:
 - Reserve Factor: 50%
 
 
-- Supply Cap: $10,000,000
+- Supply Cap: 10,000,000 USDC
 
 
-- Borrow Cap: $1,000,000
+- Borrow Cap: 1,000,000 USDC
 
 
 - Optimal Utilization: 80%
@@ -26041,10 +26041,10 @@ The current USDC.e risk parameters are:
 - Reserve Factor: 50%
 
 
-- Supply Cap: $10,000,000
+- Supply Cap: 10,000,000 USDC.e
 
 
-- Borrow Cap: $8,000,000
+- Borrow Cap: 8,000,000 USDC.e
 
 
 - Optimal Utilization: 95%
@@ -26103,10 +26103,10 @@ The current WXDAI risk parameters are:
 - Reserve Factor: 50%
 
 
-- Supply Cap: $20,000,000
+- Supply Cap: 20,000,000 WXDAI
 
 
-- Borrow Cap: $16,000,000
+- Borrow Cap: 16,000,000 WXDAI
 
 
 - Optimal Utilization: 95%
@@ -26165,10 +26165,10 @@ The current EURe risk parameters are:
 - Reserve Factor: 50%
 
 
-- Supply Cap: $5,000,000
+- Supply Cap: 5,000,000 EURe
 
 
-- Borrow Cap: $4,000,000
+- Borrow Cap: 4,000,000 EURe
 
 
 - Optimal Utilization: 95%
