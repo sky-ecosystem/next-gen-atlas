@@ -26204,7 +26204,6 @@ The current EURe risk parameters are:
 
 ###### A.6.1.1.1.3.2.1.1.2.2.10 - Total Flash Loan Fee Current Value [Core]  <!-- UUID: e1dcc6c2-624d-4dfd-8603-84270c4a7573 -->
 
-
 The Total Flash Loan Fee is 0.00% ???
 
 
