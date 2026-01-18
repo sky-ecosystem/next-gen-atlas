@@ -25641,7 +25641,6 @@ The subdocuments herein define the current configuration of the SparkLend Gnosis
 
 ###### A.6.1.1.1.3.2.1.1.2.2.1 - Gnosis Market GNO Risk Parameters [Core]  <!-- UUID: aacc4fa0-3fd8-44f4-af79-7ec3d4128328 -->
 
-
 The current GNO risk parameters are:
 
 
@@ -25703,7 +25702,6 @@ The current GNO risk parameters are:
 
 
 ###### A.6.1.1.1.3.2.1.1.2.2.2 - Gnosis Market WETH Risk Parameters [Core]  <!-- UUID: dc3b3c32-f891-49fa-bdb4-8944d14e3d56 -->
-
 
 The current WETH risk parameters are:
 
@@ -25772,7 +25770,6 @@ slope 1 = stETH yield + slope 1 spread - base rate ???
 
 ###### A.6.1.1.1.3.2.1.1.2.2.3 - Gnosis Market USDT Risk Parameters [Core]  <!-- UUID: f5a396c7-dc2c-4d67-adff-89c5a8c62652 -->
 
-
 The current USDT risk parameters are:
 
 
@@ -25834,7 +25831,6 @@ The current USDT risk parameters are:
 
 
 ###### A.6.1.1.1.3.2.1.1.2.2.4 - Gnosis Market sDai Risk Parameters [Core]  <!-- UUID: 2c982dbd-dee3-45ce-9e45-48d7ebc33acb -->
-
 
 The current sDai risk parameters are:
 
@@ -25898,7 +25894,6 @@ The current sDai risk parameters are:
 
 ###### A.6.1.1.1.3.2.1.1.2.2.5 - wstETH Risk Parameters [Core]  <!-- UUID: a07d0682-9249-4a4f-b2a3-c0dfb163c683 -->
 
-
 The current wstETH risk parameters are:
 
 
@@ -25960,7 +25955,6 @@ The current wstETH risk parameters are:
 
 
 ###### A.6.1.1.1.3.2.1.1.2.2.6 - USDC Risk Parameters [Core]  <!-- UUID: f54fff22-1cad-4ccd-80ae-f05f0345c384 -->
-
 
 The current USDC risk parameters are:
 
@@ -26024,7 +26018,6 @@ The current USDC risk parameters are:
 
 ###### A.6.1.1.1.3.2.1.1.2.2.7 - USDC.e Risk Parameters [Core]  <!-- UUID: b54fc943-6d64-4c67-9aa2-150665be6493 -->
 
-
 The current USDC.e risk parameters are:
 
 
@@ -26087,7 +26080,6 @@ The current USDC.e risk parameters are:
 
 ###### A.6.1.1.1.3.2.1.1.2.2.8 - WXDAI Risk Parameters [Core]  <!-- UUID: 57bae006-ff07-4da7-adc3-ea3649ce7e38 -->
 
-
 The current WXDAI risk parameters are:
 
 
@@ -26149,7 +26141,6 @@ The current WXDAI risk parameters are:
 
 
 ###### A.6.1.1.1.3.2.1.1.2.2.9 - EURe Risk Parameters [Core]  <!-- UUID: 1a8186bd-c557-4a6d-80e3-a8140a215e06 -->
-
 
 The current EURe risk parameters are:
 
