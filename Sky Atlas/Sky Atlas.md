@@ -24543,7 +24543,7 @@ The information for each Delegate is listed below:
     ◦ Delegate Wallet Address: `0xF80A26ee68Bdf0224c18F85876b20858ee5206A9`
     ◦ Effective Date: 2026-01-14
     ◦ Status: Active
-    
+
 ###### A.6.1.1.1.3.1.3.9 - Subject to Change [Core]  <!-- UUID: 57f6f628-dfc3-4819-8265-c85a38c0fc9f -->
 
 Spark reserves the right to vary or amend these terms at its discretion, subject to established Spark Artifact governance procedures related to Artifact edits.
@@ -25661,7 +25661,7 @@ The current GNO risk parameters are:
 - Liquidation Bonus: 12%
 
 
-- Reserve Factor: 0%
+- Reserve Factor: 50%
 
 
 - Supply Cap: N/A
@@ -25723,7 +25723,7 @@ The current WETH risk parameters are:
 - Liquidation Bonus: 5%
 
 
-- Reserve Factor: 10%
+- Reserve Factor: 50%
 
 
 - Supply Cap: 5,000 ETH
@@ -25744,13 +25744,13 @@ The current WETH risk parameters are:
 - Slope 1: 2.5%
 
 
-- Slope 1 Spread: -0.30% ???
+- Slope 1 Spread: -0.30%
 
 
 - Slope 2: 120%
 
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 
 - Collateral: Yes
@@ -25770,7 +25770,7 @@ The current WETH risk parameters are:
 
 - Flash Loan Enabled: Yes
 The Slope 1 parameter for WETH is calculated based on the following formula:
-slope 1 = stETH yield + slope 1 spread - base rate ???
+slope 1 = stETH yield + slope 1 spread - base rate
 
 
 ###### A.6.1.1.1.3.2.1.1.2.2.3 - Gnosis Market USDT Risk Parameters [Core]  <!-- UUID: f5a396c7-dc2c-4d67-adff-89c5a8c62652 -->
@@ -25790,7 +25790,7 @@ The current USDT risk parameters are:
 - Liquidation Bonus: 0%
 
 
-- Reserve Factor: 10%
+- Reserve Factor: 50%
 
 
 - Supply Cap: $10,000,000
@@ -25814,7 +25814,7 @@ The current USDT risk parameters are:
 - Slope 2: 15%
 
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 
 - Collateral: No
@@ -25852,7 +25852,7 @@ The current sDai risk parameters are:
 - Liquidation Bonus: 5%
 
 
-- Reserve Factor: 10%
+- Reserve Factor: 50%
 
 
 - Supply Cap: 40,000,000 sDai
@@ -25876,7 +25876,7 @@ The current sDai risk parameters are:
 - Slope 2: 0%
 
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 
 - Collateral: Yes
@@ -25914,7 +25914,7 @@ The current wstETH risk parameters are:
 - Liquidation Bonus: 8%
 
 
-- Reserve Factor: 30%
+- Reserve Factor: 50%
 
 
 - Supply Cap: 15,000 wstETH
@@ -25938,7 +25938,7 @@ The current wstETH risk parameters are:
 - Slope 2: 100%
 
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 
 - Collateral: Yes
@@ -25976,7 +25976,7 @@ The current USDC risk parameters are:
 - Liquidation Bonus: 0%
 
 
-- Reserve Factor: 10%
+- Reserve Factor: 50%
 
 
 - Supply Cap: $10,000,000
@@ -26000,7 +26000,7 @@ The current USDC risk parameters are:
 - Slope 2: 50%
 
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 
 - Collateral: No
@@ -26038,7 +26038,7 @@ The current USDC.e risk parameters are:
 - Liquidation Bonus: 0%
 
 
-- Reserve Factor: 10%
+- Reserve Factor: 50%
 
 
 - Supply Cap: $10,000,000
@@ -26062,7 +26062,7 @@ The current USDC.e risk parameters are:
 - Slope 2: 15%
 
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 
 - Collateral: No
@@ -26100,7 +26100,7 @@ The current WXDAI risk parameters are:
 - Liquidation Bonus: 5%
 
 
-- Reserve Factor: 5%
+- Reserve Factor: 50%
 
 
 - Supply Cap: $20,000,000
@@ -26124,7 +26124,7 @@ The current WXDAI risk parameters are:
 - Slope 2: 15%
 
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 
 - Collateral: Yes
@@ -26162,7 +26162,7 @@ The current EURe risk parameters are:
 - Liquidation Bonus: 0%
 
 
-- Reserve Factor: 10%
+- Reserve Factor: 50%
 
 
 - Supply Cap: $5,000,000
@@ -26186,7 +26186,7 @@ The current EURe risk parameters are:
 - Slope 2: 15%
 
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 
 - Collateral: No
@@ -26209,12 +26209,12 @@ The current EURe risk parameters are:
 
 ###### A.6.1.1.1.3.2.1.1.2.2.10 - Total Flash Loan Fee Current Value [Core]  <!-- UUID: e1dcc6c2-624d-4dfd-8603-84270c4a7573 -->
 
-The Total Flash Loan Fee is 0.00% ???
+The Total Flash Loan Fee is 0.00%
 
 
 ###### A.6.1.1.1.3.2.1.1.2.2.11 - Protocol Flash Loan Fee Current Value [Core]  <!-- UUID: 021a3c3a-634e-4720-9b86-6712737da9f7 -->
 
-The Protocol Flash Loan Fee is 0.00% ???
+The Protocol Flash Loan Fee is 0.00%
 
 ###### A.6.1.1.1.3.2.1.1.3 - SparkLend Risk Parameters Cap Automators [Core]  <!-- UUID: 6ffdb8ee-b083-40f5-b51b-1c91e954b68b -->
 
