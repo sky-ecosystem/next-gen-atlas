@@ -23388,7 +23388,7 @@ The documents herein contain the Instance Configuration Document for the Transfe
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.3.1.11.1.2 - Parameters [Core]  <!-- UUID: c9d05c8a-7e78-45f6-8422-64793b739434 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2 - Parameters [Core]  <!-- UUID: 99c9d288-1fd2-4608-b38e-085d40c12ce1 -->
 
 The documents herein define the parameters of the Transfer USDC to Paxos (receive PYUSD) of the Allocation System Primitive.
 
