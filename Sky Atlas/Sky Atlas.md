@@ -26206,16 +26206,6 @@ The current EURe risk parameters are:
 
 - Flash Loan Enabled: No
 
-
-###### A.6.1.1.1.3.2.1.1.2.2.10 - Total Flash Loan Fee Current Value [Core]  <!-- UUID: e1dcc6c2-624d-4dfd-8603-84270c4a7573 -->
-
-The Total Flash Loan Fee is 0.00%
-
-
-###### A.6.1.1.1.3.2.1.1.2.2.11 - Protocol Flash Loan Fee Current Value [Core]  <!-- UUID: 021a3c3a-634e-4720-9b86-6712737da9f7 -->
-
-The Protocol Flash Loan Fee is 0.00%
-
 ###### A.6.1.1.1.3.2.1.1.3 - SparkLend Risk Parameters Cap Automators [Core]  <!-- UUID: 6ffdb8ee-b083-40f5-b51b-1c91e954b68b -->
 
 Cap Automators allow the Supply Cap defined in [A.6.1.1.1.3.2.1.1.1.9 - Supply Cap Definition](e222b8da-abda-42f5-8106-20c6f2881dc7) and the Borrow Cap defined in [A.6.1.1.1.3.2.1.1.1.10 - Borrow Cap Definition](a2d6a99e-c63a-4f30-87f3-a3d66b1eda92) to be dynamically adjusted. 
