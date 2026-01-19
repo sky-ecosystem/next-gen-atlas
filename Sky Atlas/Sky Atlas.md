@@ -1506,11 +1506,7 @@ How much discretion should Facilitators have in interpreting and applying the el
 
 An Alignment Conserver can assume one of two roles: Aligned Delegate (AD) and Facilitator. ACs may only be operationally active in a single AC role and may not simultaneously assume multiple AC roles or other ecosystem roles such as Ecosystem Actors.
 
-#### A.1.4.5.1 - Exception for ADs Contributing To Atlas Core Development [Core]  <!-- UUID: 79ad7aaa-bf57-40f4-9824-589982e79d0c -->
-
-[A.1.5.3.5.2 - Atlas Workstreams](ee672cbf-035c-4c1a-a76d-da58489b0cd0) is an exception to the general rule prohibiting Alignment Conservers from being operationally active in multiple ecosystem roles.
-
-#### A.1.4.5.2 - Temporary Exception for Facilitator “Ecosystem” [Core]  <!-- UUID: 6aa88317-4dc2-4b50-87bd-27cc6de9c767 -->
+#### A.1.4.5.1 - Temporary Exception for Facilitator “Ecosystem” [Core]  <!-- UUID: 6aa88317-4dc2-4b50-87bd-27cc6de9c767 -->
 
 The Facilitator "Ecosystem" is temporarily exempt from the general rule prohibiting Alignment Conservers from being operationally active in multiple ecosystem roles. "Ecosystem" will continue to act in the Facilitator role as well as provide operational services as an Ecosystem Actor. This exception must be resolved as soon as it is reasonably possible to do so.
 
@@ -2199,12 +2195,6 @@ The documents herein define short-term transitionary measures related to Ranked 
 ##### A.1.5.3.5.1 - Levels Of Ranked Delegates [Core]  <!-- UUID: 35f7309e-4446-48c2-bbf6-9fb564d93860 -->
 
 Prior to January 1, 2026, there are zero (0) Level 1 Ranked Delegates, zero (0) Level 2 Ranked Delegates, and six (6) Level 3 Ranked Delegates.
-
-##### A.1.5.3.5.2 - Atlas Workstreams [Core]  <!-- UUID: ee672cbf-035c-4c1a-a76d-da58489b0cd0 -->
-
-Prior to January 1, 2026, Aligned Delegates (ADs) are permitted to concurrently participate in workstreams related to Atlas Core Development, and to receive budgets for this purpose. Such workstreams can include research, data collection, data processing, data review, drafting, peer review, etc.
-
-This document constitutes an exception to [A.1.4.5 - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c) which generally prohibits Alignment Conservers from being operationally active in multiple ecosystem roles.
 
 ### A.1.5.4 - Kickbacks Prohibited [Section]  <!-- UUID: 45e794a0-5092-4dea-a0de-6f373228f760 -->
 
@@ -6329,43 +6319,7 @@ Core GovOps is granted a budget to procure the necessary administrative support 
 
 The budget available to fund Governance Process Support tasks is 0 USDS per quarter.
 
-## A.2.2 - Atlas Core Development [Article]  <!-- UUID: fbcb5bb8-eefb-47b6-859f-52d71992d5cc -->
-
-This Article defines key infrastructure and processes supporting the development of the Atlas.
-
-### A.2.2.1 - Atlas Core Development [Section]  <!-- UUID: 71ca2fee-680a-4ffb-81c8-f157b40d419e -->
-
-Atlas development is a critical infrastructure priority, essential for the stability, security, and efficient operation of the Sky Ecosystem. It must be fully supported to ensure that all necessary elements for safeguarding, managing, and operating the Ecosystem are comprehensively addressed. This Section defines processes to support Atlas development.
-
-#### A.2.2.1.1 - Funding [Core]  <!-- UUID: 60470fc3-1cf6-4549-9850-6b38d1899183 -->
-
-Atlas Core Development can be performed by Ecosystem Actors paid through direct funding from Executive Votes.
-
-##### A.2.2.1.1.1 - Executive Votes [Core]  <!-- UUID: 73d256a8-fb79-4faf-9d06-ad908b4d82fc -->
-
-The Core Facilitator can initiate direct funding through monthly Executive Votes to key Atlas contributors.
-
-###### A.2.2.1.1.1.0.4.1 - Key Atlas Contributors [Action Tenet]  <!-- UUID: 969b5bf3-f982-4fc2-a29e-704b1d9962a9 -->
-
-Key Atlas contributors are individuals or teams that play a crucial role in the development of the Atlas. Relevant workstreams can include community building, research, data collection, data processing, data review, drafting, peer review, etc. The Core Facilitator, in consultation with Atlas Axis or other relevant Ecosystem Actors, will distribute funding based on criteria such as the scope of the contribution, its impact on the Atlas, and the quality of the work produced.
-
-##### A.2.2.1.1.2 - Direct Funding Cap [Core]  <!-- UUID: 086bc45a-e3f8-46e4-b574-6f432dfd2306 -->
-
-The direct funding can at most be 150,000 USDS and 1,000,000 SKY per month.
-
-##### A.2.2.1.1.3 - Direct-Funding Payment Procedure [Core]  <!-- UUID: d2af6340-ccd4-4d55-9c36-3e7ab88e0bef -->
-
-Direct funding payments to Atlas contributors are initiated through requests submitted by the contributors themselves. These funding requests are approved by the Core Facilitator, in consultation with Atlas Axis or another relevant Ecosystem Actor. Payments are triggered directly by the Core Facilitator. Payments can be requested to multiple addresses at once to accommodate contributor teams.
-
-###### A.2.2.1.1.3.0.4.1 - Trigger - Core Facilitator Must Add Atlas Core Development Payments To Executive Vote [Action Tenet]  <!-- UUID: 860d84bc-dc59-4801-8972-11bb7a66f538 -->
-
-In this context, the element "trigger" means that the Core Facilitator is responsible for requesting the addition of Atlas Core Development payments to an Executive Vote. The Core Facilitator is also responsible for providing provenance for such requests by confirming payment requests on the Executive Sheet. See [A.1.10.1.3.0.3.1 - Executive Sheet - Element Annotation](52aef6ac-9eda-4795-9dab-73ea85b8ca31).
-
-##### A.2.2.1.1.4 - Aligned Delegates Eligible to Receive Budget [Core]  <!-- UUID: f3bb065b-5e0a-4722-9c32-4c75d250125a -->
-
-Aligned Delegates are eligible to receive budgets through this funding process. This constitutes an exception to [A.1.4.5 - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c), which generally prohibits ACs from simultaneously assuming multiple ecosystem roles.
-
-## A.2.3 - Sky Primitives [Article]  <!-- UUID: fcde2604-a138-4c1b-9d9a-14895835c907 -->
+## A.2.2 - Sky Primitives [Article]  <!-- UUID: fcde2604-a138-4c1b-9d9a-14895835c907 -->
 
 This Article governs the Sky Primitives. A Sky Primitive is a standardized interface that allows Agents to connect to, and leverage, Sky Protocol’s permissioned infrastructure. This Article defines each of the Sky Primitives available for Prime Agents to use to expand the Sky Ecosystem. Each Prime Agent strategy is unique, so each may combine the Sky Primitives differently.
 
