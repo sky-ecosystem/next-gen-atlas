@@ -31004,6 +31004,7 @@ The documents herein contain the Instance Configuration Document for the Curve A
 **`Pending`**
 
 ###### A.6.1.1.2.2.6.1.3.1.6.4.2 - Parameters [Core]  <!-- UUID: 73dc573f-443e-4340-bfa5-a1773a839af8 -->
+
 The documents herein define the parameters of the Curve AUSD/USDC Swaps Instance of the Allocation System Primitive.
 
 ###### A.6.1.1.2.2.6.1.3.1.6.4.2.1 - Instance Identifiers [Core]  <!-- UUID: 8df69912-f3f3-4225-bed8-e47865580a63 -->
@@ -31022,7 +31023,7 @@ Curve AUSD/USDC
 
 USDC and AUSD
 
-###### Token [Core]  <!-- UUID: 7b862a65-b8d3-4034-a47b-649f18550393 -->
+###### A.6.1.1.2.2.6.1.3.1.6.4.2.1.4 - Token [Core]  <!-- UUID: 7b862a65-b8d3-4034-a47b-649f18550393 -->
 
 AUSDUSDC
 
@@ -32256,7 +32257,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
 
-###### A.6.1.1.1.2.2.6.1.3.1.12.3.3.1 - Parameters For Stable Stable Pools [Core]  <!-- UUID: cabd3b71-0346-4be4-9b5c-bf13dd7a0ab9 -->
+###### A.6.1.1.2.2.6.1.3.1.12.3.3.1 - Parameters For Stable Stable Pools [Core]  <!-- UUID: cabd3b71-0346-4be4-9b5c-bf13dd7a0ab9 -->
 
 - twapSecondsAgo: 600
 - maxTickDelta: 200
