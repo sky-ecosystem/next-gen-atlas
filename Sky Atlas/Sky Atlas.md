@@ -18847,7 +18847,6 @@ The Ethereum Mainnet Instances Directory of the Uniswap v4 with `Active` Statu
 ###### A.6.1.1.1.2.6.1.1.2.1.12.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 5e1d4f42-84aa-4907-ad6f-eb62b26d28e3 -->
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.10.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document](c5d16727-69f7-454a-a3da-85c46dd9eed2).
-The Ethereum Mainnet Instances Directory of the Uniswap v4 with "Active" Status are stored herein.
 
 ###### A.6.1.1.1.2.6.1.1.2.1.12.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 55e7dee1-dab9-4bc6-b8db-9aa8191597a1 -->
 
