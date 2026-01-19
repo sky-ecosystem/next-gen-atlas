@@ -3069,7 +3069,7 @@ When the execution through the Sky Core Spell method is used, the Agent Spells a
 
 ###### A.1.9.2.3.2.3.2.1 - Sky Core Spell Executes Agent Spell [Core]  <!-- UUID: a109ad0d-0743-4ae9-bcc1-df04a6e5da43 -->
 
-Execution of an Agent Spell is initiated by the Sky Core Spell, which directly calls `exec()` on the Prime's SubProxy contract to perform the Spell's actions in the same transaction. The SubProxy limits rights to the specific Agent, preventing access to Sky Core contracts. The current SubProxy contract is designed to execute the Agent Spell in the same transaction as the Sky Core Spell.
+Execution of an Agent Spell is initiated by the Sky Core Spell, which directly calls `exec()` on the Agent's SubProxy contract to perform the Spell’s actions in the same transaction. The SubProxy limits rights to the specific Agent, preventing access to Sky Core contracts. The current SubProxy contract is designed to execute the Agent Spell in the same transaction as the Sky Core Spell.
 
 #### A.1.9.2.4 - Executive Process Breakdown [Core]  <!-- UUID: 98298ab3-8d08-4c4f-b47b-81242a3e3903 -->
 
@@ -7476,7 +7476,7 @@ The Active Data is updated as follows:
 
 ###### A.2.3.8.1.2.1.6.1.0.6.1 - Sky Core Distribution Reward Reimbursement Amounts [Active Data]  <!-- UUID: 169eb312-ed63-4a83-9f5d-43b621c0705e -->
 
-The current Sky Core Accessibility Reward Reimbursement Amounts are:
+The current Sky Core Distribution Reward Reimbursement Amounts are:
 
 ###### A.2.3.8.1.2.2 - Global Activation [Core]  <!-- UUID: 49513ac9-43d6-4766-8a51-195e221de3f2 -->
 
@@ -8484,7 +8484,7 @@ Net USDS balances in a DeFi protocol that is receiving an Integration Boost are 
 
 ###### A.2.3.8.2.2.1.4.1 - Reporting Of Net USDS Balances Is Valid Tracking Methodology [Core]  <!-- UUID: a4ca2e70-d013-4c54-8e17-1d6f352ddbc0 -->
 
-The methodology used to report net USDS balances in the protocol for the Integration Boost is itself an acceptable Tracking Methodology for purposes of the Accessibility Reward.
+The methodology used to report net USDS balances in the protocol for the Integration Boost is itself an acceptable Tracking Methodology for purposes of the Distribution Reward.
 
 ###### A.2.3.8.2.2.1.4.2 - No Double Payments [Core]  <!-- UUID: 5828a3a0-243d-48a5-b537-297015a0c5f5 -->
 
@@ -11018,43 +11018,29 @@ Specific token allocations are defined in the subdocuments herein.
 
 ###### A.2.9.2.2.2.1.2.2 - Sky Retained Tokens And Reward Pools [Core]  <!-- UUID: fb447af6-1581-4711-b73c-dc2e8d65e843 -->
 
-Sky retains 7,000,000,000 GROVE tokens and 6,500,000,000 SPK tokens, distributing these as token rewards over a 10-year period according to the schedules outlined below.
+Sky retains 7,000,000,000 GROVE tokens and 6,500,000,000 SPK tokens. These tokens are distributed as token rewards over time as determined by Sky Governance.
 
 ###### A.2.9.2.2.2.1.2.2.1 - Grove Token Reward Distribution Schedule [Core]  <!-- UUID: 5b43f4d8-9728-411c-92c7-a7ebaf368ca0 -->
 
-Sky will distribute GROVE tokens annually, per the following schedule:  
-  
-| Year | Tokens for USDS Users | Tokens for Staking Users | Total           |  
-|------|------------------------|---------------------------|-----------------|  
-| 1    | 1,225,000,000          | 525,000,000               | 1,750,000,000   |  
-| 2    | 1,225,000,000          | 525,000,000               | 1,750,000,000   |  
-| 3    | 612,500,000            | 262,500,000               | 875,000,000     |  
-| 4    | 612,500,000            | 262,500,000               | 875,000,000     |  
-| 5    | 306,250,000            | 131,250,000               | 437,500,000     |  
-| 6    | 306,250,000            | 131,250,000               | 437,500,000     |  
-| 7    | 153,125,000            | 65,625,000                | 218,750,000     |  
-| 8    | 153,125,000            | 65,625,000                | 218,750,000     |  
-| 9    | 153,125,000            | 65,625,000                | 218,750,000     |  
-| 10   | 153,125,000            | 65,625,000                | 218,750,000     |  
-| Total| 4,900,000,000          | 2,100,000,000             | 7,000,000,000   |
+The distribution of GROVE tokens will be specified in a future iteration of the Atlas.
 
 ###### A.2.9.2.2.2.1.2.2.2 - Spark Token Reward Distribution Schedule [Core]  <!-- UUID: 1f412288-af14-4aab-84e9-79f2e0c39100 -->
 
-Sky will distribute SPK tokens annually, per the following schedule:  
+A portion of the SPK tokens held by Sky are distributed to USDS users as specified in the table below. All other SPK tokens held by Sky are reserved for future token rewards as determined by Sky Governance.
   
-| Year | Tokens for USDS Users | Tokens for Staking Users | Total           |  
-|------|------------------------|---------------------------|-----------------|  
-| 1    | 1,137,500,000          | 487,500,000               | 1,625,000,000   |  
-| 2    | 1,137,500,000          | 487,500,000               | 1,625,000,000   |  
-| 3    | 568,750,000            | 243,750,000               | 812,500,000     |  
-| 4    | 568,750,000            | 243,750,000               | 812,500,000     |  
-| 5    | 284,375,000            | 121,875,000               | 406,250,000     |  
-| 6    | 284,375,000            | 121,875,000               | 406,250,000     |  
-| 7    | 142,187,500            | 60,937,500                | 203,125,000     |  
-| 8    | 142,187,500            | 60,937,500                | 203,125,000     |  
-| 9    | 142,187,500            | 60,937,500                | 203,125,000     |  
-| 10   | 142,187,500            | 60,937,500                | 203,125,000     |  
-| Total| 4,550,000,000          | 1,950,000,000             | 6,500,000,000   |
+| Year | Tokens for USDS Users  |
+|------|------------------------|
+| 1    | 1,137,500,000          |
+| 2    | 1,137,500,000          |
+| 3    | 568,750,000            |
+| 4    | 568,750,000            |
+| 5    | 284,375,000            |
+| 6    | 284,375,000            |
+| 7    | 142,187,500            |
+| 8    | 142,187,500            |
+| 9    | 142,187,500            |
+| 10   | 142,187,500            |
+| Total| 4,550,000,000          |
 
 ###### A.2.9.2.2.2.1.3 - Transfer Limit [Core]  <!-- UUID: da03bcb0-734a-4d36-ab0e-e42a43e23d8a -->
 
@@ -11096,9 +11082,9 @@ Spark and Grove can borrow amounts exceeding the 1,000,000,000 USDS limit at the
 
 Sky’s recourse for bad debt consists of (1) minting Prime Agent tokens; (2) terminating a Prime’s right to further borrowing; and (3) activation of the Resolution Mechanism which includes, without limitation, the authority to suspend all protocol operations, seize or reallocate all of the Prime assets, override or disable smart contract functions, initiate managed restructuring, or execute full and permanent liquidation of the affected sub-protocol and all of its assets, in order to contain risk and preserve the stability and solvency of the broader ecosystem.
 
-###### A.2.9.2.2.2.3 - Accessibility Reward [Core]  <!-- UUID: 85b8e871-2d42-4a85-a887-c33d860bed64 -->
+###### A.2.9.2.2.2.3 - Distribution Reward [Core]  <!-- UUID: 85b8e871-2d42-4a85-a887-c33d860bed64 -->
 
-The subdocuments herein set out agreed terms with respect to the Accessibility Reward.
+The subdocuments herein set out agreed terms with respect to the Distribution Reward.
 
 ###### A.2.9.2.2.2.3.1 - Distribution Reward Rate [Core]  <!-- UUID: 8e3cde6b-3b8b-4e9a-b9a0-8c24d84881f6 -->
 
@@ -11164,13 +11150,23 @@ Sky Governance hereby consents to this cash grant. The first month’s transfer 
 
 ###### A.2.9.2.2.2.5.5 - Subsequent Allocation Mechanism [Core]  <!-- UUID: aea8a2d8-2203-4123-8c09-17b2bb8427c1 -->
 
-After the initial cash grant (see [A.2.9.2.2.2.5.4 - Initial Allocation Mechanism](eedd0309-b11b-459e-a966-13b16e961ccc)) but before the SPK or GROVE token is decentralized enough to allow meaningful governance by token holders, the respective founding teams may propose subsequent cash grants to their Prime Foundations. Sky must consent to each subsequent cash grant via approving the Sky Atlas modification.
+After the initial cash grant (see [A.2.9.2.2.2.5.4 - Initial Allocation Mechanism](eedd0309-b11b-459e-a966-13b16e961ccc)), Spark and Grove may request additional grants to their respective Prime Foundations to fund operations and growth.
 
-###### A.2.9.2.2.2.5.5.1 - Subsequent Cash Grant To Spark Foundation [Core]  <!-- UUID: ecccb062-23a5-449b-a916-e37049a1162e -->
+The authorization of grant requests is subject to the governance requirements and limitations specified in [A.2.3.5.2.3.1 - Limitations On Usage Of Root Edit Primitive Prior To Tokens Being Publicly Held](8c15762a-ea7e-4c6d-9089-60d30c219c0f).
 
-The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from Spark’s Prime Treasury for a three (3) month period, beginning on October 1, 2025. The purpose of this grant is to enable Spark Foundation to fulfill its purpose of promoting the growth and development of Spark. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
+In all instances, Sky Governance must consent to the transfer of funds via an Atlas Edit.
+
+###### A.2.9.2.2.2.5.5.1 - Spark Foundation Grant Authorization: October 2025 [Core]  <!-- UUID: 12425328-8344-4fbd-9afb-3ea6316972dd -->
+
+The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from Spark’s Prime Treasury for a three (3) month period, beginning on October 1, 2025. The purpose of this grant is to enable the Spark Foundation to fulfill its purpose of promoting the growth and development of Spark. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
 
 Sky Governance hereby consents to this cash grant. The transfer for October must be made to the Spark Foundation in a Spark Spell included in the October 2, 2025 Executive Vote. Transfers for subsequent months will be made proportionally in Spark Spells included in Sky Executive Votes unless otherwise agreed by Sky and Spark.
+
+###### A.2.9.2.2.2.5.5.2 - Spark Foundation Grant Authorization: December 2025 [Core]  <!-- UUID: bd9673db-225e-42f4-8f26-6e993dc72bd0 -->
+
+The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from the SubDAO Proxy for a three (3) month period to cover Q1 2026 Foundation expenses. Additionally, a one-time grant of 150,000 USDS has been proposed to cover expenses for Spark Asset Foundation for Q1 2026 (see [Forum Post](https://forum.sky.money/t/december-11-2025-proposed-changes-to-spark-for-upcoming-spell/27481).
+
+Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads as specified in the referenced proposal.
 
 ###### A.2.9.2.2.2.5.6 - Genesis Capital Backstop [Core]  <!-- UUID: 20e8467f-561c-4020-bd26-e6c1601fb64d -->
 
@@ -13085,27 +13081,9 @@ The documents herein define exceptions to the calculation of Instance Financial 
 
 ###### A.3.2.2.1.1.1.1.3.1 - Maple [Core]  <!-- UUID: d3000c93-d5d5-4a9e-b8c7-484aa3d16633 -->
 
-Because Maple accepts Native BTC and Native SOL as collateral, alternative Slippage parameters should be used for these collaterals. See [A.3.2.2.1.1.1.1.1.2.2 - Slippage](f2612a0d-6bf8-470b-b5b6-884567e1317b). The alternative Slippage parameters to be used are specified in the documents herein.
+The Instance Financial CRR for Maple SyrupUSDC is 3%.
 
-###### A.3.2.2.1.1.1.1.3.1.1 - Native BTC Slippage Parameters [Core]  <!-- UUID: e04ff702-9b21-45be-bc2a-52e0fd655c28 -->
-
-The Slippage for a Native BTC exposure is calculated as half the Slippage for an ETH exposure of the same USD amount:
-
-$$
-\text{slippage}_{btc} = \frac{\text{slippage}_{eth} }{2}
-$$
-
-For example, if the Slippage for a $40M ETH exposure is 2% then the Slippage for a $40M Native BTC exposure would be 1%.
-
-###### A.3.2.2.1.1.1.1.3.1.2 - Native SOL Slippage Parameters [Core]  <!-- UUID: 986fe3f7-3784-472b-9214-935646bb0ed9 -->
-
-The Slippage for a Native SOL exposure is calculated as double the Slippage for an ETH exposure of the same USD amount:
-
-$$
-\text{slippage}_{sol} = 2 \times \text{slippage}_{eth}
-$$
-
-For example, if the Slippage for a $40M ETH exposure is 2% then the Slippage for a $40M Native SOL exposure would be 4%.
+The maximum exposure a Prime Agent may have to Maple SyrupUSDC will be specified in a future iteration of the Atlas.
 
 ###### A.3.2.2.1.1.1.1.3.2 - Fluid [Core]  <!-- UUID: ef7403c9-8663-4759-b5aa-9496eca1f475 -->
 
@@ -16269,27 +16247,27 @@ At the same time that no new SKY tokens are issued, SKY tokens are bought back a
 
 ##### A.4.1.2.2.4 - Deprecated Emissions Mechanisms [Core]  <!-- UUID: 2f3962e4-c79e-4583-82df-31239dfb84a4 -->
 
-The subdocuments herein define legacy mechanisms involving the issuance of new SKY tokens. Each of these mechanisms is being deprecated. While these mechanisms do not increase the net supply of SKY tokens, they must be replaced with solutions that do not involve any emissions of SKY tokens, as defined in the documents herein.
+The subdocuments herein define legacy mechanisms involving the issuance of new SKY tokens. Each of these mechanisms has been deprecated. While these mechanisms did not increase the net supply of SKY tokens, they have been replaced with solutions that do not involve any emissions of SKY tokens, as defined in the documents herein.
 
 ###### A.4.1.2.2.4.1 - SKY Token Rewards Emissions [Core]  <!-- UUID: 8189e776-d631-44a0-81e5-3b2d5d88ef54 -->
 
-USDS users are able to earn SKY Rewards. See [A.4.3.2 - Token Reward Mechanism](3ff5a7b2-db91-41ab-be19-ddb068b36cc7). These rewards are currently funded by emissions of new SKY tokens.
+USDS users may be able to earn SKY Rewards. See [A.4.3.2 - Token Reward Mechanism](3ff5a7b2-db91-41ab-be19-ddb068b36cc7). These rewards were previously funded by emissions of new SKY tokens.
 
-These ongoing emissions will be eliminated and replaced with a solution that funds these rewards using SKY held by the Sky Protocol.
+These ongoing emissions were eliminated and replaced with a solution that funds these rewards using SKY held by the Sky Protocol.
 
-At the same time that this new solution is implemented, SKY tokens equal to the total SKY emissions previously used to fund SKY Rewards, including the Early Bird Reward (see [A.5.3.1.1.1 - Token Distribution](eaf8cf29-90fd-4b9b-b0a8-02ce8386908c)), will be burned from SKY held by the Sky Protocol.
+At the same time that this new solution was implemented, SKY tokens equal to the total SKY emissions previously used to fund SKY Rewards, including the Early Bird Reward (see [A.5.3.1.1.1 - Token Distribution](eaf8cf29-90fd-4b9b-b0a8-02ce8386908c)), were burned from SKY held by the Sky Protocol.
 
-The combination of these actions will achieve a state where the number of total SKY tokens is exactly the same as if SKY Rewards had never been funded with protocol emissions.
+The combination of these actions achieved a state where the number of total SKY tokens is exactly the same as if SKY Rewards had never been funded with protocol emissions.
 
 ###### A.4.1.2.2.4.2 - MKR To SKY Conversion Emissions [Core]  <!-- UUID: 676636df-729d-46e3-bf34-89d0d33e8051 -->
 
-The legacy MKR to SKY conversion contract (Legacy Conversion Contract) burns MKR and mints new SKY. The new MKR to SKY conversion contract (New Conversion Contract) instead burns MKR and issues SKY from the existing supply of preminted SKY.
+The legacy MKR to SKY conversion contract (Legacy Conversion Contract) burned MKR and minted new SKY. The new MKR to SKY conversion contract (New Conversion Contract) instead burns MKR and issues SKY from the existing supply of preminted SKY.
 
-The Legacy Conversion Contract will be disabled as specified in [A.4.1.2.2.4.2.1 - Disabling Legacy Conversion Contract](1b8248bf-5d88-4d67-8c4a-21981a0aa937). To offset SKY minted by the Legacy Conversion Contract after the deployment of the New Conversion Contract, an equivalent amount of preminted SKY will be burned. This action will ensure the total SKY token supply remains as if these specific emissions from the Legacy Conversion Contract had not occurred.
+The Legacy Conversion Contract was disabled as specified in [A.4.1.2.2.4.2.1 - Disabling Legacy Conversion Contract](1b8248bf-5d88-4d67-8c4a-21981a0aa937). To offset SKY minted by the Legacy Conversion Contract after the deployment of the New Conversion Contract, an equivalent amount of preminted SKY was burned. This action ensured the total SKY token supply remains as if these specific emissions from the Legacy Conversion Contract had not occurred.
 
 ###### A.4.1.2.2.4.2.1 - Disabling Legacy Conversion Contract [Core]  <!-- UUID: 1b8248bf-5d88-4d67-8c4a-21981a0aa937 -->
 
-The disabling of the Legacy Conversion Contract will be executed in the June 26, 2025 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+The disabling of the Legacy Conversion Contract was executed in the June 26, 2025 Executive Vote.
 
 ## A.4.2 - SkyLink [Article]  <!-- UUID: f6d2bae6-7ebc-42cd-a507-900f4bcfb98f -->
 
@@ -16301,7 +16279,7 @@ SkyLink deployments support features including the Savings Rate Mechanism (inclu
 
 ## A.4.3 - Savings Rate And Token Reward Mechanism [Article]  <!-- UUID: c64a37d4-08a8-41bb-beae-4e976b6d0982 -->
 
-This Article regulates the rewards benefitting Dai users and USDS users for holding each Stablecoin. DAI users can access the legacy DAI Savings Rate Mechanism. USDS users can access a built-in Savings Rate, as well as additional Token Reward Mechanisms including SKY and Agent tokens.
+This Article regulates the rewards benefiting Dai users and USDS users for holding each Stablecoin. DAI users can access the legacy DAI Savings Rate Mechanism. USDS users can access a built-in Savings Rate, and also potentially earn rewards through Token Reward Mechanisms, including SKY and Agent tokens, as specified in the subdocuments herein.
 
 ### A.4.3.1 - Savings Rates [Section]  <!-- UUID: 95f2454b-c1c3-476c-b5f8-3f4fead2e2cc -->
 
@@ -16309,27 +16287,15 @@ The Savings Rate Mechanism includes both the legacy Dai Savings Rate Mechanism a
 
 ### A.4.3.2 - Token Reward Mechanism [Section]  <!-- UUID: 3ff5a7b2-db91-41ab-be19-ddb068b36cc7 -->
 
-The Token Rewards Mechanism provides SKY rewards to USDS users. Agent tokens are also distributed through a Token Rewards Mechanism.
+The Token Rewards Mechanism allows USDS users to potentially earn SKY and Agent token rewards as specified in the subdocuments herein.
 
 #### A.4.3.2.1 - SKY Token Rewards [Core]  <!-- UUID: caba97e4-4d4d-4aa9-9ed4-f0d1c8b1c552 -->
 
-With each Executive Vote, the distribution of SKY token rewards to USDS holders is normalized to ensure the effective yield provided by these rewards equals the Sky Savings Rate (SSR) for the upcoming period. The effective yield is defined as: (Total Market Value of Distributed SKY Tokens / Total Eligible USDS Balance).
+SKY token rewards are not currently available to USDS users.
 
-To achieve this normalization, the quantity of SKY token rewards to be distributed is determined through the following calculation, performed for each normalization period:
+#### A.4.3.2.2 - SPK Token Rewards [Core]  <!-- UUID: 4f56e3a5-7d4d-4da7-9045-d4d88fabc756 -->
 
-1. Determine Target Reward Value: Calculate the total US dollar value required to meet the SSR for the period: (Total Eligible USDS Balance * SSR).
-    
-2. Determine SKY Token Quantity: Divide the Target Reward Value (from step 1) by the Current Market Price of SKY (determined at the time of the Executive Vote).
-
-The Core Facilitator, on the recommendation of the Core Council Risk Advisor, may maintain the quantity of SKY token rewards to be distributed for a normalization period at its current level if they conclude that:
-    
-◦ the difference between the effective yield provided by SKY Tokens Rewards and the SSR is not material;
-    
-◦ the difference between the effective yield provided by SKY Token Rewards and the SSR is unlikely to persist due to other factors; or
-    
-◦ adjusting the quantity of SKY Token Rewards is otherwise inadvisable.
-
-The recommendation of the Core Council Risk Advisor must be posted to the Sky Forum.
+SPK token rewards are available to USDS users as specified in [A.2.9.2.2.2.1.2.2.2 - Spark Token Reward Distribution Schedule](1f412288-af14-4aab-84e9-79f2e0c39100).
 
 ## A.4.4 - SKY Staking Mechanism [Article]  <!-- UUID: b8891a30-f255-4694-895c-4399df916da3 -->
 
@@ -16337,7 +16303,7 @@ This Article governs the SKY Staking Mechanism that grants voting rewards on sta
 
 ### A.4.4.1 - SKY Staking [Section]  <!-- UUID: 626bd71c-b413-41b7-a5fe-39fd0d43dbf5 -->
 
-SKY holders can stake their tokens via the SKY Staking Mechanism available on Ethereum Mainnet and SkyLink Deployments. SKY stakers earn voting rewards sourced from the Sky Treasury Management Function. In lieu of USDS rewards and SKY rewards, SKY stakers can choose to earn Agent Token Rewards, including SPK and the tokens of other Prime Agents incubated by Sky. SKY stakers can also borrow USDS against their staked collateral using the SKY-backed borrowing mechanism defined herein.
+SKY holders can stake their tokens via the SKY Staking Mechanism available on Ethereum Mainnet and SkyLink Deployments. SKY stakers earn voting rewards sourced from the Sky Treasury Management Function. SKY stakers may be able to earn USDS rewards, SKY rewards, and Agent Token Rewards, as determined by Sky Governance. SKY stakers can also borrow USDS against their staked collateral using the SKY-backed borrowing mechanism defined herein.
 
 #### A.4.4.1.1 - SKY Unstaking [Core]  <!-- UUID: e945372c-f526-45b9-af12-135f0eb6e830 -->
 
@@ -16976,7 +16942,7 @@ The documents herein define short-term logic for SKY staking rewards pending the
 
 ##### A.4.4.1.4.1 - Short Term USDS Rewards For SKY Stakers [Core]  <!-- UUID: aad249a0-1332-4b5f-9b46-d89873e73b86 -->
 
-Until the Treasury Management Function (TMF) is fully implemented, USDS rewards for SKY stakers will be temporarily funded by the Smart Burn Engine, subject to the parameters of the Smart Burn Engine; this interim mechanism will be discontinued once the TMF becomes fully operational.
+USDS rewards for SKY stakers are not currently available.
 
 ##### A.4.4.1.4.2 - Short Term SKY Rewards For SKY Stakers [Core]  <!-- UUID: aed6511f-f5f0-4b46-a56e-9a7bbc6ea310 -->
 
@@ -17060,13 +17026,11 @@ The parameters of the vesting stream that vests SKY Tokens to be transferred to 
 
 ###### A.4.4.1.4.2.2 - Source Of SKY Rewards [Core]  <!-- UUID: 349a350c-c9b7-4232-a83f-2fb49b91fc74 -->
 
-Initially, the SKY Tokens in the Protocol Treasury to fund SKY rewards for SKY stakers will be funded by the 500,000,000 SKY transferred by the Sky Frontier Foundation to the Protocol Treasury.
-
-The `vestTot` and `vestTau` parameters of the Vesting Stream contract are set such that these 500,000,000 SKY will be distributed over three (3) months. After these three (3) months, SKY rewards must be funded by SKY acquired through buybacks and the parameters of the Vesting Stream contract must be adjusted accordingly.
+The `vestTot` and `vestTau` parameters of the Vesting Stream contract are set such that SKY rewards are funded by SKY acquired through buybacks and the parameters of the Vesting Stream contract must be adjusted accordingly.
 
 ###### A.4.4.1.4.2.2.1 - Authorization Of Transfer By Sky Frontier Foundation [Core]  <!-- UUID: 2789177b-5bc7-486f-8aab-75ea16e21035 -->
 
-Sky Governance hereby confirms that the transfer of the 500,000,000 SKY tokens specified in [A.4.4.1.4.2.2 - Source Of SKY Rewards](349a350c-c9b7-4232-a83f-2fb49b91fc74) is consistent with the terms of the grant to the Sky Frontier Foundation. See [A.2.14.1 - Ecosystem Entity Grants](5d5759e4-8077-4af5-9a1a-eaeab5088dd7).
+Sky Governance hereby confirms that the transfer of 500,000,000 SKY tokens to initially fund SKY rewards for SKY stakers is consistent with the terms of the grant to the Sky Frontier Foundation. See [A.2.14.1 - Ecosystem Entity Grants](5d5759e4-8077-4af5-9a1a-eaeab5088dd7).
 
 ## A.4.5 - Distribution Of Agent Tokens [Article]  <!-- UUID: e2f1f01f-3303-41c3-b337-f09eb41ba6be -->
 
@@ -28695,6 +28659,19 @@ The maximum amount of USDC that can be bridged to Ethereum Mainnet from the Base
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
+###### A.6.1.1.2.2.6.1.2.1.1.4 - On-chain Parameters [Core]  <!-- UUID: 21a390bd-ffc4-4f14-b8fd-e30aacdcee89 -->
+
+The documents herein list general on-chain parameters for the Grove Liquidity Layer.
+
+###### A.6.1.1.2.2.6.1.2.1.1.4.1 - Allocator Vault Parameters [Core]  <!-- UUID: 4db4b613-f06c-4aae-a091-2a78521fb6de -->
+
+The Allocator Vault parameters for ALLOCATOR-BLOOM-A are:
+
+- duty: 0
+- gap: 250 million USDS
+- maxLine: 5 billion USDS
+- ttl: 24 hours
+
 ###### A.6.1.1.2.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 6859900b-3d53-4a5c-8a00-ddb1cf0c07a4 -->
 
 The documents herein describe the specific governance processes for the Grove Liquidity Layer.
@@ -28707,88 +28684,107 @@ The governance process to invoke a new Instance of the Allocation System Primiti
 
 The documents herein define multisigs that have privileged access to manage the Grove Liquidity Layer.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.1 - Prime Relayer Multisig [Core]  <!-- UUID: 5e6f63a8-d0e5-441d-927b-13830f5f9b24 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.1 - Prime Primary Relayer Multisig [Core]  <!-- UUID: 5e6f63a8-d0e5-441d-927b-13830f5f9b24 -->
 
-The Prime Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.2 - Relayer Role](4639e60c-111f-4018-bc8d-501b88c20edd) and is controlled by Grove.
+The Prime Primary Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.2 - Relayer Role](4639e60c-111f-4018-bc8d-501b88c20edd) and is controlled by Grove.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.1.1 - Address [Core]  <!-- UUID: 2ecf77f4-13d5-40dd-a50f-d85aabdbf71b -->
 
-The address of the Prime Relayer Multisig on the Ethereum Mainnet is `0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f`.
+The address of the Prime Primary Relayer Multisig is `0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f`.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.1.2 - Required Number Of Signers [Core]  <!-- UUID: 7c9c4334-71c3-4e55-ad66-7970d244a1a0 -->
 
-The Prime Relayer Multisig currently has a 4/7 signing requirement.
+The Prime Primary Relayer Multisig currently has a 4/7 signing requirement.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.1.3 - Signers [Core]  <!-- UUID: 10b61bac-2e7a-4607-b464-75ac1635c102 -->
 
-The signers of the Prime Relayer Multisig are seven (7) addresses controlled by Grove.
+The signers of the Prime Primary Relayer Multisig are seven (7) addresses controlled by Grove.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.1.4 - Usage Standards [Core]  <!-- UUID: b3f2fd41-9682-46ff-b85e-4a0f0d0885b5 -->
 
-The signers of the Prime Relayer Multisig must use the Multisig to exercise the `RELAYER_ROLE` in accordance with the instructions specified in the Grove Artifact.
+The signers of the Prime Primary Relayer Multisig must use the Multisig to exercise the `RELAYER_ROLE` in accordance with the instructions specified in the Grove Artifact.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.1.5 - Modification [Core]  <!-- UUID: 8baba39e-0d83-4d64-b15a-cf9948583a5e -->
 
-Grove can change the signers of the Prime Relayer Multisig at any time, so long as there are at least two (2) signers and at least a majority of signers are required to execute transactions.
+Grove can change the signers of the Prime Primary Relayer Multisig at any time, so long as there are at least two (2) signers and at least a majority of signers are required to execute transactions.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.2 - Core Operator Relayer Multisig [Core]  <!-- UUID: be75c381-80e1-4c95-8b8b-e990f00a178e -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.2 - Prime Secondary Relayer Multisig [Core]  <!-- UUID: bc712bee-9788-4f31-b671-fbc5aafaf42c -->
+
+The Prime Secondary Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.2 - Relayer Role](4639e60c-111f-4018-bc8d-501b88c20edd) and is controlled by Grove.
+
+###### A.6.1.1.2.2.6.1.2.1.2.2.2.1 - Address [Core]  <!-- UUID: 49588342-eebf-41e2-89eb-eb4f94ba5f36 -->
+
+The address of the Prime Secondary Relayer Multisig is `0x9187807e07112359C481870feB58f0c117a29179`.
+
+###### A.6.1.1.2.2.6.1.2.1.2.2.2.2 - Required Number Of Signers [Core]  <!-- UUID: 8f0b88bf-0fcd-4103-a4c2-e03b61a2e8a7 -->
+
+The Prime Secondary Relayer Multisig currently has a 1/2 signing requirement.
+
+###### A.6.1.1.2.2.6.1.2.1.2.2.2.3 - Signers [Core]  <!-- UUID: 2ff0395a-f47a-478a-8621-28bae36bc2f7 -->
+
+The signers of the Prime Secondary Relayer Multisig are two (2) addresses controlled by Grove.
+
+###### A.6.1.1.2.2.6.1.2.1.2.2.2.4 - Usage Standards [Core]  <!-- UUID: d50351e8-6cca-4d49-abb8-0c7ce3b16b92 -->
+
+The signers of the Prime Secondary Relayer Multisig must use the Multisig to exercise the `RELAYER_ROLE` in accordance with the instructions specified in the Grove Artifact.
+
+###### A.6.1.1.2.2.6.1.2.1.2.2.2.5 - Modification [Core]  <!-- UUID: eecf9254-7939-492a-a4c8-938bbb19c7a0 -->
+
+Grove can change the signers of the Prime Secondary Relayer Multisig at any time, so long as there are at least two (2) signers and at least a majority of signers are required to execute transactions.
+
+###### A.6.1.1.2.2.6.1.2.1.2.2.3 - Core Operator Relayer Multisig [Core]  <!-- UUID: be75c381-80e1-4c95-8b8b-e990f00a178e -->
 
 The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.2 - Relayer Role](4639e60c-111f-4018-bc8d-501b88c20edd), and is controlled by Amatsu.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.2.1 - Address [Core]  <!-- UUID: 712e0f02-b787-4812-8d67-60a81449b238 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.3.1 - Address [Core]  <!-- UUID: 712e0f02-b787-4812-8d67-60a81449b238 -->
 
 The address of the Core Operator Relayer Multisig on the Ethereum Mainnet is `0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96`.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.2.2 - Required Number Of Signers [Core]  <!-- UUID: 9a1af2ad-da1b-460f-89f6-84c513c71418 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.3.2 - Required Number Of Signers [Core]  <!-- UUID: 9a1af2ad-da1b-460f-89f6-84c513c71418 -->
 
 The Core Operator Relayer Multisig currently has a 2/3 signing requirement.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.2.3 - Signers [Core]  <!-- UUID: 7a7df887-8cdf-447e-8d8e-aad3360c7417 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.3.3 - Signers [Core]  <!-- UUID: 7a7df887-8cdf-447e-8d8e-aad3360c7417 -->
 
 The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Amatsu.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.2.4 - Usage Standards [Core]  <!-- UUID: 2014eee2-c5e7-4da7-8925-04b5e4bfd6f5 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.3.4 - Usage Standards [Core]  <!-- UUID: 2014eee2-c5e7-4da7-8925-04b5e4bfd6f5 -->
 
 The signers of the Core Operator Relayer Multisig must use the Multisig to exercise the `RELAYER_ROLE` in accordance with the instructions specified in the Grove Artifact.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.2.5 - Modification [Core]  <!-- UUID: f789a1aa-ddfb-4ddd-85c4-76387ef6d516 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.3.5 - Modification [Core]  <!-- UUID: f789a1aa-ddfb-4ddd-85c4-76387ef6d516 -->
 
 Operational GovOps Amatsu can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.3 - Freezer Multisig [Core]  <!-- UUID: 99bc2dd5-5573-4bb9-9210-5af299d058d9 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.4 - Freezer Multisig [Core]  <!-- UUID: 99bc2dd5-5573-4bb9-9210-5af299d058d9 -->
 
-The Freezer Multisig has the `FREEZER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.4 - Freezer Role](37871a80-dc8f-4804-bce1-5f082e9bca9f) and is controlled by the Core Facilitator and Operational Facilitator.
+The Freezer Multisig has the `FREEZER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.4 - Freezer Role](37871a80-dc8f-4804-bce1-5f082e9bca9f).
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.3.1 - Address [Core]  <!-- UUID: 33cb22ad-7032-4eec-ab47-4c5f5d28e064 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.4.1 - Address [Core]  <!-- UUID: 33cb22ad-7032-4eec-ab47-4c5f5d28e064 -->
 
 The address of the Freezer Multisig on the Ethereum Mainnet is `0xB0113804960345fd0a245788b3423319c86940e5`.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.3.2 - Required Number Of Signers [Core]  <!-- UUID: 939338a1-df49-47cb-9206-810059b6c16a -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.4.2 - Required Number Of Signers [Core]  <!-- UUID: 939338a1-df49-47cb-9206-810059b6c16a -->
 
-The Freezer Multisig currently has a 2/4 signing requirement.
+The Freezer Multisig currently has a 2/5 signing requirement.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.3.3 - Signers [Core]  <!-- UUID: 0a18da19-36e2-4948-93cc-ee86d20617b3 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.4.3 - Signers [Core]  <!-- UUID: 0a18da19-36e2-4948-93cc-ee86d20617b3 -->
 
-The Freezer Multisig has the following signers:
+The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Amatsu, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Grove.
 
-- VoteWizard
-- JanSky
-- LDR
-- CivicSage
+###### A.6.1.1.2.2.6.1.2.1.2.2.4.4 - Usage Standards [Core]  <!-- UUID: 1bd5fe5c-6cb4-4a5a-a84a-03e59736c98a -->
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.3.4 - Usage Standards [Core]  <!-- UUID: 1bd5fe5c-6cb4-4a5a-a84a-03e59736c98a -->
-
-The signers of the Freezer Multisig should exercise their authority to freeze the Grove Liquidity Layer in the event that Grove is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency. The signers should consult with Operational GovOps Amatsu before exercising such authority, unless such consultation would cause a delay that could result in a loss of user funds or harm to Sky or Grove. Operational GovOps Amatsu may also ask the signers to exercise the Freezer Multisig in an emergency. The signers will work with Amatsu and, if necessary, other Operational GovOps, in good faith in determining whether to exercise their authority based on such request.
+The signers of the Freezer Multisig should exercise their authority to freeze the Grove Liquidity Layer in the event that Grove is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency.
 
 Each action executed by the Freezer Multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum.
 
-###### A.6.1.1.2.2.6.1.2.1.2.2.3.5 - Modification [Core]  <!-- UUID: 827f87da-917e-4acf-af0a-9e220641b145 -->
+###### A.6.1.1.2.2.6.1.2.1.2.2.4.5 - Modification [Core]  <!-- UUID: 827f87da-917e-4acf-af0a-9e220641b145 -->
 
 Modification of the signers of the Freezer Multisig must be approved through an Atlas Edit Proposal.
 
-The only exceptions to this are if: 1) a signer self-reports a loss of access to their private key due to any reason; or 2) a signer explicitly expresses their wish to be removed as a signer. In both cases, the signer is required to communicate the loss of access to their private key, or the wish to be removed as a signer, in the form of a public Sky Forum post. The specific signer should be replaced as soon as possible, which does not require a Governance Poll.
+The only exceptions to this are if: 1) a signer self-reports a loss of access to their private key due to any reason; or 2) a signer explicitly expresses their wish to be removed as a signer. In both cases, the signer is required to communicate the loss of access to their private key, or the wish to be removed as a signer, in the form of a public Sky Forum post. The specific signer should be replaced as soon as possible.
 
-Any changes to the multisig signers that do not fall within the two exceptions listed above, or that have not been ratified by Sky Governance, should be questioned immediately and treated as malicious. Where malicious activity is suspected, the Facilitators must prepare an expedited Executive Vote so that Sky Governance can vote on removing external security access from the multisig.
+Any changes to the Multisig signers that do not fall within the two exceptions listed above, or that have not been ratified by Sky Governance, should be questioned immediately and treated as malicious. Where malicious activity is suspected, the Facilitators must prepare an expedited Executive Vote so that Sky Governance can vote on removing external security access from the Multisig.
 
 ###### A.6.1.1.2.2.6.1.2.1.3 - Total Risk Capital (TRC) Management [Core]  <!-- UUID: 3567039f-c74a-4f4c-85c9-e68ac880009a -->
 
@@ -34388,11 +34384,11 @@ Operational GovOps Amatsu can change the signers of the Core Operator Relayer Mu
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4 - Freezer Multisig [Core]  <!-- UUID: aeee4280-ab46-4269-9430-fef8c2ee6d43 -->
 
-The Freezer Multisig has the [A.6.1.1.3.2.6.1.2.2.2.1.1.3 - Freezer Role](6f7becc7-2e70-44e5-8662-25ba7dd1a5f8).
+The Freezer Multisig has the `FREEZER_ROLE` as defined in [A.6.1.1.3.2.6.1.2.2.2.1.1.3 - Freezer Role](6f7becc7-2e70-44e5-8662-25ba7dd1a5f8).
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4.1 - Address [Core]  <!-- UUID: b76dbc30-602e-4464-b797-8b6643d8e2b8 -->
 
-The address of the Freezer Multisig on the Solana is `AUAJeXgLDNoDbBZ1uRguj9hWDZJSQkmoy4xk9U5zJF8h`.
+The address of the Freezer Multisig on Solana is `AUAJeXgLDNoDbBZ1uRguj9hWDZJSQkmoy4xk9U5zJF8h`.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4.2 - State Address [Core]  <!-- UUID: f9d1c2bc-5903-4581-9b0d-9c68f7c64ac8 -->
 
@@ -34400,15 +34396,15 @@ The address of the Freezer Multisig permission configurations is `B24DtbKAV25fcZ
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4.3 - Required Number Of Signers [Core]  <!-- UUID: c900500f-d44a-4c6f-9429-032a28262b68 -->
 
-The Freezer Multisig currently has a 2/4 signing requirement.
+The Freezer Multisig currently has a 2/5 signing requirement.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4.4 - Signers [Core]  <!-- UUID: e6c86321-bef0-435c-a2db-2b82dc7f1c77 -->
 
-The signers of the Freezer Multisig will be specified in a future iteration of the Atlas.
+The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Amatsu, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Keel.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4.5 - Usage Standards [Core]  <!-- UUID: 9a900853-f703-4454-92bf-416fbb157aea -->
 
-The signers of the Freezer Multisig should exercise their authority to freeze the Keel Liquidity Layer in the event that Keel is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency. The signers should consult with Operational GovOps Amatsu before exercising such authority, unless such consultation would cause a delay that could result in a loss of user funds or harm to Sky or Keel. Amatsu may also ask the signers to exercise the Freezer Multisig in an emergency. The signers will work with Operational GovOps Amatsu and, if necessary, other Ecosystem Actors, in good faith in determining whether to exercise their authority based on such request.
+The signers of the Freezer Multisig should exercise their authority to freeze the Keel Liquidity Layer in the event that Keel is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency.
 
 Each action executed by the Freezer Multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum.
 
