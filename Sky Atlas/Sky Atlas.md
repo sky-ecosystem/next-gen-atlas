@@ -23446,12 +23446,12 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be s
 
 ###### A.6.1.1.1.2.6.1.3.1.11.1.2.4 - Rate Limits [Core]  <!-- UUID: bd104480-24d4-4fb1-a8f0-13e5c04a2c18 -->
 
-The specific `maxAmount` and `slope` for this conduit's inflow/outflow are not defined for this Instance.
+The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.11.1.2.5 - TransferAssets Rate Limits [Core]  <!-- UUID: 66f2a388-119c-4908-9ff7-f38190e9566d -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 66f2a388-119c-4908-9ff7-f38190e9566d -->
 
-- `maxAmount`: 5 million
-- `slope`: 50 million
+- `maxAmount`: 5,000,000
+- `slope`: 50,000,000
 
 ###### A.6.1.1.1.2.6.1.3.1.11.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 51453e8e-19c2-45e1-95e3-88ce99e9c80f -->
 
@@ -23515,12 +23515,12 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be s
 
 ###### A.6.1.1.1.2.6.1.3.1.11.2.2.4 - Rate Limits [Core]  <!-- UUID: ad179de7-3167-476d-ae82-36fb715ec68f -->
 
-The specific `maxAmount` and `slope` for this conduit's inflow/outflow are not defined for this Instance.
+The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.11.2.2.5 - TransferAssets Rate Limits [Core]  <!-- UUID: 1f64320b-feca-4059-95d3-f73950382031 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 1f64320b-feca-4059-95d3-f73950382031 -->
 
-- `maxAmount`: 5 million
-- `slope`: 200 million
+- `maxAmount`: 5,000,000
+- `slope`: 200,000,000
 
 ###### A.6.1.1.1.2.6.1.3.1.11.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 880763c4-9474-41e4-bd59-2afb8796ab8b -->
 
@@ -23584,12 +23584,12 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be s
 
 ###### A.6.1.1.1.2.6.1.3.1.11.3.2.4 - Rate Limits [Core]  <!-- UUID: 0d22ec04-8742-49d5-a285-3668ce6d4947 -->
 
-The specific `maxAmount` and `slope` for this conduit's inflow/outflow are not defined for this Instance.
+The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.11.3.2.5 - TransferAssets Rate Limits [Core]  <!-- UUID: eb39ef45-405a-46d5-acac-c0ecc47b7ea2 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: eb39ef45-405a-46d5-acac-c0ecc47b7ea2 -->
 
-- `maxAmount`: 5 million
-- `slope`: 200 million
+- `maxAmount`: 5,000,000
+- `slope`: 200,000,000
 
 ###### A.6.1.1.1.2.6.1.3.1.11.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 58faa1d1-96fb-44cd-8902-81a48cf7d2a8 -->
 
@@ -23653,12 +23653,12 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be s
 
 ###### A.6.1.1.1.2.6.1.3.1.11.4.2.4 - Rate Limits [Core]  <!-- UUID: ffbfbbf7-8de6-47b8-aa8d-052e8273f33e -->
 
-The specific `maxAmount` and `slope` for this conduit's inflow/outflow are not defined for this Instance.
+The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.11.4.2.5 - TransferAssets Rate Limits [Core]  <!-- UUID: 22e01de3-379b-4724-9ff6-136937c002d2 -->
+###### A.6.1.1.1.2.6.1.3.1.11.4.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 22e01de3-379b-4724-9ff6-136937c002d2 -->
 
-- `maxAmount`: 5 million
-- `slope`: 100 million
+- `maxAmount`: 5,000,000
+- `slope`: 100,000,000
 
 ###### A.6.1.1.1.2.6.1.3.1.11.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: c8887b5e-fb8f-4364-bc4d-715a5393fbb3 -->
 
