@@ -11546,6 +11546,74 @@ The Initial Allocation is distributed in USDS to the Launch Agent 6 SubProxy.
 
 The transfer of 10,000,000 USDS from the Surplus Buffer to the Launch Agent 6 SubProxy for the Genesis Capital Allocation will be included in a future Executive Vote. This action is contingent on mutual agreement by Sky and Launch Agent 6 on a future iteration of this agreement specifying the terms and conditions of the Genesis Capital Allocation.
 
+#### A.2.9.2.7 - Ecosystem Accord 7: Sky and Skybase [Core]
+
+The subdocuments herein record the terms of agreement between Sky and Skybase as agreed in Ecosystem Accord 7.
+
+##### A.2.9.2.7.1 - Accord Key Details [Core]
+
+The subdocuments herein set out the key details of Ecosystem Accord 7, such as parties to the agreement and the duration of the Accord. 
+
+###### A.2.9.2.7.1.1 - Parties To The Accord [Core]
+
+The parties to Ecosystem Accord 7 are Sky and Skybase, as defined in the subdocuments herein.
+
+###### A.2.9.2.7.1.1.1 - Sky Details [Core]
+
+The party 'Sky' comprises Sky Core.
+
+###### A.2.9.2.7.1.1.2 - Skybase Prime Details [Core]
+
+The party 'Skybase' comprises the Skybase Prime Agent, Skybase Foundation, and Development Company.
+
+###### A.2.9.2.7.1.2 - Duration Of The Accord [Core]
+
+The duration of Ecosystem Accord 7 is indefinite, commencing from September 1, 2024.
+
+##### A.2.9.2.7.2 - Accord Substantive Terms [Core]
+
+The subdocuments herein set out the substantive terms of Ecosystem Accord 7. Additional detail regarding the substantive terms of Ecosystem Accord 7 will be specified in a future iteration of the Atlas, as agreed by the Parties to the Accord.
+
+###### A.2.9.2.7.2.1 - Tokenomics [Core]
+
+The subdocuments herein set out agreed terms with respect to tokenomics. 
+
+###### A.2.9.2.7.2.1.1 - Total Token Supply [Core]
+
+The total token supply of SKYBASE will be specified in a future iteration of the Atlas.
+
+###### A.2.9.2.7.2.1.2 - Token Allocations [Core]
+
+Specific token allocations are defined in the subdocuments herein. 
+
+###### A.2.9.2.7.2.1.2.1 - Skybase Prime Treasury [Core]
+
+The amount of SKYBASE tokens allocated to the Skybase Prime Treasury (Skybase's SubProxy) will be specified in a future iteration of the Atlas.
+
+###### A.2.9.2.7.2.1.2.2 - Sky Retained Tokens And Reward Pools [Core]
+
+The amount of SKYBASE tokens retained by Sky and their distribution will be specified in a future iteration of the Atlas.
+
+###### A.2.9.2.7.2.2 - Genesis Capital Allocation [Core]
+
+The subdocuments herein set out agreed terms with respect to Genesis Capital Allocation.
+
+###### A.2.9.2.7.2.2.1 - Skybase Initial Allocation [Core]
+
+The Initial Allocation for Skybase is 15,000,000 USDS.
+
+###### A.2.9.2.7.2.2.2 - Initial Allocation Distribution [Core]
+
+10,000,000 USDS of the Initial Allocation is distributed to the Skybase SubProxy.
+
+5,000,000 USDS of the Initial Allocation is distributed to the USDS Demand Subsidies Multisig.
+
+###### A.2.9.2.7.2.2.2.1 - Transfer Of Genesis Capital Allocation To Skybase SubProxy [Core]
+
+The transfer of 10,000,000 USDS from the Surplus Buffer to the Skybase SubProxy for the Genesis Capital Allocation will be included in the January 29, 2026 Executive Vote.
+
+This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+
 ### A.2.9.0.3.1 - Business Activities - Element Annotation [Annotation]  <!-- UUID: 31df7e2b-184f-428c-9c4f-23fd8054c5d3 -->
 
 The element "business activities" refers to the commercial activities, transactions, and interactions that Ecosystem Actors perform within the ecosystem. These may include, but are not limited to, service delivery, product development, collaboration, and information exchange.
@@ -16181,7 +16249,7 @@ Genesis Agents are Agents that receive capital contributions from Sky, including
 - Spark    
 - Grove    
 - Keel    
-- Launch Agent 3
+- Skybase
 - Obex
 - Core Council Executor Agent 1
 
@@ -16195,6 +16263,7 @@ The amount of capital contributed by Sky to Agents is:
 
 - Spark - 25,000,000 USDS
 - Obex - 21,000,000 USDS
+- Skybase - 15,000,000 USDS
 - Core Council Executor Agent 1 - 25,000,000 USDS
 
 # A.4 - The Protocol Scope [Scope]  <!-- UUID: 5c20d9af-0bb9-4ca1-a944-1e2cb6f8bb6b -->
