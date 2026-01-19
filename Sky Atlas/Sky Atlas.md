@@ -11014,7 +11014,7 @@ Specific token allocations are defined in the subdocuments herein.
 
 ###### A.2.9.2.2.2.1.2.1 - Grove Prime Treasury [Core]  <!-- UUID: 9d7a2d3f-3079-4d3b-be89-e06966aec07c -->
 
-3,000,000,000 GROVE tokens are allocated to the Grove Prime Treasury (Grove’s SubProxy), with an option to further increase this allocation by 5% (500,000,000 tokens). The additional 5% will be distributed to relevant stakeholders / users from Sky’s allocation of GROVE tokens, but that distribution will happen from Grove’s SubProxy. This distribution plan must be approved by Sky before the transfer.
+3,000,000,000 GROVE tokens are allocated to the Grove Foundation, with an option to further increase this allocation by 5% (500,000,000 tokens). The additional 5% will be distributed to relevant stakeholders / users from Sky’s allocation of GROVE tokens, but that distribution will happen from the Grove Foundation. This distribution plan must be approved by Sky before the transfer.
 
 ###### A.2.9.2.2.2.1.2.2 - Sky Retained Tokens And Reward Pools [Core]  <!-- UUID: fb447af6-1581-4711-b73c-dc2e8d65e843 -->
 
@@ -11044,7 +11044,17 @@ A portion of the SPK tokens held by Sky are distributed to USDS users as specifi
 
 ###### A.2.9.2.2.2.1.3 - Transfer Limit [Core]  <!-- UUID: da03bcb0-734a-4d36-ab0e-e42a43e23d8a -->
 
-A maximum of 1,000,000,000 tokens can be transferred by Spark and Grove to their respective Foundations in the first year for the purpose of rewarding contributors, and 500,000,000 tokens per year thereafter for the purpose of rewarding contributors.
+Transfer limits for Spark and Grove are specified in the subdocuments herein.
+
+###### A.2.9.2.2.2.1.3.1 - Spark Transfer Limit [Core]  <!-- UUID: ce04d270-d9e1-46e2-9cfc-a122b03e923c -->
+
+A maximum of 1,000,000,000 tokens can be transferred by Spark to the Spark Foundation in the first year for the purpose of rewarding contributors, and 500,000,000 tokens per year thereafter for the purpose of rewarding contributors.
+
+###### A.2.9.2.2.2.1.3.2 - Grove Transfer Limit [Core]  <!-- UUID: 2a1c77ee-de95-415e-b93b-3505d3bd32d5 -->
+
+Grove may transfer its contributor allocation, in whole or in part, to its operating entities, foundations, or affiliated entities in advance of contributor distribution. Tokens allocated for contributor compensation may be granted to contributors upfront, subject to vesting, forfeiture, and clawback arrangements that are consistent with the vesting schedules and distribution parameters set forth in this Atlas.
+
+A maximum of 1,000,000,000 tokens for Grove may vest or otherwise be released into circulation for contributor compensation purposes in the first year, and a maximum of 500,000,000 tokens per year for Grove may vest or otherwise be released into circulation thereafter. Tokens that are unvested or subject to forfeiture shall not be considered distributed, released, or in circulation.
 
 ###### A.2.9.2.2.2.1.4 - Prime Token Generation Event [Core]  <!-- UUID: c00b9dad-06d6-4e91-bfb2-7f5afa0bc47e -->
 
@@ -27288,11 +27298,11 @@ The Genesis Supply of GROVE is 10 billion.
 
 ###### A.6.1.1.2.2.1.4.2.1.1.4 - Token Address [Core]  <!-- UUID: 1e92dae7-7e0a-4392-bcbe-3458082eb2ca -->
 
-The address of GROVE will be specified in a future iteration of the Grove Artifact.
+The address of GROVE on the Ethereum Mainnet is `0xB30FE1Cf884B48a22a50D22a9282004F2c5E9406`.
 
 ###### A.6.1.1.2.2.1.4.2.1.1.5 - Token Admin [Core]  <!-- UUID: 6664bb57-161a-4530-805d-38f5eb73751c -->
 
-The token Admin will be specified in a future iteration of the Grove Artifact.
+The Token Admin is Grove’s SubProxy.
 
 ###### A.6.1.1.2.2.1.4.2.1.1.6 - Token Emissions [Core]  <!-- UUID: a0325b38-1884-410e-9940-1dc5300cd65d -->
 
@@ -27305,7 +27315,22 @@ The documents herein define the custom parameters of the Single Instance of the 
 ###### A.6.1.1.2.2.1.4.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 330deacc-c7f8-415f-a8cb-244c055b8a3c -->
 
 The documents herein define the operational processes for minting and initial distribution of the tokens from the Genesis Supply.
-- These processes will be defined in a future iteration of the Grove Artifact.
+
+###### A.6.1.1.2.2.1.4.2.1.2.1 - Minting Of Tokens To Grove Foundation [Core]  <!-- UUID: a9bae1cc-2a92-4465-b7cf-9f97121f7aa7 -->
+
+The Genesis Supply was minted to an account owned by the Grove Foundation. The address of the account on the Ethereum Mainnet is `0x22F443740Aa13e9d9A1Fb3dadfbEAfd3d43099fF`.
+
+###### A.6.1.1.2.2.1.4.2.1.2.2 - Transfer Of Tokens To Sky [Core]  <!-- UUID: 57b9095b-6bea-4d99-ad42-d1a580f611e5 -->
+
+The Grove Foundation transferred 7 billion GROVE tokens from the Grove Foundation account, specified in Minting Of Tokens To Grove Foundation, to the Sky Pause Proxy.
+
+###### A.6.1.1.2.2.1.4.2.1.2.3 - Transfer Of Tokens To Grove [Core]  <!-- UUID: fa25a039-762a-4a94-a6dc-1651f7396e75 -->
+
+The Grove Foundation transferred 3 billion GROVE tokens from the Grove Foundation account, specified in [Minting Of Tokens To Grove Foundation](a9bae1cc-2a92-4465-b7cf-9f97121f7aa7), to the Grove SubProxy.
+
+###### A.6.1.1.2.2.1.4.2.1.2.4 - Transfer Of Tokens To Grove Labs [Core]  <!-- UUID: ebca156f-a86a-4b40-ab1e-208e6d8f0f39 -->
+
+ Grove will transfer 2.5 billion GROVE tokens from the Grove SubProxy to Grove Labs. The address of Grove Labs on the Ethereum Mainnet is `0x1EBC4425B16FD76F01f9260d8bfFE0c2C6ecCe70`.
 
 ###### A.6.1.1.2.2.1.4.2.1.3 - Data Repository [Core]  <!-- UUID: e582003e-4acc-4690-bff8-ddf66209a9cd -->
 
