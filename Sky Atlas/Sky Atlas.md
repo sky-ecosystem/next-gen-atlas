@@ -25744,9 +25744,6 @@ The current WETH risk parameters are:
 - Slope 1: 2.5%
 
 
-- Slope 1 Spread: -0.30%
-
-
 - Slope 2: 120%
 
 
@@ -25769,9 +25766,6 @@ The current WETH risk parameters are:
 
 
 - Flash Loan Enabled: Yes
-The Slope 1 parameter for WETH is calculated based on the following formula:
-slope 1 = stETH yield + slope 1 spread - base rate
-
 
 ###### A.6.1.1.1.3.2.1.1.2.2.3 - USDT Risk Parameters [Core]  <!-- UUID: f5a396c7-dc2c-4d67-adff-89c5a8c62652 -->
 
