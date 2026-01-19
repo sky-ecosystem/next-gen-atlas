@@ -11546,69 +11546,69 @@ The Initial Allocation is distributed in USDS to the Launch Agent 6 SubProxy.
 
 The transfer of 10,000,000 USDS from the Surplus Buffer to the Launch Agent 6 SubProxy for the Genesis Capital Allocation will be included in a future Executive Vote. This action is contingent on mutual agreement by Sky and Launch Agent 6 on a future iteration of this agreement specifying the terms and conditions of the Genesis Capital Allocation.
 
-#### A.2.9.2.7 - Ecosystem Accord 7: Sky and Skybase [Core]
+#### A.2.9.2.7 - Ecosystem Accord 7: Sky and Skybase [Core]  <!-- UUID: 8a74919c-d9c1-4d9a-9499-302201f96f9c -->
 
 The subdocuments herein record the terms of agreement between Sky and Skybase as agreed in Ecosystem Accord 7.
 
-##### A.2.9.2.7.1 - Accord Key Details [Core]
+##### A.2.9.2.7.1 - Accord Key Details [Core]  <!-- UUID: a6b51805-7420-46a5-b5d0-d769eb90e48d -->
 
 The subdocuments herein set out the key details of Ecosystem Accord 7, such as parties to the agreement and the duration of the Accord. 
 
-###### A.2.9.2.7.1.1 - Parties To The Accord [Core]
+###### A.2.9.2.7.1.1 - Parties To The Accord [Core]  <!-- UUID: e5a76dd6-2e8a-425e-b961-664b24097f6e -->
 
 The parties to Ecosystem Accord 7 are Sky and Skybase, as defined in the subdocuments herein.
 
-###### A.2.9.2.7.1.1.1 - Sky Details [Core]
+###### A.2.9.2.7.1.1.1 - Sky Details [Core]  <!-- UUID: 83844293-5cca-45b3-9eb9-fd1d228aa3b5 -->
 
 The party 'Sky' comprises Sky Core.
 
-###### A.2.9.2.7.1.1.2 - Skybase Prime Details [Core]
+###### A.2.9.2.7.1.1.2 - Skybase Prime Details [Core]  <!-- UUID: 287bbf07-b29b-46b1-a8a1-d237825424cd -->
 
 The party 'Skybase' comprises the Skybase Prime Agent, Skybase Foundation, and Development Company.
 
-###### A.2.9.2.7.1.2 - Duration Of The Accord [Core]
+###### A.2.9.2.7.1.2 - Duration Of The Accord [Core]  <!-- UUID: 9d207eb3-955e-4b4d-af1b-056519d0235b -->
 
 The duration of Ecosystem Accord 7 is indefinite, commencing from September 1, 2024.
 
-##### A.2.9.2.7.2 - Accord Substantive Terms [Core]
+##### A.2.9.2.7.2 - Accord Substantive Terms [Core]  <!-- UUID: e51d5901-0b0b-42f0-b484-8114516c8e8a -->
 
 The subdocuments herein set out the substantive terms of Ecosystem Accord 7. Additional detail regarding the substantive terms of Ecosystem Accord 7 will be specified in a future iteration of the Atlas, as agreed by the Parties to the Accord.
 
-###### A.2.9.2.7.2.1 - Tokenomics [Core]
+###### A.2.9.2.7.2.1 - Tokenomics [Core]  <!-- UUID: 28790b12-35f5-4754-9bc2-d5dc527a6e37 -->
 
 The subdocuments herein set out agreed terms with respect to tokenomics. 
 
-###### A.2.9.2.7.2.1.1 - Total Token Supply [Core]
+###### A.2.9.2.7.2.1.1 - Total Token Supply [Core]  <!-- UUID: 709e8307-20ba-48c9-b9b5-71d58d05abb2 -->
 
 The total token supply of SKYBASE will be specified in a future iteration of the Atlas.
 
-###### A.2.9.2.7.2.1.2 - Token Allocations [Core]
+###### A.2.9.2.7.2.1.2 - Token Allocations [Core]  <!-- UUID: 6b69c767-ee38-42b3-9e45-3abaa17677f1 -->
 
 Specific token allocations are defined in the subdocuments herein. 
 
-###### A.2.9.2.7.2.1.2.1 - Skybase Prime Treasury [Core]
+###### A.2.9.2.7.2.1.2.1 - Skybase Prime Treasury [Core]  <!-- UUID: 088264de-3158-4200-a5ce-e1eb730d38a6 -->
 
 The amount of SKYBASE tokens allocated to the Skybase Prime Treasury (Skybase's SubProxy) will be specified in a future iteration of the Atlas.
 
-###### A.2.9.2.7.2.1.2.2 - Sky Retained Tokens And Reward Pools [Core]
+###### A.2.9.2.7.2.1.2.2 - Sky Retained Tokens And Reward Pools [Core]  <!-- UUID: 576ff155-7fc3-4d9d-8359-f9e9cc5da874 -->
 
 The amount of SKYBASE tokens retained by Sky and their distribution will be specified in a future iteration of the Atlas.
 
-###### A.2.9.2.7.2.2 - Genesis Capital Allocation [Core]
+###### A.2.9.2.7.2.2 - Genesis Capital Allocation [Core]  <!-- UUID: d5168fa2-5a7f-4dd7-9a00-d3d1732c3bc3 -->
 
 The subdocuments herein set out agreed terms with respect to Genesis Capital Allocation.
 
-###### A.2.9.2.7.2.2.1 - Skybase Initial Allocation [Core]
+###### A.2.9.2.7.2.2.1 - Skybase Initial Allocation [Core]  <!-- UUID: 0ad56e68-ac7a-4660-8bdc-4d11d69511ce -->
 
 The Initial Allocation for Skybase is 15,000,000 USDS.
 
-###### A.2.9.2.7.2.2.2 - Initial Allocation Distribution [Core]
+###### A.2.9.2.7.2.2.2 - Initial Allocation Distribution [Core]  <!-- UUID: 2f2c4f2b-ff7a-4cd1-b1bc-8f3f81fe129f -->
 
 10,000,000 USDS of the Initial Allocation is distributed to the Skybase SubProxy.
 
 5,000,000 USDS of the Initial Allocation is distributed to the USDS Demand Subsidies Multisig.
 
-###### A.2.9.2.7.2.2.2.1 - Transfer Of Genesis Capital Allocation To Skybase SubProxy [Core]
+###### A.2.9.2.7.2.2.2.1 - Transfer Of Genesis Capital Allocation To Skybase SubProxy [Core]  <!-- UUID: 36556509-d2b6-4932-8781-9bf4ecc90987 -->
 
 The transfer of 10,000,000 USDS from the Surplus Buffer to the Skybase SubProxy for the Genesis Capital Allocation will be included in the January 29, 2026 Executive Vote.
 
