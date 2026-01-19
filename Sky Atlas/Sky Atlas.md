@@ -6323,225 +6323,225 @@ The budget available to fund Governance Process Support tasks is 0 USDS per quar
 
 This Article governs the Sky Primitives. A Sky Primitive is a standardized interface that allows Agents to connect to, and leverage, Sky Protocol’s permissioned infrastructure. This Article defines each of the Sky Primitives available for Prime Agents to use to expand the Sky Ecosystem. Each Prime Agent strategy is unique, so each may combine the Sky Primitives differently.
 
-### A.2.3.1 - Primitives In General [Section]  <!-- UUID: df611e97-f99d-4244-8573-e706fbd1dfbc -->
+### A.2.2.1 - Primitives In General [Section]  <!-- UUID: df611e97-f99d-4244-8573-e706fbd1dfbc -->
 
 The documents herein define general principles relating to Agent Artifact evolution, enumerate the currently available Sky Primitives, and prescribe the procedures by which Agents can activate, invoke and deploy the Primitives.
 
-#### A.2.3.1.1 - Initial Stages Of Artifact Evolution [Core]  <!-- UUID: 73eb0d53-2746-4db8-8b61-608f7439d560 -->
+#### A.2.2.1.1 - Initial Stages Of Artifact Evolution [Core]  <!-- UUID: 73eb0d53-2746-4db8-8b61-608f7439d560 -->
 
 The documents herein define the initial stages of the lifecycle of an Agent Artifact, beginning with the prerequisite of capital deployment and continuing until the Agent gains full operational status with an active Executor Accord and Root Edit Primitive. At that point, the Agent is interoperable with other Sky Agents and possesses a formal governance process by which token holders can guide its activities.
 
-##### A.2.3.1.1.1 - Founder Deposits Capital And Pays Agent Creation Fee [Core]  <!-- UUID: 96ecd286-9361-4cb0-8062-9dd930780f3e -->
+##### A.2.2.1.1.1 - Founder Deposits Capital And Pays Agent Creation Fee [Core]  <!-- UUID: 96ecd286-9361-4cb0-8062-9dd930780f3e -->
 
-The prospective Agent founder kicks off the lifecycle of an Agent by deploying an initial minimum amount of capital and paying an Agent Creation fee in an off-chain process as defined in [A.2.3.3.1.1 - Capital Injection](bed7471a-54aa-4167-88dd-22ebd63f8827).
+The prospective Agent founder kicks off the lifecycle of an Agent by deploying an initial minimum amount of capital and paying an Agent Creation fee in an off-chain process as defined in [A.2.2.3.1.1 - Capital Injection](bed7471a-54aa-4167-88dd-22ebd63f8827).
 
-##### A.2.3.1.1.2 - Core GovOps Creates Scaffold Agent Artifact [Core]  <!-- UUID: b485d31f-e7e2-45fd-aefb-2a55206390a2 -->
+##### A.2.2.1.1.2 - Core GovOps Creates Scaffold Agent Artifact [Core]  <!-- UUID: b485d31f-e7e2-45fd-aefb-2a55206390a2 -->
 
-After receiving the initial capital and Agent Creation fee, Core GovOps proceeds to set up a Scaffold Agent Artifact ("Scaffold Artifact"), which serves as a base template containing all Sky Primitives. In the Scaffold Artifact, the Global Activation Status of all Sky Primitives is initially set to `Inactive`. The sole exception is the Upkeep Rebate Primitive, whose Global Activation Status in the newly generated Scaffold Artifact is `Active` by default. See [A.2.3.1.2 - Primitive Global Activation Status](dde8cf4c-4823-4fea-96b8-a9b9d6b24533).
+After receiving the initial capital and Agent Creation fee, Core GovOps proceeds to set up a Scaffold Agent Artifact ("Scaffold Artifact"), which serves as a base template containing all Sky Primitives. In the Scaffold Artifact, the Global Activation Status of all Sky Primitives is initially set to `Inactive`. The sole exception is the Upkeep Rebate Primitive, whose Global Activation Status in the newly generated Scaffold Artifact is `Active` by default. See [A.2.2.1.2 - Primitive Global Activation Status](dde8cf4c-4823-4fea-96b8-a9b9d6b24533).
 
-##### A.2.3.1.1.3 - Founder Inputs [Core]  <!-- UUID: 1b66ee09-3e81-4ae3-b3df-69787e0f662a -->
+##### A.2.2.1.1.3 - Founder Inputs [Core]  <!-- UUID: 1b66ee09-3e81-4ae3-b3df-69787e0f662a -->
 
 The documents herein specify the Agent Founder’s inputs following the creation of the Scaffold Artifact.
 
-###### A.2.3.1.1.3.1 - Founder Required Primitive Activation [Core]  <!-- UUID: 1a48e833-d960-4bdf-8f67-0f9d9307e00d -->
+###### A.2.2.1.1.3.1 - Founder Required Primitive Activation [Core]  <!-- UUID: 1a48e833-d960-4bdf-8f67-0f9d9307e00d -->
 
 The Founder is responsible for Globally Activating the Agent Creation, Prime Transformation / Executor Transformation, Agent Token, Executor Accord, and Root Edit Primitives. Additionally, the Founder must Activate either the Distribution Requirement Primitive or the Market Cap Fee Primitive - or may choose to Activate both.
 
 The Primitives named above must first be Globally Activated before the Founder can Invoke them to finalize Agent setup. The Founder may choose to Globally Activate these Primitives individually at different times or all at once; only the Primitive Invocation must be done in a specified order.
 
-###### A.2.3.1.1.3.2 - Founder Access [Core]  <!-- UUID: a4f65994-2526-4522-a986-cd444a5cb896 -->
+###### A.2.2.1.1.3.2 - Founder Access [Core]  <!-- UUID: a4f65994-2526-4522-a986-cd444a5cb896 -->
 
-_"_Founder Access" gives the Founder of an Agent the ability to freely edit the Scaffold Artifact, including Activating any desired Primitives and adding custom Omni Documents. "Founder Access" is revoked at the moment the Founder Invokes either the Prime Transformation or Executor Transformation Primitive. From that point on, the Founder cannot add or edit Omni Documents, but can only Activate and Invoke specific Primitives so that the Agent can complete setup. See [A.2.3.1.2.4.1 - Agent Launch And Sequence of Primitive Global Activation](2f5ff5c8-bcd1-44a4-ba56-2075ac8e9c61).
+_"_Founder Access" gives the Founder of an Agent the ability to freely edit the Scaffold Artifact, including Activating any desired Primitives and adding custom Omni Documents. "Founder Access" is revoked at the moment the Founder Invokes either the Prime Transformation or Executor Transformation Primitive. From that point on, the Founder cannot add or edit Omni Documents, but can only Activate and Invoke specific Primitives so that the Agent can complete setup. See [A.2.2.1.2.4.1 - Agent Launch And Sequence of Primitive Global Activation](2f5ff5c8-bcd1-44a4-ba56-2075ac8e9c61).
 
-###### A.2.3.1.1.3.2.1 - Short Term Suspension of “Founder Access” [Core]  <!-- UUID: 5dd07957-8e5b-4694-a0ba-a8aa88863552 -->
+###### A.2.2.1.1.3.2.1 - Short Term Suspension of “Founder Access” [Core]  <!-- UUID: 5dd07957-8e5b-4694-a0ba-a8aa88863552 -->
 
 In the short term, "Founder Access" will not be operational. Instead, if a Prime Founder wishes to edit their Scaffold Artifact, they must use the customary Atlas Edit Proposal processes specified in the Sky Core Atlas at [A.1.10.2 - Atlas Edit Weekly Cycle](14e99d92-71fc-44d9-9dbf-933bce2e1b32) or [A.1.11.2 - Atlas Edit Monthly Cycle](d2cbddd2-58ef-4311-a71d-d2c340364cb5).
 
-###### A.2.3.1.1.3.3 - Founder Invokes Agent Creation Primitive [Core]  <!-- UUID: d0b283e9-dac1-49c6-8dd7-b061c7a87335 -->
+###### A.2.2.1.1.3.3 - Founder Invokes Agent Creation Primitive [Core]  <!-- UUID: d0b283e9-dac1-49c6-8dd7-b061c7a87335 -->
 
 To proceed to the next stage, the Founder must Invoke the Agent Creation Primitive. From the Agent’s perspective, invoking, or calling, a Primitive always involves submitting required inputs into the respective Primitive itself. Here, the  Agent Founder must input the name of the Agent and an introduction providing a brief overview of the Agent’s vision or business model into the Agent Creation Primitive.
 
-##### A.2.3.1.1.4 - Core GovOps Validates Agent Creation Primitive Inputs [Core]  <!-- UUID: 93d6147b-8760-431e-b38c-4a7afcb27e5f -->
+##### A.2.2.1.1.4 - Core GovOps Validates Agent Creation Primitive Inputs [Core]  <!-- UUID: 93d6147b-8760-431e-b38c-4a7afcb27e5f -->
 
 Core GovOps validates the Founder’s inputs into the Agent Creation Primitive and the "Founder Access"-related edits to the Scaffold Artifact, ensuring that all information is well specified and that the Scaffold Artifact is aligned.
 
-##### A.2.3.1.1.5 - Core GovOps Creates Genesis And SubProxy Accounts [Core]  <!-- UUID: 16d9dede-7fbf-4215-8e60-c06a8e6c3218 -->
+##### A.2.2.1.1.5 - Core GovOps Creates Genesis And SubProxy Accounts [Core]  <!-- UUID: 16d9dede-7fbf-4215-8e60-c06a8e6c3218 -->
 
 After validating the Scaffold Artifact and Agent Creation Primitive inputs, Core GovOps creates a Genesis Account and SubProxy Account for the Agent. This data is automatically added to the Agent Creation Primitive.
 
-##### A.2.3.1.1.6 - Founder Must Globally Activate Distribution Requirement And/Or Market Cap Fee Primitive [Core]  <!-- UUID: 94eacab6-0df2-45c6-89fe-af4f8c2e6263 -->
+##### A.2.2.1.1.6 - Founder Must Globally Activate Distribution Requirement And/Or Market Cap Fee Primitive [Core]  <!-- UUID: 94eacab6-0df2-45c6-89fe-af4f8c2e6263 -->
 
 Prior to invoking the Prime Transformation or Executor Transformation Primitive, the Agent Founder must Globally Activate either the Distribution Requirement Primitive or the Market Cap Fee Primitive - or may choose to Activate both.
 
-##### A.2.3.1.1.7 - Founder Invokes Prime / Executor Transformation Primitive [Core]  <!-- UUID: 2592b3d0-531e-42a3-a098-cf4b82bdd567 -->
+##### A.2.2.1.1.7 - Founder Invokes Prime / Executor Transformation Primitive [Core]  <!-- UUID: 2592b3d0-531e-42a3-a098-cf4b82bdd567 -->
 
 When ready, the Founder Invokes the Prime Transformation or Executor Transformation Primitive to become either a Prime Agent or Executor Agent, respectively.
 
-##### A.2.3.1.1.8 - Core GovOps Validates Transformation Primitive Inputs [Core]  <!-- UUID: 05e70418-5dbf-4d02-9d2a-9afea6619dd0 -->
+##### A.2.2.1.1.8 - Core GovOps Validates Transformation Primitive Inputs [Core]  <!-- UUID: 05e70418-5dbf-4d02-9d2a-9afea6619dd0 -->
 
 Upon successful validation by Core GovOps, the Transformation Primitive is deployed and the Agent Artifact is upgraded to reflect that the Agent is either a Prime Agent or an Executor Agent.
 
-##### A.2.3.1.1.9 - Post-Transformation Primitive Artifact Freeze [Core]  <!-- UUID: 20f4cfe0-1855-4942-ac0d-f5cb738e82fc -->
+##### A.2.2.1.1.9 - Post-Transformation Primitive Artifact Freeze [Core]  <!-- UUID: 20f4cfe0-1855-4942-ac0d-f5cb738e82fc -->
 
 After the Transformation Primitive is successfully Invoked, the Agent’s "Founder Access" is revoked. The Founder can no longer freely edit the Agent Artifact, but may only Invoke certain Primitives in a specified order until the Agent setup is complete.
 
-##### A.2.3.1.1.10 - Founder Invokes Agent Token Primitive [Core]  <!-- UUID: f5132655-afdd-4a93-adbe-64526759720c -->
+##### A.2.2.1.1.10 - Founder Invokes Agent Token Primitive [Core]  <!-- UUID: f5132655-afdd-4a93-adbe-64526759720c -->
 
 The Founder next Invokes the Agent Token Primitive to create a token for the Agent that can be used to raise capital, build a community, and conduct governance processes.
 
-##### A.2.3.1.1.11 - Core GovOps Validates Agent Token Primitive Inputs [Core]  <!-- UUID: 416dc0f2-fb0d-4ea2-975d-9bf2d9b0e1d4 -->
+##### A.2.2.1.1.11 - Core GovOps Validates Agent Token Primitive Inputs [Core]  <!-- UUID: 416dc0f2-fb0d-4ea2-975d-9bf2d9b0e1d4 -->
 
 Core GovOps reviews the inputs to the Agent Token Primitive to ensure that they are well specified and aligned.
 
-##### A.2.3.1.1.12 - Core GovOps Mints Tokens [Core]  <!-- UUID: 0e033de5-ce15-45df-ae85-9ed69bd40da0 -->
+##### A.2.2.1.1.12 - Core GovOps Mints Tokens [Core]  <!-- UUID: 0e033de5-ce15-45df-ae85-9ed69bd40da0 -->
 
 After validating the Agent Token Primitive inputs, Core GovOps proceeds to mint the Agent’s initial supply of tokens according to the instructions specified in the Primitive.
 
-##### A.2.3.1.1.13 - Agent Invokes Executor Accord Primitive [Core]  <!-- UUID: 9b074b3d-73db-4a3a-9491-571021e4e61b -->
+##### A.2.2.1.1.13 - Agent Invokes Executor Accord Primitive [Core]  <!-- UUID: 9b074b3d-73db-4a3a-9491-571021e4e61b -->
 
 The Agent must reach an understanding with an Operational Executor Agent that will operationalize the Agent’s strategy. After doing so, the Agent records this understanding by invoking the Executor Accord Primitive. Note that this step is only applicable to Prime Agents.
 
-##### A.2.3.1.1.14 - Core GovOps Validates Executor Accord Primitive Inputs [Core]  <!-- UUID: c1ff42c9-1ffc-46f0-9dac-da54eb4eb042 -->
+##### A.2.2.1.1.14 - Core GovOps Validates Executor Accord Primitive Inputs [Core]  <!-- UUID: c1ff42c9-1ffc-46f0-9dac-da54eb4eb042 -->
 
 CoreGovOps reviews the inputs to the Executor Accord Primitive to ensure that there is a valid Executor Accord with an Executor Agent and that the terms of the Executor Accord are reasonably specific. Upon successful validation, the Executor Accord Primitive is considered successfully Invoked and the Artifact is upgraded to include the Executor Accord. Now that the Agent has a documented relationship with an Executor Agent, Core GovOps will no longer perform validation of the Agent’s Primitive inputs. Instead, Operational GovOps associated with the Executor Agent specified in the Executor Accord will carry out certain operational tasks on behalf of the Prime Agent see [A.1.13.3.4 - Agent Role Delineation](fdf32ca5-5e2e-481e-9047-4d1599547216).
 
-##### A.2.3.1.1.15 - Agent Invokes Root Edit Primitive [Core]  <!-- UUID: 63f85a1a-da2d-4828-ae32-da56f46d500d -->
+##### A.2.2.1.1.15 - Agent Invokes Root Edit Primitive [Core]  <!-- UUID: 63f85a1a-da2d-4828-ae32-da56f46d500d -->
 
 The Agent Invokes the Root Edit Primitive and sets up a governance process for voting to occur.
 
-##### A.2.3.1.1.16 - Operational GovOps Validates Root Edit Primitive Inputs [Core]  <!-- UUID: d5ee3f2c-cd2f-4428-974b-341e4cce7295 -->
+##### A.2.2.1.1.16 - Operational GovOps Validates Root Edit Primitive Inputs [Core]  <!-- UUID: d5ee3f2c-cd2f-4428-974b-341e4cce7295 -->
 
 Operational GovOps reviews the inputs to the Root Edit Primitive to ensure it specifies a process that they can operationalize and does not conflict with any of the requirements regarding the voting process set forth in the Sky Core Atlas.
 
 Upon validation, the Root Edit Primitive is considered successfully Invoked, and the Artifact is upgraded with its functionality. At this point the Agent is fully operational. The Agent Artifact can only be edited through a token holder vote or, if applicable, by the Operational Executor Facilitator as authorized by Omni Documents. The Agent can Invoke and deploy any Primitives that it has previously Activated and can also Activate additional Primitives through a Root Edit.
 
-#### A.2.3.1.2 - Primitive Global Activation Status [Core]  <!-- UUID: dde8cf4c-4823-4fea-96b8-a9b9d6b24533 -->
+#### A.2.2.1.2 - Primitive Global Activation Status [Core]  <!-- UUID: dde8cf4c-4823-4fea-96b8-a9b9d6b24533 -->
 
 The documents herein define Primitive Global Activation Status.
 
-##### A.2.3.1.2.1 - Primitives Must First Be Activated To Be Invoked [Core]  <!-- UUID: dcd0bead-7ad1-4fe0-b485-b3565d670c78 -->
+##### A.2.2.1.2.1 - Primitives Must First Be Activated To Be Invoked [Core]  <!-- UUID: dcd0bead-7ad1-4fe0-b485-b3565d670c78 -->
 
-An Agent may only Invoke a Primitive that it has previously Globally Activated; the process of Invocation is defined below at [A.2.3.1.3.3 - Changing Primitive Instance Status](263f3b28-9cd4-4ba2-b8e5-152c2ce0c050). In this way, an Agent’s decision regarding which Primitives to Activate allows the Agent to express its strategy to token holders. For example, an Agent that was focused on asset gathering might Globally Activate the Distribution Reward and Integration Boost Primitives, but not the Allocation System Primitive.
+An Agent may only Invoke a Primitive that it has previously Globally Activated; the process of Invocation is defined below at [A.2.2.1.3.3 - Changing Primitive Instance Status](263f3b28-9cd4-4ba2-b8e5-152c2ce0c050). In this way, an Agent’s decision regarding which Primitives to Activate allows the Agent to express its strategy to token holders. For example, an Agent that was focused on asset gathering might Globally Activate the Distribution Reward and Integration Boost Primitives, but not the Allocation System Primitive.
 
-##### A.2.3.1.2.2 - Initial Primitive Global Activation Status [Core]  <!-- UUID: 377150b3-d64b-4436-ab6d-758b05d82f26 -->
+##### A.2.2.1.2.2 - Initial Primitive Global Activation Status [Core]  <!-- UUID: 377150b3-d64b-4436-ab6d-758b05d82f26 -->
 
 Scaffold Artifacts by default include all Sky Primitives. To begin with, all Sky Primitives have the Global Activation Status of `Inactive`; the exception is the Upkeep Rebate Primitive, which comes Globally Activated in all Scaffold Artifacts.
 
-##### A.2.3.1.2.3 - Primitive Activation Does Not Require Invocation [Core]  <!-- UUID: 1560f392-db95-43d0-968b-af8d1afa4e84 -->
+##### A.2.2.1.2.3 - Primitive Activation Does Not Require Invocation [Core]  <!-- UUID: 1560f392-db95-43d0-968b-af8d1afa4e84 -->
 
 Activation gives the Agent the ability to Invoke a Primitive (thereby creating an instance of that Primitive), but does not require the Agent to do so.
 
-##### A.2.3.1.2.4 - Changing A Primitive’s Global Activation Status [Core]  <!-- UUID: 51cfca28-c8de-457a-abc4-8ce1f64abb91 -->
+##### A.2.2.1.2.4 - Changing A Primitive’s Global Activation Status [Core]  <!-- UUID: 51cfca28-c8de-457a-abc4-8ce1f64abb91 -->
 
 An Agent can change the Global Activation Status of a Primitive as defined herein.
 
-###### A.2.3.1.2.4.1 - Agent Launch And Sequence of Primitive Global Activation [Core]  <!-- UUID: 2f5ff5c8-bcd1-44a4-ba56-2075ac8e9c61 -->
+###### A.2.2.1.2.4.1 - Agent Launch And Sequence of Primitive Global Activation [Core]  <!-- UUID: 2f5ff5c8-bcd1-44a4-ba56-2075ac8e9c61 -->
 
 Sky Primitives can be Globally Activated (and their instances later Invoked) by an Agent at different points in the Artifact’s lifecycle. The process is divided into three main stages, outlined in the documents herein.
 
-###### A.2.3.1.2.4.1.1 - “Pre Transformation Primitive” Stage [Core]  <!-- UUID: b5cbcb47-ff44-4809-8071-2b5f7b30efbb -->
+###### A.2.2.1.2.4.1.1 - “Pre Transformation Primitive” Stage [Core]  <!-- UUID: b5cbcb47-ff44-4809-8071-2b5f7b30efbb -->
 
-After the Scaffold Artifact has been established, but before invoking the Prime Transformation or Executor Transformation Primitive, the Agent Founder retains unilateral authority ("Founder Access") to Activate any desired Primitives while freely editing the Agent Artifact. The Founder must Globally Activate either the Distribution Requirement Primitive or the Market Cap Fee Primitive - or may choose to Activate both. No Operational Executor Facilitator approval or token holder vote is required at this stage. See [A.2.3.1.1.3.2 - Founder Access](a4f65994-2526-4522-a986-cd444a5cb896).
+After the Scaffold Artifact has been established, but before invoking the Prime Transformation or Executor Transformation Primitive, the Agent Founder retains unilateral authority ("Founder Access") to Activate any desired Primitives while freely editing the Agent Artifact. The Founder must Globally Activate either the Distribution Requirement Primitive or the Market Cap Fee Primitive - or may choose to Activate both. No Operational Executor Facilitator approval or token holder vote is required at this stage. See [A.2.2.1.1.3.2 - Founder Access](a4f65994-2526-4522-a986-cd444a5cb896).
 
-###### A.2.3.1.2.4.1.2 - “Pre Root Edit Primitive” Stage [Core]  <!-- UUID: 7b25b220-92f9-4936-8296-31c0f3d8ddbc -->
+###### A.2.2.1.2.4.1.2 - “Pre Root Edit Primitive” Stage [Core]  <!-- UUID: 7b25b220-92f9-4936-8296-31c0f3d8ddbc -->
 
 After the Prime Transformation or Executor Transformation Primitive has been Invoked, but before the Root Edit Primitive is Invoked, the Agent Founder can no longer freely edit the Artifact. During this period, the Agent must Activate and Invoke (1) the Agent Token Primitive, then (2) the Executor Accord Primitive, and finally (3) the Root Edit Primitive, in that order, to complete its governance setup - assuming that these Primitives were not already Globally Activated during the "Pre Transformation Primitive" Stage. No other Primitives can be Globally Activated by the Agent during this period.
 
-###### A.2.3.1.2.4.1.3 - “Post Root Edit Primitive” Stage [Core]  <!-- UUID: 857b85e5-b57e-4043-82eb-6fbb68cf1d51 -->
+###### A.2.2.1.2.4.1.3 - “Post Root Edit Primitive” Stage [Core]  <!-- UUID: 857b85e5-b57e-4043-82eb-6fbb68cf1d51 -->
 
 After the Root Edit Primitive is Invoked, changing the Global Activation Status of a Primitive - whether activating or deactivating - requires a token holder vote and review by the Operational Executor Facilitator.
 
-###### A.2.3.1.2.4.2 - Global Primitive Deactivation [Core]  <!-- UUID: d0fb8761-2fcb-4d81-b498-38cd44f47fb0 -->
+###### A.2.2.1.2.4.2 - Global Primitive Deactivation [Core]  <!-- UUID: d0fb8761-2fcb-4d81-b498-38cd44f47fb0 -->
 
 Generally, a Prime Agent may freely deactivate a Primitive’s Global Status pursuant to the governance process defined in its Root Edit Primitive. However, there are exceptions to this rule given the special functionality of certain Primitives. See [A.2.3.1.2.4.2.1 - Prohibition On Deactivating Certain Primitives](3ce3a1ae-9300-4159-9676-261d0404360f). 
 
 If a Primitive’s Global Status is deactivated, _all_ existing instances of that Primitive immediately become `Suspended`. While the Primitive remains Globally Inactive, the Agent is barred from creating new instances or reactivating existing instances of that Primitive.
 
-###### A.2.3.1.2.4.2.1 - Prohibition On Deactivating Certain Primitives [Core]  <!-- UUID: 3ce3a1ae-9300-4159-9676-261d0404360f -->
+###### A.2.2.1.2.4.2.1 - Prohibition On Deactivating Certain Primitives [Core]  <!-- UUID: 3ce3a1ae-9300-4159-9676-261d0404360f -->
 
 The documents herein specify the Sky Primitives that, once Globally Activated, cannot be deactivated.
 
-###### A.2.3.1.2.4.2.1.1 - Prohibition On Deactivating Genesis Primitives [Core]  <!-- UUID: 04bbf091-b2a8-47e4-ad03-f3fd66e70279 -->
+###### A.2.2.1.2.4.2.1.1 - Prohibition On Deactivating Genesis Primitives [Core]  <!-- UUID: 04bbf091-b2a8-47e4-ad03-f3fd66e70279 -->
 
 Once Activated, the Agent Creation, Prime / Executor Transformation, and Agent Token Primitives cannot be deactivated. These Primitives are deployed once, and thereafter their Global Status is `Completed` and cannot be altered.
 
-###### A.2.3.1.2.4.2.1.2 - Prohibition On Deactivating Executor Accord And Root Edit Primitives [Core]  <!-- UUID: a4797404-1015-4cd5-a2ea-bc1a2699b575 -->
+###### A.2.2.1.2.4.2.1.2 - Prohibition On Deactivating Executor Accord And Root Edit Primitives [Core]  <!-- UUID: a4797404-1015-4cd5-a2ea-bc1a2699b575 -->
 
 To maintain recognized operational status within the ecosystem, Agents must have active Executor Accord and Root Edit Primitives at all times. Once Globally Activated, these Primitives cannot be deactivated, as doing so renders the Agent unable to operate or make further changes to its Artifact. Should an Agent seek to wind down, rather than deactivating these Primitives, it must follow the approved termination process defined in [A.1.13.5 - Agent Termination Protocol](fe833d0e-8451-45e0-84a5-229d6ec964a8).
 
-###### A.2.3.1.2.4.2.1.3 - Prohibition On Deactivating Upkeep Rebate Primitive [Core]  <!-- UUID: 85121142-aa54-4957-b0e1-8f4294512c7e -->
+###### A.2.2.1.2.4.2.1.3 - Prohibition On Deactivating Upkeep Rebate Primitive [Core]  <!-- UUID: 85121142-aa54-4957-b0e1-8f4294512c7e -->
 
 The Upkeep Rebate Primitive is by default Globally Activated in all Scaffold Agent Artifacts; it is not possible to deactivate it.
 
-###### A.2.3.1.2.4.2.1.4 - Prohibition On Deactivating Both Distribution Requirement And Market Cap Fee Primitives [Core]  <!-- UUID: 984dcacc-d242-4203-90c2-d5cf61c92702 -->
+###### A.2.2.1.2.4.2.1.4 - Prohibition On Deactivating Both Distribution Requirement And Market Cap Fee Primitives [Core]  <!-- UUID: 984dcacc-d242-4203-90c2-d5cf61c92702 -->
 
 An Agent must always have either the Distribution Requirement Primitive or the Market Cap Fee Primitive Globally Activated; it is not possible to deactivate both.
 
-###### A.2.3.1.2.4.2.2 - Global Primitive Reactivation [Core]  <!-- UUID: cb452f09-007a-4000-a37f-46e8be48c066 -->
+###### A.2.2.1.2.4.2.2 - Global Primitive Reactivation [Core]  <!-- UUID: cb452f09-007a-4000-a37f-46e8be48c066 -->
 
 An Agent may reactivate a Globally Inactive Primitive according to the governance process defined in its Root Edit Primitive. Reactivating the Primitive restores the Agent’s ability to create new instances (via proper Invocation) but does _not_ automatically revive previously deactivated instances. Each existing instance remains inactive unless separately reactivated through the appropriate governance process.
 
-#### A.2.3.1.3 - Primitive Instance Status [Core]  <!-- UUID: 4531962c-9847-40d6-b534-8a3a301703d0 -->
+#### A.2.2.1.3 - Primitive Instance Status [Core]  <!-- UUID: 4531962c-9847-40d6-b534-8a3a301703d0 -->
 
 The documents herein define Primitive Instance Status.
 
-##### A.2.3.1.3.1 - Primitive Instance Status Definition [Core]  <!-- UUID: f507250e-8558-4692-914d-7760ea266a50 -->
+##### A.2.2.1.3.1 - Primitive Instance Status Definition [Core]  <!-- UUID: f507250e-8558-4692-914d-7760ea266a50 -->
 
 Each valid Invocation of a Primitive causes the Agent Artifact to be updated with a specific instance of a Primitive. For example, each Invocation of the Token SkyLink Primitive launches a SkyLink deployment to a specific blockchain. The Agent may manage each Primitive instance independently (e.g., Activate or suspend it as circumstances change). A Primitive instance thus has its own Status or life cycle that is independent of the Primitive’s Global Activation Status.
 
-##### A.2.3.1.3.2 - Instance Status Values [Core]  <!-- UUID: d3908a6c-a5b4-40d3-a982-89ad606a24d9 -->
+##### A.2.2.1.3.2 - Instance Status Values [Core]  <!-- UUID: d3908a6c-a5b4-40d3-a982-89ad606a24d9 -->
 
 The documents herein specify the potential values of the Status of an instance of a Primitive. An instance of a Primitive must always have exactly one of these values.
 
-###### A.2.3.1.3.2.1 - Active Instance Status [Core]  <!-- UUID: dfd19e92-2660-4393-8dff-a3a7e4ad75ff -->
+###### A.2.2.1.3.2.1 - Active Instance Status [Core]  <!-- UUID: dfd19e92-2660-4393-8dff-a3a7e4ad75ff -->
 
 The instance Status of `Active` indicates that an instance of a Primitive is fully operational and may be used for its intended purpose by the Agent and potentially other parties. For example, a Token SkyLink deployment is active and can be used to bridge tokens between blockchains.
 
-###### A.2.3.1.3.2.2 - Suspended Instance Status [Core]  <!-- UUID: 3e5de640-5bc2-4953-a233-913e3337b4bb -->
+###### A.2.2.1.3.2.2 - Suspended Instance Status [Core]  <!-- UUID: 3e5de640-5bc2-4953-a233-913e3337b4bb -->
 
 The instance Status of `Suspended` indicates that an instance of a Primitive was `Active` at one point in time and may be `Active` again, but is not currently operational. This may be due to the Primitive not meeting performance expectations (e.g. for an Allocation System instance), security issues, or due to failure of the Agent operating the Primitive to satisfy other requirements such as those specified in the Risk Capital or Asset Liability Management frameworks.
 
-###### A.2.3.1.3.2.3 - Completed Instance Status [Core]  <!-- UUID: 82b88f94-b83a-432a-bb8e-4e726535156a -->
+###### A.2.2.1.3.2.3 - Completed Instance Status [Core]  <!-- UUID: 82b88f94-b83a-432a-bb8e-4e726535156a -->
 
 The instance Status of `Completed` indicates that an Instance of a Primitive has reached a terminal state and will not become `Active` again. This status applies in two cases: 1) a previously active Instance has permanently ceased operations; or 2) an Instance designed for a single Invocation has achieved its intended outcome and requires no further management (e.g., the one-time deployment of the Prime Transformation Primitive).
 
-##### A.2.3.1.3.3 - Changing Primitive Instance Status [Core]  <!-- UUID: 263f3b28-9cd4-4ba2-b8e5-152c2ce0c050 -->
+##### A.2.2.1.3.3 - Changing Primitive Instance Status [Core]  <!-- UUID: 263f3b28-9cd4-4ba2-b8e5-152c2ce0c050 -->
 
 A Prime Agent that has a Globally Active Primitive may freely create (assuming the Primitive was properly Invoked), suspend, archive, or update individual instances of that Primitive, subject to the rules defined in the Agent Artifact and the Sky Core Atlas. For example, the Agent may run multiple Integration Boost instances in parallel (each with its own markets and configurations), toggling them on or off as needed, without affecting the underlying Integration Boost Primitive’s Global Activation Status. Changing a Primitive’s Instance-Level Status can be effected through the governance process defined in the Root Edit Primitive, or through an appropriately configured Omni Document. See [A.1.13.2.7.2 - Omni Document Process](26ec6b08-8187-44b4-abb3-aee3868161a4).
 
-#### A.2.3.1.4 - Invocation of Primitive Instance [Core]  <!-- UUID: da763556-c316-431d-b57e-cc4df5a52fb8 -->
+#### A.2.2.1.4 - Invocation of Primitive Instance [Core]  <!-- UUID: da763556-c316-431d-b57e-cc4df5a52fb8 -->
 
 The documents herein define the process by which an Agent may Invoke instances of Sky Primitives. If the Invocation is valid, the Agent Artifact is upgraded and the Agent gains the Primitives’ specific functionality.
 
-##### A.2.3.1.4.1 - Invocation Status [Core]  <!-- UUID: 83ac15ef-30e5-4958-95f4-a7bc2de10e97 -->
+##### A.2.2.1.4.1 - Invocation Status [Core]  <!-- UUID: 83ac15ef-30e5-4958-95f4-a7bc2de10e97 -->
 
 The documents herein define the Statuses assigned to an Invocation that is in progress.
 
-##### A.2.3.1.4.2 - Required Inputs Into Sky Primitive [Core]  <!-- UUID: 316daff4-3260-45da-afde-eea3d357b9eb -->
+##### A.2.2.1.4.2 - Required Inputs Into Sky Primitive [Core]  <!-- UUID: 316daff4-3260-45da-afde-eea3d357b9eb -->
 
 To Invoke a Primitive, an Agent must supply all required inputs as defined in the Sky Core Atlas. Every Primitive instance abides by a standardized data model specified at the Sky Core level, ensuring that all Prime Agents, Executor Agents and other actors are able to submit and track the necessary data reliably.
 
-###### A.2.3.1.4.2.1 - Required Inputs Submitted To Powerhouse [Core]  <!-- UUID: 3a8fe63b-a95d-4c6d-b8ae-48f4fe62e4c3 -->
+###### A.2.2.1.4.2.1 - Required Inputs Submitted To Powerhouse [Core]  <!-- UUID: 3a8fe63b-a95d-4c6d-b8ae-48f4fe62e4c3 -->
 
 The actual submission and handling of these data inputs occurs exclusively through the Powerhouse interface, which serves as the Sky ecosystem’s shared data infrastructure. Powerhouse thus becomes the canonical gateway for exchanging information with the Primitive, enforcing consistency in both the format of the data and the steps taken to Invoke (and later update) the Primitive.
 
-##### A.2.3.1.4.3 - Validation of Primitive Inputs [Core]  <!-- UUID: c1e8985f-a21d-4264-b0e3-7cebee40e062 -->
+##### A.2.2.1.4.3 - Validation of Primitive Inputs [Core]  <!-- UUID: c1e8985f-a21d-4264-b0e3-7cebee40e062 -->
 
 Once the Agent has provided all required inputs to the relevant Primitive(s), the proposed Artifact Update undergoes review / validation by designated actors such as Operational Executor Facilitators. The identity and responsibilities of these actors are detailed in subsequent documents of this Article.
 
-##### A.2.3.1.4.4 - Token Holder Vote [Core]  <!-- UUID: a06c8e7a-e20f-459a-99e3-a62a5c0c4fd1 -->
+##### A.2.2.1.4.4 - Token Holder Vote [Core]  <!-- UUID: a06c8e7a-e20f-459a-99e3-a62a5c0c4fd1 -->
 
 After the Primitive inputs have been validated, Agent token holders vote on whether to upgrade the Artifact with the Primitive(s).
 
-##### A.2.3.1.4.5 - Formal Integration Of Primitives [Core]  <!-- UUID: 6948d758-ad79-47b8-8466-74c75ec9db9e -->
+##### A.2.2.1.4.5 - Formal Integration Of Primitives [Core]  <!-- UUID: 6948d758-ad79-47b8-8466-74c75ec9db9e -->
 
-If the vote is successful, the Agent Artifact is officially upgraded with a Primitive Instance, which latter has its own independent Status that is distinct from the Primitive’s Global Activation Status. See [A.2.3.1.3 - Primitive Instance Status](4531962c-9847-40d6-b534-8a3a301703d0). This upgrade means that the respective Primitive(s) is formally integrated into the Agent’s Artifact and the Atlas as a whole; the Prime Agent can now operationalize the Primitive’s special functionality.
+If the vote is successful, the Agent Artifact is officially upgraded with a Primitive Instance, which latter has its own independent Status that is distinct from the Primitive’s Global Activation Status. See [A.2.2.1.3 - Primitive Instance Status](4531962c-9847-40d6-b534-8a3a301703d0). This upgrade means that the respective Primitive(s) is formally integrated into the Agent’s Artifact and the Atlas as a whole; the Prime Agent can now operationalize the Primitive’s special functionality.
 
-#### A.2.3.1.5 - Primitives [Core]  <!-- UUID: 947a5b27-d2dc-41e4-b6fd-696e35e2929d -->
+#### A.2.2.1.5 - Primitives [Core]  <!-- UUID: 947a5b27-d2dc-41e4-b6fd-696e35e2929d -->
 
 The documents herein list the current Sky Primitives and set forth the process for amending them. Each Primitive is defined in more detail below.
 
-##### A.2.3.1.5.1 - Current Primitives [Core]  <!-- UUID: 203b8c79-c7cf-4fcc-94e3-5bf42f791619 -->
+##### A.2.2.1.5.1 - Current Primitives [Core]  <!-- UUID: 203b8c79-c7cf-4fcc-94e3-5bf42f791619 -->
 
 The current Sky Primitives are:
 
@@ -6577,11 +6577,11 @@ The current Sky Primitives are:
 - Core Governance Primitives
    ◦ Core Governance Reward Primitive
 
-##### A.2.3.1.5.2 - Amendments To Primitives [Core]  <!-- UUID: 1a46fd49-7b37-4a14-a311-eb1dbe947d85 -->
+##### A.2.2.1.5.2 - Amendments To Primitives [Core]  <!-- UUID: 1a46fd49-7b37-4a14-a311-eb1dbe947d85 -->
 
 The set of available Sky Primitives may be amended in accordance with the governance processes established in the Sky Core Atlas.
 
-### A.2.3.2 - Primitive Process Definition Schema [Section]  <!-- UUID: bdbb8ac9-d87e-4052-9e69-8267f38a54cf -->
+### A.2.2.2 - Primitive Process Definition Schema [Section]  <!-- UUID: bdbb8ac9-d87e-4052-9e69-8267f38a54cf -->
 
 Process Definitions function as the first-class objects through which Sky Primitives transform high-level governance logic into actionable document-driven workflows. All Sky Primitive Process Definitions are structured according to a common data schema - a set of fields that describe when they can start, how they run step by step, and what they must input or produce upon completion.
 
@@ -6589,19 +6589,19 @@ The documents herein define this data schema for Sky Primitive Process Definitio
 
 At present, only the Distribution Reward Primitive and the Integration Boost Primitive specifications are structured using this schema. In future iterations of the Atlas, the schema will be applied to all Primitive specifications in this Article.
 
-#### A.2.3.2.1 - Process Initiation Logic [Core]  <!-- UUID: 5df2043c-000a-4627-9c3a-2fdc12b78c47 -->
+#### A.2.2.2.1 - Process Initiation Logic [Core]  <!-- UUID: 5df2043c-000a-4627-9c3a-2fdc12b78c47 -->
 
 The documents herein define when a Process is triggered, and what conditions must be satisfied, if any, for the Process to properly initiate.
 
-##### A.2.3.2.1.1 - Triggers [Core]  <!-- UUID: 134d8e80-6ec7-49fe-b7bb-6846694be11c -->
+##### A.2.2.2.1.1 - Triggers [Core]  <!-- UUID: 134d8e80-6ec7-49fe-b7bb-6846694be11c -->
 
 The presence of a Time-Based Trigger or Document Update Trigger for a given Process does not necessarily mean such Trigger is the sole means to initiate the Process. For example, an Atlas Document that is external to the Sky Primitives specifications may authorize a Facilitator to manually initiate a process.
 
-###### A.2.3.2.1.1.1 - Time-Based Trigger [Core]  <!-- UUID: 1040dd2b-e7f8-4f68-b6c6-4b910f394a5a -->
+###### A.2.2.2.1.1.1 - Time-Based Trigger [Core]  <!-- UUID: 1040dd2b-e7f8-4f68-b6c6-4b910f394a5a -->
 
 This field defines the triggering date/time for recurring or scheduled Processes.
 
-###### A.2.3.2.1.1.2 - Document Update Triggers [Core]  <!-- UUID: 16be342d-0584-4092-9943-97a8c4eeb672 -->
+###### A.2.2.2.1.1.2 - Document Update Triggers [Core]  <!-- UUID: 16be342d-0584-4092-9943-97a8c4eeb672 -->
 
 Document Update Triggers are a type of gating condition that automatically or deterministically compels initiation of a Process in response to a specific Core Atlas or Agent Artifact Document Update in a previous Process Definition.
 
@@ -6609,7 +6609,7 @@ Once the specified Atlas or Artifact Document Update occurs (and assuming any sp
 
 If no such deterministic Document Update-based trigger exists for a Process to initiate, this field is set to "None."
 
-##### A.2.3.2.1.2 - Dependencies [Core]  <!-- UUID: 64bec5dc-e288-4c8e-b638-c7180a92aca9 -->
+##### A.2.2.2.1.2 - Dependencies [Core]  <!-- UUID: 64bec5dc-e288-4c8e-b638-c7180a92aca9 -->
 
 Dependencies are gating conditions that must be satisfied for the Process to be able to proceed, regardless of a triggering event.
 
@@ -6617,33 +6617,33 @@ Examples of Dependencies include actors possessing suitable permissions, or a ke
 
 If a trigger has occurred, but Dependencies are unmet, the Process cannot proceed.
 
-#### A.2.3.2.2 - Process Flow [Core]  <!-- UUID: 6964c2d4-2994-487b-b68a-f1df5fa916f7 -->
+#### A.2.2.2.2 - Process Flow [Core]  <!-- UUID: 6964c2d4-2994-487b-b68a-f1df5fa916f7 -->
 
-This field describes the step-by-step operational procedure that occurs once a Process is properly initiated. A step can reference specific Core Atlas or Artifact Documents and broadly describe how their state is manipulated and decisions are made. More granular specifications regarding Document state changes are defined in the `Required Primitive Inputs` schema component [A.2.3.2.3 - Required Primitive Inputs](1474b30b-7e2b-4c9a-8624-3c2c5f53abc8). Process flow steps can both consume and produce relevant Document data.
+This field describes the step-by-step operational procedure that occurs once a Process is properly initiated. A step can reference specific Core Atlas or Artifact Documents and broadly describe how their state is manipulated and decisions are made. More granular specifications regarding Document state changes are defined in the `Required Primitive Inputs` schema component [A.2.2.2.3 - Required Primitive Inputs](1474b30b-7e2b-4c9a-8624-3c2c5f53abc8). Process flow steps can both consume and produce relevant Document data.
 
-#### A.2.3.2.3 - Required Primitive Inputs [Core]  <!-- UUID: 1474b30b-7e2b-4c9a-8624-3c2c5f53abc8 -->
+#### A.2.2.2.3 - Required Primitive Inputs [Core]  <!-- UUID: 1474b30b-7e2b-4c9a-8624-3c2c5f53abc8 -->
 
 This field specifies the Agent Artifact Documents and their associated fields that must be manipulated using the Powerhouse interface as part of a Process. If any of the required Inputs is missing or incorrect, the Process cannot be completed.
 
-##### A.2.3.2.3.1 - Sequential Stages [Core]  <!-- UUID: e9422783-6196-4117-9099-b5ec0c338c05 -->
+##### A.2.2.2.3.1 - Sequential Stages [Core]  <!-- UUID: e9422783-6196-4117-9099-b5ec0c338c05 -->
 
 Some Processes require Primitive Inputs that are organized into multiple sequential stages (also called "Input stages"). Each Input stage must be completed before progressing to the next, ensuring that all dependencies and validations are met in order. Once an Input stage is completed, the subsequent Input stage is initiated automatically, continuing in this manner until all stages have been finished. 
 
 Upon completing the final Primitive Input stage, the Process Definition transitions to the `Required Outputs` schema component; this component defines the necessary updates to Sky Core Atlas or Agent Artifact Documents.
 
-###### A.2.3.2.3.1.1 - Required Output Trigger [Core]  <!-- UUID: 9c4f4cad-5124-44d8-b19e-bd931fae7963 -->
+###### A.2.2.2.3.1.1 - Required Output Trigger [Core]  <!-- UUID: 9c4f4cad-5124-44d8-b19e-bd931fae7963 -->
 
-Where a Process Definition has more than one set of `Required Outputs`, with each set corresponding to (or "triggered by") a particular Input stage, the `Required Primitive Inputs` schema component must explicitly correlate each Input stage with the `Required Outputs` it triggers. See [A.2.3.2.4.1 - Multiple Required Outputs And Their Respective Input Stage or Mutually Exclusive Pathway](10c53693-4784-40ad-a8c6-fd2551f14280).
+Where a Process Definition has more than one set of `Required Outputs`, with each set corresponding to (or "triggered by") a particular Input stage, the `Required Primitive Inputs` schema component must explicitly correlate each Input stage with the `Required Outputs` it triggers. See [A.2.2.2.4.1 - Multiple Required Outputs And Their Respective Input Stage or Mutually Exclusive Pathway](10c53693-4784-40ad-a8c6-fd2551f14280).
 
-##### A.2.3.2.3.2 - Mutually Exclusive Pathways [Core]  <!-- UUID: 926cd44b-e26c-4ae9-9091-d97c362d7e29 -->
+##### A.2.2.2.3.2 - Mutually Exclusive Pathways [Core]  <!-- UUID: 926cd44b-e26c-4ae9-9091-d97c362d7e29 -->
 
 Some Processes require Primitive Inputs that are organized into two or more mutually exclusive pathways (also "mutually exclusive Input pathways"). Once a pathway is chosen—either manually or automatically via the application of a defined decision or condition—the Process follows that pathway through to completion, rendering the other pathways inapplicable.
 
-###### A.2.3.2.3.2.1 - Required Output Trigger [Core]  <!-- UUID: a61d4797-9a1f-455c-8fe1-b62164e702b3 -->
+###### A.2.2.2.3.2.1 - Required Output Trigger [Core]  <!-- UUID: a61d4797-9a1f-455c-8fe1-b62164e702b3 -->
 
 When multiple "sets" of `Required Outputs` exist, with each set corresponding to (or "triggered by") a particular Mutually Exclusive Input Pathway, the `Required Primitive Inputs` schema component must explicitly correlate each Mutually Exclusive Input Pathway with the `Required Outputs` it triggers. Because the pathways are mutually exclusive, only the Required Output set associated with the selected Pathway will be executed. The other Output sets remain inactive.
 
-#### A.2.3.2.4 - Required Outputs [Core]  <!-- UUID: dee40c3b-2f89-44c6-8813-c48888df08a7 -->
+#### A.2.2.2.4 - Required Outputs [Core]  <!-- UUID: dee40c3b-2f89-44c6-8813-c48888df08a7 -->
 
 This field specifies the particular Sky Core Atlas and/or Agent Artifact Documents that must be updated as an end result of a Process.
 
@@ -6651,7 +6651,7 @@ Where applicable, a Document Update can serve as a "trigger" that deterministica
 
 Some processes do not need formal "Required Outputs" because the only process flow step is a simple update of an Artifact Document. In these edge cases, the change specified in `Required Primitive Inputs` (e.g., toggling a field to Globally Activate a Primitive) fully completes the process, effectively completing it in a single step. Once the designated Document and field are updated as prescribed, the Process is considered finalized.
 
-##### A.2.3.2.4.1 - Multiple Required Outputs And Their Respective Input Stage or Mutually Exclusive Pathway [Core]  <!-- UUID: 10c53693-4784-40ad-a8c6-fd2551f14280 -->
+##### A.2.2.2.4.1 - Multiple Required Outputs And Their Respective Input Stage or Mutually Exclusive Pathway [Core]  <!-- UUID: 10c53693-4784-40ad-a8c6-fd2551f14280 -->
 
 Where a Process Definition has more than one set of Required Outputs, and each set corresponds to (or is "triggered by") either a specific Input stage or a specific Mutually Exclusive Input Pathway, the Process Definition’s `Required Primitive Input` field must define which `Required Output` set is Invoked upon completion of that stage or pathway.
 
@@ -6661,55 +6661,55 @@ When multiple sequential stages exist, each stage’s successful completion trig
 2. **For Mutually Exclusive Pathways**
 If the Required Primitive Input process instead (or additionally) involves mutually exclusive paths, once a pathway is chosen—either manually or automatically by a specified condition—only the Required Output set tied to that pathway is applied. Outputs associated with the unselected/unexecuted pathways remain inactive.
 
-##### A.2.3.2.4.2 - Agent Artifact Document Specification [Core]  <!-- UUID: 3b3e537c-4989-4674-94bc-05928146ab42 -->
+##### A.2.2.2.4.2 - Agent Artifact Document Specification [Core]  <!-- UUID: 3b3e537c-4989-4674-94bc-05928146ab42 -->
 
 In the Sky Primitives Data Schema, references to an Agent Artifact Document are made in terms of the generic Document type. See [A.1.2.2.2 - List Of Document Types And Their Specifications](428b7f2e-30b0-4119-a10a-9c3496f19bd2). In practice, each Agent has its own Instance of that Document type in its Artifact. Thus, when a Primitive’s process flow indicates that an Agent Artifact Document must be updated, it is to be interpreted as referring to the _specific Instance_ of that Document type in the Prime Agent’s Artifact.
 
-### A.2.3.3 - Prerequisites For Activating Agent Creation Primitive [Section]  <!-- UUID: 9204bcaf-cfec-4f49-a115-31fad73ebd62 -->
+### A.2.2.3 - Prerequisites For Activating Agent Creation Primitive [Section]  <!-- UUID: 9204bcaf-cfec-4f49-a115-31fad73ebd62 -->
 
 The Agent Creation Primitive is the first Sky Primitive that must be activated by prospective Agent founders. Because an Agent Artifact does not yet exist at this stage, the prerequisite requirements set forth herein must be met, including off-chain obligations and governance outputs. Only after satisfying these prerequisites does the Agent Creation Primitive become accessible to the prospective founder.
 
-#### A.2.3.3.1 - Agent Inputs [Core]  <!-- UUID: df925d98-2e73-4b26-859b-33caa8865f0f -->
+#### A.2.2.3.1 - Agent Inputs [Core]  <!-- UUID: df925d98-2e73-4b26-859b-33caa8865f0f -->
 
 The prospective Agent founder must deploy the required startup capital and pay the Agent creation fee.
 
-##### A.2.3.3.1.1 - Capital Injection [Core]  <!-- UUID: bed7471a-54aa-4167-88dd-22ebd63f8827 -->
+##### A.2.2.3.1.1 - Capital Injection [Core]  <!-- UUID: bed7471a-54aa-4167-88dd-22ebd63f8827 -->
 
 The required capital and the process for deploying it will be specified in a future iteration of the Atlas.
 
-##### A.2.3.3.1.2 - Creation Fee [Core]  <!-- UUID: 708ad6b6-8e4a-46b3-9848-523d00a57420 -->
+##### A.2.2.3.1.2 - Creation Fee [Core]  <!-- UUID: 708ad6b6-8e4a-46b3-9848-523d00a57420 -->
 
 The prospective founder must pay the required creation fee. The required fee and the process for paying it will be specified in a future iteration of the Atlas.
 
-#### A.2.3.3.2 - Core GovOps Outputs [Core]  <!-- UUID: e1cef578-801c-4905-a88b-e9703b048d2a -->
+#### A.2.2.3.2 - Core GovOps Outputs [Core]  <!-- UUID: e1cef578-801c-4905-a88b-e9703b048d2a -->
 
 After the prospective Agent founder deploys the required startup capital and pays the Agent creation fee, Core GovOps creates a Proto-Agent and sets up a Scaffold Agent Artifact.
 
-##### A.2.3.3.2.1 - Proto-Agent Creation [Core]  <!-- UUID: 1f577977-2f4c-41a0-a3ba-f09fc77b8d09 -->
+##### A.2.2.3.2.1 - Proto-Agent Creation [Core]  <!-- UUID: 1f577977-2f4c-41a0-a3ba-f09fc77b8d09 -->
 
 Core GovOps creates a Proto-Agent with no specific functionality in the ecosystem.
 
-##### A.2.3.3.2.2 - Scaffold Artifact Setup [Core]  <!-- UUID: f55fdc70-dfe4-4c52-9be4-10bf3a6dc990 -->
+##### A.2.2.3.2.2 - Scaffold Artifact Setup [Core]  <!-- UUID: f55fdc70-dfe4-4c52-9be4-10bf3a6dc990 -->
 
-Core GovOps prepares a Scaffold Agent Artifact  ("Scaffold Artifact") containing all Sky Primitives. In the Scaffold Artifact, the Upkeep Rebate Primitive is globally activated by default. See [A.2.3.1.2.2 - Initial Primitive Global Activation Status](377150b3-d64b-4436-ab6d-758b05d82f26). All other Primitives are initially set to `Inactive`. The Scaffold Artifact also includes an initial set of Omni Documents that provide general information about the Agent and organize the various Sky Primitive Instance Configuration Documents. Core GovOps must add the Scaffold Artifact to the Atlas’ Agent Artifact Scope.
+Core GovOps prepares a Scaffold Agent Artifact  ("Scaffold Artifact") containing all Sky Primitives. In the Scaffold Artifact, the Upkeep Rebate Primitive is globally activated by default. See [A.2.2.1.2.2 - Initial Primitive Global Activation Status](377150b3-d64b-4436-ab6d-758b05d82f26). All other Primitives are initially set to `Inactive`. The Scaffold Artifact also includes an initial set of Omni Documents that provide general information about the Agent and organize the various Sky Primitive Instance Configuration Documents. Core GovOps must add the Scaffold Artifact to the Atlas’ Agent Artifact Scope.
 
-##### A.2.3.3.2.3 - Address Deploying Capital [Core]  <!-- UUID: 39d1cae8-a070-47a2-b69b-96e0f4f6a080 -->
+##### A.2.2.3.2.3 - Address Deploying Capital [Core]  <!-- UUID: 39d1cae8-a070-47a2-b69b-96e0f4f6a080 -->
 
 The address deploying the start-up capital is assigned `Founder Access` to the Scaffold Agent Artifact. See [A.2.3.1.1.3.2 - Founder Access](a4f65994-2526-4522-a986-cd444a5cb896).
 
-### A.2.3.4 - Genesis Primitives [Section]  <!-- UUID: 3d5e3668-8333-4908-adcc-5784cfe7f6b5 -->
+### A.2.2.4 - Genesis Primitives [Section]  <!-- UUID: 3d5e3668-8333-4908-adcc-5784cfe7f6b5 -->
 
 Genesis Primitives are a category of Primitives addressing different aspects of initial Agent setup—such as Agent creation, token launch and configuration, and transformation pathways.
 
-#### A.2.3.4.1 - Agent Creation Primitive [Core]  <!-- UUID: 82b95f6d-4883-4f08-ac3a-9d8189013fbe -->
+#### A.2.2.4.1 - Agent Creation Primitive [Core]  <!-- UUID: 82b95f6d-4883-4f08-ac3a-9d8189013fbe -->
 
 This Primitive may only be Invoked after the prospective Agent founder meets the prerequisites defined in [A.2.3.3 - Prerequisites For Activating Agent Creation Primitive](9204bcaf-cfec-4f49-a115-31fad73ebd62), resulting in the creation of a Proto-Agent. Invoking the Agent Creation Primitive allows the Proto-Agent to establish its identity by declaring its name, as well as articulate its intended vision, business model or ecosystem goals.
 
-##### A.2.3.4.1.1 - Agent Creation Primitive Process Definition [Core]  <!-- UUID: 46e64020-f283-48a6-b327-75ea15927ee4 -->
+##### A.2.2.4.1.1 - Agent Creation Primitive Process Definition [Core]  <!-- UUID: 46e64020-f283-48a6-b327-75ea15927ee4 -->
 
 The documents herein define the Process Definition for initial setup and ongoing management of an Instance of the Agent Creation Primitive.
 
-###### A.2.3.4.1.1.1 - Agent Creation Instance Setup Process [Core]  <!-- UUID: 754e1599-28d7-499a-b68f-e2155e87105a -->
+###### A.2.2.4.1.1.1 - Agent Creation Instance Setup Process [Core]  <!-- UUID: 754e1599-28d7-499a-b68f-e2155e87105a -->
 
 The documents herein define the process for setting up an Instance of the Agent Creation Primitive.
 
