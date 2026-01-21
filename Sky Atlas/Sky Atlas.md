@@ -2005,6 +2005,7 @@ The Active Data is updated as follows:
 | Max Staking Yield  | [https://etherscan.io/address/0x9746bDaB7ab2609247332324400cc1fbE887095C](https://etherscan.io/address/0x9746bDaB7ab2609247332324400cc1fbE887095C) [https://etherscan.io/verifySig/273846](https://etherscan.io/verifySig/273846)                                 | [https://etherscan.io/address/0xFf7615E05EC1C8D5dED24AB50Bf74432666BEE2f](https://etherscan.io/address/0xFf7615E05EC1C8D5dED24AB50Bf74432666BEE2f) [https://etherscan.io/verifySig/273847](https://etherscan.io/verifySig/273847)                                      | [https://forum.sky.money/t/max-staking-yield-ad-recognition-submission/26462](https://forum.sky.money/t/max-staking-yield-ad-recognition-submission/26462) |  
 | Sky Staking        | [https://etherscan.io/address/0x05c73AE49fF0ec654496bF4008d73274a919cB5C](https://etherscan.io/address/0x05c73AE49fF0ec654496bF4008d73274a919cB5C) [https://etherscan.io/verifySig/275148](https://etherscan.io/verifySig/275148)                                 | [https://etherscan.io/address/0xE01684B17dF0aBBdAf97839277b194bE4E1A7E79](https://etherscan.io/address/0xE01684B17dF0aBBdAf97839277b194bE4E1A7E79) [https://etherscan.io/verifySig/273489](https://etherscan.io/verifySig/273489)                                      | [https://forum.sky.money/t/sky-staking-recognition-submission/26443](https://forum.sky.money/t/sky-staking-recognition-submission/26443)        |  
 | Kuzmich            | [https://etherscan.io/address/0x2847540606a790E5083d0D63470fAb01344c8e92](https://etherscan.io/address/0x2847540606a790E5083d0D63470fAb01344c8e92) [https://etherscan.io/verifySig/275839](https://etherscan.io/verifySig/275839)                                 | [https://etherscan.io/address/0x2C89024c13A80bC1B662A3dB990524652C15221C](https://etherscan.io/address/0x2C89024c13A80bC1B662A3dB990524652C15221C) [https://etherscan.io/verifySig/275837](https://etherscan.io/verifySig/275837)                                      | [https://forum.sky.money/t/ad-recognition-submission/26743](https://forum.sky.money/t/ad-recognition-submission/26743)                 |
+| OPEX            | [https://etherscan.io/address/0xE3dc949720Da42c5c842D06974BCB7B03F4f604f](https://etherscan.io/address/0xE3dc949720Da42c5c842D06974BCB7B03F4f604f) [https://etherscan.io/verifySig/301199](https://etherscan.io/verifySig/301199)                                 | [https://etherscan.io/address/0x16A5a76904140e01F31C7e7ABD9fB81988469bA4](https://etherscan.io/address/0x16A5a76904140e01F31C7e7ABD9fB81988469bA4) [https://etherscan.io/verifySig/301198](https://etherscan.io/verifySig/301198)                                      | [https://forum.sky.money/t/opex-ad-recognition-submission/27630](https://forum.sky.money/t/opex-ad-recognition-submission/27630)                 |
 
 ### A.1.5.2 - In General [Section]  <!-- UUID: 4e9e5868-92ea-486a-b30c-01391a027ba1 -->
 
@@ -18833,7 +18834,11 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Spark Savings v2 spPYUSD Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.9.4](0b280652-ea99-4a53-8c9e-fb23b200d446).
 
-###### A.6.1.1.1.2.6.1.1.2.1.11.5 - Ethereum Mainnet - Arkis Instance Configuration Document Location [Core]  <!-- UUID: a25915c0-0fc4-48f7-845b-92f446dbbba3 -->
+###### A.6.1.1.1.2.6.1.1.2.1.12 - Arkis [Core]  <!-- UUID: 8e76f6f2-fb70-4ed0-a78d-7be94244819b -->
+
+The Ethereum Instances Directory of the Arkis Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.2.1.12.1 - Ethereum Mainnet - Arkis Instance Configuration Document Location [Core]  <!-- UUID: a25915c0-0fc4-48f7-845b-92f446dbbba3 -->
 
 This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Arkis Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.10.1](4bb58af1-fc25-442f-83a9-dd40989a7d37).
 
