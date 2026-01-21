@@ -22718,6 +22718,26 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
+###### A.6.1.1.1.2.6.1.3.1.8.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: e560d14b-b1f1-4351-9214-62a3d6d7fd53 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.1 - Contract Addresses [Core]  <!-- UUID: bfdae446-8562-4c34-8bf8-9f6d7d612d2e -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.1 - Curator Role Address [Core]  <!-- UUID: ca1eb012-2401-4e24-9e9e-a76f869e422d -->
+
+`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.2 - Guardian Role Address [Core]  <!-- UUID: 86831263-5a01-4259-80e6-7829f062a1e6 -->
+
+`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.2 - Timelock [Core]  <!-- UUID: bf0333e1-219a-4dc2-89d9-0ac64907c3d2 -->
+
+Timelock: 240 hours (10 days) 
+
 ###### A.6.1.1.1.2.6.1.3.1.8.3 - Ethereum Mainnet - Morpho USDC Instance Configuration Document [Core]  <!-- UUID: f3063596-4f85-4a51-b52c-58221d043d3e -->
 
 The documents herein contain the Instance Configuration Document for the Morpho USDC Instance.
@@ -22793,6 +22813,26 @@ The documents herein contain specific off-chain parameters for this Instance.
 ###### A.6.1.1.1.2.6.1.3.1.8.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d778fa59-35a2-4b5a-9e22-2880e99746a4 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: d30c7467-bdc4-42b7-a0fd-332828e5acd7 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1 - Contract Addresses [Core]  <!-- UUID: a672e8f2-886e-4d1f-a217-364e638408d9 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1 - Curator Role Address [Core]  <!-- UUID: ac41be8b-f6c9-4df2-9fac-c543c77e0166 -->
+
+`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.2 - Guardian Role Address [Core]  <!-- UUID: b7d0b9a8-4dba-4fba-8aab-b5afd645a6d0 -->
+
+`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.2 - Timelock [Core]  <!-- UUID: d2692d99-d52c-4586-8dbe-b23d8f835f29 -->
+
+Timelock: 240 hours (10 days)
 
 ###### A.6.1.1.1.2.6.1.3.1.9 - Spark Savings V2 [Core]  <!-- UUID: 47f2b461-1d82-4ee8-8cd2-39c95184c51b -->
 
@@ -23438,6 +23478,22 @@ The documents herein contains exposure details for this Instance
 
 - Pool ID: 0x1c21c59df9db44bf6f645d854ee710a8ca17b479451447e9f56758aee10a2fad
 - Supply cap: 50,000,000
+
+###### A.6.1.1.1.2.6.1.3.2.1.1.4.2 - Contract Addresses [Core]  <!-- UUID: 38936f4a-42da-4d27-a7ef-65ae9b104a7a -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.1 - Curator Role Address [Core]  <!-- UUID: 921d59d4-baaf-45a8-b6ff-93aa879e0e41 -->
+
+0x0f963A8A8c01042B69054e787E5763ABbB0646A3
+
+###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.2 - Guardian Role Address [Core]  <!-- UUID: edee318a-59b1-4ff1-9790-8d4606f2f7bd -->
+
+0xf5748bBeFa17505b2F7222B23ae11584932C908B
+
+###### A.6.1.1.1.2.6.1.3.2.1.1.4.3 - Timelock [Core]  <!-- UUID: 63f24280-1724-4d2c-a0b8-aa8a2381afb8 -->
+
+Timelock: 240 hours (10 days)
 
 ###### A.6.1.1.1.2.6.1.3.2.2 - Fluid [Core]  <!-- UUID: 6be8271c-9f42-4eef-a05e-96e73e5d18b4 -->
 
