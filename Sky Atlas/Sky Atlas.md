@@ -41444,7 +41444,7 @@ The documents herein implement the Sky Primitives for Pattern. See [A.2.3 - Sky 
 
 The documents herein implement the Genesis Primitives for Pattern. See A.2.3.4 - Genesis Primitives.
 
-###### A.6.1.1.6.2.1.1 - Agent Creation Primitve [Core]  <!-- UUID: b6a417d7-f308-4544-a4d7-eabd4d971556 -->
+###### A.6.1.1.6.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: b6a417d7-f308-4544-a4d7-eabd4d971556 -->
 
 The documents herein contain all data and specifications for Pattern's Instance of the Agent Creation Primitive. See A.2.3.4.1 - Agent Creation Primitive.
 
@@ -41544,7 +41544,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.6.2.1.2 - Prime Transformation Primitve [Core]  <!-- UUID: ddd10617-caa7-4d4c-b088-cee2f888cef9 -->
+###### A.6.1.1.6.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: ddd10617-caa7-4d4c-b088-cee2f888cef9 -->
 
 The documents herein contain all data and specifications for Pattern's instance of the Prime Transformation Primitive. See [A.2.3.4.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
 
@@ -41964,7 +41964,7 @@ The documents herein define the process for using the Root Edit Primitive to upd
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.1.1 - Root Edit Proposal Submission [Core]  <!-- UUID: a6261165-8c88-432f-a3c1-79465599d706 -->
 
-The Root Edit process begins with an PATTERN token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. An PATTERN token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Pattern Prime" category.
+The Root Edit process begins with a PATTERN token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A PATTERN token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Pattern Prime" category.
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.1.1.1 - Short-Term Transitionary Measures [Core]  <!-- UUID: 351f7eac-691a-4bcb-868e-5ca56787d53a -->
 
@@ -42826,7 +42826,7 @@ The documents herein implement the Sky Primitives for Launch Agent 6. See [A.2.3
 
 The documents herein implement the Genesis Primitives for Launch Agent 6. See A.2.3.4 - Genesis Primitives.
 
-###### A.6.1.1.7.2.1.1 - Agent Creation Primitve [Core]  <!-- UUID: 1049c46a-0222-4101-ad86-b8c75c73ffd6 -->
+###### A.6.1.1.7.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: 1049c46a-0222-4101-ad86-b8c75c73ffd6 -->
 
 The documents herein contain all data and specifications for Launch Agent 6's Instance of the Agent Creation Primitive. See [A.2.3.4.1 - Agent Creation Primitive](82b95f6d-4883-4f08-ac3a-9d8189013fbe).
 
@@ -42926,7 +42926,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.7.2.1.2 - Prime Transformation Primitve [Core]  <!-- UUID: ff1ff3b0-3505-475a-9b04-92e0fbb16978 -->
+###### A.6.1.1.7.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: ff1ff3b0-3505-475a-9b04-92e0fbb16978 -->
 
 The documents herein contain all data and specifications for Launch Agent 6's instance of the Prime Transformation Primitive. See [A.2.3.4.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
 
