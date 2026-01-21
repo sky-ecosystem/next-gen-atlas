@@ -22567,7 +22567,7 @@ The documents herein define the Instance contract addresses.
 
 `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2`
 
-###### A.6.1.1.1.2.6.1.3.1.7.5.2.2.3 - Pool Address [Core]  <!-- UUID: 96a50ef4-938b-475e-8244-40d376e95e6e -->
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.2.4 - Pool Address [Core]  <!-- UUID: 96a50ef4-938b-475e-8244-40d376e95e6e -->
 
 `0xDB74dfDD3BB46bE8Ce6C33dC9D82777BCFc3dEd5`
 
