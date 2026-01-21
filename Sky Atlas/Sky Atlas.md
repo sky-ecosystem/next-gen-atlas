@@ -28503,7 +28503,7 @@ The ALM_CONTROLLER contract version is: 1.8.0.
 
 The address of the Multisig that has the Freezer Role is: `0xB0113804960345fd0a245788b3423319c86940e5`
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.2.1.4 - ALM Relayer Multisig (Mainnet) Address [Core]  <!-- UUID: 51b50a8f-eb29-4424-bb0a-8247d2acce7d -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.2.1.4 - ALM Relayer Multisig Addresses [Core]  <!-- UUID: 51b50a8f-eb29-4424-bb0a-8247d2acce7d -->
 
 The addresses of the multisigs that have the Relayer Role are specified in [A.6.1.1.2.2.6.1.2.1.2.2.1.1 - Address](2ecf77f4-13d5-40dd-a50f-d85aabdbf71b), [A.6.1.1.2.2.6.1.2.1.2.2.2.1 - Address](49588342-eebf-41e2-89eb-eb4f94ba5f36), and [A.6.1.1.2.2.6.1.2.1.2.2.3.1 - Address](712e0f02-b787-4812-8d67-60a81449b238).
 
@@ -32109,9 +32109,13 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 4bfb42c0-cb39-4d13-bf80-6d0a0a51c47d -->
 
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.12.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 960ce9e1-84f5-4798-81a6-6619ea153552 -->
+
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
 
-###### A.6.1.1.2.2.6.1.3.1.12.2.3.1 - Parameters For Stable Stable Pools [Core]  <!-- UUID: dab70e48-7329-4bb4-87cc-3737c3c6336e -->
+###### A.6.1.1.2.2.6.1.3.1.12.2.4.1 - Parameters For Stable Stable Pools [Core]  <!-- UUID: dab70e48-7329-4bb4-87cc-3737c3c6336e -->
 
 - twapSecondsAgo: 600
 - maxTickDelta: 200
@@ -32209,9 +32213,13 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: f33d7fc9-9654-4aa8-8ed5-13881c37ba24 -->
 
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.12.3.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 6b6dd157-be7c-4170-a25d-f65f529e48b5 -->
+
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
 
-###### A.6.1.1.2.2.6.1.3.1.12.3.3.1 - Parameters For Stable Stable Pools [Core]  <!-- UUID: cabd3b71-0346-4be4-9b5c-bf13dd7a0ab9 -->
+###### A.6.1.1.2.2.6.1.3.1.12.3.4.1 - Parameters For Stable Stable Pools [Core]  <!-- UUID: cabd3b71-0346-4be4-9b5c-bf13dd7a0ab9 -->
 
 - twapSecondsAgo: 600
 - maxTickDelta: 200
