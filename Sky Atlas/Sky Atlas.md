@@ -22930,7 +22930,7 @@ The subdocuments herein define the current configuration of the risk parameters.
 
 The Risk parameters are:
 
-- Supply cap: 100,000 WETH
+- Supply cap: 250,000 WETH
 - Max yield: 5%
 - Current yield (at launch): 0%
 
@@ -23042,7 +23042,7 @@ The subdocuments herein define the current configuration of the risk parameters.
 
 The Risk parameters are:
 
-- Supply cap: 500,000,000 USDC
+- Supply cap: 1,000,000,000 USDC
 - Max yield: 10%
 - Current yield (at launch): 0%
 
@@ -23987,7 +23987,7 @@ The subdocuments herein define the current configuration of the risk parameters.
 
 The Risk parameters are:
 
-- Supply cap: 150,000,000 USDC
+- Supply cap: 500,000,000 USDC
 - Max yield: 10%
 - Current yield (at launch): 0%
 
@@ -26008,6 +26008,7 @@ After the kill switch is triggered, markets can be reactivated by Sky Governance
 The kill switch currently covers the following assets with the specified thresholds:
 
 - STETH/ETH - 0.95
+- LBTC/BTC - 0.95
 
 ###### A.6.1.1.1.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: e547484b-1388-4cc2-a03f-971b96c341bd -->
 
