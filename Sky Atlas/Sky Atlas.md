@@ -9443,7 +9443,7 @@ The Active Data is updated as follows:
 The current Sky Direct Exposures are:
     
 - Treasury Bills - Investments by Grove in BUIDL, JTRSY, and USTB on Ethereum Mainnet
-- Collateralized Loan Obligations - Investments by Grove in JAAA on Ethereum Mainnet
+- Collateralized Loan Obligations - Investments by Grove in JAAA on Ethereum Mainnet up to 325M USD
 - Peg Stability Modules - Investments by Spark or Grove in USDC in Peg Stability Modules on blockchains other than Ethereum Mainnet
 - Curve Pools - Investments by Spark in USDT in sUSDS/USDT Curve pools
 
@@ -10361,11 +10361,11 @@ For each Prime Agent, the Initial Calculation must specify whether payments with
 
 ###### A.2.4.1.2.1.2.2 - Independent Calculation By Core Council Risk Advisor On Behalf Of Core Council [Core]  <!-- UUID: 8be8ae66-2453-4d7d-8880-ffaba36bdb7e -->
 
-Within seven (7) calendar days of the end of each month, the Core Council Risk Advisor replies to the Monthly Settlement Cycle Post with their own independent calculation of the net amounts due to or from each Prime Agent (the "Independent Calculation"). The Independent Calculation must contain reasonable supporting detail. The required contents of the Independent Calculation will be further specified in a future iteration of the Atlas.
+Within seven (7) calendar days of the end of each month, the Core Council Risk Advisor replies to the Monthly Settlement Cycle Post with their own independent calculation of the net amounts due to or from each Prime Agent (the “Independent Calculation”). The Independent Calculation should also include calculation of the amounts to be transferred to the Core Council and Aligned Delegates Buffers (see [A.2.3.1.4.1 - Allocation Of Step 1 Capital](76eab64d-a5ba-4f3c-a295-bde0e444d0df)). The Independent Calculation must contain reasonable supporting detail. The required contents of the Independent Calculation will be further specified in a future iteration of the Atlas.
 
 ###### A.2.4.1.2.1.3 - Final Calculation By Core GovOps [Core]  <!-- UUID: 9de89bf3-9051-44f1-9ec0-d362ee4d4b38 -->
 
-Within twelve (12) calendar days of the end of each month, Core GovOps replies to the Monthly Settlement Cycle Post with the final calculation of the net amounts due to or from each Prime Agent (the "Final Calculation"). If there are any Disputed Amounts (see [A.2.4.1.2.1.3.2 - Disputed Amount](4ddda7cd-9942-4f60-9555-6b3f16770334)), then Core GovOps must resolve them. Core GovOps must work with the relevant Operational Executor Agent, relevant Prime Agents, and the Core Council Risk Advisor to reach a mutually acceptable resolution and may consult other parties to the extent it deems advisable.
+Within twelve (12) calendar days of the end of each month, Core GovOps replies to the Monthly Settlement Cycle Post with the final calculation of the net amounts due to or from each Prime Agent (the “Final Calculation”). The Final Calculation should also include the final amounts to be transferred to the Core Council and Aligned Delegates Buffers (see [A.2.3.1.4.1 - Allocation Of Step 1 Capital](76eab64d-a5ba-4f3c-a295-bde0e444d0df)). If there are any Disputed Amounts (see [A.2.4.1.2.1.3.2 - Disputed Amount](4ddda7cd-9942-4f60-9555-6b3f16770334)), then Core GovOps must resolve them. Core GovOps must work with the relevant Operational Executor Agent, relevant Prime Agents, and the Core Council Risk Advisor to reach a mutually acceptable resolution and may consult other parties to the extent it deems advisable.
 
 Core GovOps makes the final decision in resolving differences between the Initial Calculation and the Independent Calculation. The Final Calculation must specify the Final Amount and contain reasonable supporting detail. The required contents of the Final Calculation will be further specified in a future iteration of the Atlas.
 
@@ -11479,11 +11479,13 @@ Specific token allocations are defined in the subdocuments herein.
 
 ###### A.2.8.2.6.2.1.2.1 - Launch Agent 6 Prime Treasury [Core]  <!-- UUID: 1ae8c439-cc0d-400f-90cd-4f5ef10356d6 -->
 
-777,777,778 AGENT6 tokens are allocated to the Launch Agent 6 Prime Treasury (Launch Agent 6’s SubProxy).
+677,777,778 AGENT6 tokens are allocated to the Launch Agent 6 Prime Treasury (Launch Agent 6’s SubProxy).
+
+Launch Agent 6 will use 150,000,000 AGENT6 tokens for incentives.
 
 ###### A.2.8.2.6.2.1.2.2 - Sky Retained Tokens And Reward Pools [Core]  <!-- UUID: efb7339d-fb3d-4f5d-bdea-16ac8c291510 -->
 
-Sky retains 222,222,222 AGENT6 tokens, distributing these as specified in a future iteration of the Atlas.
+Sky retains 322,222,222 AGENT6 tokens, distributing these as specified in a future iteration of the Atlas.
 
 ###### A.2.8.2.6.2.2 - Genesis Capital Allocation [Core]  <!-- UUID: f6ab77a4-8ba4-4f67-8c9f-8cc6a921ae53 -->
 
@@ -11491,13 +11493,19 @@ The subdocuments herein set out agreed terms with respect to Genesis Capital All
 
 ###### A.2.8.2.6.2.2.1 - Launch Agent 6 Initial Allocation [Core]  <!-- UUID: 94b2eef8-f5fd-4df1-8638-e1b81d032c47 -->
 
-The Initial Allocation for Launch Agent 6 is 10,000,000 USDS.
+The Initial Allocation for Launch Agent 6 is 10,500,000 USDS.
 
 ###### A.2.8.2.6.2.2.2 - Initial Allocation Distribution [Core]  <!-- UUID: 20eeeaf4-38bc-4440-be1c-a1ee67ee3491 -->
 
 The Initial Allocation is distributed in USDS to the Launch Agent 6 SubProxy.
 
-###### A.2.8.2.6.2.2.2.1 - Transfer Of Genesis Capital Allocation To Launch Agent 6 SubProxy [Core]  <!-- UUID: 4fd99f26-90a3-4385-a3ea-7949f5d56b3f -->
+###### A.2.8.2.6.2.2.2.1 - Transfer Of Genesis Capital Allocation To Launch Agent 6 Foundation [Core]  <!-- UUID: 4fd99f26-90a3-4385-a3ea-7949f5d56b3f -->
+
+Sky has transferred 500,000 USDS from the Core Council Buffer to the Launch Agent 6 Foundation.
+
+The address of the Launch Agent 6 Foundation on the Ethereum Mainnet is `0xfdd055d3ccee0d955031cf1fd76c8db9317ccc58`.
+
+###### A.2.8.2.6.2.2.2.2 - Transfer Of Genesis Capital Allocation To Launch Agent 6 SubProxy [Core]  <!-- UUID: 65638659-eb0d-4e5c-87e8-50705e3595b8 -->
 
 The transfer of 10,000,000 USDS from the Surplus Buffer to the Launch Agent 6 SubProxy for the Genesis Capital Allocation will be included in a future Executive Vote. This action is contingent on mutual agreement by Sky and Launch Agent 6 on a future iteration of this agreement specifying the terms and conditions of the Genesis Capital Allocation.
 
@@ -11566,6 +11574,12 @@ The Initial Allocation for Skybase is 15,000,000 USDS.
 ###### A.2.8.2.7.2.2.2.1 - Transfer Of Genesis Capital Allocation To Skybase SubProxy [Core]  <!-- UUID: 36556509-d2b6-4932-8781-9bf4ecc90987 -->
 
 The transfer of 10,000,000 USDS from the Surplus Buffer to the Skybase SubProxy for the Genesis Capital Allocation will be included in the January 29, 2026 Executive Vote.
+
+This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+
+###### A.2.8.2.7.2.2.2.2 - Transfer Of Genesis Capital Allocation To USDS Demand Multisig [Core]  <!-- UUID: be600bf6-c0f2-42c5-ad5c-fd0cb429b628 -->
+
+The transfer of 5,000,000 USDS from the Surplus Buffer to the USDS Demand Subsidies Multisig (see [A.6.1.1.4.3.4.2 - USDS Demand Subsidies Multisig](20ee784c-115a-40bb-ae74-d4b3726b0c1b)) for the Genesis Capital Allocation will be included in the January 29, 2026 Executive Vote.
 
 This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
@@ -13178,6 +13192,31 @@ Offchain lending through Anchorage Digital has a CRR of 3.5%. The maximum exposu
 - Liquidation LTV: 90% (111.1% collateralization ratio)
 - Maturity Date: Approximately 6-month duration
 
+###### A.3.2.2.1.1.1.1.3.8 - Morpho Vaults [Core]  <!-- UUID: 6cef23c7-aaae-493d-bd76-a2909c25970a -->
+
+The documents herein define the Instance Financial CRR applied to specific Morpho vault allocations.
+
+###### A.3.2.2.1.1.1.1.3.8.1 - Morpho Grove x Steakhouse High Yield USDC Vault  [Core]  <!-- UUID: f3df0565-407c-43bb-9b3e-52bbc5223a26 -->
+
+The CRRs for the following market allocations in the vault are:
+
+- PT-USDe / USDC – LLTV: 91.5%
+    - CRR = 4%
+- PT-sUSDe / USDC – LLTV: 91.5%
+    - CRR = 4%
+- PT-cUSD0 / USDC – LLTV: 91.5%
+    - CRR = 1%
+- mF-One / USDC – LLTV: 91.5%
+    - CRR = 100%
+
+###### A.3.2.2.1.1.1.1.3.8.2 - Morpho Grove x Steakhouse High Yield AUSD Vault  [Core]  <!-- UUID: b9a27ec8-26fd-469b-8963-1e03e9a73ff6 -->
+
+ Allocation to the Agora AUSD Morpho Vault on Monad via FalconX has an Instance Financial CRR of 5%. Total combined FalconX allocations must not exceed 100,000,000 USDS.
+
+ ###### A.3.2.2.1.1.1.1.3.9 - Uniswap V3 [Core]  <!-- UUID: 200cd606-26e9-427e-b965-976e7140a976 -->
+
+ Allocation to the AUSD / USDC Uniswap v3 pool via FalconX on Monad has a CRR of 3%. Total combined FalconX allocations must not exceed 100,000,000 USDS.
+
 ###### A.3.2.2.1.1.1.1.4 - Reference Implementation [Core]  <!-- UUID: e96da090-34ff-4445-a1d3-22cc69be2e51 -->
 
 A reference implementation of the calculation of Instance Financial RRC for lending markets is included herein.
@@ -13697,12 +13736,15 @@ The documents herein define exceptions to the calculation of Instance Financial 
 
 ###### A.3.2.2.1.1.1.5.3.1 - Instance Financial CRRs For Specific Assets [Core]  <!-- UUID: 672d377f-067e-4742-a987-b2c6258f9c99 -->
 
-The following Instance Financial CRR apply to specific assets:
+The following Instance Financial CRRs apply to specific assets listed:
     
-◦ BUIDL, JTRSY on Ethereum Mainnet, and USTB - 0% Instance Financial CRR    
-◦ JTRSY on Avalanche - 0.5% Instance Financial CRR    
-◦ JAAA on Ethereum Mainnet - 1.6% Instance Financial CRR    
-◦ JAAA on Avalanche - 2.1% Instance Financial CRR
+- BUIDL, JTRSY on Ethereum Mainnet, and USTB - 0% Instance Financial CRR  
+- JTRSY on Avalanche - 0.5% Instance Financial CRR  
+- JAAA on Ethereum Mainnet - 1.6% Instance Financial CRR  
+- JAAA on Avalanche - 2.1% Instance Financial CRR
+- STAC on Ethereum Mainnet - 1.6% Instance Financial CRR
+- GACLO-1 on Ethereum Mainnet - 0.85% Instance Financial CRR
+- ACRDX on Plume - 9.99% Instance Financial CRR
 
 ###### A.3.2.2.1.1.1.5.3.1.1 - Additional Restrictions On Investments In JTRSY And JAAA On Avalanche [Core]  <!-- UUID: 66506235-0e6c-4fa9-8e22-5eb4f19cb330 -->
 
@@ -28446,7 +28488,7 @@ The Ethereum Mainnet Instances Directory of the Morpho Protocol with `Active` St
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.1 - Ethereum Mainnet - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document](29cb8322-96f5-4f18-b4fe-eb31826af580).
 
-###### A.6.1.1.2.2.6.1.1.2.1.7.2 - Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document Location [Core]  <!-- UUID: b75109cc-9cce-4831-ac8a-995d7d145383 -->
+###### A.6.1.1.2.2.6.1.1.2.1.7.2 - Ethereum Mainnet - Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document Location [Core]  <!-- UUID: b75109cc-9cce-4831-ac8a-995d7d145383 -->
 
 This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document](27f06e65-8397-449a-b002-abaa0416badc).
 
@@ -31534,14 +31576,6 @@ The withdrawal rate limits are:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 694b0873-89ee-4919-98cb-3fe2866460d2 -->
-
-The maximum exposure for this Instance is 100 million USDS.
-
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.5.2 - Capital Requirement Ratio [Core]  <!-- UUID: 9de13260-0e24-4c64-9a2e-f3adaabeb4aa -->
-
-The CRR for this Instance is 5%.
-
 ###### A.6.1.1.2.2.6.1.3.1.7.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 3076a14b-eadb-4d3b-87d3-c8ff7e17c420 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
@@ -32057,15 +32091,15 @@ The current `maxAmount` and `slope` for this conduit’s inflow and outflow are 
 
 The deposit rate limits are:
 
-- `maxAmount`: 100,000,000 USDC
-- `slope`: 10,000,000 USDC per day
+- `maxAmount`: 10,000,000 USDC
+- `slope`: 100,000,000 USDC per day
 
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: ce3f0a10-568d-4525-b69d-1669c3cb2e8c -->
 
 The withdrawal rate limits are:
 
-- `maxAmount`: 100,000,000 AUSD
-- `slope`: 10,000,000 AUSD per day
+- `maxAmount`: 10,000,000 AUSD
+- `slope`: 100,000,000 AUSD per day
 
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: b13534e8-3758-4255-8c2d-60520fa36ed5 -->
 
@@ -32156,14 +32190,6 @@ The withdrawal rate limits are:
 ###### A.6.1.1.2.2.6.1.3.1.12.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: ad810569-b88a-4d10-9563-cc0e2cfb27f4 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.2.2.6.1.3.1.12.1.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 87167953-c122-4840-ae33-45843bc8204b -->
-
-The maximum exposure for this Instance is 100 million USDS.
-
-###### A.6.1.1.2.2.6.1.3.1.12.1.2.5.2 - Capital Requirement Ratio [Core]  <!-- UUID: 7a00985a-57b8-45df-9b31-cebc543786a4 -->
-
-The CRR for this Instance is 3%.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 53743f66-97ba-44ed-b386-b0ab75d9b8e4 -->
 
@@ -33691,7 +33717,7 @@ The documents herein contain all data and specifications for Keel’s Instance o
 
 ###### A.6.1.1.3.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 16c06503-ed5a-4dbc-aa30-9417ca0840ad -->
 
-The documents herein organize all base information relevant to Launch Agent 2’s usage of the Distribution Requirement Primitive.
+The documents herein organize all base information relevant to Keel’s usage of the Distribution Requirement Primitive.
 
 ###### A.6.1.1.3.2.3.1.1.1 - Global Activation Status [Core]  <!-- UUID: 067c779a-34c6-4843-96b9-17f868f062de -->
 
@@ -33743,7 +33769,7 @@ The documents herein define the parameters of the Single Instance of the Distrib
 
 ###### A.6.1.1.3.2.3.1.2.1.1.1 - Terms [Core]  <!-- UUID: 3ef3d779-a66e-44f3-9192-6c3a5a5ca971 -->
 
-Launch Agent 2 will buy back and distribute 0.25% of its total token supply per year.
+Keel will buy back and distribute 0.25% of its total token supply per year.
 
 ###### A.6.1.1.3.2.3.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: f9ff9c94-1a3d-4bc6-b2a4-40f9af76b0ac -->
 
@@ -33759,7 +33785,7 @@ This document defines the protocol for routine ongoing management of the Single 
 
 ###### A.6.1.1.3.2.3.1.2.1.2.1.1 - Process Definition For Buy Back And Distribution Obligation [Core]  <!-- UUID: f8f8cbf6-75e0-4dbb-b617-f44bc8cc9d8d -->
 
-The process to buy back and distribute 0.25% of Launch Agent 2’s tokens per year will be specified in future iterations of the Launch Agent 2 Artifact.
+The process to buy back and distribute 0.25% of Keel’s tokens per year will be specified in future iterations of the Keel Artifact.
 
 ###### A.6.1.1.3.2.3.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 7080e7d9-2c7e-4cf8-ad5a-4e3bf65b6d10 -->
 
@@ -33795,11 +33821,11 @@ Because the Distribution Requirement Primitive is deployed only once, no further
 
 ###### A.6.1.1.3.2.3.2 - Market Cap Fee Primitive [Core]  <!-- UUID: f87ddb13-cc78-492d-ad85-e645c93b93fc -->
 
-The documents herein contain all data and specifications for Launch Agent 2’s Instances of the Market Cap Fee Primitive. See [A.2.2.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
+The documents herein contain all data and specifications for Keel’s Instances of the Market Cap Fee Primitive. See [A.2.2.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
 ###### A.6.1.1.3.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 8ed7cb64-d660-4451-a999-54a6f24e0fe2 -->
 
-The documents herein organize all base information relevant to Launch Agent 2’s usage of the Market Cap Fee Primitive.
+The documents herein organize all base information relevant to Keel’s usage of the Market Cap Fee Primitive.
 
 ###### A.6.1.1.3.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 6b0c2885-919e-4c5e-8c05-9c12a5fdbcf1 -->
 
@@ -33847,11 +33873,11 @@ The in progress Invocations of the Market Cap Fee Primitive are contained herein
 
 ###### A.6.1.1.3.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: 354f14b7-2263-45f6-8f27-9897b25d65df -->
 
-The documents herein contain all data and specifications for Launch Agent 2’s Instance of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
+The documents herein contain all data and specifications for Keel’s Instance of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
 ###### A.6.1.1.3.2.3.3.1 - Primitive Hub Document [Core]  <!-- UUID: b8dba4a4-069a-466a-843c-61f676c3be7e -->
 
-The documents herein organize all base information relevant to Launch Agent 2’s usage of the Upkeep Rebate Primitive.
+The documents herein organize all base information relevant to Keel’s usage of the Upkeep Rebate Primitive.
 
 ###### A.6.1.1.3.2.3.3.1.1 - Global Activation Status [Core]  <!-- UUID: f3c3f998-4abc-4c15-95bd-905a9dcf1897 -->
 
@@ -33909,17 +33935,17 @@ The documents herein define the process for the ongoing management of the Single
 
 This document defines the protocol for routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.3.2.3.3.2.1.2.1.1 - Launch Agent 2 Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 06cd14d5-0f55-4ac0-8d9d-f9060e0fcc1b -->
+###### A.6.1.1.3.2.3.3.2.1.2.1.1 - Keel Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 06cd14d5-0f55-4ac0-8d9d-f9060e0fcc1b -->
 
-Launch Agent 2 keeps all tokens of other Agents it holds in its SubProxy account.
+Keel keeps all tokens of other Agents it holds in its SubProxy account.
 
-###### A.6.1.1.3.2.3.3.2.1.2.1.2 - Launch Agent 2 Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: 20ccbfff-9058-47e5-a2d5-893d5bf783b6 -->
+###### A.6.1.1.3.2.3.3.2.1.2.1.2 - Keel Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: 20ccbfff-9058-47e5-a2d5-893d5bf783b6 -->
 
-When paying Ecosystem Upkeep fees, Launch Agent 2 deducts the rebate from the fees it pays.
+When paying Ecosystem Upkeep fees, Keel deducts the rebate from the fees it pays.
 
 ###### A.6.1.1.3.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 77ad2a49-8fa6-499b-bd26-b9fdef57fded -->
 
-Operational GovOps reviews Launch Agent 2’s calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Launch Agent 2 Prime" category and work with Launch Agent 2 to resolve the disagreement. If Operational GovOps and Launch Agent 2 cannot resolve the disagreement, it must be escalated to Core GovOps
+Operational GovOps reviews Keel’s calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Keel Prime" category and work with Keel to resolve the disagreement. If Operational GovOps and Keel cannot resolve the disagreement, it must be escalated to Core GovOps
 
 ###### A.6.1.1.3.2.3.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 4fb94d9f-fc15-4823-bab7-fb35f1247bb7 -->
 
@@ -33955,15 +33981,15 @@ Because the Upkeep Rebate Primitive is deployed only once, no further Instances 
 
 ###### A.6.1.1.3.2.4 - SkyLink Primitives [Core]  <!-- UUID: c81714a3-e1c6-423a-bf54-6456fcb88112 -->
 
-The documents herein implement the SkyLink Primitives for Launch Agent 2. See [A.2.2.7 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
+The documents herein implement the SkyLink Primitives for Keel. See [A.2.2.7 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
 
 ###### A.6.1.1.3.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: 016fd32e-a2db-45d0-8893-739bdacf1c2f -->
 
-The documents herein contain all data and specifications for Launch Agent 2’s Instances of the Token SkyLink Primitive. See [A.2.2.7.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
+The documents herein contain all data and specifications for Keel’s Instances of the Token SkyLink Primitive. See [A.2.2.7.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
 
 ###### A.6.1.1.3.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: b9c869ff-73ed-4b30-bc1a-33c6875524aa -->
 
-The documents herein organize all base information relevant to Launch Agent 2’s usage of the Token SkyLink Primitive.
+The documents herein organize all base information relevant to Keel’s usage of the Token SkyLink Primitive.
 
 ###### A.6.1.1.3.2.4.1.1.1 - Global Activation Status [Core]  <!-- UUID: 4dc84081-55f8-4ab0-aecf-f02c90bfb969 -->
 
@@ -34011,15 +34037,15 @@ The in progress Invocations of the Token SkyLink Primitive are contained herein.
 
 ###### A.6.1.1.3.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: e72378f0-3ee3-452b-8af3-a7ef31f619fe -->
 
-The documents herein implement the Demand Side Stablecoin Primitives for Launch Agent 2. See [A.2.2.8 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
+The documents herein implement the Demand Side Stablecoin Primitives for Keel. See [A.2.2.8 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
 
 ###### A.6.1.1.3.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: 9ec308ad-b010-4f2d-ac33-eb56f1236493 -->
 
-The documents herein contain all data and specifications for Launch Agent 2’s Instances of the Distribution Reward Primitive. See [A.2.2.8.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
+The documents herein contain all data and specifications for Keel’s Instances of the Distribution Reward Primitive. See [A.2.2.8.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
 
 ###### A.6.1.1.3.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: b6b85415-c331-41b9-847e-4c5173528ca8 -->
 
-The documents herein organize all base information relevant to Launch Agent 2’s usage of the Distribution Reward Primitive.
+The documents herein organize all base information relevant to Keel’s usage of the Distribution Reward Primitive.
 
 ###### A.6.1.1.3.2.5.1.1.1 - Global Activation Status [Core]  <!-- UUID: 9e1fc932-ba41-43fb-a63f-c3011020669f -->
 
@@ -34067,11 +34093,11 @@ The in progress Invocations of the Distribution Reward Primitive are contained h
 
 ###### A.6.1.1.3.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: 6319e8b0-577c-4d08-92af-8332fde7e553 -->
 
-The documents herein contain all data and specifications for Launch Agent 2’s Instances of the Integration Boost Primitive. See [A.2.2.8.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
+The documents herein contain all data and specifications for Keel’s Instances of the Integration Boost Primitive. See [A.2.2.8.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
 
 ###### A.6.1.1.3.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: 18b58761-8afa-44e0-824d-32d4c85b429e -->
 
-The documents herein organize all base information relevant to Launch Agent 2’s usage of the Integration Boost Primitive.
+The documents herein organize all base information relevant to Keel’s usage of the Integration Boost Primitive.
 
 ###### A.6.1.1.3.2.5.2.1.1 - Global Activation Status [Core]  <!-- UUID: 8a49aa6e-8451-4773-82b9-17c59d3a8931 -->
 
@@ -34177,11 +34203,11 @@ The documents herein define the process for the ongoing management of the Kamino
 
 This document defines the protocol for routine ongoing management of the Kamino Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.2.2.4 - Instance Ongoing Management Protocol](805381e5-89e7-4fb9-bda7-a97e84b531ba), subject to the qualifications specified in [A.2.2.8.2.2.1.3.2.1 - Near Term Process](4ab621b4-ef8e-4b01-a6aa-9296601033c5). 
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 2 Artifact, a version of the full process definition customized to Launch Agent 2 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Keel Artifact, a version of the full process definition customized to Keel will be included herein.
 
 ###### A.6.1.1.3.2.5.2.2.1.2.1.1 - Agent Customizations [Core]  <!-- UUID: 3872c2ee-5465-4ce1-8c34-3800e61fd674 -->
 
-The Launch Agent 2 Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+The Keel Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
 
 [No customization presently.]
 
@@ -34268,11 +34294,11 @@ The documents herein define the process for the ongoing management of the Drift 
 
 This document defines the protocol for routine ongoing management of the Drift Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.2.2.4 - Instance Ongoing Management Protocol](805381e5-89e7-4fb9-bda7-a97e84b531ba), subject to the qualifications specified in [A.2.2.8.2.2.1.3.2.1 - Near Term Process](4ab621b4-ef8e-4b01-a6aa-9296601033c5). 
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 2 Artifact, a version of the full process definition customized to Launch Agent 2 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Keel Artifact, a version of the full process definition customized to Keel will be included herein.
 
 ###### A.6.1.1.3.2.5.2.2.2.2.1.1 - Agent Customizations [Core]  <!-- UUID: 072498cd-35c7-4e12-a2f7-3c6462257ed3 -->
 
-The Launch Agent 2 Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+The Keel Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
 
 [No customization presently.]
 
@@ -34359,11 +34385,11 @@ The documents herein define the process for the ongoing management of the Save I
 
 This document defines the protocol for routine ongoing management of the Save Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.2.2.4 - Instance Ongoing Management Protocol](805381e5-89e7-4fb9-bda7-a97e84b531ba), subject to the qualifications specified in [A.2.2.8.2.2.1.3.2.1 - Near Term Process](4ab621b4-ef8e-4b01-a6aa-9296601033c5). 
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 2 Artifact, a version of the full process definition customized to Launch Agent 2 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Keel Artifact, a version of the full process definition customized to Keel will be included herein.
 
 ###### A.6.1.1.3.2.5.2.2.3.2.1.1 - Agent Customizations [Core]  <!-- UUID: e5ffb0b8-fd9d-4932-b8fa-1ebcc2cbb0d2 -->
 
-The Launch Agent 2 Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+The Keel Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
 
 [No customization presently.]
 
@@ -36986,15 +37012,15 @@ The in progress Invocations of the Core Governance Reward Primitive are containe
 
 ##### A.6.1.1.3.3 - Omni Documents [Core]  <!-- UUID: bafbbf28-95dc-41a4-9c55-f3befde4e991 -->
 
-The documents herein define Launch Agent 2’s strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
+The documents herein define Keel’s strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
 
 ###### A.6.1.1.3.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: 1889a2a0-7378-487a-a278-aabe3177efff -->
 
-The documents herein specify Launch Agent 2 governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Launch Agent 2 Artifact is specified in the Root Edit Primitive above at [A.6.1.1.3.2.2.2 - Root Edit Primitive](3d02dcbc-6a31-4f63-b464-c8c3ecebb744).
+The documents herein specify Keel governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Keel Artifact is specified in the Root Edit Primitive above at [A.6.1.1.3.2.2.2 - Root Edit Primitive](3d02dcbc-6a31-4f63-b464-c8c3ecebb744).
 
 ###### A.6.1.1.3.3.1.1 - Sky Forum [Core]  <!-- UUID: 63fec69d-a4df-42c3-bb5f-b959e711df56 -->
 
-Launch Agent 2 uses the Sky Forum for governance-related discussion. Posts should use the "Launch Agent 2 Prime" category.
+Keel uses the Sky Forum for governance-related discussion. Posts should use the "Keel Prime" category.
 
 ###### A.6.1.1.3.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: 8613cc87-2809-4716-8c91-93ff0345f7a8 -->
 
@@ -37006,7 +37032,7 @@ The documents herein specify Keel’s emergency response protocol in situations 
 
 ###### A.6.1.1.3.3.2 - Use Of Idle Funds [Core]  <!-- UUID: 41ad175e-48c8-4caf-8cb7-638f90ff0ad6 -->
 
-In the short term prior to Launch Agent 2's implementation of the Allocation System Primitive, Keel may invest idle funds in low-risk decentralized finance opportunities, including providing liquidity to established lending protocols on Solana. These deployments will be subject to the approval of Operational GovOps.
+In the short term prior to Keel's implementation of the Allocation System Primitive, Keel may invest idle funds in low-risk decentralized finance opportunities, including providing liquidity to established lending protocols on Solana. These deployments will be subject to the approval of Operational GovOps.
 
 ###### A.6.1.1.3.3.3 - Ecosystem Accords [Core]  <!-- UUID: e2db688f-a6f1-476a-b7da-dd67d94da35b -->
 
@@ -39954,7 +39980,7 @@ The source of capital for Skybase’s USDS Demand Subsidies is the Skybase Treas
 
 ###### A.6.1.1.4.3.4.2 - USDS Demand Subsidies Multisig [Core]  <!-- UUID: 20ee784c-115a-40bb-ae74-d4b3726b0c1b -->
 
-The USDS Demand Subsidies Multisig is controlled by 3 signers from Operational GovOps Soter Labs.
+he USDS Demand Subsidies Multisig is controlled by two (2) signers from Operational GovOps Soter Labs and one (1) signer from Skybase Foundation.
 
 ###### A.6.1.1.4.3.4.2.1 - Address [Core]  <!-- UUID: 615835d8-475b-48f6-9e0f-bcaf041a63ff -->
 
@@ -39967,7 +39993,9 @@ The USDS Demand Subsidies Multisig currently has a 2/3 signing requirement.
 ###### A.6.1.1.4.3.4.2.3 - Signers [Core]  <!-- UUID: dbb22ec2-97fc-47c1-85d3-9b1cc94d3ce0 -->
 
 The USDS Demand Subsidies Multisig has the following signers:
-SoterLabs (SL): 3 signers
+
+- Soter Labs: 2 signers
+- Skybase Foundation: 1 signer
 
 ###### A.6.1.1.4.3.4.2.4 - Usage Standards [Core]  <!-- UUID: 0d896655-0d03-4c73-b164-3f59668256dd -->
 
@@ -39975,7 +40003,7 @@ The signers must use the USDS Demand Subsidies Multisig to disburse funds on beh
 
 ###### A.6.1.1.4.3.4.2.5 - Modification [Core]  <!-- UUID: 665ca5c5-ca1b-471a-9a10-16c46ee10cfd -->
 
-Operational GovOps Soter Labs can change the signers of the USDS Demand Subsidies Multisig at any time, so long as there are at least three (3) signers and at least two-thirds of signers are required to execute transactions.
+Operational GovOps Soter Labs can change the signers of the USDS Demand Subsidies Multisig at any time, so long as there are at least two (2) signers from Soter Labs and one (1) signer from Skybase Foundation, and at least two-thirds of signers are required to execute transactions.
 
 #### A.6.1.1.5 - Obex [Core]  <!-- UUID: f558e673-cbab-4696-8ca1-3af9b90fe5d4 -->
 
@@ -45137,6 +45165,14 @@ The documents herein define Launch Agent 6's strategic intent and operational pr
 
 The documents herein specify Launch Agent 6 governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Launch Agent 6 Artifact is specified in the Root Edit Primitive above at Root Edit Primitive.
 
+###### A.6.1.1.7.3.2 - Ecosystem Accords [Core]  <!-- UUID: e5440d4f-c17a-4269-9e45-68f324046c84 -->
+
+ Launch Agent 6 has formally agreed to the Ecosystem Accords herein.
+
+ ###### A.6.1.1.7.3.2.1 - Ecosystem Accord 6 [Core]  <!-- UUID: e80f76d8-ab4e-44be-a649-4bb742d8e149 -->
+
+ Launch Agent 6 engaged in terms of agreement with Sky in Ecosystem Accord 6, located in [A.2.8.2.6 - Ecosystem Accord 6: Sky And Launch Agent 6](45125ff8-5435-4cbf-9b20-9f55a1dbc883).
+
 ###### A.6.1.1.7.3.1.1 - Sky Forum [Core]  <!-- UUID: 05e36f80-32a1-4181-a98d-feabd2839e50 -->
 
 Launch Agent 6 uses the Sky Forum for governance-related discussion. Posts should use the "Launch Agent 6 Prime" category.
@@ -45152,3 +45188,40 @@ The documents herein specify Launch Agent 6's emergency response protocol in sit
 ### A.6.1.2 - List Of Executor Agent Artifacts [Section]  <!-- UUID: df62511d-afe5-42db-8bd4-6452c5a0f464 -->
 
 The documents herein each set out the Artifacts for Executor Agents. Executor Agent Artifacts contain all rules, processes, parameters, and information relevant to the Agent.
+
+### A.6.1.2.1 - Operational Executor Agent Amatsu [Core]  <!-- UUID: dc57df14a-fde0-43f3-89ed-c2e4981d6bd5 -->
+
+The Agent Artifact for Amatsu will be specified in a future iteration of the Atlas. In the interim, the subdocuments herein contain key information regarding Amatsu.
+
+### A.6.1.2.1.1 - Operational Executor Facilitator [Core]  <!-- UUID: a874a419-1191-4a48-b97c-c91cfedf378c -->
+
+The Operational Facilitator for Amatsu is Endgame Edge.
+
+### A.6.1.2.1.2 - Operational GovOps [Core]  <!-- UUID: 66845ee6-4405-4ed8-bb22-4a7558e63a52 -->
+
+Operational GovOps for Amatsu is Amatsu GovOps.
+
+### A.6.1.2.2 - Operational Executor Agent Ozone [Core]  <!-- UUID: 565660dd-7850-4c3a-8dba-554542bf103a -->
+
+The Agent Artifact for Ozone will be specified in a future iteration of the Atlas. In the interim, the subdocuments herein contain key information regarding Ozone.
+
+### A.6.1.2.2.1 - Operational Executor Facilitator [Core]  <!-- UUID: d282ccb9-82f8-46da-9180-e15e5714bb88 -->
+
+The Operational Facilitator for Ozone is Redline Facilitation Group.
+
+### A.6.1.2.2.2 - Operational GovOps [Core]  <!-- UUID: a491d7d0-3e0b-4b6f-a9a7-25b19b6f7117 -->
+
+Operational GovOps for Ozone is Soter Labs.
+
+### A.6.1.2.3 - Core Council Executor Agent 1 [Core]  <!-- UUID: 12b14e05-159b-4e71-822b-7dd2c17c3358 -->
+
+The Agent Artifact for Core Council Executor Agent 1 will be specified in a future iteration of the Atlas. In the interim, the subdocuments herein contain key information regarding Core Council Executor Agent 1.
+
+### A.6.1.2.3.1 - Operational Executor Facilitator [Core]  <!-- UUID: 8cfee319-727d-459b-ae67-cac3bec157d9 -->
+
+ The Facilitator for Core Council Executor Agent 1 is JanSky.
+
+### A.6.1.2.3.2 - Operational GovOps [Core]  <!-- UUID: 3b9b8910-e26b-4bc3-9889-7ee18bdc94f1 -->
+
+GovOps for Core Council Executor Agent 1 is Atlas Axis.
+
