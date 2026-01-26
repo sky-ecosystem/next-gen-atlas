@@ -13201,13 +13201,13 @@ The documents herein define the Instance Financial CRR applied to specific Morph
 The CRRs for the following market allocations in the vault are:
 
 - PT-USDe / USDC – LLTV: 91.5%
-    - CRR = 4%
+  - CRR = 4%
 - PT-sUSDe / USDC – LLTV: 91.5%
-    - CRR = 4%
+  - CRR = 4%
 - PT-cUSD0 / USDC – LLTV: 91.5%
-    - CRR = 1%
+  - CRR = 1%
 - mF-One / USDC – LLTV: 91.5%
-    - CRR = 100%
+  - CRR = 100%
 
 ###### A.3.2.2.1.1.1.1.3.8.2 - Morpho Grove x Steakhouse High Yield AUSD Vault  [Core]  <!-- UUID: b9a27ec8-26fd-469b-8963-1e03e9a73ff6 -->
 
