@@ -39980,7 +39980,7 @@ The source of capital for Skybase’s USDS Demand Subsidies is the Skybase Treas
 
 ###### A.6.1.1.4.3.4.2 - USDS Demand Subsidies Multisig [Core]  <!-- UUID: 20ee784c-115a-40bb-ae74-d4b3726b0c1b -->
 
-he USDS Demand Subsidies Multisig is controlled by two (2) signers from Operational GovOps Soter Labs and one (1) signer from Skybase Foundation.
+The USDS Demand Subsidies Multisig is controlled by two (2) signers from Operational GovOps Soter Labs and one (1) signer from Skybase Foundation.
 
 ###### A.6.1.1.4.3.4.2.1 - Address [Core]  <!-- UUID: 615835d8-475b-48f6-9e0f-bcaf041a63ff -->
 
