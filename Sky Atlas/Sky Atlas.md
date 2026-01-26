@@ -11503,7 +11503,7 @@ The Initial Allocation is distributed in USDS to the Launch Agent 6 SubProxy.
 
 Sky has transferred 500,000 USDS from the Core Council Buffer to the Launch Agent 6 Foundation.
 
-The address of the Launch Agent 6 Foundation on the Ethereum Mainnet is `0xfdd055d3ccee0d955031cf1fd76c8db9317ccc58`.
+The address of the Launch Agent 6 Foundation on the Ethereum Mainnet is `0xfDD055D3CCEE0D955031CF1FD76c8Db9317cCC58`.
 
 ###### A.2.8.2.6.2.2.2.2 - Transfer Of Genesis Capital Allocation To Launch Agent 6 SubProxy [Core]  <!-- UUID: 65638659-eb0d-4e5c-87e8-50705e3595b8 -->
 
