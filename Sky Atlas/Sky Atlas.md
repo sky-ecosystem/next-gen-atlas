@@ -13211,11 +13211,11 @@ The CRRs for the following market allocations in the vault are:
 
 ###### A.3.2.2.1.1.1.1.3.8.2 - Morpho Grove x Steakhouse High Yield AUSD Vault  [Core]  <!-- UUID: b9a27ec8-26fd-469b-8963-1e03e9a73ff6 -->
 
- Allocation to the Agora AUSD Morpho Vault on Monad via FalconX has an Instance Financial CRR of 5%. Total combined FalconX allocations must not exceed 100,000,000 USDS.
+Allocation to the Agora AUSD Morpho Vault on Monad via FalconX has an Instance Financial CRR of 5%. Total combined FalconX allocations must not exceed 100,000,000 USDS.
 
  ###### A.3.2.2.1.1.1.1.3.9 - Uniswap V3 [Core]  <!-- UUID: 200cd606-26e9-427e-b965-976e7140a976 -->
 
- Allocation to the AUSD / USDC Uniswap v3 pool via FalconX on Monad has a CRR of 3%. Total combined FalconX allocations must not exceed 100,000,000 USDS.
+Allocation to the AUSD / USDC Uniswap v3 pool via FalconX on Monad has a CRR of 3%. Total combined FalconX allocations must not exceed 100,000,000 USDS.
 
 ###### A.3.2.2.1.1.1.1.4 - Reference Implementation [Core]  <!-- UUID: e96da090-34ff-4445-a1d3-22cc69be2e51 -->
 
@@ -45167,11 +45167,11 @@ The documents herein specify Launch Agent 6 governance information that is unrel
 
 ###### A.6.1.1.7.3.2 - Ecosystem Accords [Core]  <!-- UUID: e5440d4f-c17a-4269-9e45-68f324046c84 -->
 
- Launch Agent 6 has formally agreed to the Ecosystem Accords herein.
+Launch Agent 6 has formally agreed to the Ecosystem Accords herein.
 
- ###### A.6.1.1.7.3.2.1 - Ecosystem Accord 6 [Core]  <!-- UUID: e80f76d8-ab4e-44be-a649-4bb742d8e149 -->
+###### A.6.1.1.7.3.2.1 - Ecosystem Accord 6 [Core]  <!-- UUID: e80f76d8-ab4e-44be-a649-4bb742d8e149 -->
 
- Launch Agent 6 engaged in terms of agreement with Sky in Ecosystem Accord 6, located in [A.2.8.2.6 - Ecosystem Accord 6: Sky And Launch Agent 6](45125ff8-5435-4cbf-9b20-9f55a1dbc883).
+Launch Agent 6 engaged in terms of agreement with Sky in Ecosystem Accord 6, located in [A.2.8.2.6 - Ecosystem Accord 6: Sky And Launch Agent 6](45125ff8-5435-4cbf-9b20-9f55a1dbc883).
 
 ###### A.6.1.1.7.3.1.1 - Sky Forum [Core]  <!-- UUID: 05e36f80-32a1-4181-a98d-feabd2839e50 -->
 
@@ -45217,11 +45217,10 @@ Operational GovOps for Ozone is Soter Labs.
 
 The Agent Artifact for Core Council Executor Agent 1 will be specified in a future iteration of the Atlas. In the interim, the subdocuments herein contain key information regarding Core Council Executor Agent 1.
 
-##### A.6.1.2.3.1 - Operational Executor Facilitator [Core]  <!-- UUID: 8cfee319-727d-459b-ae67-cac3bec157d9 -->
+##### A.6.1.2.3.1 - Core Executor Facilitator [Core]  <!-- UUID: 8cfee319-727d-459b-ae67-cac3bec157d9 -->
 
- The Facilitator for Core Council Executor Agent 1 is JanSky.
+The Facilitator for Core Council Executor Agent 1 is JanSky.
 
-##### A.6.1.2.3.2 - Operational GovOps [Core]  <!-- UUID: 3b9b8910-e26b-4bc3-9889-7ee18bdc94f1 -->
+##### A.6.1.2.3.2 - Core GovOps [Core]  <!-- UUID: 3b9b8910-e26b-4bc3-9889-7ee18bdc94f1 -->
 
 GovOps for Core Council Executor Agent 1 is Atlas Axis.
-
