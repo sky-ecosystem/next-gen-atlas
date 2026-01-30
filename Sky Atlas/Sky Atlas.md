@@ -42570,7 +42570,7 @@ The documents herein specify all of the logic for Pattern, including Pattern's s
 
 ##### A.6.1.1.6.1 - Introduction [Core]  <!-- UUID: b137d591-a3a2-482a-a18e-d4ff447964cf -->
 
-Pattern is an Agent creating a seamless financing experience by bridging the vast pool of digital liquidity with real-world credit demand. Pattern credit facilities are delivered to neobanks and fintechs through a model that combines cost savings and a more intuitive borrower experience. The platform abstracts the complexity of DeFi and packages it into a product borrowers are used to. Pattern creates vaults enterprises can plug into, payment flows they can embed, and capital they can access in real time.
+Pattern is an Agent providing on-chain liquidity to on-chain and off-chain credit opportunities. Pattern will support new Halo projects focused on both traditional credit and decentralized lending.
 
 ##### A.6.1.1.6.2 - Sky Primitives [Core]  <!-- UUID: 42740824-41c4-49f1-9b59-177aa36ecc9d -->
 
@@ -42646,13 +42646,21 @@ The name of the Agent is Pattern.
 
 ###### A.6.1.1.6.2.1.1.3.1.1.2 - SubProxy Account [Core]  <!-- UUID: 9703d0ef-84c9-445b-a2b4-bfe9d24363f0 -->
 
-The address of Pattern's SubProxy Account will be specified in a future iteration of the Pattern Artifact.
+The address of Pattern's SubProxy Account on the Ethereum Mainnet is `0xbC8959Ae2d4E9B385Fe620BEF48C2FD7f4A84736`.
 
-###### A.6.1.1.6.2.1.1.3.1.1.3 - Genesis Account [Core]  <!-- UUID: f2c22b75-0ad5-4a7c-be15-d7f0a2d0af89 -->
+###### A.6.1.1.6.2.1.1.3.1.1.3 - StarGuard Contract [Core]  <!-- UUID: 16b680a4-27f8-457a-acb5-f6c6e8d29d4d -->
+
+The address of Pattern’s StarGuard contract on the Ethereum Mainnet is `0x2fb18b28fB39Ec3b26C3B5AF5222e2ca3B8B2269`.
+
+###### A.6.1.1.6.2.1.1.3.1.1.3.1 - StarGuard Max Delay [Core]  <!-- UUID: 5a466516-e901-4490-8d7c-22a31c82902c -->
+
+The Pattern StarGuard `maxDelay` is seven (7) days.
+
+###### A.6.1.1.6.2.1.1.3.1.1.4 - Genesis Account [Core]  <!-- UUID: f2c22b75-0ad5-4a7c-be15-d7f0a2d0af89 -->
 
 The address of Pattern's Genesis Account will be specified in a future iteration of the Pattern Artifact.
 
-###### A.6.1.1.6.2.1.1.3.1.1.4 - Custom Instance Parameters [Core]  <!-- UUID: 3eaa6b51-8d31-4ac9-b171-ee234a67efcd -->
+###### A.6.1.1.6.2.1.1.3.1.1.5 - Custom Instance Parameters [Core]  <!-- UUID: 3eaa6b51-8d31-4ac9-b171-ee234a67efcd -->
 
 The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
 
@@ -43754,15 +43762,47 @@ The subtrees for failed Invocations of the Allocation System Primitive are store
 
 The subtrees for Instances of the Allocation System Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.6.2.6.1.2 - Active Instances [Core]  <!-- UUID: 5050f24e-45b1-4032-adf7-319235cdb6b9 -->
+###### A.6.1.1.6.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: d02fc174-54ea-4336-8f61-99f530ea533b -->
+
+The documents herein provide general specifications of the Pattern Liquidity Layer and define Pattern’s overarching strategy and operational framework for managing across all Instances.
+
+###### A.6.1.1.6.2.6.1.2.1 - General Specifications [Core]  <!-- UUID: 45faacc7-d61e-4446-9900-d1aa2bb2280e -->
+
+The documents herein contain general specifications for the Pattern Liquidity Layer.
+
+###### A.6.1.1.6.2.6.1.2.1.1 - Pattern Liquidity Layer Architecture [Core]  <!-- UUID: 73d09dec-c8d4-425c-9d54-2ef73a82d6b9 -->
+
+The documents herein describe the high-level design of the Pattern Liquidity Layer, including its key smart contracts and their functionality.
+
+###### A.6.1.1.6.2.6.1.2.1.1.1 - Pattern Liquidity Layer Addresses [Core]  <!-- UUID: 440cb15b-0421-444a-aa3b-fc14a3f11026 -->
+
+The subdocuments herein provide the addresses of the Pattern Liquidity Layer’s constituent contracts.
+
+###### A.6.1.1.6.2.6.1.2.1.1.1.1 - Allocator Contract Addresses [Core]  <!-- UUID: b64940f7-ae82-49c7-84ae-0019aff1d7f7 -->
+
+The documents herein contain global key addresses for the Allocator Contracts.
+
+###### A.6.1.1.6.2.6.1.2.1.1.1.1.1 - Ethereum Mainnet [Core]  <!-- UUID: 54c9cfe2-b5d7-425b-a9ee-bf6901066437 -->
+
+The documents herein contain the Allocator Contract Addresses on the Ethereum Mainnet.
+
+###### A.6.1.1.6.2.6.1.2.1.1.1.1.1.1 - Allocator Buffer Contract [Core]  <!-- UUID: deb0a2c0-4a6c-403b-b9b4-79803de4fea8 -->
+
+The address of the ALLOCATOR_BUFFER contract is: `0x823459b55D79F0421f24a4828237F7ecb8D7F1ef`.
+
+###### A.6.1.1.6.2.6.1.2.1.1.1.1.1.2 - Allocator Vault Contract [Core]  <!-- UUID: 5ee30a61-2280-4744-8f8f-eb5c5fd56682 -->
+
+The address of the ALLOCATOR_VAULT (ALLOCATOR-PATTERN-A) contract is: `0xbd34fc6AAa1d3F52B314CB9D78023dd23eAc3B0E`.
+
+###### A.6.1.1.6.2.6.1.3 - Active Instances [Core]  <!-- UUID: 5050f24e-45b1-4032-adf7-319235cdb6b9 -->
 
 The Instances of the Allocation System Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.6.2.6.1.3 - Completed Instances [Core]  <!-- UUID: f7a6d433-9be9-4140-89b4-eacf579522e4 -->
+###### A.6.1.1.6.2.6.1.4 - Completed Instances [Core]  <!-- UUID: f7a6d433-9be9-4140-89b4-eacf579522e4 -->
 
 The Instances of the Allocation System Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.6.2.6.1.4 - In Progress Invocations [Core]  <!-- UUID: 1899ca65-7192-4881-b75d-21712af70e3c -->
+###### A.6.1.1.6.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: 1899ca65-7192-4881-b75d-21712af70e3c -->
 
 The in progress Invocations of the Allocation System Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to Active Instances.
 
