@@ -4679,7 +4679,7 @@ Any operator that fails to follow the defined procedures for a BEAM they are ope
 
 ###### A.1.9.3.2.10.2 - Stability Parameter Bounded External Access Module Exception [Core]  <!-- UUID: 12bb55dc-8f44-4f7a-a7f8-bf197a278784 -->
 
-The Stability Parameter Bounded External Access Module (SP-BEAM) MCD_SPBEAM contract manages the rates applied to Sky Protocol’s native vaults as well as the savings rates. Whitelisted operators can use the SP-BEAM to modify rates without waiting for the GSM Pause Delay. The SP-BEAM modifies rates up or down within specified parameters. See [A.3.7.1.2 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a). 
+The Stability Parameter Bounded External Access Module (SP-BEAM) MCD_SPBEAM contract manages the rates applied to Sky Protocol’s native vaults as well as the savings rates. Whitelisted operators can use the SP-BEAM to modify rates without waiting for the GSM Pause Delay. The SP-BEAM modifies rates up or down within specified parameters. See [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a). 
 
 This functionality allows the Sky Protocol to react to changes in market rates more quickly than waiting for an Executive Vote and the GSM Pause Delay.
 
@@ -5049,7 +5049,7 @@ This Standby Spell can be used in an emergency to disable the Smart Burn Engine.
 
 ###### A.1.9.5.2.2.4.2 - SPBEAMHaltSpell [Core]  <!-- UUID: 7a151ea1-5fe7-4d2f-901f-071f141abbf9 -->
 
-This Standby Spell can be used in an emergency to disable the Stability Parameter Bounded External Access Module (SP-BEAM). See [A.3.7.1.2 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a). After this Standby Spell is invoked, the SP-BEAM will no longer be able to set rates in the system. Invoking the Standby Spell has no impact on rates, which remain at pre-invocation levels until adjusted by Sky Governance via an Executive Vote.
+This Standby Spell can be used in an emergency to disable the Stability Parameter Bounded External Access Module (SP-BEAM). See [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a). After this Standby Spell is invoked, the SP-BEAM will no longer be able to set rates in the system. Invoking the Standby Spell has no impact on rates, which remain at pre-invocation levels until adjusted by Sky Governance via an Executive Vote.
 
 ##### A.1.9.5.2.3 - Emergency Spells - Standby Spell Process Definition [Core]  <!-- UUID: eeaaa751-cc77-475c-a60f-13a3dcc5e3bb -->
 
@@ -10549,7 +10549,7 @@ The actions specified herein must be completed to achieve Stage 1 implementation
 
 ###### A.2.4.1.2.2.1.3.1 - Reduction Of Prime Allocator Vault Stability Fees [Core]  <!-- UUID: 48ec2b03-0885-45d9-b5f6-22267414f587 -->
 
-The Stability Fees for each Prime Allocator Vault must be reduced to zero so that value is transferred from Primes to Sky Core exclusively through Executive Votes. The Core Executor Agents, in consultation with the Core Council Risk Advisor, is directed to use the Stability Parameter Bounded External Access Module to reduce the Stability Fee for each Prime Allocator Vault to zero. See [A.3.7.1.2.3 - Allocator Vault Parameters](6ab6bd12-93d3-419f-96e2-a7f79bfe1afa).
+The Stability Fees for each Prime Allocator Vault must be reduced to zero so that value is transferred from Primes to Sky Core exclusively through Executive Votes. The Core Executor Agents, in consultation with the Core Council Risk Advisor, is directed to use the Stability Parameter Bounded External Access Module to reduce the Stability Fee for each Prime Allocator Vault to zero. See [A.3.7.1.3.3 - Allocator Vault Parameters](6ab6bd12-93d3-419f-96e2-a7f79bfe1afa).
 
 ###### A.2.4.1.2.2.1.3.2 - Automation Of Simplified Profit And Loss Calculation [Core]  <!-- UUID: 1782eeb8-8c6f-4b34-beea-7ab140057324 -->
 
@@ -11135,7 +11135,7 @@ Sky Governance hereby consents to these grants and authorizes the execution of t
 
 ###### A.2.8.2.2.2.5.6 - Genesis Capital Backstop [Core]  <!-- UUID: 20e8467f-561c-4020-bd26-e6c1601fb64d -->
 
-Each genesis capital allocation is subject to the Genesis Capital Backstop (see [A.3.7.1.5 - Genesis Capital Backstop](a9965d58-8cda-49fc-8a7f-f8cc2e0d6b98)).
+Each genesis capital allocation is subject to the Genesis Capital Backstop (see [A.3.7.1.6 - Genesis Capital Backstop](a9965d58-8cda-49fc-8a7f-f8cc2e0d6b98)).
 
 ###### A.2.8.2.2.2.6 - Intellectual Property [Core]  <!-- UUID: d276499a-2447-4dfb-a62b-4212c3d4b071 -->
 
@@ -12521,7 +12521,7 @@ When setting the Base Rate, the Core Executor Agents must also set all other Cor
 
 #### A.3.1.1.3 - Implementation Of Rate Changes [Core]  <!-- UUID: 21a34a01-87a8-4753-be83-ea452b5d388d -->
 
-The smart contracts that implement all of the Core Stability Parameters must be configured to allow the Core Executor Agents to modify the Core Stability Parameters using the Stability Parameter Bounded External Access Module. See [A.3.7.1.2 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
+The smart contracts that implement all of the Core Stability Parameters must be configured to allow the Core Executor Agents to modify the Core Stability Parameters using the Stability Parameter Bounded External Access Module. See [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
 
 ### A.3.1.2 - Parameters [Section]  <!-- UUID: 86c75c9c-3803-48c1-a897-88d2be7aeb0e -->
 
@@ -12545,7 +12545,7 @@ The Sky Savings Rate is 0.3% below the Base Rate. This difference is equal to th
 
 ##### A.3.1.2.2.2 - Sky Savings Rate Modification [Core]  <!-- UUID: 1c8bb297-52a6-4774-a76d-e457ae5f5862 -->
 
-The Sky Savings Rate can be modified through either Executive Votes or the Stability Parameter Bounded External Access Module. See [A.3.7.1.2 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
+The Sky Savings Rate can be modified through either Executive Votes or the Stability Parameter Bounded External Access Module. See [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
 
 ###### A.3.1.2.2.2.1 - Sky Savings Rate Stability Parameter Bounded External Access Module Parameters [Core]  <!-- UUID: e3a7ca35-0569-4867-bc64-e732622bda21 -->
 
@@ -12553,7 +12553,7 @@ The Stability Parameter Bounded External Access Module parameters for the Sky Sa
 - `max` - 3,000 basis points,
 - `min` - 200 basis points,
 - `step` - 400 basis points,
-- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+- `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
 #### A.3.1.2.3 - Agent Rate [Core]  <!-- UUID: 012c953b-c522-4ea3-939b-3282af4e1d7e -->
 
@@ -12589,7 +12589,7 @@ The Dai Savings Rate ("DSR") is the rate Dai holders can earn on their Dai in th
 
 ##### A.3.1.2.4.1 - Dai Savings Rate Modification [Core]  <!-- UUID: 238d8932-633d-44df-a7ed-0ec5a423cc53 -->
 
-The Dai Savings Rate can be modified through either Executive Votes or the Stability Parameter Bounded External Access Module. See [A.3.7.1.2 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a). 
+The Dai Savings Rate can be modified through either Executive Votes or the Stability Parameter Bounded External Access Module. See [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a). 
 
 The Dai Savings Rate must gradually be reduced to 0% over time.
 
@@ -12599,7 +12599,7 @@ The Stability Parameter Bounded External Access Module parameters for the Dai Sa
 - `max` - 3,000 basis points,
 - `min` - 0 basis points,
 - `step` - 400 basis points,
-- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+- `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
 #### A.3.1.2.5 - Agent Credit Line Borrow Rate [Core]  <!-- UUID: 6b2b7302-e63b-457e-afeb-daab5ca7a7de -->
 
@@ -15796,7 +15796,7 @@ The DC-IAM methodology contained in [A.3.7.1.1.2.4 - Debt Ceiling Instant Access
 
 The Stability Fee parameter is an annual percentage fee charged on the Dai generated on Vaults. It is expressed as an annual percentage yield but it is charged on a per-block basis in Dai. The Dai from this fee is minted, added to the Dai debt for the vault, and then transferred into the Surplus Buffer which is under the control of Sky Governance. Each vault type has its own Stability Fee that can be adjusted independently.
 
-The Stability Fees can be modified through either Executive Votes or the Stability Parameter Bounded External Access Module. See [A.3.7.1.2 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a). 
+The Stability Fees can be modified through either Executive Votes or the Stability Parameter Bounded External Access Module. See [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a). 
 
 The Stability Fees must be gradually increased over time to incentivize users to migrate to SparkLend and other borrowing platforms offered by Prime Agents.
 
@@ -15973,222 +15973,222 @@ Core GovOps, in consultation with the Core Council Risk Advisor, has the ability
 
 The Stability Parameter Bounded External Access Module (SP-BEAM) enables designated, Governance-whitelisted operators to adjust the Stability Fees of supported vault types, the Dai Savings Rate (DSR), and the Sky Savings Rate (SSR). Adjustments are governed by the SP-BEAM smart contract logic and specific parameters set by Sky Governance. SP-BEAM holds four parameters that can be set for each vault type or savings rate: (i) `min`, (ii) `max`, (iii) `step`, and (iv) `tau`.
 
-##### A.3.7.1.2.1 - Definitions [Core]  <!-- UUID: b113ca06-9a25-4abf-81f1-53f419ffe2d2 -->
+##### A.3.7.1.3.1 - Definitions [Core]  <!-- UUID: b113ca06-9a25-4abf-81f1-53f419ffe2d2 -->
 
 The documents herein define the parameters of the Stability Parameter Bounded External Access Module.
 
-###### A.3.7.1.2.1.1 - Min Definition [Core]  <!-- UUID: 1896350c-5f87-4be5-b32f-f1114dc2c271 -->
+###### A.3.7.1.3.1.1 - Min Definition [Core]  <!-- UUID: 1896350c-5f87-4be5-b32f-f1114dc2c271 -->
 
 The `min` parameter defines the minimum value for rates in basis points that can be set using the Stability Parameter Bounded External Access Module. Each rate parameter added to the SP-BEAM has a specific `min`.
 
-###### A.3.7.1.2.1.2 - Max Definition [Core]  <!-- UUID: 67747090-8545-49b4-95e8-673af9836aa5 -->
+###### A.3.7.1.3.1.2 - Max Definition [Core]  <!-- UUID: 67747090-8545-49b4-95e8-673af9836aa5 -->
 
 The `max` parameter defines the maximum value for rates in basis points that can be set using the Stability Parameter Bounded External Access Module. Each rate parameter added to the SP-BEAM has a specific `max`.
 
-###### A.3.7.1.2.1.2.1 - Max Technical Upper Limit [Core]  <!-- UUID: 4e2910c0-fd52-4e18-97e0-2fbd35569070 -->
+###### A.3.7.1.3.1.2.1 - Max Technical Upper Limit [Core]  <!-- UUID: 4e2910c0-fd52-4e18-97e0-2fbd35569070 -->
 
 Although the `max` parameter can be set higher, the SP-BEAM cannot be used to set a rate higher than 50% (5,000 basis points) due to technical limitations. Attempts to use the SP-BEAM in this manner will revert. To avoid confusion, `max` should not be set to a value higher than 50% (5,000 basis points).
 
-###### A.3.7.1.2.1.3 - Step Definition [Core]  <!-- UUID: bcfac0d1-3d17-46e1-bf88-5a7937816d53 -->
+###### A.3.7.1.3.1.3 - Step Definition [Core]  <!-- UUID: bcfac0d1-3d17-46e1-bf88-5a7937816d53 -->
 
 The `step` parameter limits how much the rates can be increased or decreased in a single transaction in basis points, bound by the `tau` parameter. Each rate parameter added to the SP-BEAM has a specific `step`.
 
-###### A.3.7.1.2.1.4 - Tau Definition [Core]  <!-- UUID: 8747effa-1080-4066-89da-4c25121a02ba -->
+###### A.3.7.1.3.1.4 - Tau Definition [Core]  <!-- UUID: 8747effa-1080-4066-89da-4c25121a02ba -->
 
 The `tau` parameter defines the minimum time interval, in seconds, that must elapse between consecutive uses or operations of the Stability Parameter Bounded External Access Module.
 
 An SP-BEAM operation may adjust one or more parameters. Once an SP-BEAM operation is executed, the `tau` duration must expire before any subsequent SP-BEAM operation can be performed.
 
-###### A.3.7.1.2.1.4.1 - Tau Current Value [Core]  <!-- UUID: dd9472e5-9796-4aff-a2b1-7a847e008c9b -->
+###### A.3.7.1.3.1.4.1 - Tau Current Value [Core]  <!-- UUID: dd9472e5-9796-4aff-a2b1-7a847e008c9b -->
 
 The `tau` is currently set to 57,600 seconds (16 hours).
 
-##### A.3.7.1.2.2 - Native Vault Parameters [Core]  <!-- UUID: 968d4388-a655-42ee-bab0-08e6583d1980 -->
+##### A.3.7.1.3.2 - Native Vault Parameters [Core]  <!-- UUID: 968d4388-a655-42ee-bab0-08e6583d1980 -->
 
 The Stability Parameter Bounded External Access Module parameters for the Native Vaults are defined in the subdocuments herein. When new vaults are added to the protocol, they must also be added to the SP-BEAM. Unless specified otherwise within the relevant subdocument herein, the SP-BEAM parameters for any newly added Native Vault type shall default to match the parameters defined herein for the ETH-A vault type.
 
-###### A.3.7.1.2.2.1 - ETH-A Parameters [Core]  <!-- UUID: c9cd99f2-9c40-4b06-94a1-630a26116bce -->
+###### A.3.7.1.3.2.1 - ETH-A Parameters [Core]  <!-- UUID: c9cd99f2-9c40-4b06-94a1-630a26116bce -->
 
 The Stability Parameter Bounded External Access Module parameters for the ETH-A Vault are as follows:
 - `max` - 3,000 basis points,
 - `min` - 200 basis points,
 - `step` - 400 basis points,
-- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+- `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
-###### A.3.7.1.2.2.2 - ETH-B Parameters [Core]  <!-- UUID: 6f28d962-1e40-4753-ab39-865795b349f4 -->
+###### A.3.7.1.3.2.2 - ETH-B Parameters [Core]  <!-- UUID: 6f28d962-1e40-4753-ab39-865795b349f4 -->
 
 The Stability Parameter Bounded External Access Module parameters for the ETH-B Vault are as follows:
 - `max` - 3,000 basis points,
 - `min` - 200 basis points,
 - `step` - 400 basis points,
-- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+- `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
-###### A.3.7.1.2.2.3 - ETH-C Parameters [Core]  <!-- UUID: 748db209-f31e-444b-b134-55a8826a5d7a -->
+###### A.3.7.1.3.2.3 - ETH-C Parameters [Core]  <!-- UUID: 748db209-f31e-444b-b134-55a8826a5d7a -->
 
 The Stability Parameter Bounded External Access Module parameters for the ETH-C Vault are as follows:
 - `max` - 3,000 basis points,
 - `min` - 200 basis points,
 - `step` - 400 basis points,
-- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+- `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
-###### A.3.7.1.2.2.4 - WSTETH-A Parameters [Core]  <!-- UUID: e134990f-7d06-46e3-a2c3-2277bb65e45c -->
+###### A.3.7.1.3.2.4 - WSTETH-A Parameters [Core]  <!-- UUID: e134990f-7d06-46e3-a2c3-2277bb65e45c -->
 
 The Stability Parameter Bounded External Access Module parameters for the WSTETH-A Vault are as follows:
 - `max` - 3,000 basis points,
 - `min` - 200 basis points,
 - `step` - 400 basis points,
-- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+- `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
-###### A.3.7.1.2.2.5 - WSTETH-B Parameters [Core]  <!-- UUID: f27c3fa3-dcd6-4ba8-9d74-426807ac010c -->
+###### A.3.7.1.3.2.5 - WSTETH-B Parameters [Core]  <!-- UUID: f27c3fa3-dcd6-4ba8-9d74-426807ac010c -->
 
 The Stability Parameter Bounded External Access Module parameters for the WSTETH-B Vault are as follows:
 - `max` - 3,000 basis points,
 - `min` - 200 basis points,
 - `step` - 400 basis points,
-- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+- `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
-###### A.3.7.1.2.2.6 - WBTC-A Parameters [Core]  <!-- UUID: e0ead8d6-7d1d-48f0-addb-702e21ef5a9e -->
+###### A.3.7.1.3.2.6 - WBTC-A Parameters [Core]  <!-- UUID: e0ead8d6-7d1d-48f0-addb-702e21ef5a9e -->
 
 The Stability Parameter Bounded External Access Module parameters for the WBTC-A Vault are as follows:
 - `max` - 3,000 basis points,
 - `min` - 200 basis points,
 - `step` - 400 basis points,
-- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+- `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
-###### A.3.7.1.2.2.7 - WBTC-B Parameters [Core]  <!-- UUID: dba279e1-bb04-4574-a45b-87788be40a78 -->
+###### A.3.7.1.3.2.7 - WBTC-B Parameters [Core]  <!-- UUID: dba279e1-bb04-4574-a45b-87788be40a78 -->
 
 The Stability Parameter Bounded External Access Module parameters for the WBTC-B Vault are as follows:
 - `max` - 3,000 basis points,
 - `min` - 200 basis points,
 - `step` - 400 basis points,
-- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+- `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
-###### A.3.7.1.2.2.8 - WBTC-C Parameters [Core]  <!-- UUID: 74ccae87-580f-492b-b260-fa3ef6613979 -->
+###### A.3.7.1.3.2.8 - WBTC-C Parameters [Core]  <!-- UUID: 74ccae87-580f-492b-b260-fa3ef6613979 -->
 
 The Stability Parameter Bounded External Access Module parameters for the WBTC-C Vault are as follows:
 - `max` - 3,000 basis points,
 - `min` - 200 basis points,
 - `step` - 400 basis points,
-- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+- `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
-##### A.3.7.1.2.3 - Allocator Vault Parameters [Core]  <!-- UUID: 6ab6bd12-93d3-419f-96e2-a7f79bfe1afa -->
+##### A.3.7.1.3.3 - Allocator Vault Parameters [Core]  <!-- UUID: 6ab6bd12-93d3-419f-96e2-a7f79bfe1afa -->
 
 The Stability Parameter Bounded External Access Module parameters for the Allocator Vaults are defined in the subdocuments herein. When new Allocator Vaults are added, they must also be added to the SP-BEAM. Unless specified otherwise within the relevant subdocument herein, the SP-BEAM parameters for any newly added Allocator Vault type shall default to match the parameters defined herein for the ALLOCATOR-SPARK-A vault type.
 
-###### A.3.7.1.2.3.1 - ALLOCATOR-SPARK-A Parameters [Core]  <!-- UUID: 3f6791ef-1f90-45b2-96db-0c85aa2035a1 -->
+###### A.3.7.1.3.3.1 - ALLOCATOR-SPARK-A Parameters [Core]  <!-- UUID: 3f6791ef-1f90-45b2-96db-0c85aa2035a1 -->
 
 The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-SPARK-A Allocator Vault are as follows:
 - `max` - 3,000 basis points,
 - `min` - 0 basis points,
 - `step` - 400 basis points,
-- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+- `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
-###### A.3.7.1.2.3.2 - ALLOCATOR-NOVA-A Parameters [Core]  <!-- UUID: 092b62b9-b9b8-4322-8b39-5c32ad420be3 -->
+###### A.3.7.1.3.3.2 - ALLOCATOR-NOVA-A Parameters [Core]  <!-- UUID: 092b62b9-b9b8-4322-8b39-5c32ad420be3 -->
 
 The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-NOVA-A Allocator Vault are as follows
 - `max` - 3,000 basis points,
 - `min` - 0 basis points,
 - `step` - 400 basis points,
-- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+- `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
-###### A.3.7.1.2.3.3 - ALLOCATOR-BLOOM-A Parameters [Core]  <!-- UUID: 1cca9f9f-1a60-4de6-8ec2-694b87d3ee91 -->
+###### A.3.7.1.3.3.3 - ALLOCATOR-BLOOM-A Parameters [Core]  <!-- UUID: 1cca9f9f-1a60-4de6-8ec2-694b87d3ee91 -->
 
 The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-BLOOM-A Allocator Vault are as follows:
 - `max` - 3,000 basis points,
 - `min` - 0 basis points,
 - `step` - 400 basis points,
-- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+- `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
-###### A.3.7.1.2.3.4 - ALLOCATOR-OBEX-A Parameters [Core]  <!-- UUID: d52799ce-589d-4ef8-9ee3-ef940866291a -->
+###### A.3.7.1.3.3.4 - ALLOCATOR-OBEX-A Parameters [Core]  <!-- UUID: d52799ce-589d-4ef8-9ee3-ef940866291a -->
 
 The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-OBEX-A Allocator Vault are as follows:
 - `max` - 3,000 basis points,
 - `min` - 0 basis points,
 - `step` - 400 basis points,
-- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+- `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
-##### A.3.7.1.2.4 - Parameter Adjustments [Core]  <!-- UUID: 2d4aa875-b7ea-49c3-9506-479f0b5d157c -->
+##### A.3.7.1.3.4 - Parameter Adjustments [Core]  <!-- UUID: 2d4aa875-b7ea-49c3-9506-479f0b5d157c -->
 
 All Stability Parameter Bounded External Access Module parameters can be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
 
-##### A.3.7.1.2.5 - Operators [Core]  <!-- UUID: 91f8b696-2c6b-4234-9126-2576a385882d -->
+##### A.3.7.1.3.5 - Operators [Core]  <!-- UUID: 91f8b696-2c6b-4234-9126-2576a385882d -->
 
 The Stability Parameter Bounded External Access Module (SP-BEAM) Operator is a whitelisted entity that can directly alter the current parameters of vault types or savings rates that have been added to the SP-BEAM. Changes to rates are limited by the `max`, `min`, `step`, and `tau` parameters. Operators can be added or removed by an Executive Vote.
 
-###### A.3.7.1.2.5.1 - Operator Multisig [Core]  <!-- UUID: f0cc7297-8ab9-4255-9365-d9ba87764f13 -->
+###### A.3.7.1.3.5.1 - Operator Multisig [Core]  <!-- UUID: f0cc7297-8ab9-4255-9365-d9ba87764f13 -->
 
 The Operator Multisig is the Operator of the Stability Parameter Bounded External Access Module and is controlled by Core Executor Agent Atlas Axis.
 
-###### A.3.7.1.2.5.1.1 - Operator Multisig Address [Core]  <!-- UUID: 793d4595-9f1f-4387-a3a6-b9c7b20266c3 -->
+###### A.3.7.1.3.5.1.1 - Operator Multisig Address [Core]  <!-- UUID: 793d4595-9f1f-4387-a3a6-b9c7b20266c3 -->
 
 The address of the Operator Multisig on the Ethereum Mainnet is `0xe1c6f81D0c3CD570A77813b81AA064c5fff80309`.
 
-###### A.3.7.1.2.5.1.2 - Operator Multisig Required Number Of Signers [Core]  <!-- UUID: 591ac4d7-5699-4a81-8b4a-d10c8d8c3457 -->
+###### A.3.7.1.3.5.1.2 - Operator Multisig Required Number Of Signers [Core]  <!-- UUID: 591ac4d7-5699-4a81-8b4a-d10c8d8c3457 -->
 
 The Operator Multisig currently has a 2/3 signing requirement.
 
-###### A.3.7.1.2.5.1.3 - Operator Multisig Signers [Core]  <!-- UUID: 154be1f7-3e96-417a-b125-f978c47e2301 -->
+###### A.3.7.1.3.5.1.3 - Operator Multisig Signers [Core]  <!-- UUID: 154be1f7-3e96-417a-b125-f978c47e2301 -->
 
 The signers of the Operator Multisig are three (3) addresses controlled by Core Executor Agent Atlas Axis.
 
-###### A.3.7.1.2.5.1.4 - Operator Multisig Usage Standards [Core]  <!-- UUID: 9e2f39aa-0568-46a3-ad5c-898eba6e50c0 -->
+###### A.3.7.1.3.5.1.4 - Operator Multisig Usage Standards [Core]  <!-- UUID: 9e2f39aa-0568-46a3-ad5c-898eba6e50c0 -->
 
-The signers of the Operator Multisig must use the multisig to operate the Stability Parameter Bounded External Access Module in accordance with the instructions specified in [A.3.7.1.2.6 - Update Process](823aa477-5400-40e5-881f-acb9cf724c21).
+The signers of the Operator Multisig must use the multisig to operate the Stability Parameter Bounded External Access Module in accordance with the instructions specified in [A.3.7.1.3.6 - Update Process](823aa477-5400-40e5-881f-acb9cf724c21).
 
-###### A.3.7.1.2.5.1.5 - Operator Multisig Modification [Core]  <!-- UUID: 24b8a5d0-b2b0-4bdf-94cf-f873d7468d48 -->
+###### A.3.7.1.3.5.1.5 - Operator Multisig Modification [Core]  <!-- UUID: 24b8a5d0-b2b0-4bdf-94cf-f873d7468d48 -->
 
 Core Executor Agent Atlas Axis can change the signers of the Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
 
-###### A.3.7.1.2.5.2 - Operator Update Process [Core]  <!-- UUID: ae2b5d27-b666-4796-8791-b59d151daf41 -->
+###### A.3.7.1.3.5.2 - Operator Update Process [Core]  <!-- UUID: ae2b5d27-b666-4796-8791-b59d151daf41 -->
 
 Stability Parameter Bounded External Access Module Operators can be modified by the Stability Facilitators, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
 
-##### A.3.7.1.2.6 - Update Process [Core]  <!-- UUID: 823aa477-5400-40e5-881f-acb9cf724c21 -->
+##### A.3.7.1.3.6 - Update Process [Core]  <!-- UUID: 823aa477-5400-40e5-881f-acb9cf724c21 -->
 
 The rates set by the Stability Parameter Bounded External Access Module (SP-BEAM) are managed by the SP-BEAM Operators. The SP-BEAM Operators' use of this authority must wholly adhere to instructions provided by the Core Council Risk Advisor.
 
-###### A.3.7.1.2.6.1 - Request By Core Council Risk Advisor [Core]  <!-- UUID: 0f718693-f764-48e5-8b0c-ad36389ba3a0 -->
+###### A.3.7.1.3.6.1 - Request By Core Council Risk Advisor [Core]  <!-- UUID: 0f718693-f764-48e5-8b0c-ad36389ba3a0 -->
 
 Any requests to change rates set by the SP-BEAM must be posted to the Sky Forum by the Core Council Risk Advisor that is recommending the change.
 
-###### A.3.7.1.2.6.2 - Operator Execution [Core]  <!-- UUID: c49357ad-4961-497b-9449-662922cb70a7 -->
+###### A.3.7.1.3.6.2 - Operator Execution [Core]  <!-- UUID: c49357ad-4961-497b-9449-662922cb70a7 -->
 
 Once a rate change request has been posted to the Sky Forum by the Core Council Risk Advisor, the SP-BEAM Operators must prepare and execute the proposed changes in a timely manner. Preparation can include the creation of transaction simulations to verify inputs.
 
-###### A.3.7.1.2.6.3 - Public Communication [Core]  <!-- UUID: 30a9cafe-92cc-4c9b-af94-c341915a1dfc -->
+###### A.3.7.1.3.6.3 - Public Communication [Core]  <!-- UUID: 30a9cafe-92cc-4c9b-af94-c341915a1dfc -->
 
 Once a change in rates set by the SP-BEAM has been executed, the execution must be publicly communicated to the Sky Ecosystem. This communication may take the form of either (1) a Forum post or (2) inclusion of the execution in an informational dashboard that allows community members to see each rate change executed by the SP-BEAM.
 
-#### A.3.7.1.3 - Keepers [Core]  <!-- UUID: f2bba617-0bc5-4983-8885-4ab686ae4fc7 -->
+#### A.3.7.1.4 - Keepers [Core]  <!-- UUID: f2bba617-0bc5-4983-8885-4ab686ae4fc7 -->
 
 Keeper networks provide critical services for the back-end systems of Sky, enhancing protocol security and efficiency. There are multiple providers of keeper networks in the Sky Ecosystem, decentralizing the keepers and ensuring redundancy. The subdocuments herein specify ongoing payment streams to compensate the different providers of keeper networks.
 
-##### A.3.7.1.3.1 - Gelato Network [Core]  <!-- UUID: 5b8d24b1-04dc-4071-9479-672ba3a712b5 -->
+##### A.3.7.1.4.1 - Gelato Network [Core]  <!-- UUID: 5b8d24b1-04dc-4071-9479-672ba3a712b5 -->
 
 Gelato Network
 
 Budget: 1,500 USDS per day
 Stream Duration: 3 years (start date 29 May 2023).
 
-##### A.3.7.1.3.2 - Keep3r Network [Core]  <!-- UUID: 9d61059b-26b2-431f-984f-29d57fcd99c5 -->
+##### A.3.7.1.4.2 - Keep3r Network [Core]  <!-- UUID: 9d61059b-26b2-431f-984f-29d57fcd99c5 -->
 
 Keep3r Network
 
 Budget: 1,500 USDS per day
 Stream Duration: 3 years (start date 29 May 2023).
 
-##### A.3.7.1.3.3 - Chainlink Automation [Core]  <!-- UUID: af29fc28-e4d4-4921-98e5-9468f06068ec -->
+##### A.3.7.1.4.3 - Chainlink Automation [Core]  <!-- UUID: af29fc28-e4d4-4921-98e5-9468f06068ec -->
 
 Chainlink Automation
 
 Budget: 1,500 USDS per day
 Stream Duration: 3 years (start date 29 May 2023).
 
-#### A.3.7.1.4 - Offboarding Process [Core]  <!-- UUID: 3da8a0fd-952c-4f80-b674-f60c9a293cb9 -->
+#### A.3.7.1.5 - Offboarding Process [Core]  <!-- UUID: 3da8a0fd-952c-4f80-b674-f60c9a293cb9 -->
 
 The subdocuments herein define the process by which Sky vault users should be notified about collateral offboarding.
 
-##### A.3.7.1.4.1 - Legacy Context [Core]  <!-- UUID: 6e08fc61-dc0d-4f18-8f4d-faa75f7dc59a -->
+##### A.3.7.1.5.1 - Legacy Context [Core]  <!-- UUID: 6e08fc61-dc0d-4f18-8f4d-faa75f7dc59a -->
 
 Periodically, collateral and vault types (ilks) are re-evaluated, which sometimes results in an offboarding of that collateral or vault type. 
 
@@ -16198,7 +16198,7 @@ Even with liquidation penalties set to 0%, the forced unwinding of levered posit
 
 This Section defines procedures concerning the dissemination of information about upcoming collateral offboarding on a best-effort basis. The objective is to minimize the number of users who are unaware of the offboarding prior to getting their positions liquidated.
 
-###### A.3.7.1.4.1.1 - Legacy Context Specific Goals [Core]  <!-- UUID: dd7c5813-2026-4d1c-9bc8-33cf8fbee15a -->
+###### A.3.7.1.5.1.1 - Legacy Context Specific Goals [Core]  <!-- UUID: dd7c5813-2026-4d1c-9bc8-33cf8fbee15a -->
 
 Specific Goals:
 
@@ -16210,29 +16210,29 @@ Specific Goals:
 
 4. Provide a method to bypass these requirements in the event a collateral is being offboarded due to serious security or solvency concerns.
 
-##### A.3.7.1.4.2 - Technical Process [Core]  <!-- UUID: 305e2bd6-a594-4aec-8713-adbe7bc87120 -->
+##### A.3.7.1.5.2 - Technical Process [Core]  <!-- UUID: 305e2bd6-a594-4aec-8713-adbe7bc87120 -->
 
 The subdocuments herein specify actions to be taken by specific actors within Sky when offboarding a vault type.
 
-###### A.3.7.1.4.2.1 - Immediate Actions [Core]  <!-- UUID: 200a9e67-ed5d-4d60-b826-860a2a247dcc -->
+###### A.3.7.1.5.2.1 - Immediate Actions [Core]  <!-- UUID: 200a9e67-ed5d-4d60-b826-860a2a247dcc -->
 
 Upon approval by Sky Governance to offboard a permissionless collateral type or vault type, the following actions are taken as soon as is practicable:
 
 - Set debt ceiling to zero (0) Dai or USDS.
 
-- Make an initial public announcement on all communication channels listed in [A.3.7.1.4.3.0.6.1 - Communication Channels And Media Assets Listing](9ac8a70b-8b6a-4825-a5e0-5e9019e50bc4).
+- Make an initial public announcement on all communication channels listed in [A.3.7.1.5.3.0.6.1 - Communication Channels And Media Assets Listing](9ac8a70b-8b6a-4825-a5e0-5e9019e50bc4).
 
 - Make a second public announcement on all communication channels in the above cited document no later than 14 calendar days after the initial public announcement.
 
 - Once the second public announcements have been made, set the liquidation penalty to 0%.
 
-###### A.3.7.1.4.2.2 - Following Actions [Core]  <!-- UUID: e0891d48-c684-4372-96e8-988aba8cccee -->
+###### A.3.7.1.5.2.2 - Following Actions [Core]  <!-- UUID: e0891d48-c684-4372-96e8-988aba8cccee -->
 
 Parameter changes designed to offboard users, such as changes to the liquidation ratio or stability fee, can only be implemented once 14 calendar days have passed following a second public announcement.
 
-##### A.3.7.1.4.3 - Communication Channels And Media Assets [Active Data Controller]  <!-- UUID: 9d418790-3081-43b4-a6f6-1c49ff5b4be8 -->
+##### A.3.7.1.5.3 - Communication Channels And Media Assets [Active Data Controller]  <!-- UUID: 9d418790-3081-43b4-a6f6-1c49ff5b4be8 -->
 
-The process for adding, removing, and modifying communication channels and media assets, and the order of announcement publication, are defined as Active Data in [A.3.7.1.4.3.0.6.1 - Communication Channels And Media Assets Listing](9ac8a70b-8b6a-4825-a5e0-5e9019e50bc4).
+The process for adding, removing, and modifying communication channels and media assets, and the order of announcement publication, are defined as Active Data in [A.3.7.1.5.3.0.6.1 - Communication Channels And Media Assets Listing](9ac8a70b-8b6a-4825-a5e0-5e9019e50bc4).
 
 The Active Data is updated as follows:
 
@@ -16240,7 +16240,7 @@ The Active Data is updated as follows:
 
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.3.7.1.4.3.0.6.1 - Communication Channels And Media Assets Listing [Active Data]  <!-- UUID: 9ac8a70b-8b6a-4825-a5e0-5e9019e50bc4 -->
+###### A.3.7.1.5.3.0.6.1 - Communication Channels And Media Assets Listing [Active Data]  <!-- UUID: 9ac8a70b-8b6a-4825-a5e0-5e9019e50bc4 -->
 
 The following channels should be used for initial and second public announcements of collateral offboarding. The order of announcement publication is as follows:
 
@@ -16262,15 +16262,15 @@ The following channels should be used for initial and second public announcement
 
 Additionally, outreach may be done to cover more channels not listed here. These may include other Ecosystem Actor or Facilitator owned Twitter accounts, communication channels, and platforms.
 
-Unless otherwise noted in [A.3.7.1.4 - Offboarding Process](3da8a0fd-952c-4f80-b674-f60c9a293cb9) and its subdocuments, Core GovOps will take the lead in coordinating channels announcements.
+Unless otherwise noted in [A.3.7.1.5 - Offboarding Process](3da8a0fd-952c-4f80-b674-f60c9a293cb9) and its subdocuments, Core GovOps will take the lead in coordinating channels announcements.
 
-##### A.3.7.1.4.4 - Expedited Offboarding [Core]  <!-- UUID: f9894690-fb43-431c-84ae-c6f5886745e9 -->
+##### A.3.7.1.5.4 - Expedited Offboarding [Core]  <!-- UUID: f9894690-fb43-431c-84ae-c6f5886745e9 -->
 
 The subdocuments herein define an expedited offboarding process in the event a collateral type needs to be removed quickly due to security or solvency concerns.
 
-###### A.3.7.1.4.4.1 - Requirements [Core]  <!-- UUID: 5f2109db-6680-478b-b72a-45f30065b626 -->
+###### A.3.7.1.5.4.1 - Requirements [Core]  <!-- UUID: 5f2109db-6680-478b-b72a-45f30065b626 -->
 
-When a collateral type threatens the security or solvency of the Sky Protocol, an expedited offboarding is in order. Expedited offboardings override the timeline specified in [A.3.7.1.4.2 - Technical Process](305e2bd6-a594-4aec-8713-adbe7bc87120) and allow the immediate modification of all relevant parameters.
+When a collateral type threatens the security or solvency of the Sky Protocol, an expedited offboarding is in order. Expedited offboardings override the timeline specified in [A.3.7.1.5.2 - Technical Process](305e2bd6-a594-4aec-8713-adbe7bc87120) and allow the immediate modification of all relevant parameters.
 
 Expedited offboardings must proceed pursuant to the following requirements:
 
@@ -16278,35 +16278,35 @@ Expedited offboardings must proceed pursuant to the following requirements:
 
 - The Offboarding Proposal must explicitly reference this Atlas document.
 
-###### A.3.7.1.4.4.2 - Announcements [Core]  <!-- UUID: b83a3a8b-a5ab-4eed-abf0-31842ebbfa29 -->
+###### A.3.7.1.5.4.2 - Announcements [Core]  <!-- UUID: b83a3a8b-a5ab-4eed-abf0-31842ebbfa29 -->
 
-The public announcements defined in [A.3.7.1.4.2 - Technical Process](305e2bd6-a594-4aec-8713-adbe7bc87120) must still be carried out. However, the timing of these announcements no longer constrains the modification of parameters. These announcements must also state that the offboarding is being expedited and explain the reasons for this accelerated process.
+The public announcements defined in [A.3.7.1.5.2 - Technical Process](305e2bd6-a594-4aec-8713-adbe7bc87120) must still be carried out. However, the timing of these announcements no longer constrains the modification of parameters. These announcements must also state that the offboarding is being expedited and explain the reasons for this accelerated process.
 
-#### A.3.7.1.5 - Genesis Capital Backstop [Core]  <!-- UUID: a9965d58-8cda-49fc-8a7f-f8cc2e0d6b98 -->
+#### A.3.7.1.6 - Genesis Capital Backstop [Core]  <!-- UUID: a9965d58-8cda-49fc-8a7f-f8cc2e0d6b98 -->
 
 If a "SKY Backstop Event" is in progress and the SKY price equals zero, the Sky Protocol must apply a pro‑rata haircut across each Genesis Agent’s Genesis Capital, implemented as a transfer of eligible assets from each Agent to the Sky Surplus Buffer. The haircut must be sized exactly to restore the Surplus Buffer to zero.
 
-##### A.3.7.1.5.1 - Implementation [Core]  <!-- UUID: 4381df75-0d4f-4f17-a263-f796cc33be27 -->
+##### A.3.7.1.6.1 - Implementation [Core]  <!-- UUID: 4381df75-0d4f-4f17-a263-f796cc33be27 -->
 
 In the near term, transfers are made through Executive Votes and may be made through Emergency Spells (see [A.1.9.5 - Emergency Spells](b8266c11-3a84-4bbe-abe2-de9474f74ffd)) as part of the Emergency Response System (see [A.1.8.1 - Emergency Response](20dcf582-8862-48b3-9ca9-c3703871bd14)).
 
 A solution must be developed to allow these transfers to be accomplished on an automated basis without waiting for the GSM Pause Delay (see [A.1.9.3 - Governance Security Delay Requirements](c5f0e955-0441-42e0-a6fc-eab875bba568)).
 
-##### A.3.7.1.5.2 - Post Backstop Settlement [Core]  <!-- UUID: 1edfed11-0234-4d15-b52b-37d7493565cd -->
+##### A.3.7.1.6.2 - Post Backstop Settlement [Core]  <!-- UUID: 1edfed11-0234-4d15-b52b-37d7493565cd -->
 
 If the haircut restores the Surplus Buffer to zero (i.e., the deficit is fully cleared), Sky will distribute 24 billion SKY to Genesis Agents, in proportion to the amount each Agent lost in the haircut.
 
 If, after the haircut, the Surplus Buffer remains below zero (i.e., the deficit could not be fully cleared), Sky will adjust the USDS target price below $1 to the extent necessary to settle the remaining deficit; Sky will then distribute 24 billion SKY to USDS holders via an airdrop.
 
-##### A.3.7.1.5.3 - Genesis Agent Capital Shortfalls [Core]  <!-- UUID: 81bacfed-5cc9-4980-bf71-1e5edcbdadba -->
+##### A.3.7.1.6.3 - Genesis Agent Capital Shortfalls [Core]  <!-- UUID: 81bacfed-5cc9-4980-bf71-1e5edcbdadba -->
 
 Transfers of capital from Genesis Agents may cause capital shortfalls for Genesis Agents under the Risk Framework (see [A.3.2 - Risk Capital](55999acf-75fe-4adf-8584-9746ef50d3e4)). Sky will work in good faith with such Agents to waive penalties for a reasonable period of time to allow the Agents to rebuild their capital.
 
-##### A.3.7.1.5.4 - Relation To SKY Backstop [Core]  <!-- UUID: 3b7324cd-8246-4eed-9da9-56599dcac5b4 -->
+##### A.3.7.1.6.4 - Relation To SKY Backstop [Core]  <!-- UUID: 3b7324cd-8246-4eed-9da9-56599dcac5b4 -->
 
 The Genesis Capital Backstop may not be invoked unless a "SKY Backstop Event" is in progress and the price of SKY equals zero.
 
-##### A.3.7.1.5.5 - Genesis Agents [Core]  <!-- UUID: 8952aac5-24fb-4da1-ae10-49f86d30aecd -->
+##### A.3.7.1.6.5 - Genesis Agents [Core]  <!-- UUID: 8952aac5-24fb-4da1-ae10-49f86d30aecd -->
 
 Genesis Agents are Agents that receive capital contributions from Sky, including, without limitation:
     
@@ -16317,11 +16317,11 @@ Genesis Agents are Agents that receive capital contributions from Sky, including
 - Obex
 - Core Council Executor Agent 1
 
-##### A.3.7.1.5.6 - Genesis Capital [Core]  <!-- UUID: 18f3de06-064b-4b08-a855-4720240e37f5 -->
+##### A.3.7.1.6.6 - Genesis Capital [Core]  <!-- UUID: 18f3de06-064b-4b08-a855-4720240e37f5 -->
 
 The Genesis Capital of an Agent is the lesser of (1) the amount of capital contributed by Sky to the Agent and (2) the total capital of the Agent.
 
-###### A.3.7.1.5.6.1 - Amount Of Capital Contributed By Sky To Agents [Core]  <!-- UUID: 0331556e-e7ae-48a2-a693-75468c416321 -->
+###### A.3.7.1.6.6.1 - Amount Of Capital Contributed By Sky To Agents [Core]  <!-- UUID: 0331556e-e7ae-48a2-a693-75468c416321 -->
 
 The amount of capital contributed by Sky to Agents is:
 
