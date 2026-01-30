@@ -37278,11 +37278,11 @@ The name of the Agent is Skybase.
 
 The address of Skybase’s SubProxy Account on the Ethereum Mainnet is `0x08978E3700859E476201c1D7438B3427e3C81140`.
 
-###### A.6.1.1.4.2.1.1.3.1.1.3 - StarGuard Contract [Core]
+###### A.6.1.1.4.2.1.1.3.1.1.3 - StarGuard Contract [Core]  <!-- UUID: 9ae04b66-c6b3-492d-a37f-ae60b583ea62 -->
 
 The address of Skybase’s StarGuard contract on the Ethereum Mainnet is `0xA170086AeF9b3b81dD73897A0dF56B55e4C2a1F7`.
 
-###### A.6.1.1.4.2.1.1.3.1.1.3.1 - StarGuard Max Delay [Core]
+###### A.6.1.1.4.2.1.1.3.1.1.3.1 - StarGuard Max Delay [Core]  <!-- UUID: 26e062c6-d49e-4f49-b14e-0884d899cbe1 -->
 
 The Skybase StarGuard `maxDelay` is seven (7) days.
 
