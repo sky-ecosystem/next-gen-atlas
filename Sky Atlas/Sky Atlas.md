@@ -37181,21 +37181,29 @@ The name of the Agent is Skybase.
 
 ###### A.6.1.1.4.2.1.1.3.1.1.2 - SubProxy Account [Core]  <!-- UUID: daed1676-6039-459e-9136-5e31617d756b -->
 
-The address of Skybase’s SubProxy Account will be specified in a future iteration of the Skybase Artifact.
+The address of Skybase’s SubProxy Account on the Ethereum Mainnet is `0x08978E3700859E476201c1D7438B3427e3C81140`.
 
-###### A.6.1.1.4.2.1.1.3.1.1.3 - Genesis Account [Core]  <!-- UUID: 082cb114-b47e-4371-afe5-d7bcba70704a -->
+###### A.6.1.1.4.2.1.1.3.1.1.3 - StarGuard Contract [Core]
+
+The address of Skybase’s StarGuard contract on the Ethereum Mainnet is `0xA170086AeF9b3b81dD73897A0dF56B55e4C2a1F7`.
+
+###### A.6.1.1.4.2.1.1.3.1.1.3.1 - StarGuard Max Delay [Core]
+
+The Skybase StarGuard `maxDelay` is seven (7) days.
+
+###### A.6.1.1.4.2.1.1.3.1.1.4 - Genesis Account [Core]  <!-- UUID: 082cb114-b47e-4371-afe5-d7bcba70704a -->
 
 The address of Skybase’s Genesis Account will be specified in a future iteration of the Skybase Artifact.
 
-###### A.6.1.1.4.2.1.1.3.1.1.4 - Custom Instance Parameters [Core]  <!-- UUID: 7b71508d-de87-4c7b-a09a-7168d1d04f81 -->
+###### A.6.1.1.4.2.1.1.3.1.1.5 - Custom Instance Parameters [Core]  <!-- UUID: 7b71508d-de87-4c7b-a09a-7168d1d04f81 -->
 
 The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
 
-###### A.6.1.1.4.2.1.1.3.1.1.4.1 - Skybase Foundation [Core]  <!-- UUID: fe988ac4-6a04-46cd-89b0-c78ba8683f14 -->
+###### A.6.1.1.4.2.1.1.3.1.1.5.1 - Skybase Foundation [Core]  <!-- UUID: fe988ac4-6a04-46cd-89b0-c78ba8683f14 -->
 
 The Skybase Foundation is the Prime Foundation associated with Skybase. Its mandate is to support the development, growth, and adoption of Skybase.
 
-###### A.6.1.1.4.2.1.1.3.1.1.4.2 - Development Company [Core]  <!-- UUID: 095eabf8-26a4-484a-bdb7-b581799f4679 -->
+###### A.6.1.1.4.2.1.1.3.1.1.5.2 - Development Company [Core]  <!-- UUID: 095eabf8-26a4-484a-bdb7-b581799f4679 -->
 
 Skybase’s Development Company will be updated in a future iteration of the Artifact.
 
