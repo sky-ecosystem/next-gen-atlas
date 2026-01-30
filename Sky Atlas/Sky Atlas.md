@@ -15902,7 +15902,74 @@ Other oracle solutions, including diversified oracles, will only be considered u
 
 If not otherwise specified, Core GovOps, in consultation with the Core Council Risk Advisor, has the ability to modify any of the parameters defined in [A.3.7.1.1.2 - Risk Parameter Definitions](8eb26d06-d2b3-493f-a79f-e3509326ddc6) for any of the Vault Types in [A.3.7.1.1.1 - Vault Types](64971463-0650-4462-b9c4-1eecb704fa1a). As a general rule, the modification of said parameters is pursuant to the Operational Weekly Cycle and can be effected directly via an Executive Vote, without requiring a Governance Poll. Exceptions to this general rule must be clearly stated in the relevant Atlas document.
 
-#### A.3.7.1.2 - Stability Parameter Bounded External Access Module [Core]  <!-- UUID: 47b8b035-8abd-42e6-86b8-33f852fa953a -->
+#### A.3.7.1.2 - Prime Allocator Vaults [Core]  <!-- UUID: 1c09308d-b7cd-495c-b547-baf628a6e323 -->
+
+The subdocuments herein govern the Allocator Vaults utilized by Prime Agents to access Sky Ecosystem liquidity. These documents define the specific risk parameters for each vault and the governance process for updating them.
+
+##### A.3.7.1.2.1 - Prime Allocator Vault Risk Parameters [Core]  <!-- UUID: 305a31ea-ae42-478f-8a92-94d7e9d88067 -->
+
+The subdocuments herein define the risk parameters for each active Allocator Vault.
+
+###### A.3.7.1.2.1.1 - ALLOCATOR-SPARK-A Parameters [Core]  <!-- UUID: 47d69b3d-a650-4dcd-a8f7-0c4f6bf5e8d2 -->
+
+The parameters for the Spark Allocator Vault are:
+
+- `duty`: set by the SP-BEAM specified in [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
+- `line`: controlled by DC-IAM
+- DC-IAM parameters:
+  - `gap`: 500 million USDS
+  - `line`: 10 billion USDS
+  - `ttl`: 24 hours
+
+###### A.3.7.1.2.1.2 - ALLOCATOR-BLOOM-A Parameters [Core]  <!-- UUID: 53cba245-68c6-4af9-a280-b200dabebec7 -->
+
+The parameters for the Grove Allocator Vault are: 
+
+- `duty`: set by the SP-BEAM specified in [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
+- `line`: controlled by DC-IAM
+- DC-IAM parameters:
+  - `gap`: 250 million USDS
+  - `line`: 5 billion USDS
+  - `ttl`: 24 hours
+
+###### A.3.7.1.2.1.3 - ALLOCATOR-NOVA-A Parameters [Core]  <!-- UUID: 08321783-f31a-4a80-8f0c-898afb4d8f9b -->
+
+The parameters for the Keel Allocator Vault are: 
+
+- `duty`: set by the SP-BEAM specified in [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
+- `line`: controlled by DC-IAM
+- DC-IAM parameters:
+  - `gap`: 1 million USDS
+  - `line`: 60 million USDS
+  - `ttl`: 20 hours
+
+###### A.3.7.1.2.1.4 - ALLOCATOR-OBEX-A Parameters [Core]  <!-- UUID: 1ee3efd3-fe75-4766-bc6a-ec204f6a3bca -->
+
+The parameters for the Obex Allocator Vault are: 
+
+- `duty`: set by the SP-BEAM specified in [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
+- `line`: controlled by DC-IAM
+- DC-IAM parameters:
+  - `gap`: 50 million USDS
+  - `line`: 2.5 billion USDS
+  - `ttl`: 24 hours
+
+###### A.3.7.1.2.1.5 - ALLOCATOR-PATTERN-A Parameters [Core]  <!-- UUID: 322e7ccc-6dcb-4f83-96e5-d8f2fa87cd00 -->
+
+The parameters for the Pattern Allocator Vault are: 
+
+- `duty`: set by the SP-BEAM specified in [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
+- `line`: controlled by DC-IAM
+- DC-IAM parameters:
+  - `gap`: 10 million USDS
+  - `line`: 10 million USDS
+  - `ttl`: 24 hours
+
+##### A.3.7.1.2.2 - Update Process [Core]  <!-- UUID: 41a1ae38-4f5c-468f-b6ba-47e16ecc5aec -->
+
+Core GovOps, in consultation with the Core Council Risk Advisor, has the ability to modify any of the Prime Allocator Vault Risk Parameters listed under Prime Allocator Vault Risk Parameters. The modification of said parameters is pursuant to the Operational Weekly Cycle and can be effected directly via an Executive Vote, without requiring a prior Governance Poll.
+
+#### A.3.7.1.3 - Stability Parameter Bounded External Access Module [Core]  <!-- UUID: 47b8b035-8abd-42e6-86b8-33f852fa953a -->
 
 The Stability Parameter Bounded External Access Module (SP-BEAM) enables designated, Governance-whitelisted operators to adjust the Stability Fees of supported vault types, the Dai Savings Rate (DSR), and the Sky Savings Rate (SSR). Adjustments are governed by the SP-BEAM smart contract logic and specific parameters set by Sky Governance. SP-BEAM holds four parameters that can be set for each vault type or savings rate: (i) `min`, (ii) `max`, (iii) `step`, and (iv) `tau`.
 
@@ -28934,12 +29001,7 @@ The documents herein list general on-chain parameters for the Grove Liquidity La
 
 ###### A.6.1.1.2.2.6.1.2.1.1.4.1 - Allocator Vault Parameters [Core]  <!-- UUID: 4db4b613-f06c-4aae-a091-2a78521fb6de -->
 
-The Allocator Vault parameters for ALLOCATOR-BLOOM-A are:
-
-- duty: 0
-- gap: 250 million USDS
-- maxLine: 5 billion USDS
-- ttl: 24 hours
+The Allocator Vault parameters for ALLOCATOR-BLOOM-A are defined in [ALLOCATOR-BLOOM-A Parameters](53cba245-68c6-4af9-a280-b200dabebec7).
 
 ###### A.6.1.1.2.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 6859900b-3d53-4a5c-8a00-ddb1cf0c07a4 -->
 
@@ -35111,12 +35173,7 @@ The documents herein list general on-chain parameters for the Keel Liquidity Lay
 
 ###### A.6.1.1.3.2.6.1.2.1.1.4.1 - Allocator Vault Parameters [Core]  <!-- UUID: 6952b3d2-7b66-46ba-90f7-700f244c5ee0 -->
 
-The Allocator Vault parameters for ALLOCATOR-NOVA-A are:
-
-- `duty`: 0
-- `gap`: 1 million USDS
-- `maxLine`: 60 million USDS
-- `ttl`: 20 hours
+The Allocator Vault parameters for ALLOCATOR-NOVA-A are defined in [ALLOCATOR-NOVA-A Parameters](08321783-f31a-4a80-8f0c-898afb4d8f9b).
 
 ###### A.6.1.1.3.2.6.1.2.1.1.4.2 - Whitelisting Of ALMProxy [Core]  <!-- UUID: 810671ff-8674-4178-a7ce-dd98c112688d -->
 
@@ -41378,12 +41435,7 @@ The documents herein list general on-chain parameters for the Obex Liquidity Lay
 
 ###### A.6.1.1.5.2.6.1.2.1.1.4.1 - Allocator Vault Parameters [Core]  <!-- UUID: c30d6144-4cbd-4ef4-90d5-312d24c9858e -->
 
-The Allocator Vault parameters for ALLOCATOR-OBEX-A are:
-
-- `duty`: 0%
-- `gap`: 50 million USDS
-- `maxLine`: 2.5 billion USDS
-- `ttl`: 86,400 seconds
+The Allocator Vault parameters for ALLOCATOR-OBEX-A are defined in [ALLOCATOR-OBEX-A Parameters](1ee3efd3-fe75-4766-bc6a-ec204f6a3bca).
 
 ###### A.6.1.1.5.2.6.1.2.1.1.4.2 - Whitelisting Of ALMProxy [Core]  <!-- UUID: 5c795414-020c-432d-91b6-a7d72495452e -->
 
