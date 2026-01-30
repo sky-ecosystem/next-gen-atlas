@@ -42409,13 +42409,13 @@ Obex has formally agreed to the Ecosystem Accords herein.
 
 Obex engaged in terms of agreement with Sky in Ecosystem Accord 4, located in [A.2.8.2.4 - Ecosystem Accord 4: Sky And Obex](6bddc5aa-ac80-43d8-b8c8-8cde14e896df).
 
-#### A.6.1.1.6 - Launch Agent 5 [Core]  <!-- UUID: dc083d10-74bc-43b6-ab2f-c91efce76e84 -->
+#### A.6.1.1.6 - Pattern [Core]  <!-- UUID: dc083d10-74bc-43b6-ab2f-c91efce76e84 -->
 
-The documents herein specify all of the logic for Launch Agent 5, including Launch Agent 5's strategy and how it uses the Sky Primitives to operationalize this strategy.
+The documents herein specify all of the logic for Pattern, including Pattern's strategy and how it uses the Sky Primitives to operationalize this strategy.
 
 ##### A.6.1.1.6.1 - Introduction [Core]  <!-- UUID: b137d591-a3a2-482a-a18e-d4ff447964cf -->
 
-Launch Agent 5 is an Agent creating a seamless financing experience by bridging the vast pool of digital liquidity with real-world credit demand. Launch Agent 5 credit facilities are delivered to neobanks and fintechs through a model that combines cost savings and a more intuitive borrower experience. The platform abstracts the complexity of DeFi and packages it into a product borrowers are used to. Launch Agent 5 creates vaults enterprises can plug into, payment flows they can embed, and capital they can access in real time.
+Pattern is an Agent creating a seamless financing experience by bridging the vast pool of digital liquidity with real-world credit demand. Pattern credit facilities are delivered to neobanks and fintechs through a model that combines cost savings and a more intuitive borrower experience. The platform abstracts the complexity of DeFi and packages it into a product borrowers are used to. Pattern creates vaults enterprises can plug into, payment flows they can embed, and capital they can access in real time.
 
 ##### A.6.1.1.6.2 - Sky Primitives [Core]  <!-- UUID: 42740824-41c4-49f1-9b59-177aa36ecc9d -->
 
@@ -42425,13 +42425,13 @@ The documents herein implement the Sky Primitives for Launch Agent 5. See [A.2.2
 
 The documents herein implement the Genesis Primitives for Launch Agent 5. See A.2.2.4 - Genesis Primitives.
 
-###### A.6.1.1.6.2.1.1 - Agent Creation Primitve [Core]  <!-- UUID: b6a417d7-f308-4544-a4d7-eabd4d971556 -->
+###### A.6.1.1.6.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: b6a417d7-f308-4544-a4d7-eabd4d971556 -->
 
 The documents herein contain all data and specifications for Launch Agent 5's Instance of the Agent Creation Primitive. See A.2.2.4.1 - Agent Creation Primitive.
 
 ###### A.6.1.1.6.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: a5f738ba-82b4-4a9a-a434-393f7a1da00d -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Agent Creation Primitive. 
+The documents herein organize all base information relevant to Pattern's usage of the Agent Creation Primitive. 
 
 ###### A.6.1.1.6.2.1.1.1.1 - Global Activation Status [Core]  <!-- UUID: ca2897ab-b88e-46bd-9703-955d007f186a -->
 
@@ -42487,15 +42487,15 @@ The documents herein define the parameters of the Single Instance of the Agent C
 
 ###### A.6.1.1.6.2.1.1.3.1.1.1 - Name [Core]  <!-- UUID: 3d765fcc-06a8-47ba-b510-60b3e306cb04 -->
 
-The name of the Agent is Launch Agent 5.
+The name of the Agent is Pattern.
 
 ###### A.6.1.1.6.2.1.1.3.1.1.2 - SubProxy Account [Core]  <!-- UUID: 9703d0ef-84c9-445b-a2b4-bfe9d24363f0 -->
 
-The address of Launch Agent 5's SubProxy Account will be specified in a future iteration of the Launch Agent 5 Artifact.
+The address of Pattern's SubProxy Account will be specified in a future iteration of the Pattern Artifact.
 
 ###### A.6.1.1.6.2.1.1.3.1.1.3 - Genesis Account [Core]  <!-- UUID: f2c22b75-0ad5-4a7c-be15-d7f0a2d0af89 -->
 
-The address of Launch Agent 5's Genesis Account will be specified in a future iteration of the Launch Agent 5 Artifact.
+The address of Pattern's Genesis Account will be specified in a future iteration of the Pattern Artifact.
 
 ###### A.6.1.1.6.2.1.1.3.1.1.4 - Custom Instance Parameters [Core]  <!-- UUID: 3eaa6b51-8d31-4ac9-b171-ee234a67efcd -->
 
@@ -42525,13 +42525,13 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.6.2.1.2 - Prime Transformation Primitve [Core]  <!-- UUID: ddd10617-caa7-4d4c-b088-cee2f888cef9 -->
+###### A.6.1.1.6.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: ddd10617-caa7-4d4c-b088-cee2f888cef9 -->
 
 The documents herein contain all data and specifications for Launch Agent 5's instance of the Prime Transformation Primitive. See [A.2.2.4.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
 
 ###### A.6.1.1.6.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: 73321a03-f62c-4aaf-84de-ee79bfd55662 -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Prime Transformation Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Prime Transformation Primitive.
 
 ###### A.6.1.1.6.2.1.2.1.1 - Global Activation Status [Core]  <!-- UUID: 4f8cc1c3-7aa4-4d55-a3c7-c3b90365f52a -->
 
@@ -42587,7 +42587,7 @@ The documents herein define the parameters of the Single Instance of the Prime T
 
 ###### A.6.1.1.6.2.1.2.3.1.1.1 - Agent Type [Core]  <!-- UUID: cc457437-4f65-45d6-9c1a-b3e96806de60 -->
 
-Launch Agent 5 is a Prime Agent.
+Pattern is a Prime Agent.
 
 ###### A.6.1.1.6.2.1.2.3.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 1b7f692d-75a1-4946-9edc-18287204df0f -->
 
@@ -42623,7 +42623,7 @@ The documents herein contain all data and specifications for Launch Agent 5's in
 
 ###### A.6.1.1.6.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: 4053d47c-8495-470c-8363-763f6c9ea5e8 -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Executor Transformation Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Executor Transformation Primitive.
 
 ###### A.6.1.1.6.2.1.3.1.1 - Global Activation Status [Core]  <!-- UUID: 9ceac949-3ea5-4c4e-9d14-a14c6af2e28b -->
 
@@ -42675,7 +42675,7 @@ The documents herein contain all data and specifications for Launch Agent 5's In
 
 ###### A.6.1.1.6.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: 9d78656b-5f03-4644-b6bb-c37ed7bdfe58 -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Agent Token Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Agent Token Primitive.
 
 ###### A.6.1.1.6.2.1.4.1.1 - Global Activation Status [Core]  <!-- UUID: 548f4e01-9e6b-4031-af13-4db16657fe3c -->
 
@@ -42727,27 +42727,27 @@ The documents herein define the parameters of the Single Instance of the Agent T
 
 ###### A.6.1.1.6.2.1.4.2.1.1.1 - Token Name [Core]  <!-- UUID: 49243902-54b4-49e4-8bed-caa61cca4fa1 -->
 
-The name of Launch Agent 5's token is Launch Agent 5.
+The name of Pattern's token is Pattern.
 
 ###### A.6.1.1.6.2.1.4.2.1.1.2 - Token Symbol [Core]  <!-- UUID: b840db04-00cb-4f16-9f43-f967963807a4 -->
 
-The symbol of Launch Agent 5's token is AGENT5.
+The symbol of Pattern's token is PATTERN.
 
 ###### A.6.1.1.6.2.1.4.2.1.1.3 - Genesis Supply [Core]  <!-- UUID: f699e4e0-6c47-41b2-ab52-9e0169fa7ffe -->
 
-The Genesis Supply of AGENT5 is 10 billion.
+The Genesis Supply of PATTERN is 10 billion.
 
 ###### A.6.1.1.6.2.1.4.2.1.1.4 - Token Address [Core]  <!-- UUID: 1108297e-9d69-4468-859e-2d26a42c27af -->
 
-The address of AGENT5 will be specified in a future iteration of the Launch Agent 5 Artifact.
+The address of PATTERN will be specified in a future iteration of the Pattern Artifact.
 
 ###### A.6.1.1.6.2.1.4.2.1.1.5 - Token Admin [Core]  <!-- UUID: 82d9f120-27e1-4b0c-a575-d26b537df45e -->
 
-The token Admin will be specified in a future iteration of the Launch Agent 5 Artifact.
+The token Admin will be specified in a future iteration of the Pattern Artifact.
 
 ###### A.6.1.1.6.2.1.4.2.1.1.6 - Token Emissions [Core]  <!-- UUID: ddb9f10e-8452-482a-b102-656dc8b23eea -->
 
-Token emissions beyond the Genesis Supply are permanently disabled; this cannot be reverted by Launch Agent 5 Governance. Sky Governance retains the ability to revert where Launch Agent 5 is in violation of Risk Capital requirements and emissions are required by the Risk Framework. See [A.3.2](55999acf-75fe-4adf-8584-9746ef50d3e4).
+Token emissions beyond the Genesis Supply are permanently disabled; this cannot be reverted by Pattern Governance. Sky Governance retains the ability to revert where Pattern is in violation of Risk Capital requirements and emissions are required by the Risk Framework. See [A.3.2](55999acf-75fe-4adf-8584-9746ef50d3e4).
 
 ###### A.6.1.1.6.2.1.4.2.1.1.7 - Custom Instance Parameters [Core]  <!-- UUID: 488f6950-fecd-4f82-ab43-62c4fab0f9ae -->
 
@@ -42757,7 +42757,7 @@ The documents herein define the custom parameters of the Single Instance of the 
 
 The documents herein define the operational processes for minting and initial distribution of the tokens from the Genesis Supply.
 
-- These processes will be defined in a future iteration of the Launch Agent 5 Artifact.
+- These processes will be defined in a future iteration of the Pattern Artifact.
 
 ###### A.6.1.1.6.2.1.4.2.1.3 - Data Repository [Core]  <!-- UUID: 16fc704d-3db3-4701-b3e3-cddadd99f125 -->
 
@@ -42793,7 +42793,7 @@ The documents herein contain all data and specifications for Launch Agent 5's In
 
 ###### A.6.1.1.6.2.1.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: 4604fb19-254c-455e-93c6-e2aba0b7261d -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Executor Accord Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Executor Accord Primitive.
 
 ###### A.6.1.1.6.2.1.5.1.1.1 - Global Activation Status [Core]  <!-- UUID: 3d671fa2-ff8c-4a09-aac6-579b23e43d9a -->
 
@@ -42885,7 +42885,7 @@ The documents herein contain all data and specifications for Launch Agent 5's In
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: f987a5d2-2fe4-450e-a57b-32c44ba2eb99 -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Root Edit Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Root Edit Primitive.
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.1.1 - Global Activation Status [Core]  <!-- UUID: 0f9cb02c-8c9b-459a-b326-86a81cfcca9c -->
 
@@ -42937,23 +42937,23 @@ The parameters of the Root Edit Primitive are fully specified by the Operational
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 0a6525e3-429d-4955-8dac-9fc61f6643f8 -->
 
-The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 5 Agent Artifact. Information on Launch Agent 5 governance that is unrelated to the use of the Root Edit Primitive is located at [Governance Information Unrelated To Root Edit Primitive](df8e7155-ba1f-4606-8a4a-0619c06da12b).
+The documents herein define the process for using the Root Edit Primitive to update the Pattern Agent Artifact. Information on Pattern governance that is unrelated to the use of the Root Edit Primitive is located at [Governance Information Unrelated To Root Edit Primitive](df8e7155-ba1f-4606-8a4a-0619c06da12b).
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 531cdc0a-091f-4c06-9d4e-e2421853a4c6 -->
 
-The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 5 Agent Artifact in routine or normal conditions (i.e., non-emergency situations).
+The documents herein define the process for using the Root Edit Primitive to update the Pattern Agent Artifact in routine or normal conditions (i.e., non-emergency situations).
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.1.1 - Root Edit Proposal Submission [Core]  <!-- UUID: a6261165-8c88-432f-a3c1-79465599d706 -->
 
-The Root Edit process begins with an AGENT5 token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. An AGENT5 token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Launch Agent 5 Prime" category.
+The Root Edit process begins with a PATTERN token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A PATTERN token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Pattern Prime" category.
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.1.1.1 - Short-Term Transitionary Measures [Core]  <!-- UUID: 351f7eac-691a-4bcb-868e-5ca56787d53a -->
 
-Until the Powerhouse system supports submitting Artifact Edit Proposals, AGENT5 token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Launch Agent 5 Prime" category. The title of the post must include the text "Launch Agent 5 Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total AGENT5 token supply specified in Root Edit Proposal Submission.
+Until the Powerhouse system supports submitting Artifact Edit Proposals, PATTERN token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Pattern Prime" category. The title of the post must include the text "Pattern Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total PATTERN token supply specified in Root Edit Proposal Submission.
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.1.2 - Root Edit Expert Advisor Review [Core]  <!-- UUID: 17be5231-4b3e-44ab-92ea-c7e259e633e1 -->
 
-A future iteration of the Launch Agent 5 Artifact will specify guidelines for obtaining specialized review of proposals requiring advanced technical or financial analysis.
+A future iteration of the Pattern Artifact will specify guidelines for obtaining specialized review of proposals requiring advanced technical or financial analysis.
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.1.3 - Root Edit Proposal Review By Operational Facilitator [Core]  <!-- UUID: af30f942-9746-4576-ab61-df3dd9697fbe -->
 
@@ -42965,7 +42965,7 @@ If the proposal is misaligned, the Operational Facilitator must respond to the F
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.1.4 - Root Edit Token Holder Vote [Core]  <!-- UUID: 8704e66e-872f-4bca-b63c-8361aa694496 -->
 
-Where their review of the proposal results in a finding of alignment with the Sky Core Atlas and Launch Agent 5 Artifact, the Operational Facilitator next triggers a Snapshot poll to allow token holders to vote on the proposal. The poll is open for three (3) days. A poll must have at least 10% of the circulating token supply participating and must have 50% of votes in favor to be approved.
+Where their review of the proposal results in a finding of alignment with the Sky Core Atlas and Pattern Artifact, the Operational Facilitator next triggers a Snapshot poll to allow token holders to vote on the proposal. The poll is open for three (3) days. A poll must have at least 10% of the circulating token supply participating and must have 50% of votes in favor to be approved.
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.1.5 - Root Edit Artifact Update [Core]  <!-- UUID: d2543813-8897-48a1-968d-1cfd3a2d3068 -->
 
@@ -42977,19 +42977,19 @@ Until the Powerhouse system supports updating Agent Artifacts, the Operational F
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.1.6 - Artifact Edit Restrictions [Core]  <!-- UUID: 4137d6f6-d330-4953-99e7-b17f2fb8ac55 -->
 
-The Launch Agent 5 Artifact cannot be edited in any way that violates the Sky Core Atlas or its specifications of the Sky Primitives, or in any way that is otherwise misaligned. The Operational Facilitator must enforce this rule through their review of Artifact Edit Proposals.
+The Pattern Artifact cannot be edited in any way that violates the Sky Core Atlas or its specifications of the Sky Primitives, or in any way that is otherwise misaligned. The Operational Facilitator must enforce this rule through their review of Artifact Edit Proposals.
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 3474027e-8a10-4972-b929-90f9c2894c70 -->
 
-The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 5 Agent Artifact in non-routine conditions.
+The documents herein define the process for using the Root Edit Primitive to update the Pattern Agent Artifact in non-routine conditions.
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: fbd6606d-dfe5-4816-bb90-f555c13323b1 -->
 
-The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 5 Agent Artifact in emergency situations.
+The documents herein define the process for using the Root Edit Primitive to update the Pattern Agent Artifact in emergency situations.
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.2.3.1 - Root Edit Voting Process In Emergency Situations [Core]  <!-- UUID: 7d31d593-75bb-41ef-86f4-a10ecf83e19f -->
 
-In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.8.1.1 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225), the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Launch Agent 5 Prime" category), unless doing so would endanger Launch Agent 5 or its users.
+In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.8.1.1 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225), the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Pattern Prime" category), unless doing so would endanger Pattern or its users.
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.2.1.3 - Data Repository [Core]  <!-- UUID: ffdbcc14-282a-47ae-81c6-7773b2cc09bf -->
 
@@ -43021,7 +43021,7 @@ The documents herein contain all data and specifications for Launch Agent 5's In
 
 ###### A.6.1.1.6.2.1.5.1.1.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: 2abd678a-fea3-4968-87c5-a81302f3c387 -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Light Agent Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Light Agent Primitive.
 
 ###### A.6.1.1.6.2.1.5.1.1.5.3.1.1 - Global Activation Status [Core]  <!-- UUID: c1a3ea5f-5cd9-46f3-9d0a-a7ad7648c3c4 -->
 
@@ -43077,7 +43077,7 @@ The documents herein contain all data and specifications for Launch Agent 5's In
 
 ###### A.6.1.1.6.2.1.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: 494d6e55-e1c1-4d0f-a51d-8f87d2a95ad5 -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Distribution Requirement Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Distribution Requirement Primitive.
 
 ###### A.6.1.1.6.2.1.6.1.1.1 - Global Activation Status [Core]  <!-- UUID: 280c32bc-e40e-4187-be61-0f2fd26ab167 -->
 
@@ -43129,7 +43129,7 @@ The documents herein define the parameters of the Single Instance of the Distrib
 
 ###### A.6.1.1.6.2.1.6.1.2.1.1.1 - Terms [Core]  <!-- UUID: 14a3b7fc-37f3-4407-a59b-061df4b7fc73 -->
 
-Launch Agent 5 will buy back and distribute 0.25% of its total token supply per year.
+Pattern will buy back and distribute 0.25% of its total token supply per year.
 
 ###### A.6.1.1.6.2.1.6.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 5147797a-7219-4f30-ab4e-38b6306bcc3b -->
 
@@ -43145,7 +43145,7 @@ This document defines the protocol for routine ongoing management of the Single 
 
 ###### A.6.1.1.6.2.1.6.1.2.2.1.1 - Process Definition [Core]  <!-- UUID: 8d0b0487-8d3d-4663-8096-04b32c52b073 -->
 
-The process to buy back and distribute 0.25% of Launch Agent 5's tokens per year will be specified in future iterations of the Launch Agent 5 Artifact.
+The process to buy back and distribute 0.25% of Pattern's tokens per year will be specified in future iterations of the Pattern Artifact.
 
 ###### A.6.1.1.6.2.1.6.1.2.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 8508d44e-41ca-41ed-a491-3d5135ce490a -->
 
@@ -43185,7 +43185,7 @@ The documents herein contain all data and specifications for Launch Agent 5's in
 
 ###### A.6.1.1.6.2.1.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: 1cfae713-bf09-4292-afd1-94df97aa3c44 -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Market Cap Fee Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Market Cap Fee Primitive.
 
 ###### A.6.1.1.6.2.1.6.2.1.1 - Global Activation Status [Core]  <!-- UUID: 104adf5f-89fa-4a87-ace1-08117f720f29 -->
 
@@ -43237,7 +43237,7 @@ The documents herein contain all data and specifications for Launch Agent 5's in
 
 ###### A.6.1.1.6.2.1.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: c1ba86c9-f638-4ebe-9346-e22377841c2c -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Upkeep Rebate Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Upkeep Rebate Primitive.
 
 ###### A.6.1.1.6.2.1.6.3.1.1 - Global Activation Status [Core]  <!-- UUID: 91965eb0-adbe-44fb-90eb-b4b898579c02 -->
 
@@ -43295,17 +43295,17 @@ The documents herein define the process for the ongoing management of the Single
 
 This document defines the protocol for routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.6.2.1.6.3.2.1.2.1.1 - Launch Agent 5 Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 106faf37-f072-4cac-aa1d-50982c04acea -->
+###### A.6.1.1.6.2.1.6.3.2.1.2.1.1 - Pattern Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 106faf37-f072-4cac-aa1d-50982c04acea -->
 
-Launch Agent 5 keeps all tokens of other Agents it holds in its SubProxy account.
+Pattern keeps all tokens of other Agents it holds in its SubProxy account.
 
-###### A.6.1.1.6.2.1.6.3.2.1.2.1.2 - Launch Agent 5 Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: 5abf2834-3f70-4ca9-9bf8-14df17e1f1bd -->
+###### A.6.1.1.6.2.1.6.3.2.1.2.1.2 - Pattern Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: 5abf2834-3f70-4ca9-9bf8-14df17e1f1bd -->
 
-When paying Ecosystem Upkeep fees, Launch Agent 5 deducts the rebate from the fees it pays.
+When paying Ecosystem Upkeep fees, Pattern deducts the rebate from the fees it pays.
 
 ###### A.6.1.1.6.2.1.6.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 38a179cb-a435-4dce-8c71-8c7a016f472e -->
 
-Operational GovOps reviews Launch Agent 5's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Launch Agent 5 Prime" category and work with Launch Agent 5 to resolve the disagreement. If Operational GovOps and Launch Agent 5 cannot resolve the disagreement, it must be escalated to Core GovOps.
+Operational GovOps reviews Pattern's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Pattern Prime" category and work with Pattern to resolve the disagreement. If Operational GovOps and Pattern cannot resolve the disagreement, it must be escalated to Core GovOps.
 
 ###### A.6.1.1.6.2.1.6.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: e5897490-739e-4778-9eb3-15a57309bf7b -->
 
@@ -43349,7 +43349,7 @@ The documents herein contain all data and specifications for Launch Agent 5's In
 
 ###### A.6.1.1.6.2.1.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: 028c364c-6ac4-42b1-86a7-afb6b255d3f7 -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Token SkyLink Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Token SkyLink Primitive.
 
 ###### A.6.1.1.6.2.1.7.1.1.1 - Global Activation Status [Core]  <!-- UUID: 6239f922-626f-4d62-aa0d-4404f3728578 -->
 
@@ -43405,7 +43405,7 @@ The documents herein contain all data and specifications for Launch Agent 5's in
 
 ###### A.6.1.1.6.2.1.8.1.1 - Primitive Hub Document [Core]  <!-- UUID: 076aeee9-3225-4b3e-8d2c-da278c0cb334 -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Distribution Reward Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Distribution Reward Primitive.
 
 ###### A.6.1.1.6.2.1.8.1.1.1 - Global Activation Status [Core]  <!-- UUID: 0fb59894-f344-4fbf-8918-7a8cb271c3b8 -->
 
@@ -43457,7 +43457,7 @@ The documents herein contain all data and specifications for Launch Agent 5's In
 
 ###### A.6.1.1.6.2.1.8.2.1 - Primitive Hub Document [Core]  <!-- UUID: 64832811-c6d5-4269-8bae-f95a7f334cc4 -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Integration Boost Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Integration Boost Primitive.
 
 ###### A.6.1.1.6.2.1.8.2.1.1 - Global Activation Status [Core]  <!-- UUID: a8713d41-40eb-48f8-82ee-020948616d59 -->
 
@@ -43509,7 +43509,7 @@ The documents herein contain all data and specifications for Launch Agent 5's In
 
 ###### A.6.1.1.6.2.1.8.3.1 - Primitive Hub Document [Core]  <!-- UUID: d3d4d0b2-e491-4fd5-9c2f-8f2545f0130b -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Pioneer Chain Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Pioneer Chain Primitive.
 
 ###### A.6.1.1.6.2.1.8.3.1.1 - Global Activation Status [Core]  <!-- UUID: 1271c05e-f761-49ae-b26f-650f643e6480 -->
 
@@ -43565,7 +43565,7 @@ The documents herein contain all data and specifications for Launch Agent 5's In
 
 ###### A.6.1.1.6.2.1.9.1.1 - Primitive Hub Document [Core]  <!-- UUID: ac8bef79-4452-44b6-8947-2dff84da918e -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Allocation System Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Allocation System Primitive.
 
 ###### A.6.1.1.6.2.1.9.1.1.1 - Global Activation Status [Core]  <!-- UUID: 7e0762bd-f890-481f-b26c-f737985054e6 -->
 
@@ -43617,7 +43617,7 @@ The documents herein contain all data and specifications for Launch Agent 5's In
 
 ###### A.6.1.1.6.2.1.9.2.1 - Primitive Hub Document [Core]  <!-- UUID: f4572c7d-15e0-44e6-842e-80b93f4a3357 -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Junior Risk Capital Rental Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Junior Risk Capital Rental Primitive.
 
 ###### A.6.1.1.6.2.1.9.2.1.1 - Global Activation Status [Core]  <!-- UUID: a865a886-0961-46d5-9ba9-079c49971538 -->
 
@@ -43669,7 +43669,7 @@ The documents herein contain all data and specifications for Launch Agent 5's In
 
 ###### A.6.1.1.6.2.1.9.3.1 - Primitive Hub Document [Core]  <!-- UUID: b971db81-6c85-4e95-9fb1-4556cd05e988 -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Asset Liability Management Rental Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Asset Liability Management Rental Primitive.
 
 ###### A.6.1.1.6.2.1.9.3.1.1 - Global Activation Status [Core]  <!-- UUID: d00700e6-033b-4cd8-a986-7129adae5859 -->
 
@@ -43725,7 +43725,7 @@ The documents herein contain all data and specifications for Launch Agent 5's In
 
 ###### A.6.1.1.6.2.1.10.1.1 - Primitive Hub Document [Core]  <!-- UUID: 4ca55a86-e89b-43d7-8291-297c3ecf5586 -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Core Governance Reward Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Core Governance Reward Primitive.
 
 ###### A.6.1.1.6.2.1.10.1.1.1 - Global Activation Status [Core]  <!-- UUID: cf6ee47e-4796-44a7-9689-5ac2189be470 -->
 
@@ -43773,23 +43773,23 @@ The in progress Invocations of the Core Governance Reward Primitive are containe
 
 ##### A.6.1.1.6.3 - Omni Documents [Core]  <!-- UUID: 42652f00-4299-41db-9124-10be8b030ee3 -->
 
-The documents herein define Launch Agent 5's strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
+The documents herein define Pattern's strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
 
 ###### A.6.1.1.6.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: df8e7155-ba1f-4606-8a4a-0619c06da12b -->
 
-The documents herein specify Launch Agent 5 governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Launch Agent 5 Artifact is specified in the Root Edit Primitive above at Root Edit Primitive.
+The documents herein specify Pattern governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Pattern Artifact is specified in the Root Edit Primitive above at Root Edit Primitive.
 
 ###### A.6.1.1.6.3.1.1 - Sky Forum [Core]  <!-- UUID: 1382be77-1dc3-40e0-811d-cce8052282ee -->
 
-Launch Agent 5 uses the Sky Forum for governance-related discussion. Posts should use the "Launch Agent 5 Prime" category.
+Pattern uses the Sky Forum for governance-related discussion. Posts should use the "Pattern Prime" category.
 
 ###### A.6.1.1.6.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: 721cb164-5c20-425d-a479-43e426066909 -->
 
-The documents herein specify Launch Agent 5's emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Launch Agent 5 Artifact.
+The documents herein specify Pattern's emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Pattern Artifact.
 
 ###### A.6.1.1.6.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: 5c2318bb-f6ce-4804-83b1-cb5efa914a23 -->
 
-The documents herein specify Launch Agent 5's emergency response protocol in situations solely impacting Launch Agent 5 versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Launch Agent 5 Artifact.
+The documents herein specify Pattern's emergency response protocol in situations solely impacting Pattern versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Pattern Artifact.
 
 #### A.6.1.1.7 - Launch Agent 6 [Core]  <!-- UUID: eba0dcc7-e135-496f-b866-342deeb91dc4 -->
 
@@ -43807,7 +43807,7 @@ The documents herein implement the Sky Primitives for Launch Agent 6. See [A.2.2
 
 The documents herein implement the Genesis Primitives for Launch Agent 6. See A.2.2.4 - Genesis Primitives.
 
-###### A.6.1.1.7.2.1.1 - Agent Creation Primitve [Core]  <!-- UUID: 1049c46a-0222-4101-ad86-b8c75c73ffd6 -->
+###### A.6.1.1.7.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: 1049c46a-0222-4101-ad86-b8c75c73ffd6 -->
 
 The documents herein contain all data and specifications for Launch Agent 6's Instance of the Agent Creation Primitive. See [A.2.2.4.1 - Agent Creation Primitive](82b95f6d-4883-4f08-ac3a-9d8189013fbe).
 
@@ -43907,7 +43907,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.7.2.1.2 - Prime Transformation Primitve [Core]  <!-- UUID: ff1ff3b0-3505-475a-9b04-92e0fbb16978 -->
+###### A.6.1.1.7.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: ff1ff3b0-3505-475a-9b04-92e0fbb16978 -->
 
 The documents herein contain all data and specifications for Launch Agent 6's instance of the Prime Transformation Primitive. See [A.2.2.4.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
 
