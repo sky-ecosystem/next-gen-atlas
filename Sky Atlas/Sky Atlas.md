@@ -42419,15 +42419,15 @@ Pattern is an Agent creating a seamless financing experience by bridging the vas
 
 ##### A.6.1.1.6.2 - Sky Primitives [Core]  <!-- UUID: 42740824-41c4-49f1-9b59-177aa36ecc9d -->
 
-The documents herein implement the Sky Primitives for Launch Agent 5. See [A.2.2 - Sky Primitives](cde2604-a138-4c1b-9d9a-14895835c907).
+The documents herein implement the Sky Primitives for Pattern. See [A.2.2 - Sky Primitives](cde2604-a138-4c1b-9d9a-14895835c907).
 
 ###### A.6.1.1.6.2.1 - Genesis Primitives [Core]  <!-- UUID: 6f66d930-9023-420e-b696-4cb59bc11066 -->
 
-The documents herein implement the Genesis Primitives for Launch Agent 5. See A.2.2.4 - Genesis Primitives.
+The documents herein implement the Genesis Primitives for Pattern. See A.2.2.4 - Genesis Primitives.
 
 ###### A.6.1.1.6.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: b6a417d7-f308-4544-a4d7-eabd4d971556 -->
 
-The documents herein contain all data and specifications for Launch Agent 5's Instance of the Agent Creation Primitive. See A.2.2.4.1 - Agent Creation Primitive.
+The documents herein contain all data and specifications for Pattern's Instance of the Agent Creation Primitive. See A.2.2.4.1 - Agent Creation Primitive.
 
 ###### A.6.1.1.6.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: a5f738ba-82b4-4a9a-a434-393f7a1da00d -->
 
@@ -42527,7 +42527,7 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 ###### A.6.1.1.6.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: ddd10617-caa7-4d4c-b088-cee2f888cef9 -->
 
-The documents herein contain all data and specifications for Launch Agent 5's instance of the Prime Transformation Primitive. See [A.2.2.4.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
+The documents herein contain all data and specifications for Pattern's instance of the Prime Transformation Primitive. See [A.2.2.4.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
 
 ###### A.6.1.1.6.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: 73321a03-f62c-4aaf-84de-ee79bfd55662 -->
 
@@ -42619,7 +42619,7 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 
 ###### A.6.1.1.6.2.1.3 - Executor Transformation Primitive [Core]  <!-- UUID: dbba1a29-c226-4da3-8609-36aea2ecf564 -->
 
-The documents herein contain all data and specifications for Launch Agent 5's instance of the Executor Transformation Primitive. See [A.2.2.4.3 - Executor Transformation Primitive](2f249be5-8edb-41e4-b429-734e1ba2cbc7).
+The documents herein contain all data and specifications for Pattern's instance of the Executor Transformation Primitive. See [A.2.2.4.3 - Executor Transformation Primitive](2f249be5-8edb-41e4-b429-734e1ba2cbc7).
 
 ###### A.6.1.1.6.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: 4053d47c-8495-470c-8363-763f6c9ea5e8 -->
 
@@ -42671,7 +42671,7 @@ Because the Executor Transformation Primitive is deployed solely for the one-tim
 
 ###### A.6.1.1.6.2.1.4 - Agent Token Primitive [Core]  <!-- UUID: b16a82ab-c18b-474d-91f5-97dba7e73bf9 -->
 
-The documents herein contain all data and specifications for Launch Agent 5's Instance of the Agent Token Primitive. See [A.2.2.4.4 - Agent Token Primitive](2047c361-db28-4952-a70c-83d07b562064).
+The documents herein contain all data and specifications for Pattern's Instance of the Agent Token Primitive. See [A.2.2.4.4 - Agent Token Primitive](2047c361-db28-4952-a70c-83d07b562064).
 
 ###### A.6.1.1.6.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: 9d78656b-5f03-4644-b6bb-c37ed7bdfe58 -->
 
@@ -42785,11 +42785,11 @@ Because the Agent Token Primitive is Invoked solely for the one-time deployment 
 
 ###### A.6.1.1.6.2.1.5 - Operational Primitives [Core]  <!-- UUID: 74b5123e-1557-4323-851b-96ada6249e50 -->
 
-The documents herein implement the Operational Primitives for Launch Agent 5. See [A.2.2.5 - Operational Primitives](0192ec95-9207-480e-8c51-88d2a1da95ad).
+The documents herein implement the Operational Primitives for Pattern. See [A.2.2.5 - Operational Primitives](0192ec95-9207-480e-8c51-88d2a1da95ad).
 
 ###### A.6.1.1.6.2.1.5.1 - Executor Accord Primitive [Core]  <!-- UUID: 5675fbe0-03fc-4571-9bf6-0eed37f06b8c -->
 
-The documents herein contain all data and specifications for Launch Agent 5's Instances of the Executor Accord Primitive. See [A.2.2.5.1 - Executor Accord Primitive](88017877-3ec1-4c43-a035-6bebdf11d9bb).
+The documents herein contain all data and specifications for Pattern's Instances of the Executor Accord Primitive. See [A.2.2.5.1 - Executor Accord Primitive](88017877-3ec1-4c43-a035-6bebdf11d9bb).
 
 ###### A.6.1.1.6.2.1.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: 4604fb19-254c-455e-93c6-e2aba0b7261d -->
 
@@ -42881,7 +42881,7 @@ The in progress Invocations of the Executor Accord Primitive are contained herei
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2 - Root Edit Primitive [Core]  <!-- UUID: e30f2e01-78c1-4286-a80a-0df31923303f -->
 
-The documents herein contain all data and specifications for Launch Agent 5's Instance of the Root Edit Primitive. See [A.2.2.5.2 - Root Edit Primitive](78488c6b-d77f-4344-b954-476e415a2c7d).
+The documents herein contain all data and specifications for Pattern's Instance of the Root Edit Primitive. See [A.2.2.5.2 - Root Edit Primitive](78488c6b-d77f-4344-b954-476e415a2c7d).
 
 ###### A.6.1.1.6.2.1.5.1.1.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: f987a5d2-2fe4-450e-a57b-32c44ba2eb99 -->
 
@@ -43017,7 +43017,7 @@ Because the Root Edit Primitive is deployed only once, no further Instances of t
 
 ###### A.6.1.1.6.2.1.5.1.1.5.3 - Light Agent Primitive [Core]  <!-- UUID: ecf594f7-ccc6-45f0-8ed0-e7a0f0b5182d -->
 
-The documents herein contain all data and specifications for Launch Agent 5's Instances of the Light Agent Primitive. See [A.2.2.5.3 - Light Agent Primitive](44028423-2cd1-40cb-89ac-3f762b602b90).
+The documents herein contain all data and specifications for Pattern's Instances of the Light Agent Primitive. See [A.2.2.5.3 - Light Agent Primitive](44028423-2cd1-40cb-89ac-3f762b602b90).
 
 ###### A.6.1.1.6.2.1.5.1.1.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: 2abd678a-fea3-4968-87c5-a81302f3c387 -->
 
@@ -43069,11 +43069,11 @@ The Instances of the Light Agent Primitive with `Completed` Status are contained
 
 ###### A.6.1.1.6.2.1.6 - Ecosystem Upkeep Primitives [Core]  <!-- UUID: 49eaa780-25f5-4732-8a47-fc18e06f320c -->
 
-The documents herein implement the Ecosystem Upkeep Primitives for Launch Agent 5. See [A.2.2.6 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
+The documents herein implement the Ecosystem Upkeep Primitives for Pattern. See [A.2.2.6 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
 ###### A.6.1.1.6.2.1.6.1 - Distribution Requirement Primitive [Core]  <!-- UUID: 0d6ea791-8496-4fe5-8430-b636482ed967 -->
 
-The documents herein contain all data and specifications for Launch Agent 5's Instance of the Distribution Requirement Primitive. See [A.2.2.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
+The documents herein contain all data and specifications for Pattern's Instance of the Distribution Requirement Primitive. See [A.2.2.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
 
 ###### A.6.1.1.6.2.1.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: 494d6e55-e1c1-4d0f-a51d-8f87d2a95ad5 -->
 
@@ -43181,7 +43181,7 @@ Because the Distribution Requirement Primitive is deployed only once, no further
 
 ###### A.6.1.1.6.2.1.6.2 - Market Cap Fee Primitive [Core]  <!-- UUID: d126b86c-add7-4b56-a690-0220a98ebb5f -->
 
-The documents herein contain all data and specifications for Launch Agent 5's instances of the Market Cap Fee Primitive. See [A.2.2.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
+The documents herein contain all data and specifications for Pattern's instances of the Market Cap Fee Primitive. See [A.2.2.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
 ###### A.6.1.1.6.2.1.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: 1cfae713-bf09-4292-afd1-94df97aa3c44 -->
 
@@ -43233,7 +43233,7 @@ The in progress Invocations of the Market Cap Fee Primitive are contained herein
 
 ###### A.6.1.1.6.2.1.6.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: 33b2f3db-d757-472e-be6e-c03b376f4ec3 -->
 
-The documents herein contain all data and specifications for Launch Agent 5's instances of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
+The documents herein contain all data and specifications for Pattern's instances of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
 ###### A.6.1.1.6.2.1.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: c1ba86c9-f638-4ebe-9346-e22377841c2c -->
 
@@ -43341,11 +43341,11 @@ The in progress Invocations of the Upkeep Rebate Primitive are contained herein.
 
 ###### A.6.1.1.6.2.1.7 - SkyLink Primitives [Core]  <!-- UUID: fcc2d538-6b23-45bc-b153-53d2e25ab056 -->
 
-The documents herein implement the SkyLink Primitives for Launch Agent 5. See [A.2.2.7 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
+The documents herein implement the SkyLink Primitives for Pattern. See [A.2.2.7 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
 
 ###### A.6.1.1.6.2.1.7.1 - Token SkyLink Primitive [Core]  <!-- UUID: f2056d2f-e669-41a8-b402-184c8f12092c -->
 
-The documents herein contain all data and specifications for Launch Agent 5's Instances of the Token SkyLink Primitive. See [A.2.2.7.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
+The documents herein contain all data and specifications for Pattern's Instances of the Token SkyLink Primitive. See [A.2.2.7.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
 
 ###### A.6.1.1.6.2.1.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: 028c364c-6ac4-42b1-86a7-afb6b255d3f7 -->
 
@@ -43397,11 +43397,11 @@ The in progress Invocations of the Token SkyLink Primitive are contained herein.
 
 ###### A.6.1.1.6.2.1.8 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: 0545c0f9-eab5-4b9e-93f9-cb59a8267312 -->
 
-The documents herein implement the Demand Side Stablecoin Primitives for Launch Agent 5. See [A.2.2.8 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
+The documents herein implement the Demand Side Stablecoin Primitives for Pattern. See [A.2.2.8 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
 
 ###### A.6.1.1.6.2.1.8.1 - Distribution Reward Primitive [Core]  <!-- UUID: 6cfff1d4-93e9-41cb-9e40-6051a43975c1 -->
 
-The documents herein contain all data and specifications for Launch Agent 5's instances of the Distribution Reward Primitive. See [A.2.2.8.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
+The documents herein contain all data and specifications for Pattern's instances of the Distribution Reward Primitive. See [A.2.2.8.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
 
 ###### A.6.1.1.6.2.1.8.1.1 - Primitive Hub Document [Core]  <!-- UUID: 076aeee9-3225-4b3e-8d2c-da278c0cb334 -->
 
@@ -43453,7 +43453,7 @@ The in progress Invocations of the Distribution Reward Primitive are contained h
 
 ###### A.6.1.1.6.2.1.8.2 - Integration Boost Primitive [Core]  <!-- UUID: 1fb482e6-cb6d-4311-9f2a-be481b65c9c2 -->
 
-The documents herein contain all data and specifications for Launch Agent 5's Instances of the Integration Boost Primitive. See [A.2.2.8.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
+The documents herein contain all data and specifications for Pattern's Instances of the Integration Boost Primitive. See [A.2.2.8.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
 
 ###### A.6.1.1.6.2.1.8.2.1 - Primitive Hub Document [Core]  <!-- UUID: 64832811-c6d5-4269-8bae-f95a7f334cc4 -->
 
@@ -43505,7 +43505,7 @@ The in progress Invocations of the Integration Boost Primitive are contained her
 
 ###### A.6.1.1.6.2.1.8.3 - Pioneer Chain Primitive [Core]  <!-- UUID: a6c0ce30-cd60-49ca-875f-b96ffb72273a -->
 
-The documents herein contain all data and specifications for Launch Agent 5's Instances of the Pioneer Chain Primitive. See [A.2.2.8.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
+The documents herein contain all data and specifications for Pattern's Instances of the Pioneer Chain Primitive. See [A.2.2.8.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
 
 ###### A.6.1.1.6.2.1.8.3.1 - Primitive Hub Document [Core]  <!-- UUID: d3d4d0b2-e491-4fd5-9c2f-8f2545f0130b -->
 
@@ -43557,11 +43557,11 @@ The in progress Invocations of the Pioneer Chain Primitive are contained herein.
 
 ###### A.6.1.1.6.2.1.9 - Supply Side Stablecoin Primitives [Core]  <!-- UUID: 5994da99-c086-4877-8777-3be6e5e63562 -->
 
-The documents herein implement the Supply Side Stablecoin Primitives for Launch Agent 5. See [A.2.2.9 - Supply Side Stablecoin Primitives](d1142876-33c2-4e21-9339-d8711525d46f).
+The documents herein implement the Supply Side Stablecoin Primitives for Pattern. See [A.2.2.9 - Supply Side Stablecoin Primitives](d1142876-33c2-4e21-9339-d8711525d46f).
 
 ###### A.6.1.1.6.2.1.9.1 - Allocation System Primitive [Core]  <!-- UUID: 62ce0e4a-e6fb-4617-8bb6-46e89a83d5bc -->
 
-The documents herein contain all data and specifications for Launch Agent 5's Instances of the Allocation System Primitive. See [A.2.2.9.1 - Allocation System Primitive](9db14ab7-bb4b-4751-8084-843bd4359f2a).
+The documents herein contain all data and specifications for Pattern's Instances of the Allocation System Primitive. See [A.2.2.9.1 - Allocation System Primitive](9db14ab7-bb4b-4751-8084-843bd4359f2a).
 
 ###### A.6.1.1.6.2.1.9.1.1 - Primitive Hub Document [Core]  <!-- UUID: ac8bef79-4452-44b6-8947-2dff84da918e -->
 
@@ -43613,7 +43613,7 @@ The in progress Invocations of the Allocation System Primitive are contained her
 
 ###### A.6.1.1.6.2.1.9.2 - Junior Risk Capital Rental Primitive [Core]  <!-- UUID: 5345e5c5-d791-48ab-835c-413af9665327 -->
 
-The documents herein contain all data and specifications for Launch Agent 5's Instances of the Junior Risk Capital Rental Primitive. See [A.2.2.9.2 - Junior Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).
+The documents herein contain all data and specifications for Pattern's Instances of the Junior Risk Capital Rental Primitive. See [A.2.2.9.2 - Junior Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).
 
 ###### A.6.1.1.6.2.1.9.2.1 - Primitive Hub Document [Core]  <!-- UUID: f4572c7d-15e0-44e6-842e-80b93f4a3357 -->
 
@@ -43665,7 +43665,7 @@ The in progress Invocations of the Junior Risk Capital Rental Primitive are cont
 
 ###### A.6.1.1.6.2.1.9.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: 6e435727-a8e1-492e-a004-31526d042d39 -->
 
-The documents herein contain all data and specifications for Launch Agent 5's Instances of the Asset Liability Management Rental Primitive. See [A.2.2.9.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).
+The documents herein contain all data and specifications for Pattern's Instances of the Asset Liability Management Rental Primitive. See [A.2.2.9.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).
 
 ###### A.6.1.1.6.2.1.9.3.1 - Primitive Hub Document [Core]  <!-- UUID: b971db81-6c85-4e95-9fb1-4556cd05e988 -->
 
@@ -43717,11 +43717,11 @@ The in progress Invocations of the Asset Liability Management Rental Primitive a
 
 ###### A.6.1.1.6.2.1.10 - Core Governance Primitives [Core]  <!-- UUID: 99858314-0f00-4b3b-b249-a0b236f52f0a -->
 
-The documents herein implement the Core Governance Primitives for Launch Agent 5. See [A.2.2.10 - Core Governance Primitives](6fa54611-c744-4b9d-897d-b2a20e9cae5d).
+The documents herein implement the Core Governance Primitives for Pattern. See [A.2.2.10 - Core Governance Primitives](6fa54611-c744-4b9d-897d-b2a20e9cae5d).
 
 ###### A.6.1.1.6.2.1.10.1 - Core Governance Reward Primitive [Core]  <!-- UUID: a63ed032-155a-42c3-9791-571a01d5f2fb -->
 
-The documents herein contain all data and specifications for Launch Agent 5's Instances of the Core Governance Reward Primitive. See [A.2.2.10.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
+The documents herein contain all data and specifications for Pattern's Instances of the Core Governance Reward Primitive. See [A.2.2.10.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
 
 ###### A.6.1.1.6.2.1.10.1.1 - Primitive Hub Document [Core]  <!-- UUID: 4ca55a86-e89b-43d7-8291-297c3ecf5586 -->
 
