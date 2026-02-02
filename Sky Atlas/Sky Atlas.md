@@ -23326,7 +23326,7 @@ The subdocuments herein define the current configuration of the risk parameters.
 
 The Risk parameters are:
 
-- Supply cap: 500,000,000 USDT
+- Supply cap: 2,000,000,000 USDT
 - Max yield: 10%
 - Current yield (at launch): 0%
 
