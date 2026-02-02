@@ -25648,122 +25648,83 @@ The subdocuments herein define the current configuration of the SparkLend Gnosis
 
 The current GNO risk parameters are:
 
-
 - LTV: 40%
-
 
 - Liquidation Threshold: 50%
 
-
 - E-mode Category: N/A
-
 
 - Liquidation Bonus: 12%
 
-
 - Reserve Factor: 50%
-
 
 - Supply Cap: 100,000 GNO
 
-
 - Borrow Cap: N/A
-
 
 - Optimal Utilization: 80%
 
-
 - Isolated Debt Ceiling: $1,000,000
-
 
 - Base Rate: 0%
 
-
 - Slope 1: 0%
-
 
 - Slope 2: 0%
 
-
 - Reserve State: Frozen
-
 
 - Collateral: Yes
 
-
 - Borrowing: No
-
 
 - Isolated Collateral: Yes
 
-
 - Isolated Borrowing: No
-
 
 - Siloed Borrowing: No
 
-
 - Flash Loan Enabled: No
-
 
 ###### A.6.1.1.1.3.2.1.1.2.2.2 - WETH Risk Parameters [Core]  <!-- UUID: dc3b3c32-f891-49fa-bdb4-8944d14e3d56 -->
 
 The current WETH risk parameters are:
 
-
 - LTV: 70%
-
 
 - Liquidation Threshold: 75%
 
-
 - E-mode Category: ETH
-
 
 - Liquidation Bonus: 5%
 
-
 - Reserve Factor: 50%
-
 
 - Supply Cap: 5,000 ETH
 
-
 - Borrow Cap: 3,000 ETH
-
 
 - Optimal Utilization: 80%
 
-
 - Isolated Debt Ceiling: N/A
-
 
 - Base Rate: 0%
 
-
 - Slope 1: 2.5%
-
 
 - Slope 2: 120%
 
-
 - Reserve State: Frozen
-
 
 - Collateral: Yes
 
-
 - Borrowing: Yes
-
 
 - Isolated Collateral: No
 
-
 - Isolated Borrowing: No
 
-
 - Siloed Borrowing: No
-
 
 - Flash Loan Enabled: Yes
 
@@ -25771,432 +25732,293 @@ The current WETH risk parameters are:
 
 The current USDT risk parameters are:
 
-
 - LTV: 0%
-
 
 - Liquidation Threshold: 0%
 
-
 - E-mode Category: USD
-
 
 - Liquidation Bonus: 0%
 
-
 - Reserve Factor: 50%
-
 
 - Supply Cap: 10,000,000 USDT
 
-
 - Borrow Cap: 8,000,000 USDT
-
 
 - Optimal Utilization: 95%
 
-
 - Isolated Debt Ceiling: N/A
-
 
 - Base Rate: 0%
 
-
 - Slope 1: 9%
-
 
 - Slope 2: 15%
 
-
 - Reserve State: Frozen
-
 
 - Collateral: No
 
-
 - Borrowing: Yes
-
 
 - Isolated Collateral: No
 
-
 - Isolated Borrowing: Yes
-
 
 - Siloed Borrowing: No
 
-
 - Flash Loan Enabled: Yes
-
 
 ###### A.6.1.1.1.3.2.1.1.2.2.4 - sDai Risk Parameters [Core]  <!-- UUID: 2c982dbd-dee3-45ce-9e45-48d7ebc33acb -->
 
 The current sDai risk parameters are:
 
-
 - LTV: 70%
-
 
 - Liquidation Threshold: 75%
 
-
 - E-mode Category: USD
-
 
 - Liquidation Bonus: 6%
 
-
 - Reserve Factor: 50%
-
 
 - Supply Cap: 40,000,000 sDai
 
-
 - Borrow Cap: N/A
-
 
 - Optimal Utilization: 80%
 
-
 - Isolated Debt Ceiling: N/A
-
 
 - Base Rate: 0%
 
-
 - Slope 1: 0%
-
 
 - Slope 2: 0%
 
-
 - Reserve State: Frozen
-
 
 - Collateral: Yes
 
-
 - Borrowing: No
-
 
 - Isolated Collateral: No
 
-
 - Isolated Borrowing: No
-
 
 - Siloed Borrowing: No
 
-
 - Flash Loan Enabled: No
-
 
 ###### A.6.1.1.1.3.2.1.1.2.2.5 - wstETH Risk Parameters [Core]  <!-- UUID: a07d0682-9249-4a4f-b2a3-c0dfb163c683 -->
 
 The current wstETH risk parameters are:
 
-
 - LTV: 65%
-
 
 - Liquidation Threshold: 72.5%
 
-
 - E-mode Category: ETH
-
 
 - Liquidation Bonus: 8%
 
-
 - Reserve Factor: 50%
-
 
 - Supply Cap: 15,000 wstETH
 
-
 - Borrow Cap: 100 wstETH
-
 
 - Optimal Utilization: 45%
 
-
 - Isolated Debt Ceiling: N/A
-
 
 - Base Rate: 1%
 
-
 - Slope 1: 3%
-
 
 - Slope 2: 100%
 
-
 - Reserve State: Frozen
-
 
 - Collateral: Yes
 
-
 - Borrowing: Yes
-
 
 - Isolated Collateral: No
 
-
 - Isolated Borrowing: No
-
 
 - Siloed Borrowing: No
 
-
 - Flash Loan Enabled: Yes
-
 
 ###### A.6.1.1.1.3.2.1.1.2.2.6 - USDC Risk Parameters [Core]  <!-- UUID: f54fff22-1cad-4ccd-80ae-f05f0345c384 -->
 
 The current USDC risk parameters are:
 
-
 - LTV: 0%
-
 
 - Liquidation Threshold: 0%
 
-
 - E-mode Category: USD
-
 
 - Liquidation Bonus: 0%
 
-
 - Reserve Factor: 50%
-
 
 - Supply Cap: 10,000,000 USDC
 
-
 - Borrow Cap: 1,000,000 USDC
-
 
 - Optimal Utilization: 80%
 
-
 - Isolated Debt Ceiling: N/A
-
 
 - Base Rate: 0%
 
-
 - Slope 1: 9%
-
 
 - Slope 2: 50%
 
-
 - Reserve State: Frozen
-
 
 - Collateral: No
 
-
 - Borrowing: Yes
-
 
 - Isolated Collateral: No
 
-
 - Isolated Borrowing: Yes
-
 
 - Siloed Borrowing: No
 
-
 - Flash Loan Enabled: Yes
-
 
 ###### A.6.1.1.1.3.2.1.1.2.2.7 - USDC.e Risk Parameters [Core]  <!-- UUID: b54fc943-6d64-4c67-9aa2-150665be6493 -->
 
 The current USDC.e risk parameters are:
 
-
 - LTV: 0%
-
 
 - Liquidation Threshold: 0%
 
-
 - E-mode Category: USD
-
 
 - Liquidation Bonus: 0%
 
-
 - Reserve Factor: 50%
-
 
 - Supply Cap: 10,000,000 USDC.e
 
-
 - Borrow Cap: 8,000,000 USDC.e
-
 
 - Optimal Utilization: 95%
 
-
 - Isolated Debt Ceiling: N/A
-
 
 - Base Rate: 0%
 
-
 - Slope 1: 9%
-
 
 - Slope 2: 15%
 
-
 - Reserve State: Frozen
-
 
 - Collateral: No
 
-
 - Borrowing: Yes
-
 
 - Isolated Collateral: No
 
-
 - Isolated Borrowing: Yes
-
 
 - Siloed Borrowing: No
 
-
 - Flash Loan Enabled: No
-
 
 ###### A.6.1.1.1.3.2.1.1.2.2.8 - WXDAI Risk Parameters [Core]  <!-- UUID: 57bae006-ff07-4da7-adc3-ea3649ce7e38 -->
 
 The current WXDAI risk parameters are:
 
-
 - LTV: 0%
-
 
 - Liquidation Threshold: 75%
 
-
 - E-mode Category: USD
-
 
 - Liquidation Bonus: 5%
 
-
 - Reserve Factor: 50%
-
 
 - Supply Cap: 20,000,000 WXDAI
 
-
 - Borrow Cap: 16,000,000 WXDAI
-
 
 - Optimal Utilization: 95%
 
-
 - Isolated Debt Ceiling: N/A
-
 
 - Base Rate: 0%
 
-
 - Slope 1: 9%
-
 
 - Slope 2: 15%
 
-
 - Reserve State: Frozen
-
 
 - Collateral: Yes
 
-
 - Borrowing: Yes
-
 
 - Isolated Collateral: No
 
-
 - Isolated Borrowing: Yes
-
 
 - Siloed Borrowing: No
 
-
 - Flash Loan Enabled: No
-
 
 ###### A.6.1.1.1.3.2.1.1.2.2.9 - EURe Risk Parameters [Core]  <!-- UUID: 1a8186bd-c557-4a6d-80e3-a8140a215e06 -->
 
 The current EURe risk parameters are:
 
-
 - LTV: 0%
-
 
 - Liquidation Threshold: 0%
 
-
 - E-mode Category: N/A
-
 
 - Liquidation Bonus: 0%
 
-
 - Reserve Factor: 50%
-
 
 - Supply Cap: 5,000,000 EURe
 
-
 - Borrow Cap: 4,000,000 EURe
-
 
 - Optimal Utilization: 95%
 
-
 - Isolated Debt Ceiling: N/A
-
 
 - Base Rate: 0%
 
-
 - Slope 1: 5%
-
 
 - Slope 2: 15%
 
-
 - Reserve State: Frozen
-
 
 - Collateral: No
 
-
 - Borrowing: Yes
-
 
 - Isolated Collateral: No
 
-
 - Isolated Borrowing: No
 
-
 - Siloed Borrowing: No
-
 
 - Flash Loan Enabled: No
 
