@@ -48,19 +48,24 @@ Every document in the Atlas Markdown file begins with a title line that follows 
 ### Components
 
 1. **Heading Level**: One or more `#` symbols (1-6) based on document depth
+
    - Must have exactly one space after the last `#`
 
 2. **Document Number**: The formal Atlas document identifier
+
    - Examples: `A.1`, `A.1.2.3`, `A.1.1.0.3.1`, `NR-5`
    - Must follow Atlas numbering rules (see Section 6)
 
 3. **Separator**: Space, hyphen, space
+
    - Must be exactly this format (not just `-` or ` -` or `- `)
 
 4. **Document Name**: The human-readable name of the document
+
    - Can contain any characters except `[` and `]`
 
 5. **Document Type**: Enclosed in square brackets with space before
+
    - Format: ` [{Type}]`
    - Must be one space before opening bracket
    - Must be a valid Atlas document type (see list below)
@@ -123,15 +128,19 @@ Examples:
 Supporting documents (Annotations, Tenets, Scenarios, Scenario Variations, Active Data) use special patterns:
 
 1. **Annotations** (`.0.3.X`): Depth = target document depth + 1
+
    - Example: `A.1.1.1.0.3.1` targets `A.1.1.1` (depth 3) → annotation depth is 4
 
 2. **Tenets** (`.0.4.X`): Depth = target document depth + 1
+
    - Example: `A.1.4.5.0.4.1` targets `A.1.4.5` (depth 3) → tenet depth is 4
 
 3. **Scenarios** (`.1.X`): Depth = parent tenet depth + 1
+
    - Example: `A.1.4.5.0.4.1.1.1` → parent tenet `A.1.4.5.0.4.1` (depth 4) → scenario depth is 5
 
 4. **Scenario Variations** (`.varX`): Depth = parent scenario depth + 1
+
    - Example: `A.1.4.5.0.4.1.1.1.var1` → parent scenario `A.1.4.5.0.4.1.1.1` (depth 5) → variation depth is 6
 
 5. **Active Data** (`.0.6.X`): Depth = controller document depth + 1
@@ -226,15 +235,18 @@ Primary Document
 ### Syntax Rules
 
 1. **Label Line**:
+
    - Format: `**{Label}**:`
    - Bold label (double asterisks) followed immediately by colon
    - **No value on the same line as the label**
    - Labels are case-sensitive and must match exactly
 
 2. **Blank Line After Label**:
+
    - Exactly one blank line after the label line
 
 3. **Field Value**:
+
    - Can span multiple lines
    - Preserves internal formatting and blank lines
    - Leading and trailing blank lines are automatically trimmed by the parser
@@ -344,6 +356,7 @@ Atlas document numbers follow a hierarchical system. This section provides a sum
 2. **Sequential Numbering**: Sibling documents are numbered sequentially starting from 1 (except Scope documents which start from 0, and Needed Research which uses global numbering)
 
 3. **Special Directory Numbers**: Supporting documents use special numbers:
+
    - `.0` = Supporting Root directory
    - `.0.3` = Element Annotation Directory
    - `.0.4` = Facilitator Tenet Annotation Directory
@@ -353,6 +366,7 @@ Atlas document numbers follow a hierarchical system. This section provides a sum
 4. **Mixed Document Types**: When multiple document types exist as siblings under the same parent (in `Sections & Primary Docs` or `Agent Scope Database`), they use **sequential numbering across all document types**, not per-type numbering.
 
    **Example**: If a section has 1 Core, 1 Active Data Controller, and 1 Type Specification, they are numbered:
+
    - `A.1.1.1` (Core)
    - `A.1.1.2` (Active Data Controller)
    - `A.1.1.3` (Type Specification)
@@ -394,6 +408,12 @@ Scope
 ### Needed Research Exception
 
 Needed Research documents can be nested under **any** document type in the Atlas. They use global numbering (`NR-1`, `NR-2`, etc.) regardless of their parent.
+
+### Needed Research Position Constraint
+
+**⚠️ IMPORTANT**: In the Markdown file, Needed Research documents must appear **first** among all children of their parent document — before any other siblings, including primary documents (Core, Section, etc.) and other supporting documents (Annotations, Tenets, etc.).
+
+**Why**: Since NR documents use global numbering (`NR-1`, `NR-2`) that doesn't encode their parent, automated tools that parse the Markdown file as a tree structure cannot determine the parent from the document number alone. Parsers use a stack-based approach where NR documents attach to the nearest non-NR document on the stack. Placing NR documents immediately after their parent ensures correct parent assignment.
 
 ### Validation
 
@@ -442,22 +462,26 @@ The validator checks for:
 To ensure the parser can correctly process the Atlas Markdown file, follow these rules:
 
 1. **Title Line Format**:
+
    - Must exactly match: `{Heading} {DocNo} - {Name} [{Type}]  <!-- UUID: {uuid} -->`
    - Exactly two spaces before the UUID comment
    - One space after heading symbols
    - One space before opening bracket of type
 
 2. **Heading Level Cap**:
+
    - Maximum 6 hashtags (######) due to markdown viewer limitations
    - Documents at depth > 6 all use 6 hashtags
    - Heading level must match semantic depth (calculated from document number), capped at 6
 
 3. **Document Numbers**:
+
    - Must follow the numbering rules for the document type
    - Siblings must be numbered sequentially without gaps (e.g., 1, 2, 3, not 1, 3, 5)
    - Exception: Special directory numbers (`.0.3`, `.0.6`, etc.) and Needed Research (`NR-X`)
 
 4. **Extra Field Labels**:
+
    - Must match exactly (case-sensitive)
    - Must appear in the correct order for the document type
    - Label line must end with colon and have no value on the same line

@@ -1480,14 +1480,6 @@ Because ungrounded inferences of logic lack such a robust and clearly documented
 
 Alignment Conservers are held to the highest standard when judging whether their actions are Universally Aligned.
 
-#### A.1.4.4.0.4.1 - Highest Standard - Facilitators must apply strictest possible requirements of Universal Alignment on ACs [Action Tenet]  <!-- UUID: 8dfd71fc-7ded-4217-8b6a-2bef00f75b55 -->
-
-In any adjudication involving potential misalignment of Alignment Conservers (ACs), Facilitators are unequivocally directed to apply the strictest and highest standards of Universal Alignment.
-
-As ACs are held to the most rigorous standards of Universal Alignment, Facilitators should acknowledge evidence of misalignment if such evidence is deemed at least 51% more likely than not to be valid or to substantiate the presented claim. Additionally, should the overall weight of the evidence demonstrate a 51% or greater chance that the AC committed a misaligned act, the Facilitator is required to derecognize the AC.
-
-Given the exceptionally high stakes in cases of potential AC misalignment, Facilitators must prioritize an approach grounded in an abundance of caution, steering away from notions of 'fairness' or 'lenience.' Any lapse or misjudgment on the part of an AC cannot be excused based on ignorance of the rules, good intentions, honest mistake or similar factors. Maximal accountability for ACs is non-negotiable, a principle underpinned by the indispensable role of ACs as stewards of Universal Alignment.
-
 #### NR-1 - Systematic Basis Of Adjudication, Fact-Finding And Evidence [Needed Research]  <!-- UUID: 2da58ba2-a172-43bd-b7e7-d3d8e69233bf -->
 
 **Content**:
@@ -1502,9 +1494,35 @@ Then there is the matter of assessing evidence in a way that is rigorous and imp
 
 How much discretion should Facilitators have in interpreting and applying the element "the highest standard of Universal Alignment"? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.
 
+#### A.1.4.4.0.4.1 - Highest Standard - Facilitators must apply strictest possible requirements of Universal Alignment on ACs [Action Tenet]  <!-- UUID: 8dfd71fc-7ded-4217-8b6a-2bef00f75b55 -->
+
+In any adjudication involving potential misalignment of Alignment Conservers (ACs), Facilitators are unequivocally directed to apply the strictest and highest standards of Universal Alignment.
+
+As ACs are held to the most rigorous standards of Universal Alignment, Facilitators should acknowledge evidence of misalignment if such evidence is deemed at least 51% more likely than not to be valid or to substantiate the presented claim. Additionally, should the overall weight of the evidence demonstrate a 51% or greater chance that the AC committed a misaligned act, the Facilitator is required to derecognize the AC.
+
+Given the exceptionally high stakes in cases of potential AC misalignment, Facilitators must prioritize an approach grounded in an abundance of caution, steering away from notions of 'fairness' or 'lenience.' Any lapse or misjudgment on the part of an AC cannot be excused based on ignorance of the rules, good intentions, honest mistake or similar factors. Maximal accountability for ACs is non-negotiable, a principle underpinned by the indispensable role of ACs as stewards of Universal Alignment.
+
 ### A.1.4.5 - ACs Can Be Operationally Active In Only One Role At A Time [Section]  <!-- UUID: 9b1d1c2f-ace0-4637-8050-4711ae9f9a8c -->
 
 An Alignment Conserver can assume one of two roles: Aligned Delegate (AD) and Facilitator. ACs may only be operationally active in a single AC role and may not simultaneously assume multiple AC roles or other ecosystem roles such as Ecosystem Actors.
+
+#### NR-2 - Should Ban Against Occupying Two Ecosystem Roles Apply to All Sky Stakeholder Roles? [Needed Research]  <!-- UUID: 25d8f23b-4d43-43be-aa5a-c48fe372cd7a -->
+
+**Content**:
+
+Given the rationale behind the Target Document [A.1.4 - A5 - Alignment Conservers - Powers And Constraints - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c), the 'simultaneous occupying of two ecosystem roles' prohibition should likely not be limited to just the AC stakeholder category, but rather should apply universally to any Sky stakeholder who occupies a role formally defined in the Atlas. What would be the arguments for and against such a position?
+
+#### NR-3 - Should Team Contributors Be Subject To The Ban Against Occupying Two Ecosystem Roles? [Needed Research]  <!-- UUID: 4560326b-abab-4147-957f-c5c8ddfa96f1 -->
+
+**Content**:
+
+Should team contributors be subject to the Target Document’s prohibition against occupying two roles? What would be the arguments for and against such a position? 
+
+One argument against this would be that quality contributors are a scarce resource. Further, the decentralized work paradigm encourages having several part-time jobs. 
+
+The sharing of contributors across several Sky teams  - such that contributors gain experience in multiple operational aspects - might arguably enhance ecosystem intelligence. 
+
+Would it make a meaningful difference to require contributors who do wish to work multiple roles to be doxxed?
 
 #### A.1.4.5.1 - Temporary Exception for Facilitator “Ecosystem” [Core]  <!-- UUID: 6aa88317-4dc2-4b50-87bd-27cc6de9c767 -->
 
@@ -1652,24 +1670,6 @@ See also, [A.1.4.5.0.4.1 - Operationally Active - Whether An Entity Is "Operatio
 
 An "ecosystem role" need not be compensated or full-time to be regulated by the Target Document.
 
-#### NR-2 - Should Ban Against Occupying Two Ecosystem Roles Apply to All Sky Stakeholder Roles? [Needed Research]  <!-- UUID: 25d8f23b-4d43-43be-aa5a-c48fe372cd7a -->
-
-**Content**:
-
-Given the rationale behind the Target Document [A.1.4 - A5 - Alignment Conservers - Powers And Constraints - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c), the 'simultaneous occupying of two ecosystem roles' prohibition should likely not be limited to just the AC stakeholder category, but rather should apply universally to any Sky stakeholder who occupies a role formally defined in the Atlas. What would be the arguments for and against such a position?
-
-#### NR-3 - Should Team Contributors Be Subject To The Ban Against Occupying Two Ecosystem Roles? [Needed Research]  <!-- UUID: 4560326b-abab-4147-957f-c5c8ddfa96f1 -->
-
-**Content**:
-
-Should team contributors be subject to the Target Document’s prohibition against occupying two roles? What would be the arguments for and against such a position? 
-
-One argument against this would be that quality contributors are a scarce resource. Further, the decentralized work paradigm encourages having several part-time jobs. 
-
-The sharing of contributors across several Sky teams  - such that contributors gain experience in multiple operational aspects - might arguably enhance ecosystem intelligence. 
-
-Would it make a meaningful difference to require contributors who do wish to work multiple roles to be doxxed?
-
 ### A.1.4.6 - ACs Subject To Both General And Role-specific Requirements [Section]  <!-- UUID: a59420ba-5e2c-4736-99a4-fb64eea4cc32 -->
 
 An Alignment Conserver is fully responsible for meeting all requirements tied to the general AC role, which requirements are specified in this Article. 
@@ -1683,18 +1683,6 @@ When an Alignment Conserver breaches a role-specific requirement, this is misali
 ### A.1.4.7 - AC Requirements Of Anonymity And High Operational Security [Section]  <!-- UUID: 36b68ff0-30a3-4fb9-af04-a2869a4233fe -->
 
 The Alignment Conserver roles of Facilitator and Aligned Delegate require anonymity and high levels of operational security. Breaches of these anonymity and operational security requirements are considered serious misalignment. In the event of such breaches, the known identities of individuals holding these AC roles shall be promptly derecognized, and they will be barred from further participation as Alignment Conservers.
-
-#### A.1.4.7.1 - Exemption From Facilitator Anonymity Requirement [Core]  <!-- UUID: cb2ae821-e9b8-47b0-bda8-bc8bb149c5b5 -->
-
-The Facilitator "Ecosystem" is exempt from the anonymity requirement, as well as the requirement of high levels of operational security insofar as the latter requirement relates to maintaining anonymity. This exemption applies solely to the Facilitator "Ecosystem", as they onboarded into the role prior to the ratification of Atlas v1 (March 27, 2023), which introduced the anonymity requirement for Facilitators.
-
-This exemption applies to limit the effect of the following provisions: [A.1.6.3 - Facilitators Must Maintain High Level Of Operational Security](014feb92-49dc-4117-911f-a6ec14451b30); [A.1.6.4 - Derecognition Required Where Facilitator Operational Security Is Compromised](c3ba34f0-b3f0-449b-b609-52548db090ea); [A.1.6.5 - Facilitators Must Err On Side Of Caution](ac9df70a-d110-42da-805a-abe03b52dcdc); and [A.0.1.1.19 - Facilitator](912e0161-3448-470f-9cf6-d1a26d76acab). 
-
-This limited exemption takes precedence over any conflicting provisions in the Atlas.
-
-#### A.1.4.7.0.4.1 - ADs & Facilitators required to adhere to comprehensive operational security practices [Action Tenet]  <!-- UUID: 598ff9cf-146e-4499-93d3-583518c390a1 -->
-
-The operational security of the Alignment Conserver roles is key to governance integrity overall. Aligned Delegates and Facilitators are mandated to maintain rigorous operational security practices to ensure that their identities and work activities are anonymized and all related information is safeguarded. Such practices must go beyond basic privacy-enhancing measures and must include the use of secure communication channels, stringent data encryption, anonymity tools like VPNs and TOR networks, regular security audits, and rigorous digital footprint management.
 
 #### NR-4 - Operational Security Protocols - Research Track [Needed Research]  <!-- UUID: e33879c1-93d0-48a6-8f08-ad00a4821bde -->
 
@@ -1710,11 +1698,31 @@ The Security Scope Advisor could also assist in reviewing an informant's evidenc
 
 This Needed Research is an extensive Research Track, given the wide-ranging implications and potential mechanisms around opsec best practices, and also how these should map onto the Atlas.
 
+#### A.1.4.7.1 - Exemption From Facilitator Anonymity Requirement [Core]  <!-- UUID: cb2ae821-e9b8-47b0-bda8-bc8bb149c5b5 -->
+
+The Facilitator "Ecosystem" is exempt from the anonymity requirement, as well as the requirement of high levels of operational security insofar as the latter requirement relates to maintaining anonymity. This exemption applies solely to the Facilitator "Ecosystem", as they onboarded into the role prior to the ratification of Atlas v1 (March 27, 2023), which introduced the anonymity requirement for Facilitators.
+
+This exemption applies to limit the effect of the following provisions: [A.1.6.3 - Facilitators Must Maintain High Level Of Operational Security](014feb92-49dc-4117-911f-a6ec14451b30); [A.1.6.4 - Derecognition Required Where Facilitator Operational Security Is Compromised](c3ba34f0-b3f0-449b-b609-52548db090ea); [A.1.6.5 - Facilitators Must Err On Side Of Caution](ac9df70a-d110-42da-805a-abe03b52dcdc); and [A.0.1.1.19 - Facilitator](912e0161-3448-470f-9cf6-d1a26d76acab). 
+
+This limited exemption takes precedence over any conflicting provisions in the Atlas.
+
+#### A.1.4.7.0.4.1 - ADs & Facilitators required to adhere to comprehensive operational security practices [Action Tenet]  <!-- UUID: 598ff9cf-146e-4499-93d3-583518c390a1 -->
+
+The operational security of the Alignment Conserver roles is key to governance integrity overall. Aligned Delegates and Facilitators are mandated to maintain rigorous operational security practices to ensure that their identities and work activities are anonymized and all related information is safeguarded. Such practices must go beyond basic privacy-enhancing measures and must include the use of secure communication channels, stringent data encryption, anonymity tools like VPNs and TOR networks, regular security audits, and rigorous digital footprint management.
+
 ### A.1.4.8 - Swift Action Is Required From Facilitators To Redress AC Misalignment [Section]  <!-- UUID: 40f850ee-b3f2-4126-9128-4f6a6b38d275 -->
 
 The Core Facilitator must act swiftly when an AC is suspected of breaching the requirements defined in this Article, or the requirements defined in the Articles specific to the Aligned Delegate or Facilitator role.
 
 The Core Facilitator's failure to act promptly in addressing credible evidence of AC misalignment or to mitigate the risk of misalignment spreading among ACs is considered an act of misalignment itself. Formal allegations of such failure must be adjudicated by Core GovOps pursuant to [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
+
+#### NR-5 - Derecognition Procedure [Needed Research]  <!-- UUID: 7b90bfa2-c857-4170-b6cd-2d4adb290aa0 -->
+
+**Content**:
+
+Research specific procedural steps for the derecognition of an AC. The procedure should account for ways in which this process can be streamlined or standardized to ensure swift action. Research should identify potential bottlenecks and suggest ways to eliminate them, such as pre-defined decision-making protocols, clear documentation requirements, and fast-track procedures for urgent cases.
+
+Another point to research involves the concepts of due process or fairness. Specific logic currently active in the Atlas clearly indicates that ACs are held to the highest standards of Universal Alignment. Such a standard would seem to indicate that "fairness" is not an objective in any proceeding involving AC derecognition. What are the arguments for and against this?
 
 #### A.1.4.8.0.3.1 - Risk Of Misalignment Spreading Among ACs - Element Annotation [Annotation]  <!-- UUID: 13c4f127-0ef2-43b5-a5ac-905719091bdd -->
 
@@ -1730,14 +1738,6 @@ Where the allegation of misalignment concerns the Core Facilitator, a community 
 
 By "swiftly," the Target Document requires Facilitators to take immediate and prompt action without unnecessary delay. The urgency is intended to prevent further harm or disruption within the governance system. A highly time-sensitive response is mandated for any breaches or potential risks of AC misalignment.
 
-#### NR-5 - Derecognition Procedure [Needed Research]  <!-- UUID: 7b90bfa2-c857-4170-b6cd-2d4adb290aa0 -->
-
-**Content**:
-
-Research specific procedural steps for the derecognition of an AC. The procedure should account for ways in which this process can be streamlined or standardized to ensure swift action. Research should identify potential bottlenecks and suggest ways to eliminate them, such as pre-defined decision-making protocols, clear documentation requirements, and fast-track procedures for urgent cases.
-
-Another point to research involves the concepts of due process or fairness. Specific logic currently active in the Atlas clearly indicates that ACs are held to the highest standards of Universal Alignment. Such a standard would seem to indicate that "fairness" is not an objective in any proceeding involving AC derecognition. What are the arguments for and against this?
-
 ### A.1.4.9 - Adjudication Process [Section]  <!-- UUID: 560e1024-0897-4f1e-ae71-3ba31e29ed57 -->
 
 The Core Facilitator is responsible for adjudicating formal allegations of misalignment or operational security breaches brought against Alignment Conservers (ACs).
@@ -1745,6 +1745,20 @@ The Core Facilitator is responsible for adjudicating formal allegations of misal
 In the adjudication of these matters, the Core Facilitator is mandated to hold ACs to the highest standard of Universal Alignment, without granting them the benefit of the doubt.
 
 The adjudication process is further defined in the subdocuments herein.
+
+#### NR-8 - Systematic Basis Of Adjudication, Fact-Finding And Evidence [Needed Research]  <!-- UUID: 279f417e-2fec-473d-ab7c-eaf5b371c598 -->
+
+**Content**:
+
+This need is an extensive Research Track. The central research need that grows out of the Facilitator role has to do with developing systematic principles and protocols to serve as the foundation for adjudicating disputes and controversies, including processes for fact-finding, evidence validation and evaluation, mechanisms for ensuring impartiality and objectivity, an appeals process, etc. 
+
+The Atlas has made a good start with establishing an adjudication framework. There is some logic concerning procedures for how disputes and controversies (including Alignment Conserver misalignment) are brought forward and how they are reviewed. But essential elements are missing, such as protocols and standards for fact-finding and evidence. 
+
+Needed Research here includes methods for implementing a structured fact-finding process that gathers relevant information impartially and comprehensively. Who has the authority to investigate, to request evidence, to handle evidence?  What types of evidence are permissible to consider? See [Responsibly Provided - Whistleblower Evidence Of Misalignment Must Be Secured Ethically](ba46ef4f-2ed6-4b16-b5b5-8a3ee01ad18d). What are the processes for collecting, preserving, and analyzing this evidence? When should evidence be shared with the larger community and when should it be kept confidential? 
+
+Then there is the matter of assessing evidence in a way that is rigorous and impartial, without which, confidence in the Atlas and the governance process may be undermined. What criteria should be used to validate and evaluate evidence to ensure its reliability and relevance in decision-making? This involves determining the credibility of sources, the reliability of evidence, and the relevance of information to the specific case. The research should explore different approaches to evidence evaluation, such as the application of the burden of proof, standards of proof (e.g., preponderance of evidence, beyond a reasonable doubt), and the use of experts. 
+
+How much discretion should Facilitators have in interpreting and applying the element "the highest standard of Universal Alignment"? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.
 
 #### A.1.4.9.1 - Opportunity to Respond [Core]  <!-- UUID: 4217002f-6c87-45fb-80ac-598472e3fff9 -->
 
@@ -1761,6 +1775,12 @@ If the Core Facilitator concludes that the allegation of misalignment or operati
 ##### A.1.4.9.2.1 - Warnings Appropriate For Mild Breach [Core]  <!-- UUID: f8107b34-93b1-4ab8-a6ab-c4e70a048933 -->
 
 In cases of very mild "slippery slope" breaches of the Alignment Conserver requirements, a formal warning may be given and recorded in the subdocuments herein. Where such a breach was the first instance of misalignment by the Alignment Conserver, no disciplinary measures beyond a formal warning are required.
+
+###### NR-6 - Defining Threshold For “Very Mild Slippery Slope" Breaches [Needed Research]  <!-- UUID: db47c59f-a822-4213-9305-8c8eb07c41f0 -->
+
+**Content**:
+
+What specific actions or omissions qualify as "very mild slippery slope" breaches? Helpful research can include: developing a set of criteria or a checklist that defines what constitutes a "very mild slippery slope" breach. This could involve an analysis of past or hypothetical incidents, consultations with the Facilitators, etc. Such guidelines are likely needed to help Facilitators reliably determine whether an act should be classified as a 'minor' slippery slope infraction or a more severe act which would merit derecognition.
 
 ###### A.1.4.9.2.1.1 - Warning Notice [Core]  <!-- UUID: 0222d1c6-67ab-456e-82d6-41f3b834f285 -->
 
@@ -1802,15 +1822,17 @@ The element "mild slippery slope breach" characterizes a form of misalignment or
 
 Any Alignment Conserver misalignment, regardless of its seemingly trivial nature, carries inherent risks. ACs must be held to the highest standards of Universal Alignment. The Target Document indicates that leniency towards AC infractions could set a risky precedent, where, for instance, misaligned actors justify themselves based on prior instances of lenience.
 
-###### NR-6 - Defining Threshold For “Very Mild Slippery Slope" Breaches [Needed Research]  <!-- UUID: db47c59f-a822-4213-9305-8c8eb07c41f0 -->
-
-**Content**:
-
-What specific actions or omissions qualify as "very mild slippery slope" breaches? Helpful research can include: developing a set of criteria or a checklist that defines what constitutes a "very mild slippery slope" breach. This could involve an analysis of past or hypothetical incidents, consultations with the Facilitators, etc. Such guidelines are likely needed to help Facilitators reliably determine whether an act should be classified as a 'minor' slippery slope infraction or a more severe act which would merit derecognition.
-
 ##### A.1.4.9.2.2 - Mandated Derecognition For Severe Breaches [Core]  <!-- UUID: 12044fd7-4cfa-4431-aa03-a9531353c6dd -->
 
 In cases where severe actions or violations occur that can be reasonably interpreted as Governance Attacks, the Alignment Conserver must be promptly derecognized by the Core Facilitator.
+
+###### NR-7 - Defining “Severe Actions Or Violations" And “Governance Attack” [Needed Research]  <!-- UUID: 98d5b899-f012-403d-9c6a-2ffda4ec2961 -->
+
+**Content**:
+
+What specific criteria or actions qualify as "severe" enough to warrant derecognition? Develop clear guidelines that define what constitutes a "severe case" in the context of misaligned actions. This involves identifying key indicators of severity, such as the magnitude of the impact, the intent behind the actions, and the potential or actual harm caused.
+
+Also needed: What actions or behaviors specifically constitute a "Governance Attack"? Can you propose criteria or frameworks for assessing intent, the scope of actions, and their potential consequences? The research can perhaps explore how different governance models define and respond to attacks and consider psychological, legal, and operational perspectives to support a more fact-driven interpretive approach.
 
 ###### A.1.4.9.2.2.0.3.1 - Governance Attacks - Element Annotation [Annotation]  <!-- UUID: c5bb1fc6-942f-4edc-818b-bf7aa75137c2 -->
 
@@ -1821,14 +1843,6 @@ The element "governance attack" is a critical violation of the Sky ecosystem's g
 The element 'promptly' in the Target Document means 'as soon as is reasonably possible.'
 
 To adhere to this commitment, the Core Facilitator must derecognize the AC within a general timeframe of 1-2 calendar days upon conclusion of an adjudication that finds against the AC for misalignment. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the Facilitators’ control.
-
-###### NR-7 - Defining “Severe Actions Or Violations" And “Governance Attack” [Needed Research]  <!-- UUID: 98d5b899-f012-403d-9c6a-2ffda4ec2961 -->
-
-**Content**:
-
-What specific criteria or actions qualify as "severe" enough to warrant derecognition? Develop clear guidelines that define what constitutes a "severe case" in the context of misaligned actions. This involves identifying key indicators of severity, such as the magnitude of the impact, the intent behind the actions, and the potential or actual harm caused.
-
-Also needed: What actions or behaviors specifically constitute a "Governance Attack"? Can you propose criteria or frameworks for assessing intent, the scope of actions, and their potential consequences? The research can perhaps explore how different governance models define and respond to attacks and consider psychological, legal, and operational perspectives to support a more fact-driven interpretive approach.
 
 #### A.1.4.9.3 - Issuing of Public Report [Core]  <!-- UUID: 8d8dfab8-1350-42e7-bc20-3ae2eca86005 -->
 
@@ -1852,25 +1866,17 @@ See [A.0.1.1.9 - Letter Of The Rule Vs Spirit Of The Rule](ff16fd74-3a81-4cac-92
 
 In adjudicating potential misalignment of Alignment Conservers, Facilitators are not to assume innocence or give leeway in cases of ambiguity. Instead, the burden is on the Alignment Conserver to provide clear and convincing evidence of their alignment. Any uncertainty or doubt regarding the AC’s alignment will be resolved against them, requiring them to definitively prove their adherence to the Atlas.
 
-#### NR-8 - Systematic Basis Of Adjudication, Fact-Finding And Evidence [Needed Research]  <!-- UUID: 279f417e-2fec-473d-ab7c-eaf5b371c598 -->
-
-**Content**:
-
-This need is an extensive Research Track. The central research need that grows out of the Facilitator role has to do with developing systematic principles and protocols to serve as the foundation for adjudicating disputes and controversies, including processes for fact-finding, evidence validation and evaluation, mechanisms for ensuring impartiality and objectivity, an appeals process, etc. 
-
-The Atlas has made a good start with establishing an adjudication framework. There is some logic concerning procedures for how disputes and controversies (including Alignment Conserver misalignment) are brought forward and how they are reviewed. But essential elements are missing, such as protocols and standards for fact-finding and evidence. 
-
-Needed Research here includes methods for implementing a structured fact-finding process that gathers relevant information impartially and comprehensively. Who has the authority to investigate, to request evidence, to handle evidence?  What types of evidence are permissible to consider? See [Responsibly Provided - Whistleblower Evidence Of Misalignment Must Be Secured Ethically](ba46ef4f-2ed6-4b16-b5b5-8a3ee01ad18d). What are the processes for collecting, preserving, and analyzing this evidence? When should evidence be shared with the larger community and when should it be kept confidential? 
-
-Then there is the matter of assessing evidence in a way that is rigorous and impartial, without which, confidence in the Atlas and the governance process may be undermined. What criteria should be used to validate and evaluate evidence to ensure its reliability and relevance in decision-making? This involves determining the credibility of sources, the reliability of evidence, and the relevance of information to the specific case. The research should explore different approaches to evidence evaluation, such as the application of the burden of proof, standards of proof (e.g., preponderance of evidence, beyond a reasonable doubt), and the use of experts. 
-
-How much discretion should Facilitators have in interpreting and applying the element "the highest standard of Universal Alignment"? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.
-
 ### A.1.4.10 - AC Derecognition [Section]  <!-- UUID: ac998664-5b5e-4ea5-813b-dc3105ea6cf2 -->
 
 Derecognition is the ultimate accountability measure for misalignment and entails permanently removing the individual or entity from their role as an Alignment Conserver. An individual/entity who has been derecognized from a Facilitator role is not eligible to serve as an Aligned Delegate, and vice versa. 
 
 The subdocuments herein define rules and processes related to Alignment Conserver Derecognition.
+
+#### NR-9 - Derecognition Uncertainty Due To Anonymous Actors [Needed Research]  <!-- UUID: 69e4df9f-d2f3-4fd2-9add-e1314a0a5eb3 -->
+
+**Content**:
+
+The Target Document defines the act of derecognition as "permanently removing" an entity from the Alignment Conserver role. In fact, it is not possible to effect such a permanent removal. Given the presence of anonymous/pseudonymous actors in the decentralized "workforce" of the Sky ecosystem, a known identity of an actor can be barred from an AC role; and yet that actor can easily re-enter the system under a different pseudonym or identity. Consider what measures can be implemented to counteract the scenario where derecognized entities reappear under a different guise. A robust reputation system is already planned; by tracking reputation that is earned over a long timescale, a derecognized entity would be barred from quickly regaining a foothold.
 
 #### A.1.4.10.1 - Derecognition Notice [Core]  <!-- UUID: 9c05207d-5e11-43ae-a8a3-1b61734d6ef9 -->
 
@@ -1900,12 +1906,6 @@ The Active Data is updated as follows:
 | 2024-12-17 | AD             | Skynet      | -             | [https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718) |  
 | 2024-12-17 | AD             | Pf          | -             | [https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718) |
 | 2026-01-27 | AD             | Sky Staking | -             | [https://forum.sky.money/t/ad-derecognition-due-to-misalignment-2026-01-27/27655](https://forum.sky.money/t/ad-derecognition-due-to-misalignment-2026-01-27/27655)      |
-
-#### NR-9 - Derecognition Uncertainty Due To Anonymous Actors [Needed Research]  <!-- UUID: 69e4df9f-d2f3-4fd2-9add-e1314a0a5eb3 -->
-
-**Content**:
-
-The Target Document defines the act of derecognition as "permanently removing" an entity from the Alignment Conserver role. In fact, it is not possible to effect such a permanent removal. Given the presence of anonymous/pseudonymous actors in the decentralized "workforce" of the Sky ecosystem, a known identity of an actor can be barred from an AC role; and yet that actor can easily re-enter the system under a different pseudonym or identity. Consider what measures can be implemented to counteract the scenario where derecognized entities reappear under a different guise. A robust reputation system is already planned; by tracking reputation that is earned over a long timescale, a derecognized entity would be barred from quickly regaining a foothold.
 
 ## A.1.5 - Aligned Delegates [Article]  <!-- UUID: 75f0063c-ad70-49e4-b356-9b76097ced7b -->
 
