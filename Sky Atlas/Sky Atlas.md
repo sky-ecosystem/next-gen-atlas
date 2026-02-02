@@ -1480,14 +1480,6 @@ Because ungrounded inferences of logic lack such a robust and clearly documented
 
 Alignment Conservers are held to the highest standard when judging whether their actions are Universally Aligned.
 
-#### A.1.4.4.0.4.1 - Highest Standard - Facilitators must apply strictest possible requirements of Universal Alignment on ACs [Action Tenet]  <!-- UUID: 8dfd71fc-7ded-4217-8b6a-2bef00f75b55 -->
-
-In any adjudication involving potential misalignment of Alignment Conservers (ACs), Facilitators are unequivocally directed to apply the strictest and highest standards of Universal Alignment.
-
-As ACs are held to the most rigorous standards of Universal Alignment, Facilitators should acknowledge evidence of misalignment if such evidence is deemed at least 51% more likely than not to be valid or to substantiate the presented claim. Additionally, should the overall weight of the evidence demonstrate a 51% or greater chance that the AC committed a misaligned act, the Facilitator is required to derecognize the AC.
-
-Given the exceptionally high stakes in cases of potential AC misalignment, Facilitators must prioritize an approach grounded in an abundance of caution, steering away from notions of 'fairness' or 'lenience.' Any lapse or misjudgment on the part of an AC cannot be excused based on ignorance of the rules, good intentions, honest mistake or similar factors. Maximal accountability for ACs is non-negotiable, a principle underpinned by the indispensable role of ACs as stewards of Universal Alignment.
-
 #### NR-1 - Systematic Basis Of Adjudication, Fact-Finding And Evidence [Needed Research]  <!-- UUID: 2da58ba2-a172-43bd-b7e7-d3d8e69233bf -->
 
 **Content**:
@@ -1502,9 +1494,35 @@ Then there is the matter of assessing evidence in a way that is rigorous and imp
 
 How much discretion should Facilitators have in interpreting and applying the element "the highest standard of Universal Alignment"? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.
 
+#### A.1.4.4.0.4.1 - Highest Standard - Facilitators must apply strictest possible requirements of Universal Alignment on ACs [Action Tenet]  <!-- UUID: 8dfd71fc-7ded-4217-8b6a-2bef00f75b55 -->
+
+In any adjudication involving potential misalignment of Alignment Conservers (ACs), Facilitators are unequivocally directed to apply the strictest and highest standards of Universal Alignment.
+
+As ACs are held to the most rigorous standards of Universal Alignment, Facilitators should acknowledge evidence of misalignment if such evidence is deemed at least 51% more likely than not to be valid or to substantiate the presented claim. Additionally, should the overall weight of the evidence demonstrate a 51% or greater chance that the AC committed a misaligned act, the Facilitator is required to derecognize the AC.
+
+Given the exceptionally high stakes in cases of potential AC misalignment, Facilitators must prioritize an approach grounded in an abundance of caution, steering away from notions of 'fairness' or 'lenience.' Any lapse or misjudgment on the part of an AC cannot be excused based on ignorance of the rules, good intentions, honest mistake or similar factors. Maximal accountability for ACs is non-negotiable, a principle underpinned by the indispensable role of ACs as stewards of Universal Alignment.
+
 ### A.1.4.5 - ACs Can Be Operationally Active In Only One Role At A Time [Section]  <!-- UUID: 9b1d1c2f-ace0-4637-8050-4711ae9f9a8c -->
 
 An Alignment Conserver can assume one of two roles: Aligned Delegate (AD) and Facilitator. ACs may only be operationally active in a single AC role and may not simultaneously assume multiple AC roles or other ecosystem roles such as Ecosystem Actors.
+
+#### NR-2 - Should Ban Against Occupying Two Ecosystem Roles Apply to All Sky Stakeholder Roles? [Needed Research]  <!-- UUID: 25d8f23b-4d43-43be-aa5a-c48fe372cd7a -->
+
+**Content**:
+
+Given the rationale behind the Target Document [A.1.4 - A5 - Alignment Conservers - Powers And Constraints - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c), the 'simultaneous occupying of two ecosystem roles' prohibition should likely not be limited to just the AC stakeholder category, but rather should apply universally to any Sky stakeholder who occupies a role formally defined in the Atlas. What would be the arguments for and against such a position?
+
+#### NR-3 - Should Team Contributors Be Subject To The Ban Against Occupying Two Ecosystem Roles? [Needed Research]  <!-- UUID: 4560326b-abab-4147-957f-c5c8ddfa96f1 -->
+
+**Content**:
+
+Should team contributors be subject to the Target Document’s prohibition against occupying two roles? What would be the arguments for and against such a position? 
+
+One argument against this would be that quality contributors are a scarce resource. Further, the decentralized work paradigm encourages having several part-time jobs. 
+
+The sharing of contributors across several Sky teams  - such that contributors gain experience in multiple operational aspects - might arguably enhance ecosystem intelligence. 
+
+Would it make a meaningful difference to require contributors who do wish to work multiple roles to be doxxed?
 
 #### A.1.4.5.1 - Temporary Exception for Facilitator “Ecosystem” [Core]  <!-- UUID: 6aa88317-4dc2-4b50-87bd-27cc6de9c767 -->
 
@@ -1652,24 +1670,6 @@ See also, [A.1.4.5.0.4.1 - Operationally Active - Whether An Entity Is "Operatio
 
 An "ecosystem role" need not be compensated or full-time to be regulated by the Target Document.
 
-#### NR-2 - Should Ban Against Occupying Two Ecosystem Roles Apply to All Sky Stakeholder Roles? [Needed Research]  <!-- UUID: 25d8f23b-4d43-43be-aa5a-c48fe372cd7a -->
-
-**Content**:
-
-Given the rationale behind the Target Document [A.1.4 - A5 - Alignment Conservers - Powers And Constraints - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c), the 'simultaneous occupying of two ecosystem roles' prohibition should likely not be limited to just the AC stakeholder category, but rather should apply universally to any Sky stakeholder who occupies a role formally defined in the Atlas. What would be the arguments for and against such a position?
-
-#### NR-3 - Should Team Contributors Be Subject To The Ban Against Occupying Two Ecosystem Roles? [Needed Research]  <!-- UUID: 4560326b-abab-4147-957f-c5c8ddfa96f1 -->
-
-**Content**:
-
-Should team contributors be subject to the Target Document’s prohibition against occupying two roles? What would be the arguments for and against such a position? 
-
-One argument against this would be that quality contributors are a scarce resource. Further, the decentralized work paradigm encourages having several part-time jobs. 
-
-The sharing of contributors across several Sky teams  - such that contributors gain experience in multiple operational aspects - might arguably enhance ecosystem intelligence. 
-
-Would it make a meaningful difference to require contributors who do wish to work multiple roles to be doxxed?
-
 ### A.1.4.6 - ACs Subject To Both General And Role-specific Requirements [Section]  <!-- UUID: a59420ba-5e2c-4736-99a4-fb64eea4cc32 -->
 
 An Alignment Conserver is fully responsible for meeting all requirements tied to the general AC role, which requirements are specified in this Article. 
@@ -1683,18 +1683,6 @@ When an Alignment Conserver breaches a role-specific requirement, this is misali
 ### A.1.4.7 - AC Requirements Of Anonymity And High Operational Security [Section]  <!-- UUID: 36b68ff0-30a3-4fb9-af04-a2869a4233fe -->
 
 The Alignment Conserver roles of Facilitator and Aligned Delegate require anonymity and high levels of operational security. Breaches of these anonymity and operational security requirements are considered serious misalignment. In the event of such breaches, the known identities of individuals holding these AC roles shall be promptly derecognized, and they will be barred from further participation as Alignment Conservers.
-
-#### A.1.4.7.1 - Exemption From Facilitator Anonymity Requirement [Core]  <!-- UUID: cb2ae821-e9b8-47b0-bda8-bc8bb149c5b5 -->
-
-The Facilitator "Ecosystem" is exempt from the anonymity requirement, as well as the requirement of high levels of operational security insofar as the latter requirement relates to maintaining anonymity. This exemption applies solely to the Facilitator "Ecosystem", as they onboarded into the role prior to the ratification of Atlas v1 (March 27, 2023), which introduced the anonymity requirement for Facilitators.
-
-This exemption applies to limit the effect of the following provisions: [A.1.6.3 - Facilitators Must Maintain High Level Of Operational Security](014feb92-49dc-4117-911f-a6ec14451b30); [A.1.6.4 - Derecognition Required Where Facilitator Operational Security Is Compromised](c3ba34f0-b3f0-449b-b609-52548db090ea); [A.1.6.5 - Facilitators Must Err On Side Of Caution](ac9df70a-d110-42da-805a-abe03b52dcdc); and [A.0.1.1.19 - Facilitator](912e0161-3448-470f-9cf6-d1a26d76acab). 
-
-This limited exemption takes precedence over any conflicting provisions in the Atlas.
-
-#### A.1.4.7.0.4.1 - ADs & Facilitators required to adhere to comprehensive operational security practices [Action Tenet]  <!-- UUID: 598ff9cf-146e-4499-93d3-583518c390a1 -->
-
-The operational security of the Alignment Conserver roles is key to governance integrity overall. Aligned Delegates and Facilitators are mandated to maintain rigorous operational security practices to ensure that their identities and work activities are anonymized and all related information is safeguarded. Such practices must go beyond basic privacy-enhancing measures and must include the use of secure communication channels, stringent data encryption, anonymity tools like VPNs and TOR networks, regular security audits, and rigorous digital footprint management.
 
 #### NR-4 - Operational Security Protocols - Research Track [Needed Research]  <!-- UUID: e33879c1-93d0-48a6-8f08-ad00a4821bde -->
 
@@ -1710,11 +1698,31 @@ The Security Scope Advisor could also assist in reviewing an informant's evidenc
 
 This Needed Research is an extensive Research Track, given the wide-ranging implications and potential mechanisms around opsec best practices, and also how these should map onto the Atlas.
 
+#### A.1.4.7.1 - Exemption From Facilitator Anonymity Requirement [Core]  <!-- UUID: cb2ae821-e9b8-47b0-bda8-bc8bb149c5b5 -->
+
+The Facilitator "Ecosystem" is exempt from the anonymity requirement, as well as the requirement of high levels of operational security insofar as the latter requirement relates to maintaining anonymity. This exemption applies solely to the Facilitator "Ecosystem", as they onboarded into the role prior to the ratification of Atlas v1 (March 27, 2023), which introduced the anonymity requirement for Facilitators.
+
+This exemption applies to limit the effect of the following provisions: [A.1.6.3 - Facilitators Must Maintain High Level Of Operational Security](014feb92-49dc-4117-911f-a6ec14451b30); [A.1.6.4 - Derecognition Required Where Facilitator Operational Security Is Compromised](c3ba34f0-b3f0-449b-b609-52548db090ea); [A.1.6.5 - Facilitators Must Err On Side Of Caution](ac9df70a-d110-42da-805a-abe03b52dcdc); and [A.0.1.1.19 - Facilitator](912e0161-3448-470f-9cf6-d1a26d76acab). 
+
+This limited exemption takes precedence over any conflicting provisions in the Atlas.
+
+#### A.1.4.7.0.4.1 - ADs & Facilitators required to adhere to comprehensive operational security practices [Action Tenet]  <!-- UUID: 598ff9cf-146e-4499-93d3-583518c390a1 -->
+
+The operational security of the Alignment Conserver roles is key to governance integrity overall. Aligned Delegates and Facilitators are mandated to maintain rigorous operational security practices to ensure that their identities and work activities are anonymized and all related information is safeguarded. Such practices must go beyond basic privacy-enhancing measures and must include the use of secure communication channels, stringent data encryption, anonymity tools like VPNs and TOR networks, regular security audits, and rigorous digital footprint management.
+
 ### A.1.4.8 - Swift Action Is Required From Facilitators To Redress AC Misalignment [Section]  <!-- UUID: 40f850ee-b3f2-4126-9128-4f6a6b38d275 -->
 
 The Core Facilitator must act swiftly when an AC is suspected of breaching the requirements defined in this Article, or the requirements defined in the Articles specific to the Aligned Delegate or Facilitator role.
 
 The Core Facilitator's failure to act promptly in addressing credible evidence of AC misalignment or to mitigate the risk of misalignment spreading among ACs is considered an act of misalignment itself. Formal allegations of such failure must be adjudicated by Core GovOps pursuant to [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
+
+#### NR-5 - Derecognition Procedure [Needed Research]  <!-- UUID: 7b90bfa2-c857-4170-b6cd-2d4adb290aa0 -->
+
+**Content**:
+
+Research specific procedural steps for the derecognition of an AC. The procedure should account for ways in which this process can be streamlined or standardized to ensure swift action. Research should identify potential bottlenecks and suggest ways to eliminate them, such as pre-defined decision-making protocols, clear documentation requirements, and fast-track procedures for urgent cases.
+
+Another point to research involves the concepts of due process or fairness. Specific logic currently active in the Atlas clearly indicates that ACs are held to the highest standards of Universal Alignment. Such a standard would seem to indicate that "fairness" is not an objective in any proceeding involving AC derecognition. What are the arguments for and against this?
 
 #### A.1.4.8.0.3.1 - Risk Of Misalignment Spreading Among ACs - Element Annotation [Annotation]  <!-- UUID: 13c4f127-0ef2-43b5-a5ac-905719091bdd -->
 
@@ -1730,14 +1738,6 @@ Where the allegation of misalignment concerns the Core Facilitator, a community 
 
 By "swiftly," the Target Document requires Facilitators to take immediate and prompt action without unnecessary delay. The urgency is intended to prevent further harm or disruption within the governance system. A highly time-sensitive response is mandated for any breaches or potential risks of AC misalignment.
 
-#### NR-5 - Derecognition Procedure [Needed Research]  <!-- UUID: 7b90bfa2-c857-4170-b6cd-2d4adb290aa0 -->
-
-**Content**:
-
-Research specific procedural steps for the derecognition of an AC. The procedure should account for ways in which this process can be streamlined or standardized to ensure swift action. Research should identify potential bottlenecks and suggest ways to eliminate them, such as pre-defined decision-making protocols, clear documentation requirements, and fast-track procedures for urgent cases.
-
-Another point to research involves the concepts of due process or fairness. Specific logic currently active in the Atlas clearly indicates that ACs are held to the highest standards of Universal Alignment. Such a standard would seem to indicate that "fairness" is not an objective in any proceeding involving AC derecognition. What are the arguments for and against this?
-
 ### A.1.4.9 - Adjudication Process [Section]  <!-- UUID: 560e1024-0897-4f1e-ae71-3ba31e29ed57 -->
 
 The Core Facilitator is responsible for adjudicating formal allegations of misalignment or operational security breaches brought against Alignment Conservers (ACs).
@@ -1745,6 +1745,20 @@ The Core Facilitator is responsible for adjudicating formal allegations of misal
 In the adjudication of these matters, the Core Facilitator is mandated to hold ACs to the highest standard of Universal Alignment, without granting them the benefit of the doubt.
 
 The adjudication process is further defined in the subdocuments herein.
+
+#### NR-8 - Systematic Basis Of Adjudication, Fact-Finding And Evidence [Needed Research]  <!-- UUID: 279f417e-2fec-473d-ab7c-eaf5b371c598 -->
+
+**Content**:
+
+This need is an extensive Research Track. The central research need that grows out of the Facilitator role has to do with developing systematic principles and protocols to serve as the foundation for adjudicating disputes and controversies, including processes for fact-finding, evidence validation and evaluation, mechanisms for ensuring impartiality and objectivity, an appeals process, etc. 
+
+The Atlas has made a good start with establishing an adjudication framework. There is some logic concerning procedures for how disputes and controversies (including Alignment Conserver misalignment) are brought forward and how they are reviewed. But essential elements are missing, such as protocols and standards for fact-finding and evidence. 
+
+Needed Research here includes methods for implementing a structured fact-finding process that gathers relevant information impartially and comprehensively. Who has the authority to investigate, to request evidence, to handle evidence?  What types of evidence are permissible to consider? See [Responsibly Provided - Whistleblower Evidence Of Misalignment Must Be Secured Ethically](ba46ef4f-2ed6-4b16-b5b5-8a3ee01ad18d). What are the processes for collecting, preserving, and analyzing this evidence? When should evidence be shared with the larger community and when should it be kept confidential? 
+
+Then there is the matter of assessing evidence in a way that is rigorous and impartial, without which, confidence in the Atlas and the governance process may be undermined. What criteria should be used to validate and evaluate evidence to ensure its reliability and relevance in decision-making? This involves determining the credibility of sources, the reliability of evidence, and the relevance of information to the specific case. The research should explore different approaches to evidence evaluation, such as the application of the burden of proof, standards of proof (e.g., preponderance of evidence, beyond a reasonable doubt), and the use of experts. 
+
+How much discretion should Facilitators have in interpreting and applying the element "the highest standard of Universal Alignment"? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.
 
 #### A.1.4.9.1 - Opportunity to Respond [Core]  <!-- UUID: 4217002f-6c87-45fb-80ac-598472e3fff9 -->
 
@@ -1761,6 +1775,12 @@ If the Core Facilitator concludes that the allegation of misalignment or operati
 ##### A.1.4.9.2.1 - Warnings Appropriate For Mild Breach [Core]  <!-- UUID: f8107b34-93b1-4ab8-a6ab-c4e70a048933 -->
 
 In cases of very mild "slippery slope" breaches of the Alignment Conserver requirements, a formal warning may be given and recorded in the subdocuments herein. Where such a breach was the first instance of misalignment by the Alignment Conserver, no disciplinary measures beyond a formal warning are required.
+
+###### NR-6 - Defining Threshold For “Very Mild Slippery Slope" Breaches [Needed Research]  <!-- UUID: db47c59f-a822-4213-9305-8c8eb07c41f0 -->
+
+**Content**:
+
+What specific actions or omissions qualify as "very mild slippery slope" breaches? Helpful research can include: developing a set of criteria or a checklist that defines what constitutes a "very mild slippery slope" breach. This could involve an analysis of past or hypothetical incidents, consultations with the Facilitators, etc. Such guidelines are likely needed to help Facilitators reliably determine whether an act should be classified as a 'minor' slippery slope infraction or a more severe act which would merit derecognition.
 
 ###### A.1.4.9.2.1.1 - Warning Notice [Core]  <!-- UUID: 0222d1c6-67ab-456e-82d6-41f3b834f285 -->
 
@@ -1802,15 +1822,17 @@ The element "mild slippery slope breach" characterizes a form of misalignment or
 
 Any Alignment Conserver misalignment, regardless of its seemingly trivial nature, carries inherent risks. ACs must be held to the highest standards of Universal Alignment. The Target Document indicates that leniency towards AC infractions could set a risky precedent, where, for instance, misaligned actors justify themselves based on prior instances of lenience.
 
-###### NR-6 - Defining Threshold For “Very Mild Slippery Slope" Breaches [Needed Research]  <!-- UUID: db47c59f-a822-4213-9305-8c8eb07c41f0 -->
-
-**Content**:
-
-What specific actions or omissions qualify as "very mild slippery slope" breaches? Helpful research can include: developing a set of criteria or a checklist that defines what constitutes a "very mild slippery slope" breach. This could involve an analysis of past or hypothetical incidents, consultations with the Facilitators, etc. Such guidelines are likely needed to help Facilitators reliably determine whether an act should be classified as a 'minor' slippery slope infraction or a more severe act which would merit derecognition.
-
 ##### A.1.4.9.2.2 - Mandated Derecognition For Severe Breaches [Core]  <!-- UUID: 12044fd7-4cfa-4431-aa03-a9531353c6dd -->
 
 In cases where severe actions or violations occur that can be reasonably interpreted as Governance Attacks, the Alignment Conserver must be promptly derecognized by the Core Facilitator.
+
+###### NR-7 - Defining “Severe Actions Or Violations" And “Governance Attack” [Needed Research]  <!-- UUID: 98d5b899-f012-403d-9c6a-2ffda4ec2961 -->
+
+**Content**:
+
+What specific criteria or actions qualify as "severe" enough to warrant derecognition? Develop clear guidelines that define what constitutes a "severe case" in the context of misaligned actions. This involves identifying key indicators of severity, such as the magnitude of the impact, the intent behind the actions, and the potential or actual harm caused.
+
+Also needed: What actions or behaviors specifically constitute a "Governance Attack"? Can you propose criteria or frameworks for assessing intent, the scope of actions, and their potential consequences? The research can perhaps explore how different governance models define and respond to attacks and consider psychological, legal, and operational perspectives to support a more fact-driven interpretive approach.
 
 ###### A.1.4.9.2.2.0.3.1 - Governance Attacks - Element Annotation [Annotation]  <!-- UUID: c5bb1fc6-942f-4edc-818b-bf7aa75137c2 -->
 
@@ -1821,14 +1843,6 @@ The element "governance attack" is a critical violation of the Sky ecosystem's g
 The element 'promptly' in the Target Document means 'as soon as is reasonably possible.'
 
 To adhere to this commitment, the Core Facilitator must derecognize the AC within a general timeframe of 1-2 calendar days upon conclusion of an adjudication that finds against the AC for misalignment. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the Facilitators’ control.
-
-###### NR-7 - Defining “Severe Actions Or Violations" And “Governance Attack” [Needed Research]  <!-- UUID: 98d5b899-f012-403d-9c6a-2ffda4ec2961 -->
-
-**Content**:
-
-What specific criteria or actions qualify as "severe" enough to warrant derecognition? Develop clear guidelines that define what constitutes a "severe case" in the context of misaligned actions. This involves identifying key indicators of severity, such as the magnitude of the impact, the intent behind the actions, and the potential or actual harm caused.
-
-Also needed: What actions or behaviors specifically constitute a "Governance Attack"? Can you propose criteria or frameworks for assessing intent, the scope of actions, and their potential consequences? The research can perhaps explore how different governance models define and respond to attacks and consider psychological, legal, and operational perspectives to support a more fact-driven interpretive approach.
 
 #### A.1.4.9.3 - Issuing of Public Report [Core]  <!-- UUID: 8d8dfab8-1350-42e7-bc20-3ae2eca86005 -->
 
@@ -1852,25 +1866,17 @@ See [A.0.1.1.9 - Letter Of The Rule Vs Spirit Of The Rule](ff16fd74-3a81-4cac-92
 
 In adjudicating potential misalignment of Alignment Conservers, Facilitators are not to assume innocence or give leeway in cases of ambiguity. Instead, the burden is on the Alignment Conserver to provide clear and convincing evidence of their alignment. Any uncertainty or doubt regarding the AC’s alignment will be resolved against them, requiring them to definitively prove their adherence to the Atlas.
 
-#### NR-8 - Systematic Basis Of Adjudication, Fact-Finding And Evidence [Needed Research]  <!-- UUID: 279f417e-2fec-473d-ab7c-eaf5b371c598 -->
-
-**Content**:
-
-This need is an extensive Research Track. The central research need that grows out of the Facilitator role has to do with developing systematic principles and protocols to serve as the foundation for adjudicating disputes and controversies, including processes for fact-finding, evidence validation and evaluation, mechanisms for ensuring impartiality and objectivity, an appeals process, etc. 
-
-The Atlas has made a good start with establishing an adjudication framework. There is some logic concerning procedures for how disputes and controversies (including Alignment Conserver misalignment) are brought forward and how they are reviewed. But essential elements are missing, such as protocols and standards for fact-finding and evidence. 
-
-Needed Research here includes methods for implementing a structured fact-finding process that gathers relevant information impartially and comprehensively. Who has the authority to investigate, to request evidence, to handle evidence?  What types of evidence are permissible to consider? See [Responsibly Provided - Whistleblower Evidence Of Misalignment Must Be Secured Ethically](ba46ef4f-2ed6-4b16-b5b5-8a3ee01ad18d). What are the processes for collecting, preserving, and analyzing this evidence? When should evidence be shared with the larger community and when should it be kept confidential? 
-
-Then there is the matter of assessing evidence in a way that is rigorous and impartial, without which, confidence in the Atlas and the governance process may be undermined. What criteria should be used to validate and evaluate evidence to ensure its reliability and relevance in decision-making? This involves determining the credibility of sources, the reliability of evidence, and the relevance of information to the specific case. The research should explore different approaches to evidence evaluation, such as the application of the burden of proof, standards of proof (e.g., preponderance of evidence, beyond a reasonable doubt), and the use of experts. 
-
-How much discretion should Facilitators have in interpreting and applying the element "the highest standard of Universal Alignment"? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.
-
 ### A.1.4.10 - AC Derecognition [Section]  <!-- UUID: ac998664-5b5e-4ea5-813b-dc3105ea6cf2 -->
 
 Derecognition is the ultimate accountability measure for misalignment and entails permanently removing the individual or entity from their role as an Alignment Conserver. An individual/entity who has been derecognized from a Facilitator role is not eligible to serve as an Aligned Delegate, and vice versa. 
 
 The subdocuments herein define rules and processes related to Alignment Conserver Derecognition.
+
+#### NR-9 - Derecognition Uncertainty Due To Anonymous Actors [Needed Research]  <!-- UUID: 69e4df9f-d2f3-4fd2-9add-e1314a0a5eb3 -->
+
+**Content**:
+
+The Target Document defines the act of derecognition as "permanently removing" an entity from the Alignment Conserver role. In fact, it is not possible to effect such a permanent removal. Given the presence of anonymous/pseudonymous actors in the decentralized "workforce" of the Sky ecosystem, a known identity of an actor can be barred from an AC role; and yet that actor can easily re-enter the system under a different pseudonym or identity. Consider what measures can be implemented to counteract the scenario where derecognized entities reappear under a different guise. A robust reputation system is already planned; by tracking reputation that is earned over a long timescale, a derecognized entity would be barred from quickly regaining a foothold.
 
 #### A.1.4.10.1 - Derecognition Notice [Core]  <!-- UUID: 9c05207d-5e11-43ae-a8a3-1b61734d6ef9 -->
 
@@ -1888,23 +1894,18 @@ The Active Data is updated as follows:
 
 ##### A.1.4.10.2.0.6.1 - Derecognized Alignment Conservers [Active Data]  <!-- UUID: e7aec672-ed19-4329-aaf7-736950be2eb7 -->
 
-| Date       | Conserver Role | Identity   | Known Aliases | Reasoning Post |  
-|------------|----------------|------------|---------------|----------------|  
-| 2023-06-08 | AD             | Bulwark    | -             | [https://forum.sky.money/t/notice-aligned-delegate-derecognition-and-avc-member-warning/21099](https://forum.sky.money/t/notice-aligned-delegate-derecognition-and-avc-member-warning/21099) |  
-| 2023-10-30 | AD             | PALC       | -             | [https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532](https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532) |  
-| 2023-10-30 | AD             | Navigator  | -             | [https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532](https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532) |  
-| 2023-02-02 | AD             | 0xDefensor | -             | [https://forum.sky.money/t/ad-derecognition-due-to-operational-security-breach-02-02-2024/23619](https://forum.sky.money/t/ad-derecognition-due-to-operational-security-breach-02-02-2024/23619) |  
-| 2024-04-06 | AD             | TRUE NAME  | -             | [https://forum.sky.money/t/ad-derecognition-due-to-operational-security-breach-april-5-2024/24043](https://forum.sky.money/t/ad-derecognition-due-to-operational-security-breach-april-5-2024/24043) |  
-| 2024-12-17 | AD             | UPMaker    | -             | [https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718) |  
-| 2024-12-17 | AD             | QGov       | -             | [https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718) |  
-| 2024-12-17 | AD             | Skynet     | -             | [https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718) |  
-| 2024-12-17 | AD             | Pf         | -             | [https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718) |
-
-#### NR-9 - Derecognition Uncertainty Due To Anonymous Actors [Needed Research]  <!-- UUID: 69e4df9f-d2f3-4fd2-9add-e1314a0a5eb3 -->
-
-**Content**:
-
-The Target Document defines the act of derecognition as "permanently removing" an entity from the Alignment Conserver role. In fact, it is not possible to effect such a permanent removal. Given the presence of anonymous/pseudonymous actors in the decentralized "workforce" of the Sky ecosystem, a known identity of an actor can be barred from an AC role; and yet that actor can easily re-enter the system under a different pseudonym or identity. Consider what measures can be implemented to counteract the scenario where derecognized entities reappear under a different guise. A robust reputation system is already planned; by tracking reputation that is earned over a long timescale, a derecognized entity would be barred from quickly regaining a foothold.
+| Date       | Conserver Role | Identity    | Known Aliases | Reasoning Post |  
+|------------|----------------|-------------|---------------|----------------|  
+| 2023-06-08 | AD             | Bulwark     | -             | [https://forum.sky.money/t/notice-aligned-delegate-derecognition-and-avc-member-warning/21099](https://forum.sky.money/t/notice-aligned-delegate-derecognition-and-avc-member-warning/21099) |  
+| 2023-10-30 | AD             | PALC        | -             | [https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532](https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532) |  
+| 2023-10-30 | AD             | Navigator   | -             | [https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532](https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532) |  
+| 2023-02-02 | AD             | 0xDefensor  | -             | [https://forum.sky.money/t/ad-derecognition-due-to-operational-security-breach-02-02-2024/23619](https://forum.sky.money/t/ad-derecognition-due-to-operational-security-breach-02-02-2024/23619) |  
+| 2024-04-06 | AD             | TRUE NAME   | -             | [https://forum.sky.money/t/ad-derecognition-due-to-operational-security-breach-april-5-2024/24043](https://forum.sky.money/t/ad-derecognition-due-to-operational-security-breach-april-5-2024/24043) |  
+| 2024-12-17 | AD             | UPMaker     | -             | [https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718) |  
+| 2024-12-17 | AD             | QGov        | -             | [https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718) |  
+| 2024-12-17 | AD             | Skynet      | -             | [https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718) |  
+| 2024-12-17 | AD             | Pf          | -             | [https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718) |
+| 2026-01-27 | AD             | Sky Staking | -             | [https://forum.sky.money/t/ad-derecognition-due-to-misalignment-2026-01-27/27655](https://forum.sky.money/t/ad-derecognition-due-to-misalignment-2026-01-27/27655)      |
 
 ## A.1.5 - Aligned Delegates [Article]  <!-- UUID: 75f0063c-ad70-49e4-b356-9b76097ced7b -->
 
@@ -2003,7 +2004,6 @@ The Active Data is updated as follows:
 | Excel              | [https://etherscan.io/address/0x0F04a22B62A26e25A29Cba5a595623038ef7AcE7](https://etherscan.io/address/0x0F04a22B62A26e25A29Cba5a595623038ef7AcE7) [https://etherscan.io/verifySig/269574](https://etherscan.io/verifySig/269574)                                 | [https://etherscan.io/address/0xeAD02D18529C10EeDD995F760FDf5e380DDf3Da6](https://etherscan.io/address/0xeAD02D18529C10EeDD995F760FDf5e380DDf3Da6) [https://etherscan.io/verifySig/273466](https://etherscan.io/verifySig/273466)                                      | [https://forum.sky.money/t/excel-ad-recognition-submission/26227](https://forum.sky.money/t/excel-ad-recognition-submission/26227)           |  
 | Tango              | [https://etherscan.io/address/0xB2B86A130B1EC101e4Aed9a88502E08995760307](https://etherscan.io/address/0xB2B86A130B1EC101e4Aed9a88502E08995760307) [https://etherscan.io/verifySig/272368](https://etherscan.io/verifySig/272368)                                 | [https://etherscan.io/address/0x550E5EC00B9d26a3517ce772DdFE73e8Ed1672Ad](https://etherscan.io/address/0x550E5EC00B9d26a3517ce772DdFE73e8Ed1672Ad) [https://etherscan.io/verifySig/274142](https://etherscan.io/verifySig/274142)                                      | [https://forum.sky.money/t/tango-ad-recognition-submission/26310](https://forum.sky.money/t/tango-ad-recognition-submission/26310)           |  
 | Max Staking Yield  | [https://etherscan.io/address/0x9746bDaB7ab2609247332324400cc1fbE887095C](https://etherscan.io/address/0x9746bDaB7ab2609247332324400cc1fbE887095C) [https://etherscan.io/verifySig/273846](https://etherscan.io/verifySig/273846)                                 | [https://etherscan.io/address/0xFf7615E05EC1C8D5dED24AB50Bf74432666BEE2f](https://etherscan.io/address/0xFf7615E05EC1C8D5dED24AB50Bf74432666BEE2f) [https://etherscan.io/verifySig/273847](https://etherscan.io/verifySig/273847)                                      | [https://forum.sky.money/t/max-staking-yield-ad-recognition-submission/26462](https://forum.sky.money/t/max-staking-yield-ad-recognition-submission/26462) |  
-| Sky Staking        | [https://etherscan.io/address/0x05c73AE49fF0ec654496bF4008d73274a919cB5C](https://etherscan.io/address/0x05c73AE49fF0ec654496bF4008d73274a919cB5C) [https://etherscan.io/verifySig/275148](https://etherscan.io/verifySig/275148)                                 | [https://etherscan.io/address/0xE01684B17dF0aBBdAf97839277b194bE4E1A7E79](https://etherscan.io/address/0xE01684B17dF0aBBdAf97839277b194bE4E1A7E79) [https://etherscan.io/verifySig/273489](https://etherscan.io/verifySig/273489)                                      | [https://forum.sky.money/t/sky-staking-recognition-submission/26443](https://forum.sky.money/t/sky-staking-recognition-submission/26443)        |  
 | Kuzmich            | [https://etherscan.io/address/0x2847540606a790E5083d0D63470fAb01344c8e92](https://etherscan.io/address/0x2847540606a790E5083d0D63470fAb01344c8e92) [https://etherscan.io/verifySig/275839](https://etherscan.io/verifySig/275839)                                 | [https://etherscan.io/address/0x2C89024c13A80bC1B662A3dB990524652C15221C](https://etherscan.io/address/0x2C89024c13A80bC1B662A3dB990524652C15221C) [https://etherscan.io/verifySig/275837](https://etherscan.io/verifySig/275837)                                      | [https://forum.sky.money/t/ad-recognition-submission/26743](https://forum.sky.money/t/ad-recognition-submission/26743)                 |
 | OPEX            | [https://etherscan.io/address/0xE3dc949720Da42c5c842D06974BCB7B03F4f604f](https://etherscan.io/address/0xE3dc949720Da42c5c842D06974BCB7B03F4f604f) [https://etherscan.io/verifySig/301199](https://etherscan.io/verifySig/301199)                                 | [https://etherscan.io/address/0x16A5a76904140e01F31C7e7ABD9fB81988469bA4](https://etherscan.io/address/0x16A5a76904140e01F31C7e7ABD9fB81988469bA4) [https://etherscan.io/verifySig/301198](https://etherscan.io/verifySig/301198)                                      | [https://forum.sky.money/t/opex-ad-recognition-submission/27630](https://forum.sky.money/t/opex-ad-recognition-submission/27630)                 |
 
@@ -9443,7 +9443,7 @@ The Active Data is updated as follows:
 The current Sky Direct Exposures are:
     
 - Treasury Bills - Investments by Grove in BUIDL, JTRSY, and USTB on Ethereum Mainnet
-- Collateralized Loan Obligations - Investments by Grove in JAAA on Ethereum Mainnet
+- Collateralized Loan Obligations - Investments by Grove in JAAA on Ethereum Mainnet up to 325M USD
 - Peg Stability Modules - Investments by Spark or Grove in USDC in Peg Stability Modules on blockchains other than Ethereum Mainnet
 - Curve Pools - Investments by Spark in USDT in sUSDS/USDT Curve pools
 
@@ -10361,11 +10361,11 @@ For each Prime Agent, the Initial Calculation must specify whether payments with
 
 ###### A.2.4.1.2.1.2.2 - Independent Calculation By Core Council Risk Advisor On Behalf Of Core Council [Core]  <!-- UUID: 8be8ae66-2453-4d7d-8880-ffaba36bdb7e -->
 
-Within seven (7) calendar days of the end of each month, the Core Council Risk Advisor replies to the Monthly Settlement Cycle Post with their own independent calculation of the net amounts due to or from each Prime Agent (the "Independent Calculation"). The Independent Calculation must contain reasonable supporting detail. The required contents of the Independent Calculation will be further specified in a future iteration of the Atlas.
+Within seven (7) calendar days of the end of each month, the Core Council Risk Advisor replies to the Monthly Settlement Cycle Post with their own independent calculation of the net amounts due to or from each Prime Agent (the "Independent Calculation"). The Independent Calculation should also include calculation of the amounts to be transferred to the Core Council and Aligned Delegates Buffers (see [A.2.3.1.4.1 - Allocation Of Step 1 Capital](76eab64d-a5ba-4f3c-a295-bde0e444d0df)). The Independent Calculation must contain reasonable supporting detail. The required contents of the Independent Calculation will be further specified in a future iteration of the Atlas.
 
 ###### A.2.4.1.2.1.3 - Final Calculation By Core GovOps [Core]  <!-- UUID: 9de89bf3-9051-44f1-9ec0-d362ee4d4b38 -->
 
-Within twelve (12) calendar days of the end of each month, Core GovOps replies to the Monthly Settlement Cycle Post with the final calculation of the net amounts due to or from each Prime Agent (the "Final Calculation"). If there are any Disputed Amounts (see [A.2.4.1.2.1.3.2 - Disputed Amount](4ddda7cd-9942-4f60-9555-6b3f16770334)), then Core GovOps must resolve them. Core GovOps must work with the relevant Operational Executor Agent, relevant Prime Agents, and the Core Council Risk Advisor to reach a mutually acceptable resolution and may consult other parties to the extent it deems advisable.
+Within twelve (12) calendar days of the end of each month, Core GovOps replies to the Monthly Settlement Cycle Post with the final calculation of the net amounts due to or from each Prime Agent (the "Final Calculation"). The Final Calculation should also include the final amounts to be transferred to the Core Council and Aligned Delegates Buffers (see [A.2.3.1.4.1 - Allocation Of Step 1 Capital](76eab64d-a5ba-4f3c-a295-bde0e444d0df)). If there are any Disputed Amounts (see [A.2.4.1.2.1.3.2 - Disputed Amount](4ddda7cd-9942-4f60-9555-6b3f16770334)), then Core GovOps must resolve them. Core GovOps must work with the relevant Operational Executor Agent, relevant Prime Agents, and the Core Council Risk Advisor to reach a mutually acceptable resolution and may consult other parties to the extent it deems advisable.
 
 Core GovOps makes the final decision in resolving differences between the Initial Calculation and the Independent Calculation. The Final Calculation must specify the Final Amount and contain reasonable supporting detail. The required contents of the Final Calculation will be further specified in a future iteration of the Atlas.
 
@@ -11479,11 +11479,13 @@ Specific token allocations are defined in the subdocuments herein.
 
 ###### A.2.8.2.6.2.1.2.1 - Launch Agent 6 Prime Treasury [Core]  <!-- UUID: 1ae8c439-cc0d-400f-90cd-4f5ef10356d6 -->
 
-777,777,778 AGENT6 tokens are allocated to the Launch Agent 6 Prime Treasury (Launch Agent 6’s SubProxy).
+677,777,778 AGENT6 tokens are allocated to the Launch Agent 6 Prime Treasury (Launch Agent 6’s SubProxy).
+
+Launch Agent 6 will use 150,000,000 AGENT6 tokens for incentives.
 
 ###### A.2.8.2.6.2.1.2.2 - Sky Retained Tokens And Reward Pools [Core]  <!-- UUID: efb7339d-fb3d-4f5d-bdea-16ac8c291510 -->
 
-Sky retains 222,222,222 AGENT6 tokens, distributing these as specified in a future iteration of the Atlas.
+Sky retains 322,222,222 AGENT6 tokens, distributing these as specified in a future iteration of the Atlas.
 
 ###### A.2.8.2.6.2.2 - Genesis Capital Allocation [Core]  <!-- UUID: f6ab77a4-8ba4-4f67-8c9f-8cc6a921ae53 -->
 
@@ -11491,13 +11493,19 @@ The subdocuments herein set out agreed terms with respect to Genesis Capital All
 
 ###### A.2.8.2.6.2.2.1 - Launch Agent 6 Initial Allocation [Core]  <!-- UUID: 94b2eef8-f5fd-4df1-8638-e1b81d032c47 -->
 
-The Initial Allocation for Launch Agent 6 is 10,000,000 USDS.
+The Initial Allocation for Launch Agent 6 is 10,500,000 USDS.
 
 ###### A.2.8.2.6.2.2.2 - Initial Allocation Distribution [Core]  <!-- UUID: 20eeeaf4-38bc-4440-be1c-a1ee67ee3491 -->
 
 The Initial Allocation is distributed in USDS to the Launch Agent 6 SubProxy.
 
-###### A.2.8.2.6.2.2.2.1 - Transfer Of Genesis Capital Allocation To Launch Agent 6 SubProxy [Core]  <!-- UUID: 4fd99f26-90a3-4385-a3ea-7949f5d56b3f -->
+###### A.2.8.2.6.2.2.2.1 - Transfer Of Genesis Capital Allocation To Launch Agent 6 Foundation [Core]  <!-- UUID: 4fd99f26-90a3-4385-a3ea-7949f5d56b3f -->
+
+Sky has transferred 500,000 USDS from the Core Council Buffer to the Launch Agent 6 Foundation.
+
+The address of the Launch Agent 6 Foundation on the Ethereum Mainnet is `0xfDD055D3CCEE0D955031CF1FD76c8Db9317cCC58`.
+
+###### A.2.8.2.6.2.2.2.2 - Transfer Of Genesis Capital Allocation To Launch Agent 6 SubProxy [Core]  <!-- UUID: 65638659-eb0d-4e5c-87e8-50705e3595b8 -->
 
 The transfer of 10,000,000 USDS from the Surplus Buffer to the Launch Agent 6 SubProxy for the Genesis Capital Allocation will be included in a future Executive Vote. This action is contingent on mutual agreement by Sky and Launch Agent 6 on a future iteration of this agreement specifying the terms and conditions of the Genesis Capital Allocation.
 
@@ -11566,6 +11574,12 @@ The Initial Allocation for Skybase is 15,000,000 USDS.
 ###### A.2.8.2.7.2.2.2.1 - Transfer Of Genesis Capital Allocation To Skybase SubProxy [Core]  <!-- UUID: 36556509-d2b6-4932-8781-9bf4ecc90987 -->
 
 The transfer of 10,000,000 USDS from the Surplus Buffer to the Skybase SubProxy for the Genesis Capital Allocation will be included in the January 29, 2026 Executive Vote.
+
+This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+
+###### A.2.8.2.7.2.2.2.2 - Transfer Of Genesis Capital Allocation To USDS Demand Multisig [Core]  <!-- UUID: be600bf6-c0f2-42c5-ad5c-fd0cb429b628 -->
+
+The transfer of 5,000,000 USDS from the Surplus Buffer to the USDS Demand Subsidies Multisig (see [A.6.1.1.4.3.4.2 - USDS Demand Subsidies Multisig](20ee784c-115a-40bb-ae74-d4b3726b0c1b)) for the Genesis Capital Allocation will be included in the January 29, 2026 Executive Vote.
 
 This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
@@ -13178,6 +13192,31 @@ Offchain lending through Anchorage Digital has a CRR of 3.5%. The maximum exposu
 - Liquidation LTV: 90% (111.1% collateralization ratio)
 - Maturity Date: Approximately 6-month duration
 
+###### A.3.2.2.1.1.1.1.3.8 - Morpho Vaults [Core]  <!-- UUID: 6cef23c7-aaae-493d-bd76-a2909c25970a -->
+
+The documents herein define the Instance Financial CRR applied to specific Morpho vault allocations.
+
+###### A.3.2.2.1.1.1.1.3.8.1 - Morpho Grove x Steakhouse High Yield USDC Vault  [Core]  <!-- UUID: f3df0565-407c-43bb-9b3e-52bbc5223a26 -->
+
+The CRRs for the following market allocations in the vault are:
+
+- PT-USDe / USDC – LLTV: 91.5%
+  - CRR = 4%
+- PT-sUSDe / USDC – LLTV: 91.5%
+  - CRR = 4%
+- PT-cUSD0 / USDC – LLTV: 91.5%
+  - CRR = 1%
+- mF-One / USDC – LLTV: 91.5%
+  - CRR = 100%
+
+###### A.3.2.2.1.1.1.1.3.8.2 - Morpho Grove x Steakhouse High Yield AUSD Vault  [Core]  <!-- UUID: b9a27ec8-26fd-469b-8963-1e03e9a73ff6 -->
+
+Allocation to the Agora AUSD Morpho Vault on Monad via FalconX has an Instance Financial CRR of 5%. Total combined FalconX allocations must not exceed 100,000,000 USDS.
+
+ ###### A.3.2.2.1.1.1.1.3.9 - Uniswap V3 [Core]  <!-- UUID: 200cd606-26e9-427e-b965-976e7140a976 -->
+
+Allocation to the AUSD / USDC Uniswap v3 pool via FalconX on Monad has a CRR of 3%. Total combined FalconX allocations must not exceed 100,000,000 USDS.
+
 ###### A.3.2.2.1.1.1.1.4 - Reference Implementation [Core]  <!-- UUID: e96da090-34ff-4445-a1d3-22cc69be2e51 -->
 
 A reference implementation of the calculation of Instance Financial RRC for lending markets is included herein.
@@ -13697,12 +13736,15 @@ The documents herein define exceptions to the calculation of Instance Financial 
 
 ###### A.3.2.2.1.1.1.5.3.1 - Instance Financial CRRs For Specific Assets [Core]  <!-- UUID: 672d377f-067e-4742-a987-b2c6258f9c99 -->
 
-The following Instance Financial CRR apply to specific assets:
+The following Instance Financial CRRs apply to specific assets listed:
     
-◦ BUIDL, JTRSY on Ethereum Mainnet, and USTB - 0% Instance Financial CRR    
-◦ JTRSY on Avalanche - 0.5% Instance Financial CRR    
-◦ JAAA on Ethereum Mainnet - 1.6% Instance Financial CRR    
-◦ JAAA on Avalanche - 2.1% Instance Financial CRR
+- BUIDL, JTRSY on Ethereum Mainnet, and USTB - 0% Instance Financial CRR  
+- JTRSY on Avalanche - 0.5% Instance Financial CRR  
+- JAAA on Ethereum Mainnet - 1.6% Instance Financial CRR  
+- JAAA on Avalanche - 2.1% Instance Financial CRR
+- STAC on Ethereum Mainnet - 1.6% Instance Financial CRR
+- GACLO-1 on Ethereum Mainnet - 0.85% Instance Financial CRR
+- ACRDX on Plume - 9.99% Instance Financial CRR
 
 ###### A.3.2.2.1.1.1.5.3.1.1 - Additional Restrictions On Investments In JTRSY And JAAA On Avalanche [Core]  <!-- UUID: 66506235-0e6c-4fa9-8e22-5eb4f19cb330 -->
 
@@ -28454,7 +28496,7 @@ The Ethereum Mainnet Instances Directory of the Morpho Protocol with `Active` St
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.1 - Ethereum Mainnet - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document](29cb8322-96f5-4f18-b4fe-eb31826af580).
 
-###### A.6.1.1.2.2.6.1.1.2.1.7.2 - Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document Location [Core]  <!-- UUID: b75109cc-9cce-4831-ac8a-995d7d145383 -->
+###### A.6.1.1.2.2.6.1.1.2.1.7.2 - Ethereum Mainnet - Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document Location [Core]  <!-- UUID: b75109cc-9cce-4831-ac8a-995d7d145383 -->
 
 This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document](27f06e65-8397-449a-b002-abaa0416badc).
 
@@ -31542,14 +31584,6 @@ The withdrawal rate limits are:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 694b0873-89ee-4919-98cb-3fe2866460d2 -->
-
-The maximum exposure for this Instance is 100 million USDS.
-
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.5.2 - Capital Requirement Ratio [Core]  <!-- UUID: 9de13260-0e24-4c64-9a2e-f3adaabeb4aa -->
-
-The CRR for this Instance is 5%.
-
 ###### A.6.1.1.2.2.6.1.3.1.7.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 3076a14b-eadb-4d3b-87d3-c8ff7e17c420 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
@@ -32065,15 +32099,15 @@ The current `maxAmount` and `slope` for this conduit’s inflow and outflow are 
 
 The deposit rate limits are:
 
-- `maxAmount`: 100,000,000 USDC
-- `slope`: 10,000,000 USDC per day
+- `maxAmount`: 10,000,000 USDC
+- `slope`: 100,000,000 USDC per day
 
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: ce3f0a10-568d-4525-b69d-1669c3cb2e8c -->
 
 The withdrawal rate limits are:
 
-- `maxAmount`: 100,000,000 AUSD
-- `slope`: 10,000,000 AUSD per day
+- `maxAmount`: 10,000,000 AUSD
+- `slope`: 100,000,000 AUSD per day
 
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: b13534e8-3758-4255-8c2d-60520fa36ed5 -->
 
@@ -32164,14 +32198,6 @@ The withdrawal rate limits are:
 ###### A.6.1.1.2.2.6.1.3.1.12.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: ad810569-b88a-4d10-9563-cc0e2cfb27f4 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.2.2.6.1.3.1.12.1.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 87167953-c122-4840-ae33-45843bc8204b -->
-
-The maximum exposure for this Instance is 100 million USDS.
-
-###### A.6.1.1.2.2.6.1.3.1.12.1.2.5.2 - Capital Requirement Ratio [Core]  <!-- UUID: 7a00985a-57b8-45df-9b31-cebc543786a4 -->
-
-The CRR for this Instance is 3%.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 53743f66-97ba-44ed-b386-b0ab75d9b8e4 -->
 
@@ -33699,7 +33725,7 @@ The documents herein contain all data and specifications for Keel’s Instance o
 
 ###### A.6.1.1.3.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 16c06503-ed5a-4dbc-aa30-9417ca0840ad -->
 
-The documents herein organize all base information relevant to Launch Agent 2’s usage of the Distribution Requirement Primitive.
+The documents herein organize all base information relevant to Keel’s usage of the Distribution Requirement Primitive.
 
 ###### A.6.1.1.3.2.3.1.1.1 - Global Activation Status [Core]  <!-- UUID: 067c779a-34c6-4843-96b9-17f868f062de -->
 
@@ -33751,7 +33777,7 @@ The documents herein define the parameters of the Single Instance of the Distrib
 
 ###### A.6.1.1.3.2.3.1.2.1.1.1 - Terms [Core]  <!-- UUID: 3ef3d779-a66e-44f3-9192-6c3a5a5ca971 -->
 
-Launch Agent 2 will buy back and distribute 0.25% of its total token supply per year.
+Keel will buy back and distribute 0.25% of its total token supply per year.
 
 ###### A.6.1.1.3.2.3.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: f9ff9c94-1a3d-4bc6-b2a4-40f9af76b0ac -->
 
@@ -33767,7 +33793,7 @@ This document defines the protocol for routine ongoing management of the Single 
 
 ###### A.6.1.1.3.2.3.1.2.1.2.1.1 - Process Definition For Buy Back And Distribution Obligation [Core]  <!-- UUID: f8f8cbf6-75e0-4dbb-b617-f44bc8cc9d8d -->
 
-The process to buy back and distribute 0.25% of Launch Agent 2’s tokens per year will be specified in future iterations of the Launch Agent 2 Artifact.
+The process to buy back and distribute 0.25% of Keel’s tokens per year will be specified in future iterations of the Keel Artifact.
 
 ###### A.6.1.1.3.2.3.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 7080e7d9-2c7e-4cf8-ad5a-4e3bf65b6d10 -->
 
@@ -33803,11 +33829,11 @@ Because the Distribution Requirement Primitive is deployed only once, no further
 
 ###### A.6.1.1.3.2.3.2 - Market Cap Fee Primitive [Core]  <!-- UUID: f87ddb13-cc78-492d-ad85-e645c93b93fc -->
 
-The documents herein contain all data and specifications for Launch Agent 2’s Instances of the Market Cap Fee Primitive. See [A.2.2.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
+The documents herein contain all data and specifications for Keel’s Instances of the Market Cap Fee Primitive. See [A.2.2.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
 ###### A.6.1.1.3.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 8ed7cb64-d660-4451-a999-54a6f24e0fe2 -->
 
-The documents herein organize all base information relevant to Launch Agent 2’s usage of the Market Cap Fee Primitive.
+The documents herein organize all base information relevant to Keel’s usage of the Market Cap Fee Primitive.
 
 ###### A.6.1.1.3.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 6b0c2885-919e-4c5e-8c05-9c12a5fdbcf1 -->
 
@@ -33855,11 +33881,11 @@ The in progress Invocations of the Market Cap Fee Primitive are contained herein
 
 ###### A.6.1.1.3.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: 354f14b7-2263-45f6-8f27-9897b25d65df -->
 
-The documents herein contain all data and specifications for Launch Agent 2’s Instance of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
+The documents herein contain all data and specifications for Keel’s Instance of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
 ###### A.6.1.1.3.2.3.3.1 - Primitive Hub Document [Core]  <!-- UUID: b8dba4a4-069a-466a-843c-61f676c3be7e -->
 
-The documents herein organize all base information relevant to Launch Agent 2’s usage of the Upkeep Rebate Primitive.
+The documents herein organize all base information relevant to Keel’s usage of the Upkeep Rebate Primitive.
 
 ###### A.6.1.1.3.2.3.3.1.1 - Global Activation Status [Core]  <!-- UUID: f3c3f998-4abc-4c15-95bd-905a9dcf1897 -->
 
@@ -33917,17 +33943,17 @@ The documents herein define the process for the ongoing management of the Single
 
 This document defines the protocol for routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.3.2.3.3.2.1.2.1.1 - Launch Agent 2 Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 06cd14d5-0f55-4ac0-8d9d-f9060e0fcc1b -->
+###### A.6.1.1.3.2.3.3.2.1.2.1.1 - Keel Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 06cd14d5-0f55-4ac0-8d9d-f9060e0fcc1b -->
 
-Launch Agent 2 keeps all tokens of other Agents it holds in its SubProxy account.
+Keel keeps all tokens of other Agents it holds in its SubProxy account.
 
-###### A.6.1.1.3.2.3.3.2.1.2.1.2 - Launch Agent 2 Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: 20ccbfff-9058-47e5-a2d5-893d5bf783b6 -->
+###### A.6.1.1.3.2.3.3.2.1.2.1.2 - Keel Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: 20ccbfff-9058-47e5-a2d5-893d5bf783b6 -->
 
-When paying Ecosystem Upkeep fees, Launch Agent 2 deducts the rebate from the fees it pays.
+When paying Ecosystem Upkeep fees, Keel deducts the rebate from the fees it pays.
 
 ###### A.6.1.1.3.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 77ad2a49-8fa6-499b-bd26-b9fdef57fded -->
 
-Operational GovOps reviews Launch Agent 2’s calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Launch Agent 2 Prime" category and work with Launch Agent 2 to resolve the disagreement. If Operational GovOps and Launch Agent 2 cannot resolve the disagreement, it must be escalated to Core GovOps
+Operational GovOps reviews Keel’s calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Keel Prime" category and work with Keel to resolve the disagreement. If Operational GovOps and Keel cannot resolve the disagreement, it must be escalated to Core GovOps
 
 ###### A.6.1.1.3.2.3.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 4fb94d9f-fc15-4823-bab7-fb35f1247bb7 -->
 
@@ -33963,15 +33989,15 @@ Because the Upkeep Rebate Primitive is deployed only once, no further Instances 
 
 ###### A.6.1.1.3.2.4 - SkyLink Primitives [Core]  <!-- UUID: c81714a3-e1c6-423a-bf54-6456fcb88112 -->
 
-The documents herein implement the SkyLink Primitives for Launch Agent 2. See [A.2.2.7 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
+The documents herein implement the SkyLink Primitives for Keel. See [A.2.2.7 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
 
 ###### A.6.1.1.3.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: 016fd32e-a2db-45d0-8893-739bdacf1c2f -->
 
-The documents herein contain all data and specifications for Launch Agent 2’s Instances of the Token SkyLink Primitive. See [A.2.2.7.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
+The documents herein contain all data and specifications for Keel’s Instances of the Token SkyLink Primitive. See [A.2.2.7.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
 
 ###### A.6.1.1.3.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: b9c869ff-73ed-4b30-bc1a-33c6875524aa -->
 
-The documents herein organize all base information relevant to Launch Agent 2’s usage of the Token SkyLink Primitive.
+The documents herein organize all base information relevant to Keel’s usage of the Token SkyLink Primitive.
 
 ###### A.6.1.1.3.2.4.1.1.1 - Global Activation Status [Core]  <!-- UUID: 4dc84081-55f8-4ab0-aecf-f02c90bfb969 -->
 
@@ -34019,15 +34045,15 @@ The in progress Invocations of the Token SkyLink Primitive are contained herein.
 
 ###### A.6.1.1.3.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: e72378f0-3ee3-452b-8af3-a7ef31f619fe -->
 
-The documents herein implement the Demand Side Stablecoin Primitives for Launch Agent 2. See [A.2.2.8 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
+The documents herein implement the Demand Side Stablecoin Primitives for Keel. See [A.2.2.8 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
 
 ###### A.6.1.1.3.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: 9ec308ad-b010-4f2d-ac33-eb56f1236493 -->
 
-The documents herein contain all data and specifications for Launch Agent 2’s Instances of the Distribution Reward Primitive. See [A.2.2.8.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
+The documents herein contain all data and specifications for Keel’s Instances of the Distribution Reward Primitive. See [A.2.2.8.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
 
 ###### A.6.1.1.3.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: b6b85415-c331-41b9-847e-4c5173528ca8 -->
 
-The documents herein organize all base information relevant to Launch Agent 2’s usage of the Distribution Reward Primitive.
+The documents herein organize all base information relevant to Keel’s usage of the Distribution Reward Primitive.
 
 ###### A.6.1.1.3.2.5.1.1.1 - Global Activation Status [Core]  <!-- UUID: 9e1fc932-ba41-43fb-a63f-c3011020669f -->
 
@@ -34075,11 +34101,11 @@ The in progress Invocations of the Distribution Reward Primitive are contained h
 
 ###### A.6.1.1.3.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: 6319e8b0-577c-4d08-92af-8332fde7e553 -->
 
-The documents herein contain all data and specifications for Launch Agent 2’s Instances of the Integration Boost Primitive. See [A.2.2.8.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
+The documents herein contain all data and specifications for Keel’s Instances of the Integration Boost Primitive. See [A.2.2.8.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
 
 ###### A.6.1.1.3.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: 18b58761-8afa-44e0-824d-32d4c85b429e -->
 
-The documents herein organize all base information relevant to Launch Agent 2’s usage of the Integration Boost Primitive.
+The documents herein organize all base information relevant to Keel’s usage of the Integration Boost Primitive.
 
 ###### A.6.1.1.3.2.5.2.1.1 - Global Activation Status [Core]  <!-- UUID: 8a49aa6e-8451-4773-82b9-17c59d3a8931 -->
 
@@ -34185,11 +34211,11 @@ The documents herein define the process for the ongoing management of the Kamino
 
 This document defines the protocol for routine ongoing management of the Kamino Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.2.2.4 - Instance Ongoing Management Protocol](805381e5-89e7-4fb9-bda7-a97e84b531ba), subject to the qualifications specified in [A.2.2.8.2.2.1.3.2.1 - Near Term Process](4ab621b4-ef8e-4b01-a6aa-9296601033c5). 
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 2 Artifact, a version of the full process definition customized to Launch Agent 2 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Keel Artifact, a version of the full process definition customized to Keel will be included herein.
 
 ###### A.6.1.1.3.2.5.2.2.1.2.1.1 - Agent Customizations [Core]  <!-- UUID: 3872c2ee-5465-4ce1-8c34-3800e61fd674 -->
 
-The Launch Agent 2 Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+The Keel Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
 
 [No customization presently.]
 
@@ -34276,11 +34302,11 @@ The documents herein define the process for the ongoing management of the Drift 
 
 This document defines the protocol for routine ongoing management of the Drift Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.2.2.4 - Instance Ongoing Management Protocol](805381e5-89e7-4fb9-bda7-a97e84b531ba), subject to the qualifications specified in [A.2.2.8.2.2.1.3.2.1 - Near Term Process](4ab621b4-ef8e-4b01-a6aa-9296601033c5). 
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 2 Artifact, a version of the full process definition customized to Launch Agent 2 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Keel Artifact, a version of the full process definition customized to Keel will be included herein.
 
 ###### A.6.1.1.3.2.5.2.2.2.2.1.1 - Agent Customizations [Core]  <!-- UUID: 072498cd-35c7-4e12-a2f7-3c6462257ed3 -->
 
-The Launch Agent 2 Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+The Keel Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
 
 [No customization presently.]
 
@@ -34367,11 +34393,11 @@ The documents herein define the process for the ongoing management of the Save I
 
 This document defines the protocol for routine ongoing management of the Save Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.2.2.4 - Instance Ongoing Management Protocol](805381e5-89e7-4fb9-bda7-a97e84b531ba), subject to the qualifications specified in [A.2.2.8.2.2.1.3.2.1 - Near Term Process](4ab621b4-ef8e-4b01-a6aa-9296601033c5). 
 
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Launch Agent 2 Artifact, a version of the full process definition customized to Launch Agent 2 will be included herein.
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Keel Artifact, a version of the full process definition customized to Keel will be included herein.
 
 ###### A.6.1.1.3.2.5.2.2.3.2.1.1 - Agent Customizations [Core]  <!-- UUID: e5ffb0b8-fd9d-4932-b8fa-1ebcc2cbb0d2 -->
 
-The Launch Agent 2 Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+The Keel Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
 
 [No customization presently.]
 
@@ -36994,15 +37020,15 @@ The in progress Invocations of the Core Governance Reward Primitive are containe
 
 ##### A.6.1.1.3.3 - Omni Documents [Core]  <!-- UUID: bafbbf28-95dc-41a4-9c55-f3befde4e991 -->
 
-The documents herein define Launch Agent 2’s strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
+The documents herein define Keel’s strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
 
 ###### A.6.1.1.3.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: 1889a2a0-7378-487a-a278-aabe3177efff -->
 
-The documents herein specify Launch Agent 2 governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Launch Agent 2 Artifact is specified in the Root Edit Primitive above at [A.6.1.1.3.2.2.2 - Root Edit Primitive](3d02dcbc-6a31-4f63-b464-c8c3ecebb744).
+The documents herein specify Keel governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Keel Artifact is specified in the Root Edit Primitive above at [A.6.1.1.3.2.2.2 - Root Edit Primitive](3d02dcbc-6a31-4f63-b464-c8c3ecebb744).
 
 ###### A.6.1.1.3.3.1.1 - Sky Forum [Core]  <!-- UUID: 63fec69d-a4df-42c3-bb5f-b959e711df56 -->
 
-Launch Agent 2 uses the Sky Forum for governance-related discussion. Posts should use the "Launch Agent 2 Prime" category.
+Keel uses the Sky Forum for governance-related discussion. Posts should use the "Keel Prime" category.
 
 ###### A.6.1.1.3.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: 8613cc87-2809-4716-8c91-93ff0345f7a8 -->
 
@@ -37014,7 +37040,7 @@ The documents herein specify Keel’s emergency response protocol in situations 
 
 ###### A.6.1.1.3.3.2 - Use Of Idle Funds [Core]  <!-- UUID: 41ad175e-48c8-4caf-8cb7-638f90ff0ad6 -->
 
-In the short term prior to Launch Agent 2's implementation of the Allocation System Primitive, Keel may invest idle funds in low-risk decentralized finance opportunities, including providing liquidity to established lending protocols on Solana. These deployments will be subject to the approval of Operational GovOps.
+In the short term prior to Keel's implementation of the Allocation System Primitive, Keel may invest idle funds in low-risk decentralized finance opportunities, including providing liquidity to established lending protocols on Solana. These deployments will be subject to the approval of Operational GovOps.
 
 ###### A.6.1.1.3.3.3 - Ecosystem Accords [Core]  <!-- UUID: e2db688f-a6f1-476a-b7da-dd67d94da35b -->
 
@@ -39962,7 +39988,7 @@ The source of capital for Skybase’s USDS Demand Subsidies is the Skybase Treas
 
 ###### A.6.1.1.4.3.4.2 - USDS Demand Subsidies Multisig [Core]  <!-- UUID: 20ee784c-115a-40bb-ae74-d4b3726b0c1b -->
 
-The USDS Demand Subsidies Multisig is controlled by 3 signers from Operational GovOps Soter Labs.
+The USDS Demand Subsidies Multisig is controlled by two (2) signers from Operational GovOps Soter Labs and one (1) signer from Skybase Foundation.
 
 ###### A.6.1.1.4.3.4.2.1 - Address [Core]  <!-- UUID: 615835d8-475b-48f6-9e0f-bcaf041a63ff -->
 
@@ -39975,7 +40001,9 @@ The USDS Demand Subsidies Multisig currently has a 2/3 signing requirement.
 ###### A.6.1.1.4.3.4.2.3 - Signers [Core]  <!-- UUID: dbb22ec2-97fc-47c1-85d3-9b1cc94d3ce0 -->
 
 The USDS Demand Subsidies Multisig has the following signers:
-SoterLabs (SL): 3 signers
+
+- Soter Labs: 2 signers
+- Skybase Foundation: 1 signer
 
 ###### A.6.1.1.4.3.4.2.4 - Usage Standards [Core]  <!-- UUID: 0d896655-0d03-4c73-b164-3f59668256dd -->
 
@@ -39983,7 +40011,7 @@ The signers must use the USDS Demand Subsidies Multisig to disburse funds on beh
 
 ###### A.6.1.1.4.3.4.2.5 - Modification [Core]  <!-- UUID: 665ca5c5-ca1b-471a-9a10-16c46ee10cfd -->
 
-Operational GovOps Soter Labs can change the signers of the USDS Demand Subsidies Multisig at any time, so long as there are at least three (3) signers and at least two-thirds of signers are required to execute transactions.
+Operational GovOps Soter Labs can change the signers of the USDS Demand Subsidies Multisig at any time, so long as there are at least two (2) signers from Soter Labs and one (1) signer from Skybase Foundation, and at least two-thirds of signers are required to execute transactions.
 
 #### A.6.1.1.5 - Obex [Core]  <!-- UUID: f558e673-cbab-4696-8ca1-3af9b90fe5d4 -->
 
@@ -45145,6 +45173,14 @@ The documents herein define Launch Agent 6's strategic intent and operational pr
 
 The documents herein specify Launch Agent 6 governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Launch Agent 6 Artifact is specified in the Root Edit Primitive above at Root Edit Primitive.
 
+###### A.6.1.1.7.3.2 - Ecosystem Accords [Core]  <!-- UUID: e5440d4f-c17a-4269-9e45-68f324046c84 -->
+
+Launch Agent 6 has formally agreed to the Ecosystem Accords herein.
+
+###### A.6.1.1.7.3.2.1 - Ecosystem Accord 6 [Core]  <!-- UUID: e80f76d8-ab4e-44be-a649-4bb742d8e149 -->
+
+Launch Agent 6 engaged in terms of agreement with Sky in Ecosystem Accord 6, located in [A.2.8.2.6 - Ecosystem Accord 6: Sky And Launch Agent 6](45125ff8-5435-4cbf-9b20-9f55a1dbc883).
+
 ###### A.6.1.1.7.3.1.1 - Sky Forum [Core]  <!-- UUID: 05e36f80-32a1-4181-a98d-feabd2839e50 -->
 
 Launch Agent 6 uses the Sky Forum for governance-related discussion. Posts should use the "Launch Agent 6 Prime" category.
@@ -45160,3 +45196,39 @@ The documents herein specify Launch Agent 6's emergency response protocol in sit
 ### A.6.1.2 - List Of Executor Agent Artifacts [Section]  <!-- UUID: df62511d-afe5-42db-8bd4-6452c5a0f464 -->
 
 The documents herein each set out the Artifacts for Executor Agents. Executor Agent Artifacts contain all rules, processes, parameters, and information relevant to the Agent.
+
+#### A.6.1.2.1 - Operational Executor Agent Amatsu [Core]  <!-- UUID: c57df14a-fde0-43f3-89ed-c2e4981d6bd5 -->
+
+The Agent Artifact for Amatsu will be specified in a future iteration of the Atlas. In the interim, the subdocuments herein contain key information regarding Amatsu.
+
+##### A.6.1.2.1.1 - Operational Executor Facilitator [Core]  <!-- UUID: a874a419-1191-4a48-b97c-c91cfedf378c -->
+
+The Operational Facilitator for Amatsu is Endgame Edge.
+
+##### A.6.1.2.1.2 - Operational GovOps [Core]  <!-- UUID: 66845ee6-4405-4ed8-bb22-4a7558e63a52 -->
+
+Operational GovOps for Amatsu is Amatsu GovOps.
+
+#### A.6.1.2.2 - Operational Executor Agent Ozone [Core]  <!-- UUID: 565660dd-7850-4c3a-8dba-554542bf103a -->
+
+The Agent Artifact for Ozone will be specified in a future iteration of the Atlas. In the interim, the subdocuments herein contain key information regarding Ozone.
+
+##### A.6.1.2.2.1 - Operational Executor Facilitator [Core]  <!-- UUID: d282ccb9-82f8-46da-9180-e15e5714bb88 -->
+
+The Operational Facilitator for Ozone is Redline Facilitation Group.
+
+##### A.6.1.2.2.2 - Operational GovOps [Core]  <!-- UUID: a491d7d0-3e0b-4b6f-a9a7-25b19b6f7117 -->
+
+Operational GovOps for Ozone is Soter Labs.
+
+#### A.6.1.2.3 - Core Council Executor Agent 1 [Core]  <!-- UUID: 12b14e05-159b-4e71-822b-7dd2c17c3358 -->
+
+The Agent Artifact for Core Council Executor Agent 1 will be specified in a future iteration of the Atlas. In the interim, the subdocuments herein contain key information regarding Core Council Executor Agent 1.
+
+##### A.6.1.2.3.1 - Core Executor Facilitator [Core]  <!-- UUID: 8cfee319-727d-459b-ae67-cac3bec157d9 -->
+
+The Facilitator for Core Council Executor Agent 1 is JanSky.
+
+##### A.6.1.2.3.2 - Core GovOps [Core]  <!-- UUID: 3b9b8910-e26b-4bc3-9889-7ee18bdc94f1 -->
+
+GovOps for Core Council Executor Agent 1 is Atlas Axis.
