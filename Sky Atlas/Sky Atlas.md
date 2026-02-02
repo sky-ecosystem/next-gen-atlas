@@ -26981,9 +26981,9 @@ Operational expense reserve is calculated as the higher of past month’s operat
 
 The current Target SubDAO Proxy Value parameters are:
 
-- RRC Lookback Period: 12 months
-- Spark Product Backstop: 5 million USDS
-- Target Runway: 24 months
+- RRC Lookback Period: 3 months
+- Spark Product Backstop: 1 million USDS
+- Target Runway: 12 months
 
 ###### A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy [Core]  <!-- UUID: 6a4870fa-73f1-4d49-b7ee-d531fb59a971 -->
 
@@ -27023,10 +27023,11 @@ The next available Spark proxy spell will include a transfer of this calculated 
 
 The current buyback policy parameters are:
 
-- Standard Buyback rate: 10%
+- Standard Buyback rate: 25%
 - Enhanced Buyback rate: 100%
 - Enhanced Buyback threshold: 200%
 - Buyback executor: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC
+- Buyback recipient: 0x3300f198988e4C9C63F75dF86De36421f06af8c4
 
 ###### A.6.1.1.1.3.5 - Spark Savings Configuration [Core]  <!-- UUID: 9b4ce799-3baa-42e8-a742-7e8deb377dfc -->
 
