@@ -25067,7 +25067,11 @@ The Protocol Flash Loan Fee is set on a protocol level, regardless of what asset
 
 The subdocuments herein define the current configuration of the SparkLend risk parameters.
 
-###### A.6.1.1.1.3.2.1.1.2.1 - GNO Risk Parameters [Core]  <!-- UUID: acd9d2a2-ff4f-44fc-a544-f4cc02262a5b -->
+###### A.6.1.1.1.3.2.1.1.2.1 - SparkLend Ethereum Risk Parameters [Core]  <!-- UUID: b370fb72-57f8-4cf1-aab9-597d08afe403 -->
+
+The subdocuments herein define the current configuration of the SparkLend Ethereum risk parameters.
+
+###### A.6.1.1.1.3.2.1.1.2.1.1 - GNO Risk Parameters [Core]  <!-- UUID: acd9d2a2-ff4f-44fc-a544-f4cc02262a5b -->
 
 The current GNO risk parameters are:
 
@@ -25109,7 +25113,7 @@ The current GNO risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.2 - Dai Risk Parameters [Core]  <!-- UUID: 7d8ed55b-4aca-483b-af6d-24badb49d042 -->
+###### A.6.1.1.1.3.2.1.1.2.1.2 - Dai Risk Parameters [Core]  <!-- UUID: 7d8ed55b-4aca-483b-af6d-24badb49d042 -->
 
 The current Dai risk parameters are:
 
@@ -25153,7 +25157,7 @@ The current Dai risk parameters are:
 
 The Dai Borrow Rate is set through the Interest Rate Model as a spread over the Sky Savings Rate. The spread is set directly by the Stability Facilitators in consultation with the Core Council Risk Advisor.
 
-###### A.6.1.1.1.3.2.1.1.2.3 - USDS Risk Parameters [Core]  <!-- UUID: d9a146b8-f101-4cd6-916c-85142bb8deec -->
+###### A.6.1.1.1.3.2.1.1.2.1.3 - USDS Risk Parameters [Core]  <!-- UUID: d9a146b8-f101-4cd6-916c-85142bb8deec -->
 
 The current USDS risk parameters are:
 
@@ -25197,7 +25201,7 @@ The current USDS risk parameters are:
 
 The USDS Borrow Rate is set through the Interest Rate Model as a spread over the Sky Savings Rate. The spread is set directly by the Stability Facilitators in consultation with the Core Council Risk Advisor.
 
-###### A.6.1.1.1.3.2.1.1.2.4 - WETH Risk Parameters [Core]  <!-- UUID: b1a1fb8a-29d7-4bbd-8204-25c74263c25d -->
+###### A.6.1.1.1.3.2.1.1.2.1.4 - WETH Risk Parameters [Core]  <!-- UUID: b1a1fb8a-29d7-4bbd-8204-25c74263c25d -->
 
 The current WETH risk parameters are:
 
@@ -25243,7 +25247,7 @@ The current WETH risk parameters are:
 The Slope 1 parameter for WETH is calculated based on the following formula:
 slope 1 = stETH yield + slope 1 spread - base rate
 
-###### A.6.1.1.1.3.2.1.1.2.5 - USDT Risk Parameters [Core]  <!-- UUID: 4999a374-380b-4694-a67c-0fa471b4cf43 -->
+###### A.6.1.1.1.3.2.1.1.2.1.5 - USDT Risk Parameters [Core]  <!-- UUID: 4999a374-380b-4694-a67c-0fa471b4cf43 -->
 
 The current USDT risk parameters are:
 
@@ -25285,7 +25289,7 @@ The current USDT risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.6 - WBTC Risk Parameters [Core]  <!-- UUID: c3c3830f-4829-48fc-aced-30dcdd2a5ba7 -->
+###### A.6.1.1.1.3.2.1.1.2.1.6 - WBTC Risk Parameters [Core]  <!-- UUID: c3c3830f-4829-48fc-aced-30dcdd2a5ba7 -->
 
 The current WBTC risk parameters are:
 
@@ -25327,7 +25331,7 @@ The current WBTC risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.7 - sDai Risk Parameters [Core]  <!-- UUID: 61c21da3-22ff-4dba-8736-4a9a8556a32b -->
+###### A.6.1.1.1.3.2.1.1.2.1.7 - sDai Risk Parameters [Core]  <!-- UUID: 61c21da3-22ff-4dba-8736-4a9a8556a32b -->
 
 The current sDai risk parameters are:
 
@@ -25369,7 +25373,7 @@ The current sDai risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.8 - wstETH Risk Parameters [Core]  <!-- UUID: 5d721ab3-be87-4989-b4a2-b32ff38b912f -->
+###### A.6.1.1.1.3.2.1.1.2.1.8 - wstETH Risk Parameters [Core]  <!-- UUID: 5d721ab3-be87-4989-b4a2-b32ff38b912f -->
 
 The current wstETH risk parameters are:
 
@@ -25411,7 +25415,7 @@ The current wstETH risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.9 - USDC Risk Parameters [Core]  <!-- UUID: d8242d1a-18f2-4000-a98b-0521486b0708 -->
+###### A.6.1.1.1.3.2.1.1.2.1.9 - USDC Risk Parameters [Core]  <!-- UUID: d8242d1a-18f2-4000-a98b-0521486b0708 -->
 
 The current USDC risk parameters are:
 
@@ -25453,7 +25457,7 @@ The current USDC risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.10 - weETH Risk Parameters [Core]  <!-- UUID: 6ed18918-a695-44a6-82e7-547a3fbcafd3 -->
+###### A.6.1.1.1.3.2.1.1.2.1.10 - weETH Risk Parameters [Core]  <!-- UUID: 6ed18918-a695-44a6-82e7-547a3fbcafd3 -->
 
 The current weETH risk parameters are:
 
@@ -25495,7 +25499,7 @@ The current weETH risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.11 - rETH Risk Parameters [Core]  <!-- UUID: 9ef0bc64-db94-4d78-ac8b-cef71d28fedc -->
+###### A.6.1.1.1.3.2.1.1.2.1.11 - rETH Risk Parameters [Core]  <!-- UUID: 9ef0bc64-db94-4d78-ac8b-cef71d28fedc -->
 
 The current rETH risk parameters are:
 
@@ -25537,7 +25541,7 @@ The current rETH risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.12 - LBTC Risk Parameters [Core]  <!-- UUID: 37ff9748-6f72-4adf-af97-0f90cb7154b4 -->
+###### A.6.1.1.1.3.2.1.1.2.1.12 - LBTC Risk Parameters [Core]  <!-- UUID: 37ff9748-6f72-4adf-af97-0f90cb7154b4 -->
 
 The current LBTC risk parameters are:
 
@@ -25579,7 +25583,7 @@ The current LBTC risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.13 - tBTC Risk Parameters [Core]  <!-- UUID: 17e2cc64-6172-48f8-a4f1-a2a7bc5edbbb -->
+###### A.6.1.1.1.3.2.1.1.2.1.13 - tBTC Risk Parameters [Core]  <!-- UUID: 17e2cc64-6172-48f8-a4f1-a2a7bc5edbbb -->
 
 The current tBTC risk parameters are:
 
@@ -25591,7 +25595,7 @@ The current tBTC risk parameters are:
 
 - Liquidation Bonus: 8%
 
-- Reserve Factor: 20%
+- Reserve Factor: 99%
 
 - Supply Cap: Set by cap automator
 
@@ -25607,7 +25611,7 @@ The current tBTC risk parameters are:
 
 - Slope 2: 300%
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 - Collateral: Yes
 
@@ -25621,7 +25625,7 @@ The current tBTC risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.14 - ezETH Risk Parameters [Core]  <!-- UUID: 51f3555b-57a3-4275-b462-a4ba85f3b8fe -->
+###### A.6.1.1.1.3.2.1.1.2.1.14 - ezETH Risk Parameters [Core]  <!-- UUID: 51f3555b-57a3-4275-b462-a4ba85f3b8fe -->
 
 The current ezETH risk parameters are:
 
@@ -25649,7 +25653,7 @@ The current ezETH risk parameters are:
 
 - Slope 2: 300%
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 - Collateral: Yes
 
@@ -25663,7 +25667,7 @@ The current ezETH risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.15 - rsETH Risk Parameters [Core]  <!-- UUID: 1da6ef90-fca2-4f72-9b8d-13a3786a3c1c -->
+###### A.6.1.1.1.3.2.1.1.2.1.15 - rsETH Risk Parameters [Core]  <!-- UUID: 1da6ef90-fca2-4f72-9b8d-13a3786a3c1c -->
 
 The current rsETH risk parameters are:
 
@@ -25691,7 +25695,7 @@ The current rsETH risk parameters are:
 
 - Slope 2: 300%
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 - Collateral: Yes
 
@@ -25705,7 +25709,7 @@ The current rsETH risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.16 - cbBTC Risk Parameters [Core]  <!-- UUID: 63038ac2-7666-40bb-ad9f-dba7c1a546b8 -->
+###### A.6.1.1.1.3.2.1.1.2.1.16 - cbBTC Risk Parameters [Core]  <!-- UUID: 63038ac2-7666-40bb-ad9f-dba7c1a546b8 -->
 
 The current cbBTC risk parameters are:
 
@@ -25745,7 +25749,7 @@ The current cbBTC risk parameters are:
 
 - Siloed Borrowing: No
 
-###### A.6.1.1.1.3.2.1.1.2.17 - sUSDS Risk Parameters [Core]  <!-- UUID: 1d7f757a-aabb-463d-9d3d-3f34f1c0656a -->
+###### A.6.1.1.1.3.2.1.1.2.1.17 - sUSDS Risk Parameters [Core]  <!-- UUID: 1d7f757a-aabb-463d-9d3d-3f34f1c0656a -->
 
 The current sUSDS risk parameters are:
 
@@ -25785,7 +25789,7 @@ The current sUSDS risk parameters are:
 
 - Siloed Borrowing: No
 
-###### A.6.1.1.1.3.2.1.1.2.18 - pyUSD Risk Parameters [Core]  <!-- UUID: 5e05e5d8-8477-460f-a197-4b49bfa8652f -->
+###### A.6.1.1.1.3.2.1.1.2.1.18 - pyUSD Risk Parameters [Core]  <!-- UUID: 5e05e5d8-8477-460f-a197-4b49bfa8652f -->
 
 The current pyUSD risk parameters are:
 
@@ -25825,13 +25829,395 @@ The current pyUSD risk parameters are:
 
 - Siloed Borrowing: No
 
-###### A.6.1.1.1.3.2.1.1.2.19 - Total Flash Loan Fee Current Value [Core]  <!-- UUID: fdd544f0-fa59-42f5-afb8-290cd812eb35 -->
+###### A.6.1.1.1.3.2.1.1.2.1.19 - Total Flash Loan Fee Current Value [Core]  <!-- UUID: fdd544f0-fa59-42f5-afb8-290cd812eb35 -->
 
 The Total Flash Loan Fee is 0.00%.
 
-###### A.6.1.1.1.3.2.1.1.2.20 - Protocol Flash Loan Fee Current Value [Core]  <!-- UUID: 086d81f6-e8e2-4693-996f-6ccb62ee362b -->
+###### A.6.1.1.1.3.2.1.1.2.1.20 - Protocol Flash Loan Fee Current Value [Core]  <!-- UUID: 086d81f6-e8e2-4693-996f-6ccb62ee362b -->
 
 The Protocol Flash Loan Fee is 0.00%.
+
+###### A.6.1.1.1.3.2.1.1.2.2 - SparkLend Gnosis Risk Parameters [Core]  <!-- UUID: 1ecdd683-0f6f-4bca-8f43-c2a458224404 -->
+
+The subdocuments herein define the current configuration of the SparkLend Gnosis risk parameters.
+
+###### A.6.1.1.1.3.2.1.1.2.2.1 - GNO Risk Parameters [Core]  <!-- UUID: aacc4fa0-3fd8-44f4-af79-7ec3d4128328 -->
+
+The current GNO risk parameters are:
+
+- LTV: 40%
+
+- Liquidation Threshold: 50%
+
+- E-mode Category: N/A
+
+- Liquidation Bonus: 12%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 100,000 GNO
+
+- Borrow Cap: N/A
+
+- Optimal Utilization: 80%
+
+- Isolated Debt Ceiling: $1,000,000
+
+- Base Rate: 0%
+
+- Slope 1: 0%
+
+- Slope 2: 0%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: No
+
+- Isolated Collateral: Yes
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
+
+###### A.6.1.1.1.3.2.1.1.2.2.2 - WETH Risk Parameters [Core]  <!-- UUID: dc3b3c32-f891-49fa-bdb4-8944d14e3d56 -->
+
+The current WETH risk parameters are:
+
+- LTV: 70%
+
+- Liquidation Threshold: 75%
+
+- E-mode Category: ETH
+
+- Liquidation Bonus: 5%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 5,000 ETH
+
+- Borrow Cap: 3,000 ETH
+
+- Optimal Utilization: 80%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 2.5%
+
+- Slope 2: 120%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: Yes
+
+###### A.6.1.1.1.3.2.1.1.2.2.3 - USDT Risk Parameters [Core]  <!-- UUID: f5a396c7-dc2c-4d67-adff-89c5a8c62652 -->
+
+The current USDT risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 0%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 0%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 10,000,000 USDT
+
+- Borrow Cap: 8,000,000 USDT
+
+- Optimal Utilization: 95%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 9%
+
+- Slope 2: 15%
+
+- Reserve State: Frozen
+
+- Collateral: No
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: Yes
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: Yes
+
+###### A.6.1.1.1.3.2.1.1.2.2.4 - sDai Risk Parameters [Core]  <!-- UUID: 2c982dbd-dee3-45ce-9e45-48d7ebc33acb -->
+
+The current sDai risk parameters are:
+
+- LTV: 70%
+
+- Liquidation Threshold: 75%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 6%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 40,000,000 sDai
+
+- Borrow Cap: N/A
+
+- Optimal Utilization: 80%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 0%
+
+- Slope 2: 0%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: No
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
+
+###### A.6.1.1.1.3.2.1.1.2.2.5 - wstETH Risk Parameters [Core]  <!-- UUID: a07d0682-9249-4a4f-b2a3-c0dfb163c683 -->
+
+The current wstETH risk parameters are:
+
+- LTV: 65%
+
+- Liquidation Threshold: 72.5%
+
+- E-mode Category: ETH
+
+- Liquidation Bonus: 8%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 15,000 wstETH
+
+- Borrow Cap: 100 wstETH
+
+- Optimal Utilization: 45%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 1%
+
+- Slope 1: 3%
+
+- Slope 2: 100%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: Yes
+
+###### A.6.1.1.1.3.2.1.1.2.2.6 - USDC Risk Parameters [Core]  <!-- UUID: f54fff22-1cad-4ccd-80ae-f05f0345c384 -->
+
+The current USDC risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 0%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 0%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 10,000,000 USDC
+
+- Borrow Cap: 1,000,000 USDC
+
+- Optimal Utilization: 80%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 9%
+
+- Slope 2: 50%
+
+- Reserve State: Frozen
+
+- Collateral: No
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: Yes
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: Yes
+
+###### A.6.1.1.1.3.2.1.1.2.2.7 - USDC.e Risk Parameters [Core]  <!-- UUID: b54fc943-6d64-4c67-9aa2-150665be6493 -->
+
+The current USDC.e risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 0%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 0%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 10,000,000 USDC.e
+
+- Borrow Cap: 8,000,000 USDC.e
+
+- Optimal Utilization: 95%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 9%
+
+- Slope 2: 15%
+
+- Reserve State: Frozen
+
+- Collateral: No
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: Yes
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
+
+###### A.6.1.1.1.3.2.1.1.2.2.8 - WXDAI Risk Parameters [Core]  <!-- UUID: 57bae006-ff07-4da7-adc3-ea3649ce7e38 -->
+
+The current WXDAI risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 75%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 5%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 20,000,000 WXDAI
+
+- Borrow Cap: 16,000,000 WXDAI
+
+- Optimal Utilization: 95%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 9%
+
+- Slope 2: 15%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: Yes
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
+
+###### A.6.1.1.1.3.2.1.1.2.2.9 - EURe Risk Parameters [Core]  <!-- UUID: 1a8186bd-c557-4a6d-80e3-a8140a215e06 -->
+
+The current EURe risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 0%
+
+- E-mode Category: N/A
+
+- Liquidation Bonus: 0%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 5,000,000 EURe
+
+- Borrow Cap: 4,000,000 EURe
+
+- Optimal Utilization: 95%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 5%
+
+- Slope 2: 15%
+
+- Reserve State: Frozen
+
+- Collateral: No
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
 
 ###### A.6.1.1.1.3.2.1.1.3 - SparkLend Risk Parameters Cap Automators [Core]  <!-- UUID: 6ffdb8ee-b083-40f5-b51b-1c91e954b68b -->
 
