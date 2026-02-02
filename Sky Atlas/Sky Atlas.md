@@ -26434,15 +26434,15 @@ The current buyback policy parameters are:
 - Enhanced Buyback threshold: 200%
 - Buyback executor: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC
 
-###### A.6.1.1.1.3.4.2.4 - SPK Contributor Vesting  <!-- UUID: 3b2d9368-7dd5-424a-b9da-b6218ffb5c55 -->
+###### A.6.1.1.1.3.4.2.4 - SPK Contributor Vesting [Core]  <!-- UUID: 3b2d9368-7dd5-424a-b9da-b6218ffb5c55 -->
 
 The documents herein define Spark’s policy for managing the SPK contributor vesting.
 
-###### A.6.1.1.1.3.4.2.4.1 - Definition  <!-- UUID: 318b9af4-5b49-41f1-b134-dd2133eafca8 -->
+###### A.6.1.1.1.3.4.2.4.1 - Definition [Core]  <!-- UUID: 318b9af4-5b49-41f1-b134-dd2133eafca8 -->
 
 The SPK contributor vesting is a 4-year linear vesting schedule that compensates Spark contributors.
 
-###### A.6.1.1.1.3.4.2.4.2 - Parameters  <!-- UUID: 0921d2d9-0270-40ab-bfad-726d3bcd345d -->
+###### A.6.1.1.1.3.4.2.4.2 - Parameters [Core]  <!-- UUID: 0921d2d9-0270-40ab-bfad-726d3bcd345d -->
 
 The current SPK contributor vesting parameters are:
 
