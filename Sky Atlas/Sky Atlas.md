@@ -23450,8 +23450,8 @@ The current TransferAsset rate limits for this conduit's transferAssets operat
 
 ###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 66f2a388-119c-4908-9ff7-f38190e9566d -->
 
-- `maxAmount`: 5,000,000
-- `slope`: 50,000,000
+- `maxAmount`: 5,000,000 USDC
+- `slope`: 50,000,000 USDC
 
 ###### A.6.1.1.1.2.6.1.3.1.11.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 51453e8e-19c2-45e1-95e3-88ce99e9c80f -->
 
@@ -23519,8 +23519,8 @@ The current TransferAsset rate limits for this conduit's transferAssets operat
 
 ###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 1f64320b-feca-4059-95d3-f73950382031 -->
 
-- `maxAmount`: 5,000,000
-- `slope`: 200,000,000
+- `maxAmount`: 5,000,000 PYUSD
+- `slope`: 200,000,000 PYUSD
 
 ###### A.6.1.1.1.2.6.1.3.1.11.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 880763c4-9474-41e4-bd59-2afb8796ab8b -->
 
@@ -23588,8 +23588,8 @@ The current TransferAsset rate limits for this conduit's transferAssets operat
 
 ###### A.6.1.1.1.2.6.1.3.1.11.3.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: eb39ef45-405a-46d5-acac-c0ecc47b7ea2 -->
 
-- `maxAmount`: 5,000,000
-- `slope`: 200,000,000
+- `maxAmount`: 5,000,000 PYUSD
+- `slope`: 200,000,000 PYUSD
 
 ###### A.6.1.1.1.2.6.1.3.1.11.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 58faa1d1-96fb-44cd-8902-81a48cf7d2a8 -->
 
@@ -23657,8 +23657,8 @@ The current TransferAsset rate limits for this conduit's transferAssets operat
 
 ###### A.6.1.1.1.2.6.1.3.1.11.4.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 22e01de3-379b-4724-9ff6-136937c002d2 -->
 
-- `maxAmount`: 5,000,000
-- `slope`: 100,000,000
+- `maxAmount`: 5,000,000 USDG
+- `slope`: 100,000,000 USDG
 
 ###### A.6.1.1.1.2.6.1.3.1.11.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: c8887b5e-fb8f-4364-bc4d-715a5393fbb3 -->
 
