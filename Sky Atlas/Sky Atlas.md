@@ -2170,7 +2170,7 @@ Once calculated by the Core Facilitator, AD payouts are paid from the Aligned De
 
 Are there risks that should be considered regarding the potential mismanagement or misuse of the AD budget? The Target Document lists several examples of permissible ways to use the AD budget, which indicates implicitly constraints, or disallowed expenditures. How would compliance with these guidelines be monitored?
 
-###### A.1.5.3.4.1.1 - One Month's Budget Allocation [Core]  <!-- UUID: 48a2c0f5-5f09-44d3-a930-47e6c12fb901 -->
+###### A.1.5.3.4.1.0.3.1 - One Month's Budget Allocation - Element Annotation [Annotation]  <!-- UUID: 48a2c0f5-5f09-44d3-a930-47e6c12fb901 -->
 
 To arrive at the value of this one-month budget threshold in USDS, see [A.1.5.3.1 - Levels Of Ranked Delegates](f4857d86-f4e7-43c5-be50-fab9e82f0129).
 
@@ -2185,6 +2185,10 @@ If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2
 ###### A.1.5.3.4.2.1.1 - Triggering Threshold [Core]  <!-- UUID: 2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f -->
 
 The Triggering Threshold is the amount of USDS that a Ranked Delegate must have in its AD Buffer to trigger Atlas Edit Weekly Cycle or Atlas Edit Monthly Cycle Proposals. See [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743) and [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886). The Triggering Threshold is equal to one (1) month of compensation based on the budget for Level 3 Ranked Delegates specified in [A.1.5.3.1.3.2 - Budget For Level 3 Ranked Delegates](c51b75e1-8390-46c6-b455-3fd1b155af0d).
+
+###### A.1.5.3.4.2.1.1.0.3.1 - One Month's Budget Allocation - Element Annotation [Annotation]  <!-- UUID: 5de71fff-67b1-410f-9479-82b6b735a85b -->
+
+See [A.1.5.3.4.1.0.3.1 - One Month’s Budget Allocation - Element Annotation](48a2c0f5-5f09-44d3-a930-47e6c12fb901).
 
 ##### A.1.5.3.4.3 - Deduction Of Penalties From AD Buffer [Core]  <!-- UUID: 4a29dd32-2333-471a-bea1-1aa0f5413453 -->
 
