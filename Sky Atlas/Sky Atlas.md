@@ -44200,7 +44200,10 @@ The subtrees for failed Invocations of the Allocation System Primitive are store
 
 The subtrees for Instances of the Allocation System Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.6.2.1.9.1.2 - Active Instances [Core]  <!-- UUID: 5050f24e-45b1-4032-adf7-319235cdb6b9 -->
+###### A.6.1.1.6.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: d02fc174-54ea-4336-8f61-99f530ea533b -->
+
+The documents herein provide general specifications of the Pattern Liquidity Layer and define Pattern’s overarching strategy and operational framework for managing across all Instances.
+
 ###### A.6.1.1.6.2.6.1.3 - Active Instances [Core]  <!-- UUID: 5050f24e-45b1-4032-adf7-319235cdb6b9 -->
 
 The Instances of the Allocation System Primitive with `Active` Status are stored herein.
