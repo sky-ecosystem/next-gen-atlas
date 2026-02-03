@@ -2051,7 +2051,7 @@ Level 2 Ranked Delegates are eligible for an intermediate budget and are expecte
 
 There is one (1) Level 2 Ranked Delegate.
 
-###### A.1.5.3.1.2.2 - Budget For Level 2 Ranked Delegates  [Core]  <!-- UUID: 04b54378-1cb5-42cd-be16-e2b93386404d -->
+###### A.1.5.3.1.2.2 - Budget For Level 2 Ranked Delegates [Core]  <!-- UUID: 04b54378-1cb5-42cd-be16-e2b93386404d -->
 
 Each Level 2 Ranked Delegate is eligible for a budget of 175,000 USDS per year.
 
@@ -2071,7 +2071,7 @@ Level 3 Ranked Delegates are eligible for a lower budget and are expected to con
 
 There are three (3) Level 3 Ranked Delegates.
 
-###### A.1.5.3.1.3.2 - Budget For Level 3 Ranked Delegates  [Core]  <!-- UUID: c51b75e1-8390-46c6-b455-3fd1b155af0d -->
+###### A.1.5.3.1.3.2 - Budget For Level 3 Ranked Delegates [Core]  <!-- UUID: c51b75e1-8390-46c6-b455-3fd1b155af0d -->
 
 Each Level 3 Ranked Delegate is eligible for a budget of 48,000 USDS per year.
 
@@ -2099,7 +2099,7 @@ If an RD participates in less than 95% of all eligible votes within the last six
 
 Should an RD's voting activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
 
-###### A.1.5.3.3.1.0.3.1  - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57a0be8f-c0d8-4d0c-bb99-ca3e63da5058 -->
+###### A.1.5.3.3.1.0.3.1 - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57a0be8f-c0d8-4d0c-bb99-ca3e63da5058 -->
 
 The element "proportional linear scale" describes a method where the budget reduction is directly proportional to the decline in voting-communication activity between 95% and 75%. Here, the pertinent range of voting-communication activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the RD budget decreases by **5%** for every percentage point drop in voting-communication activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).
 
@@ -13196,7 +13196,7 @@ Offchain lending through Anchorage Digital has a CRR of 3.5%. The maximum exposu
 
 The documents herein define the Instance Financial CRR applied to specific Morpho vault allocations.
 
-###### A.3.2.2.1.1.1.1.3.8.1 - Morpho Grove x Steakhouse High Yield USDC Vault  [Core]  <!-- UUID: f3df0565-407c-43bb-9b3e-52bbc5223a26 -->
+###### A.3.2.2.1.1.1.1.3.8.1 - Morpho Grove x Steakhouse High Yield USDC Vault [Core]  <!-- UUID: f3df0565-407c-43bb-9b3e-52bbc5223a26 -->
 
 The CRRs for the following market allocations in the vault are:
 
@@ -13209,11 +13209,11 @@ The CRRs for the following market allocations in the vault are:
 - mF-One / USDC – LLTV: 91.5%
   - CRR = 100%
 
-###### A.3.2.2.1.1.1.1.3.8.2 - Morpho Grove x Steakhouse High Yield AUSD Vault  [Core]  <!-- UUID: b9a27ec8-26fd-469b-8963-1e03e9a73ff6 -->
+###### A.3.2.2.1.1.1.1.3.8.2 - Morpho Grove x Steakhouse High Yield AUSD Vault [Core]  <!-- UUID: b9a27ec8-26fd-469b-8963-1e03e9a73ff6 -->
 
 Allocation to the Agora AUSD Morpho Vault on Monad via FalconX has an Instance Financial CRR of 5%. Total combined FalconX allocations must not exceed 100,000,000 USDS.
 
- ###### A.3.2.2.1.1.1.1.3.9 - Uniswap V3 [Core]  <!-- UUID: 200cd606-26e9-427e-b965-976e7140a976 -->
+###### A.3.2.2.1.1.1.1.3.9 - Uniswap V3 [Core]  <!-- UUID: 200cd606-26e9-427e-b965-976e7140a976 -->
 
 Allocation to the AUSD / USDC Uniswap v3 pool via FalconX on Monad has a CRR of 3%. Total combined FalconX allocations must not exceed 100,000,000 USDS.
 
@@ -15442,7 +15442,7 @@ Aggregate Backstop Capital is (1) the sum of the Genesis Capital held in the Sub
 
 Allocated Genesis Capital is the negative of the Surplus Buffer. Allocated Genesis Capital represents the funds Sky Core has deployed into the Genesis Agents to bootstrap innovation and Agent diversity.
 
-#### A.3.5.3.2 - Capital Types [Core]  <!-- UUID: 3b829981-2fe0-49dd-bfef-8a44edc9514d -->
+#### A.3.5.3.2 - Capital Targets [Core]  <!-- UUID: 3b829981-2fe0-49dd-bfef-8a44edc9514d -->
 
 The documents herein define capital targets for Sky and processes for achieving those targets over time.
 
@@ -29087,11 +29087,11 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document](27f06e65-8397-449a-b002-abaa0416badc).
 
-###### A.6.1.1.2.2.6.1.1.2.1.7.3 - Grove x Steakhouse USDC Morpho Vault v2 Instance Configuration Document Location [Core]  <!-- UUID: c0daf824-060e-449e-be48-f86efd1447e2 -->
+###### A.6.1.1.2.2.6.1.1.2.1.7.3 - Ethereum Mainnet - Grove x Steakhouse USDC Morpho Vault v2 Instance Configuration Document Location [Core]  <!-- UUID: c0daf824-060e-449e-be48-f86efd1447e2 -->
 
 This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Grove x Steakhouse USDC Morpho Vault v2 Instance Configuration Document](6ec606f0-bc47-4f36-8591-75784bb78b00).
 
-###### A.6.1.1.2.2.6.1.1.2.1.7.4 - Steakhouse PYUSD Morpho Vault Instance Configuration Document Location [Core]  <!-- UUID: d0a21cdb-ba69-4f0c-9b67-575996a01c4d -->
+###### A.6.1.1.2.2.6.1.1.2.1.7.4 - Ethereum Mainnet - Steakhouse PYUSD Morpho Vault Instance Configuration Document Location [Core]  <!-- UUID: d0a21cdb-ba69-4f0c-9b67-575996a01c4d -->
 
 This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Steakhouse PYUSD Morpho Vault Instance Configuration Document](0b7e1d3d-1f56-48a6-9729-88479aa5ff92).
 
@@ -29267,7 +29267,7 @@ The address of the Grove receiver on Base is: `0x5F5cfCB8a463868E37Ab27B5eFF3ba0
 
  The contract address of the Circle CCTP v2 Mainnet to Base is: `0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d`.
 
- ###### A.6.1.1.2.2.6.1.2.1.1.1.1.2.4 - Circle CCTP v2 Base To Mainnet [Core]  <!-- UUID: 16efc874-6658-48f0-a1fb-2babd3a90706 -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.2.4 - Circle CCTP v2 Base To Mainnet [Core]  <!-- UUID: 16efc874-6658-48f0-a1fb-2babd3a90706 -->
 
 The contract address of the Circle CCTP v2 Base to Mainnet is: `0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d`.
 
@@ -31757,7 +31757,7 @@ The documents herein define the Instance identifiers.
 
 Ethereum Mainnet
 
-###### A.6.1.1.2.2.6.1.3.1.6.4.2.1.2 - Target Protocol
+###### A.6.1.1.2.2.6.1.3.1.6.4.2.1.2 - Target Protocol [Core]  <!-- UUID: 196f8840-a3f0-435b-90f6-f8e0d46235f9 -->
 
 Curve AUSD/USDC
 
@@ -31826,7 +31826,7 @@ The swap rate limits are:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.6.4.3 - Instance-specific Operational Parameters [Core]  <!-- UUID: 77e3d9d0-7a70-4811-b60a-7bb91202e5df -->
+###### A.6.1.1.2.2.6.1.3.1.6.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 77e3d9d0-7a70-4811-b60a-7bb91202e5df -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
@@ -32242,7 +32242,7 @@ The deposit rate limits are:
 - `maxAmount`: 20,000,000 USDC
 - `slope`: 20,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.2 - Withdrawl Rate Limits [Core]  <!-- UUID: 7e38063c-c6a7-4d45-9344-bd3b22047019 -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 7e38063c-c6a7-4d45-9344-bd3b22047019 -->
 
 The withdrawal rate limits are:
 
@@ -32568,7 +32568,7 @@ The documents herein define the Instance contract addresses.
 
 `0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
 
-###### A.6.1.1.2.2.6.1.3.1.10.1.2.2.2 - Underlying Asset Address  [Core]  <!-- UUID: 6f3ad27d-cb6d-4135-a0ad-444c3d3b2df6 -->
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 6f3ad27d-cb6d-4135-a0ad-444c3d3b2df6 -->
 
 `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
@@ -32654,7 +32654,7 @@ The documents herein define the Instance contract addresses.
 
 `0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a`
 
-###### A.6.1.1.2.2.6.1.3.1.11.1.2.2.2 - Underlying Asset Address  [Core]  <!-- UUID: f8bcf8e0-e5a8-41c3-9963-2ba85697265f -->
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: f8bcf8e0-e5a8-41c3-9963-2ba85697265f -->
 
 `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
@@ -32662,7 +32662,7 @@ The documents herein define the Instance contract addresses.
 
 `0x748b66a6b3666311F370218Bc2819c0bEe13677e`
 
-###### A.6.1.1.2.2.6.1.3.1.11.1.2.2.4 - Withdrawl Address [Core]  <!-- UUID: b811a795-e342-4578-9acb-447a7027c3f5 -->
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.2.4 - Withdrawal Address [Core]  <!-- UUID: b811a795-e342-4578-9acb-447a7027c3f5 -->
 
 `0xab8306d9FeFBE8183c3C59cA897A2E0Eb5beFE67`
 
