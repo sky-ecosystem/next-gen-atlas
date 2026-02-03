@@ -2180,7 +2180,7 @@ If an AD is unranked for an entire month, any contents in its AD Buffer can be p
 
 ###### A.1.5.3.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Proposals [Core]  <!-- UUID: 8eca5ff8-8798-465b-b86a-f9ee5c93f213 -->
 
-If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), or [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886), respectively, no payouts may be made that would reduce their AD Buffer below the [A.1.5.3.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f) specified in Triggering Threshold until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
+If an AD has triggered an Atlas Edit Weekly Cycle Proposal or Atlas Edit Monthly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), or [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886), respectively, no payouts may be made that would reduce their AD Buffer below the Triggering Threshold specified in [A.1.5.3.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f) until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
 
 ###### A.1.5.3.4.2.1.1 - Triggering Threshold [Core]  <!-- UUID: 2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f -->
 
@@ -43858,7 +43858,7 @@ This document contains a Directory of all Instances of the Upkeep Rebate Primiti
 
 ###### A.6.1.1.6.2.3.3.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 9da85689-3fae-4814-8e7e-3c817f1c09f8 -->
 
-This document contains a Directory of all prospective Instances of the Upkeep Rebate Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to Active Instances Directory, whereas failed Invocations are Archived in Hub Data Repository.
+Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.6.2.3.3.1.5 - Hub Data Repository [Core]  <!-- UUID: d3c8ecd1-8a0f-4ffe-a181-3906b7daae8d -->
 
@@ -43938,7 +43938,7 @@ The Instances of the Upkeep Rebate Primitive with `Completed` Status are contain
 
 ###### A.6.1.1.6.2.3.3.4 - In Progress Invocations [Core]  <!-- UUID: 31495a53-3a81-466f-bb02-ac7ba4180851 -->
 
-The in progress Invocations of the Upkeep Rebate Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to Active Instances.
+Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.6.2.4 - SkyLink Primitives [Core]  <!-- UUID: fcc2d538-6b23-45bc-b153-53d2e25ab056 -->
 
@@ -45321,7 +45321,7 @@ The Instances of the Upkeep Rebate Primitive with `Completed` Status are contain
 
 ###### A.6.1.1.7.2.3.3.4 - In Progress Invocations [Core]  <!-- UUID: 5ceee64b-59df-42e1-9da4-71b9f91dcb1c -->
 
-The in progress Invocations of the Upkeep Rebate Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [Active Instances](288c1b34-5986-4a83-abc1-56efa6af6500).
+Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.7.2.4 - SkyLink Primitives [Core]  <!-- UUID: 58d0ebb7-7b3d-46bb-9976-de6a7fa76e2d -->
 
