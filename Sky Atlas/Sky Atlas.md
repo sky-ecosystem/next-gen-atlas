@@ -3515,7 +3515,7 @@ The document uses different levels of Markdown headings to organize its content 
 
 - Third-level headings are used within the Proposal Details section to describe individual input executive actions. Each action is presented under its own third-level heading, making it easy to identify and review.
 
-- Fourth-level headings are used to describe specific derived actions within an input action. These headings provide additional context or detail necessary for understanding the implications of the input action, such as actions triggered by a Prime spell or changes to market parameters.
+- Fourth-level headings are used to describe specific derived actions within an input action. These headings provide additional context or detail necessary for understanding the implications of the input action, such as actions triggered by an Agent spell or changes to market parameters.
 
 This structured approach ensures that the document is both easy to navigate and comprehensive.
 
@@ -32881,7 +32881,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 4bfb42c0-cb39-4d13-bf80-6d0a0a51c47d -->
 
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 960ce9e1-84f5-4798-81a6-6619ea153552 -->
 
@@ -32985,7 +32985,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: f33d7fc9-9654-4aa8-8ed5-13881c37ba24 -->
 
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 6b6dd157-be7c-4170-a25d-f65f529e48b5 -->
 
@@ -43928,7 +43928,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 ###### A.6.1.1.6.2.3.3.3 - Completed Instances [Core]  <!-- UUID: 3aa8f9e7-67ca-4411-9938-d3e7472f3cfe -->
 
-The Instances of the Upkeep Rebate Primitive with `Completed` Status are stored herein.
+The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
 ###### A.6.1.1.6.2.3.3.4 - In Progress Invocations [Core]  <!-- UUID: 31495a53-3a81-466f-bb02-ac7ba4180851 -->
 
@@ -44092,7 +44092,7 @@ The Instances of the Integration Boost Primitive with `Active` Status are stored
 
 ###### A.6.1.1.6.2.5.2.3 - Completed Instances [Core]  <!-- UUID: 27f4e5af-96a6-490f-8f1c-5f745548a4af -->
 
-The Instances of the Integration Boost Primitive with `Completed` Status are stored herein.
+The Instances of the Integration Boost Primitive with `Completed` Status are contained herein.
 
 ###### A.6.1.1.6.2.5.2.4 - In Progress Invocations [Core]  <!-- UUID: f4323304-2a2b-41e2-9be1-adb41d3f1f8e -->
 
@@ -45211,7 +45211,7 @@ The in progress Invocations of the Market Cap Fee Primitive are contained herein
 
 ###### A.6.1.1.7.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: 8389ea55-0cd8-4471-b940-50b9882f0924 -->
 
-The documents herein contain all data and specifications for Launch Agent 6's instances of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
+The documents herein contain all data and specifications for Launch Agent 6's instance of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
 ###### A.6.1.1.7.2.3.3.1 - Primitive Hub Document [Core]  <!-- UUID: 9693a23e-9116-43d3-87ae-5036fa0fb4d1 -->
 
@@ -45311,7 +45311,7 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 ###### A.6.1.1.7.2.3.3.3 - Completed Instances [Core]  <!-- UUID: 6187f71c-8d4f-4a95-9aff-a87395f3f6b1 -->
 
-The Instances of the Upkeep Rebate Primitive with `Completed` Status are stored herein.
+The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
 ###### A.6.1.1.7.2.3.3.4 - In Progress Invocations [Core]  <!-- UUID: 5ceee64b-59df-42e1-9da4-71b9f91dcb1c -->
 
@@ -45475,7 +45475,7 @@ The Instances of the Integration Boost Primitive with `Active` Status are stored
 
 ###### A.6.1.1.7.2.5.2.3 - Completed Instances [Core]  <!-- UUID: 0d520de1-d730-427f-95bd-2ed92b80512d -->
 
-The Instances of the Integration Boost Primitive with `Completed` Status are stored herein.
+The Instances of the Integration Boost Primitive with `Completed` Status are contained herein.
 
 ###### A.6.1.1.7.2.5.2.4 - In Progress Invocations [Core]  <!-- UUID: b86632f7-9311-4313-956f-dd502be7480c -->
 
