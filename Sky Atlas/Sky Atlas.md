@@ -45758,15 +45758,7 @@ The documents herein define Launch Agent 6's strategic intent and operational pr
 
 ###### A.6.1.1.7.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: a472d201-3dfd-4939-9789-5cedce9ea37a -->
 
-The documents herein specify Launch Agent 6 governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Launch Agent 6 Artifact is specified in the Root Edit Primitive above at Root Edit Primitive.
-
-###### A.6.1.1.7.3.2 - Ecosystem Accords [Core]  <!-- UUID: e5440d4f-c17a-4269-9e45-68f324046c84 -->
-
-Launch Agent 6 has formally agreed to the Ecosystem Accords herein.
-
-###### A.6.1.1.7.3.2.1 - Ecosystem Accord 6 [Core]  <!-- UUID: e80f76d8-ab4e-44be-a649-4bb742d8e149 -->
-
-Launch Agent 6 engaged in terms of agreement with Sky in Ecosystem Accord 6, located in [A.2.8.2.6 - Ecosystem Accord 6: Sky And Launch Agent 6](45125ff8-5435-4cbf-9b20-9f55a1dbc883).
+The documents herein specify Launch Agent 6 governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Launch Agent 6 Artifact is specified in the Root Edit Primitive above at [A.6.1.1.7.2.2.2 - Root Edit Primitive](6c61b3d8-6cc8-4250-8173-eee8396a4ef4).
 
 ###### A.6.1.1.7.3.1.1 - Sky Forum [Core]  <!-- UUID: 05e36f80-32a1-4181-a98d-feabd2839e50 -->
 
@@ -45779,6 +45771,14 @@ The documents herein specify Launch Agent 6's emergency response protocol in sit
 ###### A.6.1.1.7.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: 83b9de18-b26c-4b7a-a5d9-8cb39f6dec8c -->
 
 The documents herein specify Launch Agent 6's emergency response protocol in situations solely impacting Launch Agent 6 versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Launch Agent 6 Artifact.
+
+###### A.6.1.1.7.3.2 - Ecosystem Accords [Core]  <!-- UUID: e5440d4f-c17a-4269-9e45-68f324046c84 -->
+
+Launch Agent 6 has formally agreed to the Ecosystem Accords herein.
+
+###### A.6.1.1.7.3.2.1 - Ecosystem Accord 6 [Core]  <!-- UUID: e80f76d8-ab4e-44be-a649-4bb742d8e149 -->
+
+Launch Agent 6 engaged in terms of agreement with Sky in Ecosystem Accord 6, located in [A.2.8.2.6 - Ecosystem Accord 6: Sky And Launch Agent 6](45125ff8-5435-4cbf-9b20-9f55a1dbc883).
 
 ### A.6.1.2 - List Of Executor Agent Artifacts [Section]  <!-- UUID: df62511d-afe5-42db-8bd4-6452c5a0f464 -->
 
