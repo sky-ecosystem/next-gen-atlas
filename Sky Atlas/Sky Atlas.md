@@ -2095,7 +2095,7 @@ A Ranked Delegate's allocated budget can be reduced if they do not fully comply 
 
 The budget allocated to a Ranked Delegate (RD) is modified based on their voting-activity metrics over the past six (6) months. This budget modification takes into account the overall participation of the Ranked Delegate in all votes they are eligible to cast as an Aligned Delegate (AD).
 
-If an RD participates in less than 95% of all eligible votes within the last six (6) months, their RD budget is reduced. The reduction is applied on a proportional linear scale: for every percentage point below 95% voting activity, the RD’s budget is reduced correspondingly.
+If an RD participates in less than 95% of all eligible votes within the last six (6) months, their RD budget is reduced. The reduction is applied on a proportional linear scale: for every percentage point below 95% voting activity, the RD's budget is reduced correspondingly.
 
 Should an RD's voting activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
 
@@ -2107,7 +2107,7 @@ The element "proportional linear scale" describes a method where the budget redu
 
 The budget allocated to a Ranked Delegate (RD) is modified based on their voting-communication metrics over the past six (6) months. An AD is required to provide an explanation for each vote they participate in. This budget modification takes into account the Ranked Delegate’s fulfillment of this voting-communication requirement in all votes they are eligible to cast as an Aligned Delegate (AD).
 
-If an RD provides the required voting-communication on less than 95% of all eligible votes within the last six (6) months, their RD budget stream is reduced. The reduction is applied on a proportional linear scale: for every percentage point below 95% voting-communication activity, the RD’s budget is reduced correspondingly.
+If an RD provides the required voting-communication on less than 95% of all eligible votes within the last six (6) months, their RD budget stream is reduced. The reduction is applied on a proportional linear scale: for every percentage point below 95% voting-communication activity, the RD's budget is reduced correspondingly.
 
 Should an RD's voting-communication activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
 
@@ -2161,7 +2161,8 @@ This includes calculating:
 2. the budget to be deposited into each Aligned Delegate's AD Buffer, which is modified pursuant to voting and communication metrics;
 3. the balance of each Delegate's AD Buffer; and
 4. the amount to be paid out to each Aligned Delegate.
-5. Once calculated by the Core Facilitator, AD payouts are paid from the Aligned Delegates Buffer Multisig. See [A.2.3.1.4.1.2.1 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a).
+
+Once calculated by the Core Facilitator, AD payouts are paid from the Aligned Delegates Buffer Multisig. See [A.2.3.1.4.1.2.1 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a).
 
 ###### NR-10 - AD Budget Management [Needed Research]  <!-- UUID: 6502ce76-3f29-4f50-a68c-9126feba1fb6 -->
 
@@ -6063,11 +6064,12 @@ Agents are responsible for maintaining their Artifacts in accordance with the Sk
 ##### A.1.13.2.10.1 - Responsibility To Maintain Agent Artifact [Core]  <!-- UUID: 603b2914-30eb-4a32-bbdb-1416903428d4 -->
 
 Each Agent is responsible for maintaining its Artifact such that the following requirements are met:
-    
-◦ the Artifact provides clear authorization for all actions taken by the Agent;    
-◦ the Artifact accurately reflects the current state of the Agent and its operations;    
-◦ the Artifact conforms to all specifications in the Sky Core Atlas, including, without limitation, the specifications for each of the Sky Primitives (see [A.2.3](https://sky-atlas.powerhouse.io/A.2.2_Sky_Primitives/1b2f2ff0-8d73-8095-bb8f-ed052141f936%7C9e1f)); and    
-◦ the Artifact is free of significant ambiguities or contradictions.
+
+- the Artifact provides clear authorization for all actions taken by the Agent;
+- the Artifact accurately reflects the current state of the Agent and its operations;
+- the Artifact conforms to all specifications in the Sky Core Atlas, including, without limitation, the specifications for each of the Sky Primitives (see [A.2.2 - Sky Primitives](fcde2604-a138-4c1b-9d9a-14895835c907)); and
+- the Artifact is free of significant ambiguities or contradictions.
+
 If the Agent has an Operational Executor Agent then this responsibility is shared by Operational GovOps and the Operational Facilitator.
 
 ##### A.1.13.2.10.2 - Review By Core GovOps [Core]  <!-- UUID: e0dd40ef-1d3b-4a00-9601-181ce80d3eef -->
@@ -7879,9 +7881,7 @@ This process has no dependencies.
 The process flow for this process is defined herein:
 
 - Using the finalized `Atlas Edit Proposal` content, the Operational Facilitator sets up an offchain Snapshot vote.
-
 - Prime Agent token holders vote on the proposal.
-
 - After the voting concludes, the Operational Facilitator records the result of the vote in the Powerhouse system.
 
 ###### A.2.2.8.1.2.3.5.3 - Required Primitive Inputs [Core]  <!-- UUID: b593ff77-2c46-418d-a7b3-9730437ce804 -->
@@ -7889,31 +7889,28 @@ The process flow for this process is defined herein:
 The required Primitive Inputs to this process are defined herein.
 
 - After Facilitator prepares Snapshot vote:
-    ◦ Edit `Artifact Edit Proposal` Document
-        - Updated fields
-            - Status
-                ◦ New value: set to `Pending Poll`
-            - Off-chain Snapshot
-                ◦ New value: Populate with link to the official Snapshot page
-        - Responsible party: Operational Facilitator
-
+  - Edit `Artifact Edit Proposal` Document
+    - Updated fields
+      - Status
+        - New value: set to `Pending Poll`
+      - Off-chain Snapshot
+        - New value: Populate with link to the official Snapshot page
+    - Responsible party: Operational Facilitator
 - Mutually Exclusive Input Pathways: The two Primitive Inputs below are mutually exclusive pathways. Once the vote concludes, the corresponding Pathway is followed to the exclusion of the other.
-
-    ◦ Proposal Passes
-        - Edit `Artifact Edit Proposal` Document
-            - Update fields
-                ◦ Status
-                    - New value: set to `Poll Approved`
-            - Responsible party: Operational Facilitator.
-            - Trigger - Required Output: Proposal Passes
-
-    ◦ Proposal Fails
-        - Updated fields
-            - Edit `Artifact Edit Proposal` Document
-                ◦ Status
-                    - New value: set to `Poll Rejected`
-            - Responsible party: Operational Facilitator.
-            - Trigger - Required Output: Proposal Fails
+  - Proposal Passes
+    - Edit `Artifact Edit Proposal` Document
+      - Update fields
+        - Status
+          - New value: set to `Poll Approved`
+      - Responsible party: Operational Facilitator.
+      - Trigger - Required Output: Proposal Passes
+  - Proposal Fails
+    - Updated fields
+      - Edit `Artifact Edit Proposal` Document
+        - Status
+          - New value: set to `Poll Rejected`
+      - Responsible party: Operational Facilitator.
+      - Trigger - Required Output: Proposal Fails
 
 ###### A.2.2.8.1.2.3.5.4 - Required Outputs [Core]  <!-- UUID: 1e95dff0-2a7f-461f-86f9-70433b888650 -->
 
@@ -7929,23 +7926,21 @@ The Agent Artifact documents specified herein are updated as the output of this 
 
 - Proposal Passes
   - Required Primitive Input Trigger: Proposal Passes see [A.2.2.8.1.2.3.5.3 - Required Primitive Inputs](b593ff77-2c46-418d-a7b3-9730437ce804)
-    ◦ Required Primitive Input Trigger: Proposal Passes see A.2.2.8.1.2.3.5.3 - Required Primitive Inputs
-    ◦ **Edit ****`Primitive Hub Document/In Progress Invocations Directory/Instance Name`**
-        - Updated fields
-            - Invocation Status
-                ◦ New value: set to `Proposal Approved`
-        - Responsible Party: Operational GovOps
-        - Trigger - Process: [A.2.2.8.1.2.3.6 - Process Definition For Artifact Update](b3ed1e74-7ec2-4537-8e1d-2098dc17d984) 
+  - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
+    - Updated fields
+      - Invocation Status
+        - New value: set to `Proposal Approved`
+    - Responsible Party: Operational GovOps
+    - Trigger - Process: [A.2.2.8.1.2.3.6 - Process Definition For Artifact Update](b3ed1e74-7ec2-4537-8e1d-2098dc17d984)
 - Proposal Fails
   - Required Primitive Input Trigger: Proposal Fails see [A.2.2.8.1.2.3.5.3 - Required Primitive Inputs](b593ff77-2c46-418d-a7b3-9730437ce804)
-    ◦ **Edit ****`Primitive Hub Document/In Progress Invocations Directory/Instance Name`**
-        - Updated fields
-            - Invocation Status
-                ◦ New value: set to `Proposal Rejected`
-        - Other Document Operations:
-
-            - `Instance Configuration Document` is `Archived` in Primitive Hub Document/Hub Data Repository
-        - Responsible Party: Operational GovOps
+  - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
+    - Updated fields
+      - Invocation Status
+        - New value: set to `Proposal Rejected`
+    - Other Document Operations:
+      - `Instance Configuration Document` is `Archived` in Primitive Hub Document/Hub Data Repository
+    - Responsible Party: Operational GovOps
 
 ###### A.2.2.8.1.2.3.6 - Process Definition For Artifact Update [Core]  <!-- UUID: b3ed1e74-7ec2-4537-8e1d-2098dc17d984 -->
 
@@ -11515,7 +11510,7 @@ The subdocuments herein record the terms of agreement between Sky and Skybase as
 
 ##### A.2.8.2.7.1 - Accord Key Details [Core]  <!-- UUID: a6b51805-7420-46a5-b5d0-d769eb90e48d -->
 
-The subdocuments herein set out the key details of Ecosystem Accord 7, such as parties to the agreement and the duration of the Accord. 
+The subdocuments herein set out the key details of Ecosystem Accord 7, such as parties to the agreement and the duration of the Accord.
 
 ###### A.2.8.2.7.1.1 - Parties To The Accord [Core]  <!-- UUID: e5a76dd6-2e8a-425e-b961-664b24097f6e -->
 
@@ -11539,7 +11534,7 @@ The subdocuments herein set out the substantive terms of Ecosystem Accord 7. Add
 
 ###### A.2.8.2.7.2.1 - Tokenomics [Core]  <!-- UUID: 28790b12-35f5-4754-9bc2-d5dc527a6e37 -->
 
-The subdocuments herein set out agreed terms with respect to tokenomics. 
+The subdocuments herein set out agreed terms with respect to tokenomics.
 
 ###### A.2.8.2.7.2.1.1 - Total Token Supply [Core]  <!-- UUID: 709e8307-20ba-48c9-b9b5-71d58d05abb2 -->
 
@@ -11547,7 +11542,7 @@ The total token supply of SKYBASE will be specified in a future iteration of the
 
 ###### A.2.8.2.7.2.1.2 - Token Allocations [Core]  <!-- UUID: 6b69c767-ee38-42b3-9e45-3abaa17677f1 -->
 
-Specific token allocations are defined in the subdocuments herein. 
+Specific token allocations are defined in the subdocuments herein.
 
 ###### A.2.8.2.7.2.1.2.1 - Skybase Prime Treasury [Core]  <!-- UUID: 088264de-3158-4200-a5ce-e1eb730d38a6 -->
 
@@ -13737,10 +13732,10 @@ The documents herein define exceptions to the calculation of Instance Financial 
 ###### A.3.2.2.1.1.1.5.3.1 - Instance Financial CRRs For Specific Assets [Core]  <!-- UUID: 672d377f-067e-4742-a987-b2c6258f9c99 -->
 
 The following Instance Financial CRRs apply to specific assets listed:
-    
-- BUIDL, JTRSY on Ethereum Mainnet, and USTB - 0% Instance Financial CRR  
-- JTRSY on Avalanche - 0.5% Instance Financial CRR  
-- JAAA on Ethereum Mainnet - 1.6% Instance Financial CRR  
+
+- BUIDL, JTRSY on Ethereum Mainnet, and USTB - 0% Instance Financial CRR
+- JTRSY on Avalanche - 0.5% Instance Financial CRR
+- JAAA on Ethereum Mainnet - 1.6% Instance Financial CRR
 - JAAA on Avalanche - 2.1% Instance Financial CRR
 - STAC on Ethereum Mainnet - 1.6% Instance Financial CRR
 - GACLO-1 on Ethereum Mainnet - 0.85% Instance Financial CRR
@@ -15436,7 +15431,7 @@ The Aggregate Capital Buffer is the sum of (1) the Sky Surplus Buffer (see [A.3.
 
 ##### A.3.5.3.1.2 - Aggregate Backstop Capital [Core]  <!-- UUID: 6dbead44-5ac4-4c5b-be3c-64eddd004e5c -->
 
-Aggregate Backstop Capital is (1) the sum of the Genesis Capital held in the SubProxy of each Genesis Agent plus (2) the Core Council Buffer plus (3) the Aligned Delegates Buffer minus (4) the Allocated Genesis Capital. Aggregate Backstop Capital represents the “safety net” of excess capital backing USDS beyond standard collateral.
+Aggregate Backstop Capital is (1) the sum of the Genesis Capital held in the SubProxy of each Genesis Agent plus (2) the Core Council Buffer plus (3) the Aligned Delegates Buffer minus (4) the Allocated Genesis Capital. Aggregate Backstop Capital represents the "safety net" of excess capital backing USDS beyond standard collateral.
 
 ##### A.3.5.3.1.3 - Allocated Genesis Capital [Core]  <!-- UUID: c3b6546e-48f9-42ac-9a6c-524ed7ac91cb -->
 
@@ -16250,10 +16245,10 @@ The Genesis Capital Backstop may not be invoked unless a "SKY Backstop Event" is
 ##### A.3.7.1.5.5 - Genesis Agents [Core]  <!-- UUID: 8952aac5-24fb-4da1-ae10-49f86d30aecd -->
 
 Genesis Agents are Agents that receive capital contributions from Sky, including, without limitation:
-    
-- Spark    
-- Grove    
-- Keel    
+
+- Spark
+- Grove
+- Keel
 - Skybase
 - Obex
 - Core Council Executor Agent 1
@@ -16737,21 +16732,21 @@ The parameters of the SKY Borrow Minimum Rate formula are further defined in the
 
 The liquidation parameters for SKY-backed loans funded via stUSDS are:
  
-◦ Liquidation Ratio: 120%    
-◦ `Calc`: StairstepExponentialDecrease    
-◦ `Tau`: 0 days
-◦ `Tolerance`: 0.5
-◦ `Cut`: 0.99
-◦ `Step`: 60 seconds
-◦ `Buf`: 120%    
-◦ `Cusp`: 40%
-◦ `Tail`: 6,000 seconds
-◦ `Chip`: 0.1%
-◦ `Stopped`: 3
-◦ `Tip`: 300 USDS    
-◦ `Chop`: 13%    
-◦ `Hole`: 250,000    
-◦ `Dust`: 30,000
+- Liquidation Ratio: 120%
+- `Calc`: StairstepExponentialDecrease
+- `Tau`: 0 days
+- `Tolerance`: 0.5
+- `Cut`: 0.99
+- `Step`: 60 seconds
+- `Buf`: 120%
+- `Cusp`: 40%
+- `Tail`: 6,000 seconds
+- `Chip`: 0.1%
+- `Stopped`: 3
+- `Tip`: 300 USDS
+- `Chop`: 13%
+- `Hole`: 250,000
+- `Dust`: 30,000
 
 ###### A.4.4.1.3.6.1 - Modification Of stUSDS Risk Parameters [Core]  <!-- UUID: 1aa35c85-6a96-4921-a6f0-87a58f3d57d6 -->
 
@@ -22738,9 +22733,10 @@ The outflow rate limits are:
 ###### A.6.1.1.1.2.6.1.3.1.7.5.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: b24f80d1-80cc-46c0-895c-d9bdc49e2e8b -->
 
 The swap rate limits are:
+
 - `maxAmount`: 100
 - `slope`: 1,000 per day
-- Max slippage: 0.25%
+- `Max slippage`: 0.25%
 
 ###### A.6.1.1.1.2.6.1.3.1.7.5.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: a8106b30-ef8c-4ce5-a25a-80755ab624d0 -->
 
@@ -27682,7 +27678,7 @@ The subdocuments herein define parameters used to specify loan terms.
 
 ###### A.6.1.1.1.3.8.2.4.1.1 - Duration [Core]  <!-- UUID: d8c712e4-b71d-4e0a-812e-e86bb01af27f -->
 
-The length of time that a loan is issued under specific terms. At the conclusion of the loan duration, the loan may either be payable in full, be rolled over upon mutual agreement with equivalent or different loan terms, or be set up as an “evergreen” loan where the loan is automatically extended at the current terms until recalled.
+The length of time that a loan is issued under specific terms. At the conclusion of the loan duration, the loan may either be payable in full, be rolled over upon mutual agreement with equivalent or different loan terms, or be set up as an "evergreen" loan where the loan is automatically extended at the current terms until recalled.
 
 ###### A.6.1.1.1.3.8.2.4.1.2 - Borrow Rate [Core]  <!-- UUID: 0ea26c9e-3dc5-43c0-8cc7-d9075afce8f3 -->
 
@@ -28141,7 +28137,7 @@ The Grove Foundation transferred 3 billion GROVE tokens from the Grove Foundatio
 
 ###### A.6.1.1.2.2.1.4.2.1.2.4 - Transfer Of Tokens To Grove Labs [Core]  <!-- UUID: ebca156f-a86a-4b40-ab1e-208e6d8f0f39 -->
 
- Grove will transfer 2.5 billion GROVE tokens from the Grove SubProxy to Grove Labs. The address of Grove Labs on the Ethereum Mainnet is `0x1EBC4425B16FD76F01f9260d8bfFE0c2C6ecCe70`.
+Grove will transfer 2.5 billion GROVE tokens from the Grove SubProxy to Grove Labs. The address of Grove Labs on the Ethereum Mainnet is `0x1EBC4425B16FD76F01f9260d8bfFE0c2C6ecCe70`.
 
 ###### A.6.1.1.2.2.1.4.2.1.3 - Data Repository [Core]  <!-- UUID: e582003e-4acc-4690-bff8-ddf66209a9cd -->
 
@@ -29265,7 +29261,7 @@ The address of the Grove receiver on Base is: `0x5F5cfCB8a463868E37Ab27B5eFF3ba0
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.1.2.3 - Circle CCTP v2 Mainnet To Base [Core]  <!-- UUID: 5fa11eb9-4399-4ac0-a6c0-ef03a5875254 -->
 
- The contract address of the Circle CCTP v2 Mainnet to Base is: `0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d`.
+The contract address of the Circle CCTP v2 Mainnet to Base is: `0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d`.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.1.2.4 - Circle CCTP v2 Base To Mainnet [Core]  <!-- UUID: 16efc874-6658-48f0-a1fb-2babd3a90706 -->
 
@@ -31892,7 +31888,7 @@ The outflow RateLimitID is: `0x8b0ebe103264ec6caf8c9a6b03eeb13f101d3d1ece1fe8b70
 
 ###### A.6.1.1.2.2.6.1.3.1.6.5.2.4 - Rate Limits [Core]  <!-- UUID: 6ce30263-7c13-4b45-ab75-e2b79e678272 -->
 
-The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
 ###### A.6.1.1.2.2.6.1.3.1.6.5.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: fe7ce511-f51b-4ed8-8ea1-30c4ae30e0bf -->
 
@@ -32500,7 +32496,7 @@ The outflow RateLimitID is: N/A.
 
 ###### A.6.1.1.2.2.6.1.3.1.9.1.2.4 - Rate Limits [Core]  <!-- UUID: 23517c75-2462-4def-bab9-3a33c3c03e71 -->
 
-The current maxAmount and slope for this conduit’s inflow and outflow are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
 ###### A.6.1.1.2.2.6.1.3.1.9.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 2e5f7349-fe4b-4c1b-8cc2-541d2ce86bf5 -->
 
@@ -32578,11 +32574,15 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow are define
 
 ###### A.6.1.1.2.2.6.1.3.1.10.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: c52f70d9-7910-4f5b-8ffc-5e48a4d7ac39 -->
 
-The inflow RateLimitID is: `0x1fd0baaf4707a3525f15888ddf89e29b1a008d0f3cf7fb75171233c72003a588`.
+The inflow RateLimitID is:
+
+`0x1fd0baaf4707a3525f15888ddf89e29b1a008d0f3cf7fb75171233c72003a588`.
 
 ###### A.6.1.1.2.2.6.1.3.1.10.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: de5079d5-deaa-4cac-abfa-f4032a0d29a2 -->
 
-The outflow RateLimitID is: `0x786ff17c8a3c0f645317f91a3247bc843ba1ee4d248ab539acec8ba3bf4557ae`.
+The outflow RateLimitID is:
+
+`0x786ff17c8a3c0f645317f91a3247bc843ba1ee4d248ab539acec8ba3bf4557ae`.
 
 ###### A.6.1.1.2.2.6.1.3.1.10.1.2.4 - Rate Limits [Core]  <!-- UUID: 5cc1e823-b15a-4792-8b33-ce92a02fd0b0 -->
 
@@ -32758,7 +32758,9 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow are define
 
 ###### A.6.1.1.2.2.6.1.3.1.12.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 5f26f655-a1e1-4e47-b0cb-a59fb7b40e19 -->
 
-The inflow RateLimitID is: `0x098ad67dc41c1a5892ec3ef5fd411198dc11962475e9ef2e0362e6cb7f5a2174`.
+The inflow RateLimitID is:
+
+`0x098ad67dc41c1a5892ec3ef5fd411198dc11962475e9ef2e0362e6cb7f5a2174`.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 6e491073-f15f-49bd-ab06-3d5277c75dbb -->
 
@@ -32889,10 +32891,10 @@ The documents herein contain operational parameters or configuration details uni
 
 ###### A.6.1.1.2.2.6.1.3.1.12.2.4.1 - Parameters For Stable Stable Pools [Core]  <!-- UUID: dab70e48-7329-4bb4-87cc-3737c3c6336e -->
 
-- twapSecondsAgo: 600
-- maxTickDelta: 200
-- lowerTickBound: -10
-- upperTickBound: +10
+- `twapSecondsAgo`: 600
+- `maxTickDelta`: 200
+- `lowerTickBound`: -10
+- `upperTickBound`: +10
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3 - Ethereum Mainnet - Uniswap v3 AUSD/USDC LP Instance Configuration Document [Core]  <!-- UUID: cca4236a-47f9-4b4f-81ef-c31a5ee624aa -->
 
@@ -32993,10 +32995,10 @@ The documents herein contain operational parameters or configuration details uni
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.4.1 - Parameters For Stable Stable Pools [Core]  <!-- UUID: cabd3b71-0346-4be4-9b5c-bf13dd7a0ab9 -->
 
-- twapSecondsAgo: 600
-- maxTickDelta: 200
-- lowerTickBound: -10
-- upperTickBound: +10
+- `twapSecondsAgo`: 600
+- `maxTickDelta`: 200
+- `lowerTickBound`: -10
+- `upperTickBound`: +10
 
 ###### A.6.1.1.2.2.6.1.3.2 - Avalanche Instances [Core]  <!-- UUID: fbb34f07-a5c8-475e-9842-fc5c9b9bd359 -->
 
@@ -35795,7 +35797,7 @@ The Freezer Multisig currently has a 2/5 signing requirement.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.3.3 - Signers [Core]  <!-- UUID: 81708b61-3321-42f2-af55-204c56b32eb3 -->
 
- The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Amatsu, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Keel.
+The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Amatsu, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Keel.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.3.4 - Usage Standards [Core]  <!-- UUID: b375c2b6-b52d-42cf-bfd3-01e46af44248 -->
 
@@ -38181,7 +38183,7 @@ The documents herein define the process for using the Root Edit Primitive to upd
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission [Core]  <!-- UUID: f57f157c-c260-4671-8150-01acabcd286d -->
 
-The Root Edit process begins with a SKYBASE token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A SKYBASE token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the “Skybase Prime” category.
+The Root Edit process begins with a SKYBASE token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A SKYBASE token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Skybase Prime" category.
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.1.1 - Root Edit Proposal Submission Requirements Exception [Core]  <!-- UUID: 502d08e5-d705-4443-bb71-f29580847d74 -->
 
@@ -38189,7 +38191,7 @@ For proposals that solely entail a buyback or a grant of SKYBASE tokens, the req
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.1.2 - Short-Term Transitionary Measures [Core]  <!-- UUID: f88fc097-7e41-41d7-aac9-992a9a11919f -->
 
-Until the Powerhouse system supports submitting Artifact Edit Proposals, SKYBASE token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the “Skybase Prime” category. The title of the post must include the text “Skybase Artifact Edit Proposal”. The post must include cryptographic proof that the author controls an account holding the required percentage of the total SKYBASE token supply specified in [A.6.1.1.4.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](f57f157c-c260-4671-8150-01acabcd286d).
+Until the Powerhouse system supports submitting Artifact Edit Proposals, SKYBASE token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Skybase Prime" category. The title of the post must include the text "Skybase Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total SKYBASE token supply specified in [A.6.1.1.4.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](f57f157c-c260-4671-8150-01acabcd286d).
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.2 - Root Edit Expert Advisor Review [Core]  <!-- UUID: 451079fe-fd11-4fef-ae51-6cb533a644c5 -->
 
@@ -38229,7 +38231,7 @@ The documents herein define the process for using the Root Edit Primitive to upd
 
 ###### A.6.1.1.4.2.2.2.2.1.2.3.1 - Root Edit Voting Process in Urgent and Emergency Situations [Core]  <!-- UUID: 5edc65d7-8023-4c03-b399-958c5f8869ff -->
 
-In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in [A.1.8.1.1 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225), the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the “Skybase Prime” category), unless doing so would endanger Skybase or its users.
+In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in [A.1.8.1.1 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225), the Operational Facilitator may allow a Root Edit to occur more quickly than the timeline specified above. Where feasible, the Operational Facilitator should announce the decision to deploy the emergency Root Edit protocol and provide their reasoning via a public Sky Forum post (under the "Skybase Prime" category), unless doing so would endanger Skybase or its users.
 
 ###### A.6.1.1.4.2.2.2.2.1.3 - Data Repository [Core]  <!-- UUID: 6f533a79-4263-4b1b-9d47-9ab9e670f0f0 -->
 
@@ -38545,7 +38547,7 @@ When paying Ecosystem Upkeep fees, Skybase deducts the rebate from the fees it p
 
 ###### A.6.1.1.4.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 911e4409-146c-49e6-9f5c-5abdc58d97d3 -->
 
-Operational GovOps reviews Skybase’s calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the “Skybase Prime” category and work with Skybase to resolve the disagreement. If Operational GovOps and Skybase cannot resolve the disagreement, it must be escalated to Core GovOps.
+Operational GovOps reviews Skybase’s calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Skybase Prime" category and work with Skybase to resolve the disagreement. If Operational GovOps and Skybase cannot resolve the disagreement, it must be escalated to Core GovOps.
 
 ###### A.6.1.1.4.2.3.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 299fa3a2-ce38-4697-b876-faaa5e5ca3a9 -->
 
@@ -39537,7 +39539,7 @@ The Distribution Reward payments for the Lazy Summer Protocol Instance of the Di
 The Active Data is updated as follows:
 
 - The Responsible Party is Operational GovOps.
-- The Update Process must follow the protocol for ‘Direct Edit’.
+- The Update Process must follow the protocol for `Direct Edit`.
 
 ###### A.6.1.1.4.2.5.1.2.9.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 928ecae3-ee6f-4961-bae0-90dbf42b3b4d -->
 
@@ -39550,7 +39552,7 @@ This Document records information pertaining to Skybase’s payments to the Thir
 The Active Data is updated as follows:
 
 - The Responsible Party is Operational GovOps.
-- The Update Process must follow the protocol for ‘Direct Edit’.
+- The Update Process must follow the protocol for `Direct Edit`.
 
 ###### A.6.1.1.4.2.5.1.2.9.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 0b55dd49-4787-4895-be75-091f9c2689f3 -->
 
@@ -40509,7 +40511,7 @@ The documents herein specify Skybase governance information that is unrelated to
 
 ###### A.6.1.1.4.3.1.1 - Sky Forum [Core]  <!-- UUID: 0d482d6a-f140-4798-bf9c-a0c6cb5a2aa5 -->
 
-Skybase uses the Sky Forum for governance-related discussion. Posts should use the “Skybase Prime” category.
+Skybase uses the Sky Forum for governance-related discussion. Posts should use the "Skybase Prime" category.
 
 ###### A.6.1.1.4.3.1.2 - Discord [Core]  <!-- UUID: 31f5b013-30a1-4135-8e04-4e9b7ee6a794 -->
 
@@ -40540,7 +40542,7 @@ The guiding criteria are as follows:
 
 ###### A.6.1.1.4.3.2.2 - Integration Boost Strategy [Core]  <!-- UUID: 8b587f01-c678-4f6d-ba37-a0765f5657b0 -->
 
-Skybase’s strategy with respect to the Integration Boost Primitive is to deliver a “Sky Savings Rate” (or similar program) to USDS users across selected DeFi platforms. This approach aims to extend the reach of USDS by tapping into fresh communities and expanding its overall market presence. New collaborations should exhibit compatibility with Skybase’s accessibility ethos, showcase steady on-chain activity, and present clear opportunities to onboard broader user segments into the Skybase ecosystem.
+Skybase’s strategy with respect to the Integration Boost Primitive is to deliver a "Sky Savings Rate" (or similar program) to USDS users across selected DeFi platforms. This approach aims to extend the reach of USDS by tapping into fresh communities and expanding its overall market presence. New collaborations should exhibit compatibility with Skybase’s accessibility ethos, showcase steady on-chain activity, and present clear opportunities to onboard broader user segments into the Skybase ecosystem.
 
 The guiding criteria are as follows:
 
@@ -43026,7 +43028,7 @@ The documents herein contain all data and specifications for Launch Agent 5's In
 
 ###### A.6.1.1.6.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: a5f738ba-82b4-4a9a-a434-393f7a1da00d -->
 
-The documents herein organize all base information relevant to Launch Agent 5's usage of the Agent Creation Primitive. 
+The documents herein organize all base information relevant to Launch Agent 5's usage of the Agent Creation Primitive.
 
 ###### A.6.1.1.6.2.1.1.1.1 - Global Activation Status [Core]  <!-- UUID: ca2897ab-b88e-46bd-9703-955d007f186a -->
 
@@ -43050,7 +43052,7 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 ###### A.6.1.1.6.2.1.1.1.5 - Hub Data Repository [Core]  <!-- UUID: 511e162f-148d-4869-8f6f-d7bfd32f9247 -->
 
-The document herein contains the Data Repository for the Primitive Hub Document. 
+The document herein contains the Data Repository for the Primitive Hub Document.
 
 ###### A.6.1.1.6.2.1.1.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 79863165-2324-4824-8a58-bf4ee9b3bd0c -->
 
@@ -43290,7 +43292,7 @@ This document contains a Directory of all Instances of the Agent Token Primitive
 
 ###### A.6.1.1.6.2.1.4.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: e51a3ed3-3ddc-4148-af56-e5b9a43b20cb -->
 
-Because the Agent Token Primitive is Invoked solely for the one-time deployment of the Agent’s token, no further Instances of the Primitive can be Invoked.
+Because the Agent Token Primitive is Invoked solely for the one-time deployment of the Agent's token, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.6.2.1.4.1.5 - Hub Data Repository [Core]  <!-- UUID: 9957f9c5-7770-4bb8-a883-2e2adbc57578 -->
 
@@ -43376,7 +43378,7 @@ The Instances of the Agent Token Primitive with `Completed` Status are contained
 
 ###### A.6.1.1.6.2.1.4.4 - In Progress Invocations [Core]  <!-- UUID: 2c50493d-aa00-4aaa-95a7-fd43a5625500 -->
 
-Because the Agent Token Primitive is Invoked solely for the one-time deployment of the Agent’s token, no further Instances of the Primitive can be Invoked.
+Because the Agent Token Primitive is Invoked solely for the one-time deployment of the Agent's token, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.6.2.2 - Operational Primitives [Core]  <!-- UUID: 74b5123e-1557-4323-851b-96ada6249e50 -->
 
@@ -43556,7 +43558,7 @@ Within seven (7) days of the proposal being submitted, the Operational Facilitat
 
 If the proposal is aligned, the Operational Facilitator must respond to the Forum post to announce their finding. In this Forum post, the Operational Facilitator must also confirm that the proposal is feasible for Operational GovOps to operationalize.
 
-If the proposal is misaligned, the Operational Facilitator must respond to the Forum post to announce their finding and provide the reasoning for it. 
+If the proposal is misaligned, the Operational Facilitator must respond to the Forum post to announce their finding and provide the reasoning for it.
 
 ###### A.6.1.1.6.2.2.2.2.1.2.1.4 - Root Edit Token Holder Vote [Core]  <!-- UUID: 8704e66e-872f-4bca-b63c-8361aa694496 -->
 
@@ -44393,7 +44395,7 @@ The documents herein specify all of the logic for Launch Agent 6, including Laun
 
 ##### A.6.1.1.7.1 - Introduction [Core]  <!-- UUID: 963a72da-503f-4150-922e-94155924be8d -->
 
-Launch Agent 6 is an Agent focused on building credit infrastructure for onchain and traditional finance, with a focus on USD₮ liquidity. In addition to allocating capital to scale Sky’s collateral portfolio, Launch Agent 6 serves as a platform enabling stablecoin distribution hubs—including exchanges, wallets, and neobanks—to access institutional grade lending infrastructure underpinning USDS through a suite of products.
+Launch Agent 6 is an Agent focused on building credit infrastructure for onchain and traditional finance, with a focus on USD₮ liquidity. In addition to allocating capital to scale Sky's collateral portfolio, Launch Agent 6 serves as a platform enabling stablecoin distribution hubs—including exchanges, wallets, and neobanks—to access institutional grade lending infrastructure underpinning USDS through a suite of products.
 
 ##### A.6.1.1.7.2 - Sky Primitives [Core]  <!-- UUID: 0d6f6016-eaf1-47e2-b8e7-98bf5e4f1dc0 -->
 
@@ -44409,7 +44411,7 @@ The documents herein contain all data and specifications for Launch Agent 6's In
 
 ###### A.6.1.1.7.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: e8203aca-ee78-41c6-ad35-8f7324d9a277 -->
 
-The documents herein organize all base information relevant to Launch Agent 6's usage of the Agent Creation Primitive. 
+The documents herein organize all base information relevant to Launch Agent 6's usage of the Agent Creation Primitive.
 
 ###### A.6.1.1.7.2.1.1.1.1 - Global Activation Status [Core]  <!-- UUID: 7e7f3004-1886-4783-8360-561ef927ff35 -->
 
@@ -44433,7 +44435,7 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 ###### A.6.1.1.7.2.1.1.1.5 - Hub Data Repository [Core]  <!-- UUID: bdf94e77-b137-4a01-aefb-314b92d49b24 -->
 
-The document herein contains the Data Repository for the Primitive Hub Document. 
+The document herein contains the Data Repository for the Primitive Hub Document.
 
 ###### A.6.1.1.7.2.1.1.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 6a2b403a-772e-47a0-8873-47749729512f -->
 
@@ -44673,7 +44675,7 @@ This document contains a Directory of all Instances of the Agent Token Primitive
 
 ###### A.6.1.1.7.2.1.4.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 4163c78f-f018-47cd-8efc-f407119283c2 -->
 
-Because the Agent Token Primitive is Invoked solely for the one-time deployment of the Agent’s token, no further Instances of the Primitive can be Invoked.
+Because the Agent Token Primitive is Invoked solely for the one-time deployment of the Agent's token, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.7.2.1.4.1.5 - Hub Data Repository [Core]  <!-- UUID: 54bd28cb-95e9-432a-8107-751ef59b9fc4 -->
 
@@ -44759,7 +44761,7 @@ The Instances of the Agent Token Primitive with `Completed` Status are contained
 
 ###### A.6.1.1.7.2.1.4.4 - In Progress Invocations [Core]  <!-- UUID: cdd39473-4eaf-4a3b-9d6a-2cd0ac46859b -->
 
-Because the Agent Token Primitive is Invoked solely for the one-time deployment of the Agent’s token, no further Instances of the Primitive can be Invoked.
+Because the Agent Token Primitive is Invoked solely for the one-time deployment of the Agent's token, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.7.2.2 - Operational Primitives [Core]  <!-- UUID: 6b98a6ae-9f12-4503-9096-9e548d68451d -->
 
@@ -44939,7 +44941,7 @@ Within seven (7) days of the proposal being submitted, the Operational Facilitat
 
 If the proposal is aligned, the Operational Facilitator must respond to the Forum post to announce their finding. In this Forum post, the Operational Facilitator must also confirm that the proposal is feasible for Operational GovOps to operationalize.
 
-If the proposal is misaligned, the Operational Facilitator must respond to the Forum post to announce their finding and provide the reasoning for it. 
+If the proposal is misaligned, the Operational Facilitator must respond to the Forum post to announce their finding and provide the reasoning for it.
 
 ###### A.6.1.1.7.2.2.2.2.1.2.1.4 - Root Edit Token Holder Vote [Core]  <!-- UUID: a015eb36-9095-4112-9fe6-a75dd8a6040a -->
 
