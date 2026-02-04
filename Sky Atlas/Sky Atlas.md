@@ -16040,6 +16040,14 @@ The Stability Parameter Bounded External Access Module parameters for the ALLOCA
 - `step` - 400 basis points,
 - `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
+###### A.3.7.1.2.3.5 - ALLOCATOR-PATTERN-A Parameters [Core]  <!-- UUID: 505130f5-cf13-47e0-bcb6-e4810a36a46c -->
+
+The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-PATTERN-A Allocator Vault are as follows:
+- `max` - 3,000 basis points,
+- `min` - 0 basis points,
+- `step` - 400 basis points,
+- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+
 ##### A.3.7.1.2.4 - Parameter Adjustments [Core]  <!-- UUID: 2d4aa875-b7ea-49c3-9506-479f0b5d157c -->
 
 All Stability Parameter Bounded External Access Module parameters can be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
@@ -18884,6 +18892,18 @@ The Ethereum Instances Directory of the Arkis Protocol with `Active` Status are 
 
 This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Arkis Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.10.1](4bb58af1-fc25-442f-83a9-dd40989a7d37).
 
+###### A.6.1.1.1.2.6.1.1.2.1.12 - Uniswap v4 [Core]  <!-- UUID: 4ef25928-26c1-4864-9670-88c5d676b8e4 -->
+
+The Ethereum Mainnet Instances Directory of the Uniswap v4 with `Active` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.2.1.12.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 5e1d4f42-84aa-4907-ad6f-eb62b26d28e3 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.10.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document](c5d16727-69f7-454a-a3da-85c46dd9eed2).
+
+###### A.6.1.1.1.2.6.1.1.2.1.12.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 55e7dee1-dab9-4bc6-b8db-9aa8191597a1 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.10.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document](3c4cfb29-1579-4abe-a17b-5b5574972b73).
+
 ###### A.6.1.1.1.2.6.1.1.2.2 - Base [Core]  <!-- UUID: 305a6351-bb16-4e4d-8912-7ef1c3ff26bb -->
 
 The documents herein contain a Directory of all Instances on Base of the Allocation System Primitive with Instance status of `Active`.
@@ -19030,7 +19050,7 @@ The address of the ALM_CONTROLLER (MainnetController) contract is: `0x577Fa18a49
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.2 - ALM Controller (MainnetController) Contract Version [Core]  <!-- UUID: d7b0b6a0-0bac-4169-a006-4a375cba4baa -->
 
-The ALM_CONTROLLER (MainnetController) contract version is: 1.8
+The ALM_CONTROLLER (MainnetController) contract version is: 1.9
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.3 - ALM Freezer Multisig (Mainnet) Address [Core]  <!-- UUID: 8d6c5c86-4b70-4115-b712-65106416aa77 -->
 
@@ -19592,7 +19612,7 @@ Any changes to the multisig signers that do not fall within the two exceptions l
 
 ###### A.6.1.1.1.2.6.1.2.1.2.3 - Token Claim Authorization [Core]  <!-- UUID: ea73f176-0b94-4e93-b1ee-ca498ac5a6c6 -->
 
-Phoenix Labs is authorized to propose the inclusion of transfers of accrued treasury and collector revenues from the Active Instances to the Spark ALM Proxy in a Spark Spell. This request must be posted to the Sky Forum under the Spark Prime category. The Operational Executor Agent must formally approve the inclusion of the transfer in a Spark Spell, with no token holder vote needed.
+Phoenix Labs is authorized to propose the inclusion of transfers of accrued treasury and collector revenues from the Active Instances to the Spark ALM Proxy in a Spark Spell. Additionally, for non-USD-denominated reserve assets, or USD-denominated reserve assets that are not supported by the Spark Liquidity Layer, the reserves can be transferred to the Spark Operations Multisig at address (`0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC`) to be liquidated for USDS, with the proceeds of sale transferred to the Spark SubDAO Proxy. This request must be posted to the Sky Forum under the Spark Prime category. The Operational Executor Agent must formally approve the inclusion of the transfer in a Spark Spell, with no token holder vote needed.
 
 ###### A.6.1.1.1.2.6.1.2.1.3 - Total Risk Capital (TRC) Management [Core]  <!-- UUID: ff7add39-b942-4df0-a710-75f70a05b49d -->
 
@@ -23318,7 +23338,7 @@ The subdocuments herein define the current configuration of the risk parameters.
 
 The Risk parameters are:
 
-- Supply cap: 500,000,000 USDT
+- Supply cap: 2,000,000,000 USDT
 - Max yield: 10%
 - Current yield (at launch): 0%
 
@@ -23538,6 +23558,194 @@ The Maximum Exposure for all Interim Deployments in Arkis is $20 million.
 The Instance Capital Requirement Ratio for all Interim Deployments in Arkis is 100%.
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 0a1caa15-48bb-4047-bf18-76f65ba20410 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+
+###### A.6.1.1.1.2.6.1.3.1.10 - Uniswap v4 [Core]  <!-- UUID: 6c5c956c-608f-40aa-9911-d1c04df4f99e -->
+
+The Ethereum Mainnet Instances of the Uniswap v4 Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document [Core]  <!-- UUID: c5d16727-69f7-454a-a3da-85c46dd9eed2 -->
+
+The documents herein contain the Instance Configuration Document for the Uniswap v4 PYUSD/USDS Pool Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: bd5042f9-cd5d-4574-b868-d0b9ad247a3a -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2 - Parameters [Core]  <!-- UUID: 4139b0ae-87f7-4b3f-aa48-78ee8efc1047 -->
+
+The documents herein define the parameters of the Uniswap v4 PYUSD/USDS Pool Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 7efb34f5-5007-4ab4-93e7-e00e616df5b3 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.1 - Network [Core]  <!-- UUID: 94de254f-7f5e-4e40-a683-26935e3503ed -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 61fb4454-3c58-4757-b796-cc9890685e71 -->
+
+Uniswap v4
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 967a9605-4d90-46a7-a4bd-1ebcd7192b70 -->
+
+USDS and PYUSD
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.4 - Token [Core]  <!-- UUID: 4d4123a0-312b-4351-aecc-28e56b1de290 -->
+
+PYUSDUSDS
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.2 - Contract Addresses [Core]  <!-- UUID: fda1c342-7d97-4674-a383-d32544990ae9 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.2.1 - Token Address [Core]  <!-- UUID: df34137f-2994-48fb-ba1d-1c533b1fc305 -->
+
+`0xa632d59b9b804a956bfaa9b48af3a1b74808fc1f`
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.2.2 - Pool ID [Core]  <!-- UUID: 1ec43acc-0aba-4e5e-96f9-cb6c4143c7f3 -->
+
+`0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45`
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7b94ebfe-42c9-4319-80ff-d57258f5773c -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4 - Rate Limits [Core]  <!-- UUID: 689f87d9-e66b-4eab-b984-9ad21ed4bb59 -->
+
+The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 02ca893e-879e-47fa-a2f1-ca783ccf2106 -->
+
+The inflow rate limits are:
+- `maxAmount`: 10,000,000
+- `slope`: 100,000,000 per day
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 7b1bcd5c-8af6-46bd-8fb0-cbac22bae80a -->
+
+The outflow rate limits are:
+- `maxAmount`: 50,000,000
+- `slope`: 200,000,000 per day
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 1a2ba197-1389-4cdd-8e55-ca950ecacdca -->
+
+The swap rate limits are:
+- `maxAmount`: 5,000,000
+- `slope`: 50,000,000 per day
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.4 - Maximum Slippage [Core]  <!-- UUID: 0318bf34-70a0-42a0-9019-e5a48de96ec6 -->
+
+Max slippage: 0.1%
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.5 - Tick Range and Width [Core]  <!-- UUID: 9e8e50cc-eb69-43f4-b0d6-dd2f0c4fc01a -->
+
+- Min lower tick limit: 276,314 (-0.1%)
+- Max upper tick limit: 276,334 (+0.1%)
+- Max tick width: 10 ticks
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.6 - Swap Fee [Core]  <!-- UUID: 3c776b0d-7ab4-4949-993e-ce290341654d -->
+
+0.0005%
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 809b7844-1e15-4e43-bc33-b0af6074a725 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c8bfb680-b56f-4cd2-835c-4fdec23be484 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document [Core]  <!-- UUID: 3c4cfb29-1579-4abe-a17b-5b5574972b73 -->
+
+The documents herein contain the Instance Configuration Document for the Uniswap v4 USDT/USDS Pool Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 686428f2-87e7-4592-8656-60ab5bee3168 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2 - Parameters [Core]  <!-- UUID: d46584b0-4ec1-4450-b915-79969d7c3c74 -->
+
+The documents herein define the parameters of the Uniswap v4 USDT/USDS Pool Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 0845627e-c64a-4e04-8be2-4f5bac7114d2 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.1 - Network [Core]  <!-- UUID: 6d1a7aa5-3aab-461b-a0ab-aa68137ffd0d -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 1fdf2ecf-e70e-4294-91de-1596f991ca2a -->
+
+Uniswap v4
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 13b49366-aaee-4f35-b2cd-e2317bc4b92c -->
+
+USDS and USDT
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.4 - Token [Core]  <!-- UUID: a877ea22-2aae-451e-b0d6-912fdaca1796 -->
+
+USDTUSDS
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.2 - Contract Addresses [Core]  <!-- UUID: 164e3bb8-8a61-41b7-9d34-797db864ac87 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.2.1 - Token Address [Core]  <!-- UUID: c864e1c5-a653-433b-85e5-3bd1037fc7a1 -->
+
+`0x00836Fe54625BE242BcFA286207795405ca4fD10`
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.2.2 - Pool ID [Core]  <!-- UUID: 6e231bfb-e04f-44e0-9023-7ab98c9b7568 -->
+
+`0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9`
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 77850de8-afe7-47e2-aedd-e44de6922c6f -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.4 - Rate Limits [Core]  <!-- UUID: 91ad3746-e58c-43b3-a53d-0430b5e20a4c -->
+
+The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: a6105d1a-16d8-4920-808c-780891e2112d -->
+
+The inflow rate limits are:
+- `maxAmount`: 5,000,000
+- `slope`: 50,000,000 per day
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 2a7d1855-feb9-4a16-b726-144f52c89dd3 -->
+
+The outflow rate limits are:
+- `maxAmount`: 50,000,000
+- `slope`: 200,000,000 per day
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 18355afe-c656-47a5-8867-206263d8cb09 -->
+
+The swap rate limits are:
+- `maxAmount`: 5,000,000
+- `slope`: 50,000,000 per day
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.4 - Maximum Slippage [Core]  <!-- UUID: fa48928b-af8a-4455-88ac-43a68631e329 -->
+
+Max slippage: 0.2%
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.5 - Tick Range and Width [Core]  <!-- UUID: e72be948-a47e-4303-b9b2-d1acb07cecd4 -->
+
+- Min lower tick limit: 276,304 (-0.2%)
+- Max upper tick limit: 276,344 (+0.2%)
+- Max tick width: 10 ticks
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.6 - Swap Fee [Core]  <!-- UUID: 9f92e7b7-83e6-4b0c-9f3d-6ec66a259c98 -->
+
+0.0005%
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: bc14c22c-f7a7-4de9-afe9-4b121d05ee7a -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: afd2544b-24de-439b-8d8f-44d5cd82a8bd -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
@@ -25059,7 +25267,11 @@ The Protocol Flash Loan Fee is set on a protocol level, regardless of what asset
 
 The subdocuments herein define the current configuration of the SparkLend risk parameters.
 
-###### A.6.1.1.1.3.2.1.1.2.1 - GNO Risk Parameters [Core]  <!-- UUID: acd9d2a2-ff4f-44fc-a544-f4cc02262a5b -->
+###### A.6.1.1.1.3.2.1.1.2.1 - SparkLend Ethereum Risk Parameters [Core]  <!-- UUID: b370fb72-57f8-4cf1-aab9-597d08afe403 -->
+
+The subdocuments herein define the current configuration of the SparkLend Ethereum risk parameters.
+
+###### A.6.1.1.1.3.2.1.1.2.1.1 - GNO Risk Parameters [Core]  <!-- UUID: acd9d2a2-ff4f-44fc-a544-f4cc02262a5b -->
 
 The current GNO risk parameters are:
 
@@ -25101,7 +25313,7 @@ The current GNO risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.2 - Dai Risk Parameters [Core]  <!-- UUID: 7d8ed55b-4aca-483b-af6d-24badb49d042 -->
+###### A.6.1.1.1.3.2.1.1.2.1.2 - Dai Risk Parameters [Core]  <!-- UUID: 7d8ed55b-4aca-483b-af6d-24badb49d042 -->
 
 The current Dai risk parameters are:
 
@@ -25145,7 +25357,7 @@ The current Dai risk parameters are:
 
 The Dai Borrow Rate is set through the Interest Rate Model as a spread over the Sky Savings Rate. The spread is set directly by the Stability Facilitators in consultation with the Core Council Risk Advisor.
 
-###### A.6.1.1.1.3.2.1.1.2.3 - USDS Risk Parameters [Core]  <!-- UUID: d9a146b8-f101-4cd6-916c-85142bb8deec -->
+###### A.6.1.1.1.3.2.1.1.2.1.3 - USDS Risk Parameters [Core]  <!-- UUID: d9a146b8-f101-4cd6-916c-85142bb8deec -->
 
 The current USDS risk parameters are:
 
@@ -25189,7 +25401,7 @@ The current USDS risk parameters are:
 
 The USDS Borrow Rate is set through the Interest Rate Model as a spread over the Sky Savings Rate. The spread is set directly by the Stability Facilitators in consultation with the Core Council Risk Advisor.
 
-###### A.6.1.1.1.3.2.1.1.2.4 - WETH Risk Parameters [Core]  <!-- UUID: b1a1fb8a-29d7-4bbd-8204-25c74263c25d -->
+###### A.6.1.1.1.3.2.1.1.2.1.4 - WETH Risk Parameters [Core]  <!-- UUID: b1a1fb8a-29d7-4bbd-8204-25c74263c25d -->
 
 The current WETH risk parameters are:
 
@@ -25235,7 +25447,7 @@ The current WETH risk parameters are:
 The Slope 1 parameter for WETH is calculated based on the following formula:
 slope 1 = stETH yield + slope 1 spread - base rate
 
-###### A.6.1.1.1.3.2.1.1.2.5 - USDT Risk Parameters [Core]  <!-- UUID: 4999a374-380b-4694-a67c-0fa471b4cf43 -->
+###### A.6.1.1.1.3.2.1.1.2.1.5 - USDT Risk Parameters [Core]  <!-- UUID: 4999a374-380b-4694-a67c-0fa471b4cf43 -->
 
 The current USDT risk parameters are:
 
@@ -25277,7 +25489,7 @@ The current USDT risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.6 - WBTC Risk Parameters [Core]  <!-- UUID: c3c3830f-4829-48fc-aced-30dcdd2a5ba7 -->
+###### A.6.1.1.1.3.2.1.1.2.1.6 - WBTC Risk Parameters [Core]  <!-- UUID: c3c3830f-4829-48fc-aced-30dcdd2a5ba7 -->
 
 The current WBTC risk parameters are:
 
@@ -25319,7 +25531,7 @@ The current WBTC risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.7 - sDai Risk Parameters [Core]  <!-- UUID: 61c21da3-22ff-4dba-8736-4a9a8556a32b -->
+###### A.6.1.1.1.3.2.1.1.2.1.7 - sDai Risk Parameters [Core]  <!-- UUID: 61c21da3-22ff-4dba-8736-4a9a8556a32b -->
 
 The current sDai risk parameters are:
 
@@ -25361,7 +25573,7 @@ The current sDai risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.8 - wstETH Risk Parameters [Core]  <!-- UUID: 5d721ab3-be87-4989-b4a2-b32ff38b912f -->
+###### A.6.1.1.1.3.2.1.1.2.1.8 - wstETH Risk Parameters [Core]  <!-- UUID: 5d721ab3-be87-4989-b4a2-b32ff38b912f -->
 
 The current wstETH risk parameters are:
 
@@ -25403,7 +25615,7 @@ The current wstETH risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.9 - USDC Risk Parameters [Core]  <!-- UUID: d8242d1a-18f2-4000-a98b-0521486b0708 -->
+###### A.6.1.1.1.3.2.1.1.2.1.9 - USDC Risk Parameters [Core]  <!-- UUID: d8242d1a-18f2-4000-a98b-0521486b0708 -->
 
 The current USDC risk parameters are:
 
@@ -25445,7 +25657,7 @@ The current USDC risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.10 - weETH Risk Parameters [Core]  <!-- UUID: 6ed18918-a695-44a6-82e7-547a3fbcafd3 -->
+###### A.6.1.1.1.3.2.1.1.2.1.10 - weETH Risk Parameters [Core]  <!-- UUID: 6ed18918-a695-44a6-82e7-547a3fbcafd3 -->
 
 The current weETH risk parameters are:
 
@@ -25487,7 +25699,7 @@ The current weETH risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.11 - rETH Risk Parameters [Core]  <!-- UUID: 9ef0bc64-db94-4d78-ac8b-cef71d28fedc -->
+###### A.6.1.1.1.3.2.1.1.2.1.11 - rETH Risk Parameters [Core]  <!-- UUID: 9ef0bc64-db94-4d78-ac8b-cef71d28fedc -->
 
 The current rETH risk parameters are:
 
@@ -25529,7 +25741,7 @@ The current rETH risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.12 - LBTC Risk Parameters [Core]  <!-- UUID: 37ff9748-6f72-4adf-af97-0f90cb7154b4 -->
+###### A.6.1.1.1.3.2.1.1.2.1.12 - LBTC Risk Parameters [Core]  <!-- UUID: 37ff9748-6f72-4adf-af97-0f90cb7154b4 -->
 
 The current LBTC risk parameters are:
 
@@ -25571,7 +25783,7 @@ The current LBTC risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.13 - tBTC Risk Parameters [Core]  <!-- UUID: 17e2cc64-6172-48f8-a4f1-a2a7bc5edbbb -->
+###### A.6.1.1.1.3.2.1.1.2.1.13 - tBTC Risk Parameters [Core]  <!-- UUID: 17e2cc64-6172-48f8-a4f1-a2a7bc5edbbb -->
 
 The current tBTC risk parameters are:
 
@@ -25583,7 +25795,7 @@ The current tBTC risk parameters are:
 
 - Liquidation Bonus: 8%
 
-- Reserve Factor: 20%
+- Reserve Factor: 99%
 
 - Supply Cap: Set by cap automator
 
@@ -25599,7 +25811,7 @@ The current tBTC risk parameters are:
 
 - Slope 2: 300%
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 - Collateral: Yes
 
@@ -25613,7 +25825,7 @@ The current tBTC risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.14 - ezETH Risk Parameters [Core]  <!-- UUID: 51f3555b-57a3-4275-b462-a4ba85f3b8fe -->
+###### A.6.1.1.1.3.2.1.1.2.1.14 - ezETH Risk Parameters [Core]  <!-- UUID: 51f3555b-57a3-4275-b462-a4ba85f3b8fe -->
 
 The current ezETH risk parameters are:
 
@@ -25641,7 +25853,7 @@ The current ezETH risk parameters are:
 
 - Slope 2: 300%
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 - Collateral: Yes
 
@@ -25655,7 +25867,7 @@ The current ezETH risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.15 - rsETH Risk Parameters [Core]  <!-- UUID: 1da6ef90-fca2-4f72-9b8d-13a3786a3c1c -->
+###### A.6.1.1.1.3.2.1.1.2.1.15 - rsETH Risk Parameters [Core]  <!-- UUID: 1da6ef90-fca2-4f72-9b8d-13a3786a3c1c -->
 
 The current rsETH risk parameters are:
 
@@ -25683,7 +25895,7 @@ The current rsETH risk parameters are:
 
 - Slope 2: 300%
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 - Collateral: Yes
 
@@ -25697,7 +25909,7 @@ The current rsETH risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.16 - cbBTC Risk Parameters [Core]  <!-- UUID: 63038ac2-7666-40bb-ad9f-dba7c1a546b8 -->
+###### A.6.1.1.1.3.2.1.1.2.1.16 - cbBTC Risk Parameters [Core]  <!-- UUID: 63038ac2-7666-40bb-ad9f-dba7c1a546b8 -->
 
 The current cbBTC risk parameters are:
 
@@ -25737,7 +25949,7 @@ The current cbBTC risk parameters are:
 
 - Siloed Borrowing: No
 
-###### A.6.1.1.1.3.2.1.1.2.17 - sUSDS Risk Parameters [Core]  <!-- UUID: 1d7f757a-aabb-463d-9d3d-3f34f1c0656a -->
+###### A.6.1.1.1.3.2.1.1.2.1.17 - sUSDS Risk Parameters [Core]  <!-- UUID: 1d7f757a-aabb-463d-9d3d-3f34f1c0656a -->
 
 The current sUSDS risk parameters are:
 
@@ -25777,7 +25989,7 @@ The current sUSDS risk parameters are:
 
 - Siloed Borrowing: No
 
-###### A.6.1.1.1.3.2.1.1.2.18 - pyUSD Risk Parameters [Core]  <!-- UUID: 5e05e5d8-8477-460f-a197-4b49bfa8652f -->
+###### A.6.1.1.1.3.2.1.1.2.1.18 - pyUSD Risk Parameters [Core]  <!-- UUID: 5e05e5d8-8477-460f-a197-4b49bfa8652f -->
 
 The current pyUSD risk parameters are:
 
@@ -25817,13 +26029,395 @@ The current pyUSD risk parameters are:
 
 - Siloed Borrowing: No
 
-###### A.6.1.1.1.3.2.1.1.2.19 - Total Flash Loan Fee Current Value [Core]  <!-- UUID: fdd544f0-fa59-42f5-afb8-290cd812eb35 -->
+###### A.6.1.1.1.3.2.1.1.2.1.19 - Total Flash Loan Fee Current Value [Core]  <!-- UUID: fdd544f0-fa59-42f5-afb8-290cd812eb35 -->
 
 The Total Flash Loan Fee is 0.00%.
 
-###### A.6.1.1.1.3.2.1.1.2.20 - Protocol Flash Loan Fee Current Value [Core]  <!-- UUID: 086d81f6-e8e2-4693-996f-6ccb62ee362b -->
+###### A.6.1.1.1.3.2.1.1.2.1.20 - Protocol Flash Loan Fee Current Value [Core]  <!-- UUID: 086d81f6-e8e2-4693-996f-6ccb62ee362b -->
 
 The Protocol Flash Loan Fee is 0.00%.
+
+###### A.6.1.1.1.3.2.1.1.2.2 - SparkLend Gnosis Risk Parameters [Core]  <!-- UUID: 1ecdd683-0f6f-4bca-8f43-c2a458224404 -->
+
+The subdocuments herein define the current configuration of the SparkLend Gnosis risk parameters.
+
+###### A.6.1.1.1.3.2.1.1.2.2.1 - GNO Risk Parameters [Core]  <!-- UUID: aacc4fa0-3fd8-44f4-af79-7ec3d4128328 -->
+
+The current GNO risk parameters are:
+
+- LTV: 40%
+
+- Liquidation Threshold: 50%
+
+- E-mode Category: N/A
+
+- Liquidation Bonus: 12%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 100,000 GNO
+
+- Borrow Cap: N/A
+
+- Optimal Utilization: 80%
+
+- Isolated Debt Ceiling: $1,000,000
+
+- Base Rate: 0%
+
+- Slope 1: 0%
+
+- Slope 2: 0%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: No
+
+- Isolated Collateral: Yes
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
+
+###### A.6.1.1.1.3.2.1.1.2.2.2 - WETH Risk Parameters [Core]  <!-- UUID: dc3b3c32-f891-49fa-bdb4-8944d14e3d56 -->
+
+The current WETH risk parameters are:
+
+- LTV: 70%
+
+- Liquidation Threshold: 75%
+
+- E-mode Category: ETH
+
+- Liquidation Bonus: 5%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 5,000 ETH
+
+- Borrow Cap: 3,000 ETH
+
+- Optimal Utilization: 80%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 2.5%
+
+- Slope 2: 120%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: Yes
+
+###### A.6.1.1.1.3.2.1.1.2.2.3 - USDT Risk Parameters [Core]  <!-- UUID: f5a396c7-dc2c-4d67-adff-89c5a8c62652 -->
+
+The current USDT risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 0%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 0%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 10,000,000 USDT
+
+- Borrow Cap: 8,000,000 USDT
+
+- Optimal Utilization: 95%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 9%
+
+- Slope 2: 15%
+
+- Reserve State: Frozen
+
+- Collateral: No
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: Yes
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: Yes
+
+###### A.6.1.1.1.3.2.1.1.2.2.4 - sDai Risk Parameters [Core]  <!-- UUID: 2c982dbd-dee3-45ce-9e45-48d7ebc33acb -->
+
+The current sDai risk parameters are:
+
+- LTV: 70%
+
+- Liquidation Threshold: 75%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 6%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 40,000,000 sDai
+
+- Borrow Cap: N/A
+
+- Optimal Utilization: 80%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 0%
+
+- Slope 2: 0%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: No
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
+
+###### A.6.1.1.1.3.2.1.1.2.2.5 - wstETH Risk Parameters [Core]  <!-- UUID: a07d0682-9249-4a4f-b2a3-c0dfb163c683 -->
+
+The current wstETH risk parameters are:
+
+- LTV: 65%
+
+- Liquidation Threshold: 72.5%
+
+- E-mode Category: ETH
+
+- Liquidation Bonus: 8%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 15,000 wstETH
+
+- Borrow Cap: 100 wstETH
+
+- Optimal Utilization: 45%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 1%
+
+- Slope 1: 3%
+
+- Slope 2: 100%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: Yes
+
+###### A.6.1.1.1.3.2.1.1.2.2.6 - USDC Risk Parameters [Core]  <!-- UUID: f54fff22-1cad-4ccd-80ae-f05f0345c384 -->
+
+The current USDC risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 0%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 0%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 10,000,000 USDC
+
+- Borrow Cap: 1,000,000 USDC
+
+- Optimal Utilization: 80%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 9%
+
+- Slope 2: 50%
+
+- Reserve State: Frozen
+
+- Collateral: No
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: Yes
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: Yes
+
+###### A.6.1.1.1.3.2.1.1.2.2.7 - USDC.e Risk Parameters [Core]  <!-- UUID: b54fc943-6d64-4c67-9aa2-150665be6493 -->
+
+The current USDC.e risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 0%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 0%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 10,000,000 USDC.e
+
+- Borrow Cap: 8,000,000 USDC.e
+
+- Optimal Utilization: 95%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 9%
+
+- Slope 2: 15%
+
+- Reserve State: Frozen
+
+- Collateral: No
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: Yes
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
+
+###### A.6.1.1.1.3.2.1.1.2.2.8 - WXDAI Risk Parameters [Core]  <!-- UUID: 57bae006-ff07-4da7-adc3-ea3649ce7e38 -->
+
+The current WXDAI risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 75%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 5%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 20,000,000 WXDAI
+
+- Borrow Cap: 16,000,000 WXDAI
+
+- Optimal Utilization: 95%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 9%
+
+- Slope 2: 15%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: Yes
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
+
+###### A.6.1.1.1.3.2.1.1.2.2.9 - EURe Risk Parameters [Core]  <!-- UUID: 1a8186bd-c557-4a6d-80e3-a8140a215e06 -->
+
+The current EURe risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 0%
+
+- E-mode Category: N/A
+
+- Liquidation Bonus: 0%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 5,000,000 EURe
+
+- Borrow Cap: 4,000,000 EURe
+
+- Optimal Utilization: 95%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 5%
+
+- Slope 2: 15%
+
+- Reserve State: Frozen
+
+- Collateral: No
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
 
 ###### A.6.1.1.1.3.2.1.1.3 - SparkLend Risk Parameters Cap Automators [Core]  <!-- UUID: 6ffdb8ee-b083-40f5-b51b-1c91e954b68b -->
 
@@ -26387,9 +26981,9 @@ Operational expense reserve is calculated as the higher of past month’s operat
 
 The current Target SubDAO Proxy Value parameters are:
 
-- RRC Lookback Period: 12 months
-- Spark Product Backstop: 5 million USDS
-- Target Runway: 24 months
+- RRC Lookback Period: 3 months
+- Spark Product Backstop: 1 million USDS
+- Target Runway: 12 months
 
 ###### A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy [Core]  <!-- UUID: 6a4870fa-73f1-4d49-b7ee-d531fb59a971 -->
 
@@ -26429,10 +27023,11 @@ The next available Spark proxy spell will include a transfer of this calculated 
 
 The current buyback policy parameters are:
 
-- Standard Buyback rate: 10%
+- Standard Buyback rate: 25%
 - Enhanced Buyback rate: 100%
 - Enhanced Buyback threshold: 200%
 - Buyback executor: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC
+- Buyback recipient: 0x3300f198988e4C9C63F75dF86De36421f06af8c4
 
 ###### A.6.1.1.1.3.5 - Spark Savings Configuration [Core]  <!-- UUID: 9b4ce799-3baa-42e8-a742-7e8deb377dfc -->
 
