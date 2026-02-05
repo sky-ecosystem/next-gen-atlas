@@ -1480,14 +1480,6 @@ Because ungrounded inferences of logic lack such a robust and clearly documented
 
 Alignment Conservers are held to the highest standard when judging whether their actions are Universally Aligned.
 
-#### A.1.4.4.0.4.1 - Highest Standard - Facilitators must apply strictest possible requirements of Universal Alignment on ACs [Action Tenet]  <!-- UUID: 8dfd71fc-7ded-4217-8b6a-2bef00f75b55 -->
-
-In any adjudication involving potential misalignment of Alignment Conservers (ACs), Facilitators are unequivocally directed to apply the strictest and highest standards of Universal Alignment.
-
-As ACs are held to the most rigorous standards of Universal Alignment, Facilitators should acknowledge evidence of misalignment if such evidence is deemed at least 51% more likely than not to be valid or to substantiate the presented claim. Additionally, should the overall weight of the evidence demonstrate a 51% or greater chance that the AC committed a misaligned act, the Facilitator is required to derecognize the AC.
-
-Given the exceptionally high stakes in cases of potential AC misalignment, Facilitators must prioritize an approach grounded in an abundance of caution, steering away from notions of 'fairness' or 'lenience.' Any lapse or misjudgment on the part of an AC cannot be excused based on ignorance of the rules, good intentions, honest mistake or similar factors. Maximal accountability for ACs is non-negotiable, a principle underpinned by the indispensable role of ACs as stewards of Universal Alignment.
-
 #### NR-1 - Systematic Basis Of Adjudication, Fact-Finding And Evidence [Needed Research]  <!-- UUID: 2da58ba2-a172-43bd-b7e7-d3d8e69233bf -->
 
 **Content**:
@@ -1502,9 +1494,35 @@ Then there is the matter of assessing evidence in a way that is rigorous and imp
 
 How much discretion should Facilitators have in interpreting and applying the element "the highest standard of Universal Alignment"? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.
 
+#### A.1.4.4.0.4.1 - Highest Standard - Facilitators must apply strictest possible requirements of Universal Alignment on ACs [Action Tenet]  <!-- UUID: 8dfd71fc-7ded-4217-8b6a-2bef00f75b55 -->
+
+In any adjudication involving potential misalignment of Alignment Conservers (ACs), Facilitators are unequivocally directed to apply the strictest and highest standards of Universal Alignment.
+
+As ACs are held to the most rigorous standards of Universal Alignment, Facilitators should acknowledge evidence of misalignment if such evidence is deemed at least 51% more likely than not to be valid or to substantiate the presented claim. Additionally, should the overall weight of the evidence demonstrate a 51% or greater chance that the AC committed a misaligned act, the Facilitator is required to derecognize the AC.
+
+Given the exceptionally high stakes in cases of potential AC misalignment, Facilitators must prioritize an approach grounded in an abundance of caution, steering away from notions of 'fairness' or 'lenience.' Any lapse or misjudgment on the part of an AC cannot be excused based on ignorance of the rules, good intentions, honest mistake or similar factors. Maximal accountability for ACs is non-negotiable, a principle underpinned by the indispensable role of ACs as stewards of Universal Alignment.
+
 ### A.1.4.5 - ACs Can Be Operationally Active In Only One Role At A Time [Section]  <!-- UUID: 9b1d1c2f-ace0-4637-8050-4711ae9f9a8c -->
 
 An Alignment Conserver can assume one of two roles: Aligned Delegate (AD) and Facilitator. ACs may only be operationally active in a single AC role and may not simultaneously assume multiple AC roles or other ecosystem roles such as Ecosystem Actors.
+
+#### NR-2 - Should Ban Against Occupying Two Ecosystem Roles Apply to All Sky Stakeholder Roles? [Needed Research]  <!-- UUID: 25d8f23b-4d43-43be-aa5a-c48fe372cd7a -->
+
+**Content**:
+
+Given the rationale behind the Target Document [A.1.4 - A5 - Alignment Conservers - Powers And Constraints - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c), the 'simultaneous occupying of two ecosystem roles' prohibition should likely not be limited to just the AC stakeholder category, but rather should apply universally to any Sky stakeholder who occupies a role formally defined in the Atlas. What would be the arguments for and against such a position?
+
+#### NR-3 - Should Team Contributors Be Subject To The Ban Against Occupying Two Ecosystem Roles? [Needed Research]  <!-- UUID: 4560326b-abab-4147-957f-c5c8ddfa96f1 -->
+
+**Content**:
+
+Should team contributors be subject to the Target Document’s prohibition against occupying two roles? What would be the arguments for and against such a position? 
+
+One argument against this would be that quality contributors are a scarce resource. Further, the decentralized work paradigm encourages having several part-time jobs. 
+
+The sharing of contributors across several Sky teams  - such that contributors gain experience in multiple operational aspects - might arguably enhance ecosystem intelligence. 
+
+Would it make a meaningful difference to require contributors who do wish to work multiple roles to be doxxed?
 
 #### A.1.4.5.1 - Temporary Exception for Facilitator “Ecosystem” [Core]  <!-- UUID: 6aa88317-4dc2-4b50-87bd-27cc6de9c767 -->
 
@@ -1652,24 +1670,6 @@ See also, [A.1.4.5.0.4.1 - Operationally Active - Whether An Entity Is "Operatio
 
 An "ecosystem role" need not be compensated or full-time to be regulated by the Target Document.
 
-#### NR-2 - Should Ban Against Occupying Two Ecosystem Roles Apply to All Sky Stakeholder Roles? [Needed Research]  <!-- UUID: 25d8f23b-4d43-43be-aa5a-c48fe372cd7a -->
-
-**Content**:
-
-Given the rationale behind the Target Document [A.1.4 - A5 - Alignment Conservers - Powers And Constraints - ACs Can Be Operationally Active In Only One Role At A Time](9b1d1c2f-ace0-4637-8050-4711ae9f9a8c), the 'simultaneous occupying of two ecosystem roles' prohibition should likely not be limited to just the AC stakeholder category, but rather should apply universally to any Sky stakeholder who occupies a role formally defined in the Atlas. What would be the arguments for and against such a position?
-
-#### NR-3 - Should Team Contributors Be Subject To The Ban Against Occupying Two Ecosystem Roles? [Needed Research]  <!-- UUID: 4560326b-abab-4147-957f-c5c8ddfa96f1 -->
-
-**Content**:
-
-Should team contributors be subject to the Target Document’s prohibition against occupying two roles? What would be the arguments for and against such a position? 
-
-One argument against this would be that quality contributors are a scarce resource. Further, the decentralized work paradigm encourages having several part-time jobs. 
-
-The sharing of contributors across several Sky teams  - such that contributors gain experience in multiple operational aspects - might arguably enhance ecosystem intelligence. 
-
-Would it make a meaningful difference to require contributors who do wish to work multiple roles to be doxxed?
-
 ### A.1.4.6 - ACs Subject To Both General And Role-specific Requirements [Section]  <!-- UUID: a59420ba-5e2c-4736-99a4-fb64eea4cc32 -->
 
 An Alignment Conserver is fully responsible for meeting all requirements tied to the general AC role, which requirements are specified in this Article. 
@@ -1683,18 +1683,6 @@ When an Alignment Conserver breaches a role-specific requirement, this is misali
 ### A.1.4.7 - AC Requirements Of Anonymity And High Operational Security [Section]  <!-- UUID: 36b68ff0-30a3-4fb9-af04-a2869a4233fe -->
 
 The Alignment Conserver roles of Facilitator and Aligned Delegate require anonymity and high levels of operational security. Breaches of these anonymity and operational security requirements are considered serious misalignment. In the event of such breaches, the known identities of individuals holding these AC roles shall be promptly derecognized, and they will be barred from further participation as Alignment Conservers.
-
-#### A.1.4.7.1 - Exemption From Facilitator Anonymity Requirement [Core]  <!-- UUID: cb2ae821-e9b8-47b0-bda8-bc8bb149c5b5 -->
-
-The Facilitator "Ecosystem" is exempt from the anonymity requirement, as well as the requirement of high levels of operational security insofar as the latter requirement relates to maintaining anonymity. This exemption applies solely to the Facilitator "Ecosystem", as they onboarded into the role prior to the ratification of Atlas v1 (March 27, 2023), which introduced the anonymity requirement for Facilitators.
-
-This exemption applies to limit the effect of the following provisions: [A.1.6.3 - Facilitators Must Maintain High Level Of Operational Security](014feb92-49dc-4117-911f-a6ec14451b30); [A.1.6.4 - Derecognition Required Where Facilitator Operational Security Is Compromised](c3ba34f0-b3f0-449b-b609-52548db090ea); [A.1.6.5 - Facilitators Must Err On Side Of Caution](ac9df70a-d110-42da-805a-abe03b52dcdc); and [A.0.1.1.19 - Facilitator](912e0161-3448-470f-9cf6-d1a26d76acab). 
-
-This limited exemption takes precedence over any conflicting provisions in the Atlas.
-
-#### A.1.4.7.0.4.1 - ADs & Facilitators required to adhere to comprehensive operational security practices [Action Tenet]  <!-- UUID: 598ff9cf-146e-4499-93d3-583518c390a1 -->
-
-The operational security of the Alignment Conserver roles is key to governance integrity overall. Aligned Delegates and Facilitators are mandated to maintain rigorous operational security practices to ensure that their identities and work activities are anonymized and all related information is safeguarded. Such practices must go beyond basic privacy-enhancing measures and must include the use of secure communication channels, stringent data encryption, anonymity tools like VPNs and TOR networks, regular security audits, and rigorous digital footprint management.
 
 #### NR-4 - Operational Security Protocols - Research Track [Needed Research]  <!-- UUID: e33879c1-93d0-48a6-8f08-ad00a4821bde -->
 
@@ -1710,11 +1698,31 @@ The Security Scope Advisor could also assist in reviewing an informant's evidenc
 
 This Needed Research is an extensive Research Track, given the wide-ranging implications and potential mechanisms around opsec best practices, and also how these should map onto the Atlas.
 
+#### A.1.4.7.1 - Exemption From Facilitator Anonymity Requirement [Core]  <!-- UUID: cb2ae821-e9b8-47b0-bda8-bc8bb149c5b5 -->
+
+The Facilitator "Ecosystem" is exempt from the anonymity requirement, as well as the requirement of high levels of operational security insofar as the latter requirement relates to maintaining anonymity. This exemption applies solely to the Facilitator "Ecosystem", as they onboarded into the role prior to the ratification of Atlas v1 (March 27, 2023), which introduced the anonymity requirement for Facilitators.
+
+This exemption applies to limit the effect of the following provisions: [A.1.6.3 - Facilitators Must Maintain High Level Of Operational Security](014feb92-49dc-4117-911f-a6ec14451b30); [A.1.6.4 - Derecognition Required Where Facilitator Operational Security Is Compromised](c3ba34f0-b3f0-449b-b609-52548db090ea); [A.1.6.5 - Facilitators Must Err On Side Of Caution](ac9df70a-d110-42da-805a-abe03b52dcdc); and [A.0.1.1.19 - Facilitator](912e0161-3448-470f-9cf6-d1a26d76acab). 
+
+This limited exemption takes precedence over any conflicting provisions in the Atlas.
+
+#### A.1.4.7.0.4.1 - ADs & Facilitators required to adhere to comprehensive operational security practices [Action Tenet]  <!-- UUID: 598ff9cf-146e-4499-93d3-583518c390a1 -->
+
+The operational security of the Alignment Conserver roles is key to governance integrity overall. Aligned Delegates and Facilitators are mandated to maintain rigorous operational security practices to ensure that their identities and work activities are anonymized and all related information is safeguarded. Such practices must go beyond basic privacy-enhancing measures and must include the use of secure communication channels, stringent data encryption, anonymity tools like VPNs and TOR networks, regular security audits, and rigorous digital footprint management.
+
 ### A.1.4.8 - Swift Action Is Required From Facilitators To Redress AC Misalignment [Section]  <!-- UUID: 40f850ee-b3f2-4126-9128-4f6a6b38d275 -->
 
 The Core Facilitator must act swiftly when an AC is suspected of breaching the requirements defined in this Article, or the requirements defined in the Articles specific to the Aligned Delegate or Facilitator role.
 
 The Core Facilitator's failure to act promptly in addressing credible evidence of AC misalignment or to mitigate the risk of misalignment spreading among ACs is considered an act of misalignment itself. Formal allegations of such failure must be adjudicated by Core GovOps pursuant to [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
+
+#### NR-5 - Derecognition Procedure [Needed Research]  <!-- UUID: 7b90bfa2-c857-4170-b6cd-2d4adb290aa0 -->
+
+**Content**:
+
+Research specific procedural steps for the derecognition of an AC. The procedure should account for ways in which this process can be streamlined or standardized to ensure swift action. Research should identify potential bottlenecks and suggest ways to eliminate them, such as pre-defined decision-making protocols, clear documentation requirements, and fast-track procedures for urgent cases.
+
+Another point to research involves the concepts of due process or fairness. Specific logic currently active in the Atlas clearly indicates that ACs are held to the highest standards of Universal Alignment. Such a standard would seem to indicate that "fairness" is not an objective in any proceeding involving AC derecognition. What are the arguments for and against this?
 
 #### A.1.4.8.0.3.1 - Risk Of Misalignment Spreading Among ACs - Element Annotation [Annotation]  <!-- UUID: 13c4f127-0ef2-43b5-a5ac-905719091bdd -->
 
@@ -1730,14 +1738,6 @@ Where the allegation of misalignment concerns the Core Facilitator, a community 
 
 By "swiftly," the Target Document requires Facilitators to take immediate and prompt action without unnecessary delay. The urgency is intended to prevent further harm or disruption within the governance system. A highly time-sensitive response is mandated for any breaches or potential risks of AC misalignment.
 
-#### NR-5 - Derecognition Procedure [Needed Research]  <!-- UUID: 7b90bfa2-c857-4170-b6cd-2d4adb290aa0 -->
-
-**Content**:
-
-Research specific procedural steps for the derecognition of an AC. The procedure should account for ways in which this process can be streamlined or standardized to ensure swift action. Research should identify potential bottlenecks and suggest ways to eliminate them, such as pre-defined decision-making protocols, clear documentation requirements, and fast-track procedures for urgent cases.
-
-Another point to research involves the concepts of due process or fairness. Specific logic currently active in the Atlas clearly indicates that ACs are held to the highest standards of Universal Alignment. Such a standard would seem to indicate that "fairness" is not an objective in any proceeding involving AC derecognition. What are the arguments for and against this?
-
 ### A.1.4.9 - Adjudication Process [Section]  <!-- UUID: 560e1024-0897-4f1e-ae71-3ba31e29ed57 -->
 
 The Core Facilitator is responsible for adjudicating formal allegations of misalignment or operational security breaches brought against Alignment Conservers (ACs).
@@ -1745,6 +1745,20 @@ The Core Facilitator is responsible for adjudicating formal allegations of misal
 In the adjudication of these matters, the Core Facilitator is mandated to hold ACs to the highest standard of Universal Alignment, without granting them the benefit of the doubt.
 
 The adjudication process is further defined in the subdocuments herein.
+
+#### NR-8 - Systematic Basis Of Adjudication, Fact-Finding And Evidence [Needed Research]  <!-- UUID: 279f417e-2fec-473d-ab7c-eaf5b371c598 -->
+
+**Content**:
+
+This need is an extensive Research Track. The central research need that grows out of the Facilitator role has to do with developing systematic principles and protocols to serve as the foundation for adjudicating disputes and controversies, including processes for fact-finding, evidence validation and evaluation, mechanisms for ensuring impartiality and objectivity, an appeals process, etc. 
+
+The Atlas has made a good start with establishing an adjudication framework. There is some logic concerning procedures for how disputes and controversies (including Alignment Conserver misalignment) are brought forward and how they are reviewed. But essential elements are missing, such as protocols and standards for fact-finding and evidence. 
+
+Needed Research here includes methods for implementing a structured fact-finding process that gathers relevant information impartially and comprehensively. Who has the authority to investigate, to request evidence, to handle evidence?  What types of evidence are permissible to consider? See [Responsibly Provided - Whistleblower Evidence Of Misalignment Must Be Secured Ethically](ba46ef4f-2ed6-4b16-b5b5-8a3ee01ad18d). What are the processes for collecting, preserving, and analyzing this evidence? When should evidence be shared with the larger community and when should it be kept confidential? 
+
+Then there is the matter of assessing evidence in a way that is rigorous and impartial, without which, confidence in the Atlas and the governance process may be undermined. What criteria should be used to validate and evaluate evidence to ensure its reliability and relevance in decision-making? This involves determining the credibility of sources, the reliability of evidence, and the relevance of information to the specific case. The research should explore different approaches to evidence evaluation, such as the application of the burden of proof, standards of proof (e.g., preponderance of evidence, beyond a reasonable doubt), and the use of experts. 
+
+How much discretion should Facilitators have in interpreting and applying the element "the highest standard of Universal Alignment"? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.
 
 #### A.1.4.9.1 - Opportunity to Respond [Core]  <!-- UUID: 4217002f-6c87-45fb-80ac-598472e3fff9 -->
 
@@ -1761,6 +1775,12 @@ If the Core Facilitator concludes that the allegation of misalignment or operati
 ##### A.1.4.9.2.1 - Warnings Appropriate For Mild Breach [Core]  <!-- UUID: f8107b34-93b1-4ab8-a6ab-c4e70a048933 -->
 
 In cases of very mild "slippery slope" breaches of the Alignment Conserver requirements, a formal warning may be given and recorded in the subdocuments herein. Where such a breach was the first instance of misalignment by the Alignment Conserver, no disciplinary measures beyond a formal warning are required.
+
+###### NR-6 - Defining Threshold For “Very Mild Slippery Slope" Breaches [Needed Research]  <!-- UUID: db47c59f-a822-4213-9305-8c8eb07c41f0 -->
+
+**Content**:
+
+What specific actions or omissions qualify as "very mild slippery slope" breaches? Helpful research can include: developing a set of criteria or a checklist that defines what constitutes a "very mild slippery slope" breach. This could involve an analysis of past or hypothetical incidents, consultations with the Facilitators, etc. Such guidelines are likely needed to help Facilitators reliably determine whether an act should be classified as a 'minor' slippery slope infraction or a more severe act which would merit derecognition.
 
 ###### A.1.4.9.2.1.1 - Warning Notice [Core]  <!-- UUID: 0222d1c6-67ab-456e-82d6-41f3b834f285 -->
 
@@ -1802,15 +1822,17 @@ The element "mild slippery slope breach" characterizes a form of misalignment or
 
 Any Alignment Conserver misalignment, regardless of its seemingly trivial nature, carries inherent risks. ACs must be held to the highest standards of Universal Alignment. The Target Document indicates that leniency towards AC infractions could set a risky precedent, where, for instance, misaligned actors justify themselves based on prior instances of lenience.
 
-###### NR-6 - Defining Threshold For “Very Mild Slippery Slope" Breaches [Needed Research]  <!-- UUID: db47c59f-a822-4213-9305-8c8eb07c41f0 -->
-
-**Content**:
-
-What specific actions or omissions qualify as "very mild slippery slope" breaches? Helpful research can include: developing a set of criteria or a checklist that defines what constitutes a "very mild slippery slope" breach. This could involve an analysis of past or hypothetical incidents, consultations with the Facilitators, etc. Such guidelines are likely needed to help Facilitators reliably determine whether an act should be classified as a 'minor' slippery slope infraction or a more severe act which would merit derecognition.
-
 ##### A.1.4.9.2.2 - Mandated Derecognition For Severe Breaches [Core]  <!-- UUID: 12044fd7-4cfa-4431-aa03-a9531353c6dd -->
 
 In cases where severe actions or violations occur that can be reasonably interpreted as Governance Attacks, the Alignment Conserver must be promptly derecognized by the Core Facilitator.
+
+###### NR-7 - Defining “Severe Actions Or Violations" And “Governance Attack” [Needed Research]  <!-- UUID: 98d5b899-f012-403d-9c6a-2ffda4ec2961 -->
+
+**Content**:
+
+What specific criteria or actions qualify as "severe" enough to warrant derecognition? Develop clear guidelines that define what constitutes a "severe case" in the context of misaligned actions. This involves identifying key indicators of severity, such as the magnitude of the impact, the intent behind the actions, and the potential or actual harm caused.
+
+Also needed: What actions or behaviors specifically constitute a "Governance Attack"? Can you propose criteria or frameworks for assessing intent, the scope of actions, and their potential consequences? The research can perhaps explore how different governance models define and respond to attacks and consider psychological, legal, and operational perspectives to support a more fact-driven interpretive approach.
 
 ###### A.1.4.9.2.2.0.3.1 - Governance Attacks - Element Annotation [Annotation]  <!-- UUID: c5bb1fc6-942f-4edc-818b-bf7aa75137c2 -->
 
@@ -1821,14 +1843,6 @@ The element "governance attack" is a critical violation of the Sky ecosystem's g
 The element 'promptly' in the Target Document means 'as soon as is reasonably possible.'
 
 To adhere to this commitment, the Core Facilitator must derecognize the AC within a general timeframe of 1-2 calendar days upon conclusion of an adjudication that finds against the AC for misalignment. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the Facilitators’ control.
-
-###### NR-7 - Defining “Severe Actions Or Violations" And “Governance Attack” [Needed Research]  <!-- UUID: 98d5b899-f012-403d-9c6a-2ffda4ec2961 -->
-
-**Content**:
-
-What specific criteria or actions qualify as "severe" enough to warrant derecognition? Develop clear guidelines that define what constitutes a "severe case" in the context of misaligned actions. This involves identifying key indicators of severity, such as the magnitude of the impact, the intent behind the actions, and the potential or actual harm caused.
-
-Also needed: What actions or behaviors specifically constitute a "Governance Attack"? Can you propose criteria or frameworks for assessing intent, the scope of actions, and their potential consequences? The research can perhaps explore how different governance models define and respond to attacks and consider psychological, legal, and operational perspectives to support a more fact-driven interpretive approach.
 
 #### A.1.4.9.3 - Issuing of Public Report [Core]  <!-- UUID: 8d8dfab8-1350-42e7-bc20-3ae2eca86005 -->
 
@@ -1852,25 +1866,17 @@ See [A.0.1.1.9 - Letter Of The Rule Vs Spirit Of The Rule](ff16fd74-3a81-4cac-92
 
 In adjudicating potential misalignment of Alignment Conservers, Facilitators are not to assume innocence or give leeway in cases of ambiguity. Instead, the burden is on the Alignment Conserver to provide clear and convincing evidence of their alignment. Any uncertainty or doubt regarding the AC’s alignment will be resolved against them, requiring them to definitively prove their adherence to the Atlas.
 
-#### NR-8 - Systematic Basis Of Adjudication, Fact-Finding And Evidence [Needed Research]  <!-- UUID: 279f417e-2fec-473d-ab7c-eaf5b371c598 -->
-
-**Content**:
-
-This need is an extensive Research Track. The central research need that grows out of the Facilitator role has to do with developing systematic principles and protocols to serve as the foundation for adjudicating disputes and controversies, including processes for fact-finding, evidence validation and evaluation, mechanisms for ensuring impartiality and objectivity, an appeals process, etc. 
-
-The Atlas has made a good start with establishing an adjudication framework. There is some logic concerning procedures for how disputes and controversies (including Alignment Conserver misalignment) are brought forward and how they are reviewed. But essential elements are missing, such as protocols and standards for fact-finding and evidence. 
-
-Needed Research here includes methods for implementing a structured fact-finding process that gathers relevant information impartially and comprehensively. Who has the authority to investigate, to request evidence, to handle evidence?  What types of evidence are permissible to consider? See [Responsibly Provided - Whistleblower Evidence Of Misalignment Must Be Secured Ethically](ba46ef4f-2ed6-4b16-b5b5-8a3ee01ad18d). What are the processes for collecting, preserving, and analyzing this evidence? When should evidence be shared with the larger community and when should it be kept confidential? 
-
-Then there is the matter of assessing evidence in a way that is rigorous and impartial, without which, confidence in the Atlas and the governance process may be undermined. What criteria should be used to validate and evaluate evidence to ensure its reliability and relevance in decision-making? This involves determining the credibility of sources, the reliability of evidence, and the relevance of information to the specific case. The research should explore different approaches to evidence evaluation, such as the application of the burden of proof, standards of proof (e.g., preponderance of evidence, beyond a reasonable doubt), and the use of experts. 
-
-How much discretion should Facilitators have in interpreting and applying the element "the highest standard of Universal Alignment"? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.
-
 ### A.1.4.10 - AC Derecognition [Section]  <!-- UUID: ac998664-5b5e-4ea5-813b-dc3105ea6cf2 -->
 
 Derecognition is the ultimate accountability measure for misalignment and entails permanently removing the individual or entity from their role as an Alignment Conserver. An individual/entity who has been derecognized from a Facilitator role is not eligible to serve as an Aligned Delegate, and vice versa. 
 
 The subdocuments herein define rules and processes related to Alignment Conserver Derecognition.
+
+#### NR-9 - Derecognition Uncertainty Due To Anonymous Actors [Needed Research]  <!-- UUID: 69e4df9f-d2f3-4fd2-9add-e1314a0a5eb3 -->
+
+**Content**:
+
+The Target Document defines the act of derecognition as "permanently removing" an entity from the Alignment Conserver role. In fact, it is not possible to effect such a permanent removal. Given the presence of anonymous/pseudonymous actors in the decentralized "workforce" of the Sky ecosystem, a known identity of an actor can be barred from an AC role; and yet that actor can easily re-enter the system under a different pseudonym or identity. Consider what measures can be implemented to counteract the scenario where derecognized entities reappear under a different guise. A robust reputation system is already planned; by tracking reputation that is earned over a long timescale, a derecognized entity would be barred from quickly regaining a foothold.
 
 #### A.1.4.10.1 - Derecognition Notice [Core]  <!-- UUID: 9c05207d-5e11-43ae-a8a3-1b61734d6ef9 -->
 
@@ -1900,12 +1906,6 @@ The Active Data is updated as follows:
 | 2024-12-17 | AD             | Skynet      | -             | [https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718) |  
 | 2024-12-17 | AD             | Pf          | -             | [https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.sky.money/t/derecognition-notice-for-multiple-aligned-delegates/25718) |
 | 2026-01-27 | AD             | Sky Staking | -             | [https://forum.sky.money/t/ad-derecognition-due-to-misalignment-2026-01-27/27655](https://forum.sky.money/t/ad-derecognition-due-to-misalignment-2026-01-27/27655)      |
-
-#### NR-9 - Derecognition Uncertainty Due To Anonymous Actors [Needed Research]  <!-- UUID: 69e4df9f-d2f3-4fd2-9add-e1314a0a5eb3 -->
-
-**Content**:
-
-The Target Document defines the act of derecognition as "permanently removing" an entity from the Alignment Conserver role. In fact, it is not possible to effect such a permanent removal. Given the presence of anonymous/pseudonymous actors in the decentralized "workforce" of the Sky ecosystem, a known identity of an actor can be barred from an AC role; and yet that actor can easily re-enter the system under a different pseudonym or identity. Consider what measures can be implemented to counteract the scenario where derecognized entities reappear under a different guise. A robust reputation system is already planned; by tracking reputation that is earned over a long timescale, a derecognized entity would be barred from quickly regaining a foothold.
 
 ## A.1.5 - Aligned Delegates [Article]  <!-- UUID: 75f0063c-ad70-49e4-b356-9b76097ced7b -->
 
@@ -16107,7 +16107,15 @@ The Stability Parameter Bounded External Access Module parameters for the ALLOCA
 - `step` - 400 basis points,
 - `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
-##### A.3.7.1.3.4 - Parameter Adjustments [Core]  <!-- UUID: 2d4aa875-b7ea-49c3-9506-479f0b5d157c -->
+###### A.3.7.1.2.3.5 - ALLOCATOR-PATTERN-A Parameters [Core]  <!-- UUID: 505130f5-cf13-47e0-bcb6-e4810a36a46c -->
+
+The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-PATTERN-A Allocator Vault are as follows:
+- `max` - 3,000 basis points,
+- `min` - 0 basis points,
+- `step` - 400 basis points,
+- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+
+##### A.3.7.1.2.4 - Parameter Adjustments [Core]  <!-- UUID: 2d4aa875-b7ea-49c3-9506-479f0b5d157c -->
 
 All Stability Parameter Bounded External Access Module parameters can be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
 
@@ -18951,6 +18959,18 @@ The Ethereum Instances Directory of the Arkis Protocol with `Active` Status are 
 
 This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Arkis Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.10.1](4bb58af1-fc25-442f-83a9-dd40989a7d37).
 
+###### A.6.1.1.1.2.6.1.1.2.1.12 - Uniswap v4 [Core]  <!-- UUID: 4ef25928-26c1-4864-9670-88c5d676b8e4 -->
+
+The Ethereum Mainnet Instances Directory of the Uniswap v4 with `Active` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.2.1.12.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 5e1d4f42-84aa-4907-ad6f-eb62b26d28e3 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.10.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document](c5d16727-69f7-454a-a3da-85c46dd9eed2).
+
+###### A.6.1.1.1.2.6.1.1.2.1.12.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 55e7dee1-dab9-4bc6-b8db-9aa8191597a1 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.10.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document](3c4cfb29-1579-4abe-a17b-5b5574972b73).
+
 ###### A.6.1.1.1.2.6.1.1.2.2 - Base [Core]  <!-- UUID: 305a6351-bb16-4e4d-8912-7ef1c3ff26bb -->
 
 The documents herein contain a Directory of all Instances on Base of the Allocation System Primitive with Instance status of `Active`.
@@ -19097,7 +19117,7 @@ The address of the ALM_CONTROLLER (MainnetController) contract is: `0x577Fa18a49
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.2 - ALM Controller (MainnetController) Contract Version [Core]  <!-- UUID: d7b0b6a0-0bac-4169-a006-4a375cba4baa -->
 
-The ALM_CONTROLLER (MainnetController) contract version is: 1.8
+The ALM_CONTROLLER (MainnetController) contract version is: 1.9
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.3 - ALM Freezer Multisig (Mainnet) Address [Core]  <!-- UUID: 8d6c5c86-4b70-4115-b712-65106416aa77 -->
 
@@ -19659,7 +19679,7 @@ Any changes to the multisig signers that do not fall within the two exceptions l
 
 ###### A.6.1.1.1.2.6.1.2.1.2.3 - Token Claim Authorization [Core]  <!-- UUID: ea73f176-0b94-4e93-b1ee-ca498ac5a6c6 -->
 
-Phoenix Labs is authorized to propose the inclusion of transfers of accrued treasury and collector revenues from the Active Instances to the Spark ALM Proxy in a Spark Spell. This request must be posted to the Sky Forum under the Spark Prime category. The Operational Executor Agent must formally approve the inclusion of the transfer in a Spark Spell, with no token holder vote needed.
+Phoenix Labs is authorized to propose the inclusion of transfers of accrued treasury and collector revenues from the Active Instances to the Spark ALM Proxy in a Spark Spell. Additionally, for non-USD-denominated reserve assets, or USD-denominated reserve assets that are not supported by the Spark Liquidity Layer, the reserves can be transferred to the Spark Operations Multisig at address (`0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC`) to be liquidated for USDS, with the proceeds of sale transferred to the Spark SubDAO Proxy. This request must be posted to the Sky Forum under the Spark Prime category. The Operational Executor Agent must formally approve the inclusion of the transfer in a Spark Spell, with no token holder vote needed.
 
 ###### A.6.1.1.1.2.6.1.2.1.3 - Total Risk Capital (TRC) Management [Core]  <!-- UUID: ff7add39-b942-4df0-a710-75f70a05b49d -->
 
@@ -23385,7 +23405,7 @@ The subdocuments herein define the current configuration of the risk parameters.
 
 The Risk parameters are:
 
-- Supply cap: 500,000,000 USDT
+- Supply cap: 2,000,000,000 USDT
 - Max yield: 10%
 - Current yield (at launch): 0%
 
@@ -23605,6 +23625,194 @@ The Maximum Exposure for all Interim Deployments in Arkis is $20 million.
 The Instance Capital Requirement Ratio for all Interim Deployments in Arkis is 100%.
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 0a1caa15-48bb-4047-bf18-76f65ba20410 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+
+###### A.6.1.1.1.2.6.1.3.1.10 - Uniswap v4 [Core]  <!-- UUID: 6c5c956c-608f-40aa-9911-d1c04df4f99e -->
+
+The Ethereum Mainnet Instances of the Uniswap v4 Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document [Core]  <!-- UUID: c5d16727-69f7-454a-a3da-85c46dd9eed2 -->
+
+The documents herein contain the Instance Configuration Document for the Uniswap v4 PYUSD/USDS Pool Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: bd5042f9-cd5d-4574-b868-d0b9ad247a3a -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2 - Parameters [Core]  <!-- UUID: 4139b0ae-87f7-4b3f-aa48-78ee8efc1047 -->
+
+The documents herein define the parameters of the Uniswap v4 PYUSD/USDS Pool Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 7efb34f5-5007-4ab4-93e7-e00e616df5b3 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.1 - Network [Core]  <!-- UUID: 94de254f-7f5e-4e40-a683-26935e3503ed -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 61fb4454-3c58-4757-b796-cc9890685e71 -->
+
+Uniswap v4
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 967a9605-4d90-46a7-a4bd-1ebcd7192b70 -->
+
+USDS and PYUSD
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.4 - Token [Core]  <!-- UUID: 4d4123a0-312b-4351-aecc-28e56b1de290 -->
+
+PYUSDUSDS
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.2 - Contract Addresses [Core]  <!-- UUID: fda1c342-7d97-4674-a383-d32544990ae9 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.2.1 - Token Address [Core]  <!-- UUID: df34137f-2994-48fb-ba1d-1c533b1fc305 -->
+
+`0xa632d59b9b804a956bfaa9b48af3a1b74808fc1f`
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.2.2 - Pool ID [Core]  <!-- UUID: 1ec43acc-0aba-4e5e-96f9-cb6c4143c7f3 -->
+
+`0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45`
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7b94ebfe-42c9-4319-80ff-d57258f5773c -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4 - Rate Limits [Core]  <!-- UUID: 689f87d9-e66b-4eab-b984-9ad21ed4bb59 -->
+
+The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 02ca893e-879e-47fa-a2f1-ca783ccf2106 -->
+
+The inflow rate limits are:
+- `maxAmount`: 10,000,000
+- `slope`: 100,000,000 per day
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 7b1bcd5c-8af6-46bd-8fb0-cbac22bae80a -->
+
+The outflow rate limits are:
+- `maxAmount`: 50,000,000
+- `slope`: 200,000,000 per day
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 1a2ba197-1389-4cdd-8e55-ca950ecacdca -->
+
+The swap rate limits are:
+- `maxAmount`: 5,000,000
+- `slope`: 50,000,000 per day
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.4 - Maximum Slippage [Core]  <!-- UUID: 0318bf34-70a0-42a0-9019-e5a48de96ec6 -->
+
+Max slippage: 0.1%
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.5 - Tick Range and Width [Core]  <!-- UUID: 9e8e50cc-eb69-43f4-b0d6-dd2f0c4fc01a -->
+
+- Min lower tick limit: 276,314 (-0.1%)
+- Max upper tick limit: 276,334 (+0.1%)
+- Max tick width: 10 ticks
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.6 - Swap Fee [Core]  <!-- UUID: 3c776b0d-7ab4-4949-993e-ce290341654d -->
+
+0.0005%
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 809b7844-1e15-4e43-bc33-b0af6074a725 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c8bfb680-b56f-4cd2-835c-4fdec23be484 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document [Core]  <!-- UUID: 3c4cfb29-1579-4abe-a17b-5b5574972b73 -->
+
+The documents herein contain the Instance Configuration Document for the Uniswap v4 USDT/USDS Pool Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 686428f2-87e7-4592-8656-60ab5bee3168 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2 - Parameters [Core]  <!-- UUID: d46584b0-4ec1-4450-b915-79969d7c3c74 -->
+
+The documents herein define the parameters of the Uniswap v4 USDT/USDS Pool Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 0845627e-c64a-4e04-8be2-4f5bac7114d2 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.1 - Network [Core]  <!-- UUID: 6d1a7aa5-3aab-461b-a0ab-aa68137ffd0d -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 1fdf2ecf-e70e-4294-91de-1596f991ca2a -->
+
+Uniswap v4
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 13b49366-aaee-4f35-b2cd-e2317bc4b92c -->
+
+USDS and USDT
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.4 - Token [Core]  <!-- UUID: a877ea22-2aae-451e-b0d6-912fdaca1796 -->
+
+USDTUSDS
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.2 - Contract Addresses [Core]  <!-- UUID: 164e3bb8-8a61-41b7-9d34-797db864ac87 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.2.1 - Token Address [Core]  <!-- UUID: c864e1c5-a653-433b-85e5-3bd1037fc7a1 -->
+
+`0x00836Fe54625BE242BcFA286207795405ca4fD10`
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.2.2 - Pool ID [Core]  <!-- UUID: 6e231bfb-e04f-44e0-9023-7ab98c9b7568 -->
+
+`0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9`
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 77850de8-afe7-47e2-aedd-e44de6922c6f -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.4 - Rate Limits [Core]  <!-- UUID: 91ad3746-e58c-43b3-a53d-0430b5e20a4c -->
+
+The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: a6105d1a-16d8-4920-808c-780891e2112d -->
+
+The inflow rate limits are:
+- `maxAmount`: 5,000,000
+- `slope`: 50,000,000 per day
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 2a7d1855-feb9-4a16-b726-144f52c89dd3 -->
+
+The outflow rate limits are:
+- `maxAmount`: 50,000,000
+- `slope`: 200,000,000 per day
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 18355afe-c656-47a5-8867-206263d8cb09 -->
+
+The swap rate limits are:
+- `maxAmount`: 5,000,000
+- `slope`: 50,000,000 per day
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.4 - Maximum Slippage [Core]  <!-- UUID: fa48928b-af8a-4455-88ac-43a68631e329 -->
+
+Max slippage: 0.2%
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.5 - Tick Range and Width [Core]  <!-- UUID: e72be948-a47e-4303-b9b2-d1acb07cecd4 -->
+
+- Min lower tick limit: 276,304 (-0.2%)
+- Max upper tick limit: 276,344 (+0.2%)
+- Max tick width: 10 ticks
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.6 - Swap Fee [Core]  <!-- UUID: 9f92e7b7-83e6-4b0c-9f3d-6ec66a259c98 -->
+
+0.0005%
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: bc14c22c-f7a7-4de9-afe9-4b121d05ee7a -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.10.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: afd2544b-24de-439b-8d8f-44d5cd82a8bd -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
@@ -25126,7 +25334,11 @@ The Protocol Flash Loan Fee is set on a protocol level, regardless of what asset
 
 The subdocuments herein define the current configuration of the SparkLend risk parameters.
 
-###### A.6.1.1.1.3.2.1.1.2.1 - GNO Risk Parameters [Core]  <!-- UUID: acd9d2a2-ff4f-44fc-a544-f4cc02262a5b -->
+###### A.6.1.1.1.3.2.1.1.2.1 - SparkLend Ethereum Risk Parameters [Core]  <!-- UUID: b370fb72-57f8-4cf1-aab9-597d08afe403 -->
+
+The subdocuments herein define the current configuration of the SparkLend Ethereum risk parameters.
+
+###### A.6.1.1.1.3.2.1.1.2.1.1 - GNO Risk Parameters [Core]  <!-- UUID: acd9d2a2-ff4f-44fc-a544-f4cc02262a5b -->
 
 The current GNO risk parameters are:
 
@@ -25168,7 +25380,7 @@ The current GNO risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.2 - Dai Risk Parameters [Core]  <!-- UUID: 7d8ed55b-4aca-483b-af6d-24badb49d042 -->
+###### A.6.1.1.1.3.2.1.1.2.1.2 - Dai Risk Parameters [Core]  <!-- UUID: 7d8ed55b-4aca-483b-af6d-24badb49d042 -->
 
 The current Dai risk parameters are:
 
@@ -25212,7 +25424,7 @@ The current Dai risk parameters are:
 
 The Dai Borrow Rate is set through the Interest Rate Model as a spread over the Sky Savings Rate. The spread is set directly by the Stability Facilitators in consultation with the Core Council Risk Advisor.
 
-###### A.6.1.1.1.3.2.1.1.2.3 - USDS Risk Parameters [Core]  <!-- UUID: d9a146b8-f101-4cd6-916c-85142bb8deec -->
+###### A.6.1.1.1.3.2.1.1.2.1.3 - USDS Risk Parameters [Core]  <!-- UUID: d9a146b8-f101-4cd6-916c-85142bb8deec -->
 
 The current USDS risk parameters are:
 
@@ -25256,7 +25468,7 @@ The current USDS risk parameters are:
 
 The USDS Borrow Rate is set through the Interest Rate Model as a spread over the Sky Savings Rate. The spread is set directly by the Stability Facilitators in consultation with the Core Council Risk Advisor.
 
-###### A.6.1.1.1.3.2.1.1.2.4 - WETH Risk Parameters [Core]  <!-- UUID: b1a1fb8a-29d7-4bbd-8204-25c74263c25d -->
+###### A.6.1.1.1.3.2.1.1.2.1.4 - WETH Risk Parameters [Core]  <!-- UUID: b1a1fb8a-29d7-4bbd-8204-25c74263c25d -->
 
 The current WETH risk parameters are:
 
@@ -25302,7 +25514,7 @@ The current WETH risk parameters are:
 The Slope 1 parameter for WETH is calculated based on the following formula:
 slope 1 = stETH yield + slope 1 spread - base rate
 
-###### A.6.1.1.1.3.2.1.1.2.5 - USDT Risk Parameters [Core]  <!-- UUID: 4999a374-380b-4694-a67c-0fa471b4cf43 -->
+###### A.6.1.1.1.3.2.1.1.2.1.5 - USDT Risk Parameters [Core]  <!-- UUID: 4999a374-380b-4694-a67c-0fa471b4cf43 -->
 
 The current USDT risk parameters are:
 
@@ -25344,7 +25556,7 @@ The current USDT risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.6 - WBTC Risk Parameters [Core]  <!-- UUID: c3c3830f-4829-48fc-aced-30dcdd2a5ba7 -->
+###### A.6.1.1.1.3.2.1.1.2.1.6 - WBTC Risk Parameters [Core]  <!-- UUID: c3c3830f-4829-48fc-aced-30dcdd2a5ba7 -->
 
 The current WBTC risk parameters are:
 
@@ -25386,7 +25598,7 @@ The current WBTC risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.7 - sDai Risk Parameters [Core]  <!-- UUID: 61c21da3-22ff-4dba-8736-4a9a8556a32b -->
+###### A.6.1.1.1.3.2.1.1.2.1.7 - sDai Risk Parameters [Core]  <!-- UUID: 61c21da3-22ff-4dba-8736-4a9a8556a32b -->
 
 The current sDai risk parameters are:
 
@@ -25428,7 +25640,7 @@ The current sDai risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.8 - wstETH Risk Parameters [Core]  <!-- UUID: 5d721ab3-be87-4989-b4a2-b32ff38b912f -->
+###### A.6.1.1.1.3.2.1.1.2.1.8 - wstETH Risk Parameters [Core]  <!-- UUID: 5d721ab3-be87-4989-b4a2-b32ff38b912f -->
 
 The current wstETH risk parameters are:
 
@@ -25470,7 +25682,7 @@ The current wstETH risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.9 - USDC Risk Parameters [Core]  <!-- UUID: d8242d1a-18f2-4000-a98b-0521486b0708 -->
+###### A.6.1.1.1.3.2.1.1.2.1.9 - USDC Risk Parameters [Core]  <!-- UUID: d8242d1a-18f2-4000-a98b-0521486b0708 -->
 
 The current USDC risk parameters are:
 
@@ -25512,7 +25724,7 @@ The current USDC risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.10 - weETH Risk Parameters [Core]  <!-- UUID: 6ed18918-a695-44a6-82e7-547a3fbcafd3 -->
+###### A.6.1.1.1.3.2.1.1.2.1.10 - weETH Risk Parameters [Core]  <!-- UUID: 6ed18918-a695-44a6-82e7-547a3fbcafd3 -->
 
 The current weETH risk parameters are:
 
@@ -25554,7 +25766,7 @@ The current weETH risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.11 - rETH Risk Parameters [Core]  <!-- UUID: 9ef0bc64-db94-4d78-ac8b-cef71d28fedc -->
+###### A.6.1.1.1.3.2.1.1.2.1.11 - rETH Risk Parameters [Core]  <!-- UUID: 9ef0bc64-db94-4d78-ac8b-cef71d28fedc -->
 
 The current rETH risk parameters are:
 
@@ -25596,7 +25808,7 @@ The current rETH risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.12 - LBTC Risk Parameters [Core]  <!-- UUID: 37ff9748-6f72-4adf-af97-0f90cb7154b4 -->
+###### A.6.1.1.1.3.2.1.1.2.1.12 - LBTC Risk Parameters [Core]  <!-- UUID: 37ff9748-6f72-4adf-af97-0f90cb7154b4 -->
 
 The current LBTC risk parameters are:
 
@@ -25638,7 +25850,7 @@ The current LBTC risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.13 - tBTC Risk Parameters [Core]  <!-- UUID: 17e2cc64-6172-48f8-a4f1-a2a7bc5edbbb -->
+###### A.6.1.1.1.3.2.1.1.2.1.13 - tBTC Risk Parameters [Core]  <!-- UUID: 17e2cc64-6172-48f8-a4f1-a2a7bc5edbbb -->
 
 The current tBTC risk parameters are:
 
@@ -25650,7 +25862,7 @@ The current tBTC risk parameters are:
 
 - Liquidation Bonus: 8%
 
-- Reserve Factor: 20%
+- Reserve Factor: 99%
 
 - Supply Cap: Set by cap automator
 
@@ -25666,7 +25878,7 @@ The current tBTC risk parameters are:
 
 - Slope 2: 300%
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 - Collateral: Yes
 
@@ -25680,7 +25892,7 @@ The current tBTC risk parameters are:
 
 - Flash Loan Enabled: Yes
 
-###### A.6.1.1.1.3.2.1.1.2.14 - ezETH Risk Parameters [Core]  <!-- UUID: 51f3555b-57a3-4275-b462-a4ba85f3b8fe -->
+###### A.6.1.1.1.3.2.1.1.2.1.14 - ezETH Risk Parameters [Core]  <!-- UUID: 51f3555b-57a3-4275-b462-a4ba85f3b8fe -->
 
 The current ezETH risk parameters are:
 
@@ -25708,7 +25920,7 @@ The current ezETH risk parameters are:
 
 - Slope 2: 300%
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 - Collateral: Yes
 
@@ -25722,7 +25934,7 @@ The current ezETH risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.15 - rsETH Risk Parameters [Core]  <!-- UUID: 1da6ef90-fca2-4f72-9b8d-13a3786a3c1c -->
+###### A.6.1.1.1.3.2.1.1.2.1.15 - rsETH Risk Parameters [Core]  <!-- UUID: 1da6ef90-fca2-4f72-9b8d-13a3786a3c1c -->
 
 The current rsETH risk parameters are:
 
@@ -25750,7 +25962,7 @@ The current rsETH risk parameters are:
 
 - Slope 2: 300%
 
-- Reserve State: Active
+- Reserve State: Frozen
 
 - Collateral: Yes
 
@@ -25764,7 +25976,7 @@ The current rsETH risk parameters are:
 
 - Flash Loan Enabled: No
 
-###### A.6.1.1.1.3.2.1.1.2.16 - cbBTC Risk Parameters [Core]  <!-- UUID: 63038ac2-7666-40bb-ad9f-dba7c1a546b8 -->
+###### A.6.1.1.1.3.2.1.1.2.1.16 - cbBTC Risk Parameters [Core]  <!-- UUID: 63038ac2-7666-40bb-ad9f-dba7c1a546b8 -->
 
 The current cbBTC risk parameters are:
 
@@ -25804,7 +26016,7 @@ The current cbBTC risk parameters are:
 
 - Siloed Borrowing: No
 
-###### A.6.1.1.1.3.2.1.1.2.17 - sUSDS Risk Parameters [Core]  <!-- UUID: 1d7f757a-aabb-463d-9d3d-3f34f1c0656a -->
+###### A.6.1.1.1.3.2.1.1.2.1.17 - sUSDS Risk Parameters [Core]  <!-- UUID: 1d7f757a-aabb-463d-9d3d-3f34f1c0656a -->
 
 The current sUSDS risk parameters are:
 
@@ -25844,7 +26056,7 @@ The current sUSDS risk parameters are:
 
 - Siloed Borrowing: No
 
-###### A.6.1.1.1.3.2.1.1.2.18 - pyUSD Risk Parameters [Core]  <!-- UUID: 5e05e5d8-8477-460f-a197-4b49bfa8652f -->
+###### A.6.1.1.1.3.2.1.1.2.1.18 - pyUSD Risk Parameters [Core]  <!-- UUID: 5e05e5d8-8477-460f-a197-4b49bfa8652f -->
 
 The current pyUSD risk parameters are:
 
@@ -25884,13 +26096,395 @@ The current pyUSD risk parameters are:
 
 - Siloed Borrowing: No
 
-###### A.6.1.1.1.3.2.1.1.2.19 - Total Flash Loan Fee Current Value [Core]  <!-- UUID: fdd544f0-fa59-42f5-afb8-290cd812eb35 -->
+###### A.6.1.1.1.3.2.1.1.2.1.19 - Total Flash Loan Fee Current Value [Core]  <!-- UUID: fdd544f0-fa59-42f5-afb8-290cd812eb35 -->
 
 The Total Flash Loan Fee is 0.00%.
 
-###### A.6.1.1.1.3.2.1.1.2.20 - Protocol Flash Loan Fee Current Value [Core]  <!-- UUID: 086d81f6-e8e2-4693-996f-6ccb62ee362b -->
+###### A.6.1.1.1.3.2.1.1.2.1.20 - Protocol Flash Loan Fee Current Value [Core]  <!-- UUID: 086d81f6-e8e2-4693-996f-6ccb62ee362b -->
 
 The Protocol Flash Loan Fee is 0.00%.
+
+###### A.6.1.1.1.3.2.1.1.2.2 - SparkLend Gnosis Risk Parameters [Core]  <!-- UUID: 1ecdd683-0f6f-4bca-8f43-c2a458224404 -->
+
+The subdocuments herein define the current configuration of the SparkLend Gnosis risk parameters.
+
+###### A.6.1.1.1.3.2.1.1.2.2.1 - GNO Risk Parameters [Core]  <!-- UUID: aacc4fa0-3fd8-44f4-af79-7ec3d4128328 -->
+
+The current GNO risk parameters are:
+
+- LTV: 40%
+
+- Liquidation Threshold: 50%
+
+- E-mode Category: N/A
+
+- Liquidation Bonus: 12%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 100,000 GNO
+
+- Borrow Cap: N/A
+
+- Optimal Utilization: 80%
+
+- Isolated Debt Ceiling: $1,000,000
+
+- Base Rate: 0%
+
+- Slope 1: 0%
+
+- Slope 2: 0%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: No
+
+- Isolated Collateral: Yes
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
+
+###### A.6.1.1.1.3.2.1.1.2.2.2 - WETH Risk Parameters [Core]  <!-- UUID: dc3b3c32-f891-49fa-bdb4-8944d14e3d56 -->
+
+The current WETH risk parameters are:
+
+- LTV: 70%
+
+- Liquidation Threshold: 75%
+
+- E-mode Category: ETH
+
+- Liquidation Bonus: 5%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 5,000 ETH
+
+- Borrow Cap: 3,000 ETH
+
+- Optimal Utilization: 80%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 2.5%
+
+- Slope 2: 120%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: Yes
+
+###### A.6.1.1.1.3.2.1.1.2.2.3 - USDT Risk Parameters [Core]  <!-- UUID: f5a396c7-dc2c-4d67-adff-89c5a8c62652 -->
+
+The current USDT risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 0%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 0%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 10,000,000 USDT
+
+- Borrow Cap: 8,000,000 USDT
+
+- Optimal Utilization: 95%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 9%
+
+- Slope 2: 15%
+
+- Reserve State: Frozen
+
+- Collateral: No
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: Yes
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: Yes
+
+###### A.6.1.1.1.3.2.1.1.2.2.4 - sDai Risk Parameters [Core]  <!-- UUID: 2c982dbd-dee3-45ce-9e45-48d7ebc33acb -->
+
+The current sDai risk parameters are:
+
+- LTV: 70%
+
+- Liquidation Threshold: 75%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 6%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 40,000,000 sDai
+
+- Borrow Cap: N/A
+
+- Optimal Utilization: 80%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 0%
+
+- Slope 2: 0%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: No
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
+
+###### A.6.1.1.1.3.2.1.1.2.2.5 - wstETH Risk Parameters [Core]  <!-- UUID: a07d0682-9249-4a4f-b2a3-c0dfb163c683 -->
+
+The current wstETH risk parameters are:
+
+- LTV: 65%
+
+- Liquidation Threshold: 72.5%
+
+- E-mode Category: ETH
+
+- Liquidation Bonus: 8%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 15,000 wstETH
+
+- Borrow Cap: 100 wstETH
+
+- Optimal Utilization: 45%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 1%
+
+- Slope 1: 3%
+
+- Slope 2: 100%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: Yes
+
+###### A.6.1.1.1.3.2.1.1.2.2.6 - USDC Risk Parameters [Core]  <!-- UUID: f54fff22-1cad-4ccd-80ae-f05f0345c384 -->
+
+The current USDC risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 0%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 0%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 10,000,000 USDC
+
+- Borrow Cap: 1,000,000 USDC
+
+- Optimal Utilization: 80%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 9%
+
+- Slope 2: 50%
+
+- Reserve State: Frozen
+
+- Collateral: No
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: Yes
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: Yes
+
+###### A.6.1.1.1.3.2.1.1.2.2.7 - USDC.e Risk Parameters [Core]  <!-- UUID: b54fc943-6d64-4c67-9aa2-150665be6493 -->
+
+The current USDC.e risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 0%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 0%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 10,000,000 USDC.e
+
+- Borrow Cap: 8,000,000 USDC.e
+
+- Optimal Utilization: 95%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 9%
+
+- Slope 2: 15%
+
+- Reserve State: Frozen
+
+- Collateral: No
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: Yes
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
+
+###### A.6.1.1.1.3.2.1.1.2.2.8 - WXDAI Risk Parameters [Core]  <!-- UUID: 57bae006-ff07-4da7-adc3-ea3649ce7e38 -->
+
+The current WXDAI risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 75%
+
+- E-mode Category: USD
+
+- Liquidation Bonus: 5%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 20,000,000 WXDAI
+
+- Borrow Cap: 16,000,000 WXDAI
+
+- Optimal Utilization: 95%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 9%
+
+- Slope 2: 15%
+
+- Reserve State: Frozen
+
+- Collateral: Yes
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: Yes
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
+
+###### A.6.1.1.1.3.2.1.1.2.2.9 - EURe Risk Parameters [Core]  <!-- UUID: 1a8186bd-c557-4a6d-80e3-a8140a215e06 -->
+
+The current EURe risk parameters are:
+
+- LTV: 0%
+
+- Liquidation Threshold: 0%
+
+- E-mode Category: N/A
+
+- Liquidation Bonus: 0%
+
+- Reserve Factor: 50%
+
+- Supply Cap: 5,000,000 EURe
+
+- Borrow Cap: 4,000,000 EURe
+
+- Optimal Utilization: 95%
+
+- Isolated Debt Ceiling: N/A
+
+- Base Rate: 0%
+
+- Slope 1: 5%
+
+- Slope 2: 15%
+
+- Reserve State: Frozen
+
+- Collateral: No
+
+- Borrowing: Yes
+
+- Isolated Collateral: No
+
+- Isolated Borrowing: No
+
+- Siloed Borrowing: No
+
+- Flash Loan Enabled: No
 
 ###### A.6.1.1.1.3.2.1.1.3 - SparkLend Risk Parameters Cap Automators [Core]  <!-- UUID: 6ffdb8ee-b083-40f5-b51b-1c91e954b68b -->
 
@@ -26454,9 +27048,9 @@ Operational expense reserve is calculated as the higher of past month’s operat
 
 The current Target SubDAO Proxy Value parameters are:
 
-- RRC Lookback Period: 12 months
-- Spark Product Backstop: 5 million USDS
-- Target Runway: 24 months
+- RRC Lookback Period: 3 months
+- Spark Product Backstop: 1 million USDS
+- Target Runway: 12 months
 
 ###### A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy [Core]  <!-- UUID: 6a4870fa-73f1-4d49-b7ee-d531fb59a971 -->
 
@@ -26496,10 +27090,11 @@ The next available Spark proxy spell will include a transfer of this calculated 
 
 The current buyback policy parameters are:
 
-- Standard Buyback rate: 10%
+- Standard Buyback rate: 25%
 - Enhanced Buyback rate: 100%
 - Enhanced Buyback threshold: 200%
 - Buyback executor: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC
+- Buyback recipient: 0x3300f198988e4C9C63F75dF86De36421f06af8c4
 
 ###### A.6.1.1.1.3.5 - Spark Savings Configuration [Core]  <!-- UUID: 9b4ce799-3baa-42e8-a742-7e8deb377dfc -->
 
