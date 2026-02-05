@@ -28567,7 +28567,7 @@ This Instance's associated Instance Configuration Document is located at [Ethere
 
 This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Steakhouse PYUSD Morpho Vault Instance Configuration Document](0b7e1d3d-1f56-48a6-9729-88479aa5ff92).
 
-###### A.6.1.1.2.2.6.1.1.2.1.7.5 - Grove x Steakhouse AUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 1281f13b-4435-46c5-9e8a-b602aac42c7a -->
+###### A.6.1.1.2.2.6.1.1.2.1.7.5 - Ethereum Mainnet - Grove x Steakhouse AUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 1281f13b-4435-46c5-9e8a-b602aac42c7a -->
 
 This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Grove x Steakhouse AUSD Morpho Vault V2 Instance Configuration Document](2c21462b-2925-48d8-9578-5fc21aa96563).
 
@@ -31907,7 +31907,7 @@ The documents herein contain operational parameters or configuration details uni
 
 ###### A.6.1.1.2.2.6.1.3.1.7.5.4.1 - Max Exchange Rate [Core]  <!-- UUID: c7a016f1-0d8d-47ad-b91e-39d1a285b149 -->
 
-Controllers now have protections that require a maxExchangeRate to be set for deposits. The following ensures 1 share can represent at most 2 AUSD:
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 AUSD:
 
 - `setMaxExchangeRate(GROVE_X_STEAKHOUSE_AUSD_V2, 1e18, 2e6)`
 
