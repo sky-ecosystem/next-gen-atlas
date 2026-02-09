@@ -1690,11 +1690,11 @@ The Alignment Conserver roles of Facilitator and Aligned Delegate require anonym
 
 The Core Facilitator may not have the needed experience and skills to adjudicate matters involving operational security best practices. See Endgame Edge Governance Facilitator team Forum post ([https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532#proposal-for-community-discussion-2](https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532#proposal-for-community-discussion-2)) on AD derecognition:
 
-The DAO could hire a security advisor firm/consultant as a Scope Advisor. (This could fall under the Governance Scope and its requirement for Governance Security processes). Their task would be to thoroughly analyze the security needs and risks of the Alignment Conservers and develop ever-evolving Operational Security "Best Practices".
+"The DAO could hire a security advisor firm/consultant as a Scope Advisor. (This could fall under the Governance Scope and its requirement for Governance Security processes). Their task would be to thoroughly analyze the security needs and risks of the Alignment Conservers and develop ever-evolving Operational Security "Best Practices".
 
 With an explicit framework of agreed-upon Best Practices, all anon Alignment Conservers have a known target to meet. Further, the existence of an objective framework of Best Practices equips the Core Facilitator to easily determine when a breach of opsec best practice has occurred. The explicit framework removes the risk of the Facilitator inappropriately inserting subjective bias into the decision-making process.
 
-The Security Scope Advisor could also assist in reviewing an informant's evidence to evaluate its validity/quality. The Security Scope Advisor could ensure that the methods used by the informant to secure the evidence were ethical. (All communications, evidence and data shared with the Security Scope Advisor would be under confidentiality protection). Finally, such an Advisor would have specialized expertise in opsec and associated matters that the Core Facilitator lacks".
+The Security Scope Advisor could also assist in reviewing an informant's evidence to evaluate its validity/quality. The Security Scope Advisor could ensure that the methods used by the informant to secure the evidence were ethical. (All communications, evidence and data shared with the Security Scope Advisor would be under confidentiality protection). Finally, such an Advisor would have specialized expertise in opsec and associated matters that the Core Facilitator lacks."
 
 This Needed Research is an extensive Research Track, given the wide-ranging implications and potential mechanisms around opsec best practices, and also how these should map onto the Atlas.
 
@@ -2478,7 +2478,7 @@ The Protocol Security Workstream Lead and Governance Facilitators may run firedr
 
 #### A.1.8.1.4 - Facilitators’ Roles And Responsibilities [Core]  <!-- UUID: c9c32f24-cf6c-43d5-ac4c-bd2b4d02032b -->
 
-The Support Facilitators are empowered to declare an emergency situation, in consultation with the responsible Facilitator of the impacted Scope(s) and any relevant Scope Advisor(s).
+The Support Facilitators are empowered to declare an emergency situation, in consultation with the responsible Facilitator of the impacted Scope(s) and, if relevant, the Core Council Risk Advisor.
 
 After an emergency situation has been declared, the Support or Governance Facilitators are responsible for coordinating emergency-situation processes to ensure they are civil, consistently applied and aligned. The Governance Facilitators are responsible for publishing Polls and Executive Votes.
 
@@ -2502,7 +2502,7 @@ The subdocuments herein define the emergency response process.
 
 ##### A.1.8.1.5.1 - Incident Validation [Core]  <!-- UUID: 97020aa2-9492-4fa4-8eee-d860d6f33618 -->
 
-The Support Facilitators are responsible for determining whether a reported incident is a valid emergency; where possible, this can be done in consultation with the responsible Facilitator of the impacted Scope(s) and any relevant Scope Advisor(s).
+The Support Facilitators are responsible for determining whether a reported incident is a valid emergency; where possible, this can be done in consultation with the responsible Facilitator of the impacted Scope(s) and, if relevant, the Core Council Risk Advisor.
 
 ##### A.1.8.1.5.2 - Incident Categorization [Core]  <!-- UUID: f3a647b2-8083-41f1-b67a-66bd322ccc16 -->
 
@@ -4735,7 +4735,7 @@ The subdocuments herein define the governance process for using the Linear Inter
 
 ###### A.1.9.3.2.13.2.1 - Linear Interpolation Module Authorization [Core]  <!-- UUID: 9652bd2c-f51c-42bb-9240-701e9723f574 -->
 
-The Facilitators responsible for the Scope that governs the parameter to be adjusted by the Linear Interpolation Module, in consultation with the Scope Advisor(s), may recommend deploying the Linear Interpolation Module for parameter adjustments.
+The Facilitators responsible for the Scope that governs the parameter to be adjusted by the Linear Interpolation Module, in consultation with the Core Council Risk Advisor, may recommend deploying the Linear Interpolation Module for parameter adjustments.
 
 ###### A.1.9.3.2.13.2.1.1 - Linear Interpolation Module Consideration [Core]  <!-- UUID: dd631146-0227-4fe3-87dd-085d0c909879 -->
 
@@ -5061,7 +5061,7 @@ The role of the Support Facilitators in the Standby Spell process is as follows:
 
 - Standby Spells can only be used in response to a properly validated and categorized emergency scenario, for which the Support Facilitators are responsible. See [A.1.8.1.5.1 - Incident Validation](97020aa2-9492-4fa4-8eee-d860d6f33618) and [A.1.8.1.5.2 - Incident Categorization](f3a647b2-8083-41f1-b67a-66bd322ccc16).
 
-The decision to initiate the process to use a Standby Spell is reserved for the Support Facilitators; where possible, the Support Facilitators should consult with the responsible Facilitator of the impacted Scope(s) and any relevant Scope Advisor(s). See [A.1.8.1.4 - Facilitators’ Roles And Responsibilities](c9c32f24-cf6c-43d5-ac4c-bd2b4d02032b)**.**
+The decision to initiate the process to use a Standby Spell is reserved for the Support Facilitators; where possible, the Support Facilitators should consult with the responsible Facilitator of the impacted Scope(s) and, if relevant, the Core Council Risk Advisor. See [A.1.8.1.4 - Facilitators’ Roles And Responsibilities](c9c32f24-cf6c-43d5-ac4c-bd2b4d02032b).
 
 - The Support Facilitators must explicitly communicate the decision to use a Standby Spell in the secure, private communication channel specified in [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf) or on a "war room" video call.
 
@@ -5227,7 +5227,7 @@ The role of the Support Facilitators in the usage of Protego is as follows:
 
 - Protego can only be used in response to a properly validated and categorized emergency scenario, for which the Support Facilitators are responsible. See [A.1.8.1.5.1 - Incident Validation](97020aa2-9492-4fa4-8eee-d860d6f33618) and [A.1.8.1.5.2 - Incident Categorization](f3a647b2-8083-41f1-b67a-66bd322ccc16).
 
-- The decision to initiate the process to use Protego is reserved for the Support Facilitators; where possible, the Support Facilitators should consult with the responsible Facilitator of the impacted Scope(s) and any relevant Scope Advisor(s). See [A.1.8.1.4 - Facilitators’ Roles And Responsibilities](c9c32f24-cf6c-43d5-ac4c-bd2b4d02032b).
+- The decision to initiate the process to use Protego is reserved for the Support Facilitators; where possible, the Support Facilitators should consult with the responsible Facilitator of the impacted Scope(s) and, if relevant, the Core Council Risk Advisor. See [A.1.8.1.4 - Facilitators’ Roles And Responsibilities](c9c32f24-cf6c-43d5-ac4c-bd2b4d02032b).
 
 - The Support Facilitators must explicitly communicate the decision to use Protego in the secure, private communication channel specified in [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf) or on a "war room" video call.
 
@@ -13750,10 +13750,10 @@ The following Instance Financial CRRs apply to specific assets listed:
 
 Investments in JTRSY and JAAA on Avalanche are subject to the following additional restrictions:
     
-◦ The initial deployment of capital into JTRSY and JAAA on Avalanche may not exceed 20 million USDS in total;    
-◦ Each additional deployment of capital into JTRSY or JAAA must be approved by the Stability Scope Advisors;    
-◦ Until audits of Centrifuge v3 are approved by the Protocol Security Workstream Lead, the Prime must be below a 90% Encumbrance Ratio on a pro forma basis assuming that each additional deployment of capital into JTRSY and JAAA requires 100% Instance Total CRR; and    
-◦ Total investments in JTRSY and JAAA on Avalanche may not exceed 250 million USDS.
+- The initial deployment of capital into JTRSY and JAAA on Avalanche may not exceed 20 million USDS in total;    
+- Each additional deployment of capital into JTRSY or JAAA must be approved by the Core Council Risk Advisor;    
+- Until audits of Centrifuge v3 are approved by the Protocol Security Workstream Lead, the Prime must be below a 90% Encumbrance Ratio on a pro forma basis assuming that each additional deployment of capital into JTRSY and JAAA requires 100% Instance Total CRR; and    
+- Total investments in JTRSY and JAAA on Avalanche may not exceed 250 million USDS.
 
 ###### A.3.2.2.1.1.1.5.3.2 - Restrictions On Investments On Plume [Core]  <!-- UUID: c5d70220-4797-4df9-8977-4998d4a57888 -->
 
@@ -15420,7 +15420,7 @@ The activation of the Kicker Module will be executed in the October 30, 2025 Exe
 
 #### A.3.5.2.3 - Modification [Core]  <!-- UUID: 499570de-9fae-4009-be34-c3330266030a -->
 
-The parameters of the Smart Burn Engine can be modified pursuant to the Operational Weekly Cycle. The Core Facilitator, in consultation with the Stability Scope Advisors, can propose changes to the `kbump` and `hop` parameters directly via an Executive Vote without requiring a Governance Poll. LSEV2-SKY-A-USDS rewardsDuration should always match the value of the hop parameter without requiring prior governance authorization. Changes to other parameters require a Governance Poll followed by an Executive Vote.
+The parameters of the Smart Burn Engine can be modified pursuant to the Operational Weekly Cycle. The Core Facilitator, in consultation with the Core Council Risk Advisor, can propose changes to the `kbump` and `hop` parameters directly via an Executive Vote without requiring a Governance Poll. LSEV2-SKY-A-USDS rewardsDuration should always match the value of the hop parameter without requiring prior governance authorization. Changes to other parameters require a Governance Poll followed by an Executive Vote.
 
 ### A.3.5.3 - Sky Capital [Section]  <!-- UUID: f45ca50a-e1d3-4504-8e40-dd45b5fb3f83 -->
 
@@ -16125,7 +16125,7 @@ The Stability Parameter Bounded External Access Module (SP-BEAM) Operator is a w
 
 ###### A.3.7.1.3.5.1 - Operator Multisig [Core]  <!-- UUID: f0cc7297-8ab9-4255-9365-d9ba87764f13 -->
 
-The Operator Multisig is the Operator of the Stability Parameter Bounded External Access Module and is controlled by Core Executor Agent Atlas Axis.
+The Operator Multisig is the Operator of the Stability Parameter Bounded External Access Module and is controlled by Core GovOps.
 
 ###### A.3.7.1.3.5.1.1 - Operator Multisig Address [Core]  <!-- UUID: 793d4595-9f1f-4387-a3a6-b9c7b20266c3 -->
 
@@ -16137,7 +16137,7 @@ The Operator Multisig currently has a 2/3 signing requirement.
 
 ###### A.3.7.1.3.5.1.3 - Operator Multisig Signers [Core]  <!-- UUID: 154be1f7-3e96-417a-b125-f978c47e2301 -->
 
-The signers of the Operator Multisig are three (3) addresses controlled by Core Executor Agent Atlas Axis.
+The signers of the Operator Multisig are three (3) addresses controlled by Core GovOps.
 
 ###### A.3.7.1.3.5.1.4 - Operator Multisig Usage Standards [Core]  <!-- UUID: 9e2f39aa-0568-46a3-ad5c-898eba6e50c0 -->
 
@@ -16145,7 +16145,7 @@ The signers of the Operator Multisig must use the multisig to operate the Stabil
 
 ###### A.3.7.1.3.5.1.5 - Operator Multisig Modification [Core]  <!-- UUID: 24b8a5d0-b2b0-4bdf-94cf-f873d7468d48 -->
 
-Core Executor Agent Atlas Axis can change the signers of the Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
+Core GovOps can change the signers of the Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
 
 ###### A.3.7.1.3.5.2 - Operator Update Process [Core]  <!-- UUID: ae2b5d27-b666-4796-8791-b59d151daf41 -->
 
@@ -16900,7 +16900,7 @@ The stUSDS BEAM parameters for the `duty` stUSDS parameter are as follows:
 
 ###### A.4.4.1.3.8.3 - Parameter Adjustments [Core]  <!-- UUID: 91152a4b-6f97-4b8a-831a-0f85c16a78ab -->
 
-All stUSDS BEAM parameters can be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
+All stUSDS BEAM parameters can be modified by Core GovOps, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
 
 ###### A.4.4.1.3.8.3.1 - Operators [Core]  <!-- UUID: 8fd15f15-c8cd-480d-86b7-cad524cfa9f1 -->
 
@@ -16908,7 +16908,7 @@ The stUSDS BEAM Operators are whitelisted entities that can directly alter the s
 
 ###### A.4.4.1.3.8.3.1.1 - Operator Multisig [Core]  <!-- UUID: ee9e13e0-23ca-41a3-a1d1-0f1181882c84 -->
 
-The Operator Multisig is an Operator of the stUSDS BEAM and is controlled by Core Executor Agent Atlas Axis.
+The Operator Multisig is an Operator of the stUSDS BEAM and is controlled by Core GovOps.
 
 ###### A.4.4.1.3.8.3.1.1.1 - Operator Multisig Address [Core]  <!-- UUID: 45679e08-a575-444a-8fae-d7ef6472b073 -->
 
@@ -16920,7 +16920,7 @@ The Operator Multisig currently has a 2/3 signing requirement.
 
 ###### A.4.4.1.3.8.3.1.1.3 - Operator Multisig Signers [Core]  <!-- UUID: a9a7503a-d4e2-474f-bbbe-51b45385a00f -->
 
-The signers of the Operator Multisig are three (3) addresses controlled by Core Executor Agent Atlas Axis.
+The signers of the Operator Multisig are three (3) addresses controlled by Core GovOps.
 
 ###### A.4.4.1.3.8.3.1.1.4 - Operator Multisig Usage Standards [Core]  <!-- UUID: 71e28a28-82b9-43eb-9e93-6aee2d5bbbc0 -->
 
@@ -16928,11 +16928,11 @@ The signers of the Operator Multisig must use the multisig to operate the stUSDS
 
 ###### A.4.4.1.3.8.3.1.1.5 - Operator Multisig Modification [Core]  <!-- UUID: 303ccb86-1411-409f-a3e4-1193e0aa7b9a -->
 
-Core Executor Agent Atlas Axis can change the signers of the Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
+Core GovOps can change the signers of the Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
 
 ###### A.4.4.1.3.8.3.1.2 - Operator Hot Wallet [Core]  <!-- UUID: bddf50ca-02ef-4991-abb0-53e09831ee6f -->
 
-The Operator Hot Wallet is a hot wallet controlled by a bot that will update stUSDS parameters on an automated basis as specified in [A.4.4.1.3.8.3.2.3 - Automatic Updates By Operator Hot Wallet](a6e1735f-bd82-4ab6-982b-218013c3455f). The wallet is controlled by Ecosystem Actor TechOps Services under the supervision of Core Executor Agent Atlas Axis in consultation with the Core Council Risk Advisor. The addition of the Hot Wallet as an Operator of the stUSDS BEAM is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+The Operator Hot Wallet is a hot wallet controlled by a bot that will update stUSDS parameters on an automated basis as specified in [A.4.4.1.3.8.3.2.3 - Automatic Updates By Operator Hot Wallet](a6e1735f-bd82-4ab6-982b-218013c3455f). The wallet is controlled by Ecosystem Actor TechOps Services under the supervision of Core GovOps in consultation with the Core Council Risk Advisor. The addition of the Hot Wallet as an Operator of the stUSDS BEAM is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
 ###### A.4.4.1.3.8.3.1.2.1 - Operator Hot Wallet Address [Core]  <!-- UUID: bc29e096-972c-4bcc-b589-dad148374d33 -->
 
@@ -16949,7 +16949,7 @@ These changes are authorized to proceed directly to an Executive Vote without a 
 
 ###### A.4.4.1.3.8.3.1.3 - Operator Update Process [Core]  <!-- UUID: 64d7e377-9870-4563-a073-768bb7d259a4 -->
 
-stUSDS BEAM Operators can be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
+stUSDS BEAM Operators can be modified by Core GovOps, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
 
 ###### A.4.4.1.3.8.3.2 - Update Process [Core]  <!-- UUID: 7e58f5eb-c339-4f04-aca8-681e9acd0752 -->
 
