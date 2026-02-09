@@ -9902,6 +9902,58 @@ Core Governance Primitives allow Prime Agents to earn incentives for maintaining
 
 The Core Governance Reward Primitive is a reward that Sky pays to Prime Agents that provide SKY holders with secure access to the core Sky Governance features, ensuring that the Governance Security of Sky is maintained over time.
 
+##### A.2.2.10.1.1 - Reward Pool [Core]  <!-- UUID: 111bedd1-35aa-4c72-91e1-963550d909bf -->
+
+The total reward pool for the Core Governance Reward Primitive is 1% of the Net Revenue of Sky. Of this, 0.5% is paid to Integrators that maintain frontends that facilitate accessible governance, with the other 0.5% paid to the Prime Agents that manage the relationship with those Integrators. [See A.2.3.1.2.2.4 - Governance Accessibility Rewards Paid To Integrators](6c215fd3-61c1-4ee5-b326-a180fe0fc768) and [A.2.3.1.2.2.5 - Governance Accessibility Rewards Paid To Prime Agents](e7fd952e-5298-4928-82ea-992f18bea319).
+
+##### A.2.2.10.1.2 - Eligible Recipients [Core]  <!-- UUID: a59cee2a-864e-4dbb-9364-bdf121573cb2 -->
+
+In order for an Integrator and the Prime Agent that manages the relationship with such Integrator to be eligible for the Core Governance Reward, the frontend maintained by the Integrator must satisfy compliance requirements as specified in Compliance Requirements.
+
+A single entity may serve as both the Integrator operating a frontend and the Prime Agent managing the relationship with that Integrator, in which case such entity is eligible to receive both the Integrator and Prime Agent rewards for that frontend.
+
+The current eligible recipients for the Core Governance Reward Primitive are specified in the documents herein.
+
+###### A.2.2.10.1.2.1 - Current Eligible Recipients  [Core]  <!-- UUID: e8272862-e80d-470c-a0da-f964b6df110d -->
+
+The current eligible recipients for the Core Governance Reward Primitive are:
+
+###### A.2.2.10.1.2.1.1 - Skybase  [Core]  <!-- UUID: 56f2f54e-7f7b-4545-a849-a2f337a30c66 -->
+
+Skybase is eligible to receive the Core Governance Reward with respect to the https://sky.money/ frontend as both the Integrator that operates the frontend and the Prime Agent that manages the relationship, and therefore receives both the Integrator reward and the Prime Agent reward for this frontend.
+
+##### A.2.2.10.1.3 - Compliance Requirements [Core]  <!-- UUID: 068c37b5-2cda-4bcc-90af-7b70c746dbc3 -->
+
+Security and information standards for compliant frontends are specified in the documents herein.
+
+###### A.2.2.10.1.3.1 - Security Standards  [Core]  <!-- UUID: a6ab8a87-bd53-4227-9ede-1dd65094989c -->
+
+Specific security standards for compliant frontends will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.3.2 - Information Standards  [Core]  <!-- UUID: 6c53d0a0-f5ce-4005-a887-6f94b08e4a28 -->
+
+Specific information and disclosure standards for compliant frontends will be specified in a future iteration of the Atlas.
+
+##### A.2.2.10.1.4 - Distribution Mechanism  [Core]  <!-- UUID: 72ce2c27-6d72-4b64-8a3c-083be9fe7659 -->
+
+The documents herein define how the total reward pool is distributed to individual recipients.
+
+###### A.2.2.10.1.4.1 - Integration With Treasury Management Function  [Core]  <!-- UUID: dc825d62-60cf-4701-ac8f-b48257b4f9a6 -->
+
+Distributions of Core Governance Rewards are made on a monthly basis as part of the Treasury Management Function.
+
+###### A.2.2.10.1.4.2 - Allocation Based On Staked SKY  [Core]  <!-- UUID: f8d35814-d8bb-423f-97ce-35629bcc7a5e -->
+
+Each distribution to Integrators is allocated pro rata between Integrators based on the percentage of SKY staked through eligible frontends maintained by each Integrator. Each distribution to Prime Agents is allocated pro rata between Prime Agents based on the percentage of SKY staked through eligible frontends maintained by Integrators managed by each Prime Agent.
+
+###### A.2.2.10.1.4.2.1 - Tracking Via Reward Codes  [Core]  <!-- UUID: b16cb8a3-aea3-4fda-b904-eb782ea7a8e1 -->
+
+The amount of SKY staked through each eligible frontend is tracked using Reward Codes. Eligible frontends pass a Reward Code identifying the Integrator and associated Prime Agent when users stake SKY. Each eligible Integrator is assigned a unique Reward Code by Operational GovOps for the Prime Agent managing the relationship with the Integrator. Reward Codes for each Integrator are recorded in the associated Instance of the Core Governance Reward Primitive in the Agent Artifact of the Prime Agent managing the relationship with the Integrator.
+
+###### A.2.2.10.1.4.3 - Distribution Through Prime Agents  [Core]  <!-- UUID: 9a723ca1-8daa-4948-a808-4a2b9e801da6 -->
+
+All distributions to a Prime Agent and Integrators managed by it are paid to the Prime Agent. The Prime Agent is then responsible for paying the portion due to each Integrator it manages.
+
 ## A.2.3 - Treasury Management [Article]  <!-- UUID: 6c0af059-5d33-4e2b-90f1-1606957b8f85 -->
 
 The Sky Treasury Management Function defines how all Net Revenue of the Sky Protocol is distributed among various downstream functions or buffers. This ensures that all necessary functions are adequately funded, allowing all actors to focus on growing the ecosystem in a positive sum way.
@@ -10203,7 +10255,7 @@ As a short-term transitionary measure, the net revenue of the Sky Protocol is cu
 
 ##### A.2.3.1.4.1 - Allocation Of Step 1 Capital [Core]  <!-- UUID: 76eab64d-a5ba-4f3c-a295-bde0e444d0df -->
 
-In the short term, 21% of Step 1 Capital is allocated as specified in the documents herein. The remaining 79% of Step 1 Capital becomes Step 4 Capital and is allocated as specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3).
+In the short term, 22% of Step 1 Capital is allocated as specified in the documents herein. The remaining 78% of Step 1 Capital becomes Step 4 Capital and is allocated as specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3).
 
 ###### A.2.3.1.4.1.1 - Allocation To Core Council Buffer [Core]  <!-- UUID: c46c7059-4ec1-4966-8382-d9e2e851d616 -->
 
@@ -10295,6 +10347,14 @@ The Core Facilitator and Core GovOps can change the signers of the Aligned Deleg
 
 - an equal number of signers are controlled by the Core Facilitator and Core GovOps.
 
+###### A.2.3.1.4.1.3 - Allocation To Governance Accessibility Rewards Paid To Integrators [Core]  <!-- UUID: f7ec7f27-632e-462a-b1e8-32bf557cb51f -->
+
+0.5% of Step 1 Capital is allocated to Governance Accessibility Rewards Paid To Integrators, as specified in [A.2.3.1.2.2.4 - Governance Accessibility Rewards Paid To Integrators](6c215fd3-61c1-4ee5-b326-a180fe0fc768).
+
+###### A.2.3.1.4.1.4 - Allocation To Governance Accessibility Rewards Paid To Prime Agents [Core]  <!-- UUID: a266adb7-5af2-4aa9-b64e-ed35bac9b6a5 -->
+
+0.5% of Step 1 Capital is allocated to Governance Accessibility Rewards Paid To Prime Agents, as specified in [A.2.3.1.2.2.5 - Governance Accessibility Rewards Paid To Prime Agents](e7fd952e-5298-4928-82ea-992f18bea319).
+
 ##### A.2.3.1.4.2 - Allocation Of Step 4 Capital [Core]  <!-- UUID: 04bd9df4-275e-4520-83a6-d634aa605fe3 -->
 
 In the short term, Step 4 Capital is allocated as specified in the documents herein.
@@ -10309,7 +10369,15 @@ Any remaining Step 4 Capital is allocated to the Surplus Buffer.
 
 ##### A.2.3.1.4.3 - Implementation [Core]  <!-- UUID: b0a59548-b94e-4cdf-961c-7e2d5dbe5983 -->
 
-The allocations specified in [A.2.3.1.4.1 - Allocation Of Step 1 Capital](76eab64d-a5ba-4f3c-a295-bde0e444d0df) are effective retroactive to September 1, 2025. The next available Executive Vote must include these allocations for the period from September 1, 2025 to September 30, 2025. The amounts to be transferred are 3,876,387 USDS to the Core Council Buffer and 193,820 USDS to the Aligned Delegates Buffer.
+The implementation of the allocations in [A.2.3.1.4.1 - Allocation Of Step 1 Capital](76eab64d-a5ba-4f3c-a295-bde0e444d0df) is specified in the documents herein.
+
+###### A.2.3.1.4.3.1 - Implementation Of Allocations To Core Council Buffer And Aligned Delegates Buffer [Core]  <!-- UUID: 8a75e41e-2c15-4486-b673-045fed17d25b -->
+
+The allocations specified in [A.2.3.1.4.1.1 - Allocation To Core Council Buffer](c46c7059-4ec1-4966-8382-d9e2e851d616) and [A.2.3.1.4.1.2 - Allocation To Aligned Delegates Buffer](2a9bcfb1-4dad-4baf-a09a-e9264b3d17bb) are effective retroactive to September 1, 2025. The October 30, 2025 Executive Vote included these allocations for the period from September 1, 2025 to September 30, 2025. The amounts transferred were 3,876,387 USDS to the Core Council Buffer and 193,820 USDS to the Aligned Delegates Buffer.
+
+###### A.2.3.1.4.3.2 - Implementation Of Allocations To Governance Accessibility Rewards Paid To Integrators And Prime Agents [Core]  <!-- UUID: b3f97303-4d41-497c-b931-9337c518bd7e -->
+
+The allocations specified in [A.2.3.1.4.1.3 - Allocation To Governance Accessibility Rewards Paid To Integrators](f7ec7f27-632e-462a-b1e8-32bf557cb51f) and [A.2.3.1.4.1.4 - Allocation To Governance Accessibility Rewards Paid To Prime Agents](a266adb7-5af2-4aa9-b64e-ed35bac9b6a5) are effective retroactive to May 19, 2025. These allocations must be included in a future Executive Vote. The amounts to be transferred will be specified in a future iteration of the Atlas.
 
 ## A.2.4 - Sky Core Monthly Settlement Cycle [Article]  <!-- UUID: 6f8d5065-d6ff-4add-9a28-eadeffa7ed1a -->
 
