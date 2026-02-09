@@ -11248,13 +11248,37 @@ The subdocuments herein set out agreed terms with respect to a token launch pena
 
 ###### A.2.8.2.2.2.8.1 - Token Launch Penalty [Core]  <!-- UUID: 5a62cc3f-4337-4770-a4d1-8a9b3d158b3f -->
 
-If either Spark or Grove (each, a "Prime") does not complete its Prime Token Generation Event ("TGE") by July 1, 2025, a penalty of thirty percent (30%) will apply. This penalty will be calculated on the income (as defined in [A.2.8.2.2.2.8.6 - Income Definition](fa48f7be-3c7d-4390-8b39-4fdfe9aa06ae)) the Prime is receiving or is meant to receive (including revenue that has accrued but has not been transferred) until the TGE occurs. 
+If either Spark or Grove (each, a "Prime") does not complete its Prime Token Generation Event (see [A.2.8.2.2.2.8.1.1 - Prime Token Generation Event](fb80d94d-dd93-40ae-bb4c-8300c1c53d73)) by July 1, 2025, a penalty of thirty percent (30%) will apply. This penalty will be calculated on the income (as defined in [A.2.8.2.2.2.8.6 - Income Definition](fa48f7be-3c7d-4390-8b39-4fdfe9aa06ae)) tthe Prime is receiving or is meant to receive (including revenue that has accrued but has not been transferred) until the TGE occurs.
 
-The penalty shall be deducted from the Genesis Capital Allocation at the time of the Capital Transfer. If the Prime has already received its Genesis Capital Allocation, then the 30% penalty is paid as part of the Monthly Settlement Cycle. See [A.2.4.1.2.2.1.1.3 - Settlement](6dcd7515-3398-443a-9377-99e0c3cd0174).
+The penalty shall be paid as specified in [A.2.8.2.2.2.8.1.2 - Token Launch Penalty Settlement](c680762a-a3f9-46bf-b740-9029b8a97e2b).
+
+###### A.2.8.2.2.2.8.1.1 - Prime Token Generation Event [Core]  <!-- UUID: fb80d94d-dd93-40ae-bb4c-8300c1c53d73 -->
+
+The documents herein define a Prime Token Generation Event (”TGE”) for Spark and Grove.
+
+###### A.2.8.2.2.2.8.1.1.1 - Spark Token Generation Event [Core]  <!-- UUID: d703336e-b86f-4e50-99f0-f4a8dff1d0f7 -->
+
+The Spark Token Generation Event occurred on June 17, 2025.
+
+###### A.2.8.2.2.2.8.1.1.2 - Grove Token Generation Event [Core]  <!-- UUID: a69d2ed5-90ea-4d6b-ba6e-287a104017d2 -->
+
+The Grove Token Generation Event will occur on the first date that SKY Staking users are able to earn GROVE Token Rewards. See [A.4.4.1 - SKY Staking](626bd71c-b413-41b7-a5fe-39fd0d43dbf5).
+
+###### A.2.8.2.2.2.8.1.2 - Token Launch Penalty Settlement [Core]  <!-- UUID: c680762a-a3f9-46bf-b740-9029b8a97e2b -->
+
+The Token Launch Penalty will be paid by each Prime at the time of the last Capital Transfer to a Genesis Agent (the “Token Launch Penalty Settlement Date”) as specified in the documents herein.
+
+###### A.2.8.2.2.2.8.1.2.1 - Token Launch Penalty Settlement Date  [Core]  <!-- UUID: 66269cb6-0828-4977-b9d4-16840c6bc97d -->
+
+When the Core Council determines the date of the last Capital Transfer to a Genesis Agent, it must submit an Atlas Edit Proposal to record the date in this document.
+
+###### A.2.8.2.2.2.8.1.2.2 - Token Launch Penalty Settlement Mechanism  [Core]  <!-- UUID: 4c8a37f9-717d-437c-9f38-d17cbb3b3639 -->
+
+The settlement mechanism for the Token Launch Penalty, including the calculation of the penalty for each Prime and how the calculated balance is paid to Sky, will be included in a future iteration of the Atlas.
 
 ###### A.2.8.2.2.2.8.2 - Transfer Of Capital Funds [Core]  <!-- UUID: 760c4258-50f7-4334-af21-888759194e64 -->
 
-The transfer of the Genesis Capital Allocation to each Prime SubProxy (i.e. the Spark SubProxy and Grove SubProxy) shall occur once funding from the Surplus Buffer is approved. This condition ensures that capital deployment is aligned with the successful launch of the Prime’s token and the commencement of its independent operations. Any penalties applied under [A.2.8.2.2.2.8.1 - Token Launch Penalty](5a62cc3f-4337-4770-a4d1-8a9b3d158b3f) shall be deducted from the Capital Allocation at the time of transfer.
+The transfer of the Genesis Capital Allocation to each Prime SubProxy (i.e. the Spark SubProxy and Grove SubProxy) shall occur once funding from the Surplus Buffer is approved. This condition ensures that capital deployment is aligned with the successful launch of the Prime’s token and the commencement of its independent operations.
 
 ###### A.2.8.2.2.2.8.2.1 - Transfer Of Genesis Capital Allocation To Spark SubProxy [Core]  <!-- UUID: e3ec99ec-54c9-4fe7-8104-aee20c57ec57 -->
 
