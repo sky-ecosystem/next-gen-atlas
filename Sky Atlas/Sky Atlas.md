@@ -38907,10 +38907,6 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.2 - Sky.money Open Source Widgets Instance Configuration Document](5aada153-29f6-4304-b56e-9d425dc978a4).
 
-###### A.6.1.1.4.2.5.1.1.2.3 - Summer.fi Instance Configuration Document Location [Core]  <!-- UUID: 0e6a80cb-041c-4dc1-a22b-91fda88ecd92 -->
-
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.3 - Summer.fi Instance Configuration Document](fd9c7ace-e72c-4ffb-a74e-7106a0dde80b).
-
 ###### A.6.1.1.4.2.5.1.1.2.4 - DeFi Saver Instance Configuration Document Location [Core]  <!-- UUID: a8442e7e-67ee-43a2-b0b6-6e18db4bbb41 -->
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.4 - DeFi Saver Instance Configuration Document](9907bb75-f389-42bb-8fe4-e03ff3039c46).
@@ -38938,6 +38934,10 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 ###### A.6.1.1.4.2.5.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 3c43db85-3995-4c95-a85c-e72786a28501 -->
 
 This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of `Completed`.
+
+###### A.6.1.1.4.2.5.1.1.3.1 - Summer.fi Instance Configuration Document Location [Core]  <!-- UUID: 0e6a80cb-041c-4dc1-a22b-91fda88ecd92 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.3 - Summer.fi Instance Configuration Document](fd9c7ace-e72c-4ffb-a74e-7106a0dde80b).
 
 ###### A.6.1.1.4.2.5.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 95beed80-4199-4c08-82bd-0ae7827c98b0 -->
 
@@ -39137,102 +39137,6 @@ The Active Data is updated as follows:
 ###### A.6.1.1.4.2.5.1.2.2.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: ad573b24-befc-49f9-be30-6c65f8986c61 -->
 
 The Distribution Reward Payments are:
-
-###### A.6.1.1.4.2.5.1.2.3 - Summer.fi Instance Configuration Document [Core]  <!-- UUID: fd9c7ace-e72c-4ffb-a74e-7106a0dde80b -->
-
-The documents herein contain the Instance Configuration Document for the Summer.fi Distribution Reward Primitive Instance.
-
-###### A.6.1.1.4.2.5.1.2.3.1 - Parameters [Core]  <!-- UUID: a2cbe867-bc51-4a3c-82b6-d921e2b0a4fc -->
-
-The documents herein define the parameters of the Summer.fi Instance of the Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.2.3.1.1 - Reward Code [Core]  <!-- UUID: 1e8b16e7-b10e-4da7-936d-5cffbac57571 -->
-
-`1001`.
-
-###### A.6.1.1.4.2.5.1.2.3.1.2 - Tracking Methodology [Core]  <!-- UUID: 8abb90c2-c62d-4dbd-96b5-d4e447a3bc4d -->
-
-This Instance uses the Tracking Methodology specified in [A.2.2.8.1.2.1.2.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2).
-
-###### A.6.1.1.4.2.5.1.2.3.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 80314c99-0e54-4449-88a0-828e86da92c5 -->
-
-The documents herein define the custom parameters of the Summer.fi Instance of the Distribution Reward Primitive, if any.
-
-###### A.6.1.1.4.2.5.1.2.3.2 - Operational Process Definition [Core]  <!-- UUID: 7d73baad-0128-460d-b3b3-6b18ba86e755 -->
-
-The documents herein define the process for the ongoing management of the Summer.fi Instance of the Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.2.3.2.1 - Routine Protocol [Core]  <!-- UUID: de64fb0f-e867-495f-9e43-c197072e1c3d -->
-
-This document defines the protocol for routine ongoing management of the Summer.fi Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
-
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
-
-###### A.6.1.1.4.2.5.1.2.3.2.1.1 - Agent Customizations [Core]  <!-- UUID: 216473d9-6f63-45ff-aa7b-a6bec64dd6dc -->
-
-The Prime Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
-
-[No customization presently.]
-
-###### A.6.1.1.4.2.5.1.2.3.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 47306338-2f28-4c95-b0d3-843744e04165 -->
-
-The documents herein define the protocol for non-routine ongoing management of the Summer.fi Instance of this Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.2.3.2.3 - Emergency Protocol [Core]  <!-- UUID: 41233dc2-c7d4-4cd4-9e23-cebbbbfaa9ce -->
-
-The documents herein define the protocol for handling emergency situations in the ongoing management of the Summer.fi Instance of this Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.2.3.3 - Data Repository [Core]  <!-- UUID: 72bc2ff0-df12-4156-8300-5c6a09badccf -->
-
-The documents herein contain data relevant to the Summer.fi Instance of the Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.2.3.3.1 - Initial Planning [Core]  <!-- UUID: dabb169a-e7d5-44c2-9ed8-f0936aa9c22a -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.3.3.2 - Operational GovOps Review [Core]  <!-- UUID: cc50de8e-ac63-4254-bb24-8a4247b8d2b5 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.3.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: bff7bad8-b9c9-4fb7-ae9c-08137f427f36 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.3.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 7cc02e97-e849-4f19-81bc-2fc85ccd2361 -->
-
-The Distribution Reward payments for the Summer.fi Instance of the Distribution Reward Primitive are defined as Active Data.
-
-The Active Data is updated as follows:
-
-- The Responsible Party is Operational GovOps.
-- The Update Process must follow the protocol for ‘Direct Edit’.
-
-###### A.6.1.1.4.2.5.1.2.3.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 289e8b48-d1ae-43d0-a9a5-b66672caacde -->
-
-The Distribution Reward Payments are:
-
-###### A.6.1.1.4.2.5.1.2.3.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 73fc6f80-ac05-423f-ac58-e22dbfa8de3f -->
-
-This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
-
-The Active Data is updated as follows:
-
-- The Responsible Party is Operational GovOps.
-- The Update Process must follow the protocol for ‘Direct Edit’.
-
-###### A.6.1.1.4.2.5.1.2.3.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 1b25a9fd-1bb0-4425-b9a1-372f737d3a45 -->
-
-The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
-- Reward Period
-- Payee
-- Payment Address
-- Amount Paid
-- Transaction Hash
-- Transaction Date
-
-###### A.6.1.1.4.2.5.1.2.3.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: cc82491d-cabb-42dd-a63a-4b3c23ee55f0 -->
-
-Summer.fi - `0xC7b548AD9Cf38721810246C079b2d8083aba8909`
 
 ###### A.6.1.1.4.2.5.1.2.4 - DeFi Saver Instance Configuration Document [Core]  <!-- UUID: 9907bb75-f389-42bb-8fe4-e03ff3039c46 -->
 
@@ -39814,6 +39718,102 @@ The payment address of this Third Party Partner will be defined in a future iter
 ###### A.6.1.1.4.2.5.1.3 - Completed Instances [Core]  <!-- UUID: 44389e6f-b48e-4426-a6c8-110ec76ebea1 -->
 
 The Instances of the Distribution Reward Primitive with `Completed` Status are stored herein.
+
+###### A.6.1.1.4.2.5.1.3.1 - Summer.fi Instance Configuration Document [Core]  <!-- UUID: fd9c7ace-e72c-4ffb-a74e-7106a0dde80b -->
+
+The documents herein contain the Instance Configuration Document for the Summer.fi Distribution Reward Primitive Instance.
+
+###### A.6.1.1.4.2.5.1.3.1.1 - Parameters [Core]  <!-- UUID: a2cbe867-bc51-4a3c-82b6-d921e2b0a4fc -->
+
+The documents herein define the parameters of the Summer.fi Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.3.1.1.1 - Reward Code [Core]  <!-- UUID: 1e8b16e7-b10e-4da7-936d-5cffbac57571 -->
+
+`1001`.
+
+###### A.6.1.1.4.2.5.1.3.1.1.2 - Tracking Methodology [Core]  <!-- UUID: 8abb90c2-c62d-4dbd-96b5-d4e447a3bc4d -->
+
+This Instance uses the Tracking Methodology specified in [A.2.2.8.1.2.1.2.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2).
+
+###### A.6.1.1.4.2.5.1.3.1.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 80314c99-0e54-4449-88a0-828e86da92c5 -->
+
+The documents herein define the custom parameters of the Summer.fi Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.4.2.5.1.3.1.1.2 - Operational Process Definition [Core]  <!-- UUID: 7d73baad-0128-460d-b3b3-6b18ba86e755 -->
+
+The documents herein define the process for the ongoing management of the Summer.fi Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.3.1.1.2.1 - Routine Protocol [Core]  <!-- UUID: de64fb0f-e867-495f-9e43-c197072e1c3d -->
+
+This document defines the protocol for routine ongoing management of the Summer.fi Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
+
+###### A.6.1.1.4.2.5.1.3.1.1.2.1.1 - Agent Customizations [Core]  <!-- UUID: 216473d9-6f63-45ff-aa7b-a6bec64dd6dc -->
+
+The Prime Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.4.2.5.1.3.1.2 - Non-Routine Protocol [Core]  <!-- UUID: 47306338-2f28-4c95-b0d3-843744e04165 -->
+
+The documents herein define the protocol for non-routine ongoing management of the Summer.fi Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.3.1.3 - Emergency Protocol [Core]  <!-- UUID: 41233dc2-c7d4-4cd4-9e23-cebbbbfaa9ce -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Summer.fi Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.3.1.4 - Data Repository [Core]  <!-- UUID: 72bc2ff0-df12-4156-8300-5c6a09badccf -->
+
+The documents herein contain data relevant to the Summer.fi Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.3.1.4.1 - Initial Planning [Core]  <!-- UUID: dabb169a-e7d5-44c2-9ed8-f0936aa9c22a -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.3.1.4.2 - Operational GovOps Review [Core]  <!-- UUID: cc50de8e-ac63-4254-bb24-8a4247b8d2b5 -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.3.1.4.3 - Artifact Edit Proposal [Core]  <!-- UUID: bff7bad8-b9c9-4fb7-ae9c-08137f427f36 -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.3.1.4.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 7cc02e97-e849-4f19-81bc-2fc85ccd2361 -->
+
+The Distribution Reward payments for the Summer.fi Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for ‘Direct Edit’.
+
+###### A.6.1.1.4.2.5.1.3.1.4.4.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 289e8b48-d1ae-43d0-a9a5-b66672caacde -->
+
+The Distribution Reward Payments are:
+
+###### A.6.1.1.4.2.5.1.3.1.4.4.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 73fc6f80-ac05-423f-ac58-e22dbfa8de3f -->
+
+This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for ‘Direct Edit’.
+
+###### A.6.1.1.4.2.5.1.3.1.4.4.3 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 1b25a9fd-1bb0-4425-b9a1-372f737d3a45 -->
+
+The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+- Reward Period
+- Payee
+- Payment Address
+- Amount Paid
+- Transaction Hash
+- Transaction Date
+
+###### A.6.1.1.4.2.5.1.3.1.4.4.4 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: cc82491d-cabb-42dd-a63a-4b3c23ee55f0 -->
+
+Summer.fi - `0xC7b548AD9Cf38721810246C079b2d8083aba8909`
 
 ###### A.6.1.1.4.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: 05362fab-8fc5-487c-af2e-b6ebf6f4445e -->
 
