@@ -1490,7 +1490,7 @@ Needed Research here includes methods for implementing a structured fact-finding
 
 Then there is the matter of assessing evidence in a way that is rigorous and impartial, without which, confidence in the Atlas and the governance process may be undermined. What criteria should be used to validate and evaluate evidence to ensure its reliability and relevance in decision-making? This involves determining the credibility of sources, the reliability of evidence, and the relevance of information to the specific case. The research should explore different approaches to evidence evaluation, such as the application of the burden of proof, standards of proof (e.g., preponderance of evidence, beyond a reasonable doubt), and the use of experts.
 
-How much discretion should Facilitators have in interpreting and applying the element “the highest standard of Universal Alignment”? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.
+How much discretion should Facilitators have in interpreting and applying the element "the highest standard of Universal Alignment"? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.
 
 This need is an extensive Research Track. The central research need that grows out of the Facilitator role has to do with developing systematic principles and protocols to serve as the foundation for adjudicating disputes and controversies, including processes for fact-finding, evidence validation and evaluation, mechanisms for ensuring impartiality and objectivity, an appeals process, etc.
 
@@ -5832,11 +5832,11 @@ Since the Update Process element is defined in an Active Data Controller Documen
 
 ##### A.1.12.1.3.1 - Direct Edit [Core]  <!-- UUID: ecce1a73-dac3-4fe5-a9d6-8b445bbc591a -->
 
-Active Data with the “Direct Edit” Update Process may be edited pursuant to the following process.
+Active Data with the "Direct Edit" Update Process may be edited pursuant to the following process.
 
 The Responsible Party must post on the Sky Forum their proposed changes to the Active Data, using the appropriate category. If the Active Data document is located in the Sky Core Atlas, then the Core Facilitator must confirm that the Responsible Party has the authority to request a Direct Edit, and then modify the Atlas to reflect the Responsible Party’s proposed change. If the Active Data document is located in an Agent Artifact, then it is the Operational Facilitator for that Agent that must confirm the Responsible Party’s authority to request a Direct Edit and then modify the Atlas to reflect the proposed changes.
 
-It is permissible for an Active Data Controller to specify unique requirements in addition to the general “Direct Edit” Update Process described above. These additional requirements, if any, must be specified directly in the Active Data Controller Document; this can be done through a reference or citation to the pertinent Atlas document containing the additional requirements. The additional requirements may supplement, but cannot conflict with, any aspect of the “Direct Edit” Update Process defined herein.
+It is permissible for an Active Data Controller to specify unique requirements in addition to the general "Direct Edit" Update Process described above. These additional requirements, if any, must be specified directly in the Active Data Controller Document; this can be done through a reference or citation to the pertinent Atlas document containing the additional requirements. The additional requirements may supplement, but cannot conflict with, any aspect of the "Direct Edit" Update Process defined herein.
 
 ###### A.1.12.1.3.1.1 - Corrections By Core Facilitator [Core]  <!-- UUID: 1604506b-c56f-44a2-a429-d1d7a6aa5d1f -->
 
@@ -9900,7 +9900,7 @@ The total reward pool for the Core Governance Reward Primitive is 1% of the Net 
 
 ##### A.2.2.10.1.2 - Eligible Recipients [Core]  <!-- UUID: a59cee2a-864e-4dbb-9364-bdf121573cb2 -->
 
-In order for an Integrator and the Prime Agent that manages the relationship with such Integrator to be eligible for the Core Governance Reward, the frontend maintained by the Integrator must satisfy compliance requirements as specified in Compliance Requirements.
+In order for an Integrator and the Prime Agent that manages the relationship with such Integrator to be eligible for the Core Governance Reward, the frontend maintained by the Integrator must satisfy compliance requirements as specified in [A.2.2.10.1.3 - Compliance Requirements](068c37b5-2cda-4bcc-90af-7b70c746dbc3).
 
 A single entity may serve as both the Integrator operating a frontend and the Prime Agent managing the relationship with that Integrator, in which case such entity is eligible to receive both the Integrator and Prime Agent rewards for that frontend.
 
@@ -9910,9 +9910,7 @@ The current eligible recipients for the Core Governance Reward Primitive are spe
 
 The current eligible recipients for the Core Governance Reward Primitive are:
 
-###### A.2.2.10.1.2.1.1 - Skybase  [Core]  <!-- UUID: 56f2f54e-7f7b-4545-a849-a2f337a30c66 -->
-
-Skybase is eligible to receive the Core Governance Reward with respect to the https://sky.money/ frontend as both the Integrator that operates the frontend and the Prime Agent that manages the relationship, and therefore receives both the Integrator reward and the Prime Agent reward for this frontend.
+- Skybase - Skybase is eligible to receive the Core Governance Reward with respect to the [https://sky.money/](https://sky.money/) frontend as both the Integrator that operates the frontend and the Prime Agent that manages the relationship, and therefore receives both the Integrator reward and the Prime Agent reward for this frontend.
 
 ##### A.2.2.10.1.3 - Compliance Requirements [Core]  <!-- UUID: 068c37b5-2cda-4bcc-90af-7b70c746dbc3 -->
 
@@ -11308,13 +11306,13 @@ The subdocuments herein set out agreed terms with respect to a token launch pena
 
 ###### A.2.8.2.2.2.8.1 - Token Launch Penalty [Core]  <!-- UUID: 5a62cc3f-4337-4770-a4d1-8a9b3d158b3f -->
 
-If either Spark or Grove (each, a "Prime") does not complete its Prime Token Generation Event (see [A.2.8.2.2.2.8.1.1 - Prime Token Generation Event](fb80d94d-dd93-40ae-bb4c-8300c1c53d73)) by July 1, 2025, a penalty of thirty percent (30%) will apply. This penalty will be calculated on the income (as defined in [A.2.8.2.2.2.8.6 - Income Definition](fa48f7be-3c7d-4390-8b39-4fdfe9aa06ae)) tthe Prime is receiving or is meant to receive (including revenue that has accrued but has not been transferred) until the TGE occurs.
+If either Spark or Grove (each, a "Prime") does not complete its Prime Token Generation Event (see [A.2.8.2.2.2.8.1.1 - Prime Token Generation Event](fb80d94d-dd93-40ae-bb4c-8300c1c53d73)) by July 1, 2025, a penalty of thirty percent (30%) will apply. This penalty will be calculated on the income (as defined in [A.2.8.2.2.2.8.6 - Income Definition](fa48f7be-3c7d-4390-8b39-4fdfe9aa06ae)) the Prime is receiving or is meant to receive (including revenue that has accrued but has not been transferred) until the TGE occurs.
 
 The penalty shall be paid as specified in [A.2.8.2.2.2.8.1.2 - Token Launch Penalty Settlement](c680762a-a3f9-46bf-b740-9029b8a97e2b).
 
 ###### A.2.8.2.2.2.8.1.1 - Prime Token Generation Event [Core]  <!-- UUID: fb80d94d-dd93-40ae-bb4c-8300c1c53d73 -->
 
-The documents herein define a Prime Token Generation Event (”TGE”) for Spark and Grove.
+The documents herein define a Prime Token Generation Event ("TGE") for Spark and Grove.
 
 ###### A.2.8.2.2.2.8.1.1.1 - Spark Token Generation Event [Core]  <!-- UUID: d703336e-b86f-4e50-99f0-f4a8dff1d0f7 -->
 
@@ -11326,7 +11324,7 @@ The Grove Token Generation Event will occur on the first date that SKY Staking u
 
 ###### A.2.8.2.2.2.8.1.2 - Token Launch Penalty Settlement [Core]  <!-- UUID: c680762a-a3f9-46bf-b740-9029b8a97e2b -->
 
-The Token Launch Penalty will be paid by each Prime at the time of the last Capital Transfer to a Genesis Agent (the “Token Launch Penalty Settlement Date”) as specified in the documents herein.
+The Token Launch Penalty will be paid by each Prime at the time of the last Capital Transfer to a Genesis Agent (the "Token Launch Penalty Settlement Date") as specified in the documents herein.
 
 ###### A.2.8.2.2.2.8.1.2.1 - Token Launch Penalty Settlement Date  [Core]  <!-- UUID: 66269cb6-0828-4977-b9d4-16840c6bc97d -->
 
@@ -11338,7 +11336,7 @@ The settlement mechanism for the Token Launch Penalty, including the calculation
 
 ###### A.2.8.2.2.2.8.2 - Transfer Of Capital Funds [Core]  <!-- UUID: 760c4258-50f7-4334-af21-888759194e64 -->
 
-The transfer of the Genesis Capital Allocation to each Prime SubProxy (i.e. the Spark SubProxy and Grove SubProxy) shall occur once funding from the Surplus Buffer is approved. This condition ensures that capital deployment is aligned with the successful launch of the Prime’s token and the commencement of its independent operations.
+The transfer of the Genesis Capital Allocation to each Prime SubProxy (i.e. the Spark SubProxy and Grove SubProxy) shall occur once funding from the Surplus Buffer is approved. This condition ensures that capital deployment is aligned with the successful launch of the Prime's token and the commencement of its independent operations.
 
 ###### A.2.8.2.2.2.8.2.1 - Transfer Of Genesis Capital Allocation To Spark SubProxy [Core]  <!-- UUID: e3ec99ec-54c9-4fe7-8104-aee20c57ec57 -->
 
@@ -38937,7 +38935,7 @@ This document contains a Directory of all Instances of the Distribution Reward P
 
 ###### A.6.1.1.4.2.5.1.1.3.1 - Summer.fi Instance Configuration Document Location [Core]  <!-- UUID: 0e6a80cb-041c-4dc1-a22b-91fda88ecd92 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.3 - Summer.fi Instance Configuration Document](fd9c7ace-e72c-4ffb-a74e-7106a0dde80b).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.3.1 - Summer.fi Instance Configuration Document](fd9c7ace-e72c-4ffb-a74e-7106a0dde80b).
 
 ###### A.6.1.1.4.2.5.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 95beed80-4199-4c08-82bd-0ae7827c98b0 -->
 
