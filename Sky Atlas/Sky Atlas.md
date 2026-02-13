@@ -11096,7 +11096,7 @@ The Base Rate will be dynamic and aligned with the SSR (Sky Savings Rate).
 
 ###### A.2.8.2.2.2.2.4 - Minimum Borrowing Threshold for Grant Eligibility [Core]  <!-- UUID: 23b21d6f-ad66-42ff-9e9f-c5bd5da6e8d4 -->
 
-Primes, including Spark and Grove, must each maintain a minimum borrowing of 1,000,000,000 USDS from Sky at all times to remain eligible for the full monthly reimbursement grant. If the amount borrowed falls below this threshold, the reimbursement grant will be proportionately slashed. This grant will cover the difference between the borrowing Base Rate and the T-bill rate. Spark and Grove can borrow amounts exceeding the 1,000,000,000 USDS limit at the prevailing Base Rate.
+Primes, including Spark and Grove, must each maintain a minimum borrowing of 1,000,000,000 USDS from Sky at all times to remain eligible for the full monthly reimbursement grant. The monthly reimbursement grant decays linearly over the 24-month subsidy window so that the borrower's effective borrowing rate equals `effective_rate(T) = TBill + (Base − TBill) * (T/24)`. Equivalently, the grant rate is `grant_rate(T) = (Base − TBill) * (1 − T/24)`, clamped at ≥ 0. This grant will cover the difference between the borrowing Base Rate and the T-bill rate. Spark and Grove can borrow amounts exceeding the 1,000,000,000 USDS limit at the prevailing Base Rate.
 
 ###### A.2.8.2.2.2.2.5 - Borrowing Above Subsidized Limit [Core]  <!-- UUID: c04dcedd-5e17-412f-8a71-55a76c29b80d -->
 
