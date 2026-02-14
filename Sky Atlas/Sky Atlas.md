@@ -44150,7 +44150,7 @@ Pattern keeps all tokens of other Agents it holds in its SubProxy account.
 
 When paying Ecosystem Upkeep fees, Pattern deducts the rebate from the fees it pays.
 
-###### A.6.1.1.6.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]
+###### A.6.1.1.6.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 3e913724-ce5a-41a5-b9db-27ba25c35c06 -->
 
 Operational GovOps reviews Pattern's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Pattern Prime" category and work with Pattern to resolve the disagreement. If Operational GovOps and Pattern cannot resolve the disagreement, it must be escalated to Core GovOps.
 
