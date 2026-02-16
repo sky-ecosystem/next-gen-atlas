@@ -1480,7 +1480,7 @@ Because ungrounded inferences of logic lack such a robust and clearly documented
 
 Alignment Conservers are held to the highest standard when judging whether their actions are Universally Aligned.
 
-#### Systematic Basis Of Adjudication, Fact-Finding And Evidence [Needed Research]  <!-- UUID: 2da58ba2-a172-43bd-b7e7-d3d8e69233bf -->
+#### NR-1 - Systematic Basis Of Adjudication, Fact-Finding And Evidence [Needed Research]  <!-- UUID: 2da58ba2-a172-43bd-b7e7-d3d8e69233bf -->
 
 **Content:**
 
@@ -1746,7 +1746,7 @@ In the adjudication of these matters, the Core Facilitator is mandated to hold A
 
 The adjudication process is further defined in the subdocuments herein.
 
-#### Systematic Basis Of Adjudication, Fact-Finding And Evidence [Needed Research]  <!-- UUID: 279f417e-2fec-473d-ab7c-eaf5b371c598 -->
+#### NR-8 - Systematic Basis Of Adjudication, Fact-Finding And Evidence [Needed Research]  <!-- UUID: 279f417e-2fec-473d-ab7c-eaf5b371c598 -->
 
 **Content:**
 
@@ -12680,7 +12680,7 @@ Primes must develop processes to register contracts they deploy with Safe Harbor
 
 ##### A.2.11.1.2.6 - Agreement Fact Page [Core]  <!-- UUID: 258e85f5-df03-45c5-874e-c2c7fa0fbe87 -->
 
-**Safe Harbor** constitutes the "Agreement Fact Page" as specified in the Safe Harbor Agreement.
+[A.2.11.1.2 - Safe Harbor](bb494bc1-f3cb-4b7f-826f-437c62d534c8) constitutes the "Agreement Fact Page" as specified in the Safe Harbor Agreement.
 
 ## A.2.12 - Purpose System [Article]  <!-- UUID: b888a6f2-df29-4254-bc74-8dff265f2697 -->
 
