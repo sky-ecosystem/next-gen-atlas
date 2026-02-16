@@ -12570,6 +12570,118 @@ The Bug Bounty Programs incur fixed and variable costs.
 
 - Fixed costs: Fixed costs comprise service fees for the Immunefi Premium Triaging Service, and compensation of a part-time Bug Bounty program steward. These costs will be funded by Sky.
 
+#### A.2.11.1.2 - Safe Harbor [Core]  <!-- UUID: bb494bc1-f3cb-4b7f-826f-437c62d534c8 -->
+
+Sky Ecosystem is adopting the Security Alliance Safe Harbor Agreement ("Safe Harbor") by executing the procedures specified in [A.2.11.1.2.2 - Execution](25015208-5234-4818-8479-c46f927c272c). Safe Harbor is a public agreement that protocols may adopt to waive the right to pursue legal claims against a whitehat hacker, provided that the hacker acts competently, lawfully, and in good faith. Under Safe Harbor, any whitehat hacker who identifies a time-critical active exploit that could result in the loss of funds is authorized to act immediately to rescue those funds. Immediate intervention prevents delays that might otherwise cause irrevocable financial harm. Once the funds have been secured, the whitehat hacker returns them within 72 hours to an Asset Recovery Address (see [A.2.11.1.2.2.3.3.2 - Asset Recovery Addresses](3f125522-dff7-48a3-948f-e99c71fc3929)) designated by the protocol that has adopted the Safe Harbor Agreement.
+
+##### A.2.11.1.2.1 - Agreement [Core]  <!-- UUID: c3705a82-9cda-4626-89bb-2ec21774b371 -->
+
+Safe Harbor is an onchain agreement. The agreement is specified in [https://etherscan.io/address/0x9E5Cf4a9C806fE1F4392788b21342a442E14Cc20#readContract#F2](https://etherscan.io/address/0x9E5Cf4a9C806fE1F4392788b21342a442E14Cc20#readContract#F2). The agreement located at the IPFS address shown in the smart contract above is the definitive version of the agreement.
+
+##### A.2.11.1.2.2 - Execution [Core]  <!-- UUID: 25015208-5234-4818-8479-c46f927c272c -->
+
+The agreement is executed by calling the `adoptSafeHarbor` function on the Safe Harbor registry contract. The Core Facilitator is directed to include the adoption of Safe Harbor in an upcoming Executive Spell.
+
+###### A.2.11.1.2.2.1 - Safe Harbor Registry Contract [Core]  <!-- UUID: 2b097341-3735-43d4-9a18-8a43626a4f4e -->
+
+The address of the Safe Harbor registry contract on the Ethereum Mainnet is `0x326733493E143b8904716E7A64A9f4fb6A185a2c`.
+
+###### A.2.11.1.2.2.2 - Agreement Address [Core]  <!-- UUID: 0f541963-584d-4bcd-8c00-adbbcb85edf8 -->
+
+The address of the Safe Harbor agreement is `0x9E5Cf4a9C806fE1F4392788b21342a442E14Cc20`.
+
+###### A.2.11.1.2.2.3 - Execution Parameters [Core]  <!-- UUID: b061e1d9-76c3-444a-9a91-641c5d00315d -->
+
+The `adoptSafeHarbor` function on the Safe Harbor registry contract should be called with the parameters specified herein.
+
+###### A.2.11.1.2.2.3.1 - Agreement URI Parameter [Core]  <!-- UUID: 0064ee74-b8bb-4c83-b7a1-cafee3c6e55f -->
+
+The `agreementURI` parameter is the IPFS address of the agreement. The value of the `agreementURI` parameter is [https://bafkreiernns2f4nv2uzvwtzjc2jboyivsu2mixz33y3xo7cvtllsuao6jy.ipfs.w3s.link/](https://bafkreiernns2f4nv2uzvwtzjc2jboyivsu2mixz33y3xo7cvtllsuao6jy.ipfs.w3s.link/).
+
+###### A.2.11.1.2.2.3.2 - Bounty Terms Parameters [Core]  <!-- UUID: 206c02ae-b87e-4ed4-95c1-0312b8c73e40 -->
+
+The elements of the `bountyTerms` parameter are specified in the documents herein.
+
+###### A.2.11.1.2.2.3.2.1 - Bounty Cap USD Parameter [Core]  <!-- UUID: 062e64d7-647b-4025-b6ea-d0659737b56b -->
+
+The `bountyCapUSD` parameter is the maximum amount in USD of the bounty. The value of the `bountyCapUSD` parameter is `10000000`.
+
+###### A.2.11.1.2.2.3.2.2 - Bounty Percentage Parameter [Core]  <!-- UUID: 226543b7-8cb0-4d26-9569-e5b760f986f5 -->
+
+The `bountyPercentage` parameter is the value to which the whitehat hacker is entitled, expressed as a percentage of the funds recovered. The value of the `bountyPercentage` parameter is `10`.
+
+###### A.2.11.1.2.2.3.2.3 - Diligence Requirements Parameter [Core]  <!-- UUID: 3b5d10d1-16b0-49d8-88e6-9d1185e5de4f -->
+
+The `diligenceRequirements` parameter includes KYC, assessing compliance with sanctions (for instance, ensuring that individuals or entities from sanctioned jurisdictions are excluded), diligence, or other verification that the protocol requires the whitehat hacker to satisfy in order to claim the bounty. The value of the `diligenceRequirements` parameter is:
+                        
+`"KYC and Sanctions Screening. Sky and Stars require all eligible whitehats to undergo Know Your Customer (KYC) verification and be screened against global sanctions lists, including OFAC, UK, and EU regulations. This ensures that bounty recipients meet legal and regulatory standards before qualifying for payment. The verification process shall be conducted by a trusted third-party provider at Sky and Stars discretion, and all data is deleted, if successful, within 30 days post-verification."`
+
+###### A.2.11.1.2.2.3.2.4 - Identity Parameter [Core]  <!-- UUID: 46f3510c-0dbd-40aa-b9fa-abcb59a7ff75 -->
+
+The `identity` parameter specifies the identity requirements for the whitehat hacker and may either be `0` for `Anonymous` (the whitehat hacker may be anonymous), `1` for `Pseudonymous` (the whitehat hacker must provide at least a pseudonym),  or `2` for `Named` (the whitehat hacker must provide their legal name). The value of the `identity` parameter is `2`.
+
+###### A.2.11.1.2.2.3.2.5 - Retainable Parameter [Core]  <!-- UUID: 6ca0bed7-e4b2-4b48-9d03-5ec410ce9fc4 -->
+
+The `retainable` parameter specifies whether the whitehat hacker may retain the bounty out of the funds recovered or must first return the entire recovered amount to the Asset Recovery Address before receiving payment from the protocol. The value of the `retainable` parameter is `false`.
+
+###### A.2.11.1.2.2.3.3 - Chains Parameter [Core]  <!-- UUID: 80c4c6f0-aade-4908-adaa-847de153d75e -->
+
+The `chains` parameter specifies each blockchain on which a funds rescue is authorized. For each chain, the following information must be specified: (1) the `chainId` of the chain, (2) the `assetRecoveryAddress` to which recovered funds should be sent, and (3) the `scope`of contracts on the chain that are covered by Safe Harbor. The chains that should be specified are Ethereum Mainnet, Arbitrum, Base, and StarkNet.
+
+###### A.2.11.1.2.2.3.3.1 - Chain IDs [Core]  <!-- UUID: b5190639-a193-4b8b-8c3a-4d90b369ad07 -->
+
+The value of the `chainId` parameter for each chain is:
+
+- Ethereum Mainnet - `1`
+- Arbitrum - `42161`
+- Optimism - `10`
+- Base - `8453`
+- Unichain - `130`
+- Solana - `5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp`
+
+###### A.2.11.1.2.2.3.3.2 - Asset Recovery Addresses [Core]  <!-- UUID: 3f125522-dff7-48a3-948f-e99c71fc3929 -->
+
+The Asset Recovery Address is the Pause Proxy on Ethereum Mainnet and the Governance Relay on each other chain. The value of the `assetRecoveryAddress` parameter for each chain is:
+
+- Ethereum Mainnet - `0xbe8e3e3618f7474f8cb1d074a26affef007e98fb`
+- Arbitrum - `0x10E6593CDda8c58a1d0f14C5164B376352a55f2F`
+- Optimism - `0x09b354cda89203bb7b3131cc728dfa06ab09ae2f`
+- Base - `0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255`
+- Unichain - `0xb383070cf9f4f01c3a2cfd0ef6da4bc057b429b7`
+- Solana - `AYPtjx4Hc8us1ikULUedkmZ3wtiD6tmL7gK3qe4V3oHt`
+
+###### A.2.11.1.2.2.3.3.3 - Accounts [Core]  <!-- UUID: c6591c5c-c767-4769-b2d6-80564d96fa48 -->
+
+The `accounts` parameter for each chain is a list of contracts to be included in Safe Harbor. Each contract listed must include the sub-elements of (1) the `accountAddress` of the contract and (2) the `childContractScope`, which specifies whether child contracts of the specified contract are covered. The possible values for the `childContractScope` parameter are: (1) `None` (no child contracts are in scope), (2) `ExistingOnly` (only child contracts created prior to calling `adoptSafeHarbor` are in scope), or (3) `All` (all child contracts are in scope).
+                        
+The value of the `scope` parameter is all contracts specified in the Bug Bounty Program.
+                        
+The `childContractScope` parameter for each contract is specified in the Bug Bounty Program.
+                        
+###### A.2.11.1.2.2.3.4 - Contact Details [Core]  <!-- UUID: 611baee4-7c68-47ba-a683-25e795f55101 -->
+
+The representatives of the protocol should be contacted as specified in the Safe Harbor registry.
+
+###### A.2.11.1.2.2.3.5 - Protocol Name Parameter [Core]  <!-- UUID: 3ecab562-7477-4606-bce3-74da81dc78e6 -->
+
+The `protocolName` parameter specifies a human-readable name for the protocol. The value of the `protocolName` parameter is "Sky Ecosystem".
+
+##### A.2.11.1.2.3 - Maintenance [Core]  <!-- UUID: fcd868db-4a91-4ee0-baf5-1ebd40fc651e -->
+
+The list of contracts covered by the Safe Harbor agreement for Sky must be updated when new contracts are added. Whenever a contract is added to the Bug Bounty Program, it should also be added to Safe Harbor. The Spell Teams are primarily responsible for updating the Safe Harbor registry each time a contract is added to the Bug Bounty Program. The Core Facilitator is responsible for reviewing the work of the Spell Teams to ensure that this requirement is met.
+
+##### A.2.11.1.2.4 - Frontends [Core]  <!-- UUID: 45ab54e8-309a-4149-91cc-fcdbeb5d1d37 -->
+
+The terms and conditions of frontends operated by Sky must be updated to include consent to the potential rescue of funds. Core GovOps must work with relevant Ecosystem Actors to ensure that the contents contained in Exhibit D of the Safe Harbor agreement are incorporated into the terms of conditions governing the frontends operated by Sky and/or Prime Agents.
+
+##### A.2.11.1.2.5 - Prime Responsibilities [Core]  <!-- UUID: 48d7232f-59c5-459c-b868-498d0ce00457 -->
+
+Primes must develop processes to register contracts they deploy with Safe Harbor. Primes must include the terms and conditions specified in Exhibit D of the Safe Harbor agreement in all frontends that they operate.
+
+##### A.2.11.1.2.6 -Agreement Fact Page [Core]  <!-- UUID: 258e85f5-df03-45c5-874e-c2c7fa0fbe87 -->
+
+**Safe Harbor** constitutes the "Agreement Fact Page" as specified in the Safe Harbor Agreement.
+
 ## A.2.12 - Purpose System [Article]  <!-- UUID: b888a6f2-df29-4254-bc74-8dff265f2697 -->
 
 This Article governs the Purpose System, which aims to fund open-source AI and software projects that benefit the Sky Ecosystem and public good.
