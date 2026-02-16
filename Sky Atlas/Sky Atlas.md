@@ -38509,7 +38509,7 @@ The documents herein define the parameters of the Ozone Instance of the Executor
 
 ###### A.6.1.1.4.2.2.1.2.1.1.1 - Operational Executor Agent [Core]  <!-- UUID: 82200234-6b7c-4299-a552-66ceac3be5e6 -->
 
-In the near term Ozone will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.
+The Operational Facilitator and Operational GovOps for Ozone are specified in [A.6.1.2.2 - Operational Executor Agent Ozone](565660dd-7850-4c3a-8dba-554542bf103a).
 
 ###### A.6.1.1.4.2.2.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 822596a6-882f-416f-bc13-4986b1bf4052 -->
 
@@ -41464,7 +41464,7 @@ The documents herein define the parameters of the Ozone Instance of the Executor
 
 ###### A.6.1.1.5.2.2.1.2.1.1.1 - Operational Executor Agent [Core]  <!-- UUID: e3e97ee0-1ef7-48dd-acf0-3e1e6a6de47e -->
 
-In the near term Ozone will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.
+The Operational Facilitator and Operational GovOps for Ozone are specified in [A.6.1.2.2 - Operational Executor Agent Ozone](565660dd-7850-4c3a-8dba-554542bf103a).
 
 ###### A.6.1.1.5.2.2.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 4b5e6287-583b-40c0-8ec4-87675a15f802 -->
 
@@ -43871,7 +43871,7 @@ The documents herein define the parameters of the Ozone Instance of the Executor
 
 ###### A.6.1.1.6.2.2.1.1.5.1.3.1.1.1 - Operational Executor Agent [Core]  <!-- UUID: 9eb31932-9fe5-49fb-9f7c-4d44db589295 -->
 
-In the near term Ozone will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.
+The Operational Facilitator and Operational GovOps for Ozone are specified in [A.6.1.2.2 - Operational Executor Agent Ozone](565660dd-7850-4c3a-8dba-554542bf103a).
 
 ###### A.6.1.1.6.2.2.1.1.5.1.3.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 62d6ce9b-d6b3-4ccf-9739-7fa4aee3c5fa -->
 
@@ -45285,7 +45285,7 @@ The documents herein define the parameters of the Ozone Instance of the Executor
 
 ###### A.6.1.1.7.2.1.5.1.1.5.1.3.1.1.1 - Operational Executor Agent [Core]  <!-- UUID: 1ab18042-345c-40b2-9ed3-06cfdb3b7d4b -->
 
-In the near term Ozone will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.
+The Operational Facilitator and Operational GovOps for Ozone are specified in [A.6.1.2.2 - Operational Executor Agent Ozone](565660dd-7850-4c3a-8dba-554542bf103a)
 
 ###### A.6.1.1.7.2.1.5.1.1.5.1.3.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 3b306de0-b8d7-4eda-b23b-0173c24e742e -->
 
@@ -46261,15 +46261,15 @@ Operational GovOps for Amatsu is Amatsu GovOps.
 
 #### A.6.1.2.2 - Operational Executor Agent Ozone [Core]  <!-- UUID: 565660dd-7850-4c3a-8dba-554542bf103a -->
 
-The Agent Artifact for Ozone will be specified in a future iteration of the Atlas. In the interim, the subdocuments herein contain key information regarding Ozone.
+The Agent Artifact for Ozone will be specified in a future iteration of the Atlas. In the interim, the subdocuments herein contain key information regarding Operational Executor Agent Ozone.
 
 ##### A.6.1.2.2.1 - Operational Executor Facilitator [Core]  <!-- UUID: d282ccb9-82f8-46da-9180-e15e5714bb88 -->
 
-The Operational Facilitator for Ozone is Redline Facilitation Group.
+The Operational Facilitator for Operational Executor Agent Ozone is Redline Facilitation Group.
 
 ##### A.6.1.2.2.2 - Operational GovOps [Core]  <!-- UUID: a491d7d0-3e0b-4b6f-a9a7-25b19b6f7117 -->
 
-Operational GovOps for Ozone is Soter Labs.
+Operational GovOps for Operational Executor Agent Ozone is Soter Labs.
 
 #### A.6.1.2.3 - Core Council Executor Agent 1 [Core]  <!-- UUID: 12b14e05-159b-4e71-822b-7dd2c17c3358 -->
 
