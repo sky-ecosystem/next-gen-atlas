@@ -27818,9 +27818,9 @@ The subdocuments herein define the currently approved venues where liquidity and
 
 Offchain Collateralized Lending may be facilitated via Anchorage, which is approved to hold collateral as well as lending liquidity related to such loans.
 
-- Venue exposure Limit: $200 million
+- Venue exposure Limit: $1 billion
 - Collateral Agent(s):
-- Anchorage Innovations: $200 million
+    - Anchorage Innovations: $1 billion
 
 ###### A.6.1.1.1.3.8.2.4 - Loan Terms [Core]  <!-- UUID: f80317f5-cf93-4610-b35a-2e60c94011d0 -->
 
@@ -27903,11 +27903,11 @@ Critical actions are actions that could conceivably result in the loss of funds 
 - Adding a withdrawal address to the whitelist
 - Adding or removing a signer from the account approvals policy
 - Changing the approval quorum
-- Transferring funds to an address under control of an external entity other than Spark Asset Foundation, Spark Foundation, an approved collateral agent, or the Spark Liquidity Layer
+- Transferring funds to an address outside of the preexisting withdrawal address whitelist.
 
 ###### A.6.1.1.1.3.8.2.7.2 - Address Whitelist [Core]  <!-- UUID: 8787ecfc-d1f5-45fa-a261-c0ff12a20538 -->
 
-Accounts shall only whitelist addresses for withdrawals to either an approved collateral agent (which will transfer received funds to borrowers as part of loan origination) or to the Spark Liquidity Layer.
+Accounts shall only whitelist addresses for withdrawals to either an approved collateral agent for the relevant custodian, to borrower addresses in connection with offchain collateralized lending agreements, or to the Spark Liquidity Layer.
 
 ###### A.6.1.1.1.3.8.2.7.3 - Quorum and Signers [Core]  <!-- UUID: 8f3822f2-8403-444f-9db7-2a9fa2da552f -->
 
@@ -27917,7 +27917,9 @@ Signers may be sourced from any of the following entities: Spark Asset Foundatio
 
 ###### A.6.1.1.1.3.8.2.7.4 - Transfers [Core]  <!-- UUID: 28517c27-b028-4b7a-9fea-6a70ae706468 -->
 
-Funds may only be transferred to a collateral agent after confirmation that all necessary steps proceeding loan origination have been completed, including execution of final MLA and provision of configuration file for the loan to the custodian and/or collateral agent.
+Funds may be transferred to a collateral agent or whitelisted address only after Spark Assets Foundation confirmation that all required steps prior to loan disbursement have been completed.
+
+Funds may be transferred to the designated address(es) provided by the custodian or collateral manager for the payment of custody or collateral management service fees as permitted by governance-approved arrangements and upon receipt of a valid invoice.
 
 Funds may be transferred to the designated address for Spark Liquidity Layer at any time without restriction.
 
