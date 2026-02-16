@@ -46671,7 +46671,7 @@ This document contains a Directory of all Instances of the Agent Creation Primit
 
 ###### A.6.1.1.8.2.1.1.1.3.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 1e930120-a453-475f-ab1a-c35d839ed4fc -->
 
-This Instance’s associated Instance Configuration Document is located at **Single Instance Configuration Document**.
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.8.2.1.1.3.1 - Single Instance Configuration Document](d557f7bc-8db5-4b63-acbf-5a5b54931932).
 
 ###### A.6.1.1.8.2.1.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 06f93b92-d9d2-4689-9607-99f6f03e23ca -->
 
@@ -46771,7 +46771,7 @@ This document contains a Directory of all Instances of the Prime Transformation 
 
 ###### A.6.1.1.8.2.1.2.1.3.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 1ecf0cd6-aac0-4706-a34b-fb5adb3daa32 -->
 
-This Instance’s associated Instance Configuration Document is located at **Single Instance Configuration Document**.
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.8.2.1.2.3.1 - Single Instance Configuration Document](7b97df7e-67b7-4d4d-b4b5-9e1612793b7c).
 
 ###### A.6.1.1.8.2.1.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 04f57d55-373b-40bf-a453-cc1803f26d19 -->
 
@@ -46911,7 +46911,7 @@ This document contains a Directory of all Instances of the Agent Token Primitive
 
 ###### A.6.1.1.8.2.1.4.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 3040332e-af07-4555-bc2e-6d7e91237108 -->
 
-This Instance’s associated Instance Configuration Document is located at **Single Instance Configuration Document**.
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.8.2.1.4.2.1 - Single Instance Configuration Document](2af5a57c-23fa-4299-a4f4-fe6f33ef2b6d).
 
 ###### A.6.1.1.8.2.1.4.1.3 - Completed Instances Directory [Core]  <!-- UUID: e6befbe6-c577-43db-a262-c148ebd7236f -->
 
@@ -47029,7 +47029,7 @@ This document contains a Directory of all Instances of the Executor Accord Primi
 
 ###### A.6.1.1.8.2.2.1.1.2.1 - Ozone Instance Configuration Document Location [Core]  <!-- UUID: 370808df-acc5-425a-89f8-2bd72db3ba85 -->
 
-This Instance’s associated Instance Configuration Document is located at **Ozone Instance Configuration Document**.
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.8.2.2.1.2.1 - Ozone Instance Configuration Document](204124cd-73cd-4862-9288-a3c8ecd65fcc).
 
 ###### A.6.1.1.8.2.2.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 1ddc6150-a963-4086-8e4c-4a878d2a95f9 -->
 
@@ -47037,7 +47037,7 @@ This document contains a Directory of all Instances of the Executor Accord Primi
 
 ###### A.6.1.1.8.2.2.1.1.4 - In Progress Invocactions Directory [Core]  <!-- UUID: 012578b7-90f4-42c6-ac63-4bcaf199565e -->
 
-This document contains a Directory of all prospective Instances of the Executor Accord Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to **Active Instances Directory**, whereas failed Invocations are Archived in **Hub Data Repository**.
+This document contains a Directory of all prospective Instances of the Executor Accord Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.2.1.1.2 - Active Instances Directory](0580085d-43e0-4c0e-81d9-9d92a9ea0215), whereas failed Invocations are Archived in [A.6.1.1.8.2.2.1.1.5 - Hub Data Repository](fbe85851-1f5d-4762-a27e-3c6681a1d7f5).
 
 ###### A.6.1.1.8.2.2.1.1.5 - Hub Data Repository [Core]  <!-- UUID: fbe85851-1f5d-4762-a27e-3c6681a1d7f5 -->
 
@@ -47101,7 +47101,7 @@ The Instances of the Executor Accord Primitive with `Completed` Status are store
 
 ###### A.6.1.1.8.2.2.1.4 - In Progress Invocations [Core]  <!-- UUID: 896f5790-396e-45c5-a907-b01a6368985a -->
 
-The in progress Invocations of the Executor Accord Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to **Active Instances**.
+The in progress Invocations of the Executor Accord Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.2.1.2 - Active Instances](e7f6dd4d-2943-40a2-ba6c-8c738e5fc0bd).
 
 ###### A.6.1.1.8.2.2.2 - Root Edit Primitive [Core]  <!-- UUID: 526f3ff3-e9d5-4de3-a7d7-60baf979e471 -->
 
@@ -47121,7 +47121,7 @@ This document contains a Directory of all Instances of the Root Edit Primitive w
 
 ###### A.6.1.1.8.2.2.2.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 8b6cdff1-641d-473c-8942-98dae58c707e -->
 
-This Instance’s associated Instance Configuration Document is located at **Single Instance Configuration Document**.
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.8.2.2.2.2.1 - Single Instance Configuration Document](c49e173d-f052-4825-bab1-0506c3db9353).
 
 ###### A.6.1.1.8.2.2.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 028d65c5-a40b-43cc-9db7-7f313a3ff257 -->
 
@@ -47157,11 +47157,11 @@ The documents herein contain the Instance Configuration Document for the Single 
 
 ###### A.6.1.1.8.2.2.2.2.1.1 - Parameters [Core]  <!-- UUID: 3da1740c-9f67-4e40-9111-5cfee617e244 -->
 
-The parameters of the Root Edit Primitive are fully specified by the Operational Process Definition in **Operational Process Definition**.
+The parameters of the Root Edit Primitive are fully specified by the Operational Process Definition in [A.6.1.1.8.2.2.2.2.1.2 - Operational Process Definition](881b6df0-56fb-498e-bc1a-d9028c0151ad).
 
 ###### A.6.1.1.8.2.2.2.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 881b6df0-56fb-498e-bc1a-d9028c0151ad -->
 
-The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 7 Agent Artifact. Information on Launch Agent 7 governance that is unrelated to the use of the Root Edit Primitive is located at **Governance Information Unrelated To Root Edit Primitive**.
+The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 7 Agent Artifact. Information on Launch Agent 7 governance that is unrelated to the use of the Root Edit Primitive is located at [A.6.1.1.8.3.1 - Governance Information Unrelated To Root Edit Primitive](c18d1d28-3b1f-4173-87dd-f697ab2d2539).
 
 ###### A.6.1.1.8.2.2.2.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 9d637b4a-868b-47c1-bbaf-099aeede1da2 -->
 
@@ -47173,7 +47173,7 @@ The Root Edit process begins with an AGENT7 token holder submitting a proposal t
 
 ###### A.6.1.1.8.2.2.2.2.1.2.1.1.1 - Short-Term Transitionary Measures [Core]  <!-- UUID: 0048952f-30e2-484a-975a-62cc9e84c715 -->
 
-Until the Powerhouse system supports submitting Artifact Edit Proposals, AGENT7 token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Launch Agent 7 Prime" category. The title of the post must include the text "Launch Agent 7 Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total Launch Agent 7 token supply specified in **Root Edit Proposal Submission**.
+Until the Powerhouse system supports submitting Artifact Edit Proposals, AGENT7 token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Launch Agent 7 Prime" category. The title of the post must include the text "Launch Agent 7 Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total Launch Agent 7 token supply specified in [A.6.1.1.8.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](fd43ac8d-5461-46e6-8902-4526ef677e3a).
 
 ###### A.6.1.1.8.2.2.2.2.1.2.1.2 - Root Edit Expert Advisor Review [Core]  <!-- UUID: 089948f6-f451-4541-bdf5-5cb4113332fa -->
 
@@ -47261,7 +47261,7 @@ This document contains a Directory of all Instances of the Light Agent Primitive
 
 ###### A.6.1.1.8.2.2.3.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: bd37edb0-6a4b-4272-afa1-8fdc9e46434f -->
 
-This document contains a Directory of all prospective Instances of the Light Agent Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to **Active Instances Directory**, whereas failed Invocations are Archived in **Hub Data Repository**.
+This document contains a Directory of all prospective Instances of the Light Agent Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.2.3.1.2 - Active Instances Directory](52113994-f0f0-43a7-859d-01ba0890d5c4), whereas failed Invocations are Archived in [A.6.1.1.8.2.2.3.1.5 - Hub Data Repository](4c37b870-fe4e-4313-8b31-5782ee1f2f13).
 
 ###### A.6.1.1.8.2.2.3.1.5 - Hub Data Repository [Core]  <!-- UUID: 4c37b870-fe4e-4313-8b31-5782ee1f2f13 -->
 
@@ -47289,7 +47289,7 @@ The Instances of the Light Agent Primitive with `Completed` Status are contained
 
 ###### A.6.1.1.8.2.2.3.4 - In Progress Invocations [Core]  <!-- UUID: 60754835-87dc-4921-b13c-f9ee34d619ca -->
 
-The in progress Invocations of the Light Agent Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to **Active Instances**.
+The in progress Invocations of the Light Agent Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.2.3.2 - Active Instances](7b8c9d42-3412-4bc0-8439-8178b3b40bf0).
 
 ###### A.6.1.1.8.2.3 - Ecosystem Upkeep Primitives [Core]  <!-- UUID: 137a06da-2db3-4762-9cad-d26a9fc99d4b -->
 
@@ -47313,7 +47313,7 @@ This document contains a Directory of all Instances of the Distribution Requirem
 
 ###### A.6.1.1.8.2.3.1.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 5c8bdca5-4b57-413a-81fc-bf39f991e12b -->
 
-This Instance’s associated Instance Configuration Document is located at **Single** **Instance Configuration Document**.
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.8.2.3.1.2.1 - Single Instance Configuration Document](2fa1a658-3588-45cd-a6e4-ceb0cc8f57d8).
 
 ###### A.6.1.1.8.2.3.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 0ea3700e-3d71-472e-962e-3d3a16e0a020 -->
 
@@ -47425,7 +47425,7 @@ This document contains a Directory of all Instances of the Market Cap Fee Primit
 
 ###### A.6.1.1.8.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 6a69aeef-3339-4bfe-bab4-003d8572cf14 -->
 
-This document contains a Directory of all prospective Instances of the Market Cap Fee Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to **Active Instances Directory**, whereas failed Invocations are Archived in **Hub Data Repository**.
+This document contains a Directory of all prospective Instances of the Market Cap Fee Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.3.2.1.2 Active Instances Directory](524d791c-8402-4d2a-ab42-e06c3dd5caef), whereas failed Invocations are Archived in [A.6.1.1.8.2.3.2.1.5 - Hub Data Repository](527bf1a7-eff1-423d-af04-19b76dd33798).
 
 ###### A.6.1.1.8.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: 527bf1a7-eff1-423d-af04-19b76dd33798 -->
 
@@ -47453,7 +47453,7 @@ The Instances of the Market Cap Fee Primitive with `Completed` Status are stored
 
 ###### A.6.1.1.8.2.3.2.4 In Progress Invocations [Core]  <!-- UUID: d0636602-baf5-4e1d-8835-7baa49ca7252 -->
 
-The in progress Invocations of the Market Cap Fee Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to **Active Instances**.
+The in progress Invocations of the Market Cap Fee Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.3.2.2 - Active Instances](446c1605-6e24-44dc-a61f-7d5bdfaa8993).
 
 ###### A.6.1.1.8.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: a36bf711-7951-497c-9c4b-c761dbff351a -->
 
@@ -47473,7 +47473,7 @@ This document contains a Directory of all Instances of the Upkeep Rebate Primiti
 
 ###### A.6.1.1.8.2.3.3.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: b05793b0-6d46-448f-9e83-41ee55141eb0 -->
 
-This Instance’s associated Instance Configuration Document is located at **Single Instance Configuration Document**.
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.8.2.3.3.2.1 - Single Instance Configuration Document](24e3d323-e9a4-4bb3-ba4d-ae92aa745e96).
 
 ###### A.6.1.1.8.2.3.3.1.3 - Completed Instances Directory [Core]  <!-- UUID: 4f195e95-65db-432e-80ea-9b77a8b2c355 -->
 
@@ -47589,7 +47589,7 @@ This document contains a Directory of all Instances of the Token SkyLink Primiti
 
 ###### A.6.1.1.8.2.4.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: cea9280a-74ca-49fe-a2a4-76762af38073 -->
 
-This document contains a Directory of all prospective Instances of the Token SkyLink Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to **Active Instances Directory**, whereas failed Invocations are Archived in **Hub Data Repository**.
+This document contains a Directory of all prospective Instances of the Token SkyLink Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.4.1.1.2 - Active Instances Directory](0d4a37e4-56d2-49c2-8166-9bc934ebeddf), whereas failed Invocations are Archived in [A.6.1.1.8.2.4.1.1.5 - Hub Data Repository](35b78704-fd3a-4d05-95b3-ba20f73b4c18).
 
 ###### A.6.1.1.8.2.4.1.1.5 - Hub Data Repository [Core]  <!-- UUID: 35b78704-fd3a-4d05-95b3-ba20f73b4c18 -->
 
@@ -47617,7 +47617,7 @@ The Instances of the Token SkyLink Primitive with `Completed` Status are stored 
 
 ###### A.6.1.1.8.2.4.1.4 - In Progress Invocations [Core]  <!-- UUID: 3951cd54-791c-46cc-b3e0-2b930d7e4723 -->
 
-The in progress Invocations of the Token SkyLink Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to **Active Instances**.
+The in progress Invocations of the Token SkyLink Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.4.1.2 - Active Instances](974d0a20-cdff-431f-bc41-dbb7c0dab434).
 
 ###### A.6.1.1.8.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: d16b5adc-f990-4160-b324-0b687292fef3 -->
 
@@ -47645,7 +47645,7 @@ This document contains a Directory of all Instances of the Distribution Reward P
 
 ###### A.6.1.1.8.2.5.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 5f414c27-bd79-4265-a1fa-eb199c270852 -->
 
-This document contains a Directory of all prospective Instances of the Distribution Reward Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to **Active Instances Directory**, whereas failed Invocations are Archived in **Hub Data Repository**.
+This document contains a Directory of all prospective Instances of the Distribution Reward Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.5.1.1.2 - Active Instances Directory](91bc2e83-ed71-4343-a527-084001407db0), whereas failed Invocations are Archived in [A.6.1.1.8.2.5.1.1.5 - Hub Data Repository](cec11621-1805-4b87-8eaf-cfcf5200391f).
 
 ###### A.6.1.1.8.2.5.1.1.5 - Hub Data Repository [Core]  <!-- UUID: cec11621-1805-4b87-8eaf-cfcf5200391f -->
 
@@ -47673,7 +47673,7 @@ The Instances of the Distribution Reward Primitive with `Completed` Status are s
 
 ###### A.6.1.1.8.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: f0f80202-cb0f-4480-8223-cac64d6556d6 -->
 
-The in progress Invocations of the Distribution Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to **Active Instances**.
+The in progress Invocations of the Distribution Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.5.1.2 - Active Instances](11ae6de4-4ab6-4d0f-bf8c-1ab32aed0635).
 
 ###### A.6.1.1.8.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: 18446ffd-1206-41bc-b735-6317d8b4f058 -->
 
@@ -47697,7 +47697,7 @@ This document contains a Directory of all Instances of the Integration Boost Pri
 
 ###### A.6.1.1.8.2.5.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 32f63086-f029-4454-952a-1a992833c216 -->
 
-This document contains a Directory of all prospective Instances of the Integration Boost Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to **Active Instances Directory**, whereas failed Invocations are Archived in **Hub Data Repository**.
+This document contains a Directory of all prospective Instances of the Integration Boost Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.5.2.1.2 - Active Instances Directory](b25b5713-b5db-4666-af29-f569289df9d4), whereas failed Invocations are Archived in [A.6.1.1.8.2.5.2.1.5 - Hub Data Repository](2fa2c7c2-6bfb-4620-bfa4-45c9d7cff7c6).
 
 ###### A.6.1.1.8.2.5.2.1.5 - Hub Data Repository [Core]  <!-- UUID: 2fa2c7c2-6bfb-4620-bfa4-45c9d7cff7c6 -->
 
@@ -47725,7 +47725,7 @@ The Instances of the Integration Boost Primitive with `Completed` Status are con
 
 ###### A.6.1.1.8.2.5.2.4 - In Progress Invocations [Core]  <!-- UUID: 236422d6-f872-4b6f-9b1c-aea12fd8837e -->
 
-The in progress Invocations of the Integration Boost Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to **Active Instances**.
+The in progress Invocations of the Integration Boost Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.5.2.2 - Active Instances](9219e0ee-66b9-4ede-b741-ec8b03d92405).
 
 ###### A.6.1.1.8.2.5.3 - Pioneer Chain Primitive [Core]  <!-- UUID: 388c4c85-a228-4722-8001-02040cbb36ff -->
 
@@ -47749,7 +47749,7 @@ This document contains a Directory of all Instances of the Pioneer Chain Primiti
 
 ###### A.6.1.1.8.2.5.3.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: ea90d778-f105-413f-9534-473aa1fe4b07 -->
 
-This document contains a Directory of all prospective Instances of the Pioneer Chain Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to **Active Instances Directory**, whereas failed Invocations are Archived in **Hub Data Repository**.
+This document contains a Directory of all prospective Instances of the Pioneer Chain Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.5.3.1.2 - Active Instances Directory](37c0dfc8-6bb3-4936-840f-08e15d8d13ec), whereas failed Invocations are Archived in [A.6.1.1.8.2.5.3.1.5 - Hub Data Repository](fae1a000-81c8-4a7f-a99e-3f1fccb25366).
 
 ###### A.6.1.1.8.2.5.3.1.5 - Hub Data Repository [Core]  <!-- UUID: fae1a000-81c8-4a7f-a99e-3f1fccb25366 -->
 
@@ -47777,7 +47777,7 @@ The Instances of the Pioneer Chain Primitive with `Completed` Status are stored 
 
 ###### A.6.1.1.8.2.5.3.4 - In Progress Invocations [Core]  <!-- UUID: 8357b4a0-554e-488f-ad52-5f0e982bfa03 -->
 
-The in progress Invocations of the Pioneer Chain Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to **Active Instances**.
+The in progress Invocations of the Pioneer Chain Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.5.3.2 - Active Instances](0ed9935e-1a67-4423-871a-6a5addd51af5).
 
 ###### A.6.1.1.8.2.6 - Supply Side Stablecoin Primitives [Core]  <!-- UUID: 80e9d9f2-956a-4bb1-a412-6efaad7dda56 -->
 
@@ -47805,9 +47805,9 @@ This document contains a Directory of all Instances of the Allocation System Pri
 
 ###### A.6.1.1.8.2.6.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: d0c5ad5f-ffe6-469b-b4e8-1f77b1a24739 -->
 
-This document contains a Directory of all prospective Instances of the Allocation System Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to **Active Instances Directory**, whereas failed Invocations are Archived in **Hub Data Repository**.
+This document contains a Directory of all prospective Instances of the Allocation System Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.6.1.1.2 - Active Instances Directory](d232eaa6-bbbc-4de2-9b7a-d20b3a25ad45), whereas failed Invocations are Archived in [A.6.1.1.8.2.6.1.1.5 - Hub Data Repository](d0c5ad5f-ffe6-469b-b4e8-1f77b1a24739).
 
-###### A.6.1.1.8.2.6.1.1.5 - Hub Data Repositiory [Core]  <!-- UUID: 952b34e6-7983-4dd0-a46f-e3622c2346de -->
+###### A.6.1.1.8.2.6.1.1.5 - Hub Data Repository [Core]  <!-- UUID: 952b34e6-7983-4dd0-a46f-e3622c2346de -->
 
 The documents herein contain the Data Repository for the Primitive Hub Document.
 
@@ -47837,7 +47837,7 @@ The Instances of the Allocation System Primitive with `Completed` Status are sto
 
 ###### A.6.1.1.8.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: b835b079-0e89-4665-afe9-edb7b22c3317 -->
 
-The in progress Invocations of the Allocation System Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to **Active Instances**.
+The in progress Invocations of the Allocation System Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.6.1.3 - Active Instances](132aaf59-d6fa-4260-b686-91246dba9897).
 
 ###### A.6.1.1.8.2.6.2 - Junior Risk Capital Rental Primitive [Core]  <!-- UUID: d718c63a-1096-46e7-9ff7-c1c851679d45 -->
 
@@ -47861,7 +47861,7 @@ This document contains a Directory of all Instances of the Junior Risk Capital R
 
 ###### A.6.1.1.8.2.6.2.1.4 - In Progress Invocations Director [Core]  <!-- UUID: 86ca0f50-a33b-4068-abd4-3f6a3adb9874 -->
 
-This document contains a Directory of all prospective Instances of the Junior Risk Capital Rental Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to **Active Instances Directory**, whereas failed Invocations are Archived in **Hub Data Repository**.
+This document contains a Directory of all prospective Instances of the Junior Risk Capital Rental Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.6.2.1.2 - Active Instances Directory](56655922-1c77-40f7-83f4-3b9af9dc0c59), whereas failed Invocations are Archived in [A.6.1.1.8.2.6.2.1.5 - Hub Data Repository](c054e1a5-5ea9-4f95-a469-d357bc30cd41).
 
 ###### A.6.1.1.8.2.6.2.1.5 - Hub Data Repository [Core]  <!-- UUID: c054e1a5-5ea9-4f95-a469-d357bc30cd41 -->
 
@@ -47889,7 +47889,7 @@ The Instances of the Junior Risk Capital Rental Primitive with `Completed` Statu
 
 ###### A.6.1.1.8.2.6.2.4 - In Progress Invocations [Core]  <!-- UUID: f2d93d71-1bf9-4199-8190-e1e0beeb5369 -->
 
-The in progress Invocations of the Junior Risk Capital Rental Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to **Active Instances**.
+The in progress Invocations of the Junior Risk Capital Rental Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.6.2.2 - Active Instances](9a3c679d-a269-440e-9069-4bd85b428b3f).
 
 ###### A.6.1.1.8.2.6.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: 52c0af9a-b4e2-4ff5-ad4c-ffb82263d512 -->
 
@@ -47913,7 +47913,7 @@ This document contains a Directory of all Instances of the Asset Liability Manag
 
 ###### A.6.1.1.8.2.6.3.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 8d26415c-b07b-4236-8c0d-09dde4abdcce -->
 
-This document contains a Directory of all prospective Instances of the Asset Liability Management Rental Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to **Active Instances Directory**, whereas failed Invocations are Archived in **Hub Data Repository**.
+This document contains a Directory of all prospective Instances of the Asset Liability Management Rental Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.6.3.1.2 - Active Instances Directory](0997aedd-8432-481a-a8b6-bbbbc1fb76d5), whereas failed Invocations are Archived in [A.6.1.1.8.2.6.3.1.5 - Hub Data Repository](26df5f96-9971-4361-8981-2687c410042c).
 
 ###### A.6.1.1.8.2.6.3.1.5 - Hub Data Repository [Core]  <!-- UUID: 26df5f96-9971-4361-8981-2687c410042c -->
 
@@ -47941,7 +47941,7 @@ The Instances of the Asset Liability Management Rental Primitive with `Completed
 
 ###### A.6.1.1.8.2.6.3.4 - In Progress Invocations [Core]  <!-- UUID: eeb2185d-2a4c-45e3-872c-2d241e42d5c4 -->
 
-The in progress Invocations of the Asset Liability Management Rental Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to **Active Instances**.
+The in progress Invocations of the Asset Liability Management Rental Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.6.3.2 - Active Instances](b3810d85-dc67-4ebd-805d-64af73333fd0).
 
 ###### A.6.1.1.8.2.7 - Core Governance Primitives [Core]  <!-- UUID: 324dbc1c-aa4f-4b87-b171-6e7fad67236d -->
 
@@ -47969,7 +47969,7 @@ This document contains a Directory of all Instances of the Core Governance Rewar
 
 ###### A.6.1.1.8.2.7.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: ae8cfca6-f97a-4f93-8c67-904a98a8a59a -->
 
-This document contains a Directory of all prospective Instances of the Core Governance Reward Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to **Active Instances Directory**, whereas failed Invocations are Archived in **Hub Data Repository**.
+This document contains a Directory of all prospective Instances of the Core Governance Reward Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.7.1.1.2 - Active Instances Directory](e76c0b88-7755-4611-a884-9b5bd3d9c4d8), whereas failed Invocations are Archived in [A.6.1.1.8.2.7.1.1.5 - Hub Data Repository](5eb6faea-c685-450c-a9ba-601ce68ac690).
 
 ###### A.6.1.1.8.2.7.1.1.5 - Hub Data Repository [Core]  <!-- UUID: 5eb6faea-c685-450c-a9ba-601ce68ac690 -->
 
@@ -47997,21 +47997,21 @@ The Instances of the Core Governance Reward Primitive with `Completed` Status ar
 
 ###### A.6.1.1.8.2.7.1.4 - In Progress Invocations [Core]  <!-- UUID: bf457701-f952-4ec5-a2bc-ab356d3e65e2 -->
 
-The in progress Invocations of the Core Governance Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to **Active Instances**.
+The in progress Invocations of the Core Governance Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.7.1.2 - Active Instances](746a2e0b-fd99-41de-84cc-61c8f85efb1a).
 
-###### A.6.1.1.8.2.3 - Omni Documents [Core]  <!-- UUID: dfb235e1-40fd-4ba1-afd8-e8524acbc077 -->
+###### A.6.1.1.8.3 - Omni Documents [Core]  <!-- UUID: dfb235e1-40fd-4ba1-afd8-e8524acbc077 -->
 
 The documents herein define Launch Agent 7's strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
 
-###### A.6.1.1.8.2.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: c18d1d28-3b1f-4173-87dd-f697ab2d2539 -->
+###### A.6.1.1.8.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: c18d1d28-3b1f-4173-87dd-f697ab2d2539 -->
 
-The documents herein specify Launch Agent 7 governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Launch Agent 7 Artifact is specified in the Root Edit Primitive above at **Root Edit Primitive**.
+The documents herein specify Launch Agent 7 governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Launch Agent 7 Artifact is specified in the Root Edit Primitive above at [A.6.1.1.8.2.2.2 - Root Edit Primitive](526f3ff3-e9d5-4de3-a7d7-60baf979e471).
 
-###### A.6.1.1.8.2.3.1.1 - Sky Forum [Core]  <!-- UUID: e0096e14-8d6d-4ad0-8f4d-91f418271cea -->
+###### A.6.1.1.8.3.1.1 - Sky Forum [Core]  <!-- UUID: e0096e14-8d6d-4ad0-8f4d-91f418271cea -->
 
 Launch Agent 7 uses the Sky Forum for governance-related discussion. Posts should use the “Launch Agent 7 Prime” category.
 
-###### A.6.1.1.8.2.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: e9af6855-1271-412c-9667-983bd6efc613 -->
+###### A.6.1.1.8.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: e9af6855-1271-412c-9667-983bd6efc613 -->
 
 The documents herein specify Launch Agent 7's emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Launch Agent 7 Artifact.
 
