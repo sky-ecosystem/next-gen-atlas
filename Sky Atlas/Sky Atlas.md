@@ -23202,7 +23202,7 @@ USDT
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.2.1.4 - Token [Core]  <!-- UUID: 46ea2f39-26c6-4ac4-9ee7-baf921d8e86e -->
 
-sparkUSDTbc
+sparkUSDT
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.2.2 - Contract Addresses [Core]  <!-- UUID: 1eb8cc31-5d23-4aaa-b99e-b57654c9dbc4 -->
 
