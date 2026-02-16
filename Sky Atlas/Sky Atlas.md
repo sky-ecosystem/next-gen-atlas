@@ -47131,7 +47131,7 @@ This document contains a Directory of all Instances of the Root Edit Primitive w
 
 Because the Root Edit Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.8.2.2.1.5 - Hub Data Repository [Core]  <!-- UUID: 0d0e614d-32d3-4ae3-9c46-113dcc0ec144 -->
+###### A.6.1.1.8.2.2.2.1.5 - Hub Data Repository [Core]  <!-- UUID: 0d0e614d-32d3-4ae3-9c46-113dcc0ec144 -->
 
 The documents herein contain the Data Repository for the Primitive Hub Document.
 
@@ -47415,7 +47415,7 @@ The documents herein organize all base information relevant to Launch Agent 7's 
 
 `Inactive`
 
-###### A.6.1.1.8.2.3.2.1.2 Active Instances Directory [Core]  <!-- UUID: 524d791c-8402-4d2a-ab42-e06c3dd5caef -->
+###### A.6.1.1.8.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: 524d791c-8402-4d2a-ab42-e06c3dd5caef -->
 
 This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Active`.
 
@@ -47451,7 +47451,7 @@ The Instances of the Market Cap Fee Primitive with `Active` Status are stored he
 
 The Instances of the Market Cap Fee Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.8.2.3.2.4 In Progress Invocations [Core]  <!-- UUID: d0636602-baf5-4e1d-8835-7baa49ca7252 -->
+###### A.6.1.1.8.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: d0636602-baf5-4e1d-8835-7baa49ca7252 -->
 
 The in progress Invocations of the Market Cap Fee Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.3.2.2 - Active Instances](446c1605-6e24-44dc-a61f-7d5bdfaa8993).
 
@@ -47991,7 +47991,7 @@ The subtrees for Instances of the Core Governance Reward Primitive with `Suspend
 
 The Instances of the Core Governance Reward Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.8.2.7.1.3 -Completed Instances [Core]  <!-- UUID: 621b7986-b265-41d6-8b03-bee449211d3d -->
+###### A.6.1.1.8.2.7.1.3 - Completed Instances [Core]  <!-- UUID: 621b7986-b265-41d6-8b03-bee449211d3d -->
 
 The Instances of the Core Governance Reward Primitive with `Completed` Status are stored herein.
 
@@ -47999,7 +47999,7 @@ The Instances of the Core Governance Reward Primitive with `Completed` Status ar
 
 The in progress Invocations of the Core Governance Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.7.1.2 - Active Instances](746a2e0b-fd99-41de-84cc-61c8f85efb1a).
 
-###### A.6.1.1.8.3 - Omni Documents [Core]  <!-- UUID: dfb235e1-40fd-4ba1-afd8-e8524acbc077 -->
+##### A.6.1.1.8.3 - Omni Documents [Core]  <!-- UUID: dfb235e1-40fd-4ba1-afd8-e8524acbc077 -->
 
 The documents herein define Launch Agent 7's strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
 
