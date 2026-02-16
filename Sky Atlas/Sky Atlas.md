@@ -40421,6 +40421,14 @@ This document contains a Directory of all Instances of the Integration Boost Pri
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.2.2.1 - Euler Instance Configuration Document](af548686-1935-4f20-b099-0d5238f388a6).
 
+###### A.6.1.1.4.2.5.2.1.2.2 - Curve Instance Configuration Document Location [Core]  <!-- UUID: 46aa3d84-5bf6-4cfd-8b5c-ecbddd086984 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.2.2.2 - Curve Instance Configuration Document](f628b743-4df7-4814-9684-4707250a7284).
+
+###### A.6.1.1.4.2.5.2.1.2.3 - Morpho Instance Configuration Document Location [Core]  <!-- UUID: a050d87d-8918-4bf7-a0ae-0314d7e85b42 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.2.2.3 Morpho Instance Configuration Document](c18c7746-de43-492b-82f6-6735effa6508).
+
 ###### A.6.1.1.4.2.5.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: d9541cd3-07a3-41c7-99ee-c486d4271567 -->
 
 This document contains a Directory of all Instances of the Integration Boost Primitive with Instance status of `Completed`.
@@ -40547,6 +40555,192 @@ The Active Data is updated as follows:
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.6.1.1.4.2.5.2.2.1.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 358530ef-9012-4e7f-8dc4-192930c180d0 -->
+
+The Integration Boost Payments are:
+
+###### A.6.1.1.4.2.5.2.2.2 - Curve Instance Configuration Document [Core]  <!-- UUID: f628b743-4df7-4814-9684-4707250a7284 -->
+
+The documents herein contain the Instance Configuration Document for the Curve Integration Boost Primitive Instance.
+
+###### A.6.1.1.4.2.5.2.2.2.1 - Parameters [Core]  <!-- UUID: 358e8a04-fb48-4597-abe6-58b955cd9f00 -->
+
+The documents herein define the parameters of the Curve Instance of the Integration Boost Primitive.
+
+###### A.6.1.1.4.2.5.2.2.2.1.1 - Integration Partner Name [Core]  <!-- UUID: 48ae657d-86c0-4254-8202-da1564cb347a -->
+
+The partner for the Curve Integration Boost is Curve.
+
+###### A.6.1.1.4.2.5.2.2.2.1.2 - Integration Partner Reward Address [Core]  <!-- UUID: fa241343-8f00-454b-9b95-726cbcbb7b9d -->
+
+The reward address for the Curve Integration Boost is `0xa7843f843d29ca33ba48d9d1335b774eecc328dc`.
+
+###### A.6.1.1.4.2.5.2.2.2.1.3 - Integration Partner Chain [Core]  <!-- UUID: dd776d9a-7a0c-4b87-a5a5-6ae9e7ac829b -->
+
+The Curve Integration Boost is on Ethereum Mainnet blockchain.
+
+###### A.6.1.1.4.2.5.2.2.2.1.4 - Integration Boost Cadence [Core]  <!-- UUID: 4bbd6ba9-0f20-460b-968b-6b795c20ab4f -->
+
+The payment cadence for the Curve Integration Boost is weekly.
+
+###### A.6.1.1.4.2.5.2.2.2.1.5 - Integration Boost Data Submission Format [Core]  <!-- UUID: 930022db-e936-4e10-8918-9badced679c0 -->
+
+The Data Submission Responsible Actor calculates the net deposits based on on-chain events and makes the data available through an API endpoint located at [https://info-sky.blockanalitica.com/api/v1/incentivized-pools/](https://info-sky.blockanalitica.com/api/v1/incentivized-pools/).
+
+###### A.6.1.1.4.2.5.2.2.2.1.6 - Integration Boost Data Submission Responsible Actor [Core]  <!-- UUID: 1371ca2e-38bc-4c5a-9983-06b2b960f2c9 -->
+
+The Data Submission Responsible Actor is Core Council Risk Advisor.
+
+###### A.6.1.1.4.2.5.2.2.2.1.7 - Integration Boost Savings Rate Adjustment Strategy [Core]  <!-- UUID: ddc79c0b-b022-4696-88e4-e2b5d482193d -->
+
+The Integration Boost is calculated based on per block values for USDS in Curve and the Sky Savings Rate.
+
+###### A.6.1.1.4.2.5.2.2.2.1.8 - Custom Instance Parameters [Core]  <!-- UUID: eec6574a-8c01-4de9-8766-8185d6814a79 -->
+
+The documents herein define the custom parameters of the Curve Instance of the Integration Boost Primitive, if any.
+
+###### A.6.1.1.4.2.5.2.2.2.2 - Operational Process Definition [Core]  <!-- UUID: 73b0331d-ac57-4d24-9593-c579d64069f6 -->
+
+The documents herein define the process for the ongoing management of the Curve Instance of the Integration Boost Primitive.
+
+###### A.6.1.1.4.2.5.2.2.2.2.1 - Routine Protocol [Core]  <!-- UUID: 62d7f115-e6ed-4bce-8c84-abbbdcb8cb76 -->
+
+This document defines the protocol for routine ongoing management of the Curve Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.2.2.1.3.2.1 - Near Term Process](4ab621b4-ef8e-4b01-a6aa-9296601033c5).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
+
+###### A.6.1.1.4.2.5.2.2.2.2.1.1 - Agent Customizations [Core]  <!-- UUID: c62e6889-1704-4258-aa32-69ef911dba25 -->
+
+The Prime Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.4.2.5.2.2.2.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 15a02312-d93d-4b6c-bf08-e23c6d7c36d9 -->
+
+The documents herein define the protocol for non-routine ongoing management of the Curve Instance of this Integration Boost Primitive.
+
+###### A.6.1.1.4.2.5.2.2.2.2.3 - Emergency Protocol [Core]  <!-- UUID: 080d6d53-1fa3-41f2-a479-b2fab290c45e -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Curve Instance of this Integration Boost Primitive.
+
+###### A.6.1.1.4.2.5.2.2.2.3 - Data Repository [Core]  <!-- UUID: cf22699e-1dc0-4526-9c07-fc5165ab3f75 -->
+
+The documents herein contain data relevant to the Curve Instance of the Integration Boost Primitive.
+
+###### A.6.1.1.4.2.5.2.2.2.3.1 - Initial Planning [Core]  <!-- UUID: 00b3c481-bf1d-40a7-9fe8-aea7a99c0524 -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.2.2.2.3.2 - Operational GovOps Review [Core]  <!-- UUID: 4cdcce5d-a4f5-4474-8818-72d13f6c6174 -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.2.2.2.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 4c26b560-c84a-4e2b-882f-8ea4b821886f -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.2.2.2.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: d2f2c0be-765d-4f3b-9dac-e39ab0244a85 -->
+
+The Integration Boost payments for the Curve Instance of the Integration Boost Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.6.1.1.4.2.5.2.2.2.3.4.0.6.1- List Of Integration Boost Payments [Active Data]  <!-- UUID: af376688-bb97-4fe1-bda9-58a59f735a69 -->
+
+The Integration Boost Payments are:
+
+###### A.6.1.1.4.2.5.2.2.3 Morpho Instance Configuration Document [Core]  <!-- UUID: c18c7746-de43-492b-82f6-6735effa6508 -->
+
+The documents herein contain the Instance Configuration Document for the Morpho Integration Boost Primitive Instance.
+
+###### A.6.1.1.4.2.5.2.2.3.1 - Parameters [Core]  <!-- UUID: fda57199-87e2-4e4a-975a-35780fd324f3 -->
+
+The documents herein define the parameters of the Morpho Instance of the Integration Boost Primitive.
+
+###### A.6.1.1.4.2.5.2.2.3.1.1 - Integration Partner Name [Core]  <!-- UUID: 460f1773-d543-4aad-81a3-ca4de567095b -->
+
+The partner for the Morpho Integration Boost is Morpho.
+
+###### A.6.1.1.4.2.5.2.2.3.1.2 - Integration Partner Reward Address [Core]  <!-- UUID: b70f1003-1159-4d5b-b362-c37aa11403d3 -->
+
+The reward address for the Morpho Integration Boost is `0xa7843f843d29ca33ba48d9d1335b774eecc328dc`.
+
+###### A.6.1.1.4.2.5.2.2.3.1.3 - Integration Partner Chain [Core]  <!-- UUID: fbbbda2e-2eca-4b1f-90b1-9cd2f41015a0 -->
+
+The Morpho Integration Boost is on Ethereum Mainnet blockchain.
+
+###### A.6.1.1.4.2.5.2.2.3.1.4 - Integration Boost Cadence [Core]  <!-- UUID: 39dcdc06-4969-4bc3-a9f5-d3196ab1546f -->
+
+The payment cadence for the Morpho Integration Boost is weekly.
+
+###### A.6.1.1.4.2.5.2.2.3.1.5 - Integration Boost Data Submission Format [Core]  <!-- UUID: a92af254-9677-4ae2-ab31-4785180ba959 -->
+
+The Data Submission Responsible Actor calculates the net deposits based on on-chain events and makes the data available through an API endpoint located at [https://info-sky.blockanalitica.com/api/v1/incentivized-pools/](https://info-sky.blockanalitica.com/api/v1/incentivized-pools/).
+
+###### A.6.1.1.4.2.5.2.2.3.1.6 - Integration Boost Data Submission Responsible Actor [Core]  <!-- UUID: d6f989ca-e897-499c-8ccf-1db864470ad0 -->
+
+The Data Submission Responsible Actor is Core Council Risk Advisor.
+
+###### A.6.1.1.4.2.5.2.2.3.1.7 - Integration Boost Savings Rate Adjustment Strategy [Core]  <!-- UUID: 398179cc-7315-45ff-bfe3-e26cd761ef93 -->
+
+The Integration Boost is calculated based on per block values for USDS in Morpho and the Sky Savings Rate.
+
+###### A.6.1.1.4.2.5.2.2.3.1.8 - Custom Instance Parameters [Core]  <!-- UUID: dec45734-5da8-4834-acd9-d905b7fb8934 -->
+
+The documents herein define the custom parameters of the Morpho Instance of the Integration Boost Primitive, if any.
+
+###### A.6.1.1.4.2.5.2.2.3.2 - Operational Process Definition [Core]  <!-- UUID: 6e1c68cd-4b68-40df-a9a1-2e729b3af35a -->
+
+The documents herein define the process for the ongoing management of the Morpho Instance of the Integration Boost Primitive.
+
+###### A.6.1.1.4.2.5.2.2.3.2.1 - Routine Protocol [Core]  <!-- UUID: c90ad783-129a-416d-a316-a56938a74147 -->
+
+This document defines the protocol for routine ongoing management of the Morpho Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.2.2.1.3.2.1 - Near Term Process](4ab621b4-ef8e-4b01-a6aa-9296601033c5).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
+
+###### A.6.1.1.4.2.5.2.2.3.2.1.1 - Agent Customizations [Core]  <!-- UUID: b16396c1-b9af-4840-ba2d-75761b39c7da -->
+
+The Prime Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.4.2.5.2.2.3.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 20c4a428-1129-42c9-b03f-349418cc0767 -->
+
+The documents herein define the protocol for non-routine ongoing management of the Morpho Instance of this Integration Boost Primitive.
+
+###### A.6.1.1.4.2.5.2.2.3.2.3 - Emergency Protocol [Core]  <!-- UUID: 36da0ac3-eb57-43e9-a56c-832e2bd73b06 -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Morpho Instance of this Integration Boost Primitive.
+
+###### A.6.1.1.4.2.5.2.2.3.3 - Date Repository [Core]  <!-- UUID: 88095904-1a04-449c-b421-3a3c7e4fa437 -->
+
+The documents herein contain data relevant to the Morpho Instance of the Integration Boost Primitive.
+
+###### A.6.1.1.4.2.5.2.2.3.3.1 - Initial Planning [Core]  <!-- UUID: ef86b5b0-48ce-471e-8a26-dd59dfa09449 -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.2.2.3.3.2 - Operational GovOps Review [Core]  <!-- UUID: c1e28481-d41d-40b8-96d9-cd372e46b45d -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.2.2.3.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 1024c532-ea70-4d0f-b178-b99529950f25 -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.2.2.3.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 81ee6226-9067-4e72-bd0b-77773b581701 -->
+
+The Integration Boost payments for the Morpho Instance of the Integration Boost Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.6.1.1.4.2.5.2.2.3.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 71d49eb8-0224-4fe7-831e-e49467e2f90d -->
 
 The Integration Boost Payments are:
 
