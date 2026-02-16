@@ -1768,59 +1768,13 @@ As part of the formal adjudication of AC misalignment or operational security br
 
 The opportunity to respond should include sufficient time to prepare a response, the ability to submit information or evidence, and reasonable access to any information pertinent to the allegation. Where an internal or external whistleblower has provided evidence of potential AC misalignment, the Core Facilitator should keep the whistleblower’s identity confidential.
 
+#### A.1.4.9.1 - Graduated Response Framework For Breaches By Aligned Delegates [Core]  <!-- UUID: 9927fb45-c95f-48c2-8eb3-aa816aba66cb -->
+
+In cases of breaches of the Alignment Conserver requirements by Aligned Delegates, the Graduated Response Framework specified in [A.1.5.6.1 - Graduated Response Framework](2544a530-42f8-4699-b428-7c3568e1635e) should be applied.
+
 #### A.1.4.9.2 - Imposing Appropriate Penalty [Core]  <!-- UUID: fad2c7d1-4fe0-44e5-a1f7-c551882d78da -->
 
 If the Core Facilitator concludes that the allegation of misalignment or operational security breach was justified, they can impose an appropriate penalty up to and including derecognition of the Alignment Conserver.
-
-##### A.1.4.9.2.1 - Warnings Appropriate For Mild Breach [Core]  <!-- UUID: f8107b34-93b1-4ab8-a6ab-c4e70a048933 -->
-
-In cases of very mild "slippery slope" breaches of the Alignment Conserver requirements, a formal warning may be given and recorded in the subdocuments herein. Where such a breach was the first instance of misalignment by the Alignment Conserver, no disciplinary measures beyond a formal warning are required.
-
-###### NR-6 - Defining Threshold For “Very Mild Slippery Slope" Breaches [Needed Research]  <!-- UUID: db47c59f-a822-4213-9305-8c8eb07c41f0 -->
-
-**Content**:
-
-What specific actions or omissions qualify as "very mild slippery slope" breaches? Helpful research can include: developing a set of criteria or a checklist that defines what constitutes a "very mild slippery slope" breach. This could involve an analysis of past or hypothetical incidents, consultations with the Facilitators, etc. Such guidelines are likely needed to help Facilitators reliably determine whether an act should be classified as a 'minor' slippery slope infraction or a more severe act which would merit derecognition.
-
-###### A.1.4.9.2.1.1 - Warning Notice [Core]  <!-- UUID: 0222d1c6-67ab-456e-82d6-41f3b834f285 -->
-
-Formal warnings are issued publicly, and justification and reasoning must be provided by the Core Facilitator.
-
-###### A.1.4.9.2.1.2 - Warning Recording [Active Data Controller]  <!-- UUID: ba80af50-c233-418b-8ed0-88dad26a9dc9 -->
-
-Formal warnings are recorded by adding the identity and known aliases or associated entities to the Active Data list in [A.1.4.9.2.1.2.0.6.1 - List of Formally Warned Alignment Conservers](beb9ed67-660b-4ac5-84fe-a5644df957ac).
-
-The Active Data is updated as follows:
-
-- The Responsible Party is the Core Facilitator.
-
-- The Update Process must follow the protocol for ‘Alignment Conserver Changes’.
-
-###### A.1.4.9.2.1.2.0.6.1 - List of Formally Warned Alignment Conservers [Active Data]  <!-- UUID: beb9ed67-660b-4ac5-84fe-a5644df957ac -->
-
-| Date       | Conserver Role    | Identity               | Known Aliases | Reasoning Post                                                                                                    |  
-|------------|--------------------|------------------------|---------------|-------------------------------------------------------------------------------------------------------------------|  
-| 2023-06-08 | AVC Member         | HKUST_EPI_BLOCKCHAIN   | -             | [https://forum.sky.money/t/notice-aligned-delegate-derecognition-and-avc-member-warning/21099](https://forum.sky.money/t/notice-aligned-delegate-derecognition-and-avc-member-warning/21099)                     |  
-| 2024-04-06 | AVC Member         | ACRE DAOs              | -             | [https://forum.sky.money/t/ad-derecognition-due-to-operational-security-breach-april-5-2024/24043](https://forum.sky.money/t/ad-derecognition-due-to-operational-security-breach-april-5-2024/24043)                 |  
-| 2025-08-15 | Aligned Delegate   | SkyStaking             | -             | [https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-08-04/26957/9](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-08-04/26957/9)                            |
-
-###### A.1.4.9.2.1.0.4.1 - Adjudication Guidelines to be applied to a second misaligned act or a first misaligned act that is not mild [Action Tenet]  <!-- UUID: 98407e43-d462-4aae-b0b4-89e110a6152c -->
-
-The Target Document fails to specify accountability measures for an AC who commits a misaligned act that is not mild. The Target Document is also silent on the subject of the proper remedial approach if an AC commits a subsequent misaligned act after an initial mild breach. The language does imply subsequent breaches should be treated with increasing severity.
-
-Despite the lack of explicit guidance, however, Facilitators have likely been given sufficient information in [A.1.4 - Alignment Conservers](df4f9bfd-e743-44b5-9c62-9c5f10b15340) to reach a reliable adjudication principle. 
-
-Taken in its totality, the above cited Article requires Facilitators to take a highly aggressive stance when it comes to responding to AC misalignment risk. The absence of a substantial punitive measure for the first mild breach provides the AC with an opportunity for corrective action and learning. 
-
-After the initial warning, any subsequent breach must immediately trigger derecognition, regardless of the degree of severity. Similarly, an initial breach that is not mild in scope or impact must trigger derecognition. This escalation is a necessary consequence of the Atlas's mandate that ACs are held to the highest standards of Universal Alignment.
-
-###### A.1.4.9.2.1.0.4.2 - Mild Slippery Slope Breaches - Evaluating Whether A Misaligned Act Is ‘Very Mild' [Action Tenet]  <!-- UUID: 27846f29-12dd-493e-9584-6091d30fb8cc -->
-
-The element "mild slippery slope breach" characterizes a form of misalignment or rule breach that, when viewed in isolation, exhibits relatively insignificant scope or impact. Furthermore, a "very mild" act of misalignment often indicates a lack of ill intent (i.e., innocent mistake) or premeditation on the part of the rule violator. A "very mild slippery slope breach" will likely be the violator's first offense.
-
-###### A.1.4.9.2.1.0.4.3 - Mild Slippery Slope Breaches - Facilitators Required To Be Proactive Against Even Mild Misalignment [Action Tenet]  <!-- UUID: 9bf5a866-08bd-4519-88de-1749af02645c -->
-
-Any Alignment Conserver misalignment, regardless of its seemingly trivial nature, carries inherent risks. ACs must be held to the highest standards of Universal Alignment. The Target Document indicates that leniency towards AC infractions could set a risky precedent, where, for instance, misaligned actors justify themselves based on prior instances of lenience.
 
 ##### A.1.4.9.2.2 - Mandated Derecognition For Severe Breaches [Core]  <!-- UUID: 12044fd7-4cfa-4431-aa03-a9531353c6dd -->
 
@@ -1855,6 +1809,10 @@ The element "where feasible" means that the Core Facilitator have discretion to 
 #### A.1.4.9.4 - Core Facilitator Is Subject Of Misalignment Allegation [Core]  <!-- UUID: 1fd1ecc3-49c6-4e8c-b1fe-4387460d3514 -->
 
 If the Core Facilitator is the subject of an allegation of misalignment or operational security breach, the adjudication process may be initiated by Core GovOps.
+
+#### A.1.4.9.5 - Core Facilitator Is Subject To Conflict Of Interest [Core]  <!-- UUID: 6f492c50-5edf-4b23-b804-ae3e39ba7d88 -->
+
+If the Core Facilitator is subject to a conflict of interest in resolving a dispute, then the Core Facilitator should recuse itself and the adjudication should be conducted by Core GovOps. In cases of doubt, the Core Facilitator should resolve the doubt by recusing itself.
 
 #### A.1.4.9.0.4.1 - ACs Must Go Beyond Mere Technical Compliance With Rules [Action Tenet]  <!-- UUID: 8d8980b8-3ac7-49c6-8bc9-f601733a3198 -->
 
@@ -1981,6 +1939,14 @@ Title: AD Recognition Submission
 [Cryptographically signed AD Recognition Submission Message from the Ethereum address controlling Delegate Contract]
 [Cryptographically signed AD Recognition Submission Message from the Ecosystem Actor Ethereum address, where this address is not an address controlling a Delegate Contract]
 
+#### A.1.5.1.4 - Probationary Period [Core]  <!-- UUID: 66183cd4-0cf7-4ba5-bfde-373e50296cf6 -->
+
+The Core Facilitator applies heightened accountability standards to Aligned Delegates during their first 90 days following recognition (the “Probationary Period”) as specified in the documents herein.
+
+##### A.1.5.1.4.1 - Heightened Accountability Standards During Probationary Period [Core]  <!-- UUID: 3a9bb8d7-be3f-4f52-be1e-ad6ba7515b33 -->
+
+During the Probationary Period, a Tier 1 (Procedural) breach (as defined in [A.1.5.6.1.1 - Tier 1 (Procedural) Breaches](ec29c919-2294-45b3-a2cd-e48dd9422539) results in immediate derecognition without the requirement of a prior formal warning.
+
 #### A.1.5.1.4 - List Of Recognized Aligned Delegates [Active Data Controller]  <!-- UUID: 79e4e209-2925-4074-95f5-28544117c680 -->
 
 The list of currently recognized Aligned Delegates is defined as Active Data in [A.1.5.1.4.0.6.1 - Current Aligned Delegates](5f584db8-f8d8-4118-988c-b2bc3f68ceb7).
@@ -2008,91 +1974,123 @@ The Active Data is updated as follows:
 | OPEX            | [https://etherscan.io/address/0xE3dc949720Da42c5c842D06974BCB7B03F4f604f](https://etherscan.io/address/0xE3dc949720Da42c5c842D06974BCB7B03F4f604f) [https://etherscan.io/verifySig/301199](https://etherscan.io/verifySig/301199)                                 | [https://etherscan.io/address/0x16A5a76904140e01F31C7e7ABD9fB81988469bA4](https://etherscan.io/address/0x16A5a76904140e01F31C7e7ABD9fB81988469bA4) [https://etherscan.io/verifySig/301198](https://etherscan.io/verifySig/301198)                                      | [https://forum.sky.money/t/opex-ad-recognition-submission/27630](https://forum.sky.money/t/opex-ad-recognition-submission/27630)                 |
 | AxisLegati      | [https://etherscan.io/address/0x9B4AF496CC72c432586e85a1D8264A2708c4dcb6](https://etherscan.io/address/0x9B4AF496CC72c432586e85a1D8264A2708c4dcb6) [https://etherscan.io/verifySig/301787](https://etherscan.io/verifySig/301787)                                 | [https://etherscan.io/address/0x7bc5a420b6524Fa925F1321A01825438369E3c2e](https://etherscan.io/address/0x7bc5a420b6524Fa925F1321A01825438369E3c2e) [https://etherscan.io/verifySig/301786](https://etherscan.io/verifySig/301786)                                      | [https://forum.sky.money/t/axislegati-ad-recognition-submission/27677](https://forum.sky.money/t/axislegati-ad-recognition-submission/27677)                 |
 
-### A.1.5.2 - In General [Section]  <!-- UUID: 4e9e5868-92ea-486a-b30c-01391a027ba1 -->
+### A.1.5.2 - Aligned Delegate Responsibilities [Section]  <!-- UUID: 3fcd3f17-f135-420e-9362-7c039daf6a52 -->
+
+This Section defines specific responsibilities of Aligned Delegates.
+
+#### A.1.5.2.1 - Aligned Delegate Voting Responsibilities [Core]  <!-- UUID: 8c813d3d-5ed3-43b9-a495-e7332e10aead -->
+
+Aligned Delegates are required to maintain a voting participation rate of at least seventy-five percent (75%) over the past six (6) months in all votes they are eligible to cast as an Aligned Delegate. Failure to meet this standard is a Tier 1 (Procedural) breach.
+
+Voting participation is measured from the date of formal recognition by the Core Facilitator. The participation requirement applies only to votes for which SKY tokens are delegated to the Aligned Delegate.
+
+##### A.1.5.2.1.1 - Excessive Abstention [Core]  <!-- UUID: 0e1c91a9-b2a3-4f97-9fe1-8d0833381211 -->
+
+The Aligned Delegate role exists to provide active stewardship of Sky Governance. For the purposes of this document, abstaining refers to casting an Abstain vote, not to failing to vote entirely (which is addressed under [A.1.5.2.1 - Aligned Delegate Voting Responsibilities](8c813d3d-5ed3-43b9-a495-e7332e10aead)). Casting an Abstain vote is appropriate when an Aligned Delegate has a conflict of interest or lacks sufficient expertise on a specialized matter, but abstaining should be the exception rather than the norm.
+
+The Core Facilitator may issue a Tier 1 (Procedural) notice to an Aligned Delegate whose pattern of abstentions indicates disengagement from active governance participation. In evaluating whether abstentions are excessive, the Core Facilitator should consider:
+
+1. the proportion of abstentions relative to total votes cast over the preceding six (6) months;
+2. whether the Aligned Delegate provided reasoning for abstentions; and
+3. whether the pattern suggests avoidance of accountability rather than conflict of interest or insufficient expertise.
+
+This provision does not establish a specific numerical threshold for excessive abstentions. Rather, the Core Facilitator exercises reasonable judgment in identifying patterns inconsistent with the active stewardship expected of Aligned Delegates.
+
+##### A.1.5.2.2 - Aligned Delegate Communication Responsibilities [Core]  <!-- UUID: 3a8c2b92-3a23-48a0-87c4-ea1325bbbd98 -->
+
+Aligned Delegates must provide substantive reasoning when explaining their votes. A compliant vote explanation must:
+
+1. Demonstrate understanding of the proposal’s core mechanisms or changes;
+2. Articulate a reasoned basis for the vote position; and
+3. Address at least one substantive aspect of the proposal (benefits, risks, implementation, or alignment with ecosystem goals).
+
+Vote explanations must be posted within one (1) week of the end of the voting period for the applicable vote.
+
+### A.1.5.3 - In General [Section]  <!-- UUID: 4e9e5868-92ea-486a-b30c-01391a027ba1 -->
 
 Delegate Contracts are smart contracts that can receive delegated voting power from SKY holders and Staking users.
 
-#### A.1.5.2.0.3.1 - Delegated Voting Power - Element Annotation [Annotation]  <!-- UUID: 9446b896-f33f-4593-97e9-60db6c385afd -->
+#### A.1.5.3.0.3.1 - Delegated Voting Power - Element Annotation [Annotation]  <!-- UUID: 9446b896-f33f-4593-97e9-60db6c385afd -->
 
 The element "delegated voting power" refers to the ability of SKY holders and Staking users to entrust their voting power to a Delegate Contract, allowing the Aligned Delegate controlling that contract to cast votes in the Sky Governance process on their behalf. The SKY or Staking user always maintains full ownership of their tokens.
 
-### A.1.5.3 - Ranked Delegates [Section]  <!-- UUID: 0836acf0-441d-4215-aee6-dc6d0c884516 -->
+### A.1.5.4 - Ranked Delegates [Section]  <!-- UUID: 0836acf0-441d-4215-aee6-dc6d0c884516 -->
 
 This Section defines Ranked Delegates. Ranked Delegates are Aligned Delegates who are eligible to receive a budget from the Sky Protocol and have additional rights and responsibilities as specified herein.
 
-#### A.1.5.3.1 - Levels Of Ranked Delegates [Core]  <!-- UUID: f4857d86-f4e7-43c5-be50-fab9e82f0129 -->
+#### A.1.5.4.1 - Levels Of Ranked Delegates [Core]  <!-- UUID: f4857d86-f4e7-43c5-be50-fab9e82f0129 -->
 
 Ranked Delegates are divided into three levels as specified in the documents herein.
 
-##### A.1.5.3.1.1 - Level 1 Ranked Delegates [Core]  <!-- UUID: cf96f0e7-13e0-4a41-adb0-09a85b53495d -->
+##### A.1.5.4.1.1 - Level 1 Ranked Delegates [Core]  <!-- UUID: cf96f0e7-13e0-4a41-adb0-09a85b53495d -->
 
 Level 1 Ranked Delegates are eligible for a higher budget and are expected to contribute to the Sky Protocol at a higher level relative to other Ranked Delegates.
 
-###### A.1.5.3.1.1.1 - Number Of Level 1 Ranked Delegates [Core]  <!-- UUID: 1c2ba550-ba6f-49d1-a88d-ad71b779c878 -->
+###### A.1.5.4.1.1.1 - Number Of Level 1 Ranked Delegates [Core]  <!-- UUID: 1c2ba550-ba6f-49d1-a88d-ad71b779c878 -->
 
 There are two (2) Level 1 Ranked Delegates.
 
-###### A.1.5.3.1.1.2 - Budget For Level 1 Ranked Delegates [Core]  <!-- UUID: 036babd9-73fe-43a3-8293-b96a5f13e58e -->
+###### A.1.5.4.1.1.2 - Budget For Level 1 Ranked Delegates [Core]  <!-- UUID: 036babd9-73fe-43a3-8293-b96a5f13e58e -->
 
 Each Level 1 Ranked Delegate is eligible for a budget of 400,000 USDS per year.
 
-###### A.1.5.3.1.1.3 - Selection Of Level 1 Ranked Delegates [Core]  <!-- UUID: f52e46d4-2d8c-49ad-852c-acbdca81aadc -->
+###### A.1.5.4.1.1.3 - Selection Of Level 1 Ranked Delegates [Core]  <!-- UUID: f52e46d4-2d8c-49ad-852c-acbdca81aadc -->
 
 In the short term, the Level 1 Ranked Delegates are selected directly by Sky Governance. The current Level 1 Ranked Delegates selected by Sky Governance are specified in Current Level 1 Ranked Delegates.
 
-###### A.1.5.3.1.1.3.1 - Current Level 1 Ranked Delegates [Core]  <!-- UUID: 46c0f334-4421-4e1a-9130-501e3a246e2a -->
+###### A.1.5.4.1.1.3.1 - Current Level 1 Ranked Delegates [Core]  <!-- UUID: 46c0f334-4421-4e1a-9130-501e3a246e2a -->
 
 The current Level 1 Ranked Delegates are BLUE and Cloaky.
 
-##### A.1.5.3.1.2 - Level 2 Ranked Delegates [Core]  <!-- UUID: 2f07e41b-ca66-4075-90d0-771bcd8d7823 -->
+##### A.1.5.4.1.2 - Level 2 Ranked Delegates [Core]  <!-- UUID: 2f07e41b-ca66-4075-90d0-771bcd8d7823 -->
 
 Level 2 Ranked Delegates are eligible for an intermediate budget and are expected to contribute to the Sky Protocol at an intermediate level relative to other Ranked Delegates.
 
-###### A.1.5.3.1.2.1 - Number Of Level 2 Ranked Delegates [Core]  <!-- UUID: dc65cc80-ea3d-41fa-a80c-b3aafa1e817e -->
+###### A.1.5.4.1.2.1 - Number Of Level 2 Ranked Delegates [Core]  <!-- UUID: dc65cc80-ea3d-41fa-a80c-b3aafa1e817e -->
 
 There is one (1) Level 2 Ranked Delegate.
 
-###### A.1.5.3.1.2.2 - Budget For Level 2 Ranked Delegates  [Core]  <!-- UUID: 04b54378-1cb5-42cd-be16-e2b93386404d -->
+###### A.1.5.4.1.2.2 - Budget For Level 2 Ranked Delegates  [Core]  <!-- UUID: 04b54378-1cb5-42cd-be16-e2b93386404d -->
 
 Each Level 2 Ranked Delegate is eligible for a budget of 175,000 USDS per year.
 
-###### A.1.5.3.1.2.3 - Selection Of Level 2 Ranked Delegates [Core]  <!-- UUID: 7c6c6579-7738-4835-9a80-d3bc799e84fd -->
+###### A.1.5.4.1.2.3 - Selection Of Level 2 Ranked Delegates [Core]  <!-- UUID: 7c6c6579-7738-4835-9a80-d3bc799e84fd -->
 
 In the short term, the Level 2 Ranked Delegates are selected directly by Sky Governance. The current Level 2 Ranked Delegates selected by Sky Governance are specified in Current Level 2 Ranked Delegates.
 
-###### A.1.5.3.1.2.3.1 - Current Level 2 Ranked Delegates [Core]  <!-- UUID: ebe4da3b-2674-4ee1-b7a8-3d7a4b37fe75 -->
+###### A.1.5.4.1.2.3.1 - Current Level 2 Ranked Delegates [Core]  <!-- UUID: ebe4da3b-2674-4ee1-b7a8-3d7a4b37fe75 -->
 
 The current Level 2 Ranked Delegate is Bonapublica.
 
-##### A.1.5.3.1.3 - Level 3 Ranked Delegates [Core]  <!-- UUID: 8b4d704c-4dcb-47c9-aadd-68255e61bb6a -->
+##### A.1.5.4.1.3 - Level 3 Ranked Delegates [Core]  <!-- UUID: 8b4d704c-4dcb-47c9-aadd-68255e61bb6a -->
 
 Level 3 Ranked Delegates are eligible for a lower budget and are expected to contribute to the Sky Protocol at a lower level relative to other Ranked Delegates.
 
-###### A.1.5.3.1.3.1 - Number Of Level 3 Ranked Delegates [Core]  <!-- UUID: 8833de34-7904-4624-8396-9ee27a4743fc -->
+###### A.1.5.4.1.3.1 - Number Of Level 3 Ranked Delegates [Core]  <!-- UUID: 8833de34-7904-4624-8396-9ee27a4743fc -->
 
 There are three (3) Level 3 Ranked Delegates.
 
-###### A.1.5.3.1.3.2 - Budget For Level 3 Ranked Delegates  [Core]  <!-- UUID: c51b75e1-8390-46c6-b455-3fd1b155af0d -->
+###### A.1.5.4.1.3.2 - Budget For Level 3 Ranked Delegates  [Core]  <!-- UUID: c51b75e1-8390-46c6-b455-3fd1b155af0d -->
 
 Each Level 3 Ranked Delegate is eligible for a budget of 48,000 USDS per year.
 
-###### A.1.5.3.1.3.3 - Selection Of Level 3 Ranked Delegates [Core]  <!-- UUID: c3ad0b9f-970a-4495-9640-2553e77ea8ab -->
+###### A.1.5.4.1.3.3 - Selection Of Level 3 Ranked Delegates [Core]  <!-- UUID: c3ad0b9f-970a-4495-9640-2553e77ea8ab -->
 
 The Level 3 Ranked Delegates are the Aligned Delegates with the greatest delegated Voting Power who are not Level 1 Ranked Delegates or Level 2 Ranked Delegates.
 
-###### A.1.5.3.1.3.3.0.3.1 - Delegated Voting Power - Element Annotation [Annotation]  <!-- UUID: 8012ae3b-bcd7-4fdc-a93c-8c33d770a7ca -->
+###### A.1.5.4.1.3.3.0.3.1 - Delegated Voting Power - Element Annotation [Annotation]  <!-- UUID: 8012ae3b-bcd7-4fdc-a93c-8c33d770a7ca -->
 
 The element "delegated Voting Power" refers to the cumulative SKY that has been delegated to an Aligned Delegate's Delegate Contract by SKY holders and Staking users.
 
-#### A.1.5.3.2 - Budget Accrual [Core]  <!-- UUID: e16ac70b-5c9c-4a45-8bae-852be2b5b5e0 -->
+#### A.1.5.4.2 - Budget Accrual [Core]  <!-- UUID: e16ac70b-5c9c-4a45-8bae-852be2b5b5e0 -->
 
 The budget for Ranked Delegates accrues on a continuous basis.
 
-#### A.1.5.3.3 - Budget Contingency [Core]  <!-- UUID: 82f74f4b-8c49-4b1e-9ae7-f6c5e23d3394 -->
+#### A.1.5.4.3 - Budget Contingency [Core]  <!-- UUID: 82f74f4b-8c49-4b1e-9ae7-f6c5e23d3394 -->
 
 A Ranked Delegate's allocated budget can be reduced if they do not fully comply with the participation requirements defined in this Article at Voting-Activity Metrics, Voting-Communication Metrics, and Emergency Communications Requirement.
 
-##### A.1.5.3.3.1 - Voting-Activity Metrics [Core]  <!-- UUID: ad1ef0f4-246f-4289-b5fc-ea5c91508ccf -->
+##### A.1.5.4.3.1 - Voting-Activity Metrics [Core]  <!-- UUID: ad1ef0f4-246f-4289-b5fc-ea5c91508ccf -->
 
 The budget allocated to a Ranked Delegate (RD) is modified based on their voting-activity metrics over the past six (6) months. This budget modification takes into account the overall participation of the Ranked Delegate in all votes they are eligible to cast as an Aligned Delegate (AD).
 
@@ -2100,11 +2098,11 @@ If an RD participates in less than 95% of all eligible votes within the last six
 
 Should an RD's voting activity fall to 75% of all eligible votes within the last six (6) months, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
 
-###### A.1.5.3.3.1.0.3.1  - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57a0be8f-c0d8-4d0c-bb99-ca3e63da5058 -->
+###### A.1.5.4.3.1.0.3.1  - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57a0be8f-c0d8-4d0c-bb99-ca3e63da5058 -->
 
 The element "proportional linear scale" describes a method where the budget reduction is directly proportional to the decline in voting-communication activity between 95% and 75%. Here, the pertinent range of voting-communication activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the RD budget decreases by **5%** for every percentage point drop in voting-communication activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).
 
-##### A.1.5.3.3.2 - Voting-Communication Metrics [Core]  <!-- UUID: f020d1bc-8905-46f8-b3a5-c31bcc0eec79 -->
+##### A.1.5.4.3.2 - Voting-Communication Metrics [Core]  <!-- UUID: f020d1bc-8905-46f8-b3a5-c31bcc0eec79 -->
 
 The budget allocated to a Ranked Delegate (RD) is modified based on their voting-communication metrics over the past six (6) months. An AD is required to provide an explanation for each vote they participate in. This budget modification takes into account the Ranked Delegate’s fulfillment of this voting-communication requirement in all votes they are eligible to cast as an Aligned Delegate (AD).
 
@@ -2124,35 +2122,35 @@ What feedback mechanisms should be in place to help ADs improve their explanatio
 
 What are the risks of not having explicit criteria for voting-communications? One is the potential failure of the Target Document's objective to ensure that ADs' voting activity is transparent to SKY holders who have delegated to that AD.
 
-###### A.1.5.3.3.2.0.3.1 - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57c35484-4c5f-4349-a7fe-097618b4213a -->
+###### A.1.5.4.3.2.0.3.1 - Proportional Linear Scale - Element Annotation [Annotation]  <!-- UUID: 57c35484-4c5f-4349-a7fe-097618b4213a -->
 
 The element "proportional linear scale" describes a method where the budget reduction is directly proportional to the decline in voting activity between 95% and 75%. Here, the pertinent range of voting activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the RD budget decreases by **5%** for every percentage point drop in voting activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).
 
-###### A.1.5.3.3.2.0.3.2 - Voting-Communication Metrics - Element Annotation [Annotation]  <!-- UUID: ca88baad-2457-4454-9e34-367156a59e78 -->
+###### A.1.5.4.3.2.0.3.2 - Voting-Communication Metrics - Element Annotation [Annotation]  <!-- UUID: ca88baad-2457-4454-9e34-367156a59e78 -->
 
 The element "voting-communication metrics" refers to the percentage of votes for which an Aligned Delegate provides the required written explanations or justifications of their casted votes in Governance Polls and Executive Votes. These written explanations are posted in the AD's Forum thread. 
 
 The Target Document’s function is to ensure that SKY holders delegating to the AD have full transparency to understand the AD's decision-making process.
 
-##### A.1.5.3.3.3 - Emergency Communications Requirement [Core]  <!-- UUID: 43db9780-6c0a-458a-94c2-5951b5b80787 -->
+##### A.1.5.4.3.3 - Emergency Communications Requirement [Core]  <!-- UUID: 43db9780-6c0a-458a-94c2-5951b5b80787 -->
 
 The budget stream allocated to a Ranked Delegate (RD) is modified based on their correct usage of required tools for emergency communications.
 
 Should an RD fail to correctly use the required communications tools, they become completely ineligible to receive RD income. If the RD is a Level 3 Ranked Delegate, their RD rank, and the budget eligibility associated with that rank, is transferred to the next highest-ranking AD, as determined by total amount of SKY delegated to their Delegate Contract.
 
-###### A.1.5.3.3.3.1 - Signal Account Requirement [Core]  <!-- UUID: 21d0b626-cd84-4237-8cab-d68f697c276d -->
+###### A.1.5.4.3.3.1 - Signal Account Requirement [Core]  <!-- UUID: 21d0b626-cd84-4237-8cab-d68f697c276d -->
 
 RDs are required to maintain an active Signal account to facilitate communications related to emergency / urgent situations. This requirement applies regardless of whether an RD has been appointed to the Emergency Response Group. See [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf). RDs must provide their Signal username to the Core Facilitator.
 
 The Core Facilitator is responsible for maintaining an internal registry of RDs' Signal accounts. Because the ranked RDs are continually changing, the Core Facilitator must ensure that the internal registry is maintained on a frequent basis. The Core Facilitator must check the active status of the RDs' Signal accounts by sending test messages and confirming the RDs' timely response; this must be done regularly, on a schedule known only to the Core Facilitator. If an RD fails to timely respond to the test messages, the Core Facilitator must remove them from RD status.
 
-#### A.1.5.3.4 - AD Buffer [Core]  <!-- UUID: 0625cdd6-f089-47ab-ad3e-209e14064951 -->
+#### A.1.5.4.4 - AD Buffer [Core]  <!-- UUID: 0625cdd6-f089-47ab-ad3e-209e14064951 -->
 
 The AD Buffer is an account of USDS that begins accumulating funds when an Aligned Delegate attains Ranked Delegate status. The budget allocated to the AD is credited to the AD Buffer. Funds within the AD Buffer cannot be accessed or spent until they reach a minimum threshold equivalent to one (1) month's budget allocation based on the current level of the Ranked Delegate.
 
 Once this threshold is met, the AD will receive payouts from the AD Buffer to the address that controls the AD Delegate Contract. ADs may use this budget for various purposes, including personal compensation, compensation for team members, research expenses, and other relevant activities.
 
-##### A.1.5.3.4.1 - AD Monthly Compensation Cycle [Core]  <!-- UUID: 688247c6-c4ed-49e3-96f3-c6a7475d89eb -->
+##### A.1.5.4.4.1 - AD Monthly Compensation Cycle [Core]  <!-- UUID: 688247c6-c4ed-49e3-96f3-c6a7475d89eb -->
 
 Aligned Delegates are eligible to receive payments from their AD Buffers in a monthly compensation cycle. The Core Facilitator is responsible for calculating the payout due to each Aligned Delegate.
 
@@ -2170,49 +2168,118 @@ This includes calculating:
 
 Are there risks that should be considered regarding the potential mismanagement or misuse of the AD budget? The Target Document lists several examples of permissible ways to use the AD budget, which indicates implicitly constraints, or disallowed expenditures. How would compliance with these guidelines be monitored?
 
-###### A.1.5.3.4.1.1 - One Month's Budget Allocation [Core]  <!-- UUID: 48a2c0f5-5f09-44d3-a930-47e6c12fb901 -->
+###### A.1.5.4.4.1.1 - One Month's Budget Allocation [Core]  <!-- UUID: 48a2c0f5-5f09-44d3-a930-47e6c12fb901 -->
 
 To arrive at the value of this one-month budget threshold in USDS, see Levels Of Ranked Delegates.
 
-##### A.1.5.3.4.2 - AD Buffer And Loss Of Budget [Core]  <!-- UUID: add0e307-9fbb-4871-9eab-c7bd18662e01 -->
+##### A.1.5.4.4.2 - AD Buffer And Loss Of Budget [Core]  <!-- UUID: add0e307-9fbb-4871-9eab-c7bd18662e01 -->
 
-If an AD is unranked for an entire month, any contents in its AD Buffer can be paid out in the next monthly compensation cycle, except as specified in [A.1.5.3.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Proposals](8eca5ff8-8798-465b-b86a-f9ee5c93f213).
+If an AD is unranked for an entire month, any contents in its AD Buffer can be paid out in the next monthly compensation cycle, except as specified in [A.1.5.4.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Proposals](8eca5ff8-8798-465b-b86a-f9ee5c93f213).
 
-###### A.1.5.3.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Proposals [Core]  <!-- UUID: 8eca5ff8-8798-465b-b86a-f9ee5c93f213 -->
+###### A.1.5.4.4.2.1 - Payout Limitations For ADs Triggering Atlas Edit Proposals [Core]  <!-- UUID: 8eca5ff8-8798-465b-b86a-f9ee5c93f213 -->
 
-If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), or [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886), respectively, no payouts may be made that would reduce their AD Buffer below the [A.1.5.3.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f) specified in Triggering Threshold until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
+If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743), or [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886), respectively, no payouts may be made that would reduce their AD Buffer below the [A.1.5.4.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f) specified in Triggering Threshold until the Proposal has been voted on or rejected by the Core Facilitator for misalignment.
 
-###### A.1.5.3.4.2.1.1 - Triggering Threshold [Core]  <!-- UUID: 2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f -->
+###### A.1.5.4.4.2.1.1 - Triggering Threshold [Core]  <!-- UUID: 2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f -->
 
-The Triggering Threshold is the amount of USDS that a Ranked Delegate must have in its AD Buffer to trigger Atlas Edit Weekly Cycle or Atlas Edit Monthly Cycle Proposals. See [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743) and [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886). The Triggering Threshold is equal to one (1) month of compensation based on the budget for Level 3 Ranked Delegates specified in [A.1.5.3.1.3.2 - Budget For Level 3 Ranked Delegates](c51b75e1-8390-46c6-b455-3fd1b155af0d).
+The Triggering Threshold is the amount of USDS that a Ranked Delegate must have in its AD Buffer to trigger Atlas Edit Weekly Cycle or Atlas Edit Monthly Cycle Proposals. See [A.1.10.2.1.3 - Triggering Requirement](cef09d74-efc6-45cc-a75b-1132dae9e743) and [A.1.11.2.1.2 - Triggering Requirement](7bbfd3b1-99b5-4c60-9292-68d776e03886). The Triggering Threshold is equal to one (1) month of compensation based on the budget for Level 3 Ranked Delegates specified in [A.1.5.4.1.3.2 - Budget For Level 3 Ranked Delegates](c51b75e1-8390-46c6-b455-3fd1b155af0d).
 
-##### A.1.5.3.4.3 - Deduction Of Penalties From AD Buffer [Core]  <!-- UUID: 4a29dd32-2333-471a-bea1-1aa0f5413453 -->
+##### A.1.5.4.4.3 - Deduction Of Penalties From AD Buffer [Core]  <!-- UUID: 4a29dd32-2333-471a-bea1-1aa0f5413453 -->
 
 If the Core Facilitator finds that an AD has conducted a misaligned act warranting financial penalties or derecognition, such penalties may be deducted from the AD’s Buffer.
 
-### A.1.5.4 - Kickbacks Prohibited [Section]  <!-- UUID: 45e794a0-5092-4dea-a0de-6f373228f760 -->
+##### A.1.5.4.5 - Ranked Delegate Voting Communication Review Responsibility [Core]  <!-- UUID: 5417359f-b6eb-4747-8fc7-3b2659e67a7f -->
+
+Level 1 and Level 2 Ranked Delegates are responsible for monitoring Aligned Delegate compliance with communication responsibilities (see [A.1.5.2.2 - Aligned Delegate Communication Responsibilities](3a8c2b92-3a23-48a0-87c4-ea1325bbbd98) as a condition of their compensated position.
+
+Monitoring reports are submitted via private communication to the Core Facilitator. When one Ranked Delegate flags a potential noncompliance issue, the Core Facilitator may prompt all Level 1 and Level 2 Ranked Delegates to submit individual assessments via private communication. Each Ranked Delegate must submit their assessment when prompted. The Core Facilitator may also select specific vote explanations and prompt all Level 1 and Level 2 Ranked Delegates to submit compliance assessments, regardless of whether a Ranked Delegate has independently flagged the explanation.
+
+Failure by a Level 1 or Level 2 Ranked Delegate to submit an assessment when prompted by the Core Facilitator is a Tier 1 (Procedural) breach as defined in [A.1.5.6.1 - Graduated Response Framework](2544a530-42f8-4699-b428-7c3568e1635e).
+
+### A.1.5.5 - Kickbacks Prohibited [Section]  <!-- UUID: 45e794a0-5092-4dea-a0de-6f373228f760 -->
 
 Aligned Delegates are not allowed to provide "kickbacks" from their compensation to SKY holders who delegate to them. Violation of this requirement constitutes misalignment.
 
-### A.1.5.5 - Swift Action Is Required From Facilitators To Redress AD Misalignment [Section]  <!-- UUID: 8953d5dc-1344-4fec-ae25-693204f64e38 -->
+### A.1.5.6 - Swift Action Is Required From Facilitators To Redress AD Misalignment [Section]  <!-- UUID: 8953d5dc-1344-4fec-ae25-693204f64e38 -->
 
 The Facilitator must act swiftly when an AD is suspected of breaching the requirements defined in this Article, or the requirements defined in [A.1.4 - Alignment Conservers](df4f9bfd-e743-44b5-9c62-9c5f10b15340).
 
-Any Scope Facilitator has the authority to formally raise an allegation of AD misalignment with the Core Facilitator, which then obligates the latter to initiate a formal adjudication pursuant to [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
+Any Facilitator has the authority to formally raise an allegation of AD misalignment with the Core Facilitator, which then obligates the latter to initiate a formal adjudication pursuant to [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
 
 A Facilitator's failure to act promptly in addressing credible evidence of AD misalignment or to mitigate the risk of misalignment spreading among ADs is considered an act of misalignment itself. Formal allegations of such failure must be adjudicated by the Core Facilitator pursuant to the same process referenced in the above-cited document.
 
-#### A.1.5.5.0.4.1 - Facilitators’ Authority To Raise Formal Allegation [Action Tenet]  <!-- UUID: c5146fa6-00ec-4543-9288-410570b5d588 -->
+#### A.1.5.6.0.3.1 - Credible Evidence - Element Annotation [Annotation]  <!-- UUID: 578ff359-eff1-406e-8cb9-5f4807598c10 -->
+
+The element "credible evidence" refers to the evidentiary threshold required for a formal allegation to proceed to adjudication. A formal allegation is supported by credible evidence where it identifies (a) the specific requirement or standard alleged to have been breached, (b) the factual basis for the allegation, and (c) any supporting evidence. Where an allegation fails to meet this threshold, the Core Facilitator may decline to initiate adjudication, provided the basis for declining is documented.
+
+#### A.1.5.6.0.3.2 - Act Swiftly - Element Annotation [Annotation]  <!-- UUID: 3a9d0848-e034-4d6b-8c4f-3d18e92edb71 -->
+
+The element "act swiftly" does not preclude reasonable delay where the Facilitator requires additional time to gather evidence, consult with the accused party, or seek guidance from Core GovOps. The Facilitator should document the basis for any such delay.
+
+#### A.1.5.6.0.4.1 - Facilitators’ Authority To Raise Formal Allegation [Action Tenet]  <!-- UUID: c5146fa6-00ec-4543-9288-410570b5d588 -->
 
 Any community member or Aligned Delegate with information pertinent to suspected Alignment Conserver misalignment may take their concerns directly to the Core Facilitator.  Upon receiving such information, the Core Facilitator must promptly conduct an initial review to quickly assess the credibility of the concern. Based on this preliminary review, the Core Facilitator must decide whether to initiate a formal adjudication process in accordance with [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
 
 Where the allegation of misalignment concerns the Core Facilitator, a community member can take their concerns to Core GovOps, who is then empowered to initiate the formal adjudication process.
 
-### A.1.5.6 - Mandate To Maintain High Level of Operational Security [Section]  <!-- UUID: c68b4c5d-adf7-49e6-850a-17a688664d40 -->
+#### A.1.5.6.1 - Graduated Response Framework [Core]  <!-- UUID: 2544a530-42f8-4699-b428-7c3568e1635e -->
+
+Breaches of Aligned Delegate requirements are categorized into two (2) tiers based on severity. The appropriate response is determined by the tier of the breach and the Aligned Delegate’s prior record.
+
+##### A.1.5.6.1.1 - Tier 1 (Procedural) Breaches [Core]  <!-- UUID: ec29c919-2294-45b3-a2cd-e48dd9422539 -->
+
+Tier 1 breaches are procedural in nature and include late vote explanations, minor communication lapses, and similar administrative failures that do not reflect on the Aligned Delegate’s integrity or judgment.
+
+For a first Tier 1 breach, the Core Facilitator issues a public notice to the Aligned Delegate on the Forum thread where the Aligned Delegate submitted their AD Recognition Submission Message (see [A.1.5.1.3.2 - Submission Message](83289ee2-2685-4ef7-99f1-c064541c9e9f)). The notice must specify the breach and the expected correction.
+
+A Tier 1 notice expires 12 months after issuance. A subsequent Tier 1 breach while two or more Tier 1 notices remain active is considered a Tier 2 breach.
+
+##### A.1.5.6.1.2 - Tier 2 (Integrity) Breaches [Core]  <!-- UUID: a95e4ab0-575e-427c-ac6a-251f8e376b75 -->
+
+Tier 2 breaches involve fundamental failures of integrity that are incompatible with the Aligned Delegate role. Tier 2 breaches include:
+
+1. Unsubstantiated public accusations against governance participants and inflammatory language directed at governance participants or processes that does not constitute good-faith criticism;
+2. Proven dishonesty in governance communications;
+3. Collusion or coordination intended to manipulate governance outcomes;
+4. Acceptance of undisclosed compensation (kickbacks) for governance actions;
+5. Operational security violations that compromise governance security (see [A.1.5.7 - Mandate To Maintain High Level of Operational Security](c68b4c5d-adf7-49e6-850a-17a688664d40));
+6. Voting against an Executive Vote that only contains content already approved in the Atlas and does not fail Spell validation; and
+7. Estoppel violations as defined in [A.1.5.6.2 - Voting Estoppel Rule](c1a5d22a-c30c-4445-80eb-caf3bd908d28).
+
+A Tier 2 breach results in immediate derecognition regardless of the Aligned Delegate’s prior record.
+
+###### A.1.5.6.1.2.0.3.1 - Good-Faith Criticism - Element Annotation [Annotation]  <!-- UUID: 3cd0735f-c1e5-4592-8878-674bbcc9d7ac -->
+
+The element "good-faith criticism" refers to criticism that (a) is framed in neutral or professional terms, (b) includes supporting facts or is clearly identified as opinion, and (c) does not constitute a personal attack. Good-faith criticism of governance decisions, processes, or participants is not a Tier 2 breach. This safe harbor protects legitimate governance discourse including dissent, whistleblowing, and strong disagreement.
+
+###### A.1.5.6.1.3 - Aligned Delegate Breach Record [Active Data Controller]  <!-- UUID: 32862df8-a277-48a3-bb0f-40ed1e051dfd -->
+
+Notices and warnings issued under the Graduated Response Framework are recorded by adding an entry to the Active Data list in [A.1.5.6.1.3.0.6.1 - Aligned Delegate Breach Registry](1ddd9cf6-3f93-4a33-8c1d-80405eec1ffb).
+
+The Active Data is updated as follows:
+
+- The Responsible Party is the Core Facilitator.
+- The Update Process must follow the protocol for 'Alignment Conserver Changes'.
+
+###### A.1.5.6.1.3.0.6.1 - Aligned Delegate Breach Registry [Active Data]  <!-- UUID: 1ddd9cf6-3f93-4a33-8c1d-80405eec1ffb -->
+
+Breaches of the Graduated Response Framework are recorded herein.
+
+#### A.1.5.6.2 - Voting Estoppel Rule [Core]  <!-- UUID: c1a5d22a-c30c-4445-80eb-caf3bd908d28 -->
+
+An Aligned Delegate who votes in favor of a proposal is deemed to have read and understood the key governance implications of that proposal at the time of voting. This creates a bright-line test: the act of voting in favor constitutes affirmative acknowledgment of the proposal’s contents and consequences.
+
+Claims of ignorance, misunderstanding, or failure to read proposal text shall not be accepted as defenses in any subsequent governance proceeding for votes cast in favor. An Aligned Delegate who later claims they did not understand what they voted for commits a Tier 2 breach under the Graduated Response Framework. See [A.1.5.6.1 - Graduated Response Framework](2544a530-42f8-4699-b428-7c3568e1635e).
+
+This rule applies only to votes cast in favor. Aligned Delegates who vote against or abstain retain the ability to raise concerns about proposal clarity or their understanding of its implications.
+
+The estoppel rule does not apply where the proposal text was materially misleading at the time of voting, or where critical facts bearing on the proposal’s governance implications emerged after the vote concluded. The burden of establishing that the proposal text was misleading or that newly discovered facts are material rests with the Aligned Delegate.
+
+### A.1.5.7 - Mandate To Maintain High Level of Operational Security [Section]  <!-- UUID: c68b4c5d-adf7-49e6-850a-17a688664d40 -->
 
 Aligned Delegates (ADs) are required to maintain a high level of operational security, adhering to best practices in privacy, cybersecurity, and physical resilience. These measures must be implemented at a level that sufficiently safeguards the Sky Ecosystem from physical risk posed by the potential for attacks against ADs. ADs’ operational security protocols should be regularly reviewed and updated to address emerging risks and ensure continuous protection of the ecosystem.
 
-### A.1.5.7 - Derecognition Required Where AD Operational Security Is Compromised [Section]  <!-- UUID: 7b0da718-62c1-4718-8d9d-47faa1647c6f -->
+### A.1.5.8 - Derecognition Required Where AD Operational Security Is Compromised [Section]  <!-- UUID: 7b0da718-62c1-4718-8d9d-47faa1647c6f -->
 
 All Facilitators must act swiftly to investigate ADs who are suspected of breaching their requirements regarding operational security and privacy.
 
@@ -2220,19 +2287,19 @@ Any Scope Facilitator has the authority to formally raise an allegation concerni
 
 If there is clear evidence or significant suspicion that the operational security of an AD has been compromised, or that they have failed to follow best practice or otherwise made operational security errors, the Core Facilitator must promptly derecognize the AD.
 
-#### A.1.5.7.0.4.1 - Promptly Derecognized - Mandated Timeline For AD Derecognition For Operational Security Breach [Action Tenet]  <!-- UUID: 36e7c024-0156-4941-a9f2-f53ce25ef39f -->
+#### A.1.5.8.0.4.1 - Promptly Derecognized - Mandated Timeline For AD Derecognition For Operational Security Breach [Action Tenet]  <!-- UUID: 36e7c024-0156-4941-a9f2-f53ce25ef39f -->
 
 The element 'promptly' in the Target Document means 'as soon as is reasonably possible.'
 
 To adhere to this commitment, the Core Facilitator must derecognize the AD within a general timeframe of 1-2 calendar days upon conclusion of an investigation that finds against the AD for breach of operational security. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the Facilitators’ control.
 
-### A.1.5.8 - Facilitators Must Err On Side Of Caution [Section]  <!-- UUID: 09efe31d-28ae-47cc-a81e-caf4f669df95 -->
+### A.1.5.9 - Facilitators Must Err On Side Of Caution [Section]  <!-- UUID: 09efe31d-28ae-47cc-a81e-caf4f669df95 -->
 
 Facilitators are required to err on the side of caution and take action whenever there is any real possibility that the operational security of an Aligned Delegate (AD) is compromised. Facilitators are afforded significant discretion in making judgement calls related to operational security standards for ADs. 
 
 Abuse of this power is severe misalignment. Any allegations of this abuse of power must be adjudicated by the Core Facilitator pursuant to the process defined in [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
 
-### A.1.5.9 - Emergency Contact Mechanism [Section]  <!-- UUID: d5d4cc4a-8877-4931-861f-056793387b92 -->
+### A.1.5.10 - Emergency Contact Mechanism [Section]  <!-- UUID: d5d4cc4a-8877-4931-861f-056793387b92 -->
 
 Aligned Delegates must safeguard the security of the Sky Protocol through the Executive Vote process. To deal with emergencies related to Executive Votes, ADs are required to sign up for the approved emergency contact mechanism specified in [A.1.8.1.3.2.2 - Approved Emergency Contact Mechanisms](57006d4e-cd91-4565-97b5-5fab73fa94d5). 
 
@@ -2420,6 +2487,12 @@ The team members assigned to the Emergency Response Group should not be disclose
 ###### A.1.8.1.2.3.1 - Ecosystem Actor Embedding [Core]  <!-- UUID: b41dc314-3bd6-49bb-a454-ef7a964e1a77 -->
 
 As an extension of, and pursuant to [A.1.14.1.2 - Governance Security & Ecosystem Actor Embedding](12286b6c-0231-40e3-ab3f-234bc0249216), Ecosystem Actor Atlas Axis is permitted to assign more than two (2) of its team members to the permissioned Emergency Response Communication Channels defined in [A.1.8.1.3 - Emergency Response Communication Channels](18418289-ada8-401d-a992-7e38b235c866), as well as any Emergency Response calls.
+
+##### A.1.8.1.2.4 - Aligned Delegate Membership In Emergency Response Group [Core]  <!-- UUID: d77ed6ca-518d-49bb-b400-a990d263f8d8 -->
+
+Aligned Delegate membership in the Emergency Response Group is not automatic based on amount of delegated SKY or Ranked Delegate status. An Aligned Delegate seeking to participate in emergency response must be reviewed and approved by Core GovOps prior to joining the Emergency Response Group.
+
+Core GovOps has discretion to approve or deny Aligned Delegate participation in the Emergency Response Group based on their assessment of the Aligned Delegate's competence and reliability.
 
 #### A.1.8.1.3 - Emergency Response Communication Channels [Core]  <!-- UUID: 18418289-ada8-401d-a992-7e38b235c866 -->
 
@@ -5452,7 +5525,7 @@ The Author of an Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" 
 
 ##### A.1.10.2.1.3 - Triggering Requirement [Core]  <!-- UUID: cef09d74-efc6-45cc-a75b-1132dae9e743 -->
 
-An Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "AEW Proposal") can proceed to a vote only if it is triggered by a Ranked Delegate whose AD Buffer contains at least the Triggering Threshold (see [A.1.5.3.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f)) at the time of triggering the Proposal. The Core Facilitator is responsible for confirming that these requirements are met.
+An Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "AEW Proposal") can proceed to a vote only if it is triggered by a Ranked Delegate whose AD Buffer contains at least the Triggering Threshold (see [A.1.5.4.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f)) at the time of triggering the Proposal. The Core Facilitator is responsible for confirming that these requirements are met.
 
 A Ranked Delegate may trigger a Proposal they authored, provided they meet the Triggering Threshold. To trigger a Proposal, the Ranked Delegate must post a reply to the Author's Weekly Cycle Proposal on the Forum. The Ranked Delegate’s post should signal their intent to trigger the Weekly Cycle Proposal.
 
@@ -5564,7 +5637,7 @@ The author of an Atlas Edit Monthly Cycle proposal ("proposal", "Atlas Edit Prop
 
 ##### A.1.11.2.1.2 - Triggering Requirement [Core]  <!-- UUID: 7bbfd3b1-99b5-4c60-9292-68d776e03886 -->
 
-An Atlas Edit Monthly Cycle Proposal can proceed to verification by the Core Facilitator only if it is triggered by a Ranked Delegate whose AD Buffer contains at least the Triggering Threshold (see [A.1.5.3.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f)) at the time of triggering the Proposal. The Core Facilitator is responsible for confirming that these requirements are met.
+An Atlas Edit Monthly Cycle Proposal can proceed to verification by the Core Facilitator only if it is triggered by a Ranked Delegate whose AD Buffer contains at least the Triggering Threshold (see [A.1.5.4.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f)) at the time of triggering the Proposal. The Core Facilitator is responsible for confirming that these requirements are met.
 
 A Ranked Delegate may trigger a Proposal they authored, provided they meet the Triggering Threshold. To trigger a Proposal, the Ranked Delegate must post a reply to the Author's Monthly Cycle Proposal on the Forum. The Ranked Delegate should indicate their intent to trigger the Monthly Cycle Proposal.
 
