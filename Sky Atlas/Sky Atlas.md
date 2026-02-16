@@ -29450,6 +29450,10 @@ The Ethereum Mainnet Instances Directory of the Galaxy Protocol with `Active` St
 
 This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Galaxy Arch CLOs Instance Configuration Document](61afae62-1210-4d80-aa6c-cdb26ef0a287).
 
+###### A.6.1.1.2.2.6.1.1.2.1.9.2 - Ethereum Mainnet - Ethereum Mainnet - Galaxy Warehouse Instance Configuration Document Location [Core]  <!-- UUID: ad3557aa-ec4e-4cc5-8673-f3aa5818a288 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.9.2 - Ethereum Mainnet - Galaxy Warehouse Instance Configuration Document](2e3e057e-0b48-4e3f-b03d-1ed84299ccfc).
+
 ###### A.6.1.1.2.2.6.1.1.2.1.10 - Ripple [Core]  <!-- UUID: 39843e09-154a-497a-8824-54393ea15915 -->
 
 The Ethereum Mainnet Instances Directory of the Ripple Protocol with `Active` Status are stored herein.
@@ -29509,6 +29513,10 @@ The Base Instances Directory of the Morpho Protocol with `Active` Status are sto
 ###### A.6.1.1.2.2.6.1.1.2.3.1.1 - Base - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document Location [Core]  <!-- UUID: be020cd4-73d4-4fc3-ae39-d38b252defd0 -->
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.3.1.1 - Base - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document](43d78089-ba75-480c-a277-edaa6eaa6336).
+
+###### A.6.1.1.2.2.6.1.1.2.3.1.2 - Base - Steakhouse Prime Instant USDC Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 363c5d9f-9486-4091-8ed6-f909f66ead65 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.3.2 - Base - Steakhouse Prime Instant USDC Morpho Vault V2 Instance Configuration Document](d47ec9c3-b308-453a-989a-7396504f6a99).
 
 ###### A.6.1.1.2.2.6.1.1.2.4 - Plasma [Core]  <!-- UUID: 00ec8ca9-deee-45b2-9acc-f24560ad4a13 -->
 
@@ -32949,6 +32957,99 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
+###### A.6.1.1.2.2.6.1.3.1.9.2 - Ethereum Mainnet - Galaxy Warehouse Instance Configuration Document [Core]  <!-- UUID: 2e3e057e-0b48-4e3f-b03d-1ed84299ccfc -->
+
+The documents herein contain the Instance Configuration Document for the Galaxy Warehouse Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 91f2537e-d391-4e7a-9206-5f162cd6325a -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2 - Parameters [Core]  <!-- UUID: cdcd20ed-3cc9-457f-8f26-9a3770146089 -->
+
+The documents herein define the parameters of the Galaxy Warehouse Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 02ee19aa-2e46-4d77-90ac-a37bb0163b83 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.1.1 - Network [Core]  <!-- UUID: 06807734-cc8c-4e05-a069-df86fe101a0a -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 39071e33-187b-46e3-b1dc-54c70e98e742 -->
+
+Galaxy
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: d8696c8d-94dc-4783-9da1-be62d2d7962c -->
+
+USDC
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.1.4 - Token [Core]  <!-- UUID: 40cf48fc-fa14-4853-91db-334f0d5e1c2b -->
+
+N/A
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.2 - Contract Addresses [Core]  <!-- UUID: 3874bdfc-77f3-4f2c-ae91-c4a4c0337c8e -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.2.1 - Deposit Address (Mainnet) [Core]  <!-- UUID: 51575781-6189-4bf3-9d6b-ae76fabbc2f7 -->
+
+`0x3E23311f9FF660E3c3d87E4b7c207b3c3D7e04f0`
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 39b83634-f5b2-4b7c-9e98-d5616fad62b2 -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: cc6e09bc-a2d0-4e4b-bf94-4fccebbd5995 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 8e16ecba-2c99-49f7-b979-a0108194873f -->
+
+The inflow RateLimitID is: `0x110ff25f20e1f05ba3e82592752f6cd7e0ca645023d71d143b970e3689efc9f9`.
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: c2111eab-6850-46e1-9543-fe5d8966c9da -->
+
+The outflow RateLimitID is: N/A.
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.4 - Rate Limits [Core]  <!-- UUID: 306c8538-fda8-4d3f-bf1d-ec249e4292e9 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 282c02b2-9b9d-4934-be9d-5228d50a0918 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: c38e4cd8-1be2-475d-8670-848d8eba3078 -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: N/A
+  
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 68cad9ca-620b-4aef-b47f-781d01640c87 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.5.1 - Interim Deployment [Core]  <!-- UUID: 09aa5dea-d9d1-4f8c-9ae4-c76aaa35d8a8 -->
+
+This Instance is currently defined as an Interim Deployment (see [A.1.9.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 911d3d77-605c-4294-b61e-a6da21004b51 -->
+
+The maximum allocation for Interim Deployments in Galaxy Warehouse is $20 million.
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.5.1.2 - Rate Limits [Core]  <!-- UUID: 202c9218-75c4-45df-ae0a-a23c6e949666 -->
+
+The Rate Limits for this Interim Deployment are defined in [A.6.1.1.2.2.6.1.3.1.9.2.2.4 - Rate Limits](306c8538-fda8-4d3f-bf1d-ec249e4292e9).
+
+###### A.6.1.1.2.2.6.1.3.1.9.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 6a1719f2-bd99-4407-addc-dc9e7a84bf58 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
 ###### A.6.1.1.2.2.6.1.3.1.10 - Ripple [Core]  <!-- UUID: 9b416c43-4ed8-4c13-ba9f-5f12c9c3e7a0 -->
 
 The Ethereum Mainnet Instances of the Ripple Protocol with `Active` Status are stored herein.
@@ -33661,6 +33762,93 @@ The outflow rate limits are:
 The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.2.2.6.1.3.3.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: a274fcdf-dc71-4b78-be4d-e41d1622e076 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.3.2 - Base - Steakhouse Prime Instant USDC Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: d47ec9c3-b308-453a-989a-7396504f6a99 -->
+
+The documents herein contain the Instance Configuration Document for the Steakhouse Prime Instant USDC Morpho Vault V2 Instance.
+
+###### A.6.1.1.2.2.6.1.3.3.2.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 7bc64313-cdc1-4877-947e-df6c7c22a28e -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.3.3.2.2 - Parameters [Core]  <!-- UUID: 8a19e28f-444a-4603-8905-0c6b1bfa9155 -->
+
+The documents herein define the parameters of the Steakhouse Prime Instant USDC Morpho Vault V2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 8f4a9995-4963-4d49-8694-725617a2c074 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.1.1 - Network [Core]  <!-- UUID: 1dae9d3c-8010-48d5-9ee4-620f72b345cd -->
+
+Base
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.1.2 - Target Protocol [Core]  <!-- UUID: c9751457-f617-4bc3-bf8a-0fe0ac7d086f -->
+
+Morpho
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 3acf8d38-4eae-4ceb-b482-4754d2aafad2 -->
+
+USDC
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.1.4 - Token [Core]  <!-- UUID: fb07802c-ae95-4214-9762-db19fae2b671 -->
+
+steakUSDC
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.2 - Contract Addresses [Core]  <!-- UUID: 9a607af8-7f0a-4686-98c2-f62afc557f51 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.2.1 - Token Address [Core]  <!-- UUID: e85ae1d4-c31d-4eae-a05c-6a1844918cfd -->
+
+`0xbeef0e0834849aCC03f0089F01f4F1Eeb06873C9`
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 889f7585-dcca-4e87-a9ca-bb1308115252 -->
+
+`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: a4d71080-74e8-48dd-ba3f-1810b4ba08c4 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 3269cc14-28bd-405e-8d72-dd22528573cf -->
+
+The inflow RateLimitID is: `0xcc33156879fb03deee37b5ff243fa9afa95b94d13a2ab710f8096c0b5f053f3b`.
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 35e4b715-6409-490c-b42d-c1a24611d452 -->
+
+The outflow RateLimitID is: `0x6cbf2a3469ddd029ba9744291f720dfed49b9d475ef870978c70f12ee6831646`.
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.4 - Rate Limits [Core]  <!-- UUID: 881815fb-a206-4e1a-9852-c701d5ba4e92 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 0ebb71f7-71c7-4668-9e70-1771e58cec79 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 20,000,000 USDC
+- `slope`: 20,000,000 USDC per day
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: bec9a1fa-aace-47eb-a663-08d1abd70b60 -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.4.3 - Max Exchange Rate [Core]  <!-- UUID: 3b96571e-bd04-44dd-b729-3c59288d80b1 -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 USDC.
+
+- `setMaxExchangeRate(STEAKHOUSE_PRIME_INSTANT_USDC_V2, 1e18, 2e6)`
+
+###### A.6.1.1.2.2.6.1.3.3.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 9418d9ac-66d4-41c7-80cc-b0de328ac09c -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.3.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: aac6839f-b2a7-40f6-9fe3-c2366a0aa957 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
