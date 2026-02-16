@@ -1996,7 +1996,7 @@ The Core Facilitator may issue a Tier 1 (Procedural) notice to an Aligned Delega
 
 This provision does not establish a specific numerical threshold for excessive abstentions. Rather, the Core Facilitator exercises reasonable judgment in identifying patterns inconsistent with the active stewardship expected of Aligned Delegates.
 
-##### A.1.5.2.2 - Aligned Delegate Communication Responsibilities [Core]  <!-- UUID: 3a8c2b92-3a23-48a0-87c4-ea1325bbbd98 -->
+#### A.1.5.2.2 - Aligned Delegate Communication Responsibilities [Core]  <!-- UUID: 3a8c2b92-3a23-48a0-87c4-ea1325bbbd98 -->
 
 Aligned Delegates must provide substantive reasoning when explaining their votes. A compliant vote explanation must:
 
@@ -2188,7 +2188,7 @@ The Triggering Threshold is the amount of USDS that a Ranked Delegate must have 
 
 If the Core Facilitator finds that an AD has conducted a misaligned act warranting financial penalties or derecognition, such penalties may be deducted from the AD’s Buffer.
 
-##### A.1.5.4.5 - Ranked Delegate Voting Communication Review Responsibility [Core]  <!-- UUID: 5417359f-b6eb-4747-8fc7-3b2659e67a7f -->
+#### A.1.5.4.5 - Ranked Delegate Voting Communication Review Responsibility [Core]  <!-- UUID: 5417359f-b6eb-4747-8fc7-3b2659e67a7f -->
 
 Level 1 and Level 2 Ranked Delegates are responsible for monitoring Aligned Delegate compliance with communication responsibilities (see [A.1.5.2.2 - Aligned Delegate Communication Responsibilities](3a8c2b92-3a23-48a0-87c4-ea1325bbbd98) as a condition of their compensated position.
 
@@ -2252,7 +2252,7 @@ A Tier 2 breach results in immediate derecognition regardless of the Aligned Del
 
 The element "good-faith criticism" refers to criticism that (a) is framed in neutral or professional terms, (b) includes supporting facts or is clearly identified as opinion, and (c) does not constitute a personal attack. Good-faith criticism of governance decisions, processes, or participants is not a Tier 2 breach. This safe harbor protects legitimate governance discourse including dissent, whistleblowing, and strong disagreement.
 
-###### A.1.5.6.1.3 - Aligned Delegate Breach Record [Active Data Controller]  <!-- UUID: 32862df8-a277-48a3-bb0f-40ed1e051dfd -->
+##### A.1.5.6.1.3 - Aligned Delegate Breach Record [Active Data Controller]  <!-- UUID: 32862df8-a277-48a3-bb0f-40ed1e051dfd -->
 
 Notices and warnings issued under the Graduated Response Framework are recorded by adding an entry to the Active Data list in [A.1.5.6.1.3.0.6.1 - Aligned Delegate Breach Registry](1ddd9cf6-3f93-4a33-8c1d-80405eec1ffb).
 
@@ -12678,7 +12678,7 @@ The terms and conditions of frontends operated by Sky must be updated to include
 
 Primes must develop processes to register contracts they deploy with Safe Harbor. Primes must include the terms and conditions specified in Exhibit D of the Safe Harbor agreement in all frontends that they operate.
 
-##### A.2.11.1.2.6 -Agreement Fact Page [Core]  <!-- UUID: 258e85f5-df03-45c5-874e-c2c7fa0fbe87 -->
+##### A.2.11.1.2.6 - Agreement Fact Page [Core]  <!-- UUID: 258e85f5-df03-45c5-874e-c2c7fa0fbe87 -->
 
 **Safe Harbor** constitutes the "Agreement Fact Page" as specified in the Safe Harbor Agreement.
 
@@ -40835,11 +40835,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.4.2.5.2.2.2.3.4.0.6.1- List Of Integration Boost Payments [Active Data]  <!-- UUID: af376688-bb97-4fe1-bda9-58a59f735a69 -->
+###### A.6.1.1.4.2.5.2.2.2.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: af376688-bb97-4fe1-bda9-58a59f735a69 -->
 
 The Integration Boost Payments are:
 
-###### A.6.1.1.4.2.5.2.2.3 Morpho Instance Configuration Document [Core]  <!-- UUID: c18c7746-de43-492b-82f6-6735effa6508 -->
+###### A.6.1.1.4.2.5.2.2.3 - Morpho Instance Configuration Document [Core]  <!-- UUID: c18c7746-de43-492b-82f6-6735effa6508 -->
 
 The documents herein contain the Instance Configuration Document for the Morpho Integration Boost Primitive Instance.
 
