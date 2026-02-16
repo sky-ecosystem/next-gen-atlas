@@ -17170,43 +17170,43 @@ The stUSDS BEAM parameters for the `duty` stUSDS parameter are as follows:
 
 All stUSDS BEAM parameters can be modified by Core GovOps, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
 
-###### A.4.4.1.3.8.3.1 - Operators [Core]  <!-- UUID: 8fd15f15-c8cd-480d-86b7-cad524cfa9f1 -->
+###### A.4.4.1.3.8.4 - Operators [Core]  <!-- UUID: 8fd15f15-c8cd-480d-86b7-cad524cfa9f1 -->
 
 The stUSDS BEAM Operators are whitelisted entities that can directly alter the stUSDS parameters set by the stUSDS BEAM. Changes to stUSDS parameters are limited by the `max`, `min`, `step`, and `tau` parameters. Operators can be added or removed by an Executive Vote.
 
-###### A.4.4.1.3.8.3.1.1 - Operator Multisig [Core]  <!-- UUID: ee9e13e0-23ca-41a3-a1d1-0f1181882c84 -->
+###### A.4.4.1.3.8.4.1 - Operator Multisig [Core]  <!-- UUID: ee9e13e0-23ca-41a3-a1d1-0f1181882c84 -->
 
 The Operator Multisig is an Operator of the stUSDS BEAM and is controlled by Core GovOps.
 
-###### A.4.4.1.3.8.3.1.1.1 - Operator Multisig Address [Core]  <!-- UUID: 45679e08-a575-444a-8fae-d7ef6472b073 -->
+###### A.4.4.1.3.8.4.1.1 - Operator Multisig Address [Core]  <!-- UUID: 45679e08-a575-444a-8fae-d7ef6472b073 -->
 
 The address of the Operator Multisig on the Ethereum Mainnet is `0xBB865F94B8A92E57f79fCc89Dfd4dcf0D3fDEA16`.
 
-###### A.4.4.1.3.8.3.1.1.2 - Operator Multisig Required Number Of Signers [Core]  <!-- UUID: 88438441-b858-4a0a-b1bb-f79cc19e7490 -->
+###### A.4.4.1.3.8.4.1.2 - Operator Multisig Required Number Of Signers [Core]  <!-- UUID: 88438441-b858-4a0a-b1bb-f79cc19e7490 -->
 
 The Operator Multisig currently has a 2/3 signing requirement.
 
-###### A.4.4.1.3.8.3.1.1.3 - Operator Multisig Signers [Core]  <!-- UUID: a9a7503a-d4e2-474f-bbbe-51b45385a00f -->
+###### A.4.4.1.3.8.4.1.3 - Operator Multisig Signers [Core]  <!-- UUID: a9a7503a-d4e2-474f-bbbe-51b45385a00f -->
 
 The signers of the Operator Multisig are three (3) addresses controlled by Core GovOps.
 
-###### A.4.4.1.3.8.3.1.1.4 - Operator Multisig Usage Standards [Core]  <!-- UUID: 71e28a28-82b9-43eb-9e93-6aee2d5bbbc0 -->
+###### A.4.4.1.3.8.4.1.4 - Operator Multisig Usage Standards [Core]  <!-- UUID: 71e28a28-82b9-43eb-9e93-6aee2d5bbbc0 -->
 
-The signers of the Operator Multisig must use the multisig to operate the stUSDS BEAM in accordance with the instructions specified in [A.4.4.1.3.8.3.2.2 - Manual Parameter Updates By Operator Multisig](944c2573-1184-4d6b-bbe9-0b84c11956cf).
+The signers of the Operator Multisig must use the multisig to operate the stUSDS BEAM in accordance with the instructions specified in [A.4.4.1.3.8.5.2 - Manual Parameter Updates By Operator Multisig](944c2573-1184-4d6b-bbe9-0b84c11956cf).
 
-###### A.4.4.1.3.8.3.1.1.5 - Operator Multisig Modification [Core]  <!-- UUID: 303ccb86-1411-409f-a3e4-1193e0aa7b9a -->
+###### A.4.4.1.3.8.4.1.5 - Operator Multisig Modification [Core]  <!-- UUID: 303ccb86-1411-409f-a3e4-1193e0aa7b9a -->
 
 Core GovOps can change the signers of the Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
 
-###### A.4.4.1.3.8.3.1.2 - Operator Hot Wallet [Core]  <!-- UUID: bddf50ca-02ef-4991-abb0-53e09831ee6f -->
+###### A.4.4.1.3.8.4.2 - Operator Hot Wallet [Core]  <!-- UUID: bddf50ca-02ef-4991-abb0-53e09831ee6f -->
 
-The Operator Hot Wallet is a hot wallet controlled by a bot that will update stUSDS parameters on an automated basis as specified in [A.4.4.1.3.8.3.2.3 - Automatic Updates By Operator Hot Wallet](a6e1735f-bd82-4ab6-982b-218013c3455f). The wallet is controlled by Ecosystem Actor TechOps Services under the supervision of Core GovOps in consultation with the Core Council Risk Advisor. The addition of the Hot Wallet as an Operator of the stUSDS BEAM is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+The Operator Hot Wallet is a hot wallet controlled by a bot that will update stUSDS parameters on an automated basis as specified in [A.4.4.1.3.8.5.3 - Automatic Updates By Operator Hot Wallet](a6e1735f-bd82-4ab6-982b-218013c3455f). The wallet is controlled by Ecosystem Actor TechOps Services under the supervision of Core GovOps in consultation with the Core Council Risk Advisor. The addition of the Hot Wallet as an Operator of the stUSDS BEAM is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
-###### A.4.4.1.3.8.3.1.2.1 - Operator Hot Wallet Address [Core]  <!-- UUID: bc29e096-972c-4bcc-b589-dad148374d33 -->
+###### A.4.4.1.3.8.4.2.1 - Operator Hot Wallet Address [Core]  <!-- UUID: bc29e096-972c-4bcc-b589-dad148374d33 -->
 
 The address of the Operator Hot Wallet on the Ethereum Mainnet is `0xd06C14820048de2Fb7c9de611EcFdaCE18eC8896`.
 
-###### A.4.4.1.3.8.3.1.2.2 - Update Of stUSDS Parameters For Hot Wallet [Core]  <!-- UUID: 877f2d58-df39-4cb9-97cc-e529a5c62146 -->
+###### A.4.4.1.3.8.4.2.2 - Update Of stUSDS Parameters For Hot Wallet [Core]  <!-- UUID: 877f2d58-df39-4cb9-97cc-e529a5c62146 -->
 
 When the Operator Hot Wallet is added as an Operator of the stUSDS Rate, the stUSDS BEAM parameters must be updated as follows:
     
@@ -17215,15 +17215,15 @@ When the Operator Hot Wallet is added as an Operator of the stUSDS Rate, the stU
 
 These changes are authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
-###### A.4.4.1.3.8.3.1.3 - Operator Update Process [Core]  <!-- UUID: 64d7e377-9870-4563-a073-768bb7d259a4 -->
+###### A.4.4.1.3.8.4.3 - Operator Update Process [Core]  <!-- UUID: 64d7e377-9870-4563-a073-768bb7d259a4 -->
 
 stUSDS BEAM Operators can be modified by Core GovOps, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
 
-###### A.4.4.1.3.8.3.2 - Update Process [Core]  <!-- UUID: 7e58f5eb-c339-4f04-aca8-681e9acd0752 -->
+###### A.4.4.1.3.8.5 - Update Process [Core]  <!-- UUID: 7e58f5eb-c339-4f04-aca8-681e9acd0752 -->
 
 The stUSDS parameters set by the stUSDS BEAM are managed by the stUSDS BEAM Operators as specified in the documents herein.
 
-###### A.4.4.1.3.8.3.2.1 - Initial Parameter Values Set In Executive Vote [Core]  <!-- UUID: 13c51e11-8ea3-4d4e-b631-2e99c559a914 -->
+###### A.4.4.1.3.8.5.1 - Initial Parameter Values Set In Executive Vote [Core]  <!-- UUID: 13c51e11-8ea3-4d4e-b631-2e99c559a914 -->
 
 The initial parameters set by the stUSDS BEAM in the Executive Vote deploying stUSDS and the stUSDS BEAM are:
     
@@ -17232,17 +17232,17 @@ The initial parameters set by the stUSDS BEAM in the Executive Vote deploying st
 ◦ `cap` - 200,000,000 USDS    
 ◦ `line` - 200,000,000 USDS
 
-###### A.4.4.1.3.8.3.2.2 - Manual Parameter Updates By Operator Multisig [Core]  <!-- UUID: 944c2573-1184-4d6b-bbe9-0b84c11956cf -->
+###### A.4.4.1.3.8.5.2 - Manual Parameter Updates By Operator Multisig [Core]  <!-- UUID: 944c2573-1184-4d6b-bbe9-0b84c11956cf -->
 
 Initially, the stUSDS parameters set by the stUSDS BEAM are managed by the Operator Multisig based on instructions provided by the Core Council Risk Advisor.
 
-###### A.4.4.1.3.8.3.2.2.1 - Instructions By Core Council Risk Advisor [Core]  <!-- UUID: cfd01132-42f2-46c9-867c-bd9aa62bf78a -->
+###### A.4.4.1.3.8.5.2.1 - Instructions By Core Council Risk Advisor [Core]  <!-- UUID: cfd01132-42f2-46c9-867c-bd9aa62bf78a -->
 
 The Core Council Risk Advisor will develop and maintain a stUSDS Dashboard. The stUSDS Dashboard must display the recommended values for each of the stUSDS parameters as of any point in time. The stUSDS Dashboard is located at [https://stusds.herddefi.com/](https://stusds.herddefi.com/).
 
-The recommended values for each of the stUSDS parameters should be based on the methodology specified in [A.4.4.1.3.8.3.3 - Update Methodology](e37d1045-215d-4f85-bbc3-70aa2c1b818b) but the Core Council Risk Advisor may deviate from this methodology if they determine that another methodology is advisable to support the growth of USDS and the interests of the Sky Protocol.
+The recommended values for each of the stUSDS parameters should be based on the methodology specified in [A.4.4.1.3.8.6 - Update Methodology](e37d1045-215d-4f85-bbc3-70aa2c1b818b) but the Core Council Risk Advisor may deviate from this methodology if they determine that another methodology is advisable to support the growth of USDS and the interests of the Sky Protocol.
 
-###### A.4.4.1.3.8.3.2.2.2 - Operator Execution [Core]  <!-- UUID: 420d6ca3-405a-41be-ba0f-cdc52746477c -->
+###### A.4.4.1.3.8.5.2.2 - Operator Execution [Core]  <!-- UUID: 420d6ca3-405a-41be-ba0f-cdc52746477c -->
 
 On a regular basis, the stUSDS BEAM Operators must prepare and execute changes so that the stUSDS parameters reflect the recommended values in the stUSDS Dashboard. In determining when to make changes, the stUSDS BEAM Operators, in consultation with the Core Council Risk Advisor, should consider factors including:
 
@@ -17250,77 +17250,77 @@ On a regular basis, the stUSDS BEAM Operators must prepare and execute changes s
 - the occurrence of weekends and holidays, including Calendar Exceptions to the Monthly Governance Cycle (see [A.1.11.1 - Calendar Exceptions](6c0810e2-390d-4efb-8b31-f36a7f6e1a05)); and
 - such other factors as the stUSDS BEAM Operators and the Core Council Risk Advisor deem relevant.
 
-###### A.4.4.1.3.8.3.2.2.3 - Review By Core Facilitator And Core Council Risk Advisor [Core]  <!-- UUID: 7318d160-e182-4276-bdf9-7dfc86ca77a5 -->
+###### A.4.4.1.3.8.5.2.3 - Review By Core Facilitator And Core Council Risk Advisor [Core]  <!-- UUID: 7318d160-e182-4276-bdf9-7dfc86ca77a5 -->
 
 The Core Facilitator and the Core Council Risk Advisor must review the actions of the stUSDS BEAM Operators on a regular basis. If they determine that the stUSDS BEAM Operators are not updating the stUSDS parameters in a way that reflects the recommended values in the stUSDS Dashboard on a timely basis, they must report this to the Core Council.
 
-###### A.4.4.1.3.8.3.2.3 - Automatic Updates By Operator Hot Wallet [Core]  <!-- UUID: a6e1735f-bd82-4ab6-982b-218013c3455f -->
+###### A.4.4.1.3.8.5.3 - Automatic Updates By Operator Hot Wallet [Core]  <!-- UUID: a6e1735f-bd82-4ab6-982b-218013c3455f -->
 
-Once the Operator Hot Wallet has been added as an Operator of the stUSDS BEAM (see [A.4.4.1.3.8.3.1.2 - Operator Hot Wallet](bddf50ca-02ef-4991-abb0-53e09831ee6f)), the stUSDS parameters set by the stUSDS BEAM must be set by the Operator Hot Wallet. These changes must be based on the update methodology specified in [A.4.4.1.3.8.3.3 - Update Methodology](e37d1045-215d-4f85-bbc3-70aa2c1b818b) and the results must be publicly visible on an information dashboard.
+Once the Operator Hot Wallet has been added as an Operator of the stUSDS BEAM (see [A.4.4.1.3.8.4.2 - Operator Hot Wallet](bddf50ca-02ef-4991-abb0-53e09831ee6f)), the stUSDS parameters set by the stUSDS BEAM must be set by the Operator Hot Wallet. These changes must be based on the update methodology specified in [A.4.4.1.3.8.6 - Update Methodology](e37d1045-215d-4f85-bbc3-70aa2c1b818b) and the results must be publicly visible on an information dashboard.
 
-###### A.4.4.1.3.8.3.3 - Update Methodology [Core]  <!-- UUID: e37d1045-215d-4f85-bbc3-70aa2c1b818b -->
+###### A.4.4.1.3.8.6 - Update Methodology [Core]  <!-- UUID: e37d1045-215d-4f85-bbc3-70aa2c1b818b -->
 
 The documents herein define the methodology that should be used for determining when and how to update stUSDS parameters with the stUSDS BEAM.
 
-###### A.4.4.1.3.8.3.3.1 - Short Term Process [Core]  <!-- UUID: c296a253-f737-4d17-bea0-4b1dab903096 -->
+###### A.4.4.1.3.8.6.1 - Short Term Process [Core]  <!-- UUID: c296a253-f737-4d17-bea0-4b1dab903096 -->
 
-Initially when stUSDS parameters are set manually by the Operator Multisig (see [A.4.4.1.3.8.3.2.2 - Manual Parameter Updates By Operator Multisig](944c2573-1184-4d6b-bbe9-0b84c11956cf)), the Core Council Risk Advisor may deviate from the long term process specified in [A.4.4.1.3.8.3.3.2 - Long Term Process](b349277c-4e61-474a-85bd-18802324a3a6) in their best judgment based on the guidelines specified herein.
+Initially when stUSDS parameters are set manually by the Operator Multisig (see [A.4.4.1.3.8.5.2 - Manual Parameter Updates By Operator Multisig](944c2573-1184-4d6b-bbe9-0b84c11956cf)), the Core Council Risk Advisor may deviate from the long term process specified in [A.4.4.1.3.8.6.2 - Long Term Process](b349277c-4e61-474a-85bd-18802324a3a6) in their best judgment based on the guidelines specified herein.
 
-###### A.4.4.1.3.8.3.3.1.1 - Initial Supply Rate [Core]  <!-- UUID: c4523493-97ba-4f57-ae2f-d407ab6e0f98 -->
+###### A.4.4.1.3.8.6.1.1 - Initial Supply Rate [Core]  <!-- UUID: c4523493-97ba-4f57-ae2f-d407ab6e0f98 -->
 
-The initial value of the `str` parameter must be set extraordinarily high to a value of approximately 40% initially to incentivize deposits. This rate is not sustainable and must be lowered as specified in [A.4.4.1.3.8.3.3.1.2 - Gradual Reduction In Supply Rate](8441e561-ef59-4a7e-a6d6-438f1bf797be).
+The initial value of the `str` parameter must be set extraordinarily high to a value of approximately 40% initially to incentivize deposits. This rate is not sustainable and must be lowered as specified in [A.4.4.1.3.8.6.1.2 - Gradual Reduction In Supply Rate](8441e561-ef59-4a7e-a6d6-438f1bf797be).
 
-###### A.4.4.1.3.8.3.3.1.2 - Gradual Reduction In Supply Rate [Core]  <!-- UUID: 8441e561-ef59-4a7e-a6d6-438f1bf797be -->
+###### A.4.4.1.3.8.6.1.2 - Gradual Reduction In Supply Rate [Core]  <!-- UUID: 8441e561-ef59-4a7e-a6d6-438f1bf797be -->
 
 The `str` parameter must be gradually lowered to a more sustainable level as the market approaches the optimal target of 90% utilization.
 
-###### A.4.4.1.3.8.3.3.1.3 - Growth Of Market Size [Core]  <!-- UUID: 0d2ea70b-e031-498e-8f3a-aeb967deb736 -->
+###### A.4.4.1.3.8.6.1.3 - Growth Of Market Size [Core]  <!-- UUID: 0d2ea70b-e031-498e-8f3a-aeb967deb736 -->
 
 The `cap` and `line` parameters must be scaled up over time. By the time the market reaches 300,000,000 USDS the `str` parameter must be normalized to a level that is in line with the Interest Rate Model.
 
-###### A.4.4.1.3.8.3.3.2 - Long Term Process [Core]  <!-- UUID: b349277c-4e61-474a-85bd-18802324a3a6 -->
+###### A.4.4.1.3.8.6.2 - Long Term Process [Core]  <!-- UUID: b349277c-4e61-474a-85bd-18802324a3a6 -->
 
-Once the process is fully automated (see [A.4.4.1.3.8.3.2.3 - Automatic Updates By Operator Hot Wallet](a6e1735f-bd82-4ab6-982b-218013c3455f)) the automated process must fully conform to the specifications herein.
+Once the process is fully automated (see [A.4.4.1.3.8.5.3 - Automatic Updates By Operator Hot Wallet](a6e1735f-bd82-4ab6-982b-218013c3455f)) the automated process must fully conform to the specifications herein.
 
-###### A.4.4.1.3.8.3.3.2.1 - Conditions For Update [Core]  <!-- UUID: ce0d4199-da56-4d75-b584-d89cf742597e -->
+###### A.4.4.1.3.8.6.2.1 - Conditions For Update [Core]  <!-- UUID: ce0d4199-da56-4d75-b584-d89cf742597e -->
 
 The stUSDS parameters should be updated if (1) the current Utilization (see [A.4.4.1.3.2.1.4 - Utilization Definition](337c4f67-685f-42bd-8237-553ed913b89f)) deviates from the Utilization as of the last time the stUSDS parameters were set by more than 2.4% and (2) the time since the last update is greater than `tau` (see [A.4.4.1.3.8.1.6 - Tau Definition](4f82fc17-4bcc-4623-b09b-b495c43b06f7)).
 
-###### A.4.4.1.3.8.3.3.2.2 - Calculations For Update [Core]  <!-- UUID: 01be0bd3-0621-4c22-95c7-395542181008 -->
+###### A.4.4.1.3.8.6.2.2 - Calculations For Update [Core]  <!-- UUID: 01be0bd3-0621-4c22-95c7-395542181008 -->
 
 The new values for each stUSDS parameter should be set to be as close as possible to the values specified in the documents herein.
 
-###### A.4.4.1.3.8.3.3.2.2.1 - Str Calculation [Core]  <!-- UUID: aaf4b844-0a8b-4679-969b-382263de86ec -->
+###### A.4.4.1.3.8.6.2.2.1 - Str Calculation [Core]  <!-- UUID: aaf4b844-0a8b-4679-969b-382263de86ec -->
 
 The `str` must be calculated as specified in [A.4.4.1.3.2 - stUSDS Rate](7e51d5a7-0707-4fba-999b-a1becd5f0192).
 
-###### A.4.4.1.3.8.3.3.2.2.2 - Duty Calculation [Core]  <!-- UUID: 76a96743-9197-4340-9367-74262cc32efd -->
+###### A.4.4.1.3.8.6.2.2.2 - Duty Calculation [Core]  <!-- UUID: 76a96743-9197-4340-9367-74262cc32efd -->
 
 The `duty` must be calculated as specified in [A.4.4.1.3.5.1.2 - Rate Setting Formula](05e97d4d-37e2-4ed8-acea-a8728fbe0402).
 
-###### A.4.4.1.3.8.3.3.2.2.3 - Cap Calculation [Core]  <!-- UUID: f5dafbc7-96b2-48e8-8b06-d66714d8b8a6 -->
+###### A.4.4.1.3.8.6.2.2.3 - Cap Calculation [Core]  <!-- UUID: f5dafbc7-96b2-48e8-8b06-d66714d8b8a6 -->
 
 The Core Council Risk Advisor must calculate the maximum amount that users can deposit into the stUSDS contract (`cap`) as specified in the documents herein.
 
-###### A.4.4.1.3.8.3.3.2.2.3.1 - Short Term Calculation [Core]  <!-- UUID: 21c4b33d-8644-4c1c-88e2-65f1243abd56 -->
+###### A.4.4.1.3.8.6.2.2.3.1 - Short Term Calculation [Core]  <!-- UUID: 21c4b33d-8644-4c1c-88e2-65f1243abd56 -->
 
 In the short term while Utilization is above 100%, the `cap` must be set to 200,000,000 USDS.
 
-###### A.4.4.1.3.8.3.3.2.2.3.2 - Long Term Calculation [Core]  <!-- UUID: bf917cfa-6438-4c91-932d-b4db8cc98af0 -->
+###### A.4.4.1.3.8.6.2.2.3.2 - Long Term Calculation [Core]  <!-- UUID: bf917cfa-6438-4c91-932d-b4db8cc98af0 -->
 
 In the long term, the `cap` must be gradually increased when Utilization is above 85% according to the following formula:
 
 `cap = 1.2 * current SKY borrowing`
 
-###### A.4.4.1.3.8.3.3.2.2.4 - Line Calculation [Core]  <!-- UUID: ee92fe50-b3c1-4d44-9d99-8efc671cc67e -->
+###### A.4.4.1.3.8.6.2.2.4 - Line Calculation [Core]  <!-- UUID: ee92fe50-b3c1-4d44-9d99-8efc671cc67e -->
 
 The Core Council Risk Advisor must calculate the maximum amount that users can borrow against their staked SKY (`line`) as specified in the documents herein.
 
-###### A.4.4.1.3.8.3.3.2.2.4.1 - Short Term Calculation [Core]  <!-- UUID: be4d269c-7064-4886-bdd5-8a8ff9d4abe2 -->
+###### A.4.4.1.3.8.6.2.2.4.1 - Short Term Calculation [Core]  <!-- UUID: be4d269c-7064-4886-bdd5-8a8ff9d4abe2 -->
 
 In the short term while Utilization is above 100%, the `line` must be set to 200,000,000 USDS.
 
-###### A.4.4.1.3.8.3.3.2.2.4.2 - Long Term Calculation [Core]  <!-- UUID: ca92131b-a383-48c9-ab11-4ceeaca180d3 -->
+###### A.4.4.1.3.8.6.2.2.4.2 - Long Term Calculation [Core]  <!-- UUID: ca92131b-a383-48c9-ab11-4ceeaca180d3 -->
 
 In the long term, the `line` must be gradually increased when Utilization is above 85% according to the following formula:
 
