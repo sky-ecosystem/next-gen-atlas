@@ -11515,7 +11515,7 @@ The party 'Sky' comprises Sky Core.
 
 ###### A.2.8.2.4.1.1.2 - Obex Details [Core]  <!-- UUID: 665a712a-d211-4a7a-b4c9-a8bad61b3f9c -->
 
-The party 'Obex' comprises the Obex Prime Agent, Obex Foundation, and Rubicon.
+The party 'Obex' comprises the Obex Prime Agent, Rubicon, and Treadstone.
 
 ###### A.2.8.2.4.1.2 - Duration Of The Accord [Core]  <!-- UUID: 90e40d2a-3baa-411f-9512-b7cf61762a75 -->
 
@@ -41120,6 +41120,14 @@ The address of Obex’s Genesis Account will be specified in a future iteration 
 
 The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
 
+###### A.6.1.1.5.2.1.1.3.1.1.4.1 - Rubicon [Core]  <!-- UUID: 57b0ac97-ddd8-424c-a407-6f6ab91a3806 -->
+
+Rubicon is the Prime Foundation associated with Obex. Its mandate is to support the development, growth, and adoption of Obex.
+
+###### A.6.1.1.5.2.1.1.3.1.1.4.2 - Treadstone [Core]  <!-- UUID: 44a4e626-eb16-44cb-8502-9133c97c0773 -->
+
+Treadstone is the development company that provides services to Rubicon.
+
 ###### A.6.1.1.5.2.1.1.3.1.2 - Operational Process Definition [Core]  <!-- UUID: 8171b404-5ea7-47ed-869d-8bd94f6e9e86 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further operational process is needed post-deployment.
@@ -42495,13 +42503,13 @@ The modification of signers for the Freezer Multisig will be specified in a futu
 
 The documents herein specify requirements related to Obex’s Total Risk Capital (TRC) management.
 
-###### A.6.1.1.5.2.6.1.2.1.3.1 - Rubicon's Operation Of Obex Liquidity Layer And Agreement Regarding Encumbrance Ratio [Core]  <!-- UUID: d915471b-230e-41ab-bc86-68bc9453e417 -->
+###### A.6.1.1.5.2.6.1.2.1.3.1 - Treadstone's Operation Of Obex Liquidity Layer And Agreement Regarding Encumbrance Ratio [Core]  <!-- UUID: d915471b-230e-41ab-bc86-68bc9453e417 -->
 
-Rubicon will operate the Obex Liquidity Layer and agrees to stay at or below a 90% Encumbrance Ratio. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9).
+Treadstone will operate the Obex Liquidity Layer and agrees to stay at or below a 90% Encumbrance Ratio. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9).
 
-###### A.6.1.1.5.2.6.1.2.1.3.2 - Rubicon’s Total Risk Capital (TRC) Management Processes [Core]  <!-- UUID: 8248b6dc-0dd9-4019-98e6-83c8d5892317 -->
+###### A.6.1.1.5.2.6.1.2.1.3.2 - Treadstone's Total Risk Capital (TRC) Management Processes [Core]  <!-- UUID: 8248b6dc-0dd9-4019-98e6-83c8d5892317 -->
 
-As operators of the Obex Liquidity Layer, Rubicon automatically inherits, and is subject to, the base class of operational requirements related to Total Risk Capital management defined in [A.2.2.9.1.1.3.2.1.2 - Primes' Total Risk Capital (TRC) Management](3af8a3a2-25e5-44b3-87a4-7df1f2712685). Modifications to the base operational logic automatically propagate to the Obex Artifact.
+As operators of the Obex Liquidity Layer, Treadstone automatically inherits, and is subject to, the base class of operational requirements related to Total Risk Capital management defined in [A.2.2.9.1.1.3.2.1.2 - Primes' Total Risk Capital (TRC) Management](3af8a3a2-25e5-44b3-87a4-7df1f2712685). Modifications to the base operational logic automatically propagate to the Obex Artifact.
 
 ###### A.6.1.1.5.2.6.1.2.2 - Obex Liquidity Layer Operational Processes [Core]  <!-- UUID: f0393207-2bae-42a2-9ca0-df8ffd4d2a39 -->
 
