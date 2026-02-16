@@ -13451,7 +13451,7 @@ The maximum exposure a Prime Agent may have to Drift may not exceed 25,000,000 U
 
 ###### A.3.2.2.1.1.1.1.3.7 - Anchorage [Core]  <!-- UUID: 3f49b256-b18d-4a2a-b5a9-f55318455a3c -->
 
-Offchain lending through Anchorage Digital has a CRR of 3.5%. The maximum exposure is 200,000,000 USD. The terms of this offchain lending must conform to the following specifications:
+Offchain lending through Anchorage Digital has a CRR of 3%. The maximum exposure is 500,000,000 USD. The terms of this offchain lending must conform to the following specifications:
 
 - Collateral Asset: Native BTC
 - Initial LTV: 80% (125% collateralization ratio)
