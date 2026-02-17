@@ -1484,15 +1484,15 @@ Alignment Conservers are held to the highest standard when judging whether their
 
 **Content**:
 
-This need is an extensive Research Track. The central research need that grows out of the Facilitator role has to do with developing systematic principles and protocols to serve as the foundation for adjudicating disputes and controversies, including processes for fact-finding, evidence validation and evaluation, mechanisms for ensuring impartiality and objectivity, an appeals process, etc. 
+The Atlas has made a good start with establishing an adjudication framework. There is some logic concerning procedures for how disputes and controversies (including Alignment Conserver misalignment) are brought forward and how they are reviewed. But essential elements are missing, such as protocols and standards for fact-finding and evidence.
 
-The Atlas has made a good start with establishing an adjudication framework. There is some logic concerning procedures for how disputes and controversies (including Alignment Conserver misalignment) are brought forward and how they are reviewed. But essential elements are missing, such as protocols and standards for fact-finding and evidence. 
+Needed Research here includes methods for implementing a structured fact-finding process that gathers relevant information impartially and comprehensively. Who has the authority to investigate, to request evidence, to handle evidence? What types of evidence are permissible to consider, and what ethical considerations apply to how such evidence was obtained? What are the processes for collecting, preserving, and analyzing this evidence? When should evidence be shared with the larger community and when should it be kept confidential?
 
-Needed Research here includes methods for implementing a structured fact-finding process that gathers relevant information impartially and comprehensively. Who has the authority to investigate, to request evidence, to handle evidence?  What types of evidence are permissible to consider? See [Responsibly Provided - Whistleblower Evidence Of Misalignment Must Be Secured Ethically](ba46ef4f-2ed6-4b16-b5b5-8a3ee01ad18d). What are the processes for collecting, preserving, and analyzing this evidence? When should evidence be shared with the larger community and when should it be kept confidential? 
-
-Then there is the matter of assessing evidence in a way that is rigorous and impartial, without which, confidence in the Atlas and the governance process may be undermined. What criteria should be used to validate and evaluate evidence to ensure its reliability and relevance in decision-making? This involves determining the credibility of sources, the reliability of evidence, and the relevance of information to the specific case. The research should explore different approaches to evidence evaluation, such as the application of the burden of proof, standards of proof (e.g., preponderance of evidence, beyond a reasonable doubt), and the use of experts. 
+Then there is the matter of assessing evidence in a way that is rigorous and impartial, without which, confidence in the Atlas and the governance process may be undermined. What criteria should be used to validate and evaluate evidence to ensure its reliability and relevance in decision-making? This involves determining the credibility of sources, the reliability of evidence, and the relevance of information to the specific case. The research should explore different approaches to evidence evaluation, such as the application of the burden of proof, standards of proof (e.g., preponderance of evidence, beyond a reasonable doubt), and the use of experts.
 
 How much discretion should Facilitators have in interpreting and applying the element "the highest standard of Universal Alignment"? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.
+
+This need is an extensive Research Track. The central research need that grows out of the Facilitator role has to do with developing systematic principles and protocols to serve as the foundation for adjudicating disputes and controversies, including processes for fact-finding, evidence validation and evaluation, mechanisms for ensuring impartiality and objectivity, an appeals process, etc.
 
 #### A.1.4.4.0.4.1 - Highest Standard - Facilitators must apply strictest possible requirements of Universal Alignment on ACs [Action Tenet]  <!-- UUID: 8dfd71fc-7ded-4217-8b6a-2bef00f75b55 -->
 
@@ -1690,11 +1690,11 @@ The Alignment Conserver roles of Facilitator and Aligned Delegate require anonym
 
 The Core Facilitator may not have the needed experience and skills to adjudicate matters involving operational security best practices. See Endgame Edge Governance Facilitator team Forum post ([https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532#proposal-for-community-discussion-2](https://forum.sky.money/t/ads-derecognition-due-to-operational-security-breach/22532#proposal-for-community-discussion-2)) on AD derecognition:
 
-The DAO could hire a security advisor firm/consultant as a Scope Advisor. (This could fall under the Governance Scope and its requirement for Governance Security processes). Their task would be to thoroughly analyze the security needs and risks of the Alignment Conservers and develop ever-evolving Operational Security "Best Practices".
+"The DAO could hire a security advisor firm/consultant as a Scope Advisor. (This could fall under the Governance Scope and its requirement for Governance Security processes). Their task would be to thoroughly analyze the security needs and risks of the Alignment Conservers and develop ever-evolving Operational Security "Best Practices".
 
 With an explicit framework of agreed-upon Best Practices, all anon Alignment Conservers have a known target to meet. Further, the existence of an objective framework of Best Practices equips the Core Facilitator to easily determine when a breach of opsec best practice has occurred. The explicit framework removes the risk of the Facilitator inappropriately inserting subjective bias into the decision-making process.
 
-The Security Scope Advisor could also assist in reviewing an informant's evidence to evaluate its validity/quality. The Security Scope Advisor could ensure that the methods used by the informant to secure the evidence were ethical. (All communications, evidence and data shared with the Security Scope Advisor would be under confidentiality protection). Finally, such an Advisor would have specialized expertise in opsec and associated matters that the Core Facilitator lacks".
+The Security Scope Advisor could also assist in reviewing an informant's evidence to evaluate its validity/quality. The Security Scope Advisor could ensure that the methods used by the informant to secure the evidence were ethical. (All communications, evidence and data shared with the Security Scope Advisor would be under confidentiality protection). Finally, such an Advisor would have specialized expertise in opsec and associated matters that the Core Facilitator lacks."
 
 This Needed Research is an extensive Research Track, given the wide-ranging implications and potential mechanisms around opsec best practices, and also how these should map onto the Atlas.
 
@@ -1750,15 +1750,15 @@ The adjudication process is further defined in the subdocuments herein.
 
 **Content**:
 
-This need is an extensive Research Track. The central research need that grows out of the Facilitator role has to do with developing systematic principles and protocols to serve as the foundation for adjudicating disputes and controversies, including processes for fact-finding, evidence validation and evaluation, mechanisms for ensuring impartiality and objectivity, an appeals process, etc. 
+The Atlas has made a good start with establishing an adjudication framework. There is some logic concerning procedures for how disputes and controversies (including Alignment Conserver misalignment) are brought forward and how they are reviewed. But essential elements are missing, such as protocols and standards for fact-finding and evidence.
 
-The Atlas has made a good start with establishing an adjudication framework. There is some logic concerning procedures for how disputes and controversies (including Alignment Conserver misalignment) are brought forward and how they are reviewed. But essential elements are missing, such as protocols and standards for fact-finding and evidence. 
+Needed Research here includes methods for implementing a structured fact-finding process that gathers relevant information impartially and comprehensively. Who has the authority to investigate, to request evidence, to handle evidence? What types of evidence are permissible to consider, and what ethical considerations apply to how such evidence was obtained? What are the processes for collecting, preserving, and analyzing this evidence? When should evidence be shared with the larger community and when should it be kept confidential?
 
-Needed Research here includes methods for implementing a structured fact-finding process that gathers relevant information impartially and comprehensively. Who has the authority to investigate, to request evidence, to handle evidence?  What types of evidence are permissible to consider? See [Responsibly Provided - Whistleblower Evidence Of Misalignment Must Be Secured Ethically](ba46ef4f-2ed6-4b16-b5b5-8a3ee01ad18d). What are the processes for collecting, preserving, and analyzing this evidence? When should evidence be shared with the larger community and when should it be kept confidential? 
+Then there is the matter of assessing evidence in a way that is rigorous and impartial, without which, confidence in the Atlas and the governance process may be undermined. What criteria should be used to validate and evaluate evidence to ensure its reliability and relevance in decision-making? This involves determining the credibility of sources, the reliability of evidence, and the relevance of information to the specific case. The research should explore different approaches to evidence evaluation, such as the application of the burden of proof, standards of proof (e.g., preponderance of evidence, beyond a reasonable doubt), and the use of experts.
 
-Then there is the matter of assessing evidence in a way that is rigorous and impartial, without which, confidence in the Atlas and the governance process may be undermined. What criteria should be used to validate and evaluate evidence to ensure its reliability and relevance in decision-making? This involves determining the credibility of sources, the reliability of evidence, and the relevance of information to the specific case. The research should explore different approaches to evidence evaluation, such as the application of the burden of proof, standards of proof (e.g., preponderance of evidence, beyond a reasonable doubt), and the use of experts. 
+How much discretion should Facilitators have in interpreting and applying the element “the highest standard of Universal Alignment”? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.
 
-How much discretion should Facilitators have in interpreting and applying the element "the highest standard of Universal Alignment"? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.
+This need is an extensive Research Track. The central research need that grows out of the Facilitator role has to do with developing systematic principles and protocols to serve as the foundation for adjudicating disputes and controversies, including processes for fact-finding, evidence validation and evaluation, mechanisms for ensuring impartiality and objectivity, an appeals process, etc.
 
 #### A.1.4.9.1 - Opportunity to Respond [Core]  <!-- UUID: 4217002f-6c87-45fb-80ac-598472e3fff9 -->
 
@@ -2190,14 +2190,6 @@ The Triggering Threshold is the amount of USDS that a Ranked Delegate must have 
 
 If the Core Facilitator finds that an AD has conducted a misaligned act warranting financial penalties or derecognition, such penalties may be deducted from the AD’s Buffer.
 
-#### A.1.5.3.5 - Short-Term Transitionary Measures [Core]  <!-- UUID: 17c74a56-fcb2-4f40-8847-d09a37e4e2dd -->
-
-The documents herein define short-term transitionary measures related to Ranked Delegates that apply for the period prior to January 1, 2026.
-
-##### A.1.5.3.5.1 - Levels Of Ranked Delegates [Core]  <!-- UUID: 35f7309e-4446-48c2-bbf6-9fb564d93860 -->
-
-Prior to January 1, 2026, there are zero (0) Level 1 Ranked Delegates, zero (0) Level 2 Ranked Delegates, and six (6) Level 3 Ranked Delegates.
-
 ### A.1.5.4 - Kickbacks Prohibited [Section]  <!-- UUID: 45e794a0-5092-4dea-a0de-6f373228f760 -->
 
 Aligned Delegates are not allowed to provide "kickbacks" from their compensation to SKY holders who delegate to them. Violation of this requirement constitutes misalignment.
@@ -2479,7 +2471,7 @@ The Protocol Security Workstream Lead and Governance Facilitators may run firedr
 
 #### A.1.8.1.4 - Facilitators’ Roles And Responsibilities [Core]  <!-- UUID: c9c32f24-cf6c-43d5-ac4c-bd2b4d02032b -->
 
-The Support Facilitators are empowered to declare an emergency situation, in consultation with the responsible Facilitator of the impacted Scope(s) and any relevant Scope Advisor(s).
+The Support Facilitators are empowered to declare an emergency situation, in consultation with the responsible Facilitator of the impacted Scope(s) and, if relevant, the Core Council Risk Advisor.
 
 After an emergency situation has been declared, the Support or Governance Facilitators are responsible for coordinating emergency-situation processes to ensure they are civil, consistently applied and aligned. The Governance Facilitators are responsible for publishing Polls and Executive Votes.
 
@@ -2503,7 +2495,7 @@ The subdocuments herein define the emergency response process.
 
 ##### A.1.8.1.5.1 - Incident Validation [Core]  <!-- UUID: 97020aa2-9492-4fa4-8eee-d860d6f33618 -->
 
-The Support Facilitators are responsible for determining whether a reported incident is a valid emergency; where possible, this can be done in consultation with the responsible Facilitator of the impacted Scope(s) and any relevant Scope Advisor(s).
+The Support Facilitators are responsible for determining whether a reported incident is a valid emergency; where possible, this can be done in consultation with the responsible Facilitator of the impacted Scope(s) and, if relevant, the Core Council Risk Advisor.
 
 ##### A.1.8.1.5.2 - Incident Categorization [Core]  <!-- UUID: f3a647b2-8083-41f1-b67a-66bd322ccc16 -->
 
@@ -4736,7 +4728,7 @@ The subdocuments herein define the governance process for using the Linear Inter
 
 ###### A.1.9.3.2.13.2.1 - Linear Interpolation Module Authorization [Core]  <!-- UUID: 9652bd2c-f51c-42bb-9240-701e9723f574 -->
 
-The Facilitators responsible for the Scope that governs the parameter to be adjusted by the Linear Interpolation Module, in consultation with the Scope Advisor(s), may recommend deploying the Linear Interpolation Module for parameter adjustments.
+The Facilitators responsible for the Scope that governs the parameter to be adjusted by the Linear Interpolation Module, in consultation with the Core Council Risk Advisor, may recommend deploying the Linear Interpolation Module for parameter adjustments.
 
 ###### A.1.9.3.2.13.2.1.1 - Linear Interpolation Module Consideration [Core]  <!-- UUID: dd631146-0227-4fe3-87dd-085d0c909879 -->
 
@@ -5062,7 +5054,7 @@ The role of the Support Facilitators in the Standby Spell process is as follows:
 
 - Standby Spells can only be used in response to a properly validated and categorized emergency scenario, for which the Support Facilitators are responsible. See [A.1.8.1.5.1 - Incident Validation](97020aa2-9492-4fa4-8eee-d860d6f33618) and [A.1.8.1.5.2 - Incident Categorization](f3a647b2-8083-41f1-b67a-66bd322ccc16).
 
-The decision to initiate the process to use a Standby Spell is reserved for the Support Facilitators; where possible, the Support Facilitators should consult with the responsible Facilitator of the impacted Scope(s) and any relevant Scope Advisor(s). See [A.1.8.1.4 - Facilitators’ Roles And Responsibilities](c9c32f24-cf6c-43d5-ac4c-bd2b4d02032b)**.**
+The decision to initiate the process to use a Standby Spell is reserved for the Support Facilitators; where possible, the Support Facilitators should consult with the responsible Facilitator of the impacted Scope(s) and, if relevant, the Core Council Risk Advisor. See [A.1.8.1.4 - Facilitators’ Roles And Responsibilities](c9c32f24-cf6c-43d5-ac4c-bd2b4d02032b).
 
 - The Support Facilitators must explicitly communicate the decision to use a Standby Spell in the secure, private communication channel specified in [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf) or on a "war room" video call.
 
@@ -5228,7 +5220,7 @@ The role of the Support Facilitators in the usage of Protego is as follows:
 
 - Protego can only be used in response to a properly validated and categorized emergency scenario, for which the Support Facilitators are responsible. See [A.1.8.1.5.1 - Incident Validation](97020aa2-9492-4fa4-8eee-d860d6f33618) and [A.1.8.1.5.2 - Incident Categorization](f3a647b2-8083-41f1-b67a-66bd322ccc16).
 
-- The decision to initiate the process to use Protego is reserved for the Support Facilitators; where possible, the Support Facilitators should consult with the responsible Facilitator of the impacted Scope(s) and any relevant Scope Advisor(s). See [A.1.8.1.4 - Facilitators’ Roles And Responsibilities](c9c32f24-cf6c-43d5-ac4c-bd2b4d02032b).
+- The decision to initiate the process to use Protego is reserved for the Support Facilitators; where possible, the Support Facilitators should consult with the responsible Facilitator of the impacted Scope(s) and, if relevant, the Core Council Risk Advisor. See [A.1.8.1.4 - Facilitators’ Roles And Responsibilities](c9c32f24-cf6c-43d5-ac4c-bd2b4d02032b).
 
 - The Support Facilitators must explicitly communicate the decision to use Protego in the secure, private communication channel specified in [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf) or on a "war room" video call.
 
@@ -5841,9 +5833,9 @@ Since the Update Process element is defined in an Active Data Controller Documen
 
 ##### A.1.12.1.3.1 - Direct Edit [Core]  <!-- UUID: ecce1a73-dac3-4fe5-a9d6-8b445bbc591a -->
 
-Active Data with the "Direct Edit" Update Process may be edited pursuant to the following process. 
+Active Data with the "Direct Edit" Update Process may be edited pursuant to the following process.
 
-The Responsible Party must post on the Sky Forum their proposed changes to the Active Data, using the category specified by the relevant Facilitator. After confirming that the Responsible Party has the authority to request a Direct Edit, the Core Facilitator shall then modify the Atlas to reflect the Responsible Party’s proposed change.
+The Responsible Party must post on the Sky Forum their proposed changes to the Active Data, using the appropriate category. If the Active Data document is located in the Sky Core Atlas, then the Core Facilitator must confirm that the Responsible Party has the authority to request a Direct Edit, and then modify the Atlas to reflect the Responsible Party’s proposed change. If the Active Data document is located in an Agent Artifact, then it is the Operational Facilitator for that Agent that must confirm the Responsible Party’s authority to request a Direct Edit and then modify the Atlas to reflect the proposed changes.
 
 It is permissible for an Active Data Controller to specify unique requirements in addition to the general "Direct Edit" Update Process described above. These additional requirements, if any, must be specified directly in the Active Data Controller Document; this can be done through a reference or citation to the pertinent Atlas document containing the additional requirements. The additional requirements may supplement, but cannot conflict with, any aspect of the "Direct Edit" Update Process defined herein.
 
@@ -9903,6 +9895,56 @@ Core Governance Primitives allow Prime Agents to earn incentives for maintaining
 
 The Core Governance Reward Primitive is a reward that Sky pays to Prime Agents that provide SKY holders with secure access to the core Sky Governance features, ensuring that the Governance Security of Sky is maintained over time.
 
+##### A.2.2.10.1.1 - Reward Pool [Core]  <!-- UUID: 111bedd1-35aa-4c72-91e1-963550d909bf -->
+
+The total reward pool for the Core Governance Reward Primitive is 1% of the Net Revenue of Sky. Of this, 0.5% is paid to Integrators that maintain frontends that facilitate accessible governance, with the other 0.5% paid to the Prime Agents that manage the relationship with those Integrators. [See A.2.3.1.2.2.4 - Governance Accessibility Rewards Paid To Integrators](6c215fd3-61c1-4ee5-b326-a180fe0fc768) and [A.2.3.1.2.2.5 - Governance Accessibility Rewards Paid To Prime Agents](e7fd952e-5298-4928-82ea-992f18bea319).
+
+##### A.2.2.10.1.2 - Eligible Recipients [Core]  <!-- UUID: a59cee2a-864e-4dbb-9364-bdf121573cb2 -->
+
+In order for an Integrator and the Prime Agent that manages the relationship with such Integrator to be eligible for the Core Governance Reward, the frontend maintained by the Integrator must satisfy compliance requirements as specified in [A.2.2.10.1.3 - Compliance Requirements](068c37b5-2cda-4bcc-90af-7b70c746dbc3).
+
+A single entity may serve as both the Integrator operating a frontend and the Prime Agent managing the relationship with that Integrator, in which case such entity is eligible to receive both the Integrator and Prime Agent rewards for that frontend.
+
+The current eligible recipients for the Core Governance Reward Primitive are specified in the documents herein.
+
+###### A.2.2.10.1.2.1 - Current Eligible Recipients  [Core]  <!-- UUID: e8272862-e80d-470c-a0da-f964b6df110d -->
+
+The current eligible recipients for the Core Governance Reward Primitive are:
+
+- Skybase - Skybase is eligible to receive the Core Governance Reward with respect to the [https://sky.money/](https://sky.money/) frontend as both the Integrator that operates the frontend and the Prime Agent that manages the relationship, and therefore receives both the Integrator reward and the Prime Agent reward for this frontend.
+
+##### A.2.2.10.1.3 - Compliance Requirements [Core]  <!-- UUID: 068c37b5-2cda-4bcc-90af-7b70c746dbc3 -->
+
+Security and information standards for compliant frontends are specified in the documents herein.
+
+###### A.2.2.10.1.3.1 - Security Standards  [Core]  <!-- UUID: a6ab8a87-bd53-4227-9ede-1dd65094989c -->
+
+Specific security standards for compliant frontends will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.3.2 - Information Standards  [Core]  <!-- UUID: 6c53d0a0-f5ce-4005-a887-6f94b08e4a28 -->
+
+Specific information and disclosure standards for compliant frontends will be specified in a future iteration of the Atlas.
+
+##### A.2.2.10.1.4 - Distribution Mechanism  [Core]  <!-- UUID: 72ce2c27-6d72-4b64-8a3c-083be9fe7659 -->
+
+The documents herein define how the total reward pool is distributed to individual recipients.
+
+###### A.2.2.10.1.4.1 - Integration With Treasury Management Function  [Core]  <!-- UUID: dc825d62-60cf-4701-ac8f-b48257b4f9a6 -->
+
+Distributions of Core Governance Rewards are made on a monthly basis as part of the Treasury Management Function.
+
+###### A.2.2.10.1.4.2 - Allocation Based On Staked SKY  [Core]  <!-- UUID: f8d35814-d8bb-423f-97ce-35629bcc7a5e -->
+
+Each distribution to Integrators is allocated pro rata between Integrators based on the percentage of SKY staked through eligible frontends maintained by each Integrator. Each distribution to Prime Agents is allocated pro rata between Prime Agents based on the percentage of SKY staked through eligible frontends maintained by Integrators managed by each Prime Agent.
+
+###### A.2.2.10.1.4.2.1 - Tracking Via Reward Codes  [Core]  <!-- UUID: b16cb8a3-aea3-4fda-b904-eb782ea7a8e1 -->
+
+The amount of SKY staked through each eligible frontend is tracked using Reward Codes. Eligible frontends pass a Reward Code identifying the Integrator and associated Prime Agent when users stake SKY. Each eligible Integrator is assigned a unique Reward Code by Operational GovOps for the Prime Agent managing the relationship with the Integrator. Reward Codes for each Integrator are recorded in the associated Instance of the Core Governance Reward Primitive in the Agent Artifact of the Prime Agent managing the relationship with the Integrator.
+
+###### A.2.2.10.1.4.3 - Distribution Through Prime Agents  [Core]  <!-- UUID: 9a723ca1-8daa-4948-a808-4a2b9e801da6 -->
+
+All distributions to a Prime Agent and Integrators managed by it are paid to the Prime Agent. The Prime Agent is then responsible for paying the portion due to each Integrator it manages.
+
 ## A.2.3 - Treasury Management [Article]  <!-- UUID: 6c0af059-5d33-4e2b-90f1-1606957b8f85 -->
 
 The Sky Treasury Management Function defines how all Net Revenue of the Sky Protocol is distributed among various downstream functions or buffers. This ensures that all necessary functions are adequately funded, allowing all actors to focus on growing the ecosystem in a positive sum way.
@@ -10204,7 +10246,7 @@ As a short-term transitionary measure, the net revenue of the Sky Protocol is cu
 
 ##### A.2.3.1.4.1 - Allocation Of Step 1 Capital [Core]  <!-- UUID: 76eab64d-a5ba-4f3c-a295-bde0e444d0df -->
 
-In the short term, 21% of Step 1 Capital is allocated as specified in the documents herein. The remaining 79% of Step 1 Capital becomes Step 4 Capital and is allocated as specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3).
+In the short term, 22% of Step 1 Capital is allocated as specified in the documents herein. The remaining 78% of Step 1 Capital becomes Step 4 Capital and is allocated as specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3).
 
 ###### A.2.3.1.4.1.1 - Allocation To Core Council Buffer [Core]  <!-- UUID: c46c7059-4ec1-4966-8382-d9e2e851d616 -->
 
@@ -10296,6 +10338,14 @@ The Core Facilitator and Core GovOps can change the signers of the Aligned Deleg
 
 - an equal number of signers are controlled by the Core Facilitator and Core GovOps.
 
+###### A.2.3.1.4.1.3 - Allocation To Governance Accessibility Rewards Paid To Integrators [Core]  <!-- UUID: f7ec7f27-632e-462a-b1e8-32bf557cb51f -->
+
+0.5% of Step 1 Capital is allocated to Governance Accessibility Rewards Paid To Integrators, as specified in [A.2.3.1.2.2.4 - Governance Accessibility Rewards Paid To Integrators](6c215fd3-61c1-4ee5-b326-a180fe0fc768).
+
+###### A.2.3.1.4.1.4 - Allocation To Governance Accessibility Rewards Paid To Prime Agents [Core]  <!-- UUID: a266adb7-5af2-4aa9-b64e-ed35bac9b6a5 -->
+
+0.5% of Step 1 Capital is allocated to Governance Accessibility Rewards Paid To Prime Agents, as specified in [A.2.3.1.2.2.5 - Governance Accessibility Rewards Paid To Prime Agents](e7fd952e-5298-4928-82ea-992f18bea319).
+
 ##### A.2.3.1.4.2 - Allocation Of Step 4 Capital [Core]  <!-- UUID: 04bd9df4-275e-4520-83a6-d634aa605fe3 -->
 
 In the short term, Step 4 Capital is allocated as specified in the documents herein.
@@ -10310,7 +10360,15 @@ Any remaining Step 4 Capital is allocated to the Surplus Buffer.
 
 ##### A.2.3.1.4.3 - Implementation [Core]  <!-- UUID: b0a59548-b94e-4cdf-961c-7e2d5dbe5983 -->
 
-The allocations specified in [A.2.3.1.4.1 - Allocation Of Step 1 Capital](76eab64d-a5ba-4f3c-a295-bde0e444d0df) are effective retroactive to September 1, 2025. The next available Executive Vote must include these allocations for the period from September 1, 2025 to September 30, 2025. The amounts to be transferred are 3,876,387 USDS to the Core Council Buffer and 193,820 USDS to the Aligned Delegates Buffer.
+The implementation of the allocations in [A.2.3.1.4.1 - Allocation Of Step 1 Capital](76eab64d-a5ba-4f3c-a295-bde0e444d0df) is specified in the documents herein.
+
+###### A.2.3.1.4.3.1 - Implementation Of Allocations To Core Council Buffer And Aligned Delegates Buffer [Core]  <!-- UUID: 8a75e41e-2c15-4486-b673-045fed17d25b -->
+
+The allocations specified in [A.2.3.1.4.1.1 - Allocation To Core Council Buffer](c46c7059-4ec1-4966-8382-d9e2e851d616) and [A.2.3.1.4.1.2 - Allocation To Aligned Delegates Buffer](2a9bcfb1-4dad-4baf-a09a-e9264b3d17bb) are effective retroactive to September 1, 2025. The October 30, 2025 Executive Vote included these allocations for the period from September 1, 2025 to September 30, 2025. The amounts transferred were 3,876,387 USDS to the Core Council Buffer and 193,820 USDS to the Aligned Delegates Buffer.
+
+###### A.2.3.1.4.3.2 - Implementation Of Allocations To Governance Accessibility Rewards Paid To Integrators And Prime Agents [Core]  <!-- UUID: b3f97303-4d41-497c-b931-9337c518bd7e -->
+
+The allocations specified in [A.2.3.1.4.1.3 - Allocation To Governance Accessibility Rewards Paid To Integrators](f7ec7f27-632e-462a-b1e8-32bf557cb51f) and [A.2.3.1.4.1.4 - Allocation To Governance Accessibility Rewards Paid To Prime Agents](a266adb7-5af2-4aa9-b64e-ed35bac9b6a5) are effective retroactive to May 19, 2025. These allocations must be included in a future Executive Vote. The amounts to be transferred will be specified in a future iteration of the Atlas.
 
 ## A.2.4 - Sky Core Monthly Settlement Cycle [Article]  <!-- UUID: 6f8d5065-d6ff-4add-9a28-eadeffa7ed1a -->
 
@@ -11249,13 +11307,37 @@ The subdocuments herein set out agreed terms with respect to a token launch pena
 
 ###### A.2.8.2.2.2.8.1 - Token Launch Penalty [Core]  <!-- UUID: 5a62cc3f-4337-4770-a4d1-8a9b3d158b3f -->
 
-If either Spark or Grove (each, a "Prime") does not complete its Prime Token Generation Event ("TGE") by July 1, 2025, a penalty of thirty percent (30%) will apply. This penalty will be calculated on the income (as defined in [A.2.8.2.2.2.8.6 - Income Definition](fa48f7be-3c7d-4390-8b39-4fdfe9aa06ae)) the Prime is receiving or is meant to receive (including revenue that has accrued but has not been transferred) until the TGE occurs. 
+If either Spark or Grove (each, a "Prime") does not complete its Prime Token Generation Event (see [A.2.8.2.2.2.8.1.1 - Prime Token Generation Event](fb80d94d-dd93-40ae-bb4c-8300c1c53d73)) by July 1, 2025, a penalty of thirty percent (30%) will apply. This penalty will be calculated on the income (as defined in [A.2.8.2.2.2.8.6 - Income Definition](fa48f7be-3c7d-4390-8b39-4fdfe9aa06ae)) the Prime is receiving or is meant to receive (including revenue that has accrued but has not been transferred) until the TGE occurs.
 
-The penalty shall be deducted from the Genesis Capital Allocation at the time of the Capital Transfer. If the Prime has already received its Genesis Capital Allocation, then the 30% penalty is paid as part of the Monthly Settlement Cycle. See [A.2.4.1.2.2.1.1.3 - Settlement](6dcd7515-3398-443a-9377-99e0c3cd0174).
+The penalty shall be paid as specified in [A.2.8.2.2.2.8.1.2 - Token Launch Penalty Settlement](c680762a-a3f9-46bf-b740-9029b8a97e2b).
+
+###### A.2.8.2.2.2.8.1.1 - Prime Token Generation Event [Core]  <!-- UUID: fb80d94d-dd93-40ae-bb4c-8300c1c53d73 -->
+
+The documents herein define a Prime Token Generation Event ("TGE") for Spark and Grove.
+
+###### A.2.8.2.2.2.8.1.1.1 - Spark Token Generation Event [Core]  <!-- UUID: d703336e-b86f-4e50-99f0-f4a8dff1d0f7 -->
+
+The Spark Token Generation Event occurred on June 17, 2025.
+
+###### A.2.8.2.2.2.8.1.1.2 - Grove Token Generation Event [Core]  <!-- UUID: a69d2ed5-90ea-4d6b-ba6e-287a104017d2 -->
+
+The Grove Token Generation Event will occur on the first date that SKY Staking users are able to earn GROVE Token Rewards. See [A.4.4.1 - SKY Staking](626bd71c-b413-41b7-a5fe-39fd0d43dbf5).
+
+###### A.2.8.2.2.2.8.1.2 - Token Launch Penalty Settlement [Core]  <!-- UUID: c680762a-a3f9-46bf-b740-9029b8a97e2b -->
+
+The Token Launch Penalty will be paid by each Prime at the time of the last Capital Transfer to a Genesis Agent (the "Token Launch Penalty Settlement Date") as specified in the documents herein.
+
+###### A.2.8.2.2.2.8.1.2.1 - Token Launch Penalty Settlement Date  [Core]  <!-- UUID: 66269cb6-0828-4977-b9d4-16840c6bc97d -->
+
+When the Core Council determines the date of the last Capital Transfer to a Genesis Agent, it must submit an Atlas Edit Proposal to record the date in this document.
+
+###### A.2.8.2.2.2.8.1.2.2 - Token Launch Penalty Settlement Mechanism  [Core]  <!-- UUID: 4c8a37f9-717d-437c-9f38-d17cbb3b3639 -->
+
+The settlement mechanism for the Token Launch Penalty, including the calculation of the penalty for each Prime and how the calculated balance is paid to Sky, will be included in a future iteration of the Atlas.
 
 ###### A.2.8.2.2.2.8.2 - Transfer Of Capital Funds [Core]  <!-- UUID: 760c4258-50f7-4334-af21-888759194e64 -->
 
-The transfer of the Genesis Capital Allocation to each Prime SubProxy (i.e. the Spark SubProxy and Grove SubProxy) shall occur once funding from the Surplus Buffer is approved. This condition ensures that capital deployment is aligned with the successful launch of the Prime’s token and the commencement of its independent operations. Any penalties applied under [A.2.8.2.2.2.8.1 - Token Launch Penalty](5a62cc3f-4337-4770-a4d1-8a9b3d158b3f) shall be deducted from the Capital Allocation at the time of transfer.
+The transfer of the Genesis Capital Allocation to each Prime SubProxy (i.e. the Spark SubProxy and Grove SubProxy) shall occur once funding from the Surplus Buffer is approved. This condition ensures that capital deployment is aligned with the successful launch of the Prime's token and the commencement of its independent operations.
 
 ###### A.2.8.2.2.2.8.2.1 - Transfer Of Genesis Capital Allocation To Spark SubProxy [Core]  <!-- UUID: e3ec99ec-54c9-4fe7-8104-aee20c57ec57 -->
 
@@ -13751,10 +13833,10 @@ The following Instance Financial CRRs apply to specific assets listed:
 
 Investments in JTRSY and JAAA on Avalanche are subject to the following additional restrictions:
     
-◦ The initial deployment of capital into JTRSY and JAAA on Avalanche may not exceed 20 million USDS in total;    
-◦ Each additional deployment of capital into JTRSY or JAAA must be approved by the Stability Scope Advisors;    
-◦ Until audits of Centrifuge v3 are approved by the Protocol Security Workstream Lead, the Prime must be below a 90% Encumbrance Ratio on a pro forma basis assuming that each additional deployment of capital into JTRSY and JAAA requires 100% Instance Total CRR; and    
-◦ Total investments in JTRSY and JAAA on Avalanche may not exceed 250 million USDS.
+- The initial deployment of capital into JTRSY and JAAA on Avalanche may not exceed 20 million USDS in total;    
+- Each additional deployment of capital into JTRSY or JAAA must be approved by the Core Council Risk Advisor;    
+- Until audits of Centrifuge v3 are approved by the Protocol Security Workstream Lead, the Prime must be below a 90% Encumbrance Ratio on a pro forma basis assuming that each additional deployment of capital into JTRSY and JAAA requires 100% Instance Total CRR; and    
+- Total investments in JTRSY and JAAA on Avalanche may not exceed 250 million USDS.
 
 ###### A.3.2.2.1.1.1.5.3.2 - Restrictions On Investments On Plume [Core]  <!-- UUID: c5d70220-4797-4df9-8977-4998d4a57888 -->
 
@@ -15421,7 +15503,7 @@ The activation of the Kicker Module will be executed in the October 30, 2025 Exe
 
 #### A.3.5.2.3 - Modification [Core]  <!-- UUID: 499570de-9fae-4009-be34-c3330266030a -->
 
-The parameters of the Smart Burn Engine can be modified pursuant to the Operational Weekly Cycle. The Core Facilitator, in consultation with the Stability Scope Advisors, can propose changes to the `kbump` and `hop` parameters directly via an Executive Vote without requiring a Governance Poll. LSEV2-SKY-A-USDS rewardsDuration should always match the value of the hop parameter without requiring prior governance authorization. Changes to other parameters require a Governance Poll followed by an Executive Vote.
+The parameters of the Smart Burn Engine can be modified pursuant to the Operational Weekly Cycle. The Core Facilitator, in consultation with the Core Council Risk Advisor, can propose changes to the `kbump` and `hop` parameters directly via an Executive Vote without requiring a Governance Poll. LSEV2-SKY-A-USDS rewardsDuration should always match the value of the hop parameter without requiring prior governance authorization. Changes to other parameters require a Governance Poll followed by an Executive Vote.
 
 ### A.3.5.3 - Sky Capital [Section]  <!-- UUID: f45ca50a-e1d3-4504-8e40-dd45b5fb3f83 -->
 
@@ -16122,7 +16204,7 @@ The Stability Parameter Bounded External Access Module (SP-BEAM) Operator is a w
 
 ###### A.3.7.1.3.5.1 - Operator Multisig [Core]  <!-- UUID: f0cc7297-8ab9-4255-9365-d9ba87764f13 -->
 
-The Operator Multisig is the Operator of the Stability Parameter Bounded External Access Module and is controlled by Core Executor Agent Atlas Axis.
+The Operator Multisig is the Operator of the Stability Parameter Bounded External Access Module and is controlled by Core GovOps.
 
 ###### A.3.7.1.3.5.1.1 - Operator Multisig Address [Core]  <!-- UUID: 793d4595-9f1f-4387-a3a6-b9c7b20266c3 -->
 
@@ -16134,7 +16216,7 @@ The Operator Multisig currently has a 2/3 signing requirement.
 
 ###### A.3.7.1.3.5.1.3 - Operator Multisig Signers [Core]  <!-- UUID: 154be1f7-3e96-417a-b125-f978c47e2301 -->
 
-The signers of the Operator Multisig are three (3) addresses controlled by Core Executor Agent Atlas Axis.
+The signers of the Operator Multisig are three (3) addresses controlled by Core GovOps.
 
 ###### A.3.7.1.3.5.1.4 - Operator Multisig Usage Standards [Core]  <!-- UUID: 9e2f39aa-0568-46a3-ad5c-898eba6e50c0 -->
 
@@ -16142,7 +16224,7 @@ The signers of the Operator Multisig must use the multisig to operate the Stabil
 
 ###### A.3.7.1.3.5.1.5 - Operator Multisig Modification [Core]  <!-- UUID: 24b8a5d0-b2b0-4bdf-94cf-f873d7468d48 -->
 
-Core Executor Agent Atlas Axis can change the signers of the Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
+Core GovOps can change the signers of the Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
 
 ###### A.3.7.1.3.5.2 - Operator Update Process [Core]  <!-- UUID: ae2b5d27-b666-4796-8791-b59d151daf41 -->
 
@@ -16897,7 +16979,7 @@ The stUSDS BEAM parameters for the `duty` stUSDS parameter are as follows:
 
 ###### A.4.4.1.3.8.3 - Parameter Adjustments [Core]  <!-- UUID: 91152a4b-6f97-4b8a-831a-0f85c16a78ab -->
 
-All stUSDS BEAM parameters can be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
+All stUSDS BEAM parameters can be modified by Core GovOps, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
 
 ###### A.4.4.1.3.8.3.1 - Operators [Core]  <!-- UUID: 8fd15f15-c8cd-480d-86b7-cad524cfa9f1 -->
 
@@ -16905,7 +16987,7 @@ The stUSDS BEAM Operators are whitelisted entities that can directly alter the s
 
 ###### A.4.4.1.3.8.3.1.1 - Operator Multisig [Core]  <!-- UUID: ee9e13e0-23ca-41a3-a1d1-0f1181882c84 -->
 
-The Operator Multisig is an Operator of the stUSDS BEAM and is controlled by Core Executor Agent Atlas Axis.
+The Operator Multisig is an Operator of the stUSDS BEAM and is controlled by Core GovOps.
 
 ###### A.4.4.1.3.8.3.1.1.1 - Operator Multisig Address [Core]  <!-- UUID: 45679e08-a575-444a-8fae-d7ef6472b073 -->
 
@@ -16917,7 +16999,7 @@ The Operator Multisig currently has a 2/3 signing requirement.
 
 ###### A.4.4.1.3.8.3.1.1.3 - Operator Multisig Signers [Core]  <!-- UUID: a9a7503a-d4e2-474f-bbbe-51b45385a00f -->
 
-The signers of the Operator Multisig are three (3) addresses controlled by Core Executor Agent Atlas Axis.
+The signers of the Operator Multisig are three (3) addresses controlled by Core GovOps.
 
 ###### A.4.4.1.3.8.3.1.1.4 - Operator Multisig Usage Standards [Core]  <!-- UUID: 71e28a28-82b9-43eb-9e93-6aee2d5bbbc0 -->
 
@@ -16925,11 +17007,11 @@ The signers of the Operator Multisig must use the multisig to operate the stUSDS
 
 ###### A.4.4.1.3.8.3.1.1.5 - Operator Multisig Modification [Core]  <!-- UUID: 303ccb86-1411-409f-a3e4-1193e0aa7b9a -->
 
-Core Executor Agent Atlas Axis can change the signers of the Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
+Core GovOps can change the signers of the Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
 
 ###### A.4.4.1.3.8.3.1.2 - Operator Hot Wallet [Core]  <!-- UUID: bddf50ca-02ef-4991-abb0-53e09831ee6f -->
 
-The Operator Hot Wallet is a hot wallet controlled by a bot that will update stUSDS parameters on an automated basis as specified in [A.4.4.1.3.8.3.2.3 - Automatic Updates By Operator Hot Wallet](a6e1735f-bd82-4ab6-982b-218013c3455f). The wallet is controlled by Ecosystem Actor TechOps Services under the supervision of Core Executor Agent Atlas Axis in consultation with the Core Council Risk Advisor. The addition of the Hot Wallet as an Operator of the stUSDS BEAM is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+The Operator Hot Wallet is a hot wallet controlled by a bot that will update stUSDS parameters on an automated basis as specified in [A.4.4.1.3.8.3.2.3 - Automatic Updates By Operator Hot Wallet](a6e1735f-bd82-4ab6-982b-218013c3455f). The wallet is controlled by Ecosystem Actor TechOps Services under the supervision of Core GovOps in consultation with the Core Council Risk Advisor. The addition of the Hot Wallet as an Operator of the stUSDS BEAM is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
 ###### A.4.4.1.3.8.3.1.2.1 - Operator Hot Wallet Address [Core]  <!-- UUID: bc29e096-972c-4bcc-b589-dad148374d33 -->
 
@@ -16946,7 +17028,7 @@ These changes are authorized to proceed directly to an Executive Vote without a 
 
 ###### A.4.4.1.3.8.3.1.3 - Operator Update Process [Core]  <!-- UUID: 64d7e377-9870-4563-a073-768bb7d259a4 -->
 
-stUSDS BEAM Operators can be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
+stUSDS BEAM Operators can be modified by Core GovOps, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
 
 ###### A.4.4.1.3.8.3.2 - Update Process [Core]  <!-- UUID: 7e58f5eb-c339-4f04-aca8-681e9acd0752 -->
 
@@ -38820,10 +38902,6 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.2 - Sky.money Open Source Widgets Instance Configuration Document](5aada153-29f6-4304-b56e-9d425dc978a4).
 
-###### A.6.1.1.4.2.5.1.1.2.3 - Summer.fi Instance Configuration Document Location [Core]  <!-- UUID: 0e6a80cb-041c-4dc1-a22b-91fda88ecd92 -->
-
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.3 - Summer.fi Instance Configuration Document](fd9c7ace-e72c-4ffb-a74e-7106a0dde80b).
-
 ###### A.6.1.1.4.2.5.1.1.2.4 - DeFi Saver Instance Configuration Document Location [Core]  <!-- UUID: a8442e7e-67ee-43a2-b0b6-6e18db4bbb41 -->
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.4 - DeFi Saver Instance Configuration Document](9907bb75-f389-42bb-8fe4-e03ff3039c46).
@@ -38851,6 +38929,10 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 ###### A.6.1.1.4.2.5.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 3c43db85-3995-4c95-a85c-e72786a28501 -->
 
 This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of `Completed`.
+
+###### A.6.1.1.4.2.5.1.1.3.1 - Summer.fi Instance Configuration Document Location [Core]  <!-- UUID: 0e6a80cb-041c-4dc1-a22b-91fda88ecd92 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.3.1 - Summer.fi Instance Configuration Document](fd9c7ace-e72c-4ffb-a74e-7106a0dde80b).
 
 ###### A.6.1.1.4.2.5.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 95beed80-4199-4c08-82bd-0ae7827c98b0 -->
 
@@ -39050,102 +39132,6 @@ The Active Data is updated as follows:
 ###### A.6.1.1.4.2.5.1.2.2.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: ad573b24-befc-49f9-be30-6c65f8986c61 -->
 
 The Distribution Reward Payments are:
-
-###### A.6.1.1.4.2.5.1.2.3 - Summer.fi Instance Configuration Document [Core]  <!-- UUID: fd9c7ace-e72c-4ffb-a74e-7106a0dde80b -->
-
-The documents herein contain the Instance Configuration Document for the Summer.fi Distribution Reward Primitive Instance.
-
-###### A.6.1.1.4.2.5.1.2.3.1 - Parameters [Core]  <!-- UUID: a2cbe867-bc51-4a3c-82b6-d921e2b0a4fc -->
-
-The documents herein define the parameters of the Summer.fi Instance of the Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.2.3.1.1 - Reward Code [Core]  <!-- UUID: 1e8b16e7-b10e-4da7-936d-5cffbac57571 -->
-
-`1001`.
-
-###### A.6.1.1.4.2.5.1.2.3.1.2 - Tracking Methodology [Core]  <!-- UUID: 8abb90c2-c62d-4dbd-96b5-d4e447a3bc4d -->
-
-This Instance uses the Tracking Methodology specified in [A.2.2.8.1.2.1.2.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2).
-
-###### A.6.1.1.4.2.5.1.2.3.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 80314c99-0e54-4449-88a0-828e86da92c5 -->
-
-The documents herein define the custom parameters of the Summer.fi Instance of the Distribution Reward Primitive, if any.
-
-###### A.6.1.1.4.2.5.1.2.3.2 - Operational Process Definition [Core]  <!-- UUID: 7d73baad-0128-460d-b3b3-6b18ba86e755 -->
-
-The documents herein define the process for the ongoing management of the Summer.fi Instance of the Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.2.3.2.1 - Routine Protocol [Core]  <!-- UUID: de64fb0f-e867-495f-9e43-c197072e1c3d -->
-
-This document defines the protocol for routine ongoing management of the Summer.fi Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
-
-Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
-
-###### A.6.1.1.4.2.5.1.2.3.2.1.1 - Agent Customizations [Core]  <!-- UUID: 216473d9-6f63-45ff-aa7b-a6bec64dd6dc -->
-
-The Prime Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
-
-[No customization presently.]
-
-###### A.6.1.1.4.2.5.1.2.3.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 47306338-2f28-4c95-b0d3-843744e04165 -->
-
-The documents herein define the protocol for non-routine ongoing management of the Summer.fi Instance of this Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.2.3.2.3 - Emergency Protocol [Core]  <!-- UUID: 41233dc2-c7d4-4cd4-9e23-cebbbbfaa9ce -->
-
-The documents herein define the protocol for handling emergency situations in the ongoing management of the Summer.fi Instance of this Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.2.3.3 - Data Repository [Core]  <!-- UUID: 72bc2ff0-df12-4156-8300-5c6a09badccf -->
-
-The documents herein contain data relevant to the Summer.fi Instance of the Distribution Reward Primitive.
-
-###### A.6.1.1.4.2.5.1.2.3.3.1 - Initial Planning [Core]  <!-- UUID: dabb169a-e7d5-44c2-9ed8-f0936aa9c22a -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.3.3.2 - Operational GovOps Review [Core]  <!-- UUID: cc50de8e-ac63-4254-bb24-8a4247b8d2b5 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.3.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: bff7bad8-b9c9-4fb7-ae9c-08137f427f36 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.3.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 7cc02e97-e849-4f19-81bc-2fc85ccd2361 -->
-
-The Distribution Reward payments for the Summer.fi Instance of the Distribution Reward Primitive are defined as Active Data.
-
-The Active Data is updated as follows:
-
-- The Responsible Party is Operational GovOps.
-- The Update Process must follow the protocol for ‘Direct Edit’.
-
-###### A.6.1.1.4.2.5.1.2.3.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 289e8b48-d1ae-43d0-a9a5-b66672caacde -->
-
-The Distribution Reward Payments are:
-
-###### A.6.1.1.4.2.5.1.2.3.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 73fc6f80-ac05-423f-ac58-e22dbfa8de3f -->
-
-This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
-
-The Active Data is updated as follows:
-
-- The Responsible Party is Operational GovOps.
-- The Update Process must follow the protocol for ‘Direct Edit’.
-
-###### A.6.1.1.4.2.5.1.2.3.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 1b25a9fd-1bb0-4425-b9a1-372f737d3a45 -->
-
-The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
-- Reward Period
-- Payee
-- Payment Address
-- Amount Paid
-- Transaction Hash
-- Transaction Date
-
-###### A.6.1.1.4.2.5.1.2.3.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: cc82491d-cabb-42dd-a63a-4b3c23ee55f0 -->
-
-Summer.fi - `0xC7b548AD9Cf38721810246C079b2d8083aba8909`
 
 ###### A.6.1.1.4.2.5.1.2.4 - DeFi Saver Instance Configuration Document [Core]  <!-- UUID: 9907bb75-f389-42bb-8fe4-e03ff3039c46 -->
 
@@ -39727,6 +39713,102 @@ The payment address of this Third Party Partner will be defined in a future iter
 ###### A.6.1.1.4.2.5.1.3 - Completed Instances [Core]  <!-- UUID: 44389e6f-b48e-4426-a6c8-110ec76ebea1 -->
 
 The Instances of the Distribution Reward Primitive with `Completed` Status are stored herein.
+
+###### A.6.1.1.4.2.5.1.3.1 - Summer.fi Instance Configuration Document [Core]  <!-- UUID: fd9c7ace-e72c-4ffb-a74e-7106a0dde80b -->
+
+The documents herein contain the Instance Configuration Document for the Summer.fi Distribution Reward Primitive Instance.
+
+###### A.6.1.1.4.2.5.1.3.1.1 - Parameters [Core]  <!-- UUID: a2cbe867-bc51-4a3c-82b6-d921e2b0a4fc -->
+
+The documents herein define the parameters of the Summer.fi Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.3.1.1.1 - Reward Code [Core]  <!-- UUID: 1e8b16e7-b10e-4da7-936d-5cffbac57571 -->
+
+`1001`.
+
+###### A.6.1.1.4.2.5.1.3.1.1.2 - Tracking Methodology [Core]  <!-- UUID: 8abb90c2-c62d-4dbd-96b5-d4e447a3bc4d -->
+
+This Instance uses the Tracking Methodology specified in [A.2.2.8.1.2.1.2.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2).
+
+###### A.6.1.1.4.2.5.1.3.1.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 80314c99-0e54-4449-88a0-828e86da92c5 -->
+
+The documents herein define the custom parameters of the Summer.fi Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.4.2.5.1.3.1.1.2 - Operational Process Definition [Core]  <!-- UUID: 7d73baad-0128-460d-b3b3-6b18ba86e755 -->
+
+The documents herein define the process for the ongoing management of the Summer.fi Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.3.1.1.2.1 - Routine Protocol [Core]  <!-- UUID: de64fb0f-e867-495f-9e43-c197072e1c3d -->
+
+This document defines the protocol for routine ongoing management of the Summer.fi Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.4.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
+
+###### A.6.1.1.4.2.5.1.3.1.1.2.1.1 - Agent Customizations [Core]  <!-- UUID: 216473d9-6f63-45ff-aa7b-a6bec64dd6dc -->
+
+The Prime Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.4.2.5.1.3.1.2 - Non-Routine Protocol [Core]  <!-- UUID: 47306338-2f28-4c95-b0d3-843744e04165 -->
+
+The documents herein define the protocol for non-routine ongoing management of the Summer.fi Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.3.1.3 - Emergency Protocol [Core]  <!-- UUID: 41233dc2-c7d4-4cd4-9e23-cebbbbfaa9ce -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Summer.fi Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.3.1.4 - Data Repository [Core]  <!-- UUID: 72bc2ff0-df12-4156-8300-5c6a09badccf -->
+
+The documents herein contain data relevant to the Summer.fi Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.3.1.4.1 - Initial Planning [Core]  <!-- UUID: dabb169a-e7d5-44c2-9ed8-f0936aa9c22a -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.3.1.4.2 - Operational GovOps Review [Core]  <!-- UUID: cc50de8e-ac63-4254-bb24-8a4247b8d2b5 -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.3.1.4.3 - Artifact Edit Proposal [Core]  <!-- UUID: bff7bad8-b9c9-4fb7-ae9c-08137f427f36 -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.3.1.4.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 7cc02e97-e849-4f19-81bc-2fc85ccd2361 -->
+
+The Distribution Reward payments for the Summer.fi Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for ‘Direct Edit’.
+
+###### A.6.1.1.4.2.5.1.3.1.4.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 289e8b48-d1ae-43d0-a9a5-b66672caacde -->
+
+The Distribution Reward Payments are:
+
+###### A.6.1.1.4.2.5.1.3.1.4.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 73fc6f80-ac05-423f-ac58-e22dbfa8de3f -->
+
+This Document records information pertaining to Skybase’s payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for ‘Direct Edit’.
+
+###### A.6.1.1.4.2.5.1.3.1.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 1b25a9fd-1bb0-4425-b9a1-372f737d3a45 -->
+
+The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+- Reward Period
+- Payee
+- Payment Address
+- Amount Paid
+- Transaction Hash
+- Transaction Date
+
+###### A.6.1.1.4.2.5.1.3.1.4.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: cc82491d-cabb-42dd-a63a-4b3c23ee55f0 -->
+
+Summer.fi - `0xC7b548AD9Cf38721810246C079b2d8083aba8909`
 
 ###### A.6.1.1.4.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: 05362fab-8fc5-487c-af2e-b6ebf6f4445e -->
 
