@@ -1768,13 +1768,13 @@ As part of the formal adjudication of AC misalignment or operational security br
 
 The opportunity to respond should include sufficient time to prepare a response, the ability to submit information or evidence, and reasonable access to any information pertinent to the allegation. Where an internal or external whistleblower has provided evidence of potential AC misalignment, the Core Facilitator should keep the whistleblower’s identity confidential.
 
-#### A.1.4.9.1 - Graduated Response Framework For Breaches By Aligned Delegates [Core]  <!-- UUID: 9927fb45-c95f-48c2-8eb3-aa816aba66cb -->
-
-In cases of breaches of the Alignment Conserver requirements by Aligned Delegates, the Graduated Response Framework specified in [A.1.5.6.1 - Graduated Response Framework](2544a530-42f8-4699-b428-7c3568e1635e) should be applied.
-
 #### A.1.4.9.2 - Imposing Appropriate Penalty [Core]  <!-- UUID: fad2c7d1-4fe0-44e5-a1f7-c551882d78da -->
 
 If the Core Facilitator concludes that the allegation of misalignment or operational security breach was justified, they can impose an appropriate penalty up to and including derecognition of the Alignment Conserver.
+
+##### A.1.4.9.2.1 - Graduated Response Framework For Breaches By Aligned Delegates [Core]  <!-- UUID: 9927fb45-c95f-48c2-8eb3-aa816aba66cb -->
+
+In cases of breaches of the Alignment Conserver requirements by Aligned Delegates, the Graduated Response Framework specified in [A.1.5.6.1 - Graduated Response Framework](2544a530-42f8-4699-b428-7c3568e1635e) should be applied.
 
 ##### A.1.4.9.2.2 - Mandated Derecognition For Severe Breaches [Core]  <!-- UUID: 12044fd7-4cfa-4431-aa03-a9531353c6dd -->
 
@@ -1947,7 +1947,7 @@ The Core Facilitator applies heightened accountability standards to Aligned Dele
 
 During the Probationary Period, a Tier 1 (Procedural) breach (as defined in [A.1.5.6.1.1 - Tier 1 (Procedural) Breaches](ec29c919-2294-45b3-a2cd-e48dd9422539) results in immediate derecognition without the requirement of a prior formal warning.
 
-#### A.1.5.1.4 - List Of Recognized Aligned Delegates [Active Data Controller]  <!-- UUID: 79e4e209-2925-4074-95f5-28544117c680 -->
+#### A.1.5.1.5 - List Of Recognized Aligned Delegates [Active Data Controller]  <!-- UUID: 79e4e209-2925-4074-95f5-28544117c680 -->
 
 The list of currently recognized Aligned Delegates is defined as Active Data in [A.1.5.1.4.0.6.1 - Current Aligned Delegates](5f584db8-f8d8-4118-988c-b2bc3f68ceb7).
 
@@ -1957,7 +1957,7 @@ The Active Data is updated as follows:
 
 - The Update Process must follow the protocol for ‘Alignment Conserver Changes’.
 
-##### A.1.5.1.4.0.6.1 - Current Aligned Delegates [Active Data]  <!-- UUID: 5f584db8-f8d8-4118-988c-b2bc3f68ceb7 -->
+##### A.1.5.1.5.0.6.1 - Current Aligned Delegates [Active Data]  <!-- UUID: 5f584db8-f8d8-4118-988c-b2bc3f68ceb7 -->
 
 | Delegate Name      | EA Address                                                                                                                                     | Delegation Contract                                                                                                                                | Forum Post                                                                 |  
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|  
