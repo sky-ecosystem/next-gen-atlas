@@ -41273,6 +41273,10 @@ The documents herein organize all base information relevant to Skybase's usage o
 
 This document contains a Directory of all Instances of the Core Governance Reward Primitive with Instance status of `Active`.
 
+###### A.6.1.1.4.2.7.1.1.2.1 - Sky.money Frontend Instance Configuration Document Location [Core]  <!-- UUID: 07f7da42-c12c-4ee1-a45a-7cc342ef5ff2 -->
+
+This Instance's associated Instance Configuration Document is located at [Sky.money Frontend Instance Configuration Document](33a977ad-77eb-45f6-850e-4d00eed8d049).
+
 ###### A.6.1.1.4.2.7.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: ed1c95ef-c156-473d-9c9e-b78c84bc2feb -->
 
 This document contains a Directory of all Instances of the Core Governance Reward Primitive with Instance status of `Completed`.
@@ -41300,6 +41304,58 @@ The subtrees for Instances of the Core Governance Reward Primitive with `Suspend
 ###### A.6.1.1.4.2.7.1.2 - Active Instances [Core]  <!-- UUID: 2e2b5ba1-329c-4654-9628-5e5bc50da4d7 -->
 
 The Instances of the Core Governance Reward Primitive with `Active` Status are stored herein.
+
+###### A.6.1.1.4.2.7.1.2.1 - Sky.money Frontend Instance Configuration Document [Core]  <!-- UUID: 33a977ad-77eb-45f6-850e-4d00eed8d049 -->
+
+The documents herein contain the Instance Configuration Document for the Sky.money Frontend Core Governance Reward Primitive Instance.
+
+###### A.6.1.1.4.2.7.1.2.1.1 - Parameters [Core]  <!-- UUID: 715c34a9-79fa-42ab-9e6b-f0f045544cc6 -->
+
+The documents herein define the parameters of the Sky.money Frontend Instance of the Core Governance Reward Primitive.
+
+###### A.6.1.1.4.2.7.1.2.1.1.1 - Reward Code [Core]  <!-- UUID: ecd6843d-d1a3-43d8-af2c-af5fc8d9045f -->
+
+`1`.
+
+###### A.6.1.1.4.2.7.1.2.1.1.2 - Tracking Methodology [Core]  <!-- UUID: e7a6dd83-4b9f-41db-8506-dede902828ce -->
+
+This Instance uses the Tracking Methodology specified in [A.2.2.10.1.4.2.1 - Tracking Via Reward Codes](b16cb8a3-aea3-4fda-b904-eb782ea7a8e1).
+
+###### A.6.1.1.4.2.7.1.2.1.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 228f89fd-a51e-413a-b42b-e117414891be -->
+
+The documents herein define the custom parameters of the Sky.money Frontend Instance of the Core Governance Reward Primitive, if any.
+
+###### A.6.1.1.4.2.7.1.2.1.1.3.1 - Integrator Recipient [Core]  <!-- UUID: 56de7bd0-062d-46f5-acca-6b4466d15777 -->
+
+The Integrator is Sky.money Frontend, which is controlled by Skybase. As such, no additional Integrator payment will be made.
+
+###### A.6.1.1.4.2.7.1.2.1.2 - Data Repository [Core]  <!-- UUID: 3f0387c9-2a45-47f1-8f5e-1cdfa273f237 -->
+
+The documents herein contain data relevant to the Sky.money Frontend Instance of the Core Governance Reward Primitive.
+
+###### A.6.1.1.4.2.7.1.2.1.2.1 - Core Governance Reward Payments And Transaction Records [Active Data Controller]  <!-- UUID: 3dc7cce4-1e15-43e4-907c-d4a074a3531a -->
+
+This Document records information pertaining to payments received by Skybase for Governance Rewards associated with this Instance. This information is defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.6.1.1.4.2.7.1.2.1.2.1.0.6.1 - List Of Core Governance Reward Payments [Active Data]  <!-- UUID: adcc7123-ee48-48ae-be34-f6c94b5a973c -->
+
+The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
+- Reward Period
+- Payee (Skybase)
+- Payment Address
+- Amount Paid
+- Transaction Hash
+- Transaction Date
+
+###### A.6.1.1.4.2.7.1.2.1.2.1.0.6.2 - Governance Reward Payment Address [Active Data]  <!-- UUID: 7d57bc04-a81b-4007-aa2e-8d78ba4ecc52 -->
+
+The Sky.money Frontend Governance Reward payment address is Skybase's SubProxy Account on Ethereum Mainnet: `0x08978E3700859E476201c1D7438B3427e3C81140`.
 
 ###### A.6.1.1.4.2.7.1.3 - Completed Instances [Core]  <!-- UUID: 81228652-c70b-42db-bed4-8fbe4c35695f -->
 
