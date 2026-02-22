@@ -47895,7 +47895,7 @@ The documents herein contain all data and specifications for Launch Agent 7's In
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Asset Liability Management Rental Primitive.
 
-###### A.6.1.1.8.2.6.3.1.1 - Global Activation Status
+###### A.6.1.1.8.2.6.3.1.1 - Global Activation Status [Core]  <!-- UUID: 7444959d-c9aa-4e09-8df3-cbc3dd33b5b8 -->
 
 `Inactive`
 
