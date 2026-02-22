@@ -1941,7 +1941,7 @@ Title: AD Recognition Submission
 
 #### A.1.5.1.4 - Probationary Period [Core]  <!-- UUID: 66183cd4-0cf7-4ba5-bfde-373e50296cf6 -->
 
-The Core Facilitator applies heightened accountability standards to Aligned Delegates during their first 90 days following recognition (the “Probationary Period”) as specified in the documents herein.
+The Core Facilitator applies heightened accountability standards to Aligned Delegates during their first 90 days following recognition (the "Probationary Period") as specified in the documents herein.
 
 ##### A.1.5.1.4.1 - Heightened Accountability Standards During Probationary Period [Core]  <!-- UUID: 3a9bb8d7-be3f-4f52-be1e-ad6ba7515b33 -->
 
@@ -2000,7 +2000,7 @@ This provision does not establish a specific numerical threshold for excessive a
 
 Aligned Delegates must provide substantive reasoning when explaining their votes. A compliant vote explanation must:
 
-1. Demonstrate understanding of the proposal’s core mechanisms or changes;
+1. Demonstrate understanding of the proposal's core mechanisms or changes;
 2. Articulate a reasoned basis for the vote position; and
 3. Address at least one substantive aspect of the proposal (benefits, risks, implementation, or alignment with ecosystem goals).
 
@@ -2246,7 +2246,7 @@ Tier 2 breaches involve fundamental failures of integrity that are incompatible 
 6. Voting against an Executive Vote that only contains content already approved in the Atlas and does not fail Spell validation; and
 7. Estoppel violations as defined in [A.1.5.6.2 - Voting Estoppel Rule](c1a5d22a-c30c-4445-80eb-caf3bd908d28).
 
-A Tier 2 breach results in immediate derecognition regardless of the Aligned Delegate’s prior record.
+A Tier 2 breach results in immediate derecognition regardless of the Aligned Delegate's prior record.
 
 ###### A.1.5.6.1.2.0.3.1 - Good-Faith Criticism - Element Annotation [Annotation]  <!-- UUID: 3cd0735f-c1e5-4592-8878-674bbcc9d7ac -->
 
@@ -47243,7 +47243,7 @@ The documents herein contain all data and specifications for Launch Agent 7's In
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Light Agent Primitive.
 
-###### A.6.1.1.8.2.2.3.1.1 - Glovbal Activation Status [Core]  <!-- UUID: 8d69c6f7-299f-470f-97fd-ba16bc3077b6 -->
+###### A.6.1.1.8.2.2.3.1.1 - Global Activation Status [Core]  <!-- UUID: 8d69c6f7-299f-470f-97fd-ba16bc3077b6 -->
 
 `Inactive`
 
@@ -47351,7 +47351,7 @@ The documents herein define the parameters of the Single Instance of the Distrib
 
 Launch Agent 7 will buy back and distribute 0.25% of its total token supply per year.
 
-###### A.6.1.1.8.2.3.1.2.1.1.2 - Custom Instance Paramters [Core]  <!-- UUID: f5b52d8f-a131-428a-bc3b-bd87d2493ecb -->
+###### A.6.1.1.8.2.3.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: f5b52d8f-a131-428a-bc3b-bd87d2493ecb -->
 
 The documents herein define the custom parameters of the Single Instance of the Distribution Requirement Primitive, if any.
 
@@ -47855,7 +47855,7 @@ This document contains a Directory of all Instances of the Junior Risk Capital R
 
 This document contains a Directory of all Instances of the Junior Risk Capital Rental Primitive with Instance status of `Completed`.
 
-###### A.6.1.1.8.2.6.2.1.4 - In Progress Invocations Director [Core]  <!-- UUID: 86ca0f50-a33b-4068-abd4-3f6a3adb9874 -->
+###### A.6.1.1.8.2.6.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 86ca0f50-a33b-4068-abd4-3f6a3adb9874 -->
 
 This document contains a Directory of all prospective Instances of the Junior Risk Capital Rental Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.6.2.1.2 - Active Instances Directory](56655922-1c77-40f7-83f4-3b9af9dc0c59), whereas failed Invocations are Archived in [A.6.1.1.8.2.6.2.1.5 - Hub Data Repository](c054e1a5-5ea9-4f95-a469-d357bc30cd41).
 
