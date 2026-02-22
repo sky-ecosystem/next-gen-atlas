@@ -4902,7 +4902,7 @@ The Solana LayerZero Freezer Multisig has a 2/4 signing requirement.
 
 ###### A.1.9.4.1.3.1.2.3 - Solana LayerZero Freezer Multisig Signers [Core]  <!-- UUID: a9f95fb4-690e-43c2-a231-b8705d62036d -->
 
-The signers of the Solana LayerZero Freezer Multisig are two (2) addresses controlled by Amatsu and two (2) addresses controlled by Keel.
+The signers of the Solana LayerZero Freezer Multisig are two (2) addresses controlled by Operational GovOps Soter Labs and two (2) addresses controlled by Keel.
 
 ###### A.1.9.4.1.3.1.2.4 - Solana LayerZero Freezer Multisig Usage Standards [Core]  <!-- UUID: 9f845d09-4304-4aa7-8bd0-2dda747e52e6 -->
 
@@ -4914,13 +4914,11 @@ The Core Council must ensure that use of the multisig is generally aligned and s
 
 ###### A.1.9.4.1.3.1.2.5 - Solana LayerZero Freezer Multisig Modification [Core]  <!-- UUID: b70ebff7-355c-46c2-bc36-f08561c5ded1 -->
 
-- Amatsu and Keel can change the signers of the Solana LayerZero Freezer Multisig so long as:
+Amatsu and Keel can change the signers of the Solana LayerZero Freezer Multisig so long as:
 
-    ◦ there are four (4) signers;
-
-    ◦ two (2) signers are required to execute transactions; and
-
-    ◦ an equal number of signers are controlled by Amatsu and Keel.
+- there are four (4) signers;
+- two (2) signers are required to execute transactions; and
+- an equal number of signers are controlled by Operational GovOps Soter Labs and Keel.
 
 ###### A.1.9.4.1.3.2 - Rate Limits [Core]  <!-- UUID: 36626f77-52da-4bb6-9e32-851420133922 -->
 
@@ -7451,7 +7449,7 @@ The documents herein define the treasury management process.
 
 ###### A.2.2.8.1.2.1.4.3.1 - Near-Term Process [Core]  <!-- UUID: 05fb732b-de55-4886-81a7-7c5d4c13d2d2 -->
 
-In the near term, Amatsu calculates the Distribution Reward on behalf of the Support Facilitators. The Accessibility Facilitators then pay the Distribution Reward from the Distribution Reward Controller Wallet located on the Ethereum Mainnet at `0x05F471262d15EECA4059DadE070e5BEd509a4e73` within seven (7) days of the end of every month. The balance of this wallet may be topped up to 3 million USDS. This funding is subject to an Executive Vote.
+In the near term, Denna Labs calculates the Distribution Reward on behalf of the Support Facilitators. The Accessibility Facilitators then pay the Distribution Reward from the Distribution Reward Controller Wallet located on the Ethereum Mainnet at `0x05F471262d15EECA4059DadE070e5BEd509a4e73` within seven (7) days of the end of every month. The balance of this wallet may be topped up to 3 million USDS. This funding is subject to an Executive Vote.
 
 ###### A.2.2.8.1.2.1.4.3.2 - Long Term Process [Core]  <!-- UUID: 07953e87-c201-4ad5-9c1e-b32efc5fba94 -->
 
@@ -18129,7 +18127,7 @@ The documents herein define the parameters of the Amatsu Instance of the Executo
 
 ###### A.6.1.1.1.2.2.1.2.1.1.1 - Operational Executor Agent [Core]  <!-- UUID: 7deff9e4-fa77-4f35-aac6-c73b3d014091 -->
 
-In the near term Amatsu will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.
+The Operational Facilitator and Operational GovOps for Amatsu are specified in [A.6.1.2.1 - Operational Executor Agent Amatsu](c57df14a-fde0-43f3-89ed-c2e4981d6bd5).
 
 ###### A.6.1.1.1.2.2.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: df6dc78f-3340-4659-a1d8-60df78f6325e -->
 
@@ -19878,7 +19876,7 @@ Ecosystem Actor Phoenix Labs can change the signers of the Prime Relayer Multisi
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.2 - Core Operator Relayer Multisig [Core]  <!-- UUID: 8286092a-69f2-46af-a989-c694a1756753 -->
 
-The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.1.2.6.1.2.2.1.1.2 - Relayer Role](cc2f7956-90ce-4025-9642-bfe403dc3ccc) and is jointly controlled by Amatsu and the Spark Assets Foundation in accordance with [A.6.1.1.1.2.1.1.3.1.1.4.3 - Spark Assets Foundation](4d70e4a7-6f65-421c-b22a-ac5a6eae8170).
+The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.1.2.6.1.2.2.1.1.2 - Relayer Role](cc2f7956-90ce-4025-9642-bfe403dc3ccc) and is jointly controlled by Operational GovOps Soter Labs and the Spark Assets Foundation in accordance with [A.6.1.1.1.2.1.1.3.1.1.4.3 - Spark Assets Foundation](4d70e4a7-6f65-421c-b22a-ac5a6eae8170).
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.2.1 - Address [Core]  <!-- UUID: 567e4905-2b05-493e-95ac-8a4d20afed2b -->
 
@@ -19892,7 +19890,7 @@ The Core Operator Relayer Multisig currently has a 2/5 signing requirement.
 
 The Core Operator Relayer Multisig comprises the following signers:
 
-- Amatsu: 2 signers
+- Operational GovOps Soter Labs: 2 signers
 - Spark Assets Foundation (SAF): 2 signers
 - Phoenix Labs (PL): 1 signer
 
@@ -19904,7 +19902,7 @@ The signers of the Core Operator Relayer Multisig must use the multisig to exerc
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.2.5 - Modification [Core]  <!-- UUID: 31c59017-769f-4a5b-88f7-8bef200dcc71 -->
 
-Ecosystem Actor Amatsu can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
+Operational GovOps Soter Labs can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.3 - Freezer Multisig [Core]  <!-- UUID: c805c872-05df-4157-a869-dff28535bf81 -->
 
@@ -19928,7 +19926,7 @@ The Freezer Multisig has the following signers:
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.3.4 - Usage Standards [Core]  <!-- UUID: 4c33239e-59c9-4d5b-8872-bf7176d205dc -->
 
-The signers of the Freezer Multisig should exercise their authority to freeze the Spark Liquidity Layer in the event that Spark is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency. The signers should consult with Ecosystem Actor Amatsu before exercising such authority, unless such consultation would cause a delay that could result in a loss of user funds or harm to Sky or Spark. Ecosystem Actor Amatsu may also ask the signers to exercise the Freezer Multisig in an emergency. The signers will work with Amatsu and, if necessary, other Ecosystem Actors, in good faith in determining whether to exercise their authority based on such request. 
+The signers of the Freezer Multisig should exercise their authority to freeze the Spark Liquidity Layer in the event that Spark is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency. The signers should consult with Operational GovOps Soter Labs before exercising such authority, unless such consultation would cause a delay that could result in a loss of user funds or harm to Sky or Spark. Operational GovOps Soter Labs may also ask the signers to exercise the Freezer Multisig in an emergency. The signers will work with Operational GovOps Soter Labs and, if necessary, other Ecosystem Actors, in good faith in determining whether to exercise their authority based on such request.
 
 Each action executed by the Freezer Multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum.
 
@@ -28560,7 +28558,7 @@ The documents herein define the parameters of the Amatsu Instance of the Executo
 
 ###### A.6.1.1.2.2.2.1.2.1.1.1 - Operational Executor Agent [Core]  <!-- UUID: cae67502-6f93-462f-82b6-0a6462e71e1c -->
 
-In the near term Amatsu will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.
+The Operational Facilitator and Operational GovOps for Amatsu are specified in [A.6.1.2.1 - Operational Executor Agent Amatsu](c57df14a-fde0-43f3-89ed-c2e4981d6bd5).
 
 ###### A.6.1.1.2.2.2.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 5821d38f-b791-47f1-9c96-9517cd61f848 -->
 
@@ -29936,7 +29934,7 @@ Grove can change the signers of the Prime Secondary Relayer Multisig at any time
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.3 - Core Operator Relayer Multisig [Core]  <!-- UUID: be75c381-80e1-4c95-8b8b-e990f00a178e -->
 
-The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.2 - Relayer Role](4639e60c-111f-4018-bc8d-501b88c20edd), and is controlled by Amatsu.
+The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.2 - Relayer Role](4639e60c-111f-4018-bc8d-501b88c20edd), and is controlled by Operational GovOps Soter Labs.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.3.1 - Address [Core]  <!-- UUID: 712e0f02-b787-4812-8d67-60a81449b238 -->
 
@@ -29948,7 +29946,7 @@ The Core Operator Relayer Multisig currently has a 2/3 signing requirement.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.3.3 - Signers [Core]  <!-- UUID: 7a7df887-8cdf-447e-8d8e-aad3360c7417 -->
 
-The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Amatsu.
+The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Soter Labs.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.3.4 - Usage Standards [Core]  <!-- UUID: 2014eee2-c5e7-4da7-8925-04b5e4bfd6f5 -->
 
@@ -29956,7 +29954,7 @@ The signers of the Core Operator Relayer Multisig must use the Multisig to exerc
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.3.5 - Modification [Core]  <!-- UUID: f789a1aa-ddfb-4ddd-85c4-76387ef6d516 -->
 
-Operational GovOps Amatsu can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
+Operational GovOps Soter Labs can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two-thirds of signers are required to execute transactions.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.4 - Freezer Multisig [Core]  <!-- UUID: 99bc2dd5-5573-4bb9-9210-5af299d058d9 -->
 
@@ -29972,7 +29970,7 @@ The Freezer Multisig currently has a 2/5 signing requirement.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.4.3 - Signers [Core]  <!-- UUID: 0a18da19-36e2-4948-93cc-ee86d20617b3 -->
 
-The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Amatsu, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Grove.
+The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Soter Labs, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Grove.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.4.4 - Usage Standards [Core]  <!-- UUID: 1bd5fe5c-6cb4-4a5a-a84a-03e59736c98a -->
 
@@ -34691,7 +34689,7 @@ The documents herein define the parameters of the Amatsu Instance of the Executo
 
 ###### A.6.1.1.3.2.2.1.2.1.1.1 - Operational Executor Agent [Core]  <!-- UUID: ceb1e104-908d-451c-bc18-b1df694b1caf -->
 
-In the near term Amatsu will take on the functions of an Operational Executor Agent, including both Operational GovOps and Operational Facilitator roles.
+The Operational Facilitator and Operational GovOps for Amatsu are specified in [A.6.1.2.1 - Operational Executor Agent Amatsu](c57df14a-fde0-43f3-89ed-c2e4981d6bd5).
 
 ###### A.6.1.1.3.2.2.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 9b6b68f4-be11-4c3e-b426-909ac66a2467 -->
 
@@ -36381,7 +36379,7 @@ The Core Operator Relayer Multisig currently has a 2/3 signing requirement.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.2.3 - Signers [Core]  <!-- UUID: 17a98019-f677-471b-aebd-7885108c614b -->
 
-The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Amatsu.
+The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Soter Labs.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.2.4 - Usage Standards [Core]  <!-- UUID: 6c744f15-9dc2-47a6-b1f5-33e534697baf -->
 
@@ -36389,7 +36387,7 @@ The signers of the Core Operator Relayer Multisig must use the Multisig to exerc
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.2.5 - Modification [Core]  <!-- UUID: f9bf39ea-a02f-4eac-bd81-7c0b4daeb970 -->
 
-Operational GovOps Amatsu can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
+Operational GovOps Soter Labs can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two-thirds of signers are required to execute transactions.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.3 - Freezer Multisig [Core]  <!-- UUID: 50ef16ee-1309-4172-befa-186529eb91c3 -->
 
@@ -36405,7 +36403,7 @@ The Freezer Multisig currently has a 2/5 signing requirement.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.3.3 - Signers [Core]  <!-- UUID: 81708b61-3321-42f2-af55-204c56b32eb3 -->
 
-The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Amatsu, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Keel.
+The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Soter Labs, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Keel.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.3.4 - Usage Standards [Core]  <!-- UUID: b375c2b6-b52d-42cf-bfd3-01e46af44248 -->
 
@@ -48027,15 +48025,15 @@ The documents herein each set out the Artifacts for Executor Agents. Executor Ag
 
 #### A.6.1.2.1 - Operational Executor Agent Amatsu [Core]  <!-- UUID: c57df14a-fde0-43f3-89ed-c2e4981d6bd5 -->
 
-The Agent Artifact for Amatsu will be specified in a future iteration of the Atlas. In the interim, the subdocuments herein contain key information regarding Amatsu.
+The Agent Artifact for Operational Executor Agent Amatsu will be specified in a future iteration of the Atlas. In the interim, the subdocuments herein contain key information regarding Operational Executor Agent Amatsu.
 
 ##### A.6.1.2.1.1 - Operational Executor Facilitator [Core]  <!-- UUID: a874a419-1191-4a48-b97c-c91cfedf378c -->
 
-The Operational Facilitator for Amatsu is Endgame Edge.
+The Operational Facilitator for Operational Executor Agent Amatsu is Endgame Edge.
 
 ##### A.6.1.2.1.2 - Operational GovOps [Core]  <!-- UUID: 66845ee6-4405-4ed8-bb22-4a7558e63a52 -->
 
-Operational GovOps for Amatsu is Amatsu GovOps.
+Operational GovOps for Operational Executor Agent Amatsu is Soter Labs.
 
 #### A.6.1.2.2 - Operational Executor Agent Ozone [Core]  <!-- UUID: 565660dd-7850-4c3a-8dba-554542bf103a -->
 
