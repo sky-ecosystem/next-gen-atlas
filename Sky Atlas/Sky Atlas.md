@@ -12623,7 +12623,7 @@ The `retainable` parameter specifies whether the whitehat hacker may retain the 
 
 ###### A.2.11.1.2.2.3.3 - Chains Parameter [Core]  <!-- UUID: 80c4c6f0-aade-4908-adaa-847de153d75e -->
 
-The `chains` parameter specifies each blockchain on which a funds rescue is authorized. For each chain, the following information must be specified: (1) the `chainId` of the chain, (2) the `assetRecoveryAddress` to which recovered funds should be sent, and (3) the `scope`of contracts on the chain that are covered by Safe Harbor. The chains that should be specified are Ethereum Mainnet, Arbitrum, Base, and StarkNet.
+The `chains` parameter specifies each blockchain on which a funds rescue is authorized. For each chain, the following information must be specified: (1) the `chainId` of the chain, (2) the `assetRecoveryAddress` to which recovered funds should be sent, and (3) the `scope`of contracts on the chain that are covered by Safe Harbor. The chains are specified in the subdocuments herein.
 
 ###### A.2.11.1.2.2.3.3.1 - Chain IDs [Core]  <!-- UUID: b5190639-a193-4b8b-8c3a-4d90b369ad07 -->
 
