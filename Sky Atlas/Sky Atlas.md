@@ -27488,11 +27488,11 @@ The current Target Liquidity for Spark Savings USDC on Ethereum is the greater o
 
 ###### A.6.1.1.1.3.5.3.1.3.2 - Spark Savings USDT on Ethereum [Core]  <!-- UUID: 5e8fdea7-ce4a-4185-9d18-995ff823eb94 -->
 
-The current Target Liquidity for Spark Savings USDT on Ethereum is the greater of 10% of total deposits or 1 million USDC, up to a maximum amount of 10 million USDC.
+The current Target Liquidity for Spark Savings USDT on Ethereum is the greater of 10% of total deposits or 1 million USDC, up to a maximum amount of 10 million USDT.
 
 ###### A.6.1.1.1.3.5.3.1.3.3 - Spark Savings ETH on Ethereum [Core]  <!-- UUID: 944ebd8c-0562-4397-8a5a-6ebcea8167e7 -->
 
-The current Target Liquidity for Spark Savings ETH on Ethereum is the greater of 10% of total deposits or 250 ETH, up to a maximum amount of 10 million USDC.
+The current Target Liquidity for Spark Savings ETH on Ethereum is the greater of 10% of total deposits or 250 ETH, up to a maximum amount of 2,500 ETH.
 
 ###### A.6.1.1.1.3.5.3.1.3.4 - Spark Savings USDC on Avalanche [Core]  <!-- UUID: 3a7b2e58-01ac-4b0c-a53e-6cce6f563168 -->
 
