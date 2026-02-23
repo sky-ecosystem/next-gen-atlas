@@ -23210,7 +23210,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.2.2.1 - Token Address [Core]  <!-- UUID: c4629de2-eb51-4661-a4bc-6b955e267f5f -->
 
-`TBD`
+`0xc7CDcFDEfC64631ED6799C95e3b110cd42F2bD22`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: a3ed9893-931b-4d4e-9cf9-35373d1ed005 -->
 
