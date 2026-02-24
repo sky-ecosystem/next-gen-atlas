@@ -19883,7 +19883,7 @@ The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.2.1 - Address [Core]  <!-- UUID: 567e4905-2b05-493e-95ac-8a4d20afed2b -->
 
-The address of the Core Operator Relayer Multisig on the Ethereum Mainnet, Base, and Arbitrum is `0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795`.
+The address of the Core Operator Relayer Multisig on the Ethereum Mainnet, Base, Arbitrum, Unichain, and Optimism is `0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795`.
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.2.2 - Required Number Of Signers [Core]  <!-- UUID: d397fcef-85da-4c07-b675-14ec66d4cff9 -->
 
@@ -23241,11 +23241,35 @@ The documents herein contain operational parameters or configuration details uni
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.1 - Curator Role Address [Core]  <!-- UUID: ca1eb012-2401-4e24-9e9e-a76f869e422d -->
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.1 - Curator Role Parameters [Core]  <!-- UUID: 3d8add86-c44f-4fe1-b2b6-3c9d2e5a6a6d -->
+
+This document defines the parameters for the Guardian Role Multisig.
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.1.1 - Required Number Of Signers [Core]  <!-- UUID: 4ec0c9f5-a549-4219-b157-5760e5791b9f -->
+
+The Guardian Multisig currently has a 3/5 signing requirement.
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.1.2 - Signers [Core]  <!-- UUID: 08654b71-8fff-4fbe-a7d2-1bb46915e881 -->
+
+The signers of the Guardian Multisig are five (5) addresses belonging to Phoenix Labs.
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.1.3 - Address [Core]  <!-- UUID: ca1eb012-2401-4e24-9e9e-a76f869e422d -->
 
 `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
 
-###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.2 - Guardian Role Address [Core]  <!-- UUID: 86831263-5a01-4259-80e6-7829f062a1e6 -->
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.2 - Guardian Role Parameters [Core]  <!-- UUID: 78548f70-dbd9-4efe-86fa-7c5952b3d30b -->
+
+This document defines the parameters for the Guardian Role Multisig.
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.2.1 - Required Number Of Signers [Core]  <!-- UUID: 723007f0-0e98-47ba-b62d-f9b0eb399a53 -->
+
+The Guardian Multisig currently has a 3/5 signing requirement.
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.2.2 - Signers [Core]  <!-- UUID: f3265862-69d7-4fec-a554-24c90c576622 -->
+
+The signers of the Guardian Multisig are five (5) addresses whereof four belong to Soter Labs and one belongs to Endgame Edge.
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.2.3 - Address [Core]  <!-- UUID: 86831263-5a01-4259-80e6-7829f062a1e6 -->
 
 `0xf5748bBeFa17505b2F7222B23ae11584932C908B`
 
@@ -23337,11 +23361,35 @@ The documents herein contain operational parameters or configuration details uni
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1 - Curator Role Address [Core]  <!-- UUID: ac41be8b-f6c9-4df2-9fac-c543c77e0166 -->
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1 - Curator Role Parameters [Core]  <!-- UUID: 7188ce4f-e883-4175-89d6-bf04d375f46c -->
+
+This document defines the parameters for the Guardian Role Multisig.
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1.1 - Required Number Of Signers [Core]  <!-- UUID: 4bd78f69-5c7e-4141-a2e8-d2390feef2c2 -->
+
+The Guardian Multisig currently has a 3/5 signing requirement.
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1.2 - Signers [Core]  <!-- UUID: 9c56d1ad-3b39-4a59-b049-39196ff9381d -->
+
+The signers of the Guardian Multisig are five (5) addresses belonging to Phoenix Labs.
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1.3 - Address [Core]  <!-- UUID: ac41be8b-f6c9-4df2-9fac-c543c77e0166 -->
 
 `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
 
-###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.2 - Guardian Role Address [Core]  <!-- UUID: b7d0b9a8-4dba-4fba-8aab-b5afd645a6d0 -->
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.2 - Guardian Role Parameters [Core]  <!-- UUID: ed5d41ee-7151-4dfe-945f-019cc4841915 -->
+
+This document defines the parameters for the Guardian Role Multisig.
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.2.1 - Required Number Of Signers [Core]  <!-- UUID: 93b2fbd3-c713-445f-9ead-d3607e75df4b -->
+
+The Guardian Multisig currently has a 3/5 signing requirement.
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.2.2 - Signers [Core]  <!-- UUID: 809d4e29-fb92-4a09-a5ee-bdf82d12b90c -->
+
+The signers of the Guardian Multisig are five (5) addresses whereof four belong to Soter Labs and one belongs to Endgame Edge.
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.2.3 - Address [Core]  <!-- UUID: b7d0b9a8-4dba-4fba-8aab-b5afd645a6d0 -->
 
 `0xf5748bBeFa17505b2F7222B23ae11584932C908B`
 
@@ -24186,13 +24234,37 @@ The documents herein contains exposure details for this Instance
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.1 - Curator Role Address [Core]  <!-- UUID: 921d59d4-baaf-45a8-b6ff-93aa879e0e41 -->
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.2.1 - Curator Role Parameters [Core]  <!-- UUID: 569ba17c-25bd-4a80-81d0-1515a740acff -->
 
-0x0f963A8A8c01042B69054e787E5763ABbB0646A3
+This document defines the parameters for the Guardian Role Multisig.
 
-###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.2 - Guardian Role Address [Core]  <!-- UUID: edee318a-59b1-4ff1-9790-8d4606f2f7bd -->
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.2.1.1 - Required Number Of Signers [Core]  <!-- UUID: 6decc24c-d9eb-4f50-a24e-55af6a779e2e -->
 
-0xf5748bBeFa17505b2F7222B23ae11584932C908B
+The Guardian Multisig currently has a 3/5 signing requirement.
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.2.1.2 - Signers [Core]  <!-- UUID: 326697f0-2874-4c61-944b-ea92ef0e2619 -->
+
+The signers of the Guardian Multisig are five (5) addresses belonging to Phoenix Labs.
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.2.1.3 - Address [Core]  <!-- UUID: 921d59d4-baaf-45a8-b6ff-93aa879e0e41 -->
+
+`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.2.2 - Guardian Role Parameters [Core]  <!-- UUID: 1b72d8a0-45d4-4d8f-bb54-03979298b742 -->
+
+This document defines the parameters for the Guardian Role Multisig.
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.2.2.1 - Required Number Of Signers [Core]  <!-- UUID: 4522af9e-0bb8-4119-bf29-9e5f8422d4a7 -->
+
+The Guardian Multisig currently has a 3/5 signing requirement.
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.2.2.2 - Signers [Core]  <!-- UUID: ce594640-37af-4fed-901b-bae400946437 -->
+
+The signers of the Guardian Multisig are five (5) addresses whereof four belong to Soter Labs and one belongs to Endgame Edge.
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.2.2.3 - Address [Core]  <!-- UUID: edee318a-59b1-4ff1-9790-8d4606f2f7bd -->
+
+`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4.3 - Timelock [Core]  <!-- UUID: 63f24280-1724-4d2c-a0b8-aa8a2381afb8 -->
 
@@ -29682,7 +29754,7 @@ The address of the ALM_CONTROLLER contract is: `0x7f8408eBbBC3504F83eeDa52910dd7
 
 The ALM_CONTROLLER contract version is: 1.8.0.
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.2.3.3 - ALM Freezer Multisig Address [Core]  <!-- UUID: 45278dad-c140-4671-9e33-59ba395d8d11 -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.2.3.3 - ALM Freezer Multisig Address (Base) [Core]  <!-- UUID: 45278dad-c140-4671-9e33-59ba395d8d11 -->
 
 The address of the Multisig that has the Freezer Role is: `0xB0113804960345fd0a245788b3423319c86940e5`.
 
@@ -29710,7 +29782,7 @@ The address of the ALM_CONTROLLER contract is: `0x85b0E7F3A7C1aB0E1aDea7dfAaD416
 
 The ALM_CONTROLLER contract version will be specified in a future iteration of the Atlas.
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.2.4.3 - ALM Freezer Multisig Address [Core]  <!-- UUID: c7c722e6-f0d7-4182-afe1-ac260ce2482b -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.2.4.3 - ALM Freezer Multisig Address (Plasma) [Core]  <!-- UUID: c7c722e6-f0d7-4182-afe1-ac260ce2482b -->
 
 The address of the Multisig that has the Freezer Role is `0xB0113804960345fd0a245788b3423319c86940e5`
 
@@ -29738,7 +29810,7 @@ The address of the ALM_CONTROLLER contract is: `0x0C462Fff7Cc975bC9F2B0aEB8270fe
 
 The ALM_CONTROLLER contract version will be specified in a future iteration of the Atlas.
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.2.5.3 - ALM Freezer Multisig Address [Core]  <!-- UUID: f655efd0-cbce-4c42-9c80-64f8358a339e -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.2.5.3 - ALM Freezer Multisig Address (Plume) [Core]  <!-- UUID: f655efd0-cbce-4c42-9c80-64f8358a339e -->
 
 The address of the Multisig that has the Freezer Role is `0xB0113804960345fd0a245788b3423319c86940e5`
 
@@ -29940,7 +30012,7 @@ The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.3.1 - Address [Core]  <!-- UUID: 712e0f02-b787-4812-8d67-60a81449b238 -->
 
-The address of the Core Operator Relayer Multisig on the Ethereum Mainnet is `0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96`.
+The address of the Core Operator Relayer Multisig on the Ethereum Mainnet, Base, Avalanche, and Plasma is `0x4364D17B578b0eD1c42Be9075D774D1d6AeAFe96`.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.3.2 - Required Number Of Signers [Core]  <!-- UUID: 9a1af2ad-da1b-460f-89f6-84c513c71418 -->
 
