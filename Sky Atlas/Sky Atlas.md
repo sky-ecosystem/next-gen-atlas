@@ -23241,7 +23241,7 @@ The documents herein contain operational parameters or configuration details uni
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.1 - Curator Role Parameters [Core]  <!-- UUID: 0x0f963A8A8c01042B69054e787E5763ABbB0646A3 -->
+###### A.6.1.1.1.2.6.1.3.1.8.2.4.1.1 - Curator Role Parameters [Core]  <!-- UUID: 3d8add86-c44f-4fe1-b2b6-3c9d2e5a6a6d -->
 
 This document defines the parameters for the Guardian Role Multisig.
 
@@ -23361,15 +23361,15 @@ The documents herein contain operational parameters or configuration details uni
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1 - Curator Role Parameters [Core]  <!-- UUID: 0x0f963A8A8c01042B69054e787E5763ABbB0646A3 -->
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1 - Curator Role Parameters [Core]  <!-- UUID: 7188ce4f-e883-4175-89d6-bf04d375f46c -->
 
 This document defines the parameters for the Guardian Role Multisig.
 
-###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1.1 - Required Number Of Signers [Core]  <!-- UUID: 4ec0c9f5-a549-4219-b157-5760e5791b9f -->
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1.1 - Required Number Of Signers [Core]  <!-- UUID: 4bd78f69-5c7e-4141-a2e8-d2390feef2c2 -->
 
 The Guardian Multisig currently has a 3/5 signing requirement.
 
-###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1.2 - Signers [Core]  <!-- UUID: 08654b71-8fff-4fbe-a7d2-1bb46915e881 -->
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1.2 - Signers [Core]  <!-- UUID: 9c56d1ad-3b39-4a59-b049-39196ff9381d -->
 
 The signers of the Guardian Multisig are five (5) addresses belonging to Phoenix Labs.
 
@@ -23377,15 +23377,15 @@ The signers of the Guardian Multisig are five (5) addresses belonging to Phoenix
 
 `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
 
-###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.2 - Guardian Role Parameters [Core]  <!-- UUID: 78548f70-dbd9-4efe-86fa-7c5952b3d30b -->
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.2 - Guardian Role Parameters [Core]  <!-- UUID: ed5d41ee-7151-4dfe-945f-019cc4841915 -->
 
 This document defines the parameters for the Guardian Role Multisig.
 
-###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.2.1 - Required Number Of Signers [Core]  <!-- UUID: 723007f0-0e98-47ba-b62d-f9b0eb399a53 -->
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.2.1 - Required Number Of Signers [Core]  <!-- UUID: 93b2fbd3-c713-445f-9ead-d3607e75df4b -->
 
 The Guardian Multisig currently has a 3/5 signing requirement.
 
-###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.2.2 - Signers [Core]  <!-- UUID: f3265862-69d7-4fec-a554-24c90c576622 -->
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.2.2 - Signers [Core]  <!-- UUID: 809d4e29-fb92-4a09-a5ee-bdf82d12b90c -->
 
 The signers of the Guardian Multisig are five (5) addresses whereof four belong to Soter Labs and one belongs to Endgame Edge.
 
