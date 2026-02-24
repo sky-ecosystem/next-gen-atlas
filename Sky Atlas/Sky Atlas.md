@@ -16229,6 +16229,28 @@ The parameters for the Pattern Allocator Vault are:
   - `line`: 10 million USDS
   - `ttl`: 24 hours
 
+###### A.3.7.1.2.1.6 - ALLOCATOR-PRYSM-A Parameters [Core]  <!-- UUID: 17630a67-b287-4f44-bc60-f2a4f5d16cfa -->
+
+The parameters for the Launch Agent 6 Vault are: 
+
+- `duty`: set by the SP-BEAM specified in [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
+- `line`: controlled by DC-IAM
+- DC-IAM parameters:
+  - `gap`: 10 million USDS
+  - `line`: 10 million USDS
+  - `ttl`: 24 hours
+
+###### A.3.7.1.2.1.7 - ALLOCATOR-INTERVAL-A Parameters [Core]  <!-- UUID: cdbdd083-cb1c-4958-9cf0-18a088535c9d -->
+
+The parameters for the Launch Agent 7 Vault are: 
+
+- `duty`: set by the SP-BEAM specified in [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
+- `line`: controlled by DC-IAM
+- DC-IAM parameters:
+  - `gap`: 10 million USDS
+  - `line`: 10 million USDS
+  - `ttl`: 24 hours
+
 ##### A.3.7.1.2.2 - Update Process [Core]  <!-- UUID: 41a1ae38-4f5c-468f-b6ba-47e16ecc5aec -->
 
 Core GovOps, in consultation with the Core Council Risk Advisor, has the ability to modify any of the Prime Allocator Vault Risk Parameters listed under Prime Allocator Vault Risk Parameters. The modification of said parameters is pursuant to the Operational Weekly Cycle and can be effected directly via an Executive Vote, without requiring a prior Governance Poll.
@@ -16374,6 +16396,22 @@ The Stability Parameter Bounded External Access Module parameters for the ALLOCA
 ###### A.3.7.1.3.3.5 - ALLOCATOR-PATTERN-A Parameters [Core]  <!-- UUID: 505130f5-cf13-47e0-bcb6-e4810a36a46c -->
 
 The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-PATTERN-A Allocator Vault are as follows:
+- `max` - 3,000 basis points,
+- `min` - 0 basis points,
+- `step` - 400 basis points,
+- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+
+###### A.3.7.1.3.3.5 - ALLOCATOR-PRYSM-A Parameters [Core]  <!-- UUID: f09e5c6d-80cd-4d7d-b833-f64a96d23c15 -->
+
+The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-PRYSM-A Allocator Vault are as follows:
+- `max` - 3,000 basis points,
+- `min` - 0 basis points,
+- `step` - 400 basis points,
+- `tau` - Globally defined in [A.3.7.1.2.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
+
+###### A.3.7.1.3.3.5 - ALLOCATOR-INTERVAL-A Parameters [Core]  <!-- UUID: 8766f5be-1a3b-4c74-ac5e-0e22aba94f9a -->
+
+The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-INTERVAL-A Allocator Vault are as follows:
 - `max` - 3,000 basis points,
 - `min` - 0 basis points,
 - `step` - 400 basis points,
@@ -17433,7 +17471,7 @@ The Vesting Duration `vestTau` is the total duration over which the Vesting Tota
 
 ###### A.4.4.1.4.2.1.3.2.2 - Vesting Total [Core]  <!-- UUID: 8bc59b3a-5bf4-4e2c-a793-b51a4ff58ef6 -->
 
-The Vesting Total `vestTot` is the number of rewards tokens to be vested in total over the Vesting Duration. The initial value of the `vestTot` parameter is 1,000,000,000 SKY.
+The Vesting Total `vestTot` is the number of rewards tokens to be vested in total over the Vesting Duration. The initial value of the `vestTot` parameter is 838,182,330 SKY.
 
 ###### A.4.4.1.4.2.1.3.3 - Vesting Stream Parameter Modification [Core]  <!-- UUID: 7da0cd7a-238f-400f-89a7-a419ed25ce37 -->
 
