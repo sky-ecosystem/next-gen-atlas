@@ -1949,7 +1949,7 @@ During the Probationary Period, a Tier 1 (Procedural) breach (as defined in [A.1
 
 #### A.1.5.1.5 - List Of Recognized Aligned Delegates [Active Data Controller]  <!-- UUID: 79e4e209-2925-4074-95f5-28544117c680 -->
 
-The list of currently recognized Aligned Delegates is defined as Active Data in [A.1.5.1.4.0.6.1 - Current Aligned Delegates](5f584db8-f8d8-4118-988c-b2bc3f68ceb7).
+The list of currently recognized Aligned Delegates is defined as Active Data in [A.1.5.1.5.0.6.1 - Current Aligned Delegates](5f584db8-f8d8-4118-988c-b2bc3f68ceb7).
 
 The Active Data is updated as follows:
 
@@ -2036,7 +2036,7 @@ Each Level 1 Ranked Delegate is eligible for a budget of 400,000 USDS per year.
 
 ###### A.1.5.4.1.1.3 - Selection Of Level 1 Ranked Delegates [Core]  <!-- UUID: f52e46d4-2d8c-49ad-852c-acbdca81aadc -->
 
-In the short term, the Level 1 Ranked Delegates are selected directly by Sky Governance. The current Level 1 Ranked Delegates selected by Sky Governance are specified in [A.1.5.3.1.1.3.1 - Current Level 1 Ranked Delegates](46c0f334-4421-4e1a-9130-501e3a246e2a).
+In the short term, the Level 1 Ranked Delegates are selected directly by Sky Governance. The current Level 1 Ranked Delegates selected by Sky Governance are specified in [A.1.5.4.1.1.3.1 - Current Level 1 Ranked Delegates](46c0f334-4421-4e1a-9130-501e3a246e2a).
 
 ###### A.1.5.4.1.1.3.1 - Current Level 1 Ranked Delegates [Core]  <!-- UUID: 46c0f334-4421-4e1a-9130-501e3a246e2a -->
 
@@ -2056,7 +2056,7 @@ Each Level 2 Ranked Delegate is eligible for a budget of 175,000 USDS per year.
 
 ###### A.1.5.4.1.2.3 - Selection Of Level 2 Ranked Delegates [Core]  <!-- UUID: 7c6c6579-7738-4835-9a80-d3bc799e84fd -->
 
-In the short term, the Level 2 Ranked Delegates are selected directly by Sky Governance. The current Level 2 Ranked Delegates selected by Sky Governance are specified in [A.1.5.3.1.2.3.1 - Current Level 2 Ranked Delegates](ebe4da3b-2674-4ee1-b7a8-3d7a4b37fe75).
+In the short term, the Level 2 Ranked Delegates are selected directly by Sky Governance. The current Level 2 Ranked Delegates selected by Sky Governance are specified in [A.1.5.4.1.2.3.1 - Current Level 2 Ranked Delegates](ebe4da3b-2674-4ee1-b7a8-3d7a4b37fe75).
 
 ###### A.1.5.4.1.2.3.1 - Current Level 2 Ranked Delegates [Core]  <!-- UUID: ebe4da3b-2674-4ee1-b7a8-3d7a4b37fe75 -->
 
@@ -2088,7 +2088,7 @@ The budget for Ranked Delegates accrues on a continuous basis.
 
 #### A.1.5.4.3 - Budget Contingency [Core]  <!-- UUID: 82f74f4b-8c49-4b1e-9ae7-f6c5e23d3394 -->
 
-A Ranked Delegate's allocated budget can be reduced if they do not fully comply with the participation requirements defined in this Article at [A.1.5.3.3.1 - Voting-Activity Metrics](ad1ef0f4-246f-4289-b5fc-ea5c91508ccf), [A.1.5.3.3.2 - Voting-Communication Metrics](f020d1bc-8905-46f8-b3a5-c31bcc0eec79), and [A.1.5.3.3.3 - Emergency Communications Requirement](43db9780-6c0a-458a-94c2-5951b5b80787).
+A Ranked Delegate's allocated budget can be reduced if they do not fully comply with the participation requirements defined in this Article at [A.1.5.4.3.1 - Voting-Activity Metrics](ad1ef0f4-246f-4289-b5fc-ea5c91508ccf), [A.1.5.4.3.2 - Voting-Communication Metrics](f020d1bc-8905-46f8-b3a5-c31bcc0eec79), and [A.1.5.4.3.3 - Emergency Communications Requirement](43db9780-6c0a-458a-94c2-5951b5b80787).
 
 ##### A.1.5.4.3.1 - Voting-Activity Metrics [Core]  <!-- UUID: ad1ef0f4-246f-4289-b5fc-ea5c91508ccf -->
 
