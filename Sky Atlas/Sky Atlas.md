@@ -4914,7 +4914,7 @@ The Core Council must ensure that use of the multisig is generally aligned and s
 
 ###### A.1.9.4.1.3.1.2.5 - Solana LayerZero Freezer Multisig Modification [Core]  <!-- UUID: b70ebff7-355c-46c2-bc36-f08561c5ded1 -->
 
-Amatsu and Keel can change the signers of the Solana LayerZero Freezer Multisig so long as:
+Operational GovOps Soter Labs and Keel can change the signers of the Solana LayerZero Freezer Multisig so long as:
 
 - there are four (4) signers;
 - two (2) signers are required to execute transactions; and
@@ -19902,7 +19902,7 @@ The signers of the Core Operator Relayer Multisig must use the multisig to exerc
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.2.5 - Modification [Core]  <!-- UUID: 31c59017-769f-4a5b-88f7-8bef200dcc71 -->
 
-Operational GovOps Soter Labs can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
+Operational GovOps Soter Labs can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two-thirds of signers are required to execute transactions.
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.3 - Freezer Multisig [Core]  <!-- UUID: c805c872-05df-4157-a869-dff28535bf81 -->
 
