@@ -46717,11 +46717,11 @@ The documents herein organize all base information relevant to Launch Agent 7's 
 
 `Completed`
 
-###### A.6.1.1.8.2.1.1.1.2 - Active Intances Directory [Core]  <!-- UUID: 8ff31ad2-37fb-4d0c-8865-57d14ab1821c -->
+###### A.6.1.1.8.2.1.1.1.2 - Active Instances Directory [Core]  <!-- UUID: 8ff31ad2-37fb-4d0c-8865-57d14ab1821c -->
 
 This document contains a Directory of all Instances of the Agent Creation Primitive with Instance status of `Active`.
 
-###### A.6.1.1.8.2.1.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 9378730b-3ec4-4b75-918d-1dc4163f4c45 -->
+###### A.6.1.1.8.2.1.1.1.3 - Completed Instances [Core]  <!-- UUID: 9378730b-3ec4-4b75-918d-1dc4163f4c45 -->
 
 This document contains a Directory of all Instances of the Agent Creation Primitive with Instance status of `Completed`.
 
@@ -47091,7 +47091,7 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This document contains a Directory of all Instances of the Executor Accord Primitive with Instance status of `Completed`.
 
-###### A.6.1.1.8.2.2.1.1.4 - In Progress Invocactions Directory [Core]  <!-- UUID: 012578b7-90f4-42c6-ac63-4bcaf199565e -->
+###### A.6.1.1.8.2.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 012578b7-90f4-42c6-ac63-4bcaf199565e -->
 
 This document contains a Directory of all prospective Instances of the Executor Accord Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.2.1.1.2 - Active Instances Directory](0580085d-43e0-4c0e-81d9-9d92a9ea0215), whereas failed Invocations are Archived in [A.6.1.1.8.2.2.1.1.5 - Hub Data Repository](fbe85851-1f5d-4762-a27e-3c6681a1d7f5).
 
@@ -47241,7 +47241,7 @@ Within seven (7) days of the proposal being submitted, the Operational Facilitat
 
 If the proposal is aligned, the Operational Facilitator must respond to the Forum post to announce their finding. In this Forum post, the Operational Facilitator must also confirm that the proposal is feasible for Operational GovOps to operationalize.
 
-If the proposal is misaligned, the Operational Facilitator must respond to the Forum post to announce their finding and provide the reasoning for it. 
+If the proposal is misaligned, the Operational Facilitator must respond to the Forum post to announce their finding and provide the reasoning for it.
 
 ###### A.6.1.1.8.2.2.2.2.1.2.1.4 - Root Edit Token Holder Vote [Core]  <!-- UUID: 0c0209b7-fe8c-4d94-8daa-00057bb135cf -->
 
@@ -47287,11 +47287,11 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.8.2.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 2ce26124-5604-42ae-a3ab-9790a4a9a702 -->
+###### A.6.1.1.8.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 2ce26124-5604-42ae-a3ab-9790a4a9a702 -->
 
 The Instances of the Root Edit Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.8.2.2.2.2.4 - In Progress Invocations [Core]  <!-- UUID: 719e16f2-bd1b-4ee3-b86b-7e02de533ac5 -->
+###### A.6.1.1.8.2.2.2.4 - In Progress Invocations [Core]  <!-- UUID: 719e16f2-bd1b-4ee3-b86b-7e02de533ac5 -->
 
 Because the Root Edit Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
@@ -47481,7 +47481,7 @@ This document contains a Directory of all Instances of the Market Cap Fee Primit
 
 ###### A.6.1.1.8.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 6a69aeef-3339-4bfe-bab4-003d8572cf14 -->
 
-This document contains a Directory of all prospective Instances of the Market Cap Fee Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.3.2.1.2 Active Instances Directory](524d791c-8402-4d2a-ab42-e06c3dd5caef), whereas failed Invocations are Archived in [A.6.1.1.8.2.3.2.1.5 - Hub Data Repository](527bf1a7-eff1-423d-af04-19b76dd33798).
+This document contains a Directory of all prospective Instances of the Market Cap Fee Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.3.2.1.2 - Active Instances Directory](524d791c-8402-4d2a-ab42-e06c3dd5caef), whereas failed Invocations are Archived in [A.6.1.1.8.2.3.2.1.5 - Hub Data Repository](527bf1a7-eff1-423d-af04-19b76dd33798).
 
 ###### A.6.1.1.8.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: 527bf1a7-eff1-423d-af04-19b76dd33798 -->
 
@@ -47923,7 +47923,7 @@ This document contains a Directory of all prospective Instances of the Junior Ri
 
 The documents herein contain the Data Repository for the Primitive Hub Document.
 
-###### A.6.1.1.8.2.6.2.1.5.1 - Archived Invoecations/Instances [Core]  <!-- UUID: 33438a68-430e-4e13-b0bd-caa11b5578d0 -->
+###### A.6.1.1.8.2.6.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 33438a68-430e-4e13-b0bd-caa11b5578d0 -->
 
 The subtrees for archived Invocations and Instances of the Junior Risk Capital Rental Primitive are stored here.
 
@@ -48071,7 +48071,7 @@ Launch Agent 7 uses the Sky Forum for governance-related discussion. Posts shoul
 
 The documents herein specify Launch Agent 7's emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Launch Agent 7 Artifact.
 
-###### A.6.1.1.8.2.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: 3581ec81-e5bb-44d1-a44c-56c0a327b361 -->
+###### A.6.1.1.8.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: 3581ec81-e5bb-44d1-a44c-56c0a327b361 -->
 
 The documents herein specify Launch Agent 7's emergency response protocol in situations solely impacting Launch Agent 7 versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Launch Agent 7 Artifact.
 
