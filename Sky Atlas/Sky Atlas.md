@@ -27084,6 +27084,16 @@ The current pyUSD cap automator parameters are:
 
   ◦ `max`: 0 (no cap)
 
+###### A.6.1.1.1.3.2.1.1.3.3 - SparkLend Cap Automator Authorized Parties [Core]  <!-- UUID: e58645fb-0085-4ea2-aba5-c4b5968038b8 -->
+
+The SparkLend Cap Automator can be triggered by any of the authorized parties below:
+
+- `0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178` (ALM Proxy Freezable)
+
+###### A.6.1.1.1.3.2.1.1.3.4 - SparkLend Cap Automator Version [Core]  <!-- UUID: 2b17cf11-f0e3-4118-bbac-6a8458b4f70a -->
+
+The SparkLend Cap Automator Version is: 1.1
+
 ###### A.6.1.1.1.3.2.1.1.4 - SparkLend Risk Parameters Kill Switch [Core]  <!-- UUID: 38329b4f-7666-4f68-ba66-74ebb2e60e13 -->
 
 The kill switch disables all borrowing across SparkLend markets in the event of a depeg on key collateral assets. 
