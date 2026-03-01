@@ -26762,7 +26762,7 @@ The cap automator is defined in terms of three parameters:
 
 3. `max` - the absolute maximum exposure
 
-Any user can permissionlessly update a covered Supply Cap or Borrow Cap so the available exposure is equal to the target, as long as the resulting exposure does not exceed the specified maximum limit and the cooldown period has elapsed in the case of increases to the Supply Cap or Borrow Cap.
+Authorized parties can permissionlessly update a covered Supply Cap or Borrow Cap so the available exposure is equal to the target, as long as the resulting exposure does not exceed the specified maximum limit and the cooldown period has elapsed in the case of increases to the Supply Cap or Borrow Cap.
 
 ###### A.6.1.1.1.3.2.1.1.3.1 - SparkLend Risk Parameters Cap Automator Parameter Definitions [Core]  <!-- UUID: e6bc54e6-91df-4095-a032-0e1128c2cab7 -->
 
@@ -27083,6 +27083,16 @@ The current pyUSD cap automator parameters are:
   ◦ `ttl`: 12 hours
 
   ◦ `max`: 0 (no cap)
+
+###### A.6.1.1.1.3.2.1.1.3.3 - SparkLend Cap Automator Authorized Parties [Core]  <!-- UUID: e58645fb-0085-4ea2-aba5-c4b5968038b8 -->
+
+The SparkLend Cap Automator can be triggered by any of the authorized parties below:
+
+- `0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178` (ALM Proxy Freezable)
+
+###### A.6.1.1.1.3.2.1.1.3.4 - SparkLend Cap Automator Version [Core]  <!-- UUID: 2b17cf11-f0e3-4118-bbac-6a8458b4f70a -->
+
+The SparkLend Cap Automator Version is: 1.1
 
 ###### A.6.1.1.1.3.2.1.1.4 - SparkLend Risk Parameters Kill Switch [Core]  <!-- UUID: 38329b4f-7666-4f68-ba66-74ebb2e60e13 -->
 
