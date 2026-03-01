@@ -27098,6 +27098,10 @@ The kill switch currently covers the following assets with the specified thresho
 
 - STETH/ETH - 0.95
 - LBTC/BTC - 0.95
+- weETH/ETH - 0.95
+- rETH/ETH - 0.95
+- cbBTC/BTC - 0.95
+- WBTC/BTC - 0.95
 
 ###### A.6.1.1.1.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: e547484b-1388-4cc2-a03f-971b96c341bd -->
 
