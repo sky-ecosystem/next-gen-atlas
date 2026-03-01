@@ -26762,7 +26762,7 @@ The cap automator is defined in terms of three parameters:
 
 3. `max` - the absolute maximum exposure
 
-Any user can permissionlessly update a covered Supply Cap or Borrow Cap so the available exposure is equal to the target, as long as the resulting exposure does not exceed the specified maximum limit and the cooldown period has elapsed in the case of increases to the Supply Cap or Borrow Cap.
+Authorized parties can permissionlessly update a covered Supply Cap or Borrow Cap so the available exposure is equal to the target, as long as the resulting exposure does not exceed the specified maximum limit and the cooldown period has elapsed in the case of increases to the Supply Cap or Borrow Cap.
 
 ###### A.6.1.1.1.3.2.1.1.3.1 - SparkLend Risk Parameters Cap Automator Parameter Definitions [Core]  <!-- UUID: e6bc54e6-91df-4095-a032-0e1128c2cab7 -->
 
