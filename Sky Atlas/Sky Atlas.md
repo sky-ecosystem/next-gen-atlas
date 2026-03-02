@@ -27096,7 +27096,7 @@ After the kill switch is triggered, markets can be reactivated by Sky Governance
 
 The kill switch currently covers the following assets with the specified thresholds:
 
-- STETH/ETH - 0.95
+- wstETH/ETH - 0.95
 - LBTC/BTC - 0.95
 - weETH/ETH - 0.95
 - rETH/ETH - 0.95
