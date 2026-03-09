@@ -9668,9 +9668,9 @@ The Operational Executor Facilitator reviews the proposal to ensure that it is c
 
 ###### A.2.2.9.1.1.2.2.3 - Official Update of Artifact [Core]  <!-- UUID: 2b1612b8-480c-49b3-a304-6a6f593340de -->
 
-If the Allocation Instance is successfully approved, the Operational Executor Facilitator finalizes and publishes the update to the Prime Agent Artifact, making it effective in the Atlas. The output of this step is an updated Prime Agent Artifact with the new Allocation Instance. 
+If the Allocation Instance is successfully approved, the Operational Executor Facilitator finalizes and publishes the update to the Prime Agent Artifact, making it effective in the Atlas. The output of this step is an updated Prime Agent Artifact with the new Allocation Instance.
 
-Once a new Instance is deployed, its data is integrated into risk-capital monitoring systems and its RRC will be officially determined and tracked via the Sky Core RRC Dashboard/API. See [A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard And API](4eac2c9e-2718-4881-a3f1-ed10fb3f4d13). This official RRC figure supersedes the Prime-prepared pro-forma RRC.
+Once a new Instance is deployed, its data is integrated into risk-capital monitoring systems and its RRC will be officially determined and tracked via the Sky Core RRC Dashboard. See [A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard And API](4eac2c9e-2718-4881-a3f1-ed10fb3f4d13). This official RRC figure supersedes the Prime-prepared pro-forma RRC.
 
 ###### A.2.2.9.1.1.2.3 - Instance Setup Deployments [Core]  <!-- UUID: 3766cb8c-ab6c-41af-9465-b8dea76d0532 -->
 
@@ -9704,28 +9704,28 @@ The documents herein define Risk Capital and Asset Liability Management requirem
 
 The documents herein detail the obligations, processes, standards and infrastructure related to risk-capital management.
 
-###### A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard And API [Core]  <!-- UUID: 4eac2c9e-2718-4881-a3f1-ed10fb3f4d13 -->
+###### A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard [Core]  <!-- UUID: 4eac2c9e-2718-4881-a3f1-ed10fb3f4d13 -->
 
-The Sky Core Required Risk Capital (RRC) Dashboard and its associated API serve as the official system for determining and disseminating RRC figures for Prime Agents and their Allocation System Primitive Instances.
+he Sky Core Required Risk Capital (RRC) Dashboard serves as the official system for determining and disseminating RRC figures for Prime Agents and their Allocation System Primitive Instances.
 
-Prior to the full operational deployment of the Powerhouse system, Prime Agents must utilize the Sky Core RRC Dashboard/API as the authoritative source for their official Instance Total RRCs and Aggregate RRC. Data from these sources is to be used for all internal TRC management,  required reporting and compliance assessments.
+Prior to the full operational deployment of the Powerhouse system, Prime Agents must utilize the Sky Core RRC Dashboard as the authoritative source for their official Instance Total RRCs and Aggregate RRC. Data from this source is to be used for all internal TRC management, required reporting and compliance assessments.
 
-The Sky Core RRC Dashboard is located at [https://sphere.blockanalitica.com/rrc](https://sphere.blockanalitica.com/rrc). The Sky Core RRC API is located at [https://sphere-api.blockanalitica.com/rrc/](https://sphere-api.blockanalitica.com/rrc/).
+The Sky Core RRC Dashboard is located at [https://info.sky.money/required-risk-capital](https://info.sky.money/required-risk-capital).
 
-###### A.2.2.9.1.1.3.2.1.1.1 - Role and Functionality of the RRC Dashboard and API [Core]  <!-- UUID: f7da0f56-00f5-4bcf-bd31-b77c284c7992 -->
+###### A.2.2.9.1.1.3.2.1.1.1 - Role and Functionality of the RRC Dashboard [Core]  <!-- UUID: f7da0f56-00f5-4bcf-bd31-b77c284c7992 -->
 
-The RRC Dashboard provides a user interface for Prime Agents to view their official RRC figures. The RRC API allows Prime Agents to programmatically access this same data for integration into their internal TRC management systems. Both the Dashboard and API provide the following key information:
+The RRC Dashboard provides a user interface for Prime Agents to view their official RRC figures. The Dashboard provides the following key information:
     
 ◦ Instance Total RRC: For each specific Allocation System Primitive Instance, the system displays its Instance Total RRC. This figure is the sum of all applicable risk-specific RRC calculations for that Instance, including:
         ◦ Instance Financial RRC ([A.3.2.1.1.4 - Instance Financial RRC](ba1d5c0e-399f-47a6-b5d4-b3f5477d5787)) 
         ◦ Instance Smart Contract RRC ([A.3.2.1.1.5 - Instance Smart Contract RRC](4b4ea578-28b4-481c-9abd-d34c5a4f383c))  
         ◦ Instance Administrative RRC ([A.3.2.1.1.6 - Instance Administrative RRC](c2b60f0d-6555-463c-9ad3-2a9746be77c5)) 
 
-The models for certain risk-factors are still currently under development. See [A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard/API Coverage](18243e7a-5b62-459d-83fb-e50b9df05f9d). 
+The models for certain risk-factors are still currently under development. See [A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard Coverage](18243e7a-5b62-459d-83fb-e50b9df05f9d). 
     
 ◦ Aggregate RRC: For each Prime Agent, the system displays its Aggregate RRC, which is the sum of all its Instance Total RRCs. This is the figure against which a Prime Agent’s Total Risk Capital (TRC) adequacy is assessed.
 
-###### A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard/API Coverage [Core]  <!-- UUID: 18243e7a-5b62-459d-83fb-e50b9df05f9d -->
+###### A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard Coverage [Core]  <!-- UUID: 18243e7a-5b62-459d-83fb-e50b9df05f9d -->
 
 Some Allocation System Instances displayed on the RRC Dashboard concern asset types whose risk models have not yet been fully developed. See [A.3.2.1.1.4.3 - Financial Risk Models](2af9fa64-ab25-4017-920c-f1c07dff4c06). An active Instance’s respective Instance Configuration Document will specify its `RRC Framework Full Implementation` status as either `Covered` or `Pending`.
 
@@ -9751,21 +9751,20 @@ A Prime Agent’s internal TRC management system should possess the following ca
 The system must provide real-time or near real-time tracking of all held Total Risk Capital (TRC) components. This includes, for each TRC component:
         ◦ Accurate valuation of the assets comprising each component.
         ◦ Clear identification of the source of each component (e.g., Prime’s own SubProxy for IJRC, specific Ecosystem Accord references for rented SEJRC or OSRC, TEJRC encumbrance details, OSRC origination details).
-        ◦ Verification of each TRC component’s eligibility status according to Atlas rules. This includes tracking whether capital is "enabled" or "active" for RRC coverage purposes (e.g., based on Ecosystem Accord status, compliance with sourcing ratios, etc.).
+        ◦ Verification of each TRC component’s eligibility status according to Atlas rules. This includes tracking whether capital is “enabled” or “active” for RRC coverage purposes (e.g., based on Ecosystem Accord status, compliance with sourcing ratios, etc.).
         ◦ Distinction between capital directly held by the Prime Agent and capital that is encumbered (e.g., SEJRC where the lending Prime retains custody but the capital is contractually committed).
     
-2. Prime Agents’ internal TRC management systems should enable dynamic-state accounting. The system must account for TRC components that are in dynamic, pending, or off-chain states, as these can impact the true risk capital available to a Prime Agent. This includes:
+2. Prime Agents' internal TRC management systems should enable dynamic-state accounting. The system must account for TRC components that are in dynamic, pending, or off-chain states, as these can impact the true risk capital available to a Prime Agent. This includes:
         ◦ Pending transactions such as SEJRC or OSRC rental Ecosystem Accords that have been committed to by the parties, but not yet codified in the Atlas.
         ◦ Capital in transit, e.g., assets that are committed to be IJRC, but currently moving between chains via bridges or locked in Cross-Chain Transfer Protocol (CCTP) messages awaiting finality.
         ◦ Operational expenditures funded by TRC components (typically IJRC), such as blockchain transaction fees, oracle service fees, audit costs, and other operational overhead that reduces available risk capital. The system should track these expenditures in real-time or near real-time.
         ◦ Any off-chain factors that could impair the immediate deployability or availability of TRC components.
     
-3. Prime Agents’ internal TRC management systems should enable continuous capital adequacy monitoring. The system must enable the near real-time comparison of the Prime Agent’s internally tracked and calculated TRC against its official Aggregate RRC, as obtained from the Sky Core RRC Dashboard/API. See [A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard And API](4eac2c9e-2718-4881-a3f1-ed10fb3f4d13). This core functionality is essential for the Prime Agent to proactively monitor its capital adequacy, identify potential or actual TRC shortfalls, and make timely operational and capital management decisions to maintain compliance.
+3. Prime Agents' internal TRC management systems should enable continuous capital adequacy monitoring. The system must enable the near real-time comparison of the Prime Agent's internally tracked and calculated TRC against its official Aggregate RRC, as obtained from the Sky Core RRC Dashboard. See [A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard And API](4eac2c9e-2718-4881-a3f1-ed10fb3f4d13). This core functionality is essential for the Prime Agent to proactively monitor its capital adequacy, identify potential or actual TRC shortfalls, and make timely operational and capital management decisions to maintain compliance.
     
-4. Prime Agents’ internal TRC management systems should define a RRC-incident (e.g., TRC shortfall) response protocol. The system should enable internal alerting mechanisms that detect when a Prime Agent’s TRC approaches predefined internal buffer thresholds relative to its Aggregate RRC. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9). The system should also detect an actual shortfall where the Prime Agent’s held TRC falls below its Aggregate RRC.
-Furthermore, Prime Agent teams should establish and document internal processes for responding to such alerts. Such internal processes should include: 1) internal escalation and assessment of the shortfall’s cause and magnitude; 2) formulation of potential responses or corrective actions, which may include sourcing additional TRC, reducing risk-weighted exposures, or other measures; 3) internal decision-making framework for the evaluation of potential responses and selection of the most appropriate one; and 4) notifying any pertinent parties (Operational GovOps) as needed for the purpose of planning or implementing follow-up action.
+4. Prime Agents' internal TRC management systems should define a RRC-incident (e.g., TRC shortfall) response protocol. The system should enable internal alerting mechanisms that detect when a Prime Agent’s TRC approaches predefined internal buffer thresholds relative to its Aggregate RRC. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9). The system should also detect an actual shortfall where the Prime Agent’s held TRC falls below its Aggregate RRC. Furthermore, Prime Agent teams should establish and document internal processes for responding to such alerts. Such internal processes should include: 1) internal escalation and assessment of the shortfall’s cause and magnitude; 2) formulation of potential responses or corrective actions, which may include sourcing additional TRC, reducing risk-weighted exposures, or other measures; 3) internal decision-making framework for the evaluation of potential responses and selection of the most appropriate one; and 4) notifying any pertinent parties (Operational GovOps) as needed for the purpose of planning or implementing follow-up action.
 
-Prime Agent teams’ internal decision-making framework may consider the economic trade-offs of various actions, including the strategic acceptance of penalties for a TRC shortfall where such an approach is determined to be economically advantageous compared to immediate rebalancing (e.g., avoiding excessive transaction costs or market impact).
+Prime Agent teams' internal decision-making framework may consider the economic trade-offs of various actions, including the strategic acceptance of penalties for a TRC shortfall where such an approach is determined to be economically advantageous compared to immediate rebalancing (e.g., avoiding excessive transaction costs or market impact).
 
 ###### A.2.2.9.1.1.3.2.1.2.3 - Primes’ TRC Report [Core]  <!-- UUID: 41ca2085-d71b-47e5-8b1a-b183b6e2b6fc -->
 
@@ -9899,7 +9898,9 @@ The Prime Agent's revised Capital and Operational Plan forms the core of the Art
 
 ###### A.2.2.9.1.1.3.3.1.4 - Post-Approval Integration and RRC Update [Core]  <!-- UUID: e3a00c33-9da7-4fa9-80ff-55d3a70100fa -->
 
-If the Artifact Edit Proposal for the Instance modification is approved through the Prime Agent's governance process, the relevant content from the revised Capital and Operational Plan is formally integrated into the respective Instance Configuration Document within the Prime Agent's Artifact. Once the modified Instance is operational under its new, approved parameters and its data is integrated into the ecosystem's monitoring systems, its adjusted Required Risk Capital (RRC) will be officially determined and tracked via the Sky Core RRC Dashboard/API. This official RRC figure then supersedes the Prime-prepared pro-forma RRC that was part of the modification proposal.
+If the Artifact Edit Proposal for the Instance modification is approved through the Prime Agent’s governance process, the relevant content from the revised Capital and Operational Plan is formally integrated into the respective Instance Configuration Document within the Prime Agent's Artifact.
+
+Once the modified Instance is operational under its new, approved parameters and its data is integrated into the ecosystem’s monitoring systems, its adjusted Required Risk Capital (RRC) will be officially determined and tracked via the Sky Core RRC Dashboard. This official RRC figure then supersedes the Prime-prepared pro-forma RRC that was part of the modification proposal.
 
 ##### A.2.2.9.1.2 - Allocation System Input Requirements [Core]  <!-- UUID: b6ccdee2-a5e4-4d63-9af5-60b8163673af -->
 
