@@ -17643,21 +17643,18 @@ Full block requires frontends operated by Ecosystem Actors to deny service of an
 User IPs flagged for Full Block are:
 
 - Cuba
-
 - Iran
-
 - Syria
-
 - North Korea
-
+- Afghanistan
+- Belarus
+- Burma
+- Russia
+- Venezuela
 - Crimea and Sevastopol
-
 - Donetsk People’s Republic
-
 - Luhansk People’s Republic of Ukraine
-
 - Kherson Oblast
-
 - Zaporizhzhia Oblast
 
 ## A.5.5 - Short-Term Transitionary Measures [Article]  <!-- UUID: b28aecff-e420-473f-893a-9c31510f5845 -->
