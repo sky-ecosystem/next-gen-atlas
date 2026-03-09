@@ -10423,7 +10423,7 @@ In the short term, Step 4 Capital is allocated as specified in the documents her
 
 ###### A.2.3.1.4.2.1 - Allocation To SKY Buybacks [Core]  <!-- UUID: b9f2fd14-bc43-4bdd-94aa-2a5defefa97d -->
 
-300,000 USDS per day of Step 4 Capital is allocated to SKY buybacks.
+0 USDS per day of Step 4 Capital is allocated to SKY buybacks.
 
 ###### A.2.3.1.4.2.2 - Allocation To Surplus Buffer [Core]  <!-- UUID: e2eae80f-ca25-4fab-880a-3a55ca1aa16d -->
 
@@ -12662,7 +12662,7 @@ The representatives of the protocol should be contacted as specified in the Safe
 
 ###### A.2.11.1.2.2.3.5 - Protocol Name Parameter [Core]  <!-- UUID: 3ecab562-7477-4606-bce3-74da81dc78e6 -->
 
-The `protocolName` parameter specifies a human-readable name for the protocol. The value of the `protocolName` parameter is "Sky Ecosystem".
+The `protocolName` parameter specifies a human-readable name for the protocol. The value of the `protocolName` parameter is “Sky”.
 
 ##### A.2.11.1.2.3 - Maintenance [Core]  <!-- UUID: fcd868db-4a91-4ee0-baf5-1ebd40fc651e -->
 
@@ -15616,18 +15616,12 @@ The current value of the Surplus Buffer can be calculated using the Vat contract
 
 The current Smart Burn Engine parameters are:
 
-- kicker.khump: -200 million USDS (Threshold of Surplus Buffer for Splitter to activate)
-
+- kicker.khump: 1 billion USDS (Threshold of Surplus Buffer for Splitter to activate)
 - kicker.kbump: 10,000 USDS
-
 - splitter.hop: 2,880 seconds
-
 - 100% of Splitter allocation is set to accumulate SKY
-
 - 0% of Splitter allocation is set to reward SKY stakers
-
 - burn (the percentage of the kicker.kbump to be moved to the underlying flapper): 100% (WAD * 1)
-
 - LSEV2-SKY-A USDS rewardsDuration: 2,880 seconds
 
 The rewardsDuration for the LSEV2-SKY-A USDS rewards contract must be set such that it is equal to the splitter.hop parameter.
@@ -17477,7 +17471,7 @@ The parameters of the vesting stream that vests SKY Tokens to be transferred to 
 
 ###### A.4.4.1.4.2.2 - Source Of SKY Rewards [Core]  <!-- UUID: 349a350c-c9b7-4232-a83f-2fb49b91fc74 -->
 
-The `vestTot` and `vestTau` parameters of the Vesting Stream contract are set such that SKY rewards are funded by SKY acquired through buybacks and the parameters of the Vesting Stream contract must be adjusted accordingly.
+The `vestTot` and `vestTau` parameters of the Vesting Stream contract are set such that SKY rewards are funded by SKY acquired through buybacks or SKY reserves.
 
 ###### A.4.4.1.4.2.2.1 - Authorization Of Transfer By Sky Frontier Foundation [Core]  <!-- UUID: 2789177b-5bc7-486f-8aab-75ea16e21035 -->
 
