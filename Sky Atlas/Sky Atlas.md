@@ -12574,7 +12574,7 @@ Sky Ecosystem is adopting the Security Alliance Safe Harbor Agreement ("Safe Har
 
 ##### A.2.11.1.2.1 - Agreement [Core]  <!-- UUID: c3705a82-9cda-4626-89bb-2ec21774b371 -->
 
-Safe Harbor is an onchain agreement. The agreement is specified in [https://etherscan.io/address/0x9E5Cf4a9C806fE1F4392788b21342a442E14Cc20#readContract#F2](https://etherscan.io/address/0x9E5Cf4a9C806fE1F4392788b21342a442E14Cc20#readContract#F2). The agreement located at the IPFS address shown in the smart contract above is the definitive version of the agreement.
+Safe Harbor is an onchain agreement. The agreement is specified in [https://etherscan.io/address/0xf17bb418b4ec251f300aa3517cb37349f17697a1#readContract#F2](https://etherscan.io/address/0xf17bb418b4ec251f300aa3517cb37349f17697a1#readContract#F2). The agreement located at the IPFS address shown in the smart contract above is the definitive version of the agreement.
 
 ##### A.2.11.1.2.2 - Execution [Core]  <!-- UUID: 25015208-5234-4818-8479-c46f927c272c -->
 
@@ -12586,7 +12586,7 @@ The address of the Safe Harbor registry contract on the Ethereum Mainnet is `0x3
 
 ###### A.2.11.1.2.2.2 - Agreement Address [Core]  <!-- UUID: 0f541963-584d-4bcd-8c00-adbbcb85edf8 -->
 
-The address of the Safe Harbor agreement is `0x9E5Cf4a9C806fE1F4392788b21342a442E14Cc20`.
+The address of the Safe Harbor agreement is `0xf17bB418B4EC251f300Aa3517Cb37349f17697A1`.
 
 ###### A.2.11.1.2.2.3 - Execution Parameters [Core]  <!-- UUID: b061e1d9-76c3-444a-9a91-641c5d00315d -->
 
@@ -12643,9 +12643,9 @@ The Asset Recovery Address is the Pause Proxy on Ethereum Mainnet and the Govern
 
 - Ethereum Mainnet - `0xbe8e3e3618f7474f8cb1d074a26affef007e98fb`
 - Arbitrum - `0x10E6593CDda8c58a1d0f14C5164B376352a55f2F`
-- Optimism - `0x09b354cda89203bb7b3131cc728dfa06ab09ae2f`
+- Optimism - `0x10E6593CDda8c58a1d0f14C5164B376352a55f2F`
 - Base - `0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255`
-- Unichain - `0xb383070cf9f4f01c3a2cfd0ef6da4bc057b429b7`
+- Unichain - `0x3510a7F16F549EcD0Ef018DE0B3c2ad7c742990f`
 - Solana - `AYPtjx4Hc8us1ikULUedkmZ3wtiD6tmL7gK3qe4V3oHt`
 
 ###### A.2.11.1.2.2.3.3.3 - Accounts [Core]  <!-- UUID: c6591c5c-c767-4769-b2d6-80564d96fa48 -->
