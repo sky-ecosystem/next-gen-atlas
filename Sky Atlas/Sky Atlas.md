@@ -4919,7 +4919,7 @@ Operational GovOps Soter Labs and Operational Facilitator Endgame Edge can chang
 
 - there are four (4) signers;
 - two (2) signers are required to execute transactions; and
-- an equal number of signers are controlled by Operational GovOps Soter Labs and Keel.
+- an equal number of signers are controlled by Operational GovOps Soter Labs and Operational Facilitator Endgame Edge.
 
 ###### A.1.9.4.1.3.2 - Rate Limits [Core]  <!-- UUID: 36626f77-52da-4bb6-9e32-851420133922 -->
 
@@ -9706,7 +9706,7 @@ The documents herein detail the obligations, processes, standards and infrastruc
 
 ###### A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard [Core]  <!-- UUID: 4eac2c9e-2718-4881-a3f1-ed10fb3f4d13 -->
 
-he Sky Core Required Risk Capital (RRC) Dashboard serves as the official system for determining and disseminating RRC figures for Prime Agents and their Allocation System Primitive Instances.
+The Sky Core Required Risk Capital (RRC) Dashboard serves as the official system for determining and disseminating RRC figures for Prime Agents and their Allocation System Primitive Instances.
 
 Prior to the full operational deployment of the Powerhouse system, Prime Agents must utilize the Sky Core RRC Dashboard as the authoritative source for their official Instance Total RRCs and Aggregate RRC. Data from this source is to be used for all internal TRC management, required reporting and compliance assessments.
 
@@ -9715,11 +9715,11 @@ The Sky Core RRC Dashboard is located at [https://info.sky.money/required-risk-c
 ###### A.2.2.9.1.1.3.2.1.1.1 - Role and Functionality of the RRC Dashboard [Core]  <!-- UUID: f7da0f56-00f5-4bcf-bd31-b77c284c7992 -->
 
 The RRC Dashboard provides a user interface for Prime Agents to view their official RRC figures. The Dashboard provides the following key information:
-    
-◦ Instance Total RRC: For each specific Allocation System Primitive Instance, the system displays its Instance Total RRC. This figure is the sum of all applicable risk-specific RRC calculations for that Instance, including:
-        ◦ Instance Financial RRC ([A.3.2.1.1.4 - Instance Financial RRC](ba1d5c0e-399f-47a6-b5d4-b3f5477d5787)) 
-        ◦ Instance Smart Contract RRC ([A.3.2.1.1.5 - Instance Smart Contract RRC](4b4ea578-28b4-481c-9abd-d34c5a4f383c))  
-        ◦ Instance Administrative RRC ([A.3.2.1.1.6 - Instance Administrative RRC](c2b60f0d-6555-463c-9ad3-2a9746be77c5)) 
+
+- Instance Total RRC: For each specific Allocation System Primitive Instance, the system displays its Instance Total RRC. This figure is the sum of all applicable risk-specific RRC calculations for that Instance, including:
+ - Instance Financial RRC ([A.3.2.1.1.4 - Instance Financial RRC](ba1d5c0e-399f-47a6-b5d4-b3f5477d5787))
+ - Instance Smart Contract RRC ([A.3.2.1.1.5 - Instance Smart Contract RRC](4b4ea578-28b4-481c-9abd-d34c5a4f383c))
+ - Instance Administrative RRC ([A.3.2.1.1.6 - Instance Administrative RRC](c2b60f0d-6555-463c-9ad3-2a9746be77c5))
 
 The models for certain risk-factors are still currently under development. See [A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard Coverage](18243e7a-5b62-459d-83fb-e50b9df05f9d). 
     
