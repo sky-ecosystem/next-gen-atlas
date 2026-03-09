@@ -4903,7 +4903,7 @@ The Solana LayerZero Freezer Multisig has a 2/4 signing requirement.
 
 ###### A.1.9.4.1.3.1.2.3 - Solana LayerZero Freezer Multisig Signers [Core]  <!-- UUID: a9f95fb4-690e-43c2-a231-b8705d62036d -->
 
-The signers of the Solana LayerZero Freezer Multisig are two (2) addresses controlled by Operational GovOps Soter Labs and two (2) addresses controlled by Keel.
+The signers of the Solana LayerZero Freezer Multisig are two (2) addresses controlled by Operational GovOps Soter Labs and two (2) addresses controlled by Operational Facilitator Endgame Edge.
 
 ###### A.1.9.4.1.3.1.2.4 - Solana LayerZero Freezer Multisig Usage Standards [Core]  <!-- UUID: 9f845d09-4304-4aa7-8bd0-2dda747e52e6 -->
 
@@ -4915,7 +4915,7 @@ The Core Council must ensure that use of the multisig is generally aligned and s
 
 ###### A.1.9.4.1.3.1.2.5 - Solana LayerZero Freezer Multisig Modification [Core]  <!-- UUID: b70ebff7-355c-46c2-bc36-f08561c5ded1 -->
 
-Operational GovOps Soter Labs and Keel can change the signers of the Solana LayerZero Freezer Multisig so long as:
+Operational GovOps Soter Labs and Operational Facilitator Endgame Edge can change the signers of the Solana LayerZero Freezer Multisig so long as:
 
 - there are four (4) signers;
 - two (2) signers are required to execute transactions; and
