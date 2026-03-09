@@ -2214,20 +2214,6 @@ Any Facilitator has the authority to formally raise an allegation of AD misalign
 
 A Facilitator's failure to act promptly in addressing credible evidence of AD misalignment or to mitigate the risk of misalignment spreading among ADs is considered an act of misalignment itself. Formal allegations of such failure must be adjudicated by the Core Facilitator pursuant to the same process referenced in the above-cited document.
 
-#### A.1.5.6.0.3.1 - Credible Evidence - Element Annotation [Annotation]  <!-- UUID: 578ff359-eff1-406e-8cb9-5f4807598c10 -->
-
-The element "credible evidence" refers to the evidentiary threshold required for a formal allegation to proceed to adjudication. A formal allegation is supported by credible evidence where it identifies (a) the specific requirement or standard alleged to have been breached, (b) the factual basis for the allegation, and (c) any supporting evidence. Where an allegation fails to meet this threshold, the Core Facilitator may decline to initiate adjudication, provided the basis for declining is documented.
-
-#### A.1.5.6.0.3.2 - Act Swiftly - Element Annotation [Annotation]  <!-- UUID: 3a9d0848-e034-4d6b-8c4f-3d18e92edb71 -->
-
-The element "act swiftly" does not preclude reasonable delay where the Facilitator requires additional time to gather evidence, consult with the accused party, or seek guidance from Core GovOps. The Facilitator should document the basis for any such delay.
-
-#### A.1.5.6.0.4.1 - Facilitators’ Authority To Raise Formal Allegation [Action Tenet]  <!-- UUID: c5146fa6-00ec-4543-9288-410570b5d588 -->
-
-Any community member or Aligned Delegate with information pertinent to suspected Alignment Conserver misalignment may take their concerns directly to the Core Facilitator.  Upon receiving such information, the Core Facilitator must promptly conduct an initial review to quickly assess the credibility of the concern. Based on this preliminary review, the Core Facilitator must decide whether to initiate a formal adjudication process in accordance with [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
-
-Where the allegation of misalignment concerns the Core Facilitator, a community member can take their concerns to Core GovOps, who is then empowered to initiate the formal adjudication process.
-
 #### A.1.5.6.1 - Graduated Response Framework [Core]  <!-- UUID: 2544a530-42f8-4699-b428-7c3568e1635e -->
 
 Breaches of Aligned Delegate requirements are categorized into two (2) tiers based on severity. The appropriate response is determined by the tier of the breach and the Aligned Delegate’s prior record.
@@ -2280,6 +2266,20 @@ Claims of ignorance, misunderstanding, or failure to read proposal text shall no
 This rule applies only to votes cast in favor. Aligned Delegates who vote against or abstain retain the ability to raise concerns about proposal clarity or their understanding of its implications.
 
 The estoppel rule does not apply where the proposal text was materially misleading at the time of voting, or where critical facts bearing on the proposal’s governance implications emerged after the vote concluded. The burden of establishing that the proposal text was misleading or that newly discovered facts are material rests with the Aligned Delegate.
+
+#### A.1.5.6.0.3.1 - Act Swiftly - Element Annotation [Annotation]  <!-- UUID: 3a9d0848-e034-4d6b-8c4f-3d18e92edb71 -->
+
+The element "act swiftly" does not preclude reasonable delay where the Facilitator requires additional time to gather evidence, consult with the accused party, or seek guidance from Core GovOps. The Facilitator should document the basis for any such delay.
+
+#### A.1.5.6.0.3.2 - Credible Evidence - Element Annotation [Annotation]  <!-- UUID: 578ff359-eff1-406e-8cb9-5f4807598c10 -->
+
+The element "credible evidence" refers to the evidentiary threshold required for a formal allegation to proceed to adjudication. A formal allegation is supported by credible evidence where it identifies (a) the specific requirement or standard alleged to have been breached, (b) the factual basis for the allegation, and (c) any supporting evidence. Where an allegation fails to meet this threshold, the Core Facilitator may decline to initiate adjudication, provided the basis for declining is documented.
+
+#### A.1.5.6.0.4.1 - Facilitators’ Authority To Raise Formal Allegation [Action Tenet]  <!-- UUID: c5146fa6-00ec-4543-9288-410570b5d588 -->
+
+Any community member or Aligned Delegate with information pertinent to suspected Alignment Conserver misalignment may take their concerns directly to the Core Facilitator.  Upon receiving such information, the Core Facilitator must promptly conduct an initial review to quickly assess the credibility of the concern. Based on this preliminary review, the Core Facilitator must decide whether to initiate a formal adjudication process in accordance with [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
+
+Where the allegation of misalignment concerns the Core Facilitator, a community member can take their concerns to Core GovOps, who is then empowered to initiate the formal adjudication process.
 
 ### A.1.5.7 - Mandate To Maintain High Level of Operational Security [Section]  <!-- UUID: c68b4c5d-adf7-49e6-850a-17a688664d40 -->
 
