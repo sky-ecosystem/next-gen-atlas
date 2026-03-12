@@ -19240,7 +19240,7 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 ###### A.6.1.1.1.2.6.1.1.2.1.11.4 - Ethereum Mainnet - Spark Savings v2 PYUSD Instance Configuration Document Location [Core]  <!-- UUID: 3dabe1bb-244d-4546-993a-449b988d9199 -->
 
-This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Spark Savings v2 spPYUSD Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.9.4](0b280652-ea99-4a53-8c9e-fb23b200d446).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.9.4 - Ethereum Mainnet - Spark Savings v2 spPYUSD Instance Configuration Document](0b280652-ea99-4a53-8c9e-fb23b200d446).
 
 ###### A.6.1.1.1.2.6.1.1.2.1.12 - Arkis [Core]  <!-- UUID: 8e76f6f2-fb70-4ed0-a78d-7be94244819b -->
 
@@ -19248,19 +19248,19 @@ The Ethereum Instances Directory of the Arkis Protocol with `Active` Status are 
 
 ###### A.6.1.1.1.2.6.1.1.2.1.12.1 - Ethereum Mainnet - Arkis Instance Configuration Document Location [Core]  <!-- UUID: a25915c0-0fc4-48f7-845b-92f446dbbba3 -->
 
-This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Arkis Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.10.1](4bb58af1-fc25-442f-83a9-dd40989a7d37).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.10.1 - Ethereum Mainnet - Arkis Instance Configuration Document](4bb58af1-fc25-442f-83a9-dd40989a7d37).
 
-###### A.6.1.1.1.2.6.1.1.2.1.12 - Uniswap v4 [Core]  <!-- UUID: 4ef25928-26c1-4864-9670-88c5d676b8e4 -->
+###### A.6.1.1.1.2.6.1.1.2.1.13 - Uniswap v4 [Core]  <!-- UUID: 4ef25928-26c1-4864-9670-88c5d676b8e4 -->
 
 The Ethereum Mainnet Instances Directory of the Uniswap v4 with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.1.2.1.12.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 5e1d4f42-84aa-4907-ad6f-eb62b26d28e3 -->
+###### A.6.1.1.1.2.6.1.1.2.1.13.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 5e1d4f42-84aa-4907-ad6f-eb62b26d28e3 -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.10.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document](c5d16727-69f7-454a-a3da-85c46dd9eed2).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.11.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document](c5d16727-69f7-454a-a3da-85c46dd9eed2).
 
-###### A.6.1.1.1.2.6.1.1.2.1.12.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 55e7dee1-dab9-4bc6-b8db-9aa8191597a1 -->
+###### A.6.1.1.1.2.6.1.1.2.1.13.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 55e7dee1-dab9-4bc6-b8db-9aa8191597a1 -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.10.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document](3c4cfb29-1579-4abe-a17b-5b5574972b73).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.11.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document](3c4cfb29-1579-4abe-a17b-5b5574972b73).
 
 ###### A.6.1.1.1.2.6.1.1.2.2 - Base [Core]  <!-- UUID: 305a6351-bb16-4e4d-8912-7ef1c3ff26bb -->
 
@@ -19320,7 +19320,7 @@ The Avalanche Instances Directory of the Aave Protocol with `Active` Status ar
 
 ###### A.6.1.1.1.2.6.1.1.2.4.1.1 - Avalanche - Aave v3 USDC Vault Instance Configuration Document Location [Core]  <!-- UUID: 85bc9184-abf0-4767-ae07-cda159c63f6f -->
 
-This Instance's associated Instance Configuration Document is located at
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.4.1.1 - Avalanche - Aave v3 USDC Vault Instance Configuration Document](ae06054a-1ed8-410b-983d-1789b49f1f19).
 
 ###### A.6.1.1.1.2.6.1.1.2.4.2 - Spark Savings V2 [Core]  <!-- UUID: 805d95ac-c6fa-4326-bade-380c3635306c -->
 
@@ -19328,7 +19328,7 @@ The Avalanche Instances Directory of the Spark Savings v2 Protocol with `Active
 
 ###### A.6.1.1.1.2.6.1.1.2.4.2.1 - Avalanche - Spark Savings v2 USDC Instance Configuration Document Location [Core]  <!-- UUID: 82ccfe21-2172-41cc-b845-231ed61b101d -->
 
-This Instance's associated Instance Configuration Document is located at
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.4.2.1 - Avalanche - Spark Savings v2 USDC Instance Configuration Document](afa35a43-18e2-4084-b36c-eb584f4749ac)
 
 ###### A.6.1.1.1.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 1df4d054-4443-4c64-b34b-c9fce456276b -->
 
@@ -20776,7 +20776,7 @@ In order to withdraw all ERC-4626 balances, the operator must execute the follow
 
 `foreignController.redeemERC4626(address(token), token.balanceOf(address(proxy)))
 `
-For more detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.2 - Withdraw ERC-4626 Tokens](49e470dc-9619-4a41-897f-1e1aa532f21b) and [A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.4 - Redeem ERC-4626 Tokens](075178b0-d311-43bc-b3c9-37af4c9dffe5).
+For more detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.2 - Withdraw ERC-4626 Tokens](c2bbf44a-496c-4cf6-b0f6-25f77e66465b) and [A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.3 - Redeem ERC-4626 Tokens](ab5eb90f-1007-4560-a0ea-1c25d433c602).
 
 ###### A.6.1.1.1.2.6.1.2.2.3.2.2 - ERC-4626 Withdrawal Action [Core]  <!-- UUID: 29bb82e9-a308-448f-ace1-e8b0397a0995 -->
 
@@ -23279,7 +23279,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2.4.2 - Timelock [Core]  <!-- UUID: bf0333e1-219a-4dc2-89d9-0ac64907c3d2 -->
 
-Timelock: 240 hours (10 days) 
+Timelock: 240 hours (10 days)
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3 - Ethereum Mainnet - Morpho USDC Instance Configuration Document [Core]  <!-- UUID: f3063596-4f85-4a51-b52c-58221d043d3e -->
 
@@ -23847,7 +23847,7 @@ The documents herein define the parameters of the Arkis Instance of the Allocati
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 4aafd731-9770-4f4c-925a-7f54fcca8327 -->
 
-The documents herein define the Instance identifiers
+The documents herein define the Instance identifiers.
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.1 - Network [Core]  <!-- UUID: cc527da6-8dce-4165-a1ea-22075da1b3e2 -->
 
@@ -23920,191 +23920,191 @@ The Instance Capital Requirement Ratio for all Interim Deployments in Arkis is 1
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
-###### A.6.1.1.1.2.6.1.3.1.10 - Uniswap v4 [Core]  <!-- UUID: 6c5c956c-608f-40aa-9911-d1c04df4f99e -->
+###### A.6.1.1.1.2.6.1.3.1.11 - Uniswap v4 [Core]  <!-- UUID: 6c5c956c-608f-40aa-9911-d1c04df4f99e -->
 
 The Ethereum Mainnet Instances of the Uniswap v4 Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document [Core]  <!-- UUID: c5d16727-69f7-454a-a3da-85c46dd9eed2 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document [Core]  <!-- UUID: c5d16727-69f7-454a-a3da-85c46dd9eed2 -->
 
 The documents herein contain the Instance Configuration Document for the Uniswap v4 PYUSD/USDS Pool Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: bd5042f9-cd5d-4574-b868-d0b9ad247a3a -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: bd5042f9-cd5d-4574-b868-d0b9ad247a3a -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2 - Parameters [Core]  <!-- UUID: 4139b0ae-87f7-4b3f-aa48-78ee8efc1047 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2 - Parameters [Core]  <!-- UUID: 4139b0ae-87f7-4b3f-aa48-78ee8efc1047 -->
 
 The documents herein define the parameters of the Uniswap v4 PYUSD/USDS Pool Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 7efb34f5-5007-4ab4-93e7-e00e616df5b3 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 7efb34f5-5007-4ab4-93e7-e00e616df5b3 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.1 - Network [Core]  <!-- UUID: 94de254f-7f5e-4e40-a683-26935e3503ed -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.1.1 - Network [Core]  <!-- UUID: 94de254f-7f5e-4e40-a683-26935e3503ed -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 61fb4454-3c58-4757-b796-cc9890685e71 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 61fb4454-3c58-4757-b796-cc9890685e71 -->
 
 Uniswap v4
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 967a9605-4d90-46a7-a4bd-1ebcd7192b70 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 967a9605-4d90-46a7-a4bd-1ebcd7192b70 -->
 
 USDS and PYUSD
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.4 - Token [Core]  <!-- UUID: 4d4123a0-312b-4351-aecc-28e56b1de290 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.1.4 - Token [Core]  <!-- UUID: 4d4123a0-312b-4351-aecc-28e56b1de290 -->
 
 PYUSDUSDS
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.2 - Contract Addresses [Core]  <!-- UUID: fda1c342-7d97-4674-a383-d32544990ae9 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.2 - Contract Addresses [Core]  <!-- UUID: fda1c342-7d97-4674-a383-d32544990ae9 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.2.1 - Token Address [Core]  <!-- UUID: df34137f-2994-48fb-ba1d-1c533b1fc305 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.2.1 - Token Address [Core]  <!-- UUID: df34137f-2994-48fb-ba1d-1c533b1fc305 -->
 
 `0xa632d59b9b804a956bfaa9b48af3a1b74808fc1f`
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.2.2 - Pool ID [Core]  <!-- UUID: 1ec43acc-0aba-4e5e-96f9-cb6c4143c7f3 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.2.2 - Pool ID [Core]  <!-- UUID: 1ec43acc-0aba-4e5e-96f9-cb6c4143c7f3 -->
 
 `0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45`
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7b94ebfe-42c9-4319-80ff-d57258f5773c -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7b94ebfe-42c9-4319-80ff-d57258f5773c -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4 - Rate Limits [Core]  <!-- UUID: 689f87d9-e66b-4eab-b984-9ad21ed4bb59 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4 - Rate Limits [Core]  <!-- UUID: 689f87d9-e66b-4eab-b984-9ad21ed4bb59 -->
 
 The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 02ca893e-879e-47fa-a2f1-ca783ccf2106 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 02ca893e-879e-47fa-a2f1-ca783ccf2106 -->
 
 The inflow rate limits are:
 - `maxAmount`: 10,000,000
 - `slope`: 100,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 7b1bcd5c-8af6-46bd-8fb0-cbac22bae80a -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 7b1bcd5c-8af6-46bd-8fb0-cbac22bae80a -->
 
 The outflow rate limits are:
 - `maxAmount`: 50,000,000
 - `slope`: 200,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 1a2ba197-1389-4cdd-8e55-ca950ecacdca -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 1a2ba197-1389-4cdd-8e55-ca950ecacdca -->
 
 The swap rate limits are:
 - `maxAmount`: 5,000,000
 - `slope`: 50,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.4 - Maximum Slippage [Core]  <!-- UUID: 0318bf34-70a0-42a0-9019-e5a48de96ec6 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.4 - Maximum Slippage [Core]  <!-- UUID: 0318bf34-70a0-42a0-9019-e5a48de96ec6 -->
 
 Max slippage: 0.1%
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.5 - Tick Range and Width [Core]  <!-- UUID: 9e8e50cc-eb69-43f4-b0d6-dd2f0c4fc01a -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.5 - Tick Range and Width [Core]  <!-- UUID: 9e8e50cc-eb69-43f4-b0d6-dd2f0c4fc01a -->
 
 - Min lower tick limit: 276,314 (-0.1%)
 - Max upper tick limit: 276,334 (+0.1%)
 - Max tick width: 10 ticks
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.6 - Swap Fee [Core]  <!-- UUID: 3c776b0d-7ab4-4949-993e-ce290341654d -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.6 - Swap Fee [Core]  <!-- UUID: 3c776b0d-7ab4-4949-993e-ce290341654d -->
 
 0.0005%
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 809b7844-1e15-4e43-bc33-b0af6074a725 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 809b7844-1e15-4e43-bc33-b0af6074a725 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c8bfb680-b56f-4cd2-835c-4fdec23be484 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c8bfb680-b56f-4cd2-835c-4fdec23be484 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
-###### A.6.1.1.1.2.6.1.3.1.10.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document [Core]  <!-- UUID: 3c4cfb29-1579-4abe-a17b-5b5574972b73 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document [Core]  <!-- UUID: 3c4cfb29-1579-4abe-a17b-5b5574972b73 -->
 
 The documents herein contain the Instance Configuration Document for the Uniswap v4 USDT/USDS Pool Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 686428f2-87e7-4592-8656-60ab5bee3168 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 686428f2-87e7-4592-8656-60ab5bee3168 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2 - Parameters [Core]  <!-- UUID: d46584b0-4ec1-4450-b915-79969d7c3c74 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2 - Parameters [Core]  <!-- UUID: d46584b0-4ec1-4450-b915-79969d7c3c74 -->
 
 The documents herein define the parameters of the Uniswap v4 USDT/USDS Pool Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 0845627e-c64a-4e04-8be2-4f5bac7114d2 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 0845627e-c64a-4e04-8be2-4f5bac7114d2 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.1 - Network [Core]  <!-- UUID: 6d1a7aa5-3aab-461b-a0ab-aa68137ffd0d -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.1.1 - Network [Core]  <!-- UUID: 6d1a7aa5-3aab-461b-a0ab-aa68137ffd0d -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 1fdf2ecf-e70e-4294-91de-1596f991ca2a -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 1fdf2ecf-e70e-4294-91de-1596f991ca2a -->
 
 Uniswap v4
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 13b49366-aaee-4f35-b2cd-e2317bc4b92c -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 13b49366-aaee-4f35-b2cd-e2317bc4b92c -->
 
 USDS and USDT
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.4 - Token [Core]  <!-- UUID: a877ea22-2aae-451e-b0d6-912fdaca1796 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.1.4 - Token [Core]  <!-- UUID: a877ea22-2aae-451e-b0d6-912fdaca1796 -->
 
 USDTUSDS
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.2 - Contract Addresses [Core]  <!-- UUID: 164e3bb8-8a61-41b7-9d34-797db864ac87 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.2 - Contract Addresses [Core]  <!-- UUID: 164e3bb8-8a61-41b7-9d34-797db864ac87 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.2.1 - Token Address [Core]  <!-- UUID: c864e1c5-a653-433b-85e5-3bd1037fc7a1 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.2.1 - Token Address [Core]  <!-- UUID: c864e1c5-a653-433b-85e5-3bd1037fc7a1 -->
 
 `0x00836Fe54625BE242BcFA286207795405ca4fD10`
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.2.2 - Pool ID [Core]  <!-- UUID: 6e231bfb-e04f-44e0-9023-7ab98c9b7568 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.2.2 - Pool ID [Core]  <!-- UUID: 6e231bfb-e04f-44e0-9023-7ab98c9b7568 -->
 
 `0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9`
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 77850de8-afe7-47e2-aedd-e44de6922c6f -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 77850de8-afe7-47e2-aedd-e44de6922c6f -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.4 - Rate Limits [Core]  <!-- UUID: 91ad3746-e58c-43b3-a53d-0430b5e20a4c -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4 - Rate Limits [Core]  <!-- UUID: 91ad3746-e58c-43b3-a53d-0430b5e20a4c -->
 
 The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: a6105d1a-16d8-4920-808c-780891e2112d -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: a6105d1a-16d8-4920-808c-780891e2112d -->
 
 The inflow rate limits are:
 - `maxAmount`: 5,000,000
 - `slope`: 50,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 2a7d1855-feb9-4a16-b726-144f52c89dd3 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 2a7d1855-feb9-4a16-b726-144f52c89dd3 -->
 
 The outflow rate limits are:
 - `maxAmount`: 50,000,000
 - `slope`: 200,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 18355afe-c656-47a5-8867-206263d8cb09 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 18355afe-c656-47a5-8867-206263d8cb09 -->
 
 The swap rate limits are:
 - `maxAmount`: 5,000,000
 - `slope`: 50,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.4 - Maximum Slippage [Core]  <!-- UUID: fa48928b-af8a-4455-88ac-43a68631e329 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.4 - Maximum Slippage [Core]  <!-- UUID: fa48928b-af8a-4455-88ac-43a68631e329 -->
 
 Max slippage: 0.2%
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.5 - Tick Range and Width [Core]  <!-- UUID: e72be948-a47e-4303-b9b2-d1acb07cecd4 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.5 - Tick Range and Width [Core]  <!-- UUID: e72be948-a47e-4303-b9b2-d1acb07cecd4 -->
 
 - Min lower tick limit: 276,304 (-0.2%)
 - Max upper tick limit: 276,344 (+0.2%)
 - Max tick width: 10 ticks
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.6 - Swap Fee [Core]  <!-- UUID: 9f92e7b7-83e6-4b0c-9f3d-6ec66a259c98 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.6 - Swap Fee [Core]  <!-- UUID: 9f92e7b7-83e6-4b0c-9f3d-6ec66a259c98 -->
 
 0.0005%
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: bc14c22c-f7a7-4de9-afe9-4b121d05ee7a -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: bc14c22c-f7a7-4de9-afe9-4b121d05ee7a -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: afd2544b-24de-439b-8d8f-44d5cd82a8bd -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: afd2544b-24de-439b-8d8f-44d5cd82a8bd -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
@@ -24216,11 +24216,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.1 - Curator Role Address [Core]  <!-- UUID: 921d59d4-baaf-45a8-b6ff-93aa879e0e41 -->
 
-0x0f963A8A8c01042B69054e787E5763ABbB0646A3
+`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.2 - Guardian Role Address [Core]  <!-- UUID: edee318a-59b1-4ff1-9790-8d4606f2f7bd -->
 
-0xf5748bBeFa17505b2F7222B23ae11584932C908B
+`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4.3 - Timelock [Core]  <!-- UUID: 63f24280-1724-4d2c-a0b8-aa8a2381afb8 -->
 
