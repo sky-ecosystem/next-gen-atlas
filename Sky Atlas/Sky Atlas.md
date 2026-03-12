@@ -2214,20 +2214,6 @@ Any Facilitator has the authority to formally raise an allegation of AD misalign
 
 A Facilitator's failure to act promptly in addressing credible evidence of AD misalignment or to mitigate the risk of misalignment spreading among ADs is considered an act of misalignment itself. Formal allegations of such failure must be adjudicated by the Core Facilitator pursuant to the same process referenced in the above-cited document.
 
-#### A.1.5.6.0.3.1 - Credible Evidence - Element Annotation [Annotation]  <!-- UUID: 578ff359-eff1-406e-8cb9-5f4807598c10 -->
-
-The element "credible evidence" refers to the evidentiary threshold required for a formal allegation to proceed to adjudication. A formal allegation is supported by credible evidence where it identifies (a) the specific requirement or standard alleged to have been breached, (b) the factual basis for the allegation, and (c) any supporting evidence. Where an allegation fails to meet this threshold, the Core Facilitator may decline to initiate adjudication, provided the basis for declining is documented.
-
-#### A.1.5.6.0.3.2 - Act Swiftly - Element Annotation [Annotation]  <!-- UUID: 3a9d0848-e034-4d6b-8c4f-3d18e92edb71 -->
-
-The element "act swiftly" does not preclude reasonable delay where the Facilitator requires additional time to gather evidence, consult with the accused party, or seek guidance from Core GovOps. The Facilitator should document the basis for any such delay.
-
-#### A.1.5.6.0.4.1 - Facilitators’ Authority To Raise Formal Allegation [Action Tenet]  <!-- UUID: c5146fa6-00ec-4543-9288-410570b5d588 -->
-
-Any community member or Aligned Delegate with information pertinent to suspected Alignment Conserver misalignment may take their concerns directly to the Core Facilitator.  Upon receiving such information, the Core Facilitator must promptly conduct an initial review to quickly assess the credibility of the concern. Based on this preliminary review, the Core Facilitator must decide whether to initiate a formal adjudication process in accordance with [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
-
-Where the allegation of misalignment concerns the Core Facilitator, a community member can take their concerns to Core GovOps, who is then empowered to initiate the formal adjudication process.
-
 #### A.1.5.6.1 - Graduated Response Framework [Core]  <!-- UUID: 2544a530-42f8-4699-b428-7c3568e1635e -->
 
 Breaches of Aligned Delegate requirements are categorized into two (2) tiers based on severity. The appropriate response is determined by the tier of the breach and the Aligned Delegate’s prior record.
@@ -2280,6 +2266,20 @@ Claims of ignorance, misunderstanding, or failure to read proposal text shall no
 This rule applies only to votes cast in favor. Aligned Delegates who vote against or abstain retain the ability to raise concerns about proposal clarity or their understanding of its implications.
 
 The estoppel rule does not apply where the proposal text was materially misleading at the time of voting, or where critical facts bearing on the proposal’s governance implications emerged after the vote concluded. The burden of establishing that the proposal text was misleading or that newly discovered facts are material rests with the Aligned Delegate.
+
+#### A.1.5.6.0.3.1 - Act Swiftly - Element Annotation [Annotation]  <!-- UUID: 3a9d0848-e034-4d6b-8c4f-3d18e92edb71 -->
+
+The element "act swiftly" does not preclude reasonable delay where the Facilitator requires additional time to gather evidence, consult with the accused party, or seek guidance from Core GovOps. The Facilitator should document the basis for any such delay.
+
+#### A.1.5.6.0.3.2 - Credible Evidence - Element Annotation [Annotation]  <!-- UUID: 578ff359-eff1-406e-8cb9-5f4807598c10 -->
+
+The element "credible evidence" refers to the evidentiary threshold required for a formal allegation to proceed to adjudication. A formal allegation is supported by credible evidence where it identifies (a) the specific requirement or standard alleged to have been breached, (b) the factual basis for the allegation, and (c) any supporting evidence. Where an allegation fails to meet this threshold, the Core Facilitator may decline to initiate adjudication, provided the basis for declining is documented.
+
+#### A.1.5.6.0.4.1 - Facilitators’ Authority To Raise Formal Allegation [Action Tenet]  <!-- UUID: c5146fa6-00ec-4543-9288-410570b5d588 -->
+
+Any community member or Aligned Delegate with information pertinent to suspected Alignment Conserver misalignment may take their concerns directly to the Core Facilitator.  Upon receiving such information, the Core Facilitator must promptly conduct an initial review to quickly assess the credibility of the concern. Based on this preliminary review, the Core Facilitator must decide whether to initiate a formal adjudication process in accordance with [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
+
+Where the allegation of misalignment concerns the Core Facilitator, a community member can take their concerns to Core GovOps, who is then empowered to initiate the formal adjudication process.
 
 ### A.1.5.7 - Mandate To Maintain High Level of Operational Security [Section]  <!-- UUID: c68b4c5d-adf7-49e6-850a-17a688664d40 -->
 
@@ -4903,7 +4903,7 @@ The Solana LayerZero Freezer Multisig has a 2/4 signing requirement.
 
 ###### A.1.9.4.1.3.1.2.3 - Solana LayerZero Freezer Multisig Signers [Core]  <!-- UUID: a9f95fb4-690e-43c2-a231-b8705d62036d -->
 
-The signers of the Solana LayerZero Freezer Multisig are two (2) addresses controlled by Operational GovOps Soter Labs and two (2) addresses controlled by Keel.
+The signers of the Solana LayerZero Freezer Multisig are two (2) addresses controlled by Operational GovOps Soter Labs and two (2) addresses controlled by Operational Facilitator Endgame Edge.
 
 ###### A.1.9.4.1.3.1.2.4 - Solana LayerZero Freezer Multisig Usage Standards [Core]  <!-- UUID: 9f845d09-4304-4aa7-8bd0-2dda747e52e6 -->
 
@@ -4915,11 +4915,11 @@ The Core Council must ensure that use of the multisig is generally aligned and s
 
 ###### A.1.9.4.1.3.1.2.5 - Solana LayerZero Freezer Multisig Modification [Core]  <!-- UUID: b70ebff7-355c-46c2-bc36-f08561c5ded1 -->
 
-Operational GovOps Soter Labs and Keel can change the signers of the Solana LayerZero Freezer Multisig so long as:
+Operational GovOps Soter Labs and Operational Facilitator Endgame Edge can change the signers of the Solana LayerZero Freezer Multisig so long as:
 
 - there are four (4) signers;
 - two (2) signers are required to execute transactions; and
-- an equal number of signers are controlled by Operational GovOps Soter Labs and Keel.
+- an equal number of signers are controlled by Operational GovOps Soter Labs and Operational Facilitator Endgame Edge.
 
 ###### A.1.9.4.1.3.2 - Rate Limits [Core]  <!-- UUID: 36626f77-52da-4bb6-9e32-851420133922 -->
 
@@ -9507,7 +9507,6 @@ The Active Data is updated as follows:
 The current Sky Direct Exposures are:
     
 - Treasury Bills - Investments by Grove in BUIDL, JTRSY, and USTB on Ethereum Mainnet
-- Collateralized Loan Obligations - Investments by Grove in JAAA on Ethereum Mainnet up to 325M USD
 - Peg Stability Modules - Investments by Spark or Grove in USDC in Peg Stability Modules on blockchains other than Ethereum Mainnet
 - Curve Pools - Investments by Spark in USDT in sUSDS/USDT Curve pools
 
@@ -9669,9 +9668,9 @@ The Operational Executor Facilitator reviews the proposal to ensure that it is c
 
 ###### A.2.2.9.1.1.2.2.3 - Official Update of Artifact [Core]  <!-- UUID: 2b1612b8-480c-49b3-a304-6a6f593340de -->
 
-If the Allocation Instance is successfully approved, the Operational Executor Facilitator finalizes and publishes the update to the Prime Agent Artifact, making it effective in the Atlas. The output of this step is an updated Prime Agent Artifact with the new Allocation Instance. 
+If the Allocation Instance is successfully approved, the Operational Executor Facilitator finalizes and publishes the update to the Prime Agent Artifact, making it effective in the Atlas. The output of this step is an updated Prime Agent Artifact with the new Allocation Instance.
 
-Once a new Instance is deployed, its data is integrated into risk-capital monitoring systems and its RRC will be officially determined and tracked via the Sky Core RRC Dashboard/API. See [A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard And API](4eac2c9e-2718-4881-a3f1-ed10fb3f4d13). This official RRC figure supersedes the Prime-prepared pro-forma RRC.
+Once a new Instance is deployed, its data is integrated into risk-capital monitoring systems and its RRC will be officially determined and tracked via the Sky Core RRC Dashboard. See [A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard](4eac2c9e-2718-4881-a3f1-ed10fb3f4d13). This official RRC figure supersedes the Prime-prepared pro-forma RRC.
 
 ###### A.2.2.9.1.1.2.3 - Instance Setup Deployments [Core]  <!-- UUID: 3766cb8c-ab6c-41af-9465-b8dea76d0532 -->
 
@@ -9705,28 +9704,28 @@ The documents herein define Risk Capital and Asset Liability Management requirem
 
 The documents herein detail the obligations, processes, standards and infrastructure related to risk-capital management.
 
-###### A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard And API [Core]  <!-- UUID: 4eac2c9e-2718-4881-a3f1-ed10fb3f4d13 -->
+###### A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard [Core]  <!-- UUID: 4eac2c9e-2718-4881-a3f1-ed10fb3f4d13 -->
 
-The Sky Core Required Risk Capital (RRC) Dashboard and its associated API serve as the official system for determining and disseminating RRC figures for Prime Agents and their Allocation System Primitive Instances.
+The Sky Core Required Risk Capital (RRC) Dashboard serves as the official system for determining and disseminating RRC figures for Prime Agents and their Allocation System Primitive Instances.
 
-Prior to the full operational deployment of the Powerhouse system, Prime Agents must utilize the Sky Core RRC Dashboard/API as the authoritative source for their official Instance Total RRCs and Aggregate RRC. Data from these sources is to be used for all internal TRC management,  required reporting and compliance assessments.
+Prior to the full operational deployment of the Powerhouse system, Prime Agents must utilize the Sky Core RRC Dashboard as the authoritative source for their official Instance Total RRCs and Aggregate RRC. Data from this source is to be used for all internal TRC management, required reporting and compliance assessments.
 
-The Sky Core RRC Dashboard is located at [https://sphere.blockanalitica.com/rrc](https://sphere.blockanalitica.com/rrc). The Sky Core RRC API is located at [https://sphere-api.blockanalitica.com/rrc/](https://sphere-api.blockanalitica.com/rrc/).
+The Sky Core RRC Dashboard is located at [https://info.sky.money/required-risk-capital](https://info.sky.money/required-risk-capital).
 
-###### A.2.2.9.1.1.3.2.1.1.1 - Role and Functionality of the RRC Dashboard and API [Core]  <!-- UUID: f7da0f56-00f5-4bcf-bd31-b77c284c7992 -->
+###### A.2.2.9.1.1.3.2.1.1.1 - Role and Functionality of the RRC Dashboard [Core]  <!-- UUID: f7da0f56-00f5-4bcf-bd31-b77c284c7992 -->
 
-The RRC Dashboard provides a user interface for Prime Agents to view their official RRC figures. The RRC API allows Prime Agents to programmatically access this same data for integration into their internal TRC management systems. Both the Dashboard and API provide the following key information:
+The RRC Dashboard provides a user interface for Prime Agents to view their official RRC figures. The Dashboard provides the following key information:
+
+- Instance Total RRC: For each specific Allocation System Primitive Instance, the system displays its Instance Total RRC. This figure is the sum of all applicable risk-specific RRC calculations for that Instance, including:
+ - Instance Financial RRC ([A.3.2.1.1.4 - Instance Financial RRC](ba1d5c0e-399f-47a6-b5d4-b3f5477d5787))
+ - Instance Smart Contract RRC ([A.3.2.1.1.5 - Instance Smart Contract RRC](4b4ea578-28b4-481c-9abd-d34c5a4f383c))
+ - Instance Administrative RRC ([A.3.2.1.1.6 - Instance Administrative RRC](c2b60f0d-6555-463c-9ad3-2a9746be77c5))
+
+The models for certain risk-factors are still currently under development. See [A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard Coverage](18243e7a-5b62-459d-83fb-e50b9df05f9d). 
     
-◦ Instance Total RRC: For each specific Allocation System Primitive Instance, the system displays its Instance Total RRC. This figure is the sum of all applicable risk-specific RRC calculations for that Instance, including:
-        ◦ Instance Financial RRC ([A.3.2.1.1.4 - Instance Financial RRC](ba1d5c0e-399f-47a6-b5d4-b3f5477d5787)) 
-        ◦ Instance Smart Contract RRC ([A.3.2.1.1.5 - Instance Smart Contract RRC](4b4ea578-28b4-481c-9abd-d34c5a4f383c))  
-        ◦ Instance Administrative RRC ([A.3.2.1.1.6 - Instance Administrative RRC](c2b60f0d-6555-463c-9ad3-2a9746be77c5)) 
+- Aggregate RRC: For each Prime Agent, the system displays its Aggregate RRC, which is the sum of all its Instance Total RRCs. This is the figure against which a Prime Agent’s Total Risk Capital (TRC) adequacy is assessed.
 
-The models for certain risk-factors are still currently under development. See [A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard/API Coverage](18243e7a-5b62-459d-83fb-e50b9df05f9d). 
-    
-◦ Aggregate RRC: For each Prime Agent, the system displays its Aggregate RRC, which is the sum of all its Instance Total RRCs. This is the figure against which a Prime Agent’s Total Risk Capital (TRC) adequacy is assessed.
-
-###### A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard/API Coverage [Core]  <!-- UUID: 18243e7a-5b62-459d-83fb-e50b9df05f9d -->
+###### A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard Coverage [Core]  <!-- UUID: 18243e7a-5b62-459d-83fb-e50b9df05f9d -->
 
 Some Allocation System Instances displayed on the RRC Dashboard concern asset types whose risk models have not yet been fully developed. See [A.3.2.1.1.4.3 - Financial Risk Models](2af9fa64-ab25-4017-920c-f1c07dff4c06). An active Instance’s respective Instance Configuration Document will specify its `RRC Framework Full Implementation` status as either `Covered` or `Pending`.
 
@@ -9752,21 +9751,20 @@ A Prime Agent’s internal TRC management system should possess the following ca
 The system must provide real-time or near real-time tracking of all held Total Risk Capital (TRC) components. This includes, for each TRC component:
         ◦ Accurate valuation of the assets comprising each component.
         ◦ Clear identification of the source of each component (e.g., Prime’s own SubProxy for IJRC, specific Ecosystem Accord references for rented SEJRC or OSRC, TEJRC encumbrance details, OSRC origination details).
-        ◦ Verification of each TRC component’s eligibility status according to Atlas rules. This includes tracking whether capital is "enabled" or "active" for RRC coverage purposes (e.g., based on Ecosystem Accord status, compliance with sourcing ratios, etc.).
+        ◦ Verification of each TRC component’s eligibility status according to Atlas rules. This includes tracking whether capital is “enabled” or “active” for RRC coverage purposes (e.g., based on Ecosystem Accord status, compliance with sourcing ratios, etc.).
         ◦ Distinction between capital directly held by the Prime Agent and capital that is encumbered (e.g., SEJRC where the lending Prime retains custody but the capital is contractually committed).
     
-2. Prime Agents’ internal TRC management systems should enable dynamic-state accounting. The system must account for TRC components that are in dynamic, pending, or off-chain states, as these can impact the true risk capital available to a Prime Agent. This includes:
+2. Prime Agents' internal TRC management systems should enable dynamic-state accounting. The system must account for TRC components that are in dynamic, pending, or off-chain states, as these can impact the true risk capital available to a Prime Agent. This includes:
         ◦ Pending transactions such as SEJRC or OSRC rental Ecosystem Accords that have been committed to by the parties, but not yet codified in the Atlas.
         ◦ Capital in transit, e.g., assets that are committed to be IJRC, but currently moving between chains via bridges or locked in Cross-Chain Transfer Protocol (CCTP) messages awaiting finality.
         ◦ Operational expenditures funded by TRC components (typically IJRC), such as blockchain transaction fees, oracle service fees, audit costs, and other operational overhead that reduces available risk capital. The system should track these expenditures in real-time or near real-time.
         ◦ Any off-chain factors that could impair the immediate deployability or availability of TRC components.
     
-3. Prime Agents’ internal TRC management systems should enable continuous capital adequacy monitoring. The system must enable the near real-time comparison of the Prime Agent’s internally tracked and calculated TRC against its official Aggregate RRC, as obtained from the Sky Core RRC Dashboard/API. See [A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard And API](4eac2c9e-2718-4881-a3f1-ed10fb3f4d13). This core functionality is essential for the Prime Agent to proactively monitor its capital adequacy, identify potential or actual TRC shortfalls, and make timely operational and capital management decisions to maintain compliance.
+3. Prime Agents' internal TRC management systems should enable continuous capital adequacy monitoring. The system must enable the near real-time comparison of the Prime Agent's internally tracked and calculated TRC against its official Aggregate RRC, as obtained from the Sky Core RRC Dashboard. See [A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard](4eac2c9e-2718-4881-a3f1-ed10fb3f4d13). This core functionality is essential for the Prime Agent to proactively monitor its capital adequacy, identify potential or actual TRC shortfalls, and make timely operational and capital management decisions to maintain compliance.
     
-4. Prime Agents’ internal TRC management systems should define a RRC-incident (e.g., TRC shortfall) response protocol. The system should enable internal alerting mechanisms that detect when a Prime Agent’s TRC approaches predefined internal buffer thresholds relative to its Aggregate RRC. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9). The system should also detect an actual shortfall where the Prime Agent’s held TRC falls below its Aggregate RRC.
-Furthermore, Prime Agent teams should establish and document internal processes for responding to such alerts. Such internal processes should include: 1) internal escalation and assessment of the shortfall’s cause and magnitude; 2) formulation of potential responses or corrective actions, which may include sourcing additional TRC, reducing risk-weighted exposures, or other measures; 3) internal decision-making framework for the evaluation of potential responses and selection of the most appropriate one; and 4) notifying any pertinent parties (Operational GovOps) as needed for the purpose of planning or implementing follow-up action.
+4. Prime Agents' internal TRC management systems should define a RRC-incident (e.g., TRC shortfall) response protocol. The system should enable internal alerting mechanisms that detect when a Prime Agent’s TRC approaches predefined internal buffer thresholds relative to its Aggregate RRC. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9). The system should also detect an actual shortfall where the Prime Agent’s held TRC falls below its Aggregate RRC. Furthermore, Prime Agent teams should establish and document internal processes for responding to such alerts. Such internal processes should include: 1) internal escalation and assessment of the shortfall’s cause and magnitude; 2) formulation of potential responses or corrective actions, which may include sourcing additional TRC, reducing risk-weighted exposures, or other measures; 3) internal decision-making framework for the evaluation of potential responses and selection of the most appropriate one; and 4) notifying any pertinent parties (Operational GovOps) as needed for the purpose of planning or implementing follow-up action.
 
-Prime Agent teams’ internal decision-making framework may consider the economic trade-offs of various actions, including the strategic acceptance of penalties for a TRC shortfall where such an approach is determined to be economically advantageous compared to immediate rebalancing (e.g., avoiding excessive transaction costs or market impact).
+Prime Agent teams' internal decision-making framework may consider the economic trade-offs of various actions, including the strategic acceptance of penalties for a TRC shortfall where such an approach is determined to be economically advantageous compared to immediate rebalancing (e.g., avoiding excessive transaction costs or market impact).
 
 ###### A.2.2.9.1.1.3.2.1.2.3 - Primes’ TRC Report [Core]  <!-- UUID: 41ca2085-d71b-47e5-8b1a-b183b6e2b6fc -->
 
@@ -9900,7 +9898,9 @@ The Prime Agent's revised Capital and Operational Plan forms the core of the Art
 
 ###### A.2.2.9.1.1.3.3.1.4 - Post-Approval Integration and RRC Update [Core]  <!-- UUID: e3a00c33-9da7-4fa9-80ff-55d3a70100fa -->
 
-If the Artifact Edit Proposal for the Instance modification is approved through the Prime Agent's governance process, the relevant content from the revised Capital and Operational Plan is formally integrated into the respective Instance Configuration Document within the Prime Agent's Artifact. Once the modified Instance is operational under its new, approved parameters and its data is integrated into the ecosystem's monitoring systems, its adjusted Required Risk Capital (RRC) will be officially determined and tracked via the Sky Core RRC Dashboard/API. This official RRC figure then supersedes the Prime-prepared pro-forma RRC that was part of the modification proposal.
+If the Artifact Edit Proposal for the Instance modification is approved through the Prime Agent’s governance process, the relevant content from the revised Capital and Operational Plan is formally integrated into the respective Instance Configuration Document within the Prime Agent's Artifact.
+
+Once the modified Instance is operational under its new, approved parameters and its data is integrated into the ecosystem’s monitoring systems, its adjusted Required Risk Capital (RRC) will be officially determined and tracked via the Sky Core RRC Dashboard. This official RRC figure then supersedes the Prime-prepared pro-forma RRC that was part of the modification proposal.
 
 ##### A.2.2.9.1.2 - Allocation System Input Requirements [Core]  <!-- UUID: b6ccdee2-a5e4-4d63-9af5-60b8163673af -->
 
@@ -10423,7 +10423,7 @@ In the short term, Step 4 Capital is allocated as specified in the documents her
 
 ###### A.2.3.1.4.2.1 - Allocation To SKY Buybacks [Core]  <!-- UUID: b9f2fd14-bc43-4bdd-94aa-2a5defefa97d -->
 
-300,000 USDS per day of Step 4 Capital is allocated to SKY buybacks.
+37,600 USDS per day of Step 4 Capital is allocated to SKY buybacks.
 
 ###### A.2.3.1.4.2.2 - Allocation To Surplus Buffer [Core]  <!-- UUID: e2eae80f-ca25-4fab-880a-3a55ca1aa16d -->
 
@@ -12574,7 +12574,7 @@ Sky Ecosystem is adopting the Security Alliance Safe Harbor Agreement ("Safe Har
 
 ##### A.2.11.1.2.1 - Agreement [Core]  <!-- UUID: c3705a82-9cda-4626-89bb-2ec21774b371 -->
 
-Safe Harbor is an onchain agreement. The agreement is specified in [https://etherscan.io/address/0x9E5Cf4a9C806fE1F4392788b21342a442E14Cc20#readContract#F2](https://etherscan.io/address/0x9E5Cf4a9C806fE1F4392788b21342a442E14Cc20#readContract#F2). The agreement located at the IPFS address shown in the smart contract above is the definitive version of the agreement.
+Safe Harbor is an onchain agreement. The agreement is specified in [https://etherscan.io/address/0xf17bb418b4ec251f300aa3517cb37349f17697a1#readContract#F2](https://etherscan.io/address/0xf17bb418b4ec251f300aa3517cb37349f17697a1#readContract#F2). The agreement located at the IPFS address shown in the smart contract above is the definitive version of the agreement.
 
 ##### A.2.11.1.2.2 - Execution [Core]  <!-- UUID: 25015208-5234-4818-8479-c46f927c272c -->
 
@@ -12586,7 +12586,7 @@ The address of the Safe Harbor registry contract on the Ethereum Mainnet is `0x3
 
 ###### A.2.11.1.2.2.2 - Agreement Address [Core]  <!-- UUID: 0f541963-584d-4bcd-8c00-adbbcb85edf8 -->
 
-The address of the Safe Harbor agreement is `0x9E5Cf4a9C806fE1F4392788b21342a442E14Cc20`.
+The address of the Safe Harbor agreement is `0xf17bB418B4EC251f300Aa3517Cb37349f17697A1`.
 
 ###### A.2.11.1.2.2.3 - Execution Parameters [Core]  <!-- UUID: b061e1d9-76c3-444a-9a91-641c5d00315d -->
 
@@ -12643,9 +12643,9 @@ The Asset Recovery Address is the Pause Proxy on Ethereum Mainnet and the Govern
 
 - Ethereum Mainnet - `0xbe8e3e3618f7474f8cb1d074a26affef007e98fb`
 - Arbitrum - `0x10E6593CDda8c58a1d0f14C5164B376352a55f2F`
-- Optimism - `0x09b354cda89203bb7b3131cc728dfa06ab09ae2f`
+- Optimism - `0x10E6593CDda8c58a1d0f14C5164B376352a55f2F`
 - Base - `0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255`
-- Unichain - `0xb383070cf9f4f01c3a2cfd0ef6da4bc057b429b7`
+- Unichain - `0x3510a7F16F549EcD0Ef018DE0B3c2ad7c742990f`
 - Solana - `AYPtjx4Hc8us1ikULUedkmZ3wtiD6tmL7gK3qe4V3oHt`
 
 ###### A.2.11.1.2.2.3.3.3 - Accounts [Core]  <!-- UUID: c6591c5c-c767-4769-b2d6-80564d96fa48 -->
@@ -12662,7 +12662,7 @@ The representatives of the protocol should be contacted as specified in the Safe
 
 ###### A.2.11.1.2.2.3.5 - Protocol Name Parameter [Core]  <!-- UUID: 3ecab562-7477-4606-bce3-74da81dc78e6 -->
 
-The `protocolName` parameter specifies a human-readable name for the protocol. The value of the `protocolName` parameter is "Sky Ecosystem".
+The `protocolName` parameter specifies a human-readable name for the protocol. The value of the `protocolName` parameter is “Sky”.
 
 ##### A.2.11.1.2.3 - Maintenance [Core]  <!-- UUID: fcd868db-4a91-4ee0-baf5-1ebd40fc651e -->
 
@@ -15617,18 +15617,12 @@ The current value of the Surplus Buffer can be calculated using the Vat contract
 The current Smart Burn Engine parameters are:
 
 - kicker.khump: -200 million USDS (Threshold of Surplus Buffer for Splitter to activate)
-
-- kicker.kbump: 10,000 USDS
-
-- splitter.hop: 2,880 seconds
-
+- kicker.kbump: 6,000 USDS
+- splitter.hop: 13,787 seconds
 - 100% of Splitter allocation is set to accumulate SKY
-
 - 0% of Splitter allocation is set to reward SKY stakers
-
 - burn (the percentage of the kicker.kbump to be moved to the underlying flapper): 100% (WAD * 1)
-
-- LSEV2-SKY-A USDS rewardsDuration: 2,880 seconds
+- LSEV2-SKY-A USDS rewardsDuration: 13,787 seconds
 
 The rewardsDuration for the LSEV2-SKY-A USDS rewards contract must be set such that it is equal to the splitter.hop parameter.
 
@@ -17477,7 +17471,7 @@ The parameters of the vesting stream that vests SKY Tokens to be transferred to 
 
 ###### A.4.4.1.4.2.2 - Source Of SKY Rewards [Core]  <!-- UUID: 349a350c-c9b7-4232-a83f-2fb49b91fc74 -->
 
-The `vestTot` and `vestTau` parameters of the Vesting Stream contract are set such that SKY rewards are funded by SKY acquired through buybacks and the parameters of the Vesting Stream contract must be adjusted accordingly.
+The `vestTot` and `vestTau` parameters of the Vesting Stream contract are set such that SKY rewards are funded by SKY acquired through buybacks or SKY reserves.
 
 ###### A.4.4.1.4.2.2.1 - Authorization Of Transfer By Sky Frontier Foundation [Core]  <!-- UUID: 2789177b-5bc7-486f-8aab-75ea16e21035 -->
 
@@ -17644,21 +17638,18 @@ Full block requires frontends operated by Ecosystem Actors to deny service of an
 User IPs flagged for Full Block are:
 
 - Cuba
-
 - Iran
-
 - Syria
-
 - North Korea
-
+- Afghanistan
+- Belarus
+- Burma
+- Russia
+- Venezuela
 - Crimea and Sevastopol
-
 - Donetsk People’s Republic
-
 - Luhansk People’s Republic of Ukraine
-
 - Kherson Oblast
-
 - Zaporizhzhia Oblast
 
 ## A.5.5 - Short-Term Transitionary Measures [Article]  <!-- UUID: b28aecff-e420-473f-893a-9c31510f5845 -->
