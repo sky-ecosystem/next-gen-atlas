@@ -4788,7 +4788,7 @@ The `lerp` must be activated in an Executive Vote but can thereafter change the 
 ###### A.1.9.3.2.13.1.1 - Linear Interpolation Module Parameters [Core]  <!-- UUID: ac2fb8ab-4137-4243-8f75-1817f8529a70 -->
 
 Each `lerp` instance has the following parameters:
-    
+
 ◦ `target` - The target contract in which a parameter is being changed
 ◦ `what` - The name of the parameter being changed
 ◦ `startTime` - The starting time of this `lerp` instance
@@ -7124,7 +7124,7 @@ Upon receiving the draft from the Prime Agent, Core GovOps drafts a formal Atlas
 ###### A.2.2.5.2.3.2.2.1 - Potential Delays In Submission [Core]  <!-- UUID: 4b37392d-9c0f-4572-8293-e7c6b3fc3743 -->
 
 Core GovOps may in their discretion delay submitting a proposed edit based on factors including, but not limited to:
-    
+
 ◦ the size of the proposed edit;
 ◦ any ambiguities in the proposed edit;
 ◦ broader issues raised by the proposed edit requiring other changes or consultation with other stakeholders;
@@ -7495,7 +7495,7 @@ The documents herein specify the Distribution Reward reimbursement.
 ###### A.2.2.8.1.2.1.6.1 - Sky Core Distribution Reward Reimbursement [Active Data Controller]  <!-- UUID: 2c0eb02c-144e-4326-b5ec-85805653f0b7 -->
 
 The Distribution Reward reimbursement payments are defined as Active Data in [A.2.2.8.1.2.1.6.1.0.6.1 - Sky Core Distribution Reward Reimbursement Amounts](169eb312-ed63-4a83-9f5d-43b621c0705e).
- 
+
 The Active Data is updated as follows:
 - The Responsible Party is Core GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
@@ -8520,7 +8520,7 @@ The documents herein specify the Integration Boost reimbursement.
 ###### A.2.2.8.2.2.1.5.1 - Sky Core Integration Boost Reimbursement [Active Data Controller]  <!-- UUID: 7ed013c9-f7ac-4459-8675-8bbd398d5133 -->
 
 The Integration Boost reimbursement payments are defined as Active Data in [A.2.2.8.2.2.1.5.1.0.6.1 - Sky Core Integration Boost Reimbursement Amounts](8cbff90b-5633-427e-91da-0fb775812535).
- 
+
 The Active Data is updated as follows:
 - The Responsible Party is Core GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
@@ -8911,7 +8911,7 @@ The required Primitive Inputs to this process are defined herein and organized a
                 ◦ New value: set to `Proposal Approved by Facilitator` [automated]
         - Responsible party: Operational Facilitator
         - Trigger-Process: [A.2.2.8.2.2.3.5 - Process Definition for Offchain Vote](24fa76f6-4728-4f1d-97ff-fd7e72dac2ac).
- 
+
 - Operational Facilitator Rejects Proposal
     ◦ Edit `Artifact Edit Proposal`
         - Updated fields
@@ -9505,7 +9505,7 @@ The Active Data is updated as follows:
 ###### A.2.2.9.1.1.1.1.2.0.6.1 - List Of Current Sky Direct Exposures [Active Data]  <!-- UUID: 5f368e33-7a82-4244-a9ba-f285193ec043 -->
 
 The current Sky Direct Exposures are:
-    
+
 - Treasury Bills - Investments by Grove in BUIDL, JTRSY, and USTB on Ethereum Mainnet
 - Collateralized Loan Obligations - Investments by Grove in JAAA on Ethereum Mainnet up to 325M USD
 - Peg Stability Modules - Investments by Spark or Grove in USDC in Peg Stability Modules on blockchains other than Ethereum Mainnet
@@ -9622,17 +9622,17 @@ As a critical component of the Capital & Operational Plan, the Prime Agent must 
 The Prime’s notional TRC coverage strategy must outline how this new Instance’s RRC will be notionally accounted for or supported by the Prime’s overall TRC pool. If the Prime’s current TRC is not sufficient to cover its estimated increased Aggregate RRC, the strategy should outline the Prime Agent’s intended steps for acquiring additional JRC/SRC.
 
 For instance, this risk-capital acquisition strategy could involve:
-    
+
 1. Renting Junior Risk Capital (JRC)
 ◦ Sourcing Prime-External Junior Risk Capital (SEJRC) by renting it from other Primes through Ecosystem Accords.
 ◦ Sourcing Tokenized External Junior Risk Capital (TEJRC) from external capital providers.
-    
+
 2. Sourcing Senior Risk Capital (SRC):
 ◦ Originating SRC through the Sky monthly auction.
 ◦ Renting OSRC from other Primes through Ecosystem Accords.
-    
+
 3. Increasing Internal Junior Risk Capital (IJRC): A Prime might have plans to bolster its own IJRC through retained earnings or other internal means.
-    
+
 4. Decreasing exposure in an existing Instance(s) to lower Aggregate RRC.
 
 The Prime’s capital-acquisition strategy should indicate how the Prime will remain in compliance with all relevant Atlas rules, such as sourcing ratios that constrain how much Senior Risk Capital can be "enabled" or counted toward a Prime’s Aggregate RRC. See [A.3.2.1.2.3 - Total Risk Capital Sourcing Ratios](9e99b084-f15a-4f60-b831-d6c0bd9aec04).
@@ -9640,7 +9640,7 @@ The Prime’s capital-acquisition strategy should indicate how the Prime will re
 ###### A.2.2.9.1.1.2.1.3.3 - Additional Elements Of Capital And Operational Plan [Core]  <!-- UUID: a156b120-8b27-4a31-95fe-4154205ca102 -->
 
 The Capital & Operational Plan includes the following additional elements:
-    
+
 ◦ Operational Parameters: defines the Instance’s target chain(s), protocols, initial capital, maximum deposit sizes, and any other parameters that underpin the pro-forma RRC calculation.
 
 ◦ Data Submission Protocol: defines how yields, Required Risk Capital usage, ALM costs, exchange data, etc. will be reported and audited.
@@ -9716,14 +9716,14 @@ The Sky Core RRC Dashboard is located at [https://sphere.blockanalitica.com/rrc]
 ###### A.2.2.9.1.1.3.2.1.1.1 - Role and Functionality of the RRC Dashboard and API [Core]  <!-- UUID: f7da0f56-00f5-4bcf-bd31-b77c284c7992 -->
 
 The RRC Dashboard provides a user interface for Prime Agents to view their official RRC figures. The RRC API allows Prime Agents to programmatically access this same data for integration into their internal TRC management systems. Both the Dashboard and API provide the following key information:
-    
+
 ◦ Instance Total RRC: For each specific Allocation System Primitive Instance, the system displays its Instance Total RRC. This figure is the sum of all applicable risk-specific RRC calculations for that Instance, including:
         ◦ Instance Financial RRC ([A.3.2.1.1.4 - Instance Financial RRC](ba1d5c0e-399f-47a6-b5d4-b3f5477d5787))
         ◦ Instance Smart Contract RRC ([A.3.2.1.1.5 - Instance Smart Contract RRC](4b4ea578-28b4-481c-9abd-d34c5a4f383c))
         ◦ Instance Administrative RRC ([A.3.2.1.1.6 - Instance Administrative RRC](c2b60f0d-6555-463c-9ad3-2a9746be77c5))
 
 The models for certain risk-factors are still currently under development. See [A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard/API Coverage](18243e7a-5b62-459d-83fb-e50b9df05f9d).
-    
+
 ◦ Aggregate RRC: For each Prime Agent, the system displays its Aggregate RRC, which is the sum of all its Instance Total RRCs. This is the figure against which a Prime Agent’s Total Risk Capital (TRC) adequacy is assessed.
 
 ###### A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard/API Coverage [Core]  <!-- UUID: 18243e7a-5b62-459d-83fb-e50b9df05f9d -->
@@ -9746,7 +9746,7 @@ Primes must ensure that their internal TRC management systems maintain comprehen
 ###### A.2.2.9.1.1.3.2.1.2.2 - Minimum Capabilities of Prime TRC Management Systems [Core]  <!-- UUID: d034533f-9b6f-411c-8b60-3bccb374765f -->
 
 A Prime Agent’s internal TRC management system should possess the following capabilities to meet the objectives outlined in [A.2.2.9.1.1.3.2.1.2.1 - Objective of Prime TRC Management](9a8120c4-0a5b-426f-97a5-283c708413f5).
-    
+
 1. Prime Agents’ internal TRC management systems should enable compliant sourcing and tracking of all TRC components, including Internal Junior Risk Capital (IJRC), Prime-External Junior Risk Capital (SEJRC), Tokenized External Junior Risk Capital (TEJRC), and Originated Senior Risk Capital (OSRC). Compliance in this context includes strict adherence to eligibility criteria and capital-sourcing ratios (e.g., External Per Internal, Senior Per Junior) as defined in the Atlas. See [A.3.2.1.2.3 - Total Risk Capital Sourcing Ratios](9e99b084-f15a-4f60-b831-d6c0bd9aec04).
 
 The system must provide real-time or near real-time tracking of all held Total Risk Capital (TRC) components. This includes, for each TRC component:
@@ -9754,15 +9754,15 @@ The system must provide real-time or near real-time tracking of all held Total R
         ◦ Clear identification of the source of each component (e.g., Prime’s own SubProxy for IJRC, specific Ecosystem Accord references for rented SEJRC or OSRC, TEJRC encumbrance details, OSRC origination details).
         ◦ Verification of each TRC component’s eligibility status according to Atlas rules. This includes tracking whether capital is "enabled" or "active" for RRC coverage purposes (e.g., based on Ecosystem Accord status, compliance with sourcing ratios, etc.).
         ◦ Distinction between capital directly held by the Prime Agent and capital that is encumbered (e.g., SEJRC where the lending Prime retains custody but the capital is contractually committed).
-    
+
 2. Prime Agents’ internal TRC management systems should enable dynamic-state accounting. The system must account for TRC components that are in dynamic, pending, or off-chain states, as these can impact the true risk capital available to a Prime Agent. This includes:
         ◦ Pending transactions such as SEJRC or OSRC rental Ecosystem Accords that have been committed to by the parties, but not yet codified in the Atlas.
         ◦ Capital in transit, e.g., assets that are committed to be IJRC, but currently moving between chains via bridges or locked in Cross-Chain Transfer Protocol (CCTP) messages awaiting finality.
         ◦ Operational expenditures funded by TRC components (typically IJRC), such as blockchain transaction fees, oracle service fees, audit costs, and other operational overhead that reduces available risk capital. The system should track these expenditures in real-time or near real-time.
         ◦ Any off-chain factors that could impair the immediate deployability or availability of TRC components.
-    
+
 3. Prime Agents’ internal TRC management systems should enable continuous capital adequacy monitoring. The system must enable the near real-time comparison of the Prime Agent’s internally tracked and calculated TRC against its official Aggregate RRC, as obtained from the Sky Core RRC Dashboard/API. See [A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard And API](4eac2c9e-2718-4881-a3f1-ed10fb3f4d13). This core functionality is essential for the Prime Agent to proactively monitor its capital adequacy, identify potential or actual TRC shortfalls, and make timely operational and capital management decisions to maintain compliance.
-    
+
 4. Prime Agents’ internal TRC management systems should define a RRC-incident (e.g., TRC shortfall) response protocol. The system should enable internal alerting mechanisms that detect when a Prime Agent’s TRC approaches predefined internal buffer thresholds relative to its Aggregate RRC. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9). The system should also detect an actual shortfall where the Prime Agent’s held TRC falls below its Aggregate RRC.
 Furthermore, Prime Agent teams should establish and document internal processes for responding to such alerts. Such internal processes should include: 1) internal escalation and assessment of the shortfall’s cause and magnitude; 2) formulation of potential responses or corrective actions, which may include sourcing additional TRC, reducing risk-weighted exposures, or other measures; 3) internal decision-making framework for the evaluation of potential responses and selection of the most appropriate one; and 4) notifying any pertinent parties (Operational GovOps) as needed for the purpose of planning or implementing follow-up action.
 
@@ -9785,9 +9785,9 @@ The long-term vision is for the Powerhouse system to enable the automation of TR
 ###### A.2.2.9.1.1.3.2.1.2.3.2 - TRC Report Contents [Core]  <!-- UUID: 4887e971-be6c-4f98-9137-7cdec3ed0fa0 -->
 
 The Total Risk Capital (TRC) Report submitted by a Prime Agent must provide an accurate and verifiable breakdown of all TRC components held by the Prime Agent as of the end of the specified reporting period. The TRC Report should include the following essential information:
-    
+
 ◦ Aggregate TRC Value As of End of Period: The total declared value in USD of all eligible TRC components held by the Prime Agent as of the end of the reporting period.
-    
+
 ◦ Detailed Breakdown of TRC Components As of End of Period: For each category of TRC held, the report must detail the following values as of the end of the reporting period:
         ◦ Internal Junior Risk Capital (IJRC): The total amount of IJRC, a breakdown of its constituent asset types, and their respective values in USD.
         ◦ Prime-External Junior Risk Capital (SEJRC): The total amount of SEJRC. For each portion of SEJRC sourced from another Prime Agent, the report must include the amount in USD, the identifier of the counterparty Prime Agent, the expiry date of the arrangement, and a direct reference to the Ecosystem Accord that governs the SEJRC arrangement.
@@ -9843,11 +9843,11 @@ Finally, Core GovOps independently calculates and verifies the Prime Agent's com
 ###### A.2.2.9.1.1.3.2.1.3.3 - Finalized Determination Of TRC Position And Penalties [Core]  <!-- UUID: 36f3e675-d372-4d25-a50f-f0ba84a36273 -->
 
 After reaching a definitive accounting of Prime Agents’ capital position and TRC adequacy, penalties are finalized by Core GovOps. This involves reconciling the interim penalty ledger (derived from the OVRC system) with the definitive TRC history, which incorporates all validated information from the TRC Report including any intra-period shortfalls.
-    
+
 1. If the validated TRC Report indicates that the Prime Agent's TRC was below its Aggregate RRC during the reporting period, and this actual shortfall was more severe than, or not detected by, the OVRC monitoring system, then penalties will be finalized as follows: if the OVRC system had already accrued penalties, these will be adjusted upwards to match the actual shortfall; if the OVRC system had not detected a shortfall, penalties will be assessed and applied retroactively based on the full duration and magnitude of the actual shortfall.
-    
+
 2. If the validated TRC Report confirms that TRC shortfalls were identical in duration and magnitude to those logged by the OVRC monitoring system throughout the reporting period: the penalties accrued in the interim penalty ledger will be confirmed and finalized.
-    
+
 3. If the validated TRC Report confirms that TRC was higher than a misleading OVRC reading during a specific portion of the reporting period which led to an erroneously logged penalty: Core GovOps will adjust or void the penalty accordingly.
 
 ###### A.2.2.9.1.1.3.2.1.4 - Risk-Capital Incident Response [Core]  <!-- UUID: 12b7d480-68a0-4493-9534-d6915f86c112 -->
@@ -9887,11 +9887,11 @@ An Artifact Edit Proposal is mandatory for an Instance modification under the fo
 Prior to submitting an Artifact Edit Proposal for an Instance modification, the Prime Agent must revise the Capital and Operational Plan (C&O Plan) associated with that Instance to reflect the desired new state.
 
 The revised Capital and Operational Plan for an Instance modification must include the following information:
-    
+
 1. Updates to the Instance's strategy and operational parameters;
-    
+
 2. A new pro-forma Required Risk Capital (RRC) estimate specifically calculated to reflect the Instance's proposed modified state; and
-    
+
 3. A revised notional Total Risk Capital (TRC) coverage strategy, detailing how the Prime Agent will manage any changes to the Instance RRC and the consequential impact on its Aggregate RRC, including plans for acquiring additional JRC or SRC if necessary.
 
 ###### A.2.2.9.1.1.3.3.1.3 - Governance Process for Instance Modification [Core]  <!-- UUID: aee1d848-eee8-4590-a596-1884efcb474a -->
@@ -10452,17 +10452,17 @@ The documents herein define the Monthly Settlement Cycle (MSC), a standardized, 
 #### A.2.4.1.1 - Operational Processes [Core]  <!-- UUID: 7f43aea7-9b81-48ef-b3ce-fdfae7e8a551 -->
 
 The Monthly Settlement Cycle (MSC) synchronizes several key operational processes across the ecosystem, including:
-    
+
 1. Sky Protocol’s net revenue from the previous month is calculated and allocated through the steps of the Treasury Management Function. See [A.2.3 - Treasury Management](6c0af059-5d33-4e2b-90f1-1606957b8f85).
-   
+
 2. The monthly Senior Risk Capital (SRC) origination process is settled: the clearing price is established, costs are deducted from winning Prime Agents’ accounts, and their accounts are credited with Originated SRC (OSRC) for the upcoming month. See [A.3.2.2.4.3.5 - Settlement Of Origination](fff0112a-58dd-4041-97f9-7baf113b4e70).
-    
+
 3. Queued conversions between USDS and srUSDS within the SRC system are processed. See [A.3.2.2.4.2.2 - Deposit And Redemption Queues](38a99586-4a13-4ce3-8b2f-cee025e0c390).
-    
+
 4. Pioneer Incentive Pools are funded with an amount equivalent to the Sky Savings Rate multiplied by the balance of Unrewarded USDS. See [A.2.2.8.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
-    
+
 5. The Smart Burn Buffer's burning operation occurs synchronously with each Monthly Settlement Cycle. At each cycle, the system calculates the appropriate Burn Rate based on current market conditions and executes the burn operation, if applicable, according to the formula specified in the Atlas. See [A.2.3.1.2.5.1.2 - Usage Of Smart Burn Buffer](7295761a-e72b-4b32-9345-b229b46566d1).
-    
+
 6. Critical Core GovOps functions related to the operationalization of Sky Primitives are executed, including payment/reimbursement processing, compliance monitoring, and the calculation and application of retroactive penalties.
 
 #### A.2.4.1.2 - Implementation [Core]  <!-- UUID: 75473c4b-69ba-4e6b-bbf6-2c926732364c -->
@@ -11043,7 +11043,7 @@ To the extent that Spark experiences losses on investments other than USDe or sU
 
 This revenue share shall be effective retroactively, dated back to the launch of Spark’s allocation into USDe and sUSDe beginning the week of July 14, 2025.
 It shall remain in effect until one of the following conditions is met, whichever occurs first:
-    
+
 1. Grove begins to allocate capital to USDe or sUSDe directly; or
 2. Spark or Grove terminates the revenue share, with reasonable advance notice to the other party.
 
@@ -11112,7 +11112,7 @@ The distribution of GROVE tokens will be specified in a future iteration of the 
 ###### A.2.8.2.2.2.1.2.2.2 - Spark Token Reward Distribution Schedule [Core]  <!-- UUID: 1f412288-af14-4aab-84e9-79f2e0c39100 -->
 
 A portion of the SPK tokens held by Sky are distributed to USDS users as specified in the table below. All other SPK tokens held by Sky are reserved for future token rewards as determined by Sky Governance.
-  
+
 | Year | Tokens for USDS Users  |
 |------|------------------------|
 | 1    | 1,137,500,000          |
@@ -12483,7 +12483,7 @@ As one of the most important DeFi protocols with a high TVL, the Sky Protocol is
 ##### A.2.11.1.1.1 - Introduction [Core]  <!-- UUID: 54134f24-84a2-4130-80a5-a519f291c918 -->
 
 The Bug Bounty Program aims to create incentives for hackers to contribute to the resilience of the Sky Protocol as opposed to exploiting vulnerabilities for personal gain. Immunefi is the party responsible for conducting the Bug Bounty Program; its setup and operations are based on standards set by Immunefi.
- 
+
 The Sky Ecosystem must continue to maintain a Bug Bounty Program for SparkLend until the launch of the Spark Agent.
 
 ##### A.2.11.1.1.2 - Scope [Core]  <!-- UUID: b9ed6d24-10e6-48dc-9348-9e2098d8dd31 -->
@@ -12611,7 +12611,7 @@ The `bountyPercentage` parameter is the value to which the whitehat hacker is en
 ###### A.2.11.1.2.2.3.2.3 - Diligence Requirements Parameter [Core]  <!-- UUID: 3b5d10d1-16b0-49d8-88e6-9d1185e5de4f -->
 
 The `diligenceRequirements` parameter includes KYC, assessing compliance with sanctions (for instance, ensuring that individuals or entities from sanctioned jurisdictions are excluded), diligence, or other verification that the protocol requires the whitehat hacker to satisfy in order to claim the bounty. The value of the `diligenceRequirements` parameter is:
-                        
+
 `"KYC and Sanctions Screening. Sky and Stars require all eligible whitehats to undergo Know Your Customer (KYC) verification and be screened against global sanctions lists, including OFAC, UK, and EU regulations. This ensures that bounty recipients meet legal and regulatory standards before qualifying for payment. The verification process shall be conducted by a trusted third-party provider at Sky and Stars discretion, and all data is deleted, if successful, within 30 days post-verification."`
 
 ###### A.2.11.1.2.2.3.2.4 - Identity Parameter [Core]  <!-- UUID: 46f3510c-0dbd-40aa-b9fa-abcb59a7ff75 -->
@@ -12651,11 +12651,11 @@ The Asset Recovery Address is the Pause Proxy on Ethereum Mainnet and the Govern
 ###### A.2.11.1.2.2.3.3.3 - Accounts [Core]  <!-- UUID: c6591c5c-c767-4769-b2d6-80564d96fa48 -->
 
 The `accounts` parameter for each chain is a list of contracts to be included in Safe Harbor. Each contract listed must include the sub-elements of (1) the `accountAddress` of the contract and (2) the `childContractScope`, which specifies whether child contracts of the specified contract are covered. The possible values for the `childContractScope` parameter are: (1) `None` (no child contracts are in scope), (2) `ExistingOnly` (only child contracts created prior to calling `adoptSafeHarbor` are in scope), or (3) `All` (all child contracts are in scope).
-                        
+
 The value of the `scope` parameter is all contracts specified in the Bug Bounty Program.
-                        
+
 The `childContractScope` parameter for each contract is specified in the Bug Bounty Program.
-                        
+
 ###### A.2.11.1.2.2.3.4 - Contact Details [Core]  <!-- UUID: 611baee4-7c68-47ba-a683-25e795f55101 -->
 
 The representatives of the protocol should be contacted as specified in the Safe Harbor registry.
@@ -13838,7 +13838,7 @@ The implementation of the model for bond-like instruments will be specified in a
 ###### A.3.2.2.1.1.1.4.1 - Near-Term Treatment [Core]  <!-- UUID: a479643e-fbd3-4c9b-aba0-40f4657a8011 -->
 
 In the near term pending development of the implementation of the model for bond-like exposures, the following Instance Financial RRC Ratios will apply:
-    
+
 ◦ PT-USDS - 0% Instance Financial CRR
 ◦ All other bond-like exposures - 4% Instance Financial CRR
 
@@ -13877,7 +13877,7 @@ The documents herein define the process for calculating Instance Financial RRC f
 ###### A.3.2.2.1.1.1.5.2.1 - Identify Exposure Types [Core]  <!-- UUID: dbc4c20e-faa4-429d-8289-f38318d443f1 -->
 
 The first step is identifying the Exposure Type that an exposure fits under. The Exposure Types are:
-    
+
 ◦ On-Balance Sheet Items (see `CRE20.1-93`)
 ◦ Off-Balance Sheet Items (see `CRE20.94-101`)
 ◦ Securitization Tranches (see `CRE40-41, 45`)
@@ -13897,7 +13897,7 @@ Exposure At Default is calculated as specified in the documents herein.
 ###### A.3.2.2.1.1.1.5.2.2.1.1 - Exposure At Default Equal To Book Value [Core]  <!-- UUID: 9e047432-7a9f-4dc0-8172-4085c603d9ba -->
 
 For the following Exposure Types, Exposure At Default is equal to book value:
-    
+
 ◦ On-Balance Sheet Items
 ◦ Securitization Tranches
 ◦ Derivatives or Securities Financing Transactions
@@ -13908,7 +13908,7 @@ For the following Exposure Types, Exposure At Default is equal to book value:
 ###### A.3.2.2.1.1.1.5.2.2.1.2 - Exposure At Default Equal To Book Value Multiplied By Credit Conversion Factor [Core]  <!-- UUID: 9868d6c9-17ec-44da-8898-b59a1ae579e0 -->
 
 For the following Exposure Types, Exposure At Default is equal to book value multiplied by the Credit Conversion Factor (see `CRE51`):
-    
+
 ◦ Off-Balance Sheet Items
 
 ###### A.3.2.2.1.1.1.5.2.2.2 - Adjustment For Credit Risk Mitigation [Core]  <!-- UUID: da454ffd-494a-4806-acb5-93653b1b8b11 -->
@@ -13922,7 +13922,7 @@ The third step is calculating the Risk Weights as specified in the documents her
 ###### A.3.2.2.1.1.1.5.2.3.1 - On-Balance Sheet Or Off-Balance Sheet Items [Core]  <!-- UUID: 0144ae72-c945-4f62-998c-e533a5f32858 -->
 
 Credit Risk for On-Balance Sheet or Off-Balance Sheet Items is calculated based on the relevant provisions in the Basel Framework as follows:
-  
+
 | Exposure Type | Reference |
 | --- | --- |
 | Sovereigns | `CRE20.7-10` |
@@ -13952,7 +13952,7 @@ Credit Risk for On-Balance Sheet or Off-Balance Sheet Items is calculated based 
 ###### A.3.2.2.1.1.1.5.2.3.2 - Securitization Tranches [Core]  <!-- UUID: 5f70b7dd-4a76-4204-9bd6-9e6ce2864f82 -->
 
 Risk Weights for Securitization Tranches (see `CRE40-41, 45`) are calculated as follows:
-    
+
 ◦ If the Securitization Tranche is rated, then the Securitisation - External Ratings Based Approach should be applied (see `CRE42`).
 ◦ If the Securitization Tranche is not rated, then the Securitisation - Standard Approach should be applied (see `CRE41`).
 
@@ -13963,7 +13963,7 @@ Counterparty Credit Risk for Derivatives or Securities Financing Transactions is
 ###### A.3.2.2.1.1.1.5.2.3.4 - Funds / Collective Investment Undertakings / Exchange Traded Funds [Core]  <!-- UUID: 56ef98fa-582e-4c60-87f2-34400bad72fe -->
 
 Risk Weights for Funds / Collective Investment Undertakings / Exchange Traded Funds (see `CRE60`) are calculated as follows:
-    
+
 ◦ If look-through is feasible, apply the Look Through Approach (see `CRE60.2-5`)
 ◦ If look-through is not feasible but the mandate information is available, apply the Mandate Based Approach (see `CRE60.6-7`)
 ◦ If look-through is not feasible and the mandate information is not available, apply the fallback conservative approach (see `CRE60.8`)
@@ -14015,7 +14015,7 @@ The following Instance Financial CRRs apply to specific assets listed:
 ###### A.3.2.2.1.1.1.5.3.1.1 - Additional Restrictions On Investments In JTRSY And JAAA On Avalanche [Core]  <!-- UUID: 66506235-0e6c-4fa9-8e22-5eb4f19cb330 -->
 
 Investments in JTRSY and JAAA on Avalanche are subject to the following additional restrictions:
-    
+
 - The initial deployment of capital into JTRSY and JAAA on Avalanche may not exceed 20 million USDS in total;
 - Each additional deployment of capital into JTRSY or JAAA must be approved by the Core Council Risk Advisor;
 - Until audits of Centrifuge v3 are approved by the Protocol Security Workstream Lead, the Prime must be below a 90% Encumbrance Ratio on a pro forma basis assuming that each additional deployment of capital into JTRSY and JAAA requires 100% Instance Total CRR; and
@@ -14599,7 +14599,7 @@ def piecewise_coverage(x, x_start, x_kink, x_max):
         return 0.0
     if x >= x_max:
         return 1.0
-    
+
     # If between x_start and x_kink -> map linearly from 0% to 25%
     if x_start < x <= x_kink:
         span = x_kink - x_start
@@ -14607,14 +14607,14 @@ def piecewise_coverage(x, x_start, x_kink, x_max):
         frac = (x - x_start) / span
         # coverage goes 0 -> 0.25 (25%)
         return 0.25 * frac
-    
+
     # If between x_kink and x_max -> map linearly from 25% to 100%
     else:  # x_kink < x < x_max
         span = x_max - x_kink
         frac = (x - x_kink) / span
         # coverage goes 0.25 -> 1.0
         return 0.25 + (0.75 * frac)
-        
+
 # ------------------------------------------------------------------
 # Thresholds
 # ------------------------------------------------------------------
@@ -15268,7 +15268,7 @@ Resting Actively Stabilizing Collateral must provide buy support at a price of a
 ###### A.3.3.2.2.1.1.1 - Resting Actively Stabilizing Collateral Calculations [Core]  <!-- UUID: 4e8cd2d1-4c74-49fd-b3fe-f8b6ccc1a79f -->
 
 Resting Actively Stabilizing Collateral is currently calculated as the sum of:
-    
+
 1. USDC in the LitePSM;
 2. USDC in the PSM3 on Base, Arbitrum, Unichain, Optimism;
 3. Cash Stablecoins in Curve (paired with USDS);
@@ -15280,7 +15280,7 @@ Resting Actively Stabilizing Collateral is currently calculated as the sum of:
 
 Latent Actively Stabilizing Collateral consists of Cash Stablecoins that do not qualify as Resting Actively Stabilizing Collateral but can be converted to Resting Actively Stabilizing Collateral. Latent Actively Stabilizing Collateral may include Cash Stablecoins deposited into lending protocols, Cash Stablecoins used to provide liquidity to decentralized exchanges, or liquid staking derivatives of cash stablecoins.
 Assets must satisfy the following requirements to qualify as Latent Actively Stabilizing Collateral:
-    
+
 1. The assets must be verifiable onchain or through reputable APIs or oracles;
 2. The assets must be able to be converted into Resting Actively Stabilizing Collateral within 15 minutes under normal market conditions; and
 3. The process to convert the assets into Resting Actively Stabilizing Collateral must be fully automated and triggered automatically when ASC falls below specified levels.
@@ -15288,7 +15288,7 @@ Assets must satisfy the following requirements to qualify as Latent Actively Sta
 ###### A.3.3.2.2.1.2.1 - Latent Actively Stabilizing Collateral Calculations [Core]  <!-- UUID: 35ce6b38-9fc1-456e-93da-10ab1468a8bf -->
 
 Latent Actively Stabilizing Collateral is currently calculated as the sum of:
-    
+
 1. Cash Stablecoins in Curve (not paired with USDS);
 2. Cash Stablecoins in Uniswap (not paired with USDS);
 3. Cash Stablecoins in SparkLend;
@@ -16837,7 +16837,7 @@ First, the start time $T_{0}$ and end time $T_{n}$ of the interval, over which t
 ###### A.4.4.1.3.2.1.4.1.1.2 - Collect Borrow And Supply Events [Core]  <!-- UUID: e196d2f1-fb65-4e31-b511-5ed9ebbaa164 -->
 
 Data is then collected on all supply and borrow events, sorted by time, where:
-    
+
 ◦ $t_{i}$ is the timestamp of event $i$;
 ◦ $B_{i}$ is the total amount borrowed at time $t_{i}$;
 ◦ $S_{i}$ is the total amount supplied at time $t_{i}$; and
@@ -17103,7 +17103,7 @@ The parameters of the SKY Borrow Minimum Rate formula are further defined in the
 ##### A.4.4.1.3.6 - stUSDS Risk Parameters [Core]  <!-- UUID: fac38a01-4c67-4810-af22-3e7b2d855567 -->
 
 The liquidation parameters for SKY-backed loans funded via stUSDS are:
- 
+
 - Liquidation Ratio: 120%
 - `Calc`: StairstepExponentialDecrease
 - `Tau`: 0 days
@@ -17185,7 +17185,7 @@ The stUSDS BEAM parameters for each stUSDS parameter set by the stUSDS BEAM are 
 ###### A.4.4.1.3.8.2.1 - Str Parameters [Core]  <!-- UUID: 516eccc7-dd7f-4782-84d5-55121bc1ae44 -->
 
 The stUSDS BEAM parameters for the `str` stUSDS parameter are as follows:
-    
+
 ◦ `max` - 5,000 basis points,
 ◦ `min` - 200 basis points,
 ◦ `step` - 1,500 basis points.
@@ -17193,7 +17193,7 @@ The stUSDS BEAM parameters for the `str` stUSDS parameter are as follows:
 ###### A.4.4.1.3.8.2.2 - Duty Parameters [Core]  <!-- UUID: 94da2be4-e21c-4de7-8c0c-21e17718d32b -->
 
 The stUSDS BEAM parameters for the `duty` stUSDS parameter are as follows:
-    
+
 ◦ `max` - 5,000 basis points,
 ◦ `min` - 210 basis points,
 ◦ `step` - 1,500 basis points.
@@ -17241,7 +17241,7 @@ The address of the Operator Hot Wallet on the Ethereum Mainnet is `0xd06C1482004
 ###### A.4.4.1.3.8.4.2.2 - Update Of stUSDS Parameters For Hot Wallet [Core]  <!-- UUID: 877f2d58-df39-4cb9-97cc-e529a5c62146 -->
 
 When the Operator Hot Wallet is added as an Operator of the stUSDS Rate, the stUSDS BEAM parameters must be updated as follows:
-    
+
 ◦ The `step` parameters for the `str` and `duty` parameters must be reduced to 400 basis points; and
 ◦ The `tau` parameter must be reduced to 4 hours.
 
@@ -17258,7 +17258,7 @@ The stUSDS parameters set by the stUSDS BEAM are managed by the stUSDS BEAM Oper
 ###### A.4.4.1.3.8.5.1 - Initial Parameter Values Set In Executive Vote [Core]  <!-- UUID: 13c51e11-8ea3-4d4e-b631-2e99c559a914 -->
 
 The initial parameters set by the stUSDS BEAM in the Executive Vote deploying stUSDS and the stUSDS BEAM are:
-    
+
 ◦ `str` - 0 basis points
 ◦ `duty` - 2,000 basis points
 ◦ `cap` - 200,000,000 USDS
@@ -20191,45 +20191,45 @@ The documents herein define the general SLL operational procedures for interacti
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.2.1 - General Deposit to ERC-4626 Tokens Procedure [Core]  <!-- UUID: 862f4064-47e5-4f76-908d-64edfcfe0ddd -->
 
 This document defines the steps for an operator to deposit assets from the ALM Proxy to the ERC-4626 vault to receive yield-bearing shares.
-    
+
 ◦ The SLL Operator, acting as `RELAYER`, initiates a deposit.
-    
+
 ◦ Pre-conditions are checked: SLL contract `isActive`, ALM Proxy has sufficient underlying asset, and the deposit amount is within instance-specific `RateLimits` (defined in the relevant Instance Configuration Document).
-    
+
 ◦ The SLL Operator approves the target ERC4626 vault (identified by its `token` address in the Instance Configuration Document) to spend the underlying `asset` from the ALM Proxy.
-    
+
 ◦ The SLL Operator calls the `deposit(uint256 amount, address receiver)` function on the target ERC4626 vault, specifying the `amount` of underlying asset and the ALM `proxy` as the receiver of vault shares.
-    
+
 ◦ The number of shares received is recorded.
-    
+
 ◦ For detailed call structures, instance-specific parameters (vault address, asset address, rate limits), and operational examples, refer to the specific ERC4626 Instance Configuration Document (ICD) (e.g., [A.6.1.1.1.2.6.1.3.1.5.1.3 - Instance-specific Operational Processes](3bc424bf-079e-4b6b-8749-58c942c7d57b) or other relevant ERC4626 ICDs).
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.2.2 - General Withdraw from ERC-4626 Tokens Procedure [Core]  <!-- UUID: e797d1cc-9161-4b7a-8c16-db20a026d001 -->
 
 This document defines the steps for an operator to withdraw a yield-earning balance from the ERC-4626 vault to the ALM Proxy.
-    
+
 ◦ The SLL Operator, acting as `RELAYER`, initiates a withdrawal.
-    
+
 ◦ Pre-conditions are checked: SLL contract `isActive`, ALM Proxy has sufficient shares of the ERC4626 vault token, and the withdrawal amount is within instance-specific `RateLimits` (defined in the relevant ICD).
-    
+
 ◦ SLL calls the `withdraw(uint256 assets, address receiver, address owner)` function on the target ERC4626 vault, specifying the `amount` of underlying assets to withdraw, with the ALM `proxy` as both `receiver` (of assets) and `owner` (of shares being burned).
-    
+
 ◦ The number of shares burned is recorded.
-    
+
 ◦ For detailed call structures, instance-specific parameters, and operational examples, refer to the specific ERC4626 Instance Configuration Document.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.2.3 - General Redeem from ERC-4626 Tokens Procedure [Core]  <!-- UUID: ed774ab7-c761-444b-963d-7407bf91e243 -->
 
 This document defines the steps for an operator to redeem yield-bearing shares from the ERC-4626 vault, receiving the corresponding amount of underlying assets into the ALM Proxy.
-    
+
 ◦ The SLL Operator, acting as `RELAYER`, initiates a redemption of shares.
-    
+
 ◦ Pre-conditions are checked: SLL contract `isActive`, ALM Proxy has sufficient shares of the ERC4626 vault token.
-    
+
 ◦ SLL calls the `redeem(uint256 shares, address receiver, address owner)` function on the target ERC4626 vault, specifying the number of `shares` to redeem, with the ALM `proxy` as both `receiver` (of assets) and `owner` (of shares being redeemed).
-    
+
 ◦ The amount of underlying assets received is recorded, and relevant `RateLimits` (for withdrawal) are updated.
-    
+
 ◦ For detailed call structures, instance-specific parameters, and operational examples, refer to the specific ERC4626 Instance Configuration Document.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions [Core]  <!-- UUID: 9922dcf0-4562-445b-9a46-712f677cce64 -->
@@ -20239,35 +20239,35 @@ The documents herein describe the general SLL operational procedures for deposit
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.3.1 - General Deposit to Aave ATokens Procedure [Core]  <!-- UUID: 316008c1-0c1f-487a-a5bf-1966e86fb946 -->
 
 This document defines the steps for an operator to deposit to Aave lending pools.
-    
+
 ◦ The SLL Operator, acting as `RELAYER`, initiates a deposit to an Aave instance.
-    
+
 ◦ Pre-conditions are checked: SLL contract `isActive`, ALM Proxy has sufficient underlying asset, and the deposit amount is within instance-specific `RateLimits` (defined in the relevant Aave ICD).
-    
+
 ◦ The SLL Operator identifies the `underlying` asset address and Aave `pool` address from the specific Aave ICD.
-    
+
 ◦ The SLL Operator approves the Aave `pool` to spend the `underlying` asset from the ALM Proxy.
-    
+
 ◦ The SLL Operator calls the `supply(address asset, uint256 amount, address onBehalfOf, uint16 referralCode)` function on the Aave `pool`, providing the `underlying` asset address, `amount`, ALM `proxy` address (as `onBehalfOf`), and referral code (typically 0).
-    
+
 ◦ The ALM Proxy receives `aTokens` representing the deposited assets.
-    
+
 ◦ For detailed call structures, instance-specific parameters (aToken address, underlying asset address, pool address, rate limits), and operational examples, refer to the specific Aave Instance Configuration Document (ICD) (e.g., [A.6.1.1.1.2.6.1.3.1.2.1.3 - Instance-specific Operational Processes](7895798c-50e2-4fa6-b4e9-5b9f259f822d) or other relevant Aave ICDs).
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.3.2 - General Withdraw from Aave ATokens Procedure [Core]  <!-- UUID: 6e75a2bd-70b7-4081-bb9f-39cf6b321066 -->
 
 This document defines the steps for an operator to withdraw from Aave lending pools.
-    
+
 ◦ The SLL Operator, acting as `RELAYER`, initiates a withdrawal from an Aave instance.
-    
+
 ◦ Pre-conditions are checked: SLL contract `isActive`, ALM Proxy has sufficient `aTokens` for the instance, and the withdrawal amount is within instance-specific `RateLimits` (defined in the relevant Aave ICD).
-    
+
 ◦ The SLL Operator identifies the `underlying` asset address and Aave `pool` address from the specific Aave ICD.
-    
+
 ◦ The SLL Operator calls the `withdraw(address asset, uint256 amount, address to)` function on the Aave `pool`, providing the `underlying` asset address, `amount` to withdraw, and the ALM `proxy` address (as `to`).
-    
+
 ◦ The amount of underlying assets withdrawn is recorded, and relevant `RateLimits` are updated.
-    
+
 ◦ For detailed call structures, instance-specific parameters, and operational examples, refer to the specific Aave ICD.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.4 - PSM Functions [Core]  <!-- UUID: 70785812-c0aa-4efc-8790-093e6c23ef52 -->
@@ -20394,15 +20394,15 @@ If `direct swap` is not possible, the operator must perform an `iterative swap` 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.4.2.8 - Split Into Multiple Swaps If Limit Exceeded [Core]  <!-- UUID: 99e4d243-b61f-48b6-b127-b5d1855a849c -->
 
 If the `usdcAmount` exceeds the limit, the operator must split the swap into multiple smaller swaps as follows.
-    
+
 1. The operator must refill the PSM with DAI by calling `psm.fill()`.
-    
+
 2. The operator must recalculate the limit to see how much USDC can be swapped after the refill.
-    
+
 3. The operator must swap the maximum possible USDC amount that doesn't exceed the limit.
-    
+
 4. The operator must update `remainingUsdcToSwap` by subtracting the amount just swapped.
-    
+
 5. The operator must repeat the process until the full `usdcAmount` is swapped.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.4.2.9 - Split Into Multiple Swaps If Limit Exceeded [Core]  <!-- UUID: 5b50fe5d-22a9-4ea4-a9e1-de7feba453a3 -->
@@ -20519,9 +20519,9 @@ If a single transaction is possible within the per-message limit, the operator m
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.5.1.6.3 - Initiate Smaller Transactions If Needed [Core]  <!-- UUID: 6423437d-d062-4a4f-ac03-7f056938d3c6 -->
 
 If `usdcAmount` exceeds the per-message limit, the transfer must be split into multiple smaller batches executing the following loop until the remaining amount is less than or equal to the limit.
-    
+
 1. The operator must transfer the maximum allowed (`burnLimit`) using `_initiateCCTPTransfer`.
-    
+
 2. The operator must reduce the remaining `usdcAmount` by the `burnLimit`.
 
 `while (usdcAmount > burnLimit) {
@@ -22087,7 +22087,7 @@ The documents herein contain the addresses authorized as `delegatedSigners` in t
 ###### A.6.1.1.1.2.6.1.3.1.4.1.3.1.1 - Addresses Of Delegated Signers [Core]  <!-- UUID: 7fcbd408-2aef-427f-b88d-d301350bd41b -->
 
 `delegatedSigner` addresses
-    
+
 ◦ These addesses will be specified in a future iteration of the Spark Artifact.
 
 ###### A.6.1.1.1.2.6.1.3.1.4.1.3.2 - Set A Delegated Signer In The EthenaMinter Contract [Core]  <!-- UUID: 4413579c-6ca5-4ff5-9dd5-ff669606eeb7 -->
@@ -25218,7 +25218,7 @@ A Delegate is automatically offboarded if they:
 ###### A.6.1.1.1.3.1.3.5.3 - Emergency Removal [Core]  <!-- UUID: b016a208-3fce-4429-aea8-381fe6d4fb28 -->
 
 The Spark Risk Council can immediately offboard a delegate if they:
-    
+
 ◦ Breach disclosure / conflict-of-interest duties;
 ◦ Engage in malicious or negligent conduct; or
 ◦ Fail to provide acceptable KYC or updated KYC when requested.
@@ -25248,7 +25248,7 @@ The security requirements and procedure for a compromised key are specified in t
 ###### A.6.1.1.1.3.1.3.7.1 - Operational Security [Core]  <!-- UUID: b5d668cd-5f19-4660-8846-8293126c5a57 -->
 
 Delegates must:
-    
+
 ◦ Sign votes from a hardware wallet or an equivalent secure device.
 ◦ Use unique signing keys that are never reused for personal transactions.
 ◦ Enable Multi-Factor Authentication on any platform accounts used for governance communication.
@@ -25256,7 +25256,7 @@ Delegates must:
 ###### A.6.1.1.1.3.1.3.7.2 - Compromised Key Response [Core]  <!-- UUID: 05dbbbcc-7702-4d17-a222-9c93356be7cd -->
 
 If a Delegate suspects key compromise, the following steps must be taken:
-    
+
 ◦ The Delegate must notify the SRC as soon as the breach is discovered.
 ◦ SRC flags the Delegate in Registry of Delegates as "Suspended - Security Review" and notifies the governance community on the Sky Forum. All voting power to the suspended address is annulled.
 ◦ The Delegate may submit a new verified address; upon SRC approval, suspensions are lifted and delegations migrate at the next snapshot-block.
@@ -25356,7 +25356,7 @@ The subdocuments herein set out the threshold, process and implications of a "Fa
 ###### A.6.1.1.1.3.1.4.4.1 - Standard [Core]  <!-- UUID: 85633365-939a-44c4-8a55-aa17fa4a7809 -->
 
 A determination of "Failed SRC Review" may be exercised when a proposal is determined to be:
-    
+
 ◦ malicious or exploitative;
 ◦ procedurally non-compliant with the Sky Core Atlas or Spark Artifact;
 ◦ likely to expose Spark to substantial, unreasonable risk; or
@@ -25475,7 +25475,7 @@ The Active Data is updated as follows:
 ###### A.6.1.1.1.3.1.4.11.1.0.6.1 - SRC Membership Registry List [Active Data]  <!-- UUID: d9c6ed16-5b0d-4a6f-bb43-387398090afc -->
 
 The information for each member of the SRC is listed below:
-  
+
 | Name or Alias        | Domain Expertise | Verified Governance Address | Start Date  | Term Status  | Standing |
 |----------------------|------------------|-----------------------------|-------------|--------------|----------|
 | Blockworks Advisory  | Risk             | N/A                         | 2025-10-03  | Active Term  | Active   |
@@ -28728,11 +28728,11 @@ Where their review of the proposal results in a finding of alignment with the Sk
 ###### A.6.1.1.2.2.2.2.2.1.2.1.4.1 - Circulating Supply Definition [Core]  <!-- UUID: 4cd4f590-6a01-4824-a6e7-bbf4a6f5225e -->
 
 For purposes of [A.6.1.1.2.2.2.2.2.1.2.1.4 - Root Edit Token Holder Vote](f6dd56ae-ee72-4109-be99-eaf69c92c3be), the circulating supply of GROVE tokens is equal to the total supply of GROVE tokens minus the sum of:
-    
+
 1. Tokens retained by Sky and not yet distributed as token rewards (see [A.2.8.2.2.2.1.2.2 - Sky Retained Tokens And Reward Pools](fb447af6-1581-4711-b73c-dc2e8d65e843)); and
-    
+
 2. Tokens retained in vesting agreements for Grove contributors and not yet distributed; and
-    
+
 3. Tokens in the Grove SubProxy Account (see [A.6.1.1.2.2.1.1.3.1.1.2 - SubProxy Account](d143241d-5819-432d-a6ba-892961502838)).
 
 ###### A.6.1.1.2.2.2.2.2.1.2.1.5 - Root Edit Artifact Update [Core]  <!-- UUID: a3dcb3c9-7e5a-48b1-aac8-9af4b5dfcfc2 -->
@@ -30235,45 +30235,45 @@ The documents herein define the general Grove Liquidity Layer operational proced
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.2.1 - General Deposit to ERC-4626 Tokens Procedure [Core]  <!-- UUID: 4876005c-31a8-4be8-8133-e239bd0ac53b -->
 
 This document defines the steps for an operator to deposit assets from the ALM Proxy to the ERC-4626 vault to receive yield-bearing shares.
-    
+
 ◦ The Grove Liquidity Layer Operator, acting as `RELAYER`, initiates a deposit.
-    
+
 ◦ Pre-conditions are checked: Grove Liquidity Layer contract `isActive`, ALM Proxy has sufficient underlying asset, and the deposit amount is within instance-specific `RateLimits` (defined in the relevant Instance Configuration Document).
-    
+
 ◦ The Grove Liquidity Layer Operator approves the target ERC4626 vault (identified by its `token` address in the Instance Configuration Document) to spend the underlying `asset` from the ALM Proxy.
-    
+
 ◦ The Grove Liquidity Layer Operator calls the `deposit(uint256 amount, address receiver)` function on the target ERC4626 vault, specifying the `amount` of underlying asset and the ALM `proxy` as the receiver of vault shares.
-    
+
 ◦ The number of shares received is recorded.
-    
+
 ◦ For detailed call structures, instance-specific parameters (vault address, asset address, rate limits), and operational examples, refer to the specific ERC4626 Instance Configuration Document (ICD).
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.2.2 - General Withdraw from ERC-4626 Tokens Procedure [Core]  <!-- UUID: 7b560160-e427-45a2-a3ac-3c23cf6fe943 -->
 
 This document defines the steps for an operator to withdraw a yield-earning balance from the ERC-4626 vault to the ALM Proxy.
-    
+
 ◦ The Grove Liquidity Layer Operator, acting as `RELAYER`, initiates a withdrawal.
-    
+
 ◦ Pre-conditions are checked: Grove Liquidity Layer contract `isActive`, ALM Proxy has sufficient shares of the ERC4626 vault token, and the withdrawal amount is within instance-specific `RateLimits` (defined in the relevant ICD).
-    
+
 ◦ Grove Liquidity Layer calls the `withdraw(uint256 assets, address receiver, address owner)` function on the target ERC4626 vault, specifying the `amount` of underlying assets to withdraw, with the ALM `proxy` as both `receiver` (of assets) and `owner` (of shares being burned).
-    
+
 ◦ The number of shares burned is recorded.
-    
+
 ◦ For detailed call structures, instance-specific parameters, and operational examples, refer to the specific ERC4626 Instance Configuration Document.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.2.3 - General Redeem from ERC-4626 Tokens Procedure [Core]  <!-- UUID: 7e90e505-42b9-474d-9cc5-9b4da6af7375 -->
 
 This document defines the steps for an operator to redeem yield-bearing shares from the ERC-4626 vault, receiving the corresponding amount of underlying assets into the ALM Proxy.
-    
+
 ◦ The Grove Liquidity Layer Operator, acting as `RELAYER`, initiates a redemption of shares.
-    
+
 ◦ Pre-conditions are checked: Grove Liquidity Layer contract `isActive`, ALM Proxy has sufficient shares of the ERC4626 vault token.
-    
+
 ◦ Grove Liquidity Layer calls the `redeem(uint256 shares, address receiver, address owner)` function on the target ERC4626 vault, specifying the number of `shares` to redeem, with the ALM `proxy` as both `receiver` (of assets) and `owner` (of shares being redeemed).
-    
+
 ◦ The amount of underlying assets received is recorded, and relevant `RateLimits` (for withdrawal) are updated.
-    
+
 ◦ For detailed call structures, instance-specific parameters, and operational examples, refer to the specific ERC4626 Instance Configuration Document.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.3 - PSM Functions [Core]  <!-- UUID: 2df8d8c7-17ee-4427-a75b-fc3ce08913d4 -->
@@ -30400,15 +30400,15 @@ If `direct swap` is not possible, the operator must perform an `iterative swap` 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.3.2.8 - Split Into Multiple Swaps If Limit Exceeded [Core]  <!-- UUID: 20dba0ba-3dd2-47cb-8e7a-793de6a11c5d -->
 
 If the `usdcAmount` exceeds the limit, the operator must split the swap into multiple smaller swaps as follows.
-    
+
 1. The operator must refill the PSM with DAI by calling `psm.fill()`.
-    
+
 2. The operator must recalculate the limit to see how much USDC can be swapped after the refill.
-    
+
 3. The operator must swap the maximum possible USDC amount that doesn't exceed the limit.
-    
+
 4. The operator must update `remainingUsdcToSwap` by subtracting the amount just swapped.
-    
+
 5. The operator must repeat the process until the full `usdcAmount` is swapped.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.3.2.9 - Split Into Multiple Swaps If Limit Exceeded [Core]  <!-- UUID: fcd50c06-9606-4a47-9bf8-fd28522535c1 -->
@@ -31012,7 +31012,7 @@ The documents herein contain the addresses authorized as `delegatedSigners` in t
 ###### A.6.1.1.2.2.6.1.3.1.4.1.3.1.1 - Addresses Of Delegated Signers [Core]  <!-- UUID: ba1c514f-026a-4ecd-bb9a-c736cca59728 -->
 
 `delegatedSigner` addresses
-    
+
 ◦ These addesses will be specified in a future iteration of the Spark Artifact.
 
 ###### A.6.1.1.2.2.6.1.3.1.4.1.3.2 - Set A Delegated Signer In The EthenaMinter Contract [Core]  <!-- UUID: 18b6c02a-45bc-419d-bcb6-acbbd44f75c0 -->
@@ -33062,7 +33062,7 @@ The deposit rate limits are:
 The withdrawal rate limits are:
 
 - `maxAmount`: N/A
-  
+
 ###### A.6.1.1.2.2.6.1.3.1.9.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 68cad9ca-620b-4aef-b47f-781d01640c87 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
