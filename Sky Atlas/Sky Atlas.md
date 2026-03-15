@@ -36497,7 +36497,7 @@ Keel can change the signers of the Prime Relayer Multisig at any time, so long a
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.2 - Core Operator Relayer Multisig [Core]  <!-- UUID: b17a4a11-7340-4113-972d-76362f816b8a -->
 
-The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.3.2.6.1.2.2.1.1.1.2 - Relayer Role](1b64d5b8-ea7d-408e-a409-3e9e72989396) and is controlled by Operational GovOps Amatsu.
+The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.3.2.6.1.2.2.1.1.1.2 - Relayer Role](1b64d5b8-ea7d-408e-a409-3e9e72989396) and is controlled by Operational GovOps Soter Labs.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.2.1 - Address [Core]  <!-- UUID: 8028f164-6410-4f0a-bbba-dc175fc77f58 -->
 
@@ -36603,7 +36603,7 @@ Changes to the Prime Relayer Addresses is a controller action which must be invo
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.3 - Core Operator Relayer Multisig [Core]  <!-- UUID: ced26169-892b-4ec4-9a16-8fb90e94a9ef -->
 
-The Core Operator Relayer Multisig holds a [A.6.1.1.3.2.6.1.2.2.2.1.1.2 - Relayer Role](2b42015c-c76a-4364-b8b5-c9a2b9f6f484) and is controlled by Operational GovOps Amatsu.
+The Core Operator Relayer Multisig holds a [A.6.1.1.3.2.6.1.2.2.2.1.1.2 - Relayer Role](2b42015c-c76a-4364-b8b5-c9a2b9f6f484) and is controlled by Operational GovOps Soter Labs.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.3.1 - Address [Core]  <!-- UUID: f027ec03-4e5a-4262-9992-07fab72dc014 -->
 
@@ -36619,7 +36619,7 @@ The Core Operator Relayer Multisig currently has a 2/3 signing requirement.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.3.4 - Signers [Core]  <!-- UUID: 08036115-62a3-40c8-9b70-61f8dc38035c -->
 
-The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Amatsu.
+The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Soter Labs.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.3.5 - Usage Standards [Core]  <!-- UUID: f2730835-93da-4616-989d-a38f1bd6416a -->
 
@@ -36627,7 +36627,7 @@ The signers of the Core Operator Relayer Multisig must use the Multisig to exerc
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.3.6 - Modification [Core]  <!-- UUID: 2cf82458-eae4-4fad-9504-0fee8effd172 -->
 
-Operational GovOps Amatsu can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
+Operational GovOps Soter Labs can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4 - Freezer Multisig [Core]  <!-- UUID: aeee4280-ab46-4269-9430-fef8c2ee6d43 -->
 
@@ -36647,7 +36647,7 @@ The Freezer Multisig currently has a 2/5 signing requirement.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4.4 - Signers [Core]  <!-- UUID: e6c86321-bef0-435c-a2db-2b82dc7f1c77 -->
 
-The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Amatsu, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Keel.
+The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Soter Labs, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Keel.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4.5 - Usage Standards [Core]  <!-- UUID: 9a900853-f703-4454-92bf-416fbb157aea -->
 
@@ -43021,7 +43021,7 @@ Obex can change the signers of the Prime Relayer Multisig at any time, so long a
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.2 - Core Operator Relayer Multisig [Core]  <!-- UUID: b32dec2f-51e1-44b0-a81b-679b648ed659 -->
 
-The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.5.2.6.1.2.2.1.1.2 - Relayer Role](0a8458ff-499e-4ac6-85a3-6ce200df18ae) and is controlled by Operational GovOps Ozone.
+The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.5.2.6.1.2.2.1.1.2 - Relayer Role](0a8458ff-499e-4ac6-85a3-6ce200df18ae) and is controlled by Operational GovOps Soter Labs.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.2.1 - Address [Core]  <!-- UUID: 17c29741-7ed5-4a6e-96ff-55514df2a8f5 -->
 
@@ -43033,7 +43033,7 @@ The Core Operator Relayer Multisig currently has a 2/3 signing requirement.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.2.3 - Signers [Core]  <!-- UUID: 2c9c02a4-86a1-4862-90aa-e314d9177f37 -->
 
-The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Ozone.
+The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Soter Labs.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.2.4 - Usage Standards [Core]  <!-- UUID: 476f94f2-3e35-4d99-9664-c91984104b6b -->
 
@@ -43041,7 +43041,7 @@ The signers of the Core Operator Relayer Multisig must use the Multisig to exerc
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.2.5 - Modification [Core]  <!-- UUID: a342e39a-ba3e-4871-ad17-17ce3323e6f2 -->
 
-Operational GovOps Ozone can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
+Operational GovOps Soter Labs can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.3 - Freezer Multisig [Core]  <!-- UUID: 49e6c234-7102-43e0-80a6-fb14e259e1f7 -->
 
