@@ -29454,6 +29454,10 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.1.2 - Ethereum Mainnet - Centrifuge JAAA Instance Configuration Document](10f4641c-2ed1-4430-ae71-1e830e779269).
 
+###### A.6.1.1.2.2.6.1.1.2.1.1.3 - Ethereum Mainnet - Centrifuge ACRDX Instance Configuration Document Location [Core]  <!-- UUID: 7db7e977-cf6d-4186-b20c-43715314cb2c -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.1.3 - Ethereum Mainnet - Centrifuge ACRDX Instance Configuration Document](b0d889d1-8465-4229-ba69-ca4b5d866131).
+
 ###### A.6.1.1.2.2.6.1.1.2.1.2 - Blackrock [Core]  <!-- UUID: f1de44d8-9dc4-4513-ac06-295d5ccc427d -->
 
 The Ethereum Mainnet Instances Directory of the Blackrock Protocol with `Active` Status are stored herein.
@@ -29557,6 +29561,14 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 ###### A.6.1.1.2.2.6.1.1.2.1.7.5 - Ethereum Mainnet - Grove x Steakhouse AUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 1281f13b-4435-46c5-9e8a-b602aac42c7a -->
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.5 - Ethereum Mainnet - Grove x Steakhouse AUSD Morpho Vault V2 Instance Configuration Document](2c21462b-2925-48d8-9578-5fc21aa96563).
+
+###### A.6.1.1.2.2.6.1.1.2.1.7.6 - Ethereum Mainnet - Sentora PYUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: db6ff295-bf78-450f-a272-f4a5f01b0cdc -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.6 - Ethereum Mainnet - Sentora PYUSD Morpho Vault V2 Instance Configuration Document](3e940e02-80eb-4e37-bce6-95939089da46).
+
+###### A.6.1.1.2.2.6.1.1.2.1.7.7 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 329dae6d-08a0-4628-b494-b533e69c26ce -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.7 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document](dff6df5f-f8ab-4df1-be1e-f71510c3534e).
 
 ###### A.6.1.1.2.2.6.1.1.2.1.8 - Securitize [Core]  <!-- UUID: 12a0d375-8f1e-4e62-83ba-d56bc6d3f2ab -->
 
@@ -30861,6 +30873,95 @@ The outflow rate limits are:
 The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.2.2.6.1.3.1.1.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 44c38f07-4f72-41fd-832c-ce06c2d514e0 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3 - Ethereum Mainnet - Centrifuge ACRDX Instance Configuration Document [Core]  <!-- UUID: b0d889d1-8465-4229-ba69-ca4b5d866131 -->
+
+The documents herein contain the Instance Configuration Document for the Centrifuge ACRDX Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 7c02c1e6-c967-44cd-bebe-7b5adb071484 -->
+
+`Pending`
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2 - Parameters [Core]  <!-- UUID: 1c2f901d-4128-4bc6-b369-f31e568b3087 -->
+
+The documents herein define the parameters of the Centrifuge ACRDX Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.1 - Instance Identifiers [Core]  <!-- UUID: b88a0c50-f937-40e1-85a4-293a0f11b534 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.1.1 - Network [Core]  <!-- UUID: 91a95c0d-32d2-404d-b4c8-9f02398080f2 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.1.2 - Target Protocol [Core]  <!-- UUID: 71aa102a-e0cb-4c5b-a3cb-0a5200d83c2b -->
+
+Centrifuge ACRDX
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 76fca48e-a4c4-4253-9c14-f3835d906d44 -->
+
+USDC
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.1.4 - Token [Core]  <!-- UUID: a0fe0b4a-851e-4a3b-b040-309cb3ba23d2 -->
+
+ACRDX
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.2 - Contract Addresses [Core]  <!-- UUID: c11a5f0f-11da-46e6-a08f-5e6722207bfe -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.2.1 - Token Address [Core]  <!-- UUID: af5632c6-6a6f-4692-8cf4-3d4e8b617dc8 -->
+
+`0x9477724Bb54AD5417de8Baff29e59DF3fB4DA74f`
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.2.2 - Deposit Address (Mainnet) [Core]  <!-- UUID: a6946602-348a-408a-9cbf-d566efe96cbf -->
+
+`0x74A739EA1Dc67c5a0179ebad665D1D3c4b80B712`
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.2.3 - Underlying Asset Address [Core]  <!-- UUID: 904c9554-0fff-4d9d-9993-bf4c281e02c4 -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 5b60c33b-7a48-43a7-bb78-0cd2e03f0079 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: bb056a14-2a9f-41ef-9226-3beb5867592c -->
+
+The inflow RateLimitID is: `0xb8139d1c2486c30929b3cb3a487a3d9c3885f49cff1f07e9393262b15ef1158a`
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 6c04d78a-61d7-4e9a-b156-ef08168704f7 -->
+
+The outflow RateLimitID is: `0x58aa7b39a6c9894ea4a4cd6868d014c718d09913cdf5d793e21509f0ccd32495`
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.4 - Rate Limits [Core]  <!-- UUID: fb4b9380-ecef-4d3c-a2b0-6b2af6a960a9 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.4.1. - Deposit Rate Limits [Core]  <!-- UUID: 2305ac7b-a8dc-4611-b242-0996d4d22a88 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 20,000,000 USDC
+- `slope`: 20,000,000 USDC per day
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 512819c7-6e39-4bdc-add6-0fc892f54ccb -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 2fad60e4-4c86-48b7-a7b9-0c0f0ef88459 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 96e8ca2f-4e71-4ab0-ba0f-1958ea8e637b -->
+
+Total ACRDX exposure may not exceed 50.97 million USDS and should be reduced to zero over time.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1faafb47-66b2-49a4-abf5-5cd6f1555361 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
@@ -32905,6 +33006,196 @@ The documents herein contain operational parameters or configuration details uni
 Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 AUSD:
 
 - `setMaxExchangeRate(GROVE_X_STEAKHOUSE_AUSD_V2, 1e18, 2e6)`
+
+###### A.6.1.1.2.2.6.1.3.1.7.6 - Ethereum Mainnet - Sentora PYUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 3e940e02-80eb-4e37-bce6-95939089da46 -->
+
+The documents herein contain the Instance Configuration Document for the Sentora PYUSD Morpho Vault V2 Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.1 - RRC Framework Full Implementation Coverage** [Core]  <!-- UUID: 3fd05c9a-1d93-47f6-967d-6edb31f522fd -->
+
+`Pending`
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2 - Parameters [Core]  <!-- UUID: 7b251172-7a60-4240-af72-cacaca9fe3cc -->
+
+The documents herein define the parameters of the Sentora PYUSD Morpho Vault V2 ****Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.1 - Instance Identifiers [Core]  <!-- UUID: 3d387fde-f4b9-47c0-8852-f4d9367c0369 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.1.1 - Network [Core]  <!-- UUID: 0075ec52-7324-41b5-8849-e91bac55e742 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.1.2 - Target Protocol [Core]  <!-- UUID: be9b2600-3021-4bb6-9eaf-ba92f17ccd61 -->
+
+Sentora PYUSD Morpho Vault V2
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 8ba12c10-ec4f-4f37-a59c-4c34e14e1a8d -->
+
+PYUSD
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.1.4 - Token [Core]  <!-- UUID: dbf0b180-07ad-4a4b-8cdb-b2c1ae7f2c7a -->
+
+senPYUSDmain
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.2 - Contract Addresses [Core]  <!-- UUID: 6a5becdf-2cb6-44c3-b93a-793072d5ff7b -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.2.1 - Token Address [Core]  <!-- UUID: 9a0baa90-6aec-4be5-9ae5-4d3c790473a8 -->
+
+`0xb576765fB15505433aF24FEe2c0325895C559FB2`
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 412793f2-1e8e-490c-8604-3c457d54d6ed -->
+
+`0x6c3ea9036406852006290770BEdFcAbA0e23A0e8`
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.3 - Rate Limit IDs [Core]  <!-- UUID: fce963cb-ade1-463e-a88f-898a30586e51 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 31d24068-b9bf-43d7-8333-df129e00ee61 -->
+
+The inflow RateLimitID is: `0x4dc0c7cd471560aa12324cb36f720d7d301ef230d3ae772ae07b681725ae7b66`
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: cdd99b5b-34aa-42d5-b93a-0abda5ae7f0f -->
+
+The outflow RateLimitID is: `0x8edef92c8bf76460b6b832a88c63768022ac5aa2bd862fb858905a0f024bff8b`
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.4 - Rate Limits [Core]  <!-- UUID: b94aa9b1-62c6-40dc-8b92-cc677ebac016 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 0a4b26e1-5757-4ed9-bfc5-2614cc79500f -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 50,000,000 PYUSD
+- `slope`: 50,000,000 PYUSD per day
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3d7d307c-ffdc-4ca3-b9fa-951b02d46e3f -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 143d4637-38b8-404c-ba4c-932796445fc8 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 8c1e6098-3342-4d00-b314-d4e87f005dc2 -->
+
+The Maximum Exposure for this Instance is 0 USD.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 4eb5ab52-f412-4d4f-8d9e-5ac9b883eb77 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 8f2a06dd-60cb-4930-9f15-e8dae35444a9 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.4.1 - Max Exchange Rate [Core]  <!-- UUID: 1f14f407-9eeb-4e6b-bf6e-c837b5560f28 -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 PYUSD:
+
+- `setMaxExchangeRate(SENTORA_PYUSD_MAIN_V2, 1e18, 3e6)`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: dff6df5f-f8ab-4df1-be1e-f71510c3534e -->
+
+The documents herein contain the Instance Configuration Document for the Sentora RLUSD Morpho Vault V2 Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 35bdc1b6-604d-44ad-a577-ceb33bc20bd9 -->
+
+`Pending`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2 - Parameters [Core]  <!-- UUID: da718c05-b351-43dd-a12a-75fe5bc0b4cf -->
+
+The documents herein define the parameters of the Sentora RLUSD Morpho Vault V2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.1 - Instance Identifiers [Core]  <!-- UUID: 958bd3b4-0650-44fc-8765-28392fe92df3 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.1.1 - Network [Core]  <!-- UUID: 8baa615c-fc38-4bf7-8c44-47a6bb168ad8 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.1.2 - Target Protocol [Core]  <!-- UUID: bfc9f2f7-e69f-4685-b666-57bb2d55442f -->
+
+Sentora RLUSD Morpho Vault V2
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 0b1dbb71-5087-4db2-98e1-f4aafe4e46b5 -->
+
+RLUSD
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.1.4 - Token [Core]  <!-- UUID: e7b16e69-cfb2-4877-a0c2-9cbc7f4ff1ff -->
+
+senRLUSDv2
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.2 - Contract Addresses [Core]  <!-- UUID: d2e8af21-8db9-43b3-8f52-7e080897d54e -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.2.1 - Token Address [Core]  <!-- UUID: dde53de4-3778-44b3-9f65-064eaab3bf93 -->
+
+`0x6dC58a0FdfC8D694e571DC59B9A52EEEa780E6bf`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: b041fa2f-e7cd-4c64-98d0-a1b67f50d6a2 -->
+
+`0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.3 - Rate Limit IDs [Core]  <!-- UUID: 991d7839-4dfd-466f-aafd-8c397cd7af6b -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: a5775dc3-6444-4234-825d-7e0ae6b05f6b -->
+
+The inflow RateLimitID is: `0x944bbb34c3717aacc72419f43d62f5a01d2ebd7a9157ba9975fd7d971deb803f`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 2441cde7-6e2e-47d9-9fd3-62b1bfbb9c9c -->
+
+The outflow RateLimitID is: `0xfc41a8cf89ec93b54bbf6960204c29c48a7ed98ec4a88dade68149dee919e788`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.4 - Rate Limits [Core]  <!-- UUID: 5ecbe8da-00f2-4d72-ab79-6276eae3bc0f -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: c7c4c3a1-ca25-4e9e-b4ab-cbcd01519535 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 50,000,000 RLUSD
+- `slope`: 50,000,000 RLUSD per day
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3593ce57-8cf0-42c8-b0ce-0bfef547e4a6 -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.5 Off-chain Operational Parameters [Core]  <!-- UUID: 55c42f45-b94d-4e4d-959f-ae1cc1880fc5 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 4e3fae3f-b450-4f0b-bff4-4f4767c8f7a7 -->
+
+The Maximum Exposure for this Instance is 0 USD.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.3 - Instance-specific Operational Processes [Core]  <!-- UUID: e63662b0-149e-4e80-b7e0-6cf281f85ddd -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 9aed2f2d-6a17-41a5-9104-bb622b3cb04e -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.4.1 - Max Exchange Rate [Core]  <!-- UUID: fd4778b5-78e7-49fc-a785-c2dfed2e5246 -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 RLUSD:
+
+- `setMaxExchangeRate(SENTORA_RLUSD_MAIN_V2, 1e18, 3e6)`
 
 ###### A.6.1.1.2.2.6.1.3.1.8 - Securitize [Core]  <!-- UUID: b05d9fc2-9a93-4f3b-b0d8-b4f77bc294ce -->
 
