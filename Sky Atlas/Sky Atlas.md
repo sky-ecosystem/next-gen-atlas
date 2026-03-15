@@ -14099,6 +14099,7 @@ The following Instance Financial CRRs apply to specific assets listed:
 - STAC on Ethereum Mainnet - 1.6% Instance Financial CRR
 - GACLO-1 on Ethereum Mainnet - 0.85% Instance Financial CRR
 - ACRDX on Plume - 9.99% Instance Financial CRR
+- ACRDX on Ethereum Mainnet - 9.99% Instance Financial CRR
 
 ###### A.3.2.2.1.1.1.5.3.1.1 - Additional Restrictions On Investments In JTRSY And JAAA On Avalanche [Core]  <!-- UUID: 66506235-0e6c-4fa9-8e22-5eb4f19cb330 -->
 
@@ -14108,6 +14109,10 @@ Investments in JTRSY and JAAA on Avalanche are subject to the following addition
 - Each additional deployment of capital into JTRSY or JAAA must be approved by the Core Council Risk Advisor;
 - Until audits of Centrifuge v3 are approved by the Protocol Security Workstream Lead, the Prime must be below a 90% Encumbrance Ratio on a pro forma basis assuming that each additional deployment of capital into JTRSY and JAAA requires 100% Instance Total CRR; and
 - Total investments in JTRSY and JAAA on Avalanche may not exceed 250 million USDS.
+
+###### A.3.2.2.1.1.1.5.3.1.2 - Additional Restrictions On Investments In ACRDX On Plume And Ethereum Mainnet [Core]  <!-- UUID: 8cbfb295-019d-4ac6-af19-1a1fead233b0 -->
+
+Total ACRDX exposure may not increase beyond 50.97 million USDS and should be reduced to zero over time.
 
 ###### A.3.2.2.1.1.1.5.3.2 - Restrictions On Investments On Plume [Core]  <!-- UUID: c5d70220-4797-4df9-8977-4998d4a57888 -->
 
