@@ -11495,6 +11495,14 @@ Funds from the Pre-Pioneer Incentive Pool wallet may be used to incentivize part
 
 In the short term before the implementation of the Senior Risk Capital system, Sky will provide Keel with 7.5 million USDS of Senior Risk Capital. See [A.3.2.2.4.5 - Short Term Transitionary Measures](d33ac81e-bab1-4969-b46d-e605da2afae3). This Senior Risk Capital will not be transferred by Sky to Keel's SubProxy Account; instead, it will be credited towards Keel's Total Risk Capital. See [A.3.2.1.2 - Total Risk Capital](be7589f5-32c0-42d2-8d10-38bceb1de28b).
 
+###### A.2.8.2.3.2.4 - Tokenomics [Core]  <!-- UUID: b0de2330-3678-4852-8c24-ce85445201a7 -->
+
+The tokenomics for Keel will be specified in a future iteration of the Atlas.
+
+###### A.2.8.2.3.2.5 - Genesis Capital Allocation [Core]  <!-- UUID: 7df88d38-679b-42a2-a8a8-f798ac6a736b -->
+
+The Genesis Capital Allocation for Keel is 10,000,000 USDS. The transfer of the Genesis Capital Allocation to Keel will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll. The address of Keel's SubProxy account is specified in [A.6.1.1.3.2.1.1.3.1.1.2 - SubProxy Account](2d5f052a-e32a-472c-884f-4fd8746e0459).
+
 #### A.2.8.2.4 - Ecosystem Accord 4: Sky And Obex [Core]  <!-- UUID: 6bddc5aa-ac80-43d8-b8c8-8cde14e896df -->
 
 The subdocuments herein record the terms of agreement between Sky and Obex as agreed in Ecosystem Accord 4.
@@ -11661,7 +11669,7 @@ The address of the Launch Agent 6 Foundation on the Ethereum Mainnet is `0xfDD05
 
 ###### A.2.8.2.6.2.2.2.2 - Transfer Of Genesis Capital Allocation To Launch Agent 6 SubProxy [Core]  <!-- UUID: 65638659-eb0d-4e5c-87e8-50705e3595b8 -->
 
-The transfer of 10,000,000 USDS from the Surplus Buffer to the Launch Agent 6 SubProxy for the Genesis Capital Allocation will be included in a future Executive Vote. This action is contingent on mutual agreement by Sky and Launch Agent 6 on a future iteration of this agreement specifying the terms and conditions of the Genesis Capital Allocation.
+The transfer of 10,000,000 USDS from the Surplus Buffer to the Launch Agent 6 SubProxy for the Genesis Capital Allocation will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll. The address of Launch Agent 6’s SubProxy account is `0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`.
 
 #### A.2.8.2.7 - Ecosystem Accord 7: Sky and Skybase [Core]  <!-- UUID: 8a74919c-d9c1-4d9a-9499-302201f96f9c -->
 
@@ -11736,6 +11744,86 @@ This action is authorized to proceed directly to an Executive Vote without a pri
 The transfer of 5,000,000 USDS from the Surplus Buffer to the USDS Demand Subsidies Multisig (see [A.6.1.1.4.3.4.2 - USDS Demand Subsidies Multisig](20ee784c-115a-40bb-ae74-d4b3726b0c1b)) for the Genesis Capital Allocation will be included in the January 29, 2026 Executive Vote.
 
 This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+
+#### A.2.8.2.8 - Ecosystem Accord 8: Sky And Amatsu [Core]  <!-- UUID: 9d187ae2-1106-4b43-a6a6-ff54c329d0da -->
+
+The subdocuments herein record the terms of agreement between Sky and Amatsu as agreed in Ecosystem Accord 8.
+
+##### A.2.8.2.8.1 - Accord Key Details [Core]  <!-- UUID: 7b53595c-b29f-40b4-8098-21949ed4f6e4 -->
+
+The subdocuments herein set out the key details of Ecosystem Accord 8, such as parties to the agreement and the duration of the Accord.
+
+###### A.2.8.2.8.1.1 - Parties To The Accord [Core]  <!-- UUID: 511d2f27-51f4-48bb-b147-cfbb81a05096 -->
+
+The parties to Ecosystem Accord 8 are Sky and Amatsu, as defined in the subdocuments herein.
+
+###### A.2.8.2.8.1.1.1 - Sky Details [Core]  <!-- UUID: fa3bcebb-38a6-4541-8349-e07166fb4d81 -->
+
+The part 'Sky' comprises Sky Core.
+
+###### A.2.8.2.8.1.1.2 - Amatsu Details [Core]  <!-- UUID: cef53b14-d230-4f10-a482-0fbacdf3d3bc -->
+
+The part 'Amatsu' comprises the Amatsu Executor Agent.
+
+###### A.2.8.2.8.1.2 - Duration Of The Accord [Core]  <!-- UUID: 918ce6f7-dd4b-419d-8a5c-92fb595b0ec1 -->
+
+The duration of Ecosystem Accord 8 is idefinite, commencing from March 19, 2026.
+
+##### A.2.8.2.8.2 - Accord Substantive Terms [Core]  <!-- UUID: d6624ff1-e50e-4a56-b1c4-2f24af3cb34e -->
+
+The subdocuments herein set out the substantive terms of Ecosystem Accord 8. Additional detail regarding the substantive terms of Ecosystem Accord 8 will be specified in a future iteration of the Atlas, as agreed by the Parties to the Accord.
+
+###### A.2.8.2.8.2.1 - Genesis Capital Allocation [Core]  <!-- UUID: ff5c1b0c-8027-4711-9cc3-a18772c0ba5b -->
+
+The Genesis Capital Allocation for Amatsu is 25,000,000 USDS. The transfer of the Genesis Capital Allocation to Amatsu will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+
+###### A.2.8.2.8.2.1.1 - Amatsu SubProxy Address [Core]  <!-- UUID: fa9d102c-39ad-49ea-a30e-5101c3400313 -->
+
+The address of Amatsu's SubProxy Account will be specified in the Technical Scope Forum Post for the deployment of the SubProxy Account.
+
+###### A.2.8.2.8.2.1.2 - Use Of Genesis Capital [Core]  <!-- UUID: 64bb69a7-6525-44ad-af92-cb7dd400fcc8 -->
+
+The Genesis Capital Allocation will be used to support Amatsu's work in delivering services in the role of Operational Executor Agent for the Sky Ecosystem.
+
+#### A.2.8.2.9 - Ecosystem Accord 9: Sky And Ozone [Core]  <!-- UUID: cb3c159b-46fd-4e85-a6d5-e2ab17977ac8 -->
+
+The subdocuments herein record the terms of agreement between Sky and Ozone as agreed in Ecosystem Accord 9.
+
+##### A.2.8.2.9.1 - Accord Key Details [Core]  <!-- UUID: dbbd6557-ff1e-49e2-951b-1457d290b55f -->
+
+The subdocuments herein set out the key details of Ecosystem Accord 9, such as parties to the agreement and the duration of the Accord.
+
+###### A.2.8.2.9.1.1 - Parties To The Accord [Core]  <!-- UUID: 81a42abc-2494-493e-9698-68a0c712684e -->
+
+The parties to Ecosystem Accord 9 are Sky and Ozone, as defined in the subdocuments herein.
+
+###### A.2.8.2.9.1.1.1 - Sky Details [Core]  <!-- UUID: 12d48429-0536-4efd-aaa2-2ca433498e81 -->
+
+The party 'Sky' comprises Sky Core.
+
+###### A.2.8.2.9.1.1.2 - Ozone Details [Core]  <!-- UUID: 483798e7-9aac-4a93-9e89-52d108be3c55 -->
+
+The party 'Ozone' comprises the Ozone Executor Agent.
+
+###### A.2.8.2.9.1.2 - Duration Of The Accord [Core]  <!-- UUID: 28433341-af4a-435d-8839-0225f515af64 -->
+
+The duration of Ecosystem Accord 9 is indefinite, commencing from March 19, 2026.
+
+##### A.2.8.2.9.2 - Accord Substantive Terms [Core]  <!-- UUID: 91fabe18-fd56-448e-9485-46427647a675 -->
+
+The subdocuments herein set out the substantive terms of Ecosystem Accord 9. Additional detail regarding the substantive terms of Ecosystem Accord 9 will be specified in a future iteration of the Atlas, as agreed by the Parties to the Accord.
+
+###### A.2.8.2.9.2.1 - Genesis Capital Allocation [Core]  <!-- UUID: ee64a5b7-da29-4b14-aaa7-e2f370a37301 -->
+
+The Genesis Capital Allocation for Ozone is 25,000,000 USDS. The transfer of the Genesis Capital Allocation to Ozone will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+
+###### A.2.8.2.9.2.1.1 - Ozone SubProxy Address [Core]  <!-- UUID: 6337ca25-2d6f-4483-9b89-c087138ebabf -->
+
+The address of Ozone's SubProxy Account will be specified in the Technical Scope Forum Post for the deployment of the SubProxy Account.
+
+###### A.2.8.2.9.2.1.2 - Use Of Genesis Capital [Core]  <!-- UUID: 9e7acf02-b30c-47fd-aa6f-bef61dc1210d -->
+
+The Genesis Capital Allocation will be used to fund Ozone's work in supporting the Agents that it serves as the Operational Executor Agent for.
 
 ### A.2.8.0.3.1 - Business Activities - Element Annotation [Annotation]  <!-- UUID: 31df7e2b-184f-428c-9c4f-23fd8054c5d3 -->
 
@@ -16617,7 +16705,10 @@ Genesis Agents are Agents that receive capital contributions from Sky, including
 - Keel
 - Skybase
 - Obex
+- Launch Agent 6
 - Core Council Executor Agent 1
+- Amatsu
+- Ozone
 
 ##### A.3.7.1.6.6 - Genesis Capital [Core]  <!-- UUID: 18f3de06-064b-4b08-a855-4720240e37f5 -->
 
@@ -16631,6 +16722,10 @@ The amount of capital contributed by Sky to Agents is:
 - Obex - 21,000,000 USDS
 - Skybase - 15,000,000 USDS
 - Core Council Executor Agent 1 - 25,000,000 USDS
+- Keel - 10,000,000 USDS
+- Launch Agent 6 - 10,500,000 USDS
+- Amatsu - 25,000,000 USDS
+- Ozone - 25,000,000 USDS
 
 # A.4 - The Protocol Scope [Scope]  <!-- UUID: 5c20d9af-0bb9-4ca1-a944-1e2cb6f8bb6b -->
 
