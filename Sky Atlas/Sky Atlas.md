@@ -45502,13 +45502,21 @@ The name of the Agent is Launch Agent 6.
 
 ###### A.6.1.1.7.2.1.1.3.1.1.2 - SubProxy Account [Core]  <!-- UUID: bb7586a5-8e85-4d8c-aedc-2b0f76fb826f -->
 
-The address of Launch Agent 6's SubProxy Account will be specified in a future iteration of the Launch Agent 6 Artifact.
+The address of Launch Agent 6's SubProxy Account on the Ethereum Mainnet is `0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`.
 
-###### A.6.1.1.7.2.1.1.3.1.1.3 - Genesis Account [Core]  <!-- UUID: a5674a63-9d57-4fd9-9b66-ec653f49afab -->
+###### A.6.1.1.7.2.1.1.3.1.1.3 - StarGuard Contract [Core]  <!-- UUID: d3499ce6-c517-49f7-a07e-b321c390470d -->
+
+The address of Launch Agent 6's StarGuard contract on the Ethereum Mainnet is `0xBfA2D1dA838E55A74c61699e164cDFF8cF0cF0e2`.
+
+###### A.6.1.1.7.2.1.1.3.1.1.3.1 - StarGuard Max Delay [Core]  <!-- UUID: 96060edd-a089-499c-9e96-b90a89bc2c0c -->
+
+The Launch Agent 6 StarGuard `maxDelay` is seven (7) days.
+
+###### A.6.1.1.7.2.1.1.3.1.1.4 - Genesis Account [Core]  <!-- UUID: a5674a63-9d57-4fd9-9b66-ec653f49afab -->
 
 The address of Launch Agent 6's Genesis Account will be specified in a future iteration of the Launch Agent 6 Artifact.
 
-###### A.6.1.1.7.2.1.1.3.1.1.4 - Custom Instance Parameters [Core]  <!-- UUID: 433f5f95-3a16-4f07-b389-b4ead64f21f2 -->
+###### A.6.1.1.7.2.1.1.3.1.1.5 - Custom Instance Parameters [Core]  <!-- UUID: 433f5f95-3a16-4f07-b389-b4ead64f21f2 -->
 
 The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
 
@@ -46612,7 +46620,35 @@ The subtrees for Instances of the Allocation System Primitive with `Suspended` S
 
 ###### A.6.1.1.7.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: f9501c81-b5cd-4c07-b781-539974d39f1d -->
 
-The documents herein specify the logic for coordinating multiple Instances of the Allocation System Primitive. In the future, additional logic will be added herein regarding how capital is allocated between different Instances of the Allocation System Primitive.
+The documents herein provide general specifications of the Launch Agent 6 Liquidity Layer and define Launch Agent 6's overarching strategy and operational framework for managing across all Instances.
+
+###### A.6.1.1.7.2.6.1.2.1 - General Specifications [Core]  <!-- UUID: 38996719-e2ff-491b-89b4-c63fcbaf5353 -->
+
+The documents herein contain general specifications for the Launch Agent 6 Liquidity Layer.
+
+###### A.6.1.1.7.2.6.1.2.1.1 - Launch Agent 6 Liquidity Layer Architecture [Core]  <!-- UUID: e8f3afd5-d1a8-4379-826c-2c3bcc365947 -->
+
+The documents herein describe the high-level design of the Launch Agent 6 Liquidity Layer, including its key smart contracts and their functionality.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1 - Launch Agent 6 Liquidity Layer Addresses [Core]  <!-- UUID: 4148f5dc-ec79-4e4e-96ea-debf17e8bc28 -->
+
+The subdocuments herein provide the addresses of the Launch Agent 6 Liquidity Layer's constituent contracts.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.1 - Allocator Contract Addresses [Core]  <!-- UUID: 22f84daa-f402-433d-8bd2-4a03b5776e20 -->
+
+The documents herein contain global key addresses for the Allocator Contracts.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.1.1 - Ethereum Mainnet [Core]  <!-- UUID: 451328dd-17f0-4efd-8515-377ce6a138b6 -->
+
+The documents herein contain the Allocator Contract Addresses on the Ethereum Mainnet.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.1.1.1 - Allocator Buffer Contract [Core]  <!-- UUID: 7f40e7d1-ed33-4b31-8641-d721f1dc2f01 -->
+
+The address of the ALLOCATOR_BUFFER contract is: `0xD0BB61b34771146e31055f20f329cDf97429F889`.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.1.1.2 - Allocator Vault Contract [Core]  <!-- UUID: 0562eb6d-3770-4c3c-851b-7a6f9f5b2aa0 -->
+
+The address of the ALLOCATOR_VAULT (ALLOCATOR-PRYSM-A) contract is: `0x146181Aa9B362EaEC2eC3aDd7429a06D53B43d1a`.
 
 ###### A.6.1.1.7.2.6.1.3 - Active Instances [Core]  <!-- UUID: 6f8a8e14-13be-4893-9bb1-17c88e984426 -->
 
@@ -46896,13 +46932,21 @@ The name of the Agent is Launch Agent 7.
 
 ###### A.6.1.1.8.2.1.1.3.1.1.2 - SubProxy Account [Core]  <!-- UUID: a5a06fb8-2ae7-4af3-8e96-e1fb57eef916 -->
 
-The address of Launch Agent 7's SubProxy Account will be specified in a future iteration of the Launch Agent 7 Artifact.
+The address of Launch Agent 7's SubProxy Account on the Ethereum Mainnet is `0x56a9bA5FE133EF4Ab1131E8ac7c4312a52284f5B`.
 
-###### A.6.1.1.8.2.1.1.3.1.1.3 - Genesis Account [Core]  <!-- UUID: 9646935e-2406-4187-b43d-9158bdf71856 -->
+###### A.6.1.1.8.2.1.1.3.1.1.3 - StarGuard Contract [Core]  <!-- UUID: fa741bad-9966-4ff7-8300-238d1c58df9a -->
+
+The address of Launch Agent 7's StarGuard contract on the Ethereum Mainnet is `0xB36e88c02E4619Ef34C0Db76C5BCb6655747FB28`.
+
+###### A.6.1.1.8.2.1.1.3.1.1.3.1 - StarGuard Max Delay [Core]  <!-- UUID: 68ce7040-9954-4339-8fa8-d5679eb2a1d5 -->
+
+The Launch Agent 7 StarGuard `maxDelay` is seven (7) days.
+
+###### A.6.1.1.8.2.1.1.3.1.1.4 - Genesis Account [Core]  <!-- UUID: 9646935e-2406-4187-b43d-9158bdf71856 -->
 
 The address of Launch Agent 7's Genesis Account will be specified in a future iteration of the Launch Agent 7 Artifact.
 
-###### A.6.1.1.8.2.1.1.3.1.1.4 - Custom Instance Parameters [Core]  <!-- UUID: 83d48c76-a0c0-447f-a749-9fa841d6af49 -->
+###### A.6.1.1.8.2.1.1.3.1.1.5 - Custom Instance Parameters [Core]  <!-- UUID: 83d48c76-a0c0-447f-a749-9fa841d6af49 -->
 
 The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
 
@@ -48006,7 +48050,31 @@ The subtrees for Instances of the Allocation System Primitive with `Suspended` S
 
 ###### A.6.1.1.8.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: a407dee4-36ec-4499-a3e6-e01008dd56cf -->
 
-The documents herein specify the logic for coordinating multiple Instances of the Allocation System Primitive. In the future, additional logic will be added herein regarding how capital is allocated between different Instances of the Allocation System Primitive.
+The documents herein provide general specifications of the Launch Agent 7 Liquidity Layer and define Launch Agent 7's overarching strategy and operational framework for managing across all Instances.
+
+###### A.6.1.1.8.2.6.1.2.1 - General Specifications [Core]  <!-- UUID: d74aa2ed-b6fb-4dd1-83de-a334734bc48d -->
+
+The documents herein contain general specifications for the Launch Agent 7 Liquidity Layer.
+
+###### A.6.1.1.8.2.6.1.2.1.1 - Launch Agent 7 Liquidity Layer Architecture [Core]  <!-- UUID: 4abfa5e7-e1a8-4ade-89fb-a2ef26752877 -->
+
+The documents herein describe the high-level design of the Launch Agent 7 Liquidity Layer, including its key smart contracts and their functionality.
+
+###### A.6.1.1.8.2.6.1.2.1.1.1 - Launch Agent 7 Liquidity Layer Addresses [Core]  <!-- UUID: e9845cfa-2d27-45f0-b955-dbedd5d8ddb4 -->
+
+The subdocuments herein provide the addresses of the Launch Agent 7 Liquidity Layer's constituent contracts.
+
+###### A.6.1.1.8.2.6.1.2.1.1.1.1 - Allocator Contract Addresses [Core]  <!-- UUID: deed6d17-668a-4ebb-844b-19b25a293448 -->
+
+The documents herein contain global key addresses for the Allocator Contracts.
+
+###### A.6.1.1.8.2.6.1.2.1.1.1.1.1 - Allocator Buffer Contract [Core]  <!-- UUID: d5d47c10-f714-4c88-b4ac-e8937ef86134 -->
+
+The address of the ALLOCATOR_BUFFER contract is: `0x67Ac5c8FbFDAc5265c995e9B2ACd830496438AfD`.
+
+###### A.6.1.1.8.2.6.1.2.1.1.1.1.2 - Allocator Vault Contract [Core]  <!-- UUID: 97dfcdfa-9c39-49fe-95cc-a117635b3f52 -->
+
+The address of the ALLOCATOR_VAULT (ALLOCATOR-INTERVAL-A) contract is: `0xDD3bE7650589E6A6171d454b026C4AD1a2C02720`.
 
 ###### A.6.1.1.8.2.6.1.3 - Active Instances [Core]  <!-- UUID: 132aaf59-d6fa-4260-b686-91246dba9897 -->
 
