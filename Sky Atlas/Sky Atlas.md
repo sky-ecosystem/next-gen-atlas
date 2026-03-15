@@ -30940,7 +30940,7 @@ The outflow RateLimitID is: `0x58aa7b39a6c9894ea4a4cd6868d014c718d09913cdf5d793e
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.1.3.2.4.1. - Deposit Rate Limits [Core]  <!-- UUID: 2305ac7b-a8dc-4611-b242-0996d4d22a88 -->
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 2305ac7b-a8dc-4611-b242-0996d4d22a88 -->
 
 The deposit rate limits are:
 
@@ -33175,7 +33175,7 @@ The withdrawal rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.5 Off-chain Operational Parameters [Core]  <!-- UUID: 55c42f45-b94d-4e4d-959f-ae1cc1880fc5 -->
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 55c42f45-b94d-4e4d-959f-ae1cc1880fc5 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
