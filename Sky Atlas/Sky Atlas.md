@@ -25852,9 +25852,9 @@ The current USDT risk parameters are:
 
 The current WBTC risk parameters are:
 
-- LTV: 0%
+- LTV: 77%
 
-- Liquidation Threshold: 35%
+- Liquidation Threshold: 78%
 
 - E-mode Category: N/A
 
@@ -26878,11 +26878,11 @@ The current WBTC cap automator parameters are:
 
 - Supply cap
 
-    ◦ `gap`: 200 WBTC
+    ◦ `gap`: 500 WBTC
 
     ◦ `ttl`: 12 hours
 
-    ◦ `max`: 5,000 WBTC
+    ◦ `max`: 3,000 WBTC
 
 - Borrow cap
 
