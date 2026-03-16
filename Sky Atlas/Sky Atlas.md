@@ -24243,8 +24243,8 @@ The current `maxAmount` and `slope` for this conduit’s transferAssets opera
 
 ###### A.6.1.1.1.2.6.1.3.1.12.2.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 5a56203b-5c1b-42e8-9acb-8ab78eb4dc06 -->
 
-- `maxAmount`: 5,000,000 USAT
-- `slope`: 250,000,000 USAT per day
+- `maxAmount`: 5,000,000 USDT
+- `slope`: 250,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.12.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1ec11acd-b8fe-4310-b1ba-6e57c9c27fd3 -->
 
