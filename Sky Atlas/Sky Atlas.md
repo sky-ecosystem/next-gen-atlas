@@ -24112,95 +24112,95 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
-###### A.6.1.1.1.2.6.1.3.1.12.2 - Ethereum Mainnet - Uniswap v4 USAT/USDS Pool Instance Configuration Document [Core]  <!-- UUID: 18da0d3e-3dd7-473b-a40c-5118fd6d9f5d -->
+###### A.6.1.1.1.2.6.1.3.1.11.3 - Ethereum Mainnet - Uniswap v4 USAT/USDS Pool Instance Configuration Document [Core]  <!-- UUID: 18da0d3e-3dd7-473b-a40c-5118fd6d9f5d -->
 
 The documents herein contain the Instance Configuration Document for the Uniswap v4 USAT/USDS Pool Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: a6d904c3-c173-4ba3-91e2-285dcc533392 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.1 - RRC Framework Full Implementation [Core]  <!-- UUID: a6d904c3-c173-4ba3-91e2-285dcc533392 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2 - Parameters [Core]  <!-- UUID: d46584b0-4ec1-4450-b915-79969d7c3c74 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2 - Parameters [Core]  <!-- UUID: bba36a7d-5811-4c3b-9d35-eaf845a31332 -->
 
 The documents herein define the parameters of the Uniswap v4 USAT/USDS Pool Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 411f0251-85fb-412a-a78b-1ca757a41d09 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.1 - Instance Identifiers [Core]  <!-- UUID: 411f0251-85fb-412a-a78b-1ca757a41d09 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.1 - Network [Core]  <!-- UUID: 26bbbecc-cb1c-447c-95db-0b09cde8c763 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.1.1 - Network [Core]  <!-- UUID: 26bbbecc-cb1c-447c-95db-0b09cde8c763 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 60bbcf32-5a67-4f13-9f89-db81275d214b -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.1.2 - Target Protocol [Core]  <!-- UUID: 60bbcf32-5a67-4f13-9f89-db81275d214b -->
 
 Uniswap v4
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 13b49366-aaee-4f35-b2cd-e2317bc4b92c -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: f39d26f9-17fd-46bb-a64a-570528cd66da -->
 
 USAT and USDS
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.4 - Token [Core]  <!-- UUID: 9bd6100d-a60e-4963-8bf2-40d6c8115855 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.1.4 - Token [Core]  <!-- UUID: 9bd6100d-a60e-4963-8bf2-40d6c8115855 -->
 
 USATUSDS
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.2 - Contract Addresses [Core]  <!-- UUID: 666e3e63-38ea-4390-a149-b8c8031253de -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.2 - Contract Addresses [Core]  <!-- UUID: 666e3e63-38ea-4390-a149-b8c8031253de -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.2.1 - Token Address [Core]  <!-- UUID: 26c1d063-7a9a-4f30-9636-643b6391c71e -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.2.1 - Token Address [Core]  <!-- UUID: 26c1d063-7a9a-4f30-9636-643b6391c71e -->
 
 `TBD`
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.2.2 - Pool ID [Core]  <!-- UUID: 9c1c03b2-61b7-4f85-8532-96f812165d14 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.2.2 - Pool ID [Core]  <!-- UUID: 9c1c03b2-61b7-4f85-8532-96f812165d14 -->
 
 `TBD`
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 29c3db07-9ac8-4e38-9fe1-819b1dd2d4e7 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 29c3db07-9ac8-4e38-9fe1-819b1dd2d4e7 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.4 - Rate Limits [Core]  <!-- UUID: 6617b066-ed85-47c9-ba88-7ec08fe9d6d1 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.4 - Rate Limits [Core]  <!-- UUID: 6617b066-ed85-47c9-ba88-7ec08fe9d6d1 -->
 
 The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: de24cf02-db2c-4fbb-93b6-c2015c51a700 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: de24cf02-db2c-4fbb-93b6-c2015c51a700 -->
 
 The inflow rate limits are:
 - `maxAmount`: 10,000,000
 - `slope`: 100,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 81ab7e50-2cbe-42e0-a696-a2b1ddb86a17 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 81ab7e50-2cbe-42e0-a696-a2b1ddb86a17 -->
 
 The outflow rate limits are:
 - `maxAmount`: 50,000,000
 - `slope`: 300,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 2a1bb381-5023-4d85-b956-a93ee5f6f507 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 2a1bb381-5023-4d85-b956-a93ee5f6f507 -->
 
 The swap rate limits are:
 - `maxAmount`: 5,000,000
 - `slope`: 50,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.4.4 - Maximum Slippage [Core]  <!-- UUID: 4434307e-d2c8-4f9c-a2f9-d5a241a78a02 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.4.4 - Maximum Slippage [Core]  <!-- UUID: 4434307e-d2c8-4f9c-a2f9-d5a241a78a02 -->
 
 Max slippage: 0.1%
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.4.5 - Tick Range and Width [Core]  <!-- UUID: 7fd03fd2-62cc-45e0-b786-b5669f9d7e35 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.4.5 - Tick Range and Width [Core]  <!-- UUID: 7fd03fd2-62cc-45e0-b786-b5669f9d7e35 -->
 
 - Min lower tick limit: 276,314 (-0.1%)
 - Max upper tick limit: 276,334 (+0.1%)
 - Max tick width: 10 ticks
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.4.6 - Swap Fee [Core]  <!-- UUID: 9f92e7b7-83e6-4b0c-9f3d-6ec66a259c98 -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.4.6 - Swap Fee [Core]  <!-- UUID: a58b620e-8824-4c8e-9f00-e1a6aa4cd5bd -->
 
 0.008%
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: bc14c22c-f7a7-4de9-afe9-4b121d05ee7a -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 6aa072c4-bc44-4cd6-84b4-7d87a24f0e12 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: afd2544b-24de-439b-8d8f-44d5cd82a8bd -->
+###### A.6.1.1.1.2.6.1.3.1.11.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 2ff3c6f1-9ec2-44c6-8477-1851ceaa05b2 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
