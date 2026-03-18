@@ -11669,7 +11669,7 @@ The address of the Launch Agent 6 Foundation on the Ethereum Mainnet is `0xfDD05
 
 ###### A.2.8.2.6.2.2.2.2 - Transfer Of Genesis Capital Allocation To Launch Agent 6 SubProxy [Core]  <!-- UUID: 65638659-eb0d-4e5c-87e8-50705e3595b8 -->
 
-The transfer of 10,000,000 USDS from the Surplus Buffer to the Launch Agent 6 SubProxy for the Genesis Capital Allocation will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll. The address of Launch Agent 6’s SubProxy account is `0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`.
+The transfer of 10,000,000 USDS from the Surplus Buffer to the Launch Agent 6 SubProxy for the Genesis Capital Allocation will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll. The address of Launch Agent 6's SubProxy account is `0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`.
 
 #### A.2.8.2.7 - Ecosystem Accord 7: Sky and Skybase [Core]  <!-- UUID: 8a74919c-d9c1-4d9a-9499-302201f96f9c -->
 
