@@ -11759,11 +11759,11 @@ The parties to Ecosystem Accord 8 are Sky and Amatsu, as defined in the subdocum
 
 ###### A.2.8.2.8.1.1.1 - Sky Details [Core]  <!-- UUID: fa3bcebb-38a6-4541-8349-e07166fb4d81 -->
 
-The part 'Sky' comprises Sky Core.
+The party 'Sky' comprises Sky Core.
 
 ###### A.2.8.2.8.1.1.2 - Amatsu Details [Core]  <!-- UUID: cef53b14-d230-4f10-a482-0fbacdf3d3bc -->
 
-The part 'Amatsu' comprises the Amatsu Executor Agent.
+The party 'Amatsu' comprises the Amatsu Executor Agent.
 
 ###### A.2.8.2.8.1.2 - Duration Of The Accord [Core]  <!-- UUID: 918ce6f7-dd4b-419d-8a5c-92fb595b0ec1 -->
 
