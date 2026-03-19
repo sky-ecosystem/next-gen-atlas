@@ -11767,7 +11767,7 @@ The party 'Amatsu' comprises the Amatsu Executor Agent.
 
 ###### A.2.8.2.8.1.2 - Duration Of The Accord [Core]  <!-- UUID: 918ce6f7-dd4b-419d-8a5c-92fb595b0ec1 -->
 
-The duration of Ecosystem Accord 8 is idefinite, commencing from March 19, 2026.
+The duration of Ecosystem Accord 8 is indefinite, commencing from March 19, 2026.
 
 ##### A.2.8.2.8.2 - Accord Substantive Terms [Core]  <!-- UUID: d6624ff1-e50e-4a56-b1c4-2f24af3cb34e -->
 
@@ -33011,13 +33011,13 @@ Controllers now have protections that require a `maxExchangeRate` to be set for 
 
 The documents herein contain the Instance Configuration Document for the Sentora PYUSD Morpho Vault V2 Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.7.6.1 - RRC Framework Full Implementation Coverage** [Core]  <!-- UUID: 3fd05c9a-1d93-47f6-967d-6edb31f522fd -->
+###### A.6.1.1.2.2.6.1.3.1.7.6.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 3fd05c9a-1d93-47f6-967d-6edb31f522fd -->
 
 `Pending`
 
 ###### A.6.1.1.2.2.6.1.3.1.7.6.2 - Parameters [Core]  <!-- UUID: 7b251172-7a60-4240-af72-cacaca9fe3cc -->
 
-The documents herein define the parameters of the Sentora PYUSD Morpho Vault V2 ****Instance of the Allocation System Primitive.
+The documents herein define the parameters of the Sentora PYUSD Morpho Vault V2 Instance of the Allocation System Primitive.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.6.2.1 - Instance Identifiers [Core]  <!-- UUID: 3d387fde-f4b9-47c0-8852-f4d9367c0369 -->
 
