@@ -27903,7 +27903,7 @@ Critical actions are actions that could conceivably result in the loss of funds 
 - Adding a withdrawal address to the whitelist
 - Adding or removing a signer from the account approvals policy
 - Changing the approval quorum
-- Transferring funds to an address outside of the preexisting withdrawal address whitelist.
+- Transferring funds to an address outside of the preexisting withdrawal address whitelist
 
 ###### A.6.1.1.1.3.8.2.7.2 - Address Whitelist [Core]  <!-- UUID: 8787ecfc-d1f5-45fa-a261-c0ff12a20538 -->
 
@@ -27917,7 +27917,7 @@ Signers may be sourced from any of the following entities: Spark Asset Foundatio
 
 ###### A.6.1.1.1.3.8.2.7.4 - Transfers [Core]  <!-- UUID: 28517c27-b028-4b7a-9fea-6a70ae706468 -->
 
-Funds may be transferred to a collateral agent or whitelisted address only after Spark Assets Foundation confirmation that all required steps prior to loan disbursement have been completed.
+Funds may be transferred to a collateral agent or whitelisted address only after Spark Asset Foundation confirmation that all required steps prior to loan disbursement have been completed.
 
 Funds may be transferred to the designated address(es) provided by the custodian or collateral manager for the payment of custody or collateral management service fees as permitted by governance-approved arrangements and upon receipt of a valid invoice.
 
