@@ -19366,17 +19366,37 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.11.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document](3c4cfb29-1579-4abe-a17b-5b5574972b73).
 
+###### A.6.1.1.1.2.6.1.1.2.1.14 - Paxos [Core]  <!-- UUID: c6e67244-8bdc-487a-b5bf-61025f623d22 -->
+
+The Ethereum Mainnet Instances Directory of Paxos with `Active` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.2.1.14.1 - Ethereum Mainnet - Paxos Transfer USDC to Paxos (receive PYUSD) Instance Configuration Document Location [Core]  <!-- UUID: 65702dc0-78d3-4d0e-84bc-0d642fb42e73 -->
+
+This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Transfer USDC to Paxos (receive PYUSD) Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.12.1](efc57615-b3ac-4122-8fd3-6a8d68ce71a1).
+
+###### A.6.1.1.1.2.6.1.1.2.1.14.2 - Ethereum Mainnet - Paxos Transfer PYUSD to Paxos (receive USDC) Instance Configuration Document Location [Core]  <!-- UUID: 0a76cc35-3c37-421f-b123-e325cb581189 -->
+
+This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Transfer PYUSD to Paxos (receive USDC) Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.12.2](28544284-0ee1-49da-a27f-b13dba9b5842).
+
+###### A.6.1.1.1.2.6.1.1.2.1.14.3 - Ethereum Mainnet - Paxos Transfer PYUSD to Paxos (receive USDG) Instance Configuration Document Location [Core]  <!-- UUID: 5fdf2214-5345-4ca2-9fd6-b71981a438d9 -->
+
+This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Transfer PYUSD to Paxos (receive USDG) Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.12.3](f6b739d1-c637-48f8-abf7-8c8f173bb392).
+
+###### A.6.1.1.1.2.6.1.1.2.1.14.4 - Ethereum Mainnet - Paxos Transfer USDG to Paxos (receive PYUSD) Instance Configuration Document Location [Core]  <!-- UUID: 60055026-14c1-41ab-99ba-be28acbb4c1c -->
+
+This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Transfer USDG to Paxos (receive PYUSD) Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.12.4](bef47e5b-5568-4df4-9294-2eb108a006c6).
+
 ###### A.6.1.1.1.2.6.1.1.2.1.14 - Anchorage [Core]  <!-- UUID: 3e5b044d-1aeb-4664-bfb3-16fa613e0df7 -->
 
 The Ethereum Mainnet Instances Directory of Anchorage with `Active` Status are stored herein.
 
 ###### A.6.1.1.1.2.6.1.1.2.1.14.1 - Ethereum Mainnet - Anchorage USAT Instance Configuration Document Location [Core]  <!-- UUID: 0793bcc1-4b69-437d-bbf3-38e1ac6d29b6 -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.12.1 - Ethereum Mainnet - Anchorage USAT Instance Configuration Document](8048e396-7bb4-4541-a68f-6dd7ec0a6015).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.13.1 - Ethereum Mainnet - Anchorage USAT Instance Configuration Document](8048e396-7bb4-4541-a68f-6dd7ec0a6015).
 
 ###### A.6.1.1.1.2.6.1.1.2.1.14.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document Location [Core]  <!-- UUID: 905c5726-8d51-4bf3-80c7-2b4f48bf66cd -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.12.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document](4eee15e5-46e2-4438-8299-6c85c46bb85b).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.13.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document](4eee15e5-46e2-4438-8299-6c85c46bb85b).
 
 ###### A.6.1.1.1.2.6.1.1.2.2 - Base [Core]  <!-- UUID: 305a6351-bb16-4e4d-8912-7ef1c3ff26bb -->
 
@@ -24330,137 +24350,423 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
-###### A.6.1.1.1.2.6.1.3.1.12 - Anchorage [Core]  <!-- UUID: 1565129f-7249-4f5b-babb-7f81d33eff13 -->
+###### A.6.1.1.1.2.6.1.3.1.12 - Paxos [Core]  <!-- UUID: e01f0c20-5d3d-4ca4-ac9e-0a1e51780b19 -->
 
-The Ethereum Mainnet Instances of the Anchorage Protocol with `Active` Status are stored herein.
+The Ethereum Mainnet Instances of the Paxos Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.3.1.12.1 - Ethereum Mainnet - Anchorage USAT Instance Configuration Document [Core]  <!-- UUID: 8048e396-7bb4-4541-a68f-6dd7ec0a6015 -->
+###### A.6.1.1.1.2.6.1.3.1.12.1 - Ethereum Mainnet - Transfer USDC to Paxos (receive PYUSD) Instance Configuration Document [Core]  <!-- UUID: efc57615-b3ac-4122-8fd3-6a8d68ce71a1 -->
 
-The documents herein contain the Instance Configuration Document for the Anchorage USAT Instance.
+The documents herein contain the Instance Configuration Document for the Transfer USDC to Paxos (receive PYUSD) Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: eff5d00f-b831-417f-8cb9-a9edfaccbbcd -->
+###### A.6.1.1.1.2.6.1.3.1.12.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: c9d05c8a-7e78-45f6-8422-64793b739434 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.2 - Parameters [Core]  <!-- UUID: 78067cd5-bd11-47eb-bdf7-947038912cfa -->
+###### A.6.1.1.1.2.6.1.3.1.12.1.2 - Parameters [Core]  <!-- UUID: 99c9d288-1fd2-4608-b38e-085d40c12ce1 -->
 
-The documents herein define the parameters of the Anchorage USAT Instance of the Allocation System Primitive.
+The documents herein define the parameters of the Transfer USDC to Paxos (receive PYUSD) of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 65214651-962d-442b-99f1-dd1157a77c86 -->
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.1 - Instance Identifiers [Core]  <!-- UUID: f8220beb-0c4c-420f-b7d5-9dc7f86ca84b -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.2.1.1 - Network [Core]  <!-- UUID: 83f14764-63d8-4908-ac4e-ac7a46f37cac -->
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.1.1 - Network [Core]  <!-- UUID: b4acd29e-a541-4cd4-9df0-520ea85633ad -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 882a4a15-b9e8-4ebe-b800-410cddc87ab1 -->
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 32c4f476-cbe3-4871-a63b-5501a17e3a0d -->
 
-Anchorage
+Paxos
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: db820c09-0b14-45ea-8367-d7a301718fb9 -->
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 9fe5aafe-b11c-4d00-9e4c-87d7a1903beb -->
 
-USAT
+USDC
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.2.1.4 - Token [Core]  <!-- UUID: ac45e6ad-5076-4fed-8805-d48593e41778 -->
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.1.4 - Token to Receive [Core]  <!-- UUID: eb7e08a0-9fc6-48f8-97c4-eeace222f34c -->
 
-USAT
+PYUSD
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.2.2 - Contract Addresses [Core]  <!-- UUID: b9b80a90-766b-424b-b56d-334cacee4dd2 -->
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.2 - Contract Addresses [Core]  <!-- UUID: 48ec53db-6ca2-4cdb-90bd-3860116bc551 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.2.2.1 - Token Address [Core]  <!-- UUID: cca5bcb2-eb4a-429a-b10c-a55c7c6bb683 -->
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.2.1 - Token Address [Core]  <!-- UUID: 78ba019c-013f-4352-8208-a273d15fa1e2 -->
 
-`0x07041776f5007aca2a54844f50503a18a72a8b68`
+`0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48`
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.2.2.2 - Destination Address [Core]  <!-- UUID: 5396d5c2-6f79-4ab2-8978-61dc6209a00c -->
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 78c62b61-6ccc-42d0-9232-6e66c8d8a26f -->
 
-`0x49506C3Aa028693458d6eE816b2EC28522946872`
+`0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48`
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: a7508ca1-0132-4a94-9efd-2288a30c3220 -->
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.2.3 - Paxos Deposit Address [Core]  <!-- UUID: c631c210-451e-4149-b375-c9e5105df0d5 -->
+
+`0xFb1F749024b4544c425f5CAf6641959da31EdF37`
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 3b67cada-07bb-4e5c-b0ab-84ddbe515d19 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.2.4 - Rate Limits [Core]  <!-- UUID: 132f9c53-0f2d-4e0a-9adb-649eadf9d95f -->
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.4 - Rate Limits [Core]  <!-- UUID: bd104480-24d4-4fb1-a8f0-13e5c04a2c18 -->
+
+The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 66f2a388-119c-4908-9ff7-f38190e9566d -->
+
+The transferAssets rate limits are:
+
+- `maxAmount`: 5,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 51453e8e-19c2-45e1-95e3-88ce99e9c80f -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 9acd91e4-2705-42d9-a72a-b6e3cd0f6855 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2 - Ethereum Mainnet - Transfer PYUSD to Paxos (receive USDC) Instance Configuration Document [Core]  <!-- UUID: 28544284-0ee1-49da-a27f-b13dba9b5842 -->
+
+The documents herein contain the Instance Configuration Document for the Transfer PYUSD to Paxos (receive USDC) Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 253039f6-e11e-4356-9ee2-bcc87603e23c -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2 - Parameters [Core]  <!-- UUID: e156bb45-006d-4341-b9a0-d8dd39be06fd -->
+
+The documents herein define the parameters of the Transfer PYUSD to Paxos (receive USDC) of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 435d5c6e-32ed-43ea-8419-9d20cf998aed -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.1 - Network [Core]  <!-- UUID: 1b33f32e-7133-478c-a053-bb3aa3d4ec91 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.2 - Target Protocol [Core]  <!-- UUID: f07a80ae-654b-484e-8ccf-d2abd235a1a5 -->
+
+Paxos
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 06daf347-26de-45c6-844b-9894c09d16cc -->
+
+PYUSD
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.4 - Token to Receive [Core]  <!-- UUID: 933af4c1-32da-4b82-a1db-138e838b3377 -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.2 - Contract Addresses [Core]  <!-- UUID: 7cfef7de-2859-48fb-9436-46017ecefc9a -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.2.1 - Token Address [Core]  <!-- UUID: c95f4d5b-a056-40ef-bf18-c5753c6f7182 -->
+
+`0x6c3ea9036406852006290770bedfcaba0e23a0e8`
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 29802d42-1ddd-4c89-9e01-167abc1e5df7 -->
+
+`0x6c3ea9036406852006290770bedfcaba0e23a0e8`
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.2.3 - Paxos Deposit Address [Core]  <!-- UUID: 4377a68b-2bc0-4c7b-96e6-e7d5c6527bd9 -->
+
+`0x2f7BE67e11A4D621E36f1A8371b0a5Fe16dE6B20`
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: cd38213e-84bf-4a72-8f14-9c803c721e19 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.4 - Rate Limits [Core]  <!-- UUID: ad179de7-3167-476d-ae82-36fb715ec68f -->
+
+The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 1f64320b-feca-4059-95d3-f73950382031 -->
+
+The transferAssets rate limits are:
+
+- `maxAmount`: 5,000,000 PYUSD
+- `slope`: 200,000,000 PYUSD per day
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 880763c4-9474-41e4-bd59-2afb8796ab8b -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: ae19bb92-fec6-4939-83ed-43154b8db004 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+
+###### A.6.1.1.1.2.6.1.3.1.12.3 - Ethereum Mainnet - Transfer PYUSD to Paxos (receive USDG) Instance Configuration Document [Core]  <!-- UUID: f6b739d1-c637-48f8-abf7-8c8f173bb392 -->
+
+The documents herein contain the Instance Configuration Document for the Transfer PYUSD to Paxos (receive USDG) Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 4010a8e3-6ef1-4ad1-ad18-46c8e6de8e6a -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.2 - Parameters [Core]  <!-- UUID: d60d90db-4847-4c3a-b0c1-337cb0364350 -->
+
+The documents herein define the parameters of the Transfer PYUSD to Paxos (receive USDG) of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.2.1 - Instance Identifiers [Core]  <!-- UUID: 539c956e-f77b-48cc-9ebf-e875178bf97a -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.2.1.1 - Network [Core]  <!-- UUID: 9ba2f854-f17a-4f66-8bd6-75da9633b032 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.2.1.2 - Target Protocol [Core]  <!-- UUID: 94488493-0093-4f6d-979a-45194be5465c -->
+
+Paxos
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: f4d4b3b4-e720-4047-8b52-e08dd377ece0 -->
+
+PYUSD
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.2.1.4 - Token to Receive [Core]  <!-- UUID: bd9ef5f1-01ec-476e-82f0-00790a80c63b -->
+
+USDG
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.2.2 - Contract Addresses [Core]  <!-- UUID: 7faea6c2-408d-42c4-8be0-bdd712211562 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.2.2.1 - Token Address [Core]  <!-- UUID: 51c7e0ae-a2b2-4e0b-a9bf-6b7c6acb58e3 -->
+
+`0x6c3ea9036406852006290770bedfcaba0e23a0e8`
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 9951f14e-9d5e-489a-8479-de33afd6c1c4 -->
+
+`0x6c3ea9036406852006290770bedfcaba0e23a0e8`
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.2.2.3 - Paxos Deposit Address [Core]  <!-- UUID: d30c73f2-c1dc-4ae1-91a0-f8f1061d80d1 -->
+
+`0x227B1912C2fFE1353EA3A603F1C05F030Cc262Ff`
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: c0f6ad05-ec97-4464-9627-82b14035bc17 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.2.4 - Rate Limits [Core]  <!-- UUID: 0d22ec04-8742-49d5-a285-3668ce6d4947 -->
+
+The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: eb39ef45-405a-46d5-acac-c0ecc47b7ea2 -->
+
+The transferAssets rate limits are:
+
+- `maxAmount`: 5,000,000 PYUSD
+- `slope`: 50,000,000 PYUSD per day
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 58faa1d1-96fb-44cd-8902-81a48cf7d2a8 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.12.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: f9be22e8-f6dd-4b99-9821-17cc1f251be9 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+
+###### A.6.1.1.1.2.6.1.3.1.12.4 - Ethereum Mainnet - Transfer USDG to Paxos (receive PYUSD) Instance Configuration Document [Core]  <!-- UUID: bef47e5b-5568-4df4-9294-2eb108a006c6 -->
+
+The documents herein contain the Instance Configuration Document for the Transfer USDG to Paxos (receive PYUSD) Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 1154efd4-1d7f-4cf2-8d6a-09bdde842827 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.2 - Parameters [Core]  <!-- UUID: bc5c8128-8fbf-428c-a90a-34afb7cf2107 -->
+
+The documents herein define the parameters of the Transfer USDG to Paxos (receive PYUSD) of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.2.1 - Instance Identifiers [Core]  <!-- UUID: 5268a2a0-1dc1-442c-a3ee-64eb6c91fdbb -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.2.1.1 - Network [Core]  <!-- UUID: 0df49dfc-3125-4b9c-8b5e-95d8036cb1f7 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.2.1.2 - Target Protocol [Core]  <!-- UUID: 47d5f804-35a8-4016-b816-1066c75c1914 -->
+
+Paxos
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 61bc115a-5433-44d3-b86b-e5991fe2f077 -->
+
+USDG
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.2.1.4 - Token to Receive [Core]  <!-- UUID: 4aa26757-47fd-4cc3-845e-d0d1b8487182 -->
+
+PYUSD
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.2.2 - Contract Addresses [Core]  <!-- UUID: f16deb9b-1cba-4178-9fea-b228862c9cc4 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.2.2.1 - Token Address [Core]  <!-- UUID: b3f52d1f-e089-4f99-b597-71e310cee76f -->
+
+`0xe343167631d89B6Ffc58B88d6b7fB0228795491D`
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: cb6e5759-1db7-4287-afec-612348ee545b -->
+
+`0xe343167631d89B6Ffc58B88d6b7fB0228795491D`
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.2.2.3 - Paxos Deposit Address [Core]  <!-- UUID: 61d68d4e-dc31-4f29-9d69-7d2839b79b59 -->
+
+`0x035b322D0e79de7c8733CdDA5a7EF8b51a6cfcfa`
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: 18f1f756-3755-4875-8c2f-a93be31bb8fa -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.2.4 - Rate Limits [Core]  <!-- UUID: ffbfbbf7-8de6-47b8-aa8d-052e8273f33e -->
+
+The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 22e01de3-379b-4724-9ff6-136937c002d2 -->
+
+The transferAssets rate limits are:
+
+- `maxAmount`: 5,000,000 USDG
+- `slope`: 100,000,000 USDG per day
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: c8887b5e-fb8f-4364-bc4d-715a5393fbb3 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.12.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 56e556cc-0401-4cbd-9bda-8fea5d921f6d -->
+
+###### A.6.1.1.1.2.6.1.3.1.13 - Anchorage [Core]  <!-- UUID: 1565129f-7249-4f5b-babb-7f81d33eff13 -->
+
+The Ethereum Mainnet Instances of the Anchorage Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.3.1.13.1 - Ethereum Mainnet - Anchorage USAT Instance Configuration Document [Core]  <!-- UUID: 8048e396-7bb4-4541-a68f-6dd7ec0a6015 -->
+
+The documents herein contain the Instance Configuration Document for the Anchorage USAT Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.13.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: eff5d00f-b831-417f-8cb9-a9edfaccbbcd -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.13.1.2 - Parameters [Core]  <!-- UUID: 78067cd5-bd11-47eb-bdf7-947038912cfa -->
+
+The documents herein define the parameters of the Anchorage USAT Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.13.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 65214651-962d-442b-99f1-dd1157a77c86 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.13.1.2.1.1 - Network [Core]  <!-- UUID: 83f14764-63d8-4908-ac4e-ac7a46f37cac -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.13.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 882a4a15-b9e8-4ebe-b800-410cddc87ab1 -->
+
+Anchorage
+
+###### A.6.1.1.1.2.6.1.3.1.13.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: db820c09-0b14-45ea-8367-d7a301718fb9 -->
+
+USAT
+
+###### A.6.1.1.1.2.6.1.3.1.13.1.2.1.4 - Token [Core]  <!-- UUID: ac45e6ad-5076-4fed-8805-d48593e41778 -->
+
+USAT
+
+###### A.6.1.1.1.2.6.1.3.1.13.1.2.2 - Contract Addresses [Core]  <!-- UUID: b9b80a90-766b-424b-b56d-334cacee4dd2 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.13.1.2.2.1 - Token Address [Core]  <!-- UUID: cca5bcb2-eb4a-429a-b10c-a55c7c6bb683 -->
+
+`0x07041776f5007aca2a54844f50503a18a72a8b68`
+
+###### A.6.1.1.1.2.6.1.3.1.13.1.2.2.2 - Destination Address [Core]  <!-- UUID: 5396d5c2-6f79-4ab2-8978-61dc6209a00c -->
+
+`0x49506C3Aa028693458d6eE816b2EC28522946872`
+
+###### A.6.1.1.1.2.6.1.3.1.13.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: a7508ca1-0132-4a94-9efd-2288a30c3220 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.13.1.2.4 - Rate Limits [Core]  <!-- UUID: 132f9c53-0f2d-4e0a-9adb-649eadf9d95f -->
 
 The current `maxAmount` and `slope` for this conduit’s transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 4093b98b-2421-4642-982b-8c08b2f5ef20 -->
+###### A.6.1.1.1.2.6.1.3.1.13.1.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 4093b98b-2421-4642-982b-8c08b2f5ef20 -->
 
 - `maxAmount`: 5,000,000 USAT
 - `slope`: 250,000,000 USAT per day
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 069aa415-4d37-4567-b7da-bda62e4d0423 -->
+###### A.6.1.1.1.2.6.1.3.1.13.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 069aa415-4d37-4567-b7da-bda62e4d0423 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 98759dcc-8bb4-459a-b020-d46a02b038ec -->
+###### A.6.1.1.1.2.6.1.3.1.13.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 98759dcc-8bb4-459a-b020-d46a02b038ec -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
-###### A.6.1.1.1.2.6.1.3.1.12.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document [Core]  <!-- UUID: 4eee15e5-46e2-4438-8299-6c85c46bb85b -->
+###### A.6.1.1.1.2.6.1.3.1.13.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document [Core]  <!-- UUID: 4eee15e5-46e2-4438-8299-6c85c46bb85b -->
 
 The documents herein contain the Instance Configuration Document for the Anchorage USDT Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 54ce1edc-9556-4103-bb4d-0b45efcdbb43 -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 54ce1edc-9556-4103-bb4d-0b45efcdbb43 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2 - Parameters [Core]  <!-- UUID: 7b07774c-4cda-4866-bc4e-7e469a685f5e -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.2 - Parameters [Core]  <!-- UUID: 7b07774c-4cda-4866-bc4e-7e469a685f5e -->
 
 The documents herein define the parameters of the Anchorage USDT Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.1 - Instance Identifiers [Core]  <!-- UUID: afa6a7e4-fbeb-4138-9220-91c023203ce5 -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.2.1 - Instance Identifiers [Core]  <!-- UUID: afa6a7e4-fbeb-4138-9220-91c023203ce5 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.1 - Network [Core]  <!-- UUID: e0febf90-ab83-4b7f-9bea-dc037c1b96c0 -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.2.1.1 - Network [Core]  <!-- UUID: e0febf90-ab83-4b7f-9bea-dc037c1b96c0 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.2 - Target Protocol [Core]  <!-- UUID: b8aed139-8a1a-467f-acf4-877d42516e87 -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.2.1.2 - Target Protocol [Core]  <!-- UUID: b8aed139-8a1a-467f-acf4-877d42516e87 -->
 
 Anchorage
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: f993b46b-291c-45a1-a369-27c37e7bfddd -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: f993b46b-291c-45a1-a369-27c37e7bfddd -->
 
 USDT
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.4 - Token [Core]  <!-- UUID: 00f2dded-9e35-4af8-9ac4-c706737540ac -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.2.1.4 - Token [Core]  <!-- UUID: 00f2dded-9e35-4af8-9ac4-c706737540ac -->
 
 USDT
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.2 - Contract Addresses [Core]  <!-- UUID: 30bc6650-5589-443b-ae3a-1b86d463e05b -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.2.2 - Contract Addresses [Core]  <!-- UUID: 30bc6650-5589-443b-ae3a-1b86d463e05b -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.2.1 - Token Address [Core]  <!-- UUID: c9ef9947-ee35-416c-bb6d-30d1fea15d3f -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.2.2.1 - Token Address [Core]  <!-- UUID: c9ef9947-ee35-416c-bb6d-30d1fea15d3f -->
 
 `0xdAC17F958D2ee523a2206206994597C13D831ec7`
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.2.2 - Destination Address [Core]  <!-- UUID: f5b05cdd-1aef-4b02-beda-99a2e3a69015 -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.2.2.2 - Destination Address [Core]  <!-- UUID: f5b05cdd-1aef-4b02-beda-99a2e3a69015 -->
 
 `0x49506C3Aa028693458d6eE816b2EC28522946872`
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 435ca83e-fbd7-4ace-866d-8ffc9388118c -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 435ca83e-fbd7-4ace-866d-8ffc9388118c -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.4 - Rate Limits [Core]  <!-- UUID: b494026e-d3bc-4122-bac3-98ea1d7436b0 -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.2.4 - Rate Limits [Core]  <!-- UUID: b494026e-d3bc-4122-bac3-98ea1d7436b0 -->
 
 The current `maxAmount` and `slope` for this conduit’s transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 5a56203b-5c1b-42e8-9acb-8ab78eb4dc06 -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 5a56203b-5c1b-42e8-9acb-8ab78eb4dc06 -->
 
 - `maxAmount`: 5,000,000 USDT
 - `slope`: 250,000,000 USDT per day
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1ec11acd-b8fe-4310-b1ba-6e57c9c27fd3 -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1ec11acd-b8fe-4310-b1ba-6e57c9c27fd3 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1c69d51a-f202-4e17-99cd-dd29a046e2a5 -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1c69d51a-f202-4e17-99cd-dd29a046e2a5 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
