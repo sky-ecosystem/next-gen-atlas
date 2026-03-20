@@ -1,0 +1,13 @@
+{
+    "config": {
+        "default": true,
+        "MD013": false,
+        "MD025": false,
+        "MD060": false,
+        "MD007": { "indent": 4 },
+        "no-unicode-list-markers": true
+    },
+    "customRules": [
+        "./.markdownlint-rules/no-unicode-list-markers.js"
+    ]
+}
