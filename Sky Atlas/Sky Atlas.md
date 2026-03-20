@@ -26447,16 +26447,16 @@ The SPK contributor vesting is a 4-year linear vesting schedule that compensates
 The current SPK contributor vesting parameters are:
 
 - DssVest
-  - Recipient address(es): to be provided when available
+  - Recipient address(es): `0xEFF097C5CC7F63e9537188FE381D1360158c1511`
   - Start date: 17 June 2025
   - Cliff date: 17 June 2026
-  - End date: 17 June 2029
+  - End date: 16 June 2029
   - Vesting method: Linear per block with cliff
   - Claim auth: Permissionless
 - SubDAO Proxy actions
   - Approve SPK
-  - Address: DssVest contract address to be provided when available
-  - Amount: 1.2 billion SPK (12% of total supply)
+    - Address: `0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09`
+    - Amount: 1.2 billion SPK (12% of total supply)
 
 ###### A.6.1.1.1.3.5 - Spark Savings Configuration [Core]  <!-- UUID: 9b4ce799-3baa-42e8-a742-7e8deb377dfc -->
 
