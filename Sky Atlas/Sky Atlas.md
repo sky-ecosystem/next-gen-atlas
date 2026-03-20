@@ -20809,6 +20809,7 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are 
 ###### A.6.1.1.1.2.6.1.3.1.1.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 4a4f3cb4-fc31-4901-b684-c26234dca7bb -->
 
 The inflow rate limits are:
+
 - `maxAmount`: 250,000,000 USDT
 - `slope`: 2,000,000,000 USDT per day
 
@@ -21425,6 +21426,7 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are 
 ###### A.6.1.1.1.2.6.1.3.1.2.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 42c4a115-4fed-4d24-a260-d86dc2a71bea -->
 
 The inflow rate limits are:
+
 - `maxAmount`: 10,000,000 USDT
 - `slope`: 1,000,000,000 USDT per day
 
@@ -21660,6 +21662,7 @@ The current `maxAmount` and `slope` for this conduit's inflow/outflow are de
 ###### A.6.1.1.1.2.6.1.3.1.3.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9bf306d1-bc24-4214-9799-53a00ab04ab5 -->
 
 The inflow rate limits are:
+
 - `maxAmount`: 25,000,000 USDT
 - `slope`: 100,000,000 USDT per day
 
@@ -23156,12 +23159,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 0c654529-b8b7-4071-bc72-5eee02d295c9 -->
 
 The inflow rate limits are:
+
 - `maxAmount`: 50,000,000 USDT
 - `slope`: 1,000,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6dab7518-caa3-4339-a573-718675fe19ee -->
 
 The outflow rate limits are:
+
 - `maxAmount`: unlimited
 - `slope`: unlimited
 
@@ -26787,8 +26792,8 @@ The current pyUSD cap automator parameters are:
 ###### A.6.1.1.1.3.2.1.1.3.3 - SparkLend Cap Automator Authorized Parties [Core]  <!-- UUID: e58645fb-0085-4ea2-aba5-c4b5968038b8 -->
 
 The SparkLend Cap Automator can be triggered by any of the authorized parties below:
-- `0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178` (ALM Proxy Freezable)
 
+- `0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178` (ALM Proxy Freezable)
 
 ###### A.6.1.1.1.3.2.1.1.3.4 - SparkLend Cap Automator Version [Core]  <!-- UUID: 2b17cf11-f0e3-4118-bbac-6a8458b4f70a -->
 
