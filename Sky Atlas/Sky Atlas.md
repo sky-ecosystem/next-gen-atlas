@@ -15587,7 +15587,7 @@ Current WBTC-A parameters are:
 - DC-IAM `gap`: 4,000,000 Dai,
 - DC-IAM `ttl`: 86,400 seconds,
 - `cut`: 99.00%,
- `step`: 90 seconds,
+- `step`: 90 seconds,
 - `buf`: 110.00%,
 - `cusp`: 45.00%,
 - `tail`: 7,200 seconds,
