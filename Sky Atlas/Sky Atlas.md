@@ -11495,6 +11495,14 @@ Funds from the Pre-Pioneer Incentive Pool wallet may be used to incentivize part
 
 In the short term before the implementation of the Senior Risk Capital system, Sky will provide Keel with 7.5 million USDS of Senior Risk Capital. See [A.3.2.2.4.5 - Short Term Transitionary Measures](d33ac81e-bab1-4969-b46d-e605da2afae3). This Senior Risk Capital will not be transferred by Sky to Keel's SubProxy Account; instead, it will be credited towards Keel's Total Risk Capital. See [A.3.2.1.2 - Total Risk Capital](be7589f5-32c0-42d2-8d10-38bceb1de28b).
 
+###### A.2.8.2.3.2.4 - Tokenomics [Core]  <!-- UUID: b0de2330-3678-4852-8c24-ce85445201a7 -->
+
+The tokenomics for Keel will be specified in a future iteration of the Atlas.
+
+###### A.2.8.2.3.2.5 - Genesis Capital Allocation [Core]  <!-- UUID: 7df88d38-679b-42a2-a8a8-f798ac6a736b -->
+
+The Genesis Capital Allocation for Keel is 10,000,000 USDS. The transfer of the Genesis Capital Allocation to Keel will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll. The address of Keel's SubProxy account is specified in [A.6.1.1.3.2.1.1.3.1.1.2 - SubProxy Account](2d5f052a-e32a-472c-884f-4fd8746e0459).
+
 #### A.2.8.2.4 - Ecosystem Accord 4: Sky And Obex [Core]  <!-- UUID: 6bddc5aa-ac80-43d8-b8c8-8cde14e896df -->
 
 The subdocuments herein record the terms of agreement between Sky and Obex as agreed in Ecosystem Accord 4.
@@ -11661,7 +11669,7 @@ The address of the Launch Agent 6 Foundation on the Ethereum Mainnet is `0xfDD05
 
 ###### A.2.8.2.6.2.2.2.2 - Transfer Of Genesis Capital Allocation To Launch Agent 6 SubProxy [Core]  <!-- UUID: 65638659-eb0d-4e5c-87e8-50705e3595b8 -->
 
-The transfer of 10,000,000 USDS from the Surplus Buffer to the Launch Agent 6 SubProxy for the Genesis Capital Allocation will be included in a future Executive Vote. This action is contingent on mutual agreement by Sky and Launch Agent 6 on a future iteration of this agreement specifying the terms and conditions of the Genesis Capital Allocation.
+The transfer of 10,000,000 USDS from the Surplus Buffer to the Launch Agent 6 SubProxy for the Genesis Capital Allocation will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll. The address of Launch Agent 6's SubProxy account is `0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`.
 
 #### A.2.8.2.7 - Ecosystem Accord 7: Sky and Skybase [Core]  <!-- UUID: 8a74919c-d9c1-4d9a-9499-302201f96f9c -->
 
@@ -11736,6 +11744,86 @@ This action is authorized to proceed directly to an Executive Vote without a pri
 The transfer of 5,000,000 USDS from the Surplus Buffer to the USDS Demand Subsidies Multisig (see [A.6.1.1.4.3.4.2 - USDS Demand Subsidies Multisig](20ee784c-115a-40bb-ae74-d4b3726b0c1b)) for the Genesis Capital Allocation will be included in the January 29, 2026 Executive Vote.
 
 This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+
+#### A.2.8.2.8 - Ecosystem Accord 8: Sky And Amatsu [Core]  <!-- UUID: 9d187ae2-1106-4b43-a6a6-ff54c329d0da -->
+
+The subdocuments herein record the terms of agreement between Sky and Amatsu as agreed in Ecosystem Accord 8.
+
+##### A.2.8.2.8.1 - Accord Key Details [Core]  <!-- UUID: 7b53595c-b29f-40b4-8098-21949ed4f6e4 -->
+
+The subdocuments herein set out the key details of Ecosystem Accord 8, such as parties to the agreement and the duration of the Accord.
+
+###### A.2.8.2.8.1.1 - Parties To The Accord [Core]  <!-- UUID: 511d2f27-51f4-48bb-b147-cfbb81a05096 -->
+
+The parties to Ecosystem Accord 8 are Sky and Amatsu, as defined in the subdocuments herein.
+
+###### A.2.8.2.8.1.1.1 - Sky Details [Core]  <!-- UUID: fa3bcebb-38a6-4541-8349-e07166fb4d81 -->
+
+The party 'Sky' comprises Sky Core.
+
+###### A.2.8.2.8.1.1.2 - Amatsu Details [Core]  <!-- UUID: cef53b14-d230-4f10-a482-0fbacdf3d3bc -->
+
+The party 'Amatsu' comprises the Amatsu Executor Agent.
+
+###### A.2.8.2.8.1.2 - Duration Of The Accord [Core]  <!-- UUID: 918ce6f7-dd4b-419d-8a5c-92fb595b0ec1 -->
+
+The duration of Ecosystem Accord 8 is indefinite, commencing from March 19, 2026.
+
+##### A.2.8.2.8.2 - Accord Substantive Terms [Core]  <!-- UUID: d6624ff1-e50e-4a56-b1c4-2f24af3cb34e -->
+
+The subdocuments herein set out the substantive terms of Ecosystem Accord 8. Additional detail regarding the substantive terms of Ecosystem Accord 8 will be specified in a future iteration of the Atlas, as agreed by the Parties to the Accord.
+
+###### A.2.8.2.8.2.1 - Genesis Capital Allocation [Core]  <!-- UUID: ff5c1b0c-8027-4711-9cc3-a18772c0ba5b -->
+
+The Genesis Capital Allocation for Amatsu is 25,000,000 USDS. The transfer of the Genesis Capital Allocation to Amatsu will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+
+###### A.2.8.2.8.2.1.1 - Amatsu SubProxy Address [Core]  <!-- UUID: fa9d102c-39ad-49ea-a30e-5101c3400313 -->
+
+The address of Amatsu's SubProxy Account will be specified in the Technical Scope Forum Post for the deployment of the SubProxy Account.
+
+###### A.2.8.2.8.2.1.2 - Use Of Genesis Capital [Core]  <!-- UUID: 64bb69a7-6525-44ad-af92-cb7dd400fcc8 -->
+
+The Genesis Capital Allocation will be used to support Amatsu's work in delivering services in the role of Operational Executor Agent for the Sky Ecosystem.
+
+#### A.2.8.2.9 - Ecosystem Accord 9: Sky And Ozone [Core]  <!-- UUID: cb3c159b-46fd-4e85-a6d5-e2ab17977ac8 -->
+
+The subdocuments herein record the terms of agreement between Sky and Ozone as agreed in Ecosystem Accord 9.
+
+##### A.2.8.2.9.1 - Accord Key Details [Core]  <!-- UUID: dbbd6557-ff1e-49e2-951b-1457d290b55f -->
+
+The subdocuments herein set out the key details of Ecosystem Accord 9, such as parties to the agreement and the duration of the Accord.
+
+###### A.2.8.2.9.1.1 - Parties To The Accord [Core]  <!-- UUID: 81a42abc-2494-493e-9698-68a0c712684e -->
+
+The parties to Ecosystem Accord 9 are Sky and Ozone, as defined in the subdocuments herein.
+
+###### A.2.8.2.9.1.1.1 - Sky Details [Core]  <!-- UUID: 12d48429-0536-4efd-aaa2-2ca433498e81 -->
+
+The party 'Sky' comprises Sky Core.
+
+###### A.2.8.2.9.1.1.2 - Ozone Details [Core]  <!-- UUID: 483798e7-9aac-4a93-9e89-52d108be3c55 -->
+
+The party 'Ozone' comprises the Ozone Executor Agent.
+
+###### A.2.8.2.9.1.2 - Duration Of The Accord [Core]  <!-- UUID: 28433341-af4a-435d-8839-0225f515af64 -->
+
+The duration of Ecosystem Accord 9 is indefinite, commencing from March 19, 2026.
+
+##### A.2.8.2.9.2 - Accord Substantive Terms [Core]  <!-- UUID: 91fabe18-fd56-448e-9485-46427647a675 -->
+
+The subdocuments herein set out the substantive terms of Ecosystem Accord 9. Additional detail regarding the substantive terms of Ecosystem Accord 9 will be specified in a future iteration of the Atlas, as agreed by the Parties to the Accord.
+
+###### A.2.8.2.9.2.1 - Genesis Capital Allocation [Core]  <!-- UUID: ee64a5b7-da29-4b14-aaa7-e2f370a37301 -->
+
+The Genesis Capital Allocation for Ozone is 25,000,000 USDS. The transfer of the Genesis Capital Allocation to Ozone will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+
+###### A.2.8.2.9.2.1.1 - Ozone SubProxy Address [Core]  <!-- UUID: 6337ca25-2d6f-4483-9b89-c087138ebabf -->
+
+The address of Ozone's SubProxy Account will be specified in the Technical Scope Forum Post for the deployment of the SubProxy Account.
+
+###### A.2.8.2.9.2.1.2 - Use Of Genesis Capital [Core]  <!-- UUID: 9e7acf02-b30c-47fd-aa6f-bef61dc1210d -->
+
+The Genesis Capital Allocation will be used to fund Ozone's work in supporting the Agents that it serves as the Operational Executor Agent for.
 
 ### A.2.8.0.3.1 - Business Activities - Element Annotation [Annotation]  <!-- UUID: 31df7e2b-184f-428c-9c4f-23fd8054c5d3 -->
 
@@ -14011,6 +14099,7 @@ The following Instance Financial CRRs apply to specific assets listed:
 - STAC on Ethereum Mainnet - 1.6% Instance Financial CRR
 - GACLO-1 on Ethereum Mainnet - 0.85% Instance Financial CRR
 - ACRDX on Plume - 9.99% Instance Financial CRR
+- ACRDX on Ethereum Mainnet - 9.99% Instance Financial CRR
 
 ###### A.3.2.2.1.1.1.5.3.1.1 - Additional Restrictions On Investments In JTRSY And JAAA On Avalanche [Core]  <!-- UUID: 66506235-0e6c-4fa9-8e22-5eb4f19cb330 -->
 
@@ -14020,6 +14109,10 @@ Investments in JTRSY and JAAA on Avalanche are subject to the following addition
 - Each additional deployment of capital into JTRSY or JAAA must be approved by the Core Council Risk Advisor;
 - Until audits of Centrifuge v3 are approved by the Protocol Security Workstream Lead, the Prime must be below a 90% Encumbrance Ratio on a pro forma basis assuming that each additional deployment of capital into JTRSY and JAAA requires 100% Instance Total CRR; and
 - Total investments in JTRSY and JAAA on Avalanche may not exceed 250 million USDS.
+
+###### A.3.2.2.1.1.1.5.3.1.2 - Additional Restrictions On Investments In ACRDX On Plume And Ethereum Mainnet [Core]  <!-- UUID: 8cbfb295-019d-4ac6-af19-1a1fead233b0 -->
+
+Total ACRDX exposure may not increase beyond 50.97 million USDS and should be reduced to zero over time.
 
 ###### A.3.2.2.1.1.1.5.3.2 - Restrictions On Investments On Plume [Core]  <!-- UUID: c5d70220-4797-4df9-8977-4998d4a57888 -->
 
@@ -16617,7 +16710,10 @@ Genesis Agents are Agents that receive capital contributions from Sky, including
 - Keel
 - Skybase
 - Obex
+- Launch Agent 6
 - Core Council Executor Agent 1
+- Amatsu
+- Ozone
 
 ##### A.3.7.1.6.6 - Genesis Capital [Core]  <!-- UUID: 18f3de06-064b-4b08-a855-4720240e37f5 -->
 
@@ -16631,6 +16727,10 @@ The amount of capital contributed by Sky to Agents is:
 - Obex - 21,000,000 USDS
 - Skybase - 15,000,000 USDS
 - Core Council Executor Agent 1 - 25,000,000 USDS
+- Keel - 10,000,000 USDS
+- Launch Agent 6 - 10,500,000 USDS
+- Amatsu - 25,000,000 USDS
+- Ozone - 25,000,000 USDS
 
 # A.4 - The Protocol Scope [Scope]  <!-- UUID: 5c20d9af-0bb9-4ca1-a944-1e2cb6f8bb6b -->
 
@@ -19222,6 +19322,10 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.8.3 - Ethereum Mainnet - Morpho USDC Instance Configuration Document](f3063596-4f85-4a51-b52c-58221d043d3e).
 
+###### A.6.1.1.1.2.6.1.1.2.1.10.4 - Ethereum Mainnet - Morpho USDT Instance Configuration Document Location [Core]  <!-- UUID: 5b70027d-bea1-4899-946f-6a2094a8ca55 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.8.4 - Ethereum Mainnet - Morpho USDT Instance Configuration Document](a2f66f86-ddea-4260-820a-cde66a861413).
+
 ###### A.6.1.1.1.2.6.1.1.2.1.11 - Spark Savings V2 [Core]  <!-- UUID: e59ca947-aa8d-4ab7-84b1-78422348a2d5 -->
 
 The Ethereum Mainnet Instances Directory of the Spark Savings v2 with `Active` Status are stored herein.
@@ -19408,7 +19512,7 @@ The address of the ALM_CONTROLLER (MainnetController) contract is: `0x577Fa18a49
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.2 - ALM Controller (MainnetController) Contract Version [Core]  <!-- UUID: d7b0b6a0-0bac-4169-a006-4a375cba4baa -->
 
-The ALM_CONTROLLER (MainnetController) contract version is: 1.9
+The ALM_CONTROLLER (MainnetController) contract version is: 1.10
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.3 - ALM Freezer Multisig (Mainnet) Address [Core]  <!-- UUID: 8d6c5c86-4b70-4115-b712-65106416aa77 -->
 
@@ -21140,8 +21244,8 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are 
 ###### A.6.1.1.1.2.6.1.3.1.1.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 4a4f3cb4-fc31-4901-b684-c26234dca7bb -->
 
 The inflow rate limits are:
-- `maxAmount`: 100,000,000 USDT
-- `slope`: 200,000,000 USDT per day
+- `maxAmount`: 250,000,000 USDT
+- `slope`: 2,000,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.1.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: dadcd267-a47c-4bc0-9216-98369b470b72 -->
 
@@ -21745,8 +21849,8 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are 
 ###### A.6.1.1.1.2.6.1.3.1.2.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 42c4a115-4fed-4d24-a260-d86dc2a71bea -->
 
 The inflow rate limits are:
-- `maxAmount`: 50,000,000 USDC
-- `slope`: 25,000,000 USDC per day
+- `maxAmount`: 10,000,000 USDT
+- `slope`: 1,000,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.2.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: c52a5acc-ef73-4e13-ab15-8c1c1daf12a6 -->
 
@@ -21975,13 +22079,14 @@ The current `maxAmount` and `slope` for this conduit's inflow/outflow are de
 ###### A.6.1.1.1.2.6.1.3.1.3.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9bf306d1-bc24-4214-9799-53a00ab04ab5 -->
 
 The inflow rate limits are:
-- `maxAmount`: 50,000,000 USDT
-- `slope`: 10,000,000 USDT per day
+- `maxAmount`: 25,000,000 USDT
+- `slope`: 100,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.3.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: fc23d5a1-6e97-4e3e-bead-9a41955441c6 -->
 
 The outflow rate limits are:
 - `maxAmount`: Unlimited
+- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.3.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: a9ece9ee-2c12-462e-928e-d1a69b5f83a3 -->
 
@@ -21990,6 +22095,15 @@ The documents herein contain specific off-chain parameters for this Instance.
 ###### A.6.1.1.1.2.6.1.3.1.3.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 3cd39fda-4e26-4f1b-ac32-93d3825a660b -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+
+###### A.6.1.1.1.2.6.1.3.1.3.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 717e595c-d7ff-406e-802b-cb4351858f00 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+
+###### A.6.1.1.1.2.6.1.3.1.3.2.4.1 - Request Redemption Parameters [Core]  <!-- UUID: 34e632af-1fd9-4dbe-be28-633837cdfe67 -->
+
+- `maxAmount`: 50,000,000 USDT
+- `slope`: 500,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.4 - Ethena [Core]  <!-- UUID: b23e9a6b-e78a-486f-9f6e-07cfdb437bee -->
 
@@ -23374,6 +23488,102 @@ The documents herein define the Instance contract addresses.
 `0xf5748bBeFa17505b2F7222B23ae11584932C908B`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.4.2 - Timelock [Core]  <!-- UUID: d2692d99-d52c-4586-8dbe-b23d8f835f29 -->
+
+Timelock: 240 hours (10 days)
+
+###### A.6.1.1.1.2.6.1.3.1.8.4 - Ethereum Mainnet - Morpho USDT Instance Configuration Document [Core]  <!-- UUID: a2f66f86-ddea-4260-820a-cde66a861413 -->
+
+The documents herein contain the Instance Configuration Document for the Morpho USDT Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 0679d377-0d6f-4511-a8a9-2c1fe7b5d78f -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2 - Parameters [Core]  <!-- UUID: 3c749393-8134-4483-ad35-c6820768421f -->
+
+The documents herein define the parameters of the Morpho USDT Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.1 - Instance Identifiers [Core]  <!-- UUID: 077e23e8-fc30-4dc9-8c61-c08f7fe10864 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.1.1 - Network [Core]  <!-- UUID: bea790d6-8b58-45fb-a974-2813284831ee -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.1.2 - Target Protocol [Core]  <!-- UUID: a700da65-026f-4cf7-a1fb-a30cedc10189 -->
+
+Morpho
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 9ecacc4a-fe57-427b-a652-92409b64aef6 -->
+
+USDT
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.1.4 - Token [Core]  <!-- UUID: 46ea2f39-26c6-4ac4-9ee7-baf921d8e86e -->
+
+sparkUSDT
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.2 - Contract Addresses [Core]  <!-- UUID: 1eb8cc31-5d23-4aaa-b99e-b57654c9dbc4 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.2.1 - Token Address [Core]  <!-- UUID: c4629de2-eb51-4661-a4bc-6b955e267f5f -->
+
+`0xc7CDcFDEfC64631ED6799C95e3b110cd42F2bD22`
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: a3ed9893-931b-4d4e-9cf9-35373d1ed005 -->
+
+`0xdac17f958d2ee523a2206206994597c13d831ec7`
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 30cdfa34-7b8d-4280-bda2-ec53940a8093 -->
+
+`0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178`
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: bde22f96-915b-4073-840f-ac0408aa8407 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.4 - Rate Limits [Core]  <!-- UUID: 7eaf8614-3343-4a6b-a637-8a92a7115bbb -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 0c654529-b8b7-4071-bc72-5eee02d295c9 -->
+
+The inflow rate limits are:
+- `maxAmount`: 50,000,000 USDT
+- `slope`: 1,000,000,000 USDT per day
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6dab7518-caa3-4339-a573-718675fe19ee -->
+
+The outflow rate limits are:
+- `maxAmount`: unlimited
+- `slope`: unlimited
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 3bb2d3ac-cdcc-4f25-a03c-71d2d0902582 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 32759a33-f619-4a41-a4fd-fbcdb642a82a -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 06914650-b873-4c39-8389-5c615c64edf7 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1 - Contract Addresses [Core]  <!-- UUID: c481d26c-a4b1-4c76-9031-478bd64a8aca -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.1 - Curator Role Address [Core]  <!-- UUID: e71e777b-b5a8-41bb-8434-97650500467a -->
+
+`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.2 - Guardian Role Address [Core]  <!-- UUID: 6e105430-ea5c-4368-b76f-725c0208afdc -->
+
+`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.2 - Timelock [Core]  <!-- UUID: 62c056de-3136-4faa-bb86-3b348e2e874c -->
 
 Timelock: 240 hours (10 days)
 
@@ -26790,7 +27000,7 @@ The cap automator is defined in terms of three parameters:
 
 3. `max` - the absolute maximum exposure
 
-Any user can permissionlessly update a covered Supply Cap or Borrow Cap so the available exposure is equal to the target, as long as the resulting exposure does not exceed the specified maximum limit and the cooldown period has elapsed in the case of increases to the Supply Cap or Borrow Cap.
+Authorized parties can update a covered Supply Cap or Borrow Cap so the available exposure is equal to the target, as long as the resulting exposure does not exceed the specified maximum limit and the cooldown period has elapsed in the case of increases to the Supply Cap or Borrow Cap.
 
 ###### A.6.1.1.1.3.2.1.1.3.1 - SparkLend Risk Parameters Cap Automator Parameter Definitions [Core]  <!-- UUID: e6bc54e6-91df-4095-a032-0e1128c2cab7 -->
 
@@ -27112,6 +27322,16 @@ The current pyUSD cap automator parameters are:
 
   ◦ `max`: 0 (no cap)
 
+###### A.6.1.1.1.3.2.1.1.3.3 - SparkLend Cap Automator Authorized Parties [Core]  <!-- UUID: e58645fb-0085-4ea2-aba5-c4b5968038b8 -->
+
+The SparkLend Cap Automator can be triggered by any of the authorized parties below:
+
+- `0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178` (ALM Proxy Freezable)
+
+###### A.6.1.1.1.3.2.1.1.3.4 - SparkLend Cap Automator Version [Core]  <!-- UUID: 2b17cf11-f0e3-4118-bbac-6a8458b4f70a -->
+
+The SparkLend Cap Automator Version is: 1.1
+
 ###### A.6.1.1.1.3.2.1.1.4 - SparkLend Risk Parameters Kill Switch [Core]  <!-- UUID: 38329b4f-7666-4f68-ba66-74ebb2e60e13 -->
 
 The kill switch disables all borrowing across SparkLend markets in the event of a depeg on key collateral assets. 
@@ -27124,8 +27344,12 @@ After the kill switch is triggered, markets can be reactivated by Sky Governance
 
 The kill switch currently covers the following assets with the specified thresholds:
 
-- STETH/ETH - 0.95
+- wstETH/ETH - 0.95
 - LBTC/BTC - 0.95
+- weETH/ETH - 0.95
+- rETH/ETH - 0.95
+- cbBTC/BTC - 0.95
+- WBTC/BTC - 0.95
 
 ###### A.6.1.1.1.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: e547484b-1388-4cc2-a03f-971b96c341bd -->
 
@@ -27388,6 +27612,30 @@ The current buyback policy parameters are:
 - Buyback executor: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC
 - Buyback recipient: 0x3300f198988e4C9C63F75dF86De36421f06af8c4
 
+###### A.6.1.1.1.3.4.2.4 - SPK Contributor Vesting [Core]  <!-- UUID: 3b2d9368-7dd5-424a-b9da-b6218ffb5c55 -->
+
+The documents herein define Spark’s policy for managing the SPK contributor vesting.
+
+###### A.6.1.1.1.3.4.2.4.1 - Definition [Core]  <!-- UUID: 318b9af4-5b49-41f1-b134-dd2133eafca8 -->
+
+The SPK contributor vesting is a 4-year linear vesting schedule that compensates Spark contributors.
+
+###### A.6.1.1.1.3.4.2.4.2 - Parameters [Core]  <!-- UUID: 0921d2d9-0270-40ab-bfad-726d3bcd345d -->
+
+The current SPK contributor vesting parameters are:
+
+- DssVest
+  - Recipient address(es): `0xEFF097C5CC7F63e9537188FE381D1360158c1511`
+  - Start date: 17 June 2025
+  - Cliff date: 17 June 2026
+  - End date: 16 June 2029
+  - Vesting method: Linear per block with cliff
+  - Claim auth: Permissionless
+- SubDAO Proxy actions
+  - Approve SPK
+    - Address: `0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09`
+    - Amount: 1.2 billion SPK (12% of total supply)
+
 ###### A.6.1.1.1.3.5 - Spark Savings Configuration [Core]  <!-- UUID: 9b4ce799-3baa-42e8-a742-7e8deb377dfc -->
 
 The documents herein specify Spark's strategy and operational processes for managing parameters and liquidity for the Spark Savings protocol.
@@ -27516,19 +27764,23 @@ The subdocuments herein specify the current values for Target Liquidity for each
 
 ###### A.6.1.1.1.3.5.3.1.3.1 - Spark Savings USDC on Ethereum [Core]  <!-- UUID: 3b92fb2c-9944-4fa8-9300-5a53c16189dd -->
 
-The current Target Liquidity for Spark Savings USDC on Ethereum is the greater of 10% of total deposits or 1 million USDC.
+The current Target Liquidity for Spark Savings USDC on Ethereum is the greater of 10% of total deposits or 1 million USDC, up to a maximum amount of 10 million USDC.
 
 ###### A.6.1.1.1.3.5.3.1.3.2 - Spark Savings USDT on Ethereum [Core]  <!-- UUID: 5e8fdea7-ce4a-4185-9d18-995ff823eb94 -->
 
-The current Target Liquidity for Spark Savings USDT on Ethereum is the greater of 10% of total deposits or 1 million USDC.
+The current Target Liquidity for Spark Savings USDT on Ethereum is the greater of 10% of total deposits or 1 million USDC, up to a maximum amount of 10 million USDT.
 
 ###### A.6.1.1.1.3.5.3.1.3.3 - Spark Savings ETH on Ethereum [Core]  <!-- UUID: 944ebd8c-0562-4397-8a5a-6ebcea8167e7 -->
 
-The current Target Liquidity for Spark Savings ETH on Ethereum is the greater of 10% of total deposits or 250 ETH.
+The current Target Liquidity for Spark Savings ETH on Ethereum is the greater of 10% of total deposits or 250 ETH, up to a maximum amount of 2,500 ETH.
 
 ###### A.6.1.1.1.3.5.3.1.3.4 - Spark Savings USDC on Avalanche [Core]  <!-- UUID: 3a7b2e58-01ac-4b0c-a53e-6cce6f563168 -->
 
-The current Target Liquidity for Spark Savings USDC on Avalanche is the greater of 10% of total deposits or 1 million USDC.
+The current Target Liquidity for Spark Savings USDC on Avalanche is the greater of 10% of total deposits or 1 million USDC, up to a maximum amount of 10 million USDC.
+
+###### A.6.1.1.1.3.5.3.1.3.5 - Spark Savings PYUSD on Ethereum [Core]  <!-- UUID: 5af03853-e89b-418a-a457-e8ecf34fc06e -->
+
+The current Target Liquidity for Spark Savings PYUSD on Ethereum is the greater of 10% of total deposits or 1 million PYUSD, up to a maximum amount of 10 million PYUSD.
 
 ###### A.6.1.1.1.3.5.3.2 - Rewards Rate [Core]  <!-- UUID: 22d359a5-3f83-409f-8396-595ac1ea0060 -->
 
@@ -27552,15 +27804,23 @@ The Rewards Rate for Spark Savings USDC on Ethereum will be maintained to be equ
 
 ###### A.6.1.1.1.3.5.3.2.3.2 - Spark Savings USDT on Ethereum [Core]  <!-- UUID: 087dc001-1a44-4096-acd1-feeb109f7ec0 -->
 
-The Rewards Rate for Spark Savings USDT on Ethereum will be maintained to be equal to the Sky Savings Rate.
+The Rewards Rate for Spark Savings USDT on Ethereum will be maintained to be equal to Aave Ethereum Core USDT supply rate plus the Spark Savings USDT Spread.
+
+The Spark Savings USDT Spread will be defined as part of the ALM Planner configuration process, and will be set within a range of -0.5% to 2%.
 
 ###### A.6.1.1.1.3.5.3.2.3.3 - Spark Savings ETH on Ethereum [Core]  <!-- UUID: a2a900aa-a3d6-42d6-b491-cd1fb9701fce -->
 
-The Rewards Rate for Spark Savings ETH on Ethereum will be maintained to be equal to 90% of the supply rate of the SparkLend ETH market on Ethereum.
+The Rewards Rate for Spark Savings ETH on Ethereum will be maintained to be equal to the supply-weighted average yield of ETH-denominated assets held in the Spark Liquidity Layer, multiplied by one minus the percentage of spETH backing held in the spETH vault contract for instant redemptions, plus the Spark Savings ETH Spread.
+
+The Spark Savings ETH Spread will be defined as part of the ALM Planner configuration process, and will be set within a range of -0.5% to 2%.
 
 ###### A.6.1.1.1.3.5.3.2.3.4 - Spark Savings USDC on Avalanche [Core]  <!-- UUID: afac32a3-7f73-4b24-8857-061eb5c6c264 -->
 
 The Rewards Rate for Spark Savings USDC on Avalanche will be maintained to be equal to the Sky Savings Rate.
+
+###### A.6.1.1.1.3.5.3.2.3.5 - Spark Savings PYUSD on Ethereum [Core]  <!-- UUID: c54b370a-df10-4621-82a2-7fc4e5caf728 -->
+
+The Rewards Rate for Spark Savings PYUSD on Ethereum will be maintained to be equal to the Sky Savings Rate.
 
 ###### A.6.1.1.1.3.6 - Strategic Investments [Core]  <!-- UUID: a05cc5db-64e5-4279-84ed-e93d4aa67c38 -->
 
@@ -28031,9 +28291,9 @@ The subdocuments herein define the currently approved venues where liquidity and
 
 Offchain Collateralized Lending may be facilitated via Anchorage, which is approved to hold collateral as well as lending liquidity related to such loans.
 
-- Venue exposure Limit: $200 million
+- Venue exposure Limit: $1 billion
 - Collateral Agent(s):
-- Anchorage Innovations: $200 million
+    - Anchorage Innovations: $1 billion
 
 ###### A.6.1.1.1.3.8.2.4 - Loan Terms [Core]  <!-- UUID: f80317f5-cf93-4610-b35a-2e60c94011d0 -->
 
@@ -28116,11 +28376,11 @@ Critical actions are actions that could conceivably result in the loss of funds 
 - Adding a withdrawal address to the whitelist
 - Adding or removing a signer from the account approvals policy
 - Changing the approval quorum
-- Transferring funds to an address under control of an external entity other than Spark Asset Foundation, Spark Foundation, an approved collateral agent, or the Spark Liquidity Layer
+- Transferring funds to an address outside of the preexisting withdrawal address whitelist
 
 ###### A.6.1.1.1.3.8.2.7.2 - Address Whitelist [Core]  <!-- UUID: 8787ecfc-d1f5-45fa-a261-c0ff12a20538 -->
 
-Accounts shall only whitelist addresses for withdrawals to either an approved collateral agent (which will transfer received funds to borrowers as part of loan origination) or to the Spark Liquidity Layer.
+Accounts shall only whitelist addresses for withdrawals to either an approved collateral agent for the relevant custodian, to borrower addresses in connection with offchain collateralized lending agreements, or to the Spark Liquidity Layer.
 
 ###### A.6.1.1.1.3.8.2.7.3 - Quorum and Signers [Core]  <!-- UUID: 8f3822f2-8403-444f-9db7-2a9fa2da552f -->
 
@@ -28130,7 +28390,9 @@ Signers may be sourced from any of the following entities: Spark Asset Foundatio
 
 ###### A.6.1.1.1.3.8.2.7.4 - Transfers [Core]  <!-- UUID: 28517c27-b028-4b7a-9fea-6a70ae706468 -->
 
-Funds may only be transferred to a collateral agent after confirmation that all necessary steps proceeding loan origination have been completed, including execution of final MLA and provision of configuration file for the loan to the custodian and/or collateral agent.
+Funds may be transferred to a collateral agent or whitelisted address only after Spark Asset Foundation confirmation that all required steps prior to loan disbursement have been completed.
+
+Funds may be transferred to the designated address(es) provided by the custodian or collateral manager for the payment of custody or collateral management service fees as permitted by governance-approved arrangements and upon receipt of a valid invoice.
 
 Funds may be transferred to the designated address for Spark Liquidity Layer at any time without restriction.
 
@@ -29358,6 +29620,10 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.1.2 - Ethereum Mainnet - Centrifuge JAAA Instance Configuration Document](10f4641c-2ed1-4430-ae71-1e830e779269).
 
+###### A.6.1.1.2.2.6.1.1.2.1.1.3 - Ethereum Mainnet - Centrifuge ACRDX Instance Configuration Document Location [Core]  <!-- UUID: 7db7e977-cf6d-4186-b20c-43715314cb2c -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.1.3 - Ethereum Mainnet - Centrifuge ACRDX Instance Configuration Document](b0d889d1-8465-4229-ba69-ca4b5d866131).
+
 ###### A.6.1.1.2.2.6.1.1.2.1.2 - Blackrock [Core]  <!-- UUID: f1de44d8-9dc4-4513-ac06-295d5ccc427d -->
 
 The Ethereum Mainnet Instances Directory of the Blackrock Protocol with `Active` Status are stored herein.
@@ -29461,6 +29727,14 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 ###### A.6.1.1.2.2.6.1.1.2.1.7.5 - Ethereum Mainnet - Grove x Steakhouse AUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 1281f13b-4435-46c5-9e8a-b602aac42c7a -->
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.5 - Ethereum Mainnet - Grove x Steakhouse AUSD Morpho Vault V2 Instance Configuration Document](2c21462b-2925-48d8-9578-5fc21aa96563).
+
+###### A.6.1.1.2.2.6.1.1.2.1.7.6 - Ethereum Mainnet - Sentora PYUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: db6ff295-bf78-450f-a272-f4a5f01b0cdc -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.6 - Ethereum Mainnet - Sentora PYUSD Morpho Vault V2 Instance Configuration Document](3e940e02-80eb-4e37-bce6-95939089da46).
+
+###### A.6.1.1.2.2.6.1.1.2.1.7.7 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 329dae6d-08a0-4628-b494-b533e69c26ce -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.7 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document](dff6df5f-f8ab-4df1-be1e-f71510c3534e).
 
 ###### A.6.1.1.2.2.6.1.1.2.1.8 - Securitize [Core]  <!-- UUID: 12a0d375-8f1e-4e62-83ba-d56bc6d3f2ab -->
 
@@ -30765,6 +31039,95 @@ The outflow rate limits are:
 The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.2.2.6.1.3.1.1.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 44c38f07-4f72-41fd-832c-ce06c2d514e0 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3 - Ethereum Mainnet - Centrifuge ACRDX Instance Configuration Document [Core]  <!-- UUID: b0d889d1-8465-4229-ba69-ca4b5d866131 -->
+
+The documents herein contain the Instance Configuration Document for the Centrifuge ACRDX Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 7c02c1e6-c967-44cd-bebe-7b5adb071484 -->
+
+`Pending`
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2 - Parameters [Core]  <!-- UUID: 1c2f901d-4128-4bc6-b369-f31e568b3087 -->
+
+The documents herein define the parameters of the Centrifuge ACRDX Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.1 - Instance Identifiers [Core]  <!-- UUID: b88a0c50-f937-40e1-85a4-293a0f11b534 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.1.1 - Network [Core]  <!-- UUID: 91a95c0d-32d2-404d-b4c8-9f02398080f2 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.1.2 - Target Protocol [Core]  <!-- UUID: 71aa102a-e0cb-4c5b-a3cb-0a5200d83c2b -->
+
+Centrifuge ACRDX
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 76fca48e-a4c4-4253-9c14-f3835d906d44 -->
+
+USDC
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.1.4 - Token [Core]  <!-- UUID: a0fe0b4a-851e-4a3b-b040-309cb3ba23d2 -->
+
+ACRDX
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.2 - Contract Addresses [Core]  <!-- UUID: c11a5f0f-11da-46e6-a08f-5e6722207bfe -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.2.1 - Token Address [Core]  <!-- UUID: af5632c6-6a6f-4692-8cf4-3d4e8b617dc8 -->
+
+`0x9477724Bb54AD5417de8Baff29e59DF3fB4DA74f`
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.2.2 - Deposit Address (Mainnet) [Core]  <!-- UUID: a6946602-348a-408a-9cbf-d566efe96cbf -->
+
+`0x74A739EA1Dc67c5a0179ebad665D1D3c4b80B712`
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.2.3 - Underlying Asset Address [Core]  <!-- UUID: 904c9554-0fff-4d9d-9993-bf4c281e02c4 -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 5b60c33b-7a48-43a7-bb78-0cd2e03f0079 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: bb056a14-2a9f-41ef-9226-3beb5867592c -->
+
+The inflow RateLimitID is: `0xb8139d1c2486c30929b3cb3a487a3d9c3885f49cff1f07e9393262b15ef1158a`
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 6c04d78a-61d7-4e9a-b156-ef08168704f7 -->
+
+The outflow RateLimitID is: `0x58aa7b39a6c9894ea4a4cd6868d014c718d09913cdf5d793e21509f0ccd32495`
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.4 - Rate Limits [Core]  <!-- UUID: fb4b9380-ecef-4d3c-a2b0-6b2af6a960a9 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 2305ac7b-a8dc-4611-b242-0996d4d22a88 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 20,000,000 USDC
+- `slope`: 20,000,000 USDC per day
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 512819c7-6e39-4bdc-add6-0fc892f54ccb -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 2fad60e4-4c86-48b7-a7b9-0c0f0ef88459 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 96e8ca2f-4e71-4ab0-ba0f-1958ea8e637b -->
+
+Total ACRDX exposure may not exceed 50.97 million USDS and should be reduced to zero over time.
+
+###### A.6.1.1.2.2.6.1.3.1.1.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1faafb47-66b2-49a4-abf5-5cd6f1555361 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
@@ -32809,6 +33172,196 @@ The documents herein contain operational parameters or configuration details uni
 Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 AUSD:
 
 - `setMaxExchangeRate(GROVE_X_STEAKHOUSE_AUSD_V2, 1e18, 2e6)`
+
+###### A.6.1.1.2.2.6.1.3.1.7.6 - Ethereum Mainnet - Sentora PYUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 3e940e02-80eb-4e37-bce6-95939089da46 -->
+
+The documents herein contain the Instance Configuration Document for the Sentora PYUSD Morpho Vault V2 Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 3fd05c9a-1d93-47f6-967d-6edb31f522fd -->
+
+`Pending`
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2 - Parameters [Core]  <!-- UUID: 7b251172-7a60-4240-af72-cacaca9fe3cc -->
+
+The documents herein define the parameters of the Sentora PYUSD Morpho Vault V2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.1 - Instance Identifiers [Core]  <!-- UUID: 3d387fde-f4b9-47c0-8852-f4d9367c0369 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.1.1 - Network [Core]  <!-- UUID: 0075ec52-7324-41b5-8849-e91bac55e742 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.1.2 - Target Protocol [Core]  <!-- UUID: be9b2600-3021-4bb6-9eaf-ba92f17ccd61 -->
+
+Sentora PYUSD Morpho Vault V2
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 8ba12c10-ec4f-4f37-a59c-4c34e14e1a8d -->
+
+PYUSD
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.1.4 - Token [Core]  <!-- UUID: dbf0b180-07ad-4a4b-8cdb-b2c1ae7f2c7a -->
+
+senPYUSDmain
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.2 - Contract Addresses [Core]  <!-- UUID: 6a5becdf-2cb6-44c3-b93a-793072d5ff7b -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.2.1 - Token Address [Core]  <!-- UUID: 9a0baa90-6aec-4be5-9ae5-4d3c790473a8 -->
+
+`0xb576765fB15505433aF24FEe2c0325895C559FB2`
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 412793f2-1e8e-490c-8604-3c457d54d6ed -->
+
+`0x6c3ea9036406852006290770BEdFcAbA0e23A0e8`
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.3 - Rate Limit IDs [Core]  <!-- UUID: fce963cb-ade1-463e-a88f-898a30586e51 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 31d24068-b9bf-43d7-8333-df129e00ee61 -->
+
+The inflow RateLimitID is: `0x4dc0c7cd471560aa12324cb36f720d7d301ef230d3ae772ae07b681725ae7b66`
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: cdd99b5b-34aa-42d5-b93a-0abda5ae7f0f -->
+
+The outflow RateLimitID is: `0x8edef92c8bf76460b6b832a88c63768022ac5aa2bd862fb858905a0f024bff8b`
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.4 - Rate Limits [Core]  <!-- UUID: b94aa9b1-62c6-40dc-8b92-cc677ebac016 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 0a4b26e1-5757-4ed9-bfc5-2614cc79500f -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 50,000,000 PYUSD
+- `slope`: 50,000,000 PYUSD per day
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3d7d307c-ffdc-4ca3-b9fa-951b02d46e3f -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 143d4637-38b8-404c-ba4c-932796445fc8 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 8c1e6098-3342-4d00-b314-d4e87f005dc2 -->
+
+The Maximum Exposure for this Instance is 0 USD.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 4eb5ab52-f412-4d4f-8d9e-5ac9b883eb77 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 8f2a06dd-60cb-4930-9f15-e8dae35444a9 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
+
+###### A.6.1.1.2.2.6.1.3.1.7.6.4.1 - Max Exchange Rate [Core]  <!-- UUID: 1f14f407-9eeb-4e6b-bf6e-c837b5560f28 -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 PYUSD:
+
+- `setMaxExchangeRate(SENTORA_PYUSD_MAIN_V2, 1e18, 3e6)`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: dff6df5f-f8ab-4df1-be1e-f71510c3534e -->
+
+The documents herein contain the Instance Configuration Document for the Sentora RLUSD Morpho Vault V2 Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 35bdc1b6-604d-44ad-a577-ceb33bc20bd9 -->
+
+`Pending`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2 - Parameters [Core]  <!-- UUID: da718c05-b351-43dd-a12a-75fe5bc0b4cf -->
+
+The documents herein define the parameters of the Sentora RLUSD Morpho Vault V2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.1 - Instance Identifiers [Core]  <!-- UUID: 958bd3b4-0650-44fc-8765-28392fe92df3 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.1.1 - Network [Core]  <!-- UUID: 8baa615c-fc38-4bf7-8c44-47a6bb168ad8 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.1.2 - Target Protocol [Core]  <!-- UUID: bfc9f2f7-e69f-4685-b666-57bb2d55442f -->
+
+Sentora RLUSD Morpho Vault V2
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 0b1dbb71-5087-4db2-98e1-f4aafe4e46b5 -->
+
+RLUSD
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.1.4 - Token [Core]  <!-- UUID: e7b16e69-cfb2-4877-a0c2-9cbc7f4ff1ff -->
+
+senRLUSDv2
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.2 - Contract Addresses [Core]  <!-- UUID: d2e8af21-8db9-43b3-8f52-7e080897d54e -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.2.1 - Token Address [Core]  <!-- UUID: dde53de4-3778-44b3-9f65-064eaab3bf93 -->
+
+`0x6dC58a0FdfC8D694e571DC59B9A52EEEa780E6bf`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: b041fa2f-e7cd-4c64-98d0-a1b67f50d6a2 -->
+
+`0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.3 - Rate Limit IDs [Core]  <!-- UUID: 991d7839-4dfd-466f-aafd-8c397cd7af6b -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: a5775dc3-6444-4234-825d-7e0ae6b05f6b -->
+
+The inflow RateLimitID is: `0x944bbb34c3717aacc72419f43d62f5a01d2ebd7a9157ba9975fd7d971deb803f`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 2441cde7-6e2e-47d9-9fd3-62b1bfbb9c9c -->
+
+The outflow RateLimitID is: `0xfc41a8cf89ec93b54bbf6960204c29c48a7ed98ec4a88dade68149dee919e788`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.4 - Rate Limits [Core]  <!-- UUID: 5ecbe8da-00f2-4d72-ab79-6276eae3bc0f -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: c7c4c3a1-ca25-4e9e-b4ab-cbcd01519535 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 50,000,000 RLUSD
+- `slope`: 50,000,000 RLUSD per day
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3593ce57-8cf0-42c8-b0ce-0bfef547e4a6 -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 55c42f45-b94d-4e4d-959f-ae1cc1880fc5 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 4e3fae3f-b450-4f0b-bff4-4f4767c8f7a7 -->
+
+The Maximum Exposure for this Instance is 0 USD.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.3 - Instance-specific Operational Processes [Core]  <!-- UUID: e63662b0-149e-4e80-b7e0-6cf281f85ddd -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 9aed2f2d-6a17-41a5-9104-bb622b3cb04e -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.4.1 - Max Exchange Rate [Core]  <!-- UUID: fd4778b5-78e7-49fc-a785-c2dfed2e5246 -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 RLUSD:
+
+- `setMaxExchangeRate(SENTORA_RLUSD_MAIN_V2, 1e18, 3e6)`
 
 ###### A.6.1.1.2.2.6.1.3.1.8 - Securitize [Core]  <!-- UUID: b05d9fc2-9a93-4f3b-b0d8-b4f77bc294ce -->
 
@@ -36401,7 +36954,7 @@ Keel can change the signers of the Prime Relayer Multisig at any time, so long a
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.2 - Core Operator Relayer Multisig [Core]  <!-- UUID: b17a4a11-7340-4113-972d-76362f816b8a -->
 
-The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.3.2.6.1.2.2.1.1.1.2 - Relayer Role](1b64d5b8-ea7d-408e-a409-3e9e72989396) and is controlled by Operational GovOps Amatsu.
+The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.3.2.6.1.2.2.1.1.1.2 - Relayer Role](1b64d5b8-ea7d-408e-a409-3e9e72989396) and is controlled by Operational GovOps Soter Labs.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.2.2.1 - Address [Core]  <!-- UUID: 8028f164-6410-4f0a-bbba-dc175fc77f58 -->
 
@@ -36507,7 +37060,7 @@ Changes to the Prime Relayer Addresses is a controller action which must be invo
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.3 - Core Operator Relayer Multisig [Core]  <!-- UUID: ced26169-892b-4ec4-9a16-8fb90e94a9ef -->
 
-The Core Operator Relayer Multisig holds a [A.6.1.1.3.2.6.1.2.2.2.1.1.2 - Relayer Role](2b42015c-c76a-4364-b8b5-c9a2b9f6f484) and is controlled by Operational GovOps Amatsu.
+The Core Operator Relayer Multisig holds a [A.6.1.1.3.2.6.1.2.2.2.1.1.2 - Relayer Role](2b42015c-c76a-4364-b8b5-c9a2b9f6f484) and is controlled by Operational GovOps Soter Labs.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.3.1 - Address [Core]  <!-- UUID: f027ec03-4e5a-4262-9992-07fab72dc014 -->
 
@@ -36523,7 +37076,7 @@ The Core Operator Relayer Multisig currently has a 2/3 signing requirement.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.3.4 - Signers [Core]  <!-- UUID: 08036115-62a3-40c8-9b70-61f8dc38035c -->
 
-The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Amatsu.
+The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Soter Labs.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.3.5 - Usage Standards [Core]  <!-- UUID: f2730835-93da-4616-989d-a38f1bd6416a -->
 
@@ -36531,7 +37084,7 @@ The signers of the Core Operator Relayer Multisig must use the Multisig to exerc
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.3.6 - Modification [Core]  <!-- UUID: 2cf82458-eae4-4fad-9504-0fee8effd172 -->
 
-Operational GovOps Amatsu can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
+Operational GovOps Soter Labs can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4 - Freezer Multisig [Core]  <!-- UUID: aeee4280-ab46-4269-9430-fef8c2ee6d43 -->
 
@@ -36551,7 +37104,7 @@ The Freezer Multisig currently has a 2/5 signing requirement.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4.4 - Signers [Core]  <!-- UUID: e6c86321-bef0-435c-a2db-2b82dc7f1c77 -->
 
-The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Amatsu, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Keel.
+The signers of the Freezer Multisig are two (2) addresses controlled by Operational GovOps Soter Labs, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Keel.
 
 ###### A.6.1.1.3.2.6.1.2.1.2.3.4.5 - Usage Standards [Core]  <!-- UUID: 9a900853-f703-4454-92bf-416fbb157aea -->
 
@@ -42925,7 +43478,7 @@ Obex can change the signers of the Prime Relayer Multisig at any time, so long a
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.2 - Core Operator Relayer Multisig [Core]  <!-- UUID: b32dec2f-51e1-44b0-a81b-679b648ed659 -->
 
-The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.5.2.6.1.2.2.1.1.2 - Relayer Role](0a8458ff-499e-4ac6-85a3-6ce200df18ae) and is controlled by Operational GovOps Ozone.
+The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.5.2.6.1.2.2.1.1.2 - Relayer Role](0a8458ff-499e-4ac6-85a3-6ce200df18ae) and is controlled by Operational GovOps Soter Labs.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.2.1 - Address [Core]  <!-- UUID: 17c29741-7ed5-4a6e-96ff-55514df2a8f5 -->
 
@@ -42937,7 +43490,7 @@ The Core Operator Relayer Multisig currently has a 2/3 signing requirement.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.2.3 - Signers [Core]  <!-- UUID: 2c9c02a4-86a1-4862-90aa-e314d9177f37 -->
 
-The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Ozone.
+The signers of the Core Operator Relayer Multisig are three (3) addresses controlled by Operational GovOps Soter Labs.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.2.4 - Usage Standards [Core]  <!-- UUID: 476f94f2-3e35-4d99-9664-c91984104b6b -->
 
@@ -42945,7 +43498,7 @@ The signers of the Core Operator Relayer Multisig must use the Multisig to exerc
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.2.5 - Modification [Core]  <!-- UUID: a342e39a-ba3e-4871-ad17-17ce3323e6f2 -->
 
-Operational GovOps Ozone can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
+Operational GovOps Soter Labs can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least three (3) signers and at least two thirds of signers are required to execute transactions.
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.3 - Freezer Multisig [Core]  <!-- UUID: 49e6c234-7102-43e0-80a6-fb14e259e1f7 -->
 
@@ -45411,13 +45964,21 @@ The name of the Agent is Launch Agent 6.
 
 ###### A.6.1.1.7.2.1.1.3.1.1.2 - SubProxy Account [Core]  <!-- UUID: bb7586a5-8e85-4d8c-aedc-2b0f76fb826f -->
 
-The address of Launch Agent 6's SubProxy Account will be specified in a future iteration of the Launch Agent 6 Artifact.
+The address of Launch Agent 6's SubProxy Account on the Ethereum Mainnet is `0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`.
 
-###### A.6.1.1.7.2.1.1.3.1.1.3 - Genesis Account [Core]  <!-- UUID: a5674a63-9d57-4fd9-9b66-ec653f49afab -->
+###### A.6.1.1.7.2.1.1.3.1.1.3 - StarGuard Contract [Core]  <!-- UUID: d3499ce6-c517-49f7-a07e-b321c390470d -->
+
+The address of Launch Agent 6's StarGuard contract on the Ethereum Mainnet is `0xBfA2D1dA838E55A74c61699e164cDFF8cF0cF0e2`.
+
+###### A.6.1.1.7.2.1.1.3.1.1.3.1 - StarGuard Max Delay [Core]  <!-- UUID: 96060edd-a089-499c-9e96-b90a89bc2c0c -->
+
+The Launch Agent 6 StarGuard `maxDelay` is seven (7) days.
+
+###### A.6.1.1.7.2.1.1.3.1.1.4 - Genesis Account [Core]  <!-- UUID: a5674a63-9d57-4fd9-9b66-ec653f49afab -->
 
 The address of Launch Agent 6's Genesis Account will be specified in a future iteration of the Launch Agent 6 Artifact.
 
-###### A.6.1.1.7.2.1.1.3.1.1.4 - Custom Instance Parameters [Core]  <!-- UUID: 433f5f95-3a16-4f07-b389-b4ead64f21f2 -->
+###### A.6.1.1.7.2.1.1.3.1.1.5 - Custom Instance Parameters [Core]  <!-- UUID: 433f5f95-3a16-4f07-b389-b4ead64f21f2 -->
 
 The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
 
@@ -46521,7 +47082,35 @@ The subtrees for Instances of the Allocation System Primitive with `Suspended` S
 
 ###### A.6.1.1.7.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: f9501c81-b5cd-4c07-b781-539974d39f1d -->
 
-The documents herein specify the logic for coordinating multiple Instances of the Allocation System Primitive. In the future, additional logic will be added herein regarding how capital is allocated between different Instances of the Allocation System Primitive.
+The documents herein provide general specifications of the Launch Agent 6 Liquidity Layer and define Launch Agent 6's overarching strategy and operational framework for managing across all Instances.
+
+###### A.6.1.1.7.2.6.1.2.1 - General Specifications [Core]  <!-- UUID: 38996719-e2ff-491b-89b4-c63fcbaf5353 -->
+
+The documents herein contain general specifications for the Launch Agent 6 Liquidity Layer.
+
+###### A.6.1.1.7.2.6.1.2.1.1 - Launch Agent 6 Liquidity Layer Architecture [Core]  <!-- UUID: e8f3afd5-d1a8-4379-826c-2c3bcc365947 -->
+
+The documents herein describe the high-level design of the Launch Agent 6 Liquidity Layer, including its key smart contracts and their functionality.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1 - Launch Agent 6 Liquidity Layer Addresses [Core]  <!-- UUID: 4148f5dc-ec79-4e4e-96ea-debf17e8bc28 -->
+
+The subdocuments herein provide the addresses of the Launch Agent 6 Liquidity Layer's constituent contracts.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.1 - Allocator Contract Addresses [Core]  <!-- UUID: 22f84daa-f402-433d-8bd2-4a03b5776e20 -->
+
+The documents herein contain global key addresses for the Allocator Contracts.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.1.1 - Ethereum Mainnet [Core]  <!-- UUID: 451328dd-17f0-4efd-8515-377ce6a138b6 -->
+
+The documents herein contain the Allocator Contract Addresses on the Ethereum Mainnet.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.1.1.1 - Allocator Buffer Contract [Core]  <!-- UUID: 7f40e7d1-ed33-4b31-8641-d721f1dc2f01 -->
+
+The address of the ALLOCATOR_BUFFER contract is: `0xD0BB61b34771146e31055f20f329cDf97429F889`.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.1.1.2 - Allocator Vault Contract [Core]  <!-- UUID: 0562eb6d-3770-4c3c-851b-7a6f9f5b2aa0 -->
+
+The address of the ALLOCATOR_VAULT (ALLOCATOR-PRYSM-A) contract is: `0x146181Aa9B362EaEC2eC3aDd7429a06D53B43d1a`.
 
 ###### A.6.1.1.7.2.6.1.3 - Active Instances [Core]  <!-- UUID: 6f8a8e14-13be-4893-9bb1-17c88e984426 -->
 
@@ -46805,13 +47394,21 @@ The name of the Agent is Launch Agent 7.
 
 ###### A.6.1.1.8.2.1.1.3.1.1.2 - SubProxy Account [Core]  <!-- UUID: a5a06fb8-2ae7-4af3-8e96-e1fb57eef916 -->
 
-The address of Launch Agent 7's SubProxy Account will be specified in a future iteration of the Launch Agent 7 Artifact.
+The address of Launch Agent 7's SubProxy Account on the Ethereum Mainnet is `0x56a9bA5FE133EF4Ab1131E8ac7c4312a52284f5B`.
 
-###### A.6.1.1.8.2.1.1.3.1.1.3 - Genesis Account [Core]  <!-- UUID: 9646935e-2406-4187-b43d-9158bdf71856 -->
+###### A.6.1.1.8.2.1.1.3.1.1.3 - StarGuard Contract [Core]  <!-- UUID: fa741bad-9966-4ff7-8300-238d1c58df9a -->
+
+The address of Launch Agent 7's StarGuard contract on the Ethereum Mainnet is `0xB36e88c02E4619Ef34C0Db76C5BCb6655747FB28`.
+
+###### A.6.1.1.8.2.1.1.3.1.1.3.1 - StarGuard Max Delay [Core]  <!-- UUID: 68ce7040-9954-4339-8fa8-d5679eb2a1d5 -->
+
+The Launch Agent 7 StarGuard `maxDelay` is seven (7) days.
+
+###### A.6.1.1.8.2.1.1.3.1.1.4 - Genesis Account [Core]  <!-- UUID: 9646935e-2406-4187-b43d-9158bdf71856 -->
 
 The address of Launch Agent 7's Genesis Account will be specified in a future iteration of the Launch Agent 7 Artifact.
 
-###### A.6.1.1.8.2.1.1.3.1.1.4 - Custom Instance Parameters [Core]  <!-- UUID: 83d48c76-a0c0-447f-a749-9fa841d6af49 -->
+###### A.6.1.1.8.2.1.1.3.1.1.5 - Custom Instance Parameters [Core]  <!-- UUID: 83d48c76-a0c0-447f-a749-9fa841d6af49 -->
 
 The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
 
@@ -47915,7 +48512,31 @@ The subtrees for Instances of the Allocation System Primitive with `Suspended` S
 
 ###### A.6.1.1.8.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: a407dee4-36ec-4499-a3e6-e01008dd56cf -->
 
-The documents herein specify the logic for coordinating multiple Instances of the Allocation System Primitive. In the future, additional logic will be added herein regarding how capital is allocated between different Instances of the Allocation System Primitive.
+The documents herein provide general specifications of the Launch Agent 7 Liquidity Layer and define Launch Agent 7's overarching strategy and operational framework for managing across all Instances.
+
+###### A.6.1.1.8.2.6.1.2.1 - General Specifications [Core]  <!-- UUID: d74aa2ed-b6fb-4dd1-83de-a334734bc48d -->
+
+The documents herein contain general specifications for the Launch Agent 7 Liquidity Layer.
+
+###### A.6.1.1.8.2.6.1.2.1.1 - Launch Agent 7 Liquidity Layer Architecture [Core]  <!-- UUID: 4abfa5e7-e1a8-4ade-89fb-a2ef26752877 -->
+
+The documents herein describe the high-level design of the Launch Agent 7 Liquidity Layer, including its key smart contracts and their functionality.
+
+###### A.6.1.1.8.2.6.1.2.1.1.1 - Launch Agent 7 Liquidity Layer Addresses [Core]  <!-- UUID: e9845cfa-2d27-45f0-b955-dbedd5d8ddb4 -->
+
+The subdocuments herein provide the addresses of the Launch Agent 7 Liquidity Layer's constituent contracts.
+
+###### A.6.1.1.8.2.6.1.2.1.1.1.1 - Allocator Contract Addresses [Core]  <!-- UUID: deed6d17-668a-4ebb-844b-19b25a293448 -->
+
+The documents herein contain global key addresses for the Allocator Contracts.
+
+###### A.6.1.1.8.2.6.1.2.1.1.1.1.1 - Allocator Buffer Contract [Core]  <!-- UUID: d5d47c10-f714-4c88-b4ac-e8937ef86134 -->
+
+The address of the ALLOCATOR_BUFFER contract is: `0x67Ac5c8FbFDAc5265c995e9B2ACd830496438AfD`.
+
+###### A.6.1.1.8.2.6.1.2.1.1.1.1.2 - Allocator Vault Contract [Core]  <!-- UUID: 97dfcdfa-9c39-49fe-95cc-a117635b3f52 -->
+
+The address of the ALLOCATOR_VAULT (ALLOCATOR-INTERVAL-A) contract is: `0xDD3bE7650589E6A6171d454b026C4AD1a2C02720`.
 
 ###### A.6.1.1.8.2.6.1.3 - Active Instances [Core]  <!-- UUID: 132aaf59-d6fa-4260-b686-91246dba9897 -->
 
