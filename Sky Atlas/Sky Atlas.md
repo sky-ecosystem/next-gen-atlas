@@ -28848,7 +28848,7 @@ Funds may be transferred to the designated address(es) provided by the custodian
 
 Funds may be transferred to the designated address for Spark Liquidity Layer at any time without restriction.
 
-###### A.6.1.1.1.3.9 - Risk Curation Frameworks [Core]  <!-- UUID: 78018ebc-c69d-44f6-b602-190edca11483 -->
+###### A.6.1.1.1.3.9 - Risk Curation Framework [Core]  <!-- UUID: 78018ebc-c69d-44f6-b602-190edca11483 -->
 
 The documents herein specify Spark’s framework for delegating and executing certain on-chain activities through approved curator roles.
 
@@ -28982,7 +28982,7 @@ The Spark Blue Chip USDC Morpho Vault on Ethereum mainnet is an approved instanc
 
 ###### A.6.1.1.1.3.9.7.2.3 - Spark Blue Chip USDT Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 5ef1e78f-e1d2-4b09-b00c-618e36ccb2d8 -->
 
-The Spark Blue Chip USDC Morpho Vault on Ethereum mainnet is an approved instance with the following details:
+The Spark Blue Chip USDT Morpho Vault on Ethereum mainnet is an approved instance with the following details:
 
 - Instance Name: Spark Blue Chip USDT Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0xc7CDcFDEfC64631ED6799C95e3b110cd42F2bD22`
