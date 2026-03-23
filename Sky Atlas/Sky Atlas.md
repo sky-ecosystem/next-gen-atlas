@@ -23625,7 +23625,7 @@ The documents herein contains exposure details for this Instance
 - Absolute cap: 100 million
 - Relative cap: 100%
 
-###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.4 - cbBTC/USDT 86% LLTV Pool[Core]  <!-- UUID: b89ff2c9-be7e-4634-bddd-8ebbf5eb6769 -->
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.4 - cbBTC/USDT 86% LLTV Pool [Core]  <!-- UUID: b89ff2c9-be7e-4634-bddd-8ebbf5eb6769 -->
 
 - Pool ID: 0x45671fb8d5dea1c4fbca0b8548ad742f6643300eeb8dbd34ad64a658b2b05bca
 - Absolute cap: 250 million
