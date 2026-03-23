@@ -28948,19 +28948,19 @@ The specific onchain contract address and the ownership or admin role over which
 
 The entity or entities serving in the curator role, including how the role is controlled at the smart contract level, such as a multisig address and approval threshold or an alternative control mechanism.
 
-###### A.6.1.1.1.3.9.7.1.4 - Scope of Curator Authority  <!-- UUID: 0d5c17a2-a4a3-4f81-af4c-49839bc7b36f -->
+###### A.6.1.1.1.3.9.7.1.4 - Scope of Curator Authority [Core]  <!-- UUID: 0d5c17a2-a4a3-4f81-af4c-49839bc7b36f -->
 
 The specific execution actions the curator is permitted to take, subject to prior Spark governance approval via polling.
 
-###### A.6.1.1.1.3.9.7.1.5 - Guardian  <!-- UUID: 817391bd-3748-479c-846e-f8d3e3ec56f4 -->
+###### A.6.1.1.1.3.9.7.1.5 - Guardian [Core]  <!-- UUID: 817391bd-3748-479c-846e-f8d3e3ec56f4 -->
 
 The entity or entities serving in the guardian role, including how the role is controlled at the smart contract level and how cancellation authority is exercised.
 
-###### A.6.1.1.1.3.9.7.2 - Approved Instances  <!-- UUID: 5f30c335-8f12-4cc7-becd-f542a7546463 -->
+###### A.6.1.1.1.3.9.7.2 - Approved Instances [Core]  <!-- UUID: 5f30c335-8f12-4cc7-becd-f542a7546463 -->
 
 The documents herein enumerate the current approved instances of delegated risk curation authority.
 
-###### A.6.1.1.1.3.9.7.2.1 - Spark USDS Morpho Vault on Ethereum Mainnet  <!-- UUID: 3e8ed24b-da4a-4c3f-9a74-c3dd6a557abf -->
+###### A.6.1.1.1.3.9.7.2.1 - Spark USDS Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 3e8ed24b-da4a-4c3f-9a74-c3dd6a557abf -->
 
 The Spark USDS Morpho Vault on Ethereum Mainnet is an approved instance with the following details:
 
@@ -28970,7 +28970,7 @@ The Spark USDS Morpho Vault on Ethereum Mainnet is an approved instance with the
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
 - Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
 
-###### A.6.1.1.1.3.9.7.2.2 - Spark Blue Chip USDC Morpho Vault — Ethereum Mainnet  <!-- UUID: 603cf96e-5819-4e3d-942e-5290dd000847 -->
+###### A.6.1.1.1.3.9.7.2.2 - Spark Blue Chip USDC Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 603cf96e-5819-4e3d-942e-5290dd000847 -->
 
 The Spark Blue Chip USDC Morpho Vault on Ethereum mainnet is an approved instance with the following details:
 
@@ -28980,7 +28980,7 @@ The Spark Blue Chip USDC Morpho Vault on Ethereum mainnet is an approved instanc
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
 - Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
 
-###### A.6.1.1.1.3.9.7.2.3 - Spark Blue Chip USDT Morpho Vault — Ethereum Mainnet  <!-- UUID: 5ef1e78f-e1d2-4b09-b00c-618e36ccb2d8 -->
+###### A.6.1.1.1.3.9.7.2.3 - Spark Blue Chip USDT Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 5ef1e78f-e1d2-4b09-b00c-618e36ccb2d8 -->
 
 The Spark Blue Chip USDC Morpho Vault on Ethereum mainnet is an approved instance with the following details:
 
@@ -28990,7 +28990,7 @@ The Spark Blue Chip USDC Morpho Vault on Ethereum mainnet is an approved instanc
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
 - Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
 
-###### A.6.1.1.1.3.9.7.2.4 - Spark USDC Morpho Vault — Base  <!-- UUID: 85722a93-ec30-4e7f-883c-adde12b0ac6b -->
+###### A.6.1.1.1.3.9.7.2.4 - Spark USDC Morpho Vault - Base [Core]  <!-- UUID: 85722a93-ec30-4e7f-883c-adde12b0ac6b -->
 
 The Spark USDC Morpho Vault on Base is an approved instance with the following details:
 
