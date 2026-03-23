@@ -23597,11 +23597,39 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 32759a33-f619-4a41-a4fd-fbcdb642a82a -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The Instance follows the general ERC4626 procedures see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2 - ERC-4626 Functions](e386a0df-9e0b-4ffd-9879-49131f795b0b) and for emergency procedures see [A.6.1.1.1.2.6.1.2.2.3.4.1 - ERC-4626 Withdrawal Action](f92ddc3f-672a-4f52-931f-5263a9f709b9). For detailed example of the SLL interaction logic for depositing to, withdrawing from, and redeeming from this ERC4626 vault instance see [A.6.1.1.1.2.6.1.3.1.5.1.3.1 - Deposit ERC-4626 Tokens](e2ad525b-3f3f-4402-9e4d-3ae125b35b76) and [A.6.1.1.1.2.6.1.3.1.5.1.3.2 - Withdraw ERC-4626 Tokens](caa295f4-92f4-4ca9-9083-2a1b94c70d5f).
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 06914650-b873-4c39-8389-5c615c64edf7 -->
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1 - Market Exposure [Core]  <!-- UUID: bcf45274-0125-4856-a405-ed2726fad468 -->
+
+The documents herein contains exposure details for this Instance
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.1 - sUSDS/USDT 96.5% LLTV Pool [Core]  <!-- UUID: 2187c7a6-d9d2-46c7-a794-5779939c708f -->
+
+- Pool ID: 0x3274643db77a064abd3bc851de77556a4ad2e2f502f4f0c80845fa8f909ecf0b
+- Absolute cap: Unlimited
+- Relative cap: 100%
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.2 - wstETH/USDT 86% LLTV Pool [Core]  <!-- UUID: 28068a47-d95a-4edb-a7cd-15a9fa769d01 -->
+
+- Pool ID: 0xe7e9694b754c4d4f7e21faf7223f6fa71abaeb10296a4c43a54a7977149687d2
+- Absolute cap: 250 million
+- Relative cap: 100%
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.3 - WBTC/USDT 86% LLTV Pool [Core]  <!-- UUID: c2b81ec6-62d4-4a8e-8195-411051e74708 -->
+
+- Pool ID: 0xa921ef34e2fc7a27ccc50ae7e4b154e16c9799d3387076c421423ef52ac4df99
+- Absolute cap: 100 million
+- Relative cap: 100%
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.4 - cbBTC/USDT 86% LLTV Pool[Core]  <!-- UUID: b89ff2c9-be7e-4634-bddd-8ebbf5eb6769 -->
+
+- Pool ID: 0x45671fb8d5dea1c4fbca0b8548ad742f6643300eeb8dbd34ad64a658b2b05bca
+- Absolute cap: 250 million
+- Relative cap: 100%
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.4.1 - Contract Addresses [Core]  <!-- UUID: c481d26c-a4b1-4c76-9031-478bd64a8aca -->
 
