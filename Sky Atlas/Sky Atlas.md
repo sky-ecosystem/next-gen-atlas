@@ -9508,7 +9508,6 @@ The system must provide real-time or near real-time tracking of all held Total R
 3. Prime Agents' internal TRC management systems should enable continuous capital adequacy monitoring. The system must enable the near real-time comparison of the Prime Agent's internally tracked and calculated TRC against its official Aggregate RRC, as obtained from the Sky Core RRC Dashboard. See [A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard](4eac2c9e-2718-4881-a3f1-ed10fb3f4d13). This core functionality is essential for the Prime Agent to proactively monitor its capital adequacy, identify potential or actual TRC shortfalls, and make timely operational and capital management decisions to maintain compliance.
 4. Prime Agents' internal TRC management systems should define a RRC-incident (e.g., TRC shortfall) response protocol. The system should enable internal alerting mechanisms that detect when a Prime Agent’s TRC approaches predefined internal buffer thresholds relative to its Aggregate RRC. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9). The system should also detect an actual shortfall where the Prime Agent’s held TRC falls below its Aggregate RRC. Furthermore, Prime Agent teams should establish and document internal processes for responding to such alerts. Such internal processes should include: 1) internal escalation and assessment of the shortfall’s cause and magnitude; 2) formulation of potential responses or corrective actions, which may include sourcing additional TRC, reducing risk-weighted exposures, or other measures; 3) internal decision-making framework for the evaluation of potential responses and selection of the most appropriate one; and 4) notifying any pertinent parties (Operational GovOps) as needed for the purpose of planning or implementing follow-up action.
 
-
 Prime Agent teams' internal decision-making framework may consider the economic trade-offs of various actions, including the strategic acceptance of penalties for a TRC shortfall where such an approach is determined to be economically advantageous compared to immediate rebalancing (e.g., avoiding excessive transaction costs or market impact).
 
 ###### A.2.2.9.1.1.3.2.1.2.3 - Primes’ TRC Report [Core]  <!-- UUID: 41ca2085-d71b-47e5-8b1a-b183b6e2b6fc -->
@@ -9626,7 +9625,6 @@ An Artifact Edit Proposal is mandatory for an Instance modification under the fo
 Prior to submitting an Artifact Edit Proposal for an Instance modification, the Prime Agent must revise the Capital and Operational Plan (C&O Plan) associated with that Instance to reflect the desired new state.
 
 The revised Capital and Operational Plan for an Instance modification must include the following information:
-
 
 1. Updates to the Instance's strategy and operational parameters;
 2. A new pro-forma Required Risk Capital (RRC) estimate specifically calculated to reflect the Instance's proposed modified state; and
@@ -27098,16 +27096,16 @@ The SPK contributor vesting is a 4-year linear vesting schedule that compensates
 The current SPK contributor vesting parameters are:
 
 - DssVest
-  - Recipient address(es): `0xEFF097C5CC7F63e9537188FE381D1360158c1511`
-  - Start date: 17 June 2025
-  - Cliff date: 17 June 2026
-  - End date: 16 June 2029
-  - Vesting method: Linear per block with cliff
-  - Claim auth: Permissionless
+    - Recipient address(es): `0xEFF097C5CC7F63e9537188FE381D1360158c1511`
+    - Start date: 17 June 2025
+    - Cliff date: 17 June 2026
+    - End date: 16 June 2029
+    - Vesting method: Linear per block with cliff
+    - Claim auth: Permissionless
 - SubDAO Proxy actions
-  - Approve SPK
-    - Address: `0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09`
-    - Amount: 1.2 billion SPK (12% of total supply)
+    - Approve SPK
+        - Address: `0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09`
+        - Amount: 1.2 billion SPK (12% of total supply)
 
 ###### A.6.1.1.1.3.5 - Spark Savings Configuration [Core]  <!-- UUID: 9b4ce799-3baa-42e8-a742-7e8deb377dfc -->
 
@@ -28458,7 +28456,6 @@ Where their review of the proposal results in a finding of alignment with the Sk
 ###### A.6.1.1.2.2.2.2.2.1.2.1.4.1 - Circulating Supply Definition [Core]  <!-- UUID: 4cd4f590-6a01-4824-a6e7-bbf4a6f5225e -->
 
 For purposes of [A.6.1.1.2.2.2.2.2.1.2.1.4 - Root Edit Token Holder Vote](f6dd56ae-ee72-4109-be99-eaf69c92c3be), the circulating supply of GROVE tokens is equal to the total supply of GROVE tokens minus the sum of:
-
 
 1. Tokens retained by Sky and not yet distributed as token rewards (see [A.2.8.2.2.2.1.2.2 - Sky Retained Tokens And Reward Pools](fb447af6-1581-4711-b73c-dc2e8d65e843)); and
 2. Tokens retained in vesting agreements for Grove contributors and not yet distributed; and
@@ -30139,7 +30136,6 @@ If `direct swap` is not possible, the operator must perform an `iterative swap` 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.3.2.8 - Split Into Multiple Swaps If Limit Exceeded [Core]  <!-- UUID: 20dba0ba-3dd2-47cb-8e7a-793de6a11c5d -->
 
 If the `usdcAmount` exceeds the limit, the operator must split the swap into multiple smaller swaps as follows.
-
 
 1. The operator must refill the PSM with DAI by calling `psm.fill()`.
 2. The operator must recalculate the limit to see how much USDC can be swapped after the refill.
