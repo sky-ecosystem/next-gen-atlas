@@ -172,6 +172,7 @@ This is the second paragraph. Note the blank lines are preserved between paragra
 2. **Between Paragraphs**: Blank lines within content are preserved
 3. **Before Next Document**: Exactly one blank line before the next title line
 4. **Before Extra Fields**: Exactly one blank line before the first extra field (if any)
+5. **Before And After Lists**: Exactly one blank line before and after lists
 
 ### Note: Multi-Line Inline Code Syntax in Markdown
 
@@ -690,3 +691,31 @@ Nested core document at depth 8 (capped at 6 hashtags).
 ```
 
 Notice how documents at depth 7 and 8 both use 6 hashtags. Their hierarchical relationship is determined by their document numbers, not by heading levels.
+
+### Unordered Lists
+
+Unordered lists should only use the `-` character to denote list entries.
+
+### Ordered Lists
+
+Ordered lists should use sequential numbering within the raw markdown to denote list entries.
+
+The correct numbering syntax is:
+
+```markdown
+1. ABC
+2. DEF
+3. GHI
+```
+
+The following is incorrect despite being allowed by some markdown formats:
+
+```markdown
+1. ABC
+2. DEF
+3. GHI
+```
+
+## 13. Linting
+
+A set of rules for use with `markdownlint` has been provided in the `./markdownlint-cli2.jsonc` file. This is not currently required but is recommended.
