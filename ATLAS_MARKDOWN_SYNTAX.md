@@ -712,8 +712,8 @@ The following is incorrect despite being allowed by some markdown formats:
 
 ```markdown
 1. ABC
-2. DEF
-3. GHI
+1. DEF
+1. GHI
 ```
 
 ## 13. Linting
