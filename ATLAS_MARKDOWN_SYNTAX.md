@@ -718,4 +718,4 @@ The following is incorrect despite being allowed by some markdown formats:
 
 ## 13. Linting
 
-A set of rules for use with `markdownlint` has been provided in the `./markdownlint-cli2.jsonc` file. This is not currently required but is recommended.
+A set of rules for use with `markdownlint` has been provided in the `./.markdownlint-cli2.jsonc` file. This is not currently required but is recommended.
