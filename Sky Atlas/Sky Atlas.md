@@ -3381,7 +3381,7 @@ The Crafter must comply with a number of rules when carrying out their role and 
 
 ###### A.1.9.2.4.7.2.1 - Previous Spell Code Cleanup [Core]  <!-- UUID: 3889281f-3306-4701-b1a3-5e0707bb7ef8 -->
 
-Before developing the current spell, the designated Crafter must clean up the previous spell code. Code cleanup includes the `DssSpell.sol` (spell code), `DssSpell.t.sol` (spell code tests) and `config.sol `(deployed spell information) files. In this process of code cleanup, the Crafter must remove unused interfaces as well as spell code and test code from the last spell. If relevant, they must also clean up any dependency files from the previous spell that are not being used for the current spell.
+Before developing the current spell, the designated Crafter must clean up the previous spell code. Code cleanup includes the `DssSpell.sol` (spell code), `DssSpell.t.sol` (spell code tests) and `config.sol`(deployed spell information) files. In this process of code cleanup, the Crafter must remove unused interfaces as well as spell code and test code from the last spell. If relevant, they must also clean up any dependency files from the previous spell that are not being used for the current spell.
 
 ###### A.1.9.2.4.7.2.2 - The Executive Sheet Serves As Source Of Truth [Core]  <!-- UUID: cff7d85c-2bbb-4f93-afa8-0bcfabcb838d -->
 
@@ -30658,8 +30658,8 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are 
 
 The inflow rate limits are:
 
-- `maxAmount`:  50,000,000
-- `slope`(per day):  50,000,000
+- `maxAmount`: 50,000,000
+- `slope`(per day): 50,000,000
 
 ###### A.6.1.1.2.2.6.1.3.1.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 0b80d875-47a9-4863-8cf9-7a564e49d7ff -->
 
