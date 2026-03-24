@@ -11230,21 +11230,37 @@ The Initial Allocation for Spark is 25,000,000 USDS.
 
 The Initial Allocation for Grove is 25,000,000 USDS.
 
-###### A.2.8.2.2.2.5.3 - Initial Allocation Distribution [Core]  <!-- UUID: 6b8fc0e6-ee0b-4a48-a096-2ccb06f64e3f -->
+###### A.2.8.2.2.2.5.3 - Amatsu Initial Allocation [Core]  <!-- UUID: 539c747e-bcf9-42f4-8f79-e6f5bb3a57c2 -->
+
+The Initial Allocation for Amatsu is 25,000,000 USDS.
+
+###### A.2.8.2.2.2.5.4 - Ozone Initial Allocation [Core]  <!-- UUID: a66c0f4c-ff7f-4b8c-9e66-823dc02b1f27 -->
+
+The Initial Allocation for Ozone is 25,000,000 USDS.
+
+###### A.2.8.2.2.2.5.5 - Keel Initial Allocation [Core]  <!-- UUID: 6356ca90-faf0-4b7d-b754-962295e2282a -->
+
+The Initial Allocation for Keel is 10,000,000 USDS.
+
+###### A.2.8.2.2.2.5.6 - Prysm Initial Allocation [Core]  <!-- UUID: 9fd26918-491f-4076-9c87-c462ca7e3048 -->
+
+The Initial Allocation for Prysm is 10,000,000 USDS.
+
+###### A.2.8.2.2.2.5.7 - Initial Allocation Distribution [Core]  <!-- UUID: 6b8fc0e6-ee0b-4a48-a096-2ccb06f64e3f -->
 
 The Initial Allocation is distributed in USDS to each Prime SubProxy (i.e. the Spark SubProxy and Grove SubProxy). Both Grove and Spark elected to distribute 5% of the total token supply over a period of 20 years, lasting from year 10 to year 30, and will receive USDS 25,000,000 each.
 
-###### A.2.8.2.2.2.5.4 - Initial Allocation Mechanism [Core]  <!-- UUID: eedd0309-b11b-459e-a966-13b16e961ccc -->
+###### A.2.8.2.2.2.5.8 - Initial Allocation Mechanism [Core]  <!-- UUID: eedd0309-b11b-459e-a966-13b16e961ccc -->
 
 Shortly after the Agent Token launch, an Atlas Edit Proposal submitted to Sky Governance will allow the respective founding teams of Spark and Grove to propose an initial cash grant to their respective Prime Foundation. Sky Governance must consent to this initial cash grant via approving the Sky Atlas modification.
 
-###### A.2.8.2.2.2.5.4.1 - Initial Cash Grant To Spark Foundation [Core]  <!-- UUID: 9daea2fa-0fef-48a7-8633-fa33081236da -->
+###### A.2.8.2.2.2.5.8.1 - Initial Cash Grant To Spark Foundation [Core]  <!-- UUID: 9daea2fa-0fef-48a7-8633-fa33081236da -->
 
 The founding team of Spark has proposed a cash grant of 800,000 USDS per month to the Spark Foundation from Spark’s Genesis Capital Allocation for a three (3) month period, beginning at the time of the Genesis Capital Allocation. The purpose of the grant is to enable Spark Foundation to fulfill its purpose of promoting the growth and development of Spark. This funding will support essential activities such as engineering efforts, community engagement, research, infrastructure, and administrative operations.
 
 Sky Governance hereby consents to this cash grant. The first month’s transfer must be made to the Spark Foundation immediately after the transfer of the Genesis Capital Allocation. See [A.2.8.2.2.2.8.2.1 - Transfer Of Genesis Capital Allocation To Spark SubProxy](e3ec99ec-54c9-4fe7-8104-aee20c57ec57). Transfers for subsequent months will be made proportionally in Spark Spells included in Sky Executive Votes unless otherwise agreed by Sky and Spark.
 
-###### A.2.8.2.2.2.5.5 - Subsequent Allocation Mechanism [Core]  <!-- UUID: aea8a2d8-2203-4123-8c09-17b2bb8427c1 -->
+###### A.2.8.2.2.2.5.9 - Subsequent Allocation Mechanism [Core]  <!-- UUID: aea8a2d8-2203-4123-8c09-17b2bb8427c1 -->
 
 After the initial cash grant (see [A.2.8.2.2.2.5.4 - Initial Allocation Mechanism](eedd0309-b11b-459e-a966-13b16e961ccc)), Spark and Grove may request additional grants to their respective Prime Foundations to fund operations and growth.
 
@@ -11252,19 +11268,19 @@ The authorization of grant requests is subject to the governance requirements an
 
 In all instances, Sky Governance must consent to the transfer of funds via an Atlas Edit.
 
-###### A.2.8.2.2.2.5.5.1 - Spark Foundation Grant Authorization: October 2025 [Core]  <!-- UUID: 12425328-8344-4fbd-9afb-3ea6316972dd -->
+###### A.2.8.2.2.2.5.9.1 - Spark Foundation Grant Authorization: October 2025 [Core]  <!-- UUID: 12425328-8344-4fbd-9afb-3ea6316972dd -->
 
 The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from Spark’s Prime Treasury for a three (3) month period, beginning on October 1, 2025. The purpose of this grant is to enable the Spark Foundation to fulfill its purpose of promoting the growth and development of Spark. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
 
 Sky Governance hereby consents to this cash grant. The transfer for October must be made to the Spark Foundation in a Spark Spell included in the October 2, 2025 Executive Vote. Transfers for subsequent months will be made proportionally in Spark Spells included in Sky Executive Votes unless otherwise agreed by Sky and Spark.
 
-###### A.2.8.2.2.2.5.5.2 - Spark Foundation Grant Authorization: December 2025 [Core]  <!-- UUID: bd9673db-225e-42f4-8f26-6e993dc72bd0 -->
+###### A.2.8.2.2.2.5.9.2 - Spark Foundation Grant Authorization: December 2025 [Core]  <!-- UUID: bd9673db-225e-42f4-8f26-6e993dc72bd0 -->
 
 The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from the SubDAO Proxy for a three (3) month period to cover Q1 2026 Foundation expenses. Additionally, a one-time grant of 150,000 USDS has been proposed to cover expenses for Spark Asset Foundation for Q1 2026 (see [Forum Post](https://forum.sky.money/t/december-11-2025-proposed-changes-to-spark-for-upcoming-spell/27481).
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads as specified in the referenced proposal.
 
-###### A.2.8.2.2.2.5.6 - Genesis Capital Backstop [Core]  <!-- UUID: 20e8467f-561c-4020-bd26-e6c1601fb64d -->
+###### A.2.8.2.2.2.5.10 - Genesis Capital Backstop [Core]  <!-- UUID: 20e8467f-561c-4020-bd26-e6c1601fb64d -->
 
 Each genesis capital allocation is subject to the Genesis Capital Backstop (see [A.3.7.1.6 - Genesis Capital Backstop](a9965d58-8cda-49fc-8a7f-f8cc2e0d6b98)).
 
