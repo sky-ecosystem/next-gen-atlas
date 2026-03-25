@@ -50,7 +50,7 @@ Inner incentive is the second-order incentive that a universally aligned actor u
 
 Alignment Engineering is a philosophy of organizational design introduced through the Atlas. It aims to anchor internally sustainable Ecosystem Intelligence within Alignment Artifacts that embody recursive trends towards increased Alignment Artifact Strength over time.
 
-#### A.0.1.1.9 - Letter Of The Rule Vs Spirit Of The Rule [Core]  <!-- UUID: ff16fd74-3a81-4cac-92b4-1208d4d9f337 -->
+#### A.0.1.1.9 - Letter Of The Rule Vs. Spirit Of The Rule [Core]  <!-- UUID: ff16fd74-3a81-4cac-92b4-1208d4d9f337 -->
 
 The distinction between the "letter of the rule" and the "spirit of the rule" refers to whether an individual interprets and follows a rule strictly based on its precise wording, or instead also considers its underlying intent or larger purpose. The Universal Alignment Assumption holds that the underlying intent of rules always aims to serve human values and promote public benefit within a given context.
 
@@ -404,7 +404,7 @@ The element "Spirit of the Atlas" refers to the guiding principles that form the
 
 The Spirit of the Atlas should be specified to the furthest extent possible in the Immutable Documents. The Spirit of the Atlas is continually evolving in response to internal and external stimuli; and thus reflects the adaptive intelligence of the Sky ecosystem as a whole. Once the Endgame State is reached and the Immutable Documents are forever locked down, the Spirit of the Atlas will continue to evolve through the vehicle of the Adaptive Documents.
 
-See also, [A.0.1.1.16 - The Atlas](98223867-c60a-4b28-9401-94fc1ed9b4cd) and [A.0.1.1.9 - Letter Of The Rule Vs Spirit Of The Rule](ff16fd74-3a81-4cac-92b4-1208d4d9f337).
+See also, [A.0.1.1.16 - The Atlas](98223867-c60a-4b28-9401-94fc1ed9b4cd) and [A.0.1.1.9 - Letter Of The Rule Vs. Spirit Of The Rule](ff16fd74-3a81-4cac-92b4-1208d4d9f337).
 
 ## A.1.2 - Atlas Documents [Article]  <!-- UUID: fbd55373-32cc-49a9-a74d-60cfacf6a379 -->
 
@@ -852,7 +852,7 @@ Facilitator Action Tenet Documents are likely to be necessary supplements for in
 
 Action Tenet Documents should be created and updated as necessary to reflect changes in governance practices, provide clarity on decision-making processes, and enhance understanding of governance principles and rules. The examples should not contradict their Target Document or other Supporting Documents of the Target Document.
 
-If the Action Tenet can be anchored to a specific term from the Target Document, that term is listed first; followed by a hyphen; and then, an abstract of the Action Tenet logic, e.g.: "Organizational Drift - ACs' Mandate When Instigating Action Can Be Traced Back to a Discrete Entity". If the Action Tenet cannot be anchored to a specific term from the Target Document, the "Name" property should simply summarize the Action Tenet logic, e.g.: "Evaluating AC breach of role-specific requirement vs. general requirement".
+If the Action Tenet can be anchored to a specific term from the Target Document, that term is listed first; followed by a hyphen; and then, an abstract of the Action Tenet logic, e.g., "Organizational Drift - ACs' Mandate When Instigating Action Can Be Traced Back to a Discrete Entity". If the Action Tenet cannot be anchored to a specific term from the Target Document, the "Name" property should simply summarize the Action Tenet logic, e.g., "Evaluating AC breach of role-specific requirement vs. general requirement".
 
 **Type Category**:
 
@@ -1258,7 +1258,7 @@ The Navigation Hub Type is used for Navigation Hubs that provide summarized cont
 
 **Doc Identifier Rules**:
 
-Focus Hub Documents must be located at the nonzero numerical positions below Navigation Hubs, e.g.: x.0.0.1, x.0.0.2, etc.
+Focus Hub Documents must be located at the nonzero numerical positions below Navigation Hubs, e.g., x.0.0.1, x.0.0.2, etc.
 
 **Additional Logic**:
 
@@ -1316,11 +1316,11 @@ The Facilitator Scenario Directory Type is a directory used to list all of the S
 
 "Finding": This Component indicates whether, in this Scenario, the Target Document logic was or was not breached. If the Target Document was not breached, the Finding is "Aligned". If the Target Document was breached, the Finding is "Misaligned".
 
-"Additional Guidance": This Component provides additional context on the specific aspects of the Scenario that were salient to the Aligned or Misaligned finding. It can also provide guidance in terms of how the Facilitators should respond to such a Scenario, i.e.: follow-up actions or means of investigation.
+"Additional Guidance": This Component provides additional context on the specific aspects of the Scenario that were salient to the Aligned or Misaligned finding. It can also provide guidance in terms of how the Facilitators should respond to such a Scenario, i.e., follow-up actions or means of investigation.
 
 **Doc Identifier Rules**:
 
-Facilitator Scenario Documents must always be located as subdocuments of the Facilitator Scenario Directory Document, which in turn is nested under its parent Facilitator Action Tenet Document, e.g.: A.1.1-1.0.4.1.1.1.
+Facilitator Scenario Documents must always be located as subdocuments of the Facilitator Scenario Directory Document, which in turn is nested under its parent Facilitator Action Tenet Document, e.g., A.1.1-1.0.4.1.1.1.
 
 A Scenario’s Name should never be followed by a number unless there are multiple Scenarios with the same Name.
 
@@ -1350,11 +1350,11 @@ Facilitator Scenario Documents contain hypothetical fact patterns that are desig
 
 "Finding": This Component indicates whether, in this Scenario Variation, the Target Document logic was or was not breached. If the Target Document was not breached, the Finding is "Aligned". If the Target Document was breached, the Finding is "Misaligned".
 
-"Additional Guidance": This Component provides additional context on the specific aspects of the Scenario Variation that were salient to the Aligned or Misaligned finding. It can also provide guidance in terms of how the Facilitators should respond to such a Scenario, i.e.: follow-up actions or means of investigation.
+"Additional Guidance": This Component provides additional context on the specific aspects of the Scenario Variation that were salient to the Aligned or Misaligned finding. It can also provide guidance in terms of how the Facilitators should respond to such a Scenario, i.e., follow-up actions or means of investigation.
 
 **Doc Identifier Rules**:
 
-Scenario Variation Documents are located as subdocuments to the Scenario Document of which they are a variation. Their Document Identifier is the same as their parent Scenario, with an additional suffix 'var' followed by the variation number of the original Scenario document. For example, the second Scenario Variation of the original Scenario document `A.1.1.0.4.1.1.1.` would have the following identifier: `A.1.1.0.4.1.1.1.var2` .
+Scenario Variation Documents are located as subdocuments to the Scenario Document of which they are a variation. Their Document Identifier is the same as their parent Scenario, with an additional suffix 'var' followed by the variation number of the original Scenario document. For example, the second Scenario Variation of the original Scenario document `A.1.1.0.4.1.1.1.` would have the following identifier: `A.1.1.0.4.1.1.1.var2`.
 
 **Additional Logic**:
 
@@ -1818,7 +1818,7 @@ If the Core Facilitator is subject to a conflict of interest in resolving a disp
 
 Alignment Conservers (ACs) must meet the most stringent standards for Universal Alignment, demonstrating not only compliance with the letter of the rules but also a deep and authentic commitment to the spirit of the rules, i.e., the underlying principles and goals of Sky. This demanding standard goes beyond mere technical compliance and requires proof of genuine intent and actions consistent with upholding the Spirit of the Atlas.
 
-See [A.0.1.1.9 - Letter Of The Rule Vs Spirit Of The Rule](ff16fd74-3a81-4cac-92b4-1208d4d9f337).
+See [A.0.1.1.9 - Letter Of The Rule Vs. Spirit Of The Rule](ff16fd74-3a81-4cac-92b4-1208d4d9f337).
 
 #### A.1.4.9.0.4.2 - Doubt Regarding AC’s Alignment Will Be Resolved Against Them [Action Tenet]  <!-- UUID: 3b516fa0-bc6f-4fae-8c98-274798ab858c -->
 
@@ -3346,7 +3346,7 @@ The provenance type "weak comment type provenance" refers to informal or editabl
 
 ###### A.1.9.2.4.5.1.2 - Strong Comment Type Provenance [Core]  <!-- UUID: 8e18add4-2ac0-4ee8-b42f-5187bfccc212 -->
 
-The provenance type "strong comment type provenance" refers to comments made by stakeholders that relate to a specific executive action. For example, Google Sheets confirmation comments left by payment recipients and GitHub pull request comments left by Agent representatives are considered strong comment provenance if the comment relates to an action that affects them (i.e. where they are a stakeholder receiving a payment in the Executive). Strong comment provenance types are considered easy to modify by the commenting party, hence why they possess lower legitimacy than document provenance types. While these comments may store a record of the fact that they were edited, the edit history is not always publicly visible and therefore they are considered to possess high mutability.
+The provenance type "strong comment type provenance" refers to comments made by stakeholders that relate to a specific executive action. For example, Google Sheets confirmation comments left by payment recipients and GitHub pull request comments left by Agent representatives are considered strong comment provenance if the comment relates to an action that affects them (i.e., where they are a stakeholder receiving a payment in the Executive). Strong comment provenance types are considered easy to modify by the commenting party, hence why they possess lower legitimacy than document provenance types. While these comments may store a record of the fact that they were edited, the edit history is not always publicly visible and therefore they are considered to possess high mutability.
 
 ###### A.1.9.2.4.5.1.3 - OnChain Provenance [Core]  <!-- UUID: d6c5909e-031c-43d9-984c-09e48985a1a1 -->
 
@@ -3892,7 +3892,7 @@ The Spell Crafter then commits their changes and requests review by the Spell Re
 
 ###### A.1.9.2.4.10.8 - Spell Reviewers Review Pull Request [Core]  <!-- UUID: 56106653-7764-466a-a5a5-ff6843b100d7 -->
 
-The Spell Reviewers review the Pull Request. As part of this review, they run tests locally. These steps are set out here: [https://github.com/sky-ecosystem/pe-checklists/blob/master/Spell/Spell-reviewer-mainnet-checklist.md.](https://github.com/sky-ecosystem/pe-checklists/blob/master/spell/spell-crafter-mainnet-workflow.md) When they have completed this, each Spell Reviewer posts a comment approving the handover of the Spell (e.g. "good to handover"), including a copy of the test results.
+The Spell Reviewers review the Pull Request. As part of this review, they run tests locally. These steps are set out here: [https://github.com/sky-ecosystem/pe-checklists/blob/master/Spell/Spell-reviewer-mainnet-checklist.md.](https://github.com/sky-ecosystem/pe-checklists/blob/master/spell/spell-crafter-mainnet-workflow.md) When they have completed this, each Spell Reviewer posts a comment approving the handover of the Spell (e.g., "good to handover"), including a copy of the test results.
 
 ###### A.1.9.2.4.10.9 - Spell Crafter Hands Over Spell [Core]  <!-- UUID: 8411d3bb-f5b8-4f0e-94b1-4ce7bb223099 -->
 
@@ -4178,7 +4178,7 @@ Validators must confirm that the deployed Spell does not execute an external `Ds
 
 1. Check that the DssAction contract’s `execute()` function only calls the `actions()` function and does not interact with any external contracts or explicitly defined Ethereum addresses.
 
-2. Check that the second argument used in the constructor when instantiating the `DssExec` is a newly created Spell action contract (e.g. `address(new DssSpellAction())`) and not an explicitly defined Ethereum address. This confirms that the Spell is linked to the correct action contract.
+2. Check that the second argument used in the constructor when instantiating the `DssExec` is a newly created Spell action contract (e.g., `address(new DssSpellAction())`) and not an explicitly defined Ethereum address. This confirms that the Spell is linked to the correct action contract.
 
 If either of these checks fails, the Spell cannot pass validation.
 
@@ -4323,7 +4323,7 @@ To perform this validation the validators must go to the "Contract" tab on Ether
 
 Spell validators should ensure that oracle addresses are correctly verified.
 
-To perform this validation the validators should go to the Chainlog and locate the relevant oracle (e.g. `PIP_ETH`). Take the contract address listed in the Chainlog to Etherscan. Open the "Read" tab of the contract on Etherscan. Look for the `src` value. Verify that the `src` value matches the `MedianETHUSDcontract` address referenced in the Spell.
+To perform this validation the validators should go to the Chainlog and locate the relevant oracle (e.g., `PIP_ETH`). Take the contract address listed in the Chainlog to Etherscan. Open the "Read" tab of the contract on Etherscan. Look for the `src` value. Verify that the `src` value matches the `MedianETHUSDcontract` address referenced in the Spell.
 
 ###### A.1.9.2.4.12.3.3.7 - Spell Validators Should Review Constants [Core]  <!-- UUID: a6940e22-f25c-4f29-9307-328b7f590ce7 -->
 
@@ -4513,7 +4513,7 @@ With the Pull Request merged, the Spell Crafter turns to initiating the retrospe
 
 ###### A.1.9.2.4.13.5.1 - Spell Crafter Initiates Retrospective [Core]  <!-- UUID: a5959563-d525-4431-b2e3-b1ebcaf88b99 -->
 
-The Spell Crafter initiates a retrospective on the Spell in the existing Spell thread in the `#govops` Discord channel. The Spell Crafter prefaces the message with `initiating retro`. The Spell Crafter should include any problems identified during the Spell, including concrete improvement proposals. If there is nothing to discuss, the Spell Crafter should communicate that (e.g `Initiating retro: nothing to discuss from my side`).
+The Spell Crafter initiates a retrospective on the Spell in the existing Spell thread in the `#govops` Discord channel. The Spell Crafter prefaces the message with `initiating retro`. The Spell Crafter should include any problems identified during the Spell, including concrete improvement proposals. If there is nothing to discuss, the Spell Crafter should communicate that (e.g., `Initiating retro: nothing to discuss from my side`).
 
 ###### A.1.9.2.4.13.5.2 - Spell Crafter Conducts Any Needed Follow Up Regarding Megapoker [Core]  <!-- UUID: e3009714-a46c-43b9-8f90-d09bd2e816b6 -->
 
@@ -6571,7 +6571,7 @@ The instance Status of `Active` indicates that an instance of a Primitive is ful
 
 ###### A.2.2.1.3.2.2 - Suspended Instance Status [Core]  <!-- UUID: 3e5de640-5bc2-4953-a233-913e3337b4bb -->
 
-The instance Status of `Suspended` indicates that an instance of a Primitive was `Active` at one point in time and may be `Active` again, but is not currently operational. This may be due to the Primitive not meeting performance expectations (e.g. for an Allocation System instance), security issues, or due to failure of the Agent operating the Primitive to satisfy other requirements such as those specified in the Risk Capital or Asset Liability Management frameworks.
+The instance Status of `Suspended` indicates that an instance of a Primitive was `Active` at one point in time and may be `Active` again, but is not currently operational. This may be due to the Primitive not meeting performance expectations (e.g., for an Allocation System instance), security issues, or due to failure of the Agent operating the Primitive to satisfy other requirements such as those specified in the Risk Capital or Asset Liability Management frameworks.
 
 ###### A.2.2.1.3.2.3 - Completed Instance Status [Core]  <!-- UUID: 82b88f94-b83a-432a-bb8e-4e726535156a -->
 
@@ -7035,7 +7035,7 @@ The Operational Facilitator reviews the proposal. This review encompasses two as
 
 ###### A.2.2.5.2.1.2.3 - Root Edit Primitive Voting [Core]  <!-- UUID: 7e4574c0-a83c-4e3f-bfa6-1f66db2a0aed -->
 
-If the Operational Facilitator concludes that the proposal is aligned with the Atlas and consistent with the process specified in the Root Edit Primitive, then the Operational Facilitator moves forward with conducting the vote. The Root Edit Primitive specifies how the vote should be conducted (e.g. on-chain or off-chain), the time period over which voting should occur, and other relevant parameters for the vote such as quorum and approval requirements.
+If the Operational Facilitator concludes that the proposal is aligned with the Atlas and consistent with the process specified in the Root Edit Primitive, then the Operational Facilitator moves forward with conducting the vote. The Root Edit Primitive specifies how the vote should be conducted (e.g., on-chain or off-chain), the time period over which voting should occur, and other relevant parameters for the vote such as quorum and approval requirements.
 
 ###### A.2.2.5.2.1.2.4 - Root Edit Primitive Artifact Update [Core]  <!-- UUID: 34d06691-afc4-4ade-9ada-ad180c2aef0f -->
 
@@ -7713,7 +7713,7 @@ The process flow is defined herein:
 
     ◦ Operational GovOps has the ability to operationalize the proposed tracking mechanism, and
 
-    ◦ The proposed tracking mechanism accurately reflects USDS usage attributable to the actor and there is no possibility that rewards could be "double counted" (i.e. multiple actors being paid for the same USDS balance).
+    ◦ The proposed tracking mechanism accurately reflects USDS usage attributable to the actor and there is no possibility that rewards could be "double counted" (i.e., multiple actors being paid for the same USDS balance).
 
 - Operational GovOps submits its feedback into the `Operational GovOps Review Document` (created at Create `Operational GovOps Review Document`.) along with suggested changes, if any.
 
@@ -8724,7 +8724,7 @@ The process flow is defined herein:
 - Operational GovOps reviews the `Initial Planning Document` to ensure:
     ◦ The submitted data can be verified using on-chain data;
     ◦ the Savings Rate Adjustment Strategy ensures that the payment on USDS balances equals the Sky Savings Rate, and
-    ◦ the submitted data accurately reflects USDS deposits in the Integration Partner protocol and there is no possibility that rewards could be "double counted" (i.e. multiple actors being paid for the same USDS balance).
+    ◦ the submitted data accurately reflects USDS deposits in the Integration Partner protocol and there is no possibility that rewards could be "double counted" (i.e., multiple actors being paid for the same USDS balance).
 
 - Operational GovOps submits its feedback into the `Operational GovOps Review Document` (created at Create `Operational GovOps Review Document`) along with suggested changes, if any.
 
@@ -9933,7 +9933,7 @@ If the Allocation System Primitive is Activated, then the Prime Agent Artifact m
 
 ###### A.2.2.9.1.2.6.1 - Required Allocation Instance Parameters [Core]  <!-- UUID: 6ad0fdb4-bd11-4d5a-a436-0d106873e0ec -->
 
-For each Allocation Instance, the Prime Agent Artifact must specify: (1) the name of the Allocation Instance, (2) the address of the Allocation Instance, (3) the rate limit of the conduit for inflows and outflows, (4) any other technical parameters of the Allocation Instance (e.g. maximum slippage, oracles used), (5) data submission protocols, and (6) specification of emergency measures that can be used by Operational GovOps if Required Risk Capital or Asset Liability Management obligations are breached.
+For each Allocation Instance, the Prime Agent Artifact must specify: (1) the name of the Allocation Instance, (2) the address of the Allocation Instance, (3) the rate limit of the conduit for inflows and outflows, (4) any other technical parameters of the Allocation Instance (e.g., maximum slippage, oracles used), (5) data submission protocols, and (6) specification of emergency measures that can be used by Operational GovOps if Required Risk Capital or Asset Liability Management obligations are breached.
 
 ###### A.2.2.9.1.2.6.2 - Required Allocation Instance Allocation Strategy [Core]  <!-- UUID: 0e4a5264-1365-4e5c-9be4-dac85ed6b46b -->
 
@@ -10798,7 +10798,7 @@ Responsible moderators are granted the prerogative to ban users from the communi
 
 However, unless egregiously misaligned or disrupting behavior takes place, responsible moderators should err on the side of charity and issue a public warning for users who engage in bad behavior before resorting to banning them. Egregiously misaligned or disrupting behavior includes spamming, flooding, threatening, or using inappropriate or abusive language.
 
-Only the Core Facilitator may ban a user from the Sky Forum when doing so would operationally block an ongoing governance process (e.g. the user has submitted an otherwise eligible governance proposal).
+Only the Core Facilitator may ban a user from the Sky Forum when doing so would operationally block an ongoing governance process (e.g., the user has submitted an otherwise eligible governance proposal).
 
 ###### A.2.7.1.2.1.1.1 - Public Communication Of Bans [Core]  <!-- UUID: d18821e4-cee6-41d0-91fb-b5bb963b2594 -->
 
@@ -10884,7 +10884,7 @@ The dispute resolution process begins with an actor in the Sky Ecosystem request
 
 ###### A.2.8.1.1.2.1.2 - Preliminary Determination Of Reasonableness By Core GovOps [Core]  <!-- UUID: c2f9e098-b0f5-44ae-b44d-a9481707b787 -->
 
-After receiving the request for dispute resolution, Core GovOps makes a brief preliminary determination regarding whether the request is reasonable (i.e. not vexatious or frivolous), within three (3) working days.
+After receiving the request for dispute resolution, Core GovOps makes a brief preliminary determination regarding whether the request is reasonable (i.e., not vexatious or frivolous), within three (3) working days.
 
 ###### A.2.8.1.1.2.1.3 - Handling Of Unreasonable Requests [Core]  <!-- UUID: 7765da19-eae7-4b76-b9e0-155b251be3c7 -->
 
@@ -10998,7 +10998,7 @@ Grove provides the Spark Agent with a right of first refusal for DeFi opportunit
 
 Grove provides the Spark Agent a right of first refusal for pursuing cross-chain bootstrapping opportunities, which lasts four weeks after notification by Grove. If Spark does not wish to deploy SparkLend or provide capital to the protocol in question, Grove retains the right to pursue the opportunity pending security and risk assessments of the target protocol. Upon written notification from Grove of a new DeFi opportunity via a communications channel mutually agreed by the parties, Spark has four weeks to decide whether it wants to deploy SparkLend or lend to the target chain and protocol. If Spark opts not to do so by the end of the four-week period, Grove is permitted to pursue the opportunity.
 
-_Example:__ A lending protocol (i.e. Aave, Euler, Morpho, etc) plans on deploying on blockchain X. Grove provides written notification to Spark about the potential new deployment. Spark evaluates the opportunity and decides there are better opportunities to pursue. The opportunity reverts to Grove after Spark’s refusal; or, if Spark does not issue a formal refusal, the opportunity reverts to Grove after four weeks._
+_Example:__ A lending protocol (e.g., Aave, Euler, Morpho, etc.) plans on deploying on blockchain X. Grove provides written notification to Spark about the potential new deployment. Spark evaluates the opportunity and decides there are better opportunities to pursue. The opportunity reverts to Grove after Spark’s refusal; or, if Spark does not issue a formal refusal, the opportunity reverts to Grove after four weeks._
 
 ###### A.2.8.2.1.2.4.2 - DeFi Opportunities Complementary Deployments [Core]  <!-- UUID: 41ad5689-6679-4129-a24d-aa50334e1f26 -->
 
@@ -11232,7 +11232,7 @@ The Initial Allocation for Grove is 25,000,000 USDS.
 
 ###### A.2.8.2.2.2.5.3 - Initial Allocation Distribution [Core]  <!-- UUID: 6b8fc0e6-ee0b-4a48-a096-2ccb06f64e3f -->
 
-The Initial Allocation is distributed in USDS to each Prime SubProxy (i.e. the Spark SubProxy and Grove SubProxy). Both Grove and Spark elected to distribute 5% of the total token supply over a period of 20 years, lasting from year 10 to year 30, and will receive USDS 25,000,000 each.
+The Initial Allocation is distributed in USDS to each Prime SubProxy (i.e., the Spark SubProxy and Grove SubProxy). Both Grove and Spark elected to distribute 5% of the total token supply over a period of 20 years, lasting from year 10 to year 30, and will receive USDS 25,000,000 each.
 
 ###### A.2.8.2.2.2.5.4 - Initial Allocation Mechanism [Core]  <!-- UUID: eedd0309-b11b-459e-a966-13b16e961ccc -->
 
@@ -11274,7 +11274,7 @@ The subdocuments herein set out agreed terms with respect to intellectual proper
 
 ###### A.2.8.2.2.2.6.1 - License Agreements [Core]  <!-- UUID: bfd79c66-ba55-46d2-a844-eaf8ef44d6d7 -->
 
-Each Prime Foundation (i.e. the Spark Foundation and Grove Foundation) must sign a license agreement with Moonbow for all relevant intellectual property. This license agreement must contain the following terms:
+Each Prime Foundation (i.e., the Spark Foundation and Grove Foundation) must sign a license agreement with Moonbow for all relevant intellectual property. This license agreement must contain the following terms:
 
 - Worldwide, commercial, exclusive license, revocable for material breach (immediate revocation in severe cases, 30-day notice for non-severe cases).
 - Royalty-free.
@@ -11291,15 +11291,15 @@ Each Prime Foundation (i.e. the Spark Foundation and Grove Foundation) must sign
 
 ###### A.2.8.2.2.2.6.2 - Open Source Protocol Code [Core]  <!-- UUID: fa90cec7-7b65-4798-a376-00cd8454bc0c -->
 
-All components of code that form part of the Prime Protocols (i.e. Spark and Grove) will be open source.
+All components of code that form part of the Prime Protocols (i.e., Spark and Grove) will be open source.
 
 ###### A.2.8.2.2.2.6.3 - Financial Strategies [Core]  <!-- UUID: eb550b0a-3ffc-4a86-b8fe-9cc1f60f2a7e -->
 
-The financial strategies implemented by the Prime Foundations (i.e. the Spark Foundation and Grove Foundation) will be closed source. Operational specifics are further defined in the subdocuments herein.
+The financial strategies implemented by the Prime Foundations (i.e., the Spark Foundation and Grove Foundation) will be closed source. Operational specifics are further defined in the subdocuments herein.
 
 ###### A.2.8.2.2.2.6.3.1 - Role Of Prime Foundation [Core]  <!-- UUID: ec0b206a-bf87-4ca8-aa7f-aa4ca1bc80f8 -->
 
-The Prime Foundation (i.e. the Spark Foundation and Grove Foundation) will retain ownership of the code and strategies that determine how capital is allocated for its Prime. They will contract with the Development Company for the development and execution of the strategies.
+The Prime Foundation (i.e., the Spark Foundation and Grove Foundation) will retain ownership of the code and strategies that determine how capital is allocated for its Prime. They will contract with the Development Company for the development and execution of the strategies.
 
 ###### A.2.8.2.2.2.6.3.2 - Role Of Development Company [Core]  <!-- UUID: d88e4c91-cce4-4f95-a989-ea876ccdf99b -->
 
@@ -11409,7 +11409,7 @@ The settlement mechanism for the Token Launch Penalty, including the calculation
 
 ###### A.2.8.2.2.2.8.2 - Transfer Of Capital Funds [Core]  <!-- UUID: 760c4258-50f7-4334-af21-888759194e64 -->
 
-The transfer of the Genesis Capital Allocation to each Prime SubProxy (i.e. the Spark SubProxy and Grove SubProxy) shall occur once funding from the Surplus Buffer is approved. This condition ensures that capital deployment is aligned with the successful launch of the Prime's token and the commencement of its independent operations.
+The transfer of the Genesis Capital Allocation to each Prime SubProxy (i.e., the Spark SubProxy and Grove SubProxy) shall occur once funding from the Surplus Buffer is approved. This condition ensures that capital deployment is aligned with the successful launch of the Prime's token and the commencement of its independent operations.
 
 ###### A.2.8.2.2.2.8.2.1 - Transfer Of Genesis Capital Allocation To Spark SubProxy [Core]  <!-- UUID: e3ec99ec-54c9-4fe7-8104-aee20c57ec57 -->
 
@@ -12254,7 +12254,7 @@ Lawyers will be onboarded in the Lawyer Registry covering at least the areas spe
 |                                  | Securities Law Disputes (private party claims, class actions, etc.) | Sky investor claims, Lawsuits against Sky CORE actors                                                            |
 |                                  | Intellectual Property                                | Patent Claims/Trolls, Trademark Claims/Trolls                                                                     |
 |                                  | General Litigation – Any other Party-Party Disputes  | Disputes between Sky and 3rd party suppliers, Breach of contract disputes, Employment law disputes, Disputes between Sky and Ecosystem actors |
-| Commercial Matters (non-litigious) | Commercial and Contracts                            | Commercial transactions (Audits, listing agreements, inter-Agent agreements affecting Sky Core etc.), Contracts and Procurement (includes contract management), Competition/Anti-Trust Law, Data protection and Privacy, Insurance Law |
+| Commercial Matters (non-litigious) | Commercial and Contracts                            | Commercial transactions (Audits, listing agreements, inter-Agent agreements affecting Sky Core, etc.), Contracts and Procurement (includes contract management), Competition/Anti-Trust Law, Data protection and Privacy, Insurance Law |
 |                                  | Intellectual Property, Information Technology        | IT procurement, licenses, and contracts, Convergent technologies, Intellectual property rights, Data protection and privacy, Trademark/Patent applications |
 |                                  | Corporate Structuring, Entity Formation/Reporting, Corporate Financing and Tax | Entity formation assistance provided to Sky Core, Annual Reporting/Filings, Company Law, Corporate Finance, Tax Law |`
 
@@ -13104,7 +13104,7 @@ Smart Contract Risk refers to the risk that an investment through the Allocation
 
 ###### A.3.2.1.1.5.2 - Risk Rating [Core]  <!-- UUID: 3cdbe77b-5df8-4ebb-9604-65db818abe69 -->
 
-The determination of Smart Contract Risk should initially be based on an evaluation of the risk that the investment could experience losses due to a bug or technical exploit. This determination should take into account factors such as (1) the technical complexity of the code base (e.g. cyclomatic complexity, decision points, number of external calls, lines of code), (2) the number, quality, and recency of audits, and (3) the "Lindiness" of the relevant smart contracts.
+The determination of Smart Contract Risk should initially be based on an evaluation of the risk that the investment could experience losses due to a bug or technical exploit. This determination should take into account factors such as (1) the technical complexity of the code base (e.g., cyclomatic complexity, decision points, number of external calls, lines of code), (2) the number, quality, and recency of audits, and (3) the "Lindiness" of the relevant smart contracts.
 
 ###### A.3.2.1.1.5.3 - Required Risk Capital [Core]  <!-- UUID: eee90ace-5ee9-4efe-be26-6d3597d8b4a1 -->
 
@@ -13780,11 +13780,11 @@ For Indirect Ethena Exposure through lending markets, only the portion of the ex
 
 ###### A.3.2.2.1.1.1.2.1.1.1.2.1 - Lending Ethena Related Assets Against Ethena Related Collateral [Core]  <!-- UUID: cfa615fb-9927-4059-873a-7c824a517835 -->
 
-For Ethena related assets lent against Ethena related collateral (e.g. lending USDe or sUSDe against PT-USDe or PT-sUSDe), the Instance Financial CRR is 3%.
+For Ethena related assets lent against Ethena related collateral (e.g., lending USDe or sUSDe against PT-USDe or PT-sUSDe), the Instance Financial CRR is 3%.
 
 ###### A.3.2.2.1.1.1.2.1.1.1.2.2 - Lending Non-Ethena Related Assets Against Ethena Related Collateral [Core]  <!-- UUID: dadc95a6-c8ef-4abb-b9a5-d51bf2c0bf29 -->
 
-For non-Ethena related assets lent against Ethena related collateral (e.g. lending USDC against PT-USDe or PT-sUSDe), the Instance Financial CRR is 4%.
+For non-Ethena related assets lent against Ethena related collateral (e.g., lending USDC against PT-USDe or PT-sUSDe), the Instance Financial CRR is 4%.
 
 ###### A.3.2.2.1.1.1.2.1.1.1.3 - Pendle Ethena Exposures [Core]  <!-- UUID: 4094c159-9132-454a-81be-361a461b5098 -->
 
@@ -14033,7 +14033,7 @@ Credit Risk for On-Balance Sheet or Off-Balance Sheet Items is calculated based 
 | Credit substitutes not included in any other category | `CRE20.95` |
 | Note issuance facilities | `CRE20.96` |
 | Revolving underwriting facilities | `CRE20.96` |
-| Certain transactions-related contingent items (e.g. performance bonds, bid bonds, warranties, standby letters of credit) | `CRE20.97` |
+| Certain transactions-related contingent items (e.g., performance bonds, bid bonds, warranties, standby letters of credit) | `CRE20.97` |
 | Commitments regardless of the maturity of the underlying facility | `CRE20.98` |
 | Both issuing and confirming banks of short-term self-liquidating trade letters of credit arising from the movement of goods | `CRE20.99` |
 | Commitments that are unconditionally cancellable at any time by the bank without prior notice | `CRE20.100` |
@@ -14149,7 +14149,7 @@ External sources such as third party data providers, security consultants, and p
 
 ###### A.3.2.2.1.2.1.2 - Locating Verified Code [Core]  <!-- UUID: b4e430a3-e848-4ef1-9b3a-6da724060674 -->
 
-Second, the source code for each relevant contract must be obtained. The source code should be obtained for the deployed version of the contract using an appropriate block explorer (e.g. Etherscan for Ethereum Mainnet or L2s). The source code should include any dependencies or inherited library contracts that are part of the live system.
+Second, the source code for each relevant contract must be obtained. The source code should be obtained for the deployed version of the contract using an appropriate block explorer (e.g., Etherscan for Ethereum Mainnet or L2s). The source code should include any dependencies or inherited library contracts that are part of the live system.
 
 ###### A.3.2.2.1.2.2 - Smart Contract Risk Rating Calculation [Core]  <!-- UUID: 00fd9362-f606-49bc-a425-9c96008be238 -->
 
@@ -14218,7 +14218,7 @@ The Decision Points Weight $\text{DPweight}$ is a weighting factor indicating th
 
 ###### A.3.2.2.1.2.2.3.3.5 - Total External Calls [Core]  <!-- UUID: 028431ff-5b02-4f42-9224-6b53ff8756c8 -->
 
-Total External Calls is the count of all external calls (e.g. `call`, `delegatecall`) made in the covered smart contracts.
+Total External Calls is the count of all external calls (e.g., `call`, `delegatecall`) made in the covered smart contracts.
 
 ###### A.3.2.2.1.2.2.3.3.6 - External Calls Weight [Core]  <!-- UUID: 3088abe3-4206-431a-9408-9672cc45d61a -->
 
@@ -14884,7 +14884,7 @@ A protocol with no backdoor access allows no privileged access to the relevant s
 
 ###### A.3.2.2.1.3.1.2.2 - Limited Backdoor [Core]  <!-- UUID: ef31a379-c7ea-43c6-9a68-0f6083fcfeaf -->
 
-A protocol with limited backdoor access allows a set of privileged users to materially modify the terms of the smart contracts (e.g. freezing the transfer of funds) but does not allow root backdoor access as specified in [A.3.2.2.1.3.1.2.3 - Root Backdoor](7d203683-a16c-479c-8425-2fed3b4c2375). The Starting Rate for a protocol with limited backdoor access is `50`.
+A protocol with limited backdoor access allows a set of privileged users to materially modify the terms of the smart contracts (e.g., freezing the transfer of funds) but does not allow root backdoor access as specified in [A.3.2.2.1.3.1.2.3 - Root Backdoor](7d203683-a16c-479c-8425-2fed3b4c2375). The Starting Rate for a protocol with limited backdoor access is `50`.
 
 ###### A.3.2.2.1.3.1.2.3 - Root Backdoor [Core]  <!-- UUID: 7d203683-a16c-479c-8425-2fed3b4c2375 -->
 
@@ -15474,7 +15474,7 @@ In a Peg Defense Event, all Prime Agents must immediately begin to buy USDS at a
 
 ###### A.3.3.2.4.2.1 - Alternatives For Satisfying Peg Defense Obligations [Core]  <!-- UUID: 58c006ae-d7a7-4e23-929a-18b2bdfe62a5 -->
 
-Peg Defense can be performed through a combination of (1) selling other types of collateral for USDS, or (2) by using USDS, or generating new USDS via the Allocation System, that is then used as collateral to borrow other types of assets (e.g. USDC or USDT on Aave) and buy USDS with it.
+Peg Defense can be performed through a combination of (1) selling other types of collateral for USDS, or (2) by using USDS, or generating new USDS via the Allocation System, that is then used as collateral to borrow other types of assets (e.g., USDC or USDT on Aave) and buy USDS with it.
 
 ##### A.3.3.2.4.3 - Penalties For Failure To Satisfy Peg Defense Obligations [Core]  <!-- UUID: 438697e3-7c67-4fc4-b174-df4d2fee176f -->
 
@@ -20204,7 +20204,7 @@ The documents herein define the steps for an operator to `mint` USDS from the Sk
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.1.1.1 - Relayer Role [Core]  <!-- UUID: a0424398-100e-4c6e-9691-f59efbda6fcd -->
 
-The operator must ensure they are working as a `Relayer`. Only the `RELAYER` role is allowed to `mintUSDS`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `Relayer`. Only the `RELAYER` role is allowed to `mintUSDS`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function mintUSDS(uint256 usdsAmount)
         external
@@ -20242,7 +20242,7 @@ The operator must call the `MainnetController` contract to `transfer` USDS from 
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.1.1.4.1 - Encode Transfer Function [Core]  <!-- UUID: b46d9837-cca9-4d36-8363-a32379d28f93 -->
 
-The operator must encode the `transfer` function call, using `abi.encodeCall` with the `buffer` address USDS will be transferred from, the `proxy` address that will receive USDS (i.e. ALM Proxy), and the `amount` of USDS to `transfer`.
+The operator must encode the `transfer` function call, using `abi.encodeCall` with the `buffer` address USDS will be transferred from, the `proxy` address that will receive USDS (i.e., ALM Proxy), and the `amount` of USDS to `transfer`.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.1.1.4.2 - Send Encoded Call [Core]  <!-- UUID: 39ed68c1-6341-44a3-a8ee-4ae982acf341 -->
 
@@ -20261,7 +20261,7 @@ The documents herein define the steps for an operator to return and then `burn` 
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.1.2.1 - Relayer Role [Core]  <!-- UUID: bcb7d73b-3f6d-4b79-8c8f-6cbbb438dcf3 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `burnUSDS`. They must also ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `burnUSDS`. They must also ensure the contract `isActive`, i.e., can process the request.
 
 `function burnUSDS(uint256 usdsAmount)
         external
@@ -20408,7 +20408,7 @@ The documents herein define a series of operations for an operator to `swap` USD
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.4.1.1 - Relayer Role [Core]  <!-- UUID: a84b5647-13f5-4a47-92fa-a1de76059c31 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `swapUSDSToUSDC`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `swapUSDSToUSDC`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function swapUSDSToUSDC(uint256 usdcAmount)
         external
@@ -20475,7 +20475,7 @@ The documents herein define a series of operations for an operator to `swap` USD
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.4.2.1 - Relayer Role [Core]  <!-- UUID: bceb6404-8060-4bb7-86f5-8a5c98f6ebea -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `swapUSDCToUSDS`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `swapUSDCToUSDS`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function swapUSDCToUSDS(uint256 usdcAmount)
         external
@@ -20589,7 +20589,7 @@ The documents herein define the process to bridge USDC using the Circle Cross-Ch
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.5.1.1 - Relayer Role [Core]  <!-- UUID: eb5d0ce2-ae57-4a99-b020-02e611667fbe -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `transferUSDCToCCTP`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `transferUSDCToCCTP`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function transferUSDCToCCTP(uint256 usdcAmount, uint32 destinationDomain)
         external
@@ -21529,7 +21529,7 @@ The documents herein define the steps to deposit assets from the ALM Proxy to th
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.3.1.1 - Relayer Role [Core]  <!-- UUID: 25fd8f89-cb76-464e-b659-e2e1885ac4c5 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `depositAave`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `depositAave`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function depositAave(address aToken, uint256 amount)
 external
@@ -21594,7 +21594,7 @@ The operator must call the `deposit` function to transfer the `underlying` asset
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.3.1.7.1 - Encode Function Call [Core]  <!-- UUID: 7d5b7673-1d17-4d64-9777-9d584d99ada6 -->
 
-The operator must encode the `deposit` function call, using `abi.encodeCall` with the address of the `underlying` token, the `amount` of the underlying asset to `deposit` and the `address(proxy)` that will receive the resulting `aTokens` (i.e. ALM Proxy).
+The operator must encode the `deposit` function call, using `abi.encodeCall` with the address of the `underlying` token, the `amount` of the underlying asset to `deposit` and the `address(proxy)` that will receive the resulting `aTokens` (i.e., ALM Proxy).
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.3.1.7.2 - Send Encoded Call [Core]  <!-- UUID: 58ca518e-9ff1-4008-9616-18f135a33772 -->
 
@@ -21613,7 +21613,7 @@ The documents herein define the steps for an operator to withdraw a yield-earnin
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.3.2.1 - Relayer Role [Core]  <!-- UUID: 9daa0cad-61ef-43e3-9e78-aaddde2e5c35 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `withdrawAave` tokens. Also, they ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `withdrawAave` tokens. Also, they ensure the contract `isActive`, i.e., can process the request.
 
 `function withdrawAave(address aToken, uint256 amount)
 external
@@ -21650,7 +21650,7 @@ The operator must call the `withdraw` function to withdraw a required amount of 
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.3.2.6.1 - Encode Function Call [Core]  <!-- UUID: d0168bc6-231f-44b8-87f6-b1cad0d742cc -->
 
-The operator must encode the `withdraw` function using `abi.encodeCall` with the `underlying asset address` from the `aToken` contract, specifying which token is being withdrawn, the `amount` of the underlying asset to `withdraw`, and the `address(proxy)` of the recipient of the withdrawn assets (i.e. ALM Proxy).
+The operator must encode the `withdraw` function using `abi.encodeCall` with the `underlying asset address` from the `aToken` contract, specifying which token is being withdrawn, the `amount` of the underlying asset to `withdraw`, and the `address(proxy)` of the recipient of the withdrawn assets (i.e., ALM Proxy).
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.3.2.6.2 - Send Encoded Call [Core]  <!-- UUID: 664e5cea-9efb-4db8-96b1-3afee35d4860 -->
 
@@ -22234,7 +22234,7 @@ The documents herein define the process for an operator to set a delegated signe
 
 ###### A.6.1.1.1.2.6.1.3.1.4.1.3.2.1 - Relayer Role [Core]  <!-- UUID: bb5f7a55-8c79-4678-a281-8264eb5de225 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `setDelegatedSigner`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `setDelegatedSigner`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function setDelegatedSigner(address delegatedSigner)
         external
@@ -22258,7 +22258,7 @@ The documents herein define the process for an operator to remove a delegated si
 
 ###### A.6.1.1.1.2.6.1.3.1.4.1.3.3.1 - Relayer Role [Core]  <!-- UUID: 157361f8-7758-4e6b-a04d-a592d40b3b41 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `removeDelegatedSigner`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `removeDelegatedSigner`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function removeDelegatedSigner(address delegatedSigner)
         external
@@ -22282,7 +22282,7 @@ The documents herein define the process for an operator to approve the minting o
 
 ###### A.6.1.1.1.2.6.1.3.1.4.1.3.4.1 - Relayer Role [Core]  <!-- UUID: 41214aef-fb81-42d5-ade2-f7263b8fffb0 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `prepareUSDeMint`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `prepareUSDeMint`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function prepareUSDeMint(uint256 usdcAmount)
         external
@@ -22312,7 +22312,7 @@ The documents herein define the process for an operator to approve the burning o
 
 ###### A.6.1.1.1.2.6.1.3.1.4.1.3.5.1 - Relayer Role [Core]  <!-- UUID: 083618d3-6102-4a1a-bc7a-dfa854d49197 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `prepareUSDeBurn`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `prepareUSDeBurn`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function prepareUSDeBurn(uint256 usdeAmount)
         external
@@ -22414,7 +22414,7 @@ The documents herein define the process for an operator to initiate a sUSDe Cool
 
 ###### A.6.1.1.1.2.6.1.3.1.4.2.3.1.1 - Relayer Role [Core]  <!-- UUID: 463dba18-1e74-49bd-b06f-7df0b0cedae7 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `cooldownAssetsSUSDe`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `cooldownAssetsSUSDe`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function cooldownAssetsSUSDe(uint256 usdeAmount)
         external
@@ -22444,7 +22444,7 @@ The documents herein define the process for an operator to cool down sUSDe share
 
 ###### A.6.1.1.1.2.6.1.3.1.4.2.3.2.1 - Relayer Role [Core]  <!-- UUID: eacdbe29-1c6b-43b4-93a6-5e4eb9aa0fa7 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `cooldownSharesSUSDe`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `cooldownSharesSUSDe`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function cooldownSharesSUSDe(uint256 susdeAmount)
         external
@@ -22481,7 +22481,7 @@ The documents herein define the process for an operator to unstake sUSDe and ret
 
 ###### A.6.1.1.1.2.6.1.3.1.4.2.3.3.1 - Relayer Role [Core]  <!-- UUID: 9984b00e-ecc2-4328-9e86-c0c2e913f79a -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `unstakeSUSDe`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `unstakeSUSDe`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function unstakeSUSDe()
         external
@@ -22490,7 +22490,7 @@ The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` rol
 
 ###### A.6.1.1.1.2.6.1.3.1.4.2.3.3.2 - Encode Function [Core]  <!-- UUID: 24486f09-3df1-4620-bd0f-8368b1e3ed7c -->
 
-The operator must use `proxy.doCall()` to make a call to the `susde` contract to invoke the `unstake` function, which unstakes sUSDe and sends the resulting tokens back to the `proxy` address (i.e. ALM Proxy). They must encode the function using `abi.encodeCall`.
+The operator must use `proxy.doCall()` to make a call to the `susde` contract to invoke the `unstake` function, which unstakes sUSDe and sends the resulting tokens back to the `proxy` address (i.e., ALM Proxy). They must encode the function using `abi.encodeCall`.
 
 `{
     proxy.doCall(
@@ -22601,7 +22601,7 @@ The documents herein define the steps for an operator to deposit assets from the
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.3.1.1 - Relayer Role [Core]  <!-- UUID: 9ba1c843-7332-4602-a675-172d5312054d -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `depositERC4626` tokens. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `depositERC4626` tokens. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function depositERC4626(address token, uint256 amount)
         external
@@ -22649,7 +22649,7 @@ The operator must call the `deposit` ERC-4626 function to transfer the underlyin
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.3.1.5.1 - Encode Function Call [Core]  <!-- UUID: 6eb71a3a-09b6-430d-9677-af0c3f9667f1 -->
 
-The operator must encode the function call to ERC-4626 `deposit` method, using `abi.encodeCall` with the address of the ERC-4626 `token` vault (`[Instance_Fluid_USDS_Vault_Address_Placeholder]`), the `amount` of the underlying asset to `deposit` and the `address(proxy)` that will receive the resulting shares (i.e. ALM Proxy).
+The operator must encode the function call to ERC-4626 `deposit` method, using `abi.encodeCall` with the address of the ERC-4626 `token` vault (`[Instance_Fluid_USDS_Vault_Address_Placeholder]`), the `amount` of the underlying asset to `deposit` and the `address(proxy)` that will receive the resulting shares (i.e., ALM Proxy).
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.3.1.5.2 - Send Encoded Call [Core]  <!-- UUID: 6fd50750-0bee-4895-8ef4-ced22d81ce66 -->
 
@@ -22675,7 +22675,7 @@ The documents herein define the steps for an operator to withdraw a yield-earnin
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.3.2.1 - Relayer Role [Core]  <!-- UUID: 3ad29e6a-90fb-4739-aacf-434e467c070e -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `withdrawERC4626` tokens. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `withdrawERC4626` tokens. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function withdrawERC4626(address token, uint256 amount)
         external
@@ -22688,7 +22688,7 @@ The operator must ensure that the ALM Proxy holds sufficient shares of the ERC-4
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.3.2.3 - Check RateLimits [Core]  <!-- UUID: 5b77e7bb-5f31-48eb-9cdd-8fb799986788 -->
 
-The operator must ensure the `withdraw` amount is allowed within the `RateLimits `for this instance (e.g. using `[Instance_RateLimitID_Withdraw_Placeholder]` for `token` `[Instance_Fluid_USDS_Vault_Address_Placeholder]`).
+The operator must ensure the `withdraw` amount is allowed within the `RateLimits `for this instance (e.g., using `[Instance_RateLimitID_Withdraw_Placeholder]` for `token` `[Instance_Fluid_USDS_Vault_Address_Placeholder]`).
 
 `// Check withdrawal limits.
         rateLimited(
@@ -22703,7 +22703,7 @@ The operator must call the `withdraw` ERC-4626 function to withdraw a required a
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.3.2.4.1 - Encode Function Call [Core]  <!-- UUID: e8053d8a-c24c-4acc-a928-c57fdbe11810 -->
 
-The operator must encode the function call to the ERC-4626 `withdraw` method, using `abi.encodeCall` with the address of the ERC-4626 `token` vault (`[Instance_Fluid_USDS_Vault_Address_Placeholder]`), the `amount` of the underlying asset to `withdraw` and the `address(proxy)` of the recipient of the withdrawn assets and the sender of the shares (i.e. ALM Proxy).
+The operator must encode the function call to the ERC-4626 `withdraw` method, using `abi.encodeCall` with the address of the ERC-4626 `token` vault (`[Instance_Fluid_USDS_Vault_Address_Placeholder]`), the `amount` of the underlying asset to `withdraw` and the `address(proxy)` of the recipient of the withdrawn assets and the sender of the shares (i.e., ALM Proxy).
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.3.2.4.2 - Send Encoded Call [Core]  <!-- UUID: d1889137-80a3-4e21-a5ea-522d23830574 -->
 
@@ -22731,7 +22731,7 @@ The operator must call the `redeem` ERC-4626 function to redeem a specific numbe
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.3.2.5.1 - Encode Function Call [Core]  <!-- UUID: 13e8ea29-273a-45ce-9a61-10256fb7caf0 -->
 
-The operator must encode the function call to the ERC-4626 `redeem` method, using `abi.encodeCall` with the address of the ERC-4626 `token` vault(`[Instance_Morpho_USDS_Vault_Address_Placeholder]`), the `shares` to `redeem` and the `address(proxy)` of the receiver of redeemed assets and the owner of shares being received (i.e. ALM Proxy).
+The operator must encode the function call to the ERC-4626 `redeem` method, using `abi.encodeCall` with the address of the ERC-4626 `token` vault(`[Instance_Morpho_USDS_Vault_Address_Placeholder]`), the `shares` to `redeem` and the `address(proxy)` of the receiver of redeemed assets and the owner of shares being received (i.e., ALM Proxy).
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.3.2.5.2 - Send Encoded Call [Core]  <!-- UUID: 4992974d-f666-4b23-8623-4eedc3a96e91 -->
 
@@ -28315,7 +28315,7 @@ Spark's strategic investment will be undertaken with the following terms:
     ◦ Simple Agreement for Future Equity (SAFE) substantially mirroring the Ycombinator SAFE format
     ◦ Token warrant providing for token ownership share equal to at least 50% of Spark's share of equity ownership at the time of token launch
     ◦ Side letter providing for most favored nation rights, pro rata rights, information rights, major investor rights, and right to elect one director
-- Fee reduction: Spark will benefit from reduced fees for use of Arkis protocol for 5 years with Spark Foundation holding the option to extend by 2 additional years, assessed as a 50% reduction vs the lowest rate of fees paid by any other user
+- Fee reduction: Spark will benefit from reduced fees for use of Arkis protocol for 5 years with Spark Foundation holding the option to extend by 2 additional years, assessed as a 50% reduction vs. the lowest rate of fees paid by any other user
 
 ###### A.6.1.1.1.3.6.2.1.2 - Delegation of Authority [Core]  <!-- UUID: 483d37f0-0143-44cc-b470-63bbe7913f6d -->
 
@@ -28545,7 +28545,7 @@ The length of time that a loan is issued under specific terms. At the conclusion
 
 ###### A.6.1.1.1.3.7.2.4.1.2 - Borrow Rate [Core]  <!-- UUID: ab65feec-36fd-4138-bf00-df715fb896e5 -->
 
-The minimum borrow rate that accrues on the outstanding loan balance, expressed as an annual percentage. Actual borrow rate charged may be structured in various ways including fixed rate, fixed spread vs a benchmark, performance fee or profit sharing based, or combination of the above. However, loans may not be issued with borrow cost structures below the values specified in this Loan Terms section.
+The minimum borrow rate that accrues on the outstanding loan balance, expressed as an annual percentage. Actual borrow rate charged may be structured in various ways including fixed rate, fixed spread vs. a benchmark, performance fee or profit sharing based, or combination of the above. However, loans may not be issued with borrow cost structures below the values specified in this Loan Terms section.
 
 ###### A.6.1.1.1.3.7.2.4.2 - Loan Terms Current Configuration [Core]  <!-- UUID: 5f14d3d4-7def-4cbc-b6d8-3775c8262568 -->
 
@@ -28762,7 +28762,7 @@ The length of time that a loan is issued under specific terms. At the conclusion
 
 ###### A.6.1.1.1.3.8.2.4.1.2 - Borrow Rate [Core]  <!-- UUID: 0ea26c9e-3dc5-43c0-8cc7-d9075afce8f3 -->
 
-The minimum borrow rate that accrues on the outstanding loan balance, expressed as an annual percentage. Actual borrow rate charged may be structured in various ways including fixed rate, fixed spread vs a benchmark, performance fee or profit sharing based, or combination of the above. However, loans may not be issued with borrow cost structures below the values specified in this Loan Terms section.
+The minimum borrow rate that accrues on the outstanding loan balance, expressed as an annual percentage. Actual borrow rate charged may be structured in various ways including fixed rate, fixed spread vs. a benchmark, performance fee or profit sharing based, or combination of the above. However, loans may not be issued with borrow cost structures below the values specified in this Loan Terms section.
 
 ###### A.6.1.1.1.3.8.2.4.1.3 - Margin Call Cure Period [Core]  <!-- UUID: 0d3f2142-7069-41c6-8b79-e4972a3e4bdc -->
 
@@ -29275,7 +29275,7 @@ This document contains a Directory of all Instances of the Executor Accord Primi
 
 ###### A.6.1.1.2.2.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 163e4dcb-8614-434b-884e-3a20eef260f1 -->
 
-This document contains a Directory of all prospective Instances of the Executor Accord Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.2.2.2.1.1.2 - Active Instances Directory](22b27ed2-345c-4c6e-b20a-4da40e763745) , whereas failed Invocations are Archived in [A.6.1.1.2.2.2.1.1.5 - Hub Data Repository](dd89d92c-6aef-4dc6-a218-fe498d4f1756).
+This document contains a Directory of all prospective Instances of the Executor Accord Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.2.2.2.1.1.2 - Active Instances Directory](22b27ed2-345c-4c6e-b20a-4da40e763745), whereas failed Invocations are Archived in [A.6.1.1.2.2.2.1.1.5 - Hub Data Repository](dd89d92c-6aef-4dc6-a218-fe498d4f1756).
 
 ###### A.6.1.1.2.2.2.1.1.5 - Hub Data Repository [Core]  <!-- UUID: dd89d92c-6aef-4dc6-a218-fe498d4f1756 -->
 
@@ -30842,7 +30842,7 @@ The documents herein define the steps for an operator to `mint` USDS from the Sk
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.1.1.1 - Relayer Role [Core]  <!-- UUID: 044fed6d-5a18-48d1-89df-777f86e4652a -->
 
-The operator must ensure they are working as a `Relayer`. Only the `RELAYER` role is allowed to `mintUSDS`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `Relayer`. Only the `RELAYER` role is allowed to `mintUSDS`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function mintUSDS(uint256 usdsAmount)
         external
@@ -30880,7 +30880,7 @@ The operator must call the `MainnetController` contract to `transfer` USDS from 
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.1.1.4.1 - Encode Transfer Function [Core]  <!-- UUID: 2a0d2948-5e23-4fc4-bad5-c692644f58c7 -->
 
-The operator must encode the `transfer` function call, using `abi.encodeCall` with the `buffer` address USDS will be transferred from, the `proxy` address that will receive USDS (i.e. ALM Proxy), and the `amount` of USDS to `transfer`.
+The operator must encode the `transfer` function call, using `abi.encodeCall` with the `buffer` address USDS will be transferred from, the `proxy` address that will receive USDS (i.e., ALM Proxy), and the `amount` of USDS to `transfer`.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.1.1.4.2 - Send Encoded Call [Core]  <!-- UUID: 043d3c4c-7fa0-4bba-8393-ea762c109bce -->
 
@@ -30899,7 +30899,7 @@ The documents herein define the steps for an operator to return and then `burn` 
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.1.2.1 - Relayer Role [Core]  <!-- UUID: 23d1b504-bd08-4759-b2d6-9067fdbcaedd -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `burnUSDS`. They must also ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `burnUSDS`. They must also ensure the contract `isActive`, i.e., can process the request.
 
 `function burnUSDS(uint256 usdsAmount)
         external
@@ -31008,7 +31008,7 @@ The documents herein define a series of operations for an operator to `swap` USD
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.3.1.1 - Relayer Role [Core]  <!-- UUID: bd3ff49e-77af-4757-984d-f8e91346e702 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `swapUSDSToUSDC`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `swapUSDSToUSDC`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function swapUSDSToUSDC(uint256 usdcAmount)
         external
@@ -31075,7 +31075,7 @@ The documents herein define a series of operations for an operator to `swap` USD
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.3.2.1 - Relayer Role [Core]  <!-- UUID: a3637c8d-ce3e-4cc8-ae15-2a8623a841db -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `swapUSDCToUSDS`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `swapUSDCToUSDS`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function swapUSDCToUSDS(uint256 usdcAmount)
         external
@@ -31832,7 +31832,7 @@ The documents herein define the process for an operator to set a delegated signe
 
 ###### A.6.1.1.2.2.6.1.3.1.4.1.3.2.1 - Relayer Role [Core]  <!-- UUID: be6df08e-d837-4ad8-bce4-69adbaec2213 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `setDelegatedSigner`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `setDelegatedSigner`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function setDelegatedSigner(address delegatedSigner)
         external
@@ -31856,7 +31856,7 @@ The documents herein define the process for an operator to remove a delegated si
 
 ###### A.6.1.1.2.2.6.1.3.1.4.1.3.3.1 - Relayer Role [Core]  <!-- UUID: 55d5ce02-6dc2-49c8-a482-8b10fa24f8b6 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `removeDelegatedSigner`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `removeDelegatedSigner`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function removeDelegatedSigner(address delegatedSigner)
         external
@@ -31880,7 +31880,7 @@ The documents herein define the process for an operator to approve the minting o
 
 ###### A.6.1.1.2.2.6.1.3.1.4.1.3.4.1 - Relayer Role [Core]  <!-- UUID: 47f20c86-d122-4ab2-a9b0-5458e4b5797f -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `prepareUSDeMint`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `prepareUSDeMint`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function prepareUSDeMint(uint256 usdcAmount)
         external
@@ -31910,7 +31910,7 @@ The documents herein define the process for an operator to approve the burning o
 
 ###### A.6.1.1.2.2.6.1.3.1.4.1.3.5.1 - Relayer Role [Core]  <!-- UUID: 5d3210e1-2ad4-440f-9c61-6adcc22abc90 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `prepareUSDeBurn`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `prepareUSDeBurn`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function prepareUSDeBurn(uint256 usdeAmount)
         external
@@ -32016,7 +32016,7 @@ The documents herein define the process for an operator to initiate a sUSDe Cool
 
 ###### A.6.1.1.2.2.6.1.3.1.4.2.3.1.1 - Relayer Role [Core]  <!-- UUID: fc7b35c1-185a-41b1-83df-8d8e04349864 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `cooldownAssetsSUSDe`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `cooldownAssetsSUSDe`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function cooldownAssetsSUSDe(uint256 usdeAmount)
         external
@@ -32046,7 +32046,7 @@ The documents herein define the process for an operator to cool down sUSDe share
 
 ###### A.6.1.1.2.2.6.1.3.1.4.2.3.2.1 - Relayer Role [Core]  <!-- UUID: ba771f78-163f-4ec6-990d-ec8cc25e0393 -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `cooldownSharesSUSDe`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `cooldownSharesSUSDe`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function cooldownSharesSUSDe(uint256 susdeAmount)
         external
@@ -32083,7 +32083,7 @@ The documents herein define the process for an operator to unstake sUSDe and ret
 
 ###### A.6.1.1.2.2.6.1.3.1.4.2.3.3.1 - Relayer Role [Core]  <!-- UUID: 1f19cb45-1934-4e2e-8d07-0d4b78e7188c -->
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `unstakeSUSDe`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `unstakeSUSDe`. Also, they must ensure the contract `isActive`, i.e., can process the request.
 
 `function unstakeSUSDe()
         external
@@ -32092,7 +32092,7 @@ The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` rol
 
 ###### A.6.1.1.2.2.6.1.3.1.4.2.3.3.2 - Encode Function [Core]  <!-- UUID: 516ca684-b183-4d57-9feb-97a7a9b58e42 -->
 
-The operator must use `proxy.doCall()` to make a call to the `susde` contract to invoke the `unstake` function, which unstakes sUSDe and sends the resulting tokens back to the `proxy` address (i.e. ALM Proxy). They must encode the function using `abi.encodeCall`.
+The operator must use `proxy.doCall()` to make a call to the `susde` contract to invoke the `unstake` function, which unstakes sUSDe and sends the resulting tokens back to the `proxy` address (i.e., ALM Proxy). They must encode the function using `abi.encodeCall`.
 
 `{
     proxy.doCall(
@@ -36706,7 +36706,7 @@ The Data Submission Responsible Actor calculates the net deposits based on on-ch
 
 ###### A.6.1.1.3.2.5.2.2.4.1.6 - Integration Boost Data Submission Responsible Actor [Core]  <!-- UUID: 94bc2f19-0cbd-4afe-8c5d-d909092fb31d -->
 
-The Data Submission Responsible Actor is the Core Council Risk Advisor..
+The Data Submission Responsible Actor is the Core Council Risk Advisor.
 
 ###### A.6.1.1.3.2.5.2.2.4.1.7 - Integration Boost Savings Rate Adjustment Strategy [Core]  <!-- UUID: 492bb423-8995-4e93-9bba-d063410bed8e -->
 
@@ -38107,7 +38107,7 @@ The Relayer role is the address(es) for the Keel Liquidity Layer ALM Planner off
 
 ###### A.6.1.1.3.2.6.1.2.2.2.1.1.3 - Freezer Role [Core]  <!-- UUID: 6f7becc7-2e70-44e5-8662-25ba7dd1a5f8 -->
 
-The Freezer role is the address of the emergency role that can remove a compromised Relayer. The Freezer role has `can_freeze_controller` , `can_suspend_permissions` and `can_liquidate` permissions.
+The Freezer role is the address of the emergency role that can remove a compromised Relayer. The Freezer role has `can_freeze_controller`, `can_suspend_permissions`, and `can_liquidate` permissions.
 
 ###### A.6.1.1.3.2.6.1.2.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 78b48a5e-d4f8-46f3-bf32-c60cdc213be4 -->
 
