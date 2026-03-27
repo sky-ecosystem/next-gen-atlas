@@ -27691,7 +27691,7 @@ The subdocuments herein define the assets currently accepted as margin collatera
 - Maintenance LTV: 85%
 - Liquidation LTV: 90%
 - Exposure limit: Unlimited
-- Staked and wrapped versions: Coinbase cbBTC, Lombard LBTC
+- Staked and wrapped versions: Coinbase cbBTC, Lombard LBTC, Bitgo/Bitglobal WBTC
 
 ###### A.6.1.1.1.3.8.2.2.2.2 - Ether (ETH) [Core]  <!-- UUID: f6d82898-b431-43d5-8c0b-3b8e4aa9e236 -->
 
@@ -27724,6 +27724,14 @@ The subdocuments herein define the assets currently accepted as margin collatera
 - Liquidation LTV: 80%
 - Exposure limit: $25 million
 - Staked and wrapped versions: Kinetiq kHYPE, native staking with approved providers
+
+###### A.6.1.1.1.3.8.2.2.2.6 - Gold (AU) [Core]  <!-- UUID: 8db0e30b-c85c-4a92-8afd-84af4bfdfe92 -->
+
+- Initial LTV: 80%
+- Maintenance LTV: 85%
+- Liquidation LTV: 90%
+- Exposure limit: $500 million
+- Staked and wrapped versions: Tether XAUT, Paxos PAXG, Matrixport XAUM
 
 ###### A.6.1.1.1.3.8.2.3 - Approved Venues [Core]  <!-- UUID: b03b3354-1290-41d6-89fe-d841c3a79d3c -->
 
@@ -27788,8 +27796,8 @@ Loans may be issued for the following durations:
 
 The minimum borrow rate for loans via Offchain Collateralized Lending arrangements must be the greater of the following at the time of issuance or renewal:
 
-- Sky Savings Rate + 1.5%
-- SOFR + 2%
+- Sky Savings Rate + 0.3%
+- SOFR + 0%
 
 ###### A.6.1.1.1.3.8.2.4.2.3 - Margin Call Cure Period [Core]  <!-- UUID: aedd10ee-5db1-4d38-b720-c451608c19e1 -->
 
