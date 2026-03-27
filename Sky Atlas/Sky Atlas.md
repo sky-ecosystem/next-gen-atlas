@@ -2576,13 +2576,11 @@ If a remedy is known and uncontentious, the Support or Governance Facilitators s
 
 ##### A.1.8.1.5.5 - Emergency Declaration Procedure [Core]  <!-- UUID: 8ce1adeb-ec38-40ba-9a0d-bc0e0db4fece -->
 
-The Support Facilitators are empowered to declare an emergency situation at their discretion, either on their own initiative or in response to a request from a community member.
+The Core Facilitator is empowered to declare an emergency situation at their discretion, either on their own initiative or in response to a request from a community member.
 
-When declaring an emergency, the Support Facilitators should create a formal post on the Sky Forum which provides sufficient detail regarding the issue and explains why immediate action is required. If the situation allows, Facilitators should post the emergency declaration on the Sky Forum before taking action. If the urgency of the situation requires immediate intervention without delay, the Facilitators should create the Forum post as soon as possible after, or simultaneously with, the emergency action.
+When declaring an emergency, the Core Facilitator should create a formal post on the Sky Forum, providing sufficient detail regarding the issue and explaining why immediate action is required. If the situation allows, the Core Facilitator should post the emergency declaration on the Sky Forum before taking action. If the urgency of the situation requires immediate intervention without delay, the Core Facilitator should create the Forum post as soon as possible after, or simultaneously with, the emergency action.
 
-There may be situations in which a public Emergency Declaration would be counterproductive to security objectives; the Support Facilitators are granted discretion in these matters.
-
-Creating a signal request thread or Governance Poll is optional.
+There may be situations in which a public Emergency Declaration would be counterproductive to security objectives; the Core Facilitator is granted discretion in these matters.
 
 ##### A.1.8.1.5.6 - Record Retention [Core]  <!-- UUID: ddab726d-7ecb-4028-bd85-964966d5d1ed -->
 
@@ -2646,7 +2644,7 @@ The spell teams need not share their identities. Therefore, it is no longer a re
 
 #### A.1.9.1.2 - Chainlog [Core]  <!-- UUID: fa9145a8-308c-4732-927d-cb6da4682fcf -->
 
-The Chainlog is an on-chain, governance-managed registry that records the official addresses of Sky’s core smart contracts. Each contract entry in the Chainlog is identified by a unique key ("Chainlog key"), which is used to reference the contract in documentation, governance actions, and integrations. It serves as the single source of truth for contract addresses in the protocol. The Chainlog is available at [https://chainlog.sky.money/](https://chainlog.sky.money/). Updates to the Chainlog are defined as housekeeping items (see [A.1.10.1.6.1.1 - Definition Of Housekeeping Items](7648bf12-d600-4e0d-807b-5eb18e8d0f4f)) and can be included directly in an Executive Vote (see [A.1.10.1.6.1.2 - Process for Adding Housekeeping Item In Executive Vote](2d165c27-5daf-4a84-af8c-7c36f5de03d2)).
+The Chainlog is an on-chain, governance-managed registry that records the official addresses of Sky’s core smart contracts. Each contract entry in the Chainlog is identified by a unique key ("Chainlog key"), which is used to reference the contract in documentation, governance actions, and integrations. It serves as the single source of truth for contract addresses in the protocol. The Chainlog is available at [https://chainlog.sky.money/](https://chainlog.sky.money/). Updates to the Chainlog are defined as housekeeping items (see [A.1.10.1.5.1.1 - Definition Of Housekeeping Items](7648bf12-d600-4e0d-807b-5eb18e8d0f4f)) and can be included directly in an Executive Vote (see [A.1.10.1.5.1.2 - Process for Adding Housekeeping Item In Executive Vote](2d165c27-5daf-4a84-af8c-7c36f5de03d2)).
 
 ### A.1.9.2 - Executive Process Definition [Section]  <!-- UUID: 03d32549-1da5-4a9c-902f-196641370eaf -->
 
@@ -4371,15 +4369,21 @@ Within the same transaction initiated by `cast()`, ds-pause proceeds as follows:
 5. Final Checks: If the transaction succeeds, the `exec` function in `ds-pause` performs a final ownership check to ensure the Pause Proxy is still owned by `ds-pause`.
 6. Completion: Once the final check passes, the execution of `cast()` is finalized, marking the end of the process.
 
-###### A.1.9.2.4.13.5 - Spell Crafter Initiates Retrospective And Conducts Any Needed Follow Ups [Core]  <!-- UUID: 300fc1fe-ffa7-4204-8e38-0b9069b75bb9 -->
+###### A.1.9.2.4.13.5 - Facilitator Updates Atlas To Reflect Spell Outcome [Core]  <!-- UUID: 193f43fc-f26f-4fa0-b3cf-f50c68177906 -->
+
+Following the successful execution of a Spell, the Atlas must be updated to accurately reflect the resulting changes. The Core Facilitator is responsible for ensuring that all relevant Sky Core Atlas documents are modified to incorporate the outcome of the Spell. For modifications pertaining to Agent Artifacts, the Operational Facilitator for the affected Agent is responsible for carrying out the required follow-up changes.
+
+The updates must be completed in a timely manner following Spell execution, and must not introduce changes beyond those necessitated by the Spell outcome.
+
+###### A.1.9.2.4.13.6 - Spell Crafter Initiates Retrospective And Conducts Any Needed Follow Ups [Core]  <!-- UUID: 300fc1fe-ffa7-4204-8e38-0b9069b75bb9 -->
 
 With the Pull Request merged, the Spell Crafter turns to initiating the retrospective and conducting any needed follow-up as specified herein.
 
-###### A.1.9.2.4.13.5.1 - Spell Crafter Initiates Retrospective [Core]  <!-- UUID: a5959563-d525-4431-b2e3-b1ebcaf88b99 -->
+###### A.1.9.2.4.13.6.1 - Spell Crafter Initiates Retrospective [Core]  <!-- UUID: a5959563-d525-4431-b2e3-b1ebcaf88b99 -->
 
 The Spell Crafter initiates a retrospective on the Spell in the existing Spell thread in the `#govops` Discord channel. The Spell Crafter prefaces the message with `initiating retro`. The Spell Crafter should include any problems identified during the Spell, including concrete improvement proposals. If there is nothing to discuss, the Spell Crafter should communicate that (e.g `Initiating retro: nothing to discuss from my side`).
 
-###### A.1.9.2.4.13.5.2 - Spell Crafter Conducts Any Needed Follow Up Regarding Megapoker [Core]  <!-- UUID: e3009714-a46c-43b9-8f90-d09bd2e816b6 -->
+###### A.1.9.2.4.13.6.2 - Spell Crafter Conducts Any Needed Follow Up Regarding Megapoker [Core]  <!-- UUID: e3009714-a46c-43b9-8f90-d09bd2e816b6 -->
 
 If any changes related to Megapoker were made in the Spell (e.g., oracles replaced, collaterals onboarded or offboarded), the Spell Crafter should inform the Ecosystem Actor responsible for maintaining Megapoker and ensure the contract is updated.
 
@@ -4393,15 +4397,15 @@ The following steps are necessary to ensure the Megapoker contract is updated:
 - New deployed Megapoker contract address is handed to TechOps
 - New deployed Megapoker contract address is updated in README
 
-###### A.1.9.2.4.13.5.3 - Spell Crafter Conducts Any Needed Follow Up Regarding New Collateral [Core]  <!-- UUID: 2d902745-59ae-4ea1-88bb-c5146ebd1750 -->
+###### A.1.9.2.4.13.6.3 - Spell Crafter Conducts Any Needed Follow Up Regarding New Collateral [Core]  <!-- UUID: 2d902745-59ae-4ea1-88bb-c5146ebd1750 -->
 
 If new collateral is onboarded, the Spell Crafter works with TechOps to ensure that there is Keeper support for the newly onboarded collateral.
 
-###### A.1.9.2.4.13.5.4 - Spell Crafter Conducts Any Needed Follow-Up Regarding Linear Interpolation Module [Core]  <!-- UUID: f1365a6d-3749-48ed-aed4-966c3aa0bd5b -->
+###### A.1.9.2.4.13.6.4 - Spell Crafter Conducts Any Needed Follow-Up Regarding Linear Interpolation Module [Core]  <!-- UUID: f1365a6d-3749-48ed-aed4-966c3aa0bd5b -->
 
 If a Linear Interpolation Module was added, the Spell Crafter ensures keeper support to call the `tall` function on a daily basis.
 
-###### A.1.9.2.4.13.5.5 - Spell Crafter Conducts Specific Checks As Needed For High-Stakes Spells [Core]  <!-- UUID: 0ad20a0f-2e23-4c24-b68d-55af08c32657 -->
+###### A.1.9.2.4.13.6.5 - Spell Crafter Conducts Specific Checks As Needed For High-Stakes Spells [Core]  <!-- UUID: 0ad20a0f-2e23-4c24-b68d-55af08c32657 -->
 
 For critical or high-stakes Spells, the Spell Crafter conducts specific checks as required in the particular context of the Spell.
 
@@ -5216,11 +5220,7 @@ A Weekly Poll ("Governance Poll" or "Poll") is a non-binding poll that determi
 
 Governance Polls occur on-chain and are used to measure the sentiment of SKY voters. Polls often run concurrently, allowing voters to participate in any number of them at the same time. Polls may have different formats like Binary Voting, Instant Run-Off Voting, or Approval Voting depending on the topic. The voting period of a given Governance Poll varies; the most common are three (3) and fourteen (14) day periods. Concurrently-posted polls do not necessarily have the same voting periods.
 
-##### A.1.10.1.2.2 - Definition Of Non-Standard Weekly Poll [Core]  <!-- UUID: 5dafd6fc-525a-4adf-bbc1-62ba5018e11f -->
-
-A Non-Standard Weekly Poll is a non-binding weekly poll that has arbitrary time-sensitive decisions that SKY holders have to make in a relatively short period of time. The use of Non-Standard Weekly Polls is exclusive to Facilitators and is limited to situations where the Weekly Governance Cycle is determined to operate too slowly to be usable.
-
-##### A.1.10.1.2.3 - Definition Of Executive Vote [Core]  <!-- UUID: 8bde129a-49a5-4f68-a82f-9995b86a1aa3 -->
+##### A.1.10.1.2.2 - Definition Of Executive Vote [Core]  <!-- UUID: 8bde129a-49a5-4f68-a82f-9995b86a1aa3 -->
 
 An Executive Vote (also "Executive") is a formalized governance proposal that requires on-chain voting. Through the Executive Vote mechanism, SKY holders steward Sky Governance by voting on Executive proposals that pertain to operations maintaining the Protocol. Executive Votes execute technical changes to the Sky Protocol.
 
@@ -5298,35 +5298,25 @@ If there are no substantive changes due to be made to the Sky Protocol, the Core
 
 The element "spell teams" indicates that the entire spell roster can participate in the decision described in the Target Document. The spell roster is defined as all spell team members authorized to perform spell crafting and spell reviewing services for Sky Core.
 
-#### A.1.10.1.5 - Use Of Non-standard Weekly Poll [Core]  <!-- UUID: 4519de07-123d-4259-ae70-c825be8653dd -->
-
-If a non-standard weekly poll ("Signal Request") has been proposed, it will also be put in the weekly poll.
-
-To create a non-standard weekly poll requires an urgent and apparent reason from a timing perspective to justify it. It is important to note that a non-standard weekly poll cannot be used for long-term decisions and requires consensus from the Core Facilitator before it can be accepted and published.
-
-#### A.1.10.1.6 - Core Facilitators’ Authority To Create Proposals [Core]  <!-- UUID: 2ef63f36-5550-420a-96ee-a99c09451afb -->
+#### A.1.10.1.5 - Core Facilitators’ Authority To Create Proposals [Core]  <!-- UUID: 2ef63f36-5550-420a-96ee-a99c09451afb -->
 
 The Core Facilitator may create proposals using the Weekly Governance Cycle to enable them to fulfill their responsibilities.
 
-##### A.1.10.1.6.1 - Core Facilitators' Role in Adding Housekeeping Items In Executive Votes [Core]  <!-- UUID: 0d0e2e1a-0502-4ee3-bc9d-8bd8ddde19ec -->
+##### A.1.10.1.5.1 - Core Facilitators' Role In Adding Housekeeping Items In Executive Votes [Core]  <!-- UUID: 0d0e2e1a-0502-4ee3-bc9d-8bd8ddde19ec -->
 
-The Core Facilitator is authorized to add housekeeping items in an Executive Vote pursuant to the procedure defined in [A.1.10.1.6.1.2 - Process for Adding Housekeeping Item In Executive Vote](2d165c27-5daf-4a84-af8c-7c36f5de03d2). The Core Facilitator can propose housekeeping items of their own accord; or, they can do so in consultation with the spell teams.
+The Core Facilitator is authorized to add housekeeping items in an Executive Vote pursuant to the procedure defined in [A.1.10.1.5.1.2 - Process for Adding Housekeeping Item In Executive Vote](2d165c27-5daf-4a84-af8c-7c36f5de03d2). The Core Facilitator can propose housekeeping items of their own accord; or, they can do so in consultation with the spell teams.
 
-Where housekeeping items are proposed by the spell teams, the Core Facilitator must always conduct an independent assessment of the justification for, and security risks associated with, the housekeeping items. After the proposed housekeeping items have passed this independent assessment, the Core Facilitator may propose adding these items in an Executive Vote pursuant to the procedure defined in [A.1.10.1.6.1.2 - Process for Adding Housekeeping Item In Executive Vote](2d165c27-5daf-4a84-af8c-7c36f5de03d2).
+Where housekeeping items are proposed by the spell teams, the Core Facilitator must always conduct an independent assessment of the justification for, and security risks associated with, the housekeeping items. After the proposed housekeeping items have passed this independent assessment, the Core Facilitator may propose adding these items in an Executive Vote pursuant to the procedure defined in [A.1.10.1.5.1.2 - Process for Adding Housekeeping Item In Executive Vote](2d165c27-5daf-4a84-af8c-7c36f5de03d2).
 
-###### A.1.10.1.6.1.1 - Definition Of Housekeeping Items [Core]  <!-- UUID: 7648bf12-d600-4e0d-807b-5eb18e8d0f4f -->
+###### A.1.10.1.5.1.1 - Definition Of Housekeeping Items [Core]  <!-- UUID: 7648bf12-d600-4e0d-807b-5eb18e8d0f4f -->
 
 Housekeeping items are defined as maintenance and record-keeping actions necessary to the correct functionality of the Sky Protocol. Housekeeping items do not include actions that modify risk parameters or introduce new elements into the protocol.
 
 Examples of housekeeping items include, but are not limited to, (1) cleaning up technical debt, (2) updating the Chainlog, and (3) cancelling payment streams that are no longer used.
 
-###### A.1.10.1.6.1.2 - Process for Adding Housekeeping Item In Executive Vote [Core]  <!-- UUID: 2d165c27-5daf-4a84-af8c-7c36f5de03d2 -->
+###### A.1.10.1.5.1.2 - Process for Adding Housekeeping Item In Executive Vote [Core]  <!-- UUID: 2d165c27-5daf-4a84-af8c-7c36f5de03d2 -->
 
 Housekeeping items can be directly included in Executive Votes without a Governance Poll through the following process. The Core Facilitator must first create a post on the Sky Forum detailing the housekeeping items and the rationale for their inclusion. The Core Facilitator must request a confirmation of the technical accuracy of the housekeeping items from the technical Ecosystem Actor (or spell team) who is leading spell development for the pertinent Executive Vote. The Technical Ecosystem Actor (spell team) must reply to the Forum Post confirming the accuracy of the housekeeping item.
-
-#### A.1.10.1.7 - Signal Requests [Core]  <!-- UUID: 1e4765f6-4889-4fd0-b02b-8c424c584914 -->
-
-Signal Requests are only permitted when they are specifically triggered and required by the Atlas. In all other circumstances, they are prohibited.
 
 #### A.1.10.1.0.3.1 - Operational Weekly Cycle - Element Annotation [Annotation]  <!-- UUID: fa682e4f-eb5a-4af2-920d-3c1da51987d8 -->
 
@@ -5714,7 +5704,7 @@ Active Data Controller Documents are Primary Documents that have Active Data Doc
 
 - Atlas Edit Weekly Cycle
 - Atlas Edit Monthly Cycle
-- Facilitators’ Bootstrapping Poll
+- Bootstrapping Governance Poll
 - Operational Weekly Cycle
 
 #### A.1.12.1.3 - Update Process [Core]  <!-- UUID: 9cc660e9-4ce5-4358-9195-5b4b82eb769d -->
@@ -5755,7 +5745,7 @@ Active Data Controller Documents are Primary Documents that have Active Data Doc
 
 - Atlas Edit Weekly Cycle
 - Atlas Edit Monthly Cycle
-- Facilitators’ Bootstrapping Poll
+- Bootstrapping Governance Poll
 - Operational Weekly Cycle
 
 ## A.1.13 - Relationship Between Sky Core And Agents [Article]  <!-- UUID: d607a8e3-17e1-4aab-9e74-11af39767cc7 -->
@@ -10988,6 +10978,12 @@ Sky Governance hereby consents to this cash grant. The transfer for October must
 ###### A.2.8.2.2.2.5.5.2 - Spark Foundation Grant Authorization: December 2025 [Core]  <!-- UUID: bd9673db-225e-42f4-8f26-6e993dc72bd0 -->
 
 The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from the SubDAO Proxy for a three (3) month period to cover Q1 2026 Foundation expenses. Additionally, a one-time grant of 150,000 USDS has been proposed to cover expenses for Spark Asset Foundation for Q1 2026 (see [Forum Post](https://forum.sky.money/t/december-11-2025-proposed-changes-to-spark-for-upcoming-spell/27481).
+
+Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads as specified in the referenced proposal.
+
+###### A.2.8.2.2.2.5.5.3 - Spark Foundation Grant Authorization: Q2 2026 [Core]  <!-- UUID: b69158da-476a-4d4b-b7ef-2f8b96b73d23 -->
+
+The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from the SubDAO Proxy for a three (3) month period to cover Q2 2026 Spark Foundation expenses. Additionally, a grant of 100,000 USDS per month to the Spark Asset Foundation from the SubDAO Proxy for a three (3) month period to cover Q2 2026 Spark Asset Foundation expenses (see [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)).
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads as specified in the referenced proposal.
 
@@ -23729,17 +23725,13 @@ The outflow rate limits are:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.5.1 - Interim Deployment [Core]  <!-- UUID: e3cf4dc4-c24b-4ecd-a4f9-b8709cf55fb5 -->
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.5.1 - Maximum Exposure [Core]  <!-- UUID: baf1fbad-0ef7-424e-832f-bd0c47377144 -->
 
-This Instance is currently defined as an Interim Deployment (see [A.1.9.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
+The Maximum Exposure for this Instance is $50 million.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.5.1.1 - Maximum Exposure [Core]  <!-- UUID: baf1fbad-0ef7-424e-832f-bd0c47377144 -->
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.5.2 - Instance Capital Requirement Ratio [Core]  <!-- UUID: c9cc845b-9971-4ee5-a5ec-e3d2771d85e2 -->
 
-The Maximum Exposure for all Interim Deployments in Arkis is $20 million.
-
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.5.1.2 - Instance Capital Requirement Ratio [Core]  <!-- UUID: c9cc845b-9971-4ee5-a5ec-e3d2771d85e2 -->
-
-The Instance Capital Requirement Ratio for all Interim Deployments in Arkis is 100%.
+The Instance Capital Requirement Ratio for this Instance is 50%.
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 0a1caa15-48bb-4047-bf18-76f65ba20410 -->
 
@@ -26826,14 +26818,9 @@ The documents herein define the process for the ongoing management of SparkLend.
 
 ###### A.6.1.1.1.3.2.1.2.1 - SparkLend Risk Parameters Modification [Core]  <!-- UUID: 6029a425-ad81-46c5-866d-94e2ff663873 -->
 
-The modification of SparkLend parameters is temporarily controlled by Sky Core, but will be transitioned to Spark in the future. Currently, the Stability Facilitators, in consultation with the Core Council Risk Advisor and Phoenix Labs, may recommend changes to any of the parameters specified in the subdocuments of [A.6.1.1.1.3.2.1.1.1 - SparkLend Risk Parameters Definitions](667abf8c-64a3-4029-b218-e7a6e7000bbd) or [A.6.1.1.1.3.2.1.1.3.1 - SparkLend Risk Parameters Cap Automator Parameter Definitions](e6bc54e6-91df-4095-a032-0e1128c2cab7).
+The modification of SparkLend parameters is temporarily controlled by Sky Core, but will be transitioned to Spark in the future. Currently, the Core Council Risk Advisor, in consultation with Phoenix Labs, may recommend changes to any of the parameters specified in the subdocuments of [A.6.1.1.1.3.2.1.1.1 - SparkLend Risk Parameters Definitions](667abf8c-64a3-4029-b218-e7a6e7000bbd) or [A.6.1.1.1.3.2.1.1.3.1 - SparkLend Risk Parameters Cap Automator Parameter Definitions](e6bc54e6-91df-4095-a032-0e1128c2cab7).
 
 As a general rule, the modification of said parameters is pursuant to the Operational Weekly Cycle and can be effected directly via an Executive Vote, without requiring a Governance Poll.
-
-Changes to the parameters defined in the following documents are exceptions to the general rule and require a Governance Poll followed by an Executive Vote:
-
-- [A.6.1.1.1.3.2.1.1.1.5 - Liquidation Threshold Definition](2dd2045c-6a33-4229-b6c8-e531d6ecd27a)
-- [A.6.1.1.1.3.2.1.1.1.7 - Liquidation Bonus Definition](173ff961-bf1f-4c6c-992c-4a67b269e544)
 
 ###### A.6.1.1.1.3.2.1.2.2 - Collateral Onboarding/Offboarding [Core]  <!-- UUID: 1a1f4bef-d19d-42ff-8ac4-746498df9fbc -->
 
@@ -32835,7 +32822,7 @@ The documents herein contain operational parameters or configuration details uni
 
 Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 RLUSD:
 
-- `setMaxExchangeRate(SENTORA_RLUSD_MAIN_V2, 1e18, 3e6)`
+- `setMaxExchangeRate(SENTORA_RLUSD_MAIN_V2, 1e18, 3e18)`
 
 ###### A.6.1.1.2.2.6.1.3.1.8 - Securitize [Core]  <!-- UUID: b05d9fc2-9a93-4f3b-b0d8-b4f77bc294ce -->
 
