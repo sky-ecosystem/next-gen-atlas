@@ -85,15 +85,10 @@ Understanding Slippery Slope Misalignment means understanding that any misalignm
 A Scope is a particular focus area of Sky. There are six Scopes:
 
 - The Governance Scope focuses on Alignment Artifact interpretation and balance of powers.
-
 - The Support Scope focuses on ecosystem support, tools, and activities, including the Sky Primitives.
-
 - The Stability Scope focuses on financial stability and the core USDS Stablecoin product.
-
 - The Protocol Scope focuses on technical development, maintenance, and security.
-
 - The Accessibility Scope focuses on frontends and distribution.
-
 - The Agent Scope contains all Agent Artifacts.
 
 #### A.0.1.1.14 - Alignment Artifact [Core]  <!-- UUID: 551885ea-d851-4b76-afa1-5ea57f724c9a -->
@@ -225,9 +220,7 @@ The Agent Scope codifies all Agent Artifacts.
 Prime Agents maintain and automate Sky features in new markets, and innovate custom products. Prime Agents are the only Agent type that can access all Sky Primitives; whereas Executor Agents are limited in the Primitives they can access.
 
 - Prime Agents cannot directly operationalize those elements of their strategies that directly interface with the Sky Protocol or shared ecosystem infrastructure. For such protocol-level and ecosystem-critical operations, Prime Agents must rely on Operational Executor Agents for implementation.
-
 - When a Prime Agent formulates a new initiative, it encodes the relevant instructions and parameters into its Agent Artifact. Insofar as the Prime Agent’s Artifact requires protocol-level interactions, the Operational Executors use the Artifact as a detailed operational blueprint for implementing the Prime Agent’s directives—ensuring consistency with the Atlas and minimizing risk.
-
 - This ensures a robust division between Prime Agents’ strategic, externally facing activities and the specialized operational activities that directly interface with Sky’s core systems.
 
 #### A.0.1.1.43 - Executor Agent [Core]  <!-- UUID: ac514975-66ad-4b43-8f76-42cac5ca599d -->
@@ -235,9 +228,7 @@ Prime Agents maintain and automate Sky features in new markets, and innovate cus
 Executor Agents ("Executors") are specialized Agents that implement those elements of a Prime Agent’s activities that directly interface with the Sky Protocol or shared ecosystem resources, leaving Prime Agents free to focus on strategic, business development, and marketing efforts. There are two Executor sub-types: Core Executor Agents ("Core Executor Agents") and Operational Executor Agents ("Operational Executors").
 
 - Operational Executor Agents handle the day-to-day execution of those portions of a Prime Agent’s strategies that directly interface with the Sky Protocol, strictly following the instructions laid out in each Prime Agent’s Artifact. Prime Agents cannot be active in the Sky Ecosystem unless they have an active "Operational Executor Accord" which codifies their relationship with an Operational Executor. Operational Executors take on the risk of Prime Agents’ outcomes by providing collateralized insurance against losses or liabilities. Operational Executor Agents’ Operational Collateral can also cover losses from negligence or malicious behavior by the Operational Executor in carrying out the Prime Agent’s strategy.
-
 - Core Executor Agents, on the other hand, oversee the activities of Operational Executors, ensuring that the implementation of Prime Agent strategies aligns with the Atlas.
-
 - By separating strategy from operations, this division of labor empowers Prime Agents to innovate rapidly and expand their ventures without needing to develop specialized operational expertise, as Operational Executors manage the day-to-day technical implementation under the oversight of Core Executor Agents.
 
 #### A.0.1.1.44 - Operational Executor Agent [Core]  <!-- UUID: 23253343-23e3-440f-90c0-43d3437c2098 -->
@@ -3352,7 +3343,6 @@ On Friday week 1, the Governance Point must make sure that the Executive Sheet i
 The Governance Point is responsible for ensuring that the Executive Sheet is fully completed and accurate. This includes the following:
 
 - That all fields in the Executive Sheet are filled in with the required information, including URLs, figures, and confirmations. For any incomplete items (e.g., awaiting final figures), they must be marked with a `TODO` tag.
-
 - That all items included in the Executive Sheet were discussed and approved during the GovOps meeting.
     - No approved items from the discussions can be omitted without a valid reason.
 - That the financial transfers are accurate.
@@ -4144,7 +4134,6 @@ While the Spell should use the correct license to pass validation, this is not c
 Validators should ensure that the Solidity compiler version used in the deployed Spell matches the version specified in the `Spells-mainnet` repository on GitHub. Validators should verify this by:
 
 - Navigate to the "Contract" tab on Etherscan and check the `Compiler Version` field under the contract’s metadata. The version displayed must match the version specified in the `DssSpell.sol` contract (e.g., pragma solidity `0.8.16`;).
-
 - Only the first part of the version (e.g., `v0.8.16`) needs to match; any additional commit information can be ignored.
 
 While the Spell should use the correct version to pass validation, this is not considered a strict requirement.
@@ -7987,7 +7976,6 @@ This process has no dependencies.
 The process flow is defined herein.
 
 - Operational GovOps makes the payment to the reward address specified in the Primitive Instance from the Operational Executor Agent Buffer.
-
 - Operational GovOps updates the Powerhouse system with the transaction details.
 
 ###### A.2.2.8.1.2.4.1.2.3 - Required Primitive Inputs [Core]  <!-- UUID: 63ba8de2-55ed-4df5-9e11-016a006cf828 -->
@@ -12286,7 +12274,6 @@ For Bug Bounty rewards over USD 1,000,000: after the first million is paid out, 
 The Bug Bounty Programs incur fixed and variable costs.
 
 - Variable costs: Bug bounty payouts including related fees to Immunefi are considered variable costs and are covered by the process described in [A.2.11.1.1.3.3 - Rewards Payment Terms](cf4e6968-18a3-48d8-b38e-15ae8009d03d).
-
 - Fixed costs: Fixed costs comprise service fees for the Immunefi Premium Triaging Service, and compensation of a part-time Bug Bounty program steward. These costs will be funded by Sky.
 
 #### A.2.11.1.2 - Safe Harbor [Core]  <!-- UUID: bb494bc1-f3cb-4b7f-826f-437c62d534c8 -->
@@ -15619,9 +15606,7 @@ Current WBTC-B parameters are:
 Current WBTC-C parameters are:
 
 - Stability Fee: set by the SP-BEAM specified in A.3.9 - Measures For Endgame Transition - Stability Parameter Bounded External Access Module,
-
 - Liquidation Ratio: 175%,
-
 - DC-IAM `line`: 0 Dai,
 - DC-IAM `gap`: 8,000,000 Dai,
 - DC-IAM `ttl`: 86,400 seconds,
@@ -17198,7 +17183,6 @@ The accumulated SKY rewards were paid out as an airdrop as specified in [A.5.3.1
 To distribute the Early Bird Reward the following actions have been or will be taken:
 
 - 27,222,832.8 newly minted SKY, equal to 120% of the total estimated Early Bird Reward distributions, was transferred to the multisig wallet operated by the Accessibility Facilitators at the address `0x14D98650d46BF7679BBD05D4f615A1547C87Bf68` on the Ethereum Mainnet.
-
 - The remaining SKY in the `0x14D98650d46BF7679BBD05D4f615A1547C87Bf68` multisig that is not used to fund the MerkleDistributor will be burned by calling the `burn` function on the multisig. The estimated amount of SKY needed to fund the MerkleDistributor is 22,685,694.
 
 ## A.5.4 - Location Resilience [Article]  <!-- UUID: c8ed0b06-2be7-4651-9982-91cea0622519 -->
