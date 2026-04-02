@@ -2445,7 +2445,6 @@ The membership of the Emergency Response Group is defined as Active Data in [A.1
 The Active Data is updated as follows:
 
 - The Responsible Party is Core GovOps.
-
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.1.8.1.2.2.0.6.1 - Emergency Response Group Current Membership [Active Data]  <!-- UUID: e9807449-fdc3-4860-8d53-c56181311618 -->
@@ -2588,7 +2587,6 @@ There may be situations in which a public Emergency Declaration would be counter
 To achieve continuous improvement of emergency response processes, records should be retained post-incident to enable review of actions taken during the incident response. Such records may include but are not limited to:
 
 1. An incident response template, to be specified in a future iteration of the Atlas, filled in with information from the coordination meeting;
-
 2. Incident artifacts, including files, screenshots, documents, and links;
 3. Chat transcripts from the approved communication channels specified in [A.1.8.1.3 - Emergency Response Communication Channels](18418289-ada8-401d-a992-7e38b235c866).
 
@@ -4998,11 +4996,13 @@ Pursuant to [A.1.9.5.2.3.3 - ADs' Role In Standby Spells](53cea69b-45cc-4f9c-b86
 This document defines the term "Authorized Representative" as used in [A.1.9.5.2.3.2.1 - Requirement To Validate Authenticity Of Standby Spell](82393e1d-1021-4f48-ac4e-a98d2328f2e7).
 
 The entities listed below are authorized to validate the authenticity of a Standby Spell on behalf of Core GovOps:
+
 - Le Bateleur on behalf of Core GovOps team Atlas Axis
 - Adam Fraser on behalf of Core GovOps team Atlas Axis
 - Lex on behalf of Core GovOps team Atlas Axis
 
 The Authorized Representatives listed are synonymous with the Sky Forum account holders with the following handles:
+
 - Le_Bateleur
 - adamfraser
 - Lex
@@ -5016,9 +5016,7 @@ The Core Facilitator may use the Custom Spell Voting Page when it is beneficial 
 ADs are strictly prohibited from voting to use a Standby Spell unless they have first confirmed all of the following requirements:
 
 - Receipt of the Core Facilitator's official notification of the emergency scenario in the Emergency Contact Mechanism specified in [A.1.8.1.5.3 - Emergency-Contact Mechanism Trigger](34a3d273-ce49-4147-adf3-6d52b4a2fad5).
-
 - Receipt of the Core Facilitator's announcement of the decision to use a Standby Spell in the communication channel specified in [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf); and
-
 - Core GovOps has validated the authenticity of the Standby Spell. This validation must fulfill two requirements: (1) the validation must be in the form of a written communication in the secure channel specified in [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf); and (2) the validation must be provided by the Authorized Representatives listed in [A.1.9.5.2.3.2.1.1 - Current Entities Authorized To Validate Authenticity of Standby Spell](4cf98145-079f-44e0-9a2b-1d7b16037f4a).
 
 After ADs have confirmed all requirements are met, they must either (1) promptly vote to approve the Standby Spell, or (2) communicate any concerns to the Core Facilitator and collaborate with the latter for a speedy resolution.
@@ -5134,15 +5132,10 @@ The subdocuments herein define the governance process for using Protego.
 The role of the Core Facilitator in the usage of Protego is as follows:
 
 - Protego can only be used in response to a properly validated and categorized emergency scenario, for which the Core Facilitator is responsible. See [A.1.8.1.5.1 - Incident Validation](97020aa2-9492-4fa4-8eee-d860d6f33618) and [A.1.8.1.5.2 - Incident Categorization](f3a647b2-8083-41f1-b67a-66bd322ccc16).
-
 - The decision to initiate the process to use Protego is reserved for the Core Facilitator; where possible, the Core Facilitator should consult with any relevant Scope Advisor(s). See [A.1.8.1.4 - Emergency Response Roles And Responsibilities](c9c32f24-cf6c-43d5-ac4c-bd2b4d02032b).
-
 - The Core Facilitator must explicitly communicate the decision to use Protego in the secure, private communication channel specified in [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf) or on a "war room" video call.
-
 - If the decision to use Protego is first reached on a video call, the Core Facilitator is required thereafter to promptly document their decision in the secure, private communication channel specified in [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf).
-
 - After the Core Facilitator decides to use Protego, TechOps Services must promptly trigger an incident to the Emergency Response Group as specified in [A.1.8.1.5.3 - Emergency-Contact Mechanism Trigger](34a3d273-ce49-4147-adf3-6d52b4a2fad5).
-
 - The Core Facilitator is responsible for actioning the usage of Protego and liaising with the Ranked Delegates (and other Aligned Delegates as needed) to gather the necessary support for it.
 
 ###### A.1.9.5.3.2.2 - Core GovOps Role In Protego Usage [Core]  <!-- UUID: 62d53156-9b53-447b-9655-cef35a74defd -->
@@ -5163,11 +5156,13 @@ Pursuant to [A.1.9.5.3.2.3 - ADs' Role In Protego Usage](0cec9b17-ef83-4d25-9b6e
 This document defines the term "Authorized Representative" as used in [A.1.9.5.3.2.2.1 - Requirement To Validate Authenticity Of Emergency Drop Spell](44b9503d-bc11-427e-8deb-47feed07eba2).
 
 The entities listed below are authorized to validate the authenticity of an Emergency Drop Spell on behalf of Core GovOps:
+
 - Le Bateleur on behalf of Core GovOps team Atlas Axis
 - Adam Fraser on behalf of Core GovOps team Atlas Axis
 - Lex on behalf of Core GovOps team Atlas Axis
 
 The Authorized Representatives listed are synonymous with the Sky Forum account holders with the following handles:
+
 - Le_Bateleur
 - adamfraser
 - Lex
@@ -5181,9 +5176,7 @@ The Core Facilitator may use the Custom Spell Voting Page when it is beneficial 
 ADs are strictly prohibited from voting to use an Emergency Drop Spell, or to give authority to the Protego contract, unless they have first confirmed all of the following requirements:
 
 - Receipt of the Core Facilitator's official notification of the emergency scenario in the Emergency Contact Mechanism specified in [A.1.8.1.5.3 - Emergency-Contact Mechanism Trigger](34a3d273-ce49-4147-adf3-6d52b4a2fad5);
-
 - Receipt of the Core Facilitator's announcement of the decision to use Protego or an Emergency Drop Spell in the communication channel specified in [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf); and
-
 - Core GovOps has validated the authenticity of the Emergency Drop Spell, if applicable. This validation must fulfill two requirements: (1) the validation must be in the form of a written communication in the secure channel specified in [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf); and (2) the validation must be provided by the Authorized Representatives listed in [A.1.9.5.3.2.2.1.1 - Current Entities Authorized To Validate Authenticity of Emergency Drop Spell](a15e7cd9-ea93-48ac-b53a-afc476ca2d05).
 
 After ADs have confirmed all requirements are met, they must either (1) promptly vote to approve the usage of Protego or the Emergency Drop Spell, or (2) communicate any concerns to the Core Facilitator and collaborate with the latter for a speedy resolution.
@@ -7265,6 +7258,7 @@ Operational GovOps Soter Labs may establish auxiliary accounts on other blockcha
 The list of auxiliary accounts is defined as Active Data in [A.2.2.8.1.2.1.4.6.1.0.6.1 - Current Auxiliary Accounts](620715c0-6260-4501-9d3f-50ef4f5fc572).
 
 The Active Data is updated as follows:
+
 - The Responsible Party is Operational GovOps Soter Labs.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
@@ -29628,6 +29622,7 @@ The maximum amount of USDS that can be burned within the Grove Liquidity Layer (
 ###### A.6.1.1.2.2.6.1.2.1.1.3.1.3 - USDS For USDC Swap Maximum [Core]  <!-- UUID: a591104c-5c45-480d-a156-46484440e163 -->
 
 The maximum amount of USDS that can be swapped for USDC by the Grove Liquidity Layer in the Mainnet PSM (`LIMIT_USDS_TO_USDC`) is specified in the document herein.
+
 - `maxAmount`: 500,000,000 USDC
 - `slope`: 500,000,000 USDC per day
 
@@ -30459,6 +30454,7 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are 
 ###### A.6.1.1.2.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9af18990-c582-46f9-a78e-0c4e4ce233fc -->
 
 The inflow rate limits are:
+
 - `maxAmount`: 500,000,000 USDC
 - `slope`: 500,000,000 USDC per day
 
