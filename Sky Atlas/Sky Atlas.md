@@ -17092,11 +17092,11 @@ The parameters of the vesting stream managed by the Vesting Stream contract that
 
 ###### A.4.4.1.4.2.1.3.2.1 - Vesting Duration [Core]  <!-- UUID: 9cad1b65-5dea-4510-a1cd-c47eddb66309 -->
 
-The Vesting Duration `vestTau` is the total duration over which the Vesting Total number of tokens are to be vested linearly. The initial value of the `vestTau` parameter is 180 days.
+The Vesting Duration `vestTau` is the total duration over which the Vesting Total number of tokens are to be vested linearly. The initial value of the `vestTau` parameter is 90 days.
 
 ###### A.4.4.1.4.2.1.3.2.2 - Vesting Total [Core]  <!-- UUID: 8bc59b3a-5bf4-4e2c-a793-b51a4ff58ef6 -->
 
-The Vesting Total `vestTot` is the number of rewards tokens to be vested in total over the Vesting Duration. The value of the `vestTot` parameter is 838,182,330 SKY.
+The Vesting Total `vestTot` is the number of rewards tokens to be vested in total over the Vesting Duration. The value of the `vestTot` parameter is 192,110,322 SKY.
 
 ###### A.4.4.1.4.2.1.3.3 - Vesting Stream Parameter Modification [Core]  <!-- UUID: 7da0cd7a-238f-400f-89a7-a419ed25ce37 -->
 
