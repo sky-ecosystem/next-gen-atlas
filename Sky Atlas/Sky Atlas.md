@@ -277,11 +277,11 @@ This Section contains general provisions that are to be inherited as context for
 
 The next-generation Atlas is a self-contained governance infrastructure powering the Sky Ecosystem. It is designed to grow in tandem with the adaptive intelligence of the Ecosystem. Yet these first iterations of the next-generation Atlas may not sufficiently account for the critical, unforeseen contingencies that can arise, particularly as the Protocol is in a dynamic period of evolution.
 
-To ensure the Ecosystem grows in resilience and advances toward the Endgame State, it must be able to respond quickly to pressing changes in its environment. To facilitate this, the Scope Facilitators are granted broad discretionary power, given their close proximity to, and knowledge of, the Sky Ecosystem.
+To ensure the Ecosystem grows in resilience and advances toward the Endgame State, it must be able to respond quickly to pressing changes in its environment. To facilitate this, the Core Facilitator is granted broad discretionary power, given their close proximity to, and knowledge of, the Sky Ecosystem.
 
-Where the Atlas does not provide clear guidance on a current challenge, Scope Facilitators are empowered to infer the Spirit of the Atlas in such a way as to maximize Universal Alignment and secure the Ecosystem’s growth, security and progression toward the Endgame State.
+Where the Atlas does not provide clear guidance on a current challenge, the Core Facilitator is empowered to infer the Spirit of the Atlas in such a way as to maximize Universal Alignment and secure the Ecosystem’s growth, security and progression toward the Endgame State.
 
-Scope Facilitators also have the discretion to supersede existing Atlas provisions where they determine the latter to be unsuitable for current challenges.
+The Core Facilitator also has the discretion to supersede existing Atlas provisions where they determine the latter to be unsuitable for current challenges.
 
 The discretionary power granted herein is temporary.
 
@@ -295,13 +295,13 @@ Where feasible, the Core Facilitator is encouraged to run a Governance Poll to f
 
 Facilitators have broad discretionary authority to interpret or supersede the Atlas pursuant to [A.0.1.2.1 - Facilitators’ Broad Discretionary Capacity](f18229fe-fbc3-4dc8-ad84-4bca2915f6c4).
 
-The element "formalize actions" pertains to the recommendation that Scope Facilitators, where feasible, conduct Governance Polls to officially ratify changes in the Atlas that correspond to the actions they have undertaken based on the aforementioned document.
+The element "formalize actions" pertains to the recommendation that the Core Facilitator, where feasible, conduct Governance Polls to officially ratify changes in the Atlas that correspond to the actions they have undertaken based on the aforementioned document.
 
-For example, if a Scope Facilitator decides to supersede a particular Atlas document due to its inadequacy in addressing a specific challenge, the Facilitator is encouraged to initiate a Governance Poll to allow SKY holders to vote on a revised version of the document that corrects the identified shortcomings.
+For example, if the Core Facilitator decides to supersede a particular Atlas document due to its inadequacy in addressing a specific challenge, the Core Facilitator is encouraged to initiate a Governance Poll to allow SKY holders to vote on a revised version of the document that corrects the identified shortcomings.
 
 ###### A.0.1.2.1.1.0.3.2 - Where Feasible - Element Annotation [Annotation]  <!-- UUID: 50a8c7e5-9305-487b-adc2-d05d742e5227 -->
 
-This element "where feasible" introduces a degree of flexibility or discretion. It indicates that Scope Facilitators are encouraged to run Governance Polls in the context of the Target Document when it is possible, practical or appropriate to do so.
+This element "where feasible" introduces a degree of flexibility or discretion. It indicates that the Core Facilitator is encouraged to run Governance Polls in the context of the Target Document when it is possible, practical or appropriate to do so.
 
 ###### A.0.1.2.1.1.0.4.1 - Determination Of Feasibility Is Itself At The Discretion of Facilitators [Action Tenet]  <!-- UUID: 4dd8de6f-0593-4d2b-afcd-2460e63fe22b -->
 
@@ -337,7 +337,7 @@ Where the Immutable Documents do not contain explicit instructions about a parti
 
 #### A.1.1.2.1 - General Principles [Core]  <!-- UUID: 7c921d71-b4fe-4bb7-a58b-c57955de2148 -->
 
-Scope Facilitators are authorized to conduct Atlas Interpretations to address and resolve ambiguities or contradictions within Atlas Documents. These interpretations may include providing expanded definitions for problematic terms, clarifying the practical application of specific rules or logic, and similar actions aimed at resolving uncertainties. Pursuant to [A.0.1.2.1 - Facilitators’ Broad Discretionary Capacity](f18229fe-fbc3-4dc8-ad84-4bca2915f6c4), the Facilitators have broad discretion in conducting Atlas Interpretations.
+The Core Facilitator is authorized to conduct Atlas Interpretations to address and resolve ambiguities or contradictions within Atlas Documents. These interpretations may include providing expanded definitions for problematic terms, clarifying the practical application of specific rules or logic, and similar actions aimed at resolving uncertainties. Pursuant to [A.0.1.2.1 - Facilitators’ Broad Discretionary Capacity](f18229fe-fbc3-4dc8-ad84-4bca2915f6c4), the Core Facilitator has broad discretion in conducting Atlas Interpretations.
 
 All Atlas Interpretations must be documented to establish clear precedent that reflects the Spirit of the Atlas and guides future interpretations.
 
@@ -1390,7 +1390,7 @@ Needed Research
 
 Needed Research Documents specify potential problems associated with their Target Document. Such problems can include potential gaps or conflicts in logic; questions regarding the operation of the Target Document to which there are currently no answers; etc.
 
-As such, Needed Research documents formalize continuing research into Universal Alignment and enable the adaptive intelligence of the ecosystem to drive the evolution of Sky. Scope Facilitators, Atlas workstream contributors or other ecosystem participants are able to submit Needed Research inputs, which are then progressively processed through the standardized Atlas data integration protocol.
+As such, Needed Research documents formalize continuing research into Universal Alignment and enable the adaptive intelligence of the ecosystem to drive the evolution of Sky. The Core Facilitator, Atlas workstream contributors or other ecosystem participants are able to submit Needed Research inputs, which are then progressively processed through the standardized Atlas data integration protocol.
 
 The gradual processing of Needed Research inputs can lead to modifications to the organization or content of Atlas documents, as well as concrete process improvements and new initiatives.
 
@@ -1400,7 +1400,7 @@ The Core Facilitator is responsible for evaluating and resolving community appea
 
 #### A.1.2.3.1 - Request for Review [Core]  <!-- UUID: 252d3948-9753-4440-b554-350809a047ac -->
 
-Where a potential instance of Atlas document misalignment is perceived, community members may submit a Request for Review to the Core Facilitator. This Request for Review should be posted in the Sky Forum. The Request for Review need not follow any specific template. Pursuant to [A.0.1.2.1 - Facilitators’ Broad Discretionary Capacity](f18229fe-fbc3-4dc8-ad84-4bca2915f6c4), the Core Facilitator have broad discretion in evaluating and resolving such Requests for Review.
+Where a potential instance of Atlas document misalignment is perceived, community members may submit a Request for Review to the Core Facilitator. This Request for Review should be posted in the Sky Forum. The Request for Review need not follow any specific template. Pursuant to [A.0.1.2.1 - Facilitators’ Broad Discretionary Capacity](f18229fe-fbc3-4dc8-ad84-4bca2915f6c4), the Core Facilitator has broad discretion in evaluating and resolving such Requests for Review.
 
 ## A.1.3 - Governance Accessibility [Article]  <!-- UUID: 08176561-7acf-47e0-bb54-41771d54b15f -->
 
@@ -1790,7 +1790,7 @@ Where feasible, the Core Facilitator should issue a report at the conclusion of 
 
 ##### A.1.4.9.3.0.4.1 - Where Feasible - Core Facilitator Have Discretion In Determining Whether Public Report Should Be Issued [Action Tenet]  <!-- UUID: f6f61fd9-9aec-4db4-b825-162098495376 -->
 
-The element "where feasible" means that the Core Facilitator have discretion to determine whether it is appropriate to issue a Public Report following an AC misalignment adjudication. Where an adjudication proceeding involves sensitive security matters or evidence, the Core Facilitator have the option to defer from issuing a public report entirely; or to issue a report that excludes the sensitive security matters, while maintaining as much transparency as possible. The latter option should be preferred where possible.
+The element "where feasible" means that the Core Facilitator has discretion to determine whether it is appropriate to issue a Public Report following an AC misalignment adjudication. Where an adjudication proceeding involves sensitive security matters or evidence, the Core Facilitator has the option to defer from issuing a public report entirely; or to issue a report that excludes the sensitive security matters, while maintaining as much transparency as possible. The latter option should be preferred where possible.
 
 #### A.1.4.9.4 - Core Facilitator Is Subject Of Misalignment Allegation [Core]  <!-- UUID: 1fd1ecc3-49c6-4e8c-b1fe-4387460d3514 -->
 
@@ -2271,7 +2271,7 @@ Aligned Delegates (ADs) are required to maintain a high level of operational sec
 
 All Facilitators must act swiftly to investigate ADs who are suspected of breaching their requirements regarding operational security and privacy.
 
-Any Scope Facilitator has the authority to formally raise an allegation concerning AD breach of operational security with the Core Facilitator, which then obligates the latter to initiate a formal adjudication pursuant to [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
+The Core Facilitator must initiate a formal adjudication pursuant to [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57) where there is an allegation concerning AD breach of operational security.
 
 If there is clear evidence or significant suspicion that the operational security of an AD has been compromised, or that they have failed to follow best practice or otherwise made operational security errors, the Core Facilitator must promptly derecognize the AD.
 
@@ -4645,15 +4645,21 @@ The Facilitators must take into consideration the benefits and costs with using 
 
 The process to utilize the Linear Interpolation Module to adjust a parameter must follow the same governance process required to modify the designated parameter. If the parameter can be updated directly through an Executive Vote, then utilizing the Linear Interpolation Module to adjust it may also be included directly in an Executive Vote. If modifying the parameter requires a prior Governance Poll, then utilizing the Linear Interpolation Module for that parameter must also be preceded by a Governance Poll.
 
-##### A.1.9.3.2.14 - Ethereum LayerZero Freezer Multisig [Core]  <!-- UUID: b7820ec3-dbe5-43bc-99b9-c7168c53c8fe -->
+##### A.1.9.3.2.14 - Ethereum SkyLink Freezer Multisig [Core]  <!-- UUID: b7820ec3-dbe5-43bc-99b9-c7168c53c8fe -->
 
-The Ethereum LayerZero Freezer Multisig (see[A.1.9.4.1.3.1.1 - Ethereum LayerZero Freezer Multisig](21fa6749-6209-4280-9b5f-b2a73d400421)) can freeze LayerZero bridges deployed in the Sky Ecosystem without the need for inclusion in a Spell through the standard Executive Vote process.
+The Ethereum SkyLink Freezer Multisig (see [A.1.9.4.1.1 - Ethereum SkyLink Freezer Multisig](21fa6749-6209-4280-9b5f-b2a73d400421)) can freeze SkyLink bridges deployed in the Sky Ecosystem without the need for inclusion in a Spell through the standard Executive Vote process.
 
 Each action executed by the multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum. Such actions include activating or disabling the freeze function.
 
-##### A.1.9.3.2.15 - Solana LayerZero Freezer Multisig [Core]  <!-- UUID: 82aaec1b-acac-4ed4-8e03-2d8f29ba5ccb -->
+##### A.1.9.3.2.15 - Solana SkyLink Freezer Multisig [Core]  <!-- UUID: 82aaec1b-acac-4ed4-8e03-2d8f29ba5ccb -->
 
-The Solana LayerZero Freezer Multisig (see[A.1.9.4.1.3.1.2 - Solana LayerZero Freezer Multisig](8e618196-257a-49d8-834d-665dba345fcd)) can freeze the Solana LayerZero bridge without the need for inclusion in a Spell through the standard Executive Vote process.
+The Solana SkyLink Freezer Multisig (see [A.1.9.4.1.2.3.1.1 - Solana SkyLink Freezer Multisig](8e618196-257a-49d8-834d-665dba345fcd)) can freeze the Solana SkyLink Bridge without the need for inclusion in a Spell through the standard Executive Vote process.
+
+Each action executed by the multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum. Such actions include activating or disabling the freeze function.
+
+##### A.1.9.3.2.16 - Avalanche SkyLink Freezer Multisig [Core]  <!-- UUID: 57f524b8-292c-496b-a879-2102ce4a81e5 -->
+
+The Avalanche SkyLink Freezer Multisig (see [A.1.9.4.1.3.3.1.1 - Avalanche SkyLink Freezer Multisig](0b1162f6-6a30-4a30-b693-68e077093e7c)) can freeze the Avalanche SkyLink Bridge without the need for inclusion in a Spell through the standard Executive Vote process.
 
 Each action executed by the multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum. Such actions include activating or disabling the freeze function.
 
@@ -4661,135 +4667,241 @@ Each action executed by the multisig, including any function calls and their par
 
 This Section must define processes to cultivate and maintain a strong security culture within the Sky Ecosystem. This Section must implement continuous research and integration of best practices to ensure that the Ecosystem’s security remains effective and up-to-date.
 
-#### A.1.9.4.1 - Solana LayerZero Bridge [Core]  <!-- UUID: 56593663-55e5-45d5-8682-5eede11aa14a -->
+#### A.1.9.4.1 - SkyLink Bridges [Core]  <!-- UUID: bd68f60c-f2dc-4c0e-9209-ba5aa20b6f2f -->
 
-Sky uses a LayerZero bridge to securely move assets between Ethereum Mainnet and Solana, as well as to provide governance controls for Sky-issued tokens on Solana. Additional details regarding the Solana LayerZero Bridge will be specified in a future iteration of the Atlas.
+The documents herein define the LayerZero-based SkyLink bridges deployed by the Sky Ecosystem, as well as shared security infrastructure across these bridges.
 
-##### A.1.9.4.1.1 - Introduction [Core]  <!-- UUID: 1157a0cd-9acc-4149-9258-d7f8946df475 -->
+##### A.1.9.4.1.1 - Ethereum SkyLink Freezer Multisig [Core]  <!-- UUID: 21fa6749-6209-4280-9b5f-b2a73d400421 -->
 
-The Solana LayerZero Bridge consists of both a Token Bridge that allows bridging USDS between Ethereum Mainnet and Solana as well as a Governance Bridge that allows exercising governance control for Sky-issued tokens on Solana. The Solana LayerZero Bridge replaces the existing Wormhole bridge, which will be deactivated following the first phase of deployment of the LayerZero bridge.
+The Ethereum SkyLink Freezer Multisig has the ability to freeze SkyLink bridges deployed in the Sky Ecosystem from Ethereum Mainnet.
 
-The Solana LayerZero bridge serves as the template for future bridges that will be deployed by the Sky Ecosystem across other blockchains.
+###### A.1.9.4.1.1.1 - Ethereum SkyLink Freezer Multisig Address [Core]  <!-- UUID: 4192a2f6-a660-476d-bbb8-677a78b1c3a3 -->
 
-##### A.1.9.4.1.2 - Deployment [Core]  <!-- UUID: 593095a6-aec4-4ca5-9c2e-87ce748ac198 -->
+The address of the Ethereum SkyLink Freezer Multisig on the Ethereum Mainnet is `0x38d1114b4cE3e079CC0f627df6aC2776B5887776`.
 
-The Solana LayerZero Bridge will be deployed in two phases. The first phase will occur in the November 13th Executive Vote and the second phase will occur in a subsequent Out-Of-Schedule Executive Vote. The timing and contents of these phases may be modified by the Core Facilitator in consultation with relevant Ecosystem Actors.
+###### A.1.9.4.1.1.2 - Ethereum SkyLink Freezer Multisig Required Number Of Signers [Core]  <!-- UUID: 861347b3-320f-48fb-ab9a-e9030cb9e44f -->
 
-##### A.1.9.4.1.3 - Security Parameters [Core]  <!-- UUID: 2cf3dc2e-2a2a-4f8a-a959-611e5654a29c -->
+The Ethereum SkyLink Freezer Multisig has a 2/4 signing requirement.
 
-The documents herein define the security parameters of the Solana LayerZero bridge.
+###### A.1.9.4.1.1.3 - Ethereum SkyLink Freezer Multisig Signers [Core]  <!-- UUID: 2a86809e-8b34-4692-92fe-bcb75b00ce6d -->
 
-###### A.1.9.4.1.3.1 - Freezer Multisigs [Core]  <!-- UUID: d70d5580-760f-4441-9f93-7494e0d05808 -->
+The signers of the Ethereum SkyLink Freezer Multisig are two (2) addresses controlled by the Core Facilitator and two (2) addresses controlled by Core GovOps.
 
-The documents herein define two freezer multisigs that have the ability to freeze the Solana LayerZero Bridge from either the Ethereum Mainnet or Solana sides, respectively.
+###### A.1.9.4.1.1.4 - Ethereum SkyLink Freezer Multisig Usage Standards [Core]  <!-- UUID: c0337114-d46d-436f-892d-4f6feb192b29 -->
 
-###### A.1.9.4.1.3.1.1 - Ethereum LayerZero Freezer Multisig [Core]  <!-- UUID: 21fa6749-6209-4280-9b5f-b2a73d400421 -->
-
-The Ethereum LayerZero Freezer Multisig has the ability to freeze the Solana LayerZero Bridge from the Ethereum Mainnet.
-
-###### A.1.9.4.1.3.1.1.1 - Ethereum LayerZero Freezer Multisig Address [Core]  <!-- UUID: 4192a2f6-a660-476d-bbb8-677a78b1c3a3 -->
-
-The address of the Ethereum LayerZero Freezer Multisig on the Ethereum Mainnet is `0x38d1114b4cE3e079CC0f627df6aC2776B5887776`.
-
-###### A.1.9.4.1.3.1.1.2 - Ethereum LayerZero Freezer Multisig Required Number Of Signers [Core]  <!-- UUID: 861347b3-320f-48fb-ab9a-e9030cb9e44f -->
-
-The Ethereum LayerZero Freezer Multisig has a 2/4 signing requirement.
-
-###### A.1.9.4.1.3.1.1.3 - Ethereum LayerZero Freezer Multisig Signers [Core]  <!-- UUID: 2a86809e-8b34-4692-92fe-bcb75b00ce6d -->
-
-The signers of the Ethereum LayerZero Freezer Multisig are two (2) addresses controlled by the Core Facilitator and two (2) addresses controlled by Core GovOps.
-
-###### A.1.9.4.1.3.1.1.4 - Ethereum LayerZero Freezer Multisig Usage Standards [Core]  <!-- UUID: c0337114-d46d-436f-892d-4f6feb192b29 -->
-
-The Ethereum LayerZero Freezer Multisig can only be used in urgent or emergency situations (e.g., potential code exploits). Such situations are characterized by the fact that 1) they have the potential to harm the Sky Ecosystem or its users; and 2) the preparation time required for an Executive Vote would leave the ecosystem vulnerable to harm (e.g., an exploit).
+The Ethereum SkyLink Freezer Multisig can only be used in urgent or emergency situations (e.g., potential code exploits). Such situations are characterized by the fact that 1) they have the potential to harm the Sky Ecosystem or its users; and 2) the preparation time required for an Executive Vote would leave the ecosystem vulnerable to harm (e.g., an exploit).
 
 The multisig should be used to prevent technical vulnerabilities; prevent unwanted functionality of the smart contracts or corresponding parts of the system (e.g., price oracles); or prevent unwanted usage of the smart contracts or corresponding parts of the system which deviates from intended behavior.
 
 The Core Council must ensure that use of the multisig is generally aligned and specifically accords with these requirements.
 
-###### A.1.9.4.1.3.1.1.5 - Ethereum LayerZero Freezer Multisig Modification [Core]  <!-- UUID: af5b97be-bf52-431d-8fa9-9b1c6164e328 -->
+###### A.1.9.4.1.1.5 - Ethereum SkyLink Freezer Multisig Modification [Core]  <!-- UUID: af5b97be-bf52-431d-8fa9-9b1c6164e328 -->
 
-The Core Facilitator and Core GovOps can change the signers of the Ethereum LayerZero Freezer Multisig so long as:
+The Core Facilitator and Core GovOps can change the signers of the Ethereum SkyLink Freezer Multisig so long as:
 
 - there are four (4) signers;
 - two (2) signers are required to execute transactions; and
 - an equal number of signers are controlled by the Core Facilitator and Core GovOps.
 
-###### A.1.9.4.1.3.1.2 - Solana LayerZero Freezer Multisig [Core]  <!-- UUID: 8e618196-257a-49d8-834d-665dba345fcd -->
+##### A.1.9.4.1.2 - Solana SkyLink Bridge [Core]  <!-- UUID: 56593663-55e5-45d5-8682-5eede11aa14a -->
 
-The Solana LayerZero Freezer Multisig will be specified in a future iteration of the Atlas.
+Sky uses a SkyLink bridge to securely move assets between Ethereum Mainnet and Solana, as well as to provide governance controls for Sky-issued tokens on Solana. Additional details regarding the Solana SkyLink Bridge will be specified in a future iteration of the Atlas.
 
-###### A.1.9.4.1.3.1.2.1 - Solana LayerZero Freezer Multisig Address [Core]  <!-- UUID: bb0b31dd-f68c-4ea1-b36e-ceda655bee7d -->
+###### A.1.9.4.1.2.1 - Introduction [Core]  <!-- UUID: 1157a0cd-9acc-4149-9258-d7f8946df475 -->
 
-The address of the Solana LayerZero Freezer Multisig on Solana is `5hARLsT1VA2AmuGL2AXUeSyyFG6o2Fcpb9S6aKXNsbeK`.
+The Solana SkyLink Bridge consists of both a Token Bridge that allows bridging USDS between Ethereum Mainnet and Solana as well as a Governance Bridge that allows exercising governance control for Sky-issued tokens on Solana. The Solana SkyLink Bridge replaces the existing Wormhole bridge, which will be deactivated following the first phase of deployment of the SkyLink bridge.
 
-###### A.1.9.4.1.3.1.2.2 - Solana LayerZero Freezer Multisig Required Number Of Signers [Core]  <!-- UUID: f376a4da-0818-4d13-a496-25451577fe32 -->
+The Solana SkyLink Bridge serves as the template for future bridges that will be deployed by the Sky Ecosystem across other blockchains.
 
-The Solana LayerZero Freezer Multisig has a 2/4 signing requirement.
+###### A.1.9.4.1.2.2 - Deployment [Core]  <!-- UUID: 593095a6-aec4-4ca5-9c2e-87ce748ac198 -->
 
-###### A.1.9.4.1.3.1.2.3 - Solana LayerZero Freezer Multisig Signers [Core]  <!-- UUID: a9f95fb4-690e-43c2-a231-b8705d62036d -->
+The Solana SkyLink Bridge will be deployed in two phases. The first phase will occur in the November 13th Executive Vote and the second phase will occur in a subsequent Out-Of-Schedule Executive Vote. The timing and contents of these phases may be modified by the Core Facilitator in consultation with relevant Ecosystem Actors.
 
-The signers of the Solana LayerZero Freezer Multisig are two (2) addresses controlled by Operational GovOps Soter Labs and two (2) addresses controlled by Operational Facilitator Endgame Edge.
+###### A.1.9.4.1.2.3 - Security Parameters [Core]  <!-- UUID: 2cf3dc2e-2a2a-4f8a-a959-611e5654a29c -->
 
-###### A.1.9.4.1.3.1.2.4 - Solana LayerZero Freezer Multisig Usage Standards [Core]  <!-- UUID: 9f845d09-4304-4aa7-8bd0-2dda747e52e6 -->
+The documents herein define the security parameters of the Solana SkyLink Bridge.
 
-The Solana LayerZero Freezer Multisig can only be used in urgent or emergency situations (e.g., potential code exploits). Such situations are characterized by the fact that 1) they have the potential to harm the Sky Ecosystem or its users; and 2) the preparation time required for an Executive Vote would leave the ecosystem vulnerable to harm (e.g., an exploit).
+###### A.1.9.4.1.2.3.1 - Freezer Multisigs [Core]  <!-- UUID: d70d5580-760f-4441-9f93-7494e0d05808 -->
+
+The Solana SkyLink Bridge can be frozen from Ethereum Mainnet by the Ethereum SkyLink Freezer Multisig as specified in [A.1.9.4.1.1 - Ethereum SkyLink Freezer Multisig](21fa6749-6209-4280-9b5f-b2a73d400421). The document herein defines the Solana-side freezer multisig.
+
+###### A.1.9.4.1.2.3.1.1 - Solana SkyLink Freezer Multisig [Core]  <!-- UUID: 8e618196-257a-49d8-834d-665dba345fcd -->
+
+The Solana SkyLink Freezer Multisig has the ability to freeze the Solana SkyLink Bridge from Solana.
+
+###### A.1.9.4.1.2.3.1.1.1 - Solana SkyLink Freezer Multisig Address [Core]  <!-- UUID: bb0b31dd-f68c-4ea1-b36e-ceda655bee7d -->
+
+The address of the Solana SkyLink Freezer Multisig on Solana is `5hARLsT1VA2AmuGL2AXUeSyyFG6o2Fcpb9S6aKXNsbeK`.
+
+###### A.1.9.4.1.2.3.1.1.2 - Solana SkyLink Freezer Multisig Required Number Of Signers [Core]  <!-- UUID: f376a4da-0818-4d13-a496-25451577fe32 -->
+
+The Solana SkyLink Freezer Multisig has a 2/4 signing requirement.
+
+###### A.1.9.4.1.2.3.1.1.3 - Solana SkyLink Freezer Multisig Signers [Core]  <!-- UUID: a9f95fb4-690e-43c2-a231-b8705d62036d -->
+
+The signers of the Solana SkyLink Freezer Multisig are two (2) addresses controlled by Operational GovOps Soter Labs and two (2) addresses controlled by Operational Facilitator Endgame Edge.
+
+###### A.1.9.4.1.2.3.1.1.4 - Solana SkyLink Freezer Multisig Usage Standards [Core]  <!-- UUID: 9f845d09-4304-4aa7-8bd0-2dda747e52e6 -->
+
+The Solana SkyLink Freezer Multisig can only be used in urgent or emergency situations (e.g., potential code exploits). Such situations are characterized by the fact that 1) they have the potential to harm the Sky Ecosystem or its users; and 2) the preparation time required for an Executive Vote would leave the ecosystem vulnerable to harm (e.g., an exploit).
 
 The multisig should be used to prevent technical vulnerabilities; prevent unwanted functionality of the smart contracts or corresponding parts of the system (e.g., price oracles); or prevent unwanted usage of the smart contracts or corresponding parts of the system which deviates from intended behavior.
 
 The Core Council must ensure that use of the multisig is generally aligned and specifically accords with these requirements.
 
-###### A.1.9.4.1.3.1.2.5 - Solana LayerZero Freezer Multisig Modification [Core]  <!-- UUID: b70ebff7-355c-46c2-bc36-f08561c5ded1 -->
+###### A.1.9.4.1.2.3.1.1.5 - Solana SkyLink Freezer Multisig Modification [Core]  <!-- UUID: b70ebff7-355c-46c2-bc36-f08561c5ded1 -->
 
-Operational GovOps Soter Labs and Operational Facilitator Endgame Edge can change the signers of the Solana LayerZero Freezer Multisig so long as:
+Operational GovOps Soter Labs and Operational Facilitator Endgame Edge can change the signers of the Solana SkyLink Freezer Multisig so long as:
 
 - there are four (4) signers;
 - two (2) signers are required to execute transactions; and
 - an equal number of signers are controlled by Operational GovOps Soter Labs and Operational Facilitator Endgame Edge.
 
-###### A.1.9.4.1.3.2 - Rate Limits [Core]  <!-- UUID: 36626f77-52da-4bb6-9e32-851420133922 -->
+###### A.1.9.4.1.2.3.2 - Rate Limits [Core]  <!-- UUID: 36626f77-52da-4bb6-9e32-851420133922 -->
 
-The documents herein define the rate limits for the Solana LayerZero Bridge.
+The documents herein define the rate limits for the Solana SkyLink Bridge.
 
-###### A.1.9.4.1.3.2.1 - Rate Limit Accounting [Core]  <!-- UUID: 7c0eeee4-ce0d-45fe-8eab-1be501e367c0 -->
+###### A.1.9.4.1.2.3.2.1 - Rate Limit Accounting [Core]  <!-- UUID: 7c0eeee4-ce0d-45fe-8eab-1be501e367c0 -->
 
-The Solana LayerZero Bridge uses net accounting.
+The Solana SkyLink Bridge uses net accounting.
 
 Net accounting means that the rate limit applies to the net amount of tokens transferred from one side of the bridge to the other. For example, if 25,000,000 USDS were transferred from Ethereum Mainnet to Solana and 15,000,000 USDS were transferred from Solana to Ethereum Mainnet, the net amount transferred would be 10,000,000 USDS.
 
-###### A.1.9.4.1.3.2.2 - Rate Limit [Core]  <!-- UUID: 8414b48b-932e-430e-a236-727807fd73ba -->
+###### A.1.9.4.1.2.3.2.2 - Rate Limit [Core]  <!-- UUID: 8414b48b-932e-430e-a236-727807fd73ba -->
 
-The Solana LayerZero Bridge currently has a rate limit of 10,000,000 USDS per day. This limit should be gradually increased over time as the bridge becomes more mature.
+The Solana SkyLink Bridge currently has a rate limit of 10,000,000 USDS per day. This limit should be gradually increased over time as the bridge becomes more mature.
 
-The rate limit for the Solana LayerZero Bridge may be modified by the Core Facilitator, in consultation with the Core Council Risk Advisor, through the Operational Weekly Cycle. Such modifications can be effected directly via an Executive Vote, without requiring a prior Governance Poll.
+The rate limit for the Solana SkyLink Bridge may be modified by the Core Facilitator, in consultation with the Core Council Risk Advisor, through the Operational Weekly Cycle. Such modifications can be effected directly via an Executive Vote, without requiring a prior Governance Poll.
 
-###### A.1.9.4.1.3.3 - Validators [Core]  <!-- UUID: 6d04b42a-9e3c-4490-840a-dbe98388ee78 -->
+###### A.1.9.4.1.2.3.3 - Validators [Core]  <!-- UUID: 6d04b42a-9e3c-4490-840a-dbe98388ee78 -->
 
-The documents herein specify the selection and configuration of validators for the Solana LayerZero Bridge.
+The documents herein specify the selection and configuration of validators for the Solana SkyLink Bridge.
 
-###### A.1.9.4.1.3.3.1 - Token Bridge [Core]  <!-- UUID: 16b49e7d-7360-41bf-ae7a-3c7380972987 -->
+###### A.1.9.4.1.2.3.3.1 - Token Bridge [Core]  <!-- UUID: 16b49e7d-7360-41bf-ae7a-3c7380972987 -->
 
-The documents herein specify the selection and configuration of validators for the Token Bridge component of the Solana LayerZero Bridge.
+The documents herein specify the selection and configuration of validators for the Token Bridge component of the Solana SkyLink Bridge.
 
-###### A.1.9.4.1.3.3.1.1 - Validators [Core]  <!-- UUID: ffb71c51-44cc-4b9e-ae50-ee6975d7bc31 -->
+###### A.1.9.4.1.2.3.3.1.1 - Validators [Core]  <!-- UUID: ffb71c51-44cc-4b9e-ae50-ee6975d7bc31 -->
 
 The validators for the Token Bridge are LayerZero and Nethermind.
 
-###### A.1.9.4.1.3.3.1.2 - Quorum Requirement [Core]  <!-- UUID: 30a6d20d-fd23-4fa1-96a6-494b044c023e -->
+###### A.1.9.4.1.2.3.3.1.2 - Quorum Requirement [Core]  <!-- UUID: 30a6d20d-fd23-4fa1-96a6-494b044c023e -->
 
 The quorum requirement for the Token Bridge is 2/2.
 
-###### A.1.9.4.1.3.3.2 - Governance Bridge [Core]  <!-- UUID: 07d43b8c-1230-4de9-959b-8593d69e922a -->
+###### A.1.9.4.1.2.3.3.2 - Governance Bridge [Core]  <!-- UUID: 07d43b8c-1230-4de9-959b-8593d69e922a -->
 
-The documents herein specify the selection and configuration of validators for the Governance Bridge component of the Solana LayerZero Bridge.
+The documents herein specify the selection and configuration of validators for the Governance Bridge component of the Solana SkyLink Bridge.
 
-###### A.1.9.4.1.3.3.2.1 - Validators [Core]  <!-- UUID: 0939f4bf-93d2-4d32-859f-ae4cfdff33b4 -->
+###### A.1.9.4.1.2.3.3.2.1 - Validators [Core]  <!-- UUID: 0939f4bf-93d2-4d32-859f-ae4cfdff33b4 -->
 
-The validators for the Governance Bridge are LayerZero, Nethermind, Canary, Deutsche Telekom, P2P, Horizon, and Luganodes.
+The validators for the Governance Bridge are LayerZero, Nethermind, Canary, Deutsche Telekom, P2P, Horizen, and Luganodes.
 
-###### A.1.9.4.1.3.3.2.2 - Quorum Requirement [Core]  <!-- UUID: c5850a58-948d-4c19-bf7f-ba2644cd5001 -->
+###### A.1.9.4.1.2.3.3.2.2 - Quorum Requirement [Core]  <!-- UUID: c5850a58-948d-4c19-bf7f-ba2644cd5001 -->
 
-The quorum requirement for the Token Bridge is 4/7.
+The quorum requirement for the Governance Bridge is 4/7.
+
+##### A.1.9.4.1.3 - Avalanche SkyLink Bridge [Core]  <!-- UUID: 6b0eaa0d-d2d3-44b6-b2d4-9344efbf453b -->
+
+Sky uses a SkyLink bridge to securely move assets between Ethereum Mainnet and Avalanche C-Chain ("Avalanche"), as well as to provide governance controls for Sky-issued tokens on Avalanche.
+
+###### A.1.9.4.1.3.1 - Introduction [Core]  <!-- UUID: b71e1dec-357c-4009-a11d-e236667e4086 -->
+
+The Avalanche SkyLink Bridge consists of a Token Bridge that allows bridging USDS and sUSDS between Ethereum Mainnet and Avalanche, as well as a Governance Bridge that allows exercising governance control for Sky-issued tokens on Avalanche.
+
+###### A.1.9.4.1.3.2 - Deployment [Core]  <!-- UUID: 1c0d2cf1-dc44-4b7f-b709-61fcc5c1612c -->
+
+The Avalanche SkyLink Bridge will be deployed in the April 9, 2026 Executive Vote. The timing may be modified by the Core Facilitator in consultation with relevant Ecosystem Actors.
+
+###### A.1.9.4.1.3.3 - Security Parameters [Core]  <!-- UUID: 413852e0-23b8-4630-a8a1-de0d9018c482 -->
+
+The documents herein define the security parameters of the Avalanche SkyLink Bridge.
+
+###### A.1.9.4.1.3.3.1 - Freezer Multisigs [Core]  <!-- UUID: 199661f2-b3d9-4308-a5d9-9ed15880b00d -->
+
+The Avalanche SkyLink Bridge can be frozen from Ethereum Mainnet by the Ethereum SkyLink Freezer Multisig as specified in [A.1.9.4.1.1 - Ethereum SkyLink Freezer Multisig](21fa6749-6209-4280-9b5f-b2a73d400421). The document herein defines the Avalanche-side freezer multisig.
+
+###### A.1.9.4.1.3.3.1.1 - Avalanche SkyLink Freezer Multisig [Core]  <!-- UUID: 0b1162f6-6a30-4a30-b693-68e077093e7c -->
+
+The Avalanche SkyLink Freezer Multisig has the ability to freeze the Avalanche SkyLink Bridge from Avalanche.
+
+###### A.1.9.4.1.3.3.1.1.1 - Avalanche SkyLink Freezer Multisig Address [Core]  <!-- UUID: 3f9645b2-ae99-4c6a-a49a-dfe39ead218c -->
+
+The address of the Avalanche SkyLink Freezer Multisig on Avalanche is `0x4deb1B5372dd3271691A9E80bCBfd98F5aa27f30`.
+
+###### A.1.9.4.1.3.3.1.1.2 - Avalanche SkyLink Freezer Multisig Required Number Of Signers [Core]  <!-- UUID: 542e7e15-da27-488b-a192-baaa4ec1a9b9 -->
+
+The Avalanche SkyLink Freezer Multisig has a 2/5 signing requirement.
+
+###### A.1.9.4.1.3.3.1.1.3 - Avalanche SkyLink Freezer Multisig Signers [Core]  <!-- UUID: 22d693e8-4dd9-4673-ba8a-a372069cee43 -->
+
+The signers of the Avalanche SkyLink Freezer Multisig are two (2) addresses controlled by Operational GovOps Soter Labs, two (2) addresses controlled by Operational Facilitator Endgame Edge, and one (1) address controlled by Prime Agent Grove.
+
+###### A.1.9.4.1.3.3.1.1.4 - Avalanche SkyLink Freezer Multisig Usage Standards [Core]  <!-- UUID: 8596233b-db6e-4787-b601-32d4f5f0393f -->
+
+The Avalanche SkyLink Freezer Multisig can only be used in urgent or emergency situations (e.g., potential code exploits). Such situations are characterized by the fact that 1) they have the potential to harm the Sky Ecosystem or its users; and 2) the preparation time required for an Executive Vote would leave the ecosystem vulnerable to harm (e.g., an exploit).
+
+The multisig should be used to prevent technical vulnerabilities; prevent unwanted functionality of the smart contracts or corresponding parts of the system (e.g., price oracles); or prevent unwanted usage of the smart contracts or corresponding parts of the system which deviates from intended behavior.
+
+The Core Council must ensure that use of the multisig is generally aligned and specifically accords with these requirements.
+
+###### A.1.9.4.1.3.3.1.1.5 - Avalanche SkyLink Freezer Multisig Modification [Core]  <!-- UUID: 8514341b-bbce-4e6e-a9c4-e41519cac67c -->
+
+Operational GovOps Soter Labs, Operational Facilitator Endgame Edge, and Prime Agent Grove can change the signers of the Avalanche SkyLink Freezer Multisig so long as:
+
+- there are five (5) signers;
+- two (2) signers are required to execute transactions;
+- two (2) signers are controlled by Operational GovOps Soter Labs;
+- two (2) signers are controlled by Operational Facilitator Endgame Edge; and
+- one (1) signer is controlled by Prime Agent Grove.
+
+###### A.1.9.4.1.3.3.2 - Rate Limits [Core]  <!-- UUID: 2fb5eb69-2f10-4173-8d26-36890db8fe83 -->
+
+The documents herein define the rate limits for the Avalanche SkyLink Bridge.
+
+###### A.1.9.4.1.3.3.2.1 - Rate Limit Accounting [Core]  <!-- UUID: 49041287-546d-48bb-b85d-8ec48960d2f8 -->
+
+The Avalanche SkyLink Bridge uses net accounting.
+
+Net accounting means that the rate limit applies to the net amount of tokens transferred from one side of the bridge to the other. For example, if 5,000,000 USDS were transferred from Ethereum Mainnet to Avalanche and 3,000,000 USDS were transferred from Avalanche to Ethereum Mainnet, the net amount transferred would be 2,000,000 USDS.
+
+###### A.1.9.4.1.3.3.2.2 - USDS Rate Limit [Core]  <!-- UUID: 6d550b28-1299-456f-879b-9f66dd8085a6 -->
+
+The Avalanche SkyLink Bridge currently has a USDS rate limit of 5,000,000 USDS per day.
+
+The rate limit for the Avalanche SkyLink Bridge may be modified by the Core Facilitator, in consultation with the Core Council Risk Advisor, through the Operational Weekly Cycle. Such modifications can be effected directly via an Executive Vote, without requiring a prior Governance Poll.
+
+###### A.1.9.4.1.3.3.2.3 - sUSDS Rate Limit [Core]  <!-- UUID: 186450c7-25a8-4a4e-a945-3366e9d65b13 -->
+
+The Avalanche SkyLink Bridge currently has no rate limit for sUSDS. A rate limit for sUSDS may be set or subsequently modified by the Core Facilitator, in consultation with the Core Council Risk Advisor, through the Operational Weekly Cycle. Such changes can be effected directly via an Executive Vote, without requiring a prior Governance Poll.
+
+###### A.1.9.4.1.3.3.3 - Validators [Core]  <!-- UUID: 483d9616-cde4-490a-9291-766733b83de4 -->
+
+The documents herein specify the selection and configuration of validators for the Avalanche SkyLink Bridge.
+
+###### A.1.9.4.1.3.3.3.1 - Token Bridge [Core]  <!-- UUID: 3a3bcbb1-0989-4d62-80c3-7a71de0b022a -->
+
+The documents herein specify the selection and configuration of validators for the Token Bridge component of the Avalanche SkyLink Bridge.
+
+###### A.1.9.4.1.3.3.3.1.1 - Validators [Core]  <!-- UUID: a9f87e05-2b53-40e7-b477-ec55136ee95d -->
+
+The validators for the Token Bridge are LayerZero and Nethermind.
+
+###### A.1.9.4.1.3.3.3.1.2 - Quorum Requirement [Core]  <!-- UUID: 2c6b25de-b2ed-4874-9ab3-2a379cbaf601 -->
+
+The quorum requirement for the Token Bridge is 2/2.
+
+###### A.1.9.4.1.3.3.3.2 - Governance Bridge [Core]  <!-- UUID: 6a24fd94-9915-468d-a2a4-14f222ff5980 -->
+
+The documents herein specify the selection and configuration of validators for the Governance Bridge component of the Avalanche SkyLink Bridge.
+
+###### A.1.9.4.1.3.3.3.2.1 - Validators [Core]  <!-- UUID: ae25a37a-9699-4811-93ab-88379227578e -->
+
+The validators for the Governance Bridge are Horizen, LayerZero, Nethermind, Deutsche Telekom, Canary, Luganodes, and P2P.
+
+###### A.1.9.4.1.3.3.3.2.2 - Quorum Requirement [Core]  <!-- UUID: d1a78b46-a227-4551-9bcd-2a5a6e5d3e56 -->
+
+The quorum requirement for the Governance Bridge is 4/7.
 
 #### A.1.9.4.2 - Spark Agent [Core]  <!-- UUID: fe525e67-1142-4312-bab7-bd9549747f77 -->
 
@@ -5226,7 +5338,7 @@ The term ‘spell process’ refers to the end-to-end process of developing a sp
 
 Every Monday, the Operational Weekly Cycle begins. It implements standard recurring operational decisions, proposed in the form of polls.
 
-Operational Weekly Cycle proposals ("proposals") can be proposed by Facilitators and recognized Ecosystem Actors. The proposals should be posted to the Sky Forum by Friday at 8:00 am UTC to ensure the Core Facilitator have sufficient time to prepare the needed polls for the following Monday.
+Operational Weekly Cycle proposals ("proposals") can be proposed by Facilitators and recognized Ecosystem Actors. The proposals should be posted to the Sky Forum by Friday at 8:00 am UTC to ensure the Core Facilitator has sufficient time to prepare the needed polls for the following Monday.
 
 After confirming that the proposer has the authority to request a poll, the Facilitator must post an explicit approval of the poll request as a reply to the proposer’s Forum thread. The Core Facilitator must then prepare and publish the Governance Poll.
 
@@ -5380,7 +5492,7 @@ Paying out the AD Buffer would have led to Entity's AD Buffer dropping below the
 
 #### A.1.10.2.2 - Preparation And Publication of Governance Poll [Core]  <!-- UUID: f7e857e0-9de6-47ee-8817-966cb46ac9d6 -->
 
-An Atlas Edit Weekly Cycle Proposal should be posted to the Forum by Friday at 8:00 am UTC to ensure the Core Facilitator have sufficient time to prepare the needed polls for the following Monday.
+An Atlas Edit Weekly Cycle Proposal should be posted to the Forum by Friday at 8:00 am UTC to ensure the Core Facilitator has sufficient time to prepare the needed polls for the following Monday.
 
 Every Monday, the Atlas Edit Weekly Cycle is carried out via Governance Polls. The Core Facilitator must publish the set of Governance Polls to the community Github and the official Voting Portal.
 
@@ -9204,7 +9316,7 @@ The documents herein provide an introduction to the Pioneer Chain Primitive.
 
 ###### A.2.2.8.3.1.1 - Pioneer Prime Requirements [Core]  <!-- UUID: 219459b3-8333-4e9a-9b79-55e0c20d6dbb -->
 
-Pioneer Primes must be designated by the official team or foundation of the Pioneer Chain, they must be created for the specific purpose of being a Pioneer Prime from their genesis moment, and it is only possible for a Pioneer Chain to have Pioneer Prime once, and for a Pioneer Prime to have the Pioneer Prime status with a single blockchain, once.
+Pioneer Primes must be designated by the official team or foundation of the Pioneer Chain. It is only possible for a Pioneer Chain to have a Pioneer Prime once, and for a Pioneer Prime to have the Pioneer Prime status with a single blockchain, once.
 
 ###### A.2.2.8.3.1.2 - Pioneer Prime Designation Process [Core]  <!-- UUID: d6d16076-da22-43f1-a303-627af41b486c -->
 
@@ -9224,6 +9336,7 @@ The Active Data is updated as follows:
 The current Active Pioneer Primes are:
 
 - Keel
+- Grove
 
 ###### A.2.2.8.3.1.3 - Pioneer Prime Benefits [Core]  <!-- UUID: f0d5ab5e-bf35-4a9d-a73f-d82baac6e604 -->
 
@@ -10177,15 +10290,75 @@ The Core Facilitator and Core GovOps can change the signers of the Aligned Deleg
 
 ##### A.2.3.1.4.2 - Allocation Of Step 4 Capital [Core]  <!-- UUID: 04bd9df4-275e-4520-83a6-d634aa605fe3 -->
 
-In the short term, Step 4 Capital is allocated as specified in the documents herein.
+In the short term, the allocation of Step 4 Capital evolves through three sequential stages as specified in the documents herein.
 
-###### A.2.3.1.4.2.1 - Allocation To SKY Buybacks [Core]  <!-- UUID: b9f2fd14-bc43-4bdd-94aa-2a5defefa97d -->
+###### A.2.3.1.4.2.1 - Stage 0 [Core]  <!-- UUID: d09da2d3-4684-4826-8b8d-01594af2a31c -->
 
-37,600 USDS per day of Step 4 Capital is allocated to SKY buybacks.
+The allocation of Step 4 Capital under Stage 0 is specified in the documents herein.
 
-###### A.2.3.1.4.2.2 - Allocation To Surplus Buffer [Core]  <!-- UUID: e2eae80f-ca25-4fab-880a-3a55ca1aa16d -->
+###### A.2.3.1.4.2.1.1 - Effectiveness [Core]  <!-- UUID: 15d631db-e17d-4ef4-bfcb-0d5d07ece7eb -->
 
-Any remaining Step 4 Capital is allocated to the Surplus Buffer.
+Stage 0 is effective until the activation of Stage 1, as specified in [A.2.3.1.4.2.2.1 - Effectiveness](31e35b53-2843-40ec-8e05-40b270104954).
+
+###### A.2.3.1.4.2.1.2 - SKY Staking Rewards [Core]  <!-- UUID: 2b2c41bf-bfd4-4128-8fed-020da91f166b -->
+
+No Step 4 Capital is allocated to SKY staking rewards under Stage 0. Instead, SKY staking rewards are funded from SKY token reserves held by the Protocol Treasury, distributed at a rate equivalent to 75% of Step 4 Capital from the prior Monthly Settlement Cycle, as specified in [A.4.4.1.4 - Short Term Transitionary Measures](22b8f8bf-b477-4439-86f7-ec605d3c657a). The rate is determined by the Core Facilitator in consultation with the Core Council Risk Advisor following each Monthly Settlement Cycle, using the prior Monthly Settlement Cycle's Step 4 Capital and the price of SKY, and is implemented through an Executive Vote.
+
+###### A.2.3.1.4.2.1.3 - SKY Buybacks [Core]  <!-- UUID: 4bf2e849-7466-47c9-a7ab-a1c2afbc9c72 -->
+
+37,600 USDS per day of Step 4 Capital is allocated to SKY buybacks through the Smart Burn Engine. See [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
+
+###### A.2.3.1.4.2.1.4 - USDS Staking Rewards [Core]  <!-- UUID: 03182918-d773-44b1-bdd4-f6fc8427c7f4 -->
+
+No Step 4 Capital is allocated to USDS staking rewards under Stage 0.
+
+###### A.2.3.1.4.2.1.5 - Surplus Buffer Allocation [Core]  <!-- UUID: af3aaa3a-445e-40b9-b74b-f9810cde16b6 -->
+
+After the allocation to SKY buybacks specified above, any remaining Step 4 Capital is allocated to the Surplus Buffer. See [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294).
+
+###### A.2.3.1.4.2.2 - Stage 1 [Core]  <!-- UUID: e59fa8ca-df57-4b62-b87a-c7cfaafe231b -->
+
+The allocation of Step 4 Capital under Stage 1 is specified in the documents herein.
+
+###### A.2.3.1.4.2.2.1 - Effectiveness [Core]  <!-- UUID: 31e35b53-2843-40ec-8e05-40b270104954 -->
+
+Stage 1 becomes effective upon the execution of an Executive Vote implementing the activation of Stage 1. The Core Facilitator is authorized to include the activation of Stage 1 in the next available Executive Vote, and can do so directly without a prior Governance Poll. Relevant Ecosystem Actors must take all necessary actions to cooperate with the Core Facilitator in implementing Stage 1.
+
+###### A.2.3.1.4.2.2.2 - SKY Staking Rewards [Core]  <!-- UUID: 293e4c9f-1e26-4d4b-b769-650a02eca8b8 -->
+
+No Step 4 Capital is allocated to SKY staking rewards under Stage 1. Instead, SKY staking rewards are funded from SKY token reserves held by the Protocol Treasury, distributed at a rate equivalent to 50% of Step 4 Capital from the prior Monthly Settlement Cycle, as specified in [A.4.4.1.4 - Short Term Transitionary Measures](22b8f8bf-b477-4439-86f7-ec605d3c657a). The rate is determined by the Core Facilitator in consultation with the Core Council Risk Advisor following each Monthly Settlement Cycle, using the prior Monthly Settlement Cycle's Step 4 Capital and the price of SKY, and is implemented through an Executive Vote.
+
+###### A.2.3.1.4.2.2.3 - SKY Buybacks [Core]  <!-- UUID: 2ee74fea-9323-42e7-843b-35cb1aa819b9 -->
+
+37,600 USDS per day of Step 4 Capital is allocated to SKY buybacks through the Smart Burn Engine. See [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
+
+###### A.2.3.1.4.2.2.4 - USDS Staking Rewards [Core]  <!-- UUID: db5e69a1-c022-487e-9415-37c8303f7f79 -->
+
+No Step 4 Capital is allocated to USDS staking rewards under Stage 1.
+
+###### A.2.3.1.4.2.2.5 - Surplus Buffer Allocation [Core]  <!-- UUID: 7fcfebdb-75bd-46e1-af54-c5b8b596a846 -->
+
+After the allocation to SKY buybacks specified above, any remaining Step 4 Capital is allocated to the Surplus Buffer. See [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294).
+
+###### A.2.3.1.4.2.3 - Stage 2 [Core]  <!-- UUID: bde9d8ff-1880-4cc7-9ff5-8f384cebb398 -->
+
+The allocation of Step 4 Capital under Stage 2 is specified in the documents herein.
+
+###### A.2.3.1.4.2.3.1 - Effectiveness [Core]  <!-- UUID: 7aeb3362-34ed-44c4-a578-40e40920c1bb -->
+
+Stage 2 becomes effective upon the execution of an Executive Vote implementing the activation of Stage 2. When SKY token reserves fall to approximately 15 days of remaining supply at the current distribution rate, the Core Facilitator must include the activation of Stage 2 in the next available Executive Vote, and can do so directly without a prior Governance Poll. Relevant Ecosystem Actors must take all necessary actions to cooperate with the Core Facilitator in implementing Stage 2.
+
+###### A.2.3.1.4.2.3.2 - SKY Buybacks And SKY Staking Rewards [Core]  <!-- UUID: c71344ec-5eac-421b-a843-1c2fde65efa1 -->
+
+25% of Step 4 Capital from the prior Monthly Settlement Cycle is allocated to SKY buybacks through the Smart Burn Engine. All SKY obtained through the buyback is distributed as SKY staking rewards. See [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a) and [A.4.4.1.4 - Short Term Transitionary Measures](22b8f8bf-b477-4439-86f7-ec605d3c657a). The rate is determined by the Core Facilitator in consultation with the Core Council Risk Advisor following each Monthly Settlement Cycle, expressed as a daily rate, held fixed until the next settlement cycle, and implemented through an Executive Vote.
+
+###### A.2.3.1.4.2.3.3 - USDS Staking Rewards [Core]  <!-- UUID: bbaa32fb-54cb-4333-b41f-c8453d11bba3 -->
+
+25% of Step 4 Capital from the prior Monthly Settlement Cycle is allocated to USDS staking rewards. See [A.4.4.1.4.1 - Short Term USDS Rewards For SKY Stakers](aad249a0-1332-4b5f-9b46-d89873e73b86). The rate is determined by the Core Facilitator in consultation with the Core Council Risk Advisor following each Monthly Settlement Cycle, expressed as a daily rate, held fixed until the next settlement cycle, and implemented through an Executive Vote.
+
+###### A.2.3.1.4.2.3.4 - Surplus Buffer Allocation [Core]  <!-- UUID: 7743664d-9893-435b-ad77-c7e689ad380b -->
+
+After the allocations to SKY buybacks and USDS staking rewards specified above, any remaining Step 4 Capital is allocated to the Surplus Buffer. See [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294).
 
 ##### A.2.3.1.4.3 - Implementation [Core]  <!-- UUID: b0a59548-b94e-4cdf-961c-7e2d5dbe5983 -->
 
@@ -11003,13 +11176,13 @@ Sky Governance hereby consents to this cash grant. The transfer for October must
 
 ###### A.2.8.2.2.2.5.5.2 - Spark Foundation Grant Authorization: December 2025 [Core]  <!-- UUID: bd9673db-225e-42f4-8f26-6e993dc72bd0 -->
 
-The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from the SubDAO Proxy for a three (3) month period to cover Q1 2026 Foundation expenses. Additionally, a one-time grant of 150,000 USDS has been proposed to cover expenses for Spark Asset Foundation for Q1 2026 (see [Forum Post](https://forum.skyeco.com/t/december-11-2025-proposed-changes-to-spark-for-upcoming-spell/27481).
+The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from Spark's Prime Treasury for a three (3) month period to cover Q1 2026 Foundation expenses. Additionally, a one-time grant of 150,000 USDS has been proposed to cover expenses for Spark Asset Foundation for Q1 2026 (see [https://forum.skyeco.com/t/december-11-2025-proposed-changes-to-spark-for-upcoming-spell/27481](https://forum.skyeco.com/t/december-11-2025-proposed-changes-to-spark-for-upcoming-spell/27481)).
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads as specified in the referenced proposal.
 
 ###### A.2.8.2.2.2.5.5.3 - Spark Foundation Grant Authorization: Q2 2026 [Core]  <!-- UUID: b69158da-476a-4d4b-b7ef-2f8b96b73d23 -->
 
-The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from the SubDAO Proxy for a three (3) month period to cover Q2 2026 Spark Foundation expenses. Additionally, a grant of 100,000 USDS per month to the Spark Asset Foundation from the SubDAO Proxy for a three (3) month period to cover Q2 2026 Spark Asset Foundation expenses (see [Forum Post](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)).
+The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from Spark's Prime Treasury for a three (3) month period to cover Q2 2026 Spark Foundation expenses. Additionally, a grant of 100,000 USDS per month to the Spark Asset Foundation from Spark's Prime Treasury for a three (3) month period to cover Q2 2026 Spark Asset Foundation expenses (see [https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)).
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads as specified in the referenced proposal.
 
@@ -11220,19 +11393,7 @@ The duration of Ecosystem Accord 3 is indefinite, commencing from June 23, 2025.
 
 The subdocuments herein set out the substantive terms of Ecosystem Accord 3.
 
-###### A.2.8.2.3.2.1 - Transfer From Liquidity Bootstrapping Budget To Keel [Core]  <!-- UUID: a0b2e17d-1483-40d0-a771-f12c1b42a0a9 -->
-
-Sky has transferred 500,000 USDS from the Sky Ecosystem Liquidity Bootstrapping Budget to Keel to provide liquidity to decentralized finance protocols on Solana (see [A.5.5.1.1 - Sky Ecosystem Liquidity Bootstrapping](cd4ae79c-0e34-4388-8ac2-41d7677bd955)). This amount shall be treated as an advance against Keel’s Genesis Capital Allocation and deducted from Keel’s allocated capital funds at the time of the Capital Transfer.
-
-The transfer must be made to a multisig controlled by Keel’s Operational Executor Agent and the multisig must have the ability to withdraw the liquidity provided to decentralized finance protocols at any time. The address of the multisig on Solana is `6cTVPDJ8WR1XGxdgnjzhpYKRqcv78T4Nqt95DY8dvMmn`.
-
-###### A.2.8.2.3.2.1.1 - Use Of Funds For Keel Development Expenses [Core]  <!-- UUID: 4109ab2b-e1ae-43bb-8f96-d1cb07f98a5c -->
-
-Keel may also use the funds specified in [A.2.8.2.3.2.1 - Transfer From Liquidity Bootstrapping Budget To Keel](a0b2e17d-1483-40d0-a771-f12c1b42a0a9) to fund development expenses at its discretion.
-
-If Keel elects to use funds in this way, it shall notify its Operational Executor Agent of the amount to be used for development expenses. The Operational Executor Agent will then withdraw the liquidity from the decentralized finance protocols, if necessary, and transfer it to an account designated by Keel.
-
-###### A.2.8.2.3.2.2 - Pioneer Incentive Pool [Core]  <!-- UUID: c929aef7-1b81-4693-8fd8-3d75e62882af -->
+###### A.2.8.2.3.2.1 - Pioneer Incentive Pool [Core]  <!-- UUID: c929aef7-1b81-4693-8fd8-3d75e62882af -->
 
 Keel is eligible for a Pioneer Incentive Pool as specified in [A.2.2.8.3.1.4 - Pioneer Incentive Pool](04edac33-19d5-4a87-a8ab-945a0cd57771), subject to the terms specified in this document.
 
@@ -11240,15 +11401,11 @@ The distribution requirements specified in [A.2.2.8.3.1.4 - Pioneer Incentive Po
 
 The Pioneer Incentive Pool is calculated on a monthly basis as the Sky Savings Rate multiplied by all Unrewarded USDS on Solana. Payments are made on a monthly basis from the Demand Side Buffer (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) to a Pioneer Incentive Pool wallet controlled by the Pioneer Prime. The address of the Pioneer Incentive Pool wallet on Solana is `8JmDPG5BFQ6gpUPJV9xBixYJLqTKCSNotkXksTmNsQfj`.
 
-###### A.2.8.2.3.2.3 - Keel Senior Risk Capital [Core]  <!-- UUID: 1b884ddd-1230-47bb-9b9c-b375bee07b8c -->
-
-In the short term before the implementation of the Senior Risk Capital system, Sky will provide Keel with 7.5 million USDS of Senior Risk Capital. See [A.3.2.2.4.5 - Short Term Transitionary Measures](d33ac81e-bab1-4969-b46d-e605da2afae3). This Senior Risk Capital will not be transferred by Sky to Keel's SubProxy Account; instead, it will be credited towards Keel's Total Risk Capital. See [A.3.2.1.2 - Total Risk Capital](be7589f5-32c0-42d2-8d10-38bceb1de28b).
-
-###### A.2.8.2.3.2.4 - Tokenomics [Core]  <!-- UUID: b0de2330-3678-4852-8c24-ce85445201a7 -->
+###### A.2.8.2.3.2.2 - Tokenomics [Core]  <!-- UUID: b0de2330-3678-4852-8c24-ce85445201a7 -->
 
 The tokenomics for Keel will be specified in a future iteration of the Atlas.
 
-###### A.2.8.2.3.2.5 - Genesis Capital Allocation [Core]  <!-- UUID: 7df88d38-679b-42a2-a8a8-f798ac6a736b -->
+###### A.2.8.2.3.2.3 - Genesis Capital Allocation [Core]  <!-- UUID: 7df88d38-679b-42a2-a8a8-f798ac6a736b -->
 
 The Genesis Capital Allocation for Keel is 10,000,000 USDS. The transfer of the Genesis Capital Allocation to Keel will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll. The address of Keel's SubProxy account is specified in [A.6.1.1.3.2.1.1.3.1.1.2 - SubProxy Account](2d5f052a-e32a-472c-884f-4fd8746e0459).
 
@@ -11704,7 +11861,7 @@ Current Structure:
 - Active SKY or Agent token holders that participate regularly in governance (e.g., voting, writing proposals)
 - Alignment Conservers
 - Aligned Delegates (ADs)
-- Scope Facilitators
+- Facilitators
 - The Guardian ([A.2.9.1.1.3 - The Guardian](0f808bde-fc68-4bda-bc6d-049c6aaaab1b)) or actors that fulfill an equivalent role.
 
 ###### A.2.9.1.1.1.3.3.1 - No Acquired Right Or Claim For Resilience Fund Policy Beneficiaries [Core]  <!-- UUID: 5b88e18f-dadc-47b2-af7c-e9ff8039d39e -->
@@ -15418,6 +15575,8 @@ The activation of the Kicker Module will be executed in the October 30, 2025 Exe
 
 The parameters of the Smart Burn Engine can be modified pursuant to the Operational Weekly Cycle. The Core Facilitator, in consultation with the Core Council Risk Advisor, can propose changes to the `kbump` and `hop` parameters directly via an Executive Vote without requiring a Governance Poll. LSEV2-SKY-A-USDS rewardsDuration should always match the value of the hop parameter without requiring prior governance authorization. Changes to other parameters require a Governance Poll followed by an Executive Vote.
 
+The Smart Burn Engine parameters must be updated as necessary to implement the applicable stage specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3). Such updates are authorized to proceed directly to an Executive Vote without requiring a prior Governance Poll.
+
 ### A.3.5.3 - Sky Capital [Section]  <!-- UUID: f45ca50a-e1d3-4504-8e40-dd45b5fb3f83 -->
 
 This Section defines the different types of Sky capital and rules related to that capital.
@@ -15444,7 +15603,7 @@ The documents herein define capital targets for Sky and processes for achieving 
 
 ##### A.3.5.3.2.1 - Target Aggregate Backstop Capital [Core]  <!-- UUID: f73dda95-0b1c-4bdc-b957-469253d27281 -->
 
-The current Target Aggregate Backstop Capital is 125 million USDS.
+The current Target Aggregate Backstop Capital is 150 million USDS.
 
 ##### A.3.5.3.2.2 - Capital Retention To Achieve Target Aggregate Backstop Capital [Core]  <!-- UUID: ae3b42cd-cdda-424a-b09a-87e2796538ba -->
 
@@ -16238,7 +16397,7 @@ Genesis Agents are Agents that receive capital contributions from Sky, including
 
 ##### A.3.7.1.6.6 - Genesis Capital [Core]  <!-- UUID: 18f3de06-064b-4b08-a855-4720240e37f5 -->
 
-The Genesis Capital of an Agent is the lesser of (1) the amount of capital contributed by Sky to the Agent and (2) the total capital of the Agent.
+The Genesis Capital of an Agent is the lesser of (1) the Eligible Genesis Capital of the Agent and (2) the total capital of the Agent. The Eligible Genesis Capital of an Agent is the amount of capital contributed by Sky to the Agent (see [A.3.7.1.6.6.1 - Amount Of Capital Contributed By Sky To Agents](0331556e-e7ae-48a2-a693-75468c416321)) minus the Phased-Out Genesis Capital of the Agent (see [A.3.7.1.6.6.2.3.0.6.1 - Current Phased-Out Genesis Capital](41bf89b5-dae5-47f3-bd6b-73b5598d9a0d)).
 
 ###### A.3.7.1.6.6.1 - Amount Of Capital Contributed By Sky To Agents [Core]  <!-- UUID: 0331556e-e7ae-48a2-a693-75468c416321 -->
 
@@ -16252,6 +16411,56 @@ The amount of capital contributed by Sky to Agents is:
 - Launch Agent 6 - 10,500,000 USDS
 - Amatsu - 25,000,000 USDS
 - Ozone - 25,000,000 USDS
+
+###### A.3.7.1.6.6.2 - Genesis Capital Phase-Out [Core]  <!-- UUID: 9c06226e-b9ed-49e7-8d82-557b9414b294 -->
+
+As the ecosystem matures and Aggregate Backstop Capital (see [A.3.5.3.1.2 - Aggregate Backstop Capital](6dbead44-5ac4-4c5b-be3c-64eddd004e5c)) reaches a sufficient level, Genesis Capital will phase out. The documents herein define the eligibility conditions and phase-out amounts.
+
+###### A.3.7.1.6.6.2.1 - Phase-Out Eligibility [Core]  <!-- UUID: 6038d06a-6a02-4f8f-9e7d-32f4f2d1f624 -->
+
+The documents herein define the conditions under which Genesis Capital phase-out is active. Both Sky-level and Prime Agent-level conditions must be satisfied.
+
+###### A.3.7.1.6.6.2.1.1 - Sky Phase-Out Eligibility Conditions [Core]  <!-- UUID: 5396bafc-8d6e-4006-bd8b-ee08ac35c729 -->
+
+Genesis Capital phase-out is active when Aggregate Backstop Capital is at or above 125 million USDS. If Aggregate Backstop Capital falls below 125 million USDS at any point, phase-out pauses for all Genesis Agents until Aggregate Backstop Capital is once again at or above the threshold.
+
+###### A.3.7.1.6.6.2.1.2 - Genesis Agent Phase-Out Eligibility Conditions [Core]  <!-- UUID: 392f7cb8-b2cf-4e2c-91e4-4b1eb6edf68f -->
+
+A Genesis Agent becomes eligible for Genesis Capital phase-out when it has launched a liquid token with at least ten (10) million USDS in average daily trading volume over a thirty (30) day period.
+
+###### A.3.7.1.6.6.2.2 - Phase-Out Amount [Core]  <!-- UUID: 32e3b6cf-c3f7-4756-a8af-31920fc81319 -->
+
+For each eligible Genesis Agent whose eligibility conditions are satisfied, the phase-out amount per month (the Total Phase-Out Amount) is the sum of the Base Phase-Out Amount and the Additional Phase-Out Amount, as specified in the documents herein. Following each Monthly Settlement Cycle, the Current Phased-Out Genesis Capital (see [A.3.7.1.6.6.2.3.0.6.1 - Current Phased-Out Genesis Capital](41bf89b5-dae5-47f3-bd6b-73b5598d9a0d)) for each Agent must be increased by the Total Phase-Out Amount for that Agent, but must not exceed the amount of capital contributed by Sky to that Agent (see [A.3.7.1.6.6.1 - Amount Of Capital Contributed By Sky To Agents](0331556e-e7ae-48a2-a693-75468c416321)).
+
+###### A.3.7.1.6.6.2.2.1 - Base Phase-Out Amount [Core]  <!-- UUID: 7584440d-182b-4d6d-bb8e-d85ee5a37291 -->
+
+The Base Phase-Out Amount is one (1) million USDS per eligible Genesis Agent per month.
+
+###### A.3.7.1.6.6.2.2.2 - Additional Phase-Out Amount [Core]  <!-- UUID: ed547147-bb36-42fa-9008-96af46f9640d -->
+
+The Additional Phase-Out Amount per eligible Genesis Agent per month is the amount by which Aggregate Backstop Capital exceeds 125 million USDS, divided by 10.
+
+###### A.3.7.1.6.6.2.3 - Phased-Out Genesis Capital [Active Data Controller]  <!-- UUID: 8f813186-1317-41b1-86d1-47fce7f42af5 -->
+
+The Phased-Out Genesis Capital for each Genesis Agent is defined as Active Data in [A.3.7.1.6.6.2.3.0.6.1 - Current Phased-Out Genesis Capital](41bf89b5-dae5-47f3-bd6b-73b5598d9a0d).
+
+The Active Data is updated as follows:
+
+- The Responsible Party is the Core Council Risk Advisor.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.3.7.1.6.6.2.3.0.6.1 - Current Phased-Out Genesis Capital [Active Data]  <!-- UUID: 41bf89b5-dae5-47f3-bd6b-73b5598d9a0d -->
+
+The current Phased-Out Genesis Capital for each Genesis Agent is:
+
+- Spark - 0 USDS
+- Obex - 0 USDS
+- Skybase - 0 USDS
+- Core Council Executor Agent 1 - 0 USDS
+- Keel - 0 USDS
+- Launch Agent 6 - 0 USDS
+- Amatsu - 0 USDS
+- Ozone - 0 USDS
 
 # A.4 - The Protocol Scope [Scope]  <!-- UUID: 5c20d9af-0bb9-4ca1-a944-1e2cb6f8bb6b -->
 
@@ -17001,11 +17210,11 @@ The current value of the `cap` parameter is:
 
 #### A.4.4.1.4 - Short Term Transitionary Measures [Core]  <!-- UUID: 22b8f8bf-b477-4439-86f7-ec605d3c657a -->
 
-The documents herein define short-term logic for SKY staking rewards pending the implementation of the Sky Treasury Management Function.
+The documents herein define the implementation of short-term SKY staking rewards pending the full implementation of the Sky Treasury Management Function. The policy governing the allocation of Step 4 Capital to staking rewards, including the three-stage framework, is specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3).
 
 ##### A.4.4.1.4.1 - Short Term USDS Rewards For SKY Stakers [Core]  <!-- UUID: aad249a0-1332-4b5f-9b46-d89873e73b86 -->
 
-USDS rewards for SKY stakers are not currently available.
+USDS rewards for SKY stakers are available as specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3).
 
 ##### A.4.4.1.4.2 - Short Term SKY Rewards For SKY Stakers [Core]  <!-- UUID: aed6511f-f5f0-4b46-a56e-9a7bbc6ea310 -->
 
@@ -17077,15 +17286,15 @@ The parameters of the vesting stream managed by the Vesting Stream contract that
 
 ###### A.4.4.1.4.2.1.3.2.1 - Vesting Duration [Core]  <!-- UUID: 9cad1b65-5dea-4510-a1cd-c47eddb66309 -->
 
-The Vesting Duration `vestTau` is the total duration over which the Vesting Total number of tokens are to be vested linearly. The initial value of the `vestTau` parameter is 180 days.
+The Vesting Duration `vestTau` is the total duration over which the Vesting Total number of tokens are to be vested linearly.
 
 ###### A.4.4.1.4.2.1.3.2.2 - Vesting Total [Core]  <!-- UUID: 8bc59b3a-5bf4-4e2c-a793-b51a4ff58ef6 -->
 
-The Vesting Total `vestTot` is the number of rewards tokens to be vested in total over the Vesting Duration. The value of the `vestTot` parameter is 838,182,330 SKY.
+The Vesting Total `vestTot` is the number of rewards tokens to be vested in total over the Vesting Duration.
 
 ###### A.4.4.1.4.2.1.3.3 - Vesting Stream Parameter Modification [Core]  <!-- UUID: 7da0cd7a-238f-400f-89a7-a419ed25ce37 -->
 
-The parameters of the vesting stream that vests SKY Tokens to be transferred to the Staking Rewards contract may be modified by the Core Facilitator on the recommendation of the Core Council Risk Advisor through the Operational Weekly Cycle, and can be effected directly via an Executive Vote, without a prior Governance Poll. It is expected that the parameters will be reviewed and updated approximately every 90 days.
+The Core Facilitator, in consultation with the Core Council Risk Advisor, may modify the parameters of the vesting stream to achieve the target reward rate as specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3). Such modifications can be effected directly via an Executive Vote, without a prior Governance Poll.
 
 ###### A.4.4.1.4.2.2 - Source Of SKY Rewards [Core]  <!-- UUID: 349a350c-c9b7-4232-a83f-2fb49b91fc74 -->
 
@@ -17399,7 +17608,7 @@ Phoenix Labs is a development company that provides services to the Spark Founda
 
 ###### A.6.1.1.1.2.1.1.3.1.1.4.3 - Spark Assets Foundation [Core]  <!-- UUID: 4d70e4a7-6f65-421c-b22a-ac5a6eae8170 -->
 
-Spark Assets Foundation is an entity, the purpose of which is to support the SLL through real world engagements and allocations. Spark Assets Foundation will deploy assets which are held in the ALM Contracts.
+Spark Assets Foundation is an entity, the purpose of which is to support the Spark Liquidity Layer through real world engagements and allocations. Spark Assets Foundation will deploy assets which are held in the ALM Contracts.
 
 ###### A.6.1.1.1.2.1.1.3.1.2 - Operational Process Definition [Core]  <!-- UUID: b660c45c-7837-4cc8-b91a-6911c74e9342 -->
 
@@ -18680,7 +18889,7 @@ The documents herein implement the Supply Side Stablecoin Primitives for Spark. 
 
 ###### A.6.1.1.1.2.6.1 - Allocation System Primitive [Core]  <!-- UUID: cd70b9f1-1a59-407c-9945-05e52bf5a3b6 -->
 
-The documents herein contain all data and specifications for Spark’s Allocation System Primitive Instances. Spark implements the Allocation System Primitive using the Spark Liquidity Layer (SLL). Developed prior to the introduction of the Sky Primitives, the SLL serves as the prototype for all Prime Agents’ Allocation Systems.
+The documents herein contain all data and specifications for Spark’s Allocation System Primitive Instances. Spark implements the Allocation System Primitive using the Spark Liquidity Layer. Developed prior to the introduction of the Sky Primitives, the Spark Liquidity Layer serves as the prototype for all Prime Agents’ Allocation Systems.
 
 ###### A.6.1.1.1.2.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: 845ef31b-7b6e-4407-87ad-a5a4c8bce049 -->
 
@@ -19016,15 +19225,15 @@ The documents herein provide general specifications of the Spark Liquidity Layer
 
 ###### A.6.1.1.1.2.6.1.2.1 - General Specifications [Core]  <!-- UUID: 137b4d21-d68c-4cdd-9f7f-58b9a28bb048 -->
 
-The documents herein contain general specifications for the SLL.
+The documents herein contain general specifications for the Spark Liquidity Layer.
 
-###### A.6.1.1.1.2.6.1.2.1.1 - SLL Architecture [Core]  <!-- UUID: e9d83462-27f2-4bc0-a63a-596dd7c517b4 -->
+###### A.6.1.1.1.2.6.1.2.1.1 - Spark Liquidity Layer Architecture [Core]  <!-- UUID: e9d83462-27f2-4bc0-a63a-596dd7c517b4 -->
 
-The documents herein describe the high-level design of the SLL, including its key smart contracts and their functionality.
+The documents herein describe the high-level design of the Spark Liquidity Layer, including its key smart contracts and their functionality.
 
-###### A.6.1.1.1.2.6.1.2.1.1.1 - SLL Addresses [Core]  <!-- UUID: f3885398-6641-437b-a413-276ac48e624a -->
+###### A.6.1.1.1.2.6.1.2.1.1.1 - Spark Liquidity Layer Addresses [Core]  <!-- UUID: f3885398-6641-437b-a413-276ac48e624a -->
 
-The subdocuments herein provide the addresses of the SLL’s constituent contracts.
+The subdocuments herein provide the addresses of the Spark Liquidity Layer’s constituent contracts.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.1 - Allocator Contract Addresses [Core]  <!-- UUID: fd4ca647-2eb2-403c-975b-4da0601bffba -->
 
@@ -19052,11 +19261,11 @@ The address of the ALLOCATOR_VAULT (ALLOCATOR-SPARK-A) contract is: `0x691a6c29e
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2 - ALM Contracts [Core]  <!-- UUID: 7db865de-8519-464b-8752-f39ecaf54fd2 -->
 
-The documents herein contain addresses for the ALM Contracts for the SLL on each blockchain.
+The documents herein contain addresses for the ALM Contracts for the Spark Liquidity Layer on each blockchain.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1 - Ethereum Mainnet [Core]  <!-- UUID: 834b9f4a-a39f-4b1f-95d9-d841fabfa7a2 -->
 
-The documents herein contain the ALM Contract Addresses for the SLL on the Ethereum Mainnet.
+The documents herein contain the ALM Contract Addresses for the Spark Liquidity Layer on the Ethereum Mainnet.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.1 - ALM Controller (MainnetController) Contract Address [Core]  <!-- UUID: 3546c2d3-7b7c-4446-aa16-ff357c1a7a0f -->
 
@@ -19084,7 +19293,7 @@ The address of the ALM_RATE_LIMITS contract is: `0x7A5FD5cf045e010e62147F065cEAe
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.2 - Base [Core]  <!-- UUID: 339e27da-297e-458f-8420-546e085a51dd -->
 
-The documents herein list the ALM Contract Addresses for the SLL on Base.
+The documents herein list the ALM Contract Addresses for the Spark Liquidity Layer on Base.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.2.1 - ALM Controller (ForeignController Base) Contract Address [Core]  <!-- UUID: eaa1d582-a814-49ef-a3ec-3fbffa414a3a -->
 
@@ -19112,7 +19321,7 @@ The address of the ALM_RATE_LIMITS contract is: `0x983eC82E45C61a42FDDA7B3c43B8C
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.3 - Arbitrum [Core]  <!-- UUID: de02348b-d300-4b85-b7f9-5546106c5191 -->
 
-This document contains the ALM Contract Addresses for the SLL on Arbitrum.
+This document contains the ALM Contract Addresses for the Spark Liquidity Layer on Arbitrum.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.3.1 - ALM Controller (ForeignController Arbitrum) Contract Address [Core]  <!-- UUID: 60979099-707d-497d-ad65-4fd6dd6c7cb0 -->
 
@@ -19141,7 +19350,7 @@ The address of the ALM_RATE_LIMITS contract is: `0x19D08879851FB54C2dCc4bb32b5a1
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.4 - Unichain [Core]  <!-- UUID: 6cd31b91-4309-49ae-8d23-2486129f3b20 -->
 
-This document contains the ALM Contract Addresses for the SLL on Unichain.
+This document contains the ALM Contract Addresses for the Spark Liquidity Layer on Unichain.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.4.1 - ALM Controller (ForeignController Unichain) Contract Address [Core]  <!-- UUID: bcc685eb-d28c-4306-8b78-5639b1d31f6b -->
 
@@ -19169,7 +19378,7 @@ The address of the ALM_RATE_LIMITS contract is: `0x5A1a44D2192Dd1e21efB9caA50E32
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.5 - Optimism [Core]  <!-- UUID: 2c97bd03-ef58-411f-b2cc-1db6d8396d95 -->
 
-This document contains the ALM Contract Addresses for the SLL on Optimism.
+This document contains the ALM Contract Addresses for the Spark Liquidity Layer on Optimism.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.5.1 - ALM Controller (ForeignController Optimism) Contract Address [Core]  <!-- UUID: 1eaa9220-d5e2-44f2-83eb-232add8f04ff -->
 
@@ -19197,7 +19406,7 @@ The address of the ALM_RATE_LIMITS contract is: `0x6B34A6B84444dC3Fc692821D5d077
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6 - Avalanche [Core]  <!-- UUID: 4299d551-8954-4290-acb8-e97b501f8f08 -->
 
-This document contains the ALM Contract Addresses for the SLL on Avalanche.
+This document contains the ALM Contract Addresses for the Spark Liquidity Layer on Avalanche.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.1 - ALM Controller (ForeignController Avalanche) Contract Address [Core]  <!-- UUID: 2a9bf1bb-81f7-40d2-a26d-2cc7e729913f -->
 
@@ -19225,7 +19434,7 @@ The address of the ALM_RATE_LIMITS contract is: `TBD`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.2 - Off-Chain Operational Parameters [Core]  <!-- UUID: 257dcfcb-9bb8-4989-a063-69ae4f01f224 -->
 
-The documents herein list the off-chain operational parameters for the SLL on each blockchain. These operational parameters are protocol settings managed outside of smart contracts (off-chain), used by operators and off-chain systems to guide the functioning of the Spark Liquidity Layer.
+The documents herein list the off-chain operational parameters for the Spark Liquidity Layer on each blockchain. These operational parameters are protocol settings managed outside of smart contracts (off-chain), used by operators and off-chain systems to guide the functioning of the Spark Liquidity Layer.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.2.1 - Off-chain Operational Parameters For Ethereum Mainnet [Core]  <!-- UUID: 82d5f557-3a13-4426-a10f-afbbc763df22 -->
 
@@ -19571,7 +19780,7 @@ The maximum amount of USDC that can be bridged to Avalanche ALM Proxy using the 
 
 ###### A.6.1.1.1.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 9e74aa40-898f-4389-ba3d-8590c12f075d -->
 
-The documents herein describe the specific governance processes for the SLL.
+The documents herein describe the specific governance processes for the Spark Liquidity Layer.
 
 ###### A.6.1.1.1.2.6.1.2.1.2.1 - Invoking New Instances [Core]  <!-- UUID: da88ec3d-3ce8-4f28-bb8e-bbdd3deb2b14 -->
 
@@ -19579,7 +19788,7 @@ The governance process to invoke a new Instance of the Allocation System Primiti
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2 - Multisigs [Core]  <!-- UUID: 631973de-6f13-440b-8f66-478dfdda4d60 -->
 
-The documents herein define multisigs that have privileged access to manage the SLL.
+The documents herein define multisigs that have privileged access to manage the Spark Liquidity Layer.
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.1 - Prime Relayer Multisig [Core]  <!-- UUID: d4628bb9-978c-4e4a-884c-7e0b3b7e1daf -->
 
@@ -19685,17 +19894,17 @@ Spark will continue to operate the Spark Liquidity Layer and agrees to stay at o
 
 As operators of the Spark Liquidity Layer, Spark automatically inherits, and is subject to, the base class of operational requirements related to Total Risk Capital management defined in [A.2.2.9.1.1.3.2.1.2 - Primes’ Total Risk Capital (TRC) Management](3af8a3a2-25e5-44b3-87a4-7df1f2712685). Modifications to the base operational logic automatically propagate to the Spark Artifact.
 
-###### A.6.1.1.1.2.6.1.2.2 - SLL Operational Processes [Core]  <!-- UUID: f6c90935-4266-4987-9060-d1f1675ff24b -->
+###### A.6.1.1.1.2.6.1.2.2 - Spark Liquidity Layer Operational Processes [Core]  <!-- UUID: f6c90935-4266-4987-9060-d1f1675ff24b -->
 
-The documents herein describe common operational procedures for the SLL applicable across multiple Instances.
+The documents herein describe common operational procedures for the Spark Liquidity Layer applicable across multiple Instances.
 
 ###### A.6.1.1.1.2.6.1.2.2.1 - Routine Protocol [Core]  <!-- UUID: 7f69f60f-a0eb-429e-a8a7-228b42b456a2 -->
 
-The documents herein define the protocol for routine ongoing management of the SLL and its active Instances.
+The documents herein define the protocol for routine ongoing management of the Spark Liquidity Layer and its active Instances.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1 - Role Hierarchy And Permissions [Core]  <!-- UUID: e72290a8-e1af-494b-931d-778f5d697d4d -->
 
-The documents herein defines roles (Admin, Relayer, Freezer) and their responsibilities/permissions for managing the SLL.
+The documents herein defines roles (Admin, Relayer, Freezer) and their responsibilities/permissions for managing the Spark Liquidity Layer.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.1 - Default Admin Role [Core]  <!-- UUID: da2e149b-e70c-4373-94da-6da6c4c26048 -->
 
@@ -19718,7 +19927,7 @@ The `FREEZER_ROLE` is the address of the emergency role that can remove a compro
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 92e30e64-76dd-493d-be14-2088892e11b1 -->
 
-The documents herein describe the purpose and operational use of key functions within SLL `MainnetController` and `ForeignController` contracts: USDS management (mint/burn USDS), Asset Transfer Management (direct transfers, protocol deposits/withdrawals), Cross-chain Operations (CCTP bridging).
+The documents herein describe the purpose and operational use of key functions within Spark Liquidity Layer `MainnetController` and `ForeignController` contracts: USDS management (mint/burn USDS), Asset Transfer Management (direct transfers, protocol deposits/withdrawals), Cross-chain Operations (CCTP bridging).
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1 - Mainnet Controller Contract Functions [Core]  <!-- UUID: 9d9c441e-b5c9-4d5a-a776-b89d6b85f568 -->
 
@@ -19878,16 +20087,16 @@ The operator must send the encoded call using `proxy.doCall()` to the `wipe` fun
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.2 - ERC-4626 Functions [Core]  <!-- UUID: e386a0df-9e0b-4ffd-9879-49131f795b0b -->
 
-The documents herein define the general SLL operational procedures for interacting with ERC4626-compliant tokenized vaults. ERC4626 is a standard interface for vaults representing shares of an underlying ERC20 token. SLL can integrate with various ERC4626 vaults (e.g., Fluid Finance).
+The documents herein define the general Spark Liquidity Layer operational procedures for interacting with ERC4626-compliant tokenized vaults. ERC4626 is a standard interface for vaults representing shares of an underlying ERC20 token. Spark Liquidity Layer can integrate with various ERC4626 vaults (e.g., Fluid Finance).
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.2.1 - General Deposit to ERC-4626 Tokens Procedure [Core]  <!-- UUID: 862f4064-47e5-4f76-908d-64edfcfe0ddd -->
 
 This document defines the steps for an operator to deposit assets from the ALM Proxy to the ERC-4626 vault to receive yield-bearing shares.
 
-- The SLL Operator, acting as `RELAYER`, initiates a deposit.
-- Pre-conditions are checked: SLL contract `isActive`, ALM Proxy has sufficient underlying asset, and the deposit amount is within instance-specific `RateLimits` (defined in the relevant Instance Configuration Document).
-- The SLL Operator approves the target ERC4626 vault (identified by its `token` address in the Instance Configuration Document) to spend the underlying `asset` from the ALM Proxy.
-- The SLL Operator calls the `deposit(uint256 amount, address receiver)` function on the target ERC4626 vault, specifying the `amount` of underlying asset and the ALM `proxy` as the receiver of vault shares.
+- The Spark Liquidity Layer Operator, acting as `RELAYER`, initiates a deposit.
+- Pre-conditions are checked: Spark Liquidity Layer contract `isActive`, ALM Proxy has sufficient underlying asset, and the deposit amount is within instance-specific `RateLimits` (defined in the relevant Instance Configuration Document).
+- The Spark Liquidity Layer Operator approves the target ERC4626 vault (identified by its `token` address in the Instance Configuration Document) to spend the underlying `asset` from the ALM Proxy.
+- The Spark Liquidity Layer Operator calls the `deposit(uint256 amount, address receiver)` function on the target ERC4626 vault, specifying the `amount` of underlying asset and the ALM `proxy` as the receiver of vault shares.
 - The number of shares received is recorded.
 - For detailed call structures, instance-specific parameters (vault address, asset address, rate limits), and operational examples, refer to the specific ERC4626 Instance Configuration Document (ICD) (e.g., [A.6.1.1.1.2.6.1.3.1.5.1.3 - Instance-specific Operational Processes](3bc424bf-079e-4b6b-8749-58c942c7d57b) or other relevant ERC4626 ICDs).
 
@@ -19895,9 +20104,9 @@ This document defines the steps for an operator to deposit assets from the ALM P
 
 This document defines the steps for an operator to withdraw a yield-earning balance from the ERC-4626 vault to the ALM Proxy.
 
-- The SLL Operator, acting as `RELAYER`, initiates a withdrawal.
-- Pre-conditions are checked: SLL contract `isActive`, ALM Proxy has sufficient shares of the ERC4626 vault token, and the withdrawal amount is within instance-specific `RateLimits` (defined in the relevant ICD).
-- SLL calls the `withdraw(uint256 assets, address receiver, address owner)` function on the target ERC4626 vault, specifying the `amount` of underlying assets to withdraw, with the ALM `proxy` as both `receiver` (of assets) and `owner` (of shares being burned).
+- The Spark Liquidity Layer Operator, acting as `RELAYER`, initiates a withdrawal.
+- Pre-conditions are checked: Spark Liquidity Layer contract `isActive`, ALM Proxy has sufficient shares of the ERC4626 vault token, and the withdrawal amount is within instance-specific `RateLimits` (defined in the relevant ICD).
+- The Spark Liquidity Layer Operator calls the `withdraw(uint256 assets, address receiver, address owner)` function on the target ERC4626 vault, specifying the `amount` of underlying assets to withdraw, with the ALM `proxy` as both `receiver` (of assets) and `owner` (of shares being burned).
 - The number of shares burned is recorded.
 - For detailed call structures, instance-specific parameters, and operational examples, refer to the specific ERC4626 Instance Configuration Document.
 
@@ -19905,25 +20114,25 @@ This document defines the steps for an operator to withdraw a yield-earning bala
 
 This document defines the steps for an operator to redeem yield-bearing shares from the ERC-4626 vault, receiving the corresponding amount of underlying assets into the ALM Proxy.
 
-- The SLL Operator, acting as `RELAYER`, initiates a redemption of shares.
-- Pre-conditions are checked: SLL contract `isActive`, ALM Proxy has sufficient shares of the ERC4626 vault token.
-- SLL calls the `redeem(uint256 shares, address receiver, address owner)` function on the target ERC4626 vault, specifying the number of `shares` to redeem, with the ALM `proxy` as both `receiver` (of assets) and `owner` (of shares being redeemed).
+- The Spark Liquidity Layer Operator, acting as `RELAYER`, initiates a redemption of shares.
+- Pre-conditions are checked: Spark Liquidity Layer contract `isActive`, ALM Proxy has sufficient shares of the ERC4626 vault token.
+- The Spark Liquidity Layer Operator calls the `redeem(uint256 shares, address receiver, address owner)` function on the target ERC4626 vault, specifying the number of `shares` to redeem, with the ALM `proxy` as both `receiver` (of assets) and `owner` (of shares being redeemed).
 - The amount of underlying assets received is recorded, and relevant `RateLimits` (for withdrawal) are updated.
 - For detailed call structures, instance-specific parameters, and operational examples, refer to the specific ERC4626 Instance Configuration Document.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions [Core]  <!-- UUID: 9922dcf0-4562-445b-9a46-712f677cce64 -->
 
-The documents herein describe the general SLL operational procedures for depositing to and withdrawing from Aave lending pools.
+The documents herein describe the general Spark Liquidity Layer operational procedures for depositing to and withdrawing from Aave lending pools.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1.2.3.1 - General Deposit to Aave ATokens Procedure [Core]  <!-- UUID: 316008c1-0c1f-487a-a5bf-1966e86fb946 -->
 
 This document defines the steps for an operator to deposit to Aave lending pools.
 
-- The SLL Operator, acting as `RELAYER`, initiates a deposit to an Aave instance.
-- Pre-conditions are checked: SLL contract `isActive`, ALM Proxy has sufficient underlying asset, and the deposit amount is within instance-specific `RateLimits` (defined in the relevant Aave ICD).
-- The SLL Operator identifies the `underlying` asset address and Aave `pool` address from the specific Aave ICD.
-- The SLL Operator approves the Aave `pool` to spend the `underlying` asset from the ALM Proxy.
-- The SLL Operator calls the `supply(address asset, uint256 amount, address onBehalfOf, uint16 referralCode)` function on the Aave `pool`, providing the `underlying` asset address, `amount`, ALM `proxy` address (as `onBehalfOf`), and referral code (typically 0).
+- The Spark Liquidity Layer Operator, acting as `RELAYER`, initiates a deposit to an Aave instance.
+- Pre-conditions are checked: Spark Liquidity Layer contract `isActive`, ALM Proxy has sufficient underlying asset, and the deposit amount is within instance-specific `RateLimits` (defined in the relevant Aave ICD).
+- The Spark Liquidity Layer Operator identifies the `underlying` asset address and Aave `pool` address from the specific Aave ICD.
+- The Spark Liquidity Layer Operator approves the Aave `pool` to spend the `underlying` asset from the ALM Proxy.
+- The Spark Liquidity Layer Operator calls the `supply(address asset, uint256 amount, address onBehalfOf, uint16 referralCode)` function on the Aave `pool`, providing the `underlying` asset address, `amount`, ALM `proxy` address (as `onBehalfOf`), and referral code (typically 0).
 - The ALM Proxy receives `aTokens` representing the deposited assets.
 - For detailed call structures, instance-specific parameters (aToken address, underlying asset address, pool address, rate limits), and operational examples, refer to the specific Aave Instance Configuration Document (ICD) (e.g., [A.6.1.1.1.2.6.1.3.1.2.1.3 - Instance-specific Operational Processes](7895798c-50e2-4fa6-b4e9-5b9f259f822d) or other relevant Aave ICDs).
 
@@ -19931,10 +20140,10 @@ This document defines the steps for an operator to deposit to Aave lending pools
 
 This document defines the steps for an operator to withdraw from Aave lending pools.
 
-- The SLL Operator, acting as `RELAYER`, initiates a withdrawal from an Aave instance.
-- Pre-conditions are checked: SLL contract `isActive`, ALM Proxy has sufficient `aTokens` for the instance, and the withdrawal amount is within instance-specific `RateLimits` (defined in the relevant Aave ICD).
-- The SLL Operator identifies the `underlying` asset address and Aave `pool` address from the specific Aave ICD.
-- The SLL Operator calls the `withdraw(address asset, uint256 amount, address to)` function on the Aave `pool`, providing the `underlying` asset address, `amount` to withdraw, and the ALM `proxy` address (as `to`).
+- The Spark Liquidity Layer Operator, acting as `RELAYER`, initiates a withdrawal from an Aave instance.
+- Pre-conditions are checked: Spark Liquidity Layer contract `isActive`, ALM Proxy has sufficient `aTokens` for the instance, and the withdrawal amount is within instance-specific `RateLimits` (defined in the relevant Aave ICD).
+- The Spark Liquidity Layer Operator identifies the `underlying` asset address and Aave `pool` address from the specific Aave ICD.
+- The Spark Liquidity Layer Operator calls the `withdraw(address asset, uint256 amount, address to)` function on the Aave `pool`, providing the `underlying` asset address, `amount` to withdraw, and the ALM `proxy` address (as `to`).
 - The amount of underlying assets withdrawn is recorded, and relevant `RateLimits` are updated.
 - For detailed call structures, instance-specific parameters, and operational examples, refer to the specific Aave ICD.
 
@@ -20418,7 +20627,7 @@ The following code sets out instructions for the operator to trigger an increase
 
 ###### A.6.1.1.1.2.6.1.2.2.1.4 - Instance Lifecycle Management [Core]  <!-- UUID: edbc0297-0640-4833-9e15-b0e4bce960b8 -->
 
-The documents herein define processes for invoking (onboarding) new SLL Instances and offboarding existing ones. This process will be specified in a future iteration of the Spark Artifact.
+The documents herein define processes for invoking (onboarding) new Spark Liquidity Layer Instances and offboarding existing ones. This process will be specified in a future iteration of the Spark Artifact.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.5 - Upgrading Controller [Core]  <!-- UUID: 438042de-d556-4ea6-9434-cb4c070481d0 -->
 
@@ -20426,11 +20635,11 @@ The documents herein define the process for deploying new Controller contracts. 
 
 ###### A.6.1.1.1.2.6.1.2.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 00cebdd9-db63-4ddb-95e0-93b4dc456be7 -->
 
-The documents herein define the process for non-routine ongoing management of the SLL and its active Instances.
+The documents herein define the process for non-routine ongoing management of the Spark Liquidity Layer and its active Instances.
 
 ###### A.6.1.1.1.2.6.1.2.2.3 - Emergency Protocol [Core]  <!-- UUID: 0b96f0e0-e490-4b4c-a65f-5625f9352aaa -->
 
-The documents herein define all the possible actions that can be taken in case of an emergency within SLL operations.
+The documents herein define all the possible actions that can be taken in case of an emergency within Spark Liquidity Layer operations.
 
 ###### A.6.1.1.1.2.6.1.2.2.3.1 - Remove Compromised Relayer As Freezer [Core]  <!-- UUID: 7bd4a4cc-315b-4365-a793-923cd4aaacff -->
 
@@ -20492,7 +20701,7 @@ For more detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1
 
 ###### A.6.1.1.1.2.6.1.2.2.3.3.2 - USDS and sUSDS Bridging Action [Core]  <!-- UUID: 188124a1-32fe-4ed3-90bb-1774cbcf18c5 -->
 
-The function to brigde USDS and sUSDS is currently actioned by an Executive Vote by Sky Governance. This process will be managed by the operator of the SLL in the future.
+The function to brigde USDS and sUSDS is currently actioned by an Executive Vote by Sky Governance. This process will be managed by the operator of the Spark Liquidity Layer in the future.
 
 ###### A.6.1.1.1.2.6.1.2.2.3.4 - Redeem All Mainnet Positions [Core]  <!-- UUID: 77067d73-922a-45e1-9f74-2b6947108d3b -->
 
@@ -20536,7 +20745,7 @@ More detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.2.2
 
 ###### A.6.1.1.1.2.6.1.2.3 - Allocation Strategy [Core]  <!-- UUID: 138f0270-4aa7-41c4-9a00-c4c661d2d426 -->
 
-In the future, additional logic will be added herein regarding the strategy by which capital is allocated between different Instances of the SLL.
+In the future, additional logic will be added herein regarding the strategy by which capital is allocated between different Instances of the Spark Liquidity Layer.
 
 ###### A.6.1.1.1.2.6.1.3 - Active Instances [Core]  <!-- UUID: f7c9fdda-3d42-4b9d-852d-610d7ae4f6c0 -->
 
@@ -20574,7 +20783,7 @@ Ethereum Mainnet
 
 SparkLend Protocol
 
-###### A.6.1.1.1.2.6.1.3.1.1.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: ab86175c-e81a-41b0-98cb-e35971d08363 -->
+###### A.6.1.1.1.2.6.1.3.1.1.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: ab86175c-e81a-41b0-98cb-e35971d08363 -->
 
 USDS
 
@@ -20622,7 +20831,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1cc294ee-5bea-41c8-ac48-deb47aa95ec6 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.2 - Ethereum Mainnet - SparkLend USDC Instance Configuration Document [Core]  <!-- UUID: 7cd0ec35-9449-48ce-a764-454ed33e72de -->
 
@@ -20648,7 +20857,7 @@ Ethereum Mainnet
 
 SparkLend Protocol
 
-###### A.6.1.1.1.2.6.1.3.1.1.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: bc4fbbb2-eacc-40bb-8197-da8f3ae38db9 -->
+###### A.6.1.1.1.2.6.1.3.1.1.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: bc4fbbb2-eacc-40bb-8197-da8f3ae38db9 -->
 
 USDC
 
@@ -20696,7 +20905,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 0e700537-6981-4b70-bca5-08937cf30f73 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.3 - Ethereum Mainnet - SparkLend Dai Instance Configuration Document [Core]  <!-- UUID: 7e8135d5-7b45-48a7-bf9a-881f0bbf115c -->
 
@@ -20722,7 +20931,7 @@ Ethereum Mainnet
 
 SparkLend Protocol
 
-###### A.6.1.1.1.2.6.1.3.1.1.3.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: bffaf20b-5502-42c8-9c15-25bec3816430 -->
+###### A.6.1.1.1.2.6.1.3.1.1.3.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: bffaf20b-5502-42c8-9c15-25bec3816430 -->
 
 Dai
 
@@ -20761,7 +20970,7 @@ The outflow rate limits are:
 
 ###### A.6.1.1.1.2.6.1.3.1.1.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 9427c9de-cc7b-4ea0-ad1f-d1ceb6d7e866 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.4 - Ethereum Mainnet - SparkLend USDT Instance Configuration Document [Core]  <!-- UUID: dbd8d0fc-d055-415c-a7ef-4796c5e33a87 -->
 
@@ -20787,7 +20996,7 @@ Ethereum Mainnet
 
 SparkLend Protocol
 
-###### A.6.1.1.1.2.6.1.3.1.1.4.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: fe96e727-c44b-4c2d-93bf-bdff1ae10373 -->
+###### A.6.1.1.1.2.6.1.3.1.1.4.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: fe96e727-c44b-4c2d-93bf-bdff1ae10373 -->
 
 USDT
 
@@ -20834,7 +21043,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 9c6b2c92-ede8-43a8-8a17-25617429e4f0 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.5 - Ethereum Mainnet - SparkLend pyUSD Instance Configuration Document [Core]  <!-- UUID: 84a0c43e-b64b-4018-bb2c-3d5c5a635c03 -->
 
@@ -20860,7 +21069,7 @@ Ethereum Mainnet
 
 SparkLend Protocol
 
-###### A.6.1.1.1.2.6.1.3.1.1.5.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: f4c28b2b-3c0a-4356-b7d7-3132833a7d67 -->
+###### A.6.1.1.1.2.6.1.3.1.1.5.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: f4c28b2b-3c0a-4356-b7d7-3132833a7d67 -->
 
 pyUSD
 
@@ -20907,7 +21116,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.5.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 82a7b2ed-f831-45b5-a888-35ace26aa267 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.6 - Ethereum Mainnet - SparkLend ETH Instance Configuration Document [Core]  <!-- UUID: 1eb4affe-3116-4d17-a3c1-0a06b6ac618b -->
 
@@ -20933,7 +21142,7 @@ Ethereum Mainnet
 
 SparkLend Protocol
 
-###### A.6.1.1.1.2.6.1.3.1.1.6.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: c1c7c252-219c-4cfe-a9c0-998e0520afce -->
+###### A.6.1.1.1.2.6.1.3.1.1.6.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: c1c7c252-219c-4cfe-a9c0-998e0520afce -->
 
 wETH
 
@@ -20988,7 +21197,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.6.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1f909758-9b95-4e50-ba97-4688157d02a5 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.2 - Aave [Core]  <!-- UUID: 85b11a45-1718-4ed3-9c64-1471d0887e63 -->
 
@@ -21018,7 +21227,7 @@ Ethereum Mainnet
 
 Aave Prime
 
-###### A.6.1.1.1.2.6.1.3.1.2.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 27e2624c-a0c4-449c-9a04-c08225c1155b -->
+###### A.6.1.1.1.2.6.1.3.1.2.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 27e2624c-a0c4-449c-9a04-c08225c1155b -->
 
 USDS
 
@@ -21070,7 +21279,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 7895798c-50e2-4fa6-b4e9-5b9f259f822d -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.3 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836).
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.3 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836).
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.3.1 - Process Definition For Depositing [Core]  <!-- UUID: fa2520ac-4779-4aeb-abe4-2c1b89e7ca51 -->
 
@@ -21256,7 +21465,7 @@ Ethereum Mainnet
 
 Aave Core
 
-###### A.6.1.1.1.2.6.1.3.1.2.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: e339e615-59df-4714-9d05-9fa9864abd00 -->
+###### A.6.1.1.1.2.6.1.3.1.2.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: e339e615-59df-4714-9d05-9fa9864abd00 -->
 
 USDC
 
@@ -21304,7 +21513,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.2.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 5b51c049-870b-407e-bce9-2d383c8eb961 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.2.3 - Ethereum Mainnet - Aave Core USDS Instance Configuration Document [Core]  <!-- UUID: 1191f33a-dc78-4c2f-bc5e-e85802471c60 -->
 
@@ -21330,7 +21539,7 @@ Ethereum Mainnet
 
 Aave Core
 
-###### A.6.1.1.1.2.6.1.3.1.2.3.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: c2d4fcec-44fb-45ca-94d0-529b559797c8 -->
+###### A.6.1.1.1.2.6.1.3.1.2.3.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: c2d4fcec-44fb-45ca-94d0-529b559797c8 -->
 
 USDS
 
@@ -21378,7 +21587,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.2.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c0533414-3031-43a7-9e9f-99160976b9b1 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.2.4 - Ethereum Mainnet - Aave Core USDT Instance Configuration Document [Core]  <!-- UUID: c8bcfd26-cab2-43f6-9c35-ad13571fcf1e -->
 
@@ -21404,7 +21613,7 @@ Ethereum Mainnet
 
 Aave Core
 
-###### A.6.1.1.1.2.6.1.3.1.2.4.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 08e907a6-86fb-4e34-a795-01439955467c -->
+###### A.6.1.1.1.2.6.1.3.1.2.4.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 08e907a6-86fb-4e34-a795-01439955467c -->
 
 USDT
 
@@ -21452,7 +21661,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.2.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 70a5413e-80da-43b6-8e40-32865d9a28f9 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.2.5 - Ethereum Mainnet - Aave USDe Instance Configuration Document [Core]  <!-- UUID: 8bd798af-96fc-4fc4-9fb7-5b351740a962 -->
 
@@ -21478,7 +21687,7 @@ Ethereum Mainnet
 
 Aave Core
 
-###### A.6.1.1.1.2.6.1.3.1.2.5.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 4015efa4-bed3-476a-bfc8-dec3d2909604 -->
+###### A.6.1.1.1.2.6.1.3.1.2.5.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 4015efa4-bed3-476a-bfc8-dec3d2909604 -->
 
 USDe
 
@@ -21526,7 +21735,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.2.5.3 - Instance-specific Operational Processes [Core]  <!-- UUID: fdb9edc5-6934-4a5a-8806-d835a6729de0 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.3 - Maple [Core]  <!-- UUID: 0d069124-5ef8-4152-96d8-30980e522df9 -->
 
@@ -21556,7 +21765,7 @@ Ethereum Mainnet
 
 Maple
 
-###### A.6.1.1.1.2.6.1.3.1.3.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 6431d5f7-1e50-4537-902f-0d772ee3f08e -->
+###### A.6.1.1.1.2.6.1.3.1.3.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 6431d5f7-1e50-4537-902f-0d772ee3f08e -->
 
 USDC
 
@@ -21608,7 +21817,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.3.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: a0a08a60-a588-4586-b237-51273e259d8a -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.3.2 - Ethereum Mainnet - Maple USDT Instance Configuration Document [Core]  <!-- UUID: 5302863d-f777-461e-8238-2178fc9899c4 -->
 
@@ -21634,7 +21843,7 @@ Ethereum Mainnet
 
 Maple
 
-###### A.6.1.1.1.2.6.1.3.1.3.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: c2e6edf2-d064-4079-bb51-403d6963db0b -->
+###### A.6.1.1.1.2.6.1.3.1.3.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: c2e6edf2-d064-4079-bb51-403d6963db0b -->
 
 USDT
 
@@ -21688,11 +21897,11 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.3.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 3cd39fda-4e26-4f1b-ac32-93d3825a660b -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.3.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 717e595c-d7ff-406e-802b-cb4351858f00 -->
 
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
 ###### A.6.1.1.1.2.6.1.3.1.3.2.4.1 - Request Redemption Parameters [Core]  <!-- UUID: 34e632af-1fd9-4dbe-be28-633837cdfe67 -->
 
@@ -21727,7 +21936,7 @@ Ethereum Mainnet
 
 Ethena Protocol
 
-###### A.6.1.1.1.2.6.1.3.1.4.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 355a1d6b-6138-4e23-84dc-244b8f1ba26c -->
+###### A.6.1.1.1.2.6.1.3.1.4.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 355a1d6b-6138-4e23-84dc-244b8f1ba26c -->
 
 USDC
 
@@ -21923,7 +22132,7 @@ Ethereum Mainnet
 
 Ethena Protocol
 
-###### A.6.1.1.1.2.6.1.3.1.4.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: a147254d-5aa8-4473-81be-778e3b8eb7c4 -->
+###### A.6.1.1.1.2.6.1.3.1.4.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: a147254d-5aa8-4473-81be-778e3b8eb7c4 -->
 
 USDe
 
@@ -22112,7 +22321,7 @@ Ethereum Mainnet
 
 Fluid Finance (ERC4626 Vault)
 
-###### A.6.1.1.1.2.6.1.3.1.5.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: bf5832db-c854-4439-9207-b9d4cdddd8c8 -->
+###### A.6.1.1.1.2.6.1.3.1.5.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: bf5832db-c854-4439-9207-b9d4cdddd8c8 -->
 
 sUSDS
 
@@ -22160,7 +22369,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 3bc424bf-079e-4b6b-8749-58c942c7d57b -->
 
-The Instance follows the general ERC4626 procedures see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2 - ERC-4626 Functions](e386a0df-9e0b-4ffd-9879-49131f795b0b) and for emergency procedures see [A.6.1.1.1.2.6.1.2.2.3.4.1 - ERC-4626 Withdrawal Action](f92ddc3f-672a-4f52-931f-5263a9f709b9). For detailed example of the SLL interaction logic for depositing to, withdrawing from, and redeeming from this ERC4626 vault instance see [A.6.1.1.1.2.6.1.3.1.5.1.3.1 - Deposit ERC-4626 Tokens](e2ad525b-3f3f-4402-9e4d-3ae125b35b76) and [A.6.1.1.1.2.6.1.3.1.5.1.3.2 - Withdraw ERC-4626 Tokens](caa295f4-92f4-4ca9-9083-2a1b94c70d5f).
+The Instance follows the general ERC4626 procedures see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2 - ERC-4626 Functions](e386a0df-9e0b-4ffd-9879-49131f795b0b) and for emergency procedures see [A.6.1.1.1.2.6.1.2.2.3.4.1 - ERC-4626 Withdrawal Action](f92ddc3f-672a-4f52-931f-5263a9f709b9). For detailed example of the Spark Liquidity Layer interaction logic for depositing to, withdrawing from, and redeeming from this ERC4626 vault instance see [A.6.1.1.1.2.6.1.3.1.5.1.3.1 - Deposit ERC-4626 Tokens](e2ad525b-3f3f-4402-9e4d-3ae125b35b76) and [A.6.1.1.1.2.6.1.3.1.5.1.3.2 - Withdraw ERC-4626 Tokens](caa295f4-92f4-4ca9-9083-2a1b94c70d5f).
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.3.1 - Deposit ERC-4626 Tokens [Core]  <!-- UUID: e2ad525b-3f3f-4402-9e4d-3ae125b35b76 -->
 
@@ -22359,7 +22568,7 @@ Ethereum Mainnet
 
 Superstate
 
-###### A.6.1.1.1.2.6.1.3.1.6.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 965e886d-7b27-41f3-ba61-d5e3f7f1b556 -->
+###### A.6.1.1.1.2.6.1.3.1.6.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 965e886d-7b27-41f3-ba61-d5e3f7f1b556 -->
 
 USDC
 
@@ -22411,7 +22620,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.6.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 5cb29bf7-30f4-43ef-aca8-020d26f66fcb -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.7 - Curve [Core]  <!-- UUID: 614f24ff-943e-40b2-853b-6c8a0a97ca3d -->
 
@@ -22441,7 +22650,7 @@ Ethereum Mainnet
 
 Curve
 
-###### A.6.1.1.1.2.6.1.3.1.7.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 72b80d4d-ae2c-4980-87f4-79f734e0544f -->
+###### A.6.1.1.1.2.6.1.3.1.7.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 72b80d4d-ae2c-4980-87f4-79f734e0544f -->
 
 USDT
 
@@ -22503,7 +22712,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.7.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 60c4efad-67aa-411e-90d1-d5d0a427814a -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.7.2 - Ethereum Mainnet - Curve USDC/USDT Pool Instance Configuration Document [Core]  <!-- UUID: 30d359a0-287b-4b3b-93fd-4e70bf0b19a7 -->
 
@@ -22529,7 +22738,7 @@ Ethereum Mainnet
 
 Curve
 
-###### A.6.1.1.1.2.6.1.3.1.7.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: b2bf10d6-adcc-4df4-99cc-9e3abeaeca1c -->
+###### A.6.1.1.1.2.6.1.3.1.7.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: b2bf10d6-adcc-4df4-99cc-9e3abeaeca1c -->
 
 N/A - swap only
 
@@ -22589,7 +22798,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.7.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d6bc0a40-0ed7-4366-902d-22eea7538c02 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.7.3 - Ethereum Mainnet - Curve pyUSD/USDC Pool Instance Configuration Document [Core]  <!-- UUID: e1fdaf49-0b32-4644-b021-9cae6e270c7a -->
 
@@ -22615,7 +22824,7 @@ Ethereum Mainnet
 
 Curve
 
-###### A.6.1.1.1.2.6.1.3.1.7.3.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: af3418ca-ed5f-4bee-b4ef-9cdd187cc4a1 -->
+###### A.6.1.1.1.2.6.1.3.1.7.3.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: af3418ca-ed5f-4bee-b4ef-9cdd187cc4a1 -->
 
 N/A - swap only
 
@@ -22665,7 +22874,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.7.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: cd57ed73-dc55-4543-a910-81a9ee4bc1e3 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.7.4 - Ethereum Mainnet - Curve pyUSD/USDS Pool Instance Configuration Document [Core]  <!-- UUID: 7635eff1-1fa0-4356-8953-2564a7f0693c -->
 
@@ -22691,7 +22900,7 @@ Ethereum Mainnet
 
 Curve
 
-###### A.6.1.1.1.2.6.1.3.1.7.4.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: c76d3c17-0be6-4d59-a73f-2952385164f1 -->
+###### A.6.1.1.1.2.6.1.3.1.7.4.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: c76d3c17-0be6-4d59-a73f-2952385164f1 -->
 
 USDS and PYUSD
 
@@ -22743,7 +22952,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.7.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 99474f36-6c37-4627-acdb-0372fdf216ef -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.7.5 - Ethereum Mainnet - Curve weETH/WETH-ng for Swaps Instance Configuration Document [Core]  <!-- UUID: cfc335a4-efcf-4f53-9609-1c9784cbb784 -->
 
@@ -22769,7 +22978,7 @@ Ethereum Mainnet
 
 Curve
 
-###### A.6.1.1.1.2.6.1.3.1.7.5.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: c7a2911c-faf7-40f4-9a90-c43e75bc2396 -->
+###### A.6.1.1.1.2.6.1.3.1.7.5.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: c7a2911c-faf7-40f4-9a90-c43e75bc2396 -->
 
 N/A - swap only
 
@@ -22833,7 +23042,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.7.5.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 28a4bce9-e6d9-4840-8b0b-ed7d9f454dd1 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.8 - Morpho [Core]  <!-- UUID: 8efd627c-7439-4ea9-aabc-ecdffb5cb2ec -->
 
@@ -22863,7 +23072,7 @@ Ethereum Mainnet
 
 Morpho
 
-###### A.6.1.1.1.2.6.1.3.1.8.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 5bde4982-cdea-482b-972a-372352c883a1 -->
+###### A.6.1.1.1.2.6.1.3.1.8.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 5bde4982-cdea-482b-972a-372352c883a1 -->
 
 Dai
 
@@ -22911,7 +23120,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: e76bc120-89fd-438f-b338-7951f4660a7e -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2 - Ethereum Mainnet - Morpho USDS Instance Configuration Document [Core]  <!-- UUID: 138be894-8a4a-4e8c-9fdd-0f8183935d24 -->
 
@@ -22937,7 +23146,7 @@ Ethereum Mainnet
 
 Morpho
 
-###### A.6.1.1.1.2.6.1.3.1.8.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 0a270b1d-8ce7-487c-b571-1f7f114eb19e -->
+###### A.6.1.1.1.2.6.1.3.1.8.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 0a270b1d-8ce7-487c-b571-1f7f114eb19e -->
 
 USDS
 
@@ -22989,11 +23198,11 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 86e8dd23-9895-453f-a56a-460eaff0c0a2 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: e560d14b-b1f1-4351-9214-62a3d6d7fd53 -->
 
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2.4.1 - Contract Addresses [Core]  <!-- UUID: bfdae446-8562-4c34-8bf8-9f6d7d612d2e -->
 
@@ -23035,7 +23244,7 @@ Ethereum Mainnet
 
 Morpho
 
-###### A.6.1.1.1.2.6.1.3.1.8.3.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: c1dd3047-57f6-4410-9c13-febcceae5971 -->
+###### A.6.1.1.1.2.6.1.3.1.8.3.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: c1dd3047-57f6-4410-9c13-febcceae5971 -->
 
 USDC
 
@@ -23087,11 +23296,11 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d778fa59-35a2-4b5a-9e22-2880e99746a4 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: d30c7467-bdc4-42b7-a0fd-332828e5acd7 -->
 
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.4.1 - Contract Addresses [Core]  <!-- UUID: a672e8f2-886e-4d1f-a217-364e638408d9 -->
 
@@ -23133,7 +23342,7 @@ Ethereum Mainnet
 
 Morpho
 
-###### A.6.1.1.1.2.6.1.3.1.8.4.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 9ecacc4a-fe57-427b-a652-92409b64aef6 -->
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 9ecacc4a-fe57-427b-a652-92409b64aef6 -->
 
 USDT
 
@@ -23185,11 +23394,11 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 32759a33-f619-4a41-a4fd-fbcdb642a82a -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 06914650-b873-4c39-8389-5c615c64edf7 -->
 
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.4.1 - Contract Addresses [Core]  <!-- UUID: c481d26c-a4b1-4c76-9031-478bd64a8aca -->
 
@@ -23269,11 +23478,11 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c22fc43d-2947-4919-a266-9e5809a93736 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 06f87be7-087d-480c-8cd8-4baa4ab4b170 -->
 
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.1.4.1 - Contract Addresses [Core]  <!-- UUID: 7fde7297-118e-4485-b4bd-c844773e0233 -->
 
@@ -23381,11 +23590,11 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 5a7fa3ce-f71c-4c57-85f3-c3450881bd56 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 7ea9a810-7278-46c9-9adb-ad4d48c393f0 -->
 
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.2.4.1 - Contract Addresses [Core]  <!-- UUID: fbff1bf2-67ae-48e4-9724-4126b24b5b24 -->
 
@@ -23493,11 +23702,11 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 0ae91e4f-3189-4aba-858f-eff906496b9b -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.3.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 248a7063-2c28-4077-99af-d2db125d6c02 -->
 
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.3.4.1 - Contract Addresses [Core]  <!-- UUID: 1978c0cd-a433-4232-ab94-438ba1fbd511 -->
 
@@ -23605,11 +23814,11 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 14ccaa13-1c17-4161-bf53-005dcc75bfd9 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.4.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: f1f811e3-5489-45ca-a293-495eff825381 -->
 
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.4.4.1 - Contract Addresses [Core]  <!-- UUID: cd1a9cac-7b69-45af-85ac-bbf39e0b7f12 -->
 
@@ -23687,7 +23896,7 @@ Ethereum Mainnet
 
 Arkis
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 521360e7-dccc-4066-a69c-ea2a2c6a2306 -->
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 521360e7-dccc-4066-a69c-ea2a2c6a2306 -->
 
 USDC
 
@@ -23746,7 +23955,7 @@ The Instance Capital Requirement Ratio for this Instance is 50%.
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 0a1caa15-48bb-4047-bf18-76f65ba20410 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.11 - Uniswap v4 [Core]  <!-- UUID: 6c5c956c-608f-40aa-9911-d1c04df4f99e -->
 
@@ -23776,7 +23985,7 @@ Ethereum Mainnet
 
 Uniswap v4
 
-###### A.6.1.1.1.2.6.1.3.1.11.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 967a9605-4d90-46a7-a4bd-1ebcd7192b70 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 967a9605-4d90-46a7-a4bd-1ebcd7192b70 -->
 
 USDS and PYUSD
 
@@ -23845,7 +24054,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.11.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c8bfb680-b56f-4cd2-835c-4fdec23be484 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.11.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document [Core]  <!-- UUID: 3c4cfb29-1579-4abe-a17b-5b5574972b73 -->
 
@@ -23871,7 +24080,7 @@ Ethereum Mainnet
 
 Uniswap v4
 
-###### A.6.1.1.1.2.6.1.3.1.11.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 13b49366-aaee-4f35-b2cd-e2317bc4b92c -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 13b49366-aaee-4f35-b2cd-e2317bc4b92c -->
 
 USDS and USDT
 
@@ -23940,7 +24149,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.11.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: afd2544b-24de-439b-8d8f-44d5cd82a8bd -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.12 - Paxos [Core]  <!-- UUID: e01f0c20-5d3d-4ca4-ac9e-0a1e51780b19 -->
 
@@ -23970,7 +24179,7 @@ Ethereum Mainnet
 
 Paxos
 
-###### A.6.1.1.1.2.6.1.3.1.12.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 9fe5aafe-b11c-4d00-9e4c-87d7a1903beb -->
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 9fe5aafe-b11c-4d00-9e4c-87d7a1903beb -->
 
 USDC
 
@@ -24015,7 +24224,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.12.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 9acd91e4-2705-42d9-a72a-b6e3cd0f6855 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.12.2 - Ethereum Mainnet - Transfer PYUSD to Paxos (receive USDC) Instance Configuration Document [Core]  <!-- UUID: 28544284-0ee1-49da-a27f-b13dba9b5842 -->
 
@@ -24041,7 +24250,7 @@ Ethereum Mainnet
 
 Paxos
 
-###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 06daf347-26de-45c6-844b-9894c09d16cc -->
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 06daf347-26de-45c6-844b-9894c09d16cc -->
 
 PYUSD
 
@@ -24086,7 +24295,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.12.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: ae19bb92-fec6-4939-83ed-43154b8db004 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.12.3 - Ethereum Mainnet - Transfer PYUSD to Paxos (receive USDG) Instance Configuration Document [Core]  <!-- UUID: f6b739d1-c637-48f8-abf7-8c8f173bb392 -->
 
@@ -24112,7 +24321,7 @@ Ethereum Mainnet
 
 Paxos
 
-###### A.6.1.1.1.2.6.1.3.1.12.3.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: f4d4b3b4-e720-4047-8b52-e08dd377ece0 -->
+###### A.6.1.1.1.2.6.1.3.1.12.3.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: f4d4b3b4-e720-4047-8b52-e08dd377ece0 -->
 
 PYUSD
 
@@ -24157,7 +24366,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.12.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: f9be22e8-f6dd-4b99-9821-17cc1f251be9 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.12.4 - Ethereum Mainnet - Transfer USDG to Paxos (receive PYUSD) Instance Configuration Document [Core]  <!-- UUID: bef47e5b-5568-4df4-9294-2eb108a006c6 -->
 
@@ -24183,7 +24392,7 @@ Ethereum Mainnet
 
 Paxos
 
-###### A.6.1.1.1.2.6.1.3.1.12.4.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 61bc115a-5433-44d3-b86b-e5991fe2f077 -->
+###### A.6.1.1.1.2.6.1.3.1.12.4.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 61bc115a-5433-44d3-b86b-e5991fe2f077 -->
 
 USDG
 
@@ -24256,7 +24465,7 @@ Ethereum Mainnet
 
 Anchorage
 
-###### A.6.1.1.1.2.6.1.3.1.13.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: db820c09-0b14-45ea-8367-d7a301718fb9 -->
+###### A.6.1.1.1.2.6.1.3.1.13.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: db820c09-0b14-45ea-8367-d7a301718fb9 -->
 
 USAT
 
@@ -24295,7 +24504,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.13.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 98759dcc-8bb4-459a-b020-d46a02b038ec -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.1.13.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document [Core]  <!-- UUID: 4eee15e5-46e2-4438-8299-6c85c46bb85b -->
 
@@ -24321,7 +24530,7 @@ Ethereum Mainnet
 
 Anchorage
 
-###### A.6.1.1.1.2.6.1.3.1.13.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: f993b46b-291c-45a1-a369-27c37e7bfddd -->
+###### A.6.1.1.1.2.6.1.3.1.13.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: f993b46b-291c-45a1-a369-27c37e7bfddd -->
 
 USDT
 
@@ -24360,7 +24569,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.13.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1c69d51a-f202-4e17-99cd-dd29a046e2a5 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.2 - Base [Core]  <!-- UUID: 9ddbfaed-ebb8-4dd4-9f08-d12cad450a00 -->
 
@@ -24394,7 +24603,7 @@ Base
 
 Morpho Blue (ERC4626 Vault)
 
-###### A.6.1.1.1.2.6.1.3.2.1.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: e40597fd-a25d-4865-a486-d1b6fd3141e7 -->
+###### A.6.1.1.1.2.6.1.3.2.1.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: e40597fd-a25d-4865-a486-d1b6fd3141e7 -->
 
 USDC
 
@@ -24446,11 +24655,11 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 9b849363-5380-406f-888a-d533f6ec69de -->
 
-The Instance follows the general ERC4626 procedures see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2 - ERC-4626 Functions](e386a0df-9e0b-4ffd-9879-49131f795b0b) and for emergency procedures see [A.6.1.1.1.2.6.1.2.2.3.4.1 - ERC-4626 Withdrawal Action](f92ddc3f-672a-4f52-931f-5263a9f709b9). For detailed example of the SLL interaction logic for depositing to, withdrawing from, and redeeming from this ERC4626 vault instance see [A.6.1.1.1.2.6.1.3.1.5.1.3.1 - Deposit ERC-4626 Tokens](e2ad525b-3f3f-4402-9e4d-3ae125b35b76) and [A.6.1.1.1.2.6.1.3.1.5.1.3.2 - Withdraw ERC-4626 Tokens](caa295f4-92f4-4ca9-9083-2a1b94c70d5f).
+The Instance follows the general ERC4626 procedures see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2 - ERC-4626 Functions](e386a0df-9e0b-4ffd-9879-49131f795b0b) and for emergency procedures see [A.6.1.1.1.2.6.1.2.2.3.4.1 - ERC-4626 Withdrawal Action](f92ddc3f-672a-4f52-931f-5263a9f709b9). For detailed example of the Spark Liquidity Layer interaction logic for depositing to, withdrawing from, and redeeming from this ERC4626 vault instance see [A.6.1.1.1.2.6.1.3.1.5.1.3.1 - Deposit ERC-4626 Tokens](e2ad525b-3f3f-4402-9e4d-3ae125b35b76) and [A.6.1.1.1.2.6.1.3.1.5.1.3.2 - Withdraw ERC-4626 Tokens](caa295f4-92f4-4ca9-9083-2a1b94c70d5f).
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 71568640-f127-441d-bdbe-5761d685e505 -->
 
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4.1 - Market Exposure [Core]  <!-- UUID: ab15055e-99ff-4699-82f9-6f1b9a6b4f58 -->
 
@@ -24510,7 +24719,7 @@ Base
 
 Fluid Finance (ERC4626 Vault)
 
-###### A.6.1.1.1.2.6.1.3.2.2.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: cb25347b-93dc-42cb-a691-1c130ec9c6a1 -->
+###### A.6.1.1.1.2.6.1.3.2.2.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: cb25347b-93dc-42cb-a691-1c130ec9c6a1 -->
 
 sUSDS
 
@@ -24558,7 +24767,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.2.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 7c196eb9-92b0-4c43-bd8a-d78a8743a589 -->
 
-The Instance follows the general ERC4626 procedures see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2 - ERC-4626 Functions](e386a0df-9e0b-4ffd-9879-49131f795b0b) and for emergency procedures see [A.6.1.1.1.2.6.1.2.2.3.4.1 - ERC-4626 Withdrawal Action](f92ddc3f-672a-4f52-931f-5263a9f709b9). For detailed example of the SLL interaction logic for depositing to, withdrawing from, and redeeming from this ERC4626 vault instance see [A.6.1.1.1.2.6.1.3.1.5.1.3.1 - Deposit ERC-4626 Tokens](e2ad525b-3f3f-4402-9e4d-3ae125b35b76) and [A.6.1.1.1.2.6.1.3.1.5.1.3.2 - Withdraw ERC-4626 Tokens](caa295f4-92f4-4ca9-9083-2a1b94c70d5f).
+The Instance follows the general ERC4626 procedures see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2 - ERC-4626 Functions](e386a0df-9e0b-4ffd-9879-49131f795b0b) and for emergency procedures see [A.6.1.1.1.2.6.1.2.2.3.4.1 - ERC-4626 Withdrawal Action](f92ddc3f-672a-4f52-931f-5263a9f709b9). For detailed example of the Spark Liquidity Layer interaction logic for depositing to, withdrawing from, and redeeming from this ERC4626 vault instance see [A.6.1.1.1.2.6.1.3.1.5.1.3.1 - Deposit ERC-4626 Tokens](e2ad525b-3f3f-4402-9e4d-3ae125b35b76) and [A.6.1.1.1.2.6.1.3.1.5.1.3.2 - Withdraw ERC-4626 Tokens](caa295f4-92f4-4ca9-9083-2a1b94c70d5f).
 
 ###### A.6.1.1.1.2.6.1.3.2.3 - Aave [Core]  <!-- UUID: a74ec7ed-eb8a-4144-ae32-fa90f751538c -->
 
@@ -24588,7 +24797,7 @@ Base
 
 Aave
 
-###### A.6.1.1.1.2.6.1.3.2.3.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 444562db-82e3-4e85-b1a0-eea3b5ed2162 -->
+###### A.6.1.1.1.2.6.1.3.2.3.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 444562db-82e3-4e85-b1a0-eea3b5ed2162 -->
 
 USDC
 
@@ -24640,7 +24849,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.2.3.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: bac5a103-a0fa-4d3b-8cd0-b9dfe024d4a9 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.3 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836). For detailed example of the SLL interaction logic for depositing to and withdrawing from Aave see [A.6.1.1.1.2.6.1.3.1.2.1.3.1 - Process Definition For Depositing](fa2520ac-4779-4aeb-abe4-2c1b89e7ca51) and [A.6.1.1.1.2.6.1.3.1.2.1.3.2 - Process Definition For Withdrawing](35e32620-a28c-4101-a881-2b7c2b9e42f2).
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.3 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836). For detailed example of the Spark Liquidity Layer interaction logic for depositing to and withdrawing from Aave see [A.6.1.1.1.2.6.1.3.1.2.1.3.1 - Process Definition For Depositing](fa2520ac-4779-4aeb-abe4-2c1b89e7ca51) and [A.6.1.1.1.2.6.1.3.1.2.1.3.2 - Process Definition For Withdrawing](35e32620-a28c-4101-a881-2b7c2b9e42f2).
 
 ###### A.6.1.1.1.2.6.1.3.3 - Arbitrum [Core]  <!-- UUID: 52565140-229d-42b4-9284-905b858dee6c -->
 
@@ -24674,7 +24883,7 @@ Arbitrum
 
 Fluid Finance (ERC4626 Vault)
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: d6a11516-1a75-4d97-a7de-402595d68dbc -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: d6a11516-1a75-4d97-a7de-402595d68dbc -->
 
 sUSDS
 
@@ -24722,7 +24931,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 9eb37215-612f-45cd-a975-00683437326c -->
 
-The Instance follows the general ERC4626 procedures see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2 - ERC-4626 Functions](e386a0df-9e0b-4ffd-9879-49131f795b0b) and for emergency procedures see [A.6.1.1.1.2.6.1.2.2.3.4.1 - ERC-4626 Withdrawal Action](f92ddc3f-672a-4f52-931f-5263a9f709b9). For detailed example of the SLL interaction logic for depositing to, withdrawing from, and redeeming from this ERC4626 vault instance see [A.6.1.1.1.2.6.1.3.1.5.1.3.1 - Deposit ERC-4626 Tokens](e2ad525b-3f3f-4402-9e4d-3ae125b35b76) and [A.6.1.1.1.2.6.1.3.1.5.1.3.2 - Withdraw ERC-4626 Tokens](caa295f4-92f4-4ca9-9083-2a1b94c70d5f).
+The Instance follows the general ERC4626 procedures see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2 - ERC-4626 Functions](e386a0df-9e0b-4ffd-9879-49131f795b0b) and for emergency procedures see [A.6.1.1.1.2.6.1.2.2.3.4.1 - ERC-4626 Withdrawal Action](f92ddc3f-672a-4f52-931f-5263a9f709b9). For detailed example of the Spark Liquidity Layer interaction logic for depositing to, withdrawing from, and redeeming from this ERC4626 vault instance see [A.6.1.1.1.2.6.1.3.1.5.1.3.1 - Deposit ERC-4626 Tokens](e2ad525b-3f3f-4402-9e4d-3ae125b35b76) and [A.6.1.1.1.2.6.1.3.1.5.1.3.2 - Withdraw ERC-4626 Tokens](caa295f4-92f4-4ca9-9083-2a1b94c70d5f).
 
 ###### A.6.1.1.1.2.6.1.3.3.2 - Aave [Core]  <!-- UUID: 014fccbf-4720-43f5-8dff-e58518c06f8c -->
 
@@ -24752,7 +24961,7 @@ Arbitrum
 
 Aave
 
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 698f28fd-3186-42b0-a0cb-0ef6a4cf71e3 -->
+###### A.6.1.1.1.2.6.1.3.3.2.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 698f28fd-3186-42b0-a0cb-0ef6a4cf71e3 -->
 
 USDC
 
@@ -24804,7 +25013,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.3.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d30527ea-821f-4c63-9f2a-3f13ff8064f7 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.3 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836). For detailed example of the SLL interaction logic for depositing to and withdrawing from Aave see [A.6.1.1.1.2.6.1.3.1.2.1.3.1 - Process Definition For Depositing](fa2520ac-4779-4aeb-abe4-2c1b89e7ca51) and [A.6.1.1.1.2.6.1.3.1.2.1.3.2 - Process Definition For Withdrawing](35e32620-a28c-4101-a881-2b7c2b9e42f2).
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.3 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836). For detailed example of the Spark Liquidity Layer interaction logic for depositing to and withdrawing from Aave see [A.6.1.1.1.2.6.1.3.1.2.1.3.1 - Process Definition For Depositing](fa2520ac-4779-4aeb-abe4-2c1b89e7ca51) and [A.6.1.1.1.2.6.1.3.1.2.1.3.2 - Process Definition For Withdrawing](35e32620-a28c-4101-a881-2b7c2b9e42f2).
 
 ###### A.6.1.1.1.2.6.1.3.4 - Avalanche [Core]  <!-- UUID: c7b4d92f-9fdf-4f86-9ec5-84d7ac5373ac -->
 
@@ -24838,7 +25047,7 @@ Avalanche
 
 Aave
 
-###### A.6.1.1.1.2.6.1.3.4.1.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 56593e5a-8e0b-42af-b8bd-a041e9a4999e -->
+###### A.6.1.1.1.2.6.1.3.4.1.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 56593e5a-8e0b-42af-b8bd-a041e9a4999e -->
 
 USDC
 
@@ -24886,7 +25095,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.4.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 8364da67-b040-4b71-9ef9-57c83f43cede -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes. For the general operational procedures applicable to all Aave-type instances. See Aave Functions and Aave AToken Withdrawal Action. For detailed example of the SLL interaction logic for depositing to and withdrawing from Aave see Process Definition For Depositing and Process Definition For Withdrawing.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See Aave Functions and Aave AToken Withdrawal Action. For detailed example of the Spark Liquidity Layer interaction logic for depositing to and withdrawing from Aave see Process Definition For Depositing and Process Definition For Withdrawing.
 
 ###### A.6.1.1.1.2.6.1.3.4.2 - Spark Savings V2 [Core]  <!-- UUID: 3224ce80-1f48-48d9-b0d3-058aebb4723c -->
 
@@ -24950,11 +25159,11 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.4.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 5bba533c-caff-47b4-8236-06421a44533e -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.3.4.2.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 4df29394-5d9c-41ab-be95-886ea4b6f488 -->
 
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general SLL parameters.
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
 ###### A.6.1.1.1.2.6.1.3.4.2.1.4.1 - Contract Addresses [Core]  <!-- UUID: e6135b1d-16f8-4c3f-97fb-c811eae22ce2 -->
 
@@ -25006,7 +25215,7 @@ The transferAssets rate limits are:
 
 ###### A.6.1.1.1.2.6.1.4 - Completed Instances [Core]  <!-- UUID: ed8c3394-ee05-496c-8dd6-4d5275d2ed1f -->
 
-The Instances of the SLL with `Completed` Status are stored herein.
+The Instances of the Spark Liquidity Layer with `Completed` Status are stored herein.
 
 ###### A.6.1.1.1.2.6.1.4.1 - Blackrock [Core]  <!-- UUID: ce83f39e-5efb-4a88-b27f-989083213239 -->
 
@@ -25036,7 +25245,7 @@ Ethereum Mainnet
 
 Blackrock
 
-###### A.6.1.1.1.2.6.1.4.1.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 3215e3d7-850e-400a-adac-b57223c354c6 -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 3215e3d7-850e-400a-adac-b57223c354c6 -->
 
 USDC
 
@@ -25088,7 +25297,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.4.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: ddd37d10-75dd-4de4-a88b-b92745fd53bc -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.4.2 - Centrifuge [Core]  <!-- UUID: 8fb735f7-7d36-4b35-9e9a-19b645674517 -->
 
@@ -25118,7 +25327,7 @@ Ethereum Mainnet
 
 Centrifuge
 
-###### A.6.1.1.1.2.6.1.4.2.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 8eb1c7a9-18a7-46bf-841d-2db3476bf8ea -->
+###### A.6.1.1.1.2.6.1.4.2.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 8eb1c7a9-18a7-46bf-841d-2db3476bf8ea -->
 
 USDC
 
@@ -25166,7 +25375,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.4.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d14420a3-4b36-4eac-bb1b-04f5598fe347 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: 5b1ce161-fc9e-4c90-ac14-75cfbba6a213 -->
 
@@ -28911,6 +29120,10 @@ The documents herein organize all base information relevant to Groves usage of t
 
 This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of `Active`.
 
+###### A.6.1.1.2.2.5.1.1.2.1 - Grove Finance Instance Configuration Document Location [Core]  <!-- UUID: 974d281c-9ad2-4531-9c39-fb44281b3ed0 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.5.1.2.1 - Grove Finance Instance Configuration Document](006f040b-63e1-4847-abd5-9dce1190706b).
+
 ###### A.6.1.1.2.2.5.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 11f1f7ba-82ed-4d1e-a457-344406a158f3 -->
 
 This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of `Completed`.
@@ -28938,6 +29151,79 @@ The subtrees for Instances of the Distribution Reward Primitive with `Suspended`
 ###### A.6.1.1.2.2.5.1.2 - Active Instances [Core]  <!-- UUID: a4df61c2-514e-46e4-a84d-d2782f2f183f -->
 
 The Instances of the Distribution Reward Primitive with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.5.1.2.1 - Grove Finance Instance Configuration Document [Core]  <!-- UUID: 006f040b-63e1-4847-abd5-9dce1190706b -->
+
+The documents herein contain the Instance Configuration Document for the Grove Finance Distribution Reward Primitive Instance.
+
+###### A.6.1.1.2.2.5.1.2.1.1 - Parameters [Core]  <!-- UUID: e6847aa6-4668-4cf6-a757-0b292871a703 -->
+
+The documents herein define the parameters of the Grove Finance Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.2.2.5.1.2.1.1.1 - Reward Code [Core]  <!-- UUID: b5b1f4eb-10a3-472b-b675-008ef0cee259 -->
+
+`2002`.
+
+###### A.6.1.1.2.2.5.1.2.1.1.2 - Tracking Methodology [Core]  <!-- UUID: 78948530-a5e9-456f-bcaf-f74a70bdc0b8 -->
+
+This Instance uses the Tracking Methodology specified in [A.2.2.8.1.2.1.2.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2).
+
+###### A.6.1.1.2.2.5.1.2.1.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 4b91017e-ee25-4cc3-a97a-25d234e50151 -->
+
+The documents herein define the custom parameters of the Grove Finance Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.2.2.5.1.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 9237ad33-0759-4637-86a8-e7ad6317ebb1 -->
+
+The documents herein define the process for the ongoing management of the Grove Finance Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.2.2.5.1.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: fe11d361-a9c7-460e-ae67-1b2e8a6142a1 -->
+
+This document defines the protocol for routine ongoing management of the Grove Finance Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Grove Artifact, a version of the full process definition customized to Grove will be included herein.
+
+###### A.6.1.1.2.2.5.1.2.1.2.1.1 - Agent Customizations [Core]  <!-- UUID: 3fecb22f-ccd8-4bb9-8221-d354b080bef6 -->
+
+The Prime Agent may define instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.2.2.5.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: cf4777c8-e272-4b30-9027-b391191f6473 -->
+
+The documents herein define the protocol for non-routine ongoing management of the Grove Finance Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.2.2.5.1.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: e3079d41-3785-4ee6-a5d0-90fd1c111093 -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Grove Finance Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.2.2.5.1.2.1.3 - Data Repository [Core]  <!-- UUID: 67d2e983-09c7-41da-8b4d-99a9fb00fb2d -->
+
+The documents herein contain data relevant to the Grove Finance Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.2.2.5.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 7259ff43-eaf7-484e-af71-8b6a0ecdde09 -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.2.2.5.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 06a7389f-65b0-48bb-a0ee-b7b9dcbeeaa6 -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.2.2.5.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 74019895-896c-4ab1-bb8c-f0e9741e69eb -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.2.2.5.1.2.1.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 698d68f4-8d3f-4ab4-bfd0-95dbd34b9099 -->
+
+The Distribution Reward payments for the Grove Finance Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.6.1.1.2.2.5.1.2.1.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: bbd8de10-0899-4c16-ae48-a3d0afed9c6f -->
+
+The Distribution Reward Payments are:
 
 ###### A.6.1.1.2.2.5.1.3 - Completed Instances [Core]  <!-- UUID: cca65b4d-5cf9-449e-9178-195b611ddc06 -->
 
@@ -29009,11 +29295,15 @@ The documents herein organize all base information relevant to Grove’s usage o
 
 ###### A.6.1.1.2.2.5.3.1.1 - Global Activation Status [Core]  <!-- UUID: 180defb8-541e-4de9-a7a5-d117144af928 -->
 
-`Inactive`
+`Active`
 
 ###### A.6.1.1.2.2.5.3.1.2 - Active Instances Directory [Core]  <!-- UUID: d9fca80a-1cbc-413b-83ca-3c19428732e7 -->
 
 This document contains a Directory of all Instances of the Pioneer Chain Primitive with Instance status of `Active`.
+
+###### A.6.1.1.2.2.5.3.1.2.1 - Avalanche Instance Configuration Document Location [Core]  <!-- UUID: 796c25b9-f650-4321-962e-3f19414a2674 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.5.3.2.1 - Avalanche Instance Configuration Document](1fecc114-523e-4a7f-aceb-a5805aea6356).
 
 ###### A.6.1.1.2.2.5.3.1.3 - Completed Instances Directory [Core]  <!-- UUID: f1007e17-0599-455f-8afb-f5e965a12683 -->
 
@@ -29042,6 +29332,46 @@ The subtrees for Instances of the Pioneer Chain Primitive with `Suspended` Statu
 ###### A.6.1.1.2.2.5.3.2 - Active Instances [Core]  <!-- UUID: 33a1baf4-9922-40a1-b121-558f620da186 -->
 
 The Instances of the Pioneer Chain Primitive with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.5.3.2.1 - Avalanche Instance Configuration Document [Core]  <!-- UUID: 1fecc114-523e-4a7f-aceb-a5805aea6356 -->
+
+The documents herein contain the Instance Configuration Document for the Avalanche Instance of the Pioneer Chain Primitive.
+
+###### A.6.1.1.2.2.5.3.2.1.1 - Parameters [Core]  <!-- UUID: 7870de5f-4051-4936-a73f-9b9903a83d3b -->
+
+The documents herein define the parameters of the Avalanche Instance of the Pioneer Chain Primitive.
+
+###### A.6.1.1.2.2.5.3.2.1.1.1 - Instance Identifiers [Core]  <!-- UUID: cd8395d4-5466-44f5-b002-12646312942b -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.5.3.2.1.1.1.1 - Network [Core]  <!-- UUID: 29ad76ea-72f5-42bc-910a-fa57a62d501a -->
+
+Avalanche
+
+###### A.6.1.1.2.2.5.3.2.1.1.2 - Pioneer Incentive Pool [Core]  <!-- UUID: 9b11e488-7c8f-4a6f-a5b6-0c4c526ad86a -->
+
+The documents herein contain the terms that govern this Instance's Pioneer Incentive Pool and its address.
+
+###### A.6.1.1.2.2.5.3.2.1.1.2.1 - Network [Core]  <!-- UUID: 027429d2-2a2c-4735-8bea-8bdcdf42d45f -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.5.3.2.1.1.2.2 - Address [Core]  <!-- UUID: ea4f2336-3f9f-49f6-af4e-00a8736e19d5 -->
+
+`0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`
+
+###### A.6.1.1.2.2.5.3.2.1.1.2.3 - Terms [Core]  <!-- UUID: 1702148c-fdd5-4c87-af3e-8f99f2f90f05 -->
+
+The Pioneer Incentive Pool for this Instance is governed by the terms specified in [A.2.2.8.3.1.4 - Pioneer Incentive Pool](04edac33-19d5-4a87-a8ab-945a0cd57771).
+
+###### A.6.1.1.2.2.5.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 11351bed-db55-44e7-a316-9996446adca7 -->
+
+The documents herein define the process for the ongoing management of the Single Instance of the Pioneer Chain Primitive.
+
+###### A.6.1.1.2.2.5.3.2.1.3 - Data Repository [Core]  <!-- UUID: 5c3f4cab-ed95-4ac9-a717-c67b4a6754f8 -->
+
+The documents herein contain data relevant to the Single Instance of the Pioneer Chain Primitive.
 
 ###### A.6.1.1.2.2.5.3.3 - Completed Instances [Core]  <!-- UUID: ad66bcf7-bd92-4c71-be17-89310e6d0a83 -->
 
@@ -29441,7 +29771,7 @@ The address of the ALM_RATE_LIMITS contract is: `0x5F5cfCB8a463868E37Ab27B5eFF3b
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.2 - Avalanche [Core]  <!-- UUID: 621734b8-dfaf-42f2-8ab1-9017e5e9c990 -->
 
-This document contains the ALM Contract Addresses for the GLL on Avalanche.
+This document contains the ALM Contract Addresses for the Grove Liquidity Layer on Avalanche.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.2.1 - ALM Controller (ForeignController Avalanche) Contract [Core]  <!-- UUID: 6445bdc4-6208-407f-820e-9d1e73213694 -->
 
@@ -30438,7 +30768,6 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are 
 ###### A.6.1.1.2.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9af18990-c582-46f9-a78e-0c4e4ce233fc -->
 
 The inflow rate limits are:
-
 - `maxAmount`: 500,000,000 USDC
 - `slope`: 500,000,000 USDC per day
 
@@ -33691,6 +34020,10 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 `setMaxExchangeRate(MAPLE_SYRUP_USDC, 1e6, 3e6)`
 
+###### A.6.1.1.2.2.6.1.3.1.13.1.2.5.2 - Maximum Exposure [Core]  <!-- UUID: d86392f8-071a-4167-9d44-64a8150c2b18 -->
+
+The Maximum Exposure for this Instance is 0 USD.
+
 ###### A.6.1.1.2.2.6.1.3.2 - Avalanche Instances [Core]  <!-- UUID: fbb34f07-a5c8-475e-9842-fc5c9b9bd359 -->
 
 The Avalanche Instances of the Grove Liquidity Layer with `Active` Status are stored herein and are organized by target protocol.
@@ -36113,6 +36446,10 @@ The documents herein organize all base information relevant to Keel’s usage of
 
 This document contains a Directory of all Instances of the Pioneer Chain Primitive with Instance status of `Active`.
 
+###### A.6.1.1.3.2.5.3.1.2.1 - Solana Instance Configuration Document Location [Core]  <!-- UUID: adab4387-3553-4134-bd3c-1f3d07f98415 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.3.2.5.3.2.1 - Solana Instance Configuration Document](638b8dd4-6faa-47b8-9553-a8a4703b6545).
+
 ###### A.6.1.1.3.2.5.3.1.3 - Completed Instances Directory [Core]  <!-- UUID: e7dd62af-a742-4518-97a6-70b885ad67f6 -->
 
 This document contains a Directory of all Instances of the Pioneer Chain Primitive with Instance status of `Completed`.
@@ -36140,6 +36477,42 @@ The subtrees for Instances of the Pioneer Chain Primitive with `Suspended` Statu
 ###### A.6.1.1.3.2.5.3.2 - Active Instances [Core]  <!-- UUID: 5d043c09-1d78-456d-b356-c72a13fe46c8 -->
 
 The Instances of the Pioneer Chain Primitive with `Active` Status are stored herein.
+
+###### A.6.1.1.3.2.5.3.2.1 - Solana Instance Configuration Document [Core]  <!-- UUID: 638b8dd4-6faa-47b8-9553-a8a4703b6545 -->
+
+The documents herein contain the Instance Configuration Document for the Solana Instance of the Pioneer Chain Primitive.
+
+###### A.6.1.1.3.2.5.3.2.1.1 - Parameters [Core]  <!-- UUID: c4a101cc-2c82-4fba-8811-bf84829eead1 -->
+
+The documents herein define the parameters of the Solana Instance of the Pioneer Chain Primitive.
+
+###### A.6.1.1.3.2.5.3.2.1.1.1 - Instance Identifiers [Core]  <!-- UUID: 86e50f38-bf79-43cb-854e-2421b6a3c812 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.3.2.5.3.2.1.1.1.1 - Network [Core]  <!-- UUID: 8c67dee5-c782-4cb9-bdcd-964eb662c28f -->
+
+Solana
+
+###### A.6.1.1.3.2.5.3.2.1.1.2 - Pioneer Incentive Pool [Core]  <!-- UUID: 1010660f-aa32-41bb-b85b-0986370b225f -->
+
+The documents herein contain the terms that govern this Instance's Pioneer Incentive Pool and its address.
+
+###### A.6.1.1.3.2.5.3.2.1.1.2.1 - Address [Core]  <!-- UUID: f2648962-8b3a-45a1-a455-206f704535bb -->
+
+`8JmDPG5BFQ6gpUPJV9xBixYJLqTKCSNotkXksTmNsQfj`
+
+###### A.6.1.1.3.2.5.3.2.1.1.2.2 - Terms [Core]  <!-- UUID: d8b93260-34fe-45b2-83a1-06e093813a7c -->
+
+The Pioneer Incentive Pool for this Instance is governed by the terms specified in [A.2.2.8.3.1.4 - Pioneer Incentive Pool](04edac33-19d5-4a87-a8ab-945a0cd57771) and [A.2.8.2.3 - Ecosystem Accord 3: Sky And Keel](63a88b08-e6cd-48bf-9cec-64ce7e42ae0e).
+
+###### A.6.1.1.3.2.5.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 1f4a087f-1f3a-4e6e-89c6-58a162674757 -->
+
+The documents herein define the process for the ongoing management of the Solana Instance of the Pioneer Chain Primitive.
+
+###### A.6.1.1.3.2.5.3.2.1.3 - Data Repository [Core]  <!-- UUID: dcdd2415-6ad3-4a02-a0a4-10acda9d185f -->
+
+The documents herein contain data relevant to the Solana Instance of the Pioneer Chain Primitive.
 
 ###### A.6.1.1.3.2.5.3.3 - Completed Instances [Core]  <!-- UUID: 4ddfaa41-e902-4d6a-a915-6d999c502a34 -->
 
@@ -48397,3 +48770,4 @@ The Facilitator for Core Council Executor Agent 1 is JanSky.
 ##### A.6.1.2.3.2 - Core GovOps [Core]  <!-- UUID: 3b9b8910-e26b-4bc3-9889-7ee18bdc94f1 -->
 
 GovOps for Core Council Executor Agent 1 is Atlas Axis.
+
