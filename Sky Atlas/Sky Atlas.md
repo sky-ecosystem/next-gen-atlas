@@ -29415,6 +29415,10 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.1.3 - Ethereum Mainnet - Centrifuge ACRDX Instance Configuration Document](b0d889d1-8465-4229-ba69-ca4b5d866131).
 
+###### A.6.1.1.2.2.6.1.1.2.1.1.4 - Ethereum Mainnet - Centrifuge JTRSY USDS Vault Instance Configuration Document Location [Core]  <!-- UUID: e50bfc41-5c93-4e29-87ef-dd1b0af9140c -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.1.4 - Ethereum Mainnet - Centrifuge JTRSY USDS Vault Instance Configuration Document](acbe1bed-7639-45a4-9a5d-73c7d434bd0a).
+
 ###### A.6.1.1.2.2.6.1.1.2.1.2 - Blackrock [Core]  <!-- UUID: f1de44d8-9dc4-4513-ac06-295d5ccc427d -->
 
 The Ethereum Mainnet Instances Directory of the Blackrock Protocol with `Active` Status are stored herein.
@@ -29743,6 +29747,18 @@ The contract address of the Circle CCTP v2 Mainnet to Base is: `0x28b5a0e9C621a5
 
 The contract address of the Circle CCTP v2 Base to Mainnet is: `0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d`.
 
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.3 - Avalanche [Core]  <!-- UUID: b69eb9db-c986-4c19-a718-f0b747640c61 -->
+
+The documents herein contain the Allocator Contract Addresses on Avalanche.
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.3.1 - Grove Executor [Core]  <!-- UUID: 4a1a3c1d-2291-4251-bbe5-8afdb1c9b725 -->
+
+The address of the Grove executor on Avalanche is: `0x4b803781828b76EaBF21AaF02e5ce23596b4d60c`
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.3.2 - Grove Receiver [Core]  <!-- UUID: ae039fcd-37a2-4a47-843c-d079a2508941 -->
+
+The address of the Grove receiver on Avalanche is: `0x380Be2b91B63BF75B194913b6e2C07Df09598c22`
+
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2 - ALM Contracts [Core]  <!-- UUID: f233a46b-8dff-4335-8ccf-dc3f1c18a96f -->
 
 The documents herein contain addresses for the ALM Contracts for the Grove Liquidity Layer.
@@ -29781,11 +29797,11 @@ This document contains the ALM Contract Addresses for the Grove Liquidity Layer 
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.2.1 - ALM Controller (ForeignController Avalanche) Contract [Core]  <!-- UUID: 6445bdc4-6208-407f-820e-9d1e73213694 -->
 
-The address of the ALM_CONTROLLER (ForeignController) contract is: `0x734266cE1E49b148eF633f2E0358382488064999`
+The address of the ALM_CONTROLLER (ForeignController) contract is: `0x4236B772BEeEAFF57550Aa392A0f227C0b908Ce7`
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.2.2 - ALM Controller Contract Version [Core]  <!-- UUID: 6c937922-9c12-4d89-a987-8cca6bc27ebc -->
 
-The ALM_CONTROLLER contract version is: 1.6.0.
+The ALM_CONTROLLER contract version is: 1.8.0.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.2.3 - ALM Freezer Multisig (Avalanche) Address [Core]  <!-- UUID: 228514c4-9a74-4324-b93a-4c10025d4bc7 -->
 
@@ -30965,6 +30981,87 @@ The documents herein contain specific off-chain parameters for this Instance.
 Total ACRDX exposure may not exceed 50.97 million USDS and should be reduced to zero over time.
 
 ###### A.6.1.1.2.2.6.1.3.1.1.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1faafb47-66b2-49a4-abf5-5cd6f1555361 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4 - Ethereum Mainnet - Centrifuge JTRSY USDS Vault Instance Configuration Document [Core]  <!-- UUID: acbe1bed-7639-45a4-9a5d-73c7d434bd0a -->
+
+The documents herein contain the Instance Configuration Document for the Centrifuge JTRSY USDS Vault Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 72120c5a-c08c-40cf-935e-eb4c28649aff -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2 - Parameters [Core]  <!-- UUID: aa4c9779-aa53-47ad-9780-a9978fae5334 -->
+
+The documents herein define the parameters of the Centrifuge JTRSY USDS Vault Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.1 - Instance Identifiers [Core]  <!-- UUID: e0b55a83-1e4c-4f6b-bd92-fe334bc220e5 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.1.1 - Network [Core]  <!-- UUID: ebe72c81-05ca-4dda-9e91-177ebcd1d83e -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.1.2 - Target Protocol [Core]  <!-- UUID: aed0cab3-1498-4bd1-8361-ef4be5c06ebc -->
+
+Centrifuge
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 80d0c003-7941-41ad-bc2b-ed2a27446ff5 -->
+
+USDS
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.1.4 - Token [Core]  <!-- UUID: a6c0d662-dbd0-44e4-9e73-a1b455629f52 -->
+
+JTRSY
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.2 - Contract Addresses [Core]  <!-- UUID: e155bd93-6ce4-497e-8e69-abc199b6e223 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.2.1 - Token Address [Core]  <!-- UUID: baa2fd47-b45a-4d03-9393-0351d4fa70a8 -->
+
+`0x381f4F3B43C30B78C1f7777553236e57bB8AE9ff`
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 9a061684-5c54-4448-bdc7-cb21578db5cb -->
+
+`0xdC035D45d973E3EC169d2276DDab16f1e407384F`
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: ae198061-322e-486c-b6a3-69c9f44a0092 -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: bbb15d43-e8e6-47a1-9f26-bbd0b9a34574 -->
+
+The inflow RateLimitID is: `0x12a7aab841b7cc5a82aa3f431a00634d363fa012c2e247229a80509ab0426359`
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: d4f11693-8a00-44ec-bc44-07b3b9e13fe7 -->
+
+The outflow RateLimitID is: `0x90f60b9802ce2da6196f5558e32abf7b583c646525d836146bfa7938caaaa935`
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.4 - Rate Limits [Core]  <!-- UUID: de12ee28-f435-43ce-beac-5b1ecff3b0d5 -->
+
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: aac8ee49-9414-4fe5-8594-7ecdecdaddd4 -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 500,000,000 USDS
+- `slope`: 500,000,000 USDS per day
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: a1fa5391-2481-4e75-9070-4bb11d7598df -->
+
+The outflow rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 019ca238-986e-4033-9d81-245845a0eadd -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 35ac515f-6832-4e41-88fe-7eb32e6f2702 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
