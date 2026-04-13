@@ -84,11 +84,11 @@ Understanding Slippery Slope Misalignment means understanding that any misalignm
 
 A Scope is a particular focus area of Sky. There are six Scopes:
 
-- The Governance Scope focuses on Alignment Artifact interpretation and balance of powers.
-- The Support Scope focuses on ecosystem support, tools, and activities, including the Sky Primitives.
-- The Stability Scope focuses on financial stability and the core USDS Stablecoin product.
-- The Protocol Scope focuses on technical development, maintenance, and security.
-- The Accessibility Scope focuses on frontends and distribution.
+- The Governance Scope focuses on Alignment Artifact interpretation and balance of powers.
+- The Support Scope focuses on ecosystem support, tools, and activities, including the Sky Primitives.
+- The Stability Scope focuses on financial stability and the core USDS Stablecoin product.
+- The Protocol Scope focuses on technical development, maintenance, and security.
+- The Accessibility Scope focuses on frontends and distribution.
 - The Agent Scope contains all Agent Artifacts.
 
 #### A.0.1.1.14 - Alignment Artifact [Core]  <!-- UUID: 551885ea-d851-4b76-afa1-5ea57f724c9a -->
@@ -199,7 +199,7 @@ Unrewarded USDS are USDS balances that are not receiving the Sky Savings Rate, I
 
 #### A.0.1.1.38 - Sky Forum [Core]  <!-- UUID: e78e8fbb-0602-4e67-8c44-88b1f0b30704 -->
 
-The Sky Forum serves as a dedicated platform for governance across the Sky Ecosystem. Community members submit proposals, engage in debate, and align on decisions. Posts are organized by category according to subject matter. For example, proposals or discussions concerning Sky Core must use the "Sky Core" category, while those pertaining to Primes must use the Prime category associated with the Agent. Authors should also apply relevant tags to improve discoverability and cross-referencing. The forum is located at [https://forum.skyeco.com/](https://forum.skyeco.com/).
+The Sky Forum serves as a dedicated platform for governance across the Sky Ecosystem. Community members submit proposals, engage in debate, and align on decisions. Posts are organized by category according to subject matter. For example, proposals or discussions concerning Sky Core must use the "Sky Core" category, while those pertaining to Primes must use the Prime category associated with the Agent. Authors should also apply relevant tags to improve discoverability and cross-referencing. The forum is located at [https://forum.skyeco.com/](https://forum.skyeco.com/).
 
 #### A.0.1.1.39 - Agent [Core]  <!-- UUID: 3c18e6a7-95b8-44e9-8da6-1eadf3fdd356 -->
 
@@ -3342,7 +3342,7 @@ On Friday week 1, the Governance Point must make sure that the Executive Sheet i
 
 The Governance Point is responsible for ensuring that the Executive Sheet is fully completed and accurate. This includes the following:
 
-- That all fields in the Executive Sheet are filled in with the required information, including URLs, figures, and confirmations. For any incomplete items (e.g., awaiting final figures), they must be marked with a `TODO` tag.
+- That all fields in the Executive Sheet are filled in with the required information, including URLs, figures, and confirmations. For any incomplete items (e.g., awaiting final figures), they must be marked with a `TODO` tag.
 - That all items included in the Executive Sheet were discussed and approved during the GovOps meeting.
     - No approved items from the discussions can be omitted without a valid reason.
 - That the financial transfers are accurate.
@@ -4133,7 +4133,7 @@ While the Spell should use the correct license to pass validation, this is not c
 
 Validators should ensure that the Solidity compiler version used in the deployed Spell matches the version specified in the `Spells-mainnet` repository on GitHub. Validators should verify this by:
 
-- Navigate to the "Contract" tab on Etherscan and check the `Compiler Version` field under the contract’s metadata. The version displayed must match the version specified in the `DssSpell.sol` contract (e.g., pragma solidity `0.8.16`;).
+- Navigate to the "Contract" tab on Etherscan and check the `Compiler Version` field under the contract’s metadata. The version displayed must match the version specified in the `DssSpell.sol` contract (e.g., pragma solidity `0.8.16`;).
 - Only the first part of the version (e.g., `v0.8.16`) needs to match; any additional commit information can be ignored.
 
 While the Spell should use the correct version to pass validation, this is not considered a strict requirement.
@@ -10860,7 +10860,7 @@ The Active Data is updated as follows:
 
 The resolutions of disputes regarding Ecosystem Accords are:
 
-- **Dispute Between Spark And Grove Regarding Effective Date Of Their Ecosystem Accord** (September 2, 2025) - [Facilitator Decision on Grove/Spark Dispute](https://forum.skyeco.com/t/facilitator-decision-on-grove-spark-dispute/27141)
+- **Dispute Between Spark And Grove Regarding Effective Date Of Their Ecosystem Accord** (September 2, 2025) - [Facilitator Decision on Grove/Spark Dispute](https://forum.skyeco.com/t/facilitator-decision-on-grove-spark-dispute/27141)
 
 ### A.2.8.2 - Active Ecosystem Accords [Section]  <!-- UUID: be46648d-a154-480a-b202-81fd1ac735d2 -->
 
@@ -19927,7 +19927,7 @@ The `FREEZER_ROLE` is the address of the emergency role that can remove a compro
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 92e30e64-76dd-493d-be14-2088892e11b1 -->
 
-The documents herein describe the purpose and operational use of key functions within Spark Liquidity Layer `MainnetController` and `ForeignController` contracts: USDS management (mint/burn USDS), Asset Transfer Management (direct transfers, protocol deposits/withdrawals), Cross-chain Operations (CCTP bridging).
+The documents herein describe the purpose and operational use of key functions within Spark Liquidity Layer `MainnetController` and `ForeignController` contracts: USDS management (mint/burn USDS), Asset Transfer Management (direct transfers, protocol deposits/withdrawals), Cross-chain Operations (CCTP bridging).
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2.1 - Mainnet Controller Contract Functions [Core]  <!-- UUID: 9d9c441e-b5c9-4d5a-a776-b89d6b85f568 -->
 
@@ -25095,7 +25095,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.4.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 8364da67-b040-4b71-9ef9-57c83f43cede -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See Aave Functions and Aave AToken Withdrawal Action. For detailed example of the Spark Liquidity Layer interaction logic for depositing to and withdrawing from Aave see Process Definition For Depositing and Process Definition For Withdrawing.
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See Aave Functions and Aave AToken Withdrawal Action. For detailed example of the Spark Liquidity Layer interaction logic for depositing to and withdrawing from Aave see Process Definition For Depositing and Process Definition For Withdrawing.
 
 ###### A.6.1.1.1.2.6.1.3.4.2 - Spark Savings V2 [Core]  <!-- UUID: 3224ce80-1f48-48d9-b0d3-058aebb4723c -->
 
@@ -29783,7 +29783,7 @@ The ALM_CONTROLLER contract version is: 1.6.0.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.2.3 - ALM Freezer Multisig (Avalanche) Address [Core]  <!-- UUID: 228514c4-9a74-4324-b93a-4c10025d4bc7 -->
 
-The address of the Multisig that has the Freezer Role is: `0xB0113804960345fd0a245788b3423319c86940e5`.
+The address of the Multisig that has the Freezer Role is: `0xB0113804960345fd0a245788b3423319c86940e5`.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.2.4 - ALM Relayer Multisig (Avalanche) Address [Core]  <!-- UUID: 79a7fa54-db2c-4850-b56b-55b1db8e7463 -->
 
@@ -40034,7 +40034,7 @@ The documents herein define the process for the ongoing management of the Sky.mo
 
 ###### A.6.1.1.4.2.5.1.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: bd3b25ac-90b8-49f0-ac29-bb51a2290820 -->
 
-This document defines the protocol for routine ongoing management of the Sky.money App Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the Sky.money App Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
@@ -40107,7 +40107,7 @@ The documents herein define the process for the ongoing management of the Sky.mo
 
 ###### A.6.1.1.4.2.5.1.2.2.2.1 - Routine Protocol [Core]  <!-- UUID: 461e8506-cc90-4c8d-9927-153ee996c432 -->
 
-This document defines the protocol for routine ongoing management of the Sky.money Frontend Open Source Widgets Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the Sky.money Frontend Open Source Widgets Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
@@ -40180,7 +40180,7 @@ The documents herein define the process for the ongoing management of the DeFi S
 
 ###### A.6.1.1.4.2.5.1.2.3.2.1 - Routine Protocol [Core]  <!-- UUID: 2e0cdaa7-5d3a-42c2-808d-220c4823c0e2 -->
 
-This document defines the protocol for routine ongoing management of the DeFi Saver Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the DeFi Saver Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
@@ -40277,7 +40277,7 @@ The documents herein define the process for the ongoing management of the CoW Sw
 
 ###### A.6.1.1.4.2.5.1.2.4.2.1 - Routine Protocol [Core]  <!-- UUID: c6e84f25-85fe-412e-808a-235e713d4ec2 -->
 
-This document defines the protocol for routine ongoing management of the CoW Swap Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the CoW Swap Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
@@ -40374,7 +40374,7 @@ The documents herein define the process for the ongoing management of the ParaSw
 
 ###### A.6.1.1.4.2.5.1.2.5.2.1 - Routine Protocol [Core]  <!-- UUID: bf955649-4ac2-45e2-8376-052e884698e4 -->
 
-This document defines the protocol for routine ongoing management of the ParaSwap Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the ParaSwap Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
@@ -40471,7 +40471,7 @@ The documents herein define the process for the ongoing management of the Yearn 
 
 ###### A.6.1.1.4.2.5.1.2.6.2.1 - Routine Protocol [Core]  <!-- UUID: 1c93fd6d-5cff-46e7-86e5-0af4f6c83b4b -->
 
-This document defines the protocol for routine ongoing management of the Yearn (Gimme) Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the Yearn (Gimme) Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
@@ -40568,7 +40568,7 @@ The documents herein define the process for the ongoing management of the MOM In
 
 ###### A.6.1.1.4.2.5.1.2.7.2.1 - Routine Protocol [Core]  <!-- UUID: 4b22e820-db7b-4f76-8b82-6f60b21ca1d9 -->
 
-This document defines the protocol for routine ongoing management of the MOM Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the MOM Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
@@ -40766,7 +40766,7 @@ The documents herein define the process for the ongoing management of the Summer
 
 ###### A.6.1.1.4.2.5.1.3.1.2.1 - Routine Protocol [Core]  <!-- UUID: de64fb0f-e867-495f-9e43-c197072e1c3d -->
 
-This document defines the protocol for routine ongoing management of the Summer.fi Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the Summer.fi Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
@@ -40871,7 +40871,7 @@ The documents herein define the process for the ongoing management of the MetaMa
 
 ###### A.6.1.1.4.2.5.1.4.1.3.1 - Routine Protocol [Core]  <!-- UUID: 02c6ffc8-5fdc-4a1f-8037-a6a1aeb5e51c -->
 
-This document defines the protocol for routine ongoing management of the MetaMask Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the MetaMask Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
@@ -40972,7 +40972,7 @@ The documents herein define the process for the ongoing management of the InstaD
 
 ###### A.6.1.1.4.2.5.1.4.2.3.1 - Routine Protocol [Core]  <!-- UUID: c458078b-ffba-428e-950a-9c20a64967d4 -->
 
-This document defines the protocol for routine ongoing management of the InstaDapp Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the InstaDapp Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
@@ -41073,7 +41073,7 @@ The documents herein define the process for the ongoing management of the Gnosis
 
 ###### A.6.1.1.4.2.5.1.4.3.3.1 - Routine Protocol [Core]  <!-- UUID: 34d65ab5-5a03-42a6-848d-ace67c5e9ab0 -->
 
-This document defines the protocol for routine ongoing management of the Gnosis Protocol Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the Gnosis Protocol Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
@@ -41174,7 +41174,7 @@ The documents herein define the process for the ongoing management of the Piku.c
 
 ###### A.6.1.1.4.2.5.1.4.4.3.1 - Routine Protocol [Core]  <!-- UUID: a08670ae-0bc5-4424-9b65-38db64441e8d -->
 
-This document defines the protocol for routine ongoing management of the [Piku.co](http://Piku.co) Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the [Piku.co](http://Piku.co) Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
@@ -41355,7 +41355,7 @@ The documents herein define the process for the ongoing management of the Euler 
 
 ###### A.6.1.1.4.2.5.2.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 6fe71ca8-3c28-408e-8b11-3c2fcfcc5778 -->
 
-This document defines the protocol for routine ongoing management of the Euler Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the Euler Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
@@ -41646,7 +41646,7 @@ The documents herein define the process for the ongoing management of the Compou
 
 ###### A.6.1.1.4.2.5.2.4.1.3.1 - Routine Protocol [Core]  <!-- UUID: 9ad35e12-7bd0-46c8-a753-4a341ab880a2 -->
 
-This document defines the protocol for routine ongoing management of the Compound Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+This document defines the protocol for routine ongoing management of the Compound Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
 
 Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
 
