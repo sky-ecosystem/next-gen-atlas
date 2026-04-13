@@ -5083,7 +5083,6 @@ The decision to initiate the process to use a Standby Spell is reserved for the 
 
 Core GovOps must promptly acknowledge receipt of the Core Facilitator's decision to use a Standby Spell. This acknowledgment must take place in the communication channel specified in [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf).
 
-
 ###### A.1.9.5.2.3.2.1 - Requirement To Validate Authenticity Of Standby Spell [Core]  <!-- UUID: 82393e1d-1021-4f48-ac4e-a98d2328f2e7 -->
 
 Two Authorized Representatives, as defined in the subdocument below, from Core GovOps must validate the authenticity of the Standby Spell.
@@ -5242,7 +5241,6 @@ The role of the Core Facilitator in the usage of Protego is as follows:
 ###### A.1.9.5.3.2.2 - Core GovOps Role In Protego Usage [Core]  <!-- UUID: 62d53156-9b53-447b-9655-cef35a74defd -->
 
 Core GovOps must promptly acknowledge receipt of the Core Facilitator's decision to use Protego. This acknowledgment must take place in the communication channel specified in [A.1.8.1.3.1 - Emergency Response Signal Group](45a7ccff-09fa-4d95-b3d8-e3f34f7917cf).
-
 
 ###### A.1.9.5.3.2.2.1 - Requirement To Validate Authenticity Of Emergency Drop Spell [Core]  <!-- UUID: 44b9503d-bc11-427e-8deb-47feed07eba2 -->
 
@@ -48770,4 +48768,3 @@ The Facilitator for Core Council Executor Agent 1 is JanSky.
 ##### A.6.1.2.3.2 - Core GovOps [Core]  <!-- UUID: 3b9b8910-e26b-4bc3-9889-7ee18bdc94f1 -->
 
 GovOps for Core Council Executor Agent 1 is Atlas Axis.
-
