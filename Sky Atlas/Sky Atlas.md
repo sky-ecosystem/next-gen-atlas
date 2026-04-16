@@ -7199,7 +7199,7 @@ The documents herein define the requirements for Integrators.
 
 ###### A.2.2.8.1.2.1.1.1.1 - Alignment [Core]  <!-- UUID: 98e98f68-e749-4d0a-8972-7e36ed166326 -->
 
-The Integrator must be aligned with Sky’s overall strategy regarding promoting adoption of USDS. In the near term, this determination of a prospective or current Integrator’s alignment with Sky’s overall strategy is made by Operational GovOps in consultation with Ecosystem Actor Viridian Advisors. In the future Operational GovOps may make this determination themselves or consult with another actor to do so. Sky Core may choose whether to maintain an Integrator’s Reward Code in its sole and absolute discretion.
+The Integrator must be aligned with Sky’s overall strategy regarding promoting adoption of USDS. This determination is made by Operational GovOps. Sky Core may choose whether to maintain an Integrator’s Reward Code in its sole and absolute discretion.
 
 ###### A.2.2.8.1.2.1.1.1.2 - Compliance With Local Laws And Regulations As A Condition Precedent To Integrators Receiving Distribution Rewards [Core]  <!-- UUID: f3b4b43d-b2e5-4f56-aeac-9627d3acc31e -->
 
@@ -7225,7 +7225,7 @@ The documents herein define the process for applying to become an Integrator.
 
 ###### A.2.2.8.1.2.1.1.2.1 - Near Term Process [Core]  <!-- UUID: 7fe5dbb2-a07d-4ef9-94de-f54a2d568c57 -->
 
-In the near term, applications are made directly to Ecosystem Actor Viridian Advisors. Viridian Advisors must create and maintain a thread on the Sky Forum for Integrator Applications. Viridian Advisors reviews applications and coordinates with Prime Agents interested in working with specific applicants. Viridian Advisors issues Reward Codes to approved applicants.
+In the near term, applications are made directly to Operational GovOps. Operational GovOps must create and maintain a thread on the Sky Forum for Integrator Applications. Operational GovOps reviews applications and coordinates with Prime Agents interested in working with specific applicants. Operational GovOps issues Reward Codes to approved applicants.
 
 ###### A.2.2.8.1.2.1.1.2.1.1 - Integrator Program Applications [Active Data Controller]  <!-- UUID: d251bbac-df0e-4aff-a26b-33d60e153e19 -->
 
@@ -7233,7 +7233,7 @@ The list of Integrator Program applicants is defined as Active Data in [A.2.2.8.
 
 The Active Data is updated as follows:
 
-- The Responsible Party is Viridian Advisors.
+- The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
 ###### A.2.2.8.1.2.1.1.2.1.1.0.6.1 - List Of Integrator Applications [Active Data]  <!-- UUID: 30db9618-ddf2-4df7-ad81-3f8f3395ff62 -->
@@ -7248,13 +7248,9 @@ In the long term, Integrator applications come exclusively through Prime Agents.
 
 The documents herein define the process for onboarding new Integrators.
 
-###### A.2.2.8.1.2.1.1.3.1 - Near Term Process [Core]  <!-- UUID: fc46821f-9d3d-4807-b519-d54faf546702 -->
+###### A.2.2.8.1.2.1.1.3.1 - Process [Core]  <!-- UUID: fc46821f-9d3d-4807-b519-d54faf546702 -->
 
-The near term Integrator Onboarding process is as follows. When a Prime Agent’s Invocation of the Distribution Reward Primitive involves an actor who is not yet an approved Integrator, that actor must submit an Integrator Application to Viridian Advisors. Viridian Advisors determines, in consultation with Operational GovOps, whether the Integrator Requirements are met, and if so issues a Reward Code to the applicant. After the Reward Code has been issued, the Invocation of the Primitive may proceed.
-
-###### A.2.2.8.1.2.1.1.3.2 - Long Term Process [Core]  <!-- UUID: 0dda062b-5168-47be-bfa8-867f52eaae02 -->
-
-In the long term, Operational GovOps will review Integrator applications and determine whether the prospective partner satisfies the Integrator Requirements; if so, Operational GovOps issues a Reward Code. Operational GovOps may contract with Viridian Advisors or another actor to perform the work of reviewing applications and issuing Reward Codes.
+When a Prime Agent’s Invocation of the Distribution Reward Primitive involves an actor who is not yet an approved Integrator, that actor must submit an Integrator Application to Operational GovOps. Operational GovOps determines whether the Integrator Requirements are met, and if so issues a Reward Code to the applicant. After the Reward Code has been issued, the Invocation of the Primitive may proceed. Operational GovOps may contract with another actor to perform the work of reviewing applications and issuing Reward Codes.
 
 ###### A.2.2.8.1.2.1.2 - Reward Codes [Core]  <!-- UUID: cda71b0c-37cc-4f6a-92a3-b6a14895bfe1 -->
 
@@ -7264,13 +7260,9 @@ The documents herein define base elements related to Reward Codes.
 
 The documents herein define the process for assigning Reward Codes.
 
-###### A.2.2.8.1.2.1.2.1.1 - Near Term Process [Core]  <!-- UUID: e00e28d1-dad1-4cff-8ea4-1290c27d3b07 -->
+###### A.2.2.8.1.2.1.2.1.1 - Process [Core]  <!-- UUID: e00e28d1-dad1-4cff-8ea4-1290c27d3b07 -->
 
-In the near term, Reward Codes are assigned by Ecosystem Actor Viridian Advisors.
-
-###### A.2.2.8.1.2.1.2.1.2 - Long Term Process [Core]  <!-- UUID: 5c7aeef0-3490-4fdd-b486-a825b67285e0 -->
-
-In the long term, Reward Codes are assigned by Operational GovOps. Operational GovOps may contract with Viridian Advisors or another Ecosystem Actor to perform this work for them, at the discretion of Operational GovOps.
+Reward Codes are assigned by Operational GovOps. Operational GovOps may contract with another actor to perform this work for them, at their discretion.
 
 ###### A.2.2.8.1.2.1.2.2 - Marking [Core]  <!-- UUID: ec2c6d8a-e10f-471a-8f85-67803159cc37 -->
 
@@ -7278,7 +7270,7 @@ To be eligible for the Distribution Reward, USDS balances must be "marked" with 
 
 ###### A.2.2.8.1.2.1.2.2.1 - Ethereum Mainnet General Tracking Methodology [Core]  <!-- UUID: 87fd6861-ba8a-4bde-945e-ee9ad37ae3e2 -->
 
-The general Tracking Methodology for Ethereum Mainnet is to specify the Reward Code as a parameter to depositing USDS into the Sky Savings Rate contract or Token Rewards contracts. This on-chain deposit data is then combined with withdrawal data. In the interim, this data is further processed by Ecosystem Actor Viridian Advisors to estimate net deposits associated with the Reward Code on a First In First Out (FIFO) basis. In the long term, Operational Executor Agents will wholly manage this process.
+The general Tracking Methodology for Ethereum Mainnet is to specify the Reward Code as a parameter to depositing USDS into the Sky Savings Rate contract or Token Rewards contracts. This on-chain deposit data is then combined with withdrawal data, which is further processed by Operational GovOps to estimate net deposits associated with the Reward Code on a First In First Out (FIFO) basis.
 
 ###### A.2.2.8.1.2.1.2.2.2 - Ethereum Mainnet CoW Swap Tracking Methodology [Core]  <!-- UUID: 1b5cc0ee-0ee8-467e-ab49-33c06ad417dc -->
 
@@ -7298,7 +7290,7 @@ USDS balances are eligible for a Distribution Reward for a period of ten (10) ye
 
 ###### A.2.2.8.1.2.1.2.3 - Management [Core]  <!-- UUID: 75ddec36-c39e-4333-9ec1-2d329128e848 -->
 
-In the near term, Ecosystem Actor Viridian Advisors manages the list of Actor Reward Codes. In the future, all current Integrators and onboarding Integrators must be specified in [A.2.2.8.1.2.1.6 - Current And Onboarding Integrators](f3952cc5-cde2-46b9-b575-034dda83570b) so that Prime Agents, through their Operational Executor Agents, can onboard new partners themselves without having to go through a single party.
+Operational GovOps manages the list of Actor Reward Codes. All current Integrators and onboarding Integrators must be specified in [A.2.2.8.1.2.1.6 - Current And Onboarding Integrators](f3952cc5-cde2-46b9-b575-034dda83570b) so that Prime Agents, through their Operational Executor Agents, can onboard new partners themselves without having to go through a single party.
 
 ###### A.2.2.8.1.2.1.3 - Distribution Reward Rate [Core]  <!-- UUID: 57384c49-e499-4c69-b22c-8e1f1dd34759 -->
 
@@ -7531,14 +7523,14 @@ The process flow is defined herein.
     - The Prime Agent and the third party, if applicable, develop a plan to track USDS utilization attributable to the actor using either on-chain or off-chain data.
 - Prospective Integrators
     - Near Term process:
-        - The Prospective Integrator must first apply to the Integrator program and be approved by Viridian Advisors per [A.2.2.8.1.2.1.1.2.1 - Near Term Process](7fe5dbb2-a07d-4ef9-94de-f54a2d568c57). Post approval, Viridian Advisors issues a Reward Code to the Integrator.
+        - The Prospective Integrator must first apply to the Integrator program and be approved by Operational GovOps per [A.2.2.8.1.2.1.1.2.1 - Near Term Process](7fe5dbb2-a07d-4ef9-94de-f54a2d568c57). Post approval, Operational GovOps issues a Reward Code to the Integrator.
         - The Prime Agent and the third party develop a plan to track USDS utilization attributable to the actor using either on-chain or off-chain data.
     - Long Term process:
         - The Prospective Integrator must first apply to the Integrator program and be approved by Operational GovOps pursuant to [A.2.2.8.1.2.1.1.2.2 - Long Term Process](6283379c-d871-40a9-a915-d716d7df5642). Post approval, Operational GovOps issues a Reward Code to the Integrator.
         - The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data. Where applicable, the plan should include how the Prime Agent will support the prospective Integrator in including the Reward Code in their on-chain infrastructure.
 - The Prime Agent may also be (or choose to be) an Integrator itself and deploy a Reward Code on its frontend to earn the Distribution Reward.
     - Near Term process:
-        - If the Prime Agent is not already an approved Integrator, it must apply to the Program and be approved by Viridian Advisors. Post approval, Viridian Advisors issues a Reward Code to the Prime Agent.
+        - If the Prime Agent is not already an approved Integrator, it must apply to the Program and be approved by Operational GovOps. Post approval, Operational GovOps issues a Reward Code to the Prime Agent.
         - The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data.
     - Long Term process:
         - The Prime Agent must first apply to the Integrator program and be approved by Operational GovOps pursuant to [A.2.2.8.1.2.1.1.2.2 - Long Term Process](6283379c-d871-40a9-a915-d716d7df5642). Post approval, Operational GovOps issues a Reward Code to the Prime Agent.
@@ -12536,6 +12528,7 @@ The value of the `chainId` parameter for each chain is:
 - Base - `8453`
 - Unichain - `130`
 - Solana - `5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp`
+- Avalanche - `43114`
 
 ###### A.2.11.1.2.2.3.3.2 - Asset Recovery Addresses [Core]  <!-- UUID: 3f125522-dff7-48a3-948f-e99c71fc3929 -->
 
@@ -12547,6 +12540,7 @@ The Asset Recovery Address is the Pause Proxy on Ethereum Mainnet and the Govern
 - Base - `0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255`
 - Unichain - `0x3510a7F16F549EcD0Ef018DE0B3c2ad7c742990f`
 - Solana - `AYPtjx4Hc8us1ikULUedkmZ3wtiD6tmL7gK3qe4V3oHt`
+- Avalanche - `0xe928885BCe799Ed933651715608155F01abA23cA`
 
 ###### A.2.11.1.2.2.3.3.3 - Accounts [Core]  <!-- UUID: c6591c5c-c767-4769-b2d6-80564d96fa48 -->
 
@@ -12837,7 +12831,7 @@ The Aggregate RRC that a Prime Agent must maintain is equal to the sum of the In
 
 ##### A.3.2.1.1.3 - Instance Total RRC [Core]  <!-- UUID: 5fe6b54c-cc68-4f8a-8d1e-5044af941afe -->
 
-The Instance Total RRC for an Instance is equal to the sum of the Instance Financial RRC, Instance Smart Contract Risk RRC, and Instance Administrative Risk RRC for that Instance. See [A.3.2.1.1.4 - Instance Financial RRC](ba1d5c0e-399f-47a6-b5d4-b3f5477d5787), [A.3.2.1.1.5 - Instance Smart Contract RRC](4b4ea578-28b4-481c-9abd-d34c5a4f383c), and [A.3.2.1.1.6 - Instance Administrative RRC](c2b60f0d-6555-463c-9ad3-2a9746be77c5).
+The Instance Total RRC for an Instance is equal to the sum of the Instance Financial RRC, Instance Smart Contract RRC, and Instance Administrative RRC for that Instance. See [A.3.2.1.1.4 - Instance Financial RRC](ba1d5c0e-399f-47a6-b5d4-b3f5477d5787), [A.3.2.1.1.5 - Instance Smart Contract RRC](4b4ea578-28b4-481c-9abd-d34c5a4f383c), and [A.3.2.1.1.6 - Instance Administrative RRC](c2b60f0d-6555-463c-9ad3-2a9746be77c5).
 
 ###### A.3.2.1.1.3.1 - Incorporation Of Additional Types Of RRC [Core]  <!-- UUID: 4ce93e4b-e842-475b-bf85-d814e7e9d19c -->
 
@@ -12845,7 +12839,7 @@ Additional types of RRC reflecting other risk factors, including legal risk and 
 
 ###### A.3.2.1.1.3.2 - Inability To Calculate Types Of RRC [Core]  <!-- UUID: 268af0e9-be3d-458e-9ccd-5a560abc7540 -->
 
-If Instance Financial RRC, Instance Smart Contract Risk RRC, or Instance Administrative Risk RRC for an Instance cannot be calculated then the Instance Total RRC is 100%.
+If Instance Financial RRC, Instance Smart Contract RRC, or Instance Administrative RRC for an Instance cannot be calculated then the Instance Total RRC is 100%.
 
 ##### A.3.2.1.1.4 - Instance Financial RRC [Core]  <!-- UUID: ba1d5c0e-399f-47a6-b5d4-b3f5477d5787 -->
 
@@ -13306,7 +13300,7 @@ The Instance Financial CRR for Fluid is 3% of the amount of funds supplied to Fl
 
 ###### A.3.2.2.1.1.1.1.3.3 - Ethena-Related Assets [Core]  <!-- UUID: e831249e-f81a-496a-b9b9-17229c2683dd -->
 
-The portion of exposure to lending markets that is backed by Ethena-related assets is not subject to the standard Instance Financial RRC calculation. Instead, an alternative calculation method applies: the Instance Financial RRC Ratio for indirect Ethena exposure through lending markets should be applied for this portion. See [A.3.2.2.1.1.1.2.1 - Near-Term Treatment](92727d50-1ca0-48a9-93a0-0e504e845654). This portion of exposure is calculated based on the proportional debt amount backed by Ethena-related assets, weighted by the collateral amount times liquidation threshold.
+The portion of exposure to lending markets that is backed by Ethena-related assets is not subject to the standard Instance Financial RRC calculation. Instead, an alternative calculation method applies: the Instance Financial CRR for indirect Ethena exposure through lending markets should be applied for this portion. See [A.3.2.2.1.1.1.2.1 - Near-Term Treatment](92727d50-1ca0-48a9-93a0-0e504e845654). This portion of exposure is calculated based on the proportional debt amount backed by Ethena-related assets, weighted by the collateral amount times liquidation threshold.
 
 ###### A.3.2.2.1.1.1.1.3.4 - Aave And SparkLend [Core]  <!-- UUID: 5ac25db9-6567-4b83-88a2-59e295db6ed8 -->
 
@@ -13571,7 +13565,7 @@ The implementation of the model for perpetual positions will be specified in a f
 
 ###### A.3.2.2.1.1.1.2.1 - Near-Term Treatment [Core]  <!-- UUID: 92727d50-1ca0-48a9-93a0-0e504e845654 -->
 
-In the near term pending development of the implementation of the model for perpetual positions, the Instance Financial RRC Ratios specified in the documents herein will apply.
+In the near term pending development of the implementation of the model for perpetual positions, the Instance Financial CRRs specified in the documents herein will apply.
 
 ###### A.3.2.2.1.1.1.2.1.1 - Ethena [Core]  <!-- UUID: f999239e-8676-4772-b201-2e00920b2bfb -->
 
@@ -13737,7 +13731,7 @@ The implementation of the model for bond-like instruments will be specified in a
 
 ###### A.3.2.2.1.1.1.4.1 - Near-Term Treatment [Core]  <!-- UUID: a479643e-fbd3-4c9b-aba0-40f4657a8011 -->
 
-In the near term pending development of the implementation of the model for bond-like exposures, the following Instance Financial RRC Ratios will apply:
+In the near term pending development of the implementation of the model for bond-like exposures, the following Instance Financial CRRs will apply:
 
 - PT-USDS - 0% Instance Financial CRR
 - All other bond-like exposures - 4% Instance Financial CRR
@@ -29419,6 +29413,10 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.1.3 - Ethereum Mainnet - Centrifuge ACRDX Instance Configuration Document](b0d889d1-8465-4229-ba69-ca4b5d866131).
 
+###### A.6.1.1.2.2.6.1.1.2.1.1.4 - Ethereum Mainnet - Centrifuge JTRSY USDS Vault Instance Configuration Document Location [Core]  <!-- UUID: e50bfc41-5c93-4e29-87ef-dd1b0af9140c -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.1.4 - Ethereum Mainnet - Centrifuge JTRSY USDS Vault Instance Configuration Document](acbe1bed-7639-45a4-9a5d-73c7d434bd0a).
+
 ###### A.6.1.1.2.2.6.1.1.2.1.2 - Blackrock [Core]  <!-- UUID: f1de44d8-9dc4-4513-ac06-295d5ccc427d -->
 
 The Ethereum Mainnet Instances Directory of the Blackrock Protocol with `Active` Status are stored herein.
@@ -29607,6 +29605,18 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.2.1.2 - Avalanche - Centrifuge JAAA Instance Configuration Document](bd37d6c9-2e05-4ce3-86dc-3a50d6887e6b).
 
+###### A.6.1.1.2.2.6.1.1.2.2.2 - Curve [Core]  <!-- UUID: aad65f08-6a6f-4246-a356-ba74b83e142c -->
+
+The Avalanche Instances Directory of the Curve Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.1.2.2.2.1 - Avalanche - Curve USDS/USDC Swaps Instance Configuration Document Location [Core]  <!-- UUID: b92c6d2f-1b11-42e6-aa63-5a67c40dd487 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.2.2.1 - Avalanche - Curve USDS/USDC Swaps Instance Configuration Document](241a6ad1-ac18-496c-84f8-e2624497c7d9).
+
+###### A.6.1.1.2.2.6.1.1.2.2.2.2 - Avalanche - Curve USDS/USDC LP Instance Configuration Document Location [Core]  <!-- UUID: 2c8a48e0-00c4-41f7-a59a-a7ffc966a6db -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.2.2.2 - Avalanche - Curve USDS/USDC LP Instance Configuration Document](72325c96-455c-4c19-aefc-541206494bd3).
+
 ###### A.6.1.1.2.2.6.1.1.2.3 - Base [Core]  <!-- UUID: a53e977f-7bc9-406e-9be1-1f52d9c51416 -->
 
 The documents herein contain a Directory of all Instances on Base of the Allocation System Primitive with Instance status of `Active`.
@@ -29735,6 +29745,18 @@ The contract address of the Circle CCTP v2 Mainnet to Base is: `0x28b5a0e9C621a5
 
 The contract address of the Circle CCTP v2 Base to Mainnet is: `0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d`.
 
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.3 - Avalanche [Core]  <!-- UUID: b69eb9db-c986-4c19-a718-f0b747640c61 -->
+
+The documents herein contain the Allocator Contract Addresses on Avalanche.
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.3.1 - Grove Executor [Core]  <!-- UUID: 4a1a3c1d-2291-4251-bbe5-8afdb1c9b725 -->
+
+The address of the Grove executor on Avalanche is: `0x4b803781828b76EaBF21AaF02e5ce23596b4d60c`
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.3.2 - Grove Receiver [Core]  <!-- UUID: ae039fcd-37a2-4a47-843c-d079a2508941 -->
+
+The address of the Grove receiver on Avalanche is: `0x380Be2b91B63BF75B194913b6e2C07Df09598c22`
+
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2 - ALM Contracts [Core]  <!-- UUID: f233a46b-8dff-4335-8ccf-dc3f1c18a96f -->
 
 The documents herein contain addresses for the ALM Contracts for the Grove Liquidity Layer.
@@ -29773,11 +29795,11 @@ This document contains the ALM Contract Addresses for the Grove Liquidity Layer 
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.2.1 - ALM Controller (ForeignController Avalanche) Contract [Core]  <!-- UUID: 6445bdc4-6208-407f-820e-9d1e73213694 -->
 
-The address of the ALM_CONTROLLER (ForeignController) contract is: `0x734266cE1E49b148eF633f2E0358382488064999`
+The address of the ALM_CONTROLLER (ForeignController) contract is: `0x4236B772BEeEAFF57550Aa392A0f227C0b908Ce7`
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.2.2 - ALM Controller Contract Version [Core]  <!-- UUID: 6c937922-9c12-4d89-a987-8cca6bc27ebc -->
 
-The ALM_CONTROLLER contract version is: 1.6.0.
+The ALM_CONTROLLER contract version is: 1.8.0.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.2.3 - ALM Freezer Multisig (Avalanche) Address [Core]  <!-- UUID: 228514c4-9a74-4324-b93a-4c10025d4bc7 -->
 
@@ -29921,8 +29943,8 @@ The documents herein list the current `RateLimits` for the Grove Liquidity Layer
 
 The maximum amount of USDS that can be minted within the Grove Liquidity Layer (`LIMIT_USDS_MINT`) is specified in the document herein.
 
-- `maxAmount` (USDS): 100,000,000
-- `slope` (USDS/ day): 50,000,000
+- `maxAmount` (USDS): 500,000,000
+- `slope` (USDS/ day): 500,000,000
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.1.2 - USDS Burn Maximum [Core]  <!-- UUID: cf829503-02cf-4b84-8c04-7d05de1d82dd -->
 
@@ -29952,6 +29974,13 @@ The maximum amount of USDC that can be bridged to Ethereum Mainnet ALM Proxy usi
 - `maxAmount` (USDC): max
 - `slope` (USDC/ day): 0
 
+###### A.6.1.1.2.2.6.1.2.1.1.3.1.6 - USDS To Avalanche Via SkyLink [Core]  <!-- UUID: f6094634-372c-4235-beba-0862922809fb -->
+
+The maximum amount of USDS that can be sent to the Avalanche ALM Controller via SkyLink (`LIMIT_LAYERZERO_TRANSFER`, hashed with Avalanche USDS OFT address and Avalanche destination domain) is specified in the document herein.
+
+- `maxAmount`: 50,000,000 USDS
+- `slope`: 50,000,000 USDS per day
+
 ###### A.6.1.1.2.2.6.1.2.1.1.3.2 - Avalanche [Core]  <!-- UUID: b650c48d-435c-47e3-ac33-17ab6187492f -->
 
 The documents herein list the current `RateLimits` for the Grove Liquidity Layer on Avalanche.
@@ -29974,8 +30003,15 @@ The maximum amount of USDC that can be bridged to Avalanche ALM Proxy using the 
 
 The maximum amount of USDC that can be bridged to Ethereum Mainnet from the Avalanche ALM Proxy using the Circle Cross-Chain Transfer Protocol (`LIMIT_USDC_TO_CCTP_Ethereum`) is specified in the document herein.
 
-- `maxAmount` (USDC): 50,000,000
-- `slope` (USDC/ day): 50,000,000
+- `maxAmount` (USDC): Unlimited
+- `slope` (USDC/ day): Unlimited
+
+###### A.6.1.1.2.2.6.1.2.1.1.3.2.4 - USDS To Ethereum Mainnet Via SkyLink [Core]  <!-- UUID: dec9ce16-90ba-48bd-b299-9462cb50de2c -->
+
+The maximum amount of USDS that can be sent to the Ethereum Mainnet ALM Controller from Avalanche via SkyLink (`LIMIT_LAYERZERO_TRANSFER`, hashed with Ethereum Mainnet USDS OFT address and Ethereum Mainnet destination domain) is specified in the document herein.
+
+- `maxAmount`: 20,000,000 USDS
+- `slope`: 20,000,000 USDS per day
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.3 - Base [Core]  <!-- UUID: cedb7b47-c7e6-4948-8835-5862a65592cc -->
 
@@ -30943,6 +30979,87 @@ The documents herein contain specific off-chain parameters for this Instance.
 Total ACRDX exposure may not exceed 50.97 million USDS and should be reduced to zero over time.
 
 ###### A.6.1.1.2.2.6.1.3.1.1.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1faafb47-66b2-49a4-abf5-5cd6f1555361 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4 - Ethereum Mainnet - Centrifuge JTRSY USDS Vault Instance Configuration Document [Core]  <!-- UUID: acbe1bed-7639-45a4-9a5d-73c7d434bd0a -->
+
+The documents herein contain the Instance Configuration Document for the Centrifuge JTRSY USDS Vault Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 72120c5a-c08c-40cf-935e-eb4c28649aff -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2 - Parameters [Core]  <!-- UUID: aa4c9779-aa53-47ad-9780-a9978fae5334 -->
+
+The documents herein define the parameters of the Centrifuge JTRSY USDS Vault Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.1 - Instance Identifiers [Core]  <!-- UUID: e0b55a83-1e4c-4f6b-bd92-fe334bc220e5 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.1.1 - Network [Core]  <!-- UUID: ebe72c81-05ca-4dda-9e91-177ebcd1d83e -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.1.2 - Target Protocol [Core]  <!-- UUID: aed0cab3-1498-4bd1-8361-ef4be5c06ebc -->
+
+Centrifuge
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 80d0c003-7941-41ad-bc2b-ed2a27446ff5 -->
+
+USDS
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.1.4 - Token [Core]  <!-- UUID: a6c0d662-dbd0-44e4-9e73-a1b455629f52 -->
+
+JTRSY
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.2 - Contract Addresses [Core]  <!-- UUID: e155bd93-6ce4-497e-8e69-abc199b6e223 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.2.1 - Token Address [Core]  <!-- UUID: baa2fd47-b45a-4d03-9393-0351d4fa70a8 -->
+
+`0x381f4F3B43C30B78C1f7777553236e57bB8AE9ff`
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 9a061684-5c54-4448-bdc7-cb21578db5cb -->
+
+`0xdC035D45d973E3EC169d2276DDab16f1e407384F`
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: ae198061-322e-486c-b6a3-69c9f44a0092 -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: bbb15d43-e8e6-47a1-9f26-bbd0b9a34574 -->
+
+The inflow RateLimitID is: `0x12a7aab841b7cc5a82aa3f431a00634d363fa012c2e247229a80509ab0426359`
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: d4f11693-8a00-44ec-bc44-07b3b9e13fe7 -->
+
+The outflow RateLimitID is: `0x90f60b9802ce2da6196f5558e32abf7b583c646525d836146bfa7938caaaa935`
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.4 - Rate Limits [Core]  <!-- UUID: de12ee28-f435-43ce-beac-5b1ecff3b0d5 -->
+
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: aac8ee49-9414-4fe5-8594-7ecdecdaddd4 -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 500,000,000 USDS
+- `slope`: 500,000,000 USDS per day
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: a1fa5391-2481-4e75-9070-4bb11d7598df -->
+
+The outflow rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 019ca238-986e-4033-9d81-245845a0eadd -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.1.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 35ac515f-6832-4e41-88fe-7eb32e6f2702 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
@@ -34178,6 +34295,188 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
+###### A.6.1.1.2.2.6.1.3.2.2 - Curve [Core]  <!-- UUID: c17ab278-4750-4e54-b6c9-f1fb31d36039 -->
+
+The Avalanche Instances of the Curve Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.3.2.2.1 - Avalanche - Curve USDS/USDC Swaps Instance Configuration Document [Core]  <!-- UUID: 241a6ad1-ac18-496c-84f8-e2624497c7d9 -->
+
+The documents herein contain the Instance Configuration Document for the Curve USDS/USDC Swaps Instance.
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: b4ce834c-f831-432c-9b0d-114c7e69e386 -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2 - Parameters [Core]  <!-- UUID: f770ab85-be68-40ed-b63d-bcd63b240485 -->
+
+The documents herein define the parameters of the Curve USDS/USDC Swaps Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 425a5441-4bfe-494e-b0fb-bb040ec92973 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.1.1 - Network [Core]  <!-- UUID: 24009c3a-58b6-4280-aa73-6a90ef36c706 -->
+
+Avalanche
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 47f6b57c-b563-47fd-a97f-e7f69a4d9ebf -->
+
+Curve USDS/USDC
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 4a2677c5-9a63-4e04-80c3-a1bf57a7558c -->
+
+USDS and USDC
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.1.4 - Token [Core]  <!-- UUID: 47af1c25-51d3-46cb-87f3-9576568d0f62 -->
+
+USDSUSDC
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.2 - Contract Addresses [Core]  <!-- UUID: 43cebf0e-dc61-4206-8fad-32ae9a2c865d -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.2.1 - Underlying Asset Address (USDS) [Core]  <!-- UUID: 741efad1-425e-4290-a398-2923e4f88537 -->
+
+`0x86Ff09db814ac346a7C6FE2Cd648F27706D1D470`
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.2.2 - Underlying Asset Address (USDC) [Core]  <!-- UUID: c079b224-7cbb-4959-b087-19fb0d9260fd -->
+
+`0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E`
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.2.3 - Pool Address [Core]  <!-- UUID: 33e4a492-5a15-4e59-be41-5e66d6cfb10c -->
+
+`0xA9d7d3D7e68a0cae89FB33c736199172f405C8D3`
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 2e7ae859-1656-4267-b747-e062a44ca251 -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 14ef09b9-2372-48cd-9749-3408c9fcb754 -->
+
+The inflow RateLimitID is: `0x747102351e768926d4e5f06c0ea6ac35e4dcefa77fd901f2f8ff46e4710ab4cf`
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 8b119935-a2e9-4c11-9a03-33cf025148cc -->
+
+The outflow RateLimitID is: N/A.
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.4 - Rate Limits [Core]  <!-- UUID: bfbca274-613d-43f8-92dd-45481bc53b8f -->
+
+The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 3fc2060c-29d2-41fa-a9e6-1b47e4073cee -->
+
+The deposit rate limits are:
+
+- `maxAmount`: N/A - swaps only
+- `slope`: N/A - swaps only
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 67213d51-ed52-4c6d-96b6-bf0718b935b1 -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: N/A - swaps only
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: e23f36a6-c5f5-40d4-bdd0-77e862d7a8bb -->
+
+The swap rate limits are:
+
+- `maxAmount`: 5,000,000 USDS/USDC
+- `slope`: 100,000,000 USDS/USDC per day
+- `maxSlippage`: 0.1%
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: e1b88e2f-2890-4b09-a4c5-d3d76b411692 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.2.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: a13b40ae-ba04-44f0-8b66-84fbed85a765 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.2.2.2 - Avalanche - Curve USDS/USDC LP Instance Configuration Document [Core]  <!-- UUID: 72325c96-455c-4c19-aefc-541206494bd3 -->
+
+The documents herein contain the Instance Configuration Document for the Curve USDS/USDC LP Instance.
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: cbbb4d16-1c71-4274-a0c3-3806101582d9 -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2 - Parameters [Core]  <!-- UUID: bb03ff8f-5dc3-4dcb-886c-09e94a526e6c -->
+
+The documents herein define the parameters of the Curve USDS/USDC LP Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 695932ec-127e-4661-a647-1ae96db7612c -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.1.1 - Network [Core]  <!-- UUID: 832878c8-9d48-48eb-ab8e-88f53d3aa19c -->
+
+Avalanche
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 93bda922-82d8-4d77-a4a2-c62583fc697f -->
+
+Curve USDS/USDC
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: bb93289c-ef4a-4305-8f9b-d791186be836 -->
+
+USDS and USDC
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.1.4 - Token [Core]  <!-- UUID: 681fba5c-0e27-4bbc-ba2a-6d8fec26aab1 -->
+
+USDSUSDC
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.2 - Contract Addresses [Core]  <!-- UUID: 8c668b50-96e3-44fc-9cf4-9b445b614608 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.2.1 - Underlying Asset Address (USDS) [Core]  <!-- UUID: 80d06fa8-f274-4cb2-a10c-d9899dd64687 -->
+
+`0x86Ff09db814ac346a7C6FE2Cd648F27706D1D470`
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.2.2 - Underlying Asset Address (USDC) [Core]  <!-- UUID: 22c5c59d-0353-4b6e-95eb-eaa0a589b8d9 -->
+
+`0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E`
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.2.3 - Pool Address [Core]  <!-- UUID: ce06313e-0cf1-4c24-9770-edf1aca08f3c -->
+
+`0xA9d7d3D7e68a0cae89FB33c736199172f405C8D3`
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 18189c82-4fa4-4013-8002-2e76aa8f29af -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 3c77c07a-6092-4a43-b26a-2a975cfaa6d1 -->
+
+The inflow RateLimitID is: `0xeff5bd77b02bef14ff90eb3c87a6ab879b3b894eed4fd904ab94e425137e9a36`
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 0181c16f-79e5-4054-8d31-874674efb80e -->
+
+The outflow RateLimitID is: `0x3361a251fa0f068ec6ce72e830c34ff0f5839a56c13e17e4c569c7c9d75217cf`
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.4 - Rate Limits [Core]  <!-- UUID: 196540fd-72be-4d7c-8c2c-ae7f48426034 -->
+
+The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 2bc7c072-65e9-4b06-821c-3cc378758de1 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 50,000,000 USDS/USDC
+- `slope`: 50,000,000 USDS/USDC per day
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 7e5dd377-9028-4fa0-950f-d65f3364911a -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 12c90f28-75d6-4560-987a-6428e8ec5a47 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.2.2.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 6fe4c2f1-102e-4b71-b829-edff00a8be14 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
 ###### A.6.1.1.2.2.6.1.3.3 - Base [Core]  <!-- UUID: 14c653d1-6667-47c3-bea4-8bb8553bf7b9 -->
 
 The Base Instances of the Grove Liquidity Layer with `Active` Status are stored herein and are organized by target protocol.
@@ -35855,6 +36154,10 @@ The documents herein organize all base information relevant to Keel’s usage of
 
 This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of `Active`.
 
+###### A.6.1.1.3.2.5.1.1.2.1 - Solana Bridge Instance Configuration Document Location [Core]  <!-- UUID: cf007f6d-17a1-40fd-be3e-663b815dc8fc -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.3.2.5.1.2.1 - Solana Bridge Instance Configuration Document](97421aa5-eebe-49e4-8da8-dd5cfe2f49c4).
+
 ###### A.6.1.1.3.2.5.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 7e800a1b-d86b-43f7-a227-a7ba94d264ef -->
 
 This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of `Completed`.
@@ -35882,6 +36185,79 @@ The subtrees for Instances of the Distribution Reward Primitive with `Suspended`
 ###### A.6.1.1.3.2.5.1.2 - Active Instances [Core]  <!-- UUID: 4da74767-8e45-420c-9477-89b810654ab4 -->
 
 The Instances of the Distribution Reward Primitive with `Active` Status are stored herein.
+
+###### A.6.1.1.3.2.5.1.2.1 - Solana Bridge Instance Configuration Document [Core]  <!-- UUID: 97421aa5-eebe-49e4-8da8-dd5cfe2f49c4 -->
+
+The documents herein contain the Instance Configuration Document for the Solana Bridge Distribution Reward Primitive Instance.
+
+###### A.6.1.1.3.2.5.1.2.1.1 - Parameters [Core]  <!-- UUID: 70bdfca7-9103-47a8-91eb-47c5eb727933 -->
+
+The documents herein define the parameters of the Solana Bridge Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.3.2.5.1.2.1.1.1 - Reward Code [Core]  <!-- UUID: e5261fd0-16b6-4c94-a101-e311e858ba92 -->
+
+`4001`.
+
+###### A.6.1.1.3.2.5.1.2.1.1.2 - Tracking Methodology [Core]  <!-- UUID: 78ced90e-697d-408e-b301-e22740d650dc -->
+
+Synthetic tagging of deposits and withdrawals from the LayerZero contract on Ethereum (`0x1e1D42781FC170EF9da004Fb735f56F0276d01B8`) minus the running balances already attributed to a Distribution Reward Instance.
+
+###### A.6.1.1.3.2.5.1.2.1.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 0cea78ce-be5f-46f5-8a48-a5d313b60611 -->
+
+The documents herein define the custom parameters of the Solana Bridge Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.3.2.5.1.2.1.2 - Operational Process Definition [Core]  <!-- UUID: d79a21fb-1b29-4d8b-ab0c-1b3e654970c9 -->
+
+The documents herein define the process for the ongoing management of the Solana Bridge Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.3.2.5.1.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 70a1df13-bfee-43ad-9e5f-cbf4db36868b -->
+
+This document defines the protocol for routine ongoing management of the Solana Bridge Instance. This Instance inherits the base class of operational logic defined in [A.2.2.8.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.8.1.2.1.5.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Keel Artifact, a version of the full process definition customized to Keel will be included herein.
+
+###### A.6.1.1.3.2.5.1.2.1.2.1.1 - Agent Customizations [Core]  <!-- UUID: f08a63d5-4157-4be4-9046-59005bac03c2 -->
+
+The Prime Agent may define instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.3.2.5.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: ece7350a-4588-4c4e-8bdc-d21f539582f5 -->
+
+The documents herein define the protocol for non-routine ongoing management of the Solana Bridge Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.3.2.5.1.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 4bb2e7f5-e9b8-4d0f-84c4-faef129b06a2 -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Solana Bridge Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.3.2.5.1.2.1.3 - Data Repository [Core]  <!-- UUID: 73afe8a4-db40-4310-ac84-be565a062d68 -->
+
+The documents herein contain data relevant to the Solana Bridge Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.3.2.5.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 764fdbd7-a8a6-4da5-bd3e-c6f5471afd91 -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.3.2.5.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 634e03bc-fc80-4b2c-9182-0b3ae4386f0e -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.3.2.5.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: a2eeb79e-bb70-4f25-a106-18bacd69b5ab -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.3.2.5.1.2.1.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 394771d8-fa9c-4f5c-8b73-b8f996cb77c1 -->
+
+The Distribution Reward payments for the Solana Bridge Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.6.1.1.3.2.5.1.2.1.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 1d0e0165-719b-4899-af1c-8a0366a058af -->
+
+The Distribution Reward Payments are:
 
 ###### A.6.1.1.3.2.5.1.3 - Completed Instances [Core]  <!-- UUID: 15a011c4-a0bb-4fd4-bf9d-ff8b5ebc74a6 -->
 
@@ -44551,6 +44927,10 @@ The address of Pattern's Genesis Account will be specified in a future iteration
 
 The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
 
+###### A.6.1.1.6.2.1.1.3.1.1.5.1 - Pattern Dev Co. [Core]  <!-- UUID: 07037190-1bad-41df-9fa3-012c8cd18bdf -->
+
+Pattern Dev Co. is the development company that provides services to Pattern.
+
 ###### A.6.1.1.6.2.1.1.3.1.2 - Operational Process Definition [Core]  <!-- UUID: e1ea6ef1-5a19-4c09-bbf4-ba67cbc832c8 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further operational process is needed post-deployment.
@@ -45625,6 +46005,18 @@ The documents herein organize all base information relevant to Pattern's usage o
 
 This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of `Active`.
 
+###### A.6.1.1.6.2.6.1.1.2.1 - Ethereum Mainnet [Core]  <!-- UUID: d2ae0f64-bb95-4c50-961e-52c82dd52586 -->
+
+The documents herein contain a Directory of all Instances on Ethereum Mainnet of the Allocation System Primitive with Instance status of `Active`.
+
+###### A.6.1.1.6.2.6.1.1.2.1.1 - Maple [Core]  <!-- UUID: 5572abc6-902d-4c4d-8eee-0823a3616c36 -->
+
+The Ethereum Mainnet Instances Directory of the Maple Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.6.2.6.1.1.2.1.1.1 - Ethereum Mainnet - Maple USDC Instance Configuration Document Location [Core]  <!-- UUID: 5755702e-4107-4d81-a986-39b970dce859 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.6.2.6.1.3.1.1.1 - Ethereum Mainnet - Maple USDC Instance Configuration Document](50d86fb7-cacd-4f9b-adf4-7056cfe8cd97).
+
 ###### A.6.1.1.6.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: d447c96a-dec9-4ce7-87fa-44291e6a4c32 -->
 
 This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of `Completed`.
@@ -45677,13 +46069,821 @@ The documents herein contain the Allocator Contract Addresses on the Ethereum Ma
 
 The address of the ALLOCATOR_BUFFER contract is: `0x823459b55D79F0421f24a4828237F7ecb8D7F1ef`.
 
-###### A.6.1.1.6.2.6.1.2.1.1.1.1.1.2 - Allocator Vault Contract [Core]  <!-- UUID: 5ee30a61-2280-4744-8f8f-eb5c5fd56682 -->
+###### A.6.1.1.6.2.6.1.2.1.1.1.1.1.2 - Allocator Oracle Contract [Core]  <!-- UUID: a808de67-ebcb-4b57-83be-eaf1c536bc9b -->
+
+The address of the ALLOCATOR_ORACLE contract is: `0xc7B91C401C02B73CBdF424dFaaa60950d5040dB7`
+
+###### A.6.1.1.6.2.6.1.2.1.1.1.1.1.3 - Allocator Registry Contract [Core]  <!-- UUID: 91f97de8-17f8-44e8-a0ec-e140d2ecab30 -->
+
+The address of the ALLOCATOR_REGISTRY contract is: `0xCdCFA95343DA7821fdD01dc4d0AeDA958051bB3B`
+
+###### A.6.1.1.6.2.6.1.2.1.1.1.1.1.4 - Allocator Roles Contract [Core]  <!-- UUID: e2c792e9-abf1-475f-a657-987bc2736a5e -->
+
+The address of the ALLOCATOR_ROLES contract is: `0x9A865A710399cea85dbD9144b7a09C889e94E803`
+
+###### A.6.1.1.6.2.6.1.2.1.1.1.1.1.5 - Allocator Vault Contract [Core]  <!-- UUID: 5ee30a61-2280-4744-8f8f-eb5c5fd56682 -->
 
 The address of the ALLOCATOR_VAULT (ALLOCATOR-PATTERN-A) contract is: `0xbd34fc6AAa1d3F52B314CB9D78023dd23eAc3B0E`.
 
+###### A.6.1.1.6.2.6.1.2.1.1.1.2 - ALM Contracts [Core]  <!-- UUID: e21f8717-c764-42c0-a544-d9991345515a -->
+
+The documents herein contain addresses for the ALM Contracts for the Pattern Liquidity Layer.
+
+###### A.6.1.1.6.2.6.1.2.1.1.1.2.1 - Ethereum Mainnet [Core]  <!-- UUID: 9cad03ef-0226-44b6-b424-c18669e71b00 -->
+
+The documents herein contain the ALM Contract Addresses for the Pattern Liquidity Layer on the Ethereum Mainnet.
+
+###### A.6.1.1.6.2.6.1.2.1.1.1.2.1.1 - ALM Controller Contract [Core]  <!-- UUID: 6d579a04-dc47-47a7-b504-8047782bb4e3 -->
+
+The address of the ALM_CONTROLLER (MainnetController) contract is: `0x8739a869E41e828c83EA45575fBDf9FfcC0962b1`
+
+###### A.6.1.1.6.2.6.1.2.1.1.1.2.1.2 - ALM Controller Contract Version [Core]  <!-- UUID: 2a2092ee-243a-43c8-8e1a-11264b0373db -->
+
+The ALM_CONTROLLER contract version is: V.1.6.0
+
+###### A.6.1.1.6.2.6.1.2.1.1.1.2.1.3 - ALM Freezer Multisig Address [Core]  <!-- UUID: 4a56a0a4-2046-4eb8-ab4f-1afb2ee91a66 -->
+
+The address of the Multisig that has the Freezer Role is specified in [A.6.1.1.6.2.6.1.2.1.2.2.2 - Freezer Multisig](841e629e-c887-48ec-8219-e0b1c86145d6).
+
+###### A.6.1.1.6.2.6.1.2.1.1.1.2.1.4 - ALM Relayer Multisig Address [Core]  <!-- UUID: d55d14f5-d749-4e5c-8931-1c931a4f8ef7 -->
+
+The address of the Multisig that has the Relayer Role is specified in [A.6.1.1.6.2.6.1.2.1.2.2.1 - Relayer Multisig](42f3ceba-f9bc-48bb-aa89-dde3feb21479).
+
+###### A.6.1.1.6.2.6.1.2.1.1.1.2.1.5 - ALM Proxy Contract [Core]  <!-- UUID: 65c5dd3b-9ef8-4ace-9dd8-491431b86242 -->
+
+The address of the ALM_PROXY contract is: `0xbA43325E91C79E500486a23E953ab3d8C46f169F`
+
+###### A.6.1.1.6.2.6.1.2.1.1.1.2.1.6 - ALM Rate Limits Contract [Core]  <!-- UUID: 5afd1a4a-8803-479c-82e1-21a9b94c047f -->
+
+The address of the ALM_RATE_LIMITS contract is: `0xa77f69f90646A4c0e44cEe1D44Fab08bEb4EA204`
+
+###### A.6.1.1.6.2.6.1.2.1.1.2 - Off-chain Operational Parameters [Core]  <!-- UUID: d92dedda-2021-4279-888e-f49fda05a32e -->
+
+The documents herein list the off-chain operational parameters for the Pattern Liquidity Layer. These operational parameters are protocol settings managed outside of smart contracts (off-chain), used by operators and off-chain systems to guide the functioning of the Pattern Liquidity Layer.
+
+###### A.6.1.1.6.2.6.1.2.1.1.2.1 - Off-chain Operational Parameters For Ethereum Mainnet [Core]  <!-- UUID: 83b318cc-a2de-4f00-a340-04699481af4e -->
+
+The document herein lists the current off-chain operational parameters for the Pattern Liquidity Layer on Ethereum Mainnet.
+
+###### A.6.1.1.6.2.6.1.2.1.1.2.1.1 - Minimum Operation Size Ethereum Mainnet [Core]  <!-- UUID: 0d3a94a6-7e10-426a-8542-585120e4a77d -->
+
+The minimum transaction size for operations on Ethereum Mainnet is (`MAINNET_MIN_OPERATION_SIZE`):
+
+- This parameter will be specified in a future iteration of the Pattern Artifact.
+
+###### A.6.1.1.6.2.6.1.2.1.1.2.1.2 - Debt Ceiling Buffer Ethereum Mainnet [Core]  <!-- UUID: e8c9203a-0241-4be1-9efa-b72e9ae7aa89 -->
+
+The buffer amount below the maximum debt ceiling is (`DEBT_CEILING_BUFFER`):
+
+- This parameter will be specified in a future iteration of the Pattern Artifact.
+
+###### A.6.1.1.6.2.6.1.2.1.1.3 - Rate Limits [Core]  <!-- UUID: cdda3be6-f632-44a7-aaae-b5ee01442bd6 -->
+
+The documents herein list the Rate Limits for the Pattern Liquidity Layer on each blockchain.
+
+###### A.6.1.1.6.2.6.1.2.1.1.3.1 - Ethereum Mainnet [Core]  <!-- UUID: 08ac5921-06ce-4b7d-9dfa-7a466ed9e7de -->
+
+The documents herein list the current `RateLimits` for the Pattern Liquidity Layer on Ethereum Mainnet.
+
+###### A.6.1.1.6.2.6.1.2.1.1.3.1.1 - Ethereum Mainnet USDS [Core]  <!-- UUID: bda93796-f235-4b48-a131-b84fdd5bc920 -->
+
+The maximum mint, burn, and swap for USDS on Ethereum Mainnet are located herein.
+
+###### A.6.1.1.6.2.6.1.2.1.1.3.1.1.1 - USDS Mint Maximum [Core]  <!-- UUID: c71c498c-1529-4bf1-9520-b0a580ce1ffb -->
+
+The maximum amount of USDS that can be minted within the Pattern Liquidity Layer (`LIMIT_USDS_MINT`) is specified in the document herein.
+
+- `maxAmount`: 100,000,000 USDS
+- `slope`: 50,000,000 USDS per day
+
+###### A.6.1.1.6.2.6.1.2.1.1.3.1.1.2 - USDS Burn Maximum [Core]  <!-- UUID: 55c46a1a-5a5a-44b6-a184-c7dbe4a4f68d -->
+
+The maximum amount of USDS that can be burned within the Pattern Liquidity Layer (`LIMIT_USDS_BURN`) is specified in the document herein.
+
+- `maxAmount`: This parameter will be specified in a future iteration of the Pattern Artifact.
+- `slope`: This parameter will be specified in a future iteration of the Pattern Artifact.
+
+###### A.6.1.1.6.2.6.1.2.1.1.3.1.1.3 - USDS For USDC Swap Maximum [Core]  <!-- UUID: c73a58b7-0931-44ab-8599-eca4dc70194a -->
+
+The maximum amount of USDS that can be swapped for USDC by the Pattern Liquidity Layer in the Mainnet PSM (`LIMIT_USDS_TO_USDC`) is specified in the document herein.
+
+- `maxAmount`: 100,000,000 USDS
+- `slope`: 50,000,000 USDS per day
+
+###### A.6.1.1.6.2.6.1.2.1.1.4 - On-chain Parameters [Core]  <!-- UUID: d3dc636f-e81d-4889-a84c-d7818ef48b6b -->
+
+The documents herein list general on-chain parameters for the Pattern Liquidity Layer.
+
+###### A.6.1.1.6.2.6.1.2.1.1.4.1 - Allocator Vault Parameters [Core]  <!-- UUID: e8c676bb-a818-47dc-bd1c-05199588ba4f -->
+
+The Allocator Vault parameters for ALLOCATOR-PATTERN-A are defined in [A.3.7.1.2.1.5 - ALLOCATOR-PATTERN-A Parameters](322e7ccc-6dcb-4f83-96e5-d8f2fa87cd00).
+
+###### A.6.1.1.6.2.6.1.2.1.1.4.2 - Whitelisting Of ALMProxy [Core]  <!-- UUID: a8094362-4ca8-4bf0-a1d8-bbed3c80d61c -->
+
+The ALMProxy for Pattern must be whitelisted on the LitePSM. This will effectively allow Pattern to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract.
+
+###### A.6.1.1.6.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 7c432de2-411e-497b-82b3-17c6853cb0b9 -->
+
+The documents herein describe the specific governance processes for the Pattern Liquidity Layer.
+
+###### A.6.1.1.6.2.6.1.2.1.2.1 - Invoking New Instances [Core]  <!-- UUID: 3d4aba3f-a9d8-41c6-a132-c292cabab25e -->
+
+The governance process to invoke a new Instance of the Allocation System Primitive follows the Root Edit process see [A.6.1.1.6.2.2.2.2.1.2 - Operational Process Definition](0a6525e3-429d-4955-8dac-9fc61f6643f8).
+
+###### A.6.1.1.6.2.6.1.2.1.2.2 - Multisigs [Core]  <!-- UUID: cf32471f-42ca-4299-a84c-ccf437ec6950 -->
+
+The documents herein define multisigs that have privileged access to manage the Pattern Liquidity Layer.
+
+###### A.6.1.1.6.2.6.1.2.1.2.2.1 - Relayer Multisig [Core]  <!-- UUID: 42f3ceba-f9bc-48bb-aa89-dde3feb21479 -->
+
+The Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.6.2.6.1.2.2.1.1.2 - Relayer Role](905e342b-8dca-4fbc-8673-f6fabb6b29fd) and is controlled by Operational GovOps Soter Labs.
+
+###### A.6.1.1.6.2.6.1.2.1.2.2.1.1 - Address [Core]  <!-- UUID: 77969281-5739-4eba-a856-6b89259b26e1 -->
+
+The address of the Relayer Multisig on the Ethereum Mainnet is `0xd00665Df77E0b1294Ae2bdC3662F870092f6737B`.
+
+###### A.6.1.1.6.2.6.1.2.1.2.2.1.2 - Required Number Of Signers [Core]  <!-- UUID: 15f7cf5c-7e06-4a26-8f2f-2adacf21ec32 -->
+
+The Relayer Multisig currently has a 2/3 signing requirement.
+
+###### A.6.1.1.6.2.6.1.2.1.2.2.1.3 - Signers [Core]  <!-- UUID: 5660ebf4-dc55-4f91-b5f7-d735195c62a3 -->
+
+The signers of the Relayer Multisig are three (3) addresses controlled by Operational GovOps Soter Labs.
+
+###### A.6.1.1.6.2.6.1.2.1.2.2.1.4 - Usage Standards [Core]  <!-- UUID: 9fd84c4e-5160-4b87-857d-8dde97d08ff2 -->
+
+The signers of the Relayer Multisig must use the Multisig to exercise the `RELAYER_ROLE` in accordance with the instructions specified in the Pattern Artifact.
+
+###### A.6.1.1.6.2.6.1.2.1.2.2.1.5 - Modification [Core]  <!-- UUID: 066ac9dc-3020-4d14-bafe-43e62bacdb90 -->
+
+Operational GovOps Soter Labs can change the signers of the Relayer Multisig at any time, so long as there are at least three (3) signers and at least two-thirds of signers are required to execute transactions.
+
+###### A.6.1.1.6.2.6.1.2.1.2.2.2 - Freezer Multisig [Core]  <!-- UUID: 841e629e-c887-48ec-8219-e0b1c86145d6 -->
+
+The Freezer Multisig has the `FREEZER_ROLE` as defined in [A.6.1.1.6.2.6.1.2.2.1.1.4 - Freezer Role](62db1fa2-9958-4692-a2af-907feb5d2c72) and is controlled by Operational GovOps Soter Labs.
+
+###### A.6.1.1.6.2.6.1.2.1.2.2.2.1 - Address [Core]  <!-- UUID: 008e670d-d877-475a-96f2-950aa0d6c072 -->
+
+The address of the Freezer Multisig on the Ethereum Mainnet is `0xe728D67bca6cb18dE249325792b6379Eef4618bB`.
+
+###### A.6.1.1.6.2.6.1.2.1.2.2.2.2 - Required Number Of Signers [Core]  <!-- UUID: f5140241-938a-4775-a873-8ddbb21d6758 -->
+
+The Freezer Multisig currently has a 2/5 signing requirement.
+
+###### A.6.1.1.6.2.6.1.2.1.2.2.2.3 - Signers [Core]  <!-- UUID: 4525e369-401f-4d39-869f-5b121444ff69 -->
+
+The signers of the Freezer Multisig are three (3) addresses controlled by Operational GovOps Soter Labs, one (1) address controlled by Operational Facilitator Redline Facilitation Group, and one (1) address controlled by Pattern.
+
+###### A.6.1.1.6.2.6.1.2.1.2.2.2.4 - Usage Standards [Core]  <!-- UUID: db641bf1-41f3-4035-9d0c-9328f79c7b4a -->
+
+The signers of the Freezer Multisig should exercise their authority to freeze the Pattern Liquidity Layer in the event that Pattern is not complying with rules regarding Risk Capital or Asset Liability Management, or in the event of another emergency.
+
+Each action executed by the Freezer Multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum.
+
+###### A.6.1.1.6.2.6.1.2.1.2.2.2.5 - Modification [Core]  <!-- UUID: 601869a5-973d-46da-b601-7fef88a9e07a -->
+
+Modification of the signers of the Freezer Multisig must be approved through an Atlas Edit Proposal.
+
+The only exceptions to this are if: 1) a signer self-reports a loss of access to their private key due to any reason; or 2) a signer explicitly expresses their wish to be removed as a signer. In both cases, the signer is required to communicate the loss of access to their private key, or the wish to be removed as a signer, in the form of a public Sky Forum post. The specific signer should be replaced as soon as possible.
+
+Any changes to the Multisig signers that do not fall within the two exceptions listed above, or that have not been ratified by Sky Governance, should be questioned immediately and treated as malicious. Where malicious activity is suspected, the Facilitators must prepare an expedited Executive Vote so that Sky Governance can vote on removing external security access from the Multisig.
+
+###### A.6.1.1.6.2.6.1.2.1.3 - Total Risk Capital (TRC) Management [Core]  <!-- UUID: d8fa58f9-8f77-43be-a2d4-6a5b55bc9b67 -->
+
+The documents herein specify requirements related to Pattern's Total Risk Capital (TRC) management.
+
+###### A.6.1.1.6.2.6.1.2.1.3.1 - Pattern Dev Co.'s Operation Of Pattern Liquidity Layer And Agreement Regarding Encumbrance Ratio [Core]  <!-- UUID: 4a799475-64ce-45e7-8ecd-d63af574dfca -->
+
+Pattern Dev Co. will operate the Pattern Liquidity Layer and agrees to stay at or below a 90% Encumbrance Ratio. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9).
+
+###### A.6.1.1.6.2.6.1.2.1.3.2 - Pattern Dev Co.'s Total Risk Capital (TRC) Management Processes [Core]  <!-- UUID: 52c89daa-256c-4779-b644-71615bb092d7 -->
+
+As operators of the Pattern Liquidity Layer, Pattern Dev Co. automatically inherits, and is subject to, the base class of operational requirements related to Total Risk Capital management defined in [A.2.2.9.1.1.3.2.1.2 - Primes' Total Risk Capital (TRC) Management](3af8a3a2-25e5-44b3-87a4-7df1f2712685). Modifications to the base operational logic automatically propagate to the Pattern Artifact.
+
+###### A.6.1.1.6.2.6.1.2.2 - Pattern Liquidity Layer Operational Processes [Core]  <!-- UUID: a7ce0d4c-c47d-4976-a40c-d8005d35cd5c -->
+
+The documents herein describe common operational procedures for the Pattern Liquidity Layer applicable across multiple Instances.
+
+###### A.6.1.1.6.2.6.1.2.2.1 - Routine Protocol [Core]  <!-- UUID: d15c12da-9ef3-4b47-bcaa-d5832ee57ddf -->
+
+The documents herein define the protocol for routine ongoing management of the Pattern Liquidity Layer and its active Instances.
+
+###### A.6.1.1.6.2.6.1.2.2.1.1 - Role Hierarchy And Permissions [Core]  <!-- UUID: a7d02d42-69b7-4b55-924f-8513163d23e8 -->
+
+The documents herein define roles (Admin, Relayer, ALM Controller, and Freezer) and their responsibilities/permissions for managing the Pattern Liquidity Layer.
+
+###### A.6.1.1.6.2.6.1.2.2.1.1.1 - Default Admin Role [Core]  <!-- UUID: 6434ee18-27d9-4dcc-9895-0bbf316b8144 -->
+
+The admin role (DEFAULT_ADMIN_ROLE) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Pattern Proxy.
+
+`constructor(address admin) {
+_grantRole(DEFAULT_ADMIN_ROLE, admin);`
+
+###### A.6.1.1.6.2.6.1.2.2.1.1.2 - Relayer Role [Core]  <!-- UUID: 905e342b-8dca-4fbc-8673-f6fabb6b29fd -->
+
+The `RELAYER_ROLE` is the address for the Pattern Liquidity Layer ALM Planner off-chain system that calls functions on `Controller` contracts to perform actions on behalf of the `ALMProxy` contract. The Relayer Role may be granted to an address by any address holding the `DEFAULT_ADMIN_ROLE`. The Relayer Role may be removed from an address by any address holding the `DEFAULT_ADMIN_ROLE` or the `FREEZER_ROLE`.
+
+###### A.6.1.1.6.2.6.1.2.2.1.1.3 - ALM Controller Role [Core]  <!-- UUID: 090b5728-5338-4ab7-83bf-15b213758616 -->
+
+The `ALM_CONTROLLER_ROLE` is the address of the role that can call the `call` functions on the `ALMProxy` contract and update `Rate Limits` contract. It includes the `MainnetController` and `ForeignController` contracts. ALM Controller contracts are accessed and modified via the Relayer Role.
+
+###### A.6.1.1.6.2.6.1.2.2.1.1.4 - Freezer Role [Core]  <!-- UUID: 62db1fa2-9958-4692-a2af-907feb5d2c72 -->
+
+The `FREEZER_ROLE` is the address of the emergency role that can remove a compromised Relayer.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: a4dba2f1-0f11-4a04-9982-ba41674bcec9 -->
+
+The documents herein describe the purpose and operational use of key functions within the Pattern Liquidity Layer `MainnetController` contracts: USDS management (mint/burn USDS), Asset Transfer Management (direct transfers, protocol deposits/withdrawals), Cross-chain Operations (CCTP bridging).
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1 - Mainnet Controller Contract Functions [Core]  <!-- UUID: b48c9008-3166-4240-a54d-732463cd28b1 -->
+
+The documents herein define the functions controlled by the Controller contract for Pattern Liquidity Layer operations on Ethereum Mainnet.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.1 - Admin Functions [Core]  <!-- UUID: 886081b4-f379-4dba-bf28-038559138713 -->
+
+The documents herein define the operations performed by the admin role (see [A.6.1.1.6.2.6.1.2.2.1.1.1 - Default Admin Role](6434ee18-27d9-4dcc-9895-0bbf316b8144)) within the `MainnetController` contract.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.1.1 - Set Mint Recipient For Destination Domain [Core]  <!-- UUID: f849be24-c82e-4b13-9a34-027dcaf03fb2 -->
+
+The documents herein define the steps for an admin to specify which address should receive newly minted tokens on a particular destination domain.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.1.1.1 - Call setMintRecipient Function [Core]  <!-- UUID: 929818fb-10b0-4520-ba00-5bc2f46815ed -->
+
+Only an operator with the admin role is able to set the mint recipient for a destination domain. To do so, they must call the `setMintRecipient` function on the Controller contract on mainnet providing the destination domain and the mint recipient address. Calling this function will carry out the following actions:
+
+- The contract will confirm the admin status of the operator. If the caller does not have the admin role the transaction will revert.
+- The contract will set the selected mint recipient for the specified destination domain.
+- The contract will emit a `MintRecipientSet` event to the blockchain logs.
+
+The function call is as follows:
+
+`function setMintRecipient(uint32 destinationDomain, bytes32 mintRecipient) external`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.1.2 - Set LayerZero Recipient [Core]  <!-- UUID: 8666edaa-5bd6-4c13-9d3b-5854e90583cb -->
+
+The documents herein define the steps for an admin to specify which address should receive LayerZero messages on a particular destination endpoint.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.1.2.1 - Call setLayerZeroRecipient Function [Core]  <!-- UUID: 0bc584c7-53da-47ee-9e7f-7514076e5fb0 -->
+
+Only an operator with the admin role is able to set the LayerZero recipient for a destination endpoint. To do so, they must call the `setLayerZeroRecipient` function on the Controller contract on mainnet, providing the destination endpoint ID and the recipient address. Calling this function will carry out the following actions:
+
+- The contract will confirm the admin status of the operator. If the caller does not have the admin role, the transaction will revert.
+- The contract will set the selected LayerZero recipient for the specified destination endpoint.
+- The contract will emit a `LayerZeroRecipientSet` event to the blockchain logs.
+
+The function call is as follows:
+
+`function setLayerZeroRecipient(uint32 destinationEndpointId, bytes32 layerZeroRecipient) external`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.1.3 - Set Maximum Slippage [Core]  <!-- UUID: 829d2426-0bd7-44cb-b1c3-b9958706e1b6 -->
+
+The documents herein define the steps for an admin to set the maximum allowed slippage for a specific pool.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.1.3.1 - Call setMaximumSlippage Function [Core]  <!-- UUID: 1d54c38f-02a3-4f15-b101-d23861967337 -->
+
+Only an operator with the admin role is able to set the maximum slippage for a pool. To do so, they must call the `setMaxSlippage` function on the Controller contract on mainnet, providing the pool address and the maximum slippage value. Calling this function will carry out the following actions:
+
+- The contract will confirm the admin status of the operator. If the caller does not have the admin role, the transaction will revert.
+- The contract will set the maximum slippage for the specified pool.
+- The contract will emit a `MaxSlippageSet` event to the blockchain logs.
+
+The function call is as follows:
+
+`function setMaxSlippage(address pool, uint256 maxSlippage) external`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2 - Relayer Functions [Core]  <!-- UUID: 6607a910-567f-4331-9edc-e8f5013f93fb -->
+
+The documents herein define the operations performed by the relayer role (see [A.6.1.1.6.2.6.1.2.2.1.1.2 - Relayer Role](905e342b-8dca-4fbc-8673-f6fabb6b29fd)) within the `MainnetController` contract.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.1 - Relayer Vault Functions [Core]  <!-- UUID: ada3451f-65ff-4c36-9706-4ebad61564dc -->
+
+The documents herein define the operations that are performed to maintain the desired level of liquidity and debt balance of the Pattern Liquidity Layer.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.1.1 - Mint USDS [Core]  <!-- UUID: 52901348-0e9a-4809-94c3-09ceeda40e91 -->
+
+The documents herein define the steps for a relayer to mint USDS from the Sky Allocation Vault to the Pattern ALM Proxy.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.1.1.1 - Call mintUSDS Function [Core]  <!-- UUID: e58f4b54-eae5-4b7c-a6b5-68406b5b50b7 -->
+
+Only an operator with the relayer role is able to mint USDS. To do so, they must call the `mintUSDS` function on the Controller contract on mainnet with the amount of USDS that is required for minting. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role the transaction will revert.
+- The contract will ensure the `Rate Limits` allow for minting the required amount. If the mint amount does not fall within the available Rate Limit the transaction will revert.
+- The contract will reduce the Rate Limit by the amount of USDS minted in this transaction.
+- The contract will mint the required USDS into the buffer contract.
+- The contract will transfer the newly minted USDS from the buffer to the Proxy.
+
+The function call is as follows:
+
+`function mintUSDS(uint256 usdsAmount) external`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.1.2 - Burn USDS [Core]  <!-- UUID: 886d04ba-23c3-45fb-ac5d-044288a621e1 -->
+
+The documents herein define the steps for a relayer to return and then burn Pattern's USDS debt in the Sky Allocation Vault.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.1.2.1 - Call burnUSDS Function [Core]  <!-- UUID: b974ebda-d402-456a-8b4d-1ea805ac7be0 -->
+
+Only an operator with the relayer role is able to repay vault debt and burn USDS. To do so, they must call the `burnUSDS` function of the Controller contract on mainnet with the amount of USDS that they wish to burn. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role the transaction will revert.
+- The contract will increase the available Rate Limit for minting USDS by the amount of USDS being burned. This increase will be limited by the `maxAmount` parameter in the `Rate Limit` contract.
+- The contract will transfer USDS from the proxy to the buffer.
+- The contract will burn the USDS from the buffer and `wipe` an equivalent amount from the vault's debt.
+
+The function call is as follows:
+
+`function burnUSDS(uint256 usdsAmount) external`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.2 - ERC-20 Functions [Core]  <!-- UUID: dfc76ebc-2a7e-453f-8d9f-e2c380af3083 -->
+
+The documents herein define the operations that are performed to transfer ERC-20 assets to specified destinations.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.2.1 - Transfer Asset [Core]  <!-- UUID: 32b22532-f92b-4544-b1a5-41acead7982e -->
+
+The documents herein define the steps for a relayer to transfer ERC-20 tokens to a destination address.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.2.1.1 - Call transferAsset Function [Core]  <!-- UUID: 530a40e2-8322-44ff-b2ce-4ea0821a8b80 -->
+
+Only an operator with the relayer role is able to transfer ERC-20 assets. To do so, they must call the `transferAsset` function on the Controller contract on mainnet, providing the ERC20 asset address, the destination address, and the amount to transfer. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role the transaction will revert.
+- The contract will ensure the `Rate Limits` allow for transferring the specified amount of the asset to the destination. If the transfer amount does not fall within the available Rate Limit, the transaction will revert.
+- The contract will execute the ERC-20 `transfer` function, sending the specified amount of the asset to the destination address.
+
+The function call is as follows:
+
+`function transferAsset(address asset, address destination, uint256 amount) external`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.3 - ERC-4626 Functions [Core]  <!-- UUID: c6dcf1ab-9861-4a41-9edc-ea79b705db2d -->
+
+The documents herein define the general Pattern Liquidity Layer operational procedures for interacting with ERC-4626-compliant tokenized vaults. ERC-4626 is a standard interface for vaults representing shares of an underlying ERC-20 token. Pattern Liquidity Layer can integrate with various ERC-4626 vaults. For instance-specific parameters (such as vault addresses, asset addresses, and rate limits), refer to the relevant ERC-4626 Instance Configuration Document.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.3.1 - Deposit To ERC-4626 Vault [Core]  <!-- UUID: 2dd9a377-0fc7-483a-8942-9eb668b8e334 -->
+
+The documents herein define the steps for a relayer to deposit assets from the ALM Proxy to an ERC-4626 vault to receive yield-bearing shares.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.3.1.1 - Call depositERC4626 Function [Core]  <!-- UUID: 04ac423a-ef3a-42a2-87de-745da9afded3 -->
+
+Only an operator with the relayer role can deposit assets into an ERC-4626 vault. To do so, they must call the `depositERC4626` function on the Controller contract on mainnet, providing the vault token address and the amount of the underlying asset to deposit. The operation will only succeed if the ALM Proxy holds at least the amount of the underlying asset specified for deposit; otherwise, the transaction will revert. The rate limit configuration serves as whitelisting for vaults. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.
+- The contract will ensure the deposit amount is within the allowed rate limit for the specified vault.
+- The contract will approve the vault to spend the underlying asset from the ALM Proxy. The approval and deposit are both performed from the ALM Proxy address.
+- The contract will deposit the specified amount into the vault, and the ALM Proxy will receive the corresponding number of vault shares.
+
+The function call is as follows:
+
+`function depositERC4626(address token, uint256 amount) external returns (uint256 shares)`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.3.2 - Withdraw From ERC-4626 Vault [Core]  <!-- UUID: 788ff656-5797-41f3-ac17-38c88e690cc5 -->
+
+The documents herein define the steps for a relayer to withdraw a specified amount of the underlying asset from an ERC-4626 vault to the ALM Proxy.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.3.2.1 - Call withdrawERC4626 Function [Core]  <!-- UUID: 40875283-48ec-48f0-8b61-e45d33f976ab -->
+
+Only an operator with the relayer role can withdraw assets from an ERC-4626 vault. To do so, they must call the `withdrawERC4626` function on the Controller contract on mainnet, providing the vault token address and the amount of the underlying asset to withdraw. The operation will only succeed if the ALM Proxy holds at least the amount of the underlying asset specified for withdrawal; otherwise, the transaction will revert. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.
+- The contract will ensure the withdrawal amount is within the allowed rate limit for the specified vault.
+- The contract will withdraw the specified amount from the vault, burning the necessary number of vault shares held by the ALM Proxy as part of the withdrawal process.
+- The withdrawn assets will be sent to the ALM Proxy.
+
+The function call is as follows:
+
+`function withdrawERC4626(address token, uint256 amount) external returns (uint256 shares)`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.3.3 - Redeem ERC-4626 Shares [Core]  <!-- UUID: 7582c5d2-205c-4ae0-8190-ae583a3db138 -->
+
+The documents herein define the steps for a relayer to redeem vault shares for the underlying asset from an ERC-4626 vault, with the assets sent to the ALM Proxy.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.3.3.1 - Call redeemERC4626 Function [Core]  <!-- UUID: 037d3def-39bc-4aaf-9c3d-69fb86245f35 -->
+
+Only an operator with the relayer role can redeem vault shares for the underlying asset. To do so, they must call the `redeemERC4626` function on the Controller contract on mainnet, providing the number of shares to redeem. The address is the ALM Proxy acting as both the owner of the shares being redeemed and the receiver of the resulting assets. The operation will only succeed if the ALM Proxy holds at least the number of shares specified for redemption; otherwise, the transaction will revert. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.
+- The contract will redeem the specified number of shares from the vault, sending the resulting assets to the ALM Proxy.
+- After redemption, the contract will update the withdrawal rate limit based on the amount of assets received.
+
+The function call is as follows:
+
+`function redeemERC4626(address token, uint256 shares) external returns (uint256 assets)`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.4 - ERC-7540 Functions [Core]  <!-- UUID: f11f72f7-5f70-43e0-ad48-1b3285211284 -->
+
+The documents herein define the general Pattern Liquidity Layer operational procedures for interacting with ERC-7540-compliant tokenized vaults. ERC-7540 is a standard interface for vaults representing and managing multiple underlying assets within a single vault. Pattern Liquidity Layer can integrate with various ERC-7540 vaults. For instance-specific parameters (such as vault addresses, asset addresses, and rate limits), refer to the relevant ERC-7540 Instance Configuration Document.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.4.1 - Deposit To ERC-7540 Vault [Core]  <!-- UUID: 9cb65647-4f82-44a6-9b55-25384e7a6cf6 -->
+
+The documents herein define the steps for a relayer to request and claim deposit of assets from the ALM Proxy to an ERC-7540 vault.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.4.1.1 - Call requestDepositERC7540 Function [Core]  <!-- UUID: 138b2674-60c1-4a5c-925a-e30956299119 -->
+
+Only an operator with the relayer role can request a deposit into an ERC-7540 vault. To do so, they must call the `requestDepositERC7540` function on the Controller contract on mainnet, providing the vault token address and the amount of the underlying asset to deposit. The operation will only succeed if the ALM Proxy holds at least the amount of the underlying asset specified for deposit; otherwise, the transaction will revert. The Rate Limit configuration serves as whitelisting for vaults. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.
+- The contract will ensure the deposit amount is within the allowed rate limit for the specified vault.
+- The contract will approve the vault to spend the underlying asset from the ALM Proxy. The approval and deposit are both performed from the ALM Proxy address.
+- The contract will submit a deposit request to the vault. Shares will not be received immediately; they must be claimed in a separate step after the vault processes the deposit.
+
+The function call is as follows:
+
+`function requestDepositERC7540(address token, uint256 amount) external`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.4.1.2 - Call claimDepositERC7540 Function [Core]  <!-- UUID: fccd0af9-6156-400e-bb4b-27a9d4fca711 -->
+
+Only an operator with the relayer role can claim shares from an ERC-7540 vault after a deposit request. To do so, they must call the `claimDepositERC7540` function on the Controller contract on mainnet, providing the vault token address. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.
+- The contract will determine the maximum number of shares that can be claimed by the ALM Proxy.
+- The contract will claim the shares from the vault, and the ALM Proxy will receive the corresponding number of vault shares.
+
+The function call is as follows:
+
+`function claimDepositERC7540(address token) external`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.4.2 - Redeem From ERC-7540 Vault [Core]  <!-- UUID: b46a85df-ba8e-482a-bcde-b61f2b520190 -->
+
+The documents herein define the steps for a relayer to request and redeem vault shares for the underlying asset from an ERC-7540 vault, with the assets sent to the ALM Proxy.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.4.2.1 - Call requestRedeemERC7540 Function [Core]  <!-- UUID: e637cc53-2243-483f-afa2-d3e92a3365fd -->
+
+Only an operator with the relayer role can request the redemption of shares from an ERC-7540 vault. To do so, they must call the `requestRedeemERC7540` function on the Controller contract on mainnet, providing the vault token address and the number of shares to redeem. The rate limit configuration serves as whitelisting for vaults. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.
+- The contract will ensure the redemption amount is within the allowed rate limit for the specified vault.
+- The contract will submit a redemption request to the vault. Assets will not be received immediately; they must be claimed in a separate step after the vault processes the redemption.
+
+The function call is as follows:
+
+`function requestRedeemERC7540(address token, uint256 shares) external`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.4.2.2 - Call claimRedeemERC7540 Function [Core]  <!-- UUID: 0c3a819b-f93f-4565-948f-7d9147cfe9d8 -->
+
+Only an operator with the relayer role can claim assets from an ERC-7540 vault after a redemption request. To do so, they must call the `claimRedeemERC7540` function on the Controller contract on mainnet, providing the vault token address. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.
+- The contract will determine the maximum amount of assets that can be claimed by the ALM Proxy.
+- The contract will claim the assets from the vault, and the ALM Proxy will receive the corresponding amount of underlying assets.
+
+The function call is as follows:
+
+`function claimRedeemERC7540(address token) external`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.5 - Dai / USDS Functions [Core]  <!-- UUID: 918d2721-5fea-4b89-a134-56de5146aa5c -->
+
+The documents herein define the swap operations between Dai and USDS.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.5.1 - Swap USDS to Dai [Core]  <!-- UUID: 3107138f-1944-40da-9e60-7b9fed97b984 -->
+
+The documents herein define a series of operations for an operator to `swap` USDS to Dai.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.5.1.1 - Call swapUSDSToDAI Function [Core]  <!-- UUID: b28a88b4-bb7f-4f7b-a538-cb394ce6ce23 -->
+
+Only an operator with the relayer role can swap USDS to Dai. To do so, they must call the `swapUSDSToDAI` function on the Controller contract on mainnet, providing the usdsAmount. The operation will only succeed if the Proxy holds enough USDS for the swap; otherwise, the transaction will revert. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.
+- The contract will approve the DaiUsds migrator to spend the specified USDS amount from the Proxy.
+- The contract will swap USDS to Dai at a 1:1 ratio by calling the `usdsToDai` function on the migrator, sending the resulting DAI to the proxy.
+
+The function call is as follows:
+
+`function swapUSDSToDAI(uint256 usdsAmount) external`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.5.2 - Swap Dai to USDS [Core]  <!-- UUID: 76a9ada0-0697-4201-8b3b-621063b3554b -->
+
+The documents herein define a series of operations for an operator to `swap` Dai to USDS.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.5.2.1 - Call swapDAIToUSDS Function [Core]  <!-- UUID: 06ba856a-91a7-43b5-b4d7-9f392df360d4 -->
+
+Only an operator with the relayer role can swap Dai to USDS. To do so, they must call the `swapDAIToUSDS` function on the Controller contract on mainnet, providing the daiAmount. The operation will only succeed if the Proxy holds enough Dai for the swap; otherwise, the transaction will revert. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.
+- The contract will approve the DaiUsds migrator to spend the specified Dai amount from the Proxy.
+- The contract will swap Dai to USDS at a 1:1 ratio by calling the `daiToUsds` function on the migrator, sending the resulting USDS to the proxy.
+
+The function call is as follows:
+
+`function swapDAIToUSDS(uint256 daiAmount) external`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.6 - PSM Functions [Core]  <!-- UUID: 4ee9a639-8b91-4bd9-8993-9efe3117524a -->
+
+The documents herein define the swap operations performed by the Pattern Liquidity Layer in the PSM.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.6.1 - Swap USDS to USDC [Core]  <!-- UUID: ef9a88a1-cf2b-47a9-9664-685880558489 -->
+
+The documents herein define a series of operations for an operator to `swap` USDS to USDC through the PSM.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.6.1.1 - Call swapUSDSToUSDC Function [Core]  <!-- UUID: b08f57de-599d-46e4-aabe-64b1db5a38ad -->
+
+Only an operator with the relayer role can swap USDS to USDC via the PSM. To do so, they must call the `swapUSDSToUSDC` function on the Controller contract on mainnet, providing the usdcAmount (denominated in 1e6 precision to match PSM USDC handling). The operation will only succeed if the ALM Proxy holds at least the equivalent amount of USDS for the swap; otherwise, the transaction will revert. The rate limit configuration serves as whitelisting for swaps. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.
+- The contract will ensure the swap amount is within the allowed rate limit (LIMIT_USDS_TO_USDC) for the PSM.
+- The contract will convert the USDC amount to an 18-decimal format using psmTo18ConversionFactor.
+- The contract will approve the daiUsds contract to spend the converted amount from the ALM Proxy.
+- The contract will swap USDS to Dai at a 1:1 ratio via daiUsds, sending Dai to the proxy.
+- The contract will approve the PSM to spend the Dai.
+- The contract will swap Dai to USDC at a 1:1 ratio with no fee via psm.buyGemNoFee, sending USDC to the proxy.
+
+The function call is as follows:
+
+`function swapUSDSToUSDC(uint256 usdcAmount) external`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.6.2 - Swap USDC To USDS [Core]  <!-- UUID: 9d828ddb-7423-41cb-9adb-43d4cbfc9d38 -->
+
+The documents herein define a series of operations for an operator to `swap` USDC to USDS through the PSM.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.6.2.1 - Call swapUSDCToUSDS Function [Core]  <!-- UUID: 355f4606-5346-41d5-8ea7-2c4490d761e1 -->
+
+Only an operator with the relayer role can swap USDC to USDS via the PSM. To do so, they must call the `swapUSDCToUSDS` function on the Controller contract on mainnet, providing the usdcAmount (denominated in 1e6 precision to match PSM USDC handling). The operation will only succeed if the ALM Proxy holds at least the amount of USDC specified for the swap; otherwise, the transaction will revert. The rate limit configuration serves as whitelisting for swaps. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.
+- The contract will ensure the swap amount is within the allowed rate limit (LIMIT_USDC_TO_USDS) for the PSM.
+- The contract will approve the PSM to spend the USDC from the ALM Proxy.
+- The contract will calculate the swap limit per transaction based on the Dai balance held by the PSM, converting with psmTo18ConversionFactor.
+- If the usdcAmount is less than or equal to the limit, the contract will perform a direct swap of USDC to Dai.
+- If the usdcAmount exceeds the limit, the contract will split the swap into multiple smaller swaps: refill the PSM with Dai via psm.fill, recalculate the limit, swap the maximum allowed amount, update the remaining amount, and repeat until complete (reverting with "DssLitePsm/nothing-to-fill" if PSM cannot be filled).
+- The contract will convert the USDC amount to a Dai amount, accounting for token decimal differences.
+- The contract will approve the daiUsds contract to spend the Dai amount from the ALM Proxy.
+- The contract will swap Dai to USDS at a 1:1 ratio via daiUsds, sending USDS to the proxy.
+
+The function call is as follows:
+
+`function swapUSDCToUSDS(uint256 usdcAmount) external`
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.6.3 - Transfer Token Via LayerZero [Core]  <!-- UUID: 901bf629-cee3-4296-afd6-d1e7779d15bb -->
+
+The documents herein define the steps for a relayer to `transfer` a token via LayerZero to a destination endpoint, with the assets sent according to the configured recipient.
+
+###### A.6.1.1.6.2.6.1.2.2.1.2.1.2.6.3.1 - Call transferTokenLayerZero Function [Core]  <!-- UUID: 24c70856-ba73-4b1e-86db-1d7829220c49 -->
+
+Only an operator with the relayer role can transfer tokens via LayerZero. To do so, they must call the `transferTokenLayerZero` function on the Controller contract on mainnet, providing the oftAddress, amount, and destinationEndpointId (payable for native fees). The operation will only succeed if the ALM Proxy holds sufficient tokens and fees; otherwise, the transaction will revert. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.
+- The contract will ensure the transfer amount is within the allowed rate limit (built from LIMIT_LAYERZERO_TRANSFER, oftAddress, and destinationEndpointId).
+- If approval is required, the contract will approve the token for the oftAddress.
+- The contract will build LayerZero send options and a SendParam struct with destination details, amount, and recipient from layerZeroRecipients.
+- The contract will quote the OFT receipt to set the minimum amount received.
+- The contract will quote the messaging fee and execute the send via proxy.doCallWithValue, passing the fee value.
+
+The function call is as follows:
+
+`function transferTokenLayerZero(address oftAddress, uint256 amount, uint32  destinationEndpointId) external payable`
+
+###### A.6.1.1.6.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: 2b03d21b-d03a-4c0e-8d90-d5a2f5dd9140 -->
+
+The documents herein define the protocol for querying, setting, and adjusting `Rate Limits` for Instances using their `RateLimitID`s. The Rate Limits must be maintained in line with Pattern's strategy, market conditions, and security considerations.
+
+###### A.6.1.1.6.2.6.1.2.2.1.3.1 - Get Rate Limit Data [Core]  <!-- UUID: f46cbe06-e7df-4a92-8972-cd21bf9be2c5 -->
+
+Anyone can query the full rate limit data for a specific key. Calling this function will carry out the following actions:
+
+- The contract will return the stored RateLimitData struct from the _data mapping for the key.
+
+The function call is as follows:
+
+`function getRateLimitData(bytes32 key) external override view returns (RateLimitData memory)`
+
+###### A.6.1.1.6.2.6.1.2.2.1.3.2 - Set Rate Limit Data [Core]  <!-- UUID: 89b060bd-1026-46ec-ab32-d032edb58f83 -->
+
+Only an operator with the admin role is able to set or update rate limit data for a specific key, including maxAmount, slope, and historical values. There are two overloads for flexibility. Calling these functions will carry out the following actions:
+
+- The contract will require that lastAmount is less than or equal to maxAmount, reverting with "RateLimits/invalid-lastAmount" if not.
+- The contract will require that lastUpdated is less than or equal to the current block timestamp, reverting with "RateLimits/invalid-lastUpdated" if not.
+- The contract will store the provided data in the _data mapping as a RateLimitData struct.
+- The contract will emit a RateLimitDataSet event with the key and provided values.
+
+The function calls are as follows:
+
+`function setRateLimitData(bytes32 key, uint256 maxAmount, uint256 slope, uint256 lastAmount, uint256 lastUpdated) public override onlyRole(DEFAULT_ADMIN_ROLE)
+
+function setRateLimitData(bytes32 key, uint256 maxAmount, uint256 slope) external override`
+
+###### A.6.1.1.6.2.6.1.2.2.1.3.3 - Set Unlimited Rate Limit Data [Core]  <!-- UUID: 7c4bdc16-13e0-47b4-8988-18e9720eb292 -->
+
+Only an operator with the admin role is able to set unlimited rate limit data for a specific key by configuring it with maximum values. Calling this function will carry out the following actions:
+
+- The contract will call setRateLimitData internally with type(uint256).max for maxAmount and lastAmount, 0 for slope, and the current block timestamp for lastUpdated.
+
+The function call is as follows:
+
+`function setUnlimitedRateLimitData(bytes32 key) external override`
+
+###### A.6.1.1.6.2.6.1.2.2.1.3.4 - Get Current Rate Limit [Core]  <!-- UUID: b0afea3f-9ff2-4462-a771-522b1256a343 -->
+
+Anyone can query the current rate limit value for a specific key, accounting for time-based slope accrual. Calling this function will carry out the following actions:
+
+- The contract will retrieve the RateLimitData for the key from the _data mapping.
+- If maxAmount is type(uint256).max (unlimited case), the contract will return type(uint256).max.
+- Otherwise, the contract will calculate and return the minimum of (slope * time elapsed since lastUpdated + lastAmount) and maxAmount.
+
+The function call is as follows:
+
+`function getCurrentRateLimit(bytes32 key) public override view returns (uint256)`
+
+###### A.6.1.1.6.2.6.1.2.2.1.3.5 - Trigger Rate Limit Decrease [Core]  <!-- UUID: 9f76a9bc-5451-4ff7-8dcd-153e4c47fe72 -->
+
+Only an operator with the controller role can trigger a decrease in the rate limit for a specific key by a given amount. Calling this function will carry out the following actions:
+
+- The contract will retrieve the RateLimitData storage for the key from the data mapping.
+- The contract will require that maxAmount is greater than 0, reverting with "RateLimits/zero-maxAmount" if not.
+- If maxAmount is type(uint256).max (unlimited case), the contract will return type(uint256).max without changes.
+- The contract will calculate the currentRateLimit using getCurrentRateLimit.
+- The contract will require that amountToDecrease is less than or equal to currentRateLimit, reverting with "RateLimits/rate-limit-exceeded" if not.
+- The contract will update lastAmount to currentRateLimit minus amountToDecrease and set lastUpdated to the current block timestamp.
+- The contract will emit a RateLimitDecreaseTriggered event with the key, amountToDecrease, currentRateLimit, and newLimit.
+- The contract will return the newLimit.
+
+The function call is as follows:
+
+`function triggerRateLimitDecrease(bytes32 key, uint256 amountToDecrease) external override onlyRole(CONTROLLER) returns (uint256 newLimit)`
+
+###### A.6.1.1.6.2.6.1.2.2.1.4 - Instance Lifecycle Management [Core]  <!-- UUID: 568f470e-adce-49ee-8cbe-756757814dc5 -->
+
+The documents herein define processes for invoking (onboarding) new Pattern Liquidity Layer Instances and offboarding existing ones. This process will be specified in a future iteration of the Pattern Artifact.
+
+###### A.6.1.1.6.2.6.1.2.2.1.5 - Upgrading Controller [Core]  <!-- UUID: 2858c1d6-bc8d-4896-a5d7-8647a1010e46 -->
+
+The documents herein define the process for deploying new Controller contracts. This process will be specified in a future iteration of the Pattern Artifact.
+
+###### A.6.1.1.6.2.6.1.2.2.2 - Non-Routine Protocol [Core]  <!-- UUID: ae7cab85-07da-4c66-ab60-f7837dd268fd -->
+
+The documents herein define the process for non-routine ongoing management of the Pattern Liquidity Layer and its active Instances.
+
+###### A.6.1.1.6.2.6.1.2.2.3 - Emergency Protocol [Core]  <!-- UUID: 9eb7f00e-dfdb-48da-92cd-ac6793496290 -->
+
+The documents herein define all the possible actions that can be taken in case of an emergency within Pattern Liquidity Layer operations.
+
+###### A.6.1.1.6.2.6.1.2.2.3.1 - Remove Compromised Relayer As Freezer [Core]  <!-- UUID: a7054e75-b492-4e49-bae6-41c786153fb2 -->
+
+In the event of a compromised Relayer, the `FREEZER_ROLE` can call the function to `removeRelayer` from the Controller contract. Only an operator with the freezer role can remove a relayer. To do so, they must call the `removeRelayer` function on the Controller contract on mainnet, providing the compromised relayer's address. Calling this function will carry out the following actions:
+
+- The contract will confirm the caller holds the freezer role. If the caller does not have the freezer role, the transaction will revert.
+- The contract will revoke the relayer role from the specified address.
+- The contract will emit a `RelayerRemoved(relayer)` event.
+
+The function call is as follows:
+
+`function removeRelayer(address relayer) external`
+
+###### A.6.1.1.6.2.6.1.2.2.3.2 - Redeem All Mainnet Positions [Core]  <!-- UUID: d1885385-a7d8-4d1c-b345-a843a5001052 -->
+
+The documents herein define the actions that should be performed by an operator if there is a need to recover the liquidity from Mainnet Protocols and centralize it in the Mainnet Pattern ALM Proxy.
+
+###### A.6.1.1.6.2.6.1.2.2.3.2.1 - ERC-4626 Withdrawal Action [Core]  <!-- UUID: 872a4857-504e-4795-9cbd-2a6f159c1ea0 -->
+
+In order to withdraw all ERC-4626 balances, the operator must call the `redeemERC4626` function.
+
+The function call is as follows:
+
+`function redeemERC4626(address(token), token.balanceOf(address(proxy)))`
+
+For more detailed instructions on the code to execute this, see [A.6.1.1.6.2.6.1.2.2.1.2.1.2.3 - ERC-4626 Functions](c6dcf1ab-9861-4a41-9edc-ea79b705db2d).
+
+###### A.6.1.1.6.2.6.1.2.2.3.3 - USDC To USDS Swap Action [Core]  <!-- UUID: c30c1496-0eff-4199-9c18-eb72fb486aac -->
+
+This document defines the action that should be performed by an operator if there is a need to centralize all recovered liquidity in USDS. The operator must call the `swapUSDCToUSDS` function.
+
+The function call is as follows:
+
+`function swapUSDCToUSDS(usdc.balanceOf(address(proxy))`
+
+For more detailed instructions on the code to execute this see [A.6.1.1.6.2.6.1.2.2.1.2.1.2.6.2 - Swap USDC To USDS](9d828ddb-7423-41cb-9adb-43d4cbfc9d38).
+
+###### A.6.1.1.6.2.6.1.2.2.3.4 - USDS Burn Action [Core]  <!-- UUID: 451ccaa5-640c-423d-b816-de953edbf115 -->
+
+This document defines the action that should be performed if there is a need to repay and then burn Pattern's USDS debt. The operator must call the `burnUSDS` function.
+
+The function call is as follows:
+
+`function burnUSDS(usds.balanceOf(address(proxy))`
+
+More detailed instructions on the code to execute this, see [A.6.1.1.6.2.6.1.2.2.1.2.1.2.1.2 - Burn USDS](886d04ba-23c3-45fb-ac5d-044288a621e1).
+
+###### A.6.1.1.6.2.6.1.2.3 - Allocation Strategy [Core]  <!-- UUID: e4bc88c1-a8b6-428a-aafd-2b03e7cb85ae -->
+
+In the future, additional logic will be added herein regarding the strategy by which capital is allocated between different Instances of the Pattern Liquidity Layer.
+
 ###### A.6.1.1.6.2.6.1.3 - Active Instances [Core]  <!-- UUID: 5050f24e-45b1-4032-adf7-319235cdb6b9 -->
 
-The Instances of the Allocation System Primitive with `Active` Status are stored herein.
+The Instances of the Pattern Liquidity Layer with `Active` Status are stored herein. The `RRC Framework Full Implementation Coverage` status defines whether the Instance Financial RRC is calculated based on a fully implemented risk model (see [A.3.2.1.1.4.3.1 - Fully Implemented Risk Models](419a1d00-fbae-4d26-bd47-8f57677d8001)) or a pending risk model (see [A.3.2.1.1.4.3.2 - Pending Risk Models](81ca88bf-3f6a-4d10-a3e2-d47cf6636d7d)). If the Instance Financial RRC is calculated based on a fully implemented risk model the status is `Covered`. If the Instance Financial RRC is calculated based on a pending risk model the status is `Pending`.
+
+###### A.6.1.1.6.2.6.1.3.1 - Ethereum Mainnet Instances [Core]  <!-- UUID: 5eb721ed-289b-42f8-bed4-1e62debcc31c -->
+
+The Ethereum Mainnet Instances of the Pattern Liquidity Layer with `Active` Status are stored herein and are organized by target protocol.
+
+###### A.6.1.1.6.2.6.1.3.1.1 - Maple [Core]  <!-- UUID: ffd9916b-8088-47bb-854f-2fd3f31b67eb -->
+
+The Ethereum Mainnet Instances of the Maple Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.6.2.6.1.3.1.1.1 - Ethereum Mainnet - Maple USDC Instance Configuration Document [Core]  <!-- UUID: 50d86fb7-cacd-4f9b-adf4-7056cfe8cd97 -->
+
+The documents herein contain the Instance Configuration Document for the Maple USDC Instance.
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 1b922f8d-dc0e-4788-bb42-a01319b3e272 -->
+
+**`Covered`**
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2 - Parameters [Core]  <!-- UUID: 91e09aad-6287-44a1-a113-07adb46045d8 -->
+
+The documents herein define the parameters of the Maple USDC Instance of the Allocation System Primitive.
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 3bb453cb-4ae2-466f-9008-b50079d27767 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.1.1 - Network [Core]  <!-- UUID: b20300e4-a1e9-4461-a62f-7d28dd3ba411 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 68c3772f-bb79-4518-94b4-f62a5f9976cd -->
+
+Maple
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.1.3 - Asset Supplied By Pattern Liquidity Layer [Core]  <!-- UUID: 3374585c-f518-4f40-ae7e-ef6adf934d30 -->
+
+USDC
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.1.4 - Token [Core]  <!-- UUID: 91b6aca1-10f0-4353-b392-33c28777ced3 -->
+
+syrupUSDC
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: 29098a46-4273-4375-8ae1-4c2f869c12bc -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.2.1 - Token Address [Core]  <!-- UUID: f62da26d-7c08-4c6c-8ed2-732bd756fa18 -->
+
+`0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b`
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 2b47ae9c-85f4-41ac-97f9-63737a95aab3 -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.3 - RateLimitIDs [Core]  <!-- UUID: b909a2b6-4fea-42f1-a883-6c4be70abd3c -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are specified in the documents herein.
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 36faf4e4-dbef-488e-b1f3-a145c2058289 -->
+
+The inflow RateLimitID is: `0x99a69e57b2f387f999d6adff6eb2e707b59fdb54f06ca6211b4f20956e9bfe10`
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 8b64e6db-f656-47cc-939d-34d92e10048e -->
+
+The outflow RateLimitID is: `0x64e6fd9d694640eebeeefc7b5abe32ef09bbabaa3d4e60221461d05a9577dc57`
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.4 - Rate Limits [Core]  <!-- UUID: 93912f1a-3f33-4584-9d4c-dd0a57571c4e -->
+
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the documents herein.
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: baf5e2d2-8d4f-4248-90ff-c3bb21972b62 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 100,000,000 USDC
+- `slope`: 20,000,000 USDC per day
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 49a40f8d-e564-4cb3-bd6d-44d51bcba9c2 -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: eb78d31a-7540-4851-815a-8d1200050dee -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d19f3ee9-95d8-42fc-971d-1fe20aeea6ba -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Pattern Liquidity Layer processes.
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.3.1 - Redeem Maple Shares [Core]  <!-- UUID: e1bc16e0-7239-49fe-bc15-c51867bb1b5a -->
+
+The documents herein define the steps for a relayer to redeem vault shares from Maple.
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.3.1.1 - Call RequestMapleRedemption Function [Core]  <!-- UUID: d080330d-912e-4c6d-9c81-714ce4b544a1 -->
+
+Only an operator with the relayer role can request the redemption of shares from Maple. To do so, they must call the `requestMapleRedemption` function on the Controller contract on mainnet, providing the Maple token address and the number of shares to request. All Maple redemption operations are performed on behalf of the ALM Proxy and the destination address is always set to the proxy by the contract. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.
+- The contract will ensure the redemption amount is within the allowed rate limit for the specified vault and decrease the rate limit for the redemption amount.
+- The contract will submit a redemption request to the vault. Assets will not be received immediately; they must be claimed in a separate step after the vault processes the redemption.
+
+The function call is as follows:
+
+`function requestMapleRedemption(address mapleToken, uint256 shares) external`
+
+###### A.6.1.1.6.2.6.1.3.1.1.1.3.1.2 - Call CancelMapleRedemption Function [Core]  <!-- UUID: 85d7a1f5-3361-49cf-b087-b027183cb640 -->
+
+Only an operator with the relayer role can cancel a previously requested redemption of shares from Maple. To do so, they must call the `cancelMapleRedemption` function on the Controller contract on mainnet, providing the Maple token address and the number of shares to cancel. All Maple cancellations of redemption operations are performed on behalf of the ALM Proxy. Calling this function will carry out the following actions:
+
+- The contract will confirm the relayer status of the operator. If the caller does not have the relayer role, the transaction will revert.
+- The contract will check that a rate limit exists for the asset. If no rate limit exists the transaction will revert.
+- The contract will submit a cancellation request to the vault, removing the specified number of shares from the pending redemption.
+
+The function call is as follows:
+
+`function cancelMapleRedemption(address mapleToken, uint256 shares) external`
 
 ###### A.6.1.1.6.2.6.1.4 - Completed Instances [Core]  <!-- UUID: f7a6d433-9be9-4140-89b4-eacf579522e4 -->
 
