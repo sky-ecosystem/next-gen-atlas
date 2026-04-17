@@ -23504,7 +23504,7 @@ The subdocuments herein define the current configuration of the risk parameters.
 
 The Risk parameters are:
 
-- Supply cap: 250,000 WETH
+- Supply cap: 500,000 WETH
 - Max yield: 5%
 - Current yield (at launch): 0%
 
@@ -23616,7 +23616,7 @@ The subdocuments herein define the current configuration of the risk parameters.
 
 The Risk parameters are:
 
-- Supply cap: 1,000,000,000 USDC
+- Supply cap: 2,000,000,000 USDC
 - Max yield: 10%
 - Current yield (at launch): 0%
 
@@ -23728,7 +23728,7 @@ The subdocuments herein define the current configuration of the risk parameters.
 
 The Risk parameters are:
 
-- Supply cap: 2,000,000,000 USDT
+- Supply cap: 4,000,000,000 USDT
 - Max yield: 10%
 - Current yield (at launch): 0%
 
@@ -27368,7 +27368,7 @@ The current parameters for Spark Savings USDC on Ethereum are:
 - Take rate limit: unlimited
 - Min yield: 0%
 - Max yield: 10%
-- Supply cap: 250 million
+- Supply cap: 2 billion
 
 ###### A.6.1.1.1.3.5.2.2.2 - Spark Savings USDT on Ethereum [Core]  <!-- UUID: 39a398d7-600e-472a-ac85-c789866fddfc -->
 
@@ -27380,7 +27380,7 @@ The current parameters for Spark Savings USDT on Ethereum are:
 - Take rate limit: unlimited
 - Min yield: 0%
 - Max yield: 10%
-- Supply cap: 250 million
+- Supply cap: 4 billion
 
 ###### A.6.1.1.1.3.5.2.2.3 - Spark Savings ETH on Ethereum [Core]  <!-- UUID: 02c0847b-5608-4c12-a1f6-df889538722f -->
 
@@ -27392,7 +27392,7 @@ The current parameters for Spark Savings ETH on Ethereum are:
 - Take rate limit: unlimited
 - Min yield: 0%
 - Max yield: 5%
-- Supply cap: 50,000
+- Supply cap: 500,000
 
 ###### A.6.1.1.1.3.5.2.2.4 - Spark Savings USDC on Avalanche [Core]  <!-- UUID: fc108236-9f07-45fb-9ff1-4c806975e049 -->
 
