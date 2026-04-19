@@ -20943,22 +20943,30 @@ The documents herein define the Instance contract addresses.
 
 `0x6B175474E89094C44Da98b954EedeAC495271d0F`
 
-###### A.6.1.1.1.2.6.1.3.1.1.3.2.3 - Rate Limits [Core]  <!-- UUID: ec3317a7-e330-45a8-a797-9c8f4bf3b606 -->
+###### A.6.1.1.1.2.6.1.3.1.1.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: f8225872-d517-40f1-a931-241b5d0cc07b -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.1.3.2.4 - Rate Limits [Core]  <!-- UUID: ec3317a7-e330-45a8-a797-9c8f4bf3b606 -->
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.1.3.2.3.1 - Inflow Rate Limits [Core]  <!-- UUID: 381c40f3-008e-4541-81c7-6192a186def7 -->
+###### A.6.1.1.1.2.6.1.3.1.1.3.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 381c40f3-008e-4541-81c7-6192a186def7 -->
 
 The inflow rate limits are:
 
 - `maxAmount`: 100,000,000 DAI
 - `slope`: 50,000,000 DAI per day
 
-###### A.6.1.1.1.2.6.1.3.1.1.3.2.3.2 - Outflow Rate Limits [Core]  <!-- UUID: 101cf682-0eda-4e40-81e0-601e3d2895aa -->
+###### A.6.1.1.1.2.6.1.3.1.1.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 101cf682-0eda-4e40-81e0-601e3d2895aa -->
 
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.1.1.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 69f08826-c669-4407-84b4-bade022c2357 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 9427c9de-cc7b-4ea0-ad1f-d1ceb6d7e866 -->
 
@@ -22169,6 +22177,10 @@ The outflow rate limits are:
 
 - `maxAmount`: unlimited
 - `slope`: unlimited
+
+###### A.6.1.1.1.2.6.1.3.1.4.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 5be31657-391b-4385-9893-125157bd771f -->
+
+The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.4.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 3c72575c-ce4e-4379-ba45-080f335851a1 -->
 
