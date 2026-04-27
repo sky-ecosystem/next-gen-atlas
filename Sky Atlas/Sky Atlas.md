@@ -19700,6 +19700,14 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 The documents herein contain a Directory of all Instances on Avalanche of the Allocation System Primitive with Instance status of `Active`.
 
+###### A.6.1.1.1.2.6.1.1.2.4.1 - Aave [Core]  <!-- UUID: 830b9c54-37df-41f1-9ae1-e114bc47636c -->
+
+The Avalanche Instances Directory of the Aave Protocol with `Completed` Status are stored herein
+
+###### A.6.1.1.1.2.6.1.1.2.4.1.1 - Avalanche - Aave v3 USDC Vault Instance Configuration Document Location [Core]  <!-- UUID: 85bc9184-abf0-4767-ae07-cda159c63f6f -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.4.1.1 - Avalanche - Aave v3 USDC Vault Instance Configuration Document](ae06054a-1ed8-410b-983d-1789b49f1f19).
+
 ###### A.6.1.1.1.2.6.1.1.2.4.2 - Spark Savings V2 [Core]  <!-- UUID: 805d95ac-c6fa-4326-bade-380c3635306c -->
 
 The Avalanche Instances Directory of the Spark Savings v2 Protocol with `Active` Status are stored herein
@@ -19711,14 +19719,6 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 ###### A.6.1.1.1.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 1df4d054-4443-4c64-b34b-c9fce456276b -->
 
 This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of `Completed`.
-
-###### A.6.1.1.1.2.6.1.1.3.1 - Aave [Core]  <!-- UUID: 830b9c54-37df-41f1-9ae1-e114bc47636c -->
-
-The Avalanche Instances Directory of the Aave Protocol with `Completed` Status are stored herein
-
-###### A.6.1.1.1.2.6.1.1.3.1.1 - Avalanche - Aave v3 USDC Vault Instance Configuration Document Location [Core]  <!-- UUID: 85bc9184-abf0-4767-ae07-cda159c63f6f -->
-
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.4.1.1 - Avalanche - Aave v3 USDC Vault Instance Configuration Document](ae06054a-1ed8-410b-983d-1789b49f1f19).
 
 ###### A.6.1.1.1.2.6.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 73a22cb8-06cd-4324-b0fe-f37bf538f7a9 -->
 
