@@ -19716,6 +19716,10 @@ The Avalanche Instances Directory of the Spark Savings v2 Protocol with `Active`
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.4.2.1 - Avalanche - Spark Savings v2 USDC Instance Configuration Document](afa35a43-18e2-4084-b36c-eb584f4749ac)
 
+##### A.6.1.1.1.2.6.1.1.2.5 - Tempo [Core]  <!-- UUID: 057e90e6-58cf-432c-acff-8b034d905569 -->
+
+The documents herein contain a Directory of all Instances on Tempo of the Allocation System Primitive with Instance status of `Active`.
+
 ###### A.6.1.1.1.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 1df4d054-4443-4c64-b34b-c9fce456276b -->
 
 This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of `Completed`.
@@ -19950,6 +19954,34 @@ The address of the Multisigs that has the Relayer Role will be specified in a fu
 The address of the ALM_PROXY contract is: `TBD`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.6 - ALM Rate Limits (Avalanche) Contract [Core]  <!-- UUID: 43462d47-89bf-4166-88de-8601eb6ac7ad -->
+
+The address of the ALM_RATE_LIMITS contract is: `TBD`
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7 - Tempo [Core]  <!-- UUID: f591d72e-5166-4e3e-9bcb-b7e77a6733d9 -->
+
+This document contains the ALM Contract Addresses for the Spark Liquidity Layer on Tempo.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.1 - ALM Controller (ForeignController Tempo) Contract Address [Core]  <!-- UUID: 5076bf3a-9445-4c19-9d1d-475688556380 -->
+
+The address of the ALM_CONTROLLER (ForeignController) contract address is: `TBD`
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.2 - ALM Controller (ForeignController Tempo) Contract Version [Core]  <!-- UUID: 8fef8548-b168-400d-8db0-e7f5428d8560 -->
+
+The ALM_CONTROLLER (ForeignController) contract version is: TBD
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.3 - ALM Freezer Multisig (Tempo) Address [Core]  <!-- UUID: 7335d4cc-c73c-409d-b2cb-3a957aea12cd -->
+
+The address of the Multisig that has the Freezer Role is specified in TBD.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.4 - ALM Relayer Multisig (Tempo) Address [Core]  <!-- UUID: b6f47b7d-4dff-4e29-b8fc-8ed9e9eb2ef1 -->
+
+The address of the Multisigs that has the Relayer Role will be specified in a future iteration of the artifact.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.5 - ALM Proxy (Tempo) Contract [Core]  <!-- UUID: ddb1b8fd-3244-4d34-b629-2e15a22a8528 -->
+
+The address of the ALM_PROXY contract is: `TBD`
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.6 - ALM Rate Limits (Tempo) Contract [Core]  <!-- UUID: 52a26dfd-f6ed-4ee5-abc2-407dc72fd9cc -->
 
 The address of the ALM_RATE_LIMITS contract is: `TBD`
 
@@ -20298,6 +20330,40 @@ The maximum amount of USDC that can be bridged to Avalanche ALM Proxy using the 
 
 - `maxAmount` (USDC): 100,000,000
 - `slope` (USDC/ day): 50,000,000
+
+###### A.6.1.1.1.2.6.1.2.1.1.3.7 - Tempo [Core]  <!-- UUID: 4a198145-6639-4c6e-bce7-ee64713ff919 -->
+
+The documents herein list the current `RateLimits` for the Spark Liquidity Layer on Tempo.
+
+###### A.6.1.1.1.2.6.1.2.1.1.3.7.1 - USDC To Tempo Via LayerZero [Core]  <!-- UUID: 58f421f5-4862-4935-8448-81b7cc1ed03e -->
+
+The maximum amount of USDC that can be sent to the Tempo ALM Controller via LayerZero is specified in the document herein.
+
+- `maxAmount`: 10,000,000 USDC
+- `slope`: 100,000,000 USDC per day
+
+###### A.6.1.1.1.2.6.1.2.1.1.3.7.2 - USDC To Ethereum Mainnet Via LayerZero [Core]  <!-- UUID: 0748c784-4a5b-4899-ad96-c2205cca53c5 -->
+
+The maximum amount of USDC that can be sent to the Ethereum Mainnet ALM Controller from Tempo via LayerZero is specified in the document herein.
+
+- `maxAmount`: 10,000,000 USDC
+- `slope`: 100,000,000 USDC per day
+
+###### A.6.1.1.1.2.6.1.2.1.1.4 - Governance Bridge Validators [Core]  <!-- UUID: 1887c23c-ac4c-4910-8d6c-ebc12ccfa352 -->
+
+The documents herein specify the selection and configuration of validators for the Governance Bridge component of Spark's cross-chain deployments.
+
+###### A.6.1.1.1.2.6.1.2.1.1.4.1 - Tempo [Core]  <!-- UUID: b8e01488-84f3-4920-a346-46d264b391ab -->
+
+The documents herein specify the selection and configuration of validators for the Governance Bridge of Spark's Tempo deployment.
+
+###### A.6.1.1.1.2.6.1.2.1.1.4.1.1 - Validators [Core]  <!-- UUID: d64b07da-8d4a-4be5-b6b2-d345f6afe2f5 -->
+
+The validators for the Governance Bridge are Horizen, LayerZero, Nethermind, Deutsche Telekom, Canary, Luganodes, and P2P.
+
+###### A.6.1.1.1.2.6.1.2.1.1.4.1.2 - Quorum Requirement [Core]  <!-- UUID: 2b0d3c73-5623-4204-ba10-60b915a09a44 -->
+
+The quorum requirement for the Governance Bridge is 4/7.
 
 ###### A.6.1.1.1.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 9e74aa40-898f-4389-ba3d-8590c12f075d -->
 
@@ -25733,6 +25799,10 @@ The take rate limits are:
 The transferAssets rate limits are:
 
 - `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.5 - Tempo [Core]  <!-- UUID: 8094958a-b661-452e-aaf7-2606e65729b9 -->
+
+The Tempo Instances of the Spark Liquidity Layer with `Active` Status are stored herein.
 
 ###### A.6.1.1.1.2.6.1.4 - Completed Instances [Core]  <!-- UUID: ed8c3394-ee05-496c-8dd6-4d5275d2ed1f -->
 
