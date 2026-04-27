@@ -27730,8 +27730,8 @@ The subdocuments herein define the assets currently accepted as margin collatera
 - Initial LTV: 80%
 - Maintenance LTV: 85%
 - Liquidation LTV: 90%
-- Exposure limit: $500 million
-- Staked and wrapped versions: Tether XAUT, Paxos PAXG, Matrixport XAUM
+- Exposure limit: $500 million (of which, not more than $50 million from XAUM)
+- Staked and wrapped versions: Tether XAUT, Paxos PAXG, Matrixdock XAUM
 
 ###### A.6.1.1.1.3.8.2.3 - Approved Venues [Core]  <!-- UUID: b03b3354-1290-41d6-89fe-d841c3a79d3c -->
 
