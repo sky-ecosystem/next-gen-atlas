@@ -10,6 +10,7 @@
         "no-unicode-list-markers": true
     },
     "customRules": [
-        "./.markdownlint-rules/no-unicode-list-markers.js"
+        "./.markdownlint-rules/no-unicode-list-markers.js",
+        "./.markdownlint-rules/no-nbsps.js"
     ]
 }
