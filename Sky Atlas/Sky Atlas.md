@@ -22167,14 +22167,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 The inflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: 1,000,000,000 USDT per day
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.1.2.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: c52a5acc-ef73-4e13-ab15-8c1c1daf12a6 -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: Unlimited
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.1.2.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 8587305b-0af4-49e0-b156-e270d64e69da -->
 
