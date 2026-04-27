@@ -21549,7 +21549,7 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 250,000,000 USDT
+- `maxAmount`: 500,000,000 USDT
 - `slope`: 2,000,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.1.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: dadcd267-a47c-4bc0-9216-98369b470b72 -->
@@ -21704,7 +21704,7 @@ The current `maxAmount` and `slope` for this conduit's inflow/outflow are define
 The inflow rate limits are:
 
 - `maxAmount`: 50,000 ETH
-- `slope`: 10,000 ETH per day
+- `slope`: 250,000 ETH per day
 
 ###### A.6.1.1.1.2.6.1.3.1.1.6.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 68716e71-a257-4f6c-b227-fba7abc8ec31 -->
 
@@ -21784,14 +21784,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 50,000,000 USDS
+- `maxAmount`: 0
 - `slope`: 50,000,000 USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6dc14672-e655-49fd-a351-45537408c74b -->
 
 The outflow rate limits are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 0
 - `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 25a46c53-dca4-43ef-876a-64b5cea91fb6 -->
@@ -22018,14 +22018,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 50,000,000 USDC
+- `maxAmount`: 0
 - `slope`: 25,000,000 USDC per day
 
 ###### A.6.1.1.1.2.6.1.3.1.2.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 89b3f4e4-c845-4a6c-bdce-a383bf11a947 -->
 
 The outflow rate limits are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 0
 - `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.2.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 9ff8418d-457e-4ce3-83c4-18c5ae3b35d7 -->
@@ -22092,14 +22092,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 50,000,000 USDS
+- `maxAmount`: 0
 - `slope`: 25,000,000 USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.2.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: c02c329a-9e38-472b-ae0f-b2974694982e -->
 
 The outflow rate limits are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 0
 - `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.2.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 07ce54dc-92dd-4f7e-a9ef-53760b999de7 -->
@@ -22166,7 +22166,7 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 10,000,000 USDT
+- `maxAmount`: 100,000,000 USDT
 - `slope`: 1,000,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.2.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: c52a5acc-ef73-4e13-ab15-8c1c1daf12a6 -->
@@ -22402,7 +22402,7 @@ The current `maxAmount` and `slope` for this conduit's inflow/outflow are define
 
 The inflow rate limits are:
 
-- `maxAmount`: 25,000,000 USDT
+- `maxAmount`: 50,000,000 USDT
 - `slope`: 100,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.3.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: fc23d5a1-6e97-4e3e-bead-9a41955441c6 -->
@@ -22426,7 +22426,7 @@ The documents herein contain operational parameters or configuration details uni
 
 ###### A.6.1.1.1.2.6.1.3.1.3.2.4.1 - Request Redemption Parameters [Core]  <!-- UUID: 34e632af-1fd9-4dbe-be28-633837cdfe67 -->
 
-- `maxAmount`: 50,000,000 USDT
+- `maxAmount`: Unlimited
 - `slope`: 500,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.4 - Ethena [Core]  <!-- UUID: b23e9a6b-e78a-486f-9f6e-07cfdb437bee -->
@@ -22874,14 +22874,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 10,000,000 sUSDS
+- `maxAmount`: 0
 - `slope`: 5,000,000 sUSDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 67155bd0-093a-49ff-9b96-eb6a8aa22c68 -->
 
 The outflow rate limits are:
 
-- `maxAmount`: 10,000,000 fsUSDS
+- `maxAmount`: 0
 - `slope`: 5,000,000 fsUSDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1591a545-a8c6-4a41-aeea-f92d4fa30510 -->
@@ -23223,9 +23223,9 @@ The outflow rate limits are:
 
 The swap rate limits are:
 
-- `maxAmount`: 5,000,000
-- `slope`: 20,000,000 per day
-- Max slippage: 0.15%
+- `maxAmount`: 10,000,000
+- `slope`: 200,000,000 per day
+- Max slippage: 0.25%
 
 ###### A.6.1.1.1.2.6.1.3.1.7.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 8d74f809-b54e-490f-aa7b-c1cb0aea5b7f -->
 
@@ -23553,8 +23553,8 @@ The outflow rate limits are:
 
 The swap rate limits are:
 
-- `maxAmount`: 100
-- `slope`: 1,000 per day
+- `maxAmount`: 1,000
+- `slope`: 50,000 per day
 - `Max slippage`: 0.25%
 
 ###### A.6.1.1.1.2.6.1.3.1.7.5.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: a8106b30-ef8c-4ce5-a25a-80755ab624d0 -->
@@ -23899,7 +23899,7 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 50,000,000 USDT
+- `maxAmount`: 100,000,000 USDT
 - `slope`: 1,000,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6dab7518-caa3-4339-a573-718675fe19ee -->
@@ -25016,7 +25016,7 @@ The current `maxAmount` and `slope` for this conduit’s transferAssets operatio
 
 ###### A.6.1.1.1.2.6.1.3.1.13.1.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 4093b98b-2421-4642-982b-8c08b2f5ef20 -->
 
-- `maxAmount`: 5,000,000 USAT
+- `maxAmount`: 50,000,000 USAT
 - `slope`: 250,000,000 USAT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.13.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 069aa415-4d37-4567-b7da-bda62e4d0423 -->
@@ -25081,7 +25081,7 @@ The current `maxAmount` and `slope` for this conduit’s transferAssets operatio
 
 ###### A.6.1.1.1.2.6.1.3.1.13.2.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 5a56203b-5c1b-42e8-9acb-8ab78eb4dc06 -->
 
-- `maxAmount`: 5,000,000 USDT
+- `maxAmount`: 50,000,000 USDT
 - `slope`: 250,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.13.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1ec11acd-b8fe-4310-b1ba-6e57c9c27fd3 -->
@@ -25272,14 +25272,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 10,000,000 USDS
+- `maxAmount`: 0
 - `slope`: 5,000,000 USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.2.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: f8a431bd-2d0b-4d60-886c-6e3dac42989e -->
 
 The outflow rate limits are:
 
-- `maxAmount`: 10,000,000 fsUSDS
+- `maxAmount`: 0
 - `slope`: 5,000,000 fsUSDS per day
 
 ###### A.6.1.1.1.2.6.1.3.2.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 00f6c298-eb05-4c7a-b83c-5bc80a283104 -->
@@ -25354,14 +25354,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 50,000,000 USDC
+- `maxAmount`: 0
 - `slope`: 25,000,000 USDC per day
 
 ###### A.6.1.1.1.2.6.1.3.2.3.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 89e0b1fb-f660-4cf2-8977-ccb872854ced -->
 
 The outflow rate limits are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 0
 - `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.2.3.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 93b85c6b-8dff-420e-9f5a-c8c10390ef86 -->
@@ -25436,14 +25436,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 10,000,000 USDS
+- `maxAmount`: 0
 - `slope`: 5,000,000 USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 4abd5303-6a27-42fa-8128-4c6e65f089ee -->
 
 The outflow rate limits are:
 
-- `maxAmount`: 10,000,000 fsUSDS
+- `maxAmount`: 0
 - `slope`: 5,000,000 fsUSDS per day
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: ac2eb45f-a059-4dcc-9af4-baa1bbd60e3c -->
@@ -25518,14 +25518,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 50,000,000 USDC
+- `maxAmount`: 0
 - `slope`: 50,000,000 USDC per day
 
 ###### A.6.1.1.1.2.6.1.3.3.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 254af84a-fe4c-471f-bc8c-dde31c728141 -->
 
 The outflow rate limits are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 0
 - `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.3.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 4a10347b-02ab-47f4-8a13-b2b526fde198 -->
