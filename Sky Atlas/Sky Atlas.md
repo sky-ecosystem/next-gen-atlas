@@ -19576,6 +19576,10 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.8.4 - Ethereum Mainnet - Morpho USDT Instance Configuration Document](a2f66f86-ddea-4260-820a-cde66a861413).
 
+###### A.6.1.1.1.2.6.1.1.2.1.10.5 - Ethereum Mainnet - Spark Blue Chip USDT Vault Instance Configuration Document Location [Core]  <!-- UUID: 35af6197-60c3-402d-a8dd-dafa8e30a24d -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.8.5 - Ethereum Mainnet - Spark Blue Chip USDT Vault Instance Configuration Document](2019122c-c16d-4132-ae08-8416c3f83b23).
+
 ###### A.6.1.1.1.2.6.1.1.2.1.11 - Spark Savings V2 [Core]  <!-- UUID: e59ca947-aa8d-4ab7-84b1-78422348a2d5 -->
 
 The Ethereum Mainnet Instances Directory of the Spark Savings v2 with `Active` Status are stored herein.
@@ -23899,7 +23903,7 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 100,000,000 USDT
+- `maxAmount`: 0
 - `slope`: 1,000,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6dab7518-caa3-4339-a573-718675fe19ee -->
@@ -23962,6 +23966,104 @@ The documents herein define the Instance contract addresses.
 `0xf5748bBeFa17505b2F7222B23ae11584932C908B`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.4.3 - Timelock [Core]  <!-- UUID: 62c056de-3136-4faa-bb86-3b348e2e874c -->
+
+Timelock: 240 hours (10 days)
+
+###### A.6.1.1.1.2.6.1.3.1.8.5 - Ethereum Mainnet - Spark Blue Chip USDT Vault Configuration Document [Core]  <!-- UUID: 2019122c-c16d-4132-ae08-8416c3f83b23 -->
+
+The documents herein contain the Instance Configuration Document for the Spark Blue Chip USDT Vault Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 045b5df6-b987-41a4-8375-cb3184f1544c -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2 - Parameters [Core]  <!-- UUID: 0d0b492a-ad25-43a0-8a45-3ac1021cd491 -->
+
+The documents herein define the parameters of the Spark Blue Chip USDT Vault Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1 - Instance Identifiers [Core]  <!-- UUID: e93f8500-aa6e-40e1-8ad9-848454571620 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.1 - Network [Core]  <!-- UUID: 80f7fecc-cfbf-4f86-878e-23298f9d8f44 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.2 - Target Protocol [Core]  <!-- UUID: 0f19955b-0c74-4c25-8522-8487888d016e -->
+
+Morpho
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 0f988a3f-3275-4785-a4b2-5a8b68636058 -->
+
+USDT
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.4 - Token [Core]  <!-- UUID: 7afd18bc-eb99-4aa1-8096-863c3e8b5d68 -->
+
+sparkUSDT
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.2 - Contract Addresses [Core]  <!-- UUID: 3b1e6448-26b6-4db8-b33d-15ee6ef2edfa -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.2.1 - Token Address [Core]  <!-- UUID: 0830d4af-65df-489c-9402-99696215f667 -->
+
+`0xb0c424116172B55CbB6dD3136F5989F7959e5B91`
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 65ac69fd-913a-44cd-bb38-c93ef3726dbe -->
+
+`0xdac17f958d2ee523a2206206994597c13d831ec7`
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 3d9e1745-e0c1-4b75-8c3e-04a87019d8db -->
+
+`0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178`
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.3 - Rate Limit IDs [Core]  <!-- UUID: 0e2d991d-9225-48f8-a9a3-dacf6c182181 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.4 - Rate Limits [Core]  <!-- UUID: 46f33c44-c9b3-4241-a5ad-84f4f7765280 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9f2b2176-e725-4f93-bcda-62b466f502e8 -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 100,000,000 USDT
+- `slope`: 1,000,000,000 USDT per day
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 779c6c99-f620-4bd0-b261-7d36b6d503b7 -->
+
+The outflow rate limits are:
+
+- `maxAmount`: unlimited
+- `slope`: unlimited
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 4b630d7d-09ee-4039-8850-71a2d287fe3e -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.3 - Instance-specific Operational Processes [Core]  <!-- UUID: b213d173-e3b9-41a0-9ae2-ba5a2526aa42 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: e0e9f22c-2c9c-43f8-87be-fb4bbb14804a -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.4.1 - Contract Addresses [Core]  <!-- UUID: e88e8a71-3860-4a30-9446-dc3fe19fbd17 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.4.1.1 - Curator Role Address [Core]  <!-- UUID: f9605664-b8e2-4efb-b4ef-c60d5d85ec8a -->
+
+`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.4.1.2 - Guardian Role Address [Core]  <!-- UUID: 9eeee40f-fb34-4ca0-922a-ad54fb4d30c1 -->
+
+`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.4.2 - Timelock [Core]  <!-- UUID: f44940e3-fda2-444c-a2ae-bd91d00b411c -->
 
 Timelock: 240 hours (10 days)
 
