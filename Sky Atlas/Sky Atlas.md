@@ -20303,15 +20303,15 @@ The maximum amount of USDC that can be bridged to Avalanche ALM Proxy using the 
 
 The documents herein specify the selection and configuration of validators for the Governance Bridge component of Spark's cross-chain deployments.
 
-###### A.6.1.1.1.2.6.1.2.1.1.4.2 - Avalanche [Core]  <!-- UUID: 255ac742-2dc3-49af-a457-3fe3ac105aeb -->
+###### A.6.1.1.1.2.6.1.2.1.1.4.1 - Avalanche [Core]  <!-- UUID: 255ac742-2dc3-49af-a457-3fe3ac105aeb -->
 
 The documents herein specify the selection and configuration of validators for the Governance Bridge of Spark's Avalanche deployment.
 
-###### A.6.1.1.1.2.6.1.2.1.1.4.2.1 - Validators [Core]  <!-- UUID: b8fa4f7d-c46d-4492-97f4-0942311e1b43 -->
+###### A.6.1.1.1.2.6.1.2.1.1.4.1.1 - Validators [Core]  <!-- UUID: b8fa4f7d-c46d-4492-97f4-0942311e1b43 -->
 
 The validators for the Governance Bridge are Horizen, LayerZero, Nethermind, Deutsche Telekom, Canary, Luganodes, and P2P.
 
-###### A.6.1.1.1.2.6.1.2.1.1.4.2.2 - Quorum Requirement [Core]  <!-- UUID: 0c33f968-b449-4570-a66d-e3666bdecd96 -->
+###### A.6.1.1.1.2.6.1.2.1.1.4.1.2 - Quorum Requirement [Core]  <!-- UUID: 0c33f968-b449-4570-a66d-e3666bdecd96 -->
 
 The quorum requirement for the Governance Bridge is 4/7.
 
