@@ -27897,7 +27897,7 @@ The current parameters for Spark Savings USDC on Ethereum are:
 - Take rate limit: unlimited
 - Min yield: 0%
 - Max yield: 10%
-- Supply cap: 250 million
+- Supply cap: 10 billion
 
 ###### A.6.1.1.1.3.5.2.2.2 - Spark Savings USDT on Ethereum [Core]  <!-- UUID: 39a398d7-600e-472a-ac85-c789866fddfc -->
 
@@ -27909,7 +27909,7 @@ The current parameters for Spark Savings USDT on Ethereum are:
 - Take rate limit: unlimited
 - Min yield: 0%
 - Max yield: 10%
-- Supply cap: 250 million
+- Supply cap: 10 billion
 
 ###### A.6.1.1.1.3.5.2.2.3 - Spark Savings ETH on Ethereum [Core]  <!-- UUID: 02c0847b-5608-4c12-a1f6-df889538722f -->
 
@@ -27921,7 +27921,7 @@ The current parameters for Spark Savings ETH on Ethereum are:
 - Take rate limit: unlimited
 - Min yield: 0%
 - Max yield: 5%
-- Supply cap: 50,000
+- Supply cap: 1 million
 
 ###### A.6.1.1.1.3.5.2.2.4 - Spark Savings USDC on Avalanche [Core]  <!-- UUID: fc108236-9f07-45fb-9ff1-4c806975e049 -->
 
