@@ -19716,6 +19716,18 @@ The Avalanche Instances Directory of the Spark Savings v2 Protocol with `Active`
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.4.2.1 - Avalanche - Spark Savings v2 USDC Instance Configuration Document](afa35a43-18e2-4084-b36c-eb584f4749ac)
 
+###### A.6.1.1.1.2.6.1.1.2.5 - Tempo [Core]  <!-- UUID: 057e90e6-58cf-432c-acff-8b034d905569 -->
+
+The documents herein contain a Directory of all Instances on Tempo of the Allocation System Primitive with Instance status of `Active`.
+
+###### A.6.1.1.1.2.6.1.1.2.5.1 - Spark Savings V2 [Core]  <!-- UUID: 900693d9-89ab-48b9-b25d-1fb091257b87 -->
+
+The Tempo Instances Directory of the Spark Savings v2 Protocol with `Active` Status are stored herein
+
+###### A.6.1.1.1.2.6.1.1.2.5.1.1 - Tempo - Spark Savings v2 USDC Instance Configuration Document Location [Core]  <!-- UUID: d51c1f4e-ac74-44ff-9e03-fc4e1aa0d70b -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.5.1.1 - Tempo - Spark Savings v2 USDC Instance Configuration Document](6908285c-7e83-4ce9-9da6-6e8665ed6ff3)
+
 ###### A.6.1.1.1.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 1df4d054-4443-4c64-b34b-c9fce456276b -->
 
 This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of `Completed`.
@@ -19950,6 +19962,34 @@ The address of the Multisigs that has the Relayer Role will be specified in a fu
 The address of the ALM_PROXY contract is: `TBD`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.6 - ALM Rate Limits (Avalanche) Contract [Core]  <!-- UUID: 43462d47-89bf-4166-88de-8601eb6ac7ad -->
+
+The address of the ALM_RATE_LIMITS contract is: `TBD`
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7 - Tempo [Core]  <!-- UUID: f591d72e-5166-4e3e-9bcb-b7e77a6733d9 -->
+
+This document contains the ALM Contract Addresses for the Spark Liquidity Layer on Tempo.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.1 - ALM Controller (ForeignController Tempo) Contract Address [Core]  <!-- UUID: 5076bf3a-9445-4c19-9d1d-475688556380 -->
+
+The address of the ALM_CONTROLLER (ForeignController) contract address is: `TBD`
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.2 - ALM Controller (ForeignController Tempo) Contract Version [Core]  <!-- UUID: 8fef8548-b168-400d-8db0-e7f5428d8560 -->
+
+The ALM_CONTROLLER (ForeignController) contract version is: TBD
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.3 - ALM Freezer Multisig (Tempo) Address [Core]  <!-- UUID: 7335d4cc-c73c-409d-b2cb-3a957aea12cd -->
+
+The address of the Multisig that has the Freezer Role is specified in TBD.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.4 - ALM Relayer Multisig (Tempo) Address [Core]  <!-- UUID: b6f47b7d-4dff-4e29-b8fc-8ed9e9eb2ef1 -->
+
+The address of the Multisigs that has the Relayer Role will be specified in a future iteration of the artifact.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.5 - ALM Proxy (Tempo) Contract [Core]  <!-- UUID: ddb1b8fd-3244-4d34-b629-2e15a22a8528 -->
+
+The address of the ALM_PROXY contract is: `TBD`
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.6 - ALM Rate Limits (Tempo) Contract [Core]  <!-- UUID: 52a26dfd-f6ed-4ee5-abc2-407dc72fd9cc -->
 
 The address of the ALM_RATE_LIMITS contract is: `TBD`
 
@@ -20298,6 +20338,40 @@ The maximum amount of USDC that can be bridged to Avalanche ALM Proxy using the 
 
 - `maxAmount` (USDC): 100,000,000
 - `slope` (USDC/ day): 50,000,000
+
+###### A.6.1.1.1.2.6.1.2.1.1.3.7 - Tempo [Core]  <!-- UUID: 4a198145-6639-4c6e-bce7-ee64713ff919 -->
+
+The documents herein list the current `RateLimits` for the Spark Liquidity Layer on Tempo.
+
+###### A.6.1.1.1.2.6.1.2.1.1.3.7.1 - USDC To Tempo Via LayerZero [Core]  <!-- UUID: 58f421f5-4862-4935-8448-81b7cc1ed03e -->
+
+The maximum amount of USDC that can be sent to the Tempo ALM Controller via LayerZero is specified in the document herein.
+
+- `maxAmount`: 10,000,000 USDC
+- `slope`: 100,000,000 USDC per day
+
+###### A.6.1.1.1.2.6.1.2.1.1.3.7.2 - USDC To Ethereum Mainnet Via LayerZero [Core]  <!-- UUID: 0748c784-4a5b-4899-ad96-c2205cca53c5 -->
+
+The maximum amount of USDC that can be sent to the Ethereum Mainnet ALM Controller from Tempo via LayerZero is specified in the document herein.
+
+- `maxAmount`: 10,000,000 USDC
+- `slope`: 100,000,000 USDC per day
+
+###### A.6.1.1.1.2.6.1.2.1.1.4 - Governance Bridge Validators [Core]  <!-- UUID: 1887c23c-ac4c-4910-8d6c-ebc12ccfa352 -->
+
+The documents herein specify the selection and configuration of validators for the Governance Bridge component of Spark's cross-chain deployments.
+
+###### A.6.1.1.1.2.6.1.2.1.1.4.1 - Tempo [Core]  <!-- UUID: b8e01488-84f3-4920-a346-46d264b391ab -->
+
+The documents herein specify the selection and configuration of validators for the Governance Bridge of Spark's Tempo deployment.
+
+###### A.6.1.1.1.2.6.1.2.1.1.4.1.1 - Validators [Core]  <!-- UUID: d64b07da-8d4a-4be5-b6b2-d345f6afe2f5 -->
+
+The validators for the Governance Bridge are Horizen, LayerZero, Nethermind, Deutsche Telekom, Canary, Luganodes, and P2P.
+
+###### A.6.1.1.1.2.6.1.2.1.1.4.1.2 - Quorum Requirement [Core]  <!-- UUID: 2b0d3c73-5623-4204-ba10-60b915a09a44 -->
+
+The quorum requirement for the Governance Bridge is 4/7.
 
 ###### A.6.1.1.1.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 9e74aa40-898f-4389-ba3d-8590c12f075d -->
 
@@ -25762,6 +25836,126 @@ The transferAssets rate limits are:
 
 - `maxAmount`: Unlimited
 
+###### A.6.1.1.1.2.6.1.3.5 - Tempo [Core]  <!-- UUID: 8094958a-b661-452e-aaf7-2606e65729b9 -->
+
+The Tempo Instances of the Spark Liquidity Layer with `Active` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.3.5.1 - Spark Savings V2 [Core]  <!-- UUID: 3605f9b3-7013-4281-9495-87694f80a4db -->
+
+The Tempo Instances of the Spark Savings v2 with `Active` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.3.5.1.1 - Tempo - Spark Savings v2 USDC Instance Configuration Document [Core]  <!-- UUID: 6908285c-7e83-4ce9-9da6-6e8665ed6ff3 -->
+
+The documents herein contain the Instance Configuration Document for the Spark Savings v2 USDC Instance.
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 26133e92-b084-4e08-bef4-c1a23d609089 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.2 - Parameters [Core]  <!-- UUID: 3edb4258-2d6d-45be-90b6-4620bb73a77c -->
+
+The documents herein define the parameters of the Spark Savings v2 USDC Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 59b1992b-d7bc-4bd0-9cce-aa4f86c16ba7 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.2.1.1 - Network [Core]  <!-- UUID: 6da18bbe-5c24-4b49-b901-b37548ba7bc4 -->
+
+Tempo
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: f2fc6938-edc7-46c6-8051-ec1c3c266b83 -->
+
+Spark Savings Protocol
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.2.1.3 - Asset Supplied By Users [Core]  <!-- UUID: 3e064fbc-33bf-4593-8943-7395e543eff5 -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.2.1.4 - Token [Core]  <!-- UUID: b3c90e1c-c4bc-4882-815e-cd01ea6cb54b -->
+
+spUSDC
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: 9671bd75-9302-4e61-9cc0-7b504cc462e3 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.2.2.1 - Token Address [Core]  <!-- UUID: e590c14d-e4d6-46bf-89e7-c93b4a1987a7 -->
+
+`TBD`
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: aef1cbf3-2822-4b35-8bf2-65ede1585e10 -->
+
+`TBD`
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 3b64413a-24d4-4f1f-8f88-1fb60ea7daa9 -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.2.4 - Rate Limits [Core]  <!-- UUID: ed19a137-742d-47af-a310-620855a14e78 -->
+
+The specific `maxAmount` and `slope` for this conduit's inflow/outflow are not defined for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 58721894-0454-4f42-bcde-a280f3d62c26 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 41e6fcb5-8466-4470-9574-d763f62e714a -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: fd3e9bf3-1288-4706-a99b-277a7e6a7a3f -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.1 - Contract Addresses [Core]  <!-- UUID: 9fa8d5e1-f38d-496a-8921-6ee15d0b675a -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.1.1 - Spark Vault v2 Implementation [Core]  <!-- UUID: d5f86a25-1086-4aad-9bb7-bb744fe0cdad -->
+
+`TBD`
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.1.2 - Default admin [Core]  <!-- UUID: 740d15aa-9d04-4f11-ae7b-bf6f81a8aac9 -->
+
+`TBD`
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.1.3 - Setter [Core]  <!-- UUID: 44da7f66-c716-4870-9fd5-ee4cddc75f70 -->
+
+`TBD`
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.1.4 - Taker [Core]  <!-- UUID: 64283b35-519a-480b-9cd7-11683e04a037 -->
+
+`TBD`
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.2 - Risk Parameters Current Configuration [Core]  <!-- UUID: 93f7f6b9-8f71-4fa3-8d11-fe1a9e228fb2 -->
+
+The subdocuments herein define the current configuration of the risk parameters.
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.2.1 - Spark Savings USDC Risk Parameters [Core]  <!-- UUID: 70274e4c-7fc2-45a9-bd03-e8f0bbb6d481 -->
+
+The Risk parameters are:
+
+- Supply cap: 250,000,000 USDC
+- Max yield: 10%
+- Current yield (at launch): 0%
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.2.2 - Rate Limits [Core]  <!-- UUID: 9c5e7a5d-1302-4f1e-a9d2-4832289dee39 -->
+
+The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.2.3 - Take Rate Limits [Core]  <!-- UUID: 0df2ec32-1260-4712-b252-95f95aa64e8c -->
+
+The take rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: f8e4025a-7015-461c-ad5a-904b7c423702 -->
+
+The transferAssets rate limits are:
+
+- `maxAmount`: Unlimited
+
 ###### A.6.1.1.1.2.6.1.4 - Completed Instances [Core]  <!-- UUID: ed8c3394-ee05-496c-8dd6-4d5275d2ed1f -->
 
 The Instances of the Spark Liquidity Layer with `Completed` Status are stored herein.
@@ -27963,6 +28157,18 @@ The current parameters for Spark Savings USDC on Avalanche are:
 - Max yield: 10%
 - Supply cap: 150 million
 
+###### A.6.1.1.1.3.5.2.2.5 - Spark Savings USDC on Tempo [Core]  <!-- UUID: 86fcf56e-48be-4b65-8829-9c386d05263e -->
+
+The current parameters for Spark Savings USDC on Tempo are:
+
+- Default admin role: TBD
+- Setter role: TBD
+- Taker role: TBD
+- Take rate limit: unlimited
+- Min yield: 0%
+- Max yield: 10%
+- Supply cap: 250 million
+
 ###### A.6.1.1.1.3.5.3 - Policies and Operational Parameters [Core]  <!-- UUID: c8fcae7c-01ea-48cf-9b8c-4de7d3c86d78 -->
 
 The documents herein define the currently active policies for Spark Savings Configuration, alongside relevant operational parameters for implementing the policies.
@@ -28009,6 +28215,10 @@ The current Target Liquidity for Spark Savings USDC on Avalanche is the greater 
 
 The current Target Liquidity for Spark Savings PYUSD on Ethereum is the greater of 10% of total deposits or 1 million PYUSD, up to a maximum amount of 10 million PYUSD.
 
+###### A.6.1.1.1.3.5.3.1.3.6 - Spark Savings USDC on Tempo [Core]  <!-- UUID: aae5a6c1-819c-430f-ac40-0c6f86386667 -->
+
+Target Liquidity for Spark Savings USDC on Tempo will be specified in a future iteration of the Spark Artifact.
+
 ###### A.6.1.1.1.3.5.3.2 - Rewards Rate [Core]  <!-- UUID: 22d359a5-3f83-409f-8396-595ac1ea0060 -->
 
 The documents herein define Spark's policy for managing the rewards rate for Spark Savings vaults.
@@ -28048,6 +28258,8 @@ The Rewards Rate for Spark Savings USDC on Avalanche will be maintained to be eq
 ###### A.6.1.1.1.3.5.3.2.3.5 - Spark Savings PYUSD on Ethereum [Core]  <!-- UUID: c54b370a-df10-4621-82a2-7fc4e5caf728 -->
 
 The Rewards Rate for Spark Savings PYUSD on Ethereum will be maintained to be equal to the Sky Savings Rate.
+
+The Rewards Rate for Spark Savings USDC on Tempo will be specified in a future iteration of the Spark Artifact.
 
 ###### A.6.1.1.1.3.6 - Strategic Investments [Core]  <!-- UUID: a05cc5db-64e5-4279-84ed-e93d4aa67c38 -->
 
