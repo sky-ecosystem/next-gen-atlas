@@ -28595,6 +28595,158 @@ Funds may be transferred to the designated address(es) provided by the custodian
 
 Funds may be transferred to the designated address for Spark Liquidity Layer at any time without restriction.
 
+###### A.6.1.1.1.3.9 - Risk Curation Framework [Core]  <!-- UUID: 78018ebc-c69d-44f6-b602-190edca11483 -->
+
+The documents herein specify Spark’s framework for delegating and executing certain on-chain activities through approved curator roles.
+
+###### A.6.1.1.1.3.9.1 - Operational Process Definition [Core]  <!-- UUID: d0c6aaa3-2d24-41f9-ac1b-51f56feff62f -->
+
+The documents herein define the process for updating Risk Curation Framework policies and procedures.
+
+###### A.6.1.1.1.3.9.1.1 - Risk Curation Framework Changes [Core]  <!-- UUID: ca226501-8073-4830-b5e9-01fa960f17fe -->
+
+Changes to Risk Curation Framework policies are implemented using the Root Edit Primitive.
+
+###### A.6.1.1.1.3.9.2 - Purpose [Core]  <!-- UUID: 86925539-2db1-4a2e-930a-2ee6bc833ccd -->
+
+The Risk Curation Framework defines the conditions under which Spark governance may authorize external contributors to execute approved changes onchain, while preserving governance oversight, timelock protections, and cancellation authorities.
+
+###### A.6.1.1.1.3.9.3 - Curator Roles [Core]  <!-- UUID: 6c3b277c-4acd-4692-939e-203855cff43e -->
+
+The documents herein define the meaning and scope of Curator roles within the Spark ecosystem.
+
+###### A.6.1.1.1.3.9.3.1 - Definition [Core]  <!-- UUID: 3a796888-a39b-47c4-9cb9-6716d3e1c0db -->
+
+A Curator is a specific admin role defined within the Morpho smart contract system.
+
+###### A.6.1.1.1.3.9.3.2 - Scope of Authority [Core]  <!-- UUID: e4fb1a94-cfd8-40d3-ac79-966dd9f8db24 -->
+
+Curators may only execute actions that have been explicitly approved by Spark governance via polling.
+
+###### A.6.1.1.1.3.9.3.3 - Reporting of Curator Actions [Core]  <!-- UUID: 6f64ac9e-daf1-4339-8046-3894e57f4383 -->
+
+All actions taken under a Curator role must be reported by the Curator in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, the UTC time at which the timelock period for the action elapses, a description of the action being implemented, and a link to the poll which provided governance approval for the action.
+
+###### A.6.1.1.1.3.9.4 - Governance Approval Process [Core]  <!-- UUID: e3ddbd39-ee57-4b17-b66e-8bc823a03098 -->
+
+The documents herein describe the requirements for all Curator actions to be approved by governance.
+
+###### A.6.1.1.1.3.9.4.1 - Polling Requirement [Core]  <!-- UUID: 218f889f-6a5d-46a8-b8a3-cb0a075825c2 -->
+
+All curator-executed changes must be approved in advance by Spark governance through a polling process.
+
+###### A.6.1.1.1.3.9.4.2 - Execution Authority [Core]  <!-- UUID: 48e6eeb9-86c0-4bfa-8be0-e9917d163118 -->
+
+Following successful governance approval, the Curator is authorized to execute the approved change or changes by submitting the corresponding onchain transaction or transactions.
+
+###### A.6.1.1.1.3.9.5 - Timelock Controls [Core]  <!-- UUID: a4f6132e-787f-445a-9290-bd810b9eb93f -->
+
+The documents herein define the requirements for Timelock mechanisms to be used in conjunction with Curator roles.
+
+###### A.6.1.1.1.3.9.5.1 - Timelock Requirement [Core]  <!-- UUID: 9cb30c4c-ecbb-4874-a931-b900b868b888 -->
+
+All admin or privileged controls managed by curator roles must be subject to a minimum timelock delay of three (3) days between scheduling and execution.
+
+###### A.6.1.1.1.3.9.5.2 - Visibility [Core]  <!-- UUID: 4f45b29e-9f94-48d3-940c-1cd6b1f06f4b -->
+
+Pending changes subject to the timelock must be publicly visible onchain for the duration of the delay period.
+
+###### A.6.1.1.1.3.9.6 - Cancellation Authorities [Core]  <!-- UUID: 86153ff2-e3f2-44af-b19b-678cbbac27f5 -->
+
+The documents herein define the cancellation mechanisms and authorities for pending actions within the Timelock period.
+
+###### A.6.1.1.1.3.9.6.1 - Authorized Cancellers [Core]  <!-- UUID: f87333c8-ec5e-4483-83a9-791e1f9f9634 -->
+
+Pending changes within the timelock must be able to be cancelled by any of the following: the Spark subdao proxy, or a designated guardian role.
+
+###### A.6.1.1.1.3.9.6.2 - Cancellation Reasons [Core]  <!-- UUID: 0e572cad-bdf2-437f-b272-0cd634424b19 -->
+
+Pending changes may be cancelled for the following reasons: misalignment or conflict with the Sky Atlas or Spark Artifact; excessive or unacceptable risk, as identified by the Sky Core Council or Spark Risk Council; emergency situations, as defined in the Sky Atlas in [A.1.8 - Emergency Response System](1d940c6d-02ce-4c17-8057-cef13c1cc7ad); or cancellation requested by the Curator.
+
+###### A.6.1.1.1.3.9.6.3 - Guardian Role [Core]  <!-- UUID: 900c4a0d-ed93-41ad-b914-f84d50d6940e -->
+
+A Guardian is a specific admin role defined within the Morpho smart contract system, also referred to as a Sentinel in some cases.
+
+###### A.6.1.1.1.3.9.6.3.1 - Guardian Independence [Core]  <!-- UUID: ea50c8da-008e-4f0f-b2df-ac666d5faf13 -->
+
+The Guardian must be independent from the Curator for each specific smart contract instance, meaning there must be no overlap between approvers, signers, contributors, role owners, or entities between the two roles. Compromise or misalignment of the Curator role should not in itself create risk of the Guardian role also becoming compromised.
+
+###### A.6.1.1.1.3.9.6.3.2 - Guardian Reporting [Core]  <!-- UUID: ac45b63b-3394-49d6-aab7-ff67b1d4fd0c -->
+
+All actions taken under a Guardian role must be reported by the Guardian in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, a description of the action, general reasoning for the action, and justification for the action being within the governance-approved mandate.
+
+###### A.6.1.1.1.3.9.7 - Delegated Risk Curation Instances [Core]  <!-- UUID: b3b590f9-0d3e-4c4a-a9e5-5b114d3c0ae4 -->
+
+Spark governance approves the following instances of delegated risk curation authority. Each instance is governed independently and subject to the Risk Curation Framework.
+
+###### A.6.1.1.1.3.9.7.1 - Instance Parameter Definitions [Core]  <!-- UUID: 3d1e7988-f513-4632-a653-69d420379998 -->
+
+The subdocuments herein describe the parameters which must be defined and maintained for each instance of delegated risk curation authority.
+
+###### A.6.1.1.1.3.9.7.1.1 - Instance Name [Core]  <!-- UUID: e6fadf50-32a8-4c12-9b01-2ac1b9f8c1fb -->
+
+The name of the product, vault, or protocol where authority is delegated.
+
+###### A.6.1.1.1.3.9.7.1.2 - Contract Address [Core]  <!-- UUID: 6b237359-81f4-4089-a1cb-9674cc029fcd -->
+
+The specific onchain contract address and the ownership or admin role over which curator authority is delegated.
+
+###### A.6.1.1.1.3.9.7.1.3 - Curator [Core]  <!-- UUID: 35326711-9bda-4880-a716-bbb0eb6a3762 -->
+
+The entity or entities serving in the curator role, including how the role is controlled at the smart contract level, such as a multisig address and approval threshold or an alternative control mechanism.
+
+###### A.6.1.1.1.3.9.7.1.4 - Scope of Curator Authority [Core]  <!-- UUID: 0d5c17a2-a4a3-4f81-af4c-49839bc7b36f -->
+
+The specific execution actions the curator is permitted to take, subject to prior Spark governance approval via polling.
+
+###### A.6.1.1.1.3.9.7.1.5 - Guardian [Core]  <!-- UUID: 817391bd-3748-479c-846e-f8d3e3ec56f4 -->
+
+The entity or entities serving in the guardian role, including how the role is controlled at the smart contract level and how cancellation authority is exercised.
+
+###### A.6.1.1.1.3.9.7.2 - Approved Instances [Core]  <!-- UUID: 5f30c335-8f12-4cc7-becd-f542a7546463 -->
+
+The documents herein enumerate the current approved instances of delegated risk curation authority.
+
+###### A.6.1.1.1.3.9.7.2.1 - Spark USDS Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 3e8ed24b-da4a-4c3f-9a74-c3dd6a557abf -->
+
+The Spark USDS Morpho Vault on Ethereum Mainnet is an approved instance with the following details:
+
+- Instance Name: Spark USDS Morpho Vault (Ethereum Mainnet)
+- Contract Address: `0xe41a0583334f0dc4E023Acd0bFef3667F6FE0597`
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
+- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+
+###### A.6.1.1.1.3.9.7.2.2 - Spark Blue Chip USDC Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 603cf96e-5819-4e3d-942e-5290dd000847 -->
+
+The Spark Blue Chip USDC Morpho Vault on Ethereum mainnet is an approved instance with the following details:
+
+- Instance Name: Spark Blue Chip USDC Morpho Vault (Ethereum Mainnet)
+- Contract Address: `0x56A76b428244a50513ec81e225a293d128fd581D`
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
+- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+
+###### A.6.1.1.1.3.9.7.2.3 - Spark Blue Chip USDT Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 5ef1e78f-e1d2-4b09-b00c-618e36ccb2d8 -->
+
+The Spark Blue Chip USDT Morpho Vault on Ethereum mainnet is an approved instance with the following details:
+
+- Instance Name: Spark Blue Chip USDT Morpho Vault (Ethereum Mainnet)
+- Contract Address: `0xc7CDcFDEfC64631ED6799C95e3b110cd42F2bD22`
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
+- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+
+###### A.6.1.1.1.3.9.7.2.4 - Spark USDC Morpho Vault - Base [Core]  <!-- UUID: 85722a93-ec30-4e7f-883c-adde12b0ac6b -->
+
+The Spark USDC Morpho Vault on Base is an approved instance with the following details:
+
+- Instance Name: Spark USDC Morpho Vault (Base)
+- Contract Address: `0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A`
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
+- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+
 #### A.6.1.1.2 - Grove [Core]  <!-- UUID: 727b0de6-095b-485e-bf9c-02108a364480 -->
 
 The documents herein specify all of the logic for Grove, including Grove’s strategy and how it uses the Sky Primitives to operationalize this strategy.
