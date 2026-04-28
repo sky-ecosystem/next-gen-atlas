@@ -16977,6 +16977,7 @@ The Genesis Capital of an Agent is the lesser of (1) the Eligible Genesis Capita
 The amount of capital contributed by Sky to Agents is:
 
 - Spark - 25,000,000 USDS
+- Grove - 25,000,000 USDS
 - Obex - 21,000,000 USDS
 - Skybase - 15,000,000 USDS
 - Core Council Executor Agent 1 - 25,000,000 USDS
