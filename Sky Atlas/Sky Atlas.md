@@ -10558,7 +10558,6 @@ The documents herein define the requirements for forum account registration, dis
 All forum accounts used to post on the Sky Forum in a governance capacity must be registered in [A.2.7.1.1.1.1.4.0.6.1 - Current Authorized Forum Accounts](b71564fd-22e0-4c69-99d1-5b23fc1fa329). Each registration must include:
 
 - The entity handle, which is the official forum account representing the entity. If an entity does not maintain its own forum handle, it may indicate this in the registry and rely solely on Authorized Representatives.
-
 - All Authorized Representatives, which are forum accounts held by team members, individuals, or other entities that are authorized to post on behalf of the entity.
 
 Each entity is responsible for ensuring that its registration reflects its current handles and Authorized Representatives, and that any changes are promptly updated. A single forum handle may appear as an Authorized Representative of more than one (1) entity.
@@ -10578,7 +10577,6 @@ The list of authorized forum accounts is defined as Active Data in [A.2.7.1.1.1.
 The Active Data is updated as follows:
 
 - The Responsible Party is the entity to which the registration pertains.
-
 - The Update Process must follow the protocol for 'Direct Edit'.
 
 ###### A.2.7.1.1.1.1.4.0.6.1 - Current Authorized Forum Accounts [Active Data]  <!-- UUID: b71564fd-22e0-4c69-99d1-5b23fc1fa329 -->
