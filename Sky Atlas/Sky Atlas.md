@@ -2144,7 +2144,7 @@ This includes calculating:
 3. the balance of each Delegate's AD Buffer; and
 4. the amount to be paid out to each Aligned Delegate.
 
-Once calculated by the Core Facilitator, AD payouts are paid from the Aligned Delegates Buffer Multisig. See [A.2.3.1.4.1.2.1 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a).
+Once calculated by the Core Facilitator, AD payouts are paid from the Aligned Delegates Buffer Multisig. See [A.2.3.1.2.2.2.2 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a).
 
 ###### NR-10 - AD Budget Management [Needed Research]  <!-- UUID: 6502ce76-3f29-4f50-a68c-9126feba1fb6 -->
 
@@ -2404,6 +2404,18 @@ The Core Council Risk Advisor role is held by BA Labs.
 ###### A.1.7.1.1.2.1 - BA Labs Limited Conflict Of Interests Waiver [Core]  <!-- UUID: a4ff45b4-bc05-4a1f-8413-0718efaf7450 -->
 
 BA Labs is granted a limited waiver to the requirement that the Core Council Risk Advisor must not be involved in other business activities that could result in a conflict of interest. This waiver applies only to BA Labs’ work with Ethena.
+
+#### A.1.7.1.2 - Protocol Security Workstream Lead [Core]  <!-- UUID: 93651fb8-13c5-46dd-93cb-33fa89671b4f -->
+
+The Protocol Security Workstream Lead is a specialized role for a designated Professional Ecosystem Actor to provide security oversight, incident coordination, and operational security guidance across the Sky Ecosystem.
+
+##### A.1.7.1.2.1 - Protocol Security Workstream Lead Requirements [Core]  <!-- UUID: 6286be5c-f299-425e-a06b-39a129d4a929 -->
+
+The Protocol Security Workstream Lead role must be held by an individual with demonstrated expertise in protocol security, smart contract security, and operational security practices. The individual must not have involvement in any business, political, or governance-related activities that could create a conflict of interest, either directly or indirectly.
+
+##### A.1.7.1.2.2 - Designated Protocol Security Workstream Lead [Core]  <!-- UUID: 57fa2bd5-4679-4b0c-a7a2-f65a4194d371 -->
+
+The Protocol Security Workstream Lead role is held by Vamsi.
 
 ## A.1.8 - Emergency Response System [Article]  <!-- UUID: 1d940c6d-02ce-4c17-8057-cef13c1cc7ad -->
 
@@ -4472,7 +4484,7 @@ A decrease should be considered if time-critical governance actions are projecte
 
 ##### A.1.9.3.1.2 - Pause Delay Current Value [Core]  <!-- UUID: db442d8a-8d98-47a2-b162-01c2adc22b67 -->
 
-The GSM Pause Delay is: 24 hours
+The GSM Pause Delay is: 48 hours
 
 #### A.1.9.3.2 - Exceptions [Core]  <!-- UUID: 6781594b-5dff-45ec-89a4-1c9684c4eed8 -->
 
@@ -4945,7 +4957,7 @@ The Plasma SkyLink Bridge consists of a Token Bridge that allows bridging USDS a
 
 ###### A.1.9.4.1.4.2 - Deployment [Core]  <!-- UUID: 44af823e-841b-4b2e-a4dd-363925a8bf7b -->
 
-The Plasma SkyLink Bridge will be deployed in the April 23, 2026 Executive Vote. The timing may be modified by the Core Facilitator in consultation with relevant Ecosystem Actors.
+The Plasma SkyLink Bridge will be deployed in a future Executive Vote. The timing will be determined by the Core Facilitator in consultation with relevant Ecosystem Actors.
 
 ###### A.1.9.4.1.4.3 - Security Parameters [Core]  <!-- UUID: 0b2674c5-f9e2-4592-9358-c35e06ed5214 -->
 
@@ -9943,7 +9955,7 @@ The Core Governance Reward Primitive is a reward that Sky pays to Prime Agents t
 
 ##### A.2.2.10.1.1 - Reward Pool [Core]  <!-- UUID: 111bedd1-35aa-4c72-91e1-963550d909bf -->
 
-The total reward pool for the Core Governance Reward Primitive is 1% of the Net Revenue of Sky. Of this, 0.5% is paid to Integrators that maintain frontends that facilitate accessible governance, with the other 0.5% paid to the Prime Agents that manage the relationship with those Integrators. [See A.2.3.1.2.2.4 - Governance Accessibility Rewards Paid To Integrators](6c215fd3-61c1-4ee5-b326-a180fe0fc768) and [A.2.3.1.2.2.5 - Governance Accessibility Rewards Paid To Prime Agents](e7fd952e-5298-4928-82ea-992f18bea319).
+The total reward pool for the Core Governance Reward Primitive is 1% of the Net Revenue of Sky, funded out of the Core Council Allocation (see [A.2.3.1.2.2.2 - Core Council Allocation](91b281c2-0687-45a3-939d-0480c7c33f9f)). Of this, 0.5% is paid to Integrators that maintain frontends that facilitate accessible governance, with the other 0.5% paid to the Prime Agents that manage the relationship with those Integrators.
 
 ##### A.2.2.10.1.2 - Eligible Recipients [Core]  <!-- UUID: a59cee2a-864e-4dbb-9364-bdf121573cb2 -->
 
@@ -9991,6 +10003,10 @@ The amount of SKY staked through each eligible frontend is tracked using Reward 
 
 All distributions to a Prime Agent and Integrators managed by it are paid to the Prime Agent. The Prime Agent is then responsible for paying the portion due to each Integrator it manages.
 
+##### A.2.2.10.1.5 - Retroactive Effectiveness [Core]  <!-- UUID: b3f97303-4d41-497c-b931-9337c518bd7e -->
+
+The allocations to the Core Governance Reward Primitive are effective retroactive to May 19, 2025. Amounts accrued and not yet disbursed are funded out of the Core Council Buffer (see [A.2.3.1.2.2.2.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)).
+
 ## A.2.3 - Treasury Management [Article]  <!-- UUID: 6c0af059-5d33-4e2b-90f1-1606957b8f85 -->
 
 The Sky Treasury Management Function defines how all Net Revenue of the Sky Protocol is distributed among various downstream functions or buffers. This ensures that all necessary functions are adequately funded, allowing all actors to focus on growing the ecosystem in a positive sum way.
@@ -10011,7 +10027,7 @@ The documents herein define the allocation steps of the Sky Treasury Management 
 
 The sole function of Step 0 is to establish the Net Revenue of the Sky Protocol. It performs no allocations to downstream functions or buffers, unlike subsequent steps for which this Net Revenue serves as the input.
 
-All items of Income and Expense are recognized on a "cash basis" based on when USDS/DAI enter or leave the Sky Surplus Buffer. Transfers out of accounts other than the Sky Surplus Buffer are not recognized as Expenses, except as provided in [A.2.3.1.4.1.1.1.6.4 - Expense Recognition For Legacy Account Consolidation](1760b35f-da5a-4504-a014-dd7a611b4c0e).
+All items of Income and Expense are recognized on a "cash basis" based on when USDS/DAI enter or leave the Sky Surplus Buffer. Transfers out of accounts other than the Sky Surplus Buffer are not recognized as Expenses, except as provided in [A.2.3.1.2.2.2.1.6.4 - Expense Recognition For Legacy Account Consolidation](1760b35f-da5a-4504-a014-dd7a611b4c0e).
 
 ###### A.2.3.1.2.1.1 - Net Revenue [Core]  <!-- UUID: bddce7bf-c568-444b-b196-e15a99016696 -->
 
@@ -10027,7 +10043,7 @@ Stability Fees are the fees that Sky Core charges Prime Agents to borrow from Sk
 
 ###### A.2.3.1.2.1.2.2 - Internal Senior Risk Capital Income [Core]  <!-- UUID: 02b5422a-093d-4e21-86ff-5cfcd5af8ed5 -->
 
-Internal Senior Risk Capital income is the revenue attributed to Sky from the total payments made by Primes for Originated Senior Risk Capital (OSRC). ISRC itself comprises surplus capital allocated from designated buffers funded by the Sky Treasury Management Function. While Primes pay a single clearing price for their OSRC based on the monthly Origination Process, the total revenue received by Sky is subsequently allocated proportionally, with the portion corresponding to ISRC's share of the Total Senior Risk Capital (TSRC) pool designated as ISRC Income. See [A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital From Surplus Buffers](ac7a6636-acbc-40c9-abc1-4543c0beb300).
+Internal Senior Risk Capital income is the revenue attributed to Sky from the total payments made by Primes for Originated Senior Risk Capital (OSRC). ISRC itself is sourced from Aggregate Backstop Capital, as specified in [A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital](ac7a6636-acbc-40c9-abc1-4543c0beb300). While Primes pay a single clearing price for their OSRC based on the monthly Origination Process, the total revenue received by Sky is subsequently allocated proportionally, with the portion corresponding to ISRC's share of the Total Senior Risk Capital (TSRC) pool designated as ISRC Income.
 
 ###### A.2.3.1.2.1.2.3 - External Senior Risk Capital Fees [Core]  <!-- UUID: f01ce2f4-6bbe-4d70-8b22-edb80d8fb624 -->
 
@@ -10077,250 +10093,43 @@ Reimbursement Rewards are paid to Prime Agents to reimburse them for the costs o
 
 Pioneer Rewards are paid to Pioneer Primes as specified in [A.2.2.8.3.1.4 - Pioneer Incentive Pool](04edac33-19d5-4a87-a8ab-945a0cd57771).
 
-##### A.2.3.1.2.2 - Step 1: Security And Stability Maintenance [Core]  <!-- UUID: 324e9d22-70fe-4e44-82ab-118815f5c42e -->
+##### A.2.3.1.2.2 - Step 1: Security And Maintenance [Core]  <!-- UUID: 324e9d22-70fe-4e44-82ab-118815f5c42e -->
 
-All of the Net Revenue from Step 0 ([A.2.3.1.2.1.1 - Net Revenue](bddce7bf-c568-444b-b196-e15a99016696)) becomes Step 1 Capital. 10% of Step 1 Capital is allocated for security and stability maintenance as specified in the documents herein. The remaining 90% of Step 1 Capital becomes Step 2 Capital and is allocated as specified in [A.2.3.1.2.3 - Step 2: High Activity Staking Rewards](b560829c-f8ea-4e44-a96f-a0d51d9f437b).
+All of the Net Revenue from Step 0 (see [A.2.3.1.2.1.1 - Net Revenue](bddce7bf-c568-444b-b196-e15a99016696)) becomes Step 1 Capital. Twenty percent (20%) of Step 1 Capital is allocated for security and maintenance of the Sky Ecosystem as specified in the documents herein. The remaining eighty percent (80%) of Step 1 Capital becomes Step 2 Capital and is allocated as specified in [A.2.3.1.2.3 - Step 2: Aggregate Backstop Capital](2b28d464-e683-48ba-9a66-2fee05ea0a88).
 
-###### A.2.3.1.2.2.1 - Core Executor Budget [Core]  <!-- UUID: fbd3df2a-f476-431e-881e-8fb18ed0458c -->
+###### A.2.3.1.2.2.1 - Fortification Foundation Allocation [Core]  <!-- UUID: 728ea3d3-606a-4080-bc56-4a9e2c7fecb3 -->
 
-Up to 5% of Step 1 Capital is allocated to the Core Executor Budget. This budget funds active Core Executor Agents responsible for the continuous improvement of the Atlas, including the risk management framework and other critical components.
+Ten percent (10%) of Step 1 Capital is allocated to the Fortification Foundation, covering legal defense, resilience, unquantifiable risk management, and protocol development and growth. See [A.2.13.1.2 - Fortification Foundation Grants](ec2ebbba-6944-44cb-a04d-4572c6bea1e7). Until the Fortification Foundation is fully operational, this allocation may be directed to the Sky Frontier Foundation on an interim basis.
 
-###### A.2.3.1.2.2.1.1 - Voluntary Reduction By Core Executor Agents [Core]  <!-- UUID: e8e8759c-5e43-411b-b07d-3d4e173ba742 -->
+###### A.2.3.1.2.2.2 - Core Council Allocation [Core]  <!-- UUID: 91b281c2-0687-45a3-939d-0480c7c33f9f -->
 
-The Core Executor Agents may agree to voluntarily reduce their budget below 5% when applying for a Core Executor Slot in order to increase their chances of being elected to a Core Executor Slot. To the extent that Core Executor Agents reduce their budget, Step 2 Capital is increased by a corresponding amount. The mechanism by which Core Executor Agents are elected will be specified in a future iteration of the Atlas.
+Ten percent (10%) of Step 1 Capital is allocated to the Core Council, which directs these funds across governance operations and development work. This allocation funds, without limitation, active Core Executor Agents, Core Executor Agents whose terms have ended in the last four (4) years, Aligned Delegates, the Core Governance Reward Primitive (see [A.2.2.10.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a)), and grants to the Sky Frontier Foundation (see [A.2.13.1.1 - Sky Frontier Foundation Grants](1f5d9b2d-d94d-4945-bcf5-74b9152de90c)). At the discretion of the Core Council, funds may be allocated to pay these recipients directly or to fund the Core Council Buffer (see [A.2.3.1.2.2.2.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)) and Aligned Delegates Buffer (see [A.2.3.1.2.2.2.2 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a)) for subsequent disbursement.
 
-###### A.2.3.1.2.2.2 - Core Executor Reward [Core]  <!-- UUID: c5b70fe8-ba96-45b9-b0bd-48c108e37c64 -->
+The Core Council is authorized to direct grants from this allocation to the Sky Frontier Foundation without a separate governance decision for each grant.
 
-Up to 3% of Step 1 Capital is allocated to Core Executor Agents whose terms have ended in the last four (4) years. This incentivizes Core Executor Agents to increase the long term profitability of the Sky Ecosystem during their Core Executor Slot terms, as the Core Executor Reward is a percentage of future Net Revenue.
+The specific allocation among the components of the Core Council Allocation, including the mechanism by which Core Executor Agents are elected to Core Executor Slots, will be specified in a future iteration of the Atlas.
 
-###### A.2.3.1.2.2.3 - Aligned Delegates [Core]  <!-- UUID: 07fb6ac1-0727-4c8e-a0b3-10b5becdbe4d -->
-
-Up to 1% of Step 1 Capital is allocated to Aligned Delegates.
-
-###### A.2.3.1.2.2.3.1 - Voluntary Reduction By Aligned Delegates [Core]  <!-- UUID: 0ba59921-e125-45a2-aa6c-7ec55fba7911 -->
-
-Aligned Delegates may agree to voluntarily reduce their compensation in order to incentivize SKY holders to delegate to them. To the extent that Aligned Delegates reduce their compensation, Step 2 Capital is increased by a corresponding amount. The mechanism by which Aligned Delegates may agree to reduce their compensation will be specified in a future iteration of the Atlas.
-
-###### A.2.3.1.2.2.4 - Governance Accessibility Rewards Paid To Integrators [Core]  <!-- UUID: 6c215fd3-61c1-4ee5-b326-a180fe0fc768 -->
-
-0.5% of Step 1 Capital is allocated to frontends and other Integrators that facilitate accessible governance, following security and information standards specified in the Atlas. These standards will be specified in a future iteration of the Atlas. See [A.2.2.10.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
-
-###### A.2.3.1.2.2.5 - Governance Accessibility Rewards Paid To Prime Agents [Core]  <!-- UUID: e7fd952e-5298-4928-82ea-992f18bea319 -->
-
-0.5% of Step 1 Capital is allocated to Prime Agents that manage the rewards for Governance Integrators, incentivizing the active participation of Prime Agents. See [A.2.3.1.2.2.4 - Governance Accessibility Rewards Paid To Integrators](6c215fd3-61c1-4ee5-b326-a180fe0fc768).
-
-##### A.2.3.1.2.3 - Step 2: High Activity Staking Rewards [Core]  <!-- UUID: b560829c-f8ea-4e44-a96f-a0d51d9f437b -->
-
-5% of the Step 2 Capital is allocated to High Activity Staking Rewards ("HASR") as specified in the documents herein. The remaining 95% of Step 2 Capital becomes Step 3 Capital.
-
-###### A.2.3.1.2.3.1 - Purpose [Core]  <!-- UUID: e0aa549a-f430-4e5a-bec1-170894b8dce4 -->
-
-High Activity Staking Rewards provide a boosted staking reward to SKY stakers that delegate their SKY through compliant Governance Accessibility frontends and provide feedback to their delegates every three (3) months. This ensures that there is a minimum amount of SKY that is always actively following current events and governance to detect potential misalignment or buildup of hidden risks.
-
-###### A.2.3.1.2.3.2 - Funding Of High Activity Staking Rewards Buffer [Core]  <!-- UUID: a7b1f2b2-b0c7-4440-8f83-b2bf496be2df -->
-
-5% of the Step 2 Capital is allocated to funding the High Activity Staking Rewards Buffer (HASRB) linearly over the course of the month. Funds from the High Activity Staking Rewards Buffer are then paid out to Governance Accessibility Integrators as specified in [A.2.3.1.2.3.3 - Payout From High Activity Staking Rewards Buffer](6e857f3d-1e5c-4a47-943d-439b1d0d87ea). Governance Accessibility Integrators are in turn responsible for distributing those funds to High Activity Stakers as specified in [A.2.3.1.2.3.4 - High Activity Staker Qualification](8e83f80f-5606-41a7-bc90-d79df38b55fe).
-
-###### A.2.3.1.2.3.3 - Payout From High Activity Staking Rewards Buffer [Core]  <!-- UUID: 6e857f3d-1e5c-4a47-943d-439b1d0d87ea -->
-
-The High Activity Staking Rewards distribution occurs linearly over the course of each month. The total amount distributed equals the lesser of 1) 5% of Step 2 Capital, or 2) 15% of the current High Activity Staking Rewards Buffer, with a minimum floor of 5% of HASRB.
-
-In periods of high profitability, funds build up in the High Activity Staking Rewards Buffer. Then in periods of low profitability these funds are paid out from the High Activity Staking Rewards Buffer, ensuring that there is a continued incentive for active involvement in governance even in periods of low profitability to maintain security.
-
-###### A.2.3.1.2.3.4 - High Activity Staker Qualification [Core]  <!-- UUID: 8e83f80f-5606-41a7-bc90-d79df38b55fe -->
-
-To qualify as High Activity Stakers, SKY stakers must satisfy two criteria as specified in the documents herein.
-
-###### A.2.3.1.2.3.4.1 - High Activity Stakers Must Stake Through Compliant Governance Accessibility Frontend [Core]  <!-- UUID: 38ff7f6d-de6b-429c-bed7-d1be1f256d37 -->
-
-High Activity Stakers must stake through Governance Accessibility frontends that comply with security and information standards specified in the Atlas.
-
-###### A.2.3.1.2.3.4.2 - High Activity Stakers Must Continuously Provide Input On Executor Agents [Core]  <!-- UUID: ca697069-146e-4391-831f-50f05dbff24b -->
-
-High Activity Stakers must continuously provide input on the work of Executor Agents. In this way High Activity Stakers monitor the performance of Executor Agents just as Executor Agents monitor the performance of Prime Agents.
-
-###### A.2.3.1.2.3.4.2.1 - Input Methods [Core]  <!-- UUID: e5e0b4cd-fefd-4677-8e65-7482498add30 -->
-
-The methods for High Activity Stakers to provide their input will be specified in a future iteration of the Atlas, but may for instance include filling out AI generated questionnaires or other easily measurable and easy to complete tasks. The Core Executor Agents must continuously improve these input methods.
-
-##### A.2.3.1.2.4 - Step 3: Stability Capital Retention [Core]  <!-- UUID: 5ece5d43-8d6c-41ab-9b90-b8778f325909 -->
-
-A percentage of the Step 3 Capital equal to the Stability Capital Retention ("SCR") is allocated to funding the Stability Capital Buffer. The remaining percentage becomes Step 4 Capital.
-
-###### A.2.3.1.2.4.1 - Stability Capital Buffer [Core]  <!-- UUID: 9655da22-1940-481f-a8fc-e202ab09b7b8 -->
-
-The Stability Capital Buffer is the surplus of the Sky Protocol that absorbs losses from unsuccessful liquidation of failed Prime Agents. See [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294).
-
-###### A.2.3.1.2.4.2 - Stability Capital Retention [Core]  <!-- UUID: 6bb2c75a-ff51-4846-9d99-c0456b2d8cf8 -->
-
-The Stability Capital Retention (`SCR`) is calculated according to the following formula:
-
-`SCR = (1 - ((SCB / TS) / TSCB)) * RF`.
-
-Where:
-
-- SCB = Current Stability Capital Buffer,
-- TS = Total USDS supply,
-- TSCB = Target Stability Capital Buffer,
-- RF = Retention Factor.
-
-This formula dynamically adjusts capital retention based on the current buffer status:
-
-1. When SCB/TS equals TSCB (buffer at target), SCR equals zero.
-2. When SCB/TS is below TSCB, SCR increases proportionally to the shortfall.
-3. The maximum possible retention is capped by the Retention Factor (RF).
-
-This ensures that capital retention automatically scales with urgency - the further the Stability Capital Buffer falls below its target percentage of total supply, the greater the portion of capital retained.
-
-The parameters for calculating the `SCR` are further defined in the documents herein.
-
-###### A.2.3.1.2.4.2.1 - Current Stability Capital Buffer [Core]  <!-- UUID: 119eb3d9-6b14-42aa-86a6-e1ba2275c912 -->
-
-The Current Stability Capital Buffer (`SCB`) is the current level of the Stability Capital Buffer.
-
-###### A.2.3.1.2.4.2.2 - Total USDS Supply [Core]  <!-- UUID: e95c6308-c620-45af-be27-7bac5ad12889 -->
-
-The total USDS Supply (`TS`) is the total supply of USDS.
-
-###### A.2.3.1.2.4.2.3 - Target Stability Capital Buffer [Core]  <!-- UUID: eda13fef-866d-4b0f-955c-06105ba86d86 -->
-
-The Target Stability Capital Buffer (`TSCB`) is the Target level of the Stability Capital Buffer, expressed as a percentage of the total supply of USDS. It is calculated according to the following formula:
-
-`TCSB = 0.75% + (TS * 1.4e-14)`.
-
-The `TSCB` cannot exceed 5%.
-
-This formula begins with a Target Stability Capital Buffer of 0.75% and gradually increases this as the Total USDS Supply increases, reflecting the fact that a greater capital buffer is required as USDS becomes more systemically important.
-
-For example, with USDS Supply of 8 billion, the Target Stability Capital Buffer would be approximately 0.76%.
-
-###### A.2.3.1.2.4.2.4 - Retention Factor [Core]  <!-- UUID: 14646a34-1c61-4927-98df-a429e7293be2 -->
-
-The Retention Factor is a factor representing how aggressively capital should be retained to fund the Stability Capital Buffer. It is calculated according to the following formula:
-
-`RF = 25% + (TS * 1.6e-13)`.
-
-The `RF` cannot exceed 75%.
-
-The Retention Factor starts at 25% and scales upward with Total USDS Supply, recognizing that capital accumulation becomes more critical as USDS gains in systemic importance.
-
-For example, with USDS Supply of 8 billion, the Retention Factor would be approximately 26%.
-
-##### A.2.3.1.2.5 - Step 4: Smart Burn And Standard Activity Staking Rewards [Core]  <!-- UUID: 99d40e56-7433-4abd-9674-7783627feec0 -->
-
-Any remaining funds in Step 4 Capital are allocated as specified in the documents herein.
-
-###### A.2.3.1.2.5.1 - Smart Burn Buffer [Core]  <!-- UUID: c2a0ca01-ffea-46ee-8077-e46e0510d097 -->
-
-80% of Step 4 Capital is allocated to the Smart Burn Buffer, as specified in the documents herein.
-
-###### A.2.3.1.2.5.1.1 - Purpose [Core]  <!-- UUID: e95b1080-5b70-4941-9025-0269ae2680fb -->
-
-The Smart Burn Engine uses the Smart Burn Buffer to buy and burn SKY using an intelligent algorithm, buying more when the price is low and retaining capital when the price is high to buy later at favorable prices.
-
-###### A.2.3.1.2.5.1.2 - Usage Of Smart Burn Buffer [Core]  <!-- UUID: 7295761a-e72b-4b32-9345-b229b46566d1 -->
-
-The Smart Burn Engine only buys and burns SKY when the Market Capitalization (`MC`) is below the Target Market Capitalization (`TMC`). The percentage of the Smart Burn Buffer (`Burn Rate`) that is used to buy and burn SKY each Monthly Settlement Cycle is calculated according to the following formula:
-
-`Burn Rate = (1 - MC / TMC) * 50%`.
-
-The parameters for calculating the `Burn Rate` are defined in the documents herein.
-
-Conceptually, this formula buys more SKY the further the Market Capitalization is below the Target Market Capitalization.
-
-###### A.2.3.1.2.5.1.2.1 - Target Market Capitalization [Core]  <!-- UUID: 86b0554d-4f34-412f-9519-448e9602aa2e -->
-
-The Target Market Capitalization (`TMC`) is calculated according to the following formula:
-
-`TMC = 8.5 + (200 * growth_rate) * annual_profits`.
-
-The `growth_rate` is the three (3) year moving average historical growth rate of Net Revenue, and `annual_profits` is the one (1) year moving average of Net Revenue.
-
-Conceptually, this formula calculates a target price based on the current earnings of the Sky Protocol and a price to earnings ratio, where the price to earnings ratio is a function of how quickly the Sky Protocol is growing.
-
-###### A.2.3.1.2.5.1.2.1.1 - Continuous Improvement [Core]  <!-- UUID: 194d3ec8-3cb7-48ec-9ab4-5d2cd98c80a7 -->
-
-The Core Executor Agents must continuously improve the Target Market Capitalization formula so that the Smart Burn Engine becomes more efficient over time.
-
-###### A.2.3.1.2.5.1.2.2 - Market Capitalization [Core]  <!-- UUID: 59ea0f2f-5fb6-48fb-87cd-e43d50bc110b -->
-
-The Market Capitalization is the current market capitalization of Sky. It is calculated by multiplying the price of SKY by the total supply of SKY, treating each MKR on an as-converted basis based on the conversion ratio of 24,000 SKY to 1 MKR.
-
-###### A.2.3.1.2.5.2 - Standard Activity Staking Rewards [Core]  <!-- UUID: 67fcd852-0de4-4a16-af84-adce61bf54bd -->
-
-20% of Step 4 Capital is allocated to the Standard Activity Staking Rewards Buffer, as specified in the documents herein.
-
-###### A.2.3.1.2.5.2.1 - Purpose [Core]  <!-- UUID: 46e90503-0b49-4b29-b3e5-93c8fa5907ea -->
-
-Standard Activity Staking Rewards (SASR) provide rewards to users who contribute to security by staking and delegating their SKY votes at least once.
-
-###### A.2.3.1.2.5.2.2 - Payout From Standard Activity Staking Rewards Buffer [Core]  <!-- UUID: e288b944-759e-4d30-8db7-b59de7b5f912 -->
-
-The Standard Activity Staking Reward Distribution occurs linearly over the course of each month. The monthly payout from the Standard Activity Staking Rewards Buffer (SASRB) is equal to the lesser of (1) 20% of Step 4 Capital, or (2) 15% of the SASRB, with a minimum floor of 5% of the SASRB.
-
-In periods of high profitability, funds build up in the Standard Activity Staking Rewards Buffer. Then in periods of low profitability these funds are paid out from the Standard Activity Staking Rewards Buffer, ensuring that there is a continued incentive for involvement in governance even in periods of low profitability to maintain security.
-
-###### A.2.3.1.2.5.2.3 - Standard Activity Staker Qualification [Core]  <!-- UUID: a22d900a-d15c-41f0-af90-eec23112dcb6 -->
-
-SKY that is both staked and delegated to an Aligned Delegate will qualify for Standard Activity Staking Rewards.
-
-#### A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital From Surplus Buffers [Core]  <!-- UUID: ac7a6636-acbc-40c9-abc1-4543c0beb300 -->
-
-Internal Senior Risk Capital (ISRC) consists of a portion of the excess capital of the Sky Protocol that is reinvested in providing Senior Risk Capital to Prime Agents. ISRC is sourced from the various Buffers defined in [A.2.3.1.2 - Allocation Steps](7932c8f3-ce44-49ea-adc4-f6391c621c6e), according to the specifications of the subdocuments below.
-
-##### A.2.3.1.3.1 - USDS in High Activity Staking Rewards Buffer [Core]  <!-- UUID: d161c882-9c51-4acd-8b9c-8e9503cdabb4 -->
-
-All USDS in the High Activity Staking Rewards Buffer is used for Internal Senior Risk Capital.
-
-##### A.2.3.1.3.2 - USDS In Standard Activity Staking Rewards Buffer [Core]  <!-- UUID: 039337f5-1c23-4081-9277-f8a2973fba1d -->
-
-All USDS in the Standard Activity Staking Rewards Buffer is used for Internal Senior Risk Capital.
-
-##### A.2.3.1.3.3 - USDS In Smart Burn Buffer [Core]  <!-- UUID: d023d8e7-9df2-41f4-996f-9465f4fb0cf2 -->
-
-All USDS in the Smart Burn Buffer is used for Internal Senior Risk Capital.
-
-##### A.2.3.1.3.4 - USDS In Stability Capital Buffer Above Target [Core]  <!-- UUID: b601b750-476d-4d3d-a9f8-7bd1c5a9541a -->
-
-All USDS in the Stability Capital Buffer above the Stability Capital Buffer Target is used for Internal Senior Risk Capital. Since this capital is already above the optimal target to absorb risk it can be redirected to a more efficient use.
-
-##### A.2.3.1.3.5 - USDS In Stability Capital Buffer Below Target [Core]  <!-- UUID: 9d13741d-236f-4c34-b437-cf422e3a39f4 -->
-
-One third of the USDS in the Stability Capital Buffer below the Stability Capital Buffer Target is also used for Internal Senior Risk Capital. This ensures that there is always some Internal Senior Risk Capital to drive the growth of the ecosystem.
-
-#### A.2.3.1.4 - Short Term Transitionary Measures [Core]  <!-- UUID: a0186d71-d5f6-4643-a5c5-8fcf6c2625f8 -->
-
-As a short-term transitionary measure, the net revenue of the Sky Protocol is currently allocated through the allocation steps defined above with the modifications specified in the documents herein.
-
-##### A.2.3.1.4.1 - Allocation Of Step 1 Capital [Core]  <!-- UUID: 76eab64d-a5ba-4f3c-a295-bde0e444d0df -->
-
-In the short term, 22% of Step 1 Capital is allocated as specified in the documents herein. The remaining 78% of Step 1 Capital becomes Step 4 Capital and is allocated as specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3).
-
-###### A.2.3.1.4.1.1 - Allocation To Core Council Buffer [Core]  <!-- UUID: c46c7059-4ec1-4966-8382-d9e2e851d616 -->
-
-20% of Step 1 Capital is allocated to the Core Council Buffer, as specified in the documents herein.
-
-###### A.2.3.1.4.1.1.1 - Core Council Buffer [Core]  <!-- UUID: 8b6781d7-f35c-4ffe-b8ed-299fa98e3da7 -->
+###### A.2.3.1.2.2.2.1 - Core Council Buffer [Core]  <!-- UUID: 8b6781d7-f35c-4ffe-b8ed-299fa98e3da7 -->
 
 The Core Council Buffer is a multisig used to transfer funds on behalf of the Core Council.
 
-###### A.2.3.1.4.1.1.1.1 - Core Council Buffer Multisig Address [Core]  <!-- UUID: af082bd0-fdcd-4ec1-980a-7fce50e77ed1 -->
+###### A.2.3.1.2.2.2.1.1 - Core Council Buffer Multisig Address [Core]  <!-- UUID: af082bd0-fdcd-4ec1-980a-7fce50e77ed1 -->
 
 The address of the Core Council Buffer Multisig on the Ethereum Mainnet is `0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364`.
 
-###### A.2.3.1.4.1.1.1.2 - Core Council Buffer Multisig Required Number Of Signers [Core]  <!-- UUID: 7f9cc28d-75af-4fe0-b090-8c85cda9656a -->
+###### A.2.3.1.2.2.2.1.2 - Core Council Buffer Multisig Required Number Of Signers [Core]  <!-- UUID: 7f9cc28d-75af-4fe0-b090-8c85cda9656a -->
 
 The Core Council Buffer Multisig has a 5/6 signing requirement.
 
-###### A.2.3.1.4.1.1.1.3 - Core Council Buffer Multisig Signers [Core]  <!-- UUID: 5aeba17d-3869-447d-adcd-8c55f41afc01 -->
+###### A.2.3.1.2.2.2.1.3 - Core Council Buffer Multisig Signers [Core]  <!-- UUID: 5aeba17d-3869-447d-adcd-8c55f41afc01 -->
 
 The signers of the Core Council Buffer Multisig are two (2) addresses controlled by the Core Facilitator, three (3) addresses controlled by Core GovOps, and one (1) address controlled by Operational GovOps Soter Labs.
 
-###### A.2.3.1.4.1.1.1.4 - Core Council Buffer Multisig Usage Standards [Core]  <!-- UUID: dc6474f6-d285-4e1e-9902-406def4b72be -->
+###### A.2.3.1.2.2.2.1.4 - Core Council Buffer Multisig Usage Standards [Core]  <!-- UUID: dc6474f6-d285-4e1e-9902-406def4b72be -->
 
 The signers must use the Core Council Buffer Multisig to disburse funds on behalf of the Core Council.
 
-###### A.2.3.1.4.1.1.1.5 - Core Council Buffer Multisig Modification [Core]  <!-- UUID: a56fe3ee-c11a-4df0-9cc3-677688c5563d -->
+###### A.2.3.1.2.2.2.1.5 - Core Council Buffer Multisig Modification [Core]  <!-- UUID: a56fe3ee-c11a-4df0-9cc3-677688c5563d -->
 
 The signers can change the signers of the Core Council Buffer Multisig so long as:
 
@@ -10328,55 +10137,51 @@ The signers can change the signers of the Core Council Buffer Multisig so long a
 - exactly five (5) signers are required to execute transactions; and
 - two (2) signers are controlled by the Core Facilitator, three (3) signers are controlled by Core GovOps, and one (1) signer is controlled by Operational GovOps Soter Labs.
 
-###### A.2.3.1.4.1.1.1.6 - Consolidation Of Funds From Legacy Accounts [Core]  <!-- UUID: 8c8778c4-ff4c-4add-ae03-5f32a052f433 -->
+###### A.2.3.1.2.2.2.1.6 - Consolidation Of Funds From Legacy Accounts [Core]  <!-- UUID: 8c8778c4-ff4c-4add-ae03-5f32a052f433 -->
 
-All funds in Legacy Accounts (see [A.2.3.1.4.1.1.1.6.1 - Legacy Accounts](6f7153e1-c535-4a35-a7cf-7a66180a1c0e)) must be consolidated into the Core Council Buffer or the Demand Side Buffer (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) as specified in the documents herein.
+All funds in Legacy Accounts (see [A.2.3.1.2.2.2.1.6.1 - Legacy Accounts](6f7153e1-c535-4a35-a7cf-7a66180a1c0e)) must be consolidated into the Core Council Buffer or the Demand Side Buffer (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) as specified in the documents herein.
 
-###### A.2.3.1.4.1.1.1.6.1 - Legacy Accounts [Core]  <!-- UUID: 6f7153e1-c535-4a35-a7cf-7a66180a1c0e -->
+###### A.2.3.1.2.2.2.1.6.1 - Legacy Accounts [Core]  <!-- UUID: 6f7153e1-c535-4a35-a7cf-7a66180a1c0e -->
 
-Legacy Accounts are all accounts controlled by Sky Core, with the exception of the Core Council Buffer, the Aligned Delegates Buffer (see [A.2.3.1.4.1.2 - Allocation To Aligned Delegates Buffer](2a9bcfb1-4dad-4baf-a09a-e9264b3d17bb)), and the Demand Side Buffer and its auxiliary accounts (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)). This includes, without limitation:
+Legacy Accounts are all accounts controlled by Sky Core, with the exception of the Core Council Buffer, the Aligned Delegates Buffer (see [A.2.3.1.2.2.2.2 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a)), and the Demand Side Buffer and its auxiliary accounts (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)). This includes, without limitation:
 
 - the former Distribution Reward Controller Wallet;
 - the former Integration Boost Wallets; and
 - the Sky Ecosystem Liquidity Bootstrapping Budget (see [A.5.5.1.1 - Sky Ecosystem Liquidity Bootstrapping](cd4ae79c-0e34-4388-8ac2-41d7677bd955)).
 
-###### A.2.3.1.4.1.1.1.6.2 - Ecosystem Actors Must Consolidate All Funds From Legacy Accounts [Core]  <!-- UUID: 294154f2-8d36-4104-a660-89a7b52eeac7 -->
+###### A.2.3.1.2.2.2.1.6.2 - Ecosystem Actors Must Consolidate All Funds From Legacy Accounts [Core]  <!-- UUID: 294154f2-8d36-4104-a660-89a7b52eeac7 -->
 
 Relevant Ecosystem Actors must take all necessary actions to transfer all funds from Legacy Accounts into the Core Council Buffer or the Demand Side Buffer (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)).
 
-###### A.2.3.1.4.1.1.1.6.3 - Legacy Accounts Are Replaced [Core]  <!-- UUID: fae8cff1-5ecc-4f4f-a4e1-622df4112eeb -->
+###### A.2.3.1.2.2.2.1.6.3 - Legacy Accounts Are Replaced [Core]  <!-- UUID: fae8cff1-5ecc-4f4f-a4e1-622df4112eeb -->
 
 All funds that would otherwise be transferred into or out of Legacy Accounts must instead be transferred into or out of the Core Council Buffer or the Demand Side Buffer (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)).
 
-###### A.2.3.1.4.1.1.1.6.4 - Expense Recognition For Legacy Account Consolidation [Core]  <!-- UUID: 1760b35f-da5a-4504-a014-dd7a611b4c0e -->
+###### A.2.3.1.2.2.2.1.6.4 - Expense Recognition For Legacy Account Consolidation [Core]  <!-- UUID: 1760b35f-da5a-4504-a014-dd7a611b4c0e -->
 
 The consolidation of funds from Legacy Accounts into the Core Council Buffer or the Demand Side Buffer (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) is recognized as a one-time expense for purposes of [A.2.3.1.2.1 - Step 0: Net Revenue](c09435ff-d876-442a-899c-ad494175500b). This achieves the same result as if the funds in Legacy Accounts had been returned to the Sky Surplus Buffer and subsequently transferred to the relevant downstream account.
 
-###### A.2.3.1.4.1.2 - Allocation To Aligned Delegates Buffer [Core]  <!-- UUID: 2a9bcfb1-4dad-4baf-a09a-e9264b3d17bb -->
-
-1% of Step 1 Capital is allocated to the Aligned Delegates Buffer, as specified in the documents herein.
-
-###### A.2.3.1.4.1.2.1 - Aligned Delegates Buffer [Core]  <!-- UUID: 05fa5c41-26ca-4c25-94dd-834ef72c318a -->
+###### A.2.3.1.2.2.2.2 - Aligned Delegates Buffer [Core]  <!-- UUID: 05fa5c41-26ca-4c25-94dd-834ef72c318a -->
 
 The Aligned Delegates Buffer is a multisig controlled by the Core Facilitator and Core GovOps to transfer funds to Aligned Delegates.
 
-###### A.2.3.1.4.1.2.1.1 - Aligned Delegates Buffer Multisig Address [Core]  <!-- UUID: 744ffdce-188e-403a-a0f4-532a27879cf5 -->
+###### A.2.3.1.2.2.2.2.1 - Aligned Delegates Buffer Multisig Address [Core]  <!-- UUID: 744ffdce-188e-403a-a0f4-532a27879cf5 -->
 
 The address of the Aligned Delegates Buffer Multisig on the Ethereum Mainnet is `0x37FC5d447c8c54326C62b697f674c93eaD2A93A3`.
 
-###### A.2.3.1.4.1.2.1.2 - Aligned Delegates Buffer Multisig Required Number Of Signers [Core]  <!-- UUID: b3672c98-07ca-488f-8a26-461bf8d14aae -->
+###### A.2.3.1.2.2.2.2.2 - Aligned Delegates Buffer Multisig Required Number Of Signers [Core]  <!-- UUID: b3672c98-07ca-488f-8a26-461bf8d14aae -->
 
 The Aligned Delegates Buffer Multisig has a 3/4 signing requirement.
 
-###### A.2.3.1.4.1.2.1.3 - Aligned Delegates Buffer Multisig Signers [Core]  <!-- UUID: f0652394-ec87-4b08-abed-e15fd0799ab1 -->
+###### A.2.3.1.2.2.2.2.3 - Aligned Delegates Buffer Multisig Signers [Core]  <!-- UUID: f0652394-ec87-4b08-abed-e15fd0799ab1 -->
 
 The signers of the Aligned Delegates Buffer Multisig are two (2) addresses controlled by the Core Facilitator and two (2) addresses controlled by Core GovOps.
 
-###### A.2.3.1.4.1.2.1.4 - Aligned Delegates Buffer Multisig Usage Standards [Core]  <!-- UUID: 3ce8a599-f70b-4dad-9d71-a69d812c4ea8 -->
+###### A.2.3.1.2.2.2.2.4 - Aligned Delegates Buffer Multisig Usage Standards [Core]  <!-- UUID: 3ce8a599-f70b-4dad-9d71-a69d812c4ea8 -->
 
 The Core Facilitator and Core GovOps must use the Aligned Delegates Buffer Multisig to disburse funds to Aligned Delegates.
 
-###### A.2.3.1.4.1.2.1.5 - Aligned Delegates Buffer Multisig Modification [Core]  <!-- UUID: b8b38333-2763-47e1-9e34-0b37c750201a -->
+###### A.2.3.1.2.2.2.2.5 - Aligned Delegates Buffer Multisig Modification [Core]  <!-- UUID: b8b38333-2763-47e1-9e34-0b37c750201a -->
 
 The Core Facilitator and Core GovOps can change the signers of the Aligned Delegates Buffer Multisig so long as:
 
@@ -10384,97 +10189,41 @@ The Core Facilitator and Core GovOps can change the signers of the Aligned Deleg
 - a majority of signers are required to execute transactions; and
 - an equal number of signers are controlled by the Core Facilitator and Core GovOps.
 
-###### A.2.3.1.4.1.3 - Allocation To Governance Accessibility Rewards Paid To Integrators [Core]  <!-- UUID: f7ec7f27-632e-462a-b1e8-32bf557cb51f -->
+##### A.2.3.1.2.3 - Step 2: Aggregate Backstop Capital [Core]  <!-- UUID: 2b28d464-e683-48ba-9a66-2fee05ea0a88 -->
 
-0.5% of Step 1 Capital is allocated to Governance Accessibility Rewards Paid To Integrators, as specified in [A.2.3.1.2.2.4 - Governance Accessibility Rewards Paid To Integrators](6c215fd3-61c1-4ee5-b326-a180fe0fc768).
+Step 1 Capital that remains after the Step 1 allocation becomes Step 2 Capital.
 
-###### A.2.3.1.4.1.4 - Allocation To Governance Accessibility Rewards Paid To Prime Agents [Core]  <!-- UUID: a266adb7-5af2-4aa9-b64e-ed35bac9b6a5 -->
+The allocation of Step 2 Capital depends on the level of Aggregate Backstop Capital (see [A.3.5.3.1.2 - Aggregate Backstop Capital](6dbead44-5ac4-4c5b-be3c-64eddd004e5c)) relative to the Turbo-Fill Floor (see [A.3.5.3.2.2 - Turbo-Fill Floor](db2aaf07-4ebb-4e5d-ae5e-575717d8fbcd)) and the Target Aggregate Backstop Capital (see [A.3.5.3.2.1 - Target Aggregate Backstop Capital](f73dda95-0b1c-4bdc-b957-469253d27281)).
 
-0.5% of Step 1 Capital is allocated to Governance Accessibility Rewards Paid To Prime Agents, as specified in [A.2.3.1.2.2.5 - Governance Accessibility Rewards Paid To Prime Agents](e7fd952e-5298-4928-82ea-992f18bea319).
+When Aggregate Backstop Capital is below the Turbo-Fill Floor, fifty percent (50%) of Step 2 Capital is retained to grow Aggregate Backstop Capital. The remainder of Step 2 Capital becomes Step 3 Capital and is allocated as specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121).
 
-##### A.2.3.1.4.2 - Allocation Of Step 4 Capital [Core]  <!-- UUID: 04bd9df4-275e-4520-83a6-d634aa605fe3 -->
+When Aggregate Backstop Capital is at or above the Turbo-Fill Floor and below the Target Aggregate Backstop Capital, the portion of Step 2 Capital retained to grow Aggregate Backstop Capital is calculated as fifty percent (50%) multiplied by the fill factor, where the fill factor is one (1) minus the ratio of current Aggregate Backstop Capital to the Target Aggregate Backstop Capital. The remainder of Step 2 Capital becomes Step 3 Capital and is allocated as specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121).
 
-In the short term, the allocation of Step 4 Capital evolves through three sequential stages as specified in the documents herein.
+When Aggregate Backstop Capital is at or above the Turbo-Fill Floor and at or above the Target Aggregate Backstop Capital, none of Step 2 Capital is retained; all of Step 2 Capital becomes Step 3 Capital and is allocated as specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121).
 
-###### A.2.3.1.4.2.1 - Stage 0 [Core]  <!-- UUID: d09da2d3-4684-4826-8b8d-01594af2a31c -->
+##### A.2.3.1.2.4 - Step 3: Smart Burn Engine [Core]  <!-- UUID: 5ce73730-4d5d-479c-b01e-40e87f072121 -->
 
-The allocation of Step 4 Capital under Stage 0 is specified in the documents herein.
+Step 3 Capital is allocated as follows:
 
-###### A.2.3.1.4.2.1.1 - Effectiveness [Core]  <!-- UUID: 15d631db-e17d-4ef4-bfcb-0d5d07ece7eb -->
+- Forty-five percent (45%) of Step 3 Capital is used by the Smart Burn Engine to buy back SKY, and the SKY tokens acquired through these buybacks are distributed to SKY stakers as SKY Staking Rewards as specified in [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0).
+- Forty-five percent (45%) of Step 3 Capital is distributed to SKY stakers as USDS Staking Rewards as specified in [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0).
+- Ten percent (10%) of Step 3 Capital is used by the Smart Burn Engine to buy back SKY, and the SKY tokens acquired through these buybacks are burned.
 
-Stage 0 is effective until the activation of Stage 1, as specified in [A.2.3.1.4.2.2.1 - Effectiveness](31e35b53-2843-40ec-8e05-40b270104954).
+The specific parameters governing the execution of Smart Burn Engine buybacks are specified in [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
 
-###### A.2.3.1.4.2.1.2 - SKY Staking Rewards [Core]  <!-- UUID: 2b2c41bf-bfd4-4128-8fed-020da91f166b -->
+##### A.2.3.1.2.5 - Step 4: Staking Rewards [Core]  <!-- UUID: bb163691-630e-4fda-88f1-96381a649fa0 -->
 
-No Step 4 Capital is allocated to SKY staking rewards under Stage 0. Instead, SKY staking rewards are funded from SKY token reserves held by the Protocol Treasury, distributed at a rate equivalent to 75% of Step 4 Capital from the prior Monthly Settlement Cycle, as specified in [A.4.4.1.4 - Short Term Transitionary Measures](22b8f8bf-b477-4439-86f7-ec605d3c657a). The rate is determined by the Core Facilitator in consultation with the Core Council Risk Advisor following each Monthly Settlement Cycle, using the prior Monthly Settlement Cycle's Step 4 Capital and the price of SKY, and is implemented through an Executive Vote.
+Step 4 Capital is distributed to SKY stakers as Staking Rewards. Step 4 Capital comprises (1) USDS allocated from Step 3, distributed as USDS Staking Rewards, and (2) SKY tokens acquired by the Smart Burn Engine through buybacks specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121), distributed as SKY Staking Rewards.
 
-###### A.2.3.1.4.2.1.3 - SKY Buybacks [Core]  <!-- UUID: 4bf2e849-7466-47c9-a7ab-a1c2afbc9c72 -->
+#### A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital [Core]  <!-- UUID: ac7a6636-acbc-40c9-abc1-4543c0beb300 -->
 
-37,600 USDS per day of Step 4 Capital is allocated to SKY buybacks through the Smart Burn Engine. See [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
+Internal Senior Risk Capital (ISRC) consists of a portion of the excess capital of the Sky Protocol that is reinvested in providing Senior Risk Capital to Prime Agents. ISRC is sourced from Aggregate Backstop Capital (see [A.3.5.3.1.2 - Aggregate Backstop Capital](6dbead44-5ac4-4c5b-be3c-64eddd004e5c)) in two components: one hundred percent (100%) of any Aggregate Backstop Capital in excess of the Target Aggregate Backstop Capital (see [A.3.5.3.2.1 - Target Aggregate Backstop Capital](f73dda95-0b1c-4bdc-b957-469253d27281)), plus one third (1/3) of Aggregate Backstop Capital up to the Target Aggregate Backstop Capital.
 
-###### A.2.3.1.4.2.1.4 - USDS Staking Rewards [Core]  <!-- UUID: 03182918-d773-44b1-bdd4-f6fc8427c7f4 -->
+#### A.2.3.1.4 - Implementation [Core]  <!-- UUID: f67a5780-11d5-4014-8254-795080c77133 -->
 
-No Step 4 Capital is allocated to USDS staking rewards under Stage 0.
+The Sky Treasury Management Function is implemented through Executive Votes that update the corresponding on-chain parameters. Changes to the documents herein define the intended operation of the Sky Treasury Management Function; operational effect on the Sky Protocol requires a subsequent Executive Vote. Until such an Executive Vote is executed, prior on-chain parameters remain in force.
 
-###### A.2.3.1.4.2.1.5 - Surplus Buffer Allocation [Core]  <!-- UUID: af3aaa3a-445e-40b9-b74b-f9810cde16b6 -->
-
-After the allocation to SKY buybacks specified above, any remaining Step 4 Capital is allocated to the Surplus Buffer. See [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294).
-
-###### A.2.3.1.4.2.2 - Stage 1 [Core]  <!-- UUID: e59fa8ca-df57-4b62-b87a-c7cfaafe231b -->
-
-The allocation of Step 4 Capital under Stage 1 is specified in the documents herein.
-
-###### A.2.3.1.4.2.2.1 - Effectiveness [Core]  <!-- UUID: 31e35b53-2843-40ec-8e05-40b270104954 -->
-
-Stage 1 becomes effective upon the execution of an Executive Vote implementing the activation of Stage 1. The Core Facilitator is authorized to include the activation of Stage 1 in the next available Executive Vote, and can do so directly without a prior Governance Poll. Relevant Ecosystem Actors must take all necessary actions to cooperate with the Core Facilitator in implementing Stage 1.
-
-###### A.2.3.1.4.2.2.2 - SKY Staking Rewards [Core]  <!-- UUID: 293e4c9f-1e26-4d4b-b769-650a02eca8b8 -->
-
-No Step 4 Capital is allocated to SKY staking rewards under Stage 1. Instead, SKY staking rewards are funded from SKY token reserves held by the Protocol Treasury, distributed at a rate equivalent to 50% of Step 4 Capital from the prior Monthly Settlement Cycle, as specified in [A.4.4.1.4 - Short Term Transitionary Measures](22b8f8bf-b477-4439-86f7-ec605d3c657a). The rate is determined by the Core Facilitator in consultation with the Core Council Risk Advisor following each Monthly Settlement Cycle, using the prior Monthly Settlement Cycle's Step 4 Capital and the price of SKY, and is implemented through an Executive Vote.
-
-###### A.2.3.1.4.2.2.3 - SKY Buybacks [Core]  <!-- UUID: 2ee74fea-9323-42e7-843b-35cb1aa819b9 -->
-
-37,600 USDS per day of Step 4 Capital is allocated to SKY buybacks through the Smart Burn Engine. See [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
-
-###### A.2.3.1.4.2.2.4 - USDS Staking Rewards [Core]  <!-- UUID: db5e69a1-c022-487e-9415-37c8303f7f79 -->
-
-No Step 4 Capital is allocated to USDS staking rewards under Stage 1.
-
-###### A.2.3.1.4.2.2.5 - Surplus Buffer Allocation [Core]  <!-- UUID: 7fcfebdb-75bd-46e1-af54-c5b8b596a846 -->
-
-After the allocation to SKY buybacks specified above, any remaining Step 4 Capital is allocated to the Surplus Buffer. See [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294).
-
-###### A.2.3.1.4.2.3 - Stage 2 [Core]  <!-- UUID: bde9d8ff-1880-4cc7-9ff5-8f384cebb398 -->
-
-The allocation of Step 4 Capital under Stage 2 is specified in the documents herein.
-
-###### A.2.3.1.4.2.3.1 - Effectiveness [Core]  <!-- UUID: 7aeb3362-34ed-44c4-a578-40e40920c1bb -->
-
-Stage 2 becomes effective upon the execution of an Executive Vote implementing the activation of Stage 2. When SKY token reserves fall to approximately 15 days of remaining supply at the current distribution rate, the Core Facilitator must include the activation of Stage 2 in the next available Executive Vote, and can do so directly without a prior Governance Poll. Relevant Ecosystem Actors must take all necessary actions to cooperate with the Core Facilitator in implementing Stage 2.
-
-###### A.2.3.1.4.2.3.2 - SKY Buybacks And SKY Staking Rewards [Core]  <!-- UUID: c71344ec-5eac-421b-a843-1c2fde65efa1 -->
-
-25% of Step 4 Capital from the prior Monthly Settlement Cycle is allocated to SKY buybacks through the Smart Burn Engine. All SKY obtained through the buyback is distributed as SKY staking rewards. See [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a) and [A.4.4.1.4 - Short Term Transitionary Measures](22b8f8bf-b477-4439-86f7-ec605d3c657a). The rate is determined by the Core Facilitator in consultation with the Core Council Risk Advisor following each Monthly Settlement Cycle, expressed as a daily rate, held fixed until the next settlement cycle, and implemented through an Executive Vote.
-
-###### A.2.3.1.4.2.3.3 - USDS Staking Rewards [Core]  <!-- UUID: bbaa32fb-54cb-4333-b41f-c8453d11bba3 -->
-
-25% of Step 4 Capital from the prior Monthly Settlement Cycle is allocated to USDS staking rewards. See [A.4.4.1.4.1 - Short Term USDS Rewards For SKY Stakers](aad249a0-1332-4b5f-9b46-d89873e73b86). The rate is determined by the Core Facilitator in consultation with the Core Council Risk Advisor following each Monthly Settlement Cycle, expressed as a daily rate, held fixed until the next settlement cycle, and implemented through an Executive Vote.
-
-###### A.2.3.1.4.2.3.4 - Surplus Buffer Allocation [Core]  <!-- UUID: 7743664d-9893-435b-ad77-c7e689ad380b -->
-
-After the allocations to SKY buybacks and USDS staking rewards specified above, any remaining Step 4 Capital is allocated to the Surplus Buffer. See [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294).
-
-##### A.2.3.1.4.3 - Implementation [Core]  <!-- UUID: b0a59548-b94e-4cdf-961c-7e2d5dbe5983 -->
-
-The implementation of the allocations in [A.2.3.1.4.1 - Allocation Of Step 1 Capital](76eab64d-a5ba-4f3c-a295-bde0e444d0df) is specified in the documents herein.
-
-###### A.2.3.1.4.3.1 - Implementation Of Allocations To Core Council Buffer And Aligned Delegates Buffer [Core]  <!-- UUID: 8a75e41e-2c15-4486-b673-045fed17d25b -->
-
-The allocations specified in [A.2.3.1.4.1.1 - Allocation To Core Council Buffer](c46c7059-4ec1-4966-8382-d9e2e851d616) and [A.2.3.1.4.1.2 - Allocation To Aligned Delegates Buffer](2a9bcfb1-4dad-4baf-a09a-e9264b3d17bb) are effective retroactive to September 1, 2025. The October 30, 2025 Executive Vote included these allocations for the period from September 1, 2025 to September 30, 2025. The amounts transferred were 3,876,387 USDS to the Core Council Buffer and 193,820 USDS to the Aligned Delegates Buffer.
-
-###### A.2.3.1.4.3.2 - Implementation Of Allocations To Governance Accessibility Rewards Paid To Integrators And Prime Agents [Core]  <!-- UUID: b3f97303-4d41-497c-b931-9337c518bd7e -->
-
-The allocations specified in [A.2.3.1.4.1.3 - Allocation To Governance Accessibility Rewards Paid To Integrators](f7ec7f27-632e-462a-b1e8-32bf557cb51f) and [A.2.3.1.4.1.4 - Allocation To Governance Accessibility Rewards Paid To Prime Agents](a266adb7-5af2-4aa9-b64e-ed35bac9b6a5) are effective retroactive to May 19, 2025. These allocations must be included in a future Executive Vote. The amounts to be transferred will be specified in a future iteration of the Atlas.
+Pending activation of the USDS Staking Rewards specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121), the Smart Burn Engine continues to operate under existing on-chain parameters specified in [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a), and SKY staking rewards continue to be funded from the Protocol Treasury via the Vesting Stream Contract specified in [A.4.4.1.4.2.1.3 - Vesting Stream Contract](21a8978d-10a5-4151-b99a-ca8115fe0a6d). The USDS Staking Rewards become operational when the SKY tokens funding the Vesting Stream Contract approach depletion. The Core Facilitator, in consultation with the Core Council Risk Advisor, determines when this activation occurs and effects the corresponding on-chain parameter changes through an Executive Vote.
 
 ## A.2.4 - Sky Core Monthly Settlement Cycle [Article]  <!-- UUID: 6f8d5065-d6ff-4add-9a28-eadeffa7ed1a -->
 
@@ -10492,12 +10241,12 @@ The Monthly Settlement Cycle (MSC) synchronizes several key operational processe
 2. The monthly Senior Risk Capital (SRC) origination process is settled: the clearing price is established, costs are deducted from winning Prime Agents’ accounts, and their accounts are credited with Originated SRC (OSRC) for the upcoming month. See [A.3.2.2.4.3.5 - Settlement Of Origination](fff0112a-58dd-4041-97f9-7baf113b4e70).
 3. Queued conversions between USDS and srUSDS within the SRC system are processed. See [A.3.2.2.4.2.2 - Deposit And Redemption Queues](38a99586-4a13-4ce3-8b2f-cee025e0c390).
 4. Pioneer Incentive Pools are funded with an amount equivalent to the Sky Savings Rate multiplied by the balance of Unrewarded USDS. See [A.2.2.8.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
-5. The Smart Burn Buffer's burning operation occurs synchronously with each Monthly Settlement Cycle. At each cycle, the system calculates the appropriate Burn Rate based on current market conditions and executes the burn operation, if applicable, according to the formula specified in the Atlas. See [A.2.3.1.2.5.1.2 - Usage Of Smart Burn Buffer](7295761a-e72b-4b32-9345-b229b46566d1).
+5. Smart Burn Engine parameters are updated at each Monthly Settlement Cycle based on the prior month's state. See [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121) and [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
 6. Critical Core GovOps functions related to the operationalization of Sky Primitives are executed, including payment/reimbursement processing, compliance monitoring, and the calculation and application of retroactive penalties.
 
 #### A.2.4.1.2 - Implementation [Core]  <!-- UUID: 75473c4b-69ba-4e6b-bbf6-2c926732364c -->
 
-The documents herein define the initial implementation of the Monthly Settlement Cycle. This initial implementation of the Monthly Settlement Cycle does not include the Senior Risk Capital System, which is still being developed, and funds continue to be allocated through the modified Treasury Management Function. See [A.2.3.1.4 - Short Term Transitionary Measures](a0186d71-d5f6-4643-a5c5-8fcf6c2625f8).
+The documents herein define the initial implementation of the Monthly Settlement Cycle. This initial implementation of the Monthly Settlement Cycle does not include the Senior Risk Capital System, which is still being developed.
 
 ##### A.2.4.1.2.1 - Process Definition [Core]  <!-- UUID: dd25aba4-7b77-469e-beb2-feaaedbbf143 -->
 
@@ -10521,11 +10270,11 @@ For each Prime Agent, the Initial Calculation must specify whether payments with
 
 ###### A.2.4.1.2.1.2.2 - Independent Calculation By Core Council Risk Advisor On Behalf Of Core Council [Core]  <!-- UUID: 8be8ae66-2453-4d7d-8880-ffaba36bdb7e -->
 
-Within seven (7) calendar days of the end of each month, the Core Council Risk Advisor replies to the Monthly Settlement Cycle Post with their own independent calculation of the net amounts due to or from each Prime Agent (the "Independent Calculation"). The Independent Calculation should also include calculation of the amounts to be transferred to the Core Council and Aligned Delegates Buffers (see [A.2.3.1.4.1 - Allocation Of Step 1 Capital](76eab64d-a5ba-4f3c-a295-bde0e444d0df)). The Independent Calculation must contain reasonable supporting detail. The required contents of the Independent Calculation will be further specified in a future iteration of the Atlas.
+Within seven (7) calendar days of the end of each month, the Core Council Risk Advisor replies to the Monthly Settlement Cycle Post with their own independent calculation of the net amounts due to or from each Prime Agent (the "Independent Calculation"). The Independent Calculation should also include calculation of the amounts to be transferred to the Core Council and Aligned Delegates Buffers (see [A.2.3.1.2.2 - Step 1: Security And Maintenance](324e9d22-70fe-4e44-82ab-118815f5c42e)). The Independent Calculation must contain reasonable supporting detail. The required contents of the Independent Calculation will be further specified in a future iteration of the Atlas.
 
 ###### A.2.4.1.2.1.3 - Final Calculation By Core GovOps [Core]  <!-- UUID: 9de89bf3-9051-44f1-9ec0-d362ee4d4b38 -->
 
-Within twelve (12) calendar days of the end of each month, Core GovOps replies to the Monthly Settlement Cycle Post with the final calculation of the net amounts due to or from each Prime Agent (the "Final Calculation"). The Final Calculation should also include the final amounts to be transferred to the Core Council and Aligned Delegates Buffers (see [A.2.3.1.4.1 - Allocation Of Step 1 Capital](76eab64d-a5ba-4f3c-a295-bde0e444d0df)). If there are any Disputed Amounts (see [A.2.4.1.2.1.3.2 - Disputed Amount](4ddda7cd-9942-4f60-9555-6b3f16770334)), then Core GovOps must resolve them. Core GovOps must work with the relevant Operational Executor Agent, relevant Prime Agents, and the Core Council Risk Advisor to reach a mutually acceptable resolution and may consult other parties to the extent it deems advisable.
+Within twelve (12) calendar days of the end of each month, Core GovOps replies to the Monthly Settlement Cycle Post with the final calculation of the net amounts due to or from each Prime Agent (the "Final Calculation"). The Final Calculation should also include the final amounts to be transferred to the Core Council and Aligned Delegates Buffers (see [A.2.3.1.2.2 - Step 1: Security And Maintenance](324e9d22-70fe-4e44-82ab-118815f5c42e)). If there are any Disputed Amounts (see [A.2.4.1.2.1.3.2 - Disputed Amount](4ddda7cd-9942-4f60-9555-6b3f16770334)), then Core GovOps must resolve them. Core GovOps must work with the relevant Operational Executor Agent, relevant Prime Agents, and the Core Council Risk Advisor to reach a mutually acceptable resolution and may consult other parties to the extent it deems advisable.
 
 Core GovOps makes the final decision in resolving differences between the Initial Calculation and the Independent Calculation. The Final Calculation must specify the Final Amount and contain reasonable supporting detail. The required contents of the Final Calculation will be further specified in a future iteration of the Atlas.
 
@@ -10799,6 +10548,57 @@ The Core Facilitator is tasked with maintaining an ecosystem-wide communications
 ##### A.2.7.1.1.1 - Forum [Core]  <!-- UUID: ec33a431-9aa0-443e-9f0c-d0ab0aacfae6 -->
 
 The communications infrastructure must include an ecosystem Forum devoted to discussions on Agent-related business proposals, partnerships and interactions, as well as casual conversation for the broader Sky Ecosystem.
+
+###### A.2.7.1.1.1.1 - Authorized Forum Accounts Requirements [Core]  <!-- UUID: a76f81b5-49bb-4697-a30b-bf009ab24286 -->
+
+The documents herein define the requirements for forum account registration, disclosure, and enforcement applicable to entities participating in Sky governance.
+
+###### A.2.7.1.1.1.1.1 - Registration Requirement [Core]  <!-- UUID: 3f2ba4e7-cc85-406b-94ce-83da549babc5 -->
+
+All forum accounts used to post on the Sky Forum in a governance capacity must be registered in [A.2.7.1.1.1.1.4.0.6.1 - Current Authorized Forum Accounts](b71564fd-22e0-4c69-99d1-5b23fc1fa329). Each registration must include:
+
+- The entity handle, which is the official forum account representing the entity. If an entity does not maintain its own forum handle, it may indicate this in the registry and rely solely on Authorized Representatives.
+- All Authorized Representatives, which are forum accounts held by team members, individuals, or other entities that are authorized to post on behalf of the entity.
+
+Each entity is responsible for ensuring that its registration reflects its current handles and Authorized Representatives, and that any changes are promptly updated. A single forum handle may appear as an Authorized Representative of more than one (1) entity.
+
+###### A.2.7.1.1.1.1.2 - Disclosure Requirement [Core]  <!-- UUID: 87a69cf4-cf81-4acc-bb90-7caf644eaa86 -->
+
+When posting on behalf of another entity, the Authorized Representative must clearly indicate in the post that they are acting on behalf of that entity.
+
+###### A.2.7.1.1.1.1.3 - Enforcement [Core]  <!-- UUID: 0fa7211a-81a5-40bd-a364-0a85ebf6577e -->
+
+Posts on governance matters from unregistered forum accounts may be disregarded for governance purposes. Accounts that repeatedly post in a governance capacity without registration are subject to moderation as specified in [A.2.7.1.2 - Moderation](be3da4c5-6882-4694-9ccd-3fa7c5f6e09a).
+
+###### A.2.7.1.1.1.1.4 - List Of Authorized Forum Accounts [Active Data Controller]  <!-- UUID: 248a4fd8-f863-493a-9a38-2a97d9d7203e -->
+
+The list of authorized forum accounts is defined as Active Data in [A.2.7.1.1.1.1.4.0.6.1 - Current Authorized Forum Accounts](b71564fd-22e0-4c69-99d1-5b23fc1fa329).
+
+The Active Data is updated as follows:
+
+- The Responsible Party is the entity to which the registration pertains.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.2.7.1.1.1.1.4.0.6.1 - Current Authorized Forum Accounts [Active Data]  <!-- UUID: b71564fd-22e0-4c69-99d1-5b23fc1fa329 -->
+
+| Entity Name | Role | Entity Handle | Handles of Authorized Representatives |
+|---|---|---|---|
+| Pattern | Prime Agent | PatternDevCo | N/A |
+| Redline | Operational Facilitator | N/A | redlexic |
+| BA Labs | Core Council Risk Advisor | BALabs | DeFlamiingo, Sean, 0xmmj, commanderkeen, Primoz, Twigmaester, rema, definikola |
+| Spark | Prime Agent | PhoenixLabs | N/A |
+| Obex | Prime Agent | Rubicon | N/A |
+| Grove | Prime Agent | GroveLabs | steakhouse |
+| Soter Labs | Operational GovOps | SoterLabs | N/A |
+| Amatsu | Operational Executor Agent | Amatsu | SoterLabs, Endgame-Edge (and their authorized representatives) |
+| Dewiz | Ecosystem Actor | Dewiz | N/A |
+| Atlas Axis | Core GovOps | atlas-axis | Le_Bateleur, adamfraser, Lex |
+| Ozone | Operational Executor Agent | N/A | SoterLabs, Redline (and their authorized representatives) |
+| Endgame Edge | Operational Facilitator | Endgame-Edge | votewizard, CivicSage, boet, blimpa |
+| Keel | Prime Agent | Elodin | N/A |
+| Sidestream | Ecosystem Actor | Sidestream | N/A |
+| JanSky | Core Facilitator | JanSky-Team | JanSky, ldr |
+| Rune | N/A | rune | N/A |
 
 ##### A.2.7.1.1.2 - Chatroom [Core]  <!-- UUID: a596136b-a805-420b-be77-bf249e41ada4 -->
 
@@ -11252,23 +11052,37 @@ The authorization of grant requests is subject to the governance requirements an
 
 In all instances, Sky Governance must consent to the transfer of funds via an Atlas Edit.
 
-###### A.2.8.2.2.2.4.5.1 - Spark Foundation Grant Authorization: October 2025 [Core]  <!-- UUID: 12425328-8344-4fbd-9afb-3ea6316972dd -->
+###### A.2.8.2.2.2.4.5.1 - Spark Foundation Grant Authorizations [Core]  <!-- UUID: 6a9a3a7a-8670-41fc-98aa-d2d9b518bdfc -->
+
+The documents herein record Sky Governance authorizations for grants to the Spark Foundation.
+
+###### A.2.8.2.2.2.4.5.1.1 - Spark Foundation Grant Authorization: October 2025 [Core]  <!-- UUID: 12425328-8344-4fbd-9afb-3ea6316972dd -->
 
 The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from Spark’s Prime Treasury for a three (3) month period, beginning on October 1, 2025. The purpose of this grant is to enable the Spark Foundation to fulfill its purpose of promoting the growth and development of Spark. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
 
 Sky Governance hereby consents to this cash grant. The transfer for October must be made to the Spark Foundation in a Spark Spell included in the October 2, 2025 Executive Vote. Transfers for subsequent months will be made proportionally in Spark Spells included in Sky Executive Votes unless otherwise agreed by Sky and Spark.
 
-###### A.2.8.2.2.2.4.5.2 - Spark Foundation Grant Authorization: December 2025 [Core]  <!-- UUID: bd9673db-225e-42f4-8f26-6e993dc72bd0 -->
+###### A.2.8.2.2.2.4.5.1.2 - Spark Foundation Grant Authorization: December 2025 [Core]  <!-- UUID: bd9673db-225e-42f4-8f26-6e993dc72bd0 -->
 
 The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from Spark's Prime Treasury for a three (3) month period to cover Q1 2026 Foundation expenses. Additionally, a one-time grant of 150,000 USDS has been proposed to cover expenses for Spark Asset Foundation for Q1 2026 (see [https://forum.skyeco.com/t/december-11-2025-proposed-changes-to-spark-for-upcoming-spell/27481](https://forum.skyeco.com/t/december-11-2025-proposed-changes-to-spark-for-upcoming-spell/27481)).
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads as specified in the referenced proposal.
 
-###### A.2.8.2.2.2.4.5.3 - Spark Foundation Grant Authorization: Q2 2026 [Core]  <!-- UUID: b69158da-476a-4d4b-b7ef-2f8b96b73d23 -->
+###### A.2.8.2.2.2.4.5.1.3 - Spark Foundation Grant Authorization: Q2 2026 [Core]  <!-- UUID: b69158da-476a-4d4b-b7ef-2f8b96b73d23 -->
 
 The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from Spark's Prime Treasury for a three (3) month period to cover Q2 2026 Spark Foundation expenses. Additionally, a grant of 100,000 USDS per month to the Spark Asset Foundation from Spark's Prime Treasury for a three (3) month period to cover Q2 2026 Spark Asset Foundation expenses (see [https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)).
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads as specified in the referenced proposal.
+
+###### A.2.8.2.2.2.4.5.2 - Grove Foundation Grant Authorizations [Core]  <!-- UUID: db86fa15-45c6-4a44-9c2a-652fd3d227b0 -->
+
+The documents herein record Sky Governance authorizations for grants to the Grove Foundation.
+
+###### A.2.8.2.2.2.4.5.2.1 - Grove Foundation Grant Authorization: Q2 2026 [Core]  <!-- UUID: 85f7d545-d56c-40b9-b1b4-05663cd7772a -->
+
+The founding team of Grove has proposed a cash grant of 800,000 USDS per month to the Grove Foundation from Grove's Prime Treasury for a three (3) month period, beginning on April 1, 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
+
+Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payloads. Transfers must be made to the Grove Foundation at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in Grove Spells included in Sky Executive Votes unless otherwise agreed by Sky and Grove.
 
 ###### A.2.8.2.2.2.4.6 - Genesis Capital Backstop [Core]  <!-- UUID: 20e8467f-561c-4020-bd26-e6c1601fb64d -->
 
@@ -11569,7 +11383,7 @@ Core Council Executor Agent 1 will serve as the first Core Executor Agent and mu
 
 ###### A.2.8.2.5.2.2 - Genesis Capital Allocation [Core]  <!-- UUID: 6dc349a3-183e-4074-8f6e-cff39867363e -->
 
-To effect the Genesis Capitalization of Core Council Executor Agent 1, Sky Core shall directly transfer (1) 20,000,000 USDS to the Core Council Executor Agent 1 SubProxy and (2) 5,000,000 USDS to the Core Council Buffer (see [A.2.3.1.4.1.1.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)). The 5,000,000 USDS transfer constitutes part of Core Council Executor Agent 1's Genesis Capital Allocation, deposited directly to its operational payment account.
+To effect the Genesis Capitalization of Core Council Executor Agent 1, Sky Core shall directly transfer (1) 20,000,000 USDS to the Core Council Executor Agent 1 SubProxy and (2) 5,000,000 USDS to the Core Council Buffer (see [A.2.3.1.2.2.2.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)). The 5,000,000 USDS transfer constitutes part of Core Council Executor Agent 1's Genesis Capital Allocation, deposited directly to its operational payment account.
 
 ###### A.2.8.2.5.2.2.1 - Core Council Executor Agent 1 SubProxy Address [Core]  <!-- UUID: 89c19c75-cd5d-4c21-887d-0f4bfe3e42a7 -->
 
@@ -13169,7 +12983,7 @@ At all times, at least 10% of the Purpose System funds must be used for more dir
 
 ## A.2.13 - Ecosystem Entity Grants [Article]  <!-- UUID: 7be35f96-8230-41d6-aab4-0a76bd705a25 -->
 
-This Article defines the Ecosystem Entity Grants, which aim to fund the Sky Frontier Foundation and the Sky Fortification Foundation.
+This Article defines the Ecosystem Entity Grants, which aim to fund the Sky Frontier Foundation and the Fortification Foundation.
 
 ### A.2.13.1 - Ecosystem Entity Grants [Section]  <!-- UUID: 5d5759e4-8077-4af5-9a1a-eaeab5088dd7 -->
 
@@ -13596,7 +13410,7 @@ The documents herein define the types of Senior Risk Capital.
 
 ###### A.3.2.1.2.2.2.1.1 - Internal Senior Risk Capital [Core]  <!-- UUID: 09c20045-4b53-4370-98b8-a1199ccf7007 -->
 
-Internal Senior Risk Capital (ISRC) is capital provided from Sky Core’s Surplus Buffer. The composition of Internal Senior Risk Capital will be specified in more detail in a future iteration of the Atlas.
+Internal Senior Risk Capital (ISRC) is capital sourced from Aggregate Backstop Capital, as specified in [A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital](ac7a6636-acbc-40c9-abc1-4543c0beb300).
 
 ###### A.3.2.1.2.2.2.1.2 - External Senior Risk Capital [Core]  <!-- UUID: 2adf8738-09b2-43e2-884c-c4ce6ff601ba -->
 
@@ -15366,7 +15180,7 @@ The documents herein define operational requirements and protocols for the imple
 
 ##### A.3.2.2.4.1 - Sourcing Of Internal Senior Risk Capital [Core]  <!-- UUID: 70888f64-f53f-488a-b138-b3b2ab2300b0 -->
 
-ISRC is sourced from the various surplus buffers, which are themselves funded via the Treasury Management Function. See [A.2.3.1.2 - Allocation Steps](7932c8f3-ce44-49ea-adc4-f6391c621c6e).
+ISRC is sourced from Aggregate Backstop Capital, as specified in [A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital](ac7a6636-acbc-40c9-abc1-4543c0beb300).
 
 ##### A.3.2.2.4.2 - External Senior Risk Capital And srUSDS System [Core]  <!-- UUID: 9fac0f6b-cb2d-4dc2-97d5-72c705303675 -->
 
@@ -15430,7 +15244,7 @@ The SRC origination process operates monthly, synchronized with the Monthly Sett
 
 ###### A.3.2.2.4.3.2 - Available Total Senior Risk Capital Pool Determination [Core]  <!-- UUID: 48a3a23c-2e2f-48b8-bcca-6c99d1c2b6ca -->
 
-Total Senior Risk Capital (TSRC) is the amount of Senior Risk Capital that is available each Monthly Settlement Cycle for Primes to originate and thus turn into Originated Senior Risk Capital (OSRC) through the monthly origination process. TSRC is the sum of designated Internal Senior Risk Capital (ISRC) from Sky surplus buffers and available External Senior Risk Capital (ESRC) from the srUSDS contract. Prior to each monthly bidding window, the TSRC is calculated and publicly announced. Additional operational details will be defined in a future iteration of the Atlas.
+Total Senior Risk Capital (TSRC) is the amount of Senior Risk Capital that is available each Monthly Settlement Cycle for Primes to originate and thus turn into Originated Senior Risk Capital (OSRC) through the monthly origination process. TSRC is the sum of designated Internal Senior Risk Capital (ISRC) (see [A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital](ac7a6636-acbc-40c9-abc1-4543c0beb300)) and available External Senior Risk Capital (ESRC) from the srUSDS contract. Prior to each monthly bidding window, the TSRC is calculated and publicly announced. Additional operational details will be defined in a future iteration of the Atlas.
 
 ###### A.3.2.2.4.3.3 - Bidding Process [Core]  <!-- UUID: 33ef06d4-6ee3-4302-943d-1b932d8c88b4 -->
 
@@ -16148,7 +15962,7 @@ The activation of the Kicker Module will be executed in the October 30, 2025 Exe
 
 The parameters of the Smart Burn Engine can be modified pursuant to the Operational Weekly Cycle. The Core Facilitator, in consultation with the Core Council Risk Advisor, can propose changes to the `kbump` and `hop` parameters directly via an Executive Vote without requiring a Governance Poll. LSEV2-SKY-A-USDS rewardsDuration should always match the value of the hop parameter without requiring prior governance authorization. Changes to other parameters require a Governance Poll followed by an Executive Vote.
 
-The Smart Burn Engine parameters must be updated as necessary to implement the applicable stage specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3). Such updates are authorized to proceed directly to an Executive Vote without requiring a prior Governance Poll.
+The Smart Burn Engine parameters must be updated as necessary to implement the allocation specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121). Such updates are authorized to proceed directly to an Executive Vote without requiring a prior Governance Poll.
 
 ### A.3.5.3 - Sky Capital [Section]  <!-- UUID: f45ca50a-e1d3-4504-8e40-dd45b5fb3f83 -->
 
@@ -16160,7 +15974,7 @@ The documents herein define the different types of Sky capital.
 
 ##### A.3.5.3.1.1 - Aggregate Capital Buffer [Core]  <!-- UUID: cd36d152-1ba6-4958-9afd-d182e488e358 -->
 
-The Aggregate Capital Buffer is the sum of (1) the Sky Surplus Buffer (see [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294)), (2) the Core Council Buffer (see [A.2.3.1.4.1.1.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)), (3) the Aligned Delegates Buffer (see [A.2.3.1.4.1.2.1 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a)), and (4) the capital held in the SubProxy of each Prime Agent. The Aggregate Capital Buffer provides a useful metric for assessing the capital level of the entire Sky Ecosystem on a consolidated basis.
+The Aggregate Capital Buffer is the sum of (1) the Sky Surplus Buffer (see [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294)), (2) the Core Council Buffer (see [A.2.3.1.2.2.2.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)), (3) the Aligned Delegates Buffer (see [A.2.3.1.2.2.2.2 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a)), and (4) the capital held in the SubProxy of each Prime Agent. The Aggregate Capital Buffer provides a useful metric for assessing the capital level of the entire Sky Ecosystem on a consolidated basis.
 
 ##### A.3.5.3.1.2 - Aggregate Backstop Capital [Core]  <!-- UUID: 6dbead44-5ac4-4c5b-be3c-64eddd004e5c -->
 
@@ -16176,11 +15990,15 @@ The documents herein define capital targets for Sky and processes for achieving 
 
 ##### A.3.5.3.2.1 - Target Aggregate Backstop Capital [Core]  <!-- UUID: f73dda95-0b1c-4bdc-b957-469253d27281 -->
 
-The current Target Aggregate Backstop Capital is 150 million USDS.
+The Target Aggregate Backstop Capital is one and one half percent (1.5%) of the total supply of USDS.
 
-##### A.3.5.3.2.2 - Capital Retention To Achieve Target Aggregate Backstop Capital [Core]  <!-- UUID: ae3b42cd-cdda-424a-b09a-87e2796538ba -->
+##### A.3.5.3.2.2 - Turbo-Fill Floor [Core]  <!-- UUID: db2aaf07-4ebb-4e5d-ae5e-575717d8fbcd -->
 
-When Aggregate Backstop Capital is below Target Aggregate Backstop Capital, Sky Governance will retain 25% of Net Revenue (see [A.2.3.1.2.1 - Step 0: Net Revenue](c09435ff-d876-442a-899c-ad494175500b)) to grow Aggregate Backstop Capital. In the short term, this is implemented on a monthly basis by Sky Governance by adjusting the parameters of the Treasury Management System and the Smart Burn Engine.
+The current Turbo-Fill Floor for the Aggregate Backstop Capital is 150 million USDS. The Turbo-Fill Floor is the level below which an accelerated retention rate applies, as specified in [A.2.3.1.2.3 - Step 2: Aggregate Backstop Capital](2b28d464-e683-48ba-9a66-2fee05ea0a88).
+
+##### A.3.5.3.2.3 - Capital Retention To Achieve Target Aggregate Backstop Capital [Core]  <!-- UUID: ae3b42cd-cdda-424a-b09a-87e2796538ba -->
+
+When Aggregate Backstop Capital is below Target Aggregate Backstop Capital, a portion of Step 2 Capital is retained to grow Aggregate Backstop Capital, as specified in [A.2.3.1.2.3 - Step 2: Aggregate Backstop Capital](2b28d464-e683-48ba-9a66-2fee05ea0a88).
 
 ## A.3.6 - SKY Backstop [Article]  <!-- UUID: 4d8b0d82-97da-4041-b185-4b98c2779cbe -->
 
@@ -16932,7 +16750,7 @@ The public announcements defined in [A.3.7.1.5.2 - Technical Process](305e2bd6-a
 
 #### A.3.7.1.6 - Genesis Capital Backstop [Core]  <!-- UUID: a9965d58-8cda-49fc-8a7f-f8cc2e0d6b98 -->
 
-If losses exceed a Prime Agent’s capital and cannot be absorbed by the Sky Surplus Buffer, the Sky Protocol must apply a pro‑rata haircut across each Genesis Agent’s Genesis Capital, implemented as a transfer of eligible assets from each Agent to the Sky Surplus Buffer. The haircut must be sized to cover the portion of the loss that exceeds what the Prime Agent’s capital and the Sky Surplus Buffer can absorb.
+If losses exceed a Prime Agent’s capital and cannot be absorbed by the Sky Surplus Buffer, the Sky Protocol must apply a pro‑rata haircut across each Genesis Agent’s Genesis Capital, implemented as a transfer of eligible assets from each Agent to the Sky Surplus Buffer. The haircut must be sized to cover the portion of the loss that exceeds what the Prime Agent’s capital and the Sky Surplus Buffer can absorb, up to a maximum of the Aggregate Backstop Capital (see [A.3.5.3.1.2 - Aggregate Backstop Capital](6dbead44-5ac4-4c5b-be3c-64eddd004e5c)).
 
 ##### A.3.7.1.6.1 - Implementation [Core]  <!-- UUID: 4381df75-0d4f-4f17-a263-f796cc33be27 -->
 
@@ -16942,9 +16760,7 @@ A solution must be developed to allow these transfers to be accomplished on an a
 
 ##### A.3.7.1.6.2 - Post Backstop Settlement [Core]  <!-- UUID: 1edfed11-0234-4d15-b52b-37d7493565cd -->
 
-If the haircut covers the loss in full, Sky will distribute 24 billion SKY to Genesis Agents, in proportion to the amount each Agent lost in the haircut.
-
-If, after the haircut, losses still exceed the combined capacity of the Prime Agent’s capital, the Sky Surplus Buffer, and Genesis Capital, the SKY Backstop (see [A.3.6 - SKY Backstop](4d8b0d82-97da-4041-b185-4b98c2779cbe)) is activated. The SKY mint must be sized to cover the remaining loss. If losses still exceed what the SKY Backstop can absorb, Sky will adjust the USDS target price below $1 to the extent necessary to settle the remaining deficit; Sky will then distribute 24 billion SKY to USDS holders via an airdrop.
+If, after the haircut, losses still exceed the combined capacity of the Prime Agent’s capital and Aggregate Backstop Capital (see [A.3.5.3.1.2 - Aggregate Backstop Capital](6dbead44-5ac4-4c5b-be3c-64eddd004e5c)), the SKY Backstop (see [A.3.6 - SKY Backstop](4d8b0d82-97da-4041-b185-4b98c2779cbe)) is activated. The SKY mint must be sized to cover the remaining loss. If losses still exceed what the SKY Backstop can absorb, Sky will adjust the USDS target price below $1 to the extent necessary to settle the remaining deficit; Sky will then distribute 24 billion SKY to USDS holders via an airdrop.
 
 ##### A.3.7.1.6.3 - Genesis Agent Capital Shortfalls [Core]  <!-- UUID: 81bacfed-5cc9-4980-bf71-1e5edcbdadba -->
 
@@ -16977,6 +16793,7 @@ The Genesis Capital of an Agent is the lesser of (1) the Eligible Genesis Capita
 The amount of capital contributed by Sky to Agents is:
 
 - Spark - 25,000,000 USDS
+- Grove - 25,000,000 USDS
 - Obex - 21,000,000 USDS
 - Skybase - 15,000,000 USDS
 - Core Council Executor Agent 1 - 25,000,000 USDS
@@ -17091,7 +16908,7 @@ No new SKY tokens may be emitted except for (1) emissions required to recapitali
 
 ##### A.4.1.2.2.3 - Burning Of Existing Tokens [Core]  <!-- UUID: 5b94d42a-28fa-40fa-8948-ba3113a4d5b8 -->
 
-At the same time that no new SKY tokens are issued, SKY tokens are bought back and burned on a regular basis, using a portion of the Net Revenue of the Protocol as dictated by the Treasury Management Function. See [A.2.3.1.2.5.1 - Smart Burn Buffer](c2a0ca01-ffea-46ee-8077-e46e0510d097). As a result, the total supply of SKY tokens will continue to decrease over time.
+At the same time that no new SKY tokens are issued, SKY tokens are bought back and burned on a regular basis, using a portion of the Net Revenue of the Protocol as dictated by the Treasury Management Function. See [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121). As a result, the total supply of SKY tokens will continue to decrease over time.
 
 ##### A.4.1.2.2.4 - Deprecated Emissions Mechanisms [Core]  <!-- UUID: 2f3962e4-c79e-4583-82df-31239dfb84a4 -->
 
@@ -17147,43 +16964,31 @@ SPK token rewards are available to USDS users as specified in [A.2.8.2.2.2.1.2.2
 
 ## A.4.4 - SKY Staking Mechanism [Article]  <!-- UUID: b8891a30-f255-4694-895c-4399df916da3 -->
 
-This Article governs the SKY Staking Mechanism that grants voting rewards on staked SKY tokens and its associated SKY-backed borrowing mechanism funded via the stUSDS token.
+This Article governs the SKY Staking Mechanism that grants rewards on staked SKY tokens and its associated SKY-backed borrowing mechanism funded via the stUSDS token.
 
 ### A.4.4.1 - SKY Staking [Section]  <!-- UUID: 626bd71c-b413-41b7-a5fe-39fd0d43dbf5 -->
 
-SKY holders can stake their tokens via the SKY Staking Mechanism available on Ethereum Mainnet and SkyLink Deployments. SKY stakers earn voting rewards sourced from the Sky Treasury Management Function. SKY stakers may be able to earn USDS rewards, SKY rewards, and Agent Token Rewards, as determined by Sky Governance. SKY stakers can also borrow USDS against their staked collateral using the SKY-backed borrowing mechanism defined herein.
+SKY holders can stake their tokens via the SKY Staking Mechanism available on Ethereum Mainnet and SkyLink Deployments. SKY stakers earn rewards sourced from the Sky Treasury Management Function. SKY stakers may be able to earn USDS rewards, SKY rewards, and Agent Token Rewards, as determined by Sky Governance. SKY stakers can also borrow USDS against their staked collateral using the SKY-backed borrowing mechanism defined herein.
 
 #### A.4.4.1.1 - SKY Unstaking [Core]  <!-- UUID: e945372c-f526-45b9-af12-135f0eb6e830 -->
 
 SKY stakers can unstake their staked SKY at any time without penalty, provided the SKY is unencumbered by any borrowed USDS.
 
-#### A.4.4.1.2 - SKY Staking Voting Rewards [Core]  <!-- UUID: a98a1bfe-5713-43f5-a8bd-83c5808900b8 -->
+#### A.4.4.1.2 - SKY Staking Rewards [Core]  <!-- UUID: a98a1bfe-5713-43f5-a8bd-83c5808900b8 -->
 
-The documents herein define the SKY Staking Voting Rewards. SKY stakers may choose between receiving USDS or Agent Token rewards.
+The documents herein define the SKY Staking Rewards. SKY stakers may choose between receiving USDS, SKY, or Agent Token rewards.
 
-##### A.4.4.1.2.1 - Sources of Voting Rewards [Core]  <!-- UUID: e1c77a6a-5b94-4d40-a205-43c703a780e2 -->
+##### A.4.4.1.2.1 - Sources Of Rewards [Core]  <!-- UUID: e1c77a6a-5b94-4d40-a205-43c703a780e2 -->
 
-SKY stakers are eligible to receive voting rewards sourced from the Sky Treasury Management Function (TMF) or the Agent Token Distribution mechanism defined in [A.4.5 - Distribution Of Agent Tokens](e2f1f01f-3303-41c3-b337-f09eb41ba6be).
+SKY stakers are eligible to receive rewards sourced from the Sky Treasury Management Function (TMF) or the Agent Token Distribution mechanism defined in [A.4.5 - Distribution Of Agent Tokens](e2f1f01f-3303-41c3-b337-f09eb41ba6be).
 
-###### A.4.4.1.2.1.1 - Treasury Management Function-Derived Voting Rewards [Core]  <!-- UUID: 6cacdc1c-bdfa-4f68-bdb4-bf31943dcfba -->
+###### A.4.4.1.2.1.1 - Treasury Management Function-Derived Rewards [Core]  <!-- UUID: 6cacdc1c-bdfa-4f68-bdb4-bf31943dcfba -->
 
-USDS rewards are distributed via two distinct mechanisms based on the staker’s activity level: the High Activity Staking Reward (HASR) and the Standard Activity Staking Reward (SASR). SASR is the base reward when funding from the Treasury Management Function is available; HASR is an additional boost reserved for High-Activity wallets. See [A.2.3.1.2.3.3 - Payout From High Activity Staking Rewards Buffer](6e857f3d-1e5c-4a47-943d-439b1d0d87ea).
+USDS rewards and SKY rewards for SKY stakers are funded from the Staking Rewards allocation of the Sky Treasury Management Function (see [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0)) and distributed continuously, pro-rata based on the SKY stake of eligible wallets. Distribution parameters are updated at each Monthly Settlement Cycle.
 
-###### A.4.4.1.2.1.1.1 - Activity Levels [Core]  <!-- UUID: 42786ca1-42b6-4bfa-b455-54eba9e09c50 -->
+###### A.4.4.1.2.1.2 - Agent Token Distribution Rewards [Core]  <!-- UUID: 6aa85298-4f1c-4dc5-a973-99bc1e5293d1 -->
 
-At the Monthly Settlement Cycle, all SKY-staking wallets are tagged as High Activity or Standard Activity, pursuant to the criteria defined in [A.2.3.1.2.3.4 - High Activity Staker Qualification](8e83f80f-5606-41a7-bc90-d79df38b55fe) and [A.2.3.1.2.5.2.3 - Standard Activity Staker Qualification](a22d900a-d15c-41f0-af90-eec23112dcb6). Only High Activity wallets share HASR; both High and Standard Activity wallets share SASR.
-
-###### A.4.4.1.2.1.1.2 - High Activity Staking Rewards [Core]  <!-- UUID: 40d13a7d-ddd7-42bd-ace8-05ba9ce6e588 -->
-
-The High Activity Staking Rewards (HASR) is a boosted reward provided to High Activity wallets. The HASR amount is distributed each monthly cycle pro-rata to the SKY stake of all High Activity wallets. High Activity wallets receive SASR (when funding is available) plus their separate HASR boost.
-
-###### A.4.4.1.2.1.1.3 - Standard Activity Staking Rewards [Core]  <!-- UUID: b18249d5-588a-44a4-8bab-250bb92b027f -->
-
-The Standard Activity Staking Rewards (SASR) is the base reward shared by all wallets with Standard Activity status or higher. When funding is available, the SASR amount is distributed each monthly cycle pro‑rata to the SKY stake of every Standard or High Activity wallet.
-
-###### A.4.4.1.2.1.2 - Agent Token Distribution Voting Rewards [Core]  <!-- UUID: 6aa85298-4f1c-4dc5-a973-99bc1e5293d1 -->
-
-SKY stakers are eligible to receive Agent Token rewards as specified in [A.4.5 - Distribution Of Agent Tokens](e2f1f01f-3303-41c3-b337-f09eb41ba6be). At the Monthly Settlement Cycle, Agent Tokens are distributed pro‑rata, by staked SKY, among wallets that have opted to receive a specific Agent Token for the cycle. To qualify for Agent Token payout a wallet must satisfy the Standard Activity criteria specified in [A.2.3.1.2.5.2.2 - Payout From Standard Activity Staking Rewards Buffer](e288b944-759e-4d30-8db7-b59de7b5f912).
+SKY stakers are eligible to receive Agent Token rewards as specified in [A.4.5 - Distribution Of Agent Tokens](e2f1f01f-3303-41c3-b337-f09eb41ba6be). Agent Tokens are distributed continuously, pro‑rata by staked SKY, among wallets that have opted to receive a specific Agent Token. Distribution parameters are updated at each Monthly Settlement Cycle.
 
 #### A.4.4.1.3 - SKY-Backed Borrowing [Core]  <!-- UUID: 264b1787-cd75-4d28-9c14-c7d5a724eba7 -->
 
@@ -17783,11 +17588,11 @@ The current value of the `cap` parameter is:
 
 #### A.4.4.1.4 - Short Term Transitionary Measures [Core]  <!-- UUID: 22b8f8bf-b477-4439-86f7-ec605d3c657a -->
 
-The documents herein define the implementation of short-term SKY staking rewards pending the full implementation of the Sky Treasury Management Function. The policy governing the allocation of Step 4 Capital to staking rewards, including the three-stage framework, is specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3).
+The documents herein define the implementation of short-term SKY staking rewards pending the full implementation of the Sky Treasury Management Function. The policy governing the allocation of capital to staking rewards is specified in [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0).
 
 ##### A.4.4.1.4.1 - Short Term USDS Rewards For SKY Stakers [Core]  <!-- UUID: aad249a0-1332-4b5f-9b46-d89873e73b86 -->
 
-USDS rewards for SKY stakers are available as specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3).
+USDS rewards for SKY stakers are available as specified in [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0).
 
 ##### A.4.4.1.4.2 - Short Term SKY Rewards For SKY Stakers [Core]  <!-- UUID: aed6511f-f5f0-4b46-a56e-9a7bbc6ea310 -->
 
@@ -17867,7 +17672,7 @@ The Vesting Total `vestTot` is the number of rewards tokens to be vested in tota
 
 ###### A.4.4.1.4.2.1.3.3 - Vesting Stream Parameter Modification [Core]  <!-- UUID: 7da0cd7a-238f-400f-89a7-a419ed25ce37 -->
 
-The Core Facilitator, in consultation with the Core Council Risk Advisor, may modify the parameters of the vesting stream to achieve the target reward rate as specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3). Such modifications can be effected directly via an Executive Vote, without a prior Governance Poll.
+The Core Facilitator, in consultation with the Core Council Risk Advisor, may modify the parameters of the vesting stream to achieve the target reward rate consistent with [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121). Such modifications can be effected directly via an Executive Vote, without a prior Governance Poll.
 
 ###### A.4.4.1.4.2.2 - Source Of SKY Rewards [Core]  <!-- UUID: 349a350c-c9b7-4232-a83f-2fb49b91fc74 -->
 
@@ -30194,6 +29999,10 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.7 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document](dff6df5f-f8ab-4df1-be1e-f71510c3534e).
 
+###### A.6.1.1.2.2.6.1.1.2.1.7.8 - Ethereum Mainnet - Grove x Steakhouse RLUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: d6cab49c-2cfd-4f70-a101-fbdb294c16db -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.8 - Ethereum Mainnet - Grove x Steakhouse RLUSD Morpho Vault V2 Instance Configuration Document](cfb29474-ea48-4370-aad6-23af1cf4d11a).
+
 ###### A.6.1.1.2.2.6.1.1.2.1.8 - Securitize [Core]  <!-- UUID: 12a0d375-8f1e-4e62-83ba-d56bc6d3f2ab -->
 
 The Ethereum Mainnet Instances Directory of the Securitize Protocol with `Active` Status are stored herein.
@@ -30253,6 +30062,14 @@ The Ethereum Mainnet Instances Directory of the Maple Protocol with `Active` Sta
 ###### A.6.1.1.2.2.6.1.1.2.1.13.1 - Ethereum Mainnet - Maple syrupUSDC Instance Configuration Document Location [Core]  <!-- UUID: 20b30bc3-c3e8-4098-bdf2-ca288e8bee1a -->
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.13.1 - Ethereum Mainnet - Maple syrupUSDC Instance Configuration Document](7502f64c-3276-478e-8f98-53a2377ca1a2).
+
+###### A.6.1.1.2.2.6.1.1.2.1.14 - Tokenized Treasury [Core]  <!-- UUID: 53a37417-5900-4b8d-a750-339782c838cb -->
+
+The Ethereum Mainnet Tokenized Treasury Instances Directory with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.1.2.1.14.1 - Ethereum Mainnet - Tokenized Treasury JTRSY Instance Configuration Document Location [Core]  <!-- UUID: e6582be2-cb08-4788-a011-32e3509a42e5 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.14.1 - Ethereum Mainnet - Tokenized Treasury JTRSY Instance Configuration Document](5e38198e-1577-4ab0-900a-91b6d8284387).
 
 ###### A.6.1.1.2.2.6.1.1.2.2 - Avalanche [Core]  <!-- UUID: 7f10aaf2-b3e8-4dc8-b91f-ff27200a9ccf -->
 
@@ -30565,6 +30382,26 @@ The address of the ALM_PROXY contract is: `0x1DB91ad50446a671e2231f77e00948E6887
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.5.6 - ALM Rate Limits Contract [Core]  <!-- UUID: 441a9fa5-4dcc-45f5-83a7-644128c23b05 -->
 
 The address of the ALM_RATE_LIMITS contract is: `0x7f8408eBbBC3504F83eeDa52910dd75Eba92C955`
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.3 - Tokenized Treasury Contracts [Core]  <!-- UUID: fc2fdc98-db17-4c10-91c1-50d05bd5bf9b -->
+
+The documents herein define the addresses of shared Tokenized Treasury contracts used across Tokenized Treasury Instances of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.3.1 - Ethereum Mainnet [Core]  <!-- UUID: 87773690-d9bc-4772-a39e-005552df0896 -->
+
+This document contains the shared Tokenized Treasury contract addresses on Ethereum Mainnet.
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.3.1.1 - RWA Instance Contract [Core]  <!-- UUID: 11401b83-fc65-4c0a-8d57-503c1c2041ea -->
+
+The address of the RWA Instance contract will be specified in a future iteration of the Atlas.
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.3.1.2 - Tokenized Treasury USDS And USDC Rate Provider Contract [Core]  <!-- UUID: 21933aee-36b7-425f-8ad7-5ccd1c046c1a -->
+
+The address of the Chronicle Rate Provider contract pricing USDS and USDC, shared across Tokenized Treasury Instances that use USDS and USDC, is: `0xd79B9a9f5Fc240f2DCfcf260f004110B4713A7e7`.
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.3.1.3 - Sky USDS And USDC PSM Wrapper Contract [Core]  <!-- UUID: 75699288-150e-45e0-8c4a-19c40e4c1e94 -->
+
+The address of the Sky USDS and USDC PSM Wrapper contract is: `0xA188EEC8F81263234dA3622A406892F3D630f98c`.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.2 - Off-chain Operational Parameters [Core]  <!-- UUID: ec6cc8a0-3811-485a-9f9a-78f388659d46 -->
 
@@ -31353,6 +31190,42 @@ The documents herein define processes for invoking (onboarding) new Grove Liquid
 ###### A.6.1.1.2.2.6.1.2.2.1.5 - Upgrading Controller [Core]  <!-- UUID: 3b49838e-423b-42b9-b3ca-2365e8e68725 -->
 
 The documents herein define the process for deploying new Controller contracts. This process will be specified in a future iteration of the Grove Artifact.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6 - Tokenized Treasury Role Hierarchy And Permissions [Core]  <!-- UUID: 92908b02-e1eb-4c14-b44e-92968cccd881 -->
+
+The documents herein define the roles and permissions on Tokenized Treasury Instances of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.1 - Tokenized Treasury Owner Role [Core]  <!-- UUID: 41a7e6fb-59e1-40e8-a05a-68c1520fb361 -->
+
+The `OWNER_ROLE` on a Tokenized Treasury Instance is authorized to set purchase and redemption fee rates within bounds established by the `MANAGER_ADMIN_ROLE`, and to grant or revoke any role in the contract. The `OWNER_ROLE` is held by an OpenZeppelin `TimelockController` operated by the credit token issuer. The Timelock address and the holders of its `PROPOSER_ROLE` are specified in each Instance Configuration Document. The holders of the Timelock's `EXECUTOR_ROLE` and `CANCELLER_ROLE` are specified in [A.6.1.1.2.2.6.1.2.2.1.6.7 - Tokenized Treasury Owner Timelock Executor Role](35e4cd97-0d88-4a47-8fbe-487c48ecc92e) and [A.6.1.1.2.2.6.1.2.2.1.6.8 - Tokenized Treasury Owner Timelock Canceller Role](0ff6a176-d3c5-45c6-a55a-5fec89d3c709).
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.2 - Tokenized Treasury Manager Admin Role [Core]  <!-- UUID: 4554fa6d-a03a-488d-a37e-a3be7b72323e -->
+
+The `MANAGER_ADMIN_ROLE` on a Tokenized Treasury Instance is authorized to configure rate providers, bounds for maximum swap size, oracle staleness, and fees, the Pocket contract, authorized redeemer contracts, and the fee claimer. The `MANAGER_ADMIN_ROLE` manages role assignments for the `MANAGER_ROLE`, `PAUSER_ROLE`, `REDEEMER_CONTRACT_ROLE`, and `REDEEMER_ROLE`. The `MANAGER_ADMIN_ROLE` is held by the Grove Proxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba` across all Tokenized Treasury Instances.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.3 - Tokenized Treasury Manager Role [Core]  <!-- UUID: 191435aa-436b-4ef9-a95a-2357a314be01 -->
+
+The `MANAGER_ROLE` on a Tokenized Treasury Instance is authorized to adjust the maximum swap size and oracle staleness threshold within bounds established by the `MANAGER_ADMIN_ROLE`. The `MANAGER_ROLE` is held by the Grove Relayer Multisig at `0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f` across all Tokenized Treasury Instances.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.4 - Tokenized Treasury Pauser Role [Core]  <!-- UUID: abdc489a-6478-4e2a-9f22-423fd71d3700 -->
+
+The `PAUSER_ROLE` on a Tokenized Treasury Instance is authorized to pause or unpause individual swap directions, credit token deposits and withdrawals, or all contract operations. The `PAUSER_ROLE` is held by the Freezer Multisig at `0xB0113804960345fd0a245788b3423319c86940e5` across all Tokenized Treasury Instances.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.5 - Tokenized Treasury Redeemer Role [Core]  <!-- UUID: fbeb1921-37eb-465b-97fa-004c8e0925b1 -->
+
+The `REDEEMER_ROLE` on a Tokenized Treasury Instance is authorized to initiate and complete the two-step redemption of credit tokens back into collateral tokens through an authorized redeemer contract. The `REDEEMER_ROLE` is controlled by the credit token issuer; the holder address is specified in each Instance Configuration Document.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.6 - Tokenized Treasury Redeemer Contract Role [Core]  <!-- UUID: 493bc01d-1c2e-4ef1-8605-1183c77a8cf2 -->
+
+The `REDEEMER_CONTRACT_ROLE` on a Tokenized Treasury Instance is granted to authorized redeemer contracts that execute the two-step redemption of credit tokens on behalf of holders of the `REDEEMER_ROLE`. `REDEEMER_CONTRACT_ROLE` holders are added and removed via the `addTokenRedeemer` and `removeTokenRedeemer` functions, which are authorized for the `MANAGER_ADMIN_ROLE`.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.7 - Tokenized Treasury Owner Timelock Executor Role [Core]  <!-- UUID: 35e4cd97-0d88-4a47-8fbe-487c48ecc92e -->
+
+The `EXECUTOR_ROLE` on the OpenZeppelin `TimelockController` holding the `OWNER_ROLE` of a Tokenized Treasury Instance is authorized to execute queued operations once the Timelock delay period has elapsed. Across Tokenized Treasury Instances, this role is held by the Grove Proxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.8 - Tokenized Treasury Owner Timelock Canceller Role [Core]  <!-- UUID: 0ff6a176-d3c5-45c6-a55a-5fec89d3c709 -->
+
+The `CANCELLER_ROLE` on the OpenZeppelin `TimelockController` holding the `OWNER_ROLE` of a Tokenized Treasury Instance is authorized to cancel queued Timelock operations before execution. Across Tokenized Treasury Instances, this role is held by the Freezer Multisig at `0xB0113804960345fd0a245788b3423319c86940e5`.
 
 ###### A.6.1.1.2.2.6.1.2.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 7a8f34ed-ae14-4c93-94d2-9d08c4d18e82 -->
 
@@ -33967,6 +33840,97 @@ Controllers now have protections that require a `maxExchangeRate` to be set for 
 
 - `setMaxExchangeRate(SENTORA_RLUSD_MAIN_V2, 1e18, 3e18)`
 
+###### A.6.1.1.2.2.6.1.3.1.7.8 - Ethereum Mainnet - Grove x Steakhouse RLUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: cfb29474-ea48-4370-aad6-23af1cf4d11a -->
+
+The documents herein contain the Instance Configuration Document for the Grove x Steakhouse RLUSD Morpho Vault V2 Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: a1136418-1914-4543-aa3c-a77e7e8b60c7 -->
+
+`Pending`
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2 - Parameters [Core]  <!-- UUID: d4091127-bd5c-4ff6-ba9c-de7bd8553e61 -->
+
+The documents herein define the parameters of the Grove x Steakhouse RLUSD Morpho Vault V2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.1 - Instance Identifiers [Core]  <!-- UUID: 64527d65-8389-4d0c-859c-fe2da103f62d -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.1.1 - Network [Core]  <!-- UUID: 74b876ee-2891-413b-bd1f-58b2c96b4585 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.1.2 - Target Protocol [Core]  <!-- UUID: 70e811cc-0a98-454a-b555-0f88a65187f1 -->
+
+Grove x Steakhouse RLUSD Morpho Vault V2
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: b3ad456b-d6de-4ed1-8576-01366e21bd5d -->
+
+RLUSD
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.1.4 - Token [Core]  <!-- UUID: 9325e9e9-4c9d-44ac-a732-64c8353bbff7 -->
+
+grove-bbqRLUSD
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.2 - Contract Addresses [Core]  <!-- UUID: 02fa5674-392e-4d0c-8e42-2adc3692881c -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.2.1 - Token Address [Core]  <!-- UUID: 8ac9a401-96a6-4cbc-9d23-9374cb626d2b -->
+
+`0xBeEff4fD39F8e48b6a6e475445D650cb11e9599F`
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: de701477-61aa-4d32-81b7-9ab044bb2b74 -->
+
+`0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.3 - Rate Limit IDs [Core]  <!-- UUID: 41f9c281-d313-47d4-af75-8df48c9e260c -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: e868b5a4-e469-4e32-869d-2c904d31d221 -->
+
+The inflow RateLimitID is: `0xf655bc101a615fbcb591acce756dacae96cb119ff1beec548d9cc5d4558ea53a`
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 3944007b-9f6f-4c0a-a71b-dd3a1775cd94 -->
+
+The outflow RateLimitID is: `0xa6e68f8214d2fb32e0deb2888ef4644c36401d18605447843e4f936529f6a3cb`
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.4 - Rate Limits [Core]  <!-- UUID: 93fbe9e3-88b0-4160-b4cb-52b5333a0926 -->
+
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: adfeeede-027a-4b98-8636-c53975c4b7cf -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 100,000,000 RLUSD
+- `slope`: 100,000,000 RLUSD per day
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: c455e62e-79a6-478e-aa06-f35d2ab6779f -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: f298feba-925d-4f87-99d8-855fc7adffe0 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 2952337f-8152-44ca-9d3e-0363c6f2b1c9 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 8638d88f-8ac2-4deb-849e-6100eeea4b82 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.4.1 - Max Exchange Rate [Core]  <!-- UUID: ea2bbd07-134d-459d-bb20-2dbb756766b0 -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 RLUSD:
+
+- `setMaxExchangeRate(GROVE_X_STEAKHOUSE_RLUSD_V2, 1e18, 3e18)`
+
 ###### A.6.1.1.2.2.6.1.3.1.8 - Securitize [Core]  <!-- UUID: b05d9fc2-9a93-4f3b-b0d8-b4f77bc294ce -->
 
 The Ethereum Mainnet Instances of the Securitize Protocol with `Active` Status are stored herein.
@@ -34803,6 +34767,135 @@ The documents herein contain specific off-chain parameters for this Instance.
 ###### A.6.1.1.2.2.6.1.3.1.13.1.2.5.2 - Maximum Exposure [Core]  <!-- UUID: d86392f8-071a-4167-9d44-64a8150c2b18 -->
 
 The Maximum Exposure for this Instance is 0 USD.
+
+###### A.6.1.1.2.2.6.1.3.1.14 - Tokenized Treasury [Core]  <!-- UUID: be7157cb-9469-4f59-b1a0-d22a62e97242 -->
+
+The Ethereum Mainnet Tokenized Treasury Instances with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1 - Ethereum Mainnet - Tokenized Treasury JTRSY Instance Configuration Document [Core]  <!-- UUID: 5e38198e-1577-4ab0-900a-91b6d8284387 -->
+
+The documents herein contain the Instance Configuration Document for the Tokenized Treasury JTRSY Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: fde7f4bb-0873-4d99-bef5-694a53300eae -->
+
+`Pending`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2 - Parameters [Core]  <!-- UUID: 1834c864-183a-4835-bb17-b1107e41abbb -->
+
+The documents herein define the parameters of the Tokenized Treasury JTRSY Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 3a505b8a-4ff1-40bf-aa03-ea7c4550422a -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.1.1 - Network [Core]  <!-- UUID: cdd4e8c9-b1be-4f96-9b65-d0ba9942202d -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 6f3423c8-3aba-4852-9011-09dc0d90fa3b -->
+
+Tokenized Treasury
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 3f39032c-cc00-4ea9-be78-9e02e9fc4a25 -->
+
+USDS
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.1.4 - Token [Core]  <!-- UUID: 6a11e241-9dba-423f-b9aa-31fa37c96ab3 -->
+
+JTRSY
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2 - Contract Addresses [Core]  <!-- UUID: 75e8bf90-46f3-4e53-b6b9-f8b30dd80da7 -->
+
+The documents herein define the Instance-specific contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2.1 - Token Address [Core]  <!-- UUID: 5c346c1b-a942-4ced-9267-7087d5c718a4 -->
+
+`0x8c213ee79581Ff4984583C6a801e5263418C4b86`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2.2 - Centrifuge ERC-7540 Vault Address [Core]  <!-- UUID: c519baf9-b02c-4c07-a113-ac73738a217c -->
+
+`0xFE6920eB6C421f1179cA8c8d4170530CDBdfd77A`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2.3 - JTRSY Rate Provider Address [Core]  <!-- UUID: e13f54bc-19d3-4a0f-a846-2c3c4154a19e -->
+
+`0x7FB719Fc99A737bA15D676a09491805cD9623A8f`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2.4 - Pocket Contract Address [Core]  <!-- UUID: fd19b075-d30d-4a8e-90f0-c7ab8a2cd48b -->
+
+`0x30860b17f984D0f909B71Ab8D7b0C2e01C650479`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2.5 - Token Redeemer Contract Address [Core]  <!-- UUID: 536e4413-c923-45e8-a126-8120fd9d2c72 -->
+
+`0x471C4D7B1F38009061e7c545A08732d82Bd54B15`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2.6 - Owner Timelock Contract Address [Core]  <!-- UUID: d2069cde-3b55-487a-9b1d-919bd3f76197 -->
+
+`0xfB805f2f88e862e687bEBdF120306ef39380F3bf`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2.7 - RWA Instance Contract Address [Core]  <!-- UUID: 7f011dc2-7624-402e-86cb-c036d1cf9afc -->
+
+`0x34B7385D87793bAc8b94d95d8eF75200787A61F7`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 850f1210-d355-48ef-8ba9-dcc70bb90f0e -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Atlas.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.4 - Rate Limits [Core]  <!-- UUID: abc0b1fc-4922-40f1-8ea9-60fba89f0e5f -->
+
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 2e5234f6-0cae-4689-b8da-61ad99f20c31 -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 0 USDS
+- `slope`: 0 USDS per day
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: e460967c-baf1-4c39-89c8-38bb329e492e -->
+
+The outflow rate limits are:
+
+- `maxAmount`: 0 USDS
+- `slope`: 0 USDS per day
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1daedcbc-29a1-4dbd-8442-21cefec40c3a -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: a46f85c1-48be-4070-8848-74d392c3fed5 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 65ca009e-8d70-4dd5-80d3-e6e0b9beae2e -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.4.1 - Instance Configuration Parameters [Core]  <!-- UUID: 16a4b87f-156e-407f-a882-d91b15a7909b -->
+
+The configuration parameters for this Instance are as follows:
+
+- Max Swap Size: 50,000,000 USD
+- Staleness Threshold: seven (7) days
+- Fees: 0
+- Credit Token Deposits: Disabled
+- Credit Token Withdrawals: Disabled
+- Stablecoin Swaps: Disabled
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.4.2 - Issuer-Specific Role Holders [Core]  <!-- UUID: 7fbed34a-d69f-49eb-af6f-56a7522e6fda -->
+
+The documents herein define the role holders that are specific to this Instance's credit token issuer.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.4.2.1 - Owner Role Holder [Core]  <!-- UUID: 6c15b0a1-b9f1-40be-80b1-4c5565c30044 -->
+
+The `OWNER_ROLE`, as defined in [A.6.1.1.2.2.6.1.2.2.1.6.1 - Tokenized Treasury Owner Role](41a7e6fb-59e1-40e8-a05a-68c1520fb361), is held by Anemoy via an OpenZeppelin `TimelockController` at the address specified in [A.6.1.1.2.2.6.1.3.1.14.1.2.2.6 - Owner Timelock Contract Address](d2069cde-3b55-487a-9b1d-919bd3f76197).
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.4.2.1.1 - Proposer Role Holder [Core]  <!-- UUID: dee0bbce-9f64-47e3-bbb5-3eb5204be9c5 -->
+
+The `PROPOSER_ROLE` of the Owner Timelock is held by Anemoy at `0x9184DdBCc4824B76CE2AEFA72534a1a87aA5037c`.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.4.2.2 - Redeemer Role Holder [Core]  <!-- UUID: 5ffebcfd-ba9b-401b-a35d-42b4426709de -->
+
+The `REDEEMER_ROLE`, as defined in [A.6.1.1.2.2.6.1.2.2.1.6.5 - Tokenized Treasury Redeemer Role](fbeb1921-37eb-465b-97fa-004c8e0925b1), is controlled by Anemoy; the holder address will be specified in a future iteration of the Atlas.
 
 ###### A.6.1.1.2.2.6.1.3.2 - Avalanche Instances [Core]  <!-- UUID: fbb34f07-a5c8-475e-9842-fc5c9b9bd359 -->
 
