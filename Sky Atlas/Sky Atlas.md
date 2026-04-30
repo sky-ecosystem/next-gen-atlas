@@ -2144,7 +2144,7 @@ This includes calculating:
 3. the balance of each Delegate's AD Buffer; and
 4. the amount to be paid out to each Aligned Delegate.
 
-Once calculated by the Core Facilitator, AD payouts are paid from the Aligned Delegates Buffer Multisig. See [A.2.3.1.4.1.2.1 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a).
+Once calculated by the Core Facilitator, AD payouts are paid from the Aligned Delegates Buffer Multisig. See [A.2.3.1.2.2.2.2 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a).
 
 ###### NR-10 - AD Budget Management [Needed Research]  <!-- UUID: 6502ce76-3f29-4f50-a68c-9126feba1fb6 -->
 
@@ -2404,6 +2404,18 @@ The Core Council Risk Advisor role is held by BA Labs.
 ###### A.1.7.1.1.2.1 - BA Labs Limited Conflict Of Interests Waiver [Core]  <!-- UUID: a4ff45b4-bc05-4a1f-8413-0718efaf7450 -->
 
 BA Labs is granted a limited waiver to the requirement that the Core Council Risk Advisor must not be involved in other business activities that could result in a conflict of interest. This waiver applies only to BA Labs’ work with Ethena.
+
+#### A.1.7.1.2 - Protocol Security Workstream Lead [Core]  <!-- UUID: 93651fb8-13c5-46dd-93cb-33fa89671b4f -->
+
+The Protocol Security Workstream Lead is a specialized role for a designated Professional Ecosystem Actor to provide security oversight, incident coordination, and operational security guidance across the Sky Ecosystem.
+
+##### A.1.7.1.2.1 - Protocol Security Workstream Lead Requirements [Core]  <!-- UUID: 6286be5c-f299-425e-a06b-39a129d4a929 -->
+
+The Protocol Security Workstream Lead role must be held by an individual with demonstrated expertise in protocol security, smart contract security, and operational security practices. The individual must not have involvement in any business, political, or governance-related activities that could create a conflict of interest, either directly or indirectly.
+
+##### A.1.7.1.2.2 - Designated Protocol Security Workstream Lead [Core]  <!-- UUID: 57fa2bd5-4679-4b0c-a7a2-f65a4194d371 -->
+
+The Protocol Security Workstream Lead role is held by Vamsi.
 
 ## A.1.8 - Emergency Response System [Article]  <!-- UUID: 1d940c6d-02ce-4c17-8057-cef13c1cc7ad -->
 
@@ -2768,7 +2780,7 @@ Shadow Delegates serve as alternative representatives for SKY holders who delega
 
 The content of an Executive Vote typically consists of the set of onchain changes executed by the Spell. Depending on the specific needs of Sky and the Agents, an Executive Vote may also include DAO resolutions or other off-chain decisions.
 
-There is a set of recurring items in all Executive Votes, and some onchain changes reflect frequently occurring actions. These are set forth in more detail in the subdocuments herein.
+There is a set of recurring items in all Executive Votes, and some onchain changes reflect frequently occurring actions; others are novel and require specialized, out-of-cadence processes. These are set forth in more detail in the subdocuments herein.
 
 ##### A.1.9.2.3.1 - Recurring Items [Core]  <!-- UUID: d1d16776-3eec-4e7d-b591-052fe9c2c45b -->
 
@@ -3090,6 +3102,34 @@ When the execution through the Sky Core Spell method is used, the Agent Spells a
 ###### A.1.9.2.3.2.3.2.1 - Sky Core Spell Executes Agent Spell [Core]  <!-- UUID: a109ad0d-0743-4ae9-bcc1-df04a6e5da43 -->
 
 Execution of an Agent Spell is initiated by the Sky Core Spell, which directly calls `exec()` on the Agent's SubProxy contract to perform the Spell’s actions in the same transaction. The SubProxy limits rights to the specific Agent, preventing access to Sky Core contracts. The current SubProxy contract is designed to execute the Agent Spell in the same transaction as the Sky Core Spell.
+
+##### A.1.9.2.3.3 - Novel Items [Core]  <!-- UUID: 867cad8c-f85d-44d9-9f3e-4267f6bb09ae -->
+
+Some onchain changes are considered novel and require specialized processes outside the regular Spell cadence, including a technical feasibility and implementation proposal phase prior to including the item in the Executive Vote process. The process for novel Spell items for Executive Votes is specified in the subdocuments herein.
+
+###### A.1.9.2.3.3.1 - Definition Of Novel Spell Item [Core]  <!-- UUID: af13ac4b-3638-4858-9165-0949334725de -->
+
+An item is considered novel if the request cannot use any of the code patterns already available in the `spell-mainnet` archive folder used on prior Spells.
+
+###### A.1.9.2.3.3.2 - Novel Items Process Definition [Core]  <!-- UUID: 0ed7559c-5877-4968-8bcc-9d47207cc904 -->
+
+The documents herein define the process for including novel items in Spells.
+
+###### A.1.9.2.3.3.2.1 - Core GovOps Or Core Facilitator Requests Inclusion Of Novel Item [Core]  <!-- UUID: 47a584fe-9b41-4bce-93fa-871eca8ba8bd -->
+
+The process begins when a stakeholder's needs require an item that Core GovOps believes is novel in an upcoming Spell. Core GovOps submits a request to the Core Facilitator for inclusion of the item. The Core Facilitator also has the authority to independently request inclusion of a novel item.
+
+###### A.1.9.2.3.3.2.2 - Core Facilitator Confirms Whether Requested Item Is Novel [Core]  <!-- UUID: 390d239c-184a-4c72-b41c-5b2bc4fb1b2d -->
+
+The Core Facilitator, in consultation with the Core Spell Teams, determines whether the requested item is novel. If the item is not considered novel, it is scheduled via the regular Spell process as specified in [A.1.9.2.4 - Executive Process Breakdown](98298ab3-8d08-4c4f-b47b-81242a3e3903). If the item is classified as novel, the Core Facilitator notifies the Core Spell Teams of this determination in Discord in the #govops channel.
+
+###### A.1.9.2.3.3.2.3 - Core Spell Teams Conduct A Technical Feasibility Analysis And Develop An Implementation Proposal [Core]  <!-- UUID: 0e7a4416-35e7-4820-b426-0052774c8307 -->
+
+The Core Spell Teams conduct a technical feasibility analysis and develop an implementation proposal for the novel Spell item. One Spell Team may take the lead, or both teams may work in parallel and reconcile approaches. Both Spell Teams must agree on the implementation proposal. The proposal may include external audits or other processes. The Core Facilitator and relevant domain experts, including those with technical expertise related to the novel item, can provide input on the implementation proposal. The Spell Teams deliver the implementation proposal to the Core Facilitator.
+
+###### A.1.9.2.3.3.2.4 - Core Facilitator Obtains Approval From Relevant Stakeholders And Schedules Novel Spell Item [Core]  <!-- UUID: 00a4c49c-bf49-492e-819d-a4a53249c1eb -->
+
+After receiving the implementation proposal, the Core Facilitator shares it with the relevant stakeholders whose needs originated the request. The Core Facilitator works with these stakeholders to confirm that the implementation proposal addresses the needs that motivated the novel Spell item. After doing so, the Core Facilitator schedules the novel Spell item into the regular Spell cadence as specified in [A.1.9.2.4 - Executive Process Breakdown](98298ab3-8d08-4c4f-b47b-81242a3e3903).
 
 #### A.1.9.2.4 - Executive Process Breakdown [Core]  <!-- UUID: 98298ab3-8d08-4c4f-b47b-81242a3e3903 -->
 
@@ -4444,7 +4484,7 @@ A decrease should be considered if time-critical governance actions are projecte
 
 ##### A.1.9.3.1.2 - Pause Delay Current Value [Core]  <!-- UUID: db442d8a-8d98-47a2-b162-01c2adc22b67 -->
 
-The GSM Pause Delay is: 24 hours
+The GSM Pause Delay is: 48 hours
 
 #### A.1.9.3.2 - Exceptions [Core]  <!-- UUID: 6781594b-5dff-45ec-89a4-1c9684c4eed8 -->
 
@@ -4663,6 +4703,12 @@ The Avalanche SkyLink Freezer Multisig (see [A.1.9.4.1.3.3.1.1 - Avalanche SkyLi
 
 Each action executed by the multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum. Such actions include activating or disabling the freeze function.
 
+##### A.1.9.3.2.17 - Plasma SkyLink Freezer Multisig [Core]  <!-- UUID: 93089354-d2eb-4930-a1c7-0ca2f7b60e67 -->
+
+The Plasma SkyLink Freezer Multisig (see [A.1.9.4.1.4.3.1.1 - Plasma SkyLink Freezer Multisig](f833edaa-9f5f-4445-afcb-a9cfc3620b10)) can freeze the Plasma SkyLink Bridge without the need for inclusion in a Spell through the standard Executive Vote process.
+
+Each action executed by the multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum. Such actions include activating or disabling the freeze function.
+
 ### A.1.9.4 - Governance Security Culture And Research [Section]  <!-- UUID: 19222532-1ce1-4306-8129-ea95a982c247 -->
 
 This Section must define processes to cultivate and maintain a strong security culture within the Sky Ecosystem. This Section must implement continuous research and integration of best practices to ensure that the Ecosystem’s security remains effective and up-to-date.
@@ -4705,17 +4751,15 @@ The Core Facilitator and Core GovOps can change the signers of the Ethereum SkyL
 
 ##### A.1.9.4.1.2 - Solana SkyLink Bridge [Core]  <!-- UUID: 56593663-55e5-45d5-8682-5eede11aa14a -->
 
-Sky uses a SkyLink bridge to securely move assets between Ethereum Mainnet and Solana, as well as to provide governance controls for Sky-issued tokens on Solana. Additional details regarding the Solana SkyLink Bridge will be specified in a future iteration of the Atlas.
+Sky uses a SkyLink bridge to securely move assets between Ethereum Mainnet and Solana, as well as to provide governance controls for Sky-issued tokens on Solana.
 
 ###### A.1.9.4.1.2.1 - Introduction [Core]  <!-- UUID: 1157a0cd-9acc-4149-9258-d7f8946df475 -->
 
-The Solana SkyLink Bridge consists of both a Token Bridge that allows bridging USDS between Ethereum Mainnet and Solana as well as a Governance Bridge that allows exercising governance control for Sky-issued tokens on Solana. The Solana SkyLink Bridge replaces the existing Wormhole bridge, which will be deactivated following the first phase of deployment of the SkyLink bridge.
-
-The Solana SkyLink Bridge serves as the template for future bridges that will be deployed by the Sky Ecosystem across other blockchains.
+The Solana SkyLink Bridge consists of both a Token Bridge that allows bridging USDS between Ethereum Mainnet and Solana as well as a Governance Bridge that allows exercising governance control for Sky-issued tokens on Solana.
 
 ###### A.1.9.4.1.2.2 - Deployment [Core]  <!-- UUID: 593095a6-aec4-4ca5-9c2e-87ce748ac198 -->
 
-The Solana SkyLink Bridge will be deployed in two phases. The first phase will occur in the November 13th Executive Vote and the second phase will occur in a subsequent Out-Of-Schedule Executive Vote. The timing and contents of these phases may be modified by the Core Facilitator in consultation with relevant Ecosystem Actors.
+The Solana SkyLink Bridge was deployed in two phases. The first phase occurred in the November 13, 2025 Executive Vote and the second phase occurred in the November 17, 2025 Out-Of-Schedule Executive Vote.
 
 ###### A.1.9.4.1.2.3 - Security Parameters [Core]  <!-- UUID: 2cf3dc2e-2a2a-4f8a-a959-611e5654a29c -->
 
@@ -4900,6 +4944,108 @@ The documents herein specify the selection and configuration of validators for t
 The validators for the Governance Bridge are Horizen, LayerZero, Nethermind, Deutsche Telekom, Canary, Luganodes, and P2P.
 
 ###### A.1.9.4.1.3.3.3.2.2 - Quorum Requirement [Core]  <!-- UUID: d1a78b46-a227-4551-9bcd-2a5a6e5d3e56 -->
+
+The quorum requirement for the Governance Bridge is 4/7.
+
+##### A.1.9.4.1.4 - Plasma SkyLink Bridge [Core]  <!-- UUID: aca54441-3738-4aee-b7a8-f2a4b9ef02fa -->
+
+Sky uses a SkyLink bridge to securely move assets between Ethereum Mainnet and Plasma, as well as to provide governance controls for Sky-issued tokens on Plasma.
+
+###### A.1.9.4.1.4.1 - Introduction [Core]  <!-- UUID: b8241202-6305-4485-b938-e5e8fe6c2e50 -->
+
+The Plasma SkyLink Bridge consists of a Token Bridge that allows bridging USDS and sUSDS between Ethereum Mainnet and Plasma, as well as a Governance Bridge that allows exercising governance control for Sky-issued tokens on Plasma.
+
+###### A.1.9.4.1.4.2 - Deployment [Core]  <!-- UUID: 44af823e-841b-4b2e-a4dd-363925a8bf7b -->
+
+The Plasma SkyLink Bridge will be deployed in a future Executive Vote. The timing will be determined by the Core Facilitator in consultation with relevant Ecosystem Actors.
+
+###### A.1.9.4.1.4.3 - Security Parameters [Core]  <!-- UUID: 0b2674c5-f9e2-4592-9358-c35e06ed5214 -->
+
+The documents herein define the security parameters of the Plasma SkyLink Bridge.
+
+###### A.1.9.4.1.4.3.1 - Freezer Multisigs [Core]  <!-- UUID: 022129be-e83f-417f-a0b6-4a066fc66d62 -->
+
+The Plasma SkyLink Bridge can be frozen from Ethereum Mainnet by the Ethereum SkyLink Freezer Multisig as specified in [A.1.9.4.1.1 - Ethereum SkyLink Freezer Multisig](21fa6749-6209-4280-9b5f-b2a73d400421). The document herein defines the Plasma-side freezer multisig.
+
+###### A.1.9.4.1.4.3.1.1 - Plasma SkyLink Freezer Multisig [Core]  <!-- UUID: f833edaa-9f5f-4445-afcb-a9cfc3620b10 -->
+
+The Plasma SkyLink Freezer Multisig has the ability to freeze the Plasma SkyLink Bridge from Plasma.
+
+###### A.1.9.4.1.4.3.1.1.1 - Plasma SkyLink Freezer Multisig Address [Core]  <!-- UUID: 88cb9621-d10f-49b6-85e6-2c822bb5beda -->
+
+The address of the Plasma SkyLink Freezer Multisig on Plasma is `0xB3d26eF66F53C9546d1365F417a85B0Aa69049eE`.
+
+###### A.1.9.4.1.4.3.1.1.2 - Plasma SkyLink Freezer Multisig Required Number Of Signers [Core]  <!-- UUID: cb8707d5-ff3f-4312-b8cc-97b3734fa81c -->
+
+The Plasma SkyLink Freezer Multisig has a 2/5 signing requirement.
+
+###### A.1.9.4.1.4.3.1.1.3 - Plasma SkyLink Freezer Multisig Signers [Core]  <!-- UUID: f9cd34cb-802e-4322-9307-0e72bb4a4f66 -->
+
+The signers of the Plasma SkyLink Freezer Multisig are three (3) addresses controlled by Operational GovOps Soter Labs, one (1) address controlled by Operational Facilitator Redline Facilitation Group, and one (1) address controlled by Launch Agent 6.
+
+###### A.1.9.4.1.4.3.1.1.4 - Plasma SkyLink Freezer Multisig Usage Standards [Core]  <!-- UUID: 5b79ed95-6a02-47dc-8ac1-9ba55b513e32 -->
+
+The Plasma SkyLink Freezer Multisig can only be used in urgent or emergency situations (e.g., potential code exploits). Such situations are characterized by the fact that 1) they have the potential to harm the Sky Ecosystem or its users; and 2) the preparation time required for an Executive Vote would leave the ecosystem vulnerable to harm (e.g., an exploit).
+
+The multisig should be used to prevent technical vulnerabilities; prevent unwanted functionality of the smart contracts or corresponding parts of the system (e.g., price oracles); or prevent unwanted usage of the smart contracts or corresponding parts of the system which deviates from intended behavior.
+
+The Core Council must ensure that use of the multisig is generally aligned and specifically accords with these requirements.
+
+###### A.1.9.4.1.4.3.1.1.5 - Plasma SkyLink Freezer Multisig Modification [Core]  <!-- UUID: a8be9d0a-629b-4a2c-a2f2-6b2b7f965b16 -->
+
+Operational GovOps Soter Labs, Operational Facilitator Redline Facilitation Group, and Launch Agent 6 can change the signers of the Plasma SkyLink Freezer Multisig so long as:
+
+- there are five (5) signers;
+- two (2) signers are required to execute transactions;
+- three (3) signers are controlled by Operational GovOps Soter Labs;
+- one (1) signer is controlled by Operational Facilitator Redline Facilitation Group; and
+- one (1) signer is controlled by Launch Agent 6.
+
+###### A.1.9.4.1.4.3.2 - Rate Limits [Core]  <!-- UUID: cc4b7dac-9754-473a-ae3a-bdb0de0a2d88 -->
+
+The documents herein define the rate limits for the Plasma SkyLink Bridge.
+
+###### A.1.9.4.1.4.3.2.1 - Rate Limit Accounting [Core]  <!-- UUID: 7b6ca79a-66f8-40c8-a76b-4497ddc6518f -->
+
+The Plasma SkyLink Bridge uses net accounting.
+
+Net accounting means that the rate limit applies to the net amount of tokens transferred from one side of the bridge to the other. For example, if 5,000,000 USDS were transferred from Ethereum Mainnet to Plasma and 3,000,000 USDS were transferred from Plasma to Ethereum Mainnet, the net amount transferred would be 2,000,000 USDS.
+
+###### A.1.9.4.1.4.3.2.2 - USDS Rate Limit [Core]  <!-- UUID: 527a2195-dcfd-4bd2-b20c-d47edf1797b9 -->
+
+The Plasma SkyLink Bridge currently has a USDS rate limit of 5,000,000 USDS per day.
+
+The rate limit for the Plasma SkyLink Bridge may be modified by the Core Facilitator, in consultation with the Core Council Risk Advisor, through the Operational Weekly Cycle. Such modifications can be effected directly via an Executive Vote, without requiring a prior Governance Poll.
+
+###### A.1.9.4.1.4.3.2.3 - sUSDS Rate Limit [Core]  <!-- UUID: 5c722eb6-22fd-4be4-bb19-4b40159ca007 -->
+
+The Plasma SkyLink Bridge currently has no rate limit for sUSDS. A rate limit for sUSDS may be set or subsequently modified by the Core Facilitator, in consultation with the Core Council Risk Advisor, through the Operational Weekly Cycle. Such changes can be effected directly via an Executive Vote, without requiring a prior Governance Poll.
+
+###### A.1.9.4.1.4.3.3 - Validators [Core]  <!-- UUID: 84e98241-3071-49d4-9a9d-9006acaef72e -->
+
+The documents herein specify the selection and configuration of validators for the Plasma SkyLink Bridge.
+
+###### A.1.9.4.1.4.3.3.1 - Token Bridge [Core]  <!-- UUID: 658d9408-ecdd-4279-8f88-d1ed9e6bcd45 -->
+
+The documents herein specify the selection and configuration of validators for the Token Bridge component of the Plasma SkyLink Bridge.
+
+###### A.1.9.4.1.4.3.3.1.1 - Validators [Core]  <!-- UUID: 07c605cc-9023-457d-aa88-ae9950063f4b -->
+
+The validators for the Token Bridge are LayerZero and Nethermind.
+
+###### A.1.9.4.1.4.3.3.1.2 - Quorum Requirement [Core]  <!-- UUID: ccdc870c-b61c-4c80-9958-a30f74d2f7af -->
+
+The quorum requirement for the Token Bridge is 2/2.
+
+###### A.1.9.4.1.4.3.3.2 - Governance Bridge [Core]  <!-- UUID: 6aea3973-59ed-4f64-ad7f-4d1ad53e4357 -->
+
+The documents herein specify the selection and configuration of validators for the Governance Bridge component of the Plasma SkyLink Bridge.
+
+###### A.1.9.4.1.4.3.3.2.1 - Validators [Core]  <!-- UUID: b314c96f-45c9-4726-967e-66153c0a8a0c -->
+
+The validators for the Governance Bridge are Canary, Deutsche Telekom, Horizen, LayerZero, Luganodes, Nethermind, and P2P.
+
+###### A.1.9.4.1.4.3.3.2.2 - Quorum Requirement [Core]  <!-- UUID: 8b278dd8-e0c5-4f08-97be-dc9cce9f0680 -->
 
 The quorum requirement for the Governance Bridge is 4/7.
 
@@ -6317,7 +6463,7 @@ The documents herein specify the Agent Founder’s inputs following the creation
 
 ###### A.2.2.1.1.3.1 - Founder Required Primitive Activation [Core]  <!-- UUID: 1a48e833-d960-4bdf-8f67-0f9d9307e00d -->
 
-The Founder is responsible for Globally Activating the Agent Creation, Prime Transformation / Executor Transformation, Agent Token, Executor Accord, and Root Edit Primitives. Additionally, the Founder must Activate either the Distribution Requirement Primitive or the Market Cap Fee Primitive - or may choose to Activate both.
+The Founder is responsible for Globally Activating the Agent Creation, Prime Transformation / Executor Transformation, Agent Token, Executor Accord, Root Edit, and Ecosystem Upkeep Fee Primitives.
 
 The Primitives named above must first be Globally Activated before the Founder can Invoke them to finalize Agent setup. The Founder may choose to Globally Activate these Primitives individually at different times or all at once; only the Primitive Invocation must be done in a specified order.
 
@@ -6341,47 +6487,43 @@ Core GovOps validates the Founder’s inputs into the Agent Creation Primitive a
 
 After validating the Scaffold Artifact and Agent Creation Primitive inputs, Core GovOps creates a Genesis Account and SubProxy Account for the Agent. This data is automatically added to the Agent Creation Primitive.
 
-##### A.2.2.1.1.6 - Founder Must Globally Activate Distribution Requirement And/Or Market Cap Fee Primitive [Core]  <!-- UUID: 94eacab6-0df2-45c6-89fe-af4f8c2e6263 -->
-
-Prior to invoking the Prime Transformation or Executor Transformation Primitive, the Agent Founder must Globally Activate either the Distribution Requirement Primitive or the Market Cap Fee Primitive - or may choose to Activate both.
-
-##### A.2.2.1.1.7 - Founder Invokes Prime / Executor Transformation Primitive [Core]  <!-- UUID: 2592b3d0-531e-42a3-a098-cf4b82bdd567 -->
+##### A.2.2.1.1.6 - Founder Invokes Prime / Executor Transformation Primitive [Core]  <!-- UUID: 2592b3d0-531e-42a3-a098-cf4b82bdd567 -->
 
 When ready, the Founder Invokes the Prime Transformation or Executor Transformation Primitive to become either a Prime Agent or Executor Agent, respectively.
 
-##### A.2.2.1.1.8 - Core GovOps Validates Transformation Primitive Inputs [Core]  <!-- UUID: 05e70418-5dbf-4d02-9d2a-9afea6619dd0 -->
+##### A.2.2.1.1.7 - Core GovOps Validates Transformation Primitive Inputs [Core]  <!-- UUID: 05e70418-5dbf-4d02-9d2a-9afea6619dd0 -->
 
 Upon successful validation by Core GovOps, the Transformation Primitive is deployed and the Agent Artifact is upgraded to reflect that the Agent is either a Prime Agent or an Executor Agent.
 
-##### A.2.2.1.1.9 - Post-Transformation Primitive Artifact Freeze [Core]  <!-- UUID: 20f4cfe0-1855-4942-ac0d-f5cb738e82fc -->
+##### A.2.2.1.1.8 - Post-Transformation Primitive Artifact Freeze [Core]  <!-- UUID: 20f4cfe0-1855-4942-ac0d-f5cb738e82fc -->
 
 After the Transformation Primitive is successfully Invoked, the Agent’s "Founder Access" is revoked. The Founder can no longer freely edit the Agent Artifact, but may only Invoke certain Primitives in a specified order until the Agent setup is complete.
 
-##### A.2.2.1.1.10 - Founder Invokes Agent Token Primitive [Core]  <!-- UUID: f5132655-afdd-4a93-adbe-64526759720c -->
+##### A.2.2.1.1.9 - Founder Invokes Agent Token Primitive [Core]  <!-- UUID: f5132655-afdd-4a93-adbe-64526759720c -->
 
 The Founder next Invokes the Agent Token Primitive to create a token for the Agent that can be used to raise capital, build a community, and conduct governance processes.
 
-##### A.2.2.1.1.11 - Core GovOps Validates Agent Token Primitive Inputs [Core]  <!-- UUID: 416dc0f2-fb0d-4ea2-975d-9bf2d9b0e1d4 -->
+##### A.2.2.1.1.10 - Core GovOps Validates Agent Token Primitive Inputs [Core]  <!-- UUID: 416dc0f2-fb0d-4ea2-975d-9bf2d9b0e1d4 -->
 
 Core GovOps reviews the inputs to the Agent Token Primitive to ensure that they are well specified and aligned.
 
-##### A.2.2.1.1.12 - Core GovOps Mints Tokens [Core]  <!-- UUID: 0e033de5-ce15-45df-ae85-9ed69bd40da0 -->
+##### A.2.2.1.1.11 - Core GovOps Mints Tokens [Core]  <!-- UUID: 0e033de5-ce15-45df-ae85-9ed69bd40da0 -->
 
 After validating the Agent Token Primitive inputs, Core GovOps proceeds to mint the Agent’s initial supply of tokens according to the instructions specified in the Primitive.
 
-##### A.2.2.1.1.13 - Agent Invokes Executor Accord Primitive [Core]  <!-- UUID: 9b074b3d-73db-4a3a-9491-571021e4e61b -->
+##### A.2.2.1.1.12 - Agent Invokes Executor Accord Primitive [Core]  <!-- UUID: 9b074b3d-73db-4a3a-9491-571021e4e61b -->
 
 The Agent must reach an understanding with an Operational Executor Agent that will operationalize the Agent’s strategy. After doing so, the Agent records this understanding by invoking the Executor Accord Primitive. Note that this step is only applicable to Prime Agents.
 
-##### A.2.2.1.1.14 - Core GovOps Validates Executor Accord Primitive Inputs [Core]  <!-- UUID: c1ff42c9-1ffc-46f0-9dac-da54eb4eb042 -->
+##### A.2.2.1.1.13 - Core GovOps Validates Executor Accord Primitive Inputs [Core]  <!-- UUID: c1ff42c9-1ffc-46f0-9dac-da54eb4eb042 -->
 
 CoreGovOps reviews the inputs to the Executor Accord Primitive to ensure that there is a valid Executor Accord with an Executor Agent and that the terms of the Executor Accord are reasonably specific. Upon successful validation, the Executor Accord Primitive is considered successfully Invoked and the Artifact is upgraded to include the Executor Accord. Now that the Agent has a documented relationship with an Executor Agent, Core GovOps will no longer perform validation of the Agent’s Primitive inputs. Instead, Operational GovOps associated with the Executor Agent specified in the Executor Accord will carry out certain operational tasks on behalf of the Prime Agent see [A.1.13.3.4 - Agent Role Delineation](fdf32ca5-5e2e-481e-9047-4d1599547216).
 
-##### A.2.2.1.1.15 - Agent Invokes Root Edit Primitive [Core]  <!-- UUID: 63f85a1a-da2d-4828-ae32-da56f46d500d -->
+##### A.2.2.1.1.14 - Agent Invokes Root Edit Primitive [Core]  <!-- UUID: 63f85a1a-da2d-4828-ae32-da56f46d500d -->
 
 The Agent Invokes the Root Edit Primitive and sets up a governance process for voting to occur.
 
-##### A.2.2.1.1.16 - Operational GovOps Validates Root Edit Primitive Inputs [Core]  <!-- UUID: d5ee3f2c-cd2f-4428-974b-341e4cce7295 -->
+##### A.2.2.1.1.15 - Operational GovOps Validates Root Edit Primitive Inputs [Core]  <!-- UUID: d5ee3f2c-cd2f-4428-974b-341e4cce7295 -->
 
 Operational GovOps reviews the inputs to the Root Edit Primitive to ensure it specifies a process that they can operationalize and does not conflict with any of the requirements regarding the voting process set forth in the Sky Core Atlas.
 
@@ -6413,7 +6555,7 @@ Sky Primitives can be Globally Activated (and their instances later Invoked) by 
 
 ###### A.2.2.1.2.4.1.1 - “Pre Transformation Primitive” Stage [Core]  <!-- UUID: b5cbcb47-ff44-4809-8071-2b5f7b30efbb -->
 
-After the Scaffold Artifact has been established, but before invoking the Prime Transformation or Executor Transformation Primitive, the Agent Founder retains unilateral authority ("Founder Access") to Activate any desired Primitives while freely editing the Agent Artifact. The Founder must Globally Activate either the Distribution Requirement Primitive or the Market Cap Fee Primitive - or may choose to Activate both. No Operational Executor Facilitator approval or token holder vote is required at this stage. See [A.2.2.1.1.3.2 - Founder Access](a4f65994-2526-4522-a986-cd444a5cb896).
+After the Scaffold Artifact has been established, but before invoking the Prime Transformation or Executor Transformation Primitive, the Agent Founder retains unilateral authority ("Founder Access") to Activate any desired Primitives while freely editing the Agent Artifact. The Founder must Globally Activate the Ecosystem Upkeep Fee Primitive during this stage. No Operational Executor Facilitator approval or token holder vote is required at this stage. See [A.2.2.1.1.3.2 - Founder Access](a4f65994-2526-4522-a986-cd444a5cb896).
 
 ###### A.2.2.1.2.4.1.2 - “Pre Root Edit Primitive” Stage [Core]  <!-- UUID: 7b25b220-92f9-4936-8296-31c0f3d8ddbc -->
 
@@ -6445,9 +6587,9 @@ To maintain recognized operational status within the ecosystem, Agents must have
 
 The Upkeep Rebate Primitive is by default Globally Activated in all Scaffold Agent Artifacts; it is not possible to deactivate it.
 
-###### A.2.2.1.2.4.2.1.4 - Prohibition On Deactivating Both Distribution Requirement And Market Cap Fee Primitives [Core]  <!-- UUID: 984dcacc-d242-4203-90c2-d5cf61c92702 -->
+###### A.2.2.1.2.4.2.1.4 - Prohibition On Deactivating Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: 984dcacc-d242-4203-90c2-d5cf61c92702 -->
 
-An Agent must always have either the Distribution Requirement Primitive or the Market Cap Fee Primitive Globally Activated; it is not possible to deactivate both.
+An Agent must always have the Ecosystem Upkeep Fee Primitive Globally Activated; once Activated, it cannot be deactivated.
 
 ###### A.2.2.1.2.4.2.2 - Global Primitive Reactivation [Core]  <!-- UUID: cb452f09-007a-4000-a37f-46e8be48c066 -->
 
@@ -6527,8 +6669,7 @@ The current Sky Primitives are:
     - Root Edit Primitive
     - Light Agent Primitive
 - Ecosystem Upkeep Primitives
-    - Distribution Requirement Primitive
-    - Market Cap Fee Primitive
+    - Ecosystem Upkeep Fee Primitive
     - Upkeep Rebate Primitive
 - SkyLink Primitives
     - Token SkyLink Primitive
@@ -6682,7 +6823,7 @@ The Founder uses the Powerhouse interface to input the Agent's name and an intro
 
 ###### A.2.2.4.1.1.1.2 - Validation [Core]  <!-- UUID: d2b0f57b-1596-4355-9c63-aec6466cf316 -->
 
-Core GovOps validates the Founder’s inputs. This includes verifying that all of the documents created by the Founder using Founder Access are well-specified, that the documents are Aligned, and that all necessary Primitives to complete setup have been Activated. The necessary Primitives are the Agent Creation, Prime/Executor Transformation, Agent Token, Executor Accord, and Root Edit Primitives. In addition, at least one of the Distribution Requirement or the Market Cap Fee Primitives must be Activated. (See [A.2.2.1.1.3.1 - Founder Required Primitive Activation](1a48e833-d960-4bdf-8f67-0f9d9307e00d).) After confirming these conditions, Core GovOps creates a Genesis Account and a SubProxy Account for the Agent.
+Core GovOps validates the Founder’s inputs. This includes verifying that all of the documents created by the Founder using Founder Access are well-specified, that the documents are Aligned, and that all necessary Primitives to complete setup have been Activated. The necessary Primitives are the Agent Creation, Prime/Executor Transformation, Agent Token, Executor Accord, Root Edit, and Ecosystem Upkeep Fee Primitives. (See [A.2.2.1.1.3.1 - Founder Required Primitive Activation](1a48e833-d960-4bdf-8f67-0f9d9307e00d).) After confirming these conditions, Core GovOps creates a Genesis Account and a SubProxy Account for the Agent.
 
 ###### A.2.2.4.1.1.1.3 - Official Update Of Artifact [Core]  <!-- UUID: c73a1815-b2dc-4cec-9ef4-ae6e6aabf633 -->
 
@@ -6734,7 +6875,7 @@ The Proto-Agent must use the Powerhouse interface to input their desired Agent T
 
 ###### A.2.2.4.2.1.1.2 - Validation [Core]  <!-- UUID: 43598845-989e-44fc-8cb4-c60b67fd1f28 -->
 
-Core GovOps validates the Proto-Agent’s inputs, namely, the Agent Type. Additionally, Core GovOps performs a further review to confirm that all the documents created by the Founder using Founder Access are well-specified, that the documents are Aligned, and that all necessary Primitives have been Activated. The necessary Primitives are the Agent Creation, Prime/Executor Transformation, Agent Token, Executor Accord, and Root Edit Primitives. In addition, at least one of the Distribution Requirement or the Market Cap Fee Primitives must be Activated. (See [A.2.2.1.1.3.1 - Founder Required Primitive Activation](1a48e833-d960-4bdf-8f67-0f9d9307e00d).)
+Core GovOps validates the Proto-Agent’s inputs, namely, the Agent Type. Additionally, Core GovOps performs a further review to confirm that all the documents created by the Founder using Founder Access are well-specified, that the documents are Aligned, and that all necessary Primitives have been Activated. The necessary Primitives are the Agent Creation, Prime/Executor Transformation, Agent Token, Executor Accord, Root Edit, and Ecosystem Upkeep Fee Primitives. (See [A.2.2.1.1.3.1 - Founder Required Primitive Activation](1a48e833-d960-4bdf-8f67-0f9d9307e00d).)
 
 ###### A.2.2.4.2.1.1.3 - Official Update Of Artifact [Core]  <!-- UUID: 2182141b-a2bc-46bc-b9a6-2cb62e55b302 -->
 
@@ -7036,44 +7177,28 @@ The Light Agent Primitive enables users to create Light Agents, which are sub-ag
 
 ### A.2.2.6 - Ecosystem Upkeep Primitives [Section]  <!-- UUID: 25673fd2-76cb-4c4d-8ec6-8c489207bcfc -->
 
-Ecosystem Upkeep Primitives ensure that all Agents contribute to long-term ecosystem sustainability. Prime Agents must choose between either the Distribution Requirement Primitive or the Market Cap Fee Primitive; whereas the Upkeep Rebate Primitive applies universally to all Prime Agents. The term "Ecosystem Upkeep Fees" refers to the upkeep obligation of a Prime Agent pursuant to either the Distribution Requirement Primitive or the Market Cap Fee Primitive.
+Ecosystem Upkeep Primitives ensure that all Agents contribute to long-term ecosystem sustainability. The Ecosystem Upkeep Fee Primitive specifies a uniform upkeep fee payable by all Prime Agents, and the Upkeep Rebate Primitive specifies rebates that adjust those fees for Agents holding the tokens of other Prime Agents. The term "Ecosystem Upkeep Fees" refers to the upkeep obligation of a Prime Agent as specified in the Ecosystem Upkeep Fee Primitive.
 
-#### A.2.2.6.1 - Distribution Requirement Primitive [Core]  <!-- UUID: 0804ab13-d276-4ad9-a935-dc9f7fc2e350 -->
+#### A.2.2.6.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: a21616f4-1611-4e0b-87b2-efbdff9f6f28 -->
 
-The Distribution Requirement Primitive requires Agents to periodically buy and distribute 0.25% of their token supply per year. The annual requirement of 0.25% of the token supply is divided into twelve (12) equal monthly distributions. Distributions must occur on the first day of each month, with tokens purchased by the Prime Agent on the open market and transferred to an address designated by Sky Core in [A.2.2.6.1.1 - Sky Core-Designated Address](3b05c60a-4f95-4dd8-bfaf-409a9f39ee9f).
+The Ecosystem Upkeep Fee Primitive requires Prime Agents to pay an annual fee equivalent to 50 basis points (bps) (0.50%) of their market capitalization to Sky, payable in USDS and accounted for monthly. The annual fee of 50 basis points (bps) (0.50%) of the market capitalization is divided into twelve (12) equal monthly payments. Payments must occur on the first day of each month, with the fee transferred to an address designated by Sky Core in [A.2.2.6.1.1 - Sky Core-Designated Address](2a5f0e38-e51a-4a68-a4b8-1a912b8bb12e).
 
-Prime Agents choose between fulfilling either the Distribution Requirement Primitive or the Market Cap Fee Primitive.
-
-##### A.2.2.6.1.1 - Sky Core-Designated Address [Core]  <!-- UUID: 3b05c60a-4f95-4dd8-bfaf-409a9f39ee9f -->
-
-The address to which tokens must be transferred will be specified in a future iteration of the Atlas.
-
-##### A.2.2.6.1.2 - Calculation of Distributed Tokens [Core]  <!-- UUID: ef26607b-9635-4d42-a2cf-6c755f53883a -->
-
-The value of the distributed tokens is calculated as the number of tokens distributed, multiplied by the Time-Weighted Average Price (TWAP) of the token over the 24-hour period ending at 23:59 UTC on the last day of each month, immediately preceding the distribution event. This value is applied in the rebate calculation under the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
-
-#### A.2.2.6.2 - Market Cap Fee Primitive [Core]  <!-- UUID: a21616f4-1611-4e0b-87b2-efbdff9f6f28 -->
-
-The Market Cap Fee Primitive requires Prime Agents to pay an annual fee equivalent to 0.30% of their market capitalization to Sky, accounted for monthly. The annual fee of 0.30% of the market capitalization is divided into twelve (12) equal monthly payments, equating to 0.025% of the market capitalization per month. Payments must occur on the first day of each month, with the fee transferred to an address designated by Sky Core in [A.2.2.6.2.1 - Sky Core-Designated Address](2a5f0e38-e51a-4a68-a4b8-1a912b8bb12e).
-
-Prime Agents choose between fulfilling either the Distribution Requirement Primitive or the Market Cap Fee Primitive.
-
-##### A.2.2.6.2.1 - Sky Core-Designated Address [Core]  <!-- UUID: 2a5f0e38-e51a-4a68-a4b8-1a912b8bb12e -->
+##### A.2.2.6.1.1 - Sky Core-Designated Address [Core]  <!-- UUID: 2a5f0e38-e51a-4a68-a4b8-1a912b8bb12e -->
 
 The address to which the fee must be transferred will be specified in a future iteration of the Atlas.
 
-##### A.2.2.6.2.2 - Valuation [Core]  <!-- UUID: 4b856873-8c6a-449a-8ca6-487d8fed9029 -->
+##### A.2.2.6.1.2 - Valuation [Core]  <!-- UUID: 4b856873-8c6a-449a-8ca6-487d8fed9029 -->
 
-The market capitalization is determined as the total token supply multiplied by the TWAP of the token over the 24-hour period ending at 23:59 UTC on the last day of each month, immediately preceding the payment event. This value is applied in the rebate calculation under the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
+The market capitalization is determined as the total token supply multiplied by the TWAP of the token over the 24-hour period ending at 23:59 UTC on the last day of each month, immediately preceding the payment event. This value is applied in the rebate calculation under the Upkeep Rebate Primitive. See [A.2.2.6.2 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
-#### A.2.2.6.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: 569e1c2b-0e69-43e7-8491-06cc5f7d2988 -->
+#### A.2.2.6.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: 569e1c2b-0e69-43e7-8491-06cc5f7d2988 -->
 
 The Upkeep Rebate Primitive allows a Prime Agent ("Holding Agent") to claim a rebate on its Ecosystem Upkeep Fees when it holds any portion of the token supply of another Prime Agent ("Issuing Agent").
 
 Ecosystem Upkeep Fees are accounted on a monthly basis. The Upkeep Rebate is calculated on the same cadence per Holding Agent as follows:
 
 1. The Holding Agent’s share of the Issuing Agent’s token supply at the time the Issuing Agent pays its Ecosystem Upkeep Fees, multiplied by
-2. The total monthly Ecosystem Upkeep Fees paid by the Issuing Agent. For a Prime Agent deploying the Distribution Requirement Primitive, the value of its total monthly Ecosystem Upkeep Fee is calculated pursuant to [A.2.2.6.1.2 - Calculation of Distributed Tokens](ef26607b-9635-4d42-a2cf-6c755f53883a). For a Prime Agent deploying the Market Cap Fee Primitive, the value of its total monthly Ecosystem Upkeep Fee is calculated pursuant to [A.2.2.6.2.2 - Valuation](4b856873-8c6a-449a-8ca6-487d8fed9029).
+2. The total monthly Ecosystem Upkeep Fees paid by the Issuing Agent, calculated as specified in [A.2.2.6.1.2 - Valuation](4b856873-8c6a-449a-8ca6-487d8fed9029).
 
 This resulting rebate amount is applied against the Holding Agent’s Ecosystem Upkeep Fees due in the calendar month immediately following the Issuing Agent’s payment.
 
@@ -9327,6 +9452,7 @@ The current Active Pioneer Primes are:
 
 - Keel
 - Grove
+- Launch Agent 6
 
 ###### A.2.2.8.3.1.3 - Pioneer Prime Benefits [Core]  <!-- UUID: f0d5ab5e-bf35-4a9d-a73f-d82baac6e604 -->
 
@@ -9342,7 +9468,7 @@ For purposes of [A.2.2.8.3.1.3 - Pioneer Prime Benefits](f0d5ab5e-bf35-4a9d-a73f
 
 ###### A.2.2.8.3.1.4 - Pioneer Incentive Pool [Core]  <!-- UUID: 04edac33-19d5-4a87-a8ab-945a0cd57771 -->
 
-All Pioneer Incentive payments are paid through the Monthly Settlement Cycle. Each Monthly Settlement Cycle, an amount of funds equivalent to the Sky Savings Rate multiplied by the balance of Unrewarded USDS is paid into a separate account controlled by the Pioneer Prime (the "Pioneer Incentive Pool"). 80% of the funds going to the Pioneer Incentive Pool are not the property of the Pioneer Primes and must instead be used as incentives to promote general adoption of USDS on the Pioneer Chain. This must provide general benefit for the sake of growing USDS activity on the Pioneer Chain and cannot be biased towards benefiting the Pioneer Prime. The remaining 20% of the funds going to the Pioneer Incentive Pool may be retained by the Pioneer Prime as income.
+All Pioneer Incentive payments are paid through the Monthly Settlement Cycle. Each Monthly Settlement Cycle, an amount of funds equivalent to the Sky Savings Rate multiplied by the balance of Unrewarded USDS is paid into a separate account controlled by the Pioneer Prime (the "Pioneer Incentive Pool"). The Pioneer Prime retains one hundred percent (100%) of the funds in the Pioneer Incentive Pool.
 
 ###### A.2.2.8.3.1.4.1 - Pre-Pioneer Incentive Pool [Core]  <!-- UUID: 15e14f25-8d56-4699-ac37-0cef4f0503c5 -->
 
@@ -9829,7 +9955,7 @@ The Core Governance Reward Primitive is a reward that Sky pays to Prime Agents t
 
 ##### A.2.2.10.1.1 - Reward Pool [Core]  <!-- UUID: 111bedd1-35aa-4c72-91e1-963550d909bf -->
 
-The total reward pool for the Core Governance Reward Primitive is 1% of the Net Revenue of Sky. Of this, 0.5% is paid to Integrators that maintain frontends that facilitate accessible governance, with the other 0.5% paid to the Prime Agents that manage the relationship with those Integrators. [See A.2.3.1.2.2.4 - Governance Accessibility Rewards Paid To Integrators](6c215fd3-61c1-4ee5-b326-a180fe0fc768) and [A.2.3.1.2.2.5 - Governance Accessibility Rewards Paid To Prime Agents](e7fd952e-5298-4928-82ea-992f18bea319).
+The total reward pool for the Core Governance Reward Primitive is 1% of the Net Revenue of Sky, funded out of the Core Council Allocation (see [A.2.3.1.2.2.2 - Core Council Allocation](91b281c2-0687-45a3-939d-0480c7c33f9f)). Of this, 0.5% is paid to Integrators that maintain frontends that facilitate accessible governance, with the other 0.5% paid to the Prime Agents that manage the relationship with those Integrators.
 
 ##### A.2.2.10.1.2 - Eligible Recipients [Core]  <!-- UUID: a59cee2a-864e-4dbb-9364-bdf121573cb2 -->
 
@@ -9877,6 +10003,10 @@ The amount of SKY staked through each eligible frontend is tracked using Reward 
 
 All distributions to a Prime Agent and Integrators managed by it are paid to the Prime Agent. The Prime Agent is then responsible for paying the portion due to each Integrator it manages.
 
+##### A.2.2.10.1.5 - Retroactive Effectiveness [Core]  <!-- UUID: b3f97303-4d41-497c-b931-9337c518bd7e -->
+
+The allocations to the Core Governance Reward Primitive are effective retroactive to May 19, 2025. Amounts accrued and not yet disbursed are funded out of the Core Council Buffer (see [A.2.3.1.2.2.2.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)).
+
 ## A.2.3 - Treasury Management [Article]  <!-- UUID: 6c0af059-5d33-4e2b-90f1-1606957b8f85 -->
 
 The Sky Treasury Management Function defines how all Net Revenue of the Sky Protocol is distributed among various downstream functions or buffers. This ensures that all necessary functions are adequately funded, allowing all actors to focus on growing the ecosystem in a positive sum way.
@@ -9897,7 +10027,7 @@ The documents herein define the allocation steps of the Sky Treasury Management 
 
 The sole function of Step 0 is to establish the Net Revenue of the Sky Protocol. It performs no allocations to downstream functions or buffers, unlike subsequent steps for which this Net Revenue serves as the input.
 
-All items of Income and Expense are recognized on a "cash basis" based on when USDS/DAI enter or leave the Sky Surplus Buffer. Transfers out of accounts other than the Sky Surplus Buffer are not recognized as Expenses, except as provided in [A.2.3.1.4.1.1.1.6.4 - Expense Recognition For Legacy Account Consolidation](1760b35f-da5a-4504-a014-dd7a611b4c0e).
+All items of Income and Expense are recognized on a "cash basis" based on when USDS/DAI enter or leave the Sky Surplus Buffer. Transfers out of accounts other than the Sky Surplus Buffer are not recognized as Expenses, except as provided in [A.2.3.1.2.2.2.1.6.4 - Expense Recognition For Legacy Account Consolidation](1760b35f-da5a-4504-a014-dd7a611b4c0e).
 
 ###### A.2.3.1.2.1.1 - Net Revenue [Core]  <!-- UUID: bddce7bf-c568-444b-b196-e15a99016696 -->
 
@@ -9913,7 +10043,7 @@ Stability Fees are the fees that Sky Core charges Prime Agents to borrow from Sk
 
 ###### A.2.3.1.2.1.2.2 - Internal Senior Risk Capital Income [Core]  <!-- UUID: 02b5422a-093d-4e21-86ff-5cfcd5af8ed5 -->
 
-Internal Senior Risk Capital income is the revenue attributed to Sky from the total payments made by Primes for Originated Senior Risk Capital (OSRC). ISRC itself comprises surplus capital allocated from designated buffers funded by the Sky Treasury Management Function. While Primes pay a single clearing price for their OSRC based on the monthly Origination Process, the total revenue received by Sky is subsequently allocated proportionally, with the portion corresponding to ISRC's share of the Total Senior Risk Capital (TSRC) pool designated as ISRC Income. See [A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital From Surplus Buffers](ac7a6636-acbc-40c9-abc1-4543c0beb300).
+Internal Senior Risk Capital income is the revenue attributed to Sky from the total payments made by Primes for Originated Senior Risk Capital (OSRC). ISRC itself is sourced from Aggregate Backstop Capital, as specified in [A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital](ac7a6636-acbc-40c9-abc1-4543c0beb300). While Primes pay a single clearing price for their OSRC based on the monthly Origination Process, the total revenue received by Sky is subsequently allocated proportionally, with the portion corresponding to ISRC's share of the Total Senior Risk Capital (TSRC) pool designated as ISRC Income.
 
 ###### A.2.3.1.2.1.2.3 - External Senior Risk Capital Fees [Core]  <!-- UUID: f01ce2f4-6bbe-4d70-8b22-edb80d8fb624 -->
 
@@ -9963,250 +10093,43 @@ Reimbursement Rewards are paid to Prime Agents to reimburse them for the costs o
 
 Pioneer Rewards are paid to Pioneer Primes as specified in [A.2.2.8.3.1.4 - Pioneer Incentive Pool](04edac33-19d5-4a87-a8ab-945a0cd57771).
 
-##### A.2.3.1.2.2 - Step 1: Security And Stability Maintenance [Core]  <!-- UUID: 324e9d22-70fe-4e44-82ab-118815f5c42e -->
+##### A.2.3.1.2.2 - Step 1: Security And Maintenance [Core]  <!-- UUID: 324e9d22-70fe-4e44-82ab-118815f5c42e -->
 
-All of the Net Revenue from Step 0 ([A.2.3.1.2.1.1 - Net Revenue](bddce7bf-c568-444b-b196-e15a99016696)) becomes Step 1 Capital. 10% of Step 1 Capital is allocated for security and stability maintenance as specified in the documents herein. The remaining 90% of Step 1 Capital becomes Step 2 Capital and is allocated as specified in [A.2.3.1.2.3 - Step 2: High Activity Staking Rewards](b560829c-f8ea-4e44-a96f-a0d51d9f437b).
+All of the Net Revenue from Step 0 (see [A.2.3.1.2.1.1 - Net Revenue](bddce7bf-c568-444b-b196-e15a99016696)) becomes Step 1 Capital. Twenty percent (20%) of Step 1 Capital is allocated for security and maintenance of the Sky Ecosystem as specified in the documents herein. The remaining eighty percent (80%) of Step 1 Capital becomes Step 2 Capital and is allocated as specified in [A.2.3.1.2.3 - Step 2: Aggregate Backstop Capital](2b28d464-e683-48ba-9a66-2fee05ea0a88).
 
-###### A.2.3.1.2.2.1 - Core Executor Budget [Core]  <!-- UUID: fbd3df2a-f476-431e-881e-8fb18ed0458c -->
+###### A.2.3.1.2.2.1 - Fortification Foundation Allocation [Core]  <!-- UUID: 728ea3d3-606a-4080-bc56-4a9e2c7fecb3 -->
 
-Up to 5% of Step 1 Capital is allocated to the Core Executor Budget. This budget funds active Core Executor Agents responsible for the continuous improvement of the Atlas, including the risk management framework and other critical components.
+Ten percent (10%) of Step 1 Capital is allocated to the Fortification Foundation, covering legal defense, resilience, unquantifiable risk management, and protocol development and growth. See [A.2.13.1.2 - Fortification Foundation Grants](ec2ebbba-6944-44cb-a04d-4572c6bea1e7). Until the Fortification Foundation is fully operational, this allocation may be directed to the Sky Frontier Foundation on an interim basis.
 
-###### A.2.3.1.2.2.1.1 - Voluntary Reduction By Core Executor Agents [Core]  <!-- UUID: e8e8759c-5e43-411b-b07d-3d4e173ba742 -->
+###### A.2.3.1.2.2.2 - Core Council Allocation [Core]  <!-- UUID: 91b281c2-0687-45a3-939d-0480c7c33f9f -->
 
-The Core Executor Agents may agree to voluntarily reduce their budget below 5% when applying for a Core Executor Slot in order to increase their chances of being elected to a Core Executor Slot. To the extent that Core Executor Agents reduce their budget, Step 2 Capital is increased by a corresponding amount. The mechanism by which Core Executor Agents are elected will be specified in a future iteration of the Atlas.
+Ten percent (10%) of Step 1 Capital is allocated to the Core Council, which directs these funds across governance operations and development work. This allocation funds, without limitation, active Core Executor Agents, Core Executor Agents whose terms have ended in the last four (4) years, Aligned Delegates, the Core Governance Reward Primitive (see [A.2.2.10.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a)), and grants to the Sky Frontier Foundation (see [A.2.13.1.1 - Sky Frontier Foundation Grants](1f5d9b2d-d94d-4945-bcf5-74b9152de90c)). At the discretion of the Core Council, funds may be allocated to pay these recipients directly or to fund the Core Council Buffer (see [A.2.3.1.2.2.2.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)) and Aligned Delegates Buffer (see [A.2.3.1.2.2.2.2 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a)) for subsequent disbursement.
 
-###### A.2.3.1.2.2.2 - Core Executor Reward [Core]  <!-- UUID: c5b70fe8-ba96-45b9-b0bd-48c108e37c64 -->
+The Core Council is authorized to direct grants from this allocation to the Sky Frontier Foundation without a separate governance decision for each grant.
 
-Up to 3% of Step 1 Capital is allocated to Core Executor Agents whose terms have ended in the last four (4) years. This incentivizes Core Executor Agents to increase the long term profitability of the Sky Ecosystem during their Core Executor Slot terms, as the Core Executor Reward is a percentage of future Net Revenue.
+The specific allocation among the components of the Core Council Allocation, including the mechanism by which Core Executor Agents are elected to Core Executor Slots, will be specified in a future iteration of the Atlas.
 
-###### A.2.3.1.2.2.3 - Aligned Delegates [Core]  <!-- UUID: 07fb6ac1-0727-4c8e-a0b3-10b5becdbe4d -->
-
-Up to 1% of Step 1 Capital is allocated to Aligned Delegates.
-
-###### A.2.3.1.2.2.3.1 - Voluntary Reduction By Aligned Delegates [Core]  <!-- UUID: 0ba59921-e125-45a2-aa6c-7ec55fba7911 -->
-
-Aligned Delegates may agree to voluntarily reduce their compensation in order to incentivize SKY holders to delegate to them. To the extent that Aligned Delegates reduce their compensation, Step 2 Capital is increased by a corresponding amount. The mechanism by which Aligned Delegates may agree to reduce their compensation will be specified in a future iteration of the Atlas.
-
-###### A.2.3.1.2.2.4 - Governance Accessibility Rewards Paid To Integrators [Core]  <!-- UUID: 6c215fd3-61c1-4ee5-b326-a180fe0fc768 -->
-
-0.5% of Step 1 Capital is allocated to frontends and other Integrators that facilitate accessible governance, following security and information standards specified in the Atlas. These standards will be specified in a future iteration of the Atlas. See [A.2.2.10.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
-
-###### A.2.3.1.2.2.5 - Governance Accessibility Rewards Paid To Prime Agents [Core]  <!-- UUID: e7fd952e-5298-4928-82ea-992f18bea319 -->
-
-0.5% of Step 1 Capital is allocated to Prime Agents that manage the rewards for Governance Integrators, incentivizing the active participation of Prime Agents. See [A.2.3.1.2.2.4 - Governance Accessibility Rewards Paid To Integrators](6c215fd3-61c1-4ee5-b326-a180fe0fc768).
-
-##### A.2.3.1.2.3 - Step 2: High Activity Staking Rewards [Core]  <!-- UUID: b560829c-f8ea-4e44-a96f-a0d51d9f437b -->
-
-5% of the Step 2 Capital is allocated to High Activity Staking Rewards ("HASR") as specified in the documents herein. The remaining 95% of Step 2 Capital becomes Step 3 Capital.
-
-###### A.2.3.1.2.3.1 - Purpose [Core]  <!-- UUID: e0aa549a-f430-4e5a-bec1-170894b8dce4 -->
-
-High Activity Staking Rewards provide a boosted staking reward to SKY stakers that delegate their SKY through compliant Governance Accessibility frontends and provide feedback to their delegates every three (3) months. This ensures that there is a minimum amount of SKY that is always actively following current events and governance to detect potential misalignment or buildup of hidden risks.
-
-###### A.2.3.1.2.3.2 - Funding Of High Activity Staking Rewards Buffer [Core]  <!-- UUID: a7b1f2b2-b0c7-4440-8f83-b2bf496be2df -->
-
-5% of the Step 2 Capital is allocated to funding the High Activity Staking Rewards Buffer (HASRB) linearly over the course of the month. Funds from the High Activity Staking Rewards Buffer are then paid out to Governance Accessibility Integrators as specified in [A.2.3.1.2.3.3 - Payout From High Activity Staking Rewards Buffer](6e857f3d-1e5c-4a47-943d-439b1d0d87ea). Governance Accessibility Integrators are in turn responsible for distributing those funds to High Activity Stakers as specified in [A.2.3.1.2.3.4 - High Activity Staker Qualification](8e83f80f-5606-41a7-bc90-d79df38b55fe).
-
-###### A.2.3.1.2.3.3 - Payout From High Activity Staking Rewards Buffer [Core]  <!-- UUID: 6e857f3d-1e5c-4a47-943d-439b1d0d87ea -->
-
-The High Activity Staking Rewards distribution occurs linearly over the course of each month. The total amount distributed equals the lesser of 1) 5% of Step 2 Capital, or 2) 15% of the current High Activity Staking Rewards Buffer, with a minimum floor of 5% of HASRB.
-
-In periods of high profitability, funds build up in the High Activity Staking Rewards Buffer. Then in periods of low profitability these funds are paid out from the High Activity Staking Rewards Buffer, ensuring that there is a continued incentive for active involvement in governance even in periods of low profitability to maintain security.
-
-###### A.2.3.1.2.3.4 - High Activity Staker Qualification [Core]  <!-- UUID: 8e83f80f-5606-41a7-bc90-d79df38b55fe -->
-
-To qualify as High Activity Stakers, SKY stakers must satisfy two criteria as specified in the documents herein.
-
-###### A.2.3.1.2.3.4.1 - High Activity Stakers Must Stake Through Compliant Governance Accessibility Frontend [Core]  <!-- UUID: 38ff7f6d-de6b-429c-bed7-d1be1f256d37 -->
-
-High Activity Stakers must stake through Governance Accessibility frontends that comply with security and information standards specified in the Atlas.
-
-###### A.2.3.1.2.3.4.2 - High Activity Stakers Must Continuously Provide Input On Executor Agents [Core]  <!-- UUID: ca697069-146e-4391-831f-50f05dbff24b -->
-
-High Activity Stakers must continuously provide input on the work of Executor Agents. In this way High Activity Stakers monitor the performance of Executor Agents just as Executor Agents monitor the performance of Prime Agents.
-
-###### A.2.3.1.2.3.4.2.1 - Input Methods [Core]  <!-- UUID: e5e0b4cd-fefd-4677-8e65-7482498add30 -->
-
-The methods for High Activity Stakers to provide their input will be specified in a future iteration of the Atlas, but may for instance include filling out AI generated questionnaires or other easily measurable and easy to complete tasks. The Core Executor Agents must continuously improve these input methods.
-
-##### A.2.3.1.2.4 - Step 3: Stability Capital Retention [Core]  <!-- UUID: 5ece5d43-8d6c-41ab-9b90-b8778f325909 -->
-
-A percentage of the Step 3 Capital equal to the Stability Capital Retention ("SCR") is allocated to funding the Stability Capital Buffer. The remaining percentage becomes Step 4 Capital.
-
-###### A.2.3.1.2.4.1 - Stability Capital Buffer [Core]  <!-- UUID: 9655da22-1940-481f-a8fc-e202ab09b7b8 -->
-
-The Stability Capital Buffer is the surplus of the Sky Protocol that is able to be the final absorber of losses in the case of unsuccessful liquidation of failed Prime Agents. See [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294).
-
-###### A.2.3.1.2.4.2 - Stability Capital Retention [Core]  <!-- UUID: 6bb2c75a-ff51-4846-9d99-c0456b2d8cf8 -->
-
-The Stability Capital Retention (`SCR`) is calculated according to the following formula:
-
-`SCR = (1 - ((SCB / TS) / TSCB)) * RF`.
-
-Where:
-
-- SCB = Current Stability Capital Buffer,
-- TS = Total USDS supply,
-- TSCB = Target Stability Capital Buffer,
-- RF = Retention Factor.
-
-This formula dynamically adjusts capital retention based on the current buffer status:
-
-1. When SCB/TS equals TSCB (buffer at target), SCR equals zero.
-2. When SCB/TS is below TSCB, SCR increases proportionally to the shortfall.
-3. The maximum possible retention is capped by the Retention Factor (RF).
-
-This ensures that capital retention automatically scales with urgency - the further the Stability Capital Buffer falls below its target percentage of total supply, the greater the portion of capital retained.
-
-The parameters for calculating the `SCR` are further defined in the documents herein.
-
-###### A.2.3.1.2.4.2.1 - Current Stability Capital Buffer [Core]  <!-- UUID: 119eb3d9-6b14-42aa-86a6-e1ba2275c912 -->
-
-The Current Stability Capital Buffer (`SCB`) is the current level of the Stability Capital Buffer.
-
-###### A.2.3.1.2.4.2.2 - Total USDS Supply [Core]  <!-- UUID: e95c6308-c620-45af-be27-7bac5ad12889 -->
-
-The total USDS Supply (`TS`) is the total supply of USDS.
-
-###### A.2.3.1.2.4.2.3 - Target Stability Capital Buffer [Core]  <!-- UUID: eda13fef-866d-4b0f-955c-06105ba86d86 -->
-
-The Target Stability Capital Buffer (`TSCB`) is the Target level of the Stability Capital Buffer, expressed as a percentage of the total supply of USDS. It is calculated according to the following formula:
-
-`TCSB = 0.75% + (TS * 1.4e-14)`.
-
-The `TSCB` cannot exceed 5%.
-
-This formula begins with a Target Stability Capital Buffer of 0.75% and gradually increases this as the Total USDS Supply increases, reflecting the fact that a greater capital buffer is required as USDS becomes more systemically important.
-
-For example, with USDS Supply of 8 billion, the Target Stability Capital Buffer would be approximately 0.76%.
-
-###### A.2.3.1.2.4.2.4 - Retention Factor [Core]  <!-- UUID: 14646a34-1c61-4927-98df-a429e7293be2 -->
-
-The Retention Factor is a factor representing how aggressively capital should be retained to fund the Stability Capital Buffer. It is calculated according to the following formula:
-
-`RF = 25% + (TS * 1.6e-13)`.
-
-The `RF` cannot exceed 75%.
-
-The Retention Factor starts at 25% and scales upward with Total USDS Supply, recognizing that capital accumulation becomes more critical as USDS gains in systemic importance.
-
-For example, with USDS Supply of 8 billion, the Retention Factor would be approximately 26%.
-
-##### A.2.3.1.2.5 - Step 4: Smart Burn And Standard Activity Staking Rewards [Core]  <!-- UUID: 99d40e56-7433-4abd-9674-7783627feec0 -->
-
-Any remaining funds in Step 4 Capital are allocated as specified in the documents herein.
-
-###### A.2.3.1.2.5.1 - Smart Burn Buffer [Core]  <!-- UUID: c2a0ca01-ffea-46ee-8077-e46e0510d097 -->
-
-80% of Step 4 Capital is allocated to the Smart Burn Buffer, as specified in the documents herein.
-
-###### A.2.3.1.2.5.1.1 - Purpose [Core]  <!-- UUID: e95b1080-5b70-4941-9025-0269ae2680fb -->
-
-The Smart Burn Engine uses the Smart Burn Buffer to buy and burn SKY using an intelligent algorithm, buying more when the price is low and retaining capital when the price is high to buy later at favorable prices.
-
-###### A.2.3.1.2.5.1.2 - Usage Of Smart Burn Buffer [Core]  <!-- UUID: 7295761a-e72b-4b32-9345-b229b46566d1 -->
-
-The Smart Burn Engine only buys and burns SKY when the Market Capitalization (`MC`) is below the Target Market Capitalization (`TMC`). The percentage of the Smart Burn Buffer (`Burn Rate`) that is used to buy and burn SKY each Monthly Settlement Cycle is calculated according to the following formula:
-
-`Burn Rate = (1 - MC / TMC) * 50%`.
-
-The parameters for calculating the `Burn Rate` are defined in the documents herein.
-
-Conceptually, this formula buys more SKY the further the Market Capitalization is below the Target Market Capitalization.
-
-###### A.2.3.1.2.5.1.2.1 - Target Market Capitalization [Core]  <!-- UUID: 86b0554d-4f34-412f-9519-448e9602aa2e -->
-
-The Target Market Capitalization (`TMC`) is calculated according to the following formula:
-
-`TMC = 8.5 + (200 * growth_rate) * annual_profits`.
-
-The `growth_rate` is the three (3) year moving average historical growth rate of Net Revenue, and `annual_profits` is the one (1) year moving average of Net Revenue.
-
-Conceptually, this formula calculates a target price based on the current earnings of the Sky Protocol and a price to earnings ratio, where the price to earnings ratio is a function of how quickly the Sky Protocol is growing.
-
-###### A.2.3.1.2.5.1.2.1.1 - Continuous Improvement [Core]  <!-- UUID: 194d3ec8-3cb7-48ec-9ab4-5d2cd98c80a7 -->
-
-The Core Executor Agents must continuously improve the Target Market Capitalization formula so that the Smart Burn Engine becomes more efficient over time.
-
-###### A.2.3.1.2.5.1.2.2 - Market Capitalization [Core]  <!-- UUID: 59ea0f2f-5fb6-48fb-87cd-e43d50bc110b -->
-
-The Market Capitalization is the current market capitalization of Sky. It is calculated by multiplying the price of SKY by the total supply of SKY, treating each MKR on an as-converted basis based on the conversion ratio of 24,000 SKY to 1 MKR.
-
-###### A.2.3.1.2.5.2 - Standard Activity Staking Rewards [Core]  <!-- UUID: 67fcd852-0de4-4a16-af84-adce61bf54bd -->
-
-20% of Step 4 Capital is allocated to the Standard Activity Staking Rewards Buffer, as specified in the documents herein.
-
-###### A.2.3.1.2.5.2.1 - Purpose [Core]  <!-- UUID: 46e90503-0b49-4b29-b3e5-93c8fa5907ea -->
-
-Standard Activity Staking Rewards (SASR) provide rewards to users who contribute to security by staking and delegating their SKY votes at least once.
-
-###### A.2.3.1.2.5.2.2 - Payout From Standard Activity Staking Rewards Buffer [Core]  <!-- UUID: e288b944-759e-4d30-8db7-b59de7b5f912 -->
-
-The Standard Activity Staking Reward Distribution occurs linearly over the course of each month. The monthly payout from the Standard Activity Staking Rewards Buffer (SASRB) is equal to the lesser of (1) 20% of Step 4 Capital, or (2) 15% of the SASRB, with a minimum floor of 5% of the SASRB.
-
-In periods of high profitability, funds build up in the Standard Activity Staking Rewards Buffer. Then in periods of low profitability these funds are paid out from the Standard Activity Staking Rewards Buffer, ensuring that there is a continued incentive for involvement in governance even in periods of low profitability to maintain security.
-
-###### A.2.3.1.2.5.2.3 - Standard Activity Staker Qualification [Core]  <!-- UUID: a22d900a-d15c-41f0-af90-eec23112dcb6 -->
-
-SKY that is both staked and delegated to an Aligned Delegate will qualify for Standard Activity Staking Rewards.
-
-#### A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital From Surplus Buffers [Core]  <!-- UUID: ac7a6636-acbc-40c9-abc1-4543c0beb300 -->
-
-Internal Senior Risk Capital (ISRC) consists of a portion of the excess capital of the Sky Protocol that is reinvested in providing Senior Risk Capital to Prime Agents. ISRC is sourced from the various Buffers defined in [A.2.3.1.2 - Allocation Steps](7932c8f3-ce44-49ea-adc4-f6391c621c6e), according to the specifications of the subdocuments below.
-
-##### A.2.3.1.3.1 - USDS in High Activity Staking Rewards Buffer [Core]  <!-- UUID: d161c882-9c51-4acd-8b9c-8e9503cdabb4 -->
-
-All USDS in the High Activity Staking Rewards Buffer is used for Internal Senior Risk Capital.
-
-##### A.2.3.1.3.2 - USDS In Standard Activity Staking Rewards Buffer [Core]  <!-- UUID: 039337f5-1c23-4081-9277-f8a2973fba1d -->
-
-All USDS in the Standard Activity Staking Rewards Buffer is used for Internal Senior Risk Capital.
-
-##### A.2.3.1.3.3 - USDS In Smart Burn Buffer [Core]  <!-- UUID: d023d8e7-9df2-41f4-996f-9465f4fb0cf2 -->
-
-All USDS in the Smart Burn Buffer is used for Internal Senior Risk Capital.
-
-##### A.2.3.1.3.4 - USDS In Stability Capital Buffer Above Target [Core]  <!-- UUID: b601b750-476d-4d3d-a9f8-7bd1c5a9541a -->
-
-All USDS in the Stability Capital Buffer above the Stability Capital Buffer Target is used for Internal Senior Risk Capital. Since this capital is already above the optimal target to absorb risk it can be redirected to a more efficient use.
-
-##### A.2.3.1.3.5 - USDS In Stability Capital Buffer Below Target [Core]  <!-- UUID: 9d13741d-236f-4c34-b437-cf422e3a39f4 -->
-
-One third of the USDS in the Stability Capital Buffer below the Stability Capital Buffer Target is also used for Internal Senior Risk Capital. This ensures that there is always some Internal Senior Risk Capital to drive the growth of the ecosystem.
-
-#### A.2.3.1.4 - Short Term Transitionary Measures [Core]  <!-- UUID: a0186d71-d5f6-4643-a5c5-8fcf6c2625f8 -->
-
-As a short-term transitionary measure, the net revenue of the Sky Protocol is currently allocated through the allocation steps defined above with the modifications specified in the documents herein.
-
-##### A.2.3.1.4.1 - Allocation Of Step 1 Capital [Core]  <!-- UUID: 76eab64d-a5ba-4f3c-a295-bde0e444d0df -->
-
-In the short term, 22% of Step 1 Capital is allocated as specified in the documents herein. The remaining 78% of Step 1 Capital becomes Step 4 Capital and is allocated as specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3).
-
-###### A.2.3.1.4.1.1 - Allocation To Core Council Buffer [Core]  <!-- UUID: c46c7059-4ec1-4966-8382-d9e2e851d616 -->
-
-20% of Step 1 Capital is allocated to the Core Council Buffer, as specified in the documents herein.
-
-###### A.2.3.1.4.1.1.1 - Core Council Buffer [Core]  <!-- UUID: 8b6781d7-f35c-4ffe-b8ed-299fa98e3da7 -->
+###### A.2.3.1.2.2.2.1 - Core Council Buffer [Core]  <!-- UUID: 8b6781d7-f35c-4ffe-b8ed-299fa98e3da7 -->
 
 The Core Council Buffer is a multisig used to transfer funds on behalf of the Core Council.
 
-###### A.2.3.1.4.1.1.1.1 - Core Council Buffer Multisig Address [Core]  <!-- UUID: af082bd0-fdcd-4ec1-980a-7fce50e77ed1 -->
+###### A.2.3.1.2.2.2.1.1 - Core Council Buffer Multisig Address [Core]  <!-- UUID: af082bd0-fdcd-4ec1-980a-7fce50e77ed1 -->
 
 The address of the Core Council Buffer Multisig on the Ethereum Mainnet is `0x210CFcF53d1f9648C1c4dcaEE677f0Cb06914364`.
 
-###### A.2.3.1.4.1.1.1.2 - Core Council Buffer Multisig Required Number Of Signers [Core]  <!-- UUID: 7f9cc28d-75af-4fe0-b090-8c85cda9656a -->
+###### A.2.3.1.2.2.2.1.2 - Core Council Buffer Multisig Required Number Of Signers [Core]  <!-- UUID: 7f9cc28d-75af-4fe0-b090-8c85cda9656a -->
 
 The Core Council Buffer Multisig has a 5/6 signing requirement.
 
-###### A.2.3.1.4.1.1.1.3 - Core Council Buffer Multisig Signers [Core]  <!-- UUID: 5aeba17d-3869-447d-adcd-8c55f41afc01 -->
+###### A.2.3.1.2.2.2.1.3 - Core Council Buffer Multisig Signers [Core]  <!-- UUID: 5aeba17d-3869-447d-adcd-8c55f41afc01 -->
 
 The signers of the Core Council Buffer Multisig are two (2) addresses controlled by the Core Facilitator, three (3) addresses controlled by Core GovOps, and one (1) address controlled by Operational GovOps Soter Labs.
 
-###### A.2.3.1.4.1.1.1.4 - Core Council Buffer Multisig Usage Standards [Core]  <!-- UUID: dc6474f6-d285-4e1e-9902-406def4b72be -->
+###### A.2.3.1.2.2.2.1.4 - Core Council Buffer Multisig Usage Standards [Core]  <!-- UUID: dc6474f6-d285-4e1e-9902-406def4b72be -->
 
 The signers must use the Core Council Buffer Multisig to disburse funds on behalf of the Core Council.
 
-###### A.2.3.1.4.1.1.1.5 - Core Council Buffer Multisig Modification [Core]  <!-- UUID: a56fe3ee-c11a-4df0-9cc3-677688c5563d -->
+###### A.2.3.1.2.2.2.1.5 - Core Council Buffer Multisig Modification [Core]  <!-- UUID: a56fe3ee-c11a-4df0-9cc3-677688c5563d -->
 
 The signers can change the signers of the Core Council Buffer Multisig so long as:
 
@@ -10214,55 +10137,51 @@ The signers can change the signers of the Core Council Buffer Multisig so long a
 - exactly five (5) signers are required to execute transactions; and
 - two (2) signers are controlled by the Core Facilitator, three (3) signers are controlled by Core GovOps, and one (1) signer is controlled by Operational GovOps Soter Labs.
 
-###### A.2.3.1.4.1.1.1.6 - Consolidation Of Funds From Legacy Accounts [Core]  <!-- UUID: 8c8778c4-ff4c-4add-ae03-5f32a052f433 -->
+###### A.2.3.1.2.2.2.1.6 - Consolidation Of Funds From Legacy Accounts [Core]  <!-- UUID: 8c8778c4-ff4c-4add-ae03-5f32a052f433 -->
 
-All funds in Legacy Accounts (see [A.2.3.1.4.1.1.1.6.1 - Legacy Accounts](6f7153e1-c535-4a35-a7cf-7a66180a1c0e)) must be consolidated into the Core Council Buffer or the Demand Side Buffer (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) as specified in the documents herein.
+All funds in Legacy Accounts (see [A.2.3.1.2.2.2.1.6.1 - Legacy Accounts](6f7153e1-c535-4a35-a7cf-7a66180a1c0e)) must be consolidated into the Core Council Buffer or the Demand Side Buffer (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) as specified in the documents herein.
 
-###### A.2.3.1.4.1.1.1.6.1 - Legacy Accounts [Core]  <!-- UUID: 6f7153e1-c535-4a35-a7cf-7a66180a1c0e -->
+###### A.2.3.1.2.2.2.1.6.1 - Legacy Accounts [Core]  <!-- UUID: 6f7153e1-c535-4a35-a7cf-7a66180a1c0e -->
 
-Legacy Accounts are all accounts controlled by Sky Core, with the exception of the Core Council Buffer, the Aligned Delegates Buffer (see [A.2.3.1.4.1.2 - Allocation To Aligned Delegates Buffer](2a9bcfb1-4dad-4baf-a09a-e9264b3d17bb)), and the Demand Side Buffer and its auxiliary accounts (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)). This includes, without limitation:
+Legacy Accounts are all accounts controlled by Sky Core, with the exception of the Core Council Buffer, the Aligned Delegates Buffer (see [A.2.3.1.2.2.2.2 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a)), and the Demand Side Buffer and its auxiliary accounts (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)). This includes, without limitation:
 
 - the former Distribution Reward Controller Wallet;
 - the former Integration Boost Wallets; and
 - the Sky Ecosystem Liquidity Bootstrapping Budget (see [A.5.5.1.1 - Sky Ecosystem Liquidity Bootstrapping](cd4ae79c-0e34-4388-8ac2-41d7677bd955)).
 
-###### A.2.3.1.4.1.1.1.6.2 - Ecosystem Actors Must Consolidate All Funds From Legacy Accounts [Core]  <!-- UUID: 294154f2-8d36-4104-a660-89a7b52eeac7 -->
+###### A.2.3.1.2.2.2.1.6.2 - Ecosystem Actors Must Consolidate All Funds From Legacy Accounts [Core]  <!-- UUID: 294154f2-8d36-4104-a660-89a7b52eeac7 -->
 
 Relevant Ecosystem Actors must take all necessary actions to transfer all funds from Legacy Accounts into the Core Council Buffer or the Demand Side Buffer (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)).
 
-###### A.2.3.1.4.1.1.1.6.3 - Legacy Accounts Are Replaced [Core]  <!-- UUID: fae8cff1-5ecc-4f4f-a4e1-622df4112eeb -->
+###### A.2.3.1.2.2.2.1.6.3 - Legacy Accounts Are Replaced [Core]  <!-- UUID: fae8cff1-5ecc-4f4f-a4e1-622df4112eeb -->
 
 All funds that would otherwise be transferred into or out of Legacy Accounts must instead be transferred into or out of the Core Council Buffer or the Demand Side Buffer (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)).
 
-###### A.2.3.1.4.1.1.1.6.4 - Expense Recognition For Legacy Account Consolidation [Core]  <!-- UUID: 1760b35f-da5a-4504-a014-dd7a611b4c0e -->
+###### A.2.3.1.2.2.2.1.6.4 - Expense Recognition For Legacy Account Consolidation [Core]  <!-- UUID: 1760b35f-da5a-4504-a014-dd7a611b4c0e -->
 
 The consolidation of funds from Legacy Accounts into the Core Council Buffer or the Demand Side Buffer (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) is recognized as a one-time expense for purposes of [A.2.3.1.2.1 - Step 0: Net Revenue](c09435ff-d876-442a-899c-ad494175500b). This achieves the same result as if the funds in Legacy Accounts had been returned to the Sky Surplus Buffer and subsequently transferred to the relevant downstream account.
 
-###### A.2.3.1.4.1.2 - Allocation To Aligned Delegates Buffer [Core]  <!-- UUID: 2a9bcfb1-4dad-4baf-a09a-e9264b3d17bb -->
-
-1% of Step 1 Capital is allocated to the Aligned Delegates Buffer, as specified in the documents herein.
-
-###### A.2.3.1.4.1.2.1 - Aligned Delegates Buffer [Core]  <!-- UUID: 05fa5c41-26ca-4c25-94dd-834ef72c318a -->
+###### A.2.3.1.2.2.2.2 - Aligned Delegates Buffer [Core]  <!-- UUID: 05fa5c41-26ca-4c25-94dd-834ef72c318a -->
 
 The Aligned Delegates Buffer is a multisig controlled by the Core Facilitator and Core GovOps to transfer funds to Aligned Delegates.
 
-###### A.2.3.1.4.1.2.1.1 - Aligned Delegates Buffer Multisig Address [Core]  <!-- UUID: 744ffdce-188e-403a-a0f4-532a27879cf5 -->
+###### A.2.3.1.2.2.2.2.1 - Aligned Delegates Buffer Multisig Address [Core]  <!-- UUID: 744ffdce-188e-403a-a0f4-532a27879cf5 -->
 
 The address of the Aligned Delegates Buffer Multisig on the Ethereum Mainnet is `0x37FC5d447c8c54326C62b697f674c93eaD2A93A3`.
 
-###### A.2.3.1.4.1.2.1.2 - Aligned Delegates Buffer Multisig Required Number Of Signers [Core]  <!-- UUID: b3672c98-07ca-488f-8a26-461bf8d14aae -->
+###### A.2.3.1.2.2.2.2.2 - Aligned Delegates Buffer Multisig Required Number Of Signers [Core]  <!-- UUID: b3672c98-07ca-488f-8a26-461bf8d14aae -->
 
 The Aligned Delegates Buffer Multisig has a 3/4 signing requirement.
 
-###### A.2.3.1.4.1.2.1.3 - Aligned Delegates Buffer Multisig Signers [Core]  <!-- UUID: f0652394-ec87-4b08-abed-e15fd0799ab1 -->
+###### A.2.3.1.2.2.2.2.3 - Aligned Delegates Buffer Multisig Signers [Core]  <!-- UUID: f0652394-ec87-4b08-abed-e15fd0799ab1 -->
 
 The signers of the Aligned Delegates Buffer Multisig are two (2) addresses controlled by the Core Facilitator and two (2) addresses controlled by Core GovOps.
 
-###### A.2.3.1.4.1.2.1.4 - Aligned Delegates Buffer Multisig Usage Standards [Core]  <!-- UUID: 3ce8a599-f70b-4dad-9d71-a69d812c4ea8 -->
+###### A.2.3.1.2.2.2.2.4 - Aligned Delegates Buffer Multisig Usage Standards [Core]  <!-- UUID: 3ce8a599-f70b-4dad-9d71-a69d812c4ea8 -->
 
 The Core Facilitator and Core GovOps must use the Aligned Delegates Buffer Multisig to disburse funds to Aligned Delegates.
 
-###### A.2.3.1.4.1.2.1.5 - Aligned Delegates Buffer Multisig Modification [Core]  <!-- UUID: b8b38333-2763-47e1-9e34-0b37c750201a -->
+###### A.2.3.1.2.2.2.2.5 - Aligned Delegates Buffer Multisig Modification [Core]  <!-- UUID: b8b38333-2763-47e1-9e34-0b37c750201a -->
 
 The Core Facilitator and Core GovOps can change the signers of the Aligned Delegates Buffer Multisig so long as:
 
@@ -10270,97 +10189,41 @@ The Core Facilitator and Core GovOps can change the signers of the Aligned Deleg
 - a majority of signers are required to execute transactions; and
 - an equal number of signers are controlled by the Core Facilitator and Core GovOps.
 
-###### A.2.3.1.4.1.3 - Allocation To Governance Accessibility Rewards Paid To Integrators [Core]  <!-- UUID: f7ec7f27-632e-462a-b1e8-32bf557cb51f -->
+##### A.2.3.1.2.3 - Step 2: Aggregate Backstop Capital [Core]  <!-- UUID: 2b28d464-e683-48ba-9a66-2fee05ea0a88 -->
 
-0.5% of Step 1 Capital is allocated to Governance Accessibility Rewards Paid To Integrators, as specified in [A.2.3.1.2.2.4 - Governance Accessibility Rewards Paid To Integrators](6c215fd3-61c1-4ee5-b326-a180fe0fc768).
+Step 1 Capital that remains after the Step 1 allocation becomes Step 2 Capital.
 
-###### A.2.3.1.4.1.4 - Allocation To Governance Accessibility Rewards Paid To Prime Agents [Core]  <!-- UUID: a266adb7-5af2-4aa9-b64e-ed35bac9b6a5 -->
+The allocation of Step 2 Capital depends on the level of Aggregate Backstop Capital (see [A.3.5.3.1.2 - Aggregate Backstop Capital](6dbead44-5ac4-4c5b-be3c-64eddd004e5c)) relative to the Turbo-Fill Floor (see [A.3.5.3.2.2 - Turbo-Fill Floor](db2aaf07-4ebb-4e5d-ae5e-575717d8fbcd)) and the Target Aggregate Backstop Capital (see [A.3.5.3.2.1 - Target Aggregate Backstop Capital](f73dda95-0b1c-4bdc-b957-469253d27281)).
 
-0.5% of Step 1 Capital is allocated to Governance Accessibility Rewards Paid To Prime Agents, as specified in [A.2.3.1.2.2.5 - Governance Accessibility Rewards Paid To Prime Agents](e7fd952e-5298-4928-82ea-992f18bea319).
+When Aggregate Backstop Capital is below the Turbo-Fill Floor, fifty percent (50%) of Step 2 Capital is retained to grow Aggregate Backstop Capital. The remainder of Step 2 Capital becomes Step 3 Capital and is allocated as specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121).
 
-##### A.2.3.1.4.2 - Allocation Of Step 4 Capital [Core]  <!-- UUID: 04bd9df4-275e-4520-83a6-d634aa605fe3 -->
+When Aggregate Backstop Capital is at or above the Turbo-Fill Floor and below the Target Aggregate Backstop Capital, the portion of Step 2 Capital retained to grow Aggregate Backstop Capital is calculated as fifty percent (50%) multiplied by the fill factor, where the fill factor is one (1) minus the ratio of current Aggregate Backstop Capital to the Target Aggregate Backstop Capital. The remainder of Step 2 Capital becomes Step 3 Capital and is allocated as specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121).
 
-In the short term, the allocation of Step 4 Capital evolves through three sequential stages as specified in the documents herein.
+When Aggregate Backstop Capital is at or above the Turbo-Fill Floor and at or above the Target Aggregate Backstop Capital, none of Step 2 Capital is retained; all of Step 2 Capital becomes Step 3 Capital and is allocated as specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121).
 
-###### A.2.3.1.4.2.1 - Stage 0 [Core]  <!-- UUID: d09da2d3-4684-4826-8b8d-01594af2a31c -->
+##### A.2.3.1.2.4 - Step 3: Smart Burn Engine [Core]  <!-- UUID: 5ce73730-4d5d-479c-b01e-40e87f072121 -->
 
-The allocation of Step 4 Capital under Stage 0 is specified in the documents herein.
+Step 3 Capital is allocated as follows:
 
-###### A.2.3.1.4.2.1.1 - Effectiveness [Core]  <!-- UUID: 15d631db-e17d-4ef4-bfcb-0d5d07ece7eb -->
+- Forty-five percent (45%) of Step 3 Capital is used by the Smart Burn Engine to buy back SKY, and the SKY tokens acquired through these buybacks are distributed to SKY stakers as SKY Staking Rewards as specified in [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0).
+- Forty-five percent (45%) of Step 3 Capital is distributed to SKY stakers as USDS Staking Rewards as specified in [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0).
+- Ten percent (10%) of Step 3 Capital is used by the Smart Burn Engine to buy back SKY, and the SKY tokens acquired through these buybacks are burned.
 
-Stage 0 is effective until the activation of Stage 1, as specified in [A.2.3.1.4.2.2.1 - Effectiveness](31e35b53-2843-40ec-8e05-40b270104954).
+The specific parameters governing the execution of Smart Burn Engine buybacks are specified in [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
 
-###### A.2.3.1.4.2.1.2 - SKY Staking Rewards [Core]  <!-- UUID: 2b2c41bf-bfd4-4128-8fed-020da91f166b -->
+##### A.2.3.1.2.5 - Step 4: Staking Rewards [Core]  <!-- UUID: bb163691-630e-4fda-88f1-96381a649fa0 -->
 
-No Step 4 Capital is allocated to SKY staking rewards under Stage 0. Instead, SKY staking rewards are funded from SKY token reserves held by the Protocol Treasury, distributed at a rate equivalent to 75% of Step 4 Capital from the prior Monthly Settlement Cycle, as specified in [A.4.4.1.4 - Short Term Transitionary Measures](22b8f8bf-b477-4439-86f7-ec605d3c657a). The rate is determined by the Core Facilitator in consultation with the Core Council Risk Advisor following each Monthly Settlement Cycle, using the prior Monthly Settlement Cycle's Step 4 Capital and the price of SKY, and is implemented through an Executive Vote.
+Step 4 Capital is distributed to SKY stakers as Staking Rewards. Step 4 Capital comprises (1) USDS allocated from Step 3, distributed as USDS Staking Rewards, and (2) SKY tokens acquired by the Smart Burn Engine through buybacks specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121), distributed as SKY Staking Rewards.
 
-###### A.2.3.1.4.2.1.3 - SKY Buybacks [Core]  <!-- UUID: 4bf2e849-7466-47c9-a7ab-a1c2afbc9c72 -->
+#### A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital [Core]  <!-- UUID: ac7a6636-acbc-40c9-abc1-4543c0beb300 -->
 
-37,600 USDS per day of Step 4 Capital is allocated to SKY buybacks through the Smart Burn Engine. See [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
+Internal Senior Risk Capital (ISRC) consists of a portion of the excess capital of the Sky Protocol that is reinvested in providing Senior Risk Capital to Prime Agents. ISRC is sourced from Aggregate Backstop Capital (see [A.3.5.3.1.2 - Aggregate Backstop Capital](6dbead44-5ac4-4c5b-be3c-64eddd004e5c)) in two components: one hundred percent (100%) of any Aggregate Backstop Capital in excess of the Target Aggregate Backstop Capital (see [A.3.5.3.2.1 - Target Aggregate Backstop Capital](f73dda95-0b1c-4bdc-b957-469253d27281)), plus one third (1/3) of Aggregate Backstop Capital up to the Target Aggregate Backstop Capital.
 
-###### A.2.3.1.4.2.1.4 - USDS Staking Rewards [Core]  <!-- UUID: 03182918-d773-44b1-bdd4-f6fc8427c7f4 -->
+#### A.2.3.1.4 - Implementation [Core]  <!-- UUID: f67a5780-11d5-4014-8254-795080c77133 -->
 
-No Step 4 Capital is allocated to USDS staking rewards under Stage 0.
+The Sky Treasury Management Function is implemented through Executive Votes that update the corresponding on-chain parameters. Changes to the documents herein define the intended operation of the Sky Treasury Management Function; operational effect on the Sky Protocol requires a subsequent Executive Vote. Until such an Executive Vote is executed, prior on-chain parameters remain in force.
 
-###### A.2.3.1.4.2.1.5 - Surplus Buffer Allocation [Core]  <!-- UUID: af3aaa3a-445e-40b9-b74b-f9810cde16b6 -->
-
-After the allocation to SKY buybacks specified above, any remaining Step 4 Capital is allocated to the Surplus Buffer. See [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294).
-
-###### A.2.3.1.4.2.2 - Stage 1 [Core]  <!-- UUID: e59fa8ca-df57-4b62-b87a-c7cfaafe231b -->
-
-The allocation of Step 4 Capital under Stage 1 is specified in the documents herein.
-
-###### A.2.3.1.4.2.2.1 - Effectiveness [Core]  <!-- UUID: 31e35b53-2843-40ec-8e05-40b270104954 -->
-
-Stage 1 becomes effective upon the execution of an Executive Vote implementing the activation of Stage 1. The Core Facilitator is authorized to include the activation of Stage 1 in the next available Executive Vote, and can do so directly without a prior Governance Poll. Relevant Ecosystem Actors must take all necessary actions to cooperate with the Core Facilitator in implementing Stage 1.
-
-###### A.2.3.1.4.2.2.2 - SKY Staking Rewards [Core]  <!-- UUID: 293e4c9f-1e26-4d4b-b769-650a02eca8b8 -->
-
-No Step 4 Capital is allocated to SKY staking rewards under Stage 1. Instead, SKY staking rewards are funded from SKY token reserves held by the Protocol Treasury, distributed at a rate equivalent to 50% of Step 4 Capital from the prior Monthly Settlement Cycle, as specified in [A.4.4.1.4 - Short Term Transitionary Measures](22b8f8bf-b477-4439-86f7-ec605d3c657a). The rate is determined by the Core Facilitator in consultation with the Core Council Risk Advisor following each Monthly Settlement Cycle, using the prior Monthly Settlement Cycle's Step 4 Capital and the price of SKY, and is implemented through an Executive Vote.
-
-###### A.2.3.1.4.2.2.3 - SKY Buybacks [Core]  <!-- UUID: 2ee74fea-9323-42e7-843b-35cb1aa819b9 -->
-
-37,600 USDS per day of Step 4 Capital is allocated to SKY buybacks through the Smart Burn Engine. See [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
-
-###### A.2.3.1.4.2.2.4 - USDS Staking Rewards [Core]  <!-- UUID: db5e69a1-c022-487e-9415-37c8303f7f79 -->
-
-No Step 4 Capital is allocated to USDS staking rewards under Stage 1.
-
-###### A.2.3.1.4.2.2.5 - Surplus Buffer Allocation [Core]  <!-- UUID: 7fcfebdb-75bd-46e1-af54-c5b8b596a846 -->
-
-After the allocation to SKY buybacks specified above, any remaining Step 4 Capital is allocated to the Surplus Buffer. See [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294).
-
-###### A.2.3.1.4.2.3 - Stage 2 [Core]  <!-- UUID: bde9d8ff-1880-4cc7-9ff5-8f384cebb398 -->
-
-The allocation of Step 4 Capital under Stage 2 is specified in the documents herein.
-
-###### A.2.3.1.4.2.3.1 - Effectiveness [Core]  <!-- UUID: 7aeb3362-34ed-44c4-a578-40e40920c1bb -->
-
-Stage 2 becomes effective upon the execution of an Executive Vote implementing the activation of Stage 2. When SKY token reserves fall to approximately 15 days of remaining supply at the current distribution rate, the Core Facilitator must include the activation of Stage 2 in the next available Executive Vote, and can do so directly without a prior Governance Poll. Relevant Ecosystem Actors must take all necessary actions to cooperate with the Core Facilitator in implementing Stage 2.
-
-###### A.2.3.1.4.2.3.2 - SKY Buybacks And SKY Staking Rewards [Core]  <!-- UUID: c71344ec-5eac-421b-a843-1c2fde65efa1 -->
-
-25% of Step 4 Capital from the prior Monthly Settlement Cycle is allocated to SKY buybacks through the Smart Burn Engine. All SKY obtained through the buyback is distributed as SKY staking rewards. See [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a) and [A.4.4.1.4 - Short Term Transitionary Measures](22b8f8bf-b477-4439-86f7-ec605d3c657a). The rate is determined by the Core Facilitator in consultation with the Core Council Risk Advisor following each Monthly Settlement Cycle, expressed as a daily rate, held fixed until the next settlement cycle, and implemented through an Executive Vote.
-
-###### A.2.3.1.4.2.3.3 - USDS Staking Rewards [Core]  <!-- UUID: bbaa32fb-54cb-4333-b41f-c8453d11bba3 -->
-
-25% of Step 4 Capital from the prior Monthly Settlement Cycle is allocated to USDS staking rewards. See [A.4.4.1.4.1 - Short Term USDS Rewards For SKY Stakers](aad249a0-1332-4b5f-9b46-d89873e73b86). The rate is determined by the Core Facilitator in consultation with the Core Council Risk Advisor following each Monthly Settlement Cycle, expressed as a daily rate, held fixed until the next settlement cycle, and implemented through an Executive Vote.
-
-###### A.2.3.1.4.2.3.4 - Surplus Buffer Allocation [Core]  <!-- UUID: 7743664d-9893-435b-ad77-c7e689ad380b -->
-
-After the allocations to SKY buybacks and USDS staking rewards specified above, any remaining Step 4 Capital is allocated to the Surplus Buffer. See [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294).
-
-##### A.2.3.1.4.3 - Implementation [Core]  <!-- UUID: b0a59548-b94e-4cdf-961c-7e2d5dbe5983 -->
-
-The implementation of the allocations in [A.2.3.1.4.1 - Allocation Of Step 1 Capital](76eab64d-a5ba-4f3c-a295-bde0e444d0df) is specified in the documents herein.
-
-###### A.2.3.1.4.3.1 - Implementation Of Allocations To Core Council Buffer And Aligned Delegates Buffer [Core]  <!-- UUID: 8a75e41e-2c15-4486-b673-045fed17d25b -->
-
-The allocations specified in [A.2.3.1.4.1.1 - Allocation To Core Council Buffer](c46c7059-4ec1-4966-8382-d9e2e851d616) and [A.2.3.1.4.1.2 - Allocation To Aligned Delegates Buffer](2a9bcfb1-4dad-4baf-a09a-e9264b3d17bb) are effective retroactive to September 1, 2025. The October 30, 2025 Executive Vote included these allocations for the period from September 1, 2025 to September 30, 2025. The amounts transferred were 3,876,387 USDS to the Core Council Buffer and 193,820 USDS to the Aligned Delegates Buffer.
-
-###### A.2.3.1.4.3.2 - Implementation Of Allocations To Governance Accessibility Rewards Paid To Integrators And Prime Agents [Core]  <!-- UUID: b3f97303-4d41-497c-b931-9337c518bd7e -->
-
-The allocations specified in [A.2.3.1.4.1.3 - Allocation To Governance Accessibility Rewards Paid To Integrators](f7ec7f27-632e-462a-b1e8-32bf557cb51f) and [A.2.3.1.4.1.4 - Allocation To Governance Accessibility Rewards Paid To Prime Agents](a266adb7-5af2-4aa9-b64e-ed35bac9b6a5) are effective retroactive to May 19, 2025. These allocations must be included in a future Executive Vote. The amounts to be transferred will be specified in a future iteration of the Atlas.
+Pending activation of the USDS Staking Rewards specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121), the Smart Burn Engine continues to operate under existing on-chain parameters specified in [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a), and SKY staking rewards continue to be funded from the Protocol Treasury via the Vesting Stream Contract specified in [A.4.4.1.4.2.1.3 - Vesting Stream Contract](21a8978d-10a5-4151-b99a-ca8115fe0a6d). The USDS Staking Rewards become operational when the SKY tokens funding the Vesting Stream Contract approach depletion. The Core Facilitator, in consultation with the Core Council Risk Advisor, determines when this activation occurs and effects the corresponding on-chain parameter changes through an Executive Vote.
 
 ## A.2.4 - Sky Core Monthly Settlement Cycle [Article]  <!-- UUID: 6f8d5065-d6ff-4add-9a28-eadeffa7ed1a -->
 
@@ -10378,12 +10241,12 @@ The Monthly Settlement Cycle (MSC) synchronizes several key operational processe
 2. The monthly Senior Risk Capital (SRC) origination process is settled: the clearing price is established, costs are deducted from winning Prime Agents’ accounts, and their accounts are credited with Originated SRC (OSRC) for the upcoming month. See [A.3.2.2.4.3.5 - Settlement Of Origination](fff0112a-58dd-4041-97f9-7baf113b4e70).
 3. Queued conversions between USDS and srUSDS within the SRC system are processed. See [A.3.2.2.4.2.2 - Deposit And Redemption Queues](38a99586-4a13-4ce3-8b2f-cee025e0c390).
 4. Pioneer Incentive Pools are funded with an amount equivalent to the Sky Savings Rate multiplied by the balance of Unrewarded USDS. See [A.2.2.8.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
-5. The Smart Burn Buffer's burning operation occurs synchronously with each Monthly Settlement Cycle. At each cycle, the system calculates the appropriate Burn Rate based on current market conditions and executes the burn operation, if applicable, according to the formula specified in the Atlas. See [A.2.3.1.2.5.1.2 - Usage Of Smart Burn Buffer](7295761a-e72b-4b32-9345-b229b46566d1).
+5. Smart Burn Engine parameters are updated at each Monthly Settlement Cycle based on the prior month's state. See [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121) and [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
 6. Critical Core GovOps functions related to the operationalization of Sky Primitives are executed, including payment/reimbursement processing, compliance monitoring, and the calculation and application of retroactive penalties.
 
 #### A.2.4.1.2 - Implementation [Core]  <!-- UUID: 75473c4b-69ba-4e6b-bbf6-2c926732364c -->
 
-The documents herein define the initial implementation of the Monthly Settlement Cycle. This initial implementation of the Monthly Settlement Cycle does not include the Senior Risk Capital System, which is still being developed, and funds continue to be allocated through the modified Treasury Management Function. See [A.2.3.1.4 - Short Term Transitionary Measures](a0186d71-d5f6-4643-a5c5-8fcf6c2625f8).
+The documents herein define the initial implementation of the Monthly Settlement Cycle. This initial implementation of the Monthly Settlement Cycle does not include the Senior Risk Capital System, which is still being developed.
 
 ##### A.2.4.1.2.1 - Process Definition [Core]  <!-- UUID: dd25aba4-7b77-469e-beb2-feaaedbbf143 -->
 
@@ -10407,17 +10270,17 @@ For each Prime Agent, the Initial Calculation must specify whether payments with
 
 ###### A.2.4.1.2.1.2.2 - Independent Calculation By Core Council Risk Advisor On Behalf Of Core Council [Core]  <!-- UUID: 8be8ae66-2453-4d7d-8880-ffaba36bdb7e -->
 
-Within seven (7) calendar days of the end of each month, the Core Council Risk Advisor replies to the Monthly Settlement Cycle Post with their own independent calculation of the net amounts due to or from each Prime Agent (the "Independent Calculation"). The Independent Calculation should also include calculation of the amounts to be transferred to the Core Council and Aligned Delegates Buffers (see [A.2.3.1.4.1 - Allocation Of Step 1 Capital](76eab64d-a5ba-4f3c-a295-bde0e444d0df)). The Independent Calculation must contain reasonable supporting detail. The required contents of the Independent Calculation will be further specified in a future iteration of the Atlas.
+Within seven (7) calendar days of the end of each month, the Core Council Risk Advisor replies to the Monthly Settlement Cycle Post with their own independent calculation of the net amounts due to or from each Prime Agent (the "Independent Calculation"). The Independent Calculation should also include calculation of the amounts to be transferred to the Core Council and Aligned Delegates Buffers (see [A.2.3.1.2.2 - Step 1: Security And Maintenance](324e9d22-70fe-4e44-82ab-118815f5c42e)). The Independent Calculation must contain reasonable supporting detail. The required contents of the Independent Calculation will be further specified in a future iteration of the Atlas.
 
 ###### A.2.4.1.2.1.3 - Final Calculation By Core GovOps [Core]  <!-- UUID: 9de89bf3-9051-44f1-9ec0-d362ee4d4b38 -->
 
-Within twelve (12) calendar days of the end of each month, Core GovOps replies to the Monthly Settlement Cycle Post with the final calculation of the net amounts due to or from each Prime Agent (the "Final Calculation"). The Final Calculation should also include the final amounts to be transferred to the Core Council and Aligned Delegates Buffers (see [A.2.3.1.4.1 - Allocation Of Step 1 Capital](76eab64d-a5ba-4f3c-a295-bde0e444d0df)). If there are any Disputed Amounts (see [A.2.4.1.2.1.3.2 - Disputed Amount](4ddda7cd-9942-4f60-9555-6b3f16770334)), then Core GovOps must resolve them. Core GovOps must work with the relevant Operational Executor Agent, relevant Prime Agents, and the Core Council Risk Advisor to reach a mutually acceptable resolution and may consult other parties to the extent it deems advisable.
+Within twelve (12) calendar days of the end of each month, Core GovOps replies to the Monthly Settlement Cycle Post with the final calculation of the net amounts due to or from each Prime Agent (the "Final Calculation"). The Final Calculation should also include the final amounts to be transferred to the Core Council and Aligned Delegates Buffers (see [A.2.3.1.2.2 - Step 1: Security And Maintenance](324e9d22-70fe-4e44-82ab-118815f5c42e)). If there are any Disputed Amounts (see [A.2.4.1.2.1.3.2 - Disputed Amount](4ddda7cd-9942-4f60-9555-6b3f16770334)), then Core GovOps must resolve them. Core GovOps must work with the relevant Operational Executor Agent, relevant Prime Agents, and the Core Council Risk Advisor to reach a mutually acceptable resolution and may consult other parties to the extent it deems advisable.
 
 Core GovOps makes the final decision in resolving differences between the Initial Calculation and the Independent Calculation. The Final Calculation must specify the Final Amount and contain reasonable supporting detail. The required contents of the Final Calculation will be further specified in a future iteration of the Atlas.
 
 ###### A.2.4.1.2.1.3.1 - Agreed Amount [Core]  <!-- UUID: 8669ef42-d55b-4be8-839e-646b4ff17e4c -->
 
-The net amount due to or from a Prime Agent in an Initial Calculation is an Agreed Amount if the absolute value of the percentage difference between the amounts in the Initial Calculation and the Independent Calculation is less than or equal to the Allowed Deviation (see [A.2.4.1.2.1.3.3 - Allowed Deviation](2e471685-fec5-4306-8747-a50dbbdd5c70)). The net amount due to or from a Prime Agent in an Independent Calculation is also an Agreed Amount if there is no Initial Calculation.
+The net amount due to or from a Prime Agent in an Initial Calculation is an Agreed Amount if the percentage deviation between the Initial Calculation and the Independent Calculation is less than or equal to the Allowed Deviation (see [A.2.4.1.2.1.3.3 - Allowed Deviation](2e471685-fec5-4306-8747-a50dbbdd5c70)). The percentage deviation is calculated as the absolute value of the difference between the net amount in the Initial Calculation and the net amount in the Independent Calculation, divided by the average of the two amounts, multiplied by 100%. The net amount due to or from a Prime Agent in an Independent Calculation is also an Agreed Amount if there is no Initial Calculation.
 
 ###### A.2.4.1.2.1.3.2 - Disputed Amount [Core]  <!-- UUID: 4ddda7cd-9942-4f60-9555-6b3f16770334 -->
 
@@ -10685,6 +10548,57 @@ The Core Facilitator is tasked with maintaining an ecosystem-wide communications
 ##### A.2.7.1.1.1 - Forum [Core]  <!-- UUID: ec33a431-9aa0-443e-9f0c-d0ab0aacfae6 -->
 
 The communications infrastructure must include an ecosystem Forum devoted to discussions on Agent-related business proposals, partnerships and interactions, as well as casual conversation for the broader Sky Ecosystem.
+
+###### A.2.7.1.1.1.1 - Authorized Forum Accounts Requirements [Core]  <!-- UUID: a76f81b5-49bb-4697-a30b-bf009ab24286 -->
+
+The documents herein define the requirements for forum account registration, disclosure, and enforcement applicable to entities participating in Sky governance.
+
+###### A.2.7.1.1.1.1.1 - Registration Requirement [Core]  <!-- UUID: 3f2ba4e7-cc85-406b-94ce-83da549babc5 -->
+
+All forum accounts used to post on the Sky Forum in a governance capacity must be registered in [A.2.7.1.1.1.1.4.0.6.1 - Current Authorized Forum Accounts](b71564fd-22e0-4c69-99d1-5b23fc1fa329). Each registration must include:
+
+- The entity handle, which is the official forum account representing the entity. If an entity does not maintain its own forum handle, it may indicate this in the registry and rely solely on Authorized Representatives.
+- All Authorized Representatives, which are forum accounts held by team members, individuals, or other entities that are authorized to post on behalf of the entity.
+
+Each entity is responsible for ensuring that its registration reflects its current handles and Authorized Representatives, and that any changes are promptly updated. A single forum handle may appear as an Authorized Representative of more than one (1) entity.
+
+###### A.2.7.1.1.1.1.2 - Disclosure Requirement [Core]  <!-- UUID: 87a69cf4-cf81-4acc-bb90-7caf644eaa86 -->
+
+When posting on behalf of another entity, the Authorized Representative must clearly indicate in the post that they are acting on behalf of that entity.
+
+###### A.2.7.1.1.1.1.3 - Enforcement [Core]  <!-- UUID: 0fa7211a-81a5-40bd-a364-0a85ebf6577e -->
+
+Posts on governance matters from unregistered forum accounts may be disregarded for governance purposes. Accounts that repeatedly post in a governance capacity without registration are subject to moderation as specified in [A.2.7.1.2 - Moderation](be3da4c5-6882-4694-9ccd-3fa7c5f6e09a).
+
+###### A.2.7.1.1.1.1.4 - List Of Authorized Forum Accounts [Active Data Controller]  <!-- UUID: 248a4fd8-f863-493a-9a38-2a97d9d7203e -->
+
+The list of authorized forum accounts is defined as Active Data in [A.2.7.1.1.1.1.4.0.6.1 - Current Authorized Forum Accounts](b71564fd-22e0-4c69-99d1-5b23fc1fa329).
+
+The Active Data is updated as follows:
+
+- The Responsible Party is the entity to which the registration pertains.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.2.7.1.1.1.1.4.0.6.1 - Current Authorized Forum Accounts [Active Data]  <!-- UUID: b71564fd-22e0-4c69-99d1-5b23fc1fa329 -->
+
+| Entity Name | Role | Entity Handle | Handles of Authorized Representatives |
+|---|---|---|---|
+| Pattern | Prime Agent | PatternDevCo | N/A |
+| Redline | Operational Facilitator | N/A | redlexic |
+| BA Labs | Core Council Risk Advisor | BALabs | DeFlamiingo, Sean, 0xmmj, commanderkeen, Primoz, Twigmaester, rema, definikola |
+| Spark | Prime Agent | PhoenixLabs | N/A |
+| Obex | Prime Agent | Rubicon | N/A |
+| Grove | Prime Agent | GroveLabs | steakhouse |
+| Soter Labs | Operational GovOps | SoterLabs | N/A |
+| Amatsu | Operational Executor Agent | Amatsu | SoterLabs, Endgame-Edge (and their authorized representatives) |
+| Dewiz | Ecosystem Actor | Dewiz | N/A |
+| Atlas Axis | Core GovOps | atlas-axis | Le_Bateleur, adamfraser, Lex |
+| Ozone | Operational Executor Agent | N/A | SoterLabs, Redline (and their authorized representatives) |
+| Endgame Edge | Operational Facilitator | Endgame-Edge | votewizard, CivicSage, boet, blimpa |
+| Keel | Prime Agent | Elodin | N/A |
+| Sidestream | Ecosystem Actor | Sidestream | N/A |
+| JanSky | Core Facilitator | JanSky-Team | JanSky, ldr |
+| Rune | N/A | rune | N/A |
 
 ##### A.2.7.1.1.2 - Chatroom [Core]  <!-- UUID: a596136b-a805-420b-be77-bf249e41ada4 -->
 
@@ -11104,87 +11018,81 @@ USDS and sUSDS balances held by the Prime itself are not eligible for the Distri
 
 A fixed margin of 0.1% (Sky Spread) forms part of the overall differential between the Savings Rate and the Base Rate, representing the premium earned by Sky for facilitating the ecosystem’s financing. The total spread between the Savings Rate and the Base Rate is therefore 0.3%.
 
-###### A.2.8.2.2.2.4 - Double Distribution Upkeep To Sky [Core]  <!-- UUID: dba4e6ec-4a62-4909-857d-f4d7cb359255 -->
-
-The subdocuments herein set out agreed terms with respect to distributions to Sky.
-
-###### A.2.8.2.2.2.4.1 - Distribution Requirement [Core]  <!-- UUID: d3dd498e-fddd-4000-9fc2-10263ebc85cd -->
-
-To ensure continuous ecosystem support over the period of years 10 to 30, Prime Agents must distribute either 0.5% of the market capitalization of their token per year, if distributed in tokens; or 0.6% of their market capitalization of their token per year if paid in stablecoins as a fee. These amounts include both the Standard Annual Upkeep Payment as set out in [A.2.8.2.2.2.4.2.1 - Standard Annual Upkeep Payment](5366c204-9fde-41b1-a8a4-ab6920c28b01) and the Additional Incremental Upkeep Payment as set out in[ ](https://atlas-axis.notion.site/Additional-Incremental-Upkeep-Payment-Core-If-a-Star-Agent-elects-not-to-distribute-certain-fund-1fdf2ff08d73802c804adcf401e7d66f#1fdf2ff08d73814ba4ffc4c497133102)[A.2.8.2.2.2.4.2.2 - Additional Incremental Upkeep Payment](2e7346bb-68bb-4441-8ff9-0fc17f7433f1).
-
-###### A.2.8.2.2.2.4.2 - Distribution Structure [Core]  <!-- UUID: eb52fb46-f477-4bf1-afd3-7e4e13f19e8a -->
-
-To ensure continued ecosystem support, Primes, including Spark and Grove, are required to make annual upkeep payments to Sky, calculated based on retained funds as set out in the subdocuments herein.
-
-###### A.2.8.2.2.2.4.2.1 - Standard Annual Upkeep Payment [Core]  <!-- UUID: 5366c204-9fde-41b1-a8a4-ab6920c28b01 -->
-
-All Prime Agents will pay a standard annual upkeep payment of 25 basis points (bps) (0.25%) per year. This standard upkeep payment applies permanently and is separate from any additional payments explained below.
-
-###### A.2.8.2.2.2.4.2.2 - Additional Incremental Upkeep Payment [Core]  <!-- UUID: 2e7346bb-68bb-4441-8ff9-0fc17f7433f1 -->
-
-If a Prime Agent elects not to distribute certain funds to Sky, but instead retains those funds in its treasury, the Prime incurs an additional incremental upkeep payment. The incremental payment is calculated based on the total retained funds at the rate of 2.5 basis points (bps) (0.025%) per year per $1 million retained, if the payment is made in tokens. If the payment is made in cash (USD) rather than tokens, the incremental payment increases by 20%. This results in a rate of 3 basis points (bps) (0.03%) per year per $1 million retained.
-
-###### A.2.8.2.2.2.5 - Genesis Capital Allocation [Core]  <!-- UUID: 23149a25-19a1-4d8f-b4ce-ea4b2adc2e21 -->
+###### A.2.8.2.2.2.4 - Genesis Capital Allocation [Core]  <!-- UUID: 23149a25-19a1-4d8f-b4ce-ea4b2adc2e21 -->
 
 The subdocuments herein set out agreed terms with respect to genesis capital allocations.
 
-###### A.2.8.2.2.2.5.1 - Spark Initial Allocation [Core]  <!-- UUID: a339b1d7-34a9-40bd-b452-a86e149f07f7 -->
+###### A.2.8.2.2.2.4.1 - Spark Initial Allocation [Core]  <!-- UUID: a339b1d7-34a9-40bd-b452-a86e149f07f7 -->
 
 The Initial Allocation for Spark is 25,000,000 USDS.
 
-###### A.2.8.2.2.2.5.2 - Grove Initial Allocation [Core]  <!-- UUID: 062fdb39-464e-4a5b-a44f-3462d2d38be5 -->
+###### A.2.8.2.2.2.4.2 - Grove Initial Allocation [Core]  <!-- UUID: 062fdb39-464e-4a5b-a44f-3462d2d38be5 -->
 
 The Initial Allocation for Grove is 25,000,000 USDS.
 
-###### A.2.8.2.2.2.5.3 - Initial Allocation Distribution [Core]  <!-- UUID: 6b8fc0e6-ee0b-4a48-a096-2ccb06f64e3f -->
+###### A.2.8.2.2.2.4.3 - Initial Allocation Distribution [Core]  <!-- UUID: 6b8fc0e6-ee0b-4a48-a096-2ccb06f64e3f -->
 
 The Initial Allocation is distributed in USDS to each Prime SubProxy (i.e. the Spark SubProxy and Grove SubProxy). Both Grove and Spark elected to distribute 5% of the total token supply over a period of 20 years, lasting from year 10 to year 30, and will receive USDS 25,000,000 each.
 
-###### A.2.8.2.2.2.5.4 - Initial Allocation Mechanism [Core]  <!-- UUID: eedd0309-b11b-459e-a966-13b16e961ccc -->
+###### A.2.8.2.2.2.4.4 - Initial Allocation Mechanism [Core]  <!-- UUID: eedd0309-b11b-459e-a966-13b16e961ccc -->
 
 Shortly after the Agent Token launch, an Atlas Edit Proposal submitted to Sky Governance will allow the respective founding teams of Spark and Grove to propose an initial cash grant to their respective Prime Foundation. Sky Governance must consent to this initial cash grant via approving the Sky Atlas modification.
 
-###### A.2.8.2.2.2.5.4.1 - Initial Cash Grant To Spark Foundation [Core]  <!-- UUID: 9daea2fa-0fef-48a7-8633-fa33081236da -->
+###### A.2.8.2.2.2.4.4.1 - Initial Cash Grant To Spark Foundation [Core]  <!-- UUID: 9daea2fa-0fef-48a7-8633-fa33081236da -->
 
 The founding team of Spark has proposed a cash grant of 800,000 USDS per month to the Spark Foundation from Spark’s Genesis Capital Allocation for a three (3) month period, beginning at the time of the Genesis Capital Allocation. The purpose of the grant is to enable Spark Foundation to fulfill its purpose of promoting the growth and development of Spark. This funding will support essential activities such as engineering efforts, community engagement, research, infrastructure, and administrative operations.
 
-Sky Governance hereby consents to this cash grant. The first month’s transfer must be made to the Spark Foundation immediately after the transfer of the Genesis Capital Allocation. See [A.2.8.2.2.2.8.2.1 - Transfer Of Genesis Capital Allocation To Spark SubProxy](e3ec99ec-54c9-4fe7-8104-aee20c57ec57). Transfers for subsequent months will be made proportionally in Spark Spells included in Sky Executive Votes unless otherwise agreed by Sky and Spark.
+Sky Governance hereby consents to this cash grant. The first month’s transfer must be made to the Spark Foundation immediately after the transfer of the Genesis Capital Allocation. See [A.2.8.2.2.2.7.2.1 - Transfer Of Genesis Capital Allocation To Spark SubProxy](e3ec99ec-54c9-4fe7-8104-aee20c57ec57). Transfers for subsequent months will be made proportionally in Spark Spells included in Sky Executive Votes unless otherwise agreed by Sky and Spark.
 
-###### A.2.8.2.2.2.5.5 - Subsequent Allocation Mechanism [Core]  <!-- UUID: aea8a2d8-2203-4123-8c09-17b2bb8427c1 -->
+###### A.2.8.2.2.2.4.5 - Subsequent Allocation Mechanism [Core]  <!-- UUID: aea8a2d8-2203-4123-8c09-17b2bb8427c1 -->
 
-After the initial cash grant (see [A.2.8.2.2.2.5.4 - Initial Allocation Mechanism](eedd0309-b11b-459e-a966-13b16e961ccc)), Spark and Grove may request additional grants to their respective Prime Foundations to fund operations and growth.
+After the initial cash grant (see [A.2.8.2.2.2.4.4 - Initial Allocation Mechanism](eedd0309-b11b-459e-a966-13b16e961ccc)), Spark and Grove may request additional grants to their respective Prime Foundations to fund operations and growth.
 
 The authorization of grant requests is subject to the governance requirements and limitations specified in [A.2.2.5.2.3.1 - Limitations On Usage Of Root Edit Primitive Prior To Tokens Being Publicly Held](8c15762a-ea7e-4c6d-9089-60d30c219c0f).
 
 In all instances, Sky Governance must consent to the transfer of funds via an Atlas Edit.
 
-###### A.2.8.2.2.2.5.5.1 - Spark Foundation Grant Authorization: October 2025 [Core]  <!-- UUID: 12425328-8344-4fbd-9afb-3ea6316972dd -->
+###### A.2.8.2.2.2.4.5.1 - Spark Foundation Grant Authorizations [Core]  <!-- UUID: 6a9a3a7a-8670-41fc-98aa-d2d9b518bdfc -->
+
+The documents herein record Sky Governance authorizations for grants to the Spark Foundation.
+
+###### A.2.8.2.2.2.4.5.1.1 - Spark Foundation Grant Authorization: October 2025 [Core]  <!-- UUID: 12425328-8344-4fbd-9afb-3ea6316972dd -->
 
 The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from Spark’s Prime Treasury for a three (3) month period, beginning on October 1, 2025. The purpose of this grant is to enable the Spark Foundation to fulfill its purpose of promoting the growth and development of Spark. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
 
 Sky Governance hereby consents to this cash grant. The transfer for October must be made to the Spark Foundation in a Spark Spell included in the October 2, 2025 Executive Vote. Transfers for subsequent months will be made proportionally in Spark Spells included in Sky Executive Votes unless otherwise agreed by Sky and Spark.
 
-###### A.2.8.2.2.2.5.5.2 - Spark Foundation Grant Authorization: December 2025 [Core]  <!-- UUID: bd9673db-225e-42f4-8f26-6e993dc72bd0 -->
+###### A.2.8.2.2.2.4.5.1.2 - Spark Foundation Grant Authorization: December 2025 [Core]  <!-- UUID: bd9673db-225e-42f4-8f26-6e993dc72bd0 -->
 
 The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from Spark's Prime Treasury for a three (3) month period to cover Q1 2026 Foundation expenses. Additionally, a one-time grant of 150,000 USDS has been proposed to cover expenses for Spark Asset Foundation for Q1 2026 (see [https://forum.skyeco.com/t/december-11-2025-proposed-changes-to-spark-for-upcoming-spell/27481](https://forum.skyeco.com/t/december-11-2025-proposed-changes-to-spark-for-upcoming-spell/27481)).
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads as specified in the referenced proposal.
 
-###### A.2.8.2.2.2.5.5.3 - Spark Foundation Grant Authorization: Q2 2026 [Core]  <!-- UUID: b69158da-476a-4d4b-b7ef-2f8b96b73d23 -->
+###### A.2.8.2.2.2.4.5.1.3 - Spark Foundation Grant Authorization: Q2 2026 [Core]  <!-- UUID: b69158da-476a-4d4b-b7ef-2f8b96b73d23 -->
 
 The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from Spark's Prime Treasury for a three (3) month period to cover Q2 2026 Spark Foundation expenses. Additionally, a grant of 100,000 USDS per month to the Spark Asset Foundation from Spark's Prime Treasury for a three (3) month period to cover Q2 2026 Spark Asset Foundation expenses (see [https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770](https://forum.skyeco.com/t/march-26-2026-proposed-changes-to-spark-for-upcoming-spell/27770)).
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads as specified in the referenced proposal.
 
-###### A.2.8.2.2.2.5.6 - Genesis Capital Backstop [Core]  <!-- UUID: 20e8467f-561c-4020-bd26-e6c1601fb64d -->
+###### A.2.8.2.2.2.4.5.2 - Grove Foundation Grant Authorizations [Core]  <!-- UUID: db86fa15-45c6-4a44-9c2a-652fd3d227b0 -->
+
+The documents herein record Sky Governance authorizations for grants to the Grove Foundation.
+
+###### A.2.8.2.2.2.4.5.2.1 - Grove Foundation Grant Authorization: Q2 2026 [Core]  <!-- UUID: 85f7d545-d56c-40b9-b1b4-05663cd7772a -->
+
+The founding team of Grove has proposed a cash grant of 800,000 USDS per month to the Grove Foundation from Grove's Prime Treasury for a three (3) month period, beginning on April 1, 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
+
+Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payloads. Transfers must be made to the Grove Foundation at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in Grove Spells included in Sky Executive Votes unless otherwise agreed by Sky and Grove.
+
+###### A.2.8.2.2.2.4.6 - Genesis Capital Backstop [Core]  <!-- UUID: 20e8467f-561c-4020-bd26-e6c1601fb64d -->
 
 Each genesis capital allocation is subject to the Genesis Capital Backstop (see [A.3.7.1.6 - Genesis Capital Backstop](a9965d58-8cda-49fc-8a7f-f8cc2e0d6b98)).
 
-###### A.2.8.2.2.2.6 - Intellectual Property [Core]  <!-- UUID: d276499a-2447-4dfb-a62b-4212c3d4b071 -->
+###### A.2.8.2.2.2.5 - Intellectual Property [Core]  <!-- UUID: d276499a-2447-4dfb-a62b-4212c3d4b071 -->
 
 The subdocuments herein set out agreed terms with respect to intellectual property.
 
-###### A.2.8.2.2.2.6.1 - License Agreements [Core]  <!-- UUID: bfd79c66-ba55-46d2-a844-eaf8ef44d6d7 -->
+###### A.2.8.2.2.2.5.1 - License Agreements [Core]  <!-- UUID: bfd79c66-ba55-46d2-a844-eaf8ef44d6d7 -->
 
 Each Prime Foundation (i.e. the Spark Foundation and Grove Foundation) must sign a license agreement with Moonbow for all relevant intellectual property. This license agreement must contain the following terms:
 
@@ -11201,157 +11109,157 @@ Each Prime Foundation (i.e. the Spark Foundation and Grove Foundation) must sign
 - Mandatory arbitration except in case of injunctive relief.
 - Other customary terms, conditions, representations and warranties.
 
-###### A.2.8.2.2.2.6.2 - Open Source Protocol Code [Core]  <!-- UUID: fa90cec7-7b65-4798-a376-00cd8454bc0c -->
+###### A.2.8.2.2.2.5.2 - Open Source Protocol Code [Core]  <!-- UUID: fa90cec7-7b65-4798-a376-00cd8454bc0c -->
 
 All components of code that form part of the Prime Protocols (i.e. Spark and Grove) will be open source.
 
-###### A.2.8.2.2.2.6.3 - Financial Strategies [Core]  <!-- UUID: eb550b0a-3ffc-4a86-b8fe-9cc1f60f2a7e -->
+###### A.2.8.2.2.2.5.3 - Financial Strategies [Core]  <!-- UUID: eb550b0a-3ffc-4a86-b8fe-9cc1f60f2a7e -->
 
 The financial strategies implemented by the Prime Foundations (i.e. the Spark Foundation and Grove Foundation) will be closed source. Operational specifics are further defined in the subdocuments herein.
 
-###### A.2.8.2.2.2.6.3.1 - Role Of Prime Foundation [Core]  <!-- UUID: ec0b206a-bf87-4ca8-aa7f-aa4ca1bc80f8 -->
+###### A.2.8.2.2.2.5.3.1 - Role Of Prime Foundation [Core]  <!-- UUID: ec0b206a-bf87-4ca8-aa7f-aa4ca1bc80f8 -->
 
 The Prime Foundation (i.e. the Spark Foundation and Grove Foundation) will retain ownership of the code and strategies that determine how capital is allocated for its Prime. They will contract with the Development Company for the development and execution of the strategies.
 
-###### A.2.8.2.2.2.6.3.2 - Role Of Development Company [Core]  <!-- UUID: d88e4c91-cce4-4f95-a989-ea876ccdf99b -->
+###### A.2.8.2.2.2.5.3.2 - Role Of Development Company [Core]  <!-- UUID: d88e4c91-cce4-4f95-a989-ea876ccdf99b -->
 
 The Development Company for each Prime Agent will execute the strategy and relay the results to the Operational Executor Agent.
 
-###### A.2.8.2.2.2.6.3.3 - Role Of Operational Executor Agent [Core]  <!-- UUID: b0fc4a02-f41c-4556-b3f5-84d262ca00f2 -->
+###### A.2.8.2.2.2.5.3.3 - Role Of Operational Executor Agent [Core]  <!-- UUID: b0fc4a02-f41c-4556-b3f5-84d262ca00f2 -->
 
 The relevant Operational Executor Agent, which is already engaged to the Prime in question, will conduct a principled compatibility analysis to ensure the strategy aligns with the Sky Atlas and the relevant Prime Artifact. Once validated, the Operational Executor Agent executes the capital allocation in question.
 
-###### A.2.8.2.2.2.6.3.4 - Prime Tokenholder Governance Rights [Core]  <!-- UUID: 63717bcd-4696-4104-a368-eac839a7ba2b -->
+###### A.2.8.2.2.2.5.3.4 - Prime Tokenholder Governance Rights [Core]  <!-- UUID: 63717bcd-4696-4104-a368-eac839a7ba2b -->
 
 To ensure accountability, Prime token holders will retain governance rights, including the ability to revoke the Operational Executor Agent’s Executor Accord through a vote if necessary.
 
-###### A.2.8.2.2.2.7 - Peg Stability Module Management And Ownership [Core]  <!-- UUID: 63922aed-a1e4-43f2-a4a7-437b80ea6711 -->
+###### A.2.8.2.2.2.6 - Peg Stability Module Management And Ownership [Core]  <!-- UUID: 63922aed-a1e4-43f2-a4a7-437b80ea6711 -->
 
 The subdocuments herein set out agreed terms with respect to the Peg Stability Module (PSM).
 
-###### A.2.8.2.2.2.7.1 - Current and Future Control [Core]  <!-- UUID: b66f99ce-af91-4b32-a37a-fb26d16b57c4 -->
+###### A.2.8.2.2.2.6.1 - Current and Future Control [Core]  <!-- UUID: b66f99ce-af91-4b32-a37a-fb26d16b57c4 -->
 
 The subdocuments herein set out details about the current control and oversight of the PSM, including the transition to ownership by Grove.
 
-###### A.2.8.2.2.2.7.1.1 - Current Control (Until 2026) [Core]  <!-- UUID: 815fc554-c019-49b1-8b97-9eb62082cb5b -->
+###### A.2.8.2.2.2.6.1.1 - Current Control (Until 2026) [Core]  <!-- UUID: 815fc554-c019-49b1-8b97-9eb62082cb5b -->
 
 The Peg Stability Module (PSM) remains directly managed and controlled by Sky until the full deployment and operationalization of the Actively Stabilizing Collateral (ASC) system. Sky retains responsibility for setting debt ceilings, determining liquidity levels, and overseeing asset management activities within the PSM during this period.
 
-###### A.2.8.2.2.2.7.1.2 - Transition to Grove (2025) [Core]  <!-- UUID: 08896aa0-140a-4289-9027-1772a0109a35 -->
+###### A.2.8.2.2.2.6.1.2 - Transition to Grove (2025) [Core]  <!-- UUID: 08896aa0-140a-4289-9027-1772a0109a35 -->
 
 Beginning in 2025, Grove shall assume operational and accounting ownership of the PSM, incorporating the PSM’s assets into its total value locked (TVL). Sky maintains active oversight and retains final control over strategic and operational decision-making within the PSM until full ASC implementation occurs.
 
-###### A.2.8.2.2.2.7.2 - Operational Responsibilities [Core]  <!-- UUID: 704ccd85-e80e-478f-ab73-23d775968ca7 -->
+###### A.2.8.2.2.2.6.2 - Operational Responsibilities [Core]  <!-- UUID: 704ccd85-e80e-478f-ab73-23d775968ca7 -->
 
 The subdocuments herein set out details about operational responsibilities relating to the PSM.
 
-###### A.2.8.2.2.2.7.2.1 - Base Rate Obligation [Core]  <!-- UUID: ff46baec-15da-4bf7-be18-e145f1809cf6 -->
+###### A.2.8.2.2.2.6.2.1 - Base Rate Obligation [Core]  <!-- UUID: ff46baec-15da-4bf7-be18-e145f1809cf6 -->
 
 Grove will be required to pay the Base Rate on all assets within the PSM. The Base Rate is dynamic and will align with the SSR (Sky Savings Rate), expected to fluctuate between the Aave and Ethena rates. See [A.2.8.2.2.2.2.3 - Base Rate](fd39df25-6093-49ae-be12-36df34754612).
 
-###### A.2.8.2.2.2.7.2.2 - Yield on USDC [Core]  <!-- UUID: 223a695c-addd-443a-bfed-b136eeb2eddc -->
+###### A.2.8.2.2.2.6.2.2 - Yield on USDC [Core]  <!-- UUID: 223a695c-addd-443a-bfed-b136eeb2eddc -->
 
 Grove shall earn yield through Coinbase Custody on USDC holdings within the PSM, enabling potential positive carry depending upon the spread between custody yield and the Base Rate.
 
-###### A.2.8.2.2.2.7.2.3 - Economic Rationale [Core]  <!-- UUID: b1831dee-c95f-4872-98e0-2e49f3591bf9 -->
+###### A.2.8.2.2.2.6.2.3 - Economic Rationale [Core]  <!-- UUID: b1831dee-c95f-4872-98e0-2e49f3591bf9 -->
 
 Grove will pay the Base Rate on the PSM for the purpose of meeting ASC requirements, if there are no better alternatives available. Unlike other alternatives, USDC in the PSM will have no capital requirement. If other, better options for ASC are available, Grove should empty the PSM and allocate the assets to those options. It is anticipated that other protocols will also be willing to rent ASC "points", potentially allowing for the management of ASC needs across several Prime Agents for a profit.
 
-###### A.2.8.2.2.2.7.3 - Future Transition and Long-Term Vision [Core]  <!-- UUID: 1a26a561-1f03-4d83-81df-3dedc9688597 -->
+###### A.2.8.2.2.2.6.3 - Future Transition and Long-Term Vision [Core]  <!-- UUID: 1a26a561-1f03-4d83-81df-3dedc9688597 -->
 
 The subdocuments herein set out agreed terms with respect to the future transition and long-term vision for the PSM.
 
-###### A.2.8.2.2.2.7.3.1 - Short Term (2025-2026) [Core]  <!-- UUID: 54bd8ca5-d078-4b1e-9f0a-e843fe13e5c0 -->
+###### A.2.8.2.2.2.6.3.1 - Short Term (2025-2026) [Core]  <!-- UUID: 54bd8ca5-d078-4b1e-9f0a-e843fe13e5c0 -->
 
 The PSM will remain a central liquidity hub for stablecoin deployment. Grove will manage the PSM, paying the Base Rate while earning USDC yield, under Sky oversight until full ASC implementation. PSM assets will count toward Grove's TVL, enhancing its economic standing and collateral efficiency.
 
-###### A.2.8.2.2.2.7.3.2 - Long Term (Post-2026) [Core]  <!-- UUID: 4478d3b2-f8bc-400f-b6da-3bb43684e94d -->
+###### A.2.8.2.2.2.6.3.2 - Long Term (Post-2026) [Core]  <!-- UUID: 4478d3b2-f8bc-400f-b6da-3bb43684e94d -->
 
 The PSM's role will diminish as the ASC system becomes the primary liquidity management tool. Grove can wind down the PSM entirely if ASC requirements are fulfilled through other mechanisms (e.g., Uniswap positions, Curve pools). If ASC obligations rise significantly, PSM usage will increase, but as the system matures, its relevance will gradually decline.
 
-###### A.2.8.2.2.2.7.4 - Implications for Grove [Core]  <!-- UUID: 3215686b-a770-484d-9602-6ee9d84c0e44 -->
+###### A.2.8.2.2.2.6.4 - Implications for Grove [Core]  <!-- UUID: 3215686b-a770-484d-9602-6ee9d84c0e44 -->
 
 The subdocuments herein set out implications of the PSM terms with respect to Grove.
 
-###### A.2.8.2.2.2.7.4.1 - Positive Carry And Liquidity Balancing [Core]  <!-- UUID: 9ed13fe5-7b07-4222-93ff-640880a976e2 -->
+###### A.2.8.2.2.2.6.4.1 - Positive Carry And Liquidity Balancing [Core]  <!-- UUID: 9ed13fe5-7b07-4222-93ff-640880a976e2 -->
 
 Grove can generate positive carry if the USDC yield exceeds the Base Rate. If the Base Rate rises significantly, the PSM may become costly, requiring liquidity balancing.
 
-###### A.2.8.2.2.2.7.4.2 - Capital Efficiency [Core]  <!-- UUID: 207d4658-b6f4-4937-853c-b5d23cff3c89 -->
+###### A.2.8.2.2.2.6.4.2 - Capital Efficiency [Core]  <!-- UUID: 207d4658-b6f4-4937-853c-b5d23cff3c89 -->
 
 Grove can deploy USDC in high-yield strategies while retaining enough ASC to meet requirements. Aave USDC (aUSDC) and Curve LP positions are likely alternatives to direct PSM usage, albeit potentially with higher JRC requirements.
 
-###### A.2.8.2.2.2.7.4.3 - Risk Management [Core]  <!-- UUID: 00aa264d-4fe6-41a1-91ea-014a2a520001 -->
+###### A.2.8.2.2.2.6.4.3 - Risk Management [Core]  <!-- UUID: 00aa264d-4fe6-41a1-91ea-014a2a520001 -->
 
 The PSM serves as a capital buffer, enabling Grove to scale liquidity massively without additional credit enhancement. As ASC obligations fluctuate, the PSM will act as a dynamic backstop, ensuring resilience during periods of high demand.
 
-###### A.2.8.2.2.2.8 - Token Launch Penalty, Capital Transfer, And Income Generation [Core]  <!-- UUID: 2df67c30-1644-4455-a3e4-f3047c4c49ae -->
+###### A.2.8.2.2.2.7 - Token Launch Penalty, Capital Transfer, And Income Generation [Core]  <!-- UUID: 2df67c30-1644-4455-a3e4-f3047c4c49ae -->
 
 The subdocuments herein set out agreed terms with respect to a token launch penalty, capital transfer, and income generation.
 
-###### A.2.8.2.2.2.8.1 - Token Launch Penalty [Core]  <!-- UUID: 5a62cc3f-4337-4770-a4d1-8a9b3d158b3f -->
+###### A.2.8.2.2.2.7.1 - Token Launch Penalty [Core]  <!-- UUID: 5a62cc3f-4337-4770-a4d1-8a9b3d158b3f -->
 
-If either Spark or Grove (each, a "Prime") does not complete its Prime Token Generation Event (see [A.2.8.2.2.2.8.1.1 - Prime Token Generation Event](fb80d94d-dd93-40ae-bb4c-8300c1c53d73)) by July 1, 2025, a penalty of thirty percent (30%) will apply. This penalty will be calculated on the income (as defined in [A.2.8.2.2.2.8.6 - Income Definition](fa48f7be-3c7d-4390-8b39-4fdfe9aa06ae)) the Prime is receiving or is meant to receive (including revenue that has accrued but has not been transferred) until the TGE occurs.
+If either Spark or Grove (each, a "Prime") does not complete its Prime Token Generation Event (see [A.2.8.2.2.2.7.1.1 - Prime Token Generation Event](fb80d94d-dd93-40ae-bb4c-8300c1c53d73)) by July 1, 2025, a penalty of thirty percent (30%) will apply. This penalty will be calculated on the income (as defined in [A.2.8.2.2.2.7.6 - Income Definition](fa48f7be-3c7d-4390-8b39-4fdfe9aa06ae)) the Prime is receiving or is meant to receive (including revenue that has accrued but has not been transferred) until the TGE occurs.
 
-The penalty shall be paid as specified in [A.2.8.2.2.2.8.1.2 - Token Launch Penalty Settlement](c680762a-a3f9-46bf-b740-9029b8a97e2b).
+The penalty shall be paid as specified in [A.2.8.2.2.2.7.1.2 - Token Launch Penalty Settlement](c680762a-a3f9-46bf-b740-9029b8a97e2b).
 
-###### A.2.8.2.2.2.8.1.1 - Prime Token Generation Event [Core]  <!-- UUID: fb80d94d-dd93-40ae-bb4c-8300c1c53d73 -->
+###### A.2.8.2.2.2.7.1.1 - Prime Token Generation Event [Core]  <!-- UUID: fb80d94d-dd93-40ae-bb4c-8300c1c53d73 -->
 
 The documents herein define a Prime Token Generation Event ("TGE") for Spark and Grove.
 
-###### A.2.8.2.2.2.8.1.1.1 - Spark Token Generation Event [Core]  <!-- UUID: d703336e-b86f-4e50-99f0-f4a8dff1d0f7 -->
+###### A.2.8.2.2.2.7.1.1.1 - Spark Token Generation Event [Core]  <!-- UUID: d703336e-b86f-4e50-99f0-f4a8dff1d0f7 -->
 
 The Spark Token Generation Event occurred on June 17, 2025.
 
-###### A.2.8.2.2.2.8.1.1.2 - Grove Token Generation Event [Core]  <!-- UUID: a69d2ed5-90ea-4d6b-ba6e-287a104017d2 -->
+###### A.2.8.2.2.2.7.1.1.2 - Grove Token Generation Event [Core]  <!-- UUID: a69d2ed5-90ea-4d6b-ba6e-287a104017d2 -->
 
 The Grove Token Generation Event will occur on the first date that SKY Staking users are able to earn GROVE Token Rewards. See [A.4.4.1 - SKY Staking](626bd71c-b413-41b7-a5fe-39fd0d43dbf5).
 
-###### A.2.8.2.2.2.8.1.2 - Token Launch Penalty Settlement [Core]  <!-- UUID: c680762a-a3f9-46bf-b740-9029b8a97e2b -->
+###### A.2.8.2.2.2.7.1.2 - Token Launch Penalty Settlement [Core]  <!-- UUID: c680762a-a3f9-46bf-b740-9029b8a97e2b -->
 
 The Token Launch Penalty will be paid by each Prime at the time of the last Capital Transfer to a Genesis Agent (the "Token Launch Penalty Settlement Date") as specified in the documents herein.
 
-###### A.2.8.2.2.2.8.1.2.1 - Token Launch Penalty Settlement Date [Core]  <!-- UUID: 66269cb6-0828-4977-b9d4-16840c6bc97d -->
+###### A.2.8.2.2.2.7.1.2.1 - Token Launch Penalty Settlement Date [Core]  <!-- UUID: 66269cb6-0828-4977-b9d4-16840c6bc97d -->
 
 When the Core Council determines the date of the last Capital Transfer to a Genesis Agent, it must submit an Atlas Edit Proposal to record the date in this document.
 
-###### A.2.8.2.2.2.8.1.2.2 - Token Launch Penalty Settlement Mechanism [Core]  <!-- UUID: 4c8a37f9-717d-437c-9f38-d17cbb3b3639 -->
+###### A.2.8.2.2.2.7.1.2.2 - Token Launch Penalty Settlement Mechanism [Core]  <!-- UUID: 4c8a37f9-717d-437c-9f38-d17cbb3b3639 -->
 
 The settlement mechanism for the Token Launch Penalty, including the calculation of the penalty for each Prime and how the calculated balance is paid to Sky, will be included in a future iteration of the Atlas.
 
-###### A.2.8.2.2.2.8.2 - Transfer Of Capital Funds [Core]  <!-- UUID: 760c4258-50f7-4334-af21-888759194e64 -->
+###### A.2.8.2.2.2.7.2 - Transfer Of Capital Funds [Core]  <!-- UUID: 760c4258-50f7-4334-af21-888759194e64 -->
 
 The transfer of the Genesis Capital Allocation to each Prime SubProxy (i.e. the Spark SubProxy and Grove SubProxy) shall occur once funding from the Surplus Buffer is approved. This condition ensures that capital deployment is aligned with the successful launch of the Prime's token and the commencement of its independent operations.
 
-###### A.2.8.2.2.2.8.2.1 - Transfer Of Genesis Capital Allocation To Spark SubProxy [Core]  <!-- UUID: e3ec99ec-54c9-4fe7-8104-aee20c57ec57 -->
+###### A.2.8.2.2.2.7.2.1 - Transfer Of Genesis Capital Allocation To Spark SubProxy [Core]  <!-- UUID: e3ec99ec-54c9-4fe7-8104-aee20c57ec57 -->
 
 The transfer of 20.6 million USDS from the Surplus Buffer to the Spark SubProxy for the Genesis Capital Allocation must be included in the June 26, 2025 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
-This amount reflects that 4.4 million USDS of pre-TGE expenses were paid by Sky as specified in [A.2.8.2.2.2.8.4 - Treatment of Expenses Paid By Sky Pre-TGE](f3672ca1-b305-4e16-86f0-3dc3267073bb). This includes 2 million USDS transferred from the Sky Ecosystem Liquidity Bootstrapping Budget to Spark to provide liquidity to market makers and 2.4 million USDS transferred from the Ecosystem Liquidity Bootstrapping Budget to Spark to provide liquidity to exchanges. See [A.2.8.2.2.2.8.4.1 - Transfer From Liquidity Bootstrapping Budget To Spark For Market Makers](66abd123-f5cd-4d1a-bf75-2e5f468eae16) and [A.2.8.2.2.2.8.4.2 - Transfer From Liquidity Bootstrapping Budget To Spark For Exchanges](1d7924cd-8105-458f-a959-92f302b971d4).
+This amount reflects that 4.4 million USDS of pre-TGE expenses were paid by Sky as specified in [A.2.8.2.2.2.7.4 - Treatment of Expenses Paid By Sky Pre-TGE](f3672ca1-b305-4e16-86f0-3dc3267073bb). This includes 2 million USDS transferred from the Sky Ecosystem Liquidity Bootstrapping Budget to Spark to provide liquidity to market makers and 2.4 million USDS transferred from the Ecosystem Liquidity Bootstrapping Budget to Spark to provide liquidity to exchanges. See [A.2.8.2.2.2.7.4.1 - Transfer From Liquidity Bootstrapping Budget To Spark For Market Makers](66abd123-f5cd-4d1a-bf75-2e5f468eae16) and [A.2.8.2.2.2.7.4.2 - Transfer From Liquidity Bootstrapping Budget To Spark For Exchanges](1d7924cd-8105-458f-a959-92f302b971d4).
 
-No penalties were applied under [A.2.8.2.2.2.8.1 - Token Launch Penalty](5a62cc3f-4337-4770-a4d1-8a9b3d158b3f).
+No penalties were applied under [A.2.8.2.2.2.7.1 - Token Launch Penalty](5a62cc3f-4337-4770-a4d1-8a9b3d158b3f).
 
-###### A.2.8.2.2.2.8.3 - Cessation Of MKR and SKY Token Flow [Core]  <!-- UUID: 91c1a218-ea12-4b75-ad71-efc4d1060e58 -->
+###### A.2.8.2.2.2.7.3 - Cessation Of MKR and SKY Token Flow [Core]  <!-- UUID: 91c1a218-ea12-4b75-ad71-efc4d1060e58 -->
 
-Upon the commencement of Income Generation (as defined in [A.2.8.2.2.2.8.6 - Income Definition](fa48f7be-3c7d-4390-8b39-4fdfe9aa06ae)) by a Prime, any existing or previously agreed-upon allocation or distribution of MKR or SKY tokens from Sky to that Prime shall immediately cease. The intent is for the Primes to transition to financial self-sufficiency upon the initiation of their respective income-generating activities. Furthermore, any token vesting to the Prime Foundation will be reduced by 50% until the TGE occurs. Prior to the TGE, Primes agree to share with Sky the Prime Agent Token vesting schedules and lock-ups for their teams to ensure they align with the principles of long-term commitment to the Prime.
+Upon the commencement of Income Generation (as defined in [A.2.8.2.2.2.7.6 - Income Definition](fa48f7be-3c7d-4390-8b39-4fdfe9aa06ae)) by a Prime, any existing or previously agreed-upon allocation or distribution of MKR or SKY tokens from Sky to that Prime shall immediately cease. The intent is for the Primes to transition to financial self-sufficiency upon the initiation of their respective income-generating activities. Furthermore, any token vesting to the Prime Foundation will be reduced by 50% until the TGE occurs. Prior to the TGE, Primes agree to share with Sky the Prime Agent Token vesting schedules and lock-ups for their teams to ensure they align with the principles of long-term commitment to the Prime.
 
-###### A.2.8.2.2.2.8.4 - Treatment of Expenses Paid By Sky Pre-TGE [Core]  <!-- UUID: f3672ca1-b305-4e16-86f0-3dc3267073bb -->
+###### A.2.8.2.2.2.7.4 - Treatment of Expenses Paid By Sky Pre-TGE [Core]  <!-- UUID: f3672ca1-b305-4e16-86f0-3dc3267073bb -->
 
-Any operational or other expenses incurred by a Prime and paid directly by Sky after July 1, 2025 shall be treated as an advance against the Prime’s Genesis Capital Allocation. The total amount of such expenses shall be documented and shall be deducted from the Prime’s allocated capital funds at the time of the Capital Transfer (as outlined in [A.2.8.2.2.2.8.2 - Transfer Of Capital Funds](760c4258-50f7-4334-af21-888759194e64)).
+Any operational or other expenses incurred by a Prime and paid directly by Sky after July 1, 2025 shall be treated as an advance against the Prime’s Genesis Capital Allocation. The total amount of such expenses shall be documented and shall be deducted from the Prime’s allocated capital funds at the time of the Capital Transfer (as outlined in [A.2.8.2.2.2.7.2 - Transfer Of Capital Funds](760c4258-50f7-4334-af21-888759194e64)).
 
-###### A.2.8.2.2.2.8.4.1 - Transfer From Liquidity Bootstrapping Budget To Spark For Market Makers [Core]  <!-- UUID: 66abd123-f5cd-4d1a-bf75-2e5f468eae16 -->
+###### A.2.8.2.2.2.7.4.1 - Transfer From Liquidity Bootstrapping Budget To Spark For Market Makers [Core]  <!-- UUID: 66abd123-f5cd-4d1a-bf75-2e5f468eae16 -->
 
 Sky has transferred 2 million USDS from the Sky Ecosystem Liquidity Bootstrapping Budget to Spark to provide liquidity to market makers (see [A.5.5.1.1 - Sky Ecosystem Liquidity Bootstrapping](cd4ae79c-0e34-4388-8ac2-41d7677bd955)). This amount shall be treated as an advance against Spark’s Genesis Capital Allocation and deducted from Spark’s allocated capital funds at the time of the Capital Transfer.
 
-###### A.2.8.2.2.2.8.4.2 - Transfer From Liquidity Bootstrapping Budget To Spark For Exchanges [Core]  <!-- UUID: 1d7924cd-8105-458f-a959-92f302b971d4 -->
+###### A.2.8.2.2.2.7.4.2 - Transfer From Liquidity Bootstrapping Budget To Spark For Exchanges [Core]  <!-- UUID: 1d7924cd-8105-458f-a959-92f302b971d4 -->
 
 Sky has transferred 2.4 million USDS from the Sky Ecosystem Liquidity Bootstrapping Budget to Spark to provide liquidity to exchanges (see [A.5.5.1.1 - Sky Ecosystem Liquidity Bootstrapping](cd4ae79c-0e34-4388-8ac2-41d7677bd955)). This amount shall be treated as an advance against Spark’s Genesis Capital Allocation and deducted from Spark’s allocated capital funds at the time of the Capital Transfer.
 
-###### A.2.8.2.2.2.8.5 - Income Generation And Pre-TGE Credit [Core]  <!-- UUID: 3ae9fa89-97e6-46ac-9b8b-ecb77a10574f -->
+###### A.2.8.2.2.2.7.5 - Income Generation And Pre-TGE Credit [Core]  <!-- UUID: 3ae9fa89-97e6-46ac-9b8b-ecb77a10574f -->
 
-"Income Generation" shall be deemed to commence on July 1, 2025. From that date until the Prime’s TGE, seventy percent (70%) of any income generated by the Prime’s activities shall be credited to its capital account (net of any expenses paid by Sky as per [A.2.8.2.2.2.8.4 - Treatment of Expenses Paid By Sky Pre-TGE](f3672ca1-b305-4e16-86f0-3dc3267073bb)), subject to any penalties.
+"Income Generation" shall be deemed to commence on July 1, 2025. From that date until the Prime’s TGE, seventy percent (70%) of any income generated by the Prime’s activities shall be credited to its capital account (net of any expenses paid by Sky as per [A.2.8.2.2.2.7.4 - Treatment of Expenses Paid By Sky Pre-TGE](f3672ca1-b305-4e16-86f0-3dc3267073bb)), subject to any penalties.
 
-###### A.2.8.2.2.2.8.6 - Income Definition [Core]  <!-- UUID: fa48f7be-3c7d-4390-8b39-4fdfe9aa06ae -->
+###### A.2.8.2.2.2.7.6 - Income Definition [Core]  <!-- UUID: fa48f7be-3c7d-4390-8b39-4fdfe9aa06ae -->
 
 "Income" means all revenues or fees received or accrued by the applicable Prime after July 1, 2025, including: (i) Distribution Rewards (see [A.2.8.2.2.2.3.1 - Distribution Reward Rate](8e3cde6b-3b8b-4e9a-b9a0-8c24d84881f6)), (ii) Distribution Reward Bonus for 2025 (see [A.2.8.2.2.2.3.2 - 2025 Bonus](7ca440d3-03fb-4fba-81a8-d2118dc47aa6)), (iii) any Platform Fees charged to users, and (iv) Real World Asset fees charged to users, including any origination, servicing, or related charges, and (v) the blended cost of allocation spread between Junior and Senior Risk Capital.
 
@@ -11385,9 +11293,7 @@ The subdocuments herein set out the substantive terms of Ecosystem Accord 3.
 
 ###### A.2.8.2.3.2.1 - Pioneer Incentive Pool [Core]  <!-- UUID: c929aef7-1b81-4693-8fd8-3d75e62882af -->
 
-Keel is eligible for a Pioneer Incentive Pool as specified in [A.2.2.8.3.1.4 - Pioneer Incentive Pool](04edac33-19d5-4a87-a8ab-945a0cd57771), subject to the terms specified in this document.
-
-The distribution requirements specified in [A.2.2.8.3.1.4 - Pioneer Incentive Pool](04edac33-19d5-4a87-a8ab-945a0cd57771) do not apply to Keel. Instead, Keel retains one hundred percent (100%) of the funds allocated to its Pioneer Incentive Pool. Keel is not required to distribute any portion of these funds to third parties. The use of Pioneer Incentive Pool funds is supervised by the Operational Executor Agent.
+Keel is eligible for a Pioneer Incentive Pool as specified in [A.2.2.8.3.1.4 - Pioneer Incentive Pool](04edac33-19d5-4a87-a8ab-945a0cd57771).
 
 The Pioneer Incentive Pool is calculated on a monthly basis as the Sky Savings Rate multiplied by all Unrewarded USDS on Solana. Payments are made on a monthly basis from the Demand Side Buffer (see [A.2.2.8.1.2.1.4 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) to a Pioneer Incentive Pool wallet controlled by the Pioneer Prime. The address of the Pioneer Incentive Pool wallet on Solana is `8JmDPG5BFQ6gpUPJV9xBixYJLqTKCSNotkXksTmNsQfj`.
 
@@ -11477,7 +11383,7 @@ Core Council Executor Agent 1 will serve as the first Core Executor Agent and mu
 
 ###### A.2.8.2.5.2.2 - Genesis Capital Allocation [Core]  <!-- UUID: 6dc349a3-183e-4074-8f6e-cff39867363e -->
 
-To effect the Genesis Capitalization of Core Council Executor Agent 1, Sky Core shall directly transfer (1) 20,000,000 USDS to the Core Council Executor Agent 1 SubProxy and (2) 5,000,000 USDS to the Core Council Buffer (see [A.2.3.1.4.1.1.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)). The 5,000,000 USDS transfer constitutes part of Core Council Executor Agent 1's Genesis Capital Allocation, deposited directly to its operational payment account.
+To effect the Genesis Capitalization of Core Council Executor Agent 1, Sky Core shall directly transfer (1) 20,000,000 USDS to the Core Council Executor Agent 1 SubProxy and (2) 5,000,000 USDS to the Core Council Buffer (see [A.2.3.1.2.2.2.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)). The 5,000,000 USDS transfer constitutes part of Core Council Executor Agent 1's Genesis Capital Allocation, deposited directly to its operational payment account.
 
 ###### A.2.8.2.5.2.2.1 - Core Council Executor Agent 1 SubProxy Address [Core]  <!-- UUID: 89c19c75-cd5d-4c21-887d-0f4bfe3e42a7 -->
 
@@ -12529,6 +12435,7 @@ The value of the `chainId` parameter for each chain is:
 - Unichain - `130`
 - Solana - `5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp`
 - Avalanche - `43114`
+- Plasma - `9745`
 
 ###### A.2.11.1.2.2.3.3.2 - Asset Recovery Addresses [Core]  <!-- UUID: 3f125522-dff7-48a3-948f-e99c71fc3929 -->
 
@@ -12541,6 +12448,7 @@ The Asset Recovery Address is the Pause Proxy on Ethereum Mainnet and the Govern
 - Unichain - `0x3510a7F16F549EcD0Ef018DE0B3c2ad7c742990f`
 - Solana - `AYPtjx4Hc8us1ikULUedkmZ3wtiD6tmL7gK3qe4V3oHt`
 - Avalanche - `0xe928885BCe799Ed933651715608155F01abA23cA`
+- Plasma - `0x5CE28f2dD353945db9AB3273A2a1dD1AB632e24b`
 
 ###### A.2.11.1.2.2.3.3.3 - Accounts [Core]  <!-- UUID: c6591c5c-c767-4769-b2d6-80564d96fa48 -->
 
@@ -12574,6 +12482,493 @@ Primes must develop processes to register contracts they deploy with Safe Harbor
 
 [A.2.11.1.2 - Safe Harbor](bb494bc1-f3cb-4b7f-826f-437c62d534c8) constitutes the "Agreement Fact Page" as specified in the Safe Harbor Agreement.
 
+
+#### A.2.11.1.3 - Multisig Security Enforcement [Core]  <!-- UUID: 142ed420-18a6-4ab9-9889-cbd9c376d48d -->
+
+The documents herein establish the security policies, oversight mechanisms, processes, security requirements, and operational procedures governing the use and administration of Multisigs within the Sky Ecosystem.
+
+##### A.2.11.1.3.1 - Purpose [Core]  <!-- UUID: c2facaa0-f700-49aa-bcbe-ffc0649eb02b -->
+
+The Multisig Security Enforcement Framework establishes binding policies and operational requirements for the use of Multisig wallets across the Sky Ecosystem. Its objective is to ensure that Multisigs used to control smart contracts, allocate capital, and operate under emergency conditions across Sky Core and Prime Agent infrastructure comply with established security and operational requirements, providing clear grounds for oversight, auditing, and enforcement in cases of noncompliance.
+
+###### A.2.11.1.3.1.1 - Multisig Administrator [Core]  <!-- UUID: aa2c4af5-5530-4872-9750-20813f3cd258 -->
+
+A Multisig Administrator is the entity or individual responsible for the setup, configuration, ongoing management, and compliance of a Multisig. Each Multisig must have a designated Multisig Administrator, communicated to the Protocol Security Workstream Lead and Core GovOps prior to the Multisig's activation or operational use.
+
+##### A.2.11.1.3.2 - Multisig Security Guidelines [Core]  <!-- UUID: 6033699f-1d55-45ba-8eb1-bd8982571cc0 -->
+
+The documents herein specify the requirements governing Multisig planning, operation, and administration. All requirements in the documents herein shall take effect on May 20, 2026.
+
+###### A.2.11.1.3.2.1 - Multisig Setup [Core]  <!-- UUID: 2b44acd9-b589-4a4d-b367-e26a387b2358 -->
+
+The documents herein specify requirements and relevant operational processes that must be satisfied prior to Multisig activation or operational use.
+
+###### A.2.11.1.3.2.1.1 - Multisig Administrator Responsibilities - Setup [Core]  <!-- UUID: e5751fe2-fc2b-4bc8-b9c1-828fef7fc38f -->
+
+The documents herein define the responsibilities and requirements applicable to Multisig Administrators prior to Multisig activation or operational use. Multisig Administrators may consult the operational guides specified in [A.2.11.1.3.2.3 - Operational Guides](37f6864d-5f6a-43fd-adbe-f3b2e82c9e01) for guidance on fulfilling these requirements.
+
+###### A.2.11.1.3.2.1.1.1 - Multisig Classification [Core]  <!-- UUID: c2344b39-faa2-45af-ab97-99ff521d0826 -->
+
+The documents herein define relevant processes by which the Multisig Administrator classifies a Multisig in order to determine the appropriate security measures prior to its activation and operational use.
+
+###### A.2.11.1.3.2.1.1.1.1 - Impact Assessment [Core]  <!-- UUID: 3c0847fe-e117-40f8-86a3-9de56c9a3bba -->
+
+Impact Assessment defines the assessment process in which the potential impact of a Multisig compromise or failure is evaluated. The result of this evaluation is the assignment of an Impact Classification level as defined below. The Multisig Administrator is responsible for determining this classification and must provide it to Core GovOps as part of the Multisig registration process in accordance with [A.2.11.1.3.2.1.1.8 - Multisig Registration](110614e9-6375-464a-90b3-3b350d3cf79c).
+
+| **Impact Classification Level** | **Financial Exposure** | **Decision Context** | **Reputational Impact** |
+|---|---|---|---|
+| Low | <$100k direct exposure | Minimal disruption, alternative paths exist | Limited scope impact |
+| Medium | $100k – $1M exposure | Significant operational delays, workarounds available | Moderate reputational concern |
+| High | $1M – $10M exposure | Major protocol disruption, difficult recovery | Serious reputational damage |
+| Critical | >$10M exposure | Protocol-wide failure, catastrophic impact | Severe reputational damage |
+
+When a Multisig falls between two classification levels, the higher security classification must be selected.
+
+###### A.2.11.1.3.2.1.1.1.2 - Operational Assessment [Core]  <!-- UUID: 35224359-76a6-41fe-adc2-6f70a29f3f4a -->
+
+Operational Assessment defines the assessment process in which the operational response requirements of a Multisig are evaluated. The result of this evaluation is the assignment of an Operational Classification type as defined below. The Multisig Administrator is responsible for determining this classification and must provide it to Core GovOps as part of the Multisig registration process in accordance with [A.2.11.1.3.2.1.1.8 - Multisig Registration](110614e9-6375-464a-90b3-3b350d3cf79c).
+
+| **Operational Classification Type** | **Response Time** | **Decision Context** | **Verification Process** |
+|---|---|---|---|
+| Routine | 24 - 48 hours | Standard procedures, predictable operations | Full verification protocols |
+| Time-Sensitive | 2 - 12 hours | Market conditions, protocol needs | Streamlined but thorough |
+| Emergency | <2 hours | Crisis response, preventing immediate damage | Minimal delays, risk-appropriate |
+
+When a Multisig falls between two classification levels, the higher security classification must be selected.
+
+###### A.2.11.1.3.2.1.1.2 - Thresholds And Configuration [Core]  <!-- UUID: e410573b-a92a-4686-9b4b-71b97d73e99c -->
+
+The documents herein define all requirements relating to Multisig thresholds and configuration.
+
+###### A.2.11.1.3.2.1.1.2.1 - Threshold Requirements [Core]  <!-- UUID: 89b7bcf9-8268-4e46-bdfb-dae3a5985a98 -->
+
+The baseline minimum threshold standards applicable to all Multisigs are:
+
+- Multisigs must have a minimum of three (3) signers.
+- Multisigs must maintain a signing threshold of at least fifty percent (50%) of total signers.
+
+These requirements apply unless explicitly exempted in [A.2.11.1.3.2.1.1.2.2 - Threshold Exceptions](130a44af-0715-4aa6-b248-f4a267ebe1a4).
+
+Additional threshold requirements or considerations may apply depending on the specific operational use case of the Multisig. Such requirements are defined in [A.2.11.1.3.2.1.1.2.3 - Additional Use-Case Specific Threshold Requirements And Considerations](5af1115e-5155-449a-829d-6e641af49b0f).
+
+###### A.2.11.1.3.2.1.1.2.2 - Threshold Exceptions [Core]  <!-- UUID: 130a44af-0715-4aa6-b248-f4a267ebe1a4 -->
+
+Threshold Exceptions define the limited circumstances under which Multisigs may operate below the baseline threshold requirements defined in [A.2.11.1.3.2.1.1.2.1 - Threshold Requirements](89b7bcf9-8268-4e46-bdfb-dae3a5985a98).
+
+Exceptions may be permitted by Core GovOps, in consultation with the Protocol Security Workstream Lead. Examples include rate-setting or parameter adjustment operations where parameters are tightly bounded and set by governance, and where a defined recovery or replacement mechanism exists in the event of Multisig failure or compromise.
+
+###### A.2.11.1.3.2.1.1.2.3 - Additional Use-Case Specific Threshold Requirements And Considerations [Core]  <!-- UUID: 5af1115e-5155-449a-829d-6e641af49b0f -->
+
+Additional threshold requirements and considerations may apply depending on the specific operational use case of the Multisig. These requirements supplement the baseline threshold requirements defined in [A.2.11.1.3.2.1.1.2.1 - Threshold Requirements](89b7bcf9-8268-4e46-bdfb-dae3a5985a98).
+
+###### A.2.11.1.3.2.1.1.2.3.1 - Smart Contract Control Multisig Threshold Consideration [Core]  <!-- UUID: 2a4762e5-b369-45c1-98d6-4dfb34b4ac17 -->
+
+Higher signing thresholds should be used for operations involving contract upgrades or significant protocol changes. As a general guideline, thresholds equivalent to at least seven of nine (7/9) signers, or an equivalent supermajority, should be used where feasible. Lower thresholds may be acceptable for highly constrained operations where execution scope is limited by on-chain parameter bounds.
+
+###### A.2.11.1.3.2.1.1.2.3.2 - High-Value Asset Multisig Threshold Requirement [Core]  <!-- UUID: ca29bdf9-0d6f-42ee-aae5-cb361799cf92 -->
+
+Multisigs managing assets with a value equal to or greater than one million USD ($1,000,000) equivalent must have no fewer than seven (7) signers. This requirement applies to custodial control of assets, not emergency freeze functions.
+
+###### A.2.11.1.3.2.1.1.3 - Multisig Configuration Restrictions [Core]  <!-- UUID: 1f7afd0e-b5b4-47a1-83a0-b15de7a112f8 -->
+
+The documents herein define all requirements relating to Multisig configurations.
+
+###### A.2.11.1.3.2.1.1.3.1 - Module Requirement [Core]  <!-- UUID: 492d766d-908c-4dbc-bbcf-e8b9ad720d73 -->
+
+Multisigs must not utilize any modules or guards, except those explicitly permitted for the applicable use case in [A.2.11.1.3.2.1.1.3.2 - Use-Case Specific Configuration Requirements And Considerations](f8d0e4df-acca-4f20-a030-584efb4a8695).
+
+###### A.2.11.1.3.2.1.1.3.2 - Use-Case Specific Configuration Requirements And Considerations [Core]  <!-- UUID: f8d0e4df-acca-4f20-a030-584efb4a8695 -->
+
+Additional configuration requirements, exceptions or considerations may apply depending on the specific operational use case of the Multisig, and these requirements are specified in the subdocuments herein.
+
+###### A.2.11.1.3.2.1.1.3.2.1 - Treasury Multisig Configuration Requirements [Core]  <!-- UUID: f5ed192d-8c49-4095-9b98-840a1a31d47a -->
+
+Treasury Multisigs must use an allowance module that grants the Sky Pause Proxy allowance equal to the maximum amount of each token held by the Multisig.
+
+###### A.2.11.1.3.2.1.1.3.2.2 - Capital Allocation Multisig Configuration Requirements And Considerations [Core]  <!-- UUID: 925a2690-e538-4406-9f6c-491da4f6c58e -->
+
+Capital Allocation Multisigs should implement on-chain constraints wherever feasible, including, but not limited to, smart contract limits or parameter bounds.
+
+###### A.2.11.1.3.2.1.1.3.2.3 - Smart Contract Control Multisig Configuration Requirements And Considerations [Core]  <!-- UUID: 0f76bf08-c7a2-4088-b5f7-8b5ac25e748e -->
+
+For Multisigs responsible for smart contract control, the following requirements apply:
+
+- Major contract changes, including, but not limited to, upgrades or significant parameter changes, must be subject to timelock contracts or equivalent delay mechanisms where feasible.
+- Protocol parameters controlled by Multisigs must be bounded through smart contract enforcement where feasible.
+
+###### A.2.11.1.3.2.1.1.4 - Standard Threshold Recommendations [Core]  <!-- UUID: 022c6cf1-9fba-4c3d-8f15-aa2c616d27c6 -->
+
+Standard Thresholds refer to recommended Multisig threshold configurations based on use case, Impact Classification level (as defined in [A.2.11.1.3.2.1.1.1.1 - Impact Assessment](3c0847fe-e117-40f8-86a3-9de56c9a3bba)), and Operational Classification type (as defined in [A.2.11.1.3.2.1.1.1.2 - Operational Assessment](35224359-76a6-41fe-adc2-6f70a29f3f4a)). These standards serve as guidance to the Multisig Administrator during Multisig setup.
+
+| **Use Case** | **Impact Classification Level** | **Operational Classification Type** | **Standard Threshold** |
+|---|---|---|---|
+| Treasury - Large | High | Routine | 4/7 |
+| Treasury - Small | Medium | Routine | 3/5 |
+| Emergency Freeze | Critical | Emergency | 2/4 |
+| Capital Allocation | High | Time-Sensitive | 3/5 |
+| Protocol Parameters | High | Routine | 4/7 |
+| Constrained DeFi | Medium | Time-Sensitive | 2/3 |
+
+###### A.2.11.1.3.2.1.1.5 - Backup Infrastructure Recommendations [Core]  <!-- UUID: 42a339d4-5caa-4ea1-bfeb-a0c49d898591 -->
+
+The documents herein outline recommended practices for establishing and maintaining backup infrastructure to help ensure that Multisig signers can continue to monitor, verify, and execute transactions if primary user interfaces, RPC providers, or block explorers become unavailable.
+
+###### A.2.11.1.3.2.1.1.5.1 - Backup Interface Setup Recommendations [Core]  <!-- UUID: 864fe73b-3fd4-4f95-9f26-ece6ef53d925 -->
+
+The Multisig Administrator should ensure that alternative Multisig user interfaces are available to signers in the event that the primary interface becomes unavailable. These interfaces should ideally be accessible through independent infrastructure and may include self-hosted or locally runnable alternatives where available.
+
+###### A.2.11.1.3.2.1.1.5.2 - RPC Redundancy Recommendations [Core]  <!-- UUID: b5abaa31-031c-4488-a900-05fe5c1afff4 -->
+
+The Multisig Administrator should maintain access to multiple RPC providers for each supported network to help preserve operational continuity if a primary provider becomes unavailable. Where possible, RPC providers should be selected to minimize shared infrastructure dependencies.
+
+###### A.2.11.1.3.2.1.1.6 - Communication Setup [Core]  <!-- UUID: f7950657-3cf5-4dec-939b-17e13f2f7e9d -->
+
+The Multisig Administrator is responsible for establishing and maintaining communication channels and communication readiness in accordance with the requirements defined in the subdocuments herein.
+
+###### A.2.11.1.3.2.1.1.6.1 - Primary Communication Channel Requirement [Core]  <!-- UUID: ebe71281-44d5-46b8-a64f-eda51d5184b5 -->
+
+A dedicated communication channel must be established for Multisig operations. The Multisig Administrator is responsible for ensuring that the channel is restricted to Multisig signers and authorized participants and supports reliable and timely operational communication and coordination between participants.
+
+###### A.2.11.1.3.2.1.1.6.2 - Backup Communication Channel Requirement [Core]  <!-- UUID: fa17d9fc-b505-411b-995b-5bde1ae8ebc3 -->
+
+A backup communication channel, established on a different platform from the primary communication channel, must be established to maintain communication continuity in the event the primary channel becomes unavailable. The Multisig Administrator is responsible for ensuring that the backup channel follows the same access and participation constraints as the primary channel.
+
+###### A.2.11.1.3.2.1.1.6.3 - Emergency Communication Readiness Requirement [Core]  <!-- UUID: 8976fa02-7f24-4d42-8f13-8acfb8757d1b -->
+
+Multisig Administrators are responsible for ensuring that Multisigs classified with an Emergency or Time-Sensitive Operational Classification level, as defined in [A.2.11.1.3.2.1.1.1.2 - Operational Assessment](35224359-76a6-41fe-adc2-6f70a29f3f4a), maintain communication and alerting mechanisms capable of reliably and rapidly reaching signers, enabling timely execution of required actions in accordance with the operational response expectations of the Multisig. Multisig Administrators must also include Signers in the approved Emergency Response contact mechanisms as specified in [A.1.8.1.3.2.2 - Approved Emergency Contact Mechanisms](57006d4e-cd91-4565-97b5-5fab73fa94d5).
+
+###### A.2.11.1.3.2.1.1.6.4 - Communication Access Removal Requirement [Core]  <!-- UUID: 317732f8-d609-42a5-9367-c892451cac81 -->
+
+Any signer removed from a Multisig must be promptly removed from all Multisig communication channels and communication systems associated with that Multisig, including primary and backup communication channels. The Multisig Administrator is responsible for ensuring that access is limited to current authorized participants.
+
+###### A.2.11.1.3.2.1.1.7 - Signer Security Check [Core]  <!-- UUID: e60b83f2-04a5-4c4a-9666-b2f4f2f55330 -->
+
+The Multisig Administrator must ensure that all Multisig signers comply with the applicable signer security requirements as outlined in [A.2.11.1.3.2.1.2.2 - Signer Security Requirements](3f441562-4c03-429c-8934-f0f87fa0eee7), prior to operational use of the Multisig.
+
+###### A.2.11.1.3.2.1.1.8 - Multisig Registration [Core]  <!-- UUID: 110614e9-6375-464a-90b3-3b350d3cf79c -->
+
+All Multisigs currently in use or intended for use within Treasury Management, Emergency Operations (including Freezer or equivalent emergency control Multisigs), Capital Allocation, or Smart Contract Control (including protocol parameter management and constrained DeFi operations) must be registered prior to their inclusion in any Spell or governance execution process.
+
+The Multisig Administrator is responsible for communicating all necessary details about the Multisig to Core GovOps for registration in accordance with the information requirements outlined in [A.2.11.1.3.4 - Multisig Registry](4d80cae1-b28a-4907-8d59-2ebcbba6003d). Core GovOps must coordinate with the Protocol Security Workstream Lead to obtain approval prior to completing the registration.
+
+###### A.2.11.1.3.2.1.2 - Signer Responsibilities - Setup [Core]  <!-- UUID: 3331e101-36f1-45e5-be2e-e22757b3083b -->
+
+The documents herein define the responsibilities and requirements applicable to Multisig signers during the setup phase of a Multisig. Signers may consult with their Multisig Administrator for guidance on fulfilling these requirements.
+
+###### A.2.11.1.3.2.1.2.1 - Signer Verification Process [Core]  <!-- UUID: 002821ab-c67c-4eb1-987c-69e759ab7b3c -->
+
+Multisig signers must verify their addresses prior to being added to a Multisig. The documents herein define the processes and requirements related to the Signer Verification Process.
+
+###### A.2.11.1.3.2.1.2.1.1 - Verification Signature [Core]  <!-- UUID: d1b44379-1e60-480f-b6f8-574e4d2bbb1e -->
+
+The signer must produce a cryptographically signed message demonstrating control of the signer address intended for Multisig participation. The signed message must include the following:
+
+- A statement indicating that the signer intends to join the specified Multisig;
+- The Multisig address;
+- The signer address intended for participation;
+- The signer's handle, entity name, or other identifying affiliation sufficient to establish accountability.
+
+###### A.2.11.1.3.2.1.2.1.2 - Verification Submission [Core]  <!-- UUID: 84a4c85e-0396-499b-955b-7eb64275b21d -->
+
+The verification signature must be shared with the Multisig Administrator.
+
+###### A.2.11.1.3.2.1.2.2 - Signer Security Requirements [Core]  <!-- UUID: 3f441562-4c03-429c-8934-f0f87fa0eee7 -->
+
+Multisig signers must comply with the following security requirements:
+
+- All Multisig signers must use hardware wallets for signing operations. The associated seed phrase must be securely backed up using physical, offline storage methods only. Seed phrases must never be stored digitally, including in photographs, files, password managers, cloud storage, email, or messaging applications. Seed phrase backups must be stored on durable offline media and kept in secure physical locations with appropriate access controls to prevent unauthorized access or single-point compromise.
+- Signers must use a unique signing address per Multisig and must not reuse the same signing address across Multisigs.
+- Signers participating in Multisigs responsible for critical protocol configuration or security-sensitive operations should not use their signing addresses for personal transactions or other unrelated activities and should instead use a dedicated address created specifically for Multisig participation.
+
+###### A.2.11.1.3.2.2 - Multisig Ongoing Management [Core]  <!-- UUID: c010de5a-57a5-4cdf-9852-d6570b7791ca -->
+
+The documents herein define the responsibilities and requirements relating to the ongoing management of Multisigs during operational use.
+
+###### A.2.11.1.3.2.2.1 - Multisig Administrator Responsibilities - Ongoing Management [Core]  <!-- UUID: 7ff66181-3c64-46e8-b17c-f0a90793b388 -->
+
+The documents herein define the responsibilities and requirements of Multisig Administrators relating to the ongoing management and maintenance of Multisigs during operational use. Multisig Administrators may consult the operational guides specified in [A.2.11.1.3.2.3 - Operational Guides](37f6864d-5f6a-43fd-adbe-f3b2e82c9e01) for guidance on fulfilling these requirements.
+
+###### A.2.11.1.3.2.2.1.1 - Signer Composition And Rotation [Core]  <!-- UUID: d81db018-bce7-44b9-a354-667f128a4db3 -->
+
+The documents herein define requirements governing changes to Multisig signer composition, including the rotation, replacement, and updating of Multisig signers and signer addresses.
+
+###### A.2.11.1.3.2.2.1.1.1 - Signer Rotation Requirement [Core]  <!-- UUID: cb4d28ac-6d54-4d57-99b2-ed80cea73139 -->
+
+Multisig signers may be rotated as operational or security requirements evolve. All signer rotations must be communicated to Core GovOps by the Multisig Administrator, accompanied by clear documentation describing the reason for the change, the outgoing signer, and the incoming signer. Core GovOps must update the Multisig Registry to reflect the changes.
+
+###### A.2.11.1.3.2.2.1.1.2 - Signer Composition Documentation Requirement [Core]  <!-- UUID: 2d434d95-a892-404f-9e59-216dce97ce89 -->
+
+Any change to Multisig signer composition must be promptly communicated to Core GovOps by the Multisig Administrator. Core GovOps must update the Multisig Registry to ensure it includes all updated signer addresses.
+
+###### A.2.11.1.3.2.2.1.1.3 - Threshold Preservation Requirement [Core]  <!-- UUID: 6dc7cb2e-0c20-4698-b183-28b49f76f88c -->
+
+Signer rotations must not reduce the total number of signers or decrease the signing threshold unless the Multisig Administrator provides a clear operational or security justification that is submitted to and approved by Core GovOps.
+
+###### A.2.11.1.3.2.2.1.1.4 - Signer Offboarding Requirements [Core]  <!-- UUID: 6bf116c0-657d-454f-8181-cc2677844513 -->
+
+The Multisig Administrator must ensure that signers are offboarded in accordance with the procedures outlined in the documents herein.
+
+###### A.2.11.1.3.2.2.1.1.4.1 - Signer Removal [Core]  <!-- UUID: 5c4850a6-cfd9-4b5e-b8fb-a0500c043bfd -->
+
+The Multisig Administrator must coordinate with the remaining signers to execute a signer removal transaction in accordance with the Multisig's standard signer rotation procedures. After execution, the Multisig Administrator must verify that the departing signer's address has been removed from the Multisig and that the change is appropriately communicated and documented as outlined in [A.2.11.1.3.2.2.1.1.2 - Signer Composition Documentation Requirement](2d434d95-a892-404f-9e59-216dce97ce89).
+
+###### A.2.11.1.3.2.2.1.1.4.2 - Access Revocation And Handover [Core]  <!-- UUID: 6a420118-a76a-4e8f-bd70-e30fca5cf703 -->
+
+The Multisig Administrator must ensure that the departing signer relinquishes access to all Multisig-related communication channels, shared resources, and sensitive operational systems. Any locally stored sensitive Multisig information must be securely deleted. Departing signers should provide relevant operational context, including any pending actions or responsibilities, to the remaining signers to support a smooth transition.
+
+###### A.2.11.1.3.2.2.1.1.5 - Use-Case Specific Signer Requirements And Considerations [Core]  <!-- UUID: f1c6bc31-d2f4-454d-8200-8a2ddc78c695 -->
+
+Additional signer requirements or considerations may apply depending on the specific operational use case of the Multisig. Such requirements are specified in the subdocuments herein.
+
+###### A.2.11.1.3.2.2.1.1.5.1 - Emergency Response Multisig Signer Composition Requirements And Considerations [Core]  <!-- UUID: fdeaaece-d90e-4f47-a8f9-0ea23cf8d49f -->
+
+The signer requirements and considerations applicable to Multisigs classified with a Time-Sensitive or Emergency Operational Classification level, as defined in [A.2.11.1.3.2.1.1.1.2 - Operational Assessment](35224359-76a6-41fe-adc2-6f70a29f3f4a), are as follows:
+
+- Emergency Response Multisigs must maintain 24/7 availability of a number of signers equal to or greater than the Multisig signing threshold.
+- Geographic distribution of signers is encouraged for Emergency Response Multisigs where appropriate to support 24/7 operational coverage.
+
+###### A.2.11.1.3.2.2.1.1.5.2 - Capital Allocation Multisig Signer Composition Requirements And Considerations [Core]  <!-- UUID: 8d4d4683-03fc-4e4d-a255-9e7e0c40e059 -->
+
+The Multisig Administrator must ensure that all signers participating in Capital Allocation Multisigs (Multisigs responsible for allocating or reallocating capital) possess sufficient protocol expertise.
+
+###### A.2.11.1.3.2.2.1.2 - Incident Reporting [Core]  <!-- UUID: 8ff4a715-3ca6-4196-8fae-80ea556c2266 -->
+
+Incident Reporting defines the procedures governing the reporting of security incidents, operational issues, and security-relevant events relating to Multisig operations.
+
+###### A.2.11.1.3.2.2.1.2.1 - Reportable Incidents Classification [Core]  <!-- UUID: f604c9b7-a728-4b53-acbc-cc8677dd23d6 -->
+
+All incidents must be reported and classified to ensure appropriate response timelines and escalation. The documents herein define the classification categories, reporting timelines, and applicable reporting processes for Multisig-related incidents.
+
+###### A.2.11.1.3.2.2.1.2.1.1 - Security Incidents [Core]  <!-- UUID: bae73b4f-aa60-4c42-a56c-3d29af2bef36 -->
+
+Security incidents must be reported immediately upon discovery, in accordance with the process outlined in [A.2.11.1.3.2.2.1.2.2 - Emergency Incident Reporting Process](56e44cdc-1ba5-4254-9308-c4cfe189394a). Security incidents include, but are not limited to:
+
+- Signing key compromise or suspected compromise
+- Account takeover of email or communication platforms used for Multisig operations
+- Device theft or loss involving signing or operational access
+- Suspicious or unauthorized activity on Multisig accounts
+- Phishing attempts targeting Multisig operations
+- Compromise or suspected infiltration of communication channels used for Multisig coordination
+
+###### A.2.11.1.3.2.2.1.2.1.2 - Operational Issues [Core]  <!-- UUID: 8f2bc680-c6f7-40dc-b003-118b71f1de20 -->
+
+Operational issues must be reported within 24 hours of discovery, in accordance with the process outlined in [A.2.11.1.3.2.2.1.2.3 - Standard Incident Reporting Process](ec4cd423-74ba-4e74-82d9-46ba5f6cf526). Operational issues include, but are not limited to:
+
+- Loss of access to signing keys or signing devices
+- Hardware wallet or backup device failure
+- Communication channel failures affecting Multisig coordination
+- Verification tool malfunctions
+- Operational difficulties preventing adherence to security procedures
+
+###### A.2.11.1.3.2.2.1.2.1.3 - Near Misses [Core]  <!-- UUID: 32420ad5-4fd2-4088-8564-452d4adf9589 -->
+
+Near misses should be reported in accordance with the process outlined in [A.2.11.1.3.2.2.1.2.3 - Standard Incident Reporting Process](ec4cd423-74ba-4e74-82d9-46ba5f6cf526) when practical. Near misses include events that did not result in compromise but may indicate risk, including, but not limited to:
+
+- Social engineering attempts
+- Suspicious emails or messages
+- Security procedure confusion or errors
+- Training gaps or unclear documentation
+
+###### A.2.11.1.3.2.2.1.2.2 - Emergency Incident Reporting Process [Core]  <!-- UUID: 56e44cdc-1ba5-4254-9308-c4cfe189394a -->
+
+When an emergency incident occurs, the following steps must be completed:
+
+- The reporting signer must take immediate actions to secure the situation and prevent further risk, including isolating affected devices or systems where appropriate.
+- The reporting signer must notify the Multisig Administrator and other participants through the primary communication channel.
+- The Multisig Administrator must ensure that the reporting signer immediately reports the incident to the Protocol Security Workstream Lead, following the documentation requirements outlined in [A.2.11.1.3.2.2.1.2.2.1 - Emergency Incident Documentation Requirements](6d6e7b53-8fcb-4ecb-8428-e07f682d13d4).
+- The Multisig Administrator must ensure that the reporting signer follows up with the Protocol Security Workstream Lead if no acknowledgement is received within 24 hours.
+
+###### A.2.11.1.3.2.2.1.2.2.1 - Emergency Incident Documentation Requirements [Core]  <!-- UUID: 6d6e7b53-8fcb-4ecb-8428-e07f682d13d4 -->
+
+All emergency incident reports must include sufficient documentation to allow review, follow-up, and operational learning. At minimum, security incident documentation must include:
+
+- Multisig details and classification
+- Incident type
+- Time of incident occurrence and discovery
+- Reporting signer
+- Description of the incident
+- Immediate actions taken
+- Next steps required
+- Current Multisig status
+- Impact
+
+###### A.2.11.1.3.2.2.1.2.3 - Standard Incident Reporting Process [Core]  <!-- UUID: ec4cd423-74ba-4e74-82d9-46ba5f6cf526 -->
+
+When a standard incident occurs, the following steps must be completed:
+
+- The Multisig Administrator must ensure that the reporting signer immediately reports the incident to the Protocol Security Workstream Lead, following the documentation requirements outlined in [A.2.11.1.3.2.2.1.2.3.1 - Standard Incident Documentation Requirements](0aec011a-18d2-4945-90b5-8089fa01cefb).
+- Follow-up with the Protocol Security Workstream Lead if no acknowledgement is received within 48 hours.
+
+###### A.2.11.1.3.2.2.1.2.3.1 - Standard Incident Documentation Requirements [Core]  <!-- UUID: 0aec011a-18d2-4945-90b5-8089fa01cefb -->
+
+All standard incident reports must include, at minimum, the following information:
+
+- Multisig details and classification
+- Incident type
+- Time of incident occurrence and discovery
+- Reporting signer
+- Description of the incident
+- Immediate actions taken
+- Current Multisig status
+- Impact
+
+###### A.2.11.1.3.2.2.1.3 - Training And Operational Readiness [Core]  <!-- UUID: a0a34154-2789-4ffd-844b-36f27e9900db -->
+
+Multisig Administrators must ensure that signers maintain sufficient operational expertise through ongoing training and familiarity with the Multisig's procedures. This includes, but is not limited to, training and periodic review of transaction verification practices, operational procedures, and incident response processes applicable to the Multisig's function.
+
+###### A.2.11.1.3.2.2.1.3.1 - Backup Infrastructure Readiness Requirements [Core]  <!-- UUID: f9e5507b-1433-47fc-ae41-28c23831c0fc -->
+
+The Multisig Administrator must ensure that signers are prepared to operate using backup infrastructure. This includes providing signers with access to offline or alternative Multisig interfaces, verifying that signers have practiced using backup interfaces, testing backup RPC providers during non-emergency periods, and maintaining documented procedures describing how to switch to backup infrastructure when required.
+
+###### A.2.11.1.3.2.2.1.3.2 - Emergency Operations Training And Readiness Requirement [Core]  <!-- UUID: 3d5068af-cb19-4a10-b712-de8e8be7a4f6 -->
+
+Multisig Administrators are responsible for ensuring that Multisigs classified with a Time-Sensitive or Emergency Operational Classification level, as defined in [A.2.11.1.3.2.1.1.1.2 - Operational Assessment](35224359-76a6-41fe-adc2-6f70a29f3f4a), maintain operational readiness appropriate to their function.
+
+To satisfy this requirement, Multisig Administrators must ensure that the following activities are conducted:
+
+- Periodic operational drills
+- Quarterly testing of emergency communication and alerting systems to ensure continued reliability
+- Semi-annual paging system tests to verify alert functionality
+- An annual full emergency simulation involving all signers
+
+The Multisig Administrator must document the completion and outcome of all required readiness activities and provide testing reports and confirmation of completion to Core GovOps.
+
+###### A.2.11.1.3.2.2.2 - Signer Responsibilities - Ongoing Management [Core]  <!-- UUID: 51431dc2-d731-4570-8e54-de390e565bb1 -->
+
+The documents herein define the responsibilities and requirements of Multisig signers relating to the ongoing management of Multisigs during operational use. Signers may consult with their Multisig Administrator for guidance on fulfilling these requirements.
+
+###### A.2.11.1.3.2.2.2.1 - Signer Address Update Process [Core]  <!-- UUID: 79b5daf4-5c02-4aa8-89a7-879a6d594758 -->
+
+Any update to a Multisig signer address must be performed in accordance with the process defined in the subdocuments herein.
+
+###### A.2.11.1.3.2.2.2.1.1 - Signer Address Update Process If Original Key Is Accessible [Core]  <!-- UUID: c6bcbd5f-7450-4c6e-9aa6-82c49a678bd3 -->
+
+If the original key of the signer address that needs to be changed remains accessible, the following steps must be completed by the signer:
+
+- The signer authorizes the address change by signing a message with the existing signer address. The signed message must clearly state the intent to replace the existing signer address with the new address.
+- The signer must follow the steps defined in [A.2.11.1.3.2.1.2.1 - Signer Verification Process](002821ab-c67c-4eb1-987c-69e759ab7b3c) prior to the new address being added to the Multisig.
+
+###### A.2.11.1.3.2.2.2.1.2 - Signer Address Update Process If Original Key Is Lost Or Inaccessible [Core]  <!-- UUID: a2f65561-ba6d-4ef0-b1c0-31da659306f3 -->
+
+If the original key of the signer address that needs to be changed is inaccessible, the signer must verify their identity to the remaining signers through alternative verification methods such as:
+
+- Authentication through a verified social media or publicly associated account
+- Live verification via video call with existing signers
+- Other comparable verification methods
+
+Upon successful identity verification, the signer must follow the steps defined in [A.2.11.1.3.2.1.2.1 - Signer Verification Process](002821ab-c67c-4eb1-987c-69e759ab7b3c) and notify the Multisig Administrator once completed.
+
+###### A.2.11.1.3.2.2.2.2 - Transaction Verification And Signing Requirements [Core]  <!-- UUID: aa6f2aeb-5c90-4b23-bfc4-e6de0a588915 -->
+
+Multisig signers must verify all transaction data prior to signing in order to reduce the risk of malicious or unintended transactions being executed. The procedures defined in the documents herein establish the relevant transaction verification processes for supported execution environments.
+
+###### A.2.11.1.3.2.2.2.2.1 - Explorer Redundancy Recommendations [Core]  <!-- UUID: 98eeb3a8-8199-417f-a0a7-ab4625aa39aa -->
+
+Signers are encouraged to maintain access to multiple blockchain explorers for each supported network to support transaction monitoring, verification, and investigation if a primary explorer becomes unavailable.
+
+###### A.2.11.1.3.2.2.2.2.2 - EVM Transaction Verification Requirements [Core]  <!-- UUID: 1d4492e8-f2eb-4ff5-9bf8-471a9aef26c5 -->
+
+Multisig signers must verify EVM-based Multisig transactions prior to signing to ensure that the transaction being signed matches the intended operation.
+
+###### A.2.11.1.3.2.2.2.2.2.1 - Transaction Hash Verification [Core]  <!-- UUID: eb5de4dd-2921-439e-bbce-a26f66410c48 -->
+
+Signers must verify that the transaction hash displayed on the signing device matches the expected transaction hash derived from the transaction parameters. When signing transactions involving nested Multisigs, the hash displayed on the signing device may correspond to an approval hash rather than the underlying transaction. In such cases, signers must verify both the nested transaction and the parent Multisig approval.
+
+###### A.2.11.1.3.2.2.2.2.2.2 - Transaction Simulation Review [Core]  <!-- UUID: 35229761-1568-4b00-84c2-878aa64562e1 -->
+
+Where available, signers must review a transaction simulation to confirm that the expected events, asset transfers, and state changes match the intended transaction.
+
+###### A.2.11.1.3.2.2.2.2.2.3 - Transaction Calldata Review [Core]  <!-- UUID: 023b1251-96d0-4784-a11b-1d470444eba2 -->
+
+Signers must review decoded transaction calldata prior to signing to confirm that the function calls, recipient addresses, and transferred amounts match the intended action.
+
+###### A.2.11.1.3.2.2.2.2.2.4 - Verification Tool Diversity [Core]  <!-- UUID: e329c539-16e2-4316-bb2c-6879bb45d391 -->
+
+Signers are encouraged to verify transaction hashes and decoded calldata using independent verification tools where available and should avoid relying on a single verification interface.
+
+###### A.2.11.1.3.2.2.2.2.3 - SVM Transaction Verification Requirements [Core]  <!-- UUID: d6ab5e65-bc6b-4959-9c11-e5612cc07ee0 -->
+
+Multisig signers must verify Solana Virtual Machine (SVM) Multisig transactions prior to signing to ensure that the proposal contains the intended instructions and parameters.
+
+###### A.2.11.1.3.2.2.2.2.3.1 - Proposal Verification [Core]  <!-- UUID: dd520781-597e-4a0f-9120-47d18c0fc7c0 -->
+
+Signers must verify that the transaction proposal reflects the intended operation, including the sender, recipient addresses, asset type, transfer amounts, configuration changes, and associated instructions. Signers must confirm that all instructions correspond to the intended action and that no unauthorized interactions are included.
+
+###### A.2.11.1.3.2.2.2.2.3.2 - Simulation Review [Core]  <!-- UUID: 37d9a254-08e2-43f3-b2a6-4226b6a8429a -->
+
+Where available, signers must review a transaction simulation to confirm that expected token transfers, SOL transfers, or configuration changes match the intended transaction.
+
+###### A.2.11.1.3.2.2.2.2.3.3 - Explorer Verification [Core]  <!-- UUID: 979afea2-e159-46e3-be25-8ce22dac7dd0 -->
+
+Signers are encouraged to inspect the transaction or proposal account using a public blockchain explorer to review the decoded transaction instructions and parameters.
+
+###### A.2.11.1.3.2.2.2.2.3.4 - Tooling Limitations [Core]  <!-- UUID: 388f1cc7-f10c-4410-bc49-e0e3e358a90e -->
+
+Verification tooling for SVM Multisig transactions is currently more limited than for EVM environments. Signers should exercise additional caution and may cross-verify transactions with other signers prior to execution.
+
+###### A.2.11.1.3.2.3 - Operational Guides [Core]  <!-- UUID: 37f6864d-5f6a-43fd-adbe-f3b2e82c9e01 -->
+
+The Protocol Security Workstream Lead must maintain and make available operational guides to support Multisig Administrators in complying with the requirements specified in [A.2.11.1.3.2 - Multisig Security Guidelines](6033699f-1d55-45ba-8eb1-bd8982571cc0). These guides must cover, at minimum, Multisig registration, signer rotation and replacement, signer onboarding and offboarding, incident reporting, and any other processes where standardized documentation is required. The Protocol Security Workstream Lead is responsible for keeping these guides current and accessible to all Multisig Administrators.
+
+##### A.2.11.1.3.3 - Multisig Monitoring And Review [Core]  <!-- UUID: e5a3658b-0218-42a7-b053-ddd276a0a512 -->
+
+The documents herein define the periodic monitoring and review responsibilities performed by Core GovOps to ensure that Multisigs remain compliant with the Multisig Security Enforcement Framework and that Multisig documentation and classification remain accurate. These provisions apply only after the effective date specified in [A.2.11.1.3.2 - Multisig Security Guidelines](6033699f-1d55-45ba-8eb1-bd8982571cc0).
+
+###### A.2.11.1.3.3.1 - Periodic Review Requirement [Core]  <!-- UUID: 94d70a1d-885b-4f46-ade4-0702f65cfc89 -->
+
+Core GovOps must engage the Protocol Security Workstream Lead and third party providers to conduct periodic reviews of registered Multisigs to verify that Multisig documentation, configuration, and operational classification remain accurate and aligned with current usage. At minimum:
+
+- Multisig documentation and classification must be reviewed on a quarterly basis.
+- Reviews must be conducted following major operational, financial, or structural changes affecting the Multisig.
+- Reviews must be conducted when significant protocol changes materially affect the Multisig's role, authority, or risk exposure.
+
+###### A.2.11.1.3.3.1.1 - Review Scope [Core]  <!-- UUID: 4090334c-d240-49d4-89c1-7901ffbfa299 -->
+
+Periodic reviews may include, but are not limited to:
+
+- Verification that Multisig documentation in the Multisig Registry remains accurate and up to date.
+- Reassessment of Multisig operational purpose where operational patterns change.
+- Reassessment of financial exposure or protocol impact where asset exposure or operational scope changes.
+- Verification that Multisig configuration and operational practices remain consistent with the Multisig Security Enforcement Framework.
+
+###### A.2.11.1.3.3.2 - Monitoring Outcome [Core]  <!-- UUID: 69646ecd-268a-4487-9077-c6efa11f1026 -->
+
+Where monitoring or review activities identify inconsistencies, outdated documentation, or potential noncompliance, Core GovOps must proceed in accordance with [A.2.11.1.3.5 - Determination And Enforcement Of Multisig Security Noncompliance](2a36aafa-cfe3-4ba5-b549-f341fbb4c666).
+
+##### A.2.11.1.3.4 - Multisig Registry [Core]  <!-- UUID: 4d80cae1-b28a-4907-8d59-2ebcbba6003d -->
+
+All Multisigs must be recorded in the Multisig Registry at [A.2.11.1.3.4.2.0.6.1 - Registered Multisigs](7d966e5e-ecb3-4a5b-9111-a70927cfa79a).
+
+###### A.2.11.1.3.4.1 - Multisig Registry Entry Requirements [Core]  <!-- UUID: e525c938-7fd2-4e6e-9c01-86cf0783d728 -->
+
+Each Multisig entry in the Multisig Registry must contain the following information:
+
+- Multisig Name
+- Administrator Entity
+- Multisig Address
+
+###### A.2.11.1.3.4.2 - List Of Registered Multisigs [Active Data Controller]  <!-- UUID: e063a7c5-eb41-489e-8334-b095b785af62 -->
+
+The list of registered Multisigs is defined as Active Data in [A.2.11.1.3.4.2.0.6.1 - Registered Multisigs](7d966e5e-ecb3-4a5b-9111-a70927cfa79a).
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Core GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.2.11.1.3.4.2.0.6.1 - Registered Multisigs [Active Data]  <!-- UUID: 7d966e5e-ecb3-4a5b-9111-a70927cfa79a -->
+
+The Multisigs that are registered are:
+
+| **Multisig Name** | **Administrator Entity** | **Multisig Address** |
+|---|---|---|
+| | | |
+
+##### A.2.11.1.3.5 - Determination And Enforcement Of Multisig Security Noncompliance [Core]  <!-- UUID: 2a36aafa-cfe3-4ba5-b549-f341fbb4c666 -->
+
+When a Multisig is determined to be noncompliant with the Multisig Security Enforcement Framework, a grace period of forty-eight (48) hours is provided to resolve the issue. If the noncompliance is not resolved within this period, Multisig operations must be immediately stopped, unless an exception is granted by the Protocol Security Workstream Lead. Core GovOps may then determine whether further actions are required to enforce the halt of operations in relation to such Multisig. These provisions apply only after the effective date specified in [A.2.11.1.3.2 - Multisig Security Guidelines](6033699f-1d55-45ba-8eb1-bd8982571cc0).
+
+
 ## A.2.12 - Purpose System [Article]  <!-- UUID: b888a6f2-df29-4254-bc74-8dff265f2697 -->
 
 This Article governs the Purpose System, which aims to fund open-source AI and software projects that benefit the Sky Ecosystem and public good.
@@ -12588,7 +12983,7 @@ At all times, at least 10% of the Purpose System funds must be used for more dir
 
 ## A.2.13 - Ecosystem Entity Grants [Article]  <!-- UUID: 7be35f96-8230-41d6-aab4-0a76bd705a25 -->
 
-This Article defines the Ecosystem Entity Grants, which aim to fund the Sky Frontier Foundation and the Sky Fortification Foundation.
+This Article defines the Ecosystem Entity Grants, which aim to fund the Sky Frontier Foundation and the Fortification Foundation.
 
 ### A.2.13.1 - Ecosystem Entity Grants [Section]  <!-- UUID: 5d5759e4-8077-4af5-9a1a-eaeab5088dd7 -->
 
@@ -13015,7 +13410,7 @@ The documents herein define the types of Senior Risk Capital.
 
 ###### A.3.2.1.2.2.2.1.1 - Internal Senior Risk Capital [Core]  <!-- UUID: 09c20045-4b53-4370-98b8-a1199ccf7007 -->
 
-Internal Senior Risk Capital (ISRC) is capital provided from Sky Core’s Surplus Buffer. The composition of Internal Senior Risk Capital will be specified in more detail in a future iteration of the Atlas.
+Internal Senior Risk Capital (ISRC) is capital sourced from Aggregate Backstop Capital, as specified in [A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital](ac7a6636-acbc-40c9-abc1-4543c0beb300).
 
 ###### A.3.2.1.2.2.2.1.2 - External Senior Risk Capital [Core]  <!-- UUID: 2adf8738-09b2-43e2-884c-c4ce6ff601ba -->
 
@@ -14785,7 +15180,7 @@ The documents herein define operational requirements and protocols for the imple
 
 ##### A.3.2.2.4.1 - Sourcing Of Internal Senior Risk Capital [Core]  <!-- UUID: 70888f64-f53f-488a-b138-b3b2ab2300b0 -->
 
-ISRC is sourced from the various surplus buffers, which are themselves funded via the Treasury Management Function. See [A.2.3.1.2 - Allocation Steps](7932c8f3-ce44-49ea-adc4-f6391c621c6e).
+ISRC is sourced from Aggregate Backstop Capital, as specified in [A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital](ac7a6636-acbc-40c9-abc1-4543c0beb300).
 
 ##### A.3.2.2.4.2 - External Senior Risk Capital And srUSDS System [Core]  <!-- UUID: 9fac0f6b-cb2d-4dc2-97d5-72c705303675 -->
 
@@ -14849,7 +15244,7 @@ The SRC origination process operates monthly, synchronized with the Monthly Sett
 
 ###### A.3.2.2.4.3.2 - Available Total Senior Risk Capital Pool Determination [Core]  <!-- UUID: 48a3a23c-2e2f-48b8-bcca-6c99d1c2b6ca -->
 
-Total Senior Risk Capital (TSRC) is the amount of Senior Risk Capital that is available each Monthly Settlement Cycle for Primes to originate and thus turn into Originated Senior Risk Capital (OSRC) through the monthly origination process. TSRC is the sum of designated Internal Senior Risk Capital (ISRC) from Sky surplus buffers and available External Senior Risk Capital (ESRC) from the srUSDS contract. Prior to each monthly bidding window, the TSRC is calculated and publicly announced. Additional operational details will be defined in a future iteration of the Atlas.
+Total Senior Risk Capital (TSRC) is the amount of Senior Risk Capital that is available each Monthly Settlement Cycle for Primes to originate and thus turn into Originated Senior Risk Capital (OSRC) through the monthly origination process. TSRC is the sum of designated Internal Senior Risk Capital (ISRC) (see [A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital](ac7a6636-acbc-40c9-abc1-4543c0beb300)) and available External Senior Risk Capital (ESRC) from the srUSDS contract. Prior to each monthly bidding window, the TSRC is calculated and publicly announced. Additional operational details will be defined in a future iteration of the Atlas.
 
 ###### A.3.2.2.4.3.3 - Bidding Process [Core]  <!-- UUID: 33ef06d4-6ee3-4302-943d-1b932d8c88b4 -->
 
@@ -14899,7 +15294,7 @@ Inputs into Risk Capital calculations that are based on market or other external
 
 ###### A.3.2.2.5.1.1.1 - Responsibility For Cost Of Real Time Updates [Core]  <!-- UUID: 4c76f9d0-f354-4fba-bf99-2be97b77d234 -->
 
-Prime Agents may develop data feeds that update the Atlas with their data at their expense. Alternatively, the Operational Executor Agent that has an Executor Accord with the Prime Agent may perform this as part of the services it provides to the Prime Agent. In this case, the Operational Executor Agent may charge whatever fees for this service the parties mutually agree on.
+Each Prime Agent is responsible, at its own expense, for providing the required data and developing and maintaining the data feeds that update the Atlas with its data. A Prime Agent may retain another party, including its Operational Executor Agent, to assist it in fulfilling these responsibilities on mutually agreed terms. However, the ultimate responsibility always remains with the Prime Agent.
 
 ###### A.3.2.2.5.1.1.1.1 - Near Term Real Time Updates By Core Council Risk Advisor [Core]  <!-- UUID: 31095e6f-6f05-4d0f-83f6-49ef92e1b6ec -->
 
@@ -14915,7 +15310,7 @@ The documents herein define processes to maintain and ensure the integrity of da
 
 ###### A.3.2.2.5.2.1 - Responsibility For Data Updates [Core]  <!-- UUID: ecd07bcd-8a9f-4a3d-b7b0-393f6b5143f7 -->
 
-The Prime Agent may assume responsibility for updating the inputs to the Risk Capital calculations itself, either directly or through one of its agents, or may contract with Operational GovOps to perform that function.
+Each Prime Agent is responsible for providing and updating the required data inputs to the Risk Capital calculations. A Prime Agent may retain another party, including its Operational Executor Agent, to assist it in fulfilling these responsibilities on mutually agreed terms. However, the ultimate responsibility always remains with the Prime Agent.
 
 ###### A.3.2.2.5.2.2 - Verification Of Data Updates [Core]  <!-- UUID: b80bdd00-c88b-4186-84de-b6c770b915e0 -->
 
@@ -15567,7 +15962,7 @@ The activation of the Kicker Module will be executed in the October 30, 2025 Exe
 
 The parameters of the Smart Burn Engine can be modified pursuant to the Operational Weekly Cycle. The Core Facilitator, in consultation with the Core Council Risk Advisor, can propose changes to the `kbump` and `hop` parameters directly via an Executive Vote without requiring a Governance Poll. LSEV2-SKY-A-USDS rewardsDuration should always match the value of the hop parameter without requiring prior governance authorization. Changes to other parameters require a Governance Poll followed by an Executive Vote.
 
-The Smart Burn Engine parameters must be updated as necessary to implement the applicable stage specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3). Such updates are authorized to proceed directly to an Executive Vote without requiring a prior Governance Poll.
+The Smart Burn Engine parameters must be updated as necessary to implement the allocation specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121). Such updates are authorized to proceed directly to an Executive Vote without requiring a prior Governance Poll.
 
 ### A.3.5.3 - Sky Capital [Section]  <!-- UUID: f45ca50a-e1d3-4504-8e40-dd45b5fb3f83 -->
 
@@ -15579,7 +15974,7 @@ The documents herein define the different types of Sky capital.
 
 ##### A.3.5.3.1.1 - Aggregate Capital Buffer [Core]  <!-- UUID: cd36d152-1ba6-4958-9afd-d182e488e358 -->
 
-The Aggregate Capital Buffer is the sum of (1) the Sky Surplus Buffer (see [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294)), (2) the Core Council Buffer (see [A.2.3.1.4.1.1.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)), (3) the Aligned Delegates Buffer (see [A.2.3.1.4.1.2.1 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a)), and (4) the capital held in the SubProxy of each Prime Agent. The Aggregate Capital Buffer provides a useful metric for assessing the capital level of the entire Sky Ecosystem on a consolidated basis.
+The Aggregate Capital Buffer is the sum of (1) the Sky Surplus Buffer (see [A.3.5.1 - Surplus Buffer](9782cdc5-c274-45c2-bf4a-690f22c6a294)), (2) the Core Council Buffer (see [A.2.3.1.2.2.2.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)), (3) the Aligned Delegates Buffer (see [A.2.3.1.2.2.2.2 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a)), and (4) the capital held in the SubProxy of each Prime Agent. The Aggregate Capital Buffer provides a useful metric for assessing the capital level of the entire Sky Ecosystem on a consolidated basis.
 
 ##### A.3.5.3.1.2 - Aggregate Backstop Capital [Core]  <!-- UUID: 6dbead44-5ac4-4c5b-be3c-64eddd004e5c -->
 
@@ -15595,11 +15990,15 @@ The documents herein define capital targets for Sky and processes for achieving 
 
 ##### A.3.5.3.2.1 - Target Aggregate Backstop Capital [Core]  <!-- UUID: f73dda95-0b1c-4bdc-b957-469253d27281 -->
 
-The current Target Aggregate Backstop Capital is 150 million USDS.
+The Target Aggregate Backstop Capital is one and one half percent (1.5%) of the total supply of USDS.
 
-##### A.3.5.3.2.2 - Capital Retention To Achieve Target Aggregate Backstop Capital [Core]  <!-- UUID: ae3b42cd-cdda-424a-b09a-87e2796538ba -->
+##### A.3.5.3.2.2 - Turbo-Fill Floor [Core]  <!-- UUID: db2aaf07-4ebb-4e5d-ae5e-575717d8fbcd -->
 
-When Aggregate Backstop Capital is below Target Aggregate Backstop Capital, Sky Governance will retain 25% of Net Revenue (see [A.2.3.1.2.1 - Step 0: Net Revenue](c09435ff-d876-442a-899c-ad494175500b)) to grow Aggregate Backstop Capital. In the short term, this is implemented on a monthly basis by Sky Governance by adjusting the parameters of the Treasury Management System and the Smart Burn Engine.
+The current Turbo-Fill Floor for the Aggregate Backstop Capital is 150 million USDS. The Turbo-Fill Floor is the level below which an accelerated retention rate applies, as specified in [A.2.3.1.2.3 - Step 2: Aggregate Backstop Capital](2b28d464-e683-48ba-9a66-2fee05ea0a88).
+
+##### A.3.5.3.2.3 - Capital Retention To Achieve Target Aggregate Backstop Capital [Core]  <!-- UUID: ae3b42cd-cdda-424a-b09a-87e2796538ba -->
+
+When Aggregate Backstop Capital is below Target Aggregate Backstop Capital, a portion of Step 2 Capital is retained to grow Aggregate Backstop Capital, as specified in [A.2.3.1.2.3 - Step 2: Aggregate Backstop Capital](2b28d464-e683-48ba-9a66-2fee05ea0a88).
 
 ## A.3.6 - SKY Backstop [Article]  <!-- UUID: 4d8b0d82-97da-4041-b185-4b98c2779cbe -->
 
@@ -15631,7 +16030,7 @@ In case the backstop limit is reached and not overridden, or in case the backsto
 
 ### A.3.6.6 - Relation To Genesis Capital Backstop [Section]  <!-- UUID: 5e795fa2-77d7-4f2a-8494-545d4bb2d955 -->
 
-The Genesis Capital Backstop may not be invoked unless a "SKY Backstop Event" is in progress and the price of SKY is zero.
+The SKY Backstop may not be invoked unless the Genesis Capital Backstop (see [A.3.7.1.6 - Genesis Capital Backstop](a9965d58-8cda-49fc-8a7f-f8cc2e0d6b98)) has been applied and USDS remains undercollateralized.
 
 ## A.3.7 - Measures For Endgame Transition [Article]  <!-- UUID: 94ed62af-6e69-4831-938a-69963e6c0a1f -->
 
@@ -16351,7 +16750,7 @@ The public announcements defined in [A.3.7.1.5.2 - Technical Process](305e2bd6-a
 
 #### A.3.7.1.6 - Genesis Capital Backstop [Core]  <!-- UUID: a9965d58-8cda-49fc-8a7f-f8cc2e0d6b98 -->
 
-If a "SKY Backstop Event" is in progress and the SKY price equals zero, the Sky Protocol must apply a pro‑rata haircut across each Genesis Agent’s Genesis Capital, implemented as a transfer of eligible assets from each Agent to the Sky Surplus Buffer. The haircut must be sized exactly to restore the Surplus Buffer to zero.
+If losses exceed a Prime Agent’s capital and cannot be absorbed by the Sky Surplus Buffer, the Sky Protocol must apply a pro‑rata haircut across each Genesis Agent’s Genesis Capital, implemented as a transfer of eligible assets from each Agent to the Sky Surplus Buffer. The haircut must be sized to cover the portion of the loss that exceeds what the Prime Agent’s capital and the Sky Surplus Buffer can absorb, up to a maximum of the Aggregate Backstop Capital (see [A.3.5.3.1.2 - Aggregate Backstop Capital](6dbead44-5ac4-4c5b-be3c-64eddd004e5c)).
 
 ##### A.3.7.1.6.1 - Implementation [Core]  <!-- UUID: 4381df75-0d4f-4f17-a263-f796cc33be27 -->
 
@@ -16361,9 +16760,7 @@ A solution must be developed to allow these transfers to be accomplished on an a
 
 ##### A.3.7.1.6.2 - Post Backstop Settlement [Core]  <!-- UUID: 1edfed11-0234-4d15-b52b-37d7493565cd -->
 
-If the haircut restores the Surplus Buffer to zero (i.e., the deficit is fully cleared), Sky will distribute 24 billion SKY to Genesis Agents, in proportion to the amount each Agent lost in the haircut.
-
-If, after the haircut, the Surplus Buffer remains below zero (i.e., the deficit could not be fully cleared), Sky will adjust the USDS target price below $1 to the extent necessary to settle the remaining deficit; Sky will then distribute 24 billion SKY to USDS holders via an airdrop.
+If, after the haircut, losses still exceed the combined capacity of the Prime Agent’s capital and Aggregate Backstop Capital (see [A.3.5.3.1.2 - Aggregate Backstop Capital](6dbead44-5ac4-4c5b-be3c-64eddd004e5c)), the SKY Backstop (see [A.3.6 - SKY Backstop](4d8b0d82-97da-4041-b185-4b98c2779cbe)) is activated. The SKY mint must be sized to cover the remaining loss. If losses still exceed what the SKY Backstop can absorb, Sky will adjust the USDS target price below $1 to the extent necessary to settle the remaining deficit; Sky will then distribute 24 billion SKY to USDS holders via an airdrop.
 
 ##### A.3.7.1.6.3 - Genesis Agent Capital Shortfalls [Core]  <!-- UUID: 81bacfed-5cc9-4980-bf71-1e5edcbdadba -->
 
@@ -16371,7 +16768,7 @@ Transfers of capital from Genesis Agents may cause capital shortfalls for Genesi
 
 ##### A.3.7.1.6.4 - Relation To SKY Backstop [Core]  <!-- UUID: 3b7324cd-8246-4eed-9da9-56599dcac5b4 -->
 
-The Genesis Capital Backstop may not be invoked unless a "SKY Backstop Event" is in progress and the price of SKY equals zero.
+The Genesis Capital Backstop must be applied before the SKY Backstop (see [A.3.6 - SKY Backstop](4d8b0d82-97da-4041-b185-4b98c2779cbe)).
 
 ##### A.3.7.1.6.5 - Genesis Agents [Core]  <!-- UUID: 8952aac5-24fb-4da1-ae10-49f86d30aecd -->
 
@@ -16396,6 +16793,7 @@ The Genesis Capital of an Agent is the lesser of (1) the Eligible Genesis Capita
 The amount of capital contributed by Sky to Agents is:
 
 - Spark - 25,000,000 USDS
+- Grove - 25,000,000 USDS
 - Obex - 21,000,000 USDS
 - Skybase - 15,000,000 USDS
 - Core Council Executor Agent 1 - 25,000,000 USDS
@@ -16510,7 +16908,7 @@ No new SKY tokens may be emitted except for (1) emissions required to recapitali
 
 ##### A.4.1.2.2.3 - Burning Of Existing Tokens [Core]  <!-- UUID: 5b94d42a-28fa-40fa-8948-ba3113a4d5b8 -->
 
-At the same time that no new SKY tokens are issued, SKY tokens are bought back and burned on a regular basis, using a portion of the Net Revenue of the Protocol as dictated by the Treasury Management Function. See [A.2.3.1.2.5.1 - Smart Burn Buffer](c2a0ca01-ffea-46ee-8077-e46e0510d097). As a result, the total supply of SKY tokens will continue to decrease over time.
+At the same time that no new SKY tokens are issued, SKY tokens are bought back and burned on a regular basis, using a portion of the Net Revenue of the Protocol as dictated by the Treasury Management Function. See [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121). As a result, the total supply of SKY tokens will continue to decrease over time.
 
 ##### A.4.1.2.2.4 - Deprecated Emissions Mechanisms [Core]  <!-- UUID: 2f3962e4-c79e-4583-82df-31239dfb84a4 -->
 
@@ -16566,43 +16964,31 @@ SPK token rewards are available to USDS users as specified in [A.2.8.2.2.2.1.2.2
 
 ## A.4.4 - SKY Staking Mechanism [Article]  <!-- UUID: b8891a30-f255-4694-895c-4399df916da3 -->
 
-This Article governs the SKY Staking Mechanism that grants voting rewards on staked SKY tokens and its associated SKY-backed borrowing mechanism funded via the stUSDS token.
+This Article governs the SKY Staking Mechanism that grants rewards on staked SKY tokens and its associated SKY-backed borrowing mechanism funded via the stUSDS token.
 
 ### A.4.4.1 - SKY Staking [Section]  <!-- UUID: 626bd71c-b413-41b7-a5fe-39fd0d43dbf5 -->
 
-SKY holders can stake their tokens via the SKY Staking Mechanism available on Ethereum Mainnet and SkyLink Deployments. SKY stakers earn voting rewards sourced from the Sky Treasury Management Function. SKY stakers may be able to earn USDS rewards, SKY rewards, and Agent Token Rewards, as determined by Sky Governance. SKY stakers can also borrow USDS against their staked collateral using the SKY-backed borrowing mechanism defined herein.
+SKY holders can stake their tokens via the SKY Staking Mechanism available on Ethereum Mainnet and SkyLink Deployments. SKY stakers earn rewards sourced from the Sky Treasury Management Function. SKY stakers may be able to earn USDS rewards, SKY rewards, and Agent Token Rewards, as determined by Sky Governance. SKY stakers can also borrow USDS against their staked collateral using the SKY-backed borrowing mechanism defined herein.
 
 #### A.4.4.1.1 - SKY Unstaking [Core]  <!-- UUID: e945372c-f526-45b9-af12-135f0eb6e830 -->
 
 SKY stakers can unstake their staked SKY at any time without penalty, provided the SKY is unencumbered by any borrowed USDS.
 
-#### A.4.4.1.2 - SKY Staking Voting Rewards [Core]  <!-- UUID: a98a1bfe-5713-43f5-a8bd-83c5808900b8 -->
+#### A.4.4.1.2 - SKY Staking Rewards [Core]  <!-- UUID: a98a1bfe-5713-43f5-a8bd-83c5808900b8 -->
 
-The documents herein define the SKY Staking Voting Rewards. SKY stakers may choose between receiving USDS or Agent Token rewards.
+The documents herein define the SKY Staking Rewards. SKY stakers may choose between receiving USDS, SKY, or Agent Token rewards.
 
-##### A.4.4.1.2.1 - Sources of Voting Rewards [Core]  <!-- UUID: e1c77a6a-5b94-4d40-a205-43c703a780e2 -->
+##### A.4.4.1.2.1 - Sources Of Rewards [Core]  <!-- UUID: e1c77a6a-5b94-4d40-a205-43c703a780e2 -->
 
-SKY stakers are eligible to receive voting rewards sourced from the Sky Treasury Management Function (TMF) or the Agent Token Distribution mechanism defined in [A.4.5 - Distribution Of Agent Tokens](e2f1f01f-3303-41c3-b337-f09eb41ba6be).
+SKY stakers are eligible to receive rewards sourced from the Sky Treasury Management Function (TMF) or the Agent Token Distribution mechanism defined in [A.4.5 - Distribution Of Agent Tokens](e2f1f01f-3303-41c3-b337-f09eb41ba6be).
 
-###### A.4.4.1.2.1.1 - Treasury Management Function-Derived Voting Rewards [Core]  <!-- UUID: 6cacdc1c-bdfa-4f68-bdb4-bf31943dcfba -->
+###### A.4.4.1.2.1.1 - Treasury Management Function-Derived Rewards [Core]  <!-- UUID: 6cacdc1c-bdfa-4f68-bdb4-bf31943dcfba -->
 
-USDS rewards are distributed via two distinct mechanisms based on the staker’s activity level: the High Activity Staking Reward (HASR) and the Standard Activity Staking Reward (SASR). SASR is the base reward when funding from the Treasury Management Function is available; HASR is an additional boost reserved for High-Activity wallets. See [A.2.3.1.2.3.3 - Payout From High Activity Staking Rewards Buffer](6e857f3d-1e5c-4a47-943d-439b1d0d87ea).
+USDS rewards and SKY rewards for SKY stakers are funded from the Staking Rewards allocation of the Sky Treasury Management Function (see [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0)) and distributed continuously, pro-rata based on the SKY stake of eligible wallets. Distribution parameters are updated at each Monthly Settlement Cycle.
 
-###### A.4.4.1.2.1.1.1 - Activity Levels [Core]  <!-- UUID: 42786ca1-42b6-4bfa-b455-54eba9e09c50 -->
+###### A.4.4.1.2.1.2 - Agent Token Distribution Rewards [Core]  <!-- UUID: 6aa85298-4f1c-4dc5-a973-99bc1e5293d1 -->
 
-At the Monthly Settlement Cycle, all SKY-staking wallets are tagged as High Activity or Standard Activity, pursuant to the criteria defined in [A.2.3.1.2.3.4 - High Activity Staker Qualification](8e83f80f-5606-41a7-bc90-d79df38b55fe) and [A.2.3.1.2.5.2.3 - Standard Activity Staker Qualification](a22d900a-d15c-41f0-af90-eec23112dcb6). Only High Activity wallets share HASR; both High and Standard Activity wallets share SASR.
-
-###### A.4.4.1.2.1.1.2 - High Activity Staking Rewards [Core]  <!-- UUID: 40d13a7d-ddd7-42bd-ace8-05ba9ce6e588 -->
-
-The High Activity Staking Rewards (HASR) is a boosted reward provided to High Activity wallets. The HASR amount is distributed each monthly cycle pro-rata to the SKY stake of all High Activity wallets. High Activity wallets receive SASR (when funding is available) plus their separate HASR boost.
-
-###### A.4.4.1.2.1.1.3 - Standard Activity Staking Rewards [Core]  <!-- UUID: b18249d5-588a-44a4-8bab-250bb92b027f -->
-
-The Standard Activity Staking Rewards (SASR) is the base reward shared by all wallets with Standard Activity status or higher. When funding is available, the SASR amount is distributed each monthly cycle pro‑rata to the SKY stake of every Standard or High Activity wallet.
-
-###### A.4.4.1.2.1.2 - Agent Token Distribution Voting Rewards [Core]  <!-- UUID: 6aa85298-4f1c-4dc5-a973-99bc1e5293d1 -->
-
-SKY stakers are eligible to receive Agent Token rewards as specified in [A.4.5 - Distribution Of Agent Tokens](e2f1f01f-3303-41c3-b337-f09eb41ba6be). At the Monthly Settlement Cycle, Agent Tokens are distributed pro‑rata, by staked SKY, among wallets that have opted to receive a specific Agent Token for the cycle. To qualify for Agent Token payout a wallet must satisfy the Standard Activity criteria specified in [A.2.3.1.2.5.2.2 - Payout From Standard Activity Staking Rewards Buffer](e288b944-759e-4d30-8db7-b59de7b5f912).
+SKY stakers are eligible to receive Agent Token rewards as specified in [A.4.5 - Distribution Of Agent Tokens](e2f1f01f-3303-41c3-b337-f09eb41ba6be). Agent Tokens are distributed continuously, pro‑rata by staked SKY, among wallets that have opted to receive a specific Agent Token. Distribution parameters are updated at each Monthly Settlement Cycle.
 
 #### A.4.4.1.3 - SKY-Backed Borrowing [Core]  <!-- UUID: 264b1787-cd75-4d28-9c14-c7d5a724eba7 -->
 
@@ -17202,11 +17588,11 @@ The current value of the `cap` parameter is:
 
 #### A.4.4.1.4 - Short Term Transitionary Measures [Core]  <!-- UUID: 22b8f8bf-b477-4439-86f7-ec605d3c657a -->
 
-The documents herein define the implementation of short-term SKY staking rewards pending the full implementation of the Sky Treasury Management Function. The policy governing the allocation of Step 4 Capital to staking rewards, including the three-stage framework, is specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3).
+The documents herein define the implementation of short-term SKY staking rewards pending the full implementation of the Sky Treasury Management Function. The policy governing the allocation of capital to staking rewards is specified in [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0).
 
 ##### A.4.4.1.4.1 - Short Term USDS Rewards For SKY Stakers [Core]  <!-- UUID: aad249a0-1332-4b5f-9b46-d89873e73b86 -->
 
-USDS rewards for SKY stakers are available as specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3).
+USDS rewards for SKY stakers are available as specified in [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0).
 
 ##### A.4.4.1.4.2 - Short Term SKY Rewards For SKY Stakers [Core]  <!-- UUID: aed6511f-f5f0-4b46-a56e-9a7bbc6ea310 -->
 
@@ -17286,7 +17672,7 @@ The Vesting Total `vestTot` is the number of rewards tokens to be vested in tota
 
 ###### A.4.4.1.4.2.1.3.3 - Vesting Stream Parameter Modification [Core]  <!-- UUID: 7da0cd7a-238f-400f-89a7-a419ed25ce37 -->
 
-The Core Facilitator, in consultation with the Core Council Risk Advisor, may modify the parameters of the vesting stream to achieve the target reward rate as specified in [A.2.3.1.4.2 - Allocation Of Step 4 Capital](04bd9df4-275e-4520-83a6-d634aa605fe3). Such modifications can be effected directly via an Executive Vote, without a prior Governance Poll.
+The Core Facilitator, in consultation with the Core Council Risk Advisor, may modify the parameters of the vesting stream to achieve the target reward rate consistent with [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121). Such modifications can be effected directly via an Executive Vote, without a prior Governance Poll.
 
 ###### A.4.4.1.4.2.2 - Source Of SKY Rewards [Core]  <!-- UUID: 349a350c-c9b7-4232-a83f-2fb49b91fc74 -->
 
@@ -18216,13 +18602,13 @@ The in progress Invocations of the Light Agent Primitive are contained herein. O
 
 The documents herein implement the Ecosystem Upkeep Primitives for Spark. See [A.2.2.6 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
-###### A.6.1.1.1.2.3.1 - Distribution Requirement Primitive [Core]  <!-- UUID: cc285753-1f2a-4a05-a9a9-e52da1168790 -->
+###### A.6.1.1.1.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: cc285753-1f2a-4a05-a9a9-e52da1168790 -->
 
-The documents herein contain all data and specifications for Spark’s Instance of the Distribution Requirement Primitive. See [A.2.2.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
+The documents herein contain all data and specifications for Spark’s Instance of the Ecosystem Upkeep Fee Primitive. See [A.2.2.6.1 - Ecosystem Upkeep Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
 ###### A.6.1.1.1.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 4a0fea8a-d2e3-4ebd-8c3b-a5e27c74dac0 -->
 
-The documents herein organize all base information relevant to Spark’s usage of the Distribution Requirement Primitive.
+The documents herein organize all base information relevant to Spark’s usage of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.1.2.3.1.1.1 - Global Activation Status [Core]  <!-- UUID: 66017146-97af-401a-92ae-9c1665e17492 -->
 
@@ -18230,7 +18616,7 @@ The documents herein organize all base information relevant to Spark’s usage o
 
 ###### A.6.1.1.1.2.3.1.1.2 - Active Instances Directory [Core]  <!-- UUID: 93ce0ff1-a4c3-48e7-b147-cd27283fe307 -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Active`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Active`.
 
 ###### A.6.1.1.1.2.3.1.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 44ef4e9c-5308-4cba-bf2a-e44951c67256 -->
 
@@ -18238,11 +18624,11 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 ###### A.6.1.1.1.2.3.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 49f65762-a90f-4096-aed2-ac913e3449ac -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Completed`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Completed`.
 
 ###### A.6.1.1.1.2.3.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 548b47ca-dc50-465c-b7ec-09805cc52af2 -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.1.2.3.1.1.5 - Hub Data Repository [Core]  <!-- UUID: 48dd15d4-4cd4-4fb0-abe4-bccda146f08d -->
 
@@ -18250,59 +18636,59 @@ The documents herein contain the Data Repository for the Primitive Hub Document.
 
 ###### A.6.1.1.1.2.3.1.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: ac8e9902-f252-4b84-bdd3-f5d255639e88 -->
 
-The subtrees for archived Invocations and Instances of the Distribution Requirement Primitive are stored here.
+The subtrees for archived Invocations and Instances of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.1.2.3.1.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: b9e2baa0-22cd-49f9-a3ed-65971ddb39ac -->
 
-The subtrees for failed Invocations of the Distribution Requirement Primitive are stored here.
+The subtrees for failed Invocations of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.1.2.3.1.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: b2aecba9-fdc6-41e9-ab42-3367effd17d9 -->
 
-The subtrees for Instances of the Distribution Requirement Primitive with `Suspended` Status are stored here.
+The subtrees for Instances of the Ecosystem Upkeep Fee Primitive with `Suspended` Status are stored here.
 
 ###### A.6.1.1.1.2.3.1.2 - Active Instances [Core]  <!-- UUID: 602f7677-417b-435a-96bd-eba64963c9e1 -->
 
-The Instances of the Distribution Requirement Primitive with `Active` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Active` Status are stored herein.
 
 ###### A.6.1.1.1.2.3.1.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 0eff0bd2-25e6-4f13-8164-f4b41c9afe07 -->
 
-The documents herein contain the Instance Configuration Document for the Single Distribution Requirement Primitive Instance.
+The documents herein contain the Instance Configuration Document for the Single Ecosystem Upkeep Fee Primitive Instance.
 
 ###### A.6.1.1.1.2.3.1.2.1.1 - Parameters [Core]  <!-- UUID: eb1a5166-e3e1-4809-aa0b-77c985bd48c1 -->
 
-The documents herein define the parameters of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.1.2.3.1.2.1.1.1 - Terms [Core]  <!-- UUID: 0e1280e0-9781-4356-81f0-4540e06b380a -->
 
-Spark will buy back and distribute 0.25% of its total token supply per year.
+Spark will pay 0.50% of its market capitalization per year in USDS.
 
 ###### A.6.1.1.1.2.3.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 42b0e1c9-7b51-4cb7-865e-19911e4b8835 -->
 
-The documents herein define the custom parameters of the Single Instance of the Distribution Requirement Primitive, if any.
+The documents herein define the custom parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive, if any.
 
 ###### A.6.1.1.1.2.3.1.2.1.2 - Operational Process Definition [Core]  <!-- UUID: c8194db1-d94b-4bfc-8fc6-075f255a0fd9 -->
 
-The documents herein define the process for the ongoing management of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the process for the ongoing management of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.1.2.3.1.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 77c46d45-8fd7-4125-ae0a-ed6466e965d4 -->
 
-This document defines the protocol for routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+This document defines the protocol for routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.1.2.3.1.2.1.2.1.1 - Process Definition For Buy Back And Distribution Obligation [Core]  <!-- UUID: 35af6171-70b6-4ccd-81ed-95b5548e8406 -->
+###### A.6.1.1.1.2.3.1.2.1.2.1.1 - Process Definition For Upkeep Fee Payment [Core]  <!-- UUID: 35af6171-70b6-4ccd-81ed-95b5548e8406 -->
 
-The process to buy back and distribute 0.25% of Spark’s tokens per year will be specified in future iterations of the Spark Artifact.
+The process to pay 0.50% of Spark’s market capitalization per year in USDS will be specified in future iterations of the Spark Artifact.
 
 ###### A.6.1.1.1.2.3.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: f6ea2cb2-ce88-4dda-aed1-8d2f4f0c9a97 -->
 
-The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.1.2.3.1.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 14080c77-753f-4daa-ad7c-1b1ca203cb9a -->
 
-The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.1.2.3.1.2.1.3 - Data Repository [Core]  <!-- UUID: 928ae046-ac8d-47ff-a8c7-3b9abe2b9879 -->
 
-The documents herein contain data relevant to the Single Instance of the Distribution Requirement Primitive.
+The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.1.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: e6f23920-b611-41f2-8d80-97b0e79b7ca1 -->
 
@@ -18318,169 +18704,117 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 ###### A.6.1.1.1.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 9c60c0c9-19df-4cb1-afa8-2897932dafe5 -->
 
-The Instances of the Distribution Requirement Primitive with `Completed` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
 
 ###### A.6.1.1.1.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: f7b2e25f-fc99-4266-af87-f04239a97b1b -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.1.2.3.2 - Market Cap Fee Primitive [Core]  <!-- UUID: 3b2fd3c3-73fe-4d8b-be7f-2d0f5179fa90 -->
+###### A.6.1.1.1.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: b39e05c8-cfcc-4671-b142-b691437cb98e -->
 
-The documents herein contain all data and specifications for Spark’s Instances of the Market Cap Fee Primitive. See [A.2.2.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
+The documents herein contain all data and specifications for Spark’s Instance of the Upkeep Rebate Primitive. See [A.2.2.6.2 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
-###### A.6.1.1.1.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: c8de341d-6edd-4803-8b82-04058457af21 -->
-
-The documents herein organize all base information relevant to Spark’s usage of the Market Cap Fee Primitive.
-
-###### A.6.1.1.1.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 0f9ea86d-ac49-4c3e-8847-bbd8c31b7d12 -->
-
-`Inactive`
-
-###### A.6.1.1.1.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: f75b1a44-5cea-44ec-8445-645307d3d178 -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Active`.
-
-###### A.6.1.1.1.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: c164d64d-3cd3-4baf-9fa8-974ae370a601 -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Completed`.
-
-###### A.6.1.1.1.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 49040438-4a02-4cf8-8505-6fe709fec4d9 -->
-
-This document contains a Directory of all prospective Instances of the Market Cap Fee Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.1.2.3.2.1.2 - Active Instances Directory](f75b1a44-5cea-44ec-8445-645307d3d178), whereas failed Invocations are Archived in [A.6.1.1.1.2.3.2.1.5 - Hub Data Repository](f2d63479-3e6c-4985-baf4-461487dd08ca).
-
-###### A.6.1.1.1.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: f2d63479-3e6c-4985-baf4-461487dd08ca -->
-
-The documents herein contain the Data Repository for the Primitive Hub Document.
-
-###### A.6.1.1.1.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: ed0791d4-3105-40d5-bc37-bce1c67ba744 -->
-
-The subtrees for archived Invocations and Instances of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.1.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 9dec722a-bb49-48d8-917a-729ec52190ba -->
-
-The subtrees for failed Invocations of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.1.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: eeda3575-bb69-4d8a-9c35-77bf9eb26459 -->
-
-The subtrees for Instances of the Market Cap Fee Primitive with `Suspended` Status are stored here.
-
-###### A.6.1.1.1.2.3.2.2 - Active Instances [Core]  <!-- UUID: 24db2a78-45b3-4595-8b99-9fb421f3759e -->
-
-The Instances of the Market Cap Fee Primitive with `Active` Status are stored herein.
-
-###### A.6.1.1.1.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 5a4ce598-5d5e-424f-b570-fd8de584db1c -->
-
-The Instances of the Market Cap Fee Primitive with `Completed` Status are stored herein.
-
-###### A.6.1.1.1.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: ac4d3c71-acb4-4541-9dc8-ee7b960704a6 -->
-
-The in progress Invocations of the Market Cap Fee Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.1.2.3.2.2 - Active Instances](24db2a78-45b3-4595-8b99-9fb421f3759e).
-
-###### A.6.1.1.1.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: b39e05c8-cfcc-4671-b142-b691437cb98e -->
-
-The documents herein contain all data and specifications for Spark’s Instance of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
-
-###### A.6.1.1.1.2.3.3.1 - Primitive Hub Document [Core]  <!-- UUID: 4b400b96-b0a3-4b7d-81b9-b22d4f12f16f -->
+###### A.6.1.1.1.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 4b400b96-b0a3-4b7d-81b9-b22d4f12f16f -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.1.2.3.3.1.1 - Global Activation Status [Core]  <!-- UUID: d87daf19-7400-4a78-b7e8-4a5cb86f49d2 -->
+###### A.6.1.1.1.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: d87daf19-7400-4a78-b7e8-4a5cb86f49d2 -->
 
 `Active`
 
-###### A.6.1.1.1.2.3.3.1.2 - Active Instances Directory [Core]  <!-- UUID: 5f604d2e-2934-4347-b97a-3ab213e0b413 -->
+###### A.6.1.1.1.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: 5f604d2e-2934-4347-b97a-3ab213e0b413 -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Active`.
 
-###### A.6.1.1.1.2.3.3.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 6cc8b26a-5b3c-49d6-9358-cbdbe9cb85cf -->
+###### A.6.1.1.1.2.3.2.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 6cc8b26a-5b3c-49d6-9358-cbdbe9cb85cf -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.3.3.2.1 - Single Instance Configuration Document](64a12cf8-b7dc-4fd3-895b-bef979339bd1).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.3.2.2.1 - Single Instance Configuration Document](64a12cf8-b7dc-4fd3-895b-bef979339bd1).
 
-###### A.6.1.1.1.2.3.3.1.3 - Completed Instances Directory [Core]  <!-- UUID: 32779877-5fcb-49ff-b4c4-8246d8234a41 -->
+###### A.6.1.1.1.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 32779877-5fcb-49ff-b4c4-8246d8234a41 -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Completed`.
 
-###### A.6.1.1.1.2.3.3.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: f13ef252-e2b3-4966-a554-279cae4f41ee -->
+###### A.6.1.1.1.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: f13ef252-e2b3-4966-a554-279cae4f41ee -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.1.2.3.3.1.5 - Hub Data Repository [Core]  <!-- UUID: 7dabf38f-5d1d-481b-bd96-eb3b2dcf8e8c -->
+###### A.6.1.1.1.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: 7dabf38f-5d1d-481b-bd96-eb3b2dcf8e8c -->
 
 The documents herein contain the Data Repository for the Primitive Hub Document.
 
-###### A.6.1.1.1.2.3.3.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 66af8a51-58a2-4a98-a510-4862bfb81cf6 -->
+###### A.6.1.1.1.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 66af8a51-58a2-4a98-a510-4862bfb81cf6 -->
 
 The subtrees for archived Invocations and Instances of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.1.2.3.3.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 0c53aaf7-ef3f-432a-bcac-c7c8c0e434b9 -->
+###### A.6.1.1.1.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 0c53aaf7-ef3f-432a-bcac-c7c8c0e434b9 -->
 
 The subtrees for failed Invocations of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.1.2.3.3.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: e1cf5c38-9e90-43c4-b133-faea5daf0ee5 -->
+###### A.6.1.1.1.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: e1cf5c38-9e90-43c4-b133-faea5daf0ee5 -->
 
 The subtrees for Instances of the Upkeep Rebate Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.3.3.2 - Active Instances [Core]  <!-- UUID: 507755d9-c459-475d-8099-63c0417f9335 -->
+###### A.6.1.1.1.2.3.2.2 - Active Instances [Core]  <!-- UUID: 507755d9-c459-475d-8099-63c0417f9335 -->
 
 The Instances of the Upkeep Rebate Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.3.3.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 64a12cf8-b7dc-4fd3-895b-bef979339bd1 -->
+###### A.6.1.1.1.2.3.2.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 64a12cf8-b7dc-4fd3-895b-bef979339bd1 -->
 
 The documents herein contain the Instance Configuration Document for the Single Upkeep Rebate Primitive Instance.
 
-###### A.6.1.1.1.2.3.3.2.1.1 - Parameters [Core]  <!-- UUID: c67462b5-3423-4323-b94b-f9e5270eda28 -->
+###### A.6.1.1.1.2.3.2.2.1.1 - Parameters [Core]  <!-- UUID: c67462b5-3423-4323-b94b-f9e5270eda28 -->
 
 Every Prime Agent is entitled to the Upkeep Rebate Primitive for tokens of other Prime Agents that they hold. Because this right automatically applies, there are no parameters.
 
-###### A.6.1.1.1.2.3.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: bb605dda-ce85-46f2-8055-6d07d68b7214 -->
+###### A.6.1.1.1.2.3.2.2.1.2 - Operational Process Definition [Core]  <!-- UUID: bb605dda-ce85-46f2-8055-6d07d68b7214 -->
 
 The documents herein define the process for the ongoing management of the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.1.2.3.3.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: b0882539-16b9-405f-9e7c-c98bdca1d8e7 -->
+###### A.6.1.1.1.2.3.2.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: b0882539-16b9-405f-9e7c-c98bdca1d8e7 -->
 
 This document defines the protocol for routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.1.2.3.3.2.1.2.1.1 - Spark Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 9f9ad799-8c8d-43ad-a99e-24786f46dd40 -->
+###### A.6.1.1.1.2.3.2.2.1.2.1.1 - Spark Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 9f9ad799-8c8d-43ad-a99e-24786f46dd40 -->
 
 Spark keeps all tokens of other Agents it holds in its SubProxy account.
 
-###### A.6.1.1.1.2.3.3.2.1.2.1.2 - Spark Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: d14e7fce-217d-49bc-b0c3-c5305c17ea28 -->
+###### A.6.1.1.1.2.3.2.2.1.2.1.2 - Spark Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: d14e7fce-217d-49bc-b0c3-c5305c17ea28 -->
 
 When paying Ecosystem Upkeep fees, Spark deducts the rebate from the fees it pays.
 
-###### A.6.1.1.1.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 93503e51-089a-4c63-a353-7c12574ea5b9 -->
+###### A.6.1.1.1.2.3.2.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 93503e51-089a-4c63-a353-7c12574ea5b9 -->
 
 Operational GovOps reviews Spark’s calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Spark Prime" category and work with Spark to resolve the disagreement. If Operational GovOps and Spark cannot resolve the disagreement, it must be escalated to Core GovOps.
 
-###### A.6.1.1.1.2.3.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: a131e0d2-1946-4da2-b3a3-cfaace9d3978 -->
+###### A.6.1.1.1.2.3.2.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: a131e0d2-1946-4da2-b3a3-cfaace9d3978 -->
 
 The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.1.2.3.3.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 03646635-39d9-4efb-9628-1f567cd2da99 -->
+###### A.6.1.1.1.2.3.2.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 03646635-39d9-4efb-9628-1f567cd2da99 -->
 
 The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.1.2.3.3.2.1.3 - Data Repository [Core]  <!-- UUID: c0f8debb-8b20-428e-bdaa-8341c00fb0ee -->
+###### A.6.1.1.1.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: c0f8debb-8b20-428e-bdaa-8341c00fb0ee -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.1.2.3.3.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 5bd30523-e635-41e2-9929-d458b0bc29db -->
+###### A.6.1.1.1.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 5bd30523-e635-41e2-9929-d458b0bc29db -->
 
 The materials associated with initial planning of the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.1.2.3.3.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: be8f07a7-247f-466d-a68f-fd26fd84df9b -->
+###### A.6.1.1.1.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: be8f07a7-247f-466d-a68f-fd26fd84df9b -->
 
 The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.1.2.3.3.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 7997ed4f-6484-4aab-9b46-55b4db6e4e23 -->
+###### A.6.1.1.1.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 7997ed4f-6484-4aab-9b46-55b4db6e4e23 -->
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.1.2.3.3.3 - Completed Instances [Core]  <!-- UUID: 29ea3609-b1d4-4488-9fa0-15e26dfd4c26 -->
+###### A.6.1.1.1.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 29ea3609-b1d4-4488-9fa0-15e26dfd4c26 -->
 
 The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.1.2.3.3.4 - In Progress Invocations [Core]  <!-- UUID: 2008b69e-a0de-4274-b459-e2f613425a4b -->
+###### A.6.1.1.1.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 2008b69e-a0de-4274-b459-e2f613425a4b -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
@@ -21020,7 +21354,7 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 250,000,000 USDT
+- `maxAmount`: 500,000,000 USDT
 - `slope`: 2,000,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.1.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: dadcd267-a47c-4bc0-9216-98369b470b72 -->
@@ -21175,7 +21509,7 @@ The current `maxAmount` and `slope` for this conduit's inflow/outflow are define
 The inflow rate limits are:
 
 - `maxAmount`: 50,000 ETH
-- `slope`: 10,000 ETH per day
+- `slope`: 250,000 ETH per day
 
 ###### A.6.1.1.1.2.6.1.3.1.1.6.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 68716e71-a257-4f6c-b227-fba7abc8ec31 -->
 
@@ -21255,14 +21589,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 50,000,000 USDS
+- `maxAmount`: 0
 - `slope`: 50,000,000 USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6dc14672-e655-49fd-a351-45537408c74b -->
 
 The outflow rate limits are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 0
 - `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 25a46c53-dca4-43ef-876a-64b5cea91fb6 -->
@@ -21489,14 +21823,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 50,000,000 USDC
+- `maxAmount`: 0
 - `slope`: 25,000,000 USDC per day
 
 ###### A.6.1.1.1.2.6.1.3.1.2.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 89b3f4e4-c845-4a6c-bdce-a383bf11a947 -->
 
 The outflow rate limits are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 0
 - `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.2.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 9ff8418d-457e-4ce3-83c4-18c5ae3b35d7 -->
@@ -21563,14 +21897,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 50,000,000 USDS
+- `maxAmount`: 0
 - `slope`: 25,000,000 USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.2.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: c02c329a-9e38-472b-ae0f-b2974694982e -->
 
 The outflow rate limits are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 0
 - `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.2.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 07ce54dc-92dd-4f7e-a9ef-53760b999de7 -->
@@ -21637,7 +21971,7 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 10,000,000 USDT
+- `maxAmount`: 100,000,000 USDT
 - `slope`: 1,000,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.2.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: c52a5acc-ef73-4e13-ab15-8c1c1daf12a6 -->
@@ -21873,7 +22207,7 @@ The current `maxAmount` and `slope` for this conduit's inflow/outflow are define
 
 The inflow rate limits are:
 
-- `maxAmount`: 25,000,000 USDT
+- `maxAmount`: 50,000,000 USDT
 - `slope`: 100,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.3.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: fc23d5a1-6e97-4e3e-bead-9a41955441c6 -->
@@ -21897,7 +22231,7 @@ The documents herein contain operational parameters or configuration details uni
 
 ###### A.6.1.1.1.2.6.1.3.1.3.2.4.1 - Request Redemption Parameters [Core]  <!-- UUID: 34e632af-1fd9-4dbe-be28-633837cdfe67 -->
 
-- `maxAmount`: 50,000,000 USDT
+- `maxAmount`: Unlimited
 - `slope`: 500,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.4 - Ethena [Core]  <!-- UUID: b23e9a6b-e78a-486f-9f6e-07cfdb437bee -->
@@ -22345,14 +22679,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 10,000,000 sUSDS
+- `maxAmount`: 0
 - `slope`: 5,000,000 sUSDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 67155bd0-093a-49ff-9b96-eb6a8aa22c68 -->
 
 The outflow rate limits are:
 
-- `maxAmount`: 10,000,000 fsUSDS
+- `maxAmount`: 0
 - `slope`: 5,000,000 fsUSDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1591a545-a8c6-4a41-aeea-f92d4fa30510 -->
@@ -22694,9 +23028,9 @@ The outflow rate limits are:
 
 The swap rate limits are:
 
-- `maxAmount`: 5,000,000
-- `slope`: 20,000,000 per day
-- Max slippage: 0.15%
+- `maxAmount`: 10,000,000
+- `slope`: 200,000,000 per day
+- Max slippage: 0.25%
 
 ###### A.6.1.1.1.2.6.1.3.1.7.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 8d74f809-b54e-490f-aa7b-c1cb0aea5b7f -->
 
@@ -23024,8 +23358,8 @@ The outflow rate limits are:
 
 The swap rate limits are:
 
-- `maxAmount`: 100
-- `slope`: 1,000 per day
+- `maxAmount`: 1,000
+- `slope`: 50,000 per day
 - `Max slippage`: 0.25%
 
 ###### A.6.1.1.1.2.6.1.3.1.7.5.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: a8106b30-ef8c-4ce5-a25a-80755ab624d0 -->
@@ -23370,7 +23704,7 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 50,000,000 USDT
+- `maxAmount`: 100,000,000 USDT
 - `slope`: 1,000,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6dab7518-caa3-4339-a573-718675fe19ee -->
@@ -23392,19 +23726,47 @@ The documents herein contain operational procedures or monitoring requirements u
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
-###### A.6.1.1.1.2.6.1.3.1.8.4.4.1 - Contract Addresses [Core]  <!-- UUID: c481d26c-a4b1-4c76-9031-478bd64a8aca -->
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1 - Market Exposure [Core]  <!-- UUID: bcf45274-0125-4856-a405-ed2726fad468 -->
+
+The documents herein contain exposure details for this Instance
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.1 - sUSDS/USDT 96.5% LLTV Pool [Core]  <!-- UUID: 2187c7a6-d9d2-46c7-a794-5779939c708f -->
+
+- Pool ID: 0x3274643db77a064abd3bc851de77556a4ad2e2f502f4f0c80845fa8f909ecf0b
+- Absolute cap: Unlimited
+- Relative cap: 100%
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.2 - wstETH/USDT 86% LLTV Pool [Core]  <!-- UUID: 28068a47-d95a-4edb-a7cd-15a9fa769d01 -->
+
+- Pool ID: 0xe7e9694b754c4d4f7e21faf7223f6fa71abaeb10296a4c43a54a7977149687d2
+- Absolute cap: 250 million
+- Relative cap: 100%
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.3 - WBTC/USDT 86% LLTV Pool [Core]  <!-- UUID: c2b81ec6-62d4-4a8e-8195-411051e74708 -->
+
+- Pool ID: 0xa921ef34e2fc7a27ccc50ae7e4b154e16c9799d3387076c421423ef52ac4df99
+- Absolute cap: 100 million
+- Relative cap: 100%
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.4 - cbBTC/USDT 86% LLTV Pool [Core]  <!-- UUID: b89ff2c9-be7e-4634-bddd-8ebbf5eb6769 -->
+
+- Pool ID: 0x45671fb8d5dea1c4fbca0b8548ad742f6643300eeb8dbd34ad64a658b2b05bca
+- Absolute cap: 250 million
+- Relative cap: 100%
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.2 - Contract Addresses [Core]  <!-- UUID: c481d26c-a4b1-4c76-9031-478bd64a8aca -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.1 - Curator Role Address [Core]  <!-- UUID: e71e777b-b5a8-41bb-8434-97650500467a -->
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.2.1 - Curator Role Address [Core]  <!-- UUID: e71e777b-b5a8-41bb-8434-97650500467a -->
 
 `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
 
-###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.2 - Guardian Role Address [Core]  <!-- UUID: 6e105430-ea5c-4368-b76f-725c0208afdc -->
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.2.2 - Guardian Role Address [Core]  <!-- UUID: 6e105430-ea5c-4368-b76f-725c0208afdc -->
 
 `0xf5748bBeFa17505b2F7222B23ae11584932C908B`
 
-###### A.6.1.1.1.2.6.1.3.1.8.4.4.2 - Timelock [Core]  <!-- UUID: 62c056de-3136-4faa-bb86-3b348e2e874c -->
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.3 - Timelock [Core]  <!-- UUID: 62c056de-3136-4faa-bb86-3b348e2e874c -->
 
 Timelock: 240 hours (10 days)
 
@@ -24487,7 +24849,7 @@ The current `maxAmount` and `slope` for this conduit’s transferAssets operatio
 
 ###### A.6.1.1.1.2.6.1.3.1.13.1.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 4093b98b-2421-4642-982b-8c08b2f5ef20 -->
 
-- `maxAmount`: 5,000,000 USAT
+- `maxAmount`: 50,000,000 USAT
 - `slope`: 250,000,000 USAT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.13.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 069aa415-4d37-4567-b7da-bda62e4d0423 -->
@@ -24552,7 +24914,7 @@ The current `maxAmount` and `slope` for this conduit’s transferAssets operatio
 
 ###### A.6.1.1.1.2.6.1.3.1.13.2.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 5a56203b-5c1b-42e8-9acb-8ab78eb4dc06 -->
 
-- `maxAmount`: 5,000,000 USDT
+- `maxAmount`: 50,000,000 USDT
 - `slope`: 250,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.13.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1ec11acd-b8fe-4310-b1ba-6e57c9c27fd3 -->
@@ -24743,14 +25105,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 10,000,000 USDS
+- `maxAmount`: 0
 - `slope`: 5,000,000 USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.2.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: f8a431bd-2d0b-4d60-886c-6e3dac42989e -->
 
 The outflow rate limits are:
 
-- `maxAmount`: 10,000,000 fsUSDS
+- `maxAmount`: 0
 - `slope`: 5,000,000 fsUSDS per day
 
 ###### A.6.1.1.1.2.6.1.3.2.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 00f6c298-eb05-4c7a-b83c-5bc80a283104 -->
@@ -24825,14 +25187,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 50,000,000 USDC
+- `maxAmount`: 0
 - `slope`: 25,000,000 USDC per day
 
 ###### A.6.1.1.1.2.6.1.3.2.3.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 89e0b1fb-f660-4cf2-8977-ccb872854ced -->
 
 The outflow rate limits are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 0
 - `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.2.3.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 93b85c6b-8dff-420e-9f5a-c8c10390ef86 -->
@@ -24907,14 +25269,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 10,000,000 USDS
+- `maxAmount`: 0
 - `slope`: 5,000,000 USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 4abd5303-6a27-42fa-8128-4c6e65f089ee -->
 
 The outflow rate limits are:
 
-- `maxAmount`: 10,000,000 fsUSDS
+- `maxAmount`: 0
 - `slope`: 5,000,000 fsUSDS per day
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: ac2eb45f-a059-4dcc-9af4-baa1bbd60e3c -->
@@ -24989,14 +25351,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 50,000,000 USDC
+- `maxAmount`: 0
 - `slope`: 50,000,000 USDC per day
 
 ###### A.6.1.1.1.2.6.1.3.3.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 254af84a-fe4c-471f-bc8c-dde31c728141 -->
 
 The outflow rate limits are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 0
 - `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.3.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 4a10347b-02ab-47f4-8a13-b2b526fde198 -->
@@ -27368,7 +27730,7 @@ The current parameters for Spark Savings USDC on Ethereum are:
 - Take rate limit: unlimited
 - Min yield: 0%
 - Max yield: 10%
-- Supply cap: 250 million
+- Supply cap: 10 billion
 
 ###### A.6.1.1.1.3.5.2.2.2 - Spark Savings USDT on Ethereum [Core]  <!-- UUID: 39a398d7-600e-472a-ac85-c789866fddfc -->
 
@@ -27380,7 +27742,7 @@ The current parameters for Spark Savings USDT on Ethereum are:
 - Take rate limit: unlimited
 - Min yield: 0%
 - Max yield: 10%
-- Supply cap: 250 million
+- Supply cap: 10 billion
 
 ###### A.6.1.1.1.3.5.2.2.3 - Spark Savings ETH on Ethereum [Core]  <!-- UUID: 02c0847b-5608-4c12-a1f6-df889538722f -->
 
@@ -27392,7 +27754,7 @@ The current parameters for Spark Savings ETH on Ethereum are:
 - Take rate limit: unlimited
 - Min yield: 0%
 - Max yield: 5%
-- Supply cap: 50,000
+- Supply cap: 1 million
 
 ###### A.6.1.1.1.3.5.2.2.4 - Spark Savings USDC on Avalanche [Core]  <!-- UUID: fc108236-9f07-45fb-9ff1-4c806975e049 -->
 
@@ -27903,7 +28265,7 @@ The subdocuments herein define the assets currently accepted as margin collatera
 - Maintenance LTV: 85%
 - Liquidation LTV: 90%
 - Exposure limit: Unlimited
-- Staked and wrapped versions: Coinbase cbBTC, Lombard LBTC
+- Staked and wrapped versions: Coinbase cbBTC, Lombard LBTC, Bitgo/Bitglobal WBTC
 
 ###### A.6.1.1.1.3.8.2.2.2.2 - Ether (ETH) [Core]  <!-- UUID: f6d82898-b431-43d5-8c0b-3b8e4aa9e236 -->
 
@@ -27936,6 +28298,14 @@ The subdocuments herein define the assets currently accepted as margin collatera
 - Liquidation LTV: 80%
 - Exposure limit: $25 million
 - Staked and wrapped versions: Kinetiq kHYPE, native staking with approved providers
+
+###### A.6.1.1.1.3.8.2.2.2.6 - Gold (AU) [Core]  <!-- UUID: 8db0e30b-c85c-4a92-8afd-84af4bfdfe92 -->
+
+- Initial LTV: 80%
+- Maintenance LTV: 85%
+- Liquidation LTV: 90%
+- Exposure limit: $500 million (of which, not more than $50 million from XAUM)
+- Staked and wrapped versions: Tether XAUT, Paxos PAXG, Matrixdock XAUM
 
 ###### A.6.1.1.1.3.8.2.3 - Approved Venues [Core]  <!-- UUID: b03b3354-1290-41d6-89fe-d841c3a79d3c -->
 
@@ -28000,8 +28370,8 @@ Loans may be issued for the following durations:
 
 The minimum borrow rate for loans via Offchain Collateralized Lending arrangements must be the greater of the following at the time of issuance or renewal:
 
-- Sky Savings Rate + 1.5%
-- SOFR + 2%
+- Sky Savings Rate + 0.3%
+- SOFR + 0%
 
 ###### A.6.1.1.1.3.8.2.4.2.3 - Margin Call Cure Period [Core]  <!-- UUID: aedd10ee-5db1-4d38-b720-c451608c19e1 -->
 
@@ -28065,6 +28435,158 @@ Funds may be transferred to a collateral agent or whitelisted address only after
 Funds may be transferred to the designated address(es) provided by the custodian or collateral manager for the payment of custody or collateral management service fees as permitted by governance-approved arrangements and upon receipt of a valid invoice.
 
 Funds may be transferred to the designated address for Spark Liquidity Layer at any time without restriction.
+
+###### A.6.1.1.1.3.9 - Risk Curation Framework [Core]  <!-- UUID: 78018ebc-c69d-44f6-b602-190edca11483 -->
+
+The documents herein specify Spark’s framework for delegating and executing certain on-chain activities through approved curator roles.
+
+###### A.6.1.1.1.3.9.1 - Operational Process Definition [Core]  <!-- UUID: d0c6aaa3-2d24-41f9-ac1b-51f56feff62f -->
+
+The documents herein define the process for updating Risk Curation Framework policies and procedures.
+
+###### A.6.1.1.1.3.9.1.1 - Risk Curation Framework Changes [Core]  <!-- UUID: ca226501-8073-4830-b5e9-01fa960f17fe -->
+
+Changes to Risk Curation Framework policies are implemented using the Root Edit Primitive.
+
+###### A.6.1.1.1.3.9.2 - Purpose [Core]  <!-- UUID: 86925539-2db1-4a2e-930a-2ee6bc833ccd -->
+
+The Risk Curation Framework defines the conditions under which Spark governance may authorize external contributors to execute approved changes onchain, while preserving governance oversight, timelock protections, and cancellation authorities.
+
+###### A.6.1.1.1.3.9.3 - Curator Roles [Core]  <!-- UUID: 6c3b277c-4acd-4692-939e-203855cff43e -->
+
+The documents herein define the meaning and scope of Curator roles within the Spark ecosystem.
+
+###### A.6.1.1.1.3.9.3.1 - Definition [Core]  <!-- UUID: 3a796888-a39b-47c4-9cb9-6716d3e1c0db -->
+
+A Curator is a specific admin role defined within the Morpho smart contract system.
+
+###### A.6.1.1.1.3.9.3.2 - Scope of Authority [Core]  <!-- UUID: e4fb1a94-cfd8-40d3-ac79-966dd9f8db24 -->
+
+Curators may only execute actions that have been explicitly approved by Spark governance via polling.
+
+###### A.6.1.1.1.3.9.3.3 - Reporting of Curator Actions [Core]  <!-- UUID: 6f64ac9e-daf1-4339-8046-3894e57f4383 -->
+
+All actions taken under a Curator role must be reported by the Curator in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, the UTC time at which the timelock period for the action elapses, a description of the action being implemented, and a link to the poll which provided governance approval for the action.
+
+###### A.6.1.1.1.3.9.4 - Governance Approval Process [Core]  <!-- UUID: e3ddbd39-ee57-4b17-b66e-8bc823a03098 -->
+
+The documents herein describe the requirements for all Curator actions to be approved by governance.
+
+###### A.6.1.1.1.3.9.4.1 - Polling Requirement [Core]  <!-- UUID: 218f889f-6a5d-46a8-b8a3-cb0a075825c2 -->
+
+All curator-executed changes must be approved in advance by Spark governance through a polling process.
+
+###### A.6.1.1.1.3.9.4.2 - Execution Authority [Core]  <!-- UUID: 48e6eeb9-86c0-4bfa-8be0-e9917d163118 -->
+
+Following successful governance approval, the Curator is authorized to execute the approved change or changes by submitting the corresponding onchain transaction or transactions.
+
+###### A.6.1.1.1.3.9.5 - Timelock Controls [Core]  <!-- UUID: a4f6132e-787f-445a-9290-bd810b9eb93f -->
+
+The documents herein define the requirements for Timelock mechanisms to be used in conjunction with Curator roles.
+
+###### A.6.1.1.1.3.9.5.1 - Timelock Requirement [Core]  <!-- UUID: 9cb30c4c-ecbb-4874-a931-b900b868b888 -->
+
+All admin or privileged controls managed by curator roles must be subject to a minimum timelock delay of three (3) days between scheduling and execution.
+
+###### A.6.1.1.1.3.9.5.2 - Visibility [Core]  <!-- UUID: 4f45b29e-9f94-48d3-940c-1cd6b1f06f4b -->
+
+Pending changes subject to the timelock must be publicly visible onchain for the duration of the delay period.
+
+###### A.6.1.1.1.3.9.6 - Cancellation Authorities [Core]  <!-- UUID: 86153ff2-e3f2-44af-b19b-678cbbac27f5 -->
+
+The documents herein define the cancellation mechanisms and authorities for pending actions within the Timelock period.
+
+###### A.6.1.1.1.3.9.6.1 - Authorized Cancellers [Core]  <!-- UUID: f87333c8-ec5e-4483-83a9-791e1f9f9634 -->
+
+Pending changes within the timelock must be able to be cancelled by any of the following: the Spark subdao proxy, or a designated guardian role.
+
+###### A.6.1.1.1.3.9.6.2 - Cancellation Reasons [Core]  <!-- UUID: 0e572cad-bdf2-437f-b272-0cd634424b19 -->
+
+Pending changes may be cancelled for the following reasons: misalignment or conflict with the Sky Atlas or Spark Artifact; excessive or unacceptable risk, as identified by the Sky Core Council or Spark Risk Council; emergency situations, as defined in the Sky Atlas in [A.1.8 - Emergency Response System](1d940c6d-02ce-4c17-8057-cef13c1cc7ad); or cancellation requested by the Curator.
+
+###### A.6.1.1.1.3.9.6.3 - Guardian Role [Core]  <!-- UUID: 900c4a0d-ed93-41ad-b914-f84d50d6940e -->
+
+A Guardian is a specific admin role defined within the Morpho smart contract system, also referred to as a Sentinel in some cases.
+
+###### A.6.1.1.1.3.9.6.3.1 - Guardian Independence [Core]  <!-- UUID: ea50c8da-008e-4f0f-b2df-ac666d5faf13 -->
+
+The Guardian must be independent from the Curator for each specific smart contract instance, meaning there must be no overlap between approvers, signers, contributors, role owners, or entities between the two roles. Compromise or misalignment of the Curator role should not in itself create risk of the Guardian role also becoming compromised.
+
+###### A.6.1.1.1.3.9.6.3.2 - Guardian Reporting [Core]  <!-- UUID: ac45b63b-3394-49d6-aab7-ff67b1d4fd0c -->
+
+All actions taken under a Guardian role must be reported by the Guardian in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, a description of the action, general reasoning for the action, and justification for the action being within the governance-approved mandate.
+
+###### A.6.1.1.1.3.9.7 - Delegated Risk Curation Instances [Core]  <!-- UUID: b3b590f9-0d3e-4c4a-a9e5-5b114d3c0ae4 -->
+
+Spark governance approves the following instances of delegated risk curation authority. Each instance is governed independently and subject to the Risk Curation Framework.
+
+###### A.6.1.1.1.3.9.7.1 - Instance Parameter Definitions [Core]  <!-- UUID: 3d1e7988-f513-4632-a653-69d420379998 -->
+
+The subdocuments herein describe the parameters which must be defined and maintained for each instance of delegated risk curation authority.
+
+###### A.6.1.1.1.3.9.7.1.1 - Instance Name [Core]  <!-- UUID: e6fadf50-32a8-4c12-9b01-2ac1b9f8c1fb -->
+
+The name of the product, vault, or protocol where authority is delegated.
+
+###### A.6.1.1.1.3.9.7.1.2 - Contract Address [Core]  <!-- UUID: 6b237359-81f4-4089-a1cb-9674cc029fcd -->
+
+The specific onchain contract address and the ownership or admin role over which curator authority is delegated.
+
+###### A.6.1.1.1.3.9.7.1.3 - Curator [Core]  <!-- UUID: 35326711-9bda-4880-a716-bbb0eb6a3762 -->
+
+The entity or entities serving in the curator role, including how the role is controlled at the smart contract level, such as a multisig address and approval threshold or an alternative control mechanism.
+
+###### A.6.1.1.1.3.9.7.1.4 - Scope of Curator Authority [Core]  <!-- UUID: 0d5c17a2-a4a3-4f81-af4c-49839bc7b36f -->
+
+The specific execution actions the curator is permitted to take, subject to prior Spark governance approval via polling.
+
+###### A.6.1.1.1.3.9.7.1.5 - Guardian [Core]  <!-- UUID: 817391bd-3748-479c-846e-f8d3e3ec56f4 -->
+
+The entity or entities serving in the guardian role, including how the role is controlled at the smart contract level and how cancellation authority is exercised.
+
+###### A.6.1.1.1.3.9.7.2 - Approved Instances [Core]  <!-- UUID: 5f30c335-8f12-4cc7-becd-f542a7546463 -->
+
+The documents herein enumerate the current approved instances of delegated risk curation authority.
+
+###### A.6.1.1.1.3.9.7.2.1 - Spark USDS Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 3e8ed24b-da4a-4c3f-9a74-c3dd6a557abf -->
+
+The Spark USDS Morpho Vault on Ethereum Mainnet is an approved instance with the following details:
+
+- Instance Name: Spark USDS Morpho Vault (Ethereum Mainnet)
+- Contract Address: `0xe41a0583334f0dc4E023Acd0bFef3667F6FE0597`
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
+- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+
+###### A.6.1.1.1.3.9.7.2.2 - Spark Blue Chip USDC Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 603cf96e-5819-4e3d-942e-5290dd000847 -->
+
+The Spark Blue Chip USDC Morpho Vault on Ethereum mainnet is an approved instance with the following details:
+
+- Instance Name: Spark Blue Chip USDC Morpho Vault (Ethereum Mainnet)
+- Contract Address: `0x56A76b428244a50513ec81e225a293d128fd581D`
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
+- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+
+###### A.6.1.1.1.3.9.7.2.3 - Spark Blue Chip USDT Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 5ef1e78f-e1d2-4b09-b00c-618e36ccb2d8 -->
+
+The Spark Blue Chip USDT Morpho Vault on Ethereum mainnet is an approved instance with the following details:
+
+- Instance Name: Spark Blue Chip USDT Morpho Vault (Ethereum Mainnet)
+- Contract Address: `0xc7CDcFDEfC64631ED6799C95e3b110cd42F2bD22`
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
+- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+
+###### A.6.1.1.1.3.9.7.2.4 - Spark USDC Morpho Vault - Base [Core]  <!-- UUID: 85722a93-ec30-4e7f-883c-adde12b0ac6b -->
+
+The Spark USDC Morpho Vault on Base is an approved instance with the following details:
+
+- Instance Name: Spark USDC Morpho Vault (Base)
+- Contract Address: `0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A`
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
+- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
 
 #### A.6.1.1.2 - Grove [Core]  <!-- UUID: 727b0de6-095b-485e-bf9c-02108a364480 -->
 
@@ -28768,13 +29290,13 @@ The in progress Invocations of the Light Agent Primitive are contained herein. O
 
 The documents herein implement the Ecosystem Upkeep Primitives for Grove. See [A.2.2.6 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
-###### A.6.1.1.2.2.3.1 - Distribution Requirement Primitive [Core]  <!-- UUID: 360c4fcc-fb40-482d-b3a7-4da11dce9da9 -->
+###### A.6.1.1.2.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: 360c4fcc-fb40-482d-b3a7-4da11dce9da9 -->
 
-The documents herein contain all data and specifications for Grove’s Instance of the Distribution Requirement Primitive. See [A.2.2.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
+The documents herein contain all data and specifications for Grove’s Instance of the Ecosystem Upkeep Fee Primitive. See [A.2.2.6.1 - Ecosystem Upkeep Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
 ###### A.6.1.1.2.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: d8588e0b-0acd-4bed-989e-8da4016d0aa9 -->
 
-The documents herein organize all base information relevant to Grove’s usage of the Distribution Requirement Primitive.
+The documents herein organize all base information relevant to Grove’s usage of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.2.2.3.1.1.1 - Global Activation Status [Core]  <!-- UUID: f03feadf-740b-4a9f-95bd-d34c14476df4 -->
 
@@ -28782,7 +29304,7 @@ The documents herein organize all base information relevant to Grove’s usage o
 
 ###### A.6.1.1.2.2.3.1.1.2 - Active Instances Directory [Core]  <!-- UUID: be81c9fd-51a3-41cb-9cd3-ae75dc5e4a1f -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Active`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Active`.
 
 ###### A.6.1.1.2.2.3.1.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: d303d116-aaa4-4696-82f6-3e91134a7e65 -->
 
@@ -28790,11 +29312,11 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 ###### A.6.1.1.2.2.3.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: f89e1ba4-a944-4448-82cb-daecf0d56d97 -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Completed`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Completed`.
 
 ###### A.6.1.1.2.2.3.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: b4657323-1dfc-4754-92a0-49fce826ed6e -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.2.2.3.1.1.5 - Hub Data Repository [Core]  <!-- UUID: 7eb4aec2-75b3-4f7a-a4b1-18833a110d49 -->
 
@@ -28802,59 +29324,59 @@ The documents herein contain the Data Repository for the Primitive Hub Document.
 
 ###### A.6.1.1.2.2.3.1.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 4a56ae75-633e-4806-b226-831611e3f8f1 -->
 
-The subtrees for archived Invocations and Instances of the Distribution Requirement Primitive are stored here.
+The subtrees for archived Invocations and Instances of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.2.2.3.1.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: b84bdc68-c82e-4466-b1c8-b16cf8b3901e -->
 
-The subtrees for failed Invocations of the Distribution Requirement Primitive are stored here.
+The subtrees for failed Invocations of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.2.2.3.1.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: 5435ff31-2051-4863-9dc2-971fa12fb25e -->
 
-The subtrees for Instances of the Distribution Requirement Primitive with `Suspended` Status are stored here.
+The subtrees for Instances of the Ecosystem Upkeep Fee Primitive with `Suspended` Status are stored here.
 
 ###### A.6.1.1.2.2.3.1.2 - Active Instances [Core]  <!-- UUID: 7e2eb143-8264-40e3-9151-9c6a9a44012b -->
 
-The Instances of the Distribution Requirement Primitive with `Active` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Active` Status are stored herein.
 
 ###### A.6.1.1.2.2.3.1.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: f462656b-7c8a-4e2c-bbc8-24552dc6cfc8 -->
 
-The documents herein contain the Instance Configuration Document for the Single Distribution Requirement Primitive Instance.
+The documents herein contain the Instance Configuration Document for the Single Ecosystem Upkeep Fee Primitive Instance.
 
 ###### A.6.1.1.2.2.3.1.2.1.1 - Parameters [Core]  <!-- UUID: 3b2cd856-880f-474d-a64e-dca106d7f1d3 -->
 
-The documents herein define the parameters of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.2.2.3.1.2.1.1.1 - Terms [Core]  <!-- UUID: 46e8244b-d159-4884-b07f-e758424e4ec9 -->
 
-Grove will buy back and distribute 0.25% of its total token supply per year.
+Grove will pay 0.50% of its market capitalization per year in USDS.
 
 ###### A.6.1.1.2.2.3.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 2331102b-2095-4ff4-8755-1f7bde27a6ac -->
 
-The documents herein define the custom parameters of the Single Instance of the Distribution Requirement Primitive, if any.
+The documents herein define the custom parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive, if any.
 
 ###### A.6.1.1.2.2.3.1.2.1.2 - Operational Process Definition [Core]  <!-- UUID: e267d1d2-d9e7-430b-b879-9d60ef8ad348 -->
 
-The documents herein define the process for the ongoing management of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the process for the ongoing management of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.2.2.3.1.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: d37c033b-2a45-46d4-b7dd-741c1e902d47 -->
 
-This document defines the protocol for routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+This document defines the protocol for routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.2.2.3.1.2.1.2.1.1 - Process Definition For Buy Back And Distribution Obligation [Core]  <!-- UUID: 9a359283-1c1b-4755-aa52-995f278e688d -->
+###### A.6.1.1.2.2.3.1.2.1.2.1.1 - Process Definition For Upkeep Fee Payment [Core]  <!-- UUID: 9a359283-1c1b-4755-aa52-995f278e688d -->
 
-The process to buy back and distribute 0.25% of Grove’s tokens per year will be specified in future iterations of the Grove Artifact.
+The process to pay 0.50% of Grove’s market capitalization per year in USDS will be specified in future iterations of the Grove Artifact.
 
 ###### A.6.1.1.2.2.3.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: bf4a3785-8570-46ae-94ca-ac00cf709f02 -->
 
-The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.2.2.3.1.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 9036e0b9-a7d7-45a6-9800-3f97c47e86e9 -->
 
-The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.2.2.3.1.2.1.3 - Data Repository [Core]  <!-- UUID: 95ee5c6a-4556-4d94-bda4-fc322ba4f112 -->
 
-The documents herein contain data relevant to the Single Instance of the Distribution Requirement Primitive.
+The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.2.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 13c839b0-85fa-4582-a3e0-196627b68220 -->
 
@@ -28870,169 +29392,117 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 ###### A.6.1.1.2.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 370e4310-69e9-40e9-ae26-46518187cd47 -->
 
-The Instances of the Distribution Requirement Primitive with `Completed` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
 
 ###### A.6.1.1.2.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: 3c264e80-11c3-47a6-b496-852059d8826e -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.2.2.3.2 - Market Cap Fee Primitive [Core]  <!-- UUID: d2a2cdaf-b268-4aa2-bde7-27785f4ca328 -->
+###### A.6.1.1.2.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: ef8a7a1d-4e4d-474b-97fd-801c8285e9fc -->
 
-The documents herein contain all data and specifications for Grove’s Instances of the Market Cap Fee Primitive. See [A.2.2.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
+The documents herein contain all data and specifications for Groves Instance of the Upkeep Rebate Primitive. See [A.2.2.6.2 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
-###### A.6.1.1.2.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 1be6e209-52a3-4dc9-8544-57eadb9b4cc8 -->
-
-The documents herein organize all base information relevant to Grove’s usage of the Market Cap Fee Primitive.
-
-###### A.6.1.1.2.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: beb28f69-63df-4ce6-9e82-42a8734dde95 -->
-
-`Inactive`
-
-###### A.6.1.1.2.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: 6f494545-f8b4-4a1f-a761-369d22667625 -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Active`.
-
-###### A.6.1.1.2.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 61b2b893-c479-437e-a84e-57d54223f065 -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Completed`.
-
-###### A.6.1.1.2.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 557320e0-78d7-4b9d-b13d-b6f8e315b0fa -->
-
-This document contains a Directory of all prospective Instances of the Market Cap Fee Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.2.2.3.2.1.2 - Active Instances Directory](6f494545-f8b4-4a1f-a761-369d22667625), whereas failed Invocations are Archived in [A.6.1.1.2.2.3.2.1.5 - Hub Data Repository](93c3f730-1a86-4d31-8b51-38acf00b9cd6).
-
-###### A.6.1.1.2.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: 93c3f730-1a86-4d31-8b51-38acf00b9cd6 -->
-
-The documents herein contain the Data Repository for the Primitive Hub Document.
-
-###### A.6.1.1.2.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 679fde32-a75f-4fd1-aafa-b7456ce0b36e -->
-
-The subtrees for archived Invocations and Instances of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.2.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 75654fe8-03dc-43be-870f-e8cd89da780c -->
-
-The subtrees for failed Invocations of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.2.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: 5765633b-32df-42d8-8c24-96322506c9de -->
-
-The subtrees for Instances of the Market Cap Fee Primitive with `Suspended` Status are stored here.
-
-###### A.6.1.1.2.2.3.2.2 - Active Instances [Core]  <!-- UUID: 67e8617c-a128-488e-8ead-f6e1fe179b32 -->
-
-The Instances of the Market Cap Fee Primitive with `Active` Status are stored herein.
-
-###### A.6.1.1.2.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 6626297d-acc7-4d07-86c6-88a024bb2c89 -->
-
-The Instances of the Market Cap Fee Primitive with `Completed` Status are stored herein.
-
-###### A.6.1.1.2.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: f8656a48-ae5a-4482-9fb4-a5ad763ceffc -->
-
-The in progress Invocations of the Market Cap Fee Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.2.2.3.2.2 - Active Instances](67e8617c-a128-488e-8ead-f6e1fe179b32).
-
-###### A.6.1.1.2.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: ef8a7a1d-4e4d-474b-97fd-801c8285e9fc -->
-
-The documents herein contain all data and specifications for Groves Instance of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
-
-###### A.6.1.1.2.2.3.3.1 - Primitive Hub Document [Core]  <!-- UUID: 52031d37-fadd-4112-b2e9-53cc04ac44b8 -->
+###### A.6.1.1.2.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 52031d37-fadd-4112-b2e9-53cc04ac44b8 -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.2.2.3.3.1.1 - Global Activation Status [Core]  <!-- UUID: 4466d3ec-d8a2-4ffd-b5bb-f5df7e58a7e3 -->
+###### A.6.1.1.2.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 4466d3ec-d8a2-4ffd-b5bb-f5df7e58a7e3 -->
 
 `Active`
 
-###### A.6.1.1.2.2.3.3.1.2 - Active Instances Directory [Core]  <!-- UUID: c418d3f5-4a8b-4932-afe9-d0131c28aff1 -->
+###### A.6.1.1.2.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: c418d3f5-4a8b-4932-afe9-d0131c28aff1 -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Active`.
 
-###### A.6.1.1.2.2.3.3.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: cca7ba1c-8ba0-42f6-8d32-0310e7dc4067 -->
+###### A.6.1.1.2.2.3.2.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: cca7ba1c-8ba0-42f6-8d32-0310e7dc4067 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.3.3.2.1 - Single Instance Configuration Document](e09238d0-83f5-4163-b3d3-613e218014fa).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.3.2.2.1 - Single Instance Configuration Document](e09238d0-83f5-4163-b3d3-613e218014fa).
 
-###### A.6.1.1.2.2.3.3.1.3 - Completed Instances Directory [Core]  <!-- UUID: 2a87028d-9eea-47a9-9416-be32a71c94ed -->
+###### A.6.1.1.2.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 2a87028d-9eea-47a9-9416-be32a71c94ed -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Completed`.
 
-###### A.6.1.1.2.2.3.3.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: d95b16c0-0980-4401-ad83-9b4e4c8f947e -->
+###### A.6.1.1.2.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: d95b16c0-0980-4401-ad83-9b4e4c8f947e -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.2.2.3.3.1.5 - Hub Data Repository [Core]  <!-- UUID: d99c0146-440f-45f2-8363-fe30f270e191 -->
+###### A.6.1.1.2.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: d99c0146-440f-45f2-8363-fe30f270e191 -->
 
 The documents herein contain the Data Repository for the Primitive Hub Document.
 
-###### A.6.1.1.2.2.3.3.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 5d2ceb86-dc91-47ae-94d1-1664fb672d5a -->
+###### A.6.1.1.2.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 5d2ceb86-dc91-47ae-94d1-1664fb672d5a -->
 
 The subtrees for archived Invocations and Instances of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.2.2.3.3.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 0c01a5fa-f900-4642-9d63-32571651a5cf -->
+###### A.6.1.1.2.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 0c01a5fa-f900-4642-9d63-32571651a5cf -->
 
 The subtrees for failed Invocations of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.2.2.3.3.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: d4945245-9089-4464-ae63-2facab16a444 -->
+###### A.6.1.1.2.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: d4945245-9089-4464-ae63-2facab16a444 -->
 
 The subtrees for Instances of the Upkeep Rebate Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.3.3.2 - Active Instances [Core]  <!-- UUID: 0bc120ca-79b5-4998-a7d6-73d401e1a93c -->
+###### A.6.1.1.2.2.3.2.2 - Active Instances [Core]  <!-- UUID: 0bc120ca-79b5-4998-a7d6-73d401e1a93c -->
 
 The Instances of the Upkeep Rebate Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.3.3.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: e09238d0-83f5-4163-b3d3-613e218014fa -->
+###### A.6.1.1.2.2.3.2.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: e09238d0-83f5-4163-b3d3-613e218014fa -->
 
 The documents herein contain the Instance Configuration Document for the Single Upkeep Rebate Primitive Instance.
 
-###### A.6.1.1.2.2.3.3.2.1.1 - Parameters [Core]  <!-- UUID: 437e2df9-8afe-48cd-af5c-6271c04ce4c0 -->
+###### A.6.1.1.2.2.3.2.2.1.1 - Parameters [Core]  <!-- UUID: 437e2df9-8afe-48cd-af5c-6271c04ce4c0 -->
 
 Every Prime Agent is entitled to the Upkeep Rebate Primitive for tokens of other Prime Agents that they hold. Because this right automatically applies, there are no parameters.
 
-###### A.6.1.1.2.2.3.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 4e5243ed-13cd-4f24-abee-d3c11886d3cc -->
+###### A.6.1.1.2.2.3.2.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 4e5243ed-13cd-4f24-abee-d3c11886d3cc -->
 
 The documents herein define the process for the ongoing management of the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.2.2.3.3.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: f0f37117-6d8d-4c0f-94c9-8b0842bc1ce0 -->
+###### A.6.1.1.2.2.3.2.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: f0f37117-6d8d-4c0f-94c9-8b0842bc1ce0 -->
 
 This document defines the protocol for routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.2.2.3.3.2.1.2.1.1 - Grove Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: dca8ad49-39fe-4542-92ee-da36a1a96a31 -->
+###### A.6.1.1.2.2.3.2.2.1.2.1.1 - Grove Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: dca8ad49-39fe-4542-92ee-da36a1a96a31 -->
 
 Grove keeps all tokens of other Agents it holds in its SubProxy account.
 
-###### A.6.1.1.2.2.3.3.2.1.2.1.2 - Grove Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: de9ff4be-acd3-4d10-a66a-4f18d81d73c1 -->
+###### A.6.1.1.2.2.3.2.2.1.2.1.2 - Grove Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: de9ff4be-acd3-4d10-a66a-4f18d81d73c1 -->
 
 When paying Ecosystem Upkeep fees, Grove deducts the rebate from the fees it pays.
 
-###### A.6.1.1.2.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 75305e17-8f4b-46cc-8bb5-39fd3680a8e0 -->
+###### A.6.1.1.2.2.3.2.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 75305e17-8f4b-46cc-8bb5-39fd3680a8e0 -->
 
 Operational GovOps reviews Grove’s calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Grove Prime" category and work with Grove to resolve the disagreement. If Operational GovOps and Grove cannot resolve the disagreement, it must be escalated to Core GovOps.
 
-###### A.6.1.1.2.2.3.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: be43f527-f839-49c3-aea6-b2d592f7da6b -->
+###### A.6.1.1.2.2.3.2.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: be43f527-f839-49c3-aea6-b2d592f7da6b -->
 
 The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.2.2.3.3.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 9e2e5c70-3d46-4e82-ab1c-f7bd87427a07 -->
+###### A.6.1.1.2.2.3.2.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 9e2e5c70-3d46-4e82-ab1c-f7bd87427a07 -->
 
 The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.2.2.3.3.2.1.3 - Data Repository [Core]  <!-- UUID: bad21323-3b52-4851-85be-bdf165f0b560 -->
+###### A.6.1.1.2.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: bad21323-3b52-4851-85be-bdf165f0b560 -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.2.2.3.3.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 0003325e-7d02-41af-b61b-110aba99540c -->
+###### A.6.1.1.2.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 0003325e-7d02-41af-b61b-110aba99540c -->
 
 The materials associated with initial planning of the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.2.2.3.3.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 3753d344-3218-4171-be0e-9654f690439e -->
+###### A.6.1.1.2.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 3753d344-3218-4171-be0e-9654f690439e -->
 
 The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.2.2.3.3.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 7b87b8a2-5e30-46a3-b12b-5fe0053eafc4 -->
+###### A.6.1.1.2.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 7b87b8a2-5e30-46a3-b12b-5fe0053eafc4 -->
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.2.2.3.3.3 - Completed Instances [Core]  <!-- UUID: d659568c-ebea-462e-8d75-0fd3d848c884 -->
+###### A.6.1.1.2.2.3.2.3 - Completed Instances [Core]  <!-- UUID: d659568c-ebea-462e-8d75-0fd3d848c884 -->
 
 The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.2.2.3.3.4 - In Progress Invocations [Core]  <!-- UUID: 742884ea-1851-4c44-8cbc-cc8cc69dd8da -->
+###### A.6.1.1.2.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 742884ea-1851-4c44-8cbc-cc8cc69dd8da -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
@@ -29529,6 +29999,10 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.7 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document](dff6df5f-f8ab-4df1-be1e-f71510c3534e).
 
+###### A.6.1.1.2.2.6.1.1.2.1.7.8 - Ethereum Mainnet - Grove x Steakhouse RLUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: d6cab49c-2cfd-4f70-a101-fbdb294c16db -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.8 - Ethereum Mainnet - Grove x Steakhouse RLUSD Morpho Vault V2 Instance Configuration Document](cfb29474-ea48-4370-aad6-23af1cf4d11a).
+
 ###### A.6.1.1.2.2.6.1.1.2.1.8 - Securitize [Core]  <!-- UUID: 12a0d375-8f1e-4e62-83ba-d56bc6d3f2ab -->
 
 The Ethereum Mainnet Instances Directory of the Securitize Protocol with `Active` Status are stored herein.
@@ -29588,6 +30062,14 @@ The Ethereum Mainnet Instances Directory of the Maple Protocol with `Active` Sta
 ###### A.6.1.1.2.2.6.1.1.2.1.13.1 - Ethereum Mainnet - Maple syrupUSDC Instance Configuration Document Location [Core]  <!-- UUID: 20b30bc3-c3e8-4098-bdf2-ca288e8bee1a -->
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.13.1 - Ethereum Mainnet - Maple syrupUSDC Instance Configuration Document](7502f64c-3276-478e-8f98-53a2377ca1a2).
+
+###### A.6.1.1.2.2.6.1.1.2.1.14 - Tokenized Treasury [Core]  <!-- UUID: 53a37417-5900-4b8d-a750-339782c838cb -->
+
+The Ethereum Mainnet Tokenized Treasury Instances Directory with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.1.2.1.14.1 - Ethereum Mainnet - Tokenized Treasury JTRSY Instance Configuration Document Location [Core]  <!-- UUID: e6582be2-cb08-4788-a011-32e3509a42e5 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.14.1 - Ethereum Mainnet - Tokenized Treasury JTRSY Instance Configuration Document](5e38198e-1577-4ab0-900a-91b6d8284387).
 
 ###### A.6.1.1.2.2.6.1.1.2.2 - Avalanche [Core]  <!-- UUID: 7f10aaf2-b3e8-4dc8-b91f-ff27200a9ccf -->
 
@@ -29900,6 +30382,26 @@ The address of the ALM_PROXY contract is: `0x1DB91ad50446a671e2231f77e00948E6887
 ###### A.6.1.1.2.2.6.1.2.1.1.1.2.5.6 - ALM Rate Limits Contract [Core]  <!-- UUID: 441a9fa5-4dcc-45f5-83a7-644128c23b05 -->
 
 The address of the ALM_RATE_LIMITS contract is: `0x7f8408eBbBC3504F83eeDa52910dd75Eba92C955`
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.3 - Tokenized Treasury Contracts [Core]  <!-- UUID: fc2fdc98-db17-4c10-91c1-50d05bd5bf9b -->
+
+The documents herein define the addresses of shared Tokenized Treasury contracts used across Tokenized Treasury Instances of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.3.1 - Ethereum Mainnet [Core]  <!-- UUID: 87773690-d9bc-4772-a39e-005552df0896 -->
+
+This document contains the shared Tokenized Treasury contract addresses on Ethereum Mainnet.
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.3.1.1 - RWA Instance Contract [Core]  <!-- UUID: 11401b83-fc65-4c0a-8d57-503c1c2041ea -->
+
+The address of the RWA Instance contract will be specified in a future iteration of the Atlas.
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.3.1.2 - Tokenized Treasury USDS And USDC Rate Provider Contract [Core]  <!-- UUID: 21933aee-36b7-425f-8ad7-5ccd1c046c1a -->
+
+The address of the Chronicle Rate Provider contract pricing USDS and USDC, shared across Tokenized Treasury Instances that use USDS and USDC, is: `0xd79B9a9f5Fc240f2DCfcf260f004110B4713A7e7`.
+
+###### A.6.1.1.2.2.6.1.2.1.1.1.3.1.3 - Sky USDS And USDC PSM Wrapper Contract [Core]  <!-- UUID: 75699288-150e-45e0-8c4a-19c40e4c1e94 -->
+
+The address of the Sky USDS and USDC PSM Wrapper contract is: `0xA188EEC8F81263234dA3622A406892F3D630f98c`.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.2 - Off-chain Operational Parameters [Core]  <!-- UUID: ec6cc8a0-3811-485a-9f9a-78f388659d46 -->
 
@@ -30688,6 +31190,42 @@ The documents herein define processes for invoking (onboarding) new Grove Liquid
 ###### A.6.1.1.2.2.6.1.2.2.1.5 - Upgrading Controller [Core]  <!-- UUID: 3b49838e-423b-42b9-b3ca-2365e8e68725 -->
 
 The documents herein define the process for deploying new Controller contracts. This process will be specified in a future iteration of the Grove Artifact.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6 - Tokenized Treasury Role Hierarchy And Permissions [Core]  <!-- UUID: 92908b02-e1eb-4c14-b44e-92968cccd881 -->
+
+The documents herein define the roles and permissions on Tokenized Treasury Instances of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.1 - Tokenized Treasury Owner Role [Core]  <!-- UUID: 41a7e6fb-59e1-40e8-a05a-68c1520fb361 -->
+
+The `OWNER_ROLE` on a Tokenized Treasury Instance is authorized to set purchase and redemption fee rates within bounds established by the `MANAGER_ADMIN_ROLE`, and to grant or revoke any role in the contract. The `OWNER_ROLE` is held by an OpenZeppelin `TimelockController` operated by the credit token issuer. The Timelock address and the holders of its `PROPOSER_ROLE` are specified in each Instance Configuration Document. The holders of the Timelock's `EXECUTOR_ROLE` and `CANCELLER_ROLE` are specified in [A.6.1.1.2.2.6.1.2.2.1.6.7 - Tokenized Treasury Owner Timelock Executor Role](35e4cd97-0d88-4a47-8fbe-487c48ecc92e) and [A.6.1.1.2.2.6.1.2.2.1.6.8 - Tokenized Treasury Owner Timelock Canceller Role](0ff6a176-d3c5-45c6-a55a-5fec89d3c709).
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.2 - Tokenized Treasury Manager Admin Role [Core]  <!-- UUID: 4554fa6d-a03a-488d-a37e-a3be7b72323e -->
+
+The `MANAGER_ADMIN_ROLE` on a Tokenized Treasury Instance is authorized to configure rate providers, bounds for maximum swap size, oracle staleness, and fees, the Pocket contract, authorized redeemer contracts, and the fee claimer. The `MANAGER_ADMIN_ROLE` manages role assignments for the `MANAGER_ROLE`, `PAUSER_ROLE`, `REDEEMER_CONTRACT_ROLE`, and `REDEEMER_ROLE`. The `MANAGER_ADMIN_ROLE` is held by the Grove Proxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba` across all Tokenized Treasury Instances.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.3 - Tokenized Treasury Manager Role [Core]  <!-- UUID: 191435aa-436b-4ef9-a95a-2357a314be01 -->
+
+The `MANAGER_ROLE` on a Tokenized Treasury Instance is authorized to adjust the maximum swap size and oracle staleness threshold within bounds established by the `MANAGER_ADMIN_ROLE`. The `MANAGER_ROLE` is held by the Grove Relayer Multisig at `0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f` across all Tokenized Treasury Instances.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.4 - Tokenized Treasury Pauser Role [Core]  <!-- UUID: abdc489a-6478-4e2a-9f22-423fd71d3700 -->
+
+The `PAUSER_ROLE` on a Tokenized Treasury Instance is authorized to pause or unpause individual swap directions, credit token deposits and withdrawals, or all contract operations. The `PAUSER_ROLE` is held by the Freezer Multisig at `0xB0113804960345fd0a245788b3423319c86940e5` across all Tokenized Treasury Instances.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.5 - Tokenized Treasury Redeemer Role [Core]  <!-- UUID: fbeb1921-37eb-465b-97fa-004c8e0925b1 -->
+
+The `REDEEMER_ROLE` on a Tokenized Treasury Instance is authorized to initiate and complete the two-step redemption of credit tokens back into collateral tokens through an authorized redeemer contract. The `REDEEMER_ROLE` is controlled by the credit token issuer; the holder address is specified in each Instance Configuration Document.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.6 - Tokenized Treasury Redeemer Contract Role [Core]  <!-- UUID: 493bc01d-1c2e-4ef1-8605-1183c77a8cf2 -->
+
+The `REDEEMER_CONTRACT_ROLE` on a Tokenized Treasury Instance is granted to authorized redeemer contracts that execute the two-step redemption of credit tokens on behalf of holders of the `REDEEMER_ROLE`. `REDEEMER_CONTRACT_ROLE` holders are added and removed via the `addTokenRedeemer` and `removeTokenRedeemer` functions, which are authorized for the `MANAGER_ADMIN_ROLE`.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.7 - Tokenized Treasury Owner Timelock Executor Role [Core]  <!-- UUID: 35e4cd97-0d88-4a47-8fbe-487c48ecc92e -->
+
+The `EXECUTOR_ROLE` on the OpenZeppelin `TimelockController` holding the `OWNER_ROLE` of a Tokenized Treasury Instance is authorized to execute queued operations once the Timelock delay period has elapsed. Across Tokenized Treasury Instances, this role is held by the Grove Proxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
+
+###### A.6.1.1.2.2.6.1.2.2.1.6.8 - Tokenized Treasury Owner Timelock Canceller Role [Core]  <!-- UUID: 0ff6a176-d3c5-45c6-a55a-5fec89d3c709 -->
+
+The `CANCELLER_ROLE` on the OpenZeppelin `TimelockController` holding the `OWNER_ROLE` of a Tokenized Treasury Instance is authorized to cancel queued Timelock operations before execution. Across Tokenized Treasury Instances, this role is held by the Freezer Multisig at `0xB0113804960345fd0a245788b3423319c86940e5`.
 
 ###### A.6.1.1.2.2.6.1.2.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 7a8f34ed-ae14-4c93-94d2-9d08c4d18e82 -->
 
@@ -33302,6 +33840,97 @@ Controllers now have protections that require a `maxExchangeRate` to be set for 
 
 - `setMaxExchangeRate(SENTORA_RLUSD_MAIN_V2, 1e18, 3e18)`
 
+###### A.6.1.1.2.2.6.1.3.1.7.8 - Ethereum Mainnet - Grove x Steakhouse RLUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: cfb29474-ea48-4370-aad6-23af1cf4d11a -->
+
+The documents herein contain the Instance Configuration Document for the Grove x Steakhouse RLUSD Morpho Vault V2 Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: a1136418-1914-4543-aa3c-a77e7e8b60c7 -->
+
+`Pending`
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2 - Parameters [Core]  <!-- UUID: d4091127-bd5c-4ff6-ba9c-de7bd8553e61 -->
+
+The documents herein define the parameters of the Grove x Steakhouse RLUSD Morpho Vault V2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.1 - Instance Identifiers [Core]  <!-- UUID: 64527d65-8389-4d0c-859c-fe2da103f62d -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.1.1 - Network [Core]  <!-- UUID: 74b876ee-2891-413b-bd1f-58b2c96b4585 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.1.2 - Target Protocol [Core]  <!-- UUID: 70e811cc-0a98-454a-b555-0f88a65187f1 -->
+
+Grove x Steakhouse RLUSD Morpho Vault V2
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: b3ad456b-d6de-4ed1-8576-01366e21bd5d -->
+
+RLUSD
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.1.4 - Token [Core]  <!-- UUID: 9325e9e9-4c9d-44ac-a732-64c8353bbff7 -->
+
+grove-bbqRLUSD
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.2 - Contract Addresses [Core]  <!-- UUID: 02fa5674-392e-4d0c-8e42-2adc3692881c -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.2.1 - Token Address [Core]  <!-- UUID: 8ac9a401-96a6-4cbc-9d23-9374cb626d2b -->
+
+`0xBeEff4fD39F8e48b6a6e475445D650cb11e9599F`
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: de701477-61aa-4d32-81b7-9ab044bb2b74 -->
+
+`0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.3 - Rate Limit IDs [Core]  <!-- UUID: 41f9c281-d313-47d4-af75-8df48c9e260c -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: e868b5a4-e469-4e32-869d-2c904d31d221 -->
+
+The inflow RateLimitID is: `0xf655bc101a615fbcb591acce756dacae96cb119ff1beec548d9cc5d4558ea53a`
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 3944007b-9f6f-4c0a-a71b-dd3a1775cd94 -->
+
+The outflow RateLimitID is: `0xa6e68f8214d2fb32e0deb2888ef4644c36401d18605447843e4f936529f6a3cb`
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.4 - Rate Limits [Core]  <!-- UUID: 93fbe9e3-88b0-4160-b4cb-52b5333a0926 -->
+
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: adfeeede-027a-4b98-8636-c53975c4b7cf -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 100,000,000 RLUSD
+- `slope`: 100,000,000 RLUSD per day
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: c455e62e-79a6-478e-aa06-f35d2ab6779f -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: f298feba-925d-4f87-99d8-855fc7adffe0 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 2952337f-8152-44ca-9d3e-0363c6f2b1c9 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 8638d88f-8ac2-4deb-849e-6100eeea4b82 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
+
+###### A.6.1.1.2.2.6.1.3.1.7.8.4.1 - Max Exchange Rate [Core]  <!-- UUID: ea2bbd07-134d-459d-bb20-2dbb756766b0 -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 RLUSD:
+
+- `setMaxExchangeRate(GROVE_X_STEAKHOUSE_RLUSD_V2, 1e18, 3e18)`
+
 ###### A.6.1.1.2.2.6.1.3.1.8 - Securitize [Core]  <!-- UUID: b05d9fc2-9a93-4f3b-b0d8-b4f77bc294ce -->
 
 The Ethereum Mainnet Instances of the Securitize Protocol with `Active` Status are stored herein.
@@ -34138,6 +34767,135 @@ The documents herein contain specific off-chain parameters for this Instance.
 ###### A.6.1.1.2.2.6.1.3.1.13.1.2.5.2 - Maximum Exposure [Core]  <!-- UUID: d86392f8-071a-4167-9d44-64a8150c2b18 -->
 
 The Maximum Exposure for this Instance is 0 USD.
+
+###### A.6.1.1.2.2.6.1.3.1.14 - Tokenized Treasury [Core]  <!-- UUID: be7157cb-9469-4f59-b1a0-d22a62e97242 -->
+
+The Ethereum Mainnet Tokenized Treasury Instances with `Active` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1 - Ethereum Mainnet - Tokenized Treasury JTRSY Instance Configuration Document [Core]  <!-- UUID: 5e38198e-1577-4ab0-900a-91b6d8284387 -->
+
+The documents herein contain the Instance Configuration Document for the Tokenized Treasury JTRSY Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: fde7f4bb-0873-4d99-bef5-694a53300eae -->
+
+`Pending`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2 - Parameters [Core]  <!-- UUID: 1834c864-183a-4835-bb17-b1107e41abbb -->
+
+The documents herein define the parameters of the Tokenized Treasury JTRSY Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 3a505b8a-4ff1-40bf-aa03-ea7c4550422a -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.1.1 - Network [Core]  <!-- UUID: cdd4e8c9-b1be-4f96-9b65-d0ba9942202d -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 6f3423c8-3aba-4852-9011-09dc0d90fa3b -->
+
+Tokenized Treasury
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 3f39032c-cc00-4ea9-be78-9e02e9fc4a25 -->
+
+USDS
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.1.4 - Token [Core]  <!-- UUID: 6a11e241-9dba-423f-b9aa-31fa37c96ab3 -->
+
+JTRSY
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2 - Contract Addresses [Core]  <!-- UUID: 75e8bf90-46f3-4e53-b6b9-f8b30dd80da7 -->
+
+The documents herein define the Instance-specific contract addresses.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2.1 - Token Address [Core]  <!-- UUID: 5c346c1b-a942-4ced-9267-7087d5c718a4 -->
+
+`0x8c213ee79581Ff4984583C6a801e5263418C4b86`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2.2 - Centrifuge ERC-7540 Vault Address [Core]  <!-- UUID: c519baf9-b02c-4c07-a113-ac73738a217c -->
+
+`0xFE6920eB6C421f1179cA8c8d4170530CDBdfd77A`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2.3 - JTRSY Rate Provider Address [Core]  <!-- UUID: e13f54bc-19d3-4a0f-a846-2c3c4154a19e -->
+
+`0x7FB719Fc99A737bA15D676a09491805cD9623A8f`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2.4 - Pocket Contract Address [Core]  <!-- UUID: fd19b075-d30d-4a8e-90f0-c7ab8a2cd48b -->
+
+`0x30860b17f984D0f909B71Ab8D7b0C2e01C650479`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2.5 - Token Redeemer Contract Address [Core]  <!-- UUID: 536e4413-c923-45e8-a126-8120fd9d2c72 -->
+
+`0x471C4D7B1F38009061e7c545A08732d82Bd54B15`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2.6 - Owner Timelock Contract Address [Core]  <!-- UUID: d2069cde-3b55-487a-9b1d-919bd3f76197 -->
+
+`0xfB805f2f88e862e687bEBdF120306ef39380F3bf`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.2.7 - RWA Instance Contract Address [Core]  <!-- UUID: 7f011dc2-7624-402e-86cb-c036d1cf9afc -->
+
+`0x34B7385D87793bAc8b94d95d8eF75200787A61F7`
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 850f1210-d355-48ef-8ba9-dcc70bb90f0e -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Atlas.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.4 - Rate Limits [Core]  <!-- UUID: abc0b1fc-4922-40f1-8ea9-60fba89f0e5f -->
+
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 2e5234f6-0cae-4689-b8da-61ad99f20c31 -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 0 USDS
+- `slope`: 0 USDS per day
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: e460967c-baf1-4c39-89c8-38bb329e492e -->
+
+The outflow rate limits are:
+
+- `maxAmount`: 0 USDS
+- `slope`: 0 USDS per day
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1daedcbc-29a1-4dbd-8442-21cefec40c3a -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: a46f85c1-48be-4070-8848-74d392c3fed5 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 65ca009e-8d70-4dd5-80d3-e6e0b9beae2e -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.4.1 - Instance Configuration Parameters [Core]  <!-- UUID: 16a4b87f-156e-407f-a882-d91b15a7909b -->
+
+The configuration parameters for this Instance are as follows:
+
+- Max Swap Size: 50,000,000 USD
+- Staleness Threshold: seven (7) days
+- Fees: 0
+- Credit Token Deposits: Disabled
+- Credit Token Withdrawals: Disabled
+- Stablecoin Swaps: Disabled
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.4.2 - Issuer-Specific Role Holders [Core]  <!-- UUID: 7fbed34a-d69f-49eb-af6f-56a7522e6fda -->
+
+The documents herein define the role holders that are specific to this Instance's credit token issuer.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.4.2.1 - Owner Role Holder [Core]  <!-- UUID: 6c15b0a1-b9f1-40be-80b1-4c5565c30044 -->
+
+The `OWNER_ROLE`, as defined in [A.6.1.1.2.2.6.1.2.2.1.6.1 - Tokenized Treasury Owner Role](41a7e6fb-59e1-40e8-a05a-68c1520fb361), is held by Anemoy via an OpenZeppelin `TimelockController` at the address specified in [A.6.1.1.2.2.6.1.3.1.14.1.2.2.6 - Owner Timelock Contract Address](d2069cde-3b55-487a-9b1d-919bd3f76197).
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.4.2.1.1 - Proposer Role Holder [Core]  <!-- UUID: dee0bbce-9f64-47e3-bbb5-3eb5204be9c5 -->
+
+The `PROPOSER_ROLE` of the Owner Timelock is held by Anemoy at `0x9184DdBCc4824B76CE2AEFA72534a1a87aA5037c`.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.4.2.2 - Redeemer Role Holder [Core]  <!-- UUID: 5ffebcfd-ba9b-401b-a35d-42b4426709de -->
+
+The `REDEEMER_ROLE`, as defined in [A.6.1.1.2.2.6.1.2.2.1.6.5 - Tokenized Treasury Redeemer Role](fbeb1921-37eb-465b-97fa-004c8e0925b1), is controlled by Anemoy; the holder address will be specified in a future iteration of the Atlas.
 
 ###### A.6.1.1.2.2.6.1.3.2 - Avalanche Instances [Core]  <!-- UUID: fbb34f07-a5c8-475e-9842-fc5c9b9bd359 -->
 
@@ -35810,13 +36568,13 @@ The in progress Invocations of the Light Agent Primitive are contained herein. O
 
 The documents herein implement the Ecosystem Upkeep Primitives for Keel. See [A.2.2.6 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
-###### A.6.1.1.3.2.3.1 - Distribution Requirement Primitive [Core]  <!-- UUID: 0300c5b6-3f31-411f-b64c-707a35a55205 -->
+###### A.6.1.1.3.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: 0300c5b6-3f31-411f-b64c-707a35a55205 -->
 
-The documents herein contain all data and specifications for Keel’s Instance of the Distribution Requirement Primitive. See [A.2.2.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
+The documents herein contain all data and specifications for Keel’s Instance of the Ecosystem Upkeep Fee Primitive. See [A.2.2.6.1 - Ecosystem Upkeep Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
 ###### A.6.1.1.3.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 16c06503-ed5a-4dbc-aa30-9417ca0840ad -->
 
-The documents herein organize all base information relevant to Keel’s usage of the Distribution Requirement Primitive.
+The documents herein organize all base information relevant to Keel’s usage of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.3.2.3.1.1.1 - Global Activation Status [Core]  <!-- UUID: 067c779a-34c6-4843-96b9-17f868f062de -->
 
@@ -35824,7 +36582,7 @@ The documents herein organize all base information relevant to Keel’s usage of
 
 ###### A.6.1.1.3.2.3.1.1.2 - Active Instances Directory [Core]  <!-- UUID: 52fa55fc-0d16-4ace-a6f4-6bee82057a55 -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Active`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Active`.
 
 ###### A.6.1.1.3.2.3.1.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 94da1bd6-eafb-46ed-831f-33a764ac5fda -->
 
@@ -35832,11 +36590,11 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 ###### A.6.1.1.3.2.3.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 9b2d0fed-1be9-478a-8c07-ef80b891b8d4 -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Completed`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Completed`.
 
 ###### A.6.1.1.3.2.3.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 689500ec-52c9-4b49-90df-7e75cbfb820b -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.3.2.3.1.1.5 - Hub Data Repository [Core]  <!-- UUID: 97827d06-62bb-460d-838c-30a9140cf520 -->
 
@@ -35844,59 +36602,59 @@ The documents herein contain the Data Repository for the Primitive Hub Document.
 
 ###### A.6.1.1.3.2.3.1.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 8e6b7896-76da-470d-b3b0-c3ca34e3cd96 -->
 
-The subtrees for archived Invocations and Instances of the Distribution Requirement Primitive are stored here.
+The subtrees for archived Invocations and Instances of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.3.2.3.1.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 6e4c12a1-1318-4d56-80c0-f82a658b0416 -->
 
-The subtrees for failed Invocations of the Distribution Requirement Primitive are stored here.
+The subtrees for failed Invocations of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.3.2.3.1.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: 2787b09c-d682-4386-9cf7-12a84b7744dc -->
 
-The subtrees for Instances of the Distribution Requirement Primitive with `Suspended` Status are stored here.
+The subtrees for Instances of the Ecosystem Upkeep Fee Primitive with `Suspended` Status are stored here.
 
 ###### A.6.1.1.3.2.3.1.2 - Active Instances [Core]  <!-- UUID: c75d2427-3bfe-4e20-b33f-799f4af8e4b6 -->
 
-The Instances of the Distribution Requirement Primitive with `Active` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Active` Status are stored herein.
 
 ###### A.6.1.1.3.2.3.1.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 4037530e-66ee-4672-871f-601aef420e3f -->
 
-The documents herein contain the Instance Configuration Document for the Single Distribution Requirement Primitive Instance.
+The documents herein contain the Instance Configuration Document for the Single Ecosystem Upkeep Fee Primitive Instance.
 
 ###### A.6.1.1.3.2.3.1.2.1.1 - Parameters [Core]  <!-- UUID: d7c2fe73-d620-4953-8f25-708a3cc53111 -->
 
-The documents herein define the parameters of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.3.2.3.1.2.1.1.1 - Terms [Core]  <!-- UUID: 3ef3d779-a66e-44f3-9192-6c3a5a5ca971 -->
 
-Keel will buy back and distribute 0.25% of its total token supply per year.
+Keel will pay 0.50% of its market capitalization per year in USDS.
 
 ###### A.6.1.1.3.2.3.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: f9ff9c94-1a3d-4bc6-b2a4-40f9af76b0ac -->
 
-The documents herein define the custom parameters of the Single Instance of the Distribution Requirement Primitive, if any.
+The documents herein define the custom parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive, if any.
 
 ###### A.6.1.1.3.2.3.1.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 0461ccfd-4791-459f-b79d-c1377c0eaea9 -->
 
-The documents herein define the process for the ongoing management of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the process for the ongoing management of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.3.2.3.1.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 770597e2-1c0d-4084-878f-045f7b90933a -->
 
-This document defines the protocol for routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+This document defines the protocol for routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.3.2.3.1.2.1.2.1.1 - Process Definition For Buy Back And Distribution Obligation [Core]  <!-- UUID: f8f8cbf6-75e0-4dbb-b617-f44bc8cc9d8d -->
+###### A.6.1.1.3.2.3.1.2.1.2.1.1 - Process Definition For Upkeep Fee Payment [Core]  <!-- UUID: f8f8cbf6-75e0-4dbb-b617-f44bc8cc9d8d -->
 
-The process to buy back and distribute 0.25% of Keel’s tokens per year will be specified in future iterations of the Keel Artifact.
+The process to pay 0.50% of Keel’s market capitalization per year in USDS will be specified in future iterations of the Keel Artifact.
 
 ###### A.6.1.1.3.2.3.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 7080e7d9-2c7e-4cf8-ad5a-4e3bf65b6d10 -->
 
-The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.3.2.3.1.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: de07d443-13f5-4d86-8eea-bb218ee2b8e7 -->
 
-The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.3.2.3.1.2.1.3 - Data Repository [Core]  <!-- UUID: 1b71dd32-0f52-4f13-89ca-97d64932cd56 -->
 
-The documents herein contain data relevant to the Single Instance of the Distribution Requirement Primitive.
+The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.3.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: ea840f1f-dda7-42c5-80fe-f774657831e3 -->
 
@@ -35912,169 +36670,117 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 ###### A.6.1.1.3.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 5cbe0c56-1105-4ce8-a16a-499b409fbf6c -->
 
-The Instances of the Distribution Requirement Primitive with `Completed` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
 
 ###### A.6.1.1.3.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: ff19abdc-12c9-45cf-aa80-04ed0a7d71d4 -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.3.2.3.2 - Market Cap Fee Primitive [Core]  <!-- UUID: f87ddb13-cc78-492d-ad85-e645c93b93fc -->
+###### A.6.1.1.3.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: 354f14b7-2263-45f6-8f27-9897b25d65df -->
 
-The documents herein contain all data and specifications for Keel’s Instances of the Market Cap Fee Primitive. See [A.2.2.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
+The documents herein contain all data and specifications for Keel’s Instance of the Upkeep Rebate Primitive. See [A.2.2.6.2 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
-###### A.6.1.1.3.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 8ed7cb64-d660-4451-a999-54a6f24e0fe2 -->
-
-The documents herein organize all base information relevant to Keel’s usage of the Market Cap Fee Primitive.
-
-###### A.6.1.1.3.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 6b0c2885-919e-4c5e-8c05-9c12a5fdbcf1 -->
-
-`Inactive`
-
-###### A.6.1.1.3.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: 38fad5bf-55c5-4bc7-9393-a76744149f23 -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Active`.
-
-###### A.6.1.1.3.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 6751ae2b-a328-49e2-a02b-2e9f7e2d6a1a -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Completed`.
-
-###### A.6.1.1.3.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 27f7f243-59e6-4bcc-9c1b-6841eb68f855 -->
-
-This document contains a Directory of all prospective Instances of the Market Cap Fee Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.3.2.3.2.2 - Active Instances](b66ee6f0-f06d-439e-8a8d-74c8c8502c2c), whereas failed Invocations are Archived in [A.6.1.1.3.2.3.2.1.5 - Hub Data Repository](62ae3afe-10af-433e-a296-1a0f2c9056ea).
-
-###### A.6.1.1.3.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: 62ae3afe-10af-433e-a296-1a0f2c9056ea -->
-
-The documents herein contain the Data Repository for the Primitive Hub Document.
-
-###### A.6.1.1.3.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 20036e2c-e71f-4695-aa96-5719c9758174 -->
-
-The subtrees for archived Invocations and Instances of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.3.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: fa7606fd-f06f-4325-929a-9cbef0690648 -->
-
-The subtrees for failed Invocations of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.3.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: b0bad26d-9c04-4a3c-a8a7-377b45300d50 -->
-
-The subtrees for Instances of the Market Cap Fee Primitive with `Suspended` Status are stored here.
-
-###### A.6.1.1.3.2.3.2.2 - Active Instances [Core]  <!-- UUID: b66ee6f0-f06d-439e-8a8d-74c8c8502c2c -->
-
-The Instances of the Market Cap Fee Primitive with `Active` Status are stored herein.
-
-###### A.6.1.1.3.2.3.2.3 - Completed Instances [Core]  <!-- UUID: a7169b7f-ea7b-4724-90be-44e168e93858 -->
-
-The Instances of the Market Cap Fee Primitive with `Completed` Status are stored herein.
-
-###### A.6.1.1.3.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 4b460a66-21a1-4e95-b38a-d03994f7dc98 -->
-
-The in progress Invocations of the Market Cap Fee Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.3.2.3.2.2 - Active Instances](b66ee6f0-f06d-439e-8a8d-74c8c8502c2c).
-
-###### A.6.1.1.3.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: 354f14b7-2263-45f6-8f27-9897b25d65df -->
-
-The documents herein contain all data and specifications for Keel’s Instance of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
-
-###### A.6.1.1.3.2.3.3.1 - Primitive Hub Document [Core]  <!-- UUID: b8dba4a4-069a-466a-843c-61f676c3be7e -->
+###### A.6.1.1.3.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: b8dba4a4-069a-466a-843c-61f676c3be7e -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.3.2.3.3.1.1 - Global Activation Status [Core]  <!-- UUID: f3c3f998-4abc-4c15-95bd-905a9dcf1897 -->
+###### A.6.1.1.3.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: f3c3f998-4abc-4c15-95bd-905a9dcf1897 -->
 
 `Active`
 
-###### A.6.1.1.3.2.3.3.1.2 - Active Instances Directory [Core]  <!-- UUID: a439f8d8-dab3-4e55-8f6c-a218c069d65a -->
+###### A.6.1.1.3.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: a439f8d8-dab3-4e55-8f6c-a218c069d65a -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Active`.
 
-###### A.6.1.1.3.2.3.3.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 55f5e89c-6629-49c4-8ada-6ab8befc0467 -->
+###### A.6.1.1.3.2.3.2.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 55f5e89c-6629-49c4-8ada-6ab8befc0467 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.3.2.3.3.2.1 - Single Instance Configuration Document](b55f18e1-1a73-455f-8990-640273d8faa4).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.3.2.3.2.2.1 - Single Instance Configuration Document](b55f18e1-1a73-455f-8990-640273d8faa4).
 
-###### A.6.1.1.3.2.3.3.1.3 - Completed Instances Directory [Core]  <!-- UUID: 3293ffde-7260-42ec-9685-b06a58e821d9 -->
+###### A.6.1.1.3.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 3293ffde-7260-42ec-9685-b06a58e821d9 -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Completed`.
 
-###### A.6.1.1.3.2.3.3.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: e2022311-1bd9-4ec4-9bd9-ee901f455ac4 -->
+###### A.6.1.1.3.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: e2022311-1bd9-4ec4-9bd9-ee901f455ac4 -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.3.2.3.3.1.5 - Hub Data Repository [Core]  <!-- UUID: 4df83f84-5ebf-4495-b044-9c8d760a0236 -->
+###### A.6.1.1.3.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: 4df83f84-5ebf-4495-b044-9c8d760a0236 -->
 
 The documents herein contain the Data Repository for the Primitive Hub Document.
 
-###### A.6.1.1.3.2.3.3.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 16fc76ed-7b13-4fb7-9720-8d616c170f05 -->
+###### A.6.1.1.3.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 16fc76ed-7b13-4fb7-9720-8d616c170f05 -->
 
 The subtrees for archived Invocations and Instances of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.3.2.3.3.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 3ffb7952-1a5d-40fe-b0fe-289ca1e93bca -->
+###### A.6.1.1.3.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 3ffb7952-1a5d-40fe-b0fe-289ca1e93bca -->
 
 The subtrees for failed Invocations of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.3.2.3.3.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: f5f81875-29fd-4120-8210-32a545ab938e -->
+###### A.6.1.1.3.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: f5f81875-29fd-4120-8210-32a545ab938e -->
 
 The subtrees for Instances of the Upkeep Rebate Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.3.3.2 - Active Instances [Core]  <!-- UUID: 81a59fe8-9a9c-4cc9-ae8f-2d9d70f39196 -->
+###### A.6.1.1.3.2.3.2.2 - Active Instances [Core]  <!-- UUID: 81a59fe8-9a9c-4cc9-ae8f-2d9d70f39196 -->
 
 The Instances of the Upkeep Rebate Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.3.2.3.3.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: b55f18e1-1a73-455f-8990-640273d8faa4 -->
+###### A.6.1.1.3.2.3.2.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: b55f18e1-1a73-455f-8990-640273d8faa4 -->
 
 The documents herein contain the Instance Configuration Document for the Single Upkeep Rebate Primitive Instance.
 
-###### A.6.1.1.3.2.3.3.2.1.1 - Parameters [Core]  <!-- UUID: 0e875626-6f3b-49ae-a47f-2a7471a1da14 -->
+###### A.6.1.1.3.2.3.2.2.1.1 - Parameters [Core]  <!-- UUID: 0e875626-6f3b-49ae-a47f-2a7471a1da14 -->
 
 Every Prime Agent is entitled to the Upkeep Rebate Primitive for tokens of other Prime Agents that they hold. Because this right automatically applies, there are no parameters.
 
-###### A.6.1.1.3.2.3.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 120312e3-ee20-4dc4-bdc2-b3fdfda415e8 -->
+###### A.6.1.1.3.2.3.2.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 120312e3-ee20-4dc4-bdc2-b3fdfda415e8 -->
 
 The documents herein define the process for the ongoing management of the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.3.2.3.3.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: f9d8a156-1a7f-4c8a-bb1b-f19b8070aafc -->
+###### A.6.1.1.3.2.3.2.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: f9d8a156-1a7f-4c8a-bb1b-f19b8070aafc -->
 
 This document defines the protocol for routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.3.2.3.3.2.1.2.1.1 - Keel Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 06cd14d5-0f55-4ac0-8d9d-f9060e0fcc1b -->
+###### A.6.1.1.3.2.3.2.2.1.2.1.1 - Keel Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 06cd14d5-0f55-4ac0-8d9d-f9060e0fcc1b -->
 
 Keel keeps all tokens of other Agents it holds in its SubProxy account.
 
-###### A.6.1.1.3.2.3.3.2.1.2.1.2 - Keel Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: 20ccbfff-9058-47e5-a2d5-893d5bf783b6 -->
+###### A.6.1.1.3.2.3.2.2.1.2.1.2 - Keel Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: 20ccbfff-9058-47e5-a2d5-893d5bf783b6 -->
 
 When paying Ecosystem Upkeep fees, Keel deducts the rebate from the fees it pays.
 
-###### A.6.1.1.3.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 77ad2a49-8fa6-499b-bd26-b9fdef57fded -->
+###### A.6.1.1.3.2.3.2.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 77ad2a49-8fa6-499b-bd26-b9fdef57fded -->
 
 Operational GovOps reviews Keel’s calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Keel Prime" category and work with Keel to resolve the disagreement. If Operational GovOps and Keel cannot resolve the disagreement, it must be escalated to Core GovOps
 
-###### A.6.1.1.3.2.3.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 4fb94d9f-fc15-4823-bab7-fb35f1247bb7 -->
+###### A.6.1.1.3.2.3.2.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 4fb94d9f-fc15-4823-bab7-fb35f1247bb7 -->
 
 The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.3.2.3.3.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 86a386f4-db23-4c09-b165-a0ae6d3168c9 -->
+###### A.6.1.1.3.2.3.2.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 86a386f4-db23-4c09-b165-a0ae6d3168c9 -->
 
 The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.3.2.3.3.2.1.3 - Data Repository [Core]  <!-- UUID: 68cfcc8f-3c24-4d02-a25b-a4a93857d9ca -->
+###### A.6.1.1.3.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: 68cfcc8f-3c24-4d02-a25b-a4a93857d9ca -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.3.2.3.3.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 725ad94b-e5d5-4aad-a205-5a4508c9fe79 -->
+###### A.6.1.1.3.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 725ad94b-e5d5-4aad-a205-5a4508c9fe79 -->
 
 The materials associated with initial planning of the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.3.2.3.3.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0c0ef0b1-2d54-49f2-9ba6-c47fd5e56af1 -->
+###### A.6.1.1.3.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0c0ef0b1-2d54-49f2-9ba6-c47fd5e56af1 -->
 
 The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.3.2.3.3.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: ca265d73-1cc0-43d3-806f-dd03219c5dec -->
+###### A.6.1.1.3.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: ca265d73-1cc0-43d3-806f-dd03219c5dec -->
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.3.2.3.3.3 - Completed Instances [Core]  <!-- UUID: 92404db0-53f0-4042-8daa-2950f01807be -->
+###### A.6.1.1.3.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 92404db0-53f0-4042-8daa-2950f01807be -->
 
 The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.3.2.3.3.4 - In Progress Invocations [Core]  <!-- UUID: 21b6e826-f126-4234-9baa-3a1e8a822e99 -->
+###### A.6.1.1.3.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 21b6e826-f126-4234-9baa-3a1e8a822e99 -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
@@ -39945,13 +40651,13 @@ The in progress Invocations of the Light Agent Primitive are contained herein. O
 
 The documents herein implement the Ecosystem Upkeep Primitives for Skybase. See [A.2.2.6 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
-###### A.6.1.1.4.2.3.1 - Distribution Requirement Primitive [Core]  <!-- UUID: c6ef4a5c-d6f4-42d6-8800-6b7a40e64f50 -->
+###### A.6.1.1.4.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: c6ef4a5c-d6f4-42d6-8800-6b7a40e64f50 -->
 
-The documents herein contain all data and specifications for Skybase's Instance of the Distribution Requirement Primitive. See [A.2.2.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
+The documents herein contain all data and specifications for Skybase's Instance of the Ecosystem Upkeep Fee Primitive. See [A.2.2.6.1 - Ecosystem Upkeep Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
 ###### A.6.1.1.4.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 9beebf8b-dfd4-40b4-8de1-f5a3f4a60824 -->
 
-The documents herein organize all base information relevant to Skybase's usage of the Distribution Requirement Primitive.
+The documents herein organize all base information relevant to Skybase's usage of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.4.2.3.1.1.1 - Global Activation Status [Core]  <!-- UUID: dbb03eb2-d193-4193-93c7-1d874b9995f3 -->
 
@@ -39959,7 +40665,7 @@ The documents herein organize all base information relevant to Skybase's usage o
 
 ###### A.6.1.1.4.2.3.1.1.2 - Active Instances Directory [Core]  <!-- UUID: a5e68fe6-a420-4960-ac74-b02c01366315 -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Active`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Active`.
 
 ###### A.6.1.1.4.2.3.1.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: c0ea44a4-98d9-427c-a570-6f94574bbf94 -->
 
@@ -39967,11 +40673,11 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 ###### A.6.1.1.4.2.3.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: f2c07b3e-d18d-4443-8b73-386a2d5c370b -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Completed`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Completed`.
 
 ###### A.6.1.1.4.2.3.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: cf55b39f-204e-49b0-82fd-df87a22fd23f -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.4.2.3.1.1.5 - Hub Data Repository [Core]  <!-- UUID: cc9f3e40-bcec-49c9-a0ff-5d204c40b890 -->
 
@@ -39979,59 +40685,59 @@ The documents herein contain the Data Repository for the Primitive Hub Document.
 
 ###### A.6.1.1.4.2.3.1.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 9bd4f238-f94c-4532-8001-c80d3f74febf -->
 
-The subtrees for archived Invocations and Instances of the Distribution Requirement Primitive are stored here.
+The subtrees for archived Invocations and Instances of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.4.2.3.1.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 250cba14-19c6-4211-af5b-33f0b78cc3f8 -->
 
-The subtrees for failed Invocations of the Distribution Requirement Primitive are stored here.
+The subtrees for failed Invocations of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.4.2.3.1.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: 2118c398-b73f-401a-b71f-55d1fca06b29 -->
 
-The subtrees for Instances of the Distribution Requirement Primitive with `Suspended` Status are stored here.
+The subtrees for Instances of the Ecosystem Upkeep Fee Primitive with `Suspended` Status are stored here.
 
 ###### A.6.1.1.4.2.3.1.2 - Active Instances [Core]  <!-- UUID: 4359d5d0-a404-4004-8cff-d552338df2f0 -->
 
-The Instances of the Distribution Requirement Primitive with `Active` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Active` Status are stored herein.
 
 ###### A.6.1.1.4.2.3.1.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 2426a22f-8760-412f-bf21-e69c72787a9b -->
 
-The documents herein contain the Instance Configuration Document for the Single Distribution Requirement Primitive Instance.
+The documents herein contain the Instance Configuration Document for the Single Ecosystem Upkeep Fee Primitive Instance.
 
 ###### A.6.1.1.4.2.3.1.2.1.1 - Parameters [Core]  <!-- UUID: 734f47d3-adf3-46a0-972c-f8d37a8d009e -->
 
-The documents herein define the parameters of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.4.2.3.1.2.1.1.1 - Terms [Core]  <!-- UUID: 69b65ee6-746a-4d78-8d60-ec40ca2bb6b4 -->
 
-Skybase will buy back and distribute 0.25% of its total token supply per year.
+Skybase will pay 0.50% of its market capitalization per year in USDS.
 
 ###### A.6.1.1.4.2.3.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 61232bcd-4510-4ed1-8ede-14d744329c27 -->
 
-The documents herein define the custom parameters of the Single Instance of the Distribution Requirement Primitive, if any.
+The documents herein define the custom parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive, if any.
 
 ###### A.6.1.1.4.2.3.1.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 8c10d49d-6238-4cdb-b62e-32bb080b7b0b -->
 
-The documents herein define the process for the ongoing management of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the process for the ongoing management of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.4.2.3.1.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 6ca26507-85f1-4169-a2a2-156046847257 -->
 
-This document defines the protocol for routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+This document defines the protocol for routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.4.2.3.1.2.1.2.1.1 - Process Definition For Buy Back And Distribution Obligation [Core]  <!-- UUID: e2db4ada-d8af-4481-963b-8ed8adfbd18d -->
+###### A.6.1.1.4.2.3.1.2.1.2.1.1 - Process Definition For Upkeep Fee Payment [Core]  <!-- UUID: e2db4ada-d8af-4481-963b-8ed8adfbd18d -->
 
-The process to buy back and distribute 0.25% of Skybase's tokens per year will be specified in future iterations of the Skybase Artifact.
+The process to pay 0.50% of Skybase's market capitalization per year in USDS will be specified in future iterations of the Skybase Artifact.
 
 ###### A.6.1.1.4.2.3.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: df35e2e9-116d-4a1c-95d7-1e4b8acdd1c3 -->
 
-The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.4.2.3.1.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 85815a3a-08b9-4917-b8a5-6c87f5dcd391 -->
 
-The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.4.2.3.1.2.1.3 - Data Repository [Core]  <!-- UUID: 26c81439-ed26-4d69-bd32-cc486058fb6f -->
 
-The documents herein contain data relevant to the Single Instance of the Distribution Requirement Primitive.
+The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.4.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 1285deb9-39ff-400c-a82c-2ec2e7b4d216 -->
 
@@ -40047,169 +40753,117 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 ###### A.6.1.1.4.2.3.1.3 - Completed Instances [Core]  <!-- UUID: ce66e2db-bbb6-4f33-9b3b-cc3b913f6459 -->
 
-The Instances of the Distribution Requirement Primitive with `Completed` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
 
 ###### A.6.1.1.4.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: c67cbd36-a096-41fb-a210-8547a733a724 -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.4.2.3.2 - Market Cap Fee Primitive [Core]  <!-- UUID: 73c34ab2-f346-4c19-8bfa-c96b8c528a54 -->
+###### A.6.1.1.4.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: dec47cc6-dce7-4256-bd23-6b659ae8bc25 -->
 
-The documents herein contain all data and specifications for Skybase's instances of the Market Cap Fee Primitive. See [A.2.2.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
+The documents herein contain all data and specifications for Skybase's instance of the Upkeep Rebate Primitive. See [A.2.2.6.2 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
-###### A.6.1.1.4.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: f7130548-974b-4c23-a3f6-677cb75250bc -->
-
-The documents herein organize all base information relevant to Skybase's usage of the Market Cap Fee Primitive.
-
-###### A.6.1.1.4.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 0e6e03a7-cb5f-432e-b599-01e783b0c179 -->
-
-`Inactive`
-
-###### A.6.1.1.4.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: fe230947-a16b-4182-b55e-70c91c0921df -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Active`.
-
-###### A.6.1.1.4.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 8eb939db-8edf-4705-8c9f-6f5af367d502 -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Completed`.
-
-###### A.6.1.1.4.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: edea3177-ecd8-4724-8a52-12f59230a88c -->
-
-This document contains a Directory of all prospective Instances of the Market Cap Fee Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.4.2.3.2.1.2 - Active Instances Directory](fe230947-a16b-4182-b55e-70c91c0921df), whereas failed Invocations are Archived in [A.6.1.1.4.2.3.2.1.5 - Hub Data Repository](a12c0c41-0ab3-4374-ba6f-080ea1674372).
-
-###### A.6.1.1.4.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: a12c0c41-0ab3-4374-ba6f-080ea1674372 -->
-
-The documents herein contain the Data Repository for the Primitive Hub Document.
-
-###### A.6.1.1.4.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 960c84bc-0896-4620-8f35-75a8fc34a79d -->
-
-The subtrees for archived Invocations and Instances of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.4.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: aa55c505-f553-4fc4-b9f6-17452189a9be -->
-
-The subtrees for failed Invocations of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.4.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: 63c12925-2060-4831-add2-f9e2e7bb2dd3 -->
-
-The subtrees for Instances of the Market Cap Fee Primitive with `Suspended` Status are stored here.
-
-###### A.6.1.1.4.2.3.2.2 - Active Instances [Core]  <!-- UUID: 5d842184-835e-4c42-8135-a0604e10a900 -->
-
-The Instances of the Market Cap Fee Primitive with `Active` Status are stored herein.
-
-###### A.6.1.1.4.2.3.2.3 - Completed Instances [Core]  <!-- UUID: ae454b0c-57e4-490a-a539-8bb1def0b990 -->
-
-The Instances of the Market Cap Fee Primitive with `Completed` Status are stored herein.
-
-###### A.6.1.1.4.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: f268809f-d225-4a25-b0e4-9a45fbf376d0 -->
-
-The in progress Invocations of the Market Cap Fee Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.4.2.3.2.2 - Active Instances](5d842184-835e-4c42-8135-a0604e10a900).
-
-###### A.6.1.1.4.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: dec47cc6-dce7-4256-bd23-6b659ae8bc25 -->
-
-The documents herein contain all data and specifications for Skybase's instance of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
-
-###### A.6.1.1.4.2.3.3.1 - Primitive Hub Document [Core]  <!-- UUID: 6952060d-f1dd-4d86-b2f8-f07090174d1d -->
+###### A.6.1.1.4.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 6952060d-f1dd-4d86-b2f8-f07090174d1d -->
 
 The documents herein organize all base information relevant to Skybase's usage of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.4.2.3.3.1.1 - Global Activation Status [Core]  <!-- UUID: aec5c887-c2d2-43ee-b00e-e77716b7bb30 -->
+###### A.6.1.1.4.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: aec5c887-c2d2-43ee-b00e-e77716b7bb30 -->
 
 `Active`
 
-###### A.6.1.1.4.2.3.3.1.2 - Active Instances Directory [Core]  <!-- UUID: 89236086-3786-47bb-8b97-6a0ee5013c46 -->
+###### A.6.1.1.4.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: 89236086-3786-47bb-8b97-6a0ee5013c46 -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Active`.
 
-###### A.6.1.1.4.2.3.3.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 1fe328fd-2a73-45ea-b80a-f5ce76728ae1 -->
+###### A.6.1.1.4.2.3.2.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 1fe328fd-2a73-45ea-b80a-f5ce76728ae1 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.3.3.2.1 - Single Instance Configuration Document](f1ecc666-e14f-4828-977b-b24be78b1825).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.3.2.2.1 - Single Instance Configuration Document](f1ecc666-e14f-4828-977b-b24be78b1825).
 
-###### A.6.1.1.4.2.3.3.1.3 - Completed Instances Directory [Core]  <!-- UUID: 883dcda6-bd15-4c39-9229-b0252e9556f8 -->
+###### A.6.1.1.4.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 883dcda6-bd15-4c39-9229-b0252e9556f8 -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Completed`.
 
-###### A.6.1.1.4.2.3.3.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 16c7d73e-df4d-401a-b8c7-aa5fe7df23f2 -->
+###### A.6.1.1.4.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 16c7d73e-df4d-401a-b8c7-aa5fe7df23f2 -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.4.2.3.3.1.5 - Hub Data Repository [Core]  <!-- UUID: dd6c0fe7-480e-492c-b24b-287ebde1fdfe -->
+###### A.6.1.1.4.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: dd6c0fe7-480e-492c-b24b-287ebde1fdfe -->
 
 The documents herein contain the Data Repository for the Primitive Hub Document.
 
-###### A.6.1.1.4.2.3.3.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: d9c92153-6411-4b40-9871-615e408cf738 -->
+###### A.6.1.1.4.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: d9c92153-6411-4b40-9871-615e408cf738 -->
 
 The subtrees for archived Invocations and Instances of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.4.2.3.3.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: ceb96633-4d3f-4818-bebb-e99243b7b061 -->
+###### A.6.1.1.4.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: ceb96633-4d3f-4818-bebb-e99243b7b061 -->
 
 The subtrees for failed Invocations of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.4.2.3.3.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: 793bcfab-0f87-4c09-b4f5-0f131075604b -->
+###### A.6.1.1.4.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: 793bcfab-0f87-4c09-b4f5-0f131075604b -->
 
 The subtrees for Instances of the Upkeep Rebate Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.4.2.3.3.2 - Active Instances [Core]  <!-- UUID: 6c2bb4eb-e052-4cb8-a249-d65201b4828e -->
+###### A.6.1.1.4.2.3.2.2 - Active Instances [Core]  <!-- UUID: 6c2bb4eb-e052-4cb8-a249-d65201b4828e -->
 
 The Instances of the Upkeep Rebate Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.4.2.3.3.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: f1ecc666-e14f-4828-977b-b24be78b1825 -->
+###### A.6.1.1.4.2.3.2.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: f1ecc666-e14f-4828-977b-b24be78b1825 -->
 
 The documents herein contain the Instance Configuration Document for the Single Upkeep Rebate Primitive Instance.
 
-###### A.6.1.1.4.2.3.3.2.1.1 - Parameters [Core]  <!-- UUID: 0e8a5c2f-ef1b-4c4f-aa4a-ed1659d80663 -->
+###### A.6.1.1.4.2.3.2.2.1.1 - Parameters [Core]  <!-- UUID: 0e8a5c2f-ef1b-4c4f-aa4a-ed1659d80663 -->
 
 Every Prime Agent is entitled to the Upkeep Rebate Primitive for tokens of other Prime Agents that they hold. Because this right automatically applies, there are no parameters.
 
-###### A.6.1.1.4.2.3.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: b7be1c16-a7e1-4d22-a697-d30cd1d2bb86 -->
+###### A.6.1.1.4.2.3.2.2.1.2 - Operational Process Definition [Core]  <!-- UUID: b7be1c16-a7e1-4d22-a697-d30cd1d2bb86 -->
 
 The documents herein define the process for the ongoing management of the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.4.2.3.3.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 717bb9de-7df5-4fec-8e59-d5d7fde0ac7d -->
+###### A.6.1.1.4.2.3.2.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 717bb9de-7df5-4fec-8e59-d5d7fde0ac7d -->
 
 This document defines the protocol for routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.4.2.3.3.2.1.2.1.1 - Skybase Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 0d37e672-8a82-433c-a5c7-f88ff248cb6a -->
+###### A.6.1.1.4.2.3.2.2.1.2.1.1 - Skybase Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 0d37e672-8a82-433c-a5c7-f88ff248cb6a -->
 
 Skybase keeps all tokens of other Agents it holds in its SubProxy account.
 
-###### A.6.1.1.4.2.3.3.2.1.2.1.2 - Skybase Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: d2a0b2dd-353f-46b1-ae2c-1791ce2a0b77 -->
+###### A.6.1.1.4.2.3.2.2.1.2.1.2 - Skybase Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: d2a0b2dd-353f-46b1-ae2c-1791ce2a0b77 -->
 
 When paying Ecosystem Upkeep fees, Skybase deducts the rebate from the fees it pays.
 
-###### A.6.1.1.4.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 911e4409-146c-49e6-9f5c-5abdc58d97d3 -->
+###### A.6.1.1.4.2.3.2.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 911e4409-146c-49e6-9f5c-5abdc58d97d3 -->
 
 Operational GovOps reviews Skybase's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Skybase Prime" category and work with Skybase to resolve the disagreement. If Operational GovOps and Skybase cannot resolve the disagreement, it must be escalated to Core GovOps.
 
-###### A.6.1.1.4.2.3.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 299fa3a2-ce38-4697-b876-faaa5e5ca3a9 -->
+###### A.6.1.1.4.2.3.2.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 299fa3a2-ce38-4697-b876-faaa5e5ca3a9 -->
 
 The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.4.2.3.3.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: c9eac99e-4444-478a-a0bf-cc5139413bf0 -->
+###### A.6.1.1.4.2.3.2.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: c9eac99e-4444-478a-a0bf-cc5139413bf0 -->
 
 The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.4.2.3.3.2.1.3 - Data Repository [Core]  <!-- UUID: 2bc4f7e9-e9a2-465e-b6da-1032ce4a6f42 -->
+###### A.6.1.1.4.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: 2bc4f7e9-e9a2-465e-b6da-1032ce4a6f42 -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.4.2.3.3.2.1.3.1 - Initial Planning [Core]  <!-- UUID: a7718626-05e0-4c62-86ae-62ff9f2fc785 -->
+###### A.6.1.1.4.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: a7718626-05e0-4c62-86ae-62ff9f2fc785 -->
 
 The materials associated with initial planning of the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.4.2.3.3.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0e9c8eb9-ab4e-4240-9ea9-a2c810ea3698 -->
+###### A.6.1.1.4.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0e9c8eb9-ab4e-4240-9ea9-a2c810ea3698 -->
 
 The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.4.2.3.3.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 89f2904b-d250-4643-a84a-083b54a572e0 -->
+###### A.6.1.1.4.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 89f2904b-d250-4643-a84a-083b54a572e0 -->
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.4.2.3.3.3 - Completed Instances [Core]  <!-- UUID: aff0590c-e76d-4734-a139-ef7a67d9a619 -->
+###### A.6.1.1.4.2.3.2.3 - Completed Instances [Core]  <!-- UUID: aff0590c-e76d-4734-a139-ef7a67d9a619 -->
 
 The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.4.2.3.3.4 - In Progress Invocations [Core]  <!-- UUID: 986814bc-13cc-4e9d-b1ba-f664863ad05e -->
+###### A.6.1.1.4.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 986814bc-13cc-4e9d-b1ba-f664863ad05e -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
@@ -43166,13 +43820,13 @@ The in progress Invocations of the Light Agent Primitive are contained herein. O
 
 The documents herein implement the Ecosystem Upkeep Primitives for Obex. See [A.2.2.6 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
-###### A.6.1.1.5.2.3.1 - Distribution Requirement Primitive [Core]  <!-- UUID: 518b0729-7d39-4e94-96ae-4e1dce577b3a -->
+###### A.6.1.1.5.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: 518b0729-7d39-4e94-96ae-4e1dce577b3a -->
 
-The documents herein contain all data and specifications for Obex's Instance of the Distribution Requirement Primitive. See [A.2.2.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
+The documents herein contain all data and specifications for Obex's Instance of the Ecosystem Upkeep Fee Primitive. See [A.2.2.6.1 - Ecosystem Upkeep Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
 ###### A.6.1.1.5.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 367db765-3d90-449f-88d7-356eb2e5df6b -->
 
-The documents herein organize all base information relevant to Obex's usage of the Distribution Requirement Primitive.
+The documents herein organize all base information relevant to Obex's usage of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.5.2.3.1.1.1 - Global Activation Status [Core]  <!-- UUID: 6a8a9da7-4c67-4553-84fd-5ad743f50847 -->
 
@@ -43180,7 +43834,7 @@ The documents herein organize all base information relevant to Obex's usage of t
 
 ###### A.6.1.1.5.2.3.1.1.2 - Active Instances Directory [Core]  <!-- UUID: 590456d2-baea-411e-bd00-dccbd12387c0 -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Active`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Active`.
 
 ###### A.6.1.1.5.2.3.1.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 347ce0a4-ad9c-4a54-975b-939c932edbba -->
 
@@ -43188,11 +43842,11 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 ###### A.6.1.1.5.2.3.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 1d7ff736-dd46-4b6f-b5c1-c52e50f34846 -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Completed`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Completed`.
 
 ###### A.6.1.1.5.2.3.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 14a2006a-764a-4526-8d9f-ff3dfc4591fe -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.5.2.3.1.1.5 - Hub Data Repository [Core]  <!-- UUID: 2087141c-ab9c-404e-bba8-1a1843350bb5 -->
 
@@ -43200,59 +43854,59 @@ The documents herein contain the Data Repository for the Primitive Hub Document.
 
 ###### A.6.1.1.5.2.3.1.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 8898ed9a-e7fc-403e-a061-8399a6b132b8 -->
 
-The subtrees for archived Invocations and Instances of the Distribution Requirement Primitive are stored here.
+The subtrees for archived Invocations and Instances of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.5.2.3.1.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 2ef60c48-9590-4e1f-b00a-48cb9edbcd20 -->
 
-The subtrees for failed Invocations of the Distribution Requirement Primitive are stored here.
+The subtrees for failed Invocations of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.5.2.3.1.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: a300b6cf-1826-4b4a-b49a-b9fe4f75ccda -->
 
-The subtrees for Instances of the Distribution Requirement Primitive with `Suspended` Status are stored here.
+The subtrees for Instances of the Ecosystem Upkeep Fee Primitive with `Suspended` Status are stored here.
 
 ###### A.6.1.1.5.2.3.1.2 - Active Instances [Core]  <!-- UUID: a27eeee1-ce9a-4b26-9bef-57199b921eda -->
 
-The Instances of the Distribution Requirement Primitive with `Active` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Active` Status are stored herein.
 
 ###### A.6.1.1.5.2.3.1.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 7ef7b4b1-d8c1-4f9d-bf00-c1cf292b0c02 -->
 
-The documents herein contain the Instance Configuration Document for the Single Distribution Requirement Primitive Instance.
+The documents herein contain the Instance Configuration Document for the Single Ecosystem Upkeep Fee Primitive Instance.
 
 ###### A.6.1.1.5.2.3.1.2.1.1 - Parameters [Core]  <!-- UUID: c3c06c49-ce92-4eac-b7e9-00783b4c6902 -->
 
-The documents herein define the parameters of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.5.2.3.1.2.1.1.1 - Term [Core]  <!-- UUID: 49fe9982-412f-4da4-b81d-92786d3a7709 -->
 
-Obex will buy back and distribute 0.25% of its total token supply per year.
+Obex will pay 0.50% of its market capitalization per year in USDS.
 
 ###### A.6.1.1.5.2.3.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: d58f7727-d553-43b9-b513-d4d490abc16f -->
 
-The documents herein define the custom parameters of the Single Instance of the Distribution Requirement Primitive, if any.
+The documents herein define the custom parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive, if any.
 
 ###### A.6.1.1.5.2.3.1.2.1.2 - Operational Process Definition [Core]  <!-- UUID: dfafe9f2-4bc7-450a-b227-008d37b88249 -->
 
-The documents herein define the process for the ongoing management of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the process for the ongoing management of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.5.2.3.1.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 0fa4e4f4-a123-42d4-9353-997480ee8d14 -->
 
-This document defines the protocol for routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+This document defines the protocol for routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.5.2.3.1.2.1.2.1.1 - Process Definition For Buy Back And Distribution Obligation [Core]  <!-- UUID: ec192467-881e-4af6-9378-1fa4e36a6c18 -->
+###### A.6.1.1.5.2.3.1.2.1.2.1.1 - Process Definition For Upkeep Fee Payment [Core]  <!-- UUID: ec192467-881e-4af6-9378-1fa4e36a6c18 -->
 
-The process to buy back and distribute 0.25% of Obex's tokens per year will be specified in future iterations of the Obex Artifact.
+The process to pay 0.50% of Obex's market capitalization per year in USDS will be specified in future iterations of the Obex Artifact.
 
 ###### A.6.1.1.5.2.3.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: fc2e23dd-7ca5-4487-b7ba-283156adab6f -->
 
-The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.5.2.3.1.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: e68b9b15-fd96-4e9b-93d6-8feab64f8d7b -->
 
-The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.5.2.3.1.2.1.3 - Data Repository [Core]  <!-- UUID: 4ba98afe-bd9c-49bb-938e-1475ceddd30b -->
 
-The documents herein contain data relevant to the Single Instance of the Distribution Requirement Primitive.
+The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.5.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 1f1e7bb2-dfa7-4189-84bd-9a6759aec3e7 -->
 
@@ -43268,169 +43922,117 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 ###### A.6.1.1.5.2.3.1.3 - Completed Instances [Core]  <!-- UUID: beeba9d9-39bb-4f36-9447-9456966975eb -->
 
-The Instances of the Distribution Requirement Primitive with `Completed` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
 
 ###### A.6.1.1.5.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: 3c7049bc-3c9f-4088-94bc-0fc242dca76a -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.5.2.3.2 - Market Cap Fee Primitive [Core]  <!-- UUID: ad5238bd-b200-4f4d-9670-fae8fd1bdb6a -->
+###### A.6.1.1.5.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: 1cec73ac-6b70-48ff-a7ff-1d0f689d602f -->
 
-The documents herein contain all data and specifications for Obex's instances of the Market Cap Fee Primitive. See [A.2.2.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
+The documents herein contain all data and specifications for Obex's instance of the Upkeep Rebate Primitive. See [A.2.2.6.2 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
-###### A.6.1.1.5.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: fba527ac-64a7-4f7e-8bf2-411f87d3d9b4 -->
-
-The documents herein organize all base information relevant to Obex's usage of the Market Cap Fee Primitive.
-
-###### A.6.1.1.5.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 11fbb511-f13f-4390-a843-7a436f6438cf -->
-
-`Inactive`
-
-###### A.6.1.1.5.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: 6548ed03-6cf2-482e-ab15-0d39f5c2f767 -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Active`.
-
-###### A.6.1.1.5.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: a3b9358d-d4eb-45ba-8ef2-bd8fc7280ccc -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Completed`.
-
-###### A.6.1.1.5.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 1778b3fa-c238-4094-9143-e949a28532fc -->
-
-This document contains a Directory of all prospective Instances of the Market Cap Fee Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.5.2.3.2.1.2 - Active Instances Directory](6548ed03-6cf2-482e-ab15-0d39f5c2f767), whereas failed Invocations are Archived in [A.6.1.1.5.2.3.2.1.5 - Hub Data Repository](79d81288-94aa-44e9-85d2-2f5108b5d789).
-
-###### A.6.1.1.5.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: 79d81288-94aa-44e9-85d2-2f5108b5d789 -->
-
-The documents herein contain the Data Repository for the Primitive Hub Document.
-
-###### A.6.1.1.5.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: e21337b9-f950-467c-9ee0-7a87b20b5aa4 -->
-
-The subtrees for archived Invocations and Instances of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.5.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 0e499891-704b-46c8-8f0b-9fa05b9a6fe4 -->
-
-The subtrees for failed Invocations of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.5.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: 89f2d35e-d04b-47cc-8f75-cba401195668 -->
-
-The subtrees for Instances of the Market Cap Fee Primitive with `Suspended` Status are stored here.
-
-###### A.6.1.1.5.2.3.2.2 - Active Instances [Core]  <!-- UUID: 4cf784c4-9a59-4b24-88bc-d10b5991cdf4 -->
-
-The Instances of the Market Cap Fee Primitive with `Active` Status are stored herein.
-
-###### A.6.1.1.5.2.3.2.3 - Completed Instances [Core]  <!-- UUID: f8a814a0-8c61-4aee-af6d-919e6aa5aa1e -->
-
-The Instances of the Market Cap Fee Primitive with `Completed` Status are stored herein.
-
-###### A.6.1.1.5.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 3bad0aba-a4be-4107-809c-b41d364d5278 -->
-
-The in progress Invocations of the Market Cap Fee Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.5.2.3.2.2 - Active Instances](4cf784c4-9a59-4b24-88bc-d10b5991cdf4).
-
-###### A.6.1.1.5.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: 1cec73ac-6b70-48ff-a7ff-1d0f689d602f -->
-
-The documents herein contain all data and specifications for Obex's instance of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
-
-###### A.6.1.1.5.2.3.3.1 - Primitive Hub Document [Core]  <!-- UUID: 36f57327-abff-4ac1-890b-c5097c449b02 -->
+###### A.6.1.1.5.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 36f57327-abff-4ac1-890b-c5097c449b02 -->
 
 The documents herein organize all base information relevant to Obex's usage of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.5.2.3.3.1.1 - Global Activation Status [Core]  <!-- UUID: 28f93080-7f1f-45f1-a9c6-a78cea11cbbd -->
+###### A.6.1.1.5.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 28f93080-7f1f-45f1-a9c6-a78cea11cbbd -->
 
 `Active`
 
-###### A.6.1.1.5.2.3.3.1.2 - Active Instances Directory [Core]  <!-- UUID: 47f2fe76-ba5f-437e-8110-799c1e3fe7f5 -->
+###### A.6.1.1.5.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: 47f2fe76-ba5f-437e-8110-799c1e3fe7f5 -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Active`.
 
-###### A.6.1.1.5.2.3.3.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 4800d116-8fa3-40b4-ac3b-dce8629d2984 -->
+###### A.6.1.1.5.2.3.2.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 4800d116-8fa3-40b4-ac3b-dce8629d2984 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.5.2.3.3.2.1 - Single Instance Configuration Document](8a327b83-b508-480b-8e97-038c6e35c64f).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.5.2.3.2.2.1 - Single Instance Configuration Document](8a327b83-b508-480b-8e97-038c6e35c64f).
 
-###### A.6.1.1.5.2.3.3.1.3 - Completed Instances Directory [Core]  <!-- UUID: 41b96ba1-f506-498a-803f-d4067053b6ed -->
+###### A.6.1.1.5.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 41b96ba1-f506-498a-803f-d4067053b6ed -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Completed`.
 
-###### A.6.1.1.5.2.3.3.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 8850b00e-dd0a-44d7-b64a-7e4ef5cf7d37 -->
+###### A.6.1.1.5.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 8850b00e-dd0a-44d7-b64a-7e4ef5cf7d37 -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.5.2.3.3.1.5 - Hub Data Repository [Core]  <!-- UUID: 0daa3c8b-dbce-4c8c-bfd6-30a3d5ae7486 -->
+###### A.6.1.1.5.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: 0daa3c8b-dbce-4c8c-bfd6-30a3d5ae7486 -->
 
 The documents herein contain the Data Repository for the Primitive Hub Document.
 
-###### A.6.1.1.5.2.3.3.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: a8cd1289-22f9-4e01-878b-01a7b0e90a80 -->
+###### A.6.1.1.5.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: a8cd1289-22f9-4e01-878b-01a7b0e90a80 -->
 
 The subtrees for archived Invocations and Instances of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.5.2.3.3.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 49d6d2d2-1052-44d5-a9a9-0935d26f99ff -->
+###### A.6.1.1.5.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 49d6d2d2-1052-44d5-a9a9-0935d26f99ff -->
 
 The subtrees for failed Invocations of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.5.2.3.3.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: 28085731-4ac7-4016-807c-652fe1447bb8 -->
+###### A.6.1.1.5.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: 28085731-4ac7-4016-807c-652fe1447bb8 -->
 
 The subtrees for Instances of the Upkeep Rebate Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.3.3.2 - Active Instances [Core]  <!-- UUID: c4e5deff-2cf9-492c-af8c-cfbd33327686 -->
+###### A.6.1.1.5.2.3.2.2 - Active Instances [Core]  <!-- UUID: c4e5deff-2cf9-492c-af8c-cfbd33327686 -->
 
 The Instances of the Upkeep Rebate Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.5.2.3.3.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 8a327b83-b508-480b-8e97-038c6e35c64f -->
+###### A.6.1.1.5.2.3.2.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 8a327b83-b508-480b-8e97-038c6e35c64f -->
 
 The documents herein contain the Instance Configuration Document for the Single Upkeep Rebate Primitive Instance.
 
-###### A.6.1.1.5.2.3.3.2.1.1 - Parameters [Core]  <!-- UUID: 439a27ef-945c-43dc-ab3b-836e5ab6372b -->
+###### A.6.1.1.5.2.3.2.2.1.1 - Parameters [Core]  <!-- UUID: 439a27ef-945c-43dc-ab3b-836e5ab6372b -->
 
 Every Prime Agent is entitled to the Upkeep Rebate Primitive for tokens of other Prime Agents that they hold. Because this right automatically applies, there are no parameters.
 
-###### A.6.1.1.5.2.3.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 1d3eb5ff-4a71-4eff-a1f0-935f434644c1 -->
+###### A.6.1.1.5.2.3.2.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 1d3eb5ff-4a71-4eff-a1f0-935f434644c1 -->
 
 The documents herein define the process for the ongoing management of the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.5.2.3.3.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 144cfca6-e760-4f34-8ba3-effb1a1b9681 -->
+###### A.6.1.1.5.2.3.2.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 144cfca6-e760-4f34-8ba3-effb1a1b9681 -->
 
 This document defines the protocol for routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.5.2.3.3.2.1.2.1.1 - Obex Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 93599af2-bf73-4598-8b78-dfb74549f90d -->
+###### A.6.1.1.5.2.3.2.2.1.2.1.1 - Obex Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 93599af2-bf73-4598-8b78-dfb74549f90d -->
 
 Obex keeps all tokens of other Agents it holds in its SubProxy account.
 
-###### A.6.1.1.5.2.3.3.2.1.2.1.2 - Obex Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: eb954d3d-94d9-46d8-a118-a74e0d9da8c0 -->
+###### A.6.1.1.5.2.3.2.2.1.2.1.2 - Obex Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: eb954d3d-94d9-46d8-a118-a74e0d9da8c0 -->
 
 When paying Ecosystem Upkeep fees, Obex deducts the rebate from the fees it pays.
 
-###### A.6.1.1.5.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: a8afed5e-3721-40a3-847c-3589a5dfce95 -->
+###### A.6.1.1.5.2.3.2.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: a8afed5e-3721-40a3-847c-3589a5dfce95 -->
 
 Operational GovOps reviews Obex's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Obex Prime" category and work with Obex to resolve the disagreement. If Operational GovOps and Obex cannot resolve the disagreement, it must be escalated to Core GovOps.
 
-###### A.6.1.1.5.2.3.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 025b8abf-69a3-4749-95f3-60a7268983ff -->
+###### A.6.1.1.5.2.3.2.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 025b8abf-69a3-4749-95f3-60a7268983ff -->
 
 The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.5.2.3.3.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: e68e712a-cf58-45c0-8065-f81a5f259b18 -->
+###### A.6.1.1.5.2.3.2.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: e68e712a-cf58-45c0-8065-f81a5f259b18 -->
 
 The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.5.2.3.3.2.1.3 - Data Repository [Core]  <!-- UUID: dd6c0d05-79f9-4663-85bb-916d12a29ce1 -->
+###### A.6.1.1.5.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: dd6c0d05-79f9-4663-85bb-916d12a29ce1 -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.5.2.3.3.2.1.3.1 - Initial Planning [Core]  <!-- UUID: df002eaa-d6d5-4b27-9ccb-26193cc65ec5 -->
+###### A.6.1.1.5.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: df002eaa-d6d5-4b27-9ccb-26193cc65ec5 -->
 
 The materials associated with initial planning of the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.5.2.3.3.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 5bf870c7-57bc-40f8-82d4-f6094b484a5b -->
+###### A.6.1.1.5.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 5bf870c7-57bc-40f8-82d4-f6094b484a5b -->
 
 The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.5.2.3.3.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: d94ae414-18e8-432b-9f17-f58e8cc0cce3 -->
+###### A.6.1.1.5.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: d94ae414-18e8-432b-9f17-f58e8cc0cce3 -->
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.5.2.3.3.3 - Completed Instances [Core]  <!-- UUID: 0723c247-7b2d-48aa-a1f1-1166aad05319 -->
+###### A.6.1.1.5.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 0723c247-7b2d-48aa-a1f1-1166aad05319 -->
 
 The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.5.2.3.3.4 - In Progress Invocations [Core]  <!-- UUID: 4e8268eb-b8f4-4d45-bf11-a6c03f262275 -->
+###### A.6.1.1.5.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 4e8268eb-b8f4-4d45-bf11-a6c03f262275 -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
@@ -45501,13 +46103,13 @@ The in progress Invocations of the Light Agent Primitive are contained herein. O
 
 The documents herein implement the Ecosystem Upkeep Primitives for Pattern. See [A.2.2.6 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
-###### A.6.1.1.6.2.3.1 - Distribution Requirement Primitive [Core]  <!-- UUID: 0d6ea791-8496-4fe5-8430-b636482ed967 -->
+###### A.6.1.1.6.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: 0d6ea791-8496-4fe5-8430-b636482ed967 -->
 
-The documents herein contain all data and specifications for Pattern's Instance of the Distribution Requirement Primitive. See [A.2.2.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
+The documents herein contain all data and specifications for Pattern's Instance of the Ecosystem Upkeep Fee Primitive. See [A.2.2.6.1 - Ecosystem Upkeep Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
 ###### A.6.1.1.6.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 494d6e55-e1c1-4d0f-a51d-8f87d2a95ad5 -->
 
-The documents herein organize all base information relevant to Pattern's usage of the Distribution Requirement Primitive.
+The documents herein organize all base information relevant to Pattern's usage of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.6.2.3.1.1.1 - Global Activation Status [Core]  <!-- UUID: 280c32bc-e40e-4187-be61-0f2fd26ab167 -->
 
@@ -45515,7 +46117,7 @@ The documents herein organize all base information relevant to Pattern's usage o
 
 ###### A.6.1.1.6.2.3.1.1.2 - Active Instances Directory [Core]  <!-- UUID: 09267410-31c0-42be-a8d2-dfb0768b72b0 -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Active`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Active`.
 
 ###### A.6.1.1.6.2.3.1.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: b23ab610-19e1-44a7-b23a-2b44c2d18720 -->
 
@@ -45523,11 +46125,11 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 ###### A.6.1.1.6.2.3.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: e7a3cf2c-258e-4709-8a0c-db71bccc487f -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Completed`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Completed`.
 
 ###### A.6.1.1.6.2.3.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: c58a4af2-fdf4-4b79-8720-5836734d028a -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.6.2.3.1.1.5 - Hub Data Repository [Core]  <!-- UUID: 033c7842-34e2-4043-b7fa-238c52e21709 -->
 
@@ -45535,59 +46137,59 @@ The documents herein contain the Data Repository for the Primitive Hub Document.
 
 ###### A.6.1.1.6.2.3.1.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: f33304eb-bd49-4f6b-ad0f-6bd869f51c81 -->
 
-The subtrees for archived Invocations and Instances of the Distribution Requirement Primitive are stored here.
+The subtrees for archived Invocations and Instances of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.6.2.3.1.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 15afa4dd-86cb-4080-8c57-7c0e9083871d -->
 
-The subtrees for failed Invocations of the Distribution Requirement Primitive are stored here.
+The subtrees for failed Invocations of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.6.2.3.1.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: 21ab98ce-6e98-43e1-907b-f9851d19114e -->
 
-The subtrees for Instances of the Distribution Requirement Primitive with `Suspended` Status are stored here.
+The subtrees for Instances of the Ecosystem Upkeep Fee Primitive with `Suspended` Status are stored here.
 
 ###### A.6.1.1.6.2.3.1.2 - Active Instances [Core]  <!-- UUID: dc3af461-324a-44d3-8971-6ed3ed93d34b -->
 
-The Instances of the Distribution Requirement Primitive with `Active` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Active` Status are stored herein.
 
 ###### A.6.1.1.6.2.3.1.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: d8b7f338-3318-462c-a65d-4e49a29398b2 -->
 
-The documents herein contain the Instance Configuration Document for the Single Distribution Requirement Primitive Instance.
+The documents herein contain the Instance Configuration Document for the Single Ecosystem Upkeep Fee Primitive Instance.
 
 ###### A.6.1.1.6.2.3.1.2.1.1 - Parameters [Core]  <!-- UUID: 27bfc7f9-d9da-42bc-8fde-7c3aacb0b2c7 -->
 
-The documents herein define the parameters of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.6.2.3.1.2.1.1.1 - Terms [Core]  <!-- UUID: 14a3b7fc-37f3-4407-a59b-061df4b7fc73 -->
 
-Pattern will buy back and distribute 0.25% of its total token supply per year.
+Pattern will pay 0.50% of its market capitalization per year in USDS.
 
 ###### A.6.1.1.6.2.3.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 5147797a-7219-4f30-ab4e-38b6306bcc3b -->
 
-The documents herein define the custom parameters of the Single Instance of the Distribution Requirement Primitive, if any.
+The documents herein define the custom parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive, if any.
 
 ###### A.6.1.1.6.2.3.1.2.1.2 - Operational Process Definition [Core]  <!-- UUID: a1718608-c793-4521-a2ae-df2a685f2070 -->
 
-The documents herein define the process for the ongoing management of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the process for the ongoing management of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.6.2.3.1.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 46b382ec-7179-44ce-b07c-f53a33b8bf23 -->
 
-This document defines the protocol for routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+This document defines the protocol for routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.6.2.3.1.2.1.2.1.1 - Process Definition For Buy Back And Distribution Obligation [Core]  <!-- UUID: 8d0b0487-8d3d-4663-8096-04b32c52b073 -->
+###### A.6.1.1.6.2.3.1.2.1.2.1.1 - Process Definition For Upkeep Fee Payment [Core]  <!-- UUID: 8d0b0487-8d3d-4663-8096-04b32c52b073 -->
 
-The process to buy back and distribute 0.25% of Pattern's tokens per year will be specified in future iterations of the Pattern Artifact.
+The process to pay 0.50% of Pattern's market capitalization per year in USDS will be specified in future iterations of the Pattern Artifact.
 
 ###### A.6.1.1.6.2.3.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 8508d44e-41ca-41ed-a491-3d5135ce490a -->
 
-The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.6.2.3.1.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 3564cdbb-e173-413c-b21d-1fa25259470e -->
 
-The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.6.2.3.1.2.1.3 - Data Repository [Core]  <!-- UUID: 899424bc-a0b7-4766-aa19-2b17e6b37991 -->
 
-The documents herein contain data relevant to the Single Instance of the Distribution Requirement Primitive.
+The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.6.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 87094d8d-a42a-4665-8215-615124a8e123 -->
 
@@ -45603,169 +46205,117 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 ###### A.6.1.1.6.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 88e57951-b13f-4c14-8af1-c0b6f757df42 -->
 
-The Instances of the Distribution Requirement Primitive with `Completed` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
 
 ###### A.6.1.1.6.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: 7493f2d6-1910-43fd-b7db-40f435529fe3 -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.6.2.3.2 - Market Cap Fee Primitive [Core]  <!-- UUID: d126b86c-add7-4b56-a690-0220a98ebb5f -->
+###### A.6.1.1.6.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: 33b2f3db-d757-472e-be6e-c03b376f4ec3 -->
 
-The documents herein contain all data and specifications for Pattern's instances of the Market Cap Fee Primitive. See [A.2.2.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
+The documents herein contain all data and specifications for Pattern's instances of the Upkeep Rebate Primitive. See [A.2.2.6.2 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
-###### A.6.1.1.6.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 1cfae713-bf09-4292-afd1-94df97aa3c44 -->
-
-The documents herein organize all base information relevant to Pattern's usage of the Market Cap Fee Primitive.
-
-###### A.6.1.1.6.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 104adf5f-89fa-4a87-ace1-08117f720f29 -->
-
-`Inactive`
-
-###### A.6.1.1.6.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: 89506029-ceca-46b8-9be2-1ecef5996573 -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Active`.
-
-###### A.6.1.1.6.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 3acf6ae5-fe8f-4d0a-9837-81628f6215a0 -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Completed`.
-
-###### A.6.1.1.6.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 0e1e98a4-77a2-4429-ad09-31b38e4a76c6 -->
-
-This document contains a Directory of all prospective Instances of the Market Cap Fee Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.6.2.3.2.1.2 - Active Instances Directory](89506029-ceca-46b8-9be2-1ecef5996573), whereas failed Invocations are Archived in [A.6.1.1.6.2.3.2.1.5 - Hub Data Repository](4311c910-72a4-495c-9c96-50e37e0ef8d5).
-
-###### A.6.1.1.6.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: 4311c910-72a4-495c-9c96-50e37e0ef8d5 -->
-
-The documents herein contain the Data Repository for the Primitive Hub Document.
-
-###### A.6.1.1.6.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 2cbfa55d-08d9-4a58-a5de-2316d917b338 -->
-
-The subtrees for archived Invocations and Instances of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.6.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 1f2e2451-4f4a-4b26-8c56-0cc7e9dbd71d -->
-
-The subtrees for failed Invocations of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.6.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: 389f089f-8538-4f77-bac4-2f918cb71ef7 -->
-
-The subtrees for Instances of the Market Cap Fee Primitive with `Suspended` Status are stored here.
-
-###### A.6.1.1.6.2.3.2.2 - Active Instances [Core]  <!-- UUID: 41bd6957-da44-40b4-a84f-ad0f4b4600bf -->
-
-The Instances of the Market Cap Fee Primitive with `Active` Status are stored herein.
-
-###### A.6.1.1.6.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 70c684bd-5e6b-40c1-8d52-d92eebba52d5 -->
-
-The Instances of the Market Cap Fee Primitive with `Completed` Status are stored herein.
-
-###### A.6.1.1.6.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 3313add8-fe3f-4e73-b8b0-ee2eeb4d33e2 -->
-
-The in progress Invocations of the Market Cap Fee Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.6.2.3.2.2 - Active Instances](41bd6957-da44-40b4-a84f-ad0f4b4600bf).
-
-###### A.6.1.1.6.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: 33b2f3db-d757-472e-be6e-c03b376f4ec3 -->
-
-The documents herein contain all data and specifications for Pattern's instances of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
-
-###### A.6.1.1.6.2.3.3.1 - Primitive Hub Document [Core]  <!-- UUID: c1ba86c9-f638-4ebe-9346-e22377841c2c -->
+###### A.6.1.1.6.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: c1ba86c9-f638-4ebe-9346-e22377841c2c -->
 
 The documents herein organize all base information relevant to Pattern's usage of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.6.2.3.3.1.1 - Global Activation Status [Core]  <!-- UUID: 91965eb0-adbe-44fb-90eb-b4b898579c02 -->
+###### A.6.1.1.6.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 91965eb0-adbe-44fb-90eb-b4b898579c02 -->
 
 `Active`
 
-###### A.6.1.1.6.2.3.3.1.2 - Active Instances Directory [Core]  <!-- UUID: c3368a88-6bd8-4111-8e9a-e22d9afe1bfe -->
+###### A.6.1.1.6.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: c3368a88-6bd8-4111-8e9a-e22d9afe1bfe -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Active`.
 
-###### A.6.1.1.6.2.3.3.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 04802fe1-3d1b-4499-8006-22048d3e8b6c -->
+###### A.6.1.1.6.2.3.2.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 04802fe1-3d1b-4499-8006-22048d3e8b6c -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.6.2.3.3.2.1 - Single Instance Configuration Document](77bd8e6f-aad2-4830-8822-1abc3281bfa8).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.6.2.3.2.2.1 - Single Instance Configuration Document](77bd8e6f-aad2-4830-8822-1abc3281bfa8).
 
-###### A.6.1.1.6.2.3.3.1.3 - Completed Instances Directory [Core]  <!-- UUID: 85c523fe-a6be-4695-ac8c-1d584f285324 -->
+###### A.6.1.1.6.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 85c523fe-a6be-4695-ac8c-1d584f285324 -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Completed`.
 
-###### A.6.1.1.6.2.3.3.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 9da85689-3fae-4814-8e7e-3c817f1c09f8 -->
+###### A.6.1.1.6.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 9da85689-3fae-4814-8e7e-3c817f1c09f8 -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.6.2.3.3.1.5 - Hub Data Repository [Core]  <!-- UUID: d3c8ecd1-8a0f-4ffe-a181-3906b7daae8d -->
+###### A.6.1.1.6.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: d3c8ecd1-8a0f-4ffe-a181-3906b7daae8d -->
 
 The documents herein contain the Data Repository for the Primitive Hub Document.
 
-###### A.6.1.1.6.2.3.3.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: f58354db-e99a-426a-a5b6-0517e65d0cf3 -->
+###### A.6.1.1.6.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: f58354db-e99a-426a-a5b6-0517e65d0cf3 -->
 
 The subtrees for archived Invocations and Instances of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.6.2.3.3.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: b00aa59c-d001-4043-ac29-6f4ea207183e -->
+###### A.6.1.1.6.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: b00aa59c-d001-4043-ac29-6f4ea207183e -->
 
 The subtrees for failed Invocations of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.6.2.3.3.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: 17d4ef14-d08a-4c23-b4b6-629adf08ef80 -->
+###### A.6.1.1.6.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: 17d4ef14-d08a-4c23-b4b6-629adf08ef80 -->
 
 The subtrees for Instances of the Upkeep Rebate Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.6.2.3.3.2 - Active Instances [Core]  <!-- UUID: 805a832a-10ef-49d8-b1de-9e5d28f29f95 -->
+###### A.6.1.1.6.2.3.2.2 - Active Instances [Core]  <!-- UUID: 805a832a-10ef-49d8-b1de-9e5d28f29f95 -->
 
 The Instances of the Upkeep Rebate Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.6.2.3.3.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 77bd8e6f-aad2-4830-8822-1abc3281bfa8 -->
+###### A.6.1.1.6.2.3.2.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 77bd8e6f-aad2-4830-8822-1abc3281bfa8 -->
 
 The documents herein contain the Instance Configuration Document for the Single Upkeep Rebate Primitive Instance.
 
-###### A.6.1.1.6.2.3.3.2.1.1 - Parameters [Core]  <!-- UUID: 8ecbe4ce-28f0-48d0-844f-7d236c242264 -->
+###### A.6.1.1.6.2.3.2.2.1.1 - Parameters [Core]  <!-- UUID: 8ecbe4ce-28f0-48d0-844f-7d236c242264 -->
 
 Every Prime Agent is entitled to the Upkeep Rebate Primitive for tokens of other Prime Agents that they hold. Because this right automatically applies, there are no parameters.
 
-###### A.6.1.1.6.2.3.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 79728f8b-64c3-49d1-9477-990073c87c94 -->
+###### A.6.1.1.6.2.3.2.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 79728f8b-64c3-49d1-9477-990073c87c94 -->
 
 The documents herein define the process for the ongoing management of the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.6.2.3.3.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 377b7042-5cee-4baf-a77f-39acd0f99854 -->
+###### A.6.1.1.6.2.3.2.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 377b7042-5cee-4baf-a77f-39acd0f99854 -->
 
 This document defines the protocol for routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.6.2.3.3.2.1.2.1.1 - Pattern Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 106faf37-f072-4cac-aa1d-50982c04acea -->
+###### A.6.1.1.6.2.3.2.2.1.2.1.1 - Pattern Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 106faf37-f072-4cac-aa1d-50982c04acea -->
 
 Pattern keeps all tokens of other Agents it holds in its SubProxy account.
 
-###### A.6.1.1.6.2.3.3.2.1.2.1.2 - Pattern Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: 5abf2834-3f70-4ca9-9bf8-14df17e1f1bd -->
+###### A.6.1.1.6.2.3.2.2.1.2.1.2 - Pattern Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: 5abf2834-3f70-4ca9-9bf8-14df17e1f1bd -->
 
 When paying Ecosystem Upkeep fees, Pattern deducts the rebate from the fees it pays.
 
-###### A.6.1.1.6.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 3e913724-ce5a-41a5-b9db-27ba25c35c06 -->
+###### A.6.1.1.6.2.3.2.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 3e913724-ce5a-41a5-b9db-27ba25c35c06 -->
 
 Operational GovOps reviews Pattern's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Pattern Prime" category and work with Pattern to resolve the disagreement. If Operational GovOps and Pattern cannot resolve the disagreement, it must be escalated to Core GovOps.
 
-###### A.6.1.1.6.2.3.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: e5897490-739e-4778-9eb3-15a57309bf7b -->
+###### A.6.1.1.6.2.3.2.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: e5897490-739e-4778-9eb3-15a57309bf7b -->
 
 The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.6.2.3.3.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: a506aba7-1c37-46eb-954c-bb99b83d59c6 -->
+###### A.6.1.1.6.2.3.2.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: a506aba7-1c37-46eb-954c-bb99b83d59c6 -->
 
 The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.6.2.3.3.2.1.3 - Data Repository [Core]  <!-- UUID: c1002f65-de06-45e0-ab0b-99d44279ffb3 -->
+###### A.6.1.1.6.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: c1002f65-de06-45e0-ab0b-99d44279ffb3 -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.6.2.3.3.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 136d9a42-5b8f-4e7c-835a-bbcdff8e3d9a -->
+###### A.6.1.1.6.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 136d9a42-5b8f-4e7c-835a-bbcdff8e3d9a -->
 
 The materials associated with initial planning of the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.6.2.3.3.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: e432bb7e-0054-4306-a573-494655454d35 -->
+###### A.6.1.1.6.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: e432bb7e-0054-4306-a573-494655454d35 -->
 
 The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.6.2.3.3.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 1e486b02-fcb5-4c95-b832-153f592b5f13 -->
+###### A.6.1.1.6.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 1e486b02-fcb5-4c95-b832-153f592b5f13 -->
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.6.2.3.3.3 - Completed Instances [Core]  <!-- UUID: 3aa8f9e7-67ca-4411-9938-d3e7472f3cfe -->
+###### A.6.1.1.6.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 3aa8f9e7-67ca-4411-9938-d3e7472f3cfe -->
 
 The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.6.2.3.3.4 - In Progress Invocations [Core]  <!-- UUID: 31495a53-3a81-466f-bb02-ac7ba4180851 -->
+###### A.6.1.1.6.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 31495a53-3a81-466f-bb02-ac7ba4180851 -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
@@ -47751,13 +48301,13 @@ The in progress Invocations of the Light Agent Primitive are contained herein. O
 
 The documents herein implement the Ecosystem Upkeep Primitives for Launch Agent 6. See [A.2.2.6 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
-###### A.6.1.1.7.2.3.1 - Distribution Requirement Primitive [Core]  <!-- UUID: e30013e8-4d99-40fa-9708-ede560312786 -->
+###### A.6.1.1.7.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: e30013e8-4d99-40fa-9708-ede560312786 -->
 
-The documents herein contain all data and specifications for Launch Agent 6's Instance of the Distribution Requirement Primitive. See [A.2.2.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
+The documents herein contain all data and specifications for Launch Agent 6's Instance of the Ecosystem Upkeep Fee Primitive. See [A.2.2.6.1 - Ecosystem Upkeep Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
 ###### A.6.1.1.7.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 1a65a542-00ef-4bb6-85ec-67c7b3127f43 -->
 
-The documents herein organize all base information relevant to Launch Agent 6's usage of the Distribution Requirement Primitive.
+The documents herein organize all base information relevant to Launch Agent 6's usage of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.7.2.3.1.1.1 - Global Activation Status [Core]  <!-- UUID: b2ddd73c-530b-4dcc-b821-371a4bb49eda -->
 
@@ -47765,7 +48315,7 @@ The documents herein organize all base information relevant to Launch Agent 6's 
 
 ###### A.6.1.1.7.2.3.1.1.2 - Active Instances Directory [Core]  <!-- UUID: a254f828-3f7c-4810-b084-13ded96a3727 -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Active`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Active`.
 
 ###### A.6.1.1.7.2.3.1.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 31065251-c40d-4298-9d8a-d9b4ef0d23f7 -->
 
@@ -47773,11 +48323,11 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 ###### A.6.1.1.7.2.3.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: bade3eef-dde0-4103-814c-17b428fb7a68 -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Completed`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Completed`.
 
 ###### A.6.1.1.7.2.3.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 7efb6642-5543-4a7a-9d4a-3dcf4b9f8a50 -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.7.2.3.1.1.5 - Hub Data Repository [Core]  <!-- UUID: a978e8ea-067b-45f7-915a-2189a47fb035 -->
 
@@ -47785,59 +48335,59 @@ The documents herein contain the Data Repository for the Primitive Hub Document.
 
 ###### A.6.1.1.7.2.3.1.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 1fe40ee6-efd4-4cdb-a5ab-cbb8ccef8bad -->
 
-The subtrees for archived Invocations and Instances of the Distribution Requirement Primitive are stored here.
+The subtrees for archived Invocations and Instances of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.7.2.3.1.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: f92f755a-d487-4871-b126-a92c049bfdcb -->
 
-The subtrees for failed Invocations of the Distribution Requirement Primitive are stored here.
+The subtrees for failed Invocations of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.7.2.3.1.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: bc7d3904-3cf6-4b38-9d33-46b734891bfb -->
 
-The subtrees for Instances of the Distribution Requirement Primitive with `Suspended` Status are stored here.
+The subtrees for Instances of the Ecosystem Upkeep Fee Primitive with `Suspended` Status are stored here.
 
 ###### A.6.1.1.7.2.3.1.2 - Active Instances [Core]  <!-- UUID: cd0de0c7-7970-49b0-b05a-def3e1bcab9a -->
 
-The Instances of the Distribution Requirement Primitive with `Active` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Active` Status are stored herein.
 
 ###### A.6.1.1.7.2.3.1.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 8cd599cd-d6f1-4ef4-86cd-94aaf842d62e -->
 
-The documents herein contain the Instance Configuration Document for the Single Distribution Requirement Primitive Instance.
+The documents herein contain the Instance Configuration Document for the Single Ecosystem Upkeep Fee Primitive Instance.
 
 ###### A.6.1.1.7.2.3.1.2.1.1 - Parameters [Core]  <!-- UUID: 0b3112c5-3632-4e98-971c-8737f657ec80 -->
 
-The documents herein define the parameters of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.7.2.3.1.2.1.1.1 - Terms [Core]  <!-- UUID: 0545120b-a962-479c-a35d-9e208e6fff17 -->
 
-Launch Agent 6 will buy back and distribute 0.25% of its total token supply per year.
+Launch Agent 6 will pay 0.50% of its market capitalization per year in USDS.
 
 ###### A.6.1.1.7.2.3.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: 65782992-194b-4f7a-af35-23dc1db7287f -->
 
-The documents herein define the custom parameters of the Single Instance of the Distribution Requirement Primitive, if any.
+The documents herein define the custom parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive, if any.
 
 ###### A.6.1.1.7.2.3.1.2.1.2 - Operational Process Definition [Core]  <!-- UUID: bea02c9f-ea6a-4d22-ab23-04f5ca6a37d0 -->
 
-The documents herein define the process for the ongoing management of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the process for the ongoing management of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.7.2.3.1.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 9a0c543e-1846-4baf-9245-7a218bd45d3f -->
 
-This document defines the protocol for routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+This document defines the protocol for routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.7.2.3.1.2.1.2.1.1 - Process Definition For Buy Back And Distribution Obligation [Core]  <!-- UUID: 82841628-ddd7-4ccc-90c3-a45bf961d678 -->
+###### A.6.1.1.7.2.3.1.2.1.2.1.1 - Process Definition For Upkeep Fee Payment [Core]  <!-- UUID: 82841628-ddd7-4ccc-90c3-a45bf961d678 -->
 
-The process to buy back and distribute 0.25% of Launch Agent 6's tokens per year will be specified in future iterations of the Launch Agent 6 Artifact.
+The process to pay 0.50% of Launch Agent 6's market capitalization per year in USDS will be specified in future iterations of the Launch Agent 6 Artifact.
 
 ###### A.6.1.1.7.2.3.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 2b131681-dfba-4f69-b185-d512fbdf8a26 -->
 
-The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.7.2.3.1.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: ac8f7954-3348-4cb7-bdea-76b1dd4a294f -->
 
-The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.7.2.3.1.2.1.3 - Data Repository [Core]  <!-- UUID: 5909f14c-6248-4a31-b8b5-c699e1f51897 -->
 
-The documents herein contain data relevant to the Single Instance of the Distribution Requirement Primitive.
+The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.7.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 1d31b5fd-d55c-4d8e-b554-d2d9f1e95a05 -->
 
@@ -47853,169 +48403,117 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 ###### A.6.1.1.7.2.3.1.3 - Completed Instances [Core]  <!-- UUID: bdcaed32-e33f-4426-b059-93dfe4fc1956 -->
 
-The Instances of the Distribution Requirement Primitive with `Completed` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
 
 ###### A.6.1.1.7.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: 6ef3b9a9-b6a7-45ef-aaf4-3788389d7bf3 -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.7.2.3.2 - Market Cap Fee Primitive [Core]  <!-- UUID: 55eeb8fd-5783-430d-a8cb-5c66b8c5649e -->
+###### A.6.1.1.7.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: 8389ea55-0cd8-4471-b940-50b9882f0924 -->
 
-The documents herein contain all data and specifications for Launch Agent 6's instances of the Market Cap Fee Primitive. See [A.2.2.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
+The documents herein contain all data and specifications for Launch Agent 6's instance of the Upkeep Rebate Primitive. See [A.2.2.6.2 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
-###### A.6.1.1.7.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 0f3cf936-0b31-4224-b113-9b65a3de80d6 -->
-
-The documents herein organize all base information relevant to Launch Agent 6's usage of the Market Cap Fee Primitive.
-
-###### A.6.1.1.7.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: e2fd5a3d-7975-4e38-b80e-e06941715ee1 -->
-
-`Inactive`
-
-###### A.6.1.1.7.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: b3a39e9a-9acc-43c7-a774-2221912f3a8d -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Active`.
-
-###### A.6.1.1.7.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 925f287c-f637-483e-8130-f55a71f9a52c -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Completed`.
-
-###### A.6.1.1.7.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 04d60c81-2481-4fc1-9d97-67d53b1b7897 -->
-
-This document contains a Directory of all prospective Instances of the Market Cap Fee Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.7.2.3.2.1.2 - Active Instances Directory](b3a39e9a-9acc-43c7-a774-2221912f3a8d), whereas failed Invocations are Archived in [A.6.1.1.7.2.3.2.1.5 - Hub Data Repository](a319de1d-bc18-4b5a-b970-58ee5491b3c9).
-
-###### A.6.1.1.7.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: a319de1d-bc18-4b5a-b970-58ee5491b3c9 -->
-
-The documents herein contain the Data Repository for the Primitive Hub Document.
-
-###### A.6.1.1.7.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: fcebe796-bddc-448a-b776-952e2423cddb -->
-
-The subtrees for archived Invocations and Instances of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.7.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 864c0a11-0d46-4f48-ad83-300d4d640273 -->
-
-The subtrees for failed Invocations of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.7.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: e68a7178-4836-48af-8ef8-fac996fea2c6 -->
-
-The subtrees for Instances of the Market Cap Fee Primitive with `Suspended` Status are stored here.
-
-###### A.6.1.1.7.2.3.2.2 - Active Instances [Core]  <!-- UUID: 2ee1b59c-a1cc-452e-bf6f-bcbc11527506 -->
-
-The Instances of the Market Cap Fee Primitive with `Active` Status are stored herein.
-
-###### A.6.1.1.7.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 0e4c5066-42b1-4cdd-a322-4db64ecd3874 -->
-
-The Instances of the Market Cap Fee Primitive with `Completed` Status are stored herein.
-
-###### A.6.1.1.7.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: ece61695-cefc-496d-8709-a400abed50d3 -->
-
-The in progress Invocations of the Market Cap Fee Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.7.2.3.2.2 - Active Instances](2ee1b59c-a1cc-452e-bf6f-bcbc11527506).
-
-###### A.6.1.1.7.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: 8389ea55-0cd8-4471-b940-50b9882f0924 -->
-
-The documents herein contain all data and specifications for Launch Agent 6's instance of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
-
-###### A.6.1.1.7.2.3.3.1 - Primitive Hub Document [Core]  <!-- UUID: 9693a23e-9116-43d3-87ae-5036fa0fb4d1 -->
+###### A.6.1.1.7.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 9693a23e-9116-43d3-87ae-5036fa0fb4d1 -->
 
 The documents herein organize all base information relevant to Launch Agent 6's usage of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.7.2.3.3.1.1 - Global Activation Status [Core]  <!-- UUID: bbec58f6-cf9f-4bb9-a760-3cde09c6c153 -->
+###### A.6.1.1.7.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: bbec58f6-cf9f-4bb9-a760-3cde09c6c153 -->
 
 `Active`
 
-###### A.6.1.1.7.2.3.3.1.2 - Active Instances Directory [Core]  <!-- UUID: 17114b33-3010-4053-aa42-bcf3bf3ae73b -->
+###### A.6.1.1.7.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: 17114b33-3010-4053-aa42-bcf3bf3ae73b -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Active`.
 
-###### A.6.1.1.7.2.3.3.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 7c31bd54-47e2-4b66-8a6a-bca28cb4c5f9 -->
+###### A.6.1.1.7.2.3.2.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 7c31bd54-47e2-4b66-8a6a-bca28cb4c5f9 -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.3.3.2.1 - Single Instance Configuration Document](6e734cc1-a07e-42d7-afac-31ffa3cfd5dc).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.3.2.2.1 - Single Instance Configuration Document](6e734cc1-a07e-42d7-afac-31ffa3cfd5dc).
 
-###### A.6.1.1.7.2.3.3.1.3 - Completed Instances Directory [Core]  <!-- UUID: 7882085c-54c7-468d-9693-7c03ab8c847f -->
+###### A.6.1.1.7.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 7882085c-54c7-468d-9693-7c03ab8c847f -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Completed`.
 
-###### A.6.1.1.7.2.3.3.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 6f4901f6-2170-481c-8fd9-7d7c9ef2ab6d -->
+###### A.6.1.1.7.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 6f4901f6-2170-481c-8fd9-7d7c9ef2ab6d -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.7.2.3.3.1.5 - Hub Data Repository [Core]  <!-- UUID: d1a41004-f2c2-4a95-9872-ba3f09778366 -->
+###### A.6.1.1.7.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: d1a41004-f2c2-4a95-9872-ba3f09778366 -->
 
 The documents herein contain the Data Repository for the Primitive Hub Document.
 
-###### A.6.1.1.7.2.3.3.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 02c01711-c3ca-4fdd-b8a1-660ee2c1cf23 -->
+###### A.6.1.1.7.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 02c01711-c3ca-4fdd-b8a1-660ee2c1cf23 -->
 
 The subtrees for archived Invocations and Instances of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.7.2.3.3.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 9f0f82e8-a49b-4ed4-ac3a-27c427a327f5 -->
+###### A.6.1.1.7.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 9f0f82e8-a49b-4ed4-ac3a-27c427a327f5 -->
 
 The subtrees for failed Invocations of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.7.2.3.3.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: b548b647-8c48-41cc-8d60-ad34075226bf -->
+###### A.6.1.1.7.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: b548b647-8c48-41cc-8d60-ad34075226bf -->
 
 The subtrees for Instances of the Upkeep Rebate Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.7.2.3.3.2 - Active Instances [Core]  <!-- UUID: 288c1b34-5986-4a83-abc1-56efa6af6500 -->
+###### A.6.1.1.7.2.3.2.2 - Active Instances [Core]  <!-- UUID: 288c1b34-5986-4a83-abc1-56efa6af6500 -->
 
 The Instances of the Upkeep Rebate Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.7.2.3.3.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 6e734cc1-a07e-42d7-afac-31ffa3cfd5dc -->
+###### A.6.1.1.7.2.3.2.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 6e734cc1-a07e-42d7-afac-31ffa3cfd5dc -->
 
 The documents herein contain the Instance Configuration Document for the Single Upkeep Rebate Primitive Instance.
 
-###### A.6.1.1.7.2.3.3.2.1.1 - Parameters [Core]  <!-- UUID: 1c3dc285-97c5-4732-b763-2525038de133 -->
+###### A.6.1.1.7.2.3.2.2.1.1 - Parameters [Core]  <!-- UUID: 1c3dc285-97c5-4732-b763-2525038de133 -->
 
 Every Prime Agent is entitled to the Upkeep Rebate Primitive for tokens of other Prime Agents that they hold. Because this right automatically applies, there are no parameters.
 
-###### A.6.1.1.7.2.3.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 2330f1de-6a7c-469e-9a2a-8706c6930d25 -->
+###### A.6.1.1.7.2.3.2.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 2330f1de-6a7c-469e-9a2a-8706c6930d25 -->
 
 The documents herein define the process for the ongoing management of the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.7.2.3.3.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 5126a10e-9036-42fc-a0f7-236df746295c -->
+###### A.6.1.1.7.2.3.2.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 5126a10e-9036-42fc-a0f7-236df746295c -->
 
 This document defines the protocol for routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.7.2.3.3.2.1.2.1.1 - Launch Agent 6 Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: a0347944-1dea-473f-acfe-a66f582d27a9 -->
+###### A.6.1.1.7.2.3.2.2.1.2.1.1 - Launch Agent 6 Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: a0347944-1dea-473f-acfe-a66f582d27a9 -->
 
 Launch Agent 6 keeps all tokens of other Agents it holds in its SubProxy account.
 
-###### A.6.1.1.7.2.3.3.2.1.2.1.2 - Launch Agent 6 Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: eac62395-4c6c-40d5-bc37-e2acf3301072 -->
+###### A.6.1.1.7.2.3.2.2.1.2.1.2 - Launch Agent 6 Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: eac62395-4c6c-40d5-bc37-e2acf3301072 -->
 
 When paying Ecosystem Upkeep fees, Launch Agent 6 deducts the rebate from the fees it pays.
 
-###### A.6.1.1.7.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: e7058972-4fa4-4a85-967b-965afede3a23 -->
+###### A.6.1.1.7.2.3.2.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: e7058972-4fa4-4a85-967b-965afede3a23 -->
 
 Operational GovOps reviews Launch Agent 6's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Launch Agent 6 Prime" category and work with Launch Agent 6 to resolve the disagreement. If Operational GovOps and Launch Agent 6 cannot resolve the disagreement, it must be escalated to Core GovOps.
 
-###### A.6.1.1.7.2.3.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 7a5f2fbb-e524-4ca0-95bd-2f7c76fd3c3f -->
+###### A.6.1.1.7.2.3.2.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 7a5f2fbb-e524-4ca0-95bd-2f7c76fd3c3f -->
 
 The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.7.2.3.3.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 1192301e-a2ff-4016-b650-90e1436af97d -->
+###### A.6.1.1.7.2.3.2.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 1192301e-a2ff-4016-b650-90e1436af97d -->
 
 The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.7.2.3.3.2.1.3 - Data Repository [Core]  <!-- UUID: 3a02223c-f21e-4fee-8bc8-36a4cf36366a -->
+###### A.6.1.1.7.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: 3a02223c-f21e-4fee-8bc8-36a4cf36366a -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.7.2.3.3.2.1.3.1 - Initial Planning [Core]  <!-- UUID: e6be574b-1a20-4fbb-8ee9-43d649be4c0d -->
+###### A.6.1.1.7.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: e6be574b-1a20-4fbb-8ee9-43d649be4c0d -->
 
 The materials associated with initial planning of the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.7.2.3.3.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 86a4e532-848d-4363-a87d-944176a3707f -->
+###### A.6.1.1.7.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 86a4e532-848d-4363-a87d-944176a3707f -->
 
 The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.7.2.3.3.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 54f739a5-7170-4bed-aa9b-67e6b4591786 -->
+###### A.6.1.1.7.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 54f739a5-7170-4bed-aa9b-67e6b4591786 -->
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.7.2.3.3.3 - Completed Instances [Core]  <!-- UUID: 6187f71c-8d4f-4a95-9aff-a87395f3f6b1 -->
+###### A.6.1.1.7.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 6187f71c-8d4f-4a95-9aff-a87395f3f6b1 -->
 
 The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.7.2.3.3.4 - In Progress Invocations [Core]  <!-- UUID: 5ceee64b-59df-42e1-9da4-71b9f91dcb1c -->
+###### A.6.1.1.7.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 5ceee64b-59df-42e1-9da4-71b9f91dcb1c -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
@@ -48193,11 +48691,15 @@ The documents herein organize all base information relevant to Launch Agent 6's 
 
 ###### A.6.1.1.7.2.5.3.1.1 - Global Activation Status [Core]  <!-- UUID: e33acbf0-cf13-4e74-acb0-23319b551d42 -->
 
-`Inactive`
+`Active`
 
 ###### A.6.1.1.7.2.5.3.1.2 - Active Instances Directory [Core]  <!-- UUID: 04a6899a-8b0c-4b3d-873a-69325cc5bf50 -->
 
 This document contains a Directory of all Instances of the Pioneer Chain Primitive with Instance status of `Active`.
+
+###### A.6.1.1.7.2.5.3.1.2.1 - Plasma Instance Configuration Document Location [Core]  <!-- UUID: 04ba9c33-02e3-44e1-a003-9b9ca96bcdb2 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.5.3.2.1 - Plasma Instance Configuration Document](eb40fb85-194c-4bae-a0c4-24c66df4735e).
 
 ###### A.6.1.1.7.2.5.3.1.3 - Completed Instances Directory [Core]  <!-- UUID: 0e7ab6cf-3e07-4f0d-9294-802072d07a4e -->
 
@@ -48226,6 +48728,42 @@ The subtrees for Instances of the Pioneer Chain Primitive with `Suspended` Statu
 ###### A.6.1.1.7.2.5.3.2 - Active Instances [Core]  <!-- UUID: 1cf22b6c-83d7-4ddf-8b4c-13059f4ec555 -->
 
 The Instances of the Pioneer Chain Primitive with `Active` Status are stored herein.
+
+###### A.6.1.1.7.2.5.3.2.1 - Plasma Instance Configuration Document [Core]  <!-- UUID: eb40fb85-194c-4bae-a0c4-24c66df4735e -->
+
+The documents herein contain the Instance Configuration Document for the Plasma Instance of the Pioneer Chain Primitive.
+
+###### A.6.1.1.7.2.5.3.2.1.1 - Parameters [Core]  <!-- UUID: 3f22028a-59e5-470c-b5bf-80226706d085 -->
+
+The documents herein define the parameters of the Plasma Instance of the Pioneer Chain Primitive.
+
+###### A.6.1.1.7.2.5.3.2.1.1.1 - Instance Identifiers [Core]  <!-- UUID: 96f5ca50-30db-43ca-aa03-ba7b88835db5 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.7.2.5.3.2.1.1.1.1 - Network [Core]  <!-- UUID: 774ad565-8ee2-4abc-87d6-390ee470b18b -->
+
+Plasma
+
+###### A.6.1.1.7.2.5.3.2.1.1.2 - Pioneer Incentive Pool [Core]  <!-- UUID: 3e96125b-ce79-4639-86a7-d22db2ee801e -->
+
+The documents herein contain the terms that govern this Instance's Pioneer Incentive Pool and its address.
+
+###### A.6.1.1.7.2.5.3.2.1.1.2.1 - Address [Core]  <!-- UUID: dd6dfbb0-c7fc-45be-ad2c-aeca560eb644 -->
+
+The address of Launch Agent 6's Pioneer Incentive Pool is Launch Agent 6's SubProxy Account on the Ethereum Mainnet: `0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`.
+
+###### A.6.1.1.7.2.5.3.2.1.1.2.2 - Terms [Core]  <!-- UUID: 60702f4c-cbfe-416f-aab9-f8097fbca47a -->
+
+The Pioneer Incentive Pool for this Instance is governed by the terms specified in [A.2.2.8.3.1.4 - Pioneer Incentive Pool](04edac33-19d5-4a87-a8ab-945a0cd57771).
+
+###### A.6.1.1.7.2.5.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 5127e898-68b8-4ae5-8a7f-92202a9d2553 -->
+
+The documents herein define the process for the ongoing management of the Plasma Instance of the Pioneer Chain Primitive.
+
+###### A.6.1.1.7.2.5.3.2.1.3 - Data Repository [Core]  <!-- UUID: 652f040b-29ed-4578-a502-e8fe037bb436 -->
+
+The documents herein contain data relevant to the Plasma Instance of the Pioneer Chain Primitive.
 
 ###### A.6.1.1.7.2.5.3.3 - Completed Instances [Core]  <!-- UUID: 472618e9-29c6-406e-928d-d79dff4b9722 -->
 
@@ -49181,13 +49719,13 @@ The in progress Invocations of the Light Agent Primitive are contained herein. O
 
 The documents herein implement the [A.2.2.6 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
-###### A.6.1.1.8.2.3.1 - Distribution Requirement Primitive [Core]  <!-- UUID: 235b6631-e033-4c9e-b31d-3a44feab2691 -->
+###### A.6.1.1.8.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: 235b6631-e033-4c9e-b31d-3a44feab2691 -->
 
-The documents herein contain all data and specifications for Launch Agent 7's Instance of the Distribution Requirement Primitive. See [A.2.2.6.1 - Distribution Requirement Primitive](0804ab13-d276-4ad9-a935-dc9f7fc2e350).
+The documents herein contain all data and specifications for Launch Agent 7's Instance of the Ecosystem Upkeep Fee Primitive. See [A.2.2.6.1 - Ecosystem Upkeep Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
 ###### A.6.1.1.8.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 2960ee87-c20d-4172-b938-5007663774eb -->
 
-The documents herein organize all base information relevant to Launch Agent 7's usage of the Distribution Requirement Primitive.
+The documents herein organize all base information relevant to Launch Agent 7's usage of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.8.2.3.1.1.1 - Global Activation Status [Core]  <!-- UUID: dc299e36-9c46-4b13-81cd-8d4fc85f31d3 -->
 
@@ -49195,7 +49733,7 @@ The documents herein organize all base information relevant to Launch Agent 7's 
 
 ###### A.6.1.1.8.2.3.1.1.2 - Active Instances Directory [Core]  <!-- UUID: fe90717a-9451-4f01-a5fe-2663342f0283 -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Active`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Active`.
 
 ###### A.6.1.1.8.2.3.1.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: 5c8bdca5-4b57-413a-81fc-bf39f991e12b -->
 
@@ -49203,11 +49741,11 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 ###### A.6.1.1.8.2.3.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 0ea3700e-3d71-472e-962e-3d3a16e0a020 -->
 
-This document contains a Directory of all Instances of the Distribution Requirement Primitive with Instance status of `Completed`.
+This document contains a Directory of all Instances of the Ecosystem Upkeep Fee Primitive with Instance status of `Completed`.
 
 ###### A.6.1.1.8.2.3.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: dea9d796-cd57-413b-9793-1e4d7c46d7d1 -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
 ###### A.6.1.1.8.2.3.1.1.5 - Hub Data Repository [Core]  <!-- UUID: b801d192-aaf7-4b96-aca4-a0574210787f -->
 
@@ -49215,59 +49753,59 @@ The documents herein contain the Data Repository for the Primitive Hub Document.
 
 ###### A.6.1.1.8.2.3.1.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 5ad0a20f-9776-45f7-a616-d23ba788c826 -->
 
-The subtrees for archived Invocations and Instances of the Distribution Requirement Primitive are stored here.
+The subtrees for archived Invocations and Instances of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.8.2.3.1.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 8c9cd3a4-82ed-4117-8066-bd77b2c0d922 -->
 
-The subtrees for failed Invocations of the Distribution Requirement Primitive are stored here.
+The subtrees for failed Invocations of the Ecosystem Upkeep Fee Primitive are stored here.
 
 ###### A.6.1.1.8.2.3.1.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: bddcc7eb-5d2d-402b-a2b7-dc8e2be70e1c -->
 
-The subtrees for Instances of the Distribution Requirement Primitive with `Suspended` Status are stored here.
+The subtrees for Instances of the Ecosystem Upkeep Fee Primitive with `Suspended` Status are stored here.
 
 ###### A.6.1.1.8.2.3.1.2 - Active Instances [Core]  <!-- UUID: f2c71db2-efde-4d80-800b-945f8ca1dab0 -->
 
-The Instances of the Distribution Requirement Primitive with `Active` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Active` Status are stored herein.
 
 ###### A.6.1.1.8.2.3.1.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 2fa1a658-3588-45cd-a6e4-ceb0cc8f57d8 -->
 
-The documents herein contain the Instance Configuration Document for the Single Distribution Requirement Primitive Instance.
+The documents herein contain the Instance Configuration Document for the Single Ecosystem Upkeep Fee Primitive Instance.
 
 ###### A.6.1.1.8.2.3.1.2.1.1 - Parameters [Core]  <!-- UUID: 9f1da224-aad0-4903-8e74-7dbd1dc6c30e -->
 
-The documents herein define the parameters of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.8.2.3.1.2.1.1.1 - Terms [Core]  <!-- UUID: b5a5b8d8-7022-46a7-a351-dc767a5618c4 -->
 
-Launch Agent 7 will buy back and distribute 0.25% of its total token supply per year.
+Launch Agent 7 will pay 0.50% of its market capitalization per year in USDS.
 
 ###### A.6.1.1.8.2.3.1.2.1.1.2 - Custom Instance Parameters [Core]  <!-- UUID: f5b52d8f-a131-428a-bc3b-bd87d2493ecb -->
 
-The documents herein define the custom parameters of the Single Instance of the Distribution Requirement Primitive, if any.
+The documents herein define the custom parameters of the Single Instance of the Ecosystem Upkeep Fee Primitive, if any.
 
 ###### A.6.1.1.8.2.3.1.2.1.2 - Operational Process Definition [Core]  <!-- UUID: 5a14c374-344f-4073-bbb2-562e1665c2be -->
 
-The documents herein define the process for the ongoing management of the Single Instance of the Distribution Requirement Primitive.
+The documents herein define the process for the ongoing management of the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.8.2.3.1.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 8832e413-3b06-4724-b5eb-eccabc08db82 -->
 
-This document defines the protocol for routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+This document defines the protocol for routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.8.2.3.1.2.1.2.1.1 - Process Definition For Buy Back And Distribution Obligation [Core]  <!-- UUID: ee639561-265a-42c1-be31-10e61e817ad0 -->
+###### A.6.1.1.8.2.3.1.2.1.2.1.1 - Process Definition For Upkeep Fee Payment [Core]  <!-- UUID: ee639561-265a-42c1-be31-10e61e817ad0 -->
 
-The process to buy back and distribute 0.25% of Launch Agent 7's tokens per year will be specified in future iterations of the Launch Agent 7 Artifact.
+The process to pay 0.50% of Launch Agent 7's market capitalization per year in USDS will be specified in future iterations of the Launch Agent 7 Artifact.
 
 ###### A.6.1.1.8.2.3.1.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: fed0b0c1-a7ee-4839-af72-c6ca6257beca -->
 
-The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.8.2.3.1.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 4aaab4a9-e619-4343-a308-791a5a000ee6 -->
 
-The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Distribution Requirement Primitive.
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.8.2.3.1.2.1.3 - Data Repository [Core]  <!-- UUID: be200704-5152-4884-8acb-4d0ef2f7307c -->
 
-The documents herein contain data relevant to the Single Instance of the Distribution Requirement Primitive.
+The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
 ###### A.6.1.1.8.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 1126acc9-9fb2-493b-b6ed-78cdccb75c5a -->
 
@@ -49283,169 +49821,117 @@ The materials associated with preparing the Artifact Edit Proposal during the In
 
 ###### A.6.1.1.8.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 6aca1d4d-5962-4215-a778-cdad996dc4f8 -->
 
-The Instances of the Distribution Requirement Primitive with `Completed` Status are stored herein.
+The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
 
 ###### A.6.1.1.8.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: 92bfea11-2401-4744-8911-59c22d891b77 -->
 
-Because the Distribution Requirement Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
+Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.8.2.3.2 - Market Cap Fee Primitive [Core]  <!-- UUID: 91b517a6-e263-4bfb-b59c-133acb71b197 -->
+###### A.6.1.1.8.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: a36bf711-7951-497c-9c4b-c761dbff351a -->
 
-The documents herein contain all data and specifications for Launch Agent 7's instances of the Market Cap Fee Primitive. See [A.2.2.6.2 - Market Cap Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
+The documents herein contain all data and specifications for Launch Agent 7's instance of the Upkeep Rebate Primitive. See [A.2.2.6.2 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
-###### A.6.1.1.8.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 032f831e-0733-4bf3-b70e-bca32d1f2e00 -->
-
-The documents herein organize all base information relevant to Launch Agent 7's usage of the Market Cap Fee Primitive.
-
-###### A.6.1.1.8.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 00668028-e2c1-4e75-b83b-797bc3d4a4e6 -->
-
-`Inactive`
-
-###### A.6.1.1.8.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: 524d791c-8402-4d2a-ab42-e06c3dd5caef -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Active`.
-
-###### A.6.1.1.8.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 9ea68fef-0d1d-4b17-9aea-0f84b3f65dc3 -->
-
-This document contains a Directory of all Instances of the Market Cap Fee Primitive with Instance status of `Completed`.
-
-###### A.6.1.1.8.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 6a69aeef-3339-4bfe-bab4-003d8572cf14 -->
-
-This document contains a Directory of all prospective Instances of the Market Cap Fee Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.8.2.3.2.1.2 - Active Instances Directory](524d791c-8402-4d2a-ab42-e06c3dd5caef), whereas failed Invocations are Archived in [A.6.1.1.8.2.3.2.1.5 - Hub Data Repository](527bf1a7-eff1-423d-af04-19b76dd33798).
-
-###### A.6.1.1.8.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: 527bf1a7-eff1-423d-af04-19b76dd33798 -->
-
-The documents herein contain the Data Repository for the Primitive Hub Document.
-
-###### A.6.1.1.8.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 74981a2b-cbfe-4c4c-be94-2325597d20a2 -->
-
-The subtrees for archived Invocations and Instances of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.8.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 1fbf4ee4-6348-48d6-a0d1-523066710819 -->
-
-The subtrees for failed Invocations of the Market Cap Fee Primitive are stored here.
-
-###### A.6.1.1.8.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: b8ba9664-406e-4c80-b829-c0fe2f70c052 -->
-
-The subtrees for Instances of the Market Cap Fee Primitive with `Suspended` Status are stored here.
-
-###### A.6.1.1.8.2.3.2.2 - Active Instances [Core]  <!-- UUID: 446c1605-6e24-44dc-a61f-7d5bdfaa8993 -->
-
-The Instances of the Market Cap Fee Primitive with `Active` Status are stored herein.
-
-###### A.6.1.1.8.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 66dfd28c-c929-4627-a962-680874f1bb69 -->
-
-The Instances of the Market Cap Fee Primitive with `Completed` Status are stored herein.
-
-###### A.6.1.1.8.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: d0636602-baf5-4e1d-8835-7baa49ca7252 -->
-
-The in progress Invocations of the Market Cap Fee Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.3.2.2 - Active Instances](446c1605-6e24-44dc-a61f-7d5bdfaa8993).
-
-###### A.6.1.1.8.2.3.3 - Upkeep Rebate Primitive [Core]  <!-- UUID: a36bf711-7951-497c-9c4b-c761dbff351a -->
-
-The documents herein contain all data and specifications for Launch Agent 7's instance of the Upkeep Rebate Primitive. See [A.2.2.6.3 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
-
-###### A.6.1.1.8.2.3.3.1 - Primitive Hub Document [Core]  <!-- UUID: e087c1a6-3f6f-4309-952d-71b74691c6de -->
+###### A.6.1.1.8.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: e087c1a6-3f6f-4309-952d-71b74691c6de -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.8.2.3.3.1.1 - Global Activation Status [Core]  <!-- UUID: 9479c841-04d0-4a76-bec8-3255106fcc47 -->
+###### A.6.1.1.8.2.3.2.1.1 - Global Activation Status [Core]  <!-- UUID: 9479c841-04d0-4a76-bec8-3255106fcc47 -->
 
 `Active`
 
-###### A.6.1.1.8.2.3.3.1.2 - Active Instances Directory [Core]  <!-- UUID: a986a180-e2a6-40bb-aec5-58e6584d958e -->
+###### A.6.1.1.8.2.3.2.1.2 - Active Instances Directory [Core]  <!-- UUID: a986a180-e2a6-40bb-aec5-58e6584d958e -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Active`.
 
-###### A.6.1.1.8.2.3.3.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: b05793b0-6d46-448f-9e83-41ee55141eb0 -->
+###### A.6.1.1.8.2.3.2.1.2.1 - Single Instance Configuration Document Location [Core]  <!-- UUID: b05793b0-6d46-448f-9e83-41ee55141eb0 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.8.2.3.3.2.1 - Single Instance Configuration Document](24e3d323-e9a4-4bb3-ba4d-ae92aa745e96).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.8.2.3.2.2.1 - Single Instance Configuration Document](24e3d323-e9a4-4bb3-ba4d-ae92aa745e96).
 
-###### A.6.1.1.8.2.3.3.1.3 - Completed Instances Directory [Core]  <!-- UUID: 4f195e95-65db-432e-80ea-9b77a8b2c355 -->
+###### A.6.1.1.8.2.3.2.1.3 - Completed Instances Directory [Core]  <!-- UUID: 4f195e95-65db-432e-80ea-9b77a8b2c355 -->
 
 This document contains a Directory of all Instances of the Upkeep Rebate Primitive with Instance status of `Completed`.
 
-###### A.6.1.1.8.2.3.3.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 98e6bca4-9981-4e38-814b-8394eeb62778 -->
+###### A.6.1.1.8.2.3.2.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 98e6bca4-9981-4e38-814b-8394eeb62778 -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.8.2.3.3.1.5 - Hub Data Repository [Core]  <!-- UUID: 1bdaf050-86c4-44a1-8926-a6d083e0ac65 -->
+###### A.6.1.1.8.2.3.2.1.5 - Hub Data Repository [Core]  <!-- UUID: 1bdaf050-86c4-44a1-8926-a6d083e0ac65 -->
 
 The documents herein contain the Data Repository for the Primitive Hub Document.
 
-###### A.6.1.1.8.2.3.3.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 20b38bb0-bcdc-4ded-ac96-2e445e10afc4 -->
+###### A.6.1.1.8.2.3.2.1.5.1 - Archived Invocations/Instances [Core]  <!-- UUID: 20b38bb0-bcdc-4ded-ac96-2e445e10afc4 -->
 
 The subtrees for archived Invocations and Instances of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.8.2.3.3.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 62a31c8c-2e86-4df6-a422-f76cfa6610e5 -->
+###### A.6.1.1.8.2.3.2.1.5.1.1 - Failed Invocations [Core]  <!-- UUID: 62a31c8c-2e86-4df6-a422-f76cfa6610e5 -->
 
 The subtrees for failed Invocations of the Upkeep Rebate Primitive are stored here.
 
-###### A.6.1.1.8.2.3.3.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: b13c4e9f-7366-4ca3-aeb2-3f7666127a02 -->
+###### A.6.1.1.8.2.3.2.1.5.1.2 - Suspended Instances [Core]  <!-- UUID: b13c4e9f-7366-4ca3-aeb2-3f7666127a02 -->
 
 The subtrees for Instances of the Upkeep Rebate Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.3.3.2 - Active Instances [Core]  <!-- UUID: b5197e9e-014b-4527-a1b1-399cf3475bef -->
+###### A.6.1.1.8.2.3.2.2 - Active Instances [Core]  <!-- UUID: b5197e9e-014b-4527-a1b1-399cf3475bef -->
 
 The Instances of the Upkeep Rebate Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.8.2.3.3.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 24e3d323-e9a4-4bb3-ba4d-ae92aa745e96 -->
+###### A.6.1.1.8.2.3.2.2.1 - Single Instance Configuration Document [Core]  <!-- UUID: 24e3d323-e9a4-4bb3-ba4d-ae92aa745e96 -->
 
 The documents herein contain the Instance Configuration Document for the Single Upkeep Rebate Primitive Instance.
 
-###### A.6.1.1.8.2.3.3.2.1.1 - Parameters [Core]  <!-- UUID: 74e0d2e3-fa72-48d8-b1f1-5f7dc0caacbc -->
+###### A.6.1.1.8.2.3.2.2.1.1 - Parameters [Core]  <!-- UUID: 74e0d2e3-fa72-48d8-b1f1-5f7dc0caacbc -->
 
 Every Prime Agent is entitled to the Upkeep Rebate Primitive for tokens of other Prime Agents that they hold. Because this right automatically applies, there are no parameters.
 
-###### A.6.1.1.8.2.3.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: ce3e37b2-5061-454e-8b5e-ba08e1e66bb9 -->
+###### A.6.1.1.8.2.3.2.2.1.2 - Operational Process Definition [Core]  <!-- UUID: ce3e37b2-5061-454e-8b5e-ba08e1e66bb9 -->
 
 The documents herein define the process for the ongoing management of the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.8.2.3.3.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 33aac9cf-306f-46ce-bdaf-84fdcafcedf3 -->
+###### A.6.1.1.8.2.3.2.2.1.2.1 - Routine Protocol [Core]  <!-- UUID: 33aac9cf-306f-46ce-bdaf-84fdcafcedf3 -->
 
 This document defines the protocol for routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.8.2.3.3.2.1.2.1.1 - Launch Agent 7 Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 67240dea-8bc1-4ac7-9da5-7079b7af6424 -->
+###### A.6.1.1.8.2.3.2.2.1.2.1.1 - Launch Agent 7 Holds Tokens Of Other Agents In Its SubProxy Account [Core]  <!-- UUID: 67240dea-8bc1-4ac7-9da5-7079b7af6424 -->
 
 Launch Agent 7 keeps all tokens of other Agents it holds in its SubProxy account.
 
-###### A.6.1.1.8.2.3.3.2.1.2.1.2 - Launch Agent 7 Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: 22e8780f-64f2-416b-93b5-ef5584583b15 -->
+###### A.6.1.1.8.2.3.2.2.1.2.1.2 - Launch Agent 7 Deducts Rebate From Ecosystem Upkeep Fees [Core]  <!-- UUID: 22e8780f-64f2-416b-93b5-ef5584583b15 -->
 
 When paying Ecosystem Upkeep fees, Launch Agent 7 deducts the rebate from the fees it pays.
 
-###### A.6.1.1.8.2.3.3.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 47d2823b-2e93-4a7e-b181-6c232d7429ed -->
+###### A.6.1.1.8.2.3.2.2.1.2.1.3 - Operational GovOps Reviews Rebate [Core]  <!-- UUID: 47d2823b-2e93-4a7e-b181-6c232d7429ed -->
 
 Operational GovOps reviews Launch Agent 7's calculation of the rebate before executing a return of surplus to token holders. In the event of any issues, Operational GovOps cannot execute the distribution. If Operational GovOps does not execute the distribution, Operational GovOps must post an explanation on the Sky Forum under the "Launch Agent 7 Prime" category and work with Launch Agent 7 to resolve the disagreement. If Operational GovOps and Launch Agent 7 cannot resolve the disagreement, it must be escalated to Core GovOps.
 
-###### A.6.1.1.8.2.3.3.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 455301ee-b352-4bb1-8b11-a215d501e095 -->
+###### A.6.1.1.8.2.3.2.2.1.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 455301ee-b352-4bb1-8b11-a215d501e095 -->
 
 The documents herein define the protocol for non-routine ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.8.2.3.3.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 6009ee51-2540-44db-946a-8feb400824cb -->
+###### A.6.1.1.8.2.3.2.2.1.2.3 - Emergency Protocol [Core]  <!-- UUID: 6009ee51-2540-44db-946a-8feb400824cb -->
 
 The documents herein define the protocol for handling emergency situations in the ongoing management of the Single Instance of this Upkeep Rebate Primitive.
 
-###### A.6.1.1.8.2.3.3.2.1.3 - Data Repository [Core]  <!-- UUID: 9ac2f1d8-a349-4348-8f66-79fdc605eab8 -->
+###### A.6.1.1.8.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: 9ac2f1d8-a349-4348-8f66-79fdc605eab8 -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
 
-###### A.6.1.1.8.2.3.3.2.1.3.1 - Initial Planning [Core]  <!-- UUID: d4946913-4550-4250-b48e-5fe97e30728c -->
+###### A.6.1.1.8.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: d4946913-4550-4250-b48e-5fe97e30728c -->
 
 The materials associated with initial planning of the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.8.2.3.3.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: e07b73b0-079a-45ba-a861-03d6f4d7ac49 -->
+###### A.6.1.1.8.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: e07b73b0-079a-45ba-a861-03d6f4d7ac49 -->
 
 The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.8.2.3.3.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 990d5e1a-d9ac-4aa6-a663-ec310f193d84 -->
+###### A.6.1.1.8.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 990d5e1a-d9ac-4aa6-a663-ec310f193d84 -->
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.8.2.3.3.3 - Completed Instances [Core]  <!-- UUID: ccc58c85-b8b2-429a-a95d-df91902a6697 -->
+###### A.6.1.1.8.2.3.2.3 - Completed Instances [Core]  <!-- UUID: ccc58c85-b8b2-429a-a95d-df91902a6697 -->
 
 The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.8.2.3.3.4 - In Progress Invocations [Core]  <!-- UUID: c5610121-5800-44d1-bd16-bd0022fd2955 -->
+###### A.6.1.1.8.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: c5610121-5800-44d1-bd16-bd0022fd2955 -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
