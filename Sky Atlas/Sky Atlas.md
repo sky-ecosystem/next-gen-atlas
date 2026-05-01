@@ -5071,15 +5071,15 @@ The multisig should be used to prevent technical vulnerabilities; prevent unwant
 
 The Multisig can also be used in cases where a vulnerability or exploit is discovered in other protocols using the same codebase as SparkLend, and a timely action can prevent or mitigate the damage.
 
-The Governance Facilitators must ensure that use of the multisig is generally aligned and specifically accords with the requirements defined herein.
+The Core Council must ensure that use of the multisig is generally aligned and specifically accords with the requirements defined herein.
 
 ###### A.1.9.4.2.1.1.0.3.1 - Same Codebase - Element Annotation [Annotation]  <!-- UUID: d373ebcb-c746-4388-885c-d1bba4edbf05 -->
 
 The element "same codebase" refers to the fact that SparkLend is based on the Aave codebase. Vulnerabilities or exploits discovered within Aave, or any other protocol utilizing the Aave codebase, could potentially be replicated and affect SparkLend.
 
-###### A.1.9.4.2.1.1.0.4.1 - Facilitators Must Exercise Due Caution In Reviewing Use Of Multisig [Action Tenet]  <!-- UUID: 71898c9e-1bb5-43fb-95bb-e9aeec2bdd0c -->
+###### A.1.9.4.2.1.1.0.4.1 - Core Council Must Exercise Due Caution In Reviewing Use Of Multisig [Action Tenet]  <!-- UUID: 71898c9e-1bb5-43fb-95bb-e9aeec2bdd0c -->
 
-The list of instances justifying use of the multisig in the Target Document is not intended to be exhaustive. However, the Facilitators must exercise due caution in reviewing and validating use of the multisig in edge cases, i.e., use of the multisig that falls outside of the examples provided in the Target Document. In such "edge cases," the Facilitators must ensure that a postmortem is publicly published on the Sky Forum which justifies the use of the multisig. The Facilitators should also consider proposing an edit to the Target Document so that the edge case is explicitly included in the examples provided in the Target Document.
+The list of instances justifying use of the multisig in the Target Document is not intended to be exhaustive. However, the Core Council must exercise due caution in reviewing and validating use of the multisig in edge cases, i.e., use of the multisig that falls outside of the examples provided in the Target Document. In such "edge cases," the Core Council must ensure that a postmortem is publicly published on the Sky Forum which justifies the use of the multisig. The Core Council should also consider proposing an edit to the Target Document so that the edge case is explicitly included in the examples provided in the Target Document.
 
 ###### A.1.9.4.2.1.2 - SparkLend Multisig Number Of Signers [Core]  <!-- UUID: 0c71e677-9acb-4f89-bb25-1726e8dac076 -->
 
@@ -5101,7 +5101,7 @@ Modification of the signers of the SparkLend Security Access Multisig must be ap
 
 The only exceptions to this are if: 1) a signer self-reports a loss of access to their private key due to any reason; or 2) a signer explicitly expresses their wish to be removed as a signer. In both cases, the signer is required to communicate the loss of access to their private key, or the wish to be removed as a signer, in the form of a public Sky Forum post. The specific signer should be replaced as soon as possible, which does not require a Governance Poll.
 
-Any changes to the multisig signers that do not fall within the two exceptions listed above, or that have not been ratified by Sky Governance, should be questioned immediately and treated as malicious. The Governance Facilitators should consider preparing an expedited Executive Vote so that Sky Governance can vote on removing external security access from the multisig.
+Any changes to the multisig signers that do not fall within the two exceptions listed above, or that have not been ratified by Sky Governance, should be questioned immediately and treated as malicious. The Core Facilitator should consider preparing an expedited Executive Vote so that Sky Governance can vote on removing external security access from the multisig.
 
 ###### A.1.9.4.2.1.5 - SparkLend Multisig Address [Core]  <!-- UUID: 13ad3a13-d446-40db-9db6-18ab34fe049a -->
 
@@ -10147,7 +10147,7 @@ Legacy Accounts are all accounts controlled by Sky Core, with the exception of t
 
 - the former Distribution Reward Controller Wallet;
 - the former Integration Boost Wallets; and
-- the Sky Ecosystem Liquidity Bootstrapping Budget (see [A.5.5.1.1 - Sky Ecosystem Liquidity Bootstrapping](cd4ae79c-0e34-4388-8ac2-41d7677bd955)).
+- the Sky Ecosystem Liquidity Bootstrapping Budget.
 
 ###### A.2.3.1.2.2.2.1.6.2 - Ecosystem Actors Must Consolidate All Funds From Legacy Accounts [Core]  <!-- UUID: 294154f2-8d36-4104-a660-89a7b52eeac7 -->
 
@@ -11249,11 +11249,11 @@ Any operational or other expenses incurred by a Prime and paid directly by Sky a
 
 ###### A.2.8.2.2.2.7.4.1 - Transfer From Liquidity Bootstrapping Budget To Spark For Market Makers [Core]  <!-- UUID: 66abd123-f5cd-4d1a-bf75-2e5f468eae16 -->
 
-Sky has transferred 2 million USDS from the Sky Ecosystem Liquidity Bootstrapping Budget to Spark to provide liquidity to market makers (see [A.5.5.1.1 - Sky Ecosystem Liquidity Bootstrapping](cd4ae79c-0e34-4388-8ac2-41d7677bd955)). This amount shall be treated as an advance against Spark’s Genesis Capital Allocation and deducted from Spark’s allocated capital funds at the time of the Capital Transfer.
+Sky has transferred 2 million USDS from the Sky Ecosystem Liquidity Bootstrapping Budget to Spark to provide liquidity to market makers. This amount shall be treated as an advance against Spark’s Genesis Capital Allocation and deducted from Spark’s allocated capital funds at the time of the Capital Transfer.
 
 ###### A.2.8.2.2.2.7.4.2 - Transfer From Liquidity Bootstrapping Budget To Spark For Exchanges [Core]  <!-- UUID: 1d7924cd-8105-458f-a959-92f302b971d4 -->
 
-Sky has transferred 2.4 million USDS from the Sky Ecosystem Liquidity Bootstrapping Budget to Spark to provide liquidity to exchanges (see [A.5.5.1.1 - Sky Ecosystem Liquidity Bootstrapping](cd4ae79c-0e34-4388-8ac2-41d7677bd955)). This amount shall be treated as an advance against Spark’s Genesis Capital Allocation and deducted from Spark’s allocated capital funds at the time of the Capital Transfer.
+Sky has transferred 2.4 million USDS from the Sky Ecosystem Liquidity Bootstrapping Budget to Spark to provide liquidity to exchanges. This amount shall be treated as an advance against Spark’s Genesis Capital Allocation and deducted from Spark’s allocated capital funds at the time of the Capital Transfer.
 
 ###### A.2.8.2.2.2.7.5 - Income Generation And Pre-TGE Credit [Core]  <!-- UUID: 3ae9fa89-97e6-46ac-9b8b-ecb77a10574f -->
 
@@ -11626,6 +11626,72 @@ The address of Ozone's SubProxy Account will be specified in the Technical Scope
 ###### A.2.8.2.9.2.1.2 - Use Of Genesis Capital [Core]  <!-- UUID: 9e7acf02-b30c-47fd-aa6f-bef61dc1210d -->
 
 The Genesis Capital Allocation will be used to fund Ozone's work in supporting the Agents that it serves as the Operational Executor Agent for.
+
+#### A.2.8.2.10 - Ecosystem Accord 10: Sky And Grove [Core]  <!-- UUID: 0cb00b28-12a8-4790-974a-a3d98fd4dc97 -->
+
+The subdocuments herein record the terms of agreement between Sky and Grove as agreed in Ecosystem Accord 10.
+
+##### A.2.8.2.10.1 - Accord Key Details [Core]  <!-- UUID: 7b9e976e-f55a-45a4-b0ae-db5142164d98 -->
+
+The subdocuments herein set out the key details of Ecosystem Accord 10, such as parties to the agreement and the duration of the Accord.
+
+###### A.2.8.2.10.1.1 - Parties To The Accord [Core]  <!-- UUID: 6b454041-6333-4da3-94e5-d9a29b1c01d6 -->
+    
+The parties to Ecosystem Accord 10 are Sky and Grove, as defined in the subdocuments herein.
+
+###### A.2.8.2.10.1.1.1 - Sky Details [Core]  <!-- UUID: e785ccea-cf2a-44f3-a49b-632edfd4bb5a -->
+
+The party 'Sky' comprises Sky Core.
+
+###### A.2.8.2.10.1.1.2 - Grove Details [Core]  <!-- UUID: 71eda1d2-5ea4-4999-89a9-168df36e0c60 -->
+
+The party 'Grove' comprises the Grove Prime Agent and Grove Foundation.
+
+###### A.2.8.2.10.1.2 - Duration Of The Accord [Core]  <!-- UUID: c7d102c8-3d5d-47c2-80a0-66a4c4ee7430 -->
+
+The duration of Ecosystem Accord 10 is indefinite, commencing retroactively from July 24, 2025. The Accord remains in effect unless terminated or modified via an Atlas Edit.
+
+##### A.2.8.2.10.2 - Accord Substantive Terms [Core]  <!-- UUID: c44e816f-dd67-4e35-aa4c-7098f159a05d -->
+
+The subdocuments herein set out the substantive terms of Ecosystem Accord 10.
+
+###### A.2.8.2.10.2.1 - Chronicle Point Reward Instance Definition [Core]  <!-- UUID: a7ccb2d1-970e-4b91-a430-4173ade00396 -->
+
+The "Chronicle Point Reward Instance" refers to the Ethereum mainnet reward mechanism through which USDS is deposited in Sky's Rewards contract to accrue Chronicle Points. Onchain, this instance is the verified `StakingRewards` contract at the address corresponding to the `REWARDS_USDS_01` key in the Chainlog.
+
+###### A.2.8.2.10.2.2 - Compensation Formula [Core]  <!-- UUID: d4a5ce00-b041-4e9d-9bed-23253aba1b01 -->
+
+Sky will pay Grove ongoing compensation in USDS, calculated as follows:
+
+$
+\text{Chronicle\_Point\_Reward\_Instance\_USDS\_Deposited} \times 20\% \times \text{Base\_Rate}
+$
+
+where:
+
+- $\text{Chronicle\_Point\_Reward\_Instance\_USDS\_Deposited}$ is the total amount of USDS deposited in the Chronicle Point Reward Instance at the time of calculation;
+- $20\%$ is the fixed compensation percentage; and
+- $Base\_Rate$ is the Base Rate as defined in [A.3.1.2.1 - Base Rate](228f9955-6bba-4252-a101-5529e7a300b9).
+
+This compensation recognizes Grove's role in promoting and supporting Chronicle across integrations within the Sky Ecosystem.
+
+###### A.2.8.2.10.2.3 - Accrual Method [Core]  <!-- UUID: 4bed0292-a720-4306-b528-5d583fd4ead5 -->
+
+Compensation under this Accord accrues continuously on the basis of the USDS deposited in the Chronicle Point Reward Instance and the Base Rate at each point in time. Where the Base Rate or the amount of USDS deposited changes during an accrual period, the compensation is calculated proportionally for each sub-period in which the relevant parameters remain constant.
+
+###### A.2.8.2.10.2.4 - Payment Frequency And Mechanism [Core]  <!-- UUID: 31e070cf-2474-4815-a7da-350feaa97cc7 -->
+
+Compensation under this Accord is settled monthly via the Monthly Settlement Cycle (MSC). Each monthly settlement is calculated as:
+
+$$ 
+\text{Monthly Settlement} = \sum \left[ \frac{\text{USDS\_Deposited (sub-period)} \times 0.20 \times \text{Base\_Rate (sub-period)}}{365} \times \text{Sub-Period\_Days} \right] 
+$$
+
+where sub-periods are defined by any change to the USDS deposited in the Chronicle Point Reward Instance or the Base Rate during the settlement month, per the accrual method in [A.2.8.2.10.2.3 - Accrual Method](4bed0292-a720-4306-b528-5d583fd4ead5).
+
+###### A.2.8.2.10.2.5 - Retroactive Compensation [Core]  <!-- UUID: e19ba00b-8509-4cf1-b9af-20f16e9683f8 -->
+
+Grove is entitled to retroactive compensation for the period from July 24, 2025 to March 31, 2026, to be settled in the April 2026 Monthly Settlement Cycle.
 
 ### A.2.8.0.3.1 - Business Activities - Element Annotation [Annotation]  <!-- UUID: 31df7e2b-184f-428c-9c4f-23fd8054c5d3 -->
 
@@ -13138,6 +13204,16 @@ If a Prime Agent is borrowing funds from Sky at a Subsidized Rate, as defined in
 ##### A.3.1.2.3.6 - Settlement [Core]  <!-- UUID: eed3d922-7bb8-4cee-97a4-47e902a1c937 -->
 
 Any compensation due to or from Prime Agents so that they earn the Agent Rate on USDS, Dai, and sUSDS balances is paid as part of the Monthly Settlement Cycle. See [A.2.4 - Sky Core Monthly Settlement Cycle](6f8d5065-d6ff-4add-9a28-eadeffa7ed1a).
+
+##### A.3.1.2.2.3 - Sky Savings Rate Current Value [Core]  <!-- UUID: aff1868f-66aa-4252-851f-9343567a52eb -->
+
+The current value of the Sky Savings Rate can be obtained by calling the `ssr()` function on the sUSDS contract located on the Ethereum Mainnet at `0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD`.
+
+The `ssr()` function returns a per-second compounding rate in RAY precision (10^27). The equivalent annualized rate, compounded over a 365-day year (31,536,000 seconds), is given by the formula:
+
+`annualized rate = (ssr() / 1E27)^31536000 - 1`
+
+The result is a decimal rate (e.g., 0.0365 represents 3.65% per year).
 
 #### A.3.1.2.4 - Dai Savings Rate [Core]  <!-- UUID: d220731b-35db-4803-8a74-1c470a5ad693 -->
 
@@ -17854,20 +17930,6 @@ User IPs flagged for Full Block are:
 - Kherson Oblast
 - Zaporizhzhia Oblast
 
-## A.5.5 - Short-Term Transitionary Measures [Article]  <!-- UUID: b28aecff-e420-473f-893a-9c31510f5845 -->
-
-This Article defines short term transitionary measures related to the Accessibility Scope for the Sky Ecosystem.
-
-### A.5.5.1 - Short-Term Transitionary Measures [Section]  <!-- UUID: 703395d0-cad6-4e17-940b-7cdf68d1084c -->
-
-The logic defined in this section are short term transitionary measures related to the Accessibility Scope before budgets or measures can be transitioned to Sky Entities, Agents, or other Ecosystem Actors.
-
-#### A.5.5.1.1 - Sky Ecosystem Liquidity Bootstrapping [Core]  <!-- UUID: cd4ae79c-0e34-4388-8ac2-41d7677bd955 -->
-
-The Accessibility Facilitators must work with advisors and Ecosystem Actors to implement a liquidity bootstrapping program using up to 20 million USDS and 320 million SKY. These assets can be used for liquidity programs, or for liquidity infrastructure integration costs. Anything leftover from usage in liquidity programs must be returned to Sky control at the end of the bootstrapping program.
-
-The funds can be paid into multisig accounts for future use via executive votes at will by the Accessibility Facilitators.
-
 # A.6 - The Agent Scope [Scope]  <!-- UUID: 4a08ca6c-e652-49e4-9b79-4831b20e600a -->
 
 The Agent Scope regulates all Agents within the Sky Ecosystem and comprises all Agent Artifacts. Each Agent Artifact governs the operations of a particular Agent.
@@ -20202,7 +20264,7 @@ Modification of the signers of the Freezer Multisig must be approved through a G
 
 The only exceptions to this are if: 1) a signer self-reports a loss of access to their private key due to any reason; or 2) a signer explicitly expresses their wish to be removed as a signer. In both cases, the signer is required to communicate the loss of access to their private key, or the wish to be removed as a signer, in the form of a public Sky Forum post. The specific signer should be replaced as soon as possible, which does not require a Governance Poll.
 
-Any changes to the multisig signers that do not fall within the two exceptions listed above, or that have not been ratified by Sky Governance, should be questioned immediately and treated as malicious. Where malicious activity is suspected, the Governance Facilitators must prepare an expedited Executive Vote so that Sky Governance can vote on removing external security access from the multisig.
+Any changes to the multisig signers that do not fall within the two exceptions listed above, or that have not been ratified by Sky Governance, should be questioned immediately and treated as malicious. Where malicious activity is suspected, the Core Facilitator must prepare an expedited Executive Vote so that Sky Governance can vote on removing external security access from the multisig.
 
 ###### A.6.1.1.1.2.6.1.2.1.2.3 - Token Claim Authorization [Core]  <!-- UUID: ea73f176-0b94-4e93-b1ee-ca498ac5a6c6 -->
 
@@ -35870,6 +35932,10 @@ Grove engaged in terms of agreement with the Spark Agent in Ecosystem Accord 1, 
 
 Grove engaged in terms of agreement with Sky, Moonbow and the Spark Agent in Ecosystem Accord 2, located in [A.2.8.2.2 - Prime Program](aa3b8e65-0ded-48c2-9c40-812debf99f32).
 
+###### A.6.1.1.2.3.5.3 - Ecosystem Accord 10 [Core]  <!-- UUID: e7057828-ca35-4c1f-8da9-05f54b73e25a -->
+
+Grove engaged in terms of agreement with Sky in Ecosystem Accord 10, located in [A.2.8.2.10 - Ecosystem Accord 10: Sky And Grove](0cb00b28-12a8-4790-974a-a3d98fd4dc97).
+
 ###### A.6.1.1.2.3.6 - DAO Resolutions [Core]  <!-- UUID: c9c04069-134f-4ab3-b99c-e922edb1cde8 -->
 
 Grove has formally agreed to the DAO Resolutions recorded herein.
@@ -38298,7 +38364,7 @@ The `RELAYER_ROLE` is the address for the Keel Liquidity Layer ALM Planner off-c
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.1.3 - ALM Controller Role [Core]  <!-- UUID: 6ebd37e7-5234-4ac6-a48b-b75e86f29e82 -->
 
-The `ALM_CONTROLLER_ROLE` is the address of the role that can call the `call` functions on the `ALMProxy` contract and update `Rate Limits` contract. It includes the `MainnetController` and `ForeignController` contracts. ALM Controller contracts are accessed and modified via the Relayer Role.
+The `ALM_CONTROLLER_ROLE` is the address of the role that can call the `call` functions on the `ALMProxy` contract and update `RateLimits` contract. It includes the `MainnetController` and `ForeignController` contracts. ALM Controller contracts are accessed and modified via the Relayer Role.
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.1.4 - Freezer Role [Core]  <!-- UUID: 45b602fb-9427-4555-a3f7-8ad5b17a1cf2 -->
 
@@ -38381,7 +38447,7 @@ The documents herein define the steps for a relayer to mint USDS from the Sky Al
 Only an operator with the relayer role is able to mint USDS. To do so, they must call the mintUSDS function on the Controller contract on mainnet with the amount of USDS that is required for minting. Calling this function will carry out the following actions:
 
 - The contract will confirm the relayer status of the operator. If the caller does not have the relayer role the transaction will revert.
-- The contract will ensure the `Rate Limits` allow for minting the required amount. If the mint amount does not fall within the available Rate Limit the transaction will revert.
+- The contract will ensure the `RateLimits` allow for minting the required amount. If the mint amount does not fall within the available Rate Limit the transaction will revert.
 - The contract will reduce the Rate Limit by the amount of USDS minted in this transaction.
 - The contract will mint the required USDS into the buffer contract.
 - The contract will transfer the newly minted USDS from the buffer to the Proxy.
@@ -38420,7 +38486,7 @@ The documents herein define the steps for a relayer to transfer ERC-20 tokens to
 Only an operator with the relayer role is able to transfer ERC-20 assets. To do so, they must call the `transferAsset` function on the Controller contract on mainnet, providing the ERC20 asset address, the destination address, and the amount to transfer. Calling this function will carry out the following actions:
 
 - The contract will confirm the relayer status of the operator. If the caller does not have the relayer role the transaction will revert.
-- The contract will ensure the `Rate Limits` allow for transferring the specified amount of the asset to the destination. If the transfer amount does not fall within the available Rate Limit, the transaction will revert.
+- The contract will ensure the `RateLimits` allow for transferring the specified amount of the asset to the destination. If the transfer amount does not fall within the available Rate Limit, the transaction will revert.
 - The contract will execute the ERC-20 `transfer` function, sending the specified amount of the asset to the destination address.
 
 The function call is as follows:
@@ -38638,71 +38704,71 @@ This document defines the process for an operator to bridge USDS or sUSDS using 
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.3 - Rate Limit Management [Core]  <!-- UUID: bf81a7dd-9483-48e4-b489-cb3cb2e61b37 -->
 
-The documents herein define the protocol for querying, setting, and adjusting `Rate Limits` for Instances using their `Rate LimitID`s. The Rate Limits must be maintained in line with Keel’s strategy, market conditions, and security considerations.
+The documents herein define the protocol for querying, setting, and adjusting `RateLimits` for Instances using their `RateLimitID`s. The Rate Limits must be maintained in line with Keel’s strategy, market conditions, and security considerations.
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.3.1 - Get Rate Limit Data [Core]  <!-- UUID: 921dd8b4-763e-4edf-9cb9-f2e0cb012109 -->
 
 Anyone can query the full rate limit data for a specific key. Calling this function will carry out the following actions:
 
-- The contract will return the stored Rate LimitData struct from the _data mapping for the key.
+- The contract will return the stored RateLimitData struct from the _data mapping for the key.
 
 The function call is as follows:
 
-`function getRate LimitData(bytes32 key) external override view returns (Rate LimitData memory)`
+`function getRateLimitData(bytes32 key) external override view returns (RateLimitData memory)`
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.3.2 - Set Rate Limit Data [Core]  <!-- UUID: 132f4de3-5b4c-462b-8f03-4cc15706baaf -->
 
 Only an operator with the admin role is able to set or update rate limit data for a specific key, including maxAmount, slope, and historical values. There are two overloads for flexibility. Calling these functions will carry out the following actions:
 
-- The contract will require that lastAmount is less than or equal to maxAmount, reverting with "Rate Limits/invalid-lastAmount" if not.
-- The contract will require that lastUpdated is less than or equal to the current block timestamp, reverting with "Rate Limits/invalid-lastUpdated" if not.
-- The contract will store the provided data in the _data mapping as a Rate LimitData struct.
-- The contract will emit a Rate LimitDataSet event with the key and provided values.
+- The contract will require that lastAmount is less than or equal to maxAmount, reverting with "RateLimits/invalid-lastAmount" if not.
+- The contract will require that lastUpdated is less than or equal to the current block timestamp, reverting with "RateLimits/invalid-lastUpdated" if not.
+- The contract will store the provided data in the _data mapping as a RateLimitData struct.
+- The contract will emit a RateLimitDataSet event with the key and provided values.
 
 The function calls are as follows:
 
-`function setRate LimitData(bytes32 key, uint256 maxAmount, uint256 slope, uint256 lastAmount, uint256 lastUpdated) public override onlyRole(DEFAULT_ADMIN_ROLE)
+`function setRateLimitData(bytes32 key, uint256 maxAmount, uint256 slope, uint256 lastAmount, uint256 lastUpdated) public override onlyRole(DEFAULT_ADMIN_ROLE)
 
-function setRate LimitData(bytes32 key, uint256 maxAmount, uint256 slope) external override`
+function setRateLimitData(bytes32 key, uint256 maxAmount, uint256 slope) external override`
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.3.3 - Set Unlimited Rate Limit Data [Core]  <!-- UUID: 0a5ccc61-eaf4-4b49-80d7-770e29178c1a -->
 
 Only an operator with the admin role is able to set unlimited rate limit data for a specific key by configuring it with maximum values. Calling this function will carry out the following actions:
 
-- The contract will call setRate LimitData internally with type(uint256).max for maxAmount and lastAmount, 0 for slope, and the current block timestamp for lastUpdated.
+- The contract will call setRateLimitData internally with type(uint256).max for maxAmount and lastAmount, 0 for slope, and the current block timestamp for lastUpdated.
 
 The function call is as follows:
 
-`function setUnlimitedRate LimitData(bytes32 key) external override`
+`function setUnlimitedRateLimitData(bytes32 key) external override`
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.3.4 - Get Current Rate Limit [Core]  <!-- UUID: 99f4fe4c-04af-4efe-b099-f5d92122de78 -->
 
 Anyone can query the current rate limit value for a specific key, accounting for time-based slope accrual. Calling this function will carry out the following actions:
 
-- The contract will retrieve the Rate LimitData for the key from the _data mapping.
+- The contract will retrieve the RateLimitData for the key from the _data mapping.
 - If maxAmount is type(uint256).max (unlimited case), the contract will return type(uint256).max.
 - Otherwise, the contract will calculate and return the minimum of (slope * time elapsed since lastUpdated + lastAmount) and maxAmount.
 
 The function call is as follows:
 
-`function getCurrentRate Limit(bytes32 key) public override view returns (uint256)`
+`function getCurrentRateLimit(bytes32 key) public override view returns (uint256)`
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.3.5 - Trigger Rate Limit Decrease [Core]  <!-- UUID: a710528f-e695-4262-bab1-e5ee57241315 -->
 
 Only an operator with the controller role can trigger a decrease in the rate limit for a specific key by a given amount. Calling this function will carry out the following actions:
 
-- The contract will retrieve the Rate LimitData storage for the key from the data mapping.
-- The contract will require that maxAmount is greater than 0, reverting with "Rate Limits/zero-maxAmount" if not.
+- The contract will retrieve the RateLimitData storage for the key from the data mapping.
+- The contract will require that maxAmount is greater than 0, reverting with "RateLimits/zero-maxAmount" if not.
 - If maxAmount is type(uint256).max (unlimited case), the contract will return type(uint256).max without changes.
-- The contract will calculate the currentRate Limit using getCurrentRate Limit.
-- The contract will require that amountToDecrease is less than or equal to currentRate Limit, reverting with "Rate Limits/rate-limit-exceeded" if not.
-- The contract will update lastAmount to currentRate Limit minus amountToDecrease and set lastUpdated to the current block timestamp.
-- The contract will emit a Rate LimitDecreaseTriggered event with the key, amountToDecrease, currentRate Limit, and newLimit.
+- The contract will calculate the currentRateLimit using getCurrentRateLimit.
+- The contract will require that amountToDecrease is less than or equal to currentRateLimit, reverting with "RateLimits/rate-limit-exceeded" if not.
+- The contract will update lastAmount to currentRateLimit minus amountToDecrease and set lastUpdated to the current block timestamp.
+- The contract will emit a RateLimitDecreaseTriggered event with the key, amountToDecrease, currentRateLimit, and newLimit.
 - The contract will return the newLimit.
 
 The function call is as follows:
 
-`function triggerRate LimitDecrease(bytes32 key, uint256 amountToDecrease) external override onlyRole(CONTROLLER) returns (uint256 newLimit)`
+`function triggerRateLimitDecrease(bytes32 key, uint256 amountToDecrease) external override onlyRole(CONTROLLER) returns (uint256 newLimit)`
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.4 - Instance Lifecycle Management [Core]  <!-- UUID: 724970e4-e5e7-41ff-9448-d984c2c9a9e3 -->
 
@@ -44606,7 +44672,7 @@ The `RELAYER_ROLE` is the address for the Obex Liquidity Layer ALM Planner off-c
 
 ###### A.6.1.1.5.2.6.1.2.2.1.1.3 - ALM Controller Role [Core]  <!-- UUID: 9a8f34e4-1e38-48da-8fc7-e97d8b6dc64f -->
 
-The `ALM_CONTROLLER_ROLE` is the address of the role that can call the `call` functions on the `ALMProxy` contract and update `Rate Limits` contract. It includes the `MainnetController` and `ForeignController` contracts. ALM Controller contracts are accessed and modified via the Relayer Role.
+The `ALM_CONTROLLER_ROLE` is the address of the role that can call the `call` functions on the `ALMProxy` contract and update `RateLimits` contract. It includes the `MainnetController` and `ForeignController` contracts. ALM Controller contracts are accessed and modified via the Relayer Role.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.1.4 - Freezer Role [Core]  <!-- UUID: afcfa58a-fc3d-4f5d-9bc8-bf40e7fa3ec7 -->
 
@@ -44689,7 +44755,7 @@ The documents herein define the steps for a relayer to mint USDS from the Sky Al
 Only an operator with the relayer role is able to mint USDS. To do so, they must call the `mintUSDS` function on the Controller contract on mainnet with the amount of USDS that is required for minting. Calling this function will carry out the following actions:
 
 - The contract will confirm the relayer status of the operator. If the caller does not have the relayer role the transaction will revert.
-- The contract will ensure the `Rate Limits` allow for minting the required amount. If the mint amount does not fall within the available Rate Limit the transaction will revert.
+- The contract will ensure the `RateLimits` allow for minting the required amount. If the mint amount does not fall within the available Rate Limit the transaction will revert.
 - The contract will reduce the Rate Limit by the amount of USDS minted in this transaction.
 - The contract will mint the required USDS into the buffer contract.
 - The contract will transfer the newly minted USDS from the buffer to the Proxy.
@@ -44728,7 +44794,7 @@ The documents herein define the steps for a relayer to transfer ERC-20 tokens to
 Only an operator with the relayer role is able to transfer ERC-20 assets. To do so, they must call the `transferAsset` function on the Controller contract on mainnet, providing the ERC20 asset address, the destination address, and the amount to transfer. Calling this function will carry out the following actions:
 
 - The contract will confirm the relayer status of the operator. If the caller does not have the relayer role the transaction will revert.
-- The contract will ensure the `Rate Limits` allow for transferring the specified amount of the asset to the destination. If the transfer amount does not fall within the available Rate Limit, the transaction will revert.
+- The contract will ensure the `RateLimits` allow for transferring the specified amount of the asset to the destination. If the transfer amount does not fall within the available Rate Limit, the transaction will revert.
 - The contract will execute the ERC-20 `transfer` function, sending the specified amount of the asset to the destination address.
 
 The function call is as follows:
@@ -44953,71 +45019,71 @@ The function call is as follows:
 
 ###### A.6.1.1.5.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: 73da45c9-78eb-49f3-a1d5-593780e9d362 -->
 
-The documents herein define the protocol for querying, setting, and adjusting `Rate Limits` for Instances using their `Rate LimitID`s. The Rate Limits must be maintained in line with Obex's strategy, market conditions, and security considerations.
+The documents herein define the protocol for querying, setting, and adjusting `RateLimits` for Instances using their `RateLimitID`s. The Rate Limits must be maintained in line with Obex's strategy, market conditions, and security considerations.
 
 ###### A.6.1.1.5.2.6.1.2.2.1.3.1 - Get Rate Limit Data [Core]  <!-- UUID: 716b493e-d102-47c8-8f87-bcb1c809c8ee -->
 
 Anyone can query the full rate limit data for a specific key. Calling this function will carry out the following actions:
 
-- The contract will return the stored Rate LimitData struct from the _data mapping for the key.
+- The contract will return the stored RateLimitData struct from the _data mapping for the key.
 
 The function call is as follows:
 
-`function getRate LimitData(bytes32 key) external override view returns (Rate LimitData memory)`
+`function getRateLimitData(bytes32 key) external override view returns (RateLimitData memory)`
 
 ###### A.6.1.1.5.2.6.1.2.2.1.3.2 - Set Rate Limit Data [Core]  <!-- UUID: 993bbc35-1692-4c1b-87b2-de5997e90bf5 -->
 
 Only an operator with the admin role is able to set or update rate limit data for a specific key, including maxAmount, slope, and historical values. There are two overloads for flexibility. Calling these functions will carry out the following actions:
 
-- The contract will require that lastAmount is less than or equal to maxAmount, reverting with "Rate Limits/invalid-lastAmount" if not.
-- The contract will require that lastUpdated is less than or equal to the current block timestamp, reverting with "Rate Limits/invalid-lastUpdated" if not.
-- The contract will store the provided data in the _data mapping as a Rate LimitData struct.
-- The contract will emit a Rate LimitDataSet event with the key and provided values.
+- The contract will require that lastAmount is less than or equal to maxAmount, reverting with "RateLimits/invalid-lastAmount" if not.
+- The contract will require that lastUpdated is less than or equal to the current block timestamp, reverting with "RateLimits/invalid-lastUpdated" if not.
+- The contract will store the provided data in the _data mapping as a RateLimitData struct.
+- The contract will emit a RateLimitDataSet event with the key and provided values.
 
 The function calls are as follows:
 
-`function setRate LimitData(bytes32 key, uint256 maxAmount, uint256 slope, uint256 lastAmount, uint256 lastUpdated) public override onlyRole(DEFAULT_ADMIN_ROLE)
+`function setRateLimitData(bytes32 key, uint256 maxAmount, uint256 slope, uint256 lastAmount, uint256 lastUpdated) public override onlyRole(DEFAULT_ADMIN_ROLE)
 
-function setRate LimitData(bytes32 key, uint256 maxAmount, uint256 slope) external override`
+function setRateLimitData(bytes32 key, uint256 maxAmount, uint256 slope) external override`
 
 ###### A.6.1.1.5.2.6.1.2.2.1.3.3 - Set Unlimited Rate Limit Data [Core]  <!-- UUID: 37aed332-50c8-4392-91be-095bd13139d1 -->
 
 Only an operator with the admin role is able to set unlimited rate limit data for a specific key by configuring it with maximum values. Calling this function will carry out the following actions:
 
-- The contract will call setRate LimitData internally with type(uint256).max for maxAmount and lastAmount, 0 for slope, and the current block timestamp for lastUpdated.
+- The contract will call setRateLimitData internally with type(uint256).max for maxAmount and lastAmount, 0 for slope, and the current block timestamp for lastUpdated.
 
 The function call is as follows:
 
-`function setUnlimitedRate LimitData(bytes32 key) external override`
+`function setUnlimitedRateLimitData(bytes32 key) external override`
 
 ###### A.6.1.1.5.2.6.1.2.2.1.3.4 - Get Current Rate Limit [Core]  <!-- UUID: f629bb8f-afb2-4bfc-b7fa-3f5fbaa2c2f9 -->
 
 Anyone can query the current rate limit value for a specific key, accounting for time-based slope accrual. Calling this function will carry out the following actions:
 
-- The contract will retrieve the Rate LimitData for the key from the _data mapping.
+- The contract will retrieve the RateLimitData for the key from the _data mapping.
 - If maxAmount is type(uint256).max (unlimited case), the contract will return type(uint256).max.
 - Otherwise, the contract will calculate and return the minimum of (slope * time elapsed since lastUpdated + lastAmount) and maxAmount.
 
 The function call is as follows:
 
-`function getCurrentRate Limit(bytes32 key) public override view returns (uint256)`
+`function getCurrentRateLimit(bytes32 key) public override view returns (uint256)`
 
 ###### A.6.1.1.5.2.6.1.2.2.1.3.5 - Trigger Rate Limit Decrease [Core]  <!-- UUID: 2fc640dc-1f48-4167-a700-cb54f2cb1097 -->
 
 Only an operator with the controller role can trigger a decrease in the rate limit for a specific key by a given amount. Calling this function will carry out the following actions:
 
-- The contract will retrieve the Rate LimitData storage for the key from the data mapping.
-- The contract will require that maxAmount is greater than 0, reverting with "Rate Limits/zero-maxAmount" if not.
+- The contract will retrieve the RateLimitData storage for the key from the data mapping.
+- The contract will require that maxAmount is greater than 0, reverting with "RateLimits/zero-maxAmount" if not.
 - If maxAmount is type(uint256).max (unlimited case), the contract will return type(uint256).max without changes.
-- The contract will calculate the currentRate Limit using getCurrentRate Limit.
-- The contract will require that amountToDecrease is less than or equal to currentRate Limit, reverting with "Rate Limits/rate-limit-exceeded" if not.
-- The contract will update lastAmount to currentRate Limit minus amountToDecrease and set lastUpdated to the current block timestamp.
-- The contract will emit a Rate LimitDecreaseTriggered event with the key, amountToDecrease, currentRate Limit, and newLimit.
+- The contract will calculate the currentRateLimit using getCurrentRateLimit.
+- The contract will require that amountToDecrease is less than or equal to currentRateLimit, reverting with "RateLimits/rate-limit-exceeded" if not.
+- The contract will update lastAmount to currentRateLimit minus amountToDecrease and set lastUpdated to the current block timestamp.
+- The contract will emit a RateLimitDecreaseTriggered event with the key, amountToDecrease, currentRateLimit, and newLimit.
 - The contract will return the newLimit.
 
 The function call is as follows:
 
-`function triggerRate LimitDecrease(bytes32 key, uint256 amountToDecrease) external override onlyRole(CONTROLLER) returns (uint256 newLimit)`
+`function triggerRateLimitDecrease(bytes32 key, uint256 amountToDecrease) external override onlyRole(CONTROLLER) returns (uint256 newLimit)`
 
 ###### A.6.1.1.5.2.6.1.2.2.1.4 - Instance Lifecycle Management [Core]  <!-- UUID: 2dde3f2b-925d-42a4-9fe1-0cb5bfd86855 -->
 
@@ -46770,7 +46836,7 @@ Operational GovOps Soter Labs can change the signers of the Relayer Multisig at 
 
 ###### A.6.1.1.6.2.6.1.2.1.2.2.2 - Freezer Multisig [Core]  <!-- UUID: 841e629e-c887-48ec-8219-e0b1c86145d6 -->
 
-The Freezer Multisig has the `FREEZER_ROLE` as defined in [A.6.1.1.6.2.6.1.2.2.1.1.4 - Freezer Role](62db1fa2-9958-4692-a2af-907feb5d2c72) and is controlled by Operational GovOps Soter Labs.
+The Freezer Multisig has the `FREEZER_ROLE` as defined in [A.6.1.1.6.2.6.1.2.2.1.1.4 - Freezer Role](62db1fa2-9958-4692-a2af-907feb5d2c72).
 
 ###### A.6.1.1.6.2.6.1.2.1.2.2.2.1 - Address [Core]  <!-- UUID: 008e670d-d877-475a-96f2-950aa0d6c072 -->
 
@@ -46835,7 +46901,7 @@ The `RELAYER_ROLE` is the address for the Pattern Liquidity Layer ALM Planner of
 
 ###### A.6.1.1.6.2.6.1.2.2.1.1.3 - ALM Controller Role [Core]  <!-- UUID: 090b5728-5338-4ab7-83bf-15b213758616 -->
 
-The `ALM_CONTROLLER_ROLE` is the address of the role that can call the `call` functions on the `ALMProxy` contract and update `Rate Limits` contract. It includes the `MainnetController` and `ForeignController` contracts. ALM Controller contracts are accessed and modified via the Relayer Role.
+The `ALM_CONTROLLER_ROLE` is the address of the role that can call the `call` functions on the `ALMProxy` contract and update `RateLimits` contract. It includes the `MainnetController` and `ForeignController` contracts. ALM Controller contracts are accessed and modified via the Relayer Role.
 
 ###### A.6.1.1.6.2.6.1.2.2.1.1.4 - Freezer Role [Core]  <!-- UUID: 62db1fa2-9958-4692-a2af-907feb5d2c72 -->
 
@@ -46918,7 +46984,7 @@ The documents herein define the steps for a relayer to mint USDS from the Sky Al
 Only an operator with the relayer role is able to mint USDS. To do so, they must call the `mintUSDS` function on the Controller contract on mainnet with the amount of USDS that is required for minting. Calling this function will carry out the following actions:
 
 - The contract will confirm the relayer status of the operator. If the caller does not have the relayer role the transaction will revert.
-- The contract will ensure the `Rate Limits` allow for minting the required amount. If the mint amount does not fall within the available Rate Limit the transaction will revert.
+- The contract will ensure the `RateLimits` allow for minting the required amount. If the mint amount does not fall within the available Rate Limit the transaction will revert.
 - The contract will reduce the Rate Limit by the amount of USDS minted in this transaction.
 - The contract will mint the required USDS into the buffer contract.
 - The contract will transfer the newly minted USDS from the buffer to the Proxy.
@@ -46957,7 +47023,7 @@ The documents herein define the steps for a relayer to transfer ERC-20 tokens to
 Only an operator with the relayer role is able to transfer ERC-20 assets. To do so, they must call the `transferAsset` function on the Controller contract on mainnet, providing the ERC20 asset address, the destination address, and the amount to transfer. Calling this function will carry out the following actions:
 
 - The contract will confirm the relayer status of the operator. If the caller does not have the relayer role the transaction will revert.
-- The contract will ensure the `Rate Limits` allow for transferring the specified amount of the asset to the destination. If the transfer amount does not fall within the available Rate Limit, the transaction will revert.
+- The contract will ensure the `RateLimits` allow for transferring the specified amount of the asset to the destination. If the transfer amount does not fall within the available Rate Limit, the transaction will revert.
 - The contract will execute the ERC-20 `transfer` function, sending the specified amount of the asset to the destination address.
 
 The function call is as follows:
@@ -47182,7 +47248,7 @@ The function call is as follows:
 
 ###### A.6.1.1.6.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: 2b03d21b-d03a-4c0e-8d90-d5a2f5dd9140 -->
 
-The documents herein define the protocol for querying, setting, and adjusting `Rate Limits` for Instances using their `RateLimitID`s. The Rate Limits must be maintained in line with Pattern's strategy, market conditions, and security considerations.
+The documents herein define the protocol for querying, setting, and adjusting `RateLimits` for Instances using their `RateLimitID`s. The Rate Limits must be maintained in line with Pattern's strategy, market conditions, and security considerations.
 
 ###### A.6.1.1.6.2.6.1.2.2.1.3.1 - Get Rate Limit Data [Core]  <!-- UUID: f46cbe06-e7df-4a92-8972-cd21bf9be2c5 -->
 
