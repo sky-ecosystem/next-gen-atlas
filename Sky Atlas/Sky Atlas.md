@@ -19511,7 +19511,7 @@ This document contains a Directory of all Instances of the Allocation System Pri
 
 ###### A.6.1.1.1.2.6.1.1.3.1 - Blackrock [Core]  <!-- UUID: e4ec840c-dee5-4afe-9f41-c9061c70a0d9 -->
 
-The Ethereum Mainnet Instances Directory of the Blackrock Protocol with `Active` Status are stored herein.
+The Ethereum Mainnet Instances Directory of the Blackrock Protocol with `Completed` Status are stored herein.
 
 ###### A.6.1.1.1.2.6.1.1.3.1.1 - Ethereum Mainnet - Blackrock USDC Instance Configuration Document Location [Core]  <!-- UUID: 6d30c514-ea40-45ca-93cd-0771830b3617 -->
 
@@ -19519,7 +19519,7 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 ###### A.6.1.1.1.2.6.1.1.3.2 - Centrifuge [Core]  <!-- UUID: 5e56bd40-1e89-4549-adaa-54776089fe13 -->
 
-The Ethereum Mainnet Instances Directory of the Centrifuge Protocol with `Active` Status are stored herein.
+The Ethereum Mainnet Instances Directory of the Centrifuge Protocol with `Completed` Status are stored herein.
 
 ###### A.6.1.1.1.2.6.1.1.3.2.1 - Ethereum Mainnet - Centrifuge USDC Instance Configuration Document Location [Core]  <!-- UUID: 495b8996-fd2c-46ba-8e46-945b22eff733 -->
 
