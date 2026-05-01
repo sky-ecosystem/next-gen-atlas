@@ -1,0 +1,12 @@
+---
+id: 3bab6c0a-31a2-41d6-9bc8-560e3ff7ca95
+docNo: A.6.1.1.1.2.1.2.1.2
+name: Active Instances Directory
+type: Core
+depth: 10
+childType: sections_and_primary_docs
+---
+
+###### A.6.1.1.1.2.1.2.1.2 - Active Instances Directory [Core]
+
+This document contains a Directory of all Instances of the Prime Transformation Primitive with Instance status of `Active`.
