@@ -1,0 +1,12 @@
+---
+id: f1f78b17-7c65-4d8c-9066-315c25ed8f2d
+docNo: A.6.1.1.4.2.2.1.1.3
+name: Completed Instances Directory
+type: Core
+depth: 10
+childType: sections_and_primary_docs
+---
+
+###### A.6.1.1.4.2.2.1.1.3 - Completed Instances Directory [Core]
+
+This document contains a Directory of all Instances of the Executor Accord Primitive with Instance status of `Completed`.

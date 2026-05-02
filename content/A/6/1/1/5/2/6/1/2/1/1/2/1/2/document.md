@@ -1,0 +1,14 @@
+---
+id: ff5d0ea1-bfb0-4e18-8768-603230a3dea6
+docNo: A.6.1.1.5.2.6.1.2.1.1.2.1.2
+name: Debt Ceiling Buffer Ethereum Mainnet
+type: Core
+depth: 14
+childType: sections_and_primary_docs
+---
+
+###### A.6.1.1.5.2.6.1.2.1.1.2.1.2 - Debt Ceiling Buffer Ethereum Mainnet [Core]
+
+The buffer amount below the maximum debt ceiling is (`DEBT_CEILING_BUFFER`):
+
+- This parameter will be specified in a future iteration of the Obex Artifact.
