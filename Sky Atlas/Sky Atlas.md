@@ -19491,7 +19491,7 @@ The documents herein contain a Directory of all Instances on Avalanche of the Al
 
 ###### A.6.1.1.1.2.6.1.1.2.4.1 - Aave [Core]  <!-- UUID: 830b9c54-37df-41f1-9ae1-e114bc47636c -->
 
-The Avalanche Instances Directory of the Aave Protocol with `Active` Status are stored herein
+The Avalanche Instances Directory of the Aave Protocol with `Completed` Status are stored herein
 
 ###### A.6.1.1.1.2.6.1.1.2.4.1.1 - Avalanche - Aave v3 USDC Vault Instance Configuration Document Location [Core]  <!-- UUID: 85bc9184-abf0-4767-ae07-cda159c63f6f -->
 
@@ -25433,15 +25433,15 @@ The current `maxAmount` and `slope` for this conduit's inflow/outflow are define
 
 The inflow rate limits are:
 
-- `maxAmount`: 20,000,000 USDC
-- `slope`: 10,000,000 USDC per day
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.4.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: e3c0527d-368e-4c8c-bf7f-47ffb010f54c -->
 
 The outflow rate limits are:
 
-- `maxAmount`: Unlimited
-- `slope`: Unlimited
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.4.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 6f06f814-58ff-4978-b8e8-67848cae9290 -->
 
