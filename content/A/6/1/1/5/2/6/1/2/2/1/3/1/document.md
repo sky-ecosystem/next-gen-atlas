@@ -11,8 +11,8 @@ childType: sections_and_primary_docs
 
 Anyone can query the full rate limit data for a specific key. Calling this function will carry out the following actions:
 
-- The contract will return the stored Rate LimitData struct from the _data mapping for the key.
+- The contract will return the stored RateLimitData struct from the _data mapping for the key.
 
 The function call is as follows:
 
-`function getRate LimitData(bytes32 key) external override view returns (Rate LimitData memory)`
+`function getRateLimitData(bytes32 key) external override view returns (RateLimitData memory)`

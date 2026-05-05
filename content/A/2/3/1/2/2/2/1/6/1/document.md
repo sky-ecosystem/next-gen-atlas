@@ -13,4 +13,4 @@ Legacy Accounts are all accounts controlled by Sky Core, with the exception of t
 
 - the former Distribution Reward Controller Wallet;
 - the former Integration Boost Wallets; and
-- the Sky Ecosystem Liquidity Bootstrapping Budget (see [A.5.5.1.1 - Sky Ecosystem Liquidity Bootstrapping](cd4ae79c-0e34-4388-8ac2-41d7677bd955)).
+- the Sky Ecosystem Liquidity Bootstrapping Budget.
