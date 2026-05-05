@@ -1,0 +1,12 @@
+---
+id: 77850de8-afe7-47e2-aedd-e44de6922c6f
+docNo: A.6.1.1.1.2.6.1.3.1.11.2.2.3
+name: Rate Limit IDs
+type: Core
+depth: 14
+childType: sections_and_primary_docs
+---
+
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.3 - Rate Limit IDs [Core]
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.

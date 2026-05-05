@@ -1,0 +1,12 @@
+---
+id: 0d520de1-d730-427f-95bd-2ed92b80512d
+docNo: A.6.1.1.7.2.5.2.3
+name: Completed Instances
+type: Core
+depth: 9
+childType: sections_and_primary_docs
+---
+
+###### A.6.1.1.7.2.5.2.3 - Completed Instances [Core]
+
+The Instances of the Integration Boost Primitive with `Completed` Status are contained herein.

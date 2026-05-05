@@ -1,0 +1,12 @@
+---
+id: bc7296ae-4bfb-4318-87fb-44869a7932c1
+docNo: A.6.1.1.3.2.5.2.1.2
+name: Active Instances Directory
+type: Core
+depth: 10
+childType: sections_and_primary_docs
+---
+
+###### A.6.1.1.3.2.5.2.1.2 - Active Instances Directory [Core]
+
+This document contains a Directory of all Instances of the Integration Boost Primitive with Instance status of `Active`.

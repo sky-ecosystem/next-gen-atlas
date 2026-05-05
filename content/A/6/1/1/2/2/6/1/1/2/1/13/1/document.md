@@ -1,0 +1,12 @@
+---
+id: 20b30bc3-c3e8-4098-bdf2-ca288e8bee1a
+docNo: A.6.1.1.2.2.6.1.1.2.1.13.1
+name: Ethereum Mainnet - Maple syrupUSDC Instance Configuration Document Location
+type: Core
+depth: 13
+childType: sections_and_primary_docs
+---
+
+###### A.6.1.1.2.2.6.1.1.2.1.13.1 - Ethereum Mainnet - Maple syrupUSDC Instance Configuration Document Location [Core]
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.13.1 - Ethereum Mainnet - Maple syrupUSDC Instance Configuration Document](7502f64c-3276-478e-8f98-53a2377ca1a2).

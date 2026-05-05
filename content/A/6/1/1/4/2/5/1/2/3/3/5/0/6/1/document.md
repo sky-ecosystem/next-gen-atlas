@@ -1,0 +1,19 @@
+---
+id: 8fc2657e-fb6b-4d43-988c-6f47b71052f1
+docNo: A.6.1.1.4.2.5.1.2.3.3.5.0.6.1
+name: Payment Details Per Reward Period
+type: Active Data
+depth: 15
+childType: active_data
+---
+
+###### A.6.1.1.4.2.5.1.2.3.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]
+
+The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
+- Reward Period
+- Payee
+- Payment Address
+- Amount Paid
+- Transaction Hash
+- Transaction Date

@@ -1,0 +1,12 @@
+---
+id: 4d418bb4-8fce-4784-b854-170f904ccd18
+docNo: A.6.1.1.8.2.6.3.1.5.1
+name: Archived Invocations/Instances
+type: Core
+depth: 11
+childType: sections_and_primary_docs
+---
+
+###### A.6.1.1.8.2.6.3.1.5.1 - Archived Invocations/Instances [Core]
+
+The subtrees for archived Invocations and Instances of the Asset Liability Management Rental Primitive are stored here.

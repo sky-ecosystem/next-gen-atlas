@@ -1,0 +1,12 @@
+---
+id: a8aa5d01-48ae-4ade-8a3c-ed42fb40a2b2
+docNo: A.6.1.1.4.2.6.1.1.5.1
+name: Archived Invocations/Instances
+type: Core
+depth: 11
+childType: sections_and_primary_docs
+---
+
+###### A.6.1.1.4.2.6.1.1.5.1 - Archived Invocations/Instances [Core]
+
+The subtrees for archived Invocations and Instances of the Allocation System Primitive are stored here.

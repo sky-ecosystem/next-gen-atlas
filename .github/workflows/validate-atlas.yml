@@ -11,7 +11,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Compose Atlas from decomposed tree
+        run: python sync/compose.py --input content --output composed-atlas.md
+
       - name: Validate Atlas Markdown
         uses: Atlas-Axis/atlas-validator@main
         with:
-          file_path: "Sky Atlas/Sky Atlas.md"
+          file_path: "composed-atlas.md"

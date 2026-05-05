@@ -1,0 +1,12 @@
+---
+id: 71951f16-8f4e-49db-b98c-9d1799a1b869
+docNo: A.6.1.1.3.2.5.2.2.2.1.7
+name: Integration Boost Savings Rate Adjustment Strategy
+type: Core
+depth: 12
+childType: sections_and_primary_docs
+---
+
+###### A.6.1.1.3.2.5.2.2.2.1.7 - Integration Boost Savings Rate Adjustment Strategy [Core]
+
+The Integration Boost is calculated based on per block values for USDS in Drift and the Sky Savings Rate.

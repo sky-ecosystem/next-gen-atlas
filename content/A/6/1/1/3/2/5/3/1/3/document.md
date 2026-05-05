@@ -1,0 +1,12 @@
+---
+id: e7dd62af-a742-4518-97a6-70b885ad67f6
+docNo: A.6.1.1.3.2.5.3.1.3
+name: Completed Instances Directory
+type: Core
+depth: 10
+childType: sections_and_primary_docs
+---
+
+###### A.6.1.1.3.2.5.3.1.3 - Completed Instances Directory [Core]
+
+This document contains a Directory of all Instances of the Pioneer Chain Primitive with Instance status of `Completed`.
