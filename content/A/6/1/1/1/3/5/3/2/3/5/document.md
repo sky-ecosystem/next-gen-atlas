@@ -10,3 +10,5 @@ childType: sections_and_primary_docs
 ###### A.6.1.1.1.3.5.3.2.3.5 - Spark Savings PYUSD on Ethereum [Core]
 
 The Rewards Rate for Spark Savings PYUSD on Ethereum will be maintained to be equal to the Sky Savings Rate.
+
+The Rewards Rate for Spark Savings USDC on Tempo will be specified in a future iteration of the Spark Artifact.
