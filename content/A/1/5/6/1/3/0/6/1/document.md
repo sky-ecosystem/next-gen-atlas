@@ -10,3 +10,7 @@ childType: active_data
 ###### A.1.5.6.1.3.0.6.1 - Aligned Delegate Breach Registry [Active Data]
 
 Breaches of the Graduated Response Framework are recorded herein.
+
+| Date       | Identity | Breach Tier | Reasoning Post |
+|------------|----------|-------------|----------------|
+| 2026-05-08 | Kuzmich  | 1           | [Core Facilitator Post](https://forum.skyeco.com/t/ad-recognition-submission/26743/50) | 
