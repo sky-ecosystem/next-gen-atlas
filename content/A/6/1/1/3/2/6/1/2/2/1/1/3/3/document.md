@@ -11,8 +11,8 @@ childType: sections_and_primary_docs
 
 Only an operator with the admin role is able to set unlimited rate limit data for a specific key by configuring it with maximum values. Calling this function will carry out the following actions:
 
-- The contract will call setRate LimitData internally with type(uint256).max for maxAmount and lastAmount, 0 for slope, and the current block timestamp for lastUpdated.
+- The contract will call setRateLimitData internally with type(uint256).max for maxAmount and lastAmount, 0 for slope, and the current block timestamp for lastUpdated.
 
 The function call is as follows:
 
-`function setUnlimitedRate LimitData(bytes32 key) external override`
+`function setUnlimitedRateLimitData(bytes32 key) external override`

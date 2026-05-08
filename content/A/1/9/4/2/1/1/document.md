@@ -15,4 +15,4 @@ The multisig should be used to prevent technical vulnerabilities; prevent unwant
 
 The Multisig can also be used in cases where a vulnerability or exploit is discovered in other protocols using the same codebase as SparkLend, and a timely action can prevent or mitigate the damage.
 
-The Governance Facilitators must ensure that use of the multisig is generally aligned and specifically accords with the requirements defined herein.
+The Core Council must ensure that use of the multisig is generally aligned and specifically accords with the requirements defined herein.
