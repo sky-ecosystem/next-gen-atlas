@@ -11,6 +11,6 @@ childType: sections_and_primary_docs
 
 PoEs rely on a governance decision that was ratified by an Executive Vote.
 
-The Resilience Technical Committee Member must identify this governance decision by verifying the spell that enacted the Executive Vote ratifying the respective governance decision. This spell contains the hash of the respective Executive Vote. Exceptional circumstances where no direct governance decision is available or difficult to assert will be handled case by case.
+The Resilience Technical Committee Member must identify this governance decision by verifying the Spell that enacted the Executive Vote ratifying the respective governance decision. This Spell contains the hash of the respective Executive Vote. Exceptional circumstances where no direct governance decision is available or difficult to assert will be handled case by case.
 
 The Resilience Technical Committee Member will confirm the onboarding decision via an encrypted message to the Applicant.

@@ -1,12 +1,12 @@
 ---
-id: 75f0063c-ad70-49e4-b356-9b76097ced7b
+id: df4f9bfd-e743-44b5-9c62-9c5f10b15340
 docNo: A.1.5
-name: Aligned Delegates
+name: Alignment Conservers
 type: Article
 depth: 3
 childType: articles
 ---
 
-#### A.1.5 - Aligned Delegates [Article]
+#### A.1.5 - Alignment Conservers [Article]
 
-A type of Alignment Conserver, Aligned Delegates (ADs) possess considerable influence over the Sky Protocol through their control of delegated voting power. Their primary focus is to prevent the abuse of this power, whether by themselves or others, and to safeguard the ecosystem against misaligned actions from other actors or parts of the governance process. This Article defines key infrastructure and requirements concerning Aligned Delegates.
+Alignment Conservers (ACs) safeguard the Sky Governance process, ensuring its alignment with the Spirit of the Atlas. This Article defines requirements and processes related to Alignment Conservers.

@@ -1,18 +1,16 @@
 ---
-id: cef09d74-efc6-45cc-a75b-1132dae9e743
+id: a352b5e8-752e-48f8-a393-cf5df5ae523d
 docNo: A.1.10.2.1.3
-name: Triggering Requirement
+name: Executive Document
 type: Core
 depth: 6
 childType: sections_and_primary_docs
 ---
 
-###### A.1.10.2.1.3 - Triggering Requirement [Core]
+###### A.1.10.2.1.3 - Executive Document [Core]
 
-An Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "AEW Proposal") can proceed to a vote only if it is triggered by a Ranked Delegate whose AD Buffer contains at least the Triggering Threshold (see [A.1.5.4.4.2.1.1 - Triggering Threshold](2c2b201e-b95f-4852-8e76-6dfe4c3c6a4f)) at the time of triggering the Proposal. The Core Facilitator is responsible for confirming that these requirements are met.
+The Executive Document (also referred to as the "Executive Copy," "executive," "Executive Proposal," or "exec doc") is a formal, plain-English Markdown document that serves as the primary communication tool for presenting the contents of an Executive Vote to the community. Created after the Executive Sheet is finalized, it provides a detailed breakdown of the actions proposed in the Executive Vote. Unlike the Executive Sheet, which organizes actions in a cell-based format, the Executive Document expresses these actions in sentence format for improved readability.
 
-A Ranked Delegate may trigger a Proposal they authored, provided they meet the Triggering Threshold. To trigger a Proposal, the Ranked Delegate must post a reply to the Author's Weekly Cycle Proposal on the Forum. The Ranked Delegate’s post should signal their intent to trigger the Weekly Cycle Proposal.
+Each Executive Document corresponds to a specific Spell and describes the actions that the Spell will perform if executed. It is a critical tool for ensuring transparency, clarity, and alignment among stakeholders. The document serves as a proposal that can be voted on and either approved or rejected by Sky Governance. The Core Facilitator is responsible for producing and finalizing the Executive Document; and any changes must be made by them.
 
-Where more than one Ranked Delegate posts an intention to trigger a Weekly Cycle Proposal, the first Ranked Delegate to post a reply to the Author’s Forum post shall be treated as the triggering Ranked Delegate.
-
-If the Weekly Cycle Proposal is subsequently voted down, the triggering Ranked Delegate loses an amount of USDS from their AD Buffer equal to the Triggering Threshold.
+The Executive Document is designed to be accessible to both technical and non-technical members of the Sky Ecosystem. It enables Aligned Delegates and SKY holders to understand the actions that will be executed when the Spell is cast. Its contents are publicly visible on the Voting Portal, where Aligned Delegates review it before voting on the Spell. In addition to serving as a reference for voters, the Executive Document also guides the Spell Team in developing and finalizing the Spell, ensuring that the proposed actions are accurately implemented. The contents of the Executive Document are hashed and included within the Spell code to provide an additional layer of verification.

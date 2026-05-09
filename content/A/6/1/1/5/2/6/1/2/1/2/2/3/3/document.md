@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.5.2.6.1.2.1.2.2.3.3 - Signers [Core]
 
-The signers of the Freezer Multisig are four (4) addresses controlled by Obex.
+The signers of the Freezer Multisig are three (3) addresses controlled by Operational GovOps Soter Labs, one (1) address controlled by Operational Facilitator Redline Facilitation Group, and one (1) address controlled by Obex.
