@@ -12,7 +12,7 @@ childType: sections_and_primary_docs
 Validators must confirm that the deployed Spell does not execute an external `DssAction` contract. This validation ensures that the Spell is self-contained, does not rely on external contracts or pre-defined Ethereum addresses, and that the `DssExec` and `DssSpellAction` contracts are deployed together and not separately, as is done when using DarkSpells. Validators must perform the following two checks:
 
 1. Check that the DssAction contract’s `execute()` function only calls the `actions()` function and does not interact with any external contracts or explicitly defined Ethereum addresses.
-2. Check that the second argument used in the constructor when instantiating the `DssExec` is a newly created Spell action contract (e.g. `address(new DssSpellAction())`) and not an explicitly defined Ethereum address. This confirms that the Spell is linked to the correct action contract.
+2. Check that the second argument used in the constructor when instantiating the `DssExec` is a newly created Spell action contract (e.g., `address(new DssSpellAction())`) and not an explicitly defined Ethereum address. This confirms that the Spell is linked to the correct action contract.
 
 If either of these checks fails, the Spell cannot pass validation.
 

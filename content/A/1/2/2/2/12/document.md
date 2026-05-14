@@ -25,7 +25,7 @@ Facilitator Action Tenet Documents are likely to be necessary supplements for in
 
 Action Tenet Documents should be created and updated as necessary to reflect changes in governance practices, provide clarity on decision-making processes, and enhance understanding of governance principles and rules. The examples should not contradict their Target Document or other Supporting Documents of the Target Document.
 
-If the Action Tenet can be anchored to a specific term from the Target Document, that term is listed first; followed by a hyphen; and then, an abstract of the Action Tenet logic, e.g.: "Organizational Drift - ACs' Mandate When Instigating Action Can Be Traced Back to a Discrete Entity". If the Action Tenet cannot be anchored to a specific term from the Target Document, the "Name" property should simply summarize the Action Tenet logic, e.g.: "Evaluating AC breach of role-specific requirement vs. general requirement".
+If the Action Tenet can be anchored to a specific term from the Target Document, that term is listed first; followed by a hyphen; and then, an abstract of the Action Tenet logic, e.g., "Organizational Drift - ACs' Mandate When Instigating Action Can Be Traced Back to a Discrete Entity". If the Action Tenet cannot be anchored to a specific term from the Target Document, the "Name" property should simply summarize the Action Tenet logic, e.g., "Evaluating AC breach of role-specific requirement vs. general requirement".
 
 **Type Category**:
 

@@ -11,4 +11,4 @@ childType: sections_and_primary_docs
 
 Spell validators should ensure that oracle addresses are correctly verified.
 
-To perform this validation the validators should go to the Chainlog and locate the relevant oracle (e.g. `PIP_ETH`). Take the contract address listed in the Chainlog to Etherscan. Open the "Read" tab of the contract on Etherscan. Look for the `src` value. Verify that the `src` value matches the `MedianETHUSDcontract` address referenced in the Spell.
+To perform this validation the validators should go to the Chainlog and locate the relevant oracle (e.g., `PIP_ETH`). Take the contract address listed in the Chainlog to Etherscan. Open the "Read" tab of the contract on Etherscan. Look for the `src` value. Verify that the `src` value matches the `MedianETHUSDcontract` address referenced in the Spell.

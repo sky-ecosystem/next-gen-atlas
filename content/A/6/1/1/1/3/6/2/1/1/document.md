@@ -19,4 +19,4 @@ Spark's strategic investment will be undertaken with the following terms:
     - Simple Agreement for Future Equity (SAFE) substantially mirroring the Ycombinator SAFE format
     - Token warrant providing for token ownership share equal to at least 50% of Spark's share of equity ownership at the time of token launch
     - Side letter providing for most favored nation rights, pro rata rights, information rights, major investor rights, and right to elect one director
-- Fee reduction: Spark will benefit from reduced fees for use of Arkis protocol for 5 years with Spark Foundation holding the option to extend by 2 additional years, assessed as a 50% reduction vs the lowest rate of fees paid by any other user
+- Fee reduction: Spark will benefit from reduced fees for use of Arkis protocol for 5 years with Spark Foundation holding the option to extend by 2 additional years, assessed as a 50% reduction vs. the lowest rate of fees paid by any other user

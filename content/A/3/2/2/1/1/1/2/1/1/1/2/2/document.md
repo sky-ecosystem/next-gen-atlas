@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.2.2.1.1.1.2.1.1.1.2.2 - Lending Non-Ethena Related Assets Against Ethena Related Collateral [Core]
 
-For non-Ethena related assets lent against Ethena related collateral (e.g. lending USDC against PT-USDe or PT-sUSDe), the Instance Financial CRR is 4%.
+For non-Ethena related assets lent against Ethena related collateral (e.g., lending USDC against PT-USDe or PT-sUSDe), the Instance Financial CRR is 4%.

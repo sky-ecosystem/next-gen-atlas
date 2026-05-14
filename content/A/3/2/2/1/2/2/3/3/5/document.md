@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.2.2.1.2.2.3.3.5 - Total External Calls [Core]
 
-Total External Calls is the count of all external calls (e.g. `call`, `delegatecall`) made in the covered smart contracts.
+Total External Calls is the count of all external calls (e.g., `call`, `delegatecall`) made in the covered smart contracts.

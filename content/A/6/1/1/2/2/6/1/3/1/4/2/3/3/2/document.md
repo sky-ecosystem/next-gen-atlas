@@ -9,7 +9,7 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.3.1.4.2.3.3.2 - Encode Function [Core]
 
-The operator must use `proxy.doCall()` to make a call to the `susde` contract to invoke the `unstake` function, which unstakes sUSDe and sends the resulting tokens back to the `proxy` address (i.e. ALM Proxy). They must encode the function using `abi.encodeCall`.
+The operator must use `proxy.doCall()` to make a call to the `susde` contract to invoke the `unstake` function, which unstakes sUSDe and sends the resulting tokens back to the `proxy` address (i.e., ALM Proxy). They must encode the function using `abi.encodeCall`.
 
 `{
     proxy.doCall(

@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.8.2.2.2.5.3 - Financial Strategies [Core]
 
-The financial strategies implemented by the Prime Foundations (i.e. the Spark Foundation and Grove Foundation) will be closed source. Operational specifics are further defined in the subdocuments herein.
+The financial strategies implemented by the Prime Foundations (i.e., the Spark Foundation and Grove Foundation) will be closed source. Operational specifics are further defined in the subdocuments herein.

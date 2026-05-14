@@ -9,7 +9,7 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.3.2.3 - Check RateLimits [Core]
 
-The operator must ensure the `withdraw` amount is allowed within the `RateLimits `for this instance (e.g. using `[Instance_RateLimitID_Withdraw_Placeholder]` for `token` `[Instance_Fluid_USDS_Vault_Address_Placeholder]`).
+The operator must ensure the `withdraw` amount is allowed within the `RateLimits `for this instance (e.g., using `[Instance_RateLimitID_Withdraw_Placeholder]` for `token` `[Instance_Fluid_USDS_Vault_Address_Placeholder]`).
 
 `// Check withdrawal limits.
         rateLimited(

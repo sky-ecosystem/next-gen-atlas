@@ -11,4 +11,4 @@ childType: sections_and_primary_docs
 
 Alignment Conservers (ACs) must meet the most stringent standards for Universal Alignment, demonstrating not only compliance with the letter of the rules but also a deep and authentic commitment to the spirit of the rules, i.e., the underlying principles and goals of Sky. This demanding standard goes beyond mere technical compliance and requires proof of genuine intent and actions consistent with upholding the Spirit of the Atlas.
 
-See [A.0.1.1.9 - Letter Of The Rule Vs Spirit Of The Rule](ff16fd74-3a81-4cac-92b4-1208d4d9f337).
+See [A.0.1.1.9 - Letter Of The Rule Vs. Spirit Of The Rule](ff16fd74-3a81-4cac-92b4-1208d4d9f337).
