@@ -19,11 +19,11 @@ childType: sections_and_primary_docs
 
 "Finding": This Component indicates whether, in this Scenario, the Target Document logic was or was not breached. If the Target Document was not breached, the Finding is "Aligned". If the Target Document was breached, the Finding is "Misaligned".
 
-"Additional Guidance": This Component provides additional context on the specific aspects of the Scenario that were salient to the Aligned or Misaligned finding. It can also provide guidance in terms of how the Facilitators should respond to such a Scenario, i.e.: follow-up actions or means of investigation.
+"Additional Guidance": This Component provides additional context on the specific aspects of the Scenario that were salient to the Aligned or Misaligned finding. It can also provide guidance in terms of how the Facilitators should respond to such a Scenario, i.e., follow-up actions or means of investigation.
 
 **Doc Identifier Rules**:
 
-Facilitator Scenario Documents must always be located as subdocuments of the Facilitator Scenario Directory Document, which in turn is nested under its parent Facilitator Action Tenet Document, e.g.: A.1.1-1.0.4.1.1.1.
+Facilitator Scenario Documents must always be located as subdocuments of the Facilitator Scenario Directory Document, which in turn is nested under its parent Facilitator Action Tenet Document, e.g., A.1.1-1.0.4.1.1.1.
 
 A Scenario’s Name should never be followed by a number unless there are multiple Scenarios with the same Name.
 

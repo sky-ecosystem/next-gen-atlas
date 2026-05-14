@@ -19,7 +19,7 @@ childType: sections_and_primary_docs
 
 **Doc Identifier Rules**:
 
-Focus Hub Documents must be located at the nonzero numerical positions below Navigation Hubs, e.g.: x.0.0.1, x.0.0.2, etc.
+Focus Hub Documents must be located at the nonzero numerical positions below Navigation Hubs, e.g., x.0.0.1, x.0.0.2, etc.
 
 **Additional Logic**:
 

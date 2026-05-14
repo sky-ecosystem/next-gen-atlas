@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.3.2.6.1.2.2.2.1.1.3 - Freezer Role [Core]
 
-The Freezer role is the address of the emergency role that can remove a compromised Relayer. The Freezer role has `can_freeze_controller` , `can_suspend_permissions` and `can_liquidate` permissions.
+The Freezer role is the address of the emergency role that can remove a compromised Relayer. The Freezer role has `can_freeze_controller`, `can_suspend_permissions`, and `can_liquidate` permissions.

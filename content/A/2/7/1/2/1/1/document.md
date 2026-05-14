@@ -15,4 +15,4 @@ Responsible moderators are granted the prerogative to ban users from the communi
 
 However, unless egregiously misaligned or disrupting behavior takes place, responsible moderators should err on the side of charity and issue a public warning for users who engage in bad behavior before resorting to banning them. Egregiously misaligned or disrupting behavior includes spamming, flooding, threatening, or using inappropriate or abusive language.
 
-Only the Core Facilitator may ban a user from the Sky Forum when doing so would operationally block an ongoing governance process (e.g. the user has submitted an otherwise eligible governance proposal).
+Only the Core Facilitator may ban a user from the Sky Forum when doing so would operationally block an ongoing governance process (e.g., the user has submitted an otherwise eligible governance proposal).

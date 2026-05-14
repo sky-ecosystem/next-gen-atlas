@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.2.1.3.2.2 - Suspended Instance Status [Core]
 
-The instance Status of `Suspended` indicates that an instance of a Primitive was `Active` at one point in time and may be `Active` again, but is not currently operational. This may be due to the Primitive not meeting performance expectations (e.g. for an Allocation System instance), security issues, or due to failure of the Agent operating the Primitive to satisfy other requirements such as those specified in the Risk Capital or Asset Liability Management frameworks.
+The instance Status of `Suspended` indicates that an instance of a Primitive was `Active` at one point in time and may be `Active` again, but is not currently operational. This may be due to the Primitive not meeting performance expectations (e.g., for an Allocation System instance), security issues, or due to failure of the Agent operating the Primitive to satisfy other requirements such as those specified in the Risk Capital or Asset Liability Management frameworks.

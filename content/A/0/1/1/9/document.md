@@ -1,13 +1,13 @@
 ---
 id: ff16fd74-3a81-4cac-92b4-1208d4d9f337
 docNo: A.0.1.1.9
-name: Letter Of The Rule Vs Spirit Of The Rule
+name: Letter Of The Rule Vs. Spirit Of The Rule
 type: Core
 depth: 5
 childType: sections_and_primary_docs
 ---
 
-###### A.0.1.1.9 - Letter Of The Rule Vs Spirit Of The Rule [Core]
+###### A.0.1.1.9 - Letter Of The Rule Vs. Spirit Of The Rule [Core]
 
 The distinction between the "letter of the rule" and the "spirit of the rule" refers to whether an individual interprets and follows a rule strictly based on its precise wording, or instead also considers its underlying intent or larger purpose. The Universal Alignment Assumption holds that the underlying intent of rules always aims to serve human values and promote public benefit within a given context.
 

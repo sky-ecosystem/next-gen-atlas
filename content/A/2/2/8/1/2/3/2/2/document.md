@@ -13,6 +13,6 @@ The process flow is defined herein:
 
 - Operational GovOps reviews the `Initial Planning Document` to ensure:
     - Operational GovOps has the ability to operationalize the proposed tracking mechanism, and
-    - The proposed tracking mechanism accurately reflects USDS usage attributable to the actor and there is no possibility that rewards could be "double counted" (i.e. multiple actors being paid for the same USDS balance).
+    - The proposed tracking mechanism accurately reflects USDS usage attributable to the actor and there is no possibility that rewards could be "double counted" (i.e., multiple actors being paid for the same USDS balance).
 - Operational GovOps submits its feedback into the `Operational GovOps Review Document` (created at Create `Operational GovOps Review Document`.) along with suggested changes, if any.
 - The Prime Agent incorporates feedback from Operational GovOps and edits its `Initial Planning Document` as needed.

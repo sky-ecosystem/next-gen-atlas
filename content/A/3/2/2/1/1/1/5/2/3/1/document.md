@@ -32,7 +32,7 @@ Credit Risk for On-Balance Sheet or Off-Balance Sheet Items is calculated based 
 | Credit substitutes not included in any other category | `CRE20.95` |
 | Note issuance facilities | `CRE20.96` |
 | Revolving underwriting facilities | `CRE20.96` |
-| Certain transactions-related contingent items (e.g. performance bonds, bid bonds, warranties, standby letters of credit) | `CRE20.97` |
+| Certain transactions-related contingent items (e.g., performance bonds, bid bonds, warranties, standby letters of credit) | `CRE20.97` |
 | Commitments regardless of the maturity of the underlying facility | `CRE20.98` |
 | Both issuing and confirming banks of short-term self-liquidating trade letters of credit arising from the movement of goods | `CRE20.99` |
 | Commitments that are unconditionally cancellable at any time by the bank without prior notice | `CRE20.100` |

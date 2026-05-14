@@ -17,11 +17,11 @@ childType: sections_and_primary_docs
 
 "Finding": This Component indicates whether, in this Scenario Variation, the Target Document logic was or was not breached. If the Target Document was not breached, the Finding is "Aligned". If the Target Document was breached, the Finding is "Misaligned".
 
-"Additional Guidance": This Component provides additional context on the specific aspects of the Scenario Variation that were salient to the Aligned or Misaligned finding. It can also provide guidance in terms of how the Facilitators should respond to such a Scenario, i.e.: follow-up actions or means of investigation.
+"Additional Guidance": This Component provides additional context on the specific aspects of the Scenario Variation that were salient to the Aligned or Misaligned finding. It can also provide guidance in terms of how the Facilitators should respond to such a Scenario, i.e., follow-up actions or means of investigation.
 
 **Doc Identifier Rules**:
 
-Scenario Variation Documents are located as subdocuments to the Scenario Document of which they are a variation. Their Document Identifier is the same as their parent Scenario, with an additional suffix 'var' followed by the variation number of the original Scenario document. For example, the second Scenario Variation of the original Scenario document `A.1.1.0.4.1.1.1.` would have the following identifier: `A.1.1.0.4.1.1.1.var2` .
+Scenario Variation Documents are located as subdocuments to the Scenario Document of which they are a variation. Their Document Identifier is the same as their parent Scenario, with an additional suffix 'var' followed by the variation number of the original Scenario document. For example, the second Scenario Variation of the original Scenario document `A.1.1.0.4.1.1.1.` would have the following identifier: `A.1.1.0.4.1.1.1.var2`.
 
 **Additional Logic**:
 

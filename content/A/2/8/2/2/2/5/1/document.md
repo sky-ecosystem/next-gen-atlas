@@ -9,7 +9,7 @@ childType: sections_and_primary_docs
 
 ###### A.2.8.2.2.2.5.1 - License Agreements [Core]
 
-Each Prime Foundation (i.e. the Spark Foundation and Grove Foundation) must sign a license agreement with Moonbow for all relevant intellectual property. This license agreement must contain the following terms:
+Each Prime Foundation (i.e., the Spark Foundation and Grove Foundation) must sign a license agreement with Moonbow for all relevant intellectual property. This license agreement must contain the following terms:
 
 - Worldwide, commercial, exclusive license, revocable for material breach (immediate revocation in severe cases, 30-day notice for non-severe cases).
 - Royalty-free.

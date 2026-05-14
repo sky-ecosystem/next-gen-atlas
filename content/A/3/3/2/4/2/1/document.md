@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.3.2.4.2.1 - Alternatives For Satisfying Peg Defense Obligations [Core]
 
-Peg Defense can be performed through a combination of (1) selling other types of collateral for USDS, or (2) by using USDS, or generating new USDS via the Allocation System, that is then used as collateral to borrow other types of assets (e.g. USDC or USDT on Aave) and buy USDS with it.
+Peg Defense can be performed through a combination of (1) selling other types of collateral for USDS, or (2) by using USDS, or generating new USDS via the Allocation System, that is then used as collateral to borrow other types of assets (e.g., USDC or USDT on Aave) and buy USDS with it.
