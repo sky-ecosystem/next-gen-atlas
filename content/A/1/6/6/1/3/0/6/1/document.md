@@ -11,8 +11,6 @@ childType: active_data
 
 Breaches of the Graduated Response Framework are recorded herein.
 
-| Date       | Identity        | Breach Tier | Reasoning Post |
-|------------|-----------------|-------------|----------------|
-| 2026-05-08 | Kuzmich         | 1           | [Core Facilitator Post](https://forum.skyeco.com/t/ad-recognition-submission/26743/50) | 
-| 2026-05-15 | Kuzmich         | 1           | [Core Facilitator Post](https://forum.skyeco.com/t/ad-recognition-submission/26743/51) |
-| 2026-05-15 | MaxStakingYield | 1           | [Core Facilitator Post](https://forum.skyeco.com/t/max-staking-yield-ad-recognition-submission/26462/80) |
+| Date       | Identity | Breach Tier | Reasoning Post |
+|------------|----------|-------------|----------------|
+| 2026-05-08 | Kuzmich  | 1           | [Core Facilitator Post](https://forum.skyeco.com/t/ad-recognition-submission/26743/50) | 

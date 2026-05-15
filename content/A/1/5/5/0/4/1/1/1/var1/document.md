@@ -23,4 +23,4 @@ An "ecosystem role" need not be compensated or full-time to be regulated by the 
 
 An unranked, uncompensated Aligned Delegate is nevertheless an 'ecosystem role' in the sense of the Target Document. Notwithstanding being unranked and uncompensated, the AD role still carries with it a mandate and array of incentives that are distinct from those of a Facilitator.
 
-The Facilitator should derecognize Entity from both AC roles per [A.1.5 - A10 - Alignment Conservers - Accountability And Misalignment Handling - AC Derecognition](ac998664-5b5e-4ea5-813b-dc3105ea6cf2).
+The Facilitator should derecognize Entity from both AC roles per [A.1.5.10 - AC Derecognition](ac998664-5b5e-4ea5-813b-dc3105ea6cf2).

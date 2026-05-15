@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.7.2.1.4.2.1.1.2 - Token Symbol [Core]
 
-The symbol of Launch Agent 6's token is AGENT6.
+The symbol of Osero's token is OSERO.

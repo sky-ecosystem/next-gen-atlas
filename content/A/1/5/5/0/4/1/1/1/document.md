@@ -21,4 +21,4 @@ Misaligned
 
 That Entity is alternating between two roles to perform their duties in separate time intervals does not negate the misalignment risk that the Target Document is intended to protect against. They are still formally occupying two roles at once. They still have access to sensitive information and experiences in two roles with different mandates and incentives.
 
-The Facilitator should derecognize Entity per [A.1.5 - A10 - Alignment Conservers - Accountability And Misalignment Handling - AC Derecognition](ac998664-5b5e-4ea5-813b-dc3105ea6cf2).
+The Facilitator should derecognize Entity per [A.1.5.10 - AC Derecognition](ac998664-5b5e-4ea5-813b-dc3105ea6cf2).

@@ -21,6 +21,6 @@ Misaligned
 
 If an actor assumes more than one role in the Sky ecosystem, the risks of conflict of interest, collusion, conspiracy and other misaligned behavior necessarily arises. That the Entity's second position is in an "on-call" or stand-by position does not negate this risk. Entity is still formally occupying two roles with different mandates, incentives and access/permissions. It is conceivable that Entity's decision-making in their first role could be compromised or influenced, even in subtle ways, by the experiences, knowledge and biases to which Entity is exposed in their second role. Therefore, the risk of misalignment, which the Target Document aims to guard against, remains present.
 
-The Facilitator should derecognize Entity as an AD per [A.1.5 - A10 - Alignment Conservers - Accountability And Misalignment Handling - AC Derecognition](ac998664-5b5e-4ea5-813b-dc3105ea6cf2).
+The Facilitator should derecognize Entity as an AD per [A.1.5.10 - AC Derecognition](ac998664-5b5e-4ea5-813b-dc3105ea6cf2).
 
 No specific logic exists as yet for the adjudication of misalignment on the part of an Ecosystem Actor team member.

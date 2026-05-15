@@ -21,4 +21,4 @@ Misaligned
 
 Entity was unable to provide any proof that it had formally resigned its first role with the Facilitator team. Merely claiming that a resignation email was sent is not sufficient. Further, unlike the original Scenario, Entity in this Variation continued to have access to the Facilitator team workspace even after the alleged date of resignation. Technically speaking, Entity is still formally occupying two roles with different mandates and incentives. The potential exists for conflict of interest, collusion, etc. The part-time role does not impact this analysis.
 
-The Core Facilitator should derecognize Entity from its AD role per [A.1.5 - A10 - Alignment Conservers - Accountability And Misalignment Handling - AC Derecognition](ac998664-5b5e-4ea5-813b-dc3105ea6cf2).
+The Core Facilitator should derecognize Entity from its AD role per [A.1.5.10 - AC Derecognition](ac998664-5b5e-4ea5-813b-dc3105ea6cf2).

@@ -23,6 +23,6 @@ In contrast to the original Scenario, the Facilitator uncovered evidence that in
 
 That the Facilitator was stonewalled in its investigation also is a strong indication of malign intent on the part of Entity and the EA. Yet, there is no concrete proof of this.
 
-Under these circumstances, it is reasonable to extrapolate that derecognition from the AC role would suffice, per [A.1.5 - A10 - Alignment Conservers - Accountability And Misalignment Handling - AC Derecognition](ac998664-5b5e-4ea5-813b-dc3105ea6cf2).
+Under these circumstances, it is reasonable to extrapolate that derecognition from the AC role would suffice, per [A.1.5.10 - AC Derecognition](ac998664-5b5e-4ea5-813b-dc3105ea6cf2).
 
 The concern remains that, potentially, a bad actor can continue to exploit the ecosystem, especially if other ecosystem participants are not aware of their questionable history. To mitigate this risk, the Facilitator can include details about the evidence it discovered in its formal derecognition notice, which can impact the reputation score of Entity.
