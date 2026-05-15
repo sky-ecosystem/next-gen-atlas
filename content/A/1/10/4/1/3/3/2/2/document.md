@@ -9,6 +9,6 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.4.1.3.3.2.2 - USDS Rate Limit [Core]
 
-The Avalanche SkyLink Bridge currently has a USDS rate limit of 5,000,000 USDS per day.
+The Avalanche SkyLink Bridge currently has a USDS rate limit of 0 USDS per day.
 
 The rate limit for the Avalanche SkyLink Bridge may be modified by the Core Facilitator, in consultation with the Core Council Risk Advisor, through the Operational Weekly Cycle. Such modifications can be effected directly via an Executive Vote, without requiring a prior Governance Poll.
