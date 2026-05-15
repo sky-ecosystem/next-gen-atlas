@@ -1,2 +1,19 @@
 *.bak
 *.tmp
+
+# System-specific files
+*.log
+*.pid
+*.pid.lock
+*.pyc
+__pycache__/
+*.sqlite
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+venv/
+.venv/
