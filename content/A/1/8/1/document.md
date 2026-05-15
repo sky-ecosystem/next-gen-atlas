@@ -1,14 +1,12 @@
 ---
-id: 20dcf582-8862-48b3-9ca9-c3703871bd14
+id: 1ef5767b-60bc-446a-af45-4eccdb20c023
 docNo: A.1.8.1
-name: Emergency Response
+name: Active Ecosystem Actors
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.8.1 - Emergency Response [Section]
+##### A.1.8.1 - Active Ecosystem Actors [Section]
 
-The Sky Protocol has often required changes outside of the standard Weekly Governance Cycle and Monthly Governance Cycle to help maintain the peg or to quickly respond to changes in the Ecosystem. This Section defines a general protocol for handling emergency or urgent situations.
-
-[A.1.9.5 - Emergency Spells](b8266c11-3a84-4bbe-abe2-de9474f74ffd) governs the resolution of emergency / urgent situations involving the Executive Process.
+Active or Incubating Ecosystem Actors work according to the specifications of the Atlas to receive funding for performing specific projects that benefit the Sky Ecosystem. Such projects can include developing new features; performing data collection or analysis; performing marketing, growth, outreach or educational activities; legal work or government outreach; and other operational activities. Active and Incubating Ecosystem Actors are the only type of actor that is permitted to do work that isn’t strictly defined in, and bounded by, the Atlas.

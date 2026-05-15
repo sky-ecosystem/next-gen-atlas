@@ -1,12 +1,12 @@
 ---
-id: df4f9bfd-e743-44b5-9c62-9c5f10b15340
+id: 08176561-7acf-47e0-bb54-41771d54b15f
 docNo: A.1.4
-name: Alignment Conservers
+name: Governance Accessibility
 type: Article
 depth: 3
 childType: articles
 ---
 
-#### A.1.4 - Alignment Conservers [Article]
+#### A.1.4 - Governance Accessibility [Article]
 
-Alignment Conservers (ACs) safeguard the Sky Governance process, ensuring its alignment with the Spirit of the Atlas. This Article defines requirements and processes related to Alignment Conservers.
+This Article regulates the design and implementation of platforms for facilitating accessible and transparent governance.

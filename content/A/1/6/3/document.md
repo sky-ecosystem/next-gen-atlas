@@ -1,12 +1,12 @@
 ---
-id: 014feb92-49dc-4117-911f-a6ec14451b30
+id: 4e9e5868-92ea-486a-b30c-01391a027ba1
 docNo: A.1.6.3
-name: Facilitators Must Maintain High Level Of Operational Security
+name: In General
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.6.3 - Facilitators Must Maintain High Level Of Operational Security [Section]
+##### A.1.6.3 - In General [Section]
 
-Facilitators are required to maintain a high level of operational security, adhering to best practices in privacy, cybersecurity, and physical resilience. These measures must be implemented at a level that sufficiently safeguards the Sky Ecosystem from physical risk posed by the potential for attacks against Facilitators. Facilitators’ operational security protocols should be regularly reviewed and updated to address emerging risks and ensure continuous protection of the ecosystem.
+Delegate Contracts are smart contracts that can receive delegated voting power from SKY holders and Staking users.
