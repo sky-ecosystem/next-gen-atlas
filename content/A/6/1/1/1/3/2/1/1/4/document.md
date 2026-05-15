@@ -13,4 +13,4 @@ The kill switch disables all borrowing across SparkLend markets in the event of 
 
 The kill switch is defined in terms of a threshold for specified pegged assets. If the ratio of the price of a specified asset to its peg is equal to or less than the threshold, then any user can trigger the kill switch to disable borrowing across all SparkLend markets.
 
-After the kill switch is triggered, markets can be reactivated by Sky Governance after resetting the kill switch. Resetting the kill switch is subject to the Governance Security Delay specified in [A.1.9.3 - Governance Security Delay Requirements](c5f0e955-0441-42e0-a6fc-eab875bba568).
+After the kill switch is triggered, markets can be reactivated by Sky Governance after resetting the kill switch. Resetting the kill switch is subject to the Governance Security Delay specified in [A.1.10.3 - Governance Security Delay Requirements](c5f0e955-0441-42e0-a6fc-eab875bba568).

@@ -1,12 +1,14 @@
 ---
-id: ce3344b0-a567-4fdf-b9e8-6520ee2e10fd
+id: 36e7c024-0156-4941-a9f2-f53ce25ef39f
 docNo: A.1.6.8.0.4.1
-name: "Clearly Detail Their Interactions - Facilitators' Documentation Mandate"
+name: Promptly Derecognized - Mandated Timeline For AD Derecognition For Operational Security Breach
 type: Action Tenet
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.1.6.8.0.4.1 - Clearly Detail Their Interactions - Facilitators' Documentation Mandate [Action Tenet]
+###### A.1.6.8.0.4.1 - Promptly Derecognized - Mandated Timeline For AD Derecognition For Operational Security Breach [Action Tenet]
 
-Facilitators are required to thoroughly document all aspects of their communications and dealings with counterparties. This includes the content of discussions, the context of interactions (date and time), and any decisions made or actions taken as a result.
+The element 'promptly' in the Target Document means 'as soon as is reasonably possible.'
+
+To adhere to this commitment, the Core Facilitator must derecognize the AD within a general timeframe of 1-2 calendar days upon conclusion of an investigation that finds against the AD for breach of operational security. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the Facilitators’ control.

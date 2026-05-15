@@ -1,12 +1,12 @@
 ---
-id: de0cc370-de9c-48a4-b10e-91782df7abcd
+id: 1d940c6d-02ce-4c17-8057-cef13c1cc7ad
 docNo: A.1.9
-name: Sky Core Governance Security
+name: Emergency Response System
 type: Article
 depth: 3
 childType: articles
 ---
 
-#### A.1.9 - Sky Core Governance Security [Article]
+#### A.1.9 - Emergency Response System [Article]
 
-This Article governs the correct and secure execution of Sky Governance processes for deploying and reviewing Executive Votes. This Article must protect against all forms of attacks, disruption and accidental failure by maximizing the transparency and resilience of the Sky Executive Process.
+This Article defines a general emergency response protocol for managing emergencies or urgent situations outside of the standard Weekly Governance Cycle and Monthly Governance Cycle.

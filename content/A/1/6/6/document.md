@@ -1,16 +1,16 @@
 ---
-id: 7aafa61e-8649-41fb-8c3f-64e5714f9f18
+id: 8953d5dc-1344-4fec-ae25-693204f64e38
 docNo: A.1.6.6
-name: Acting Against Misalignment
+name: Swift Action Is Required From Facilitators To Redress AD Misalignment
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.6.6 - Acting Against Misalignment [Section]
+##### A.1.6.6 - Swift Action Is Required From Facilitators To Redress AD Misalignment [Section]
 
-The Core Facilitator is empowered with broad discretion in addressing situations where an Alignment Conserver, Ecosystem Actor or other relevant governance participant's actions are misaligned. See [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57), which defines the adjudication process that the Core Facilitator must follow in addressing Alignment Conserver misalignment.
+The Facilitator must act swiftly when an AD is suspected of breaching the requirements defined in this Article, or the requirements defined in [A.1.5 - Alignment Conservers](df4f9bfd-e743-44b5-9c62-9c5f10b15340).
 
-The Core Facilitators' abuse of this discretionary power is severe misalignment. Any allegations of this abuse of power must be adjudicated by Core GovOps pursuant to the process defined in the above-cited document.
+Any Facilitator has the authority to formally raise an allegation of AD misalignment with the Core Facilitator, which then obligates the latter to initiate a formal adjudication pursuant to [A.1.5.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
 
-The Core Facilitator's failure to act promptly in addressing credible evidence of misalignment is considered an act of misalignment itself. Formal allegations of such failure must be adjudicated by Core GovOps to the same process referenced in the above-cited document.
+A Facilitator's failure to act promptly in addressing credible evidence of AD misalignment or to mitigate the risk of misalignment spreading among ADs is considered an act of misalignment itself. Formal allegations of such failure must be adjudicated by the Core Facilitator pursuant to the same process referenced in the above-cited document.
