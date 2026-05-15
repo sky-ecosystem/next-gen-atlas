@@ -1,12 +1,12 @@
 ---
-id: 3fcd3f17-f135-420e-9362-7c039daf6a52
+id: 933c2078-5353-4788-85cf-65bb0975f916
 docNo: A.1.5.2
-name: Aligned Delegate Responsibilities
+name: ACs Must Safeguard The Spirit Of The Atlas
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.5.2 - Aligned Delegate Responsibilities [Section]
+##### A.1.5.2 - ACs Must Safeguard The Spirit Of The Atlas [Section]
 
-This Section defines specific responsibilities of Aligned Delegates.
+Alignment Conservers must always act to preserve the Spirit of the Atlas and to protect Sky Ecosystem against all forms of corruption, organizational drift, and other misalignment threats.

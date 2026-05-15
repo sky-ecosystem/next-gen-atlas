@@ -1,12 +1,12 @@
 ---
-id: 39cd11f3-70fc-4a05-9cc0-fcb5efccaa11
+id: 6c0810e2-390d-4efb-8b31-f36a7f6e1a05
 docNo: A.1.12.1
-name: Updating Active Data
+name: Calendar Exceptions
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.12.1 - Updating Active Data [Section]
+##### A.1.12.1 - Calendar Exceptions [Section]
 
-This Section defines the processes by which Active Data documents are updated.
+Due to the multitude of cultural and religious holidays occurring in and around the month of December, there will be no Monthly Governance Cycle in the December of each year.

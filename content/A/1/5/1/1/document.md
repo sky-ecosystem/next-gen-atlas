@@ -1,12 +1,12 @@
 ---
-id: 88a86033-29d9-497e-8d9e-9862680ee6b1
+id: c1fded55-6819-49c0-b008-008e1914362a
 docNo: A.1.5.1.1
-name: Mandate to Enforce Rules
+name: Role Of Core Facilitator
 type: Core
 depth: 5
 childType: sections_and_primary_docs
 ---
 
-###### A.1.5.1.1 - Mandate to Enforce Rules [Core]
+###### A.1.5.1.1 - Role Of Core Facilitator [Core]
 
-The Core Facilitator must enforce all rules governing Aligned Delegates.
+The Core Facilitator must be vigilant in enforcing all rules applicable to Alignment Conservers. The Core Facilitator must take prompt action against Alignment Conservers if they break rules specified in the Atlas, or otherwise act misaligned.

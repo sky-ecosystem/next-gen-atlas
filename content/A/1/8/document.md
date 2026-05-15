@@ -1,12 +1,12 @@
 ---
-id: 1d940c6d-02ce-4c17-8057-cef13c1cc7ad
+id: d6b43720-243e-4610-8c03-cd515ace6247
 docNo: A.1.8
-name: Emergency Response System
+name: Professional Ecosystem Actors
 type: Article
 depth: 3
 childType: articles
 ---
 
-#### A.1.8 - Emergency Response System [Article]
+#### A.1.8 - Professional Ecosystem Actors [Article]
 
-This Article defines a general emergency response protocol for managing emergencies or urgent situations outside of the standard Weekly Governance Cycle and Monthly Governance Cycle.
+Professional Ecosystem Actors are external actors that complete work for Sky Ecosystem. This Article defines rules and processes related to Professional Ecosystem Actors.

@@ -1,12 +1,12 @@
 ---
-id: d607a8e3-17e1-4aab-9e74-11af39767cc7
+id: 75e8fd51-a540-4c3a-aaa9-1a38502f89b2
 docNo: A.1.13
-name: Relationship Between Sky Core And Agents
+name: Updating Active Data
 type: Article
 depth: 3
 childType: articles
 ---
 
-#### A.1.13 - Relationship Between Sky Core And Agents [Article]
+#### A.1.13 - Updating Active Data [Article]
 
-This Article governs the relationship and balance of power between Sky Core (and the Sky Core Atlas) and all Agents (and their respective Agent Artifacts).
+This Article regulates modifications to Active Data documents. Active Data documents can be directly modified by Facilitators or other recognized actors through processes that occur outside the standard Weekly Governance Cycle and Monthly Governance Cycle.
