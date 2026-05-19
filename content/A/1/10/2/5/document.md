@@ -1,12 +1,12 @@
 ---
-id: 9f8be4ba-170e-44c3-887e-c577c7b9394f
+id: 3aa5bc98-91ce-4588-b345-a96af8ba2366
 docNo: A.1.10.2.5
-name: Reconciliation Process
+name: Voting Process For Executive Votes
 type: Core
 depth: 5
 childType: sections_and_primary_docs
 ---
 
-###### A.1.10.2.5 - Reconciliation Process [Core]
+###### A.1.10.2.5 - Voting Process For Executive Votes [Core]
 
-If multiple Atlas Edit Weekly Cycle Proposals editing the same component of the Atlas are approved by voters in the same Governance Cycle, the Reconciliation Process documented herein must be followed.
+The subdocuments herein provide a high-level summary of the voting process for Executive Votes within the Sky Protocol.

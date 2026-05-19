@@ -13,5 +13,5 @@ When a collateral type threatens the security or solvency of the Sky Protocol, a
 
 Expedited offboardings must proceed pursuant to the following requirements:
 
-- The Offboarding Proposal must state that the offboarding should be expedited due to an emergency or urgent concern, as defined in [A.1.8.1.1 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225)**.**
+- The Offboarding Proposal must state that the offboarding should be expedited due to an emergency or urgent concern, as defined in [A.1.9.1.1 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225)**.**
 - The Offboarding Proposal must explicitly reference this Atlas document.

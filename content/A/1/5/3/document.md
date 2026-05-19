@@ -1,12 +1,12 @@
 ---
-id: 4e9e5868-92ea-486a-b30c-01391a027ba1
+id: 403a05ce-f8e0-4ecf-8a56-026c0acd0d8a
 docNo: A.1.5.3
-name: In General
+name: Universal Alignment Requirements
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.5.3 - In General [Section]
+##### A.1.5.3 - Universal Alignment Requirements [Section]
 
-Delegate Contracts are smart contracts that can receive delegated voting power from SKY holders and Staking users.
+Alignment Conservers must operate only within the clearly delineated processes and frameworks of the Immutable Documents. ACs are strictly prohibited from colluding or secretly organizing to circumvent or undermine the Spirit of the Atlas. Any action of an Alignment Conserver that disrupts the governance dynamic of Sky is considered misalignment, as is any inaction that allows such violations to occur.
