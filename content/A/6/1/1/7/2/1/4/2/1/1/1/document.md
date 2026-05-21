@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.7.2.1.4.2.1.1.1 - Token Name [Core]
 
-The name of Launch Agent 6's token is Launch Agent 6.
+The name of Osero's token is Osero.

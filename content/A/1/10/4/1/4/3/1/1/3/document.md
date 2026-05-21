@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.4.1.4.3.1.1.3 - Plasma SkyLink Freezer Multisig Signers [Core]
 
-The signers of the Plasma SkyLink Freezer Multisig are three (3) addresses controlled by Operational GovOps Soter Labs, one (1) address controlled by Operational Facilitator Redline Facilitation Group, and one (1) address controlled by Launch Agent 6.
+The signers of the Plasma SkyLink Freezer Multisig are three (3) addresses controlled by Operational GovOps Soter Labs, one (1) address controlled by Operational Facilitator Redline Facilitation Group, and one (1) address controlled by Osero.

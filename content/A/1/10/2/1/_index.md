@@ -1,7 +1,7 @@
 ---
 type: index
 path: content/A/1/10/2/1
-childCount: 12
+childCount: 14
 ---
 
 # Contents
@@ -18,3 +18,5 @@ childCount: 12
 - [A.1.10.2.1.10 - Spell Team](10/document.md)
 - [A.1.10.2.1.11 - Spell Crafter](11/document.md)
 - [A.1.10.2.1.12 - Spell Reviewer](12/document.md)
+- [A.1.10.2.1.13 - Executive Process Liaison](13/document.md)
+- [A.1.10.2.1.14 - Strategic Team](14/document.md)
