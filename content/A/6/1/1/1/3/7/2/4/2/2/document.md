@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The minimum borrow rate for loans via the Arkis infrastructure must be the greater of the following at the time of issuance or renewal:
 
-- Sky Savings Rate + 2%
-- SOFR + 2.5%
+- Sky Savings Rate + 0,3%
+- SOFR

@@ -11,4 +11,4 @@ childType: sections_and_primary_docs
 
 - Collateral Haircut: +20% / -20%
 - Exposure Limit: None (native BTC, cbBTC), $100 million (LBTC)
-- Staked and Wrapped Versions: Lombard LBTC, Coinbase cbBTC
+- Staked and Wrapped Versions: Lombard LBTC, Coinbase cbBTC, Bitgo/BitGlobal WBTC
