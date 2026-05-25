@@ -1,12 +1,12 @@
 ---
-id: ba97b4dd-c4e0-4d12-8769-423f6ecdc6bf
+id: d607a8e3-17e1-4aab-9e74-11af39767cc7
 docNo: A.1.14
-name: Scope Bootstrapping
+name: Relationship Between Sky Core And Agents
 type: Article
 depth: 3
 childType: articles
 ---
 
-#### A.1.14 - Scope Bootstrapping [Article]
+#### A.1.14 - Relationship Between Sky Core And Agents [Article]
 
-This Article defines rules and procedures for swiftly resolving issues that may arise in the Governance Scope during the transition to the Endgame State. This Article must work to minimize transition costs and friction impeding this transition.
+This Article governs the relationship and balance of power between Sky Core (and the Sky Core Atlas) and all Agents (and their respective Agent Artifacts).

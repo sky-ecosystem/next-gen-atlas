@@ -1,12 +1,12 @@
 ---
-id: 14e99d92-71fc-44d9-9dbf-933bce2e1b32
+id: 03d32549-1da5-4a9c-902f-196641370eaf
 docNo: A.1.10.2
-name: Atlas Edit Weekly Cycle
+name: Executive Process Definition
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.10.2 - Atlas Edit Weekly Cycle [Section]
+##### A.1.10.2 - Executive Process Definition [Section]
 
-This Section defines the Atlas Edit Weekly Cycle which provides a predictable framework for weekly edits to the Atlas. The Atlas Edit Weekly Cycle is implemented via Governance Polls.
+This Section defines the Executive Process, which is the end-to-end process through which Sky makes changes to the Sky Protocol.

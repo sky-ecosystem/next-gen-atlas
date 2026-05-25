@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.7.2.1.1.3.1.1.4 - Genesis Account [Core]
 
-The address of Launch Agent 6's Genesis Account will be specified in a future iteration of the Launch Agent 6 Artifact.
+The address of Osero's Genesis Account will be specified in a future iteration of the Osero Artifact.

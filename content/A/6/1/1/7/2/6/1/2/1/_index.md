@@ -6,4 +6,4 @@ childCount: 1
 
 # Contents
 
-- [A.6.1.1.7.2.6.1.2.1.1 - Launch Agent 6 Liquidity Layer Architecture](1/document.md)
+- [A.6.1.1.7.2.6.1.2.1.1 - Osero Liquidity Layer Architecture](1/document.md)

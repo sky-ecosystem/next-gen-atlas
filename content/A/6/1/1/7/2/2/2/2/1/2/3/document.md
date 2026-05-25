@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.7.2.2.2.2.1.2.3 - Emergency Protocol [Core]
 
-The documents herein define the process for using the Root Edit Primitive to update the Launch Agent 6 Agent Artifact in emergency situations.
+The documents herein define the process for using the Root Edit Primitive to update the Osero Agent Artifact in emergency situations.

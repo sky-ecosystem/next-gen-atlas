@@ -1,12 +1,12 @@
 ---
-id: 45e794a0-5092-4dea-a0de-6f373228f760
+id: 9b1d1c2f-ace0-4637-8050-4711ae9f9a8c
 docNo: A.1.5.5
-name: Kickbacks Prohibited
+name: ACs Can Be Operationally Active In Only One Role At A Time
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.5.5 - Kickbacks Prohibited [Section]
+##### A.1.5.5 - ACs Can Be Operationally Active In Only One Role At A Time [Section]
 
-Aligned Delegates are not allowed to provide "kickbacks" from their compensation to SKY holders who delegate to them. Violation of this requirement constitutes misalignment.
+An Alignment Conserver can assume one of two roles: Aligned Delegate (AD) and Facilitator. ACs may only be operationally active in a single AC role and may not simultaneously assume multiple AC roles or other ecosystem roles such as Ecosystem Actors.

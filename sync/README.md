@@ -145,7 +145,7 @@ granularity keeps everything that pertains to a document in one place.
 
 ## Tooling
 
-Two scripts in `sync/`:
+Four scripts in `sync/`:
 
 ### `decompose.py`
 
@@ -176,6 +176,36 @@ the monolithic file to the tree and back. It is also a reference
 implementation showing that the atomized Atlas can be reassembled into any
 desired presentation form (e.g., the Atlas Portal renders a similar
 reassembly today).
+
+### hash.py
+
+Computes a cryptographic hash of a file. Defaults to SHA3-256, but any
+`hashlib` algorithm name works.
+
+```
+python sync/hash.py "Sky Atlas/Sky Atlas.md"
+python sync/hash.py --algorithm sha256 "Sky Atlas/Sky Atlas.md"
+```
+
+Also importable as a library:
+
+```python
+from pathlib import Path
+from sync.hash import hash_file
+
+digest = hash_file(Path("Sky Atlas/Sky Atlas.md"))
+```
+
+### `compose_and_hash.py`
+
+Convenience script that runs `compose` against the hardcoded paths
+(`content/` → `Sky Atlas/Sky Atlas.md`) and prints the SHA3-256 hash of the
+resulting file. Useful as a single-command integrity check: any change to the
+decomposed tree changes the digest deterministically.
+
+```
+python sync/compose_and_hash.py
+```
 
 ### Roundtrip property
 

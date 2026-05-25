@@ -1,12 +1,12 @@
 ---
-id: 12286b6c-0231-40e3-ab3f-234bc0249216
+id: 7cbb23c7-277d-4a43-9b37-2cf4a0561916
 docNo: A.1.14.1.2
-name: "Governance Security & Ecosystem Actor Embedding"
+name: Sky Core Atlas
 type: Core
 depth: 5
 childType: sections_and_primary_docs
 ---
 
-###### A.1.14.1.2 - Governance Security & Ecosystem Actor Embedding [Core]
+###### A.1.14.1.2 - Sky Core Atlas [Core]
 
-As a temporary bootstrapping measure, incubating Ecosystem Actor Atlas Axis will be embedded in Core Facilitator-permissioned communication channels where Executive Vote-coordination work is performed. Atlas Axis will have no decision-making authority in the Executive Vote workstreams. The objective is solely to facilitate Atlas Axis’ preparation of comprehensive, robust and resilient Atlas data for Governance Security by enabling it to directly observe patterns and issues as they arise.
+The Governance Scope, Support Scope, Stability Scope, Protocol Scope and Accessibility Scope, together with the Preamble, are collectively referred to as the "Sky Core Atlas". These contain the foundational and supreme governance rules, principles, and processes that govern Sky at the highest level.

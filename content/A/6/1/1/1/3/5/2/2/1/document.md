@@ -17,4 +17,4 @@ The current parameters for Spark Savings USDC on Ethereum are:
 - Take rate limit: unlimited
 - Min yield: 0%
 - Max yield: 10%
-- Supply cap: 10 billion
+- Supply cap: 2 billion

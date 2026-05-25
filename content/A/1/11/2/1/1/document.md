@@ -1,12 +1,14 @@
 ---
-id: e10e40b3-a942-411d-9646-129a5f3f984a
+id: 6c52610b-b9f0-49a3-8014-d1f51543dcdf
 docNo: A.1.11.2.1.1
-name: Origination
+name: Proposals In General
 type: Core
 depth: 6
 childType: sections_and_primary_docs
 ---
 
-###### A.1.11.2.1.1 - Origination [Core]
+###### A.1.11.2.1.1 - Proposals In General [Core]
 
-The author of an Atlas Edit Monthly Cycle proposal ("proposal", "Atlas Edit Proposal", "AEP", "Monthly Cycle Proposal", or "AEM Proposal") must post the proposal in the Sky Forum under the appropriate category.
+In the transition to Endgame, the Atlas can be edited through the submission of an Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "Proposal"). Multiple amendments to multiple components of the Atlas are allowed to be submitted in a single Weekly Cycle Proposal. A single Weekly Cycle Proposal may seek to remove multiple components of the Atlas.
+
+Atlas Edits must always adhere to the Spirit of the Atlas and remain within the bounds of Universal Alignment.

@@ -1,12 +1,14 @@
 ---
-id: 41600516-1414-4c52-86f6-de8393911cfa
+id: 20dcf582-8862-48b3-9ca9-c3703871bd14
 docNo: A.1.9.1
-name: General Provisions
+name: Emergency Response
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.9.1 - General Provisions [Section]
+##### A.1.9.1 - Emergency Response [Section]
 
-This Section contains general provisions related to Sky Core Governance Security.
+The Sky Protocol has often required changes outside of the standard Weekly Governance Cycle and Monthly Governance Cycle to help maintain the peg or to quickly respond to changes in the Ecosystem. This Section defines a general protocol for handling emergency or urgent situations.
+
+[A.1.10.5 - Emergency Spells](b8266c11-3a84-4bbe-abe2-de9474f74ffd) governs the resolution of emergency / urgent situations involving the Executive Process.
