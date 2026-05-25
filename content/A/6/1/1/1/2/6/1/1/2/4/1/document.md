@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.1.2.4.1 - Aave [Core]
 
-The Avalanche Instances Directory of the Aave Protocol with `Active` Status are stored herein
+The Avalanche Instances Directory of the Aave Protocol with `Completed` Status are stored herein
