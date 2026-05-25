@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.8.2.6.2.1.1 - Total Token Supply [Core]
 
-The total token supply of AGENT6 shall be 1,000,000,000.
+The total token supply of OSERO shall be 1,000,000,000.

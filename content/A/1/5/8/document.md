@@ -1,16 +1,14 @@
 ---
-id: 7b0da718-62c1-4718-8d9d-47faa1647c6f
+id: 40f850ee-b3f2-4126-9128-4f6a6b38d275
 docNo: A.1.5.8
-name: Derecognition Required Where AD Operational Security Is Compromised
+name: Swift Action Is Required From Facilitators To Redress AC Misalignment
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.5.8 - Derecognition Required Where AD Operational Security Is Compromised [Section]
+##### A.1.5.8 - Swift Action Is Required From Facilitators To Redress AC Misalignment [Section]
 
-All Facilitators must act swiftly to investigate ADs who are suspected of breaching their requirements regarding operational security and privacy.
+The Core Facilitator must act swiftly when an AC is suspected of breaching the requirements defined in this Article, or the requirements defined in the Articles specific to the Aligned Delegate or Facilitator role.
 
-The Core Facilitator must initiate a formal adjudication pursuant to [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57) where there is an allegation concerning AD breach of operational security.
-
-If there is clear evidence or significant suspicion that the operational security of an AD has been compromised, or that they have failed to follow best practice or otherwise made operational security errors, the Core Facilitator must promptly derecognize the AD.
+The Core Facilitator's failure to act promptly in addressing credible evidence of AC misalignment or to mitigate the risk of misalignment spreading among ACs is considered an act of misalignment itself. Formal allegations of such failure must be adjudicated by Core GovOps pursuant to [A.1.5.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).

@@ -16,7 +16,7 @@ Genesis Agents are Agents that receive capital contributions from Sky, including
 - Keel
 - Skybase
 - Obex
-- Launch Agent 6
+- Osero
 - Core Council Executor Agent 1
 - Amatsu
 - Ozone

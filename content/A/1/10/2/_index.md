@@ -6,8 +6,8 @@ childCount: 5
 
 # Contents
 
-- [A.1.10.2.1 - Cycle Breakdown](1/document.md)
-- [A.1.10.2.2 - Preparation And Publication of Governance Poll](2/document.md)
-- [A.1.10.2.3 - Rejecting A Proposal For Misalignment](3/document.md)
-- [A.1.10.2.4 - Minimum Positive Participation](4/document.md)
-- [A.1.10.2.5 - Reconciliation Process](5/document.md)
+- [A.1.10.2.1 - Definitions](1/document.md)
+- [A.1.10.2.2 - Roles in the Executive Process](2/document.md)
+- [A.1.10.2.3 - Content Of The Executive Vote](3/document.md)
+- [A.1.10.2.4 - Executive Process Breakdown](4/document.md)
+- [A.1.10.2.5 - Voting Process For Executive Votes](5/document.md)

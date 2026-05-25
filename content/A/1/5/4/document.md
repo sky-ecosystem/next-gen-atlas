@@ -1,12 +1,12 @@
 ---
-id: 0836acf0-441d-4215-aee6-dc6d0c884516
+id: 034a9ad7-5d4d-40db-bef8-cad80c0a01e2
 docNo: A.1.5.4
-name: Ranked Delegates
+name: Standard of Proof In Universal Alignment Controversies
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.5.4 - Ranked Delegates [Section]
+##### A.1.5.4 - Standard of Proof In Universal Alignment Controversies [Section]
 
-This Section defines Ranked Delegates. Ranked Delegates are Aligned Delegates who are eligible to receive a budget from the Sky Protocol and have additional rights and responsibilities as specified herein.
+Alignment Conservers are held to the highest standard when judging whether their actions are Universally Aligned.

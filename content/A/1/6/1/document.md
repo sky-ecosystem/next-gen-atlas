@@ -1,12 +1,12 @@
 ---
-id: 4354cb31-d2e3-433d-bbf8-5db2020acf48
+id: e4daca33-def9-4f9d-8f66-1f5df2f10659
 docNo: A.1.6.1
-name: Operational Executor Facilitator
+name: Core Facilitator Responsibilities
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.6.1 - Operational Executor Facilitator [Section]
+##### A.1.6.1 - Core Facilitator Responsibilities [Section]
 
-Every Operational Executor Agent must have a Facilitator. The Operational Executor Agent and Facilitator must enter into an agreement where the Facilitator agrees to interpret the Atlas and Artifacts on behalf of the Agent.
+This Section defines specific responsibilities of the Core Facilitator with regard to Aligned Delegates.

@@ -11,15 +11,15 @@ childType: sections_and_primary_docs
 
 Only an operator with the controller role can trigger a decrease in the rate limit for a specific key by a given amount. Calling this function will carry out the following actions:
 
-- The contract will retrieve the Rate LimitData storage for the key from the data mapping.
-- The contract will require that maxAmount is greater than 0, reverting with "Rate Limits/zero-maxAmount" if not.
+- The contract will retrieve the RateLimitData storage for the key from the data mapping.
+- The contract will require that maxAmount is greater than 0, reverting with "RateLimits/zero-maxAmount" if not.
 - If maxAmount is type(uint256).max (unlimited case), the contract will return type(uint256).max without changes.
-- The contract will calculate the currentRate Limit using getCurrentRate Limit.
-- The contract will require that amountToDecrease is less than or equal to currentRate Limit, reverting with "Rate Limits/rate-limit-exceeded" if not.
-- The contract will update lastAmount to currentRate Limit minus amountToDecrease and set lastUpdated to the current block timestamp.
-- The contract will emit a Rate LimitDecreaseTriggered event with the key, amountToDecrease, currentRate Limit, and newLimit.
+- The contract will calculate the currentRateLimit using getCurrentRateLimit.
+- The contract will require that amountToDecrease is less than or equal to currentRateLimit, reverting with "RateLimits/rate-limit-exceeded" if not.
+- The contract will update lastAmount to currentRateLimit minus amountToDecrease and set lastUpdated to the current block timestamp.
+- The contract will emit a RateLimitDecreaseTriggered event with the key, amountToDecrease, currentRateLimit, and newLimit.
 - The contract will return the newLimit.
 
 The function call is as follows:
 
-`function triggerRate LimitDecrease(bytes32 key, uint256 amountToDecrease) external override onlyRole(CONTROLLER) returns (uint256 newLimit)`
+`function triggerRateLimitDecrease(bytes32 key, uint256 amountToDecrease) external override onlyRole(CONTROLLER) returns (uint256 newLimit)`

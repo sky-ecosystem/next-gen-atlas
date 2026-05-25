@@ -1,12 +1,12 @@
 ---
-id: 29a92947-8792-401b-b1e5-899a72e9fbdb
+id: 3fcd3f17-f135-420e-9362-7c039daf6a52
 docNo: A.1.6.2
-name: Core Executor Facilitator
+name: Aligned Delegate Responsibilities
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.6.2 - Core Executor Facilitator [Section]
+##### A.1.6.2 - Aligned Delegate Responsibilities [Section]
 
-Every Core Executor Agent must have a Facilitator. The Core Executor Agent and Facilitator must enter into an agreement where the Facilitator agrees to interpret the Atlas and Artifacts on behalf of the Agent.
+This Section defines specific responsibilities of Aligned Delegates.
