@@ -1,12 +1,12 @@
 ---
-id: f83f2e87-6a6b-4afb-aa4c-d6d41a4a1cbc
+id: 6286be5c-f299-425e-a06b-39a129d4a929
 docNo: A.1.8.1.2.1
-name: Emergency Response Group Membership Criteria
+name: Protocol Security Workstream Lead Requirements
 type: Core
 depth: 6
 childType: sections_and_primary_docs
 ---
 
-###### A.1.8.1.2.1 - Emergency Response Group Membership Criteria [Core]
+###### A.1.8.1.2.1 - Protocol Security Workstream Lead Requirements [Core]
 
-The membership of the Emergency Response Group may change at the discretion of Core GovOps, and as circumstances require. Generally, the Emergency Response Group should contain domain-expert Ecosystem Actors as well as governance decision-makers. The group must be able to diagnose a situation, suggest a short-term mitigation and act on such mitigation. The group should also be able to define the path forward for a long-term solution to the problem and act on it.
+The Protocol Security Workstream Lead role must be held by an individual with demonstrated expertise in protocol security, smart contract security, and operational security practices. The individual must not have involvement in any business, political, or governance-related activities that could create a conflict of interest, either directly or indirectly.

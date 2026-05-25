@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.11.1.3.2.2.1.1.2 - Signer Composition Documentation Requirement [Core]
 
-Any change to Multisig signer composition must be promptly communicated to Core GovOps by the Multisig Administrator. Core GovOps must update the Multisig Registry to ensure it includes all updated signer addresses.
+Any change to Multisig signer composition must be promptly communicated to the Protocol Security Workstream Lead by the Multisig Administrator, including all updated signer addresses.

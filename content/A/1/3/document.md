@@ -1,12 +1,12 @@
 ---
-id: 08176561-7acf-47e0-bb54-41771d54b15f
+id: f51e410a-f51d-463f-82f2-2bcf289dbbb7
 docNo: A.1.3
-name: Governance Accessibility
+name: Synome Documents
 type: Article
 depth: 3
 childType: articles
 ---
 
-#### A.1.3 - Governance Accessibility [Article]
+#### A.1.3 - Synome Documents [Article]
 
-This Article regulates the design and implementation of platforms for facilitating accessible and transparent governance.
+This Article defines Synome Documents and the process by which they are modified.

@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.8.2.6.2.1.2.2 - Sky Retained Tokens And Reward Pools [Core]
 
-Sky retains 322,222,222 AGENT6 tokens, distributing these as specified in a future iteration of the Atlas.
+Sky retains 322,222,222 OSERO tokens, distributing these as specified in a future iteration of the Atlas.

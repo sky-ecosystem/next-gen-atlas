@@ -1,14 +1,12 @@
 ---
-id: c5146fa6-00ec-4543-9288-410570b5d588
+id: eef4ed65-7a72-474a-9f87-d2740bfe1960
 docNo: A.1.5.6.0.4.1
-name: Facilitators’ Authority To Raise Formal Allegation
+name: Evaluating AC breach of role-specific requirement vs. general requirement
 type: Action Tenet
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.1.5.6.0.4.1 - Facilitators’ Authority To Raise Formal Allegation [Action Tenet]
+###### A.1.5.6.0.4.1 - Evaluating AC breach of role-specific requirement vs. general requirement [Action Tenet]
 
-Any community member or Aligned Delegate with information pertinent to suspected Alignment Conserver misalignment may take their concerns directly to the Core Facilitator.  Upon receiving such information, the Core Facilitator must promptly conduct an initial review to quickly assess the credibility of the concern. Based on this preliminary review, the Core Facilitator must decide whether to initiate a formal adjudication process in accordance with [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
-
-Where the allegation of misalignment concerns the Core Facilitator, a community member can take their concerns to Core GovOps, who is then empowered to initiate the formal adjudication process.
+When an Alignment Conserver breaches a role-specific requirement, this is misalignment on par with a breach of a general AC requirement, and vice versa. Facilitators must not default to assigning greater or lesser culpability on the sole basis of whether the breached rule is role-specific or general. Apart from this caveat, misaligned acts can have varying degrees of severity or harm, and should be individually evaluated by the Facilitator in any action.
