@@ -9,9 +9,9 @@ childType: sections_and_primary_docs
 
 ###### A.2.9.1.9 - Code And Asset Licenses [Core]
 
-Ecosystem Actors should generally release code and assets under the Apache 2.0 license, unless there are specific and clear reasons to use a different license, as determined by the Support Facilitators.
+Ecosystem Actors should generally release code and assets under the Apache 2.0 license, unless there are specific and clear reasons to use a different license, as determined by the Core Facilitator.
 
-The Support Facilitators must ensure that a Foundation and other appropriate legal entities exists to properly protect intellectual property and trademarks related to the Sky Ecosystem.
+The Core Facilitator must ensure that a Foundation and other appropriate legal entities exists to properly protect intellectual property and trademarks related to the Sky Ecosystem.
 
 Such Foundations or other entities must over time be set up to follow instructions from Sky Governance.
 
