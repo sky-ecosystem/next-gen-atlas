@@ -11,7 +11,7 @@ childType: sections_and_primary_docs
 
 The current rETH risk parameters are:
 
-- LTV: 79%
+- LTV: 0%
 - Liquidation Threshold: 80%
 - E-mode Category: ETH
 - Liquidation Bonus: 7%
@@ -23,7 +23,7 @@ The current rETH risk parameters are:
 - Base Rate: 0.25%
 - Slope 1: 7%
 - Slope 2: 300%
-- Reserve State: Active
+- Reserve State: Frozen
 - Collateral: Yes
 - Borrowing: Yes
 - Isolated Collateral: No

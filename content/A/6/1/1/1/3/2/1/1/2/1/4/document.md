@@ -22,8 +22,8 @@ The current WETH risk parameters are:
 - Isolated Debt Ceiling: N/A
 - Base Rate: 0%
 - Slope 1: N/A
-- Slope 1 Spread: -0.30%
-- Slope 2: 120%
+- Slope 1 Spread: -0.10%
+- Slope 2: 75%
 - Reserve State: Active
 - Collateral: Yes
 - Borrowing: Yes
