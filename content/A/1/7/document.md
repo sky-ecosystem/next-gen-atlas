@@ -1,12 +1,12 @@
 ---
-id: d6b43720-243e-4610-8c03-cd515ace6247
+id: 1ce24b08-84ff-4524-9710-49bba429c6ef
 docNo: A.1.7
-name: Professional Ecosystem Actors
+name: Facilitators
 type: Article
 depth: 3
 childType: articles
 ---
 
-#### A.1.7 - Professional Ecosystem Actors [Article]
+#### A.1.7 - Facilitators [Article]
 
-Professional Ecosystem Actors are external actors that complete work for Sky Ecosystem. This Article defines rules and processes related to Professional Ecosystem Actors.
+A type of Alignment Conserver, Facilitators are contracted by Executor Agents to interpret the Atlas and Artifacts on their behalf. This Article defines key infrastructure and requirements concerning Facilitators.

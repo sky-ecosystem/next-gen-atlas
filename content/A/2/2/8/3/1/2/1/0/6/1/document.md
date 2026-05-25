@@ -13,4 +13,4 @@ The current Active Pioneer Primes are:
 
 - Keel
 - Grove
-- Launch Agent 6
+- Osero

@@ -1,12 +1,12 @@
 ---
-id: 3aa3aa8a-0097-46a4-a89a-2db46f7cb2af
+id: 324f379a-6341-4f39-aad5-f79f0d56812c
 docNo: A.1.10.2.1
-name: Cycle Breakdown
+name: Definitions
 type: Core
 depth: 5
 childType: sections_and_primary_docs
 ---
 
-###### A.1.10.2.1 - Cycle Breakdown [Core]
+###### A.1.10.2.1 - Definitions [Core]
 
-The subdocuments herein provide a breakdown of the Atlas Edit Weekly Cycle.
+The documents herein contain common definitions that are relevant to the entirety of the Executive Process.

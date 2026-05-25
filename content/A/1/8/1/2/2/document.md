@@ -1,17 +1,12 @@
 ---
-id: 6ad02ee6-bd7a-4557-a768-178656037162
+id: 57fa2bd5-4679-4b0c-a7a2-f65a4194d371
 docNo: A.1.8.1.2.2
-name: Emergency Response Group Membership
-type: Active Data Controller
+name: Designated Protocol Security Workstream Lead
+type: Core
 depth: 6
 childType: sections_and_primary_docs
 ---
 
-###### A.1.8.1.2.2 - Emergency Response Group Membership [Active Data Controller]
+###### A.1.8.1.2.2 - Designated Protocol Security Workstream Lead [Core]
 
-The membership of the Emergency Response Group is defined as Active Data in [A.1.8.1.2.2.0.6.1 - Emergency Response Group Current Membership](e9807449-fdc3-4860-8d53-c56181311618).
-
-The Active Data is updated as follows:
-
-- The Responsible Party is Core GovOps.
-- The Update Process must follow the protocol for ‘Direct Edit’.
+The Protocol Security Workstream Lead role is held by Vamsi.

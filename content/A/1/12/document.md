@@ -1,12 +1,12 @@
 ---
-id: 75e8fd51-a540-4c3a-aaa9-1a38502f89b2
+id: 7f2ba62c-9b3b-4df6-aa16-189a749cffa3
 docNo: A.1.12
-name: Updating Active Data
+name: Monthly Governance Cycle
 type: Article
 depth: 3
 childType: articles
 ---
 
-#### A.1.12 - Updating Active Data [Article]
+#### A.1.12 - Monthly Governance Cycle [Article]
 
-This Article regulates modifications to Active Data documents. Active Data documents can be directly modified by Facilitators or other recognized actors through processes that occur outside the standard Weekly Governance Cycle and Monthly Governance Cycle.
+This Article regulates the Monthly Governance Cycle, which provides a predictable monthly framework by which Sky Governance decisions are made.

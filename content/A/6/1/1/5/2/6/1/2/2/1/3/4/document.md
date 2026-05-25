@@ -11,10 +11,10 @@ childType: sections_and_primary_docs
 
 Anyone can query the current rate limit value for a specific key, accounting for time-based slope accrual. Calling this function will carry out the following actions:
 
-- The contract will retrieve the Rate LimitData for the key from the _data mapping.
+- The contract will retrieve the RateLimitData for the key from the _data mapping.
 - If maxAmount is type(uint256).max (unlimited case), the contract will return type(uint256).max.
 - Otherwise, the contract will calculate and return the minimum of (slope * time elapsed since lastUpdated + lastAmount) and maxAmount.
 
 The function call is as follows:
 
-`function getCurrentRate Limit(bytes32 key) public override view returns (uint256)`
+`function getCurrentRateLimit(bytes32 key) public override view returns (uint256)`

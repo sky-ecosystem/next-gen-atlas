@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.8.2.6.1.1 - Parties To The Accord [Core]
 
-The parties to Ecosystem Accord 6 are Sky and Launch Agent 6, as defined in the subdocuments herein.
+The parties to Ecosystem Accord 6 are Sky and Osero, as defined in the subdocuments herein.

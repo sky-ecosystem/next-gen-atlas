@@ -1,12 +1,19 @@
 ---
-id: 2d5b0c0b-66ab-4546-b622-cd3ae1e39752
+id: 918bfa13-3390-4524-bd9e-759089ea643e
 docNo: A.1.13.1.1
-name: Sky Atlas Jurisdiction
+name: Overview
 type: Core
 depth: 5
 childType: sections_and_primary_docs
 ---
 
-###### A.1.13.1.1 - Sky Atlas Jurisdiction [Core]
+###### A.1.13.1.1 - Overview [Core]
 
-The Sky Atlas is the overarching governance framework for the entire Sky ecosystem and comprises six (6) Scopes in total. The first five Scopes define ecosystem-wide rules and governance processes, while the final Scope contains all Agent Artifacts.
+Active Data documents must be maintained and frequently updated as part of the Sky Ecosystem’s routine operational tasks. See [A.1.2.2.2.17 - The Active Data Type](925ce2e3-c3a9-4774-a96c-cf77e024d37c).
+
+Therefore, Active Data documents can be directly modified outside of the standard Weekly Governance Cycle and Monthly Governance Cycle.
+
+Each Active Data document has an Active Data Controller document associated with it, which latter defines two elements:
+
+1. the "Responsible Party", or the entity who is obligated to update the Active Data, and
+2. the "Update Process", or the authorized process by which the Active Data is updated.

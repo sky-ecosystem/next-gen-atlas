@@ -12,5 +12,5 @@ childCount: 8
 - [A.6.1.1.4 - Skybase](4/document.md)
 - [A.6.1.1.5 - Obex](5/document.md)
 - [A.6.1.1.6 - Pattern](6/document.md)
-- [A.6.1.1.7 - Launch Agent 6](7/document.md)
+- [A.6.1.1.7 - Osero](7/document.md)
 - [A.6.1.1.8 - Launch Agent 7](8/document.md)

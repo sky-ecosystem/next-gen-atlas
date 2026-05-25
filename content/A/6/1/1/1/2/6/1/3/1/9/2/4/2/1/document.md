@@ -11,6 +11,6 @@ childType: sections_and_primary_docs
 
 The Risk parameters are:
 
-- Supply cap: 1,000,000,000 USDC
+- Supply cap: 2,000,000,000 USDC
 - Max yield: 10%
 - Current yield (at launch): 0%

@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.2.2.7.2.3.2 - Sky Governance Process [Core]
 
-Once a matter has been escalated to Sky Governance, the Sky Core Facilitators may request any information they deem necessary from Core GovOps, Operational GovOps, and the Prime Agent. Sky Governance then acts through a Governance Poll to determine its resolution of the matter.
+Once a matter has been escalated to Sky Governance, the Sky Core Facilitator may request any information they deem necessary from Core GovOps, Operational GovOps, and the Prime Agent. Sky Governance then acts through a Governance Poll to determine its resolution of the matter.

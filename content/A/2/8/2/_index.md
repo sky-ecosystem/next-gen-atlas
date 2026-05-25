@@ -1,7 +1,7 @@
 ---
 type: index
 path: content/A/2/8/2
-childCount: 9
+childCount: 10
 ---
 
 # Contents
@@ -11,7 +11,8 @@ childCount: 9
 - [A.2.8.2.3 - Ecosystem Accord 3: Sky And Keel](3/document.md)
 - [A.2.8.2.4 - Ecosystem Accord 4: Sky And Obex](4/document.md)
 - [A.2.8.2.5 - Ecosystem Accord 5: Sky And Core Council Executor Agent 1](5/document.md)
-- [A.2.8.2.6 - Ecosystem Accord 6: Sky And Launch Agent 6](6/document.md)
-- [A.2.8.2.7 - Ecosystem Accord 7: Sky and Skybase](7/document.md)
+- [A.2.8.2.6 - Ecosystem Accord 6: Sky And Osero](6/document.md)
+- [A.2.8.2.7 - Ecosystem Accord 7: Sky And Skybase](7/document.md)
 - [A.2.8.2.8 - Ecosystem Accord 8: Sky And Amatsu](8/document.md)
 - [A.2.8.2.9 - Ecosystem Accord 9: Sky And Ozone](9/document.md)
+- [A.2.8.2.10 - Ecosystem Accord 10: Sky And Grove](10/document.md)
