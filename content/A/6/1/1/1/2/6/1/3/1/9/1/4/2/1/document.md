@@ -11,6 +11,6 @@ childType: sections_and_primary_docs
 
 The Risk parameters are:
 
-- Supply cap: 250,000 WETH
+- Supply cap: 500,000 WETH
 - Max yield: 5%
 - Current yield (at launch): 0%

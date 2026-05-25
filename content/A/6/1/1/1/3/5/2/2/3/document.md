@@ -17,4 +17,4 @@ The current parameters for Spark Savings ETH on Ethereum are:
 - Take rate limit: unlimited
 - Min yield: 0%
 - Max yield: 5%
-- Supply cap: 1 million
+- Supply cap: 500,000
