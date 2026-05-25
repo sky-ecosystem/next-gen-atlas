@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.7.3.1.1 - Sky Forum [Core]
 
-Launch Agent 6 uses the Sky Forum for governance-related discussion. Posts should use the "Launch Agent 6 Prime" category.
+Osero uses the Sky Forum for governance-related discussion. Posts should use the "Osero Prime" category.

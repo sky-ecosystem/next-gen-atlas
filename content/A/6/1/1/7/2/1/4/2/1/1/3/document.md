@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.7.2.1.4.2.1.1.3 - Genesis Supply [Core]
 
-The Genesis Supply of AGENT6 is 1 billion.
+The Genesis Supply of OSERO is 1 billion.

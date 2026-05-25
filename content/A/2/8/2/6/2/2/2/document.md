@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.8.2.6.2.2.2 - Initial Allocation Distribution [Core]
 
-The Initial Allocation is distributed in USDS to the Launch Agent 6 SubProxy.
+The Initial Allocation is distributed in USDS to the Osero SubProxy.

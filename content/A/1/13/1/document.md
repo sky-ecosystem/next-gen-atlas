@@ -1,12 +1,12 @@
 ---
-id: 3722c147-b5f6-45ed-b462-de9d1cf5cd50
+id: 39cd11f3-70fc-4a05-9cc0-fcb5efccaa11
 docNo: A.1.13.1
-name: Agents And The Sky Atlas
+name: Updating Active Data
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.13.1 - Agents And The Sky Atlas [Section]
+##### A.1.13.1 - Updating Active Data [Section]
 
-The documents contained herein define the relationship between the Sky Atlas and Agents, including the pre-eminence of the Sky Core Atlas and how conflicts between the Sky Core Atlas and Agent Artifacts are identified, escalated, and resolved.
+This Section defines the processes by which Active Data documents are updated.

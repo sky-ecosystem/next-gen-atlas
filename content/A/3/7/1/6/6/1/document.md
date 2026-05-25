@@ -17,6 +17,6 @@ The amount of capital contributed by Sky to Agents is:
 - Skybase - 15,000,000 USDS
 - Core Council Executor Agent 1 - 25,000,000 USDS
 - Keel - 10,000,000 USDS
-- Launch Agent 6 - 10,500,000 USDS
+- Osero - 10,500,000 USDS
 - Amatsu - 25,000,000 USDS
 - Ozone - 25,000,000 USDS
