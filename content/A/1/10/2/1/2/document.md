@@ -1,12 +1,12 @@
 ---
-id: 2891a392-d5ca-45a5-80ca-ad2afaf5baa1
+id: 2f06dd6a-8664-4916-8f82-5155d703d61a
 docNo: A.1.10.2.1.2
-name: Origination Via Forum Post
+name: Target Date
 type: Core
 depth: 6
 childType: sections_and_primary_docs
 ---
 
-###### A.1.10.2.1.2 - Origination Via Forum Post [Core]
+###### A.1.10.2.1.2 - Target Date [Core]
 
-The Author of an Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "Proposal") must post the Proposal in the Sky Forum in the appropriate category and signal their intent to submit the Proposal to the Weekly Cycle.
+The Target Date refers to the planned date when the Spell is expected to be made available to be voted on. The Target Date is decided by the Governance Point in collaboration with the Spell Crafter. Spells are usually deployed following a two-week cadence. Normally, the Target Date falls on Thursdays.

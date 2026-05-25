@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.3.4.2.2.1 - Parameter Modification [Core]
 
-Sky Core Facilitators currently own the process for modifying the parameters of the Lite PSM, which process is defined in the Sky Core Atlas. This process is currently being transitioned over to Grove.
+The Sky Core Facilitator currently owns the process for modifying the parameters of the Lite PSM, which process is defined in the Sky Core Atlas. This process is currently being transitioned over to Grove.

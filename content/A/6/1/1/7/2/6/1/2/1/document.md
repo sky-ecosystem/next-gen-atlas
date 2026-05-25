@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.7.2.6.1.2.1 - General Specifications [Core]
 
-The documents herein contain general specifications for the Launch Agent 6 Liquidity Layer.
+The documents herein contain general specifications for the Osero Liquidity Layer.

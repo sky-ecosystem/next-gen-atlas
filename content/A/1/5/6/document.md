@@ -1,16 +1,14 @@
 ---
-id: 8953d5dc-1344-4fec-ae25-693204f64e38
+id: a59420ba-5e2c-4736-99a4-fb64eea4cc32
 docNo: A.1.5.6
-name: Swift Action Is Required From Facilitators To Redress AD Misalignment
+name: ACs Subject To Both General And Role-specific Requirements
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.1.5.6 - Swift Action Is Required From Facilitators To Redress AD Misalignment [Section]
+##### A.1.5.6 - ACs Subject To Both General And Role-specific Requirements [Section]
 
-The Facilitator must act swiftly when an AD is suspected of breaching the requirements defined in this Article, or the requirements defined in [A.1.4 - Alignment Conservers](df4f9bfd-e743-44b5-9c62-9c5f10b15340).
+An Alignment Conserver is fully responsible for meeting all requirements tied to the general AC role, which requirements are specified in this Article.
 
-Any Facilitator has the authority to formally raise an allegation of AD misalignment with the Core Facilitator, which then obligates the latter to initiate a formal adjudication pursuant to [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
-
-A Facilitator's failure to act promptly in addressing credible evidence of AD misalignment or to mitigate the risk of misalignment spreading among ADs is considered an act of misalignment itself. Formal allegations of such failure must be adjudicated by the Core Facilitator pursuant to the same process referenced in the above-cited document.
+In addition, Aligned Delegates and Facilitators must adhere to the specific requirements tied to their specialized roles. These specific requirements are detailed in [A.1.6 - Aligned Delegates](75f0063c-ad70-49e4-b356-9b76097ced7b) and [A.1.7 - Facilitators](1ce24b08-84ff-4524-9710-49bba429c6ef). Breaching these role-specific requirements and responsibilities is misalignment equivalent to breaching the general AC-requirements.

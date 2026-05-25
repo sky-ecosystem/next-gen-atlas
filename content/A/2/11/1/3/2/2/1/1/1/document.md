@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.11.1.3.2.2.1.1.1 - Signer Rotation Requirement [Core]
 
-Multisig signers may be rotated as operational or security requirements evolve. All signer rotations must be communicated to Core GovOps by the Multisig Administrator, accompanied by clear documentation describing the reason for the change, the outgoing signer, and the incoming signer. Core GovOps must update the Multisig Registry to reflect the changes.
+Multisig signers may be rotated as operational or security requirements evolve. All signer rotations must be communicated to the Protocol Security Workstream Lead by the Multisig Administrator, accompanied by clear documentation describing the reason for the change, the outgoing signer, and the incoming signer.
