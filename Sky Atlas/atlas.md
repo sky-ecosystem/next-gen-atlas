@@ -19725,6 +19725,10 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.13.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document](4eee15e5-46e2-4438-8299-6c85c46bb85b).
 
+###### A.6.1.1.1.2.6.1.1.2.1.13.3 - Ethereum Mainnet - Anchorage USDC Instance Configuration Document Location [Core]  <!-- UUID: e93291ac-f9aa-41de-9d39-7d6ef95e54b0 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.13.3 - Ethereum Mainnet - Anchorage USDC Instance Configuration Document](efa4ea69-60de-4499-8ef0-86551373fa34).
+
 ###### A.6.1.1.1.2.6.1.1.2.2 - Base [Core]  <!-- UUID: 305a6351-bb16-4e4d-8912-7ef1c3ff26bb -->
 
 The documents herein contain a Directory of all Instances on Base of the Allocation System Primitive with Instance status of `Active`.
@@ -25320,6 +25324,71 @@ The current `maxAmount` and `slope` for this conduit’s transferAssets operatio
 The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.13.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1c69d51a-f202-4e17-99cd-dd29a046e2a5 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.3.1.13.3 - Ethereum Mainnet - Anchorage USDC Instance Configuration Document [Core]  <!-- UUID: efa4ea69-60de-4499-8ef0-86551373fa34 -->
+
+The documents herein contain the Instance Configuration Document for the Anchorage USDC Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 7cdbb389-360d-417d-bdc4-f142d7eb9dd7 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.2 - Parameters [Core]  <!-- UUID: 70521c48-b900-4f25-bf9a-dc3a7804bafe -->
+
+The documents herein define the parameters of the Anchorage USDC Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.2.1 - Instance Identifiers [Core]  <!-- UUID: 1bd43af8-3739-4ce2-ac3a-65b10194ae80 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.2.1.1 - Network [Core]  <!-- UUID: b6feeb2a-fdd2-4c1d-8899-b8ca219b9c01 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.2.1.2 - Target Protocol [Core]  <!-- UUID: ccbc9e4a-a9c9-4d7d-a4be-b48ec63ca05a -->
+
+Anchorage
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: fd33f615-8c47-44f4-9403-a7611f09dd59 -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.2.1.4 - Token [Core]  <!-- UUID: b501fbcd-f2de-411a-858f-c57fdccb7509 -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.2.2 - Contract Addresses [Core]  <!-- UUID: a9d85159-7e84-4551-a60a-44ba56f2d9e2 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.2.2.1 - Token Address [Core]  <!-- UUID: a04dc56a-2dbe-4e0f-8825-c35f2728823a -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.2.2.2 - Destination Address [Core]  <!-- UUID: a90ea568-70ea-4413-bf34-158f2644f8b8 -->
+
+`0x49506C3Aa028693458d6eE816b2EC28522946872`
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 501f003f-6082-4d87-9155-9569d1a12d69 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.2.4 - Rate Limits [Core]  <!-- UUID: 88ae938c-2370-4a27-b6de-609fc3dd6808 -->
+
+The current `maxAmount` and `slope` for this conduit’s transferAssets operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 9d3f2437-5dcd-4a38-8507-a2def33c7756 -->
+
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 250,000,000 USDC per day
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 54e82f98-4059-4364-b0a4-08f34cc3a716 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.13.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d0245971-a244-41a9-9033-5d2c93e4f632 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
