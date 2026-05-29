@@ -1,12 +1,12 @@
 ---
-id: b6ccdee2-a5e4-4d63-9af5-60b8163673af
+id: 7f0959dc-c6e2-4e64-9526-76563a2a6d29
 docNo: A.2.2.9.1.2
-name: Allocation System Input Requirements
+name: Global Specification
 type: Core
 depth: 6
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.9.1.2 - Allocation System Input Requirements [Core]
+###### A.2.2.9.1.2 - Global Specification [Core]
 
-The documents herein define the required inputs for a valid Invocation of the Allocation System Primitive. If any input is noncompliant or omitted, the Primitive will be invalidated and the Allocation Instance deployment will not move forward.
+The requirements herein apply universally across all possible deployments of the Distribution Reward Primitive by Prime Agents. They include the steps that Agents must take to deploy the Primitive, including Global Activation of the Primitive, Instance Invocation, and ongoing management of the Primitive Instance(s).

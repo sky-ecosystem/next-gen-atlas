@@ -1,12 +1,12 @@
 ---
-id: c7e7507e-4d57-4842-932c-88cf232a53a8
+id: 6283379c-d871-40a9-a915-d716d7df5642
 docNo: A.2.2.4.1.2.2
-name: Agent Name And Introduction
+name: Long Term Process
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.4.1.2.2 - Agent Name And Introduction [Core]
+###### A.2.2.4.1.2.2 - Long Term Process [Core]
 
-The Agent Creation Primitive must specify the Agent’s Name and provide a brief overview of its vision or business model.
+In the long term, Integrator applications come exclusively through Prime Agents. Prime Agents may establish whatever processes they deem appropriate to receive inbound requests for potential partnerships.

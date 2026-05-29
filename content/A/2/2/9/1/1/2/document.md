@@ -1,12 +1,12 @@
 ---
-id: f47513f6-34e4-40a4-b7ff-8d68d75070be
+id: 45149960-fbf3-4079-be4e-fe2a71e5e43f
 docNo: A.2.2.9.1.1.2
-name: Allocation Instance Setup Process Definition
+name: Allowed Number Of Instances
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.9.1.1.2 - Allocation Instance Setup Process Definition [Core]
+###### A.2.2.9.1.1.2 - Allowed Number Of Instances [Core]
 
-The documents herein define the process for setting up an Allocation Instance as part of the Allocation System Primitive.
+Multiple instances of the Distribution Reward Primitive are allowed. Each instance corresponds to a Distribution Reward program with an associated Distribution Reward Code.

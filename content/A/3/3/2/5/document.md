@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.3.2.5 - Asset Liability Management Rental [Core]
 
-The implementation of Asset Liability Management Rentals is specified in [A.2.2.9.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).
+The implementation of Asset Liability Management Rentals is specified in [A.2.2.10.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).

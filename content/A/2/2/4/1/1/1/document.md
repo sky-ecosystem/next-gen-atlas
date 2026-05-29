@@ -1,12 +1,12 @@
 ---
-id: 754e1599-28d7-499a-b68f-e2155e87105a
+id: 98e98f68-e749-4d0a-8972-7e36ed166326
 docNo: A.2.2.4.1.1.1
-name: Agent Creation Instance Setup Process
+name: Alignment
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.4.1.1.1 - Agent Creation Instance Setup Process [Core]
+###### A.2.2.4.1.1.1 - Alignment [Core]
 
-The documents herein define the process for setting up an Instance of the Agent Creation Primitive.
+The Integrator must be aligned with Sky’s overall strategy regarding promoting adoption of USDS. This determination is made by Operational GovOps. Sky Core may choose whether to maintain an Integrator’s Reward Code in its sole and absolute discretion.

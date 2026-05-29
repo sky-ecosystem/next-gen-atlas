@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.2.2.1.1.1.2.1.1.2.1 - Ethena Aggregate Exposure [Core]
 
-Ethena Aggregate Exposure is the sum of Ethena Exposures (see [A.3.2.2.1.1.1.2.1.1.1 - Ethena Capital Requirement Ratio](7ce05a43-e3ec-4c54-a11e-30e56526cfdd)) across all Prime Agents in the Sky Ecosystem.
+Ethena Aggregate Exposure is the sum of Ethena Exposures (see [A.3.2.2.1.1.1.2.1.1.1 - Ethena Capital Ratio Requirement](7ce05a43-e3ec-4c54-a11e-30e56526cfdd)) across all Prime Agents in the Sky Ecosystem.
