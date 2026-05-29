@@ -1,12 +1,12 @@
 ---
-id: 2cdb447e-ebf5-4e57-a722-181178fbe80f
+id: ad3a3f6b-7bc3-4e5f-b1c3-225b5b4cbe15
 docNo: A.2.2.9.1.2.3
-name: Core Allocation Buffer Address
+name: Instance Invocation Protocol
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.9.1.2.3 - Core Allocation Buffer Address [Core]
+###### A.2.2.9.1.2.3 - Instance Invocation Protocol [Core]
 
-The Prime Agent Artifact must specify the address of the Prime Agent’s Core Allocation Buffer.
+After fulfilling the requirements for Global Activation, an Agent can Invoke its first Instance of the Distribution Reward Primitive by following the sequential process specified herein. Subsequent Invocations of the Primitive must also adhere to the same requirements defined below.

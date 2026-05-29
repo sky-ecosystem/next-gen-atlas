@@ -1,12 +1,12 @@
 ---
-id: 0192ec95-9207-480e-8c51-88d2a1da95ad
+id: 3d5e3668-8333-4908-adcc-5784cfe7f6b5
 docNo: A.2.2.5
-name: Operational Primitives
+name: Genesis Primitives
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.2.2.5 - Operational Primitives [Section]
+##### A.2.2.5 - Genesis Primitives [Section]
 
-Operational Primitives are a category of Primitives enabling the Agents’ own operation and governance and AI features, as well as the ability to create derivative Light Agents.
+Genesis Primitives are a category of Primitives addressing different aspects of initial Agent setup—such as Agent creation, token launch and configuration, and transformation pathways.

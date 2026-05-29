@@ -1,12 +1,12 @@
 ---
-id: 78488c6b-d77f-4344-b954-476e415a2c7d
+id: 81411106-fd6d-4f9c-b3ae-7af7b5e62482
 docNo: A.2.2.5.2
-name: Root Edit Primitive
+name: Prime Transformation Primitive
 type: Core
 depth: 5
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.5.2 - Root Edit Primitive [Core]
+###### A.2.2.5.2 - Prime Transformation Primitive [Core]
 
-The Root Edit Primitive allows Prime Agents, through a token holder vote, to direct the Operational Executor Agent specified in the Executor Accord Primitive to directly modify the Prime Agent Artifact.
+Prior to Activating this Primitive, a Proto-Agent has been created, meaning it has not yet adopted any specialized role. Since a Proto-Agent cannot perform actions in the Sky Ecosystem, it must first transform into either a Prime Agent or Executor Agent to gain functionality. The Prime Transformation Primitive defined herein allows an Agent to transform into a Prime Agent, subject to certain conditions.
