@@ -1,12 +1,12 @@
 ---
-id: c888b306-369e-4db4-98cc-75beddc3689a
+id: 642c4577-3d39-4a05-a15a-94bdd7e09f50
 docNo: A.1.10.2.5.2
-name: Voting Validation
+name: Operational Reference Materials
 type: Core
 depth: 6
 childType: sections_and_primary_docs
 ---
 
-###### A.1.10.2.5.2 - Voting Validation [Core]
+###### A.1.10.2.5.2 - Operational Reference Materials [Core]
 
-Once an Executive Vote is live on the Voting Portal, it enters the Ecosystem Spell Validation Window, a critical period for community review. For more details of the validation process see [A.1.10.2.4.12 - Ecosystem Validators Validates Spell During Validation Window (Step 12)](84d31eb0-fbbc-4783-a7cf-ef7dddfa8271).
+The documents herein define Operational Reference Materials used in connection with infrastructure changes and contract deployments. Operational Reference Materials are maintained in the Ecosystem Operational References repository (https://github.com/Atlas-Axis/ecosystem-operational-references). Users must verify their local copy is aligned with the latest version in the Ecosystem Operational References repository before each use of the reference materials.

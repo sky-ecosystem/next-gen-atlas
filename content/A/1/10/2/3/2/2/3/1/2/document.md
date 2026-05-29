@@ -1,12 +1,12 @@
 ---
-id: e55cfedb-546b-47ba-bc46-e07764f44527
+id: 1e132a96-b609-477f-8e01-ca2d0c4d5d63
 docNo: A.1.10.2.3.2.2.3.1.2
-name: Executive Process Liaison Delivers Items To Core Council Tracker
+name: Delivery And Pre-Risk Review
 type: Core
 depth: 10
 childType: sections_and_primary_docs
 ---
 
-###### A.1.10.2.3.2.2.3.1.2 - Executive Process Liaison Delivers Items To Core Council Tracker [Core]
+###### A.1.10.2.3.2.2.3.1.2 - Delivery And Pre-Risk Review [Core]
 
-The Executive Process Liaison reviews the submitted Prime Spell Form for completeness and clarity, and discusses possible Prime Spell content and potential blockers with the Prime Agent. The Executive Process Liaison must verify the Prime Agent's complexity score calculation. The Executive Process Liaison must deliver the items, including the verified complexity score, to the Core Council Tracker by Wednesday, 16:00 UTC of week 0.
+During Wednesday of week 0, the Executive Process Liaison delivers proposed Prime Spell items to the Core Council Tracker and the Core Council Risk Advisor conducts a pre-risk review of the items submitted on Monday. Both must be completed by Wednesday, 16:00 UTC of week 0 so that the Strategic Team's scope approval that follows is informed by the Core Council Risk Advisor's findings.

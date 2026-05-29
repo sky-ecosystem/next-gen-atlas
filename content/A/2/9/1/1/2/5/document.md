@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.9.1.1.2.5 - Requirements For Resilience Technical Committee [Core]
 
-The Resilience Technical Committee will verify the eligibility criteria of new candidates in the Lawyer Registry and submit a list of approved candidates to the Support Facilitators.
+The Resilience Technical Committee will verify the eligibility criteria of new candidates in the Lawyer Registry and submit a list of approved candidates to the Core Facilitator.

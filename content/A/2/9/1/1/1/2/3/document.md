@@ -13,5 +13,5 @@ Approved Resilience Technical Committee members are defined as Active Data in [A
 
 The Active Data is updated as follows:
 
-- The Responsible Party is the Support Facilitators.
+- The Responsible Party is the Core Facilitator.
 - The Update Process must follow the protocol for ‘Direct Edit’.
