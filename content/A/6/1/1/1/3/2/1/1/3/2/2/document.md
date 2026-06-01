@@ -13,8 +13,8 @@ The current wstETH cap automator parameters are:
 
 - Supply cap
     - `gap`: 50,000 wstETH
-    - `ttl`: 12 hours
-    - `max`: 2 million wstETH
+    - `ttl`: 4 hours
+    - `max`: Unlimited
 - Borrow cap
     - `gap`: 10,000 wstETH
     - `ttl`: 12 hours
