@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.4.1.2.1.2.1.1 - Demand Side Stablecoin Primitive Recipients [Core]
 
-For each Prime Agent, the Initial Calculation must specify whether payments with respect to Demand Side Stablecoin Primitives (see [A.2.2.8 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d)) have already been made by the Operational Executor Agent, and thus should be reimbursed to the Operational Executor Agent instead of being paid to the Prime Agent.
+For each Prime Agent, the Initial Calculation must specify whether payments with respect to Demand Side Stablecoin Primitives (see [A.2.2.9 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d)) have already been made by the Operational Executor Agent, and thus should be reimbursed to the Operational Executor Agent instead of being paid to the Prime Agent.

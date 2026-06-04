@@ -1,12 +1,12 @@
 ---
-id: d1142876-33c2-4e21-9339-d8711525d46f
+id: 26415305-432d-423b-9553-3f325279712d
 docNo: A.2.2.9
-name: Supply Side Stablecoin Primitives
+name: Demand Side Stablecoin Primitives
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.2.2.9 - Supply Side Stablecoin Primitives [Section]
+##### A.2.2.9 - Demand Side Stablecoin Primitives [Section]
 
-Supply Side Stablecoin Primitives are Sky Primitives focused on capital allocation and risk management.
+Demand Side Stablecoin Primitives are Sky Primitives that target demand generation for USDS. Prime Agents can create and control multiple instances of these Primitives which exist as technical infrastructure incentivizing the adoption or usage of USDS by end users or third parties.

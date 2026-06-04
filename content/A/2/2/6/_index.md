@@ -1,10 +1,11 @@
 ---
 type: index
 path: content/A/2/2/6
-childCount: 2
+childCount: 3
 ---
 
 # Contents
 
-- [A.2.2.6.1 - Ecosystem Upkeep Fee Primitive](1/document.md)
-- [A.2.2.6.2 - Upkeep Rebate Primitive](2/document.md)
+- [A.2.2.6.1 - Executor Accord Primitive](1/document.md)
+- [A.2.2.6.2 - Root Edit Primitive](2/document.md)
+- [A.2.2.6.3 - Light Agent Primitive](3/document.md)
