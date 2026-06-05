@@ -12,7 +12,7 @@ childType: sections_and_primary_docs
 The Forum post must include the following:
 
 - The addresses of the deployed contracts
-- A link to the audit reports, ideally externally verifiable sources, such as the Chain Security website link to an audit report.
+- A link to the audit reports as specified in [A.1.10.2.7.6 - Audit Recordkeeping](610c8780-178b-4055-9387-373e014c8202), hosted on the auditor's website or another independently verifiable source.
 - Confirmation that the deployed code matches the commit hash that was sent for audit.
 - Constructor arguments are as expected in the Init script
 - (optional) Authority is given to the protocol owner: `MCD_PAUSE_PROXY` in the case of SKY and denied from the deployer address.
