@@ -1,12 +1,12 @@
 ---
-id: bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c
+id: 4c7be4c6-44b5-407a-94ae-3d7ca7e8039c
 docNo: A.2.2.9.3
-name: Asset Liability Management Rental Primitive
+name: Pioneer Chain Primitive
 type: Core
 depth: 5
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.9.3 - Asset Liability Management Rental Primitive [Core]
+###### A.2.2.9.3 - Pioneer Chain Primitive [Core]
 
-The Asset Liability Management Rental Primitive is a mechanism enabling Prime Agents to trade Asset Liability Management obligations between each other, providing more flexibility in how capital is deployed through the Allocation System and reducing duplicate work.
+The documents herein govern the Pioneer Chain Primitive.

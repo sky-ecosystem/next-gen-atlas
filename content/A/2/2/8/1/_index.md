@@ -6,5 +6,5 @@ childCount: 2
 
 # Contents
 
-- [A.2.2.8.1.1 - Introduction](1/document.md)
-- [A.2.2.8.1.2 - Global Specification](2/document.md)
+- [A.2.2.8.1.1 - Token SkyLink Process Definition](1/document.md)
+- [A.2.2.8.1.2 - Token SkyLink Input Requirements](2/document.md)
