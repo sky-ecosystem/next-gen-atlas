@@ -11,8 +11,8 @@ childType: sections_and_primary_docs
 
 The current tBTC risk parameters are:
 
-- LTV: 74%
-- Liquidation Threshold: 75%
+- LTV: 0%
+- Liquidation Threshold: 70%
 - E-mode Category: 0
 - Liquidation Bonus: 8%
 - Reserve Factor: 99%
