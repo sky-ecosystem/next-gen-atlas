@@ -21,4 +21,4 @@ childType: active_data
 | 2024-12-17 | AD | Skynet | - | [https://forum.skyeco.com/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.skyeco.com/t/derecognition-notice-for-multiple-aligned-delegates/25718) |
 | 2024-12-17 | AD | Pf | - | [https://forum.skyeco.com/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.skyeco.com/t/derecognition-notice-for-multiple-aligned-delegates/25718) |
 | 2026-01-27 | AD | Sky Staking | - | [https://forum.skyeco.com/t/ad-derecognition-due-to-misalignment-2026-01-27/27655](https://forum.skyeco.com/t/ad-derecognition-due-to-misalignment-2026-01-27/27655) |
-| 2026-06-11 | AD | Kuzmich | - | [$TBD]($TBD) |
+| 2026-06-11 | AD | Kuzmich | - | [https://forum.skyeco.com/t/ad-recognition-submission/26743/54](https://forum.skyeco.com/t/ad-recognition-submission/26743/54) |
