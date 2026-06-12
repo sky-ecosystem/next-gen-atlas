@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.4.12.4.7 - Private Validation Status Reporting [Core]
 
-Privately reporting issues found during Ecosystem Spell Validation is only recommended where the private communication involves multiple trusted parties, as a single actor may be acting maliciously and provide false information. Private reporting of issues can be performed using platforms such as Discord or Signal.
+Privately reporting issues found during Ecosystem Spell Validation is only recommended where the private communication involves multiple trusted parties, as a single actor may be acting maliciously and provide false information. Private reporting of issues can be performed using platforms such as Slack or Signal.

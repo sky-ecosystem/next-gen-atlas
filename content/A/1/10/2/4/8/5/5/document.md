@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.4.8.5.5 - Core Facilitator Must Communicate Executive Document With Media Liaison [Core]
 
-The Core Facilitator must share the Executive Document with the Media Liaison. This is done via the #twitter-requests channel in the Growth Core Unit Discord. Both the document and the timeline should be shared.
+The Core Facilitator must share the Executive Document with the Media Liaison. Both the document and the timeline should be shared.
