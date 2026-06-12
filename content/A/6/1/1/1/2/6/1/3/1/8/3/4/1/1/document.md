@@ -1,12 +1,12 @@
 ---
-id: ac41be8b-f6c9-4df2-9fac-c543c77e0166
+id: 7188ce4f-e883-4175-89d6-bf04d375f46c
 docNo: A.6.1.1.1.2.6.1.3.1.8.3.4.1.1
-name: Curator Role Address
+name: Curator Role Parameters
 type: Core
 depth: 15
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1 - Curator Role Address [Core]
+###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1 - Curator Role Parameters [Core]
 
-`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
+This document defines the parameters for the Curator Role Multisig.
