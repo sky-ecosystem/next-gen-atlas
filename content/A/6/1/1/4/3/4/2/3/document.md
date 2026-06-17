@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The USDS Demand Subsidies Multisig has the following signers:
 
-- Soter Labs: 2 signers
+- Soter Labs: 4 signers
 - Skybase Foundation: 1 signer

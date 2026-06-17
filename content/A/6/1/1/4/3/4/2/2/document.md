@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.4.3.4.2.2 - Required Number of Signers [Core]
 
-The USDS Demand Subsidies Multisig currently has a 2/3 signing requirement.
+The USDS Demand Subsidies Multisig currently has a 3/5 signing requirement.

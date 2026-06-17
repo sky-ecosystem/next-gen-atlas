@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.4.3.4.2 - USDS Demand Subsidies Multisig [Core]
 
-The USDS Demand Subsidies Multisig is controlled by two (2) signers from Operational GovOps Soter Labs and one (1) signer from Skybase Foundation.
+The USDS Demand Subsidies Multisig is controlled by four (4) signers from Operational GovOps Soter Labs and one (1) signer from Skybase Foundation.
