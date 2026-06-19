@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.4.8.5.4 - Core Facilitator Shares Link And Hash Of Executive Document With Technical Point [Core]
 
-The Core Facilitator must share the link to the merged Executive Document on GitHub and its hash with the Technical Point. This communication must be provided in a public manner, typically on Discord.
+The Core Facilitator must share the link to the merged Executive Document on GitHub and its hash with the Technical Point. This communication must be provided in a public manner, typically on Slack.

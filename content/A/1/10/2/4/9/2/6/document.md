@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.4.9.2.6 - Spell Reviewers Must Raise Comments When They Find Issues [Core]
 
-When Spell Reviewers find any issues within the current Spell, they must raise these to the Spell Team and other relevant actors via a comment in GitHub, relevant Discord channels, or other communications channels as necessary.
+When Spell Reviewers find any issues within the current Spell, they must raise these to the Spell Team and other relevant actors via a comment in GitHub, relevant Slack channels, or other communications channels as necessary.

@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.3.2.6.1.2.1.1.4.1 - Allocator Vault Parameters [Core]
 
-The Allocator Vault parameters for ALLOCATOR-NOVA-A are defined in [A.3.7.1.2.1.3 - ALLOCATOR-NOVA-A Parameters](08321783-f31a-4a80-8f0c-898afb4d8f9b).
+The Allocator Vault parameters for ALLOCATOR-NOVA-A are defined in [A.3.7.1.2.1.4 - ALLOCATOR-NOVA-A Parameters](08321783-f31a-4a80-8f0c-898afb4d8f9b).
