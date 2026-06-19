@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.4.1.1.1 - Required Number Of Signers [Core]
 
-The Guardian Multisig currently has a 3/5 signing requirement.
+The Curator Multisig currently has a 3/5 signing requirement.
