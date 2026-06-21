@@ -1,0 +1,12 @@
+---
+id: bfb9bfe1-e90b-4955-aa23-9892c2c85f2d
+docNo: A.6.1.1.1.2.6.1.3.3.3.1.2.4
+name: Rate Limits
+type: Core
+depth: 14
+childType: sections_and_primary_docs
+---
+
+###### A.6.1.1.1.2.6.1.3.3.3.1.2.4 - Rate Limits [Core]
+
+The specific `maxAmount` and `slope` for this conduit's inflow/outflow are not defined for this Instance.
