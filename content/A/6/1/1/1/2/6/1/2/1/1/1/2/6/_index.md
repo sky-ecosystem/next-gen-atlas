@@ -1,7 +1,7 @@
 ---
 type: index
 path: content/A/6/1/1/1/2/6/1/2/1/1/1/2/6
-childCount: 8
+childCount: 9
 ---
 
 # Contents
@@ -14,3 +14,4 @@ childCount: 8
 - [A.6.1.1.1.2.6.1.2.1.1.1.2.6.6 - ALM Rate Limits (Avalanche) Contract](6/document.md)
 - [A.6.1.1.1.2.6.1.2.1.1.1.2.6.7 - ALM Proxy Freezable (Avalanche) Contract Address](7/document.md)
 - [A.6.1.1.1.2.6.1.2.1.1.1.2.6.8 - ALM Proxy Freezable (Avalanche) Contract Version](8/document.md)
+- [A.6.1.1.1.2.6.1.2.1.1.1.2.6.9 - Governance Bridge Protection](9/document.md)
