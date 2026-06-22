@@ -12,4 +12,4 @@ childType: sections_and_primary_docs
 The maximum amount of USDT that can be sent to the Arbitrum ALM Proxy (`LIMIT_USDT_TO_DOMAIN`, hashed with Arbitrum domain) is specified in the document herein.
 
 - `maxAmount` (USDT): 5,000,000
-- `slope` (USDT/ day): 50,000,000 
+- `slope` (USDT/ day): 50,000,000
