@@ -15,13 +15,13 @@ The current USDC risk parameters are:
 - Liquidation Threshold: 0%
 - E-mode Category: USD
 - Liquidation Bonus: 0%
-- Reserve Factor: 1%
+- Reserve Factor: 10%
 - Supply Cap: Set by cap automator
 - Borrow Cap: Set by cap automator
-- Optimal Utilization: 95%
+- Optimal Utilization: 98%
 - Isolated Debt Ceiling: N/A
 - Base Rate: 0%
-- Slope 1: SSR value + 1.25%
+- Slope 1: SSR value + 1.00%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: No
