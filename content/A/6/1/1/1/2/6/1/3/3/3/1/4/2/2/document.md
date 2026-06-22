@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.3.3.3.1.4.2.2 - Rate Limits [Core]
 
-The current `maxAmount` for this conduit's take, transferAssets and bridge operations are defined in the subdocuments herein.
+The current `maxAmount` for this conduit's take, transferAssets, and bridge operations are defined in the subdocuments herein.
