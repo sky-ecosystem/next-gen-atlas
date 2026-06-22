@@ -11,4 +11,4 @@ childType: sections_and_primary_docs
 
 The Governance Point must ensure that any discrepancies between the Executive Sheet and stakeholder input are corrected.
 
-The stakeholders communicate in the #govops channel in Discord if there are any issues or required changes that need to be made in the Executive Sheet. The Governance Point then changes the instruction in accordance with the stakeholder's input, and asks the stakeholder to confirm that the new instruction is correct. This is common for technical instructions in the Executive Sheet.
+The stakeholders communicate in the govops channel in Slack if there are any issues or required changes that need to be made in the Executive Sheet. The Governance Point then changes the instruction in accordance with the stakeholder's input, and asks the stakeholder to confirm that the new instruction is correct. This is common for technical instructions in the Executive Sheet.
