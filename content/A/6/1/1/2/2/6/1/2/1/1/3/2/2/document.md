@@ -1,15 +1,15 @@
 ---
-id: d5b284c1-8cb7-4e49-8efc-6253b517f36e
+id: a444f64b-519a-4e52-a538-395c9ee04956
 docNo: A.6.1.1.2.2.6.1.2.1.1.3.2.2
-name: USDC Avalanche ALM Proxy Circle Cross-Chain Transfer Protocol Maximum
+name: USDS Burn Maximum
 type: Core
 depth: 14
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.2.2.6.1.2.1.1.3.2.2 - USDC Avalanche ALM Proxy Circle Cross-Chain Transfer Protocol Maximum [Core]
+###### A.6.1.1.2.2.6.1.2.1.1.3.2.2 - USDS Burn Maximum [Core]
 
-The maximum amount of USDC that can be bridged to Avalanche ALM Proxy using the Circle Cross-Chain Transfer Protocol (`LIMIT_USDC_TO_CCTP_Avalanche`) is specified in the document herein.
+The maximum amount of USDS that can be burned by the Grove Diamond PAU (`LIMIT_USDS_BURN`) is specified in the document herein.
 
-- `maxAmount` (USDC): 50,000,000
-- `slope` (USDC/ day): 50,000,000
+- `maxAmount` (USDS): 5,000,000
+- `slope` (USDS/ day): 5,000,000

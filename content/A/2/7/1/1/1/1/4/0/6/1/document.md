@@ -23,7 +23,7 @@ childType: active_data
 | Atlas Axis | Core GovOps | atlas-axis | Le_Bateleur, adamfraser, Lex |
 | Ozone | Operational Executor Agent | N/A | SoterLabs, Redline (and their authorized representatives) |
 | Endgame Edge | Operational Facilitator | Endgame-Edge | votewizard, CivicSage, boet, blimpa |
-| Keel | Prime Agent | Elodin | N/A |
+| Keel | Prime Agent | N/A | N/A |
 | Sidestream | Ecosystem Actor | Sidestream | N/A |
 | JanSky | Core Facilitator | JanSky-Team | JanSky, ldr |
 | Rune | N/A | rune | N/A |
