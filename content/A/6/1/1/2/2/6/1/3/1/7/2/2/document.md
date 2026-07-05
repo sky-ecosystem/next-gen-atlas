@@ -1,5 +1,5 @@
 ---
-id: 4ed65dea-eefa-4cfc-93e8-99187aa14f7f
+id: 74f5efe4-582c-4b44-9235-71495f81ae51
 docNo: A.6.1.1.2.2.6.1.3.1.7.2.2
 name: Parameters
 type: Core
@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.3.1.7.2.2 - Parameters [Core]
 
-The documents herein define the parameters of the Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance of the Allocation System Primitive.
+The documents herein define the parameters of the Grove x Steakhouse USDC Morpho Vault v2 Instance of the Allocation System Primitive.

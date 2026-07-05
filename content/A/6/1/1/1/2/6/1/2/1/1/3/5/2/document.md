@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The maximum amount of USDC that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_USDC`) is specified in the document herein.
 
-- `maxAmount` (USDC): 50,000,000
-- `slope` (USDC/ day): 50,000,000
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 50,000,000 USDC per day

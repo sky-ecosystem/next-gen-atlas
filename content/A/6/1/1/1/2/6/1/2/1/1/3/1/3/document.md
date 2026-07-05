@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The maximum amount of USDS that can be swapped for USDC by the Spark Liquidity Layer in the Mainnet PSM (`LIMIT_USDS_TO_USDC`) is specified in the document herein.
 
-- `maxAmount` (USDC): 500,000,000
-- `slope` (USDC/ day): 300,000,000
+- `maxAmount`: 500,000,000 USDC
+- `slope`: 300,000,000 USDC per day

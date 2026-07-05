@@ -1,12 +1,12 @@
 ---
-id: 27f06e65-8397-449a-b002-abaa0416badc
+id: 6ec606f0-bc47-4f36-8591-75784bb78b00
 docNo: A.6.1.1.2.2.6.1.3.1.7.2
-name: Ethereum Mainnet - Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document
+name: Ethereum Mainnet - Grove x Steakhouse USDC Morpho Vault v2 Instance Configuration Document
 type: Core
 depth: 12
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.2.2.6.1.3.1.7.2 - Ethereum Mainnet - Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance Configuration Document [Core]
+###### A.6.1.1.2.2.6.1.3.1.7.2 - Ethereum Mainnet - Grove x Steakhouse USDC Morpho Vault v2 Instance Configuration Document [Core]
 
-The documents herein contain the Instance Configuration Document for the Monad Morpho Grove x Steakhouse High Yield Vault AUSD Instance.
+The documents herein contain the Instance Configuration Document for the Grove x Steakhouse USDC Morpho Vault v2 Instance.

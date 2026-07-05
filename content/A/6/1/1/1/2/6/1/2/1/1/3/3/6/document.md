@@ -11,4 +11,4 @@ childType: sections_and_primary_docs
 
 The maximum amount of sUSDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_SUSDS`) is specified in the document herein.
 
-- `maxAmount` (sUSDS): Unlimited
+- `maxAmount`: Unlimited
