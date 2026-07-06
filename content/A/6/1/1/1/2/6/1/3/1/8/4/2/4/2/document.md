@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The outflow rate limits are:
 
-- `maxAmount`: unlimited
-- `slope`: unlimited
+- `maxAmount`: 0
+- `slope`: 0
