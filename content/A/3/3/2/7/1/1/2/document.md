@@ -13,8 +13,8 @@ The current values of the Lite Peg Stability Module parameters are:
 
 - `tin`: 0%
 - `tout`: 0%
-- DC-IAM `line`: 10,000,000,000
-- DC-IAM `gap`: 400,000,000
+- DC-IAM `line`: 10,000,000,000 DAI
+- DC-IAM `gap`: 800,000,000 DAI
 - DC-IAM `ttl`: 43,200 seconds
-- `buf`: 400,000,000
+- `buf`: 800,000,000 DAI
 - Authorized Parties: None
