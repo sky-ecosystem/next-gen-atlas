@@ -1,12 +1,12 @@
 ---
-id: 823a12c3-45d2-438a-b061-46ecd09cdca8
+id: 02189c79-a529-4388-98ad-a743d2a8980d
 docNo: A.2.2.9.1.1
-name: Allocation System Process Definition
+name: Introduction
 type: Core
 depth: 6
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.9.1.1 - Allocation System Process Definition [Core]
+###### A.2.2.9.1.1 - Introduction [Core]
 
-The documents herein define the process for initial setup and ongoing management of an Allocation Instance (alternatively referred to as "conduits") as part of the Allocation System Primitive.
+The documents herein provide an introduction to the Distribution Reward Primitive.

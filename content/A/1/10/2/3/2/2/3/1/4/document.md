@@ -1,12 +1,12 @@
 ---
-id: 05e33459-9ee6-430c-af72-13db2004c505
+id: 194654c4-1837-40f3-bd4d-97a63bda8362
 docNo: A.1.10.2.3.2.2.3.1.4
-name: Strategic Team Approves Spell Scope
+name: Communication Of Approved Scope
 type: Core
 depth: 10
 childType: sections_and_primary_docs
 ---
 
-###### A.1.10.2.3.2.2.3.1.4 - Strategic Team Approves Spell Scope [Core]
+###### A.1.10.2.3.2.2.3.1.4 - Communication Of Approved Scope [Core]
 
-The Strategic Team reviews the items and approves the scope of Prime Agent content to be advanced through the Prime Spell Process for the upcoming Executive Vote cycle. The approval reflects the Strategic Team's assessment of business needs and strategic alignment with the Sky Ecosystem's broader objectives. Approval must be completed by end of Friday of week 0.
+Following the Strategic Team's approval as specified in [A.1.10.2.3.2.2.3.1.3 - Strategic Team Approves Spell Scope](05e33459-9ee6-430c-af72-13db2004c505), the Executive Process Liaison should communicate the approved scope to the Prime Agent and the Core Council Risk Advisor.

@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.3.2.2.2.1.8 - Completion Of Full Risk Assessment [Core]
 
-Following the Interim Deployment, the Prime will work with the Core Council Risk Advisor to complete a full risk assessment. Once the means to calculate an official Capital Requirement Ratio for the deployment has been determined, the Prime can request that Core GovOps propose a subsequent Atlas Edit Proposal to lift the testing constraints and reduce the RRC to the Atlas-calculated value.
+Following the Interim Deployment, the Prime will work with the Core Council Risk Advisor to complete a full risk assessment. Once the means to calculate an official Capital Ratio Requirement for the deployment has been determined, the Prime can request that Core GovOps propose a subsequent Atlas Edit Proposal to lift the testing constraints and reduce the RRC to the Atlas-calculated value.

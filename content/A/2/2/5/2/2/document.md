@@ -1,12 +1,12 @@
 ---
-id: cec43505-2bf3-48ce-81d9-852f65edc468
+id: 062b9275-9778-4f24-b0e5-bccf9129c179
 docNo: A.2.2.5.2.2
-name: Root Edit Primitive Required Inputs
+name: Prime Transformation Primitive Input Requirements
 type: Core
 depth: 6
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.5.2.2 - Root Edit Primitive Required Inputs [Core]
+###### A.2.2.5.2.2 - Prime Transformation Primitive Input Requirements [Core]
 
-The documents herein define the required inputs for a valid Invocation of the Root Edit Primitive. If any input is noncompliant or omitted, the Primitive will be invalidated and the Root Edit Primitive will not be set up.
+The documents herein define the required inputs for a valid Invocation of the Prime Transformation Primitive. If any input is noncompliant or omitted, the Primitive will be invalidated.
