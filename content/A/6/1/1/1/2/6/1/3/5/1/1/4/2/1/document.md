@@ -11,6 +11,6 @@ childType: sections_and_primary_docs
 
 The Risk parameters are:
 
-- Supply cap: `TBD`
-- Max yield: `TBD`
-- Current yield (at launch): `TBD`
+- Supply cap: 500,000,000 USDG
+- Max yield: 6%
+- Current yield (at launch): 0%

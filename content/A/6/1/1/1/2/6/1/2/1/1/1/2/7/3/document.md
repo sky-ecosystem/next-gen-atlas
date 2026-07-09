@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.3 - ALM Freezer Multisig (Robinhood Chain) Address [Core]
 
-The address of the Multisig that has the Freezer Role is: `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431`.
+The address of the Multisig that has the Freezer Role is: `0x59C85fe4385403e93877e48e5521f2F02B150359`.
