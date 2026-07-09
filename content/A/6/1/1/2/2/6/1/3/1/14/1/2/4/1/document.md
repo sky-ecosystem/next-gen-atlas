@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The inflow rate limits are:
 
-- `maxAmount`: 0 USDS
-- `slope`: 0 USDS per day
+- `maxAmount`: 5,000,000 USDS
+- `slope`: 5,000,000 USDS per day

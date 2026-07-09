@@ -1,12 +1,12 @@
 ---
-id: 5163ebb9-a425-4df6-aba9-b483e8a482c1
+id: 5ac93594-d197-4fac-b5ca-6bc9b7f10bed
 docNo: A.6.1.1.1.3.7.2.2.5
-name: Unapproved Assets and Products
+name: Decentralized Exchange Protocols
 type: Core
 depth: 10
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.1.3.7.2.2.5 - Unapproved Assets and Products [Core]
+###### A.6.1.1.1.3.7.2.2.5 - Decentralized Exchange Protocols [Core]
 
-Exposure to unapproved assets and/or futures products is not permitted, and incurs a collateral haircut rating of +100% / -100%. Long and short exposure to unapproved products will not be counted as offsetting each other. Frequent or significant exposure to unapproved assets or products may result in recall of the loan amount or liquidation of outstanding positions.
+Approved onchain spot decentralized exchange protocols may be included within position margin calculations, under the following conditions: (1) all assets to which a pool has exposure are approved as marginable assets, and (2) the protocol is either Curve-ng stableswap, Uniswap v2, Uniswap v3, Uniswap v4 vanilla (no hooks), or Uniswap v4 using hook(s) that have been onboarded via direct integration within the Spark Liquidity Layer. If one or more of these conditions is not met in full, the pool is treated as an unapproved asset/product.
