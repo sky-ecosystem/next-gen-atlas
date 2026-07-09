@@ -1,7 +1,7 @@
 ---
 type: index
 path: content/A/3/1/2/3
-childCount: 6
+childCount: 7
 ---
 
 # Contents
@@ -12,3 +12,4 @@ childCount: 6
 - [A.3.1.2.3.4 - Spark](4/document.md)
 - [A.3.1.2.3.5 - Limitations For Prime Agents Receiving Subsidized Rate](5/document.md)
 - [A.3.1.2.3.6 - Settlement](6/document.md)
+- [A.3.1.2.3.7 - No Double Counting](7/document.md)
