@@ -12,4 +12,4 @@ childCount: 7
 - [A.6.1.1.2.2.6.1.3.1.14.1.2.2.4 - Pocket Contract Address](4/document.md)
 - [A.6.1.1.2.2.6.1.3.1.14.1.2.2.5 - Token Redeemer Contract Address](5/document.md)
 - [A.6.1.1.2.2.6.1.3.1.14.1.2.2.6 - Owner Timelock Contract Address](6/document.md)
-- [A.6.1.1.2.2.6.1.3.1.14.1.2.2.7 - RWA Instance Contract Address](7/document.md)
+- [A.6.1.1.2.2.6.1.3.1.14.1.2.2.7 - Basin Contract Address](7/document.md)

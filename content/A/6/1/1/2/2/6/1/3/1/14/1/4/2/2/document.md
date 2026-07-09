@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.4.2.2 - Redeemer Role Holder [Core]
 
-The `REDEEMER_ROLE`, as defined in [A.6.1.1.2.2.6.1.2.2.1.6.5 - Tokenized Treasury Redeemer Role](fbeb1921-37eb-465b-97fa-004c8e0925b1), is controlled by Anemoy; the holder address will be specified in a future iteration of the Atlas.
+The `REDEEMER_ROLE`, as defined in [A.6.1.1.2.2.6.1.2.2.1.1.2.5 - Tokenized Treasury Redeemer Role](fbeb1921-37eb-465b-97fa-004c8e0925b1), is held by Anemoy at `0xb6e8D3E47c4FC5606E6C24D097Dd1791885Ce05a`.
