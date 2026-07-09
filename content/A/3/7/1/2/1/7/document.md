@@ -1,15 +1,15 @@
 ---
-id: cdbdd083-cb1c-4958-9cf0-18a088535c9d
+id: 17630a67-b287-4f44-bc60-f2a4f5d16cfa
 docNo: A.3.7.1.2.1.7
-name: ALLOCATOR-INTERVAL-A Parameters
+name: ALLOCATOR-PRYSM-A Parameters
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.3.7.1.2.1.7 - ALLOCATOR-INTERVAL-A Parameters [Core]
+###### A.3.7.1.2.1.7 - ALLOCATOR-PRYSM-A Parameters [Core]
 
-The parameters for the Launch Agent 7 Allocator Vault are:
+The parameters for the Osero Allocator Vault are:
 
 - `duty`: set by the SP-BEAM specified in [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
 - `line`: controlled by DC-IAM

@@ -10,7 +10,6 @@ childType: sections_and_primary_docs
 ###### A.2.2.9.2.2.3.5.4.2 - Agent Artifact Updates [Core]
 
 The Agent Artifact documents specified herein are updated as the output of this process. The Output "sets" are mutually exclusive.
-The Agent Artifact documents specified herein are updated as the output of this process. The Output "sets" are mutually exclusive.
 
 - Proposal passes
     - Required Primitive Input Trigger: Proposal Passes

@@ -12,7 +12,7 @@ childType: sections_and_primary_docs
 The current rETH risk parameters are:
 
 - LTV: 0%
-- Liquidation Threshold: 80%
+- Liquidation Threshold: 70%
 - E-mode Category: ETH
 - Liquidation Bonus: 7%
 - Reserve Factor: 15%

@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.4 - Freezer Multisig [Core]
 
-The Freezer Multisig has the `FREEZER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.4 - Freezer Role](37871a80-dc8f-4804-bce1-5f082e9bca9f).
+The Freezer Multisig has the `FREEZER_ROLE` for the monolithic ALM Controller as defined in [A.6.1.1.2.2.6.1.2.2.1.1.1.4 - Freezer Role](37871a80-dc8f-4804-bce1-5f082e9bca9f), and holds the equivalent Freezer Role for the Diamond PAU as defined in [A.6.1.1.2.2.6.1.2.2.1.1.3.4 - Freezer Role](d910ae36-1251-4385-b989-f303878ed094).

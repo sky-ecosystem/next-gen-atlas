@@ -1,7 +1,7 @@
 ---
 type: index
 path: content/A/6/1/1/1/2/6/1/2/1/1/1/2/2
-childCount: 6
+childCount: 8
 ---
 
 # Contents
@@ -12,3 +12,5 @@ childCount: 6
 - [A.6.1.1.1.2.6.1.2.1.1.1.2.2.4 - ALM Relayer Multisig (Base) Address](4/document.md)
 - [A.6.1.1.1.2.6.1.2.1.1.1.2.2.5 - ALM Proxy (Base) Contract](5/document.md)
 - [A.6.1.1.1.2.6.1.2.1.1.1.2.2.6 - ALM Rate Limits (Base) Contract](6/document.md)
+- [A.6.1.1.1.2.6.1.2.1.1.1.2.2.7 - ALM Proxy Freezable (Base) Contract Address](7/document.md)
+- [A.6.1.1.1.2.6.1.2.1.1.1.2.2.8 - ALM Proxy Freezable (Base) Contract Version](8/document.md)
