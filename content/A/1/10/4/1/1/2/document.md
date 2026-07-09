@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.4.1.1.2 - Ethereum SkyLink Freezer Multisig Required Number Of Signers [Core]
 
-The Ethereum SkyLink Freezer Multisig has a 2/4 signing requirement.
+The Ethereum SkyLink Freezer Multisig has a 2/5 signing requirement.

@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.2.2.5.1.1.1.1 - Near Term Real Time Updates By Core Council Risk Advisor [Core]
 
-In the near term, the Core Council Risk Advisor will provide real time data regarding major lending markets. The Core Council Risk Advisor will be compensated for this work as part of its existing relationship with Sky Core and Spark.
+In the near term, the Core Council Risk Advisor will provide real time data regarding major lending markets on Ethereum Mainnet and Ethereum L2s. The Core Council Risk Advisor will be compensated for this work as part of its existing relationship with Sky Core and Spark.

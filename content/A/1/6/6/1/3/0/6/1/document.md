@@ -11,8 +11,11 @@ childType: active_data
 
 Breaches of the Graduated Response Framework are recorded herein.
 
-| Date       | Identity        | Breach Tier | Reasoning Post |
-|------------|-----------------|-------------|----------------|
-| 2026-05-08 | Kuzmich         | 1           | [Core Facilitator Post](https://forum.skyeco.com/t/ad-recognition-submission/26743/50) | 
-| 2026-05-15 | Kuzmich         | 1           | [Core Facilitator Post](https://forum.skyeco.com/t/ad-recognition-submission/26743/51) |
-| 2026-05-15 | MaxStakingYield | 1           | [Core Facilitator Post](https://forum.skyeco.com/t/max-staking-yield-ad-recognition-submission/26462/80) |
+| Date | Identity | Breach Tier | Reasoning Post |
+|---|---|---|---|
+| 2026-05-15 | MaxStakingYield | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/max-staking-yield-ad-recognition-submission/26462/80) |
+| 2026-06-11 | AxisLegati | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/axislegati-ad-recognition-submission/27677/4) |
+| 2026-06-11 | OPEX | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/opex-aligned-delegate-communication-platform/27630/10) |
+| 2026-06-11 | Tango | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/tango-ad-recognition-submission/26310/52) |
+| 2026-06-11 | Excel | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/excel-ad-recognition-submission/26227/67) |
+| 2026-06-18 | aegisD | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/aegisd-ad-recognition-submission/26145/84) |

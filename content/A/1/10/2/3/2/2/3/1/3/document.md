@@ -1,12 +1,12 @@
 ---
-id: 6bde7e9e-b492-4f9c-813a-986b24bc540b
+id: 05e33459-9ee6-430c-af72-13db2004c505
 docNo: A.1.10.2.3.2.2.3.1.3
-name: Core Council Risk Advisor Conducts Pre-Risk Review
+name: Strategic Team Approves Spell Scope
 type: Core
 depth: 10
 childType: sections_and_primary_docs
 ---
 
-###### A.1.10.2.3.2.2.3.1.3 - Core Council Risk Advisor Conducts Pre-Risk Review [Core]
+###### A.1.10.2.3.2.2.3.1.3 - Strategic Team Approves Spell Scope [Core]
 
-After the items are delivered to the Core Council Tracker, the [A.1.8.1.1 - Core Council Risk Advisor](d80c8f64-b3f6-430d-bf62-8e50a3783e73) conducts a pre-risk review of the proposed Prime Spell content. The pre-risk review identifies any preliminary risk concerns that should inform the Strategic Team's approval of Spell scope. The pre-risk review must be completed before the Strategic Team approval specified in [A.1.10.2.3.2.2.3.1.4 - Strategic Team Approves Spell Scope](05e33459-9ee6-430c-af72-13db2004c505).
+The Strategic Team reviews the items and approves the scope of Prime Agent content to be advanced through the Prime Spell Process for the upcoming Executive Vote cycle. The approval reflects the Strategic Team's assessment of business needs and strategic alignment with the Sky Ecosystem's broader objectives. Approval must be completed by end of Friday of week 0.

@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.2.2.4.4 - Originated Senior Risk Capital (OSRC) Rental Implementation [Core]
 
-The operational process for inter-Prime Agent OSRC risk-capital rentals is defined herein. SEJRC rentals are facilitated through the Junior Risk Capital Rental Primitive. See [A.2.2.9.2 - Junior Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).
+The operational process for inter-Prime Agent OSRC risk-capital rentals is defined herein. SEJRC rentals are facilitated through the Junior Risk Capital Rental Primitive. See [A.2.2.10.2 - Junior Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).

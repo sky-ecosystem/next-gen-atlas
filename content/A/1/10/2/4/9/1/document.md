@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.4.9.1 - Spell Reviewing Workflow [Core]
 
-Spell Reviewers must comprehensively review the draft Spell in accordance with Reviewer checklists and testing requirements, set out here: [https://github.com/sky-ecosystem/pe-checklists/blob/master/Spell/Spell-reviewer-mainnet-checklist.md](https://github.com/sky-ecosystem/pe-checklists/blob/master/spell/spell-reviewer-mainnet-checklist.md).
+Spell Reviewers must comprehensively review the draft Spell in accordance with Reviewer checklists and testing requirements, set out in the Core Spell Reviewer Mainnet Checklist, as specified in [A.1.10.2.5.1.3.2.0.6.1 - Registered Spell Checklists](93f5b36b-06a7-4282-9fd7-14e0cbafd08e).

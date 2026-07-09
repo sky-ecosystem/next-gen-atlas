@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3 - RateLimits [Core]
 
-The documents herein list the Ratelimits for the Grove Liquidity Layer on each blockchain.
+The documents herein list the rate limits for the Grove Liquidity Layer, covering the monolithic ALM Controller and the Diamond PAU.

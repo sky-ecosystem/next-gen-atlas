@@ -13,5 +13,5 @@ In order to prevent excessive price spikes if there is high demand for leverage 
 
 The wrapper enforces an upper limit on the price of SKY for the purposes of SKY-Backed Borrowing, which is set to be the minimum value of:
 
-1. The current price reported by PIP_SKY.
-2. The `cap` that has been set on the OSM wrapper contract.
+1. The current price reported by [A.4.4.1.3.9.1 - SKY Price Oracle](7e9cf614-291d-43a5-984e-4f3366f42052).
+2. The `cap` parameter as specified in [A.4.4.1.3.9.2 - Cap Parameter](532ed9cb-51de-4ac2-ade9-58c07b3ea3d5).
