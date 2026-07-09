@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.1 - Prime Primary Relayer Multisig [Core]
 
-The Prime Primary Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.2 - Relayer Role](4639e60c-111f-4018-bc8d-501b88c20edd) and is controlled by Grove.
+The Prime Primary Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.2.2.6.1.2.2.1.1.1.2 - Relayer Role](4639e60c-111f-4018-bc8d-501b88c20edd) and is controlled by Grove.

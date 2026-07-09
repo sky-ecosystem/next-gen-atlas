@@ -1,12 +1,12 @@
 ---
-id: 9c5e2e23-7756-4856-951b-0bcbecaa867d
+id: 3af0e156-b5c0-493b-bd6f-80185072b7b1
 docNo: A.2.2.9.1.2.4
-name: Allocation System Core Security Parameters
+name: Instance Ongoing Management Protocol
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.9.1.2.4 - Allocation System Core Security Parameters [Core]
+###### A.2.2.9.1.2.4 - Instance Ongoing Management Protocol [Core]
 
-The Prime Agent Artifact must specify the rate limiters for the Allocation Vault and Core Allocation Buffer, including the address and parameters for each.
+The documents herein define the process for the ongoing management of an Instance of the Distribution Reward Primitive.

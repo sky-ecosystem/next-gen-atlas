@@ -11,4 +11,4 @@ childType: sections_and_primary_docs
 
 The Governance Point lists the preliminary content in the Executive Sheet. Each item is discussed at the meeting. The review during the GovOps meeting primarily focuses on the technical aspects of the instructions in the Executive Sheet. The Technical Point often provides technical advice to the Governance Point during the GovOps meetings, including technical risk and other implications that the Governance Point may not otherwise be aware of. If the Spell includes complex code, the Technical Point may sometimes prepare technical documents to facilitate the process.
 
-The Governance Point may have additional discussions with Ecosystem Actors in separate Discord channels.
+The Governance Point may have additional discussions with Ecosystem Actors in separate Slack channels.

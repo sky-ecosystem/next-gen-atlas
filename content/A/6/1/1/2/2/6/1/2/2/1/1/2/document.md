@@ -1,12 +1,12 @@
 ---
-id: 4639e60c-111f-4018-bc8d-501b88c20edd
+id: 92908b02-e1eb-4c14-b44e-92968cccd881
 docNo: A.6.1.1.2.2.6.1.2.2.1.1.2
-name: Relayer Role
+name: Tokenized Treasury Role Hierarchy And Permissions
 type: Core
 depth: 13
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.2.2.6.1.2.2.1.1.2 - Relayer Role [Core]
+###### A.6.1.1.2.2.6.1.2.2.1.1.2 - Tokenized Treasury Role Hierarchy And Permissions [Core]
 
-The `RELAYER_ROLE` is the address for the Grove Liquidity Layer ALM Planner off-chain system that calls functions on `Controller` contracts to perform actions on behalf of the `ALMProxy` contract. The Relayer Role may be granted to an address by any address holding the `DEFAULT_ADMIN_ROLE`. The Relayer Role may be removed from an address by any address holding the `DEFAULT_ADMIN_ROLE` or the `FREEZER_ROLE`.
+The documents herein define the roles and permissions on Tokenized Treasury Instances of the Allocation System Primitive.

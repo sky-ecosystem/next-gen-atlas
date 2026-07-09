@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.3.7.2 - Policies and Mandate [Core]
 
-The documents herein define the currently active policies and mandate for allocation via Spark Prime Brokerage.
+The documents herein define the currently active policies and mandate for allocation via Arkis Infrastructure.

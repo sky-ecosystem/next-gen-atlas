@@ -1,12 +1,12 @@
 ---
-id: 82b95f6d-4883-4f08-ac3a-9d8189013fbe
+id: 37c38f07-b5a0-40df-939c-a54330ea3c7b
 docNo: A.2.2.4.1
-name: Agent Creation Primitive
+name: Integrator Program
 type: Core
 depth: 5
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.4.1 - Agent Creation Primitive [Core]
+###### A.2.2.4.1 - Integrator Program [Core]
 
-This Primitive may only be Invoked after the prospective Agent founder meets the prerequisites defined in [A.2.2.3 - Prerequisites For Activating Agent Creation Primitive](9204bcaf-cfec-4f49-a115-31fad73ebd62), resulting in the creation of a Proto-Agent. Invoking the Agent Creation Primitive allows the Proto-Agent to establish its identity by declaring its name, as well as articulate its intended vision, business model or ecosystem goals.
+Integrators are actors that offer access to the Sky Protocol via their frontends or infrastructure. The documents herein define the Integrator Program, which includes the Distribution Reward and Integration Boost. (Base elements specific to the Integration Boost Primitive are defined in [A.2.2.9.2.2.1 - Base Elements](c398b383-3752-4534-aec6-4cd8e7292119))

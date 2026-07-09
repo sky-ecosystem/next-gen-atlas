@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.4.2.1.2 - Prime Transformation Primitive [Core]
 
-The documents herein contain all data and specifications for Skybase's instance of the Prime Transformation Primitive. See [A.2.2.4.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
+The documents herein contain all data and specifications for Skybase's instance of the Prime Transformation Primitive. See [A.2.2.5.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).

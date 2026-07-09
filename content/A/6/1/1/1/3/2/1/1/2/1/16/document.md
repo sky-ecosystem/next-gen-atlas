@@ -13,7 +13,7 @@ The current cbBTC risk parameters are:
 
 - LTV: 81%
 - Liquidation Threshold: 82%
-- E-mode Category: BTC
+- E-mode Category: 0
 - Liquidation Bonus: 8%
 - Reserve Factor: 20%
 - Supply Cap: 500 cbBTC

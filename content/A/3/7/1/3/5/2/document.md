@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.7.1.3.5.2 - Operator Update Process [Core]
 
-Stability Parameter Bounded External Access Module Operators can be modified by the Stability Facilitators, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
+Stability Parameter Bounded External Access Module Operators can be modified by the Core Facilitator, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.

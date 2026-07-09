@@ -1,16 +1,12 @@
 ---
-id: a59cee2a-864e-4dbb-9364-bdf121573cb2
+id: b6ccdee2-a5e4-4d63-9af5-60b8163673af
 docNo: A.2.2.10.1.2
-name: Eligible Recipients
+name: Allocation System Input Requirements
 type: Core
 depth: 6
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.2 - Eligible Recipients [Core]
+###### A.2.2.10.1.2 - Allocation System Input Requirements [Core]
 
-In order for an Integrator and the Prime Agent that manages the relationship with such Integrator to be eligible for the Core Governance Reward, the frontend maintained by the Integrator must satisfy compliance requirements as specified in [A.2.2.10.1.3 - Compliance Requirements](068c37b5-2cda-4bcc-90af-7b70c746dbc3).
-
-A single entity may serve as both the Integrator operating a frontend and the Prime Agent managing the relationship with that Integrator, in which case such entity is eligible to receive both the Integrator and Prime Agent rewards for that frontend.
-
-The current eligible recipients for the Core Governance Reward Primitive are specified in the documents herein.
+The documents herein define the required inputs for a valid Invocation of the Allocation System Primitive. If any input is noncompliant or omitted, the Primitive will be invalidated and the Allocation Instance deployment will not move forward.

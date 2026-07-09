@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.3.2.1.1.1.12 - Isolated Debt Ceiling Definition [Core]
 
-The isolated debt ceiling represents the maximum amount that can be borrowed against designated isolated assets, as determined by the Stability Facilitators in consultation with the Core Council Risk Advisor. Only Stablecoins may be borrowed against isolated assets.
+The isolated debt ceiling represents the maximum amount that can be borrowed against designated isolated assets, as determined by the Core Facilitator in consultation with the Core Council Risk Advisor. Only Stablecoins may be borrowed against isolated assets.

@@ -1,12 +1,12 @@
 ---
-id: 6fa54611-c744-4b9d-897d-b2a20e9cae5d
+id: d1142876-33c2-4e21-9339-d8711525d46f
 docNo: A.2.2.10
-name: Core Governance Primitives
+name: Supply Side Stablecoin Primitives
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.2.2.10 - Core Governance Primitives [Section]
+##### A.2.2.10 - Supply Side Stablecoin Primitives [Section]
 
-Core Governance Primitives allow Prime Agents to earn incentives for maintaining and securing Sky Governance frontends as well as borrow from the Smart Burn Engine.
+Supply Side Stablecoin Primitives are Sky Primitives focused on capital allocation and risk management.

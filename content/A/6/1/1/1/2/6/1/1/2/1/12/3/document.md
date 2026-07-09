@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.1.2.1.12.3 - Ethereum Mainnet - Paxos Transfer PYUSD to Paxos (receive USDG) Instance Configuration Document Location [Core]
 
-This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Transfer PYUSD to Paxos (receive USDG) Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.12.3](f6b739d1-c637-48f8-abf7-8c8f173bb392).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.12.3 - Ethereum Mainnet - Transfer PYUSD to Paxos (receive USDG) Instance Configuration Document](f6b739d1-c637-48f8-abf7-8c8f173bb392).

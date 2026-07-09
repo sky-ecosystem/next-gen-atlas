@@ -1,12 +1,12 @@
 ---
-id: 1ca2f5f3-1be7-4855-bbb7-49630e7e2ae6
+id: a01622fa-e81c-4bcb-8e31-7e66e36f2e57
 docNo: A.2.2.4.1.1.2.1
-name: Agent Creation Primitive Results In One-Time Creation
+name: Consequence For Integrator Non-Compliance With Local Laws And Regulations
 type: Core
 depth: 8
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.4.1.1.2.1 - Agent Creation Primitive Results In One-Time Creation [Core]
+###### A.2.2.4.1.1.2.1 - Consequence For Integrator Non-Compliance With Local Laws And Regulations [Core]
 
-Because the Agent Creation Primitive is deployed solely to effect the one-time creation of the Agent, no further management process is needed post-deployment.
+Sky Ecosystem Governance, in its absolute and unilateral discretion, retains the right to withhold, revoke, or demand immediate repayment of any and all Distribution Rewards from any Integrator that is determined, suspected, or alleged to be in violation of the Atlas or any legal, regulatory, or other obligations associated with its integration with, and provision of access to, the Sky Protocol.
