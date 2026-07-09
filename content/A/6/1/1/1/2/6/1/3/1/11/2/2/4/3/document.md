@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The swap rate limits are:
 
-- `maxAmount`: 5,000,000
-- `slope`: 50,000,000 per day
+- `maxAmount`: 25,000,000
+- `slope`: 250,000,000 per day
