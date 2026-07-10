@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The maximum amount of USDS that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_USDS`) is specified in the document herein.
 
-- `maxAmount` (USDS): Unlimited
-- `slope` (USDS/ day): Unlimited
+- `maxAmount`: Unlimited
+- `slope`: Unlimited

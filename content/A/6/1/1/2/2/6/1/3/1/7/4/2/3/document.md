@@ -1,5 +1,5 @@
 ---
-id: d0a539f7-83a1-4aef-9a4a-050d4ba8596a
+id: 112d2a3d-0241-446e-96e8-36a25715c275
 docNo: A.6.1.1.2.2.6.1.3.1.7.4.2.3
 name: Rate Limit IDs
 type: Core

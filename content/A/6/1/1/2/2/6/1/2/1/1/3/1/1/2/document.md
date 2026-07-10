@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The maximum amount of USDS that can be burned within the Grove Liquidity Layer (`LIMIT_USDS_BURN`) is specified in the document herein.
 
-- `maxAmount` (USDS): This parameter will be specified in a future iteration of the Grove Artifact.
-- `slope` (USDS/ day): This parameter will be specified in a future iteration of the Grove Artifact.
+- `maxAmount`: This parameter will be specified in a future iteration of the Grove Artifact.
+- `slope`: This parameter will be specified in a future iteration of the Grove Artifact.
