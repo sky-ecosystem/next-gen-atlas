@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The maximum amount of USDS that can be minted within the Spark Liquidity Layer (`LIMIT_USDS_MINT`) is specified in the document herein.
 
-- `maxAmount`: 500,000,000 USDS
-- `slope`: 500,000,000 USDS per day
+- `maxAmount`: 1,000,000,000 USDS
+- `slope`: 1,000,000,000 USDS per day

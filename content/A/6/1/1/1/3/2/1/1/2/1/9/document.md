@@ -18,10 +18,10 @@ The current USDC risk parameters are:
 - Reserve Factor: 1%
 - Supply Cap: Set by cap automator
 - Borrow Cap: Set by cap automator
-- Optimal Utilization: 95%
+- Optimal Utilization: 98%
 - Isolated Debt Ceiling: N/A
 - Base Rate: 0%
-- Slope 1: SSR value + 1.25%
+- Slope 1: SSR value + 1.00%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: No
