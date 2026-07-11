@@ -1,16 +1,16 @@
 ---
-id: c0337114-d46d-436f-892d-4f6feb192b29
+id: d8e0d76b-dd1f-4f3e-9a8b-7724ce4fc880
 docNo: A.1.10.4.1.1.4
-name: Ethereum SkyLink Freezer Multisig Usage Standards
+name: SparkLend Multisig Signer Modifications
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.1.10.4.1.1.4 - Ethereum SkyLink Freezer Multisig Usage Standards [Core]
+###### A.1.10.4.1.1.4 - SparkLend Multisig Signer Modifications [Core]
 
-The Ethereum SkyLink Freezer Multisig can only be used in urgent or emergency situations (e.g., potential code exploits). Such situations are characterized by the fact that 1) they have the potential to harm the Sky Ecosystem or its users; and 2) the preparation time required for an Executive Vote would leave the ecosystem vulnerable to harm (e.g., an exploit).
+Modification of the signers of the SparkLend Security Access Multisig must be approved through a Governance Poll; no Executive Vote is required.
 
-The multisig should be used to prevent technical vulnerabilities; prevent unwanted functionality of the smart contracts or corresponding parts of the system (e.g., price oracles); or prevent unwanted usage of the smart contracts or corresponding parts of the system which deviates from intended behavior.
+The only exceptions to this are if: 1) a signer self-reports a loss of access to their private key due to any reason; or 2) a signer explicitly expresses their wish to be removed as a signer. In both cases, the signer is required to communicate the loss of access to their private key, or the wish to be removed as a signer, in the form of a public Sky Forum post. The specific signer should be replaced as soon as possible, which does not require a Governance Poll.
 
-The Core Council must ensure that use of the multisig is generally aligned and specifically accords with these requirements.
+Any changes to the multisig signers that do not fall within the two exceptions listed above, or that have not been ratified by Sky Governance, should be questioned immediately and treated as malicious. The Core Facilitator should consider preparing an expedited Executive Vote so that Sky Governance can vote on removing external security access from the multisig.

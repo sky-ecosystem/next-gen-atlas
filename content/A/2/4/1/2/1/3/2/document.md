@@ -1,12 +1,12 @@
 ---
-id: 4ddda7cd-9942-4f60-9555-6b3f16770334
+id: 6e3d5198-fdb5-47dd-b632-4c71a313a1a6
 docNo: A.2.4.1.2.1.3.2
-name: Disputed Amount
+name: Collection Of Amounts Due From Prime Agents
 type: Core
 depth: 8
 childType: sections_and_primary_docs
 ---
 
-###### A.2.4.1.2.1.3.2 - Disputed Amount [Core]
+###### A.2.4.1.2.1.3.2 - Collection Of Amounts Due From Prime Agents [Core]
 
-The net amount due to or from a Prime Agent in an Initial Calculation is a Disputed Amount if it is not an Agreed Amount.
+Amounts due from Prime Agents, excluding reimbursements made to Operational Executor Agents (see [A.2.4.1.2.1.3.3 - Reimbursement Of Payments Made By Operational Executor Agents](07c5cfd2-d68a-40d6-873d-b82cea9a92be)) are settled in a way that is equivalent to a transfer from the Prime to the Sky Surplus Buffer through actions included in an Executive Vote.

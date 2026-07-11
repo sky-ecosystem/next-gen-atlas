@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.3.2.6.2.1.3 - Completed Instances Directory [Core]
 
-This document contains a Directory of all Instances of the Junior Risk Capital Rental Primitive with Instance status of `Completed`.
+This document contains a Directory of all Instances of the Risk Capital Rental Primitive with Instance status of `Completed`.

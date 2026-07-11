@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.2.1.5.1.1 - Failed Invocations [Core]
 
-The subtrees for failed Invocations of the Junior Risk Capital Rental Primitive are stored here.
+The subtrees for failed Invocations of the Risk Capital Rental Primitive are stored here.

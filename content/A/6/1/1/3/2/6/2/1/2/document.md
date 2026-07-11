@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.3.2.6.2.1.2 - Active Instances Directory [Core]
 
-This document contains a Directory of all Instances of the Junior Risk Capital Rental Primitive with Instance status of `Active`.
+This document contains a Directory of all Instances of the Risk Capital Rental Primitive with Instance status of `Active`.

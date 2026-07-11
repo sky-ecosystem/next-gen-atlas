@@ -31,7 +31,7 @@ The current Sky Primitives are:
     - Pioneer Chain Primitive
 - Supply Side Stablecoin Primitives
     - Allocation System Primitive
-    - Junior Risk Capital Rental Primitive
+    - Risk Capital Rental Primitive
     - Asset Liability Management Rental Primitive
 - Core Governance Primitives
     - Core Governance Reward Primitive

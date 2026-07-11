@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.4.1.2.2.1.3.2 - Automation Of Simplified Profit And Loss Calculation [Core]
 
-The Core Council Risk Advisor must develop tooling to allow the net amount due from each Prime to Sky each month under the Simplified Profit And Loss Calculation to be computed automatically.
+The Core Council must ensure tooling is developed to allow the net amount due from each Prime to Sky each month under the Simplified Profit And Loss Calculation to be computed automatically.
