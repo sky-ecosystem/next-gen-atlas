@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.2.1.2.2.1.1.2 - Prime-External Junior Risk Capital (SEJRC) [Core]
 
-SEJRC is JRC rented from another Prime Agent via the [A.2.2.10.2 - Junior Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce). The capital remains in the lender's treasury but counts towards the borrower's JRC amount. SEJRC is represented by a registered Ecosystem Accord signifying that a specified amount of the lending Agent's JRC (held within the lender's treasury) is designated to count towards the borrowing Agent's JRC requirement for the duration and terms specified in the Accord.
+SEJRC is JRC rented from another Prime Agent via the [A.2.2.10.2 - Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce). The capital remains in the lender's treasury but counts towards the borrower's JRC amount. SEJRC is represented by a registered Ecosystem Accord signifying that a specified amount of the lending Agent's JRC (held within the lender's treasury) is designated to count towards the borrowing Agent's JRC requirement for the duration and terms specified in the Accord.

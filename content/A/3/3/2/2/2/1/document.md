@@ -16,5 +16,3 @@ In the near term, the Core Council Risk Advisor must develop a tool to automatic
 - the Operational Facilitator for the Prime Agent;
 - Operational GovOps for the Prime Agent; and
 - the Prime Agent.
-
-In addition, the Core Council Risk Advisor must include a summary of all such violations in the Independent Calculation it prepares as part of each Monthly Settlement Cycle. See [A.2.4.1.2.1.2.2 - Independent Calculation By Core Council Risk Advisor On Behalf Of Core Council](8be8ae66-2453-4d7d-8880-ffaba36bdb7e).
