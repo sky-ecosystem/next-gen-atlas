@@ -19,3 +19,6 @@ Breaches of the Graduated Response Framework are recorded herein.
 | 2026-06-11 | Tango | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/tango-ad-recognition-submission/26310/52) |
 | 2026-06-11 | Excel | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/excel-ad-recognition-submission/26227/67) |
 | 2026-06-18 | aegisD | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/aegisd-ad-recognition-submission/26145/84) |
+| 2026-07-13 | AxisLegati | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/axislegati-ad-recognition-submission/27677/5) |
+| 2026-07-13 | OPEX | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/opex-aligned-delegate-communication-platform/27630/11) |
+| 2026-07-13 | Excel | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/excel-ad-recognition-submission/26227/68) |
