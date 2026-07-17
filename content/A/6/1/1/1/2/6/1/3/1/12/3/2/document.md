@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.3.1.12.3.2 - Parameters [Core]
 
-The documents herein define the parameters of the Transfer PYUSD to Paxos (receive USDG) of the Allocation System Primitive.
+The documents herein define the parameters of the PYUSD To USDG Via Paxos Instance of the Allocation System Primitive.

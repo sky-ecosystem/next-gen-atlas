@@ -13,4 +13,4 @@ childType: sections_and_primary_docs
 
 `[(Total Interest Paid by Stars on ESRC Portion - Losses Allocated to ESRC) / ESRC Principal at start of month - Sky Spread] * (1 - ESRC Earnings Fee)`
 
-The Sky Spread and ESRC Earnings Fee are defined in [A.3.2.2.4.2.3.3.1 - Sky Spread](c160f99c-c3d8-41e9-a3d1-cde514b7a2da) and [A.3.2.2.4.2.3.3.2 - ESRC Earnings Fee](559f6fb6-daf6-41b2-9882-53a91aaf132f), respectively.
+The Sky Spread and ESRC Earnings Fee are specified in [A.3.2.2.4.2.3.3.1 - Sky Spread](c160f99c-c3d8-41e9-a3d1-cde514b7a2da) and [A.3.2.2.4.2.3.3.2 - ESRC Earnings Fee](559f6fb6-daf6-41b2-9882-53a91aaf132f), respectively.
