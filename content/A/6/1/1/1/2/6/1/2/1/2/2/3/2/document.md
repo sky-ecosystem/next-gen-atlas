@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.3.2 - Required Number Of Signers [Core]
 
-The Freezer Multisig currently has a 1/4 signing requirement.
+The Freezer Multisig currently has a 2/4 signing requirement.
