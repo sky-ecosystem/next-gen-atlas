@@ -12,9 +12,9 @@ childType: sections_and_primary_docs
 The current parameters for Spark Savings USDC on Avalanche are:
 
 - Default admin role: 0x7566DEbC906C17338524A414343fA61BcA26A843
-- Setter role: 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62
+- Setter role: 0x93c81ADc7F98FdBC8C7a15eCBeD312c8F6adbcB3
 - Taker role: 0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC
 - Take rate limit: unlimited
 - Min yield: 0%
 - Max yield: 10%
-- Supply cap: 150 million
+- Supply cap: 500 million
