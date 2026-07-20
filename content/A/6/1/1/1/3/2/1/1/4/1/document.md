@@ -16,4 +16,4 @@ The kill switch currently covers the following assets with the specified thresho
 - weETH/ETH - 0.95
 - rETH/ETH - 0.95
 - cbBTC/BTC - 0.95
-- WBTC/BTC - 0.95
+- WBTC/BTC - 0.95 - Oracle: ChainLink WBTC/BTC (0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23)
