@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.3.5.3.2.3.6 - Spark Savings USDG on Robinhood Chain [Core]
 
-The Rewards Rate for Spark Savings USDG on Robinhood Chain shall be determined pursuant to the governance-approved Spark Savings rate-setting framework and applicable operational parameters approved by Spark governance. The applicable operational actor designated under the Spark governance framework may determine the Rewards Rate within the governance-approved operational bounds and Onchain Parameters (including the Min Yield and Max Yield for the vault).
+The Rewards Rate for Spark Savings USDG on Robinhood Chain is set via the vault’s setter role in accordance with the Rewards Rate Operational Process ([A.6.1.1.1.3.5.3.2.2](6c7a4964-485f-4edf-a05f-61fa65c9871c)), within the Min Yield and Max Yield bounds specified in its Onchain Parameters ([A.6.1.1.1.3.5.2.2.6](398944f7-59c3-495c-900b-939358b76e68)). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in the Rewards Rate Definition ([A.6.1.1.1.3.5.3.2.1](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843)).
