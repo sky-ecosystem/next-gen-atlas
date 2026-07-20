@@ -1,20 +1,20 @@
 ---
-id: 18920d7a-1566-4296-8823-33ace94f0ddc
+id: 398944f7-59c3-495c-900b-939358b76e68
 docNo: A.6.1.1.1.3.5.2.2.6
-name: Spark Savings PYUSD on Ethereum
+name: Spark Savings USDG on Robinhood Chain
 type: Core
 depth: 10
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.1.3.5.2.2.6 - Spark Savings PYUSD on Ethereum [Core]
+###### A.6.1.1.1.3.5.2.2.6 - Spark Savings USDG on Robinhood Chain [Core]
 
-The current parameters for Spark Savings PYUSD on Ethereum are:
+The current parameters for Spark Savings USDG on Robinhood Chain are:
 
-- Default admin role: 0x3300f198988e4C9C63F75dF86De36421f06af8c4
-- Setter role: 0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699
-- Taker role: 0x1601843c5E9bC251A3272907010AFa41Fa18347E
+- Default admin role: 0x826AEaeee9233fA8Ba199518dd8621A5962b1D02
+- Setter role: 0x59C85fe4385403e93877e48e5521f2F02B150359
+- Taker role: 0xfD2fD4B046136B540A56C11c75ac679AE7d1dB24
 - Take rate limit: unlimited
 - Min yield: 0%
-- Max yield: 10%
-- Supply cap: 250 million
+- Max yield: 6%
+- Supply cap: 500 million

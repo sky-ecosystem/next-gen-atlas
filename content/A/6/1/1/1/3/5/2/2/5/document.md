@@ -1,20 +1,20 @@
 ---
-id: 5a2b0ec2-5358-4464-b6cb-0d39642a437d
+id: 18920d7a-1566-4296-8823-33ace94f0ddc
 docNo: A.6.1.1.1.3.5.2.2.5
-name: Spark Savings USDT on Arbitrum
+name: Spark Savings PYUSD on Ethereum
 type: Core
 depth: 10
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.1.3.5.2.2.5 - Spark Savings USDT on Arbitrum [Core]
+###### A.6.1.1.1.3.5.2.2.5 - Spark Savings PYUSD on Ethereum [Core]
 
-The current parameters for Spark Savings USDT on Arbitrum are:
+The current parameters for Spark Savings PYUSD on Ethereum are:
 
-- Default admin role: 0x65d946e533748A998B1f0E430803e39A6388f7a1
-- Setter role: 0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38
-- Taker role: 0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709
+- Default admin role: 0x3300f198988e4C9C63F75dF86De36421f06af8c4
+- Setter role: 0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699
+- Taker role: 0x1601843c5E9bC251A3272907010AFa41Fa18347E
 - Take rate limit: unlimited
 - Min yield: 0%
-- Max yield: 6%
+- Max yield: 10%
 - Supply cap: 250 million
