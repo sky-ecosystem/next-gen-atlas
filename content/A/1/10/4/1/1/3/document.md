@@ -1,12 +1,18 @@
 ---
-id: 2a86809e-8b34-4692-92fe-bcb75b00ce6d
+id: 526a954b-5939-47d0-aacf-fdc190f71d5e
 docNo: A.1.10.4.1.1.3
-name: Ethereum SkyLink Freezer Multisig Signers
+name: SparkLend Multisig Current Signers
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.1.10.4.1.1.3 - Ethereum SkyLink Freezer Multisig Signers [Core]
+###### A.1.10.4.1.1.3 - SparkLend Multisig Current Signers [Core]
 
-The signers of the Ethereum SkyLink Freezer Multisig are two (2) addresses controlled by the Core Facilitator and three (3) addresses controlled by Core GovOps.
+The SparkLend Security Access Multisig currently has the following signers:
+
+- VoteWizard
+- LDR
+- Hexonaut
+- MonetSupply
+- LucasManuel
