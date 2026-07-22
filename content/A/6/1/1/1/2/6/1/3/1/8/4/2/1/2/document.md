@@ -1,5 +1,5 @@
 ---
-id: a700da65-026f-4cf7-a1fb-a30cedc10189
+id: 0f19955b-0c74-4c25-8522-8487888d016e
 docNo: A.6.1.1.1.2.6.1.3.1.8.4.2.1.2
 name: Target Protocol
 type: Core

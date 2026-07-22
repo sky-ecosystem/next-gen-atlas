@@ -1,5 +1,5 @@
 ---
-id: 6dab7518-caa3-4339-a573-718675fe19ee
+id: 779c6c99-f620-4bd0-b261-7d36b6d503b7
 docNo: A.6.1.1.1.2.6.1.3.1.8.4.2.4.2
 name: Outflow Rate Limits
 type: Core
@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The outflow rate limits are:
 
-- `maxAmount`: 0
-- `slope`: 0
+- `maxAmount`: unlimited
+- `slope`: unlimited

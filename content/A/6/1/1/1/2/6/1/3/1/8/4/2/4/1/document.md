@@ -1,5 +1,5 @@
 ---
-id: 0c654529-b8b7-4071-bc72-5eee02d295c9
+id: 9f2b2176-e725-4f93-bcda-62b466f502e8
 docNo: A.6.1.1.1.2.6.1.3.1.8.4.2.4.1
 name: Inflow Rate Limits
 type: Core
@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The inflow rate limits are:
 
-- `maxAmount`: 0
-- `slope`: 0
+- `maxAmount`: 100,000,000 USDT
+- `slope`: 1,000,000,000 USDT per day
