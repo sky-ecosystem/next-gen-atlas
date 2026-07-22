@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.4.12.4.8 - Public Validation Status Reporting [Core]
 
-Publicly reporting issues found during Spell validation is the recommended method of issue reporting. Issues reported publicly may be reported to the Core Facilitator using the "#new-Spells" channel in the Sky Builder Discord Group. If the Core Facilitator may be acting maliciously, issues should be reported to Aligned Delegates and wider Sky Governance using the "#governance" channel in the Sky Builder Discord Group. In cases where this is not possible, posts made to the Sky Forum may be used; however, these should be used as a last resort as they will likely cause a slower response time.
+Publicly reporting issues found during Spell validation is the recommended method of issue reporting. Issues reported publicly may be reported to the Core Facilitator on the Sky Forum.

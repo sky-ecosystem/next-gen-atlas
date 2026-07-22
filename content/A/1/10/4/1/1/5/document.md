@@ -1,19 +1,14 @@
 ---
-id: af5b97be-bf52-431d-8fa9-9b1c6164e328
+id: 13ad3a13-d446-40db-9db6-18ab34fe049a
 docNo: A.1.10.4.1.1.5
-name: Ethereum SkyLink Freezer Multisig Modification
+name: SparkLend Multisig Address
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.1.10.4.1.1.5 - Ethereum SkyLink Freezer Multisig Modification [Core]
+###### A.1.10.4.1.1.5 - SparkLend Multisig Address [Core]
 
-The Core Facilitator and Core GovOps can change the signers of the Ethereum SkyLink Freezer Multisig so long as:
+The current whitelisted SparkLend Security Access Multisig address is:
 
-- there are five (5) signers;
-- two (2) signers are required to execute transactions;
-- two (2) signers are controlled by the Core Facilitator; and
-- three (3) signers are controlled by Core GovOps.
-
-The two (2) of five (5) signing requirement constitutes a Threshold Exception as specified in [A.2.11.1.3.2.1.1.2.2 - Threshold Exceptions](130a44af-0715-4aa6-b248-f4a267ebe1a4).
+`0x44efFc473e81632B12486866AA1678edbb7BEeC3`

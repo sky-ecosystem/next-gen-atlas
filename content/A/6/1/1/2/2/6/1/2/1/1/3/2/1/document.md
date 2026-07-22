@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The maximum amount of USDS that can be minted by the Grove Diamond PAU (`LIMIT_USDS_MINT`) is specified in the document herein.
 
-- `maxAmount` (USDS): 5,000,000
-- `slope` (USDS/ day): 5,000,000
+- `maxAmount`: 5,000,000 USDS
+- `slope`: 5,000,000 USDS per day

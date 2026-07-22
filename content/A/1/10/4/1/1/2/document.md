@@ -1,12 +1,12 @@
 ---
-id: 861347b3-320f-48fb-ab9a-e9030cb9e44f
+id: 0c71e677-9acb-4f89-bb25-1726e8dac076
 docNo: A.1.10.4.1.1.2
-name: Ethereum SkyLink Freezer Multisig Required Number Of Signers
+name: SparkLend Multisig Number Of Signers
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.1.10.4.1.1.2 - Ethereum SkyLink Freezer Multisig Required Number Of Signers [Core]
+###### A.1.10.4.1.1.2 - SparkLend Multisig Number Of Signers [Core]
 
-The Ethereum SkyLink Freezer Multisig has a 2/5 signing requirement.
+The SparkLend Security Access Multisig currently has a 3/5 signing requirement.

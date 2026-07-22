@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The maximum amount of USDC that can be sent to the Base ALM Proxy (`LIMIT_USDC_TO_DOMAIN`, hashed with Base domain) is specified in the document herein.
 
-- `maxAmount` (USDC): 4,000,000
-- `slope` (USDC/ day): 2,000,000
+- `maxAmount`: 4,000,000 USDC
+- `slope`: 2,000,000 USDC per day

@@ -1,12 +1,12 @@
 ---
-id: 761966db-e9db-41f8-a9fe-cf8b0c1a7d26
+id: eb40af22-a20b-4bf7-b592-d491e6fc33be
 docNo: A.2.2.5.1.2.4
-name: Agent Genesis Account
+name: Agent Development Company
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.5.1.2.4 - Agent Genesis Account [Core]
+###### A.2.2.5.1.2.4 - Agent Development Company [Core]
 
-The Agent Creation Primitive must designate the Genesis Account. This field is populated by Core GovOps. The Genesis account initially controls 100% of the tokens of the Agent. The Genesis Account is initially controlled by the Agent Founder.
+The Agent Creation Primitive must specify the Development Company associated with the Agent, if any.

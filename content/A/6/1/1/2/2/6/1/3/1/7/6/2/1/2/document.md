@@ -1,5 +1,5 @@
 ---
-id: be9b2600-3021-4bb6-9eaf-ba92f17ccd61
+id: bfc9f2f7-e69f-4685-b666-57bb2d55442f
 docNo: A.6.1.1.2.2.6.1.3.1.7.6.2.1.2
 name: Target Protocol
 type: Core
@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.3.1.7.6.2.1.2 - Target Protocol [Core]
 
-Sentora PYUSD Morpho Vault V2
+Sentora RLUSD Morpho Vault V2

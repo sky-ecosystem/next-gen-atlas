@@ -1,5 +1,5 @@
 ---
-id: c9d27694-0ebd-4f06-b5b3-07c3879bf438
+id: 5ec16337-978a-4b21-bf47-326db289a2ef
 docNo: A.6.1.1.2.2.6.1.3.1.7.4.2.2.2
 name: Underlying Asset Address
 type: Core
@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.2 - Underlying Asset Address [Core]
 
-`0x6c3ea9036406852006290770BEdFcAbA0e23A0e8`
+`0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a`

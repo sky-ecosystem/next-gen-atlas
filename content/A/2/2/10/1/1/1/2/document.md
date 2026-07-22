@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.2.10.1.1.1.2 - Liquidity Layer Parameter Definitions [Core]
 
-The documents herein define common parameters of implementations of the Allocation System based on the Spark Liquidity Layer, including the Grove Liquidity Layer.
+The documents herein define common parameters of implementations of the Allocation System.

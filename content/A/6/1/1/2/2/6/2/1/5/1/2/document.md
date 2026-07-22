@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.2.1.5.1.2 - Suspended Instances [Core]
 
-The subtrees for Instances of the Junior Risk Capital Rental Primitive with `Suspended` Status are stored here.
+The subtrees for Instances of the Risk Capital Rental Primitive with `Suspended` Status are stored here.

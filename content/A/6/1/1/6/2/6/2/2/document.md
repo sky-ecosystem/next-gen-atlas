@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.6.2.6.2.2 - Active Instances [Core]
 
-The Instances of the Junior Risk Capital Rental Primitive with `Active` Status are stored herein.
+The Instances of the Risk Capital Rental Primitive with `Active` Status are stored herein.

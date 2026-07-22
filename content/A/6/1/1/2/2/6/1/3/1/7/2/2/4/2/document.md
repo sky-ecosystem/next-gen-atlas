@@ -1,5 +1,5 @@
 ---
-id: 99db86e0-e883-475e-a736-11aa5b3dab5e
+id: 7e38063c-c6a7-4d45-9344-bd3b22047019
 docNo: A.6.1.1.2.2.6.1.3.1.7.2.2.4.2
 name: Withdrawal Rate Limits
 type: Core
@@ -11,5 +11,4 @@ childType: sections_and_primary_docs
 
 The withdrawal rate limits are:
 
-- `maxAmount`: N/A
-- `slope`: N/A
+- `maxAmount`: Unlimited

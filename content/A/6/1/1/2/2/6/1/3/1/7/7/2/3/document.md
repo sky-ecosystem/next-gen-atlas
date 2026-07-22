@@ -1,5 +1,5 @@
 ---
-id: 991d7839-4dfd-466f-aafd-8c397cd7af6b
+id: 41f9c281-d313-47d4-af75-8df48c9e260c
 docNo: A.6.1.1.2.2.6.1.3.1.7.7.2.3
 name: Rate Limit IDs
 type: Core
@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.3.1.7.7.2.3 - Rate Limit IDs [Core]
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
