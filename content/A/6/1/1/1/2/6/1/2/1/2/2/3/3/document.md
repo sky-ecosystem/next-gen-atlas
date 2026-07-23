@@ -11,6 +11,5 @@ childType: sections_and_primary_docs
 
 The Freezer Multisig has the following signers:
 
-- Spark Assets Foundation (SAF): 1 signer
-- Phoenix Labs (PL): 2 signers
+- Phoenix Labs (PL): 3 signers
 - VoteWizard: 1 signer
