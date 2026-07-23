@@ -11,7 +11,7 @@ childType: sections_and_primary_docs
 
 Core GovOps receives TRC Reports from Primes on a regular basis and must perform the following validation process.
 
-Core GovOps verifies against the Atlas any Ecosystem Accord referenced in the TRC Report for sourced Prime-External Junior Risk Capital (SEJRC) or rented Originated Senior Risk Capital (OSRC). This includes confirming the existence, current validity, and terms of such Accords as formally recorded within the Atlas.
+Core GovOps verifies against the Atlas any Ecosystem Accord referenced in the TRC Report for sourced Prime-External Junior Risk Capital (PEJRC) or rented Originated Senior Risk Capital (OSRC). This includes confirming the existence, current validity, and terms of such Accords as formally recorded within the Atlas.
 
 Core GovOps validates the Prime Agent's reported IJRC by reconciling the reported IJRC amount and its constituent asset composition against the actual on-chain state of the Prime Agent’s designated SubProxy account. This involves direct on-chain verification of asset balances. Core GovOps verifies that all assets reported as IJRC and held within the SubProxy account meet the definition of "eligible assets" for IJRC as defined by the Atlas. See [A.3.2.1.2.2.1.1.1 - Internal Junior Risk Capital (IJRC)](8728abee-0dc5-449b-b4c2-78698da16f10).
 

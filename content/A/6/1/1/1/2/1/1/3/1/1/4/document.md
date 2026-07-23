@@ -1,12 +1,12 @@
 ---
-id: 4bc28587-5f7f-4297-840d-ec2109f2e6be
+id: 166669dd-467a-4d82-b7e5-5ea18cae5b61
 docNo: A.6.1.1.1.2.1.1.3.1.1.4
-name: Custom Instance Parameters
+name: Foundation
 type: Core
 depth: 12
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.1.2.1.1.3.1.1.4 - Custom Instance Parameters [Core]
+###### A.6.1.1.1.2.1.1.3.1.1.4 - Foundation [Core]
 
-The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
+The Spark Foundation is the Prime Foundation associated with Spark. Its mandate is to support the development, growth, and adoption of Spark.
