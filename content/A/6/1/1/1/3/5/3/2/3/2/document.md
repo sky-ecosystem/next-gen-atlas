@@ -9,6 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.3.5.3.2.3.2 - Spark Savings USDT on Ethereum [Core]
 
-The Rewards Rate for Spark Savings USDT on Ethereum will be maintained to be equal to Aave Ethereum Core USDT supply rate plus the Spark Savings USDT Spread.
-
-The Spark Savings USDT Spread will be defined as part of the ALM Planner configuration process, and will be set within a range of -0.5% to 2%.
+The Rewards Rate for Spark Savings USDT on Ethereum is set via the vault’s setter role in accordance with the Rewards Rate Operational Process ([A.6.1.1.1.3.5.3.2.2](6c7a4964-485f-4edf-a05f-61fa65c9871c)), within the Min Yield and Max Yield bounds specified in its Onchain Parameters ([A.6.1.1.1.3.5.2.2.2](39a398d7-600e-472a-ac85-c789866fddfc)). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in the Rewards Rate Definition ([A.6.1.1.1.3.5.3.2.1](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843)).
