@@ -1,12 +1,12 @@
 ---
-id: bcf45274-0125-4856-a405-ed2726fad468
+id: e88e8a71-3860-4a30-9446-dc3fe19fbd17
 docNo: A.6.1.1.1.2.6.1.3.1.8.4.4.1
-name: Market Exposure
+name: Contract Addresses
 type: Core
 depth: 14
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.1.2.6.1.3.1.8.4.4.1 - Market Exposure [Core]
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1 - Contract Addresses [Core]
 
-The documents herein contain exposure details for this Instance
+The documents herein define the Instance contract addresses.

@@ -1,5 +1,5 @@
 ---
-id: 3c749393-8134-4483-ad35-c6820768421f
+id: 0d0b492a-ad25-43a0-8a45-3ac1021cd491
 docNo: A.6.1.1.1.2.6.1.3.1.8.4.2
 name: Parameters
 type: Core
@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.2 - Parameters [Core]
 
-The documents herein define the parameters of the Morpho USDT Instance of the Allocation System Primitive.
+The documents herein define the parameters of the Spark Blue Chip USDT Vault Instance of the Allocation System Primitive.

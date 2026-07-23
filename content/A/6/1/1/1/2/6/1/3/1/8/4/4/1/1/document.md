@@ -1,14 +1,12 @@
 ---
-id: 2187c7a6-d9d2-46c7-a794-5779939c708f
+id: f9605664-b8e2-4efb-b4ef-c60d5d85ec8a
 docNo: A.6.1.1.1.2.6.1.3.1.8.4.4.1.1
-name: "sUSDS/USDT 96.5% LLTV Pool"
+name: Curator Role Address
 type: Core
 depth: 15
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.1 - sUSDS/USDT 96.5% LLTV Pool [Core]
+###### A.6.1.1.1.2.6.1.3.1.8.4.4.1.1 - Curator Role Address [Core]
 
-- Pool ID: 0x3274643db77a064abd3bc851de77556a4ad2e2f502f4f0c80845fa8f909ecf0b
-- Absolute cap: Unlimited
-- Relative cap: 100%
+`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
