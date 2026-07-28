@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.3.5.1.1.2.2.1 - Token Address [Core]
 
-`TBD`
+`0xde770c84FE66E063336b31737cFE9790f18c4087`

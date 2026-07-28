@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.6 - ALM Rate Limits (Robinhood Chain) Contract [Core]
 
-The address of the ALM_RATE_LIMITS contract is: `TBD`
+The address of the ALM_RATE_LIMITS contract is: `0x5c1fDE9d4C7f1BF4bc5dEAA2a7752e56232c68a0`

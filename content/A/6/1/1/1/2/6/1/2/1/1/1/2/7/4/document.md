@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.4 - ALM Relayer Multisig (Robinhood Chain) Address [Core]
 
-The address of the Multisig that has the Relayer Role is: `0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795`.
+The addresses of the multisigs that have the Relayer role are: `0x59C85fe4385403e93877e48e5521f2F02B150359` and `0x0ca8f938Aba2214eA11eb451e795A8ef7B720C18`

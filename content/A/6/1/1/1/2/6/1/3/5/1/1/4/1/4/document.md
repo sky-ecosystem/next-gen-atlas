@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.3.5.1.1.4.1.4 - Taker [Core]
 
-`TBD`
+`0xfD2fD4B046136B540A56C11c75ac679AE7d1dB24`
