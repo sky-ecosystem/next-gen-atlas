@@ -13,4 +13,4 @@ The Risk parameters are:
 
 - Supply cap: 500,000,000 USDG
 - Max yield: 6%
-- Current yield (at launch): 0%
+- Current yield (at launch): 3.2%
