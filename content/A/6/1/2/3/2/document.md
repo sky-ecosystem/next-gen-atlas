@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.2.3.2 - Core GovOps [Core]
 
-GovOps for Core Council Executor Agent 1 is Atlas Axis.
+GovOps for Core Council Executor Agent 1 is Soter Labs.

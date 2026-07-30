@@ -1,12 +1,12 @@
 ---
-id: 5f3ad3bb-6708-4bb5-8f0a-100c9a404092
+id: bdf5ef63-d436-4ffb-bf37-2c1790d1a68d
 docNo: A.6.1.1.2.2.6.1.2.2.1.2.2.2
-name: Withdraw From Basin
+name: USDS Facet
 type: Core
 depth: 14
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.2.2.6.1.2.2.1.2.2.2 - Withdraw From Basin [Core]
+###### A.6.1.1.2.2.6.1.2.2.1.2.2.2 - USDS Facet [Core]
 
-The documents herein define the steps to withdraw up to a maximum amount of an asset from a Basin to the ALM Proxy, burning the corresponding Basin shares. The withdrawal is performed by calling the Diamond PAU Controller, specifying the Basin, the asset, the maximum amount to withdraw, and the minimum conversion rate (`minConversionRate`); the Controller dispatches the call to the Basin Facet.
+The Grove Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.4.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346)) to mint and burn USDS through the allocator vault.

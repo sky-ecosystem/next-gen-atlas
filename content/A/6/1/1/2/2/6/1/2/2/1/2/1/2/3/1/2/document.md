@@ -9,6 +9,12 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.3.1.2 - Check RateLimits [Core]
 
-The operator must ensure that `RateLimits` allows for swapping the required USDS amount to USDC.
+The operator must ensure that `RateLimits` allows swapping the requested USDC amount. `PSMLib.swapUSDSToUSDC` consumes the `LIMIT_USDS_TO_USDC` rate limit by triggering a decrease of `usdcAmount`, which reverts if the remaining limit is insufficient.
 
-`rateLimited(LIMIT_USDS_TO_USDC, usdcAmount)`
+`_rateLimited(params.rateLimits, params.rateLimitId, params.usdcAmount);`
+
+The helper decreases the limit keyed by `LIMIT_USDS_TO_USDC`.
+
+`function _rateLimited(IRateLimits rateLimits,bytes32 key, uint256 amount) internal {
+        rateLimits.triggerRateLimitDecrease(key, amount);
+    }`

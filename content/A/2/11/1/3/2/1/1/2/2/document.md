@@ -12,3 +12,5 @@ childType: sections_and_primary_docs
 Threshold Exceptions define the limited circumstances under which Multisigs may operate below the baseline threshold requirements defined in [A.2.11.1.3.2.1.1.2.1 - Threshold Requirements](89b7bcf9-8268-4e46-bdfb-dae3a5985a98).
 
 Exceptions may be permitted by Core GovOps, in consultation with the Protocol Security Workstream Lead. Examples include rate-setting or parameter adjustment operations where parameters are tightly bounded and set by governance, and where a defined recovery or replacement mechanism exists in the event of Multisig failure or compromise.
+
+Certain Threshold Exceptions instead apply as standing exemptions to a defined category of Multisig, without requiring a case-by-case grant. These are specified in the documents herein.

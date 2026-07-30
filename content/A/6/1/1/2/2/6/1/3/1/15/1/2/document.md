@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.3.1.15.1.2 - Parameters [Core]
 
-The documents herein define the parameters of the USDC to USDG via Paxos Instance of the Allocation System Primitive.
+The documents herein define the parameters of the USDC To USDG Via Paxos Instance of the Allocation System Primitive.
