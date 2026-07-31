@@ -1,12 +1,12 @@
 ---
-id: 34b6d2ab-837c-4fb0-a397-77d776a32bc3
+id: e37d1163-b801-4cba-ab3a-2440a1f36ae6
 docNo: A.2.2.10.1.1.1.5.2.5.2
-name: Rate Limit
+name: Remove Liquidity From Uniswap v3
 type: Core
 depth: 11
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.1.1.5.2.5.2 - Rate Limit [Core]
+###### A.2.2.10.1.1.1.5.2.5.2 - Remove Liquidity From Uniswap v3 [Core]
 
-The deposit is subject to the on-chain deposit rate limit identified by `LIMIT_BASIN_DEPOSIT` for the address of the asset and the address of the Basin contract. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit.
+The documents herein define the steps to remove liquidity from a Uniswap v3 position held by the ALM Proxy.
