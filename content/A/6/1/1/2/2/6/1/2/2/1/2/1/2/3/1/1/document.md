@@ -9,9 +9,8 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.3.1.1 - Relayer Role [Core]
 
-The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `swapUSDSToUSDC`. Also, they must ensure the contract `isActive` i.e. can process the request.
+The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to call `swapUSDSToUSDC`, which the controller enforces with `onlyRole(RELAYER)` before delegating the swap to `PSMLib.swapUSDSToUSDC`.
 
 `function swapUSDSToUSDC(uint256 usdcAmount)
         external
-        onlyRole(RELAYER)
-        isActive`
+        onlyRole(RELAYER)`

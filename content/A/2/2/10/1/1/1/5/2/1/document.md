@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.2.10.1.1.1.5.2.1 - Mint USDS [Core]
 
-The documents herein define the steps to mint USDS from the allocator vault to the ALM Proxy. The mint is performed by calling the Diamond PAU Controller, specifying the amount of USDS to mint; the Controller dispatches the call to the USDS Facet.
+The documents herein define the steps to mint USDS from the allocator vault to the ALM Proxy.

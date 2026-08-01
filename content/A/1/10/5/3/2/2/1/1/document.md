@@ -13,12 +13,12 @@ This document defines the term "Authorized Representative" as used in [A.1.10.5.
 
 The entities listed below are authorized to validate the authenticity of an Emergency Drop Spell on behalf of Core GovOps:
 
-- Le Bateleur on behalf of Core GovOps team Atlas Axis
-- Adam Fraser on behalf of Core GovOps team Atlas Axis
-- Lex on behalf of Core GovOps team Atlas Axis
+- Retro on behalf of Core GovOps team Soter Labs
+- Adam Fraser on behalf of Core GovOps team Soter Labs
+- Lex on behalf of Core GovOps team Soter Labs
 
 The Authorized Representatives listed are synonymous with the Sky Forum account holders with the following handles:
 
-- Le_Bateleur
+- retro
 - adamfraser
 - Lex
