@@ -1,7 +1,7 @@
 ---
 type: index
 path: content/A/6/1/1/2/2/6/1/3
-childCount: 6
+childCount: 7
 ---
 
 # Contents
@@ -12,3 +12,4 @@ childCount: 6
 - [A.6.1.1.2.2.6.1.3.4 - Plasma](4/document.md)
 - [A.6.1.1.2.2.6.1.3.5 - Plume](5/document.md)
 - [A.6.1.1.2.2.6.1.3.6 - Monad Instances](6/document.md)
+- [A.6.1.1.2.2.6.1.3.7 - Robinhood Chain](7/document.md)

@@ -1,7 +1,7 @@
 ---
 type: index
 path: content/A/6/1/1/2/2/6/1/3/1
-childCount: 14
+childCount: 15
 ---
 
 # Contents
@@ -20,3 +20,4 @@ childCount: 14
 - [A.6.1.1.2.2.6.1.3.1.12 - Uniswap](12/document.md)
 - [A.6.1.1.2.2.6.1.3.1.13 - Maple](13/document.md)
 - [A.6.1.1.2.2.6.1.3.1.14 - Tokenized Treasury](14/document.md)
+- [A.6.1.1.2.2.6.1.3.1.15 - Paxos](15/document.md)

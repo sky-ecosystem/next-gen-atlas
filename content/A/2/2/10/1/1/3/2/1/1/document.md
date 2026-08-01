@@ -13,4 +13,4 @@ The Sky Core Required Risk Capital (RRC) Dashboard serves as the official system
 
 Prior to the full operational deployment of the Powerhouse system, Prime Agents must utilize the Sky Core RRC Dashboard as the authoritative source for their official Instance Total RRCs and Aggregate RRC. Data from this source is to be used for all internal TRC management, required reporting and compliance assessments.
 
-The Sky Core RRC Dashboard is located at [https://info.sky.money/required-risk-capital](https://info.sky.money/required-risk-capital).
+The Sky Core RRC Dashboard is located at [https://info.skyeco.com/required-risk-capital](https://info.skyeco.com/required-risk-capital).

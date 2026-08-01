@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The maximum amount of USDC that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_USDC`) is specified in the document herein.
 
-- `maxAmount` (USDC): Unlimited
-- `slope` (USDC/ day): Unlimited
+- `maxAmount`: Unlimited
+- `slope`: Unlimited

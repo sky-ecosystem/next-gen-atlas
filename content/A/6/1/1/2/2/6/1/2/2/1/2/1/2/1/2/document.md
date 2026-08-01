@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.1.2 - Burn USDS [Core]
 
-The documents herein define the steps for an operator to return and then `burn` Grove’s USDS debt in the Sky Allocation Vault.
+The documents herein define a series of operations for an operator to `burnUSDS`, returning USDS from the Grove ALM Proxy to the buffer and burning it to repay Grove's USDS debt in the Sky Allocation Vault.

@@ -1,5 +1,5 @@
 ---
-id: bfc9f2f7-e69f-4685-b666-57bb2d55442f
+id: 70e811cc-0a98-454a-b555-0f88a65187f1
 docNo: A.6.1.1.2.2.6.1.3.1.7.7.2.1.2
 name: Target Protocol
 type: Core
@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.3.1.7.7.2.1.2 - Target Protocol [Core]
 
-Sentora RLUSD Morpho Vault V2
+Grove x Steakhouse RLUSD Morpho Vault V2

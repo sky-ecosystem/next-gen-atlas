@@ -14,7 +14,7 @@ The following Instance Financial CRRs apply to specific assets listed:
 - BUIDL, JTRSY on Ethereum Mainnet, and USTB - 0% Instance Financial CRR
 - JTRSY on Avalanche - 0.5% Instance Financial CRR
 - JAAA on Ethereum Mainnet - 1.6% Instance Financial CRR
-- JAAA on Avalanche - 2.1% Instance Financial CRR
+- JAAA on Avalanche - 1.6% Instance Financial CRR
 - STAC on Ethereum Mainnet - 1.6% Instance Financial CRR
 - GACLO-1 on Ethereum Mainnet - 0.85% Instance Financial CRR
 - ACRDX on Plume - 9.99% Instance Financial CRR

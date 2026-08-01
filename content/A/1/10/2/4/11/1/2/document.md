@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.4.11.1.2 - Governance Point Requests TechOps Services To Whitelist Spell Address [Core]
 
-The Governance Point must request that TechOps Services whitelist the Spell address provided by the Spell Team. This support request is submitted in the Discord channel #techops-request. The message should include a request to whitelist the Spell and must specify the Spell address.
+The Governance Point must request that TechOps Services whitelist the Spell address provided by the Spell Team. This support request is submitted to TechOps Services via Slack. The message should include a request to whitelist the Spell and must specify the Spell address.

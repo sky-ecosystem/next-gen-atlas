@@ -9,6 +9,6 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.1.1.2 - Check RateLimits [Core]
 
-The operator must ensure the `RateLimits` allow for minting the required amount.
+The operator's call decreases the `LIMIT_USDS_MINT` rate limit by `usdsAmount`, consuming available mint capacity. Internally `_rateLimited` calls `rateLimits.triggerRateLimitDecrease(LIMIT_USDS_MINT, usdsAmount)`, which reverts if `usdsAmount` exceeds the currently available limit.
 
-` rateLimited(LIMIT_USDS_MINT, usdsAmount)`
+`_rateLimited(LIMIT_USDS_MINT, usdsAmount);`

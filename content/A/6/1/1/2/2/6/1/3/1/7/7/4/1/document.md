@@ -1,5 +1,5 @@
 ---
-id: fd4778b5-78e7-49fc-a785-c2dfed2e5246
+id: ea2bbd07-134d-459d-bb20-2dbb756766b0
 docNo: A.6.1.1.2.2.6.1.3.1.7.7.4.1
 name: Max Exchange Rate
 type: Core
@@ -11,4 +11,4 @@ childType: sections_and_primary_docs
 
 Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 RLUSD:
 
-- `setMaxExchangeRate(SENTORA_RLUSD_MAIN_V2, 1e18, 3e18)`
+- `setMaxExchangeRate(GROVE_X_STEAKHOUSE_RLUSD_V2, 1e18, 3e18)`

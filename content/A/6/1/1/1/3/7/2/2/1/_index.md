@@ -8,4 +8,4 @@ childCount: 3
 
 - [A.6.1.1.1.3.7.2.2.1.1 - Collateral Haircut](1/document.md)
 - [A.6.1.1.1.3.7.2.2.1.2 - Exposure Limit](2/document.md)
-- [A.6.1.1.1.3.7.2.2.1.3 - Staked and Wrapped Versions](3/document.md)
+- [A.6.1.1.1.3.7.2.2.1.3 - Staked, Wrapped, and Approved Versions](3/document.md)

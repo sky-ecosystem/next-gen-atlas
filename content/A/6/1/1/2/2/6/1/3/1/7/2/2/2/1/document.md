@@ -1,12 +1,12 @@
 ---
-id: fa192507-8cee-42fd-a88a-70d962f8e760
+id: 3c0cd2b5-035d-460d-92dd-b45c1e7a64a1
 docNo: A.6.1.1.2.2.6.1.3.1.7.2.2.2.1
-name: Token Address (Monad)
+name: Token Address
 type: Core
 depth: 15
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.1 - Token Address (Monad) [Core]
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.1 - Token Address [Core]
 
-`0x32841A8511D5c2c5b253f45668780B99139e476D`
+`0xBeefF08dF54897e7544aB01d0e86f013DA354111`

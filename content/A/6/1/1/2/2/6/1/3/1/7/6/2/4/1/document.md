@@ -1,5 +1,5 @@
 ---
-id: 0a4b26e1-5757-4ed9-bfc5-2614cc79500f
+id: c7c4c3a1-ca25-4e9e-b4ab-cbcd01519535
 docNo: A.6.1.1.2.2.6.1.3.1.7.6.2.4.1
 name: Deposit Rate Limits
 type: Core
@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The deposit rate limits are:
 
-- `maxAmount`: 50,000,000 PYUSD
-- `slope`: 50,000,000 PYUSD per day
+- `maxAmount`: 50,000,000 RLUSD
+- `slope`: 50,000,000 RLUSD per day

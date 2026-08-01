@@ -1,7 +1,7 @@
 ---
 type: index
 path: content/A/2/8/2/1/2
-childCount: 9
+childCount: 10
 ---
 
 # Contents
@@ -15,3 +15,4 @@ childCount: 9
 - [A.2.8.2.1.2.7 - Basis Trade Products](7/document.md)
 - [A.2.8.2.1.2.8 - Grand Prix Airdrops](8/document.md)
 - [A.2.8.2.1.2.9 - USDe and sUSDe Revenue Share](9/document.md)
+- [A.2.8.2.1.2.10 - Maple syrupUSDC Transfer](10/document.md)

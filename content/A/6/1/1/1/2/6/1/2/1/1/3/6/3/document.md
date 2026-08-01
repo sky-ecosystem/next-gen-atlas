@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The maximum amount of USDC that can be sent to the Avalanche ALM Proxy (`LIMIT_USDC_TO_DOMAIN`, hashed with Avalanche domain) is specified in the document herein.
 
-- `maxAmount` (USDC): 100,000,000
-- `slope` (USDC/ day): 50,000,000
+- `maxAmount`: 100,000,000 USDC
+- `slope`: 50,000,000 USDC per day

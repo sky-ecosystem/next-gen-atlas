@@ -1,12 +1,12 @@
 ---
-id: 7f209f46-72c6-42f7-a7ad-898190ff4e6f
+id: 8669ef42-d55b-4be8-839e-646b4ff17e4c
 docNo: A.2.4.1.2.1.2.1
-name: Initial Calculation By Operational Executor Agent
+name: Agreed Amount
 type: Core
 depth: 8
 childType: sections_and_primary_docs
 ---
 
-###### A.2.4.1.2.1.2.1 - Initial Calculation By Operational Executor Agent [Core]
+###### A.2.4.1.2.1.2.1 - Agreed Amount [Core]
 
-Within seven (7) calendar days of the end of each month, each Operational Executor Agent replies to the Monthly Settlement Cycle Post with a calculation of the net amounts due to or from the Prime Agents that it has an Executor Accord with (the "Initial Calculation"). The Initial Calculation must contain reasonable supporting detail. The required contents of the Initial Calculation will be further specified in a future iteration of the Atlas.
+The net amount due to or from a Prime Agent in an Initial Calculation is an Agreed Amount if the Prime Agent does not post a Dispute Notice with respect to that amount within the period specified in [A.2.4.1.2.1.2.4 - Disputes By Prime Agents](c204b363-7cc0-4e40-a7dc-68de57358cf9).

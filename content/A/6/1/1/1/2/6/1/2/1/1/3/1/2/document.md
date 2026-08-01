@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The maximum amount of USDS that can be burned within the Spark Liquidity Layer (`LIMIT_USDS_BURN`) is specified in the document herein.
 
-- `maxAmount` (USDS): 0
-- `slope` (USDS/ day): 0
+- `maxAmount`: 0
+- `slope`: 0

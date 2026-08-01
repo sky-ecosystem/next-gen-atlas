@@ -11,4 +11,4 @@ childType: sections_and_primary_docs
 
 The withdrawal rate limits are:
 
-- `maxAmount`: 0 USDC
+- `maxAmount`: 0

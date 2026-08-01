@@ -1,7 +1,7 @@
 ---
 type: index
 path: content/A/6/1/1/1/3/7/2/2/2
-childCount: 14
+childCount: 19
 ---
 
 # Contents
@@ -20,3 +20,8 @@ childCount: 14
 - [A.6.1.1.1.3.7.2.2.2.12 - Ethena (USDe)](12/document.md)
 - [A.6.1.1.1.3.7.2.2.2.13 - Tether (USDT)](13/document.md)
 - [A.6.1.1.1.3.7.2.2.2.14 - Circle (USDC)](14/document.md)
+- [A.6.1.1.1.3.7.2.2.2.15 - Fully Reserved USD Stablecoins](15/document.md)
+- [A.6.1.1.1.3.7.2.2.2.16 - Fully Reserved Major Non-USD Stablecoins](16/document.md)
+- [A.6.1.1.1.3.7.2.2.2.17 - Gold (XAU)](17/document.md)
+- [A.6.1.1.1.3.7.2.2.2.18 - Silver (XAG)](18/document.md)
+- [A.6.1.1.1.3.7.2.2.2.19 - Oil](19/document.md)

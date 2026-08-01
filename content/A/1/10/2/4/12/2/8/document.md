@@ -11,4 +11,4 @@ childType: sections_and_primary_docs
 
 Retrieving values from the Chainlog smart contract is mandatory during the validation of Spells.
 
-The most secure method for retrieving values is to query the Chainlog directly using multiple sources, such as Foundry’s `cast` tool, the Etherscan blockchain explorer, and the IPFS link accessible on the official Chainlog for Sky at [https://chainlog.sky.money/](https://chainlog.sky.money/), ensuring that the returned addresses match across all platforms.
+The most secure method for retrieving values is to query the Chainlog directly using multiple sources, such as Foundry’s `cast` tool, the Etherscan blockchain explorer, and the IPFS link accessible on the official Chainlog for Sky at [https://chainlog.skyeco.com/](https://chainlog.skyeco.com/), ensuring that the returned addresses match across all platforms.
