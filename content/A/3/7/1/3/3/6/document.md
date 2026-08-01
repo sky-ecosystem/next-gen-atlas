@@ -1,15 +1,15 @@
 ---
-id: f09e5c6d-80cd-4d7d-b833-f64a96d23c15
+id: 505130f5-cf13-47e0-bcb6-e4810a36a46c
 docNo: A.3.7.1.3.3.6
-name: ALLOCATOR-PRYSM-A Parameters
+name: ALLOCATOR-PATTERN-A Parameters
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.3.7.1.3.3.6 - ALLOCATOR-PRYSM-A Parameters [Core]
+###### A.3.7.1.3.3.6 - ALLOCATOR-PATTERN-A Parameters [Core]
 
-The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-PRYSM-A Allocator Vault are as follows:
+The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-PATTERN-A Allocator Vault are as follows:
 
 - `max` - 3,000 basis points,
 - `min` - 0 basis points,

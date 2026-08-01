@@ -1,15 +1,15 @@
 ---
-id: dec9ce16-90ba-48bd-b299-9462cb50de2c
+id: 6ca30d6e-df7f-47f9-93c3-b20bae6762a3
 docNo: A.6.1.1.2.2.6.1.2.1.1.3.2.4
-name: USDS To Ethereum Mainnet Via SkyLink
+name: USDC For USDS Swap Maximum
 type: Core
 depth: 14
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.2.2.6.1.2.1.1.3.2.4 - USDS To Ethereum Mainnet Via SkyLink [Core]
+###### A.6.1.1.2.2.6.1.2.1.1.3.2.4 - USDC For USDS Swap Maximum [Core]
 
-The maximum amount of USDS that can be sent to the Ethereum Mainnet ALM Controller from Avalanche via SkyLink (`LIMIT_LAYERZERO_TRANSFER`, hashed with Ethereum Mainnet USDS OFT address and Ethereum Mainnet destination domain) is specified in the document herein.
+The maximum amount of USDC that can be swapped for USDS by the Grove Diamond PAU in the Mainnet PSM (`LIMIT_USDC_TO_USDS`) is specified in the document herein.
 
-- `maxAmount`: 20,000,000 USDS
-- `slope`: 20,000,000 USDS per day
+- `maxAmount`: 5,000,000 USDC
+- `slope`: 5,000,000 USDC per day

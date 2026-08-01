@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.3.1.2 - Tokenized Treasury USDS And USDC Rate Provider Contract [Core]
 
-The address of the Chronicle Rate Provider contract pricing USDS and USDC, shared across Tokenized Treasury Instances that use USDS and USDC, is: `0xd79B9a9f5Fc240f2DCfcf260f004110B4713A7e7`.
+The address of the Fixed Rate Provider contract pricing USDS and USDC, shared across Tokenized Treasury Instances that use USDS and USDC, is: `0x7928A185B8137D1CD2a0996a810A04dB2837419D`.

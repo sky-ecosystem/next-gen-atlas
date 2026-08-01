@@ -1,12 +1,12 @@
 ---
-id: 7dcc0b40-f577-4590-92d2-62697bfff33a
+id: f9de4749-2bf4-4871-a5a8-6fb6849af7ad
 docNo: A.2.2.5.1.2.1
-name: Executor Accord Primitive Activation Status
+name: Global Activation Status
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.5.1.2.1 - Executor Accord Primitive Activation Status [Core]
+###### A.2.2.5.1.2.1 - Global Activation Status [Core]
 
-The Executor Accord Primitive must be Globally Activated.
+The Agent Creation Primitive must be Globally Activated.

@@ -1,5 +1,5 @@
 ---
-id: 458ec13a-5352-4720-a6eb-70f1bec6cb20
+id: c73a1815-b2dc-4cec-9ef4-ae6e6aabf633
 docNo: A.2.2.5.1.1.1.3
 name: Official Update Of Artifact
 type: Core
@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.2.5.1.1.1.3 - Official Update Of Artifact [Core]
 
-After successful validation, the Executor Accord Primitive is considered successfully Invoked. The Agent Artifact is officially upgraded to reflect an Executor Accord Primitive Instance, with a Status of `Active`.
+After successful validation, the Agent Creation Primitive is considered successfully Invoked, and the Agent Artifact is officially upgraded to reflect an Agent Creation Primitive Instance, with a Status of `Completed`.

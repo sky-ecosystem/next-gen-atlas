@@ -1,12 +1,12 @@
 ---
-id: 88017877-3ec1-4c43-a035-6bebdf11d9bb
+id: 82b95f6d-4883-4f08-ac3a-9d8189013fbe
 docNo: A.2.2.5.1
-name: Executor Accord Primitive
+name: Agent Creation Primitive
 type: Core
 depth: 5
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.5.1 - Executor Accord Primitive [Core]
+###### A.2.2.5.1 - Agent Creation Primitive [Core]
 
-The Executor Accord Primitive is the foundational mechanism that allows Prime Agents to operate autonomously according to the strategy specified in their Agent Artifacts with automated operational insurance provided by separate Operational Executor Agents that delegate the work to GovOps actors.
+This Primitive may only be Invoked after the prospective Agent founder meets the prerequisites defined in [A.2.2.3 - Prerequisites For Activating Agent Creation Primitive](9204bcaf-cfec-4f49-a115-31fad73ebd62), resulting in the creation of a Proto-Agent. Invoking the Agent Creation Primitive allows the Proto-Agent to establish its identity by declaring its name, as well as articulate its intended vision, business model or ecosystem goals.

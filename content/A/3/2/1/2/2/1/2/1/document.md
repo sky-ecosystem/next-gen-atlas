@@ -1,7 +1,7 @@
 ---
 id: 6c33bcf5-c29d-48ca-9ee5-e37dcdeb0630
 docNo: A.3.2.1.2.2.1.2.1
-name: Initial Loss Absorption By "Tip JRC"
+name: "Initial Loss Absorption By \"Tip JRC\""
 type: Core
 depth: 9
 childType: sections_and_primary_docs

@@ -1,7 +1,7 @@
 ---
 type: index
 path: content/A/6/1/1/1/3/7/2/2
-childCount: 5
+childCount: 6
 ---
 
 # Contents
@@ -10,4 +10,5 @@ childCount: 5
 - [A.6.1.1.1.3.7.2.2.2 - Marginable Assets Current Configuration](2/document.md)
 - [A.6.1.1.1.3.7.2.2.3 - Pendle PTs](3/document.md)
 - [A.6.1.1.1.3.7.2.2.4 - Perpetual and Calendar Futures](4/document.md)
-- [A.6.1.1.1.3.7.2.2.5 - Unapproved Assets and Products](5/document.md)
+- [A.6.1.1.1.3.7.2.2.5 - Decentralized Exchange Protocols](5/document.md)
+- [A.6.1.1.1.3.7.2.2.6 - Unapproved Assets and Products](6/document.md)

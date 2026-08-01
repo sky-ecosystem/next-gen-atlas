@@ -23,4 +23,4 @@ The following information must be included in the monthly Arranger report. Each 
 - Vault debt to the Sky Protocol.
 - Copies of original statements for all bank, brokerage, exchange, custodial, or other accounts. The Arranger may redact the names for non-Arranger service providers if and only if that is a requirement of confidentiality agreements with the non-Arranger service providers.
 
-The Stability Facilitator must publicly confirm on the Sky Forum that they have reviewed the original account documentation and verified that it supports the Arranger’s summary.
+The Core Facilitator must publicly confirm on the Sky Forum that they have reviewed the original account documentation and verified that it supports the Arranger’s summary.

@@ -15,7 +15,7 @@ The current USDT risk parameters are:
 - Liquidation Threshold: 0%
 - E-mode Category: USD
 - Liquidation Bonus: 0%
-- Reserve Factor: 50%
+- Reserve Factor: 10%
 - Supply Cap: 10,000,000 USDT
 - Borrow Cap: 8,000,000 USDT
 - Optimal Utilization: 95%

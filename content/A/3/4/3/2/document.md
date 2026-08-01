@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.4.3.2 - Onboarding And Offboarding of Arrangers [Core]
 
-When they deem it necessary, the Stability Facilitators may initiate a Governance Poll to onboard or offboard Arrangers. The list of current active Arrangers is maintained in [A.3.4.3.2.1 - List Of Active Arrangers](b8791aaa-84b7-4012-8a4f-053595ec232a).
+When they deem it necessary, the Core Facilitator may initiate a Governance Poll to onboard or offboard Arrangers. The list of current active Arrangers is maintained in [A.3.4.3.2.1 - List Of Active Arrangers](b8791aaa-84b7-4012-8a4f-053595ec232a).

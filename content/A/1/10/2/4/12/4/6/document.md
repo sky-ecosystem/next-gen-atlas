@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.4.12.4.6 - Secondary Reporting Counterparty [Core]
 
-If a validator suspects that Core Facilitators are malicious or colluding, they must notify Sky Governance by reporting the issues they found publicly. This permits Sky Governance community to independently investigate the issue and act together to mitigate an attack, even if all Core Facilitators are compromised or acting maliciously.
+If a validator suspects that the Core Facilitator is malicious or compromised, they must notify Sky Governance by reporting the issues they found publicly. This permits the Sky Governance community to independently investigate the issue and act together to mitigate an attack.

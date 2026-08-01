@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.4.5.2.1 - Perpetual Exposure Direct Accumulation [Core]
 
-The Stability Facilitators can trigger Executive Votes that instruct Arranged Structures to set up mechanisms that allow them to take direct exposure to Ethena sUSDe, or use legal rails to get direct exposure through custodians.
+The Core Facilitator can trigger Executive Votes that instruct Arranged Structures to set up mechanisms that allow them to take direct exposure to Ethena sUSDe, or use legal rails to get direct exposure through custodians.

@@ -9,7 +9,7 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.4.3.1 - GovOps Meeting [Core]
 
-The meeting, which is conducted by text, takes place on Discord in the #govops channel, 9 days before the Target Date. The Governance Point invites and leads the meeting. The Governance Point must make sure that the items specified in the subdocuments herein are processed at the meeting. The meeting takes place at 15.00 UTC. The Governance Point creates a separate thread in the #govops channel for every Executive Vote. The thread is named the target Spell date: "YYYY-MM-DD Executive Coordination".
+The meeting, which is conducted by text, takes place in the govops channel in Slack, 9 days before the Target Date. The Governance Point invites and leads the meeting. The Governance Point must make sure that the items specified in the subdocuments herein are processed at the meeting. The meeting takes place at 15.00 UTC. The Governance Point creates a separate thread in the govops channel for every Executive Vote. The thread is named the target Spell date: "YYYY-MM-DD Executive Coordination".
 
 The GovOps meeting includes various stakeholders. Governance Point, Technical Point, and Content Liaisons typically attend, whether sync or async.
 

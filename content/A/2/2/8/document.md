@@ -1,12 +1,12 @@
 ---
-id: 26415305-432d-423b-9553-3f325279712d
+id: 7b5d8965-a64c-4c44-b742-607f51f69d8f
 docNo: A.2.2.8
-name: Demand Side Stablecoin Primitives
+name: SkyLink Primitives
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.2.2.8 - Demand Side Stablecoin Primitives [Section]
+##### A.2.2.8 - SkyLink Primitives [Section]
 
-Demand Side Stablecoin Primitives are Sky Primitives that target demand generation for USDS. Prime Agents can create and control multiple instances of these Primitives which exist as technical infrastructure incentivizing the adoption or usage of USDS by end users or third parties.
+SkyLink Primitives are Sky Primitives that are technical infrastructure that extends the Sky Protocol. SkyLink Primitives are built autonomously by Prime Agents, but owned by Sky Core and shared among all Prime Agents. Prime Agents are reimbursed for the cost of setting up SkyLink Primitives and given additional first-mover incentives.

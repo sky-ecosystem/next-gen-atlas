@@ -16,4 +16,4 @@ childCount: 11
 - [A.1.10.2.4.12.2.8 - Using Chainlog Smart Contract For Spell Validation](8/document.md)
 - [A.1.10.2.4.12.2.9 - Using GitHub Website For Spell Validation](9/document.md)
 - [A.1.10.2.4.12.2.10 - Using Etherscan Website For Spell Validation](10/document.md)
-- [A.1.10.2.4.12.2.11 - Using Discord For Spell Validation](11/document.md)
+- [A.1.10.2.4.12.2.11 - Using The Sky Forum For Spell Validation](11/document.md)

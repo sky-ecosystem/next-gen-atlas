@@ -15,4 +15,4 @@ Risk capital actions are actions Spark takes to increase Total Risk Capital, inc
 
 Allocation system actions involve adjusting the capital allocations within the Spark instance of the Allocation System to reduce Required Risk Capital, such as unwinding or disposing of assets requiring higher levels of risk capital as a percent of exposure.
 
-The operational processes implemented at Spark will meet or exceed the requirements specified in the Sky Atlas at [A.2.2.9.1.1.3.2.1.2 - Primes' Total Risk Capital (TRC) Management](3af8a3a2-25e5-44b3-87a4-7df1f2712685).
+The operational processes implemented at Spark will meet or exceed the requirements specified in the Sky Atlas at [A.2.2.10.1.1.3.2.1.2 - Primes' Total Risk Capital (TRC) Management](3af8a3a2-25e5-44b3-87a4-7df1f2712685).

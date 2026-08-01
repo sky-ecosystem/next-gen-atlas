@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.8.2.6.2.3 - Completed Instances [Core]
 
-The Instances of the Junior Risk Capital Rental Primitive with `Completed` Status are stored herein.
+The Instances of the Risk Capital Rental Primitive with `Completed` Status are stored herein.

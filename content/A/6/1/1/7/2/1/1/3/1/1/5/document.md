@@ -1,12 +1,12 @@
 ---
-id: 433f5f95-3a16-4f07-b389-b4ead64f21f2
+id: 62d84951-7f77-423e-b5df-960faf6b2fd0
 docNo: A.6.1.1.7.2.1.1.3.1.1.5
-name: Custom Instance Parameters
+name: Foundation
 type: Core
 depth: 12
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.7.2.1.1.3.1.1.5 - Custom Instance Parameters [Core]
+###### A.6.1.1.7.2.1.1.3.1.1.5 - Foundation [Core]
 
-The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
+The Osero Foundation is the Prime Foundation associated with Osero. Its mandate is to support the development, growth, and adoption of Osero.

@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.7.1.1.3.1 - Offboarding Low Usage Collateral [Core]
 
-To protect the Protocol from unnecessary complexity, the Stability Facilitators must offboard collateral types specified in [A.3.7.1.1.1 - Vault Types](64971463-0650-4462-b9c4-1eecb704fa1a) if they fall below a total debt of 20 million.
+To protect the Protocol from unnecessary complexity, the Core Facilitator must offboard collateral types specified in [A.3.7.1.1.1 - Vault Types](64971463-0650-4462-b9c4-1eecb704fa1a) if they fall below a total debt of 20 million.

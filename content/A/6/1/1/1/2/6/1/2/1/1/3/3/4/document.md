@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The maximum amount of USDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_USDS`) is specified in the document herein.
 
-- `maxAmount` (USDS): This parameter will be specified in a future iteration of the Spark Artifact.
-- `slope` (USDS/ day): This parameter will be specified in a future iteration of the Spark Artifact.
+- `maxAmount`: This parameter will be specified in a future iteration of the Spark Artifact.
+- `slope`: This parameter will be specified in a future iteration of the Spark Artifact.

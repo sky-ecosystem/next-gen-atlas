@@ -13,9 +13,9 @@ The current cbBTC cap automator parameters are:
 
 - Supply cap
     - `gap`: 500 cbBTC
-    - `ttl`: 12 hours
-    - `max`: 20,000 cbBTC
+    - `ttl`: 4 hours
+    - `max`: 50,000 cbBTC
 - Borrow cap
-    - `gap`: 50 cbBTC
-    - `ttl`: 12 hours
-    - `max`: 10,000 cbBTC
+    - `gap`: 100 cbBTC
+    - `ttl`: 4 hours
+    - `max`: 50,000 cbBTC

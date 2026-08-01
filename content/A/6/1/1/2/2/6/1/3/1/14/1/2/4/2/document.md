@@ -11,5 +11,4 @@ childType: sections_and_primary_docs
 
 The outflow rate limits are:
 
-- `maxAmount`: 0 USDS
-- `slope`: 0 USDS per day
+- `maxAmount`: Unlimited

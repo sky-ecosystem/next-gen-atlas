@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.4.1.2.2.2.3.1 - Automation Of Monthly Settlement Cycle Calculation Including Virtual Base Rate [Core]
 
-The Core Council Risk Advisor must develop automated tooling for calculating the net amount due from each Prime to Sky each month, incorporating the Virtual Base Rate.
+The Core Council must ensure automated tooling is developed for calculating the net amount due from each Prime to Sky each month, incorporating the Virtual Base Rate.

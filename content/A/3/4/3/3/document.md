@@ -13,7 +13,7 @@ Arrangers must publish monthly reporting on each Arranged Structure they have ar
 
 Every six (6) months, Arrangers are also required to publish a stress test analysis that demonstrates how the structures would perform under historical financial crisis scenarios and other hypothetical scenarios.
 
-The Stability Facilitators must periodically fund independent Ecosystem Actors to review and verify the quality and the results of the stress tests. Should an independent review produce an unfavorable result, the Stability Facilitators must propose a Governance Poll for warning, temporarily deactivating, or permanently offboarding the Arranger and/or the Asset Managers connected to the discovered issue.
+The Core Facilitator must periodically fund independent Ecosystem Actors to review and verify the quality and the results of the stress tests. Should an independent review produce an unfavorable result, the Core Facilitator must propose a Governance Poll for warning, temporarily deactivating, or permanently offboarding the Arranger and/or the Asset Managers connected to the discovered issue.
 
 To be considered compliant, Arrangers’ monthly reports must satisfy the requirements of one of the following documents:
 

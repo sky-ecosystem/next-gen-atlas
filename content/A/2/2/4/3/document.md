@@ -1,12 +1,12 @@
 ---
-id: 2f249be5-8edb-41e4-b429-734e1ba2cbc7
+id: 862b6d83-f464-4125-8259-233b7de75ec4
 docNo: A.2.2.4.3
-name: Executor Transformation Primitive
+name: Demand Side Buffer
 type: Core
 depth: 5
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.4.3 - Executor Transformation Primitive [Core]
+###### A.2.2.4.3 - Demand Side Buffer [Core]
 
-The Executor Transformation Primitive allows an Agent to transform into an Executor Agent, subject to certain conditions.
+The Demand Side Buffer is the account used for disbursement of Distribution Reward and Integration Boost payments. The Demand Side Buffer is controlled by a multisig as specified in the documents herein. The balance of this account may be topped up through an Executive Vote.

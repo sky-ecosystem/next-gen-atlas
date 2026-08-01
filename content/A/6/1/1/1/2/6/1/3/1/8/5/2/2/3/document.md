@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.2.3 - Allocator Role Address [Core]
 
-`0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178`
+`0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699`

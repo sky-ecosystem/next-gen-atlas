@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.3.2.1.1 - Preparatory Phase for Module Deployment [Core]
 
-Before the Executive Process begins, the module is implemented, tested, audited, and reviewed by relevant stakeholders to ensure readiness for inclusion. These steps will be further developed in a future iteration of the Atlas. The subdocuments describe the crafting of an Atlas Edit Proposal for a technical deployment.
+Before the Executive Process begins, the module is implemented, tested, audited as specified in [A.1.10.2.7 - Audit Process](a8334e19-fedb-48fb-a38c-f18666ccc8e6), and reviewed by relevant stakeholders to ensure readiness for inclusion. The subdocuments describe the crafting of an Atlas Edit Proposal for a technical deployment.

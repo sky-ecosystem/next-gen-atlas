@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.2.1.1.3.2 - Inability To Calculate Types Of RRC [Core]
 
-If Instance Financial RRC, Instance Smart Contract RRC, or Instance Administrative RRC for an Instance cannot be calculated then the Instance Total RRC is 100%.
+If Instance Financial RRC, Instance Smart Contract RRC, or Instance Administrative RRC for an Instance cannot be calculated then the Instance Total CRR is 100%.

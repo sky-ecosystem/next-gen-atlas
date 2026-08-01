@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The maximum amount of sUSDS that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_SUSDS`) is specified in the document herein.
 
-- `maxAmount` (USDS worth of sUSDS): 10,000,000
-- `slope` (USDS worth of sUSDS): 5,000,000
+- `maxAmount`: 10,000,000 USDS worth of sUSDS
+- `slope`: 5,000,000 USDS worth of sUSDS per day

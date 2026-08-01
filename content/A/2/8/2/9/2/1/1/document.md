@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.8.2.9.2.1.1 - Ozone SubProxy Address [Core]
 
-The address of Ozone's SubProxy Account will be specified in the Technical Scope Forum Post for the deployment of the SubProxy Account.
+The address of Ozone's SubProxy Account on the Ethereum Mainnet is `0x9FE628BFc33f0352Bb1f93168881a9Ef93C8d2CF`.

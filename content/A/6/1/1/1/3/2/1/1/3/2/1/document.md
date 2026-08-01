@@ -12,10 +12,10 @@ childType: sections_and_primary_docs
 The current WETH cap automator parameters are:
 
 - Supply cap
-    - `gap`: 150,000 WETH
-    - `ttl`: 12 hours
-    - `max`: 2 million WETH
+    - `gap`: 100,000 WETH
+    - `ttl`: 4 hours
+    - `max`: Unlimited
 - Borrow cap
-    - `gap`: 20,000 WETH
-    - `ttl`: 12 hours
-    - `max`: 1 million WETH
+    - `gap`: 10,000 WETH
+    - `ttl`: 4 hours
+    - `max`: Unlimited

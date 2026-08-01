@@ -1,12 +1,12 @@
 ---
-id: 4655b643-b03f-49b7-a474-493c3e059b62
+id: 49513ac9-43d6-4766-8a51-195e221de3f2
 docNo: A.2.2.9.1.2.2
-name: Core Allocation Vault Address
+name: Global Activation
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.9.1.2.2 - Core Allocation Vault Address [Core]
+###### A.2.2.9.1.2.2 - Global Activation [Core]
 
-The Prime Agent Artifact must specify the address of the Prime Agent’s Core Allocation Vault.
+An Agent who intends to deploy the Distribution Reward Primitive must first Globally Activate it.

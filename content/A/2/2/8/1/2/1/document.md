@@ -1,12 +1,12 @@
 ---
-id: dc123bca-eac1-40e1-ad1f-f888a6ec8d1f
+id: 94a0a22c-cbd6-4022-80e8-4681f60c7cec
 docNo: A.2.2.8.1.2.1
-name: Base Elements
+name: Token SkyLink Activation Status
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.8.1.2.1 - Base Elements [Core]
+###### A.2.2.8.1.2.1 - Token SkyLink Activation Status [Core]
 
-The documents herein define base elements of the Distribution Reward Primitive.
+The Token SkyLink Primitive must be Globally Activated.

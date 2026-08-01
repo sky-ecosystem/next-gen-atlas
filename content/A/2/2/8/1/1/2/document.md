@@ -1,12 +1,12 @@
 ---
-id: 45149960-fbf3-4079-be4e-fe2a71e5e43f
+id: d7adf706-c9cc-4408-9668-cec0fdc90be8
 docNo: A.2.2.8.1.1.2
-name: Allowed Number Of Instances
+name: Token SkyLink Ongoing Management
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.8.1.1.2 - Allowed Number Of Instances [Core]
+###### A.2.2.8.1.1.2 - Token SkyLink Ongoing Management [Core]
 
-Multiple instances of the Distribution Reward Primitive are allowed. Each instance corresponds to a Distribution Reward program with an associated Distribution Reward Code.
+The documents herein define the process for managing an Instance of the Token SkyLink Primitive.

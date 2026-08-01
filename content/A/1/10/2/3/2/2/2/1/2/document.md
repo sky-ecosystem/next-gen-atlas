@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.3.2.2.2.1.2 - Specification Of Testing Parameters By Core Council Risk Advisor [Core]
 
-Once posted to the Forum, the Core Council Risk Advisor must respond on the Forum thread specifying testing parameters that will govern the Interim Deployment, including maximum exposure and rate limits. The Prime must maintain 100% Instance Capital Requirement Ratio for all Interim Deployments.
+Once posted to the Forum, the Core Council Risk Advisor must respond on the Forum thread specifying testing parameters that will govern the Interim Deployment, including maximum exposure and rate limits. The Prime must maintain 100% Instance Capital Ratio Requirement for all Interim Deployments.

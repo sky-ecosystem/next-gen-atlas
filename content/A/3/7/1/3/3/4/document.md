@@ -1,15 +1,15 @@
 ---
-id: d52799ce-589d-4ef8-9ee3-ef940866291a
+id: e71dbe73-9968-4f43-9656-4ebb86db6187
 docNo: A.3.7.1.3.3.4
-name: ALLOCATOR-OBEX-A Parameters
+name: ALLOCATOR-GROVE-A Parameters
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.3.7.1.3.3.4 - ALLOCATOR-OBEX-A Parameters [Core]
+###### A.3.7.1.3.3.4 - ALLOCATOR-GROVE-A Parameters [Core]
 
-The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-OBEX-A Allocator Vault are as follows:
+The Stability Parameter Bounded External Access Module parameters for the ALLOCATOR-GROVE-A Allocator Vault are as follows:
 
 - `max` - 3,000 basis points,
 - `min` - 0 basis points,

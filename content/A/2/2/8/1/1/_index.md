@@ -1,11 +1,10 @@
 ---
 type: index
 path: content/A/2/2/8/1/1
-childCount: 3
+childCount: 2
 ---
 
 # Contents
 
-- [A.2.2.8.1.1.1 - Purpose](1/document.md)
-- [A.2.2.8.1.1.2 - Allowed Number Of Instances](2/document.md)
-- [A.2.2.8.1.1.3 - Multi-Instance Coordinator Document](3/document.md)
+- [A.2.2.8.1.1.1 - Token SkyLink Setup Process Definition](1/document.md)
+- [A.2.2.8.1.1.2 - Token SkyLink Ongoing Management](2/document.md)

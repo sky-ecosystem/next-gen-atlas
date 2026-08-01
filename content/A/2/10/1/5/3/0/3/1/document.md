@@ -9,4 +9,4 @@ childType: annotations
 
 ###### A.2.10.1.5.3.0.3.1 - Included In An Executive Vote [Annotation]
 
-The element "Included In An Executive Vote" refers to the Support Facilitators’ act of adding a Resilience Research and Preparedness grant payment to an Executive Vote. The Support Facilitators are also responsible for providing provenance for such requests by confirming payment requests on the Executive Sheet. See [A.1.11.1.3.0.3.1 - Executive Sheet - Element Annotation](52aef6ac-9eda-4795-9dab-73ea85b8ca31).
+The element "Included In An Executive Vote" refers to the Core Facilitator’s act of adding a Resilience Research and Preparedness grant payment to an Executive Vote. The Core Facilitator is also responsible for providing provenance for such requests by confirming payment requests on the Executive Sheet. See [A.1.11.1.3.0.3.1 - Executive Sheet - Element Annotation](52aef6ac-9eda-4795-9dab-73ea85b8ca31).

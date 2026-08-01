@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.4.10.8 - Spell Reviewers Review Pull Request [Core]
 
-The Spell Reviewers review the Pull Request. As part of this review, they run tests locally. These steps are set out here: [https://github.com/sky-ecosystem/pe-checklists/blob/master/Spell/Spell-reviewer-mainnet-checklist.md.](https://github.com/sky-ecosystem/pe-checklists/blob/master/spell/spell-crafter-mainnet-workflow.md) When they have completed this, each Spell Reviewer posts a comment approving the handover of the Spell (e.g. "good to handover"), including a copy of the test results.
+The Spell Reviewers review the Pull Request. As part of this review, they run tests locally. These steps are set out in the Core Spell Reviewer Mainnet Checklist, as specified in [A.1.10.2.5.1.3.2.0.6.1 - Registered Spell Checklists](93f5b36b-06a7-4282-9fd7-14e0cbafd08e). When they have completed this, each Spell Reviewer posts a comment approving the handover of the Spell (e.g. "good to handover"), including a copy of the test results.

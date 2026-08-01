@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.8.2.3.1.1.2 - Keel Details [Core]
 
-The party ‘Keel’ comprises the Keel Prime Agent, Keel Foundation, and Elodin.
+The party ‘Keel’ comprises the Keel Prime Agent, Keel Foundation, and Development Company.

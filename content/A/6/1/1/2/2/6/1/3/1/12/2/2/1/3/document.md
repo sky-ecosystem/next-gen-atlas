@@ -1,5 +1,5 @@
 ---
-id: 7156baa8-7cbf-4739-8b35-ae2dcf60601d
+id: 8d7b7008-1e6f-4f9a-b786-637b33734ebc
 docNo: A.6.1.1.2.2.6.1.3.1.12.2.2.1.3
 name: Asset Supplied By Grove Liquidity Layer
 type: Core

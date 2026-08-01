@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.1.2.3.6 - Settlement [Core]
 
-Any compensation due to or from Prime Agents so that they earn the Agent Rate on USDS, Dai, and sUSDS balances is paid as part of the Monthly Settlement Cycle. See [A.2.4 - Sky Core Monthly Settlement Cycle](6f8d5065-d6ff-4add-9a28-eadeffa7ed1a).
+To the extent Prime Agents are entitled to payments for the Agent Rate, those payments are made through the Monthly Settlement Cycle. See [A.2.4 - Sky Core Monthly Settlement Cycle](6f8d5065-d6ff-4add-9a28-eadeffa7ed1a).

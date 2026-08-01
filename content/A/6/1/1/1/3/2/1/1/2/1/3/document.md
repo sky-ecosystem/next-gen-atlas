@@ -31,4 +31,4 @@ The current USDS risk parameters are:
 - Siloed Borrowing: No
 - Flash Loan Enabled: Yes.
 
-The USDS Borrow Rate is set through the Interest Rate Model as a spread over the Sky Savings Rate. The spread is set directly by the Stability Facilitators in consultation with the Core Council Risk Advisor.
+The USDS Borrow Rate is set through the Interest Rate Model as a spread over the Sky Savings Rate. The spread is set directly by the Core Facilitator in consultation with the Core Council Risk Advisor.

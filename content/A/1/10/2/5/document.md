@@ -1,12 +1,12 @@
 ---
-id: 3aa5bc98-91ce-4588-b345-a96af8ba2366
+id: b29d62ae-1ab0-4a48-a52a-6e60926fdbe7
 docNo: A.1.10.2.5
-name: Voting Process For Executive Votes
+name: Checklists And Reference Materials
 type: Core
 depth: 5
 childType: sections_and_primary_docs
 ---
 
-###### A.1.10.2.5 - Voting Process For Executive Votes [Core]
+###### A.1.10.2.5 - Checklists And Reference Materials [Core]
 
-The subdocuments herein provide a high-level summary of the voting process for Executive Votes within the Sky Protocol.
+The documents herein define the Spell Checklists and Operational Reference Materials used in connection with the Executive Process, infrastructure changes, and contract deployments.

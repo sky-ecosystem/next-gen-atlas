@@ -1,5 +1,5 @@
 ---
-id: 37b74730-eeef-4f2a-89cc-699fa51b176b
+id: 2a16ab46-2924-4c7d-8c47-26f8119fcf62
 docNo: A.6.1.1.2.2.6.1.3.1.12.2.2.4.1
 name: Deposit Rate Limits
 type: Core
@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The deposit rate limits are:
 
-- `maxAmount`: N/A - swaps only
-- `slope`: N/A - swaps only
+- `maxAmount`: 25,000,000 AUSD/USDC
+- `slope`: 25,000,000 AUSD/USDC per day

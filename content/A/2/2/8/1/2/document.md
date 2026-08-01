@@ -1,12 +1,12 @@
 ---
-id: 7f0959dc-c6e2-4e64-9526-76563a2a6d29
+id: 7d9a8373-ed56-4b01-8ec7-ebf2ed4ef8b0
 docNo: A.2.2.8.1.2
-name: Global Specification
+name: Token SkyLink Input Requirements
 type: Core
 depth: 6
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.8.1.2 - Global Specification [Core]
+###### A.2.2.8.1.2 - Token SkyLink Input Requirements [Core]
 
-The requirements herein apply universally across all possible deployments of the Distribution Reward Primitive by Prime Agents. They include the steps that Agents must take to deploy the Primitive, including Global Activation of the Primitive, Instance Invocation, and ongoing management of the Primitive Instance(s).
+The documents herein define the required inputs for a valid Token SkyLink Primitive. If any input is noncompliant or omitted, the Primitive will be invalidated and the SkyLink deployment will not move forward.

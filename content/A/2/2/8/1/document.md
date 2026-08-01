@@ -1,12 +1,12 @@
 ---
-id: e632c38f-3e4e-4c7e-acfd-b6ec45a422e6
+id: 4504d2d4-ee45-4a07-8c5b-9baf20b12e76
 docNo: A.2.2.8.1
-name: Distribution Reward Primitive
+name: Token SkyLink Primitive
 type: Core
 depth: 5
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.8.1 - Distribution Reward Primitive [Core]
+###### A.2.2.8.1 - Token SkyLink Primitive [Core]
 
-The documents herein govern the Distribution Reward Primitive.
+The Token SkyLink Primitive allows users to bridge USDS, sUSDS, SKY, or an Agent token to new blockchains and enables other multichain features.

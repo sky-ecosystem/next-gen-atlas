@@ -13,7 +13,7 @@ The current LBTC risk parameters are:
 
 - LTV: 74%
 - Liquidation Threshold: 75%
-- E-mode Category: 3
+- E-mode Category: 0
 - Liquidation Bonus: 8%
 - Reserve Factor: 15%
 - Supply Cap: Set by cap automator

@@ -1,9 +1,10 @@
 ---
 type: index
 path: content/A/2/8/2/9/2
-childCount: 1
+childCount: 2
 ---
 
 # Contents
 
 - [A.2.8.2.9.2.1 - Genesis Capital Allocation](1/document.md)
+- [A.2.8.2.9.2.2 - Transfers To The Sky Frontier Foundation](2/document.md)

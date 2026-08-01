@@ -1,12 +1,12 @@
 ---
-id: 7b71508d-de87-4c7b-a09a-7168d1d04f81
+id: fe988ac4-6a04-46cd-89b0-c78ba8683f14
 docNo: A.6.1.1.4.2.1.1.3.1.1.5
-name: Custom Instance Parameters
+name: Foundation
 type: Core
 depth: 12
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.4.2.1.1.3.1.1.5 - Custom Instance Parameters [Core]
+###### A.6.1.1.4.2.1.1.3.1.1.5 - Foundation [Core]
 
-The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
+The Skybase Foundation is the Prime Foundation associated with Skybase. Its mandate is to support the development, growth, and adoption of Skybase.

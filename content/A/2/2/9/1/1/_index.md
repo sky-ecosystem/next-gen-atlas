@@ -6,6 +6,6 @@ childCount: 3
 
 # Contents
 
-- [A.2.2.9.1.1.1 - Base Elements](1/document.md)
-- [A.2.2.9.1.1.2 - Allocation Instance Setup Process Definition](2/document.md)
-- [A.2.2.9.1.1.3 - Allocation Instance Ongoing Management](3/document.md)
+- [A.2.2.9.1.1.1 - Purpose](1/document.md)
+- [A.2.2.9.1.1.2 - Allowed Number Of Instances](2/document.md)
+- [A.2.2.9.1.1.3 - Multi-Instance Coordinator Document](3/document.md)

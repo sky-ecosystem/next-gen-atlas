@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.3.2.1.1 - Designated Synome Editor [Core]
 
-The Synome Editor role is held by Archon Labs.
+The Synome Editor role is held by Archon Tech.

@@ -1,14 +1,12 @@
 ---
-id: e8272862-e80d-470c-a0da-f964b6df110d
+id: 5a9cf81d-19dd-4f75-9ddc-be35c6b5cfb5
 docNo: A.2.2.10.1.2.1
-name: Current Eligible Recipients
+name: Global Activation Status
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.2.1 - Current Eligible Recipients [Core]
+###### A.2.2.10.1.2.1 - Global Activation Status [Core]
 
-The current eligible recipients for the Core Governance Reward Primitive are:
-
-- **Skybase** - Skybase is eligible to receive the Core Governance Reward with respect to the [https://sky.money/](https://sky.money/) frontend as both the Integrator that operates the frontend and the Prime Agent that manages the relationship, and therefore receives both the Integrator reward and the Prime Agent reward for this frontend.
+The Allocation System Primitive must be Globally Activated.

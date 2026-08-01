@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.3.7.2.7 - Account Management [Core]
 
-The documents herein define the requirements for controlling and managing offchain accounts and permissions related to Spark Prime.
+The documents herein define the requirements for controlling and managing offchain accounts and permissions related to Arkis Infrastructure.

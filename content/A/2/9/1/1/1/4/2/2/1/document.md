@@ -9,7 +9,7 @@ childType: sections_and_primary_docs
 
 ###### A.2.9.1.1.1.4.2.2.1 - Resilience Fund Claim Approval Payout Claim [Core]
 
-The Support Facilitator must review the Reimbursement Claim and decide whether to trigger a Governance Poll to perform a claims payout, by developing an internal model with input from experts and professionals.
+The Core Facilitator must review the Reimbursement Claim and decide whether to trigger a Governance Poll to perform a claims payout, by developing an internal model with input from experts and professionals.
 
 The Payout Reimbursement Claim must contain the following elements:
 

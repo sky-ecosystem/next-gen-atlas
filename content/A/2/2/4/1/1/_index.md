@@ -6,5 +6,5 @@ childCount: 2
 
 # Contents
 
-- [A.2.2.4.1.1.1 - Agent Creation Instance Setup Process](1/document.md)
-- [A.2.2.4.1.1.2 - Agent Creation Instance Ongoing Management](2/document.md)
+- [A.2.2.4.1.1.1 - Alignment](1/document.md)
+- [A.2.2.4.1.1.2 - Compliance With Local Laws And Regulations As A Condition Precedent To Integrators Receiving Distribution Rewards](2/document.md)

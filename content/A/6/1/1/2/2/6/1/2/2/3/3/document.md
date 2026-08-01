@@ -13,4 +13,4 @@ This document defines the action that should be performed by an operator if ther
 
 `mainnetController.swapUSDCToUSDS(usdc.balanceOf(address(proxy))
 `
-For more detailed instructions on the code to execute this, see [A.6.1.1.2.2.6.1.2.2.1.2.1.2.3.2 - Swap USDC to USDS](1ec9a718-44f4-4ce9-97b3-bebeb207b280).
+For more detailed instructions on the code to execute this, see [A.6.1.1.2.2.6.1.2.2.1.2.1.2.3.2 - Swap USDC To USDS](1ec9a718-44f4-4ce9-97b3-bebeb207b280).

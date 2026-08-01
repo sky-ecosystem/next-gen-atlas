@@ -1,12 +1,12 @@
 ---
-id: 5785964a-75ca-4109-af39-5ae1e872b89d
+id: 7a7a2631-e5e2-4b63-8f2b-45ecaec7af2e
 docNo: A.2.2.5.1.2
-name: Executor Accord Primitive Required Inputs
+name: Agent Creation Primitive Input Requirements
 type: Core
 depth: 6
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.5.1.2 - Executor Accord Primitive Required Inputs [Core]
+###### A.2.2.5.1.2 - Agent Creation Primitive Input Requirements [Core]
 
-The documents herein define the required inputs for a valid Invocation of the Executor Accord Primitive. If any input is noncompliant or omitted, the Primitive will be invalidated and the Executor Accord will not be set up.
+The documents herein define the required inputs for a valid Invocation of the Agent Creation Primitive. If any input is noncompliant or omitted, the Primitive will be invalidated.

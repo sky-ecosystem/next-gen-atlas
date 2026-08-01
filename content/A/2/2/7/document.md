@@ -1,12 +1,12 @@
 ---
-id: 7b5d8965-a64c-4c44-b742-607f51f69d8f
+id: 25673fd2-76cb-4c4d-8ec6-8c489207bcfc
 docNo: A.2.2.7
-name: SkyLink Primitives
+name: Ecosystem Upkeep Primitives
 type: Section
 depth: 4
 childType: sections_and_primary_docs
 ---
 
-##### A.2.2.7 - SkyLink Primitives [Section]
+##### A.2.2.7 - Ecosystem Upkeep Primitives [Section]
 
-SkyLink Primitives are Sky Primitives that are technical infrastructure that extends the Sky Protocol. SkyLink Primitives are built autonomously by Prime Agents, but owned by Sky Core and shared among all Prime Agents. Prime Agents are reimbursed for the cost of setting up SkyLink Primitives and given additional first-mover incentives.
+Ecosystem Upkeep Primitives ensure that all Agents contribute to long-term ecosystem sustainability. The Ecosystem Upkeep Fee Primitive specifies a uniform upkeep fee payable by all Prime Agents, and the Upkeep Rebate Primitive specifies rebates that adjust those fees for Agents holding the tokens of other Prime Agents. The term "Ecosystem Upkeep Fees" refers to the upkeep obligation of a Prime Agent as specified in the Ecosystem Upkeep Fee Primitive.

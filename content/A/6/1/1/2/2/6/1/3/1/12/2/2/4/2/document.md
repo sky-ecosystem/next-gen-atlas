@@ -1,5 +1,5 @@
 ---
-id: 52f681eb-f0eb-4d36-95dd-4d239fef72b9
+id: 2f0a3fb8-6b7a-4c37-90c8-f2b277289969
 docNo: A.6.1.1.2.2.6.1.3.1.12.2.2.4.2
 name: Withdrawal Rate Limits
 type: Core
@@ -11,4 +11,4 @@ childType: sections_and_primary_docs
 
 The withdrawal rate limits are:
 
-- `maxAmount`: N/A - swaps only
+- `maxAmount`: Unlimited

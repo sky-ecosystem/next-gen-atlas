@@ -1,12 +1,12 @@
 ---
-id: dd9524c4-136c-4e52-a9af-0390517361d5
+id: 6b494fe8-3482-4309-9fb5-1f26631b0191
 docNo: A.6.1.1.2.2.6.1.2.2.1.1
-name: Role Hierarchy And Permissions
+name: Role Hierarchies And Permissions
 type: Core
 depth: 12
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.2.2.6.1.2.2.1.1 - Role Hierarchy And Permissions [Core]
+###### A.6.1.1.2.2.6.1.2.2.1.1 - Role Hierarchies And Permissions [Core]
 
-The documents herein defines roles (Admin, Relayer, Freezer) and their responsibilities/permissions for managing the Grove Liquidity Layer.
+The documents herein define the role hierarchies and permissions for each Instance of the Grove Liquidity Layer.

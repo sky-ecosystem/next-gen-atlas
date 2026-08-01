@@ -1,5 +1,5 @@
 ---
-id: 0963963e-de9c-4470-9d89-6932657f8283
+id: 70d6adc5-11a6-4058-887c-d277141bb1a8
 docNo: A.6.1.1.2.2.6.1.3.1.7.4.2.1.2
 name: Target Protocol
 type: Core
@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.3.1.7.4.2.1.2 - Target Protocol [Core]
 
-Steakhouse PYUSD Morpho Vault
+Grove x Steakhouse AUSD Morpho Vault

@@ -1,7 +1,7 @@
 ---
 type: index
 path: content/A/3/2/2/1/1/1/1/3
-childCount: 9
+childCount: 10
 ---
 
 # Contents
@@ -15,3 +15,4 @@ childCount: 9
 - [A.3.2.2.1.1.1.1.3.7 - Anchorage](7/document.md)
 - [A.3.2.2.1.1.1.1.3.8 - Morpho Vaults](8/document.md)
 - [A.3.2.2.1.1.1.1.3.9 - Uniswap V3](9/document.md)
+- [A.3.2.2.1.1.1.1.3.10 - Galaxy Warehouse](10/document.md)

@@ -9,7 +9,7 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.3.2.2.3.2.2 - Prime Agent Publishes Spell Actions On Sky Forum [Core]
 
-Each proposed Prime Spell action must be included in a Forum post on the Sky Forum. Each Forum post must contain the Technical Scope, the Financial Risk Assessment, and, if relevant, a Technical Risk Assessment.
+Each proposed Prime Spell action must be included in a Forum post on the Sky Forum. Each Forum post must contain the Technical Scope, as specified in [A.1.10.2.5.2.1 - Technical Scope Template](b9ba6658-87a9-4421-9d20-386df8cea450), the Financial Risk Assessment, and, if relevant, a Technical Risk Assessment.
 
 Under the Sky Governance path, the Forum posts must be published by Wednesday, 16:00 UTC of week 1.
 

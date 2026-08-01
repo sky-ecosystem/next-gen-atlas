@@ -1,7 +1,7 @@
 ---
 type: index
 path: content/A/6/1/1/1/3/5/2/2
-childCount: 4
+childCount: 5
 ---
 
 # Contents
@@ -10,3 +10,4 @@ childCount: 4
 - [A.6.1.1.1.3.5.2.2.2 - Spark Savings USDT on Ethereum](2/document.md)
 - [A.6.1.1.1.3.5.2.2.3 - Spark Savings ETH on Ethereum](3/document.md)
 - [A.6.1.1.1.3.5.2.2.4 - Spark Savings USDC on Avalanche](4/document.md)
+- [A.6.1.1.1.3.5.2.2.5 - Spark Savings USDT on Arbitrum](5/document.md)

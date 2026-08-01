@@ -11,8 +11,8 @@ childType: sections_and_primary_docs
 
 The current rsETH risk parameters are:
 
-- LTV: 75%
-- Liquidation Threshold: 76%
+- LTV: 0%
+- Liquidation Threshold: 70%
 - E-mode Category: 0
 - Liquidation Bonus: 10%
 - Reserve Factor: 15%

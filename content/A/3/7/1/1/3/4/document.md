@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.7.1.1.3.4 - Collateral Offboarding Process [Core]
 
-The Stability Facilitators, in consultation with the Core Council Risk Advisor, must use the Operational Weekly Cycle to offboard Native Vault Engine collateral pursuant to [A.3.7.1.1.3 - Collateral Offboarding](05f29c65-4d92-43b3-aacb-3dd75b9f6794) and its subdocuments.
+The Core Facilitator, in consultation with the Core Council Risk Advisor, must use the Operational Weekly Cycle to offboard Native Vault Engine collateral pursuant to [A.3.7.1.1.3 - Collateral Offboarding](05f29c65-4d92-43b3-aacb-3dd75b9f6794) and its subdocuments.

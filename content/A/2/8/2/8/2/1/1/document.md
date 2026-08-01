@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.8.2.8.2.1.1 - Amatsu SubProxy Address [Core]
 
-The address of Amatsu's SubProxy Account will be specified in the Technical Scope Forum Post for the deployment of the SubProxy Account.
+The address of Amatsu's SubProxy Account on the Ethereum Mainnet is `0xF33B14329e7115dD0B40DBb2985E1A0Df10E3fAa`.

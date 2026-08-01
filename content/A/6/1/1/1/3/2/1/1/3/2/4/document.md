@@ -12,10 +12,10 @@ childType: sections_and_primary_docs
 The current WBTC cap automator parameters are:
 
 - Supply cap
-    - `gap`: 200 WBTC
-    - `ttl`: 12 hours
-    - `max`: 5,000 WBTC
+    - `gap`: 500 WBTC
+    - `ttl`: 4 hours
+    - `max`: 50,000 WBTC
 - Borrow cap
-    - `gap`: 1 WBTC
-    - `ttl`: 12 hours
-    - `max`: 1 WBTC
+    - `gap`: 100 WBTC
+    - `ttl`: 4 hours
+    - `max`: 50,000 WBTC

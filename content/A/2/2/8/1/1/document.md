@@ -1,12 +1,12 @@
 ---
-id: 02189c79-a529-4388-98ad-a743d2a8980d
+id: 18386a64-1f20-4495-99a0-2271c7d607b0
 docNo: A.2.2.8.1.1
-name: Introduction
+name: Token SkyLink Process Definition
 type: Core
 depth: 6
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.8.1.1 - Introduction [Core]
+###### A.2.2.8.1.1 - Token SkyLink Process Definition [Core]
 
-The documents herein provide an introduction to the Distribution Reward Primitive.
+The documents herein define the Process Definition for initial setup and ongoing management of the Token SkyLink Primitive.

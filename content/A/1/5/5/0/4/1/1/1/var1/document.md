@@ -19,7 +19,7 @@ Misaligned
 
 **Additional Guidance**:
 
-An "ecosystem role" need not be compensated or full-time to be regulated by the Target Document. See [Other Ecosystem Roles - Ecosystem Role Need Not Be Compensated Or Full-Time To Be Regulated Under Target Document](9b3828a7-0e71-4c63-82d2-8f65ee84a1ca).
+An "ecosystem role" need not be compensated or full-time to be regulated by the Target Document. See [A.1.5.5.0.4.3 - Other Ecosystem Roles - Ecosystem Role Need Not Be Compensated Or Full-Time To Be Regulated Under Target Document](9b3828a7-0e71-4c63-82d2-8f65ee84a1ca).
 
 An unranked, uncompensated Aligned Delegate is nevertheless an 'ecosystem role' in the sense of the Target Document. Notwithstanding being unranked and uncompensated, the AD role still carries with it a mandate and array of incentives that are distinct from those of a Facilitator.
 

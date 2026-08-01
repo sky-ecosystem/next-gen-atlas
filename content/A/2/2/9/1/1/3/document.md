@@ -1,12 +1,12 @@
 ---
-id: 2db14aa7-ccfa-42f7-82a8-118048574d4c
+id: c788ebcf-98a4-4b97-ae3c-db578c75dc2e
 docNo: A.2.2.9.1.1.3
-name: Allocation Instance Ongoing Management
+name: Multi-Instance Coordinator Document
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.9.1.1.3 - Allocation Instance Ongoing Management [Core]
+###### A.2.2.9.1.1.3 - Multi-Instance Coordinator Document [Core]
 
-The documents herein define the process for managing an Allocation Instance as part of the Allocation System Primitive.
+An Agent Artifact that has more than one active instance of the Distribution Reward Primitive is not required to have a `Multi-Instance Coordinator Document`, since each Instance can be managed independently.
