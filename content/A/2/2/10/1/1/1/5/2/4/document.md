@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.2.10.1.1.1.5.2.4 - Withdraw From Aave Market [Core]
 
-The documents herein define the steps to withdraw an asset from an Aave v3 market to the ALM Proxy, burning the corresponding aTokens. The withdrawal is performed by calling the Diamond PAU Controller, specifying the market and the amount to withdraw; the Controller dispatches the call to the Aave Facet.
+The documents herein define the steps to withdraw an asset from an Aave v3 market to the ALM Proxy by burning the corresponding aTokens.

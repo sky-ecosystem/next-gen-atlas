@@ -9,6 +9,6 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.1.2.2 - Check RateLimits [Core]
 
-The operator must ensure the `RateLimits` allow for minting the required amount.
+Burning USDS restores previously consumed mint capacity. The operator's call increases (refunds) the `LIMIT_USDS_MINT` rate limit by `usdsAmount`, reversing the decrease applied when that USDS was minted. Internally `_cancelRateLimit` calls `rateLimits.triggerRateLimitIncrease(LIMIT_USDS_MINT, usdsAmount)`; it does not check or consume a separate burn allowance.
 
-`cancelRateLimit(LIMIT_USDS_MINT, usdsAmount)`
+`_cancelRateLimit(LIMIT_USDS_MINT, usdsAmount);`

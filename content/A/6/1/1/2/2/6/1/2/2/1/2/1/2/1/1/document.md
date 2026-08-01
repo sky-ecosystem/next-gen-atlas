@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.1.1 - Mint USDS [Core]
 
-The documents herein define the steps for an operator to `mint` USDS from the Sky Allocation Vault to the Grove ALM Proxy.
+The documents herein define a series of operations for an operator to `mintUSDS`, drawing USDS from the Sky Allocation Vault into the buffer and transferring it to the Grove ALM Proxy.

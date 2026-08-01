@@ -22,4 +22,4 @@ The registered Spell Checklists are:
 | Core RWA Checklists | Core Spell Checklist | https://github.com/sky-ecosystem/pe-checklists/blob/master/spell/rwa-checklists.md |
 | Core Teleport Onboarding Checklist | Core Spell Checklist | https://github.com/sky-ecosystem/pe-checklists/blob/master/spell/teleport-onboarding-checklist.md |
 | Agent Spell Reviewer Checklist | Agent Spell Checklist | https://github.com/sky-ecosystem/pe-checklists/blob/master/spell/star-spell-reviewer-checklist.md |
-| Deployment Checklist | Operational Checklist | https://github.com/Atlas-Axis/ecosystem-operational-references/blob/main/checklists/deployment-checklist.md |
+| Deployment Checklist | Operational Checklist | https://github.com/soterlabs/ecosystem-operational-references/blob/main/checklists/deployment-checklist.md |

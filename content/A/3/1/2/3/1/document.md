@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.1.2.3.1 - Relationship To Base Rate [Core]
 
-The Agent Rate is 0.1% below the Base Rate. This is equal to the Sky Savings Rate plus the 0.2% Distribution Reward Fee (see [A.2.2.9.1.2.1.2 - Distribution Reward Rate](57384c49-e499-4c69-b22c-8e1f1dd34759)).
+The Agent Rate is equal to the Base Rate minus the Sky Spread (see [A.3.1.2.6 - Sky Spread](e1b694de-1ee3-4502-a9c9-52eea9539804)), and thus is equal to the Sky Savings Rate plus the Distribution Reward Fee (see [A.2.2.9.1.2.1.2 - Distribution Reward Rate](57384c49-e499-4c69-b22c-8e1f1dd34759)).

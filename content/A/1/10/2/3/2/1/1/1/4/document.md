@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.3.2.1.1.1.4 - Atlas Edit Proposal [Core]
 
-Atlas Axis publishes the proposal as an Atlas Edit Proposal, which is submitted for inclusion in a subsequent Governance Poll to seek community approval for integration into the Atlas.
+Core GovOps publishes the proposal as an Atlas Edit Proposal, which is submitted for inclusion in a subsequent Governance Poll to seek community approval for integration into the Atlas.

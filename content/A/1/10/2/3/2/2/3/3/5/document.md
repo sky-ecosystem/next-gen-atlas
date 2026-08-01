@@ -11,6 +11,6 @@ childType: sections_and_primary_docs
 
 If the governance vote passes, the approved Edit Proposal must be incorporated into the Atlas or applicable Agent Artifact by Thursday, 23:59 UTC of week 2, establishing the provenance for the Prime Spell to be included in the Sky Core Executive Vote.
 
-Under the Sky Governance path, the Core Facilitator and Atlas Axis incorporate the approved Atlas Edit Proposal into the Atlas.
+Under the Sky Governance path, the Core Facilitator and Core GovOps incorporate the approved Atlas Edit Proposal into the Atlas.
 
 Under the Independent Governance path, the Operational Facilitator incorporates the approved Agent Artifact Edit Proposal into the Prime Agent's Artifact.
