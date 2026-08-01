@@ -20,7 +20,7 @@ childType: active_data
 | Soter Labs | Operational GovOps | SoterLabs | N/A |
 | Amatsu | Operational GovOps | Amatsu | SoterLabs, Endgame-Edge (and their authorized representatives) |
 | Dewiz | Ecosystem Actor | Dewiz | N/A |
-| Atlas Axis | Core GovOps | atlas-axis | Le_Bateleur, adamfraser, Lex |
+| Soter Labs | Core GovOps | SoterLabs | retro, adamfraser, Lex |
 | Ozone | Operational Executor Agent | N/A | SoterLabs, Redline (and their authorized representatives) |
 | Endgame Edge | Operational Facilitator | Endgame-Edge | votewizard, CivicSage, boet, blimpa |
 | Keel | Prime Agent | N/A | N/A |

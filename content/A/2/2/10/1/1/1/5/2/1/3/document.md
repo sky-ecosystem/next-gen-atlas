@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.2.10.1.1.1.5.2.1.3 - Mint USDS To ALM Proxy [Core]
 
-The USDS Facet mints the specified amount of USDS from the allocator vault to the ALM Proxy.
+The USDS Facet's `mint` function draws the specified amount of USDS from the allocator vault by calling the vault's `draw` function, then transfers that USDS from the vault's buffer to the ALM Proxy.

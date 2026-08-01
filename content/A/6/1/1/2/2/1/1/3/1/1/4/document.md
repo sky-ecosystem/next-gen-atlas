@@ -1,12 +1,12 @@
 ---
-id: e412a2af-5d3b-4901-b2a6-592b9695f07e
+id: 70d75e6f-009f-4ac0-b430-881b86d573ca
 docNo: A.6.1.1.2.2.1.1.3.1.1.4
-name: Custom Instance Parameters
+name: Foundation
 type: Core
 depth: 12
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.2.2.1.1.3.1.1.4 - Custom Instance Parameters [Core]
+###### A.6.1.1.2.2.1.1.3.1.1.4 - Foundation [Core]
 
-The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
+The Grove Foundation is the Prime Foundation associated with Grove. Its mandate is to support the development, growth, and adoption of Grove.

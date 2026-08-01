@@ -14,3 +14,5 @@ Within seven (7) days of the proposal being submitted, the Operational Facilitat
 If the proposal is aligned, the Operational Facilitator must respond to the Forum post to announce their finding. In this Forum post, the Operational Facilitator must also confirm that the proposal is feasible for Operational GovOps to operationalize.
 
 If the proposal is misaligned, the Operational Facilitator must respond to the Forum post to announce their finding and provide the reasoning for it.
+
+As part of this review, the Operational Facilitator must determine whether the proposal results in an increase in the on-chain risk to the protocol as described in [A.6.1.1.2.2.2.2.2.1.2.4 - Short-Term Transitionary Measures](a65302b4-5222-48a9-b37f-282498acb4d6), and must state this determination in its finding on the Forum post.

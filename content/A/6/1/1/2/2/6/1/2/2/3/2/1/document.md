@@ -13,4 +13,4 @@ In order to withdraw all ERC-4626 balances, the operator must execute the follow
 
 `mainnetController.redeemERC4626(address(token), token.balanceOf(address(proxy)))
 `
-For more detailed instructions on the code to execute this, see [A.6.1.1.2.2.6.1.2.2.1.2.1.2.2.2 - General Withdraw from ERC-4626 Tokens Procedure](7b560160-e427-45a2-a3ac-3c23cf6fe943) and [A.6.1.1.2.2.6.1.2.2.1.2.1.2.2.3 - General Redeem from ERC-4626 Tokens Procedure](7e90e505-42b9-474d-9cc5-9b4da6af7375).
+For more detailed instructions on the code to execute this, see [A.6.1.1.2.2.6.1.2.2.1.2.1.2.2.2 - Withdraw From ERC-4626 Vault](7b560160-e427-45a2-a3ac-3c23cf6fe943) and [A.6.1.1.2.2.6.1.2.2.1.2.1.2.2.3 - Redeem From ERC-4626 Vault](7e90e505-42b9-474d-9cc5-9b4da6af7375).

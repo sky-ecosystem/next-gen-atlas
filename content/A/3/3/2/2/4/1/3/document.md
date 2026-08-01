@@ -1,12 +1,12 @@
 ---
 id: 2edd1333-6ca6-4c10-9d71-80b85d4a4265
 docNo: A.3.3.2.2.4.1.3
-name: Treasury Bill Rate
+name: Secured Overnight Financing Rate
 type: Core
 depth: 8
 childType: sections_and_primary_docs
 ---
 
-###### A.3.3.2.2.4.1.3 - Treasury Bill Rate [Core]
+###### A.3.3.2.2.4.1.3 - Secured Overnight Financing Rate [Core]
 
-The Treasury Bill Rate is, as of any date of determination, the yield (expressed as an annual rate) on United States Treasury Bills having a maturity of ninety-one (91) days (or, if no such maturity is available, such other maturity as the United States Department of the Treasury shall designate as comparable), as published by the United States Department of the Treasury in its Daily Treasury Yield Curve Rates (or any successor publication or source designated by the United States Department of the Treasury or, if unavailable, by the Federal Reserve). If such rate is not published on the relevant date, the Treasury Bill Rate shall be the most recently published rate prior to that date.
+The Secured Overnight Financing Rate ("SOFR") is, as of any date of determination, the rate (expressed as an annual rate) measuring the cost of overnight borrowing collateralized by United States Treasury securities, as administered and published by the Federal Reserve Bank of New York (or any successor administrator, publication, or source). If such rate is not published on the relevant date, SOFR shall be the most recently published rate prior to that date.

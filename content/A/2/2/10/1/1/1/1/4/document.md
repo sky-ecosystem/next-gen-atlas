@@ -1,12 +1,17 @@
 ---
-id: 07e0f716-ce23-4394-a5f4-bee537713f48
+id: cbd64e6c-547b-4b8d-a0cb-b605f780aef1
 docNo: A.2.2.10.1.1.1.1.4
-name: Revenue Sharing For Sky Direct Exposures
+name: Parameters For Sky Direct Exposures
 type: Core
 depth: 9
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.1.1.1.4 - Revenue Sharing For Sky Direct Exposures [Core]
+###### A.2.2.10.1.1.1.1.4 - Parameters For Sky Direct Exposures [Core]
 
-Because Sky Direct Exposures are held by Sky rather than the Prime Agent implementing the exposure through its Allocation System, Prime Agents are not required to pay the Agent Credit Line Borrow Rate with respect to funds borrowed to finance Sky Direct Exposures. All yield on Sky Direct Exposures is also due exclusively to Sky and is not retained by the Prime Agent. This is implemented as an adjustment to the Monthly Settlement Cycle.
+The Core Facilitator sets the following parameters for Sky Direct Exposures in consultation with the Core Council Risk Advisor:
+
+- Rate limits; and
+- Aggregate exposure limits.
+
+The Core Facilitator must post the initial values for these parameters and any updates to them to the Sky Forum under the "Sky Core" category. The values for the parameters for Sky Direct Exposures are set by the Core Facilitator and supersede any values for these parameters specified in the Risk Framework.

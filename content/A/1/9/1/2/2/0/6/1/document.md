@@ -13,10 +13,9 @@ The members of the Emergency Response Group are:
 
 - Endgame Edge
 - JanSky
-- Ecosystem
+- Soter Labs
 - Phoenix Labs
 - Jetstream
-- Atlas Axis
 - Steakhouse
 - Blocktower
 - Core Council Risk Advisor
@@ -25,7 +24,7 @@ The members of the Emergency Response Group are:
 - Sidestream
 - Cloaky
 - Blue
-- JuliaChang
+- Bonapublica
 - PullUp Labs
 - Chronicle Labs
 - TechOps Services

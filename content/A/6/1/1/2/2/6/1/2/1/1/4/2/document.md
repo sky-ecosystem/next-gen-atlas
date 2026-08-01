@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.2.1.1.4.2 - Whitelisting Of ALM Proxy [Core]
 
-The ALM Proxy for the Grove Diamond PAU will be whitelisted on the litePSM in an upcoming spell. This will allow it to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract, enabling the PSM Facet swap operations, as specified in [A.6.1.1.2.2.6.1.2.2.1.2.2 - Diamond PAU Controller Functions](6c060c28-5619-48f4-8536-b74c153b1641).
+The ALM Proxy for the Grove Diamond PAU has been whitelisted on the Lite PSM. This allows it to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract, enabling the PSM Facet swap operations, as specified in [A.2.2.10.1.1.1.5.2.7 - Swap USDS To USDC](bff6ae57-ce3e-4520-ad46-5fe87b721408) and [A.2.2.10.1.1.1.5.2.8 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959).
