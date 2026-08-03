@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.3.1.7.6.2.2.4 - Pool Address [Core]
 
-`TBD`
+`0xD001aE433f254283FeCE51d4ACcE8c53263aa186`
