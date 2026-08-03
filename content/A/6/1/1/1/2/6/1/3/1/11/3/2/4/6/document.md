@@ -1,5 +1,5 @@
 ---
-id: 2caf9fd4-e135-4135-88d3-52e96def487b
+id: cfacb9b5-e2e2-4a4e-8be9-b68ec7ce4dfa
 docNo: A.6.1.1.1.2.6.1.3.1.11.3.2.4.6
 name: Swap Fee
 type: Core

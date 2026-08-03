@@ -1,5 +1,5 @@
 ---
-id: 67bfc5a6-1fc5-4fa5-9f8c-a6509aad3470
+id: a0b35835-4018-4fff-97e6-6f25a1879c48
 docNo: A.6.1.1.1.2.6.1.3.1.11.3.1
 name: RRC Framework Full Implementation
 type: Core

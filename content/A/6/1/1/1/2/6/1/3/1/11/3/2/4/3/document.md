@@ -1,5 +1,5 @@
 ---
-id: 794cfe55-5989-42c3-8656-8ec5c2f0d280
+id: a339eb67-4bea-4fcb-aeca-6fcaba0d7ebb
 docNo: A.6.1.1.1.2.6.1.3.1.11.3.2.4.3
 name: Swap Rate Limits
 type: Core
@@ -12,4 +12,4 @@ childType: sections_and_primary_docs
 The swap rate limits are:
 
 - `maxAmount`: 5,000,000
-- `slope`: 200,000,000 per day
+- `slope`: 100,000,000 per day
