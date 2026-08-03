@@ -16,7 +16,7 @@ The Primeâ€™s notional TRC coverage strategy must outline how this new Instanceâ
 For instance, this risk-capital acquisition strategy could involve:
 
 1. Renting Junior Risk Capital (JRC)
-    - Sourcing Prime-External Junior Risk Capital (SEJRC) by renting it from other Primes through Ecosystem Accords.
+    - Sourcing Prime-External Junior Risk Capital (PEJRC) by renting it from other Primes through Ecosystem Accords.
     - Sourcing Tokenized External Junior Risk Capital (TEJRC) from external capital providers.
 2. Sourcing Senior Risk Capital (SRC):
     - Originating SRC through the Sky monthly auction.

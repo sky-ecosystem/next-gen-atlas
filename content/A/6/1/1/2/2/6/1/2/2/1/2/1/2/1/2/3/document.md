@@ -9,4 +9,7 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.1.2.3 - Transfer USDS To Buffer [Core]
 
-The operator must call the `MainnetController` to `transfer` USDS from the ALM Proxy to the Buffer.
+The operator returns `usdsAmount` of USDS from the `proxy` to the buffer via `ERC20Lib.transfer`, which has the `proxy` call `transfer` on the USDS contract and requires the transfer to succeed.
+
+`// Transfer USDS from the proxy to the buffer
+        ERC20Lib.transfer(proxy, address(usds), buffer, usdsAmount);`

@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The maximum amount of USDC that can be sent to the Ethereum Mainnet ALM Proxy (`LIMIT_USDC_TO_DOMAIN`, hashed with Ethereum domain) is specified in the document herein.
 
-- `maxAmount` (USDC): This parameter will be specified in a future iteration of the Grove Artifact.
-- `slope` (USDC/ day): This parameter will be specified in a future iteration of the Grove Artifact.
+- `maxAmount`: This parameter will be specified in a future iteration of the Grove Artifact.
+- `slope`: This parameter will be specified in a future iteration of the Grove Artifact.

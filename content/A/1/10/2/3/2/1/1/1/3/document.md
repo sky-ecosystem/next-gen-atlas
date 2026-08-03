@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.3.2.1.1.1.3 - Atlas Edit Sign-Off [Core]
 
-Atlas Axis shares the draft proposal with the relevant Ecosystem Actors for final review and sign-off, confirming that the proposal meets all requirements and expectations.
+Core GovOps shares the draft proposal with the relevant Ecosystem Actors for final review and sign-off, confirming that the proposal meets all requirements and expectations.

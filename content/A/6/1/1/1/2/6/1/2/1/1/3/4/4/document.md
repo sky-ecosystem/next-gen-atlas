@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The maximum amount of USDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_USDS`) is specified in the document herein.
 
-- `maxAmount` (USDS): Unlimited
-- `slope` (USDS/ day): Unlimited
+- `maxAmount`: Unlimited
+- `slope`: Unlimited

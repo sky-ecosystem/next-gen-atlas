@@ -1,5 +1,5 @@
 ---
-id: c7c4c3a1-ca25-4e9e-b4ab-cbcd01519535
+id: adfeeede-027a-4b98-8636-c53975c4b7cf
 docNo: A.6.1.1.2.2.6.1.3.1.7.7.2.4.1
 name: Deposit Rate Limits
 type: Core
@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The deposit rate limits are:
 
-- `maxAmount`: 50,000,000 RLUSD
-- `slope`: 50,000,000 RLUSD per day
+- `maxAmount`: 100,000,000 RLUSD
+- `slope`: 100,000,000 RLUSD per day

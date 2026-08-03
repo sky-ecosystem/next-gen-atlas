@@ -11,4 +11,4 @@ childType: sections_and_primary_docs
 
 Senior Risk Capital (SRC) is protected from losses relative to Junior Risk Capital. Senior Risk Capital only begins to absorb losses after Junior Risk Capital has experienced 100% losses and absorbs 100% of losses thereafter.
 
-Senior Risk Capital can be originated from Sky Core on a monthly basis as part of the Monthly Settlement Cycle; Prime Agents can also rent Senior Risk Capital from each other.
+Senior Risk Capital can be originated from Sky Core on a monthly basis as part of the Monthly Settlement Cycle; Prime Agents can also rent Senior Risk Capital from each other via the [A.2.2.10.2 - Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).

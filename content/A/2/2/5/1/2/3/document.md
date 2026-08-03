@@ -1,12 +1,12 @@
 ---
-id: 585dc747-65f1-4443-b61b-9779031f9258
+id: 1e590ccb-8c81-47e3-900b-72825da38e54
 docNo: A.2.2.5.1.2.3
-name: Agent SubProxy Account
+name: Agent Foundation
 type: Core
 depth: 7
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.5.1.2.3 - Agent SubProxy Account [Core]
+###### A.2.2.5.1.2.3 - Agent Foundation [Core]
 
-The Agent Creation Primitive must specify the SubProxy address of the Agent. This field is populated by Core GovOps. The SubProxy is an account that serves as the Agent’s treasury. The SubProxy Account is controlled by Sky Governance.
+The Agent Creation Primitive must specify the Foundation associated with the Agent, if any.

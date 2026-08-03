@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.2.9.1.2.1.2 - Distribution Reward Rate [Core]
 
-The standard Distribution Reward rate is set at 0.2%. The Distribution Reward rate is annualized on all USDS and sUSDS balances associated with the relevant Reward Code.
+The Distribution Reward rate is set at 0.2%. The Distribution Reward rate is annualized on all USDS and sUSDS balances associated with the relevant Reward Code.

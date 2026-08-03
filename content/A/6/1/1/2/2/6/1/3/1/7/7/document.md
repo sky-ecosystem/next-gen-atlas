@@ -1,12 +1,12 @@
 ---
-id: dff6df5f-f8ab-4df1-be1e-f71510c3534e
+id: cfb29474-ea48-4370-aad6-23af1cf4d11a
 docNo: A.6.1.1.2.2.6.1.3.1.7.7
-name: Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document
+name: Ethereum Mainnet - Grove x Steakhouse RLUSD Morpho Vault V2 Instance Configuration Document
 type: Core
 depth: 12
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.2.2.6.1.3.1.7.7 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document [Core]
+###### A.6.1.1.2.2.6.1.3.1.7.7 - Ethereum Mainnet - Grove x Steakhouse RLUSD Morpho Vault V2 Instance Configuration Document [Core]
 
-The documents herein contain the Instance Configuration Document for the Sentora RLUSD Morpho Vault V2 Instance.
+The documents herein contain the Instance Configuration Document for the Grove x Steakhouse RLUSD Morpho Vault V2 Instance.

@@ -1,5 +1,5 @@
 ---
-id: 3593ce57-8cf0-42c8-b0ce-0bfef547e4a6
+id: c455e62e-79a6-478e-aa06-f35d2ab6779f
 docNo: A.6.1.1.2.2.6.1.3.1.7.7.2.4.2
 name: Withdrawal Rate Limits
 type: Core

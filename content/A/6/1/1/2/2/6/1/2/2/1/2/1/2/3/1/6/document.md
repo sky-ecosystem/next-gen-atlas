@@ -1,17 +1,14 @@
 ---
 id: 97c2db26-16e7-4aee-a257-86bef4189fa7
 docNo: A.6.1.1.2.2.6.1.2.2.1.2.1.2.3.1.6
-name: Swap USDS To DAI
+name: Approve PSM Spend
 type: Core
 depth: 17
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.3.1.6 - Swap USDS To DAI [Core]
+###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.3.1.6 - Approve PSM Spend [Core]
 
-The operator must swap USDS to DAI. USDS is swapped to DAI in a 1:1 ratio through the `daiUsds` contract and sent back to the `proxy`.
+The operator must approve the PSM to spend the newly acquired DAI on behalf of the `proxy`. The approved amount equals `usdsAmount` because the conversion from USDS to DAI was 1:1.
 
-`proxy.doCall(
-    address(daiUsds),
-    abi.encodeCall(daiUsds.usdsToDai, (address(proxy), usdsAmount))
-);`
+`ERC20Lib.approve(params.proxy, address(params.dai), address(params.psm), usdsAmount);`

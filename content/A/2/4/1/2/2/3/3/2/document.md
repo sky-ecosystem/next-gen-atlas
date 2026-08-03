@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.4.1.2.2.3.3.2 - Automation Of Monthly Settlement Cycle Based On Base Rate [Core]
 
-The Core Council Risk Advisor must update the tooling specified in [A.2.4.1.2.2.2.3.1 - Automation Of Monthly Settlement Cycle Calculation Including Virtual Base Rate](d98d3753-4230-4ad8-a1e7-7b1fd7e3b679) to reflect the onchain accrual of the Base Rate.
+The Core Council must ensure the tooling specified in [A.2.4.1.2.2.2.3.1 - Automation Of Monthly Settlement Cycle Calculation Including Virtual Base Rate](d98d3753-4230-4ad8-a1e7-7b1fd7e3b679) is updated to reflect the onchain accrual of the Base Rate.

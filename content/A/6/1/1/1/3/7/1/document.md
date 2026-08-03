@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.3.7.1 - Operational Process Definition [Core]
 
-The documents herein define the process for updating Spark Prime Brokerage policies and procedures.
+The documents herein define the process for updating Arkis Infrastructure policies and procedures.

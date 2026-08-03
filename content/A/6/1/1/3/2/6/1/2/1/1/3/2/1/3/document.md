@@ -1,13 +1,13 @@
 ---
 id: 3e48b867-07ff-4af7-a0d8-66e95b935a8f
 docNo: A.6.1.1.3.2.6.1.2.1.1.3.2.1.3
-name: USDS to Ethereum Mainnet via SkyBridge/OFT
+name: Maximum USDS Bridged From Solana To Ethereum Mainnet Via SkyLink
 type: Core
 depth: 15
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.3.2.6.1.2.1.1.3.2.1.3 - USDS to Ethereum Mainnet via SkyBridge/OFT [Core]
+###### A.6.1.1.3.2.6.1.2.1.1.3.2.1.3 - Maximum USDS Bridged From Solana To Ethereum Mainnet Via SkyLink [Core]
 
 The maximum amount of USDS that can be sent to Keel’s Ethereum Mainnet ALM Controller is specified in the document herein.
 

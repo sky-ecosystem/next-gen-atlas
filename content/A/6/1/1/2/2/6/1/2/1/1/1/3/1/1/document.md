@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.3.1.1 - Basin Factory Contract [Core]
 
-The address of the Basin Factory contract, used to deterministically deploy each Basin Instance, is: `0x78Dc98D689Fe9A1b0056ac1cDFC14722bDA6D49a`.
+The address of the Basin Factory contract, used to deterministically deploy each Basin, is: `0x78Dc98D689Fe9A1b0056ac1cDFC14722bDA6D49a`.
