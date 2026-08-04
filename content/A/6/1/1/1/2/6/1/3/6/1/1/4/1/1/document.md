@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.3.6.1.1.4.1.1 - Spark Vault v2 Implementation [Core]
 
-`TBD`
+`0xdCe929A335C75a1676EF5957A4D7a3b928C48820`

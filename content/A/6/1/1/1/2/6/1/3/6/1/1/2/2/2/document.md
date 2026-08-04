@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.3.6.1.1.2.2.2 - Underlying Asset Address [Core]
 
-`TBD`
+`0x779Ded0c9e1022225f8E0630b35a9b54bE713736`

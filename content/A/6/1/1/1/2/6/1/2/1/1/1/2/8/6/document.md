@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.6 - ALM Rate Limits (X Layer) Contract [Core]
 
-The address of the ALM_RATE_LIMITS contract is: `TBD`
+The address of the ALM_RATE_LIMITS contract is: `0x7F7E2286983994c4403Cf2B86758cE0e7bA666a8`

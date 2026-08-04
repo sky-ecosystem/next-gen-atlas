@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.4 - ALM Relayer Multisig (X Layer) Address [Core]
 
-The Relayer Role is held by two Multisigs matching the configuration on Ethereum Mainnet: a Primary relayer (1-of-2 Gnosis Safe) and a Backstop relayer (2-of-5 Gnosis Safe). The addresses are to be deployed and will be specified in a future iteration of the artifact.
+The address of the Multisig that has the Relayer Role is: `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431`.

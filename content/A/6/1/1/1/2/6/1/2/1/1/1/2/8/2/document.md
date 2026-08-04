@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.2 - ALM Controller (ForeignController X Layer) Contract Version [Core]
 
-The ALM_CONTROLLER (ForeignController) contract version is: `TBD`
+The ALM_CONTROLLER (ForeignController) contract version is: 1.10.0

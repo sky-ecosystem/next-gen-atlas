@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.1 - ALM Controller (ForeignController X Layer) Contract Address [Core]
 
-The address of the ALM_CONTROLLER (ForeignController) contract address is: `TBD`
+The address of the ALM_CONTROLLER (ForeignController) contract address is: `0xf9187C99Ee842beABE8e2e346d958315BFc9331f`

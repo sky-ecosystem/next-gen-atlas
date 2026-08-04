@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.3.6.1.1.4.1.3 - Setter [Core]
 
-ALM Proxy Freezable — to be deployed
+`0x9449ed367C60ea757544fd990B57e1C2D0Ec3A94`
