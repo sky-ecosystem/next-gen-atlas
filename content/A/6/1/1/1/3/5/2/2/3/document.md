@@ -12,7 +12,7 @@ childType: sections_and_primary_docs
 The current parameters for Spark Savings ETH on Ethereum are:
 
 - Default admin role: 0x3300f198988e4C9C63F75dF86De36421f06af8c4
-- Setter role: 0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178
+- Setter role: 0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699
 - Taker role: 0x1601843c5E9bC251A3272907010AFa41Fa18347E
 - Take rate limit: unlimited
 - Min yield: 0%
