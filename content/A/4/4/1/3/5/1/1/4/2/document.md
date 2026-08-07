@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.4.4.1.3.5.1.1.4.2 - Slope 1 Modification [Core]
 
-The `Slope 1` parameter may be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
+The `Slope 1` parameter may be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Cycle or, if necessary, through out-of-schedule Executive Votes.

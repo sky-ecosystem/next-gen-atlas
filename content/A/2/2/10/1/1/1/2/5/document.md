@@ -1,12 +1,12 @@
 ---
-id: b95b3bd8-d316-43d5-af56-df38d557aea3
+id: 3b387169-c279-4d0f-918c-e6c424c6ea2c
 docNo: A.2.2.10.1.1.1.2.5
-name: Rate Limit IDs
+name: Liquidity Layer Operational Processes
 type: Core
 depth: 9
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.1.1.2.5 - Rate Limit IDs [Core]
+###### A.2.2.10.1.1.1.2.5 - Liquidity Layer Operational Processes [Core]
 
-A `Rate Limit ID` is a bytes32 key that uniquely identifies a rate limit. Rate Limit IDs allow the system to maintain independent allowance state for each relevant transaction.
+The documents herein define the operational processes of the Diamond PAU implementation of the Allocation System — including the addition and removal of Facets approved on the Beacon, the functions performed through the Controller, and the management of rate limits.

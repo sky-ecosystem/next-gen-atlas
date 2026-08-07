@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.11.1.5 - Core Facilitator’s Authority To Create Proposals [Core]
 
-The Core Facilitator may create proposals using the Weekly Governance Cycle to enable them to fulfill their responsibilities.
+The Core Facilitator may create proposals using the Operational Weekly Cycle to enable them to fulfill their responsibilities.

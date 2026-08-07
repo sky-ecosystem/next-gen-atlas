@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.9.1.1.1.4.2.2.8 - Resilience Fund Claim Approval Core Facilitator Decision [Core]
 
-Based on the recommendation of the Resilience Technical Committee, the Core Facilitator will decide whether to trigger a Governance Poll through the Weekly Governance Cycle to perform a claim payout.
+Based on the recommendation of the Resilience Technical Committee, the Core Facilitator will decide whether to trigger a Governance Poll through the Operational Weekly Cycle to perform a claim payout.

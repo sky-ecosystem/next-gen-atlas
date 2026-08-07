@@ -1,12 +1,12 @@
 ---
-id: ae8674bc-44ac-4b95-b5df-c6322a1d6e9a
+id: 4f77eb6c-4b2f-4fa0-a7c0-d58e9b76ce8e
 docNo: A.2.2.10.1.1.1.2.2.2
-name: Slope
+name: Controller Role
 type: Core
 depth: 10
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.1.1.2.2.2 - Slope [Core]
+###### A.2.2.10.1.1.1.2.2.2 - Controller Role [Core]
 
-`slope` is the linear refill rate of a rate limiter’s allowance over time. It defines how quickly the capacity to perform additional inflow or outflow accrues after prior consumption. For example, if the slope is set to 1,000,000 tokens per day (converted to per second for on-chain execution), the rate limit will recover at that rate until it reaches the maxAmount.
+The Controller Role (`CONTROLLER`) is authorized to call the asset-movement functions on the ALM Proxy and to update the Rate Limits contract. It is held by the Controller contract, which dispatches operations to the relevant Facet on behalf of the Allocator Role.
