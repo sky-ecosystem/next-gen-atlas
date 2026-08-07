@@ -1,12 +1,12 @@
 ---
-id: 8d3420d5-86a7-4468-8f08-92cc00fed557
+id: 137e7a7b-9488-409c-85ed-f91d31303f7b
 docNo: A.2.2.10.1.1.1.5.2.5.3
-name: Deposit Asset Into Basin
+name: Swap On Uniswap v3
 type: Core
 depth: 11
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.1.1.5.2.5.3 - Deposit Asset Into Basin [Core]
+###### A.2.2.10.1.1.1.5.2.5.3 - Swap On Uniswap v3 [Core]
 
-The Basin Facet's `deposit` function deposits the specified amount of the asset into the Basin on behalf of the ALM Proxy, and Basin shares are minted to the ALM Proxy. The deposit does not complete unless the number of shares minted is at least the specified minimum (`minSharesOut`).
+The documents herein define the steps to swap one pool token for the other through a Uniswap v3 pool on behalf of the ALM Proxy.

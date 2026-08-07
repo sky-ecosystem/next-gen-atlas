@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.1.2.5 - Agent Credit Line Borrow Rate [Core]
 
-The Agent Credit Line Borrow Rate is the annual percentage rate that Agents must pay to Sky Core to receive USDS liquidity into their respective vaults.
+The Agent Credit Line Borrow Rate is the annual percentage yield that Agents must pay to Sky Core to receive USDS liquidity into their respective vaults.

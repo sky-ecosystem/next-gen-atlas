@@ -1,12 +1,12 @@
 ---
-id: b6d5f36b-3832-4cb7-b9e3-ea2543fc7d4e
+id: f01e63b7-dde7-422a-89a1-6931839d49f5
 docNo: A.2.2.10.1.1.1.5.2.1.2
-name: Rate Limit
+name: Burn USDS
 type: Core
 depth: 11
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.1.1.5.2.1.2 - Rate Limit [Core]
+###### A.2.2.10.1.1.1.5.2.1.2 - Burn USDS [Core]
 
-The minting of USDS is subject to the on-chain rate limit identified by `LIMIT_USDS_MINT`. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit.
+The documents herein define the steps to burn USDS held by the ALM Proxy, returning it to the allocator vault.
