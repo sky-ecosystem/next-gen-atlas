@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.3.1.14.2.2.5.1.1 - Maximum Allocation [Core]
 
-The maximum allocation for the Tokenized Treasury Basin Interim Deployments is $5 million, combined across the JTRSY and BUIDL Instances.
+The maximum allocation for this Instance is 2,500,000 USDS.
