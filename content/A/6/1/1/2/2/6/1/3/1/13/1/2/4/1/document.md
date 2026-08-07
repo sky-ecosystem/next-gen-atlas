@@ -11,5 +11,5 @@ childType: sections_and_primary_docs
 
 The deposit rate limits are:
 
-- `maxAmount`: 50,000,000 USDC
-- `slope`: 50,000,000 USDC per day
+- `maxAmount`: 0
+- `slope`: 0
