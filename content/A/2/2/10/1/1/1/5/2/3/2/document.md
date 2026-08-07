@@ -1,12 +1,12 @@
 ---
-id: 989bca9d-f56a-4965-8684-62de547f605a
+id: 8aad3588-6c58-4539-a1e2-46b0e6f97e92
 docNo: A.2.2.10.1.1.1.5.2.3.2
-name: Rate Limit
+name: Withdraw From Basin
 type: Core
 depth: 11
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.1.1.5.2.3.2 - Rate Limit [Core]
+###### A.2.2.10.1.1.1.5.2.3.2 - Withdraw From Basin [Core]
 
-The deposit is subject to the on-chain deposit rate limit identified by `LIMIT_AAVE_DEPOSIT` for the underlying asset, the address of the pool, and the address of the aToken. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit.
+The documents herein define the steps to withdraw an asset from a Basin to the ALM Proxy by burning the corresponding Basin shares.
