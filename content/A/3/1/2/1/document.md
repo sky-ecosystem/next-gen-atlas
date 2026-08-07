@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.3.1.2.1 - Base Rate [Core]
 
-The Base Rate is the key interest rate in the system. It defines all other rates by various spreads. It is expressed as an annual percentage rate.
+The Base Rate is the key interest rate in the system. It defines all other rates by various spreads. It is expressed as an annual percentage yield.
