@@ -1,17 +1,17 @@
 ---
-id: cbd64e6c-547b-4b8d-a0cb-b605f780aef1
+id: 3a495464-c4d7-46e7-82a3-2c321b27ee12
 docNo: A.2.2.10.1.1.1.1.3
-name: Parameters For Sky Direct Exposures
-type: Core
+name: Previous Sky Direct Exposures
+type: Active Data Controller
 depth: 9
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.1.1.1.3 - Parameters For Sky Direct Exposures [Core]
+###### A.2.2.10.1.1.1.1.3 - Previous Sky Direct Exposures [Active Data Controller]
 
-The Core Facilitator sets the following parameters for Sky Direct Exposures in consultation with the Core Council Risk Advisor:
+The list of previous Sky Direct Exposures is defined as Active Data in [A.2.2.10.1.1.1.1.3.0.6.1 - List Of Previous Sky Direct Exposures](86fce840-f7f3-4617-bb58-d04db8731c9d).
 
-- Rate limits; and
-- Aggregate exposure limits.
+The Active Data is updated as follows:
 
-The Core Facilitator must post the initial values for these parameters and any updates to them to the Sky Forum under the "Sky Core" category. The values for the parameters for Sky Direct Exposures are set by the Core Facilitator and supersede any values for these parameters specified in the Risk Framework.
+- The Responsible Party is the Core Facilitator.
+- The Update Process must follow the protocol for ‘Direct Edit’.

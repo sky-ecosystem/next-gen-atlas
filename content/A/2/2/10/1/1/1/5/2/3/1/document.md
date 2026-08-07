@@ -1,12 +1,12 @@
 ---
-id: 26eec581-240e-4214-85a4-ee9309b986d4
+id: d0c0a142-6ed5-4423-acbd-35ae6fdacb9f
 docNo: A.2.2.10.1.1.1.5.2.3.1
-name: Allocator Role
+name: Deposit To Basin
 type: Core
 depth: 11
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.1.1.5.2.3.1 - Allocator Role [Core]
+###### A.2.2.10.1.1.1.5.2.3.1 - Deposit To Basin [Core]
 
-Only an address holding the Allocator Role (`ALLOCATOR_ROLE`) may initiate an Aave market deposit. The call is made to the Diamond PAU Controller, which dispatches it to the Aave Facet to perform the deposit on behalf of the ALM Proxy.
+The documents herein define the steps to deposit an asset held by the ALM Proxy into a Basin, which mints Basin shares to the ALM Proxy.

@@ -1,12 +1,12 @@
 ---
-id: b900fd43-5f7c-438f-a1dd-0e89db98f4db
+id: 038eaa5c-d4c0-4a56-8d30-bc3a04508f0e
 docNo: A.2.2.10.1.1.1.5.2.2.2
-name: Check Rate Limits
+name: Withdraw From Aave v3 Market
 type: Core
 depth: 11
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.1.1.5.2.2.2 - Check Rate Limits [Core]
+###### A.2.2.10.1.1.1.5.2.2.2 - Withdraw From Aave v3 Market [Core]
 
-The burn is subject to the rate limit identified by `LIMIT_USDS_BURN`. The amount burned cannot exceed the amount permitted by this rate limit.
+The documents herein define the steps to withdraw an asset from an Aave v3 market to the ALM Proxy by burning the corresponding aTokens.

@@ -6,7 +6,7 @@ childCount: 25
 
 # Contents
 
-- [A.2.2.10.1.1.1.4.2.1 - Aave Facet](1/document.md)
+- [A.2.2.10.1.1.1.4.2.1 - Aave v3 Facet](1/document.md)
 - [A.2.2.10.1.1.1.4.2.2 - Basin Facet](2/document.md)
 - [A.2.2.10.1.1.1.4.2.3 - CCTP Facet](3/document.md)
 - [A.2.2.10.1.1.1.4.2.4 - Centrifuge Facet](4/document.md)

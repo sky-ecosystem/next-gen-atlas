@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.1.10.2.3.2.1.1.1.2 - Atlas Edit Review [Core]
 
-Atlas Axis reviews the provided documentation, ensuring alignment with Atlas standards, and updates the documents as necessary.
+Core GovOps reviews the provided documentation, ensuring alignment with Atlas standards, and updates the documents as necessary.

@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.1.2.3.1 - Swap USDS To USDC [Core]
 
-The documents herein define a series of operations for an operator to `swap` USDS to USDC through the PSM.
+The documents herein define a series of operations for an operator to `swapUSDSToUSDC`, converting USDS into USDC through the DAI-USDS migrator and the PSM.

@@ -1,12 +1,12 @@
 ---
-id: ef6077eb-1cd4-4c17-bbf5-ce98c2cc1b92
+id: 3fd327ea-7043-434a-996a-3419e7692959
 docNo: A.2.2.10.1.1.1.5.2.4.2
-name: Check Rate Limits
+name: Swap USDC To USDS
 type: Core
 depth: 11
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.1.1.5.2.4.2 - Check Rate Limits [Core]
+###### A.2.2.10.1.1.1.5.2.4.2 - Swap USDC To USDS [Core]
 
-The withdrawal is subject to the withdrawal rate limit identified by `LIMIT_AAVE_WITHDRAW` for the asset and market. The withdrawal cannot exceed the amount permitted by this rate limit.
+The documents herein define the steps to swap USDC held by the ALM Proxy for USDS via DAI, through the DAI-USDS migrator and the Lite PSM.

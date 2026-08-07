@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.2.2.10.1.1.1.4.2.2 - Basin Facet [Core]
 
-The Basin Facet (`BasinFacet`) deposits assets into and withdraws them from a Basin contract in exchange for Basin shares. Its address on Ethereum Mainnet is `0xC84825BCD13AEddc372400239499380376a44A39`.
+The Basin Facet (`BasinFacet`) deposits assets into and withdraws them from a Basin in exchange for Basin shares. Its address on Ethereum Mainnet is `0xC84825BCD13AEddc372400239499380376a44A39`.

@@ -1,12 +1,12 @@
 ---
-id: 01a29f9f-ff48-4e40-9b6d-592af97e1204
+id: d58e14aa-0901-4aa9-af44-6281161be162
 docNo: A.6.1.1.2.2.6.1.2.1.1.1.4.1.5
-name: ALM Rate Limits Contract
+name: AdministeredAgent Contract
 type: Core
 depth: 15
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.4.1.5 - ALM Rate Limits Contract [Core]
+###### A.6.1.1.2.2.6.1.2.1.1.1.4.1.5 - AdministeredAgent Contract [Core]
 
-The address of the ALM Rate Limits contract is: `0xE016Ae733A77Ba77E7907aAA749394Fc5e75C0e1`. The ALM Rate Limits contract enforces the rate limits on operations performed through the Controller contract.
+The address of the AdministeredAgent contract is: `0xdBD17832df0e57b1732cE1C84c652E820e549BAa`. The AdministeredAgent holds the Allocator Role of the Diamond PAU and mediates relayer access to the Controller: the relayer multisigs are registered as its actors and submit operations through it, while the Freezer Multisig is registered as a revoker authorized to remove a compromised actor, as specified in [A.6.1.1.2.2.6.1.2.2.1.1.3 - Diamond PAU Role Hierarchy And Permissions](c4149166-7e65-48d3-81f9-177a4f3f6364).

@@ -1,12 +1,12 @@
 ---
-id: f36b04cf-9b3e-4e03-b0d4-64746e426ba7
+id: 5b6d7110-3662-4ee5-a339-43e6bb8e4517
 docNo: A.6.1.1.2.2.6.1.2.2.1.2.2.4
-name: Burn USDS
+name: Uniswap v3 Facet
 type: Core
 depth: 14
 childType: sections_and_primary_docs
 ---
 
-###### A.6.1.1.2.2.6.1.2.2.1.2.2.4 - Burn USDS [Core]
+###### A.6.1.1.2.2.6.1.2.2.1.2.2.4 - Uniswap v3 Facet [Core]
 
-The documents herein define the steps to burn USDS held by the ALM Proxy, returning it to the Allocator Vault. The burn is performed by calling the Diamond PAU Controller, specifying the amount of USDS to burn; the Controller dispatches the call to the USDS Facet.
+The Grove Liquidity Layer uses the Uniswap v3 Facet ([A.2.2.10.1.1.1.4.2.20 - Uniswap v3 Facet](b808a829-2f31-42f1-ac9f-6801d3eb8437)) to add liquidity to, remove liquidity from, and swap through a Uniswap v3 pool.

@@ -1,12 +1,12 @@
 ---
-id: c5a30d6c-6f3a-48a1-af35-39c0ee0bece4
+id: bff6ae57-ce3e-4520-ad46-5fe87b721408
 docNo: A.2.2.10.1.1.1.5.2.4.1
-name: Allocator Role
+name: Swap USDS To USDC
 type: Core
 depth: 11
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.1.1.5.2.4.1 - Allocator Role [Core]
+###### A.2.2.10.1.1.1.5.2.4.1 - Swap USDS To USDC [Core]
 
-Only an address holding the Allocator Role (`ALLOCATOR_ROLE`) may initiate an Aave market withdrawal. The call is made to the Diamond PAU Controller, which dispatches it to the Aave Facet to perform the withdrawal on behalf of the ALM Proxy.
+The documents herein define the steps to swap USDS held by the ALM Proxy for USDC via DAI, through the DAI-USDS migrator and the Lite PSM.
