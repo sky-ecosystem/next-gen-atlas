@@ -1,12 +1,12 @@
 ---
-id: b2e3b84d-acbd-4704-b55e-e2026aa63058
+id: 32d3213a-e40a-4169-94d7-e65bb6c23c19
 docNo: A.2.2.10.1.1.1.5.2.5.1
-name: Allocator Role
+name: Add Liquidity To Uniswap v3
 type: Core
 depth: 11
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.1.1.5.2.5.1 - Allocator Role [Core]
+###### A.2.2.10.1.1.1.5.2.5.1 - Add Liquidity To Uniswap v3 [Core]
 
-Only an address holding the [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a Basin deposit by calling the `basin_deposit` function on the Diamond PAU Controller, passing the address of the Basin contract, the address of the asset, the amount to deposit, and the minimum number of shares to receive (`minSharesOut`). The Controller dispatches the call to the Basin Facet, which performs the deposit on behalf of the ALM Proxy.
+The documents herein define the steps to add liquidity to a Uniswap v3 pool on behalf of the ALM Proxy, minting a new position or increasing an existing one.
