@@ -1,9 +1,0 @@
----
-type: index
-path: content/A/6/1/1/2/2/6/1/2/2/1/2/1/2/15
-childCount: 1
----
-
-# Contents
-
-- [A.6.1.1.2.2.6.1.2.2.1.2.1.2.15.1 - Transfer USDC To CCTP](1/document.md)

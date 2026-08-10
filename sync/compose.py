@@ -256,8 +256,16 @@ def _child_sort_key(parent_full_path: str, child_name: str) -> tuple:
 # Compose
 # ---------------------------------------------------------------------------
 
-def compose(content_root: str) -> str:
-    """Walk content_root, emit reconstructed Sky Atlas markdown."""
+def compose_segments(content_root: str) -> list[tuple[ParsedDoc, list[str]]]:
+    """Walk content_root, return the emit sequence as (doc, lines) pairs.
+
+    This is the structural core of compose(): the ORDER of the returned list is the
+    canonical Atlas document order, and flattening its lines reproduces compose()
+    byte-for-byte. Exposed separately so a partitioning consumer (Option C split
+    output) can assign each document to an output bucket without reimplementing the
+    tree walk — there are already four independent walker implementations in the
+    ecosystem and this deliberately does not add a fifth.
+    """
     docs = find_all_documents(content_root)
     by_uuid = {d.uuid: d for d in docs}
     by_folder = {d.folder_path: d for d in docs}
@@ -277,15 +285,16 @@ def compose(content_root: str) -> str:
         nr_by_target[k].sort(key=lambda nr: int(nr.doc_no.split("-")[1]))
     orphan_nrs.sort(key=lambda nr: int(nr.doc_no.split("-")[1]))
 
-    output_lines: list[str] = []
+    segments: list[tuple[ParsedDoc, list[str]]] = []
     emitted: set[str] = set()
 
     def emit_doc(d: ParsedDoc) -> None:
         if d.uuid in emitted:
             return  # paranoid guard against accidental cycles
         emitted.add(d.uuid)
-        output_lines.append(build_heading_line(d, levels[d.uuid]))
-        output_lines.extend(d.content_lines)
+        segments.append(
+            (d, [build_heading_line(d, levels[d.uuid])] + list(d.content_lines))
+        )
         # After emitting, emit any NRs attached to this doc.
         for nr in nr_by_target.get(d.uuid, []):
             emit_doc(nr)
@@ -328,7 +337,14 @@ def compose(content_root: str) -> str:
         for d in not_emitted[:10]:
             sys.stderr.write(f"  - {d.doc_no} at {d.folder_path}\n")
 
-    return "\n".join(output_lines)
+    return segments
+
+
+def compose(content_root: str) -> str:
+    """Walk content_root, emit reconstructed Sky Atlas markdown."""
+    return "\n".join(
+        line for _doc, lines in compose_segments(content_root) for line in lines
+    )
 
 
 # ---------------------------------------------------------------------------
