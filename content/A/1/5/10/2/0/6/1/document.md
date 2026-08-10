@@ -22,3 +22,6 @@ childType: active_data
 | 2024-12-17 | AD | Pf | - | [https://forum.skyeco.com/t/derecognition-notice-for-multiple-aligned-delegates/25718](https://forum.skyeco.com/t/derecognition-notice-for-multiple-aligned-delegates/25718) |
 | 2026-01-27 | AD | Sky Staking | - | [https://forum.skyeco.com/t/ad-derecognition-due-to-misalignment-2026-01-27/27655](https://forum.skyeco.com/t/ad-derecognition-due-to-misalignment-2026-01-27/27655) |
 | 2026-06-11 | AD | Kuzmich | - | [https://forum.skyeco.com/t/ad-recognition-submission/26743/54](https://forum.skyeco.com/t/ad-recognition-submission/26743/54) |
+| 2026-08-10 | AD | AxisLegati | - | [https://forum.skyeco.com/t/axislegati-ad-recognition-submission/27677/6](https://forum.skyeco.com/t/axislegati-ad-recognition-submission/27677/6?) |
+| 2026-08-10 | AD | OPEX | - | [https://forum.skyeco.com/t/opex-aligned-delegate-communication-platform/27630/12](https://forum.skyeco.com/t/opex-aligned-delegate-communication-platform/27630/12) |
+| 2026-08-10 | AD | Excel | - | [https://forum.skyeco.com/t/excel-ad-recognition-submission/26227/69](https://forum.skyeco.com/t/excel-ad-recognition-submission/26227/69) |
