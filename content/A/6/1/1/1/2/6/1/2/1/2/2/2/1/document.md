@@ -9,4 +9,4 @@ childType: sections_and_primary_docs
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.2.1 - Address [Core]
 
-The address of the Core Operator Relayer Multisig on the Ethereum Mainnet, Base, and Arbitrum is `0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795`.
+The address of the Core Operator Relayer Multisig on the Ethereum Mainnet, Base, Arbitrum, Unichain, and Optimism is `0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795`.
