@@ -389,25 +389,16 @@ def plan_output(
     one `document.md` per Atlas document, plus `_index.md` navigation files
     per folder (matches the structure in archon-research/next-gen-atlas).
 
-    ⭐ `write_indexes=False` OMITS THE 3,851 GENERATED `_index.md` FILES.
-    They exist to make the atomized tree navigable on GitHub. Under Option C the
-    consolidated files ARE the navigation, so post-cutover they are pure cost — and they
-    have a bad record. Adam, 2026-08-10: *"I think we get rid of the index files. Those
-    have always been a pain to maintain… a weird artifact of this process."*
+    `write_indexes=False` omits the 3,851 generated `_index.md` files. They make the
+    atomized tree navigable on GitHub; with the Atlas consolidated, the composed files
+    serve that purpose.
 
-    Two measurements back that up. (1) They are the entire source of the drift between the
-    committed tree and the tooling: `decompose(compose(content))` differs from `content/`
-    in 1,606 diff lines with indexes and **13 without** — and 3 of the 5 remaining items
-    are directories that hold nothing BUT an `_index.md`, so they disappear too. (2) They
-    caused the worst incident of the previous migration: a hand-resolved merge on PR #257
-    silently reordered the child lists of 2,084 of them, inflating one edit to a
-    14,507-line / 3,742-file diff. That post-mortem's diagnosis was that *no check in place
-    could see child ordering at all* — the validator does not assert it and the compose
-    round-trip is order-insensitive. Its remediation item was never implemented.
-
-    Deleting the files retires that entire defect class rather than adding the assertion
-    that was owed. Ordering of generated navigation cannot be scrambled if there is no
-    generated navigation.
+    Omitting them also removes the drift between the committed tree and the tooling:
+    `decompose(compose(content))` differs from `content/` in 1,606 diff lines with indexes
+    and 13 without, and three of the five remaining differences are directories holding
+    nothing but an `_index.md`. Their child ordering is not asserted anywhere — the
+    validator does not check it and the compose round-trip is order-insensitive — so a
+    hand-resolved merge can reorder them undetected.
     """
     files: dict[str, str] = {}
 

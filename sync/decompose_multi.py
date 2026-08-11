@@ -1,23 +1,22 @@
 #!/usr/bin/env python3
 """Reassemble an Option C split directory and decompose it back to the atomized tree.
 
-Inverse of `partition.py`. This exists to prove the split is LOSSLESS: if the atomized
-tree can be reconstructed from the split files byte-for-byte, then consolidation destroys
-no information and every downstream consumer can be migrated against a real artifact
-rather than a plan.
+Inverse of `partition.py`, and the check that the split is lossless: if the atomized tree
+can be reconstructed from the split files byte-for-byte, consolidation destroys no
+information.
 
-⭐ IT DELIBERATELY ADDS NO PARSING OF ITS OWN. Reassembly is concatenation in a derived
-order, and the reconstructed markdown is handed to the existing, tested
-`decompose.decompose()` unchanged. Everything that decides where a document lands
+It adds no parsing of its own. Reassembly merges already-composed line runs, cut at
+headings by `decompose.HEADING_RE`, and hands the reconstructed markdown to
+`decompose.decompose()` unchanged. Everything deciding where a document lands
 (`folder_path_segments`), what its frontmatter says, and how `_index.md` is ordered stays
-in one place. The failure mode this avoids is a second decomposer that agrees with the
-first on the current data and diverges on an edge case later.
+in one place, so there is no second decomposer to diverge from the first.
 
-⛔ ORDER IS DERIVED, NOT STORED — AND FILENAME SORTING IS NOT THE SAME THING.
-`partition.order_key` sorts buckets by their doc number as an integer tuple. Lexicographic
-filename sorting agrees with it today and breaks silently the moment a tenth Star exists
-(`A.6.1.1.10` sorts between `.1` and `.2`), reordering thousands of documents with no
-error raised anywhere. Sky expects to onboard more agents, so this is a matter of when.
+Order is derived per document, not stored and not per file. The rule lives in
+`partition.canonical_sort_key` / `partition.order_documents`; this module only reads files
+and hands them over. Two orderings that do not work: filename sorting, where `A.6.1.1.10`
+sorts between `.1` and `.2` once a tenth agent exists; and naive doc-number sorting, which
+is wrong in 410 places because compose emits real children before phantom-extension-folder
+subtrees.
 
 Usage:
     python decompose_multi.py --input-dir split/ --output content-rt/
@@ -34,21 +33,27 @@ import sys
 import tempfile
 
 from decompose import decompose
-from partition import bucket_from_filename, order_key
+from partition import bucket_from_filename, order_documents
 
 
 def reassemble(input_dir: str) -> str:
     """Rebuild the single composed markdown stream from the split files.
 
-    ⭐ NO MANIFEST, BY DESIGN. Every bucket is contiguous in emit order, so the only
-    thing needed is the order of the buckets — and bucket names ARE doc numbers, so
-    `partition.order_key` derives it. Nothing is stored, so nothing can go stale, nothing
-    conflicts when two edit branches touch different scopes, and onboarding a new Star
-    requires no configuration anywhere.
+    There is no manifest and no reliance on file order. Reassembly collects every document
+    from every file and orders the documents (`partition.order_documents`). Nothing is
+    stored, so nothing goes stale, nothing conflicts when two edit branches touch different
+    scopes, and onboarding an agent or an agent type requires no configuration.
 
-    The messy part of Atlas ordering (real children before phantom extension folders,
-    which diverges from naive doc-number sorting in ~410 places) lives entirely WITHIN a
-    bucket, already frozen into that file's line order. It never has to be re-derived.
+    Ordering documents rather than concatenating files in bucket order is what allows a
+    bucket to occupy more than one run of the composed stream. Bucket-order reassembly
+    cannot express an interleaving, which would force the Executor Agent list into a file
+    of its own rather than grouping it with the `A.6` spine, and would add a further run to
+    `A.6` for each new agent type.
+
+    The subtle part is Needed Research, which has no position of its own and must stay
+    attached to the document it was emitted under; `partition.Block` is where that is
+    handled, and the within-file order check in `partition._assert_source_order_preserved`
+    is what stops a derived ordering rule from silently disagreeing with compose.
     """
     names = sorted(os.listdir(input_dir))
     buckets: dict[str, str] = {}
@@ -63,11 +68,11 @@ def reassemble(input_dir: str) -> str:
     if not buckets:
         raise ValueError(f"no Atlas bucket files found in {input_dir!r}")
 
-    out: list[str] = []
-    for bucket in sorted(buckets, key=order_key):
-        with open(os.path.join(input_dir, buckets[bucket]), "r", encoding="utf-8") as f:
-            out.extend(f.read().split("\n"))
-    return "\n".join(out)
+    lines_by_source: dict[str, list[str]] = {}
+    for bucket, fname in buckets.items():
+        with open(os.path.join(input_dir, fname), "r", encoding="utf-8") as f:
+            lines_by_source[fname] = f.read().split("\n")
+    return "\n".join(order_documents(lines_by_source))
 
 
 def main() -> int:

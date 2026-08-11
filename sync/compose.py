@@ -4,7 +4,7 @@
 Inverse of decompose.py. Walks `content/`, parses each document.md, and
 reconstructs the linear `Sky Atlas/Sky Atlas.md` byte stream.
 
-Source heading level is computed structurally — NOT stored verbatim:
+Source heading level is computed structurally rather than stored verbatim:
 - For non-NR documents: count of ancestor folders that have a `document.md`,
   capped at 6. Phantom extension folders (e.g. `A/1/4/5/0/4/`) carry only
   `_index.md` and don't count, which gives the correct depth for Action
@@ -259,7 +259,7 @@ def _child_sort_key(parent_full_path: str, child_name: str) -> tuple:
 def compose_segments(content_root: str) -> list[tuple[ParsedDoc, list[str]]]:
     """Walk content_root, return the emit sequence as (doc, lines) pairs.
 
-    This is the structural core of compose(): the ORDER of the returned list is the
+    This is the structural core of compose(): the order of the returned list is the
     canonical Atlas document order, and flattening its lines reproduces compose()
     byte-for-byte. Exposed separately so a partitioning consumer (Option C split
     output) can assign each document to an output bucket without reimplementing the
@@ -316,7 +316,7 @@ def compose_segments(content_root: str) -> list[tuple[ParsedDoc, list[str]]]:
             visit_folder(folder_path + (child,))
 
     # Start: walk content/A/ depth-first. Scopes (A.0, A.1, ..., A.6) are the top docs.
-    # content/NR/ is intentionally NOT walked — NRs are emitted via their targets.
+    # content/NR/ is intentionally not walked — NRs are emitted via their targets.
     visit_folder(("A",))
 
     # Sanity: orphan NRs (no resolvable target) get appended at end with a warning.
@@ -345,6 +345,50 @@ def compose(content_root: str) -> str:
     return "\n".join(
         line for _doc, lines in compose_segments(content_root) for line in lines
     )
+
+
+# ---------------------------------------------------------------------------
+# Empty-composition guard
+# ---------------------------------------------------------------------------
+
+class EmptyCompositionError(RuntimeError):
+    """The composition contains no documents. Refuse to write or publish it."""
+
+
+def guard_composition(composed: str, doc_count: int, source: str) -> None:
+    """Refuse to write or hash a composition containing no documents.
+
+    `find_all_documents` walks for `document.md`. Pointed at a consolidated `content/` it
+    finds none, composes the empty string, and without this guard writes a 0-byte file and
+    exits 0 — a result any downstream integrity check reads as valid.
+
+    The check is on document count rather than output length. Both reject the same inputs,
+    since every document emits at least a heading line, but the count identifies the cause
+    and lets the error name it: the wrong layout, and the tool that reads both.
+
+    There is deliberately no lower bound on document count. A floor would catch partial
+    truncation but is stale whenever the Atlas shrinks and wrong for small inputs such as
+    test fixtures. Truncation is `atlas_source.detect_layout`'s concern; it refuses a
+    checkout matching neither layout rather than treating it as a pre-cutover ref.
+    """
+    if doc_count > 0 and composed.strip():
+        return
+    raise EmptyCompositionError(
+        f"composed 0 documents from {source!r} — refusing to write or hash an empty "
+        f"Atlas.\n"
+        f"The most likely cause is that {source!r} is in the CONSOLIDATED layout (a few "
+        f"`A.<n> - <name>.md` files) while this tool walks the ATOMIZED tree looking for "
+        f"`document.md`. Use `sync/atlas_source.py`, which composes from either layout.\n"
+        f"Otherwise the checkout is empty or truncated."
+    )
+
+
+def compose_guarded(content_root: str) -> str:
+    """`compose`, but refuses to return an empty Atlas. Use this at write/publish points."""
+    segments = compose_segments(content_root)
+    composed = "\n".join(line for _doc, lines in segments for line in lines)
+    guard_composition(composed, len(segments), content_root)
+    return composed
 
 
 # ---------------------------------------------------------------------------
@@ -379,7 +423,13 @@ def main() -> int:
     if not args.output and not args.check:
         parser.error("must pass --output or --check")
 
-    composed = compose(args.input)
+    # Guard both paths. An empty composition compared against an empty expected file
+    # prints "ROUNDTRIP OK" and exits 0, so --check needs the same guard as --output.
+    try:
+        composed = compose_guarded(args.input)
+    except EmptyCompositionError as e:
+        print(f"ERROR: {e}", file=sys.stderr)
+        return 1
 
     if args.check:
         with open(args.check, "r", encoding="utf-8") as f:

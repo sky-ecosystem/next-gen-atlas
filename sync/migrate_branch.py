@@ -1,44 +1,27 @@
 #!/usr/bin/env python3
 """Migrate an in-flight Atlas edit branch onto the consolidated (Option C) layout.
 
-⭐ WHY THIS IS SIMPLER THAN THE EQUIVALENT TOOL LAST TIME, AND WHY THAT MATTERS.
-The monolith→atomized migration needed `sync/migrate-branches.py` (1,243 lines, commit
-`933f5651e`): it decomposed both the merge-base and the head, DIFFED the two trees with
-UUID-aware rename detection, and replayed the diff onto the new main. All of that existed
-because renumbering moved thousands of file paths, and without rename detection PR #220
-came out as 368 modifications / 371 adds / 343 deletes instead of 280 renames — an
-unreviewable diff.
+Consolidation collapses paths into 18 files, so a document moving is a line change inside
+a file rather than a file rename. The consolidated form is a pure function of the tree, so
+a branch's edit is migrated by recomputing it: `split(head)` against `split(new-main)`.
+The author re-applies nothing.
 
-Going the other way, paths collapse into ~16 files, so a document moving is a LINE change
-inside a file that git already diffs well. There is no rename storm to detect. The
-consolidated form is a pure function of the tree, so a branch's edit is migrated by simply
-RECOMPUTING it — the author does not re-apply anything, and the result is
-`split(head)` against `split(new-main)`.
+The tool touches no working tree. Reads go through `git archive`; writes use
+hash-object/write-tree/commit-tree plumbing against a temporary index. There is no
+checkout, stash or rebase, so it is safe to run against open PRs while people are working,
+which is what the rehearsal mode below relies on.
 
-⛔ TOUCHES NO WORKING TREE. Everything goes through `git archive` for reads and
-hash-object/write-tree/commit-tree plumbing for writes, against a temporary index. There
-is no checkout, no stash, no rebase — safe to run against every open PR while people are
-working, which is the whole point of the rehearsal mode below.
+Two safety options:
+  --tag          writes `<branch>-pre-cutover` at the branch's current OID before anything
+                 else, so rollback is `git push --force <tag>:<branch>`.
+  --report-only  computes and verifies the migration without creating a ref. Running it
+                 against every open PR ahead of the cutover window triages them into
+                 clean, dirty-branch and real-conflict, so branches needing their author
+                 are identified before the window rather than during it.
 
-SAFETY, copied from what worked last time:
-  --tag        writes `<branch>-pre-cutover` at the branch's current OID before anything
-               else. Rollback is `git push --force <tag>:<branch>`. Twenty-one such tags
-               from the 2026-05 cutover are still sitting there costing nothing.
-  --report-only  computes and verifies the migration WITHOUT creating a ref. This is
-               rehearsal mode. Run it against every open PR ~48h out and triage into
-               clean / dirty-branch / real-conflict — last time that triage found one PR
-               (#150) needing its author, it was handed back on cutover day, and it is
-               STILL OPEN four months later. Chase those authors before the window.
-
-VERIFICATION, per branch. The migrated split is COMPOSED back and compared byte-for-byte
-against composing the branch's own `content/`. That gives each author mechanical proof
-their edit survived rather than an assurance. See `verify_roundtrip` for why the
-comparison is on composed output and not on a re-decomposed tree — the tree comparison
-flags two documents on every branch for a frontmatter-quoting artifact, and a check that
-cries wolf on all of them gets ignored by the third.
-
-Measured 2026-08-10 against all 11 open private edit branches plus proposal/2026-08-10:
-12 of 12 clean.
+Each branch is verified: the migrated split is composed back and compared byte-for-byte
+against composing the branch's own `content/`. See `verify_roundtrip` for why the
+comparison is on composed output rather than on a re-decomposed tree.
 
 Usage:
     python migrate_branch.py --repo . --ref edit/foo --onto origin/main --report-only
@@ -90,21 +73,17 @@ def is_atomized(content_root: str) -> bool:
 
 
 def verify_roundtrip(split_dir: str, original_content: str, _work: str) -> dict:
-    """Prove the branch's edit survived: the split must COMPOSE back byte-identically.
+    """Check the branch's edit survived: the split must compose back byte-identically.
 
-    ⭐ COMPARE COMPOSED OUTPUT, NOT THE DECOMPOSED TREE. The first version of this diffed
-    `decompose(reassemble(split))` against the branch's `content/` and reported every
-    branch as `needs-review` with `differing=2` — the two documents whose names contain an
-    apostrophe, which the YAML emitter re-emits quoted (`name: Stablewatch's …` ->
-    `name: "Stablewatch's …"`). Both forms parse to the same string, so it is an artifact
-    of the decomposer, not a difference in the edit.
+    The comparison is on composed output rather than on a re-decomposed tree. Composed
+    output is what everything downstream consumes — the validator, the renderer, Atlas
+    Review — and it is invariant to frontmatter formatting. Comparing trees instead
+    reports a spurious difference on every branch: the two documents whose names contain
+    an apostrophe are re-emitted quoted by the YAML emitter (`name: Stablewatch's …` ->
+    `name: "Stablewatch's …"`), and both forms parse to the same string.
 
-    Composed output is the right comparison because it is what everything downstream
-    actually consumes — the validator, the renderer, Atlas Review — and it is invariant to
-    frontmatter formatting. It is also strictly stronger per unit of work: byte equality
-    of the whole Atlas in one comparison, no temporary tree, no `_index.md` exclusions to
-    argue about. A verification that cries wolf on every branch would have been ignored by
-    the third one.
+    It is also cheaper: byte equality of the whole Atlas in one comparison, with no
+    temporary tree and no `_index.md` exclusions.
     """
     got = reassemble(split_dir)
     want = compose(original_content)
@@ -137,7 +116,8 @@ def migrate(repo: str, ref: str, onto: str, work: str) -> dict:
     result = write_split(src, split_dir)
     check = verify_roundtrip(split_dir, src, work)
 
-    # Non-Atlas changes on the branch (Research Notes, tooling, CLAUDE.md …) must survive.
+    # Non-Atlas changes on the branch (Research Notes, tooling, agent config …) must
+    # survive.
     other = git(repo, "diff", "--name-only", f"{base}...{head}",
                 "--", ".", f":!{CONTENT_DIR}", check=False).split()
 

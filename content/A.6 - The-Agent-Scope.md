@@ -9,3 +9,7 @@ This Article includes the Artifacts of each Agent.
 ### A.6.1.1 - List Of Prime Agent Artifacts [Section]  <!-- UUID: 9fb7f1cc-f60b-4195-892d-5e540f969973 -->
 
 The documents herein each set out the unique Artifact for a particular Prime Agent. Prime Agent Artifacts contain all rules, processes, parameters, and information relevant to the Prime Agent. Prime Agent Artifacts are collections of documents that define each Agent’s strategic vision and day-to-day operational logic.
+
+### A.6.1.2 - List Of Executor Agent Artifacts [Section]  <!-- UUID: df62511d-afe5-42db-8bd4-6452c5a0f464 -->
+
+The documents herein each set out the Artifacts for Executor Agents. Executor Agent Artifacts contain all rules, processes, parameters, and information relevant to the Agent.

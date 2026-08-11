@@ -1,28 +1,28 @@
 #!/usr/bin/env python3
-"""One entry point that yields the composed Atlas from EITHER layout.
+"""One entry point that yields the composed Atlas from either layout.
 
-⭐ THIS IS THE WHOLE BACKWARD-COMPATIBILITY STRATEGY, AND IT IS DELIBERATELY SMALL.
-Adam, 2026-08-10: *"What if we just have the composer and then the backwards compatibility
-is just run the composer first?"* Every consumer — the renderer, the validator, the
-tar-stream hot path, the portal — wants one thing: the composed Atlas markdown for a given
-checkout. If that single question is answered here, no consumer needs to know that two
-layouts ever existed, and nothing downstream carries a migration flag.
+Every consumer — the renderer, the validator, the tar-stream hot path, the portal — needs
+the same thing: the composed Atlas markdown for a given checkout. Answering that question
+in one place means no consumer needs to know that two layouts exist, and nothing
+downstream carries a migration flag.
 
-The alternatives considered and rejected:
-  - **dual-mode walkers** — five implementations across four deploy cadences (one of them
-    pip-installed on developer laptops) would each grow a second code path, permanently.
-  - **materialize before cutover** — a batch job rendering every historical Snapshot into
-    storage. Works, but needs a pre-cutover run, storage, and a decision about how long a
-    window to keep. Compose-on-read needs none of those and the window is unbounded.
-Composing the entire tree measures ~1.9s, and `walk_content_tree` already walks and composes
-that tree today, so this is roughly what the current cost is — not an addition to it.
+Alternatives considered and rejected:
+  - Dual-mode walkers: five implementations across four deploy cadences, one of them
+    pip-installed on developer laptops, would each grow a second code path permanently.
+  - Materialising before cutover: a batch job rendering every historical Snapshot into
+    storage. Workable, but requires a pre-cutover run, storage, and a retention decision.
+    Composing on read requires none of those and imposes no window.
 
-⛔ DETECTION IS EXPLICIT AND FAILS LOUD. The pre-existing implicit signal — a walk that
-finds no `document.md` returning `[]` — is *silently* interpreted downstream as "pre-cutover
-ref". That sentinel is doing load-bearing work by accident: post-cutover it is also what an
-EMPTY or BROKEN checkout produces, so a genuine failure and an old ref are indistinguishable.
-`detect_layout` raises on ambiguity rather than guessing, so a truncated checkout surfaces as
-an error instead of quietly rendering as an unrecognised layout.
+Composing the entire tree measures ~1.9s, and `walk_content_tree` already walks and
+composes that tree today, so this is approximately the present cost rather than an
+addition to it.
+
+Layout detection is explicit and fails loudly. The pre-existing implicit signal — a walk
+that finds no `document.md` returning `[]` — is silently interpreted downstream as a
+pre-cutover ref. Post-cutover that same sentinel is what an empty or broken checkout
+produces, which makes a genuine failure indistinguishable from an old ref. `detect_layout`
+raises on ambiguity rather than guessing, so a truncated checkout surfaces as an error
+instead of rendering as an unrecognised layout.
 """
 
 from __future__ import annotations

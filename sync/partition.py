@@ -2,58 +2,60 @@
 """Option C: split the composed Atlas into per-Scope and per-Agent-Artifact files.
 
 De-atomization replaces the ~11,300-file `content/` tree with a small set of composed
-markdown files. Option C is the variant that keeps **each agent artifact in its own file**
-*and* **breaks Sky Core out by Scope**, rather than collapsing Sky Core into one file
-(Option B). The operational reason is edit-overlap detection: `prepare-proposal` decides
-whether two in-flight edits conflict by intersecting changed paths, and under B that
-degenerates to "are these both Sky Core?" — true for nearly every edit. C gives it seven
-buckets instead of one.
+markdown files. Option C is the variant that keeps each agent artifact in its own file and
+breaks Sky Core out by Scope, rather than collapsing Sky Core into one file (Option B).
+The operational reason is edit-overlap detection: `prepare-proposal` decides whether two
+in-flight edits conflict by intersecting changed paths, and under B that degenerates to
+"are these both Sky Core?" — true for nearly every edit. C gives it seven buckets instead
+of one.
 
-WHAT THIS MODULE IS NOT
------------------------
+Not a tree walker
+-----------------
 It is not a fifth tree walker. There are already four independent implementations of the
 `content/` walk across four deploy surfaces, and adding another would make five things
 that must agree. This module consumes `compose.compose_segments()` — the same walk,
 the same order, the same heading-level computation — and only decides *which output file*
 each already-composed document belongs to.
 
-THE PARTITION
+The partition
 -------------
-Top-level buckets are the Atlas's own top-level structure, one file each:
+Seven files for the Sky Core Atlas, one per Scope, each holding that Scope's whole subtree:
 
     A.0  Atlas Preamble          A.3  The Stability Scope
     A.1  The Governance Scope    A.4  The Protocol Scope
     A.2  The Support Scope       A.5  The Accessibility Scope
-                                 A.6  The Agent Scope  (spine only — see below)
+                                 A.6  The Agent Scope  (spine — see below)
 
-plus one file per **Prime Agent artifact** — every child of `A.6.1.1` (Spark, Grove, Keel,
-Skybase, Obex, Pattern, Osero, Launch Agent 7) — and one for `A.6.1.2`, the Executor list,
-which travels with its own children (Amatsu, Ozone, Core Council Executor Agent 1).
+plus one file per Agent: currently 8 Prime Agents (`A.6.1.1.1` … `A.6.1.1.8`) and 3
+Executor Agents (`A.6.1.2.1` … `A.6.1.2.3`), for 18 files. No agent is named in this
+module; agents are identified by position, so onboarding one requires no code change.
 
-⭐ THE AGENT SCOPE SPINE IS NOT INSIDE ANY ARTIFACT, AND MUST NOT BE FANNED INTO ONE.
-`A.6` (The Agent Scope), `A.6.1` (Agent Artifacts) and `A.6.1.1` (List Of Prime Agent
-Artifacts) are containers belonging to the scope, not to any single Star, and they get the
-`A.6` bucket exactly as `A.1`'s own document gets the `A.1` bucket. Adam caught this on
-2026-08-10; without it those documents have no home, and — because every *other* document
-still lands somewhere — the total document count reconciles anyway. A silent drop that
-passes a count check.
+The Agent Scope spine belongs to the Scope, not to any agent. `A.6`, `A.6.1` and every
+`List Of … Agent Artifacts` Section (`A.6.1.1`, `A.6.1.2`, and any type added later) take
+the `A.6` bucket, exactly as `A.1`'s own document takes the `A.1` bucket. A rule that
+omits them drops those documents while every other document still lands somewhere, so the
+total document count reconciles and no count-based check detects the loss.
 
-⭐⭐ EVERY BUCKET IS CONTIGUOUS IN EMIT ORDER, AND THE PARTITION IS BUILT TO KEEP IT THAT
-WAY. That property is what lets the split directory be **self-describing**: reassembly needs
-only the order of the buckets, and `order_key` derives it from their doc numbers. There is
-no manifest, so there is no generated file for every edit branch to conflict on, nothing to
-go stale, and nothing to configure when a new Star is onboarded — which Sky expects to keep
-doing. `write_split` asserts contiguity and refuses to write if a future partition change
-breaks it, because a non-contiguous bucket cannot be expressed by bucket order alone.
+Buckets need not be contiguous, and `A.6` is not. Emit order inside the Agent Scope is
+`A.6, A.6.1, A.6.1.1, [Primes], A.6.1.2, [Executors]`, so the `A.6` bucket is two runs
+with the Prime Agent files between them. Reassembly orders documents (`order_documents`)
+rather than concatenating files in bucket order, so the partition follows the Atlas's
+structure and contiguity is not required. This matters as the Atlas grows: each new agent
+type adds another `List Of …` Section emitted after the previous type's agents, which
+would fragment `A.6` into one further run per type.
 
-Placement is docNo-derived (`decompose.Document.folder_path_segments`), so getting order
-wrong would not misplace documents — it would silently reorder generated `_index.md`
-entries across hundreds of files, with nothing raised anywhere. That is why order is
-asserted rather than assumed.
+There is no manifest: no generated file for edit branches to conflict on, nothing to go
+stale, and nothing to configure when an agent is onboarded. `split()` verifies end to end
+that the partition it produced reassembles byte-identically.
 
-Needed Research documents carry no independent position: `compose` emits each NR
-immediately after its placement target, so an NR inherits the bucket of the document it
-was emitted under (`bucket_for` returns None for them, meaning "same as previous").
+Placement is docNo-derived (`decompose.Document.folder_path_segments`). Incorrect order
+would not misplace documents; it would reorder documents within a file silently, which is
+why order is asserted rather than assumed.
+
+Needed Research documents carry no independent position. `compose` emits each one
+immediately after its placement target, so an NR inherits that document's bucket
+(`bucket_for` returns None, meaning "same as previous") and travels inside that document's
+`Block` at reassembly rather than being sorted on its own.
 
 Usage:
     python partition.py --input content/ --output-dir split/
@@ -67,17 +69,20 @@ import argparse
 import os
 import re
 import sys
+from dataclasses import dataclass
 
 from compose import compose_segments
+from decompose import HEADING_RE
 
-# Children of this doc number are individually-filed agent artifacts.
-PRIME_ARTIFACT_PARENT = "A.6.1.1"
-
-# The Executor list travels WITH its children as one bucket — see the contiguity note.
-EXECUTOR_BUCKET = "A.6.1.2"
-
-# The Agent Scope bucket — holds the spine documents above the artifact lists.
+# The Agent Scope bucket — holds the whole spine above the individual agents: `A.6`
+# itself, the `A.6.1` Agent Artifacts Article, and every `List Of … Agent Artifacts`
+# Section beneath it (`A.6.1.1` Prime, `A.6.1.2` Executor, and any type added later).
 AGENT_SCOPE_BUCKET = "A.6"
+
+# Every `List Of … Agent Artifacts` Section is a child of this Article, so an individual
+# agent is exactly a grandchild of it: `A.6.1.<type>.<agent>`, five segments.
+AGENT_ARTIFACTS_ARTICLE = "A.6.1"
+AGENT_DOC_NO_SEGMENTS = 5
 
 
 def bucket_for(doc_no: str) -> str | None:
@@ -86,22 +91,26 @@ def bucket_for(doc_no: str) -> str | None:
     None is returned only for Needed Research, which compose emits inline under its
     placement target and which therefore has no position of its own.
 
-    ⭐ WHY `A.6.1.2` IS ITS OWN BUCKET RATHER THAN PART OF THE `A.6` SPINE.
-    Emit order inside the Agent Scope is: A.6, A.6.1, A.6.1.1, [Spark] … [Launch Agent 7],
-    A.6.1.2, [Amatsu, Ozone, Core Council Executor Agent 1]. Grouping `A.6.1.2` with the
-    other three spine documents therefore makes the `A.6` bucket span TWO runs separated by
-    every artifact — and a non-contiguous bucket has to store its interleaving somewhere.
-    The first version of this module did exactly that, in a `_manifest.json` carrying
-    per-run line counts, and it was a mistake twice over: the counts changed on every
-    content edit, so every edit branch conflicted with every other on that one file, and
-    the integrity check it enabled would have fired on the ordinary act of editing a
-    consolidated file — the very workflow this migration exists to enable.
+    The layout is seven Sky Core files (`A.0`–`A.6`), each holding that Scope's whole
+    subtree, plus one file per agent.
 
-    Splitting the Executor list into its own bucket makes ALL 16 buckets contiguous, at
-    which point the only thing reassembly needs is the ORDER OF THE BUCKETS, which
-    `order_key` derives. No stored state, nothing to conflict on. Adam asked what the
-    manifest was for, 2026-08-10; the honest answer was that it was compensating for a
-    partition boundary chosen a document too high.
+    An agent is identified by position, not by name. Every `List Of … Agent Artifacts`
+    Section is a child of the `A.6.1` Agent Artifacts Article, so an individual agent is
+    exactly a grandchild of it — `A.6.1.<type>.<agent>` — and it takes its whole subtree
+    with it. Everything at or above that line stays in the `A.6` file: the Scope document,
+    the Article, and each `List Of …` Section itself.
+
+    No agent and no agent type is enumerated here. Expressing the rule as a depth rather
+    than as a set of doc numbers means a ninth Prime (`A.6.1.1.9`), a fourth Executor
+    (`A.6.1.2.4`) and an entirely new agent type (`A.6.1.3 - List Of … Agent Artifacts`,
+    whose Section stays in the `A.6` file while each of its children gets a file) all work
+    with no code change and nothing to configure.
+
+    `A.6.1.2` belongs in the `A.6` file. It and `A.6.1.1` are both Sections and
+    structurally identical siblings. Grouping it with the spine splits the `A.6` bucket
+    into two runs, because emit order is `A.6, A.6.1, A.6.1.1, [Primes], A.6.1.2,
+    [Executors]`; that is expressible because reassembly orders documents rather than
+    buckets. See `order_documents`.
     """
     if doc_no.startswith("NR-"):
         return None
@@ -115,29 +124,188 @@ def bucket_for(doc_no: str) -> str | None:
     if parts[1] != "6":
         return f"A.{parts[1]}"
 
-    # Inside the Agent Scope.
-    if len(parts) >= 4 and ".".join(parts[:4]) == EXECUTOR_BUCKET:
-        return EXECUTOR_BUCKET
-    if len(parts) >= 5 and ".".join(parts[:4]) == PRIME_ARTIFACT_PARENT:
-        return ".".join(parts[:5])
+    # Inside the Agent Scope: an individual agent is a grandchild of the Agent Artifacts
+    # Article, and carries its subtree. Everything shallower is Agent Scope spine.
+    if (len(parts) >= AGENT_DOC_NO_SEGMENTS
+            and ".".join(parts[:3]) == AGENT_ARTIFACTS_ARTICLE):
+        return ".".join(parts[:AGENT_DOC_NO_SEGMENTS])
 
-    # A.6, A.6.1, A.6.1.1 — the spine.
     return AGENT_SCOPE_BUCKET
 
 
 def order_key(bucket: str) -> tuple[int, ...]:
-    """Sort key placing buckets in composed-Atlas order. Deterministic, no stored list.
+    """Sort key listing bucket files in the order their root document appears.
 
-    Buckets are doc numbers, so their integer-segment tuple IS their position: a prefix
-    sorts before its extensions (`A.6` before `A.6.1.1.1`) and segment-wise comparison
-    puts `A.6.1.1.8` before `A.6.1.2` because 1 < 2 at the third segment. Verified against
-    the real emit order on 2026-08-10.
+    This is presentational only. Reassembly does not depend on it: `order_documents`
+    orders documents and is indifferent to the order the files arrive in. What this
+    provides is a stable, human-sensible listing order for `--report` and for
+    `write_split`'s returned `order`.
 
-    ⛔ DO NOT SUBSTITUTE FILENAME SORTING. It agrees today and diverges the moment a tenth
-    Star is added: lexicographically `A.6.1.1.10` sorts between `A.6.1.1.1` and
-    `A.6.1.1.2`, silently reordering ~2,000 documents with no error anywhere.
+    Filename sorting is not a substitute, even for display. It agrees today and diverges
+    once a tenth agent exists: lexicographically `A.6.1.1.10` sorts between `A.6.1.1.1`
+    and `A.6.1.1.2`.
     """
     return tuple(int(s) for s in bucket.split(".")[1:])
+
+
+# ---------------------------------------------------------------------------
+# Document order
+# ---------------------------------------------------------------------------
+#
+# Reassembly orders documents, not buckets. Ordering by bucket would require every bucket
+# to occupy one contiguous run of the emit order, which the Atlas's structure does not
+# provide: `A.6.1.2 - List Of Executor Agent Artifacts` is a Section grouped with the
+# `A.6` spine, and the Prime Agent files sit between the spine's two runs.
+#
+# The fragmentation grows with the Atlas. Each new agent type adds another
+# `List Of … Agent Artifacts` Section emitted after the previous type's agents, so the
+# `A.6` bucket gains one further run per type: two runs today, three with a third type,
+# and so on.
+#
+# With order carried by the documents themselves, contiguity is irrelevant and any
+# partition is expressible.
+
+
+def canonical_sort_key(doc_no: str, real_doc_nos) -> tuple:
+    """Compose's emit position for a numbered document, derived from its doc number alone.
+
+    Naive doc-number sorting is wrong in 410 places on today's Atlas. Compose emits a
+    parent's real children before any subtree rooted at a phantom extension folder — the
+    `0/` directories (e.g. `A/1/4/5/0/4/`) that carry no `document.md` and exist only to
+    give Action Tenets and Annotations the right heading depth. So `A.1.1.1` legitimately
+    precedes `A.1.1.0.3.1`, which ascending doc-number order gets backwards.
+
+    This reproduces `compose._child_sort_key` exactly, but from doc numbers instead of the
+    filesystem: a doc number segment is phantom precisely when no document claims that
+    prefix, and `real_doc_nos` is the set of doc numbers actually present. Per segment the
+    key is (rank, value) with rank 0 = real child, 1 = phantom, 2 = the non-integer `var1`
+    Scenario Variation folder — the same three buckets, in the same order.
+
+    A parent sorts before its own children for free: its key is a prefix of theirs, and a
+    shorter tuple compares less.
+
+    `split()` re-checks the whole stream end to end on every call, so any disagreement
+    between this key and compose surfaces at write time.
+    """
+    parts = doc_no.split(".")
+    key = []
+    for i in range(1, len(parts)):
+        seg = parts[i]
+        if seg.isdigit():
+            prefix = ".".join(parts[:i + 1])
+            key.append((0 if prefix in real_doc_nos else 1, int(seg), ""))
+        else:
+            # `var1` — the only non-integer segment in the Atlas, sole child of a Scenario.
+            key.append((2, 0, seg))
+    return tuple(key)
+
+
+@dataclass
+class Block:
+    """One numbered document plus any Needed Research emitted under it.
+
+    This is how NR adjacency survives document-level sorting. A Needed Research document
+    has no position of its own: its doc number is `NR-<n>`, drawn from a flat namespace
+    with no relationship to where it sits, and post-consolidation its target is defined by
+    its position (`decompose` derives `targets[0]` as the most recently seen numbered
+    document). An NR therefore cannot be given an independent sort key; sorting NRs as
+    documents would scatter them and retarget every one.
+
+    The sort unit is the block, anchored by its numbered document, with trailing NRs
+    carried along inside it. NRs are never compared, never sorted, and never separated
+    from the document they were emitted under.
+    """
+    doc_no: str          # the numbered document anchoring this block
+    source: str          # which bucket/file it came from
+    index: int           # position within that source, for the order-preservation check
+    lines: list[str]
+
+
+def split_into_blocks(source: str, lines: list[str]) -> list[Block]:
+    """Cut one file's lines into blocks at Atlas document headings.
+
+    Boundaries come from `decompose.HEADING_RE`, the same regex that turns a composed
+    stream back into documents, so there is a single definition of a document boundary
+    rather than two that could drift apart. It also carries the established behaviour on
+    body text that superficially looks like a heading: a plain `#` line does not match,
+    because the regex requires the trailing `<!-- UUID: … -->` comment.
+    """
+    heads = [(i, m.group(2)) for i, line in enumerate(lines)
+             if (m := HEADING_RE.match(line))]
+    if not heads:
+        raise ValueError(f"{source!r} contains no Atlas document headings")
+    if heads[0][0] != 0:
+        raise ValueError(
+            f"{source!r} has {heads[0][0]} line(s) before its first document heading. "
+            "Bucket files must begin with a heading, or that text belongs to no document "
+            "and would be silently dropped at reassembly."
+        )
+    if heads[0][1].startswith("NR-"):
+        raise ValueError(
+            f"{source!r} begins with Needed Research document {heads[0][1]}, which has no "
+            "numbered document in this file to travel with. An NR must follow its "
+            "placement target — see Block."
+        )
+
+    starts = [(i, dn) for i, dn in heads if not dn.startswith("NR-")]
+    blocks = []
+    for k, (start, doc_no) in enumerate(starts):
+        end = starts[k + 1][0] if k + 1 < len(starts) else len(lines)
+        blocks.append(Block(doc_no, source, k, lines[start:end]))
+    return blocks
+
+
+def order_documents(lines_by_source: dict[str, list[str]]) -> list[str]:
+    """Merge split files into the single composed line stream, ordered by document.
+
+    This is reassembly's whole algorithm. It does not depend on the order the files are
+    given in, their names, their count, or any stored manifest. Order comes from the
+    documents themselves, so a new agent, a new agent type, or an entirely different
+    partition all reassemble correctly with no configuration anywhere.
+    """
+    blocks: list[Block] = []
+    for source in sorted(lines_by_source):
+        blocks.extend(split_into_blocks(source, lines_by_source[source]))
+
+    origin: dict[str, str] = {}
+    for b in blocks:
+        if b.doc_no in origin:
+            raise ValueError(
+                f"document {b.doc_no} appears in both {origin[b.doc_no]!r} and "
+                f"{b.source!r} — a document must live in exactly one file."
+            )
+        origin[b.doc_no] = b.source
+
+    real = set(origin)
+    ordered = sorted(blocks, key=lambda b: canonical_sort_key(b.doc_no, real))
+    _assert_source_order_preserved(ordered)
+    return [line for b in ordered for line in b.lines]
+
+
+def _assert_source_order_preserved(ordered: list[Block]) -> None:
+    """Check that the derived order never reorders documents within a single file.
+
+    Within a file the document order is compose's own emit order, frozen into the line
+    order at write time, and needs no deriving. `canonical_sort_key` is only genuinely
+    needed to interleave different files, but a global sort re-derives the within-file
+    order too, and a rule that disagreed with compose anywhere would reorder documents
+    silently.
+
+    The sort may interleave files freely, but it must never move a document backwards past
+    another from the same file. Any disagreement between the derived rule and compose then
+    fails at the exact document where they diverge.
+    """
+    last: dict[str, int] = {}
+    for b in ordered:
+        prev = last.get(b.source, -1)
+        if b.index <= prev:
+            raise ValueError(
+                f"document ordering moved {b.doc_no} backwards within {b.source!r} "
+                f"(position {b.index} after position {prev}). Within a file the order is "
+                "compose's own emit order and is authoritative; the derived key must "
+                "never reorder it. This means canonical_sort_key and compose disagree."
+            )
+        last[b.source] = b.index
 
 
 _SLUG_STRIP = re.compile(r"[^A-Za-z0-9]+")
@@ -181,8 +349,8 @@ def split(content_root: str) -> tuple[dict[str, list[str]], list[dict], dict[str
 
         lines_by_bucket.setdefault(bucket, []).extend(lines)
 
-        # `lines` is what reassembly actually slices on; `docs` is the cross-check that
-        # catches a file edited out from under the manifest.
+        # `lines` is what reassembly slices on; `docs` is the per-run document count used
+        # by `--report` and by the total-document cross-check.
         if runs and runs[-1]["bucket"] == bucket:
             runs[-1]["docs"] += 1
             runs[-1]["lines"] += len(lines)
@@ -190,7 +358,39 @@ def split(content_root: str) -> tuple[dict[str, list[str]], list[dict], dict[str
             runs.append({"bucket": bucket, "docs": 1, "lines": len(lines)})
         current = bucket
 
+    _assert_partition_reassembles(segments, lines_by_bucket)
     return lines_by_bucket, runs, name_by_bucket
+
+
+def _assert_partition_reassembles(segments, lines_by_bucket: dict[str, list[str]]) -> None:
+    """Check that this partition reassembles to the composed Atlas byte for byte.
+
+    The check is end to end: partition the composed stream, put it back together the way
+    `decompose_multi.reassemble` will, and require the result to equal what compose
+    emitted. Any partition that survives is safe; any that does not fails here, at write
+    time, naming the first document that moved, rather than silently reordering documents.
+
+    Requiring instead that every bucket be contiguous in emit order is a sufficient but
+    stricter condition, and rejects partitions that lose no information — including the
+    one that groups `A.6.1.2` with the `A.6` spine.
+
+    This runs inside `split()` rather than `write_split()` so that every caller is covered,
+    including `migrate_branch` and the tests.
+    """
+    expected = [line for _doc, lines in segments for line in lines]
+    got = order_documents(lines_by_bucket)
+    if got == expected:
+        return
+    where = next((i for i, (a, b) in enumerate(zip(got, expected)) if a != b),
+                 min(len(got), len(expected)))
+    raise ValueError(
+        "this partition does not reassemble to the composed Atlas: reassembly and compose "
+        f"first differ at line {where} ({len(got):,} lines vs {len(expected):,} expected).\n"
+        f"  reassembled: {got[where] if where < len(got) else '<end of stream>'!r}\n"
+        f"  compose:     {expected[where] if where < len(expected) else '<end of stream>'!r}\n"
+        "Document order is derived by canonical_sort_key; a mismatch means the partition "
+        "separated documents whose relative order that key cannot reproduce."
+    )
 
 
 FILENAME_RE = re.compile(r"^(A(?:\.\d+)*) - .*\.md$")
@@ -203,25 +403,26 @@ def bucket_from_filename(fname: str) -> str | None:
 
 
 def write_split(content_root: str, output_dir: str) -> dict:
-    """Write the split files. Deliberately writes NO manifest — see `bucket_for`."""
+    """Write the split files. No manifest is written; order is derived per document."""
     lines_by_bucket, runs, name_by_bucket = split(content_root)
 
-    # Contiguity is what makes the partition self-describing. Assert it at write time so
-    # a future partition change that reintroduces a split bucket fails HERE, loudly,
-    # rather than by silently reordering documents at reassembly.
-    if len(runs) != len(lines_by_bucket):
-        offenders = [b for b in lines_by_bucket
-                     if sum(1 for r in runs if r["bucket"] == b) > 1]
-        raise ValueError(
-            f"partition produced {len(runs)} runs for {len(lines_by_bucket)} buckets — "
-            f"non-contiguous: {offenders}. Reassembly order is derived from bucket doc "
-            "numbers alone and cannot express an interleaving; move the boundary."
-        )
+    # Buckets may interleave, and `A.6` does: the Prime Agent files sit between its two
+    # runs, which is what lets the Executor Agent list live in the Agent Scope file.
+    # `split()` has already checked the property that matters — that this exact partition
+    # reassembles byte-identically — via `_assert_partition_reassembles`. Do not add a
+    # contiguity check here; it would reject that layout.
 
     os.makedirs(output_dir, exist_ok=True)
     files = {}
+    written: dict[str, str] = {}
     for bucket, lines in lines_by_bucket.items():
         fname = filename_for(bucket, name_by_bucket.get(bucket, bucket))
+        if fname in written:
+            raise ValueError(
+                f"buckets {written[fname]!r} and {bucket!r} both want the filename "
+                f"{fname!r}; one would overwrite the other."
+            )
+        written[fname] = bucket
         files[bucket] = fname
         with open(os.path.join(output_dir, fname), "w", encoding="utf-8") as f:
             f.write("\n".join(lines))
@@ -244,7 +445,9 @@ def main() -> int:
     n = len(result["files"])
 
     if args.report:
-        print(f"{'bytes':>10}  file  (in reassembly order)")
+        # Listing order only, by each file's root document. Reassembly does not depend
+        # on it — see `order_key`.
+        print(f"{'bytes':>10}  file  (by root document)")
         for bucket in result["order"]:
             fname = result["files"][bucket]
             size = os.path.getsize(os.path.join(args.output_dir, fname))
