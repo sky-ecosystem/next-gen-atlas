@@ -1,8 +1,8 @@
-#### A.6.1.1.1 - Spark [Core]  <!-- UUID: dee2f5a4-279a-488c-9a9d-9583e3216fbf -->
+# A.6.1.1.1 - Spark [Core]  <!-- UUID: dee2f5a4-279a-488c-9a9d-9583e3216fbf -->
 
 The documents herein specify all of the logic for Spark, including Spark’s strategy and how it uses the Sky Primitives to operationalize this strategy.
 
-##### A.6.1.1.1.1 - Introduction [Core]  <!-- UUID: fee4e7c1-bc69-496e-8e1b-a1f7a76daa70 -->
+## A.6.1.1.1.1 - Introduction [Core]  <!-- UUID: fee4e7c1-bc69-496e-8e1b-a1f7a76daa70 -->
 
 Spark is an Agent focused on building on USDS in the Ethereum and adjacent DeFi ecosystem. This includes driving adoption of USDS and deploying collateral backing USDS at attractive risk-adjusted returns. Spark does this through the Spark Liquidity Layer, SparkLend, and Spark Savings.
 
@@ -10,19 +10,19 @@ Spark is an Agent focused on building on USDS in the Ethereum and adjacent DeFi 
 - SparkLend is a lending market focused on USDS borrowing, sourcing liquidity directly from Sky to provide the best borrow rates for USDS.
 - Spark Savings enables stablecoin holders to earn the best risk-adjusted rate in DeFi, at large scale, with minimal liquidity constraints.
 
-##### A.6.1.1.1.2 - Sky Primitives [Core]  <!-- UUID: 1bc21199-26d0-4cdd-8d66-454ac62204b9 -->
+## A.6.1.1.1.2 - Sky Primitives [Core]  <!-- UUID: 1bc21199-26d0-4cdd-8d66-454ac62204b9 -->
 
 The documents herein implement the Sky Primitives for Spark. See [A.2.2 - Sky Primitives](fcde2604-a138-4c1b-9d9a-14895835c907).
 
-###### A.6.1.1.1.2.1 - Genesis Primitives [Core]  <!-- UUID: cccaa367-6157-4640-ba62-3fccd987d07c -->
+### A.6.1.1.1.2.1 - Genesis Primitives [Core]  <!-- UUID: cccaa367-6157-4640-ba62-3fccd987d07c -->
 
 The documents herein implement the Genesis Primitives for Spark. See [A.2.2.5 - Genesis Primitives](3d5e3668-8333-4908-adcc-5784cfe7f6b5).
 
-###### A.6.1.1.1.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: 5f670f2b-16e4-4a3d-84bc-9a302e32b671 -->
+#### A.6.1.1.1.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: 5f670f2b-16e4-4a3d-84bc-9a302e32b671 -->
 
 The documents herein contain all data and specifications for Spark’s Instance of the Agent Creation Primitive. See [A.2.2.5.1 - Agent Creation Primitive](82b95f6d-4883-4f08-ac3a-9d8189013fbe).
 
-###### A.6.1.1.1.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: 30cd682c-0688-4b2f-a72e-7cded8feb180 -->
+##### A.6.1.1.1.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: 30cd682c-0688-4b2f-a72e-7cded8feb180 -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Agent Creation Primitive.
 
@@ -62,11 +62,11 @@ The subtrees for failed Invocations of the Agent Creation Primitive are stored h
 
 The subtrees for Instances of the Agent Creation Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.1.1.2 - Active Instances [Core]  <!-- UUID: 6879edeb-735e-43ef-ab35-e8fc3fc0e5aa -->
+##### A.6.1.1.1.2.1.1.2 - Active Instances [Core]  <!-- UUID: 6879edeb-735e-43ef-ab35-e8fc3fc0e5aa -->
 
 The Instances of the Agent Creation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 5eff8c9f-8499-41ff-9aed-2e31d9f5f139 -->
+##### A.6.1.1.1.2.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 5eff8c9f-8499-41ff-9aed-2e31d9f5f139 -->
 
 The Instances of the Agent Creation Primitive with `Completed` Status are contained herein.
 
@@ -126,15 +126,15 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.1.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 1974618c-b054-41c3-a6aa-860ea7875d02 -->
+##### A.6.1.1.1.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 1974618c-b054-41c3-a6aa-860ea7875d02 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.1.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: 0037156e-3b1d-4baa-8a4a-a62936daeb3e -->
+#### A.6.1.1.1.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: 0037156e-3b1d-4baa-8a4a-a62936daeb3e -->
 
 The documents herein contain all data and specifications for Spark’s Instance of the Prime Transformation Primitive. See [A.2.2.5.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
 
-###### A.6.1.1.1.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: 6dd6571c-f210-4e9e-850a-206275d2074e -->
+##### A.6.1.1.1.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: 6dd6571c-f210-4e9e-850a-206275d2074e -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Prime Transformation Primitive.
 
@@ -174,11 +174,11 @@ The subtrees for failed Invocations of the Prime Transformation Primitive are st
 
 The subtrees for Instances of the Prime Transformation Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.1.2.2 - Active Instances [Core]  <!-- UUID: 48617d95-a95d-4ded-857d-479306443de5 -->
+##### A.6.1.1.1.2.1.2.2 - Active Instances [Core]  <!-- UUID: 48617d95-a95d-4ded-857d-479306443de5 -->
 
 The Instances of the Prime Transformation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.1.2.3 - Completed Instances [Core]  <!-- UUID: cf387ed3-7d5a-4e7b-9d2d-54c1f856f39c -->
+##### A.6.1.1.1.2.1.2.3 - Completed Instances [Core]  <!-- UUID: cf387ed3-7d5a-4e7b-9d2d-54c1f856f39c -->
 
 The Instances of the Prime Transformation Primitive with `Completed` Status are contained herein.
 
@@ -218,15 +218,15 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.1.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 4c591869-ad1c-4007-9159-78705b24e43a -->
+##### A.6.1.1.1.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 4c591869-ad1c-4007-9159-78705b24e43a -->
 
 Because the Prime Transformation Primitive is deployed solely for the one-time transformation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.1.2.1.3 - Executor Transformation Primitive [Core]  <!-- UUID: cf323ace-ea1f-4272-b4b6-152dd36eea9e -->
+#### A.6.1.1.1.2.1.3 - Executor Transformation Primitive [Core]  <!-- UUID: cf323ace-ea1f-4272-b4b6-152dd36eea9e -->
 
 The documents herein contain all data and specifications for Spark’s Instance of the Executor Transformation Primitive. See [A.2.2.5.3 - Executor Transformation Primitive](2f249be5-8edb-41e4-b429-734e1ba2cbc7).
 
-###### A.6.1.1.1.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: 4130ff50-bc52-4c82-b461-df14bc9aece2 -->
+##### A.6.1.1.1.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: 4130ff50-bc52-4c82-b461-df14bc9aece2 -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Executor Transformation Primitive.
 
@@ -262,23 +262,23 @@ The subtrees for failed Invocations of the Executor Transformation Primitive are
 
 The subtrees for Instances of the Executor Transformation Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.1.3.2 - Active Instances [Core]  <!-- UUID: 25082eb4-526e-4132-b8cb-f1b035b979bc -->
+##### A.6.1.1.1.2.1.3.2 - Active Instances [Core]  <!-- UUID: 25082eb4-526e-4132-b8cb-f1b035b979bc -->
 
 The Instances of the Executor Transformation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.1.3.3 - Completed Instances [Core]  <!-- UUID: c0754ba7-c179-40b1-b4c5-f5cc54052004 -->
+##### A.6.1.1.1.2.1.3.3 - Completed Instances [Core]  <!-- UUID: c0754ba7-c179-40b1-b4c5-f5cc54052004 -->
 
 The Instances of the Executor Transformation Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.1.2.1.3.4 - In Progress Invocations [Core]  <!-- UUID: ea1e82bb-a5e5-48a4-bbf5-520da8282f78 -->
+##### A.6.1.1.1.2.1.3.4 - In Progress Invocations [Core]  <!-- UUID: ea1e82bb-a5e5-48a4-bbf5-520da8282f78 -->
 
 Because the Executor Transformation Primitive is deployed solely for the one-time transformation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.1.2.1.4 - Agent Token Primitive [Core]  <!-- UUID: 676bc853-5516-41e6-911e-9e4dde93157c -->
+#### A.6.1.1.1.2.1.4 - Agent Token Primitive [Core]  <!-- UUID: 676bc853-5516-41e6-911e-9e4dde93157c -->
 
 The documents herein contain all data and specifications for Spark’s Instance of the Agent Token Primitive. See [A.2.2.5.4 - Agent Token Primitive](2047c361-db28-4952-a70c-83d07b562064).
 
-###### A.6.1.1.1.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: 4476d153-381e-4120-8230-68d1bd60ec6d -->
+##### A.6.1.1.1.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: 4476d153-381e-4120-8230-68d1bd60ec6d -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Agent Token Primitive.
 
@@ -318,7 +318,7 @@ The subtrees for failed Invocations of the Agent Token Primitive are stored here
 
 The subtrees for Instances of the Agent Token Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.1.4.2 - Active Instances [Core]  <!-- UUID: 1daf6d99-415f-4d4d-9de9-9a7300d591f5 -->
+##### A.6.1.1.1.2.1.4.2 - Active Instances [Core]  <!-- UUID: 1daf6d99-415f-4d4d-9de9-9a7300d591f5 -->
 
 The Instances of the Agent Token Primitive with `Active` Status are stored herein.
 
@@ -408,23 +408,23 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.1.2.1.4.3 - Completed Instances [Core]  <!-- UUID: 6e713ffe-caf0-48dd-94e2-f1c9b1162aaa -->
+##### A.6.1.1.1.2.1.4.3 - Completed Instances [Core]  <!-- UUID: 6e713ffe-caf0-48dd-94e2-f1c9b1162aaa -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.1.2.1.4.4 - In Progress Invocations [Core]  <!-- UUID: bf55643f-a3db-4d19-9b83-d2da73acd0a5 -->
+##### A.6.1.1.1.2.1.4.4 - In Progress Invocations [Core]  <!-- UUID: bf55643f-a3db-4d19-9b83-d2da73acd0a5 -->
 
 Because the Agent Token Primitive is Invoked solely for the one-time deployment of the Agent’s token, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.1.2.2 - Operational Primitives [Core]  <!-- UUID: 47f0c7ef-1b0a-4431-a9de-bc698fe51a46 -->
+### A.6.1.1.1.2.2 - Operational Primitives [Core]  <!-- UUID: 47f0c7ef-1b0a-4431-a9de-bc698fe51a46 -->
 
 The documents herein implement the Operational Primitives for Spark. See [A.2.2.6 - Operational Primitives](0192ec95-9207-480e-8c51-88d2a1da95ad).
 
-###### A.6.1.1.1.2.2.1 - Executor Accord Primitive [Core]  <!-- UUID: beff3df7-ff44-46f9-84ab-30cae1a03a06 -->
+#### A.6.1.1.1.2.2.1 - Executor Accord Primitive [Core]  <!-- UUID: beff3df7-ff44-46f9-84ab-30cae1a03a06 -->
 
 The documents herein contain all data and specifications for Spark’s Instances of the Executor Accord Primitive. See [A.2.2.6.1 - Executor Accord Primitive](88017877-3ec1-4c43-a035-6bebdf11d9bb).
 
-###### A.6.1.1.1.2.2.1.1 - Primitive Hub Document [Core]  <!-- UUID: 7a6b27e0-4239-4481-9035-b16bf89e6a1d -->
+##### A.6.1.1.1.2.2.1.1 - Primitive Hub Document [Core]  <!-- UUID: 7a6b27e0-4239-4481-9035-b16bf89e6a1d -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Executor Accord Primitive.
 
@@ -464,7 +464,7 @@ The subtrees for failed Invocations of the Executor Accord Primitive are stored 
 
 The subtrees for Instances of the Executor Accord Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.2.1.2 - Active Instances [Core]  <!-- UUID: a092c9ca-35c7-4618-a85e-e3d12b6c8f3a -->
+##### A.6.1.1.1.2.2.1.2 - Active Instances [Core]  <!-- UUID: a092c9ca-35c7-4618-a85e-e3d12b6c8f3a -->
 
 The Instances of the Executor Accord Primitive with `Active` Status are stored herein.
 
@@ -504,19 +504,19 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.1.2.2.1.3 - Completed Instances [Core]  <!-- UUID: bf932245-fe5e-40cf-a79c-896f3220f3ec -->
+##### A.6.1.1.1.2.2.1.3 - Completed Instances [Core]  <!-- UUID: bf932245-fe5e-40cf-a79c-896f3220f3ec -->
 
 The Instances of the Executor Accord Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.2.1.4 - In Progress Invocations [Core]  <!-- UUID: 30014177-2d03-44f5-ab3d-37c88cfd68e8 -->
+##### A.6.1.1.1.2.2.1.4 - In Progress Invocations [Core]  <!-- UUID: 30014177-2d03-44f5-ab3d-37c88cfd68e8 -->
 
 The in progress Invocations of the Executor Accord Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.1.2.2.1.2 - Active Instances](a092c9ca-35c7-4618-a85e-e3d12b6c8f3a).
 
-###### A.6.1.1.1.2.2.2 - Root Edit Primitive [Core]  <!-- UUID: f60887de-a4eb-4e4b-8aa6-e22cf724772a -->
+#### A.6.1.1.1.2.2.2 - Root Edit Primitive [Core]  <!-- UUID: f60887de-a4eb-4e4b-8aa6-e22cf724772a -->
 
 The documents herein contain all data and specifications for Spark’s Instance of the Root Edit Primitive. See [A.2.2.6.2 - Root Edit Primitive](78488c6b-d77f-4344-b954-476e415a2c7d).
 
-###### A.6.1.1.1.2.2.2.1 - Primitive Hub Document [Core]  <!-- UUID: c47922e8-4dca-49d9-ad95-79ca8ec04731 -->
+##### A.6.1.1.1.2.2.2.1 - Primitive Hub Document [Core]  <!-- UUID: c47922e8-4dca-49d9-ad95-79ca8ec04731 -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Root Edit Primitive.
 
@@ -556,7 +556,7 @@ The subtrees for failed Invocations of the Root Edit Primitive are stored here.
 
 The subtrees for Instances of the Root Edit Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.2.2.2 - Active Instances [Core]  <!-- UUID: 75dc70de-f209-4c76-87b8-7a49bf989b3a -->
+##### A.6.1.1.1.2.2.2.2 - Active Instances [Core]  <!-- UUID: 75dc70de-f209-4c76-87b8-7a49bf989b3a -->
 
 The Instances of the Root Edit Primitive with `Active` Status are stored herein.
 
@@ -656,19 +656,19 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.1.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 69483c09-487b-448e-aeda-06fbaa7eec4f -->
+##### A.6.1.1.1.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 69483c09-487b-448e-aeda-06fbaa7eec4f -->
 
 The Instances of the Root Edit Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.1.2.2.2.4 - In Progress Invocations [Core]  <!-- UUID: 0285add0-af7b-4026-a79b-0f6db72d8348 -->
+##### A.6.1.1.1.2.2.2.4 - In Progress Invocations [Core]  <!-- UUID: 0285add0-af7b-4026-a79b-0f6db72d8348 -->
 
 Because the Root Edit Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.1.2.2.3 - Light Agent Primitive [Core]  <!-- UUID: 2ebe2537-74e6-476c-81a3-88a1abb76a6b -->
+#### A.6.1.1.1.2.2.3 - Light Agent Primitive [Core]  <!-- UUID: 2ebe2537-74e6-476c-81a3-88a1abb76a6b -->
 
 The documents herein contain all data and specifications for Spark’s Instances of the Light Agent Primitive. See [A.2.2.6.3 - Light Agent Primitive](44028423-2cd1-40cb-89ac-3f762b602b90).
 
-###### A.6.1.1.1.2.2.3.1 - Primitive Hub Document [Core]  <!-- UUID: 35ba196a-9dee-45f2-8d9f-2aa48a4d2816 -->
+##### A.6.1.1.1.2.2.3.1 - Primitive Hub Document [Core]  <!-- UUID: 35ba196a-9dee-45f2-8d9f-2aa48a4d2816 -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Light Agent Primitive.
 
@@ -704,27 +704,27 @@ The subtrees for failed Invocations of the Light Agent Primitive are stored here
 
 The subtrees for Instances of the Light Agent Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.2.3.2 - Active Instances [Core]  <!-- UUID: 4c45583a-b948-4a1c-bd85-0adae4179761 -->
+##### A.6.1.1.1.2.2.3.2 - Active Instances [Core]  <!-- UUID: 4c45583a-b948-4a1c-bd85-0adae4179761 -->
 
 The Instances of the Light Agent Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.2.3.3 - Completed Instances [Core]  <!-- UUID: e001058f-bd04-45d0-b13a-53a8f3c66525 -->
+##### A.6.1.1.1.2.2.3.3 - Completed Instances [Core]  <!-- UUID: e001058f-bd04-45d0-b13a-53a8f3c66525 -->
 
 The Instances of the Light Agent Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.1.2.2.3.4 - In Progress Invocations [Core]  <!-- UUID: ac5409c5-58d7-4e8a-b41a-49c7455cb42c -->
+##### A.6.1.1.1.2.2.3.4 - In Progress Invocations [Core]  <!-- UUID: ac5409c5-58d7-4e8a-b41a-49c7455cb42c -->
 
 The in progress Invocations of the Light Agent Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.1.2.2.3.2 - Active Instances](4c45583a-b948-4a1c-bd85-0adae4179761).
 
-###### A.6.1.1.1.2.3 - Ecosystem Upkeep Primitives [Core]  <!-- UUID: 4547691b-3607-4b30-b7f1-4d04bfe3c912 -->
+### A.6.1.1.1.2.3 - Ecosystem Upkeep Primitives [Core]  <!-- UUID: 4547691b-3607-4b30-b7f1-4d04bfe3c912 -->
 
 The documents herein implement the Ecosystem Upkeep Primitives for Spark. See [A.2.2.7 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
-###### A.6.1.1.1.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: cc285753-1f2a-4a05-a9a9-e52da1168790 -->
+#### A.6.1.1.1.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: cc285753-1f2a-4a05-a9a9-e52da1168790 -->
 
 The documents herein contain all data and specifications for Spark’s Instance of the Ecosystem Upkeep Fee Primitive. See [A.2.2.7.1 - Ecosystem Upkeep Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
-###### A.6.1.1.1.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 4a0fea8a-d2e3-4ebd-8c3b-a5e27c74dac0 -->
+##### A.6.1.1.1.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 4a0fea8a-d2e3-4ebd-8c3b-a5e27c74dac0 -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Ecosystem Upkeep Fee Primitive.
 
@@ -764,7 +764,7 @@ The subtrees for failed Invocations of the Ecosystem Upkeep Fee Primitive are st
 
 The subtrees for Instances of the Ecosystem Upkeep Fee Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.3.1.2 - Active Instances [Core]  <!-- UUID: 602f7677-417b-435a-96bd-eba64963c9e1 -->
+##### A.6.1.1.1.2.3.1.2 - Active Instances [Core]  <!-- UUID: 602f7677-417b-435a-96bd-eba64963c9e1 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Active` Status are stored herein.
 
@@ -820,19 +820,19 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.1.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 9c60c0c9-19df-4cb1-afa8-2897932dafe5 -->
+##### A.6.1.1.1.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 9c60c0c9-19df-4cb1-afa8-2897932dafe5 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: f7b2e25f-fc99-4266-af87-f04239a97b1b -->
+##### A.6.1.1.1.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: f7b2e25f-fc99-4266-af87-f04239a97b1b -->
 
 Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.1.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: b39e05c8-cfcc-4671-b142-b691437cb98e -->
+#### A.6.1.1.1.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: b39e05c8-cfcc-4671-b142-b691437cb98e -->
 
 The documents herein contain all data and specifications for Spark’s Instance of the Upkeep Rebate Primitive. See [A.2.2.7.2 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
-###### A.6.1.1.1.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 4b400b96-b0a3-4b7d-81b9-b22d4f12f16f -->
+##### A.6.1.1.1.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 4b400b96-b0a3-4b7d-81b9-b22d4f12f16f -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Upkeep Rebate Primitive.
 
@@ -872,7 +872,7 @@ The subtrees for failed Invocations of the Upkeep Rebate Primitive are stored he
 
 The subtrees for Instances of the Upkeep Rebate Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.3.2.2 - Active Instances [Core]  <!-- UUID: 507755d9-c459-475d-8099-63c0417f9335 -->
+##### A.6.1.1.1.2.3.2.2 - Active Instances [Core]  <!-- UUID: 507755d9-c459-475d-8099-63c0417f9335 -->
 
 The Instances of the Upkeep Rebate Primitive with `Active` Status are stored herein.
 
@@ -928,23 +928,23 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.1.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 29ea3609-b1d4-4488-9fa0-15e26dfd4c26 -->
+##### A.6.1.1.1.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 29ea3609-b1d4-4488-9fa0-15e26dfd4c26 -->
 
 The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.1.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 2008b69e-a0de-4274-b459-e2f613425a4b -->
+##### A.6.1.1.1.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 2008b69e-a0de-4274-b459-e2f613425a4b -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.1.2.4 - SkyLink Primitives [Core]  <!-- UUID: bdb0c16b-8077-49c1-b925-bbc93884b04a -->
+### A.6.1.1.1.2.4 - SkyLink Primitives [Core]  <!-- UUID: bdb0c16b-8077-49c1-b925-bbc93884b04a -->
 
 The documents herein implement the SkyLink Primitives for Spark. See [A.2.2.8 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
 
-###### A.6.1.1.1.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: 148ada53-0815-49bc-a454-57bdf08a556e -->
+#### A.6.1.1.1.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: 148ada53-0815-49bc-a454-57bdf08a556e -->
 
 The documents herein contain all data and specifications for Spark’s instances of the Token SkyLink Primitive. See [A.2.2.8.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
 
-###### A.6.1.1.1.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: 88de14eb-6470-4980-add9-992726d6e006 -->
+##### A.6.1.1.1.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: 88de14eb-6470-4980-add9-992726d6e006 -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Token SkyLink Primitive.
 
@@ -980,27 +980,27 @@ The subtrees for failed Invocations of the Token SkyLink Primitive are stored he
 
 The subtrees for Instances of the Token SkyLink Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.4.1.2 - Active Instances [Core]  <!-- UUID: 02016186-2953-489d-ae5d-aca30085c2b9 -->
+##### A.6.1.1.1.2.4.1.2 - Active Instances [Core]  <!-- UUID: 02016186-2953-489d-ae5d-aca30085c2b9 -->
 
 The Instances of the Token SkyLink Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.4.1.3 - Completed Instances [Core]  <!-- UUID: dd1f8a40-8037-4cb6-961c-bb2448cbfc90 -->
+##### A.6.1.1.1.2.4.1.3 - Completed Instances [Core]  <!-- UUID: dd1f8a40-8037-4cb6-961c-bb2448cbfc90 -->
 
 The Instances of the Token SkyLink Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.4.1.4 - In Progress Invocations [Core]  <!-- UUID: 873c56da-485b-47cc-b926-08d62a471805 -->
+##### A.6.1.1.1.2.4.1.4 - In Progress Invocations [Core]  <!-- UUID: 873c56da-485b-47cc-b926-08d62a471805 -->
 
 The in progress Invocations of the Token SkyLink Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.1.2.4.1.2 - Active Instances](02016186-2953-489d-ae5d-aca30085c2b9).
 
-###### A.6.1.1.1.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: 56116244-c569-4cb0-8399-eaae1ab36e97 -->
+### A.6.1.1.1.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: 56116244-c569-4cb0-8399-eaae1ab36e97 -->
 
 The documents herein implement the Demand Side Stablecoin Primitives for Spark. See [A.2.2.9 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
 
-###### A.6.1.1.1.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: 87916659-3b1e-4e65-8080-d6e1baab74e4 -->
+#### A.6.1.1.1.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: 87916659-3b1e-4e65-8080-d6e1baab74e4 -->
 
 The documents herein contain all data and specifications for Spark’s instances of the Distribution Reward Primitive. See [A.2.2.9.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
 
-###### A.6.1.1.1.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: 8dece7e0-529f-4522-9742-d883cc0939a7 -->
+##### A.6.1.1.1.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: 8dece7e0-529f-4522-9742-d883cc0939a7 -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Distribution Reward Primitive.
 
@@ -1040,7 +1040,7 @@ The subtrees for failed Invocations of the Distribution Reward Primitive are sto
 
 The subtrees for Instances of the Distribution Reward Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.5.1.2 - Active Instances [Core]  <!-- UUID: 53a54bee-41b6-4135-9fa0-cf7876955a28 -->
+##### A.6.1.1.1.2.5.1.2 - Active Instances [Core]  <!-- UUID: 53a54bee-41b6-4135-9fa0-cf7876955a28 -->
 
 The Instances of the Distribution Reward Primitive with `Active` Status are stored herein.
 
@@ -1117,19 +1117,19 @@ The Active Data is updated as follows:
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.1.2.5.1.3 - Completed Instances [Core]  <!-- UUID: 6552c0fe-f9f7-4828-893b-cf278ce5161f -->
+##### A.6.1.1.1.2.5.1.3 - Completed Instances [Core]  <!-- UUID: 6552c0fe-f9f7-4828-893b-cf278ce5161f -->
 
 The Instances of the Distribution Reward Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: 701a2dc3-bcfe-494e-8a4c-af18cfbffc54 -->
+##### A.6.1.1.1.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: 701a2dc3-bcfe-494e-8a4c-af18cfbffc54 -->
 
 The in progress Invocations of the Distribution Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.1.2.5.1.2 - Active Instances](53a54bee-41b6-4135-9fa0-cf7876955a28).
 
-###### A.6.1.1.1.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: e9f5a7e8-2260-484f-a725-871782a9bc01 -->
+#### A.6.1.1.1.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: e9f5a7e8-2260-484f-a725-871782a9bc01 -->
 
 The documents herein contain all data and specifications for Spark’s Instances of the Integration Boost Primitive. See [A.2.2.9.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
 
-###### A.6.1.1.1.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: 8afae5a1-8734-4b98-bfd6-1dbe7842f146 -->
+##### A.6.1.1.1.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: 8afae5a1-8734-4b98-bfd6-1dbe7842f146 -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Integration Boost Primitive.
 
@@ -1169,7 +1169,7 @@ The subtrees for failed Invocations of the Integration Boost Primitive are store
 
 The subtrees for Instances of the Integration Boost Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.5.2.2 - Active Instances [Core]  <!-- UUID: 97e3a3e5-fa1c-4a33-8bb2-ae706201d1df -->
+##### A.6.1.1.1.2.5.2.2 - Active Instances [Core]  <!-- UUID: 97e3a3e5-fa1c-4a33-8bb2-ae706201d1df -->
 
 The Instances of the Integration Boost Primitive with `Active` Status are stored herein.
 
@@ -1266,19 +1266,19 @@ The Active Data is updated as follows:
 
 The Integration Boost Payments are:
 
-###### A.6.1.1.1.2.5.2.3 - Completed Instances [Core]  <!-- UUID: d492e503-1776-4956-a1ca-dbf604818400 -->
+##### A.6.1.1.1.2.5.2.3 - Completed Instances [Core]  <!-- UUID: d492e503-1776-4956-a1ca-dbf604818400 -->
 
 The Instances of the Integration Boost Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.1.2.5.2.4 - In Progress Invocations [Core]  <!-- UUID: f1427e80-b5a8-488b-b140-1685063efe39 -->
+##### A.6.1.1.1.2.5.2.4 - In Progress Invocations [Core]  <!-- UUID: f1427e80-b5a8-488b-b140-1685063efe39 -->
 
 The in progress Invocations of the Integration Boost Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.1.2.5.2.2 - Active Instances](97e3a3e5-fa1c-4a33-8bb2-ae706201d1df).
 
-###### A.6.1.1.1.2.5.3 - Pioneer Chain Primitive [Core]  <!-- UUID: 949247f8-c643-4f52-b0f1-cbf3c731da89 -->
+#### A.6.1.1.1.2.5.3 - Pioneer Chain Primitive [Core]  <!-- UUID: 949247f8-c643-4f52-b0f1-cbf3c731da89 -->
 
 The documents herein contain all data and specifications for Spark’s Instances of the Pioneer Chain Primitive. See [A.2.2.9.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
 
-###### A.6.1.1.1.2.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: 0e476c6e-9dda-4366-9be6-d877df7356e3 -->
+##### A.6.1.1.1.2.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: 0e476c6e-9dda-4366-9be6-d877df7356e3 -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Pioneer Chain Primitive.
 
@@ -1314,27 +1314,27 @@ The subtrees for failed Invocations of the Pioneer Chain Primitive are stored he
 
 The subtrees for Instances of the Pioneer Chain Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.5.3.2 - Active Instances [Core]  <!-- UUID: 6dea3eb2-2f2d-4172-9026-6fd8f0226b1f -->
+##### A.6.1.1.1.2.5.3.2 - Active Instances [Core]  <!-- UUID: 6dea3eb2-2f2d-4172-9026-6fd8f0226b1f -->
 
 The Instances of the Pioneer Chain Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.5.3.3 - Completed Instances [Core]  <!-- UUID: 1bd7fe5c-0279-4184-b82e-e58d8f2c850e -->
+##### A.6.1.1.1.2.5.3.3 - Completed Instances [Core]  <!-- UUID: 1bd7fe5c-0279-4184-b82e-e58d8f2c850e -->
 
 The Instances of the Pioneer Chain Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.5.3.4 - In Progress Invocations [Core]  <!-- UUID: 3065c418-cfc5-4963-96ab-36cddfd66bea -->
+##### A.6.1.1.1.2.5.3.4 - In Progress Invocations [Core]  <!-- UUID: 3065c418-cfc5-4963-96ab-36cddfd66bea -->
 
 The in progress Invocations of the Pioneer Chain Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.1.2.5.3.2 - Active Instances](6dea3eb2-2f2d-4172-9026-6fd8f0226b1f).
 
-###### A.6.1.1.1.2.6 - Supply Side Stablecoin Primitives [Core]  <!-- UUID: 683e3f9a-df0d-4bdb-adb4-f86dbc6530c6 -->
+### A.6.1.1.1.2.6 - Supply Side Stablecoin Primitives [Core]  <!-- UUID: 683e3f9a-df0d-4bdb-adb4-f86dbc6530c6 -->
 
 The documents herein implement the Supply Side Stablecoin Primitives for Spark. See [A.2.2.10 - Supply Side Stablecoin Primitives](d1142876-33c2-4e21-9339-d8711525d46f).
 
-###### A.6.1.1.1.2.6.1 - Allocation System Primitive [Core]  <!-- UUID: cd70b9f1-1a59-407c-9945-05e52bf5a3b6 -->
+#### A.6.1.1.1.2.6.1 - Allocation System Primitive [Core]  <!-- UUID: cd70b9f1-1a59-407c-9945-05e52bf5a3b6 -->
 
 The documents herein contain all data and specifications for Spark’s Allocation System Primitive Instances. Spark implements the Allocation System Primitive using the Spark Liquidity Layer. Developed prior to the introduction of the Sky Primitives, the Spark Liquidity Layer serves as the prototype for all Prime Agents’ Allocation Systems.
 
-###### A.6.1.1.1.2.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: 845ef31b-7b6e-4407-87ad-a5a4c8bce049 -->
+##### A.6.1.1.1.2.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: 845ef31b-7b6e-4407-87ad-a5a4c8bce049 -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Spark Liquidity Layer.
 
@@ -1730,7 +1730,7 @@ The subtrees for failed Invocations of the Allocation System Primitive are store
 
 The subtrees for Instances of the Allocation System Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: e4ba3491-5b24-49b0-91f1-c9ad9438b190 -->
+##### A.6.1.1.1.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: e4ba3491-5b24-49b0-91f1-c9ad9438b190 -->
 
 The documents herein provide general specifications of the Spark Liquidity Layer and define Spark’s overarching strategy and operational framework for managing across all Instances.
 
@@ -3399,7 +3399,7 @@ More detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.2.2
 
 In the future, additional logic will be added herein regarding the strategy by which capital is allocated between different Instances of the Spark Liquidity Layer.
 
-###### A.6.1.1.1.2.6.1.3 - Active Instances [Core]  <!-- UUID: f7c9fdda-3d42-4b9d-852d-610d7ae4f6c0 -->
+##### A.6.1.1.1.2.6.1.3 - Active Instances [Core]  <!-- UUID: f7c9fdda-3d42-4b9d-852d-610d7ae4f6c0 -->
 
 The Instances of the Spark Liquidity Layer with `Active` Status are stored herein. The `RRC Framework Full Implementation` status defines whether the Instance Financial RRC is calculated based on a fully implemented risk model (see [A.3.2.1.1.4.3.1 - Fully Implemented Risk Models](419a1d00-fbae-4d26-bd47-8f57677d8001)) or a pending risk model (see [A.3.2.1.1.4.3.2 - Pending Risk Models](81ca88bf-3f6a-4d10-a3e2-d47cf6636d7d)). If the Instance Financial RRC is calculated based on a fully implemented risk model the status is `Covered`. If the Instance Financial RRC is calculated based on a pending risk model the status is `Pending`.
 
@@ -8722,7 +8722,7 @@ The transferAssets rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.4 - Completed Instances [Core]  <!-- UUID: ed8c3394-ee05-496c-8dd6-4d5275d2ed1f -->
+##### A.6.1.1.1.2.6.1.4 - Completed Instances [Core]  <!-- UUID: ed8c3394-ee05-496c-8dd6-4d5275d2ed1f -->
 
 The Instances of the Spark Liquidity Layer with `Completed` Status are stored herein.
 
@@ -9020,19 +9020,19 @@ The documents herein define the Instance contract addresses.
 
 Timelock: 240 hours (10 days)
 
-###### A.6.1.1.1.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: 5b1ce161-fc9e-4c90-ac14-75cfbba6a213 -->
+##### A.6.1.1.1.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: 5b1ce161-fc9e-4c90-ac14-75cfbba6a213 -->
 
 The in progress Invocations of the Allocation System Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.1.2.6.1.3 - Active Instances](f7c9fdda-3d42-4b9d-852d-610d7ae4f6c0).
 
-###### A.6.1.1.1.2.6.1.6 - Data Repository [Core]  <!-- UUID: 0ffbf052-9a57-430a-a140-40666dc2548b -->
+##### A.6.1.1.1.2.6.1.6 - Data Repository [Core]  <!-- UUID: 0ffbf052-9a57-430a-a140-40666dc2548b -->
 
 The documents herein contain data relevant to the Spark Liquidity Layer.
 
-###### A.6.1.1.1.2.6.2 - Risk Capital Rental Primitive [Core]  <!-- UUID: bef153ea-bce0-4f87-aea1-be1ed219b0c1 -->
+#### A.6.1.1.1.2.6.2 - Risk Capital Rental Primitive [Core]  <!-- UUID: bef153ea-bce0-4f87-aea1-be1ed219b0c1 -->
 
 The documents herein contain all data and specifications for Spark’s Instances of the Risk Capital Rental Primitive. See [A.2.2.10.2 - Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).
 
-###### A.6.1.1.1.2.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: 760db109-8209-4993-aa0f-a472cd09342f -->
+##### A.6.1.1.1.2.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: 760db109-8209-4993-aa0f-a472cd09342f -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Risk Capital Rental Primitive.
 
@@ -9068,23 +9068,23 @@ The subtrees for failed Invocations of the Risk Capital Rental Primitive are sto
 
 The subtrees for Instances of the Risk Capital Rental Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.6.2.2 - Active Instances [Core]  <!-- UUID: a9dfa35d-e51d-43ee-aa07-90c96a6acb86 -->
+##### A.6.1.1.1.2.6.2.2 - Active Instances [Core]  <!-- UUID: a9dfa35d-e51d-43ee-aa07-90c96a6acb86 -->
 
 The Instances of the Risk Capital Rental Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.6.2.3 - Completed Instances [Core]  <!-- UUID: 6fab7906-d1dd-4291-9044-10eecd2c65d0 -->
+##### A.6.1.1.1.2.6.2.3 - Completed Instances [Core]  <!-- UUID: 6fab7906-d1dd-4291-9044-10eecd2c65d0 -->
 
 The Instances of the Risk Capital Rental Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.2.4 - In Progress Invocations [Core]  <!-- UUID: 17e60d50-f521-4634-a732-ecface0953ca -->
+##### A.6.1.1.1.2.6.2.4 - In Progress Invocations [Core]  <!-- UUID: 17e60d50-f521-4634-a732-ecface0953ca -->
 
 The in progress Invocations of the Risk Capital Rental Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.1.2.6.2.2 - Active Instances](a9dfa35d-e51d-43ee-aa07-90c96a6acb86).
 
-###### A.6.1.1.1.2.6.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: 9f627e5c-f56e-42a3-abf9-1bce25e7d1ba -->
+#### A.6.1.1.1.2.6.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: 9f627e5c-f56e-42a3-abf9-1bce25e7d1ba -->
 
 The documents herein contain all data and specifications for Spark’s Instances of the Asset Liability Management Rental Primitive. See [A.2.2.10.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).
 
-###### A.6.1.1.1.2.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: 45974478-1591-4d54-9aae-e68a9b6f8793 -->
+##### A.6.1.1.1.2.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: 45974478-1591-4d54-9aae-e68a9b6f8793 -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Asset Liability Management Rental Primitive.
 
@@ -9120,27 +9120,27 @@ The subtrees for failed Invocations of the Asset Liability Management Rental Pri
 
 The subtrees for Instances of the Asset Liability Management Rental Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.6.3.2 - Active Instances [Core]  <!-- UUID: cdb5065b-0a14-4cf8-a0ac-d6b547ee0994 -->
+##### A.6.1.1.1.2.6.3.2 - Active Instances [Core]  <!-- UUID: cdb5065b-0a14-4cf8-a0ac-d6b547ee0994 -->
 
 The Instances of the Asset Liability Management Rental Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.6.3.3 - Completed Instances [Core]  <!-- UUID: 25ce8d32-f425-4769-9de3-60c5517f1ab1 -->
+##### A.6.1.1.1.2.6.3.3 - Completed Instances [Core]  <!-- UUID: 25ce8d32-f425-4769-9de3-60c5517f1ab1 -->
 
 The Instances of the Asset Liability Management Rental Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.3.4 - In Progress Invocations [Core]  <!-- UUID: 203386d2-3c59-4edd-aece-4d8034a2a08f -->
+##### A.6.1.1.1.2.6.3.4 - In Progress Invocations [Core]  <!-- UUID: 203386d2-3c59-4edd-aece-4d8034a2a08f -->
 
 The in progress Invocations of the Asset Liability Management Rental Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.1.2.6.3.2 - Active Instances](cdb5065b-0a14-4cf8-a0ac-d6b547ee0994).
 
-###### A.6.1.1.1.2.7 - Core Governance Primitives [Core]  <!-- UUID: a0865261-677f-4cbf-a409-df6ac29d6e29 -->
+### A.6.1.1.1.2.7 - Core Governance Primitives [Core]  <!-- UUID: a0865261-677f-4cbf-a409-df6ac29d6e29 -->
 
 The documents herein implement the Core Governance Primitives for Spark. See [A.2.2.11 - Core Governance Primitives](6fa54611-c744-4b9d-897d-b2a20e9cae5d).
 
-###### A.6.1.1.1.2.7.1 - Core Governance Reward Primitive [Core]  <!-- UUID: 5d111751-fac3-495e-8829-ce849c28aac8 -->
+#### A.6.1.1.1.2.7.1 - Core Governance Reward Primitive [Core]  <!-- UUID: 5d111751-fac3-495e-8829-ce849c28aac8 -->
 
 The documents herein contain all data and specifications for Spark’s Instances of the Core Governance Reward Primitive. See [A.2.2.11.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
 
-###### A.6.1.1.1.2.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: 88a9d7aa-be82-4f4b-bb86-7eb9748c64ee -->
+##### A.6.1.1.1.2.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: 88a9d7aa-be82-4f4b-bb86-7eb9748c64ee -->
 
 The documents herein organize all base information relevant to Spark’s usage of the Core Governance Reward Primitive.
 
@@ -9176,43 +9176,43 @@ The subtrees for failed Invocations of the Core Governance Reward Primitive are 
 
 The subtrees for Instances of the Core Governance Reward Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.1.2.7.1.2 - Active Instances [Core]  <!-- UUID: 1f638b59-eff7-4d69-870c-487f2728b188 -->
+##### A.6.1.1.1.2.7.1.2 - Active Instances [Core]  <!-- UUID: 1f638b59-eff7-4d69-870c-487f2728b188 -->
 
 The Instances of the Core Governance Reward Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.7.1.3 - Completed Instances [Core]  <!-- UUID: ffe6fa8d-4fb7-4cb3-8dda-328387613987 -->
+##### A.6.1.1.1.2.7.1.3 - Completed Instances [Core]  <!-- UUID: ffe6fa8d-4fb7-4cb3-8dda-328387613987 -->
 
 The Instances of the Core Governance Reward Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.7.1.4 - In Progress Invocations [Core]  <!-- UUID: 7aae676b-55ba-4001-9a03-e9112f9bd94c -->
+##### A.6.1.1.1.2.7.1.4 - In Progress Invocations [Core]  <!-- UUID: 7aae676b-55ba-4001-9a03-e9112f9bd94c -->
 
 The in progress Invocations of the Core Governance Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.1.2.7.1.2 - Active Instances](1f638b59-eff7-4d69-870c-487f2728b188).
 
-##### A.6.1.1.1.3 - Omni Documents [Core]  <!-- UUID: f5ba2aec-ac1b-4da9-adc9-e1d370620e72 -->
+## A.6.1.1.1.3 - Omni Documents [Core]  <!-- UUID: f5ba2aec-ac1b-4da9-adc9-e1d370620e72 -->
 
 The documents herein define Spark’s strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
 
-###### A.6.1.1.1.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: 3dffc0f5-edbc-48e9-bf13-7d752a64de5a -->
+### A.6.1.1.1.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: 3dffc0f5-edbc-48e9-bf13-7d752a64de5a -->
 
 The documents herein specify Spark governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Spark Artifact is specified in the Root Edit Primitive above at [A.6.1.1.1.2.2.2 - Root Edit Primitive](f60887de-a4eb-4e4b-8aa6-e22cf724772a).
 
-###### A.6.1.1.1.3.1.1 - Sky Forum [Core]  <!-- UUID: 978879a2-3f8b-4f3e-a938-07e8a5b4b4de -->
+#### A.6.1.1.1.3.1.1 - Sky Forum [Core]  <!-- UUID: 978879a2-3f8b-4f3e-a938-07e8a5b4b4de -->
 
 Spark uses the Sky Forum for governance-related discussion. Posts should use the "Spark Prime" category.
 
-###### A.6.1.1.1.3.1.2 - Discord [Core]  <!-- UUID: e7118615-bbaa-4a3d-b395-407244cc0969 -->
+#### A.6.1.1.1.3.1.2 - Discord [Core]  <!-- UUID: e7118615-bbaa-4a3d-b395-407244cc0969 -->
 
 Spark also uses Discord for more immediate communication. The Spark Discord is located at [https://t.co/v6zG0MZtak](https://t.co/v6zG0MZtak).
 
-###### A.6.1.1.1.3.1.3 - Delegation Framework [Core]  <!-- UUID: afa6a37e-e7f1-4efb-bca7-f02bbbf5cf26 -->
+#### A.6.1.1.1.3.1.3 - Delegation Framework [Core]  <!-- UUID: afa6a37e-e7f1-4efb-bca7-f02bbbf5cf26 -->
 
 The documents herein specify Spark’s governance delegation system, defining the rights and duties of Delegates and Delegators, as well as the processes for onboarding and offboarding Delegates.
 
-###### A.6.1.1.1.3.1.3.1 - Delegate Definition [Core]  <!-- UUID: f667b5fa-0e31-4e59-9cfe-85c31c9f0b84 -->
+##### A.6.1.1.1.3.1.3.1 - Delegate Definition [Core]  <!-- UUID: f667b5fa-0e31-4e59-9cfe-85c31c9f0b84 -->
 
 A "Delegate" is a recognized actor empowered to exercise governance voting power on behalf of one or more SPK holders ("Delegators"). Delegates act as trusted representatives and are expected to vote in the long-term best interest of the Spark ecosystem.
 
-###### A.6.1.1.1.3.1.3.2 - How Delegation Works [Core]  <!-- UUID: 7fcbb9da-7559-4a18-ab68-f0840a3fe921 -->
+##### A.6.1.1.1.3.1.3.2 - How Delegation Works [Core]  <!-- UUID: 7fcbb9da-7559-4a18-ab68-f0840a3fe921 -->
 
 SPK holders may assign ("delegate") the full voting power of their wallet to an Active Delegate at any time (see [A.6.1.1.1.3.1.3.8 - Registry of Delegates](f49a1e26-f774-4fbd-b7f8-156639e077f2)). The key features of delegation are specified in the subdocuments herein.
 
@@ -9232,7 +9232,7 @@ Delegators may revoke or move their delegation whenever no proposal is live. All
 
 SPK holders may only assign their voting power to Active Delegates. This also means Delegators cannot delegate to another wallet they themselves control, unless it is an Active Delegate wallet.
 
-###### A.6.1.1.1.3.1.3.3 - Delegate Responsibilities [Core]  <!-- UUID: f230ba4e-eb5a-444e-b07a-13a0292338bd -->
+##### A.6.1.1.1.3.1.3.3 - Delegate Responsibilities [Core]  <!-- UUID: f230ba4e-eb5a-444e-b07a-13a0292338bd -->
 
 The responsibilities for Delegates are defined in the subdocuments herein.
 
@@ -9268,7 +9268,7 @@ The Delegate must post a concise rationale for each vote on the proposal thread.
 
 The Delegate must disclose conflicts of interest and abstain where impartiality is compromised (see [A.6.1.1.1.3.1.3.3.4.1 - Disclosure Of Conflicts](cfdf3c2d-6ede-49f0-8f2c-0cd91a5602bc)). Failure to meet these obligations is grounds for offboarding (see [A.6.1.1.1.3.1.3.5 - Delegate Offboarding](b49d9086-cb8a-43f7-a024-0d3320eae317)).
 
-###### A.6.1.1.1.3.1.3.4 - Delegate Onboarding [Core]  <!-- UUID: fcf62ce5-910a-4357-a3d5-959b3be37021 -->
+##### A.6.1.1.1.3.1.3.4 - Delegate Onboarding [Core]  <!-- UUID: fcf62ce5-910a-4357-a3d5-959b3be37021 -->
 
 The Delegate onboarding process is specified in the subdocuments herein.
 
@@ -9314,7 +9314,7 @@ Transition. Delegates serving prior to approval are automatically rolled over in
 
 Accepted Delegates are appended to [A.6.1.1.1.3.1.3.8 - Registry of Delegates](f49a1e26-f774-4fbd-b7f8-156639e077f2).
 
-###### A.6.1.1.1.3.1.3.5 - Delegate Offboarding [Core]  <!-- UUID: b49d9086-cb8a-43f7-a024-0d3320eae317 -->
+##### A.6.1.1.1.3.1.3.5 - Delegate Offboarding [Core]  <!-- UUID: b49d9086-cb8a-43f7-a024-0d3320eae317 -->
 
 The delegation offboarding process is specified in the subdocuments herein.
 
@@ -9345,7 +9345,7 @@ Upon offboarding, the Delegate’s status in [A.6.1.1.1.3.1.3.8 - Registry of De
 
 At the end of a Delegate's six (6) month term (see [A.6.1.1.1.3.1.3.4.3 - Minimum Term](c612d4e4-96c4-4ccf-a830-7f742338cfd9)), if the Spark Foundation has not recorded a re-approval, the Delegate is automatically offboarded effective 00:00 UTC on the day after term end. The Operational Facilitator updates the Registry and posts a notice on the Sky Forum.
 
-###### A.6.1.1.1.3.1.3.6 - Incentives & Compensation [Core]  <!-- UUID: 5e38acbd-f010-4bd1-af6c-acdd17b3e9e9 -->
+##### A.6.1.1.1.3.1.3.6 - Incentives & Compensation [Core]  <!-- UUID: 5e38acbd-f010-4bd1-af6c-acdd17b3e9e9 -->
 
 Delegates are compensated for their service as follows:
 
@@ -9355,7 +9355,7 @@ Delegates are compensated for their service as follows:
 4. Eligibility & Clawback. Payment requires the Delegate to be in good standing and to have met responsibilities in [A.6.1.1.1.3.1.3.3 - Delegate Responsibilities](f230ba4e-eb5a-444e-b07a-13a0292338bd) during the covered period; the Spark Foundation may withhold or claw back amounts for non-performance or breach.
 5. No Waiver of Oversight. Compensation does not limit or waive any onboarding, renewal, or offboarding requirements.
 
-###### A.6.1.1.1.3.1.3.7 - Security Requirements & Compromise Procedure [Core]  <!-- UUID: 8ab7950c-c347-41a1-bf53-ef4d77000af5 -->
+##### A.6.1.1.1.3.1.3.7 - Security Requirements & Compromise Procedure [Core]  <!-- UUID: 8ab7950c-c347-41a1-bf53-ef4d77000af5 -->
 
 The security requirements and procedure for a compromised key are specified in the subdocuments herein.
 
@@ -9379,7 +9379,7 @@ If a Delegate suspects key compromise, the following steps must be taken:
 
 Failure to execute the steps in [A.6.1.1.1.3.1.3.7.2 - Compromised Key Response](05dbbbcc-7702-4d17-a222-9c93356be7cd) within 48 hours constitutes grounds for emergency removal.
 
-###### A.6.1.1.1.3.1.3.8 - Registry of Delegates [Core]  <!-- UUID: f49a1e26-f774-4fbd-b7f8-156639e077f2 -->
+##### A.6.1.1.1.3.1.3.8 - Registry of Delegates [Core]  <!-- UUID: f49a1e26-f774-4fbd-b7f8-156639e077f2 -->
 
 The subdocuments herein list each active Delegate’s name, wallet address, effective date, and status. Entries are maintained via an Active Data document updated by the Operational Facilitator.
 
@@ -9428,23 +9428,23 @@ The information for each Delegate is listed below:
     - Current Term: 2026-07-01 to 2026-12-31
     - Status: Active
 
-###### A.6.1.1.1.3.1.3.9 - Subject to Change [Core]  <!-- UUID: 57f6f628-dfc3-4819-8265-c85a38c0fc9f -->
+##### A.6.1.1.1.3.1.3.9 - Subject to Change [Core]  <!-- UUID: 57f6f628-dfc3-4819-8265-c85a38c0fc9f -->
 
 Spark reserves the right to vary or amend these terms at its discretion, subject to established Spark Artifact governance procedures related to Artifact edits.
 
-###### A.6.1.1.1.3.1.4 - Spark Risk Council [Core]  <!-- UUID: cf019fb3-d792-4867-abf7-cfe4d0b73e5d -->
+#### A.6.1.1.1.3.1.4 - Spark Risk Council [Core]  <!-- UUID: cf019fb3-d792-4867-abf7-cfe4d0b73e5d -->
 
 The documents herein define the Spark Risk Council (SRC). The SRC safeguards the integrity and security of the Spark Ecosystem by conducting pre-vote risk reviews and, where necessary, preventing proposals from proceeding to a vote in order to protect Spark.
 
-###### A.6.1.1.1.3.1.4.1 - Purpose And Mandate [Core]  <!-- UUID: b2a23ffe-34db-4793-87fd-a9fec45a5a35 -->
+##### A.6.1.1.1.3.1.4.1 - Purpose And Mandate [Core]  <!-- UUID: b2a23ffe-34db-4793-87fd-a9fec45a5a35 -->
 
 The SRC identifies, assesses, and mitigates technical, economic, and governance-process risks posed by proposals subject to Spark Governance. The SRC’s mandate is to inform the community of potential risks inherent in proposals and, where necessary, prevent proposals from proceeding that are malicious or likely to expose Spark to substantial, unreasonable risk.
 
-###### A.6.1.1.1.3.1.4.2 - Scope Of Review [Core]  <!-- UUID: b269ffa9-8abc-4b02-ba54-ecfde4d30549 -->
+##### A.6.1.1.1.3.1.4.2 - Scope Of Review [Core]  <!-- UUID: b269ffa9-8abc-4b02-ba54-ecfde4d30549 -->
 
 The SRC reviews proposals for (i) security vulnerabilities and operational attack surface, (ii) market and treasury risks, (iii) economic risk, and (iv) misalignment with the Sky Core Atlas or the Spark Artifact. The SRC’s authority is limited to reviewing proposals within this scope.
 
-###### A.6.1.1.1.3.1.4.3 - SRC Risk Review Process [Core]  <!-- UUID: c586a7cc-a4d0-4c9b-9578-cbfe1f99a20e -->
+##### A.6.1.1.1.3.1.4.3 - SRC Risk Review Process [Core]  <!-- UUID: c586a7cc-a4d0-4c9b-9578-cbfe1f99a20e -->
 
 The subdocuments herein clarify the process of the SRC independent risk review in terms of new Root Edit proposals. See [A.6.1.1.1.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](c9f7cc6e-0548-4599-9f9d-bfa1d2bb7577).
 
@@ -9468,7 +9468,7 @@ The SRC can formally request, at the Operational Facilitator’s discretion, an 
 
 If no SRC conclusion or request for extension is posted within seven (7) days of submission, the Operational Facilitator will move the proposal to the Snapshot voting phase, provided the proposal is aligned with the Sky Core Atlas and the Spark Artifact.
 
-###### A.6.1.1.1.3.1.4.4 - “Failed SRC Review” Authority and Procedure [Core]  <!-- UUID: ac9d89b5-7a07-4b95-8597-6644bc4029ab -->
+##### A.6.1.1.1.3.1.4.4 - “Failed SRC Review” Authority and Procedure [Core]  <!-- UUID: ac9d89b5-7a07-4b95-8597-6644bc4029ab -->
 
 The subdocuments herein set out the threshold, process and implications of a "Failed SRC Review" determination by the SRC.
 
@@ -9497,7 +9497,7 @@ The Operational Facilitator marks the proposal "Failed SRC Review."
 
 The proposal does not proceed to Snapshot (or is withdrawn).
 
-###### A.6.1.1.1.3.1.4.5 - Composition, Tenure, And Due Diligence [Core]  <!-- UUID: e8b3fdc4-8e46-47b8-b2d3-3775b4436d21 -->
+##### A.6.1.1.1.3.1.4.5 - Composition, Tenure, And Due Diligence [Core]  <!-- UUID: e8b3fdc4-8e46-47b8-b2d3-3775b4436d21 -->
 
 The subdocuments herein set out key details about the SRC, including their composition and appointment.
 
@@ -9523,11 +9523,11 @@ The Nested Contributor Phoenix Labs has a seat on the SRC as a non-voting coordi
 
 Members may be required to complete a confidential due diligence process, if the Spark Foundation deems it necessary.
 
-###### A.6.1.1.1.3.1.4.6 - Compensation [Core]  <!-- UUID: 3dddde86-989d-44ea-a2f4-7a1c26f9c844 -->
+##### A.6.1.1.1.3.1.4.6 - Compensation [Core]  <!-- UUID: 3dddde86-989d-44ea-a2f4-7a1c26f9c844 -->
 
 SRC members will receive compensation for performing their role on terms approved by the Spark Foundation.
 
-###### A.6.1.1.1.3.1.4.7 - Council Meetings [Core]  <!-- UUID: 3c6ed2b0-8ae1-4e3f-8f64-04ce2ae64e57 -->
+##### A.6.1.1.1.3.1.4.7 - Council Meetings [Core]  <!-- UUID: 3c6ed2b0-8ae1-4e3f-8f64-04ce2ae64e57 -->
 
 The subdocuments herein set out details about SRC meetings, including cadence and external participation.
 
@@ -9539,7 +9539,7 @@ The SRC shall hold a monthly internal governance meeting.
 
 In addition to SRC members, representatives of the Spark Foundation, Nested Contributor Phoenix Labs, and the Operational Facilitator are each permitted to attend in a coordinating and facilitating capacity.
 
-###### A.6.1.1.1.3.1.4.8 - Mid-Term Appointments And Member Changes [Core]  <!-- UUID: c139606c-f594-4dba-9afe-a32e2a2c64a1 -->
+##### A.6.1.1.1.3.1.4.8 - Mid-Term Appointments And Member Changes [Core]  <!-- UUID: c139606c-f594-4dba-9afe-a32e2a2c64a1 -->
 
 The subdocuments herein set out the process for mid-term appointments and other out-of-schedule replacement rules.
 
@@ -9563,7 +9563,7 @@ The appointee is seated upon due diligence completion to the Spark Foundation’
 
 Incumbent SRC members remain in office until successors are seated to ensure continuity of SRC operations. Newly appointed members are seated upon completion of due diligence to the Spark Foundation’s satisfaction and publication to the SRC Membership Registry.
 
-###### A.6.1.1.1.3.1.4.9 - Process Requirements [Core]  <!-- UUID: c1304ded-6912-472a-b836-cd7092262434 -->
+##### A.6.1.1.1.3.1.4.9 - Process Requirements [Core]  <!-- UUID: c1304ded-6912-472a-b836-cd7092262434 -->
 
 The subdocuments herein set out key deliverables for the SRC as well as rules around conflicts of interest.
 
@@ -9575,11 +9575,11 @@ In addition to the determinative independent risk review posted by the SRC for e
 
 SRC members must disclose conflicts of interest to Spark Foundation and recuse themselves where impartiality is compromised.
 
-###### A.6.1.1.1.3.1.4.10 - Non-Performance [Core]  <!-- UUID: 4a07187f-9fc2-4a70-ae4b-919a4f52467d -->
+##### A.6.1.1.1.3.1.4.10 - Non-Performance [Core]  <!-- UUID: 4a07187f-9fc2-4a70-ae4b-919a4f52467d -->
 
 Repeated failure to meet review timelines; failure to document decisions; blocking valid proposals due to malicious intent or evident poor due diligence; or any other failure to uphold the duties of the SRC set forth in the Spark Artifact may trigger removal and replacement of SRC members at the discretion of the Spark Foundation.
 
-###### A.6.1.1.1.3.1.4.11 - SRC Membership Registry Process [Core]  <!-- UUID: dc208bb2-ffb4-4a2a-b561-d563bc52eb14 -->
+##### A.6.1.1.1.3.1.4.11 - SRC Membership Registry Process [Core]  <!-- UUID: dc208bb2-ffb4-4a2a-b561-d563bc52eb14 -->
 
 The subdocuments herein contain the registry of SRC members, including name or alias, domain expertise, verified governance address, start date, term status, and standing (Active / Recused / Removed). The registry is maintained via an Active Data document updated by the Operational Facilitator per the subdocuments herein.
 
@@ -9602,23 +9602,23 @@ The information for each member of the SRC is listed below:
 | L2 Beat              | Risk             | N/A                         | 2025-10-03  | Active Term  | Active   |
 | Aragon               | Risk             | N/A                         | 2025-10-03  | Active Term  | Active   |
 
-###### A.6.1.1.1.3.1.5 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: 0483b49d-b074-4a98-bb4b-bc5d222dabf1 -->
+#### A.6.1.1.1.3.1.5 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: 0483b49d-b074-4a98-bb4b-bc5d222dabf1 -->
 
 The documents herein specify Spark’s emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.3.1.6 - Agent-Specific Emergency Response [Core]  <!-- UUID: 2d540356-97e0-431b-a03b-c3ec360e139b -->
+#### A.6.1.1.1.3.1.6 - Agent-Specific Emergency Response [Core]  <!-- UUID: 2d540356-97e0-431b-a03b-c3ec360e139b -->
 
 The documents herein specify Spark’s emergency response protocol in situations solely impacting Spark versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.3.2 - Management Of Infrastructure Inherited From Sky Core [Core]  <!-- UUID: fd2f8da1-616b-4c4f-9d6e-bdd14131eca4 -->
+### A.6.1.1.1.3.2 - Management Of Infrastructure Inherited From Sky Core [Core]  <!-- UUID: fd2f8da1-616b-4c4f-9d6e-bdd14131eca4 -->
 
 The documents herein specify Spark's strategy and operational processes for managing infrastructure inherited from Sky Core.
 
-###### A.6.1.1.1.3.2.1 - SparkLend [Core]  <!-- UUID: d9ff0cd2-8999-4d3d-9670-2c7b49c1fe51 -->
+#### A.6.1.1.1.3.2.1 - SparkLend [Core]  <!-- UUID: d9ff0cd2-8999-4d3d-9670-2c7b49c1fe51 -->
 
 The documents herein define the parameters and operational processes related to SparkLend. Control of SparkLend is being transitioned to Spark.
 
-###### A.6.1.1.1.3.2.1.1 - Parameters [Core]  <!-- UUID: a15a6203-23b1-4921-8bdb-fe0ef6013bf6 -->
+##### A.6.1.1.1.3.2.1.1 - Parameters [Core]  <!-- UUID: a15a6203-23b1-4921-8bdb-fe0ef6013bf6 -->
 
 The parameters of SparkLend are specified in the subdocuments herein.
 
@@ -10678,7 +10678,7 @@ The kill switch currently covers the following assets with the specified thresho
 - cbBTC/BTC - 0.95
 - WBTC/BTC - 0.95 - Oracle: ChainLink WBTC/BTC (0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23)
 
-###### A.6.1.1.1.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: e547484b-1388-4cc2-a03f-971b96c341bd -->
+##### A.6.1.1.1.3.2.1.2 - Operational Process Definition [Core]  <!-- UUID: e547484b-1388-4cc2-a03f-971b96c341bd -->
 
 The documents herein define the process for the ongoing management of SparkLend. Future iterations of the Artifact will specify operational processes owned by Spark.
 
@@ -10712,15 +10712,15 @@ Post SPK launch, the following revenue-share operational process takes effect. T
 
 If at any point in time after the launch of Agent tokens, Spark Protocol is generating less than 1 million Dai per year in income for Spark Agent, accrual towards the revenue share payments are paused (unpaid revenue share that already accrued is still paid out at the end of the quarter), and the counting down of the revenue share duration is paused. The revenue share payments and the counting down of the remaining revenue share duration is resumed when Spark Protocol is generating more than 1 million Dai per year in income again.
 
-###### A.6.1.1.1.3.2.1.3 - Data Repository [Core]  <!-- UUID: 2301085e-3492-422b-8b75-c6dd6564ef29 -->
+##### A.6.1.1.1.3.2.1.3 - Data Repository [Core]  <!-- UUID: 2301085e-3492-422b-8b75-c6dd6564ef29 -->
 
 The documents herein contain data relevant to SparkLend.
 
-###### A.6.1.1.1.3.2.2 - Spark Pre-launch Token Rewards [Core]  <!-- UUID: b4172fc3-9566-4512-b058-75040e47e3bf -->
+#### A.6.1.1.1.3.2.2 - Spark Pre-launch Token Rewards [Core]  <!-- UUID: b4172fc3-9566-4512-b058-75040e47e3bf -->
 
 The subdocuments herein define the parameters and operational processes related to Spark’s pre-launch token rewards program. These rewards will be paid exclusively out of the SPK tokens held by the Spark Foundation.
 
-###### A.6.1.1.1.3.2.2.1 - Parameters [Core]  <!-- UUID: 666671f0-ce3b-4b3f-bf72-d163afa42f4e -->
+##### A.6.1.1.1.3.2.2.1 - Parameters [Core]  <!-- UUID: 666671f0-ce3b-4b3f-bf72-d163afa42f4e -->
 
 The parameters of the Spark Pre-launch Token Rewards are specified in the subdocuments herein.
 
@@ -10747,7 +10747,7 @@ The proposed full anti-cheat SPK Airdrop for SparkLend is calculated using the f
 
 All supplies and borrows are denominated in USD based on the on-chain oracle price at that block to determine the conversion.
 
-###### A.6.1.1.1.3.2.2.2 - Operational Process Definition [Core]  <!-- UUID: ba833546-a8aa-4390-9c87-0204abd53e4b -->
+##### A.6.1.1.1.3.2.2.2 - Operational Process Definition [Core]  <!-- UUID: ba833546-a8aa-4390-9c87-0204abd53e4b -->
 
 The documents herein define the process for the ongoing management of the Spark Pre-launch Token Rewards.
 
@@ -10778,19 +10778,19 @@ sUSDS supplies on Aave V3 Main Market are eligible to earn 7,239,130 SPK tokens 
 
 `sUSDS Supplies - Sum_i(Stablecoin_i Borrow Amount (in USD) / Stablecoin_i Liquidation Threshold)`
 
-###### A.6.1.1.1.3.2.2.3 - Data Repository [Core]  <!-- UUID: 4ffe4c6e-0dc0-4cb5-9365-8e5a62f0caa5 -->
+##### A.6.1.1.1.3.2.2.3 - Data Repository [Core]  <!-- UUID: 4ffe4c6e-0dc0-4cb5-9365-8e5a62f0caa5 -->
 
 The documents herein contain data relevant to the Spark Pre-launch Token Rewards.
 
-###### A.6.1.1.1.3.3 - Ecosystem Accords [Core]  <!-- UUID: 599fad77-5117-44b2-83c6-3028b2a8a160 -->
+### A.6.1.1.1.3.3 - Ecosystem Accords [Core]  <!-- UUID: 599fad77-5117-44b2-83c6-3028b2a8a160 -->
 
 Spark has formally agreed to the Ecosystem Accords herein.
 
-###### A.6.1.1.1.3.3.1 - Ecosystem Accord 1 [Core]  <!-- UUID: 7e68a753-88bc-4711-b709-3b5be9e286ad -->
+#### A.6.1.1.1.3.3.1 - Ecosystem Accord 1 [Core]  <!-- UUID: 7e68a753-88bc-4711-b709-3b5be9e286ad -->
 
 Spark engaged in terms of agreement with the Grove Agent in Ecosystem Accord 1, located in [A.2.8.2.1 - Ecosystem Accord 1: Grove And Spark Agents](9ca40096-937e-431e-af50-9ecd50c0d0a8).
 
-###### A.6.1.1.1.3.3.1.1 - Right of First Refusal Activity [Core]  <!-- UUID: 3b3961e9-9763-499e-bb75-0ea6a9af16b9 -->
+##### A.6.1.1.1.3.3.1.1 - Right of First Refusal Activity [Core]  <!-- UUID: 3b3961e9-9763-499e-bb75-0ea6a9af16b9 -->
 
 The subdocuments herein record the Right of First Refusal activity engaged in by Spark.
 
@@ -10798,31 +10798,31 @@ The subdocuments herein record the Right of First Refusal activity engaged in by
 
 Spark forwent exercising its Right of First Refusal in order to enable Grove to deploy in Aave Core RLUSD.
 
-###### A.6.1.1.1.3.3.2 - Ecosystem Accord 2 [Core]  <!-- UUID: d8c5d4f5-5b32-4897-8174-90de0b3d9d84 -->
+#### A.6.1.1.1.3.3.2 - Ecosystem Accord 2 [Core]  <!-- UUID: d8c5d4f5-5b32-4897-8174-90de0b3d9d84 -->
 
 Spark engaged in terms of agreement with Sky, Moonbow and Grove in Ecosystem Accord 2, located in [A.2.8.2.2 - Prime Program](aa3b8e65-0ded-48c2-9c40-812debf99f32).
 
-###### A.6.1.1.1.3.4 - SubDAO Proxy Management [Core]  <!-- UUID: 2ad53f55-44cb-44fd-9e68-6c7ed128e360 -->
+### A.6.1.1.1.3.4 - SubDAO Proxy Management [Core]  <!-- UUID: 2ad53f55-44cb-44fd-9e68-6c7ed128e360 -->
 
 The documents herein specify Spark's strategy and operational processes for managing assets held in the Spark SubDAO Proxy, and obligations relating to these assets.
 
-###### A.6.1.1.1.3.4.1 - Operational Process Definition [Core]  <!-- UUID: bfdc08d5-42f5-4d49-9390-b6ad210c5c40 -->
+#### A.6.1.1.1.3.4.1 - Operational Process Definition [Core]  <!-- UUID: bfdc08d5-42f5-4d49-9390-b6ad210c5c40 -->
 
 The documents herein define the process for updating Spark's SubDAO Proxy management policies.
 
-###### A.6.1.1.1.3.4.1.1 - Spark SubDAO Proxy Policy Changes [Core]  <!-- UUID: 90240e75-6e5f-4a54-8999-ee430cfcf20d -->
+##### A.6.1.1.1.3.4.1.1 - Spark SubDAO Proxy Policy Changes [Core]  <!-- UUID: 90240e75-6e5f-4a54-8999-ee430cfcf20d -->
 
 Changes to Spark SubDAO Proxy management policies are implemented using the Root Edit Primitive.
 
-###### A.6.1.1.1.3.4.1.2 - Preapproved Subdao Proxy Activities [Core]  <!-- UUID: 8a421648-d732-44c1-8666-bbbb9b7bfff2 -->
+##### A.6.1.1.1.3.4.1.2 - Preapproved Subdao Proxy Activities [Core]  <!-- UUID: 8a421648-d732-44c1-8666-bbbb9b7bfff2 -->
 
 Dispositions of Spark SubDAO Proxy assets that have already been approved by governance and added to the Spark artifact, including periodic payments and disposal of non-core assets, can continue as planned until a superseding policy change is adopted via the Spark SubDAO Proxy Policy Changes process.
 
-###### A.6.1.1.1.3.4.2 - Policies and Parameters [Core]  <!-- UUID: 262ff1c9-9634-45a4-9f18-ed222352ddb4 -->
+#### A.6.1.1.1.3.4.2 - Policies and Parameters [Core]  <!-- UUID: 262ff1c9-9634-45a4-9f18-ed222352ddb4 -->
 
 The documents herein define the currently active policies for managing the Spark SubDAO Proxy, alongside relevant parameters for implementing the policies.
 
-###### A.6.1.1.1.3.4.2.1 - Encumbrance Ratio [Core]  <!-- UUID: 9995ba51-1de7-4b32-8b76-a71462dc4c5b -->
+##### A.6.1.1.1.3.4.2.1 - Encumbrance Ratio [Core]  <!-- UUID: 9995ba51-1de7-4b32-8b76-a71462dc4c5b -->
 
 The documents herein define Spark's policy for managing the Encumbrance Ratio.
 
@@ -10846,7 +10846,7 @@ The current Target Encumbrance Ratio is 90%.
 
 This parameter will be maintained in parallel with the value specified in the Spark Artifact Allocation System Primitive section at [A.6.1.1.1.2.6.1.2.1.3.1 - Spark’s Operation Of Spark Liquidity Layer And Agreement Regarding Encumbrance Ratio](23f7ed09-99ca-45aa-8e12-dffcf55170af); any change to one section of the Spark Artifact will require a corresponding change in the other section.
 
-###### A.6.1.1.1.3.4.2.2 - Target SubDAO Proxy Value [Core]  <!-- UUID: 2e676b28-14e8-4536-ab70-c49b896da8b8 -->
+##### A.6.1.1.1.3.4.2.2 - Target SubDAO Proxy Value [Core]  <!-- UUID: 2e676b28-14e8-4536-ab70-c49b896da8b8 -->
 
 The documents herein define Spark’s policy for maintaining a SubDAO Proxy balance sufficient to cover anticipated risk exposures and operational expenses.
 
@@ -10892,7 +10892,7 @@ The current Target SubDAO Proxy Value parameters are:
 - Spark Product Backstop: 1 million USDS
 - Target Runway: 12 months
 
-###### A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy [Core]  <!-- UUID: 6a4870fa-73f1-4d49-b7ee-d531fb59a971 -->
+##### A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy [Core]  <!-- UUID: 6a4870fa-73f1-4d49-b7ee-d531fb59a971 -->
 
 The documents herein define Spark’s policy for disposition of excess SubDAO Proxy funds above the target SubDAO Proxy value.
 
@@ -10936,7 +10936,7 @@ The current buyback policy parameters are:
 - Buyback executor: 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC
 - Buyback recipient: 0x3300f198988e4C9C63F75dF86De36421f06af8c4
 
-###### A.6.1.1.1.3.4.2.4 - SPK Contributor Vesting [Core]  <!-- UUID: 3b2d9368-7dd5-424a-b9da-b6218ffb5c55 -->
+##### A.6.1.1.1.3.4.2.4 - SPK Contributor Vesting [Core]  <!-- UUID: 3b2d9368-7dd5-424a-b9da-b6218ffb5c55 -->
 
 The documents herein define Spark’s policy for managing the SPK contributor vesting.
 
@@ -10960,23 +10960,23 @@ The current SPK contributor vesting parameters are:
         - Address: `0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09`
         - Amount: 1.2 billion SPK (12% of total supply)
 
-###### A.6.1.1.1.3.5 - Spark Savings Configuration [Core]  <!-- UUID: 9b4ce799-3baa-42e8-a742-7e8deb377dfc -->
+### A.6.1.1.1.3.5 - Spark Savings Configuration [Core]  <!-- UUID: 9b4ce799-3baa-42e8-a742-7e8deb377dfc -->
 
 The documents herein specify Spark's strategy and operational processes for managing parameters and liquidity for the Spark Savings protocol.
 
-###### A.6.1.1.1.3.5.1 - Operational Process Definition [Core]  <!-- UUID: 99f4c04b-e531-498a-aeaa-016c7811bf7a -->
+#### A.6.1.1.1.3.5.1 - Operational Process Definition [Core]  <!-- UUID: 99f4c04b-e531-498a-aeaa-016c7811bf7a -->
 
 The documents herein define the process for updating Spark Savings Configuration policies and parameters.
 
-###### A.6.1.1.1.3.5.1.1 - Spark Savings Configuration Changes [Core]  <!-- UUID: d6405fa7-d02f-4c31-b191-ad1a2485cca3 -->
+##### A.6.1.1.1.3.5.1.1 - Spark Savings Configuration Changes [Core]  <!-- UUID: d6405fa7-d02f-4c31-b191-ad1a2485cca3 -->
 
 Changes to Spark Savings Configuration policies and parameters are implemented using the Root Edit Primitive.
 
-###### A.6.1.1.1.3.5.2 - Onchain Parameters [Core]  <!-- UUID: 32a8f019-86e2-47a0-a55d-c481ade62051 -->
+#### A.6.1.1.1.3.5.2 - Onchain Parameters [Core]  <!-- UUID: 32a8f019-86e2-47a0-a55d-c481ade62051 -->
 
 The documents herein define the onchain parameters that are implemented within Spark Savings.
 
-###### A.6.1.1.1.3.5.2.1 - Spark Savings Parameters Definitions [Core]  <!-- UUID: 81198aca-06bd-44fa-90b0-16f8c2c4dd19 -->
+##### A.6.1.1.1.3.5.2.1 - Spark Savings Parameters Definitions [Core]  <!-- UUID: 81198aca-06bd-44fa-90b0-16f8c2c4dd19 -->
 
 The subdocuments herein provide definitions for Spark Savings onchain parameters.
 
@@ -11008,7 +11008,7 @@ The max yield parameter is the highest Spark Savings vault rewards rate that can
 
 The supply cap defines the maximum amount of underlying asset that can be deposited to a Spark Savings vault by users.
 
-###### A.6.1.1.1.3.5.2.2 - Spark Savings Parameters Current Configuration [Core]  <!-- UUID: 5cfe1941-3231-495c-a4c9-50745ec0a5a9 -->
+##### A.6.1.1.1.3.5.2.2 - Spark Savings Parameters Current Configuration [Core]  <!-- UUID: 5cfe1941-3231-495c-a4c9-50745ec0a5a9 -->
 
 The subdocuments herein provide the current configuration of Spark Savings onchain parameters.
 
@@ -11106,11 +11106,11 @@ The current parameters for Spark Savings USDT on X Layer are:
 - Min yield: 0%
 - Max yield: 6%
 - Supply cap: 750 million
-###### A.6.1.1.1.3.5.3 - Policies and Operational Parameters [Core]  <!-- UUID: c8fcae7c-01ea-48cf-9b8c-4de7d3c86d78 -->
+#### A.6.1.1.1.3.5.3 - Policies and Operational Parameters [Core]  <!-- UUID: c8fcae7c-01ea-48cf-9b8c-4de7d3c86d78 -->
 
 The documents herein define the currently active policies for Spark Savings Configuration, alongside relevant operational parameters for implementing the policies.
 
-###### A.6.1.1.1.3.5.3.1 - Target Liquidity [Core]  <!-- UUID: 6f328a96-1275-46f7-a034-b40dcb69f708 -->
+##### A.6.1.1.1.3.5.3.1 - Target Liquidity [Core]  <!-- UUID: 6f328a96-1275-46f7-a034-b40dcb69f708 -->
 
 The documents herein define Spark's policy for managing the liquidity buffers available for user withdrawals from Spark Savings vaults.
 
@@ -11164,7 +11164,7 @@ The current Target Liquidity for Spark Savings USDT on Arbitrum is the greater o
 
 The current Target Liquidity for Spark Savings USDT on X Layer is the greater of 10% of total deposits or 1 million USDT, up to a maximum amount of 10 million USDT.
 
-###### A.6.1.1.1.3.5.3.2 - Rewards Rate [Core]  <!-- UUID: 22d359a5-3f83-409f-8396-595ac1ea0060 -->
+##### A.6.1.1.1.3.5.3.2 - Rewards Rate [Core]  <!-- UUID: 22d359a5-3f83-409f-8396-595ac1ea0060 -->
 
 The documents herein define Spark's policy for managing the rewards rate for Spark Savings vaults.
 
@@ -11213,31 +11213,31 @@ The Rewards Rate for Spark Savings USDT on Arbitrum is set via the vault’s set
 
 The Rewards Rate for Spark Savings USDT on X Layer is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Rewards Rate Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.8 - Onchain Parameters](c6eb9203-a5af-4f9b-baaf-b70c4449d4a4). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Rewards Rate Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
 
-###### A.6.1.1.1.3.6 - Strategic Investments [Core]  <!-- UUID: a05cc5db-64e5-4279-84ed-e93d4aa67c38 -->
+### A.6.1.1.1.3.6 - Strategic Investments [Core]  <!-- UUID: a05cc5db-64e5-4279-84ed-e93d4aa67c38 -->
 
 The documents herein specify Spark's operational processes for undertaking and managing strategic investments, alongside details of existing strategic investments.
 
-###### A.6.1.1.1.3.6.1 - Operational Process Definition [Core]  <!-- UUID: b706d2e5-6f78-4c02-b3da-1ecc9d0a2397 -->
+#### A.6.1.1.1.3.6.1 - Operational Process Definition [Core]  <!-- UUID: b706d2e5-6f78-4c02-b3da-1ecc9d0a2397 -->
 
 The documents herein define the process for updating Strategic Investment policies and procedures, and for actions related to proposed or current strategic investments.
 
-###### A.6.1.1.1.3.6.1.1 - Strategic Investment Policy Updates [Core]  <!-- UUID: 4216b5c8-9038-4620-a4a9-17062e59863e -->
+##### A.6.1.1.1.3.6.1.1 - Strategic Investment Policy Updates [Core]  <!-- UUID: 4216b5c8-9038-4620-a4a9-17062e59863e -->
 
 Changes to Strategic Investment policies and procedures are implemented using the Root Edit Primitive.
 
-###### A.6.1.1.1.3.6.1.2 - Strategic Investment Approvals and Significant Decisions [Core]  <!-- UUID: 66baa7af-73c7-493e-8fbb-66da8a2e8caf -->
+##### A.6.1.1.1.3.6.1.2 - Strategic Investment Approvals and Significant Decisions [Core]  <!-- UUID: 66baa7af-73c7-493e-8fbb-66da8a2e8caf -->
 
 Approval of new Strategic Investments, as well as significant changes to existing strategic investments including assignment of rights, sales or disposal of interests, are subject to Spark governance approval and implemented via the Root Edit Primitive.
 
-###### A.6.1.1.1.3.6.1.3 - Delegation of Authority [Core]  <!-- UUID: daf295c4-78eb-463c-a7db-3a012deec873 -->
+##### A.6.1.1.1.3.6.1.3 - Delegation of Authority [Core]  <!-- UUID: daf295c4-78eb-463c-a7db-3a012deec873 -->
 
 Certain rights and responsibilities related to strategic investments, including shareholder voting rights, conversion rights, and informational rights, may be held and exercised by Spark Foundation and/or Spark Asset Foundation. Additionally, legal ownership of and title to equity, tokens, or other interests in Spark's Strategic Investments may be held by Spark Foundation or Spark Asset Foundation. Details of delegated authority and rights management, where applicable, should be specified for each individual strategic investment.
 
-###### A.6.1.1.1.3.6.2 - Current Strategic Investments [Core]  <!-- UUID: 0eb2eb16-7306-4410-a596-8c2ff371598a -->
+#### A.6.1.1.1.3.6.2 - Current Strategic Investments [Core]  <!-- UUID: 0eb2eb16-7306-4410-a596-8c2ff371598a -->
 
 The documents herein provide details on each Strategic Investment undertaken by Spark.
 
-###### A.6.1.1.1.3.6.2.1 - Arkis [Core]  <!-- UUID: a4e71b17-18ca-4911-b9a6-3be65f919591 -->
+##### A.6.1.1.1.3.6.2.1 - Arkis [Core]  <!-- UUID: a4e71b17-18ca-4911-b9a6-3be65f919591 -->
 
 Arkis is a protocol and technology infrastructure layer facilitating prime brokerage services across both defi protocols and assets, as well as centralized exchanges and custodial services.
 
@@ -11259,33 +11259,33 @@ Spark's strategic investment will be undertaken with the following terms:
 
 Spark Foundation, as legal owner of the interest in PRM LBS LTD, is empowered to exercise all rights and responsibilities related to the investment for the benefit of the Spark ecosystem, and according to generally accepted business practices as well as the Spark Foundation's own professional judgement.
 
-###### A.6.1.1.1.3.7 - Arkis Infrastructure [Core]  <!-- UUID: 9a2d76b9-95c7-4e11-b3b8-ed74f2188e4f -->
+### A.6.1.1.1.3.7 - Arkis Infrastructure [Core]  <!-- UUID: 9a2d76b9-95c7-4e11-b3b8-ed74f2188e4f -->
 
 The documents herein specify Spark’s strategy and operational processes for allocating capital via Arkis Infrastructure, powered by the Arkis protocol prime brokerage infrastructure.
 
-###### A.6.1.1.1.3.7.1 - Operational Process Definition [Core]  <!-- UUID: cb7c2b0f-15e7-48b3-80fc-f2dc46341468 -->
+#### A.6.1.1.1.3.7.1 - Operational Process Definition [Core]  <!-- UUID: cb7c2b0f-15e7-48b3-80fc-f2dc46341468 -->
 
 The documents herein define the process for updating Arkis Infrastructure policies and procedures.
 
-###### A.6.1.1.1.3.7.1.1 - Arkis Infrastructure Policy Changes [Core]  <!-- UUID: a9061ad0-9dbd-4188-94eb-3f1f6783f271 -->
+##### A.6.1.1.1.3.7.1.1 - Arkis Infrastructure Policy Changes [Core]  <!-- UUID: a9061ad0-9dbd-4188-94eb-3f1f6783f271 -->
 
 Changes to Arkis Infrastructure policies are implemented using the Root Edit Primitive.
 
-###### A.6.1.1.1.3.7.1.2 - Arkis Infrastructure Policy Change Execution [Core]  <!-- UUID: 3d254422-962c-405c-9c5c-dc72ff37bfec -->
+##### A.6.1.1.1.3.7.1.2 - Arkis Infrastructure Policy Change Execution [Core]  <!-- UUID: 3d254422-962c-405c-9c5c-dc72ff37bfec -->
 
 Approved changes to Arkis Infrastructure policies are executed by either Spark Governance (for onchain updates under Spark governance admin control), or via the Arkis team (for offchain components including the Arkis Margin engine or CEX subaccount management). Policy changes must be executed promptly after Root Edit Primitive approval. If policy changes are not executed as required, Spark must remove all funding allocated through the Arkis protocol infrastructure as soon as reasonably practicable.
 
-###### A.6.1.1.1.3.7.2 - Policies and Mandate [Core]  <!-- UUID: d126ed27-57ef-4bf0-ae49-aabbaec47ad4 -->
+#### A.6.1.1.1.3.7.2 - Policies and Mandate [Core]  <!-- UUID: d126ed27-57ef-4bf0-ae49-aabbaec47ad4 -->
 
 The documents herein define the currently active policies and mandate for allocation via Arkis Infrastructure.
 
-###### A.6.1.1.1.3.7.2.1 - Counterparty Requirements [Core]  <!-- UUID: 15349ede-15d1-4cee-80d9-fd0b5e5f9f3a -->
+##### A.6.1.1.1.3.7.2.1 - Counterparty Requirements [Core]  <!-- UUID: 15349ede-15d1-4cee-80d9-fd0b5e5f9f3a -->
 
 Borrowers funded via Arkis Infrastructure must be duly registered by competent authorities in their primary jurisdiction, and must not be subject to sanctions by the US, UK, EU, or UN. Responsibility for verifying KYC/KYB and meeting related compliance requirements is handled by Arkis during the borrower onboarding process.
 
 Borrowers must not be insolvent at the time of loan origination or renewal. Borrowers will self-certify their solvency as part of loan agreements. If a borrower becomes insolvent or enters administration while having an active loan, the entire loan amount becomes due and payable and Arkis may immediately liquidate collateral to recover the loan balance.
 
-###### A.6.1.1.1.3.7.2.2 - Marginable Assets [Core]  <!-- UUID: ef6decfd-b7ce-49a0-85aa-0885921c21f3 -->
+##### A.6.1.1.1.3.7.2.2 - Marginable Assets [Core]  <!-- UUID: ef6decfd-b7ce-49a0-85aa-0885921c21f3 -->
 
 The documents herein define the assets or positions that are accepted as margin collateral within instances of the Arkis protocol funded by Spark.
 
@@ -11439,7 +11439,7 @@ Approved onchain spot decentralized exchange protocols may be included within po
 
 Exposure to unapproved assets and/or futures products is not permitted, and incurs a collateral haircut rating of +100% / -100%. Long and short exposure to unapproved products will not be counted as offsetting each other. Frequent or significant exposure to unapproved assets or products may result in recall of the loan amount or liquidation of outstanding positions.
 
-###### A.6.1.1.1.3.7.2.3 - Approved Venues [Core]  <!-- UUID: c0a9aae3-661b-4124-9da7-1a85e01e4358 -->
+##### A.6.1.1.1.3.7.2.3 - Approved Venues [Core]  <!-- UUID: c0a9aae3-661b-4124-9da7-1a85e01e4358 -->
 
 The documents herein define the venues where Arkis Infrastructure users are permitted to trade and hold positions.
 
@@ -11527,7 +11527,7 @@ Users are permitted to hold assets and positions within Aster, in a subaccount c
 
 - Exposure Limit: $25 million
 
-###### A.6.1.1.1.3.7.2.4 - Loan Terms [Core]  <!-- UUID: b3fed3ac-7b42-4dfd-b35e-c229598781f7 -->
+##### A.6.1.1.1.3.7.2.4 - Loan Terms [Core]  <!-- UUID: b3fed3ac-7b42-4dfd-b35e-c229598781f7 -->
 
 The documents herein specify the policies and parameters for setting loan agreement terms.
 
@@ -11561,7 +11561,7 @@ The minimum borrow rate for loans via the Arkis infrastructure must be the great
 - Sky Savings Rate + 0.3%
 - SOFR
 
-###### A.6.1.1.1.3.7.2.5 - Recall and Acceleration [Core]  <!-- UUID: d234e0ca-af2f-4cab-8f84-6e5a39650b05 -->
+##### A.6.1.1.1.3.7.2.5 - Recall and Acceleration [Core]  <!-- UUID: d234e0ca-af2f-4cab-8f84-6e5a39650b05 -->
 
 The documents herein provide details of how and when loans should be recalled, accelerated, or liquidated in order to mitigate risk.
 
@@ -11585,11 +11585,11 @@ Spark may update approved assets and products, risk parameters, and other detail
 
 If market conditions or other factors create an immediate and severe risk of capital impairment, Spark and Arkis are empowered to implement immediate changes to risk parameters and configuration to mitigate risk. Actions taken may include preventing new loans or draws on existing loans, adjusting risk parameters of existing positions including increasing margin requirements or haircuts, demanding immediate repayment, up to and including liquidating high risk positions.
 
-###### A.6.1.1.1.3.7.2.6 - Delegation of Rights and Responsibilities [Core]  <!-- UUID: 404a62a2-6918-44e3-9809-1fec0b7ca2a1 -->
+##### A.6.1.1.1.3.7.2.6 - Delegation of Rights and Responsibilities [Core]  <!-- UUID: 404a62a2-6918-44e3-9809-1fec0b7ca2a1 -->
 
 Spark Asset Foundation is the legal owner of funds allocated via the Spark Liquidity Layer and is the entity responsible for the Arkis onboarding and capital allocation relationship. Spark Asset Foundation will be empowered to exercise all rights and responsibilities with respect to the Arkis Infrastructure capital allocation activities via the Arkis protocol, for the benefit of the Spark ecosystem and according to generally accepted business practices and Spark Asset Foundation’s professional judgement.
 
-###### A.6.1.1.1.3.7.2.7 - Account Management [Core]  <!-- UUID: d55a80b7-f3e9-43b2-831c-0f41bbbb7b68 -->
+##### A.6.1.1.1.3.7.2.7 - Account Management [Core]  <!-- UUID: d55a80b7-f3e9-43b2-831c-0f41bbbb7b68 -->
 
 The documents herein define the requirements for controlling and managing offchain accounts and permissions related to Arkis Infrastructure.
 
@@ -11618,33 +11618,33 @@ Funds may only be transferred to a collateral agent after confirmation that all 
 
 Funds may be transferred to the designated address for Spark Liquidity Layer at any time without restriction.
 
-###### A.6.1.1.1.3.8 - Offchain Collateralized Lending [Core]  <!-- UUID: 7905b0d3-4269-4ba5-a3e2-fdb327b087f4 -->
+### A.6.1.1.1.3.8 - Offchain Collateralized Lending [Core]  <!-- UUID: 7905b0d3-4269-4ba5-a3e2-fdb327b087f4 -->
 
 The documents herein specify Spark’s strategy and operational processes for allocating capital via offchain lending arrangements with collateral secured in qualified custodians.
 
-###### A.6.1.1.1.3.8.1 - Operational Process Definition [Core]  <!-- UUID: 8142b2db-e601-4222-a411-5a5caeb4009b -->
+#### A.6.1.1.1.3.8.1 - Operational Process Definition [Core]  <!-- UUID: 8142b2db-e601-4222-a411-5a5caeb4009b -->
 
 The documents herein define the process for updating Offchain Collateralized Lending policies and procedures.
 
-###### A.6.1.1.1.3.8.1.1 - Offchain Collateralized Lending Policy Changes [Core]  <!-- UUID: c9ef7b0f-ed76-42d5-baa8-6afcd288fd58 -->
+##### A.6.1.1.1.3.8.1.1 - Offchain Collateralized Lending Policy Changes [Core]  <!-- UUID: c9ef7b0f-ed76-42d5-baa8-6afcd288fd58 -->
 
 Changes to Offchain Collateralized Lending policies are implemented using the Root Edit Primitive.
 
-###### A.6.1.1.1.3.8.1.2 - Offchain Collateralized Lending Policy Change Execution [Core]  <!-- UUID: c91355f0-4a54-4dd9-a13d-f40f8c515994 -->
+##### A.6.1.1.1.3.8.1.2 - Offchain Collateralized Lending Policy Change Execution [Core]  <!-- UUID: c91355f0-4a54-4dd9-a13d-f40f8c515994 -->
 
 Approved changes to Offchain Collateralized Lending policies are executed by either Spark Governance (for onchain updates under Spark governance admin control), or via the Spark Asset Foundation account held at relevant custodian(s) and related admin panel(s) (for offchain components). Policy changes must be executed promptly after Root Edit Primitive approval. If policy changes are not executed as required, Spark must remove all funding allocated through the Offchain Collateralized Lending infrastructure as soon as reasonably practicable.
 
-###### A.6.1.1.1.3.8.2 - Policies and Mandate [Core]  <!-- UUID: b3ebb481-d63f-45d7-9c9b-93a3a7be1f6d -->
+#### A.6.1.1.1.3.8.2 - Policies and Mandate [Core]  <!-- UUID: b3ebb481-d63f-45d7-9c9b-93a3a7be1f6d -->
 
 The documents herein define the currently active policies and mandate for allocation via Offchain Collateralized Lending arrangements.
 
-###### A.6.1.1.1.3.8.2.1 - Counterparty Requirements [Core]  <!-- UUID: 5a57a6c6-f88d-439a-9e8b-f11068438bf6 -->
+##### A.6.1.1.1.3.8.2.1 - Counterparty Requirements [Core]  <!-- UUID: 5a57a6c6-f88d-439a-9e8b-f11068438bf6 -->
 
 Borrowers funded via Offchain Collateralized Lending must be duly registered by competent authorities in their primary jurisdiction, and must not be subject to sanctions by the US, UK, EU, or UN. Responsibility for verifying KYC/KYB and meeting related compliance requirements is handled by venues (custodians and/or collateral agents) during the borrower onboarding process.
 
 Borrowers must not be insolvent at the time of loan origination or renewal. Borrowers will self-certify their solvency as part of loan agreements. If a borrower becomes insolvent or enters administration while having an active loan, the entire loan amount becomes due and payable and the collateral agent or custodian may immediately liquidate collateral to recover the loan balance.
 
-###### A.6.1.1.1.3.8.2.2 - Marginable Assets [Core]  <!-- UUID: 137b6e3a-b6c7-4660-b135-8aff765a57a0 -->
+##### A.6.1.1.1.3.8.2.2 - Marginable Assets [Core]  <!-- UUID: 137b6e3a-b6c7-4660-b135-8aff765a57a0 -->
 
 The documents herein define the assets or positions that are accepted as margin collateral within Offchain Collateralized Lending arrangements funded by Spark.
 
@@ -11724,7 +11724,7 @@ The subdocuments herein define the assets currently accepted as margin collatera
 - Exposure limit: $500 million (of which, not more than $50 million from XAUM)
 - Staked and wrapped versions: Tether XAUT, Paxos PAXG, Matrixdock XAUM
 
-###### A.6.1.1.1.3.8.2.3 - Approved Venues [Core]  <!-- UUID: b03b3354-1290-41d6-89fe-d841c3a79d3c -->
+##### A.6.1.1.1.3.8.2.3 - Approved Venues [Core]  <!-- UUID: b03b3354-1290-41d6-89fe-d841c3a79d3c -->
 
 The documents herein define the venues where liquidity and collateral related to Offchain Collateralized Lending arrangements may be held.
 
@@ -11752,7 +11752,7 @@ Offchain Collateralized Lending may be facilitated via Anchorage, which is appro
 - Collateral Agent(s):
     - Anchorage Innovations: $1 billion
 
-###### A.6.1.1.1.3.8.2.4 - Loan Terms [Core]  <!-- UUID: f80317f5-cf93-4610-b35a-2e60c94011d0 -->
+##### A.6.1.1.1.3.8.2.4 - Loan Terms [Core]  <!-- UUID: f80317f5-cf93-4610-b35a-2e60c94011d0 -->
 
 The documents herein specify the policies and parameters for setting loan agreement terms.
 
@@ -11794,7 +11794,7 @@ The minimum borrow rate for loans via Offchain Collateralized Lending arrangemen
 
 The maximum permitted margin call cure period is 24 hours from the time the Maintenance LTV is breached.
 
-###### A.6.1.1.1.3.8.2.5 - Recall and Acceleration [Core]  <!-- UUID: 19eeb757-6167-4aff-87f4-5f97331ab7e6 -->
+##### A.6.1.1.1.3.8.2.5 - Recall and Acceleration [Core]  <!-- UUID: 19eeb757-6167-4aff-87f4-5f97331ab7e6 -->
 
 The documents herein provide details of how and when loans should be recalled, accelerated, or liquidated in order to mitigate risk.
 
@@ -11818,11 +11818,11 @@ Spark may update approved assets, risk parameters, and other details of the Offc
 
 If market conditions or other factors create an immediate and severe risk of capital impairment, Spark is empowered to implement immediate changes to risk parameters and configuration to mitigate risk. Actions taken may include preventing new loans or draws on existing loans, adjusting configurable parameters, or requesting accelerated repayment and return of capital.
 
-###### A.6.1.1.1.3.8.2.6 - Delegation of Rights and Responsibilities [Core]  <!-- UUID: 4a181787-661e-4c97-9eec-0eaaa4d632c5 -->
+##### A.6.1.1.1.3.8.2.6 - Delegation of Rights and Responsibilities [Core]  <!-- UUID: 4a181787-661e-4c97-9eec-0eaaa4d632c5 -->
 
 Spark Asset Foundation is the legal owner of funds allocated via the Spark Liquidity Layer and onboarded entity for custodians and collateral agents. Spark Asset Foundation will be empowered to exercise all rights and responsibilities with respect to the Offchain Collateralized Lending allocation activities and account management, for the benefit of the Spark ecosystem and according to generally accepted business practices and Spark Asset Foundation’s professional judgement. Spark Asset Foundation may delegate certain operational functions to Phoenix Labs at its discretion, including risk underwriting, sourcing prospective borrowers, and deal negotiation.
 
-###### A.6.1.1.1.3.8.2.7 - Account Management [Core]  <!-- UUID: d6284e0b-441e-478b-b465-9053cd13ffaa -->
+##### A.6.1.1.1.3.8.2.7 - Account Management [Core]  <!-- UUID: d6284e0b-441e-478b-b465-9053cd13ffaa -->
 
 The documents herein define the requirements for controlling and managing offchain custody accounts used within Offchain Collateralized Lending arrangements.
 
@@ -11853,75 +11853,75 @@ Funds may be transferred to the designated address(es) provided by the custodian
 
 Funds may be transferred to the designated address for Spark Liquidity Layer at any time without restriction.
 
-###### A.6.1.1.1.3.9 - Risk Curation Framework [Core]  <!-- UUID: 78018ebc-c69d-44f6-b602-190edca11483 -->
+### A.6.1.1.1.3.9 - Risk Curation Framework [Core]  <!-- UUID: 78018ebc-c69d-44f6-b602-190edca11483 -->
 
 The documents herein specify Spark’s framework for delegating and executing certain on-chain activities through approved curator roles.
 
-###### A.6.1.1.1.3.9.1 - Operational Process Definition [Core]  <!-- UUID: d0c6aaa3-2d24-41f9-ac1b-51f56feff62f -->
+#### A.6.1.1.1.3.9.1 - Operational Process Definition [Core]  <!-- UUID: d0c6aaa3-2d24-41f9-ac1b-51f56feff62f -->
 
 The documents herein define the process for updating Risk Curation Framework policies and procedures.
 
-###### A.6.1.1.1.3.9.1.1 - Risk Curation Framework Changes [Core]  <!-- UUID: ca226501-8073-4830-b5e9-01fa960f17fe -->
+##### A.6.1.1.1.3.9.1.1 - Risk Curation Framework Changes [Core]  <!-- UUID: ca226501-8073-4830-b5e9-01fa960f17fe -->
 
 Changes to Risk Curation Framework policies are implemented using the Root Edit Primitive.
 
-###### A.6.1.1.1.3.9.2 - Purpose [Core]  <!-- UUID: 86925539-2db1-4a2e-930a-2ee6bc833ccd -->
+#### A.6.1.1.1.3.9.2 - Purpose [Core]  <!-- UUID: 86925539-2db1-4a2e-930a-2ee6bc833ccd -->
 
 The Risk Curation Framework defines the conditions under which Spark governance may authorize external contributors to execute approved changes onchain, while preserving governance oversight, timelock protections, and cancellation authorities.
 
-###### A.6.1.1.1.3.9.3 - Curator Roles [Core]  <!-- UUID: 6c3b277c-4acd-4692-939e-203855cff43e -->
+#### A.6.1.1.1.3.9.3 - Curator Roles [Core]  <!-- UUID: 6c3b277c-4acd-4692-939e-203855cff43e -->
 
 The documents herein define the meaning and scope of Curator roles within the Spark ecosystem.
 
-###### A.6.1.1.1.3.9.3.1 - Definition [Core]  <!-- UUID: 3a796888-a39b-47c4-9cb9-6716d3e1c0db -->
+##### A.6.1.1.1.3.9.3.1 - Definition [Core]  <!-- UUID: 3a796888-a39b-47c4-9cb9-6716d3e1c0db -->
 
 A Curator is a specific admin role defined within the Morpho smart contract system.
 
-###### A.6.1.1.1.3.9.3.2 - Scope of Authority [Core]  <!-- UUID: e4fb1a94-cfd8-40d3-ac79-966dd9f8db24 -->
+##### A.6.1.1.1.3.9.3.2 - Scope of Authority [Core]  <!-- UUID: e4fb1a94-cfd8-40d3-ac79-966dd9f8db24 -->
 
 Curators may only execute actions that have been explicitly approved by Spark governance via polling.
 
-###### A.6.1.1.1.3.9.3.3 - Reporting of Curator Actions [Core]  <!-- UUID: 6f64ac9e-daf1-4339-8046-3894e57f4383 -->
+##### A.6.1.1.1.3.9.3.3 - Reporting of Curator Actions [Core]  <!-- UUID: 6f64ac9e-daf1-4339-8046-3894e57f4383 -->
 
 All actions taken under a Curator role must be reported by the Curator in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, the UTC time at which the timelock period for the action elapses, a description of the action being implemented, and a link to the poll which provided governance approval for the action.
 
-###### A.6.1.1.1.3.9.4 - Governance Approval Process [Core]  <!-- UUID: e3ddbd39-ee57-4b17-b66e-8bc823a03098 -->
+#### A.6.1.1.1.3.9.4 - Governance Approval Process [Core]  <!-- UUID: e3ddbd39-ee57-4b17-b66e-8bc823a03098 -->
 
 The documents herein describe the requirements for all Curator actions to be approved by governance.
 
-###### A.6.1.1.1.3.9.4.1 - Polling Requirement [Core]  <!-- UUID: 218f889f-6a5d-46a8-b8a3-cb0a075825c2 -->
+##### A.6.1.1.1.3.9.4.1 - Polling Requirement [Core]  <!-- UUID: 218f889f-6a5d-46a8-b8a3-cb0a075825c2 -->
 
 All curator-executed changes must be approved in advance by Spark governance through a polling process.
 
-###### A.6.1.1.1.3.9.4.2 - Execution Authority [Core]  <!-- UUID: 48e6eeb9-86c0-4bfa-8be0-e9917d163118 -->
+##### A.6.1.1.1.3.9.4.2 - Execution Authority [Core]  <!-- UUID: 48e6eeb9-86c0-4bfa-8be0-e9917d163118 -->
 
 Following successful governance approval, the Curator is authorized to execute the approved change or changes by submitting the corresponding onchain transaction or transactions.
 
-###### A.6.1.1.1.3.9.5 - Timelock Controls [Core]  <!-- UUID: a4f6132e-787f-445a-9290-bd810b9eb93f -->
+#### A.6.1.1.1.3.9.5 - Timelock Controls [Core]  <!-- UUID: a4f6132e-787f-445a-9290-bd810b9eb93f -->
 
 The documents herein define the requirements for Timelock mechanisms to be used in conjunction with Curator roles.
 
-###### A.6.1.1.1.3.9.5.1 - Timelock Requirement [Core]  <!-- UUID: 9cb30c4c-ecbb-4874-a931-b900b868b888 -->
+##### A.6.1.1.1.3.9.5.1 - Timelock Requirement [Core]  <!-- UUID: 9cb30c4c-ecbb-4874-a931-b900b868b888 -->
 
 All admin or privileged controls managed by curator roles must be subject to a minimum timelock delay of three (3) days between scheduling and execution.
 
-###### A.6.1.1.1.3.9.5.2 - Visibility [Core]  <!-- UUID: 4f45b29e-9f94-48d3-940c-1cd6b1f06f4b -->
+##### A.6.1.1.1.3.9.5.2 - Visibility [Core]  <!-- UUID: 4f45b29e-9f94-48d3-940c-1cd6b1f06f4b -->
 
 Pending changes subject to the timelock must be publicly visible onchain for the duration of the delay period.
 
-###### A.6.1.1.1.3.9.6 - Cancellation Authorities [Core]  <!-- UUID: 86153ff2-e3f2-44af-b19b-678cbbac27f5 -->
+#### A.6.1.1.1.3.9.6 - Cancellation Authorities [Core]  <!-- UUID: 86153ff2-e3f2-44af-b19b-678cbbac27f5 -->
 
 The documents herein define the cancellation mechanisms and authorities for pending actions within the Timelock period.
 
-###### A.6.1.1.1.3.9.6.1 - Authorized Cancellers [Core]  <!-- UUID: f87333c8-ec5e-4483-83a9-791e1f9f9634 -->
+##### A.6.1.1.1.3.9.6.1 - Authorized Cancellers [Core]  <!-- UUID: f87333c8-ec5e-4483-83a9-791e1f9f9634 -->
 
 Pending changes within the timelock must be able to be cancelled by any of the following: the Spark subdao proxy, or a designated guardian role.
 
-###### A.6.1.1.1.3.9.6.2 - Cancellation Reasons [Core]  <!-- UUID: 0e572cad-bdf2-437f-b272-0cd634424b19 -->
+##### A.6.1.1.1.3.9.6.2 - Cancellation Reasons [Core]  <!-- UUID: 0e572cad-bdf2-437f-b272-0cd634424b19 -->
 
 Pending changes may be cancelled for the following reasons: misalignment or conflict with the Sky Atlas or Spark Artifact; excessive or unacceptable risk, as identified by the Sky Core Council or Spark Risk Council; emergency situations, as defined in the Sky Atlas in [A.1.9 - Emergency Response System](1d940c6d-02ce-4c17-8057-cef13c1cc7ad); or cancellation requested by the Curator.
 
-###### A.6.1.1.1.3.9.6.3 - Guardian Role [Core]  <!-- UUID: 900c4a0d-ed93-41ad-b914-f84d50d6940e -->
+##### A.6.1.1.1.3.9.6.3 - Guardian Role [Core]  <!-- UUID: 900c4a0d-ed93-41ad-b914-f84d50d6940e -->
 
 A Guardian is a specific admin role defined within the Morpho smart contract system, also referred to as a Sentinel in some cases.
 
@@ -11933,11 +11933,11 @@ The Guardian must be independent from the Curator for each specific smart contra
 
 All actions taken under a Guardian role must be reported by the Guardian in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, a description of the action, general reasoning for the action, and justification for the action being within the governance-approved mandate.
 
-###### A.6.1.1.1.3.9.7 - Delegated Risk Curation Instances [Core]  <!-- UUID: b3b590f9-0d3e-4c4a-a9e5-5b114d3c0ae4 -->
+#### A.6.1.1.1.3.9.7 - Delegated Risk Curation Instances [Core]  <!-- UUID: b3b590f9-0d3e-4c4a-a9e5-5b114d3c0ae4 -->
 
 Spark governance approves the following instances of delegated risk curation authority. Each instance is governed independently and subject to the Risk Curation Framework.
 
-###### A.6.1.1.1.3.9.7.1 - Instance Parameter Definitions [Core]  <!-- UUID: 3d1e7988-f513-4632-a653-69d420379998 -->
+##### A.6.1.1.1.3.9.7.1 - Instance Parameter Definitions [Core]  <!-- UUID: 3d1e7988-f513-4632-a653-69d420379998 -->
 
 The subdocuments herein describe the parameters which must be defined and maintained for each instance of delegated risk curation authority.
 
@@ -11961,7 +11961,7 @@ The specific execution actions the curator is permitted to take, subject to prio
 
 The entity or entities serving in the guardian role, including how the role is controlled at the smart contract level and how cancellation authority is exercised.
 
-###### A.6.1.1.1.3.9.7.2 - Approved Instances [Core]  <!-- UUID: 5f30c335-8f12-4cc7-becd-f542a7546463 -->
+##### A.6.1.1.1.3.9.7.2 - Approved Instances [Core]  <!-- UUID: 5f30c335-8f12-4cc7-becd-f542a7546463 -->
 
 The documents herein enumerate the current approved instances of delegated risk curation authority.
 
@@ -12005,19 +12005,19 @@ The Spark USDC Morpho Vault on Base is an approved instance with the following d
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
 - Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
 
-###### A.6.1.1.1.3.10 - Confidential Strategic Integrations and Deployments [Core]  <!-- UUID: 5902deeb-0c4d-4df6-89bb-22212b81e96a -->
+### A.6.1.1.1.3.10 - Confidential Strategic Integrations and Deployments [Core]  <!-- UUID: 5902deeb-0c4d-4df6-89bb-22212b81e96a -->
 
 The provisions herein establish Spark’s framework for confidential strategic integrations and pre-launch deployment activities conducted subject to applicable confidentiality obligations.
 
-###### A.6.1.1.1.3.10.1 - Purpose [Core]  <!-- UUID: 80b870fa-c09a-4fbf-89f5-5de110761cd9 -->
+#### A.6.1.1.1.3.10.1 - Purpose [Core]  <!-- UUID: 80b870fa-c09a-4fbf-89f5-5de110761cd9 -->
 
 The Confidential Strategic Integrations and Deployments framework defines the conditions under which Designated Contributors may enter into confidential strategic arrangements and perform pre-launch operational readiness activities, including deployment and configuration of protocol infrastructure, while confidentiality obligations remain in effect. The framework does not authorize deployment or allocation of Spark protocol funds except as expressly approved through Spark governance processes.
 
-###### A.6.1.1.1.3.10.2 - Designated Contributors [Core]  <!-- UUID: 41241e46-3b2a-464c-8f4f-30a8f80a2103 -->
+#### A.6.1.1.1.3.10.2 - Designated Contributors [Core]  <!-- UUID: 41241e46-3b2a-464c-8f4f-30a8f80a2103 -->
 
 The following entities are authorized to perform actions on behalf of Spark under the Confidential Strategic Integrations and Deployments Framework: Spark Foundation may perform actions under this Confidential Strategic Integrations and Deployments framework, directly or through contractors or service providers authorized to act on its behalf.
 
-###### A.6.1.1.1.3.10.3 - Permitted Actions [Core]  <!-- UUID: 56281438-63f9-46d4-a382-39a790a3bba1 -->
+#### A.6.1.1.1.3.10.3 - Permitted Actions [Core]  <!-- UUID: 56281438-63f9-46d4-a382-39a790a3bba1 -->
 
 Designated Contributors are permitted to take any actions reasonably necessary to facilitate the deployment, configuration, testing, maintenance, and operational readiness of a Confidential Strategic Integration and Deployment. Such actions may include deployment and configuration of smart contracts, establishment of multisigs or administrative control systems, deployment and configuration of Spark Savings or Morpho vault infrastructure, operation of relayer or frontend infrastructure, and related implementation activities.
 
@@ -12025,18 +12025,18 @@ Confidential Strategic Integrations and Deployments may remain undisclosed while
 
 For the avoidance of doubt, this authorization does not permit deployment or allocation of Spark treasury assets, Spark Liquidity Layer assets, governance-controlled capital, or other protocol-owned funds, except as otherwise expressly authorized through Spark governance processes. Nothing herein prohibits the movement or allocation of assets voluntarily deposited by users into a Confidential Strategic Partnership and Deployment through preconfigured product functionality established prior to public launch, provided that such functionality remains subject to the limitations and governance acceptance requirements set forth in this section.
 
-###### A.6.1.1.1.3.10.4 - Incentives and Rewards Obligations [Core]  <!-- UUID: a4cd23dc-5c71-4a3a-8d95-ad09c658e0de -->
+#### A.6.1.1.1.3.10.4 - Incentives and Rewards Obligations [Core]  <!-- UUID: a4cd23dc-5c71-4a3a-8d95-ad09c658e0de -->
 
 The yield accrued on Spark Savings vaults deployed under the Confidential Strategic Integrations and Deployments framework may constitute obligations incurred pursuant to this framework, subject to the limitations set forth herein. The onchain parameters and offchain configuration of Spark Savings vaults created under the Confidential Strategic Integrations and Deployments framework will be set such that the total aggregate rewards that may accrue per month will not exceed USD 5 million in value, and the total aggregate rewards outstanding for all Confidential Strategic Integration and Deployment vaults still awaiting Governance Acceptance shall not exceed USD 5 million in value.
 
-###### A.6.1.1.1.3.10.5 - Disclaimers [Core]  <!-- UUID: 60c1b634-399b-423a-b4de-ef63b75791d9 -->
+#### A.6.1.1.1.3.10.5 - Disclaimers [Core]  <!-- UUID: 60c1b634-399b-423a-b4de-ef63b75791d9 -->
 
 Protocol deployments and products launched under the Confidential Strategic Integrations and Deployments framework are not covered by Spark or Sky insurance, and users bear all risk associated with the deployments and products, including but not limited to hacks, operational or key management failures, illiquidity, insolvency, or failure of a collateral asset. Spark protocol coverage will only be conveyed if Spark governance explicitly votes to extend coverage to a specific deployment or products after public launch and full disclosure of the deployment or product details.
 
-###### A.6.1.1.1.3.10.6 - Governance Acceptance [Core]  <!-- UUID: 6436eedd-35a6-4c89-a518-b2a4bb1d6e1c -->
+#### A.6.1.1.1.3.10.6 - Governance Acceptance [Core]  <!-- UUID: 6436eedd-35a6-4c89-a518-b2a4bb1d6e1c -->
 
 Any products or protocol elements created under the Confidential Strategic Integrations and Deployments framework must be publicly disclosed and receive explicit acceptance by Spark governance within 6 months of the earlier of: (i) the deployments no longer being subject to confidentiality requirements, or (ii) the deployments having their first interaction with end users (excluding Designated Contributors). Confidential Strategic Integration and Deployment elements that are not approved within this period must be wound down in an orderly fashion.
 
-###### A.6.1.1.1.3.10.7 - Private Ecosystem Review [Core]  <!-- UUID: 52b28880-10d4-4aff-b694-f5278adb3fbb -->
+#### A.6.1.1.1.3.10.7 - Private Ecosystem Review [Core]  <!-- UUID: 52b28880-10d4-4aff-b694-f5278adb3fbb -->
 
 Prior to activation of a Confidential Strategic Integration and Deployment for end user interactions or deposits, Designated Contributors shall confidentially disclose all relevant deployment details to the Spark Risk Council, and to applicable Sky ecosystem governance reviewers designated for confidential ecosystem reviews. Such reviewers may object to a deployment where they identify concerns within the scope of their review authority. If an objection is raised, Designated Contributors shall not activate the deployment for end user interactions or deposits until the identified concerns have been resolved, any required approvals have been obtained, or the deployment has otherwise been cancelled and wound down in an orderly fashion.

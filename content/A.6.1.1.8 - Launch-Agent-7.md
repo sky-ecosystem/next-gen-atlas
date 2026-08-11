@@ -1,24 +1,24 @@
-#### A.6.1.1.8 - Launch Agent 7 [Core]  <!-- UUID: d0d77316-0b08-447c-b75a-ae7926b07019 -->
+# A.6.1.1.8 - Launch Agent 7 [Core]  <!-- UUID: d0d77316-0b08-447c-b75a-ae7926b07019 -->
 
 The documents herein specify all of the logic for Launch Agent 7, including Launch Agent 7's strategy and how it uses the Sky Primitives to operationalize this strategy.
 
-##### A.6.1.1.8.1 - Introduction [Core]  <!-- UUID: ff01e448-1d0a-49e9-8490-5b1a497f1f27 -->
+## A.6.1.1.8.1 - Introduction [Core]  <!-- UUID: ff01e448-1d0a-49e9-8490-5b1a497f1f27 -->
 
 Launch Agent 7 is an Agent focused on building structured credit infrastructure across traditional and digital financial markets. In addition to originating and managing institutional-grade credit facilities, Launch Agent 7 serves as a bridge between sophisticated capital and high-quality borrowers—including large enterprises and leading fintech platforms—through a suite of scalable credit solutions designed to support durable liquidity and long-term growth.
 
-##### A.6.1.1.8.2 - Sky Primitives [Core]  <!-- UUID: d3c6d7a2-f399-40bd-ac22-4a565cfa253a -->
+## A.6.1.1.8.2 - Sky Primitives [Core]  <!-- UUID: d3c6d7a2-f399-40bd-ac22-4a565cfa253a -->
 
 The documents herein implement the Sky Primitives for Launch Agent 7. See [A.2.2 - Sky Primitives](fcde2604-a138-4c1b-9d9a-14895835c907).
 
-###### A.6.1.1.8.2.1 - Genesis Primitives [Core]  <!-- UUID: 23287614-9f6f-4d35-8a89-23e7de347c0e -->
+### A.6.1.1.8.2.1 - Genesis Primitives [Core]  <!-- UUID: 23287614-9f6f-4d35-8a89-23e7de347c0e -->
 
 The documents herein implement the Genesis Primitives for Launch Agent 7. See [A.2.2.5 - Genesis Primitives](3d5e3668-8333-4908-adcc-5784cfe7f6b5).
 
-###### A.6.1.1.8.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: 208e19e0-65df-4c08-a788-bb7908d1aa17 -->
+#### A.6.1.1.8.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: 208e19e0-65df-4c08-a788-bb7908d1aa17 -->
 
 The documents herein contain all data and specifications for Launch Agent 7's Instance of the Agent Creation Primitive. See [A.2.2.5.1 - Agent Creation Primitive](82b95f6d-4883-4f08-ac3a-9d8189013fbe).
 
-###### A.6.1.1.8.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: 306be3c1-f4dd-4899-b66c-7992bd2f00dd -->
+##### A.6.1.1.8.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: 306be3c1-f4dd-4899-b66c-7992bd2f00dd -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Agent Creation Primitive.
 
@@ -58,11 +58,11 @@ The subtrees for failed Invocations of the Agent Creation Primitive are stored h
 
 The subtrees for Instances of the Agent Creation Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.1.1.2 - Active Instances [Core]  <!-- UUID: c99398df-c653-4623-a3bf-0ac407116b91 -->
+##### A.6.1.1.8.2.1.1.2 - Active Instances [Core]  <!-- UUID: c99398df-c653-4623-a3bf-0ac407116b91 -->
 
 The Instances of the Agent Creation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.8.2.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: f661d4a1-a5ff-4cbd-8d57-82418669a279 -->
+##### A.6.1.1.8.2.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: f661d4a1-a5ff-4cbd-8d57-82418669a279 -->
 
 The Instances of the Agent Creation Primitive with `Completed` Status are contained herein.
 
@@ -114,15 +114,15 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.8.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 6cf9e5bd-a6a9-4f8c-b823-17c99c6d3805 -->
+##### A.6.1.1.8.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 6cf9e5bd-a6a9-4f8c-b823-17c99c6d3805 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.8.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: 3ba02850-d20f-4c96-b4b5-956c46c68be9 -->
+#### A.6.1.1.8.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: 3ba02850-d20f-4c96-b4b5-956c46c68be9 -->
 
 The documents herein contain all data and specifications for Launch Agent 7's instance of the Prime Transformation Primitive. See [A.2.2.5.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
 
-###### A.6.1.1.8.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: ec52fb9d-30d6-4ccb-830d-eb8878e58e64 -->
+##### A.6.1.1.8.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: ec52fb9d-30d6-4ccb-830d-eb8878e58e64 -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Prime Transformation Primitive.
 
@@ -162,11 +162,11 @@ The subtrees for failed Invocations of the Prime Transformation Primitive are st
 
 The subtrees for Instances of the Prime Transformation Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.1.2.2 - Active Instances [Core]  <!-- UUID: 4b3f09cc-abc1-4b44-8ce9-079b9ca1a3ff -->
+##### A.6.1.1.8.2.1.2.2 - Active Instances [Core]  <!-- UUID: 4b3f09cc-abc1-4b44-8ce9-079b9ca1a3ff -->
 
 The Instances of the Prime Transformation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.8.2.1.2.3 - Completed Instances [Core]  <!-- UUID: 4479d30b-8fa6-4dad-8dc9-9a93abadf267 -->
+##### A.6.1.1.8.2.1.2.3 - Completed Instances [Core]  <!-- UUID: 4479d30b-8fa6-4dad-8dc9-9a93abadf267 -->
 
 The Instances of the Prime Transformation Primitive with `Completed` Status are contained herein.
 
@@ -206,15 +206,15 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.8.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: ea18a0a9-b7dd-47d8-97da-3f55b3eeb645 -->
+##### A.6.1.1.8.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: ea18a0a9-b7dd-47d8-97da-3f55b3eeb645 -->
 
 Because the Prime Transformation Primitive is deployed solely for the one-time transformation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.8.2.1.3 - Executor Transformation Primitive [Core]  <!-- UUID: 073db45c-4a8f-4d59-be5e-f9dcba60ed98 -->
+#### A.6.1.1.8.2.1.3 - Executor Transformation Primitive [Core]  <!-- UUID: 073db45c-4a8f-4d59-be5e-f9dcba60ed98 -->
 
 The documents herein contain all data and specifications for Launch Agent 7's instance of the Executor Transformation Primitive. See [A.2.2.5.3 - Executor Transformation Primitive](2f249be5-8edb-41e4-b429-734e1ba2cbc7).
 
-###### A.6.1.1.8.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: acd47616-d33c-4a8e-81cf-9f75cf83187d -->
+##### A.6.1.1.8.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: acd47616-d33c-4a8e-81cf-9f75cf83187d -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Executor Transformation Primitive.
 
@@ -250,23 +250,23 @@ The subtrees for failed Invocations of the Executor Transformation Primitive are
 
 The subtrees for Instances of the Executor Transformation Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.1.3.2 - Active Instances [Core]  <!-- UUID: 10ac7a6e-6436-4969-9c90-9132f9d4bb24 -->
+##### A.6.1.1.8.2.1.3.2 - Active Instances [Core]  <!-- UUID: 10ac7a6e-6436-4969-9c90-9132f9d4bb24 -->
 
 The Instances of the Executor Transformation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.8.2.1.3.3 - Completed Instances [Core]  <!-- UUID: adc67dcc-b853-472f-8805-3ede35b2b17e -->
+##### A.6.1.1.8.2.1.3.3 - Completed Instances [Core]  <!-- UUID: adc67dcc-b853-472f-8805-3ede35b2b17e -->
 
 The Instances of the Executor Transformation Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.8.2.1.3.4 - In Progress Invocations [Core]  <!-- UUID: fc0b759f-7211-41fb-99cb-729a289677f4 -->
+##### A.6.1.1.8.2.1.3.4 - In Progress Invocations [Core]  <!-- UUID: fc0b759f-7211-41fb-99cb-729a289677f4 -->
 
 Because the Executor Transformation Primitive is deployed solely for the one-time transformation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.8.2.1.4 - Agent Token Primitive [Core]  <!-- UUID: 10cf4cab-179b-4e1b-a9c9-22b09af8b6fc -->
+#### A.6.1.1.8.2.1.4 - Agent Token Primitive [Core]  <!-- UUID: 10cf4cab-179b-4e1b-a9c9-22b09af8b6fc -->
 
 The documents herein contain all data and specifications for Launch Agent 7's Instance of the Agent Token Primitive. See [A.2.2.5.4 - Agent Token Primitive](2047c361-db28-4952-a70c-83d07b562064).
 
-###### A.6.1.1.8.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: 9739918e-5d1a-4113-8127-a6470a54ace1 -->
+##### A.6.1.1.8.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: 9739918e-5d1a-4113-8127-a6470a54ace1 -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Agent Token Primitive.
 
@@ -306,7 +306,7 @@ The subtrees for failed Invocations of the Agent Token Primitive are stored here
 
 The subtrees for Instances of the Agent Token Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.1.4.2 - Active Instances [Core]  <!-- UUID: 41298826-6bc3-4f30-a304-2268579084ed -->
+##### A.6.1.1.8.2.1.4.2 - Active Instances [Core]  <!-- UUID: 41298826-6bc3-4f30-a304-2268579084ed -->
 
 The Instances of the Agent Token Primitive with `Active` Status are stored herein.
 
@@ -368,23 +368,23 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.8.2.1.4.3 - Completed Instances [Core]  <!-- UUID: 21ccd43b-b2e2-4404-bdf2-b041c42a8764 -->
+##### A.6.1.1.8.2.1.4.3 - Completed Instances [Core]  <!-- UUID: 21ccd43b-b2e2-4404-bdf2-b041c42a8764 -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.8.2.1.4.4 - In Progress Invocations [Core]  <!-- UUID: 739fcfb1-6792-4739-8a3e-bf7d650754e7 -->
+##### A.6.1.1.8.2.1.4.4 - In Progress Invocations [Core]  <!-- UUID: 739fcfb1-6792-4739-8a3e-bf7d650754e7 -->
 
 Because the Agent Token Primitive is Invoked solely for the one-time deployment of the Agent’s token, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.8.2.2 - Operational Primitives [Core]  <!-- UUID: 54a65766-cc3b-41f5-8be3-a671d1dac3a4 -->
+### A.6.1.1.8.2.2 - Operational Primitives [Core]  <!-- UUID: 54a65766-cc3b-41f5-8be3-a671d1dac3a4 -->
 
 The documents herein implement the Operational Primitives for Launch Agent 7. See [A.2.2.6 - Operational Primitives](0192ec95-9207-480e-8c51-88d2a1da95ad).
 
-###### A.6.1.1.8.2.2.1 - Executor Accord Primitive [Core]  <!-- UUID: eeafc392-5418-43ac-8281-69ac39775941 -->
+#### A.6.1.1.8.2.2.1 - Executor Accord Primitive [Core]  <!-- UUID: eeafc392-5418-43ac-8281-69ac39775941 -->
 
 The documents herein contain all data and specifications for Launch Agent 7's Instances of the Executor Accord Primitive. See [A.2.2.6.1 - Executor Accord Primitive](88017877-3ec1-4c43-a035-6bebdf11d9bb).
 
-###### A.6.1.1.8.2.2.1.1 - Primitive Hub Document [Core]  <!-- UUID: afe5ecf8-9fde-4d20-b867-192ad174c6b0 -->
+##### A.6.1.1.8.2.2.1.1 - Primitive Hub Document [Core]  <!-- UUID: afe5ecf8-9fde-4d20-b867-192ad174c6b0 -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Executor Accord Primitive.
 
@@ -424,7 +424,7 @@ The subtrees for failed Invocations of the Executor Accord Primitive are stored 
 
 The subtrees for Instances of the Executor Accord Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.2.1.2 - Active Instances [Core]  <!-- UUID: e7f6dd4d-2943-40a2-ba6c-8c738e5fc0bd -->
+##### A.6.1.1.8.2.2.1.2 - Active Instances [Core]  <!-- UUID: e7f6dd4d-2943-40a2-ba6c-8c738e5fc0bd -->
 
 The Instances of the Executor Accord Primitive with `Active` Status are stored herein.
 
@@ -464,19 +464,19 @@ The materials associated with Operational GovOps review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.8.2.2.1.3 - Completed Instances [Core]  <!-- UUID: 0bf3b18f-3381-4f7d-be8d-20edbe53d69d -->
+##### A.6.1.1.8.2.2.1.3 - Completed Instances [Core]  <!-- UUID: 0bf3b18f-3381-4f7d-be8d-20edbe53d69d -->
 
 The Instances of the Executor Accord Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.8.2.2.1.4 - In Progress Invocations [Core]  <!-- UUID: 896f5790-396e-45c5-a907-b01a6368985a -->
+##### A.6.1.1.8.2.2.1.4 - In Progress Invocations [Core]  <!-- UUID: 896f5790-396e-45c5-a907-b01a6368985a -->
 
 The in progress Invocations of the Executor Accord Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.2.1.2 - Active Instances](e7f6dd4d-2943-40a2-ba6c-8c738e5fc0bd).
 
-###### A.6.1.1.8.2.2.2 - Root Edit Primitive [Core]  <!-- UUID: 526f3ff3-e9d5-4de3-a7d7-60baf979e471 -->
+#### A.6.1.1.8.2.2.2 - Root Edit Primitive [Core]  <!-- UUID: 526f3ff3-e9d5-4de3-a7d7-60baf979e471 -->
 
 The documents herein contain all data and specifications for Launch Agent 7's Instance of the Root Edit Primitive. See [A.2.2.6.2 - Root Edit Primitive](78488c6b-d77f-4344-b954-476e415a2c7d).
 
-###### A.6.1.1.8.2.2.2.1 - Primitive Hub Document [Core]  <!-- UUID: b872e10d-6077-4a05-af0d-e03faed0f48a -->
+##### A.6.1.1.8.2.2.2.1 - Primitive Hub Document [Core]  <!-- UUID: b872e10d-6077-4a05-af0d-e03faed0f48a -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Root Edit Primitive.
 
@@ -516,7 +516,7 @@ The subtrees for failed Invocations of the Root Edit Primitive are stored here.
 
 The subtrees for Instances of the Root Edit Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.2.2.2 - Active Instances [Core]  <!-- UUID: 8d989fff-4cd4-4742-89eb-307e8b2a3404 -->
+##### A.6.1.1.8.2.2.2.2 - Active Instances [Core]  <!-- UUID: 8d989fff-4cd4-4742-89eb-307e8b2a3404 -->
 
 The Instances of the Root Edit Primitive with `Active` Status are stored herein.
 
@@ -600,19 +600,19 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.8.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 2ce26124-5604-42ae-a3ab-9790a4a9a702 -->
+##### A.6.1.1.8.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 2ce26124-5604-42ae-a3ab-9790a4a9a702 -->
 
 The Instances of the Root Edit Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.8.2.2.2.4 - In Progress Invocations [Core]  <!-- UUID: 719e16f2-bd1b-4ee3-b86b-7e02de533ac5 -->
+##### A.6.1.1.8.2.2.2.4 - In Progress Invocations [Core]  <!-- UUID: 719e16f2-bd1b-4ee3-b86b-7e02de533ac5 -->
 
 Because the Root Edit Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.8.2.2.3 - Light Agent Primitive [Core]  <!-- UUID: 103c14cc-c21d-403b-996e-38f661a63093 -->
+#### A.6.1.1.8.2.2.3 - Light Agent Primitive [Core]  <!-- UUID: 103c14cc-c21d-403b-996e-38f661a63093 -->
 
 The documents herein contain all data and specifications for Launch Agent 7's Instances of the Light Agent Primitive. See [A.2.2.6.3 - Light Agent Primitive](44028423-2cd1-40cb-89ac-3f762b602b90).
 
-###### A.6.1.1.8.2.2.3.1 - Primitive Hub Document [Core]  <!-- UUID: c45b24ee-844e-4fa4-bdd5-6f4af842fbea -->
+##### A.6.1.1.8.2.2.3.1 - Primitive Hub Document [Core]  <!-- UUID: c45b24ee-844e-4fa4-bdd5-6f4af842fbea -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Light Agent Primitive.
 
@@ -648,27 +648,27 @@ The subtrees for failed Invocations of the Light Agent Primitive are stored here
 
 The subtrees for Instances of the Light Agent Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.2.3.2 - Active Instances [Core]  <!-- UUID: 7b8c9d42-3412-4bc0-8439-8178b3b40bf0 -->
+##### A.6.1.1.8.2.2.3.2 - Active Instances [Core]  <!-- UUID: 7b8c9d42-3412-4bc0-8439-8178b3b40bf0 -->
 
 The Instances of the Light Agent Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.8.2.2.3.3 - Completed Instances [Core]  <!-- UUID: a0bdc146-76ae-4b11-94ea-523b9151e417 -->
+##### A.6.1.1.8.2.2.3.3 - Completed Instances [Core]  <!-- UUID: a0bdc146-76ae-4b11-94ea-523b9151e417 -->
 
 The Instances of the Light Agent Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.8.2.2.3.4 - In Progress Invocations [Core]  <!-- UUID: 60754835-87dc-4921-b13c-f9ee34d619ca -->
+##### A.6.1.1.8.2.2.3.4 - In Progress Invocations [Core]  <!-- UUID: 60754835-87dc-4921-b13c-f9ee34d619ca -->
 
 The in progress Invocations of the Light Agent Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.2.3.2 - Active Instances](7b8c9d42-3412-4bc0-8439-8178b3b40bf0).
 
-###### A.6.1.1.8.2.3 - Ecosystem Upkeep Primitives [Core]  <!-- UUID: 137a06da-2db3-4762-9cad-d26a9fc99d4b -->
+### A.6.1.1.8.2.3 - Ecosystem Upkeep Primitives [Core]  <!-- UUID: 137a06da-2db3-4762-9cad-d26a9fc99d4b -->
 
 The documents herein implement the [A.2.2.7 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
-###### A.6.1.1.8.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: 235b6631-e033-4c9e-b31d-3a44feab2691 -->
+#### A.6.1.1.8.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: 235b6631-e033-4c9e-b31d-3a44feab2691 -->
 
 The documents herein contain all data and specifications for Launch Agent 7's Instance of the Ecosystem Upkeep Fee Primitive. See [A.2.2.7.1 - Ecosystem Upkeep Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
-###### A.6.1.1.8.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 2960ee87-c20d-4172-b938-5007663774eb -->
+##### A.6.1.1.8.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 2960ee87-c20d-4172-b938-5007663774eb -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Ecosystem Upkeep Fee Primitive.
 
@@ -708,7 +708,7 @@ The subtrees for failed Invocations of the Ecosystem Upkeep Fee Primitive are st
 
 The subtrees for Instances of the Ecosystem Upkeep Fee Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.3.1.2 - Active Instances [Core]  <!-- UUID: f2c71db2-efde-4d80-800b-945f8ca1dab0 -->
+##### A.6.1.1.8.2.3.1.2 - Active Instances [Core]  <!-- UUID: f2c71db2-efde-4d80-800b-945f8ca1dab0 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Active` Status are stored herein.
 
@@ -764,19 +764,19 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.8.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 6aca1d4d-5962-4215-a778-cdad996dc4f8 -->
+##### A.6.1.1.8.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 6aca1d4d-5962-4215-a778-cdad996dc4f8 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.8.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: 92bfea11-2401-4744-8911-59c22d891b77 -->
+##### A.6.1.1.8.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: 92bfea11-2401-4744-8911-59c22d891b77 -->
 
 Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.8.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: a36bf711-7951-497c-9c4b-c761dbff351a -->
+#### A.6.1.1.8.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: a36bf711-7951-497c-9c4b-c761dbff351a -->
 
 The documents herein contain all data and specifications for Launch Agent 7's instance of the Upkeep Rebate Primitive. See [A.2.2.7.2 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
-###### A.6.1.1.8.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: e087c1a6-3f6f-4309-952d-71b74691c6de -->
+##### A.6.1.1.8.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: e087c1a6-3f6f-4309-952d-71b74691c6de -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Upkeep Rebate Primitive.
 
@@ -816,7 +816,7 @@ The subtrees for failed Invocations of the Upkeep Rebate Primitive are stored he
 
 The subtrees for Instances of the Upkeep Rebate Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.3.2.2 - Active Instances [Core]  <!-- UUID: b5197e9e-014b-4527-a1b1-399cf3475bef -->
+##### A.6.1.1.8.2.3.2.2 - Active Instances [Core]  <!-- UUID: b5197e9e-014b-4527-a1b1-399cf3475bef -->
 
 The Instances of the Upkeep Rebate Primitive with `Active` Status are stored herein.
 
@@ -872,23 +872,23 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.8.2.3.2.3 - Completed Instances [Core]  <!-- UUID: ccc58c85-b8b2-429a-a95d-df91902a6697 -->
+##### A.6.1.1.8.2.3.2.3 - Completed Instances [Core]  <!-- UUID: ccc58c85-b8b2-429a-a95d-df91902a6697 -->
 
 The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.8.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: c5610121-5800-44d1-bd16-bd0022fd2955 -->
+##### A.6.1.1.8.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: c5610121-5800-44d1-bd16-bd0022fd2955 -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.8.2.4 - SkyLink Primitives [Core]  <!-- UUID: 5d27e7f0-7d57-4740-8c08-6df78e9880a7 -->
+### A.6.1.1.8.2.4 - SkyLink Primitives [Core]  <!-- UUID: 5d27e7f0-7d57-4740-8c08-6df78e9880a7 -->
 
 The documents herein implement the SkyLink Primitives for Launch Agent 7. See [A.2.2.8 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
 
-###### A.6.1.1.8.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: 75507209-dc1e-414a-a112-75f7b076518c -->
+#### A.6.1.1.8.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: 75507209-dc1e-414a-a112-75f7b076518c -->
 
 The documents herein contain all data and specifications for Launch Agent 7's Instances of the Token SkyLink Primitive. See [A.2.2.8.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
 
-###### A.6.1.1.8.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: a964694f-360d-4765-b0e0-54907b66559d -->
+##### A.6.1.1.8.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: a964694f-360d-4765-b0e0-54907b66559d -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Token SkyLink Primitive.
 
@@ -924,27 +924,27 @@ The subtrees for failed Invocations of the Token SkyLink Primitive are stored he
 
 The subtrees for Instances of the Token SkyLink Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.4.1.2 - Active Instances [Core]  <!-- UUID: 974d0a20-cdff-431f-bc41-dbb7c0dab434 -->
+##### A.6.1.1.8.2.4.1.2 - Active Instances [Core]  <!-- UUID: 974d0a20-cdff-431f-bc41-dbb7c0dab434 -->
 
 The Instances of the Token SkyLink Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.8.2.4.1.3 - Completed Instances [Core]  <!-- UUID: fa9f564b-220c-4b80-b354-3fea21fc4bce -->
+##### A.6.1.1.8.2.4.1.3 - Completed Instances [Core]  <!-- UUID: fa9f564b-220c-4b80-b354-3fea21fc4bce -->
 
 The Instances of the Token SkyLink Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.8.2.4.1.4 - In Progress Invocations [Core]  <!-- UUID: 3951cd54-791c-46cc-b3e0-2b930d7e4723 -->
+##### A.6.1.1.8.2.4.1.4 - In Progress Invocations [Core]  <!-- UUID: 3951cd54-791c-46cc-b3e0-2b930d7e4723 -->
 
 The in progress Invocations of the Token SkyLink Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.4.1.2 - Active Instances](974d0a20-cdff-431f-bc41-dbb7c0dab434).
 
-###### A.6.1.1.8.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: d16b5adc-f990-4160-b324-0b687292fef3 -->
+### A.6.1.1.8.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: d16b5adc-f990-4160-b324-0b687292fef3 -->
 
 The documents herein implement the Demand Side Stablecoin Primitives for Launch Agent 7. See [A.2.2.9 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
 
-###### A.6.1.1.8.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: cbfe8a72-d21f-4edd-887e-2d9bbd2012e9 -->
+#### A.6.1.1.8.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: cbfe8a72-d21f-4edd-887e-2d9bbd2012e9 -->
 
 The documents herein contain all data and specifications for Launch Agent 7's instances of the Distribution Reward Primitive. See [A.2.2.9.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
 
-###### A.6.1.1.8.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: 28cc6a65-84be-4019-b0fe-12ed428670a9 -->
+##### A.6.1.1.8.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: 28cc6a65-84be-4019-b0fe-12ed428670a9 -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Distribution Reward Primitive.
 
@@ -980,23 +980,23 @@ The subtrees for failed Invocations of the Distribution Reward Primitive are sto
 
 The subtrees for Instances of the Distribution Reward Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.5.1.2 - Active Instances [Core]  <!-- UUID: 11ae6de4-4ab6-4d0f-bf8c-1ab32aed0635 -->
+##### A.6.1.1.8.2.5.1.2 - Active Instances [Core]  <!-- UUID: 11ae6de4-4ab6-4d0f-bf8c-1ab32aed0635 -->
 
 The Instances of the Distribution Reward Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.8.2.5.1.3 - Completed Instances [Core]  <!-- UUID: 96167687-c6bb-4687-8794-3f41e885831b -->
+##### A.6.1.1.8.2.5.1.3 - Completed Instances [Core]  <!-- UUID: 96167687-c6bb-4687-8794-3f41e885831b -->
 
 The Instances of the Distribution Reward Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.8.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: f0f80202-cb0f-4480-8223-cac64d6556d6 -->
+##### A.6.1.1.8.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: f0f80202-cb0f-4480-8223-cac64d6556d6 -->
 
 The in progress Invocations of the Distribution Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.5.1.2 - Active Instances](11ae6de4-4ab6-4d0f-bf8c-1ab32aed0635).
 
-###### A.6.1.1.8.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: 18446ffd-1206-41bc-b735-6317d8b4f058 -->
+#### A.6.1.1.8.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: 18446ffd-1206-41bc-b735-6317d8b4f058 -->
 
 The documents herein contain all data and specifications for Launch Agent 7's Instances of the Integration Boost Primitive. See [A.2.2.9.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
 
-###### A.6.1.1.8.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: 99823d99-ddcd-49bc-8a48-9f1843a962f5 -->
+##### A.6.1.1.8.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: 99823d99-ddcd-49bc-8a48-9f1843a962f5 -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Integration Boost Primitive.
 
@@ -1032,23 +1032,23 @@ The subtrees for failed Invocations of the Integration Boost Primitive are store
 
 The subtrees for Instances of the Integration Boost Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.5.2.2 - Active Instances [Core]  <!-- UUID: 9219e0ee-66b9-4ede-b741-ec8b03d92405 -->
+##### A.6.1.1.8.2.5.2.2 - Active Instances [Core]  <!-- UUID: 9219e0ee-66b9-4ede-b741-ec8b03d92405 -->
 
 The Instances of the Integration Boost Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.8.2.5.2.3 - Completed Instances [Core]  <!-- UUID: be5f8fed-3433-4c4c-b199-e62e36f59d96 -->
+##### A.6.1.1.8.2.5.2.3 - Completed Instances [Core]  <!-- UUID: be5f8fed-3433-4c4c-b199-e62e36f59d96 -->
 
 The Instances of the Integration Boost Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.8.2.5.2.4 - In Progress Invocations [Core]  <!-- UUID: 236422d6-f872-4b6f-9b1c-aea12fd8837e -->
+##### A.6.1.1.8.2.5.2.4 - In Progress Invocations [Core]  <!-- UUID: 236422d6-f872-4b6f-9b1c-aea12fd8837e -->
 
 The in progress Invocations of the Integration Boost Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.5.2.2 - Active Instances](9219e0ee-66b9-4ede-b741-ec8b03d92405).
 
-###### A.6.1.1.8.2.5.3 - Pioneer Chain Primitive [Core]  <!-- UUID: 388c4c85-a228-4722-8001-02040cbb36ff -->
+#### A.6.1.1.8.2.5.3 - Pioneer Chain Primitive [Core]  <!-- UUID: 388c4c85-a228-4722-8001-02040cbb36ff -->
 
 The documents herein contain all data and specifications for Launch Agent 7's Instances of the Pioneer Chain Primitive. See [A.2.2.9.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
 
-###### A.6.1.1.8.2.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: e5477412-eb2c-4aba-b0a5-3cbab8b4b1b4 -->
+##### A.6.1.1.8.2.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: e5477412-eb2c-4aba-b0a5-3cbab8b4b1b4 -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Pioneer Chain Primitive.
 
@@ -1084,27 +1084,27 @@ The subtrees for failed Invocations of the Pioneer Chain Primitive are stored he
 
 The subtrees for Instances of the Pioneer Chain Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.5.3.2 - Active Instances [Core]  <!-- UUID: 0ed9935e-1a67-4423-871a-6a5addd51af5 -->
+##### A.6.1.1.8.2.5.3.2 - Active Instances [Core]  <!-- UUID: 0ed9935e-1a67-4423-871a-6a5addd51af5 -->
 
 The Instances of the Pioneer Chain Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.8.2.5.3.3 - Completed Instances [Core]  <!-- UUID: 20495dd8-7f95-49c3-bb02-047067897e91 -->
+##### A.6.1.1.8.2.5.3.3 - Completed Instances [Core]  <!-- UUID: 20495dd8-7f95-49c3-bb02-047067897e91 -->
 
 The Instances of the Pioneer Chain Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.8.2.5.3.4 - In Progress Invocations [Core]  <!-- UUID: 8357b4a0-554e-488f-ad52-5f0e982bfa03 -->
+##### A.6.1.1.8.2.5.3.4 - In Progress Invocations [Core]  <!-- UUID: 8357b4a0-554e-488f-ad52-5f0e982bfa03 -->
 
 The in progress Invocations of the Pioneer Chain Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.5.3.2 - Active Instances](0ed9935e-1a67-4423-871a-6a5addd51af5).
 
-###### A.6.1.1.8.2.6 - Supply Side Stablecoin Primitives [Core]  <!-- UUID: 80e9d9f2-956a-4bb1-a412-6efaad7dda56 -->
+### A.6.1.1.8.2.6 - Supply Side Stablecoin Primitives [Core]  <!-- UUID: 80e9d9f2-956a-4bb1-a412-6efaad7dda56 -->
 
 The documents herein implement the Supply Side Stablecoin Primitives for Launch Agent 7. See [A.2.2.10 - Supply Side Stablecoin Primitives](d1142876-33c2-4e21-9339-d8711525d46f).
 
-###### A.6.1.1.8.2.6.1 - Allocation System Primitive [Core]  <!-- UUID: 929aa1ad-a1c6-4dd6-89ef-bc18316ec3b0 -->
+#### A.6.1.1.8.2.6.1 - Allocation System Primitive [Core]  <!-- UUID: 929aa1ad-a1c6-4dd6-89ef-bc18316ec3b0 -->
 
 The documents herein contain all data and specifications for Launch Agent 7's Instances of the Allocation System Primitive. See [A.2.2.10.1 - Allocation System Primitive](9db14ab7-bb4b-4751-8084-843bd4359f2a).
 
-###### A.6.1.1.8.2.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: b0a3b8d2-e776-4604-aab1-bd68e851d042 -->
+##### A.6.1.1.8.2.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: b0a3b8d2-e776-4604-aab1-bd68e851d042 -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Allocation System Primitive.
 
@@ -1140,7 +1140,7 @@ The subtrees for failed Invocations of the Allocation System Primitive are store
 
 The subtrees for Instances of the Allocation System Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: a407dee4-36ec-4499-a3e6-e01008dd56cf -->
+##### A.6.1.1.8.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: a407dee4-36ec-4499-a3e6-e01008dd56cf -->
 
 The documents herein provide general specifications of the Launch Agent 7 Liquidity Layer and define Launch Agent 7's overarching strategy and operational framework for managing across all Instances.
 
@@ -1168,23 +1168,23 @@ The address of the ALLOCATOR_BUFFER contract is: `0x67Ac5c8FbFDAc5265c995e9B2ACd
 
 The address of the ALLOCATOR_VAULT (ALLOCATOR-INTERVAL-A) contract is: `0xDD3bE7650589E6A6171d454b026C4AD1a2C02720`.
 
-###### A.6.1.1.8.2.6.1.3 - Active Instances [Core]  <!-- UUID: 132aaf59-d6fa-4260-b686-91246dba9897 -->
+##### A.6.1.1.8.2.6.1.3 - Active Instances [Core]  <!-- UUID: 132aaf59-d6fa-4260-b686-91246dba9897 -->
 
 The Instances of the Allocation System Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.8.2.6.1.4 - Completed Instances [Core]  <!-- UUID: 122d8a6a-c54e-43c2-9e48-1ddecf8e4ebe -->
+##### A.6.1.1.8.2.6.1.4 - Completed Instances [Core]  <!-- UUID: 122d8a6a-c54e-43c2-9e48-1ddecf8e4ebe -->
 
 The Instances of the Allocation System Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.8.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: b835b079-0e89-4665-afe9-edb7b22c3317 -->
+##### A.6.1.1.8.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: b835b079-0e89-4665-afe9-edb7b22c3317 -->
 
 The in progress Invocations of the Allocation System Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.6.1.3 - Active Instances](132aaf59-d6fa-4260-b686-91246dba9897).
 
-###### A.6.1.1.8.2.6.2 - Risk Capital Rental Primitive [Core]  <!-- UUID: d718c63a-1096-46e7-9ff7-c1c851679d45 -->
+#### A.6.1.1.8.2.6.2 - Risk Capital Rental Primitive [Core]  <!-- UUID: d718c63a-1096-46e7-9ff7-c1c851679d45 -->
 
 The documents herein contain all data and specifications for Launch Agent 7's Instances of the Risk Capital Rental Primitive. See [A.2.2.10.2 - Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).
 
-###### A.6.1.1.8.2.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: 796d1eab-a018-4e8f-9d86-8e1f2eea9c5b -->
+##### A.6.1.1.8.2.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: 796d1eab-a018-4e8f-9d86-8e1f2eea9c5b -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Risk Capital Rental Primitive.
 
@@ -1220,23 +1220,23 @@ The subtrees for failed Invocations of the Risk Capital Rental Primitive are sto
 
 The subtrees for Instances of the Risk Capital Rental Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.6.2.2 - Active Instances [Core]  <!-- UUID: 9a3c679d-a269-440e-9069-4bd85b428b3f -->
+##### A.6.1.1.8.2.6.2.2 - Active Instances [Core]  <!-- UUID: 9a3c679d-a269-440e-9069-4bd85b428b3f -->
 
 The Instances of the Risk Capital Rental Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.8.2.6.2.3 - Completed Instances [Core]  <!-- UUID: f12949d0-1f1d-473f-89b1-f833523345af -->
+##### A.6.1.1.8.2.6.2.3 - Completed Instances [Core]  <!-- UUID: f12949d0-1f1d-473f-89b1-f833523345af -->
 
 The Instances of the Risk Capital Rental Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.8.2.6.2.4 - In Progress Invocations [Core]  <!-- UUID: f2d93d71-1bf9-4199-8190-e1e0beeb5369 -->
+##### A.6.1.1.8.2.6.2.4 - In Progress Invocations [Core]  <!-- UUID: f2d93d71-1bf9-4199-8190-e1e0beeb5369 -->
 
 The in progress Invocations of the Risk Capital Rental Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.6.2.2 - Active Instances](9a3c679d-a269-440e-9069-4bd85b428b3f).
 
-###### A.6.1.1.8.2.6.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: 52c0af9a-b4e2-4ff5-ad4c-ffb82263d512 -->
+#### A.6.1.1.8.2.6.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: 52c0af9a-b4e2-4ff5-ad4c-ffb82263d512 -->
 
 The documents herein contain all data and specifications for Launch Agent 7's Instances of the Asset Liability Management Rental Primitive. See [A.2.2.10.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).
 
-###### A.6.1.1.8.2.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: 3f05c2bb-7f5d-4716-b37e-fdda16d2417e -->
+##### A.6.1.1.8.2.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: 3f05c2bb-7f5d-4716-b37e-fdda16d2417e -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Asset Liability Management Rental Primitive.
 
@@ -1272,27 +1272,27 @@ The subtrees for failed Invocations of the Asset Liability Management Rental Pri
 
 The subtrees for Instances of the Asset Liability Management Rental Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.6.3.2 - Active Instances [Core]  <!-- UUID: b3810d85-dc67-4ebd-805d-64af73333fd0 -->
+##### A.6.1.1.8.2.6.3.2 - Active Instances [Core]  <!-- UUID: b3810d85-dc67-4ebd-805d-64af73333fd0 -->
 
 The Instances of the Asset Liability Management Rental Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.8.2.6.3.3 - Completed Instances [Core]  <!-- UUID: e8c82f4c-ef8c-4f72-9346-fd33c20643a6 -->
+##### A.6.1.1.8.2.6.3.3 - Completed Instances [Core]  <!-- UUID: e8c82f4c-ef8c-4f72-9346-fd33c20643a6 -->
 
 The Instances of the Asset Liability Management Rental Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.8.2.6.3.4 - In Progress Invocations [Core]  <!-- UUID: eeb2185d-2a4c-45e3-872c-2d241e42d5c4 -->
+##### A.6.1.1.8.2.6.3.4 - In Progress Invocations [Core]  <!-- UUID: eeb2185d-2a4c-45e3-872c-2d241e42d5c4 -->
 
 The in progress Invocations of the Asset Liability Management Rental Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.6.3.2 - Active Instances](b3810d85-dc67-4ebd-805d-64af73333fd0).
 
-###### A.6.1.1.8.2.7 - Core Governance Primitives [Core]  <!-- UUID: 324dbc1c-aa4f-4b87-b171-6e7fad67236d -->
+### A.6.1.1.8.2.7 - Core Governance Primitives [Core]  <!-- UUID: 324dbc1c-aa4f-4b87-b171-6e7fad67236d -->
 
 The documents herein implement the Core Governance Primitives for Launch Agent 7. See [A.2.2.11 - Core Governance Primitives](6fa54611-c744-4b9d-897d-b2a20e9cae5d).
 
-###### A.6.1.1.8.2.7.1 - Core Governance Reward Primitive [Core]  <!-- UUID: db70350a-fd19-4fca-9341-03bcb7271de7 -->
+#### A.6.1.1.8.2.7.1 - Core Governance Reward Primitive [Core]  <!-- UUID: db70350a-fd19-4fca-9341-03bcb7271de7 -->
 
 The documents herein contain all data and specifications for Launch Agent 7's Instances of the Core Governance Reward Primitive. See [A.2.2.11.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
 
-###### A.6.1.1.8.2.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: 328e73e4-a676-45d7-bfc5-7e818010f5bd -->
+##### A.6.1.1.8.2.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: 328e73e4-a676-45d7-bfc5-7e818010f5bd -->
 
 The documents herein organize all base information relevant to Launch Agent 7's usage of the Core Governance Reward Primitive.
 
@@ -1328,34 +1328,34 @@ The subtrees for failed Invocations of the Core Governance Reward Primitive are 
 
 The subtrees for Instances of the Core Governance Reward Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.8.2.7.1.2 - Active Instances [Core]  <!-- UUID: 746a2e0b-fd99-41de-84cc-61c8f85efb1a -->
+##### A.6.1.1.8.2.7.1.2 - Active Instances [Core]  <!-- UUID: 746a2e0b-fd99-41de-84cc-61c8f85efb1a -->
 
 The Instances of the Core Governance Reward Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.8.2.7.1.3 - Completed Instances [Core]  <!-- UUID: 621b7986-b265-41d6-8b03-bee449211d3d -->
+##### A.6.1.1.8.2.7.1.3 - Completed Instances [Core]  <!-- UUID: 621b7986-b265-41d6-8b03-bee449211d3d -->
 
 The Instances of the Core Governance Reward Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.8.2.7.1.4 - In Progress Invocations [Core]  <!-- UUID: bf457701-f952-4ec5-a2bc-ab356d3e65e2 -->
+##### A.6.1.1.8.2.7.1.4 - In Progress Invocations [Core]  <!-- UUID: bf457701-f952-4ec5-a2bc-ab356d3e65e2 -->
 
 The in progress Invocations of the Core Governance Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.8.2.7.1.2 - Active Instances](746a2e0b-fd99-41de-84cc-61c8f85efb1a).
 
-##### A.6.1.1.8.3 - Omni Documents [Core]  <!-- UUID: dfb235e1-40fd-4ba1-afd8-e8524acbc077 -->
+## A.6.1.1.8.3 - Omni Documents [Core]  <!-- UUID: dfb235e1-40fd-4ba1-afd8-e8524acbc077 -->
 
 The documents herein define Launch Agent 7's strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
 
-###### A.6.1.1.8.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: c18d1d28-3b1f-4173-87dd-f697ab2d2539 -->
+### A.6.1.1.8.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: c18d1d28-3b1f-4173-87dd-f697ab2d2539 -->
 
 The documents herein specify Launch Agent 7 governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Launch Agent 7 Artifact is specified in the Root Edit Primitive above at [A.6.1.1.8.2.2.2 - Root Edit Primitive](526f3ff3-e9d5-4de3-a7d7-60baf979e471).
 
-###### A.6.1.1.8.3.1.1 - Sky Forum [Core]  <!-- UUID: e0096e14-8d6d-4ad0-8f4d-91f418271cea -->
+#### A.6.1.1.8.3.1.1 - Sky Forum [Core]  <!-- UUID: e0096e14-8d6d-4ad0-8f4d-91f418271cea -->
 
 Launch Agent 7 uses the Sky Forum for governance-related discussion. Posts should use the “Launch Agent 7 Prime” category.
 
-###### A.6.1.1.8.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: e9af6855-1271-412c-9667-983bd6efc613 -->
+#### A.6.1.1.8.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: e9af6855-1271-412c-9667-983bd6efc613 -->
 
 The documents herein specify Launch Agent 7's emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Launch Agent 7 Artifact.
 
-###### A.6.1.1.8.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: 3581ec81-e5bb-44d1-a44c-56c0a327b361 -->
+#### A.6.1.1.8.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: 3581ec81-e5bb-44d1-a44c-56c0a327b361 -->
 
 The documents herein specify Launch Agent 7's emergency response protocol in situations solely impacting Launch Agent 7 versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Launch Agent 7 Artifact.

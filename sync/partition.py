@@ -57,6 +57,12 @@ immediately after its placement target, so an NR inherits that document's bucket
 (`bucket_for` returns None, meaning "same as previous") and travels inside that document's
 `Block` at reassembly rather than being sorted on its own.
 
+Heading levels are file-relative. Each file's root document is `#`, its children `##`, and
+so on, so every file opens at the top of the heading range instead of at the depth its
+subtree happens to sit at in the whole Atlas. The composed Atlas's absolute levels are
+re-derived at reassembly by `restore_absolute_levels`, so nothing depends on the hashes a
+file stores.
+
 Usage:
     python partition.py --input content/ --output-dir split/
     python partition.py --input content/ --output-dir split/ --report
@@ -200,6 +206,79 @@ def canonical_sort_key(doc_no: str, real_doc_nos) -> tuple:
     return tuple(key)
 
 
+# ---------------------------------------------------------------------------
+# Heading levels
+# ---------------------------------------------------------------------------
+#
+# The same headings carry two levels. In the composed Atlas the level is absolute: a Scope
+# is `#` and everything below it counts from there. In a bucket file the level is relative
+# to that file's own root document, which is `#`, its children `##`, and so on. Both cap at
+# six, the deepest level markdown has.
+#
+# Neither level is ever read out of a heading line's hashes. The hash count is lossy —
+# 10,194 of the Atlas's 11,335 documents sit at the cap, and 10,254 doc numbers have more
+# than six segments — so the hashes cannot tell a document at depth 6 from one at depth 17,
+# and subtracting a file's root level from them would flatten every capped document onto
+# the wrong level. Depth is carried by the doc number, which every heading line contains,
+# and both levels are computed from it.
+
+MAX_HEADING_LEVEL = 6
+
+_HASHES_RE = re.compile(r"^#+")
+
+
+def structural_depth(doc_no: str, real_doc_nos) -> int:
+    """How many documents sit above this one.
+
+    Segment count is not depth. A segment can be a phantom extension folder — the `0`
+    segments (e.g. `A.1.4.5.0.4`) that hold no document and exist only to give Action
+    Tenets and Annotations the right heading depth — and the leading `A` is phantom too,
+    since no document claims it. An ancestor counts precisely when some document claims
+    that prefix, the same real/phantom test `canonical_sort_key` applies.
+
+    This reproduces `compose.compute_heading_levels`, which counts ancestor folders holding
+    a `document.md`, from doc numbers instead of the filesystem. A folder holds a
+    `document.md` exactly when its doc number is claimed, so the two agree everywhere.
+    """
+    parts = doc_no.split(".")
+    return sum(1 for i in range(1, len(parts))
+               if ".".join(parts[:i]) in real_doc_nos)
+
+
+def set_heading_level(line: str, level: int) -> str:
+    """Rewrite a heading line's hashes to `level`, leaving the rest of the line untouched."""
+    return _HASHES_RE.sub("#" * level, line, count=1)
+
+
+def restore_absolute_levels(lines: list[str]) -> list[str]:
+    """Give every heading in a reassembled stream its level in the composed Atlas.
+
+    Bucket files store levels relative to their own root document, so their hashes are not
+    the composed Atlas's hashes. The absolute level is re-derived rather than adjusted:
+    `min(structural_depth + 1, 6)` over the whole document set, which is what compose
+    computes from the tree. Re-deriving is what makes the cap come out right — a document
+    at depth 17 is `######` in the composed Atlas whatever its file stored.
+
+    Needed Research has no position of its own and takes its target's level plus one, under
+    the same cap, matching compose. Its target is the numbered document it follows, which
+    is where compose emits it and where `Block` keeps it.
+    """
+    heads = [(i, m) for i, line in enumerate(lines) if (m := HEADING_RE.match(line))]
+    real_doc_nos = {m.group(2) for _, m in heads if not m.group(2).startswith("NR-")}
+
+    out = list(lines)
+    previous = 0
+    for i, m in heads:
+        doc_no = m.group(2)
+        if doc_no.startswith("NR-"):
+            level = min(previous + 1, MAX_HEADING_LEVEL)
+        else:
+            level = min(structural_depth(doc_no, real_doc_nos) + 1, MAX_HEADING_LEVEL)
+            previous = level
+        out[i] = set_heading_level(lines[i], level)
+    return out
+
+
 @dataclass
 class Block:
     """One numbered document plus any Needed Research emitted under it.
@@ -323,15 +402,25 @@ def filename_for(bucket: str, name: str) -> str:
 def split(content_root: str) -> tuple[dict[str, list[str]], list[dict], dict[str, str]]:
     """Partition the composed Atlas.
 
+    Headings are rewritten to levels relative to each file's root document, so every file
+    opens at `#`. See the heading-level section above; `restore_absolute_levels` puts the
+    composed Atlas's levels back at reassembly.
+
     Returns (lines_by_bucket, run_list, name_by_bucket) where run_list is the ordered
     sequence of (bucket, docs) runs describing the global emit order.
     """
     segments = compose_segments(content_root)
+    real_doc_nos = {doc.doc_no for doc, _ in segments
+                    if not doc.doc_no.startswith("NR-")}
 
     lines_by_bucket: dict[str, list[str]] = {}
     name_by_bucket: dict[str, str] = {}
     runs: list[dict] = []
     current: str | None = None
+    # Each file's root document is its first document, and every other document in the file
+    # is below it, so its depth is what the file's levels count from.
+    root_depth: dict[str, int] = {}
+    previous_level = 0
 
     for doc, lines in segments:
         bucket = bucket_for(doc.doc_no)
@@ -347,6 +436,22 @@ def split(content_root: str) -> tuple[dict[str, list[str]], list[dict], dict[str
         if doc.doc_no == bucket:
             name_by_bucket[bucket] = doc.name
 
+        if doc.doc_no.startswith("NR-"):
+            level = min(previous_level + 1, MAX_HEADING_LEVEL)
+        else:
+            depth = structural_depth(doc.doc_no, real_doc_nos)
+            base = root_depth.setdefault(bucket, depth)
+            if depth < base:
+                raise ValueError(
+                    f"document {doc.doc_no} sits above the root of its own file "
+                    f"(depth {depth} against root depth {base} for bucket {bucket!r}). "
+                    "A file's first document must be the shallowest one in it, or the "
+                    "file cannot start at `# `."
+                )
+            level = min(depth - base + 1, MAX_HEADING_LEVEL)
+            previous_level = level
+
+        lines = [set_heading_level(lines[0], level)] + lines[1:]
         lines_by_bucket.setdefault(bucket, []).extend(lines)
 
         # `lines` is what reassembly slices on; `docs` is the per-run document count used
@@ -366,9 +471,14 @@ def _assert_partition_reassembles(segments, lines_by_bucket: dict[str, list[str]
     """Check that this partition reassembles to the composed Atlas byte for byte.
 
     The check is end to end: partition the composed stream, put it back together the way
-    `decompose_multi.reassemble` will, and require the result to equal what compose
-    emitted. Any partition that survives is safe; any that does not fails here, at write
-    time, naming the first document that moved, rather than silently reordering documents.
+    `decompose_multi.reassemble` will — same ordering, same level restoration — and require
+    the result to equal what compose emitted. Any partition that survives is safe; any that
+    does not fails here, at write time, naming the first document that moved, rather than
+    silently reordering documents.
+
+    Because the comparison is byte-exact and covers the heading lines, it also holds the
+    relative levels written into the files to the one thing asked of them: that the
+    absolute levels can be recovered from the files alone.
 
     Requiring instead that every bucket be contiguous in emit order is a sufficient but
     stricter condition, and rejects partitions that lose no information — including the
@@ -378,7 +488,7 @@ def _assert_partition_reassembles(segments, lines_by_bucket: dict[str, list[str]
     including `migrate_branch` and the tests.
     """
     expected = [line for _doc, lines in segments for line in lines]
-    got = order_documents(lines_by_bucket)
+    got = restore_absolute_levels(order_documents(lines_by_bucket))
     if got == expected:
         return
     where = next((i for i, (a, b) in enumerate(zip(got, expected)) if a != b),

@@ -1,24 +1,24 @@
-#### A.6.1.1.3 - Keel [Core]  <!-- UUID: bc6aed17-2969-4d04-9af6-c7bf3e4497e6 -->
+# A.6.1.1.3 - Keel [Core]  <!-- UUID: bc6aed17-2969-4d04-9af6-c7bf3e4497e6 -->
 
 The documents herein specify all of the logic for Keel, including Keel’s strategy and how it uses the Sky Primitives to operationalize this strategy.
 
-##### A.6.1.1.3.1 - Introduction [Core]  <!-- UUID: 9cbee6c7-8bc4-4b0c-a3cd-0f7f4944114e -->
+## A.6.1.1.3.1 - Introduction [Core]  <!-- UUID: 9cbee6c7-8bc4-4b0c-a3cd-0f7f4944114e -->
 
 Keel is an Agent dedicated to expanding access to USDS, sUSDS, and other Sky benefits with an initial focus on the Solana ecosystem. Keel leverages strategic incentives and partnerships to foster adoption, deliver the Sky Savings Rate, and bring USDS liquidity to new markets. Keel also identifies and executes allocation opportunities to generate excess returns on assets in Sky’s collateral portfolio. Keel plans to develop a user-facing DeFi hub as well as other products that align naturally with Keel’s existing capabilities, including borrowing and lending solutions.
 
-##### A.6.1.1.3.2 - Sky Primitives [Core]  <!-- UUID: 0d415ab8-7a66-4d82-98a4-67696a120650 -->
+## A.6.1.1.3.2 - Sky Primitives [Core]  <!-- UUID: 0d415ab8-7a66-4d82-98a4-67696a120650 -->
 
 The documents herein implement the Sky Primitives for Keel. See [A.2.2 - Sky Primitives](fcde2604-a138-4c1b-9d9a-14895835c907).
 
-###### A.6.1.1.3.2.1 - Genesis Primitives [Core]  <!-- UUID: 80c991f4-7714-4706-95ab-50b0edd2f181 -->
+### A.6.1.1.3.2.1 - Genesis Primitives [Core]  <!-- UUID: 80c991f4-7714-4706-95ab-50b0edd2f181 -->
 
 The documents herein implement the Genesis Primitives for Keel. See [A.2.2.5 - Genesis Primitives](3d5e3668-8333-4908-adcc-5784cfe7f6b5).
 
-###### A.6.1.1.3.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: b439ba28-c334-4211-bdc7-bb3f62158e49 -->
+#### A.6.1.1.3.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: b439ba28-c334-4211-bdc7-bb3f62158e49 -->
 
 The documents herein contain all data and specifications for Keel’s Instance of the Agent Creation Primitive. See [A.2.2.5.1 - Agent Creation Primitive](82b95f6d-4883-4f08-ac3a-9d8189013fbe).
 
-###### A.6.1.1.3.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: b001c1e5-89c6-4141-bc59-b4e7b86d5f47 -->
+##### A.6.1.1.3.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: b001c1e5-89c6-4141-bc59-b4e7b86d5f47 -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Agent Creation Primitive.
 
@@ -58,11 +58,11 @@ The subtrees for failed Invocations of the Agent Creation Primitive are stored h
 
 The subtrees for Instances of the Agent Creation Primitive with Suspended Status are stored here.
 
-###### A.6.1.1.3.2.1.1.2 - Active Instances [Core]  <!-- UUID: e67cd345-759d-4bd3-b264-a81971bf1921 -->
+##### A.6.1.1.3.2.1.1.2 - Active Instances [Core]  <!-- UUID: e67cd345-759d-4bd3-b264-a81971bf1921 -->
 
 The Instances of the Agent Creation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.3.2.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 0b9ec93a-58c8-48cf-b88f-ebbbc3a4333b -->
+##### A.6.1.1.3.2.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 0b9ec93a-58c8-48cf-b88f-ebbbc3a4333b -->
 
 The Instances of the Agent Creation Primitive with `Completed` Status are contained herein.
 
@@ -106,15 +106,15 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.3.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: e46ba795-34db-4fb0-ba67-3dc178a4b47e -->
+##### A.6.1.1.3.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: e46ba795-34db-4fb0-ba67-3dc178a4b47e -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.3.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: 564fff56-3cd6-4929-b6d6-f2ea53c7dd7f -->
+#### A.6.1.1.3.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: 564fff56-3cd6-4929-b6d6-f2ea53c7dd7f -->
 
 The documents herein contain all data and specifications for Keel’s Instance of the Prime Transformation Primitive. See [A.2.2.5.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
 
-###### A.6.1.1.3.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: ddfade4a-7dba-49ad-8feb-c19dfb56e378 -->
+##### A.6.1.1.3.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: ddfade4a-7dba-49ad-8feb-c19dfb56e378 -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Prime Transformation Primitive.
 
@@ -154,11 +154,11 @@ The subtrees for failed Invocations of the Prime Transformation Primitive are st
 
 The subtrees for Instances of the Prime Transformation Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.1.2.2 - Active Instances [Core]  <!-- UUID: cd02e662-ac90-474e-93cd-4366cec2aa65 -->
+##### A.6.1.1.3.2.1.2.2 - Active Instances [Core]  <!-- UUID: cd02e662-ac90-474e-93cd-4366cec2aa65 -->
 
 The Instances of the Prime Transformation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.3.2.1.2.3 - Completed Instances [Core]  <!-- UUID: 63bcf409-d7f5-4e5a-9e65-970df317653f -->
+##### A.6.1.1.3.2.1.2.3 - Completed Instances [Core]  <!-- UUID: 63bcf409-d7f5-4e5a-9e65-970df317653f -->
 
 The Instances of the Prime Transformation Primitive with `Completed` Status are contained herein.
 
@@ -198,15 +198,15 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.3.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 83b6ac05-69c2-43a5-b7f4-c24e02671c0d -->
+##### A.6.1.1.3.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 83b6ac05-69c2-43a5-b7f4-c24e02671c0d -->
 
 Because the Prime Transformation Primitive is deployed solely for the one-time transformation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.3.2.1.3 - Executor Transformation Primitive [Core]  <!-- UUID: 56a1e9a7-9754-4354-952d-a6fb2605c7b4 -->
+#### A.6.1.1.3.2.1.3 - Executor Transformation Primitive [Core]  <!-- UUID: 56a1e9a7-9754-4354-952d-a6fb2605c7b4 -->
 
 The documents herein contain all data and specifications for Keel’s Instance of the Executor Transformation Primitive. See [A.2.2.5.3 - Executor Transformation Primitive](2f249be5-8edb-41e4-b429-734e1ba2cbc7).
 
-###### A.6.1.1.3.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: 14e5e6ce-f8ba-4a83-a013-27c821cae118 -->
+##### A.6.1.1.3.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: 14e5e6ce-f8ba-4a83-a013-27c821cae118 -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Executor Transformation Primitive.
 
@@ -242,23 +242,23 @@ The subtrees for failed Invocations of the Executor Transformation Primitive are
 
 The subtrees for Instances of the Executor Transformation Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.1.3.2 - Active Instances [Core]  <!-- UUID: 9611f413-a11b-4c5b-bdf5-4c861c52cb59 -->
+##### A.6.1.1.3.2.1.3.2 - Active Instances [Core]  <!-- UUID: 9611f413-a11b-4c5b-bdf5-4c861c52cb59 -->
 
 The Instances of the Executor Transformation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.3.2.1.3.3 - Completed Instances [Core]  <!-- UUID: 073a2259-36d6-473a-910a-0e0a8122254d -->
+##### A.6.1.1.3.2.1.3.3 - Completed Instances [Core]  <!-- UUID: 073a2259-36d6-473a-910a-0e0a8122254d -->
 
 The Instances of the Executor Transformation Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.3.2.1.3.4 - In Progress Invocations [Core]  <!-- UUID: 8b270217-b3fb-4a6f-84f5-65e1073781cd -->
+##### A.6.1.1.3.2.1.3.4 - In Progress Invocations [Core]  <!-- UUID: 8b270217-b3fb-4a6f-84f5-65e1073781cd -->
 
 Because the Executor Transformation Primitive is deployed solely for the one-time transformation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.3.2.1.4 - Agent Token Primitive [Core]  <!-- UUID: 7c41668c-38c2-401b-8905-51d66b3574ff -->
+#### A.6.1.1.3.2.1.4 - Agent Token Primitive [Core]  <!-- UUID: 7c41668c-38c2-401b-8905-51d66b3574ff -->
 
 The documents herein contain all data and specifications for Keel’s Instance of the Agent Token Primitive. See [A.2.2.5.4 - Agent Token Primitive](2047c361-db28-4952-a70c-83d07b562064).
 
-###### A.6.1.1.3.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: e3469208-9d4f-4862-a82f-16222cb7235e -->
+##### A.6.1.1.3.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: e3469208-9d4f-4862-a82f-16222cb7235e -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Agent Token Primitive.
 
@@ -298,7 +298,7 @@ The subtrees for failed Invocations of the Agent Token Primitive are stored here
 
 The subtrees for Instances of the Agent Token Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.1.4.2 - Active Instances [Core]  <!-- UUID: 26f17849-a6a4-46c2-b128-d4eefa67db5b -->
+##### A.6.1.1.3.2.1.4.2 - Active Instances [Core]  <!-- UUID: 26f17849-a6a4-46c2-b128-d4eefa67db5b -->
 
 The Instances of the Agent Token Primitive with `Active` Status are stored herein.
 
@@ -360,23 +360,23 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.3.2.1.4.3 - Completed Instances [Core]  <!-- UUID: 9494bb11-ec12-4029-89bd-40228e6ea9de -->
+##### A.6.1.1.3.2.1.4.3 - Completed Instances [Core]  <!-- UUID: 9494bb11-ec12-4029-89bd-40228e6ea9de -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.3.2.1.4.4 - In Progress Invocations [Core]  <!-- UUID: 7a08825e-c44f-456e-9301-7f701e53d213 -->
+##### A.6.1.1.3.2.1.4.4 - In Progress Invocations [Core]  <!-- UUID: 7a08825e-c44f-456e-9301-7f701e53d213 -->
 
 Because the Agent Token Primitive is Invoked solely for the one-time deployment of the Agent’s token, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.3.2.2 - Operational Primitives [Core]  <!-- UUID: bbd36575-5a71-4b3e-aec2-564edb0f0303 -->
+### A.6.1.1.3.2.2 - Operational Primitives [Core]  <!-- UUID: bbd36575-5a71-4b3e-aec2-564edb0f0303 -->
 
 The documents herein implement the Operational Primitives for Keel. See [A.2.2.6 - Operational Primitives](0192ec95-9207-480e-8c51-88d2a1da95ad).
 
-###### A.6.1.1.3.2.2.1 - Executor Accord Primitive [Core]  <!-- UUID: c75806c5-436f-4fd6-9367-e0bc9c5a3ee6 -->
+#### A.6.1.1.3.2.2.1 - Executor Accord Primitive [Core]  <!-- UUID: c75806c5-436f-4fd6-9367-e0bc9c5a3ee6 -->
 
 The documents herein contain all data and specifications for Keel’s Instances of the Executor Accord Primitive. See [A.2.2.6.1 - Executor Accord Primitive](88017877-3ec1-4c43-a035-6bebdf11d9bb).
 
-###### A.6.1.1.3.2.2.1.1 - Primitive Hub Document [Core]  <!-- UUID: 51000f60-cf06-4f87-8e86-45573952645e -->
+##### A.6.1.1.3.2.2.1.1 - Primitive Hub Document [Core]  <!-- UUID: 51000f60-cf06-4f87-8e86-45573952645e -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Executor Accord Primitive.
 
@@ -416,7 +416,7 @@ The subtrees for failed Invocations of the Executor Accord Primitive are stored 
 
 The subtrees for Instances of the Executor Accord Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.2.1.2 - Active Instances [Core]  <!-- UUID: e1eb3283-ac9c-490e-bd36-850dd8bd71bd -->
+##### A.6.1.1.3.2.2.1.2 - Active Instances [Core]  <!-- UUID: e1eb3283-ac9c-490e-bd36-850dd8bd71bd -->
 
 The Instances of the Executor Accord Primitive with `Active` Status are stored herein.
 
@@ -456,19 +456,19 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.3.2.2.1.3 - Completed Instances [Core]  <!-- UUID: ecc18c15-e6f8-4a6f-9a6a-04fa32e3541c -->
+##### A.6.1.1.3.2.2.1.3 - Completed Instances [Core]  <!-- UUID: ecc18c15-e6f8-4a6f-9a6a-04fa32e3541c -->
 
 The Instances of the Executor Accord Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.3.2.2.1.4 - In Progress Invocations [Core]  <!-- UUID: ef14c4d5-3862-49f7-be15-a1dac7581dc3 -->
+##### A.6.1.1.3.2.2.1.4 - In Progress Invocations [Core]  <!-- UUID: ef14c4d5-3862-49f7-be15-a1dac7581dc3 -->
 
 The in progress Invocations of the Executor Accord Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.3.2.2.1.2 - Active Instances](e1eb3283-ac9c-490e-bd36-850dd8bd71bd).
 
-###### A.6.1.1.3.2.2.2 - Root Edit Primitive [Core]  <!-- UUID: 3d02dcbc-6a31-4f63-b464-c8c3ecebb744 -->
+#### A.6.1.1.3.2.2.2 - Root Edit Primitive [Core]  <!-- UUID: 3d02dcbc-6a31-4f63-b464-c8c3ecebb744 -->
 
 The documents herein contain all data and specifications for Keel’s Instance of the Root Edit Primitive. See [A.2.2.6.2 - Root Edit Primitive](78488c6b-d77f-4344-b954-476e415a2c7d).
 
-###### A.6.1.1.3.2.2.2.1 - Primitive Hub Document [Core]  <!-- UUID: d32ff849-fe1d-4a99-ac1d-18e58eeca32f -->
+##### A.6.1.1.3.2.2.2.1 - Primitive Hub Document [Core]  <!-- UUID: d32ff849-fe1d-4a99-ac1d-18e58eeca32f -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Root Edit Primitive.
 
@@ -508,7 +508,7 @@ The subtrees for failed Invocations of the Root Edit Primitive are stored here.
 
 The subtrees for Instances of the Root Edit Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.2.2.2 - Active Instances [Core]  <!-- UUID: 9ae94a26-915d-4a99-b469-c3cea7f3c6c8 -->
+##### A.6.1.1.3.2.2.2.2 - Active Instances [Core]  <!-- UUID: 9ae94a26-915d-4a99-b469-c3cea7f3c6c8 -->
 
 The Instances of the Root Edit Primitive with `Active` Status are stored herein.
 
@@ -596,19 +596,19 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.3.2.2.2.3 - Completed Instances [Core]  <!-- UUID: a5a2c272-8442-4caa-9423-5eb4e0c9a97d -->
+##### A.6.1.1.3.2.2.2.3 - Completed Instances [Core]  <!-- UUID: a5a2c272-8442-4caa-9423-5eb4e0c9a97d -->
 
 The Instances of the Root Edit Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.3.2.2.2.4 - In Progress Invocations [Core]  <!-- UUID: d76c3889-78be-451a-9dbd-438b22ad4e63 -->
+##### A.6.1.1.3.2.2.2.4 - In Progress Invocations [Core]  <!-- UUID: d76c3889-78be-451a-9dbd-438b22ad4e63 -->
 
 Because the Root Edit Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.3.2.2.3 - Light Agent Primitive [Core]  <!-- UUID: 1c45537d-f720-4462-8cc8-675d08618c2a -->
+#### A.6.1.1.3.2.2.3 - Light Agent Primitive [Core]  <!-- UUID: 1c45537d-f720-4462-8cc8-675d08618c2a -->
 
 The documents herein contain all data and specifications for Keel’s Instances of the Light Agent Primitive. See [A.2.2.6.3 - Light Agent Primitive](44028423-2cd1-40cb-89ac-3f762b602b90).
 
-###### A.6.1.1.3.2.2.3.1 - Primitive Hub Document [Core]  <!-- UUID: 34688a2f-3a17-404a-b985-8ff8479c13f8 -->
+##### A.6.1.1.3.2.2.3.1 - Primitive Hub Document [Core]  <!-- UUID: 34688a2f-3a17-404a-b985-8ff8479c13f8 -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Light Agent Primitive.
 
@@ -644,27 +644,27 @@ The subtrees for failed Invocations of the Light Agent Primitive are stored here
 
 The subtrees for Instances of the Light Agent Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.2.3.2 - Active Instances [Core]  <!-- UUID: 7acfe8a6-80a2-4074-a6d0-fad968c95d1c -->
+##### A.6.1.1.3.2.2.3.2 - Active Instances [Core]  <!-- UUID: 7acfe8a6-80a2-4074-a6d0-fad968c95d1c -->
 
 The Instances of the Light Agent Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.3.2.2.3.3 - Completed Instances [Core]  <!-- UUID: 1cf924ff-7eab-4d1d-8287-f8158925dc19 -->
+##### A.6.1.1.3.2.2.3.3 - Completed Instances [Core]  <!-- UUID: 1cf924ff-7eab-4d1d-8287-f8158925dc19 -->
 
 The Instances of the Light Agent Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.3.2.2.3.4 - In Progress Invocations [Core]  <!-- UUID: a039d046-24d2-4857-a59a-081143d10d61 -->
+##### A.6.1.1.3.2.2.3.4 - In Progress Invocations [Core]  <!-- UUID: a039d046-24d2-4857-a59a-081143d10d61 -->
 
 The in progress Invocations of the Light Agent Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.3.2.2.3.2 - Active Instances](7acfe8a6-80a2-4074-a6d0-fad968c95d1c).
 
-###### A.6.1.1.3.2.3 - Ecosystem Upkeep Primitives [Core]  <!-- UUID: ae5cc5d4-a105-4f67-9e38-fd9b947c57a2 -->
+### A.6.1.1.3.2.3 - Ecosystem Upkeep Primitives [Core]  <!-- UUID: ae5cc5d4-a105-4f67-9e38-fd9b947c57a2 -->
 
 The documents herein implement the Ecosystem Upkeep Primitives for Keel. See [A.2.2.7 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
-###### A.6.1.1.3.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: 0300c5b6-3f31-411f-b64c-707a35a55205 -->
+#### A.6.1.1.3.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: 0300c5b6-3f31-411f-b64c-707a35a55205 -->
 
 The documents herein contain all data and specifications for Keel’s Instance of the Ecosystem Upkeep Fee Primitive. See [A.2.2.7.1 - Ecosystem Upkeep Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
-###### A.6.1.1.3.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 16c06503-ed5a-4dbc-aa30-9417ca0840ad -->
+##### A.6.1.1.3.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 16c06503-ed5a-4dbc-aa30-9417ca0840ad -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Ecosystem Upkeep Fee Primitive.
 
@@ -704,7 +704,7 @@ The subtrees for failed Invocations of the Ecosystem Upkeep Fee Primitive are st
 
 The subtrees for Instances of the Ecosystem Upkeep Fee Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.3.1.2 - Active Instances [Core]  <!-- UUID: c75d2427-3bfe-4e20-b33f-799f4af8e4b6 -->
+##### A.6.1.1.3.2.3.1.2 - Active Instances [Core]  <!-- UUID: c75d2427-3bfe-4e20-b33f-799f4af8e4b6 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Active` Status are stored herein.
 
@@ -760,19 +760,19 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.3.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 5cbe0c56-1105-4ce8-a16a-499b409fbf6c -->
+##### A.6.1.1.3.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 5cbe0c56-1105-4ce8-a16a-499b409fbf6c -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.3.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: ff19abdc-12c9-45cf-aa80-04ed0a7d71d4 -->
+##### A.6.1.1.3.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: ff19abdc-12c9-45cf-aa80-04ed0a7d71d4 -->
 
 Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.3.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: 354f14b7-2263-45f6-8f27-9897b25d65df -->
+#### A.6.1.1.3.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: 354f14b7-2263-45f6-8f27-9897b25d65df -->
 
 The documents herein contain all data and specifications for Keel’s Instance of the Upkeep Rebate Primitive. See [A.2.2.7.2 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
-###### A.6.1.1.3.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: b8dba4a4-069a-466a-843c-61f676c3be7e -->
+##### A.6.1.1.3.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: b8dba4a4-069a-466a-843c-61f676c3be7e -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Upkeep Rebate Primitive.
 
@@ -812,7 +812,7 @@ The subtrees for failed Invocations of the Upkeep Rebate Primitive are stored he
 
 The subtrees for Instances of the Upkeep Rebate Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.3.2.2 - Active Instances [Core]  <!-- UUID: 81a59fe8-9a9c-4cc9-ae8f-2d9d70f39196 -->
+##### A.6.1.1.3.2.3.2.2 - Active Instances [Core]  <!-- UUID: 81a59fe8-9a9c-4cc9-ae8f-2d9d70f39196 -->
 
 The Instances of the Upkeep Rebate Primitive with `Active` Status are stored herein.
 
@@ -868,23 +868,23 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.3.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 92404db0-53f0-4042-8daa-2950f01807be -->
+##### A.6.1.1.3.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 92404db0-53f0-4042-8daa-2950f01807be -->
 
 The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.3.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 21b6e826-f126-4234-9baa-3a1e8a822e99 -->
+##### A.6.1.1.3.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 21b6e826-f126-4234-9baa-3a1e8a822e99 -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.3.2.4 - SkyLink Primitives [Core]  <!-- UUID: c81714a3-e1c6-423a-bf54-6456fcb88112 -->
+### A.6.1.1.3.2.4 - SkyLink Primitives [Core]  <!-- UUID: c81714a3-e1c6-423a-bf54-6456fcb88112 -->
 
 The documents herein implement the SkyLink Primitives for Keel. See [A.2.2.8 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
 
-###### A.6.1.1.3.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: 016fd32e-a2db-45d0-8893-739bdacf1c2f -->
+#### A.6.1.1.3.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: 016fd32e-a2db-45d0-8893-739bdacf1c2f -->
 
 The documents herein contain all data and specifications for Keel’s Instances of the Token SkyLink Primitive. See [A.2.2.8.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
 
-###### A.6.1.1.3.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: b9c869ff-73ed-4b30-bc1a-33c6875524aa -->
+##### A.6.1.1.3.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: b9c869ff-73ed-4b30-bc1a-33c6875524aa -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Token SkyLink Primitive.
 
@@ -920,27 +920,27 @@ The subtrees for failed Invocations of the Token SkyLink Primitive are stored he
 
 The subtrees for Instances of the Token SkyLink Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.4.1.2 - Active Instances [Core]  <!-- UUID: 38756877-b767-4a71-9f38-630a96b50f5a -->
+##### A.6.1.1.3.2.4.1.2 - Active Instances [Core]  <!-- UUID: 38756877-b767-4a71-9f38-630a96b50f5a -->
 
 The Instances of the Token SkyLink Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.3.2.4.1.3 - Completed Instances [Core]  <!-- UUID: 90dac12f-9fa3-45d2-b444-a644ca747d0a -->
+##### A.6.1.1.3.2.4.1.3 - Completed Instances [Core]  <!-- UUID: 90dac12f-9fa3-45d2-b444-a644ca747d0a -->
 
 The Instances of the Token SkyLink Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.3.2.4.1.4 - In Progress Invocations [Core]  <!-- UUID: b42701f2-b0d5-4901-a458-fe0042558c64 -->
+##### A.6.1.1.3.2.4.1.4 - In Progress Invocations [Core]  <!-- UUID: b42701f2-b0d5-4901-a458-fe0042558c64 -->
 
 The in progress Invocations of the Token SkyLink Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.3.2.4.1.2 - Active Instances](38756877-b767-4a71-9f38-630a96b50f5a).
 
-###### A.6.1.1.3.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: e72378f0-3ee3-452b-8af3-a7ef31f619fe -->
+### A.6.1.1.3.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: e72378f0-3ee3-452b-8af3-a7ef31f619fe -->
 
 The documents herein implement the Demand Side Stablecoin Primitives for Keel. See [A.2.2.9 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
 
-###### A.6.1.1.3.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: 9ec308ad-b010-4f2d-ac33-eb56f1236493 -->
+#### A.6.1.1.3.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: 9ec308ad-b010-4f2d-ac33-eb56f1236493 -->
 
 The documents herein contain all data and specifications for Keel’s Instances of the Distribution Reward Primitive. See [A.2.2.9.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
 
-###### A.6.1.1.3.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: b6b85415-c331-41b9-847e-4c5173528ca8 -->
+##### A.6.1.1.3.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: b6b85415-c331-41b9-847e-4c5173528ca8 -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Distribution Reward Primitive.
 
@@ -984,11 +984,11 @@ The subtrees for failed Invocations of the Distribution Reward Primitive are sto
 
 The subtrees for Instances of the Distribution Reward Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.5.1.2 - Active Instances [Core]  <!-- UUID: 4da74767-8e45-420c-9477-89b810654ab4 -->
+##### A.6.1.1.3.2.5.1.2 - Active Instances [Core]  <!-- UUID: 4da74767-8e45-420c-9477-89b810654ab4 -->
 
 The Instances of the Distribution Reward Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.3.2.5.1.3 - Completed Instances [Core]  <!-- UUID: 15a011c4-a0bb-4fd4-bf9d-ff8b5ebc74a6 -->
+##### A.6.1.1.3.2.5.1.3 - Completed Instances [Core]  <!-- UUID: 15a011c4-a0bb-4fd4-bf9d-ff8b5ebc74a6 -->
 
 The Instances of the Distribution Reward Primitive with `Completed` Status are stored herein.
 
@@ -1138,15 +1138,15 @@ The Active Data is updated as follows:
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.3.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: 8aa73f62-1589-4f34-a14b-c95a4701eebc -->
+##### A.6.1.1.3.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: 8aa73f62-1589-4f34-a14b-c95a4701eebc -->
 
 The in progress Invocations of the Distribution Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.3.2.5.1.2 - Active Instances](4da74767-8e45-420c-9477-89b810654ab4).
 
-###### A.6.1.1.3.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: 6319e8b0-577c-4d08-92af-8332fde7e553 -->
+#### A.6.1.1.3.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: 6319e8b0-577c-4d08-92af-8332fde7e553 -->
 
 The documents herein contain all data and specifications for Keel’s Instances of the Integration Boost Primitive. See [A.2.2.9.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
 
-###### A.6.1.1.3.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: 18b58761-8afa-44e0-824d-32d4c85b429e -->
+##### A.6.1.1.3.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: 18b58761-8afa-44e0-824d-32d4c85b429e -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Integration Boost Primitive.
 
@@ -1202,7 +1202,7 @@ The subtrees for failed Invocations of the Integration Boost Primitive are store
 
 The subtrees for Instances of the Integration Boost Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.5.2.2 - Active Instances [Core]  <!-- UUID: a53d1d40-f944-4cf2-9941-8e6f0ec77a72 -->
+##### A.6.1.1.3.2.5.2.2 - Active Instances [Core]  <!-- UUID: a53d1d40-f944-4cf2-9941-8e6f0ec77a72 -->
 
 The Instances of the Integration Boost Primitive with `Active` Status are stored herein.
 
@@ -1578,7 +1578,7 @@ The Active Data is updated as follows:
 
 The Integration Boost Payments are:
 
-###### A.6.1.1.3.2.5.2.3 - Completed Instances [Core]  <!-- UUID: cb3d56e6-8284-4292-9cfe-df8c23c04bf0 -->
+##### A.6.1.1.3.2.5.2.3 - Completed Instances [Core]  <!-- UUID: cb3d56e6-8284-4292-9cfe-df8c23c04bf0 -->
 
 The Instances of the Integration Boost Primitive with `Completed` Status are contained herein.
 
@@ -1675,15 +1675,15 @@ The Active Data is updated as follows:
 
 The Integration Boost Payments are:
 
-###### A.6.1.1.3.2.5.2.4 - In Progress Invocations [Core]  <!-- UUID: 4d86b12e-7abe-4707-afa6-3694fdb09e32 -->
+##### A.6.1.1.3.2.5.2.4 - In Progress Invocations [Core]  <!-- UUID: 4d86b12e-7abe-4707-afa6-3694fdb09e32 -->
 
 The in progress Invocations of the Integration Boost Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.3.2.5.2.2 - Active Instances](a53d1d40-f944-4cf2-9941-8e6f0ec77a72).
 
-###### A.6.1.1.3.2.5.3 - Pioneer Chain Primitive [Core]  <!-- UUID: 8744a0ac-6d59-407d-a192-7ce4ce257420 -->
+#### A.6.1.1.3.2.5.3 - Pioneer Chain Primitive [Core]  <!-- UUID: 8744a0ac-6d59-407d-a192-7ce4ce257420 -->
 
 The documents herein contain all data and specifications for Keel’s Instances of the Pioneer Chain Primitive. See [A.2.2.9.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
 
-###### A.6.1.1.3.2.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: 9502a517-1323-4f1a-9038-8314b4704ff1 -->
+##### A.6.1.1.3.2.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: 9502a517-1323-4f1a-9038-8314b4704ff1 -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Pioneer Chain Primitive.
 
@@ -1723,11 +1723,11 @@ The subtrees for failed Invocations of the Pioneer Chain Primitive are stored he
 
 The subtrees for Instances of the Pioneer Chain Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.5.3.2 - Active Instances [Core]  <!-- UUID: 5d043c09-1d78-456d-b356-c72a13fe46c8 -->
+##### A.6.1.1.3.2.5.3.2 - Active Instances [Core]  <!-- UUID: 5d043c09-1d78-456d-b356-c72a13fe46c8 -->
 
 The Instances of the Pioneer Chain Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.3.2.5.3.3 - Completed Instances [Core]  <!-- UUID: 4ddfaa41-e902-4d6a-a915-6d999c502a34 -->
+##### A.6.1.1.3.2.5.3.3 - Completed Instances [Core]  <!-- UUID: 4ddfaa41-e902-4d6a-a915-6d999c502a34 -->
 
 The Instances of the Pioneer Chain Primitive with `Completed` Status are stored herein.
 
@@ -1767,19 +1767,19 @@ The documents herein define the process for the ongoing management of the Solana
 
 The documents herein contain data relevant to the Solana Instance of the Pioneer Chain Primitive.
 
-###### A.6.1.1.3.2.5.3.4 - In Progress Invocations [Core]  <!-- UUID: 079d3d3d-2549-4216-bc56-84af879ef929 -->
+##### A.6.1.1.3.2.5.3.4 - In Progress Invocations [Core]  <!-- UUID: 079d3d3d-2549-4216-bc56-84af879ef929 -->
 
 The in progress Invocations of the Pioneer Chain Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.3.2.5.3.2 - Active Instances](5d043c09-1d78-456d-b356-c72a13fe46c8).
 
-###### A.6.1.1.3.2.6 - Supply Side Stablecoin Primitives [Core]  <!-- UUID: 23e77e03-5726-4def-86a8-7ae41c7c9b51 -->
+### A.6.1.1.3.2.6 - Supply Side Stablecoin Primitives [Core]  <!-- UUID: 23e77e03-5726-4def-86a8-7ae41c7c9b51 -->
 
 The documents herein implement the Supply Side Stablecoin Primitives for Keel. See [A.2.2.10 - Supply Side Stablecoin Primitives](d1142876-33c2-4e21-9339-d8711525d46f).
 
-###### A.6.1.1.3.2.6.1 - Allocation System Primitive [Core]  <!-- UUID: 0f04cae2-326f-42f1-bc8a-74d01e6ad2af -->
+#### A.6.1.1.3.2.6.1 - Allocation System Primitive [Core]  <!-- UUID: 0f04cae2-326f-42f1-bc8a-74d01e6ad2af -->
 
 The documents herein contain all data and specifications for Keel’s Allocation System Primitive Instances.
 
-###### A.6.1.1.3.2.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: 835a84a6-2167-4013-acce-281e164c5985 -->
+##### A.6.1.1.3.2.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: 835a84a6-2167-4013-acce-281e164c5985 -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Keel Liquidity Layer.
 
@@ -1863,7 +1863,7 @@ The subtrees for failed Invocations of the Allocation System Primitive are store
 
 The subtrees for Instances of the Allocation System Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: d4a7f9b4-7ee0-4f99-a9b9-eebe0219fa8c -->
+##### A.6.1.1.3.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: d4a7f9b4-7ee0-4f99-a9b9-eebe0219fa8c -->
 
 The documents herein provide general specifications of the Keel Liquidity Layer and define Keel’s overarching strategy and operational framework for managing across all Instances.
 
@@ -3193,7 +3193,7 @@ This document defines the action that should be performed by an operator if ther
 
 In the future, additional logic will be added herein regarding the strategy by which capital is allocated between different Instances of the Keel Liquidity Layer.
 
-###### A.6.1.1.3.2.6.1.3 - Active Instances [Core]  <!-- UUID: b9316097-ab93-4a8b-aa51-1e44ceb69c4d -->
+##### A.6.1.1.3.2.6.1.3 - Active Instances [Core]  <!-- UUID: b9316097-ab93-4a8b-aa51-1e44ceb69c4d -->
 
 The Instances of the Keel Liquidity Layer with `Active` Status are stored herein. The `RRC Framework Full Implementation Coverage` status defines whether the Instance Financial RRC is calculated based on a fully implemented risk model (see [A.3.2.1.1.4.3.1 - Fully Implemented Risk Models](419a1d00-fbae-4d26-bd47-8f57677d8001)) or a pending risk model (see [A.3.2.1.1.4.3.2 - Pending Risk Models](81ca88bf-3f6a-4d10-a3e2-d47cf6636d7d)). If the Instance Financial RRC is calculated based on a fully implemented risk model the status is `Covered`. If the Instance Financial RRC is calculated based on a pending risk model the status is `Pending`.
 
@@ -3938,19 +3938,19 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Keel Liquidity Layer processes.
 
-###### A.6.1.1.3.2.6.1.4 - Completed Instances [Core]  <!-- UUID: a1286844-4299-49fd-b744-51b8a0c84494 -->
+##### A.6.1.1.3.2.6.1.4 - Completed Instances [Core]  <!-- UUID: a1286844-4299-49fd-b744-51b8a0c84494 -->
 
 The Instances of the Keel Liquidity Layer with `Completed` Status are stored herein.
 
-###### A.6.1.1.3.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: 712b3441-b303-4296-8f07-dc298109308e -->
+##### A.6.1.1.3.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: 712b3441-b303-4296-8f07-dc298109308e -->
 
 The in progress Invocations of the Allocation System Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.3.2.6.1.3 - Active Instances](b9316097-ab93-4a8b-aa51-1e44ceb69c4d).
 
-###### A.6.1.1.3.2.6.2 - Risk Capital Rental Primitive [Core]  <!-- UUID: af316389-e11d-4205-a14e-bb3c230ba2b5 -->
+#### A.6.1.1.3.2.6.2 - Risk Capital Rental Primitive [Core]  <!-- UUID: af316389-e11d-4205-a14e-bb3c230ba2b5 -->
 
 The documents herein contain all data and specifications for Keel’s Instances of the Risk Capital Rental Primitive. See [A.2.2.10.2 - Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).
 
-###### A.6.1.1.3.2.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: fcf3b78f-e91e-45f2-bd4d-14c1a3a97c1f -->
+##### A.6.1.1.3.2.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: fcf3b78f-e91e-45f2-bd4d-14c1a3a97c1f -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Risk Capital Rental Primitive.
 
@@ -3986,23 +3986,23 @@ The subtrees for failed Invocations of the Risk Capital Rental Primitive are sto
 
 The subtrees for Instances of the Risk Capital Rental Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.6.2.2 - Active Instances [Core]  <!-- UUID: ee196317-63fc-4f69-a985-2a4f5a5be4e5 -->
+##### A.6.1.1.3.2.6.2.2 - Active Instances [Core]  <!-- UUID: ee196317-63fc-4f69-a985-2a4f5a5be4e5 -->
 
 The Instances of the Risk Capital Rental Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.3.2.6.2.3 - Completed Instances [Core]  <!-- UUID: 14b1b9d8-c60a-4cb5-a06b-a059f354bcec -->
+##### A.6.1.1.3.2.6.2.3 - Completed Instances [Core]  <!-- UUID: 14b1b9d8-c60a-4cb5-a06b-a059f354bcec -->
 
 The Instances of the Risk Capital Rental Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.3.2.6.2.4 - In Progress Invocations [Core]  <!-- UUID: 2b4b1b5a-e6a7-4743-9263-0fa8872d2f68 -->
+##### A.6.1.1.3.2.6.2.4 - In Progress Invocations [Core]  <!-- UUID: 2b4b1b5a-e6a7-4743-9263-0fa8872d2f68 -->
 
 The in progress Invocations of the Risk Capital Rental Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.3.2.6.2.2 - Active Instances](ee196317-63fc-4f69-a985-2a4f5a5be4e5).
 
-###### A.6.1.1.3.2.6.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: d12e1955-a592-4cf8-8b98-24ccfb431409 -->
+#### A.6.1.1.3.2.6.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: d12e1955-a592-4cf8-8b98-24ccfb431409 -->
 
 The documents herein contain all data and specifications for Keel’s Instances of the Asset Liability Management Rental Primitive. See [A.2.2.10.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).
 
-###### A.6.1.1.3.2.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: df75861d-ff07-4d63-9d39-f43bfb2b5b75 -->
+##### A.6.1.1.3.2.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: df75861d-ff07-4d63-9d39-f43bfb2b5b75 -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Asset Liability Management Rental Primitive.
 
@@ -4038,27 +4038,27 @@ The subtrees for failed Invocations of the Asset Liability Management Rental Pri
 
 The subtrees for Instances of the Asset Liability Management Rental Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.6.3.2 - Active Instances [Core]  <!-- UUID: 537fef57-4e7f-49d7-ac58-b23ed98aff7c -->
+##### A.6.1.1.3.2.6.3.2 - Active Instances [Core]  <!-- UUID: 537fef57-4e7f-49d7-ac58-b23ed98aff7c -->
 
 The Instances of the Asset Liability Management Rental Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.3.2.6.3.3 - Completed Instances [Core]  <!-- UUID: 2b2af026-ff7e-476b-aa1a-e77eb1fc667a -->
+##### A.6.1.1.3.2.6.3.3 - Completed Instances [Core]  <!-- UUID: 2b2af026-ff7e-476b-aa1a-e77eb1fc667a -->
 
 The Instances of the Asset Liability Management Rental Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.3.2.6.3.4 - In Progress Invocations [Core]  <!-- UUID: 9663607e-e54c-49fb-941f-a1fa5d91542b -->
+##### A.6.1.1.3.2.6.3.4 - In Progress Invocations [Core]  <!-- UUID: 9663607e-e54c-49fb-941f-a1fa5d91542b -->
 
 The in progress Invocations of the Asset Liability Management Rental Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.3.2.6.3.2 - Active Instances](537fef57-4e7f-49d7-ac58-b23ed98aff7c).
 
-###### A.6.1.1.3.2.7 - Core Governance Primitives [Core]  <!-- UUID: a99ec5d3-25e3-4391-8914-3ee55203218f -->
+### A.6.1.1.3.2.7 - Core Governance Primitives [Core]  <!-- UUID: a99ec5d3-25e3-4391-8914-3ee55203218f -->
 
 The documents herein implement the Core Governance Primitives for Keel. See [A.2.2.11 - Core Governance Primitives](6fa54611-c744-4b9d-897d-b2a20e9cae5d).
 
-###### A.6.1.1.3.2.7.1 - Core Governance Reward Primitive [Core]  <!-- UUID: a3d5bf7f-19fd-47d8-8815-6eb03b9bee1d -->
+#### A.6.1.1.3.2.7.1 - Core Governance Reward Primitive [Core]  <!-- UUID: a3d5bf7f-19fd-47d8-8815-6eb03b9bee1d -->
 
 The documents herein contain all data and specifications for Keel’s Instances of the Core Governance Reward Primitive. See [A.2.2.11.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
 
-###### A.6.1.1.3.2.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: 0841bc09-e502-4a45-a5fc-e30d793a423f -->
+##### A.6.1.1.3.2.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: 0841bc09-e502-4a45-a5fc-e30d793a423f -->
 
 The documents herein organize all base information relevant to Keel’s usage of the Core Governance Reward Primitive.
 
@@ -4094,46 +4094,46 @@ The subtrees for failed Invocations of the Core Governance Reward Primitive are 
 
 The subtrees for Instances of the Core Governance Reward Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.3.2.7.1.2 - Active Instances [Core]  <!-- UUID: 0b4cc335-c2ed-4b7f-8cb5-eeb1bab394b8 -->
+##### A.6.1.1.3.2.7.1.2 - Active Instances [Core]  <!-- UUID: 0b4cc335-c2ed-4b7f-8cb5-eeb1bab394b8 -->
 
 The Instances of the Core Governance Reward Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.3.2.7.1.3 - Completed Instances [Core]  <!-- UUID: d4d144fb-eaf6-40ab-90c2-e86dc9494a42 -->
+##### A.6.1.1.3.2.7.1.3 - Completed Instances [Core]  <!-- UUID: d4d144fb-eaf6-40ab-90c2-e86dc9494a42 -->
 
 The Instances of the Core Governance Reward Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.3.2.7.1.4 - In Progress Invocations [Core]  <!-- UUID: 6a200f7a-611d-4969-8046-6b5b88f6979a -->
+##### A.6.1.1.3.2.7.1.4 - In Progress Invocations [Core]  <!-- UUID: 6a200f7a-611d-4969-8046-6b5b88f6979a -->
 
 The in progress Invocations of the Core Governance Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.3.2.7.1.2 - Active Instances](0b4cc335-c2ed-4b7f-8cb5-eeb1bab394b8).
 
-##### A.6.1.1.3.3 - Omni Documents [Core]  <!-- UUID: bafbbf28-95dc-41a4-9c55-f3befde4e991 -->
+## A.6.1.1.3.3 - Omni Documents [Core]  <!-- UUID: bafbbf28-95dc-41a4-9c55-f3befde4e991 -->
 
 The documents herein define Keel’s strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
 
-###### A.6.1.1.3.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: 1889a2a0-7378-487a-a278-aabe3177efff -->
+### A.6.1.1.3.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: 1889a2a0-7378-487a-a278-aabe3177efff -->
 
 The documents herein specify Keel governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Keel Artifact is specified in the Root Edit Primitive above at [A.6.1.1.3.2.2.2 - Root Edit Primitive](3d02dcbc-6a31-4f63-b464-c8c3ecebb744).
 
-###### A.6.1.1.3.3.1.1 - Sky Forum [Core]  <!-- UUID: 63fec69d-a4df-42c3-bb5f-b959e711df56 -->
+#### A.6.1.1.3.3.1.1 - Sky Forum [Core]  <!-- UUID: 63fec69d-a4df-42c3-bb5f-b959e711df56 -->
 
 Keel uses the Sky Forum for governance-related discussion. Posts should use the "Keel Prime" category.
 
-###### A.6.1.1.3.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: 8613cc87-2809-4716-8c91-93ff0345f7a8 -->
+#### A.6.1.1.3.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: 8613cc87-2809-4716-8c91-93ff0345f7a8 -->
 
 The documents herein specify Keel’s emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Keel Artifact.
 
-###### A.6.1.1.3.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: ef98d5b6-3542-4b2f-a926-a0648713fa70 -->
+#### A.6.1.1.3.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: ef98d5b6-3542-4b2f-a926-a0648713fa70 -->
 
 The documents herein specify Keel’s emergency response protocol in situations solely impacting Keel versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Keel Artifact.
 
-###### A.6.1.1.3.3.2 - Use Of Idle Funds [Core]  <!-- UUID: 41ad175e-48c8-4caf-8cb7-638f90ff0ad6 -->
+### A.6.1.1.3.3.2 - Use Of Idle Funds [Core]  <!-- UUID: 41ad175e-48c8-4caf-8cb7-638f90ff0ad6 -->
 
 In the short term prior to Keel's implementation of the Allocation System Primitive, Keel may invest idle funds in low-risk decentralized finance opportunities, including providing liquidity to established lending protocols on Solana. These deployments will be subject to the approval of Operational GovOps.
 
-###### A.6.1.1.3.3.3 - Ecosystem Accords [Core]  <!-- UUID: e2db688f-a6f1-476a-b7da-dd67d94da35b -->
+### A.6.1.1.3.3.3 - Ecosystem Accords [Core]  <!-- UUID: e2db688f-a6f1-476a-b7da-dd67d94da35b -->
 
 Keel has formally agreed to the Ecosystem Accords herein.
 
-###### A.6.1.1.3.3.3.1 - Ecosystem Accord 3 [Core]  <!-- UUID: 962d4b79-2dea-4b86-a72f-8a460189327f -->
+#### A.6.1.1.3.3.3.1 - Ecosystem Accord 3 [Core]  <!-- UUID: 962d4b79-2dea-4b86-a72f-8a460189327f -->
 
 Keel engaged in terms of agreement with Sky in Ecosystem Accord 3, located in [A.2.8.2.3 - Ecosystem Accord 3: Sky And Keel](63a88b08-e6cd-48bf-9cec-64ce7e42ae0e).

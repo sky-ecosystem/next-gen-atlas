@@ -1,24 +1,24 @@
-#### A.6.1.1.2 - Grove [Core]  <!-- UUID: 727b0de6-095b-485e-bf9c-02108a364480 -->
+# A.6.1.1.2 - Grove [Core]  <!-- UUID: 727b0de6-095b-485e-bf9c-02108a364480 -->
 
 The documents herein specify all of the logic for Grove, including Grove’s strategy and how it uses the Sky Primitives to operationalize this strategy.
 
-##### A.6.1.1.2.1 - Introduction [Core]  <!-- UUID: 197ef51d-d785-491d-b929-cc659f3f3bb9 -->
+## A.6.1.1.2.1 - Introduction [Core]  <!-- UUID: 197ef51d-d785-491d-b929-cc659f3f3bb9 -->
 
 Grove is an Agent focused on unlocking the full potential of USDS through higher savings rates and new products and opportunities. Its main focus will be building an institutional-grade credit platform designed to facilitate credit creation and seamlessly move yield in and out of the onchain economy.
 
-##### A.6.1.1.2.2 - Sky Primitives [Core]  <!-- UUID: 6b9bbf5e-0a76-4082-a042-811d4c426e6e -->
+## A.6.1.1.2.2 - Sky Primitives [Core]  <!-- UUID: 6b9bbf5e-0a76-4082-a042-811d4c426e6e -->
 
 The documents herein implement the Sky Primitives for Grove. See [A.2.2 - Sky Primitives](fcde2604-a138-4c1b-9d9a-14895835c907).
 
-###### A.6.1.1.2.2.1 - Genesis Primitives [Core]  <!-- UUID: 96294c0f-de02-40e1-b2b3-4434116ccfd3 -->
+### A.6.1.1.2.2.1 - Genesis Primitives [Core]  <!-- UUID: 96294c0f-de02-40e1-b2b3-4434116ccfd3 -->
 
 The documents herein implement the Genesis Primitives for Grove. See [A.2.2.5 - Genesis Primitives](3d5e3668-8333-4908-adcc-5784cfe7f6b5).
 
-###### A.6.1.1.2.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: f1d5f01a-3072-4c73-a039-7dcf19421640 -->
+#### A.6.1.1.2.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: f1d5f01a-3072-4c73-a039-7dcf19421640 -->
 
 The documents herein contain all data and specifications for Grove’s Instance of the Agent Creation Primitive. See [A.2.2.5.1 - Agent Creation Primitive](82b95f6d-4883-4f08-ac3a-9d8189013fbe).
 
-###### A.6.1.1.2.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: 28443b6e-bf44-4a2b-9592-c1b55f2d4679 -->
+##### A.6.1.1.2.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: 28443b6e-bf44-4a2b-9592-c1b55f2d4679 -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Agent Creation Primitive.
 
@@ -58,11 +58,11 @@ The subtrees for failed Invocations of the Agent Creation Primitive are stored h
 
 The subtrees for Instances of the Agent Creation Primitive with Suspended Status are stored here.
 
-###### A.6.1.1.2.2.1.1.2 - Active Instances [Core]  <!-- UUID: 2549581e-c635-4389-bb57-0780bb24c37e -->
+##### A.6.1.1.2.2.1.1.2 - Active Instances [Core]  <!-- UUID: 2549581e-c635-4389-bb57-0780bb24c37e -->
 
 The Instances of the Agent Creation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 994395c0-c61d-4fc9-8167-00ee3134bd5a -->
+##### A.6.1.1.2.2.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 994395c0-c61d-4fc9-8167-00ee3134bd5a -->
 
 The Instances of the Agent Creation Primitive with `Completed` Status are contained herein.
 
@@ -114,15 +114,15 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.2.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: a7a1d15b-4d7f-4224-adc2-645c9b8dfdcb -->
+##### A.6.1.1.2.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: a7a1d15b-4d7f-4224-adc2-645c9b8dfdcb -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.2.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: 815b45f1-a157-482c-967b-472283a5ab29 -->
+#### A.6.1.1.2.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: 815b45f1-a157-482c-967b-472283a5ab29 -->
 
 The documents herein contain all data and specifications for Grove’s Instance of the Prime Transformation Primitive. See [A.2.2.5.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
 
-###### A.6.1.1.2.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: 9062717c-fe70-4a96-b063-25fc05bf68da -->
+##### A.6.1.1.2.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: 9062717c-fe70-4a96-b063-25fc05bf68da -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Prime Transformation Primitive.
 
@@ -162,11 +162,11 @@ The subtrees for failed Invocations of the Prime Transformation Primitive are st
 
 The subtrees for Instances of the Prime Transformation Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.1.2.2 - Active Instances [Core]  <!-- UUID: 6131c7e6-63e8-40fc-91f7-a1d873ceeeff -->
+##### A.6.1.1.2.2.1.2.2 - Active Instances [Core]  <!-- UUID: 6131c7e6-63e8-40fc-91f7-a1d873ceeeff -->
 
 The Instances of the Prime Transformation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.1.2.3 - Completed Instances [Core]  <!-- UUID: 442e6d79-7f69-48ae-8758-05347b5efb7c -->
+##### A.6.1.1.2.2.1.2.3 - Completed Instances [Core]  <!-- UUID: 442e6d79-7f69-48ae-8758-05347b5efb7c -->
 
 The Instances of the Prime Transformation Primitive with `Completed` Status are contained herein.
 
@@ -206,15 +206,15 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.2.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 57c07fc2-51cc-442d-bf1b-326022ae71a2 -->
+##### A.6.1.1.2.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 57c07fc2-51cc-442d-bf1b-326022ae71a2 -->
 
 Because the Prime Transformation Primitive is deployed solely for the one-time transformation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.2.2.1.3 - Executor Transformation Primitive [Core]  <!-- UUID: 999bd004-5dfa-40cd-89fe-1957515a0bb5 -->
+#### A.6.1.1.2.2.1.3 - Executor Transformation Primitive [Core]  <!-- UUID: 999bd004-5dfa-40cd-89fe-1957515a0bb5 -->
 
 The documents herein contain all data and specifications for Grove’s Instance of the Executor Transformation Primitive. See [A.2.2.5.3 - Executor Transformation Primitive](2f249be5-8edb-41e4-b429-734e1ba2cbc7).
 
-###### A.6.1.1.2.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: 3d4fc87f-c02b-4e39-bbca-8cd90919479a -->
+##### A.6.1.1.2.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: 3d4fc87f-c02b-4e39-bbca-8cd90919479a -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Executor Transformation Primitive.
 
@@ -250,23 +250,23 @@ The subtrees for failed Invocations of the Executor Transformation Primitive are
 
 The subtrees for Instances of the Executor Transformation Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.1.3.2 - Active Instances [Core]  <!-- UUID: 9bceeba9-9bd7-4f23-91df-9424007e4373 -->
+##### A.6.1.1.2.2.1.3.2 - Active Instances [Core]  <!-- UUID: 9bceeba9-9bd7-4f23-91df-9424007e4373 -->
 
 The Instances of the Executor Transformation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.1.3.3 - Completed Instances [Core]  <!-- UUID: d26312b9-a479-476e-ad23-929ee4d7caf0 -->
+##### A.6.1.1.2.2.1.3.3 - Completed Instances [Core]  <!-- UUID: d26312b9-a479-476e-ad23-929ee4d7caf0 -->
 
 The Instances of the Executor Transformation Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.2.2.1.3.4 - In Progress Invocations [Core]  <!-- UUID: 9c98d05c-bf6a-49fe-9ac2-08c063df8a75 -->
+##### A.6.1.1.2.2.1.3.4 - In Progress Invocations [Core]  <!-- UUID: 9c98d05c-bf6a-49fe-9ac2-08c063df8a75 -->
 
 Because the Executor Transformation Primitive is deployed solely for the one-time transformation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.2.2.1.4 - Agent Token Primitive [Core]  <!-- UUID: 79d2d527-745b-4fad-88ae-fc9b0d04643d -->
+#### A.6.1.1.2.2.1.4 - Agent Token Primitive [Core]  <!-- UUID: 79d2d527-745b-4fad-88ae-fc9b0d04643d -->
 
 The documents herein contain all data and specifications for Grove’s Instance of the Agent Token Primitive. See [A.2.2.5.4 - Agent Token Primitive](2047c361-db28-4952-a70c-83d07b562064).
 
-###### A.6.1.1.2.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: 2bb3fe7a-046f-4109-bd32-2647fa919086 -->
+##### A.6.1.1.2.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: 2bb3fe7a-046f-4109-bd32-2647fa919086 -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Agent Token Primitive.
 
@@ -306,7 +306,7 @@ The subtrees for failed Invocations of the Agent Token Primitive are stored here
 
 The subtrees for Instances of the Agent Token Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.1.4.2 - Active Instances [Core]  <!-- UUID: 8cde8c68-6f3a-467a-8fdb-42665dd322a9 -->
+##### A.6.1.1.2.2.1.4.2 - Active Instances [Core]  <!-- UUID: 8cde8c68-6f3a-467a-8fdb-42665dd322a9 -->
 
 The Instances of the Agent Token Primitive with `Active` Status are stored herein.
 
@@ -386,23 +386,23 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.2.2.1.4.3 - Completed Instances [Core]  <!-- UUID: 573d5df7-1147-4735-b3a5-f2fea1c569c7 -->
+##### A.6.1.1.2.2.1.4.3 - Completed Instances [Core]  <!-- UUID: 573d5df7-1147-4735-b3a5-f2fea1c569c7 -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.2.2.1.4.4 - In Progress Invocations [Core]  <!-- UUID: 4cba9d0d-52fd-4364-89f3-5425f89af772 -->
+##### A.6.1.1.2.2.1.4.4 - In Progress Invocations [Core]  <!-- UUID: 4cba9d0d-52fd-4364-89f3-5425f89af772 -->
 
 Because the Agent Token Primitive is Invoked solely for the one-time deployment of the Agent’s token, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.2.2.2 - Operational Primitives [Core]  <!-- UUID: 82f990e4-f44f-47ef-807c-e7a4d6c73a8c -->
+### A.6.1.1.2.2.2 - Operational Primitives [Core]  <!-- UUID: 82f990e4-f44f-47ef-807c-e7a4d6c73a8c -->
 
 The documents herein implement the Operational Primitives for Grove. See [A.2.2.6 - Operational Primitives](0192ec95-9207-480e-8c51-88d2a1da95ad).
 
-###### A.6.1.1.2.2.2.1 - Executor Accord Primitive [Core]  <!-- UUID: e5a70b27-f322-48d8-9970-9d5e68566deb -->
+#### A.6.1.1.2.2.2.1 - Executor Accord Primitive [Core]  <!-- UUID: e5a70b27-f322-48d8-9970-9d5e68566deb -->
 
 The documents herein contain all data and specifications for Grove’s Instances of the Executor Accord Primitive. See [A.2.2.6.1 - Executor Accord Primitive](88017877-3ec1-4c43-a035-6bebdf11d9bb).
 
-###### A.6.1.1.2.2.2.1.1 - Primitive Hub Document [Core]  <!-- UUID: 456f2f2e-b578-499a-ae8e-52c2dee6651e -->
+##### A.6.1.1.2.2.2.1.1 - Primitive Hub Document [Core]  <!-- UUID: 456f2f2e-b578-499a-ae8e-52c2dee6651e -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Executor Accord Primitive.
 
@@ -442,7 +442,7 @@ The subtrees for failed Invocations of the Executor Accord Primitive are stored 
 
 The subtrees for Instances of the Executor Accord Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.2.1.2 - Active Instances [Core]  <!-- UUID: 7da4fef1-0a6b-4ac6-b797-34095d491d04 -->
+##### A.6.1.1.2.2.2.1.2 - Active Instances [Core]  <!-- UUID: 7da4fef1-0a6b-4ac6-b797-34095d491d04 -->
 
 The Instances of the Executor Accord Primitive with `Active` Status are stored herein.
 
@@ -482,19 +482,19 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.2.2.2.1.3 - Completed Instances [Core]  <!-- UUID: bd479d49-6929-4eff-8809-2d440e541748 -->
+##### A.6.1.1.2.2.2.1.3 - Completed Instances [Core]  <!-- UUID: bd479d49-6929-4eff-8809-2d440e541748 -->
 
 The Instances of the Executor Accord Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.2.2.2.1.4 - In Progress Invocations [Core]  <!-- UUID: 3e6ee2de-3801-49bd-884b-d0b758ea39ca -->
+##### A.6.1.1.2.2.2.1.4 - In Progress Invocations [Core]  <!-- UUID: 3e6ee2de-3801-49bd-884b-d0b758ea39ca -->
 
 The in progress Invocations of the Executor Accord Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.2.2.2.1.2 - Active Instances](7da4fef1-0a6b-4ac6-b797-34095d491d04).
 
-###### A.6.1.1.2.2.2.2 - Root Edit Primitive [Core]  <!-- UUID: da862b9f-ca77-443a-ac56-5a287c50b4db -->
+#### A.6.1.1.2.2.2.2 - Root Edit Primitive [Core]  <!-- UUID: da862b9f-ca77-443a-ac56-5a287c50b4db -->
 
 The documents herein contain all data and specifications for Grove’s Instance of the Root Edit Primitive. See [A.2.2.6.2 - Root Edit Primitive](78488c6b-d77f-4344-b954-476e415a2c7d).
 
-###### A.6.1.1.2.2.2.2.1 - Primitive Hub Document [Core]  <!-- UUID: f52af41f-b3a7-4218-bce6-11104e7d941b -->
+##### A.6.1.1.2.2.2.2.1 - Primitive Hub Document [Core]  <!-- UUID: f52af41f-b3a7-4218-bce6-11104e7d941b -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Root Edit Primitive.
 
@@ -534,7 +534,7 @@ The subtrees for failed Invocations of the Root Edit Primitive are stored here.
 
 The subtrees for Instances of the Root Edit Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.2.2.2 - Active Instances [Core]  <!-- UUID: a4332a72-d0a3-4540-9354-d4888100ad9e -->
+##### A.6.1.1.2.2.2.2.2 - Active Instances [Core]  <!-- UUID: a4332a72-d0a3-4540-9354-d4888100ad9e -->
 
 The Instances of the Root Edit Primitive with `Active` Status are stored herein.
 
@@ -647,19 +647,19 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.2.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 9784ad9e-ecb8-49f1-95a6-fd3987482733 -->
+##### A.6.1.1.2.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 9784ad9e-ecb8-49f1-95a6-fd3987482733 -->
 
 The Instances of the Root Edit Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.2.2.2.2.4 - In Progress Invocations [Core]  <!-- UUID: 398631e5-af29-49bf-9f9c-1d8fbd7a2dc2 -->
+##### A.6.1.1.2.2.2.2.4 - In Progress Invocations [Core]  <!-- UUID: 398631e5-af29-49bf-9f9c-1d8fbd7a2dc2 -->
 
 Because the Root Edit Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.2.2.2.3 - Light Agent Primitive [Core]  <!-- UUID: 3a7273a8-da6b-4e1c-b59f-7b25003d1401 -->
+#### A.6.1.1.2.2.2.3 - Light Agent Primitive [Core]  <!-- UUID: 3a7273a8-da6b-4e1c-b59f-7b25003d1401 -->
 
 The documents herein contain all data and specifications for Grove’s Instances of the Light Agent Primitive. See [A.2.2.6.3 - Light Agent Primitive](44028423-2cd1-40cb-89ac-3f762b602b90).
 
-###### A.6.1.1.2.2.2.3.1 - Primitive Hub Document [Core]  <!-- UUID: 659ba048-7352-449d-8d89-d4ba9c72c2df -->
+##### A.6.1.1.2.2.2.3.1 - Primitive Hub Document [Core]  <!-- UUID: 659ba048-7352-449d-8d89-d4ba9c72c2df -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Light Agent Primitive.
 
@@ -695,27 +695,27 @@ The subtrees for failed Invocations of the Light Agent Primitive are stored here
 
 The subtrees for Instances of the Light Agent Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.2.3.2 - Active Instances [Core]  <!-- UUID: 25b9dd1a-045c-4ef6-8b3a-7d97622e4f3c -->
+##### A.6.1.1.2.2.2.3.2 - Active Instances [Core]  <!-- UUID: 25b9dd1a-045c-4ef6-8b3a-7d97622e4f3c -->
 
 The Instances of the Light Agent Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.2.3.3 - Completed Instances [Core]  <!-- UUID: 93909689-5956-495c-995b-f553ce7a4611 -->
+##### A.6.1.1.2.2.2.3.3 - Completed Instances [Core]  <!-- UUID: 93909689-5956-495c-995b-f553ce7a4611 -->
 
 The Instances of the Light Agent Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.2.2.2.3.4 - In Progress Invocations [Core]  <!-- UUID: c0c6f3ea-db96-493f-af49-9393c31ca800 -->
+##### A.6.1.1.2.2.2.3.4 - In Progress Invocations [Core]  <!-- UUID: c0c6f3ea-db96-493f-af49-9393c31ca800 -->
 
 The in progress Invocations of the Light Agent Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.2.2.2.3.2 - Active Instances](25b9dd1a-045c-4ef6-8b3a-7d97622e4f3c).
 
-###### A.6.1.1.2.2.3 - Ecosystem Upkeep Primitives [Core]  <!-- UUID: 4360c7ca-0f42-4ad8-8cad-ffe042e2f2b4 -->
+### A.6.1.1.2.2.3 - Ecosystem Upkeep Primitives [Core]  <!-- UUID: 4360c7ca-0f42-4ad8-8cad-ffe042e2f2b4 -->
 
 The documents herein implement the Ecosystem Upkeep Primitives for Grove. See [A.2.2.7 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
-###### A.6.1.1.2.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: 360c4fcc-fb40-482d-b3a7-4da11dce9da9 -->
+#### A.6.1.1.2.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: 360c4fcc-fb40-482d-b3a7-4da11dce9da9 -->
 
 The documents herein contain all data and specifications for Grove’s Instance of the Ecosystem Upkeep Fee Primitive. See [A.2.2.7.1 - Ecosystem Upkeep Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
-###### A.6.1.1.2.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: d8588e0b-0acd-4bed-989e-8da4016d0aa9 -->
+##### A.6.1.1.2.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: d8588e0b-0acd-4bed-989e-8da4016d0aa9 -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Ecosystem Upkeep Fee Primitive.
 
@@ -755,7 +755,7 @@ The subtrees for failed Invocations of the Ecosystem Upkeep Fee Primitive are st
 
 The subtrees for Instances of the Ecosystem Upkeep Fee Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.3.1.2 - Active Instances [Core]  <!-- UUID: 7e2eb143-8264-40e3-9151-9c6a9a44012b -->
+##### A.6.1.1.2.2.3.1.2 - Active Instances [Core]  <!-- UUID: 7e2eb143-8264-40e3-9151-9c6a9a44012b -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Active` Status are stored herein.
 
@@ -811,19 +811,19 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.2.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 370e4310-69e9-40e9-ae26-46518187cd47 -->
+##### A.6.1.1.2.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 370e4310-69e9-40e9-ae26-46518187cd47 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.2.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: 3c264e80-11c3-47a6-b496-852059d8826e -->
+##### A.6.1.1.2.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: 3c264e80-11c3-47a6-b496-852059d8826e -->
 
 Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.2.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: ef8a7a1d-4e4d-474b-97fd-801c8285e9fc -->
+#### A.6.1.1.2.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: ef8a7a1d-4e4d-474b-97fd-801c8285e9fc -->
 
 The documents herein contain all data and specifications for Groves Instance of the Upkeep Rebate Primitive. See [A.2.2.7.2 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
-###### A.6.1.1.2.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 52031d37-fadd-4112-b2e9-53cc04ac44b8 -->
+##### A.6.1.1.2.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 52031d37-fadd-4112-b2e9-53cc04ac44b8 -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Upkeep Rebate Primitive.
 
@@ -863,7 +863,7 @@ The subtrees for failed Invocations of the Upkeep Rebate Primitive are stored he
 
 The subtrees for Instances of the Upkeep Rebate Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.3.2.2 - Active Instances [Core]  <!-- UUID: 0bc120ca-79b5-4998-a7d6-73d401e1a93c -->
+##### A.6.1.1.2.2.3.2.2 - Active Instances [Core]  <!-- UUID: 0bc120ca-79b5-4998-a7d6-73d401e1a93c -->
 
 The Instances of the Upkeep Rebate Primitive with `Active` Status are stored herein.
 
@@ -919,23 +919,23 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.2.2.3.2.3 - Completed Instances [Core]  <!-- UUID: d659568c-ebea-462e-8d75-0fd3d848c884 -->
+##### A.6.1.1.2.2.3.2.3 - Completed Instances [Core]  <!-- UUID: d659568c-ebea-462e-8d75-0fd3d848c884 -->
 
 The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.2.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 742884ea-1851-4c44-8cbc-cc8cc69dd8da -->
+##### A.6.1.1.2.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 742884ea-1851-4c44-8cbc-cc8cc69dd8da -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.2.2.4 - SkyLink Primitives [Core]  <!-- UUID: 6ba46f75-fc23-4697-9c3d-e33b29d49bad -->
+### A.6.1.1.2.2.4 - SkyLink Primitives [Core]  <!-- UUID: 6ba46f75-fc23-4697-9c3d-e33b29d49bad -->
 
 The documents herein implement the SkyLink Primitives for Grove. See [A.2.2.8 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
 
-###### A.6.1.1.2.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: 9f614096-200c-48cb-abba-9f2ea3a35073 -->
+#### A.6.1.1.2.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: 9f614096-200c-48cb-abba-9f2ea3a35073 -->
 
 The documents herein contain all data and specifications for Grove’s Instances of the Token SkyLink Primitive. See [A.2.2.8.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
 
-###### A.6.1.1.2.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: d6e99512-2f90-4c90-8d99-8b2dec137ace -->
+##### A.6.1.1.2.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: d6e99512-2f90-4c90-8d99-8b2dec137ace -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Token SkyLink Primitive.
 
@@ -971,27 +971,27 @@ The subtrees for failed Invocations of the Token SkyLink Primitive are stored he
 
 The subtrees for Instances of the Token SkyLink Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.4.1.2 - Active Instances [Core]  <!-- UUID: da5c971b-7758-486d-bddb-fba2e1b5cdc5 -->
+##### A.6.1.1.2.2.4.1.2 - Active Instances [Core]  <!-- UUID: da5c971b-7758-486d-bddb-fba2e1b5cdc5 -->
 
 The Instances of the Token SkyLink Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.4.1.3 - Completed Instances [Core]  <!-- UUID: 0a3bd259-7320-40d0-b98b-17a094fc2fcd -->
+##### A.6.1.1.2.2.4.1.3 - Completed Instances [Core]  <!-- UUID: 0a3bd259-7320-40d0-b98b-17a094fc2fcd -->
 
 The Instances of the Token SkyLink Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.2.2.4.1.4 - In Progress Invocations [Core]  <!-- UUID: 9fcd2b86-f3a9-494e-936e-45614c466ccd -->
+##### A.6.1.1.2.2.4.1.4 - In Progress Invocations [Core]  <!-- UUID: 9fcd2b86-f3a9-494e-936e-45614c466ccd -->
 
 The in progress Invocations of the Token SkyLink Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.2.2.4.1.2 - Active Instances](da5c971b-7758-486d-bddb-fba2e1b5cdc5).
 
-###### A.6.1.1.2.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: 79933ed7-8378-437d-a546-b03f59668a38 -->
+### A.6.1.1.2.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: 79933ed7-8378-437d-a546-b03f59668a38 -->
 
 The documents herein implement the Demand Side Stablecoin Primitives for Grove. See [A.2.2.9 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
 
-###### A.6.1.1.2.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: 8c46d61f-9b02-4898-be15-f875692f3715 -->
+#### A.6.1.1.2.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: 8c46d61f-9b02-4898-be15-f875692f3715 -->
 
 The documents herein contain all data and specifications for Grove’s Instances of the Distribution Reward Primitive. See [A.2.2.9.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
 
-###### A.6.1.1.2.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: 21b5e889-c9f9-45e7-becb-fde3e070e063 -->
+##### A.6.1.1.2.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: 21b5e889-c9f9-45e7-becb-fde3e070e063 -->
 
 The documents herein organize all base information relevant to Groves usage of the Distribution Reward Primitive.
 
@@ -1031,7 +1031,7 @@ The subtrees for failed Invocations of the Distribution Reward Primitive are sto
 
 The subtrees for Instances of the Distribution Reward Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.5.1.2 - Active Instances [Core]  <!-- UUID: a4df61c2-514e-46e4-a84d-d2782f2f183f -->
+##### A.6.1.1.2.2.5.1.2 - Active Instances [Core]  <!-- UUID: a4df61c2-514e-46e4-a84d-d2782f2f183f -->
 
 The Instances of the Distribution Reward Primitive with `Active` Status are stored herein.
 
@@ -1108,19 +1108,19 @@ The Active Data is updated as follows:
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.2.2.5.1.3 - Completed Instances [Core]  <!-- UUID: cca65b4d-5cf9-449e-9178-195b611ddc06 -->
+##### A.6.1.1.2.2.5.1.3 - Completed Instances [Core]  <!-- UUID: cca65b4d-5cf9-449e-9178-195b611ddc06 -->
 
 The Instances of the Distribution Reward Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.2.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: 1169df23-b14e-492d-9602-996c3aa0d577 -->
+##### A.6.1.1.2.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: 1169df23-b14e-492d-9602-996c3aa0d577 -->
 
 The in progress Invocations of the Distribution Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.2.2.5.1.2 - Active Instances](a4df61c2-514e-46e4-a84d-d2782f2f183f).
 
-###### A.6.1.1.2.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: 634971ac-f579-4673-afbd-6a4366d26db9 -->
+#### A.6.1.1.2.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: 634971ac-f579-4673-afbd-6a4366d26db9 -->
 
 The documents herein contain all data and specifications for Grove’s Instances of the Integration Boost Primitive. See [A.2.2.9.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
 
-###### A.6.1.1.2.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: c5a92bcd-69d3-41ee-a12a-33dce8af4686 -->
+##### A.6.1.1.2.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: c5a92bcd-69d3-41ee-a12a-33dce8af4686 -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Integration Boost Primitive.
 
@@ -1156,23 +1156,23 @@ The subtrees for failed Invocations of the Integration Boost Primitive are store
 
 The subtrees for Instances of the Integration Boost Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.5.2.2 - Active Instances [Core]  <!-- UUID: b1265577-1f7d-48be-941b-9a2b0f62818e -->
+##### A.6.1.1.2.2.5.2.2 - Active Instances [Core]  <!-- UUID: b1265577-1f7d-48be-941b-9a2b0f62818e -->
 
 The Instances of the Integration Boost Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.5.2.3 - Completed Instances [Core]  <!-- UUID: 90e4294a-089b-4f34-bb05-a5c10e469d0b -->
+##### A.6.1.1.2.2.5.2.3 - Completed Instances [Core]  <!-- UUID: 90e4294a-089b-4f34-bb05-a5c10e469d0b -->
 
 The Instances of the Integration Boost Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.2.2.5.2.4 - In Progress Invocations [Core]  <!-- UUID: b7fe4d93-cd99-4223-853e-9eebe7bdaa91 -->
+##### A.6.1.1.2.2.5.2.4 - In Progress Invocations [Core]  <!-- UUID: b7fe4d93-cd99-4223-853e-9eebe7bdaa91 -->
 
 The in progress Invocations of the Integration Boost Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.2.2.5.2.2 - Active Instances](b1265577-1f7d-48be-941b-9a2b0f62818e).
 
-###### A.6.1.1.2.2.5.3 - Pioneer Chain Primitive [Core]  <!-- UUID: f8ffe054-1981-457e-abc6-412f3ee37927 -->
+#### A.6.1.1.2.2.5.3 - Pioneer Chain Primitive [Core]  <!-- UUID: f8ffe054-1981-457e-abc6-412f3ee37927 -->
 
 The documents herein contain all data and specifications for Grove’s Instances of the Pioneer Chain Primitive. See [A.2.2.9.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
 
-###### A.6.1.1.2.2.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: 63c25970-e1dd-475c-bb77-487ac7640aaa -->
+##### A.6.1.1.2.2.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: 63c25970-e1dd-475c-bb77-487ac7640aaa -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Pioneer Chain Primitive.
 
@@ -1212,7 +1212,7 @@ The subtrees for failed Invocations of the Pioneer Chain Primitive are stored he
 
 The subtrees for Instances of the Pioneer Chain Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.5.3.2 - Active Instances [Core]  <!-- UUID: 33a1baf4-9922-40a1-b121-558f620da186 -->
+##### A.6.1.1.2.2.5.3.2 - Active Instances [Core]  <!-- UUID: 33a1baf4-9922-40a1-b121-558f620da186 -->
 
 The Instances of the Pioneer Chain Primitive with `Active` Status are stored herein.
 
@@ -1256,23 +1256,23 @@ The documents herein define the process for the ongoing management of the Single
 
 The documents herein contain data relevant to the Single Instance of the Pioneer Chain Primitive.
 
-###### A.6.1.1.2.2.5.3.3 - Completed Instances [Core]  <!-- UUID: ad66bcf7-bd92-4c71-be17-89310e6d0a83 -->
+##### A.6.1.1.2.2.5.3.3 - Completed Instances [Core]  <!-- UUID: ad66bcf7-bd92-4c71-be17-89310e6d0a83 -->
 
 The Instances of the Pioneer Chain Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.2.2.5.3.4 - In Progress Invocations [Core]  <!-- UUID: 3299b4ea-60e5-4f46-9c4a-24c5da64a5fc -->
+##### A.6.1.1.2.2.5.3.4 - In Progress Invocations [Core]  <!-- UUID: 3299b4ea-60e5-4f46-9c4a-24c5da64a5fc -->
 
 The in progress Invocations of the Pioneer Chain Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.2.2.5.3.2 - Active Instances](33a1baf4-9922-40a1-b121-558f620da186).
 
-###### A.6.1.1.2.2.6 - Supply Side Stablecoin Primitives [Core]  <!-- UUID: fb59210b-5a2f-4be4-a4bb-5a908d9850e7 -->
+### A.6.1.1.2.2.6 - Supply Side Stablecoin Primitives [Core]  <!-- UUID: fb59210b-5a2f-4be4-a4bb-5a908d9850e7 -->
 
 The documents herein implement the Supply Side Stablecoin Primitives for Grove. See [A.2.2.10 - Supply Side Stablecoin Primitives](d1142876-33c2-4e21-9339-d8711525d46f).
 
-###### A.6.1.1.2.2.6.1 - Allocation System Primitive [Core]  <!-- UUID: fecdf649-666c-4196-a046-b2eaf76574d3 -->
+#### A.6.1.1.2.2.6.1 - Allocation System Primitive [Core]  <!-- UUID: fecdf649-666c-4196-a046-b2eaf76574d3 -->
 
 The documents herein contain all data and specifications for Grove’s Allocation System Primitive Instances.
 
-###### A.6.1.1.2.2.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: 408b026b-09d3-4154-8fc2-e7270b76a053 -->
+##### A.6.1.1.2.2.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: 408b026b-09d3-4154-8fc2-e7270b76a053 -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Grove Liquidity Layer.
 
@@ -1624,7 +1624,7 @@ The subtrees for failed Invocations of the Allocation System Primitive are store
 
 The subtrees for Instances of the Allocation System Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: 8dce92af-5b9c-48dd-b40b-d81aa9a0e41b -->
+##### A.6.1.1.2.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: 8dce92af-5b9c-48dd-b40b-d81aa9a0e41b -->
 
 The documents herein provide general specifications of the Grove Liquidity Layer and define Grove’s overarching strategy and operational framework for managing across all Instances.
 
@@ -4918,7 +4918,7 @@ More detailed instructions on the code to execute this, see [A.6.1.1.2.2.6.1.2.2
 
 In the future, additional logic will be added herein regarding the strategy by which capital is allocated between different Instances of the Grove Liquidity Layer.
 
-###### A.6.1.1.2.2.6.1.3 - Active Instances [Core]  <!-- UUID: 1f16c7b1-eddf-4106-85f7-3425bf67ef1e -->
+##### A.6.1.1.2.2.6.1.3 - Active Instances [Core]  <!-- UUID: 1f16c7b1-eddf-4106-85f7-3425bf67ef1e -->
 
 The Instances of the Grove Liquidity Layer with `Active` Status are stored herein. The `RRC Framework Full Implementation` status defines whether the Instance Financial RRC is calculated based on a fully implemented risk model (see [A.3.2.1.1.4.3.1 - Fully Implemented Risk Models](419a1d00-fbae-4d26-bd47-8f57677d8001)) or a pending risk model (see [A.3.2.1.1.4.3.2 - Pending Risk Models](81ca88bf-3f6a-4d10-a3e2-d47cf6636d7d)). If the Instance Financial RRC is calculated based on a fully implemented risk model the status is `Covered`. If the Instance Financial RRC is calculated based on a pending risk model the status is `Pending`.
 
@@ -9693,19 +9693,19 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
-###### A.6.1.1.2.2.6.1.4 - Completed Instances [Core]  <!-- UUID: fd06fedd-819d-4e0a-a266-ecf5ede0343b -->
+##### A.6.1.1.2.2.6.1.4 - Completed Instances [Core]  <!-- UUID: fd06fedd-819d-4e0a-a266-ecf5ede0343b -->
 
 The Instances of the Grove Liquidity Layer with `Completed` Status are stored herein.
 
-###### A.6.1.1.2.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: 0bf496c2-5a2a-4ec3-8354-bc0dea0657c8 -->
+##### A.6.1.1.2.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: 0bf496c2-5a2a-4ec3-8354-bc0dea0657c8 -->
 
 The in progress Invocations of the Allocation System Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.2.2.6.1.3 - Active Instances](1f16c7b1-eddf-4106-85f7-3425bf67ef1e).
 
-###### A.6.1.1.2.2.6.2 - Risk Capital Rental Primitive [Core]  <!-- UUID: 5c6804a0-df8c-4a47-82d4-cff1b44f680b -->
+#### A.6.1.1.2.2.6.2 - Risk Capital Rental Primitive [Core]  <!-- UUID: 5c6804a0-df8c-4a47-82d4-cff1b44f680b -->
 
 The documents herein contain all data and specifications for Grove’s Instances of the Risk Capital Rental Primitive. See [A.2.2.10.2 - Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).
 
-###### A.6.1.1.2.2.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: 6f06a403-ef8f-4623-ad1f-f136adf3a533 -->
+##### A.6.1.1.2.2.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: 6f06a403-ef8f-4623-ad1f-f136adf3a533 -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Risk Capital Rental Primitive.
 
@@ -9741,23 +9741,23 @@ The subtrees for failed Invocations of the Risk Capital Rental Primitive are sto
 
 The subtrees for Instances of the Risk Capital Rental Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.6.2.2 - Active Instances [Core]  <!-- UUID: 07287112-4dbb-4bfa-a73d-ea3f2845718e -->
+##### A.6.1.1.2.2.6.2.2 - Active Instances [Core]  <!-- UUID: 07287112-4dbb-4bfa-a73d-ea3f2845718e -->
 
 The Instances of the Risk Capital Rental Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.6.2.3 - Completed Instances [Core]  <!-- UUID: 3f553aac-54e2-40f5-8545-53a8065feaef -->
+##### A.6.1.1.2.2.6.2.3 - Completed Instances [Core]  <!-- UUID: 3f553aac-54e2-40f5-8545-53a8065feaef -->
 
 The Instances of the Risk Capital Rental Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.2.2.6.2.4 - In Progress Invocations [Core]  <!-- UUID: a08608f5-a6a7-43dc-ba2f-34c685af073a -->
+##### A.6.1.1.2.2.6.2.4 - In Progress Invocations [Core]  <!-- UUID: a08608f5-a6a7-43dc-ba2f-34c685af073a -->
 
 The in progress Invocations of the Risk Capital Rental Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.2.2.6.2.2 - Active Instances](07287112-4dbb-4bfa-a73d-ea3f2845718e).
 
-###### A.6.1.1.2.2.6.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: 0ec0b58d-9332-49ba-bdf8-8e0201480d1d -->
+#### A.6.1.1.2.2.6.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: 0ec0b58d-9332-49ba-bdf8-8e0201480d1d -->
 
 The documents herein contain all data and specifications for Groves Instances of the Asset Liability Management Rental Primitive. See [A.2.2.10.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).
 
-###### A.6.1.1.2.2.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: 9ab7f0cb-ed9e-4fe5-9dfb-78b084563435 -->
+##### A.6.1.1.2.2.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: 9ab7f0cb-ed9e-4fe5-9dfb-78b084563435 -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Asset Liability Management Rental Primitive.
 
@@ -9793,27 +9793,27 @@ The subtrees for failed Invocations of the Asset Liability Management Rental Pri
 
 The subtrees for Instances of the Asset Liability Management Rental Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.6.3.2 - Active Instances [Core]  <!-- UUID: 2b0e3614-6608-4a08-aced-531daf476b7d -->
+##### A.6.1.1.2.2.6.3.2 - Active Instances [Core]  <!-- UUID: 2b0e3614-6608-4a08-aced-531daf476b7d -->
 
 The Instances of the Asset Liability Management Rental Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.6.3.3 - Completed Instances [Core]  <!-- UUID: 95a17d1f-3aa5-4625-9eb3-f4dd8e391f79 -->
+##### A.6.1.1.2.2.6.3.3 - Completed Instances [Core]  <!-- UUID: 95a17d1f-3aa5-4625-9eb3-f4dd8e391f79 -->
 
 The Instances of the Asset Liability Management Rental Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.2.2.6.3.4 - In Progress Invocations [Core]  <!-- UUID: 1051e006-9490-4eb5-b45c-bc644fec7ae0 -->
+##### A.6.1.1.2.2.6.3.4 - In Progress Invocations [Core]  <!-- UUID: 1051e006-9490-4eb5-b45c-bc644fec7ae0 -->
 
 The in progress Invocations of the Asset Liability Management Rental Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.2.2.6.3.2 - Active Instances](2b0e3614-6608-4a08-aced-531daf476b7d).
 
-###### A.6.1.1.2.2.7 - Core Governance Primitives [Core]  <!-- UUID: a98aca77-3ecb-47f9-bb3c-dc80cecc7052 -->
+### A.6.1.1.2.2.7 - Core Governance Primitives [Core]  <!-- UUID: a98aca77-3ecb-47f9-bb3c-dc80cecc7052 -->
 
 The documents herein implement the Core Governance Primitives for Grove. See [A.2.2.11 - Core Governance Primitives](6fa54611-c744-4b9d-897d-b2a20e9cae5d).
 
-###### A.6.1.1.2.2.7.1 - Core Governance Reward Primitive [Core]  <!-- UUID: ae98d071-3e9e-4f8c-9573-f5d113596d15 -->
+#### A.6.1.1.2.2.7.1 - Core Governance Reward Primitive [Core]  <!-- UUID: ae98d071-3e9e-4f8c-9573-f5d113596d15 -->
 
 The documents herein contain all data and specifications for Grove’s Instances of the Core Governance Reward Primitive. See [A.2.2.11.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
 
-###### A.6.1.1.2.2.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: 883eaf9b-ea56-4a24-ae1e-b207ca83c281 -->
+##### A.6.1.1.2.2.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: 883eaf9b-ea56-4a24-ae1e-b207ca83c281 -->
 
 The documents herein organize all base information relevant to Grove’s usage of the Core Governance Reward Primitive.
 
@@ -9849,49 +9849,49 @@ The subtrees for failed Invocations of the Core Governance Reward Primitive are 
 
 The subtrees for Instances of the Core Governance Reward Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.2.2.7.1.2 - Active Instances [Core]  <!-- UUID: 2e50776e-e2d8-4223-accb-67e72770e16e -->
+##### A.6.1.1.2.2.7.1.2 - Active Instances [Core]  <!-- UUID: 2e50776e-e2d8-4223-accb-67e72770e16e -->
 
 The Instances of the Core Governance Reward Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.7.1.3 - Completed Instances [Core]  <!-- UUID: 869969a7-22d0-4f5a-8932-5b70fcf6b1b4 -->
+##### A.6.1.1.2.2.7.1.3 - Completed Instances [Core]  <!-- UUID: 869969a7-22d0-4f5a-8932-5b70fcf6b1b4 -->
 
 The Instances of the Core Governance Reward Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.2.2.7.1.4 - In Progress Invocations [Core]  <!-- UUID: fff36d24-346a-4721-b11c-cb1a801d3dbc -->
+##### A.6.1.1.2.2.7.1.4 - In Progress Invocations [Core]  <!-- UUID: fff36d24-346a-4721-b11c-cb1a801d3dbc -->
 
 The in progress Invocations of the Core Governance Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.2.2.7.1.2 - Active Instances](2e50776e-e2d8-4223-accb-67e72770e16e).
 
-##### A.6.1.1.2.3 - Omni Documents [Core]  <!-- UUID: df257205-6b3a-4afc-bbfd-0a35c950bb87 -->
+## A.6.1.1.2.3 - Omni Documents [Core]  <!-- UUID: df257205-6b3a-4afc-bbfd-0a35c950bb87 -->
 
 The documents herein define Grove’s strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
 
-###### A.6.1.1.2.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: c1c86e47-a7db-4080-ab1f-99ed8e4892f7 -->
+### A.6.1.1.2.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: c1c86e47-a7db-4080-ab1f-99ed8e4892f7 -->
 
 The documents herein specify Grove governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Grove Artifact is specified in the Root Edit Primitive above at [A.6.1.1.2.2.2.2 - Root Edit Primitive](da862b9f-ca77-443a-ac56-5a287c50b4db).
 
-###### A.6.1.1.2.3.1.1 - Sky Forum [Core]  <!-- UUID: 2eaeb1d9-99ea-478d-9fba-d7410885b4e5 -->
+#### A.6.1.1.2.3.1.1 - Sky Forum [Core]  <!-- UUID: 2eaeb1d9-99ea-478d-9fba-d7410885b4e5 -->
 
 Grove uses the Sky Forum for governance-related discussion. Posts should use the "Grove Prime" category.
 
-###### A.6.1.1.2.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: 33bf516a-c9e1-4ee0-8a09-69b1f2bb5604 -->
+#### A.6.1.1.2.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: 33bf516a-c9e1-4ee0-8a09-69b1f2bb5604 -->
 
 The documents herein specify Grove’s emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Grove Artifact.
 
-###### A.6.1.1.2.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: 98930f9c-13eb-433c-b485-2fb0e37d0029 -->
+#### A.6.1.1.2.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: 98930f9c-13eb-433c-b485-2fb0e37d0029 -->
 
 The documents herein specify Grove’s emergency response protocol in situations solely impacting Grove versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Grove Artifact.
 
-###### A.6.1.1.2.3.1.4 - Delegation Framework [Core]  <!-- UUID: 2cdb1ad7-17d3-4c5c-af64-b44ac7b25f0b -->
+#### A.6.1.1.2.3.1.4 - Delegation Framework [Core]  <!-- UUID: 2cdb1ad7-17d3-4c5c-af64-b44ac7b25f0b -->
 
 The documents herein specify Grove's governance delegation system, defining the rights and duties of Delegates and Delegators, as well as the processes for onboarding and offboarding Delegates.
 
-###### A.6.1.1.2.3.1.4.1 - Delegate Definition [Core]  <!-- UUID: 98ddc3c0-3659-427c-89fa-ec1c9a3a9c15 -->
+##### A.6.1.1.2.3.1.4.1 - Delegate Definition [Core]  <!-- UUID: 98ddc3c0-3659-427c-89fa-ec1c9a3a9c15 -->
 
 A "Delegate" is a recognized actor empowered to exercise governance voting power on behalf of one or more GROVE holders ("Delegators"). Delegates act as trusted representatives and are expected to vote in the long-term best interest of the Grove ecosystem.
 
 A Delegate can be in one of three possible states at any given time: Active, Inactive, or Suspended. Only Active Delegates can cast votes. The current status of Delegates is recorded in [A.6.1.1.2.3.1.4.8.2.0.6.1 - List Of Delegates](d3210b97-f007-4502-b8d5-dfaf01257001).
 
-###### A.6.1.1.2.3.1.4.2 - How Delegation Works [Core]  <!-- UUID: b742c40b-2185-4468-8d86-6825f2cc90ae -->
+##### A.6.1.1.2.3.1.4.2 - How Delegation Works [Core]  <!-- UUID: b742c40b-2185-4468-8d86-6825f2cc90ae -->
 
 GROVE holders may assign ("delegate") the full voting power of their wallet to an Active Delegate at any time (see [A.6.1.1.2.3.1.4.8 - Registry Of Delegates](74727b0c-b0f2-40de-98b4-c35c509e2ecc)). The key features of delegation are specified in the subdocuments herein.
 
@@ -9911,7 +9911,7 @@ Delegators may revoke or move their delegation whenever no proposal is live. All
 
 GROVE holders may only assign their voting power to Active Delegates. This also means Delegators cannot delegate to another wallet they themselves control, unless it is an Active Delegate wallet.
 
-###### A.6.1.1.2.3.1.4.3 - Delegate Responsibilities [Core]  <!-- UUID: 4493277e-8568-4507-8f7c-ee72529a55e4 -->
+##### A.6.1.1.2.3.1.4.3 - Delegate Responsibilities [Core]  <!-- UUID: 4493277e-8568-4507-8f7c-ee72529a55e4 -->
 
 The responsibilities for Delegates are defined in the subdocuments herein.
 
@@ -9949,7 +9949,7 @@ The Delegate must post a concise rationale for each vote on the proposal thread.
 
 The Delegate must disclose conflicts of interest and abstain where impartiality is compromised (see [A.6.1.1.2.3.1.4.3.4.1 - Disclosure Of Conflicts](1e6a5686-1965-4912-be8a-c2978ef4b9b1)). Failure to meet these obligations is grounds for offboarding (see [A.6.1.1.2.3.1.4.5 - Delegate Offboarding](c916719b-99d5-4725-868a-8c40cfa64d79)).
 
-###### A.6.1.1.2.3.1.4.4 - Delegate Onboarding [Core]  <!-- UUID: 12f5afad-4622-4536-bb28-a71c391126ae -->
+##### A.6.1.1.2.3.1.4.4 - Delegate Onboarding [Core]  <!-- UUID: 12f5afad-4622-4536-bb28-a71c391126ae -->
 
 The Delegate onboarding process is specified in the subdocuments herein.
 
@@ -9995,7 +9995,7 @@ As an exception, the initial term begins on August 1, 2026 and runs until Decemb
 
 Accepted Delegates are appended to [A.6.1.1.2.3.1.4.8 - Registry Of Delegates](74727b0c-b0f2-40de-98b4-c35c509e2ecc).
 
-###### A.6.1.1.2.3.1.4.5 - Delegate Offboarding [Core]  <!-- UUID: c916719b-99d5-4725-868a-8c40cfa64d79 -->
+##### A.6.1.1.2.3.1.4.5 - Delegate Offboarding [Core]  <!-- UUID: c916719b-99d5-4725-868a-8c40cfa64d79 -->
 
 The delegation offboarding process is specified in the subdocuments herein.
 
@@ -10022,7 +10022,7 @@ The Grove Foundation can immediately offboard a delegate if they:
 
 Upon offboarding, the Delegate's status in [A.6.1.1.2.3.1.4.8 - Registry Of Delegates](74727b0c-b0f2-40de-98b4-c35c509e2ecc) is updated to Inactive. GROVE Delegators must manually revoke their delegations and redelegate if they wish to continue participating in Grove governance.
 
-###### A.6.1.1.2.3.1.4.6 - Incentives And Compensation [Core]  <!-- UUID: b4efab71-53c2-4b0c-aba0-853bbc584952 -->
+##### A.6.1.1.2.3.1.4.6 - Incentives And Compensation [Core]  <!-- UUID: b4efab71-53c2-4b0c-aba0-853bbc584952 -->
 
 Delegates are compensated for their service as follows:
 
@@ -10032,7 +10032,7 @@ Delegates are compensated for their service as follows:
 4. Eligibility and clawback. Payment requires the Delegate to be in good standing and to have met responsibilities in [A.6.1.1.2.3.1.4.3 - Delegate Responsibilities](4493277e-8568-4507-8f7c-ee72529a55e4) during the covered period; the Grove Foundation may withhold or claw back amounts for non-performance or breach.
 5. No waiver of oversight. Compensation does not limit or waive any onboarding, renewal, or offboarding requirements.
 
-###### A.6.1.1.2.3.1.4.7 - Security Requirements And Compromise Procedure [Core]  <!-- UUID: 00605e88-27a6-40f1-ae7e-5be7467a2da6 -->
+##### A.6.1.1.2.3.1.4.7 - Security Requirements And Compromise Procedure [Core]  <!-- UUID: 00605e88-27a6-40f1-ae7e-5be7467a2da6 -->
 
 The security requirements and procedure for a compromised key are specified in the subdocuments herein.
 
@@ -10056,7 +10056,7 @@ If a Delegate suspects key compromise, the following steps must be taken:
 
 Failure to execute the steps in [A.6.1.1.2.3.1.4.7.2 - Compromised Key Response](dfb209e9-8cf2-4c08-9eda-88caf9cb3004) within 48 hours constitutes grounds for emergency removal.
 
-###### A.6.1.1.2.3.1.4.8 - Registry Of Delegates [Core]  <!-- UUID: 74727b0c-b0f2-40de-98b4-c35c509e2ecc -->
+##### A.6.1.1.2.3.1.4.8 - Registry Of Delegates [Core]  <!-- UUID: 74727b0c-b0f2-40de-98b4-c35c509e2ecc -->
 
 The subdocuments herein list each active Delegate's name, wallet address, effective date, and status. Entries are maintained via an Active Data document updated by the Operational Facilitator.
 
@@ -10102,43 +10102,43 @@ The information for each Delegate is listed below:
     - Effective Date: 2026-08-01
     - Status: Active
 
-###### A.6.1.1.2.3.1.4.9 - Subject to Change [Core]  <!-- UUID: 1bd9a18e-d0b2-4e0f-b52f-62d60de06d04 -->
+##### A.6.1.1.2.3.1.4.9 - Subject to Change [Core]  <!-- UUID: 1bd9a18e-d0b2-4e0f-b52f-62d60de06d04 -->
 
 Grove reserves the right to vary or amend the terms set out in this Delegation Framework (see [A.6.1.1.2.3.1.4 - Delegation Framework](2cdb1ad7-17d3-4c5c-af64-b44ac7b25f0b)) at its discretion, subject to the established Grove Artifact governance procedures related to Artifact edits.
 
-###### A.6.1.1.2.3.2 - Strategic Intent [Core]  <!-- UUID: 56fec44a-f8ca-4a03-a614-2c0eb0dde262 -->
+### A.6.1.1.2.3.2 - Strategic Intent [Core]  <!-- UUID: 56fec44a-f8ca-4a03-a614-2c0eb0dde262 -->
 
 Grove will unlock the full potential of USDS by building an institutional-grade credit platform designed to facilitate credit creation and seamlessly move yield in and out of the onchain economy. Grove's priority is to make USDS more attractive through diversified stability fee streams, more efficient rates, and greater utility, with CLOs as the first step into accessing higher yielding investment-grade credit assets. To accomplish these goals, Grove will deploy a RWA Allocation Conduit focused on traditional credit opportunities, as well as crypto-native Conduits for Morpho and Curve.
 
-###### A.6.1.1.2.3.2.1 - Collateralized Loan Obligation Strategy [Core]  <!-- UUID: 2cd87922-d450-4cc2-bce5-81c26239a015 -->
+#### A.6.1.1.2.3.2.1 - Collateralized Loan Obligation Strategy [Core]  <!-- UUID: 2cd87922-d450-4cc2-bce5-81c26239a015 -->
 
 Grove will prioritize Collateralized Loan Obligations (CLOs) as the initial pathway to provide Sky ecosystem with rapid exposure to higher yielding investment-grade credit assets, establishing a scalable model for offchain credit with onchain governance.
 
-###### A.6.1.1.2.3.2.2 - RWA Conduit [Core]  <!-- UUID: 0e6f2c26-31a2-4ce4-8ed3-2d235561e3d3 -->
+#### A.6.1.1.2.3.2.2 - RWA Conduit [Core]  <!-- UUID: 0e6f2c26-31a2-4ce4-8ed3-2d235561e3d3 -->
 
 Grove will begin with onboarding winners of the Grand Prix ([https://forum.skyeco.com/t/announcement-spark-tokenization-grand-prix-request-for-proposal/24631](https://forum.skyeco.com/t/announcement-spark-tokenization-grand-prix-request-for-proposal/24631)).
 
-###### A.6.1.1.2.3.2.3 - Institutional Credit Platform [Core]  <!-- UUID: d89b9da2-caf7-423f-9305-efcd66df62d8 -->
+#### A.6.1.1.2.3.2.3 - Institutional Credit Platform [Core]  <!-- UUID: d89b9da2-caf7-423f-9305-efcd66df62d8 -->
 
 Grove will build partnerships with leading financial institutions to scale credit opportunities. This will provide transparent insight into balance sheet allocations while delivering higher, more stable yields through diversified institutional-grade assets.
 
-###### A.6.1.1.2.3.2.4 - Crypto-Native Conduits [Core]  <!-- UUID: f1793c13-0022-4c27-a439-17ea98d2e1d1 -->
+#### A.6.1.1.2.3.2.4 - Crypto-Native Conduits [Core]  <!-- UUID: f1793c13-0022-4c27-a439-17ea98d2e1d1 -->
 
 Grove will deploy Allocation Conduits for Morpho and Curve to capture high-yield, low-risk DeFi opportunities.
 
-###### A.6.1.1.2.3.2.4.1 - Morpho Allocation Conduit [Core]  <!-- UUID: e834343d-e67a-4e8e-acde-34e0a85ea4cd -->
+##### A.6.1.1.2.3.2.4.1 - Morpho Allocation Conduit [Core]  <!-- UUID: e834343d-e67a-4e8e-acde-34e0a85ea4cd -->
 
 Grove will allocate capital to low risk collateral to take advantage of opportunities for high rates in these markets.
 
-###### A.6.1.1.2.3.2.4.2 - Curve Allocation Conduit [Core]  <!-- UUID: 9a76d9e7-b648-4a32-b097-1466902a4309 -->
+##### A.6.1.1.2.3.2.4.2 - Curve Allocation Conduit [Core]  <!-- UUID: 9a76d9e7-b648-4a32-b097-1466902a4309 -->
 
 Grove will partner with emerging stablecoins to deploy liquidity against fiat-backed stablecoins.
 
-###### A.6.1.1.2.3.2.5 - Exploratory Allocation Opportunities [Core]  <!-- UUID: e629ebcb-4588-4305-b6ef-9a568b35d554 -->
+#### A.6.1.1.2.3.2.5 - Exploratory Allocation Opportunities [Core]  <!-- UUID: e629ebcb-4588-4305-b6ef-9a568b35d554 -->
 
 Grove will consider allocations to basis trades, Pendle PTs, and other delta-neutral crypto primitives.
 
-###### A.6.1.1.2.3.3 - Projected Operational Roadmap [Core]  <!-- UUID: 156c9c72-46c9-4668-81b6-7e524e7a4bac -->
+### A.6.1.1.2.3.3 - Projected Operational Roadmap [Core]  <!-- UUID: 156c9c72-46c9-4668-81b6-7e524e7a4bac -->
 
 Grove’s phased plan to execute its strategy includes:
 
@@ -10147,35 +10147,35 @@ Grove’s phased plan to execute its strategy includes:
 3. Develop quantitative reallocation parameters and conditions to optimize and decentralize conduit management over time; and
 4. Develop transparent insights into the allocation of the balance sheet.
 
-###### A.6.1.1.2.3.4 - Management Of Infrastructure Inherited From Sky Core [Core]  <!-- UUID: 55a72d83-1de3-401c-aef4-9bb330abb774 -->
+### A.6.1.1.2.3.4 - Management Of Infrastructure Inherited From Sky Core [Core]  <!-- UUID: 55a72d83-1de3-401c-aef4-9bb330abb774 -->
 
 The documents herein specify Grove's strategy and operational processes for managing infrastructure inherited from Sky Core.
 
-###### A.6.1.1.2.3.4.1 - Andromeda [Core]  <!-- UUID: 631d1b05-9828-4b53-a8ab-80dccf549f05 -->
+#### A.6.1.1.2.3.4.1 - Andromeda [Core]  <!-- UUID: 631d1b05-9828-4b53-a8ab-80dccf549f05 -->
 
 Control of the Andromeda RWA Arranged Structure is currently being transitioned to Grove. Andromeda is the RWA Arranged Structure inherited from Sky Core that allocates capital into safe, short-term treasury strategies of less than one (1) year duration.
 
-###### A.6.1.1.2.3.4.1.1 - Parameters [Core]  <!-- UUID: 73f483b4-f330-49a8-a6d8-59bccb985b5d -->
+##### A.6.1.1.2.3.4.1.1 - Parameters [Core]  <!-- UUID: 73f483b4-f330-49a8-a6d8-59bccb985b5d -->
 
 The parameters of Andromeda are defined in [A.3.3.2.7.2.1 - Andromeda](1b153f9f-7c70-4ae1-b76c-ef12f87532c6).
 
-###### A.6.1.1.2.3.4.1.2 - Operational Process Definition [Core]  <!-- UUID: 62b93c99-8a06-4dad-a95e-96029cb5372a -->
+##### A.6.1.1.2.3.4.1.2 - Operational Process Definition [Core]  <!-- UUID: 62b93c99-8a06-4dad-a95e-96029cb5372a -->
 
 The documents herein define the process for the ongoing management of Andromeda. Future iterations of the Artifact will specify operational processes owned by Grove.
 
-###### A.6.1.1.2.3.4.1.3 - Data Repository [Core]  <!-- UUID: e16c9799-7be7-4482-a954-6b8fbf873fbb -->
+##### A.6.1.1.2.3.4.1.3 - Data Repository [Core]  <!-- UUID: e16c9799-7be7-4482-a954-6b8fbf873fbb -->
 
 The documents herein contain data relevant to Andromeda.
 
-###### A.6.1.1.2.3.4.2 - Lite Peg Stability Module [Core]  <!-- UUID: beb54246-6454-4716-a381-be605560cba5 -->
+#### A.6.1.1.2.3.4.2 - Lite Peg Stability Module [Core]  <!-- UUID: beb54246-6454-4716-a381-be605560cba5 -->
 
 Control of the Lite PSM is currently being transitioned to Grove.
 
-###### A.6.1.1.2.3.4.2.1 - Parameters [Core]  <!-- UUID: d83f190a-99d6-4f8c-8502-d3e7e917816d -->
+##### A.6.1.1.2.3.4.2.1 - Parameters [Core]  <!-- UUID: d83f190a-99d6-4f8c-8502-d3e7e917816d -->
 
 The parameters of the Lite PSM are defined in the Sky Core Atlas.
 
-###### A.6.1.1.2.3.4.2.2 - Operational Process Definition [Core]  <!-- UUID: b935a218-b921-41b3-aaac-3203c2ca3b84 -->
+##### A.6.1.1.2.3.4.2.2 - Operational Process Definition [Core]  <!-- UUID: b935a218-b921-41b3-aaac-3203c2ca3b84 -->
 
 The transfer of ongoing management of the Lite PSM is specified in Ecosystem Accord 2, see [A.2.8.2.2 - Prime Program](aa3b8e65-0ded-48c2-9c40-812debf99f32).
 
@@ -10183,54 +10183,54 @@ The transfer of ongoing management of the Lite PSM is specified in Ecosystem Acc
 
 The Sky Core Facilitator currently owns the process for modifying the parameters of the Lite PSM, which process is defined in the Sky Core Atlas. This process is currently being transitioned over to Grove.
 
-###### A.6.1.1.2.3.4.2.3 - Data Repository [Core]  <!-- UUID: 165fc3f7-39cf-4f4e-ae94-6460263b8a71 -->
+##### A.6.1.1.2.3.4.2.3 - Data Repository [Core]  <!-- UUID: 165fc3f7-39cf-4f4e-ae94-6460263b8a71 -->
 
 The documents herein contain data relevant to the Lite PSM.
 
-###### A.6.1.1.2.3.5 - Ecosystem Accords [Core]  <!-- UUID: 8b3829dd-fb87-4b08-b1dc-224d7c993ee4 -->
+### A.6.1.1.2.3.5 - Ecosystem Accords [Core]  <!-- UUID: 8b3829dd-fb87-4b08-b1dc-224d7c993ee4 -->
 
 Grove has formally agreed to the Ecosystem Accords herein.
 
-###### A.6.1.1.2.3.5.1 - Ecosystem Accord 1 [Core]  <!-- UUID: 867b3512-2c21-41e2-81c2-3a442c441a14 -->
+#### A.6.1.1.2.3.5.1 - Ecosystem Accord 1 [Core]  <!-- UUID: 867b3512-2c21-41e2-81c2-3a442c441a14 -->
 
 Grove engaged in terms of agreement with the Spark Agent in Ecosystem Accord 1, located in [A.2.8.2.1 - Ecosystem Accord 1: Grove And Spark Agents](9ca40096-937e-431e-af50-9ecd50c0d0a8).
 
-###### A.6.1.1.2.3.5.2 - Ecosystem Accord 2 [Core]  <!-- UUID: dfa20b2f-e803-47f7-95fa-4e457816ae69 -->
+#### A.6.1.1.2.3.5.2 - Ecosystem Accord 2 [Core]  <!-- UUID: dfa20b2f-e803-47f7-95fa-4e457816ae69 -->
 
 Grove engaged in terms of agreement with Sky, Moonbow and the Spark Agent in Ecosystem Accord 2, located in [A.2.8.2.2 - Prime Program](aa3b8e65-0ded-48c2-9c40-812debf99f32).
 
-###### A.6.1.1.2.3.5.3 - Ecosystem Accord 10 [Core]  <!-- UUID: e7057828-ca35-4c1f-8da9-05f54b73e25a -->
+#### A.6.1.1.2.3.5.3 - Ecosystem Accord 10 [Core]  <!-- UUID: e7057828-ca35-4c1f-8da9-05f54b73e25a -->
 
 Grove engaged in terms of agreement with Sky in Ecosystem Accord 10, located in [A.2.8.2.10 - Ecosystem Accord 10: Sky And Grove](0cb00b28-12a8-4790-974a-a3d98fd4dc97).
 
-###### A.6.1.1.2.3.6 - DAO Resolutions [Core]  <!-- UUID: c9c04069-134f-4ab3-b99c-e922edb1cde8 -->
+### A.6.1.1.2.3.6 - DAO Resolutions [Core]  <!-- UUID: c9c04069-134f-4ab3-b99c-e922edb1cde8 -->
 
 Grove has formally agreed to the DAO Resolutions recorded herein.
 
-###### A.6.1.1.2.3.6.1 - Onboard To FalconX [Core]  <!-- UUID: 287ca9e6-e807-4565-a48d-83805be94b92 -->
+#### A.6.1.1.2.3.6.1 - Onboard To FalconX [Core]  <!-- UUID: 287ca9e6-e807-4565-a48d-83805be94b92 -->
 
 On October 16, 2025, Grove agreed to a DAO Resolution authorizing Grove Foundation and Bamboo Grove Ltd to onboard to FalconX. See [https://gateway.pinata.cloud/ipfs/bafkreialsthk4uhtxfd7zbhy4xiwnxxowd2qwpletjefrvdmvmpkxpkola](https://gateway.pinata.cloud/ipfs/bafkreialsthk4uhtxfd7zbhy4xiwnxxowd2qwpletjefrvdmvmpkxpkola).
 
-###### A.6.1.1.2.3.6.2 - Onboard With Ethena [Core]  <!-- UUID: 9629b16e-4f11-49bc-80be-6c85d711716c -->
+#### A.6.1.1.2.3.6.2 - Onboard With Ethena [Core]  <!-- UUID: 9629b16e-4f11-49bc-80be-6c85d711716c -->
 
 On October 23, 2025, Grove agreed to a DAO Resolution authorizing Bamboo Grove to onboard with Ethena. See [https://ipfs.io/ipfs/bafkreic5vspzukckcgnx5ykwj2inqidvbfcknafa56jqgo25cveqyi565q](https://ipfs.io/ipfs/bafkreic5vspzukckcgnx5ykwj2inqidvbfcknafa56jqgo25cveqyi565q). The DAO Resolution makes reference to a Deed Poll that is approved as part of the DAO Resolution. See [https://ipfs.io/ipfs/bafkreibvyodjaosdfdzsrqjtuohwte46pol4zzmchky4t5xejaltonzi24](https://ipfs.io/ipfs/bafkreibvyodjaosdfdzsrqjtuohwte46pol4zzmchky4t5xejaltonzi24).
 
-###### A.6.1.1.2.3.6.3 - Onboard With Ripple, Agora And Paxos [Core]  <!-- UUID: 1890a855-9e68-4705-a20c-085ee8b5f463 -->
+#### A.6.1.1.2.3.6.3 - Onboard With Ripple, Agora And Paxos [Core]  <!-- UUID: 1890a855-9e68-4705-a20c-085ee8b5f463 -->
 
 On November 20, 2025, a DAO Resolution was passed authorizing the Grove Foundation and Bamboo Grove Ltd to onboard with Ripple, Agora, and Paxos. See [https://gateway.pinata.cloud/ipfs/bafkreia77ngaxn54wy33v3dgzqr3cm4bykulrjldvf4iyahbfy2yv3jebi](https://gateway.pinata.cloud/ipfs/bafkreia77ngaxn54wy33v3dgzqr3cm4bykulrjldvf4iyahbfy2yv3jebi).
 
-###### A.6.1.1.2.3.6.4 - Onboard With Wintermute [Core]  <!-- UUID: d2409e5a-a85b-4a51-8f4d-46a437660154 -->
+#### A.6.1.1.2.3.6.4 - Onboard With Wintermute [Core]  <!-- UUID: d2409e5a-a85b-4a51-8f4d-46a437660154 -->
 
 On November 27, 2025, a DAO Resolution was passed authorizing the Grove Foundation and Bamboo Grove Ltd to onboard with Wintermute. See [https://ipfs.io/ipfs/bafkreia72u565ub3iazmbsqsf4jzrobveckb2dtrcspmwn52oenyic72xu](https://ipfs.io/ipfs/bafkreia72u565ub3iazmbsqsf4jzrobveckb2dtrcspmwn52oenyic72xu).
 
-###### A.6.1.1.2.3.6.5 - Authorization With Respect To FalconX [Core]  <!-- UUID: 062461fe-fc60-4f7c-ac28-2238756a67ea -->
+#### A.6.1.1.2.3.6.5 - Authorization With Respect To FalconX [Core]  <!-- UUID: 062461fe-fc60-4f7c-ac28-2238756a67ea -->
 
 On December 4, 2025, a DAO Resolution was passed authorizing the Grove Foundation and Bamboo Grove Ltd with respect to FalconX. See [https://ipfs.io/ipfs/bafkreicfhmyziwispejbngiqhfrqjy3xwvxidqnyaaaacprlp4n6gzvw7u](https://ipfs.io/ipfs/bafkreicfhmyziwispejbngiqhfrqjy3xwvxidqnyaaaacprlp4n6gzvw7u).
 
-###### A.6.1.1.2.3.6.6 - Authorization Of Project Grove [Core]  <!-- UUID: 806e65a3-9322-4ab6-8dcb-ecdc4be13c18 -->
+#### A.6.1.1.2.3.6.6 - Authorization Of Project Grove [Core]  <!-- UUID: 806e65a3-9322-4ab6-8dcb-ecdc4be13c18 -->
 
 On December 11, 2025, a DAO Resolution was passed authorizing Grove Foundation and Grove (BVI) Ltd to take actions related to Project Grove. See [https://ipfs.io/ipfs/bafkreiamufzul447ja3prczy7cfxccvsij73vmareedlqag2xxpcwtcgxu](https://ipfs.io/ipfs/bafkreiamufzul447ja3prczy7cfxccvsij73vmareedlqag2xxpcwtcgxu).
 
-###### A.6.1.1.2.3.6.7 - Authorization To Subscribe And Purchase Notes Issued By Galaxy CLO [Core]  <!-- UUID: db2e4893-d315-4a65-a5cc-133d7763c693 -->
+#### A.6.1.1.2.3.6.7 - Authorization To Subscribe And Purchase Notes Issued By Galaxy CLO [Core]  <!-- UUID: db2e4893-d315-4a65-a5cc-133d7763c693 -->
 
 On December 11, 2025, a DAO Resolution was passed authorizing Grove Foundation and Cedar Grove Ltd to subscribe for and purchase the Class B notes issued by Galaxy CLO 2025-1 LLC. See [https://gateway.pinata.cloud/ipfs/bafkreierc3rxu3d64xakeeibkqujkqbhlz3lcsnjymcckaacix55vhya6u](ttps://gateway.pinata.cloud/ipfs/bafkreierc3rxu3d64xakeeibkqujkqbhlz3lcsnjymcckaacix55vhya6u).

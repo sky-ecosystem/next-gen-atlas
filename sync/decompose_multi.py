@@ -33,7 +33,7 @@ import sys
 import tempfile
 
 from decompose import decompose
-from partition import bucket_from_filename, order_documents
+from partition import bucket_from_filename, order_documents, restore_absolute_levels
 
 
 def reassemble(input_dir: str) -> str:
@@ -54,6 +54,13 @@ def reassemble(input_dir: str) -> str:
     attached to the document it was emitted under; `partition.Block` is where that is
     handled, and the within-file order check in `partition._assert_source_order_preserved`
     is what stops a derived ordering rule from silently disagreeing with compose.
+
+    Heading levels are restored, not carried over. Each file stores levels relative to its
+    own root document, and the composed Atlas wants absolute ones, so
+    `partition.restore_absolute_levels` re-derives every level from the doc numbers in the
+    merged stream. Adjusting the stored hashes instead would not work: nine documents in
+    ten are already at the six-hash cap, and a capped hash count no longer says how deep
+    its document is.
     """
     names = sorted(os.listdir(input_dir))
     buckets: dict[str, str] = {}
@@ -72,7 +79,7 @@ def reassemble(input_dir: str) -> str:
     for bucket, fname in buckets.items():
         with open(os.path.join(input_dir, fname), "r", encoding="utf-8") as f:
             lines_by_source[fname] = f.read().split("\n")
-    return "\n".join(order_documents(lines_by_source))
+    return "\n".join(restore_absolute_levels(order_documents(lines_by_source)))
 
 
 def main() -> int:

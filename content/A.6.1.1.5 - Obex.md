@@ -1,24 +1,24 @@
-#### A.6.1.1.5 - Obex [Core]  <!-- UUID: f558e673-cbab-4696-8ca1-3af9b90fe5d4 -->
+# A.6.1.1.5 - Obex [Core]  <!-- UUID: f558e673-cbab-4696-8ca1-3af9b90fe5d4 -->
 
 The documents herein specify all of the logic for Obex, including Obex’s strategy and how it uses the Sky Primitives to operationalize this strategy.
 
-##### A.6.1.1.5.1 - Introduction [Core]  <!-- UUID: e395a323-3c53-4154-a7e6-d54c363f56f2 -->
+## A.6.1.1.5.1 - Introduction [Core]  <!-- UUID: e395a323-3c53-4154-a7e6-d54c363f56f2 -->
 
 Obex is an 'incubator' Agent operationalizing a turnkey solution for the Sky Ecosystem's development and deployment of Prime and Halo Agents. This will give Agent founders a streamlined pathway to establish, build, operationalize, fundraise, and launch new Agents. The overall goal of the Obex Agent is to produce Agents for the Sky Ecosystem at scale, supporting cohorts of new Agent founders through leveraging rich content, workstreams and turnkey services for legal, risk, tech, and operational requirements.
 
-##### A.6.1.1.5.2 - Sky Primitives [Core]  <!-- UUID: de2892b7-087c-49ee-8b85-e3753987d38e -->
+## A.6.1.1.5.2 - Sky Primitives [Core]  <!-- UUID: de2892b7-087c-49ee-8b85-e3753987d38e -->
 
 The documents herein implement the Sky Primitives for Obex. See [A.2.2 - Sky Primitives](fcde2604-a138-4c1b-9d9a-14895835c907).
 
-###### A.6.1.1.5.2.1 - Genesis Primitives [Core]  <!-- UUID: d5354d3f-8281-49e2-9ff6-c36091afa18a -->
+### A.6.1.1.5.2.1 - Genesis Primitives [Core]  <!-- UUID: d5354d3f-8281-49e2-9ff6-c36091afa18a -->
 
 The documents herein implement the Genesis Primitives for Obex. See [A.2.2.5 - Genesis Primitives](3d5e3668-8333-4908-adcc-5784cfe7f6b5).
 
-###### A.6.1.1.5.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: de89dc5f-7351-4ea0-bc7b-4a6eb25d6a4d -->
+#### A.6.1.1.5.2.1.1 - Agent Creation Primitive [Core]  <!-- UUID: de89dc5f-7351-4ea0-bc7b-4a6eb25d6a4d -->
 
 The documents herein contain all data and specifications for Obex's Instance of the Agent Creation Primitive. See [A.2.2.5.1 - Agent Creation Primitive](82b95f6d-4883-4f08-ac3a-9d8189013fbe).
 
-###### A.6.1.1.5.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: 38ef6c16-11fb-400f-ba72-88e7f50fc1e8 -->
+##### A.6.1.1.5.2.1.1.1 - Primitive Hub Document [Core]  <!-- UUID: 38ef6c16-11fb-400f-ba72-88e7f50fc1e8 -->
 
 The documents herein organize all base information relevant to Obex's usage of the Agent Creation Primitive.
 
@@ -58,11 +58,11 @@ The subtrees for failed Invocations of the Agent Creation Primitive are stored h
 
 The subtrees for Instances of the Agent Creation Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.1.1.2 - Active Instances [Core]  <!-- UUID: 5f6b104e-2310-45d4-ba62-92d3a9a5ed0b -->
+##### A.6.1.1.5.2.1.1.2 - Active Instances [Core]  <!-- UUID: 5f6b104e-2310-45d4-ba62-92d3a9a5ed0b -->
 
 The Instances of the Agent Creation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.5.2.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 31bafd0d-b417-4759-88af-7589f9a32518 -->
+##### A.6.1.1.5.2.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 31bafd0d-b417-4759-88af-7589f9a32518 -->
 
 The Instances of the Agent Creation Primitive with `Completed` Status are contained herein.
 
@@ -122,15 +122,15 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.5.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 3731f5d8-ff05-4c80-9f3f-2b056b6b9b38 -->
+##### A.6.1.1.5.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 3731f5d8-ff05-4c80-9f3f-2b056b6b9b38 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.5.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: 5c7d376d-ebb0-4477-8d96-129d362e7799 -->
+#### A.6.1.1.5.2.1.2 - Prime Transformation Primitive [Core]  <!-- UUID: 5c7d376d-ebb0-4477-8d96-129d362e7799 -->
 
 The documents herein contain all data and specifications for Obex's instance of the Prime Transformation Primitive. See [A.2.2.5.2 - Prime Transformation Primitive](81411106-fd6d-4f9c-b3ae-7af7b5e62482).
 
-###### A.6.1.1.5.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: b9e7cf68-feff-4a8b-9126-bc44bf3e7283 -->
+##### A.6.1.1.5.2.1.2.1 - Primitive Hub Document [Core]  <!-- UUID: b9e7cf68-feff-4a8b-9126-bc44bf3e7283 -->
 
 The documents herein organize all base information relevant to Obex's usage of the Prime Transformation Primitive.
 
@@ -170,11 +170,11 @@ The subtrees for failed Invocations of the Prime Transformation Primitive are st
 
 The subtrees for Instances of the Prime Transformation Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.1.2.2 - Active Instances [Core]  <!-- UUID: e54ec47c-4526-4cc2-9722-43ed3cee7768 -->
+##### A.6.1.1.5.2.1.2.2 - Active Instances [Core]  <!-- UUID: e54ec47c-4526-4cc2-9722-43ed3cee7768 -->
 
 The Instances of the Prime Transformation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.5.2.1.2.3 - Completed Instances [Core]  <!-- UUID: 1a8ffef1-7997-452c-9f58-6b8d9af23c04 -->
+##### A.6.1.1.5.2.1.2.3 - Completed Instances [Core]  <!-- UUID: 1a8ffef1-7997-452c-9f58-6b8d9af23c04 -->
 
 The Instances of the Prime Transformation Primitive with `Completed` Status are contained herein.
 
@@ -214,15 +214,15 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.5.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 685248fb-8b9c-44d0-8ba3-ada4ada84e06 -->
+##### A.6.1.1.5.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 685248fb-8b9c-44d0-8ba3-ada4ada84e06 -->
 
 Because the Prime Transformation Primitive is deployed solely for the one-time transformation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.5.2.1.3 - Executor Transformation Primitive [Core]  <!-- UUID: ad55a2b2-7b47-401f-967e-f89e601e567c -->
+#### A.6.1.1.5.2.1.3 - Executor Transformation Primitive [Core]  <!-- UUID: ad55a2b2-7b47-401f-967e-f89e601e567c -->
 
 The documents herein contain all data and specifications for Obex's instance of the Executor Transformation Primitive. See [A.2.2.5.3 - Executor Transformation Primitive](2f249be5-8edb-41e4-b429-734e1ba2cbc7).
 
-###### A.6.1.1.5.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: 7b3f85c4-e618-4071-b07f-5c771a3bc873 -->
+##### A.6.1.1.5.2.1.3.1 - Primitive Hub Document [Core]  <!-- UUID: 7b3f85c4-e618-4071-b07f-5c771a3bc873 -->
 
 The documents herein organize all base information relevant to Obex's usage of the Executor Transformation Primitive.
 
@@ -258,23 +258,23 @@ The subtrees for failed Invocations of the Executor Transformation Primitive are
 
 The subtrees for Instances of the Executor Transformation Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.1.3.2 - Active Instances [Core]  <!-- UUID: 697d6019-9769-49cb-8394-c74c9c2240f3 -->
+##### A.6.1.1.5.2.1.3.2 - Active Instances [Core]  <!-- UUID: 697d6019-9769-49cb-8394-c74c9c2240f3 -->
 
 The Instances of the Executor Transformation Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.5.2.1.3.3 - Completed Instances [Core]  <!-- UUID: 0dfb0a6f-af53-45d5-badb-0383c76f2515 -->
+##### A.6.1.1.5.2.1.3.3 - Completed Instances [Core]  <!-- UUID: 0dfb0a6f-af53-45d5-badb-0383c76f2515 -->
 
 The Instances of the Executor Transformation Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.5.2.1.3.4 - In Progress Invocations [Core]  <!-- UUID: 7ee33331-fa25-4c43-b3e8-de3362118dea -->
+##### A.6.1.1.5.2.1.3.4 - In Progress Invocations [Core]  <!-- UUID: 7ee33331-fa25-4c43-b3e8-de3362118dea -->
 
 Because the Executor Transformation Primitive is deployed solely for the one-time transformation of the Agent, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.5.2.1.4 - Agent Token Primitive [Core]  <!-- UUID: 29c1a185-926e-42e0-a15c-1aad1dbe9068 -->
+#### A.6.1.1.5.2.1.4 - Agent Token Primitive [Core]  <!-- UUID: 29c1a185-926e-42e0-a15c-1aad1dbe9068 -->
 
 The documents herein contain all data and specifications for Obex's Instance of the Agent Token Primitive. See [A.2.2.5.4 - Agent Token Primitive](2047c361-db28-4952-a70c-83d07b562064).
 
-###### A.6.1.1.5.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: ea5efaa6-992d-4e59-9ebb-4c027ee7aa87 -->
+##### A.6.1.1.5.2.1.4.1 - Primitive Hub Document [Core]  <!-- UUID: ea5efaa6-992d-4e59-9ebb-4c027ee7aa87 -->
 
 The documents herein organize all base information relevant to Obex's usage of the Agent Token Primitive.
 
@@ -314,7 +314,7 @@ The subtrees for failed Invocations of the Agent Token Primitive are stored here
 
 The subtrees for Instances of the Agent Token Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.1.4.2 - Active Instances [Core]  <!-- UUID: df170b7f-303a-4029-8f10-7548dab07f8a -->
+##### A.6.1.1.5.2.1.4.2 - Active Instances [Core]  <!-- UUID: df170b7f-303a-4029-8f10-7548dab07f8a -->
 
 The Instances of the Agent Token Primitive with `Active` Status are stored herein.
 
@@ -376,23 +376,23 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.5.2.1.4.3 - Completed Instances [Core]  <!-- UUID: c0ee9726-7ae8-4176-a3f3-01152a53f0d1 -->
+##### A.6.1.1.5.2.1.4.3 - Completed Instances [Core]  <!-- UUID: c0ee9726-7ae8-4176-a3f3-01152a53f0d1 -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.5.2.1.4.4 - In Progress Invocations [Core]  <!-- UUID: ec1f15fa-3059-4fd3-9467-7a796d7050a5 -->
+##### A.6.1.1.5.2.1.4.4 - In Progress Invocations [Core]  <!-- UUID: ec1f15fa-3059-4fd3-9467-7a796d7050a5 -->
 
 Because the Agent Token Primitive is Invoked solely for the one-time deployment of the Agent’s token, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.5.2.2 - Operational Primitives [Core]  <!-- UUID: 91762197-a7e2-4e0c-bce5-4490f23f9667 -->
+### A.6.1.1.5.2.2 - Operational Primitives [Core]  <!-- UUID: 91762197-a7e2-4e0c-bce5-4490f23f9667 -->
 
 The documents herein implement the Operational Primitives for Obex. See [A.2.2.6 - Operational Primitives](0192ec95-9207-480e-8c51-88d2a1da95ad).
 
-###### A.6.1.1.5.2.2.1 - Executor Accord Primitive [Core]  <!-- UUID: e0baddbe-f261-4439-8fc0-e03b521c10ad -->
+#### A.6.1.1.5.2.2.1 - Executor Accord Primitive [Core]  <!-- UUID: e0baddbe-f261-4439-8fc0-e03b521c10ad -->
 
 The documents herein contain all data and specifications for Obex's Instances of the Executor Accord Primitive. See [A.2.2.6.1 - Executor Accord Primitive](88017877-3ec1-4c43-a035-6bebdf11d9bb).
 
-###### A.6.1.1.5.2.2.1.1 - Primitive Hub Document [Core]  <!-- UUID: 4f398e78-1f12-447d-bb28-71cfc4e9ce4c -->
+##### A.6.1.1.5.2.2.1.1 - Primitive Hub Document [Core]  <!-- UUID: 4f398e78-1f12-447d-bb28-71cfc4e9ce4c -->
 
 The documents herein organize all base information relevant to Obex's usage of the Executor Accord Primitive.
 
@@ -432,7 +432,7 @@ The subtrees for failed Invocations of the Executor Accord Primitive are stored 
 
 The subtrees for Instances of the Executor Accord Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.2.1.2 - Active Instances [Core]  <!-- UUID: 2fd90ea2-b604-4a06-8c73-888c08365dba -->
+##### A.6.1.1.5.2.2.1.2 - Active Instances [Core]  <!-- UUID: 2fd90ea2-b604-4a06-8c73-888c08365dba -->
 
 The Instances of the Executor Accord Primitive with `Active` Status are stored herein.
 
@@ -472,19 +472,19 @@ The materials associated with Operational GovOps review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.5.2.2.1.3 - Completed Instances [Core]  <!-- UUID: 33eff493-0a21-4bb0-899e-f3fab9ef6f27 -->
+##### A.6.1.1.5.2.2.1.3 - Completed Instances [Core]  <!-- UUID: 33eff493-0a21-4bb0-899e-f3fab9ef6f27 -->
 
 The Instances of the Executor Accord Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.5.2.2.1.4 - In Progress Invocations [Core]  <!-- UUID: dfca9a54-ab85-476a-ab49-345ec43a1294 -->
+##### A.6.1.1.5.2.2.1.4 - In Progress Invocations [Core]  <!-- UUID: dfca9a54-ab85-476a-ab49-345ec43a1294 -->
 
 The in progress Invocations of the Executor Accord Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.5.2.2.1.2 - Active Instances](2fd90ea2-b604-4a06-8c73-888c08365dba).
 
-###### A.6.1.1.5.2.2.2 - Root Edit Primitive [Core]  <!-- UUID: b69559bf-1acb-4f9c-8638-19fb8ef20fc2 -->
+#### A.6.1.1.5.2.2.2 - Root Edit Primitive [Core]  <!-- UUID: b69559bf-1acb-4f9c-8638-19fb8ef20fc2 -->
 
 The documents herein contain all data and specifications for Obex's Instance of the Root Edit Primitive. See [A.2.2.6.2 - Root Edit Primitive](78488c6b-d77f-4344-b954-476e415a2c7d).
 
-###### A.6.1.1.5.2.2.2.1 - Primitive Hub Document [Core]  <!-- UUID: f6e6bc46-aa12-4a74-8433-85ffcfad4917 -->
+##### A.6.1.1.5.2.2.2.1 - Primitive Hub Document [Core]  <!-- UUID: f6e6bc46-aa12-4a74-8433-85ffcfad4917 -->
 
 The documents herein organize all base information relevant to Obex's usage of the Root Edit Primitive.
 
@@ -524,7 +524,7 @@ The subtrees for failed Invocations of the Root Edit Primitive are stored here.
 
 The subtrees for Instances of the Root Edit Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.2.2.2 - Active Instances [Core]  <!-- UUID: 2bc00f12-93cd-4431-8d6c-6a1170ca474c -->
+##### A.6.1.1.5.2.2.2.2 - Active Instances [Core]  <!-- UUID: 2bc00f12-93cd-4431-8d6c-6a1170ca474c -->
 
 The Instances of the Root Edit Primitive with `Active` Status are stored herein.
 
@@ -608,19 +608,19 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.5.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 4d6ec316-b444-4550-a591-006a6b8080cd -->
+##### A.6.1.1.5.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 4d6ec316-b444-4550-a591-006a6b8080cd -->
 
 The Instances of the Root Edit Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.5.2.2.2.4 - In Progress Invocations [Core]  <!-- UUID: 77be1f27-3cd0-4e3f-a05d-8ce0880f37a7 -->
+##### A.6.1.1.5.2.2.2.4 - In Progress Invocations [Core]  <!-- UUID: 77be1f27-3cd0-4e3f-a05d-8ce0880f37a7 -->
 
 Because the Root Edit Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.5.2.2.3 - Light Agent Primitive [Core]  <!-- UUID: 32cf649f-13f7-41e2-bbe4-347a14532114 -->
+#### A.6.1.1.5.2.2.3 - Light Agent Primitive [Core]  <!-- UUID: 32cf649f-13f7-41e2-bbe4-347a14532114 -->
 
 The documents herein contain all data and specifications for Obex's Instances of the Light Agent Primitive. See [A.2.2.6.3 - Light Agent Primitive](44028423-2cd1-40cb-89ac-3f762b602b90).
 
-###### A.6.1.1.5.2.2.3.1 - Primitive Hub Document [Core]  <!-- UUID: c4b311b3-3f2c-483f-b24a-845ef5c6a6df -->
+##### A.6.1.1.5.2.2.3.1 - Primitive Hub Document [Core]  <!-- UUID: c4b311b3-3f2c-483f-b24a-845ef5c6a6df -->
 
 The documents herein organize all base information relevant to Obex's usage of the Light Agent Primitive.
 
@@ -656,27 +656,27 @@ The subtrees for failed Invocations of the Light Agent Primitive are stored here
 
 The subtrees for Instances of the Light Agent Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.2.3.2 - Active Instances [Core]  <!-- UUID: d7b02050-890e-4b86-9bbf-2d4183a97f44 -->
+##### A.6.1.1.5.2.2.3.2 - Active Instances [Core]  <!-- UUID: d7b02050-890e-4b86-9bbf-2d4183a97f44 -->
 
 The Instances of the Light Agent Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.5.2.2.3.3 - Completed Instances [Core]  <!-- UUID: 5ef59d24-d4c8-445c-8385-08801b24be3a -->
+##### A.6.1.1.5.2.2.3.3 - Completed Instances [Core]  <!-- UUID: 5ef59d24-d4c8-445c-8385-08801b24be3a -->
 
 The Instances of the Light Agent Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.5.2.2.3.4 - In Progress Invocations [Core]  <!-- UUID: 041daa3a-41b4-47fd-8e2b-bb288fd8342b -->
+##### A.6.1.1.5.2.2.3.4 - In Progress Invocations [Core]  <!-- UUID: 041daa3a-41b4-47fd-8e2b-bb288fd8342b -->
 
 The in progress Invocations of the Light Agent Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.5.2.2.3.2 - Active Instances](d7b02050-890e-4b86-9bbf-2d4183a97f44).
 
-###### A.6.1.1.5.2.3 - Ecosystem Upkeep Primitives [Core]  <!-- UUID: ea7388bc-3689-4b90-80d8-920eb7f25411 -->
+### A.6.1.1.5.2.3 - Ecosystem Upkeep Primitives [Core]  <!-- UUID: ea7388bc-3689-4b90-80d8-920eb7f25411 -->
 
 The documents herein implement the Ecosystem Upkeep Primitives for Obex. See [A.2.2.7 - Ecosystem Upkeep Primitives](25673fd2-76cb-4c4d-8ec6-8c489207bcfc).
 
-###### A.6.1.1.5.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: 518b0729-7d39-4e94-96ae-4e1dce577b3a -->
+#### A.6.1.1.5.2.3.1 - Ecosystem Upkeep Fee Primitive [Core]  <!-- UUID: 518b0729-7d39-4e94-96ae-4e1dce577b3a -->
 
 The documents herein contain all data and specifications for Obex's Instance of the Ecosystem Upkeep Fee Primitive. See [A.2.2.7.1 - Ecosystem Upkeep Fee Primitive](a21616f4-1611-4e0b-87b2-efbdff9f6f28).
 
-###### A.6.1.1.5.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 367db765-3d90-449f-88d7-356eb2e5df6b -->
+##### A.6.1.1.5.2.3.1.1 - Primitive Hub Document [Core]  <!-- UUID: 367db765-3d90-449f-88d7-356eb2e5df6b -->
 
 The documents herein organize all base information relevant to Obex's usage of the Ecosystem Upkeep Fee Primitive.
 
@@ -716,7 +716,7 @@ The subtrees for failed Invocations of the Ecosystem Upkeep Fee Primitive are st
 
 The subtrees for Instances of the Ecosystem Upkeep Fee Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.3.1.2 - Active Instances [Core]  <!-- UUID: a27eeee1-ce9a-4b26-9bef-57199b921eda -->
+##### A.6.1.1.5.2.3.1.2 - Active Instances [Core]  <!-- UUID: a27eeee1-ce9a-4b26-9bef-57199b921eda -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Active` Status are stored herein.
 
@@ -772,19 +772,19 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.5.2.3.1.3 - Completed Instances [Core]  <!-- UUID: beeba9d9-39bb-4f36-9447-9456966975eb -->
+##### A.6.1.1.5.2.3.1.3 - Completed Instances [Core]  <!-- UUID: beeba9d9-39bb-4f36-9447-9456966975eb -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.5.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: 3c7049bc-3c9f-4088-94bc-0fc242dca76a -->
+##### A.6.1.1.5.2.3.1.4 - In Progress Invocations [Core]  <!-- UUID: 3c7049bc-3c9f-4088-94bc-0fc242dca76a -->
 
 Because the Ecosystem Upkeep Fee Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.5.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: 1cec73ac-6b70-48ff-a7ff-1d0f689d602f -->
+#### A.6.1.1.5.2.3.2 - Upkeep Rebate Primitive [Core]  <!-- UUID: 1cec73ac-6b70-48ff-a7ff-1d0f689d602f -->
 
 The documents herein contain all data and specifications for Obex's instance of the Upkeep Rebate Primitive. See [A.2.2.7.2 - Upkeep Rebate Primitive](569e1c2b-0e69-43e7-8491-06cc5f7d2988).
 
-###### A.6.1.1.5.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 36f57327-abff-4ac1-890b-c5097c449b02 -->
+##### A.6.1.1.5.2.3.2.1 - Primitive Hub Document [Core]  <!-- UUID: 36f57327-abff-4ac1-890b-c5097c449b02 -->
 
 The documents herein organize all base information relevant to Obex's usage of the Upkeep Rebate Primitive.
 
@@ -824,7 +824,7 @@ The subtrees for failed Invocations of the Upkeep Rebate Primitive are stored he
 
 The subtrees for Instances of the Upkeep Rebate Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.3.2.2 - Active Instances [Core]  <!-- UUID: c4e5deff-2cf9-492c-af8c-cfbd33327686 -->
+##### A.6.1.1.5.2.3.2.2 - Active Instances [Core]  <!-- UUID: c4e5deff-2cf9-492c-af8c-cfbd33327686 -->
 
 The Instances of the Upkeep Rebate Primitive with `Active` Status are stored herein.
 
@@ -880,23 +880,23 @@ The materials associated with Operational GovOps Review during the Invocation of
 
 The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
-###### A.6.1.1.5.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 0723c247-7b2d-48aa-a1f1-1166aad05319 -->
+##### A.6.1.1.5.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 0723c247-7b2d-48aa-a1f1-1166aad05319 -->
 
 The Instances of the Upkeep Rebate Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.5.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 4e8268eb-b8f4-4d45-bf11-a6c03f262275 -->
+##### A.6.1.1.5.2.3.2.4 - In Progress Invocations [Core]  <!-- UUID: 4e8268eb-b8f4-4d45-bf11-a6c03f262275 -->
 
 Because the Upkeep Rebate Primitive is deployed only once, no further Instances of the Primitive can be Invoked.
 
-###### A.6.1.1.5.2.4 - SkyLink Primitives [Core]  <!-- UUID: e66cbbd1-df57-418d-9699-73d050388fd6 -->
+### A.6.1.1.5.2.4 - SkyLink Primitives [Core]  <!-- UUID: e66cbbd1-df57-418d-9699-73d050388fd6 -->
 
 The documents herein implement the SkyLink Primitives for Obex. See [A.2.2.8 - SkyLink Primitives](7b5d8965-a64c-4c44-b742-607f51f69d8f).
 
-###### A.6.1.1.5.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: 5642de19-bfb3-4d54-9bc9-19b11b60a3c2 -->
+#### A.6.1.1.5.2.4.1 - Token SkyLink Primitive [Core]  <!-- UUID: 5642de19-bfb3-4d54-9bc9-19b11b60a3c2 -->
 
 The documents herein contain all data and specifications for Obex's Instances of the Token SkyLink Primitive. See [A.2.2.8.1 - Token SkyLink Primitive](4504d2d4-ee45-4a07-8c5b-9baf20b12e76).
 
-###### A.6.1.1.5.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: 3ce6f8aa-7a27-4701-83cb-d1fc4c41bb28 -->
+##### A.6.1.1.5.2.4.1.1 - Primitive Hub Document [Core]  <!-- UUID: 3ce6f8aa-7a27-4701-83cb-d1fc4c41bb28 -->
 
 The documents herein organize all base information relevant to Obex's usage of the Token SkyLink Primitive.
 
@@ -932,27 +932,27 @@ The subtrees for failed Invocations of the Token SkyLink Primitive are stored he
 
 The subtrees for Instances of the Token SkyLink Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.4.1.2 - Active Instances [Core]  <!-- UUID: e8a2afff-b4b0-4b47-8b7a-32119eca9091 -->
+##### A.6.1.1.5.2.4.1.2 - Active Instances [Core]  <!-- UUID: e8a2afff-b4b0-4b47-8b7a-32119eca9091 -->
 
 The Instances of the Token SkyLink Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.5.2.4.1.3 - Completed Instances [Core]  <!-- UUID: b08f8e0b-5cc8-4b0a-b148-4ef44fa7ae03 -->
+##### A.6.1.1.5.2.4.1.3 - Completed Instances [Core]  <!-- UUID: b08f8e0b-5cc8-4b0a-b148-4ef44fa7ae03 -->
 
 The Instances of the Token SkyLink Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.5.2.4.1.4 - In Progress Invocations [Core]  <!-- UUID: 01dcfdbb-70a4-4986-bf38-28db96dba4c4 -->
+##### A.6.1.1.5.2.4.1.4 - In Progress Invocations [Core]  <!-- UUID: 01dcfdbb-70a4-4986-bf38-28db96dba4c4 -->
 
 The in progress Invocations of the Token SkyLink Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.5.2.4.1.2 - Active Instances](e8a2afff-b4b0-4b47-8b7a-32119eca9091).
 
-###### A.6.1.1.5.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: 66ca6538-89c2-442e-87c2-9fe2d586b516 -->
+### A.6.1.1.5.2.5 - Demand Side Stablecoin Primitives [Core]  <!-- UUID: 66ca6538-89c2-442e-87c2-9fe2d586b516 -->
 
 The documents herein implement the Demand Side Stablecoin Primitives for Obex. See [A.2.2.9 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d).
 
-###### A.6.1.1.5.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: f055e990-51e6-44c2-8d14-4e8694e62c1d -->
+#### A.6.1.1.5.2.5.1 - Distribution Reward Primitive [Core]  <!-- UUID: f055e990-51e6-44c2-8d14-4e8694e62c1d -->
 
 The documents herein contain all data and specifications for Obex's instances of the Distribution Reward Primitive. See [A.2.2.9.1 - Distribution Reward Primitive](e632c38f-3e4e-4c7e-acfd-b6ec45a422e6).
 
-###### A.6.1.1.5.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: f11e8f01-a17f-44e7-aac1-56dbd5e9272e -->
+##### A.6.1.1.5.2.5.1.1 - Primitive Hub Document [Core]  <!-- UUID: f11e8f01-a17f-44e7-aac1-56dbd5e9272e -->
 
 The documents herein organize all base information relevant to Obex's usage of the Distribution Reward Primitive.
 
@@ -988,23 +988,23 @@ The subtrees for failed Invocations of the Distribution Reward Primitive are sto
 
 The subtrees for Instances of the Distribution Reward Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.5.1.2 - Active Instances [Core]  <!-- UUID: bbe5be33-f895-48a4-a8de-7d65d83d4321 -->
+##### A.6.1.1.5.2.5.1.2 - Active Instances [Core]  <!-- UUID: bbe5be33-f895-48a4-a8de-7d65d83d4321 -->
 
 The Instances of the Distribution Reward Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.5.2.5.1.3 - Completed Instances [Core]  <!-- UUID: 51861e24-08e4-4828-a5ea-0f0ac08f67db -->
+##### A.6.1.1.5.2.5.1.3 - Completed Instances [Core]  <!-- UUID: 51861e24-08e4-4828-a5ea-0f0ac08f67db -->
 
 The Instances of the Distribution Reward Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.5.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: 12cf9640-3b5b-4255-b7d9-e84baa973d9f -->
+##### A.6.1.1.5.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: 12cf9640-3b5b-4255-b7d9-e84baa973d9f -->
 
 The in progress Invocations of the Distribution Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.5.2.5.1.2 - Active Instances](bbe5be33-f895-48a4-a8de-7d65d83d4321).
 
-###### A.6.1.1.5.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: edc5cd33-99a9-4687-b3fe-8c3e07da92e8 -->
+#### A.6.1.1.5.2.5.2 - Integration Boost Primitive [Core]  <!-- UUID: edc5cd33-99a9-4687-b3fe-8c3e07da92e8 -->
 
 The documents herein contain all data and specifications for Obex's Instances of the Integration Boost Primitive. See [A.2.2.9.2 - Integration Boost Primitive](73577399-62e4-4a83-ae11-64ef7e7b7f20).
 
-###### A.6.1.1.5.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: f9d5c302-4695-436f-9a06-595c06da2fc9 -->
+##### A.6.1.1.5.2.5.2.1 - Primitive Hub Document [Core]  <!-- UUID: f9d5c302-4695-436f-9a06-595c06da2fc9 -->
 
 The documents herein organize all base information relevant to Obex's usage of the Integration Boost Primitive.
 
@@ -1040,23 +1040,23 @@ The subtrees for failed Invocations of the Integration Boost Primitive are store
 
 The subtrees for Instances of the Integration Boost Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.5.2.2 - Active Instances [Core]  <!-- UUID: 0607bde3-cffa-4597-8ad9-fdb38272a843 -->
+##### A.6.1.1.5.2.5.2.2 - Active Instances [Core]  <!-- UUID: 0607bde3-cffa-4597-8ad9-fdb38272a843 -->
 
 The Instances of the Integration Boost Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.5.2.5.2.3 - Completed Instances [Core]  <!-- UUID: 4dca2418-b9ea-4bdb-ae27-f34a09c7e761 -->
+##### A.6.1.1.5.2.5.2.3 - Completed Instances [Core]  <!-- UUID: 4dca2418-b9ea-4bdb-ae27-f34a09c7e761 -->
 
 The Instances of the Integration Boost Primitive with `Completed` Status are contained herein.
 
-###### A.6.1.1.5.2.5.2.4 - In Progress Invocations [Core]  <!-- UUID: 7fdf50ff-7d49-4ffc-9e2d-c1db6ce4a33a -->
+##### A.6.1.1.5.2.5.2.4 - In Progress Invocations [Core]  <!-- UUID: 7fdf50ff-7d49-4ffc-9e2d-c1db6ce4a33a -->
 
 The in progress Invocations of the Integration Boost Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.5.2.5.2.2 - Active Instances](0607bde3-cffa-4597-8ad9-fdb38272a843).
 
-###### A.6.1.1.5.2.5.3 - Pioneer Chain Primitive [Core]  <!-- UUID: 2f0a0b71-759e-4f14-b63d-0286450855fe -->
+#### A.6.1.1.5.2.5.3 - Pioneer Chain Primitive [Core]  <!-- UUID: 2f0a0b71-759e-4f14-b63d-0286450855fe -->
 
 The documents herein contain all data and specifications for Obex's Instances of the Pioneer Chain Primitive. See [A.2.2.9.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
 
-###### A.6.1.1.5.2.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: 7e7dc6f6-bfe1-460e-9fb1-35a906f75259 -->
+##### A.6.1.1.5.2.5.3.1 - Primitive Hub Document [Core]  <!-- UUID: 7e7dc6f6-bfe1-460e-9fb1-35a906f75259 -->
 
 The documents herein organize all base information relevant to Obex's usage of the Pioneer Chain Primitive.
 
@@ -1092,27 +1092,27 @@ The subtrees for failed Invocations of the Pioneer Chain Primitive are stored he
 
 The subtrees for Instances of the Pioneer Chain Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.5.3.2 - Active Instances [Core]  <!-- UUID: 4fd3fe8d-e5d8-49ce-95b5-15e14e165abf -->
+##### A.6.1.1.5.2.5.3.2 - Active Instances [Core]  <!-- UUID: 4fd3fe8d-e5d8-49ce-95b5-15e14e165abf -->
 
 The Instances of the Pioneer Chain Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.5.2.5.3.3 - Completed Instances [Core]  <!-- UUID: 504497a1-14b9-4119-b520-bdcf4bedc4f9 -->
+##### A.6.1.1.5.2.5.3.3 - Completed Instances [Core]  <!-- UUID: 504497a1-14b9-4119-b520-bdcf4bedc4f9 -->
 
 The Instances of the Pioneer Chain Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.5.2.5.3.4 - In Progress Invocations [Core]  <!-- UUID: cafab30a-9a0e-46ba-8eb9-889d85a57bb0 -->
+##### A.6.1.1.5.2.5.3.4 - In Progress Invocations [Core]  <!-- UUID: cafab30a-9a0e-46ba-8eb9-889d85a57bb0 -->
 
 The in progress Invocations of the Pioneer Chain Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.5.2.5.3.2 - Active Instances](4fd3fe8d-e5d8-49ce-95b5-15e14e165abf).
 
-###### A.6.1.1.5.2.6 - Supply Side Stablecoin Primitives [Core]  <!-- UUID: c63a813f-b434-4c81-8826-df78171f61f0 -->
+### A.6.1.1.5.2.6 - Supply Side Stablecoin Primitives [Core]  <!-- UUID: c63a813f-b434-4c81-8826-df78171f61f0 -->
 
 The documents herein implement the Supply Side Stablecoin Primitives for Obex. See [A.2.2.10 - Supply Side Stablecoin Primitives](d1142876-33c2-4e21-9339-d8711525d46f).
 
-###### A.6.1.1.5.2.6.1 - Allocation System Primitive [Core]  <!-- UUID: fe98c7e7-b7f8-4f2c-800a-bca5192576ac -->
+#### A.6.1.1.5.2.6.1 - Allocation System Primitive [Core]  <!-- UUID: fe98c7e7-b7f8-4f2c-800a-bca5192576ac -->
 
 The documents herein contain all data and specifications for Obex's Allocation System Primitive Instances.
 
-###### A.6.1.1.5.2.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: cbf426ee-7754-49c5-9040-b29a5126da39 -->
+##### A.6.1.1.5.2.6.1.1 - Primitive Hub Document [Core]  <!-- UUID: cbf426ee-7754-49c5-9040-b29a5126da39 -->
 
 The documents herein organize all base information relevant to Obex's usage of the Obex Liquidity Layer.
 
@@ -1160,7 +1160,7 @@ The subtrees for failed Invocations of the Allocation System Primitive are store
 
 The subtrees for Instances of the Allocation System Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: aa59c9ff-7347-407f-9d55-59fa499a58c9 -->
+##### A.6.1.1.5.2.6.1.2 - Multi-Instance Coordinator Document [Core]  <!-- UUID: aa59c9ff-7347-407f-9d55-59fa499a58c9 -->
 
 The documents herein provide general specifications of the Obex Liquidity Layer and define Obex's overarching strategy and operational framework for managing across all Instances.
 
@@ -1943,7 +1943,7 @@ More detailed instructions on the code to execute this, see [A.6.1.1.5.2.6.1.2.2
 
 In the future, additional logic will be added herein regarding the strategy by which capital is allocated between different Instances of the Obex Liquidity Layer.
 
-###### A.6.1.1.5.2.6.1.3 - Active Instances [Core]  <!-- UUID: ccde7679-912d-403f-aad1-f9a56c8e3387 -->
+##### A.6.1.1.5.2.6.1.3 - Active Instances [Core]  <!-- UUID: ccde7679-912d-403f-aad1-f9a56c8e3387 -->
 
 The Instances of the Obex Liquidity Layer with `Active` Status are stored herein. The `RRC Framework Full Implementation Coverage` status defines whether the Instance Financial RRC is calculated based on a fully implemented risk model (see [A.3.2.1.1.4.3.1 - Fully Implemented Risk Models](419a1d00-fbae-4d26-bd47-8f57677d8001)) or a pending risk model (see [A.3.2.1.1.4.3.2 - Pending Risk Models](81ca88bf-3f6a-4d10-a3e2-d47cf6636d7d)). If the Instance Financial RRC is calculated based on a fully implemented risk model the status is `Covered`. If the Instance Financial RRC is calculated based on a pending risk model the status is `Pending`.
 
@@ -2064,19 +2064,19 @@ The function call is as follows:
 
 `function cancelMapleRedemption(address mapleToken, uint256 shares) external`
 
-###### A.6.1.1.5.2.6.1.4 - Completed Instances [Core]  <!-- UUID: 6b16b0d6-a5a1-44da-a95d-e62d38a35ade -->
+##### A.6.1.1.5.2.6.1.4 - Completed Instances [Core]  <!-- UUID: 6b16b0d6-a5a1-44da-a95d-e62d38a35ade -->
 
 The Instances of the Obex Liquidity Layer with `Completed` Status are stored herein.
 
-###### A.6.1.1.5.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: ca2c0cd1-73e3-49f1-b415-65e5f200b097 -->
+##### A.6.1.1.5.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: ca2c0cd1-73e3-49f1-b415-65e5f200b097 -->
 
 The in progress Invocations of the Allocation System Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.5.2.6.1.3 - Active Instances](ccde7679-912d-403f-aad1-f9a56c8e3387).
 
-###### A.6.1.1.5.2.6.2 - Risk Capital Rental Primitive [Core]  <!-- UUID: 473d0f9e-a5dc-48ee-84b9-a48cd2b6f215 -->
+#### A.6.1.1.5.2.6.2 - Risk Capital Rental Primitive [Core]  <!-- UUID: 473d0f9e-a5dc-48ee-84b9-a48cd2b6f215 -->
 
 The documents herein contain all data and specifications for Obex's Instances of the Risk Capital Rental Primitive. See [A.2.2.10.2 - Risk Capital Rental Primitive](d8086dc0-7e77-4c6b-98c7-5fc41337a1ce).
 
-###### A.6.1.1.5.2.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: 7c5c39de-a531-42a7-8b74-e8e6ffeb2bc3 -->
+##### A.6.1.1.5.2.6.2.1 - Primitive Hub Document [Core]  <!-- UUID: 7c5c39de-a531-42a7-8b74-e8e6ffeb2bc3 -->
 
 The documents herein organize all base information relevant to Obex's usage of the Risk Capital Rental Primitive.
 
@@ -2112,23 +2112,23 @@ The subtrees for failed Invocations of the Risk Capital Rental Primitive are sto
 
 The subtrees for Instances of the Risk Capital Rental Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.6.2.2 - Active Instances [Core]  <!-- UUID: b894cf0e-5a3d-4fe2-bb43-668a1f973857 -->
+##### A.6.1.1.5.2.6.2.2 - Active Instances [Core]  <!-- UUID: b894cf0e-5a3d-4fe2-bb43-668a1f973857 -->
 
 The Instances of the Risk Capital Rental Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.5.2.6.2.3 - Completed Instances [Core]  <!-- UUID: 4b2e42f3-064c-4cb8-87a8-96512a581841 -->
+##### A.6.1.1.5.2.6.2.3 - Completed Instances [Core]  <!-- UUID: 4b2e42f3-064c-4cb8-87a8-96512a581841 -->
 
 The Instances of the Risk Capital Rental Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.5.2.6.2.4 - In Progress Invocations [Core]  <!-- UUID: b83be319-7f7e-4cf5-ad70-ac59302422e4 -->
+##### A.6.1.1.5.2.6.2.4 - In Progress Invocations [Core]  <!-- UUID: b83be319-7f7e-4cf5-ad70-ac59302422e4 -->
 
 The in progress Invocations of the Risk Capital Rental Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.5.2.6.2.2 - Active Instances](b894cf0e-5a3d-4fe2-bb43-668a1f973857).
 
-###### A.6.1.1.5.2.6.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: fab6088e-5b4c-4ab4-af33-051920120273 -->
+#### A.6.1.1.5.2.6.3 - Asset Liability Management Rental Primitive [Core]  <!-- UUID: fab6088e-5b4c-4ab4-af33-051920120273 -->
 
 The documents herein contain all data and specifications for Obex's Instances of the Asset Liability Management Rental Primitive. See [A.2.2.10.3 - Asset Liability Management Rental Primitive](bd1f1ce5-6c31-42fc-a2aa-694acf5eb08c).
 
-###### A.6.1.1.5.2.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: 804821a4-0344-4642-9575-8bde38f8edef -->
+##### A.6.1.1.5.2.6.3.1 - Primitive Hub Document [Core]  <!-- UUID: 804821a4-0344-4642-9575-8bde38f8edef -->
 
 The documents herein organize all base information relevant to Obex's usage of the Asset Liability Management Rental Primitive.
 
@@ -2164,27 +2164,27 @@ The subtrees for failed Invocations of the Asset Liability Management Rental Pri
 
 The subtrees for Instances of the Asset Liability Management Rental Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.6.3.2 - Active Instances [Core]  <!-- UUID: b1667bfc-be11-4b02-ab99-d39b3f5e510d -->
+##### A.6.1.1.5.2.6.3.2 - Active Instances [Core]  <!-- UUID: b1667bfc-be11-4b02-ab99-d39b3f5e510d -->
 
 The Instances of the Asset Liability Management Rental Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.5.2.6.3.3 - Completed Instances [Core]  <!-- UUID: 9ce2e9b8-8033-4fae-bd6f-9f7b7590ba1b -->
+##### A.6.1.1.5.2.6.3.3 - Completed Instances [Core]  <!-- UUID: 9ce2e9b8-8033-4fae-bd6f-9f7b7590ba1b -->
 
 The Instances of the Asset Liability Management Rental Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.5.2.6.3.4 - In Progress Invocations [Core]  <!-- UUID: 3c1a4517-7097-4964-a687-5dc1de1b00ee -->
+##### A.6.1.1.5.2.6.3.4 - In Progress Invocations [Core]  <!-- UUID: 3c1a4517-7097-4964-a687-5dc1de1b00ee -->
 
 The in progress Invocations of the Asset Liability Management Rental Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.5.2.6.3.2 - Active Instances](b1667bfc-be11-4b02-ab99-d39b3f5e510d).
 
-###### A.6.1.1.5.2.7 - Core Governance Primitives [Core]  <!-- UUID: 901fba8d-ac5f-4809-a3d4-e510fc9b74ca -->
+### A.6.1.1.5.2.7 - Core Governance Primitives [Core]  <!-- UUID: 901fba8d-ac5f-4809-a3d4-e510fc9b74ca -->
 
 The documents herein implement the Core Governance Primitives for Obex. See [A.2.2.11 - Core Governance Primitives](6fa54611-c744-4b9d-897d-b2a20e9cae5d).
 
-###### A.6.1.1.5.2.7.1 - Core Governance Reward Primitive [Core]  <!-- UUID: 871764eb-5ccb-47fc-8852-0523e989bef6 -->
+#### A.6.1.1.5.2.7.1 - Core Governance Reward Primitive [Core]  <!-- UUID: 871764eb-5ccb-47fc-8852-0523e989bef6 -->
 
 The documents herein contain all data and specifications for Obex's Instances of the Core Governance Reward Primitive. See [A.2.2.11.1 - Core Governance Reward Primitive](b22d1c08-042a-4466-94fe-9d28951e4d4a).
 
-###### A.6.1.1.5.2.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: e0e1769f-ecbe-4598-a236-318d7b00c929 -->
+##### A.6.1.1.5.2.7.1.1 - Primitive Hub Document [Core]  <!-- UUID: e0e1769f-ecbe-4598-a236-318d7b00c929 -->
 
 The documents herein organize all base information relevant to Obex's usage of the Core Governance Reward Primitive.
 
@@ -2220,69 +2220,69 @@ The subtrees for failed Invocations of the Core Governance Reward Primitive are 
 
 The subtrees for Instances of the Core Governance Reward Primitive with `Suspended` Status are stored here.
 
-###### A.6.1.1.5.2.7.1.2 - Active Instances [Core]  <!-- UUID: 1627c920-e582-446c-b6a0-39f7a528f28a -->
+##### A.6.1.1.5.2.7.1.2 - Active Instances [Core]  <!-- UUID: 1627c920-e582-446c-b6a0-39f7a528f28a -->
 
 The Instances of the Core Governance Reward Primitive with `Active` Status are stored herein.
 
-###### A.6.1.1.5.2.7.1.3 - Completed Instances [Core]  <!-- UUID: e14a0186-9557-4b1f-b4c1-eddeb88e7e34 -->
+##### A.6.1.1.5.2.7.1.3 - Completed Instances [Core]  <!-- UUID: e14a0186-9557-4b1f-b4c1-eddeb88e7e34 -->
 
 The Instances of the Core Governance Reward Primitive with `Completed` Status are stored herein.
 
-###### A.6.1.1.5.2.7.1.4 - In Progress Invocations [Core]  <!-- UUID: 18f93603-5951-4d2e-9527-f88d81c408a3 -->
+##### A.6.1.1.5.2.7.1.4 - In Progress Invocations [Core]  <!-- UUID: 18f93603-5951-4d2e-9527-f88d81c408a3 -->
 
 The in progress Invocations of the Core Governance Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.5.2.7.1.2 - Active Instances](1627c920-e582-446c-b6a0-39f7a528f28a).
 
-##### A.6.1.1.5.3 - Omni Documents [Core]  <!-- UUID: 239c5dd4-46a1-4936-8e31-f37ea2aa802c -->
+## A.6.1.1.5.3 - Omni Documents [Core]  <!-- UUID: 239c5dd4-46a1-4936-8e31-f37ea2aa802c -->
 
 The documents herein define Obex's strategic intent and operational processes relating to infrastructure inherited from Sky Core, activities unrelated to Sky Primitives, or activities spanning multiple Sky Primitives.
 
-###### A.6.1.1.5.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: bdad4ea3-7cf2-40fb-a8ab-4bb8b320e4c9 -->
+### A.6.1.1.5.3.1 - Governance Information Unrelated To Root Edit Primitive [Core]  <!-- UUID: bdad4ea3-7cf2-40fb-a8ab-4bb8b320e4c9 -->
 
 The documents herein specify Obex governance information that is unrelated to the use of the Root Edit Primitive. The governance process for updating the Obex Artifact is specified in the Root Edit Primitive above at [A.6.1.1.5.2.2.2 - Root Edit Primitive](b69559bf-1acb-4f9c-8638-19fb8ef20fc2).
 
-###### A.6.1.1.5.3.1.1 - Sky Forum [Core]  <!-- UUID: fb92df01-4e93-45ec-8e81-b59d5767ebb7 -->
+#### A.6.1.1.5.3.1.1 - Sky Forum [Core]  <!-- UUID: fb92df01-4e93-45ec-8e81-b59d5767ebb7 -->
 
 Obex uses the Sky Forum for governance-related discussion. Posts should use the "Obex Prime" category.
 
-###### A.6.1.1.5.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: ec6dc53f-7398-4242-afc4-81e436541da2 -->
+#### A.6.1.1.5.3.1.2 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: ec6dc53f-7398-4242-afc4-81e436541da2 -->
 
 The documents herein specify Obex's emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Obex Artifact.
 
-###### A.6.1.1.5.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: e5ac06b5-0f4a-4506-bfa4-a4d18901e1cc -->
+#### A.6.1.1.5.3.1.3 - Agent-Specific Emergency Response [Core]  <!-- UUID: e5ac06b5-0f4a-4506-bfa4-a4d18901e1cc -->
 
 The documents herein specify Obex's emergency response protocol in situations solely impacting Obex versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Obex Artifact.
 
-###### A.6.1.1.5.3.2 - Strategic Intent And Operating Model [Core]  <!-- UUID: b380c021-e579-47a2-ae01-c85340caa135 -->
+### A.6.1.1.5.3.2 - Strategic Intent And Operating Model [Core]  <!-- UUID: b380c021-e579-47a2-ae01-c85340caa135 -->
 
 Obex is an incubation-focused Prime within the Sky Ecosystem. It provides capital, infrastructure, and technical support to early-stage teams building on Sky Primitives. Obex's purpose is to accelerate aligned builders through structured incubation and funding. The subdocuments herein define the operating model, structure, mandate, and operational standards of Obex.
 
-###### A.6.1.1.5.3.2.1 - Operating Model [Core]  <!-- UUID: 7d7658f6-31a9-4d73-8d3f-19b87d0e89ec -->
+#### A.6.1.1.5.3.2.1 - Operating Model [Core]  <!-- UUID: 7d7658f6-31a9-4d73-8d3f-19b87d0e89ec -->
 
 Obex follows a direct-execution model rather than a multi-layered governance system. Key processes include:
 
 - **Incubation Selection:** Projects are sourced, evaluated, and onboarded based on strategic fit, feasibility, and alignment with Sky objectives.
 - **Capital Allocation:** All allocations occur through the Obex Incubator Prime, which deploys first-loss or operational capital under predefined parameters.
 
-###### A.6.1.1.5.3.2.2 - Risk and Compliance [Core]  <!-- UUID: d3466d20-01c9-453a-aee0-e7b8f9e17cf0 -->
+#### A.6.1.1.5.3.2.2 - Risk and Compliance [Core]  <!-- UUID: d3466d20-01c9-453a-aee0-e7b8f9e17cf0 -->
 
 Obex adheres to the Sky Ecosystem's standards for risk, transparency, and recourse.
 
-###### A.6.1.1.5.3.2.3 - Ecosystem Accord Alignment [Core]  <!-- UUID: 7f550ce1-dbd5-43dc-8c03-741eb6b9df4a -->
+#### A.6.1.1.5.3.2.3 - Ecosystem Accord Alignment [Core]  <!-- UUID: 7f550ce1-dbd5-43dc-8c03-741eb6b9df4a -->
 
 Obex operates in full alignment with the Sky Atlas. All operations, reporting, and capital flows must comply with the standards established by Sky Governance and any applicable Ecosystem Accords.
 
-###### A.6.1.1.5.3.2.4 - First-Loss and Recourse Principles [Core]  <!-- UUID: 909f6c00-369e-4fd1-b052-1e933a17b669 -->
+#### A.6.1.1.5.3.2.4 - First-Loss and Recourse Principles [Core]  <!-- UUID: 909f6c00-369e-4fd1-b052-1e933a17b669 -->
 
 Capital deployed through Obex carries explicit first-loss protection defined by the Incubator Prime. Each funded project must maintain verifiable recourse through token, equity, or revenue participation agreements enforceable by the Prime's legal wrapper.
 
-###### A.6.1.1.5.3.2.5 - Data and Transparency Standards [Core]  <!-- UUID: c861f5fb-e99b-40ca-b535-291b94b69811 -->
+#### A.6.1.1.5.3.2.5 - Data and Transparency Standards [Core]  <!-- UUID: c861f5fb-e99b-40ca-b535-291b94b69811 -->
 
 Obex maintains an active dashboard reporting total allocations, active projects, utilization, default rates, and realized yields.
 
-###### A.6.1.1.5.3.3 - Ecosystem Accords [Core]  <!-- UUID: dba03405-43a8-4ce1-8a16-dfdeb75cda14 -->
+### A.6.1.1.5.3.3 - Ecosystem Accords [Core]  <!-- UUID: dba03405-43a8-4ce1-8a16-dfdeb75cda14 -->
 
 Obex has formally agreed to the Ecosystem Accords herein.
 
-###### A.6.1.1.5.3.3.1 - Ecosystem Accord 4 [Core]  <!-- UUID: eab0145b-3b7b-4793-92ff-56717d2e5544 -->
+#### A.6.1.1.5.3.3.1 - Ecosystem Accord 4 [Core]  <!-- UUID: eab0145b-3b7b-4793-92ff-56717d2e5544 -->
 
 Obex engaged in terms of agreement with Sky in Ecosystem Accord 4, located in [A.2.8.2.4 - Ecosystem Accord 4: Sky And Obex](6bddc5aa-ac80-43d8-b8c8-8cde14e896df).
