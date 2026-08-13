@@ -1,12 +1,12 @@
 ---
-id: a578830d-18f0-451c-8ff0-4a66094650ae
+id: a8a3e54d-980e-435d-9e08-0e5775af9aa3
 docNo: A.2.2.10.1.1.1.2.1
-name: Rate Limiter
+name: Liquidity Layer Parameter Definitions
 type: Core
 depth: 9
 childType: sections_and_primary_docs
 ---
 
-###### A.2.2.10.1.1.1.2.1 - Rate Limiter [Core]
+###### A.2.2.10.1.1.1.2.1 - Liquidity Layer Parameter Definitions [Core]
 
-Rate Limiter refers to the overall mechanism or system that limits the volume of token movements over time, implemented via the `RateLimits` contracts. The Rate Limiter manages multiple rate limits and enforces constraints on controller operations to prevent rapid asset drainage and mitigate risks from compromised relayers or other attacks. This ensures that the maximum amount of tokens processed within a specific time period stays within safe bounds. The `RateLimits` contracts and their addresses for each chain can be found in the Allocation System Primitive for a Prime, under ALM Contracts.
+The documents herein define common parameters of implementations of the Allocation System.
