@@ -46,7 +46,7 @@ Governance Process Support Ecosystem Actors can assist with governance processes
 
 #### A.2.1.1.4 - Resources [Core]  <!-- UUID: 048600dc-3e21-4e1b-9e69-a0b5aff92ff8 -->
 
-Core GovOps is granted a budget to procure the necessary administrative support and services from Governance Process Support Ecosystem Actors. The budget can only be used to perform tasks described in [A.2.1.1 - Governance Process Support](ef1ad0bf-069c-4199-8620-a508b34c2348) and its subdocuments. Core GovOps can modify the budget using an Operational Weekly Governance Cycle poll.
+Core GovOps is granted a budget to procure the necessary administrative support and services from Governance Process Support Ecosystem Actors. The budget can only be used to perform tasks described in [A.2.1.1 - Governance Process Support](ef1ad0bf-069c-4199-8620-a508b34c2348) and its subdocuments. Core GovOps can modify the budget using an Operational Weekly Cycle poll.
 
 ##### A.2.1.1.4.1 - Current Budget [Core]  <!-- UUID: 5efada66-f3d2-4e3e-b26c-123467069437 -->
 
@@ -3182,15 +3182,19 @@ Because Sky Direct Exposures are held by Sky rather than the Prime Agent impleme
 
 Because Sky Direct Exposures are held by Sky rather than the Prime Agent implementing the exposure through its Allocation System, Prime Agents are not required to hold any Actively Stabilizing Collateral with respect to Sky Direct Exposures. Sky Direct Exposures also do not count towards satisfying a Prime Agent’s Actively Stabilizing Collateral requirements.
 
-###### A.2.2.10.1.1.1.2 - Liquidity Layer Parameter Definitions [Core]  <!-- UUID: a8a3e54d-980e-435d-9e08-0e5775af9aa3 -->
+###### A.2.2.10.1.1.1.2 - Diamond PAU [Core]  <!-- UUID: d5cfb5ed-20a9-42a0-9838-ef21e1115648 -->
+
+The documents herein define the shared parameters, roles, contracts, and operational processes of the Diamond PAU (Parallelized Allocation Unit), the facet-based Allocation System Primitive controller architecture.
+
+###### A.2.2.10.1.1.1.2.1 - Liquidity Layer Parameter Definitions [Core]  <!-- UUID: a8a3e54d-980e-435d-9e08-0e5775af9aa3 -->
 
 The documents herein define common parameters of implementations of the Allocation System.
 
-###### A.2.2.10.1.1.1.2.1 - Rate Limiter [Core]  <!-- UUID: a578830d-18f0-451c-8ff0-4a66094650ae -->
+###### A.2.2.10.1.1.1.2.1.1 - Rate Limiter [Core]  <!-- UUID: a578830d-18f0-451c-8ff0-4a66094650ae -->
 
 Rate Limiter refers to the overall mechanism or system that limits the volume of token movements over time, implemented via the `RateLimits` contracts. The Rate Limiter manages multiple rate limits and enforces constraints on controller operations to prevent rapid asset drainage and mitigate risks from compromised relayers or other attacks. This ensures that the maximum amount of tokens processed within a specific time period stays within safe bounds. The `RateLimits` contracts and their addresses for each chain can be found in the Allocation System Primitive for a Prime, under ALM Contracts.
 
-###### A.2.2.10.1.1.1.2.2 - Rate Limits [Core]  <!-- UUID: 8efb0a11-b798-48eb-af19-f65b38f039b5 -->
+###### A.2.2.10.1.1.1.2.1.2 - Rate Limits [Core]  <!-- UUID: 8efb0a11-b798-48eb-af19-f65b38f039b5 -->
 
 Rate limits set the maximum allowable amount of tokens that can be processed for specific operations within a given time period. Each rate limit contains the rate limit data: `maxAmount`, `slope`, `lastAmount` and `lastUpdated`. The current rate limit is calculated using the formula:
 
@@ -3200,391 +3204,407 @@ The rate limit data `maxAmount` and `slope` are configurable parameters that are
 
 Rate limits set caps on the rate of allocation to a given Instance, they do not act as a limit on the total amount that may be allocated to that Instance.
 
-###### A.2.2.10.1.1.1.2.2.1 - MaxAmount [Core]  <!-- UUID: 8b5f1ffd-9dfd-4aa0-8fc2-638a79d9fadb -->
+###### A.2.2.10.1.1.1.2.1.2.1 - MaxAmount [Core]  <!-- UUID: 8b5f1ffd-9dfd-4aa0-8fc2-638a79d9fadb -->
 
 `maxAmount` sets a hard cap on the level of allocation to an Instance at any given time. It sets the absolute rate limit regardless of how much time has passed since the last allocation. For example, if `maxAmount` is set to 1,000,000 tokens, the rate limit will increase over time at the rate determined by the `slope` until it reaches 1,000,000 tokens. At this point the rate limit will stop increasing, but it will resume increasing once an allocation to the Instance has been made.
 
-###### A.2.2.10.1.1.1.2.2.2 - Slope [Core]  <!-- UUID: ae8674bc-44ac-4b95-b5df-c6322a1d6e9a -->
+###### A.2.2.10.1.1.1.2.1.2.2 - Slope [Core]  <!-- UUID: ae8674bc-44ac-4b95-b5df-c6322a1d6e9a -->
 
 `slope` is the linear refill rate of a rate limiter’s allowance over time. It defines how quickly the capacity to perform additional inflow or outflow accrues after prior consumption. For example, if the slope is set to 1,000,000 tokens per day (converted to per second for on-chain execution), the rate limit will recover at that rate until it reaches the maxAmount.
 
-###### A.2.2.10.1.1.1.2.2.3 - LastUpdated [Core]  <!-- UUID: 8d0419a4-50c5-4a7b-b68e-84d8c9243694 -->
+###### A.2.2.10.1.1.1.2.1.2.3 - LastUpdated [Core]  <!-- UUID: 8d0419a4-50c5-4a7b-b68e-84d8c9243694 -->
 
 `lastUpdated` is the timestamp when the rate limit was last updated, serving as the reference point for calculating time-elapsed refills in the formula.
 
-###### A.2.2.10.1.1.1.2.2.4 - LastAmount [Core]  <!-- UUID: 02918cfc-5d10-41bc-bb8a-0be9df76cbac -->
+###### A.2.2.10.1.1.1.2.1.2.4 - LastAmount [Core]  <!-- UUID: 02918cfc-5d10-41bc-bb8a-0be9df76cbac -->
 
 `lastAmount` is the remaining allowance available at the last update, used to compute the current rate limit by adding accrued capacity.
 
-###### A.2.2.10.1.1.1.2.3 - Inflow Rate Limits [Core]  <!-- UUID: d59a233c-11b9-4140-b15f-51df37475fd8 -->
+###### A.2.2.10.1.1.1.2.1.3 - Inflow Rate Limits [Core]  <!-- UUID: d59a233c-11b9-4140-b15f-51df37475fd8 -->
 
 Inflow rate limits constrain the rate at which allocated liquidity can increase into a scope. "Inflow" means movements that raise exposure or capital allocated to an Instance or market, such as depositing, minting, or rebalancing into a position.
 
-###### A.2.2.10.1.1.1.2.4 - Outflow Rate Limits [Core]  <!-- UUID: e50fd86a-ffa4-4387-b212-420730a8d171 -->
+###### A.2.2.10.1.1.1.2.1.4 - Outflow Rate Limits [Core]  <!-- UUID: e50fd86a-ffa4-4387-b212-420730a8d171 -->
 
 Outflow Rate Limits constrain the rate at which allocated liquidity can be withdrawn or exposure reduced from a scope. "Outflow" means movements that lower exposure or capital allocated to an Instance or market, such as withdrawals, redemptions, or unwind operations.
 
 Outflow limits are often configured more permissively to prioritize safety and fast exits. When outflow limits are "unlimited," the rate limits contract simply does not apply a cap in that direction.
 
-###### A.2.2.10.1.1.1.2.5 - Rate Limit IDs [Core]  <!-- UUID: b95b3bd8-d316-43d5-af56-df38d557aea3 -->
+###### A.2.2.10.1.1.1.2.1.5 - Rate Limit IDs [Core]  <!-- UUID: b95b3bd8-d316-43d5-af56-df38d557aea3 -->
 
 A `Rate Limit ID` is a bytes32 key that uniquely identifies a rate limit. Rate Limit IDs allow the system to maintain independent allowance state for each relevant transaction.
 
-###### A.2.2.10.1.1.1.2.6 - MaxSlippage [Core]  <!-- UUID: 7c6da187-7d17-42ae-8c64-8d828ee83ea7 -->
+###### A.2.2.10.1.1.1.2.1.6 - MaxSlippage [Core]  <!-- UUID: 7c6da187-7d17-42ae-8c64-8d828ee83ea7 -->
 
 `maxSlippage` is a configurable parameter that sets the maximum allowed price impact or deviation from expected output when executing trades or liquidity operations in a pool. `maxslippage` is expressed as a decimal and must be a non-zero value. This protects against excessive price impact during volatile market conditions.
 
-###### A.2.2.10.1.1.1.3 - Liquidity Layer Role Definitions [Core]  <!-- UUID: 2ae4b91a-6900-41e8-9718-32805b956550 -->
+###### A.2.2.10.1.1.1.2.1.7 - Maximum Exposure Tolerance [Core]  <!-- UUID: a1b58d9d-7529-463e-af49-cbe9d07b7435 -->
+
+Where the Atlas specifies a maximum exposure, actual exposure may exceed that maximum by up to 5%, provided the excess is solely attributable to accrued interest and not to new principal. A Prime Agent is responsible for claiming and returning accrued interest as necessary to keep exposure within the specified maximum.
+
+###### A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions [Core]  <!-- UUID: 2ae4b91a-6900-41e8-9718-32805b956550 -->
 
 The documents herein define the access-control roles of the Diamond Parallelized Allocation Unit (Diamond PAU) implementation of the Allocation System.
 
-###### A.2.2.10.1.1.1.3.1 - Default Admin Role [Core]  <!-- UUID: b76195f2-7494-43a4-919e-fa823303ad06 -->
+###### A.2.2.10.1.1.1.2.2.1 - Default Admin Role [Core]  <!-- UUID: b76195f2-7494-43a4-919e-fa823303ad06 -->
 
 The Default Admin Role (`DEFAULT_ADMIN_ROLE`) is the administrative role of an Instance's access-control contract, authorized to grant and revoke all other roles. It is held by Sky Governance through the Prime Agent's SubProxy. This per-Instance role is distinct from the Beacon's own `DEFAULT_ADMIN_ROLE`, which is held by the Pause Proxy.
 
-###### A.2.2.10.1.1.1.3.2 - Controller Role [Core]  <!-- UUID: 4f77eb6c-4b2f-4fa0-a7c0-d58e9b76ce8e -->
+###### A.2.2.10.1.1.1.2.2.2 - Controller Role [Core]  <!-- UUID: 4f77eb6c-4b2f-4fa0-a7c0-d58e9b76ce8e -->
 
 The Controller Role (`CONTROLLER`) is authorized to call the asset-movement functions on the ALM Proxy and to update the Rate Limits contract. It is held by the Controller contract, which dispatches operations to the relevant Facet on behalf of the Allocator Role.
 
-###### A.2.2.10.1.1.1.3.3 - Allocator Role [Core]  <!-- UUID: e7a97395-ddd5-4ae8-874f-1bb3f247446a -->
+###### A.2.2.10.1.1.1.2.2.3 - Allocator Role [Core]  <!-- UUID: e7a97395-ddd5-4ae8-874f-1bb3f247446a -->
 
-The Allocator Role (`ALLOCATOR_ROLE`) is authorized to initiate allocation operations on behalf of the ALM Proxy, through the Controller. It is held by the AdministeredAgent contract, with the Relayer Multisigs registered as its Actors, as specified in [A.2.2.10.1.1.1.3.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55), and submitting operations through it.
+The Allocator Role (`ALLOCATOR_ROLE`) is authorized to initiate allocation operations on behalf of the ALM Proxy, through the Controller. It is held by the AdministeredAgent contract, with the Relayer Multisigs registered as its Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55), and submitting operations through it.
 
-###### A.2.2.10.1.1.1.3.4 - Actor [Core]  <!-- UUID: 636a39e4-5908-4fee-bae8-e0b11e0d9c55 -->
+###### A.2.2.10.1.1.1.2.2.4 - Actor [Core]  <!-- UUID: 636a39e4-5908-4fee-bae8-e0b11e0d9c55 -->
 
-An Actor is an address registered on the AdministeredAgent that is authorized to submit allocation operations to the Controller through the Allocator Role, as specified in [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a). The Relayer Multisigs of a Prime Agent and of the Core Operator are registered as Actors.
+An Actor is an address registered on the AdministeredAgent that is authorized to submit allocation operations to the Controller through the Allocator Role, as specified in [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a). The Relayer Multisigs of a Prime Agent and of the Core Operator are registered as Actors.
 
-###### A.2.2.10.1.1.1.3.5 - Revoker [Core]  <!-- UUID: cc7cb4b7-981e-44f5-a0d5-62e5b47d112e -->
+###### A.2.2.10.1.1.1.2.2.5 - Revoker [Core]  <!-- UUID: cc7cb4b7-981e-44f5-a0d5-62e5b47d112e -->
 
 A Revoker is an address registered on the AdministeredAgent that is authorized to remove an Actor as a rapid-response measure, without affecting the Allocator Role held by the AdministeredAgent. The Freezer Multisig of a Prime Agent is registered as a Revoker, providing the emergency capability to remove a compromised or malicious Actor outside the standard governance process.
 
-###### A.2.2.10.1.1.1.3.6 - Grantor [Core]  <!-- UUID: 82a04ab9-158e-4c6e-9f2a-04ef68c3a2f0 -->
+###### A.2.2.10.1.1.1.2.2.6 - Grantor [Core]  <!-- UUID: 82a04ab9-158e-4c6e-9f2a-04ef68c3a2f0 -->
 
-A Grantor is an address registered on the AdministeredAgent that is authorized to add an Actor, as specified in [A.2.2.10.1.1.1.3.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55), granting it the ability to submit operations through the AdministeredAgent.
+A Grantor is an address registered on the AdministeredAgent that is authorized to add an Actor, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55), granting it the ability to submit operations through the AdministeredAgent.
 
-###### A.2.2.10.1.1.1.3.7 - Administered Agent Admin [Core]  <!-- UUID: d823b872-fe99-4856-9096-55335357d55e -->
+###### A.2.2.10.1.1.1.2.2.7 - Administered Agent Admin [Core]  <!-- UUID: d823b872-fe99-4856-9096-55335357d55e -->
 
-The Administered Agent Admin is an address registered on the AdministeredAgent with authority over its role configuration, able to add and remove the AdministeredAgent's Admins, Grantors, Actors, and Revokers. This role is distinct from the Default Admin Role, as specified in [A.2.2.10.1.1.1.3.1 - Default Admin Role](b76195f2-7494-43a4-919e-fa823303ad06), which administers the Diamond PAU access-control contract; both are held by Sky Governance through the Prime Agent's SubProxy.
+The Administered Agent Admin is an address registered on the AdministeredAgent with authority over its role configuration, able to add and remove the AdministeredAgent's Admins, Grantors, Actors, and Revokers. This role is distinct from the Default Admin Role, as specified in [A.2.2.10.1.1.1.2.2.1 - Default Admin Role](b76195f2-7494-43a4-919e-fa823303ad06), which administers the Diamond PAU access-control contract; both are held by Sky Governance through the Prime Agent's SubProxy.
 
-###### A.2.2.10.1.1.1.4 - Liquidity Layer Shared Contracts [Core]  <!-- UUID: a2677d19-1f2c-4361-bedc-34cb2e7eaab5 -->
+###### A.2.2.10.1.1.1.2.3 - Liquidity Layer Shared Contracts [Core]  <!-- UUID: a2677d19-1f2c-4361-bedc-34cb2e7eaab5 -->
 
 The documents herein define the shared contracts of the Diamond PAU implementation of the Allocation System. These contracts are deployed once at the Sky ecosystem level and controlled by Sky Governance, shared across Prime Agent Instances rather than redeployed per Agent. The addresses are on Ethereum Mainnet.
 
-###### A.2.2.10.1.1.1.4.1 - Beacon [Core]  <!-- UUID: 5b0627e8-102b-42ea-8d9b-38463591faf9 -->
+###### A.2.2.10.1.1.1.2.3.1 - Beacon [Core]  <!-- UUID: 5b0627e8-102b-42ea-8d9b-38463591faf9 -->
 
 The Beacon (`Beacon`) is the registry that whitelists the Facets approved for use by Diamond PAU Instances; an Instance may only delegate calls to Facets registered on the Beacon. It is controlled by Sky Governance through the Pause Proxy. The Beacon's address on Ethereum Mainnet is `0x829dC2b7E94B1954F0764E573f2E0d45Afa28199`, and it is registered in the Chainlog under the key `PAU_BEACON`.
 
-###### A.2.2.10.1.1.1.4.2 - Facets [Core]  <!-- UUID: b7c73a0c-456d-4e75-93ac-8eec185ece31 -->
+###### A.2.2.10.1.1.1.2.3.2 - Facets [Core]  <!-- UUID: b7c73a0c-456d-4e75-93ac-8eec185ece31 -->
 
 The documents herein define the Facets currently approved on the Beacon for use by Diamond PAU Instances. Each Facet is a singleton contract deployed at the Sky ecosystem level and shared across all such Instances. The set of approved Facets is maintained by Sky Governance.
 
-###### A.2.2.10.1.1.1.4.2.1 - Aave v3 Facet [Core]  <!-- UUID: c9ecd9c2-dd1b-426b-8e52-66a2b1892289 -->
+###### A.2.2.10.1.1.1.2.3.2.1 - Aave v3 Facet [Core]  <!-- UUID: c9ecd9c2-dd1b-426b-8e52-66a2b1892289 -->
 
 The Aave v3 Facet (`AaveFacet`) supplies and withdraws an underlying asset to and from an Aave v3 lending pool, or an Aave v3 fork such as SparkLend, holding the aTokens in the ALM Proxy. Its address on Ethereum Mainnet is `0x8CE890A96a193ff2DD4B2eA3C682326F655f6b62`.
 
-###### A.2.2.10.1.1.1.4.2.2 - Basin Facet [Core]  <!-- UUID: d9cbf883-119e-403d-8efa-125997cd8897 -->
+###### A.2.2.10.1.1.1.2.3.2.2 - Basin Facet [Core]  <!-- UUID: d9cbf883-119e-403d-8efa-125997cd8897 -->
 
 The Basin Facet (`BasinFacet`) deposits assets into and withdraws them from a Basin in exchange for Basin shares. Its address on Ethereum Mainnet is `0xC84825BCD13AEddc372400239499380376a44A39`.
 
-###### A.2.2.10.1.1.1.4.2.3 - CCTP Facet [Core]  <!-- UUID: ce25217f-c37d-4415-b0d6-adecab3c7855 -->
+###### A.2.2.10.1.1.1.2.3.2.3 - CCTP Facet [Core]  <!-- UUID: ce25217f-c37d-4415-b0d6-adecab3c7855 -->
 
 The CCTP Facet (`CCTPFacet`) bridges USDC cross-chain through Circle's Cross-Chain Transfer Protocol (CCTP), burning on the source domain to a preconfigured mint recipient. Its address on Ethereum Mainnet is `0xADf62692340e46EF90336f2e75ce3b37f1148873`.
 
-###### A.2.2.10.1.1.1.4.2.4 - Centrifuge Facet [Core]  <!-- UUID: 0c7d3bb1-6013-4c1b-900e-5232c7c5d595 -->
+###### A.2.2.10.1.1.1.2.3.2.4 - Centrifuge Facet [Core]  <!-- UUID: 0c7d3bb1-6013-4c1b-900e-5232c7c5d595 -->
 
 The Centrifuge Facet (`CentrifugeFacet`) manages Centrifuge v3 async vault positions, cancelling and claiming pending deposit and redeem requests and initiating cross-chain share transfers. Its address on Ethereum Mainnet is `0xa0A10BA97be1412730D694B8dE1afe7eff20eC31`.
 
-###### A.2.2.10.1.1.1.4.2.5 - Curve Facet [Core]  <!-- UUID: 0648b191-3f6c-4164-b26d-71666ca1a1cb -->
+###### A.2.2.10.1.1.1.2.3.2.5 - Curve Facet [Core]  <!-- UUID: 0648b191-3f6c-4164-b26d-71666ca1a1cb -->
 
 The Curve Facet (`CurveFacet`) swaps between assets in a Curve pool and adds or removes pool liquidity, under a max-slippage guard. Its address on Ethereum Mainnet is `0x139D81d7d6040fAeF7cF0EF5A2636Ca8a97a30d8`.
 
-###### A.2.2.10.1.1.1.4.2.6 - DAI-USDS Facet [Core]  <!-- UUID: b6a37e83-d51e-4bd3-afe6-a6f95cd943fe -->
+###### A.2.2.10.1.1.1.2.3.2.6 - DAI-USDS Facet [Core]  <!-- UUID: b6a37e83-d51e-4bd3-afe6-a6f95cd943fe -->
 
 The DAI-USDS Facet (`DAIUSDSFacet`) converts between DAI and USDS at 1:1 through the DAI-USDS converter. Its address on Ethereum Mainnet is `0x3817F734CAe6AD2BDb79F9ff23091F2AD478da5F`.
 
-###### A.2.2.10.1.1.1.4.2.7 - ERC-4626 Facet [Core]  <!-- UUID: 05f5d939-712b-4204-8f77-4ef5ea598dcc -->
+###### A.2.2.10.1.1.1.2.3.2.7 - ERC-4626 Facet [Core]  <!-- UUID: 05f5d939-712b-4204-8f77-4ef5ea598dcc -->
 
 The ERC-4626 Facet (`ERC4626Facet`) deposits, withdraws, and redeems against any ERC-4626 vault, under min-shares, min-assets, and max-exchange-rate guards. Its address on Ethereum Mainnet is `0x1dCA18608c89174181153E786778705b4A0E1a06`.
 
-###### A.2.2.10.1.1.1.4.2.8 - ERC-7540 Facet [Core]  <!-- UUID: 83d0bf58-6a92-4873-ba9e-e5a23c8dca1c -->
+###### A.2.2.10.1.1.1.2.3.2.8 - ERC-7540 Facet [Core]  <!-- UUID: 83d0bf58-6a92-4873-ba9e-e5a23c8dca1c -->
 
 The ERC-7540 Facet (`ERC7540Facet`) runs the asynchronous ERC-7540 vault flow, requesting and claiming deposits and redemptions. Its address on Ethereum Mainnet is `0x4f7e0E3612b0e1E156A2B6570a51d4BD709F1315`.
 
-###### A.2.2.10.1.1.1.4.2.9 - Ethena Facet [Core]  <!-- UUID: b009545a-fd85-42f9-ad94-bc0acfe1f27a -->
+###### A.2.2.10.1.1.1.2.3.2.9 - Ethena Facet [Core]  <!-- UUID: b009545a-fd85-42f9-ad94-bc0acfe1f27a -->
 
 The Ethena Facet (`EthenaFacet`) drives the Ethena USDe mint and burn and sUSDe staking lifecycle, managing the delegated signer, mint and burn approvals, and sUSDe cooldown and unstake. Its address on Ethereum Mainnet is `0xEc48D773CEef1c6b07CdA1afA2716C478b55187B`.
 
-###### A.2.2.10.1.1.1.4.2.10 - Farm Facet [Core]  <!-- UUID: 22387224-d9be-4aee-b47f-07307eb17c90 -->
+###### A.2.2.10.1.1.1.2.3.2.10 - Farm Facet [Core]  <!-- UUID: 22387224-d9be-4aee-b47f-07307eb17c90 -->
 
 The Farm Facet (`FarmFacet`) stakes and withdraws a token in a Synthetix-style reward farm and claims accrued rewards. Its address on Ethereum Mainnet is `0xF24E91f5D8529436c9fB92dd94F80d4A6C25d0f0`.
 
-###### A.2.2.10.1.1.1.4.2.11 - LayerZero Facet [Core]  <!-- UUID: 17b0a239-b0b0-476e-9a67-b8b6e3156507 -->
+###### A.2.2.10.1.1.1.2.3.2.11 - LayerZero Facet [Core]  <!-- UUID: 17b0a239-b0b0-476e-9a67-b8b6e3156507 -->
 
 The LayerZero Facet (`LayerZeroFacet`) bridges tokens implementing the Omnichain Fungible Token (OFT) standard cross-chain via LayerZero v2 to a preconfigured recipient. Its address on Ethereum Mainnet is `0xA0c323a0acb20F259eA4ff343319D450BE6472e5`.
 
-###### A.2.2.10.1.1.1.4.2.12 - Maple Facet [Core]  <!-- UUID: 2561da4c-6e42-4503-b763-4f121236b1e8 -->
+###### A.2.2.10.1.1.1.2.3.2.12 - Maple Facet [Core]  <!-- UUID: 2561da4c-6e42-4503-b763-4f121236b1e8 -->
 
 The Maple Facet (`MapleFacet`) requests and cancels redemptions of Maple pool tokens. Its address on Ethereum Mainnet is `0x691b5c26aD2B74d2376f4eD87904E9D3E47bD630`.
 
-###### A.2.2.10.1.1.1.4.2.13 - Merkl Facet [Core]  <!-- UUID: 8c492c88-d8f9-46c8-85f6-a42ee6f944d6 -->
+###### A.2.2.10.1.1.1.2.3.2.13 - Merkl Facet [Core]  <!-- UUID: 8c492c88-d8f9-46c8-85f6-a42ee6f944d6 -->
 
 The Merkl Facet (`MerklFacet`) toggles operator authorization on a Merkl distributor, delegating reward claiming to an operator. Its address on Ethereum Mainnet is `0x321138Db5E056e9d0080D4c278e10A1EdC091Eb0`.
 
-###### A.2.2.10.1.1.1.4.2.14 - OTC Facet [Core]  <!-- UUID: 35060c04-e4c8-4dd1-a4fe-09bc9288534d -->
+###### A.2.2.10.1.1.1.2.3.2.14 - OTC Facet [Core]  <!-- UUID: 35060c04-e4c8-4dd1-a4fe-09bc9288534d -->
 
 The OTC Facet (`OTCFacet`) executes over-the-counter swaps, sending an asset to an exchange and later claiming the counter-asset from a designated buffer, under recharge-rate and slippage checks. Its address on Ethereum Mainnet is `0x46b24ba00B65CB4f603447590e539b08097fb7Ac`.
 
-###### A.2.2.10.1.1.1.4.2.15 - Pendle Facet [Core]  <!-- UUID: 222342b5-aa4c-4be4-8411-c947e96e8fdd -->
+###### A.2.2.10.1.1.1.2.3.2.15 - Pendle Facet [Core]  <!-- UUID: 222342b5-aa4c-4be4-8411-c947e96e8fdd -->
 
 The Pendle Facet (`PendleFacet`) redeems Pendle principal and yield tokens (PT and YT) for their underlying token after market expiry via the Pendle router. Its address on Ethereum Mainnet is `0xcC9dD4c9B2a9c08f2692e7060F43d29A03E87348`.
 
-###### A.2.2.10.1.1.1.4.2.16 - PSM Facet [Core]  <!-- UUID: afa3da61-c32a-4efd-900b-16e1c262c842 -->
+###### A.2.2.10.1.1.1.2.3.2.16 - PSM Facet [Core]  <!-- UUID: afa3da61-c32a-4efd-900b-16e1c262c842 -->
 
 The PSM Facet (`PSMFacet`) swaps between USDS and USDC by routing through DAI and the Lite PSM's no-fee path. Its address on Ethereum Mainnet is `0xE4A5dAc768a310cc2316f258901b32E499653064`.
 
-###### A.2.2.10.1.1.1.4.2.17 - Spark Vault Facet [Core]  <!-- UUID: ad11b1de-41d7-4529-920b-55583445648e -->
+###### A.2.2.10.1.1.1.2.3.2.17 - Spark Vault Facet [Core]  <!-- UUID: ad11b1de-41d7-4529-920b-55583445648e -->
 
 The Spark Vault Facet (`SparkVaultFacet`) pulls assets from a Spark vault via its `take` function. Its address on Ethereum Mainnet is `0xff0d19920E207e3A17eb5A2E5bA3AFA44836362b`.
 
-###### A.2.2.10.1.1.1.4.2.18 - Superstate Facet [Core]  <!-- UUID: 6f3e9682-7628-407b-adc3-9627bad3a419 -->
+###### A.2.2.10.1.1.1.2.3.2.18 - Superstate Facet [Core]  <!-- UUID: 6f3e9682-7628-407b-adc3-9627bad3a419 -->
 
 The Superstate Facet (`SuperstateFacet`) subscribes USDC into Superstate USTB, minting USTB. Its address on Ethereum Mainnet is `0xeE197475607E9a27cCAA4786e740d2F0d0E706A7`.
 
-###### A.2.2.10.1.1.1.4.2.19 - Transfer Asset Facet [Core]  <!-- UUID: e59b91c8-05c9-47b2-a115-8a41b12de659 -->
+###### A.2.2.10.1.1.1.2.3.2.19 - Transfer Asset Facet [Core]  <!-- UUID: e59b91c8-05c9-47b2-a115-8a41b12de659 -->
 
 The Transfer Asset Facet (`TransferAssetFacet`) transfers an ERC-20 asset from the ALM Proxy to a rate-limit-authorized destination address. Its address on Ethereum Mainnet is `0x4DA7608C331b8f135df5b985018933780eCd089D`.
 
-###### A.2.2.10.1.1.1.4.2.20 - Uniswap v3 Facet [Core]  <!-- UUID: b808a829-2f31-42f1-ac9f-6801d3eb8437 -->
+###### A.2.2.10.1.1.1.2.3.2.20 - Uniswap v3 Facet [Core]  <!-- UUID: b808a829-2f31-42f1-ac9f-6801d3eb8437 -->
 
 The Uniswap v3 Facet (`UniswapV3Facet`) executes Uniswap v3 exact-input swaps and adds or removes concentrated-liquidity positions, under tick-bound, time-weighted-average-price, and slippage guards. Its address on Ethereum Mainnet is `0x445D9Dc752F269Be48250f1A180CAC4c61cE4bab`.
 
-###### A.2.2.10.1.1.1.4.2.21 - Uniswap v4 Facet [Core]  <!-- UUID: c58ae1da-985d-4f85-80be-396de4f8191f -->
+###### A.2.2.10.1.1.1.2.3.2.21 - Uniswap v4 Facet [Core]  <!-- UUID: c58ae1da-985d-4f85-80be-396de4f8191f -->
 
 The Uniswap v4 Facet (`UniswapV4Facet`) mints, increases, and decreases Uniswap v4 liquidity positions and executes token swaps, under tick-limit and slippage guards. Its address on Ethereum Mainnet is `0x75D35ffB8e6B871E12EB549CcF6afD324c46E47D`.
 
-###### A.2.2.10.1.1.1.4.2.22 - USDS Facet [Core]  <!-- UUID: 917e1162-3c06-4508-b0e9-02c5eefc1346 -->
+###### A.2.2.10.1.1.1.2.3.2.22 - USDS Facet [Core]  <!-- UUID: 917e1162-3c06-4508-b0e9-02c5eefc1346 -->
 
 The USDS Facet (`USDSFacet`) mints and burns USDS against an allocator vault, drawing USDS into and wiping it from the vault buffer. Its address on Ethereum Mainnet is `0x1221CC4B85Ab260660aD21C2829e0EB516dffBc7`.
 
-###### A.2.2.10.1.1.1.4.2.23 - weETH Facet [Core]  <!-- UUID: abe32bbc-2ac3-4d3c-8133-14c233e6853d -->
+###### A.2.2.10.1.1.1.2.3.2.23 - weETH Facet [Core]  <!-- UUID: abe32bbc-2ac3-4d3c-8133-14c233e6853d -->
 
 The weETH Facet (`WEETHFacet`) stakes ETH (from WETH) into ether.fi eETH and wraps it to weETH, and handles the unwrap, withdrawal-request, and claim flow back to WETH. Its address on Ethereum Mainnet is `0x1d8D089EB7D558F5dc6aA0cf98DDe13B77b3F641`.
 
-###### A.2.2.10.1.1.1.4.2.24 - Wrap Proxy ETH Facet [Core]  <!-- UUID: 2dae0ea0-5fff-4806-8c30-27a92e5676dc -->
+###### A.2.2.10.1.1.1.2.3.2.24 - Wrap Proxy ETH Facet [Core]  <!-- UUID: 2dae0ea0-5fff-4806-8c30-27a92e5676dc -->
 
 The Wrap Proxy ETH Facet (`WrapProxyETHFacet`) wraps the ALM Proxy's entire native ETH balance into WETH. Its address on Ethereum Mainnet is `0x081506DE21C695Af5e61a81aD288C8A96B6b59B9`.
 
-###### A.2.2.10.1.1.1.4.2.25 - wstETH Facet [Core]  <!-- UUID: 304c403a-ca08-4f49-a2f8-34c3c8a793db -->
+###### A.2.2.10.1.1.1.2.3.2.25 - wstETH Facet [Core]  <!-- UUID: 304c403a-ca08-4f49-a2f8-34c3c8a793db -->
 
 The wstETH Facet (`WSTETHFacet`) converts WETH to ETH to wstETH (Lido) and handles the Lido withdrawal-queue request and claim flow back to WETH. Its address on Ethereum Mainnet is `0x3a82D11Cd37Fb0098363262Dc69425d07Fa05516`.
 
-###### A.2.2.10.1.1.1.4.3 - PAU Factory [Core]  <!-- UUID: cc980032-b7e4-41c5-ac4d-2f99f89f51dc -->
+###### A.2.2.10.1.1.1.2.3.3 - PAU Factory [Core]  <!-- UUID: cc980032-b7e4-41c5-ac4d-2f99f89f51dc -->
 
 The PAU Factory (`PAUFactory`) is the contract that deploys new Diamond PAU Instances. Its address on Ethereum Mainnet is `0x69A5d548830AC2A4Ba90A44a2C75BDA71f97fc66`.
 
-###### A.2.2.10.1.1.1.4.4 - PAU Assembler [Core]  <!-- UUID: 8772a459-55ea-4387-889d-08fb01ad40d4 -->
+###### A.2.2.10.1.1.1.2.3.4 - PAU Assembler [Core]  <!-- UUID: 8772a459-55ea-4387-889d-08fb01ad40d4 -->
 
 The PAU Assembler (`DefaultPAUAssembler`) is the contract that assembles a Diamond PAU Instance from its Beacon-approved Facets at deployment. Its address on Ethereum Mainnet is `0xc812aAD3FaE2D3511C664374B601a9BeBFeCCa2E`.
 
-###### A.2.2.10.1.1.1.4.5 - Administered Agent Factory [Core]  <!-- UUID: 833a0750-ff91-4fdc-95a8-af77df301dbc -->
+###### A.2.2.10.1.1.1.2.3.5 - Administered Agent Factory [Core]  <!-- UUID: 833a0750-ff91-4fdc-95a8-af77df301dbc -->
 
 The Administered Agent Factory (`AdministeredAgentFactory`) is the contract that deploys the `AdministeredAgent` contracts that hold the Allocator Role on the Controller of a Diamond PAU Instance, with the Prime Agent's Relayer system registered as their Actors. Its address on Ethereum Mainnet is `0x2968c3b5478cF93B70aB1e24255d4EDBBd27a089`.
 
-###### A.2.2.10.1.1.1.5 - Liquidity Layer Operational Processes [Core]  <!-- UUID: 3b387169-c279-4d0f-918c-e6c424c6ea2c -->
+###### A.2.2.10.1.1.1.2.3.6 - Configurator [Core]  <!-- UUID: 5e1f82c7-bcd6-46f8-aec0-3e767e55a93c -->
+
+The Configurator (`Configurator`) is the contract through which designated actors operate a Diamond PAU's rate limits and pre-approved controller actions, within the ceilings and permissions as specified in [A.2.2.10.1.1.1.2.4 - PAS](989171ed-5424-42ee-83f4-199e1149699c). Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.7 - Beam State [Core]  <!-- UUID: 2e36bb4f-91db-4dca-bdb1-e4aa385b1129 -->
+
+Beam State (`BeamState`) is the contract that records which actors, rate limits, and controller actions are authorized under [A.2.2.10.1.1.1.2.4 - PAS](989171ed-5424-42ee-83f4-199e1149699c). Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.4 - PAS [Core]  <!-- UUID: 989171ed-5424-42ee-83f4-199e1149699c -->
+
+The PAS (Parallelized Allocation System) is a permissioned layer that lets designated actors operate a Diamond PAU's rate limits and pre-approved controller actions, within governance-set ceilings, without direct administrative control over the Diamond PAU. Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.5 - Liquidity Layer Operational Processes [Core]  <!-- UUID: 3b387169-c279-4d0f-918c-e6c424c6ea2c -->
 
 The documents herein define the operational processes of the Diamond PAU implementation of the Allocation System — including the addition and removal of Facets approved on the Beacon, the functions performed through the Controller, and the management of rate limits.
 
-###### A.2.2.10.1.1.1.5.1 - Facet Management [Core]  <!-- UUID: 892588a3-c9ca-407d-a3d7-bbb25a57d4c6 -->
+###### A.2.2.10.1.1.1.2.5.1 - Facet Management [Core]  <!-- UUID: 892588a3-c9ca-407d-a3d7-bbb25a57d4c6 -->
 
 The documents herein define the processes for adding and removing Facets available to Diamond PAU Instances.
 
-###### A.2.2.10.1.1.1.5.1.1 - Adding a Facet [Core]  <!-- UUID: 9b6c5e8f-2148-4e2c-8971-9f516a7910c3 -->
+###### A.2.2.10.1.1.1.2.5.1.1 - Adding a Facet [Core]  <!-- UUID: 9b6c5e8f-2148-4e2c-8971-9f516a7910c3 -->
 
 The process for adding a Facet will be specified in a future iteration of the Atlas.
 
-###### A.2.2.10.1.1.1.5.1.2 - Removing a Facet [Core]  <!-- UUID: 91c8c247-31ad-4e7b-a8b0-73e32c2a1367 -->
+###### A.2.2.10.1.1.1.2.5.1.2 - Removing a Facet [Core]  <!-- UUID: 91c8c247-31ad-4e7b-a8b0-73e32c2a1367 -->
 
 The process for removing a Facet will be specified in a future iteration of the Atlas.
 
-###### A.2.2.10.1.1.1.5.2 - Diamond PAU Controller Functions [Core]  <!-- UUID: 5e941add-bf8d-4623-95a1-69795e7f7034 -->
+###### A.2.2.10.1.1.1.2.5.2 - Diamond PAU Controller Functions [Core]  <!-- UUID: 5e941add-bf8d-4623-95a1-69795e7f7034 -->
 
 The documents herein define the functions performed through the Diamond PAU Controller contract. The Controller dispatches each function to the corresponding Facet contract, which performs the operation on behalf of the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.1 - USDS Facet [Core]  <!-- UUID: cc0dd1cb-5377-4186-be60-1112ba0340e4 -->
+###### A.2.2.10.1.1.1.2.5.2.1 - USDS Facet [Core]  <!-- UUID: cc0dd1cb-5377-4186-be60-1112ba0340e4 -->
 
-The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.4.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346).
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346).
 
-###### A.2.2.10.1.1.1.5.2.1.1 - Mint USDS [Core]  <!-- UUID: d9173f82-6a6b-432a-a6e4-c8f80f70ba35 -->
+###### A.2.2.10.1.1.1.2.5.2.1.1 - Mint USDS [Core]  <!-- UUID: d9173f82-6a6b-432a-a6e4-c8f80f70ba35 -->
 
 The documents herein define the steps to mint USDS from the allocator vault to the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.1.1.1 - Allocator Role [Core]  <!-- UUID: 8eea7011-c299-4861-bf2e-0adb78e3ef30 -->
+###### A.2.2.10.1.1.1.2.5.2.1.1.1 - Allocator Role [Core]  <!-- UUID: 8eea7011-c299-4861-bf2e-0adb78e3ef30 -->
 
-Only an address holding the [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a USDS mint by calling the `usds_mint` function on the Diamond PAU Controller, passing the amount of USDS to mint. The Controller dispatches the call to the USDS Facet, which performs the mint on behalf of the ALM Proxy.
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a USDS mint by calling the `usds_mint` function on the Diamond PAU Controller, passing the amount of USDS to mint. The Controller dispatches the call to the USDS Facet, which performs the mint on behalf of the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.1.1.2 - Rate Limit [Core]  <!-- UUID: b6d5f36b-3832-4cb7-b9e3-ea2543fc7d4e -->
+###### A.2.2.10.1.1.1.2.5.2.1.1.2 - Rate Limit [Core]  <!-- UUID: b6d5f36b-3832-4cb7-b9e3-ea2543fc7d4e -->
 
 The minting of USDS is subject to the on-chain rate limit identified by `LIMIT_USDS_MINT`. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit.
 
-###### A.2.2.10.1.1.1.5.2.1.1.3 - Mint USDS To ALM Proxy [Core]  <!-- UUID: 1490a13f-c897-4f0d-9ba3-205f40900321 -->
+###### A.2.2.10.1.1.1.2.5.2.1.1.3 - Mint USDS To ALM Proxy [Core]  <!-- UUID: 1490a13f-c897-4f0d-9ba3-205f40900321 -->
 
 The USDS Facet's `mint` function draws the specified amount of USDS from the allocator vault by calling the vault's `draw` function, then transfers that USDS from the vault's buffer to the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.1.2 - Burn USDS [Core]  <!-- UUID: f01e63b7-dde7-422a-89a1-6931839d49f5 -->
+###### A.2.2.10.1.1.1.2.5.2.1.2 - Burn USDS [Core]  <!-- UUID: f01e63b7-dde7-422a-89a1-6931839d49f5 -->
 
 The documents herein define the steps to burn USDS held by the ALM Proxy, returning it to the allocator vault.
 
-###### A.2.2.10.1.1.1.5.2.1.2.1 - Allocator Role [Core]  <!-- UUID: 53d3749c-ef45-45ed-9657-373580abe3cf -->
+###### A.2.2.10.1.1.1.2.5.2.1.2.1 - Allocator Role [Core]  <!-- UUID: 53d3749c-ef45-45ed-9657-373580abe3cf -->
 
-Only an address holding the [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a USDS burn by calling the `usds_burn` function on the Diamond PAU Controller, passing the amount of USDS to burn. The Controller dispatches the call to the USDS Facet, which performs the burn on behalf of the ALM Proxy.
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a USDS burn by calling the `usds_burn` function on the Diamond PAU Controller, passing the amount of USDS to burn. The Controller dispatches the call to the USDS Facet, which performs the burn on behalf of the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.1.2.2 - Rate Limit [Core]  <!-- UUID: b900fd43-5f7c-438f-a1dd-0e89db98f4db -->
+###### A.2.2.10.1.1.1.2.5.2.1.2.2 - Rate Limit [Core]  <!-- UUID: b900fd43-5f7c-438f-a1dd-0e89db98f4db -->
 
 The burning of USDS is subject to the on-chain rate limit identified by `LIMIT_USDS_BURN`. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. The burn additionally increases the `LIMIT_USDS_MINT` rate limit by the same amount, where that rate limit is configured, restoring minting capacity.
 
-###### A.2.2.10.1.1.1.5.2.1.2.3 - Burn USDS From ALM Proxy [Core]  <!-- UUID: feace76a-e48a-42da-8732-74bbf55c530f -->
+###### A.2.2.10.1.1.1.2.5.2.1.2.3 - Burn USDS From ALM Proxy [Core]  <!-- UUID: feace76a-e48a-42da-8732-74bbf55c530f -->
 
 The USDS Facet's `burn` function transfers the specified amount of USDS from the ALM Proxy to the allocator vault's buffer, then wipes the corresponding debt by calling the vault's `wipe` function.
 
-###### A.2.2.10.1.1.1.5.2.2 - Aave v3 Facet [Core]  <!-- UUID: e679e470-17f3-40ef-b455-dd424a498992 -->
+###### A.2.2.10.1.1.1.2.5.2.2 - Aave v3 Facet [Core]  <!-- UUID: e679e470-17f3-40ef-b455-dd424a498992 -->
 
-The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.4.2.1 - Aave v3 Facet](c9ecd9c2-dd1b-426b-8e52-66a2b1892289).
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.2.1 - Aave v3 Facet](c9ecd9c2-dd1b-426b-8e52-66a2b1892289).
 
-###### A.2.2.10.1.1.1.5.2.2.1 - Deposit To Aave v3 Market [Core]  <!-- UUID: 5592661d-78e9-4185-9c6e-15ffa47e0aef -->
+###### A.2.2.10.1.1.1.2.5.2.2.1 - Deposit To Aave v3 Market [Core]  <!-- UUID: 5592661d-78e9-4185-9c6e-15ffa47e0aef -->
 
 The documents herein define the steps to deposit an asset held by the ALM Proxy into an Aave v3 market, which mints aTokens to the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.2.1.1 - Allocator Role [Core]  <!-- UUID: 26eec581-240e-4214-85a4-ee9309b986d4 -->
+###### A.2.2.10.1.1.1.2.5.2.2.1.1 - Allocator Role [Core]  <!-- UUID: 26eec581-240e-4214-85a4-ee9309b986d4 -->
 
-Only an address holding the [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate an Aave v3 market deposit by calling the `aave_deposit` function on the Diamond PAU Controller, passing the address of the aToken and the amount to deposit. The Controller dispatches the call to the Aave v3 Facet, which performs the deposit on behalf of the ALM Proxy.
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate an Aave v3 market deposit by calling the `aave_deposit` function on the Diamond PAU Controller, passing the address of the aToken and the amount to deposit. The Controller dispatches the call to the Aave v3 Facet, which performs the deposit on behalf of the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.2.1.2 - Rate Limit [Core]  <!-- UUID: 989bca9d-f56a-4965-8684-62de547f605a -->
+###### A.2.2.10.1.1.1.2.5.2.2.1.2 - Rate Limit [Core]  <!-- UUID: 989bca9d-f56a-4965-8684-62de547f605a -->
 
 The deposit is subject to the on-chain deposit rate limit identified by `LIMIT_AAVE_DEPOSIT` for the underlying asset, the address of the pool, and the address of the aToken. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit.
 
-###### A.2.2.10.1.1.1.5.2.2.1.3 - Deposit Asset Into Aave v3 Market [Core]  <!-- UUID: d783250a-d160-4f1f-8648-e2c9a6d95816 -->
+###### A.2.2.10.1.1.1.2.5.2.2.1.3 - Deposit Asset Into Aave v3 Market [Core]  <!-- UUID: d783250a-d160-4f1f-8648-e2c9a6d95816 -->
 
 The Aave v3 Facet's `deposit` function supplies the specified amount of the asset to the Aave v3 market on behalf of the ALM Proxy, and aTokens are minted to the ALM Proxy. The aTokens received must satisfy the configured maximum slippage.
 
-###### A.2.2.10.1.1.1.5.2.2.2 - Withdraw From Aave v3 Market [Core]  <!-- UUID: 038eaa5c-d4c0-4a56-8d30-bc3a04508f0e -->
+###### A.2.2.10.1.1.1.2.5.2.2.2 - Withdraw From Aave v3 Market [Core]  <!-- UUID: 038eaa5c-d4c0-4a56-8d30-bc3a04508f0e -->
 
 The documents herein define the steps to withdraw an asset from an Aave v3 market to the ALM Proxy by burning the corresponding aTokens.
 
-###### A.2.2.10.1.1.1.5.2.2.2.1 - Allocator Role [Core]  <!-- UUID: c5a30d6c-6f3a-48a1-af35-39c0ee0bece4 -->
+###### A.2.2.10.1.1.1.2.5.2.2.2.1 - Allocator Role [Core]  <!-- UUID: c5a30d6c-6f3a-48a1-af35-39c0ee0bece4 -->
 
-Only an address holding the [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate an Aave v3 market withdrawal by calling the `aave_withdraw` function on the Diamond PAU Controller, passing the address of the aToken and the amount to withdraw. The Controller dispatches the call to the Aave v3 Facet, which performs the withdrawal on behalf of the ALM Proxy.
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate an Aave v3 market withdrawal by calling the `aave_withdraw` function on the Diamond PAU Controller, passing the address of the aToken and the amount to withdraw. The Controller dispatches the call to the Aave v3 Facet, which performs the withdrawal on behalf of the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.2.2.2 - Rate Limit [Core]  <!-- UUID: ef6077eb-1cd4-4c17-bbf5-ce98c2cc1b92 -->
+###### A.2.2.10.1.1.1.2.5.2.2.2.2 - Rate Limit [Core]  <!-- UUID: ef6077eb-1cd4-4c17-bbf5-ce98c2cc1b92 -->
 
 The withdrawal is subject to the on-chain withdrawal rate limit identified by `LIMIT_AAVE_WITHDRAW` for the address of the pool and the address of the aToken. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit.
 
-###### A.2.2.10.1.1.1.5.2.2.2.3 - Withdraw Asset From Aave v3 Market [Core]  <!-- UUID: ee2933f7-b7c6-4002-92f1-8b69c063a4a8 -->
+###### A.2.2.10.1.1.1.2.5.2.2.2.3 - Withdraw Asset From Aave v3 Market [Core]  <!-- UUID: ee2933f7-b7c6-4002-92f1-8b69c063a4a8 -->
 
 The Aave v3 Facet's `withdraw` function withdraws the specified amount of the asset from the Aave v3 market to the ALM Proxy, burning the corresponding aTokens.
 
-###### A.2.2.10.1.1.1.5.2.3 - Basin Facet [Core]  <!-- UUID: 7ab0c0f2-fc41-4b3f-9dc8-e62463bb3e62 -->
+###### A.2.2.10.1.1.1.2.5.2.3 - Basin Facet [Core]  <!-- UUID: 7ab0c0f2-fc41-4b3f-9dc8-e62463bb3e62 -->
 
-The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.4.2.2 - Basin Facet](d9cbf883-119e-403d-8efa-125997cd8897).
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.2.2 - Basin Facet](d9cbf883-119e-403d-8efa-125997cd8897).
 
-###### A.2.2.10.1.1.1.5.2.3.1 - Deposit To Basin [Core]  <!-- UUID: d0c0a142-6ed5-4423-acbd-35ae6fdacb9f -->
+###### A.2.2.10.1.1.1.2.5.2.3.1 - Deposit To Basin [Core]  <!-- UUID: d0c0a142-6ed5-4423-acbd-35ae6fdacb9f -->
 
 The documents herein define the steps to deposit an asset held by the ALM Proxy into a Basin, which mints Basin shares to the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.3.1.1 - Allocator Role [Core]  <!-- UUID: b2e3b84d-acbd-4704-b55e-e2026aa63058 -->
+###### A.2.2.10.1.1.1.2.5.2.3.1.1 - Allocator Role [Core]  <!-- UUID: b2e3b84d-acbd-4704-b55e-e2026aa63058 -->
 
-Only an address holding the [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a Basin deposit by calling the `basin_deposit` function on the Diamond PAU Controller, passing the address of the Basin contract, the address of the asset, the amount to deposit, and the minimum number of shares to receive (`minSharesOut`). The Controller dispatches the call to the Basin Facet, which performs the deposit on behalf of the ALM Proxy.
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a Basin deposit by calling the `basin_deposit` function on the Diamond PAU Controller, passing the address of the Basin contract, the address of the asset, the amount to deposit, and the minimum number of shares to receive (`minSharesOut`). The Controller dispatches the call to the Basin Facet, which performs the deposit on behalf of the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.3.1.2 - Rate Limit [Core]  <!-- UUID: 34b6d2ab-837c-4fb0-a397-77d776a32bc3 -->
+###### A.2.2.10.1.1.1.2.5.2.3.1.2 - Rate Limit [Core]  <!-- UUID: 34b6d2ab-837c-4fb0-a397-77d776a32bc3 -->
 
 The deposit is subject to the on-chain deposit rate limit identified by `LIMIT_BASIN_DEPOSIT` for the address of the asset and the address of the Basin contract. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit.
 
-###### A.2.2.10.1.1.1.5.2.3.1.3 - Deposit Asset Into Basin [Core]  <!-- UUID: 8d3420d5-86a7-4468-8f08-92cc00fed557 -->
+###### A.2.2.10.1.1.1.2.5.2.3.1.3 - Deposit Asset Into Basin [Core]  <!-- UUID: 8d3420d5-86a7-4468-8f08-92cc00fed557 -->
 
 The Basin Facet's `deposit` function deposits the specified amount of the asset into the Basin on behalf of the ALM Proxy, and Basin shares are minted to the ALM Proxy. The deposit does not complete unless the number of shares minted is at least the specified minimum (`minSharesOut`).
 
-###### A.2.2.10.1.1.1.5.2.3.2 - Withdraw From Basin [Core]  <!-- UUID: 8aad3588-6c58-4539-a1e2-46b0e6f97e92 -->
+###### A.2.2.10.1.1.1.2.5.2.3.2 - Withdraw From Basin [Core]  <!-- UUID: 8aad3588-6c58-4539-a1e2-46b0e6f97e92 -->
 
 The documents herein define the steps to withdraw an asset from a Basin to the ALM Proxy by burning the corresponding Basin shares.
 
-###### A.2.2.10.1.1.1.5.2.3.2.1 - Allocator Role [Core]  <!-- UUID: 75edeae6-46e4-4761-b2c7-0416038c97cf -->
+###### A.2.2.10.1.1.1.2.5.2.3.2.1 - Allocator Role [Core]  <!-- UUID: 75edeae6-46e4-4761-b2c7-0416038c97cf -->
 
-Only an address holding the [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a Basin withdrawal by calling the `basin_withdraw` function on the Diamond PAU Controller, passing the address of the Basin contract, the address of the asset, the maximum amount to withdraw, and the minimum conversion rate (`minConversionRate`). The Controller dispatches the call to the Basin Facet, which performs the withdrawal on behalf of the ALM Proxy.
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a Basin withdrawal by calling the `basin_withdraw` function on the Diamond PAU Controller, passing the address of the Basin contract, the address of the asset, the maximum amount to withdraw, and the minimum conversion rate (`minConversionRate`). The Controller dispatches the call to the Basin Facet, which performs the withdrawal on behalf of the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.3.2.2 - Rate Limit [Core]  <!-- UUID: d915bc35-e8d8-4d48-a285-92335bd09343 -->
+###### A.2.2.10.1.1.1.2.5.2.3.2.2 - Rate Limit [Core]  <!-- UUID: d915bc35-e8d8-4d48-a285-92335bd09343 -->
 
 The withdrawal is subject to the on-chain withdrawal rate limit identified by `LIMIT_BASIN_WITHDRAW` for the address of the asset and the address of the Basin contract. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit.
 
-###### A.2.2.10.1.1.1.5.2.3.2.3 - Withdraw Asset From Basin [Core]  <!-- UUID: 25da7163-b052-459f-91b5-8da3aafa61c7 -->
+###### A.2.2.10.1.1.1.2.5.2.3.2.3 - Withdraw Asset From Basin [Core]  <!-- UUID: 25da7163-b052-459f-91b5-8da3aafa61c7 -->
 
 The Basin Facet's `withdraw` function withdraws up to the specified maximum amount of the asset from the Basin to the ALM Proxy, burning the corresponding Basin shares. The withdrawal does not complete unless the assets received satisfy the specified minimum conversion rate (`minConversionRate`) relative to the shares burned.
 
-###### A.2.2.10.1.1.1.5.2.4 - PSM Facet [Core]  <!-- UUID: 6d22c2b8-bc80-4248-a690-7b858c925014 -->
+###### A.2.2.10.1.1.1.2.5.2.4 - PSM Facet [Core]  <!-- UUID: 6d22c2b8-bc80-4248-a690-7b858c925014 -->
 
-The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.4.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842).
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842).
 
-###### A.2.2.10.1.1.1.5.2.4.1 - Swap USDS To USDC [Core]  <!-- UUID: bff6ae57-ce3e-4520-ad46-5fe87b721408 -->
+###### A.2.2.10.1.1.1.2.5.2.4.1 - Swap USDS To USDC [Core]  <!-- UUID: bff6ae57-ce3e-4520-ad46-5fe87b721408 -->
 
 The documents herein define the steps to swap USDS held by the ALM Proxy for USDC via DAI, through the DAI-USDS migrator and the Lite PSM.
 
-###### A.2.2.10.1.1.1.5.2.4.1.1 - Allocator Role [Core]  <!-- UUID: f3c79493-8704-4d20-9eaa-e2e381f3920d -->
+###### A.2.2.10.1.1.1.2.5.2.4.1.1 - Allocator Role [Core]  <!-- UUID: f3c79493-8704-4d20-9eaa-e2e381f3920d -->
 
-Only an address holding the [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a USDS to USDC swap by calling the `psm_swapUSDSToUSDC` function on the Diamond PAU Controller, passing the amount of USDC to receive. The Controller dispatches the call to the PSM Facet, which performs the swap on behalf of the ALM Proxy.
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a USDS to USDC swap by calling the `psm_swapUSDSToUSDC` function on the Diamond PAU Controller, passing the amount of USDC to receive. The Controller dispatches the call to the PSM Facet, which performs the swap on behalf of the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.4.1.2 - Rate Limit [Core]  <!-- UUID: 1a1d74ec-888d-4f0a-93c2-3669fa4efe45 -->
+###### A.2.2.10.1.1.1.2.5.2.4.1.2 - Rate Limit [Core]  <!-- UUID: 1a1d74ec-888d-4f0a-93c2-3669fa4efe45 -->
 
 The swap is subject to the on-chain rate limit identified by `LIMIT_USDS_TO_USDC`. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit.
 
-###### A.2.2.10.1.1.1.5.2.4.1.3 - Swap USDS For USDC [Core]  <!-- UUID: 58631630-a9e3-4bd6-a1ea-59b0ef8f5bee -->
+###### A.2.2.10.1.1.1.2.5.2.4.1.3 - Swap USDS For USDC [Core]  <!-- UUID: 58631630-a9e3-4bd6-a1ea-59b0ef8f5bee -->
 
 The PSM Facet's `swapUSDSToUSDC` function swaps USDS held by the ALM Proxy for the specified amount of USDC via DAI, through the DAI-USDS migrator and the Lite PSM.
 
-###### A.2.2.10.1.1.1.5.2.4.2 - Swap USDC To USDS [Core]  <!-- UUID: 3fd327ea-7043-434a-996a-3419e7692959 -->
+###### A.2.2.10.1.1.1.2.5.2.4.2 - Swap USDC To USDS [Core]  <!-- UUID: 3fd327ea-7043-434a-996a-3419e7692959 -->
 
 The documents herein define the steps to swap USDC held by the ALM Proxy for USDS via DAI, through the DAI-USDS migrator and the Lite PSM.
 
-###### A.2.2.10.1.1.1.5.2.4.2.1 - Allocator Role [Core]  <!-- UUID: 85a2ac37-da60-4a04-96eb-600f635ab388 -->
+###### A.2.2.10.1.1.1.2.5.2.4.2.1 - Allocator Role [Core]  <!-- UUID: 85a2ac37-da60-4a04-96eb-600f635ab388 -->
 
-Only an address holding the [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a USDC to USDS swap by calling the `psm_swapUSDCToUSDS` function on the Diamond PAU Controller, passing the amount of USDC to swap. The Controller dispatches the call to the PSM Facet, which performs the swap on behalf of the ALM Proxy.
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a USDC to USDS swap by calling the `psm_swapUSDCToUSDS` function on the Diamond PAU Controller, passing the amount of USDC to swap. The Controller dispatches the call to the PSM Facet, which performs the swap on behalf of the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.4.2.2 - Rate Limit [Core]  <!-- UUID: b489a966-f631-429d-85da-cb6258f001c9 -->
+###### A.2.2.10.1.1.1.2.5.2.4.2.2 - Rate Limit [Core]  <!-- UUID: b489a966-f631-429d-85da-cb6258f001c9 -->
 
 The swap is subject to the on-chain rate limit identified by `LIMIT_USDC_TO_USDS`. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. The swap additionally increases the `LIMIT_USDS_TO_USDC` rate limit by the same amount, where that rate limit is configured, restoring capacity in the opposite swap direction.
 
-###### A.2.2.10.1.1.1.5.2.4.2.3 - Swap USDC For USDS [Core]  <!-- UUID: fa1364a3-081c-4327-8ef4-637a3fdd1105 -->
+###### A.2.2.10.1.1.1.2.5.2.4.2.3 - Swap USDC For USDS [Core]  <!-- UUID: fa1364a3-081c-4327-8ef4-637a3fdd1105 -->
 
 The PSM Facet's `swapUSDCToUSDS` function swaps the specified amount of USDC held by the ALM Proxy for USDS via DAI, through the DAI-USDS migrator and the Lite PSM.
 
-###### A.2.2.10.1.1.1.5.2.5 - Uniswap v3 Facet [Core]  <!-- UUID: 417edcc0-3d50-48ba-8fc2-38b361dbc297 -->
+###### A.2.2.10.1.1.1.2.5.2.5 - Uniswap v3 Facet [Core]  <!-- UUID: 417edcc0-3d50-48ba-8fc2-38b361dbc297 -->
 
-The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.4.2.20 - Uniswap v3 Facet](b808a829-2f31-42f1-ac9f-6801d3eb8437). Each function is restricted to an address holding the [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a).
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.2.20 - Uniswap v3 Facet](b808a829-2f31-42f1-ac9f-6801d3eb8437). Each function is restricted to an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a).
 
-###### A.2.2.10.1.1.1.5.2.5.1 - Add Liquidity To Uniswap v3 [Core]  <!-- UUID: 32d3213a-e40a-4169-94d7-e65bb6c23c19 -->
+###### A.2.2.10.1.1.1.2.5.2.5.1 - Add Liquidity To Uniswap v3 [Core]  <!-- UUID: 32d3213a-e40a-4169-94d7-e65bb6c23c19 -->
 
 The documents herein define the steps to add liquidity to a Uniswap v3 pool on behalf of the ALM Proxy, minting a new position or increasing an existing one.
 
-###### A.2.2.10.1.1.1.5.2.5.1.1 - Allocator Role [Core]  <!-- UUID: 955f7809-40e6-43a3-900d-6992a6e1d2ef -->
+###### A.2.2.10.1.1.1.2.5.2.5.1.1 - Allocator Role [Core]  <!-- UUID: 955f7809-40e6-43a3-900d-6992a6e1d2ef -->
 
-Only an address holding the [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may add liquidity by calling the `uniswapV3_addLiquidity` function on the Diamond PAU Controller. The call passes the address of the pool, the identifier of an existing position to increase (or zero to mint a new position), the lower and upper tick bounds, the target amounts of each pool token to deposit, the minimum amounts to accept, and a deadline. The Controller dispatches the call to the Uniswap v3 Facet, which performs the deposit on behalf of the ALM Proxy.
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may add liquidity by calling the `uniswapV3_addLiquidity` function on the Diamond PAU Controller. The call passes the address of the pool, the identifier of an existing position to increase (or zero to mint a new position), the lower and upper tick bounds, the target amounts of each pool token to deposit, the minimum amounts to accept, and a deadline. The Controller dispatches the call to the Uniswap v3 Facet, which performs the deposit on behalf of the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.5.1.2 - Rate Limit [Core]  <!-- UUID: 7e771c08-d37b-4e44-b5d2-b21aabde6a3a -->
+###### A.2.2.10.1.1.1.2.5.2.5.1.2 - Rate Limit [Core]  <!-- UUID: 7e771c08-d37b-4e44-b5d2-b21aabde6a3a -->
 
 The aggregate deposit limit sums one unit of either pool token as equivalent, so it is only meant to work with a stable-stable pool. Using it on a pool with two tokens of different value would produce a cap unrelated to actual exposure.
 
 Adding liquidity is subject to three (3) on-chain deposit rate limits, each identified by `LIMIT_UNISWAP_V3_DEPOSIT`. One is the aggregate limit described above, metered in a normalized unit summed across both pool tokens. The other two are per-token limits, one for each of the pool's two (2) tokens, each metered in that token's own unit. All three limits are enforced automatically within the call; the transaction reverts if the amount attributed to any of the three exceeds its current rate limit.
 
-###### A.2.2.10.1.1.1.5.2.5.1.3 - Add Liquidity To Uniswap v3 Position [Core]  <!-- UUID: 164268cf-b6e5-4c1a-83e5-d199f453cc1b -->
+###### A.2.2.10.1.1.1.2.5.2.5.1.3 - Add Liquidity To Uniswap v3 Position [Core]  <!-- UUID: 164268cf-b6e5-4c1a-83e5-d199f453cc1b -->
 
 The Uniswap v3 Facet's `addLiquidity` function attempts to deposit the target amounts of the pool's two (2) tokens on behalf of the ALM Proxy. To open a new position, it calls the Uniswap v3 position manager's `mint` function. To add to an existing position, it calls the position manager's `increaseLiquidity` function instead — but only after confirming the ALM Proxy is the current owner of that position. Depositing into a tick range does not necessarily use the full target amount of both tokens; the Uniswap v3 Facet measures the amounts actually deposited by comparing the ALM Proxy's token balances before and after the call, rather than relying on the target amounts or the position manager's own return values. The deposit does not complete unless the tick bounds fall within the configured bounds for the pool. Before depositing, the Uniswap v3 Facet checks the specified minimums against expected amounts derived from the pool's time-weighted average price, not its current spot price. Those minimums must in turn satisfy the configured maximum slippage for the pool, and the deposit does not complete unless this check passes.
 
-###### A.2.2.10.1.1.1.5.2.5.2 - Remove Liquidity From Uniswap v3 [Core]  <!-- UUID: e37d1163-b801-4cba-ab3a-2440a1f36ae6 -->
+###### A.2.2.10.1.1.1.2.5.2.5.2 - Remove Liquidity From Uniswap v3 [Core]  <!-- UUID: e37d1163-b801-4cba-ab3a-2440a1f36ae6 -->
 
 The documents herein define the steps to remove liquidity from a Uniswap v3 position held by the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.5.2.1 - Allocator Role [Core]  <!-- UUID: 6cfcbc24-2d8d-40fe-bc90-ec679c084ef0 -->
+###### A.2.2.10.1.1.1.2.5.2.5.2.1 - Allocator Role [Core]  <!-- UUID: 6cfcbc24-2d8d-40fe-bc90-ec679c084ef0 -->
 
-Only an address holding the [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may remove liquidity by calling the `uniswapV3_removeLiquidity` function on the Diamond PAU Controller. The call passes the address of the pool, the identifier of the position, the amount of liquidity to remove, the minimum amounts of each pool token to accept, and a deadline. The Controller dispatches the call to the Uniswap v3 Facet, which performs the withdrawal on behalf of the ALM Proxy.
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may remove liquidity by calling the `uniswapV3_removeLiquidity` function on the Diamond PAU Controller. The call passes the address of the pool, the identifier of the position, the amount of liquidity to remove, the minimum amounts of each pool token to accept, and a deadline. The Controller dispatches the call to the Uniswap v3 Facet, which performs the withdrawal on behalf of the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.5.2.2 - Rate Limit [Core]  <!-- UUID: a60193f3-3af2-4a50-a42d-4b2dad8adc6a -->
+###### A.2.2.10.1.1.1.2.5.2.5.2.2 - Rate Limit [Core]  <!-- UUID: a60193f3-3af2-4a50-a42d-4b2dad8adc6a -->
 
 The aggregate withdrawal limit sums one unit of either pool token as equivalent, so it is only meant to work with a stable-stable pool. Using it on a pool with two tokens of different value would produce a cap unrelated to actual exposure.
 
@@ -3592,31 +3612,31 @@ Removing liquidity is subject to three (3) on-chain withdrawal rate limits, each
 
 These limits meter only the amount returned by decreasing liquidity. Fees already accrued on the position are collected in the same call but are not counted against them.
 
-###### A.2.2.10.1.1.1.5.2.5.2.3 - Remove Liquidity From Uniswap v3 Position [Core]  <!-- UUID: 315b3614-18bb-4ca0-b1c7-3459fd449ad8 -->
+###### A.2.2.10.1.1.1.2.5.2.5.2.3 - Remove Liquidity From Uniswap v3 Position [Core]  <!-- UUID: 315b3614-18bb-4ca0-b1c7-3459fd449ad8 -->
 
 The Uniswap v3 Facet's `removeLiquidity` function first confirms the ALM Proxy is the current owner of the position, then decreases the specified amount of liquidity from it. It does this by calling the Uniswap v3 position manager's `decreaseLiquidity` function. Before the decrease, the facet collects any fees the position has already accrued. The `decreaseLiquidity` call itself does not transfer any tokens to the ALM Proxy; it only credits the withdrawn amounts to the position as tokens owed. After the decrease, the facet collects again, and this second collection is what delivers the withdrawn principal to the ALM Proxy. The withdrawal does not complete unless the resulting amounts satisfy the specified minimums, and those minimums must in turn satisfy the configured maximum slippage for the pool. Unlike the deposit-side check on adding liquidity, this check is against the amounts actually withdrawn, measured after the decrease and both collections have already executed; it is not checked against an independent price reference computed before execution.
 
-###### A.2.2.10.1.1.1.5.2.5.3 - Swap On Uniswap v3 [Core]  <!-- UUID: 137e7a7b-9488-409c-85ed-f91d31303f7b -->
+###### A.2.2.10.1.1.1.2.5.2.5.3 - Swap On Uniswap v3 [Core]  <!-- UUID: 137e7a7b-9488-409c-85ed-f91d31303f7b -->
 
 The documents herein define the steps to swap one pool token for the other through a Uniswap v3 pool on behalf of the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.5.3.1 - Allocator Role [Core]  <!-- UUID: 9b0217c7-8617-42c3-9e2e-b0b377607f50 -->
+###### A.2.2.10.1.1.1.2.5.2.5.3.1 - Allocator Role [Core]  <!-- UUID: 9b0217c7-8617-42c3-9e2e-b0b377607f50 -->
 
-Only an address holding the [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a swap by calling the `uniswapV3_swap` function on the Diamond PAU Controller. The call passes the address of the pool, the address of the token to sell, the amount to sell, the minimum amount to receive, and the maximum allowed tick deviation from the pool's time-weighted average price. The Controller dispatches the call to the Uniswap v3 Facet, which performs the swap on behalf of the ALM Proxy.
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a swap by calling the `uniswapV3_swap` function on the Diamond PAU Controller. The call passes the address of the pool, the address of the token to sell, the amount to sell, the minimum amount to receive, and the maximum allowed tick deviation from the pool's time-weighted average price. The Controller dispatches the call to the Uniswap v3 Facet, which performs the swap on behalf of the ALM Proxy.
 
-###### A.2.2.10.1.1.1.5.2.5.3.2 - Rate Limit [Core]  <!-- UUID: d2bd2910-494c-4a4e-b276-8f325c69e36b -->
+###### A.2.2.10.1.1.1.2.5.2.5.3.2 - Rate Limit [Core]  <!-- UUID: d2bd2910-494c-4a4e-b276-8f325c69e36b -->
 
 The swap is subject to the on-chain rate limit identified by `LIMIT_UNISWAP_V3_SWAP` for the address of the token being sold and the address of the pool. This limit is enforced automatically within the call; the transaction reverts if the amount sold exceeds the current rate limit.
 
-###### A.2.2.10.1.1.1.5.2.5.3.3 - Swap Tokens Through Uniswap v3 Pool [Core]  <!-- UUID: 3986fe17-e84d-407a-9192-61e6b842426a -->
+###### A.2.2.10.1.1.1.2.5.2.5.3.3 - Swap Tokens Through Uniswap v3 Pool [Core]  <!-- UUID: 3986fe17-e84d-407a-9192-61e6b842426a -->
 
 The Uniswap v3 Facet's `swap` function attempts to sell the specified amount of the given token through the Uniswap v3 router for the pool's other token. The execution price is bounded against the pool's time-weighted average price by the specified maximum tick deviation. If the swap reaches this price limit before selling the full specified amount, execution stops without reverting, and part of the specified amount goes unsold. The Uniswap v3 Facet measures the amount actually sold by comparing the ALM Proxy's balance of the given token before and after the swap, and applies the Rate Limit against that measured amount rather than the specified amount. The swap does not complete unless the specified tick deviation falls within the configured maximum for the pool and the amount received is at least the specified minimum, which must be a non-zero value. The maximum tick deviation is the only governance-configured control on the swap's execution quality; the minimum amount received has no equivalent governance floor beyond being non-zero.
 
-###### A.2.2.10.1.1.1.5.3 - Rate Limit Management [Core]  <!-- UUID: 6f5bc654-a053-4b1f-9ada-6aa13d0a2109 -->
+###### A.2.2.10.1.1.1.2.5.3 - Rate Limit Management [Core]  <!-- UUID: 6f5bc654-a053-4b1f-9ada-6aa13d0a2109 -->
 
 The documents herein define the protocol for querying, setting, and adjusting `RateLimits` for Diamond PAU Instances using their `RateLimitID`s. Rate limits are maintained in line with the operating Prime Agent's strategy, market conditions, and security considerations.
 
-###### A.2.2.10.1.1.1.5.3.1 - RateLimits Query [Core]  <!-- UUID: 1cb17b82-a294-4942-8183-4d90b224a79d -->
+###### A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query [Core]  <!-- UUID: 1cb17b82-a294-4942-8183-4d90b224a79d -->
 
 The following code implements the public view functions that query the current `RateLimits` for a specific key:
 
@@ -3638,7 +3658,7 @@ The following code implements the public view functions that query the current `
         );
     }`
 
-###### A.2.2.10.1.1.1.5.3.2 - Set RateLimit [Core]  <!-- UUID: f671061e-11a0-4d3b-bb6e-9f4ee9a012a9 -->
+###### A.2.2.10.1.1.1.2.5.3.2 - Set RateLimit [Core]  <!-- UUID: f671061e-11a0-4d3b-bb6e-9f4ee9a012a9 -->
 
 The following code sets the `RateLimit` for a specific key, restricted to the `DEFAULT_ADMIN_ROLE` holder (Sky Governance acting through the Prime Agent's SubProxy):
 
@@ -3668,7 +3688,7 @@ The following code sets the `RateLimit` for a specific key, restricted to the `D
         setRateLimitData(key, maxAmount, slope, maxAmount, block.timestamp);
     }`
 
-###### A.2.2.10.1.1.1.5.3.3 - Set Unlimited RateLimit [Core]  <!-- UUID: a85b7e8b-c4e9-44de-b717-efa4c8268d3b -->
+###### A.2.2.10.1.1.1.2.5.3.3 - Set Unlimited RateLimit [Core]  <!-- UUID: a85b7e8b-c4e9-44de-b717-efa4c8268d3b -->
 
 The following code sets an unlimited `RateLimit` for a specific key, restricted to the `DEFAULT_ADMIN_ROLE` holder (Sky Governance acting through the Prime Agent's SubProxy):
 
@@ -3676,7 +3696,7 @@ The following code sets an unlimited `RateLimit` for a specific key, restricted 
         setRateLimitData(key, type(uint256).max, 0, type(uint256).max, block.timestamp);
     }`
 
-###### A.2.2.10.1.1.1.5.3.4 - Set Trigger For RateLimit Decrease [Core]  <!-- UUID: 39217368-efa1-4168-a231-b010d6e23dfa -->
+###### A.2.2.10.1.1.1.2.5.3.4 - Set Trigger For RateLimit Decrease [Core]  <!-- UUID: 39217368-efa1-4168-a231-b010d6e23dfa -->
 
 The following code decreases the `RateLimit` for a specific key, restricted to the `CONTROLLER` role (the Controller contract), called as allocations consume the limit:
 
@@ -3699,7 +3719,7 @@ The following code decreases the `RateLimit` for a specific key, restricted to t
         emit RateLimitDecreaseTriggered(key, amountToDecrease, currentRateLimit, newLimit);
     }`
 
-###### A.2.2.10.1.1.1.5.3.5 - Set Trigger For RateLimit Increase [Core]  <!-- UUID: ee55aa72-1405-49cb-a7fe-3e8adc9ee64c -->
+###### A.2.2.10.1.1.1.2.5.3.5 - Set Trigger For RateLimit Increase [Core]  <!-- UUID: ee55aa72-1405-49cb-a7fe-3e8adc9ee64c -->
 
 The following code increases the `RateLimit` for a specific key, restricted to the `CONTROLLER` role (the Controller contract), called as allocations return the limit:
 
@@ -4797,7 +4817,7 @@ Responsible moderators may use automated tools, including AI and bots, to help f
 
 ###### A.2.7.1.2.1.1.3 - Unbanning [Core]  <!-- UUID: 4d4a1d9a-c8c7-4c2b-aaec-33e382790d52 -->
 
-Bannings are by default permanent. However, Ranked Delegates can propose the unbanning of users by publishing a forum post that states the handle(s) of the user(s) whose unbanning they request and the rationale for their unbanning. The forum post must tag the Core Facilitator, who will in turn prepare a binary Weekly Cycle Governance Poll to be published on the Voting Portal as soon as reasonably possible. The outcome of the Governance Poll is binding.
+Bannings are by default permanent. However, Ranked Delegates can propose the unbanning of users by publishing a forum post that states the handle(s) of the user(s) whose unbanning they request and the rationale for their unbanning. The forum post must tag the Core Facilitator, who will in turn prepare a binary Governance Poll through the Operational Weekly Cycle to be published on the Voting Portal as soon as reasonably possible. The outcome of the Governance Poll is binding.
 
 Where identity can be proven, the ban on unbanned users will be lifted across all communication channels.
 
@@ -5980,7 +6000,7 @@ The Resilience Fund (RF) is a self-insurance instrument fully controlled by Sky 
 
 ###### A.2.9.1.1.1.1 - Resilience Fund Budget [Core]  <!-- UUID: 43c65f87-9de3-42ce-ab1c-e9bf420b6920 -->
 
-The budget of the Resilience Fund is defined in [A.2.9.1.1.1.1.1 - Resilience Fund Current Budget](aa1e93e5-8fc0-4e12-ad9d-8bb9f6cd8956). The Core Facilitator can propose to pay out the budget manually through a Weekly Governance Cycle, according to the rules related to claims described in this Section. The Core Facilitator can propose modifications to the document cited above through the Weekly Governance Cycle.
+The budget of the Resilience Fund is defined in [A.2.9.1.1.1.1.1 - Resilience Fund Current Budget](aa1e93e5-8fc0-4e12-ad9d-8bb9f6cd8956). The Core Facilitator can propose to pay out the budget manually through an Operational Weekly Cycle, according to the rules related to claims described in this Section. The Core Facilitator can propose modifications to the document cited above through the Operational Weekly Cycle.
 
 ###### A.2.9.1.1.1.1.1 - Resilience Fund Current Budget [Core]  <!-- UUID: aa1e93e5-8fc0-4e12-ad9d-8bb9f6cd8956 -->
 
@@ -6265,7 +6285,7 @@ The recommendations of the Resilience Technical Committee are non-binding and wi
 
 ###### A.2.9.1.1.1.4.2.2.8 - Resilience Fund Claim Approval Core Facilitator Decision [Core]  <!-- UUID: bf63fc62-3555-4b9b-a561-053fb35721b5 -->
 
-Based on the recommendation of the Resilience Technical Committee, the Core Facilitator will decide whether to trigger a Governance Poll through the Weekly Governance Cycle to perform a claim payout.
+Based on the recommendation of the Resilience Technical Committee, the Core Facilitator will decide whether to trigger a Governance Poll through the Operational Weekly Cycle to perform a claim payout.
 
 ###### A.2.9.1.1.1.4.2.3 - Resilience Fund Payout / Reimbursement [Core]  <!-- UUID: 9edd8feb-790b-42de-bf42-ba5d6550df1c -->
 

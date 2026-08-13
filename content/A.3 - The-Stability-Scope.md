@@ -2758,7 +2758,7 @@ The current values of the Lite Peg Stability Module parameters are:
 
 ###### A.3.3.2.7.1.1.3 - Lite Peg Stability Module Parameter Modification [Core]  <!-- UUID: bf561ea8-ab09-4ff5-a84d-2e92bcff997b -->
 
-The Core Facilitator, in consultation with the Core Council Risk Advisor, may recommend changes to any of the parameters specified in the subdocuments of [A.3.3.2.7.1.1.1 - Lite Peg Stability Module Parameter Definitions](9196786a-18b6-4dea-b4e2-852090371dd7). These changes will be subject to an Executive Vote through the Operational Weekly Governance Cycle.
+The Core Facilitator, in consultation with the Core Council Risk Advisor, may recommend changes to any of the parameters specified in the subdocuments of [A.3.3.2.7.1.1.1 - Lite Peg Stability Module Parameter Definitions](9196786a-18b6-4dea-b4e2-852090371dd7). These changes will be subject to an Executive Vote through the Operational Weekly Cycle.
 
 ##### A.3.3.2.7.2 - Real World Assets [Core]  <!-- UUID: bea66a32-4cf2-4de9-9a7e-3c94c293fc3c -->
 
@@ -2958,15 +2958,17 @@ The activation of the Kicker Module will be executed in the October 30, 2025 Exe
 
 #### A.3.5.2.3 - Modification [Core]  <!-- UUID: 499570de-9fae-4009-be34-c3330266030a -->
 
-The Core Facilitator, in consultation with the Core Council Risk Advisor, can modify the `kbump` and `hop` parameters of the Smart Burn Engine. Such a modification can be enacted either by proposing it for inclusion in an Executive Vote pursuant to the Operational Weekly Cycle, without requiring a prior Governance Poll, or by executing it directly through the SBE-BEAM within its bounds, as specified in [A.3.5.2.4 - Smart Burn Engine Bounded External Access Module](b57ac61b-f6b1-4025-bd44-569d0f2afe2f). LSEV2-SKY-A-USDS rewardsDuration should always match the value of the `hop` parameter without requiring prior governance authorization. Changes to other parameters require a Governance Poll followed by an Executive Vote.
+The Core Facilitator, in consultation with the Core Council Risk Advisor, can modify the `kbump` and `hop` parameters of the Smart Burn Engine. Such a modification can be enacted either by proposing it for inclusion in an Executive Vote pursuant to the Operational Weekly Cycle, without requiring a prior Governance Poll, or by executing it directly through the SBE-BEAM within its bounds, as specified in [A.3.5.2.4 - Smart Burn Engine Bounded External Access Module](b57ac61b-f6b1-4025-bd44-569d0f2afe2f). LSEV2-SKY-A-USDS rewardsDuration should always match the value of the `hop` parameter without requiring prior governance authorization.
 
-The Smart Burn Engine parameters must be updated as necessary to implement the allocation specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121). Such updates can be executed either through an Executive Vote, without requiring a prior Governance Poll, or through the SBE-BEAM within its bounds.
+The Core Facilitator must modify all parameters of the Smart Burn Engine as necessary to implement the allocation specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121). Such a modification can be enacted either by proposing it for inclusion in an Executive Vote pursuant to the Operational Weekly Cycle, without requiring a prior Governance Poll, or by executing it directly through the SBE-BEAM within its bounds.
+
+Except as provided in the preceding paragraphs, modifications to the parameters of the Smart Burn Engine require a Governance Poll followed by an Executive Vote.
 
 #### A.3.5.2.4 - Smart Burn Engine Bounded External Access Module [Core]  <!-- UUID: b57ac61b-f6b1-4025-bd44-569d0f2afe2f -->
 
 The Smart Burn Engine Bounded External Access Module (SBE-BEAM) enables a designated, Governance-whitelisted Operator to adjust the Kicker Lot Size (`kbump`), the SKY Accumulation Percentage (`burn`), and the Splitter Interval (`hop`) parameters of the Smart Burn Engine, as specified in [A.3.5.2.2.1.2 - Kicker Lot Size Parameter](fc9cece1-84bf-4133-a2ef-ef2182a23a35), [A.3.5.2.1.1.2 - SKY Accumulation Percentage Parameter](e16d6215-c2f1-4140-affd-30e52a17fd43), and [A.3.5.2.1.1.1 - Splitter Interval Parameter](39a67e65-33f0-4f2c-917d-efff544cf5ab). Adjustments are governed by the SBE-BEAM smart contract logic and specific parameters set by Sky Governance.
 
-The SBE-BEAM Operator can raise or lower these parameters freely within the bounds set by Sky Governance. Those bounds are one-sided guardrails on the rate of accumulation: the Kicker Lot Size cannot be set above `maxKbump`, the Splitter Interval cannot be set below `minHop`, and the combined throughput, expressed as the Kicker Lot Size divided by the Splitter Interval, cannot exceed `maxRate`. The rate of accumulation therefore cannot be raised beyond the maximum that Sky Governance has sanctioned, while no corresponding bound limits reductions to it. The SKY Accumulation Percentage (`burn`) can be set to any value between 0% and 100%. The `tau` parameter separately requires a minimum interval between operations, applying to any operation regardless of whether it raises or lowers the parameters. The SBE-BEAM holds the following bounding parameters: (i) `maxKbump`, (ii) `minHop`, (iii) `maxRate`, and (iv) `tau`.
+The SBE-BEAM Operator can raise or lower these parameters within the bounds set by Sky Governance. Those bounds are one-sided guardrails on the rate of accumulation: the Kicker Lot Size cannot be set above `maxKbump`, the Splitter Interval cannot be set below `minHop`, and the combined throughput, expressed as the Kicker Lot Size divided by the Splitter Interval, cannot exceed `maxRate`. The rate of accumulation therefore cannot be raised beyond the maximum that Sky Governance has sanctioned, while no corresponding bound limits reductions to it. The SKY Accumulation Percentage (`burn`) is not subject to these bounds, which limit only the rate of accumulation, and the only technical constraint on it is the maximum specified in [A.3.5.2.4.4 - Technical Limitations](42ea8a7b-fb28-455e-8038-5fcf25250f17). The `tau` parameter separately requires a minimum interval between operations, applying to any operation regardless of whether it raises or lowers the parameters. The SBE-BEAM holds the following bounding parameters: (i) `maxKbump`, (ii) `minHop`, (iii) `maxRate`, and (iv) `tau`. The bases on which these parameters may be modified are specified in [A.3.5.2.3 - Modification](499570de-9fae-4009-be34-c3330266030a).
 
 ##### A.3.5.2.4.1 - Definitions [Core]  <!-- UUID: 3c9cac20-2f48-4bcb-a05b-05a192a54651 -->
 
@@ -3015,7 +3017,7 @@ The `kbump` parameter must be set to a whole multiple of `RAY` (10²⁷). A valu
 
 ##### A.3.5.2.4.5 - Operators [Core]  <!-- UUID: 2674da52-7a73-447f-811e-7dd40d23559f -->
 
-The SBE-BEAM Operator is a Governance-whitelisted entity that can use the SBE-BEAM to alter the three Smart Burn Engine parameters within its control — the Kicker Lot Size (`kbump`), the SKY Accumulation Percentage (`burn`), and the Splitter Interval (`hop`). Changes to the `kbump` and `hop` parameters, and to their combined throughput, are limited by the `maxKbump`, `minHop`, and `maxRate` parameters, and every change is subject to the `tau` cadence. The `burn` parameter is not subject to the `maxKbump`, `minHop`, or `maxRate` bounds, which limit only the rate of accumulation, and is constrained only by the technical maximum specified in [A.3.5.2.4.4 - Technical Limitations](42ea8a7b-fb28-455e-8038-5fcf25250f17). The Operator can be changed by an Executive Vote.
+The SBE-BEAM Operator is a Governance-whitelisted entity that can use the SBE-BEAM to alter the three Smart Burn Engine parameters within its control — the Kicker Lot Size (`kbump`), the SKY Accumulation Percentage (`burn`), and the Splitter Interval (`hop`). Changes to the `kbump` and `hop` parameters, and to their combined throughput, are limited by the `maxKbump`, `minHop`, and `maxRate` parameters, and every change is subject to the `tau` cadence. The `burn` parameter is not subject to the `maxKbump`, `minHop`, or `maxRate` bounds, which limit only the rate of accumulation, and the only technical constraint on it is the maximum specified in [A.3.5.2.4.4 - Technical Limitations](42ea8a7b-fb28-455e-8038-5fcf25250f17). The Operator can be changed by an Executive Vote.
 
 ###### A.3.5.2.4.5.1 - Operator Multisig [Core]  <!-- UUID: adf22311-1610-4da8-881e-29e00c590497 -->
 
@@ -3721,7 +3723,7 @@ The Stability Parameter Bounded External Access Module parameters for the ALLOCA
 
 ##### A.3.7.1.3.4 - Parameter Adjustments [Core]  <!-- UUID: 2d4aa875-b7ea-49c3-9506-479f0b5d157c -->
 
-All Stability Parameter Bounded External Access Module parameters can be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
+All Stability Parameter Bounded External Access Module parameters can be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Cycle or, if necessary, through out-of-schedule Executive Votes.
 
 ##### A.3.7.1.3.5 - Operators [Core]  <!-- UUID: 91f8b696-2c6b-4234-9126-2576a385882d -->
 
@@ -3753,7 +3755,7 @@ Core GovOps can change the signers of the Operator Multisig at any time, so long
 
 ###### A.3.7.1.3.5.2 - Operator Update Process [Core]  <!-- UUID: ae2b5d27-b666-4796-8791-b59d151daf41 -->
 
-Stability Parameter Bounded External Access Module Operators can be modified by the Core Facilitator, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
+Stability Parameter Bounded External Access Module Operators can be modified by the Core Facilitator, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Cycle or, if necessary, through out-of-schedule Executive Votes.
 
 ##### A.3.7.1.3.6 - Update Process [Core]  <!-- UUID: 823aa477-5400-40e5-881f-acb9cf724c21 -->
 

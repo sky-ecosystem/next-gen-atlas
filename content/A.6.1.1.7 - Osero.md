@@ -1246,7 +1246,7 @@ The address of the ALLOCATOR_ROLES contract is: `0x9A865A710399cea85dbD9144b7a09
 
 ###### A.6.1.1.7.2.6.1.2.1.1.1.2 - Diamond PAU Contracts [Core]  <!-- UUID: 00360509-2608-4e2b-9551-769df2931173 -->
 
-The documents herein define the addresses of the Diamond Parallelized Allocation Unit (Diamond PAU) contracts deployed for the Osero Liquidity Layer. The Diamond PAU is a modular implementation of the Allocation System in which the Controller dispatches operations to shared Facet contracts, with integration configurations held in a shared Beacon contract. The Beacon and the Facet contracts are shared across Diamond PAU implementations and are specified in [A.2.2.10.1.1.1.4 - Liquidity Layer Shared Contracts](a2677d19-1f2c-4361-bedc-34cb2e7eaab5).
+The documents herein define the addresses of the Diamond Parallelized Allocation Unit (Diamond PAU) contracts deployed for the Osero Liquidity Layer. The Diamond PAU is a modular implementation of the Allocation System in which the Controller dispatches operations to shared Facet contracts, with integration configurations held in a shared Beacon contract. The Beacon and the Facet contracts are shared across Diamond PAU implementations and are specified in [A.2.2.10.1.1.1.2.3 - Liquidity Layer Shared Contracts](a2677d19-1f2c-4361-bedc-34cb2e7eaab5).
 
 ###### A.6.1.1.7.2.6.1.2.1.1.1.2.1 - Ethereum Mainnet [Core]  <!-- UUID: f7cfed3f-e724-4aa8-b5e1-3900c84293c7 -->
 
@@ -1258,11 +1258,11 @@ The address of the ALM Proxy contract is: `0x6d370e359e9cbd0Fd35Bb38fAF705D84238
 
 ###### A.6.1.1.7.2.6.1.2.1.1.1.2.1.2 - Controller Contract [Core]  <!-- UUID: 8e1d584f-6368-493d-a6c5-c5068250b63a -->
 
-The address of the Controller contract is: `0x24169Afb34fAe4D4356BC54Bd80319131e35ca38`. The Controller is the entry point for all allocator operations; it synchronizes integration configurations from the shared Beacon contract specified in [A.2.2.10.1.1.1.4.1 - Beacon](5b0627e8-102b-42ea-8d9b-38463591faf9) and dispatches calls to the appropriate Facet contract specified in [A.2.2.10.1.1.1.4.2 - Facets](b7c73a0c-456d-4e75-93ac-8eec185ece31).
+The address of the Controller contract is: `0x24169Afb34fAe4D4356BC54Bd80319131e35ca38`. The Controller is the entry point for all allocator operations; it synchronizes integration configurations from the shared Beacon contract specified in [A.2.2.10.1.1.1.2.3.1 - Beacon](5b0627e8-102b-42ea-8d9b-38463591faf9) and dispatches calls to the appropriate Facet contract specified in [A.2.2.10.1.1.1.2.3.2 - Facets](b7c73a0c-456d-4e75-93ac-8eec185ece31).
 
 ###### A.6.1.1.7.2.6.1.2.1.1.1.2.1.3 - AccessControls Contract [Core]  <!-- UUID: 6694670e-d13c-4466-afde-2830820ac000 -->
 
-The address of the AccessControls contract is: `0x791D2a017532CfAD881c446e6bF93BbC3c0778b2`. The AccessControls contract manages the roles and permissions of the Diamond PAU, as specified in [A.2.2.10.1.1.1.3 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550).
+The address of the AccessControls contract is: `0x791D2a017532CfAD881c446e6bF93BbC3c0778b2`. The AccessControls contract manages the roles and permissions of the Diamond PAU, as specified in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550).
 
 ###### A.6.1.1.7.2.6.1.2.1.1.1.2.1.4 - ALM Rate Limits Contract [Core]  <!-- UUID: a6111874-7c68-4476-b282-20631378174a -->
 
@@ -1270,7 +1270,7 @@ The address of the ALM Rate Limits contract is: `0xE9a78f34fe497e2186f81B8c014cd
 
 ###### A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract [Core]  <!-- UUID: 0eed3609-62a2-4c5b-ae5b-4f78212252ee -->
 
-The address of the AdministeredAgent contract is: `0x1837505D104F7a6D8b7e19452610B0A3D652EF12`. The AdministeredAgent holds the Allocator Role as specified in [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) and mediates relayer access to the Controller: the Relayer Multisigs are registered as its Actors, as specified in [A.2.2.10.1.1.1.3.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55), and submit operations through it, while the Freezer Multisig is registered as a Revoker, as specified in [A.2.2.10.1.1.1.3.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e), authorized to remove a compromised Actor.
+The address of the AdministeredAgent contract is: `0x1837505D104F7a6D8b7e19452610B0A3D652EF12`. The AdministeredAgent holds the Allocator Role as specified in [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) and mediates relayer access to the Controller: the Relayer Multisigs are registered as its Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55), and submit operations through it, while the Freezer Multisig is registered as a Revoker, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e), authorized to remove a compromised Actor.
 
 ###### A.6.1.1.7.2.6.1.2.1.1.2 - RateLimits [Core]  <!-- UUID: cec50748-c32f-4496-8e8d-d4a38dbb0e63 -->
 
@@ -1313,7 +1313,7 @@ The documents herein define the multisigs that hold privileged access in the Ose
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig [Core]  <!-- UUID: 1830fb80-a44b-4aaf-b72c-7c4997cb9486 -->
 
-The Osero Relayer Multisig is registered as an Actor on the AdministeredAgent, which holds the Allocator Role as specified in [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a), and is controlled by Osero.
+The Osero Relayer Multisig is registered as an Actor on the AdministeredAgent, which holds the Allocator Role as specified in [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a), and is controlled by Osero.
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.1.1 - Address [Core]  <!-- UUID: d39e8188-807c-4cf1-8952-e02e455e255b -->
 
@@ -1337,7 +1337,7 @@ Osero can change the signers of the Osero Relayer Multisig at any time, so long 
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig [Core]  <!-- UUID: f48b14c7-6dd1-4d10-b546-a604be45758c -->
 
-The Core Operator Relayer Multisig is registered as an Actor on the AdministeredAgent, which holds the Allocator Role as specified in [A.2.2.10.1.1.1.3.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a), and is controlled by Operational GovOps Soter Labs.
+The Core Operator Relayer Multisig is registered as an Actor on the AdministeredAgent, which holds the Allocator Role as specified in [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a), and is controlled by Operational GovOps Soter Labs.
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.2.1 - Address [Core]  <!-- UUID: 92ed192c-7019-4864-b06d-c56fec8d3414 -->
 
@@ -1361,7 +1361,7 @@ Soter Labs can change the signers of the Core Operator Relayer Multisig at any t
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig [Core]  <!-- UUID: 51460bc2-f5fb-4302-912a-ed3e6943aae0 -->
 
-The Freezer Multisig is registered as a Revoker on the AdministeredAgent, as specified in [A.2.2.10.1.1.1.3.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
+The Freezer Multisig is registered as a Revoker on the AdministeredAgent, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.3.1 - Address [Core]  <!-- UUID: 3b22b5f4-3cc4-4c47-9b84-a64fb4f3b159 -->
 
@@ -1409,23 +1409,23 @@ The documents herein define the protocol for routine ongoing management of the O
 
 ###### A.6.1.1.7.2.6.1.2.2.1.1 - Role Hierarchies And Permissions [Core]  <!-- UUID: aae0e1ba-4ed0-4484-9187-3e53f3695ae8 -->
 
-The roles and permissions of the Diamond PAU Instance are the Liquidity Layer roles defined in [A.2.2.10.1.1.1.3 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550), managed by the AccessControls contract. For the Osero Liquidity Layer, the `DEFAULT_ADMIN_ROLE` is held by the Osero SubProxy, and the `CONTROLLER` role by the Controller contract. The `ALLOCATOR_ROLE` is held by the AdministeredAgent contract, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract](0eed3609-62a2-4c5b-ae5b-4f78212252ee). The Osero Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig](1830fb80-a44b-4aaf-b72c-7c4997cb9486)) and the Core Operator Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig](f48b14c7-6dd1-4d10-b546-a604be45758c)) are registered as its Actors, as specified in [A.2.2.10.1.1.1.3.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55). The Freezer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig](51460bc2-f5fb-4302-912a-ed3e6943aae0)) is registered as a Revoker, as specified in [A.2.2.10.1.1.1.3.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
+The roles and permissions of the Diamond PAU Instance are the Liquidity Layer roles defined in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550), managed by the AccessControls contract. For the Osero Liquidity Layer, the `DEFAULT_ADMIN_ROLE` is held by the Osero SubProxy, and the `CONTROLLER` role by the Controller contract. The `ALLOCATOR_ROLE` is held by the AdministeredAgent contract, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract](0eed3609-62a2-4c5b-ae5b-4f78212252ee). The Osero Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig](1830fb80-a44b-4aaf-b72c-7c4997cb9486)) and the Core Operator Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig](f48b14c7-6dd1-4d10-b546-a604be45758c)) are registered as its Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55). The Freezer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig](51460bc2-f5fb-4302-912a-ed3e6943aae0)) is registered as a Revoker, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 14aa9d85-4878-49b9-9cd7-d6a014bdecea -->
 
-The Diamond PAU Controller functions for the Osero Liquidity Layer are the shared Diamond PAU Controller functions specified in [A.2.2.10.1.1.1.5.2 - Diamond PAU Controller Functions](5e941add-bf8d-4623-95a1-69795e7f7034). The Facets used by the Osero Liquidity Layer are specified in the documents herein.
+The Diamond PAU Controller functions for the Osero Liquidity Layer are the shared Diamond PAU Controller functions specified in [A.2.2.10.1.1.1.2.5.2 - Diamond PAU Controller Functions](5e941add-bf8d-4623-95a1-69795e7f7034). The Facets used by the Osero Liquidity Layer are specified in the documents herein.
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2.1 - USDS Facet [Core]  <!-- UUID: 9b35cae7-b629-4bf8-b2d1-472bedebae14 -->
 
-The Osero Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.4.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346)) to mint and burn USDS through the allocator vault.
+The Osero Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.2.3.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346)) to mint and burn USDS through the allocator vault.
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2.2 - Aave v3 Facet [Core]  <!-- UUID: f983e134-c97d-4e90-94d6-4cad14d0702f -->
 
-The Osero Liquidity Layer uses the Aave v3 Facet ([A.2.2.10.1.1.1.4.2.1 - Aave v3 Facet](c9ecd9c2-dd1b-426b-8e52-66a2b1892289)) to deposit into and withdraw from SparkLend USDS.
+The Osero Liquidity Layer uses the Aave v3 Facet ([A.2.2.10.1.1.1.2.3.2.1 - Aave v3 Facet](c9ecd9c2-dd1b-426b-8e52-66a2b1892289)) to deposit into and withdraw from SparkLend USDS.
 
 ###### A.6.1.1.7.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: a0fca594-a7b9-45fa-9be1-a209d5341029 -->
 
-The rate limits of the Osero Liquidity Layer are managed as specified in [A.2.2.10.1.1.1.5.3 - Rate Limit Management](6f5bc654-a053-4b1f-9ada-6aa13d0a2109). The Osero-specific rate limit values are specified under the [A.6.1.1.7.2.6.1.2.1.1 - Osero Liquidity Layer Architecture](e8f3afd5-d1a8-4379-826c-2c3bcc365947) and the [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39).
+The rate limits of the Osero Liquidity Layer are managed as specified in [A.2.2.10.1.1.1.2.5.3 - Rate Limit Management](6f5bc654-a053-4b1f-9ada-6aa13d0a2109). The Osero-specific rate limit values are specified under the [A.6.1.1.7.2.6.1.2.1.1 - Osero Liquidity Layer Architecture](e8f3afd5-d1a8-4379-826c-2c3bcc365947) and the [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39).
 
 ###### A.6.1.1.7.2.6.1.2.2.1.4 - Instance Lifecycle Management [Core]  <!-- UUID: bbbb38cb-5a0d-4f5f-9361-33ebb954e4ca -->
 
@@ -1441,15 +1441,15 @@ The documents herein define the actions that can be taken in the event of an eme
 
 ###### A.6.1.1.7.2.6.1.2.2.3.1 - Remove Compromised Actor As Freezer [Core]  <!-- UUID: 39b320a8-240c-487d-9c72-25b8a2457a4b -->
 
-In the event of a compromised or malicious Actor, the Freezer Multisig — registered as a Revoker on the AdministeredAgent, as specified in [A.2.2.10.1.1.1.3.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e) — removes that Actor by calling `removeActor` on the AdministeredAgent contract. Removing the Actor prevents it from submitting further operations, while the Allocator Role itself remains with the AdministeredAgent. This action should only be taken if a Relayer Multisig's keys have been leaked or compromised and the Actor is in the control of an external bad actor.
+In the event of a compromised or malicious Actor, the Freezer Multisig — registered as a Revoker on the AdministeredAgent, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e) — removes that Actor by calling `removeActor` on the AdministeredAgent contract. Removing the Actor prevents it from submitting further operations, while the Allocator Role itself remains with the AdministeredAgent. This action should only be taken if a Relayer Multisig's keys have been leaked or compromised and the Actor is in the control of an external bad actor.
 
 ###### A.6.1.1.7.2.6.1.2.2.3.2 - Withdraw All SparkLend Positions [Core]  <!-- UUID: 7ba1cc79-9a9f-460c-85b8-72181788397f -->
 
-In the event that liquidity must be recovered from SparkLend and centralized in the Osero ALM Proxy, a Relayer Multisig, acting as an Actor, withdraws the Osero Liquidity Layer's full SparkLend USDS position through the Aave v3 Facet, as specified in [A.2.2.10.1.1.1.5.2.2.2 - Withdraw From Aave v3 Market](038eaa5c-d4c0-4a56-8d30-bc3a04508f0e). SparkLend withdrawals are unlimited so that the full position can be unwound.
+In the event that liquidity must be recovered from SparkLend and centralized in the Osero ALM Proxy, a Relayer Multisig, acting as an Actor, withdraws the Osero Liquidity Layer's full SparkLend USDS position through the Aave v3 Facet, as specified in [A.2.2.10.1.1.1.2.5.2.2.2 - Withdraw From Aave v3 Market](038eaa5c-d4c0-4a56-8d30-bc3a04508f0e). SparkLend withdrawals are unlimited so that the full position can be unwound.
 
 ###### A.6.1.1.7.2.6.1.2.2.3.3 - Burn USDS [Core]  <!-- UUID: 3040614f-1100-45e5-a0dc-9ab22c383e9d -->
 
-Once liquidity has been recovered to the Osero ALM Proxy, the recovered USDS is repaid and burned through the USDS Facet, as specified in [A.2.2.10.1.1.1.5.2.1.2 - Burn USDS](f01e63b7-dde7-422a-89a1-6931839d49f5). USDS burning is unlimited so that the full outstanding amount can be burned.
+Once liquidity has been recovered to the Osero ALM Proxy, the recovered USDS is repaid and burned through the USDS Facet, as specified in [A.2.2.10.1.1.1.2.5.2.1.2 - Burn USDS](f01e63b7-dde7-422a-89a1-6931839d49f5). USDS burning is unlimited so that the full outstanding amount can be burned.
 
 ##### A.6.1.1.7.2.6.1.3 - Active Instances [Core]  <!-- UUID: 6f8a8e14-13be-4893-9bb1-17c88e984426 -->
 
@@ -1548,7 +1548,7 @@ The Maximum Exposure for this Instance is 5,000,000 USDS.
 
 ###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.3 - Capital Ratio Requirement [Core]  <!-- UUID: 771b1a44-5bb6-4c9b-92de-e45485c5a11f -->
 
-The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 100%.
+The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 25%.
 
 ###### A.6.1.1.7.2.6.1.3.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: ff10e260-7465-4dd0-a1c3-899a66f3bbcb -->
 

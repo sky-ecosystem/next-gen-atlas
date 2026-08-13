@@ -1925,7 +1925,7 @@ The address of the Sky USDS and USDC PSM Wrapper contract is: `0xA188EEC8F812632
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.4 - Diamond PAU Contracts [Core]  <!-- UUID: 887ff8b9-ccdb-49e2-a87a-ef92e38e1416 -->
 
-The documents herein define the addresses of the Diamond Parallelized Allocation Unit (Diamond PAU) contracts deployed for the Grove Liquidity Layer. The Diamond PAU is a modular implementation of the Allocation System in which the Controller dispatches operations to shared Facet contracts, with integration configurations held in a shared Beacon contract. The Beacon and the Facet contracts are shared across Diamond PAU implementations and are specified in [A.2.2.10.1.1.1.4 - Liquidity Layer Shared Contracts](a2677d19-1f2c-4361-bedc-34cb2e7eaab5).
+The documents herein define the addresses of the Diamond Parallelized Allocation Unit (Diamond PAU) contracts deployed for the Grove Liquidity Layer. The Diamond PAU is a modular implementation of the Allocation System in which the Controller dispatches operations to shared Facet contracts, with integration configurations held in a shared Beacon contract. The Beacon and the Facet contracts are shared across Diamond PAU implementations and are specified in [A.2.2.10.1.1.1.2.3 - Liquidity Layer Shared Contracts](a2677d19-1f2c-4361-bedc-34cb2e7eaab5).
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.4.1 - Ethereum Mainnet [Core]  <!-- UUID: d7a4d3e1-cfe9-4c6c-a902-0fe066edf7e4 -->
 
@@ -2134,7 +2134,7 @@ The Allocator Vault parameters for ALLOCATOR-BLOOM-A are defined in [A.3.7.1.2.1
 
 ###### A.6.1.1.2.2.6.1.2.1.1.4.2 - Whitelisting Of ALM Proxy [Core]  <!-- UUID: 6823cc5a-6667-4754-a030-9ac7126b006e -->
 
-The ALM Proxy for the Grove Diamond PAU has been whitelisted on the Lite PSM. This allows it to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract, enabling the PSM Facet swap operations, as specified in [A.2.2.10.1.1.1.5.2.4.1 - Swap USDS To USDC](bff6ae57-ce3e-4520-ad46-5fe87b721408) and [A.2.2.10.1.1.1.5.2.4.2 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959).
+The ALM Proxy for the Grove Diamond PAU has been whitelisted on the Lite PSM. This allows it to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract, enabling the PSM Facet swap operations, as specified in [A.2.2.10.1.1.1.2.5.2.4.1 - Swap USDS To USDC](bff6ae57-ce3e-4520-ad46-5fe87b721408) and [A.2.2.10.1.1.1.2.5.2.4.2 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959).
 
 ###### A.6.1.1.2.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 6859900b-3d53-4a5c-8a00-ddb1cf0c07a4 -->
 
@@ -4511,23 +4511,23 @@ The operator must emit the event to the blockchain logs.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.2 - Diamond PAU Controller Functions [Core]  <!-- UUID: 6c060c28-5619-48f4-8536-b74c153b1641 -->
 
-The Diamond PAU Controller functions for the Grove Liquidity Layer are the shared Diamond PAU Controller functions specified in [A.2.2.10.1.1.1.5.2 - Diamond PAU Controller Functions](5e941add-bf8d-4623-95a1-69795e7f7034). The Facets used by the Grove Liquidity Layer are specified in the documents herein.
+The Diamond PAU Controller functions for the Grove Liquidity Layer are the shared Diamond PAU Controller functions specified in [A.2.2.10.1.1.1.2.5.2 - Diamond PAU Controller Functions](5e941add-bf8d-4623-95a1-69795e7f7034). The Facets used by the Grove Liquidity Layer are specified in the documents herein.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.2.1 - Basin Facet [Core]  <!-- UUID: 3e54ecce-73fc-4f85-be3c-0c89d3d005d2 -->
 
-The Grove Liquidity Layer uses the Basin Facet ([A.2.2.10.1.1.1.4.2.2 - Basin Facet](d9cbf883-119e-403d-8efa-125997cd8897)) to deposit assets into and withdraw them from Basins.
+The Grove Liquidity Layer uses the Basin Facet ([A.2.2.10.1.1.1.2.3.2.2 - Basin Facet](d9cbf883-119e-403d-8efa-125997cd8897)) to deposit assets into and withdraw them from Basins.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.2.2 - USDS Facet [Core]  <!-- UUID: bdf5ef63-d436-4ffb-bf37-2c1790d1a68d -->
 
-The Grove Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.4.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346)) to mint and burn USDS through the allocator vault.
+The Grove Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.2.3.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346)) to mint and burn USDS through the allocator vault.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.2.3 - PSM Facet [Core]  <!-- UUID: 0cf2ffe0-cb0b-4c3c-bd11-349cad3d4c98 -->
 
-The Grove Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.4.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842)) to swap between USDS and USDC via DAI, through the DAI-USDS migrator and the PSM. These swaps require the ALM Proxy to be whitelisted on the Lite PSM, as specified in [A.6.1.1.2.2.6.1.2.1.1.4.2 - Whitelisting Of ALM Proxy](6823cc5a-6667-4754-a030-9ac7126b006e).
+The Grove Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.2.3.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842)) to swap between USDS and USDC via DAI, through the DAI-USDS migrator and the PSM. These swaps require the ALM Proxy to be whitelisted on the Lite PSM, as specified in [A.6.1.1.2.2.6.1.2.1.1.4.2 - Whitelisting Of ALM Proxy](6823cc5a-6667-4754-a030-9ac7126b006e).
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.2.4 - Uniswap v3 Facet [Core]  <!-- UUID: 5b6d7110-3662-4ee5-a339-43e6bb8e4517 -->
 
-The Grove Liquidity Layer uses the Uniswap v3 Facet ([A.2.2.10.1.1.1.4.2.20 - Uniswap v3 Facet](b808a829-2f31-42f1-ac9f-6801d3eb8437)) to add liquidity to, remove liquidity from, and swap through a Uniswap v3 pool.
+The Grove Liquidity Layer uses the Uniswap v3 Facet ([A.2.2.10.1.1.1.2.3.2.20 - Uniswap v3 Facet](b808a829-2f31-42f1-ac9f-6801d3eb8437)) to add liquidity to, remove liquidity from, and swap through a Uniswap v3 pool.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.3 - Monolithic Foreign Controller Contract Functions [Core]  <!-- UUID: a3d8a2af-90e1-40a8-8573-48a84954ea54 -->
 

@@ -2270,7 +2270,7 @@ The currently approved emergency contact mechanism is PagerDuty.
 
 ###### A.1.9.1.3.2.3 - Changes To Approved Emergency Contact Mechanisms [Core]  <!-- UUID: 0b6f25c1-fc39-44dc-bd6a-fc612cdb826e -->
 
-The Core Facilitator may recommend changing the approved emergency contact mechanism specified in [A.1.9.1.3.2.2 - Approved Emergency Contact Mechanisms](57006d4e-cd91-4565-97b5-5fab73fa94d5), but they must do so in consultation with the Protocol Security Workstream Lead. The Core Facilitator’s recommendation is subject to a poll through the Operational Weekly Governance Cycle.
+The Core Facilitator may recommend changing the approved emergency contact mechanism specified in [A.1.9.1.3.2.2 - Approved Emergency Contact Mechanisms](57006d4e-cd91-4565-97b5-5fab73fa94d5), but they must do so in consultation with the Protocol Security Workstream Lead. The Core Facilitator’s recommendation is subject to a poll through the Operational Weekly Cycle.
 
 ###### A.1.9.1.3.2.4 - Emergency Contact Mechanism Fire Drills [Core]  <!-- UUID: 4627de70-9866-41b8-be8e-68e9ca809a45 -->
 
@@ -4624,7 +4624,7 @@ The LINE_MOM contract manages the breaker for the Debt Ceilings of a configurabl
 
 The Debt Ceiling Breaker affects both the Debt Ceiling and the Maximum Debt Ceiling of a given vault type when activated, disabling the Dynamic Debt Ceiling functionality for that vault type if enabled. To reverse the effect, parameters of affected vault types must be reconfigured with an Executive Vote which is subject to the GSM Pause Delay.
 
-The whitelist may be configured via a successful governance proposal, but must wait for the GSM Pause Delay before changes come into effect. The whitelist is defined in [A.1.10.3.2.3.1 - Debt Ceiling Breaker Exception Whitelist](4937205a-5be0-4def-9b7f-00f9f3bff421) and can be changed via the Weekly Governance Cycle.
+The whitelist may be configured via a successful governance proposal, but must wait for the GSM Pause Delay before changes come into effect. The whitelist is defined in [A.1.10.3.2.3.1 - Debt Ceiling Breaker Exception Whitelist](4937205a-5be0-4def-9b7f-00f9f3bff421) and can be changed via the Operational Weekly Cycle.
 
 ###### A.1.10.3.2.3.1 - Debt Ceiling Breaker Exception Whitelist [Core]  <!-- UUID: 4937205a-5be0-4def-9b7f-00f9f3bff421 -->
 
@@ -5323,7 +5323,7 @@ The element "Spell teams" indicates that the entire Spell roster can participate
 
 #### A.1.11.1.5 - Core Facilitator’s Authority To Create Proposals [Core]  <!-- UUID: 2ef63f36-5550-420a-96ee-a99c09451afb -->
 
-The Core Facilitator may create proposals using the Weekly Governance Cycle to enable them to fulfill their responsibilities.
+The Core Facilitator may create proposals using the Operational Weekly Cycle to enable them to fulfill their responsibilities.
 
 ##### A.1.11.1.5.1 - Core Facilitator's Role In Adding Housekeeping Items In Executive Votes [Core]  <!-- UUID: 0d0e2e1a-0502-4ee3-bc9d-8bd8ddde19ec -->
 
@@ -5658,7 +5658,7 @@ In order for a Ratification Poll to conclude successfully and the contained prop
 
 ##### A.1.12.2.6.1 - Revision of Minimum Positive Participation [Core]  <!-- UUID: 535570e7-8548-451f-87f0-edb699373978 -->
 
-The Minimum Positive Participation value defined in [A.1.12.2.6 - Ratification Poll Requirements](13e6da57-ee8e-4593-90f2-698642b1c82f) may be modified via a successful Governance Poll under the Operational Weekly Governance Cycle.
+The Minimum Positive Participation value defined in [A.1.12.2.6 - Ratification Poll Requirements](13e6da57-ee8e-4593-90f2-698642b1c82f) may be modified via a successful Governance Poll under the Operational Weekly Cycle.
 
 If such a vote is successful, the new Minimum Positive Participation value will come into effect in the _following_ Monthly Governance Cycle. The Minimum Positive Participation value may not be changed for Ratification Polls that are in progress under any circumstances.
 

@@ -682,7 +682,7 @@ The parameters of this formula are specified in the documents herein.
 
 ###### A.4.4.1.3.2.2 - Parameters Modification [Core]  <!-- UUID: a63c529d-890f-4955-89b3-e671e5eb5ff7 -->
 
-The parameters specified in [A.4.4.1.3.2.1 - Parameters Definition](b9a9d09d-57c5-42cd-994f-f5689996f635) that are set by governance may be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
+The parameters specified in [A.4.4.1.3.2.1 - Parameters Definition](b9a9d09d-57c5-42cd-994f-f5689996f635) that are set by governance may be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Cycle or, if necessary, through out-of-schedule Executive Votes.
 
 ##### A.4.4.1.3.3 - stUSDS Holders’ Risk Bearing [Core]  <!-- UUID: 60a37c03-9122-4ef6-9669-2466c335224c -->
 
@@ -728,7 +728,7 @@ The current value of the `Slope 1` parameter is 12.575%.
 
 ###### A.4.4.1.3.5.1.1.4.2 - Slope 1 Modification [Core]  <!-- UUID: 5ea82a74-73e3-4f35-83ef-02d7af0cf58b -->
 
-The `Slope 1` parameter may be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
+The `Slope 1` parameter may be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Cycle or, if necessary, through out-of-schedule Executive Votes.
 
 ###### A.4.4.1.3.5.1.1.5 - Slope 2 [Core]  <!-- UUID: fb127571-4e01-4deb-b4cf-8fad2f7c9b71 -->
 
@@ -740,7 +740,7 @@ The current value of the `Slope 2` parameter is 12.575%.
 
 ###### A.4.4.1.3.5.1.1.5.2 - Slope 2 Modification [Core]  <!-- UUID: 4446f92c-bb70-4f94-bcf7-d44749ed87b7 -->
 
-The `Slope 2` parameter may be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
+The `Slope 2` parameter may be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Cycle or, if necessary, through out-of-schedule Executive Votes.
 
 ###### A.4.4.1.3.5.1.1.5.3 - Slope 2 Methodology [Core]  <!-- UUID: dbc8ec1b-c9cb-40c1-8ccd-bd7478c42466 -->
 
@@ -888,7 +888,7 @@ The stUSDS BEAM parameters for the `duty` stUSDS parameter are as follows:
 
 ###### A.4.4.1.3.8.3 - Parameter Adjustments [Core]  <!-- UUID: 91152a4b-6f97-4b8a-831a-0f85c16a78ab -->
 
-All stUSDS BEAM parameters can be modified by Core GovOps, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
+All stUSDS BEAM parameters can be modified by Core GovOps, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Cycle or, if necessary, through out-of-schedule Executive Votes.
 
 ###### A.4.4.1.3.8.4 - Operators [Core]  <!-- UUID: 8fd15f15-c8cd-480d-86b7-cad524cfa9f1 -->
 
@@ -937,7 +937,7 @@ These changes are authorized to proceed directly to an Executive Vote without a 
 
 ###### A.4.4.1.3.8.4.3 - Operator Update Process [Core]  <!-- UUID: 64d7e377-9870-4563-a073-768bb7d259a4 -->
 
-stUSDS BEAM Operators can be modified by Core GovOps, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Governance Cycle or, if necessary, through out-of-schedule Executive Votes.
+stUSDS BEAM Operators can be modified by Core GovOps, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Cycle or, if necessary, through out-of-schedule Executive Votes.
 
 ###### A.4.4.1.3.8.5 - Update Process [Core]  <!-- UUID: 7e58f5eb-c339-4f04-aca8-681e9acd0752 -->
 
