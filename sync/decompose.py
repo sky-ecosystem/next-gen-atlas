@@ -381,12 +381,24 @@ def build_top_level_index(
 def plan_output(
     documents: list[Document],
     output_root: str,
+    write_indexes: bool = True,
 ) -> dict[str, str]:
     """Plan all files to write.
 
     Returns a dict of absolute file paths -> file content. Decompose emits
     one `document.md` per Atlas document, plus `_index.md` navigation files
     per folder (matches the structure in archon-research/next-gen-atlas).
+
+    `write_indexes=False` omits the 3,851 generated `_index.md` files. They make the
+    atomized tree navigable on GitHub; with the Atlas consolidated, the composed files
+    serve that purpose.
+
+    Omitting them also removes the drift between the committed tree and the tooling:
+    `decompose(compose(content))` differs from `content/` in 1,606 diff lines with indexes
+    and 13 without, and three of the five remaining differences are directories holding
+    nothing but an `_index.md`. Their child ordering is not asserted anywhere — the
+    validator does not check it and the compose round-trip is order-insensitive — so a
+    hand-resolved merge can reorder them undetected.
     """
     files: dict[str, str] = {}
 
@@ -395,6 +407,9 @@ def plan_output(
         folder = doc_folder_path(doc, output_root)
         filepath = os.path.join(folder, "document.md")
         files[filepath] = build_document_md(doc)
+
+    if not write_indexes:
+        return files
 
     # 2. Compute children for per-folder _index.md files
     children = compute_children(documents)
@@ -486,13 +501,15 @@ def print_summary(
 # Main
 # ---------------------------------------------------------------------------
 
-def decompose(input_path: str, output_path: str, dry_run: bool = False) -> dict[str, str]:
+def decompose(input_path: str, output_path: str, dry_run: bool = False,
+               write_indexes: bool = True) -> dict[str, str]:
     """Main decomposition function.
 
     Args:
         input_path: Path to the Sky Atlas markdown file.
         output_path: Output directory for the decomposed files.
         dry_run: If True, plan but don't write files.
+        write_indexes: If False, omit the generated `_index.md` navigation files.
 
     Returns:
         Dict of file paths to contents (the planned output).
@@ -509,7 +526,7 @@ def decompose(input_path: str, output_path: str, dry_run: bool = False) -> dict[
         return {}
 
     print(f"Planning output to: {output_path}")
-    files = plan_output(documents, output_path)
+    files = plan_output(documents, output_path, write_indexes=write_indexes)
 
     written = 0
     if not dry_run:
@@ -535,13 +552,19 @@ def main():
         help="Output directory (default: content/).",
     )
     parser.add_argument(
+        "--no-index",
+        action="store_true",
+        help="Omit generated _index.md navigation files (Option C target state).",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Report what would be done without writing files.",
     )
     args = parser.parse_args()
 
-    decompose(args.input, args.output, args.dry_run)
+    decompose(args.input, args.output, args.dry_run,
+              write_indexes=not args.no_index)
 
 
 if __name__ == "__main__":
