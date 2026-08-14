@@ -145,7 +145,7 @@ granularity keeps everything that pertains to a document in one place.
 
 ## Tooling
 
-Four scripts in `sync/`:
+Scripts in `sync/`:
 
 ### `decompose.py`
 
@@ -177,41 +177,11 @@ implementation showing that the atomized Atlas can be reassembled into any
 desired presentation form (e.g., the Atlas Portal renders a similar
 reassembly today).
 
-### hash.py
-
-Computes a cryptographic hash of a file. Defaults to SHA3-256, but any
-`hashlib` algorithm name works.
-
-```
-python sync/hash.py "Sky Atlas/Sky Atlas.md"
-python sync/hash.py --algorithm sha256 "Sky Atlas/Sky Atlas.md"
-```
-
-Also importable as a library:
-
-```python
-from pathlib import Path
-from sync.hash import hash_file
-
-digest = hash_file(Path("Sky Atlas/Sky Atlas.md"))
-```
-
-### `compose_and_hash.py`
-
-Convenience script that runs `compose` against the hardcoded paths
-(`content/` → `Sky Atlas/Sky Atlas.md`) and prints the SHA3-256 hash of the
-resulting file. Useful as a single-command integrity check: any change to the
-decomposed tree changes the digest deterministically.
-
-```
-python sync/compose_and_hash.py
-```
-
 ### Roundtrip property
 
-`decompose ∘ compose = identity` on the current Atlas. This is verified in CI
-via `--check`. The property matters because it's the formal guarantee that no
-content is lost when moving to the decomposed representation.
+`decompose ∘ compose = identity` on the current Atlas. The property matters
+because it's the formal guarantee that no content is lost when moving to the
+decomposed representation.
 
 Byte-faithful body preservation also means that "structured" labels in
 documents like Needed Research (`**Content**:`), Scenario (`**Description**:`,
@@ -267,9 +237,9 @@ The `content/` directory in this branch is the result of running
 `decompose.py` against the current Atlas — the working artifact for browsing
 or evaluating the structure.
 
-Tests live in `sync/test_decompose.py` and `sync/test_compose.py`:
+Tests live alongside the scripts in `sync/`:
 
 ```
 cd sync && python -m pytest
-# 76 passed
+# 125 passed
 ```

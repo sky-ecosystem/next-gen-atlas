@@ -16,8 +16,19 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Compose Atlas from decomposed tree
-        run: python sync/compose.py --input content --output composed-atlas.md
+      # atlas_source.py composes from EITHER layout — the atomized content/ tree or the
+      # consolidated per-Scope/per-Artifact files — so this job needs no knowledge of which
+      # one a branch is on. That matters while in-flight edit branches are being migrated:
+      # an un-migrated branch and a migrated one both validate here, unchanged.
+      #
+      # ⛔ It also replaces a direct `sync/compose.py` call that would have made this job
+      # FALSE-GREEN forever after the cutover: compose walks for `document.md`, finds none
+      # in the consolidated layout, writes 0 bytes and exits 0 — and the validator passes
+      # on a 0-byte file. Every Atlas PR would have gone green having validated nothing,
+      # with no guard anywhere in this workflow to catch it. atlas_source raises on a
+      # checkout matching neither layout instead of returning empty.
+      - name: Compose Atlas (layout-agnostic)
+        run: python sync/atlas_source.py --input content --output composed-atlas.md
 
       - name: Validate Atlas Markdown
         uses: Atlas-Axis/atlas-validator@main
