@@ -878,9 +878,9 @@ The Root Edit Primitive must specify a supermajority approval threshold where at
 
 The Root Edit Primitive must require the Operational Facilitator to issue advance notice of the Agent's proposed termination and the subsequent Agent vote in the Sky Forum.
 
-###### A.2.2.6.2.2.2.8.1.5 - Compliance Deadline For Existing Prime Agents [Core]  <!-- UUID: 56c255d4-a827-43a5-8eec-44b9d629023c -->
+###### A.2.2.6.2.2.2.8.1.5 - Agent Termination Short-Term Transitionary Measures [Core]  <!-- UUID: 56c255d4-a827-43a5-8eec-44b9d629023c -->
 
-Existing Prime Agents whose Root Edit Primitive does not already incorporate the requirements specified in [A.2.2.6.2.2.2.8.1 - Agent Termination Process](82f9f4b9-76db-4ad7-94af-200ffe7c3b75) must update their Agent Artifact to include them by September 1, 2026.
+In the short term, use of the Agent Termination Process requires the approval of Sky Governance through a Governance Poll.
 
 ##### A.2.2.6.2.3 - Short-Term Limitations On Usage Of Root Edit Primitive [Core]  <!-- UUID: 459f257e-ef68-43b0-8d39-7836d98067ff -->
 
@@ -3408,7 +3408,29 @@ Beam State (`BeamState`) is the contract that records which actors, rate limits,
 
 ###### A.2.2.10.1.1.1.2.4 - PAS [Core]  <!-- UUID: 989171ed-5424-42ee-83f4-199e1149699c -->
 
-The PAS (Parallelized Allocation System) is a permissioned layer that lets designated actors operate a Diamond PAU's rate limits and pre-approved controller actions, within governance-set ceilings, without direct administrative control over the Diamond PAU. Further details will be specified in a future iteration of the Atlas.
+The PAS (Parallelized Allocation System) is a permissioned layer that lets designated actors operate a Diamond PAU's rate limits and pre-approved controller actions, within the PAS's ceilings, without direct administrative control over the Diamond PAU.
+
+The PAS consists of the following contracts:
+
+- BeamState: holds its registries and ceilings.
+- PAS Configurator: the contract a cBEAM (a whitelisted operator authorized by BeamState) calls to adjust a rate limit or execute a pre-approved controller action within those ceilings.
+- Timelock: delays certain changes to BeamState's registries and ceilings before they take effect.
+- PAS Mom: its emergency stop switch.
+
+Sky Governance retains full, direct control over BeamState at all times: the Sky Pause Proxy holds ward authorization on it, so a Sky Core Spell can call any of its functions directly.
+
+The documents herein define the Diamond PAUs with the Configurator enabled. Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.4.1 - Enabled Diamond PAUs [Core]  <!-- UUID: 9593a6c6-521b-4680-8119-cb1f08b9a3e3 -->
+
+The Diamond PAUs with the Configurator enabled are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.1.1 - Grove Diamond PAU [Core]  <!-- UUID: e9b6e62c-a902-431d-8691-abf052919813 -->
+
+The PAS Configurator is granted `DEFAULT_ADMIN_ROLE` on the Grove Diamond PAU `AccessControls` and `RateLimits` contracts. The bounds within which cBEAMs may adjust rate limits on the Grove Diamond PAU `RateLimits` are:
+
+- `hop`: will be specified in a future iteration of the Atlas.
+- `maxChange`: will be specified in a future iteration of the Atlas.
 
 ###### A.2.2.10.1.1.1.2.5 - Liquidity Layer Operational Processes [Core]  <!-- UUID: 3b387169-c279-4d0f-918c-e6c424c6ea2c -->
 
@@ -4662,6 +4684,8 @@ Interest is calculated on utilized USDS. Utilized USDS is the liquidity a Prime 
 
 A Prime Agent that holds sUSDS earns the Sky Savings Rate on that sUSDS. Where that sUSDS is funded by liquidity borrowed from Sky, the Sky Savings Rate earned and the interest owed to Sky are netted, and the net amount is the interest expense of the Prime Agent and revenue of Sky.
 
+Netting does not change the gross amounts flowing between Sky and the Prime Agent; both the interest owed to Sky and the Sky Savings Rate earned are incorporated, and the net is what is recognized as the Prime Agent's interest expense and as revenue of Sky. Netting applies specifically to sUSDS because that yield originates from Sky; yield a Prime Agent earns on its other allocations, excluding Sky Direct Exposures, is recognized as revenue of the Prime Agent.
+
 #### A.2.4.2.2 - Positions Held By Third Parties [Core]  <!-- UUID: 70b26ada-adac-4bdf-bd3e-dc3b2347ad78 -->
 
 Gains and losses on positions held by a third party on behalf of a Prime Agent are attributed to the period in which they are received or incurred by the Allocation System Instance, and not to the period in which the third party reports them. Values reported by a third party through an application programming interface are not used to attribute gains or losses.
@@ -5280,6 +5304,12 @@ Sky Governance hereby consents to this grant and authorizes the execution of the
 ###### A.2.8.2.2.2.4.5.2.2 - Grove Foundation Grant Authorization: July 2026 [Core]  <!-- UUID: 7b6820d0-1fc1-49e7-839a-240c6cc7ec74 -->
 
 The founding team of Grove has proposed a cash grant of 800,000 USDS to the Grove Foundation from Grove's Prime Treasury for July 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
+
+Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payload. The transfer must be made to the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in a Grove Spell included in a Sky Executive Vote unless otherwise agreed by Sky and Grove.
+
+###### A.2.8.2.2.2.4.5.2.3 - Grove Foundation Grant Authorization: August 2026 [Core]  <!-- UUID: a8075d68-a5ba-4b4d-bce5-0ad58130f9e5 -->
+
+The founding team of Grove has proposed a cash grant of 800,000 USDS to the Grove Foundation from Grove's Prime Treasury for August 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
 
 Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payload. The transfer must be made to the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in a Grove Spell included in a Sky Executive Vote unless otherwise agreed by Sky and Grove.
 

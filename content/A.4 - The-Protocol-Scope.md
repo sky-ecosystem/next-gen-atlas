@@ -1224,3 +1224,31 @@ Transfers of non-stablecoins to Sky should be sent to the Pause Proxy contract.
 ###### A.4.6.1.1.2.1.1 - Pause Proxy [Core]  <!-- UUID: 8d8cc32d-f724-4eac-bca8-bab0e6d990ba -->
 
 The Pause Proxy Contract, MCD_PAUSE_PROXY, at `0xbe8e3e3618f7474f8cb1d074a26affef007e98fb`, is under the direct control of Sky Governance. Sky Governance may take actions through Executive Votes to interact with the tokens held by the Pause Proxy, including selling these tokens.
+
+### A.4.6.2 - Sky Ecosystem Administrative Contracts [Section]  <!-- UUID: d06315b0-b8ba-4932-925d-0e49a0fe9dd2 -->
+
+This Section defines smart contracts used to administer the Sky Ecosystem.
+
+#### A.4.6.2.1 - SubProxyMethods [Section]  <!-- UUID: 8f422999-13e3-426a-b5ff-19d6c9de30ae -->
+
+The documents herein define the SubProxyMethods contract, covering its purpose, function calls, execution, and the governance process required before it is used.
+
+##### A.4.6.2.1.1 - Purpose [Core]  <!-- UUID: f64e64ae-56b5-4589-adea-cceb4c1e34e1 -->
+
+The SubProxyMethods contract (`SUBPROXY_METHODS`) is a general-purpose helper the Sky Pause Proxy can invoke on any SubProxy via `exec()`, since the Pause Proxy holds ward authorization on it. This means simple, low-risk operations do not require crafting and reviewing a full Agent Spell. Its current function is specified in [A.4.6.2.1.2 - Function Calls](fe6914cc-7f7d-48f8-9fa4-8945d07c1b5f). Additional functions may be added to the contract in the future.
+
+##### A.4.6.2.1.2 - Function Calls [Core]  <!-- UUID: fe6914cc-7f7d-48f8-9fa4-8945d07c1b5f -->
+
+The current SubProxyMethods function, `transfer()`, when called by the Sky Core Spell, moves ERC20 tokens out of the target SubProxy's balance. It is invoked via `delegatecall`, so the transfer executes in the SubProxy's own context.
+
+The SubProxyMethods contract does not itself restrict which destination is specified for a transfer. The destination is determined by the Sky Core Spell.
+
+##### A.4.6.2.1.3 - Execution [Core]  <!-- UUID: 60000393-7e7c-4aa4-928c-30a1a562fa77 -->
+
+A call to the SubProxyMethods contract is included in the Sky Core Spell and executed as specified in [A.1.10.2.4.13 - Spell Execution Process And Retro (Step 13)](761cd866-17a9-47f5-8ae6-ab1788371be1).
+
+Unlike a standard Agent Spell, it is not executed or whitelisted through the Agent's StarGuard module.
+
+##### A.4.6.2.1.4 - Governance Process [Core]  <!-- UUID: 813a123a-d6e1-4ef2-bc55-716b50732721 -->
+
+The Agent whose SubProxy is acted on via the SubProxyMethods contract must post a request on the Sky Forum authorizing the action. This request must include a reference to the Atlas document authorizing the action for that Agent.
