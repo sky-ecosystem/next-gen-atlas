@@ -8242,7 +8242,7 @@ The current `maxAmount` and `slope` for this Instance's deposit, withdrawal, and
 
 The deposit rate limits are:
 
-- Aggregate: `maxAmount`: 5,000,000 (normalized), `slope`: 350,000 (normalized) day
+- Aggregate: `maxAmount`: 5,000,000 (normalized), `slope`: 350,000 (normalized)/day
 - AUSD: `maxAmount`: 5,000,000 AUSD, `slope`: 350,000 AUSD/day
 - USDC: `maxAmount`: 5,000,000 USDC, `slope`: 350,000 USDC/day
 
