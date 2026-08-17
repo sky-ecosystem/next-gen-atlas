@@ -1378,6 +1378,10 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.1.6 - Ethereum Mainnet - SparkLend ETH Instance Configuration Document](1eb4affe-3116-4d17-a3c1-0a06b6ac618b).
 
+###### A.6.1.1.1.2.6.1.1.2.1.1.7 - Ethereum Mainnet - SparkLend RLUSD Instance Configuration Document Location [Core]  <!-- UUID: 7d655946-23ae-42f7-b2a4-3f31655a6c27 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.1.7 - Ethereum Mainnet - SparkLend RLUSD Instance Configuration Document](c18f910f-f195-462b-abbc-586045076258).
+
 ###### A.6.1.1.1.2.6.1.1.2.1.2 - Aave [Core]  <!-- UUID: b9745e5e-26bf-4abe-bff1-f3fdcfa93aca -->
 
 The Ethereum Mainnet Instances Directory of the Aave Protocol with `Active` Status are stored herein.
@@ -3856,6 +3860,83 @@ The outflow rate limits are:
 The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.6.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1f909758-9b95-4e50-ba97-4688157d02a5 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7 - Ethereum Mainnet - SparkLend RLUSD Instance Configuration Document [Core]  <!-- UUID: c18f910f-f195-462b-abbc-586045076258 -->
+
+The documents herein contain the Instance Configuration Document for the SparkLend RLUSD Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.1 - RRC Framework Full Implementation [Core]  <!-- UUID: c7e63e75-3494-4424-bff8-039d426551d2 -->
+
+**`Covered`**
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2 - Parameters [Core]  <!-- UUID: eb2ccf34-0ddc-4635-ac34-60e20e4e4895 -->
+
+The documents herein define the parameters of the SparkLend RLUSD Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.1 - Instance Identifiers [Core]  <!-- UUID: 27ed54ed-c353-4272-b24f-4d390f9641e7 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.1.1 - Network [Core]  <!-- UUID: 3d0cd87e-e404-4ca6-b2f8-4089db361aff -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.1.2 - Target Protocol [Core]  <!-- UUID: 1b1a212d-3304-49c6-a327-a63658e6c0a1 -->
+
+SparkLend Protocol
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 1118ad6a-241d-49b4-9f83-6bc153164bb8 -->
+
+RLUSD
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.1.4 - Token [Core]  <!-- UUID: 1d7a72bb-6290-46b3-adca-da2821092080 -->
+
+spRLUSD
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.2 - Contract Addresses [Core]  <!-- UUID: 9e6d0b07-390c-4bb1-a753-531d93743b2d -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.2.1 - Token Address [Core]  <!-- UUID: 042b1d9c-c4a5-4b4a-8dae-d9e57eaa7782 -->
+
+`[TBD]`
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 3b62899e-6215-47f5-8fcb-56733dac2439 -->
+
+`0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.3 - Rate Limit IDs [Core]  <!-- UUID: 21ec24dc-8cab-4371-af24-2862683d1a86 -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.4 - Rate Limits [Core]  <!-- UUID: ad1c04b9-730a-4fff-8fb2-3e87d910a767 -->
+
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 44269c99-ae4a-427a-8ac3-f84e3f0b9a53 -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 100,000,000 RLUSD
+- `slope`: 100,000,000 RLUSD per day
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 367b5438-31f1-45b3-b46a-c9f18355bc3c -->
+
+The outflow rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.3 - Maximum Slippage [Core]  <!-- UUID: 8a4a1319-e2cb-4970-ac2a-1a29c868940c -->
+
+Max slippage: 0.001%
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: aa2ec729-2b9d-4519-ad2d-ef686d18670b -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.3 - Instance-specific Operational Processes [Core]  <!-- UUID: ad672811-3176-464f-9b5d-7c222b655fa9 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
