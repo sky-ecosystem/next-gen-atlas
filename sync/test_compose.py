@@ -6,13 +6,19 @@ import tempfile
 
 import pytest
 
+import subprocess
+import sys
+
 from compose import (
+    EmptyCompositionError,
     ParsedDoc,
     _child_sort_key,
     _parse_targets_value,
     _unquote_yaml_name,
     build_heading_line,
     compose,
+    compose_guarded,
+    guard_composition,
     parse_document_md,
 )
 from decompose import decompose
@@ -280,7 +286,7 @@ class TestChildSortKey:
         (parent / "1").mkdir(parents=True)
         (parent / "1" / "document.md").write_text("doc")
         (parent / "0").mkdir()
-        # "0" sorts AFTER "1" (real-doc-first rule), even though it's numerically smaller.
+        # "0" sorts after "1" (real-doc-first rule), even though it's numerically smaller.
         names = sorted(["0", "1"], key=lambda c: _child_sort_key(str(parent), c))
         assert names == ["1", "0"]
 
@@ -335,6 +341,76 @@ class TestParseTargetsValue:
     def test_invalid_raises(self):
         with pytest.raises(ValueError):
             _parse_targets_value("not a list")
+
+
+class TestEmptyCompositionGuard:
+    """`compose` walks for `document.md`. Pointed at a consolidated `content/` it finds
+    none, composes the empty string, writes a 0-byte file and exits 0.
+
+    These tests cover the tools themselves rather than the CI path: the workflow calls
+    `atlas_source.py`, which handles both layouts, but `compose.py` is also invoked
+    directly.
+    """
+
+    CONSOLIDATED = "# A.0 - Atlas Preamble [Scope]  <!-- UUID: 8650a584 -->\n\nBody.\n"
+
+    def _consolidated_dir(self, tmp_path):
+        """A `content/` in the consolidated layout — no `document.md` anywhere."""
+        d = tmp_path / "content"
+        d.mkdir()
+        (d / "A.0 - Atlas-Preamble.md").write_text(self.CONSOLIDATED, encoding="utf-8")
+        return d
+
+    def test_guard_rejects_zero_documents(self):
+        with pytest.raises(EmptyCompositionError, match="refusing to write or hash"):
+            guard_composition("", 0, "content/")
+
+    def test_guard_rejects_whitespace_only(self):
+        with pytest.raises(EmptyCompositionError):
+            guard_composition("\n\n   \n", 0, "content/")
+
+    def test_guard_allows_a_real_composition(self):
+        guard_composition("# A.0 - X [Scope]  <!-- UUID: u -->", 1, "content/")
+
+    def test_guard_error_names_the_layout_cause(self):
+        """The message must point at the real cause and at the tool that handles both
+        layouts — otherwise the operator only learns that something was empty."""
+        with pytest.raises(EmptyCompositionError) as e:
+            guard_composition("", 0, "content/")
+        assert "atlas_source.py" in str(e.value)
+        assert "CONSOLIDATED" in str(e.value)
+
+    def test_compose_guarded_raises_on_the_consolidated_layout(self, tmp_path):
+        """A consolidated tree composed by the atomized walker."""
+        d = self._consolidated_dir(tmp_path)
+        assert compose(str(d)) == ""          # unguarded still returns empty...
+        with pytest.raises(EmptyCompositionError):
+            compose_guarded(str(d))           # ...guarded refuses.
+
+    def _run(self, tmp_path, *args):
+        here = os.path.dirname(os.path.abspath(__file__))
+        return subprocess.run(
+            [sys.executable, os.path.join(here, *args[:1]), *args[1:]],
+            capture_output=True, text=True, cwd=str(tmp_path),
+        )
+
+    def test_compose_cli_output_exits_nonzero_and_writes_nothing(self, tmp_path):
+        d = self._consolidated_dir(tmp_path)
+        out = tmp_path / "composed.md"
+        r = self._run(tmp_path, "compose.py", "--input", str(d), "--output", str(out))
+        assert r.returncode != 0, "compose.py exited 0 on an empty composition"
+        assert not out.exists(), "compose.py wrote a file for an empty composition"
+        assert "atlas_source.py" in r.stderr
+
+    def test_compose_cli_check_is_not_exempt(self, tmp_path):
+        """`--check` against an empty expected file would otherwise print ROUNDTRIP OK and
+        exit 0, passing by comparing nothing to nothing."""
+        d = self._consolidated_dir(tmp_path)
+        empty = tmp_path / "expected.md"
+        empty.write_text("", encoding="utf-8")
+        r = self._run(tmp_path, "compose.py", "--input", str(d), "--check", str(empty))
+        assert r.returncode != 0
+        assert "ROUNDTRIP OK" not in r.stdout
 
 
 if __name__ == "__main__":

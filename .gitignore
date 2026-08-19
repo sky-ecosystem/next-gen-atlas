@@ -17,3 +17,5 @@ __pycache__/
 .env.production.local
 venv/
 .venv/
+# Generated during CI by sync/atlas_source.py — never commit the composed artifact.
+composed-atlas.md
