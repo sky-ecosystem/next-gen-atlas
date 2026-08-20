@@ -4796,6 +4796,7 @@ The Active Data is updated as follows:
 | JanSky | Core Facilitator | JanSky-Team | JanSky, ldr |
 | Rune | N/A | rune | N/A |
 | Amatsu | Operational Executor Agent | Amatsu_OEA | SoterLabs, Endgame-Edge (and their authorized representatives) |
+| Skybase | Prime Agent | Ekliptyka | N/A |
 
 ##### A.2.7.1.1.2 - Chatroom [Core]  <!-- UUID: a596136b-a805-420b-be77-bf249e41ada4 -->
 
