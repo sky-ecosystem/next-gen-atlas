@@ -3913,7 +3913,7 @@ The specific `RateLimitID`(s) for this conduit's inflow and outflow will be spec
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.4 - Rate Limits [Core]  <!-- UUID: ad1c04b9-730a-4fff-8fb2-3e87d910a767 -->
 
-The current `maxAmount` and `slope` for this conduit's inflow/outflow and maximum slippage are defined in the subdocuments herein.
+The current `maxAmount`, `slope`, and slippage for this conduit's inflow/outflow are defined in the subdocuments herein.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 44269c99-ae4a-427a-8ac3-f84e3f0b9a53 -->
 
