@@ -3901,7 +3901,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.2.1 - Token Address [Core]  <!-- UUID: 042b1d9c-c4a5-4b4a-8dae-d9e57eaa7782 -->
 
-`[TBD]`
+`0x59275Fb72c8004F44BA44432e25082932Fd677f1`
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 3b62899e-6215-47f5-8fcb-56733dac2439 -->
 
@@ -3913,7 +3913,7 @@ The specific `RateLimitID`(s) for this conduit's inflow and outflow will be spec
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.4 - Rate Limits [Core]  <!-- UUID: ad1c04b9-730a-4fff-8fb2-3e87d910a767 -->
 
-The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit's inflow/outflow and maximum slippage are defined in the subdocuments herein.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 44269c99-ae4a-427a-8ac3-f84e3f0b9a53 -->
 
@@ -3930,7 +3930,7 @@ The outflow rate limits are:
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.3 - Maximum Slippage [Core]  <!-- UUID: 8a4a1319-e2cb-4970-ac2a-1a29c868940c -->
 
-Max slippage: 0.001%
+- Max slippage: 0.001%
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: aa2ec729-2b9d-4519-ad2d-ef686d18670b -->
 
