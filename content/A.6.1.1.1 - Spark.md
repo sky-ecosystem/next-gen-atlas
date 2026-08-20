@@ -10209,7 +10209,7 @@ The current RLUSD risk parameters are:
 - Optimal Utilization: 95%
 - Isolated Debt Ceiling: 0
 - Base Rate: SSR
-- Slope 1: 1.25%
+- Slope 1: 0.3%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: No
