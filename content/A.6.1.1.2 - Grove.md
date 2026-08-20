@@ -8471,17 +8471,17 @@ The outflow rate limits are:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.1 - Interim Deployment [Core]  <!-- UUID: 71230664-ebd2-4be0-b83f-7582223fa04e -->
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 2100ad73-d516-405f-a65d-5a05af6e6f55 -->
 
-This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
+Total exposure through this Instance may not exceed 5,000,000 USDS.
 
-###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: f0bb4021-60a7-49fc-a8ed-b25d9666ed95 -->
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.2 - CRR [Core]  <!-- UUID: ea4b41a7-1ce9-4bf9-bd71-3cfadd9ce8e0 -->
 
-The maximum allocation for the Tokenized Treasury Basin Interim Deployments is $5 million, combined across the JTRSY and BUIDL Instances.
+The CRR for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 25%.
 
-###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.1.2 - Rate Limits [Core]  <!-- UUID: 6487bd5d-34d0-4430-81fa-99c644abae0f -->
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.3 - Rate Limits [Core]  <!-- UUID: 6487bd5d-34d0-4430-81fa-99c644abae0f -->
 
-The Rate Limits for this Interim Deployment are defined in [A.6.1.1.2.2.6.1.3.1.14.1.2.4 - Rate Limits](abc0b1fc-4922-40f1-8ea9-60fba89f0e5f).
+The Rate Limits for this Instance are defined in [A.6.1.1.2.2.6.1.3.1.14.1.2.4 - Rate Limits](abc0b1fc-4922-40f1-8ea9-60fba89f0e5f).
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: a46f85c1-48be-4070-8848-74d392c3fed5 -->
 
@@ -8613,7 +8613,7 @@ This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2
 
 ###### A.6.1.1.2.2.6.1.3.1.14.2.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 5997c784-200f-49ec-b7dd-173e5c3447e9 -->
 
-The maximum allocation for the Tokenized Treasury Basin Interim Deployments is $5 million, combined across the JTRSY and BUIDL Instances.
+The maximum allocation for this Instance is 2,500,000 USDS.
 
 ###### A.6.1.1.2.2.6.1.3.1.14.2.2.5.1.2 - Rate Limits [Core]  <!-- UUID: ff295b39-4fad-4b11-a9f9-318b8d25e344 -->
 
