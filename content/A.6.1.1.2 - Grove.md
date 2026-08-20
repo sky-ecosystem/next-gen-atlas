@@ -2343,7 +2343,7 @@ The documents herein define the roles and permissions of the Diamond PAU Instanc
 
 ###### A.6.1.1.2.2.6.1.2.2.1.1.3.1 - Default Admin Role [Core]  <!-- UUID: 987dc000-4453-4beb-93b3-aad8a4d819fc -->
 
-The `DEFAULT_ADMIN_ROLE` is the administrative role of the AccessControls contract, authorized to grant and revoke all other roles of the Diamond PAU. The Default Admin Role is held by the Grove Proxy.
+The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke all other roles of the Diamond PAU on the former, and to set rate limits on the latter. The Default Admin Role is held on both contracts by the Grove Proxy and by the Configurator, as specified in [A.2.2.10.1.1.1.2.3.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
 
 ###### A.6.1.1.2.2.6.1.2.2.1.1.3.2 - Controller Role [Core]  <!-- UUID: 1597253b-b936-46f6-98c7-d41d4306d2c5 -->
 
