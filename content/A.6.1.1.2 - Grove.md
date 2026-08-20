@@ -2343,7 +2343,7 @@ The documents herein define the roles and permissions of the Diamond PAU Instanc
 
 ###### A.6.1.1.2.2.6.1.2.2.1.1.3.1 - Default Admin Role [Core]  <!-- UUID: 987dc000-4453-4beb-93b3-aad8a4d819fc -->
 
-The `DEFAULT_ADMIN_ROLE` is the administrative role of the AccessControls contract, authorized to grant and revoke all other roles of the Diamond PAU. The Default Admin Role is held by the Grove Proxy.
+The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke all other roles of the Diamond PAU on the former, and to set rate limits on the latter. The Default Admin Role is held on both contracts by the Grove Proxy and by the Configurator, as specified in [A.2.2.10.1.1.1.2.3.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
 
 ###### A.6.1.1.2.2.6.1.2.2.1.1.3.2 - Controller Role [Core]  <!-- UUID: 1597253b-b936-46f6-98c7-d41d4306d2c5 -->
 
@@ -8471,17 +8471,17 @@ The outflow rate limits are:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.1 - Interim Deployment [Core]  <!-- UUID: 71230664-ebd2-4be0-b83f-7582223fa04e -->
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 2100ad73-d516-405f-a65d-5a05af6e6f55 -->
 
-This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
+Total exposure through this Instance may not exceed 5,000,000 USDS.
 
-###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: f0bb4021-60a7-49fc-a8ed-b25d9666ed95 -->
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.2 - CRR [Core]  <!-- UUID: ea4b41a7-1ce9-4bf9-bd71-3cfadd9ce8e0 -->
 
-The maximum allocation for the Tokenized Treasury Basin Interim Deployments is $5 million, combined across the JTRSY and BUIDL Instances.
+The CRR for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 25%.
 
-###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.1.2 - Rate Limits [Core]  <!-- UUID: 6487bd5d-34d0-4430-81fa-99c644abae0f -->
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.3 - Rate Limits [Core]  <!-- UUID: 6487bd5d-34d0-4430-81fa-99c644abae0f -->
 
-The Rate Limits for this Interim Deployment are defined in [A.6.1.1.2.2.6.1.3.1.14.1.2.4 - Rate Limits](abc0b1fc-4922-40f1-8ea9-60fba89f0e5f).
+The Rate Limits for this Instance are defined in [A.6.1.1.2.2.6.1.3.1.14.1.2.4 - Rate Limits](abc0b1fc-4922-40f1-8ea9-60fba89f0e5f).
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: a46f85c1-48be-4070-8848-74d392c3fed5 -->
 
@@ -8613,7 +8613,7 @@ This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2
 
 ###### A.6.1.1.2.2.6.1.3.1.14.2.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 5997c784-200f-49ec-b7dd-173e5c3447e9 -->
 
-The maximum allocation for the Tokenized Treasury Basin Interim Deployments is $5 million, combined across the JTRSY and BUIDL Instances.
+The maximum allocation for this Instance is 2,500,000 USDS.
 
 ###### A.6.1.1.2.2.6.1.3.1.14.2.2.5.1.2 - Rate Limits [Core]  <!-- UUID: ff295b39-4fad-4b11-a9f9-318b8d25e344 -->
 
