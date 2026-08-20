@@ -10203,18 +10203,16 @@ The current RLUSD risk parameters are:
 - E-mode Category: N/A
 - Liquidation Bonus: 0%
 - Reserve Factor: 10%
-- Liquidation Protocol Fee: 10%
 - Supply Cap: Unlimited
 - Borrow Cap: Unlimited
 - Optimal Utilization: 95%
-- Isolated Debt Ceiling: 0
+- Isolated Debt Ceiling: N/A
 - Base Rate: SSR
 - Slope 1: 0.3%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: No
 - Borrowing: Yes
-- Stable Rate Borrowing: No
 - Isolated Collateral: No
 - Isolated Borrowing: No
 - Siloed Borrowing: No
