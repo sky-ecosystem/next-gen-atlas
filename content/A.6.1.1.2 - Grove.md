@@ -8268,11 +8268,11 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 8cf235df-5cf8-42d3-8a10-8d408a90f56d -->
 
-Total exposure through this Instance may not exceed 5,000,000 USDS.
+Total exposure through this Instance may not exceed 10,000,000 USDS.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.2.5.2 - CRR [Core]  <!-- UUID: 1b49ac8a-e3bd-4764-bb6f-497b2c8c203c -->
 
-The CRR for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 100%.
+The CRR for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 25%.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: e6340bc2-ea2a-4df6-802c-1d68ce5d653d -->
 
