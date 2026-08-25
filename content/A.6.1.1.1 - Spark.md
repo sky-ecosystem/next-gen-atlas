@@ -3473,7 +3473,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 66b08d31-c12e-401b-8270-6e1aeb445140 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.1.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 4e470c5b-6db2-43aa-9dee-161eb69a9f17 -->
+
+The inflow RateLimitID is: `0x59477acb2eb9f88d1b248308258c80bf448730c5c47d8b38e9ebae4228713ab0`
+
+###### A.6.1.1.1.2.6.1.3.1.1.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: ae87d615-cd27-49e7-aac9-4fd73c7ea6c9 -->
+
+The outflow RateLimitID is: `0x429d033c4f4878bf78865d675d0fd89e672883b70d5d1d57006420ceedd05fc0`
 
 ###### A.6.1.1.1.2.6.1.3.1.1.1.2.4 - Rate Limits [Core]  <!-- UUID: 85106bf0-7367-4355-acf1-5fb22199d135 -->
 
@@ -3547,7 +3555,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 6b9ef39f-99f9-4dad-b687-f397f5f36b64 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.1.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 04d72402-59be-405f-b7ed-5acbcd4b6890 -->
+
+The inflow RateLimitID is: `0x8643632d5a17c6ed653a4d418322a7640c3e585d8b88eac2cb434be10dd9d379`
+
+###### A.6.1.1.1.2.6.1.3.1.1.2.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 6b7e2a04-8a8e-4fbb-8164-89e5834d2e30 -->
+
+The outflow RateLimitID is: `0x22664699d66e29798d3d77ea18baeb3ae6aad622afde0af40841a9666656a04c`
 
 ###### A.6.1.1.1.2.6.1.3.1.1.2.2.4 - Rate Limits [Core]  <!-- UUID: 969d566b-46b5-41ad-8317-0bc4b8981c6a -->
 
@@ -3621,7 +3637,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: f8225872-d517-40f1-a931-241b5d0cc07b -->
 
-The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.1.3.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: d8d63d8a-fb44-43b2-85cb-9c1f39d13ff2 -->
+
+The inflow RateLimitID is: `0x9d72c41cd8ab350db04265b5fd2379a2630a60d04e2b883ecb96c9acf0679a49`
+
+###### A.6.1.1.1.2.6.1.3.1.1.3.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 21020345-f04b-4b63-8663-27471c420199 -->
+
+The outflow RateLimitID is: `0xa94afa7f05e82cca8d972fbaf2af8e9457702414a23e8b9536eb3a03c4e9d910`
 
 ###### A.6.1.1.1.2.6.1.3.1.1.3.2.4 - Rate Limits [Core]  <!-- UUID: ec3317a7-e330-45a8-a797-9c8f4bf3b606 -->
 
@@ -3694,7 +3718,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: 2857a038-a0c7-41e5-b547-8a067a854155 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.1.4.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 3fecb0d8-7239-4207-bdde-6f84a5aadbdf -->
+
+The inflow RateLimitID is: `0x777374606b5f53d74bb9aa33830330f56453394cb2689f84a5e61403d5de4cb6`
+
+###### A.6.1.1.1.2.6.1.3.1.1.4.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: cd0943d1-8099-49d3-ad77-64bc3c0da5af -->
+
+The outflow RateLimitID is: `0xc628f38534298f977da21d23ad7d8b19d37589fcbacacb0cf1a727509be58d70`
 
 ###### A.6.1.1.1.2.6.1.3.1.1.4.2.4 - Rate Limits [Core]  <!-- UUID: 3662bfb6-2730-40f3-bdb2-7944e5f591ad -->
 
@@ -3767,7 +3799,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.5.2.3 - Rate Limit IDs [Core]  <!-- UUID: 9c845059-1b83-4b6c-b823-1e686fc7593e -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.1.5.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: ded51d84-e1e4-4638-a649-f218657b0a26 -->
+
+The inflow RateLimitID is: `0xac118a3981bd5131580fccd61112b823f940e214207c0f698a20d93dcfb07741`
+
+###### A.6.1.1.1.2.6.1.3.1.1.5.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 24913f56-0c07-4c2c-908f-77517b3622d6 -->
+
+The outflow RateLimitID is: `0x7eff7eaa25567c515ca59f2e693cead060fbd8355e04d7067207761d0838dd1c`
 
 ###### A.6.1.1.1.2.6.1.3.1.1.5.2.4 - Rate Limits [Core]  <!-- UUID: abaee24f-40a5-4584-8525-7363e7a7eb46 -->
 
@@ -4101,7 +4141,15 @@ This parameter will be specified in a future iteration of the Spark Artifact.
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7e6afc3c-5c09-4ca4-9c2c-05aa9ed85e67 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.2.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: d0e0f2ac-61de-4b79-bbce-d1f82942810e -->
+
+The inflow RateLimitID is: `0x23678516ee726f03e0f36c5c49d2d072fff1eedf96dac83d5d33351605fe7316`
+
+###### A.6.1.1.1.2.6.1.3.1.2.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: e90ac6ad-60f2-49e1-a981-5c8c3daa4d44 -->
+
+The outflow RateLimitID is: `0x85bf62ea9ab25eaa7aa7f81258bfd42a384c91f219d9d36b20dce38be85ed8a4`
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.2.4 - Rate Limits [Core]  <!-- UUID: 46a1c28f-f4e4-4c45-9a89-1d88b50bf57b -->
 
@@ -4335,7 +4383,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.2.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: b3b677e8-a154-4c5a-9e88-5222716a806d -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.2.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: f5af456d-9d29-4b04-8f31-03816c1d965a -->
+
+The inflow RateLimitID is: `0x5b6ed3b27d9aa6a9aaf68fc5c0980d9122ac4123093cce0241e4e047c154e214`
+
+###### A.6.1.1.1.2.6.1.3.1.2.2.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 21210911-6e20-4eb1-bf34-1935497cdaa3 -->
+
+The outflow RateLimitID is: `0xc0a083c57c21570181e9781d750d04917923daac34e804bad63a5a241c92a850`
 
 ###### A.6.1.1.1.2.6.1.3.1.2.2.2.4 - Rate Limits [Core]  <!-- UUID: 4b08586e-4e28-404d-90c4-29a44fc29cb5 -->
 
@@ -4409,7 +4465,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.2.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: e444d574-2b11-4187-a45f-9a80d75aae10 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.2.3.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 0370efe6-e225-4e79-b4a6-006204f207c0 -->
+
+The inflow RateLimitID is: `0x329260cb83d68fc63e31eb4399d0cb8922ab9ebe60f626fd168b5c9689a0f1d1`
+
+###### A.6.1.1.1.2.6.1.3.1.2.3.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: c4dc401e-f0b7-4c72-ac47-a884fdd7101a -->
+
+The outflow RateLimitID is: `0x20bdfff5dc6de265f96de870264d1a634150e9bc21b6d8207b2959b1c1c13d39`
 
 ###### A.6.1.1.1.2.6.1.3.1.2.3.2.4 - Rate Limits [Core]  <!-- UUID: 71151ae6-4224-426c-a8fa-5ba03cf64b5a -->
 
@@ -4483,7 +4547,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.2.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: b4612996-b947-467b-a982-9791daf37a1f -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.2.4.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: dc1bdd19-5cab-4e7e-88d9-151a0929cea5 -->
+
+The inflow RateLimitID is: `0x2abac26c47262b4702ed2cbf167f62a57bfb33a7b2995b4b3987fb098df9811a`
+
+###### A.6.1.1.1.2.6.1.3.1.2.4.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 595b3556-9af3-444d-a9f6-ea02d6b60f54 -->
+
+The outflow RateLimitID is: `0x1cd5994ee4bf33f70c17df6e21c288eddfc1d78592b9b24c6ee49fbf84d033b0`
 
 ###### A.6.1.1.1.2.6.1.3.1.2.4.2.4 - Rate Limits [Core]  <!-- UUID: 2b7b02e3-b63a-445f-86bb-098627ae20ed -->
 
@@ -4561,7 +4633,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.3.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: d3fe0ad8-786f-47dc-8193-f34d99a01d9f -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.3.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: cff627d2-53c6-40a5-bb4f-fa673140c9bc -->
+
+The inflow RateLimitID is: `0xb9c6da49f0b0347658eb62ddfe830d0f5b3ad29be86768861d764c100ececa7a`
+
+###### A.6.1.1.1.2.6.1.3.1.3.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 30762cef-6ee3-4526-9286-3ac9db2dd47a -->
+
+The outflow RateLimitID is: `0x5f6a63b114ac18479e70382709c3458fd8bfa651bdea3050c849726f2d23b4c3`
 
 ###### A.6.1.1.1.2.6.1.3.1.3.1.2.4 - Rate Limits [Core]  <!-- UUID: 426f42fa-c85c-48de-8859-205d2fa98c3e -->
 
@@ -4816,7 +4896,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.4.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: d319be68-9f32-47be-a74c-cf9c79821027 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID` for this conduit’s swap operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.3.1.4.1.2.3.1 - Swap Rate Limit ID [Core]  <!-- UUID: 74b6288c-0ecf-47d7-be91-2729267ad678 -->
+
+The swap RateLimitID is: `0x8dcb7a359e6824ce9fd1c1f50ba67cd468764f690da2589aa3c262ac142c333a`
 
 ###### A.6.1.1.1.2.6.1.3.1.4.1.2.4 - Rate Limits [Core]  <!-- UUID: 7de1e41d-c8b5-4ec6-931b-ae3ee2f3f4a3 -->
 
@@ -4906,7 +4990,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 5b0ead44-7dce-4af5-b750-422c8f97c4ce -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.5.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 30721673-a43b-4a5e-bcfd-ca782ac1100d -->
+
+The inflow RateLimitID is: `0xa21b48d7065ca723c7d67e9179420f7e2724d6674f29e61f6bb37ea05542e639`
+
+###### A.6.1.1.1.2.6.1.3.1.5.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: a957e5f0-e4d0-487b-ab78-8526d7b8ff12 -->
+
+The outflow RateLimitID is: `0xc814ed99a53a7547314c67d5c15400cd2ec6ac9445f1d3bfc97da92b3ca1cdf2`
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.4 - Rate Limits [Core]  <!-- UUID: d24c412e-6ba8-4b1b-a3c6-ccb48b268e2f -->
 
@@ -5004,7 +5096,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 0e2d991d-9225-48f8-a9a3-dacf6c182181 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.5.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 5f7aa636-57bb-4bf2-962d-6f96a2353750 -->
+
+The inflow RateLimitID is: `0xaea4556c0424234b8879297d0650e546704500f4fbe07c1027dcda0529f22587`
+
+###### A.6.1.1.1.2.6.1.3.1.5.2.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 2a1921e1-d87d-410d-9d8a-34fef4a31b94 -->
+
+The outflow RateLimitID is: `0x43d68dcf0b2fdb6a64bb4163b0ee9eac40c52b2f1eb6a94af37827ade050a347`
 
 ###### A.6.1.1.1.2.6.1.3.1.5.2.2.4 - Rate Limits [Core]  <!-- UUID: 46f33c44-c9b3-4241-a5ad-84f4f7765280 -->
 
@@ -5558,7 +5658,15 @@ The pool address will be specified in a future iteration of the Spark Artifact.
 
 ###### A.6.1.1.1.2.6.1.3.1.7.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 541b2c98-6c5d-4e8d-9aef-30d3b15bd6bc -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.7.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: c422238c-e3c0-4451-968e-43bd2c91f144 -->
+
+The inflow RateLimitID is: `0x919b12b0c3eda5087bdb9fa72639dd025fbcff8da3bfde6ba9b4d60b5658e610`
+
+###### A.6.1.1.1.2.6.1.3.1.7.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 38ddc325-bb48-4d6b-91c4-281b3128ffd4 -->
+
+The outflow RateLimitID is: `0xcc22d130962ecba91011f4d9150388255af2cf0e12b6a522f12e3c74283cde60`
 
 ###### A.6.1.1.1.2.6.1.3.1.7.1.2.4 - Rate Limits [Core]  <!-- UUID: fde9903c-91a1-40f8-bc4a-a6511bb346aa -->
 
@@ -5643,7 +5751,19 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7b94ebfe-42c9-4319-80ff-d57258f5773c -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow, outflow, and swap are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.8.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 8cfb380a-892d-4288-8ec0-76e828955227 -->
+
+The inflow RateLimitID is: `0x6bfdd5645c15990954c62067dd1996d467bad0a86baf3fa4f3407446141be964`
+
+###### A.6.1.1.1.2.6.1.3.1.8.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 7dc9442e-9dc8-4729-bf13-375fdffaccda -->
+
+The outflow RateLimitID is: `0xecf2c24977c8862ed6f1d3364e569026d387725d99e941a6920fd62d095b5fbf`
+
+###### A.6.1.1.1.2.6.1.3.1.8.1.2.3.3 - Swap Rate Limit ID [Core]  <!-- UUID: 0a1a113a-b631-4bbf-8cc8-7201af367582 -->
+
+The swap RateLimitID is: `0xc76459e3b1bec86d105d909562e6bd4210e6307d4c3b4102c4fa6879ab460c8b`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.1.2.4 - Rate Limits [Core]  <!-- UUID: 689f87d9-e66b-4eab-b984-9ad21ed4bb59 -->
 
@@ -5738,7 +5858,19 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 77850de8-afe7-47e2-aedd-e44de6922c6f -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow, outflow, and swap are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 51dfeb17-e2cd-4d05-aaa2-21fbed413c88 -->
+
+The inflow RateLimitID is: `0xbd2caffdd0cda33082a91d1ec4046e93f88c7e6e2c75e22e7e4bd9c62fa5e449`
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 82437ced-9e6e-4629-8d85-f2b50a1944dc -->
+
+The outflow RateLimitID is: `0x661ad1d19f29b347501284d89e451ad4dab05a47206d44559b997e7f2feccc04`
+
+###### A.6.1.1.1.2.6.1.3.1.8.2.2.3.3 - Swap Rate Limit ID [Core]  <!-- UUID: 9889982b-a4c8-4675-a584-3af8dede28e2 -->
+
+The swap RateLimitID is: `0xf6373a26137d3d03c9f7862bef1995dac69090a4b5f289609ead9dcb3301db35`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2.2.4 - Rate Limits [Core]  <!-- UUID: 91ad3746-e58c-43b3-a53d-0430b5e20a4c -->
 
@@ -5829,7 +5961,19 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 06755c72-aef3-458d-a76b-b96c964e3f85 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow, outflow, and swap are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: a0fadbb0-f35f-47ad-84bb-1eb47ae08d8d -->
+
+The inflow RateLimitID is: `0x62c06f24aebd838ddb7140a233e30eb9eddff604d37d76a5152deb7bed1a942e`
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 0b616d26-93ee-453c-9dd6-0d18c27cac84 -->
+
+The outflow RateLimitID is: `0xdcd0ad326129cbee79a84f0902634633881883f6548a5226f79d80aedc49f4da`
+
+###### A.6.1.1.1.2.6.1.3.1.8.3.2.3.3 - Swap Rate Limit ID [Core]  <!-- UUID: e691fc2b-7c18-4299-a8aa-c2e2f352a4b5 -->
+
+The swap RateLimitID is: `0x2073337b9f18421a25db4a61b9b3bcf77ec4e537e3e945067dce2fff16dfc0d7`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.2.4 - Rate Limits [Core]  <!-- UUID: 415920c5-b4d8-476f-b550-62ebfd4d821c -->
 
@@ -5918,7 +6062,19 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: a469565c-8521-4e00-822c-9539530fa320 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow, outflow, and swap are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 34918950-e898-4c90-a29f-351bc1d87add -->
+
+The inflow RateLimitID is: `0x63b9b942b31168ea6d59e449eb350d007823cc881286687df86b23928ce5ddfc`
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 472500a3-7b03-4467-94e5-e44167044fa2 -->
+
+The outflow RateLimitID is: `0xd3f8f7c378685d051b7216803f669aba3d94427c04ae24ad7541a5648a488657`
+
+###### A.6.1.1.1.2.6.1.3.1.8.4.2.3.3 - Swap Rate Limit ID [Core]  <!-- UUID: 2e2b4b9a-5b8a-486c-a15f-2828fbcc2d38 -->
+
+The swap RateLimitID is: `0x0f2bf6283bd65b9a5db6e3bdf10b1b36ecf39380e6fa89be8e574ebbf455b67c`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.2.4 - Rate Limits [Core]  <!-- UUID: 448c87f5-4bc3-41c5-995d-353717d0fbd3 -->
 
@@ -6019,7 +6175,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 3b67cada-07bb-4e5c-b0ab-84ddbe515d19 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID` for this conduit’s transfer operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.3.1.9.1.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: c84c5ad6-5cfb-4070-a595-f68eb32352ee -->
+
+The transfer RateLimitID is: `0x8eff4520fc06fe47d8ef292c7257c1aca72fa553d0354da76d62f96d753035ae`
 
 ###### A.6.1.1.1.2.6.1.3.1.9.1.2.4 - Rate Limits [Core]  <!-- UUID: bd104480-24d4-4fb1-a8f0-13e5c04a2c18 -->
 
@@ -6090,7 +6250,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: cd38213e-84bf-4a72-8f14-9c803c721e19 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID` for this conduit’s transfer operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.3.1.9.2.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: 9e791951-eaac-46d9-9172-89e2fe58be9e -->
+
+The transfer RateLimitID is: `0x02540be1a3e950599b8fe8d6b826c6ce7100d842b3bf61cff3d027565188252f`
 
 ###### A.6.1.1.1.2.6.1.3.1.9.2.2.4 - Rate Limits [Core]  <!-- UUID: ad179de7-3167-476d-ae82-36fb715ec68f -->
 
@@ -6161,7 +6325,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: c0f6ad05-ec97-4464-9627-82b14035bc17 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID` for this conduit’s transfer operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.3.1.9.3.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: bdde376a-7263-42a6-8504-952151a0a989 -->
+
+The transfer RateLimitID is: `0x433a7d3ac412991a2470191a493e83395063d535c25a95973fb11b5fcf101a52`
 
 ###### A.6.1.1.1.2.6.1.3.1.9.3.2.4 - Rate Limits [Core]  <!-- UUID: 0d22ec04-8742-49d5-a285-3668ce6d4947 -->
 
@@ -6232,7 +6400,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: 18f1f756-3755-4875-8c2f-a93be31bb8fa -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID` for this conduit’s transfer operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.3.1.9.4.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: b4d85772-395a-4669-9284-f7f776183d48 -->
+
+The transfer RateLimitID is: `0x234f8110154879b57e48ef931726c6bf996d39a8e0638fe989fbd1197afa6fa1`
 
 ###### A.6.1.1.1.2.6.1.3.1.9.4.2.4 - Rate Limits [Core]  <!-- UUID: ffbfbbf7-8de6-47b8-aa8d-052e8273f33e -->
 
@@ -6301,7 +6473,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 501f003f-6082-4d87-9155-9569d1a12d69 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID` for this conduit’s transfer operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.3.1.10.1.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: 330de089-2e63-4e96-94a3-f5428facc869 -->
+
+The transfer RateLimitID is: `0x9aa280c68a0cf1d9b19b13eaa7573b960af50847f2771754b08925017ecd8f2c`
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.2.4 - Rate Limits [Core]  <!-- UUID: 88ae938c-2370-4a27-b6de-609fc3dd6808 -->
 
@@ -6374,7 +6550,11 @@ TBD
 
 ###### A.6.1.1.1.2.6.1.3.1.11.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 1b4e3734-5a4d-4205-a217-9a1a54fe4c57 -->
 
-The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID` for this conduit’s OTC swap operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.3.1 - OTC Swap Rate Limit ID [Core]  <!-- UUID: 82abe537-771e-462b-9555-c73afd8703a9 -->
+
+The OTC swap RateLimitID is: `0x423505c71302bb78e1a7063ffe62b25e653a1d424d569e464f53694d683a969a`
 
 ###### A.6.1.1.1.2.6.1.3.1.11.1.2.4 - Rate Limits [Core]  <!-- UUID: c8cd2bb5-cd8c-43f3-af6f-e1458e12164b -->
 
@@ -6447,7 +6627,11 @@ TBD
 
 ###### A.6.1.1.1.2.6.1.3.1.11.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: e66e804c-d81c-4157-b949-1045bb99ef7f -->
 
-The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID` for this conduit’s OTC swap operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.3.1 - OTC Swap Rate Limit ID [Core]  <!-- UUID: 1fffefe8-44db-435a-b180-c0bd13053807 -->
+
+The OTC swap RateLimitID is: `0x423505c71302bb78e1a7063ffe62b25e653a1d424d569e464f53694d683a969a`
 
 ###### A.6.1.1.1.2.6.1.3.1.11.2.2.4 - Rate Limits [Core]  <!-- UUID: 0db8118c-50a2-442c-86ea-083b85df9688 -->
 
@@ -6528,7 +6712,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: c8ac360b-6c77-458f-a481-78b4554dd682 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.2.1.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 16975314-e116-4143-bce9-8c33edb05d44 -->
+
+The inflow RateLimitID is: `0x43340848e8bb9f026c7f75ceb6e87f0a22170ac8c149fec2f9104d06e80328d4`
+
+###### A.6.1.1.1.2.6.1.3.2.1.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: d493c87b-7e33-40aa-a329-520227771e8c -->
+
+The outflow RateLimitID is: `0x3fbddddb8e73ef028caab8e2f30237af64272e2de5a171b023c0996ebace7d88`
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.2.4 - Rate Limits [Core]  <!-- UUID: dbd9a2e2-74c7-47e5-abe4-d0940cb16f8e -->
 
@@ -6640,7 +6832,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.2.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 4a6342b9-8f9f-48ae-82a2-8c1293bb8004 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.2.2.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 51cc10f3-382e-42af-aea8-bf8d76d01d14 -->
+
+The inflow RateLimitID is: `0x196dec5babe5ad5ab0799b657e9513bbba57609e90633f53e818e6b7745f0809`
+
+###### A.6.1.1.1.2.6.1.3.2.2.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 42e05a58-9c37-43d7-9f5b-6a311b401ff9 -->
+
+The outflow RateLimitID is: `0xe7c08ddf641bb1baa2eea84708017ceae5aa1b39e13c79ccc6d4457d6a0debf5`
 
 ###### A.6.1.1.1.2.6.1.3.2.2.1.2.4 - Rate Limits [Core]  <!-- UUID: 4f689c17-28f3-4217-984d-b71eb7b97b7a -->
 
@@ -6722,7 +6922,15 @@ This parameter will be specified in a future iteration of the Spark Artifact.
 
 ###### A.6.1.1.1.2.6.1.3.2.3.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: bdb8e938-6930-4307-8d26-1e6e0e29f5d5 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.2.3.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 50bfa9e3-4d39-4c25-b71c-9807b2ee73c4 -->
+
+The inflow RateLimitID is: `0x94a37a9822c138d9a698f275c56dde7a4a8eb8405461b19c89d7d05cc82fb40f`
+
+###### A.6.1.1.1.2.6.1.3.2.3.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 1c7d02df-7ee4-492a-b102-412dc4ccdbcf -->
+
+The outflow RateLimitID is: `0xf57397bde34a547590dbd6a957d923d2821f733531f620419b2079264f91e0c9`
 
 ###### A.6.1.1.1.2.6.1.3.2.3.1.2.4 - Rate Limits [Core]  <!-- UUID: 9942de86-4cb3-4d55-a24c-7cf7cc42ea6d -->
 
@@ -6804,7 +7012,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: f6ab4108-a374-4fa6-81b2-61ca5078691f -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 5f16383b-6866-46ee-b3b8-cbaf44799113 -->
+
+The inflow RateLimitID is: `0xe30ba0cc41901c061ab58608af5bb15438df83e125392e28f39c808f1289ae6f`
+
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 3e904da0-22f8-45b8-afc7-91b609892f7e -->
+
+The outflow RateLimitID is: `0xdcd26d02a38c1b9a241da3490d844d2153bb356a1c9e86de1a6e9f9c056c60f3`
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.2.4 - Rate Limits [Core]  <!-- UUID: 74318ab4-90e3-4dd0-a21f-138a856b0c76 -->
 
@@ -6886,7 +7102,15 @@ This parameter will be specified in a future iteration of the Spark Artifact.
 
 ###### A.6.1.1.1.2.6.1.3.3.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: b89d0921-1a1f-4b1e-a074-4027c7ab19ea -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.3.2.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: c96b1620-6ae7-4301-b605-d09c8a099668 -->
+
+The inflow RateLimitID is: `0xcaf65d847338fe5e0545ae627cf023144640437b0aec3c4ea2195eaec4a7f129`
+
+###### A.6.1.1.1.2.6.1.3.3.2.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 14ba198d-3ab6-4706-a816-963fa947efe2 -->
+
+The outflow RateLimitID is: `0x48a0bf138bca29b316f00acce891e2f7275487ef4858aacbb684a16129a3e3b1`
 
 ###### A.6.1.1.1.2.6.1.3.3.2.1.2.4 - Rate Limits [Core]  <!-- UUID: 2f22951b-c30c-47f9-a102-25a854c9a002 -->
 
@@ -7090,7 +7314,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.4.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 6c79b029-bc6b-42b4-8689-c13c8105cad9 -->
 
-The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.4.1.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 36c60fda-06a8-4f44-bbb3-f11eef1bcccf -->
+
+The inflow RateLimitID is: `0x581b5aa5993137d5b9c01fd721d93f8c16162d6af91afaca8c85012faa471e75`
+
+###### A.6.1.1.1.2.6.1.3.4.1.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 8679d79d-de48-4846-a063-8f8c168eed69 -->
+
+The outflow RateLimitID is: `0xf68614de9a9127342bf636825b8bd3c32f16c3f07cde678b69f38ae0c792b91b`
 
 ###### A.6.1.1.1.2.6.1.3.4.1.1.2.4 - Rate Limits [Core]  <!-- UUID: 8e6dc8bd-4276-400a-9525-1c4e057727cf -->
 
@@ -7528,11 +7760,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 43f9fa01-68a2-4c8f-b1f4-fe775927562e -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow is:
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-- `BUIDLI_DEPOSIT`: `0xD1917664bE3FdAea377f6E8D5BF043ab5C3b1312`
-- `BUIDL_REDEEM` (Circle redeem): `0x31D3F59Ad4aAC0eeE2247c65EBE8Bf6E9E470a53`
-- `BUIDLI_REDEEM` (Offchain redeem): `0x8780Dd016171B91E4Df47075dA0a947959C34200`
+###### A.6.1.1.1.2.6.1.4.1.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 9196512a-ba80-4a8e-9f17-04b63c22cebf -->
+
+The inflow RateLimitID is: `0xd09c2dcb5e98e8da66af05a657fa6802dcc8fc3a5e6fc86a8bba565c58391288`
+
+###### A.6.1.1.1.2.6.1.4.1.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 4a9c8a11-383b-4b9d-80b1-27163479705c -->
+
+The outflow RateLimitID is: `0x377bb661ce1ad4a0a25a2f84247e85b1ebc818624a649b9af0ac7498c6dc5216`
 
 ###### A.6.1.1.1.2.6.1.4.1.1.2.4 - Rate Limits [Core]  <!-- UUID: 3a9acb95-b227-4473-aa26-95b7f25cfd8a -->
 
@@ -7610,7 +7846,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 3cd3c96e-b459-468f-a7be-f5c52c38666e -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.2.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 26859d04-329c-4f69-9462-641e717b2cc1 -->
+
+The inflow RateLimitID is: `0x4189cfa817ad13e3eec943ae079f6671a805633699fbe0d18e621aec73841da0`
+
+###### A.6.1.1.1.2.6.1.4.2.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: e0aac1cc-81bf-4f9b-9612-7f664cfda8fa -->
+
+The outflow RateLimitID is: `0xecb9c091aa267ad13453ebeb54dadc691a0b3b74b11e16fac6a7e3e4801b58de`
 
 ###### A.6.1.1.1.2.6.1.4.2.1.2.4 - Rate Limits [Core]  <!-- UUID: e5519b29-8100-4490-965b-a616729865e1 -->
 
@@ -7696,7 +7940,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: bde22f96-915b-4073-840f-ac0408aa8407 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: ed766b99-9937-401b-b056-9f91f2ad7f15 -->
+
+The inflow RateLimitID is: `0x854a144d87be6e4837fb79d8a8477475b5a6a15b4566b9c3cb1a5674ceb6ce0d`
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: c0fccd1a-2edc-4b0b-98ae-d3a1cbb4ff7f -->
+
+The outflow RateLimitID is: `0xedf3830181ac6cb4bd660183d5f65efee7f5ed6ec9225df2f19a27ad4910329a`
 
 ###### A.6.1.1.1.2.6.1.4.3.1.1.2.4 - Rate Limits [Core]  <!-- UUID: 7eaf8614-3343-4a6b-a637-8a92a7115bbb -->
 
@@ -7818,7 +8070,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.1.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 191e781d-17da-459c-9366-88d0efc8a4d8 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.1.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 8577dd5c-a5a5-45b5-826b-aedb2dfe79a9 -->
+
+The inflow RateLimitID is: `0x238482975fbb4a96f7f4a8677887283a05e1839e0979aa1fc2363c56eb6ccb57`
+
+###### A.6.1.1.1.2.6.1.4.3.1.2.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 2a5d0e0d-cec1-42df-ae92-9da6bd05de19 -->
+
+The outflow RateLimitID is: `0x3c060e71c2ad245204de74a74123474b5a99edc1b2a7bed3d88670495f941256`
 
 ###### A.6.1.1.1.2.6.1.4.3.1.2.2.4 - Rate Limits [Core]  <!-- UUID: 9a6b7691-5bdf-497d-a8d3-0421624c23c1 -->
 
@@ -7896,7 +8156,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.1.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 73b8b172-1562-4729-9d21-832bf1efdd19 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.1.3.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: d090f79b-8a51-46fc-bf72-95e5bbb255c8 -->
+
+The inflow RateLimitID is: `0xf4b68c4151118eaa6d0b749724d2cf246843a816e17b78134abd3ac53f811995`
+
+###### A.6.1.1.1.2.6.1.4.3.1.3.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 5e9eef4f-a077-44c5-92f3-5d3bda5121f5 -->
+
+The outflow RateLimitID is: `0xbb7fdbf3f31ef1c6524f1400a46d2b34ca27ea5b53331cc6631a0b56e6619ce1`
 
 ###### A.6.1.1.1.2.6.1.4.3.1.3.2.4 - Rate Limits [Core]  <!-- UUID: aa89df3f-655e-4e91-952b-41db6b7e5671 -->
 
@@ -7994,7 +8262,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 4fbb1a36-0889-4258-a7e9-0f1ab7d2b00e -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: f9f7d785-2a4a-43bc-9220-2f1c4cc2832a -->
+
+The inflow RateLimitID is: `0x5041e92a35361af376c50ab976ff373e0129565f1fc84731f756b908f3844ee7`
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 7dc248c5-85bc-4d10-a6c5-b56e95cbb76c -->
+
+The outflow RateLimitID is: `0xb7e9647023ec223b3915db7f152a784583f35fc7283d9da7c31e3aeb9e334aaa`
 
 ###### A.6.1.1.1.2.6.1.4.3.2.1.2.4 - Rate Limits [Core]  <!-- UUID: c8b82f71-acd7-4ccc-8067-ceab3bb46f53 -->
 
@@ -8076,7 +8352,19 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.3.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 8fd1f7ba-7c0b-4414-be6d-a45a1e263966 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 5ff1a262-1ed0-4270-ae32-42afbdb88b8d -->
+
+The inflow RateLimitID is: `0x99a69e57b2f387f999d6adff6eb2e707b59fdb54f06ca6211b4f20956e9bfe10`
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.3.2 - Withdraw Outflow Rate Limit ID [Core]  <!-- UUID: b0903a8e-9035-4442-a6da-febef70c72f1 -->
+
+The withdraw outflow RateLimitID is: `0x61860d069299a0e53107a063b78355ec1f7c4433cb2915e39bf235aad6fc19bb`
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.3.3 - Redeem Outflow Rate Limit ID [Core]  <!-- UUID: 8e765ea3-d5f0-4406-926a-7f2d05ad5287 -->
+
+The redeem outflow RateLimitID is: `0x64e6fd9d694640eebeeefc7b5abe32ef09bbabaa3d4e60221461d05a9577dc57`
 
 ###### A.6.1.1.1.2.6.1.4.3.3.1.2.4 - Rate Limits [Core]  <!-- UUID: d3641a4d-6104-4dc9-90ff-d4c7d1766917 -->
 
@@ -8154,9 +8442,19 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.3.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: efc9f35a-40e1-4847-8a48-06eda4d17d85 -->
 
-- `deposit`: `0x207bb548ee62bbfd7b6906087f0de38e6c19d5be908e83166c0f089ccc2d97eb`
-- `withdraw`: `0xe701ee8a9573df3a49595c8d32a8df7809120a0541dd386e9bf54c148d969707`
-- `redeem`: `0x0562da8d8466582e6dc86134ab2ec5656cb4e3d5b57650f6bb1a0f3683bea329`
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.3.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 9721126a-6c55-4ebb-9946-b444c2a867a7 -->
+
+The inflow RateLimitID is: `0x207bb548ee62bbfd7b6906087f0de38e6c19d5be908e83166c0f089ccc2d97eb`
+
+###### A.6.1.1.1.2.6.1.4.3.3.2.2.3.2 - Withdraw Outflow Rate Limit ID [Core]  <!-- UUID: f85b4e67-eba9-4d98-8519-70bbce68a2fa -->
+
+The withdraw outflow RateLimitID is: `0xe701ee8a9573df3a49595c8d32a8df7809120a0541dd386e9bf54c148d969707`
+
+###### A.6.1.1.1.2.6.1.4.3.3.2.2.3.3 - Redeem Outflow Rate Limit ID [Core]  <!-- UUID: 75bf17ec-b4e8-44a9-94b6-9a7ecbda7b95 -->
+
+The redeem outflow RateLimitID is: `0x0562da8d8466582e6dc86134ab2ec5656cb4e3d5b57650f6bb1a0f3683bea329`
 
 ###### A.6.1.1.1.2.6.1.4.3.3.2.2.4 - Rate Limits [Core]  <!-- UUID: dfab21ad-13a4-48dd-8398-0c3d7dbc8996 -->
 
@@ -8247,7 +8545,15 @@ This parameter will be specified in a future iteration of the Spark Artifact.
 
 ###### A.6.1.1.1.2.6.1.4.3.4.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: cc7955d0-0214-48cf-bc2b-7fc0692ef755 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.4.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 46f354e9-d790-4993-a164-43fe4e53e985 -->
+
+The inflow RateLimitID is: `0x5def078412c37c191fd2d189c95907ded1a100c5252bc3d643bb619866954517`
+
+###### A.6.1.1.1.2.6.1.4.3.4.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 178e3e63-e5d3-4fb2-987a-77b11c7ccf09 -->
+
+The outflow RateLimitID is: `0x88fe4304240f9fdabd8d614954877c91faacf3746c24df5803bac9e49977b63b`
 
 ###### A.6.1.1.1.2.6.1.4.3.4.1.2.4 - Rate Limits [Core]  <!-- UUID: 54992e68-12d5-4036-9a7c-36403a2e17f8 -->
 
@@ -8443,7 +8749,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.4.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 6364f050-3634-4baa-8032-cd5d964f2c80 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.4.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: ff3d3c58-0084-4c99-b5a5-73645f96237b -->
+
+The inflow RateLimitID is: `0xb325c0ff75181212a5ebf6d4980bd585c5a6e4247f4045365525789fc34115a1`
+
+###### A.6.1.1.1.2.6.1.4.3.4.2.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: bfa7db51-1f13-4f91-a1fb-d0144ed571f5 -->
+
+The outflow RateLimitID is: `0xdbd6b16a066c313d3b984d4f2d682f97665d1912ea24d2b7e0f3ba43aa0493c5`
 
 ###### A.6.1.1.1.2.6.1.4.3.4.2.2.4 - Rate Limits [Core]  <!-- UUID: 3370ffb9-c14a-46ee-9b08-b54ce3296ae8 -->
 
@@ -8632,11 +8946,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.5.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 8e52e9d6-6cb0-44e9-9068-21257c1cde34 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow is:
+The specific `RateLimitID` for this conduit’s inflow operation is defined in the subdocument herein.
 
-- `USTB_DEPOSIT`: `0x43415eB6ff9DB7E26A15b704e7A3eDCe97d31C4e`
-- `USTB_REDEEM`: `0x43415eB6ff9DB7E26A15b704e7A3eDCe97d31C4e`
-- `USTB_REDEEM` (instant liquidity): `0x4c21B7577C8FE8b0B0669165ee7C8f67fa1454Cf`
+###### A.6.1.1.1.2.6.1.4.3.5.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 1862cc2f-aadf-476a-94d3-818c4deb4396 -->
+
+The inflow RateLimitID is: `0x213c645fc0f2b08264743dd819fb1d54d9a3d9d1eab0fa654e1a7bf7b22ee796`
 
 ###### A.6.1.1.1.2.6.1.4.3.5.1.2.4 - Rate Limits [Core]  <!-- UUID: 69e164bc-ef0c-4d74-a17d-e56bf498b7e0 -->
 
@@ -8718,7 +9032,19 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.6.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: e8833ae1-fdee-4e35-9e83-586c0289c6fd -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow, outflow, and swap are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.6.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 8934e466-332f-44c9-a878-2513675416fc -->
+
+The inflow RateLimitID is: `0xd7fba7fc1cf1f233065b9996a7bc0c56ff82f6f4f2ed2de83cfd883310ef49a4`
+
+###### A.6.1.1.1.2.6.1.4.3.6.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 5005f2cd-fd2b-4564-867b-eae12367eddc -->
+
+The outflow RateLimitID is: `0xe07b0ea520dc5ee2934a0abfb8c3f740f174f63d43d3818098cf63a7fb7b5e1d`
+
+###### A.6.1.1.1.2.6.1.4.3.6.1.2.3.3 - Swap Rate Limit ID [Core]  <!-- UUID: f93415c5-7ed5-41a6-8d21-a9fd8c51059c -->
+
+The swap RateLimitID is: `0x6ecd34793e8e86d04ca0ce85ba5fae8ea60ef377a66ef899971a12cd7e4465b9`
 
 ###### A.6.1.1.1.2.6.1.4.3.6.1.2.4 - Rate Limits [Core]  <!-- UUID: 408f0d03-44cb-4e6f-b330-5782be816567 -->
 
@@ -8806,7 +9132,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.6.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 25c72eb6-9a21-4592-b6f1-cede0644b607 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID` for this conduit’s swap operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.4.3.6.2.2.3.1 - Swap Rate Limit ID [Core]  <!-- UUID: 614ea385-84c3-4980-b77f-35bf29a2727d -->
+
+The swap RateLimitID is: `0xf7b25c9c2271b2ca2eeb360bd75f3f8061873ecdaf5b09b2c265698a1f284df6`
 
 ###### A.6.1.1.1.2.6.1.4.3.6.2.2.4 - Rate Limits [Core]  <!-- UUID: f2389063-4d57-4f28-844c-d63c991c5568 -->
 
@@ -8884,7 +9214,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.6.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: c3d92c36-70ae-46f3-b887-64bb8419072c -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID` for this conduit’s swap operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.4.3.6.3.2.3.1 - Swap Rate Limit ID [Core]  <!-- UUID: 204f7c26-7185-4589-af0b-3e1d32b8076c -->
+
+The swap RateLimitID is: `0x1b5b6f5ec735936a8e2c00cf79b4b3792cdcafa0def485915bf9043acbcce95f`
 
 ###### A.6.1.1.1.2.6.1.4.3.6.3.2.4 - Rate Limits [Core]  <!-- UUID: 18e7ddf1-71e2-40fd-b74d-8ad6312b9a38 -->
 
@@ -8960,7 +9294,19 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.6.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: b86c4730-0a55-4a86-8c08-b01619e55e28 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow, outflow, and swap are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.6.4.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 72b0a1d5-1a47-4c16-9051-ca6530ed0a5e -->
+
+The inflow RateLimitID is: `0x23f0b7e90ae68401f3f750f7f68d8fd7672df7be6c96e52b546ee95c757e8c56`
+
+###### A.6.1.1.1.2.6.1.4.3.6.4.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: bae2e130-948e-4fed-b223-b95786a442a7 -->
+
+The outflow RateLimitID is: `0x35c08f6f007bfb643d7ff698f19c21267c6163f34d703b2dbd32da948f39737a`
+
+###### A.6.1.1.1.2.6.1.4.3.6.4.2.3.3 - Swap Rate Limit ID [Core]  <!-- UUID: 02766706-c45d-4db7-bafc-78d7dd317d59 -->
+
+The swap RateLimitID is: `0x495d2d5778d2cbf1ff13da2634eb38b1c7cfc08d120249eb740c796e40d80fb1`
 
 ###### A.6.1.1.1.2.6.1.4.3.6.4.2.4 - Rate Limits [Core]  <!-- UUID: 82a8a51a-1650-438b-bdf4-3dc1b41132f3 -->
 
@@ -9050,7 +9396,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.6.5.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7fabde01-b8a5-4226-85d4-b25f55d93b12 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID` for this conduit’s swap operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.4.3.6.5.2.3.1 - Swap Rate Limit ID [Core]  <!-- UUID: 19feabe3-3c62-418d-b9ce-748f5bb815b6 -->
+
+The swap RateLimitID is: `0x6ccaf14bc4a89b4c988ffb6fb6adef1e48cebabcf13b8c15059e8167e12622d7`
 
 ###### A.6.1.1.1.2.6.1.4.3.6.5.2.4 - Rate Limits [Core]  <!-- UUID: dac0cadf-a966-40d3-b739-09a0baceea30 -->
 
@@ -9136,7 +9486,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.7.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: a7508ca1-0132-4a94-9efd-2288a30c3220 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID` for this conduit’s transfer operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.4.3.7.1.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: b41e7469-5ae1-45c0-8be5-f9168a700839 -->
+
+The transfer RateLimitID is: `0x3c330feaef1a941a409c78d7ac0a1c45e22b83aab4bb2c0e89ecf0251db6631e`
 
 ###### A.6.1.1.1.2.6.1.4.3.7.1.2.4 - Rate Limits [Core]  <!-- UUID: 132f9c53-0f2d-4e0a-9adb-649eadf9d95f -->
 
@@ -9201,7 +9555,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.7.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 435ca83e-fbd7-4ace-866d-8ffc9388118c -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID` for this conduit’s transfer operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.4.3.7.2.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: c6f1e3d7-a29c-468e-8abb-d6dc7c913741 -->
+
+The transfer RateLimitID is: `0x70b523f60b992e0e42182b83eccedb7747e22709d21f386be527e0c58436c4ae`
 
 ###### A.6.1.1.1.2.6.1.4.3.7.2.2.4 - Rate Limits [Core]  <!-- UUID: b494026e-d3bc-4122-bac3-98ea1d7436b0 -->
 
