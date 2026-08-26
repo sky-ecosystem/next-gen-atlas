@@ -3663,6 +3663,7 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
+- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.1.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 69f08826-c669-4407-84b4-bade022c2357 -->
 
@@ -3744,6 +3745,7 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
+- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.1.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 126b8574-c161-4c0e-b7a6-a5ceb032a395 -->
 
@@ -3825,6 +3827,7 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
+- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.1.5.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 74c6841c-6608-4673-9baa-ffea94f9f699 -->
 
@@ -3906,6 +3909,7 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
+- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.1.6.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: ab2d6946-b18e-4199-a27c-61f44dd1fe7a -->
 
@@ -4160,14 +4164,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 The inflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: 50,000,000 USDS per day
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6dc14672-e655-49fd-a351-45537408c74b -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: Unlimited
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 25a46c53-dca4-43ef-876a-64b5cea91fb6 -->
 
@@ -4402,14 +4406,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 The inflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: 25,000,000 USDC per day
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.1.2.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 89b3f4e4-c845-4a6c-bdce-a383bf11a947 -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: Unlimited
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.1.2.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 9ff8418d-457e-4ce3-83c4-18c5ae3b35d7 -->
 
@@ -4484,14 +4488,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 The inflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: 25,000,000 USDS per day
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.1.2.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: c02c329a-9e38-472b-ae0f-b2974694982e -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: Unlimited
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.1.2.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 07ce54dc-92dd-4f7e-a9ef-53760b999de7 -->
 
@@ -4652,14 +4656,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 The inflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: 5,000,000 sUSDS per day
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.1.3.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 67155bd0-093a-49ff-9b96-eb6a8aa22c68 -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: 5,000,000 fsUSDS per day
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.1.3.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1591a545-a8c6-4a41-aeea-f92d4fa30510 -->
 
@@ -5015,8 +5019,8 @@ The inflow rate limits are:
 
 The outflow rate limits are:
 
-- `maxAmount`: This parameter will be specified in a future iteration of the Spark Artifact.
-- `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
+- `maxAmount`: Unlimited
+- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 564ac34b-aa6c-46ec-9fd4-9f7caed7c31b -->
 
@@ -5684,6 +5688,7 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
+- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.7.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 389d1003-434b-4acb-a0db-7a587a5ee006 -->
 
@@ -5991,6 +5996,7 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
+- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 794cfe55-5989-42c3-8656-8ec5c2f0d280 -->
 
@@ -6092,6 +6098,7 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
+- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: a339eb67-4bea-4fcb-aeca-6fcaba0d7ebb -->
 
@@ -6730,15 +6737,15 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 100,000,00 USDC
-- `slope`: 50,000,00 USDC per day
+- `maxAmount`: 100,000,000 USDC
+- `slope`: 50,000,000 USDC per day
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 63e50c95-64fd-4266-86c0-096681fa54e6 -->
 
 The outflow rate limits are:
 
-- `maxAmount`: This parameter will be specified in a future iteration of the Spark Artifact.
-- `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
+- `maxAmount`: Unlimited
+- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1249bc92-d66d-4ffc-bc42-a0184cbef5cb -->
 
@@ -6851,14 +6858,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 The inflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: 5,000,000 USDS per day
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.2.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: f8a431bd-2d0b-4d60-886c-6e3dac42989e -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: 5,000,000 fsUSDS per day
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.2.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 00f6c298-eb05-4c7a-b83c-5bc80a283104 -->
 
@@ -6941,14 +6948,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 The inflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: 25,000,000 USDC per day
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.2.3.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 89e0b1fb-f660-4cf2-8977-ccb872854ced -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: Unlimited
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.2.3.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 93b85c6b-8dff-420e-9f5a-c8c10390ef86 -->
 
@@ -7031,14 +7038,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 The inflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: 5,000,000 USDS per day
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 4abd5303-6a27-42fa-8128-4c6e65f089ee -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: 5,000,000 fsUSDS per day
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: ac2eb45f-a059-4dcc-9af4-baa1bbd60e3c -->
 
@@ -7121,14 +7128,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 The inflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: 50,000,000 USDC per day
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.3.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 254af84a-fe4c-471f-bc8c-dde31c728141 -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: Unlimited
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.3.3.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 4a10347b-02ab-47f4-8a13-b2b526fde198 -->
 
@@ -7779,14 +7786,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 The inflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.4.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 1fc9d6f3-3996-4245-a096-53dad4a624ea -->
 
 The outflow rate limits are:
 
-- `maxAmount`: This parameter will be specified in a future iteration of the Spark Artifact.
-- `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.4.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: dd3dffeb-7157-46dc-bf65-f5c8d5bf9fc8 -->
 
@@ -7865,14 +7872,14 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 The inflow rate limits are:
 
 - `maxAmount`: 0
-- `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.4.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 997c0581-022d-4fdd-8fde-cb43d58c8940 -->
 
 The outflow rate limits are:
 
-- `maxAmount`: This parameter will be specified in a future iteration of the Spark Artifact.
-- `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.4.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 5ab63d35-c3d1-4ea6-924c-2d56bcd68295 -->
 
