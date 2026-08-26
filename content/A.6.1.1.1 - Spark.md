@@ -3913,11 +3913,11 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow are define
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 51ca0f21-fe3f-429a-9e1e-51a5b5a88530 -->
 
-The inflow RateLimitID is: `0x16a57c0ac8c587a6a7eda4ef9dcdfe617437ee5f0f756e779e2735f4761b986e`
+The inflow RateLimitID is: `0x1b85c6dcb1500a52ab5b96e4faebe10ce8fee8bf7db19356e34bce353a33bee1`
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 45befe44-4709-4e22-8561-b7d6e3dbf57a -->
 
-The outflow RateLimitID is: `0xa3d83f1c04eb1df0122d14485a715e955fe7e5b6046b15aec0c4fb0214e8f613`
+The outflow RateLimitID is: `0x3dac42b53ac4e5ae3e4d95cee6c929599bc61a3a1e8205db089933c1ad66b005`
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.4 - Rate Limits [Core]  <!-- UUID: 62030b20-0176-4be0-aa88-6c093de7e08d -->
 
