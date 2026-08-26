@@ -3909,7 +3909,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.3 - Rate Limit IDs [Core]  <!-- UUID: af2aeb2f-66db-4cb0-b88c-37556e98ae75 -->
 
-The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 51ca0f21-fe3f-429a-9e1e-51a5b5a88530 -->
+
+The inflow RateLimitID is: `0x16a57c0ac8c587a6a7eda4ef9dcdfe617437ee5f0f756e779e2735f4761b986e`
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 45befe44-4709-4e22-8561-b7d6e3dbf57a -->
+
+The outflow RateLimitID is: `0xa3d83f1c04eb1df0122d14485a715e955fe7e5b6046b15aec0c4fb0214e8f613`
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.4 - Rate Limits [Core]  <!-- UUID: 62030b20-0176-4be0-aa88-6c093de7e08d -->
 
@@ -3927,6 +3935,7 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
+- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.3 - Maximum Slippage [Core]  <!-- UUID: a19c6537-48a2-4614-a5d8-c911bfc65fc1 -->
 
