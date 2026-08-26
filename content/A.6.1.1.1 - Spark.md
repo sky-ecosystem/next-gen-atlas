@@ -3930,7 +3930,7 @@ The outflow rate limits are:
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.3 - Maximum Slippage [Core]  <!-- UUID: a19c6537-48a2-4614-a5d8-c911bfc65fc1 -->
 
-- Max slippage: 0.001%
+- `maxSlippage`: 0.001%
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1845cdd8-f900-4320-9e43-e6bdb476f4fa -->
 
