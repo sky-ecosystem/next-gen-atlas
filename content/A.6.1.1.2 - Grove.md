@@ -2254,6 +2254,12 @@ Any changes to the Multisig signers that do not fall within the two exceptions l
 
 Grove is authorized to swap USD stablecoins held in the Grove SubProxy Account, as specified in [A.6.1.1.2.2.1.1.3.1.1.2 - SubProxy Account](d143241d-5819-432d-a6ba-892961502838), to USDS. Such swaps must be executed at a rate of approximately 1:1 (divergence not to exceed 0.1%) and each swap must be documented in a Forum post under the "Grove Prime" category, containing the Technical Scope as specified in [A.1.10.2.3.2.2.3.2.2 - Prime Agent Publishes Spell Actions On Sky Forum](2c577553-830f-4b9f-ab5f-dddd0fd62cfa). Swaps meeting these requirements may be included directly in a Grove Spell submitted to a Sky Executive Vote, with no prior token holder vote needed.
 
+###### A.6.1.1.2.2.6.1.2.1.2.4 - Uniswap V3 Fee Collection Authorization [Core]  <!-- UUID: d5795f02-ce01-4479-a69e-259ce9bd63d2 -->
+
+Grove is authorized to collect fees accrued on Uniswap V3 positions held by the monolithic Grove ALM Proxy, as specified in [A.6.1.1.2.2.6.1.2.1.1.1.2.1.5 - ALM Proxy (Mainnet) Contract](fda13ac2-b3ed-4b2a-9be6-9247632dafe3) — distinct from the Diamond PAU's own ALM Proxy. Such collections must direct the collected fees to the Grove ALM Proxy.
+
+Collections authorized under this provision may be included directly in a Grove Spell submitted to a Sky Executive Vote and documented as part of the spell's published actions, as specified in [A.1.10.2.3.2.2.3.2.2 - Prime Agent Publishes Spell Actions On Sky Forum](2c577553-830f-4b9f-ab5f-dddd0fd62cfa).
+
 ###### A.6.1.1.2.2.6.1.2.1.3 - Total Risk Capital (TRC) Management [Core]  <!-- UUID: 3567039f-c74a-4f4c-85c9-e68ac880009a -->
 
 The documents herein specify requirements related to Grove’s Total Risk Capital (TRC) management.
