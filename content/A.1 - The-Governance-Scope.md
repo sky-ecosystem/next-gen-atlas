@@ -5365,7 +5365,7 @@ Currently, in the transition to Endgame, the Immutable Documents (Articles and S
 
 ##### A.1.11.2.1.2 - Origination Via Forum Post [Core]  <!-- UUID: 2891a392-d5ca-45a5-80ca-ad2afaf5baa1 -->
 
-The Author of an Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "Proposal") must post the Proposal in the Sky Forum in the appropriate category and signal their intent to submit the Proposal to the Weekly Cycle.
+The Author of an Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "Proposal") must post the Proposal in the Sky Forum in the appropriate category and signal their intent to submit the Proposal to the Atlas Edit Weekly Cycle.
 
 ##### A.1.11.2.1.3 - Triggering Requirement [Core]  <!-- UUID: cef09d74-efc6-45cc-a75b-1132dae9e743 -->
 
