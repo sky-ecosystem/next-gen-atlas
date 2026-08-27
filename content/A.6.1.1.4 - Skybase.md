@@ -100,7 +100,7 @@ The Skybase Foundation is the Prime Foundation associated with Skybase. Its mand
 
 ###### A.6.1.1.4.2.1.1.3.1.1.6 - Development Company [Core]  <!-- UUID: 095eabf8-26a4-484a-bdb7-b581799f4679 -->
 
-Skybase's Development Company will be updated in a future iteration of the Artifact.
+Ekliptyka is a development company that provides services to the Skybase Foundation.
 
 ###### A.6.1.1.4.2.1.1.3.1.2 - Operational Process Definition [Core]  <!-- UUID: c38b8c86-828d-4d31-9ce6-0ba8d8694f1f -->
 
