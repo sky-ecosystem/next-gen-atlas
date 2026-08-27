@@ -10110,11 +10110,35 @@ The current pyUSD risk parameters are:
 - Isolated Borrowing: No
 - Siloed Borrowing: No
 
-###### A.6.1.1.1.3.2.1.1.2.1.19 - Total Flash Loan Fee Current Value [Core]  <!-- UUID: fdd544f0-fa59-42f5-afb8-290cd812eb35 -->
+###### A.6.1.1.1.3.2.1.1.2.1.19 - USDG Risk Parameters [Core]  <!-- UUID: 119a4bbf-9a37-4a2c-bac9-11e969244bfe -->
+
+The current USDG risk parameters are:
+
+- LTV: 0%
+- Liquidation Threshold: 0%
+- E-mode Category: N/A
+- Liquidation Bonus: 0%
+- Reserve Factor: 10%
+- Supply Cap: Unlimited
+- Borrow Cap: Unlimited
+- Optimal Utilization: 95%
+- Isolated Debt Ceiling: N/A
+- Base Rate: SSR
+- Slope 1: 0.3%
+- Slope 2: 15%
+- Reserve State: Active
+- Collateral: No
+- Borrowing: Yes
+- Isolated Collateral: No
+- Isolated Borrowing: No
+- Siloed Borrowing: No
+- Flash Loan Enabled: Yes
+
+###### A.6.1.1.1.3.2.1.1.2.1.20 - Total Flash Loan Fee Current Value [Core]  <!-- UUID: fdd544f0-fa59-42f5-afb8-290cd812eb35 -->
 
 The Total Flash Loan Fee is 0.00%.
 
-###### A.6.1.1.1.3.2.1.1.2.1.20 - Protocol Flash Loan Fee Current Value [Core]  <!-- UUID: 086d81f6-e8e2-4693-996f-6ccb62ee362b -->
+###### A.6.1.1.1.3.2.1.1.2.1.21 - Protocol Flash Loan Fee Current Value [Core]  <!-- UUID: 086d81f6-e8e2-4693-996f-6ccb62ee362b -->
 
 The Protocol Flash Loan Fee is 0.00%.
 
