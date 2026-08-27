@@ -2254,6 +2254,12 @@ Any changes to the Multisig signers that do not fall within the two exceptions l
 
 Grove is authorized to swap USD stablecoins held in the Grove SubProxy Account, as specified in [A.6.1.1.2.2.1.1.3.1.1.2 - SubProxy Account](d143241d-5819-432d-a6ba-892961502838), to USDS. Such swaps must be executed at a rate of approximately 1:1 (divergence not to exceed 0.1%) and each swap must be documented in a Forum post under the "Grove Prime" category, containing the Technical Scope as specified in [A.1.10.2.3.2.2.3.2.2 - Prime Agent Publishes Spell Actions On Sky Forum](2c577553-830f-4b9f-ab5f-dddd0fd62cfa). Swaps meeting these requirements may be included directly in a Grove Spell submitted to a Sky Executive Vote, with no prior token holder vote needed.
 
+###### A.6.1.1.2.2.6.1.2.1.2.4 - Uniswap V3 Fee Collection Authorization [Core]  <!-- UUID: d5795f02-ce01-4479-a69e-259ce9bd63d2 -->
+
+Grove is authorized to collect fees accrued on Uniswap V3 positions held by the monolithic Grove ALM Proxy, as specified in [A.6.1.1.2.2.6.1.2.1.1.1.2.1.5 - ALM Proxy (Mainnet) Contract](fda13ac2-b3ed-4b2a-9be6-9247632dafe3) — distinct from the Diamond PAU's own ALM Proxy. Such collections must direct the collected fees to the Grove ALM Proxy.
+
+Collections authorized under this provision may be included directly in a Grove Spell submitted to a Sky Executive Vote and documented as part of the spell's published actions, as specified in [A.1.10.2.3.2.2.3.2.2 - Prime Agent Publishes Spell Actions On Sky Forum](2c577553-830f-4b9f-ab5f-dddd0fd62cfa).
+
 ###### A.6.1.1.2.2.6.1.2.1.3 - Total Risk Capital (TRC) Management [Core]  <!-- UUID: 3567039f-c74a-4f4c-85c9-e68ac880009a -->
 
 The documents herein specify requirements related to Grove’s Total Risk Capital (TRC) management.
@@ -8268,11 +8274,11 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 8cf235df-5cf8-42d3-8a10-8d408a90f56d -->
 
-Total exposure through this Instance may not exceed 5,000,000 USDS.
+Total exposure through this Instance may not exceed 10,000,000 USDS.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.2.5.2 - CRR [Core]  <!-- UUID: 1b49ac8a-e3bd-4764-bb6f-497b2c8c203c -->
 
-The CRR for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 100%.
+The CRR for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 25%.
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: e6340bc2-ea2a-4df6-802c-1d68ce5d653d -->
 
@@ -8473,11 +8479,11 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 2100ad73-d516-405f-a65d-5a05af6e6f55 -->
 
-Total exposure through this Instance may not exceed 5,000,000 USDS.
+Total exposure through this Instance may not exceed 12,500,000 USDS.
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.2 - CRR [Core]  <!-- UUID: ea4b41a7-1ce9-4bf9-bd71-3cfadd9ce8e0 -->
 
-The CRR for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 25%.
+The CRR for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 10%.
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.3 - Rate Limits [Core]  <!-- UUID: 6487bd5d-34d0-4430-81fa-99c644abae0f -->
 
