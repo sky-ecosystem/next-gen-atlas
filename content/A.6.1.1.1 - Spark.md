@@ -590,11 +590,7 @@ To see the Agent’s Nested Contributors, see [A.6.1.1.1.2.1.1.3.1.1.5 - Develop
 
 Until the Powerhouse system supports submitting Artifact Edit Proposals, SPK token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Spark Prime" category. The title of the post must include the text "Spark Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total SPK token supply specified in [A.6.1.1.1.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](c9f7cc6e-0548-4599-9f9d-bfa1d2bb7577).
 
-###### A.6.1.1.1.2.2.2.2.1.2.1.2 - Root Edit Expert Advisor Review [Core]  <!-- UUID: 67fec75c-8289-4535-90bf-414417608254 -->
-
-All Spark Root Edit proposals must be reviewed by the Spark Risk Council. The mandate, scope, and review process of the SRC are specified in [A.6.1.1.1.3.1.4 - Spark Risk Council](cf019fb3-d792-4867-abf7-cfe4d0b73e5d).
-
-###### A.6.1.1.1.2.2.2.2.1.2.1.3 - Root Edit Proposal Review By Operational Facilitator [Core]  <!-- UUID: 32bad904-ba90-4abb-9115-0b304a792521 -->
+###### A.6.1.1.1.2.2.2.2.1.2.1.2 - Root Edit Proposal Review By Operational Facilitator [Core]  <!-- UUID: 32bad904-ba90-4abb-9115-0b304a792521 -->
 
 Within seven (7) days of the proposal being submitted, the Operational Facilitator must review the Root Edit Proposal for alignment. The Operational Facilitator also checks if the author of the proposal complies with the requirements in [A.6.1.1.1.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](c9f7cc6e-0548-4599-9f9d-bfa1d2bb7577).
 
@@ -602,25 +598,25 @@ If the proposal is aligned, and the author is entitled to submit it, the Operati
 
 If the proposal is misaligned, or the author is not entitled to submit it, the Operational Facilitator must respond to the Forum post to announce their finding and provide the reasoning for it.
 
-###### A.6.1.1.1.2.2.2.2.1.2.1.4 - Root Edit Token Holder Vote [Core]  <!-- UUID: b60cfc4e-4cc5-4040-9610-f2113980831b -->
+###### A.6.1.1.1.2.2.2.2.1.2.1.3 - Root Edit Token Holder Vote [Core]  <!-- UUID: b60cfc4e-4cc5-4040-9610-f2113980831b -->
 
-Where their review of the proposal results in a finding of alignment with the Sky Core Atlas and Spark Artifact, and where the proposal passes review by the SRC (defined as "Passed SRC Review" in [A.6.1.1.1.3.1.4.3.1 - SRC Risk Review](968b4807-8032-42a3-b09d-f787cdb4ef87).), the Operational Facilitator next triggers a Snapshot poll to allow token holders to vote on the proposal. Token holders may vote directly or through Delegates. See [A.6.1.1.1.3.1.3 - Delegation Framework](afa6a37e-e7f1-4efb-bca7-f02bbbf5cf26). The poll is open for three (3) days. A poll must have more than 50% of votes cast, excluding abstentions, in favor to be approved.
+Where their review of the proposal results in a finding of alignment with the Sky Core Atlas and Spark Artifact, the Operational Facilitator next triggers a Snapshot poll to allow token holders to vote on the proposal. Token holders may vote directly or through Delegates. See [A.6.1.1.1.3.1.3 - Delegation Framework](afa6a37e-e7f1-4efb-bca7-f02bbbf5cf26). The poll is open for three (3) days. A poll must have more than 50% of votes cast, excluding abstentions, in favor to be approved.
 
 Spark’s governance runs in a weekly cycle that begins every Monday. Upon receiving all approvals, the proposal is automatically included in the next cycle. The cut-off time is Friday 8:00 am UTC to ensure the Operational Facilitator has sufficient time to prepare the needed polls for the following Monday. After the cut-off time, it is at the discretion of the Operational Facilitator whether the proposal can be included in the immediate next cycle, or the following cycle.
 
-###### A.6.1.1.1.2.2.2.2.1.2.1.5 - Root Edit Artifact Update [Core]  <!-- UUID: a9cecbeb-6f07-46fa-b5ad-68dd8ae4b0f0 -->
+###### A.6.1.1.1.2.2.2.2.1.2.1.4 - Root Edit Artifact Update [Core]  <!-- UUID: a9cecbeb-6f07-46fa-b5ad-68dd8ae4b0f0 -->
 
 At the conclusion of the poll, if the proposal is approved, the Operational Facilitator submits the edit to Powerhouse to formally update the Agent Artifact. Regardless of the outcome, the Operational Facilitator updates the Powerhouse System to include the result of the vote, including any pertinent documents.
 
-###### A.6.1.1.1.2.2.2.2.1.2.1.5.1 - Short Term Transitionary Measures [Core]  <!-- UUID: 6a9b3956-c4f0-4f59-bc7d-2028a642fc19 -->
+###### A.6.1.1.1.2.2.2.2.1.2.1.4.1 - Short Term Transitionary Measures [Core]  <!-- UUID: 6a9b3956-c4f0-4f59-bc7d-2028a642fc19 -->
 
 Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect proposals approved by Prime Governance.
 
-###### A.6.1.1.1.2.2.2.2.1.2.1.6 - Artifact Edit Restrictions [Core]  <!-- UUID: 535cd1c9-1d4d-42e3-bb44-6c128690dd2d -->
+###### A.6.1.1.1.2.2.2.2.1.2.1.5 - Artifact Edit Restrictions [Core]  <!-- UUID: 535cd1c9-1d4d-42e3-bb44-6c128690dd2d -->
 
 The Spark Artifact cannot be edited in any way that violates the Sky Core Atlas or its specifications of the Sky Primitives, or in any way that is otherwise misaligned. The Operational Facilitator must enforce this rule through their review of Artifact Edit Proposals.
 
-###### A.6.1.1.1.2.2.2.2.1.2.1.6.1 - Time-Limited Root Edit Restrictions On Removal Of Nested Contributors [Core]  <!-- UUID: cc60f445-1ed9-479e-9b44-00de9884a7b5 -->
+###### A.6.1.1.1.2.2.2.2.1.2.1.5.1 - Time-Limited Root Edit Restrictions On Removal Of Nested Contributors [Core]  <!-- UUID: cc60f445-1ed9-479e-9b44-00de9884a7b5 -->
 
 For a period of three years after June 4, 2025, any Artifact Edit that would have the effect of removing a Nested Contributor must be approved by a vote of SKY holders in addition to a vote of SPK holders to be effective.
 
@@ -1377,6 +1373,10 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 ###### A.6.1.1.1.2.6.1.1.2.1.1.6 - Ethereum Mainnet - SparkLend ETH Instance Configuration Document Location [Core]  <!-- UUID: baa53679-f8ba-4e8c-99dd-668638dd94b7 -->
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.1.6 - Ethereum Mainnet - SparkLend ETH Instance Configuration Document](1eb4affe-3116-4d17-a3c1-0a06b6ac618b).
+
+###### A.6.1.1.1.2.6.1.1.2.1.1.7 - Ethereum Mainnet - SparkLend USDG Instance Configuration Document Location [Core]  <!-- UUID: 6df6ffc9-af60-4dbc-aae7-dfb774044f08 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.1.7 - Ethereum Mainnet - SparkLend USDG Instance Configuration Document](ebcb1f09-ebfe-4254-9d34-4c6c3ec8ee9f).
 
 ###### A.6.1.1.1.2.6.1.1.2.1.2 - Aave [Core]  <!-- UUID: b9745e5e-26bf-4abe-bff1-f3fdcfa93aca -->
 
@@ -3856,6 +3856,92 @@ The outflow rate limits are:
 The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.1.6.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1f909758-9b95-4e50-ba97-4688157d02a5 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7 - Ethereum Mainnet - SparkLend USDG Instance Configuration Document [Core]  <!-- UUID: ebcb1f09-ebfe-4254-9d34-4c6c3ec8ee9f -->
+
+The documents herein contain the Instance Configuration Document for the SparkLend USDG Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.1 - RRC Framework Full Implementation [Core]  <!-- UUID: b02679f1-bcd4-47d6-b6c7-e05caabae236 -->
+
+**`Covered`**
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2 - Parameters [Core]  <!-- UUID: 2934278d-ed27-41db-bb08-8ca136dbade5 -->
+
+The documents herein define the parameters of the SparkLend USDG Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.1 - Instance Identifiers [Core]  <!-- UUID: 695208c9-f84b-4f81-9fc5-983d85ee26e6 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.1.1 - Network [Core]  <!-- UUID: 8d3c524d-2e9d-45c0-930d-23a351f8bcd2 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.1.2 - Target Protocol [Core]  <!-- UUID: 415f35ec-8931-4bb5-9cb3-daca9f989953 -->
+
+SparkLend Protocol
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 8d834214-1112-4d9a-892d-c64017306579 -->
+
+USDG
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.1.4 - Token [Core]  <!-- UUID: c87230d5-549d-48dd-9d63-3f6aa92c7412 -->
+
+spUSDG
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.2 - Contract Addresses [Core]  <!-- UUID: 054066c8-189d-4d21-9314-ff2403a4c032 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.2.1 - Token Address [Core]  <!-- UUID: 2bd12211-9629-4859-839b-75872d6e4d76 -->
+
+`0x6f335538257ef440F3c51e925a5C820f722a1F9F`
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 00550b09-0602-4050-8acf-c8fae3817298 -->
+
+`0xe343167631d89B6Ffc58B88d6b7fB0228795491D`
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.3 - Rate Limit IDs [Core]  <!-- UUID: af2aeb2f-66db-4cb0-b88c-37556e98ae75 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 51ca0f21-fe3f-429a-9e1e-51a5b5a88530 -->
+
+The inflow RateLimitID is: `0x1b85c6dcb1500a52ab5b96e4faebe10ce8fee8bf7db19356e34bce353a33bee1`
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 45befe44-4709-4e22-8561-b7d6e3dbf57a -->
+
+The outflow RateLimitID is: `0x3dac42b53ac4e5ae3e4d95cee6c929599bc61a3a1e8205db089933c1ad66b005`
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.4 - Rate Limits [Core]  <!-- UUID: 62030b20-0176-4be0-aa88-6c093de7e08d -->
+
+The current `maxAmount`, `slope`, and slippage for this conduit's inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 962d5d73-55e7-435b-b95d-fd474dd17d14 -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 100,000,000 USDG
+- `slope`: 100,000,000 USDG per day
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6045e7e1-1341-4fb2-8868-927a3414c8b8 -->
+
+The outflow rate limits are:
+
+- `maxAmount`: Unlimited
+- `slope`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.3 - Maximum Slippage [Core]  <!-- UUID: a19c6537-48a2-4614-a5d8-c911bfc65fc1 -->
+
+- `maxSlippage`: 0.001%
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1845cdd8-f900-4320-9e43-e6bdb476f4fa -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.1.7.3 - Instance-specific Operational Processes [Core]  <!-- UUID: f3b973cf-6670-40ba-aeef-3b432e96aede -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
@@ -9246,7 +9332,7 @@ The Delegate must evaluate technical, economic, and risk implications before vot
 
 ###### A.6.1.1.1.3.1.3.3.3 - Vote on Every Proposal [Core]  <!-- UUID: 46e9d0bb-e251-4f07-8327-804456f2e68a -->
 
-The Delegate must cast a vote (For / Against) on 100% of governance proposals within the designated voting window (see [A.6.1.1.1.2.2.2.2.1.2.1.4 - Root Edit Token Holder Vote](b60cfc4e-4cc5-4040-9610-f2113980831b)).
+The Delegate must cast a vote (For / Against) on 100% of governance proposals within the designated voting window (see [A.6.1.1.1.2.2.2.2.1.2.1.3 - Root Edit Token Holder Vote](b60cfc4e-4cc5-4040-9610-f2113980831b)).
 
 ###### A.6.1.1.1.3.1.3.3.4 - Abstain Only for Disclosed Conflicts [Core]  <!-- UUID: 16eb44b8-0a93-4138-a11a-99e654727b90 -->
 
@@ -9254,7 +9340,7 @@ The "Abstain" option may be used solely in cases where the Delegate has a docume
 
 ###### A.6.1.1.1.3.1.3.3.4.1 - Disclosure Of Conflicts [Core]  <!-- UUID: cfdf3c2d-6ede-49f0-8f2c-0cd91a5602bc -->
 
-Conflicts must be disclosed to both the Spark Foundation before the voting window (see [A.6.1.1.1.2.2.2.2.1.2.1.4 - Root Edit Token Holder Vote](b60cfc4e-4cc5-4040-9610-f2113980831b)) for the proposal begins.
+Conflicts must be disclosed to both the Spark Foundation before the voting window (see [A.6.1.1.1.2.2.2.2.1.2.1.3 - Root Edit Token Holder Vote](b60cfc4e-4cc5-4040-9610-f2113980831b)) for the proposal begins.
 
 ###### A.6.1.1.1.3.1.3.3.4.2 - Abstaining For Non-Disclosed Conflicts [Core]  <!-- UUID: 4d8ad5e6-937e-4916-ad8b-8d7e74a93542 -->
 
@@ -9298,7 +9384,7 @@ Delegates must promptly update the Spark Foundation on any material change in th
 
 ###### A.6.1.1.1.3.1.3.4.2.5 - Grounds for Disqualification [Core]  <!-- UUID: 1b98f386-689d-4935-a994-46c598415c23 -->
 
-Submission of fraudulent information, criminal indictment for financial crime, or repeated governance negligence (see [A.6.1.1.1.3.1.3.5.2 - Non-Performance Removal](ca90a844-23e2-4741-aa76-97dd1092370d)) triggers an SRC-initiated Delegate Removal vote.
+Submission of fraudulent information, criminal indictment for financial crime, or repeated governance negligence (see [A.6.1.1.1.3.1.3.5.2 - Non-Performance Removal](ca90a844-23e2-4741-aa76-97dd1092370d)) triggers a Spark Foundation-initiated Delegate Removal vote.
 
 ###### A.6.1.1.1.3.1.3.4.2.6 - Application Does Not Guarantee Acceptance [Core]  <!-- UUID: 6dd2ed9e-7b1a-4b03-901f-51d29c19e8a4 -->
 
@@ -9331,7 +9417,7 @@ A Delegate is automatically offboarded if they:
 
 ###### A.6.1.1.1.3.1.3.5.3 - Emergency Removal [Core]  <!-- UUID: b016a208-3fce-4429-aea8-381fe6d4fb28 -->
 
-The Spark Risk Council can immediately offboard a delegate if they:
+The Spark Foundation can immediately offboard a delegate if they:
 
 - Breach disclosure / conflict-of-interest duties;
 - Engage in malicious or negligent conduct; or
@@ -9371,9 +9457,9 @@ Delegates must:
 
 If a Delegate suspects key compromise, the following steps must be taken:
 
-- The Delegate must notify the SRC as soon as the breach is discovered.
-- SRC flags the Delegate in Registry of Delegates as "Suspended - Security Review" and notifies the governance community on the Sky Forum. All voting power to the suspended address is annulled.
-- The Delegate may submit a new verified address; upon SRC approval, suspensions are lifted and delegations migrate at the next snapshot-block.
+- The Delegate must notify the Spark Foundation as soon as the breach is discovered.
+- The Spark Foundation flags the Delegate in Registry of Delegates as "Suspended - Security Review" and notifies the governance community on the Sky Forum. All voting power to the suspended address is annulled.
+- The Delegate may submit a new verified address; upon Spark Foundation approval, suspensions are lifted and delegations migrate at the next snapshot-block.
 
 ###### A.6.1.1.1.3.1.3.7.3 - Non-Compliance [Core]  <!-- UUID: e66be018-f2f2-4294-9357-be8ee6484e6c -->
 
@@ -9432,181 +9518,11 @@ The information for each Delegate is listed below:
 
 Spark reserves the right to vary or amend these terms at its discretion, subject to established Spark Artifact governance procedures related to Artifact edits.
 
-#### A.6.1.1.1.3.1.4 - Spark Risk Council [Core]  <!-- UUID: cf019fb3-d792-4867-abf7-cfe4d0b73e5d -->
-
-The documents herein define the Spark Risk Council (SRC). The SRC safeguards the integrity and security of the Spark Ecosystem by conducting pre-vote risk reviews and, where necessary, preventing proposals from proceeding to a vote in order to protect Spark.
-
-##### A.6.1.1.1.3.1.4.1 - Purpose And Mandate [Core]  <!-- UUID: b2a23ffe-34db-4793-87fd-a9fec45a5a35 -->
-
-The SRC identifies, assesses, and mitigates technical, economic, and governance-process risks posed by proposals subject to Spark Governance. The SRC’s mandate is to inform the community of potential risks inherent in proposals and, where necessary, prevent proposals from proceeding that are malicious or likely to expose Spark to substantial, unreasonable risk.
-
-##### A.6.1.1.1.3.1.4.2 - Scope Of Review [Core]  <!-- UUID: b269ffa9-8abc-4b02-ba54-ecfde4d30549 -->
-
-The SRC reviews proposals for (i) security vulnerabilities and operational attack surface, (ii) market and treasury risks, (iii) economic risk, and (iv) misalignment with the Sky Core Atlas or the Spark Artifact. The SRC’s authority is limited to reviewing proposals within this scope.
-
-##### A.6.1.1.1.3.1.4.3 - SRC Risk Review Process [Core]  <!-- UUID: c586a7cc-a4d0-4c9b-9578-cbfe1f99a20e -->
-
-The subdocuments herein clarify the process of the SRC independent risk review in terms of new Root Edit proposals. See [A.6.1.1.1.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](c9f7cc6e-0548-4599-9f9d-bfa1d2bb7577).
-
-###### A.6.1.1.1.3.1.4.3.1 - SRC Risk Review [Core]  <!-- UUID: 968b4807-8032-42a3-b09d-f787cdb4ef87 -->
-
-Within seven (7) days (based on the start of the weekly cycle) of a new Atlas Root Edit proposal, the SRC must conduct an independent risk review and post (i) a conclusion ("Passed SRC Review," or "Failed SRC Review") and (ii) a stand-alone risk analysis to the relevant forum thread. Details for each of these deliverables are set out in the subdocuments herein.
-
-###### A.6.1.1.1.3.1.4.3.1.1 - SRC Risk Review Conclusion [Core]  <!-- UUID: e468575b-bb18-475c-aa82-7f7e9e80a576 -->
-
-The SRC conclusion must reflect the majority opinion of SRC members. However, individual SRC members are free to post dissenting or concurring opinions at their discretion. See [A.6.1.1.1.3.1.4.9.1 - Concurring Or Dissenting Opinions](fef5a280-76c8-402b-bbeb-7c6ca4fab0d5).
-
-###### A.6.1.1.1.3.1.4.3.1.2 - SRC Risk Analysis [Core]  <!-- UUID: 6c82172a-bd7d-4aa7-8ff9-771cf166707b -->
-
-The SRC risk analysis must summarize key findings, assumptions, mitigations, and any monitoring plan.
-
-###### A.6.1.1.1.3.1.4.3.2 - SRC Risk Review Extension [Core]  <!-- UUID: b67605fd-a381-4299-aac9-4e6ef1d54386 -->
-
-The SRC can formally request, at the Operational Facilitator’s discretion, an extension of the deadline of seven (7) days by posting a public justification for an extension in the Sky Forum.
-
-###### A.6.1.1.1.3.1.4.3.3 - Failure To Review [Core]  <!-- UUID: f55b35ba-1013-4a86-a874-feda7d750e45 -->
-
-If no SRC conclusion or request for extension is posted within seven (7) days of submission, the Operational Facilitator will move the proposal to the Snapshot voting phase, provided the proposal is aligned with the Sky Core Atlas and the Spark Artifact.
-
-##### A.6.1.1.1.3.1.4.4 - “Failed SRC Review” Authority and Procedure [Core]  <!-- UUID: ac9d89b5-7a07-4b95-8597-6644bc4029ab -->
-
-The subdocuments herein set out the threshold, process and implications of a "Failed SRC Review" determination by the SRC.
-
-###### A.6.1.1.1.3.1.4.4.1 - Standard [Core]  <!-- UUID: 85633365-939a-44c4-8a55-aa17fa4a7809 -->
-
-A determination of "Failed SRC Review" may be exercised when a proposal is determined to be:
-
-- malicious or exploitative;
-- procedurally non-compliant with the Sky Core Atlas or Spark Artifact;
-- likely to expose Spark to substantial, unreasonable risk; or
-- in need of revisions in order for the SRC to evaluate the proposal.
-
-###### A.6.1.1.1.3.1.4.4.2 - Threshold [Core]  <!-- UUID: 0d0a0212-4439-4fb3-a8b2-77e53a1d60db -->
-
-A determination of "Failed SRC Review" must reflect the majority opinion of SRC members.
-
-###### A.6.1.1.1.3.1.4.4.3 - Failed SRC Review Notice [Core]  <!-- UUID: 8be65dbb-1cba-453b-a2cf-d37e8a1f0b42 -->
-
-A "Failed SRC Review" notice must be posted on the Sky Forum in the relevant thread prior to the Snapshot voting window opening (or, if already posted, prior to closure).
-
-###### A.6.1.1.1.3.1.4.4.4 - Operational Facilitator Designation [Core]  <!-- UUID: bca3632c-eb40-4256-a430-51252f00f0e0 -->
-
-The Operational Facilitator marks the proposal "Failed SRC Review."
-
-###### A.6.1.1.1.3.1.4.4.5 - Effect [Core]  <!-- UUID: 1a81ade4-dc44-4272-adda-b2c3bbfc8554 -->
-
-The proposal does not proceed to Snapshot (or is withdrawn).
-
-##### A.6.1.1.1.3.1.4.5 - Composition, Tenure, And Due Diligence [Core]  <!-- UUID: e8b3fdc4-8e46-47b8-b2d3-3775b4436d21 -->
-
-The subdocuments herein set out key details about the SRC, including their composition and appointment.
-
-###### A.6.1.1.1.3.1.4.5.1 - Expertise [Core]  <!-- UUID: bb276783-cf71-46a8-84f5-f85e99a25c97 -->
-
-SRC members shall be domain experts across security, risk/economics, and operations.
-
-###### A.6.1.1.1.3.1.4.5.2 - Seat Count [Core]  <!-- UUID: f9b6eb2f-ae02-4870-9470-be8065f7d90f -->
-
-The SRC will have a seat count of three (3).
-
-###### A.6.1.1.1.3.1.4.5.3 - Bootstrapping Phase [Core]  <!-- UUID: 83e078f3-b7a3-443c-b3fe-694b6806a999 -->
-
-During the bootstrapping phase, initial members are appointed directly by the Operational Facilitator in consultation with the Spark Foundation through a public announcement on the Sky Forum. The Operational Facilitator shall either reappoint current SRC members to their seats or appoint new members in consultation with and with the consent of the Spark Foundation on an as-needed basis to allow the Operational Facilitator and the Spark Foundation flexibility during the initial governance procedures.
-
-Additional procedures on future elections governing the appointment of SRC members voted upon by the community will be specified in a future iteration of the Spark Artifact.
-
-###### A.6.1.1.1.3.1.4.5.4 - Coordinator [Core]  <!-- UUID: 5350be2f-636a-47a5-aad3-071275bcc473 -->
-
-The Nested Contributor Phoenix Labs has a seat on the SRC as a non-voting coordinating member. The role of the coordinator is to facilitate the work of the SRC being done in a timely manner.
-
-###### A.6.1.1.1.3.1.4.5.5 - Due Diligence [Core]  <!-- UUID: b97dbb58-676c-434f-8973-2080102660c2 -->
-
-Members may be required to complete a confidential due diligence process, if the Spark Foundation deems it necessary.
-
-##### A.6.1.1.1.3.1.4.6 - Compensation [Core]  <!-- UUID: 3dddde86-989d-44ea-a2f4-7a1c26f9c844 -->
-
-SRC members will receive compensation for performing their role on terms approved by the Spark Foundation.
-
-##### A.6.1.1.1.3.1.4.7 - Council Meetings [Core]  <!-- UUID: 3c6ed2b0-8ae1-4e3f-8f64-04ce2ae64e57 -->
-
-The subdocuments herein set out details about SRC meetings, including cadence and external participation.
-
-###### A.6.1.1.1.3.1.4.7.1 - Cadence [Core]  <!-- UUID: ea7b0884-c4f8-4272-af38-cdda387bb65f -->
-
-The SRC shall hold a monthly internal governance meeting.
-
-###### A.6.1.1.1.3.1.4.7.2 - Participants [Core]  <!-- UUID: 440d1f15-915b-45b8-9bec-1ca5e32ea036 -->
-
-In addition to SRC members, representatives of the Spark Foundation, Nested Contributor Phoenix Labs, and the Operational Facilitator are each permitted to attend in a coordinating and facilitating capacity.
-
-##### A.6.1.1.1.3.1.4.8 - Mid-Term Appointments And Member Changes [Core]  <!-- UUID: c139606c-f594-4dba-9afe-a32e2a2c64a1 -->
-
-The subdocuments herein set out the process for mid-term appointments and other out-of-schedule replacement rules.
-
-###### A.6.1.1.1.3.1.4.8.1 - Vacancies Mid-Term (Out-Of-Schedule Replacement Appointment) [Core]  <!-- UUID: 123b69dc-c3ef-4143-b66a-485a2d526b1c -->
-
-If a seat becomes vacant (resignation, removal, ineligibility, or failure to complete due diligence), the Operational Facilitator shall make an out-of-schedule replacement appointment. This process is defined in the subdocuments herein.
-
-###### A.6.1.1.1.3.1.4.8.1.1 - Notice [Core]  <!-- UUID: b7390f2a-9d24-4f1a-ac04-0db841a1bcd5 -->
-
-Within seven (7) days of the vacancy, the Operational Facilitator publishes a vacancy notice and forum thread on the Sky Forum describing the circumstances of the vacancy.
-
-###### A.6.1.1.1.3.1.4.8.1.2 - Appointment [Core]  <!-- UUID: aa27264b-865b-47bd-8de5-0731c772dae1 -->
-
-The Operational Facilitator shall appoint a replacement member of the SRC to fill the vacant seat in consultation with the Spark Foundation and publish a new post in the relevant forum thread in order to announce the appointment.
-
-###### A.6.1.1.1.3.1.4.8.1.3 - Term [Core]  <!-- UUID: c7e40d3d-5485-426c-944a-16291fb36674 -->
-
-The appointee is seated upon due diligence completion to the Spark Foundation’s satisfaction and update to the SRC Membership Registry and serves the remainder of the current term.
-
-###### A.6.1.1.1.3.1.4.8.1.4 - Seating And Continuity [Core]  <!-- UUID: 27bb6f28-1021-4c68-b435-36f32ce72bfa -->
-
-Incumbent SRC members remain in office until successors are seated to ensure continuity of SRC operations. Newly appointed members are seated upon completion of due diligence to the Spark Foundation’s satisfaction and publication to the SRC Membership Registry.
-
-##### A.6.1.1.1.3.1.4.9 - Process Requirements [Core]  <!-- UUID: c1304ded-6912-472a-b836-cd7092262434 -->
-
-The subdocuments herein set out key deliverables for the SRC as well as rules around conflicts of interest.
-
-###### A.6.1.1.1.3.1.4.9.1 - Concurring Or Dissenting Opinions [Core]  <!-- UUID: fef5a280-76c8-402b-bbeb-7c6ca4fab0d5 -->
-
-In addition to the determinative independent risk review posted by the SRC for each proposal, individual SRC members may post concurring or dissenting opinions in the Sky Forum at their discretion.
-
-###### A.6.1.1.1.3.1.4.9.2 - Conflicts Of Interest [Core]  <!-- UUID: 20d7297d-b100-438d-a535-6b9968b2bb43 -->
-
-SRC members must disclose conflicts of interest to Spark Foundation and recuse themselves where impartiality is compromised.
-
-##### A.6.1.1.1.3.1.4.10 - Non-Performance [Core]  <!-- UUID: 4a07187f-9fc2-4a70-ae4b-919a4f52467d -->
-
-Repeated failure to meet review timelines; failure to document decisions; blocking valid proposals due to malicious intent or evident poor due diligence; or any other failure to uphold the duties of the SRC set forth in the Spark Artifact may trigger removal and replacement of SRC members at the discretion of the Spark Foundation.
-
-##### A.6.1.1.1.3.1.4.11 - SRC Membership Registry Process [Core]  <!-- UUID: dc208bb2-ffb4-4a2a-b561-d563bc52eb14 -->
-
-The subdocuments herein contain the registry of SRC members, including name or alias, domain expertise, verified governance address, start date, term status, and standing (Active / Recused / Removed). The registry is maintained via an Active Data document updated by the Operational Facilitator per the subdocuments herein.
-
-###### A.6.1.1.1.3.1.4.11.1 - Updating SRC Membership Registry [Active Data Controller]  <!-- UUID: 066783d5-c191-4db7-a38a-5370a75944ee -->
-
-The SRC Membership Registry is defined as Active Data in [A.6.1.1.1.3.1.4.11.1.0.6.1 - SRC Membership Registry List](d9c6ed16-5b0d-4a6f-bb43-387398090afc).
-
-The Active Data is updated as follows:
-
-- The Responsible Party is the Operational Facilitator.
-- The Update Process must follow the protocol for ‘Direct Edit’.
-
-###### A.6.1.1.1.3.1.4.11.1.0.6.1 - SRC Membership Registry List [Active Data]  <!-- UUID: d9c6ed16-5b0d-4a6f-bb43-387398090afc -->
-
-The information for each member of the SRC is listed below:
-
-| Name or Alias        | Domain Expertise | Verified Governance Address | Start Date  | Term Status  | Standing |
-|----------------------|------------------|-----------------------------|-------------|--------------|----------|
-| Blockworks Advisory  | Risk             | N/A                         | 2025-10-03  | Active Term  | Active   |
-| L2 Beat              | Risk             | N/A                         | 2025-10-03  | Active Term  | Active   |
-| Aragon               | Risk             | N/A                         | 2025-10-03  | Active Term  | Active   |
-
-#### A.6.1.1.1.3.1.5 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: 0483b49d-b074-4a98-bb4b-bc5d222dabf1 -->
+#### A.6.1.1.1.3.1.4 - Sky Ecosystem Emergency Response [Core]  <!-- UUID: 0483b49d-b074-4a98-bb4b-bc5d222dabf1 -->
 
 The documents herein specify Spark’s emergency response protocol in situations that impact the entire Sky Ecosystem. This protocol will be specified in a future iteration of the Spark Artifact.
 
-#### A.6.1.1.1.3.1.6 - Agent-Specific Emergency Response [Core]  <!-- UUID: 2d540356-97e0-431b-a03b-c3ec360e139b -->
+#### A.6.1.1.1.3.1.5 - Agent-Specific Emergency Response [Core]  <!-- UUID: 2d540356-97e0-431b-a03b-c3ec360e139b -->
 
 The documents herein specify Spark’s emergency response protocol in situations solely impacting Spark versus the broader Sky Ecosystem. This protocol will be specified in a future iteration of the Spark Artifact.
 
@@ -11943,7 +11859,7 @@ Pending changes within the timelock must be able to be cancelled by any of the f
 
 ##### A.6.1.1.1.3.9.6.2 - Cancellation Reasons [Core]  <!-- UUID: 0e572cad-bdf2-437f-b272-0cd634424b19 -->
 
-Pending changes may be cancelled for the following reasons: misalignment or conflict with the Sky Atlas or Spark Artifact; excessive or unacceptable risk, as identified by the Sky Core Council or Spark Risk Council; emergency situations, as defined in the Sky Atlas in [A.1.9 - Emergency Response System](1d940c6d-02ce-4c17-8057-cef13c1cc7ad); or cancellation requested by the Curator.
+Pending changes may be cancelled for the following reasons: misalignment or conflict with the Sky Atlas or Spark Artifact; excessive or unacceptable risk, as identified by the Sky Core Council; emergency situations, as defined in the Sky Atlas in [A.1.9 - Emergency Response System](1d940c6d-02ce-4c17-8057-cef13c1cc7ad); or cancellation requested by the Curator.
 
 ##### A.6.1.1.1.3.9.6.3 - Guardian Role [Core]  <!-- UUID: 900c4a0d-ed93-41ad-b914-f84d50d6940e -->
 
@@ -12063,4 +11979,4 @@ Any products or protocol elements created under the Confidential Strategic Integ
 
 #### A.6.1.1.1.3.10.7 - Private Ecosystem Review [Core]  <!-- UUID: 52b28880-10d4-4aff-b694-f5278adb3fbb -->
 
-Prior to activation of a Confidential Strategic Integration and Deployment for end user interactions or deposits, Designated Contributors shall confidentially disclose all relevant deployment details to the Spark Risk Council, and to applicable Sky ecosystem governance reviewers designated for confidential ecosystem reviews. Such reviewers may object to a deployment where they identify concerns within the scope of their review authority. If an objection is raised, Designated Contributors shall not activate the deployment for end user interactions or deposits until the identified concerns have been resolved, any required approvals have been obtained, or the deployment has otherwise been cancelled and wound down in an orderly fashion.
+Prior to activation of a Confidential Strategic Integration and Deployment for end user interactions or deposits, Designated Contributors shall confidentially disclose all relevant deployment details to the applicable Sky ecosystem governance reviewers designated for confidential ecosystem reviews. Such reviewers may object to a deployment where they identify concerns within the scope of their review authority. If an objection is raised, Designated Contributors shall not activate the deployment for end user interactions or deposits until the identified concerns have been resolved, any required approvals have been obtained, or the deployment has otherwise been cancelled and wound down in an orderly fashion.
