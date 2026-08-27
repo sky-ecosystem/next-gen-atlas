@@ -4704,17 +4704,19 @@ The SPLITTER_MOM contract allows for the disabling of the Smart Burn Engine with
 
 This functionality is available so that Sky Governance can react to emergencies regarding the Smart Burn Engine.
 
-Since the Splitter contract also allocates USDS from the Surplus Buffer to USDS Staking Rewards, the activation of SPLITTER_MOM also disables these rewards until the activation is reversed by Sky Governance.
+Since the Splitter contract also allocates USDS from the Surplus Buffer to USDS Staking Rewards, the activation of SPLITTER_MOM also disables these rewards. To reverse the effect, the `hop` parameter must be reconfigured, either with an Executive Vote which is subject to the GSM Pause Delay, or directly through the SBE-BEAM within its bounds, as specified in [A.3.5.2.4 - Smart Burn Engine Bounded External Access Module](b57ac61b-f6b1-4025-bd44-569d0f2afe2f).
 
 ##### A.1.10.3.2.9 - PSM Breaker Exception [Core]  <!-- UUID: 704fbaff-fa10-4c63-af5b-3ee5fd1ea6a8 -->
 
 The LITE_PSM_MOM contract manages the breaker for swaps through the LitePSM. The PSM Breaker allows a successful governance proposal to halt swaps through the LitePSM.
 
+The PSM Breaker can halt selling, buying, or both, independently. To reverse the effect, the halted parameter or parameters — `tin`, `tout`, or both, depending on which was halted — must be reconfigured with an Executive Vote which is subject to the GSM Pause Delay.
+
 ##### A.1.10.3.2.10 - Bounded External Access Modules [Core]  <!-- UUID: 5533c091-e638-4c3d-92e8-43e3e7026078 -->
 
 Bounded External Access Modules (BEAMs) are contracts that allow whitelisted operators to manage parameters in the Sky Ecosystem without needing to use the standard Executive Vote process. Thus, parameter changes enacted via these modules are not subject to the GSM Pause Delay.
 
-The actions of BEAMs are limited by risk parameters, which are set by Sky Core Governance and require an Executive Vote to change.
+The actions of BEAMs are limited by risk parameters, which are set by Sky Core Governance. Changing these risk parameters typically requires an Executive Vote, unless the BEAM authorizes a standing actor to change them directly.
 
 ###### A.1.10.3.2.10.1 - Bounded External Access Module Risk Disclosure [Core]  <!-- UUID: b2bffec7-2a62-43a1-bfed-1e38370ac086 -->
 
@@ -4748,27 +4750,59 @@ This functionality allows the Sky Protocol to update Smart Burn Engine parameter
 
 The risk opened up by this functionality is malicious action by whitelisted operators setting Smart Burn Engine parameters to undesirable values. This risk can be mitigated through the SBE-BEAM parameters and the SPLITTER_MOM, as specified in [A.1.10.3.2.8 - Smart Burn Engine Breaker Exception](5247c795-7f9d-4d3f-a040-6bc9b070e2d4).
 
+###### A.1.10.3.2.10.5 - Configurator Bounded External Access Module Exception [Core]  <!-- UUID: ae05e069-0626-45f5-82d2-dbf39a5b2598 -->
+
+A Configurator Bounded External Access Module (cBEAM) is a whitelisted Operator. It can use the Configurator to adjust a Diamond PAU's rate limits or execute pre-approved controller actions, within the ceilings BeamState sets, without waiting for the GSM Pause Delay. See [A.2.2.10.1.1.1.2.4.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d).
+
+This functionality allows Diamond PAU parameters to be adjusted more quickly than waiting for an Executive Vote and the GSM Pause Delay.
+
+The risk opened up by this functionality is malicious action by cBEAMs setting rate limits to undesirable values, whether by raising them excessively or lowering them to zero.
+
+This risk is partially mitigated: BeamState's `hop` and `maxChange` parameters bound how far and how often a cBEAM can raise a rate limit; they do not bound decreases, which take effect immediately. The Core Council Multisig can immediately unpair a specific misbehaving cBEAM from its `RateLimits` contract or Controller to stop it from acting, and can separately remove its registration entirely, as specified in [A.2.2.10.1.1.1.2.4.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6). Sky Governance can halt Configurator operations for all cBEAMs at once, through the PASMom contract, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
+
+###### A.1.10.3.2.10.6 - Core Council Multisig Exception [Core]  <!-- UUID: fbb0677a-3218-4649-9116-9f3c18e3ef90 -->
+
+The Core Council Multisig can act on BeamState without a separate Executive Vote for each change, as specified in [A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754). Its immediate functions take effect directly, with no delay; its delayed functions take effect only after the Timelock's minimum delay has passed.
+
+This functionality allows the Core Council Multisig to respond to cBEAM misbehavior, and to adjust BeamState's own parameters, more quickly than waiting for a separate Executive Vote.
+
+The risk opened up by this functionality is malicious action by the Core Council Multisig itself.
+
+The Core Council Multisig's immediate functions are bounded: they cannot register a new cBEAM, but can re-pair an existing one to a different `RateLimits` contract or Controller, or disable/halt existing PAS (Parallelized Allocation System) functionality.
+
+The Core Council Multisig's delayed functions, once the Timelock is unpaused, are subject to the Timelock's minimum delay, and can be halted by Sky Governance triggering `pause()` through the PASMom contract, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
+
+The PAS launches with the Timelock paused. Until it is unpaused, none of its delayed functions can take effect; they must instead go through an Executive Vote, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4.5 - Transitional Measures](d5240aa5-72c1-4f92-b22c-7a80a35d733c).
+
 ##### A.1.10.3.2.11 - Stability Parameter Bounded External Access Module Breaker Exception [Core]  <!-- UUID: 1fd7d164-e9f3-4d6c-ab5e-0122bb415f8d -->
 
 The SPBEAM_MOM contract allows Sky Governance to bypass the GSM Pause Delay and disable the Stability Parameter Bounded External Access Module.
 
-This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the SP-BEAM is hacked or is a malicious actor. Once the SPBEAM_MOM is activated, the SP-BEAM will not be able to change any rates in the system. If the SPBEAM_MOM has been triggered, it will still be possible to modify rates through the usual Executive Vote process, subject to the GSM Pause Delay.
+This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the SP-BEAM is hacked or is a malicious actor. Once the SPBEAM_MOM is activated, the SP-BEAM will not be able to change any rates in the system, though Sky Governance retains the ability to modify rates directly through the usual Executive Vote process. To reverse the effect, the SP-BEAM's `bad` parameter must be reconfigured with an Executive Vote which is subject to the GSM Pause Delay.
 
 ##### A.1.10.3.2.12 - stUSDS Bounded External Access Module Breaker Exception [Core]  <!-- UUID: b9f3824c-31a5-472c-8a53-8166f3eeb7ee -->
 
 The STUSDS_MOM contract allows Sky Governance to bypass the GSM Pause Delay and disable the stUSDS Bounded External Access Module or set the `cap` or `line` stUSDS parameters to zero.
 
-This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the stUSDS BEAM is hacked or is a malicious actor. Once the STUSDS_MOM is activated to disable the stUSDS BEAM, the stUSDS BEAM will not be able to change any stUSDS parameters in the system. If the STUSDS_MOM has been triggered, it will still be possible to modify stUSDS parameters through the usual Executive Vote process, subject to the GSM Pause Delay.
+This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the stUSDS BEAM is hacked or is a malicious actor. Once the STUSDS_MOM is activated to disable the stUSDS BEAM, the stUSDS BEAM will not be able to change any stUSDS parameters in the system, though Sky Governance retains the ability to modify stUSDS parameters directly through the usual Executive Vote process. Reversing a disabled stUSDS BEAM requires reconfiguring the rate setter's `bad` parameter with an Executive Vote which is subject to the GSM Pause Delay. Reversing a `cap` or `line` set to zero requires reconfiguring both the stUSDS parameter and the rate setter's corresponding `maxCap` or `maxLine` parameter, likewise with an Executive Vote subject to the GSM Pause Delay.
 
-##### A.1.10.3.2.13 - Linear Interpolation Module [Core]  <!-- UUID: 60767684-f67f-4e03-85db-7718af41b827 -->
+##### A.1.10.3.2.13 - PASMom Exception [Core]  <!-- UUID: 2171fb2b-de83-44f2-92bf-26b59a1e8c71 -->
+
+The PASMom contract (`PAS_MOM`) allows Sky Governance to bypass the GSM Pause Delay to halt Configurator operations or pause the Timelock governing changes to the PAS. This is a Sky Governance action taken independently of both the Core Council Multisig and cBEAM; neither can trigger the PASMom contract itself. For PASMom's on-chain relationship to BeamState and the Timelock, see [A.2.2.10.1.1.1.2.4.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8).
+
+This functionality allows Sky Governance to react more quickly in an emergency. If a cBEAM is compromised or acting maliciously, Sky Governance can trigger `stop()` through the PASMom contract, preventing all cBEAMs from executing any action through the Configurator; restarting is done via the Core Council Multisig proposing `start()` through the Timelock once it is unpaused, or otherwise via an Executive Vote, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b).
+
+If the Core Council Multisig is compromised or acting maliciously, Sky Governance can trigger `pause()` through the PASMom contract, preventing the Timelock from scheduling or executing the Core Council Multisig's delayed proposals; reversing this requires an Executive Vote, without requiring a prior Governance Poll.
+
+##### A.1.10.3.2.14 - Linear Interpolation Module [Core]  <!-- UUID: 60767684-f67f-4e03-85db-7718af41b827 -->
 
 The Linear Interpolation Module (`lerp`) is a smart contract tool that allows a governance parameter to be adjusted on a straight-line basis over time, without requiring additional Executive Votes. The Linear Interpolation Module refers to the smart contract logic that enables time-based parameter changes. To deploy individual `lerp` instances, each of which manages the adjustment of a specific parameter over time, the Linear Interpolation Module Factory contract is used. Once authorized through an Executive Vote, the `lerp` may enact parameter changes without being subject to the GSM Pause Delay. The subdocuments herein specify the features of the `lerp` and its authorized use.
 
-###### A.1.10.3.2.13.1 - Linear Interpolation Module Features [Core]  <!-- UUID: c21d4246-8294-4f30-b69d-3d6056247893 -->
+###### A.1.10.3.2.14.1 - Linear Interpolation Module Features [Core]  <!-- UUID: c21d4246-8294-4f30-b69d-3d6056247893 -->
 
 The `lerp` must be activated in an Executive Vote but can thereafter change the value of the designated parameter without additional Executive Votes. Each `lerp` instance is defined in terms of a `start` value, representing the desired starting value, an `end` value, representing the desired ending value, and a `duration` over which the parameter will be adjusted between the starting value and the ending value. Any user can then permissionlessly call `tick` to set the governance parameter to the appropriate value based on the time elapsed.
 
-###### A.1.10.3.2.13.1.1 - Linear Interpolation Module Parameters [Core]  <!-- UUID: ac2fb8ab-4137-4243-8f75-1817f8529a70 -->
+###### A.1.10.3.2.14.1.1 - Linear Interpolation Module Parameters [Core]  <!-- UUID: ac2fb8ab-4137-4243-8f75-1817f8529a70 -->
 
 Each `lerp` instance has the following parameters:
 
@@ -4780,45 +4814,45 @@ Each `lerp` instance has the following parameters:
 - `duration` - How long this `lerp` instance will run for
 - `done` - Indicates whether this given `lerp` instance is completed or not
 
-###### A.1.10.3.2.13.1.2 - Linear Interpolation Module Factory [Core]  <!-- UUID: 59fecdcf-6d2b-4a2d-96bf-af1729fc2bf9 -->
+###### A.1.10.3.2.14.1.2 - Linear Interpolation Module Factory [Core]  <!-- UUID: 59fecdcf-6d2b-4a2d-96bf-af1729fc2bf9 -->
 
 `lerp` instances are created using a factory contract LERP_FAB that contains standard logic for creating those instances and maintains a registry of all active `lerp` instances. The contract may also be used to cancel an existing `lerp` instance through the `remove` function. The factory contract provides a `list` method that lists the addresses of all active `lerp` instances, as well as a `tall` (short for "tick all") method that calls `tick` on all active contracts.
 
-###### A.1.10.3.2.13.2 - Linear Interpolation Module Usage Process Definition [Core]  <!-- UUID: 2de4d031-e079-415e-b982-66a4efa78c05 -->
+###### A.1.10.3.2.14.2 - Linear Interpolation Module Usage Process Definition [Core]  <!-- UUID: 2de4d031-e079-415e-b982-66a4efa78c05 -->
 
 The subdocuments herein define the governance process for using the Linear Interpolation Module.
 
-###### A.1.10.3.2.13.2.1 - Linear Interpolation Module Authorization [Core]  <!-- UUID: 9652bd2c-f51c-42bb-9240-701e9723f574 -->
+###### A.1.10.3.2.14.2.1 - Linear Interpolation Module Authorization [Core]  <!-- UUID: 9652bd2c-f51c-42bb-9240-701e9723f574 -->
 
 The Facilitators responsible for the Scope that governs the parameter to be adjusted by the Linear Interpolation Module, in consultation with the Core Council Risk Advisor, may recommend deploying the Linear Interpolation Module for parameter adjustments.
 
-###### A.1.10.3.2.13.2.1.1 - Linear Interpolation Module Consideration [Core]  <!-- UUID: dd631146-0227-4fe3-87dd-085d0c909879 -->
+###### A.1.10.3.2.14.2.1.1 - Linear Interpolation Module Consideration [Core]  <!-- UUID: dd631146-0227-4fe3-87dd-085d0c909879 -->
 
 The Facilitators must take into consideration the benefits and costs with using the Linear Interpolation Module. A longer `duration` has the benefit of adjusting the parameter more slowly, giving users more time to adjust. However, the drawback of a longer `duration` is that the parameter will not reach its desired `end` value for a longer period of time. When the cost of a parameter not being at its desired value is high, use of the Linear Interpolation Module is not appropriate, and the parameter should be adjusted to its desired value following the required process.
 
-###### A.1.10.3.2.13.2.1.2 - Governance Process For Linear Interpolation Module [Core]  <!-- UUID: 3a075a4b-4071-4993-8210-5a87d13203b2 -->
+###### A.1.10.3.2.14.2.1.2 - Governance Process For Linear Interpolation Module [Core]  <!-- UUID: 3a075a4b-4071-4993-8210-5a87d13203b2 -->
 
 The process to utilize the Linear Interpolation Module to adjust a parameter must follow the same governance process required to modify the designated parameter. If the parameter can be updated directly through an Executive Vote, then utilizing the Linear Interpolation Module to adjust it may also be included directly in an Executive Vote. If modifying the parameter requires a prior Governance Poll, then utilizing the Linear Interpolation Module for that parameter must also be preceded by a Governance Poll.
 
-##### A.1.10.3.2.14 - Ethereum SkyLink Freezer Multisig [Core]  <!-- UUID: b7820ec3-dbe5-43bc-99b9-c7168c53c8fe -->
+##### A.1.10.3.2.15 - Ethereum SkyLink Freezer Multisig [Core]  <!-- UUID: b7820ec3-dbe5-43bc-99b9-c7168c53c8fe -->
 
 The Ethereum SkyLink Freezer Multisig (see [A.4.2.2.1 - Ethereum SkyLink Freezer Multisig](21fa6749-6209-4280-9b5f-b2a73d400421)) can freeze SkyLink bridges deployed in the Sky Ecosystem without the need for inclusion in a Spell through the standard Executive Vote process.
 
 Each action executed by the multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum. Such actions include activating or disabling the freeze function.
 
-##### A.1.10.3.2.15 - Solana SkyLink Freezer Multisig [Core]  <!-- UUID: 82aaec1b-acac-4ed4-8e03-2d8f29ba5ccb -->
+##### A.1.10.3.2.16 - Solana SkyLink Freezer Multisig [Core]  <!-- UUID: 82aaec1b-acac-4ed4-8e03-2d8f29ba5ccb -->
 
 The Solana SkyLink Freezer Multisig (see [A.4.2.2.2.3.1.1 - Solana SkyLink Freezer Multisig](8e618196-257a-49d8-834d-665dba345fcd)) can freeze the Solana SkyLink Bridge without the need for inclusion in a Spell through the standard Executive Vote process.
 
 Each action executed by the multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum. Such actions include activating or disabling the freeze function.
 
-##### A.1.10.3.2.16 - Avalanche SkyLink Freezer Multisig [Core]  <!-- UUID: 57f524b8-292c-496b-a879-2102ce4a81e5 -->
+##### A.1.10.3.2.17 - Avalanche SkyLink Freezer Multisig [Core]  <!-- UUID: 57f524b8-292c-496b-a879-2102ce4a81e5 -->
 
 The Avalanche SkyLink Freezer Multisig (see [A.4.2.2.3.3.1.1 - Avalanche SkyLink Freezer Multisig](0b1162f6-6a30-4a30-b693-68e077093e7c)) can freeze the Avalanche SkyLink Bridge without the need for inclusion in a Spell through the standard Executive Vote process.
 
 Each action executed by the multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum. Such actions include activating or disabling the freeze function.
 
-##### A.1.10.3.2.17 - Plasma SkyLink Freezer Multisig [Core]  <!-- UUID: 93089354-d2eb-4930-a1c7-0ca2f7b60e67 -->
+##### A.1.10.3.2.18 - Plasma SkyLink Freezer Multisig [Core]  <!-- UUID: 93089354-d2eb-4930-a1c7-0ca2f7b60e67 -->
 
 The Plasma SkyLink Freezer Multisig (see [A.4.2.2.4.3.1.1 - Plasma SkyLink Freezer Multisig](f833edaa-9f5f-4445-afcb-a9cfc3620b10)) can freeze the Plasma SkyLink Bridge without the need for inclusion in a Spell through the standard Executive Vote process.
 
