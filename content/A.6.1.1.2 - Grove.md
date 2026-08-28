@@ -2116,21 +2116,21 @@ The LIMIT_USDC_TO_USDS RateLimitID is: `0x87835797fec2ad9575bc1a7035e3c27b8a8b7d
 
 The documents herein list the controller-wide rate limits for the Grove Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
 
-###### A.6.1.1.2.2.6.1.2.1.1.3.2.3.1 - USDS Mint Maximum [Core]  <!-- UUID: 659aaf71-7899-47f6-977d-afc23a188833 -->
+###### A.6.1.1.2.2.6.1.2.1.1.3.3.1 - USDS Mint Maximum [Core]  <!-- UUID: 659aaf71-7899-47f6-977d-afc23a188833 -->
 
 The maximum amount of USDS that can be minted by the Grove Diamond PAU (`LIMIT_USDS_MINT`) is specified in the document herein.
 
 - `maxAmount`: 5,000,000 USDS
 - `slope`: 5,000,000 USDS per day
 
-###### A.6.1.1.2.2.6.1.2.1.1.3.2.3.2 - USDS Burn Maximum [Core]  <!-- UUID: a444f64b-519a-4e52-a538-395c9ee04956 -->
+###### A.6.1.1.2.2.6.1.2.1.1.3.3.2 - USDS Burn Maximum [Core]  <!-- UUID: a444f64b-519a-4e52-a538-395c9ee04956 -->
 
 The maximum amount of USDS that can be burned by the Grove Diamond PAU (`LIMIT_USDS_BURN`) is specified in the document herein.
 
 - `maxAmount`: 5,000,000 USDS
 - `slope`: 5,000,000 USDS per day
 
-###### A.6.1.1.2.2.6.1.2.1.1.3.2.3.3 - USDS For USDC Swap Maximum [Core]  <!-- UUID: 7e53acf8-10e7-4250-a05c-bab8354aa738 -->
+###### A.6.1.1.2.2.6.1.2.1.1.3.3.3 - USDS For USDC Swap Maximum [Core]  <!-- UUID: 7e53acf8-10e7-4250-a05c-bab8354aa738 -->
 
 The maximum amount of USDS that can be swapped for USDC by the Grove Diamond PAU in the Mainnet PSM (`LIMIT_USDS_TO_USDC`) is specified in the document herein.
 
@@ -8262,7 +8262,7 @@ The swap RateLimitID for USDC is: `0x6e850dcb18bea10055c82d1e3753f551b1228d04b81
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.2.4 - Rate Limits [Core]  <!-- UUID: df218aec-13d6-4238-bff9-a0eda5eb11a7 -->
 
-The current `maxAmount` and `slope` for this Instance's deposit, withdrawal, and swap operations are defined in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.2.2.6.1.2.1.1.3.2 - Diamond PAU Rate Limits](c5d3d2f9-cd88-4b00-a6df-da369c27674f).
+The current `maxAmount` and `slope` for this Instance's deposit, withdrawal, and swap operations are defined in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.2.2.6.1.2.1.1.3.3 - Diamond PAU Rate Limits](c5d3d2f9-cd88-4b00-a6df-da369c27674f).
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 805c6feb-74c9-4e43-90c8-446dd937a618 -->
 
@@ -8486,7 +8486,7 @@ The outflow RateLimitID is: `0x0d8db6f922b464d5eb8ac718bef62b82b05d9bd0ea5dafd09
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.2.4 - Rate Limits [Core]  <!-- UUID: abc0b1fc-4922-40f1-8ea9-60fba89f0e5f -->
 
-The inflow and outflow rate limit configuration for this conduit is specified in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.2.2.6.1.2.1.1.3.2 - Diamond PAU Rate Limit](c5d3d2f9-cd88-4b00-a6df-da369c27674f).
+The inflow and outflow rate limit configuration for this conduit is specified in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.2.2.6.1.2.1.1.3.3 - Diamond PAU Rate Limits](c5d3d2f9-cd88-4b00-a6df-da369c27674f).
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 2e5234f6-0cae-4689-b8da-61ad99f20c31 -->
 
@@ -8630,7 +8630,7 @@ The outflow RateLimitID is: `0xac6b1419c7365d44c458289fbd4b91c1913427601113863b9
 
 ###### A.6.1.1.2.2.6.1.3.1.14.2.2.4 - Rate Limits [Core]  <!-- UUID: 8e7f9afb-d4c6-49ac-a956-1a65817d709f -->
 
-The inflow and outflow rate limit configuration for this conduit is specified in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.2.2.6.1.2.1.1.3.2 - Diamond PAU Rate Limits](c5d3d2f9-cd88-4b00-a6df-da369c27674f).
+The inflow and outflow rate limit configuration for this conduit is specified in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.2.2.6.1.2.1.1.3.3 - Diamond PAU Rate Limits](c5d3d2f9-cd88-4b00-a6df-da369c27674f).
 
 ###### A.6.1.1.2.2.6.1.3.1.14.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 05baee1c-f5af-45e0-b6a9-e19a6fa443b8 -->
 
