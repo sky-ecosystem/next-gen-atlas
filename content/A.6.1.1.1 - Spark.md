@@ -3499,7 +3499,6 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 26826191-9e5c-4337-b274-43d064d7a63a -->
 
@@ -3581,7 +3580,6 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.1.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: e3ffdba1-d90d-4c9e-a0b7-3ba14293ec41 -->
 
@@ -3663,7 +3661,6 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.1.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 69f08826-c669-4407-84b4-bade022c2357 -->
 
@@ -3745,7 +3742,6 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.1.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 126b8574-c161-4c0e-b7a6-a5ceb032a395 -->
 
@@ -3827,7 +3823,6 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.1.5.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 74c6841c-6608-4673-9baa-ffea94f9f699 -->
 
@@ -3909,7 +3904,6 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.1.6.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: ab2d6946-b18e-4199-a27c-61f44dd1fe7a -->
 
@@ -5020,7 +5014,6 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 564ac34b-aa6c-46ec-9fd4-9f7caed7c31b -->
 
@@ -5126,7 +5119,6 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: unlimited
-- `slope`: unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.5.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 4b630d7d-09ee-4039-8850-71a2d287fe3e -->
 
@@ -5688,7 +5680,6 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.7.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 389d1003-434b-4acb-a0db-7a587a5ee006 -->
 
@@ -5996,7 +5987,6 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 794cfe55-5989-42c3-8656-8ec5c2f0d280 -->
 
@@ -6098,7 +6088,6 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.8.4.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: a339eb67-4bea-4fcb-aeca-6fcaba0d7ebb -->
 
@@ -6745,7 +6734,6 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1249bc92-d66d-4ffc-bc42-a0184cbef5cb -->
 
