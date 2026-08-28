@@ -2092,32 +2092,52 @@ The maximum amount of USDC that can be bridged to Ethereum Mainnet from the Base
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.2.1.1.3.2 - Diamond PAU Rate Limits [Core]  <!-- UUID: c5d3d2f9-cd88-4b00-a6df-da369c27674f -->
+###### A.6.1.1.2.2.6.1.2.1.1.3.2 - Diamond PAU Rate Limit IDs [Core]  <!-- UUID: 6becf94f-f2fc-4ac3-955b-61a10c738506 -->
 
-The documents herein list the controller-wide rate limits for the Grove Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document.
+The documents herein list the rate limits for the Grove Liquidity Layer, covering the monolithic ALM Controller and the Diamond PAU.
 
-###### A.6.1.1.2.2.6.1.2.1.1.3.2.1 - USDS Mint Maximum [Core]  <!-- UUID: 659aaf71-7899-47f6-977d-afc23a188833 -->
+###### A.6.1.1.2.2.6.1.2.1.1.3.2.1 - USDS Mint RateLimitID [Core]  <!-- UUID: ff29c825-f106-45c7-9665-e4f0f1335f3b -->
+
+The LIMIT_USDS_MINT RateLimitID is: `0xcb0537d5e5dba65a8edbac12555995860e5b8e1b70996011edb1ca8173e56d3c`.
+
+###### A.6.1.1.2.2.6.1.2.1.1.3.2.2 - USDS Burn RateLimitID [Core]  <!-- UUID: e4237cb0-c302-4f31-924e-b1cd7c912092 -->
+
+The LIMIT_USDS_BURN RateLimitID is: `0x844d35ae585cfdeed0a77b7724286a1d4b5718bf8663d85e55396062b1cbe38c`.
+
+###### A.6.1.1.2.2.6.1.2.1.1.3.2.3 - USDS For USDC Swap RateLimitID [Core]  <!-- UUID: 767d5d2f-55ff-4021-8cb9-c4199a8a8ad4 -->
+
+The LIMIT_USDS_TO_USDC RateLimitID is: `0x00d4cb8ac2838f11d95b0136a919a13b994f920024aba35eee16dc433c65851c`.
+
+###### A.6.1.1.2.2.6.1.2.1.1.3.2.4 - USDC For USDS Swap RateLimitID [Core]  <!-- UUID: 6c7bd1dc-0cdf-40c7-a2b8-b856c3cd5493 -->
+
+The LIMIT_USDC_TO_USDS RateLimitID is: `0x87835797fec2ad9575bc1a7035e3c27b8a8b7db2c3d7118513baf081b3af06b3`.
+
+###### A.6.1.1.2.2.6.1.2.1.1.3.3 - Diamond PAU Rate Limits [Core]  <!-- UUID: c5d3d2f9-cd88-4b00-a6df-da369c27674f -->
+
+The documents herein list the controller-wide rate limits for the Grove Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
+
+###### A.6.1.1.2.2.6.1.2.1.1.3.2.3.1 - USDS Mint Maximum [Core]  <!-- UUID: 659aaf71-7899-47f6-977d-afc23a188833 -->
 
 The maximum amount of USDS that can be minted by the Grove Diamond PAU (`LIMIT_USDS_MINT`) is specified in the document herein.
 
 - `maxAmount`: 5,000,000 USDS
 - `slope`: 5,000,000 USDS per day
 
-###### A.6.1.1.2.2.6.1.2.1.1.3.2.2 - USDS Burn Maximum [Core]  <!-- UUID: a444f64b-519a-4e52-a538-395c9ee04956 -->
+###### A.6.1.1.2.2.6.1.2.1.1.3.2.3.2 - USDS Burn Maximum [Core]  <!-- UUID: a444f64b-519a-4e52-a538-395c9ee04956 -->
 
 The maximum amount of USDS that can be burned by the Grove Diamond PAU (`LIMIT_USDS_BURN`) is specified in the document herein.
 
 - `maxAmount`: 5,000,000 USDS
 - `slope`: 5,000,000 USDS per day
 
-###### A.6.1.1.2.2.6.1.2.1.1.3.2.3 - USDS For USDC Swap Maximum [Core]  <!-- UUID: 7e53acf8-10e7-4250-a05c-bab8354aa738 -->
+###### A.6.1.1.2.2.6.1.2.1.1.3.2.3.3 - USDS For USDC Swap Maximum [Core]  <!-- UUID: 7e53acf8-10e7-4250-a05c-bab8354aa738 -->
 
 The maximum amount of USDS that can be swapped for USDC by the Grove Diamond PAU in the Mainnet PSM (`LIMIT_USDS_TO_USDC`) is specified in the document herein.
 
 - `maxAmount`: 5,000,000 USDC
 - `slope`: 5,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.2.1.1.3.2.4 - USDC For USDS Swap Maximum [Core]  <!-- UUID: 6ca30d6e-df7f-47f9-93c3-b20bae6762a3 -->
+###### A.6.1.1.2.2.6.1.2.1.1.3.3.4 - USDC For USDS Swap Maximum [Core]  <!-- UUID: 6ca30d6e-df7f-47f9-93c3-b20bae6762a3 -->
 
 The maximum amount of USDC that can be swapped for USDS by the Grove Diamond PAU in the Mainnet PSM (`LIMIT_USDC_TO_USDS`) is specified in the document herein.
 
@@ -8242,7 +8262,7 @@ The swap RateLimitID for USDC is: `0x6e850dcb18bea10055c82d1e3753f551b1228d04b81
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.2.4 - Rate Limits [Core]  <!-- UUID: df218aec-13d6-4238-bff9-a0eda5eb11a7 -->
 
-The current `maxAmount` and `slope` for this Instance's deposit, withdrawal, and swap operations are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this Instance's deposit, withdrawal, and swap operations are defined in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.2.2.6.1.2.1.1.3.2 - Diamond PAU Rate Limits](c5d3d2f9-cd88-4b00-a6df-da369c27674f).
 
 ###### A.6.1.1.2.2.6.1.3.1.12.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 805c6feb-74c9-4e43-90c8-446dd937a618 -->
 
@@ -8454,11 +8474,19 @@ The documents herein define the Instance-specific contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 850f1210-d355-48ef-8ba9-dcc70bb90f0e -->
 
-The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Atlas.
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: ec754079-0d17-4359-b11c-1d4e17d706f1 -->
+
+The inflow RateLimitID is: `0x44ad4f925dffddd260f6ba5813208bf35b11b254e79611cbc8443c1504f68e68`.
+
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 04092d26-e784-4830-be60-b8426b79e0a4 -->
+
+The outflow RateLimitID is: `0x0d8db6f922b464d5eb8ac718bef62b82b05d9bd0ea5dafd09ccd0461d4d98e12`.
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.2.4 - Rate Limits [Core]  <!-- UUID: abc0b1fc-4922-40f1-8ea9-60fba89f0e5f -->
 
-The inflow and outflow rate limit configuration for this conduit is specified in the subdocuments herein.
+The inflow and outflow rate limit configuration for this conduit is specified in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.2.2.6.1.2.1.1.3.2 - Diamond PAU Rate Limit](c5d3d2f9-cd88-4b00-a6df-da369c27674f).
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 2e5234f6-0cae-4689-b8da-61ad99f20c31 -->
 
@@ -8590,11 +8618,19 @@ The documents herein define the Instance-specific contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.14.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: e1c20c48-2fc0-402f-948f-dac6ea8ab71f -->
 
-The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Atlas.
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.3.1.14.2.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 167be74a-c004-4e00-813e-57d38be6f321 -->
+
+The inflow RateLimitID is: `0x1a86f9199a894b97364bd328ccf0a718073f81ec34f7febd5303937f8cacd73c`.
+
+###### A.6.1.1.2.2.6.1.3.1.14.2.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 766a2142-23af-49f5-8c47-1f6c17927e9b -->
+
+The outflow RateLimitID is: `0xac6b1419c7365d44c458289fbd4b91c1913427601113863b9293594a6885baff`.
 
 ###### A.6.1.1.2.2.6.1.3.1.14.2.2.4 - Rate Limits [Core]  <!-- UUID: 8e7f9afb-d4c6-49ac-a956-1a65817d709f -->
 
-The inflow and outflow rate limit configuration for this conduit is specified in the subdocuments herein.
+The inflow and outflow rate limit configuration for this conduit is specified in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.2.2.6.1.2.1.1.3.2 - Diamond PAU Rate Limits](c5d3d2f9-cd88-4b00-a6df-da369c27674f).
 
 ###### A.6.1.1.2.2.6.1.3.1.14.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 05baee1c-f5af-45e0-b6a9-e19a6fa443b8 -->
 
