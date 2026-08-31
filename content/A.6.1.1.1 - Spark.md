@@ -6350,6 +6350,83 @@ The documents herein define the Instance contract addresses.
 
 Timelock: 240 hours (10 days)
 
+###### A.6.1.1.1.2.6.1.3.1.8.5 - Ethereum Mainnet - Sentora RLUSD Morpho Vault Instance Configuration Document [Core]  <!-- UUID: 111e9f8c-170b-4373-827a-68f3277cacf1 -->
+
+The documents herein contain the Instance Configuration Document for the Sentora RLUSD Morpho Vault Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 89936ba2-5b23-4e76-be56-11819ca0828d -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2 - Parameters [Core]  <!-- UUID: 6c40f96f-812f-48fd-8d86-ffdfcea360c5 -->
+
+The documents herein define the parameters of the Sentora RLUSD Morpho Vault Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1 - Instance Identifiers [Core]  <!-- UUID: 8b4bbdf8-6b0e-4f67-9027-a12ceb4c6f1a -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.1 - Network [Core]  <!-- UUID: f04f6b39-d557-43ab-8eac-723e6dac30ce -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.2 - Target Protocol [Core]  <!-- UUID: 746a5eb7-c3e4-481f-a4c1-cacb7de72797 -->
+
+Morpho
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: e07bb7d6-ba1e-481c-98e3-d64a3cc64248 -->
+
+RLUSD
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.4 - Token [Core]  <!-- UUID: 92010051-063e-4dd3-93cd-481d21d84a80 -->
+
+TBD
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.2 - Contract Addresses [Core]  <!-- UUID: a22b8b0a-b446-48be-af71-1f2501cac156 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.2.1 - Token Address [Core]  <!-- UUID: eb847f84-0071-476a-b480-0e88dad694dd -->
+
+TBD
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 466c2918-ded4-44cf-b7fe-3d8e4794c15e -->
+
+`0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 4310527e-f12c-42f8-92c5-99def334be77 -->
+
+TBD
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.3 - Rate Limit IDs [Core]  <!-- UUID: a5ceda84-1a52-4b4b-8cbc-20947773f121 -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.4 - Rate Limits [Core]  <!-- UUID: bd713d89-4d39-4fc6-b7dd-f7213053635b -->
+
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 35eb7309-33dd-4a20-ad2b-2fd260a150ee -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 10,000,000 RLUSD
+- `slope`: 100,000,000 RLUSD per day
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 0c1a4694-d980-488c-b3a2-540d3b784a59 -->
+
+The outflow rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 46376283-cdef-4055-bc94-1121fe5427d6 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 878f1380-9240-4735-a89b-dac749281903 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
 ###### A.6.1.1.1.2.6.1.3.1.9 - Spark Savings V2 [Core]  <!-- UUID: 47f2b461-1d82-4ee8-8cd2-39c95184c51b -->
 
 The Ethereum Mainnet Instances of the Spark Savings v2 with `Active` Status are stored herein.
@@ -9199,83 +9276,6 @@ The documents herein define the Instance contract addresses.
 ###### A.6.1.1.1.2.6.1.4.3.1.1.4.3 - Timelock [Core]  <!-- UUID: 62c056de-3136-4faa-bb86-3b348e2e874c -->
 
 Timelock: 240 hours (10 days)
-
-###### A.6.1.1.1.2.6.1.3.1.8.5 - Ethereum Mainnet - Sentora RLUSD Morpho Vault Instance Configuration Document [Core]  <!-- UUID: 111e9f8c-170b-4373-827a-68f3277cacf1 -->
-
-The documents herein contain the Instance Configuration Document for the Sentora RLUSD Morpho Vault Instance.
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 89936ba2-5b23-4e76-be56-11819ca0828d -->
-
-**`Pending`**
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2 - Parameters [Core]  <!-- UUID: 6c40f96f-812f-48fd-8d86-ffdfcea360c5 -->
-
-The documents herein define the parameters of the Sentora RLUSD Morpho Vault Instance of the Allocation System Primitive.
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2.1 - Instance Identifiers [Core]  <!-- UUID: 8b4bbdf8-6b0e-4f67-9027-a12ceb4c6f1a -->
-
-The documents herein define the Instance identifiers
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.1 - Network [Core]  <!-- UUID: f04f6b39-d557-43ab-8eac-723e6dac30ce -->
-
-Ethereum Mainnet
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.2 - Target Protocol [Core]  <!-- UUID: 746a5eb7-c3e4-481f-a4c1-cacb7de72797 -->
-
-Morpho
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: e07bb7d6-ba1e-481c-98e3-d64a3cc64248 -->
-
-RLUSD
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.4 - Token [Core]  <!-- UUID: 92010051-063e-4dd3-93cd-481d21d84a80 -->
-
-TBD
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2.2 - Contract Addresses [Core]  <!-- UUID: a22b8b0a-b446-48be-af71-1f2501cac156 -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2.2.1 - Token Address [Core]  <!-- UUID: eb847f84-0071-476a-b480-0e88dad694dd -->
-
-TBD
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 466c2918-ded4-44cf-b7fe-3d8e4794c15e -->
-
-`0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 4310527e-f12c-42f8-92c5-99def334be77 -->
-
-TBD
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2.3 - Rate Limit IDs [Core]  <!-- UUID: a5ceda84-1a52-4b4b-8cbc-20947773f121 -->
-
-The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2.4 - Rate Limits [Core]  <!-- UUID: bd713d89-4d39-4fc6-b7dd-f7213053635b -->
-
-The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 35eb7309-33dd-4a20-ad2b-2fd260a150ee -->
-
-The inflow rate limits are:
-
-- `maxAmount`: 10,000,000 RLUSD
-- `slope`: 100,000,000 RLUSD per day
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 0c1a4694-d980-488c-b3a2-540d3b784a59 -->
-
-The outflow rate limits are:
-
-- `maxAmount`: Unlimited
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 46376283-cdef-4055-bc94-1121fe5427d6 -->
-
-The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.1.2.6.1.3.1.8.5.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 878f1380-9240-4735-a89b-dac749281903 -->
-
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ##### A.6.1.1.1.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: 5b1ce161-fc9e-4c90-ac14-75cfbba6a213 -->
 
