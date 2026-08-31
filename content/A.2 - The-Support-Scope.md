@@ -3248,7 +3248,7 @@ The documents herein define the access-control roles of the Diamond Parallelized
 
 ###### A.2.2.10.1.1.1.2.2.1 - Default Admin Role [Core]  <!-- UUID: b76195f2-7494-43a4-919e-fa823303ad06 -->
 
-The Default Admin Role (`DEFAULT_ADMIN_ROLE`) is the administrative role of an Instance's access-control contract, authorized to grant and revoke all other roles. It is held by Sky Governance through the Prime Agent's SubProxy. This per-Instance role is distinct from the Beacon's own `DEFAULT_ADMIN_ROLE`, which is held by the Pause Proxy.
+The Default Admin Role (`DEFAULT_ADMIN_ROLE`) is the administrative role of an Instance's `AccessControls` contract, authorized to grant and revoke all other roles. It is held by Sky Governance through the Prime Agent's SubProxy. Where a Diamond PAU has the Configurator enabled, the Configurator is also granted this role on that Instance's `AccessControls` contract and `RateLimits` contract, as specified in [A.2.2.10.1.1.1.2.4.2 - Enabled Diamond PAUs](9593a6c6-521b-4680-8119-cb1f08b9a3e3). This per-Instance role is distinct from the Beacon's own `DEFAULT_ADMIN_ROLE`, which is held by the Pause Proxy.
 
 ###### A.2.2.10.1.1.1.2.2.2 - Controller Role [Core]  <!-- UUID: 4f77eb6c-4b2f-4fa0-a7c0-d58e9b76ce8e -->
 
@@ -3272,7 +3272,7 @@ A Grantor is an address registered on the AdministeredAgent that is authorized t
 
 ###### A.2.2.10.1.1.1.2.2.7 - Administered Agent Admin [Core]  <!-- UUID: d823b872-fe99-4856-9096-55335357d55e -->
 
-The Administered Agent Admin is an address registered on the AdministeredAgent with authority over its role configuration, able to add and remove the AdministeredAgent's Admins, Grantors, Actors, and Revokers. This role is distinct from the Default Admin Role, as specified in [A.2.2.10.1.1.1.2.2.1 - Default Admin Role](b76195f2-7494-43a4-919e-fa823303ad06), which administers the Diamond PAU access-control contract; both are held by Sky Governance through the Prime Agent's SubProxy.
+The Administered Agent Admin is an address registered on the AdministeredAgent with authority over its role configuration, able to add and remove the AdministeredAgent's Admins, Grantors, Actors, and Revokers. This role is distinct from the Default Admin Role, as specified in [A.2.2.10.1.1.1.2.2.1 - Default Admin Role](b76195f2-7494-43a4-919e-fa823303ad06), which administers the Diamond PAU `AccessControls` contract; both are held by Sky Governance through the Prime Agent's SubProxy.
 
 ###### A.2.2.10.1.1.1.2.3 - Liquidity Layer Shared Contracts [Core]  <!-- UUID: a2677d19-1f2c-4361-bedc-34cb2e7eaab5 -->
 
@@ -3400,37 +3400,282 @@ The Administered Agent Factory (`AdministeredAgentFactory`) is the contract that
 
 ###### A.2.2.10.1.1.1.2.3.6 - Configurator [Core]  <!-- UUID: 5e1f82c7-bcd6-46f8-aec0-3e767e55a93c -->
 
-The Configurator (`Configurator`) is the contract through which designated actors operate a Diamond PAU's rate limits and pre-approved controller actions, within the ceilings and permissions as specified in [A.2.2.10.1.1.1.2.4 - PAS](989171ed-5424-42ee-83f4-199e1149699c). Further details will be specified in a future iteration of the Atlas.
+The Configurator (`PAS_CONFIGURATOR`) is the contract through which cBEAMs operate Diamond PAUs' rate limits and pre-approved controller actions, within the ceilings, as specified in [A.2.2.10.1.1.1.2.4.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4), and once registered and paired, as specified in [A.2.2.10.1.1.1.2.4.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d). Its address on Ethereum Mainnet is `0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929`.
 
-###### A.2.2.10.1.1.1.2.3.7 - Beam State [Core]  <!-- UUID: 2e36bb4f-91db-4dca-bdb1-e4aa385b1129 -->
+###### A.2.2.10.1.1.1.2.3.7 - BeamState [Core]  <!-- UUID: 2e36bb4f-91db-4dca-bdb1-e4aa385b1129 -->
 
-Beam State (`BeamState`) is the contract that records which actors, rate limits, and controller actions are authorized under [A.2.2.10.1.1.1.2.4 - PAS](989171ed-5424-42ee-83f4-199e1149699c). Further details will be specified in a future iteration of the Atlas.
+The BeamState (`PAS_STATE`) is the contract that records which cBEAMs, `RateLimits` contracts, and Controllers are registered, as specified in [A.2.2.10.1.1.1.2.4.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d), and holds the ceilings within which rate limits and controller actions may be adjusted, as specified in [A.2.2.10.1.1.1.2.4.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4). Its address on Ethereum Mainnet is `0x1A1879E66547F90bfF87D45A5b0335950E019E02`.
+
+###### A.2.2.10.1.1.1.2.3.8 - Timelock [Core]  <!-- UUID: f6791cf7-f3aa-49da-9691-73e480bf3328 -->
+
+The Timelock (`PAS_TIMELOCK`) is the contract that delays certain changes to BeamState's registries and ceilings before they take effect, as specified in [A.2.2.10.1.1.1.2.4.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb), and also delays restarting Configurator operations after a halt, as specified in [A.2.2.10.1.1.1.2.4.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b). Its own operational details, including its roles and their holders, are specified in [A.2.2.10.1.1.1.2.4.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103). Its address on Ethereum Mainnet is `0xB50a06Af02dDE44dB6EA7ee729403848c2B35293`.
+
+###### A.2.2.10.1.1.1.2.3.9 - PASMom [Core]  <!-- UUID: 781172a1-e2b2-4c7b-852a-3f8e89fec8ca -->
+
+The PASMom (`PAS_MOM`) is the contract that lets Sky Governance bypass the GSM Pause Delay to halt Configurator operations or pause the Timelock in an emergency, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71) and [A.2.2.10.1.1.1.2.4.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8). Its address on Ethereum Mainnet is `0xD44B8d01D5207aA792C666d0A712A1A161CD6171`.
 
 ###### A.2.2.10.1.1.1.2.4 - PAS [Core]  <!-- UUID: 989171ed-5424-42ee-83f4-199e1149699c -->
 
-The PAS (Parallelized Allocation System) is a permissioned layer that lets designated actors operate a Diamond PAU's rate limits and pre-approved controller actions, within the PAS's ceilings, without direct administrative control over the Diamond PAU.
+The PAS (Parallelized Allocation System) is a permissioned layer that lets cBEAMs operate a Diamond PAU's rate limits and pre-approved controller actions, within BeamState's ceilings, without direct administrative control over the Diamond PAU.
 
 The PAS consists of the following contracts:
 
-- BeamState: holds its registries and ceilings.
-- PAS Configurator: the contract a cBEAM (a whitelisted operator authorized by BeamState) calls to adjust a rate limit or execute a pre-approved controller action within those ceilings.
-- Timelock: delays certain changes to BeamState's registries and ceilings before they take effect.
-- PAS Mom: its emergency stop switch.
+- BeamState: holds the registries and ceilings the Core Council Multisig sets. Sky Governance retains full, direct control over it at all times, since the Sky Pause Proxy holds ward authorization on it, allowing a Sky Core Spell to call any of its functions directly.
+- Configurator: the contract a cBEAM calls to adjust a rate limit or execute a pre-approved controller action within those ceilings.
+- Timelock: delays certain Core Council Multisig changes to BeamState's registries and ceilings before they take effect.
+- PASMom: the PAS's emergency stop-and-pause switch.
 
-Sky Governance retains full, direct control over BeamState at all times: the Sky Pause Proxy holds ward authorization on it, so a Sky Core Spell can call any of its functions directly.
+The documents herein define its parameters, the Diamond PAUs with the Configurator enabled, BeamState and who may change its rules, the Configurator and its Operators, and the transitional measures that apply while the Timelock is paused. For the emergency path itself, see [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
 
-The documents herein define the Diamond PAUs with the Configurator enabled. Further details will be specified in a future iteration of the Atlas.
+###### A.2.2.10.1.1.1.2.4.1 - Parameters [Core]  <!-- UUID: 422e200e-2a94-4bde-b718-328ff82d3bb8 -->
 
-###### A.2.2.10.1.1.1.2.4.1 - Enabled Diamond PAUs [Core]  <!-- UUID: 9593a6c6-521b-4680-8119-cb1f08b9a3e3 -->
+The documents herein define the parameters and mechanisms of the PAS.
+
+###### A.2.2.10.1.1.1.2.4.1.1 - Hop [Core]  <!-- UUID: 6d77d472-4f2e-4c97-a79f-6911326ab728 -->
+
+The documents herein define the `hop` parameter and its default value.
+
+###### A.2.2.10.1.1.1.2.4.1.1.1 - Hop Definition [Core]  <!-- UUID: dc0e3a84-b542-4985-a41b-7ae2a3921cf3 -->
+
+The `hop` parameter defines the minimum time interval, in seconds, that must elapse between consecutive increases any cBEAM makes to the same rate limit's `maxAmount` or `slope`. Its value is set per `RateLimits` contract, but the interval is tracked independently for each rate limit within it, so increasing one rate limit does not affect when another can next be increased. A decrease is not subject to `hop`.
+
+Changes to the `hop` parameter are proposed by the Core Council Multisig, as specified in [A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), or made directly via an Executive Vote at any time, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4 - PAS](989171ed-5424-42ee-83f4-199e1149699c).
+
+###### A.2.2.10.1.1.1.2.4.1.1.2 - Hop Default Value [Core]  <!-- UUID: f86fe54a-9770-41ad-8ad2-7c58090224ce -->
+
+All `RateLimits` contracts use a single, shared `hop` value unless the Core Council Multisig or an Executive Vote sets one specifically for a given contract. That shared value is 57,600 seconds (16 hours).
+
+###### A.2.2.10.1.1.1.2.4.1.2 - Max Change [Core]  <!-- UUID: e1cbf548-2f01-44a0-adeb-b73564fa6458 -->
+
+The documents herein define the `maxChange` parameter and its default value.
+
+###### A.2.2.10.1.1.1.2.4.1.2.1 - Max Change Definition [Core]  <!-- UUID: 942d6607-b92c-4779-8012-ea3b259ebf2b -->
+
+The `maxChange` parameter, defined per `RateLimits` contract, bounds how far a cBEAM may raise a rate limit's `maxAmount` or `slope` in a single adjustment: the new value cannot exceed the higher of the current value multiplied by `maxChange`, or that rate limit's own registered default.
+
+`maxChange` itself can only be set to zero or to `WAD` (`10**18`, a multiplier of one (1)) or more; it cannot be set to a fractional multiplier below one (1).
+
+Changes to the `maxChange` parameter are proposed by the Core Council Multisig, as specified in [A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), or made directly via an Executive Vote at any time, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4 - PAS](989171ed-5424-42ee-83f4-199e1149699c).
+
+###### A.2.2.10.1.1.1.2.4.1.2.2 - Max Change Default Value [Core]  <!-- UUID: 0414677e-d79e-4d84-b0aa-209f0fa3ffe3 -->
+
+All `RateLimits` contracts use a single, shared `maxChange` value unless the Core Council Multisig or an Executive Vote sets one specifically for a given contract. That shared value is 1.20.
+
+###### A.2.2.10.1.1.1.2.4.1.3 - Locked Unlimited Rate Limit Definition [Core]  <!-- UUID: 92a74fe1-3115-4cd7-bbf8-4e16fb4b0aa8 -->
+
+A rate limit is locked as unlimited, and a cBEAM must keep it at a `maxAmount` equal to the maximum uint256 value with a zero slope, in either of two (2) cases:
+
+- It has a default of that same value.
+- It already holds that value on the `RateLimits` contract and has no default at all. A rate limit that is already unlimited is locked the same way whether or not it was ever registered.
+
+Registering a default other than the unlimited value removes that lock.
+
+###### A.2.2.10.1.1.1.2.4.2 - Enabled Diamond PAUs [Core]  <!-- UUID: 9593a6c6-521b-4680-8119-cb1f08b9a3e3 -->
 
 The Diamond PAUs with the Configurator enabled are defined in the subdocuments herein.
 
-###### A.2.2.10.1.1.1.2.4.1.1 - Grove Diamond PAU [Core]  <!-- UUID: e9b6e62c-a902-431d-8691-abf052919813 -->
+###### A.2.2.10.1.1.1.2.4.2.1 - Grove Diamond PAU [Core]  <!-- UUID: e9b6e62c-a902-431d-8691-abf052919813 -->
 
-The PAS Configurator is granted `DEFAULT_ADMIN_ROLE` on the Grove Diamond PAU `AccessControls` and `RateLimits` contracts. The bounds within which cBEAMs may adjust rate limits on the Grove Diamond PAU `RateLimits` are:
+The Configurator is granted `DEFAULT_ADMIN_ROLE` on the Grove Diamond PAU `AccessControls` and `RateLimits` contracts. The Grove Diamond PAU `RateLimits` contract is paired to the Operator specified in [A.2.2.10.1.1.1.2.4.4.3.1 - Operator For The Grove Diamond PAU](da8d9885-3b28-478c-bbaa-ec88bdde91a9). The bounds within which cBEAMs may adjust rate limits on the Grove Diamond PAU `RateLimits` are:
 
-- `hop`: will be specified in a future iteration of the Atlas.
-- `maxChange`: will be specified in a future iteration of the Atlas.
+- `hop`: as specified in [A.2.2.10.1.1.1.2.4.1.1.2 - Hop Default Value](f86fe54a-9770-41ad-8ad2-7c58090224ce)
+- `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.1.2.2 - Max Change Default Value](0414677e-d79e-4d84-b0aa-209f0fa3ffe3)
+
+###### A.2.2.10.1.1.1.2.4.3 - BeamState [Core]  <!-- UUID: 2091d01d-461a-4a02-9e82-986cc51960d4 -->
+
+BeamState holds the registries and ceilings that govern the PAS: which `RateLimits` contracts, Controllers, and cBEAMs are registered, and the bounds within which they may be adjusted. The documents herein define the Core Council Multisig that may change BeamState's rules, the Timelock that delays certain changes, the delayed and immediate processes for making them, how Configurator operations are halted and restarted, and PASMom's independent power to halt or pause the system.
+
+###### A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig [Core]  <!-- UUID: 666cf6b3-6d7a-40f7-99fb-b6e2e4375754 -->
+
+The Core Council Multisig (`coreCouncil`) can call any of BeamState's immediate functions directly, without a Spell, as specified in [A.2.2.10.1.1.1.2.4.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6), including halting Configurator operations as an emergency action. Sky Governance can independently halt Configurator operations or pause the Timelock through the PASMom contract, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71) and [A.2.2.10.1.1.1.2.4.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8).
+
+The Core Council Multisig proposes and can cancel changes to BeamState's delayed registries and ceilings on the Timelock, as specified in [A.2.2.10.1.1.1.2.4.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb). The Core Council Multisig also proposes restarting Configurator operations, as specified in [A.2.2.10.1.1.1.2.4.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b). Once the minimum delay has passed, any address may execute the proposed change, as specified in [A.2.2.10.1.1.1.2.4.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103); proposing, cancelling, and executing are all blocked while the Timelock is paused.
+
+###### A.2.2.10.1.1.1.2.4.3.1.1 - Core Council Multisig Address [Core]  <!-- UUID: 41157518-ec2f-4c4f-a112-5a1f07fc71dc -->
+
+The address of the Core Council Multisig on the Ethereum Mainnet is `0x148eF923d764CBdc1597CcADBbbC66499C1A1432`.
+
+###### A.2.2.10.1.1.1.2.4.3.1.2 - Core Council Multisig Required Number Of Signers [Core]  <!-- UUID: 70ce8011-7126-440d-b90d-010a3d97b43f -->
+
+The Core Council Multisig's required number of signers is five (5) out of six (6).
+
+###### A.2.2.10.1.1.1.2.4.3.1.3 - Core Council Multisig Signers [Core]  <!-- UUID: 366436ae-0bab-4fce-a144-64660ac47366 -->
+
+The signers of the Core Council Multisig are four (4) addresses controlled by Operational GovOps Soter Labs, and two (2) addresses controlled by the Core Facilitator.
+
+###### A.2.2.10.1.1.1.2.4.3.1.4 - Core Council Multisig Usage Standards [Core]  <!-- UUID: c53506aa-7919-41b4-847b-28a015145f66 -->
+
+The signers of the Core Council Multisig must use the multisig in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb) and [A.2.2.10.1.1.1.2.4.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6).
+
+###### A.2.2.10.1.1.1.2.4.3.1.5 - Core Council Multisig Modification [Core]  <!-- UUID: 61f08711-db44-4c9f-98ad-f330e729398f -->
+
+Operational GovOps Soter Labs and the Core Facilitator can change the signers of the Core Council Multisig so long as:
+
+- there are six (6) signers;
+- five (5) signers are required to execute transactions;
+- four (4) signers are controlled by Operational GovOps Soter Labs; and
+- two (2) signers are controlled by the Core Facilitator.
+
+###### A.2.2.10.1.1.1.2.4.3.2 - Timelock [Core]  <!-- UUID: a824d088-be58-4163-b382-54a95a728103 -->
+
+The Timelock gates BeamState's delayed registry and ceiling changes: the Core Council Multisig proposes and can cancel a change, as specified in [A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), and once the minimum delay has passed, any address may execute it, since the Timelock's `EXECUTOR_ROLE` is granted to `address(0)`, making execution permissionless. Proposing, cancelling, and executing are all blocked while the Timelock is paused; only unpausing restores them. The minimum delay is fourteen (14) days.
+
+The Timelock's `PROPOSER_ROLE` and `CANCELLER_ROLE` are held by the Core Council Multisig. Its `PAUSER_ROLE`, which can pause the Timelock, is held by PASMom, as specified in [A.2.2.10.1.1.1.2.4.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8). The Timelock's `DEFAULT_ADMIN_ROLE`, which can grant and revoke its other roles and change its minimum delay, is held by the Sky Pause Proxy.
+
+###### A.2.2.10.1.1.1.2.4.3.3 - Delayed Function Calls [Core]  <!-- UUID: 4a388764-7469-4efb-84f0-6b91278428fb -->
+
+The documents herein define the PAS ceiling and registry changes proposed by the Core Council Multisig through the Timelock, taking effect only after a minimum delay has passed since being proposed.
+
+###### A.2.2.10.1.1.1.2.4.3.3.1 - Set Hop Function Call [Core]  <!-- UUID: 8ead8771-c769-48d0-af2a-802099c61d42 -->
+
+The `setHop()` function sets `hop` for a `RateLimits` contract, as specified in [A.2.2.10.1.1.1.2.4.1.1.1 - Hop Definition](dc0e3a84-b542-4985-a41b-7ae2a3921cf3).
+
+###### A.2.2.10.1.1.1.2.4.3.3.2 - Set Max Change Function Call [Core]  <!-- UUID: da93e0a7-5fa1-4d93-af72-24557fbd9f24 -->
+
+The `setMaxChange()` function sets `maxChange` for a `RateLimits` contract, as specified in [A.2.2.10.1.1.1.2.4.1.2.1 - Max Change Definition](942d6607-b92c-4779-8012-ea3b259ebf2b).
+
+###### A.2.2.10.1.1.1.2.4.3.3.3 - Add Rate Limits Function Call [Core]  <!-- UUID: 87da775d-430e-4db9-b58e-bbcf323e375a -->
+
+The `addRateLimits()` function registers a `RateLimits` contract as a valid cBEAM pairing target.
+
+###### A.2.2.10.1.1.1.2.4.3.3.4 - Add Controller Function Call [Core]  <!-- UUID: 2ef770b2-3636-4545-9aad-0f7cf94c0619 -->
+
+The `addController()` function registers a Controller as a valid cBEAM pairing target.
+
+###### A.2.2.10.1.1.1.2.4.3.3.5 - Add Init Rate Limits Function Call [Core]  <!-- UUID: bbdf1e6a-821b-43ec-aabf-e43a3bd6e113 -->
+
+The `addInitRateLimits()` function registers a rate limit's default on a `RateLimits` contract, including the locked-unlimited case, as specified in [A.2.2.10.1.1.1.2.4.1.3 - Locked Unlimited Rate Limit Definition](92a74fe1-3115-4cd7-bbf8-4e16fb4b0aa8).
+
+###### A.2.2.10.1.1.1.2.4.3.3.6 - Add Init Controller Actions Function Call [Core]  <!-- UUID: 010a904e-e0e0-4c1d-8460-b8e3118b680f -->
+
+The `addInitControllerActions()` function registers a pre-approved controller action's default.
+
+###### A.2.2.10.1.1.1.2.4.3.3.7 - Add cBEAM Function Call [Core]  <!-- UUID: 33d6773e-d3d8-4141-943b-bfac186574b1 -->
+
+The `addCBeam()` function registers a new cBEAM as an Operator.
+
+###### A.2.2.10.1.1.1.2.4.3.3.8 - Start Function Call [Core]  <!-- UUID: 032164e4-cf66-4e79-bb8c-18f095a1cdef -->
+
+The `start()` function sets BeamState's `stopped` flag to false, restoring Configurator operations.
+
+###### A.2.2.10.1.1.1.2.4.3.4 - Immediate Function Calls [Core]  <!-- UUID: 2c82cfd0-7a9a-464f-844d-ebc43b31c2a6 -->
+
+The documents herein define the PAS ceiling and registry changes called directly by the Core Council Multisig, taking effect immediately, with no delay. `stop()` can also be triggered independently by PASMom, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
+
+###### A.2.2.10.1.1.1.2.4.3.4.1 - Del Rate Limits Function Call [Core]  <!-- UUID: b6693635-4fc9-4a91-9c39-1cc075da506c -->
+
+The `delRateLimits()` function removes a `RateLimits` contract as a valid cBEAM pairing target.
+
+###### A.2.2.10.1.1.1.2.4.3.4.2 - Del Controller Function Call [Core]  <!-- UUID: 61b01ab8-6c82-4ce6-91fd-cc5ffb7e1530 -->
+
+The `delController()` function removes a Controller as a valid cBEAM pairing target.
+
+###### A.2.2.10.1.1.1.2.4.3.4.3 - Del Init Rate Limits Function Call [Core]  <!-- UUID: 623fe784-cca1-423d-b207-1990e903126d -->
+
+The `delInitRateLimits()` function removes a rate limit's default on a `RateLimits` contract, including the locked-unlimited case, as specified in [A.2.2.10.1.1.1.2.4.1.3 - Locked Unlimited Rate Limit Definition](92a74fe1-3115-4cd7-bbf8-4e16fb4b0aa8).
+
+###### A.2.2.10.1.1.1.2.4.3.4.4 - Del Init Controller Actions Function Call [Core]  <!-- UUID: 88c0c2dd-f974-4690-8477-06e22d6dcd08 -->
+
+The `delInitControllerActions()` function removes a pre-approved controller action's default.
+
+###### A.2.2.10.1.1.1.2.4.3.4.5 - Del cBEAM Function Call [Core]  <!-- UUID: 03280c06-8cab-47e0-acb7-9c7a30a5bf6a -->
+
+The `delCBeam()` function removes a cBEAM's registration as an Operator. This does not unpair it from any `RateLimits` contract or Controller it already holds; each existing pairing must be individually unpaired via [A.2.2.10.1.1.1.2.4.3.4.7 - Unset cBEAM For Rate Limits Function Call](9d6d19de-6a1c-410e-984a-3a7cbaf1e71d) or [A.2.2.10.1.1.1.2.4.3.4.9 - Unset cBEAM For Controller Function Call](0b853079-1362-45d8-99a4-a31bb584ef6c).
+
+###### A.2.2.10.1.1.1.2.4.3.4.6 - Set cBEAM For Rate Limits Function Call [Core]  <!-- UUID: b18f6ed9-06c6-41a6-a54e-3e0e7f3c38bf -->
+
+The `setCBeamForRateLimits()` function pairs a cBEAM to a `RateLimits` contract.
+
+###### A.2.2.10.1.1.1.2.4.3.4.7 - Unset cBEAM For Rate Limits Function Call [Core]  <!-- UUID: 9d6d19de-6a1c-410e-984a-3a7cbaf1e71d -->
+
+The `unsetCBeamForRateLimits()` function unpairs a cBEAM from a `RateLimits` contract.
+
+###### A.2.2.10.1.1.1.2.4.3.4.8 - Set cBEAM For Controller Function Call [Core]  <!-- UUID: c645c0d3-0282-4e93-a2ae-c99db3bcd421 -->
+
+The `setCBeamForController()` function pairs a cBEAM to a Controller.
+
+###### A.2.2.10.1.1.1.2.4.3.4.9 - Unset cBEAM For Controller Function Call [Core]  <!-- UUID: 0b853079-1362-45d8-99a4-a31bb584ef6c -->
+
+The `unsetCBeamForController()` function unpairs a cBEAM from a Controller.
+
+###### A.2.2.10.1.1.1.2.4.3.4.10 - Stop Function Call [Core]  <!-- UUID: 52895c20-8322-4cbf-800f-8ea107f00f85 -->
+
+The `stop()` function sets BeamState's `stopped` flag to true, halting Configurator operations.
+
+###### A.2.2.10.1.1.1.2.4.3.5 - Restart After Halt [Core]  <!-- UUID: e049feea-5af3-4a8d-8766-36e348fd5d7b -->
+
+Restarting Configurator operations after a halt is done via BeamState's `start()` function, as specified in [A.2.2.10.1.1.1.2.4.3.3.8 - Start Function Call](032164e4-cf66-4e79-bb8c-18f095a1cdef). `start()` is proposed by the Core Council Multisig, as specified in [A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), and takes effect only after a minimum delay has passed since being proposed. While the Timelock is paused, `start()` cannot take effect this way; restarting instead requires an Executive Vote, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4.5 - Transitional Measures](d5240aa5-72c1-4f92-b22c-7a80a35d733c).
+
+Unpausing the Timelock does not route through this minimum delay, since it is gated by the Timelock's own access control rather than BeamState's role system. This holds regardless of how the Timelock came to be paused, and requires an Executive Vote, without requiring a prior Governance Poll — the same process specified for reversing PASMom's `pause()` in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
+
+###### A.2.2.10.1.1.1.2.4.3.6 - PASMom [Core]  <!-- UUID: 88e11076-5fe1-42a5-b2ba-bdb1bc929ec8 -->
+
+PASMom is a ward on BeamState and holds the Timelock's `PAUSER_ROLE`, as specified in [A.2.2.10.1.1.1.2.4.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103). Through these, Sky Governance can independently halt Configurator operations or pause the Timelock, bypassing the GSM Pause Delay, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
+
+###### A.2.2.10.1.1.1.2.4.4 - Configurator [Core]  <!-- UUID: 45840a10-6c7c-453a-8218-4ab4d705012d -->
+
+The Configurator is the contract through which a cBEAM (Configurator Bounded External Access Module) adjusts rate limits or executes pre-approved controller actions, within the ceilings the Configurator enforces, once registered and paired to a specific Diamond PAU `RateLimits` contract or Controller. A cBEAM is an Operator of the PAS. The same cBEAM may be paired to more than one `RateLimits` contract or Controller.
+
+Removing an Operator's registration does not itself unpair it from any `RateLimits` contract or Controller it already holds, as specified in [A.2.2.10.1.1.1.2.4.3.4.5 - Del cBEAM Function Call](03280c06-8cab-47e0-acb7-9c7a30a5bf6a).
+
+The documents herein define how an Operator exercises its adjustments, its public communication obligation, and the Operators registered to the Configurator.
+
+###### A.2.2.10.1.1.1.2.4.4.1 - Operator Execution [Core]  <!-- UUID: 7a98000b-c069-42f3-b1a4-8a3e7323a960 -->
+
+An Operator exercises a rate limit adjustment by calling the Configurator directly. A rate limit locked as unlimited, as specified in [A.2.2.10.1.1.1.2.4.1.3 - Locked Unlimited Rate Limit Definition](92a74fe1-3115-4cd7-bbf8-4e16fb4b0aa8), cannot be raised or lowered. Otherwise, an Operator may lower a rate limit's `maxAmount` or `slope` to any value, including to zero, at any time. It may raise either value up to the bound set by [A.2.2.10.1.1.1.2.4.1.2.1 - Max Change Definition](942d6607-b92c-4779-8012-ea3b259ebf2b), and only after the interval set by [A.2.2.10.1.1.1.2.4.1.1.1 - Hop Definition](dc0e3a84-b542-4985-a41b-7ae2a3921cf3) has passed since its last raise to that rate limit.
+
+An Operator exercises a controller action by calling the Configurator to execute a pre-approved action on its paired Controller.
+
+Both are unaffected by whether the Timelock is paused, but are blocked while Configurator operations are halted, as specified in [A.2.2.10.1.1.1.2.4.3.4.10 - Stop Function Call](52895c20-8322-4cbf-800f-8ea107f00f85).
+
+###### A.2.2.10.1.1.1.2.4.4.2 - Public Communication [Core]  <!-- UUID: e1a96b57-9c5e-469f-b7ac-5dac028eb726 -->
+
+Each Operator maintains a single, ongoing Forum post, under its Prime Agent's Forum category, as an action log. Once a rate limit or controller action adjustment has been executed, the execution must be publicly communicated as a reply to that Forum post.
+
+###### A.2.2.10.1.1.1.2.4.4.3 - Registered Operators [Core]  <!-- UUID: c9019bfd-424e-4284-b349-c8e5d9ed5c2d -->
+
+The Operators registered to the Configurator are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.4.3.1 - Operator For The Grove Diamond PAU [Core]  <!-- UUID: da8d9885-3b28-478c-bbaa-ec88bdde91a9 -->
+
+The Grove Diamond PAU's Operator is the Grove Operator Multisig.
+
+###### A.2.2.10.1.1.1.2.4.4.3.1.1 - Grove Operator Multisig Address [Core]  <!-- UUID: 5a5e59fd-693f-4511-b4b8-e2619ae60f89 -->
+
+The address of the Grove Operator Multisig on the Ethereum Mainnet is `0x91dC2F6DbB8Adf76d373A54D408EDd7D736046C4`.
+
+###### A.2.2.10.1.1.1.2.4.4.3.1.2 - Grove Operator Multisig Required Number Of Signers [Core]  <!-- UUID: dbbfa844-428c-4815-a657-6735c2361ebe -->
+
+The Grove Operator Multisig's required number of signers is two (2) out of three (3).
+
+###### A.2.2.10.1.1.1.2.4.4.3.1.3 - Grove Operator Multisig Signers [Core]  <!-- UUID: 776677da-0601-4b25-97f0-619cb8978415 -->
+
+The signers of the Grove Operator Multisig are controlled by Operational GovOps Soter Labs. The specific signers will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.4.4.3.1.4 - Grove Operator Multisig Usage Standards [Core]  <!-- UUID: 6618063e-89c7-4ff0-806a-d46b32029dc6 -->
+
+The signers of the Grove Operator Multisig must use the multisig to operate the Configurator in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960) and [A.2.2.10.1.1.1.2.4.4.2 - Public Communication](e1a96b57-9c5e-469f-b7ac-5dac028eb726).
+
+###### A.2.2.10.1.1.1.2.4.4.3.1.5 - Grove Operator Multisig Modification [Core]  <!-- UUID: e3f61226-0c1a-4d83-9007-9ac2d21ed3da -->
+
+Operational GovOps Soter Labs can change the signers of the Grove Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
+
+###### A.2.2.10.1.1.1.2.4.5 - Transitional Measures [Core]  <!-- UUID: d5240aa5-72c1-4f92-b22c-7a80a35d733c -->
+
+The PAS launches with the Timelock paused, as a transitional measure, via the August 27, 2026 Executive Vote. This means that, while the Timelock is paused, the functions described below, which the Core Council Multisig otherwise proposes through the Timelock, cannot take effect. Any updates instead require an Executive Vote, without requiring a prior Governance Poll:
+
+- `setHop()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.1 - Set Hop Function Call](8ead8771-c769-48d0-af2a-802099c61d42).
+- `setMaxChange()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.2 - Set Max Change Function Call](da93e0a7-5fa1-4d93-af72-24557fbd9f24).
+- `addRateLimits()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.3 - Add Rate Limits Function Call](87da775d-430e-4db9-b58e-bbcf323e375a).
+- `addController()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.4 - Add Controller Function Call](2ef770b2-3636-4545-9aad-0f7cf94c0619).
+- `addInitRateLimits()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.5 - Add Init Rate Limits Function Call](bbdf1e6a-821b-43ec-aabf-e43a3bd6e113).
+- `addInitControllerActions()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.6 - Add Init Controller Actions Function Call](010a904e-e0e0-4c1d-8460-b8e3118b680f).
+- `addCBeam()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.7 - Add cBEAM Function Call](33d6773e-d3d8-4141-943b-bfac186574b1).
+- `start()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.8 - Start Function Call](032164e4-cf66-4e79-bb8c-18f095a1cdef).
+
+The Core Council Multisig also cannot cancel an already-proposed delayed change while the Timelock is paused; only unpausing it, via an Executive Vote, restores that ability.
+
+The Core Council Multisig's immediate functions, as specified in [A.2.2.10.1.1.1.2.4.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6), are unaffected by the Timelock being paused, since they do not route through it.
 
 ###### A.2.2.10.1.1.1.2.5 - Liquidity Layer Operational Processes [Core]  <!-- UUID: 3b387169-c279-4d0f-918c-e6c424c6ea2c -->
 
@@ -3682,7 +3927,7 @@ The following code implements the public view functions that query the current `
 
 ###### A.2.2.10.1.1.1.2.5.3.2 - Set RateLimit [Core]  <!-- UUID: f671061e-11a0-4d3b-bb6e-9f4ee9a012a9 -->
 
-The following code sets the `RateLimit` for a specific key, restricted to the `DEFAULT_ADMIN_ROLE` holder (Sky Governance acting through the Prime Agent's SubProxy):
+The following code sets the `RateLimit` for a specific key, restricted to the `DEFAULT_ADMIN_ROLE` holder, as specified in [A.2.2.10.1.1.1.2.2.1 - Default Admin Role](b76195f2-7494-43a4-919e-fa823303ad06):
 
 `function setRateLimitData(
         bytes32 key,
@@ -3712,7 +3957,7 @@ The following code sets the `RateLimit` for a specific key, restricted to the `D
 
 ###### A.2.2.10.1.1.1.2.5.3.3 - Set Unlimited RateLimit [Core]  <!-- UUID: a85b7e8b-c4e9-44de-b717-efa4c8268d3b -->
 
-The following code sets an unlimited `RateLimit` for a specific key, restricted to the `DEFAULT_ADMIN_ROLE` holder (Sky Governance acting through the Prime Agent's SubProxy):
+The following code sets an unlimited `RateLimit` for a specific key, restricted to the `DEFAULT_ADMIN_ROLE` holder, as specified in [A.2.2.10.1.1.1.2.2.1 - Default Admin Role](b76195f2-7494-43a4-919e-fa823303ad06):
 
 `function setUnlimitedRateLimitData(bytes32 key) external override {
         setRateLimitData(key, type(uint256).max, 0, type(uint256).max, block.timestamp);
@@ -3761,6 +4006,56 @@ The following code increases the `RateLimit` for a specific key, restricted to t
 
         emit RateLimitIncreaseTriggered(key, amountToIncrease, currentRateLimit, newLimit);
     }`
+
+###### A.2.2.10.1.1.1.6 - Security Specifications [Core]  <!-- UUID: 905a0c30-5758-48e8-9006-b52ced11fa42 -->
+
+The documents herein specify required security measures for the setup and ongoing management of the Allocation System Primitive.
+
+###### A.2.2.10.1.1.1.6.1 - Security Processes [Core]  <!-- UUID: f763e8d9-d05f-4035-8cf5-7b39d3d43809 -->
+
+The documents herein define required security processes.
+
+###### A.2.2.10.1.1.1.6.1.1 - Pull Request Approval Requirements [Core]  <!-- UUID: f14bd41f-87a4-4cf9-aa04-189db73e0f08 -->
+
+All Prime Agent Liquidity Layer GitHub repositories require a minimum of two (2) approvals from accounts held by distinct individuals or entities before merging any Pull Request.
+
+###### A.2.2.10.1.1.1.6.2 - Security Architecture [Core]  <!-- UUID: 7d11371b-39cf-4759-bf5e-2f5de3fe3da4 -->
+
+The documents herein specify required security architecture.
+
+###### A.2.2.10.1.1.1.6.2.1 - Liquidity Layer Freezer Multisig [Core]  <!-- UUID: a313bdfd-bb2e-4e0d-a040-4a816b50b74c -->
+
+Each Liquidity Layer must include at least one (1) Freezer Multisig, holding the emergency authority to remove a compromised or malicious address authorized to submit allocation operations. Each Freezer Multisig must use the default configuration specified in the documents herein unless a deviation has been approved as specified in [A.2.2.10.1.1.1.6.2.1.3 - Default Configuration Deviations](3b9336c2-53c8-4967-ab45-a2f8c5a36556).
+
+###### A.2.2.10.1.1.1.6.2.1.1 - Required Number Of Signers [Core]  <!-- UUID: 040b5603-9c1c-4730-9e65-8be855db5f55 -->
+
+The Freezer Multisig has a default 2/5 signing requirement. This default is below the baseline threshold specified in [A.2.11.1.3.2.1.1.2.1 - Threshold Requirements](89b7bcf9-8268-4e46-bdfb-dae3a5985a98) and applies under the standing exemption for emergency-response Multisigs specified in [A.2.11.1.3.2.1.1.2.2.1 - Emergency-Response Multisig Threshold Exception](55f1c795-0653-4dda-9f05-b3068d2608e3).
+
+###### A.2.2.10.1.1.1.6.2.1.2 - Required Signers [Core]  <!-- UUID: 4723757a-405c-4eca-9044-f8a1ed5f4120 -->
+
+The default signer composition is five (5) signers: four (4) controlled by the Operational Executor Agent, including at least one (1) controlled by Operational GovOps and at least one (1) controlled by the Operational Facilitator, and one (1) controlled by the Prime Agent.
+
+###### A.2.2.10.1.1.1.6.2.1.3 - Default Configuration Deviations [Core]  <!-- UUID: 3b9336c2-53c8-4967-ab45-a2f8c5a36556 -->
+
+Deviations from the defaults specified in [A.2.2.10.1.1.1.6.2.1.1 - Required Number Of Signers](040b5603-9c1c-4730-9e65-8be855db5f55) and [A.2.2.10.1.1.1.6.2.1.2 - Required Signers](4723757a-405c-4eca-9044-f8a1ed5f4120) require approval from the Protocol Security Workstream Lead and Core GovOps. Approved deviations are recorded as specified in [A.2.2.10.1.1.1.6.2.1.3.1 - List Of Approved Deviations](5e7f23f6-4ff0-4a81-81f0-0b102b33dfbf).
+
+###### A.2.2.10.1.1.1.6.2.1.3.1 - List Of Approved Deviations [Active Data Controller]  <!-- UUID: 5e7f23f6-4ff0-4a81-81f0-0b102b33dfbf -->
+
+The list of approved deviations is defined as Active Data in [A.2.2.10.1.1.1.6.2.1.3.1.0.6.1 - Approved Deviations](c304cb9f-ab10-4d5b-8f94-588170b36a9e).
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Core GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+- An entry may be added only for a deviation approved as specified in [A.2.2.10.1.1.1.6.2.1.3 - Default Configuration Deviations](3b9336c2-53c8-4967-ab45-a2f8c5a36556).
+
+###### A.2.2.10.1.1.1.6.2.1.3.1.0.6.1 - Approved Deviations [Active Data]  <!-- UUID: c304cb9f-ab10-4d5b-8f94-588170b36a9e -->
+
+The approved deviations are:
+
+| **Liquidity Layer** | **Multisig Address** | **Approved Deviation** |
+|---|---|---|
+| Spark Liquidity Layer | `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431` | Two (2) of four (4) signing requirement, with signers controlled by Phoenix Labs and VoteWizard |
 
 ###### A.2.2.10.1.1.2 - Allocation Instance Setup Process Definition [Core]  <!-- UUID: f47513f6-34e4-40a4-b7ff-8d68d75070be -->
 
@@ -4181,7 +4476,7 @@ The documents herein define the Sky Treasury Management Function.
 
 #### A.2.3.1.1 - Integration With Monthly Settlement Cycle [Core]  <!-- UUID: 6e187fc0-6e5a-4384-b0b6-cdfd87a7d400 -->
 
-The Sky Treasury Management Function is synchronized with the Monthly Settlement Cycle. See [A.2.4 - Sky Core Monthly Settlement Cycle](6f8d5065-d6ff-4add-9a28-eadeffa7ed1a). At the conclusion of each MSC, the Net Revenue of the Sky Protocol for the preceding month is calculated and allocated according to the waterfall process defined in [A.2.3.1.2 - Allocation Steps](7932c8f3-ce44-49ea-adc4-f6391c621c6e).
+The Sky Treasury Management Function is synchronized with the Monthly Settlement Cycle. See [A.2.4 - Sky Core Monthly Settlement Cycle](6f8d5065-d6ff-4add-9a28-eadeffa7ed1a). At the conclusion of each Monthly Settlement Cycle, the Net Revenue of the Sky Protocol for the month covered by that cycle is calculated and allocated according to the waterfall process defined in [A.2.3.1.2 - Allocation Steps](7932c8f3-ce44-49ea-adc4-f6391c621c6e).
 
 #### A.2.3.1.2 - Allocation Steps [Core]  <!-- UUID: 7932c8f3-ce44-49ea-adc4-f6391c621c6e -->
 
@@ -4191,7 +4486,7 @@ The documents herein define the allocation steps of the Sky Treasury Management 
 
 The sole function of Step 0 is to establish the Net Revenue of the Sky Protocol. It performs no allocations to downstream functions or buffers, unlike subsequent steps for which this Net Revenue serves as the input.
 
-All items of Income and Expense are recognized on a "cash basis" based on when USDS/DAI enter or leave the Sky Surplus Buffer. Transfers out of accounts other than the Sky Surplus Buffer are not recognized as Expenses, except as provided in [A.2.3.1.2.2.2.1.6.4 - Expense Recognition For Legacy Account Consolidation](1760b35f-da5a-4504-a014-dd7a611b4c0e).
+Net Revenue is calculated for a single calendar month. Income from and Expenses owed to Prime Agents that settle through the Monthly Settlement Cycle are recognized in the month covered by that cycle. Where an amount recognized in an earlier month is subsequently adjusted, the adjustment is likewise recognized in the month covered by the cycle that settles it, and the earlier month's Net Revenue is not changed, as specified in [A.2.4.1.2.1.4 - True Up In Subsequent Monthly Settlement Cycle](de1592f5-dbce-46de-913f-6ec9589d36e8). Stability Fees on crypto vaults, legacy Real World Assets, and the SKY-Backed Borrowing vaults are recognized as they accrue, as are the interest expenses of the Sky Savings Rate, the Dai Savings Rate, and stUSDS. All other items of Income and Expense are recognized when USDS or DAI enter or leave the Sky Surplus Buffer. Transfers out of accounts other than the Sky Surplus Buffer are not recognized as Expenses, except as provided in [A.2.3.1.2.2.2.1.6.4 - Expense Recognition For Legacy Account Consolidation](1760b35f-da5a-4504-a014-dd7a611b4c0e).
 
 ###### A.2.3.1.2.1.1 - Net Revenue [Core]  <!-- UUID: bddce7bf-c568-444b-b196-e15a99016696 -->
 
@@ -4411,7 +4706,7 @@ The documents herein define the Monthly Settlement Cycle (MSC), a standardized, 
 
 The Monthly Settlement Cycle (MSC) synchronizes several key operational processes across the ecosystem, including:
 
-1. Sky Protocol’s net revenue from the previous month is calculated and allocated through the steps of the Treasury Management Function. See [A.2.3 - Treasury Management](6c0af059-5d33-4e2b-90f1-1606957b8f85).
+1. Sky Protocol’s net revenue for the month covered by the cycle is calculated and allocated through the steps of the Treasury Management Function. See [A.2.3 - Treasury Management](6c0af059-5d33-4e2b-90f1-1606957b8f85).
 2. The monthly Senior Risk Capital (SRC) origination process is settled: the clearing price is established, costs are deducted from winning Prime Agents’ accounts, and their accounts are credited with Originated SRC (OSRC) for the upcoming month. See [A.3.2.2.4.3.5 - Settlement Of Origination](fff0112a-58dd-4041-97f9-7baf113b4e70).
 3. Queued conversions between USDS and srUSDS within the SRC system are processed. See [A.3.2.2.4.2.2 - Deposit And Redemption Queues](38a99586-4a13-4ce3-8b2f-cee025e0c390).
 4. Pioneer Incentive Pools are funded with an amount equivalent to the Sky Savings Rate multiplied by the balance of Unrewarded USDS. See [A.2.2.9.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
@@ -4774,6 +5069,8 @@ The Active Data is updated as follows:
 
 - The Responsible Party is the entity to which the registration pertains.
 - The Update Process must follow the protocol for 'Direct Edit'.
+
+If the entity being registered has no prior entry in [A.2.7.1.1.1.1.4.0.6.1 - Current Authorized Forum Accounts](b71564fd-22e0-4c69-99d1-5b23fc1fa329), its Operational Executor Agent must confirm, by replying to the Responsible Party's Sky Forum post, that the entity is legitimate and that the forum account is controlled by that entity. If the entity has no Operational Executor Agent, the Core Facilitator must independently confirm this, by replying to the Responsible Party's Sky Forum post, before processing the request.
 
 ###### A.2.7.1.1.1.1.4.0.6.1 - Current Authorized Forum Accounts [Active Data]  <!-- UUID: b71564fd-22e0-4c69-99d1-5b23fc1fa329 -->
 
