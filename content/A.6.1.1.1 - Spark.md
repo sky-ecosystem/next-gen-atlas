@@ -1494,9 +1494,9 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.8.4 - Ethereum Mainnet - Spark Blue Chip USDT Vault Instance Configuration Document](2019122c-c16d-4132-ae08-8416c3f83b23).
 
-###### A.6.1.1.1.2.6.1.1.2.1.8.5 - Ethereum Mainnet - Sentora RLUSD Morpho Vault Instance Configuration Document Location [Core]  <!-- UUID: 5427805e-0b3c-4dbd-bde5-f027e70a9cdf -->
+###### A.6.1.1.1.2.6.1.1.2.1.8.5 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 5427805e-0b3c-4dbd-bde5-f027e70a9cdf -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.8.5 - Ethereum Mainnet - Sentora RLUSD Morpho Vault Instance Configuration Document](111e9f8c-170b-4373-827a-68f3277cacf1).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.8.5 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document](111e9f8c-170b-4373-827a-68f3277cacf1).
 
 ###### A.6.1.1.1.2.6.1.1.2.1.9 - Spark Savings V2 [Core]  <!-- UUID: e59ca947-aa8d-4ab7-84b1-78422348a2d5 -->
 
@@ -6350,9 +6350,9 @@ The documents herein define the Instance contract addresses.
 
 Timelock: 240 hours (10 days)
 
-###### A.6.1.1.1.2.6.1.3.1.8.5 - Ethereum Mainnet - Sentora RLUSD Morpho Vault Instance Configuration Document [Core]  <!-- UUID: 111e9f8c-170b-4373-827a-68f3277cacf1 -->
+###### A.6.1.1.1.2.6.1.3.1.8.5 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 111e9f8c-170b-4373-827a-68f3277cacf1 -->
 
-The documents herein contain the Instance Configuration Document for the Sentora RLUSD Morpho Vault Instance.
+The documents herein contain the Instance Configuration Document for the Sentora RLUSD Morpho Vault V2 Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 89936ba2-5b23-4e76-be56-11819ca0828d -->
 
@@ -6360,7 +6360,7 @@ The documents herein contain the Instance Configuration Document for the Sentora
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2 - Parameters [Core]  <!-- UUID: 6c40f96f-812f-48fd-8d86-ffdfcea360c5 -->
 
-The documents herein define the parameters of the Sentora RLUSD Morpho Vault Instance of the Allocation System Primitive.
+The documents herein define the parameters of the Sentora RLUSD Morpho Vault V2 Instance of the Allocation System Primitive.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.1 - Instance Identifiers [Core]  <!-- UUID: 8b4bbdf8-6b0e-4f67-9027-a12ceb4c6f1a -->
 
@@ -6372,7 +6372,7 @@ Ethereum Mainnet
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.2 - Target Protocol [Core]  <!-- UUID: 746a5eb7-c3e4-481f-a4c1-cacb7de72797 -->
 
-Morpho
+Morpho Vaults V2
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: e07bb7d6-ba1e-481c-98e3-d64a3cc64248 -->
 
