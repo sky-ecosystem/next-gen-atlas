@@ -9881,7 +9881,7 @@ The current USDT risk parameters are:
 - Optimal Utilization: 95%
 - Isolated Debt Ceiling: N/A
 - Base Rate: 0%
-- Slope 1: SSR value + 0.5%
+- Slope 1: SSR value + 0.1%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: No
