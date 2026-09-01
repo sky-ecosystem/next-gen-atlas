@@ -1642,6 +1642,90 @@ The Ethereum Mainnet Instances Directory of the Morpho Protocol with `Completed`
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.1.1 - Ethereum Mainnet - Morpho USDT Instance Configuration Document](a2f66f86-ddea-4260-820a-cde66a861413).
 
+###### A.6.1.1.1.2.6.1.1.3.3.1.2 - Ethereum Mainnet - Morpho Dai Instance Configuration Document Location [Core]  <!-- UUID: 3e92042e-1756-4c8f-a31d-6052176e87e5 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.1.2 - Ethereum Mainnet - Morpho Dai Instance Configuration Document](626dd4bf-108b-48bd-a1e1-c26d290c3a72).
+
+###### A.6.1.1.1.2.6.1.1.3.3.1.3 - Ethereum Mainnet - Morpho USDS Instance Configuration Document Location [Core]  <!-- UUID: 79a60537-e5b6-4701-bde6-a98b33bca461 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.1.3 - Ethereum Mainnet - Morpho USDS Instance Configuration Document](138be894-8a4a-4e8c-9fdd-0f8183935d24).
+
+###### A.6.1.1.1.2.6.1.1.3.3.2 - Aave [Core]  <!-- UUID: e032ad20-e07d-47e1-ae45-013dc5b433fb -->
+
+The Ethereum Mainnet Instances Directory of the Aave Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.3.3.2.1 - Ethereum Mainnet - Aave USDe Instance Configuration Document Location [Core]  <!-- UUID: afea3002-f7b8-442e-a4f0-90bfd6c676f3 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.2.1 - Ethereum Mainnet - Aave USDe Instance Configuration Document](8bd798af-96fc-4fc4-9fb7-5b351740a962).
+
+###### A.6.1.1.1.2.6.1.1.3.3.3 - Maple [Core]  <!-- UUID: 907ddd8e-0c22-4232-92d1-00144443c4fc -->
+
+The Ethereum Mainnet Instances Directory of the Maple Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.3.3.3.1 - Ethereum Mainnet - Maple USDC Instance Configuration Document Location [Core]  <!-- UUID: 12e43339-6c32-47ab-a2ec-43bb38f4f737 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.3.1 - Ethereum Mainnet - Maple USDC Instance Configuration Document](06a83573-f319-4a56-a2bd-4389086dd2bf).
+
+###### A.6.1.1.1.2.6.1.1.3.3.3.2 - Ethereum Mainnet - Maple USDT Instance Configuration Document Location [Core]  <!-- UUID: 46c72ef7-97f6-42c0-9d87-f28cff62bc97 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.3.2 - Ethereum Mainnet - Maple USDT Instance Configuration Document](5302863d-f777-461e-8238-2178fc9899c4).
+
+###### A.6.1.1.1.2.6.1.1.3.3.4 - Ethena [Core]  <!-- UUID: 83f266b4-9b3b-44a2-a547-faa8c29a8833 -->
+
+The Ethereum Mainnet Instances Directory of the Ethena Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.3.3.4.1 - Ethereum Mainnet - Ethena USDe Instance Configuration Document Location [Core]  <!-- UUID: b2bc23a2-2870-47ce-b32a-7b360b902782 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.4.1 - Ethereum Mainnet - Ethena USDe Instance Configuration Document](6be3e516-5374-41a0-8566-1c50656af772).
+
+###### A.6.1.1.1.2.6.1.1.3.3.4.2 - Ethereum Mainnet - Ethena sUSDe Instance Configuration Document Location [Core]  <!-- UUID: 822350a5-27e8-4cb9-80c5-9fca9e84cb49 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.4.2 - Ethereum Mainnet - Ethena sUSDe Instance Configuration Document](1903250a-4499-4ce4-bdcb-5835102a6553).
+
+###### A.6.1.1.1.2.6.1.1.3.3.5 - Superstate [Core]  <!-- UUID: e502e83d-467d-4b58-a4bd-292a3985c7ff -->
+
+The Ethereum Mainnet Instances Directory of the Superstate Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.3.3.5.1 - Ethereum Mainnet - Superstate USTB Instance Configuration Document Location [Core]  <!-- UUID: aed21e59-19b9-4b11-ac3f-55bb5a387772 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.5.1 - Ethereum Mainnet - Superstate USTB Instance Configuration Document](4ad2419c-7966-42de-bc2a-d8ca8ce61b90).
+
+###### A.6.1.1.1.2.6.1.1.3.3.6 - Curve [Core]  <!-- UUID: e0b7c369-0ad7-491e-be3e-bdfe8ad2478c -->
+
+The Ethereum Mainnet Instances Directory of the Curve Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.3.3.6.1 - Ethereum Mainnet - Curve sUSDS/USDT Pool Instance Configuration Document Location [Core]  <!-- UUID: af6a87f7-9b67-4f30-a345-f0c46f97c039 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.6.1 - Ethereum Mainnet - Curve sUSDS/USDT Pool Instance Configuration Document](4e840dad-944c-4c45-9c5e-277dcb1830a8).
+
+###### A.6.1.1.1.2.6.1.1.3.3.6.2 - Ethereum Mainnet - Curve USDC/USDT Pool Instance Configuration Document Location [Core]  <!-- UUID: dbbac28b-8627-462f-9326-f50bfdb50867 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.6.2 - Ethereum Mainnet - Curve USDC/USDT Pool Instance Configuration Document](30d359a0-287b-4b3b-93fd-4e70bf0b19a7).
+
+###### A.6.1.1.1.2.6.1.1.3.3.6.3 - Ethereum Mainnet - Curve pyUSD/USDC Pool Instance Configuration Document Location [Core]  <!-- UUID: 7fe97dfc-8126-4c33-bc3d-74b7e1a1a88f -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.6.3 - Ethereum Mainnet - Curve pyUSD/USDC Pool Instance Configuration Document](e1fdaf49-0b32-4644-b021-9cae6e270c7a).
+
+###### A.6.1.1.1.2.6.1.1.3.3.6.4 - Ethereum Mainnet - Curve pyUSD/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 881d31bd-e24b-45f7-9f8a-fa18b8effc8d -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.6.4 - Ethereum Mainnet - Curve pyUSD/USDS Pool Instance Configuration Document](7635eff1-1fa0-4356-8953-2564a7f0693c).
+
+###### A.6.1.1.1.2.6.1.1.3.3.6.5 - Ethereum Mainnet - Curve weETH/WETH-ng for Swaps Instance Configuration Document Location [Core]  <!-- UUID: 4ebb4393-9573-4e5f-9323-11770ba18191 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.6.5 - Ethereum Mainnet - Curve weETH/WETH-ng for Swaps Instance Configuration Document](cfc335a4-efcf-4f53-9609-1c9784cbb784).
+
+###### A.6.1.1.1.2.6.1.1.3.3.7 - Anchorage [Core]  <!-- UUID: 8adbc865-ab94-44e1-a596-56863099fec2 -->
+
+The Ethereum Mainnet Instances Directory of the Anchorage Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.3.3.7.1 - Ethereum Mainnet - Anchorage USAT Instance Configuration Document Location [Core]  <!-- UUID: 0793bcc1-4b69-437d-bbf3-38e1ac6d29b6 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.7.1 - Ethereum Mainnet - Anchorage USAT Instance Configuration Document](8048e396-7bb4-4541-a68f-6dd7ec0a6015).
+
+###### A.6.1.1.1.2.6.1.1.3.3.7.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document Location [Core]  <!-- UUID: 905c5726-8d51-4bf3-80c7-2b4f48bf66cd -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.7.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document](4eee15e5-46e2-4438-8299-6c85c46bb85b).
+
 ###### A.6.1.1.1.2.6.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 73a22cb8-06cd-4324-b0fe-f37bf538f7a9 -->
 
 This document contains a Directory of all prospective Instances of the Allocation System Primitive whose Invocation is currently in progress. Invocations that are completed successfully are moved to [A.6.1.1.1.2.6.1.1.2 - Active Instances Directory](20e0bc23-8a73-4ea3-b626-56f6286aded9), whereas failed Invocations are Archived in [A.6.1.1.1.2.6.1.1.5 - Hub Data Repository](143d1560-f068-4f83-9b50-c5e80fc9ec21).
