@@ -485,7 +485,7 @@ def _assert_partition_reassembles(segments, lines_by_bucket: dict[str, list[str]
     one that groups `A.6.1.2` with the `A.6` spine.
 
     This runs inside `split()` rather than `write_split()` so that every caller is covered,
-    including `migrate_branch` and the tests.
+    including the tests.
     """
     expected = [line for _doc, lines in segments for line in lines]
     got = restore_absolute_levels(order_documents(lines_by_bucket))
