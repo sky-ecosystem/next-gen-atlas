@@ -6676,7 +6676,7 @@ Lawyers will be onboarded in the Lawyer Registry covering at least the areas spe
 
 ###### A.2.9.1.1.2.1 - Lawyer Registry Covered Areas [Core]  <!-- UUID: a176f67f-009f-44a0-a19b-169c2eb376a4 -->
 
-`| Category                         | Areas of Law                                         | Examples                                                                                                          |
+| Category                         | Areas of Law                                         | Examples                                                                                                          |
 |----------------------------------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Disputes/Investigations          | Regulatory Enforcement – Securities/Finance Law      | SEC/FinCEN/CFTC/Central Bank matters, Tax authority actions, OFAC orders, Sanctions                               |
 |                                  | Securities Law Disputes (private party claims, class actions, etc.) | Sky investor claims, Lawsuits against Sky CORE actors                                                            |
@@ -6684,7 +6684,7 @@ Lawyers will be onboarded in the Lawyer Registry covering at least the areas spe
 |                                  | General Litigation – Any other Party-Party Disputes  | Disputes between Sky and 3rd party suppliers, Breach of contract disputes, Employment law disputes, Disputes between Sky and Ecosystem actors |
 | Commercial Matters (non-litigious) | Commercial and Contracts                            | Commercial transactions (Audits, listing agreements, inter-Agent agreements affecting Sky Core etc.), Contracts and Procurement (includes contract management), Competition/Anti-Trust Law, Data protection and Privacy, Insurance Law |
 |                                  | Intellectual Property, Information Technology        | IT procurement, licenses, and contracts, Convergent technologies, Intellectual property rights, Data protection and privacy, Trademark/Patent applications |
-|                                  | Corporate Structuring, Entity Formation/Reporting, Corporate Financing and Tax | Entity formation assistance provided to Sky Core, Annual Reporting/Filings, Company Law, Corporate Finance, Tax Law |`
+|                                  | Corporate Structuring, Entity Formation/Reporting, Corporate Financing and Tax | Entity formation assistance provided to Sky Core, Annual Reporting/Filings, Company Law, Corporate Finance, Tax Law |
 
 ###### A.2.9.1.1.2.2 - Lawyer Registry Acceptance Criteria [Core]  <!-- UUID: 2b66ce16-d104-4238-b7d5-e4c6fe8d961b -->
 
