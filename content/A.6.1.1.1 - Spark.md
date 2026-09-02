@@ -6380,7 +6380,7 @@ RLUSD
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.4 - Token [Core]  <!-- UUID: 92010051-063e-4dd3-93cd-481d21d84a80 -->
 
-TBD
+sxsRLUSD
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.2 - Contract Addresses [Core]  <!-- UUID: a22b8b0a-b446-48be-af71-1f2501cac156 -->
 
@@ -6388,7 +6388,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.2.1 - Token Address [Core]  <!-- UUID: eb847f84-0071-476a-b480-0e88dad694dd -->
 
-TBD
+`0xFC8C624B6080a0a780583799f2A862DE936F6E22`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 466c2918-ded4-44cf-b7fe-3d8e4794c15e -->
 
@@ -6396,15 +6396,23 @@ TBD
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 4310527e-f12c-42f8-92c5-99def334be77 -->
 
-TBD
+`0x9e396dE3312D373b87F9BD8763fb48184b42aac0`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.3 - Rate Limit IDs [Core]  <!-- UUID: a5ceda84-1a52-4b4b-8cbc-20947773f121 -->
 
-The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 1d4d28d3-a8b0-4f3a-81f7-15faa841eaae -->
+
+The inflow RateLimitID is: `0x691ad49e27e69925e77760c0b0a78a8f01f21e1b1223c2e21ba82acb0fa17ea5`
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 54b85496-2102-441b-982a-dc111625067f -->
+
+The outflow RateLimitID is: `0x35a1e343579b7d855c67c8a121444658ed92733d2929b4b0ffdf01f01ac9a062`
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.4 - Rate Limits [Core]  <!-- UUID: bd713d89-4d39-4fc6-b7dd-f7213053635b -->
 
-The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 35eb7309-33dd-4a20-ad2b-2fd260a150ee -->
 
@@ -6431,7 +6439,39 @@ The documents herein contain operational procedures or monitoring requirements u
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
-###### A.6.1.1.1.2.6.1.3.1.8.5.4.1 - Max Exchange Rate [Core]  <!-- UUID: 3d2ac2f8-82a6-48bf-9c92-c8290fec64de -->
+###### A.6.1.1.1.2.6.1.3.1.8.5.4.1 - Contract Addresses [Core]  <!-- UUID: 5c92f8e0-4fa7-460d-a9ba-3bb011387d72 -->
+
+The documents herein define the Instance-specific operational contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.4.1.1 - Curator Role Address [Core]  <!-- UUID: 072ceda6-e5cd-4cce-b589-02d553bf5fee -->
+
+`0xff070333654aaE76A0A77465E4F0fd101C57c03F`
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.4.1.2 - Guardian Role Address [Core]  <!-- UUID: f9522bc0-64b0-47e3-ae97-91380b31b9de -->
+
+`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.4.2 - Timelocks [Core]  <!-- UUID: d547c23a-049b-46b2-81fe-e6a4c0105555 -->
+
+The timelocks for this Instance are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.4.2.1 - addAdapter Timelock [Core]  <!-- UUID: eff49a08-d7ac-4924-91eb-5d24070f84fa -->
+
+Timelock: 168 hours (7 days)
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.4.2.2 - increaseAbsoluteCap Timelock [Core]  <!-- UUID: 942dda17-24e9-4499-a66d-b121db09b52f -->
+
+Timelock: 168 hours (7 days)
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.4.2.3 - abdicate Timelock [Core]  <!-- UUID: c5623574-df3a-4607-8064-6e205fb1a7a1 -->
+
+Timelock: 168 hours (7 days)
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.4.2.4 - setIsAllocator Timelock [Core]  <!-- UUID: 8a04d5cc-3647-40ff-aeeb-aa8473fe0e4c -->
+
+Timelock: 72 hours (3 days)
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.4.3 - Max Exchange Rate [Core]  <!-- UUID: 3d2ac2f8-82a6-48bf-9c92-c8290fec64de -->
 
 Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 RLUSD:
 
