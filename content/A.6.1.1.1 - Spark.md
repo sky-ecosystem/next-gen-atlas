@@ -1496,7 +1496,7 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 ###### A.6.1.1.1.2.6.1.1.2.1.8.5 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 5427805e-0b3c-4dbd-bde5-f027e70a9cdf -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.8.5 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document](111e9f8c-170b-4373-827a-68f3277cacf1).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.8.5 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document](111e9f8c-170b-4373-827a-68f3277cacf1).
 
 ###### A.6.1.1.1.2.6.1.1.2.1.9 - Spark Savings V2 [Core]  <!-- UUID: e59ca947-aa8d-4ab7-84b1-78422348a2d5 -->
 
@@ -6441,7 +6441,7 @@ The documents herein contain operational parameters or configuration details uni
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.4.1 - Contract Addresses [Core]  <!-- UUID: 5c92f8e0-4fa7-460d-a9ba-3bb011387d72 -->
 
-The documents herein define the Instance-specific operational contract addresses.
+The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.4.1.1 - Curator Role Address [Core]  <!-- UUID: 072ceda6-e5cd-4cce-b589-02d553bf5fee -->
 
@@ -6475,7 +6475,7 @@ Timelock: 72 hours (3 days)
 
 Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 RLUSD:
 
-- `setMaxExchangeRate(vault, 1e18, 3e18)`
+- `setMaxExchangeRate(SENTORA_RLUSD_VAULT, 1e18, 3e18)`
 
 ###### A.6.1.1.1.2.6.1.3.1.9 - Spark Savings V2 [Core]  <!-- UUID: 47f2b461-1d82-4ee8-8cd2-39c95184c51b -->
 
