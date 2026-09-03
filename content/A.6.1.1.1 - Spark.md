@@ -10039,7 +10039,7 @@ The current rETH risk parameters are:
 
 The current LBTC risk parameters are:
 
-- LTV: 74%
+- LTV: 0%
 - Liquidation Threshold: 75%
 - E-mode Category: 0
 - Liquidation Bonus: 8%
