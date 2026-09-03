@@ -10264,8 +10264,8 @@ The subdocuments herein define the current configuration of the SparkLend Gnosis
 
 The current GNO risk parameters are:
 
-- LTV: 40%
-- Liquidation Threshold: 50%
+- LTV: 0%
+- Liquidation Threshold: 0.01%
 - E-mode Category: N/A
 - Liquidation Bonus: 12%
 - Reserve Factor: 50%
@@ -10288,9 +10288,9 @@ The current GNO risk parameters are:
 
 The current WETH risk parameters are:
 
-- LTV: 70%
-- Liquidation Threshold: 75%
-- E-mode Category: ETH
+- LTV: 0%
+- Liquidation Threshold: 0.01%
+- E-mode Category: 0
 - Liquidation Bonus: 5%
 - Reserve Factor: 50%
 - Supply Cap: 5,000 ETH
@@ -10336,8 +10336,8 @@ The current USDT risk parameters are:
 
 The current sDai risk parameters are:
 
-- LTV: 70%
-- Liquidation Threshold: 75%
+- LTV: 0%
+- Liquidation Threshold: 0.01%
 - E-mode Category: USD
 - Liquidation Bonus: 6%
 - Reserve Factor: 50%
@@ -10360,9 +10360,9 @@ The current sDai risk parameters are:
 
 The current wstETH risk parameters are:
 
-- LTV: 65%
-- Liquidation Threshold: 72.5%
-- E-mode Category: ETH
+- LTV: 0%
+- Liquidation Threshold: 0.01%
+- E-mode Category: 0
 - Liquidation Bonus: 8%
 - Reserve Factor: 50%
 - Supply Cap: 15,000 wstETH
@@ -10433,7 +10433,7 @@ The current USDC.e risk parameters are:
 The current WXDAI risk parameters are:
 
 - LTV: 0%
-- Liquidation Threshold: 75%
+- Liquidation Threshold: 0.01%
 - E-mode Category: USD
 - Liquidation Bonus: 5%
 - Reserve Factor: 50%
