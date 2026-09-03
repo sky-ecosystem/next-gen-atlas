@@ -7554,11 +7554,11 @@ The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined 
 
 ###### A.6.1.1.2.2.6.1.3.1.7.8.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 08c4013e-8cdb-4b10-90c1-7c960324b5fe -->
 
-The inflow `RateLimitID` will be specified in a future iteration of the Grove Artifact.
+The inflow RateLimitID is: `0x96c916a067daaa7b0861108a6239e40f33bb9fe1be08e2813fb9fc2344e19ef7`
 
 ###### A.6.1.1.2.2.6.1.3.1.7.8.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: c998e437-c8d7-4c10-908b-dadc4737e47e -->
 
-The outflow `RateLimitID` will be specified in a future iteration of the Grove Artifact.
+The outflow RateLimitID is: `0x0fceada3d6963c0045d4b0394172af9c863234669e35625191cb3372558bf596`
 
 ###### A.6.1.1.2.2.6.1.3.1.7.8.2.4 - Rate Limits [Core]  <!-- UUID: 53101acf-dfcc-4a36-b3d7-5ae93c8c154a -->
 
@@ -7593,7 +7593,7 @@ The documents herein contain operational parameters or configuration details uni
 
 Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 USDG.
 
-- `setMaxExchangeRate(GROVE_X_STEAKHOUSE_USDG_V2, 1e18, 2e6)`
+- `setMaxExchangeRate(GROVE_X_STEAKHOUSE_USDG_V2_MORPHO_VAULT, 1e18, 2e6)`
 
 ###### A.6.1.1.2.2.6.1.3.1.8 - Securitize [Core]  <!-- UUID: b05d9fc2-9a93-4f3b-b0d8-b4f77bc294ce -->
 
