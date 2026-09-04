@@ -8941,11 +8941,15 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.5.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 8e52e9d6-6cb0-44e9-9068-21257c1cde34 -->
 
-The specific `RateLimitID` for this conduit’s inflow operation is defined in the subdocument herein.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
 ###### A.6.1.1.1.2.6.1.4.3.5.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 1862cc2f-aadf-476a-94d3-818c4deb4396 -->
 
 The inflow RateLimitID is: `0x213c645fc0f2b08264743dd819fb1d54d9a3d9d1eab0fa654e1a7bf7b22ee796`
+
+###### A.6.1.1.1.2.6.1.4.3.5.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 7580632c-c14d-4772-a811-8ff0f8988bd6 -->
+
+The outflow RateLimitID is: `0x89aab56733486a7f379edcd0e7e2250cd27e0abde043ba3705731c95d6fc277e`
 
 ###### A.6.1.1.1.2.6.1.4.3.5.1.2.4 - Rate Limits [Core]  <!-- UUID: 69e164bc-ef0c-4d74-a17d-e56bf498b7e0 -->
 
