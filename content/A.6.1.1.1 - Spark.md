@@ -9223,13 +9223,15 @@ The current `maxAmount`, `slope` and slippage for this conduit’s inflow/outflo
 
 The inflow rate limits are:
 
-- `maxAmount`: 0
+- `maxAmount`: N/A - swap only
+- `slope`: N/A - swap only
 
 ###### A.6.1.1.1.2.6.1.4.3.6.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: dfcceae6-65f0-44e2-9d47-9ad2324d983d -->
 
 The outflow rate limits are:
 
-- `maxAmount`: 0
+- `maxAmount`: N/A - swap only
+- `slope`: N/A - swap only
 
 ###### A.6.1.1.1.2.6.1.4.3.6.3.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 2b4a19db-137d-404d-b475-3008eda3c82d -->
 
