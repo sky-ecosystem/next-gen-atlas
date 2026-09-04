@@ -8347,7 +8347,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.3.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 8fd1f7ba-7c0b-4414-be6d-a45a1e263966 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow operations are defined in the subdocuments herein.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
 ###### A.6.1.1.1.2.6.1.4.3.3.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 5ff1a262-1ed0-4270-ae32-42afbdb88b8d -->
 
@@ -8437,7 +8437,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.3.3.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: efc9f35a-40e1-4847-8a48-06eda4d17d85 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow operations are defined in the subdocuments herein.
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
 ###### A.6.1.1.1.2.6.1.4.3.3.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 9721126a-6c55-4ebb-9946-b444c2a867a7 -->
 
