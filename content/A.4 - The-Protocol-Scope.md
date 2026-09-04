@@ -826,7 +826,7 @@ The stUSDS Bounded External Access Module (stUSDS BEAM) enables designated, Gove
 
 ###### A.4.4.1.3.8.1 - Definitions [Core]  <!-- UUID: 2875f146-08b2-4b83-84ed-282af9379762 -->
 
-The documents herein define the parameters of the stUSDS BEAM.
+The documents herein define the parameters of the stUSDS BEAM. The basis-point values of the `min`, `max`, and `step` parameters are expressed as annual percentage yields, as specified in [A.3.1.2.7 - Rate Conventions](154c3b5d-7a87-4dae-85f3-7d26deab9a31).
 
 ###### A.4.4.1.3.8.1.1 - Min Definition [Core]  <!-- UUID: f1ed4794-7642-4ce4-ae80-c5f4e2ec0eed -->
 
@@ -1247,7 +1247,7 @@ The SubProxyMethods contract does not itself restrict which destination is speci
 
 A call to the SubProxyMethods contract is included in the Sky Core Spell and executed as specified in [A.1.10.2.4.13 - Spell Execution Process And Retro (Step 13)](761cd866-17a9-47f5-8ae6-ab1788371be1).
 
-Unlike a standard Agent Spell, it is not executed or whitelisted through the Agent's StarGuard module.
+Unlike a standard Agent Spell, it is not executed or whitelisted through the Agent's StarGuard contract.
 
 ##### A.4.6.2.1.4 - Governance Process [Core]  <!-- UUID: 813a123a-d6e1-4ef2-bc55-716b50732721 -->
 

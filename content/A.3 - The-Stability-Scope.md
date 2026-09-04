@@ -56,7 +56,7 @@ This Section defines the Core Stability Parameters.
 
 #### A.3.1.2.1 - Base Rate [Core]  <!-- UUID: 228f9955-6bba-4252-a101-5529e7a300b9 -->
 
-The Base Rate is the key interest rate in the system. It defines all other rates by various spreads. It is expressed as an annual percentage yield.
+The Base Rate is the key interest rate in the system. It defines all other rates by various spreads. It is expressed as an annual percentage rate as specified in [A.3.1.2.7 - Rate Conventions](154c3b5d-7a87-4dae-85f3-7d26deab9a31).
 
 ##### A.3.1.2.1.0.3.1 - Spreads - Element Annotation [Annotation]  <!-- UUID: e7be875c-fa61-42af-8986-ec22aceab0e8 -->
 
@@ -83,15 +83,17 @@ The Stability Parameter Bounded External Access Module parameters for the Sky Sa
 - `step` - 400 basis points,
 - `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
+These basis-point values are expressed as annual percentage yields, as specified in [A.3.1.2.7 - Rate Conventions](154c3b5d-7a87-4dae-85f3-7d26deab9a31).
+
 ##### A.3.1.2.2.3 - Sky Savings Rate Current Value [Core]  <!-- UUID: aff1868f-66aa-4252-851f-9343567a52eb -->
 
-The current value of the Sky Savings Rate can be obtained by calling the `ssr()` function on the sUSDS contract located on the Ethereum Mainnet at `0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD`.
+The current value of the Sky Savings Rate can be obtained by calling the `ssr()` function on the sUSDS contract located on the Ethereum Mainnet at `0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD`. The value returned is the per-second compounding factor; the Sky Savings Rate is the annual percentage rate, as specified in [A.3.1.2.7 - Rate Conventions](154c3b5d-7a87-4dae-85f3-7d26deab9a31), whose accrual over one (1) year is equivalent to compounding that factor every second.
 
-The `ssr()` function returns a per-second compounding rate in RAY precision (10^27). The equivalent annualized rate, compounded over a 365-day year (31,536,000 seconds), is given by the formula:
+The `ssr()` function returns a per-second compounding rate in RAY precision (10^27). The Sky Savings Rate expressed as an annual percentage rate is given by the formula:
 
-`annualized rate = (ssr() / 1E27)^31536000 - 1`
+`annual percentage rate = 12 * ((ssr() / 1E27)^2628000 - 1)`
 
-The result is a decimal rate (e.g., 0.0365 represents 3.65% per year).
+where 2,628,000 is the number of seconds in one (1) month of a 365-day year. The result is a decimal rate (e.g., 0.0346 represents 3.46% per year); the annual percentage yield equivalent is obtained by the conversion specified in [A.3.1.2.7 - Rate Conventions](154c3b5d-7a87-4dae-85f3-7d26deab9a31).
 
 #### A.3.1.2.3 - Agent Rate [Core]  <!-- UUID: 012c953b-c522-4ea3-939b-3282af4e1d7e -->
 
@@ -144,9 +146,11 @@ The Stability Parameter Bounded External Access Module parameters for the Dai Sa
 - `step` - 400 basis points,
 - `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
+These basis-point values are expressed as annual percentage yields, as specified in [A.3.1.2.7 - Rate Conventions](154c3b5d-7a87-4dae-85f3-7d26deab9a31).
+
 #### A.3.1.2.5 - Agent Credit Line Borrow Rate [Core]  <!-- UUID: 6b2b7302-e63b-457e-afeb-daab5ca7a7de -->
 
-The Agent Credit Line Borrow Rate is the annual percentage yield that Agents must pay to Sky Core to receive USDS liquidity into their respective vaults.
+The Agent Credit Line Borrow Rate is the annual percentage rate that Agents must pay to Sky Core to receive USDS liquidity into their respective vaults.
 
 ##### A.3.1.2.5.1 - Relationship To Base Rate [Core]  <!-- UUID: 4659cbf0-78c2-469b-8432-883e5c931dd1 -->
 
@@ -174,9 +178,13 @@ The Sky Spread is a margin Sky retains for facilitating the ecosystem’s financ
 
 #### A.3.1.2.7 - Rate Conventions [Core]  <!-- UUID: 154c3b5d-7a87-4dae-85f3-7d26deab9a31 -->
 
-Unless otherwise specified, all rates defined in the Atlas are expressed as annual percentage yields.
+Unless otherwise specified, all rates defined in the Atlas are expressed as annual percentage rates with a monthly compounding frequency. The annual percentage yield equivalent of a rate is given by the formula:
 
-A spread between two rates defined in the Atlas is the arithmetic difference between their annual percentage yields. Where the Atlas specifies one rate as another rate plus or minus a spread, that spread is added to or subtracted from the annual percentage yield directly, without conversion.
+`annual percentage yield = (1 + annual percentage rate / 12)^12 - 1`
+
+A spread between two rates defined in the Atlas is the arithmetic difference between their annual percentage rates. Where the Atlas specifies one rate as another rate plus or minus a spread, that spread is added to or subtracted from the annual percentage rate directly. A rate specified as an annual percentage yield is first converted to its equivalent annual percentage rate before any such arithmetic is performed.
+
+Rates may be displayed as their annual percentage yield equivalents in user-facing interfaces and communications. Where a rate is implemented by a smart contract that compounds at a different frequency, the technical parameter is set such that the accrual produced by the smart contract over one (1) year equals the accrual of the stated rate. Basis-point rate parameters, and the bounds on them, set through Bounded External Access Modules are expressed as annual percentage yields, matching the conversion enforced by the module contracts. A rate applied through periodic payments that are not added to an accruing balance is applied at the annual percentage rate divided by the number of payment periods in each year.
 
 ### A.3.1.0.3.1 - Methodologies - Element Annotation [Annotation]  <!-- UUID: 2f658a82-a8d2-4bd1-be5c-906e4733400d -->
 
@@ -3541,7 +3549,7 @@ The Stability Parameter Bounded External Access Module (SP-BEAM) enables designa
 
 ##### A.3.7.1.3.1 - Definitions [Core]  <!-- UUID: b113ca06-9a25-4abf-81f1-53f419ffe2d2 -->
 
-The documents herein define the parameters of the Stability Parameter Bounded External Access Module.
+The documents herein define the parameters of the Stability Parameter Bounded External Access Module. The basis-point values of the `min`, `max`, and `step` parameters are expressed as annual percentage yields, as specified in [A.3.1.2.7 - Rate Conventions](154c3b5d-7a87-4dae-85f3-7d26deab9a31).
 
 ###### A.3.7.1.3.1.1 - Min Definition [Core]  <!-- UUID: 1896350c-5f87-4be5-b32f-f1114dc2c271 -->
 
