@@ -1614,117 +1614,117 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of `Completed`.
 
-###### A.6.1.1.1.2.6.1.1.3.1 - Blackrock [Core]  <!-- UUID: e4ec840c-dee5-4afe-9f41-c9061c70a0d9 -->
-
-The Ethereum Mainnet Instances Directory of the Blackrock Protocol with `Completed` Status are stored herein.
-
-###### A.6.1.1.1.2.6.1.1.3.1.1 - Ethereum Mainnet - Blackrock USDC Instance Configuration Document Location [Core]  <!-- UUID: 6d30c514-ea40-45ca-93cd-0771830b3617 -->
-
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.1 - Ethereum Mainnet - Blackrock USDC Instance Configuration Document](7a52fb87-96bf-4135-9a61-f2dc068af12c).
-
-###### A.6.1.1.1.2.6.1.1.3.2 - Centrifuge [Core]  <!-- UUID: 5e56bd40-1e89-4549-adaa-54776089fe13 -->
-
-The Ethereum Mainnet Instances Directory of the Centrifuge Protocol with `Completed` Status are stored herein.
-
-###### A.6.1.1.1.2.6.1.1.3.2.1 - Ethereum Mainnet - Centrifuge USDC Instance Configuration Document Location [Core]  <!-- UUID: 495b8996-fd2c-46ba-8e46-945b22eff733 -->
-
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.2.1 - Ethereum Mainnet - Centrifuge USDC Instance Configuration Document](289555ee-996e-43a7-b05f-a0b06d1238f5).
-
-###### A.6.1.1.1.2.6.1.1.3.3 - Ethereum Mainnet [Core]  <!-- UUID: 04b9c9b0-0a49-4149-9a29-92d8192ae5c2 -->
+###### A.6.1.1.1.2.6.1.1.3.1 - Ethereum Mainnet [Core]  <!-- UUID: 04b9c9b0-0a49-4149-9a29-92d8192ae5c2 -->
 
 The documents herein contain a Directory of all Instances on the Ethereum Mainnet of the Allocation System Primitive with Instance status of `Completed`.
 
-###### A.6.1.1.1.2.6.1.1.3.3.1 - Morpho [Core]  <!-- UUID: 023da344-8767-4175-bb06-953747c383a7 -->
+###### A.6.1.1.1.2.6.1.1.3.1.1 - Morpho [Core]  <!-- UUID: 023da344-8767-4175-bb06-953747c383a7 -->
 
 The Ethereum Mainnet Instances Directory of the Morpho Protocol with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.1.3.3.1.1 - Ethereum Mainnet - Morpho USDT Instance Configuration Document Location [Core]  <!-- UUID: 5b70027d-bea1-4899-946f-6a2094a8ca55 -->
+###### A.6.1.1.1.2.6.1.1.3.1.1.1 - Ethereum Mainnet - Morpho USDT Instance Configuration Document Location [Core]  <!-- UUID: 5b70027d-bea1-4899-946f-6a2094a8ca55 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.1.1 - Ethereum Mainnet - Morpho USDT Instance Configuration Document](a2f66f86-ddea-4260-820a-cde66a861413).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.1.1 - Ethereum Mainnet - Morpho USDT Instance Configuration Document](a2f66f86-ddea-4260-820a-cde66a861413).
 
-###### A.6.1.1.1.2.6.1.1.3.3.1.2 - Ethereum Mainnet - Morpho Dai Instance Configuration Document Location [Core]  <!-- UUID: 3e92042e-1756-4c8f-a31d-6052176e87e5 -->
+###### A.6.1.1.1.2.6.1.1.3.1.1.2 - Ethereum Mainnet - Morpho Dai Instance Configuration Document Location [Core]  <!-- UUID: 3e92042e-1756-4c8f-a31d-6052176e87e5 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.1.2 - Ethereum Mainnet - Morpho Dai Instance Configuration Document](626dd4bf-108b-48bd-a1e1-c26d290c3a72).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.1.2 - Ethereum Mainnet - Morpho Dai Instance Configuration Document](626dd4bf-108b-48bd-a1e1-c26d290c3a72).
 
-###### A.6.1.1.1.2.6.1.1.3.3.1.3 - Ethereum Mainnet - Morpho USDS Instance Configuration Document Location [Core]  <!-- UUID: 79a60537-e5b6-4701-bde6-a98b33bca461 -->
+###### A.6.1.1.1.2.6.1.1.3.1.1.3 - Ethereum Mainnet - Morpho USDS Instance Configuration Document Location [Core]  <!-- UUID: 79a60537-e5b6-4701-bde6-a98b33bca461 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.1.3 - Ethereum Mainnet - Morpho USDS Instance Configuration Document](138be894-8a4a-4e8c-9fdd-0f8183935d24).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.1.3 - Ethereum Mainnet - Morpho USDS Instance Configuration Document](138be894-8a4a-4e8c-9fdd-0f8183935d24).
 
-###### A.6.1.1.1.2.6.1.1.3.3.2 - Aave [Core]  <!-- UUID: e032ad20-e07d-47e1-ae45-013dc5b433fb -->
+###### A.6.1.1.1.2.6.1.1.3.1.2 - Aave [Core]  <!-- UUID: e032ad20-e07d-47e1-ae45-013dc5b433fb -->
 
 The Ethereum Mainnet Instances Directory of the Aave Protocol with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.1.3.3.2.1 - Ethereum Mainnet - Aave USDe Instance Configuration Document Location [Core]  <!-- UUID: afea3002-f7b8-442e-a4f0-90bfd6c676f3 -->
+###### A.6.1.1.1.2.6.1.1.3.1.2.1 - Ethereum Mainnet - Aave USDe Instance Configuration Document Location [Core]  <!-- UUID: afea3002-f7b8-442e-a4f0-90bfd6c676f3 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.2.1 - Ethereum Mainnet - Aave USDe Instance Configuration Document](8bd798af-96fc-4fc4-9fb7-5b351740a962).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.2.1 - Ethereum Mainnet - Aave USDe Instance Configuration Document](8bd798af-96fc-4fc4-9fb7-5b351740a962).
 
-###### A.6.1.1.1.2.6.1.1.3.3.3 - Maple [Core]  <!-- UUID: 907ddd8e-0c22-4232-92d1-00144443c4fc -->
+###### A.6.1.1.1.2.6.1.1.3.1.3 - Maple [Core]  <!-- UUID: 907ddd8e-0c22-4232-92d1-00144443c4fc -->
 
 The Ethereum Mainnet Instances Directory of the Maple Protocol with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.1.3.3.3.1 - Ethereum Mainnet - Maple USDC Instance Configuration Document Location [Core]  <!-- UUID: 12e43339-6c32-47ab-a2ec-43bb38f4f737 -->
+###### A.6.1.1.1.2.6.1.1.3.1.3.1 - Ethereum Mainnet - Maple USDC Instance Configuration Document Location [Core]  <!-- UUID: 12e43339-6c32-47ab-a2ec-43bb38f4f737 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.3.1 - Ethereum Mainnet - Maple USDC Instance Configuration Document](06a83573-f319-4a56-a2bd-4389086dd2bf).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.3.1 - Ethereum Mainnet - Maple USDC Instance Configuration Document](06a83573-f319-4a56-a2bd-4389086dd2bf).
 
-###### A.6.1.1.1.2.6.1.1.3.3.3.2 - Ethereum Mainnet - Maple USDT Instance Configuration Document Location [Core]  <!-- UUID: 46c72ef7-97f6-42c0-9d87-f28cff62bc97 -->
+###### A.6.1.1.1.2.6.1.1.3.1.3.2 - Ethereum Mainnet - Maple USDT Instance Configuration Document Location [Core]  <!-- UUID: 46c72ef7-97f6-42c0-9d87-f28cff62bc97 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.3.2 - Ethereum Mainnet - Maple USDT Instance Configuration Document](5302863d-f777-461e-8238-2178fc9899c4).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.3.2 - Ethereum Mainnet - Maple USDT Instance Configuration Document](5302863d-f777-461e-8238-2178fc9899c4).
 
-###### A.6.1.1.1.2.6.1.1.3.3.4 - Ethena [Core]  <!-- UUID: 83f266b4-9b3b-44a2-a547-faa8c29a8833 -->
+###### A.6.1.1.1.2.6.1.1.3.1.4 - Ethena [Core]  <!-- UUID: 83f266b4-9b3b-44a2-a547-faa8c29a8833 -->
 
 The Ethereum Mainnet Instances Directory of the Ethena Protocol with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.1.3.3.4.1 - Ethereum Mainnet - Ethena USDe Instance Configuration Document Location [Core]  <!-- UUID: b2bc23a2-2870-47ce-b32a-7b360b902782 -->
+###### A.6.1.1.1.2.6.1.1.3.1.4.1 - Ethereum Mainnet - Ethena USDe Instance Configuration Document Location [Core]  <!-- UUID: b2bc23a2-2870-47ce-b32a-7b360b902782 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.4.1 - Ethereum Mainnet - Ethena USDe Instance Configuration Document](6be3e516-5374-41a0-8566-1c50656af772).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.4.1 - Ethereum Mainnet - Ethena USDe Instance Configuration Document](6be3e516-5374-41a0-8566-1c50656af772).
 
-###### A.6.1.1.1.2.6.1.1.3.3.4.2 - Ethereum Mainnet - Ethena sUSDe Instance Configuration Document Location [Core]  <!-- UUID: 822350a5-27e8-4cb9-80c5-9fca9e84cb49 -->
+###### A.6.1.1.1.2.6.1.1.3.1.4.2 - Ethereum Mainnet - Ethena sUSDe Instance Configuration Document Location [Core]  <!-- UUID: 822350a5-27e8-4cb9-80c5-9fca9e84cb49 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.4.2 - Ethereum Mainnet - Ethena sUSDe Instance Configuration Document](1903250a-4499-4ce4-bdcb-5835102a6553).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.4.2 - Ethereum Mainnet - Ethena sUSDe Instance Configuration Document](1903250a-4499-4ce4-bdcb-5835102a6553).
 
-###### A.6.1.1.1.2.6.1.1.3.3.5 - Superstate [Core]  <!-- UUID: e502e83d-467d-4b58-a4bd-292a3985c7ff -->
+###### A.6.1.1.1.2.6.1.1.3.1.5 - Superstate [Core]  <!-- UUID: e502e83d-467d-4b58-a4bd-292a3985c7ff -->
 
 The Ethereum Mainnet Instances Directory of the Superstate Protocol with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.1.3.3.5.1 - Ethereum Mainnet - Superstate USTB Instance Configuration Document Location [Core]  <!-- UUID: aed21e59-19b9-4b11-ac3f-55bb5a387772 -->
+###### A.6.1.1.1.2.6.1.1.3.1.5.1 - Ethereum Mainnet - Superstate USTB Instance Configuration Document Location [Core]  <!-- UUID: aed21e59-19b9-4b11-ac3f-55bb5a387772 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.5.1 - Ethereum Mainnet - Superstate USTB Instance Configuration Document](4ad2419c-7966-42de-bc2a-d8ca8ce61b90).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.5.1 - Ethereum Mainnet - Superstate USTB Instance Configuration Document](4ad2419c-7966-42de-bc2a-d8ca8ce61b90).
 
-###### A.6.1.1.1.2.6.1.1.3.3.6 - Curve [Core]  <!-- UUID: e0b7c369-0ad7-491e-be3e-bdfe8ad2478c -->
+###### A.6.1.1.1.2.6.1.1.3.1.6 - Curve [Core]  <!-- UUID: e0b7c369-0ad7-491e-be3e-bdfe8ad2478c -->
 
 The Ethereum Mainnet Instances Directory of the Curve Protocol with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.1.3.3.6.1 - Ethereum Mainnet - Curve sUSDS/USDT Pool Instance Configuration Document Location [Core]  <!-- UUID: af6a87f7-9b67-4f30-a345-f0c46f97c039 -->
+###### A.6.1.1.1.2.6.1.1.3.1.6.1 - Ethereum Mainnet - Curve sUSDS/USDT Pool Instance Configuration Document Location [Core]  <!-- UUID: af6a87f7-9b67-4f30-a345-f0c46f97c039 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.6.1 - Ethereum Mainnet - Curve sUSDS/USDT Pool Instance Configuration Document](4e840dad-944c-4c45-9c5e-277dcb1830a8).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.6.1 - Ethereum Mainnet - Curve sUSDS/USDT Pool Instance Configuration Document](4e840dad-944c-4c45-9c5e-277dcb1830a8).
 
-###### A.6.1.1.1.2.6.1.1.3.3.6.2 - Ethereum Mainnet - Curve USDC/USDT Pool Instance Configuration Document Location [Core]  <!-- UUID: dbbac28b-8627-462f-9326-f50bfdb50867 -->
+###### A.6.1.1.1.2.6.1.1.3.1.6.2 - Ethereum Mainnet - Curve USDC/USDT Pool Instance Configuration Document Location [Core]  <!-- UUID: dbbac28b-8627-462f-9326-f50bfdb50867 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.6.2 - Ethereum Mainnet - Curve USDC/USDT Pool Instance Configuration Document](30d359a0-287b-4b3b-93fd-4e70bf0b19a7).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.6.2 - Ethereum Mainnet - Curve USDC/USDT Pool Instance Configuration Document](30d359a0-287b-4b3b-93fd-4e70bf0b19a7).
 
-###### A.6.1.1.1.2.6.1.1.3.3.6.3 - Ethereum Mainnet - Curve pyUSD/USDC Pool Instance Configuration Document Location [Core]  <!-- UUID: 7fe97dfc-8126-4c33-bc3d-74b7e1a1a88f -->
+###### A.6.1.1.1.2.6.1.1.3.1.6.3 - Ethereum Mainnet - Curve pyUSD/USDC Pool Instance Configuration Document Location [Core]  <!-- UUID: 7fe97dfc-8126-4c33-bc3d-74b7e1a1a88f -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.6.3 - Ethereum Mainnet - Curve pyUSD/USDC Pool Instance Configuration Document](e1fdaf49-0b32-4644-b021-9cae6e270c7a).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.6.3 - Ethereum Mainnet - Curve pyUSD/USDC Pool Instance Configuration Document](e1fdaf49-0b32-4644-b021-9cae6e270c7a).
 
-###### A.6.1.1.1.2.6.1.1.3.3.6.4 - Ethereum Mainnet - Curve pyUSD/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 881d31bd-e24b-45f7-9f8a-fa18b8effc8d -->
+###### A.6.1.1.1.2.6.1.1.3.1.6.4 - Ethereum Mainnet - Curve pyUSD/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 881d31bd-e24b-45f7-9f8a-fa18b8effc8d -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.6.4 - Ethereum Mainnet - Curve pyUSD/USDS Pool Instance Configuration Document](7635eff1-1fa0-4356-8953-2564a7f0693c).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.6.4 - Ethereum Mainnet - Curve pyUSD/USDS Pool Instance Configuration Document](7635eff1-1fa0-4356-8953-2564a7f0693c).
 
-###### A.6.1.1.1.2.6.1.1.3.3.6.5 - Ethereum Mainnet - Curve weETH/WETH-ng for Swaps Instance Configuration Document Location [Core]  <!-- UUID: 4ebb4393-9573-4e5f-9323-11770ba18191 -->
+###### A.6.1.1.1.2.6.1.1.3.1.6.5 - Ethereum Mainnet - Curve weETH/WETH-ng for Swaps Instance Configuration Document Location [Core]  <!-- UUID: 4ebb4393-9573-4e5f-9323-11770ba18191 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.6.5 - Ethereum Mainnet - Curve weETH/WETH-ng for Swaps Instance Configuration Document](cfc335a4-efcf-4f53-9609-1c9784cbb784).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.6.5 - Ethereum Mainnet - Curve weETH/WETH-ng for Swaps Instance Configuration Document](cfc335a4-efcf-4f53-9609-1c9784cbb784).
 
-###### A.6.1.1.1.2.6.1.1.3.3.7 - Anchorage [Core]  <!-- UUID: 8adbc865-ab94-44e1-a596-56863099fec2 -->
+###### A.6.1.1.1.2.6.1.1.3.1.7 - Anchorage [Core]  <!-- UUID: 8adbc865-ab94-44e1-a596-56863099fec2 -->
 
 The Ethereum Mainnet Instances Directory of the Anchorage Protocol with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.1.3.3.7.1 - Ethereum Mainnet - Anchorage USAT Instance Configuration Document Location [Core]  <!-- UUID: 0793bcc1-4b69-437d-bbf3-38e1ac6d29b6 -->
+###### A.6.1.1.1.2.6.1.1.3.1.7.1 - Ethereum Mainnet - Anchorage USAT Instance Configuration Document Location [Core]  <!-- UUID: 0793bcc1-4b69-437d-bbf3-38e1ac6d29b6 -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.7.1 - Ethereum Mainnet - Anchorage USAT Instance Configuration Document](8048e396-7bb4-4541-a68f-6dd7ec0a6015).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.7.1 - Ethereum Mainnet - Anchorage USAT Instance Configuration Document](8048e396-7bb4-4541-a68f-6dd7ec0a6015).
 
-###### A.6.1.1.1.2.6.1.1.3.3.7.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document Location [Core]  <!-- UUID: 905c5726-8d51-4bf3-80c7-2b4f48bf66cd -->
+###### A.6.1.1.1.2.6.1.1.3.1.7.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document Location [Core]  <!-- UUID: 905c5726-8d51-4bf3-80c7-2b4f48bf66cd -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.7.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document](4eee15e5-46e2-4438-8299-6c85c46bb85b).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.7.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document](4eee15e5-46e2-4438-8299-6c85c46bb85b).
+
+###### A.6.1.1.1.2.6.1.1.3.1.8 - Blackrock [Core]  <!-- UUID: e4ec840c-dee5-4afe-9f41-c9061c70a0d9 -->
+
+The Ethereum Mainnet Instances Directory of the Blackrock Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.3.1.8.1 - Ethereum Mainnet - Blackrock USDC Instance Configuration Document Location [Core]  <!-- UUID: 6d30c514-ea40-45ca-93cd-0771830b3617 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.8.1 - Ethereum Mainnet - Blackrock USDC Instance Configuration Document](7a52fb87-96bf-4135-9a61-f2dc068af12c).
+
+###### A.6.1.1.1.2.6.1.1.3.1.9 - Centrifuge [Core]  <!-- UUID: 5e56bd40-1e89-4549-adaa-54776089fe13 -->
+
+The Ethereum Mainnet Instances Directory of the Centrifuge Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.3.1.9.1 - Ethereum Mainnet - Centrifuge USDC Instance Configuration Document Location [Core]  <!-- UUID: 495b8996-fd2c-46ba-8e46-945b22eff733 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.9.1 - Ethereum Mainnet - Centrifuge USDC Instance Configuration Document](289555ee-996e-43a7-b05f-a0b06d1238f5).
 
 ###### A.6.1.1.1.2.6.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 73a22cb8-06cd-4324-b0fe-f37bf538f7a9 -->
 
@@ -7705,892 +7705,720 @@ The transferAssets rate limits are:
 
 The Instances of the Spark Liquidity Layer with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.4.1 - Blackrock [Core]  <!-- UUID: ce83f39e-5efb-4a88-b27f-989083213239 -->
-
-The Ethereum Mainnet Instances of the Blackrock Protocol with `Completed` Status are stored herein.
-
-###### A.6.1.1.1.2.6.1.4.1.1 - Ethereum Mainnet - Blackrock USDC Instance Configuration Document [Core]  <!-- UUID: 7a52fb87-96bf-4135-9a61-f2dc068af12c -->
-
-The documents herein contain the Instance Configuration Document for the Blackrock USDC Instance.
-
-###### A.6.1.1.1.2.6.1.4.1.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 704fd922-1700-4c0e-b182-e3ffe8741274 -->
-
-**`Pending`**
-
-###### A.6.1.1.1.2.6.1.4.1.1.2 - Parameters [Core]  <!-- UUID: 9f44d3eb-b1d4-490e-bab2-8f39b73dc6ad -->
-
-The documents herein define the parameters of the Blackrock USDC Instance of the Allocation System Primitive
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: fcee0621-3878-461c-8900-a55e62c90aeb -->
-
-The documents herein define the Instance identifiers
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.1.1 - Network [Core]  <!-- UUID: c667269d-b366-4a14-9861-e506d107a767 -->
-
-Ethereum Mainnet
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 10169c03-bbd8-40c2-990c-44ee2f5d436f -->
-
-Blackrock
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 3215e3d7-850e-400a-adac-b57223c354c6 -->
-
-USDC
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.1.4 - Token [Core]  <!-- UUID: 892b7916-3ca3-4fd1-a8d2-732646ad7353 -->
-
-BUIDL-I
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: 1dd65da0-57e4-4cb4-bf6c-7885b0616ae2 -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.2.1 - Token Address [Core]  <!-- UUID: 43930781-984c-4ba4-91e1-5e564fe448ad -->
-
-`0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041`
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 284c77f5-ea1b-4569-a4f4-9241cf338f9b -->
-
-`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 43f9fa01-68a2-4c8f-b1f4-fe775927562e -->
-
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 9196512a-ba80-4a8e-9f17-04b63c22cebf -->
-
-The inflow RateLimitID is: `0xd09c2dcb5e98e8da66af05a657fa6802dcc8fc3a5e6fc86a8bba565c58391288`
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 4a9c8a11-383b-4b9d-80b1-27163479705c -->
-
-The outflow RateLimitID is: `0x377bb661ce1ad4a0a25a2f84247e85b1ebc818624a649b9af0ac7498c6dc5216`
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.4 - Rate Limits [Core]  <!-- UUID: 3a9acb95-b227-4473-aa26-95b7f25cfd8a -->
-
-The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 4ec7ede8-416b-486e-ba56-160b02189a7b -->
-
-The inflow rate limits are:
-
-- `maxAmount`: 0
-- `slope`: 0
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 1fc9d6f3-3996-4245-a096-53dad4a624ea -->
-
-The outflow rate limits are:
-
-- `maxAmount`: 0
-- `slope`: 0
-
-###### A.6.1.1.1.2.6.1.4.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: dd3dffeb-7157-46dc-bf65-f5c8d5bf9fc8 -->
-
-The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.1.2.6.1.4.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: ddd37d10-75dd-4de4-a88b-b92745fd53bc -->
-
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
-
-###### A.6.1.1.1.2.6.1.4.2 - Centrifuge [Core]  <!-- UUID: 8fb735f7-7d36-4b35-9e9a-19b645674517 -->
-
-The Ethereum Mainnet Instances of the Centrifuge Protocol with `Completed` Status are stored herein.
-
-###### A.6.1.1.1.2.6.1.4.2.1 - Ethereum Mainnet - Centrifuge USDC Instance Configuration Document [Core]  <!-- UUID: 289555ee-996e-43a7-b05f-a0b06d1238f5 -->
-
-The documents herein contain the Instance Configuration Document for the Centrifuge USDC Instance.
-
-###### A.6.1.1.1.2.6.1.4.2.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: c9a19386-f124-49bc-aca1-6860293395f3 -->
-
-**`Pending`**
-
-###### A.6.1.1.1.2.6.1.4.2.1.2 - Parameters [Core]  <!-- UUID: 35533e6c-2d70-4cba-8192-95a150f93e9c -->
-
-The documents herein define the parameters of the Centrifuge USDC Instance of the Allocation System Primitive.
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 1ba05a79-f768-45e8-ae14-bb04495e6f6c -->
-
-The documents herein define the Instance identifiers
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.1.1 - Network [Core]  <!-- UUID: c10013b3-c688-4a97-8a5c-44c56d9ef481 -->
-
-Ethereum Mainnet
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 1c386cce-adee-4f5a-aa88-7c84f0709a70 -->
-
-Centrifuge
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 8eb1c7a9-18a7-46bf-841d-2db3476bf8ea -->
-
-USDC
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.1.4 - Token [Core]  <!-- UUID: aaa19944-a11f-43e3-8ddf-25e8ab357d97 -->
-
-JTRSY
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.2 - Contract Addresses [Core]  <!-- UUID: 538be44e-fe35-4f33-83de-613713f0b674 -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.2.1 - Token Address [Core]  <!-- UUID: 75405fc4-d493-410d-b036-dc7f67242ca3 -->
-
-`0x8c213ee79581Ff4984583C6a801e5263418C4b86`
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 8e1a1625-29e0-46d0-ac50-d43b40c4c79d -->
-
-`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 3cd3c96e-b459-468f-a7be-f5c52c38666e -->
-
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 26859d04-329c-4f69-9462-641e717b2cc1 -->
-
-The inflow RateLimitID is: `0x4189cfa817ad13e3eec943ae079f6671a805633699fbe0d18e621aec73841da0`
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: e0aac1cc-81bf-4f9b-9612-7f664cfda8fa -->
-
-The outflow RateLimitID is: `0xecb9c091aa267ad13453ebeb54dadc691a0b3b74b11e16fac6a7e3e4801b58de`
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.4 - Rate Limits [Core]  <!-- UUID: e5519b29-8100-4490-965b-a616729865e1 -->
-
-The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 81ab5665-f9b9-4363-9d05-0d7bf371394a -->
-
-The inflow rate limits are:
-
-- `maxAmount`: 0
-- `slope`: 0
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 997c0581-022d-4fdd-8fde-cb43d58c8940 -->
-
-The outflow rate limits are:
-
-- `maxAmount`: 0
-- `slope`: 0
-
-###### A.6.1.1.1.2.6.1.4.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 5ab63d35-c3d1-4ea6-924c-2d56bcd68295 -->
-
-The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.1.2.6.1.4.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d14420a3-4b36-4eac-bb1b-04f5598fe347 -->
-
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
-
-###### A.6.1.1.1.2.6.1.4.3 - Ethereum Mainnet Instances [Core]  <!-- UUID: 4a98960f-dd05-4f2b-9e7c-66a489ee499a -->
+###### A.6.1.1.1.2.6.1.4.1 - Ethereum Mainnet Instances [Core]  <!-- UUID: 4a98960f-dd05-4f2b-9e7c-66a489ee499a -->
 
 The Ethereum Mainnet Instances of the Spark Liquidity Layer with `Completed` Status are stored herein and are organized by target protocol.
 
-###### A.6.1.1.1.2.6.1.4.3.1 - Morpho [Core]  <!-- UUID: 1581c7c2-ee47-45ed-a7ba-b254ab7a6975 -->
+###### A.6.1.1.1.2.6.1.4.1.1 - Morpho [Core]  <!-- UUID: 1581c7c2-ee47-45ed-a7ba-b254ab7a6975 -->
 
 The Ethereum Mainnet Instances of the Morpho Protocol with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.4.3.1.1 - Ethereum Mainnet - Morpho USDT Instance Configuration Document [Core]  <!-- UUID: a2f66f86-ddea-4260-820a-cde66a861413 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1 - Ethereum Mainnet - Morpho USDT Instance Configuration Document [Core]  <!-- UUID: a2f66f86-ddea-4260-820a-cde66a861413 -->
 
 The documents herein contain the Instance Configuration Document for the Morpho USDT Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 0679d377-0d6f-4511-a8a9-2c1fe7b5d78f -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 0679d377-0d6f-4511-a8a9-2c1fe7b5d78f -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2 - Parameters [Core]  <!-- UUID: 3c749393-8134-4483-ad35-c6820768421f -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2 - Parameters [Core]  <!-- UUID: 3c749393-8134-4483-ad35-c6820768421f -->
 
 The documents herein define the parameters of the Morpho USDT Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 077e23e8-fc30-4dc9-8c61-c08f7fe10864 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 077e23e8-fc30-4dc9-8c61-c08f7fe10864 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.1.1 - Network [Core]  <!-- UUID: bea790d6-8b58-45fb-a974-2813284831ee -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.1.1 - Network [Core]  <!-- UUID: bea790d6-8b58-45fb-a974-2813284831ee -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: a700da65-026f-4cf7-a1fb-a30cedc10189 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: a700da65-026f-4cf7-a1fb-a30cedc10189 -->
 
 Morpho
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 9ecacc4a-fe57-427b-a652-92409b64aef6 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 9ecacc4a-fe57-427b-a652-92409b64aef6 -->
 
 USDT
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.1.4 - Token [Core]  <!-- UUID: 46ea2f39-26c6-4ac4-9ee7-baf921d8e86e -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.1.4 - Token [Core]  <!-- UUID: 46ea2f39-26c6-4ac4-9ee7-baf921d8e86e -->
 
 sparkUSDT
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: 1eb8cc31-5d23-4aaa-b99e-b57654c9dbc4 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: 1eb8cc31-5d23-4aaa-b99e-b57654c9dbc4 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.2.1 - Token Address [Core]  <!-- UUID: c4629de2-eb51-4661-a4bc-6b955e267f5f -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.2.1 - Token Address [Core]  <!-- UUID: c4629de2-eb51-4661-a4bc-6b955e267f5f -->
 
 `0xc7CDcFDEfC64631ED6799C95e3b110cd42F2bD22`
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: a3ed9893-931b-4d4e-9cf9-35373d1ed005 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: a3ed9893-931b-4d4e-9cf9-35373d1ed005 -->
 
 `0xdac17f958d2ee523a2206206994597c13d831ec7`
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 30cdfa34-7b8d-4280-bda2-ec53940a8093 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 30cdfa34-7b8d-4280-bda2-ec53940a8093 -->
 
 `0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699`
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: bde22f96-915b-4073-840f-ac0408aa8407 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: bde22f96-915b-4073-840f-ac0408aa8407 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: ed766b99-9937-401b-b056-9f91f2ad7f15 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: ed766b99-9937-401b-b056-9f91f2ad7f15 -->
 
 The inflow RateLimitID is: `0x854a144d87be6e4837fb79d8a8477475b5a6a15b4566b9c3cb1a5674ceb6ce0d`
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: c0fccd1a-2edc-4b0b-98ae-d3a1cbb4ff7f -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: c0fccd1a-2edc-4b0b-98ae-d3a1cbb4ff7f -->
 
 The outflow RateLimitID is: `0xedf3830181ac6cb4bd660183d5f65efee7f5ed6ec9225df2f19a27ad4910329a`
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.4 - Rate Limits [Core]  <!-- UUID: 7eaf8614-3343-4a6b-a637-8a92a7115bbb -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.4 - Rate Limits [Core]  <!-- UUID: 7eaf8614-3343-4a6b-a637-8a92a7115bbb -->
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 0c654529-b8b7-4071-bc72-5eee02d295c9 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 0c654529-b8b7-4071-bc72-5eee02d295c9 -->
 
 The inflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6dab7518-caa3-4339-a573-718675fe19ee -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6dab7518-caa3-4339-a573-718675fe19ee -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 3bb2d3ac-cdcc-4f25-a03c-71d2d0902582 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 3bb2d3ac-cdcc-4f25-a03c-71d2d0902582 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 32759a33-f619-4a41-a4fd-fbcdb642a82a -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 32759a33-f619-4a41-a4fd-fbcdb642a82a -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 06914650-b873-4c39-8389-5c615c64edf7 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 06914650-b873-4c39-8389-5c615c64edf7 -->
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.4.1 - Market Exposure [Core]  <!-- UUID: bcf45274-0125-4856-a405-ed2726fad468 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.4.1 - Market Exposure [Core]  <!-- UUID: bcf45274-0125-4856-a405-ed2726fad468 -->
 
 The documents herein contain exposure details for this Instance
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.4.1.1 - sUSDS/USDT 96.5% LLTV Pool [Core]  <!-- UUID: 2187c7a6-d9d2-46c7-a794-5779939c708f -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.4.1.1 - sUSDS/USDT 96.5% LLTV Pool [Core]  <!-- UUID: 2187c7a6-d9d2-46c7-a794-5779939c708f -->
 
 - Pool ID: 0x3274643db77a064abd3bc851de77556a4ad2e2f502f4f0c80845fa8f909ecf0b
 - Absolute cap: Unlimited
 - Relative cap: 100%
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.4.1.2 - wstETH/USDT 86% LLTV Pool [Core]  <!-- UUID: 28068a47-d95a-4edb-a7cd-15a9fa769d01 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.4.1.2 - wstETH/USDT 86% LLTV Pool [Core]  <!-- UUID: 28068a47-d95a-4edb-a7cd-15a9fa769d01 -->
 
 - Pool ID: 0xe7e9694b754c4d4f7e21faf7223f6fa71abaeb10296a4c43a54a7977149687d2
 - Absolute cap: 250 million
 - Relative cap: 100%
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.4.1.3 - WBTC/USDT 86% LLTV Pool [Core]  <!-- UUID: c2b81ec6-62d4-4a8e-8195-411051e74708 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.4.1.3 - WBTC/USDT 86% LLTV Pool [Core]  <!-- UUID: c2b81ec6-62d4-4a8e-8195-411051e74708 -->
 
 - Pool ID: 0xa921ef34e2fc7a27ccc50ae7e4b154e16c9799d3387076c421423ef52ac4df99
 - Absolute cap: 100 million
 - Relative cap: 100%
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.4.1.4 - cbBTC/USDT 86% LLTV Pool [Core]  <!-- UUID: b89ff2c9-be7e-4634-bddd-8ebbf5eb6769 -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.4.1.4 - cbBTC/USDT 86% LLTV Pool [Core]  <!-- UUID: b89ff2c9-be7e-4634-bddd-8ebbf5eb6769 -->
 
 - Pool ID: 0x45671fb8d5dea1c4fbca0b8548ad742f6643300eeb8dbd34ad64a658b2b05bca
 - Absolute cap: 250 million
 - Relative cap: 100%
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.4.2 - Contract Addresses [Core]  <!-- UUID: c481d26c-a4b1-4c76-9031-478bd64a8aca -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.4.2 - Contract Addresses [Core]  <!-- UUID: c481d26c-a4b1-4c76-9031-478bd64a8aca -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.4.2.1 - Curator Role Address [Core]  <!-- UUID: e71e777b-b5a8-41bb-8434-97650500467a -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.4.2.1 - Curator Role Address [Core]  <!-- UUID: e71e777b-b5a8-41bb-8434-97650500467a -->
 
 `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.4.2.2 - Guardian Role Address [Core]  <!-- UUID: 6e105430-ea5c-4368-b76f-725c0208afdc -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.4.2.2 - Guardian Role Address [Core]  <!-- UUID: 6e105430-ea5c-4368-b76f-725c0208afdc -->
 
 `0xf5748bBeFa17505b2F7222B23ae11584932C908B`
 
-###### A.6.1.1.1.2.6.1.4.3.1.1.4.3 - Timelock [Core]  <!-- UUID: 62c056de-3136-4faa-bb86-3b348e2e874c -->
+###### A.6.1.1.1.2.6.1.4.1.1.1.4.3 - Timelock [Core]  <!-- UUID: 62c056de-3136-4faa-bb86-3b348e2e874c -->
 
 Timelock: 240 hours (10 days)
 
-###### A.6.1.1.1.2.6.1.4.3.1.2 - Ethereum Mainnet - Morpho Dai Instance Configuration Document [Core]  <!-- UUID: 626dd4bf-108b-48bd-a1e1-c26d290c3a72 -->
+###### A.6.1.1.1.2.6.1.4.1.1.2 - Ethereum Mainnet - Morpho Dai Instance Configuration Document [Core]  <!-- UUID: 626dd4bf-108b-48bd-a1e1-c26d290c3a72 -->
 
 The documents herein contain the Instance Configuration Document for the Morpho Dai Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: a96c3d29-51b2-45b8-9820-56ec9edeffd3 -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: a96c3d29-51b2-45b8-9820-56ec9edeffd3 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2 - Parameters [Core]  <!-- UUID: b0ae7680-7179-4fd6-93f0-56c03d6f91eb -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2 - Parameters [Core]  <!-- UUID: b0ae7680-7179-4fd6-93f0-56c03d6f91eb -->
 
 The documents herein define the parameters of the Morpho Dai Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.1 - Instance Identifiers [Core]  <!-- UUID: d378528c-192a-4b4b-b4ad-0fd39cf6d9a0 -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.1 - Instance Identifiers [Core]  <!-- UUID: d378528c-192a-4b4b-b4ad-0fd39cf6d9a0 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.1.1 - Network [Core]  <!-- UUID: acfbf398-dfe6-415a-8355-36aaf57b4322 -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.1.1 - Network [Core]  <!-- UUID: acfbf398-dfe6-415a-8355-36aaf57b4322 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 4de6d799-4ebf-4876-af77-c9cbfee16bac -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 4de6d799-4ebf-4876-af77-c9cbfee16bac -->
 
 Morpho
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 5bde4982-cdea-482b-972a-372352c883a1 -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 5bde4982-cdea-482b-972a-372352c883a1 -->
 
 Dai
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.1.4 - Token [Core]  <!-- UUID: a1eca238-d0bc-4372-899e-3cd3c42908cc -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.1.4 - Token [Core]  <!-- UUID: a1eca238-d0bc-4372-899e-3cd3c42908cc -->
 
 spDAI
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.2 - Contract Addresses [Core]  <!-- UUID: 1de795f6-94fe-4a9b-8952-f11375f2c330 -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.2 - Contract Addresses [Core]  <!-- UUID: 1de795f6-94fe-4a9b-8952-f11375f2c330 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.2.1 - Token Address [Core]  <!-- UUID: 1614a57a-15d9-4081-862b-d1b1d80f59f4 -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.2.1 - Token Address [Core]  <!-- UUID: 1614a57a-15d9-4081-862b-d1b1d80f59f4 -->
 
 `0x73e65DBD630f90604062f6E02fAb9138e713edD9`
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: faf749a9-9737-49c8-8783-e09034ab190d -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: faf749a9-9737-49c8-8783-e09034ab190d -->
 
 `0x6B175474E89094C44Da98b954EedeAC495271d0F`
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 191e781d-17da-459c-9366-88d0efc8a4d8 -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 191e781d-17da-459c-9366-88d0efc8a4d8 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 8577dd5c-a5a5-45b5-826b-aedb2dfe79a9 -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 8577dd5c-a5a5-45b5-826b-aedb2dfe79a9 -->
 
 The inflow RateLimitID is: `0x238482975fbb4a96f7f4a8677887283a05e1839e0979aa1fc2363c56eb6ccb57`
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 2a5d0e0d-cec1-42df-ae92-9da6bd05de19 -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 2a5d0e0d-cec1-42df-ae92-9da6bd05de19 -->
 
 The outflow RateLimitID is: `0x3c060e71c2ad245204de74a74123474b5a99edc1b2a7bed3d88670495f941256`
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.4 - Rate Limits [Core]  <!-- UUID: 9a6b7691-5bdf-497d-a8d3-0421624c23c1 -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.4 - Rate Limits [Core]  <!-- UUID: 9a6b7691-5bdf-497d-a8d3-0421624c23c1 -->
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 27c105d3-a93c-45b9-b951-050e60a50c51 -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 27c105d3-a93c-45b9-b951-050e60a50c51 -->
 
 The inflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 5cbdb15a-3a5b-4ea3-9fc2-4098f512712c -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 5cbdb15a-3a5b-4ea3-9fc2-4098f512712c -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: d39f115f-51e6-466a-a329-8761d4ae50c0 -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: d39f115f-51e6-466a-a329-8761d4ae50c0 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.1.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: e76bc120-89fd-438f-b338-7951f4660a7e -->
+###### A.6.1.1.1.2.6.1.4.1.1.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: e76bc120-89fd-438f-b338-7951f4660a7e -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.4.3.1.3 - Ethereum Mainnet - Morpho USDS Instance Configuration Document [Core]  <!-- UUID: 138be894-8a4a-4e8c-9fdd-0f8183935d24 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3 - Ethereum Mainnet - Morpho USDS Instance Configuration Document [Core]  <!-- UUID: 138be894-8a4a-4e8c-9fdd-0f8183935d24 -->
 
 The documents herein contain the Instance Configuration Document for the Morpho USDS Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 0fd39503-617a-4850-8a11-2b0f2f7b5ae7 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 0fd39503-617a-4850-8a11-2b0f2f7b5ae7 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2 - Parameters [Core]  <!-- UUID: f1b8abcc-2254-4826-9a82-f03f78d4f846 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2 - Parameters [Core]  <!-- UUID: f1b8abcc-2254-4826-9a82-f03f78d4f846 -->
 
 The documents herein define the parameters of the Morpho USDS Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.1 - Instance Identifiers [Core]  <!-- UUID: 1676db92-f89e-4701-b4ea-dc14475b603c -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.1 - Instance Identifiers [Core]  <!-- UUID: 1676db92-f89e-4701-b4ea-dc14475b603c -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.1.1 - Network [Core]  <!-- UUID: 146f0253-a524-4d2d-b047-68df518ea163 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.1.1 - Network [Core]  <!-- UUID: 146f0253-a524-4d2d-b047-68df518ea163 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.1.2 - Target Protocol [Core]  <!-- UUID: 0e95f0b2-4d41-4676-8dcb-f5faeb2768ef -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.1.2 - Target Protocol [Core]  <!-- UUID: 0e95f0b2-4d41-4676-8dcb-f5faeb2768ef -->
 
 Morpho
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 0a270b1d-8ce7-487c-b571-1f7f114eb19e -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 0a270b1d-8ce7-487c-b571-1f7f114eb19e -->
 
 USDS
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.1.4 - Token [Core]  <!-- UUID: 55807963-1266-4eb3-ba61-f1073dbcc685 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.1.4 - Token [Core]  <!-- UUID: 55807963-1266-4eb3-ba61-f1073dbcc685 -->
 
 sparkUSDS
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.2 - Contract Addresses [Core]  <!-- UUID: 5bdcf2a4-85a3-45df-b525-3de5fce91391 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.2 - Contract Addresses [Core]  <!-- UUID: 5bdcf2a4-85a3-45df-b525-3de5fce91391 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.2.1 - Token Address [Core]  <!-- UUID: 972aa481-5c2c-44e0-956e-f649e86f6cc2 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.2.1 - Token Address [Core]  <!-- UUID: 972aa481-5c2c-44e0-956e-f649e86f6cc2 -->
 
 `0xe41a0583334f0dc4E023Acd0bFef3667F6FE0597`
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 64e52154-360d-49e5-882c-6ef389b7a2df -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 64e52154-360d-49e5-882c-6ef389b7a2df -->
 
 `0xdC035D45d973E3EC169d2276DDab16f1e407384F`
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.2.3 - Allocator Role Address [Core]  <!-- UUID: e40cb4f0-7ff1-4c64-a936-5e33189952a5 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.2.3 - Allocator Role Address [Core]  <!-- UUID: e40cb4f0-7ff1-4c64-a936-5e33189952a5 -->
 
 `0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178`
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 73b8b172-1562-4729-9d21-832bf1efdd19 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 73b8b172-1562-4729-9d21-832bf1efdd19 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: d090f79b-8a51-46fc-bf72-95e5bbb255c8 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: d090f79b-8a51-46fc-bf72-95e5bbb255c8 -->
 
 The inflow RateLimitID is: `0xf4b68c4151118eaa6d0b749724d2cf246843a816e17b78134abd3ac53f811995`
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 5e9eef4f-a077-44c5-92f3-5d3bda5121f5 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 5e9eef4f-a077-44c5-92f3-5d3bda5121f5 -->
 
 The outflow RateLimitID is: `0xbb7fdbf3f31ef1c6524f1400a46d2b34ca27ea5b53331cc6631a0b56e6619ce1`
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.4 - Rate Limits [Core]  <!-- UUID: aa89df3f-655e-4e91-952b-41db6b7e5671 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.4 - Rate Limits [Core]  <!-- UUID: aa89df3f-655e-4e91-952b-41db6b7e5671 -->
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 6fb6752a-a468-4f67-92a3-f86038be581d -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 6fb6752a-a468-4f67-92a3-f86038be581d -->
 
 The inflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6f8914eb-62e1-4946-901a-ae70839845fc -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6f8914eb-62e1-4946-901a-ae70839845fc -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 731b87e1-bf2e-4214-9574-16074809b771 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 731b87e1-bf2e-4214-9574-16074809b771 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 86e8dd23-9895-453f-a56a-460eaff0c0a2 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 86e8dd23-9895-453f-a56a-460eaff0c0a2 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: e560d14b-b1f1-4351-9214-62a3d6d7fd53 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: e560d14b-b1f1-4351-9214-62a3d6d7fd53 -->
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.4.1 - Contract Addresses [Core]  <!-- UUID: bfdae446-8562-4c34-8bf8-9f6d7d612d2e -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.4.1 - Contract Addresses [Core]  <!-- UUID: bfdae446-8562-4c34-8bf8-9f6d7d612d2e -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.4.1.1 - Curator Role Address [Core]  <!-- UUID: ca1eb012-2401-4e24-9e9e-a76f869e422d -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.4.1.1 - Curator Role Address [Core]  <!-- UUID: ca1eb012-2401-4e24-9e9e-a76f869e422d -->
 
 `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.4.1.2 - Guardian Role Address [Core]  <!-- UUID: 86831263-5a01-4259-80e6-7829f062a1e6 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.4.1.2 - Guardian Role Address [Core]  <!-- UUID: 86831263-5a01-4259-80e6-7829f062a1e6 -->
 
 `0xf5748bBeFa17505b2F7222B23ae11584932C908B`
 
-###### A.6.1.1.1.2.6.1.4.3.1.3.4.2 - Timelock [Core]  <!-- UUID: bf0333e1-219a-4dc2-89d9-0ac64907c3d2 -->
+###### A.6.1.1.1.2.6.1.4.1.1.3.4.2 - Timelock [Core]  <!-- UUID: bf0333e1-219a-4dc2-89d9-0ac64907c3d2 -->
 
 Timelock: 240 hours (10 days)
 
-###### A.6.1.1.1.2.6.1.4.3.2 - Aave [Core]  <!-- UUID: e90a2ab1-6e1b-49e1-955e-957f7c686915 -->
+###### A.6.1.1.1.2.6.1.4.1.2 - Aave [Core]  <!-- UUID: e90a2ab1-6e1b-49e1-955e-957f7c686915 -->
 
 The Ethereum Mainnet Instances of the Aave Protocol with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.4.3.2.1 - Ethereum Mainnet - Aave USDe Instance Configuration Document [Core]  <!-- UUID: 8bd798af-96fc-4fc4-9fb7-5b351740a962 -->
+###### A.6.1.1.1.2.6.1.4.1.2.1 - Ethereum Mainnet - Aave USDe Instance Configuration Document [Core]  <!-- UUID: 8bd798af-96fc-4fc4-9fb7-5b351740a962 -->
 
 The documents herein contain the Instance Configuration Document for the Aave USDe Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 29315031-1577-49d5-b40f-f818c945a047 -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 29315031-1577-49d5-b40f-f818c945a047 -->
 
 **`Covered`**
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2 - Parameters [Core]  <!-- UUID: bbfe8d2f-b82a-471e-a9d5-78892abc3465 -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2 - Parameters [Core]  <!-- UUID: bbfe8d2f-b82a-471e-a9d5-78892abc3465 -->
 
 The documents herein define the parameters of the Aave Core USDe Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 670dce17-03d2-4815-94b5-c58406b8b40d -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 670dce17-03d2-4815-94b5-c58406b8b40d -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.1.1 - Network [Core]  <!-- UUID: 12dde8d6-ff41-4c34-bf15-fe5c28e0f3c3 -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.1.1 - Network [Core]  <!-- UUID: 12dde8d6-ff41-4c34-bf15-fe5c28e0f3c3 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.1.2 - Target Protocol [Core]  <!-- UUID: b5fc5332-162f-45ca-b7a4-c6669f42134e -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.1.2 - Target Protocol [Core]  <!-- UUID: b5fc5332-162f-45ca-b7a4-c6669f42134e -->
 
 Aave Core
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 4015efa4-bed3-476a-bfc8-dec3d2909604 -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 4015efa4-bed3-476a-bfc8-dec3d2909604 -->
 
 USDe
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.1.4 - Token [Core]  <!-- UUID: a40aaf6a-b29f-413b-987d-bdf3a8bbf9c3 -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.1.4 - Token [Core]  <!-- UUID: a40aaf6a-b29f-413b-987d-bdf3a8bbf9c3 -->
 
 aEthUSDe
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.2 - Contract Addresses [Core]  <!-- UUID: 54fac347-de59-4a8f-a9cf-bd7fe0ccdcfb -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.2 - Contract Addresses [Core]  <!-- UUID: 54fac347-de59-4a8f-a9cf-bd7fe0ccdcfb -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.2.1 - Token Address [Core]  <!-- UUID: 6f8813ff-3f2c-4eb1-be25-10b6b428781d -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.2.1 - Token Address [Core]  <!-- UUID: 6f8813ff-3f2c-4eb1-be25-10b6b428781d -->
 
 `0x4F5923Fc5FD4a93352581b38B7cD26943012DECF`
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: a0682e7a-b111-4283-80c9-e806dd1bd225 -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: a0682e7a-b111-4283-80c9-e806dd1bd225 -->
 
 `0x4c9EDD5852cd905f086C759E8383e09bff1E68B3`
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 4fbb1a36-0889-4258-a7e9-0f1ab7d2b00e -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 4fbb1a36-0889-4258-a7e9-0f1ab7d2b00e -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: f9f7d785-2a4a-43bc-9220-2f1c4cc2832a -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: f9f7d785-2a4a-43bc-9220-2f1c4cc2832a -->
 
 The inflow RateLimitID is: `0x5041e92a35361af376c50ab976ff373e0129565f1fc84731f756b908f3844ee7`
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 7dc248c5-85bc-4d10-a6c5-b56e95cbb76c -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 7dc248c5-85bc-4d10-a6c5-b56e95cbb76c -->
 
 The outflow RateLimitID is: `0xb7e9647023ec223b3915db7f152a784583f35fc7283d9da7c31e3aeb9e334aaa`
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.4 - Rate Limits [Core]  <!-- UUID: c8b82f71-acd7-4ccc-8067-ceab3bb46f53 -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.4 - Rate Limits [Core]  <!-- UUID: c8b82f71-acd7-4ccc-8067-ceab3bb46f53 -->
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: ce159b4f-4e1a-48e9-9a73-b16c5fe19288 -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: ce159b4f-4e1a-48e9-9a73-b16c5fe19288 -->
 
 The inflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: a773878d-3f7c-492c-9486-139788f5b50f -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: a773878d-3f7c-492c-9486-139788f5b50f -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 0d912386-ce60-4018-bc95-6403b2316fce -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 0d912386-ce60-4018-bc95-6403b2316fce -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: fdb9edc5-6934-4a5a-8806-d835a6729de0 -->
+###### A.6.1.1.1.2.6.1.4.1.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: fdb9edc5-6934-4a5a-8806-d835a6729de0 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.4.3.3 - Maple [Core]  <!-- UUID: 0d069124-5ef8-4152-96d8-30980e522df9 -->
+###### A.6.1.1.1.2.6.1.4.1.3 - Maple [Core]  <!-- UUID: 0d069124-5ef8-4152-96d8-30980e522df9 -->
 
 The Ethereum Mainnet Instances of the Maple Protocol with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.4.3.3.1 - Ethereum Mainnet - Maple USDC Instance Configuration Document [Core]  <!-- UUID: 06a83573-f319-4a56-a2bd-4389086dd2bf -->
+###### A.6.1.1.1.2.6.1.4.1.3.1 - Ethereum Mainnet - Maple USDC Instance Configuration Document [Core]  <!-- UUID: 06a83573-f319-4a56-a2bd-4389086dd2bf -->
 
 The documents herein contain the Instance Configuration Document for the Maple USDC Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 7cc5a238-418d-4301-bf78-de8f5fa5669c -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 7cc5a238-418d-4301-bf78-de8f5fa5669c -->
 
 **`Covered`**
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2 - Parameters [Core]  <!-- UUID: 305d6ee1-997d-47bd-94ed-4c28fc8a6e1c -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2 - Parameters [Core]  <!-- UUID: 305d6ee1-997d-47bd-94ed-4c28fc8a6e1c -->
 
 The documents herein define the parameters of the Maple USDC Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 5005b27d-46a7-45a6-a8b7-68496fb343e5 -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 5005b27d-46a7-45a6-a8b7-68496fb343e5 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.1.1 - Network [Core]  <!-- UUID: 0577f89a-0ecf-4f99-a43b-880885b0fb84 -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.1.1 - Network [Core]  <!-- UUID: 0577f89a-0ecf-4f99-a43b-880885b0fb84 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.1.2 - Target Protocol [Core]  <!-- UUID: a2c71d09-8578-4854-98ae-8d122343dbed -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.1.2 - Target Protocol [Core]  <!-- UUID: a2c71d09-8578-4854-98ae-8d122343dbed -->
 
 Maple
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 6431d5f7-1e50-4537-902f-0d772ee3f08e -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 6431d5f7-1e50-4537-902f-0d772ee3f08e -->
 
 USDC
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.1.4 - Token [Core]  <!-- UUID: 5f4e0d3c-f3b4-4e1e-b3ea-59c3883df0c8 -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.1.4 - Token [Core]  <!-- UUID: 5f4e0d3c-f3b4-4e1e-b3ea-59c3883df0c8 -->
 
 syrupUSDC
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.2 - Contract Addresses [Core]  <!-- UUID: 0802482b-d11d-43d7-992a-8fde39fdcf2c -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.2 - Contract Addresses [Core]  <!-- UUID: 0802482b-d11d-43d7-992a-8fde39fdcf2c -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.2.1 - Token Address [Core]  <!-- UUID: 953bd87a-5781-42f1-b989-f9ab267bc707 -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.2.1 - Token Address [Core]  <!-- UUID: 953bd87a-5781-42f1-b989-f9ab267bc707 -->
 
 `0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b`
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: acb94b04-e58a-4948-9a85-aaf6887d8f65 -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: acb94b04-e58a-4948-9a85-aaf6887d8f65 -->
 
 `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.2.3 - Pool [Core]  <!-- UUID: 80ab522b-2f60-4d3a-bcd7-63f728f180f9 -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.2.3 - Pool [Core]  <!-- UUID: 80ab522b-2f60-4d3a-bcd7-63f728f180f9 -->
 
 `0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b`
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 8fd1f7ba-7c0b-4414-be6d-a45a1e263966 -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 8fd1f7ba-7c0b-4414-be6d-a45a1e263966 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 5ff1a262-1ed0-4270-ae32-42afbdb88b8d -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 5ff1a262-1ed0-4270-ae32-42afbdb88b8d -->
 
 The inflow RateLimitID is: `0x99a69e57b2f387f999d6adff6eb2e707b59fdb54f06ca6211b4f20956e9bfe10`
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.3.2 - Withdraw Outflow Rate Limit ID [Core]  <!-- UUID: b0903a8e-9035-4442-a6da-febef70c72f1 -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.3.2 - Withdraw Outflow Rate Limit ID [Core]  <!-- UUID: b0903a8e-9035-4442-a6da-febef70c72f1 -->
 
 The withdraw outflow RateLimitID is: `0x61860d069299a0e53107a063b78355ec1f7c4433cb2915e39bf235aad6fc19bb`
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.3.3 - Redeem Outflow Rate Limit ID [Core]  <!-- UUID: 8e765ea3-d5f0-4406-926a-7f2d05ad5287 -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.3.3 - Redeem Outflow Rate Limit ID [Core]  <!-- UUID: 8e765ea3-d5f0-4406-926a-7f2d05ad5287 -->
 
 The redeem outflow RateLimitID is: `0x64e6fd9d694640eebeeefc7b5abe32ef09bbabaa3d4e60221461d05a9577dc57`
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.4 - Rate Limits [Core]  <!-- UUID: d3641a4d-6104-4dc9-90ff-d4c7d1766917 -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.4 - Rate Limits [Core]  <!-- UUID: d3641a4d-6104-4dc9-90ff-d4c7d1766917 -->
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: b5d5ba32-342f-4d98-a51e-4d43ff458b48 -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: b5d5ba32-342f-4d98-a51e-4d43ff458b48 -->
 
 The inflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: ce4681b7-b94f-4acb-a2de-49b92b70245b -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: ce4681b7-b94f-4acb-a2de-49b92b70245b -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: c7791404-4478-4bf8-8292-7bd3ff676e01 -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: c7791404-4478-4bf8-8292-7bd3ff676e01 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.3.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: a0a08a60-a588-4586-b237-51273e259d8a -->
+###### A.6.1.1.1.2.6.1.4.1.3.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: a0a08a60-a588-4586-b237-51273e259d8a -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.4.3.3.2 - Ethereum Mainnet - Maple USDT Instance Configuration Document [Core]  <!-- UUID: 5302863d-f777-461e-8238-2178fc9899c4 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2 - Ethereum Mainnet - Maple USDT Instance Configuration Document [Core]  <!-- UUID: 5302863d-f777-461e-8238-2178fc9899c4 -->
 
 The documents herein contain the Instance Configuration Document for the Maple USDT Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 1ed4dd56-1e0a-4c73-ba31-3fd6894c91bf -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 1ed4dd56-1e0a-4c73-ba31-3fd6894c91bf -->
 
 **`Covered`**
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2 - Parameters [Core]  <!-- UUID: 46c4446e-ce4f-4ab8-85fd-c1868636ff2b -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2 - Parameters [Core]  <!-- UUID: 46c4446e-ce4f-4ab8-85fd-c1868636ff2b -->
 
 The documents herein define the parameters of the Maple USDT Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 33273ac7-e169-48f6-a89b-eb3173050bfe -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 33273ac7-e169-48f6-a89b-eb3173050bfe -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.1.1 - Network [Core]  <!-- UUID: e05459c2-ea54-4b1a-a68f-f87c0291d713 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.1.1 - Network [Core]  <!-- UUID: e05459c2-ea54-4b1a-a68f-f87c0291d713 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 0d38db2a-1471-4f69-b0a6-37cabf5e7f4f -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 0d38db2a-1471-4f69-b0a6-37cabf5e7f4f -->
 
 Maple
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: c2e6edf2-d064-4079-bb51-403d6963db0b -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: c2e6edf2-d064-4079-bb51-403d6963db0b -->
 
 USDT
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.1.4 - Token [Core]  <!-- UUID: 39086a4b-4656-4884-894f-895c88bef238 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.1.4 - Token [Core]  <!-- UUID: 39086a4b-4656-4884-894f-895c88bef238 -->
 
 syrupUSDT
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.2 - Contract Addresses [Core]  <!-- UUID: 3147106a-6918-449e-bb1b-70a52ac1af26 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.2 - Contract Addresses [Core]  <!-- UUID: 3147106a-6918-449e-bb1b-70a52ac1af26 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.2.1 - Token Address [Core]  <!-- UUID: 348f78f4-07a2-4e72-8d2a-4a62a2e44bed -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.2.1 - Token Address [Core]  <!-- UUID: 348f78f4-07a2-4e72-8d2a-4a62a2e44bed -->
 
 `0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D`
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: ffaf2d1b-8942-489f-8408-ab0e5718d3c5 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: ffaf2d1b-8942-489f-8408-ab0e5718d3c5 -->
 
 `0xdAC17F958D2ee523a2206206994597C13D831ec7`
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.2.3 - Pool [Core]  <!-- UUID: 3b9ecc4e-0cc5-491b-aebc-bf08d2e8c6f9 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.2.3 - Pool [Core]  <!-- UUID: 3b9ecc4e-0cc5-491b-aebc-bf08d2e8c6f9 -->
 
 `0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D`
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: efc9f35a-40e1-4847-8a48-06eda4d17d85 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: efc9f35a-40e1-4847-8a48-06eda4d17d85 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 9721126a-6c55-4ebb-9946-b444c2a867a7 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 9721126a-6c55-4ebb-9946-b444c2a867a7 -->
 
 The inflow RateLimitID is: `0x207bb548ee62bbfd7b6906087f0de38e6c19d5be908e83166c0f089ccc2d97eb`
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.3.2 - Withdraw Outflow Rate Limit ID [Core]  <!-- UUID: f85b4e67-eba9-4d98-8519-70bbce68a2fa -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.3.2 - Withdraw Outflow Rate Limit ID [Core]  <!-- UUID: f85b4e67-eba9-4d98-8519-70bbce68a2fa -->
 
 The withdraw outflow RateLimitID is: `0xe701ee8a9573df3a49595c8d32a8df7809120a0541dd386e9bf54c148d969707`
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.3.3 - Redeem Outflow Rate Limit ID [Core]  <!-- UUID: 75bf17ec-b4e8-44a9-94b6-9a7ecbda7b95 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.3.3 - Redeem Outflow Rate Limit ID [Core]  <!-- UUID: 75bf17ec-b4e8-44a9-94b6-9a7ecbda7b95 -->
 
 The redeem outflow RateLimitID is: `0x0562da8d8466582e6dc86134ab2ec5656cb4e3d5b57650f6bb1a0f3683bea329`
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.4 - Rate Limits [Core]  <!-- UUID: dfab21ad-13a4-48dd-8398-0c3d7dbc8996 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.4 - Rate Limits [Core]  <!-- UUID: dfab21ad-13a4-48dd-8398-0c3d7dbc8996 -->
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9bf306d1-bc24-4214-9799-53a00ab04ab5 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9bf306d1-bc24-4214-9799-53a00ab04ab5 -->
 
 The inflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: fc23d5a1-6e97-4e3e-bead-9a41955441c6 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: fc23d5a1-6e97-4e3e-bead-9a41955441c6 -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: a9ece9ee-2c12-462e-928e-d1a69b5f83a3 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: a9ece9ee-2c12-462e-928e-d1a69b5f83a3 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 3cd39fda-4e26-4f1b-ac32-93d3825a660b -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 3cd39fda-4e26-4f1b-ac32-93d3825a660b -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 717e595c-d7ff-406e-802b-cb4351858f00 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 717e595c-d7ff-406e-802b-cb4351858f00 -->
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
-###### A.6.1.1.1.2.6.1.4.3.3.2.4.1 - Request Redemption Parameters [Core]  <!-- UUID: 34e632af-1fd9-4dbe-be28-633837cdfe67 -->
+###### A.6.1.1.1.2.6.1.4.1.3.2.4.1 - Request Redemption Parameters [Core]  <!-- UUID: 34e632af-1fd9-4dbe-be28-633837cdfe67 -->
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.4 - Ethena [Core]  <!-- UUID: b23e9a6b-e78a-486f-9f6e-07cfdb437bee -->
+###### A.6.1.1.1.2.6.1.4.1.4 - Ethena [Core]  <!-- UUID: b23e9a6b-e78a-486f-9f6e-07cfdb437bee -->
 
 The Ethereum Mainnet Instances of the Ethena Protocol with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1 - Ethereum Mainnet - Ethena USDe Instance Configuration Document [Core]  <!-- UUID: 6be3e516-5374-41a0-8566-1c50656af772 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1 - Ethereum Mainnet - Ethena USDe Instance Configuration Document [Core]  <!-- UUID: 6be3e516-5374-41a0-8566-1c50656af772 -->
 
 The documents herein contain the Instance Configuration Document for the Ethena USDe Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: c5c8cd59-5d39-462c-b27d-79a7f65630b7 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: c5c8cd59-5d39-462c-b27d-79a7f65630b7 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2 - Parameters [Core]  <!-- UUID: 5218de11-dc55-4933-aea7-46916969a60d -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2 - Parameters [Core]  <!-- UUID: 5218de11-dc55-4933-aea7-46916969a60d -->
 
 The documents herein define the parameters of the Ethena USDe Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 62efc9a3-79e0-46dc-b67c-83add146ed55 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 62efc9a3-79e0-46dc-b67c-83add146ed55 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.1.1 - Network [Core]  <!-- UUID: 67144d2b-382d-4817-b9a8-5b3483da164d -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.1.1 - Network [Core]  <!-- UUID: 67144d2b-382d-4817-b9a8-5b3483da164d -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.1.2 - Target Protocol [Core]  <!-- UUID: acb1b896-a531-498d-9e77-057b0c30d15b -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.1.2 - Target Protocol [Core]  <!-- UUID: acb1b896-a531-498d-9e77-057b0c30d15b -->
 
 Ethena Protocol
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 355a1d6b-6138-4e23-84dc-244b8f1ba26c -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 355a1d6b-6138-4e23-84dc-244b8f1ba26c -->
 
 USDC
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.1.4 - Token [Core]  <!-- UUID: aa5fd0d5-4e71-46e1-95ee-609337769f10 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.1.4 - Token [Core]  <!-- UUID: aa5fd0d5-4e71-46e1-95ee-609337769f10 -->
 
 USDe
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.2 - Contract Addresses [Core]  <!-- UUID: ea69bedc-c388-4925-af83-9fa5496d0d36 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.2 - Contract Addresses [Core]  <!-- UUID: ea69bedc-c388-4925-af83-9fa5496d0d36 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.2.1 - Token Address [Core]  <!-- UUID: deb2d957-2230-48d8-befb-8a9f44454c14 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.2.1 - Token Address [Core]  <!-- UUID: deb2d957-2230-48d8-befb-8a9f44454c14 -->
 
 `0x4c9EDD5852cd905f086C759E8383e09bff1E68B3`
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: e72457e9-cfd1-4a67-a694-4b487d38d3c0 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: e72457e9-cfd1-4a67-a694-4b487d38d3c0 -->
 
 This parameter will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.2.3 - EthenaMinter [Core]  <!-- UUID: e9625e37-993c-4690-b3e3-cf6a29fb8c96 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.2.3 - EthenaMinter [Core]  <!-- UUID: e9625e37-993c-4690-b3e3-cf6a29fb8c96 -->
 
 `0xe3490297a08d6fC8Da46Edb7B6142E4F461b62D3`
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: cc7955d0-0214-48cf-bc2b-7fc0692ef755 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: cc7955d0-0214-48cf-bc2b-7fc0692ef755 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 46f354e9-d790-4993-a164-43fe4e53e985 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 46f354e9-d790-4993-a164-43fe4e53e985 -->
 
 The inflow RateLimitID is: `0x5def078412c37c191fd2d189c95907ded1a100c5252bc3d643bb619866954517`
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 178e3e63-e5d3-4fb2-987a-77b11c7ccf09 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 178e3e63-e5d3-4fb2-987a-77b11c7ccf09 -->
 
 The outflow RateLimitID is: `0x88fe4304240f9fdabd8d614954877c91faacf3746c24df5803bac9e49977b63b`
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.4 - Rate Limits [Core]  <!-- UUID: 54992e68-12d5-4036-9a7c-36403a2e17f8 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.4 - Rate Limits [Core]  <!-- UUID: 54992e68-12d5-4036-9a7c-36403a2e17f8 -->
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: c45e65d9-9577-4414-b163-5f55c4335d3c -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: c45e65d9-9577-4414-b163-5f55c4335d3c -->
 
 The inflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: fecaf504-50ea-4f75-bd4d-b5f26c724bc2 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: fecaf504-50ea-4f75-bd4d-b5f26c724bc2 -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: c4f10363-7872-4d71-a8c4-4d5314c78f33 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: c4f10363-7872-4d71-a8c4-4d5314c78f33 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 6a009815-fba1-452c-af33-7ac5454211f1 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 6a009815-fba1-452c-af33-7ac5454211f1 -->
 
 The documents herein defines the operations performed to manage the Ethena Instance, including rate limiting, role-based access control, and cooldown functionality.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.1 - Delegated Signers [Core]  <!-- UUID: e6722e78-c1f5-4704-8bf9-2b3ab7c1b811 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.1 - Delegated Signers [Core]  <!-- UUID: e6722e78-c1f5-4704-8bf9-2b3ab7c1b811 -->
 
 The documents herein contain the addresses authorized as `delegatedSigners` in the `ethenaMinter` contract. `delegatedSigners` are set up and removed in the `MainnetController` contract by the `Relayer` role.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.1.1 - Addresses Of Delegated Signers [Core]  <!-- UUID: 7fcbd408-2aef-427f-b88d-d301350bd41b -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.1.1 - Addresses Of Delegated Signers [Core]  <!-- UUID: 7fcbd408-2aef-427f-b88d-d301350bd41b -->
 
 `delegatedSigner` addresses
 
 - These addesses will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.2 - Set A Delegated Signer In The EthenaMinter Contract [Core]  <!-- UUID: 4413579c-6ca5-4ff5-9dd5-ff669606eeb7 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.2 - Set A Delegated Signer In The EthenaMinter Contract [Core]  <!-- UUID: 4413579c-6ca5-4ff5-9dd5-ff669606eeb7 -->
 
 The documents herein define the process for an operator to set a delegated signer to the EthenaMinter contract.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.2.1 - Relayer Role [Core]  <!-- UUID: bb5f7a55-8c79-4678-a281-8264eb5de225 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.2.1 - Relayer Role [Core]  <!-- UUID: bb5f7a55-8c79-4678-a281-8264eb5de225 -->
 
 The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `setDelegatedSigner`. Also, they must ensure the contract `isActive` i.e. can process the request.
 
@@ -8599,7 +8427,7 @@ The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` rol
         onlyRole(RELAYER)
         isActive`
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.2.2 - Encode Function [Core]  <!-- UUID: 77e7f0e6-016f-4d66-b7cf-39efa5b4f0b2 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.2.2 - Encode Function [Core]  <!-- UUID: 77e7f0e6-016f-4d66-b7cf-39efa5b4f0b2 -->
 
 The operator must use `proxy.doCall()` to forward the call to the `ethenaMinter` contract and call `setDelegatedSigner` function to set the address that will be authorized as a `delegatedSigner`. To call on `ethenaMinter` contract, the function must be encoded using `abi.encodeCall`.
 
@@ -8610,11 +8438,11 @@ The operator must use `proxy.doCall()` to forward the call to the `ethenaMinter`
     );
 }`
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.3 - Remove A Delegated Signer In The Ethena Minter Contract [Core]  <!-- UUID: 40d3f261-a7f3-4cd9-b92b-3a79872eb339 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.3 - Remove A Delegated Signer In The Ethena Minter Contract [Core]  <!-- UUID: 40d3f261-a7f3-4cd9-b92b-3a79872eb339 -->
 
 The documents herein define the process for an operator to remove a delegated signer from the Ethena Minter contract.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.3.1 - Relayer Role [Core]  <!-- UUID: 157361f8-7758-4e6b-a04d-a592d40b3b41 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.3.1 - Relayer Role [Core]  <!-- UUID: 157361f8-7758-4e6b-a04d-a592d40b3b41 -->
 
 The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `removeDelegatedSigner`. Also, they must ensure the contract `isActive` i.e. can process the request.
 
@@ -8623,7 +8451,7 @@ The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` rol
         onlyRole(RELAYER)
         isActive`
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.3.2 - Encode Function [Core]  <!-- UUID: 71d2f286-960f-4264-86db-b48154f38366 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.3.2 - Encode Function [Core]  <!-- UUID: 71d2f286-960f-4264-86db-b48154f38366 -->
 
 The operator must use `proxy.doCall()` to forward the call to the `ethenaMinter` contract and call `removeDelegatedSigner` function to remove the authorization for the `address` to act as a `delegatedSigner`. To call on `ethenaMinter` contract, the function must be encoded using `abi.encodeCall`.
 
@@ -8634,11 +8462,11 @@ The operator must use `proxy.doCall()` to forward the call to the `ethenaMinter`
     );
 }`
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.4 - Approve Minting of USDe By Ethena Minter Contract [Core]  <!-- UUID: 43775285-0a42-44d8-bc3f-acc80f97a8f3 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.4 - Approve Minting of USDe By Ethena Minter Contract [Core]  <!-- UUID: 43775285-0a42-44d8-bc3f-acc80f97a8f3 -->
 
 The documents herein define the process for an operator to approve the minting of USDe by the EthenaMinter contract.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.4.1 - Relayer Role [Core]  <!-- UUID: 41214aef-fb81-42d5-ade2-f7263b8fffb0 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.4.1 - Relayer Role [Core]  <!-- UUID: 41214aef-fb81-42d5-ade2-f7263b8fffb0 -->
 
 The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `prepareUSDeMint`. Also, they must ensure the contract `isActive` i.e. can process the request.
 
@@ -8647,13 +8475,13 @@ The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` rol
         onlyRole(RELAYER)
         isActive`
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.4.2 - Enforce Rate Limit [Core]  <!-- UUID: 62adede2-12c9-4388-b078-dbb3ef41e875 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.4.2 - Enforce Rate Limit [Core]  <!-- UUID: 62adede2-12c9-4388-b078-dbb3ef41e875 -->
 
 The operator must enforce a rate limit on how much USDC can be approved for minting USDe.
 
 `rateLimited(LIMIT_USDE_MINT, usdcAmount)`
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.4.3 - Encode Function [Core]  <!-- UUID: 097fc13f-6cdd-4cde-ac00-3db8aa94f3a5 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.4.3 - Encode Function [Core]  <!-- UUID: 097fc13f-6cdd-4cde-ac00-3db8aa94f3a5 -->
 
 The operator must use `proxy.doCall()` to send an approval call to the `usdc` contract, allowing the `ethenaMinter` contract to spend up to the specified `amount` of USDC. They must encode the function using `abi.encodeCall`.
 
@@ -8664,11 +8492,11 @@ The operator must use `proxy.doCall()` to send an approval call to the `usdc` co
     );
 }`
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.5 - Approve Burning of USDe By EthenaMinter Contract [Core]  <!-- UUID: 9df0fbc9-4d5f-4ddb-a184-d5a069cde43c -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.5 - Approve Burning of USDe By EthenaMinter Contract [Core]  <!-- UUID: 9df0fbc9-4d5f-4ddb-a184-d5a069cde43c -->
 
 The documents herein define the process for an operator to approve the burning of USDe by the EthenaMinter contract.
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.5.1 - Relayer Role [Core]  <!-- UUID: 083618d3-6102-4a1a-bc7a-dfa854d49197 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.5.1 - Relayer Role [Core]  <!-- UUID: 083618d3-6102-4a1a-bc7a-dfa854d49197 -->
 
 The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `prepareUSDeBurn`. Also, they must ensure the contract `isActive` i.e. can process the request.
 
@@ -8677,13 +8505,13 @@ The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` rol
         onlyRole(RELAYER)
         isActive`
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.5.2 - Enforce Rate Limit [Core]  <!-- UUID: b31a63bd-3163-4d8d-8fe1-c664a989a709 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.5.2 - Enforce Rate Limit [Core]  <!-- UUID: b31a63bd-3163-4d8d-8fe1-c664a989a709 -->
 
 The operator must enforce a rate limit on how much USDe can be approved for burning.
 
 `rateLimited(LIMIT_USDE_BURN, usdeAmount)`
 
-###### A.6.1.1.1.2.6.1.4.3.4.1.3.5.3 - Encode Function [Core]  <!-- UUID: 4f454648-637e-442a-9f0f-314958d15915 -->
+###### A.6.1.1.1.2.6.1.4.1.4.1.3.5.3 - Encode Function [Core]  <!-- UUID: 4f454648-637e-442a-9f0f-314958d15915 -->
 
 The operator must use `proxy.doCall()` to send an approval call to the `usde` contract, allowing the `ethenaMinter` contract to spend up to the specified `amount` of USDe. They must encode the function using `abi.encodeCall`.
 
@@ -8694,97 +8522,97 @@ The operator must use `proxy.doCall()` to send an approval call to the `usde` co
     );
 }`
 
-###### A.6.1.1.1.2.6.1.4.3.4.2 - Ethereum Mainnet - Ethena sUSDe Instance Configuration Document [Core]  <!-- UUID: 1903250a-4499-4ce4-bdcb-5835102a6553 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2 - Ethereum Mainnet - Ethena sUSDe Instance Configuration Document [Core]  <!-- UUID: 1903250a-4499-4ce4-bdcb-5835102a6553 -->
 
 The documents herein contain the Instance Configuration Document for the Ethena sUSDe Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: df6d3b8e-4ded-4918-b657-3f812783aad5 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: df6d3b8e-4ded-4918-b657-3f812783aad5 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2 - Parameters [Core]  <!-- UUID: 47518c8c-fe69-45cc-b268-858c39c4462a -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2 - Parameters [Core]  <!-- UUID: 47518c8c-fe69-45cc-b268-858c39c4462a -->
 
 The documents herein define the parameters of the Ethena sUSDe Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 3499d700-688c-4586-9ab1-7033b092b150 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 3499d700-688c-4586-9ab1-7033b092b150 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.1.1 - Network [Core]  <!-- UUID: 54017580-366b-4358-b9ff-b6a05fe1c51e -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.1.1 - Network [Core]  <!-- UUID: 54017580-366b-4358-b9ff-b6a05fe1c51e -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 1112e047-b8b6-4fe9-bf10-f90a6111b4ea -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 1112e047-b8b6-4fe9-bf10-f90a6111b4ea -->
 
 Ethena Protocol
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: a147254d-5aa8-4473-81be-778e3b8eb7c4 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: a147254d-5aa8-4473-81be-778e3b8eb7c4 -->
 
 USDe
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.1.4 - Token [Core]  <!-- UUID: 5642013a-bd4d-49f2-8b25-c70287159da5 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.1.4 - Token [Core]  <!-- UUID: 5642013a-bd4d-49f2-8b25-c70287159da5 -->
 
 sUSDe
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.2 - Contract Addresses [Core]  <!-- UUID: 3f06cfb3-327d-4578-8a5c-9f93817441c4 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.2 - Contract Addresses [Core]  <!-- UUID: 3f06cfb3-327d-4578-8a5c-9f93817441c4 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.2.1 - Token Address [Core]  <!-- UUID: da72f25e-649c-45b6-bac1-54e7c4f714a5 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.2.1 - Token Address [Core]  <!-- UUID: da72f25e-649c-45b6-bac1-54e7c4f714a5 -->
 
 `0x9D39A5DE30e57443BfF2A8307A4256c8797A3497`
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 36beeacb-b9c7-4dac-aa1a-db6a69f3af24 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 36beeacb-b9c7-4dac-aa1a-db6a69f3af24 -->
 
 `0x4c9EDD5852cd905f086C759E8383e09bff1E68B3`
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.2.3 - EthenaMinter [Core]  <!-- UUID: 534a5d66-47ec-4db3-b6d9-ffc21f22cc53 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.2.3 - EthenaMinter [Core]  <!-- UUID: 534a5d66-47ec-4db3-b6d9-ffc21f22cc53 -->
 
 `0xe3490297a08d6fC8Da46Edb7B6142E4F461b62D3`
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 6364f050-3634-4baa-8032-cd5d964f2c80 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 6364f050-3634-4baa-8032-cd5d964f2c80 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: ff3d3c58-0084-4c99-b5a5-73645f96237b -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: ff3d3c58-0084-4c99-b5a5-73645f96237b -->
 
 The inflow RateLimitID is: `0xb325c0ff75181212a5ebf6d4980bd585c5a6e4247f4045365525789fc34115a1`
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: bfa7db51-1f13-4f91-a1fb-d0144ed571f5 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: bfa7db51-1f13-4f91-a1fb-d0144ed571f5 -->
 
 The outflow RateLimitID is: `0xdbd6b16a066c313d3b984d4f2d682f97665d1912ea24d2b7e0f3ba43aa0493c5`
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.4 - Rate Limits [Core]  <!-- UUID: 3370ffb9-c14a-46ee-9b08-b54ce3296ae8 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.4 - Rate Limits [Core]  <!-- UUID: 3370ffb9-c14a-46ee-9b08-b54ce3296ae8 -->
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9acb1a46-3e4a-470f-b8b8-61edc40c3a04 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9acb1a46-3e4a-470f-b8b8-61edc40c3a04 -->
 
 The inflow rate limits are:
 
 - `maxAmount`: 250,000,000 USDe
 - `slope`: 100,000,000 USDe per day
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: a58592c6-f4f0-4874-bee1-ef11fb91c544 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: a58592c6-f4f0-4874-bee1-ef11fb91c544 -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 5be31657-391b-4385-9893-125157bd771f -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 5be31657-391b-4385-9893-125157bd771f -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 3c72575c-ce4e-4379-ba45-080f335851a1 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 3c72575c-ce4e-4379-ba45-080f335851a1 -->
 
-For operational processes defining the operations performed to manage the Ethena Instance, including rate limiting, role-based access control, and minting of USDe functionality see [A.6.1.1.1.2.6.1.4.3.4.1.3 - Instance-specific Operational Processes](6a009815-fba1-452c-af33-7ac5454211f1). For detailed logic specific for this instance see [A.6.1.1.1.2.6.1.4.3.4.2.3.1 - Initiate A sUSDe Cooldown Period](cf235e02-23fb-48e6-b39e-b4fd09dc7911), [A.6.1.1.1.2.6.1.4.3.4.2.3.2 - Cool Down sUSDe Shares](24171b90-4967-4c15-ac77-789d42b0fc80), [A.6.1.1.1.2.6.1.4.3.4.2.3.3 - Unstake sUSDe And Return It To ALM Proxy](57337963-ea1f-4d12-bea4-127896d35855) and [A.6.1.1.1.2.6.1.4.3.4.2.3.4 - Emergency Procedure To Withdraw Ethena Balances](037dc4f2-0b55-42a9-851c-8769b60b7122).
+For operational processes defining the operations performed to manage the Ethena Instance, including rate limiting, role-based access control, and minting of USDe functionality see [A.6.1.1.1.2.6.1.4.1.4.1.3 - Instance-specific Operational Processes](6a009815-fba1-452c-af33-7ac5454211f1). For detailed logic specific for this instance see [A.6.1.1.1.2.6.1.4.1.4.2.3.1 - Initiate A sUSDe Cooldown Period](cf235e02-23fb-48e6-b39e-b4fd09dc7911), [A.6.1.1.1.2.6.1.4.1.4.2.3.2 - Cool Down sUSDe Shares](24171b90-4967-4c15-ac77-789d42b0fc80), [A.6.1.1.1.2.6.1.4.1.4.2.3.3 - Unstake sUSDe And Return It To ALM Proxy](57337963-ea1f-4d12-bea4-127896d35855) and [A.6.1.1.1.2.6.1.4.1.4.2.3.4 - Emergency Procedure To Withdraw Ethena Balances](037dc4f2-0b55-42a9-851c-8769b60b7122).
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.1 - Initiate A sUSDe Cooldown Period [Core]  <!-- UUID: cf235e02-23fb-48e6-b39e-b4fd09dc7911 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.1 - Initiate A sUSDe Cooldown Period [Core]  <!-- UUID: cf235e02-23fb-48e6-b39e-b4fd09dc7911 -->
 
 The documents herein define the process for an operator to initiate a sUSDe Cooldown period.
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.1.1 - Relayer Role [Core]  <!-- UUID: 463dba18-1e74-49bd-b06f-7df0b0cedae7 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.1.1 - Relayer Role [Core]  <!-- UUID: 463dba18-1e74-49bd-b06f-7df0b0cedae7 -->
 
 The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `cooldownAssetsSUSDe`. Also, they must ensure the contract `isActive` i.e. can process the request.
 
@@ -8793,13 +8621,13 @@ The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` rol
         onlyRole(RELAYER)
         isActive`
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.1.2 - Enforce Rate Limit [Core]  <!-- UUID: 11d78bab-58b4-4ee0-8d73-124e1f9a8972 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.1.2 - Enforce Rate Limit [Core]  <!-- UUID: 11d78bab-58b4-4ee0-8d73-124e1f9a8972 -->
 
 The operator must enforce a rate limit on how much sUSDe can be cooled down.
 
 `rateLimited(LIMIT_SUSDE_COOLDOWN, usdeAmount)`
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.1.3 - Encode Function [Core]  <!-- UUID: 938f26c5-6028-420d-86bf-f41f5d7aeb7e -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.1.3 - Encode Function [Core]  <!-- UUID: 938f26c5-6028-420d-86bf-f41f5d7aeb7e -->
 
 The operator must use `proxy.doCall()` to make a call to the `susde` contract, invoking the `cooldownAssets` function with the specified amount of sUSDe. They must encode the function using `abi.encodeCall`.
 
@@ -8810,11 +8638,11 @@ The operator must use `proxy.doCall()` to make a call to the `susde` contract, i
     );
 }`
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.2 - Cool Down sUSDe Shares [Core]  <!-- UUID: 24171b90-4967-4c15-ac77-789d42b0fc80 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.2 - Cool Down sUSDe Shares [Core]  <!-- UUID: 24171b90-4967-4c15-ac77-789d42b0fc80 -->
 
 The documents herein define the process for an operator to cool down sUSDe shares.
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.2.1 - Relayer Role [Core]  <!-- UUID: eacdbe29-1c6b-43b4-93a6-5e4eb9aa0fa7 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.2.1 - Relayer Role [Core]  <!-- UUID: eacdbe29-1c6b-43b4-93a6-5e4eb9aa0fa7 -->
 
 The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `cooldownSharesSUSDe`. Also, they must ensure the contract `isActive` i.e. can process the request.
 
@@ -8823,11 +8651,11 @@ The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` rol
         onlyRole(RELAYER)
         isActive`
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.2.2 - Encode Function [Core]  <!-- UUID: 8ab94554-c56e-4c2c-aa04-7be2d887beb3 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.2.2 - Encode Function [Core]  <!-- UUID: 8ab94554-c56e-4c2c-aa04-7be2d887beb3 -->
 
 The operator must use `proxy.doCall()` to make a call to the `susde` contract, initiating the `cooldown` on the specified amount of sUSDe shares. They must encode the function using `abi.encodeCall`.
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.2.2.1 - Decode For Underlying Shares [Core]  <!-- UUID: e2e16365-4a11-4df4-ab33-332fd9a14fac -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.2.2.1 - Decode For Underlying Shares [Core]  <!-- UUID: e2e16365-4a11-4df4-ab33-332fd9a14fac -->
 
 The operator must decode the result returned by the `cooldownShares` function into a `uint256` value, representing the amount of shares that were actually cooled down (`cooldownAmount`).
 
@@ -8840,18 +8668,18 @@ The operator must decode the result returned by the `cooldownShares` function in
         (uint256)
     );`
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.2.3 - Decrease RateLimit [Core]  <!-- UUID: 386c0363-ce6c-49bd-a440-fc1ab4fb733d -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.2.3 - Decrease RateLimit [Core]  <!-- UUID: 386c0363-ce6c-49bd-a440-fc1ab4fb733d -->
 
 The operator must decrease the `RateLimit`, effectively reducing the available `cooldown` limit, based on the `cooldownAmount`.
 
 `rateLimits.triggerRateLimitDecrease(LIMIT_SUSDE_COOLDOWN, cooldownAmount);
 }`
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.3 - Unstake sUSDe And Return It To ALM Proxy [Core]  <!-- UUID: 57337963-ea1f-4d12-bea4-127896d35855 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.3 - Unstake sUSDe And Return It To ALM Proxy [Core]  <!-- UUID: 57337963-ea1f-4d12-bea4-127896d35855 -->
 
 The documents herein define the process for an operator to unstake sUSDe and return it to the ALM Proxy.
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.3.1 - Relayer Role [Core]  <!-- UUID: 9984b00e-ecc2-4328-9e86-c0c2e913f79a -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.3.1 - Relayer Role [Core]  <!-- UUID: 9984b00e-ecc2-4328-9e86-c0c2e913f79a -->
 
 The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` role is allowed to `unstakeSUSDe`. Also, they must ensure the contract `isActive` i.e. can process the request.
 
@@ -8860,7 +8688,7 @@ The operator must ensure they are working as a `RELAYER`. Only the `RELAYER` rol
         onlyRole(RELAYER)
         isActive`
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.3.2 - Encode Function [Core]  <!-- UUID: 24486f09-3df1-4620-bd0f-8368b1e3ed7c -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.3.2 - Encode Function [Core]  <!-- UUID: 24486f09-3df1-4620-bd0f-8368b1e3ed7c -->
 
 The operator must use `proxy.doCall()` to make a call to the `susde` contract to invoke the `unstake` function, which unstakes sUSDe and sends the resulting tokens back to the `proxy` address (i.e. ALM Proxy). They must encode the function using `abi.encodeCall`.
 
@@ -8871,185 +8699,185 @@ The operator must use `proxy.doCall()` to make a call to the `susde` contract to
     );
 }`
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.4 - Emergency Procedure To Withdraw Ethena Balances [Core]  <!-- UUID: 037dc4f2-0b55-42a9-851c-8769b60b7122 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.4 - Emergency Procedure To Withdraw Ethena Balances [Core]  <!-- UUID: 037dc4f2-0b55-42a9-851c-8769b60b7122 -->
 
 In order to withdraw all Ethena balances, the operator must execute the following actions:
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.4.1 - sUSDe Cooldown Action [Core]  <!-- UUID: 98ced6ee-3fa9-49b5-9212-6826a17adc27 -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.4.1 - sUSDe Cooldown Action [Core]  <!-- UUID: 98ced6ee-3fa9-49b5-9212-6826a17adc27 -->
 
 The operator must start the cooldown for sUSDe using the following action:
 
 `mainnetController.cooldownSharesSUSDe(susde.balanceOf(address(proxy))
 `
-For more detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.4.3.4.2.3.2 - Cool Down sUSDe Shares](24171b90-4967-4c15-ac77-789d42b0fc80).
+For more detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.4.1.4.2.3.2 - Cool Down sUSDe Shares](24171b90-4967-4c15-ac77-789d42b0fc80).
 
-###### A.6.1.1.1.2.6.1.4.3.4.2.3.4.2 - sUSDe Unstake Action [Core]  <!-- UUID: cef1fead-17d3-40ce-9d2f-ea592e51541d -->
+###### A.6.1.1.1.2.6.1.4.1.4.2.3.4.2 - sUSDe Unstake Action [Core]  <!-- UUID: cef1fead-17d3-40ce-9d2f-ea592e51541d -->
 
 The operator must unstake sUSDe using the following action:
 
 `mainnetController.unstakeSUSDe()
 `
-For more detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.4.3.4.2.3.3 - Unstake sUSDe And Return It To ALM Proxy](57337963-ea1f-4d12-bea4-127896d35855).
+For more detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.4.1.4.2.3.3 - Unstake sUSDe And Return It To ALM Proxy](57337963-ea1f-4d12-bea4-127896d35855).
 
-###### A.6.1.1.1.2.6.1.4.3.5 - Superstate [Core]  <!-- UUID: 79d6bfdf-c542-4a60-a5f0-a17042d98d35 -->
+###### A.6.1.1.1.2.6.1.4.1.5 - Superstate [Core]  <!-- UUID: 79d6bfdf-c542-4a60-a5f0-a17042d98d35 -->
 
 The Ethereum Mainnet Instances of the Superstate Protocol with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.4.3.5.1 - Ethereum Mainnet - Superstate USTB Instance Configuration Document [Core]  <!-- UUID: 4ad2419c-7966-42de-bc2a-d8ca8ce61b90 -->
+###### A.6.1.1.1.2.6.1.4.1.5.1 - Ethereum Mainnet - Superstate USTB Instance Configuration Document [Core]  <!-- UUID: 4ad2419c-7966-42de-bc2a-d8ca8ce61b90 -->
 
 The documents herein contain the Instance Configuration Document for the Superstate USTB Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 0ecae4db-37e8-4505-b8e1-4211816bf9ed -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 0ecae4db-37e8-4505-b8e1-4211816bf9ed -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2 - Parameters [Core]  <!-- UUID: a5f05d4d-431b-45cc-a474-6070dc65ca83 -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2 - Parameters [Core]  <!-- UUID: a5f05d4d-431b-45cc-a474-6070dc65ca83 -->
 
 The documents herein define the parameters of the Superstate USTB Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.1 - Instance Identifiers [Core]  <!-- UUID: cc925cb9-823f-426b-aaa2-0a82f646b03e -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.1 - Instance Identifiers [Core]  <!-- UUID: cc925cb9-823f-426b-aaa2-0a82f646b03e -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.1.1 - Network [Core]  <!-- UUID: 83773f20-1656-4a6c-ab60-a773e9f9e4c7 -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.1.1 - Network [Core]  <!-- UUID: 83773f20-1656-4a6c-ab60-a773e9f9e4c7 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.1.2 - Target Protocol [Core]  <!-- UUID: a46217e1-c887-444c-b04d-fa9b412476b9 -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.1.2 - Target Protocol [Core]  <!-- UUID: a46217e1-c887-444c-b04d-fa9b412476b9 -->
 
 Superstate
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 965e886d-7b27-41f3-ba61-d5e3f7f1b556 -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 965e886d-7b27-41f3-ba61-d5e3f7f1b556 -->
 
 USDC
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.1.4 - Token [Core]  <!-- UUID: e4b489eb-3c85-4585-8cd2-e6a7e9143a16 -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.1.4 - Token [Core]  <!-- UUID: e4b489eb-3c85-4585-8cd2-e6a7e9143a16 -->
 
 USTB
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.2 - Contract Addresses [Core]  <!-- UUID: 20f898ec-d6f0-4608-9590-754161548dcf -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.2 - Contract Addresses [Core]  <!-- UUID: 20f898ec-d6f0-4608-9590-754161548dcf -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.2.1 - Token Address [Core]  <!-- UUID: 818944d2-c16f-4bd8-af85-09c3a31eccd3 -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.2.1 - Token Address [Core]  <!-- UUID: 818944d2-c16f-4bd8-af85-09c3a31eccd3 -->
 
 `0x43415eB6ff9DB7E26A15b704e7A3eDCe97d31C4e`
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: b4e63a9d-65e7-4c61-826e-fe9733b3f00f -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: b4e63a9d-65e7-4c61-826e-fe9733b3f00f -->
 
 `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 8e52e9d6-6cb0-44e9-9068-21257c1cde34 -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 8e52e9d6-6cb0-44e9-9068-21257c1cde34 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 1862cc2f-aadf-476a-94d3-818c4deb4396 -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 1862cc2f-aadf-476a-94d3-818c4deb4396 -->
 
 The inflow RateLimitID is: `0x213c645fc0f2b08264743dd819fb1d54d9a3d9d1eab0fa654e1a7bf7b22ee796`
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 7580632c-c14d-4772-a811-8ff0f8988bd6 -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 7580632c-c14d-4772-a811-8ff0f8988bd6 -->
 
 The outflow RateLimitID is: `0x89aab56733486a7f379edcd0e7e2250cd27e0abde043ba3705731c95d6fc277e`
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.4 - Rate Limits [Core]  <!-- UUID: 69e164bc-ef0c-4d74-a17d-e56bf498b7e0 -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.4 - Rate Limits [Core]  <!-- UUID: 69e164bc-ef0c-4d74-a17d-e56bf498b7e0 -->
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 04975455-99e4-447b-8629-0a6088174e69 -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 04975455-99e4-447b-8629-0a6088174e69 -->
 
 The inflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 8639aa8f-3902-4f81-9c1e-a56b4c57f03d -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 8639aa8f-3902-4f81-9c1e-a56b4c57f03d -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: b2e85192-58da-4702-8a5f-f5d2011b008b -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: b2e85192-58da-4702-8a5f-f5d2011b008b -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.5.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 5cb29bf7-30f4-43ef-aca8-020d26f66fcb -->
+###### A.6.1.1.1.2.6.1.4.1.5.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 5cb29bf7-30f4-43ef-aca8-020d26f66fcb -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.4.3.6 - Curve [Core]  <!-- UUID: f2d399bb-58dc-4421-9253-49d9a815b305 -->
+###### A.6.1.1.1.2.6.1.4.1.6 - Curve [Core]  <!-- UUID: f2d399bb-58dc-4421-9253-49d9a815b305 -->
 
 The Ethereum Mainnet Instances of the Curve Protocol with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.1 - Ethereum Mainnet - Curve sUSDS/USDT Pool Instance Configuration Document [Core]  <!-- UUID: 4e840dad-944c-4c45-9c5e-277dcb1830a8 -->
+###### A.6.1.1.1.2.6.1.4.1.6.1 - Ethereum Mainnet - Curve sUSDS/USDT Pool Instance Configuration Document [Core]  <!-- UUID: 4e840dad-944c-4c45-9c5e-277dcb1830a8 -->
 
 The documents herein contain the Instance Configuration Document for the Curve sUSDS/USDT Pool Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: bcaaaa86-4799-44cc-ab84-0faf3610ae66 -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: bcaaaa86-4799-44cc-ab84-0faf3610ae66 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2 - Parameters [Core]  <!-- UUID: b26af91d-675e-4b3f-8f70-e8db5b93c5c0 -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2 - Parameters [Core]  <!-- UUID: b26af91d-675e-4b3f-8f70-e8db5b93c5c0 -->
 
 The documents herein define the parameters of the Curve sUSDS/USDT Pool Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 1e14eb69-7e41-4113-9ff6-41863539e16b -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 1e14eb69-7e41-4113-9ff6-41863539e16b -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.1.1 - Network [Core]  <!-- UUID: 2e3df36f-4370-4613-8ba5-4c25ad502553 -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.1.1 - Network [Core]  <!-- UUID: 2e3df36f-4370-4613-8ba5-4c25ad502553 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 470b6ae4-1392-4fff-8f31-2b9c306870d8 -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 470b6ae4-1392-4fff-8f31-2b9c306870d8 -->
 
 Curve
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 72b80d4d-ae2c-4980-87f4-79f734e0544f -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 72b80d4d-ae2c-4980-87f4-79f734e0544f -->
 
 USDT
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.1.4 - Token [Core]  <!-- UUID: 29723ddf-4114-493d-ad46-901725a1bc14 -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.1.4 - Token [Core]  <!-- UUID: 29723ddf-4114-493d-ad46-901725a1bc14 -->
 
 sUSDSUSDT
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.2 - Contract Addresses [Core]  <!-- UUID: 7acb9f43-9b9f-4cbd-909c-7e58f6357e5b -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.2 - Contract Addresses [Core]  <!-- UUID: 7acb9f43-9b9f-4cbd-909c-7e58f6357e5b -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.2.1 - Token Address [Core]  <!-- UUID: 8ce212dc-4f34-41a5-8621-01edd0ab2ea4 -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.2.1 - Token Address [Core]  <!-- UUID: 8ce212dc-4f34-41a5-8621-01edd0ab2ea4 -->
 
 `0x00836Fe54625BE242BcFA286207795405ca4fD10`
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 6a780894-8075-4bed-88a9-42b0c3086a37 -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 6a780894-8075-4bed-88a9-42b0c3086a37 -->
 
 `0xdAC17F958D2ee523a2206206994597C13D831ec7`
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.2.3 - Underlying Asset Address [Core]  <!-- UUID: 2957563b-3948-40b3-a247-15c6ddd41b03 -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.2.3 - Underlying Asset Address [Core]  <!-- UUID: 2957563b-3948-40b3-a247-15c6ddd41b03 -->
 
 `0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD`
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: e8833ae1-fdee-4e35-9e83-586c0289c6fd -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: e8833ae1-fdee-4e35-9e83-586c0289c6fd -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow, outflow, and swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 8934e466-332f-44c9-a878-2513675416fc -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 8934e466-332f-44c9-a878-2513675416fc -->
 
 The inflow RateLimitID is: `0xd7fba7fc1cf1f233065b9996a7bc0c56ff82f6f4f2ed2de83cfd883310ef49a4`
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 5005f2cd-fd2b-4564-867b-eae12367eddc -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 5005f2cd-fd2b-4564-867b-eae12367eddc -->
 
 The outflow RateLimitID is: `0xe07b0ea520dc5ee2934a0abfb8c3f740f174f63d43d3818098cf63a7fb7b5e1d`
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.3.3 - Swap Rate Limit ID [Core]  <!-- UUID: f93415c5-7ed5-41a6-8d21-a9fd8c51059c -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.3.3 - Swap Rate Limit ID [Core]  <!-- UUID: f93415c5-7ed5-41a6-8d21-a9fd8c51059c -->
 
 The swap RateLimitID is: `0x6ecd34793e8e86d04ca0ce85ba5fae8ea60ef377a66ef899971a12cd7e4465b9`
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.4 - Rate Limits [Core]  <!-- UUID: 408f0d03-44cb-4e6f-b330-5782be816567 -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.4 - Rate Limits [Core]  <!-- UUID: 408f0d03-44cb-4e6f-b330-5782be816567 -->
 
 The current `maxAmount,` `slope` and slippage for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 186761a1-5152-40f5-85f3-1e8868d8c6df -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 186761a1-5152-40f5-85f3-1e8868d8c6df -->
 
 The inflow rate limits are:
 
@@ -9057,7 +8885,7 @@ The inflow rate limits are:
 - `slope`: 0
 - Max slippage: 0.15%
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: f3f5e19c-f85b-484f-b0fb-4ee96e54a616 -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: f3f5e19c-f85b-484f-b0fb-4ee96e54a616 -->
 
 The outflow rate limits are:
 
@@ -9065,7 +8893,7 @@ The outflow rate limits are:
 - `slope`: 0
 - Max slippage: 0.15%
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 6f9628a6-7574-4f63-a28f-797bd581e907 -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 6f9628a6-7574-4f63-a28f-797bd581e907 -->
 
 The swap rate limits are:
 
@@ -9073,89 +8901,89 @@ The swap rate limits are:
 - `slope`: 0
 - Max slippage: 0.25%
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 8d74f809-b54e-490f-aa7b-c1cb0aea5b7f -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 8d74f809-b54e-490f-aa7b-c1cb0aea5b7f -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.6.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 60c4efad-67aa-411e-90d1-d5d0a427814a -->
+###### A.6.1.1.1.2.6.1.4.1.6.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 60c4efad-67aa-411e-90d1-d5d0a427814a -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.4.3.6.2 - Ethereum Mainnet - Curve USDC/USDT Pool Instance Configuration Document [Core]  <!-- UUID: 30d359a0-287b-4b3b-93fd-4e70bf0b19a7 -->
+###### A.6.1.1.1.2.6.1.4.1.6.2 - Ethereum Mainnet - Curve USDC/USDT Pool Instance Configuration Document [Core]  <!-- UUID: 30d359a0-287b-4b3b-93fd-4e70bf0b19a7 -->
 
 The documents herein contain the Instance Configuration Document for the Curve USDC/USDT Pool Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: db6624bf-b38d-4516-96d3-04302bdc1dd3 -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: db6624bf-b38d-4516-96d3-04302bdc1dd3 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2 - Parameters [Core]  <!-- UUID: e011af54-a277-4ecd-bd73-680ae96a7a51 -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2 - Parameters [Core]  <!-- UUID: e011af54-a277-4ecd-bd73-680ae96a7a51 -->
 
 The documents herein define the parameters of the Curve USDC/USDT Pool Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 83513371-150d-46c3-82ae-671cc965d39e -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 83513371-150d-46c3-82ae-671cc965d39e -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.1.1 - Network [Core]  <!-- UUID: 54e1de2e-1301-4763-98d0-ef2aee8d3221 -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.1.1 - Network [Core]  <!-- UUID: 54e1de2e-1301-4763-98d0-ef2aee8d3221 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.1.2 - Target Protocol [Core]  <!-- UUID: cc6acf48-9b55-4edf-a115-c463c0a78a9d -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.1.2 - Target Protocol [Core]  <!-- UUID: cc6acf48-9b55-4edf-a115-c463c0a78a9d -->
 
 Curve
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: b2bf10d6-adcc-4df4-99cc-9e3abeaeca1c -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: b2bf10d6-adcc-4df4-99cc-9e3abeaeca1c -->
 
 N/A - swap only
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.1.4 - Token [Core]  <!-- UUID: 0dc97998-edff-4d53-8251-18301991dd56 -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.1.4 - Token [Core]  <!-- UUID: 0dc97998-edff-4d53-8251-18301991dd56 -->
 
 crv2pool
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.2 - Contract Addresses [Core]  <!-- UUID: 5b8c7810-5e84-44ba-b245-f3fa8f683b84 -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.2 - Contract Addresses [Core]  <!-- UUID: 5b8c7810-5e84-44ba-b245-f3fa8f683b84 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.2.1 - Token Address [Core]  <!-- UUID: a6a50db9-901d-44c4-84d9-cbd581637394 -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.2.1 - Token Address [Core]  <!-- UUID: a6a50db9-901d-44c4-84d9-cbd581637394 -->
 
 `0x4f493B7dE8aAC7d55F71853688b1F7C8F0243C85`
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 43f3e5cd-12de-4bae-bcf0-ec4348a7e7e5 -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 43f3e5cd-12de-4bae-bcf0-ec4348a7e7e5 -->
 
 `0xdAC17F958D2ee523a2206206994597C13D831ec7`
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.2.3 - Underlying Asset Address [Core]  <!-- UUID: 5e58a4bf-c0a0-4351-a069-b39b420edb5f -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.2.3 - Underlying Asset Address [Core]  <!-- UUID: 5e58a4bf-c0a0-4351-a069-b39b420edb5f -->
 
 `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 25c72eb6-9a21-4592-b6f1-cede0644b607 -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 25c72eb6-9a21-4592-b6f1-cede0644b607 -->
 
 The specific `RateLimitID` for this conduit’s swap operation is defined in the subdocument herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.3.1 - Swap Rate Limit ID [Core]  <!-- UUID: 614ea385-84c3-4980-b77f-35bf29a2727d -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.3.1 - Swap Rate Limit ID [Core]  <!-- UUID: 614ea385-84c3-4980-b77f-35bf29a2727d -->
 
 The swap RateLimitID is: `0xf7b25c9c2271b2ca2eeb360bd75f3f8061873ecdaf5b09b2c265698a1f284df6`
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.4 - Rate Limits [Core]  <!-- UUID: f2389063-4d57-4f28-844c-d63c991c5568 -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.4 - Rate Limits [Core]  <!-- UUID: f2389063-4d57-4f28-844c-d63c991c5568 -->
 
 The current `maxAmount,` `slope` and slippage for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 10ce5b4c-068d-44a8-bd34-a4afdb52ac9e -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 10ce5b4c-068d-44a8-bd34-a4afdb52ac9e -->
 
 The inflow rate limits are:
 
 - `maxAmount`: N/A - swap only
 - `slope`: N/A - swap only
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 997cbc11-99ee-4d26-87a8-a8a01e0a0537 -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 997cbc11-99ee-4d26-87a8-a8a01e0a0537 -->
 
 The outflow rate limits are:
 
 - `maxAmount`: N/A - swap only
 - `slope`: N/A - swap only
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 8b143018-298a-4878-9516-9b71049f1d0b -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 8b143018-298a-4878-9516-9b71049f1d0b -->
 
 The swap rate limits are:
 
@@ -9163,81 +8991,81 @@ The swap rate limits are:
 - `slope`: 0
 - Max slippage: 0.05%
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 6a51a0d9-5b6d-4f68-8740-57033b74d1bc -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 6a51a0d9-5b6d-4f68-8740-57033b74d1bc -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.6.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d6bc0a40-0ed7-4366-902d-22eea7538c02 -->
+###### A.6.1.1.1.2.6.1.4.1.6.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d6bc0a40-0ed7-4366-902d-22eea7538c02 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.4.3.6.3 - Ethereum Mainnet - Curve pyUSD/USDC Pool Instance Configuration Document [Core]  <!-- UUID: e1fdaf49-0b32-4644-b021-9cae6e270c7a -->
+###### A.6.1.1.1.2.6.1.4.1.6.3 - Ethereum Mainnet - Curve pyUSD/USDC Pool Instance Configuration Document [Core]  <!-- UUID: e1fdaf49-0b32-4644-b021-9cae6e270c7a -->
 
 The documents herein contain the Instance Configuration Document for the Curve pyUSD/USDC Pool Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 8f864934-c750-443f-b7f5-780d1e5cb47f -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 8f864934-c750-443f-b7f5-780d1e5cb47f -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2 - Parameters [Core]  <!-- UUID: 2d44ce84-fb22-4435-93f2-ea5a62ccc130 -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2 - Parameters [Core]  <!-- UUID: 2d44ce84-fb22-4435-93f2-ea5a62ccc130 -->
 
 The documents herein define the parameters of the Curve pyUSD/USDC Pool Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.1 - Instance Identifiers [Core]  <!-- UUID: b7328b28-d8cb-4a5d-9ef9-e9fe0d633d9d -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2.1 - Instance Identifiers [Core]  <!-- UUID: b7328b28-d8cb-4a5d-9ef9-e9fe0d633d9d -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.1.1 - Network [Core]  <!-- UUID: aba55fe1-bd3e-499c-a480-3ea7b860f4d5 -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2.1.1 - Network [Core]  <!-- UUID: aba55fe1-bd3e-499c-a480-3ea7b860f4d5 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.1.2 - Target Protocol [Core]  <!-- UUID: a0794c17-0668-4bae-a5b1-141c61db12ef -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2.1.2 - Target Protocol [Core]  <!-- UUID: a0794c17-0668-4bae-a5b1-141c61db12ef -->
 
 Curve
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: af3418ca-ed5f-4bee-b4ef-9cdd187cc4a1 -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: af3418ca-ed5f-4bee-b4ef-9cdd187cc4a1 -->
 
 N/A - swap only
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.1.4 - Token [Core]  <!-- UUID: dd247f16-4d46-4780-9c19-2b1dec0e547b -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2.1.4 - Token [Core]  <!-- UUID: dd247f16-4d46-4780-9c19-2b1dec0e547b -->
 
 PYUSDUSDC
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.2 - Contract Addresses [Core]  <!-- UUID: 2b15153d-8cd1-4096-b764-e56a1f38d9b7 -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2.2 - Contract Addresses [Core]  <!-- UUID: 2b15153d-8cd1-4096-b764-e56a1f38d9b7 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.2.1 - Token Address [Core]  <!-- UUID: 51de16a9-1184-45e9-a21f-1329d57ef3d7 -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2.2.1 - Token Address [Core]  <!-- UUID: 51de16a9-1184-45e9-a21f-1329d57ef3d7 -->
 
 `0x383E6b4437b59fff47B619CBA855CA29342A8559`
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: c3d92c36-70ae-46f3-b887-64bb8419072c -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: c3d92c36-70ae-46f3-b887-64bb8419072c -->
 
 The specific `RateLimitID` for this conduit’s swap operation is defined in the subdocument herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.3.1 - Swap Rate Limit ID [Core]  <!-- UUID: 204f7c26-7185-4589-af0b-3e1d32b8076c -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2.3.1 - Swap Rate Limit ID [Core]  <!-- UUID: 204f7c26-7185-4589-af0b-3e1d32b8076c -->
 
 The swap RateLimitID is: `0x1b5b6f5ec735936a8e2c00cf79b4b3792cdcafa0def485915bf9043acbcce95f`
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.4 - Rate Limits [Core]  <!-- UUID: 18e7ddf1-71e2-40fd-b74d-8ad6312b9a38 -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2.4 - Rate Limits [Core]  <!-- UUID: 18e7ddf1-71e2-40fd-b74d-8ad6312b9a38 -->
 
 The current `maxAmount`, `slope` and slippage for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 893256f7-00f6-42e7-92cd-218af9beac76 -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 893256f7-00f6-42e7-92cd-218af9beac76 -->
 
 The inflow rate limits are:
 
 - `maxAmount`: N/A - swap only
 - `slope`: N/A - swap only
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: dfcceae6-65f0-44e2-9d47-9ad2324d983d -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: dfcceae6-65f0-44e2-9d47-9ad2324d983d -->
 
 The outflow rate limits are:
 
 - `maxAmount`: N/A - swap only
 - `slope`: N/A - swap only
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 2b4a19db-137d-404d-b475-3008eda3c82d -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 2b4a19db-137d-404d-b475-3008eda3c82d -->
 
 The swap rate limits are:
 
@@ -9245,89 +9073,89 @@ The swap rate limits are:
 - `slope`: 0
 - Max slippage: 0.1%
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 215cc709-a3e0-4cd5-98e1-ccb4430fc85d -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 215cc709-a3e0-4cd5-98e1-ccb4430fc85d -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.6.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: cd57ed73-dc55-4543-a910-81a9ee4bc1e3 -->
+###### A.6.1.1.1.2.6.1.4.1.6.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: cd57ed73-dc55-4543-a910-81a9ee4bc1e3 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.4.3.6.4 - Ethereum Mainnet - Curve pyUSD/USDS Pool Instance Configuration Document [Core]  <!-- UUID: 7635eff1-1fa0-4356-8953-2564a7f0693c -->
+###### A.6.1.1.1.2.6.1.4.1.6.4 - Ethereum Mainnet - Curve pyUSD/USDS Pool Instance Configuration Document [Core]  <!-- UUID: 7635eff1-1fa0-4356-8953-2564a7f0693c -->
 
 The documents herein contain the Instance Configuration Document for the Curve pyUSD/USDS Pool Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 464835ae-a3ce-44a7-84c8-11ab2d5138d8 -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 464835ae-a3ce-44a7-84c8-11ab2d5138d8 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2 - Parameters [Core]  <!-- UUID: fdb613e0-4d7f-46a7-95c3-b84ea9dafa6a -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2 - Parameters [Core]  <!-- UUID: fdb613e0-4d7f-46a7-95c3-b84ea9dafa6a -->
 
 The documents herein define the parameters of the Curve pyUSD/USDS Pool Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.1 - Instance Identifiers [Core]  <!-- UUID: d3aa95cf-88e9-432b-90cf-0b4d1da094b5 -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.1 - Instance Identifiers [Core]  <!-- UUID: d3aa95cf-88e9-432b-90cf-0b4d1da094b5 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.1.1 - Network [Core]  <!-- UUID: 4f3d5b84-1235-4932-8295-8df0e122e4c0 -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.1.1 - Network [Core]  <!-- UUID: 4f3d5b84-1235-4932-8295-8df0e122e4c0 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.1.2 - Target Protocol [Core]  <!-- UUID: 953adabd-347a-4d0c-aaa2-da618ee04151 -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.1.2 - Target Protocol [Core]  <!-- UUID: 953adabd-347a-4d0c-aaa2-da618ee04151 -->
 
 Curve
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: c76d3c17-0be6-4d59-a73f-2952385164f1 -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: c76d3c17-0be6-4d59-a73f-2952385164f1 -->
 
 USDS and PYUSD
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.1.4 - Token [Core]  <!-- UUID: 2b34a305-2239-4b83-b829-dd1e7e8554ad -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.1.4 - Token [Core]  <!-- UUID: 2b34a305-2239-4b83-b829-dd1e7e8554ad -->
 
 PYUSDUSDS
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.2 - Contract Addresses [Core]  <!-- UUID: d386076c-607f-49fd-bd9c-07f4583cc1c9 -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.2 - Contract Addresses [Core]  <!-- UUID: d386076c-607f-49fd-bd9c-07f4583cc1c9 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.2.1 - Token Address [Core]  <!-- UUID: aee3fc62-2c9a-4283-b447-149dc5f4a741 -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.2.1 - Token Address [Core]  <!-- UUID: aee3fc62-2c9a-4283-b447-149dc5f4a741 -->
 
 `0xA632D59b9B804a956BfaA9b48Af3A1b74808FC1f`
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: b86c4730-0a55-4a86-8c08-b01619e55e28 -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: b86c4730-0a55-4a86-8c08-b01619e55e28 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow, outflow, and swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 72b0a1d5-1a47-4c16-9051-ca6530ed0a5e -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 72b0a1d5-1a47-4c16-9051-ca6530ed0a5e -->
 
 The inflow RateLimitID is: `0x23f0b7e90ae68401f3f750f7f68d8fd7672df7be6c96e52b546ee95c757e8c56`
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: bae2e130-948e-4fed-b223-b95786a442a7 -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: bae2e130-948e-4fed-b223-b95786a442a7 -->
 
 The outflow RateLimitID is: `0x35c08f6f007bfb643d7ff698f19c21267c6163f34d703b2dbd32da948f39737a`
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.3.3 - Swap Rate Limit ID [Core]  <!-- UUID: 02766706-c45d-4db7-bafc-78d7dd317d59 -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.3.3 - Swap Rate Limit ID [Core]  <!-- UUID: 02766706-c45d-4db7-bafc-78d7dd317d59 -->
 
 The swap RateLimitID is: `0x495d2d5778d2cbf1ff13da2634eb38b1c7cfc08d120249eb740c796e40d80fb1`
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.4 - Rate Limits [Core]  <!-- UUID: 82a8a51a-1650-438b-bdf4-3dc1b41132f3 -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.4 - Rate Limits [Core]  <!-- UUID: 82a8a51a-1650-438b-bdf4-3dc1b41132f3 -->
 
 The current `maxAmount`, `slope` and slippage for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 00d72073-ebb7-49d6-8ece-e5c506c7cf0c -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 00d72073-ebb7-49d6-8ece-e5c506c7cf0c -->
 
 The inflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 5547c29e-0dcd-40c0-9811-f88f4a906825 -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 5547c29e-0dcd-40c0-9811-f88f4a906825 -->
 
 The outflow rate limits are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 664c8068-a848-42aa-b50a-3000f3081507 -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 664c8068-a848-42aa-b50a-3000f3081507 -->
 
 The swap rate limits are:
 
@@ -9335,93 +9163,93 @@ The swap rate limits are:
 - `slope`: 0
 - Max slippage: 0.2%
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 4999136f-41f3-49a1-93db-2d72b14c2f17 -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 4999136f-41f3-49a1-93db-2d72b14c2f17 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.6.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 99474f36-6c37-4627-acdb-0372fdf216ef -->
+###### A.6.1.1.1.2.6.1.4.1.6.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 99474f36-6c37-4627-acdb-0372fdf216ef -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.4.3.6.5 - Ethereum Mainnet - Curve weETH/WETH-ng for Swaps Instance Configuration Document [Core]  <!-- UUID: cfc335a4-efcf-4f53-9609-1c9784cbb784 -->
+###### A.6.1.1.1.2.6.1.4.1.6.5 - Ethereum Mainnet - Curve weETH/WETH-ng for Swaps Instance Configuration Document [Core]  <!-- UUID: cfc335a4-efcf-4f53-9609-1c9784cbb784 -->
 
 The documents herein contain the Instance Configuration Document for the Curve weETH/WETH-ng for Swaps Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 1020417c-dc56-4808-b867-178ca4ca8681 -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 1020417c-dc56-4808-b867-178ca4ca8681 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2 - Parameters [Core]  <!-- UUID: a1dc6fa3-bec8-41ca-bb5a-e60275c03dcf -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2 - Parameters [Core]  <!-- UUID: a1dc6fa3-bec8-41ca-bb5a-e60275c03dcf -->
 
 The documents herein define the parameters of the Curve weETH/WETH-ng for Swaps Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.1 - Instance Identifiers [Core]  <!-- UUID: b7f9fa20-dddb-4733-b0e1-9029e79a8aba -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.1 - Instance Identifiers [Core]  <!-- UUID: b7f9fa20-dddb-4733-b0e1-9029e79a8aba -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.1.1 - Network [Core]  <!-- UUID: 853b65c3-4b43-436d-9350-cf7ffbed559e -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.1.1 - Network [Core]  <!-- UUID: 853b65c3-4b43-436d-9350-cf7ffbed559e -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.1.2 - Target Protocol [Core]  <!-- UUID: 2b599f55-2177-4aad-b9be-a2cda8608900 -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.1.2 - Target Protocol [Core]  <!-- UUID: 2b599f55-2177-4aad-b9be-a2cda8608900 -->
 
 Curve
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: c7a2911c-faf7-40f4-9a90-c43e75bc2396 -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: c7a2911c-faf7-40f4-9a90-c43e75bc2396 -->
 
 N/A - swap only
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.1.4 - Token [Core]  <!-- UUID: 25de66b2-d391-44ab-b88c-9e558679640c -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.1.4 - Token [Core]  <!-- UUID: 25de66b2-d391-44ab-b88c-9e558679640c -->
 
 crv2pool
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.2 - Contract Addresses [Core]  <!-- UUID: dfbfa2ba-6fd5-4e56-9366-992e64d86ac1 -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.2 - Contract Addresses [Core]  <!-- UUID: dfbfa2ba-6fd5-4e56-9366-992e64d86ac1 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.2.1 - Token Address [Core]  <!-- UUID: 92a9fec3-7b4d-4388-bd05-7d18790bc584 -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.2.1 - Token Address [Core]  <!-- UUID: 92a9fec3-7b4d-4388-bd05-7d18790bc584 -->
 
 `0xDB74dfDD3BB46bE8Ce6C33dC9D82777BCFc3dEd5`
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: c740d6f1-cda5-46d5-b7a7-6d2358c3770f -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: c740d6f1-cda5-46d5-b7a7-6d2358c3770f -->
 
 `0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee`
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.2.3 - Underlying Asset Address [Core]  <!-- UUID: ad094f82-5619-4558-abd1-e793131e9ec0 -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.2.3 - Underlying Asset Address [Core]  <!-- UUID: ad094f82-5619-4558-abd1-e793131e9ec0 -->
 
 `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2`
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.2.4 - Pool Address [Core]  <!-- UUID: 96a50ef4-938b-475e-8244-40d376e95e6e -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.2.4 - Pool Address [Core]  <!-- UUID: 96a50ef4-938b-475e-8244-40d376e95e6e -->
 
 `0xDB74dfDD3BB46bE8Ce6C33dC9D82777BCFc3dEd5`
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7fabde01-b8a5-4226-85d4-b25f55d93b12 -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7fabde01-b8a5-4226-85d4-b25f55d93b12 -->
 
 The specific `RateLimitID` for this conduit’s swap operation is defined in the subdocument herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.3.1 - Swap Rate Limit ID [Core]  <!-- UUID: 19feabe3-3c62-418d-b9ce-748f5bb815b6 -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.3.1 - Swap Rate Limit ID [Core]  <!-- UUID: 19feabe3-3c62-418d-b9ce-748f5bb815b6 -->
 
 The swap RateLimitID is: `0x6ccaf14bc4a89b4c988ffb6fb6adef1e48cebabcf13b8c15059e8167e12622d7`
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.4 - Rate Limits [Core]  <!-- UUID: dac0cadf-a966-40d3-b739-09a0baceea30 -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.4 - Rate Limits [Core]  <!-- UUID: dac0cadf-a966-40d3-b739-09a0baceea30 -->
 
 The current `maxAmount`, `slope` and slippage for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 8734b53f-0220-43df-acdc-3c8cb25f323a -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 8734b53f-0220-43df-acdc-3c8cb25f323a -->
 
 The inflow rate limits are:
 
 - maxAmount: N/A - swap only
 - slope: N/A - swap only
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 8280f97f-d69c-4fc3-a9d4-42407159a5ea -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 8280f97f-d69c-4fc3-a9d4-42407159a5ea -->
 
 The outflow rate limits are:
 
 - maxAmount: N/A - swap only
 - slope: N/A - swap only
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: b24f80d1-80cc-46c0-895c-d9bdc49e2e8b -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: b24f80d1-80cc-46c0-895c-d9bdc49e2e8b -->
 
 The swap rate limits are:
 
@@ -9429,153 +9257,325 @@ The swap rate limits are:
 - `slope`: 0
 - `Max slippage`: 0.25%
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: a8106b30-ef8c-4ce5-a25a-80755ab624d0 -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: a8106b30-ef8c-4ce5-a25a-80755ab624d0 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.6.5.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 28a4bce9-e6d9-4840-8b0b-ed7d9f454dd1 -->
+###### A.6.1.1.1.2.6.1.4.1.6.5.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 28a4bce9-e6d9-4840-8b0b-ed7d9f454dd1 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.4.3.7 - Anchorage [Core]  <!-- UUID: 001941bc-e03a-4a5d-83a3-51e6b72b99dd -->
+###### A.6.1.1.1.2.6.1.4.1.7 - Anchorage [Core]  <!-- UUID: 001941bc-e03a-4a5d-83a3-51e6b72b99dd -->
 
 The Ethereum Mainnet Instances of the Anchorage Protocol with `Completed` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.4.3.7.1 - Ethereum Mainnet - Anchorage USAT Instance Configuration Document [Core]  <!-- UUID: 8048e396-7bb4-4541-a68f-6dd7ec0a6015 -->
+###### A.6.1.1.1.2.6.1.4.1.7.1 - Ethereum Mainnet - Anchorage USAT Instance Configuration Document [Core]  <!-- UUID: 8048e396-7bb4-4541-a68f-6dd7ec0a6015 -->
 
 The documents herein contain the Instance Configuration Document for the Anchorage USAT Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: eff5d00f-b831-417f-8cb9-a9edfaccbbcd -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: eff5d00f-b831-417f-8cb9-a9edfaccbbcd -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2 - Parameters [Core]  <!-- UUID: 78067cd5-bd11-47eb-bdf7-947038912cfa -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2 - Parameters [Core]  <!-- UUID: 78067cd5-bd11-47eb-bdf7-947038912cfa -->
 
 The documents herein define the parameters of the Anchorage USAT Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 65214651-962d-442b-99f1-dd1157a77c86 -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 65214651-962d-442b-99f1-dd1157a77c86 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2.1.1 - Network [Core]  <!-- UUID: 83f14764-63d8-4908-ac4e-ac7a46f37cac -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2.1.1 - Network [Core]  <!-- UUID: 83f14764-63d8-4908-ac4e-ac7a46f37cac -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 882a4a15-b9e8-4ebe-b800-410cddc87ab1 -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 882a4a15-b9e8-4ebe-b800-410cddc87ab1 -->
 
 Anchorage
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: db820c09-0b14-45ea-8367-d7a301718fb9 -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: db820c09-0b14-45ea-8367-d7a301718fb9 -->
 
 USAT
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2.1.4 - Token [Core]  <!-- UUID: ac45e6ad-5076-4fed-8805-d48593e41778 -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2.1.4 - Token [Core]  <!-- UUID: ac45e6ad-5076-4fed-8805-d48593e41778 -->
 
 USAT
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2.2 - Contract Addresses [Core]  <!-- UUID: b9b80a90-766b-424b-b56d-334cacee4dd2 -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2.2 - Contract Addresses [Core]  <!-- UUID: b9b80a90-766b-424b-b56d-334cacee4dd2 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2.2.1 - Token Address [Core]  <!-- UUID: cca5bcb2-eb4a-429a-b10c-a55c7c6bb683 -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2.2.1 - Token Address [Core]  <!-- UUID: cca5bcb2-eb4a-429a-b10c-a55c7c6bb683 -->
 
 `0x07041776f5007aca2a54844f50503a18a72a8b68`
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2.2.2 - Destination Address [Core]  <!-- UUID: 5396d5c2-6f79-4ab2-8978-61dc6209a00c -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2.2.2 - Destination Address [Core]  <!-- UUID: 5396d5c2-6f79-4ab2-8978-61dc6209a00c -->
 
 `0x49506C3Aa028693458d6eE816b2EC28522946872`
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: a7508ca1-0132-4a94-9efd-2288a30c3220 -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: a7508ca1-0132-4a94-9efd-2288a30c3220 -->
 
 The specific `RateLimitID` for this conduit’s transfer operation is defined in the subdocument herein.
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: b41e7469-5ae1-45c0-8be5-f9168a700839 -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: b41e7469-5ae1-45c0-8be5-f9168a700839 -->
 
 The transfer RateLimitID is: `0x3c330feaef1a941a409c78d7ac0a1c45e22b83aab4bb2c0e89ecf0251db6631e`
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2.4 - Rate Limits [Core]  <!-- UUID: 132f9c53-0f2d-4e0a-9adb-649eadf9d95f -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2.4 - Rate Limits [Core]  <!-- UUID: 132f9c53-0f2d-4e0a-9adb-649eadf9d95f -->
 
 The current `maxAmount` and `slope` for this conduit’s transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 4093b98b-2421-4642-982b-8c08b2f5ef20 -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 4093b98b-2421-4642-982b-8c08b2f5ef20 -->
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 069aa415-4d37-4567-b7da-bda62e4d0423 -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 069aa415-4d37-4567-b7da-bda62e4d0423 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.7.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 98759dcc-8bb4-459a-b020-d46a02b038ec -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 98759dcc-8bb4-459a-b020-d46a02b038ec -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.4.3.7.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document [Core]  <!-- UUID: 4eee15e5-46e2-4438-8299-6c85c46bb85b -->
+###### A.6.1.1.1.2.6.1.4.1.7.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document [Core]  <!-- UUID: 4eee15e5-46e2-4438-8299-6c85c46bb85b -->
 
 The documents herein contain the Instance Configuration Document for the Anchorage USDT Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 54ce1edc-9556-4103-bb4d-0b45efcdbb43 -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 54ce1edc-9556-4103-bb4d-0b45efcdbb43 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2 - Parameters [Core]  <!-- UUID: 7b07774c-4cda-4866-bc4e-7e469a685f5e -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2 - Parameters [Core]  <!-- UUID: 7b07774c-4cda-4866-bc4e-7e469a685f5e -->
 
 The documents herein define the parameters of the Anchorage USDT Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2.1 - Instance Identifiers [Core]  <!-- UUID: afa6a7e4-fbeb-4138-9220-91c023203ce5 -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2.1 - Instance Identifiers [Core]  <!-- UUID: afa6a7e4-fbeb-4138-9220-91c023203ce5 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2.1.1 - Network [Core]  <!-- UUID: e0febf90-ab83-4b7f-9bea-dc037c1b96c0 -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2.1.1 - Network [Core]  <!-- UUID: e0febf90-ab83-4b7f-9bea-dc037c1b96c0 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2.1.2 - Target Protocol [Core]  <!-- UUID: b8aed139-8a1a-467f-acf4-877d42516e87 -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2.1.2 - Target Protocol [Core]  <!-- UUID: b8aed139-8a1a-467f-acf4-877d42516e87 -->
 
 Anchorage
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: f993b46b-291c-45a1-a369-27c37e7bfddd -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: f993b46b-291c-45a1-a369-27c37e7bfddd -->
 
 USDT
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2.1.4 - Token [Core]  <!-- UUID: 00f2dded-9e35-4af8-9ac4-c706737540ac -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2.1.4 - Token [Core]  <!-- UUID: 00f2dded-9e35-4af8-9ac4-c706737540ac -->
 
 USDT
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2.2 - Contract Addresses [Core]  <!-- UUID: 30bc6650-5589-443b-ae3a-1b86d463e05b -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2.2 - Contract Addresses [Core]  <!-- UUID: 30bc6650-5589-443b-ae3a-1b86d463e05b -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2.2.1 - Token Address [Core]  <!-- UUID: c9ef9947-ee35-416c-bb6d-30d1fea15d3f -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2.2.1 - Token Address [Core]  <!-- UUID: c9ef9947-ee35-416c-bb6d-30d1fea15d3f -->
 
 `0xdAC17F958D2ee523a2206206994597C13D831ec7`
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2.2.2 - Destination Address [Core]  <!-- UUID: f5b05cdd-1aef-4b02-beda-99a2e3a69015 -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2.2.2 - Destination Address [Core]  <!-- UUID: f5b05cdd-1aef-4b02-beda-99a2e3a69015 -->
 
 `0x49506C3Aa028693458d6eE816b2EC28522946872`
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 435ca83e-fbd7-4ace-866d-8ffc9388118c -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 435ca83e-fbd7-4ace-866d-8ffc9388118c -->
 
 The specific `RateLimitID` for this conduit’s transfer operation is defined in the subdocument herein.
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: c6f1e3d7-a29c-468e-8abb-d6dc7c913741 -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: c6f1e3d7-a29c-468e-8abb-d6dc7c913741 -->
 
 The transfer RateLimitID is: `0x70b523f60b992e0e42182b83eccedb7747e22709d21f386be527e0c58436c4ae`
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2.4 - Rate Limits [Core]  <!-- UUID: b494026e-d3bc-4122-bac3-98ea1d7436b0 -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2.4 - Rate Limits [Core]  <!-- UUID: b494026e-d3bc-4122-bac3-98ea1d7436b0 -->
 
 The current `maxAmount` and `slope` for this conduit’s transferAssets operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 5a56203b-5c1b-42e8-9acb-8ab78eb4dc06 -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 5a56203b-5c1b-42e8-9acb-8ab78eb4dc06 -->
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1ec11acd-b8fe-4310-b1ba-6e57c9c27fd3 -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1ec11acd-b8fe-4310-b1ba-6e57c9c27fd3 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.4.3.7.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1c69d51a-f202-4e17-99cd-dd29a046e2a5 -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1c69d51a-f202-4e17-99cd-dd29a046e2a5 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.4.1.8 - Blackrock [Core]  <!-- UUID: ce83f39e-5efb-4a88-b27f-989083213239 -->
+
+The Ethereum Mainnet Instances of the Blackrock Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.4.1.8.1 - Ethereum Mainnet - Blackrock USDC Instance Configuration Document [Core]  <!-- UUID: 7a52fb87-96bf-4135-9a61-f2dc068af12c -->
+
+The documents herein contain the Instance Configuration Document for the Blackrock USDC Instance.
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 704fd922-1700-4c0e-b182-e3ffe8741274 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2 - Parameters [Core]  <!-- UUID: 9f44d3eb-b1d4-490e-bab2-8f39b73dc6ad -->
+
+The documents herein define the parameters of the Blackrock USDC Instance of the Allocation System Primitive
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.1 - Instance Identifiers [Core]  <!-- UUID: fcee0621-3878-461c-8900-a55e62c90aeb -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.1.1 - Network [Core]  <!-- UUID: c667269d-b366-4a14-9861-e506d107a767 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 10169c03-bbd8-40c2-990c-44ee2f5d436f -->
+
+Blackrock
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 3215e3d7-850e-400a-adac-b57223c354c6 -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.1.4 - Token [Core]  <!-- UUID: 892b7916-3ca3-4fd1-a8d2-732646ad7353 -->
+
+BUIDL-I
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.2 - Contract Addresses [Core]  <!-- UUID: 1dd65da0-57e4-4cb4-bf6c-7885b0616ae2 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.2.1 - Token Address [Core]  <!-- UUID: 43930781-984c-4ba4-91e1-5e564fe448ad -->
+
+`0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041`
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 284c77f5-ea1b-4569-a4f4-9241cf338f9b -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 43f9fa01-68a2-4c8f-b1f4-fe775927562e -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 9196512a-ba80-4a8e-9f17-04b63c22cebf -->
+
+The inflow RateLimitID is: `0xd09c2dcb5e98e8da66af05a657fa6802dcc8fc3a5e6fc86a8bba565c58391288`
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 4a9c8a11-383b-4b9d-80b1-27163479705c -->
+
+The outflow RateLimitID is: `0x377bb661ce1ad4a0a25a2f84247e85b1ebc818624a649b9af0ac7498c6dc5216`
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.4 - Rate Limits [Core]  <!-- UUID: 3a9acb95-b227-4473-aa26-95b7f25cfd8a -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 4ec7ede8-416b-486e-ba56-160b02189a7b -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 1fc9d6f3-3996-4245-a096-53dad4a624ea -->
+
+The outflow rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: dd3dffeb-7157-46dc-bf65-f5c8d5bf9fc8 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.4.1.8.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: ddd37d10-75dd-4de4-a88b-b92745fd53bc -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.4.1.9 - Centrifuge [Core]  <!-- UUID: 8fb735f7-7d36-4b35-9e9a-19b645674517 -->
+
+The Ethereum Mainnet Instances of the Centrifuge Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.4.1.9.1 - Ethereum Mainnet - Centrifuge USDC Instance Configuration Document [Core]  <!-- UUID: 289555ee-996e-43a7-b05f-a0b06d1238f5 -->
+
+The documents herein contain the Instance Configuration Document for the Centrifuge USDC Instance.
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: c9a19386-f124-49bc-aca1-6860293395f3 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2 - Parameters [Core]  <!-- UUID: 35533e6c-2d70-4cba-8192-95a150f93e9c -->
+
+The documents herein define the parameters of the Centrifuge USDC Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 1ba05a79-f768-45e8-ae14-bb04495e6f6c -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.1.1 - Network [Core]  <!-- UUID: c10013b3-c688-4a97-8a5c-44c56d9ef481 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 1c386cce-adee-4f5a-aa88-7c84f0709a70 -->
+
+Centrifuge
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 8eb1c7a9-18a7-46bf-841d-2db3476bf8ea -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.1.4 - Token [Core]  <!-- UUID: aaa19944-a11f-43e3-8ddf-25e8ab357d97 -->
+
+JTRSY
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.2 - Contract Addresses [Core]  <!-- UUID: 538be44e-fe35-4f33-83de-613713f0b674 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.2.1 - Token Address [Core]  <!-- UUID: 75405fc4-d493-410d-b036-dc7f67242ca3 -->
+
+`0x8c213ee79581Ff4984583C6a801e5263418C4b86`
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 8e1a1625-29e0-46d0-ac50-d43b40c4c79d -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 3cd3c96e-b459-468f-a7be-f5c52c38666e -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 26859d04-329c-4f69-9462-641e717b2cc1 -->
+
+The inflow RateLimitID is: `0x4189cfa817ad13e3eec943ae079f6671a805633699fbe0d18e621aec73841da0`
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: e0aac1cc-81bf-4f9b-9612-7f664cfda8fa -->
+
+The outflow RateLimitID is: `0xecb9c091aa267ad13453ebeb54dadc691a0b3b74b11e16fac6a7e3e4801b58de`
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.4 - Rate Limits [Core]  <!-- UUID: e5519b29-8100-4490-965b-a616729865e1 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 81ab5665-f9b9-4363-9d05-0d7bf371394a -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 997c0581-022d-4fdd-8fde-cb43d58c8940 -->
+
+The outflow rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 5ab63d35-c3d1-4ea6-924c-2d56bcd68295 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.4.1.9.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d14420a3-4b36-4eac-bb1b-04f5598fe347 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
