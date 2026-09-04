@@ -1506,21 +1506,13 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 The documents herein contain a Directory of all Instances on Arbitrum of the Allocation System Primitive with Instance status of `Active`.
 
-###### A.6.1.1.1.2.6.1.1.2.3.1 - Fluid [Core]  <!-- UUID: 78bfa934-14f8-45eb-aec1-945d4e262dd7 -->
+###### A.6.1.1.1.2.6.1.1.2.3.1 - Spark Savings V2 [Core]  <!-- UUID: 7539e9b2-453b-46b7-8d7c-f776d485914a -->
 
-The Arbitrum Instances Directory of the Fluid Protocol with `Active` Status are stored herein.
+The Arbitrum Instances Directory of the Spark Savings v2 Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.1.2.3.1.1 - Arbitrum - Fluid sUSDS ERC4626 Vault Instance Configuration Document Location [Core]  <!-- UUID: e49ce8a1-1e28-4fcf-a991-589d604fb12e -->
+###### A.6.1.1.1.2.6.1.1.2.3.1.1 - Arbitrum - Spark Savings v2 USDT Instance Configuration Document Location [Core]  <!-- UUID: 83e8fd47-6b16-4400-8a93-e7b5e5f0e99e -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.3.1.1 - Arbitrum - Fluid sUSDS ERC4626 Vault Instance Configuration Document](e6a55c76-91f7-4503-9349-b082c762ec76).
-
-###### A.6.1.1.1.2.6.1.1.2.3.2 - Aave [Core]  <!-- UUID: 7e0e5a2d-0dd8-4184-9eea-c8ef4284cbcb -->
-
-The Arbitrum Instances Directory of the Aave Protocol with `Active` Status are stored herein.
-
-###### A.6.1.1.1.2.6.1.1.2.3.2.1 - Arbitrum - Aave USDC Instance Configuration Document Location [Core]  <!-- UUID: 6a9a6b83-5337-4f61-b01c-757809bd90b9 -->
-
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.3.2.1 - Arbitrum - Aave USDC Instance Configuration Document](e11091aa-e569-4ca9-9151-dc5e1a8e1062).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.3.1.1 - Arbitrum - Spark Savings v2 USDT Instance Configuration Document](1185b8bc-532d-4f34-93f3-1906bce1e119).
 
 ###### A.6.1.1.1.2.6.1.1.2.4 - Avalanche [Core]  <!-- UUID: 4f0c9316-383c-464f-8266-d6c7a6f5ef08 -->
 
@@ -1725,6 +1717,26 @@ The Base Instances Directory of the Aave Protocol with `Completed` Status are st
 ###### A.6.1.1.1.2.6.1.1.3.2.2.1 - Base - Aave USDC Instance Configuration Document Location [Core]  <!-- UUID: a61290d6-caae-4cb2-a2bc-8fc99ec2d7e6 -->
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.2.2.1 - Base - Aave USDC Instance Configuration Document](adfe1844-38ae-4eac-9060-f79978751765).
+
+###### A.6.1.1.1.2.6.1.1.3.3 - Arbitrum [Core]  <!-- UUID: 82b81237-2679-4950-b99b-9dcc2a8ca57d -->
+
+The documents herein contain a Directory of all Instances on Arbitrum of the Allocation System Primitive with Instance status of `Completed`.
+
+###### A.6.1.1.1.2.6.1.1.3.3.1 - Fluid [Core]  <!-- UUID: 78bfa934-14f8-45eb-aec1-945d4e262dd7 -->
+
+The Arbitrum Instances Directory of the Fluid Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.3.3.1.1 - Arbitrum - Fluid sUSDS ERC4626 Vault Instance Configuration Document Location [Core]  <!-- UUID: e49ce8a1-1e28-4fcf-a991-589d604fb12e -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.1.1 - Arbitrum - Fluid sUSDS ERC4626 Vault Instance Configuration Document](e6a55c76-91f7-4503-9349-b082c762ec76).
+
+###### A.6.1.1.1.2.6.1.1.3.3.2 - Aave [Core]  <!-- UUID: 7e0e5a2d-0dd8-4184-9eea-c8ef4284cbcb -->
+
+The Arbitrum Instances Directory of the Aave Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.3.3.2.1 - Arbitrum - Aave USDC Instance Configuration Document Location [Core]  <!-- UUID: 6a9a6b83-5337-4f61-b01c-757809bd90b9 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.2.1 - Arbitrum - Aave USDC Instance Configuration Document](e11091aa-e569-4ca9-9151-dc5e1a8e1062).
 
 ###### A.6.1.1.1.2.6.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 73a22cb8-06cd-4324-b0fe-f37bf538f7a9 -->
 
@@ -6030,275 +6042,99 @@ Timelock: 240 hours (10 days)
 
 The Arbitrum Instances of the Spark Liquidity Layer with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.3.3.1 - Fluid [Core]  <!-- UUID: ede14170-01c6-4706-b17d-fb494b734a93 -->
-
-The Arbitrum Instances of the Fluid Protocol with `Active` Status are stored herein.
-
-###### A.6.1.1.1.2.6.1.3.3.1.1 - Arbitrum - Fluid sUSDS ERC4626 Vault Instance Configuration Document [Core]  <!-- UUID: e6a55c76-91f7-4503-9349-b082c762ec76 -->
-
-The documents herein contain the Instance Configuration Document for the Fluid sUSDS ERC4626 Instance.
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 910fe6e2-aeee-4d8a-8c98-dab4f9869a5c -->
-
-**`Covered`**
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2 - Parameters [Core]  <!-- UUID: 8ae596a4-1e54-430d-83ab-65e14c1b59a7 -->
-
-The documents herein define the parameters of the Fluid sUSDS ERC4626 Vault Instance of the Allocation System Primitive.
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: a3a5d44d-9ce3-40d0-af7d-dab76efd5d1e -->
-
-The documents herein define the Instance identifiers
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.1 - Network [Core]  <!-- UUID: b840b879-fcbe-4d18-ac3e-146693c67268 -->
-
-Arbitrum
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: ed8dfb3b-d69b-4238-a685-0ee37d4c047b -->
-
-Fluid Finance (ERC4626 Vault)
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: d6a11516-1a75-4d97-a7de-402595d68dbc -->
-
-sUSDS
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.4 - Token [Core]  <!-- UUID: f9882004-d6bf-4c5d-b85a-d9230e52a1a8 -->
-
-fsUSDS
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: 30cb7c3c-1133-4899-9850-d92a72e86446 -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.2.1 - Token Address (ERC4626 Vault) [Core]  <!-- UUID: d9b0d43b-3d65-453d-8099-f49e7959e6a4 -->
-
-`0x3459fcc94390C3372c0F7B4cD3F8795F0E5aFE96`
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 656e1bad-91a3-4360-9804-a04ac194b1c7 -->
-
-`0xdDb46999F8891663a8F2828d25298f70416d7610`
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: f6ab4108-a374-4fa6-81b2-61ca5078691f -->
-
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 5f16383b-6866-46ee-b3b8-cbaf44799113 -->
-
-The inflow RateLimitID is: `0xe30ba0cc41901c061ab58608af5bb15438df83e125392e28f39c808f1289ae6f`
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 3e904da0-22f8-45b8-afc7-91b609892f7e -->
-
-The outflow RateLimitID is: `0xdcd26d02a38c1b9a241da3490d844d2153bb356a1c9e86de1a6e9f9c056c60f3`
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.4 - Rate Limits [Core]  <!-- UUID: 74318ab4-90e3-4dd0-a21f-138a856b0c76 -->
-
-The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 6c0b965a-f912-454e-9214-1fb23974ad2c -->
-
-The inflow rate limits are:
-
-- `maxAmount`: 0
-- `slope`: 0
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 4abd5303-6a27-42fa-8128-4c6e65f089ee -->
-
-The outflow rate limits are:
-
-- `maxAmount`: 0
-- `slope`: 0
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: ac2eb45f-a059-4dcc-9af4-baa1bbd60e3c -->
-
-The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 9eb37215-612f-45cd-a975-00683437326c -->
-
-The Instance follows the general ERC4626 procedures see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2 - ERC-4626 Functions](e386a0df-9e0b-4ffd-9879-49131f795b0b) and for emergency procedures see [A.6.1.1.1.2.6.1.2.2.3.4.1 - ERC-4626 Withdrawal Action](f92ddc3f-672a-4f52-931f-5263a9f709b9). For detailed example of the Spark Liquidity Layer interaction logic for depositing to, withdrawing from, and redeeming from this ERC4626 vault instance see [A.6.1.1.1.2.6.1.4.1.10.1.3.1 - Deposit ERC-4626 Tokens](e2ad525b-3f3f-4402-9e4d-3ae125b35b76) and [A.6.1.1.1.2.6.1.4.1.10.1.3.2 - Withdraw ERC-4626 Tokens](caa295f4-92f4-4ca9-9083-2a1b94c70d5f).
-
-###### A.6.1.1.1.2.6.1.3.3.2 - Aave [Core]  <!-- UUID: 014fccbf-4720-43f5-8dff-e58518c06f8c -->
-
-The Arbitrum Instances of the Aave Protocol with `Active` Status are stored herein.
-
-###### A.6.1.1.1.2.6.1.3.3.2.1 - Arbitrum - Aave USDC Instance Configuration Document [Core]  <!-- UUID: e11091aa-e569-4ca9-9151-dc5e1a8e1062 -->
-
-The documents herein contain the Instance Configuration Document for the Aave USDC Instance.
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 25631831-853b-489f-b41a-2647ada595d6 -->
-
-**`Pending`**
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2 - Parameters [Core]  <!-- UUID: 3aadca43-40a6-4647-81c6-912edc9ccd94 -->
-
-The documents herein define the parameters of the Aave USDC Instance of the Allocation System Primitive.
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 2583e4c8-26d6-496f-99d6-30e0ece95dfa -->
-
-The documents herein define the Instance identifiers
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.1.1 - Network [Core]  <!-- UUID: f1e00fd6-c833-409f-9386-54787628d17b -->
-
-Arbitrum
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 598df96f-6205-4149-a359-97bba4acae1c -->
-
-Aave
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 698f28fd-3186-42b0-a0cb-0ef6a4cf71e3 -->
-
-USDC
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.1.4 - Token [Core]  <!-- UUID: e836034b-a658-45ff-bcbd-bc2ee3bc24e7 -->
-
-aArbUSDCn
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.2 - Contract Addresses [Core]  <!-- UUID: 14933ea3-8469-4538-a37a-4963723a2fd3 -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.2.1 - Token Address [Core]  <!-- UUID: 8768aad5-79b2-4e6d-a92b-6e1c654681a7 -->
-
-`0x724dc807b04555b71ed48a6896b6F41593b8C637`
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 3fe18ab3-8f90-494e-8c8b-0b4218dd77f6 -->
-
-`0xaf88d065e77c8cC2239327C5EDb3A432268e5831`
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.2.3 - Pool [Core]  <!-- UUID: aaf8a23e-ca02-4a8a-a75e-9431119b25bb -->
-
-This parameter will be specified in a future iteration of the Spark Artifact.
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: b89d0921-1a1f-4b1e-a074-4027c7ab19ea -->
-
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: c96b1620-6ae7-4301-b605-d09c8a099668 -->
-
-The inflow RateLimitID is: `0xcaf65d847338fe5e0545ae627cf023144640437b0aec3c4ea2195eaec4a7f129`
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 14ba198d-3ab6-4706-a816-963fa947efe2 -->
-
-The outflow RateLimitID is: `0x48a0bf138bca29b316f00acce891e2f7275487ef4858aacbb684a16129a3e3b1`
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.4 - Rate Limits [Core]  <!-- UUID: 2f22951b-c30c-47f9-a102-25a854c9a002 -->
-
-The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: be3d1475-4efe-4eee-99eb-3f9941b858fa -->
-
-The inflow rate limits are:
-
-- `maxAmount`: 0
-- `slope`: 0
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 254af84a-fe4c-471f-bc8c-dde31c728141 -->
-
-The outflow rate limits are:
-
-- `maxAmount`: 0
-- `slope`: 0
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 4a10347b-02ab-47f4-8a13-b2b526fde198 -->
-
-The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.1.2.6.1.3.3.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d30527ea-821f-4c63-9f2a-3f13ff8064f7 -->
-
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.3 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836). For detailed example of the Spark Liquidity Layer interaction logic for depositing to and withdrawing from Aave see [A.6.1.1.1.2.6.1.4.1.2.2.3.1 - Process Definition For Depositing](fa2520ac-4779-4aeb-abe4-2c1b89e7ca51) and [A.6.1.1.1.2.6.1.4.1.2.2.3.2 - Process Definition For Withdrawing](35e32620-a28c-4101-a881-2b7c2b9e42f2).
-
-###### A.6.1.1.1.2.6.1.3.3.3 - Spark Savings V2 [Core]  <!-- UUID: 417952e8-a21d-40e8-9a42-4a79f4fb0b62 -->
+###### A.6.1.1.1.2.6.1.3.3.1 - Spark Savings V2 [Core]  <!-- UUID: 417952e8-a21d-40e8-9a42-4a79f4fb0b62 -->
 
 The Arbitrum Instances of the Spark Savings v2 with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.3.3.3.1 - Arbitrum - Spark Savings v2 USDT Instance Configuration Document [Core]  <!-- UUID: 1185b8bc-532d-4f34-93f3-1906bce1e119 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1 - Arbitrum - Spark Savings v2 USDT Instance Configuration Document [Core]  <!-- UUID: 1185b8bc-532d-4f34-93f3-1906bce1e119 -->
 
 The documents herein contain the Instance Configuration Document for the Spark Savings v2 USDT Instance on Arbitrum.
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: bb1848fe-9e77-4b88-8d72-81720d43a8d4 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: bb1848fe-9e77-4b88-8d72-81720d43a8d4 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.2 - Parameters [Core]  <!-- UUID: c513d81f-468c-443d-a347-e4ac1f1e13a9 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2 - Parameters [Core]  <!-- UUID: c513d81f-468c-443d-a347-e4ac1f1e13a9 -->
 
 The documents herein define the parameters of the Spark Savings v2 USDT Instance on Arbitrum of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 36ed03cc-4d66-44e6-9a61-ec91a74c2df4 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 36ed03cc-4d66-44e6-9a61-ec91a74c2df4 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.2.1.1 - Network [Core]  <!-- UUID: 5fc5b168-7bf1-4d0f-b670-ffc371f4a2b4 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.1 - Network [Core]  <!-- UUID: 5fc5b168-7bf1-4d0f-b670-ffc371f4a2b4 -->
 
 Arbitrum
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.2.1.2 - Target Protocol [Core]  <!-- UUID: cd865020-3ae2-4536-9611-3c6f615ba276 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: cd865020-3ae2-4536-9611-3c6f615ba276 -->
 
 Spark Savings Protocol
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.2.1.3 - Asset Supplied By Users [Core]  <!-- UUID: 64058ff5-bd62-4857-a800-7dfe14778b47 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.3 - Asset Supplied By Users [Core]  <!-- UUID: 64058ff5-bd62-4857-a800-7dfe14778b47 -->
 
 USDT
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.2.1.4 - Token [Core]  <!-- UUID: 4cf98a3c-0682-43dd-9285-7870c73c1e97 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.4 - Token [Core]  <!-- UUID: 4cf98a3c-0682-43dd-9285-7870c73c1e97 -->
 
 spUSDT
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.2.2 - Contract Addresses [Core]  <!-- UUID: 1fe8e6dd-f492-402e-b1d6-5573f5794724 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: 1fe8e6dd-f492-402e-b1d6-5573f5794724 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.2.2.1 - Token Address [Core]  <!-- UUID: a455756e-8476-443b-9d98-afee0bee28e5 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.2.1 - Token Address [Core]  <!-- UUID: a455756e-8476-443b-9d98-afee0bee28e5 -->
 
 TBD
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 580ecc7a-ce02-4c7c-bd90-7f5bba059670 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 580ecc7a-ce02-4c7c-bd90-7f5bba059670 -->
 
 `0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9`
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 6c53c9b0-8956-4c25-a6c5-ed7c254c276e -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 6c53c9b0-8956-4c25-a6c5-ed7c254c276e -->
 
 The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.2.4 - Rate Limits [Core]  <!-- UUID: bfb9bfe1-e90b-4955-aa23-9892c2c85f2d -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.4 - Rate Limits [Core]  <!-- UUID: bfb9bfe1-e90b-4955-aa23-9892c2c85f2d -->
 
 The specific `maxAmount` and `slope` for this conduit's inflow/outflow are not defined for this Instance.
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: e56ed430-1635-46b3-80d2-835443bc4988 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: e56ed430-1635-46b3-80d2-835443bc4988 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 07a4d26b-f250-4f37-b1b1-0974ed8138b6 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 07a4d26b-f250-4f37-b1b1-0974ed8138b6 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: c9140abd-2dd0-4055-918d-72302b90b4f5 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: c9140abd-2dd0-4055-918d-72302b90b4f5 -->
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.4.1 - Contract Addresses [Core]  <!-- UUID: 55c38842-e297-4273-8d35-941d6c3beb71 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.1 - Contract Addresses [Core]  <!-- UUID: 55c38842-e297-4273-8d35-941d6c3beb71 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.4.1.1 - Spark Vault v2 Implementation [Core]  <!-- UUID: bfa35719-77b3-4fbf-b8a3-329238b66c86 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.1 - Spark Vault v2 Implementation [Core]  <!-- UUID: bfa35719-77b3-4fbf-b8a3-329238b66c86 -->
 
 TBD
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.4.1.2 - Default admin [Core]  <!-- UUID: 079a23a2-8b55-4cfa-859e-0c3d5bbe9f80 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.2 - Default admin [Core]  <!-- UUID: 079a23a2-8b55-4cfa-859e-0c3d5bbe9f80 -->
 
 `0x65d946e533748A998B1f0E430803e39A6388f7a1`
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.4.1.3 - Setter [Core]  <!-- UUID: 60113aaa-8464-4417-9344-8594b5a2d23f -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.3 - Setter [Core]  <!-- UUID: 60113aaa-8464-4417-9344-8594b5a2d23f -->
 
 TBD
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.4.1.4 - Taker [Core]  <!-- UUID: 19011642-44ea-44d6-b5fa-74483f22692a -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.4 - Taker [Core]  <!-- UUID: 19011642-44ea-44d6-b5fa-74483f22692a -->
 
 `0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709` (ALM_PROXY)
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.4.2 - Risk Parameters Current Configuration [Core]  <!-- UUID: eda78c7f-9e42-447f-ae44-fbe2ce987036 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2 - Risk Parameters Current Configuration [Core]  <!-- UUID: eda78c7f-9e42-447f-ae44-fbe2ce987036 -->
 
 The subdocuments herein define the current configuration of the risk parameters.
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.4.2.1 - Spark Savings USDT Risk Parameters [Core]  <!-- UUID: 36a496db-20c1-4d34-810e-518c4f99a755 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.1 - Spark Savings USDT Risk Parameters [Core]  <!-- UUID: 36a496db-20c1-4d34-810e-518c4f99a755 -->
 
 The Risk parameters are:
 
@@ -6306,23 +6142,23 @@ The Risk parameters are:
 - Max yield: 6%
 - Current yield (at launch): 0%
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.4.2.2 - Rate Limits [Core]  <!-- UUID: e9b62d67-cb5d-4bcb-9f5d-90688a85f123 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.2 - Rate Limits [Core]  <!-- UUID: e9b62d67-cb5d-4bcb-9f5d-90688a85f123 -->
 
 The current `maxAmount` for this conduit's take, transferAssets, and bridge operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.4.2.3 - Take Rate Limits [Core]  <!-- UUID: 430776a5-cc59-4904-a2c7-65bd5ee8e4ca -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.3 - Take Rate Limits [Core]  <!-- UUID: 430776a5-cc59-4904-a2c7-65bd5ee8e4ca -->
 
 The take rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: 9496a85f-d220-4827-b7f4-b8b21c90b131 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: 9496a85f-d220-4827-b7f4-b8b21c90b131 -->
 
 The transferAssets rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.3.3.1.4.2.5 - Bridge to Ethereum Rate Limits [Core]  <!-- UUID: 26c7a10c-dc71-4ccd-a3d3-706549b2e4aa -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.5 - Bridge to Ethereum Rate Limits [Core]  <!-- UUID: 26c7a10c-dc71-4ccd-a3d3-706549b2e4aa -->
 
 The bridge-to-Ethereum rate limits are:
 
@@ -9576,6 +9412,186 @@ The outflow rate limits are:
 The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.4.2.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: bac5a103-a0fa-4d3b-8cd0-b9dfe024d4a9 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.3 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836). For detailed example of the Spark Liquidity Layer interaction logic for depositing to and withdrawing from Aave see [A.6.1.1.1.2.6.1.4.1.2.2.3.1 - Process Definition For Depositing](fa2520ac-4779-4aeb-abe4-2c1b89e7ca51) and [A.6.1.1.1.2.6.1.4.1.2.2.3.2 - Process Definition For Withdrawing](35e32620-a28c-4101-a881-2b7c2b9e42f2).
+
+###### A.6.1.1.1.2.6.1.4.3 - Arbitrum Instances [Core]  <!-- UUID: 4d498392-ec18-4936-b4c9-c6c9b60fb9e5 -->
+
+The Arbitrum Instances of the Spark Liquidity Layer with `Completed` Status are stored herein and are organized by target protocol.
+
+###### A.6.1.1.1.2.6.1.4.3.1 - Fluid [Core]  <!-- UUID: ede14170-01c6-4706-b17d-fb494b734a93 -->
+
+The Arbitrum Instances of the Fluid Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.4.3.1.1 - Arbitrum - Fluid sUSDS ERC4626 Vault Instance Configuration Document [Core]  <!-- UUID: e6a55c76-91f7-4503-9349-b082c762ec76 -->
+
+The documents herein contain the Instance Configuration Document for the Fluid sUSDS ERC4626 Instance.
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 910fe6e2-aeee-4d8a-8c98-dab4f9869a5c -->
+
+**`Covered`**
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2 - Parameters [Core]  <!-- UUID: 8ae596a4-1e54-430d-83ab-65e14c1b59a7 -->
+
+The documents herein define the parameters of the Fluid sUSDS ERC4626 Vault Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: a3a5d44d-9ce3-40d0-af7d-dab76efd5d1e -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.1.1 - Network [Core]  <!-- UUID: b840b879-fcbe-4d18-ac3e-146693c67268 -->
+
+Arbitrum
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: ed8dfb3b-d69b-4238-a685-0ee37d4c047b -->
+
+Fluid Finance (ERC4626 Vault)
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: d6a11516-1a75-4d97-a7de-402595d68dbc -->
+
+sUSDS
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.1.4 - Token [Core]  <!-- UUID: f9882004-d6bf-4c5d-b85a-d9230e52a1a8 -->
+
+fsUSDS
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: 30cb7c3c-1133-4899-9850-d92a72e86446 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.2.1 - Token Address (ERC4626 Vault) [Core]  <!-- UUID: d9b0d43b-3d65-453d-8099-f49e7959e6a4 -->
+
+`0x3459fcc94390C3372c0F7B4cD3F8795F0E5aFE96`
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 656e1bad-91a3-4360-9804-a04ac194b1c7 -->
+
+`0xdDb46999F8891663a8F2828d25298f70416d7610`
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: f6ab4108-a374-4fa6-81b2-61ca5078691f -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 5f16383b-6866-46ee-b3b8-cbaf44799113 -->
+
+The inflow RateLimitID is: `0xe30ba0cc41901c061ab58608af5bb15438df83e125392e28f39c808f1289ae6f`
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 3e904da0-22f8-45b8-afc7-91b609892f7e -->
+
+The outflow RateLimitID is: `0xdcd26d02a38c1b9a241da3490d844d2153bb356a1c9e86de1a6e9f9c056c60f3`
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.4 - Rate Limits [Core]  <!-- UUID: 74318ab4-90e3-4dd0-a21f-138a856b0c76 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 6c0b965a-f912-454e-9214-1fb23974ad2c -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 4abd5303-6a27-42fa-8128-4c6e65f089ee -->
+
+The outflow rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: ac2eb45f-a059-4dcc-9af4-baa1bbd60e3c -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.4.3.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 9eb37215-612f-45cd-a975-00683437326c -->
+
+The Instance follows the general ERC4626 procedures see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2 - ERC-4626 Functions](e386a0df-9e0b-4ffd-9879-49131f795b0b) and for emergency procedures see [A.6.1.1.1.2.6.1.2.2.3.4.1 - ERC-4626 Withdrawal Action](f92ddc3f-672a-4f52-931f-5263a9f709b9). For detailed example of the Spark Liquidity Layer interaction logic for depositing to, withdrawing from, and redeeming from this ERC4626 vault instance see [A.6.1.1.1.2.6.1.4.1.10.1.3.1 - Deposit ERC-4626 Tokens](e2ad525b-3f3f-4402-9e4d-3ae125b35b76) and [A.6.1.1.1.2.6.1.4.1.10.1.3.2 - Withdraw ERC-4626 Tokens](caa295f4-92f4-4ca9-9083-2a1b94c70d5f).
+
+###### A.6.1.1.1.2.6.1.4.3.2 - Aave [Core]  <!-- UUID: 014fccbf-4720-43f5-8dff-e58518c06f8c -->
+
+The Arbitrum Instances of the Aave Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.4.3.2.1 - Arbitrum - Aave USDC Instance Configuration Document [Core]  <!-- UUID: e11091aa-e569-4ca9-9151-dc5e1a8e1062 -->
+
+The documents herein contain the Instance Configuration Document for the Aave USDC Instance.
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 25631831-853b-489f-b41a-2647ada595d6 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2 - Parameters [Core]  <!-- UUID: 3aadca43-40a6-4647-81c6-912edc9ccd94 -->
+
+The documents herein define the parameters of the Aave USDC Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 2583e4c8-26d6-496f-99d6-30e0ece95dfa -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.1.1 - Network [Core]  <!-- UUID: f1e00fd6-c833-409f-9386-54787628d17b -->
+
+Arbitrum
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 598df96f-6205-4149-a359-97bba4acae1c -->
+
+Aave
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 698f28fd-3186-42b0-a0cb-0ef6a4cf71e3 -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.1.4 - Token [Core]  <!-- UUID: e836034b-a658-45ff-bcbd-bc2ee3bc24e7 -->
+
+aArbUSDCn
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.2 - Contract Addresses [Core]  <!-- UUID: 14933ea3-8469-4538-a37a-4963723a2fd3 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.2.1 - Token Address [Core]  <!-- UUID: 8768aad5-79b2-4e6d-a92b-6e1c654681a7 -->
+
+`0x724dc807b04555b71ed48a6896b6F41593b8C637`
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 3fe18ab3-8f90-494e-8c8b-0b4218dd77f6 -->
+
+`0xaf88d065e77c8cC2239327C5EDb3A432268e5831`
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.2.3 - Pool [Core]  <!-- UUID: aaf8a23e-ca02-4a8a-a75e-9431119b25bb -->
+
+This parameter will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: b89d0921-1a1f-4b1e-a074-4027c7ab19ea -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: c96b1620-6ae7-4301-b605-d09c8a099668 -->
+
+The inflow RateLimitID is: `0xcaf65d847338fe5e0545ae627cf023144640437b0aec3c4ea2195eaec4a7f129`
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 14ba198d-3ab6-4706-a816-963fa947efe2 -->
+
+The outflow RateLimitID is: `0x48a0bf138bca29b316f00acce891e2f7275487ef4858aacbb684a16129a3e3b1`
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.4 - Rate Limits [Core]  <!-- UUID: 2f22951b-c30c-47f9-a102-25a854c9a002 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: be3d1475-4efe-4eee-99eb-3f9941b858fa -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 254af84a-fe4c-471f-bc8c-dde31c728141 -->
+
+The outflow rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 4a10347b-02ab-47f4-8a13-b2b526fde198 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.4.3.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d30527ea-821f-4c63-9f2a-3f13ff8064f7 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.3 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836). For detailed example of the Spark Liquidity Layer interaction logic for depositing to and withdrawing from Aave see [A.6.1.1.1.2.6.1.4.1.2.2.3.1 - Process Definition For Depositing](fa2520ac-4779-4aeb-abe4-2c1b89e7ca51) and [A.6.1.1.1.2.6.1.4.1.2.2.3.2 - Process Definition For Withdrawing](35e32620-a28c-4101-a881-2b7c2b9e42f2).
 
