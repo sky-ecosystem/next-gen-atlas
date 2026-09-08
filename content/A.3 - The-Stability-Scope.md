@@ -3476,9 +3476,9 @@ The parameters for the ALLOCATOR-GROVE-A Allocator Vault are:
 - `duty`: set by the SP-BEAM specified in [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
 - `line`: controlled by DC-IAM
 - DC-IAM parameters:
-    - `gap`: 5 million USDS
-    - `line`: 25 million USDS
-    - `ttl`: 24 hours
+    - `gap`: 15 million USDS
+    - `line`: 100 million USDS
+    - `ttl`: 12 hours
 
 ###### A.3.7.1.2.1.4 - ALLOCATOR-NOVA-A Parameters [Core]  <!-- UUID: 08321783-f31a-4a80-8f0c-898afb4d8f9b -->
 
@@ -3516,8 +3516,8 @@ The parameters for the Osero Allocator Vault are:
 - `duty`: set by the SP-BEAM specified in [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
 - `line`: controlled by DC-IAM
 - DC-IAM parameters:
-    - `gap`: 5 million USDS
-    - `line`: 25 million USDS
+    - `gap`: 15 million USDS
+    - `line`: 100 million USDS
     - `ttl`: 24 hours
 
 ###### A.3.7.1.2.1.8 - ALLOCATOR-INTERVAL-A Parameters [Core]  <!-- UUID: cdbdd083-cb1c-4958-9cf0-18a088535c9d -->
