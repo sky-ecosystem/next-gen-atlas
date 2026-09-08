@@ -2896,11 +2896,11 @@ The current Smart Burn Engine parameters are:
 
 - kicker.khump: -200 million USDS (Threshold of Surplus Buffer for Splitter to activate)
 - kicker.kbump: 6,000 USDS
-- splitter.hop: 3,748 seconds
+- splitter.hop: 2,504 seconds
 - 55% of Splitter allocation is set to accumulate SKY
 - 45% of Splitter allocation is set to reward SKY stakers
 - burn (the percentage of the kicker.kbump to be moved to the underlying flapper): 55% (WAD * 1)
-- LSEV2-SKY-A USDS rewardsDuration: 3,748 seconds
+- LSEV2-SKY-A USDS rewardsDuration: 2,504 seconds
 
 The rewardsDuration for the LSEV2-SKY-A USDS rewards contract must be set such that it is equal to the splitter.hop parameter.
 
