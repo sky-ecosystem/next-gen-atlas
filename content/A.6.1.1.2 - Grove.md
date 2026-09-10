@@ -2098,7 +2098,7 @@ The maximum amount of USDC that can be bridged to Ethereum Mainnet from the Base
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.2 - Diamond PAU Rate Limit IDs [Core]  <!-- UUID: 6becf94f-f2fc-4ac3-955b-61a10c738506 -->
 
-The documents herein list the rate limits for the Grove Liquidity Layer, covering the monolithic ALM Controller and the Diamond PAU.
+The documents herein list the Diamond PAU rate limit IDs for the Grove Liquidity Layer.
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.2.1 - USDS Mint RateLimitID [Core]  <!-- UUID: ff29c825-f106-45c7-9665-e4f0f1335f3b -->
 
