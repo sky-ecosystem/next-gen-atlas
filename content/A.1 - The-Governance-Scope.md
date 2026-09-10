@@ -2842,7 +2842,7 @@ The items included in the Prime Agent's Forum posts must undergo a financial ris
 
 Under the Sky Governance path, the financial risk assessment is conducted by the [A.1.8.1.1 - Core Council Risk Advisor](d80c8f64-b3f6-430d-bf62-8e50a3783e73). The assessment must be posted on the Forum thread by Thursday, 16:00 UTC of week 1.
 
-Under the Independent Governance path, the financial risk assessment is conducted by an independent risk assessor designated by the Prime Agent.
+Under the Independent Governance path, the financial risk assessment is conducted by an independent risk assessor designated by the Prime Agent. If the Prime Agent has no designated independent risk assessor, the financial risk assessment is conducted by the Core Council Risk Advisor.
 
 ###### A.1.10.2.3.2.2.3.2.4 - Atlas Edit Proposal Drafting And Submission [Core]  <!-- UUID: 0c442b02-f6c9-4bb2-af7f-f73ee31d9b1f -->
 
@@ -2910,7 +2910,7 @@ The execution of Agent Spells is described in the subdocuments herein. Two metho
 
 ###### A.1.10.2.3.2.3.1 - Execution Through StarGuard [Core]  <!-- UUID: 78ec918d-cd9e-4326-bfa9-ab338e658a8b -->
 
-When the execution through the StarGuard method is used, the Agent Spells are whitelisted in Sky Core Spells and later executed using the StarGuard module. The Sky Core Spell includes a whitelist of approved Agent Spells, which allows them to be executed via separate transactions. This enhances resilience and scalability, ensuring robust handling of payloads from multiple active Agents while minimizing risks to Sky Core.
+When the execution through the StarGuard method is used, the Agent Spells are whitelisted in Sky Core Spells and later executed using the StarGuard contract. The Sky Core Spell includes a whitelist of approved Agent Spells, which allows them to be executed via separate transactions. This enhances resilience and scalability, ensuring robust handling of payloads from multiple active Agents while minimizing risks to Sky Core.
 
 ###### A.1.10.2.3.2.3.1.1 - StarGuard [Core]  <!-- UUID: e5cbb61a-82c3-4fce-b6f2-191911d5c155 -->
 
