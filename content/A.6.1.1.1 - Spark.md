@@ -8453,8 +8453,8 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 250,000,000 USDe
-- `slope`: 100,000,000 USDe per day
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.4.3.4.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: a58592c6-f4f0-4874-bee1-ef11fb91c544 -->
 
