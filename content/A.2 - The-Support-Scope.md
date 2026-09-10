@@ -4781,21 +4781,21 @@ The documents herein define interim exceptions to the process definition for the
 
 ###### A.2.4.1.2.1.5.1 - Scope Of July / August 2025 Monthly Settlement Cycle [Core]  <!-- UUID: bfc3548d-5ad1-4327-a54a-ddd4549c5fdc -->
 
-The initial Monthly Settlement Cycle conducted in September 2025 will be for the two month period from July 1, 2025 to August 31, 2025.
+The initial Monthly Settlement Cycle conducted in September 2025 was for the two (2) month period from July 1, 2025 to August 31, 2025.
 
 ###### A.2.4.1.2.1.5.2 - Process For July / August 2025 Monthly Settlement Cycle [Core]  <!-- UUID: 146d3d9c-7f8a-4dc4-b6b3-349bab4279bb -->
 
-For the initial Monthly Settlement Cycle conducted in September 2025, the Initial Calculation prepared by Operational Executor Agent Amatsu will only include calculations related to Demand Side Stablecoin Primitives (see [A.2.2.9 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d)). The Independent Calculation prepared by the Core Council Risk Advisor on behalf of the Core Council will be prepared normally. The calculations related to Demand Side Stablecoin Primitives will be subject to the normal resolution process defined in [A.2.4.1.2.1.2 - Final Calculation By Core GovOps](9de89bf3-9051-44f1-9ec0-d362ee4d4b38). For all other calculations, the amounts in the Independent Calculation will be treated as Agreed Amounts. The Initial Calculation and the Independent Calculation will be posted to the Sky Forum by September 10, 2025.
+For the initial Monthly Settlement Cycle conducted in September 2025, the Initial Calculation prepared by Operational Executor Agent Amatsu was required to include only calculations related to Demand Side Stablecoin Primitives (see [A.2.2.9 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d)). The Independent Calculation prepared by the Core Council Risk Advisor on behalf of the Core Council was required to be prepared normally. The calculations related to Demand Side Stablecoin Primitives were subject to the normal resolution process defined in [A.2.4.1.2.1.2 - Final Calculation By Core GovOps](9de89bf3-9051-44f1-9ec0-d362ee4d4b38). For all other calculations, the amounts in the Independent Calculation were treated as Agreed Amounts. The Initial Calculation and the Independent Calculation were required to be posted to the Sky Forum by September 10, 2025.
 
 ###### A.2.4.1.2.1.5.3 - Process For September 2025 Monthly Settlement Cycle [Core]  <!-- UUID: 8e8ff62f-c6c5-4094-afd1-2cedcf482df6 -->
 
-For the Monthly Settlement Cycle conducted in October 2025, the Initial Calculation prepared by Operational Executor Agent Amatsu will only include calculations related to Spark. The Independent Calculation prepared by the Core Council Risk Advisor on behalf of the Core Council will be prepared normally. The calculations related to Spark will be subject to the normal resolution process defined in [A.2.4.1.2.1.2 - Final Calculation By Core GovOps](9de89bf3-9051-44f1-9ec0-d362ee4d4b38). For all other calculations, the amounts in the Independent Calculation will be treated as Agreed Amounts.
+For the Monthly Settlement Cycle conducted in October 2025, the Initial Calculation prepared by Operational Executor Agent Amatsu included only calculations related to Spark. The Independent Calculation prepared by the Core Council Risk Advisor on behalf of the Core Council was prepared normally. The calculations related to Spark were subject to the normal resolution process defined in [A.2.4.1.2.1.2 - Final Calculation By Core GovOps](9de89bf3-9051-44f1-9ec0-d362ee4d4b38). For all other calculations, the amounts in the Independent Calculation were treated as Agreed Amounts.
 
 ###### A.2.4.1.2.1.5.4 - Process For November / December 2025 Monthly Settlement Cycle [Core]  <!-- UUID: 5aa66a15-d59c-4f66-9d80-96583698f24d -->
 
-There will be no Monthly Settlement Cycle conducted in December 2025. Instead, the Monthly Settlement Cycle conducted in January 2026 will be for the two-month period from November 1, 2025 to December 31, 2025.
+There was no Monthly Settlement Cycle conducted in December 2025. Instead, the Monthly Settlement Cycle conducted in January 2026 was for the two (2) month period from November 1, 2025 to December 31, 2025.
 
-For the Monthly Settlement Cycle conducted in January 2026, the Independent Calculation prepared by the Core Council Risk Advisor on behalf of the Core Council will only include calculations related to Spark. The Initial Calculation prepared by Operational Executor Agent Amatsu will be prepared normally. The calculations related to Spark will be subject to the normal resolution process defined in [A.2.4.1.2.1.2 - Final Calculation By Core GovOps](9de89bf3-9051-44f1-9ec0-d362ee4d4b38). For all other calculations, the amounts in the Initial Calculation will be treated as Agreed Amounts.
+For the Monthly Settlement Cycle conducted in January 2026, the Independent Calculation prepared by the Core Council Risk Advisor on behalf of the Core Council was required to include only calculations related to Spark. The Initial Calculation prepared by Operational Executor Agent Amatsu was required to be prepared normally. The calculations related to Spark were subject to the normal resolution process defined in [A.2.4.1.2.1.2 - Final Calculation By Core GovOps](9de89bf3-9051-44f1-9ec0-d362ee4d4b38). For all other calculations, the amounts in the Initial Calculation were treated as Agreed Amounts.
 
 ##### A.2.4.1.2.2 - Implementation Stages [Core]  <!-- UUID: cf1d76c1-fc9f-499d-866f-265276e421f0 -->
 
@@ -4807,7 +4807,7 @@ The documents herein define Stage 1 of the implementation of the Monthly Settlem
 
 ###### A.2.4.1.2.2.1.1 - Stage 1 Simplified Profit And Loss Calculation [Core]  <!-- UUID: 65bd404f-0fd4-4ae9-9860-2c6e37731fef -->
 
-In Stage 1 of the implementation of the Monthly Settlement Cycle, the net amount due from each Prime to Sky will be calculated using a Simplified Profit And Loss Calculation as specified in the documents herein.
+In Stage 1 of the implementation of the Monthly Settlement Cycle, the net amount due from each Prime to Sky is calculated using a Simplified Profit And Loss Calculation as specified in the documents herein.
 
 ###### A.2.4.1.2.2.1.1.1 - Amount Due From Sky To Primes With Respect To Demand Side Primitives And Agent Rate [Core]  <!-- UUID: 33d1b516-d347-4d44-9af6-95f25e8a8d8c -->
 
@@ -4895,7 +4895,7 @@ Spark pays the Agent Credit Line Borrow Rate with respect to funds borrowed by S
 
 ###### A.2.4.1.2.2.1.2 - Stage 1 Timing [Core]  <!-- UUID: ff3aa296-34eb-4783-904f-4510fa0c6c37 -->
 
-Stage 1 is currently expected to be implemented in the August 21, 2025 Executive Vote for the period from July 1, 2025 to July 31, 2025.
+Stage 1 applied to the period from July 1, 2025 through October 31, 2025. Stage 1 was first implemented in the September 18, 2025 Executive Vote.
 
 ###### A.2.4.1.2.2.1.3 - Stage 1 Actions [Core]  <!-- UUID: f87c520a-3324-46a7-ac4e-9c7de2a2af0a -->
 
@@ -4919,7 +4919,7 @@ In Stage 2 of the implementation of the Monthly Settlement Cycle, the net amount
 
 ###### A.2.4.1.2.2.2.2 - Stage 2 Timing [Core]  <!-- UUID: ceb3c433-d73f-4c58-bac9-e79b44e66fcf -->
 
-Stage 2 will be implemented in the December 2025 Monthly Settlement Cycle for the period from November 1, 2025 to November 30, 2025. If there is no December 2025 Monthly Settlement Cycle, then Stage 2 will be implemented in the January 2026 Monthly Settlement Cycle for the period from November 1, 2025 to December 31, 2025.
+Stage 2 applies to the period from November 1, 2025 onward. Stage 2 was first implemented in the Monthly Settlement Cycle conducted in January 2026.
 
 ###### A.2.4.1.2.2.2.3 - Stage 2 Actions [Core]  <!-- UUID: b8c86fb3-2ba4-4c53-a509-81d022dffd20 -->
 
@@ -5517,11 +5517,11 @@ The standard Distribution Reward rate is set at 0.2%.
 
 ###### A.2.8.2.2.2.3.2 - 2025 Bonus [Core]  <!-- UUID: 7ca440d3-03fb-4fba-81a8-d2118dc47aa6 -->
 
-An additional 0.4% Distribution Reward bonus will apply during the calendar year 2025 (ending December 31, 2025). This bonus is strictly limited to the Prime and does not extend to the Prime Foundation. The bonus is subject to the limitation specified in [A.2.8.2.2.2.3.2.1 - Bonus Limitation](6996e6c9-b936-4680-855f-b9717572082d).
+An additional 0.4% Distribution Reward bonus applied during the calendar year 2025 (ending December 31, 2025). This bonus was strictly limited to the Prime and did not extend to the Prime Foundation. The bonus was subject to the limitation specified in [A.2.8.2.2.2.3.2.1 - Bonus Limitation](6996e6c9-b936-4680-855f-b9717572082d).
 
 ###### A.2.8.2.2.2.3.2.1 - Bonus Limitation [Core]  <!-- UUID: 6996e6c9-b936-4680-855f-b9717572082d -->
 
-USDS and sUSDS balances held by the Prime itself are not eligible for the Distribution Reward bonus specified in [A.2.8.2.2.2.3.2 - 2025 Bonus](7ca440d3-03fb-4fba-81a8-d2118dc47aa6).
+USDS and sUSDS balances held by the Prime itself were not eligible for the Distribution Reward bonus specified in [A.2.8.2.2.2.3.2 - 2025 Bonus](7ca440d3-03fb-4fba-81a8-d2118dc47aa6).
 
 ###### A.2.8.2.2.2.3.3 - Sky Spread [Core]  <!-- UUID: 5e3e9338-221a-461a-96f9-01e0665ab6a4 -->
 
@@ -6244,7 +6244,7 @@ where sub-periods are defined by any change to the USDS deposited in the Chronic
 
 ###### A.2.8.2.10.2.1.5 - Retroactive Compensation [Core]  <!-- UUID: e19ba00b-8509-4cf1-b9af-20f16e9683f8 -->
 
-Grove is entitled to retroactive compensation for the period from July 24, 2025 to March 31, 2026, to be settled in the April 2026 Monthly Settlement Cycle.
+Grove was entitled to retroactive compensation for the period from July 24, 2025 to March 31, 2026, which was settled in the April 2026 Monthly Settlement Cycle.
 
 ###### A.2.8.2.10.2.2 - Prime Revenue Credit [Core]  <!-- UUID: 03bec0ca-5667-40ae-ac54-62ce1a0c66ea -->
 
@@ -6445,7 +6445,7 @@ Geographical coverage is worldwide.
 
 ###### A.2.9.1.1.1.3.5 - Resilience Fund Policy Effective Date [Core]  <!-- UUID: 9de7d51b-32f3-4746-b97d-9eb75a189cb6 -->
 
-A Beneficiary’s eligibility for coverage under this Artifact will start after ratification of MIP106: 2023-03-27. ("Effective Date") and expire twenty-four (24) months after cessation of their role as a Beneficiary.
+Coverage under this Artifact is available following the ratification of MIP106 on 2023-03-27 ("Effective Date"). A Beneficiary's eligibility for coverage expires twenty-four (24) months after cessation of their role as a Beneficiary.
 
 ###### A.2.9.1.1.1.3.6 - Resilience Fund Policy Base Of Coverage [Core]  <!-- UUID: 9204cca6-3e91-4a34-b8be-fa6135d41f24 -->
 
