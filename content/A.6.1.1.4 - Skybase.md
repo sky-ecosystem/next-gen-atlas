@@ -1000,6 +1000,14 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.8 - Lazy Summer Protocol Instance Configuration Document](74db9986-5277-4c5f-8e27-f6a312ed591f).
 
+###### A.6.1.1.4.2.5.1.1.2.9 - 1inch Instance Configuration Document Location [Core]  <!-- UUID: 3e912483-4917-49ec-94d7-3580fcf19a5a -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.9 - 1inch Instance Configuration Document](f7822e03-78d1-4f8f-82d1-843642ad2bc7).
+
+###### A.6.1.1.4.2.5.1.1.2.10 - Kyber Instance Configuration Document Location [Core]  <!-- UUID: 221cb53c-d13f-4271-bc1f-5db385c163ec -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.4.2.5.1.2.10 - Kyber Instance Configuration Document](0a105e94-04ac-4c44-8d84-f8c89cc0935b).
+
 ###### A.6.1.1.4.2.5.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 3c43db85-3995-4c95-a85c-e72786a28501 -->
 
 This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of `Completed`.
@@ -1786,6 +1794,200 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Date
 
 ###### A.6.1.1.4.2.5.1.2.8.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 08771b54-8577-44ee-9edb-1915c0f6f050 -->
+
+The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
+
+###### A.6.1.1.4.2.5.1.2.9 - 1inch Instance Configuration Document [Core]  <!-- UUID: f7822e03-78d1-4f8f-82d1-843642ad2bc7 -->
+
+The documents herein contain the Instance Configuration Document for the 1inch Distribution Reward Primitive Instance.
+
+###### A.6.1.1.4.2.5.1.2.9.1 - Parameters [Core]  <!-- UUID: cf4e40ea-595b-4c1d-88b7-c20553e01999 -->
+
+The documents herein define the parameters of the 1inch Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.9.1.1 - Reward Code [Core]  <!-- UUID: 789eeb5c-9f86-40b9-a807-12835a56d0d8 -->
+
+`1020`.
+
+###### A.6.1.1.4.2.5.1.2.9.1.2 - Tracking Methodology [Core]  <!-- UUID: 027c5736-97f7-4a80-93b9-f54b0fb3e97c -->
+
+This Instance uses the Tracking Methodology specified in [A.2.2.9.1.2.1.1.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2).
+
+###### A.6.1.1.4.2.5.1.2.9.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 1af86e65-ee7e-48e0-9207-0ae78a65e9a6 -->
+
+The documents herein define the custom parameters of the 1inch Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.4.2.5.1.2.9.2 - Operational Process Definition [Core]  <!-- UUID: 402f16b8-eae4-4b2e-90eb-08dc7d98b25a -->
+
+The documents herein define the process for the ongoing management of the 1inch Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.9.2.1 - Routine Protocol [Core]  <!-- UUID: 2a59d420-a468-4072-af1a-4e2ccf2e6191 -->
+
+This document defines the protocol for routine ongoing management of the 1inch Instance. This Instance inherits the base class of operational logic defined in [A.2.2.9.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.9.1.2.1.3.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
+
+###### A.6.1.1.4.2.5.1.2.9.2.1.1 - Agent Customizations [Core]  <!-- UUID: 2173c4c6-0e43-41ca-8415-9de02c654a98 -->
+
+The Prime Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.4.2.5.1.2.9.2.2 - Non-Routine Protocol [Core]  <!-- UUID: 358f1183-f368-449a-959f-2fc1aaf91acb -->
+
+The documents herein define the protocol for non-routine ongoing management of the 1inch Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.9.2.3 - Emergency Protocol [Core]  <!-- UUID: e866937f-a10a-42a0-949d-28575ada4bf9 -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the 1inch Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.9.3 - Data Repository [Core]  <!-- UUID: 21ccfd7f-0a5a-40f1-ab2c-ad57aa2b73d2 -->
+
+The documents herein contain data relevant to the 1inch Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.9.3.1 - Initial Planning [Core]  <!-- UUID: 2e3f0833-0f2f-4940-bc1e-e3adf68e41de -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.2.9.3.2 - Operational GovOps Review [Core]  <!-- UUID: a78d37f7-cb9d-47ba-a956-cbdabe547efb -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.2.9.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: d9d79d33-b9ee-4c8e-a90d-b84f71dd7d54 -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.2.9.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: c3075307-a661-4128-882f-b07107b54659 -->
+
+The Distribution Reward payments for the 1inch Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for ‘Direct Edit’.
+
+###### A.6.1.1.4.2.5.1.2.9.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 4e79d3fa-29fc-41c6-b500-f379b5267416 -->
+
+The Distribution Reward Payments are:
+
+###### A.6.1.1.4.2.5.1.2.9.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: dd244aef-f02b-43f9-af7d-74f26fdfd776 -->
+
+This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for ‘Direct Edit’.
+
+###### A.6.1.1.4.2.5.1.2.9.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: c80530b0-c4df-4314-ab87-92055422707e -->
+
+The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
+- Reward Period
+- Payee
+- Payment Address
+- Amount Paid
+- Transaction Hash
+- Transaction Date
+
+###### A.6.1.1.4.2.5.1.2.9.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: fbfc957c-adc0-44b1-a16a-ceb0284a2a51 -->
+
+The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
+
+###### A.6.1.1.4.2.5.1.2.10 - Kyber Instance Configuration Document [Core]  <!-- UUID: 0a105e94-04ac-4c44-8d84-f8c89cc0935b -->
+
+The documents herein contain the Instance Configuration Document for the Kyber Distribution Reward Primitive Instance.
+
+###### A.6.1.1.4.2.5.1.2.10.1 - Parameters [Core]  <!-- UUID: 99f977b9-533f-4526-99d8-729f005c442f -->
+
+The documents herein define the parameters of the Kyber Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.10.1.1 - Reward Code [Core]  <!-- UUID: 3a8294c7-459f-418c-8713-aa306dff1d04 -->
+
+`1021`.
+
+###### A.6.1.1.4.2.5.1.2.10.1.2 - Tracking Methodology [Core]  <!-- UUID: 0eeabad3-410e-4001-b0da-fa73caf4ce6b -->
+
+This Instance uses the Tracking Methodology specified in [A.2.2.9.1.2.1.1.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2).
+
+###### A.6.1.1.4.2.5.1.2.10.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 004a3dea-b4d3-42dc-97ee-cbb733f288dc -->
+
+The documents herein define the custom parameters of the Kyber Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.4.2.5.1.2.10.2 - Operational Process Definition [Core]  <!-- UUID: c9318928-b158-4909-a258-ea12b1cb2403 -->
+
+The documents herein define the process for the ongoing management of the Kyber Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.10.2.1 - Routine Protocol [Core]  <!-- UUID: 1a1c4089-43c6-456c-a2a0-58c8e30f8dc4 -->
+
+This document defines the protocol for routine ongoing management of the Kyber Instance. This Instance inherits the base class of operational logic defined in [A.2.2.9.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.9.1.2.1.3.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Skybase Artifact, a version of the full process definition customized to Skybase will be included herein.
+
+###### A.6.1.1.4.2.5.1.2.10.2.1.1 - Agent Customizations [Core]  <!-- UUID: b03afeac-fd8b-4a8a-b713-477de6d825a7 -->
+
+The Prime Agent may define Instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.4.2.5.1.2.10.2.2 - Non-Routine Protocol [Core]  <!-- UUID: b4a55a71-79ef-4118-8623-518400360a32 -->
+
+The documents herein define the protocol for non-routine ongoing management of the Kyber Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.10.2.3 - Emergency Protocol [Core]  <!-- UUID: 294f365f-51e7-414e-8d57-81d5b8797623 -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Kyber Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.10.3 - Data Repository [Core]  <!-- UUID: f9b0b513-0051-4297-9131-ddb60640d203 -->
+
+The documents herein contain data relevant to the Kyber Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.4.2.5.1.2.10.3.1 - Initial Planning [Core]  <!-- UUID: 7b6d6d5e-6256-4964-af7b-9abfeaceb732 -->
+
+The materials associated with initial planning of the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.2.10.3.2 - Operational GovOps Review [Core]  <!-- UUID: 9ead2507-fdaa-45d6-9f4d-d5783f425d39 -->
+
+The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.2.10.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 763c9fbd-91ec-4d1b-bbfc-5690f4ae2989 -->
+
+The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
+
+###### A.6.1.1.4.2.5.1.2.10.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: a8d0e137-14f9-4f76-8ea1-eb525a9682cc -->
+
+The Distribution Reward payments for the Kyber Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for ‘Direct Edit’.
+
+###### A.6.1.1.4.2.5.1.2.10.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: a3db4319-a749-4dee-a2a8-411cc9b83b05 -->
+
+The Distribution Reward Payments are:
+
+###### A.6.1.1.4.2.5.1.2.10.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: baddbc1d-cff5-4bc6-b3c2-f59db47e07bb -->
+
+This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for ‘Direct Edit’.
+
+###### A.6.1.1.4.2.5.1.2.10.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: da19af0b-0eaa-489d-bf80-d1dae799d940 -->
+
+The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
+
+- Reward Period
+- Payee
+- Payment Address
+- Amount Paid
+- Transaction Hash
+- Transaction Date
+
+###### A.6.1.1.4.2.5.1.2.10.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 3b8bc7f6-7b4c-4e46-ae98-4694cff0ace8 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
