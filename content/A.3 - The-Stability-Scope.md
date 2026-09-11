@@ -770,6 +770,10 @@ The CRRs for the following market allocations in the vault are:
 - mF-One / USDC – LLTV: 91.5%
     - CRR = 100%
 
+###### A.3.2.2.1.1.1.1.3.8.2 - Noncompliant Morpho Vault Allocations [Core]  <!-- UUID: 20aa9663-214b-46f5-8b37-53be387b996b -->
+
+Following the execution of the October 8, 2026 Executive Vote, the Instance Financial CRR for any allocation to a Morpho vault that does not comply with [A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework](915a36c0-754c-41f9-ada1-2fec0816f7b8) is 100%.
+
 ###### A.3.2.2.1.1.1.1.3.9 - Uniswap V3 [Core]  <!-- UUID: 200cd606-26e9-427e-b965-976e7140a976 -->
 
 Allocation to the AUSD / USDC Uniswap v3 pool via FalconX on Monad has a CRR of 3%. Total combined FalconX allocations must not exceed 100,000,000 USDS.
@@ -2904,11 +2908,9 @@ The current Smart Burn Engine parameters are:
 
 - kicker.khump: -200 million USDS (Threshold of Surplus Buffer for Splitter to activate)
 - kicker.kbump: 6,000 USDS
-- splitter.hop: 3,748 seconds
-- 55% of Splitter allocation is set to accumulate SKY
-- 45% of Splitter allocation is set to reward SKY stakers
-- burn (the percentage of the kicker.kbump to be moved to the underlying flapper): 55% (WAD * 1)
-- LSEV2-SKY-A USDS rewardsDuration: 3,748 seconds
+- splitter.hop: 2,504 seconds
+- burn (the percentage of the kicker.kbump to be moved to the underlying flapper): set as specified in [A.2.3.1.4.1 - Staking Rewards Rate Adjustment](de233df4-34cc-4e88-a065-9a9dde9add3c); the current value can be read by calling `burn()` on the Splitter contract
+- LSEV2-SKY-A USDS rewardsDuration: 2,504 seconds
 
 The rewardsDuration for the LSEV2-SKY-A USDS rewards contract must be set such that it is equal to the splitter.hop parameter.
 
@@ -2962,11 +2964,11 @@ The current value of the kbump parameter is specified in [A.3.5.2 - Smart Burn E
 
 ##### A.3.5.2.2.2 - Deployment [Core]  <!-- UUID: 0803e6b5-5755-431c-9ef0-999115f6f897 -->
 
-The activation of the Kicker Module will be executed in the October 30, 2025 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+The Kicker Module was activated in the October 30, 2025 Executive Vote. This action was authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
 #### A.3.5.2.3 - Modification [Core]  <!-- UUID: 499570de-9fae-4009-be34-c3330266030a -->
 
-The Core Facilitator, in consultation with the Core Council Risk Advisor, can modify the `kbump` and `hop` parameters of the Smart Burn Engine. Such a modification can be enacted either by proposing it for inclusion in an Executive Vote pursuant to the Operational Weekly Cycle, without requiring a prior Governance Poll, or by executing it directly through the SBE-BEAM within its bounds, as specified in [A.3.5.2.4 - Smart Burn Engine Bounded External Access Module](b57ac61b-f6b1-4025-bd44-569d0f2afe2f). LSEV2-SKY-A-USDS rewardsDuration should always match the value of the `hop` parameter without requiring prior governance authorization.
+The Core Facilitator, in consultation with the Core Council Risk Advisor, can modify the `kbump`, `hop`, and `burn` parameters of the Smart Burn Engine. Such a modification can be enacted either by proposing it for inclusion in an Executive Vote pursuant to the Operational Weekly Cycle, without requiring a prior Governance Poll, or by executing it directly through the SBE-BEAM within its bounds, as specified in [A.3.5.2.4 - Smart Burn Engine Bounded External Access Module](b57ac61b-f6b1-4025-bd44-569d0f2afe2f). LSEV2-SKY-A-USDS rewardsDuration should always match the value of the `hop` parameter without requiring prior governance authorization.
 
 The Core Facilitator must modify all parameters of the Smart Burn Engine as necessary to implement the allocation specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121). Such a modification can be enacted either by proposing it for inclusion in an Executive Vote pursuant to the Operational Weekly Cycle, without requiring a prior Governance Poll, or by executing it directly through the SBE-BEAM within its bounds.
 
