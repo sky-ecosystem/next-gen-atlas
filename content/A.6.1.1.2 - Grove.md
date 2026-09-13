@@ -2120,6 +2120,8 @@ The LIMIT_USDC_TO_USDS RateLimitID is: `0x87835797fec2ad9575bc1a7035e3c27b8a8b7d
 
 The documents herein list the controller-wide rate limits for the Grove Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
 
+The limits specified in [A.6.1.1.2.2.6.1.2.1.1.3.3.2 - USDS Burn Maximum](a444f64b-519a-4e52-a538-395c9ee04956) and [A.6.1.1.2.2.6.1.2.1.1.3.3.4 - USDC For USDS Swap Maximum](6ca30d6e-df7f-47f9-93c3-b20bae6762a3) are an exception set to `Unlimited` by a Grove Spell.
+
 ###### A.6.1.1.2.2.6.1.2.1.1.3.3.1 - USDS Mint Maximum [Core]  <!-- UUID: 659aaf71-7899-47f6-977d-afc23a188833 -->
 
 The maximum amount of USDS that can be minted by the Grove Diamond PAU (`LIMIT_USDS_MINT`) is specified in the document herein.
@@ -2131,8 +2133,8 @@ The maximum amount of USDS that can be minted by the Grove Diamond PAU (`LIMIT_U
 
 The maximum amount of USDS that can be burned by the Grove Diamond PAU (`LIMIT_USDS_BURN`) is specified in the document herein.
 
-- `maxAmount`: 15,000,000 USDS
-- `slope`: 30,000,000 USDS per day
+- `maxAmount`: Unlimited
+- `slope`: 0
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.3.3 - USDS For USDC Swap Maximum [Core]  <!-- UUID: 7e53acf8-10e7-4250-a05c-bab8354aa738 -->
 
@@ -2145,8 +2147,8 @@ The maximum amount of USDS that can be swapped for USDC by the Grove Diamond PAU
 
 The maximum amount of USDC that can be swapped for USDS by the Grove Diamond PAU in the Mainnet PSM (`LIMIT_USDC_TO_USDS`) is specified in the document herein.
 
-- `maxAmount`: 15,000,000 USDC
-- `slope`: 30,000,000 USDC per day
+- `maxAmount`: Unlimited
+- `slope`: 0
 
 ###### A.6.1.1.2.2.6.1.2.1.1.4 - On-chain Parameters [Core]  <!-- UUID: 21a390bd-ffc4-4f14-b8fd-e30aacdcee89 -->
 
