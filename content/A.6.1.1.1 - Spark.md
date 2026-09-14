@@ -1430,6 +1430,10 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.5.2 - Ethereum Mainnet - Spark Blue Chip USDT Vault Instance Configuration Document](2019122c-c16d-4132-ae08-8416c3f83b23).
 
+###### A.6.1.1.1.2.6.1.1.2.1.5.3 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 5427805e-0b3c-4dbd-bde5-f027e70a9cdf -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.5.3 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document](111e9f8c-170b-4373-827a-68f3277cacf1).
+
 ###### A.6.1.1.1.2.6.1.1.2.1.6 - Spark Savings V2 [Core]  <!-- UUID: e59ca947-aa8d-4ab7-84b1-78422348a2d5 -->
 
 The Ethereum Mainnet Instances Directory of the Spark Savings v2 with `Active` Status are stored herein.
@@ -5052,6 +5056,133 @@ The documents herein define the Instance contract addresses.
 
 Timelock: 240 hours (10 days)
 
+###### A.6.1.1.1.2.6.1.3.1.5.3 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 111e9f8c-170b-4373-827a-68f3277cacf1 -->
+
+The documents herein contain the Instance Configuration Document for the Sentora RLUSD Morpho Vault V2 Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 89936ba2-5b23-4e76-be56-11819ca0828d -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2 - Parameters [Core]  <!-- UUID: 6c40f96f-812f-48fd-8d86-ffdfcea360c5 -->
+
+The documents herein define the parameters of the Sentora RLUSD Morpho Vault V2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.1 - Instance Identifiers [Core]  <!-- UUID: 8b4bbdf8-6b0e-4f67-9027-a12ceb4c6f1a -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.1.1 - Network [Core]  <!-- UUID: f04f6b39-d557-43ab-8eac-723e6dac30ce -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.1.2 - Target Protocol [Core]  <!-- UUID: 746a5eb7-c3e4-481f-a4c1-cacb7de72797 -->
+
+Morpho Vaults V2
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: e07bb7d6-ba1e-481c-98e3-d64a3cc64248 -->
+
+RLUSD
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.1.4 - Token [Core]  <!-- UUID: 92010051-063e-4dd3-93cd-481d21d84a80 -->
+
+sxsRLUSD
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.2 - Contract Addresses [Core]  <!-- UUID: a22b8b0a-b446-48be-af71-1f2501cac156 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.2.1 - Token Address [Core]  <!-- UUID: eb847f84-0071-476a-b480-0e88dad694dd -->
+
+`0xFC8C624B6080a0a780583799f2A862DE936F6E22`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 466c2918-ded4-44cf-b7fe-3d8e4794c15e -->
+
+`0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 4310527e-f12c-42f8-92c5-99def334be77 -->
+
+`0x9e396dE3312D373b87F9BD8763fb48184b42aac0`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: a5ceda84-1a52-4b4b-8cbc-20947773f121 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 1d4d28d3-a8b0-4f3a-81f7-15faa841eaae -->
+
+The inflow RateLimitID is: `0x691ad49e27e69925e77760c0b0a78a8f01f21e1b1223c2e21ba82acb0fa17ea5`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 54b85496-2102-441b-982a-dc111625067f -->
+
+The outflow RateLimitID is: `0x35a1e343579b7d855c67c8a121444658ed92733d2929b4b0ffdf01f01ac9a062`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.4 - Rate Limits [Core]  <!-- UUID: bd713d89-4d39-4fc6-b7dd-f7213053635b -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 35eb7309-33dd-4a20-ad2b-2fd260a150ee -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 10,000,000 RLUSD
+- `slope`: 100,000,000 RLUSD per day
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 0c1a4694-d980-488c-b3a2-540d3b784a59 -->
+
+The outflow rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 46376283-cdef-4055-bc94-1121fe5427d6 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 878f1380-9240-4735-a89b-dac749281903 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: e664fac5-5e79-4605-b2cf-f6c1f909694a -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.1 - Contract Addresses [Core]  <!-- UUID: 5c92f8e0-4fa7-460d-a9ba-3bb011387d72 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.1.1 - Curator Role Address [Core]  <!-- UUID: 072ceda6-e5cd-4cce-b589-02d553bf5fee -->
+
+`0xff070333654aaE76A0A77465E4F0fd101C57c03F`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.1.2 - Guardian Role Address [Core]  <!-- UUID: f9522bc0-64b0-47e3-ae97-91380b31b9de -->
+
+`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.2 - Timelocks [Core]  <!-- UUID: d547c23a-049b-46b2-81fe-e6a4c0105555 -->
+
+The timelocks for this Instance are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.2.1 - addAdapter Timelock [Core]  <!-- UUID: eff49a08-d7ac-4924-91eb-5d24070f84fa -->
+
+Timelock: 168 hours (7 days)
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.2.2 - increaseAbsoluteCap Timelock [Core]  <!-- UUID: 942dda17-24e9-4499-a66d-b121db09b52f -->
+
+Timelock: 168 hours (7 days)
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.2.3 - abdicate Timelock [Core]  <!-- UUID: c5623574-df3a-4607-8064-6e205fb1a7a1 -->
+
+Timelock: 168 hours (7 days)
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.2.4 - setIsAllocator Timelock [Core]  <!-- UUID: 8a04d5cc-3647-40ff-aeeb-aa8473fe0e4c -->
+
+Timelock: 72 hours (3 days)
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.3 - Max Exchange Rate [Core]  <!-- UUID: 3d2ac2f8-82a6-48bf-9c92-c8290fec64de -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 RLUSD:
+
+- `setMaxExchangeRate(SENTORA_RLUSD_VAULT, 1e18, 3e18)`
+
 ###### A.6.1.1.1.2.6.1.3.1.6 - Spark Savings V2 [Core]  <!-- UUID: 47f2b461-1d82-4ee8-8cd2-39c95184c51b -->
 
 The Ethereum Mainnet Instances of the Spark Savings v2 with `Active` Status are stored herein.
@@ -8453,8 +8584,8 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 250,000,000 USDe
-- `slope`: 100,000,000 USDe per day
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.4.3.4.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: a58592c6-f4f0-4874-bee1-ef11fb91c544 -->
 
@@ -11993,23 +12124,23 @@ The documents herein define the cancellation mechanisms and authorities for pend
 
 ##### A.6.1.1.1.3.9.6.1 - Authorized Cancellers [Core]  <!-- UUID: f87333c8-ec5e-4483-83a9-791e1f9f9634 -->
 
-Pending changes within the timelock must be able to be cancelled by any of the following: the Spark subdao proxy, or a designated guardian role.
+Pending changes within the timelock must be able to be cancelled by any of the following: the Spark SubProxy, a designated guardian or sentinel role, or the Curator. On Morpho Vaults v1 the Spark SubProxy and the Guardian each cancel directly; on Morpho Vaults v2, where revocation is restricted to the curator and sentinel roles, the Spark SubProxy exercises this authority through a Sentinel it appoints.
 
 ##### A.6.1.1.1.3.9.6.2 - Cancellation Reasons [Core]  <!-- UUID: 0e572cad-bdf2-437f-b272-0cd634424b19 -->
 
 Pending changes may be cancelled for the following reasons: misalignment or conflict with the Sky Atlas or Spark Artifact; excessive or unacceptable risk, as identified by the Sky Core Council; emergency situations, as defined in the Sky Atlas in [A.1.9 - Emergency Response System](1d940c6d-02ce-4c17-8057-cef13c1cc7ad); or cancellation requested by the Curator.
 
-##### A.6.1.1.1.3.9.6.3 - Guardian Role [Core]  <!-- UUID: 900c4a0d-ed93-41ad-b914-f84d50d6940e -->
+##### A.6.1.1.1.3.9.6.3 - Cancellation Authority [Core]  <!-- UUID: 900c4a0d-ed93-41ad-b914-f84d50d6940e -->
 
-A Guardian is a specific admin role defined within the Morpho smart contract system, also referred to as a Sentinel in some cases.
+A Guardian is a specific admin role defined within the Morpho smart contract system. In Morpho Vaults v1 this role is named Guardian; in Morpho Vaults v2 it is named Sentinel. Within this framework, the two are together referred to as the cancellation authority. In Morpho Vaults v2, multiple addresses may hold the Sentinel role. The vault owner may remove a Sentinel role holder without a timelock; where the vault owner is the Spark SubProxy, removal requires a Sky Executive Vote.
 
-###### A.6.1.1.1.3.9.6.3.1 - Guardian Independence [Core]  <!-- UUID: ea50c8da-008e-4f0f-b2df-ac666d5faf13 -->
+###### A.6.1.1.1.3.9.6.3.1 - Cancellation Authority Independence [Core]  <!-- UUID: ea50c8da-008e-4f0f-b2df-ac666d5faf13 -->
 
-The Guardian must be independent from the Curator for each specific smart contract instance, meaning there must be no overlap between approvers, signers, contributors, role owners, or entities between the two roles. Compromise or misalignment of the Curator role should not in itself create risk of the Guardian role also becoming compromised.
+The cancellation authority holder controlled by the Operational Executor Agent must use a signer set separate from the signer set of the Curator multisig for the same smart contract instance, and at least one cancellation authority holder must be fully independent of every entity serving in the Curator role. Compromise or misalignment of the Curator role must not in itself remove the ability of the cancellation authority to cancel pending changes.
 
-###### A.6.1.1.1.3.9.6.3.2 - Guardian Reporting [Core]  <!-- UUID: ac45b63b-3394-49d6-aab7-ff67b1d4fd0c -->
+###### A.6.1.1.1.3.9.6.3.2 - Cancellation Authority Reporting [Core]  <!-- UUID: ac45b63b-3394-49d6-aab7-ff67b1d4fd0c -->
 
-All actions taken under a Guardian role must be reported by the Guardian in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, a description of the action, general reasoning for the action, and justification for the action being within the governance-approved mandate.
+All actions taken under the cancellation authority must be reported by the acting role holder in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, a description of the action, general reasoning for the action, and justification for the action being within the governance-approved mandate.
 
 #### A.6.1.1.1.3.9.7 - Delegated Risk Curation Instances [Core]  <!-- UUID: b3b590f9-0d3e-4c4a-a9e5-5b114d3c0ae4 -->
 
@@ -12035,9 +12166,13 @@ The entity or entities serving in the curator role, including how the role is co
 
 The specific execution actions the curator is permitted to take, subject to prior Spark governance approval via polling.
 
-###### A.6.1.1.1.3.9.7.1.5 - Guardian [Core]  <!-- UUID: 817391bd-3748-479c-846e-f8d3e3ec56f4 -->
+###### A.6.1.1.1.3.9.7.1.5 - Cancellation Authority [Core]  <!-- UUID: 817391bd-3748-479c-846e-f8d3e3ec56f4 -->
 
-The entity or entities serving in the guardian role, including how the role is controlled at the smart contract level and how cancellation authority is exercised.
+The entity or entities serving in the guardian or sentinel role, including how each is controlled at the smart contract level and how cancellation authority is exercised.
+
+###### A.6.1.1.1.3.9.7.1.6 - Allocator [Core]  <!-- UUID: cdd77814-d406-40ab-8a99-28127c1b70c4 -->
+
+The entity or entities serving in the Allocator role, where the Allocator is not the Prime Agent itself.
 
 ##### A.6.1.1.1.3.9.7.2 - Approved Instances [Core]  <!-- UUID: 5f30c335-8f12-4cc7-becd-f542a7546463 -->
 
@@ -12051,7 +12186,7 @@ The Spark USDS Morpho Vault on Ethereum Mainnet is an approved instance with the
 - Contract Address: `0xe41a0583334f0dc4E023Acd0bFef3667F6FE0597`
 - Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
 
 ###### A.6.1.1.1.3.9.7.2.2 - Spark Blue Chip USDC Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 603cf96e-5819-4e3d-942e-5290dd000847 -->
 
@@ -12061,17 +12196,17 @@ The Spark Blue Chip USDC Morpho Vault on Ethereum mainnet is an approved instanc
 - Contract Address: `0x56A76b428244a50513ec81e225a293d128fd581D`
 - Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
 
 ###### A.6.1.1.1.3.9.7.2.3 - Spark Blue Chip USDT Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 5ef1e78f-e1d2-4b09-b00c-618e36ccb2d8 -->
 
 The Spark Blue Chip USDT Morpho Vault on Ethereum mainnet is an approved instance with the following details:
 
 - Instance Name: Spark Blue Chip USDT Morpho Vault (Ethereum Mainnet)
-- Contract Address: `0xc7CDcFDEfC64631ED6799C95e3b110cd42F2bD22`
+- Contract Address: `0xb0c424116172B55CbB6dD3136F5989F7959e5B91`
 - Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
 
 ###### A.6.1.1.1.3.9.7.2.4 - Spark USDC Morpho Vault - Base [Core]  <!-- UUID: 85722a93-ec30-4e7f-883c-adde12b0ac6b -->
 
@@ -12081,7 +12216,18 @@ The Spark USDC Morpho Vault on Base is an approved instance with the following d
 - Contract Address: `0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A`
 - Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+
+###### A.6.1.1.1.3.9.7.2.5 - Sentora RLUSD Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 67d8abe9-a398-4c7c-9e0d-ee48e97489e1 -->
+
+The Sentora RLUSD Morpho Vault on Ethereum Mainnet is an approved instance with the following details:
+
+- Instance Name: Sentora RLUSD Morpho Vault (Ethereum Mainnet)
+- Contract Address: `0xFC8C624B6080a0a780583799f2A862DE936F6E22`
+- Curator: Soter Labs and Sentora, implemented via a Gnosis Safe multisig at `0xff070333654aaE76A0A77465E4F0fd101C57c03F`, requiring a 2 of 2 signer approval threshold
+- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
+- Cancellation Authority: Sentinel role held by the Spark Foundation multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold, together with a Soter Labs multisig at `0xb5bFd4883256089Dc58D962b80ab7068e71E7c80`, requiring a 2 of 3 signer approval threshold, and a Sentora multisig at `0x9e396dE3312D373b87F9BD8763fb48184b42aac0`, requiring a 1 of 1 signer approval threshold
+- Allocator: Sentora, at `0x9e396dE3312D373b87F9BD8763fb48184b42aac0` and at `0xC4Ba4e822C420452fe2BAB93211208D3CcBd79D3`
 
 ### A.6.1.1.1.3.10 - Confidential Strategic Integrations and Deployments [Core]  <!-- UUID: 5902deeb-0c4d-4df6-89bb-22212b81e96a -->
 
