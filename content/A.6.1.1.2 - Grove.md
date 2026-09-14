@@ -9370,6 +9370,12 @@ The withdrawal rate limits are:
 
 - `maxAmount`: Unlimited
 
+###### A.6.1.1.2.2.6.1.3.3.1.2.2.4.3 - Max Exchange Rate [Core]  <!-- UUID: 5ebaa8eb-97c9-491c-83bf-0029785485a1 -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 1.15 USDC.
+
+- `setMaxExchangeRate(GROVE_X_STEAKHOUSE_USDC_V2_BASE, 1e18, 1.15e6)`
+
 ###### A.6.1.1.2.2.6.1.3.3.1.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: d1dbe262-dae8-4520-b98e-8000caf3e8ae -->
 
 The documents herein contain specific off-chain parameters for this Instance.
@@ -9381,12 +9387,6 @@ The documents herein contain operational procedures or monitoring requirements u
 ###### A.6.1.1.2.2.6.1.3.3.1.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 72d88cdd-2461-4cdb-88dc-59421d27a037 -->
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
-
-###### A.6.1.1.2.2.6.1.3.3.1.2.4.1 - Max Exchange Rate [Core]  <!-- UUID: 5ebaa8eb-97c9-491c-83bf-0029785485a1 -->
-
-Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 1.15 USDC.
-
-- `setMaxExchangeRate(GROVE_X_STEAKHOUSE_USDC_V2_BASE, 1e18, 1.15e6)`
 
 ###### A.6.1.1.2.2.6.1.3.3.2 - Base - Steakhouse Prime Instant USDC Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: d47ec9c3-b308-453a-989a-7396504f6a99 -->
 
