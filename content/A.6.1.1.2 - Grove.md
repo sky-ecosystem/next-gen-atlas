@@ -2134,7 +2134,6 @@ The maximum amount of USDS that can be minted by the Grove Diamond PAU (`LIMIT_U
 The maximum amount of USDS that can be burned by the Grove Diamond PAU (`LIMIT_USDS_BURN`) is specified in the document herein.
 
 - `maxAmount`: Unlimited
-- `slope`: 0
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.3.3 - USDS For USDC Swap Maximum [Core]  <!-- UUID: 7e53acf8-10e7-4250-a05c-bab8354aa738 -->
 
@@ -2148,7 +2147,6 @@ The maximum amount of USDS that can be swapped for USDC by the Grove Diamond PAU
 The maximum amount of USDC that can be swapped for USDS by the Grove Diamond PAU in the Mainnet PSM (`LIMIT_USDC_TO_USDS`) is specified in the document herein.
 
 - `maxAmount`: Unlimited
-- `slope`: 0
 
 ###### A.6.1.1.2.2.6.1.2.1.1.4 - On-chain Parameters [Core]  <!-- UUID: 21a390bd-ffc4-4f14-b8fd-e30aacdcee89 -->
 
