@@ -5183,6 +5183,10 @@ Controllers now have protections that require a `maxExchangeRate` to be set for 
 
 - `setMaxExchangeRate(SENTORA_RLUSD_VAULT, 1e18, 3e18)`
 
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.4 - Force-Deallocate Penalty [Core]  <!-- UUID: 31442285-5a0d-4737-bc20-5eaf5c04624c -->
+
+Force-Deallocate Penalty: 0.01%
+
 ###### A.6.1.1.1.2.6.1.3.1.6 - Spark Savings V2 [Core]  <!-- UUID: 47f2b461-1d82-4ee8-8cd2-39c95184c51b -->
 
 The Ethereum Mainnet Instances of the Spark Savings v2 with `Active` Status are stored herein.
