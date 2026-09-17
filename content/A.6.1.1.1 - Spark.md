@@ -9684,9 +9684,9 @@ At the end of a Delegate's six (6) month term (see [A.6.1.1.1.3.1.3.4.3 - Minimu
 
 Delegates are compensated for their service as follows:
 
-1. Compensation Amount. Active Delegates receive USD 4,000 per calendar month.
+1. Compensation Amount. The Spark Foundation determines compensation for Active Delegates in its sole discretion, subject to both a maximum of USD 4,000 per Delegate per calendar month of service and a maximum of USD 20,000 in aggregate across all Delegates for the same calendar month of service.
 2. Administration. The Spark Foundation administers compensation from its approved operating budget.
-3. Timing & Proration. The compensation structure goes into effect by December 1st 2025, with first payment being made January 2026. Payment is made monthly in arrears and prorated for partial months of service.
+3. Timing & Proration. Payment is made monthly in arrears and prorated for partial months of service. The Spark Foundation must notify each Delegate of the applicable compensation and its effective date before service at that compensation begins. Compensation for service before that date remains governed by the terms applicable when the service was provided, subject to the eligibility and clawback provisions below.
 4. Eligibility & Clawback. Payment requires the Delegate to be in good standing and to have met responsibilities in [A.6.1.1.1.3.1.3.3 - Delegate Responsibilities](f230ba4e-eb5a-444e-b07a-13a0292338bd) during the covered period; the Spark Foundation may withhold or claw back amounts for non-performance or breach.
 5. No Waiver of Oversight. Compensation does not limit or waive any onboarding, renewal, or offboarding requirements.
 
@@ -10040,7 +10040,7 @@ The current USDT risk parameters are:
 - Optimal Utilization: 95%
 - Isolated Debt Ceiling: N/A
 - Base Rate: 0%
-- Slope 1: SSR value + 0.5%
+- Slope 1: SSR value + 0.1%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: No
@@ -10198,7 +10198,7 @@ The current rETH risk parameters are:
 
 The current LBTC risk parameters are:
 
-- LTV: 74%
+- LTV: 0%
 - Liquidation Threshold: 75%
 - E-mode Category: 0
 - Liquidation Bonus: 8%
@@ -11099,10 +11099,10 @@ Operational expense reserve is calculated as the higher of past month’s operat
 
 ###### A.6.1.1.1.3.4.2.2.3 - Parameters [Core]  <!-- UUID: 7410ed94-db95-437a-a4d2-9120036ec7bd -->
 
-The current Target SubDAO Proxy Value parameters are:
+The Target SubProxy Value parameters in effect at this time are:
 
 - RRC Lookback Period: 3 months
-- Spark Product Backstop: 1 million USDS
+- Spark Product Backstop: 5 million USDS
 - Target Runway: 12 months
 
 ##### A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy [Core]  <!-- UUID: 6a4870fa-73f1-4d49-b7ee-d531fb59a971 -->
@@ -11115,7 +11115,9 @@ The subdocuments herein provide definitions for relevant parameters and values.
 
 ###### A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value [Core]  <!-- UUID: 9705a4be-e92f-4195-8e85-1cfe19ec1a0d -->
 
-The Current SubDAO Proxy Value is defined as the sum of all USDS tokens held in the Spark SubDAO on Ethereum at 0x3300f198988e4C9C63F75dF86De36421f06af8c4. Note that the operational process of excess SubDAO Proxy funds disposition as defined in [A.6.1.1.1.3.4.2.3.2 - Operational Process](dfa483c7-5adb-480e-9f82-c97cf4d0f74e) uses the most up-to-date onchain value for the Current SubDAO Proxy Value, and this does not need to be updated in the Spark Artifact as it is expected to fluctuate frequently based on monthly settlements and other operational processes.
+The Current SubProxy Value is defined as the sum of all USDS tokens held in the Spark SubProxy on Ethereum at wallet address 0x3300f198988e4C9C63F75dF86De36421f06af8c4, less the USDS value of the accrued but unrealized liabilities of Spark Savings vaults which, for the avoidance of doubt, consist of the yield that has accrued on Spark Savings depositors’ positions but that those users have not withdrawn.
+
+The Spark SubProxy’s USDS balance and the USDS value of the accrued but unrealized liabilities of Spark Savings vaults must be measured as of the same valuation time specified in section [A.6.1.1.1.3.4.2.3.2 - Operational Process](dfa483c7-5adb-480e-9f82-c97cf4d0f74e). The calculated Current SubProxy Value does not need to be recorded in the Spark Artifact for each monthly cycle.
 
 ###### A.6.1.1.1.3.4.2.3.1.2 - Standard Buyback Rate [Core]  <!-- UUID: 796dc640-03a7-4608-b676-a235a68174b1 -->
 
@@ -11135,9 +11137,17 @@ The Buyback Executor is the entity responsible for receiving excess SubDAO Proxy
 
 ###### A.6.1.1.1.3.4.2.3.2 - Operational Process [Core]  <!-- UUID: dfa483c7-5adb-480e-9f82-c97cf4d0f74e -->
 
-Each month, immediately following Spark’s monthly settlement with Sky, the Current SubDAO Proxy Value with be calculated based on the definition in [A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value](9705a4be-e92f-4195-8e85-1cfe19ec1a0d), and the Target SubDAO Proxy Value based on the evaluation method in [A.6.1.1.1.3.4.2.2.2 - Evaluation Method](99d4b8da-fa5c-49ce-b93c-70d07334d7aa). If the Current SubDAO Proxy Value is greater than the Target SubDAO Proxy Value, this excess SubDAO Proxy Value is multiplied by the Standard Buyback Rate parameter up to the Enhanced Buyback Threshold, and then by the Enhanced Buyback Rate for any amount in excess of the Enhanced Buyback Threshold. The buyback amount for the month is set as the sum of the two values of the standard and enhanced buybacks.
+For each monthly buyback cycle, Spark must calculate the Current SubProxy Value and Target SubProxy Value as of 16:00 UTC on the first (1st) day of that month. The Current SubProxy Value must be calculated in accordance with section [A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value](9705a4be-e92f-4195-8e85-1cfe19ec1a0d), and the Target SubProxy Value in accordance with section [A.6.1.1.1.3.4.2.2.2 - Evaluation Method](99d4b8da-fa5c-49ce-b93c-70d07334d7aa).
 
-The next available Spark proxy Spell will include a transfer of this calculated buyback amount to the designated Buyback Executor. After using the transferred funds to purchase SPK, the Buyback Executor will transfer all accrued SPK to the Spark SubDAO Proxy.
+If the Current SubProxy Value is greater than the Target SubProxy Value, the excess is used to calculate the standard and enhanced buyback amounts. The Standard Buyback Rate applies to the portion of the Current SubProxy Value that is in excess of the Target SubProxy Value and up to the Enhanced Buyback Threshold. The Enhanced Buyback Rate applies to the portion of the Current SubProxy Value from and above the Enhanced Buyback Threshold. The Enhanced Buyback Threshold is determined as a percentage of the Target SubProxy Value in accordance with section [A.6.1.1.1.3.4.2.3.1.4 - Enhanced Buyback Threshold](e150176c-1da5-4adb-ba5d-f344d0be03ae).
+
+For the avoidance of doubt, if the Current SubProxy Value is less than or equal to the Target SubProxy Value, no buyback transfer is made for that monthly cycle.
+
+Spark must include the relevant buyback transfer to the designated Buyback Executor in the next available Spark proxy Spell with a voting date scheduled on or after the twenty-second (22nd) day of the month to which the calculation relates, subject to the Prime Spell Process.
+
+In respect of each buyback transfer, the Buyback Executor must use an onchain time-weighted average price (TWAP) mechanism to purchase SPK tokens with the transferred USDS over a period of ninety (90) days beginning from the Buyback Executor’s receipt of the relevant buyback transfer. After using the transferred funds to purchase SPK, the Buyback Executor must transfer any and all SPK tokens purchased pursuant to the relevant buyback transfer to the Spark SubProxy as soon as is reasonably practicable. For the avoidance of doubt, buyback transfers executed onchain before this amendment comes into effect remain subject to the Operational Process that was in effect at the time of the buyback transfer.
+
+Spark remains subject at all times to the Target SubProxy Value restriction in section [A.6.1.1.1.3.4.2.2.1.1 - Target SubDAO Proxy Value Definition](3baabdcc-d715-419d-97b7-28936d4b0f95) and the capital management obligations in section [A.6.1.1.1.3.4.2.1.2 - Operational Process](7bc96051-ce11-4e29-aa30-b535183aeaa7), including during the time between the monthly valuation of the Spark SubProxy and execution of the buyback transfer.
 
 ###### A.6.1.1.1.3.4.2.3.3 - Parameters [Core]  <!-- UUID: b52a4011-5346-4de7-9522-90ae66b81600 -->
 
@@ -12092,23 +12102,29 @@ A Curator is a specific admin role defined within the Morpho smart contract syst
 
 ##### A.6.1.1.1.3.9.3.2 - Scope of Authority [Core]  <!-- UUID: e4fb1a94-cfd8-40d3-ac79-966dd9f8db24 -->
 
-Curators may only execute actions that have been explicitly approved by Spark governance via polling.
+Curators may only implement changes that have been explicitly approved by Spark governance via polling. Curators may queue changes before approval in accordance with [A.6.1.1.1.3.9.4.1 - Polling Requirement](218f889f-6a5d-46a8-b8a3-cb0a075825c2), and may cancel pending changes in accordance with [A.6.1.1.1.3.9.6.2 - Cancellation Reasons](0e572cad-bdf2-437f-b272-0cd634424b19).
 
 ##### A.6.1.1.1.3.9.3.3 - Reporting of Curator Actions [Core]  <!-- UUID: 6f64ac9e-daf1-4339-8046-3894e57f4383 -->
 
-All actions taken under a Curator role must be reported by the Curator in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, the UTC time at which the timelock period for the action elapses, a description of the action being implemented, and a link to the poll which provided governance approval for the action.
+All actions taken under a Curator role must be reported by the Curator in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, the UTC time at which the timelock period for the action elapses, a description of the action being implemented, and a link to the related proposal and governance poll, if the poll is available. For a change queued before approval, the report must state that governance approval had not been obtained when the change was queued and include the expected poll closing time in UTC used when queueing.
 
 #### A.6.1.1.1.3.9.4 - Governance Approval Process [Core]  <!-- UUID: e3ddbd39-ee57-4b17-b66e-8bc823a03098 -->
 
-The documents herein describe the requirements for all Curator actions to be approved by governance.
+The documents herein describe the requirements for governance approval before implementation of Curator changes and the conditions for queueing changes before approval.
 
 ##### A.6.1.1.1.3.9.4.1 - Polling Requirement [Core]  <!-- UUID: 218f889f-6a5d-46a8-b8a3-cb0a075825c2 -->
 
-All curator-executed changes must be approved in advance by Spark governance through a polling process.
+All curator-executed changes must be approved by Spark governance through a polling process before they are implemented.
+
+A Curator may queue a proposed change before the related governance poll is created or approved, provided that the onchain timelock for the pending change will expire no earlier than twenty-four (24) hours after the expected closing time of that poll. Queueing means submitting a change to the onchain timelock without implementing it. All applicable timelock delays continue to apply.
+
+The twenty-four (24) hour condition applies when the change is queued. Once the related poll is created, its actual closing time, including any subsequent change to that time, must be used to assess the remaining period before the pending change becomes executable. Cancellation on timing grounds is required only if that period is less than twenty (20) hours.
+
+The pending change must match the change submitted for approval. If the poll does not approve that change, or the actual poll closing time leaves less than twenty (20) hours before the pending change becomes executable, the pending change must be cancelled in accordance with [A.6.1.1.1.3.9.6.2 - Cancellation Reasons](0e572cad-bdf2-437f-b272-0cd634424b19).
 
 ##### A.6.1.1.1.3.9.4.2 - Execution Authority [Core]  <!-- UUID: 48e6eeb9-86c0-4bfa-8be0-e9917d163118 -->
 
-Following successful governance approval, the Curator is authorized to execute the approved change or changes by submitting the corresponding onchain transaction or transactions.
+The Curator is authorized to submit the onchain transactions needed to queue a change before governance approval only under the conditions in [A.6.1.1.1.3.9.4.1 - Polling Requirement](218f889f-6a5d-46a8-b8a3-cb0a075825c2). Following successful governance approval, the approved change or changes may be implemented only after the applicable timelock has expired. Queueing a change does not authorize its implementation.
 
 #### A.6.1.1.1.3.9.5 - Timelock Controls [Core]  <!-- UUID: a4f6132e-787f-445a-9290-bd810b9eb93f -->
 
@@ -12134,6 +12150,8 @@ Pending changes within the timelock must be able to be cancelled by any of the f
 
 Pending changes may be cancelled for the following reasons: misalignment or conflict with the Sky Atlas or Spark Artifact; excessive or unacceptable risk, as identified by the Sky Core Council; emergency situations, as defined in the Sky Atlas in [A.1.9 - Emergency Response System](1d940c6d-02ce-4c17-8057-cef13c1cc7ad); or cancellation requested by the Curator.
 
+For a change queued before governance approval, the Curator and the cancellation authority holders for the relevant smart contract instance are responsible for ensuring that the pending change is cancelled before it becomes executable if the related poll does not approve the exact pending change, including where the poll is not held, is withdrawn or cancelled, or closes without a valid approval result. The same responsibility applies on timing grounds only if the actual poll closing time, including any subsequent change to that time, leaves less than twenty (20) hours before the pending change becomes executable. A period of twenty (20) hours or more does not require cancellation on timing grounds; the other cancellation reasons and the duty to cancel unapproved changes remain applicable. Any actor authorized under [A.6.1.1.1.3.9.6.1 - Authorized Cancellers](f87333c8-ec5e-4483-83a9-791e1f9f9634) may fulfil this responsibility by cancelling the pending change; once it has been cancelled, no duplicate cancellation is required.
+
 ##### A.6.1.1.1.3.9.6.3 - Cancellation Authority [Core]  <!-- UUID: 900c4a0d-ed93-41ad-b914-f84d50d6940e -->
 
 A Guardian is a specific admin role defined within the Morpho smart contract system. In Morpho Vaults v1 this role is named Guardian; in Morpho Vaults v2 it is named Sentinel. Within this framework, the two are together referred to as the cancellation authority. In Morpho Vaults v2, multiple addresses may hold the Sentinel role. The vault owner may remove a Sentinel role holder without a timelock; where the vault owner is the Spark SubProxy, removal requires a Sky Executive Vote.
@@ -12141,6 +12159,8 @@ A Guardian is a specific admin role defined within the Morpho smart contract sys
 ###### A.6.1.1.1.3.9.6.3.1 - Cancellation Authority Independence [Core]  <!-- UUID: ea50c8da-008e-4f0f-b2df-ac666d5faf13 -->
 
 The cancellation authority holder controlled by the Operational Executor Agent must use a signer set separate from the signer set of the Curator multisig for the same smart contract instance, and at least one cancellation authority holder must be fully independent of every entity serving in the Curator role. Compromise or misalignment of the Curator role must not in itself remove the ability of the cancellation authority to cancel pending changes.
+
+The requirements of this section do not apply to the independence of the Curator from a cancellation authority holder controlled by the Operational GovOps of an Operational Executor Agent or by another actor expressly designated by Sky Governance to exercise cancellation authority for the relevant smart contract instance. This section does not require such a holder to use a signer set separate from the Curator’s, and does not require an additional independent cancellation authority holder for an instance with such a holder.
 
 ###### A.6.1.1.1.3.9.6.3.2 - Cancellation Authority Reporting [Core]  <!-- UUID: ac45b63b-3394-49d6-aab7-ff67b1d4fd0c -->
 
