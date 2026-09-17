@@ -2458,8 +2458,11 @@ The documents herein define roles (Admin, Relayer, ALM Controller and Freezer) a
 
 The admin role (`DEFAULT_ADMIN_ROLE`) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Keel Proxy.
 
-`constructor(address admin) {
-_grantRole(DEFAULT_ADMIN_ROLE, admin);`
+```solidity
+constructor(address admin_) {
+    _grantRole(DEFAULT_ADMIN_ROLE, admin_);
+}
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.1.2 - Relayer Role [Core]  <!-- UUID: 1b64d5b8-ea7d-408e-a409-3e9e72989396 -->
 
@@ -2489,7 +2492,7 @@ The documents herein define the operations performed by the admin role (see [A.6
 
 The documents herein define the steps for an admin to specify which address should receive newly minted tokens on a particular destination domain.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.1.1.1 - Call setMintRecipient Function [Core]  <!-- UUID: 0d2d22cf-1ee4-44ee-8e10-95f516da51a9 -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.1.1.1 - setMintRecipient Function [Core]  <!-- UUID: 0d2d22cf-1ee4-44ee-8e10-95f516da51a9 -->
 
 Only an operator with the admin role is able to set the mint recipient for a destination domain. To do so, they must call the `setMintRecipient` function on the Controller contract on mainnet providing the destination domain and the mint recipient address. Calling this function will carry out the following actions:
 
@@ -2497,15 +2500,17 @@ Only an operator with the admin role is able to set the mint recipient for a des
 - The contract will set the selected mint recipient for the specified destination domain.
 - The contract will emit a `MintRecipientSet` event to the blockchain logs.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function setMintRecipient(uint32 destinationDomain, bytes32 mintRecipient) external`
+```solidity
+function setMintRecipient(uint32 destinationDomain, bytes32 mintRecipient) external
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.1.2 - Set LayerZero Recipient [Core]  <!-- UUID: 753bcc77-e4a6-438b-942c-bf2b4ef908be -->
 
 The documents herein define the steps for an admin to specify which address should receive LayerZero messages on a particular destination endpoint.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.1.2.1 - Call setLayerZeroRecipient Function [Core]  <!-- UUID: aceb66dc-7349-4d49-a893-7ed417e83797 -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.1.2.1 - setLayerZeroRecipient Function [Core]  <!-- UUID: aceb66dc-7349-4d49-a893-7ed417e83797 -->
 
 Only an operator with the admin role is able to set the LayerZero recipient for a destination endpoint. To do so, they must call the `setLayerZeroRecipient` function on the Controller contract on mainnet, providing the destination endpoint ID and the recipient address. Calling this function will carry out the following actions:
 
@@ -2513,15 +2518,17 @@ Only an operator with the admin role is able to set the LayerZero recipient for 
 - The contract will set the selected LayerZero recipient for the specified destination endpoint.
 - The contract will emit a `LayerZeroRecipientSet` event to the blockchain logs.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function setLayerZeroRecipient(uint32 destinationEndpointId, bytes32 layerZeroRecipient) external`
+```solidity
+function setLayerZeroRecipient(uint32 destinationEndpointId, bytes32 layerZeroRecipient) external
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.1.3 - Set Maximum Slippage [Core]  <!-- UUID: 323bb906-f37c-470d-8124-b133a050ffa6 -->
 
 The documents herein define the steps for an admin to set the maximum allowed slippage for a specific pool.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.1.3.1 - Set The Maximum Slippage Function [Core]  <!-- UUID: 8838da61-5edf-4ad5-b910-d4536aecd822 -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.1.3.1 - setMaxSlippage Function [Core]  <!-- UUID: 8838da61-5edf-4ad5-b910-d4536aecd822 -->
 
 Only an operator with the admin role is able to set the maximum slippage for a pool. To do so, they must call the `setMaxSlippage` function on the Controller contract on mainnet, providing the pool address and the maximum slippage value. Calling this function will carry out the following actions:
 
@@ -2529,9 +2536,11 @@ Only an operator with the admin role is able to set the maximum slippage for a p
 - The contract will set the maximum slippage for the specified pool.
 - The contract will emit a `MaxSlippageSet` event to the blockchain logs.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function setMaxSlippage(address pool, uint256 maxSlippage) external`
+```solidity
+function setMaxSlippage(address pool, uint256 maxSlippage) external
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2 - Relayer Functions [Core]  <!-- UUID: 0a7927fb-3301-423a-9b8f-6eff2c995dd0 -->
 
@@ -2545,7 +2554,7 @@ The documents herein define the operations that are performed to maintain the de
 
 The documents herein define the steps for a relayer to mint USDS from the Sky Allocation Vault to the Keel ALM Proxy.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.1.1.1 - Call mintUSDS Function [Core]  <!-- UUID: 768ca90b-8432-456c-8f75-2469514d6969 -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.1.1.1 - mintUSDS Function [Core]  <!-- UUID: 768ca90b-8432-456c-8f75-2469514d6969 -->
 
 Only an operator with the relayer role is able to mint USDS. To do so, they must call the mintUSDS function on the Controller contract on mainnet with the amount of USDS that is required for minting. Calling this function will carry out the following actions:
 
@@ -2555,15 +2564,17 @@ Only an operator with the relayer role is able to mint USDS. To do so, they must
 - The contract will mint the required USDS into the buffer contract.
 - The contract will transfer the newly minted USDS from the buffer to the Proxy.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function mintUSDS(uint256 usdsAmount) external`
+```solidity
+function mintUSDS(uint256 usdsAmount) external
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.1.2 - Burn USDS [Core]  <!-- UUID: 9c9536a8-bb2d-4d37-98cf-4c25a5699026 -->
 
 The documents herein define the steps for a relayer to return and then burn Keel’s USDS debt in the Sky Allocation Vault.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.1.2.1 - Call burnUSDS Function [Core]  <!-- UUID: 59b093a0-9025-4c60-ba6f-7a2e78a35ed4 -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.1.2.1 - burnUSDS Function [Core]  <!-- UUID: 59b093a0-9025-4c60-ba6f-7a2e78a35ed4 -->
 
 Only an operator with the relayer role is able to repay vault debt and burn USDS. To do so, they must call the burnUSDS function of the Controller contract on mainnet with the amount of USDS that they wish to burn. Calling this function will carry out the following actions:
 
@@ -2572,9 +2583,11 @@ Only an operator with the relayer role is able to repay vault debt and burn USDS
 - The contract will transfer USDS from the proxy to the buffer.
 - The contract will burn the USDS from the buffer and `wipe` an equivalent amount from the vault's debt.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function burnUSDS(uint256 usdsAmount) external`
+```solidity
+function burnUSDS(uint256 usdsAmount) external
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.2 - ERC-20 Functions [Core]  <!-- UUID: 7f8d8294-d5d6-437e-aae1-a1ee36c11e7e -->
 
@@ -2584,7 +2597,7 @@ The documents herein define the operations that are performed to transfer ERC-20
 
 The documents herein define the steps for a relayer to transfer ERC-20 tokens to a destination address.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.2.1.1 - Call transferAsset Function [Core]  <!-- UUID: fa55c1fb-83b5-4f73-a7a4-116d2c7814dd -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.2.1.1 - transferAsset Function [Core]  <!-- UUID: fa55c1fb-83b5-4f73-a7a4-116d2c7814dd -->
 
 Only an operator with the relayer role is able to transfer ERC-20 assets. To do so, they must call the `transferAsset` function on the Controller contract on mainnet, providing the ERC20 asset address, the destination address, and the amount to transfer. Calling this function will carry out the following actions:
 
@@ -2592,9 +2605,11 @@ Only an operator with the relayer role is able to transfer ERC-20 assets. To do 
 - The contract will ensure the `RateLimits` allow for transferring the specified amount of the asset to the destination. If the transfer amount does not fall within the available Rate Limit, the transaction will revert.
 - The contract will execute the ERC-20 `transfer` function, sending the specified amount of the asset to the destination address.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function transferAsset(address asset, address destination, uint256 amount) external`
+```solidity
+function transferAsset(address asset, address destination, uint256 amount) external
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.3 - ERC-4626 Functions [Core]  <!-- UUID: 3de32801-e895-4a21-84da-aa5818d16349 -->
 
@@ -2604,7 +2619,7 @@ The documents herein define the general Keel Liquidity Layer operational procedu
 
 The documents herein define the steps for a relayer to deposit assets from the ALM Proxy to an ERC-4626 vault to receive yield-bearing shares.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.3.1.1 - Call depositERC4626 Function [Core]  <!-- UUID: 4e2c13af-7f66-4b87-9662-693e94212c28 -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.3.1.1 - depositERC4626 Function [Core]  <!-- UUID: 4e2c13af-7f66-4b87-9662-693e94212c28 -->
 
 Only an operator with the relayer role can deposit assets into an ERC-4626 vault. To do so, they must call the `depositERC4626` function on the Controller contract on mainnet, providing the vault token address and the amount of the underlying asset to deposit. The operation will only succeed if the ALM Proxy holds at least the amount of the underlying asset specified for deposit; otherwise, the transaction will revert. The rate limit configuration serves as whitelisting for vaults. Calling this function will carry out the following actions:
 
@@ -2613,15 +2628,17 @@ Only an operator with the relayer role can deposit assets into an ERC-4626 vault
 - The contract will approve the vault to spend the underlying asset from the ALM Proxy. The approval and deposit are both performed from the ALM Proxy address.
 - The contract will deposit the specified amount into the vault, and the ALM Proxy will receive the corresponding number of vault shares.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function depositERC4626(address token, uint256 amount) external returns (uint256 shares)`
+```solidity
+function depositERC4626(address token, uint256 amount) external returns (uint256 shares)
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.3.2 - Withdraw From ERC-4626 Vault [Core]  <!-- UUID: ad2c7a22-96aa-428d-a373-b92fec3b529f -->
 
 The documents herein define the steps for a relayer to withdraw a specified amount of the underlying asset from an ERC-4626 vault to the ALM Proxy.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.3.2.1 - Call withdrawERC4626 Function [Core]  <!-- UUID: 37c09b7c-6aa0-4c3c-861e-984de4e3ba4d -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.3.2.1 - withdrawERC4626 Function [Core]  <!-- UUID: 37c09b7c-6aa0-4c3c-861e-984de4e3ba4d -->
 
 Only an operator with the relayer role can withdraw assets from an ERC-4626 vault. To do so, call the `withdrawERC4626` function on the Controller contract on mainnet, providing the vault token address and the amount of the underlying asset to withdraw. The operation will only succeed if the ALM Proxy holds at least the amount of the underlying asset specified for withdrawal; otherwise, the transaction will revert. When this function is called:
 
@@ -2630,15 +2647,17 @@ Only an operator with the relayer role can withdraw assets from an ERC-4626 vaul
 - The contract will withdraw the specified amount from the vault, burning the necessary number of vault shares held by the ALM Proxy as part of the withdrawal process.
 - The withdrawn assets will be sent to the ALM Proxy.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function withdrawERC4626(address token, uint256 amount) external returns (uint256 shares)`
+```solidity
+function withdrawERC4626(address token, uint256 amount) external returns (uint256 shares)
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.3.3 - Redeem ERC-4626 Shares [Core]  <!-- UUID: eec2b12a-6578-483a-824e-1442f3b0410c -->
 
 The documents herein define the steps for a relayer to redeem vault shares for the underlying asset from an ERC-4626 vault, with the assets sent to the ALM Proxy.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.3.3.1 - Call redeemERC4626 Function [Core]  <!-- UUID: a6474ee7-317b-430b-abd7-bf81a50ca898 -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.3.3.1 - redeemERC4626 Function [Core]  <!-- UUID: a6474ee7-317b-430b-abd7-bf81a50ca898 -->
 
 Only an operator with the relayer role can redeem vault shares for the underlying asset. To do so, they must call the `redeemERC4626` function on the Controller contract on mainnet, providing the number of shares to redeem. The address is the ALM Proxy acting as both the owner of the shares being redeemed and the receiver of the resulting assets. The operation will only succeed if the ALM Proxy holds at least the number of shares specified for redemption; otherwise, the transaction will revert. When this function is called:
 
@@ -2646,9 +2665,11 @@ Only an operator with the relayer role can redeem vault shares for the underlyin
 - The contract will redeem the specified number of shares from the vault, sending the resulting assets to the ALM Proxy.
 - After redemption, the contract will update the withdrawal rate limit based on the amount of assets received.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function redeemERC4626(address token, uint256 shares) external returns (uint256 assets)`
+```solidity
+function redeemERC4626(address token, uint256 shares) external returns (uint256 assets)
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.4 - ERC-7540 Functions [Core]  <!-- UUID: ff9638aa-a4d5-4a5e-a2bb-9b924b9987f9 -->
 
@@ -2658,7 +2679,7 @@ The documents herein define the general Keel Liquidity Layer operational procedu
 
 The documents herein define the steps for a relayer to request and claim deposit of assets from the ALM Proxy to an ERC-7540 vault.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.4.1.1 - Call requestDepositERC7540 Function [Core]  <!-- UUID: e86cf2c1-31f6-4f83-8120-89b52611adae -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.4.1.1 - requestDepositERC7540 Function [Core]  <!-- UUID: e86cf2c1-31f6-4f83-8120-89b52611adae -->
 
 Only an operator with the relayer role can request a deposit into an ERC-7540 vault. To do so, they must call the `requestDepositERC7540` function on the Controller contract on mainnet, providing the vault token address and the amount of the underlying asset to deposit. The operation will only succeed if the ALM Proxy holds at least the amount of the underlying asset specified for deposit; otherwise, the transaction will revert. The Rate Limit configuration serves as whitelisting for vaults. Calling this function will carry out the following actions:
 
@@ -2667,11 +2688,13 @@ Only an operator with the relayer role can request a deposit into an ERC-7540 va
 - The contract will approve the vault to spend the underlying asset from the ALM Proxy. The approval and deposit request are both performed from the ALM Proxy address.
 - The contract will submit a deposit request to the vault. Shares will not be received immediately; they must be claimed in a separate step after the vault processes the deposit.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function requestDepositERC7540(address token, uint256 amount) external`
+```solidity
+function requestDepositERC7540(address token, uint256 amount) external
+```
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.4.1.2 - Call claimDepositERC7540 Function [Core]  <!-- UUID: cb81a01a-74b8-4e35-a83d-0848dd1f9f14 -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.4.1.2 - claimDepositERC7540 Function [Core]  <!-- UUID: cb81a01a-74b8-4e35-a83d-0848dd1f9f14 -->
 
 Only an operator with the relayer role can claim shares from an ERC-7540 vault after a deposit request. To do so, they must call the `claimDepositERC7540` function on the Controller contract on mainnet, providing the vault token address. Calling this function will carry out the following actions:
 
@@ -2679,15 +2702,17 @@ Only an operator with the relayer role can claim shares from an ERC-7540 vault a
 - The contract will determine the maximum number of shares that can be claimed by the ALM Proxy.
 - The contract will claim the shares from the vault, and the ALM Proxy will receive the corresponding number of vault shares.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function claimDepositERC7540(address token) external`
+```solidity
+function claimDepositERC7540(address token) external
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.4.2 - Redeem From ERC-7540 Vault [Core]  <!-- UUID: 7077efbf-91fb-402c-831f-8f15e13f0a6a -->
 
 The documents herein define the steps for a relayer to request and redeem vault shares for the underlying asset from an ERC-7540 vault, with the assets sent to the ALM Proxy.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.4.2.1 - Call requestRedeemERC7540 Function [Core]  <!-- UUID: 19e6bba4-8d6f-4d1c-95d5-000b2dbf948c -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.4.2.1 - requestRedeemERC7540 Function [Core]  <!-- UUID: 19e6bba4-8d6f-4d1c-95d5-000b2dbf948c -->
 
 Only an operator with the relayer role can request the redemption of shares from an ERC-7540 vault. To do so, they must call the `requestRedeemERC7540` function on the Controller contract on mainnet, providing the vault token address and the number of shares to redeem. The rate limit configuration serves as whitelisting for vaults. Calling this function will carry out the following actions:
 
@@ -2695,11 +2720,13 @@ Only an operator with the relayer role can request the redemption of shares from
 - The contract will ensure the redemption amount is within the allowed rate limit for the specified vault.
 - The contract will submit a redemption request to the vault. Assets will not be received immediately; they must be claimed in a separate step after the vault processes the redemption.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function requestRedeemERC7540(address token, uint256 amount) external`
+```solidity
+function requestRedeemERC7540(address token, uint256 shares) external
+```
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.4.2.2 - Call claimRedeemERC7540 Function [Core]  <!-- UUID: 9b43cc7e-dfb9-4868-b9a6-8848c837691b -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.4.2.2 - claimRedeemERC7540 Function [Core]  <!-- UUID: 9b43cc7e-dfb9-4868-b9a6-8848c837691b -->
 
 Only an operator with the relayer role can claim assets from an ERC-7540 vault after a redemption request. To do so, they must call the `claimRedeemERC7540` function on the Controller contract on mainnet, providing the vault token address. Calling this function will carry out the following actions:
 
@@ -2707,9 +2734,11 @@ Only an operator with the relayer role can claim assets from an ERC-7540 vault a
 - The contract will determine the maximum amount of assets that can be claimed by the ALM Proxy.
 - The contract will claim the assets from the vault, and the ALM Proxy will receive the corresponding amount of underlying assets.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function claimRedeemERC7540(address token) external`
+```solidity
+function claimRedeemERC7540(address token) external
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.5 - PSM Functions [Core]  <!-- UUID: 19d426c4-9846-4ea8-91f7-5b6d71055491 -->
 
@@ -2719,7 +2748,7 @@ The documents herein define the swap operations performed by the Keel Liquidity 
 
 The documents herein define a series of operations for an operator to `swap` USDS to USDC through the PSM.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.5.1.1 - Call swapUSDSToUSDC Function [Core]  <!-- UUID: df09edaf-7a92-4d8e-ae86-a9666a0bf082 -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.5.1.1 - swapUSDSToUSDC Function [Core]  <!-- UUID: df09edaf-7a92-4d8e-ae86-a9666a0bf082 -->
 
 Only an operator with the relayer role can swap USDS to USDC via the PSM. To do so, they must call the swapUSDSToUSDC function on the Controller contract on mainnet, providing the usdcAmount (denominated in 1e6 precision to match PSM USDC handling). The operation will only succeed if the ALM Proxy holds at least the equivalent amount of USDS for the swap; otherwise, the transaction will revert. The rate limit configuration serves as whitelisting for swaps. Calling this function will carry out the following actions:
 
@@ -2731,15 +2760,17 @@ Only an operator with the relayer role can swap USDS to USDC via the PSM. To do 
 - The contract will approve the PSM to spend the DAI.
 - The contract will swap DAI to USDC at a 1:1 ratio with no fee via psm.buyGemNoFee, sending USDC to the proxy.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function swapUSDSToUSDC(uint256 usdcAmount) external`
+```solidity
+function swapUSDSToUSDC(uint256 usdcAmount) external
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.5.2 - Swap USDC To USDS [Core]  <!-- UUID: da2164e3-03bc-447c-89c5-119d01feddaa -->
 
 The documents herein define a series of operations for an operator to `swap` USDC to USDS through the PSM.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.5.2.1 - Call swapUSDCToUSDS Function [Core]  <!-- UUID: 1b18072b-c409-4d2f-a333-1e5c3ae8ab90 -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.5.2.1 - swapUSDCToUSDS Function [Core]  <!-- UUID: 1b18072b-c409-4d2f-a333-1e5c3ae8ab90 -->
 
 Only an operator with the relayer role can swap USDC to USDS via the PSM. To do so, they must call the `swapUSDCToUSDS` function on the Controller contract on mainnet, providing the usdcAmount (denominated in 1e6 precision to match PSM USDC handling). The operation will only succeed if the ALM Proxy holds at least the amount of USDC specified for the swap; otherwise, the transaction will revert. The rate limit configuration serves as whitelisting for swaps. Calling this function will carry out the following actions:
 
@@ -2753,15 +2784,17 @@ Only an operator with the relayer role can swap USDC to USDS via the PSM. To do 
 - The contract will approve the daiUsds contract to spend the DAI amount from the ALM Proxy.
 - The contract will swap DAI to USDS at a 1:1 ratio via daiUsds, sending USDS to the proxy.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function swapUSDCToUSDS(uint256 usdcAmount) external`
+```solidity
+function swapUSDCToUSDS(uint256 usdcAmount) external
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.5.3 - Transfer Token Via LayerZero [Core]  <!-- UUID: 030c5483-6126-40f7-b7ff-a99186ab105d -->
 
 The documents herein define the steps for a relayer to transfer a token via LayerZero to a destination endpoint, with the assets sent according to the configured recipient.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.5.3.1 - Call transferTokenLayerZero Function [Core]  <!-- UUID: f88e14a0-fa64-44cc-a52c-cb35b7704ee8 -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.5.3.1 - transferTokenLayerZero Function [Core]  <!-- UUID: f88e14a0-fa64-44cc-a52c-cb35b7704ee8 -->
 
 Only an operator with the relayer role can transfer tokens via LayerZero. To do so, they must call the `transferTokenLayerZero` function on the Controller contract on mainnet, providing the oftAddress, amount, and destinationEndpointId (payable for native fees). The operation will only succeed if the ALM Proxy holds sufficient tokens and fees; otherwise, the transaction will revert. Calling this function will carry out the following actions:
 
@@ -2772,9 +2805,11 @@ Only an operator with the relayer role can transfer tokens via LayerZero. To do 
 - The contract will quote the OFT receipt to set the minimum amount received.
 - The contract will quote the messaging fee and execute the send via proxy.doCallWithValue, passing the fee value.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function transferTokenLayerZero(address oftAddress, uint256 amount, uint32  destinationEndpointId) external payable`
+```solidity
+function transferTokenLayerZero(address oftAddress, uint256 amount, uint32 destinationEndpointId) external payable
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.6 - Bridging Functions [Core]  <!-- UUID: 66d40b48-7f80-46a2-8ee0-503580a42d4c -->
 
@@ -2784,7 +2819,7 @@ The documents herein define the operations performed by an operator to bridge li
 
 The documents herein define the process to bridge USDC using the Circle Cross-Chain Transfer Protocol.
 
-###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.6.1.1 - Call transferUSDCToCCTP Function [Core]  <!-- UUID: 46a74cd0-5e4e-4ea6-8fe6-ab38a8930f32 -->
+###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.6.1.1 - transferUSDCToCCTP Function [Core]  <!-- UUID: 46a74cd0-5e4e-4ea6-8fe6-ab38a8930f32 -->
 
 Only an operator with the relayer role can initiate a USDC transfer to a specified destination domain using CCTP, handling rate limits, approvals, and splitting large amounts if needed. It requires parameters like proxy, Rate Limits, cctp, usdc, rate limit IDs, mintRecipient, destinationDomain, and usdcAmount. To do so, they must call the `transferUSDCToCCTP` function on the Controller contract on mainnet. Calling this function will carry out the following actions:
 
@@ -2797,9 +2832,11 @@ Only an operator with the relayer role can initiate a USDC transfer to a specifi
 - If the usdcAmount exceeds the burn limit, the contract will initiate a CCTP transfer for the burn limit amount and subtract it from the remaining usdcAmount.
 - If any usdcAmount remains after the loop, the contract will initiate a final CCTP transfer for that amount.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function transferUSDCToCCTP(uint256 usdcAmount, uint32 destinationDomain) external`
+```solidity
+function transferUSDCToCCTP(uint256 usdcAmount, uint32 destinationDomain) external
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.6.2 - Bridge USDS / sUSDS Using SkyBridge (LayerZero OFT) Token Bridge [Core]  <!-- UUID: d239ba22-9a09-49f1-9fdc-a1d306ffe697 -->
 
@@ -2815,9 +2852,11 @@ Anyone can query the full rate limit data for a specific key. Calling this funct
 
 - The contract will return the stored RateLimitData struct from the _data mapping for the key.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function getRateLimitData(bytes32 key) external override view returns (RateLimitData memory)`
+```solidity
+function getRateLimitData(bytes32 key) external override view returns (RateLimitData memory)
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.3.2 - Set Rate Limit Data [Core]  <!-- UUID: 132f4de3-5b4c-462b-8f03-4cc15706baaf -->
 
@@ -2828,11 +2867,15 @@ Only an operator with the admin role is able to set or update rate limit data fo
 - The contract will store the provided data in the _data mapping as a RateLimitData struct.
 - The contract will emit a RateLimitDataSet event with the key and provided values.
 
-The function calls are as follows:
+The function signatures are as follows:
 
-`function setRateLimitData(bytes32 key, uint256 maxAmount, uint256 slope, uint256 lastAmount, uint256 lastUpdated) public override onlyRole(DEFAULT_ADMIN_ROLE)
+```solidity
+function setRateLimitData(bytes32 key, uint256 maxAmount, uint256 slope, uint256 lastAmount, uint256 lastUpdated) public override onlyRole(DEFAULT_ADMIN_ROLE)
+```
 
-function setRateLimitData(bytes32 key, uint256 maxAmount, uint256 slope) external override`
+```solidity
+function setRateLimitData(bytes32 key, uint256 maxAmount, uint256 slope) external override
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.3.3 - Set Unlimited Rate Limit Data [Core]  <!-- UUID: 0a5ccc61-eaf4-4b49-80d7-770e29178c1a -->
 
@@ -2840,9 +2883,11 @@ Only an operator with the admin role is able to set unlimited rate limit data fo
 
 - The contract will call setRateLimitData internally with type(uint256).max for maxAmount and lastAmount, 0 for slope, and the current block timestamp for lastUpdated.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function setUnlimitedRateLimitData(bytes32 key) external override`
+```solidity
+function setUnlimitedRateLimitData(bytes32 key) external override
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.3.4 - Get Current Rate Limit [Core]  <!-- UUID: 99f4fe4c-04af-4efe-b099-f5d92122de78 -->
 
@@ -2852,9 +2897,11 @@ Anyone can query the current rate limit value for a specific key, accounting for
 - If maxAmount is type(uint256).max (unlimited case), the contract will return type(uint256).max.
 - Otherwise, the contract will calculate and return the minimum of (slope * time elapsed since lastUpdated + lastAmount) and maxAmount.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function getCurrentRateLimit(bytes32 key) public override view returns (uint256)`
+```solidity
+function getCurrentRateLimit(bytes32 key) public override view returns (uint256)
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.3.5 - Trigger Rate Limit Decrease [Core]  <!-- UUID: a710528f-e695-4262-bab1-e5ee57241315 -->
 
@@ -2869,9 +2916,11 @@ Only an operator with the controller role can trigger a decrease in the rate lim
 - The contract will emit a RateLimitDecreaseTriggered event with the key, amountToDecrease, currentRateLimit, and newLimit.
 - The contract will return the newLimit.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function triggerRateLimitDecrease(bytes32 key, uint256 amountToDecrease) external override onlyRole(CONTROLLER) returns (uint256 newLimit)`
+```solidity
+function triggerRateLimitDecrease(bytes32 key, uint256 amountToDecrease) external override onlyRole(CONTROLLER) returns (uint256 newLimit)
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.4 - Instance Lifecycle Management [Core]  <!-- UUID: 724970e4-e5e7-41ff-9448-d984c2c9a9e3 -->
 
@@ -2897,9 +2946,11 @@ In the event of a compromised Relayer, the `FREEZER_ROLE` can call the function 
 - The contract will revoke the relayer role from the specified address.
 - The contract will emit a `RelayerRemoved(relayer)` event.
 
-The function call is as follows:
+The function signature is as follows:
 
-`function removeRelayer(address relayer) external`
+```solidity
+function removeRelayer(address relayer) external
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.1.3.2 - Redeem All Ethereum Mainnet Positions [Core]  <!-- UUID: 23a36776-11e0-4c65-a25d-500a44e14eb4 -->
 
@@ -2911,7 +2962,9 @@ In order to withdraw all ERC-4626 balances, the operator must call the `redeemER
 
 The function call is as follows:
 
-`function redeemERC4626(address(token), token.balanceOf(address(proxy)))`
+```solidity
+redeemERC4626(address(token), token.balanceOf(address(proxy)))
+```
 
 For more detailed instructions on the code to execute this, see [A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.3 - ERC-4626 Functions](3de32801-e895-4a21-84da-aa5818d16349).
 
@@ -2921,7 +2974,9 @@ This document defines the action that should be performed by an operator if ther
 
 The function call is as follows:
 
-`function swapUSDCToUSDS(usdc.balanceOf(address(proxy))`
+```solidity
+swapUSDCToUSDS(usdc.balanceOf(address(proxy)))
+```
 
 For more detailed instructions on the code to execute this see [A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.5.2 - Swap USDC To USDS](da2164e3-03bc-447c-89c5-119d01feddaa).
 
@@ -2931,7 +2986,9 @@ This document defines the action that should be performed if there is a need to 
 
 The function call is as follows:
 
-`function burnUSDS(usds.balanceOf(address(proxy))`
+```solidity
+burnUSDS(usds.balanceOf(address(proxy)))
+```
 
 More detailed instructions on the code to execute this, see [A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.1.2 - Burn USDS](9c9536a8-bb2d-4d37-98cf-4c25a5699026).
 
@@ -2951,8 +3008,11 @@ The documents herein define roles (Admin, Relayer, ALM Controller and Freezer) a
 
 The admin role is configured with the following permissions: `can_freeze_controller`, `can_unfreeze_controller`, `can_manage_permissions`, `can_suspend_permissions`, `can_manage_reserves_and_integrations`, `can_invoke_external_transfer`. This role can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Keel Proxy.
 
-`constructor(address admin) {
-_grantRole(DEFAULT_ADMIN_ROLE, admin);`
+```solidity
+constructor(address admin_) {
+    _grantRole(DEFAULT_ADMIN_ROLE, admin_);
+}
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.2.1.1.2 - Relayer Role [Core]  <!-- UUID: 2b42015c-c76a-4364-b8b5-c9a2b9f6f484 -->
 
@@ -3030,38 +3090,44 @@ The documents herein define the protocol for querying, setting, and adjusting Ra
 
 The properties associated with a Reserve level rate limit can be read from the `Reserve` account corresponding to a particular token, as follows:
 
-`pub struct Reserve {
-// ...
-pub rate_limit_slope: u64,
-pub rate_limit_max_outflow: u64,
-pub rate_limit_outflow_amount_available: u64,
-pub rate_limit_remainder: u64
-// ...
-}`
+```rust
+pub struct Reserve {
+    // ...
+    pub rate_limit_slope: u64,
+    pub rate_limit_max_outflow: u64,
+    pub rate_limit_outflow_amount_available: u64,
+    pub rate_limit_remainder: u64
+    // ...
+}
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.2.1.3.1.2 - Set Rate Limit Data [Core]  <!-- UUID: aa43f1e6-6ee6-4596-a288-f79685cd8144 -->
 
 Only an operator with the [A.6.1.1.3.2.6.1.2.2.2.1.1.1 - Default Admin Role](0270b595-8957-4fb2-a9cd-2bc197dc3367) is able to set or update rate limit data for a specific `Reserve`, including `rate_limit_slope` and `rate_limit_max_outflow`.
 
-`manage_reserves(
-ManageReserveArgs {
-status: None,
-rate_limit_slope: Some(rate_limit_slope),
-rate_limit_max_outflow: Some(rate_limit_max_outflow),
-}
-)`
+```rust
+manage_reserves(
+    ManageReserveArgs {
+        status: None,
+        rate_limit_slope: Some(rate_limit_slope),
+        rate_limit_max_outflow: Some(rate_limit_max_outflow),
+    }
+)
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.2.1.3.1.3 - Set Unlimited Rate Limit Data [Core]  <!-- UUID: 76946aaf-70dc-43cf-a6e0-ce947f19b93b -->
 
 Only an operator with the [A.6.1.1.3.2.6.1.2.2.2.1.1.1 - Default Admin Role](0270b595-8957-4fb2-a9cd-2bc197dc3367) is able to set unlimited rate limit data for a specific key by configuring it with maximum values.
 
-`manage_reserves(
-ManageReserveArgs {
-status: None,
-rate_limit_slope: Some(0),
-rate_limit_max_outflow: Some(u64::MAX),
-}
-)`
+```rust
+manage_reserves(
+    ManageReserveArgs {
+        status: None,
+        rate_limit_slope: Some(0),
+        rate_limit_max_outflow: Some(u64::MAX),
+    }
+)
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.2.1.3.2 - Integration Level Rate Limits [Core]  <!-- UUID: 3bf06ac1-44d2-4901-92fb-7af3cebef5a0 -->
 
@@ -3071,40 +3137,46 @@ rate_limit_max_outflow: Some(u64::MAX),
 
 The properties associated with a Reserve level rate limit can be read from the `Integration` account corresponding to a particular token, as follows:
 
-`pub struct Integration {
-// ...
-pub rate_limit_slope: u64,
-pub rate_limit_max_outflow: u64,
-pub rate_limit_outflow_amount_available: u64,
-pub rate_limit_remainder: u64
-// ...
-}`
+```rust
+pub struct Integration {
+    // ...
+    pub rate_limit_slope: u64,
+    pub rate_limit_max_outflow: u64,
+    pub rate_limit_outflow_amount_available: u64,
+    pub rate_limit_remainder: u64
+    // ...
+}
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.2.1.3.2.2 - Set Rate Limit Data [Core]  <!-- UUID: 62654961-cf70-4455-a7df-c81861944395 -->
 
 Only an operator with the [A.6.1.1.3.2.6.1.2.2.2.1.1.1 - Default Admin Role](0270b595-8957-4fb2-a9cd-2bc197dc3367) is able to set or update rate limit data for a specific `Integration`, including `rate_limit_slope` and `rate_limit_max_outflow`.
 
-`manage_integration(
-ManageIntegrationArgs {
-status: None,
-description: None,
-rate_limit_slope: Some(rate_limit_slope),
-rate_limit_max_outflow: Some(rate_limit_max_outflow),
-}
-)`
+```rust
+manage_integration(
+    ManageIntegrationArgs {
+        status: None,
+        description: None,
+        rate_limit_slope: Some(rate_limit_slope),
+        rate_limit_max_outflow: Some(rate_limit_max_outflow),
+    }
+)
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.2.1.3.2.3 - Set Unlimited Rate Limit Data [Core]  <!-- UUID: bd904ac0-32d2-4592-92cd-3eb01a3ce7de -->
 
 Only an operator with the [A.6.1.1.3.2.6.1.2.2.2.1.1.1 - Default Admin Role](0270b595-8957-4fb2-a9cd-2bc197dc3367) is able to set unlimited rate limit data for a specific key by configuring it with maximum values.
 
-`manage_integration(
-ManageIntegrationArgs {
-status: None,
-description: None,
-rate_limit_slope: Some(0),
-rate_limit_max_outflow: Some(u64::MAX),
-}
-)`
+```rust
+manage_integration(
+    ManageIntegrationArgs {
+        status: None,
+        description: None,
+        rate_limit_slope: Some(0),
+        rate_limit_max_outflow: Some(u64::MAX),
+    }
+)
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.2.1.4 - Instance Lifecycle Management [Core]  <!-- UUID: 5fcff9f8-7f6d-427d-a12d-02df83b4db6e -->
 
@@ -3126,20 +3198,22 @@ The documents herein define all the possible actions that can be taken in case o
 
 In the event of a compromised Relayer, the [A.6.1.1.3.2.6.1.2.2.2.1.1.3 - Freezer Role](6f7becc7-2e70-44e5-8662-25ba7dd1a5f8) and [A.6.1.1.3.2.6.1.2.2.2.1.1.1 - Default Admin Role](0270b595-8957-4fb2-a9cd-2bc197dc3367) can call the instruction to suspend the compromised Relayer from the Controller program, thereby preventing it from doing any further harm to the system. The backstop Relayer can then take over. This function should only be used if the keys to the Relayer multisig have been leaked or compromised, and the Relayer is now in the hands of an external bad actor.
 
-`manage_permission(
-ManagePermissionArgs {
-status: PermissionStatus::Suspended,
-can_manage_permissions: false,
-can_invoke_external_transfer: false,
-can_execute_swap: false,
-can_reallocate: false,
-can_freeze_controller: false,
-can_unfreeze_controller: false,
-can_manage_reserves_and_integrations: false,
-can_suspend_permissions: false,
-can_liquidate: false,
-}
-)`
+```rust
+manage_permission(
+    ManagePermissionArgs {
+        status: PermissionStatus::Suspended,
+        can_manage_permissions: false,
+        can_invoke_external_transfer: false,
+        can_execute_swap: false,
+        can_reallocate: false,
+        can_freeze_controller: false,
+        can_unfreeze_controller: false,
+        can_manage_reserves_and_integrations: false,
+        can_suspend_permissions: false,
+        can_liquidate: false,
+    }
+)
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.2.3.2 - Freeze the Controller [Core]  <!-- UUID: de48d076-bad2-4edd-a740-0e5ee9173d0d -->
 
@@ -3149,21 +3223,25 @@ In the event of a more severe threat to the Controller, the [A.6.1.1.3.2.6.1.2.2
 
 This action leads to a complete freeze and prevents any actions on the Controller until the [A.6.1.1.3.2.6.1.2.2.2.1.1.1 - Default Admin Role](0270b595-8957-4fb2-a9cd-2bc197dc3367) subsequently lifts this status. Integrations, Reserves nor Permissions cannot be managed during this period, and funds cannot be moved.
 
-`manage_controller(
-ManageControllerArgs {
-status: ControllerStatus::PushPullFrozen,
-}
-)`
+```rust
+manage_controller(
+    ManageControllerArgs {
+        status: ControllerStatus::PushPullFrozen,
+    }
+)
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.2.3.2.2 - Reallocation Freeze [Core]  <!-- UUID: 2ed41eef-989b-4253-8de7-5e368da0242a -->
 
 A complete freeze prevents any movement of funds within the Controller until the [A.6.1.1.3.2.6.1.2.2.2.1.1.1 - Default Admin Role](0270b595-8957-4fb2-a9cd-2bc197dc3367) subsequently lifts this status. Integrations, Reserves and Permissions cannot be configured during this period.
 
-`manage_controller(
-ManageControllerArgs {
-status: ControllerStatus::Frozen,
-}
-)`
+```rust
+manage_controller(
+    ManageControllerArgs {
+        status: ControllerStatus::Frozen,
+    }
+)
+```
 
 ###### A.6.1.1.3.2.6.1.2.2.2.3.3 - Redeem All Positions [Core]  <!-- UUID: 4f4a2911-a604-4203-8103-e9a05fe4cb80 -->
 
@@ -3181,7 +3259,9 @@ This will be specified in a future iteration of the Keel Artifact.
 
 This document defines the action that should be performed by an operator if there is a need to centralize all recovered liquidity in USDS.
 
-`mainnetController.swapUSDCToUSDS(usdc.balanceOf(address(proxy))`
+```solidity
+mainnetController.swapUSDCToUSDS(usdc.balanceOf(address(proxy)))
+```
 
 For more detailed instructions on the code to execute this see [A.6.1.1.3.2.6.1.2.2.1.1.2.1.2.5.2 - Swap USDC To USDS](da2164e3-03bc-447c-89c5-119d01feddaa).
 
