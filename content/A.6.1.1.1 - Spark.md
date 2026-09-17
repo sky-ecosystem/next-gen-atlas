@@ -11095,10 +11095,10 @@ Operational expense reserve is calculated as the higher of past month’s operat
 
 ###### A.6.1.1.1.3.4.2.2.3 - Parameters [Core]  <!-- UUID: 7410ed94-db95-437a-a4d2-9120036ec7bd -->
 
-The current Target SubDAO Proxy Value parameters are:
+The Target SubProxy Value parameters in effect at this time are:
 
 - RRC Lookback Period: 3 months
-- Spark Product Backstop: 1 million USDS
+- Spark Product Backstop: 5 million USDS
 - Target Runway: 12 months
 
 ##### A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy [Core]  <!-- UUID: 6a4870fa-73f1-4d49-b7ee-d531fb59a971 -->
@@ -11111,7 +11111,9 @@ The subdocuments herein provide definitions for relevant parameters and values.
 
 ###### A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value [Core]  <!-- UUID: 9705a4be-e92f-4195-8e85-1cfe19ec1a0d -->
 
-The Current SubDAO Proxy Value is defined as the sum of all USDS tokens held in the Spark SubDAO on Ethereum at 0x3300f198988e4C9C63F75dF86De36421f06af8c4. Note that the operational process of excess SubDAO Proxy funds disposition as defined in [A.6.1.1.1.3.4.2.3.2 - Operational Process](dfa483c7-5adb-480e-9f82-c97cf4d0f74e) uses the most up-to-date onchain value for the Current SubDAO Proxy Value, and this does not need to be updated in the Spark Artifact as it is expected to fluctuate frequently based on monthly settlements and other operational processes.
+The Current SubProxy Value is defined as the sum of all USDS tokens held in the Spark SubProxy on Ethereum at wallet address 0x3300f198988e4C9C63F75dF86De36421f06af8c4, less the USDS value of the accrued but unrealized liabilities of Spark Savings vaults which, for the avoidance of doubt, consist of the yield that has accrued on Spark Savings depositors’ positions but that those users have not withdrawn.
+
+The Spark SubProxy’s USDS balance and the USDS value of the accrued but unrealized liabilities of Spark Savings vaults must be measured as of the same valuation time specified in section [A.6.1.1.1.3.4.2.3.2 - Operational Process](dfa483c7-5adb-480e-9f82-c97cf4d0f74e). The calculated Current SubProxy Value does not need to be recorded in the Spark Artifact for each monthly cycle.
 
 ###### A.6.1.1.1.3.4.2.3.1.2 - Standard Buyback Rate [Core]  <!-- UUID: 796dc640-03a7-4608-b676-a235a68174b1 -->
 
@@ -11131,9 +11133,17 @@ The Buyback Executor is the entity responsible for receiving excess SubDAO Proxy
 
 ###### A.6.1.1.1.3.4.2.3.2 - Operational Process [Core]  <!-- UUID: dfa483c7-5adb-480e-9f82-c97cf4d0f74e -->
 
-Each month, immediately following Spark’s monthly settlement with Sky, the Current SubDAO Proxy Value with be calculated based on the definition in [A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value](9705a4be-e92f-4195-8e85-1cfe19ec1a0d), and the Target SubDAO Proxy Value based on the evaluation method in [A.6.1.1.1.3.4.2.2.2 - Evaluation Method](99d4b8da-fa5c-49ce-b93c-70d07334d7aa). If the Current SubDAO Proxy Value is greater than the Target SubDAO Proxy Value, this excess SubDAO Proxy Value is multiplied by the Standard Buyback Rate parameter up to the Enhanced Buyback Threshold, and then by the Enhanced Buyback Rate for any amount in excess of the Enhanced Buyback Threshold. The buyback amount for the month is set as the sum of the two values of the standard and enhanced buybacks.
+For each monthly buyback cycle, Spark must calculate the Current SubProxy Value and Target SubProxy Value as of 16:00 UTC on the first (1st) day of that month. The Current SubProxy Value must be calculated in accordance with section [A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value](9705a4be-e92f-4195-8e85-1cfe19ec1a0d), and the Target SubProxy Value in accordance with section [A.6.1.1.1.3.4.2.2.2 - Evaluation Method](99d4b8da-fa5c-49ce-b93c-70d07334d7aa).
 
-The next available Spark proxy Spell will include a transfer of this calculated buyback amount to the designated Buyback Executor. After using the transferred funds to purchase SPK, the Buyback Executor will transfer all accrued SPK to the Spark SubDAO Proxy.
+If the Current SubProxy Value is greater than the Target SubProxy Value, the excess is used to calculate the standard and enhanced buyback amounts. The Standard Buyback Rate applies to the portion of the Current SubProxy Value that is in excess of the Target SubProxy Value and up to the Enhanced Buyback Threshold. The Enhanced Buyback Rate applies to the portion of the Current SubProxy Value from and above the Enhanced Buyback Threshold. The Enhanced Buyback Threshold is determined as a percentage of the Target SubProxy Value in accordance with section [A.6.1.1.1.3.4.2.3.1.4 - Enhanced Buyback Threshold](e150176c-1da5-4adb-ba5d-f344d0be03ae).
+
+For the avoidance of doubt, if the Current SubProxy Value is less than or equal to the Target SubProxy Value, no buyback transfer is made for that monthly cycle.
+
+Spark must include the relevant buyback transfer to the designated Buyback Executor in the next available Spark proxy Spell with a voting date scheduled on or after the twenty-second (22nd) day of the month to which the calculation relates, subject to the Prime Spell Process.
+
+In respect of each buyback transfer, the Buyback Executor must use an onchain time-weighted average price (TWAP) mechanism to purchase SPK tokens with the transferred USDS over a period of ninety (90) days beginning from the Buyback Executor’s receipt of the relevant buyback transfer. After using the transferred funds to purchase SPK, the Buyback Executor must transfer any and all SPK tokens purchased pursuant to the relevant buyback transfer to the Spark SubProxy as soon as is reasonably practicable. For the avoidance of doubt, buyback transfers executed onchain before this amendment comes into effect remain subject to the Operational Process that was in effect at the time of the buyback transfer.
+
+Spark remains subject at all times to the Target SubProxy Value restriction in section [A.6.1.1.1.3.4.2.2.1.1 - Target SubDAO Proxy Value Definition](3baabdcc-d715-419d-97b7-28936d4b0f95) and the capital management obligations in section [A.6.1.1.1.3.4.2.1.2 - Operational Process](7bc96051-ce11-4e29-aa30-b535183aeaa7), including during the time between the monthly valuation of the Spark SubProxy and execution of the buyback transfer.
 
 ###### A.6.1.1.1.3.4.2.3.3 - Parameters [Core]  <!-- UUID: b52a4011-5346-4de7-9522-90ae66b81600 -->
 
