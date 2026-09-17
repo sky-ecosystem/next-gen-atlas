@@ -9680,9 +9680,9 @@ At the end of a Delegate's six (6) month term (see [A.6.1.1.1.3.1.3.4.3 - Minimu
 
 Delegates are compensated for their service as follows:
 
-1. Compensation Amount. Active Delegates receive USD 4,000 per calendar month.
+1. Compensation Amount. The Spark Foundation determines compensation for Active Delegates in its sole discretion, subject to both a maximum of USD 4,000 per Delegate per calendar month of service and a maximum of USD 20,000 in aggregate across all Delegates for the same calendar month of service.
 2. Administration. The Spark Foundation administers compensation from its approved operating budget.
-3. Timing & Proration. The compensation structure goes into effect by December 1st 2025, with first payment being made January 2026. Payment is made monthly in arrears and prorated for partial months of service.
+3. Timing & Proration. Payment is made monthly in arrears and prorated for partial months of service. The Spark Foundation must notify each Delegate of the applicable compensation and its effective date before service at that compensation begins. Compensation for service before that date remains governed by the terms applicable when the service was provided, subject to the eligibility and clawback provisions below.
 4. Eligibility & Clawback. Payment requires the Delegate to be in good standing and to have met responsibilities in [A.6.1.1.1.3.1.3.3 - Delegate Responsibilities](f230ba4e-eb5a-444e-b07a-13a0292338bd) during the covered period; the Spark Foundation may withhold or claw back amounts for non-performance or breach.
 5. No Waiver of Oversight. Compensation does not limit or waive any onboarding, renewal, or offboarding requirements.
 
@@ -12088,23 +12088,29 @@ A Curator is a specific admin role defined within the Morpho smart contract syst
 
 ##### A.6.1.1.1.3.9.3.2 - Scope of Authority [Core]  <!-- UUID: e4fb1a94-cfd8-40d3-ac79-966dd9f8db24 -->
 
-Curators may only execute actions that have been explicitly approved by Spark governance via polling.
+Curators may only implement changes that have been explicitly approved by Spark governance via polling. Curators may queue changes before approval in accordance with [A.6.1.1.1.3.9.4.1 - Polling Requirement](218f889f-6a5d-46a8-b8a3-cb0a075825c2), and may cancel pending changes in accordance with [A.6.1.1.1.3.9.6.2 - Cancellation Reasons](0e572cad-bdf2-437f-b272-0cd634424b19).
 
 ##### A.6.1.1.1.3.9.3.3 - Reporting of Curator Actions [Core]  <!-- UUID: 6f64ac9e-daf1-4339-8046-3894e57f4383 -->
 
-All actions taken under a Curator role must be reported by the Curator in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, the UTC time at which the timelock period for the action elapses, a description of the action being implemented, and a link to the poll which provided governance approval for the action.
+All actions taken under a Curator role must be reported by the Curator in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, the UTC time at which the timelock period for the action elapses, a description of the action being implemented, and a link to the related proposal and governance poll, if the poll is available. For a change queued before approval, the report must state that governance approval had not been obtained when the change was queued and include the expected poll closing time in UTC used when queueing.
 
 #### A.6.1.1.1.3.9.4 - Governance Approval Process [Core]  <!-- UUID: e3ddbd39-ee57-4b17-b66e-8bc823a03098 -->
 
-The documents herein describe the requirements for all Curator actions to be approved by governance.
+The documents herein describe the requirements for governance approval before implementation of Curator changes and the conditions for queueing changes before approval.
 
 ##### A.6.1.1.1.3.9.4.1 - Polling Requirement [Core]  <!-- UUID: 218f889f-6a5d-46a8-b8a3-cb0a075825c2 -->
 
-All curator-executed changes must be approved in advance by Spark governance through a polling process.
+All curator-executed changes must be approved by Spark governance through a polling process before they are implemented.
+
+A Curator may queue a proposed change before the related governance poll is created or approved, provided that the onchain timelock for the pending change will expire no earlier than twenty-four (24) hours after the expected closing time of that poll. Queueing means submitting a change to the onchain timelock without implementing it. All applicable timelock delays continue to apply.
+
+The twenty-four (24) hour condition applies when the change is queued. Once the related poll is created, its actual closing time, including any subsequent change to that time, must be used to assess the remaining period before the pending change becomes executable. Cancellation on timing grounds is required only if that period is less than twenty (20) hours.
+
+The pending change must match the change submitted for approval. If the poll does not approve that change, or the actual poll closing time leaves less than twenty (20) hours before the pending change becomes executable, the pending change must be cancelled in accordance with [A.6.1.1.1.3.9.6.2 - Cancellation Reasons](0e572cad-bdf2-437f-b272-0cd634424b19).
 
 ##### A.6.1.1.1.3.9.4.2 - Execution Authority [Core]  <!-- UUID: 48e6eeb9-86c0-4bfa-8be0-e9917d163118 -->
 
-Following successful governance approval, the Curator is authorized to execute the approved change or changes by submitting the corresponding onchain transaction or transactions.
+The Curator is authorized to submit the onchain transactions needed to queue a change before governance approval only under the conditions in [A.6.1.1.1.3.9.4.1 - Polling Requirement](218f889f-6a5d-46a8-b8a3-cb0a075825c2). Following successful governance approval, the approved change or changes may be implemented only after the applicable timelock has expired. Queueing a change does not authorize its implementation.
 
 #### A.6.1.1.1.3.9.5 - Timelock Controls [Core]  <!-- UUID: a4f6132e-787f-445a-9290-bd810b9eb93f -->
 
@@ -12130,6 +12136,8 @@ Pending changes within the timelock must be able to be cancelled by any of the f
 
 Pending changes may be cancelled for the following reasons: misalignment or conflict with the Sky Atlas or Spark Artifact; excessive or unacceptable risk, as identified by the Sky Core Council; emergency situations, as defined in the Sky Atlas in [A.1.9 - Emergency Response System](1d940c6d-02ce-4c17-8057-cef13c1cc7ad); or cancellation requested by the Curator.
 
+For a change queued before governance approval, the Curator and the cancellation authority holders for the relevant smart contract instance are responsible for ensuring that the pending change is cancelled before it becomes executable if the related poll does not approve the exact pending change, including where the poll is not held, is withdrawn or cancelled, or closes without a valid approval result. The same responsibility applies on timing grounds only if the actual poll closing time, including any subsequent change to that time, leaves less than twenty (20) hours before the pending change becomes executable. A period of twenty (20) hours or more does not require cancellation on timing grounds; the other cancellation reasons and the duty to cancel unapproved changes remain applicable. Any actor authorized under [A.6.1.1.1.3.9.6.1 - Authorized Cancellers](f87333c8-ec5e-4483-83a9-791e1f9f9634) may fulfil this responsibility by cancelling the pending change; once it has been cancelled, no duplicate cancellation is required.
+
 ##### A.6.1.1.1.3.9.6.3 - Cancellation Authority [Core]  <!-- UUID: 900c4a0d-ed93-41ad-b914-f84d50d6940e -->
 
 A Guardian is a specific admin role defined within the Morpho smart contract system. In Morpho Vaults v1 this role is named Guardian; in Morpho Vaults v2 it is named Sentinel. Within this framework, the two are together referred to as the cancellation authority. In Morpho Vaults v2, multiple addresses may hold the Sentinel role. The vault owner may remove a Sentinel role holder without a timelock; where the vault owner is the Spark SubProxy, removal requires a Sky Executive Vote.
@@ -12137,6 +12145,8 @@ A Guardian is a specific admin role defined within the Morpho smart contract sys
 ###### A.6.1.1.1.3.9.6.3.1 - Cancellation Authority Independence [Core]  <!-- UUID: ea50c8da-008e-4f0f-b2df-ac666d5faf13 -->
 
 The cancellation authority holder controlled by the Operational Executor Agent must use a signer set separate from the signer set of the Curator multisig for the same smart contract instance, and at least one cancellation authority holder must be fully independent of every entity serving in the Curator role. Compromise or misalignment of the Curator role must not in itself remove the ability of the cancellation authority to cancel pending changes.
+
+The requirements of this section do not apply to the independence of the Curator from a cancellation authority holder controlled by the Operational GovOps of an Operational Executor Agent or by another actor expressly designated by Sky Governance to exercise cancellation authority for the relevant smart contract instance. This section does not require such a holder to use a signer set separate from the Curator’s, and does not require an additional independent cancellation authority holder for an instance with such a holder.
 
 ###### A.6.1.1.1.3.9.6.3.2 - Cancellation Authority Reporting [Core]  <!-- UUID: ac45b63b-3394-49d6-aab7-ff67b1d4fd0c -->
 
