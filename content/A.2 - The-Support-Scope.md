@@ -4007,6 +4007,123 @@ The following code increases the `RateLimit` for a specific key, restricted to t
         emit RateLimitIncreaseTriggered(key, amountToIncrease, currentRateLimit, newLimit);
     }`
 
+###### A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework [Core]  <!-- UUID: 915a36c0-754c-41f9-ada1-2fec0816f7b8 -->
+
+The documents herein define the requirements for Morpho vaults used by Prime Agents to deploy capital through the Allocation System Primitive.
+
+###### A.2.2.10.1.1.1.3.1 - Role Configuration [Core]  <!-- UUID: 686b81a9-450d-4340-a25a-5a069cbe8788 -->
+
+Morpho vaults must use the following role configuration:
+
+- The Owner role must be held by the relevant Prime Agent's SubProxy.
+- The Curator role must be held by a Multisig jointly controlled by the Operational Executor Agent and either the relevant Prime Agent or an external curator. The Multisig must require a 2 of 2 signer approval threshold.
+- The Allocator role may be held by an externally owned account or Multisig controlled by the relevant Prime Agent or an external curator, or by the Morpho Public Allocator contract. Where the Morpho Public Allocator contract holds the Allocator role, any emergency action that withdraws vault assets from a market must also set the Public Allocator's caps for that market to zero, so that the Public Allocator cannot reallocate assets back into that market.
+- The Sentinel role must be held by at least one (1) address controlled by the Operational Executor Agent, using a signer set separate from the signer set controlling the Curator role. Additional Sentinel addresses may be designated. These additional Sentinel addresses are recommended but not required, and no restriction applies to who may control them. Any automated monitoring solution serving as a Sentinel must be capable of automatically revoking pending actions when it detects a threat.
+
+###### A.2.2.10.1.1.1.3.2 - Market Eligibility Requirements [Core]  <!-- UUID: 022092c0-7a70-4b74-94c6-ed1b58f42cd1 -->
+
+The documents herein define the requirements for markets used by Morpho vaults.
+
+###### A.2.2.10.1.1.1.3.2.1 - Eligible Loan Assets [Core]  <!-- UUID: 881e768f-3438-4163-8965-a4bbd1752b94 -->
+
+USDC, USDT, and pyUSD, as defined in [A.3.3.2.1.3 - Cash Stablecoins](066a4d9f-13ed-4ac3-a55a-df7bf3429649), are eligible loan assets. RLUSD and USDG are also eligible loan assets.
+
+Any other loan asset must undergo a risk review before it may be used.
+
+###### A.2.2.10.1.1.1.3.2.2 - Eligible Collateral And Liquidation Loan-To-Value Limits [Core]  <!-- UUID: fe70a940-5ada-48c5-8826-b361ef33275f -->
+
+The eligible collateral assets and maximum liquidation loan-to-value limits are:
+
+| Collateral Asset | Maximum Liquidation Loan-To-Value |
+| --- | --- |
+| ETH | 86% |
+| cbBTC | 86% |
+| stETH | 86% |
+| WBTC | 86% |
+| sUSDS | 96.5% |
+
+Lower liquidation loan-to-value tiers are permitted and may result in a lower Instance Financial CRR. The Instance Financial CRR for cbBTC, WBTC, and stETH markets using an 86% liquidation loan-to-value limit must account for any difference between that limit and the limit produced by the applicable risk model. Any collateral asset not listed herein requires due diligence and approval by the [A.0.1.1.46 - Core Council](5a03a0c4-a47a-409c-9b23-52ac93e63d45) before adoption.
+
+###### A.2.2.10.1.1.1.3.2.3 - Oracle Requirements [Core]  <!-- UUID: be4f3bc0-70e4-478c-8c86-e889846198e3 -->
+
+The documents herein define oracle requirements for markets used by Morpho vaults.
+
+###### A.2.2.10.1.1.1.3.2.3.1 - Multi-Source Oracle Methodology [Core]  <!-- UUID: 191fbabc-d4e1-4ec4-9ea8-35b80eb809b0 -->
+
+Oracle-based market pricing must use Chainlink, RedStone, and Chronicle as its sources. When all three (3) sources are available and valid, the median of those sources must be used. If only two (2) valid sources are available, the average of those sources must be used. If only one (1) valid source is available, a credible fallback source must be used.
+
+###### A.2.2.10.1.1.1.3.2.3.2 - Eligible Collateral Oracle Methodologies [Core]  <!-- UUID: fe7c0ccf-c570-471a-815a-6b4b9cda5e29 -->
+
+The following pricing methods apply to eligible collateral assets and must comply with the [A.2.2.10.1.1.1.3.2.3.1 - Multi-Source Oracle Methodology](191fbabc-d4e1-4ec4-9ea8-35b80eb809b0) for any market-pricing component:
+
+- ETH: oracle market pricing.
+- cbBTC: BTC oracle market pricing.
+- stETH: the wstETH-to-ETH contract exchange rate multiplied by the ETH oracle market price.
+- WBTC: oracle market pricing.
+- sUSDS: the sUSDS-to-USDS contract exchange rate multiplied by the USDS oracle market price.
+
+###### A.2.2.10.1.1.1.3.2.3.3 - Temporary Single-Source Oracle Exception [Core]  <!-- UUID: 079d2e2c-fa22-4f3c-a929-82d45af38097 -->
+
+A single-source Chainlink oracle may be used temporarily for a major collateral asset. Such a configuration should migrate toward the [A.2.2.10.1.1.1.3.2.3.1 - Multi-Source Oracle Methodology](191fbabc-d4e1-4ec4-9ea8-35b80eb809b0), following the structure used by SparkLend and on a schedule coordinated with the affected Prime Agent to avoid unnecessary operational disruption.
+
+###### A.2.2.10.1.1.1.3.2.3.4 - New Collateral Oracle Approval [Core]  <!-- UUID: c7723797-b2c8-4334-a185-592797456f87 -->
+
+The oracle methodology for any new collateral asset requires due diligence and approval by the [A.0.1.1.46 - Core Council](5a03a0c4-a47a-409c-9b23-52ac93e63d45) before adoption.
+
+###### A.2.2.10.1.1.1.3.2.4 - Interest Rate Requirements [Core]  <!-- UUID: 4d30ef6e-bed6-4abd-b6dd-7c748e9d7ef1 -->
+
+Morpho Blue variable-rate markets must use the Morpho Adaptive Curve Interest Rate Model (https://docs.morpho.org/developers/contracts/irm/#adaptivecurveirm). Morpho Midnight fixed-rate markets use market-set rates rather than an interest rate model. A maker posts an offer at a price in a fixed-maturity market, and the implied fixed rate for the remaining term is locked when a taker executes the offer.
+
+###### A.2.2.10.1.1.1.3.3 - Timelock Requirements [Core]  <!-- UUID: 1078548f-1086-49d2-bc01-f5727f088e41 -->
+
+The documents herein define the minimum timelock requirements for protected functions used by Morpho vaults and their adapters.
+
+###### A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements [Core]  <!-- UUID: 14aba6cb-eb34-4780-84c1-908666835569 -->
+
+Morpho vaults must use at least the following timelock delays for protected functions:
+
+| Action | Minimum Timelock Delay |
+| --- | --- |
+| Abdicate | seven (7) days |
+| Add adapter | seven (7) days |
+| Increase absolute cap | seven (7) days |
+| Increase relative cap | seven (7) days |
+| Increase timelock duration | seven (7) days |
+| Remove adapter | seven (7) days |
+| Set adapter registry | seven (7) days |
+| Set force deallocate penalty | seven (7) days |
+| Set management fee | three (3) days |
+| Set management fee recipient | three (3) days |
+| Set performance fee | three (3) days |
+| Set performance fee recipient | three (3) days |
+| Set receive assets gate | seven (7) days |
+| Set receive shares gate | seven (7) days |
+| Set send assets gate | seven (7) days |
+| Set send shares gate | seven (7) days |
+
+Adding or removing an allocator must not be subject to a timelock delay, so that a compromised allocator can be removed immediately. Decreases to absolute or relative caps may be executed without delay. A decrease to a function's timelock duration is subject to that function's then-current timelock delay. For the Set adapter registry, Set receive assets gate, Set receive shares gate, and Set send shares gate functions, permanently abdicating the function is accepted in place of the timelock delay.
+
+###### A.2.2.10.1.1.1.3.3.2 - Adapter Timelock Requirements [Core]  <!-- UUID: 91ba9acf-6ed7-4214-8b6b-adfb03427ae1 -->
+
+Adapters used by Morpho vaults must use at least the following timelock delays for protected adapter functions:
+
+| Action | Minimum Timelock Delay |
+| --- | --- |
+| Abdicate | seven (7) days |
+| Burn shares | three (3) days |
+| Increase timelock | seven (7) days |
+| Skim recipient | three (3) days |
+
+###### A.2.2.10.1.1.1.3.4 - Eligible Chains [Core]  <!-- UUID: 8e63ce99-4c7a-497f-a20a-92cba946b77d -->
+
+Morpho vaults may initially be deployed on Ethereum Mainnet, Base, and Robinhood Chain. Deployment on any other chain requires a risk review.
+
+###### A.2.2.10.1.1.1.3.5 - Transition And Compliance [Core]  <!-- UUID: 41824fb1-a4e0-4f58-9095-0b3e646fb42c -->
+
+Notwithstanding the other requirements of the Morpho Vault Curation Framework, Morpho vault exposure existing as of August 17, 2026, must be migrated to new vaults or upgraded to comply with the framework no later than the execution of the October 8, 2026 Executive Vote. Migration may be staged to account for underlying market utilization and existing vault configurations, but must be completed by that time.
+
+Following the execution of the October 8, 2026 Executive Vote, noncompliant Morpho vault allocations are subject to the Instance Financial CRR specified in [A.3.2.2.1.1.1.1.3.8.2 - Noncompliant Morpho Vault Allocations](20aa9663-214b-46f5-8b37-53be387b996b).
+
 ###### A.2.2.10.1.1.1.6 - Security Specifications [Core]  <!-- UUID: 905a0c30-5758-48e8-9006-b52ced11fa42 -->
 
 The documents herein specify required security measures for the setup and ongoing management of the Allocation System Primitive.
@@ -4452,7 +4569,7 @@ The documents herein define how the total reward pool is distributed to individu
 
 ###### A.2.2.11.1.4.1 - Integration With Treasury Management Function [Core]  <!-- UUID: dc825d62-60cf-4701-ac8f-b48257b4f9a6 -->
 
-Distributions of Core Governance Rewards are made on a monthly basis as part of the Treasury Management Function.
+Distributions of Core Governance Rewards are made on a monthly basis as part of the Treasury Management Function. Following the Final Calculation for each Monthly Settlement Cycle, as specified in [A.2.4.1.2.1.2 - Final Calculation By Core GovOps](9de89bf3-9051-44f1-9ec0-d362ee4d4b38), each Prime Agent's share of the reward pool for the month covered by that cycle, allocated as specified in [A.2.2.11.1.4.2 - Allocation Based On Staked SKY](f8d35814-d8bb-423f-97ce-35629bcc7a5e), is paid from the Core Council Buffer (see [A.2.3.1.2.2.2.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)). Core Governance Rewards are funded out of the Core Council Allocation (see [A.2.3.1.2.2.2 - Core Council Allocation](91b281c2-0687-45a3-939d-0480c7c33f9f)). They are not included in the net amounts due to or from Prime Agents under the Monthly Settlement Cycle, are not recognized as Expenses for purposes of [A.2.3.1.2.1 - Step 0: Net Revenue](c09435ff-d876-442a-899c-ad494175500b), and do not reduce Net Revenue.
 
 ###### A.2.2.11.1.4.2 - Allocation Based On Staked SKY [Core]  <!-- UUID: f8d35814-d8bb-423f-97ce-35629bcc7a5e -->
 
@@ -4668,11 +4785,13 @@ Step 3 Capital is allocated as follows:
 - Forty-five percent (45%) of Step 3 Capital is distributed to SKY stakers as USDS Staking Rewards as specified in [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0).
 - Ten percent (10%) of Step 3 Capital is used by the Smart Burn Engine to buy back SKY, and the SKY tokens acquired through these buybacks are burned.
 
+The allocation between SKY Staking Rewards and USDS Staking Rewards is adjusted as specified in [A.2.3.1.4.1 - Staking Rewards Rate Adjustment](de233df4-34cc-4e88-a065-9a9dde9add3c).
+
 The specific parameters governing the execution of Smart Burn Engine buybacks are specified in [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
 
 ##### A.2.3.1.2.5 - Step 4: Staking Rewards [Core]  <!-- UUID: bb163691-630e-4fda-88f1-96381a649fa0 -->
 
-Step 4 Capital is distributed to SKY stakers as Staking Rewards. Step 4 Capital comprises (1) USDS allocated from Step 3, distributed as USDS Staking Rewards, and (2) SKY tokens acquired by the Smart Burn Engine through buybacks specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121), distributed as SKY Staking Rewards.
+Step 4 Capital is distributed to SKY stakers as Staking Rewards. Step 4 Capital comprises (1) USDS allocated from Step 3, distributed as USDS Staking Rewards, and (2) SKY tokens acquired by the Smart Burn Engine through buybacks attributable to the SKY Staking Rewards share specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121), distributed as SKY Staking Rewards.
 
 #### A.2.3.1.3 - Sourcing Of Internal Senior Risk Capital [Core]  <!-- UUID: ac7a6636-acbc-40c9-abc1-4543c0beb300 -->
 
@@ -4682,15 +4801,17 @@ Internal Senior Risk Capital (ISRC) consists of a portion of the excess capital 
 
 The Sky Treasury Management Function is implemented through Executive Votes that update the corresponding on-chain parameters. Changes to the documents herein define the intended operation of the Sky Treasury Management Function; operational effect on the Sky Protocol requires a subsequent Executive Vote. Until such an Executive Vote is executed, prior on-chain parameters remain in force.
 
-Pending activation of the USDS Staking Rewards specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121), the Smart Burn Engine continues to operate under existing on-chain parameters specified in [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a), and SKY staking rewards continue to be funded from the Protocol Treasury via the Vesting Stream Contract specified in [A.4.4.1.4.2.1.3 - Vesting Stream Contract](21a8978d-10a5-4151-b99a-ca8115fe0a6d). The USDS Staking Rewards become operational when the SKY tokens funding the Vesting Stream Contract approach depletion. The Core Facilitator, in consultation with the Core Council Risk Advisor, determines when this activation occurs and effects the corresponding on-chain parameter changes through an Executive Vote.
+The allocation of Step 3 Capital specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121) is implemented through the Splitter Module operating under the parameters specified in [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a). The share of each transfer allocated to USDS Staking Rewards funds the USDS rewards contract directly. The remainder is used by the Smart Burn Engine to buy back SKY. SKY tokens attributable to the SKY Staking Rewards share are distributed to SKY stakers via the Vesting Stream Contract specified in [A.4.4.1.2.2.3 - Vesting Stream Contract](21a8978d-10a5-4151-b99a-ca8115fe0a6d). SKY tokens attributable to the burn share are burned through Executive Votes as part of the implementation of the Sky Treasury Management Function.
 
-##### A.2.3.1.4.1 - Short Term SKY Staking Rewards Rate [Core]  <!-- UUID: de233df4-34cc-4e88-a065-9a9dde9add3c -->
+##### A.2.3.1.4.1 - Staking Rewards Rate Adjustment [Core]  <!-- UUID: de233df4-34cc-4e88-a065-9a9dde9add3c -->
 
-Pending activation of the USDS Staking Rewards specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121), no Step 4 Capital is allocated to SKY Staking Rewards. Instead, SKY Staking Rewards are funded from SKY token reserves held by the Protocol Treasury via the Vesting Stream Contract specified in [A.4.4.1.4.2.1.3 - Vesting Stream Contract](21a8978d-10a5-4151-b99a-ca8115fe0a6d), distributed at a rate equivalent to fifty percent (50%) of Step 2 Capital from the prior Monthly Settlement Cycle. The rate is determined by the Core Facilitator in consultation with the Core Council Risk Advisor following each Monthly Settlement Cycle, using the prior Monthly Settlement Cycle's Step 2 Capital and the price of SKY, and is implemented through an Executive Vote.
+The Core Facilitator, in consultation with the Core Council Risk Advisor, keeps the reward rate provided by SKY Staking Rewards and the reward rate provided by USDS Staking Rewards equivalent. The reward rate provided by each option is the annualized value of the rewards distributed to wallets electing that option relative to the value of the SKY those wallets have staked.
+
+To maintain equivalence, the Core Facilitator adjusts the allocation of Step 3 Capital between SKY Staking Rewards and USDS Staking Rewards from the allocation specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121), and adjusts the rate of the vesting stream specified in [A.4.4.1.2.2.3 - Vesting Stream Contract](21a8978d-10a5-4151-b99a-ca8115fe0a6d). Smart Burn Engine parameters are modified as specified in [A.3.5.2.3 - Modification](499570de-9fae-4009-be34-c3330266030a), either through an Executive Vote or directly through the Smart Burn Engine Bounded External Access Module; vesting stream parameters are modified through an Executive Vote. The SKY Accumulation Percentage may not be set below the share of Step 3 Capital allocated to buyback and burn.
 
 #### A.2.3.1.5 - Allocation Modification [Core]  <!-- UUID: c4ef7fd6-c70c-4fe9-9665-97ad17443390 -->
 
-In the short term, the Core Council may reduce the allocations of Step 1 Capital (see [A.2.3.1.2.2 - Step 1: Security And Maintenance](324e9d22-70fe-4e44-82ab-118815f5c42e)) and Step 2 Capital (see [A.2.3.1.2.3 - Step 2: Aggregate Backstop Capital](2b28d464-e683-48ba-9a66-2fee05ea0a88)) below their specified levels and restore them up to those levels, and modify the allocation of Step 3 Capital among its three specified uses (see [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121)). A reduction to the Step 1 allocation may be apportioned among its components as the Core Council determines. For Step 2 Capital, the specified level is the retention its allocation formula specifies for the current state. The Core Council exercises this authority through a public post by the Core Facilitator on the Sky Forum, confirmed by Core GovOps and the Core Council Risk Advisor.
+In the short term, the Core Council may reduce the allocations of Step 1 Capital (see [A.2.3.1.2.2 - Step 1: Security And Maintenance](324e9d22-70fe-4e44-82ab-118815f5c42e)) and Step 2 Capital (see [A.2.3.1.2.3 - Step 2: Aggregate Backstop Capital](2b28d464-e683-48ba-9a66-2fee05ea0a88)) below their specified levels and restore them up to those levels, and modify the allocation of Step 3 Capital among its specified uses (see [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121)). A reduction to the Step 1 allocation may be apportioned among its components as the Core Council determines. For Step 2 Capital, the specified level is the retention its allocation formula specifies for the current state. The Core Council exercises this authority through a public post by the Core Facilitator on the Sky Forum, confirmed by Core GovOps and the Core Council Risk Advisor.
 
 The implementation of such modifications is authorized to proceed directly to an Executive Vote without requiring a prior Governance Poll.
 
@@ -4710,7 +4831,7 @@ The Monthly Settlement Cycle (MSC) synchronizes several key operational processe
 2. The monthly Senior Risk Capital (SRC) origination process is settled: the clearing price is established, costs are deducted from winning Prime Agents’ accounts, and their accounts are credited with Originated SRC (OSRC) for the upcoming month. See [A.3.2.2.4.3.5 - Settlement Of Origination](fff0112a-58dd-4041-97f9-7baf113b4e70).
 3. Queued conversions between USDS and srUSDS within the SRC system are processed. See [A.3.2.2.4.2.2 - Deposit And Redemption Queues](38a99586-4a13-4ce3-8b2f-cee025e0c390).
 4. Pioneer Incentive Pools are funded with an amount equivalent to the Sky Savings Rate multiplied by the balance of Unrewarded USDS. See [A.2.2.9.3 - Pioneer Chain Primitive](4c7be4c6-44b5-407a-94ae-3d7ca7e8039c).
-5. Smart Burn Engine parameters are updated at each Monthly Settlement Cycle based on the prior month's state. See [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121) and [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
+5. Smart Burn Engine parameters are updated at each Monthly Settlement Cycle based on the prior month's state, and between Monthly Settlement Cycles as necessary as specified in [A.2.3.1.4.1 - Staking Rewards Rate Adjustment](de233df4-34cc-4e88-a065-9a9dde9add3c). See [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121) and [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
 6. Critical Core GovOps functions related to the operationalization of Sky Primitives are executed, including payment/reimbursement processing, compliance monitoring, and the calculation and application of retroactive penalties.
 
 #### A.2.4.1.2 - Implementation [Core]  <!-- UUID: 75473c4b-69ba-4e6b-bbf6-2c926732364c -->
@@ -5589,6 +5710,12 @@ The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads as specified in the referenced proposal.
 
+###### A.2.8.2.2.2.4.5.1.5 - Spark Foundation Grant Authorization: October 2026 [Core]  <!-- UUID: 1deecbd9-c3d8-45c4-a407-28386735833d -->
+
+The founding team of Spark has proposed a cash grant of 865,000 USDS to the Spark Foundation from Spark's Prime Treasury to cover October 2026 Spark Foundation expenses. Additionally, the founding team of Spark has proposed a grant of 45,000 USDS to the Spark Asset Foundation from Spark's Prime Treasury to cover October 2026 Spark Asset Foundation expenses.
+
+Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads.
+
 ###### A.2.8.2.2.2.4.5.2 - Grove Foundation Grant Authorizations [Core]  <!-- UUID: db86fa15-45c6-4a44-9c2a-652fd3d227b0 -->
 
 The documents herein record Sky Governance authorizations for grants to the Grove Foundation.
@@ -5608,6 +5735,12 @@ Sky Governance hereby consents to this grant and authorizes the execution of the
 ###### A.2.8.2.2.2.4.5.2.3 - Grove Foundation Grant Authorization: August 2026 [Core]  <!-- UUID: a8075d68-a5ba-4b4d-bce5-0ad58130f9e5 -->
 
 The founding team of Grove has proposed a cash grant of 800,000 USDS to the Grove Foundation from Grove's Prime Treasury for August 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
+
+Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payload. The transfer must be made to the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in a Grove Spell included in a Sky Executive Vote unless otherwise agreed by Sky and Grove.
+
+###### A.2.8.2.2.2.4.5.2.4 - Grove Foundation Grant Authorization: September 2026 [Core]  <!-- UUID: bd2d15af-e32a-4ce9-a7ac-5a5ff1665fd4 -->
+
+The founding team of Grove has proposed a cash grant of 800,000 USDS to the Grove Foundation from Grove's Prime Treasury for September 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
 
 Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payload. The transfer must be made to the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in a Grove Spell included in a Sky Executive Vote unless otherwise agreed by Sky and Grove.
 

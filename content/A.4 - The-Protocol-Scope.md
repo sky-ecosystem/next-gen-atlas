@@ -32,13 +32,17 @@ Historically, MKR was the governance token of the Sky Protocol. As part of the t
 
 **MKR holders have voted to approve the deprecation of MKR as the governance token of the Sky Protocol with full knowledge of the changes being proposed. See **[**https://vote.makerdao.com/polling/QmcZNZg3**](https://vote.makerdao.com/polling/QmcZNZg3)**. This deprecation includes all actions defined in **[**A.4.1.2.1 - MKR To SKY Upgrade**](6bb8b5b2-a2a8-4728-bddb-28bf054de9b6)**, including, but not limited to, the removal of voting rights from MKR and the Delayed Upgrade Penalty**.
 
-###### A.4.1.2.1.1.1 - MKR To SKY Conversion Contract [Core]  <!-- UUID: 0a26f6d0-1b50-4015-b094-499724796f9e -->
+##### A.4.1.2.1.2 - MKR To SKY Conversion Contract [Core]  <!-- UUID: 0a26f6d0-1b50-4015-b094-499724796f9e -->
 
-The MKR to SKY conversion contract MKR_SKY allows users to upgrade from MKR to SKY at a conversion rate of 1 MKR to 24,000 SKY, subject to the Delayed Upgrade Penalty specified in [A.4.1.2.1.1.1.1 - MKR To SKY Upgrade Penalty](ec820ddb-5d12-43d8-81b7-a7602a70332a).
+The MKR to SKY conversion contract MKR_SKY allows users to upgrade from MKR to SKY at a conversion rate of 1 MKR to 24,000 SKY, subject to the Delayed Upgrade Penalty specified in [A.4.1.2.1.3 - MKR To SKY Upgrade Penalty](ec820ddb-5d12-43d8-81b7-a7602a70332a).
 
-###### A.4.1.2.1.1.1.1 - MKR To SKY Upgrade Penalty [Core]  <!-- UUID: ec820ddb-5d12-43d8-81b7-a7602a70332a -->
+##### A.4.1.2.1.3 - MKR To SKY Upgrade Penalty [Core]  <!-- UUID: ec820ddb-5d12-43d8-81b7-a7602a70332a -->
 
-In the September 18, 2025 Executive Vote, the Delayed Upgrade Penalty for the MKR to SKY conversion contract was set to 1%. The Delayed Upgrade Penalty will be increased gradually at the rate of 1 percentage point per 3 months thereafter.
+In the September 18, 2025 Executive Vote, the Delayed Upgrade Penalty for the MKR to SKY conversion contract was set to 1%. The Delayed Upgrade Penalty is increased via an Executive Vote by one (1) percentage point every three (3) months thereafter.
+
+###### A.4.1.2.1.3.1 - Current Value [Core]  <!-- UUID: 2b209018-e632-47a4-bc1b-11c5d101c952 -->
+
+The current value of the Delayed Upgrade Penalty can be read from the MKR to SKY conversion contract MKR_SKY, as specified in [A.4.1.2.1.2 - MKR To SKY Conversion Contract](0a26f6d0-1b50-4015-b094-499724796f9e), located on the Ethereum Mainnet at `0xA1Ea1bA18E88C381C724a75F23a130420C403f9a`, by calling the `fee` function [https://etherscan.io/address/0xA1Ea1bA18E88C381C724a75F23a130420C403f9a#readContract#F1](https://etherscan.io/address/0xA1Ea1bA18E88C381C724a75F23a130420C403f9a#readContract#F1).
 
 #### A.4.1.2.2 - Deflationary Tokenomics [Core]  <!-- UUID: c72ca16f-14d1-4aca-978e-ba9efe6d80bc -->
 
@@ -231,7 +235,7 @@ The Avalanche SkyLink Bridge consists of a Token Bridge that allows bridging USD
 
 ##### A.4.2.2.3.2 - Deployment [Core]  <!-- UUID: 1c0d2cf1-dc44-4b7f-b709-61fcc5c1612c -->
 
-The Avalanche SkyLink Bridge will be deployed in the April 9, 2026 Executive Vote. The timing may be modified by the Core Facilitator in consultation with relevant Ecosystem Actors.
+The Avalanche SkyLink Bridge was deployed in the April 9, 2026 Executive Vote.
 
 ##### A.4.2.2.3.3 - Security Parameters [Core]  <!-- UUID: 413852e0-23b8-4630-a8a1-de0d9018c482 -->
 
@@ -463,7 +467,7 @@ SKY stakers can unstake their staked SKY at any time without penalty, provided t
 
 #### A.4.4.1.2 - SKY Staking Rewards [Core]  <!-- UUID: a98a1bfe-5713-43f5-a8bd-83c5808900b8 -->
 
-The documents herein define the SKY Staking Rewards. SKY stakers may choose between receiving USDS, SKY, or Agent Token rewards.
+The documents herein define the SKY Staking Rewards. SKY stakers may choose between receiving USDS or SKY rewards. Agent Token rewards may also be made available as specified in [A.4.5 - Distribution Of Agent Tokens](e2f1f01f-3303-41c3-b337-f09eb41ba6be).
 
 ##### A.4.4.1.2.1 - Sources Of Rewards [Core]  <!-- UUID: e1c77a6a-5b94-4d40-a205-43c703a780e2 -->
 
@@ -471,11 +475,99 @@ SKY stakers are eligible to receive rewards sourced from the Sky Treasury Manage
 
 ###### A.4.4.1.2.1.1 - Treasury Management Function-Derived Rewards [Core]  <!-- UUID: 6cacdc1c-bdfa-4f68-bdb4-bf31943dcfba -->
 
-USDS rewards and SKY rewards for SKY stakers are funded from the Staking Rewards allocation of the Sky Treasury Management Function (see [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0)) and distributed continuously, pro-rata based on the SKY stake of eligible wallets. Distribution parameters are updated at each Monthly Settlement Cycle.
+USDS rewards and SKY rewards for SKY stakers are funded from the Staking Rewards allocation of the Sky Treasury Management Function (see [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0)) and distributed continuously, pro-rata based on the SKY stake of eligible wallets. Distribution parameters are adjusted as specified in [A.2.3.1.4.1 - Staking Rewards Rate Adjustment](de233df4-34cc-4e88-a065-9a9dde9add3c). SKY rewards are funded as specified in [A.4.4.1.2.2.4 - Source Of SKY Rewards](349a350c-c9b7-4232-a83f-2fb49b91fc74) and distributed, at the vesting rate set as specified in [A.2.3.1.4.1 - Staking Rewards Rate Adjustment](de233df4-34cc-4e88-a065-9a9dde9add3c), through the implementation specified in [A.4.4.1.2.2 - SKY Rewards Implementation](ca151bc7-87fc-4749-9776-ea4308817e81).
 
 ###### A.4.4.1.2.1.2 - Agent Token Distribution Rewards [Core]  <!-- UUID: 6aa85298-4f1c-4dc5-a973-99bc1e5293d1 -->
 
-SKY stakers are eligible to receive Agent Token rewards as specified in [A.4.5 - Distribution Of Agent Tokens](e2f1f01f-3303-41c3-b337-f09eb41ba6be). Agent Tokens are distributed continuously, pro‑rata by staked SKY, among wallets that have opted to receive a specific Agent Token. Distribution parameters are updated at each Monthly Settlement Cycle.
+SKY stakers may be eligible to receive Agent Token rewards as specified in [A.4.5 - Distribution Of Agent Tokens](e2f1f01f-3303-41c3-b337-f09eb41ba6be). When available, Agent Tokens are distributed continuously, pro‑rata by staked SKY, among wallets that have opted to receive a specific Agent Token. Distribution parameters are updated at each Monthly Settlement Cycle.
+
+##### A.4.4.1.2.2 - SKY Rewards Implementation [Core]  <!-- UUID: ca151bc7-87fc-4749-9776-ea4308817e81 -->
+
+The documents herein specify the implementation and funding of SKY rewards for SKY stakers through the Staking Rewards contract, Rewards Distribution contract, and Vesting Stream contract.
+
+###### A.4.4.1.2.2.1 - Staking Rewards Contract [Core]  <!-- UUID: cf65f0d8-ae2f-45df-80bd-1014ce66509d -->
+
+The Staking Rewards contract is the user facing contract that allows SKY stakers to stake their SKY to receive SKY rewards. It maintains the balance of staked SKY receiving SKY rewards for each user and the associated accumulated rewards balance.
+
+###### A.4.4.1.2.2.1.1 - Staking Rewards Contract Address [Core]  <!-- UUID: b4989cd9-f45e-4747-8861-fac4175624cc -->
+
+The address of the Staking Rewards contract on the Ethereum Mainnet is `0xB44C2Fb4181D7Cb06bdFf34A46FdFe4a259B40Fc`.
+
+###### A.4.4.1.2.2.1.2 - Staking Rewards Contract Parameters [Core]  <!-- UUID: 2bfed9a4-9d7f-4544-b331-5e196a13a108 -->
+
+The parameters of the Staking Rewards contract are specified in the documents herein.
+
+###### A.4.4.1.2.2.1.2.1 - Owner [Core]  <!-- UUID: 3db49535-c663-425d-81b9-3ffa6e2e722d -->
+
+The `owner` of the Staking Rewards contract is the contract that has the ability to control administrative functions for the Staking Rewards contract. The value of the `owner` parameter is the `MCD_PAUSE_PROXY`.
+
+###### A.4.4.1.2.2.1.2.2 - Rewards Distribution Contract Address [Core]  <!-- UUID: 12b11af8-08d6-4b42-a323-cac0a60e78d3 -->
+
+The Rewards Distribution contract address `rewardsDistribution` is the address of the Rewards Distribution contract associated with the Staking Rewards contract. The value of the `rewardsDistribution` parameter is the address of the Rewards Distribution contract specified in [A.4.4.1.2.2.2.1 - Rewards Distribution Contract Address](fdebe206-2f58-4056-8adf-c42dffb47026).
+
+###### A.4.4.1.2.2.1.2.3 - Rewards Token [Core]  <!-- UUID: 9c3bd61a-25ee-43bc-8c93-89142dce6b49 -->
+
+The Rewards Token `rewardsToken` is the token that users receive as rewards. The value of the `rewardsToken` parameter is `SKY`, representing SKY Tokens.
+
+###### A.4.4.1.2.2.1.2.4 - Staking Token [Core]  <!-- UUID: 7e88d6b2-a76b-4aae-a045-bc0eb44d9657 -->
+
+The Staking Token `stakingToken` is the token that users stake to earn rewards. The value of the `stakingToken` parameter is `LSSKY`, representing staked SKY Tokens.
+
+###### A.4.4.1.2.2.2 - Rewards Distribution Contract [Core]  <!-- UUID: 1317764a-d07f-40de-8ff7-f43a3337ca19 -->
+
+The Rewards Distribution contract is the contract that handles the regular transfer of reward tokens from the Vesting Stream contract to the Staking Rewards contract for distribution to end users.
+
+###### A.4.4.1.2.2.2.1 - Rewards Distribution Contract Address [Core]  <!-- UUID: fdebe206-2f58-4056-8adf-c42dffb47026 -->
+
+The address of the Rewards Distribution contract on the Ethereum Mainnet is `0x675671A8756dDb69F7254AFB030865388Ef699Ee`.
+
+###### A.4.4.1.2.2.2.2 - Rewards Distribution Contract Parameters [Core]  <!-- UUID: c13efebc-94fe-408f-93a7-5ee5badb109f -->
+
+The parameters of the Rewards Distribution contract are specified in the documents herein.
+
+###### A.4.4.1.2.2.2.2.1 - Staking Rewards Contract Address [Core]  <!-- UUID: dd30a514-3abb-4e2b-8cc3-03ef2fbf7834 -->
+
+The Staking Rewards contract address `stakingRewards` is the address of the Staking Rewards contract associated with the Rewards Distribution contract. The value of the `stakingRewards` parameter is the address of the Staking Rewards contract specified in [A.4.4.1.2.2.1.1 - Staking Rewards Contract Address](b4989cd9-f45e-4747-8861-fac4175624cc).
+
+###### A.4.4.1.2.2.2.2.2 - Vesting Stream Contract Address [Core]  <!-- UUID: 5348e6c1-13f4-4e5c-8d75-83239ad999ea -->
+
+The Vesting Stream contract address `dssVest` is the address of the Vesting Stream contract associated with the Rewards Distribution contract. The value of the `dssVest` parameter is the address of the Vesting Stream contract specified in [A.4.4.1.2.2.3.1 - Vesting Stream](89155294-6652-481f-938f-a562d5b40e65).
+
+###### A.4.4.1.2.2.3 - Vesting Stream Contract [Core]  <!-- UUID: 21a8978d-10a5-4151-b99a-ca8115fe0a6d -->
+
+The Vesting Stream contract manages various vesting streams that vest SKY Tokens from the Protocol Treasury. One of these vesting streams regularly vests SKY Tokens to the Staking Rewards contract.
+
+###### A.4.4.1.2.2.3.1 - Vesting Stream [Core]  <!-- UUID: 89155294-6652-481f-938f-a562d5b40e65 -->
+
+The address of the Vesting Stream contract is the address corresponding to the `MCD_VEST_SKY_TREASURY` key in the Chainlog.
+
+###### A.4.4.1.2.2.3.2 - Vesting Stream Contract Parameters [Core]  <!-- UUID: 148e2c86-0f30-49c1-923c-9b32f92aa40f -->
+
+The parameters of the vesting stream managed by the Vesting Stream contract that vests SKY Tokens to the Staking Rewards contract are specified in the documents herein.
+
+###### A.4.4.1.2.2.3.2.1 - Vesting Duration [Core]  <!-- UUID: 9cad1b65-5dea-4510-a1cd-c47eddb66309 -->
+
+The Vesting Duration `vestTau` is the total duration over which the Vesting Total number of tokens are to be vested linearly.
+
+###### A.4.4.1.2.2.3.2.2 - Vesting Total [Core]  <!-- UUID: 8bc59b3a-5bf4-4e2c-a793-b51a4ff58ef6 -->
+
+The Vesting Total `vestTot` is the number of rewards tokens to be vested in total over the Vesting Duration.
+
+###### A.4.4.1.2.2.3.3 - Vesting Stream Parameter Modification [Core]  <!-- UUID: 7da0cd7a-238f-400f-89a7-a419ed25ce37 -->
+
+The Core Facilitator, in consultation with the Core Council Risk Advisor, may modify the parameters of the vesting stream to achieve the target reward rate as specified in [A.2.3.1.4.1 - Staking Rewards Rate Adjustment](de233df4-34cc-4e88-a065-9a9dde9add3c). Such modifications can be effected directly via an Executive Vote, without a prior Governance Poll.
+
+###### A.4.4.1.2.2.4 - Source Of SKY Rewards [Core]  <!-- UUID: 349a350c-c9b7-4232-a83f-2fb49b91fc74 -->
+
+SKY rewards distributed through the Vesting Stream contract are funded by SKY acquired through Smart Burn Engine buybacks attributable to the SKY Staking Rewards share specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121). The `vestTot` and `vestTau` parameters are set accordingly.
+
+###### A.4.4.1.2.2.4.1 - Authorization Of Transfer By Sky Frontier Foundation [Core]  <!-- UUID: 2789177b-5bc7-486f-8aab-75ea16e21035 -->
+
+Sky Governance hereby confirms that the transfer of 500,000,000 SKY tokens to initially fund SKY rewards for SKY stakers is consistent with the terms of the grant to the Sky Frontier Foundation. See [A.2.13.1 - Ecosystem Entity Grants](5d5759e4-8077-4af5-9a1a-eaeab5088dd7).
+
+##### A.4.4.1.2.3 - USDS Rewards Implementation [Core]  <!-- UUID: 75784a6a-c6e2-4f74-a92c-dd1ac4f8f124 -->
+
+USDS rewards for SKY stakers are distributed through the USDS rewards contract at the address corresponding to the `REWARDS_LSSKY_USDS` key in the Chainlog. The contract is funded directly by the Splitter Module from the share of Step 3 Capital allocated to USDS Staking Rewards, as specified in [A.2.3.1.4 - Implementation](f67a5780-11d5-4014-8254-795080c77133). Its `rewardsDuration` parameter is maintained equal to the Splitter Module's `hop` parameter as specified in [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
 
 #### A.4.4.1.3 - SKY-Backed Borrowing [Core]  <!-- UUID: 264b1787-cd75-4d28-9c14-c7d5a724eba7 -->
 
@@ -1080,102 +1172,6 @@ The Core Facilitator, in consultation with the Core Council Risk Advisor, has th
 The current value of the `cap` parameter is:
 
 - 0.025 USDS.
-
-#### A.4.4.1.4 - Short Term Transitionary Measures [Core]  <!-- UUID: 22b8f8bf-b477-4439-86f7-ec605d3c657a -->
-
-The documents herein define the implementation of short-term SKY staking rewards pending the full implementation of the Sky Treasury Management Function. The policy governing the allocation of capital to staking rewards is specified in [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0).
-
-##### A.4.4.1.4.1 - Short Term USDS Rewards For SKY Stakers [Core]  <!-- UUID: aad249a0-1332-4b5f-9b46-d89873e73b86 -->
-
-USDS rewards for SKY stakers are available as specified in [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0).
-
-##### A.4.4.1.4.2 - Short Term SKY Rewards For SKY Stakers [Core]  <!-- UUID: aed6511f-f5f0-4b46-a56e-9a7bbc6ea310 -->
-
-Pending activation of the USDS Staking Rewards specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121), SKY rewards for SKY stakers are funded by SKY from the Protocol Treasury at the rate specified in [A.2.3.1.4.1 - Short Term SKY Staking Rewards Rate](de233df4-34cc-4e88-a065-9a9dde9add3c) and through the implementation specified in [A.4.4.1.4.2.1 - Implementation](ca151bc7-87fc-4749-9776-ea4308817e81); this interim mechanism will be discontinued once the USDS Staking Rewards become operational.
-
-###### A.4.4.1.4.2.1 - Implementation [Core]  <!-- UUID: ca151bc7-87fc-4749-9776-ea4308817e81 -->
-
-SKY rewards for SKY stakers are implemented through the Staking Rewards contract, the Vested Rewards Distribution contract, and the Vesting Stream contract, as specified in the documents herein.
-
-###### A.4.4.1.4.2.1.1 - Staking Rewards Contract [Core]  <!-- UUID: cf65f0d8-ae2f-45df-80bd-1014ce66509d -->
-
-The Staking Rewards contract is the user facing contract that allows SKY stakers to stake their SKY to receive SKY rewards. It maintains the balance of staked SKY receiving SKY rewards for each user and the associated accumulated rewards balance.
-
-###### A.4.4.1.4.2.1.1.1 - Staking Rewards Contract Address [Core]  <!-- UUID: b4989cd9-f45e-4747-8861-fac4175624cc -->
-
-The address of the Staking Rewards contract on the Ethereum Mainnet is `0xB44C2Fb4181D7Cb06bdFf34A46FdFe4a259B40Fc`.
-
-###### A.4.4.1.4.2.1.1.2 - Staking Rewards Contract Parameters [Core]  <!-- UUID: 2bfed9a4-9d7f-4544-b331-5e196a13a108 -->
-
-The parameters of the Staking Rewards contract are specified in the documents herein.
-
-###### A.4.4.1.4.2.1.1.2.1 - Owner [Core]  <!-- UUID: 3db49535-c663-425d-81b9-3ffa6e2e722d -->
-
-The `owner` of the Staking Rewards contract is the contract that has the ability to control administrative functions for the Staking Rewards contract. The value of the `owner` parameter is the `MCD_PAUSE_PROXY`.
-
-###### A.4.4.1.4.2.1.1.2.2 - Rewards Distribution Contract Address [Core]  <!-- UUID: 12b11af8-08d6-4b42-a323-cac0a60e78d3 -->
-
-The Rewards Distribution contract address `rewardsDistribution` is the address of the Rewards Distribution contract associated with the Staking Rewards contract. The value of the `rewardsDistribution` parameter is the address of the Rewards Distribution contract specified in [A.4.4.1.4.2.1.2.1 - Rewards Distribution Contract Address](fdebe206-2f58-4056-8adf-c42dffb47026).
-
-###### A.4.4.1.4.2.1.1.2.3 - Rewards Token [Core]  <!-- UUID: 9c3bd61a-25ee-43bc-8c93-89142dce6b49 -->
-
-The Rewards Token `rewardsToken` is the token that users receive as rewards. The value of the `rewardsToken` parameter is `SKY`, representing SKY Tokens.
-
-###### A.4.4.1.4.2.1.1.2.4 - Staking Token [Core]  <!-- UUID: 7e88d6b2-a76b-4aae-a045-bc0eb44d9657 -->
-
-The Staking Token `stakingToken` is the token that users stake to earn rewards. The value of the `stakingToken` parameter is `LSSKY`, representing staked SKY Tokens.
-
-###### A.4.4.1.4.2.1.2 - Rewards Distribution Contract [Core]  <!-- UUID: 1317764a-d07f-40de-8ff7-f43a3337ca19 -->
-
-The Rewards Distribution contract is the contract that handles the regular transfer of reward tokens from the Vesting Stream contract to the Staking Rewards contract for distribution to end users.
-
-###### A.4.4.1.4.2.1.2.1 - Rewards Distribution Contract Address [Core]  <!-- UUID: fdebe206-2f58-4056-8adf-c42dffb47026 -->
-
-The address of the Rewards Distribution contract on the Ethereum Mainnet is `0x675671A8756dDb69F7254AFB030865388Ef699Ee`.
-
-###### A.4.4.1.4.2.1.2.2 - Rewards Distribution Contract Parameters [Core]  <!-- UUID: c13efebc-94fe-408f-93a7-5ee5badb109f -->
-
-The parameters of the Rewards Distribution contract are specified in the documents herein.
-
-###### A.4.4.1.4.2.1.2.2.1 - Staking Rewards Contract Address [Core]  <!-- UUID: dd30a514-3abb-4e2b-8cc3-03ef2fbf7834 -->
-
-The Staking Rewards contract address `stakingRewards` is the address of the Staking Rewards contract associated with the Rewards Distribution contract. The value of the `stakingRewards` parameter is the address of the Staking Rewards contract specified in [A.4.4.1.4.2.1.1.1 - Staking Rewards Contract Address](b4989cd9-f45e-4747-8861-fac4175624cc).
-
-###### A.4.4.1.4.2.1.2.2.2 - Vesting Stream Contract Address [Core]  <!-- UUID: 5348e6c1-13f4-4e5c-8d75-83239ad999ea -->
-
-The Vesting Stream contract address `dssVest` is the address of the Vesting Stream contract associated with the Rewards Distribution contract. The value of the `dssVest` parameter is the address of the Vesting Stream contract specified in [A.4.4.1.4.2.1.3.1 - Vesting Stream](89155294-6652-481f-938f-a562d5b40e65).
-
-###### A.4.4.1.4.2.1.3 - Vesting Stream Contract [Core]  <!-- UUID: 21a8978d-10a5-4151-b99a-ca8115fe0a6d -->
-
-The Vesting Stream contract manages various vesting streams that vest SKY Tokens from the Protocol Treasury. One of these vesting streams regularly vests SKY Tokens to the Staking Rewards contract.
-
-###### A.4.4.1.4.2.1.3.1 - Vesting Stream [Core]  <!-- UUID: 89155294-6652-481f-938f-a562d5b40e65 -->
-
-The address of the Vesting Stream contract is the address corresponding to the `MCD_VEST_SKY_TREASURY` key in the Chainlog.
-
-###### A.4.4.1.4.2.1.3.2 - Vesting Stream Contract Parameters [Core]  <!-- UUID: 148e2c86-0f30-49c1-923c-9b32f92aa40f -->
-
-The parameters of the vesting stream managed by the Vesting Stream contract that vests SKY Tokens to the Staking Rewards contract are specified in the documents herein.
-
-###### A.4.4.1.4.2.1.3.2.1 - Vesting Duration [Core]  <!-- UUID: 9cad1b65-5dea-4510-a1cd-c47eddb66309 -->
-
-The Vesting Duration `vestTau` is the total duration over which the Vesting Total number of tokens are to be vested linearly.
-
-###### A.4.4.1.4.2.1.3.2.2 - Vesting Total [Core]  <!-- UUID: 8bc59b3a-5bf4-4e2c-a793-b51a4ff58ef6 -->
-
-The Vesting Total `vestTot` is the number of rewards tokens to be vested in total over the Vesting Duration.
-
-###### A.4.4.1.4.2.1.3.3 - Vesting Stream Parameter Modification [Core]  <!-- UUID: 7da0cd7a-238f-400f-89a7-a419ed25ce37 -->
-
-The Core Facilitator, in consultation with the Core Council Risk Advisor, may modify the parameters of the vesting stream to achieve the target reward rate as specified in [A.2.3.1.4.1 - Short Term SKY Staking Rewards Rate](de233df4-34cc-4e88-a065-9a9dde9add3c). Such modifications can be effected directly via an Executive Vote, without a prior Governance Poll.
-
-###### A.4.4.1.4.2.2 - Source Of SKY Rewards [Core]  <!-- UUID: 349a350c-c9b7-4232-a83f-2fb49b91fc74 -->
-
-The `vestTot` and `vestTau` parameters of the Vesting Stream contract are set such that SKY rewards are funded by SKY acquired through buybacks or SKY reserves.
-
-###### A.4.4.1.4.2.2.1 - Authorization Of Transfer By Sky Frontier Foundation [Core]  <!-- UUID: 2789177b-5bc7-486f-8aab-75ea16e21035 -->
-
-Sky Governance hereby confirms that the transfer of 500,000,000 SKY tokens to initially fund SKY rewards for SKY stakers is consistent with the terms of the grant to the Sky Frontier Foundation. See [A.2.13.1 - Ecosystem Entity Grants](5d5759e4-8077-4af5-9a1a-eaeab5088dd7).
 
 ## A.4.5 - Distribution Of Agent Tokens [Article]  <!-- UUID: e2f1f01f-3303-41c3-b337-f09eb41ba6be -->
 

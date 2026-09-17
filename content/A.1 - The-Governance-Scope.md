@@ -2832,6 +2832,8 @@ Prior to publication of Forum posts as specified in [A.1.10.2.3.2.2.3.2.2 - Prim
 
 Each proposed Prime Spell action must be included in a Forum post on the Sky Forum. Each Forum post must contain the Technical Scope, as specified in [A.1.10.2.5.2.1 - Technical Scope Template](b9ba6658-87a9-4421-9d20-386df8cea450), the Financial Risk Assessment, and, if relevant, a Technical Risk Assessment.
 
+Each Forum post must be published under the Prime Agent's own category on the Sky Forum. The title of the Forum post must consist of the target Spell date in square brackets, followed by "Proposed Changes to", the Prime Agent's name, and "for Upcoming Spell".
+
 Under the Sky Governance path, the Forum posts must be published by Wednesday, 16:00 UTC of week 1.
 
 Under the Independent Governance path, the Forum posts must be published by end of Friday of week 1.
@@ -4439,7 +4441,7 @@ The Deployment Checklist is maintained by Core GovOps. All changes must be submi
 
 ###### A.1.10.2.5.2.3 - Morpho Deployment Verification Guide [Core]  <!-- UUID: 45adb133-13b4-402c-8c2b-2473d78ff72e -->
 
-The Morpho Deployment Verification Guide defines the steps for verifying vault and market deployments made through the Morpho protocol's smart contract factories, covering factory deployment provenance, market and oracle parameters, vault roles, and timelock settings. It is maintained as specified in [A.1.10.2.5.2.3.1 - Morpho Deployment Verification Guide Update Process](5df5c86a-7efa-4c04-afda-dd9f3a21e596).
+The Morpho Deployment Verification Guide defines the steps for verifying vault and market deployments made through the Morpho protocol's smart contract factories, covering factory deployment provenance, market and oracle parameters, vault roles, and timelock settings. The guide is maintained as specified in [A.1.10.2.5.2.3.1 - Morpho Deployment Verification Guide Update Process](5df5c86a-7efa-4c04-afda-dd9f3a21e596). Morpho vaults used by Prime Agents must also comply with [A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework](915a36c0-754c-41f9-ada1-2fec0816f7b8).
 
 ###### A.1.10.2.5.2.3.1 - Morpho Deployment Verification Guide Update Process [Core]  <!-- UUID: 5df5c86a-7efa-4c04-afda-dd9f3a21e596 -->
 

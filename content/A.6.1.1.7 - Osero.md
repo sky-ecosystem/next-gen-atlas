@@ -1276,17 +1276,29 @@ The address of the AdministeredAgent contract is: `0x1837505D104F7a6D8b7e1945261
 
 The documents herein list the rate limits for the Osero Liquidity Layer Diamond PAU.
 
-###### A.6.1.1.7.2.6.1.2.1.1.2.1 - Diamond PAU Rate Limits [Core]  <!-- UUID: 325731dc-5e89-4a8a-9d64-91b203febf48 -->
+###### A.6.1.1.7.2.6.1.2.1.1.2.1 - Diamond PAU Rate Limit IDs [Core]  <!-- UUID: eeaa3936-6129-4af5-89a1-0a3c56c175aa -->
 
-The documents herein list the Diamond PAU rate limits for the Osero Liquidity Layer.
+The documents herein list the controller-wide `RateLimitID`(s) for the Osero Diamond PAU. Instance-specific `RateLimitID`(s) are specified in each Instance Configuration Document.
 
-###### A.6.1.1.7.2.6.1.2.1.1.2.1.1 - USDS Mint Maximum [Core]  <!-- UUID: c6456279-0dab-4517-aad9-46d9e8d4aede -->
+###### A.6.1.1.7.2.6.1.2.1.1.2.1.1 - USDS Mint RateLimitID [Core]  <!-- UUID: faa9b57b-a127-433d-9330-b52f9c455108 -->
+
+The LIMIT_USDS_MINT RateLimitID is: `0xcb0537d5e5dba65a8edbac12555995860e5b8e1b70996011edb1ca8173e56d3c`.
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.1.2 - USDS Burn RateLimitID [Core]  <!-- UUID: 6546d1fc-06dc-4169-aca1-f3c1e6b1c71f -->
+
+The LIMIT_USDS_BURN RateLimitID is: `0x844d35ae585cfdeed0a77b7724286a1d4b5718bf8663d85e55396062b1cbe38c`.
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.2 - Diamond PAU Rate Limits [Core]  <!-- UUID: 325731dc-5e89-4a8a-9d64-91b203febf48 -->
+
+The documents herein list the controller-wide rate limits for the Osero Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.2.1 - USDS Mint Maximum [Core]  <!-- UUID: c6456279-0dab-4517-aad9-46d9e8d4aede -->
 
 The maximum amount of USDS that can be minted by the Osero Diamond PAU (`LIMIT_USDS_MINT`) is specified in the document herein.
-- `maxAmount`: 5,000,000 USDS
-- `slope`: 5,000,000 USDS per day
+- `maxAmount`: 50,000,000 USDS
+- `slope`: 50,000,000 USDS per day
 
-###### A.6.1.1.7.2.6.1.2.1.1.2.1.2 - USDS Burn Maximum [Core]  <!-- UUID: eafa2031-9560-4b23-aa7a-f4ee62097438 -->
+###### A.6.1.1.7.2.6.1.2.1.1.2.2.2 - USDS Burn Maximum [Core]  <!-- UUID: eafa2031-9560-4b23-aa7a-f4ee62097438 -->
 
 The maximum amount of USDS that can be burned by the Osero Diamond PAU (`LIMIT_USDS_BURN`) is specified in the document herein.
 - `maxAmount`: Unlimited
@@ -1409,7 +1421,7 @@ The documents herein define the protocol for routine ongoing management of the O
 
 ###### A.6.1.1.7.2.6.1.2.2.1.1 - Role Hierarchies And Permissions [Core]  <!-- UUID: aae0e1ba-4ed0-4484-9187-3e53f3695ae8 -->
 
-The roles and permissions of the Diamond PAU Instance are the Liquidity Layer roles defined in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550), managed by the AccessControls contract. For the Osero Liquidity Layer, the `DEFAULT_ADMIN_ROLE` is held by the Osero SubProxy, and the `CONTROLLER` role by the Controller contract. The `ALLOCATOR_ROLE` is held by the AdministeredAgent contract, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract](0eed3609-62a2-4c5b-ae5b-4f78212252ee). The Osero Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig](1830fb80-a44b-4aaf-b72c-7c4997cb9486)) and the Core Operator Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig](f48b14c7-6dd1-4d10-b546-a604be45758c)) are registered as its Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55). The Freezer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig](51460bc2-f5fb-4302-912a-ed3e6943aae0)) is registered as a Revoker, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
+The roles and permissions of the Diamond PAU Instance are the Liquidity Layer roles defined in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550), managed by the AccessControls contract. For the Osero Liquidity Layer, the `DEFAULT_ADMIN_ROLE` is held by the Osero SubProxy, and the `CONTROLLER` role by the Controller contract. The Configurator also holds the `DEFAULT_ADMIN_ROLE` on both the AccessControls contract and the ALM Rate Limits contract, as specified in [A.2.2.10.1.1.1.2.3.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c). The `ALLOCATOR_ROLE` is held by the AdministeredAgent contract, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract](0eed3609-62a2-4c5b-ae5b-4f78212252ee). The Osero Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig](1830fb80-a44b-4aaf-b72c-7c4997cb9486)) and the Core Operator Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig](f48b14c7-6dd1-4d10-b546-a604be45758c)) are registered as its Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55). The Freezer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig](51460bc2-f5fb-4302-912a-ed3e6943aae0)) is registered as a Revoker, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 14aa9d85-4878-49b9-9cd7-d6a014bdecea -->
 
@@ -1521,13 +1533,13 @@ The outflow RateLimitID is: `0xf9ac1455c7ba8e0bacb7a3eca4a2cf412eda3cbc0f6aa1b07
 
 ###### A.6.1.1.7.2.6.1.3.1.1.1.2.4 - Rate Limits [Core]  <!-- UUID: d0d163d7-b9d3-4e7d-9371-0a8c48bf2d9f -->
 
-The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.7.2.6.1.2.1.1.2.2 - Diamond PAU Rate Limits](325731dc-5e89-4a8a-9d64-91b203febf48).
 
 ###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: e3b12e29-eb67-40be-8cac-85913eff958c -->
 
 The deposit rate limits are:
-- `maxAmount`: 5,000,000 USDS
-- `slope`: 5,000,000 USDS per day
+- `maxAmount`: 50,000,000 USDS
+- `slope`: 50,000,000 USDS per day
 
 ###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: b021fcff-b1e3-456d-a1e6-f14604784100 -->
 
