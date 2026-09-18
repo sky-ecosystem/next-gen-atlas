@@ -790,21 +790,22 @@ An underlying asset of a lending market in which a Prime Agent has invested that
 
 A reference implementation of the calculation of Instance Financial RRC for lending markets is included herein.
 
-`import math
-from collections import defaultdict
-import numpy as np
+```python
+import math
+
 from scipy.stats import norm
 
 # Constants
 RISK_FREE_RATE = 0.04  # SOFR
-TIME_HORIZON = 1       # 1 year
+TIME_HORIZON = 1  # 1 year
+
 
 class FinancialRRCModel:
     def __init__(self):
         # For demo purposes, we hardcode a dummy correlation map
         self.token_correlation_map = {
-            'TOKENA': {'TOKENB': 0.5},
-            'TOKENB': {'TOKENA': 0.5},
+            "TOKENA": {"TOKENB": 0.5},
+            "TOKENB": {"TOKENA": 0.5},
         }
 
     def _calculate_effective_volatility(self, list_1, list_2):
@@ -817,8 +818,9 @@ class FinancialRRCModel:
                 if sym1 == sym2:
                     corr = 1.0
                 else:
-                    corr = self.token_correlation_map.get(sym1, {}).get(sym2,
-                           self.token_correlation_map.get(sym2, {}).get(sym1, 0.0))
+                    corr = self.token_correlation_map.get(sym1, {}).get(
+                        sym2, self.token_correlation_map.get(sym2, {}).get(sym1, 0.0)
+                    )
                 effective_variance += (
                     pos1["share"]
                     * pos2["share"]
@@ -852,16 +854,21 @@ class FinancialRRCModel:
         corr_cd = cov_cd / (vol_coll * vol_debt) if vol_coll * vol_debt > 0 else 0.0
 
         # 3) drift terms
-        eff_coll_rate = sum(p["share"] * p["supply_apy_30d"]
-                            for p in wallet_data["collateral_positions"].values())
-        eff_borrow_rate = sum(p["share"] * p["borrow_apy_30d"]
-                              for p in wallet_data["debt_positions"].values())
-        eff_stake_rate = sum(p["share"] * p["staking_apy_30d"]
-                             for p in wallet_data["collateral_positions"].values())
+        eff_coll_rate = sum(
+            p["share"] * p["supply_apy_30d"]
+            for p in wallet_data["collateral_positions"].values()
+        )
+        eff_borrow_rate = sum(
+            p["share"] * p["borrow_apy_30d"]
+            for p in wallet_data["debt_positions"].values()
+        )
+        eff_stake_rate = sum(
+            p["share"] * p["staking_apy_30d"]
+            for p in wallet_data["collateral_positions"].values()
+        )
 
         drift_cd = (
-            eff_coll_rate + eff_stake_rate - eff_borrow_rate
-            + (var_debt - var_coll) / 2
+            eff_coll_rate + eff_stake_rate - eff_borrow_rate + (var_debt - var_coll) / 2
         )
 
         vol_cd = math.sqrt(
@@ -875,22 +882,21 @@ class FinancialRRCModel:
         log_term = math.log(L / D) if L > 0 and D > 0 else float("-inf")
         denom = vol_cd * math.sqrt(TIME_HORIZON) if vol_cd > 0 else 1e-10
 
-        d1 = (log_term + (drift_cd - vol_cd**2/2) * TIME_HORIZON) / denom
-        d2 = (log_term - (drift_cd - vol_cd**2/2) * TIME_HORIZON) / denom
+        d1 = (log_term + (drift_cd - vol_cd**2 / 2) * TIME_HORIZON) / denom
+        d2 = (log_term - (drift_cd - vol_cd**2 / 2) * TIME_HORIZON) / denom
 
         # 5) Probability of Default
         try:
-            pd = (
-                norm.cdf(-d1)
-                + norm.cdf(-d2) * (L / D) ** (-2 * a)
-            )
+            pd = norm.cdf(-d1) + norm.cdf(-d2) * (L / D) ** (-2 * a)
         except OverflowError:
             pd = 1.0
         pd = max(0.0, min(pd, 1.0))
 
         # 6) Loss Given Default
         recovery = sum(
-            p["share"] * (1 - p["liquidation_penalty"]) * (1 - p["slippage"])
+            p["share"]
+            * (1 - p["liquidation_penalty"])
+            * (1 - p["slippage"])
             / p["liquidation_threshold"]
             for p in wallet_data["collateral_positions"].values()
         )
@@ -898,14 +904,17 @@ class FinancialRRCModel:
 
         # 7) Exposure at Default
         ead = sum(
-            debt["debt_usd"] * math.exp((RISK_FREE_RATE + debt["borrow_apy_30d"]) * TIME_HORIZON)
+            debt["debt_usd"]
+            * math.exp((RISK_FREE_RATE + debt["borrow_apy_30d"]) * TIME_HORIZON)
             for debt in wallet_data["debt_positions"].values()
         )
 
         # 8) Asset Correlation Coefficient
         a_acc, b_acc, c_acc = 0.13, 10, 0.33
         exp_term = math.exp(-b_acc * pd)
-        acc = a_acc * (1 - exp_term)/(1-math.exp(-b_acc)) + c_acc*(1 - (1-exp_term)/(1-math.exp(-b_acc)))
+        acc = a_acc * (1 - exp_term) / (1 - math.exp(-b_acc)) + c_acc * (
+            1 - (1 - exp_term) / (1 - math.exp(-b_acc))
+        )
 
         # 9) Credit risk weight
         default_threshold = (
@@ -916,6 +925,7 @@ class FinancialRRCModel:
         # 10) RRC
         rrc = credit_risk * ead
         return rrc
+
 
 # -------- DEMO USAGE --------
 
@@ -947,13 +957,13 @@ if __name__ == "__main__":
                 "share": 0.7,
                 "volatility_30d": 0.2,
                 "borrow_apy_30d": 0.06,
-                "debt_usd":  100_000,
+                "debt_usd": 100_000,
             },
             "TOKENB": {
                 "share": 0.3,
                 "volatility_30d": 0.25,
                 "borrow_apy_30d": 0.07,
-                "debt_usd":  50_000,
+                "debt_usd": 50_000,
             },
         },
         "collateral_usd_lt": 200_000,
@@ -964,7 +974,7 @@ if __name__ == "__main__":
     model = FinancialRRCModel()
     rrc = model._estimate_rrc_for_position(wallet_data)
     print(f"Estimated Required Risk Capital (RRC): ${rrc:,.2f}")
-`
+```
 
 ###### A.3.2.2.1.1.1.2 - Perpetual Positions [Core]  <!-- UUID: 69fac7fa-6168-4b74-99cc-28b557826556 -->
 
@@ -1883,12 +1893,11 @@ The parameters of this function are defined in [A.3.2.2.1.2.3.3.2.1 - Variable D
 
 The document herein contains a reference implementation of the calculation of Instance Smart Contract RRC based on the Smart Contract Risk Rating.
 
-`import numpy as np
-import matplotlib.pyplot as plt
-
+```python
 # ------------------------------------------------------------------
 # Function Definition
 # ------------------------------------------------------------------
+
 
 def piecewise_coverage(x, x_start, x_kink, x_max):
     """
@@ -1920,9 +1929,11 @@ def piecewise_coverage(x, x_start, x_kink, x_max):
         # coverage goes 0.25 -> 1.0
         return 0.25 + (0.75 * frac)
 
+
 # ------------------------------------------------------------------
 # Thresholds
 # ------------------------------------------------------------------
+
 
 def f1_thresholds_low_risk(rating):
     """
@@ -1930,10 +1941,11 @@ def f1_thresholds_low_risk(rating):
     in % terms, e.g. 5%, 23.75%, 30%, etc.
     """
     x_start = (50 - rating) * 0.01  # e.g. rating=0 -> 0.5 (50%)
-    x_max   = x_start + 0.50       # always a 50% gap to max
+    x_max = x_start + 0.50  # always a 50% gap to max
     # kink is 75% of the way from start to max
-    x_kink  = x_start + 0.75 * (x_max - x_start)
+    x_kink = x_start + 0.75 * (x_max - x_start)
     return (x_start, x_kink, x_max)
+
 
 def f2_thresholds_high_risk(rating):
     """
@@ -1946,9 +1958,11 @@ def f2_thresholds_high_risk(rating):
     x_kink = x_start + 0.75 * (x_max - x_start)  # 75% of the way
     return (x_start, x_kink, x_max)
 
+
 # ------------------------------------------------------------------
 # RRC Calculation
 # ------------------------------------------------------------------
+
 
 def calculate_rrc_coverage(
     rating,
@@ -1956,17 +1970,21 @@ def calculate_rrc_coverage(
     exposure_total,
     liquid_surplus_internal,
     total_exposure_beyond_surplus,
-    total_collateral
+    total_collateral,
 ):
     """
     Returns the coverage fraction (0 - 1) for a given rating & scenario.
     For the absolute coverage amount, multiply coverage_fraction
-    by \`exposure_internal\`.
+    by `exposure_internal`.
     """
 
     # 1) Compute the two driver ratios
-    f1 = max(0.0, total_exposure_beyond_surplus / total_collateral) # Ensuring it is non-negative when surplus > exposure
-    f2 = (exposure_internal + 0.1 * (exposure_total - exposure_internal)) / liquid_surplus_internal
+    f1 = max(
+        0.0, total_exposure_beyond_surplus / total_collateral
+    )  # Ensuring it is non-negative when surplus > exposure
+    f2 = (
+        exposure_internal + 0.1 * (exposure_total - exposure_internal)
+    ) / liquid_surplus_internal
 
     # 2) Determine which category the rating is in
     if rating <= 25:
@@ -1999,7 +2017,7 @@ def calculate_rrc_coverage(
             return 1.0
 
     return coverage_fraction
-`
+```
 
 ###### A.3.2.2.1.2.4 - Exceptions [Core]  <!-- UUID: 3de7a183-3871-49e0-89b0-1363db621dc0 -->
 

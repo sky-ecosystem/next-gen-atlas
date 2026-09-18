@@ -4754,7 +4754,7 @@ The risk opened up by this functionality is malicious action by whitelisted oper
 
 ###### A.1.10.3.2.10.5 - Configurator Bounded External Access Module Exception [Core]  <!-- UUID: ae05e069-0626-45f5-82d2-dbf39a5b2598 -->
 
-A Configurator Bounded External Access Module (cBEAM) is a whitelisted Operator. It can use the Configurator to adjust a Diamond PAU's rate limits or execute pre-approved controller actions, within the ceilings BeamState sets, without waiting for the GSM Pause Delay. See [A.2.2.10.1.1.1.2.4.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d).
+A Configurator Bounded External Access Module (cBEAM) is a whitelisted Operator. It can use the Configurator to adjust a Diamond PAU's rate limits or execute enabled controller actions, within the bounds BeamState sets, without waiting for the GSM Pause Delay. See [A.2.2.10.1.1.1.2.4.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d).
 
 This functionality allows Diamond PAU parameters to be adjusted more quickly than waiting for an Executive Vote and the GSM Pause Delay.
 
