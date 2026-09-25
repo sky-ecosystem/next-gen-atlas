@@ -7026,6 +7026,14 @@ The documents herein define the Instance contract addresses.
 
 `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.3 - Curator Role Address [Core]  <!-- UUID: dfd3a988-328e-4710-8049-fe1f5592fdcc -->
+
+`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.4 - Sentinel Role Address [Core]  <!-- UUID: b0cd2f12-ad27-46ee-b482-89a07124598b -->
+
+`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
+
 ###### A.6.1.1.2.2.6.1.3.1.7.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 23ecc971-d297-4a06-98da-1e7620f5a823 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
@@ -7199,6 +7207,14 @@ The documents herein define the Instance contract addresses.
 ###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 5ec16337-978a-4b21-bf47-326db289a2ef -->
 
 `0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a`
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.3 - Curator Role Address [Core]  <!-- UUID: a66421cd-3c15-4f43-a817-7b5262063361 -->
+
+`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.4 - Sentinel Role Address [Core]  <!-- UUID: e2466f53-ded7-458b-9004-ef07b7e1a8ef -->
+
+`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
 
 ###### A.6.1.1.2.2.6.1.3.1.7.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: 112d2a3d-0241-446e-96e8-36a25715c275 -->
 
@@ -7480,6 +7496,14 @@ The documents herein define the Instance contract addresses.
 ###### A.6.1.1.2.2.6.1.3.1.7.7.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: de701477-61aa-4d32-81b7-9ab044bb2b74 -->
 
 `0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.2.3 - Curator Role Address [Core]  <!-- UUID: e37ccf22-627f-4c05-8861-63ff9c198ea6 -->
+
+`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.2.4 - Sentinel Role Address [Core]  <!-- UUID: 81672046-5627-4a09-b0d2-00079278a262 -->
+
+`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
 
 ###### A.6.1.1.2.2.6.1.3.1.7.7.2.3 - Rate Limit IDs [Core]  <!-- UUID: 41f9c281-d313-47d4-af75-8df48c9e260c -->
 
