@@ -2214,9 +2214,9 @@ The documents herein list general on-chain parameters for the Keel Liquidity Lay
 
 The Allocator Vault parameters for ALLOCATOR-NOVA-A are defined in [A.3.7.1.2.1.4 - ALLOCATOR-NOVA-A Parameters](08321783-f31a-4a80-8f0c-898afb4d8f9b).
 
-###### A.6.1.1.3.2.6.1.2.1.1.4.2 - Whitelisting Of ALMProxy [Core]  <!-- UUID: 810671ff-8674-4178-a7ce-dd98c112688d -->
+###### A.6.1.1.3.2.6.1.2.1.1.4.2 - Whitelisting Of ALM Proxy [Core]  <!-- UUID: 810671ff-8674-4178-a7ce-dd98c112688d -->
 
-The ALMProxy for Keel is whitelisted on the LitePSM. This allows Keel to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract.
+The ALM Proxy for Keel is whitelisted on the Lite PSM. This allows Keel to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract.
 
 ###### A.6.1.1.3.2.6.1.2.1.1.4.3 - Whitelisting of Keel SubProxy Cross‑Chain Messaging [Core]  <!-- UUID: b319a7e6-d484-44e7-b622-6df9754c5973 -->
 

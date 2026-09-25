@@ -20,6 +20,10 @@ Sky has agreed to compensate Gnosis for the difference between the Sky Savings R
 
 The amount of this payment is 1,806,670 USDS and the recipient address on the Ethereum Mainnet is `0x849d52316331967b6ff1198e5e32a0eb168d039d`. This payment should be included in the next available Executive Vote as determined by the Core Facilitator and is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
+###### A.4.1.1.1.1.1 - Transfer Of USDS To Gnosis [Core]  <!-- UUID: 418d496b-2e2e-4ee2-b37a-8178de5d656c -->
+
+The payment authorized in this document was made from the Surplus Buffer to the recipient address in one (1) transfer of 1,806,670 USDS, included in the November 27, 2025 Executive Vote.
+
 ### A.4.1.2 - SKY [Section]  <!-- UUID: 8e505278-67d9-4c89-afe4-992d5d846fb8 -->
 
 SKY is the governance token of the Sky Protocol. It grants voting rights in the Sky Governance system. Its liquidity is boosted by the Smart Burn Engine, as governed by the Stability Scope.
