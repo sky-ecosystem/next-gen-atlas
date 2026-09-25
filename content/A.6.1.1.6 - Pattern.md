@@ -1293,9 +1293,9 @@ The documents herein list general on-chain parameters for the Pattern Liquidity 
 
 The Allocator Vault parameters for ALLOCATOR-PATTERN-A are defined in [A.3.7.1.2.1.6 - ALLOCATOR-PATTERN-A Parameters](322e7ccc-6dcb-4f83-96e5-d8f2fa87cd00).
 
-###### A.6.1.1.6.2.6.1.2.1.1.4.2 - Whitelisting Of ALMProxy [Core]  <!-- UUID: a8094362-4ca8-4bf0-a1d8-bbed3c80d61c -->
+###### A.6.1.1.6.2.6.1.2.1.1.4.2 - Whitelisting Of ALM Proxy [Core]  <!-- UUID: a8094362-4ca8-4bf0-a1d8-bbed3c80d61c -->
 
-The ALMProxy for Pattern must be whitelisted on the LitePSM. This will effectively allow Pattern to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract.
+The ALM Proxy for Pattern is whitelisted on the Lite PSM. This allows Pattern to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract.
 
 ###### A.6.1.1.6.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 7c432de2-411e-497b-82b3-17c6853cb0b9 -->
 

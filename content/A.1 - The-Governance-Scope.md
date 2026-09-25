@@ -5108,9 +5108,11 @@ The Protego contract can be used to deploy an Emergency Drop Spell. Once authori
 
 ###### A.1.10.5.3.1.1.1 - Deployment Of Emergency Drop Spells [Core]  <!-- UUID: 583c1a98-b63a-42fa-b29e-ce0688dcdaf6 -->
 
-Any user can permissionlessly deploy an Emergency Drop Spell by invoking the `deploy` function on the Protego contract with parameters identifying the planned governance action to be canceled:
+Any user can permissionlessly deploy an Emergency Drop Spell by invoking the `deploy` function on the Protego contract with parameters identifying the planned governance action to be canceled. The function signature is as follows:
 
-`deploy(address _usr, bytes32 _tag, bytes memory _fax, uint256 _eta)(address)`
+```solidity
+function deploy(address _usr, bytes32 _tag, bytes memory _fax, uint256 _eta) public returns (address _spell)
+```
 
 The parameters of the `deploy` function are defined in [A.1.10.5.3.1.3 - Protego Parameters](55195cdc-90c3-4133-a0e4-792444b60ed8).
 
@@ -5124,19 +5126,23 @@ The Protego contract can be granted authority by Sky Governance to allow any use
 
 ###### A.1.10.5.3.1.2.1 - Permissionless Cancellation Of Single Planned Governance Action [Core]  <!-- UUID: e4e3c3d9-939d-43ef-9f7a-64f5d4cfe7d6 -->
 
-If the Protego contract has authority from Sky Governance, any user can permissionlessly invoke the `drop` function to cancel a specified Spell:
+If the Protego contract has authority from Sky Governance, any user can permissionlessly invoke the `drop` function to cancel a specified Spell. The function signature is as follows:
 
-`/// @notice Permissionlessly drop anything that has been planned on the pause.
-drop(address _usr, bytes32 _tag, bytes memory _fax, uint256 _eta)`
+```solidity
+/// @notice Permissionlessly drop anything that has been planned on the pause.
+function drop(address _usr, bytes32 _tag, bytes memory _fax, uint256 _eta) public
+```
 
 The parameters of the `drop` function are defined in [A.1.10.5.3.1.3 - Protego Parameters](55195cdc-90c3-4133-a0e4-792444b60ed8).
 
 ###### A.1.10.5.3.1.2.2 - Permissionless Cancellation Of Multiple Planned Governance Actions [Core]  <!-- UUID: 6022623f-e7cd-4a04-a8ab-e5b61c11a9da -->
 
-If the Protego contract has authority from Sky Governance, any user can permissionlessly invoke the `drop` function to cancel a specified set of Spells:
+If the Protego contract has authority from Sky Governance, any user can permissionlessly invoke the `drop` function to cancel a specified set of Spells. The function signature is as follows:
 
-`/// @notice Drop multiple plans in a single call.
-drop(Plan[] calldata plans)`
+```solidity
+/// @notice Drop multiple plans in a single call.
+function drop(Plan[] calldata _plans) external
+```
 
 The parameter of the `drop` function is defined in [A.1.10.5.3.1.3 - Protego Parameters](55195cdc-90c3-4133-a0e4-792444b60ed8).
 
@@ -5164,11 +5170,12 @@ The `eta` parameter is the expiration time of the scheduled Spell to be canceled
 
 The `plans` parameter is an array of scheduled Spells to be canceled. Each scheduled Spell to be canceled is represented as a `Plan` struct:
 
-`/**
+```solidity
+/**
  * @notice A struct representing a plan.
  * @param usr The address of the scheduled spell.
  * @param tag The tag identifying the address.
- * @param fax The encoded call to be made in \`usr\`.
+ * @param fax The encoded call to be made in `usr`.
  * @param eta The expiration time.
  */
 struct Plan {
@@ -5176,7 +5183,8 @@ struct Plan {
     bytes32 tag;
     bytes fax;
     uint256 eta;
-}`
+}
+```
 
 The parameters of the `Plan` struct are defined in [A.1.10.5.3.1.3 - Protego Parameters](55195cdc-90c3-4133-a0e4-792444b60ed8).
 

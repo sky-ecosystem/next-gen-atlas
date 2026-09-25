@@ -1176,6 +1176,14 @@ The Ethereum Mainnet Instances of the SparkLend Protocol with `Active` Status ar
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39).
 
+###### A.6.1.1.7.2.6.1.1.2.1.2 - Morpho [Core]  <!-- UUID: f45a134b-6e24-4457-90ac-a93fe75f744e -->
+
+The Ethereum Mainnet Instances of the Morpho Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.7.2.6.1.1.2.1.2.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 38d5861a-c16c-4e3b-9412-96037d403f8d -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.3.1.2.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed).
+
 ###### A.6.1.1.7.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 4c12626b-272a-4886-b7af-c6968b021fc2 -->
 
 This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of `Completed`.
@@ -1288,6 +1296,14 @@ The LIMIT_USDS_MINT RateLimitID is: `0xcb0537d5e5dba65a8edbac12555995860e5b8e1b7
 
 The LIMIT_USDS_BURN RateLimitID is: `0x844d35ae585cfdeed0a77b7724286a1d4b5718bf8663d85e55396062b1cbe38c`.
 
+###### A.6.1.1.7.2.6.1.2.1.1.2.1.3 - USDS To USDC Swap RateLimitID [Core]  <!-- UUID: e261486a-c8e4-4399-b48f-0273f78bf6ad -->
+
+The LIMIT_USDS_TO_USDC RateLimitID is: `0x00d4cb8ac2838f11d95b0136a919a13b994f920024aba35eee16dc433c65851c`.
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.1.4 - USDC To USDS Swap RateLimitID [Core]  <!-- UUID: f4ff37ef-da62-4a2a-9bcd-fc1990ab7bd3 -->
+
+The LIMIT_USDC_TO_USDS RateLimitID is: `0x87835797fec2ad9575bc1a7035e3c27b8a8b7db2c3d7118513baf081b3af06b3`.
+
 ###### A.6.1.1.7.2.6.1.2.1.1.2.2 - Diamond PAU Rate Limits [Core]  <!-- UUID: 325731dc-5e89-4a8a-9d64-91b203febf48 -->
 
 The documents herein list the controller-wide rate limits for the Osero Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
@@ -1303,6 +1319,17 @@ The maximum amount of USDS that can be minted by the Osero Diamond PAU (`LIMIT_U
 The maximum amount of USDS that can be burned by the Osero Diamond PAU (`LIMIT_USDS_BURN`) is specified in the document herein.
 - `maxAmount`: Unlimited
 
+###### A.6.1.1.7.2.6.1.2.1.1.2.2.3 - USDS To USDC Swap Maximum [Core]  <!-- UUID: 212d38a8-7496-4d49-bab6-90c67e411381 -->
+
+The maximum amount that can be swapped from USDS to USDC by the Osero Diamond PAU (`LIMIT_USDS_TO_USDC`) is specified in the document herein.
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.2.4 - USDC To USDS Swap Maximum [Core]  <!-- UUID: 6e6e09e0-d2dc-43fb-b4c3-2105632ff1ea -->
+
+The maximum amount that can be swapped from USDC to USDS by the Osero Diamond PAU (`LIMIT_USDC_TO_USDS`) is specified in the document herein.
+- `maxAmount`: Unlimited
+
 ###### A.6.1.1.7.2.6.1.2.1.1.3 - On-chain Parameters [Core]  <!-- UUID: 5b8cc141-bd99-4b69-b4de-854b4c7f5002 -->
 
 The documents herein list general on-chain parameters for the Osero Liquidity Layer.
@@ -1313,7 +1340,7 @@ The Allocator Vault parameters for ALLOCATOR-PRYSM-A are defined in [A.3.7.1.2.1
 
 ###### A.6.1.1.7.2.6.1.2.1.1.3.2 - Whitelisting Of ALM Proxy [Core]  <!-- UUID: 817fabeb-fcd9-42f4-bcdb-863c67105ccf -->
 
-The ALM Proxy for the Osero Diamond PAU will be whitelisted on the litePSM in an upcoming spell. This will allow it to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract, enabling no-fee USDS and USDC swaps through the PSM.
+The ALM Proxy for the Osero Diamond PAU is whitelisted on the Lite PSM. This allows it to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract, enabling the PSM Facet swap operations, as specified in [A.2.2.10.1.1.1.2.5.2.4.1 - Swap USDS To USDC](bff6ae57-ce3e-4520-ad46-5fe87b721408) and [A.2.2.10.1.1.1.2.5.2.4.2 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959).
 
 ###### A.6.1.1.7.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: d6410ff9-1cb6-4433-a455-15ba6d571b8f -->
 
@@ -1435,9 +1462,17 @@ The Osero Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.2.3.2.22 - USDS F
 
 The Osero Liquidity Layer uses the Aave v3 Facet ([A.2.2.10.1.1.1.2.3.2.1 - Aave v3 Facet](c9ecd9c2-dd1b-426b-8e52-66a2b1892289)) to deposit into and withdraw from SparkLend USDS.
 
+###### A.6.1.1.7.2.6.1.2.2.1.2.3 - ERC-4626 Facet [Core]  <!-- UUID: ff53173e-9c7a-4a31-baeb-185339d0780e -->
+
+The Osero Liquidity Layer uses the ERC-4626 Facet ([A.2.2.10.1.1.1.2.3.2.7 - ERC-4626 Facet](05f5d939-712b-4204-8f77-4ef5ea598dcc)) to deposit into, withdraw from, and redeem shares of ERC-4626-compliant tokenized vaults.
+
+###### A.6.1.1.7.2.6.1.2.2.1.2.4 - PSM Facet [Core]  <!-- UUID: b762ae11-c8fa-465d-a8a0-4909257551dd -->
+
+The Osero Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.2.3.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842)) to swap between USDS and USDC via DAI, through the DAI-USDS migrator and the PSM. These swaps require the ALM Proxy to be whitelisted on the Lite PSM, as specified in [A.6.1.1.7.2.6.1.2.1.1.3.2 - Whitelisting Of ALM Proxy](817fabeb-fcd9-42f4-bcdb-863c67105ccf).
+
 ###### A.6.1.1.7.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: a0fca594-a7b9-45fa-9be1-a209d5341029 -->
 
-The rate limits of the Osero Liquidity Layer are managed as specified in [A.2.2.10.1.1.1.2.5.3 - Rate Limit Management](6f5bc654-a053-4b1f-9ada-6aa13d0a2109). The Osero-specific rate limit values are specified under the [A.6.1.1.7.2.6.1.2.1.1 - Osero Liquidity Layer Architecture](e8f3afd5-d1a8-4379-826c-2c3bcc365947) and the [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39).
+The rate limits of the Osero Liquidity Layer are managed as specified in [A.2.2.10.1.1.1.2.5.3 - Rate Limit Management](6f5bc654-a053-4b1f-9ada-6aa13d0a2109). The Osero-specific rate limit values are specified under the [A.6.1.1.7.2.6.1.2.1.1 - Osero Liquidity Layer Architecture](e8f3afd5-d1a8-4379-826c-2c3bcc365947) and both Instance Configuration Documents: the [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39) and the [A.6.1.1.7.2.6.1.3.1.2.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed).
 
 ###### A.6.1.1.7.2.6.1.2.2.1.4 - Instance Lifecycle Management [Core]  <!-- UUID: bbbb38cb-5a0d-4f5f-9361-33ebb954e4ca -->
 
@@ -1462,6 +1497,10 @@ In the event that liquidity must be recovered from SparkLend and centralized in 
 ###### A.6.1.1.7.2.6.1.2.2.3.3 - Burn USDS [Core]  <!-- UUID: 3040614f-1100-45e5-a0dc-9ab22c383e9d -->
 
 Once liquidity has been recovered to the Osero ALM Proxy, the recovered USDS is repaid and burned through the USDS Facet, as specified in [A.2.2.10.1.1.1.2.5.2.1.2 - Burn USDS](f01e63b7-dde7-422a-89a1-6931839d49f5). USDS burning is unlimited so that the full outstanding amount can be burned.
+
+###### A.6.1.1.7.2.6.1.2.2.3.4 - Withdraw All ERC-4626 Vault Positions [Core]  <!-- UUID: 1dd13ef2-ee4a-4487-8fc3-0e9d83a3bbd1 -->
+
+In the event that liquidity must be recovered from an ERC-4626 vault Instance and centralized in the Osero ALM Proxy, a Relayer Multisig, acting as an Actor, redeems the Osero Liquidity Layer's full vault share balance through the ERC-4626 Facet by calling the `erc4626_redeem` function on the Diamond PAU Controller, as specified in [A.2.2.10.1.1.1.2.5.2.6.3 - Redeem From ERC-4626 Vault](36511d72-f1b3-479d-b0e9-445fdb960987). Redemptions are unlimited so that the full vault position can be unwound.
 
 ##### A.6.1.1.7.2.6.1.3 - Active Instances [Core]  <!-- UUID: 6f8a8e14-13be-4893-9bb1-17c88e984426 -->
 
@@ -1565,6 +1604,130 @@ The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - 
 ###### A.6.1.1.7.2.6.1.3.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: ff10e260-7465-4dd0-a1c3-899a66f3bbcb -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer processes.
+
+###### A.6.1.1.7.2.6.1.3.1.2 - Morpho [Core]  <!-- UUID: e4b5ea14-bfee-4b92-a242-3b031b89b7bd -->
+
+The Ethereum Mainnet Instances of the Morpho Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 6f00b7cd-21b5-4a8b-ae29-a97669d953ed -->
+
+The documents herein contain the Instance Configuration Document for the Gauntlet USDC Prime Morpho Vault V2 Instance.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: ed1400d6-4bd6-4ea4-85ae-b6a2455ee5be -->
+
+**`Pending`**
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2 - Parameters [Core]  <!-- UUID: 192cf8b5-2bd1-43a5-bfa1-5321e8ffd9e1 -->
+
+The documents herein define the parameters of the Gauntlet USDC Prime Morpho Vault V2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 0e23bfc6-19e5-4059-bad0-e5c306e5738c -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.1 - Network [Core]  <!-- UUID: 0dd995c2-5fd0-46f6-b790-dede5ab59dd4 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 69564861-a1c6-497b-9608-227e033e9959 -->
+
+Morpho
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.3 - Asset Supplied By Osero Liquidity Layer [Core]  <!-- UUID: 8fd3fc18-8824-42ee-bedf-93b5f8f1445e -->
+
+USDC
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.4 - Token [Core]  <!-- UUID: be9ca01f-1675-4d83-80af-b80789c3bd6f -->
+
+ogusdcp
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.2 - Contract Addresses [Core]  <!-- UUID: ee317ae3-a7f8-4d29-8cb5-d43a9082a2e1 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.2.1 - Token Address [Core]  <!-- UUID: ab5f16ef-d8d3-4af4-bc8c-15c928222ac8 -->
+
+`0x802148D518A6De2aF866f9A61ffB5e5C39156dB2`
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 15a30378-8d55-4f5b-9fcf-abb953b4b44c -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 3b6e99e5-8e18-4af7-bac6-3c2c90fbb864 -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 25e71c76-9cc0-4e2f-bf7a-8b1a27586b9b -->
+
+The inflow RateLimitID is: `0xfc26a91cf7b79b531d45dcc431ee59e4f2504f51cb33e2b67960808a104c92ef`.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: d79cd4a4-7c53-4891-9dd1-b757f763cb1e -->
+
+The outflow RateLimitID is: `0xcab6bfa8f90f2360ea56d52b48e71b2b98ee14414a2fd578d01dcfeb41cf97ca`.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.4 - Rate Limits [Core]  <!-- UUID: cb293144-de0c-4bd8-9971-d96327b38ae9 -->
+
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: cc2247bd-82cb-46af-a0eb-cf4bf253256c -->
+
+The deposit rate limits are:
+- `maxAmount`: 5,000,000 USDC
+- `slope`: 0 USDC per day
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: cf5305cb-703b-4e59-8cd8-e2f4a01f87e2 -->
+
+The withdrawal rate limits are:
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: a72d35e7-811b-4a38-b261-ab6bb6100058 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.5.1 - Max Slippage [Core]  <!-- UUID: 69931712-13d4-4b45-a481-2e6d1111e031 -->
+
+The `maxSlippage` for this Instance will be specified in a future iteration of the Osero Artifact.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.5.2 - Maximum Exposure [Core]  <!-- UUID: be1ab30f-c697-4dfd-a605-8ca22e28c06e -->
+
+The Maximum Exposure for this Instance is 5,000,000 USDC.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.5.3 - Capital Ratio Requirement [Core]  <!-- UUID: f61b71cf-6b5b-41a8-8897-9f1289464745 -->
+
+The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 100%.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c2c97076-4571-4299-94c6-eae2c99fa81b -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer processes.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: fb43210e-07b9-4f37-ad89-b231f61c8f0a -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer parameters.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.4.1 - Contract Addresses [Core]  <!-- UUID: fa043785-e6fb-404a-b23a-593fbee6d170 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.1 - Owner Role Address [Core]  <!-- UUID: 69f43969-9da2-4bb1-98f8-58f166712ef5 -->
+
+`0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.2 - Curator Role Address [Core]  <!-- UUID: d13f341a-5471-42a2-ab00-a3148cd38917 -->
+
+`0x256DaC8fad2788F4182A42cE8F26029F0DEd7cf9`
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.3 - Allocator Role Address [Core]  <!-- UUID: b0b73201-d985-4a71-84d9-05ae9f9320be -->
+
+The Allocator role is held by the Gauntlet Allocator address `0x6939A35d32E9bE623e08aA0bceD96D4baC170bB3` and the Vault Curator Multisig `0x256DaC8fad2788F4182A42cE8F26029F0DEd7cf9`.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.4 - Sentinel Role Address [Core]  <!-- UUID: c2390e13-50af-4008-9474-ed4e99eac308 -->
+
+The Sentinel role is held by the Gauntlet Sentinel address `0x6a0dC94d80429dd4B03E8838CE8d6BEE725bE39B` and the Soter Labs Vault Sentinel Multisig `0xf51A112fB2cB63E3CB3eeB7feA8c7c58625868C7`.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.4.2 - Max Exchange Rate [Core]  <!-- UUID: 5ca0988c-87d9-406e-86ff-2e719429b0a3 -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 USDC.
+- `setMaxExchangeRate(OGUSDCP_VAULT, 1e18, 2e6)`
 
 ##### A.6.1.1.7.2.6.1.4 - Completed Instances [Core]  <!-- UUID: 1292a07b-637f-4b35-adc1-1a9bdeee9566 -->
 
