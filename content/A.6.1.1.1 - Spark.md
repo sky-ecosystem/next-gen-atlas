@@ -5306,6 +5306,16 @@ Controllers now have protections that require a `maxExchangeRate` to be set for 
 
 Force-Deallocate Penalty: 0.01%
 
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.5 - Market Exposure [Core]  <!-- UUID: 92014d81-588c-4063-932a-85e708a26b2e -->
+
+The documents herein contain exposure details for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.5.1 - WBTC/RLUSD 86% LLTV Pool [Core]  <!-- UUID: 76161801-e958-402c-9c68-ab3f9e19d85d -->
+
+- Pool ID: `0xa128dddc761075df9a9a60689f3a41a989b245aad506352c509c0c3a76a9ec6b`
+- Absolute cap: 250,000,000 RLUSD
+- Relative cap: 10%
+
 ###### A.6.1.1.1.2.6.1.3.1.6 - Spark Savings V2 [Core]  <!-- UUID: 47f2b461-1d82-4ee8-8cd2-39c95184c51b -->
 
 The Ethereum Mainnet Instances of the Spark Savings v2 with `Active` Status are stored herein.
