@@ -2710,7 +2710,7 @@ Removing an actor revokes its ability to submit operations through the Allocatio
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.5 - Grantor [Core]  <!-- UUID: 64f794c9-db5f-4875-a800-3da12f4c5bec -->
 
-The Grantor is authorized to add actors to the AdministeredAgent. The grantor is the Soter Labs grantor multisig: [TBD: address, signing threshold and signers, from Soter Labs]. It replaces the PAU Grantor Multisig (`0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514`), whose grantor authorization is removed.
+The Grantor is authorized to add actors to the AdministeredAgent. The grantor is the Soter Labs grantor multisig: TBD. It replaces the PAU Grantor Multisig (`0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514`), whose grantor authorization is removed.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 92e30e64-76dd-493d-be14-2088892e11b1 -->
 
