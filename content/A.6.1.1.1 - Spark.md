@@ -2097,7 +2097,7 @@ The address of the AdministeredAgent contract is: `0x0745aae633E8318a063D383791b
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.6 - Beacon Contract [Core]  <!-- UUID: e7ef2fd6-d98a-454d-9dd5-1cb0dc739101 -->
 
-The address of the Beacon contract is: `0x86036CE5d2f792367C0AA43164e688d13c5A60A8`.
+The address of the Beacon contract is: `0x86036CE5d2f792367C0AA43164e688d13c5A60A8`. The Beacon is controlled by Sky Governance through the Arbitrum Sky Governance Relay (`0x10E6593CDda8c58a1d0f14C5164B376352a55f2F`), which is the sole holder of its `DEFAULT_ADMIN_ROLE`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.7 - CCTP Facet Contract [Core]  <!-- UUID: 29be03da-9d81-487a-8d3a-7ebd80bffd44 -->
 
