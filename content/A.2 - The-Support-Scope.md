@@ -3400,15 +3400,15 @@ The Administered Agent Factory (`AdministeredAgentFactory`) is the contract that
 
 ###### A.2.2.10.1.1.1.2.3.6 - Configurator [Core]  <!-- UUID: 5e1f82c7-bcd6-46f8-aec0-3e767e55a93c -->
 
-The Configurator (`PAS_CONFIGURATOR`) is the contract through which cBEAMs operate Diamond PAUs' rate limits and pre-approved controller actions, within the ceilings, as specified in [A.2.2.10.1.1.1.2.4.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4), and once registered and paired, as specified in [A.2.2.10.1.1.1.2.4.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d). Its address on Ethereum Mainnet is `0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929`.
+The Configurator (`PAS_CONFIGURATOR`) is the contract through which cBEAMs operate Diamond PAUs' rate limits and enabled controller actions, within the bounds, as specified in [A.2.2.10.1.1.1.2.4.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4), and once registered and paired, as specified in [A.2.2.10.1.1.1.2.4.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d). Its address on Ethereum Mainnet is `0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929`.
 
 ###### A.2.2.10.1.1.1.2.3.7 - BeamState [Core]  <!-- UUID: 2e36bb4f-91db-4dca-bdb1-e4aa385b1129 -->
 
-The BeamState (`PAS_STATE`) is the contract that records which cBEAMs, `RateLimits` contracts, and Controllers are registered, as specified in [A.2.2.10.1.1.1.2.4.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d), and holds the ceilings within which rate limits and controller actions may be adjusted, as specified in [A.2.2.10.1.1.1.2.4.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4). Its address on Ethereum Mainnet is `0x1A1879E66547F90bfF87D45A5b0335950E019E02`.
+The BeamState (`PAS_STATE`) is the contract that records which cBEAMs, `RateLimits` contracts, and Controllers are registered, as specified in [A.2.2.10.1.1.1.2.4.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d), and holds the bounds within which rate limits and controller actions may be adjusted, as specified in [A.2.2.10.1.1.1.2.4.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4). Its address on Ethereum Mainnet is `0x1A1879E66547F90bfF87D45A5b0335950E019E02`.
 
 ###### A.2.2.10.1.1.1.2.3.8 - Timelock [Core]  <!-- UUID: f6791cf7-f3aa-49da-9691-73e480bf3328 -->
 
-The Timelock (`PAS_TIMELOCK`) is the contract that delays certain changes to BeamState's registries and ceilings before they take effect, as specified in [A.2.2.10.1.1.1.2.4.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb), and also delays restarting Configurator operations after a halt, as specified in [A.2.2.10.1.1.1.2.4.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b). Its own operational details, including its roles and their holders, are specified in [A.2.2.10.1.1.1.2.4.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103). Its address on Ethereum Mainnet is `0xB50a06Af02dDE44dB6EA7ee729403848c2B35293`.
+The Timelock (`PAS_TIMELOCK`) is the contract that delays certain changes to BeamState's registries and bounds before they take effect, as specified in [A.2.2.10.1.1.1.2.4.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb), and also delays restarting Configurator operations after a halt, as specified in [A.2.2.10.1.1.1.2.4.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b). Its own operational details, including its roles and their holders, are specified in [A.2.2.10.1.1.1.2.4.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103). Its address on Ethereum Mainnet is `0xB50a06Af02dDE44dB6EA7ee729403848c2B35293`.
 
 ###### A.2.2.10.1.1.1.2.3.9 - PASMom [Core]  <!-- UUID: 781172a1-e2b2-4c7b-852a-3f8e89fec8ca -->
 
@@ -3416,13 +3416,13 @@ The PASMom (`PAS_MOM`) is the contract that lets Sky Governance bypass the GSM P
 
 ###### A.2.2.10.1.1.1.2.4 - PAS [Core]  <!-- UUID: 989171ed-5424-42ee-83f4-199e1149699c -->
 
-The PAS (Parallelized Allocation System) is a permissioned layer that lets cBEAMs operate a Diamond PAU's rate limits and pre-approved controller actions, within BeamState's ceilings, without direct administrative control over the Diamond PAU.
+The PAS (Parallelized Allocation System) is a permissioned layer that lets cBEAMs operate a Diamond PAU's rate limits and enabled controller actions, within the bounds BeamState sets, without direct administrative control over the Diamond PAU.
 
 The PAS consists of the following contracts:
 
-- BeamState: holds the registries and ceilings the Core Council Multisig sets. Sky Governance retains full, direct control over it at all times, since the Sky Pause Proxy holds ward authorization on it, allowing a Sky Core Spell to call any of its functions directly.
-- Configurator: the contract a cBEAM calls to adjust a rate limit or execute a pre-approved controller action within those ceilings.
-- Timelock: delays certain Core Council Multisig changes to BeamState's registries and ceilings before they take effect.
+- BeamState: holds the registries and bounds the Core Council Multisig sets. Sky Governance retains full, direct control over it at all times, since the Sky Pause Proxy holds ward authorization on it, allowing a Sky Core Spell to call any of its functions directly.
+- Configurator: the contract a cBEAM calls to adjust a rate limit or execute an enabled controller action within those bounds.
+- Timelock: delays certain Core Council Multisig changes to BeamState's registries and bounds before they take effect.
 - PASMom: the PAS's emergency stop-and-pause switch.
 
 The documents herein define its parameters, the Diamond PAUs with the Configurator enabled, BeamState and who may change its rules, the Configurator and its Operators, and the transitional measures that apply while the Timelock is paused. For the emergency path itself, see [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
@@ -3481,15 +3481,22 @@ The Configurator is granted `DEFAULT_ADMIN_ROLE` on the Grove Diamond PAU `Acces
 - `hop`: as specified in [A.2.2.10.1.1.1.2.4.1.1.2 - Hop Default Value](f86fe54a-9770-41ad-8ad2-7c58090224ce)
 - `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.1.2.2 - Max Change Default Value](0414677e-d79e-4d84-b0aa-209f0fa3ffe3)
 
+###### A.2.2.10.1.1.1.2.4.2.2 - Osero Diamond PAU [Core]  <!-- UUID: 9606346b-a7d3-4acf-93e3-c5f188504b83 -->
+
+The Configurator is granted `DEFAULT_ADMIN_ROLE` on the Osero Diamond PAU `AccessControls` and `RateLimits` contracts. The Osero Diamond PAU `RateLimits` contract is paired to the Operator specified in [A.2.2.10.1.1.1.2.4.4.3.2 - Operator For The Osero Diamond PAU](e896c546-06e1-4bf7-83a1-d91fc5cfa71a). The bounds within which cBEAMs may adjust rate limits on the Osero Diamond PAU `RateLimits` are:
+
+- `hop`: as specified in [A.2.2.10.1.1.1.2.4.1.1.2 - Hop Default Value](f86fe54a-9770-41ad-8ad2-7c58090224ce)
+- `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.1.2.2 - Max Change Default Value](0414677e-d79e-4d84-b0aa-209f0fa3ffe3)
+
 ###### A.2.2.10.1.1.1.2.4.3 - BeamState [Core]  <!-- UUID: 2091d01d-461a-4a02-9e82-986cc51960d4 -->
 
-BeamState holds the registries and ceilings that govern the PAS: which `RateLimits` contracts, Controllers, and cBEAMs are registered, and the bounds within which they may be adjusted. The documents herein define the Core Council Multisig that may change BeamState's rules, the Timelock that delays certain changes, the delayed and immediate processes for making them, how Configurator operations are halted and restarted, and PASMom's independent power to halt or pause the system.
+BeamState holds the registries and bounds that govern the PAS: which `RateLimits` contracts, Controllers, and cBEAMs are registered, and how far rate limits may be adjusted in a single step. The documents herein define the Core Council Multisig that may change BeamState's rules, the Timelock that delays certain changes, the delayed and immediate processes for making them, how Configurator operations are halted and restarted, and PASMom's independent power to halt or pause the system.
 
 ###### A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig [Core]  <!-- UUID: 666cf6b3-6d7a-40f7-99fb-b6e2e4375754 -->
 
 The Core Council Multisig (`coreCouncil`) can call any of BeamState's immediate functions directly, without a Spell, as specified in [A.2.2.10.1.1.1.2.4.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6), including halting Configurator operations as an emergency action. Sky Governance can independently halt Configurator operations or pause the Timelock through the PASMom contract, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71) and [A.2.2.10.1.1.1.2.4.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8).
 
-The Core Council Multisig proposes and can cancel changes to BeamState's delayed registries and ceilings on the Timelock, as specified in [A.2.2.10.1.1.1.2.4.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb). The Core Council Multisig also proposes restarting Configurator operations, as specified in [A.2.2.10.1.1.1.2.4.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b). Once the minimum delay has passed, any address may execute the proposed change, as specified in [A.2.2.10.1.1.1.2.4.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103); proposing, cancelling, and executing are all blocked while the Timelock is paused.
+The Core Council Multisig proposes and can cancel changes to BeamState's delayed registries and bounds on the Timelock, as specified in [A.2.2.10.1.1.1.2.4.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb). The Core Council Multisig also proposes restarting Configurator operations, as specified in [A.2.2.10.1.1.1.2.4.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b). Once the minimum delay has passed, any address may execute the proposed change, as specified in [A.2.2.10.1.1.1.2.4.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103); proposing, cancelling, and executing are all blocked while the Timelock is paused.
 
 ###### A.2.2.10.1.1.1.2.4.3.1.1 - Core Council Multisig Address [Core]  <!-- UUID: 41157518-ec2f-4c4f-a112-5a1f07fc71dc -->
 
@@ -3518,13 +3525,13 @@ Operational GovOps Soter Labs and the Core Facilitator can change the signers of
 
 ###### A.2.2.10.1.1.1.2.4.3.2 - Timelock [Core]  <!-- UUID: a824d088-be58-4163-b382-54a95a728103 -->
 
-The Timelock gates BeamState's delayed registry and ceiling changes: the Core Council Multisig proposes and can cancel a change, as specified in [A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), and once the minimum delay has passed, any address may execute it, since the Timelock's `EXECUTOR_ROLE` is granted to `address(0)`, making execution permissionless. Proposing, cancelling, and executing are all blocked while the Timelock is paused; only unpausing restores them. The minimum delay is fourteen (14) days.
+The Timelock gates delayed changes to BeamState's registries and bounds: the Core Council Multisig proposes and can cancel a change, as specified in [A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), and once the minimum delay has passed, any address may execute it, since the Timelock's `EXECUTOR_ROLE` is granted to `address(0)`, making execution permissionless. Proposing, cancelling, and executing are all blocked while the Timelock is paused; only unpausing restores them. The minimum delay is fourteen (14) days.
 
 The Timelock's `PROPOSER_ROLE` and `CANCELLER_ROLE` are held by the Core Council Multisig. Its `PAUSER_ROLE`, which can pause the Timelock, is held by PASMom, as specified in [A.2.2.10.1.1.1.2.4.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8). The Timelock's `DEFAULT_ADMIN_ROLE`, which can grant and revoke its other roles and change its minimum delay, is held by the Sky Pause Proxy.
 
 ###### A.2.2.10.1.1.1.2.4.3.3 - Delayed Function Calls [Core]  <!-- UUID: 4a388764-7469-4efb-84f0-6b91278428fb -->
 
-The documents herein define the PAS ceiling and registry changes proposed by the Core Council Multisig through the Timelock, taking effect only after a minimum delay has passed since being proposed.
+The documents herein define the changes to the PAS registries and bounds proposed by the Core Council Multisig through the Timelock, taking effect only after a minimum delay has passed since being proposed.
 
 ###### A.2.2.10.1.1.1.2.4.3.3.1 - Set Hop Function Call [Core]  <!-- UUID: 8ead8771-c769-48d0-af2a-802099c61d42 -->
 
@@ -3548,7 +3555,7 @@ The `addInitRateLimits()` function registers a rate limit's default on a `RateLi
 
 ###### A.2.2.10.1.1.1.2.4.3.3.6 - Add Init Controller Actions Function Call [Core]  <!-- UUID: 010a904e-e0e0-4c1d-8460-b8e3118b680f -->
 
-The `addInitControllerActions()` function registers a pre-approved controller action's default.
+The `addInitControllerActions()` function registers an enabled controller action's default.
 
 ###### A.2.2.10.1.1.1.2.4.3.3.7 - Add cBEAM Function Call [Core]  <!-- UUID: 33d6773e-d3d8-4141-943b-bfac186574b1 -->
 
@@ -3560,7 +3567,7 @@ The `start()` function sets BeamState's `stopped` flag to false, restoring Confi
 
 ###### A.2.2.10.1.1.1.2.4.3.4 - Immediate Function Calls [Core]  <!-- UUID: 2c82cfd0-7a9a-464f-844d-ebc43b31c2a6 -->
 
-The documents herein define the PAS ceiling and registry changes called directly by the Core Council Multisig, taking effect immediately, with no delay. `stop()` can also be triggered independently by PASMom, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
+The documents herein define the changes to the PAS registries and bounds called directly by the Core Council Multisig, taking effect immediately, with no delay. `stop()` can also be triggered independently by PASMom, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
 
 ###### A.2.2.10.1.1.1.2.4.3.4.1 - Del Rate Limits Function Call [Core]  <!-- UUID: b6693635-4fc9-4a91-9c39-1cc075da506c -->
 
@@ -3576,7 +3583,7 @@ The `delInitRateLimits()` function removes a rate limit's default on a `RateLimi
 
 ###### A.2.2.10.1.1.1.2.4.3.4.4 - Del Init Controller Actions Function Call [Core]  <!-- UUID: 88c0c2dd-f974-4690-8477-06e22d6dcd08 -->
 
-The `delInitControllerActions()` function removes a pre-approved controller action's default.
+The `delInitControllerActions()` function removes an enabled controller action's default.
 
 ###### A.2.2.10.1.1.1.2.4.3.4.5 - Del cBEAM Function Call [Core]  <!-- UUID: 03280c06-8cab-47e0-acb7-9c7a30a5bf6a -->
 
@@ -3614,7 +3621,7 @@ PASMom is a ward on BeamState and holds the Timelock's `PAUSER_ROLE`, as specifi
 
 ###### A.2.2.10.1.1.1.2.4.4 - Configurator [Core]  <!-- UUID: 45840a10-6c7c-453a-8218-4ab4d705012d -->
 
-The Configurator is the contract through which a cBEAM (Configurator Bounded External Access Module) adjusts rate limits or executes pre-approved controller actions, within the ceilings the Configurator enforces, once registered and paired to a specific Diamond PAU `RateLimits` contract or Controller. A cBEAM is an Operator of the PAS. The same cBEAM may be paired to more than one `RateLimits` contract or Controller.
+The Configurator is the contract through which a cBEAM (Configurator Bounded External Access Module) adjusts rate limits or executes enabled controller actions, within the bounds the Configurator enforces, once registered and paired to a specific Diamond PAU `RateLimits` contract or Controller. A cBEAM is an Operator of the PAS. The same cBEAM may be paired to more than one `RateLimits` contract or Controller.
 
 Removing an Operator's registration does not itself unpair it from any `RateLimits` contract or Controller it already holds, as specified in [A.2.2.10.1.1.1.2.4.3.4.5 - Del cBEAM Function Call](03280c06-8cab-47e0-acb7-9c7a30a5bf6a).
 
@@ -3638,7 +3645,7 @@ The Operators registered to the Configurator are defined in the subdocuments her
 
 ###### A.2.2.10.1.1.1.2.4.4.3.1 - Operator For The Grove Diamond PAU [Core]  <!-- UUID: da8d9885-3b28-478c-bbaa-ec88bdde91a9 -->
 
-The Grove Diamond PAU's Operator is the Grove Operator Multisig.
+The Grove Diamond PAU's Operator, the cBEAM authorized to adjust the Diamond PAU's rate limits through the Configurator, is the Grove Operator Multisig, as specified in the documents herein.
 
 ###### A.2.2.10.1.1.1.2.4.4.3.1.1 - Grove Operator Multisig Address [Core]  <!-- UUID: 5a5e59fd-693f-4511-b4b8-e2619ae60f89 -->
 
@@ -3650,7 +3657,7 @@ The Grove Operator Multisig's required number of signers is two (2) out of three
 
 ###### A.2.2.10.1.1.1.2.4.4.3.1.3 - Grove Operator Multisig Signers [Core]  <!-- UUID: 776677da-0601-4b25-97f0-619cb8978415 -->
 
-The signers of the Grove Operator Multisig are controlled by Operational GovOps Soter Labs. The specific signers will be specified in a future iteration of the Atlas.
+The signers of the Grove Operator Multisig are controlled by Operational GovOps Soter Labs.
 
 ###### A.2.2.10.1.1.1.2.4.4.3.1.4 - Grove Operator Multisig Usage Standards [Core]  <!-- UUID: 6618063e-89c7-4ff0-806a-d46b32029dc6 -->
 
@@ -3659,6 +3666,42 @@ The signers of the Grove Operator Multisig must use the multisig to operate the 
 ###### A.2.2.10.1.1.1.2.4.4.3.1.5 - Grove Operator Multisig Modification [Core]  <!-- UUID: e3f61226-0c1a-4d83-9007-9ac2d21ed3da -->
 
 Operational GovOps Soter Labs can change the signers of the Grove Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
+
+###### A.2.2.10.1.1.1.2.4.4.3.2 - Operator For The Osero Diamond PAU [Core]  <!-- UUID: e896c546-06e1-4bf7-83a1-d91fc5cfa71a -->
+
+The Osero Diamond PAU's Operator, the cBEAM authorized to adjust the Diamond PAU's rate limits through the Configurator, is the Osero Operator Multisig, as specified in the documents herein.
+
+###### A.2.2.10.1.1.1.2.4.4.3.2.1 - Osero Operator Multisig Address [Core]  <!-- UUID: 9c59a5c5-300a-4694-99ed-46a43dfc7a67 -->
+
+The address of the Osero Operator Multisig on the Ethereum Mainnet is `0x42D1038017E466b413aa44Ae798E30FB80b2E180`.
+
+###### A.2.2.10.1.1.1.2.4.4.3.2.2 - Osero Operator Multisig Required Number Of Signers [Core]  <!-- UUID: 95aa5811-78f3-4c71-b037-fa81d95e166d -->
+
+The Osero Operator Multisig's required number of signers is two (2) out of three (3).
+
+###### A.2.2.10.1.1.1.2.4.4.3.2.3 - Osero Operator Multisig Signers [Core]  <!-- UUID: 9882bb18-4f6b-4fa3-8d7f-d8dfbf9f25dc -->
+
+The signers of the Osero Operator Multisig are controlled by Operational GovOps Soter Labs.
+
+###### A.2.2.10.1.1.1.2.4.4.3.2.4 - Osero Operator Multisig Usage Standards [Core]  <!-- UUID: 212ba83e-6552-4130-bc0e-c0b687601b4e -->
+
+The signers of the Osero Operator Multisig must use the multisig to operate the Configurator in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960) and [A.2.2.10.1.1.1.2.4.4.2 - Public Communication](e1a96b57-9c5e-469f-b7ac-5dac028eb726).
+
+###### A.2.2.10.1.1.1.2.4.4.3.2.5 - Osero Operator Multisig Modification [Core]  <!-- UUID: 3375bcc9-aca7-47be-b243-bee6d4126d7c -->
+
+Operational GovOps Soter Labs can change the signers of the Osero Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
+
+###### A.2.2.10.1.1.1.2.4.4.4 - Registered Controllers [Core]  <!-- UUID: 301e33b9-545f-4150-a14b-b0775096c2ea -->
+
+The Controllers registered to the Configurator, and the controller actions enabled for each, are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.4.4.1 - Controller For The Grove Diamond PAU [Core]  <!-- UUID: d60d9a19-5661-42ac-9d52-11e3283e3740 -->
+
+The Controller for the Grove Diamond PAU, as specified in [A.6.1.1.2.2.6.1.2.1.1.1.4.1.2 - Controller Contract](6c83e356-0ac3-47aa-8ae5-bad377564e7a), is registered with the Configurator. No controller actions have been enabled for it.
+
+###### A.2.2.10.1.1.1.2.4.4.4.2 - Controller For The Osero Diamond PAU [Core]  <!-- UUID: ee79ef13-d1ae-4fc7-9784-a5293c57bfe9 -->
+
+The Controller for the Osero Diamond PAU, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.2 - Controller Contract](8e1d584f-6368-493d-a6c5-c5068250b63a), is not yet registered with the Configurator. No controller actions have been enabled for it.
 
 ###### A.2.2.10.1.1.1.2.4.5 - Transitional Measures [Core]  <!-- UUID: d5240aa5-72c1-4f92-b22c-7a80a35d733c -->
 
@@ -4920,7 +4963,7 @@ For the Monthly Settlement Cycle conducted in January 2026, the Independent Calc
 
 ##### A.2.4.1.2.2 - Implementation Stages [Core]  <!-- UUID: cf1d76c1-fc9f-499d-866f-265276e421f0 -->
 
-The initial implementation of the Monthly Settlement Cycle will occur in three stages as specified in the documents herein.
+The initial implementation of the Monthly Settlement Cycle occurs in three stages as specified in the documents herein.
 
 ###### A.2.4.1.2.2.1 - Stage 1 [Core]  <!-- UUID: efb30fa0-99b1-43bd-bdfd-219cf897c44f -->
 
@@ -5020,11 +5063,11 @@ Stage 1 applied to the period from July 1, 2025 through October 31, 2025. Stage 
 
 ###### A.2.4.1.2.2.1.3 - Stage 1 Actions [Core]  <!-- UUID: f87c520a-3324-46a7-ac4e-9c7de2a2af0a -->
 
-The actions specified herein must be completed to achieve Stage 1 implementation of the Monthly Settlement Cycle.
+The documents herein specify the actions required to achieve Stage 1 implementation of the Monthly Settlement Cycle.
 
 ###### A.2.4.1.2.2.1.3.1 - Reduction Of Prime Allocator Vault Stability Fees [Core]  <!-- UUID: 48ec2b03-0885-45d9-b5f6-22267414f587 -->
 
-The Stability Fees for each Prime Allocator Vault must be reduced to zero so that value is transferred from Primes to Sky Core exclusively through Executive Votes. The Core Executor Agents, in consultation with the Core Council Risk Advisor, is directed to use the Stability Parameter Bounded External Access Module to reduce the Stability Fee for each Prime Allocator Vault to zero. See [A.3.7.1.3.3 - Allocator Vault Parameters](6ab6bd12-93d3-419f-96e2-a7f79bfe1afa).
+The Stability Fees for each Prime Allocator Vault must be reduced to zero so that value is transferred from Primes to Sky Core exclusively through Executive Votes. The Core Executor Agents, in consultation with the Core Council Risk Advisor, are directed to use the Stability Parameter Bounded External Access Module to reduce the Stability Fee for each Prime Allocator Vault to zero. See [A.3.7.1.3.3 - Allocator Vault Parameters](6ab6bd12-93d3-419f-96e2-a7f79bfe1afa).
 
 ###### A.2.4.1.2.2.1.3.2 - Automation Of Simplified Profit And Loss Calculation [Core]  <!-- UUID: 1782eeb8-8c6f-4b34-beea-7ab140057324 -->
 
@@ -5044,7 +5087,7 @@ Stage 2 applies to the period from November 1, 2025 onward. Stage 2 was first im
 
 ###### A.2.4.1.2.2.2.3 - Stage 2 Actions [Core]  <!-- UUID: b8c86fb3-2ba4-4c53-a509-81d022dffd20 -->
 
-The actions specified herein must be completed to achieve Stage 2 implementation of the Monthly Settlement Cycle.
+The documents herein specify the actions required to achieve Stage 2 implementation of the Monthly Settlement Cycle.
 
 ###### A.2.4.1.2.2.2.3.1 - Automation Of Monthly Settlement Cycle Calculation Including Virtual Base Rate [Core]  <!-- UUID: d98d3753-4230-4ad8-a1e7-7b1fd7e3b679 -->
 
@@ -5873,7 +5916,7 @@ The Spark Token Generation Event occurred on June 17, 2025.
 
 ###### A.2.8.2.2.2.7.1.1.2 - Grove Token Generation Event [Core]  <!-- UUID: a69d2ed5-90ea-4d6b-ba6e-287a104017d2 -->
 
-The Grove Token Generation Event will occur on the first date that SKY Staking users are able to earn GROVE Token Rewards. See [A.4.4.1 - SKY Staking](626bd71c-b413-41b7-a5fe-39fd0d43dbf5).
+The Grove Token Generation Event occurred on July 6, 2026, when GROVE Token Rewards became available as specified in [A.4.3.2.3 - GROVE Token Rewards](b2ede2ee-565d-4de9-9c5a-0610e508f0d5).
 
 ###### A.2.8.2.2.2.7.1.2 - Token Launch Penalty Settlement [Core]  <!-- UUID: c680762a-a3f9-46bf-b740-9029b8a97e2b -->
 
@@ -5893,11 +5936,17 @@ The transfer of the Genesis Capital Allocation to each Prime SubProxy (i.e. the 
 
 ###### A.2.8.2.2.2.7.2.1 - Transfer Of Genesis Capital Allocation To Spark SubProxy [Core]  <!-- UUID: e3ec99ec-54c9-4fe7-8104-aee20c57ec57 -->
 
-The transfer of 20.6 million USDS from the Surplus Buffer to the Spark SubProxy for the Genesis Capital Allocation must be included in the June 26, 2025 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+The transfer of 20.6 million USDS from the Surplus Buffer to the Spark SubProxy for the Genesis Capital Allocation was included in the June 26, 2025 Executive Vote. This action was authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
 This amount reflects that 4.4 million USDS of pre-TGE expenses were paid by Sky as specified in [A.2.8.2.2.2.7.4 - Treatment of Expenses Paid By Sky Pre-TGE](f3672ca1-b305-4e16-86f0-3dc3267073bb). This includes 2 million USDS transferred from the Sky Ecosystem Liquidity Bootstrapping Budget to Spark to provide liquidity to market makers and 2.4 million USDS transferred from the Ecosystem Liquidity Bootstrapping Budget to Spark to provide liquidity to exchanges. See [A.2.8.2.2.2.7.4.1 - Transfer From Liquidity Bootstrapping Budget To Spark For Market Makers](66abd123-f5cd-4d1a-bf75-2e5f468eae16) and [A.2.8.2.2.2.7.4.2 - Transfer From Liquidity Bootstrapping Budget To Spark For Exchanges](1d7924cd-8105-458f-a959-92f302b971d4).
 
 No penalties were applied under [A.2.8.2.2.2.7.1 - Token Launch Penalty](5a62cc3f-4337-4770-a4d1-8a9b3d158b3f).
+
+###### A.2.8.2.2.2.7.2.2 - Transfer Of Genesis Capital Allocation To Grove SubProxy [Core]  <!-- UUID: c7a49d2a-72c2-438e-ab04-8ae284b811e0 -->
+
+The transfer of 20,797,477 USDS from the Surplus Buffer to the Grove SubProxy for the Genesis Capital Allocation was included in the April 9, 2026 Executive Vote and was executed on April 13, 2026.
+
+This amount reflects the Initial Allocation of 25,000,000 USDS specified in [A.2.8.2.2.2.4.2 - Grove Initial Allocation](062fdb39-464e-4a5b-a44f-3462d2d38be5), less 3,637,735 USDS of pre-TGE expenses paid by Sky as specified in [A.2.8.2.2.2.7.4 - Treatment of Expenses Paid By Sky Pre-TGE](f3672ca1-b305-4e16-86f0-3dc3267073bb), and less a penalty of 564,788 USDS applied under [A.2.8.2.2.2.7.1 - Token Launch Penalty](5a62cc3f-4337-4770-a4d1-8a9b3d158b3f).
 
 ###### A.2.8.2.2.2.7.3 - Cessation Of MKR and SKY Token Flow [Core]  <!-- UUID: 91c1a218-ea12-4b75-ad71-efc4d1060e58 -->
 
@@ -5963,7 +6012,7 @@ The tokenomics for Keel will be specified in a future iteration of the Atlas.
 
 ###### A.2.8.2.3.2.3 - Genesis Capital Allocation [Core]  <!-- UUID: 7df88d38-679b-42a2-a8a8-f798ac6a736b -->
 
-The Genesis Capital Allocation for Keel is 10,000,000 USDS. The transfer of the Genesis Capital Allocation to Keel will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll. The address of Keel's SubProxy account is specified in [A.6.1.1.3.2.1.1.3.1.1.2 - SubProxy Account](2d5f052a-e32a-472c-884f-4fd8746e0459).
+The Genesis Capital Allocation for Keel is 10,000,000 USDS. The transfer of the Genesis Capital Allocation to Keel was included in the March 26, 2026 Executive Vote. This action was authorized to proceed directly to an Executive Vote without a prior Governance Poll. The address of Keel's SubProxy account is specified in [A.6.1.1.3.2.1.1.3.1.1.2 - SubProxy Account](2d5f052a-e32a-472c-884f-4fd8746e0459).
 
 #### A.2.8.2.4 - Ecosystem Accord 4: Sky And Obex [Core]  <!-- UUID: 6bddc5aa-ac80-43d8-b8c8-8cde14e896df -->
 
@@ -6007,7 +6056,7 @@ The Initial Allocation is distributed in USDS to the Obex SubProxy.
 
 ###### A.2.8.2.4.2.1.2.1 - Transfer Of Genesis Capital Allocation To Obex SubProxy [Core]  <!-- UUID: c39702fb-bb6a-43c7-b208-18ddd279b1d3 -->
 
-The transfer of 21,000,000 USDS from the Surplus Buffer to the Obex SubProxy for the Genesis Capital Allocation must be included in the November 13, 2025 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+The transfer of 21,000,000 USDS from the Surplus Buffer to the Obex SubProxy for the Genesis Capital Allocation was included in the November 13, 2025 Executive Vote. This action was authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
 #### A.2.8.2.5 - Ecosystem Accord 5: Sky And Core Council Executor Agent 1 [Core]  <!-- UUID: 3aa58bdc-1c86-4a4e-8ca5-5a836cd2e465 -->
 
@@ -6135,7 +6184,7 @@ The address of the Osero Foundation on the Ethereum Mainnet is `0xfDD055D3CCEE0D
 
 ###### A.2.8.2.6.2.2.2.2 - Transfer Of Genesis Capital Allocation To Osero SubProxy [Core]  <!-- UUID: 65638659-eb0d-4e5c-87e8-50705e3595b8 -->
 
-The transfer of 10,000,000 USDS from the Surplus Buffer to the Osero SubProxy for the Genesis Capital Allocation will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll. The address of Osero's SubProxy account is `0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`.
+The transfer of 10,000,000 USDS from the Surplus Buffer to the Osero SubProxy for the Genesis Capital Allocation was included in the March 26, 2026 Executive Vote. This action was authorized to proceed directly to an Executive Vote without a prior Governance Poll. The address of Osero's SubProxy account is `0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`.
 
 #### A.2.8.2.7 - Ecosystem Accord 7: Sky And Skybase [Core]  <!-- UUID: 8a74919c-d9c1-4d9a-9499-302201f96f9c -->
 
@@ -6201,15 +6250,15 @@ The Initial Allocation for Skybase is 15,000,000 USDS.
 
 ###### A.2.8.2.7.2.2.2.1 - Transfer Of Genesis Capital Allocation To Skybase SubProxy [Core]  <!-- UUID: 36556509-d2b6-4932-8781-9bf4ecc90987 -->
 
-The transfer of 10,000,000 USDS from the Surplus Buffer to the Skybase SubProxy for the Genesis Capital Allocation will be included in the January 29, 2026 Executive Vote.
+The transfer of 10,000,000 USDS from the Surplus Buffer to the Skybase SubProxy for the Genesis Capital Allocation was included in the January 29, 2026 Executive Vote.
 
-This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+This action was authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
 ###### A.2.8.2.7.2.2.2.2 - Transfer Of Genesis Capital Allocation To USDS Demand Multisig [Core]  <!-- UUID: be600bf6-c0f2-42c5-ad5c-fd0cb429b628 -->
 
-The transfer of 5,000,000 USDS from the Surplus Buffer to the USDS Demand Subsidies Multisig (see [A.6.1.1.4.3.4.2 - USDS Demand Subsidies Multisig](20ee784c-115a-40bb-ae74-d4b3726b0c1b)) for the Genesis Capital Allocation will be included in the January 29, 2026 Executive Vote.
+The transfer of 5,000,000 USDS from the Surplus Buffer to the USDS Demand Subsidies Multisig (see [A.6.1.1.4.3.4.2 - USDS Demand Subsidies Multisig](20ee784c-115a-40bb-ae74-d4b3726b0c1b)) for the Genesis Capital Allocation was included in the January 29, 2026 Executive Vote.
 
-This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+This action was authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
 ###### A.2.8.2.7.2.2.3 - Subsequent Allocation Mechanism [Core]  <!-- UUID: 45830abe-1238-4e68-a9c0-6b0a359d16a9 -->
 
@@ -6251,7 +6300,7 @@ The subdocuments herein set out the substantive terms of Ecosystem Accord 8. Add
 
 ###### A.2.8.2.8.2.1 - Genesis Capital Allocation [Core]  <!-- UUID: ff5c1b0c-8027-4711-9cc3-a18772c0ba5b -->
 
-The Genesis Capital Allocation for Amatsu is 25,000,000 USDS. The transfer of the Genesis Capital Allocation to Amatsu will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+The Genesis Capital Allocation for Amatsu is 25,000,000 USDS. The transfer of the Genesis Capital Allocation to Amatsu was included in the March 26, 2026 Executive Vote. This action was authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
 ###### A.2.8.2.8.2.1.1 - Amatsu SubProxy Address [Core]  <!-- UUID: fa9d102c-39ad-49ea-a30e-5101c3400313 -->
 
@@ -6295,7 +6344,7 @@ The subdocuments herein set out the substantive terms of Ecosystem Accord 9. Add
 
 ###### A.2.8.2.9.2.1 - Genesis Capital Allocation [Core]  <!-- UUID: ee64a5b7-da29-4b14-aaa7-e2f370a37301 -->
 
-The Genesis Capital Allocation for Ozone is 25,000,000 USDS. The transfer of the Genesis Capital Allocation to Ozone will be included in the March 26, 2026 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+The Genesis Capital Allocation for Ozone is 25,000,000 USDS. The transfer of the Genesis Capital Allocation to Ozone was included in the March 26, 2026 Executive Vote. This action was authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
 ###### A.2.8.2.9.2.1.1 - Ozone SubProxy Address [Core]  <!-- UUID: 6337ca25-2d6f-4483-9b89-c087138ebabf -->
 
