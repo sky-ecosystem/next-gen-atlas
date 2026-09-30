@@ -7683,7 +7683,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.6.1.2.4.1.1 - Spark Vault v2 Implementation [Core]  <!-- UUID: 8e587ccc-45cc-49b2-83d2-947cd784d53c -->
 
-TBD
+`0xdCe929A335C75a1676EF5957A4D7a3b928C48820`
 
 ###### A.6.1.1.1.2.6.1.3.6.1.2.4.1.2 - Default admin [Core]  <!-- UUID: ce6c7101-b068-4a1e-a3f1-120983f542c4 -->
 
@@ -7691,11 +7691,11 @@ TBD
 
 ###### A.6.1.1.1.2.6.1.3.6.1.2.4.1.3 - Setter [Core]  <!-- UUID: ffa724be-0370-45e5-ad65-d84d23470dd3 -->
 
-TBD
+`0x79b4055Eda153f739B5EA63C9B647c1a095059f5`
 
 ###### A.6.1.1.1.2.6.1.3.6.1.2.4.1.4 - Taker [Core]  <!-- UUID: 94c52903-9978-4f3d-8f6e-770697b3cdde -->
 
-TBD
+`0xe6D5d041Fc5e7fDD0A53C13e78a1cc7e4ffCb667`
 
 ###### A.6.1.1.1.2.6.1.3.6.1.2.4.2 - Risk Parameters Current Configuration [Core]  <!-- UUID: a64b6225-b9d6-4631-a625-2f36140b461f -->
 
@@ -7705,9 +7705,9 @@ The subdocuments herein define the current configuration of the risk parameters.
 
 The Risk parameters are:
 
-- Supply cap: TBD
-- Max yield: TBD
-- Current yield (at launch): TBD
+- Supply cap: 500,000,000 USDC
+- Max yield: 6%
+- Current yield (at launch): 0%
 
 ###### A.6.1.1.1.2.6.1.3.6.1.2.4.2.2 - Rate Limits [Core]  <!-- UUID: 6160b63f-6195-4be6-91e3-792ee9bc1c43 -->
 
@@ -7717,13 +7717,13 @@ The current `maxAmount` for this conduit's take and transfer rate operations are
 
 The take rate limits are:
 
-- `maxAmount`: TBD
+- `maxAmount`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.6.1.2.4.2.2.2 - Transfer Rate Limits [Core]  <!-- UUID: 5a9d6bec-117f-47a7-b8a3-724862e88b4f -->
 
 The transfer rate limits are:
 
-- `maxAmount`: TBD
+- `maxAmount`: Unlimited
 
 ##### A.6.1.1.1.2.6.1.4 - Completed Instances [Core]  <!-- UUID: ed8c3394-ee05-496c-8dd6-4d5275d2ed1f -->
 
@@ -11451,12 +11451,12 @@ The current parameters for Spark Savings USDT on X Layer are:
 The current parameters for Spark Savings USDC on X Layer are:
 
 - Default admin role: 0xCF5af6F53ceC74B791cb4182aC778ca9CD323510
-- Setter role: TBD
-- Taker role: TBD
-- Take rate limit: TBD
-- Min yield: TBD
-- Max yield: TBD
-- Supply cap: TBD
+- Setter role: 0x79b4055Eda153f739B5EA63C9B647c1a095059f5
+- Taker role: 0xe6D5d041Fc5e7fDD0A53C13e78a1cc7e4ffCb667
+- Take rate limit: Unlimited
+- Min yield: 0%
+- Max yield: 6%
+- Supply cap: 500,000,000 USDC
 
 #### A.6.1.1.1.3.5.3 - Policies and Operational Parameters [Core]  <!-- UUID: c8fcae7c-01ea-48cf-9b8c-4de7d3c86d78 -->
 
