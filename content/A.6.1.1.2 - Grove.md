@@ -7026,11 +7026,15 @@ The documents herein define the Instance contract addresses.
 
 `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.3 - Curator Role Address [Core]  <!-- UUID: dfd3a988-328e-4710-8049-fe1f5592fdcc -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.3 - Owner Role Address [Core]  <!-- UUID: 71236b62-8283-4703-9d6a-04ccf6c06096 -->
+
+`0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`
+
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.4 - Curator Role Address [Core]  <!-- UUID: dfd3a988-328e-4710-8049-fe1f5592fdcc -->
 
 `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.4 - Sentinel Role Address [Core]  <!-- UUID: b0cd2f12-ad27-46ee-b482-89a07124598b -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: b0cd2f12-ad27-46ee-b482-89a07124598b -->
 
 `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
 
@@ -7208,11 +7212,15 @@ The documents herein define the Instance contract addresses.
 
 `0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a`
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.3 - Curator Role Address [Core]  <!-- UUID: a66421cd-3c15-4f43-a817-7b5262063361 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.3 - Owner Role Address [Core]  <!-- UUID: ef1ec372-a1dc-4824-94d2-7d955ea25a96 -->
+
+`0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.4 - Curator Role Address [Core]  <!-- UUID: a66421cd-3c15-4f43-a817-7b5262063361 -->
 
 `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.4 - Sentinel Role Address [Core]  <!-- UUID: e2466f53-ded7-458b-9004-ef07b7e1a8ef -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: e2466f53-ded7-458b-9004-ef07b7e1a8ef -->
 
 `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
 
@@ -7497,11 +7505,15 @@ The documents herein define the Instance contract addresses.
 
 `0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.2.3 - Curator Role Address [Core]  <!-- UUID: e37ccf22-627f-4c05-8861-63ff9c198ea6 -->
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.2.3 - Owner Role Address [Core]  <!-- UUID: 8364f790-0037-4d02-8bed-9bce1e9dbd86 -->
+
+`0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`
+
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.2.4 - Curator Role Address [Core]  <!-- UUID: e37ccf22-627f-4c05-8861-63ff9c198ea6 -->
 
 `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.2.4 - Sentinel Role Address [Core]  <!-- UUID: 81672046-5627-4a09-b0d2-00079278a262 -->
+###### A.6.1.1.2.2.6.1.3.1.7.7.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: 81672046-5627-4a09-b0d2-00079278a262 -->
 
 `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
 
