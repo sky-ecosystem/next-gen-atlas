@@ -2497,11 +2497,11 @@ The documents herein define the CCTP rate limit IDs for the Arbitrum Diamond PAU
 
 ###### A.6.1.1.1.2.6.1.2.1.1.4.1.1 - Aggregate CCTP Rate Limit ID [Core]  <!-- UUID: acebd93a-f9b4-41c8-9f73-1cb7e2748f4d -->
 
-The Aggregate CCTP RateLimitID is: TBD.
+The Aggregate CCTP RateLimitID (`cctp_toCCTPRateLimitKey()`) is: `0x0476a9fd902eafdb5bcdabd9f0523dd7aacf7aa0c38c0e6ab912f5fed00f8e11`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.4.1.2 - CCTP To Ethereum Rate Limit ID [Core]  <!-- UUID: f473b9e4-0f75-4b23-80d6-c7498b47ae29 -->
 
-The CCTP To Ethereum RateLimitID is: TBD.
+The CCTP To Ethereum RateLimitID (`cctp_getToDomainRateLimitKey(0)`, Circle domain 0) is: `0x90b598dae614822d554ec4f627bb5feab505106473a7911f34b36c0b3b9695c7`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.5 - Diamond PAU Rate Limits [Core]  <!-- UUID: e3ecf860-59dc-4d7b-b3cd-fb4311f4c2a9 -->
 
