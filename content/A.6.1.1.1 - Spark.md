@@ -7725,6 +7725,15 @@ The transfer rate limits are:
 
 - `maxAmount`: Unlimited
 
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.3 - Savings Vault Intents Configuration [Core]  <!-- UUID: 1b249a4f-85d7-471f-b3c5-68b674cfb4d2 -->
+
+The `SavingsVaultIntents` configuration for the whitelisted X Layer spUSDC vault is:
+
+- `SavingsVaultIntents`: `0x5bCD2f30FA1Bf675d5d6E793DAD7DdD487D21865`
+- Minimum assets per intent: 1,000,000 USDC
+- Maximum assets per intent: 500,000,000 USDC
+- Relayer (spUSDC PAU Administered Agent): `0x79b4055Eda153f739B5EA63C9B647c1a095059f5`
+
 ##### A.6.1.1.1.2.6.1.4 - Completed Instances [Core]  <!-- UUID: ed8c3394-ee05-496c-8dd6-4d5275d2ed1f -->
 
 The Instances of the Spark Liquidity Layer with `Completed` Status are stored herein.
@@ -11456,7 +11465,7 @@ The current parameters for Spark Savings USDC on X Layer are:
 - Take rate limit: Unlimited
 - Min yield: 0%
 - Max yield: 6%
-- Supply cap: 500,000,000 USDC
+- Supply cap: 500 million
 
 #### A.6.1.1.1.3.5.3 - Policies and Operational Parameters [Core]  <!-- UUID: c8fcae7c-01ea-48cf-9b8c-4de7d3c86d78 -->
 
