@@ -2693,7 +2693,7 @@ The `ALLOCATOR_ROLE` is authorized to call functions on the Controller contract 
 Actors submit allocation operations through the AdministeredAgent. The Arbitrum Diamond PAU actors are:
 
 - ALM Relayer Multisig: `0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB`.
-- Spark hot wallet: TBD.
+- Spark hot wallet: `0x062cE42caE04c51D04E77e3D64cc8953a2296FfE`.
 
 Actors can initiate `cctp_transfer` through the Controller within its configured limits and to the Ethereum ALM Proxy only. If the Spark hot wallet is an EOA, a single key can exercise this operational access.
 
@@ -2704,13 +2704,13 @@ An actor may be removed from the AdministeredAgent by an address holding the Fre
 The Freezer Role is authorized to remove a compromised or malicious relayer actor from the AdministeredAgent contract as a rapid-response measure, without recourse to the standard governance process. The Freezer Role is held by the following multisigs, registered as revokers of the AdministeredAgent:
 
 - ALM Freezer Multisig: `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431`.
-- Soter Labs freezer multisig: TBD.
+- Soter Labs freezer multisig: `0x747BF29B189e2a070a921Af7Cf65681E3d5F5967`.
 
 Removing an actor revokes its ability to submit operations through the Allocation System, while the Allocator Role itself remains held by the AdministeredAgent. Removing an actor does not remove any relayer permission that the same address holds on the legacy ForeignController.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.5 - Grantor [Core]  <!-- UUID: 64f794c9-db5f-4875-a800-3da12f4c5bec -->
 
-The Grantor is authorized to add actors to the AdministeredAgent. The grantor is the Soter Labs grantor multisig: TBD. It replaces the PAU Grantor Multisig (`0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514`), whose grantor authorization is removed.
+The Grantor is authorized to add actors to the AdministeredAgent. The grantor is the Soter Labs grantor multisig: `0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7`. It replaces the PAU Grantor Multisig (`0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514`), whose grantor authorization is removed.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 92e30e64-76dd-493d-be14-2088892e11b1 -->
 
