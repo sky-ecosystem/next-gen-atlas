@@ -3312,7 +3312,7 @@ The DAI-USDS Facet (`DAIUSDSFacet`) converts between DAI and USDS at 1:1 through
 
 ###### A.2.2.10.1.1.1.2.3.2.7 - ERC-4626 Facet [Core]  <!-- UUID: 05f5d939-712b-4204-8f77-4ef5ea598dcc -->
 
-The ERC-4626 Facet (`ERC4626Facet`) deposits, withdraws, and redeems against any ERC-4626 vault, under min-shares, min-assets, and max-exchange-rate guards. Its address on Ethereum Mainnet is `0x1dCA18608c89174181153E786778705b4A0E1a06`.
+The ERC-4626 Facet (`ERC4626Facet`) deposits, withdraws, and redeems against any ERC-4626 vault, under min-shares, min-assets, max-shares-burned, and max-exchange-rate guards. Its address on Ethereum Mainnet is `0x1dCA18608c89174181153E786778705b4A0E1a06`.
 
 ###### A.2.2.10.1.1.1.2.3.2.8 - ERC-7540 Facet [Core]  <!-- UUID: 83d0bf58-6a92-4873-ba9e-e5a23c8dca1c -->
 
@@ -3631,7 +3631,7 @@ The documents herein define how an Operator exercises its adjustments, its publi
 
 An Operator exercises a rate limit adjustment by calling the Configurator directly. A rate limit locked as unlimited, as specified in [A.2.2.10.1.1.1.2.4.1.3 - Locked Unlimited Rate Limit Definition](92a74fe1-3115-4cd7-bbf8-4e16fb4b0aa8), cannot be raised or lowered. Otherwise, an Operator may lower a rate limit's `maxAmount` or `slope` to any value, including to zero, at any time. It may raise either value up to the bound set by [A.2.2.10.1.1.1.2.4.1.2.1 - Max Change Definition](942d6607-b92c-4779-8012-ea3b259ebf2b), and only after the interval set by [A.2.2.10.1.1.1.2.4.1.1.1 - Hop Definition](dc0e3a84-b542-4985-a41b-7ae2a3921cf3) has passed since its last raise to that rate limit.
 
-An Operator exercises a controller action by calling the Configurator to execute a pre-approved action on its paired Controller.
+An Operator exercises a controller action by calling the Configurator to execute an enabled action on its paired Controller.
 
 Both are unaffected by whether the Timelock is paused, but are blocked while Configurator operations are halted, as specified in [A.2.2.10.1.1.1.2.4.3.4.10 - Stop Function Call](52895c20-8322-4cbf-800f-8ea107f00f85).
 
@@ -3942,6 +3942,58 @@ The swap is subject to the on-chain rate limit identified by `LIMIT_UNISWAP_V3_S
 
 The Uniswap v3 Facet's `swap` function attempts to sell the specified amount of the given token through the Uniswap v3 router for the pool's other token. The execution price is bounded against the pool's time-weighted average price by the specified maximum tick deviation. If the swap reaches this price limit before selling the full specified amount, execution stops without reverting, and part of the specified amount goes unsold. The Uniswap v3 Facet measures the amount actually sold by comparing the ALM Proxy's balance of the given token before and after the swap, and applies the Rate Limit against that measured amount rather than the specified amount. The swap does not complete unless the specified tick deviation falls within the configured maximum for the pool and the amount received is at least the specified minimum, which must be a non-zero value. The maximum tick deviation is the only governance-configured control on the swap's execution quality; the minimum amount received has no equivalent governance floor beyond being non-zero.
 
+###### A.2.2.10.1.1.1.2.5.2.6 - ERC-4626 Facet [Core]  <!-- UUID: 22251fe1-fabd-42e0-a11b-8fea8fead748 -->
+
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.2.7 - ERC-4626 Facet](05f5d939-712b-4204-8f77-4ef5ea598dcc).
+
+###### A.2.2.10.1.1.1.2.5.2.6.1 - Deposit To ERC-4626 Vault [Core]  <!-- UUID: 84567da1-17f2-4239-8ba2-270ce4469af6 -->
+
+The documents herein define the steps to deposit an asset held by the ALM Proxy into an ERC-4626 vault in exchange for vault shares.
+
+###### A.2.2.10.1.1.1.2.5.2.6.1.1 - Allocator Role [Core]  <!-- UUID: b8f6a3c8-91db-4f25-b8c1-9872deb4040a -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a deposit into an ERC-4626 vault by calling the `erc4626_deposit` function on the Diamond PAU Controller, passing the address of the vault, the amount of the underlying asset to deposit, and the minimum number of shares to receive. The Controller dispatches the call to the ERC-4626 Facet, which performs the deposit on behalf of the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.6.1.2 - Rate Limit [Core]  <!-- UUID: 5ad1a8cc-4a0a-43da-bab0-3fc087c84184 -->
+
+The deposit is subject to the on-chain rate limit identified by `LIMIT_4626_DEPOSIT` for the address of the underlying asset and the address of the vault. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. A vault for which no rate limit is configured cannot be deposited into, so the rate limit configuration also determines which vaults are available to the Diamond PAU.
+
+###### A.2.2.10.1.1.1.2.5.2.6.1.3 - Deposit Asset Into ERC-4626 Vault [Core]  <!-- UUID: 24b65a81-c816-480d-ad05-6161d9f01613 -->
+
+The ERC-4626 Facet's `deposit` function deposits the specified amount of the underlying asset from the ALM Proxy into the vault, and the ALM Proxy receives the resulting vault shares. The deposit does not complete unless the number of shares received is at least the specified minimum and the vault's exchange rate is within the maximum exchange rate configured for that vault.
+
+###### A.2.2.10.1.1.1.2.5.2.6.2 - Withdraw From ERC-4626 Vault [Core]  <!-- UUID: 28ad3b8a-3089-44db-9f60-ff6e7bdfa6bf -->
+
+The documents herein define the steps to withdraw a specified amount of the underlying asset from an ERC-4626 vault to the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.6.2.1 - Allocator Role [Core]  <!-- UUID: a0a495e3-7cc1-4ccc-bc03-969a9a6a1f35 -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a withdrawal from an ERC-4626 vault by calling the `erc4626_withdraw` function on the Diamond PAU Controller, passing the address of the vault, the amount of the underlying asset to withdraw, and the maximum number of shares to burn. The Controller dispatches the call to the ERC-4626 Facet, which performs the withdrawal on behalf of the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.6.2.2 - Rate Limit [Core]  <!-- UUID: 45751856-0a7a-451e-bd01-4bb3cf1e9b33 -->
+
+The withdrawal is subject to the on-chain rate limit identified by `LIMIT_4626_WITHDRAW` for the specified vault. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit.
+
+###### A.2.2.10.1.1.1.2.5.2.6.2.3 - Withdraw Asset From ERC-4626 Vault [Core]  <!-- UUID: 3ed97ddc-8198-4b8b-98aa-28c31c068de0 -->
+
+The ERC-4626 Facet's `withdraw` function withdraws the specified amount of the underlying asset from the vault to the ALM Proxy, burning the vault shares required to do so. The withdrawal does not complete unless the number of shares burned is at most the specified maximum.
+
+###### A.2.2.10.1.1.1.2.5.2.6.3 - Redeem From ERC-4626 Vault [Core]  <!-- UUID: 36511d72-f1b3-479d-b0e9-445fdb960987 -->
+
+The documents herein define the steps to redeem vault shares held by the ALM Proxy for the underlying asset.
+
+###### A.2.2.10.1.1.1.2.5.2.6.3.1 - Allocator Role [Core]  <!-- UUID: cdcc232f-f2d4-431e-a434-d0e3ba461784 -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a redemption of ERC-4626 vault shares by calling the `erc4626_redeem` function on the Diamond PAU Controller, passing the address of the vault, the number of shares to redeem, and the minimum amount of the underlying asset to receive. The Controller dispatches the call to the ERC-4626 Facet, which performs the redemption on behalf of the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.6.3.2 - Rate Limit [Core]  <!-- UUID: 47a492dd-f4e6-4381-b432-d12bd3111c37 -->
+
+The redemption is subject to the same on-chain rate limit as a withdrawal, identified by `LIMIT_4626_WITHDRAW` for the specified vault, so redemptions and withdrawals draw on a single shared capacity. The limit is applied to the amount of the underlying asset actually received, after the shares are redeemed, rather than to an amount specified in advance.
+
+###### A.2.2.10.1.1.1.2.5.2.6.3.3 - Redeem Shares From ERC-4626 Vault [Core]  <!-- UUID: 99ab3862-8eb2-4cbe-b67b-c8fbb5c2133f -->
+
+The ERC-4626 Facet's `redeem` function redeems the specified number of vault shares held by the ALM Proxy, and the resulting underlying asset is sent to the ALM Proxy. The redemption does not complete unless the amount of the underlying asset received is at least the specified minimum.
+
 ###### A.2.2.10.1.1.1.2.5.3 - Rate Limit Management [Core]  <!-- UUID: 6f5bc654-a053-4b1f-9ada-6aa13d0a2109 -->
 
 The documents herein define the protocol for querying, setting, and adjusting `RateLimits` for Diamond PAU Instances using their `RateLimitID`s. Rate limits are maintained in line with the operating Prime Agent's strategy, market conditions, and security considerations.
@@ -3950,105 +4002,115 @@ The documents herein define the protocol for querying, setting, and adjusting `R
 
 The following code implements the public view functions that query the current `RateLimits` for a specific key:
 
-`function getRateLimitData(bytes32 key) external override view returns (RateLimitData memory) {
-        return _data[key];
+```solidity
+function getRateLimitData(bytes32 key) external view override returns (RateLimitData memory) {
+    return _data[key];
+}
+
+function getCurrentRateLimit(bytes32 key) public view override returns (uint256) {
+    RateLimitData memory d = _data[key];
+
+    // Unlimited rate limit case
+    if (d.maxAmount == type(uint256).max) {
+        return type(uint256).max;
     }
 
-    function getCurrentRateLimit(bytes32 key) public override view returns (uint256) {
-        RateLimitData memory d = _data[key];
-
-        // Unlimited rate limit case
-        if (d.maxAmount == type(uint256).max) {
-            return type(uint256).max;
-        }
-
-        return _min(
-            d.slope * (block.timestamp - d.lastUpdated) + d.lastAmount,
-            d.maxAmount
-        );
-    }`
+    return _min(
+        d.slope * (block.timestamp - d.lastUpdated) + d.lastAmount,
+        d.maxAmount
+    );
+}
+```
 
 ###### A.2.2.10.1.1.1.2.5.3.2 - Set RateLimit [Core]  <!-- UUID: f671061e-11a0-4d3b-bb6e-9f4ee9a012a9 -->
 
 The following code sets the `RateLimit` for a specific key, restricted to the `DEFAULT_ADMIN_ROLE` holder, as specified in [A.2.2.10.1.1.1.2.2.1 - Default Admin Role](b76195f2-7494-43a4-919e-fa823303ad06):
 
-`function setRateLimitData(
-        bytes32 key,
-        uint256 maxAmount,
-        uint256 slope,
-        uint256 lastAmount,
-        uint256 lastUpdated
-    )
-        public override onlyRole(DEFAULT_ADMIN_ROLE)
-    {
-        require(lastAmount  <= maxAmount,       "RateLimits/invalid-lastAmount");
-        require(lastUpdated <= block.timestamp, "RateLimits/invalid-lastUpdated");
+```solidity
+function setRateLimitData(
+    bytes32 key,
+    uint256 maxAmount,
+    uint256 slope,
+    uint256 lastAmount,
+    uint256 lastUpdated
+)
+    public override onlyRole(DEFAULT_ADMIN_ROLE)
+{
+    require(lastAmount  <= maxAmount,       "RateLimits/invalid-lastAmount");
+    require(lastUpdated <= block.timestamp, "RateLimits/invalid-lastUpdated");
 
-        _data[key] = RateLimitData({
-            maxAmount:   maxAmount,
-            slope:       slope,
-            lastAmount:  lastAmount,
-            lastUpdated: lastUpdated
-        });
+    _data[key] = RateLimitData({
+        maxAmount:   maxAmount,
+        slope:       slope,
+        lastAmount:  lastAmount,
+        lastUpdated: lastUpdated
+    });
 
-        emit RateLimitDataSet(key, maxAmount, slope, lastAmount, lastUpdated);
-    }
+    emit RateLimitDataSet(key, maxAmount, slope, lastAmount, lastUpdated);
+}
 
-    function setRateLimitData(bytes32 key, uint256 maxAmount, uint256 slope) external override {
-        setRateLimitData(key, maxAmount, slope, maxAmount, block.timestamp);
-    }`
+function setRateLimitData(bytes32 key, uint256 maxAmount, uint256 slope) external override {
+    setRateLimitData(key, maxAmount, slope, maxAmount, block.timestamp);
+}
+```
 
 ###### A.2.2.10.1.1.1.2.5.3.3 - Set Unlimited RateLimit [Core]  <!-- UUID: a85b7e8b-c4e9-44de-b717-efa4c8268d3b -->
 
 The following code sets an unlimited `RateLimit` for a specific key, restricted to the `DEFAULT_ADMIN_ROLE` holder, as specified in [A.2.2.10.1.1.1.2.2.1 - Default Admin Role](b76195f2-7494-43a4-919e-fa823303ad06):
 
-`function setUnlimitedRateLimitData(bytes32 key) external override {
-        setRateLimitData(key, type(uint256).max, 0, type(uint256).max, block.timestamp);
-    }`
+```solidity
+function setUnlimitedRateLimitData(bytes32 key) external override {
+    setRateLimitData(key, type(uint256).max, 0, type(uint256).max, block.timestamp);
+}
+```
 
 ###### A.2.2.10.1.1.1.2.5.3.4 - Set Trigger For RateLimit Decrease [Core]  <!-- UUID: 39217368-efa1-4168-a231-b010d6e23dfa -->
 
 The following code decreases the `RateLimit` for a specific key, restricted to the `CONTROLLER` role (the Controller contract), called as allocations consume the limit:
 
-`function triggerRateLimitDecrease(bytes32 key, uint256 amountToDecrease)
-        external override onlyRole(CONTROLLER) returns (uint256 newLimit)
-    {
-        RateLimitData storage d = _data[key];
-        uint256 maxAmount = d.maxAmount;
+```solidity
+function triggerRateLimitDecrease(bytes32 key, uint256 amountToDecrease)
+    external override onlyRole(CONTROLLER) returns (uint256 newLimit)
+{
+    RateLimitData storage d = _data[key];
+    uint256 maxAmount = d.maxAmount;
 
-        require(maxAmount > 0, "RateLimits/zero-maxAmount");
-        if (maxAmount == type(uint256).max) return type(uint256).max;  // Special case unlimited
+    require(maxAmount > 0, "RateLimits/zero-maxAmount");
+    if (maxAmount == type(uint256).max) return type(uint256).max;  // Special case unlimited
 
-        uint256 currentRateLimit = getCurrentRateLimit(key);
+    uint256 currentRateLimit = getCurrentRateLimit(key);
 
-        require(amountToDecrease <= currentRateLimit, "RateLimits/rate-limit-exceeded");
+    require(amountToDecrease <= currentRateLimit, "RateLimits/rate-limit-exceeded");
 
-        d.lastAmount = newLimit = currentRateLimit - amountToDecrease;
-        d.lastUpdated = block.timestamp;
+    d.lastAmount = newLimit = currentRateLimit - amountToDecrease;
+    d.lastUpdated = block.timestamp;
 
-        emit RateLimitDecreaseTriggered(key, amountToDecrease, currentRateLimit, newLimit);
-    }`
+    emit RateLimitDecreaseTriggered(key, amountToDecrease, currentRateLimit, newLimit);
+}
+```
 
 ###### A.2.2.10.1.1.1.2.5.3.5 - Set Trigger For RateLimit Increase [Core]  <!-- UUID: ee55aa72-1405-49cb-a7fe-3e8adc9ee64c -->
 
 The following code increases the `RateLimit` for a specific key, restricted to the `CONTROLLER` role (the Controller contract), called as allocations return the limit:
 
-`function triggerRateLimitIncrease(bytes32 key, uint256 amountToIncrease)
-        external override onlyRole(CONTROLLER) returns (uint256 newLimit)
-    {
-        RateLimitData storage d = _data[key];
-        uint256 maxAmount = d.maxAmount;
+```solidity
+function triggerRateLimitIncrease(bytes32 key, uint256 amountToIncrease)
+    external override onlyRole(CONTROLLER) returns (uint256 newLimit)
+{
+    RateLimitData storage d = _data[key];
+    uint256 maxAmount = d.maxAmount;
 
-        require(maxAmount > 0, "RateLimits/zero-maxAmount");
-        if (maxAmount == type(uint256).max) return type(uint256).max;  // Special case unlimited
+    require(maxAmount > 0, "RateLimits/zero-maxAmount");
+    if (maxAmount == type(uint256).max) return type(uint256).max;  // Special case unlimited
 
-        uint256 currentRateLimit = getCurrentRateLimit(key);
+    uint256 currentRateLimit = getCurrentRateLimit(key);
 
-        d.lastAmount = newLimit = _min(currentRateLimit + amountToIncrease, maxAmount);
-        d.lastUpdated = block.timestamp;
+    d.lastAmount = newLimit = _min(currentRateLimit + amountToIncrease, maxAmount);
+    d.lastUpdated = block.timestamp;
 
-        emit RateLimitIncreaseTriggered(key, amountToIncrease, currentRateLimit, newLimit);
-    }`
+    emit RateLimitIncreaseTriggered(key, amountToIncrease, currentRateLimit, newLimit);
+}
+```
 
 ###### A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework [Core]  <!-- UUID: 915a36c0-754c-41f9-ada1-2fec0816f7b8 -->
 
@@ -4134,7 +4196,6 @@ Morpho vaults must use at least the following timelock delays for protected func
 | Increase timelock duration | seven (7) days |
 | Remove adapter | seven (7) days |
 | Set adapter registry | seven (7) days |
-| Set force deallocate penalty | seven (7) days |
 | Set management fee | three (3) days |
 | Set management fee recipient | three (3) days |
 | Set performance fee | three (3) days |
@@ -4144,7 +4205,12 @@ Morpho vaults must use at least the following timelock delays for protected func
 | Set send assets gate | seven (7) days |
 | Set send shares gate | seven (7) days |
 
-Adding or removing an allocator must not be subject to a timelock delay, so that a compromised allocator can be removed immediately. Decreases to absolute or relative caps may be executed without delay. A decrease to a function's timelock duration is subject to that function's then-current timelock delay. For the Set adapter registry, Set receive assets gate, Set receive shares gate, and Set send shares gate functions, permanently abdicating the function is accepted in place of the timelock delay.
+The following functions must not be subject to a timelock delay:
+
+- Adding or removing an allocator, so that a compromised allocator can be removed immediately.
+- Setting the force deallocate penalty, so that a penalty can be introduced immediately in response to a griefing attack.
+
+Decreases to absolute or relative caps may be executed without delay. A decrease to a function's timelock duration is subject to that function's then-current timelock delay. For the Set adapter registry, Set receive assets gate, Set receive shares gate, and Set send shares gate functions, permanently abdicating the function is accepted in place of the timelock delay.
 
 ###### A.2.2.10.1.1.1.3.3.2 - Adapter Timelock Requirements [Core]  <!-- UUID: 91ba9acf-6ed7-4214-8b6b-adfb03427ae1 -->
 
@@ -5717,6 +5783,10 @@ The founding team of Spark has proposed a cash grant of 800,000 USDS per month t
 
 Sky Governance hereby consents to this cash grant. The first month’s transfer must be made to the Spark Foundation immediately after the transfer of the Genesis Capital Allocation. See [A.2.8.2.2.2.7.2.1 - Transfer Of Genesis Capital Allocation To Spark SubProxy](e3ec99ec-54c9-4fe7-8104-aee20c57ec57). Transfers for subsequent months will be made proportionally in Spark Spells included in Sky Executive Votes unless otherwise agreed by Sky and Spark.
 
+###### A.2.8.2.2.2.4.4.1.1 - Transfer Of USDS To Spark Foundation [Core]  <!-- UUID: 03f04153-de54-494b-8bb4-639865e85f2c -->
+
+The grant authorized in this document was paid to the Spark Foundation from the Spark SubProxy in three (3) transfers of 800,000 USDS each, made in Spark Spells included in the June 26, 2025, August 21, 2025 and September 4, 2025 Executive Votes.
+
 ###### A.2.8.2.2.2.4.5 - Subsequent Allocation Mechanism [Core]  <!-- UUID: aea8a2d8-2203-4123-8c09-17b2bb8427c1 -->
 
 After the initial cash grant (see [A.2.8.2.2.2.4.4 - Initial Allocation Mechanism](eedd0309-b11b-459e-a966-13b16e961ccc)), Spark and Grove may request additional grants to their respective Prime Foundations to fund operations and growth.
@@ -5735,11 +5805,23 @@ The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month
 
 Sky Governance hereby consents to this cash grant. The transfer for October must be made to the Spark Foundation in a Spark Spell included in the October 2, 2025 Executive Vote. Transfers for subsequent months will be made proportionally in Spark Spells included in Sky Executive Votes unless otherwise agreed by Sky and Spark.
 
+###### A.2.8.2.2.2.4.5.1.1.1 - Transfer Of USDS To Spark Foundation [Core]  <!-- UUID: 7ced22ef-d015-48f5-92f5-52ccdfd7eec2 -->
+
+The grant authorized in this document was paid to the Spark Foundation from the Spark SubProxy in three (3) transfers of 1,100,000 USDS each, covering October, November and December 2025, made in Spark Spells included in the October 2, 2025, October 30, 2025 and November 27, 2025 Executive Votes.
+
 ###### A.2.8.2.2.2.4.5.1.2 - Spark Foundation Grant Authorization: December 2025 [Core]  <!-- UUID: bd9673db-225e-42f4-8f26-6e993dc72bd0 -->
 
 The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from Spark's Prime Treasury for a three (3) month period to cover Q1 2026 Foundation expenses. Additionally, a one-time grant of 150,000 USDS has been proposed to cover expenses for Spark Asset Foundation for Q1 2026 (see [https://forum.skyeco.com/t/december-11-2025-proposed-changes-to-spark-for-upcoming-spell/27481](https://forum.skyeco.com/t/december-11-2025-proposed-changes-to-spark-for-upcoming-spell/27481)).
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads as specified in the referenced proposal.
+
+###### A.2.8.2.2.2.4.5.1.2.1 - Transfer Of USDS To Spark Foundation [Core]  <!-- UUID: e62499b4-d444-40a6-8eea-9b5f6d85bbb6 -->
+
+The grant authorized in this document for the Spark Foundation was paid from the Spark SubProxy in three (3) transfers of 1,100,000 USDS each, covering January, February and March 2026, made in Spark Spells included in the December 11, 2025, January 29, 2026 and February 26, 2026 Executive Votes.
+
+###### A.2.8.2.2.2.4.5.1.2.2 - Transfer Of USDS To Spark Asset Foundation [Core]  <!-- UUID: b83a89eb-454b-413f-9d67-b4877a59a393 -->
+
+The grant authorized in this document for the Spark Asset Foundation was paid from the Spark SubProxy in one (1) transfer of 150,000 USDS, made in the Spark Spell included in the December 11, 2025 Executive Vote.
 
 ###### A.2.8.2.2.2.4.5.1.3 - Spark Foundation Grant Authorization: Q2 2026 [Core]  <!-- UUID: b69158da-476a-4d4b-b7ef-2f8b96b73d23 -->
 
@@ -5747,11 +5829,27 @@ The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads as specified in the referenced proposal.
 
+###### A.2.8.2.2.2.4.5.1.3.1 - Transfer Of USDS To Spark Foundation [Core]  <!-- UUID: 9f4636c0-c658-42b7-9ac4-0dffe0e7f9f2 -->
+
+The grant authorized in this document for the Spark Foundation was paid from the Spark SubProxy in three (3) transfers of 1,100,000 USDS each, covering April, May and June 2026, made in Spark Spells included in the March 26, 2026, April 23, 2026 and May 7, 2026 Executive Votes.
+
+###### A.2.8.2.2.2.4.5.1.3.2 - Transfer Of USDS To Spark Asset Foundation [Core]  <!-- UUID: a6c4def1-c286-4667-a861-34c8d8541180 -->
+
+The grant authorized in this document for the Spark Asset Foundation was paid from the Spark SubProxy in three (3) transfers of 100,000 USDS each, made in the Spark Spells included in the March 26, 2026, April 23, 2026 and May 7, 2026 Executive Votes.
+
 ###### A.2.8.2.2.2.4.5.1.4 - Spark Foundation Grant Authorization: Q3 2026 [Core]  <!-- UUID: 8dd2eb27-a760-4287-89cf-7b5bdb0c5d7c -->
 
 The founding team of Spark has proposed a cash grant of 1,100,000 USDS per month to the Spark Foundation from Spark's Prime Treasury for a three (3) month period to cover Q3 2026 Spark Foundation expenses. Additionally, the founding team of Spark has proposed a grant of 155,000 USDS per month to the Spark Asset Foundation from Spark's Prime Treasury for a three (3) month period to cover Q3 2026 Spark Asset Foundation expenses (see [https://forum.skyeco.com/t/june-18-2026-proposed-changes-to-spark-for-upcoming-spell/27952](https://forum.skyeco.com/t/june-18-2026-proposed-changes-to-spark-for-upcoming-spell/27952)).
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads as specified in the referenced proposal.
+
+###### A.2.8.2.2.2.4.5.1.4.1 - Transfer Of USDS To Spark Foundation [Core]  <!-- UUID: aeaadaf7-b8a4-45ef-864f-5ecd2929ecce -->
+
+The grant authorized in this document for the Spark Foundation was paid from the Spark SubProxy in three (3) transfers of 1,100,000 USDS each, covering July, August and September 2026, made in Spark Spells included in the June 18, 2026, July 16, 2026 and August 27, 2026 Executive Votes.
+
+###### A.2.8.2.2.2.4.5.1.4.2 - Transfer Of USDS To Spark Asset Foundation [Core]  <!-- UUID: 991fafeb-2adf-4afd-97df-9cb3aad5fa99 -->
+
+The grant authorized in this document for the Spark Asset Foundation was paid from the Spark SubProxy in three (3) transfers of 155,000 USDS each, made in the Spark Spells included in the June 18, 2026, July 16, 2026 and August 27, 2026 Executive Votes.
 
 ###### A.2.8.2.2.2.4.5.1.5 - Spark Foundation Grant Authorization: October 2026 [Core]  <!-- UUID: 1deecbd9-c3d8-45c4-a407-28386735833d -->
 
@@ -5769,17 +5867,29 @@ The founding team of Grove has proposed a cash grant of 800,000 USDS per month t
 
 Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payloads. Transfers must be made to the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in Grove Spells included in Sky Executive Votes unless otherwise agreed by Sky and Grove.
 
+###### A.2.8.2.2.2.4.5.2.1.1 - Transfer Of USDS To Grove Foundation Multisig [Core]  <!-- UUID: bf609e8f-a9ef-4787-846e-96a43028a216 -->
+
+The grant authorized in this document was paid to the Grove Foundation Multisig from the Grove SubProxy in two (2) transfers. The transfer for the first month, of 800,000 USDS, was made in a Grove Spell included in the May 7, 2026 Executive Vote. As agreed by Sky and Grove, the second and third months were paid together as a single transfer of 1,600,000 USDS, made in a Grove Spell included in the June 4, 2026 Executive Vote.
+
 ###### A.2.8.2.2.2.4.5.2.2 - Grove Foundation Grant Authorization: July 2026 [Core]  <!-- UUID: 7b6820d0-1fc1-49e7-839a-240c6cc7ec74 -->
 
 The founding team of Grove has proposed a cash grant of 800,000 USDS to the Grove Foundation from Grove's Prime Treasury for July 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
 
 Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payload. The transfer must be made to the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in a Grove Spell included in a Sky Executive Vote unless otherwise agreed by Sky and Grove.
 
+###### A.2.8.2.2.2.4.5.2.2.1 - Transfer Of USDS To Grove Foundation Multisig [Core]  <!-- UUID: 61625749-4df9-411e-b4dd-15c9e4b059d3 -->
+
+The grant authorized in this document was paid to the Grove Foundation Multisig from the Grove SubProxy in one (1) transfer of 800,000 USDS, made in a Grove Spell included in the July 2, 2026 Executive Vote.
+
 ###### A.2.8.2.2.2.4.5.2.3 - Grove Foundation Grant Authorization: August 2026 [Core]  <!-- UUID: a8075d68-a5ba-4b4d-bce5-0ad58130f9e5 -->
 
 The founding team of Grove has proposed a cash grant of 800,000 USDS to the Grove Foundation from Grove's Prime Treasury for August 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
 
 Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payload. The transfer must be made to the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in a Grove Spell included in a Sky Executive Vote unless otherwise agreed by Sky and Grove.
+
+###### A.2.8.2.2.2.4.5.2.3.1 - Transfer Of USDS To Grove Foundation Multisig [Core]  <!-- UUID: b5ab118c-b968-4e8b-ba13-7d745b1f4860 -->
+
+The grant authorized in this document was paid to the Grove Foundation Multisig from the Grove SubProxy in one (1) transfer of 800,000 USDS, made in a Grove Spell included in the August 27, 2026 Executive Vote.
 
 ###### A.2.8.2.2.2.4.5.2.4 - Grove Foundation Grant Authorization: September 2026 [Core]  <!-- UUID: bd2d15af-e32a-4ce9-a7ac-5a5ff1665fd4 -->
 
@@ -6102,6 +6212,14 @@ The address of Core Council Executor Agent 1's SubProxy Account on the Ethereum 
 
 The Genesis Capital Allocation will be used to fund the Core Council Executor Agent 1; the incubating Operational Executor Agents; and broader Core operational expenses, including technical infrastructure, Spell crafting, risk work, and Spell audits.
 
+###### A.2.8.2.5.2.2.3 - Transfer Of Genesis Capital Allocation To Core Council Executor Agent 1 SubProxy [Core]  <!-- UUID: 2deb96b0-c985-49cd-a46e-7d1fa38c53b5 -->
+
+The transfer of 20,000,000 USDS from the Surplus Buffer to the Core Council Executor Agent 1 SubProxy (see [A.2.8.2.5.2.2.1 - Core Council Executor Agent 1 SubProxy Address](89c19c75-cd5d-4c21-887d-0f4bfe3e42a7)) for the Genesis Capital Allocation was included in the December 11, 2025 Executive Vote and was executed on December 15, 2025.
+
+###### A.2.8.2.5.2.2.4 - Transfer Of Genesis Capital Allocation To Core Council Buffer [Core]  <!-- UUID: 2f9fb868-f137-4110-90ec-8ab8d75ebcaa -->
+
+The transfer of 5,000,000 USDS from the Surplus Buffer to the Core Council Buffer (see [A.2.3.1.2.2.2.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)) for the Genesis Capital Allocation was included in the December 11, 2025 Executive Vote and was executed on December 15, 2025.
+
 ###### A.2.8.2.5.2.3 - Funding Of Core Council Buffer [Core]  <!-- UUID: 3dd54817-d655-4fc5-b6f3-287623c1ba93 -->
 
 The Core Council Executor Agents holding seats on the Core Council maintain operational authority over the Core Council Buffer, consistent with their mandate to operationalize Sky Core.
@@ -6174,7 +6292,9 @@ The Initial Allocation for Osero is 10,500,000 USDS.
 
 ###### A.2.8.2.6.2.2.2 - Initial Allocation Distribution [Core]  <!-- UUID: 20eeeaf4-38bc-4440-be1c-a1ee67ee3491 -->
 
-The Initial Allocation is distributed in USDS to the Osero SubProxy.
+500,000 USDS of the Initial Allocation is distributed to the Osero Foundation.
+
+10,000,000 USDS of the Initial Allocation is distributed to the Osero SubProxy.
 
 ###### A.2.8.2.6.2.2.2.1 - Transfer Of Genesis Capital Allocation To Osero Foundation [Core]  <!-- UUID: 4fd99f26-90a3-4385-a3ea-7949f5d56b3f -->
 
@@ -6269,6 +6389,10 @@ Following its Genesis Capital Allocation, Skybase may request additional grants 
 The founding team of Skybase has proposed a one-time cash grant of 700,000 USDS to the Skybase Foundation from Skybase's SubProxy to provide operational capital. This funding will be used to complete payments for Skybase Agent operational needs and other expenses.
 
 Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payload. The transfer must be made to the Skybase Foundation Operational Multisig at `0x58B945c8Ce34BD8cEA3Fc0437626F9F87d58A621` in a Skybase Spell included in a Sky Executive Vote unless otherwise agreed by Sky and Skybase.
+
+###### A.2.8.2.7.2.2.3.1.1 - Transfer Of USDS To Skybase Foundation Operational Multisig [Core]  <!-- UUID: c6541e3b-628b-47a6-9f2b-b7b27df7913d -->
+
+The grant authorized in this document was paid to the Skybase Foundation Operational Multisig from the Skybase SubProxy in one (1) transfer of 700,000 USDS, made in a Skybase Spell included in the July 2, 2026 Executive Vote.
 
 #### A.2.8.2.8 - Ecosystem Accord 8: Sky And Amatsu [Core]  <!-- UUID: 9d187ae2-1106-4b43-a6a6-ff54c329d0da -->
 
