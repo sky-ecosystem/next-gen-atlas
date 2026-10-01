@@ -1614,6 +1614,10 @@ The X Layer Instances Directory of the Spark Savings v2 Protocol with `Active` S
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.6.1.1 - X Layer - Spark Savings v2 USDT Instance Configuration Document](8c303f01-617d-40aa-9f4f-181af2c6e040)
 
+###### A.6.1.1.1.2.6.1.1.2.6.1.2 - X Layer - Spark Savings v2 USDC Instance Configuration Document Location [Core]  <!-- UUID: f8140bfe-fb6c-4cdd-85ec-4be6273bc18d -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.6.1.2 - X Layer - Spark Savings v2 USDC Instance Configuration Document](e81abdf1-02ba-4363-835d-12ade226c2a3)
+
 ###### A.6.1.1.1.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 1df4d054-4443-4c64-b34b-c9fce456276b -->
 
 This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of `Completed`.
@@ -2497,11 +2501,11 @@ The documents herein define the CCTP rate limit IDs for the Arbitrum Diamond PAU
 
 ###### A.6.1.1.1.2.6.1.2.1.1.4.1.1 - Aggregate CCTP Rate Limit ID [Core]  <!-- UUID: acebd93a-f9b4-41c8-9f73-1cb7e2748f4d -->
 
-The Aggregate CCTP RateLimitID is: TBD.
+The Aggregate CCTP RateLimitID (`cctp_toCCTPRateLimitKey()`) is: `0x0476a9fd902eafdb5bcdabd9f0523dd7aacf7aa0c38c0e6ab912f5fed00f8e11`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.4.1.2 - CCTP To Ethereum Rate Limit ID [Core]  <!-- UUID: f473b9e4-0f75-4b23-80d6-c7498b47ae29 -->
 
-The CCTP To Ethereum RateLimitID is: TBD.
+The CCTP To Ethereum RateLimitID (`cctp_getToDomainRateLimitKey(0)`, Circle domain 0) is: `0x90b598dae614822d554ec4f627bb5feab505106473a7911f34b36c0b3b9695c7`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.5 - Diamond PAU Rate Limits [Core]  <!-- UUID: e3ecf860-59dc-4d7b-b3cd-fb4311f4c2a9 -->
 
@@ -2693,7 +2697,7 @@ The `ALLOCATOR_ROLE` is authorized to call functions on the Controller contract 
 Actors submit allocation operations through the AdministeredAgent. The Arbitrum Diamond PAU actors are:
 
 - ALM Relayer Multisig: `0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB`.
-- Spark hot wallet: TBD.
+- Spark hot wallet: `0x062cE42caE04c51D04E77e3D64cc8953a2296FfE`.
 
 Actors can initiate `cctp_transfer` through the Controller within its configured limits and to the Ethereum ALM Proxy only. If the Spark hot wallet is an EOA, a single key can exercise this operational access.
 
@@ -2704,13 +2708,13 @@ An actor may be removed from the AdministeredAgent by an address holding the Fre
 The Freezer Role is authorized to remove a compromised or malicious relayer actor from the AdministeredAgent contract as a rapid-response measure, without recourse to the standard governance process. The Freezer Role is held by the following multisigs, registered as revokers of the AdministeredAgent:
 
 - ALM Freezer Multisig: `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431`.
-- Soter Labs freezer multisig: TBD.
+- Soter Labs freezer multisig: `0x747BF29B189e2a070a921Af7Cf65681E3d5F5967`.
 
 Removing an actor revokes its ability to submit operations through the Allocation System, while the Allocator Role itself remains held by the AdministeredAgent. Removing an actor does not remove any relayer permission that the same address holds on the legacy ForeignController.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.5 - Grantor [Core]  <!-- UUID: 64f794c9-db5f-4875-a800-3da12f4c5bec -->
 
-The Grantor is authorized to add actors to the AdministeredAgent. The grantor is the Soter Labs grantor multisig: [TBD: address, signing threshold and signers, from Soter Labs]. It replaces the PAU Grantor Multisig (`0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514`), whose grantor authorization is removed.
+The Grantor is authorized to add actors to the AdministeredAgent. The grantor is the Soter Labs grantor multisig: `0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7`. It replaces the PAU Grantor Multisig (`0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514`), whose grantor authorization is removed.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 92e30e64-76dd-493d-be14-2088892e11b1 -->
 
@@ -7724,6 +7728,127 @@ The transferAssets rate limits are:
 
 - `maxAmount`: Unlimited
 
+###### A.6.1.1.1.2.6.1.3.6.1.2 - X Layer - Spark Savings v2 USDC Instance Configuration Document [Core]  <!-- UUID: e81abdf1-02ba-4363-835d-12ade226c2a3 -->
+
+The documents herein contain the Instance Configuration Document for the Spark Savings v2 USDC Instance.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: f8f6347a-fdc7-42ad-bf95-027c580d3003 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2 - Parameters [Core]  <!-- UUID: 6cb7f6a1-c8fe-4f23-b812-4e17e556c5eb -->
+
+The documents herein define the parameters of the Spark Savings v2 USDC Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 0e9121f5-4a1b-47d7-8d8f-1d2a4a9d6e9a -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.1.1 - Network [Core]  <!-- UUID: d04a8b33-4740-4cf3-84b6-348ca2e66761 -->
+
+X Layer
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.1.2 - Target Protocol [Core]  <!-- UUID: f07111f8-aa28-4093-85e6-6cf9bfa259fd -->
+
+Spark Savings Protocol
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.1.3 - Asset Supplied By Users [Core]  <!-- UUID: ff5f3b93-e5bf-456b-8d80-6db25c252a35 -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.1.4 - Token [Core]  <!-- UUID: e460853b-b5ba-4eab-95f0-16f954f47f89 -->
+
+spUSDC
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.2 - Contract Addresses [Core]  <!-- UUID: 45a29370-9a86-46d3-acf6-f21e45ad6c59 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.2.1 - Token Address [Core]  <!-- UUID: 35179b96-7330-49d3-a901-ad40c1593898 -->
+
+`0xf90E63079D97a0A1f479b2b168457F420CAFf6ba`
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 8536122f-e274-4bbd-9cfc-126c7914fddc -->
+
+`0xB6CEceAB302E2E4948951eE7843FC24E92933061`
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: af487cf6-6a0e-4fd5-b6b8-93a62e88b6cc -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.4 - Rate Limits [Core]  <!-- UUID: 76b38f05-c7bb-4633-9fb0-3a3f17dd57a8 -->
+
+The specific `maxAmount` and `slope` for this conduit's inflow/outflow are not defined for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 0530cbd1-ab77-4cdc-8f07-e282df66db48 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d3a9abd3-4e4c-4ffa-a1c5-dafe8849eae8 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: dc3e3857-dff7-4779-afcb-5e9c2c1a2a0a -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.1 - Contract Addresses [Core]  <!-- UUID: a2c048d3-0ed7-44e5-9aa0-736d18b6e19c -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.1.1 - Spark Vault v2 Implementation [Core]  <!-- UUID: 8e587ccc-45cc-49b2-83d2-947cd784d53c -->
+
+`0xdCe929A335C75a1676EF5957A4D7a3b928C48820`
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.1.2 - Default admin [Core]  <!-- UUID: ce6c7101-b068-4a1e-a3f1-120983f542c4 -->
+
+`0xCF5af6F53ceC74B791cb4182aC778ca9CD323510`
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.1.3 - Setter [Core]  <!-- UUID: ffa724be-0370-45e5-ad65-d84d23470dd3 -->
+
+`0x79b4055Eda153f739B5EA63C9B647c1a095059f5`
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.1.4 - Taker [Core]  <!-- UUID: 94c52903-9978-4f3d-8f6e-770697b3cdde -->
+
+`0xe6D5d041Fc5e7fDD0A53C13e78a1cc7e4ffCb667`
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.2 - Risk Parameters Current Configuration [Core]  <!-- UUID: a64b6225-b9d6-4631-a625-2f36140b461f -->
+
+The subdocuments herein define the current configuration of the risk parameters.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.2.1 - Spark Savings USDC Risk Parameters [Core]  <!-- UUID: 173f0dbd-7c3b-4435-8a8d-04d76478a9df -->
+
+The Risk parameters are:
+
+- Supply cap: 500,000,000 USDC
+- Max yield: 6%
+- Current yield (at launch): 0%
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.2.2 - Rate Limits [Core]  <!-- UUID: 6160b63f-6195-4be6-91e3-792ee9bc1c43 -->
+
+The current `maxAmount` for this conduit's take and transfer rate operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.2.2.1 - Take Rate Limits [Core]  <!-- UUID: 4ef1e561-5391-4e12-9019-896a6efe8044 -->
+
+The take rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.2.2.2 - Transfer Rate Limits [Core]  <!-- UUID: 5a9d6bec-117f-47a7-b8a3-724862e88b4f -->
+
+The transfer rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.3 - Savings Vault Intents Configuration [Core]  <!-- UUID: 1b249a4f-85d7-471f-b3c5-68b674cfb4d2 -->
+
+The `SavingsVaultIntents` configuration for the whitelisted X Layer spUSDC vault is:
+
+- `SavingsVaultIntents`: `0x5bCD2f30FA1Bf675d5d6E793DAD7DdD487D21865`
+- Minimum assets per intent: 1,000,000 USDC
+- Maximum assets per intent: 500,000,000 USDC
+- Relayer (spUSDC PAU Administered Agent): `0x79b4055Eda153f739B5EA63C9B647c1a095059f5`
+
 ##### A.6.1.1.1.2.6.1.4 - Completed Instances [Core]  <!-- UUID: ed8c3394-ee05-496c-8dd6-4d5275d2ed1f -->
 
 The Instances of the Spark Liquidity Layer with `Completed` Status are stored herein.
@@ -11444,6 +11569,19 @@ The current parameters for Spark Savings USDT on X Layer are:
 - Min yield: 0%
 - Max yield: 6%
 - Supply cap: 750 million
+
+###### A.6.1.1.1.3.5.2.2.9 - Spark Savings USDC on X Layer [Core]  <!-- UUID: c5a6c702-dcbc-4c31-8c61-9ca1b9fdca20 -->
+
+The current parameters for Spark Savings USDC on X Layer are:
+
+- Default admin role: 0xCF5af6F53ceC74B791cb4182aC778ca9CD323510
+- Setter role: 0x79b4055Eda153f739B5EA63C9B647c1a095059f5
+- Taker role: 0xe6D5d041Fc5e7fDD0A53C13e78a1cc7e4ffCb667
+- Take rate limit: Unlimited
+- Min yield: 0%
+- Max yield: 6%
+- Supply cap: 500 million
+
 #### A.6.1.1.1.3.5.3 - Policies and Operational Parameters [Core]  <!-- UUID: c8fcae7c-01ea-48cf-9b8c-4de7d3c86d78 -->
 
 The documents herein define the currently active policies for Spark Savings Configuration, alongside relevant operational parameters for implementing the policies.
@@ -11502,6 +11640,10 @@ The current Target Liquidity for Spark Savings USDT on Arbitrum is the greater o
 
 The current Target Liquidity for Spark Savings USDT on X Layer is the greater of 10% of total deposits or 1 million USDT, up to a maximum amount of 10 million USDT.
 
+###### A.6.1.1.1.3.5.3.1.3.9 - Spark Savings USDC on X Layer [Core]  <!-- UUID: d99c7337-d95d-4b3f-be90-eebdd8306628 -->
+
+The current Target Liquidity for Spark Savings USDC on X Layer is the greater of 10% of total deposits or 1 million USDC, up to a maximum amount of 10 million USDC.
+
 ##### A.6.1.1.1.3.5.3.2 - Rewards Rate [Core]  <!-- UUID: 22d359a5-3f83-409f-8396-595ac1ea0060 -->
 
 The documents herein define Spark's policy for managing the rewards rate for Spark Savings vaults.
@@ -11550,6 +11692,10 @@ The Rewards Rate for Spark Savings USDT on Arbitrum is set via the vault’s set
 ###### A.6.1.1.1.3.5.3.2.3.8 - Spark Savings USDT on X Layer [Core]  <!-- UUID: 40f91471-6b4c-4058-8917-d3b6d2a87f38 -->
 
 The Rewards Rate for Spark Savings USDT on X Layer is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Rewards Rate Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.8 - Onchain Parameters](c6eb9203-a5af-4f9b-baaf-b70c4449d4a4). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Rewards Rate Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
+
+###### A.6.1.1.1.3.5.3.2.3.9 - Spark Savings USDC on X Layer [Core]  <!-- UUID: fac0c3d0-03d4-4d0b-b1ef-50c14e126924 -->
+
+The Rewards Rate for Spark Savings USDC on X Layer is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Rewards Rate Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.9 - Onchain Parameters](c5a6c702-dcbc-4c31-8c61-9ca1b9fdca20). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Rewards Rate Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
 
 ### A.6.1.1.1.3.6 - Strategic Investments [Core]  <!-- UUID: a05cc5db-64e5-4279-84ed-e93d4aa67c38 -->
 
