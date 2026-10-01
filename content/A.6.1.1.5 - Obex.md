@@ -1333,9 +1333,9 @@ The documents herein list general on-chain parameters for the Obex Liquidity Lay
 
 The Allocator Vault parameters for ALLOCATOR-OBEX-A are defined in [A.3.7.1.2.1.5 - ALLOCATOR-OBEX-A Parameters](1ee3efd3-fe75-4766-bc6a-ec204f6a3bca).
 
-###### A.6.1.1.5.2.6.1.2.1.1.4.2 - Whitelisting Of ALMProxy [Core]  <!-- UUID: 5c795414-020c-432d-91b6-a7d72495452e -->
+###### A.6.1.1.5.2.6.1.2.1.1.4.2 - Whitelisting Of ALM Proxy [Core]  <!-- UUID: 5c795414-020c-432d-91b6-a7d72495452e -->
 
-The ALMProxy for Obex must be whitelisted on the LitePSM. This will effectively allow Obex to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract.
+The ALM Proxy for Obex is whitelisted on the Lite PSM. This allows Obex to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract.
 
 ###### A.6.1.1.5.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 94015de1-4d83-43d3-998b-093c1a2099fa -->
 
