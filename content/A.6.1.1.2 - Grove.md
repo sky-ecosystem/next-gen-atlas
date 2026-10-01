@@ -1392,37 +1392,21 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 The Ethereum Mainnet Instances Directory of the Morpho Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.6.1.1.2.1.7.1 - Ethereum Mainnet - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document Location [Core]  <!-- UUID: 03708e1d-f0e9-41e6-a792-01ef1b2d969b -->
+###### A.6.1.1.2.2.6.1.1.2.1.7.1 - Ethereum Mainnet - Grove x Steakhouse USDC Morpho Vault v2 Instance Configuration Document Location [Core]  <!-- UUID: c0daf824-060e-449e-be48-f86efd1447e2 -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.1 - Ethereum Mainnet - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document](29cb8322-96f5-4f18-b4fe-eb31826af580).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.1 - Ethereum Mainnet - Grove x Steakhouse USDC Morpho Vault v2 Instance Configuration Document](6ec606f0-bc47-4f36-8591-75784bb78b00).
 
-###### A.6.1.1.2.2.6.1.1.2.1.7.2 - Ethereum Mainnet - Grove x Steakhouse USDC Morpho Vault v2 Instance Configuration Document Location [Core]  <!-- UUID: c0daf824-060e-449e-be48-f86efd1447e2 -->
+###### A.6.1.1.2.2.6.1.1.2.1.7.2 - Ethereum Mainnet - Grove x Steakhouse AUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 1281f13b-4435-46c5-9e8a-b602aac42c7a -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.2 - Ethereum Mainnet - Grove x Steakhouse USDC Morpho Vault v2 Instance Configuration Document](6ec606f0-bc47-4f36-8591-75784bb78b00).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.2 - Ethereum Mainnet - Grove x Steakhouse AUSD Morpho Vault V2 Instance Configuration Document](2c21462b-2925-48d8-9578-5fc21aa96563).
 
-###### A.6.1.1.2.2.6.1.1.2.1.7.3 - Ethereum Mainnet - Steakhouse PYUSD Morpho Vault Instance Configuration Document Location [Core]  <!-- UUID: d0a21cdb-ba69-4f0c-9b67-575996a01c4d -->
+###### A.6.1.1.2.2.6.1.1.2.1.7.3 - Ethereum Mainnet - Grove x Steakhouse RLUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: d6cab49c-2cfd-4f70-a101-fbdb294c16db -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.3 - Ethereum Mainnet - Steakhouse PYUSD Morpho Vault Instance Configuration Document](0b7e1d3d-1f56-48a6-9729-88479aa5ff92).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.3 - Ethereum Mainnet - Grove x Steakhouse RLUSD Morpho Vault V2 Instance Configuration Document](cfb29474-ea48-4370-aad6-23af1cf4d11a).
 
-###### A.6.1.1.2.2.6.1.1.2.1.7.4 - Ethereum Mainnet - Grove x Steakhouse AUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 1281f13b-4435-46c5-9e8a-b602aac42c7a -->
+###### A.6.1.1.2.2.6.1.1.2.1.7.4 - Ethereum Mainnet - Grove x Steakhouse USDG Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 92530185-16e1-4998-92c2-9c62bd96a3a3 -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.4 - Ethereum Mainnet - Grove x Steakhouse AUSD Morpho Vault V2 Instance Configuration Document](2c21462b-2925-48d8-9578-5fc21aa96563).
-
-###### A.6.1.1.2.2.6.1.1.2.1.7.5 - Ethereum Mainnet - Sentora PYUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: db6ff295-bf78-450f-a272-f4a5f01b0cdc -->
-
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.5 - Ethereum Mainnet - Sentora PYUSD Morpho Vault V2 Instance Configuration Document](3e940e02-80eb-4e37-bce6-95939089da46).
-
-###### A.6.1.1.2.2.6.1.1.2.1.7.6 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 329dae6d-08a0-4628-b494-b533e69c26ce -->
-
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.6 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document](dff6df5f-f8ab-4df1-be1e-f71510c3534e).
-
-###### A.6.1.1.2.2.6.1.1.2.1.7.7 - Ethereum Mainnet - Grove x Steakhouse RLUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: d6cab49c-2cfd-4f70-a101-fbdb294c16db -->
-
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.7 - Ethereum Mainnet - Grove x Steakhouse RLUSD Morpho Vault V2 Instance Configuration Document](cfb29474-ea48-4370-aad6-23af1cf4d11a).
-
-###### A.6.1.1.2.2.6.1.1.2.1.7.8 - Ethereum Mainnet - Grove x Steakhouse USDG Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 92530185-16e1-4998-92c2-9c62bd96a3a3 -->
-
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.8 - Ethereum Mainnet - Grove x Steakhouse USDG Morpho Vault V2 Instance Configuration Document](43f15d34-cbba-4caa-8b45-ee4f57654280).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.1.7.4 - Ethereum Mainnet - Grove x Steakhouse USDG Morpho Vault V2 Instance Configuration Document](43f15d34-cbba-4caa-8b45-ee4f57654280).
 
 ###### A.6.1.1.2.2.6.1.1.2.1.8 - Securitize [Core]  <!-- UUID: 12a0d375-8f1e-4e62-83ba-d56bc6d3f2ab -->
 
@@ -1540,17 +1524,9 @@ The documents herein contain a Directory of all Instances on Base of the Allocat
 
 The Base Instances Directory of the Morpho Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.6.1.1.2.3.1.1 - Base - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document Location [Core]  <!-- UUID: be020cd4-73d4-4fc3-ae39-d38b252defd0 -->
+###### A.6.1.1.2.2.6.1.1.2.3.1.1 - Base - Grove x Steakhouse USDC Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 34c17b1c-48dd-4353-9743-5bf2b89c675b -->
 
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.3.1.1 - Base - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document](43d78089-ba75-480c-a277-edaa6eaa6336).
-
-###### A.6.1.1.2.2.6.1.1.2.3.1.2 - Base - Steakhouse Prime Instant USDC Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 363c5d9f-9486-4091-8ed6-f909f66ead65 -->
-
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.3.2 - Base - Steakhouse Prime Instant USDC Morpho Vault V2 Instance Configuration Document](d47ec9c3-b308-453a-989a-7396504f6a99).
-
-###### A.6.1.1.2.2.6.1.1.2.3.1.3 - Base - Grove x Steakhouse USDC Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 34c17b1c-48dd-4353-9743-5bf2b89c675b -->
-
-This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.3.1.2 - Base - Grove x Steakhouse USDC Morpho Vault V2 Instance Configuration Document](8ddc309e-abde-4d17-8977-bd5f20e100a7).
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.3.3.1.1 - Base - Grove x Steakhouse USDC Morpho Vault V2 Instance Configuration Document](8ddc309e-abde-4d17-8977-bd5f20e100a7).
 
 ###### A.6.1.1.2.2.6.1.1.2.4 - Plasma [Core]  <!-- UUID: 00ec8ca9-deee-45b2-9acc-f24560ad4a13 -->
 
@@ -1611,6 +1587,46 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 ###### A.6.1.1.2.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 70ddaca1-07ca-402f-bf3b-cfab52a8f360 -->
 
 This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of `Completed`.
+
+###### A.6.1.1.2.2.6.1.1.3.1 - Ethereum Mainnet [Core]  <!-- UUID: 7ed1bded-776f-4078-a571-c3322e482cd7 -->
+
+The documents herein contain a Directory of all Instances on the Ethereum Mainnet of the Allocation System Primitive with Instance status of `Completed`.
+
+###### A.6.1.1.2.2.6.1.1.3.1.1 - Morpho [Core]  <!-- UUID: 79795ded-97a0-4109-85ee-1d8e7e6afcbf -->
+
+The Ethereum Mainnet Instances Directory of the Morpho Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.1.3.1.1.1 - Ethereum Mainnet - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document Location [Core]  <!-- UUID: 03708e1d-f0e9-41e6-a792-01ef1b2d969b -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.4.1.1.1 - Ethereum Mainnet - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document](29cb8322-96f5-4f18-b4fe-eb31826af580).
+
+###### A.6.1.1.2.2.6.1.1.3.1.1.2 - Ethereum Mainnet - Steakhouse PYUSD Morpho Vault Instance Configuration Document Location [Core]  <!-- UUID: d0a21cdb-ba69-4f0c-9b67-575996a01c4d -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.4.1.1.2 - Ethereum Mainnet - Steakhouse PYUSD Morpho Vault Instance Configuration Document](0b7e1d3d-1f56-48a6-9729-88479aa5ff92).
+
+###### A.6.1.1.2.2.6.1.1.3.1.1.3 - Ethereum Mainnet - Sentora PYUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: db6ff295-bf78-450f-a272-f4a5f01b0cdc -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.4.1.1.3 - Ethereum Mainnet - Sentora PYUSD Morpho Vault V2 Instance Configuration Document](3e940e02-80eb-4e37-bce6-95939089da46).
+
+###### A.6.1.1.2.2.6.1.1.3.1.1.4 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 329dae6d-08a0-4628-b494-b533e69c26ce -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.4.1.1.4 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document](dff6df5f-f8ab-4df1-be1e-f71510c3534e).
+
+###### A.6.1.1.2.2.6.1.1.3.2 - Base [Core]  <!-- UUID: 3853b727-6ef0-4951-be54-ac6584210d7c -->
+
+The documents herein contain a Directory of all Instances on Base of the Allocation System Primitive with Instance status of `Completed`.
+
+###### A.6.1.1.2.2.6.1.1.3.2.1 - Morpho [Core]  <!-- UUID: 2c52f380-3347-4756-b220-f019926eeab9 -->
+
+The Base Instances Directory of the Morpho Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.1.3.2.1.1 - Base - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document Location [Core]  <!-- UUID: be020cd4-73d4-4fc3-ae39-d38b252defd0 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.4.2.1.1 - Base - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document](43d78089-ba75-480c-a277-edaa6eaa6336).
+
+###### A.6.1.1.2.2.6.1.1.3.2.1.2 - Base - Steakhouse Prime Instant USDC Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 363c5d9f-9486-4091-8ed6-f909f66ead65 -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.2.2.6.1.4.2.1.2 - Base - Steakhouse Prime Instant USDC Morpho Vault V2 Instance Configuration Document](d47ec9c3-b308-453a-989a-7396504f6a99).
 
 ###### A.6.1.1.2.2.6.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 19280fed-ef24-4c95-843a-4abaec1d8bb6 -->
 
@@ -6901,719 +6917,361 @@ The documents herein contain operational procedures or monitoring requirements u
 
 The Ethereum Mainnet Instances of the Morpho Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.1 - Ethereum Mainnet - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document [Core]  <!-- UUID: 29cb8322-96f5-4f18-b4fe-eb31826af580 -->
-
-The documents herein contain the Instance Configuration Document for the Morpho Grove x Steakhouse High Yield Vault USDC Instance.
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 6127e31a-798c-41eb-90d5-044d9b214d2a -->
-
-**`Pending`**
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2 - Parameters [Core]  <!-- UUID: 7cdf8908-1adc-421d-9c71-37d138f99b20 -->
-
-The documents herein define the parameters of the Morpho Grove x Steakhouse High Yield Vault USDC Instance of the Allocation System Primitive.
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 260778ff-223a-4aca-a262-cd20aafe5f49 -->
-
-The documents herein define the Instance identifiers.
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.1.1 - Network [Core]  <!-- UUID: f4e45e27-3775-46e7-9f7f-ada5fb72bc27 -->
-
-Ethereum Mainnet
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.1.2 - Target Protocol [Core]  <!-- UUID: a9e1a42f-d92b-4658-814a-2ad449de6eb5 -->
-
-Morpho
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: a810c912-a460-4a1f-ac0d-838eb6ff2f04 -->
-
-USDC
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.1.4 - Token [Core]  <!-- UUID: 4e19d59e-628e-4478-a986-6418879f03b2 -->
-
-grove-bbqUSDC
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.2 - Contract Addresses [Core]  <!-- UUID: 94042273-29a0-4538-833b-1ea63b737db1 -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.1 - Token Address [Core]  <!-- UUID: dcdff78c-809f-4ec8-80a2-36c124ca9ae8 -->
-
-`0xBEEf2B5FD3D94469b7782aeBe6364E6e6FB1B709`
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: ff7b0875-7f6d-4b18-b609-34eec3f725a0 -->
-
-`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 35269818-4f06-49a8-8675-f7da3f616976 -->
-
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: e258f0cd-0b47-464a-bcdb-78fdfb3451a2 -->
-
-The inflow RateLimitID is: `0x82fb6a87781d1c18617960e9528d0633bfbc534f5ae8109347f10bb49a2f4f19`.
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: a7ad7e2a-5c2e-4231-94d4-cdd14d526c1d -->
-
-**Outflow RateLimitID** _(Core)_ - The outflow RateLimitID is: `0xe668276e49fbcb8fc24c716adf328ec4602ad894aaeabc608d172aadfd5cd485`.
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.4 - Rate Limits [Core]  <!-- UUID: a907ce48-a651-4cc9-a382-82e989f3ee50 -->
-
-The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: dbb8ef9e-c2ce-43b5-b320-bae57f6cb993 -->
-
-The deposit rate limits are:
-
-- `maxAmount`: 20,000,000 USDC
-- `slope`: 20,000,000 USDC per day
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: b4ca4845-a846-479b-aaf8-e83e73bf25f7 -->
-
-The withdrawal rate limits are:
-
-- `maxAmount`: Unlimited
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1ab38f81-28f4-4262-8529-37ef7d43e087 -->
-
-The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.2.2.6.1.3.1.7.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 9c79b4b9-8584-4414-bddf-36158d01dc20 -->
-
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
-
-###### A.6.1.1.2.2.6.1.3.1.7.2 - Ethereum Mainnet - Grove x Steakhouse USDC Morpho Vault v2 Instance Configuration Document [Core]  <!-- UUID: 6ec606f0-bc47-4f36-8591-75784bb78b00 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1 - Ethereum Mainnet - Grove x Steakhouse USDC Morpho Vault v2 Instance Configuration Document [Core]  <!-- UUID: 6ec606f0-bc47-4f36-8591-75784bb78b00 -->
 
 The documents herein contain the Instance Configuration Document for the Grove x Steakhouse USDC Morpho Vault v2 Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 87d15c86-c604-465b-b920-050a1aabcb0c -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 87d15c86-c604-465b-b920-050a1aabcb0c -->
 
 **`Pending`**
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2 - Parameters [Core]  <!-- UUID: 74f5efe4-582c-4b44-9235-71495f81ae51 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2 - Parameters [Core]  <!-- UUID: 74f5efe4-582c-4b44-9235-71495f81ae51 -->
 
 The documents herein define the parameters of the Grove x Steakhouse USDC Morpho Vault v2 Instance of the Allocation System Primitive.
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.1 - Instance Identifiers [Core]  <!-- UUID: b9e733de-e621-42eb-b000-37195c47f395 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.1 - Instance Identifiers [Core]  <!-- UUID: b9e733de-e621-42eb-b000-37195c47f395 -->
 
 The documents herein define the Instance identifiers.
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.1.1 - Network [Core]  <!-- UUID: 7d5a86c8-1d10-49cc-9547-58bf93fb7eb0 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.1.1 - Network [Core]  <!-- UUID: 7d5a86c8-1d10-49cc-9547-58bf93fb7eb0 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 25ee9e5c-32d3-488a-82c2-495496964b23 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 25ee9e5c-32d3-488a-82c2-495496964b23 -->
 
 Grove x Steakhouse USDC High Yield Vault V2
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: d1a9b070-f3c7-48e7-9bff-f2f0e17acc14 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: d1a9b070-f3c7-48e7-9bff-f2f0e17acc14 -->
 
 USDC
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.1.4 - Token [Core]  <!-- UUID: 45924aa7-76e2-4375-9b20-cd781f0a8e09 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.1.4 - Token [Core]  <!-- UUID: 45924aa7-76e2-4375-9b20-cd781f0a8e09 -->
 
 grove-bbqUSDC
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.2 - Contract Addresses [Core]  <!-- UUID: a6b3dc78-d595-4224-ac9f-bc38d87f683b -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2 - Contract Addresses [Core]  <!-- UUID: a6b3dc78-d595-4224-ac9f-bc38d87f683b -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.1 - Token Address [Core]  <!-- UUID: 3c0cd2b5-035d-460d-92dd-b45c1e7a64a1 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.1 - Token Address [Core]  <!-- UUID: 3c0cd2b5-035d-460d-92dd-b45c1e7a64a1 -->
 
 `0xBeefF08dF54897e7544aB01d0e86f013DA354111`
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 76adcd24-8473-4e8e-a42c-0c7583e13936 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 76adcd24-8473-4e8e-a42c-0c7583e13936 -->
 
 `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 23ecc971-d297-4a06-98da-1e7620f5a823 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 23ecc971-d297-4a06-98da-1e7620f5a823 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: f6b59efd-b87c-4d35-b416-f582359c98ac -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: f6b59efd-b87c-4d35-b416-f582359c98ac -->
 
 The inflow RateLimitID is: `0xe9ff67ad8829919752eee93c75433e7e23f3460ca6b1d9576fae94f669fbc4d6`.
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 76749308-cb2d-4c39-ad38-90c3baebb6e8 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 76749308-cb2d-4c39-ad38-90c3baebb6e8 -->
 
 The outflow RateLimitID is: `0xb6204f88cd26e1d2b5c27fe0beb10cc2c6a33aac17f228baffcb5cc3c8429a7b`.
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.4 - Rate Limits [Core]  <!-- UUID: fdf5c673-201d-4866-8e95-d041f481f3cc -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.4 - Rate Limits [Core]  <!-- UUID: fdf5c673-201d-4866-8e95-d041f481f3cc -->
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 506f5294-ad79-4ace-98b9-75d694072a3d -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 506f5294-ad79-4ace-98b9-75d694072a3d -->
 
 The deposit rate limits are:
 
 - `maxAmount`: 20,000,000 USDC
 - `slope`: 20,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 7e38063c-c6a7-4d45-9344-bd3b22047019 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 7e38063c-c6a7-4d45-9344-bd3b22047019 -->
 
 The withdrawal rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.4.3 - Max Exchange Rate [Core]  <!-- UUID: 6894aa1a-4e6d-4372-a989-34258aeddf00 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.3 - Max Exchange Rate [Core]  <!-- UUID: 6894aa1a-4e6d-4372-a989-34258aeddf00 -->
 
 Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 USDC.
 
 - `setMaxExchangeRate(GROVE_X_STEAKHOUSE_USDC_V2, 1e18, 2e6)`
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 0de4574b-adc6-4e83-9a8d-e6bcf97bf73e -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 0de4574b-adc6-4e83-9a8d-e6bcf97bf73e -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: feabeb3e-73d4-4acc-acb9-33cd0cc5bf53 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: feabeb3e-73d4-4acc-acb9-33cd0cc5bf53 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
-###### A.6.1.1.2.2.6.1.3.1.7.3 - Ethereum Mainnet - Steakhouse PYUSD Morpho Vault Instance Configuration Document [Core]  <!-- UUID: 0b7e1d3d-1f56-48a6-9729-88479aa5ff92 -->
-
-The documents herein contain the Instance Configuration Document for the Steakhouse PYUSD Morpho Vault Instance.
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: b9d9d24c-2d3a-4eec-88fe-2b7a47ab369c -->
-
-**`Pending`**
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2 - Parameters [Core]  <!-- UUID: f7048cf9-6517-48b9-8768-74a0160a8cea -->
-
-The documents herein define the parameters of the Steakhouse PYUSD Morpho Vault Instance of the Allocation System Primitive.
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.1 - Instance Identifiers [Core]  <!-- UUID: 42f30ffc-3820-4965-a112-1ab3c303d51b -->
-
-The documents herein define the Instance identifiers.
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.1.1 - Network [Core]  <!-- UUID: 99b185bd-c32d-4454-9c22-579f6ac4fd15 -->
-
-Ethereum Mainnet
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.1.2 - Target Protocol [Core]  <!-- UUID: 0963963e-de9c-4470-9d89-6932657f8283 -->
-
-Steakhouse PYUSD Morpho Vault
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: f1b5c4b3-9d93-4c2e-b7fb-6e42f5987ea5 -->
-
-PYUSD
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.1.4 - Token [Core]  <!-- UUID: 051f1879-4b97-41cb-90be-1ac54da4cab4 -->
-
-grove-bbqPYUSD
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.2 - Contract Addresses [Core]  <!-- UUID: 958415c3-8983-4cd1-926e-5ec2029926b3 -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.1 - Token Address [Core]  <!-- UUID: b7a5cbbf-15c4-4b0e-ba18-4dfa9994a212 -->
-
-`0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379`
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: c9d27694-0ebd-4f06-b5b3-07c3879bf438 -->
-
-`0x6c3ea9036406852006290770BEdFcAbA0e23A0e8`
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: d0a539f7-83a1-4aef-9a4a-050d4ba8596a -->
-
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 288e9dc2-d8a6-40c9-b501-aec06f7c1e11 -->
-
-The inflow RateLimitID is: `0xfc4e1f8ba7b0389a287411c3f6b97cc0ec60fb2816bfaa31e12a21561486321a`.
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 79ed24a8-d0ca-4da7-861a-66ae676eafcb -->
-
-The outflow RateLimitID is: `0xa0c827fea02219c83969babf0bd29df5bb5fe923e6b38491a5eea797984995e8`.
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.4 - Rate Limits [Core]  <!-- UUID: 72af86dd-3a15-4245-8a90-5ae8100f49d9 -->
-
-The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: aec6eb4d-103c-49e0-9d05-befc5dda716c -->
-
-The deposit rate limits are:
-
-- `maxAmount`: 20,000,000 PYUSD
-- `slope`: 20,000,000 PYUSD per day
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 77112a8a-c39e-49da-b476-c97ebcb2d197 -->
-
-The withdrawal rate limits are:
-
-- `maxAmount`: Unlimited
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.3 - Max Exchange Rate [Core]  <!-- UUID: c5fa2d90-df64-406e-a53d-9694d448b161 -->
-
-Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 4 PYUSD (current share price is 2).
-
-- `setMaxExchangeRate(STEAKHOUSE_PYUSD_MAIN, 1e18, 4e6)`
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 9f9f27c9-ad65-4afe-8ef7-de0eacfe3acc -->
-
-The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.2.2.6.1.3.1.7.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: fa6a6475-92d9-48b1-9033-6b1c196d9ead -->
-
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
-
-###### A.6.1.1.2.2.6.1.3.1.7.4 - Ethereum Mainnet - Grove x Steakhouse AUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 2c21462b-2925-48d8-9578-5fc21aa96563 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2 - Ethereum Mainnet - Grove x Steakhouse AUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 2c21462b-2925-48d8-9578-5fc21aa96563 -->
 
 The documents herein contain the Instance Configuration Document for the Grove x Steakhouse AUSD Morpho Vault V2 Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 72d9d7fd-d236-43b7-9f02-77686a08be2b -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 72d9d7fd-d236-43b7-9f02-77686a08be2b -->
 
 **`Pending`**
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2 - Parameters [Core]  <!-- UUID: 284c435d-c60f-4d62-82e6-f70b9fd18170 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2 - Parameters [Core]  <!-- UUID: 284c435d-c60f-4d62-82e6-f70b9fd18170 -->
 
 The documents herein define the parameters of the Grove x Steakhouse AUSD Morpho Vault V2 Instance of the Allocation System Primitive.
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.1 - Instance Identifiers [Core]  <!-- UUID: 0a6567d0-f433-4403-9bf0-e5f420e25759 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 0a6567d0-f433-4403-9bf0-e5f420e25759 -->
 
 The documents herein define the Instance identifiers.
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.1.1 - Network [Core]  <!-- UUID: b2ce1772-2114-4042-873f-6434878c7b7e -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.1.1 - Network [Core]  <!-- UUID: b2ce1772-2114-4042-873f-6434878c7b7e -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.1.2 - Target Protocol [Core]  <!-- UUID: 70d6adc5-11a6-4058-887c-d277141bb1a8 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 70d6adc5-11a6-4058-887c-d277141bb1a8 -->
 
 Grove x Steakhouse AUSD Morpho Vault
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 9cba6bc2-2481-4fca-922c-160b02c59c70 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 9cba6bc2-2481-4fca-922c-160b02c59c70 -->
 
 AUSD
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.1.4 - Token [Core]  <!-- UUID: 3ae27c28-7005-4b95-84e9-2eadfd88987a -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.1.4 - Token [Core]  <!-- UUID: 3ae27c28-7005-4b95-84e9-2eadfd88987a -->
 
 grove-bbqAUSD
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.2 - Contract Addresses [Core]  <!-- UUID: aee5af4c-bc06-4e40-a046-61c8fae70d5f -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.2 - Contract Addresses [Core]  <!-- UUID: aee5af4c-bc06-4e40-a046-61c8fae70d5f -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.1 - Token Address [Core]  <!-- UUID: 69648727-b4ab-45e7-85f9-c2846917d944 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.1 - Token Address [Core]  <!-- UUID: 69648727-b4ab-45e7-85f9-c2846917d944 -->
 
 `0xBEEfF0d672ab7F5018dFB614c93981045D4aA98a`
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 5ec16337-978a-4b21-bf47-326db289a2ef -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 5ec16337-978a-4b21-bf47-326db289a2ef -->
 
 `0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a`
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: 112d2a3d-0241-446e-96e8-36a25715c275 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 112d2a3d-0241-446e-96e8-36a25715c275 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: e7301d05-fbbf-4786-bd6e-55bfc1d4247a -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: e7301d05-fbbf-4786-bd6e-55bfc1d4247a -->
 
 The inflow RateLimitID is: `0x09b5f924263c1b33d619ff1c9c794ddf57bc2eb0f618e2cf5cfd838abecb541d`.
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 0e535792-539f-42a5-b8a0-d309fd7ac3d0 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 0e535792-539f-42a5-b8a0-d309fd7ac3d0 -->
 
 The outflow RateLimitID is: `0xdd975e5dc9904260242e80bbe7035784e9108c619e23f21b62342fae3226e0fe`.
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.4 - Rate Limits [Core]  <!-- UUID: 194a91d6-902b-4e2f-b416-cfd681addbde -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.4 - Rate Limits [Core]  <!-- UUID: 194a91d6-902b-4e2f-b416-cfd681addbde -->
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: c2b5471f-85af-4c3f-91af-3bf8d9492178 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: c2b5471f-85af-4c3f-91af-3bf8d9492178 -->
 
 The deposit rate limits are:
 
 - `maxAmount`: 20,000,000 AUSD
 - `slope`: 20,000,000 AUSD per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: ee2bb8e1-0e9d-4372-875c-22c8fbeafdf2 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: ee2bb8e1-0e9d-4372-875c-22c8fbeafdf2 -->
 
 The withdrawal rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: b8064e80-74cf-428e-9783-e03ed597a1f7 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: b8064e80-74cf-428e-9783-e03ed597a1f7 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: ac75dba3-94e0-4bd9-8a4a-24eb93c488dd -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: ac75dba3-94e0-4bd9-8a4a-24eb93c488dd -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 32ccb033-854c-45b2-b5f4-364e5eabc5f5 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 32ccb033-854c-45b2-b5f4-364e5eabc5f5 -->
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.4.1 - Max Exchange Rate [Core]  <!-- UUID: c7a016f1-0d8d-47ad-b91e-39d1a285b149 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.4.1 - Max Exchange Rate [Core]  <!-- UUID: c7a016f1-0d8d-47ad-b91e-39d1a285b149 -->
 
 Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 AUSD:
 
 - `setMaxExchangeRate(GROVE_X_STEAKHOUSE_AUSD_V2, 1e18, 2e6)`
 
-###### A.6.1.1.2.2.6.1.3.1.7.5 - Ethereum Mainnet - Sentora PYUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 3e940e02-80eb-4e37-bce6-95939089da46 -->
-
-The documents herein contain the Instance Configuration Document for the Sentora PYUSD Morpho Vault V2 Instance.
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 3fd05c9a-1d93-47f6-967d-6edb31f522fd -->
-
-`Pending`
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2 - Parameters [Core]  <!-- UUID: 7b251172-7a60-4240-af72-cacaca9fe3cc -->
-
-The documents herein define the parameters of the Sentora PYUSD Morpho Vault V2 Instance of the Allocation System Primitive.
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.1 - Instance Identifiers [Core]  <!-- UUID: 3d387fde-f4b9-47c0-8852-f4d9367c0369 -->
-
-The documents herein define the Instance identifiers.
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.1.1 - Network [Core]  <!-- UUID: 0075ec52-7324-41b5-8849-e91bac55e742 -->
-
-Ethereum Mainnet
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.1.2 - Target Protocol [Core]  <!-- UUID: be9b2600-3021-4bb6-9eaf-ba92f17ccd61 -->
-
-Sentora PYUSD Morpho Vault V2
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 8ba12c10-ec4f-4f37-a59c-4c34e14e1a8d -->
-
-PYUSD
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.1.4 - Token [Core]  <!-- UUID: dbf0b180-07ad-4a4b-8cdb-b2c1ae7f2c7a -->
-
-senPYUSDmain
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.2 - Contract Addresses [Core]  <!-- UUID: 6a5becdf-2cb6-44c3-b93a-793072d5ff7b -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.2.1 - Token Address [Core]  <!-- UUID: 9a0baa90-6aec-4be5-9ae5-4d3c790473a8 -->
-
-`0xb576765fB15505433aF24FEe2c0325895C559FB2`
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 412793f2-1e8e-490c-8604-3c457d54d6ed -->
-
-`0x6c3ea9036406852006290770BEdFcAbA0e23A0e8`
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.3 - Rate Limit IDs [Core]  <!-- UUID: fce963cb-ade1-463e-a88f-898a30586e51 -->
-
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 31d24068-b9bf-43d7-8333-df129e00ee61 -->
-
-The inflow RateLimitID is: `0x4dc0c7cd471560aa12324cb36f720d7d301ef230d3ae772ae07b681725ae7b66`
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: cdd99b5b-34aa-42d5-b93a-0abda5ae7f0f -->
-
-The outflow RateLimitID is: `0x8edef92c8bf76460b6b832a88c63768022ac5aa2bd862fb858905a0f024bff8b`
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.4 - Rate Limits [Core]  <!-- UUID: b94aa9b1-62c6-40dc-8b92-cc677ebac016 -->
-
-The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 0a4b26e1-5757-4ed9-bfc5-2614cc79500f -->
-
-The deposit rate limits are:
-
-- `maxAmount`: 50,000,000 PYUSD
-- `slope`: 50,000,000 PYUSD per day
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3d7d307c-ffdc-4ca3-b9fa-951b02d46e3f -->
-
-The withdrawal rate limits are:
-
-- `maxAmount`: Unlimited
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 143d4637-38b8-404c-ba4c-932796445fc8 -->
-
-The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 8c1e6098-3342-4d00-b314-d4e87f005dc2 -->
-
-The Maximum Exposure for this Instance is 0 USD.
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 4eb5ab52-f412-4d4f-8d9e-5ac9b883eb77 -->
-
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 8f2a06dd-60cb-4930-9f15-e8dae35444a9 -->
-
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
-
-###### A.6.1.1.2.2.6.1.3.1.7.5.4.1 - Max Exchange Rate [Core]  <!-- UUID: 1f14f407-9eeb-4e6b-bf6e-c837b5560f28 -->
-
-Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 PYUSD:
-
-- `setMaxExchangeRate(SENTORA_PYUSD_MAIN_V2, 1e18, 3e6)`
-
-###### A.6.1.1.2.2.6.1.3.1.7.6 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: dff6df5f-f8ab-4df1-be1e-f71510c3534e -->
-
-The documents herein contain the Instance Configuration Document for the Sentora RLUSD Morpho Vault V2 Instance.
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 35bdc1b6-604d-44ad-a577-ceb33bc20bd9 -->
-
-`Pending`
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2 - Parameters [Core]  <!-- UUID: da718c05-b351-43dd-a12a-75fe5bc0b4cf -->
-
-The documents herein define the parameters of the Sentora RLUSD Morpho Vault V2 Instance of the Allocation System Primitive.
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.1 - Instance Identifiers [Core]  <!-- UUID: 958bd3b4-0650-44fc-8765-28392fe92df3 -->
-
-The documents herein define the Instance identifiers.
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.1.1 - Network [Core]  <!-- UUID: 8baa615c-fc38-4bf7-8c44-47a6bb168ad8 -->
-
-Ethereum Mainnet
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.1.2 - Target Protocol [Core]  <!-- UUID: bfc9f2f7-e69f-4685-b666-57bb2d55442f -->
-
-Sentora RLUSD Morpho Vault V2
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 0b1dbb71-5087-4db2-98e1-f4aafe4e46b5 -->
-
-RLUSD
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.1.4 - Token [Core]  <!-- UUID: e7b16e69-cfb2-4877-a0c2-9cbc7f4ff1ff -->
-
-senRLUSDv2
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.2 - Contract Addresses [Core]  <!-- UUID: d2e8af21-8db9-43b3-8f52-7e080897d54e -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.2.1 - Token Address [Core]  <!-- UUID: dde53de4-3778-44b3-9f65-064eaab3bf93 -->
-
-`0x6dC58a0FdfC8D694e571DC59B9A52EEEa780E6bf`
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: b041fa2f-e7cd-4c64-98d0-a1b67f50d6a2 -->
-
-`0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.3 - Rate Limit IDs [Core]  <!-- UUID: 991d7839-4dfd-466f-aafd-8c397cd7af6b -->
-
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: a5775dc3-6444-4234-825d-7e0ae6b05f6b -->
-
-The inflow RateLimitID is: `0x944bbb34c3717aacc72419f43d62f5a01d2ebd7a9157ba9975fd7d971deb803f`
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 2441cde7-6e2e-47d9-9fd3-62b1bfbb9c9c -->
-
-The outflow RateLimitID is: `0xfc41a8cf89ec93b54bbf6960204c29c48a7ed98ec4a88dade68149dee919e788`
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.4 - Rate Limits [Core]  <!-- UUID: 5ecbe8da-00f2-4d72-ab79-6276eae3bc0f -->
-
-The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: c7c4c3a1-ca25-4e9e-b4ab-cbcd01519535 -->
-
-The deposit rate limits are:
-
-- `maxAmount`: 50,000,000 RLUSD
-- `slope`: 50,000,000 RLUSD per day
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3593ce57-8cf0-42c8-b0ce-0bfef547e4a6 -->
-
-The withdrawal rate limits are:
-
-- `maxAmount`: Unlimited
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 55c42f45-b94d-4e4d-959f-ae1cc1880fc5 -->
-
-The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 4e3fae3f-b450-4f0b-bff4-4f4767c8f7a7 -->
-
-The Maximum Exposure for this Instance is 0 USD.
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.3 - Instance-specific Operational Processes [Core]  <!-- UUID: e63662b0-149e-4e80-b7e0-6cf281f85ddd -->
-
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 9aed2f2d-6a17-41a5-9104-bb622b3cb04e -->
-
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
-
-###### A.6.1.1.2.2.6.1.3.1.7.6.4.1 - Max Exchange Rate [Core]  <!-- UUID: fd4778b5-78e7-49fc-a785-c2dfed2e5246 -->
-
-Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 RLUSD:
-
-- `setMaxExchangeRate(SENTORA_RLUSD_MAIN_V2, 1e18, 3e18)`
-
-###### A.6.1.1.2.2.6.1.3.1.7.7 - Ethereum Mainnet - Grove x Steakhouse RLUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: cfb29474-ea48-4370-aad6-23af1cf4d11a -->
+###### A.6.1.1.2.2.6.1.3.1.7.3 - Ethereum Mainnet - Grove x Steakhouse RLUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: cfb29474-ea48-4370-aad6-23af1cf4d11a -->
 
 The documents herein contain the Instance Configuration Document for the Grove x Steakhouse RLUSD Morpho Vault V2 Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: a1136418-1914-4543-aa3c-a77e7e8b60c7 -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: a1136418-1914-4543-aa3c-a77e7e8b60c7 -->
 
 `Pending`
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2 - Parameters [Core]  <!-- UUID: d4091127-bd5c-4ff6-ba9c-de7bd8553e61 -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2 - Parameters [Core]  <!-- UUID: d4091127-bd5c-4ff6-ba9c-de7bd8553e61 -->
 
 The documents herein define the parameters of the Grove x Steakhouse RLUSD Morpho Vault V2 Instance of the Allocation System Primitive.
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.1 - Instance Identifiers [Core]  <!-- UUID: 64527d65-8389-4d0c-859c-fe2da103f62d -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.1 - Instance Identifiers [Core]  <!-- UUID: 64527d65-8389-4d0c-859c-fe2da103f62d -->
 
 The documents herein define the Instance identifiers.
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.1.1 - Network [Core]  <!-- UUID: 74b876ee-2891-413b-bd1f-58b2c96b4585 -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.1.1 - Network [Core]  <!-- UUID: 74b876ee-2891-413b-bd1f-58b2c96b4585 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.1.2 - Target Protocol [Core]  <!-- UUID: 70e811cc-0a98-454a-b555-0f88a65187f1 -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.1.2 - Target Protocol [Core]  <!-- UUID: 70e811cc-0a98-454a-b555-0f88a65187f1 -->
 
 Grove x Steakhouse RLUSD Morpho Vault V2
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: b3ad456b-d6de-4ed1-8576-01366e21bd5d -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: b3ad456b-d6de-4ed1-8576-01366e21bd5d -->
 
 RLUSD
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.1.4 - Token [Core]  <!-- UUID: 9325e9e9-4c9d-44ac-a732-64c8353bbff7 -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.1.4 - Token [Core]  <!-- UUID: 9325e9e9-4c9d-44ac-a732-64c8353bbff7 -->
 
 grove-bbqRLUSD
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.2 - Contract Addresses [Core]  <!-- UUID: 02fa5674-392e-4d0c-8e42-2adc3692881c -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.2 - Contract Addresses [Core]  <!-- UUID: 02fa5674-392e-4d0c-8e42-2adc3692881c -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.2.1 - Token Address [Core]  <!-- UUID: 8ac9a401-96a6-4cbc-9d23-9374cb626d2b -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.1 - Token Address [Core]  <!-- UUID: 8ac9a401-96a6-4cbc-9d23-9374cb626d2b -->
 
 `0xBeEff4fD39F8e48b6a6e475445D650cb11e9599F`
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: de701477-61aa-4d32-81b7-9ab044bb2b74 -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: de701477-61aa-4d32-81b7-9ab044bb2b74 -->
 
 `0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.3 - Rate Limit IDs [Core]  <!-- UUID: 41f9c281-d313-47d4-af75-8df48c9e260c -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 41f9c281-d313-47d4-af75-8df48c9e260c -->
 
 The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: e868b5a4-e469-4e32-869d-2c904d31d221 -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: e868b5a4-e469-4e32-869d-2c904d31d221 -->
 
 The inflow RateLimitID is: `0xf655bc101a615fbcb591acce756dacae96cb119ff1beec548d9cc5d4558ea53a`
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 3944007b-9f6f-4c0a-a71b-dd3a1775cd94 -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 3944007b-9f6f-4c0a-a71b-dd3a1775cd94 -->
 
 The outflow RateLimitID is: `0xa6e68f8214d2fb32e0deb2888ef4644c36401d18605447843e4f936529f6a3cb`
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.4 - Rate Limits [Core]  <!-- UUID: 93fbe9e3-88b0-4160-b4cb-52b5333a0926 -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.4 - Rate Limits [Core]  <!-- UUID: 93fbe9e3-88b0-4160-b4cb-52b5333a0926 -->
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: adfeeede-027a-4b98-8636-c53975c4b7cf -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: adfeeede-027a-4b98-8636-c53975c4b7cf -->
 
 The deposit rate limits are:
 
 - `maxAmount`: 100,000,000 RLUSD
 - `slope`: 100,000,000 RLUSD per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: c455e62e-79a6-478e-aa06-f35d2ab6779f -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: c455e62e-79a6-478e-aa06-f35d2ab6779f -->
 
 The withdrawal rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: f298feba-925d-4f87-99d8-855fc7adffe0 -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: f298feba-925d-4f87-99d8-855fc7adffe0 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 2952337f-8152-44ca-9d3e-0363c6f2b1c9 -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 2952337f-8152-44ca-9d3e-0363c6f2b1c9 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 8638d88f-8ac2-4deb-849e-6100eeea4b82 -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 8638d88f-8ac2-4deb-849e-6100eeea4b82 -->
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
 
-###### A.6.1.1.2.2.6.1.3.1.7.7.4.1 - Max Exchange Rate [Core]  <!-- UUID: ea2bbd07-134d-459d-bb20-2dbb756766b0 -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.4.1 - Max Exchange Rate [Core]  <!-- UUID: ea2bbd07-134d-459d-bb20-2dbb756766b0 -->
 
 Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 RLUSD:
 
 - `setMaxExchangeRate(GROVE_X_STEAKHOUSE_RLUSD_V2, 1e18, 3e18)`
 
-###### A.6.1.1.2.2.6.1.3.1.7.8 - Ethereum Mainnet - Grove x Steakhouse USDG Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 43f15d34-cbba-4caa-8b45-ee4f57654280 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4 - Ethereum Mainnet - Grove x Steakhouse USDG Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 43f15d34-cbba-4caa-8b45-ee4f57654280 -->
 
 The documents herein contain the Instance Configuration Document for the Grove x Steakhouse USDG Morpho Vault V2 Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: cb63ef1a-7aca-44ff-824f-6a15c8a46cef -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: cb63ef1a-7aca-44ff-824f-6a15c8a46cef -->
 
 **`Pending`**
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2 - Parameters [Core]  <!-- UUID: 293cd41c-79b0-4608-835c-be22d2ee01ee -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2 - Parameters [Core]  <!-- UUID: 293cd41c-79b0-4608-835c-be22d2ee01ee -->
 
 The documents herein define the parameters of the Grove x Steakhouse USDG Morpho Vault V2 Instance of the Allocation System Primitive.
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.1 - Instance Identifiers [Core]  <!-- UUID: 77928c24-1f39-44e1-a633-f818195e3536 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.1 - Instance Identifiers [Core]  <!-- UUID: 77928c24-1f39-44e1-a633-f818195e3536 -->
 
 The documents herein define the Instance identifiers.
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.1.1 - Network [Core]  <!-- UUID: 06b8ab29-4b6c-4877-9ff2-d94cd658b08b -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.1.1 - Network [Core]  <!-- UUID: 06b8ab29-4b6c-4877-9ff2-d94cd658b08b -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.1.2 - Target Protocol [Core]  <!-- UUID: 8e01066a-b3a5-4830-981a-1a466888b778 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.1.2 - Target Protocol [Core]  <!-- UUID: 8e01066a-b3a5-4830-981a-1a466888b778 -->
 
 Grove x Steakhouse USDG Morpho Vault V2
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 42fefcb4-2870-44c5-835a-3bf19f8872b7 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 42fefcb4-2870-44c5-835a-3bf19f8872b7 -->
 
 USDG
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.1.4 - Token [Core]  <!-- UUID: ebb592c9-2fda-4d55-8c45-c88744a51ae3 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.1.4 - Token [Core]  <!-- UUID: ebb592c9-2fda-4d55-8c45-c88744a51ae3 -->
 
 grove-steakUSDG
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.2 - Contract Addresses [Core]  <!-- UUID: 5193b3f1-aebe-4009-86d7-42103cb234db -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2 - Contract Addresses [Core]  <!-- UUID: 5193b3f1-aebe-4009-86d7-42103cb234db -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.2.1 - Token Address [Core]  <!-- UUID: f44f7f42-c5c0-460f-814a-1183bfe92771 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.1 - Token Address [Core]  <!-- UUID: f44f7f42-c5c0-460f-814a-1183bfe92771 -->
 
 `0xbeef05061FE51eA482BD1b68041353490b3a5934`
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: fad65025-4fb8-4826-9f39-d064bb6e065d -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: fad65025-4fb8-4826-9f39-d064bb6e065d -->
 
 `0xe343167631d89B6Ffc58B88d6b7fB0228795491D`
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.3 - Rate Limit IDs [Core]  <!-- UUID: 08381056-3b54-4728-8afa-017d8a52a624 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: 08381056-3b54-4728-8afa-017d8a52a624 -->
 
 The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 08c4013e-8cdb-4b10-90c1-7c960324b5fe -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 08c4013e-8cdb-4b10-90c1-7c960324b5fe -->
 
 The inflow RateLimitID is: `0x96c916a067daaa7b0861108a6239e40f33bb9fe1be08e2813fb9fc2344e19ef7`
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: c998e437-c8d7-4c10-908b-dadc4737e47e -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: c998e437-c8d7-4c10-908b-dadc4737e47e -->
 
 The outflow RateLimitID is: `0x0fceada3d6963c0045d4b0394172af9c863234669e35625191cb3372558bf596`
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.4 - Rate Limits [Core]  <!-- UUID: 53101acf-dfcc-4a36-b3d7-5ae93c8c154a -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.4 - Rate Limits [Core]  <!-- UUID: 53101acf-dfcc-4a36-b3d7-5ae93c8c154a -->
 
 The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: cecb4643-70b0-40d7-a02f-87ddc8c60229 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: cecb4643-70b0-40d7-a02f-87ddc8c60229 -->
 
 The deposit rate limits are:
 
 - `maxAmount`: 50,000,000 USDG
 - `slope`: 50,000,000 USDG per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: f28da041-3890-4f33-99f5-c851ec6b324f -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: f28da041-3890-4f33-99f5-c851ec6b324f -->
 
 The withdrawal rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 46719f1e-72c7-42a4-8487-fb07efe46932 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 46719f1e-72c7-42a4-8487-fb07efe46932 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1ad06ecc-38be-46bc-a021-ab2045b07fd5 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 1ad06ecc-38be-46bc-a021-ab2045b07fd5 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 6f2b8e5d-4a71-4c93-b0e8-91d5a7c3e284 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 6f2b8e5d-4a71-4c93-b0e8-91d5a7c3e284 -->
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
 
-###### A.6.1.1.2.2.6.1.3.1.7.8.4.1 - Max Exchange Rate [Core]  <!-- UUID: a8dea4f7-d53f-4e86-9b65-85ecada04558 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.4.1 - Max Exchange Rate [Core]  <!-- UUID: a8dea4f7-d53f-4e86-9b65-85ecada04558 -->
 
 Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 USDG.
 
@@ -9216,264 +8874,96 @@ The Base Instances of the Grove Liquidity Layer with `Active` Status are stored 
 
 The Base Instances of the Morpho Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.2.2.6.1.3.3.1.1 - Base - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document [Core]  <!-- UUID: 43d78089-ba75-480c-a277-edaa6eaa6336 -->
-
-The documents herein contain the Instance Configuration Document for the Morpho Grove x Steakhouse High Yield Vault USDC Instance.
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 766f35b4-24a6-4393-9a3f-c511a1bce0cc -->
-
-**`Pending`**
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2 - Parameters [Core]  <!-- UUID: b72d1498-2f89-40ec-8c14-08ce2a84af8c -->
-
-The documents herein define the parameters of the Morpho Grove x Steakhouse High Yield Vault USDC Instance of the Allocation System Primitive.
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 89b9b814-e433-4b20-bdb0-3c8189501f5f -->
-
-The documents herein define the Instance identifiers.
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.1.1 - Network [Core]  <!-- UUID: 9b88ee71-1097-431f-8fbe-a5be36ef6128 -->
-
-Base
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 4e1857f5-a3c8-408d-96c1-913fd81c3848 -->
-
-Morpho
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: b08511eb-0c49-4077-9676-da153fbf2797 -->
-
-USDC
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.1.4 - Token [Core]  <!-- UUID: 6ff4aa1b-d139-44af-baae-b8c10220b107 -->
-
-grove-bbqUSDC
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: 99a5b0c0-88a8-4f3a-9bf3-b87b6f0fdf39 -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.1 - Token Address [Core]  <!-- UUID: 1dc90986-481b-4e3a-a38c-7a9a636bb1da -->
-
-`0xBeEf2d50B428675a1921bC6bBF4bfb9D8cF1461A`
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 200c6217-d44c-4a1e-90b3-94735e35959a -->
-
-`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: f8e73145-23c5-48f6-b48b-62e4f7b8af0d -->
-
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 9e4275e9-c6b0-43a3-a5ff-1e12dc215267 -->
-
-The inflow RateLimitID is: `0xb5c3e377398c99e28d39340657bbc979bef79e01e2af3d0ff742e30722cd0d5a`.
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 24179f21-d109-4298-b0c8-b0a182d94bce -->
-
-The outflow RateLimitID is: `0x13e37cfd8b7a0e3f59d4b4424894c2a3693ccf0c313905615ae9848a32e2db97`.
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.4 - Rate Limits [Core]  <!-- UUID: d394483b-e739-4346-948b-488fb942a48f -->
-
-The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: a1c1cca8-b6a3-440b-ae26-9393b95d328f -->
-
-The inflow rate limits are:
-
-- `maxAmount`: 20,000,000 USDC
-- `slope`: 20,000,000 USDC per day
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: b39a0a7f-3e17-4cf3-b96b-a1a16fc8ae13 -->
-
-The outflow rate limits are:
-
-- `maxAmount`: Unlimited
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 9a9ad1a3-ce48-4947-9da1-13dfcd450ee3 -->
-
-The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.2.2.6.1.3.3.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: a274fcdf-dc71-4b78-be4d-e41d1622e076 -->
-
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
-
-###### A.6.1.1.2.2.6.1.3.3.1.2 - Base - Grove x Steakhouse USDC Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 8ddc309e-abde-4d17-8977-bd5f20e100a7 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1 - Base - Grove x Steakhouse USDC Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 8ddc309e-abde-4d17-8977-bd5f20e100a7 -->
 
 The documents herein contain the Instance Configuration Document for the Grove x Steakhouse USDC Morpho Vault V2 Instance.
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 593f913c-273c-48f4-807e-5b826843b097 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 593f913c-273c-48f4-807e-5b826843b097 -->
 
 **`Pending`**
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2 - Parameters [Core]  <!-- UUID: cc56a3cf-d085-487a-b1c5-fb1371db5978 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2 - Parameters [Core]  <!-- UUID: cc56a3cf-d085-487a-b1c5-fb1371db5978 -->
 
 The documents herein define the parameters of the Grove x Steakhouse USDC Morpho Vault V2 Instance of the Allocation System Primitive.
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 2d3f0ceb-90ea-4fa6-b3f9-440e5834fd6c -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 2d3f0ceb-90ea-4fa6-b3f9-440e5834fd6c -->
 
 The documents herein define the Instance identifiers.
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.1.1 - Network [Core]  <!-- UUID: 2d12da29-855c-4e33-8f8d-53bcd7cf722b -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.1.1 - Network [Core]  <!-- UUID: 2d12da29-855c-4e33-8f8d-53bcd7cf722b -->
 
 Base
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.1.2 - Target Protocol [Core]  <!-- UUID: b417f91a-5139-4baf-910e-e0c564c9e92b -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: b417f91a-5139-4baf-910e-e0c564c9e92b -->
 
 Morpho
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 0fe862ca-e24a-44e1-b35c-f51adb5323e2 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 0fe862ca-e24a-44e1-b35c-f51adb5323e2 -->
 
 USDC
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.1.4 - Token [Core]  <!-- UUID: be96f6e7-4a16-419a-aa9a-bf09ea4b8ed0 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.1.4 - Token [Core]  <!-- UUID: be96f6e7-4a16-419a-aa9a-bf09ea4b8ed0 -->
 
 grove-steakUSDC
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.2 - Contract Addresses [Core]  <!-- UUID: 913d75b6-4822-48b5-85d2-e41f427e0a5b -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: 913d75b6-4822-48b5-85d2-e41f427e0a5b -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.2.1 - Token Address [Core]  <!-- UUID: 9a233643-f07d-49d6-ab84-3d9fc7281c1c -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.1 - Token Address [Core]  <!-- UUID: 9a233643-f07d-49d6-ab84-3d9fc7281c1c -->
 
 `0xbeef0786756810478b88982DE00F3CD7fdB8e7c7`
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: a911bdd4-e5e8-47c7-81e6-f4b7600dc1c4 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: a911bdd4-e5e8-47c7-81e6-f4b7600dc1c4 -->
 
 `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 80c5532f-a7c9-4f7e-9a33-6f10cd7f4af8 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 80c5532f-a7c9-4f7e-9a33-6f10cd7f4af8 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: df79f857-66b7-4e3f-9bb5-e77f3766ca21 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: df79f857-66b7-4e3f-9bb5-e77f3766ca21 -->
 
 The inflow RateLimitID is: `0x75df43c10c790bf60cc8db589d93ba979a8711aab94a828290155f0f9cb7e6ac`.
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: c7d2d8ed-5f57-47d3-a6dc-537c72218898 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: c7d2d8ed-5f57-47d3-a6dc-537c72218898 -->
 
 The outflow RateLimitID is: `0x44630fb26e1343e99745c4ae29b1587eeb182f2a1da8b0cbe543a46f677766b9`.
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.4 - Rate Limits [Core]  <!-- UUID: 87cf2cfd-f7b6-4275-b212-eb9d6a85796e -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.4 - Rate Limits [Core]  <!-- UUID: 87cf2cfd-f7b6-4275-b212-eb9d6a85796e -->
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: f62608af-4cbc-4018-875e-79b7c26d7115 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: f62608af-4cbc-4018-875e-79b7c26d7115 -->
 
 The deposit rate limits are:
 
 - `maxAmount`: 20,000,000 USDC
 - `slope`: 20,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3c8ca674-d0d1-43e8-a76d-b2fb07db3447 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3c8ca674-d0d1-43e8-a76d-b2fb07db3447 -->
 
 The withdrawal rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.4.3 - Max Exchange Rate [Core]  <!-- UUID: 5ebaa8eb-97c9-491c-83bf-0029785485a1 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.3 - Max Exchange Rate [Core]  <!-- UUID: 5ebaa8eb-97c9-491c-83bf-0029785485a1 -->
 
 Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 1.15 USDC.
 
 - `setMaxExchangeRate(GROVE_X_STEAKHOUSE_USDC_V2_BASE, 1e18, 1.15e6)`
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: d1dbe262-dae8-4520-b98e-8000caf3e8ae -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: d1dbe262-dae8-4520-b98e-8000caf3e8ae -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: bf2f2498-a93d-44a3-b019-802c9fc3da5d -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: bf2f2498-a93d-44a3-b019-802c9fc3da5d -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
-###### A.6.1.1.2.2.6.1.3.3.1.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 72d88cdd-2461-4cdb-88dc-59421d27a037 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 72d88cdd-2461-4cdb-88dc-59421d27a037 -->
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
-
-###### A.6.1.1.2.2.6.1.3.3.2 - Base - Steakhouse Prime Instant USDC Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: d47ec9c3-b308-453a-989a-7396504f6a99 -->
-
-The documents herein contain the Instance Configuration Document for the Steakhouse Prime Instant USDC Morpho Vault V2 Instance.
-
-###### A.6.1.1.2.2.6.1.3.3.2.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 7bc64313-cdc1-4877-947e-df6c7c22a28e -->
-
-**`Pending`**
-
-###### A.6.1.1.2.2.6.1.3.3.2.2 - Parameters [Core]  <!-- UUID: 8a19e28f-444a-4603-8905-0c6b1bfa9155 -->
-
-The documents herein define the parameters of the Steakhouse Prime Instant USDC Morpho Vault V2 Instance of the Allocation System Primitive.
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 8f4a9995-4963-4d49-8694-725617a2c074 -->
-
-The documents herein define the Instance identifiers.
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.1.1 - Network [Core]  <!-- UUID: 1dae9d3c-8010-48d5-9ee4-620f72b345cd -->
-
-Base
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.1.2 - Target Protocol [Core]  <!-- UUID: c9751457-f617-4bc3-bf8a-0fe0ac7d086f -->
-
-Morpho
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 3acf8d38-4eae-4ceb-b482-4754d2aafad2 -->
-
-USDC
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.1.4 - Token [Core]  <!-- UUID: fb07802c-ae95-4214-9762-db19fae2b671 -->
-
-steakUSDC
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.2 - Contract Addresses [Core]  <!-- UUID: 9a607af8-7f0a-4686-98c2-f62afc557f51 -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.2.1 - Token Address [Core]  <!-- UUID: e85ae1d4-c31d-4eae-a05c-6a1844918cfd -->
-
-`0xbeef0e0834849aCC03f0089F01f4F1Eeb06873C9`
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 889f7585-dcca-4e87-a9ca-bb1308115252 -->
-
-`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: a4d71080-74e8-48dd-ba3f-1810b4ba08c4 -->
-
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 3269cc14-28bd-405e-8d72-dd22528573cf -->
-
-The inflow RateLimitID is: `0xcc33156879fb03deee37b5ff243fa9afa95b94d13a2ab710f8096c0b5f053f3b`.
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 35e4b715-6409-490c-b42d-c1a24611d452 -->
-
-The outflow RateLimitID is: `0x6cbf2a3469ddd029ba9744291f720dfed49b9d475ef870978c70f12ee6831646`.
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.4 - Rate Limits [Core]  <!-- UUID: 881815fb-a206-4e1a-9852-c701d5ba4e92 -->
-
-The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 0ebb71f7-71c7-4668-9e70-1771e58cec79 -->
-
-The deposit rate limits are:
-
-- `maxAmount`: 20,000,000 USDC
-- `slope`: 20,000,000 USDC per day
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: bec9a1fa-aace-47eb-a663-08d1abd70b60 -->
-
-The withdrawal rate limits are:
-
-- `maxAmount`: Unlimited
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.4.3 - Max Exchange Rate [Core]  <!-- UUID: 3b96571e-bd04-44dd-b729-3c59288d80b1 -->
-
-Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 USDC.
-
-- `setMaxExchangeRate(STEAKHOUSE_PRIME_INSTANT_USDC_V2, 1e18, 2e6)`
-
-###### A.6.1.1.2.2.6.1.3.3.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 9418d9ac-66d4-41c7-80cc-b0de328ac09c -->
-
-The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.2.2.6.1.3.3.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: aac6839f-b2a7-40f6-9fe3-c2366a0aa957 -->
-
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
 ###### A.6.1.1.2.2.6.1.3.4 - Plasma [Core]  <!-- UUID: 348787e7-de5d-465c-9e19-3e8740f04efc -->
 
@@ -9928,6 +9418,548 @@ The documents herein contain operational procedures or monitoring requirements u
 ##### A.6.1.1.2.2.6.1.4 - Completed Instances [Core]  <!-- UUID: fd06fedd-819d-4e0a-a266-ecf5ede0343b -->
 
 The Instances of the Grove Liquidity Layer with `Completed` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.4.1 - Ethereum Mainnet Instances [Core]  <!-- UUID: 1e4cc2a0-f0c4-4588-b1e4-4b42cd488d22 -->
+
+The Ethereum Mainnet Instances of the Grove Liquidity Layer with `Completed` Status are stored herein and are organized by target protocol.
+
+###### A.6.1.1.2.2.6.1.4.1.1 - Morpho [Core]  <!-- UUID: 6c7b028b-e1c1-474a-a54d-b03a3a6765cd -->
+
+The Ethereum Mainnet Instances of the Morpho Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.4.1.1.1 - Ethereum Mainnet - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document [Core]  <!-- UUID: 29cb8322-96f5-4f18-b4fe-eb31826af580 -->
+
+The documents herein contain the Instance Configuration Document for the Morpho Grove x Steakhouse High Yield Vault USDC Instance.
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 6127e31a-798c-41eb-90d5-044d9b214d2a -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2 - Parameters [Core]  <!-- UUID: 7cdf8908-1adc-421d-9c71-37d138f99b20 -->
+
+The documents herein define the parameters of the Morpho Grove x Steakhouse High Yield Vault USDC Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 260778ff-223a-4aca-a262-cd20aafe5f49 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.1.1 - Network [Core]  <!-- UUID: f4e45e27-3775-46e7-9f7f-ada5fb72bc27 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: a9e1a42f-d92b-4658-814a-2ad449de6eb5 -->
+
+Morpho
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: a810c912-a460-4a1f-ac0d-838eb6ff2f04 -->
+
+USDC
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.1.4 - Token [Core]  <!-- UUID: 4e19d59e-628e-4478-a986-6418879f03b2 -->
+
+grove-bbqUSDC
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: 94042273-29a0-4538-833b-1ea63b737db1 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.2.1 - Token Address [Core]  <!-- UUID: dcdff78c-809f-4ec8-80a2-36c124ca9ae8 -->
+
+`0xBEEf2B5FD3D94469b7782aeBe6364E6e6FB1B709`
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: ff7b0875-7f6d-4b18-b609-34eec3f725a0 -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 35269818-4f06-49a8-8675-f7da3f616976 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: e258f0cd-0b47-464a-bcdb-78fdfb3451a2 -->
+
+The inflow RateLimitID is: `0x82fb6a87781d1c18617960e9528d0633bfbc534f5ae8109347f10bb49a2f4f19`.
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: a7ad7e2a-5c2e-4231-94d4-cdd14d526c1d -->
+
+**Outflow RateLimitID** _(Core)_ - The outflow RateLimitID is: `0xe668276e49fbcb8fc24c716adf328ec4602ad894aaeabc608d172aadfd5cd485`.
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.4 - Rate Limits [Core]  <!-- UUID: a907ce48-a651-4cc9-a382-82e989f3ee50 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: dbb8ef9e-c2ce-43b5-b320-bae57f6cb993 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: b4ca4845-a846-479b-aaf8-e83e73bf25f7 -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 1ab38f81-28f4-4262-8529-37ef7d43e087 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.4.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 9c79b4b9-8584-4414-bddf-36158d01dc20 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.4.1.1.2 - Ethereum Mainnet - Steakhouse PYUSD Morpho Vault Instance Configuration Document [Core]  <!-- UUID: 0b7e1d3d-1f56-48a6-9729-88479aa5ff92 -->
+
+The documents herein contain the Instance Configuration Document for the Steakhouse PYUSD Morpho Vault Instance.
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: b9d9d24c-2d3a-4eec-88fe-2b7a47ab369c -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2 - Parameters [Core]  <!-- UUID: f7048cf9-6517-48b9-8768-74a0160a8cea -->
+
+The documents herein define the parameters of the Steakhouse PYUSD Morpho Vault Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 42f30ffc-3820-4965-a112-1ab3c303d51b -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.1.1 - Network [Core]  <!-- UUID: 99b185bd-c32d-4454-9c22-579f6ac4fd15 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 0963963e-de9c-4470-9d89-6932657f8283 -->
+
+Steakhouse PYUSD Morpho Vault
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: f1b5c4b3-9d93-4c2e-b7fb-6e42f5987ea5 -->
+
+PYUSD
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.1.4 - Token [Core]  <!-- UUID: 051f1879-4b97-41cb-90be-1ac54da4cab4 -->
+
+grove-bbqPYUSD
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.2 - Contract Addresses [Core]  <!-- UUID: 958415c3-8983-4cd1-926e-5ec2029926b3 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.2.1 - Token Address [Core]  <!-- UUID: b7a5cbbf-15c4-4b0e-ba18-4dfa9994a212 -->
+
+`0xd8A6511979D9C5D387c819E9F8ED9F3a5C6c5379`
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: c9d27694-0ebd-4f06-b5b3-07c3879bf438 -->
+
+`0x6c3ea9036406852006290770BEdFcAbA0e23A0e8`
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: d0a539f7-83a1-4aef-9a4a-050d4ba8596a -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 288e9dc2-d8a6-40c9-b501-aec06f7c1e11 -->
+
+The inflow RateLimitID is: `0xfc4e1f8ba7b0389a287411c3f6b97cc0ec60fb2816bfaa31e12a21561486321a`.
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 79ed24a8-d0ca-4da7-861a-66ae676eafcb -->
+
+The outflow RateLimitID is: `0xa0c827fea02219c83969babf0bd29df5bb5fe923e6b38491a5eea797984995e8`.
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.4 - Rate Limits [Core]  <!-- UUID: 72af86dd-3a15-4245-8a90-5ae8100f49d9 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: aec6eb4d-103c-49e0-9d05-befc5dda716c -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 77112a8a-c39e-49da-b476-c97ebcb2d197 -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.4.3 - Max Exchange Rate [Core]  <!-- UUID: c5fa2d90-df64-406e-a53d-9694d448b161 -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 4 PYUSD (current share price is 2).
+
+- `setMaxExchangeRate(STEAKHOUSE_PYUSD_MAIN, 1e18, 4e6)`
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 9f9f27c9-ad65-4afe-8ef7-de0eacfe3acc -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.4.1.1.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: fa6a6475-92d9-48b1-9033-6b1c196d9ead -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.4.1.1.3 - Ethereum Mainnet - Sentora PYUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 3e940e02-80eb-4e37-bce6-95939089da46 -->
+
+The documents herein contain the Instance Configuration Document for the Sentora PYUSD Morpho Vault V2 Instance.
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 3fd05c9a-1d93-47f6-967d-6edb31f522fd -->
+
+`Pending`
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2 - Parameters [Core]  <!-- UUID: 7b251172-7a60-4240-af72-cacaca9fe3cc -->
+
+The documents herein define the parameters of the Sentora PYUSD Morpho Vault V2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.1 - Instance Identifiers [Core]  <!-- UUID: 3d387fde-f4b9-47c0-8852-f4d9367c0369 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.1.1 - Network [Core]  <!-- UUID: 0075ec52-7324-41b5-8849-e91bac55e742 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.1.2 - Target Protocol [Core]  <!-- UUID: be9b2600-3021-4bb6-9eaf-ba92f17ccd61 -->
+
+Sentora PYUSD Morpho Vault V2
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 8ba12c10-ec4f-4f37-a59c-4c34e14e1a8d -->
+
+PYUSD
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.1.4 - Token [Core]  <!-- UUID: dbf0b180-07ad-4a4b-8cdb-b2c1ae7f2c7a -->
+
+senPYUSDmain
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.2 - Contract Addresses [Core]  <!-- UUID: 6a5becdf-2cb6-44c3-b93a-793072d5ff7b -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.2.1 - Token Address [Core]  <!-- UUID: 9a0baa90-6aec-4be5-9ae5-4d3c790473a8 -->
+
+`0xb576765fB15505433aF24FEe2c0325895C559FB2`
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 412793f2-1e8e-490c-8604-3c457d54d6ed -->
+
+`0x6c3ea9036406852006290770BEdFcAbA0e23A0e8`
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: fce963cb-ade1-463e-a88f-898a30586e51 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 31d24068-b9bf-43d7-8333-df129e00ee61 -->
+
+The inflow RateLimitID is: `0x4dc0c7cd471560aa12324cb36f720d7d301ef230d3ae772ae07b681725ae7b66`
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: cdd99b5b-34aa-42d5-b93a-0abda5ae7f0f -->
+
+The outflow RateLimitID is: `0x8edef92c8bf76460b6b832a88c63768022ac5aa2bd862fb858905a0f024bff8b`
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.4 - Rate Limits [Core]  <!-- UUID: b94aa9b1-62c6-40dc-8b92-cc677ebac016 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 0a4b26e1-5757-4ed9-bfc5-2614cc79500f -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3d7d307c-ffdc-4ca3-b9fa-951b02d46e3f -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 143d4637-38b8-404c-ba4c-932796445fc8 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 8c1e6098-3342-4d00-b314-d4e87f005dc2 -->
+
+The Maximum Exposure for this Instance is 0 USD.
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 4eb5ab52-f412-4d4f-8d9e-5ac9b883eb77 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 8f2a06dd-60cb-4930-9f15-e8dae35444a9 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
+
+###### A.6.1.1.2.2.6.1.4.1.1.3.4.1 - Max Exchange Rate [Core]  <!-- UUID: 1f14f407-9eeb-4e6b-bf6e-c837b5560f28 -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 PYUSD:
+
+- `setMaxExchangeRate(SENTORA_PYUSD_MAIN_V2, 1e18, 3e6)`
+
+###### A.6.1.1.2.2.6.1.4.1.1.4 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: dff6df5f-f8ab-4df1-be1e-f71510c3534e -->
+
+The documents herein contain the Instance Configuration Document for the Sentora RLUSD Morpho Vault V2 Instance.
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 35bdc1b6-604d-44ad-a577-ceb33bc20bd9 -->
+
+`Pending`
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2 - Parameters [Core]  <!-- UUID: da718c05-b351-43dd-a12a-75fe5bc0b4cf -->
+
+The documents herein define the parameters of the Sentora RLUSD Morpho Vault V2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.1 - Instance Identifiers [Core]  <!-- UUID: 958bd3b4-0650-44fc-8765-28392fe92df3 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.1.1 - Network [Core]  <!-- UUID: 8baa615c-fc38-4bf7-8c44-47a6bb168ad8 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.1.2 - Target Protocol [Core]  <!-- UUID: bfc9f2f7-e69f-4685-b666-57bb2d55442f -->
+
+Sentora RLUSD Morpho Vault V2
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 0b1dbb71-5087-4db2-98e1-f4aafe4e46b5 -->
+
+RLUSD
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.1.4 - Token [Core]  <!-- UUID: e7b16e69-cfb2-4877-a0c2-9cbc7f4ff1ff -->
+
+senRLUSDv2
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.2 - Contract Addresses [Core]  <!-- UUID: d2e8af21-8db9-43b3-8f52-7e080897d54e -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.2.1 - Token Address [Core]  <!-- UUID: dde53de4-3778-44b3-9f65-064eaab3bf93 -->
+
+`0x6dC58a0FdfC8D694e571DC59B9A52EEEa780E6bf`
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: b041fa2f-e7cd-4c64-98d0-a1b67f50d6a2 -->
+
+`0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: 991d7839-4dfd-466f-aafd-8c397cd7af6b -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: a5775dc3-6444-4234-825d-7e0ae6b05f6b -->
+
+The inflow RateLimitID is: `0x944bbb34c3717aacc72419f43d62f5a01d2ebd7a9157ba9975fd7d971deb803f`
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 2441cde7-6e2e-47d9-9fd3-62b1bfbb9c9c -->
+
+The outflow RateLimitID is: `0xfc41a8cf89ec93b54bbf6960204c29c48a7ed98ec4a88dade68149dee919e788`
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.4 - Rate Limits [Core]  <!-- UUID: 5ecbe8da-00f2-4d72-ab79-6276eae3bc0f -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: c7c4c3a1-ca25-4e9e-b4ab-cbcd01519535 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3593ce57-8cf0-42c8-b0ce-0bfef547e4a6 -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 55c42f45-b94d-4e4d-959f-ae1cc1880fc5 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 4e3fae3f-b450-4f0b-bff4-4f4767c8f7a7 -->
+
+The Maximum Exposure for this Instance is 0 USD.
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.3 - Instance-specific Operational Processes [Core]  <!-- UUID: e63662b0-149e-4e80-b7e0-6cf281f85ddd -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 9aed2f2d-6a17-41a5-9104-bb622b3cb04e -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer parameters.
+
+###### A.6.1.1.2.2.6.1.4.1.1.4.4.1 - Max Exchange Rate [Core]  <!-- UUID: fd4778b5-78e7-49fc-a785-c2dfed2e5246 -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 RLUSD:
+
+- `setMaxExchangeRate(SENTORA_RLUSD_MAIN_V2, 1e18, 3e18)`
+
+###### A.6.1.1.2.2.6.1.4.2 - Base [Core]  <!-- UUID: c67a1ef7-1619-4756-901b-9e5d88738116 -->
+
+The Base Instances of the Grove Liquidity Layer with `Completed` Status are stored herein and are organized by target protocol.
+
+###### A.6.1.1.2.2.6.1.4.2.1 - Morpho [Core]  <!-- UUID: d6325141-43ef-438a-8896-a843d9f1b796 -->
+
+The Base Instances of the Morpho Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.2.2.6.1.4.2.1.1 - Base - Morpho Grove x Steakhouse High Yield Vault USDC Instance Configuration Document [Core]  <!-- UUID: 43d78089-ba75-480c-a277-edaa6eaa6336 -->
+
+The documents herein contain the Instance Configuration Document for the Morpho Grove x Steakhouse High Yield Vault USDC Instance.
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 766f35b4-24a6-4393-9a3f-c511a1bce0cc -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2 - Parameters [Core]  <!-- UUID: b72d1498-2f89-40ec-8c14-08ce2a84af8c -->
+
+The documents herein define the parameters of the Morpho Grove x Steakhouse High Yield Vault USDC Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 89b9b814-e433-4b20-bdb0-3c8189501f5f -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.1.1 - Network [Core]  <!-- UUID: 9b88ee71-1097-431f-8fbe-a5be36ef6128 -->
+
+Base
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 4e1857f5-a3c8-408d-96c1-913fd81c3848 -->
+
+Morpho
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: b08511eb-0c49-4077-9676-da153fbf2797 -->
+
+USDC
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.1.4 - Token [Core]  <!-- UUID: 6ff4aa1b-d139-44af-baae-b8c10220b107 -->
+
+grove-bbqUSDC
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: 99a5b0c0-88a8-4f3a-9bf3-b87b6f0fdf39 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.2.1 - Token Address [Core]  <!-- UUID: 1dc90986-481b-4e3a-a38c-7a9a636bb1da -->
+
+`0xBeEf2d50B428675a1921bC6bBF4bfb9D8cF1461A`
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 200c6217-d44c-4a1e-90b3-94735e35959a -->
+
+`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: f8e73145-23c5-48f6-b48b-62e4f7b8af0d -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 9e4275e9-c6b0-43a3-a5ff-1e12dc215267 -->
+
+The inflow RateLimitID is: `0xb5c3e377398c99e28d39340657bbc979bef79e01e2af3d0ff742e30722cd0d5a`.
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 24179f21-d109-4298-b0c8-b0a182d94bce -->
+
+The outflow RateLimitID is: `0x13e37cfd8b7a0e3f59d4b4424894c2a3693ccf0c313905615ae9848a32e2db97`.
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.4 - Rate Limits [Core]  <!-- UUID: d394483b-e739-4346-948b-488fb942a48f -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: a1c1cca8-b6a3-440b-ae26-9393b95d328f -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: b39a0a7f-3e17-4cf3-b96b-a1a16fc8ae13 -->
+
+The outflow rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 9a9ad1a3-ce48-4947-9da1-13dfcd450ee3 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.4.2.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: a274fcdf-dc71-4b78-be4d-e41d1622e076 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
+
+###### A.6.1.1.2.2.6.1.4.2.1.2 - Base - Steakhouse Prime Instant USDC Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: d47ec9c3-b308-453a-989a-7396504f6a99 -->
+
+The documents herein contain the Instance Configuration Document for the Steakhouse Prime Instant USDC Morpho Vault V2 Instance.
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: 7bc64313-cdc1-4877-947e-df6c7c22a28e -->
+
+**`Pending`**
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2 - Parameters [Core]  <!-- UUID: 8a19e28f-444a-4603-8905-0c6b1bfa9155 -->
+
+The documents herein define the parameters of the Steakhouse Prime Instant USDC Morpho Vault V2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 8f4a9995-4963-4d49-8694-725617a2c074 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.1.1 - Network [Core]  <!-- UUID: 1dae9d3c-8010-48d5-9ee4-620f72b345cd -->
+
+Base
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.1.2 - Target Protocol [Core]  <!-- UUID: c9751457-f617-4bc3-bf8a-0fe0ac7d086f -->
+
+Morpho
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.1.3 - Asset Supplied By Grove Liquidity Layer [Core]  <!-- UUID: 3acf8d38-4eae-4ceb-b482-4754d2aafad2 -->
+
+USDC
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.1.4 - Token [Core]  <!-- UUID: fb07802c-ae95-4214-9762-db19fae2b671 -->
+
+steakUSDC
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.2 - Contract Addresses [Core]  <!-- UUID: 9a607af8-7f0a-4686-98c2-f62afc557f51 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.2.1 - Token Address [Core]  <!-- UUID: e85ae1d4-c31d-4eae-a05c-6a1844918cfd -->
+
+`0xbeef0e0834849aCC03f0089F01f4F1Eeb06873C9`
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 889f7585-dcca-4e87-a9ca-bb1308115252 -->
+
+`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: a4d71080-74e8-48dd-ba3f-1810b4ba08c4 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 3269cc14-28bd-405e-8d72-dd22528573cf -->
+
+The inflow RateLimitID is: `0xcc33156879fb03deee37b5ff243fa9afa95b94d13a2ab710f8096c0b5f053f3b`.
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 35e4b715-6409-490c-b42d-c1a24611d452 -->
+
+The outflow RateLimitID is: `0x6cbf2a3469ddd029ba9744291f720dfed49b9d475ef870978c70f12ee6831646`.
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.4 - Rate Limits [Core]  <!-- UUID: 881815fb-a206-4e1a-9852-c701d5ba4e92 -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 0ebb71f7-71c7-4668-9e70-1771e58cec79 -->
+
+The deposit rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: bec9a1fa-aace-47eb-a663-08d1abd70b60 -->
+
+The withdrawal rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.4.3 - Max Exchange Rate [Core]  <!-- UUID: 3b96571e-bd04-44dd-b729-3c59288d80b1 -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 USDC.
+
+- `setMaxExchangeRate(STEAKHOUSE_PRIME_INSTANT_USDC_V2, 1e18, 2e6)`
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 9418d9ac-66d4-41c7-80cc-b0de328ac09c -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.2.2.6.1.4.2.1.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: aac6839f-b2a7-40f6-9fe3-c2366a0aa957 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Grove Liquidity Layer processes.
 
 ##### A.6.1.1.2.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: 0bf496c2-5a2a-4ec3-8354-bc0dea0657c8 -->
 
