@@ -2513,7 +2513,7 @@ The documents herein list the rate limits for the Spark Diamond PAU deployments.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.5.1 - Arbitrum [Core]  <!-- UUID: 377cd36c-d686-4ffb-adfa-1797026d9d7f -->
 
-The documents herein define the rate limits for the Arbitrum Diamond PAU. These values are managed through the Arbitrum PAS Configurator by a registered and accordant cBEAM, within the bounds held in BeamState, as specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain values can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
+The documents herein define the rate limits for the Arbitrum Diamond PAU. These values are managed through the Arbitrum PAS Configurator by a registered and accordant cBEAM, within the bounds held in BeamState, as specified in [A.2.2.10.1.1.1.2.4.2.4.1 - Operator Execution](ebc97af0-11d3-4c66-8a7d-bbd34fc92a9b). The current on-chain values can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
 
 ###### A.6.1.1.1.2.6.1.2.1.1.5.1.1 - Aggregate CCTP Limit [Core]  <!-- UUID: 82ca150f-9b76-4225-9426-18236a155ff2 -->
 
@@ -2684,7 +2684,7 @@ The documents herein define the roles and permissions of the Arbitrum Diamond PA
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.1 - Default Admin Role [Core]  <!-- UUID: cf2088f4-c708-4b07-96f1-c040659a2ac7 -->
 
-The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke roles on both contracts, to exercise Controller and facet admin functions through AccessControls, and to set rate limits on the ALM Rate Limits contract. The Default Admin Role is held on both contracts by the Arbitrum Spark Executor (`0x65d946e533748A998B1f0E430803e39A6388f7a1`) and by the Arbitrum PAS Configurator (`0xd11Dc57F3eF23bb7b3142588a461F68460a7C474`), as specified in [A.2.2.10.1.1.1.2.4.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d).
+The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke roles on both contracts, to exercise Controller and facet admin functions through AccessControls, and to set rate limits on the ALM Rate Limits contract. The Default Admin Role is held on both contracts by the Arbitrum Spark Executor (`0x65d946e533748A998B1f0E430803e39A6388f7a1`) and by the Arbitrum PAS Configurator (`0xd11Dc57F3eF23bb7b3142588a461F68460a7C474`), as specified in [A.2.2.10.1.1.1.2.3.2.5 - Configurator](34423259-8fc5-4761-af8b-734332d2ada5).
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.2 - Controller Role [Core]  <!-- UUID: e4272501-fb7c-4ee2-8b15-6f7263317c8b -->
 

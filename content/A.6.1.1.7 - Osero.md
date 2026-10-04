@@ -1266,7 +1266,7 @@ The address of the ALM Proxy contract is: `0x6d370e359e9cbd0Fd35Bb38fAF705D84238
 
 ###### A.6.1.1.7.2.6.1.2.1.1.1.2.1.2 - Controller Contract [Core]  <!-- UUID: 8e1d584f-6368-493d-a6c5-c5068250b63a -->
 
-The address of the Controller contract is: `0x24169Afb34fAe4D4356BC54Bd80319131e35ca38`. The Controller is the entry point for all allocator operations; it synchronizes integration configurations from the shared Beacon contract specified in [A.2.2.10.1.1.1.2.3.1 - Beacon](5b0627e8-102b-42ea-8d9b-38463591faf9) and dispatches calls to the appropriate Facet contract specified in [A.2.2.10.1.1.1.2.3.2 - Facets](b7c73a0c-456d-4e75-93ac-8eec185ece31).
+The address of the Controller contract is: `0x24169Afb34fAe4D4356BC54Bd80319131e35ca38`. The Controller is the entry point for all allocator operations; it synchronizes integration configurations from the shared Beacon contract specified in [A.2.2.10.1.1.1.2.3.1.1 - Beacon](5b0627e8-102b-42ea-8d9b-38463591faf9) and dispatches calls to the appropriate Facet contract specified in [A.2.2.10.1.1.1.2.3.1.2 - Facets](b7c73a0c-456d-4e75-93ac-8eec185ece31).
 
 ###### A.6.1.1.7.2.6.1.2.1.1.1.2.1.3 - AccessControls Contract [Core]  <!-- UUID: 6694670e-d13c-4466-afde-2830820ac000 -->
 
@@ -1306,7 +1306,7 @@ The LIMIT_USDC_TO_USDS RateLimitID is: `0x87835797fec2ad9575bc1a7035e3c27b8a8b7d
 
 ###### A.6.1.1.7.2.6.1.2.1.1.2.2 - Diamond PAU Rate Limits [Core]  <!-- UUID: 325731dc-5e89-4a8a-9d64-91b203febf48 -->
 
-The documents herein list the controller-wide rate limits for the Osero Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
+The documents herein list the controller-wide rate limits for the Osero Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
 
 ###### A.6.1.1.7.2.6.1.2.1.1.2.2.1 - USDS Mint Maximum [Core]  <!-- UUID: c6456279-0dab-4517-aad9-46d9e8d4aede -->
 
@@ -1448,7 +1448,7 @@ The documents herein define the protocol for routine ongoing management of the O
 
 ###### A.6.1.1.7.2.6.1.2.2.1.1 - Role Hierarchies And Permissions [Core]  <!-- UUID: aae0e1ba-4ed0-4484-9187-3e53f3695ae8 -->
 
-The roles and permissions of the Diamond PAU Instance are the Liquidity Layer roles defined in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550), managed by the AccessControls contract. For the Osero Liquidity Layer, the `DEFAULT_ADMIN_ROLE` is held by the Osero SubProxy, and the `CONTROLLER` role by the Controller contract. The Configurator also holds the `DEFAULT_ADMIN_ROLE` on both the AccessControls contract and the ALM Rate Limits contract, as specified in [A.2.2.10.1.1.1.2.3.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c). The `ALLOCATOR_ROLE` is held by the AdministeredAgent contract, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract](0eed3609-62a2-4c5b-ae5b-4f78212252ee). The Osero Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig](1830fb80-a44b-4aaf-b72c-7c4997cb9486)) and the Core Operator Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig](f48b14c7-6dd1-4d10-b546-a604be45758c)) are registered as its Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55). The Freezer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig](51460bc2-f5fb-4302-912a-ed3e6943aae0)) is registered as a Revoker, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
+The roles and permissions of the Diamond PAU Instance are the Liquidity Layer roles defined in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550), managed by the AccessControls contract. For the Osero Liquidity Layer, the `DEFAULT_ADMIN_ROLE` is held by the Osero SubProxy, and the `CONTROLLER` role by the Controller contract. The Configurator also holds the `DEFAULT_ADMIN_ROLE` on both the AccessControls contract and the ALM Rate Limits contract, as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c). The `ALLOCATOR_ROLE` is held by the AdministeredAgent contract, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract](0eed3609-62a2-4c5b-ae5b-4f78212252ee). The Osero Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig](1830fb80-a44b-4aaf-b72c-7c4997cb9486)) and the Core Operator Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig](f48b14c7-6dd1-4d10-b546-a604be45758c)) are registered as its Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55). The Freezer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig](51460bc2-f5fb-4302-912a-ed3e6943aae0)) is registered as a Revoker, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 14aa9d85-4878-49b9-9cd7-d6a014bdecea -->
 
@@ -1456,19 +1456,19 @@ The Diamond PAU Controller functions for the Osero Liquidity Layer are the share
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2.1 - USDS Facet [Core]  <!-- UUID: 9b35cae7-b629-4bf8-b2d1-472bedebae14 -->
 
-The Osero Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.2.3.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346)) to mint and burn USDS through the allocator vault.
+The Osero Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.2.3.1.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346)) to mint and burn USDS through the allocator vault.
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2.2 - Aave v3 Facet [Core]  <!-- UUID: f983e134-c97d-4e90-94d6-4cad14d0702f -->
 
-The Osero Liquidity Layer uses the Aave v3 Facet ([A.2.2.10.1.1.1.2.3.2.1 - Aave v3 Facet](c9ecd9c2-dd1b-426b-8e52-66a2b1892289)) to deposit into and withdraw from SparkLend USDS.
+The Osero Liquidity Layer uses the Aave v3 Facet ([A.2.2.10.1.1.1.2.3.1.2.1 - Aave v3 Facet](c9ecd9c2-dd1b-426b-8e52-66a2b1892289)) to deposit into and withdraw from SparkLend USDS.
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2.3 - ERC-4626 Facet [Core]  <!-- UUID: ff53173e-9c7a-4a31-baeb-185339d0780e -->
 
-The Osero Liquidity Layer uses the ERC-4626 Facet ([A.2.2.10.1.1.1.2.3.2.7 - ERC-4626 Facet](05f5d939-712b-4204-8f77-4ef5ea598dcc)) to deposit into, withdraw from, and redeem shares of ERC-4626-compliant tokenized vaults.
+The Osero Liquidity Layer uses the ERC-4626 Facet ([A.2.2.10.1.1.1.2.3.1.2.7 - ERC-4626 Facet](05f5d939-712b-4204-8f77-4ef5ea598dcc)) to deposit into, withdraw from, and redeem shares of ERC-4626-compliant tokenized vaults.
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2.4 - PSM Facet [Core]  <!-- UUID: b762ae11-c8fa-465d-a8a0-4909257551dd -->
 
-The Osero Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.2.3.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842)) to swap between USDS and USDC via DAI, through the DAI-USDS migrator and the PSM. These swaps require the ALM Proxy to be whitelisted on the Lite PSM, as specified in [A.6.1.1.7.2.6.1.2.1.1.3.2 - Whitelisting Of ALM Proxy](817fabeb-fcd9-42f4-bcdb-863c67105ccf).
+The Osero Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.2.3.1.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842)) to swap between USDS and USDC via DAI, through the DAI-USDS migrator and the PSM. These swaps require the ALM Proxy to be whitelisted on the Lite PSM, as specified in [A.6.1.1.7.2.6.1.2.1.1.3.2 - Whitelisting Of ALM Proxy](817fabeb-fcd9-42f4-bcdb-863c67105ccf).
 
 ###### A.6.1.1.7.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: a0fca594-a7b9-45fa-9be1-a209d5341029 -->
 
@@ -1724,10 +1724,11 @@ The Allocator role is held by the Gauntlet Allocator address `0x6939A35d32E9bE62
 
 The Sentinel role is held by the Gauntlet Sentinel address `0x6a0dC94d80429dd4B03E8838CE8d6BEE725bE39B` and the Soter Labs Vault Sentinel Multisig `0xf51A112fB2cB63E3CB3eeB7feA8c7c58625868C7`.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.2 - Max Exchange Rate [Core]  <!-- UUID: 5ca0988c-87d9-406e-86ff-2e719429b0a3 -->
+###### A.6.1.1.7.2.6.1.3.1.2.1.4.2 - Maximum Exchange Rate [Core]  <!-- UUID: 5ca0988c-87d9-406e-86ff-2e719429b0a3 -->
 
-Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 2 USDC.
-- `setMaxExchangeRate(OGUSDCP_VAULT, 1e18, 2e6)`
+The maximum exchange rate for this Instance is two (2) USDC per whole vault share, set by calling the `erc4626_setMaxExchangeRate` function on the Diamond PAU Controller, as specified in [A.2.2.10.1.1.1.2.5.2.6.4 - Set Maximum Exchange Rate For ERC-4626 Vault](3cbc5171-858d-4e36-bc81-da1b323052de).
+
+- `erc4626_setMaxExchangeRate(OGUSDCP_VAULT, 1e18, 2e6)`
 
 ##### A.6.1.1.7.2.6.1.4 - Completed Instances [Core]  <!-- UUID: 1292a07b-637f-4b35-adc1-1a9bdeee9566 -->
 
