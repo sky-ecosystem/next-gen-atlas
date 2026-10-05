@@ -759,7 +759,7 @@ The Operator Hot Wallet is a hot wallet used by the stUSDS Keeper, an automated 
 
 ###### A.4.4.1.3.8.4.2.1 - Operator Hot Wallet Address [Core]  <!-- UUID: bc29e096-972c-4bcc-b589-dad148374d33 -->
 
-The address of the Operator Hot Wallet on the Ethereum Mainnet will be specified in a future iteration of the Atlas.
+The address of the Operator Hot Wallet on the Ethereum Mainnet is `0x068F9c8F33E13c18B852877A5D8Ec61504971376`.
 
 ###### A.4.4.1.3.8.4.3 - Operator Update Process [Core]  <!-- UUID: 64d7e377-9870-4563-a073-768bb7d259a4 -->
 
@@ -812,7 +812,7 @@ The stUSDS Keeper reads its meta-parameters from the ValueRegistry, an on-chain 
 The meta-parameters are the inputs the stUSDS Keeper uses to calculate and submit the stUSDS parameters. In the descriptions below, Utilization is the percentage of the USDS in the stUSDS contract that is used to fund borrowing against staked SKY. The meta-parameters are stored under the following keys:
 
 - `STUSDS_OPT_UTIL_WAD` - the target Utilization;
-- `STUSDS_ACCESSIBILITY_REWARD_WAD` - the accessibility reward;
+- `STUSDS_DISTRIBUTION_REWARD_WAD` - the distribution reward;
 - `STUSDS_BASE_SPREAD_WAD` - the fixed base spread;
 - `STUSDS_SPREAD_PCT_WAD` - the share of the SKY Borrow Rate above the base rate that is retained by the stUSDS module;
 - `STUSDS_TIME_DRIFT_SPEED_WAD` - the speed at which the SKY Borrow Rate at the target Utilization drifts over time;
