@@ -5312,7 +5312,7 @@ The documents herein contain exposure details for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.3.4.5.1 - WBTC/RLUSD 86% LLTV Pool [Core]  <!-- UUID: 76161801-e958-402c-9c68-ab3f9e19d85d -->
 
-- Pool ID: `0xa128dddc761075df9a9a60689f3a41a989b245aad506352c509c0c3a76a9ec6b`
+- Pool ID: 0xa128dddc761075df9a9a60689f3a41a989b245aad506352c509c0c3a76a9ec6b
 - Absolute cap: 250 million
 - Relative cap: 10%
 
