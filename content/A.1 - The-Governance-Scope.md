@@ -353,7 +353,7 @@ Core
 
 **Type Overview**:
 
-The Core Type is the basic building block of the Primary Documents. Core Documents flexibly specify the core principles, rules and processes required to fulfil the specifications made by the Immutable Documents with a focus on clarity, practicality and applicability.
+The Core Type is the basic building block of the Primary Documents. Core Documents flexibly specify the core principles, rules and processes required to fulfill the specifications made by the Immutable Documents with a focus on clarity, practicality and applicability.
 
 ##### A.1.2.2.2.7 - The Supporting Root Type [Type Specification]  <!-- UUID: c68d22b2-adf7-4889-9547-ec19e850a1b2 -->
 
@@ -2024,7 +2024,7 @@ To adhere to this commitment, the Core Facilitator must derecognize the AD withi
 
 ### A.1.6.9 - Facilitators Must Err On Side Of Caution [Section]  <!-- UUID: 09efe31d-28ae-47cc-a81e-caf4f669df95 -->
 
-Facilitators are required to err on the side of caution and take action whenever there is any real possibility that the operational security of an Aligned Delegate (AD) is compromised. Facilitators are afforded significant discretion in making judgement calls related to operational security standards for ADs.
+Facilitators are required to err on the side of caution and take action whenever there is any real possibility that the operational security of an Aligned Delegate (AD) is compromised. Facilitators are afforded significant discretion in making judgment calls related to operational security standards for ADs.
 
 Abuse of this power is severe misalignment. Any allegations of this abuse of power must be adjudicated by the Core Facilitator pursuant to the process defined in [A.1.5.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
 
@@ -2066,7 +2066,7 @@ To adhere to this commitment, the Core Facilitator must derecognize the Facilita
 
 ### A.1.7.5 - Facilitators Must Err On Side Of Caution [Section]  <!-- UUID: ac9df70a-d110-42da-805a-abe03b52dcdc -->
 
-The Core Facilitator is required to err on the side of caution and take action whenever there is any real possibility that the operational security of a Facilitator is compromised. The Core Facilitator is afforded significant discretion in making judgement calls related to operational security standards for Facilitators.
+The Core Facilitator is required to err on the side of caution and take action whenever there is any real possibility that the operational security of a Facilitator is compromised. The Core Facilitator is afforded significant discretion in making judgment calls related to operational security standards for Facilitators.
 
 Abuse of this power is severe misalignment. Any allegations of this abuse of power must be adjudicated by Core GovOps pursuant to the process defined in [A.1.5.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
 
@@ -4754,27 +4754,27 @@ The risk opened up by this functionality is malicious action by whitelisted oper
 
 ###### A.1.10.3.2.10.5 - Configurator Bounded External Access Module Exception [Core]  <!-- UUID: ae05e069-0626-45f5-82d2-dbf39a5b2598 -->
 
-A Configurator Bounded External Access Module (cBEAM) is a whitelisted Operator. It can use the Configurator to adjust a Diamond PAU's rate limits or execute enabled controller actions, within the bounds BeamState sets, without waiting for the GSM Pause Delay. See [A.2.2.10.1.1.1.2.4.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d).
+A Configurator Bounded External Access Module (cBEAM) is a whitelisted Operator. It can use a chain's Configurator to adjust a Diamond PAU's rate limits or execute enabled controller actions, within the bounds that chain's BeamState sets, without waiting for the GSM Pause Delay. The Configurator's mechanism is the same on every chain's PAS, as specified in [A.2.2.10.1.1.1.2.4.1.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d).
 
 This functionality allows Diamond PAU parameters to be adjusted more quickly than waiting for an Executive Vote and the GSM Pause Delay.
 
 The risk opened up by this functionality is malicious action by cBEAMs setting rate limits to undesirable values, whether by raising them excessively or lowering them to zero.
 
-This risk is partially mitigated: BeamState's `hop` and `maxChange` parameters bound how far and how often a cBEAM can raise a rate limit; they do not bound decreases, which take effect immediately. The Core Council Multisig can immediately unpair a specific misbehaving cBEAM from its `RateLimits` contract or Controller to stop it from acting, and can separately remove its registration entirely, as specified in [A.2.2.10.1.1.1.2.4.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6). Sky Governance can halt Configurator operations for all cBEAMs at once, through the PASMom contract, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
+This risk is partially mitigated: BeamState's `hop` and `maxChange` parameters bound how far and how often a cBEAM can raise a rate limit; they do not bound decreases, which take effect immediately. The Core Council Multisig can immediately unpair a specific misbehaving cBEAM from its `RateLimits` contract or Controller to stop it from acting, and can separately remove its registration entirely, as specified in [A.2.2.10.1.1.1.2.4.1.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6). Sky Governance can halt Configurator operations for all cBEAMs on Ethereum Mainnet at once, through the PASMom contract, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
 
 ###### A.1.10.3.2.10.6 - Core Council Multisig Exception [Core]  <!-- UUID: fbb0677a-3218-4649-9116-9f3c18e3ef90 -->
 
-The Core Council Multisig can act on BeamState without a separate Executive Vote for each change, as specified in [A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754). Its immediate functions take effect directly, with no delay; its delayed functions take effect only after the Timelock's minimum delay has passed.
+The Core Council Multisig — the same multisig across all chains, as specified in [A.2.2.10.1.1.1.2.4.2.3.1 - Core Council Multisig](5d26be25-bddc-4ede-8fa4-a092c610103e) — can act on a given chain's BeamState without a separate Executive Vote for each change, as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754). Its immediate functions take effect directly, with no delay; its delayed functions take effect only after that chain's Timelock's minimum delay has passed.
 
-This functionality allows the Core Council Multisig to respond to cBEAM misbehavior, and to adjust BeamState's own parameters, more quickly than waiting for a separate Executive Vote.
+This functionality allows the Core Council Multisig to respond to cBEAM misbehavior, and to adjust a chain's BeamState parameters, more quickly than waiting for a separate Executive Vote.
 
 The risk opened up by this functionality is malicious action by the Core Council Multisig itself.
 
-The Core Council Multisig's immediate functions are bounded: they cannot register a new cBEAM, but can re-pair an existing one to a different `RateLimits` contract or Controller, or disable/halt existing PAS (Parallelized Allocation System) functionality.
+The Core Council Multisig's immediate functions are bounded: they cannot register a new cBEAM, but can re-pair an existing one to a different `RateLimits` contract or Controller, or disable/halt existing PAS (Parallelized Allocation System) functionality on that chain.
 
-The Core Council Multisig's delayed functions, once the Timelock is unpaused, are subject to the Timelock's minimum delay, and can be halted by Sky Governance triggering `pause()` through the PASMom contract, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
+The Core Council Multisig's delayed functions, once a given chain's Timelock is unpaused, are subject to that Timelock's minimum delay. On Ethereum Mainnet, Sky Governance can additionally halt them by triggering `pause()` through the PASMom contract, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71); other chains have no PASMom equivalent, so pausing their Timelock instead requires a direct Sky Core Spell.
 
-The PAS launches with the Timelock paused. Until it is unpaused, none of its delayed functions can take effect; they must instead go through an Executive Vote, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4.5 - Transitional Measures](d5240aa5-72c1-4f92-b22c-7a80a35d733c).
+A chain's PAS may launch with its Timelock paused, as a transitional measure specified for that chain's own deployment; until unpaused, none of that chain's delayed functions can take effect, and they must instead go through an Executive Vote, without requiring a prior Governance Poll. For the Ethereum Mainnet PAS, see [A.2.2.10.1.1.1.2.4.1.5 - Transitional Measures](d5240aa5-72c1-4f92-b22c-7a80a35d733c); for the Arbitrum PAS, see [A.2.2.10.1.1.1.2.4.2.5 - Transitional Measures](a819637b-04b7-4e1d-9e91-227a29ed6761).
 
 ##### A.1.10.3.2.11 - Stability Parameter Bounded External Access Module Breaker Exception [Core]  <!-- UUID: 1fd7d164-e9f3-4d6c-ab5e-0122bb415f8d -->
 
@@ -4790,9 +4790,9 @@ This functionality allows Sky Governance to react more quickly in an emergency, 
 
 ##### A.1.10.3.2.13 - PASMom Exception [Core]  <!-- UUID: 2171fb2b-de83-44f2-92bf-26b59a1e8c71 -->
 
-The PASMom contract (`PAS_MOM`) allows Sky Governance to bypass the GSM Pause Delay to halt Configurator operations or pause the Timelock governing changes to the PAS. This is a Sky Governance action taken independently of both the Core Council Multisig and cBEAM; neither can trigger the PASMom contract itself. For PASMom's on-chain relationship to BeamState and the Timelock, see [A.2.2.10.1.1.1.2.4.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8).
+The PASMom contract (`PAS_MOM`) allows Sky Governance to bypass the GSM Pause Delay to halt Configurator operations or pause the Timelock governing changes to the PAS. This is a Sky Governance action taken independently of both the Core Council Multisig and cBEAM; neither can trigger the PASMom contract itself. PASMom is deployed on Ethereum Mainnet only. For PASMom's on-chain relationship to BeamState and the Timelock, see [A.2.2.10.1.1.1.2.4.1.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8).
 
-This functionality allows Sky Governance to react more quickly in an emergency. If a cBEAM is compromised or acting maliciously, Sky Governance can trigger `stop()` through the PASMom contract, preventing all cBEAMs from executing any action through the Configurator; restarting is done via the Core Council Multisig proposing `start()` through the Timelock once it is unpaused, or otherwise via an Executive Vote, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b).
+This functionality allows Sky Governance to react more quickly in an emergency. If a cBEAM is compromised or acting maliciously, Sky Governance can trigger `stop()` through the PASMom contract, preventing all cBEAMs on Ethereum Mainnet from executing any action through the Configurator; restarting is done via the Core Council Multisig proposing `start()` through the Timelock once it is unpaused, or otherwise via an Executive Vote, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4.1.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b).
 
 If the Core Council Multisig is compromised or acting maliciously, Sky Governance can trigger `pause()` through the PASMom contract, preventing the Timelock from scheduling or executing the Core Council Multisig's delayed proposals; reversing this requires an Executive Vote, without requiring a prior Governance Poll.
 
@@ -5379,7 +5379,7 @@ Where housekeeping items are proposed by the Spell teams, the Core Facilitator m
 
 Housekeeping items are defined as maintenance and record-keeping actions necessary to the correct functionality of the Sky Protocol. Housekeeping items do not include actions that modify risk parameters or introduce new elements into the protocol.
 
-Examples of housekeeping items include, but are not limited to, (1) cleaning up technical debt, (2) updating the Chainlog, and (3) cancelling payment streams that are no longer used.
+Examples of housekeeping items include, but are not limited to, (1) cleaning up technical debt, (2) updating the Chainlog, and (3) canceling payment streams that are no longer used.
 
 ###### A.1.11.1.5.1.2 - Process for Adding Housekeeping Item In Executive Vote [Core]  <!-- UUID: 2d165c27-5daf-4a84-af8c-7c36f5de03d2 -->
 
