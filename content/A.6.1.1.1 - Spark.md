@@ -12469,9 +12469,9 @@ The Spark USDS Morpho Vault on Ethereum Mainnet is an approved instance with the
 
 - Instance Name: Spark USDS Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0xe41a0583334f0dc4E023Acd0bFef3667F6FE0597`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Cancellation Authority: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
 ###### A.6.1.1.1.3.9.7.2.2 - Spark Blue Chip USDC Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 603cf96e-5819-4e3d-942e-5290dd000847 -->
 
@@ -12479,9 +12479,9 @@ The Spark Blue Chip USDC Morpho Vault on Ethereum mainnet is an approved instanc
 
 - Instance Name: Spark Blue Chip USDC Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0x56A76b428244a50513ec81e225a293d128fd581D`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Cancellation Authority: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
 ###### A.6.1.1.1.3.9.7.2.3 - Spark Blue Chip USDT Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 5ef1e78f-e1d2-4b09-b00c-618e36ccb2d8 -->
 
@@ -12489,9 +12489,9 @@ The Spark Blue Chip USDT Morpho Vault on Ethereum mainnet is an approved instanc
 
 - Instance Name: Spark Blue Chip USDT Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0xb0c424116172B55CbB6dD3136F5989F7959e5B91`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Cancellation Authority: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
 ###### A.6.1.1.1.3.9.7.2.4 - Spark USDC Morpho Vault - Base [Core]  <!-- UUID: 85722a93-ec30-4e7f-883c-adde12b0ac6b -->
 
@@ -12499,9 +12499,9 @@ The Spark USDC Morpho Vault on Base is an approved instance with the following d
 
 - Instance Name: Spark USDC Morpho Vault (Base)
 - Contract Address: `0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Cancellation Authority: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
 ###### A.6.1.1.1.3.9.7.2.5 - Sentora RLUSD Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 67d8abe9-a398-4c7c-9e0d-ee48e97489e1 -->
 
@@ -12511,7 +12511,7 @@ The Sentora RLUSD Morpho Vault on Ethereum Mainnet is an approved instance with 
 - Contract Address: `0xFC8C624B6080a0a780583799f2A862DE936F6E22`
 - Curator: Soter Labs and Sentora, implemented via a Gnosis Safe multisig at `0xff070333654aaE76A0A77465E4F0fd101C57c03F`, requiring a 2 of 2 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Cancellation Authority: Sentinel role held by the Spark Foundation multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold, together with a Soter Labs multisig at `0xb5bFd4883256089Dc58D962b80ab7068e71E7c80`, requiring a 2 of 3 signer approval threshold, and a Sentora multisig at `0x9e396dE3312D373b87F9BD8763fb48184b42aac0`, requiring a 1 of 1 signer approval threshold
+- Cancellation Authority: Sentinel role held by the Operational GovOps Soter Labs multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold, together with a Soter Labs multisig at `0xb5bFd4883256089Dc58D962b80ab7068e71E7c80`, requiring a 2 of 3 signer approval threshold, and a Sentora multisig at `0x9e396dE3312D373b87F9BD8763fb48184b42aac0`, requiring a 1 of 1 signer approval threshold
 - Allocator: Sentora, at `0x9e396dE3312D373b87F9BD8763fb48184b42aac0` and at `0xC4Ba4e822C420452fe2BAB93211208D3CcBd79D3`
 
 ### A.6.1.1.1.3.10 - Confidential Strategic Integrations and Deployments [Core]  <!-- UUID: 5902deeb-0c4d-4df6-89bb-22212b81e96a -->
