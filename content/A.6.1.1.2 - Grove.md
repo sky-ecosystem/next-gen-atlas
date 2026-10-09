@@ -2142,7 +2142,7 @@ The LIMIT_USDC_TO_USDS RateLimitID is: `0x87835797fec2ad9575bc1a7035e3c27b8a8b7d
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.3 - Diamond PAU Rate Limits [Core]  <!-- UUID: c5d3d2f9-cd88-4b00-a6df-da369c27674f -->
 
-The documents herein list the controller-wide rate limits for the Grove Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
+The documents herein list the controller-wide rate limits for the Grove Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
 
 The limits specified in [A.6.1.1.2.2.6.1.2.1.1.3.3.2 - USDS Burn Maximum](a444f64b-519a-4e52-a538-395c9ee04956) and [A.6.1.1.2.2.6.1.2.1.1.3.3.4 - USDC For USDS Swap Maximum](6ca30d6e-df7f-47f9-93c3-b20bae6762a3) are an exception set to `Unlimited` by a Grove Spell.
 
@@ -2397,7 +2397,7 @@ The documents herein define the roles and permissions of the Diamond PAU Instanc
 
 ###### A.6.1.1.2.2.6.1.2.2.1.1.3.1 - Default Admin Role [Core]  <!-- UUID: 987dc000-4453-4beb-93b3-aad8a4d819fc -->
 
-The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke all other roles of the Diamond PAU on the former, and to set rate limits on the latter. The Default Admin Role is held on both contracts by the Grove Proxy and by the Configurator, as specified in [A.2.2.10.1.1.1.2.3.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
+The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke all other roles of the Diamond PAU on the former, and to set rate limits on the latter. The Default Admin Role is held on both contracts by the Grove Proxy and by the Configurator, as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
 
 ###### A.6.1.1.2.2.6.1.2.2.1.1.3.2 - Controller Role [Core]  <!-- UUID: 1597253b-b936-46f6-98c7-d41d4306d2c5 -->
 
@@ -4569,19 +4569,19 @@ The Diamond PAU Controller functions for the Grove Liquidity Layer are the share
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.2.1 - Basin Facet [Core]  <!-- UUID: 3e54ecce-73fc-4f85-be3c-0c89d3d005d2 -->
 
-The Grove Liquidity Layer uses the Basin Facet ([A.2.2.10.1.1.1.2.3.2.2 - Basin Facet](d9cbf883-119e-403d-8efa-125997cd8897)) to deposit assets into and withdraw them from Basins.
+The Grove Liquidity Layer uses the Basin Facet ([A.2.2.10.1.1.1.2.3.1.2.2 - Basin Facet](d9cbf883-119e-403d-8efa-125997cd8897)) to deposit assets into and withdraw them from Basins.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.2.2 - USDS Facet [Core]  <!-- UUID: bdf5ef63-d436-4ffb-bf37-2c1790d1a68d -->
 
-The Grove Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.2.3.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346)) to mint and burn USDS through the allocator vault.
+The Grove Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.2.3.1.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346)) to mint and burn USDS through the allocator vault.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.2.3 - PSM Facet [Core]  <!-- UUID: 0cf2ffe0-cb0b-4c3c-bd11-349cad3d4c98 -->
 
-The Grove Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.2.3.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842)) to swap between USDS and USDC via DAI, through the DAI-USDS migrator and the PSM. These swaps require the ALM Proxy to be whitelisted on the Lite PSM, as specified in [A.6.1.1.2.2.6.1.2.1.1.4.2 - Whitelisting Of ALM Proxy](6823cc5a-6667-4754-a030-9ac7126b006e).
+The Grove Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.2.3.1.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842)) to swap between USDS and USDC via DAI, through the DAI-USDS migrator and the PSM. These swaps require the ALM Proxy to be whitelisted on the Lite PSM, as specified in [A.6.1.1.2.2.6.1.2.1.1.4.2 - Whitelisting Of ALM Proxy](6823cc5a-6667-4754-a030-9ac7126b006e).
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.2.4 - Uniswap v3 Facet [Core]  <!-- UUID: 5b6d7110-3662-4ee5-a339-43e6bb8e4517 -->
 
-The Grove Liquidity Layer uses the Uniswap v3 Facet ([A.2.2.10.1.1.1.2.3.2.20 - Uniswap v3 Facet](b808a829-2f31-42f1-ac9f-6801d3eb8437)) to add liquidity to, remove liquidity from, and swap through a Uniswap v3 pool.
+The Grove Liquidity Layer uses the Uniswap v3 Facet ([A.2.2.10.1.1.1.2.3.1.2.20 - Uniswap v3 Facet](b808a829-2f31-42f1-ac9f-6801d3eb8437)) to add liquidity to, remove liquidity from, and swap through a Uniswap v3 pool.
 
 ###### A.6.1.1.2.2.6.1.2.2.1.2.3 - Monolithic Foreign Controller Contract Functions [Core]  <!-- UUID: a3d8a2af-90e1-40a8-8573-48a84954ea54 -->
 

@@ -772,7 +772,7 @@ The CRRs for the following market allocations in the vault are:
 
 ###### A.3.2.2.1.1.1.1.3.8.2 - Noncompliant Morpho Vault Allocations [Core]  <!-- UUID: 20aa9663-214b-46f5-8b37-53be387b996b -->
 
-Following the execution of the October 8, 2026 Executive Vote, the Instance Financial CRR for any allocation to a Morpho vault that does not comply with [A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework](915a36c0-754c-41f9-ada1-2fec0816f7b8) is 100%.
+Following the deadline specified in [A.2.2.10.1.1.1.3.5 - Transition And Compliance](41824fb1-a4e0-4f58-9095-0b3e646fb42c), the Instance Financial CRR for any allocation to a Morpho vault that does not comply with [A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework](915a36c0-754c-41f9-ada1-2fec0816f7b8) is 100%.
 
 ###### A.3.2.2.1.1.1.1.3.9 - Uniswap V3 [Core]  <!-- UUID: 200cd606-26e9-427e-b965-976e7140a976 -->
 
@@ -3121,7 +3121,74 @@ The documents herein define capital targets for Sky and processes for achieving 
 
 ##### A.3.5.3.2.1 - Target Aggregate Backstop Capital [Core]  <!-- UUID: f73dda95-0b1c-4bdc-b957-469253d27281 -->
 
-The Target Aggregate Backstop Capital is one and one half percent (1.5%) of the total supply of USDS.
+The Target Aggregate Backstop Capital is one and one half percent (1.5%) of the Circulating USDS Supply, as specified in [A.3.5.3.2.1.1 - Circulating USDS Supply](1b21d050-e42d-4c93-925e-81f099d42028).
+
+###### A.3.5.3.2.1.1 - Circulating USDS Supply [Core]  <!-- UUID: 1b21d050-e42d-4c93-925e-81f099d42028 -->
+
+The Circulating USDS Supply is the total supply of USDS and Dai less the Non-Circulating Balances. Dai is exchangeable for USDS at a rate of 1:1, as specified in [A.4.1.1.1 - USDS Launch](3e00cf4d-8b10-4182-bb3d-08b63bc55aeb), and is counted as USDS.
+
+The total supply of USDS and Dai is the sum of:
+
+1. The total supply of the USDS token on the Ethereum Mainnet;
+2. The total supply of the Dai token on the Ethereum Mainnet; and
+3. Dai deposited in the Dai Savings Rate (see [A.3.1.2.4 - Dai Savings Rate](d220731b-35db-4803-8a74-1c470a5ad693)), which is held as an internal balance of the Sky Protocol rather than as Dai tokens.
+
+Tokens that represent USDS or Dai on other blockchains are not counted separately from the USDS and Dai locked on the Ethereum Mainnet that back them.
+
+Non-Circulating Balances are the following balances, each of which is controlled by the Sky Protocol, Sky Core, or an Agent and has not been placed into circulation with users:
+
+1. Dai minted to the Lite PSM (see [A.3.3.2.7.1.1 - Lite Peg Stability Module](39473e1a-63f8-433b-a850-08f53b2dcf02)) that has not been swapped for collateral;
+2. USDS and Dai held in the SubProxy of an Agent, including Genesis Capital (see [A.3.7.1.6.6 - Genesis Capital](18f3de06-064b-4b08-a855-4720240e37f5));
+3. USDS and Dai held by an Agent in its ALM Proxy on any blockchain, or deployed by an Agent from its ALM Proxy into Peg Stability Modules, Basins, lending protocols, or liquidity pools;
+4. USDS and Dai held in the Core Council Buffer (see [A.2.3.1.2.2.2.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)) and the Aligned Delegates Buffer (see [A.2.3.1.2.2.2.2 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a)); and
+5. sUSDS and stUSDS held in the positions specified in items 2 through 4, each counted as the USDS it represents.
+
+Where an Agent has deployed USDS or Dai into a lending protocol or liquidity pool, the Non-Circulating Balance is the share of the USDS and Dai held by that protocol or pool that is attributable to the Agent's deposit. USDS and Dai that have been borrowed from a lending protocol are in circulation and are not Non-Circulating Balances, regardless of whose deposit funded the loan.
+
+All other USDS and Dai are in circulation, including USDS deposited in the Sky Savings Rate or staked as stUSDS by users, and USDS and Dai bridged to other blockchains.
+
+The positions that hold Non-Circulating Balances are specified in [A.3.5.3.2.1.1.1 - Non-Circulating Balance Positions](cf00c6be-78da-4053-9630-8931318d412e).
+
+For the purpose of calculating the Target Aggregate Backstop Capital, the Circulating USDS Supply is measured at the same time as the Aggregate Backstop Capital with which it is compared.
+
+###### A.3.5.3.2.1.1.1 - Non-Circulating Balance Positions [Active Data Controller]  <!-- UUID: cf00c6be-78da-4053-9630-8931318d412e -->
+
+The positions whose USDS, Dai, sUSDS, and stUSDS balances are Non-Circulating Balances are defined as Active Data in [A.3.5.3.2.1.1.1.0.6.1 - Current Non-Circulating Balance Positions](d72aeeb3-e87d-4743-a870-5d8a6a4726f9).
+
+The Active Data is updated as follows:
+
+- The Responsible Party is the Core Council Risk Advisor.
+- The Update Process must follow the protocol for 'Direct Edit'.
+- A position may be added only if it falls within a category of Non-Circulating Balances specified in [A.3.5.3.2.1.1 - Circulating USDS Supply](1b21d050-e42d-4c93-925e-81f099d42028).
+
+The Core Council Risk Advisor must publish the Circulating USDS Supply and the balance of each position on a publicly available dashboard. The dashboard is located at [https://financial.skyeco.com/usds/supply](https://financial.skyeco.com/usds/supply).
+
+###### A.3.5.3.2.1.1.1.0.6.1 - Current Non-Circulating Balance Positions [Active Data]  <!-- UUID: d72aeeb3-e87d-4743-a870-5d8a6a4726f9 -->
+
+The current Non-Circulating Balance Positions are:
+
+| Holder | Position | Network |
+|---|---|---|
+| Sky Core | Lite PSM Dai balance | Ethereum Mainnet |
+| Sky Core | Core Council Buffer Multisig | Ethereum Mainnet |
+| Sky Core | Aligned Delegates Buffer Multisig | Ethereum Mainnet |
+| Spark | SubProxy | Ethereum Mainnet |
+| Grove | SubProxy | Ethereum Mainnet |
+| Keel | SubProxy | Ethereum Mainnet |
+| Skybase | SubProxy | Ethereum Mainnet |
+| Obex | SubProxy | Ethereum Mainnet |
+| Pattern | SubProxy | Ethereum Mainnet |
+| Osero | SubProxy | Ethereum Mainnet |
+| Launch Agent 7 | SubProxy | Ethereum Mainnet |
+| Core Council Executor Agent 1 | SubProxy | Ethereum Mainnet |
+| Operational Executor Agent Amatsu | SubProxy | Ethereum Mainnet |
+| Operational Executor Agent Ozone | SubProxy | Ethereum Mainnet |
+| Spark | ALM Proxy and positions deployed from it, currently SparkLend supply positions and Uniswap v4 pool positions | Ethereum Mainnet |
+| Spark | ALM Proxy | Arbitrum |
+| Spark | PSM3 reserves | Arbitrum |
+| Spark | PSM3 reserves | Base |
+| Spark | PSM3 reserves | Optimism |
+| Osero | ALM Proxy and positions deployed from it, currently SparkLend supply positions | Ethereum Mainnet |
 
 ##### A.3.5.3.2.2 - Turbo-Fill Floor [Core]  <!-- UUID: db2aaf07-4ebb-4e5d-ae5e-575717d8fbcd -->
 
