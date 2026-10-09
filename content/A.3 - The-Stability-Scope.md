@@ -2926,9 +2926,9 @@ The current Smart Burn Engine parameters are:
 
 - kicker.khump: -200 million USDS (Threshold of Surplus Buffer for Splitter to activate)
 - kicker.kbump: 6,000 USDS
-- splitter.hop: 2,504 seconds
+- splitter.hop: 2,693 seconds
 - burn (the percentage of the kicker.kbump to be moved to the underlying flapper): set as specified in [A.2.3.1.4.1 - Staking Rewards Rate Adjustment](de233df4-34cc-4e88-a065-9a9dde9add3c); the current value can be read by calling `burn()` on the Splitter contract
-- LSEV2-SKY-A USDS rewardsDuration: 2,504 seconds
+- LSEV2-SKY-A USDS rewardsDuration: 2,693 seconds
 
 The rewardsDuration for the LSEV2-SKY-A USDS rewards contract must be set such that it is equal to the splitter.hop parameter.
 
@@ -3571,9 +3571,9 @@ The parameters for the ALLOCATOR-GROVE-A Allocator Vault are:
 - `duty`: set by the SP-BEAM specified in [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
 - `line`: controlled by DC-IAM
 - DC-IAM parameters:
-    - `gap`: 25 million USDS
-    - `line`: 500 million USDS
-    - `ttl`: 12 hours
+    - `gap`: 150 million USDS
+    - `line`: 1.5 billion USDS
+    - `ttl`: 24 hours
 
 ###### A.3.7.1.2.1.4 - ALLOCATOR-NOVA-A Parameters [Core]  <!-- UUID: 08321783-f31a-4a80-8f0c-898afb4d8f9b -->
 
