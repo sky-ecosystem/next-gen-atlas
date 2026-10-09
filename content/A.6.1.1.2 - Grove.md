@@ -8403,7 +8403,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 2100ad73-d516-405f-a65d-5a05af6e6f55 -->
 
-Total exposure through this Instance may not exceed 500,000,000 USDS.
+Total exposure through this Instance may not exceed 1,500,000,000 USDS.
 
 ###### A.6.1.1.2.2.6.1.3.1.14.1.2.5.2 - CRR [Core]  <!-- UUID: ea4b41a7-1ce9-4bf9-bd71-3cfadd9ce8e0 -->
 
