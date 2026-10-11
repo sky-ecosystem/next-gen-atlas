@@ -1736,12 +1736,9 @@ The address of the Grove executor on Avalanche is: `0x4b803781828b76EaBF21AaF02e
 
 The address of the Grove LayerZero v2 governance relay receiver on Avalanche is: `0x380Be2b91B63BF75B194913b6e2C07Df09598c22`
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.1.3.3 - Grove Circle CCTP Governance Relay Receivers [Core]  <!-- UUID: fa8dccc5-6a4d-4e3f-9359-17820060ebc4 -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.3.3 - Grove Circle CCTP v2 Governance Relay Receiver [Core]  <!-- UUID: fa8dccc5-6a4d-4e3f-9359-17820060ebc4 -->
 
-The Grove Circle CCTP governance relay receivers on Avalanche are:
-
-- Circle CCTP v1: `0x26e9512547feC1906C55256e491DfB6673D8C23f`
-- Circle CCTP v2: `0x8Ea8Dff8c29f568eA1E716E2C3AfbD003EB83cfA`
+The address of the Grove Circle CCTP v2 governance relay receiver on Avalanche is: `0x8Ea8Dff8c29f568eA1E716E2C3AfbD003EB83cfA`
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.1.3.4 - Circle CCTP v2 TokenMessenger [Core]  <!-- UUID: 2d54c733-b341-41d3-83f2-d3c2d9b8b16d -->
 
