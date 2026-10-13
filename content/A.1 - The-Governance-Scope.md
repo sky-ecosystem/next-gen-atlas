@@ -353,7 +353,7 @@ Core
 
 **Type Overview**:
 
-The Core Type is the basic building block of the Primary Documents. Core Documents flexibly specify the core principles, rules and processes required to fulfil the specifications made by the Immutable Documents with a focus on clarity, practicality and applicability.
+The Core Type is the basic building block of the Primary Documents. Core Documents flexibly specify the core principles, rules and processes required to fulfill the specifications made by the Immutable Documents with a focus on clarity, practicality and applicability.
 
 ##### A.1.2.2.2.7 - The Supporting Root Type [Type Specification]  <!-- UUID: c68d22b2-adf7-4889-9547-ec19e850a1b2 -->
 
@@ -2024,7 +2024,7 @@ To adhere to this commitment, the Core Facilitator must derecognize the AD withi
 
 ### A.1.6.9 - Facilitators Must Err On Side Of Caution [Section]  <!-- UUID: 09efe31d-28ae-47cc-a81e-caf4f669df95 -->
 
-Facilitators are required to err on the side of caution and take action whenever there is any real possibility that the operational security of an Aligned Delegate (AD) is compromised. Facilitators are afforded significant discretion in making judgement calls related to operational security standards for ADs.
+Facilitators are required to err on the side of caution and take action whenever there is any real possibility that the operational security of an Aligned Delegate (AD) is compromised. Facilitators are afforded significant discretion in making judgment calls related to operational security standards for ADs.
 
 Abuse of this power is severe misalignment. Any allegations of this abuse of power must be adjudicated by the Core Facilitator pursuant to the process defined in [A.1.5.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
 
@@ -2066,7 +2066,7 @@ To adhere to this commitment, the Core Facilitator must derecognize the Facilita
 
 ### A.1.7.5 - Facilitators Must Err On Side Of Caution [Section]  <!-- UUID: ac9df70a-d110-42da-805a-abe03b52dcdc -->
 
-The Core Facilitator is required to err on the side of caution and take action whenever there is any real possibility that the operational security of a Facilitator is compromised. The Core Facilitator is afforded significant discretion in making judgement calls related to operational security standards for Facilitators.
+The Core Facilitator is required to err on the side of caution and take action whenever there is any real possibility that the operational security of a Facilitator is compromised. The Core Facilitator is afforded significant discretion in making judgment calls related to operational security standards for Facilitators.
 
 Abuse of this power is severe misalignment. Any allegations of this abuse of power must be adjudicated by Core GovOps pursuant to the process defined in [A.1.5.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
 
@@ -2832,6 +2832,8 @@ Prior to publication of Forum posts as specified in [A.1.10.2.3.2.2.3.2.2 - Prim
 
 Each proposed Prime Spell action must be included in a Forum post on the Sky Forum. Each Forum post must contain the Technical Scope, as specified in [A.1.10.2.5.2.1 - Technical Scope Template](b9ba6658-87a9-4421-9d20-386df8cea450), the Financial Risk Assessment, and, if relevant, a Technical Risk Assessment.
 
+Each Forum post must be published under the Prime Agent's own category on the Sky Forum. The title of the Forum post must consist of the target Spell date in square brackets, followed by "Proposed Changes to", the Prime Agent's name, and "for Upcoming Spell".
+
 Under the Sky Governance path, the Forum posts must be published by Wednesday, 16:00 UTC of week 1.
 
 Under the Independent Governance path, the Forum posts must be published by end of Friday of week 1.
@@ -2842,7 +2844,7 @@ The items included in the Prime Agent's Forum posts must undergo a financial ris
 
 Under the Sky Governance path, the financial risk assessment is conducted by the [A.1.8.1.1 - Core Council Risk Advisor](d80c8f64-b3f6-430d-bf62-8e50a3783e73). The assessment must be posted on the Forum thread by Thursday, 16:00 UTC of week 1.
 
-Under the Independent Governance path, the financial risk assessment is conducted by an independent risk assessor designated by the Prime Agent.
+Under the Independent Governance path, the financial risk assessment is conducted by an independent risk assessor designated by the Prime Agent. If the Prime Agent has no designated independent risk assessor, the financial risk assessment is conducted by the Core Council Risk Advisor.
 
 ###### A.1.10.2.3.2.2.3.2.4 - Atlas Edit Proposal Drafting And Submission [Core]  <!-- UUID: 0c442b02-f6c9-4bb2-af7f-f73ee31d9b1f -->
 
@@ -2910,7 +2912,7 @@ The execution of Agent Spells is described in the subdocuments herein. Two metho
 
 ###### A.1.10.2.3.2.3.1 - Execution Through StarGuard [Core]  <!-- UUID: 78ec918d-cd9e-4326-bfa9-ab338e658a8b -->
 
-When the execution through the StarGuard method is used, the Agent Spells are whitelisted in Sky Core Spells and later executed using the StarGuard module. The Sky Core Spell includes a whitelist of approved Agent Spells, which allows them to be executed via separate transactions. This enhances resilience and scalability, ensuring robust handling of payloads from multiple active Agents while minimizing risks to Sky Core.
+When the execution through the StarGuard method is used, the Agent Spells are whitelisted in Sky Core Spells and later executed using the StarGuard contract. The Sky Core Spell includes a whitelist of approved Agent Spells, which allows them to be executed via separate transactions. This enhances resilience and scalability, ensuring robust handling of payloads from multiple active Agents while minimizing risks to Sky Core.
 
 ###### A.1.10.2.3.2.3.1.1 - StarGuard [Core]  <!-- UUID: e5cbb61a-82c3-4fce-b6f2-191911d5c155 -->
 
@@ -4439,7 +4441,7 @@ The Deployment Checklist is maintained by Core GovOps. All changes must be submi
 
 ###### A.1.10.2.5.2.3 - Morpho Deployment Verification Guide [Core]  <!-- UUID: 45adb133-13b4-402c-8c2b-2473d78ff72e -->
 
-The Morpho Deployment Verification Guide defines the steps for verifying vault and market deployments made through the Morpho protocol's smart contract factories, covering factory deployment provenance, market and oracle parameters, vault roles, and timelock settings. It is maintained as specified in [A.1.10.2.5.2.3.1 - Morpho Deployment Verification Guide Update Process](5df5c86a-7efa-4c04-afda-dd9f3a21e596).
+The Morpho Deployment Verification Guide defines the steps for verifying vault and market deployments made through the Morpho protocol's smart contract factories, covering factory deployment provenance, market and oracle parameters, vault roles, and timelock settings. The guide is maintained as specified in [A.1.10.2.5.2.3.1 - Morpho Deployment Verification Guide Update Process](5df5c86a-7efa-4c04-afda-dd9f3a21e596). Morpho vaults used by Prime Agents must also comply with [A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework](915a36c0-754c-41f9-ada1-2fec0816f7b8).
 
 ###### A.1.10.2.5.2.3.1 - Morpho Deployment Verification Guide Update Process [Core]  <!-- UUID: 5df5c86a-7efa-4c04-afda-dd9f3a21e596 -->
 
@@ -4704,17 +4706,19 @@ The SPLITTER_MOM contract allows for the disabling of the Smart Burn Engine with
 
 This functionality is available so that Sky Governance can react to emergencies regarding the Smart Burn Engine.
 
-Since the Splitter contract also allocates USDS from the Surplus Buffer to USDS Staking Rewards, the activation of SPLITTER_MOM also disables these rewards until the activation is reversed by Sky Governance.
+Since the Splitter contract also allocates USDS from the Surplus Buffer to USDS Staking Rewards, the activation of SPLITTER_MOM also disables these rewards. To reverse the effect, the `hop` parameter must be reconfigured, either with an Executive Vote which is subject to the GSM Pause Delay, or directly through the SBE-BEAM within its bounds, as specified in [A.3.5.2.4 - Smart Burn Engine Bounded External Access Module](b57ac61b-f6b1-4025-bd44-569d0f2afe2f).
 
 ##### A.1.10.3.2.9 - PSM Breaker Exception [Core]  <!-- UUID: 704fbaff-fa10-4c63-af5b-3ee5fd1ea6a8 -->
 
 The LITE_PSM_MOM contract manages the breaker for swaps through the LitePSM. The PSM Breaker allows a successful governance proposal to halt swaps through the LitePSM.
 
+The PSM Breaker can halt selling, buying, or both, independently. To reverse the effect, the halted parameter or parameters — `tin`, `tout`, or both, depending on which was halted — must be reconfigured with an Executive Vote which is subject to the GSM Pause Delay.
+
 ##### A.1.10.3.2.10 - Bounded External Access Modules [Core]  <!-- UUID: 5533c091-e638-4c3d-92e8-43e3e7026078 -->
 
 Bounded External Access Modules (BEAMs) are contracts that allow whitelisted operators to manage parameters in the Sky Ecosystem without needing to use the standard Executive Vote process. Thus, parameter changes enacted via these modules are not subject to the GSM Pause Delay.
 
-The actions of BEAMs are limited by risk parameters, which are set by Sky Core Governance and require an Executive Vote to change.
+The actions of BEAMs are limited by risk parameters, which are set by Sky Core Governance. Changing these risk parameters typically requires an Executive Vote, unless the BEAM authorizes a standing actor to change them directly.
 
 ###### A.1.10.3.2.10.1 - Bounded External Access Module Risk Disclosure [Core]  <!-- UUID: b2bffec7-2a62-43a1-bfed-1e38370ac086 -->
 
@@ -4748,27 +4752,59 @@ This functionality allows the Sky Protocol to update Smart Burn Engine parameter
 
 The risk opened up by this functionality is malicious action by whitelisted operators setting Smart Burn Engine parameters to undesirable values. This risk can be mitigated through the SBE-BEAM parameters and the SPLITTER_MOM, as specified in [A.1.10.3.2.8 - Smart Burn Engine Breaker Exception](5247c795-7f9d-4d3f-a040-6bc9b070e2d4).
 
+###### A.1.10.3.2.10.5 - Configurator Bounded External Access Module Exception [Core]  <!-- UUID: ae05e069-0626-45f5-82d2-dbf39a5b2598 -->
+
+A Configurator Bounded External Access Module (cBEAM) is a whitelisted Operator. It can use a chain's Configurator to adjust a Diamond PAU's rate limits or execute enabled controller actions, within the bounds that chain's BeamState sets, without waiting for the GSM Pause Delay. The Configurator's mechanism is the same on every chain's PAS, as specified in [A.2.2.10.1.1.1.2.4.1.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d).
+
+This functionality allows Diamond PAU parameters to be adjusted more quickly than waiting for an Executive Vote and the GSM Pause Delay.
+
+The risk opened up by this functionality is malicious action by cBEAMs setting rate limits to undesirable values, whether by raising them excessively or lowering them to zero.
+
+This risk is partially mitigated: BeamState's `hop` and `maxChange` parameters bound how far and how often a cBEAM can raise a rate limit; they do not bound decreases, which take effect immediately. The Core Council Multisig can immediately unpair a specific misbehaving cBEAM from its `RateLimits` contract or Controller to stop it from acting, and can separately remove its registration entirely, as specified in [A.2.2.10.1.1.1.2.4.1.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6). Sky Governance can halt Configurator operations for all cBEAMs on Ethereum Mainnet at once, through the PASMom contract, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
+
+###### A.1.10.3.2.10.6 - Core Council Multisig Exception [Core]  <!-- UUID: fbb0677a-3218-4649-9116-9f3c18e3ef90 -->
+
+The Core Council Multisig — the same multisig across all chains, as specified in [A.2.2.10.1.1.1.2.4.2.3.1 - Core Council Multisig](5d26be25-bddc-4ede-8fa4-a092c610103e) — can act on a given chain's BeamState without a separate Executive Vote for each change, as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754). Its immediate functions take effect directly, with no delay; its delayed functions take effect only after that chain's Timelock's minimum delay has passed.
+
+This functionality allows the Core Council Multisig to respond to cBEAM misbehavior, and to adjust a chain's BeamState parameters, more quickly than waiting for a separate Executive Vote.
+
+The risk opened up by this functionality is malicious action by the Core Council Multisig itself.
+
+The Core Council Multisig's immediate functions are bounded: they cannot register a new cBEAM, but can re-pair an existing one to a different `RateLimits` contract or Controller, or disable/halt existing PAS (Parallelized Allocation System) functionality on that chain.
+
+The Core Council Multisig's delayed functions, once a given chain's Timelock is unpaused, are subject to that Timelock's minimum delay. On Ethereum Mainnet, Sky Governance can additionally halt them by triggering `pause()` through the PASMom contract, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71); other chains have no PASMom equivalent, so pausing their Timelock instead requires a direct Sky Core Spell.
+
+A chain's PAS may launch with its Timelock paused, as a transitional measure specified for that chain's own deployment; until unpaused, none of that chain's delayed functions can take effect, and they must instead go through an Executive Vote, without requiring a prior Governance Poll. For the Ethereum Mainnet PAS, see [A.2.2.10.1.1.1.2.4.1.5 - Transitional Measures](d5240aa5-72c1-4f92-b22c-7a80a35d733c); for the Arbitrum PAS, see [A.2.2.10.1.1.1.2.4.2.5 - Transitional Measures](a819637b-04b7-4e1d-9e91-227a29ed6761).
+
 ##### A.1.10.3.2.11 - Stability Parameter Bounded External Access Module Breaker Exception [Core]  <!-- UUID: 1fd7d164-e9f3-4d6c-ab5e-0122bb415f8d -->
 
 The SPBEAM_MOM contract allows Sky Governance to bypass the GSM Pause Delay and disable the Stability Parameter Bounded External Access Module.
 
-This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the SP-BEAM is hacked or is a malicious actor. Once the SPBEAM_MOM is activated, the SP-BEAM will not be able to change any rates in the system. If the SPBEAM_MOM has been triggered, it will still be possible to modify rates through the usual Executive Vote process, subject to the GSM Pause Delay.
+This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the SP-BEAM is hacked or is a malicious actor. Once the SPBEAM_MOM is activated, the SP-BEAM will not be able to change any rates in the system, though Sky Governance retains the ability to modify rates directly through the usual Executive Vote process. To reverse the effect, the SP-BEAM's `bad` parameter must be reconfigured with an Executive Vote which is subject to the GSM Pause Delay.
 
 ##### A.1.10.3.2.12 - stUSDS Bounded External Access Module Breaker Exception [Core]  <!-- UUID: b9f3824c-31a5-472c-8a53-8166f3eeb7ee -->
 
 The STUSDS_MOM contract allows Sky Governance to bypass the GSM Pause Delay and disable the stUSDS Bounded External Access Module or set the `cap` or `line` stUSDS parameters to zero.
 
-This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the stUSDS BEAM is hacked or is a malicious actor. Once the STUSDS_MOM is activated to disable the stUSDS BEAM, the stUSDS BEAM will not be able to change any stUSDS parameters in the system. If the STUSDS_MOM has been triggered, it will still be possible to modify stUSDS parameters through the usual Executive Vote process, subject to the GSM Pause Delay.
+This functionality allows Sky Governance to react more quickly in an emergency, e.g., if an operator of the stUSDS BEAM is hacked or is a malicious actor. Once the STUSDS_MOM is activated to disable the stUSDS BEAM, the stUSDS BEAM will not be able to change any stUSDS parameters in the system, though Sky Governance retains the ability to modify stUSDS parameters directly through the usual Executive Vote process. Reversing a disabled stUSDS BEAM requires reconfiguring the rate setter's `bad` parameter with an Executive Vote which is subject to the GSM Pause Delay. Reversing a `cap` or `line` set to zero requires reconfiguring both the stUSDS parameter and the rate setter's corresponding `maxCap` or `maxLine` parameter, likewise with an Executive Vote subject to the GSM Pause Delay.
 
-##### A.1.10.3.2.13 - Linear Interpolation Module [Core]  <!-- UUID: 60767684-f67f-4e03-85db-7718af41b827 -->
+##### A.1.10.3.2.13 - PASMom Exception [Core]  <!-- UUID: 2171fb2b-de83-44f2-92bf-26b59a1e8c71 -->
+
+The PASMom contract (`PAS_MOM`) allows Sky Governance to bypass the GSM Pause Delay to halt Configurator operations or pause the Timelock governing changes to the PAS. This is a Sky Governance action taken independently of both the Core Council Multisig and cBEAM; neither can trigger the PASMom contract itself. PASMom is deployed on Ethereum Mainnet only. For PASMom's on-chain relationship to BeamState and the Timelock, see [A.2.2.10.1.1.1.2.4.1.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8).
+
+This functionality allows Sky Governance to react more quickly in an emergency. If a cBEAM is compromised or acting maliciously, Sky Governance can trigger `stop()` through the PASMom contract, preventing all cBEAMs on Ethereum Mainnet from executing any action through the Configurator; restarting is done via the Core Council Multisig proposing `start()` through the Timelock once it is unpaused, or otherwise via an Executive Vote, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4.1.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b).
+
+If the Core Council Multisig is compromised or acting maliciously, Sky Governance can trigger `pause()` through the PASMom contract, preventing the Timelock from scheduling or executing the Core Council Multisig's delayed proposals; reversing this requires an Executive Vote, without requiring a prior Governance Poll.
+
+##### A.1.10.3.2.14 - Linear Interpolation Module [Core]  <!-- UUID: 60767684-f67f-4e03-85db-7718af41b827 -->
 
 The Linear Interpolation Module (`lerp`) is a smart contract tool that allows a governance parameter to be adjusted on a straight-line basis over time, without requiring additional Executive Votes. The Linear Interpolation Module refers to the smart contract logic that enables time-based parameter changes. To deploy individual `lerp` instances, each of which manages the adjustment of a specific parameter over time, the Linear Interpolation Module Factory contract is used. Once authorized through an Executive Vote, the `lerp` may enact parameter changes without being subject to the GSM Pause Delay. The subdocuments herein specify the features of the `lerp` and its authorized use.
 
-###### A.1.10.3.2.13.1 - Linear Interpolation Module Features [Core]  <!-- UUID: c21d4246-8294-4f30-b69d-3d6056247893 -->
+###### A.1.10.3.2.14.1 - Linear Interpolation Module Features [Core]  <!-- UUID: c21d4246-8294-4f30-b69d-3d6056247893 -->
 
 The `lerp` must be activated in an Executive Vote but can thereafter change the value of the designated parameter without additional Executive Votes. Each `lerp` instance is defined in terms of a `start` value, representing the desired starting value, an `end` value, representing the desired ending value, and a `duration` over which the parameter will be adjusted between the starting value and the ending value. Any user can then permissionlessly call `tick` to set the governance parameter to the appropriate value based on the time elapsed.
 
-###### A.1.10.3.2.13.1.1 - Linear Interpolation Module Parameters [Core]  <!-- UUID: ac2fb8ab-4137-4243-8f75-1817f8529a70 -->
+###### A.1.10.3.2.14.1.1 - Linear Interpolation Module Parameters [Core]  <!-- UUID: ac2fb8ab-4137-4243-8f75-1817f8529a70 -->
 
 Each `lerp` instance has the following parameters:
 
@@ -4780,45 +4816,45 @@ Each `lerp` instance has the following parameters:
 - `duration` - How long this `lerp` instance will run for
 - `done` - Indicates whether this given `lerp` instance is completed or not
 
-###### A.1.10.3.2.13.1.2 - Linear Interpolation Module Factory [Core]  <!-- UUID: 59fecdcf-6d2b-4a2d-96bf-af1729fc2bf9 -->
+###### A.1.10.3.2.14.1.2 - Linear Interpolation Module Factory [Core]  <!-- UUID: 59fecdcf-6d2b-4a2d-96bf-af1729fc2bf9 -->
 
 `lerp` instances are created using a factory contract LERP_FAB that contains standard logic for creating those instances and maintains a registry of all active `lerp` instances. The contract may also be used to cancel an existing `lerp` instance through the `remove` function. The factory contract provides a `list` method that lists the addresses of all active `lerp` instances, as well as a `tall` (short for "tick all") method that calls `tick` on all active contracts.
 
-###### A.1.10.3.2.13.2 - Linear Interpolation Module Usage Process Definition [Core]  <!-- UUID: 2de4d031-e079-415e-b982-66a4efa78c05 -->
+###### A.1.10.3.2.14.2 - Linear Interpolation Module Usage Process Definition [Core]  <!-- UUID: 2de4d031-e079-415e-b982-66a4efa78c05 -->
 
 The subdocuments herein define the governance process for using the Linear Interpolation Module.
 
-###### A.1.10.3.2.13.2.1 - Linear Interpolation Module Authorization [Core]  <!-- UUID: 9652bd2c-f51c-42bb-9240-701e9723f574 -->
+###### A.1.10.3.2.14.2.1 - Linear Interpolation Module Authorization [Core]  <!-- UUID: 9652bd2c-f51c-42bb-9240-701e9723f574 -->
 
 The Facilitators responsible for the Scope that governs the parameter to be adjusted by the Linear Interpolation Module, in consultation with the Core Council Risk Advisor, may recommend deploying the Linear Interpolation Module for parameter adjustments.
 
-###### A.1.10.3.2.13.2.1.1 - Linear Interpolation Module Consideration [Core]  <!-- UUID: dd631146-0227-4fe3-87dd-085d0c909879 -->
+###### A.1.10.3.2.14.2.1.1 - Linear Interpolation Module Consideration [Core]  <!-- UUID: dd631146-0227-4fe3-87dd-085d0c909879 -->
 
 The Facilitators must take into consideration the benefits and costs with using the Linear Interpolation Module. A longer `duration` has the benefit of adjusting the parameter more slowly, giving users more time to adjust. However, the drawback of a longer `duration` is that the parameter will not reach its desired `end` value for a longer period of time. When the cost of a parameter not being at its desired value is high, use of the Linear Interpolation Module is not appropriate, and the parameter should be adjusted to its desired value following the required process.
 
-###### A.1.10.3.2.13.2.1.2 - Governance Process For Linear Interpolation Module [Core]  <!-- UUID: 3a075a4b-4071-4993-8210-5a87d13203b2 -->
+###### A.1.10.3.2.14.2.1.2 - Governance Process For Linear Interpolation Module [Core]  <!-- UUID: 3a075a4b-4071-4993-8210-5a87d13203b2 -->
 
 The process to utilize the Linear Interpolation Module to adjust a parameter must follow the same governance process required to modify the designated parameter. If the parameter can be updated directly through an Executive Vote, then utilizing the Linear Interpolation Module to adjust it may also be included directly in an Executive Vote. If modifying the parameter requires a prior Governance Poll, then utilizing the Linear Interpolation Module for that parameter must also be preceded by a Governance Poll.
 
-##### A.1.10.3.2.14 - Ethereum SkyLink Freezer Multisig [Core]  <!-- UUID: b7820ec3-dbe5-43bc-99b9-c7168c53c8fe -->
+##### A.1.10.3.2.15 - Ethereum SkyLink Freezer Multisig [Core]  <!-- UUID: b7820ec3-dbe5-43bc-99b9-c7168c53c8fe -->
 
 The Ethereum SkyLink Freezer Multisig (see [A.4.2.2.1 - Ethereum SkyLink Freezer Multisig](21fa6749-6209-4280-9b5f-b2a73d400421)) can freeze SkyLink bridges deployed in the Sky Ecosystem without the need for inclusion in a Spell through the standard Executive Vote process.
 
 Each action executed by the multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum. Such actions include activating or disabling the freeze function.
 
-##### A.1.10.3.2.15 - Solana SkyLink Freezer Multisig [Core]  <!-- UUID: 82aaec1b-acac-4ed4-8e03-2d8f29ba5ccb -->
+##### A.1.10.3.2.16 - Solana SkyLink Freezer Multisig [Core]  <!-- UUID: 82aaec1b-acac-4ed4-8e03-2d8f29ba5ccb -->
 
 The Solana SkyLink Freezer Multisig (see [A.4.2.2.2.3.1.1 - Solana SkyLink Freezer Multisig](8e618196-257a-49d8-834d-665dba345fcd)) can freeze the Solana SkyLink Bridge without the need for inclusion in a Spell through the standard Executive Vote process.
 
 Each action executed by the multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum. Such actions include activating or disabling the freeze function.
 
-##### A.1.10.3.2.16 - Avalanche SkyLink Freezer Multisig [Core]  <!-- UUID: 57f524b8-292c-496b-a879-2102ce4a81e5 -->
+##### A.1.10.3.2.17 - Avalanche SkyLink Freezer Multisig [Core]  <!-- UUID: 57f524b8-292c-496b-a879-2102ce4a81e5 -->
 
 The Avalanche SkyLink Freezer Multisig (see [A.4.2.2.3.3.1.1 - Avalanche SkyLink Freezer Multisig](0b1162f6-6a30-4a30-b693-68e077093e7c)) can freeze the Avalanche SkyLink Bridge without the need for inclusion in a Spell through the standard Executive Vote process.
 
 Each action executed by the multisig, including any function calls and their parameters, must be reported to the Sky community within a reasonable time frame through a post on the Sky Forum. Such actions include activating or disabling the freeze function.
 
-##### A.1.10.3.2.17 - Plasma SkyLink Freezer Multisig [Core]  <!-- UUID: 93089354-d2eb-4930-a1c7-0ca2f7b60e67 -->
+##### A.1.10.3.2.18 - Plasma SkyLink Freezer Multisig [Core]  <!-- UUID: 93089354-d2eb-4930-a1c7-0ca2f7b60e67 -->
 
 The Plasma SkyLink Freezer Multisig (see [A.4.2.2.4.3.1.1 - Plasma SkyLink Freezer Multisig](f833edaa-9f5f-4445-afcb-a9cfc3620b10)) can freeze the Plasma SkyLink Bridge without the need for inclusion in a Spell through the standard Executive Vote process.
 
@@ -5072,9 +5108,11 @@ The Protego contract can be used to deploy an Emergency Drop Spell. Once authori
 
 ###### A.1.10.5.3.1.1.1 - Deployment Of Emergency Drop Spells [Core]  <!-- UUID: 583c1a98-b63a-42fa-b29e-ce0688dcdaf6 -->
 
-Any user can permissionlessly deploy an Emergency Drop Spell by invoking the `deploy` function on the Protego contract with parameters identifying the planned governance action to be canceled:
+Any user can permissionlessly deploy an Emergency Drop Spell by invoking the `deploy` function on the Protego contract with parameters identifying the planned governance action to be canceled. The function signature is as follows:
 
-`deploy(address _usr, bytes32 _tag, bytes memory _fax, uint256 _eta)(address)`
+```solidity
+function deploy(address _usr, bytes32 _tag, bytes memory _fax, uint256 _eta) public returns (address _spell)
+```
 
 The parameters of the `deploy` function are defined in [A.1.10.5.3.1.3 - Protego Parameters](55195cdc-90c3-4133-a0e4-792444b60ed8).
 
@@ -5088,19 +5126,23 @@ The Protego contract can be granted authority by Sky Governance to allow any use
 
 ###### A.1.10.5.3.1.2.1 - Permissionless Cancellation Of Single Planned Governance Action [Core]  <!-- UUID: e4e3c3d9-939d-43ef-9f7a-64f5d4cfe7d6 -->
 
-If the Protego contract has authority from Sky Governance, any user can permissionlessly invoke the `drop` function to cancel a specified Spell:
+If the Protego contract has authority from Sky Governance, any user can permissionlessly invoke the `drop` function to cancel a specified Spell. The function signature is as follows:
 
-`/// @notice Permissionlessly drop anything that has been planned on the pause.
-drop(address _usr, bytes32 _tag, bytes memory _fax, uint256 _eta)`
+```solidity
+/// @notice Permissionlessly drop anything that has been planned on the pause.
+function drop(address _usr, bytes32 _tag, bytes memory _fax, uint256 _eta) public
+```
 
 The parameters of the `drop` function are defined in [A.1.10.5.3.1.3 - Protego Parameters](55195cdc-90c3-4133-a0e4-792444b60ed8).
 
 ###### A.1.10.5.3.1.2.2 - Permissionless Cancellation Of Multiple Planned Governance Actions [Core]  <!-- UUID: 6022623f-e7cd-4a04-a8ab-e5b61c11a9da -->
 
-If the Protego contract has authority from Sky Governance, any user can permissionlessly invoke the `drop` function to cancel a specified set of Spells:
+If the Protego contract has authority from Sky Governance, any user can permissionlessly invoke the `drop` function to cancel a specified set of Spells. The function signature is as follows:
 
-`/// @notice Drop multiple plans in a single call.
-drop(Plan[] calldata plans)`
+```solidity
+/// @notice Drop multiple plans in a single call.
+function drop(Plan[] calldata _plans) external
+```
 
 The parameter of the `drop` function is defined in [A.1.10.5.3.1.3 - Protego Parameters](55195cdc-90c3-4133-a0e4-792444b60ed8).
 
@@ -5128,11 +5170,12 @@ The `eta` parameter is the expiration time of the scheduled Spell to be canceled
 
 The `plans` parameter is an array of scheduled Spells to be canceled. Each scheduled Spell to be canceled is represented as a `Plan` struct:
 
-`/**
+```solidity
+/**
  * @notice A struct representing a plan.
  * @param usr The address of the scheduled spell.
  * @param tag The tag identifying the address.
- * @param fax The encoded call to be made in \`usr\`.
+ * @param fax The encoded call to be made in `usr`.
  * @param eta The expiration time.
  */
 struct Plan {
@@ -5140,7 +5183,8 @@ struct Plan {
     bytes32 tag;
     bytes fax;
     uint256 eta;
-}`
+}
+```
 
 The parameters of the `Plan` struct are defined in [A.1.10.5.3.1.3 - Protego Parameters](55195cdc-90c3-4133-a0e4-792444b60ed8).
 
@@ -5335,7 +5379,7 @@ Where housekeeping items are proposed by the Spell teams, the Core Facilitator m
 
 Housekeeping items are defined as maintenance and record-keeping actions necessary to the correct functionality of the Sky Protocol. Housekeeping items do not include actions that modify risk parameters or introduce new elements into the protocol.
 
-Examples of housekeeping items include, but are not limited to, (1) cleaning up technical debt, (2) updating the Chainlog, and (3) cancelling payment streams that are no longer used.
+Examples of housekeeping items include, but are not limited to, (1) cleaning up technical debt, (2) updating the Chainlog, and (3) canceling payment streams that are no longer used.
 
 ###### A.1.11.1.5.1.2 - Process for Adding Housekeeping Item In Executive Vote [Core]  <!-- UUID: 2d165c27-5daf-4a84-af8c-7c36f5de03d2 -->
 
@@ -5365,7 +5409,7 @@ Currently, in the transition to Endgame, the Immutable Documents (Articles and S
 
 ##### A.1.11.2.1.2 - Origination Via Forum Post [Core]  <!-- UUID: 2891a392-d5ca-45a5-80ca-ad2afaf5baa1 -->
 
-The Author of an Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "Proposal") must post the Proposal in the Sky Forum in the appropriate category and signal their intent to submit the Proposal to the Weekly Cycle.
+The Author of an Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "Proposal") must post the Proposal in the Sky Forum in the appropriate category and signal their intent to submit the Proposal to the Atlas Edit Weekly Cycle.
 
 ##### A.1.11.2.1.3 - Triggering Requirement [Core]  <!-- UUID: cef09d74-efc6-45cc-a75b-1132dae9e743 -->
 

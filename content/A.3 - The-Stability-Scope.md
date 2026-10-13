@@ -56,7 +56,7 @@ This Section defines the Core Stability Parameters.
 
 #### A.3.1.2.1 - Base Rate [Core]  <!-- UUID: 228f9955-6bba-4252-a101-5529e7a300b9 -->
 
-The Base Rate is the key interest rate in the system. It defines all other rates by various spreads. It is expressed as an annual percentage yield.
+The Base Rate is the key interest rate in the system. It defines all other rates by various spreads. It is expressed as an annual percentage rate as specified in [A.3.1.2.7 - Rate Conventions](154c3b5d-7a87-4dae-85f3-7d26deab9a31).
 
 ##### A.3.1.2.1.0.3.1 - Spreads - Element Annotation [Annotation]  <!-- UUID: e7be875c-fa61-42af-8986-ec22aceab0e8 -->
 
@@ -83,15 +83,17 @@ The Stability Parameter Bounded External Access Module parameters for the Sky Sa
 - `step` - 400 basis points,
 - `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
+These basis-point values are expressed as annual percentage yields, as specified in [A.3.1.2.7 - Rate Conventions](154c3b5d-7a87-4dae-85f3-7d26deab9a31).
+
 ##### A.3.1.2.2.3 - Sky Savings Rate Current Value [Core]  <!-- UUID: aff1868f-66aa-4252-851f-9343567a52eb -->
 
-The current value of the Sky Savings Rate can be obtained by calling the `ssr()` function on the sUSDS contract located on the Ethereum Mainnet at `0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD`.
+The current value of the Sky Savings Rate can be obtained by calling the `ssr()` function on the sUSDS contract located on the Ethereum Mainnet at `0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD`. The value returned is the per-second compounding factor; the Sky Savings Rate is the annual percentage rate, as specified in [A.3.1.2.7 - Rate Conventions](154c3b5d-7a87-4dae-85f3-7d26deab9a31), whose accrual over one (1) year is equivalent to compounding that factor every second.
 
-The `ssr()` function returns a per-second compounding rate in RAY precision (10^27). The equivalent annualized rate, compounded over a 365-day year (31,536,000 seconds), is given by the formula:
+The `ssr()` function returns a per-second compounding rate in RAY precision (10^27). The Sky Savings Rate expressed as an annual percentage rate is given by the formula:
 
-`annualized rate = (ssr() / 1E27)^31536000 - 1`
+`annual percentage rate = 12 * ((ssr() / 1E27)^2628000 - 1)`
 
-The result is a decimal rate (e.g., 0.0365 represents 3.65% per year).
+where 2,628,000 is the number of seconds in one (1) month of a 365-day year. The result is a decimal rate (e.g., 0.0346 represents 3.46% per year); the annual percentage yield equivalent is obtained by the conversion specified in [A.3.1.2.7 - Rate Conventions](154c3b5d-7a87-4dae-85f3-7d26deab9a31).
 
 #### A.3.1.2.3 - Agent Rate [Core]  <!-- UUID: 012c953b-c522-4ea3-939b-3282af4e1d7e -->
 
@@ -144,9 +146,11 @@ The Stability Parameter Bounded External Access Module parameters for the Dai Sa
 - `step` - 400 basis points,
 - `tau` - Globally defined in [A.3.7.1.3.1.4.1 - Tau Current Value](dd9472e5-9796-4aff-a2b1-7a847e008c9b).
 
+These basis-point values are expressed as annual percentage yields, as specified in [A.3.1.2.7 - Rate Conventions](154c3b5d-7a87-4dae-85f3-7d26deab9a31).
+
 #### A.3.1.2.5 - Agent Credit Line Borrow Rate [Core]  <!-- UUID: 6b2b7302-e63b-457e-afeb-daab5ca7a7de -->
 
-The Agent Credit Line Borrow Rate is the annual percentage yield that Agents must pay to Sky Core to receive USDS liquidity into their respective vaults.
+The Agent Credit Line Borrow Rate is the annual percentage rate that Agents must pay to Sky Core to receive USDS liquidity into their respective vaults.
 
 ##### A.3.1.2.5.1 - Relationship To Base Rate [Core]  <!-- UUID: 4659cbf0-78c2-469b-8432-883e5c931dd1 -->
 
@@ -174,9 +178,13 @@ The Sky Spread is a margin Sky retains for facilitating the ecosystem’s financ
 
 #### A.3.1.2.7 - Rate Conventions [Core]  <!-- UUID: 154c3b5d-7a87-4dae-85f3-7d26deab9a31 -->
 
-Unless otherwise specified, all rates defined in the Atlas are expressed as annual percentage yields.
+Unless otherwise specified, all rates defined in the Atlas are expressed as annual percentage rates with a monthly compounding frequency. The annual percentage yield equivalent of a rate is given by the formula:
 
-A spread between two rates defined in the Atlas is the arithmetic difference between their annual percentage yields. Where the Atlas specifies one rate as another rate plus or minus a spread, that spread is added to or subtracted from the annual percentage yield directly, without conversion.
+`annual percentage yield = (1 + annual percentage rate / 12)^12 - 1`
+
+A spread between two rates defined in the Atlas is the arithmetic difference between their annual percentage rates. Where the Atlas specifies one rate as another rate plus or minus a spread, that spread is added to or subtracted from the annual percentage rate directly. A rate specified as an annual percentage yield is first converted to its equivalent annual percentage rate before any such arithmetic is performed.
+
+Rates may be displayed as their annual percentage yield equivalents in user-facing interfaces and communications. Where a rate is implemented by a smart contract that compounds at a different frequency, the technical parameter is set such that the accrual produced by the smart contract over one (1) year equals the accrual of the stated rate. Basis-point rate parameters, and the bounds on them, set through Bounded External Access Modules are expressed as annual percentage yields, matching the conversion enforced by the module contracts. A rate applied through periodic payments that are not added to an accruing balance is applied at the annual percentage rate divided by the number of payment periods in each year.
 
 ### A.3.1.0.3.1 - Methodologies - Element Annotation [Annotation]  <!-- UUID: 2f658a82-a8d2-4bd1-be5c-906e4733400d -->
 
@@ -762,6 +770,10 @@ The CRRs for the following market allocations in the vault are:
 - mF-One / USDC – LLTV: 91.5%
     - CRR = 100%
 
+###### A.3.2.2.1.1.1.1.3.8.2 - Noncompliant Morpho Vault Allocations [Core]  <!-- UUID: 20aa9663-214b-46f5-8b37-53be387b996b -->
+
+Following the deadline specified in [A.2.2.10.1.1.1.3.5 - Transition And Compliance](41824fb1-a4e0-4f58-9095-0b3e646fb42c), the Instance Financial CRR for any allocation to a Morpho vault that does not comply with [A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework](915a36c0-754c-41f9-ada1-2fec0816f7b8) is 100%.
+
 ###### A.3.2.2.1.1.1.1.3.9 - Uniswap V3 [Core]  <!-- UUID: 200cd606-26e9-427e-b965-976e7140a976 -->
 
 Allocation to the AUSD / USDC Uniswap v3 pool via FalconX on Monad has a CRR of 3%. Total combined FalconX allocations must not exceed 100,000,000 USDS.
@@ -778,21 +790,22 @@ An underlying asset of a lending market in which a Prime Agent has invested that
 
 A reference implementation of the calculation of Instance Financial RRC for lending markets is included herein.
 
-`import math
-from collections import defaultdict
-import numpy as np
+```python
+import math
+
 from scipy.stats import norm
 
 # Constants
 RISK_FREE_RATE = 0.04  # SOFR
-TIME_HORIZON = 1       # 1 year
+TIME_HORIZON = 1  # 1 year
+
 
 class FinancialRRCModel:
     def __init__(self):
         # For demo purposes, we hardcode a dummy correlation map
         self.token_correlation_map = {
-            'TOKENA': {'TOKENB': 0.5},
-            'TOKENB': {'TOKENA': 0.5},
+            "TOKENA": {"TOKENB": 0.5},
+            "TOKENB": {"TOKENA": 0.5},
         }
 
     def _calculate_effective_volatility(self, list_1, list_2):
@@ -805,8 +818,9 @@ class FinancialRRCModel:
                 if sym1 == sym2:
                     corr = 1.0
                 else:
-                    corr = self.token_correlation_map.get(sym1, {}).get(sym2,
-                           self.token_correlation_map.get(sym2, {}).get(sym1, 0.0))
+                    corr = self.token_correlation_map.get(sym1, {}).get(
+                        sym2, self.token_correlation_map.get(sym2, {}).get(sym1, 0.0)
+                    )
                 effective_variance += (
                     pos1["share"]
                     * pos2["share"]
@@ -840,16 +854,21 @@ class FinancialRRCModel:
         corr_cd = cov_cd / (vol_coll * vol_debt) if vol_coll * vol_debt > 0 else 0.0
 
         # 3) drift terms
-        eff_coll_rate = sum(p["share"] * p["supply_apy_30d"]
-                            for p in wallet_data["collateral_positions"].values())
-        eff_borrow_rate = sum(p["share"] * p["borrow_apy_30d"]
-                              for p in wallet_data["debt_positions"].values())
-        eff_stake_rate = sum(p["share"] * p["staking_apy_30d"]
-                             for p in wallet_data["collateral_positions"].values())
+        eff_coll_rate = sum(
+            p["share"] * p["supply_apy_30d"]
+            for p in wallet_data["collateral_positions"].values()
+        )
+        eff_borrow_rate = sum(
+            p["share"] * p["borrow_apy_30d"]
+            for p in wallet_data["debt_positions"].values()
+        )
+        eff_stake_rate = sum(
+            p["share"] * p["staking_apy_30d"]
+            for p in wallet_data["collateral_positions"].values()
+        )
 
         drift_cd = (
-            eff_coll_rate + eff_stake_rate - eff_borrow_rate
-            + (var_debt - var_coll) / 2
+            eff_coll_rate + eff_stake_rate - eff_borrow_rate + (var_debt - var_coll) / 2
         )
 
         vol_cd = math.sqrt(
@@ -863,22 +882,21 @@ class FinancialRRCModel:
         log_term = math.log(L / D) if L > 0 and D > 0 else float("-inf")
         denom = vol_cd * math.sqrt(TIME_HORIZON) if vol_cd > 0 else 1e-10
 
-        d1 = (log_term + (drift_cd - vol_cd**2/2) * TIME_HORIZON) / denom
-        d2 = (log_term - (drift_cd - vol_cd**2/2) * TIME_HORIZON) / denom
+        d1 = (log_term + (drift_cd - vol_cd**2 / 2) * TIME_HORIZON) / denom
+        d2 = (log_term - (drift_cd - vol_cd**2 / 2) * TIME_HORIZON) / denom
 
         # 5) Probability of Default
         try:
-            pd = (
-                norm.cdf(-d1)
-                + norm.cdf(-d2) * (L / D) ** (-2 * a)
-            )
+            pd = norm.cdf(-d1) + norm.cdf(-d2) * (L / D) ** (-2 * a)
         except OverflowError:
             pd = 1.0
         pd = max(0.0, min(pd, 1.0))
 
         # 6) Loss Given Default
         recovery = sum(
-            p["share"] * (1 - p["liquidation_penalty"]) * (1 - p["slippage"])
+            p["share"]
+            * (1 - p["liquidation_penalty"])
+            * (1 - p["slippage"])
             / p["liquidation_threshold"]
             for p in wallet_data["collateral_positions"].values()
         )
@@ -886,14 +904,17 @@ class FinancialRRCModel:
 
         # 7) Exposure at Default
         ead = sum(
-            debt["debt_usd"] * math.exp((RISK_FREE_RATE + debt["borrow_apy_30d"]) * TIME_HORIZON)
+            debt["debt_usd"]
+            * math.exp((RISK_FREE_RATE + debt["borrow_apy_30d"]) * TIME_HORIZON)
             for debt in wallet_data["debt_positions"].values()
         )
 
         # 8) Asset Correlation Coefficient
         a_acc, b_acc, c_acc = 0.13, 10, 0.33
         exp_term = math.exp(-b_acc * pd)
-        acc = a_acc * (1 - exp_term)/(1-math.exp(-b_acc)) + c_acc*(1 - (1-exp_term)/(1-math.exp(-b_acc)))
+        acc = a_acc * (1 - exp_term) / (1 - math.exp(-b_acc)) + c_acc * (
+            1 - (1 - exp_term) / (1 - math.exp(-b_acc))
+        )
 
         # 9) Credit risk weight
         default_threshold = (
@@ -904,6 +925,7 @@ class FinancialRRCModel:
         # 10) RRC
         rrc = credit_risk * ead
         return rrc
+
 
 # -------- DEMO USAGE --------
 
@@ -935,13 +957,13 @@ if __name__ == "__main__":
                 "share": 0.7,
                 "volatility_30d": 0.2,
                 "borrow_apy_30d": 0.06,
-                "debt_usd":  100_000,
+                "debt_usd": 100_000,
             },
             "TOKENB": {
                 "share": 0.3,
                 "volatility_30d": 0.25,
                 "borrow_apy_30d": 0.07,
-                "debt_usd":  50_000,
+                "debt_usd": 50_000,
             },
         },
         "collateral_usd_lt": 200_000,
@@ -952,7 +974,7 @@ if __name__ == "__main__":
     model = FinancialRRCModel()
     rrc = model._estimate_rrc_for_position(wallet_data)
     print(f"Estimated Required Risk Capital (RRC): ${rrc:,.2f}")
-`
+```
 
 ###### A.3.2.2.1.1.1.2 - Perpetual Positions [Core]  <!-- UUID: 69fac7fa-6168-4b74-99cc-28b557826556 -->
 
@@ -1871,12 +1893,11 @@ The parameters of this function are defined in [A.3.2.2.1.2.3.3.2.1 - Variable D
 
 The document herein contains a reference implementation of the calculation of Instance Smart Contract RRC based on the Smart Contract Risk Rating.
 
-`import numpy as np
-import matplotlib.pyplot as plt
-
+```python
 # ------------------------------------------------------------------
 # Function Definition
 # ------------------------------------------------------------------
+
 
 def piecewise_coverage(x, x_start, x_kink, x_max):
     """
@@ -1908,9 +1929,11 @@ def piecewise_coverage(x, x_start, x_kink, x_max):
         # coverage goes 0.25 -> 1.0
         return 0.25 + (0.75 * frac)
 
+
 # ------------------------------------------------------------------
 # Thresholds
 # ------------------------------------------------------------------
+
 
 def f1_thresholds_low_risk(rating):
     """
@@ -1918,10 +1941,11 @@ def f1_thresholds_low_risk(rating):
     in % terms, e.g. 5%, 23.75%, 30%, etc.
     """
     x_start = (50 - rating) * 0.01  # e.g. rating=0 -> 0.5 (50%)
-    x_max   = x_start + 0.50       # always a 50% gap to max
+    x_max = x_start + 0.50  # always a 50% gap to max
     # kink is 75% of the way from start to max
-    x_kink  = x_start + 0.75 * (x_max - x_start)
+    x_kink = x_start + 0.75 * (x_max - x_start)
     return (x_start, x_kink, x_max)
+
 
 def f2_thresholds_high_risk(rating):
     """
@@ -1934,9 +1958,11 @@ def f2_thresholds_high_risk(rating):
     x_kink = x_start + 0.75 * (x_max - x_start)  # 75% of the way
     return (x_start, x_kink, x_max)
 
+
 # ------------------------------------------------------------------
 # RRC Calculation
 # ------------------------------------------------------------------
+
 
 def calculate_rrc_coverage(
     rating,
@@ -1944,17 +1970,21 @@ def calculate_rrc_coverage(
     exposure_total,
     liquid_surplus_internal,
     total_exposure_beyond_surplus,
-    total_collateral
+    total_collateral,
 ):
     """
     Returns the coverage fraction (0 - 1) for a given rating & scenario.
     For the absolute coverage amount, multiply coverage_fraction
-    by \`exposure_internal\`.
+    by `exposure_internal`.
     """
 
     # 1) Compute the two driver ratios
-    f1 = max(0.0, total_exposure_beyond_surplus / total_collateral) # Ensuring it is non-negative when surplus > exposure
-    f2 = (exposure_internal + 0.1 * (exposure_total - exposure_internal)) / liquid_surplus_internal
+    f1 = max(
+        0.0, total_exposure_beyond_surplus / total_collateral
+    )  # Ensuring it is non-negative when surplus > exposure
+    f2 = (
+        exposure_internal + 0.1 * (exposure_total - exposure_internal)
+    ) / liquid_surplus_internal
 
     # 2) Determine which category the rating is in
     if rating <= 25:
@@ -1987,7 +2017,7 @@ def calculate_rrc_coverage(
             return 1.0
 
     return coverage_fraction
-`
+```
 
 ###### A.3.2.2.1.2.4 - Exceptions [Core]  <!-- UUID: 3de7a183-3871-49e0-89b0-1363db621dc0 -->
 
@@ -2896,11 +2926,9 @@ The current Smart Burn Engine parameters are:
 
 - kicker.khump: -200 million USDS (Threshold of Surplus Buffer for Splitter to activate)
 - kicker.kbump: 6,000 USDS
-- splitter.hop: 13,787 seconds
-- 100% of Splitter allocation is set to accumulate SKY
-- 0% of Splitter allocation is set to reward SKY stakers
-- burn (the percentage of the kicker.kbump to be moved to the underlying flapper): 100% (WAD * 1)
-- LSEV2-SKY-A USDS rewardsDuration: 13,787 seconds
+- splitter.hop: 2,693 seconds
+- burn (the percentage of the kicker.kbump to be moved to the underlying flapper): set as specified in [A.2.3.1.4.1 - Staking Rewards Rate Adjustment](de233df4-34cc-4e88-a065-9a9dde9add3c); the current value can be read by calling `burn()` on the Splitter contract
+- LSEV2-SKY-A USDS rewardsDuration: 2,693 seconds
 
 The rewardsDuration for the LSEV2-SKY-A USDS rewards contract must be set such that it is equal to the splitter.hop parameter.
 
@@ -2954,11 +2982,11 @@ The current value of the kbump parameter is specified in [A.3.5.2 - Smart Burn E
 
 ##### A.3.5.2.2.2 - Deployment [Core]  <!-- UUID: 0803e6b5-5755-431c-9ef0-999115f6f897 -->
 
-The activation of the Kicker Module will be executed in the October 30, 2025 Executive Vote. This action is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+The Kicker Module was activated in the October 30, 2025 Executive Vote. This action was authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
 #### A.3.5.2.3 - Modification [Core]  <!-- UUID: 499570de-9fae-4009-be34-c3330266030a -->
 
-The Core Facilitator, in consultation with the Core Council Risk Advisor, can modify the `kbump` and `hop` parameters of the Smart Burn Engine. Such a modification can be enacted either by proposing it for inclusion in an Executive Vote pursuant to the Operational Weekly Cycle, without requiring a prior Governance Poll, or by executing it directly through the SBE-BEAM within its bounds, as specified in [A.3.5.2.4 - Smart Burn Engine Bounded External Access Module](b57ac61b-f6b1-4025-bd44-569d0f2afe2f). LSEV2-SKY-A-USDS rewardsDuration should always match the value of the `hop` parameter without requiring prior governance authorization.
+The Core Facilitator, in consultation with the Core Council Risk Advisor, can modify the `kbump`, `hop`, and `burn` parameters of the Smart Burn Engine. Such a modification can be enacted either by proposing it for inclusion in an Executive Vote pursuant to the Operational Weekly Cycle, without requiring a prior Governance Poll, or by executing it directly through the SBE-BEAM within its bounds, as specified in [A.3.5.2.4 - Smart Burn Engine Bounded External Access Module](b57ac61b-f6b1-4025-bd44-569d0f2afe2f). LSEV2-SKY-A-USDS rewardsDuration should always match the value of the `hop` parameter without requiring prior governance authorization.
 
 The Core Facilitator must modify all parameters of the Smart Burn Engine as necessary to implement the allocation specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121). Such a modification can be enacted either by proposing it for inclusion in an Executive Vote pursuant to the Operational Weekly Cycle, without requiring a prior Governance Poll, or by executing it directly through the SBE-BEAM within its bounds.
 
@@ -3093,7 +3121,74 @@ The documents herein define capital targets for Sky and processes for achieving 
 
 ##### A.3.5.3.2.1 - Target Aggregate Backstop Capital [Core]  <!-- UUID: f73dda95-0b1c-4bdc-b957-469253d27281 -->
 
-The Target Aggregate Backstop Capital is one and one half percent (1.5%) of the total supply of USDS.
+The Target Aggregate Backstop Capital is one and one half percent (1.5%) of the Circulating USDS Supply, as specified in [A.3.5.3.2.1.1 - Circulating USDS Supply](1b21d050-e42d-4c93-925e-81f099d42028).
+
+###### A.3.5.3.2.1.1 - Circulating USDS Supply [Core]  <!-- UUID: 1b21d050-e42d-4c93-925e-81f099d42028 -->
+
+The Circulating USDS Supply is the total supply of USDS and Dai less the Non-Circulating Balances. Dai is exchangeable for USDS at a rate of 1:1, as specified in [A.4.1.1.1 - USDS Launch](3e00cf4d-8b10-4182-bb3d-08b63bc55aeb), and is counted as USDS.
+
+The total supply of USDS and Dai is the sum of:
+
+1. The total supply of the USDS token on the Ethereum Mainnet;
+2. The total supply of the Dai token on the Ethereum Mainnet; and
+3. Dai deposited in the Dai Savings Rate (see [A.3.1.2.4 - Dai Savings Rate](d220731b-35db-4803-8a74-1c470a5ad693)), which is held as an internal balance of the Sky Protocol rather than as Dai tokens.
+
+Tokens that represent USDS or Dai on other blockchains are not counted separately from the USDS and Dai locked on the Ethereum Mainnet that back them.
+
+Non-Circulating Balances are the following balances, each of which is controlled by the Sky Protocol, Sky Core, or an Agent and has not been placed into circulation with users:
+
+1. Dai minted to the Lite PSM (see [A.3.3.2.7.1.1 - Lite Peg Stability Module](39473e1a-63f8-433b-a850-08f53b2dcf02)) that has not been swapped for collateral;
+2. USDS and Dai held in the SubProxy of an Agent, including Genesis Capital (see [A.3.7.1.6.6 - Genesis Capital](18f3de06-064b-4b08-a855-4720240e37f5));
+3. USDS and Dai held by an Agent in its ALM Proxy on any blockchain, or deployed by an Agent from its ALM Proxy into Peg Stability Modules, Basins, lending protocols, or liquidity pools;
+4. USDS and Dai held in the Core Council Buffer (see [A.2.3.1.2.2.2.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7)) and the Aligned Delegates Buffer (see [A.2.3.1.2.2.2.2 - Aligned Delegates Buffer](05fa5c41-26ca-4c25-94dd-834ef72c318a)); and
+5. sUSDS and stUSDS held in the positions specified in items 2 through 4, each counted as the USDS it represents.
+
+Where an Agent has deployed USDS or Dai into a lending protocol or liquidity pool, the Non-Circulating Balance is the share of the USDS and Dai held by that protocol or pool that is attributable to the Agent's deposit. USDS and Dai that have been borrowed from a lending protocol are in circulation and are not Non-Circulating Balances, regardless of whose deposit funded the loan.
+
+All other USDS and Dai are in circulation, including USDS deposited in the Sky Savings Rate or staked as stUSDS by users, and USDS and Dai bridged to other blockchains.
+
+The positions that hold Non-Circulating Balances are specified in [A.3.5.3.2.1.1.1 - Non-Circulating Balance Positions](cf00c6be-78da-4053-9630-8931318d412e).
+
+For the purpose of calculating the Target Aggregate Backstop Capital, the Circulating USDS Supply is measured at the same time as the Aggregate Backstop Capital with which it is compared.
+
+###### A.3.5.3.2.1.1.1 - Non-Circulating Balance Positions [Active Data Controller]  <!-- UUID: cf00c6be-78da-4053-9630-8931318d412e -->
+
+The positions whose USDS, Dai, sUSDS, and stUSDS balances are Non-Circulating Balances are defined as Active Data in [A.3.5.3.2.1.1.1.0.6.1 - Current Non-Circulating Balance Positions](d72aeeb3-e87d-4743-a870-5d8a6a4726f9).
+
+The Active Data is updated as follows:
+
+- The Responsible Party is the Core Council Risk Advisor.
+- The Update Process must follow the protocol for 'Direct Edit'.
+- A position may be added only if it falls within a category of Non-Circulating Balances specified in [A.3.5.3.2.1.1 - Circulating USDS Supply](1b21d050-e42d-4c93-925e-81f099d42028).
+
+The Core Council Risk Advisor must publish the Circulating USDS Supply and the balance of each position on a publicly available dashboard. The dashboard is located at [https://financial.skyeco.com/usds/supply](https://financial.skyeco.com/usds/supply).
+
+###### A.3.5.3.2.1.1.1.0.6.1 - Current Non-Circulating Balance Positions [Active Data]  <!-- UUID: d72aeeb3-e87d-4743-a870-5d8a6a4726f9 -->
+
+The current Non-Circulating Balance Positions are:
+
+| Holder | Position | Network |
+|---|---|---|
+| Sky Core | Lite PSM Dai balance | Ethereum Mainnet |
+| Sky Core | Core Council Buffer Multisig | Ethereum Mainnet |
+| Sky Core | Aligned Delegates Buffer Multisig | Ethereum Mainnet |
+| Spark | SubProxy | Ethereum Mainnet |
+| Grove | SubProxy | Ethereum Mainnet |
+| Keel | SubProxy | Ethereum Mainnet |
+| Skybase | SubProxy | Ethereum Mainnet |
+| Obex | SubProxy | Ethereum Mainnet |
+| Pattern | SubProxy | Ethereum Mainnet |
+| Osero | SubProxy | Ethereum Mainnet |
+| Launch Agent 7 | SubProxy | Ethereum Mainnet |
+| Core Council Executor Agent 1 | SubProxy | Ethereum Mainnet |
+| Operational Executor Agent Amatsu | SubProxy | Ethereum Mainnet |
+| Operational Executor Agent Ozone | SubProxy | Ethereum Mainnet |
+| Spark | ALM Proxy and positions deployed from it, currently SparkLend supply positions and Uniswap v4 pool positions | Ethereum Mainnet |
+| Spark | ALM Proxy | Arbitrum |
+| Spark | PSM3 reserves | Arbitrum |
+| Spark | PSM3 reserves | Base |
+| Spark | PSM3 reserves | Optimism |
+| Osero | ALM Proxy and positions deployed from it, currently SparkLend supply positions | Ethereum Mainnet |
 
 ##### A.3.5.3.2.2 - Turbo-Fill Floor [Core]  <!-- UUID: db2aaf07-4ebb-4e5d-ae5e-575717d8fbcd -->
 
@@ -3476,8 +3571,8 @@ The parameters for the ALLOCATOR-GROVE-A Allocator Vault are:
 - `duty`: set by the SP-BEAM specified in [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
 - `line`: controlled by DC-IAM
 - DC-IAM parameters:
-    - `gap`: 1 million USDS
-    - `line`: 5 million USDS
+    - `gap`: 150 million USDS
+    - `line`: 1.5 billion USDS
     - `ttl`: 24 hours
 
 ###### A.3.7.1.2.1.4 - ALLOCATOR-NOVA-A Parameters [Core]  <!-- UUID: 08321783-f31a-4a80-8f0c-898afb4d8f9b -->
@@ -3516,8 +3611,8 @@ The parameters for the Osero Allocator Vault are:
 - `duty`: set by the SP-BEAM specified in [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
 - `line`: controlled by DC-IAM
 - DC-IAM parameters:
-    - `gap`: 1 million USDS
-    - `line`: 5 million USDS
+    - `gap`: 15 million USDS
+    - `line`: 100 million USDS
     - `ttl`: 24 hours
 
 ###### A.3.7.1.2.1.8 - ALLOCATOR-INTERVAL-A Parameters [Core]  <!-- UUID: cdbdd083-cb1c-4958-9cf0-18a088535c9d -->
@@ -3541,7 +3636,7 @@ The Stability Parameter Bounded External Access Module (SP-BEAM) enables designa
 
 ##### A.3.7.1.3.1 - Definitions [Core]  <!-- UUID: b113ca06-9a25-4abf-81f1-53f419ffe2d2 -->
 
-The documents herein define the parameters of the Stability Parameter Bounded External Access Module.
+The documents herein define the parameters of the Stability Parameter Bounded External Access Module. The basis-point values of the `min`, `max`, and `step` parameters are expressed as annual percentage yields, as specified in [A.3.1.2.7 - Rate Conventions](154c3b5d-7a87-4dae-85f3-7d26deab9a31).
 
 ###### A.3.7.1.3.1.1 - Min Definition [Core]  <!-- UUID: 1896350c-5f87-4be5-b32f-f1114dc2c271 -->
 

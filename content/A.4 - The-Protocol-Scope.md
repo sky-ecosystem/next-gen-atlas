@@ -20,6 +20,10 @@ Sky has agreed to compensate Gnosis for the difference between the Sky Savings R
 
 The amount of this payment is 1,806,670 USDS and the recipient address on the Ethereum Mainnet is `0x849d52316331967b6ff1198e5e32a0eb168d039d`. This payment should be included in the next available Executive Vote as determined by the Core Facilitator and is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
 
+###### A.4.1.1.1.1.1 - Transfer Of USDS To Gnosis [Core]  <!-- UUID: 418d496b-2e2e-4ee2-b37a-8178de5d656c -->
+
+The payment authorized in this document was made from the Surplus Buffer to the recipient address in one (1) transfer of 1,806,670 USDS, included in the November 27, 2025 Executive Vote.
+
 ### A.4.1.2 - SKY [Section]  <!-- UUID: 8e505278-67d9-4c89-afe4-992d5d846fb8 -->
 
 SKY is the governance token of the Sky Protocol. It grants voting rights in the Sky Governance system. Its liquidity is boosted by the Smart Burn Engine, as governed by the Stability Scope.
@@ -32,13 +36,17 @@ Historically, MKR was the governance token of the Sky Protocol. As part of the t
 
 **MKR holders have voted to approve the deprecation of MKR as the governance token of the Sky Protocol with full knowledge of the changes being proposed. See **[**https://vote.makerdao.com/polling/QmcZNZg3**](https://vote.makerdao.com/polling/QmcZNZg3)**. This deprecation includes all actions defined in **[**A.4.1.2.1 - MKR To SKY Upgrade**](6bb8b5b2-a2a8-4728-bddb-28bf054de9b6)**, including, but not limited to, the removal of voting rights from MKR and the Delayed Upgrade Penalty**.
 
-###### A.4.1.2.1.1.1 - MKR To SKY Conversion Contract [Core]  <!-- UUID: 0a26f6d0-1b50-4015-b094-499724796f9e -->
+##### A.4.1.2.1.2 - MKR To SKY Conversion Contract [Core]  <!-- UUID: 0a26f6d0-1b50-4015-b094-499724796f9e -->
 
-The MKR to SKY conversion contract MKR_SKY allows users to upgrade from MKR to SKY at a conversion rate of 1 MKR to 24,000 SKY, subject to the Delayed Upgrade Penalty specified in [A.4.1.2.1.1.1.1 - MKR To SKY Upgrade Penalty](ec820ddb-5d12-43d8-81b7-a7602a70332a).
+The MKR to SKY conversion contract MKR_SKY allows users to upgrade from MKR to SKY at a conversion rate of 1 MKR to 24,000 SKY, subject to the Delayed Upgrade Penalty specified in [A.4.1.2.1.3 - MKR To SKY Upgrade Penalty](ec820ddb-5d12-43d8-81b7-a7602a70332a).
 
-###### A.4.1.2.1.1.1.1 - MKR To SKY Upgrade Penalty [Core]  <!-- UUID: ec820ddb-5d12-43d8-81b7-a7602a70332a -->
+##### A.4.1.2.1.3 - MKR To SKY Upgrade Penalty [Core]  <!-- UUID: ec820ddb-5d12-43d8-81b7-a7602a70332a -->
 
-In the September 18, 2025 Executive Vote, the Delayed Upgrade Penalty for the MKR to SKY conversion contract was set to 1%. The Delayed Upgrade Penalty will be increased gradually at the rate of 1 percentage point per 3 months thereafter.
+In the September 18, 2025 Executive Vote, the Delayed Upgrade Penalty for the MKR to SKY conversion contract was set to 1%. The Delayed Upgrade Penalty is increased via an Executive Vote by one (1) percentage point every three (3) months thereafter.
+
+###### A.4.1.2.1.3.1 - Current Value [Core]  <!-- UUID: 2b209018-e632-47a4-bc1b-11c5d101c952 -->
+
+The current value of the Delayed Upgrade Penalty can be read from the MKR to SKY conversion contract MKR_SKY, as specified in [A.4.1.2.1.2 - MKR To SKY Conversion Contract](0a26f6d0-1b50-4015-b094-499724796f9e), located on the Ethereum Mainnet at `0xA1Ea1bA18E88C381C724a75F23a130420C403f9a`, by calling the `fee` function [https://etherscan.io/address/0xA1Ea1bA18E88C381C724a75F23a130420C403f9a#readContract#F1](https://etherscan.io/address/0xA1Ea1bA18E88C381C724a75F23a130420C403f9a#readContract#F1).
 
 #### A.4.1.2.2 - Deflationary Tokenomics [Core]  <!-- UUID: c72ca16f-14d1-4aca-978e-ba9efe6d80bc -->
 
@@ -231,7 +239,7 @@ The Avalanche SkyLink Bridge consists of a Token Bridge that allows bridging USD
 
 ##### A.4.2.2.3.2 - Deployment [Core]  <!-- UUID: 1c0d2cf1-dc44-4b7f-b709-61fcc5c1612c -->
 
-The Avalanche SkyLink Bridge will be deployed in the April 9, 2026 Executive Vote. The timing may be modified by the Core Facilitator in consultation with relevant Ecosystem Actors.
+The Avalanche SkyLink Bridge was deployed in the April 9, 2026 Executive Vote.
 
 ##### A.4.2.2.3.3 - Security Parameters [Core]  <!-- UUID: 413852e0-23b8-4630-a8a1-de0d9018c482 -->
 
@@ -463,7 +471,7 @@ SKY stakers can unstake their staked SKY at any time without penalty, provided t
 
 #### A.4.4.1.2 - SKY Staking Rewards [Core]  <!-- UUID: a98a1bfe-5713-43f5-a8bd-83c5808900b8 -->
 
-The documents herein define the SKY Staking Rewards. SKY stakers may choose between receiving USDS, SKY, or Agent Token rewards.
+The documents herein define the SKY Staking Rewards. SKY stakers may choose between receiving USDS or SKY rewards. Agent Token rewards may also be made available as specified in [A.4.5 - Distribution Of Agent Tokens](e2f1f01f-3303-41c3-b337-f09eb41ba6be).
 
 ##### A.4.4.1.2.1 - Sources Of Rewards [Core]  <!-- UUID: e1c77a6a-5b94-4d40-a205-43c703a780e2 -->
 
@@ -471,11 +479,99 @@ SKY stakers are eligible to receive rewards sourced from the Sky Treasury Manage
 
 ###### A.4.4.1.2.1.1 - Treasury Management Function-Derived Rewards [Core]  <!-- UUID: 6cacdc1c-bdfa-4f68-bdb4-bf31943dcfba -->
 
-USDS rewards and SKY rewards for SKY stakers are funded from the Staking Rewards allocation of the Sky Treasury Management Function (see [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0)) and distributed continuously, pro-rata based on the SKY stake of eligible wallets. Distribution parameters are updated at each Monthly Settlement Cycle.
+USDS rewards and SKY rewards for SKY stakers are funded from the Staking Rewards allocation of the Sky Treasury Management Function (see [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0)) and distributed continuously, pro-rata based on the SKY stake of eligible wallets. Distribution parameters are adjusted as specified in [A.2.3.1.4.1 - Staking Rewards Rate Adjustment](de233df4-34cc-4e88-a065-9a9dde9add3c). SKY rewards are funded as specified in [A.4.4.1.2.2.4 - Source Of SKY Rewards](349a350c-c9b7-4232-a83f-2fb49b91fc74) and distributed, at the vesting rate set as specified in [A.2.3.1.4.1 - Staking Rewards Rate Adjustment](de233df4-34cc-4e88-a065-9a9dde9add3c), through the implementation specified in [A.4.4.1.2.2 - SKY Rewards Implementation](ca151bc7-87fc-4749-9776-ea4308817e81).
 
 ###### A.4.4.1.2.1.2 - Agent Token Distribution Rewards [Core]  <!-- UUID: 6aa85298-4f1c-4dc5-a973-99bc1e5293d1 -->
 
-SKY stakers are eligible to receive Agent Token rewards as specified in [A.4.5 - Distribution Of Agent Tokens](e2f1f01f-3303-41c3-b337-f09eb41ba6be). Agent Tokens are distributed continuously, pro‑rata by staked SKY, among wallets that have opted to receive a specific Agent Token. Distribution parameters are updated at each Monthly Settlement Cycle.
+SKY stakers may be eligible to receive Agent Token rewards as specified in [A.4.5 - Distribution Of Agent Tokens](e2f1f01f-3303-41c3-b337-f09eb41ba6be). When available, Agent Tokens are distributed continuously, pro‑rata by staked SKY, among wallets that have opted to receive a specific Agent Token. Distribution parameters are updated at each Monthly Settlement Cycle.
+
+##### A.4.4.1.2.2 - SKY Rewards Implementation [Core]  <!-- UUID: ca151bc7-87fc-4749-9776-ea4308817e81 -->
+
+The documents herein specify the implementation and funding of SKY rewards for SKY stakers through the Staking Rewards contract, Rewards Distribution contract, and Vesting Stream contract.
+
+###### A.4.4.1.2.2.1 - Staking Rewards Contract [Core]  <!-- UUID: cf65f0d8-ae2f-45df-80bd-1014ce66509d -->
+
+The Staking Rewards contract is the user facing contract that allows SKY stakers to stake their SKY to receive SKY rewards. It maintains the balance of staked SKY receiving SKY rewards for each user and the associated accumulated rewards balance.
+
+###### A.4.4.1.2.2.1.1 - Staking Rewards Contract Address [Core]  <!-- UUID: b4989cd9-f45e-4747-8861-fac4175624cc -->
+
+The address of the Staking Rewards contract on the Ethereum Mainnet is `0xB44C2Fb4181D7Cb06bdFf34A46FdFe4a259B40Fc`.
+
+###### A.4.4.1.2.2.1.2 - Staking Rewards Contract Parameters [Core]  <!-- UUID: 2bfed9a4-9d7f-4544-b331-5e196a13a108 -->
+
+The parameters of the Staking Rewards contract are specified in the documents herein.
+
+###### A.4.4.1.2.2.1.2.1 - Owner [Core]  <!-- UUID: 3db49535-c663-425d-81b9-3ffa6e2e722d -->
+
+The `owner` of the Staking Rewards contract is the contract that has the ability to control administrative functions for the Staking Rewards contract. The value of the `owner` parameter is the `MCD_PAUSE_PROXY`.
+
+###### A.4.4.1.2.2.1.2.2 - Rewards Distribution Contract Address [Core]  <!-- UUID: 12b11af8-08d6-4b42-a323-cac0a60e78d3 -->
+
+The Rewards Distribution contract address `rewardsDistribution` is the address of the Rewards Distribution contract associated with the Staking Rewards contract. The value of the `rewardsDistribution` parameter is the address of the Rewards Distribution contract specified in [A.4.4.1.2.2.2.1 - Rewards Distribution Contract Address](fdebe206-2f58-4056-8adf-c42dffb47026).
+
+###### A.4.4.1.2.2.1.2.3 - Rewards Token [Core]  <!-- UUID: 9c3bd61a-25ee-43bc-8c93-89142dce6b49 -->
+
+The Rewards Token `rewardsToken` is the token that users receive as rewards. The value of the `rewardsToken` parameter is `SKY`, representing SKY Tokens.
+
+###### A.4.4.1.2.2.1.2.4 - Staking Token [Core]  <!-- UUID: 7e88d6b2-a76b-4aae-a045-bc0eb44d9657 -->
+
+The Staking Token `stakingToken` is the token that users stake to earn rewards. The value of the `stakingToken` parameter is `LSSKY`, representing staked SKY Tokens.
+
+###### A.4.4.1.2.2.2 - Rewards Distribution Contract [Core]  <!-- UUID: 1317764a-d07f-40de-8ff7-f43a3337ca19 -->
+
+The Rewards Distribution contract is the contract that handles the regular transfer of reward tokens from the Vesting Stream contract to the Staking Rewards contract for distribution to end users.
+
+###### A.4.4.1.2.2.2.1 - Rewards Distribution Contract Address [Core]  <!-- UUID: fdebe206-2f58-4056-8adf-c42dffb47026 -->
+
+The address of the Rewards Distribution contract on the Ethereum Mainnet is `0x675671A8756dDb69F7254AFB030865388Ef699Ee`.
+
+###### A.4.4.1.2.2.2.2 - Rewards Distribution Contract Parameters [Core]  <!-- UUID: c13efebc-94fe-408f-93a7-5ee5badb109f -->
+
+The parameters of the Rewards Distribution contract are specified in the documents herein.
+
+###### A.4.4.1.2.2.2.2.1 - Staking Rewards Contract Address [Core]  <!-- UUID: dd30a514-3abb-4e2b-8cc3-03ef2fbf7834 -->
+
+The Staking Rewards contract address `stakingRewards` is the address of the Staking Rewards contract associated with the Rewards Distribution contract. The value of the `stakingRewards` parameter is the address of the Staking Rewards contract specified in [A.4.4.1.2.2.1.1 - Staking Rewards Contract Address](b4989cd9-f45e-4747-8861-fac4175624cc).
+
+###### A.4.4.1.2.2.2.2.2 - Vesting Stream Contract Address [Core]  <!-- UUID: 5348e6c1-13f4-4e5c-8d75-83239ad999ea -->
+
+The Vesting Stream contract address `dssVest` is the address of the Vesting Stream contract associated with the Rewards Distribution contract. The value of the `dssVest` parameter is the address of the Vesting Stream contract specified in [A.4.4.1.2.2.3.1 - Vesting Stream](89155294-6652-481f-938f-a562d5b40e65).
+
+###### A.4.4.1.2.2.3 - Vesting Stream Contract [Core]  <!-- UUID: 21a8978d-10a5-4151-b99a-ca8115fe0a6d -->
+
+The Vesting Stream contract manages various vesting streams that vest SKY Tokens from the Protocol Treasury. One of these vesting streams regularly vests SKY Tokens to the Staking Rewards contract.
+
+###### A.4.4.1.2.2.3.1 - Vesting Stream [Core]  <!-- UUID: 89155294-6652-481f-938f-a562d5b40e65 -->
+
+The address of the Vesting Stream contract is the address corresponding to the `MCD_VEST_SKY_TREASURY` key in the Chainlog.
+
+###### A.4.4.1.2.2.3.2 - Vesting Stream Contract Parameters [Core]  <!-- UUID: 148e2c86-0f30-49c1-923c-9b32f92aa40f -->
+
+The parameters of the vesting stream managed by the Vesting Stream contract that vests SKY Tokens to the Staking Rewards contract are specified in the documents herein.
+
+###### A.4.4.1.2.2.3.2.1 - Vesting Duration [Core]  <!-- UUID: 9cad1b65-5dea-4510-a1cd-c47eddb66309 -->
+
+The Vesting Duration `vestTau` is the total duration over which the Vesting Total number of tokens are to be vested linearly.
+
+###### A.4.4.1.2.2.3.2.2 - Vesting Total [Core]  <!-- UUID: 8bc59b3a-5bf4-4e2c-a793-b51a4ff58ef6 -->
+
+The Vesting Total `vestTot` is the number of rewards tokens to be vested in total over the Vesting Duration.
+
+###### A.4.4.1.2.2.3.3 - Vesting Stream Parameter Modification [Core]  <!-- UUID: 7da0cd7a-238f-400f-89a7-a419ed25ce37 -->
+
+The Core Facilitator, in consultation with the Core Council Risk Advisor, may modify the parameters of the vesting stream to achieve the target reward rate as specified in [A.2.3.1.4.1 - Staking Rewards Rate Adjustment](de233df4-34cc-4e88-a065-9a9dde9add3c). Such modifications can be effected directly via an Executive Vote, without a prior Governance Poll.
+
+###### A.4.4.1.2.2.4 - Source Of SKY Rewards [Core]  <!-- UUID: 349a350c-c9b7-4232-a83f-2fb49b91fc74 -->
+
+SKY rewards distributed through the Vesting Stream contract are funded by SKY acquired through Smart Burn Engine buybacks attributable to the SKY Staking Rewards share specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121). The `vestTot` and `vestTau` parameters are set accordingly.
+
+###### A.4.4.1.2.2.4.1 - Authorization Of Transfer By Sky Frontier Foundation [Core]  <!-- UUID: 2789177b-5bc7-486f-8aab-75ea16e21035 -->
+
+Sky Governance hereby confirms that the transfer of 500,000,000 SKY tokens to initially fund SKY rewards for SKY stakers is consistent with the terms of the grant to the Sky Frontier Foundation. See [A.2.13.1 - Ecosystem Entity Grants](5d5759e4-8077-4af5-9a1a-eaeab5088dd7).
+
+##### A.4.4.1.2.3 - USDS Rewards Implementation [Core]  <!-- UUID: 75784a6a-c6e2-4f74-a92c-dd1ac4f8f124 -->
+
+USDS rewards for SKY stakers are distributed through the USDS rewards contract at the address corresponding to the `REWARDS_LSSKY_USDS` key in the Chainlog. The contract is funded directly by the Splitter Module from the share of Step 3 Capital allocated to USDS Staking Rewards, as specified in [A.2.3.1.4 - Implementation](f67a5780-11d5-4014-8254-795080c77133). Its `rewardsDuration` parameter is maintained equal to the Splitter Module's `hop` parameter as specified in [A.3.5.2 - Smart Burn Engine Parameters](ddb90fee-2851-4bf0-b924-f1d73e30ce7a).
 
 #### A.4.4.1.3 - SKY-Backed Borrowing [Core]  <!-- UUID: 264b1787-cd75-4d28-9c14-c7d5a724eba7 -->
 
@@ -487,202 +583,9 @@ stUSDS is a yield-bearing token representing USDS deposited into the stUSDS cont
 
 ##### A.4.4.1.3.2 - stUSDS Rate [Core]  <!-- UUID: 7e51d5a7-0707-4fba-999b-a1becd5f0192 -->
 
-The variable yield earned by stUSDS holders is calculated using the formula:
+The stUSDS Rate (`str`) is the variable yield earned by stUSDS holders. The stUSDS Rate is the rate in effect as set by Sky Governance. Sky Governance may set the stUSDS Rate directly through an Executive Vote, or through the stUSDS BEAM Operators, which act on behalf of Sky Governance (see [A.4.4.1.3.8.4 - Operators](8fd15f15-c8cd-480d-86b7-cad524cfa9f1)).
 
-`stUSDS Rate = Sky Savings Rate + (SKY Borrow Rate - SKY Borrow Minimum Rate) * Utilization - Rfactor * f(Utilization)`
-
-###### A.4.4.1.3.2.1 - Parameters Definition [Core]  <!-- UUID: b9a9d09d-57c5-42cd-994f-f5689996f635 -->
-
-The parameters of the stUSDS Rate formula are further defined in the documents herein.
-
-###### A.4.4.1.3.2.1.1 - Sky Savings Rate Definition [Core]  <!-- UUID: 5878457b-4ff8-4621-bf8e-abd52f02ec6a -->
-
-`Sky Savings Rate` is the Sky Savings Rate defined in [A.3.1.2.2 - Sky Savings Rate](2674cccb-d779-4868-b83f-8cb86648c88a).
-
-###### A.4.4.1.3.2.1.2 - SKY Borrow Rate Definition [Core]  <!-- UUID: 78cab555-534d-4e7e-989c-d22d90d02d9e -->
-
-`SKY Borrow Rate` is the SKY Borrow Rate defined in [A.4.4.1.3.5 - SKY Borrow Rate](5e546766-a0c0-4744-9ca9-5509db14bc30).
-
-###### A.4.4.1.3.2.1.3 - SKY Borrow Minimum Rate Definition [Core]  <!-- UUID: 2126d7ac-b0e2-46f2-95e8-b9973e09a630 -->
-
-`SKY Borrow Minimum Rate` is the SKY Borrow Minimum Rate defined in [A.4.4.1.3.5.2 - SKY Borrow Minimum Rate](6e329dd6-eda5-43ce-9899-b3a03ede8d0b).
-
-###### A.4.4.1.3.2.1.4 - Utilization Definition [Core]  <!-- UUID: 337c4f67-685f-42bd-8237-553ed913b89f -->
-
-`Utilization` is the percent of funds in the stUSDS contract that are used to fund borrowing against staked SKY.
-
-###### A.4.4.1.3.2.1.4.1 - Utilization Calculation [Core]  <!-- UUID: 4af5cfaf-30b3-41b9-bb22-3253218c62d0 -->
-
-The `Utilization` is calculated as a time-weighted utilization over a one (1) day interval.
-
-###### A.4.4.1.3.2.1.4.1.1 - Time-Weighted Utilization [Core]  <!-- UUID: 33303813-37b7-4aa2-a8e0-3c779c0ed600 -->
-
-The documents herein define the process to calculate time-weighted utilization.
-
-###### A.4.4.1.3.2.1.4.1.1.1 - Determine Start And End Times [Core]  <!-- UUID: 0110848f-719f-47e7-8f5a-219d6b3e4ee5 -->
-
-First, the start time $T_{0}$ and end time $T_{n}$ of the interval, over which time-weighted utilization are to be calculated, are selected.
-
-###### A.4.4.1.3.2.1.4.1.1.2 - Collect Borrow And Supply Events [Core]  <!-- UUID: e196d2f1-fb65-4e31-b511-5ed9ebbaa164 -->
-
-Data is then collected on all supply and borrow events, sorted by time, where:
-
-- $t_{i}$ is the timestamp of event $i$;
-- $B_{i}$ is the total amount borrowed at time $t_{i}$;
-- $S_{i}$ is the total amount supplied at time $t_{i}$; and
-- $U_{i}$ is the utilization at time $t_{i}$, $\frac{B_{i}}{S_{i}}$.
-
-###### A.4.4.1.3.2.1.4.1.1.3 - Insert Synthetic Events [Core]  <!-- UUID: 9242854f-4b5b-4ca0-9fd4-ca0a4f7dc516 -->
-
-If $t_{0}$ is greater than $T_{0}$ then a synthetic event is inserted at $T_{0}$ with values $B_{0}$ and $S_{0}$. Similarly, if $t_{n}$ is less than $T_{n}$ then a synthetic event is inserted at $T_{n}$ with values $B_{n}$ and $S_{n}$.
-
-###### A.4.4.1.3.2.1.4.1.1.4 - Calculate Time-Weighted Utilization [Core]  <!-- UUID: 08735694-ee69-4315-8ba6-6d08760bdb1c -->
-
-Finally, the time-weighted utilization is calculated using the following formula:
-
-$$\text{Util}_{\mathrm{avg}} = \frac{\sum_{i=0}^{n-1} U_i \cdot (t_{i+1} - t_i)}{T_n - T_0}$$
-
-###### A.4.4.1.3.2.1.4.1.1.5 - Reference Implementation [Core]  <!-- UUID: 53ed66f4-d010-4370-b83b-e36a185f12ad -->
-
-A reference implementation of the time-weighted utilization formula is included herein. The reference implementation uses sample data and a 30 day interval for illustrative purposes.
-
-`# Your list of real events: (timestamp, total_borrowed, total_supply)
-events = [
-(datetime(2025, 7, 25, 10), 100_000, 200_000),
-(datetime(2025, 7, 25, 16), 120_000, 210_000),
-(datetime(2025, 7, 26, 8), 130_000, 220_000),
-(datetime(2025, 7, 27, 12), 110_000, 215_000),
-(datetime(2025, 7, 28, 9), 140_000, 225_000),
-]
-
-# Ensure events are sorted
-events.sort()
-
-# Get time window
-now = datetime.utcnow()
-start_time = now - timedelta(days=30)
-
-# Add synthetic first event (30d ago) using earliest known borrow/supply
-first_real_ts, first_borrow, first_supply = events[0]
-if first_real_ts > start_time:
-events.insert(0, (start_time, first_borrow, first_supply))
-
-# Add synthetic final event (now) using most recent known borrow/supply
-last_real_ts, last_borrow, last_supply = events[-1]
-if last_real_ts < now:
-events.append((now, last_borrow, last_supply))
-
-# Step 1: Compute utilization per event
-utilizations = []
-for ts, borrow, supply in events:
-utilization = borrow / supply if supply != 0 else 0
-utilizations.append((ts, utilization))
-
-# Step 2: Compute time-weighted utilization average
-weighted_sum = 0
-total_time = 0
-
-for i in range(len(utilizations) - 1):
-ts1, util1 = utilizations[i]
-ts2, _ = utilizations[i + 1]
-
-time_diff = (ts2 - ts1).total_seconds()
-weighted_sum += util1 * time_diff
-total_time += time_diff
-
-avg_utilization = weighted_sum / total_time if total_time > 0 else 0
-
-print(f"30-day time-weighted average utilization: {avg_utilization:.2%}")`
-
-###### A.4.4.1.3.2.1.5 - Rfactor Definition [Core]  <!-- UUID: 6300d908-4ed3-4174-95a5-d9d43864a5a6 -->
-
-`Rfactor` is calculated using the formula:
-
-$$
-Rfactor = \frac{2u_m - 1}{2u_m \left( u_{opt}(\alpha + 1) - 1 + \frac{\beta u_{opt}}{slope1} \right)}
-$$
-
-The parameters of this formula are specified in the documents herein.
-
-###### A.4.4.1.3.2.1.5.1 - Maximum Profit Utilization Definition [Core]  <!-- UUID: be7b6a5a-cd25-4822-a20a-e17c0d1176de -->
-
-$u_{m}$ is the maximum profit utilization.
-
-###### A.4.4.1.3.2.1.5.1.1 - Maximum Profit Utilization Current Value [Core]  <!-- UUID: 846452c4-509d-42b0-8e8c-e426bbcc4ce0 -->
-
-The current value of $u_{m}$ is 70%.
-
-###### A.4.4.1.3.2.1.5.2 - Target Utilization Definition [Core]  <!-- UUID: 1481bf21-dc05-4fea-a929-9741ea903206 -->
-
-$u_{opt}$ is the target utilization specified in [A.4.4.1.3.5.1 - Rate Setting Mechanism](5ad3e32c-9b5c-431a-bc20-e236194b65e8).
-
-###### A.4.4.1.3.2.1.5.3 - Alpha Definition [Core]  <!-- UUID: e9cfb75d-2d5b-448e-a3e1-784326a94ac4 -->
-
-$\alpha$ is calculated using the formula:
-
-`alpha = ((SKY Borrow Maximum Rate - SKY Borrow Minimum Rate) / Slope 1) - 1`
-
-The parameters of this formula are specified in the documents herein.
-
-###### A.4.4.1.3.2.1.5.3.1 - SKY Borrow Maximum Rate Definition [Core]  <!-- UUID: eb77a744-db25-40b0-b51c-dd3187941cc5 -->
-
-`SKY Borrow Maximum Rate` is the maximum value of the SKY Borrow Rate at 100% Utilization.
-
-###### A.4.4.1.3.2.1.5.3.1.1 - SKY Borrow Maximum Rate Current Value [Core]  <!-- UUID: 609ca82c-d3c8-4ad9-bc14-d601dace4e40 -->
-
-The current value of the `SKY Borrow Maximum Rate` is 30%.
-
-###### A.4.4.1.3.2.1.5.3.2 - SKY Borrow Minimum Rate Definition [Core]  <!-- UUID: b0831a3c-b37b-4daa-838a-74a32a0cbe76 -->
-
-`SKY Borrow Minimum Rate` is the SKY Borrow Minimum Rate specified in [A.4.4.1.3.5.2 - SKY Borrow Minimum Rate](6e329dd6-eda5-43ce-9899-b3a03ede8d0b).
-
-###### A.4.4.1.3.2.1.5.3.3 - Slope 1 Definition [Core]  <!-- UUID: f9ad84ee-2e98-4d74-b61a-efd25e8d17b8 -->
-
-`Slope 1` is the Slope 1 parameter specified in [A.4.4.1.3.5.1.1.4 - Slope 1](f22da959-a76e-477a-a87b-a32c429d2ec0).
-
-###### A.4.4.1.3.2.1.5.4 - Beta Definition [Core]  <!-- UUID: 182418ba-47ad-416b-a5fe-440ac92511ec -->
-
-$\beta$ is a tuning parameter that determines how much profit is made at maximum utilization.
-
-###### A.4.4.1.3.2.1.5.4.1 - Beta Current Value [Core]  <!-- UUID: 47c60bd6-c75f-4772-a5f6-18b8054eeb9f -->
-
-The current value of $\beta$ is 100%.
-
-###### A.4.4.1.3.2.1.5.5 - Slope 1 Definition [Core]  <!-- UUID: 837aa41f-d5d2-4482-a33f-7538a6431e7f -->
-
-$slope1$ is the Slope 1 parameter specified in [A.4.4.1.3.5.1.1.4 - Slope 1](f22da959-a76e-477a-a87b-a32c429d2ec0).
-
-###### A.4.4.1.3.2.1.6 - Utilization Function Definition [Core]  <!-- UUID: 4088de4a-8e43-4988-94ca-43908a225047 -->
-
-`f(Utilization)` is calculated using the formula:
-
-`f(Utilization) = Utilization * ((SKY Borrow Maximum Rate - SKY Borrow Minimum Rate + Beta) * Utilization + SKY Borrow Minimum Rate - SKY Borrow Rate)`
-
-The parameters of this formula are specified in the documents herein.
-
-###### A.4.4.1.3.2.1.6.1 - Utilization Definition [Core]  <!-- UUID: 8ff2ac6c-c34e-4b00-9125-05a5404d75eb -->
-
-`Utilization` is the utilization as specified in [A.4.4.1.3.2.1.4 - Utilization Definition](337c4f67-685f-42bd-8237-553ed913b89f).
-
-###### A.4.4.1.3.2.1.6.2 - SKY Borrow Maximum Rate Definition [Core]  <!-- UUID: 3815fba3-bc80-482a-9baf-d201931b26c9 -->
-
-`SKY Borrow Maximum Rate` is the SKY Borrow Maximum Rate specified in [A.4.4.1.3.2.1.5.3.1 - SKY Borrow Maximum Rate Definition](eb77a744-db25-40b0-b51c-dd3187941cc5).
-
-###### A.4.4.1.3.2.1.6.3 - SKY Borrow Minimum Rate Definition [Core]  <!-- UUID: d1015b48-32c0-454a-b0a0-7a884f405092 -->
-
-`SKY Borrow Minimum Rate` is the SKY Borrow Minimum Rate specified in [A.4.4.1.3.5.2 - SKY Borrow Minimum Rate](6e329dd6-eda5-43ce-9899-b3a03ede8d0b).
-
-###### A.4.4.1.3.2.1.6.4 - Beta Definition [Core]  <!-- UUID: 436398ad-9660-4a8c-9556-6631888586fb -->
-
-`Beta` is the beta specified in [A.4.4.1.3.2.1.5.4 - Beta Definition](182418ba-47ad-416b-a5fe-440ac92511ec).
-
-###### A.4.4.1.3.2.1.6.5 - SKY Borrow Rate Definition [Core]  <!-- UUID: 3bcb6e31-d14f-434e-b3fe-8469a4a49011 -->
-
-`SKY Borrow Rate` is the SKY Borrow Rate specified in [A.4.4.1.3.5 - SKY Borrow Rate](5e546766-a0c0-4744-9ca9-5509db14bc30).
-
-###### A.4.4.1.3.2.2 - Parameters Modification [Core]  <!-- UUID: a63c529d-890f-4955-89b3-e671e5eb5ff7 -->
-
-The parameters specified in [A.4.4.1.3.2.1 - Parameters Definition](b9a9d09d-57c5-42cd-994f-f5689996f635) that are set by governance may be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Cycle or, if necessary, through out-of-schedule Executive Votes.
+The stUSDS Rate is set together with the SKY Borrow Rate as specified in [A.4.4.1.3.8.5 - Update Process](7e58f5eb-c339-4f04-aca8-681e9acd0752).
 
 ##### A.4.4.1.3.3 - stUSDS Holders’ Risk Bearing [Core]  <!-- UUID: 60a37c03-9122-4ef6-9669-2466c335224c -->
 
@@ -690,83 +593,15 @@ Holders of stUSDS accept the risk associated with providing capital for SKY-back
 
 ##### A.4.4.1.3.4 - Debt Ceiling [Core]  <!-- UUID: f7c00726-64a0-4ba5-8c0d-231d0e27e54c -->
 
-The maximum amount of USDS that can be borrowed against staked SKY is dynamically determined by, and equal to, the total amount of USDS currently held within the stUSDS contract. This dynamic ceiling will replace the static `DC-IAM` module and parameters associated with protocol-dependent, SKY-backed borrowing.
+The Debt Ceiling is the maximum amount of USDS that can be borrowed against staked SKY. It is determined dynamically and is equal to the lower of (1) the `line` parameter set through the stUSDS BEAM and (2) the total value of stUSDS (the USDS owed to stUSDS holders, including accrued yield) less the debt currently in liquidation auctions, or zero if that difference is negative.
 
 ##### A.4.4.1.3.5 - SKY Borrow Rate [Core]  <!-- UUID: 5e546766-a0c0-4744-9ca9-5509db14bc30 -->
 
-The interest rate charged to borrowers (SKY Borrow Rate) is dynamic and market-driven, based on the utilization of funds within the stUSDS contract. This dynamic rate will replace the static `Stability Fee` parameter associated with protocol-dependent, SKY-backed borrowing.
+The SKY Borrow Rate (`duty`) is the interest rate charged to borrowers against staked SKY. The SKY Borrow Rate is the rate in effect as set by Sky Governance. Sky Governance may set the SKY Borrow Rate directly through an Executive Vote, or through the stUSDS BEAM Operators, which act on behalf of Sky Governance (see [A.4.4.1.3.8.4 - Operators](8fd15f15-c8cd-480d-86b7-cad524cfa9f1)).
 
 ###### A.4.4.1.3.5.1 - Rate Setting Mechanism [Core]  <!-- UUID: 5ad3e32c-9b5c-431a-bc20-e236194b65e8 -->
 
-The SKY Borrow Rate adjusts to target a 90% utilization rate of the USDS in the stUSDS contract. When stUSDS utilization is below 90%, the rate gradually decreases; when above 90%, it gradually increases. The SKY Borrow Rate cannot fall below the SKY Borrow Minimum Rate. See [A.4.4.1.3.5.2 - SKY Borrow Minimum Rate](6e329dd6-eda5-43ce-9899-b3a03ede8d0b).
-
-The specific parameters and formula governing the rate of adjustment are specified in the documents herein.
-
-###### A.4.4.1.3.5.1.1 - Rate Setting Parameters [Core]  <!-- UUID: 7e07b3d3-0eb5-449b-abcd-7373b9037691 -->
-
-The parameters of the rate setting mechanism are specified in the documents herein.
-
-###### A.4.4.1.3.5.1.1.1 - Utilization [Core]  <!-- UUID: 06440c14-0fc8-42e8-bb16-62c75c007453 -->
-
-`Utilization` is the percentage of funds in the stUSDS contract that are used to fund borrowing against staked SKY specified in [A.4.4.1.3.2.1.4 - Utilization Definition](337c4f67-685f-42bd-8237-553ed913b89f).
-
-###### A.4.4.1.3.5.1.1.2 - Target Utilization [Core]  <!-- UUID: d4f5b180-ea44-4962-a79a-9f09b734758d -->
-
-`Target Utilization` is the target utilization rate of USDS in the stUSDS contract specified in [A.4.4.1.3.5.1 - Rate Setting Mechanism](5ad3e32c-9b5c-431a-bc20-e236194b65e8).
-
-###### A.4.4.1.3.5.1.1.3 - SKY Borrow Minimum Rate [Core]  <!-- UUID: 30577c68-7d3f-4f96-a228-1ad9c5c8ddd0 -->
-
-`SKY Borrow Minimum Rate` is the rate that the SKY Borrow Rate cannot fall below specified in [A.4.4.1.3.5.2 - SKY Borrow Minimum Rate](6e329dd6-eda5-43ce-9899-b3a03ede8d0b).
-
-###### A.4.4.1.3.5.1.1.4 - Slope 1 [Core]  <!-- UUID: f22da959-a76e-477a-a87b-a32c429d2ec0 -->
-
-`Slope 1` represents the spread of the SKY Borrow Rate over the SKY Borrow Minimum Rate when Utilization is at Target Utilization.
-
-###### A.4.4.1.3.5.1.1.4.1 - Slope 1 Current Value [Core]  <!-- UUID: ef387e32-b649-45ec-bd7a-c63842802134 -->
-
-The current value of the `Slope 1` parameter is 12.575%.
-
-###### A.4.4.1.3.5.1.1.4.2 - Slope 1 Modification [Core]  <!-- UUID: 5ea82a74-73e3-4f35-83ef-02d7af0cf58b -->
-
-The `Slope 1` parameter may be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Cycle or, if necessary, through out-of-schedule Executive Votes.
-
-###### A.4.4.1.3.5.1.1.5 - Slope 2 [Core]  <!-- UUID: fb127571-4e01-4deb-b4cf-8fad2f7c9b71 -->
-
-`Slope 2` represents the spread of the SKY Borrow Rate at 100% Utilization over the SKY Borrow Rate at Target Utilization.
-
-###### A.4.4.1.3.5.1.1.5.1 - Slope 2 Current Value [Core]  <!-- UUID: 6d557d64-e579-4285-92b6-ff8f709dab29 -->
-
-The current value of the `Slope 2` parameter is 12.575%.
-
-###### A.4.4.1.3.5.1.1.5.2 - Slope 2 Modification [Core]  <!-- UUID: 4446f92c-bb70-4f94-bcf7-d44749ed87b7 -->
-
-The `Slope 2` parameter may be modified by the Core Executor Agents, in consultation with the Core Council Risk Advisor. This process will be conducted through the Operational Weekly Cycle or, if necessary, through out-of-schedule Executive Votes.
-
-###### A.4.4.1.3.5.1.1.5.3 - Slope 2 Methodology [Core]  <!-- UUID: dbc8ec1b-c9cb-40c1-8ccd-bd7478c42466 -->
-
-Under normal circumstances governance should set the `Slope 2` parameter based on the following formula:
-
-`Slope 2 = Slope 1 * alpha`
-
-The parameters of this formula are specified in the documents herein.
-
-###### A.4.4.1.3.5.1.1.5.3.1 - Slope 1 Definition [Core]  <!-- UUID: 664f473c-a48a-4961-8352-5dd93b8c5410 -->
-
-The `Slope 1` parameter is specified in [A.4.4.1.3.5.1.1.4 - Slope 1](f22da959-a76e-477a-a87b-a32c429d2ec0).
-
-###### A.4.4.1.3.5.1.1.5.3.2 - Alpha Definition [Core]  <!-- UUID: 03a02181-fb87-4bac-83cc-f062cc7dc593 -->
-
-The `alpha` parameter is specified in [A.4.4.1.3.2.1.5.3 - Alpha Definition](e9cfb75d-2d5b-448e-a3e1-784326a94ac4).
-
-###### A.4.4.1.3.5.1.2 - Rate Setting Formula [Core]  <!-- UUID: 05e97d4d-37e2-4ed8-acea-a8728fbe0402 -->
-
-The Sky Borrow Rate is calculated according to the following formula when Utilization is less than or equal to Target Utilization:
-
-`SKY Borrow Rate = SKY Borrow Minimum Rate + Utilization / Target Utilization * Slope 1`
-
-The SKY Borrow Rate is calculated according to the following formula when Utilization is greater than Target Utilization:
-
-`SKY Borrow Rate = SKY Borrow Minimum Rate + Slope 1 + (Utilization - Target Utilization) / (1 - Target Utilization) * Slope 2`
+The SKY Borrow Rate is set by Sky Governance, together with the stUSDS Rate, as specified in [A.4.4.1.3.8.5 - Update Process](7e58f5eb-c339-4f04-aca8-681e9acd0752). The SKY Borrow Rate should not be lower than the SKY Borrow Minimum Rate (see [A.4.4.1.3.5.2 - SKY Borrow Minimum Rate](6e329dd6-eda5-43ce-9899-b3a03ede8d0b)).
 
 ###### A.4.4.1.3.5.2 - SKY Borrow Minimum Rate [Core]  <!-- UUID: 6e329dd6-eda5-43ce-9899-b3a03ede8d0b -->
 
@@ -826,7 +661,7 @@ The stUSDS Bounded External Access Module (stUSDS BEAM) enables designated, Gove
 
 ###### A.4.4.1.3.8.1 - Definitions [Core]  <!-- UUID: 2875f146-08b2-4b83-84ed-282af9379762 -->
 
-The documents herein define the parameters of the stUSDS BEAM.
+The documents herein define the parameters of the stUSDS BEAM. The basis-point values of the `min`, `max`, and `step` parameters are expressed as annual percentage yields, as specified in [A.3.1.2.7 - Rate Conventions](154c3b5d-7a87-4dae-85f3-7d26deab9a31).
 
 ###### A.4.4.1.3.8.1.1 - Min Definition [Core]  <!-- UUID: f1ed4794-7642-4ce4-ae80-c5f4e2ec0eed -->
 
@@ -870,21 +705,21 @@ The `tau` is currently set to 57,600 seconds (16 hours).
 
 The stUSDS BEAM parameters for each stUSDS parameter set by the stUSDS BEAM are defined in the subdocuments herein.
 
-###### A.4.4.1.3.8.2.1 - Str Parameters [Core]  <!-- UUID: 516eccc7-dd7f-4782-84d5-55121bc1ae44 -->
+###### A.4.4.1.3.8.2.1 - Str BEAM Parameters [Core]  <!-- UUID: 516eccc7-dd7f-4782-84d5-55121bc1ae44 -->
 
 The stUSDS BEAM parameters for the `str` stUSDS parameter are as follows:
 
 - `max` - 5,000 basis points,
 - `min` - 200 basis points,
-- `step` - 1,500 basis points.
+- `step` - 500 basis points.
 
-###### A.4.4.1.3.8.2.2 - Duty Parameters [Core]  <!-- UUID: 94da2be4-e21c-4de7-8c0c-21e17718d32b -->
+###### A.4.4.1.3.8.2.2 - Duty BEAM Parameters [Core]  <!-- UUID: 94da2be4-e21c-4de7-8c0c-21e17718d32b -->
 
 The stUSDS BEAM parameters for the `duty` stUSDS parameter are as follows:
 
 - `max` - 5,000 basis points,
 - `min` - 210 basis points,
-- `step` - 1,500 basis points.
+- `step` - 500 basis points.
 
 ###### A.4.4.1.3.8.3 - Parameter Adjustments [Core]  <!-- UUID: 91152a4b-6f97-4b8a-831a-0f85c16a78ab -->
 
@@ -892,7 +727,7 @@ All stUSDS BEAM parameters can be modified by Core GovOps, in consultation with 
 
 ###### A.4.4.1.3.8.4 - Operators [Core]  <!-- UUID: 8fd15f15-c8cd-480d-86b7-cad524cfa9f1 -->
 
-The stUSDS BEAM Operators are whitelisted entities that can directly alter the stUSDS parameters set by the stUSDS BEAM. Changes to stUSDS parameters are limited by the `max`, `min`, `step`, and `tau` parameters. Operators can be added or removed by an Executive Vote.
+The stUSDS BEAM Operators are whitelisted entities that can directly alter the stUSDS parameters set by the stUSDS BEAM. The stUSDS BEAM Operators act on behalf of Sky Governance. Changes to stUSDS parameters are limited by the `max`, `min`, `step`, and `tau` parameters. Operators can be added or removed by an Executive Vote.
 
 ###### A.4.4.1.3.8.4.1 - Operator Multisig [Core]  <!-- UUID: ee9e13e0-23ca-41a3-a1d1-0f1181882c84 -->
 
@@ -912,7 +747,7 @@ The signers of the Operator Multisig are three (3) addresses controlled by Core 
 
 ###### A.4.4.1.3.8.4.1.4 - Operator Multisig Usage Standards [Core]  <!-- UUID: 71e28a28-82b9-43eb-9e93-6aee2d5bbbc0 -->
 
-The signers of the Operator Multisig must use the multisig to operate the stUSDS BEAM in accordance with the instructions specified in [A.4.4.1.3.8.5.2 - Manual Parameter Updates By Operator Multisig](944c2573-1184-4d6b-bbe9-0b84c11956cf).
+The signers of the Operator Multisig must use the multisig to operate the stUSDS BEAM in accordance with the process specified in [A.4.4.1.3.8.5.2 - Manual Parameter Updates By Operator Multisig](944c2573-1184-4d6b-bbe9-0b84c11956cf).
 
 ###### A.4.4.1.3.8.4.1.5 - Operator Multisig Modification [Core]  <!-- UUID: 303ccb86-1411-409f-a3e4-1193e0aa7b9a -->
 
@@ -920,20 +755,11 @@ Core GovOps can change the signers of the Operator Multisig at any time, so long
 
 ###### A.4.4.1.3.8.4.2 - Operator Hot Wallet [Core]  <!-- UUID: bddf50ca-02ef-4991-abb0-53e09831ee6f -->
 
-The Operator Hot Wallet is a hot wallet controlled by a bot that will update stUSDS parameters on an automated basis as specified in [A.4.4.1.3.8.5.3 - Automatic Updates By Operator Hot Wallet](a6e1735f-bd82-4ab6-982b-218013c3455f). The wallet is controlled by Ecosystem Actor TechOps Services under the supervision of Core GovOps in consultation with the Core Council Risk Advisor. The addition of the Hot Wallet as an Operator of the stUSDS BEAM is authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+The Operator Hot Wallet is a hot wallet used by the stUSDS Keeper, an automated system that updates stUSDS parameters as specified in [A.4.4.1.3.8.5.3 - Automatic Updates By Operator Hot Wallet](a6e1735f-bd82-4ab6-982b-218013c3455f). The stUSDS Keeper and the Operator Hot Wallet are operated by Ecosystem Actor TechOps Services under the supervision of Core GovOps in consultation with the Core Council Risk Advisor.
 
 ###### A.4.4.1.3.8.4.2.1 - Operator Hot Wallet Address [Core]  <!-- UUID: bc29e096-972c-4bcc-b589-dad148374d33 -->
 
-The address of the Operator Hot Wallet on the Ethereum Mainnet is `0xd06C14820048de2Fb7c9de611EcFdaCE18eC8896`.
-
-###### A.4.4.1.3.8.4.2.2 - Update Of stUSDS Parameters For Hot Wallet [Core]  <!-- UUID: 877f2d58-df39-4cb9-97cc-e529a5c62146 -->
-
-When the Operator Hot Wallet is added as an Operator of the stUSDS Rate, the stUSDS BEAM parameters must be updated as follows:
-
-- The `step` parameters for the `str` and `duty` parameters must be reduced to 400 basis points; and
-- The `tau` parameter must be reduced to 4 hours.
-
-These changes are authorized to proceed directly to an Executive Vote without a prior Governance Poll.
+The address of the Operator Hot Wallet on the Ethereum Mainnet is `0x068F9c8F33E13c18B852877A5D8Ec61504971376`.
 
 ###### A.4.4.1.3.8.4.3 - Operator Update Process [Core]  <!-- UUID: 64d7e377-9870-4563-a073-768bb7d259a4 -->
 
@@ -941,7 +767,7 @@ stUSDS BEAM Operators can be modified by Core GovOps, in consultation with the C
 
 ###### A.4.4.1.3.8.5 - Update Process [Core]  <!-- UUID: 7e58f5eb-c339-4f04-aca8-681e9acd0752 -->
 
-The stUSDS parameters set by the stUSDS BEAM are managed by the stUSDS BEAM Operators as specified in the documents herein.
+Under normal circumstances, the stUSDS parameters set by the stUSDS BEAM are updated automatically by the stUSDS Keeper (see [A.4.4.1.3.8.5.3 - Automatic Updates By Operator Hot Wallet](a6e1735f-bd82-4ab6-982b-218013c3455f)). Core GovOps, in consultation with the Core Council Risk Advisor, may modify or disable the stUSDS Keeper (see [A.4.4.1.3.8.5.4 - Modification And Suspension Of The stUSDS Keeper](7872f3b4-7cfd-459e-8142-4b8988c2f3ad)). The Operator Multisig, in consultation with the Core Council Risk Advisor, may update the stUSDS parameters manually (see [A.4.4.1.3.8.5.2 - Manual Parameter Updates By Operator Multisig](944c2573-1184-4d6b-bbe9-0b84c11956cf)). These processes do not limit the ability of Sky Governance to set the stUSDS parameters via an Executive Vote.
 
 ###### A.4.4.1.3.8.5.1 - Initial Parameter Values Set In Executive Vote [Core]  <!-- UUID: 13c51e11-8ea3-4d4e-b631-2e99c559a914 -->
 
@@ -954,97 +780,99 @@ The initial parameters set by the stUSDS BEAM in the Executive Vote deploying st
 
 ###### A.4.4.1.3.8.5.2 - Manual Parameter Updates By Operator Multisig [Core]  <!-- UUID: 944c2573-1184-4d6b-bbe9-0b84c11956cf -->
 
-Initially, the stUSDS parameters set by the stUSDS BEAM are managed by the Operator Multisig based on instructions provided by the Core Council Risk Advisor.
+The Operator Multisig, in consultation with the Core Council Risk Advisor, may update the stUSDS parameters to the values they determine appropriate.
 
-###### A.4.4.1.3.8.5.2.1 - Instructions By Core Council Risk Advisor [Core]  <!-- UUID: cfd01132-42f2-46c9-867c-bd9aa62bf78a -->
+###### A.4.4.1.3.8.5.2.1 - stUSDS Dashboard [Core]  <!-- UUID: cfd01132-42f2-46c9-867c-bd9aa62bf78a -->
 
 The Core Council Risk Advisor will develop and maintain a stUSDS Dashboard. The stUSDS Dashboard must display the recommended values for each of the stUSDS parameters as of any point in time. The stUSDS Dashboard is located at [https://stusds.herddefi.com/](https://stusds.herddefi.com/).
 
-The recommended values for each of the stUSDS parameters should be based on the methodology specified in [A.4.4.1.3.8.6 - Update Methodology](e37d1045-215d-4f85-bbc3-70aa2c1b818b) but the Core Council Risk Advisor may deviate from this methodology if they determine that another methodology is advisable to support the growth of USDS and the interests of the Sky Protocol.
+The recommended values for each of the stUSDS parameters are the outputs of the Interest Rate Model (see [A.4.4.1.3.8.5.3.5 - Interest Rate Model](5a6e8836-cef2-4b2d-b18c-0a9f47ed24fa)) using the meta-parameters published by the Core Council Risk Advisor (see [A.4.4.1.3.8.5.3.2 - Meta-Parameter Values](dd47b41a-e897-49b2-be8f-162c73b034ed)).
 
 ###### A.4.4.1.3.8.5.2.2 - Operator Execution [Core]  <!-- UUID: 420d6ca3-405a-41be-ba0f-cdc52746477c -->
 
-On a regular basis, the stUSDS BEAM Operators must prepare and execute changes so that the stUSDS parameters reflect the recommended values in the stUSDS Dashboard. In determining when to make changes, the stUSDS BEAM Operators, in consultation with the Core Council Risk Advisor, should consider factors including:
+In deciding whether and when to make manual changes, the signers of the Operator Multisig, in consultation with the Core Council Risk Advisor, should consider factors including:
 
+- the recommended values displayed in the stUSDS Dashboard;
 - the materiality of the change;
 - the occurrence of weekends and holidays, including Calendar Exceptions to the Monthly Governance Cycle (see [A.1.12.1 - Calendar Exceptions](6c0810e2-390d-4efb-8b31-f36a7f6e1a05)); and
-- such other factors as the stUSDS BEAM Operators and the Core Council Risk Advisor deem relevant.
+- such other factors as the signers of the Operator Multisig and the Core Council Risk Advisor deem relevant.
 
 ###### A.4.4.1.3.8.5.2.3 - Review By Core Facilitator And Core Council Risk Advisor [Core]  <!-- UUID: 7318d160-e182-4276-bdf9-7dfc86ca77a5 -->
 
-The Core Facilitator and the Core Council Risk Advisor must review the actions of the stUSDS BEAM Operators on a regular basis. If they determine that the stUSDS BEAM Operators are not updating the stUSDS parameters in a way that reflects the recommended values in the stUSDS Dashboard on a timely basis, they must report this to the Core Council.
+The Core Facilitator and the Core Council Risk Advisor must review the actions of the stUSDS BEAM Operators, including the Operator Hot Wallet and the stUSDS Keeper, on a regular basis and report any concerns to the Core Council.
 
 ###### A.4.4.1.3.8.5.3 - Automatic Updates By Operator Hot Wallet [Core]  <!-- UUID: a6e1735f-bd82-4ab6-982b-218013c3455f -->
 
-Once the Operator Hot Wallet has been added as an Operator of the stUSDS BEAM (see [A.4.4.1.3.8.4.2 - Operator Hot Wallet](bddf50ca-02ef-4991-abb0-53e09831ee6f)), the stUSDS parameters set by the stUSDS BEAM must be set by the Operator Hot Wallet. These changes must be based on the update methodology specified in [A.4.4.1.3.8.6 - Update Methodology](e37d1045-215d-4f85-bbc3-70aa2c1b818b) and the results must be publicly visible on an information dashboard.
+Under normal circumstances, the stUSDS parameters set by the stUSDS BEAM are set by the stUSDS Keeper using the Operator Hot Wallet (see [A.4.4.1.3.8.4.2 - Operator Hot Wallet](bddf50ca-02ef-4991-abb0-53e09831ee6f)). These changes must be based on the Interest Rate Model (see [A.4.4.1.3.8.5.3.5 - Interest Rate Model](5a6e8836-cef2-4b2d-b18c-0a9f47ed24fa)) and the results must be publicly visible on the stUSDS Dashboard (see [A.4.4.1.3.8.5.2.1 - stUSDS Dashboard](cfd01132-42f2-46c9-867c-bd9aa62bf78a)).
 
-###### A.4.4.1.3.8.6 - Update Methodology [Core]  <!-- UUID: e37d1045-215d-4f85-bbc3-70aa2c1b818b -->
+###### A.4.4.1.3.8.5.3.1 - ValueRegistry [Core]  <!-- UUID: c13944f2-9475-4d26-a945-98ed17dc31b9 -->
 
-The documents herein define the methodology that should be used for determining when and how to update stUSDS parameters with the stUSDS BEAM.
+The stUSDS Keeper reads its meta-parameters from the ValueRegistry, an on-chain contract that stores named values. Sky Governance retains full, direct control over the ValueRegistry at all times, since the Sky Pause Proxy holds ward authorization on it. Meta-parameters can be set and removed only by the ValueRegistry's authorized operator (`bud`), the ValueRegistry Multisig (see [A.4.4.1.3.8.5.3.3 - ValueRegistry Multisig](c1526b15-d55f-4a09-87c4-2f3224ad510e)), using the `setValues` and `removeValues` functions.
 
-###### A.4.4.1.3.8.6.1 - Short Term Process [Core]  <!-- UUID: c296a253-f737-4d17-bea0-4b1dab903096 -->
+The meta-parameters are the inputs the stUSDS Keeper uses to calculate and submit the stUSDS parameters. In the descriptions below, Utilization is the percentage of the USDS in the stUSDS contract that is used to fund borrowing against staked SKY. The meta-parameters are stored under the following keys:
 
-Initially when stUSDS parameters are set manually by the Operator Multisig (see [A.4.4.1.3.8.5.2 - Manual Parameter Updates By Operator Multisig](944c2573-1184-4d6b-bbe9-0b84c11956cf)), the Core Council Risk Advisor may deviate from the long term process specified in [A.4.4.1.3.8.6.2 - Long Term Process](b349277c-4e61-474a-85bd-18802324a3a6) in their best judgment based on the guidelines specified herein.
+- `STUSDS_OPT_UTIL_WAD` - the target Utilization;
+- `STUSDS_DISTRIBUTION_REWARD_WAD` - the distribution reward;
+- `STUSDS_BASE_SPREAD_WAD` - the fixed base spread;
+- `STUSDS_SPREAD_PCT_WAD` - the share of the SKY Borrow Rate above the base rate that is retained by the stUSDS module;
+- `STUSDS_TIME_DRIFT_SPEED_WAD` - the speed at which the SKY Borrow Rate at the target Utilization drifts over time;
+- `STUSDS_ABOVE_KINK_MULT_WAD` - the slope multiplier applied above the target Utilization;
+- `STUSDS_AVG_UTILIZATION_HOURS` - the number of hours over which Utilization is averaged;
+- `STUSDS_CAP_FACTOR_WAD` - the cap factor used to calculate `cap`;
+- `STUSDS_LINE_FACTOR_WAD` - the line factor used to calculate `line`;
+- `STUSDS_UPDATE_THRESHOLD_BPS` - the smallest change in `str` or `duty`, in basis points, that triggers an update;
+- `STUSDS_KEEPER_RERUN_SECONDS` - the scheduled interval, in seconds, between runs of the stUSDS Keeper (a change to a watched ValueRegistry value triggers an immediate run regardless); and
+- `STUSDS_KEEPER_ENABLED` - the on-chain submission switch.
 
-###### A.4.4.1.3.8.6.1.1 - Initial Supply Rate [Core]  <!-- UUID: c4523493-97ba-4f57-ae2f-d407ab6e0f98 -->
+###### A.4.4.1.3.8.5.3.1.1 - ValueRegistry Address [Core]  <!-- UUID: 19806417-5def-45f6-8375-a820b33807d3 -->
 
-The initial value of the `str` parameter must be set extraordinarily high to a value of approximately 40% initially to incentivize deposits. This rate is not sustainable and must be lowered as specified in [A.4.4.1.3.8.6.1.2 - Gradual Reduction In Supply Rate](8441e561-ef59-4a7e-a6d6-438f1bf797be).
+The address of the ValueRegistry on the Ethereum Mainnet is `0xcDb55A799A9B9eAe22Ed0E13037bb6D2E3f1d080`.
 
-###### A.4.4.1.3.8.6.1.2 - Gradual Reduction In Supply Rate [Core]  <!-- UUID: 8441e561-ef59-4a7e-a6d6-438f1bf797be -->
+###### A.4.4.1.3.8.5.3.2 - Meta-Parameter Values [Core]  <!-- UUID: dd47b41a-e897-49b2-be8f-162c73b034ed -->
 
-The `str` parameter must be gradually lowered to a more sustainable level as the market approaches the optimal target of 90% utilization.
+The Core Council Risk Advisor determines the values of the meta-parameters and publishes them, and any subsequent changes, in a dedicated thread on the Sky Forum. Core GovOps must submit the published values to the ValueRegistry using the ValueRegistry Multisig (see [A.4.4.1.3.8.5.3.3 - ValueRegistry Multisig](c1526b15-d55f-4a09-87c4-2f3224ad510e)).
 
-###### A.4.4.1.3.8.6.1.3 - Growth Of Market Size [Core]  <!-- UUID: 0d2ea70b-e031-498e-8f3a-aeb967deb736 -->
+###### A.4.4.1.3.8.5.3.3 - ValueRegistry Multisig [Core]  <!-- UUID: c1526b15-d55f-4a09-87c4-2f3224ad510e -->
 
-The `cap` and `line` parameters must be scaled up over time. By the time the market reaches 300,000,000 USDS the `str` parameter must be normalized to a level that is in line with the Interest Rate Model.
+The ValueRegistry Multisig is the authorized operator (`bud`) of the ValueRegistry, able to set and remove meta-parameters, and is controlled by Core GovOps.
 
-###### A.4.4.1.3.8.6.2 - Long Term Process [Core]  <!-- UUID: b349277c-4e61-474a-85bd-18802324a3a6 -->
+###### A.4.4.1.3.8.5.3.3.1 - ValueRegistry Multisig Address [Core]  <!-- UUID: 683cd150-cc5e-4cb6-ad12-15866dfc09cd -->
 
-Once the process is fully automated (see [A.4.4.1.3.8.5.3 - Automatic Updates By Operator Hot Wallet](a6e1735f-bd82-4ab6-982b-218013c3455f)) the automated process must fully conform to the specifications herein.
+The address of the ValueRegistry Multisig on the Ethereum Mainnet is `0xeB297173377507640A34cab2dD1B7C212087f9B8`.
 
-###### A.4.4.1.3.8.6.2.1 - Conditions For Update [Core]  <!-- UUID: ce0d4199-da56-4d75-b584-d89cf742597e -->
+###### A.4.4.1.3.8.5.3.3.2 - ValueRegistry Multisig Required Number Of Signers [Core]  <!-- UUID: eda1b2aa-77f6-4547-930e-094cb1bf8dc8 -->
 
-The stUSDS parameters should be updated if (1) the current Utilization (see [A.4.4.1.3.2.1.4 - Utilization Definition](337c4f67-685f-42bd-8237-553ed913b89f)) deviates from the Utilization as of the last time the stUSDS parameters were set by more than 2.4% and (2) the time since the last update is greater than `tau` (see [A.4.4.1.3.8.1.6 - Tau Definition](4f82fc17-4bcc-4623-b09b-b495c43b06f7)).
+The ValueRegistry Multisig currently has a 2/3 signing requirement.
 
-###### A.4.4.1.3.8.6.2.2 - Calculations For Update [Core]  <!-- UUID: 01be0bd3-0621-4c22-95c7-395542181008 -->
+###### A.4.4.1.3.8.5.3.3.3 - ValueRegistry Multisig Signers [Core]  <!-- UUID: c45c408e-886b-4af4-90d2-2a24257a5b37 -->
 
-The new values for each stUSDS parameter should be set to be as close as possible to the values specified in the documents herein.
+The signers of the ValueRegistry Multisig are three (3) addresses controlled by Core GovOps.
 
-###### A.4.4.1.3.8.6.2.2.1 - Str Calculation [Core]  <!-- UUID: aaf4b844-0a8b-4679-969b-382263de86ec -->
+###### A.4.4.1.3.8.5.3.3.4 - ValueRegistry Multisig Usage Standards [Core]  <!-- UUID: 0b045986-4dcf-4e23-9581-29b2c4ebfa43 -->
 
-The `str` must be calculated as specified in [A.4.4.1.3.2 - stUSDS Rate](7e51d5a7-0707-4fba-999b-a1becd5f0192).
+The signers of the ValueRegistry Multisig must use the multisig only to submit the meta-parameter values published by the Core Council Risk Advisor, as specified in [A.4.4.1.3.8.5.3.2 - Meta-Parameter Values](dd47b41a-e897-49b2-be8f-162c73b034ed), or to make the changes specified in [A.4.4.1.3.8.5.4 - Modification And Suspension Of The stUSDS Keeper](7872f3b4-7cfd-459e-8142-4b8988c2f3ad).
 
-###### A.4.4.1.3.8.6.2.2.2 - Duty Calculation [Core]  <!-- UUID: 76a96743-9197-4340-9367-74262cc32efd -->
+###### A.4.4.1.3.8.5.3.3.5 - ValueRegistry Multisig Modification [Core]  <!-- UUID: 8741db7b-f326-4066-b88c-fd71d2ff8ea0 -->
 
-The `duty` must be calculated as specified in [A.4.4.1.3.5.1.2 - Rate Setting Formula](05e97d4d-37e2-4ed8-acea-a8728fbe0402).
+Core GovOps can change the signers of the ValueRegistry Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
 
-###### A.4.4.1.3.8.6.2.2.3 - Cap Calculation [Core]  <!-- UUID: f5dafbc7-96b2-48e8-8b06-d66714d8b8a6 -->
+###### A.4.4.1.3.8.5.3.4 - On-Chain Submission Switch [Core]  <!-- UUID: 63d71c15-0dfd-43b1-8adf-8b355178aad2 -->
 
-The Core Council Risk Advisor must calculate the maximum amount that users can deposit into the stUSDS contract (`cap`) as specified in the documents herein.
+The `STUSDS_KEEPER_ENABLED` meta-parameter determines whether the stUSDS Keeper submits the stUSDS parameters it calculates to the stUSDS BEAM. When it is set to zero (0), the stUSDS Keeper calculates and records the values it would submit without submitting them. When it is set to one (1), the stUSDS Keeper submits them using the Operator Hot Wallet.
 
-###### A.4.4.1.3.8.6.2.2.3.1 - Short Term Calculation [Core]  <!-- UUID: 21c4b33d-8644-4c1c-88e2-65f1243abd56 -->
+###### A.4.4.1.3.8.5.3.5 - Interest Rate Model [Core]  <!-- UUID: 5a6e8836-cef2-4b2d-b18c-0a9f47ed24fa -->
 
-In the short term while Utilization is above 100%, the `cap` must be set to 200,000,000 USDS.
+The Interest Rate Model is the model maintained by the Core Council Risk Advisor that the stUSDS Keeper uses to calculate `str`, `duty`, `cap`, and `line` from the state of the stUSDS contract and the meta-parameters recorded in the ValueRegistry (see [A.4.4.1.3.8.5.3.1 - ValueRegistry](c13944f2-9475-4d26-a945-98ed17dc31b9)).
 
-###### A.4.4.1.3.8.6.2.2.3.2 - Long Term Calculation [Core]  <!-- UUID: bf917cfa-6438-4c91-932d-b4db8cc98af0 -->
+The stUSDS Keeper submits an update when the newly calculated `str` or `duty` differs from its current value by at least the update threshold set in the `STUSDS_UPDATE_THRESHOLD_BPS` meta-parameter and the `tau` period has elapsed since the last update (see [A.4.4.1.3.8.1.6 - Tau Definition](4f82fc17-4bcc-4623-b09b-b495c43b06f7)). When the stUSDS parameters are updated, `cap` and `line` are recalculated and submitted together with `str` and `duty`. All updates are bounded on-chain by the `min`, `max`, `step`, `tau`, `maxCap`, and `maxLine` parameters of the stUSDS BEAM (see [A.4.4.1.3.8.1 - Definitions](2875f146-08b2-4b83-84ed-282af9379762)).
 
-In the long term, the `cap` must be gradually increased when Utilization is above 85% according to the following formula:
+###### A.4.4.1.3.8.5.3.5.1 - Non-Disclosure Of The Interest Rate Model [Core]  <!-- UUID: 6c74b4fe-db22-46a4-b8d3-1ce48b9ce7ae -->
 
-`cap = 1.2 * current SKY borrowing`
+The algorithm of the Interest Rate Model is not publicly disclosed, in order to reduce the possibility of the rate-setting process being gamed. The algorithm was specified by the Core Council Risk Advisor, implemented and tested by Ecosystem Actor Sidestream, and reviewed by the Core Council Risk Advisor. The meta-parameters used by the Interest Rate Model are recorded on-chain in the ValueRegistry and published as specified in [A.4.4.1.3.8.5.3.2 - Meta-Parameter Values](dd47b41a-e897-49b2-be8f-162c73b034ed).
 
-###### A.4.4.1.3.8.6.2.2.4 - Line Calculation [Core]  <!-- UUID: ee92fe50-b3c1-4d44-9d99-8efc671cc67e -->
+###### A.4.4.1.3.8.5.4 - Modification And Suspension Of The stUSDS Keeper [Core]  <!-- UUID: 7872f3b4-7cfd-459e-8142-4b8988c2f3ad -->
 
-The Core Council Risk Advisor must calculate the maximum amount that users can borrow against their staked SKY (`line`) as specified in the documents herein.
-
-###### A.4.4.1.3.8.6.2.2.4.1 - Short Term Calculation [Core]  <!-- UUID: be4d269c-7064-4886-bdd5-8a8ff9d4abe2 -->
-
-In the short term while Utilization is above 100%, the `line` must be set to 200,000,000 USDS.
-
-###### A.4.4.1.3.8.6.2.2.4.2 - Long Term Calculation [Core]  <!-- UUID: ca92131b-a383-48c9-ab11-4ceeaca180d3 -->
-
-In the long term, the `line` must be gradually increased when Utilization is above 85% according to the following formula:
-
-`line = 1.14 * current SKY borrowing`
+Core GovOps, in consultation with the Core Council Risk Advisor, may modify the algorithm and meta-parameters used by the stUSDS Keeper, including to adopt changes to the Interest Rate Model specified by the Core Council Risk Advisor, or suspend or disable the stUSDS Keeper. This includes setting the `STUSDS_KEEPER_ENABLED` meta-parameter to zero (0) (see [A.4.4.1.3.8.5.3.4 - On-Chain Submission Switch](63d71c15-0dfd-43b1-8adf-8b355178aad2)), directing Ecosystem Actor TechOps Services to stop operating the stUSDS Keeper, or removing the Operator Hot Wallet as an Operator (see [A.4.4.1.3.8.4.3 - Operator Update Process](64d7e377-9870-4563-a073-768bb7d259a4)).
 
 ##### A.4.4.1.3.9 - SKY-Backed Borrowing Capped OSM Wrapper [Core]  <!-- UUID: c0fbc4e6-754c-4838-aa27-4ef6226f2769 -->
 
@@ -1080,102 +908,6 @@ The Core Facilitator, in consultation with the Core Council Risk Advisor, has th
 The current value of the `cap` parameter is:
 
 - 0.025 USDS.
-
-#### A.4.4.1.4 - Short Term Transitionary Measures [Core]  <!-- UUID: 22b8f8bf-b477-4439-86f7-ec605d3c657a -->
-
-The documents herein define the implementation of short-term SKY staking rewards pending the full implementation of the Sky Treasury Management Function. The policy governing the allocation of capital to staking rewards is specified in [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0).
-
-##### A.4.4.1.4.1 - Short Term USDS Rewards For SKY Stakers [Core]  <!-- UUID: aad249a0-1332-4b5f-9b46-d89873e73b86 -->
-
-USDS rewards for SKY stakers are available as specified in [A.2.3.1.2.5 - Step 4: Staking Rewards](bb163691-630e-4fda-88f1-96381a649fa0).
-
-##### A.4.4.1.4.2 - Short Term SKY Rewards For SKY Stakers [Core]  <!-- UUID: aed6511f-f5f0-4b46-a56e-9a7bbc6ea310 -->
-
-Pending activation of the USDS Staking Rewards specified in [A.2.3.1.2.4 - Step 3: Smart Burn Engine](5ce73730-4d5d-479c-b01e-40e87f072121), SKY rewards for SKY stakers are funded by SKY from the Protocol Treasury at the rate specified in [A.2.3.1.4.1 - Short Term SKY Staking Rewards Rate](de233df4-34cc-4e88-a065-9a9dde9add3c) and through the implementation specified in [A.4.4.1.4.2.1 - Implementation](ca151bc7-87fc-4749-9776-ea4308817e81); this interim mechanism will be discontinued once the USDS Staking Rewards become operational.
-
-###### A.4.4.1.4.2.1 - Implementation [Core]  <!-- UUID: ca151bc7-87fc-4749-9776-ea4308817e81 -->
-
-SKY rewards for SKY stakers are implemented through the Staking Rewards contract, the Vested Rewards Distribution contract, and the Vesting Stream contract, as specified in the documents herein.
-
-###### A.4.4.1.4.2.1.1 - Staking Rewards Contract [Core]  <!-- UUID: cf65f0d8-ae2f-45df-80bd-1014ce66509d -->
-
-The Staking Rewards contract is the user facing contract that allows SKY stakers to stake their SKY to receive SKY rewards. It maintains the balance of staked SKY receiving SKY rewards for each user and the associated accumulated rewards balance.
-
-###### A.4.4.1.4.2.1.1.1 - Staking Rewards Contract Address [Core]  <!-- UUID: b4989cd9-f45e-4747-8861-fac4175624cc -->
-
-The address of the Staking Rewards contract on the Ethereum Mainnet is `0xB44C2Fb4181D7Cb06bdFf34A46FdFe4a259B40Fc`.
-
-###### A.4.4.1.4.2.1.1.2 - Staking Rewards Contract Parameters [Core]  <!-- UUID: 2bfed9a4-9d7f-4544-b331-5e196a13a108 -->
-
-The parameters of the Staking Rewards contract are specified in the documents herein.
-
-###### A.4.4.1.4.2.1.1.2.1 - Owner [Core]  <!-- UUID: 3db49535-c663-425d-81b9-3ffa6e2e722d -->
-
-The `owner` of the Staking Rewards contract is the contract that has the ability to control administrative functions for the Staking Rewards contract. The value of the `owner` parameter is the `MCD_PAUSE_PROXY`.
-
-###### A.4.4.1.4.2.1.1.2.2 - Rewards Distribution Contract Address [Core]  <!-- UUID: 12b11af8-08d6-4b42-a323-cac0a60e78d3 -->
-
-The Rewards Distribution contract address `rewardsDistribution` is the address of the Rewards Distribution contract associated with the Staking Rewards contract. The value of the `rewardsDistribution` parameter is the address of the Rewards Distribution contract specified in [A.4.4.1.4.2.1.2.1 - Rewards Distribution Contract Address](fdebe206-2f58-4056-8adf-c42dffb47026).
-
-###### A.4.4.1.4.2.1.1.2.3 - Rewards Token [Core]  <!-- UUID: 9c3bd61a-25ee-43bc-8c93-89142dce6b49 -->
-
-The Rewards Token `rewardsToken` is the token that users receive as rewards. The value of the `rewardsToken` parameter is `SKY`, representing SKY Tokens.
-
-###### A.4.4.1.4.2.1.1.2.4 - Staking Token [Core]  <!-- UUID: 7e88d6b2-a76b-4aae-a045-bc0eb44d9657 -->
-
-The Staking Token `stakingToken` is the token that users stake to earn rewards. The value of the `stakingToken` parameter is `LSSKY`, representing staked SKY Tokens.
-
-###### A.4.4.1.4.2.1.2 - Rewards Distribution Contract [Core]  <!-- UUID: 1317764a-d07f-40de-8ff7-f43a3337ca19 -->
-
-The Rewards Distribution contract is the contract that handles the regular transfer of reward tokens from the Vesting Stream contract to the Staking Rewards contract for distribution to end users.
-
-###### A.4.4.1.4.2.1.2.1 - Rewards Distribution Contract Address [Core]  <!-- UUID: fdebe206-2f58-4056-8adf-c42dffb47026 -->
-
-The address of the Rewards Distribution contract on the Ethereum Mainnet is `0x675671A8756dDb69F7254AFB030865388Ef699Ee`.
-
-###### A.4.4.1.4.2.1.2.2 - Rewards Distribution Contract Parameters [Core]  <!-- UUID: c13efebc-94fe-408f-93a7-5ee5badb109f -->
-
-The parameters of the Rewards Distribution contract are specified in the documents herein.
-
-###### A.4.4.1.4.2.1.2.2.1 - Staking Rewards Contract Address [Core]  <!-- UUID: dd30a514-3abb-4e2b-8cc3-03ef2fbf7834 -->
-
-The Staking Rewards contract address `stakingRewards` is the address of the Staking Rewards contract associated with the Rewards Distribution contract. The value of the `stakingRewards` parameter is the address of the Staking Rewards contract specified in [A.4.4.1.4.2.1.1.1 - Staking Rewards Contract Address](b4989cd9-f45e-4747-8861-fac4175624cc).
-
-###### A.4.4.1.4.2.1.2.2.2 - Vesting Stream Contract Address [Core]  <!-- UUID: 5348e6c1-13f4-4e5c-8d75-83239ad999ea -->
-
-The Vesting Stream contract address `dssVest` is the address of the Vesting Stream contract associated with the Rewards Distribution contract. The value of the `dssVest` parameter is the address of the Vesting Stream contract specified in [A.4.4.1.4.2.1.3.1 - Vesting Stream](89155294-6652-481f-938f-a562d5b40e65).
-
-###### A.4.4.1.4.2.1.3 - Vesting Stream Contract [Core]  <!-- UUID: 21a8978d-10a5-4151-b99a-ca8115fe0a6d -->
-
-The Vesting Stream contract manages various vesting streams that vest SKY Tokens from the Protocol Treasury. One of these vesting streams regularly vests SKY Tokens to the Staking Rewards contract.
-
-###### A.4.4.1.4.2.1.3.1 - Vesting Stream [Core]  <!-- UUID: 89155294-6652-481f-938f-a562d5b40e65 -->
-
-The address of the Vesting Stream contract is the address corresponding to the `MCD_VEST_SKY_TREASURY` key in the Chainlog.
-
-###### A.4.4.1.4.2.1.3.2 - Vesting Stream Contract Parameters [Core]  <!-- UUID: 148e2c86-0f30-49c1-923c-9b32f92aa40f -->
-
-The parameters of the vesting stream managed by the Vesting Stream contract that vests SKY Tokens to the Staking Rewards contract are specified in the documents herein.
-
-###### A.4.4.1.4.2.1.3.2.1 - Vesting Duration [Core]  <!-- UUID: 9cad1b65-5dea-4510-a1cd-c47eddb66309 -->
-
-The Vesting Duration `vestTau` is the total duration over which the Vesting Total number of tokens are to be vested linearly.
-
-###### A.4.4.1.4.2.1.3.2.2 - Vesting Total [Core]  <!-- UUID: 8bc59b3a-5bf4-4e2c-a793-b51a4ff58ef6 -->
-
-The Vesting Total `vestTot` is the number of rewards tokens to be vested in total over the Vesting Duration.
-
-###### A.4.4.1.4.2.1.3.3 - Vesting Stream Parameter Modification [Core]  <!-- UUID: 7da0cd7a-238f-400f-89a7-a419ed25ce37 -->
-
-The Core Facilitator, in consultation with the Core Council Risk Advisor, may modify the parameters of the vesting stream to achieve the target reward rate as specified in [A.2.3.1.4.1 - Short Term SKY Staking Rewards Rate](de233df4-34cc-4e88-a065-9a9dde9add3c). Such modifications can be effected directly via an Executive Vote, without a prior Governance Poll.
-
-###### A.4.4.1.4.2.2 - Source Of SKY Rewards [Core]  <!-- UUID: 349a350c-c9b7-4232-a83f-2fb49b91fc74 -->
-
-The `vestTot` and `vestTau` parameters of the Vesting Stream contract are set such that SKY rewards are funded by SKY acquired through buybacks or SKY reserves.
-
-###### A.4.4.1.4.2.2.1 - Authorization Of Transfer By Sky Frontier Foundation [Core]  <!-- UUID: 2789177b-5bc7-486f-8aab-75ea16e21035 -->
-
-Sky Governance hereby confirms that the transfer of 500,000,000 SKY tokens to initially fund SKY rewards for SKY stakers is consistent with the terms of the grant to the Sky Frontier Foundation. See [A.2.13.1 - Ecosystem Entity Grants](5d5759e4-8077-4af5-9a1a-eaeab5088dd7).
 
 ## A.4.5 - Distribution Of Agent Tokens [Article]  <!-- UUID: e2f1f01f-3303-41c3-b337-f09eb41ba6be -->
 
@@ -1224,3 +956,31 @@ Transfers of non-stablecoins to Sky should be sent to the Pause Proxy contract.
 ###### A.4.6.1.1.2.1.1 - Pause Proxy [Core]  <!-- UUID: 8d8cc32d-f724-4eac-bca8-bab0e6d990ba -->
 
 The Pause Proxy Contract, MCD_PAUSE_PROXY, at `0xbe8e3e3618f7474f8cb1d074a26affef007e98fb`, is under the direct control of Sky Governance. Sky Governance may take actions through Executive Votes to interact with the tokens held by the Pause Proxy, including selling these tokens.
+
+### A.4.6.2 - Sky Ecosystem Administrative Contracts [Section]  <!-- UUID: d06315b0-b8ba-4932-925d-0e49a0fe9dd2 -->
+
+This Section defines smart contracts used to administer the Sky Ecosystem.
+
+#### A.4.6.2.1 - SubProxyMethods [Section]  <!-- UUID: 8f422999-13e3-426a-b5ff-19d6c9de30ae -->
+
+The documents herein define the SubProxyMethods contract, covering its purpose, function calls, execution, and the governance process required before it is used.
+
+##### A.4.6.2.1.1 - Purpose [Core]  <!-- UUID: f64e64ae-56b5-4589-adea-cceb4c1e34e1 -->
+
+The SubProxyMethods contract (`SUBPROXY_METHODS`) is a general-purpose helper the Sky Pause Proxy can invoke on any SubProxy via `exec()`, since the Pause Proxy holds ward authorization on it. This means simple, low-risk operations do not require crafting and reviewing a full Agent Spell. Its current function is specified in [A.4.6.2.1.2 - Function Calls](fe6914cc-7f7d-48f8-9fa4-8945d07c1b5f). Additional functions may be added to the contract in the future.
+
+##### A.4.6.2.1.2 - Function Calls [Core]  <!-- UUID: fe6914cc-7f7d-48f8-9fa4-8945d07c1b5f -->
+
+The current SubProxyMethods function, `transfer()`, when called by the Sky Core Spell, moves ERC20 tokens out of the target SubProxy's balance. It is invoked via `delegatecall`, so the transfer executes in the SubProxy's own context.
+
+The SubProxyMethods contract does not itself restrict which destination is specified for a transfer. The destination is determined by the Sky Core Spell.
+
+##### A.4.6.2.1.3 - Execution [Core]  <!-- UUID: 60000393-7e7c-4aa4-928c-30a1a562fa77 -->
+
+A call to the SubProxyMethods contract is included in the Sky Core Spell and executed as specified in [A.1.10.2.4.13 - Spell Execution Process And Retro (Step 13)](761cd866-17a9-47f5-8ae6-ab1788371be1).
+
+Unlike a standard Agent Spell, it is not executed or whitelisted through the Agent's StarGuard contract.
+
+##### A.4.6.2.1.4 - Governance Process [Core]  <!-- UUID: 813a123a-d6e1-4ef2-bc55-716b50732721 -->
+
+The Agent whose SubProxy is acted on via the SubProxyMethods contract must post a request on the Sky Forum authorizing the action. This request must include a reference to the Atlas document authorizing the action for that Agent.
