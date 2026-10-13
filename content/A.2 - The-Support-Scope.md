@@ -3248,7 +3248,7 @@ The documents herein define the access-control roles of the Diamond Parallelized
 
 ###### A.2.2.10.1.1.1.2.2.1 - Default Admin Role [Core]  <!-- UUID: b76195f2-7494-43a4-919e-fa823303ad06 -->
 
-The Default Admin Role (`DEFAULT_ADMIN_ROLE`) is the administrative role of an Instance's `AccessControls` contract, authorized to grant and revoke all other roles. It is held by Sky Governance through the Prime Agent's SubProxy. Where a Diamond PAU has the Configurator enabled, the Configurator is also granted this role on that Instance's `AccessControls` contract and `RateLimits` contract, as specified in [A.2.2.10.1.1.1.2.4.2 - Enabled Diamond PAUs](9593a6c6-521b-4680-8119-cb1f08b9a3e3). This per-Instance role is distinct from the Beacon's own `DEFAULT_ADMIN_ROLE`, which is held by the Pause Proxy.
+The Default Admin Role (`DEFAULT_ADMIN_ROLE`) is the administrative role of an Instance's `AccessControls` contract, authorized to grant and revoke all other roles. It is held by Sky Governance through the Prime Agent's SubProxy. Where a Diamond PAU has the Configurator enabled, the Configurator is also granted this role on that Instance's `AccessControls` contract and `RateLimits` contract, as specified in [A.2.2.10.1.1.1.2.4.1.2 - Enabled Diamond PAUs](9593a6c6-521b-4680-8119-cb1f08b9a3e3) for Ethereum Mainnet and [A.2.2.10.1.1.1.2.4.2.2 - Enabled Diamond PAUs](9feaea6e-405b-41ef-afc7-b10f2fc3bf1c) for Arbitrum. This per-Instance role is distinct from the Beacon's own `DEFAULT_ADMIN_ROLE`, which is held by the Pause Proxy on Ethereum Mainnet and by the Governance Relay on Arbitrum.
 
 ###### A.2.2.10.1.1.1.2.2.2 - Controller Role [Core]  <!-- UUID: 4f77eb6c-4b2f-4fa0-a7c0-d58e9b76ce8e -->
 
@@ -3276,143 +3276,318 @@ The Administered Agent Admin is an address registered on the AdministeredAgent w
 
 ###### A.2.2.10.1.1.1.2.3 - Liquidity Layer Shared Contracts [Core]  <!-- UUID: a2677d19-1f2c-4361-bedc-34cb2e7eaab5 -->
 
-The documents herein define the shared contracts of the Diamond PAU implementation of the Allocation System. These contracts are deployed once at the Sky ecosystem level and controlled by Sky Governance, shared across Prime Agent Instances rather than redeployed per Agent. The addresses are on Ethereum Mainnet.
+The documents herein define the shared contracts of the Diamond PAU implementation of the Allocation System. These contracts are shared across Prime Agent Instances rather than redeployed per Agent, and are controlled by Sky Governance. The documents herein are organized by chain.
 
-###### A.2.2.10.1.1.1.2.3.1 - Beacon [Core]  <!-- UUID: 5b0627e8-102b-42ea-8d9b-38463591faf9 -->
+###### A.2.2.10.1.1.1.2.3.1 - Ethereum Mainnet [Core]  <!-- UUID: c402a3e8-ca8b-4cc8-832c-407bf18d85a9 -->
 
-The Beacon (`Beacon`) is the registry that whitelists the Facets approved for use by Diamond PAU Instances; an Instance may only delegate calls to Facets registered on the Beacon. It is controlled by Sky Governance through the Pause Proxy. The Beacon's address on Ethereum Mainnet is `0x829dC2b7E94B1954F0764E573f2E0d45Afa28199`, and it is registered in the Chainlog under the key `PAU_BEACON`.
+The Ethereum Mainnet deployment of the Liquidity Layer Shared Contracts is defined in the subdocuments herein.
 
-###### A.2.2.10.1.1.1.2.3.2 - Facets [Core]  <!-- UUID: b7c73a0c-456d-4e75-93ac-8eec185ece31 -->
+###### A.2.2.10.1.1.1.2.3.1.1 - Beacon [Core]  <!-- UUID: 5b0627e8-102b-42ea-8d9b-38463591faf9 -->
 
-The documents herein define the Facets currently approved on the Beacon for use by Diamond PAU Instances. Each Facet is a singleton contract deployed at the Sky ecosystem level and shared across all such Instances. The set of approved Facets is maintained by Sky Governance.
+The Beacon (`Beacon`) is the registry that whitelists the Facets approved for use by Diamond PAU Instances; an Instance may only delegate calls to Facets registered on the Beacon. It is controlled by Sky Governance through the Pause Proxy. Its address on Ethereum Mainnet is `0x829dC2b7E94B1954F0764E573f2E0d45Afa28199`, and it is registered in the Chainlog under the key `PAU_BEACON`.
 
-###### A.2.2.10.1.1.1.2.3.2.1 - Aave v3 Facet [Core]  <!-- UUID: c9ecd9c2-dd1b-426b-8e52-66a2b1892289 -->
+###### A.2.2.10.1.1.1.2.3.1.2 - Facets [Core]  <!-- UUID: b7c73a0c-456d-4e75-93ac-8eec185ece31 -->
+
+The documents herein define the Facets currently approved on the Beacon for use by Diamond PAU Instances on Ethereum Mainnet. Each Facet is shared across all such Instances. The set of approved Facets is maintained by Sky Governance.
+
+Each Facet's subdocuments include its highest production rate limit: the highest `maxAmount` and `slope` any Diamond PAU Instance has operated at in production for that Facet. This is a historical limit, not any Instance's currently configured rate limit. It documents a Facet's operational track record, as precedent when evaluating a new Instance's proposed rate limits for that Facet.
+
+###### A.2.2.10.1.1.1.2.3.1.2.1 - Aave v3 Facet [Core]  <!-- UUID: c9ecd9c2-dd1b-426b-8e52-66a2b1892289 -->
 
 The Aave v3 Facet (`AaveFacet`) supplies and withdraws an underlying asset to and from an Aave v3 lending pool, or an Aave v3 fork such as SparkLend, holding the aTokens in the ALM Proxy. Its address on Ethereum Mainnet is `0x8CE890A96a193ff2DD4B2eA3C682326F655f6b62`.
 
-###### A.2.2.10.1.1.1.2.3.2.2 - Basin Facet [Core]  <!-- UUID: d9cbf883-119e-403d-8efa-125997cd8897 -->
+###### A.2.2.10.1.1.1.2.3.1.2.1.1 - Highest Production Rate Limit For Aave v3 Facet [Core]  <!-- UUID: 9846b991-12d9-4acd-8ada-f7e775e9be5d -->
+
+The Aave v3 Facet's highest production rate limit is:
+
+- Deposit
+    - `maxAmount`: 50,000,000 USDS
+    - `slope`: 50,000,000 USDS per day
+- Withdraw
+    - `maxAmount`: Unlimited
+
+###### A.2.2.10.1.1.1.2.3.1.2.2 - Basin Facet [Core]  <!-- UUID: d9cbf883-119e-403d-8efa-125997cd8897 -->
 
 The Basin Facet (`BasinFacet`) deposits assets into and withdraws them from a Basin in exchange for Basin shares. Its address on Ethereum Mainnet is `0xC84825BCD13AEddc372400239499380376a44A39`.
 
-###### A.2.2.10.1.1.1.2.3.2.3 - CCTP Facet [Core]  <!-- UUID: ce25217f-c37d-4415-b0d6-adecab3c7855 -->
+###### A.2.2.10.1.1.1.2.3.1.2.2.1 - Highest Production Rate Limit For Basin Facet [Core]  <!-- UUID: 28accba0-548b-4942-9d03-aefe4070a682 -->
+
+The Basin Facet's highest production rate limit is:
+
+- Deposit
+    - `maxAmount`: 50,000,000 USDS
+    - `slope`: 50,000,000 USDS per day
+- Withdraw
+    - `maxAmount`: Unlimited
+
+###### A.2.2.10.1.1.1.2.3.1.2.3 - CCTP Facet [Core]  <!-- UUID: ce25217f-c37d-4415-b0d6-adecab3c7855 -->
 
 The CCTP Facet (`CCTPFacet`) bridges USDC cross-chain through Circle's Cross-Chain Transfer Protocol (CCTP), burning on the source domain to a preconfigured mint recipient. Its address on Ethereum Mainnet is `0xADf62692340e46EF90336f2e75ce3b37f1148873`.
 
-###### A.2.2.10.1.1.1.2.3.2.4 - Centrifuge Facet [Core]  <!-- UUID: 0c7d3bb1-6013-4c1b-900e-5232c7c5d595 -->
+###### A.2.2.10.1.1.1.2.3.1.2.3.1 - Highest Production Rate Limit For CCTP Facet [Core]  <!-- UUID: 758de71b-6f04-40af-958c-d7fcd8b97c28 -->
 
-The Centrifuge Facet (`CentrifugeFacet`) manages Centrifuge v3 async vault positions, cancelling and claiming pending deposit and redeem requests and initiating cross-chain share transfers. Its address on Ethereum Mainnet is `0xa0A10BA97be1412730D694B8dE1afe7eff20eC31`.
+Further details will be specified in a future iteration of the Atlas.
 
-###### A.2.2.10.1.1.1.2.3.2.5 - Curve Facet [Core]  <!-- UUID: 0648b191-3f6c-4164-b26d-71666ca1a1cb -->
+###### A.2.2.10.1.1.1.2.3.1.2.4 - Centrifuge Facet [Core]  <!-- UUID: 0c7d3bb1-6013-4c1b-900e-5232c7c5d595 -->
+
+The Centrifuge Facet (`CentrifugeFacet`) manages Centrifuge v3 async vault positions, canceling and claiming pending deposit and redeem requests and initiating cross-chain share transfers. Its address on Ethereum Mainnet is `0xa0A10BA97be1412730D694B8dE1afe7eff20eC31`.
+
+###### A.2.2.10.1.1.1.2.3.1.2.4.1 - Highest Production Rate Limit For Centrifuge Facet [Core]  <!-- UUID: 0c4715eb-f611-4c0d-9f1c-a2d133f37bef -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.5 - Curve Facet [Core]  <!-- UUID: 0648b191-3f6c-4164-b26d-71666ca1a1cb -->
 
 The Curve Facet (`CurveFacet`) swaps between assets in a Curve pool and adds or removes pool liquidity, under a max-slippage guard. Its address on Ethereum Mainnet is `0x139D81d7d6040fAeF7cF0EF5A2636Ca8a97a30d8`.
 
-###### A.2.2.10.1.1.1.2.3.2.6 - DAI-USDS Facet [Core]  <!-- UUID: b6a37e83-d51e-4bd3-afe6-a6f95cd943fe -->
+###### A.2.2.10.1.1.1.2.3.1.2.5.1 - Highest Production Rate Limit For Curve Facet [Core]  <!-- UUID: 1385e4c4-3a63-48c1-b7b6-4af93f871ac7 -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.6 - DAI-USDS Facet [Core]  <!-- UUID: b6a37e83-d51e-4bd3-afe6-a6f95cd943fe -->
 
 The DAI-USDS Facet (`DAIUSDSFacet`) converts between DAI and USDS at 1:1 through the DAI-USDS converter. Its address on Ethereum Mainnet is `0x3817F734CAe6AD2BDb79F9ff23091F2AD478da5F`.
 
-###### A.2.2.10.1.1.1.2.3.2.7 - ERC-4626 Facet [Core]  <!-- UUID: 05f5d939-712b-4204-8f77-4ef5ea598dcc -->
+###### A.2.2.10.1.1.1.2.3.1.2.6.1 - Highest Production Rate Limit For DAI-USDS Facet [Core]  <!-- UUID: e0cb8fc5-6852-4ae1-ac0a-4cf6847396b5 -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.7 - ERC-4626 Facet [Core]  <!-- UUID: 05f5d939-712b-4204-8f77-4ef5ea598dcc -->
 
 The ERC-4626 Facet (`ERC4626Facet`) deposits, withdraws, and redeems against any ERC-4626 vault, under min-shares, min-assets, max-shares-burned, and max-exchange-rate guards. Its address on Ethereum Mainnet is `0x1dCA18608c89174181153E786778705b4A0E1a06`.
 
-###### A.2.2.10.1.1.1.2.3.2.8 - ERC-7540 Facet [Core]  <!-- UUID: 83d0bf58-6a92-4873-ba9e-e5a23c8dca1c -->
+###### A.2.2.10.1.1.1.2.3.1.2.7.1 - Highest Production Rate Limit For ERC-4626 Facet [Core]  <!-- UUID: 24faa338-1e0b-41fb-b21c-82b12f0d01e4 -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.8 - ERC-7540 Facet [Core]  <!-- UUID: 83d0bf58-6a92-4873-ba9e-e5a23c8dca1c -->
 
 The ERC-7540 Facet (`ERC7540Facet`) runs the asynchronous ERC-7540 vault flow, requesting and claiming deposits and redemptions. Its address on Ethereum Mainnet is `0x4f7e0E3612b0e1E156A2B6570a51d4BD709F1315`.
 
-###### A.2.2.10.1.1.1.2.3.2.9 - Ethena Facet [Core]  <!-- UUID: b009545a-fd85-42f9-ad94-bc0acfe1f27a -->
+###### A.2.2.10.1.1.1.2.3.1.2.8.1 - Highest Production Rate Limit For ERC-7540 Facet [Core]  <!-- UUID: e3dcdb9a-17a6-4cdd-9d50-233933917c0a -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.9 - Ethena Facet [Core]  <!-- UUID: b009545a-fd85-42f9-ad94-bc0acfe1f27a -->
 
 The Ethena Facet (`EthenaFacet`) drives the Ethena USDe mint and burn and sUSDe staking lifecycle, managing the delegated signer, mint and burn approvals, and sUSDe cooldown and unstake. Its address on Ethereum Mainnet is `0xEc48D773CEef1c6b07CdA1afA2716C478b55187B`.
 
-###### A.2.2.10.1.1.1.2.3.2.10 - Farm Facet [Core]  <!-- UUID: 22387224-d9be-4aee-b47f-07307eb17c90 -->
+###### A.2.2.10.1.1.1.2.3.1.2.9.1 - Highest Production Rate Limit For Ethena Facet [Core]  <!-- UUID: 578bfe1b-1204-4a2e-8c5a-369eca445101 -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.10 - Farm Facet [Core]  <!-- UUID: 22387224-d9be-4aee-b47f-07307eb17c90 -->
 
 The Farm Facet (`FarmFacet`) stakes and withdraws a token in a Synthetix-style reward farm and claims accrued rewards. Its address on Ethereum Mainnet is `0xF24E91f5D8529436c9fB92dd94F80d4A6C25d0f0`.
 
-###### A.2.2.10.1.1.1.2.3.2.11 - LayerZero Facet [Core]  <!-- UUID: 17b0a239-b0b0-476e-9a67-b8b6e3156507 -->
+###### A.2.2.10.1.1.1.2.3.1.2.10.1 - Highest Production Rate Limit For Farm Facet [Core]  <!-- UUID: 06b55083-dfc4-472c-bc5f-ad54573b08ae -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.11 - LayerZero Facet [Core]  <!-- UUID: 17b0a239-b0b0-476e-9a67-b8b6e3156507 -->
 
 The LayerZero Facet (`LayerZeroFacet`) bridges tokens implementing the Omnichain Fungible Token (OFT) standard cross-chain via LayerZero v2 to a preconfigured recipient. Its address on Ethereum Mainnet is `0xA0c323a0acb20F259eA4ff343319D450BE6472e5`.
 
-###### A.2.2.10.1.1.1.2.3.2.12 - Maple Facet [Core]  <!-- UUID: 2561da4c-6e42-4503-b763-4f121236b1e8 -->
+###### A.2.2.10.1.1.1.2.3.1.2.11.1 - Highest Production Rate Limit For LayerZero Facet [Core]  <!-- UUID: e145ea7f-c8e8-4488-bd97-0ab9bef554ca -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.12 - Maple Facet [Core]  <!-- UUID: 2561da4c-6e42-4503-b763-4f121236b1e8 -->
 
 The Maple Facet (`MapleFacet`) requests and cancels redemptions of Maple pool tokens. Its address on Ethereum Mainnet is `0x691b5c26aD2B74d2376f4eD87904E9D3E47bD630`.
 
-###### A.2.2.10.1.1.1.2.3.2.13 - Merkl Facet [Core]  <!-- UUID: 8c492c88-d8f9-46c8-85f6-a42ee6f944d6 -->
+###### A.2.2.10.1.1.1.2.3.1.2.12.1 - Highest Production Rate Limit For Maple Facet [Core]  <!-- UUID: d80609bf-46b7-434a-9f2b-999148675360 -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.13 - Merkl Facet [Core]  <!-- UUID: 8c492c88-d8f9-46c8-85f6-a42ee6f944d6 -->
 
 The Merkl Facet (`MerklFacet`) toggles operator authorization on a Merkl distributor, delegating reward claiming to an operator. Its address on Ethereum Mainnet is `0x321138Db5E056e9d0080D4c278e10A1EdC091Eb0`.
 
-###### A.2.2.10.1.1.1.2.3.2.14 - OTC Facet [Core]  <!-- UUID: 35060c04-e4c8-4dd1-a4fe-09bc9288534d -->
+###### A.2.2.10.1.1.1.2.3.1.2.13.1 - Highest Production Rate Limit For Merkl Facet [Core]  <!-- UUID: c3013297-25ff-4755-a2d7-c23eba1aac5a -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.14 - OTC Facet [Core]  <!-- UUID: 35060c04-e4c8-4dd1-a4fe-09bc9288534d -->
 
 The OTC Facet (`OTCFacet`) executes over-the-counter swaps, sending an asset to an exchange and later claiming the counter-asset from a designated buffer, under recharge-rate and slippage checks. Its address on Ethereum Mainnet is `0x46b24ba00B65CB4f603447590e539b08097fb7Ac`.
 
-###### A.2.2.10.1.1.1.2.3.2.15 - Pendle Facet [Core]  <!-- UUID: 222342b5-aa4c-4be4-8411-c947e96e8fdd -->
+###### A.2.2.10.1.1.1.2.3.1.2.14.1 - Highest Production Rate Limit For OTC Facet [Core]  <!-- UUID: 7366fe0d-11c4-4425-b5a5-bc61e3515ca1 -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.15 - Pendle Facet [Core]  <!-- UUID: 222342b5-aa4c-4be4-8411-c947e96e8fdd -->
 
 The Pendle Facet (`PendleFacet`) redeems Pendle principal and yield tokens (PT and YT) for their underlying token after market expiry via the Pendle router. Its address on Ethereum Mainnet is `0xcC9dD4c9B2a9c08f2692e7060F43d29A03E87348`.
 
-###### A.2.2.10.1.1.1.2.3.2.16 - PSM Facet [Core]  <!-- UUID: afa3da61-c32a-4efd-900b-16e1c262c842 -->
+###### A.2.2.10.1.1.1.2.3.1.2.15.1 - Highest Production Rate Limit For Pendle Facet [Core]  <!-- UUID: 9d140c95-a07f-47d6-9bd8-f53e585b2566 -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.16 - PSM Facet [Core]  <!-- UUID: afa3da61-c32a-4efd-900b-16e1c262c842 -->
 
 The PSM Facet (`PSMFacet`) swaps between USDS and USDC by routing through DAI and the Lite PSM's no-fee path. Its address on Ethereum Mainnet is `0xE4A5dAc768a310cc2316f258901b32E499653064`.
 
-###### A.2.2.10.1.1.1.2.3.2.17 - Spark Vault Facet [Core]  <!-- UUID: ad11b1de-41d7-4529-920b-55583445648e -->
+###### A.2.2.10.1.1.1.2.3.1.2.16.1 - Highest Production Rate Limit For PSM Facet [Core]  <!-- UUID: 46f9b806-e408-41e3-8614-b8e5af62dbe2 -->
+
+The PSM Facet's highest production rate limit is:
+
+- Swap USDS To USDC
+    - `maxAmount`: 50,000,000 USDC
+    - `slope`: 50,000,000 USDC per day
+- Swap USDC To USDS
+    - `maxAmount`: Unlimited
+
+###### A.2.2.10.1.1.1.2.3.1.2.17 - Spark Vault Facet [Core]  <!-- UUID: ad11b1de-41d7-4529-920b-55583445648e -->
 
 The Spark Vault Facet (`SparkVaultFacet`) pulls assets from a Spark vault via its `take` function. Its address on Ethereum Mainnet is `0xff0d19920E207e3A17eb5A2E5bA3AFA44836362b`.
 
-###### A.2.2.10.1.1.1.2.3.2.18 - Superstate Facet [Core]  <!-- UUID: 6f3e9682-7628-407b-adc3-9627bad3a419 -->
+###### A.2.2.10.1.1.1.2.3.1.2.17.1 - Highest Production Rate Limit For Spark Vault Facet [Core]  <!-- UUID: 987fc9bb-fb53-43da-b192-5a23f977562c -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.18 - Superstate Facet [Core]  <!-- UUID: 6f3e9682-7628-407b-adc3-9627bad3a419 -->
 
 The Superstate Facet (`SuperstateFacet`) subscribes USDC into Superstate USTB, minting USTB. Its address on Ethereum Mainnet is `0xeE197475607E9a27cCAA4786e740d2F0d0E706A7`.
 
-###### A.2.2.10.1.1.1.2.3.2.19 - Transfer Asset Facet [Core]  <!-- UUID: e59b91c8-05c9-47b2-a115-8a41b12de659 -->
+###### A.2.2.10.1.1.1.2.3.1.2.18.1 - Highest Production Rate Limit For Superstate Facet [Core]  <!-- UUID: 7b566975-cf0d-46d5-aa37-4a5c94613bc4 -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.19 - Transfer Asset Facet [Core]  <!-- UUID: e59b91c8-05c9-47b2-a115-8a41b12de659 -->
 
 The Transfer Asset Facet (`TransferAssetFacet`) transfers an ERC-20 asset from the ALM Proxy to a rate-limit-authorized destination address. Its address on Ethereum Mainnet is `0x4DA7608C331b8f135df5b985018933780eCd089D`.
 
-###### A.2.2.10.1.1.1.2.3.2.20 - Uniswap v3 Facet [Core]  <!-- UUID: b808a829-2f31-42f1-ac9f-6801d3eb8437 -->
+###### A.2.2.10.1.1.1.2.3.1.2.19.1 - Highest Production Rate Limit For Transfer Asset Facet [Core]  <!-- UUID: 14fc2b62-41f4-4677-bbe6-36a71e843379 -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.20 - Uniswap v3 Facet [Core]  <!-- UUID: b808a829-2f31-42f1-ac9f-6801d3eb8437 -->
 
 The Uniswap v3 Facet (`UniswapV3Facet`) executes Uniswap v3 exact-input swaps and adds or removes concentrated-liquidity positions, under tick-bound, time-weighted-average-price, and slippage guards. Its address on Ethereum Mainnet is `0x445D9Dc752F269Be48250f1A180CAC4c61cE4bab`.
 
-###### A.2.2.10.1.1.1.2.3.2.21 - Uniswap v4 Facet [Core]  <!-- UUID: c58ae1da-985d-4f85-80be-396de4f8191f -->
+###### A.2.2.10.1.1.1.2.3.1.2.20.1 - Highest Production Rate Limit For Uniswap v3 Facet [Core]  <!-- UUID: d9b04eda-c204-4bac-a2ec-7af1f9d0dd9c -->
+
+The Uniswap v3 Facet's highest production rate limit is:
+
+- Deposit (aggregate across both tokens, with AUSD and USDC each counted at $1)
+    - `maxAmount`: 25,000,000 USD-equivalent
+    - `slope`: 25,000,000 USD-equivalent per day
+- Withdraw
+    - `maxAmount`: Unlimited
+- Swap (per token sold)
+    - `maxAmount`: 5,000,000 of the token sold
+    - `slope`: 25,000,000 of the token sold per day
+
+###### A.2.2.10.1.1.1.2.3.1.2.21 - Uniswap v4 Facet [Core]  <!-- UUID: c58ae1da-985d-4f85-80be-396de4f8191f -->
 
 The Uniswap v4 Facet (`UniswapV4Facet`) mints, increases, and decreases Uniswap v4 liquidity positions and executes token swaps, under tick-limit and slippage guards. Its address on Ethereum Mainnet is `0x75D35ffB8e6B871E12EB549CcF6afD324c46E47D`.
 
-###### A.2.2.10.1.1.1.2.3.2.22 - USDS Facet [Core]  <!-- UUID: 917e1162-3c06-4508-b0e9-02c5eefc1346 -->
+###### A.2.2.10.1.1.1.2.3.1.2.21.1 - Highest Production Rate Limit For Uniswap v4 Facet [Core]  <!-- UUID: 40759d30-f00a-4cab-a217-c3f778ab75e2 -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.22 - USDS Facet [Core]  <!-- UUID: 917e1162-3c06-4508-b0e9-02c5eefc1346 -->
 
 The USDS Facet (`USDSFacet`) mints and burns USDS against an allocator vault, drawing USDS into and wiping it from the vault buffer. Its address on Ethereum Mainnet is `0x1221CC4B85Ab260660aD21C2829e0EB516dffBc7`.
 
-###### A.2.2.10.1.1.1.2.3.2.23 - weETH Facet [Core]  <!-- UUID: abe32bbc-2ac3-4d3c-8133-14c233e6853d -->
+###### A.2.2.10.1.1.1.2.3.1.2.22.1 - Highest Production Rate Limit For USDS Facet [Core]  <!-- UUID: 535ee5b5-13d4-464a-a389-166e2ab507aa -->
+
+The USDS Facet's highest production rate limit is:
+
+- Mint
+    - `maxAmount`: 50,000,000 USDS
+    - `slope`: 50,000,000 USDS per day
+- Burn
+    - `maxAmount`: Unlimited
+
+###### A.2.2.10.1.1.1.2.3.1.2.23 - weETH Facet [Core]  <!-- UUID: abe32bbc-2ac3-4d3c-8133-14c233e6853d -->
 
 The weETH Facet (`WEETHFacet`) stakes ETH (from WETH) into ether.fi eETH and wraps it to weETH, and handles the unwrap, withdrawal-request, and claim flow back to WETH. Its address on Ethereum Mainnet is `0x1d8D089EB7D558F5dc6aA0cf98DDe13B77b3F641`.
 
-###### A.2.2.10.1.1.1.2.3.2.24 - Wrap Proxy ETH Facet [Core]  <!-- UUID: 2dae0ea0-5fff-4806-8c30-27a92e5676dc -->
+###### A.2.2.10.1.1.1.2.3.1.2.23.1 - Highest Production Rate Limit For weETH Facet [Core]  <!-- UUID: 0efebeca-917c-41e4-9540-22197e26c433 -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.24 - Wrap Proxy ETH Facet [Core]  <!-- UUID: 2dae0ea0-5fff-4806-8c30-27a92e5676dc -->
 
 The Wrap Proxy ETH Facet (`WrapProxyETHFacet`) wraps the ALM Proxy's entire native ETH balance into WETH. Its address on Ethereum Mainnet is `0x081506DE21C695Af5e61a81aD288C8A96B6b59B9`.
 
-###### A.2.2.10.1.1.1.2.3.2.25 - wstETH Facet [Core]  <!-- UUID: 304c403a-ca08-4f49-a2f8-34c3c8a793db -->
+###### A.2.2.10.1.1.1.2.3.1.2.24.1 - Highest Production Rate Limit For Wrap Proxy ETH Facet [Core]  <!-- UUID: 755f0e88-874a-47a9-9367-7259b3046b4c -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.25 - wstETH Facet [Core]  <!-- UUID: 304c403a-ca08-4f49-a2f8-34c3c8a793db -->
 
 The wstETH Facet (`WSTETHFacet`) converts WETH to ETH to wstETH (Lido) and handles the Lido withdrawal-queue request and claim flow back to WETH. Its address on Ethereum Mainnet is `0x3a82D11Cd37Fb0098363262Dc69425d07Fa05516`.
 
-###### A.2.2.10.1.1.1.2.3.3 - PAU Factory [Core]  <!-- UUID: cc980032-b7e4-41c5-ac4d-2f99f89f51dc -->
+###### A.2.2.10.1.1.1.2.3.1.2.25.1 - Highest Production Rate Limit For wstETH Facet [Core]  <!-- UUID: 3c86d6b8-5f49-42af-9e84-32366fa65678 -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.3 - PAU Factory [Core]  <!-- UUID: cc980032-b7e4-41c5-ac4d-2f99f89f51dc -->
 
 The PAU Factory (`PAUFactory`) is the contract that deploys new Diamond PAU Instances. Its address on Ethereum Mainnet is `0x69A5d548830AC2A4Ba90A44a2C75BDA71f97fc66`.
 
-###### A.2.2.10.1.1.1.2.3.4 - PAU Assembler [Core]  <!-- UUID: 8772a459-55ea-4387-889d-08fb01ad40d4 -->
+###### A.2.2.10.1.1.1.2.3.1.4 - PAU Assembler [Core]  <!-- UUID: 8772a459-55ea-4387-889d-08fb01ad40d4 -->
 
 The PAU Assembler (`DefaultPAUAssembler`) is the contract that assembles a Diamond PAU Instance from its Beacon-approved Facets at deployment. Its address on Ethereum Mainnet is `0xc812aAD3FaE2D3511C664374B601a9BeBFeCCa2E`.
 
-###### A.2.2.10.1.1.1.2.3.5 - Administered Agent Factory [Core]  <!-- UUID: 833a0750-ff91-4fdc-95a8-af77df301dbc -->
+###### A.2.2.10.1.1.1.2.3.1.5 - Administered Agent Factory [Core]  <!-- UUID: 833a0750-ff91-4fdc-95a8-af77df301dbc -->
 
 The Administered Agent Factory (`AdministeredAgentFactory`) is the contract that deploys the `AdministeredAgent` contracts that hold the Allocator Role on the Controller of a Diamond PAU Instance, with the Prime Agent's Relayer system registered as their Actors. Its address on Ethereum Mainnet is `0x2968c3b5478cF93B70aB1e24255d4EDBBd27a089`.
 
-###### A.2.2.10.1.1.1.2.3.6 - Configurator [Core]  <!-- UUID: 5e1f82c7-bcd6-46f8-aec0-3e767e55a93c -->
+###### A.2.2.10.1.1.1.2.3.1.6 - Configurator [Core]  <!-- UUID: 5e1f82c7-bcd6-46f8-aec0-3e767e55a93c -->
 
-The Configurator (`PAS_CONFIGURATOR`) is the contract through which cBEAMs operate Diamond PAUs' rate limits and enabled controller actions, within the bounds, as specified in [A.2.2.10.1.1.1.2.4.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4), and once registered and paired, as specified in [A.2.2.10.1.1.1.2.4.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d). Its address on Ethereum Mainnet is `0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929`.
+The Configurator (`PAS_CONFIGURATOR`) is the contract through which cBEAMs operate Diamond PAUs' rate limits and enabled controller actions, within the bounds, as specified in [A.2.2.10.1.1.1.2.4.1.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4), and once registered and paired, as specified in [A.2.2.10.1.1.1.2.4.1.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d). Its address on Ethereum Mainnet is `0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929`.
 
-###### A.2.2.10.1.1.1.2.3.7 - BeamState [Core]  <!-- UUID: 2e36bb4f-91db-4dca-bdb1-e4aa385b1129 -->
+###### A.2.2.10.1.1.1.2.3.1.7 - BeamState [Core]  <!-- UUID: 2e36bb4f-91db-4dca-bdb1-e4aa385b1129 -->
 
-The BeamState (`PAS_STATE`) is the contract that records which cBEAMs, `RateLimits` contracts, and Controllers are registered, as specified in [A.2.2.10.1.1.1.2.4.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d), and holds the bounds within which rate limits and controller actions may be adjusted, as specified in [A.2.2.10.1.1.1.2.4.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4). Its address on Ethereum Mainnet is `0x1A1879E66547F90bfF87D45A5b0335950E019E02`.
+The BeamState (`PAS_STATE`) is the contract that records which cBEAMs, `RateLimits` contracts, and Controllers are registered, as specified in [A.2.2.10.1.1.1.2.4.1.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d), and holds the bounds within which rate limits and controller actions may be adjusted, as specified in [A.2.2.10.1.1.1.2.4.1.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4). Its address on Ethereum Mainnet is `0x1A1879E66547F90bfF87D45A5b0335950E019E02`.
 
-###### A.2.2.10.1.1.1.2.3.8 - Timelock [Core]  <!-- UUID: f6791cf7-f3aa-49da-9691-73e480bf3328 -->
+###### A.2.2.10.1.1.1.2.3.1.8 - Timelock [Core]  <!-- UUID: f6791cf7-f3aa-49da-9691-73e480bf3328 -->
 
-The Timelock (`PAS_TIMELOCK`) is the contract that delays certain changes to BeamState's registries and bounds before they take effect, as specified in [A.2.2.10.1.1.1.2.4.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb), and also delays restarting Configurator operations after a halt, as specified in [A.2.2.10.1.1.1.2.4.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b). Its own operational details, including its roles and their holders, are specified in [A.2.2.10.1.1.1.2.4.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103). Its address on Ethereum Mainnet is `0xB50a06Af02dDE44dB6EA7ee729403848c2B35293`.
+The Timelock (`PAS_TIMELOCK`) is the contract that delays certain changes to BeamState's registries and bounds before they take effect, as specified in [A.2.2.10.1.1.1.2.4.1.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb), and also delays restarting Configurator operations after a halt, as specified in [A.2.2.10.1.1.1.2.4.1.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b). Its own operational details, including its roles and their holders, are specified in [A.2.2.10.1.1.1.2.4.1.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103). Its address on Ethereum Mainnet is `0xB50a06Af02dDE44dB6EA7ee729403848c2B35293`.
 
-###### A.2.2.10.1.1.1.2.3.9 - PASMom [Core]  <!-- UUID: 781172a1-e2b2-4c7b-852a-3f8e89fec8ca -->
+###### A.2.2.10.1.1.1.2.3.1.9 - PASMom [Core]  <!-- UUID: 781172a1-e2b2-4c7b-852a-3f8e89fec8ca -->
 
-The PASMom (`PAS_MOM`) is the contract that lets Sky Governance bypass the GSM Pause Delay to halt Configurator operations or pause the Timelock in an emergency, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71) and [A.2.2.10.1.1.1.2.4.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8). Its address on Ethereum Mainnet is `0xD44B8d01D5207aA792C666d0A712A1A161CD6171`.
+The PASMom (`PAS_MOM`) is the contract that lets Sky Governance bypass the GSM Pause Delay to halt Configurator operations or pause the Timelock in an emergency, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71) and [A.2.2.10.1.1.1.2.4.1.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8). Its address on Ethereum Mainnet is `0xD44B8d01D5207aA792C666d0A712A1A161CD6171`.
+
+###### A.2.2.10.1.1.1.2.3.2 - Arbitrum [Core]  <!-- UUID: 87d0c824-01f9-4a1a-8163-148b91476147 -->
+
+The Arbitrum deployment of the Liquidity Layer Shared Contracts is defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.3.2.1 - Beacon [Core]  <!-- UUID: 03224b6d-a770-43b1-a4fa-8192a2fcdbc9 -->
+
+The Beacon's role is as specified in [A.2.2.10.1.1.1.2.3.1.1 - Beacon](5b0627e8-102b-42ea-8d9b-38463591faf9). Its address on Arbitrum is `0x86036CE5d2f792367C0AA43164e688d13c5A60A8`, and its `DEFAULT_ADMIN_ROLE` is held by Sky Governance through the Governance Relay (`0x10E6593CDda8c58a1d0f14C5164B376352a55f2F`).
+
+###### A.2.2.10.1.1.1.2.3.2.2 - Facets [Core]  <!-- UUID: 8e966e54-bc12-4e9a-b83f-065ed611e5d3 -->
+
+The Facets currently approved on the Beacon for use by Diamond PAU Instances on Arbitrum are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.3.2.2.1 - CCTP Facet [Core]  <!-- UUID: fe17841c-2898-4ce6-b1c4-2e64b0a7f91b -->
+
+The CCTP Facet's mechanism is as specified in [A.2.2.10.1.1.1.2.3.1.2.3 - CCTP Facet](ce25217f-c37d-4415-b0d6-adecab3c7855). Its address on Arbitrum is `0xeCCA0D296Cb133081d41E9772B60D57F5fd2798E`.
+
+###### A.2.2.10.1.1.1.2.3.2.3 - PAU Factory [Core]  <!-- UUID: b4e986f3-b3a7-4483-ac7a-17ea8f792220 -->
+
+The PAU Factory's role is as specified in [A.2.2.10.1.1.1.2.3.1.3 - PAU Factory](cc980032-b7e4-41c5-ac4d-2f99f89f51dc). Its address on Arbitrum is `0x3968a022D955Bbb7927cc011A48601B65a33F346`.
+
+###### A.2.2.10.1.1.1.2.3.2.4 - Administered Agent Factory [Core]  <!-- UUID: 8db42e70-ed35-4628-94ec-614482582b2d -->
+
+The Administered Agent Factory's role is as specified in [A.2.2.10.1.1.1.2.3.1.5 - Administered Agent Factory](833a0750-ff91-4fdc-95a8-af77df301dbc). Its address on Arbitrum is `0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d`.
+
+###### A.2.2.10.1.1.1.2.3.2.5 - Configurator [Core]  <!-- UUID: 34423259-8fc5-4761-af8b-734332d2ada5 -->
+
+The Configurator's role is as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c); its operation on Arbitrum is as specified in [A.2.2.10.1.1.1.2.4.2.4 - Configurator](dd6636c1-7c57-4e72-8828-8bc436911460) instead. Its address on Arbitrum is `0xd11Dc57F3eF23bb7b3142588a461F68460a7C474`.
+
+###### A.2.2.10.1.1.1.2.3.2.6 - BeamState [Core]  <!-- UUID: 1e0bce04-7924-4d12-889f-cb7a17451a90 -->
+
+The BeamState's role is as specified in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129); its rules on Arbitrum are as specified in [A.2.2.10.1.1.1.2.4.2.3 - BeamState](a5c61288-2ff6-4241-b2b2-2a78ac8b47ba) instead. Its address on Arbitrum is `0x11CFefeA67B18de9046a6250555D438854fFEEDa`.
+
+###### A.2.2.10.1.1.1.2.3.2.7 - Timelock [Core]  <!-- UUID: c0642bfe-493c-489d-9f9f-9171dbb99d99 -->
+
+The Timelock's role is as specified in [A.2.2.10.1.1.1.2.3.1.8 - Timelock](f6791cf7-f3aa-49da-9691-73e480bf3328); its roles and their holders on Arbitrum are as specified in [A.2.2.10.1.1.1.2.4.2.3.2 - Timelock](4d5c2636-e5f6-4ac6-a5e6-9212aed5d825) instead. Its address on Arbitrum is `0x66d3653e66F7edb973549CFA3b46F22298B8f983`.
 
 ###### A.2.2.10.1.1.1.2.4 - PAS [Core]  <!-- UUID: 989171ed-5424-42ee-83f4-199e1149699c -->
 
@@ -3420,48 +3595,52 @@ The PAS (Parallelized Allocation System) is a permissioned layer that lets cBEAM
 
 The PAS consists of the following contracts:
 
-- BeamState: holds the registries and bounds the Core Council Multisig sets. Sky Governance retains full, direct control over it at all times, since the Sky Pause Proxy holds ward authorization on it, allowing a Sky Core Spell to call any of its functions directly.
+- BeamState: holds the registries and bounds the Core Council Multisig sets. Sky Governance retains full, direct control over it at all times, since it holds ward authorization on it — through the Sky Pause Proxy on Ethereum Mainnet, or the Governance Relay on other chains — allowing a Sky Core Spell to call any of its functions directly.
 - Configurator: the contract a cBEAM calls to adjust a rate limit or execute an enabled controller action within those bounds.
 - Timelock: delays certain Core Council Multisig changes to BeamState's registries and bounds before they take effect.
-- PASMom: the PAS's emergency stop-and-pause switch.
+- PASMom: the PAS's emergency stop-and-pause switch, deployed on Ethereum Mainnet only.
 
-The documents herein define its parameters, the Diamond PAUs with the Configurator enabled, BeamState and who may change its rules, the Configurator and its Operators, and the transitional measures that apply while the Timelock is paused. For the emergency path itself, see [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
+BeamState, the Configurator, and the Timelock are each deployed independently per chain. A Diamond PAU on a given chain is governed by that chain's own PAS deployment, with its own Timelock and registries, overseen by the same Core Council Multisig across all chains. Each chain's PAS deployment is defined in the subdocuments herein. For the emergency path itself, see [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
 
-###### A.2.2.10.1.1.1.2.4.1 - Parameters [Core]  <!-- UUID: 422e200e-2a94-4bde-b718-328ff82d3bb8 -->
+###### A.2.2.10.1.1.1.2.4.1 - Ethereum Mainnet [Core]  <!-- UUID: 9138461b-bff3-4c2e-8051-6e2f0401dc8a -->
+
+The documents herein define the PAS's parameters, the Diamond PAUs with the Configurator enabled, BeamState and who may change its rules, the Configurator and its Operators, and the transitional measures that apply while the Timelock is paused, for the Ethereum Mainnet deployment.
+
+###### A.2.2.10.1.1.1.2.4.1.1 - Parameters [Core]  <!-- UUID: 422e200e-2a94-4bde-b718-328ff82d3bb8 -->
 
 The documents herein define the parameters and mechanisms of the PAS.
 
-###### A.2.2.10.1.1.1.2.4.1.1 - Hop [Core]  <!-- UUID: 6d77d472-4f2e-4c97-a79f-6911326ab728 -->
+###### A.2.2.10.1.1.1.2.4.1.1.1 - Hop [Core]  <!-- UUID: 6d77d472-4f2e-4c97-a79f-6911326ab728 -->
 
 The documents herein define the `hop` parameter and its default value.
 
-###### A.2.2.10.1.1.1.2.4.1.1.1 - Hop Definition [Core]  <!-- UUID: dc0e3a84-b542-4985-a41b-7ae2a3921cf3 -->
+###### A.2.2.10.1.1.1.2.4.1.1.1.1 - Hop Definition [Core]  <!-- UUID: dc0e3a84-b542-4985-a41b-7ae2a3921cf3 -->
 
 The `hop` parameter defines the minimum time interval, in seconds, that must elapse between consecutive increases any cBEAM makes to the same rate limit's `maxAmount` or `slope`. Its value is set per `RateLimits` contract, but the interval is tracked independently for each rate limit within it, so increasing one rate limit does not affect when another can next be increased. A decrease is not subject to `hop`.
 
-Changes to the `hop` parameter are proposed by the Core Council Multisig, as specified in [A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), or made directly via an Executive Vote at any time, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4 - PAS](989171ed-5424-42ee-83f4-199e1149699c).
+Changes to the `hop` parameter are proposed by the Core Council Multisig, as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), or made directly via an Executive Vote at any time, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4 - PAS](989171ed-5424-42ee-83f4-199e1149699c).
 
-###### A.2.2.10.1.1.1.2.4.1.1.2 - Hop Default Value [Core]  <!-- UUID: f86fe54a-9770-41ad-8ad2-7c58090224ce -->
+###### A.2.2.10.1.1.1.2.4.1.1.1.2 - Hop Default Value [Core]  <!-- UUID: f86fe54a-9770-41ad-8ad2-7c58090224ce -->
 
-All `RateLimits` contracts use a single, shared `hop` value unless the Core Council Multisig or an Executive Vote sets one specifically for a given contract. That shared value is 57,600 seconds (16 hours).
+All `RateLimits` contracts on Ethereum Mainnet use a single, shared `hop` value unless the Core Council Multisig or an Executive Vote sets one specifically for a given contract. That shared value is 57,600 seconds (16 hours).
 
-###### A.2.2.10.1.1.1.2.4.1.2 - Max Change [Core]  <!-- UUID: e1cbf548-2f01-44a0-adeb-b73564fa6458 -->
+###### A.2.2.10.1.1.1.2.4.1.1.2 - Max Change [Core]  <!-- UUID: e1cbf548-2f01-44a0-adeb-b73564fa6458 -->
 
 The documents herein define the `maxChange` parameter and its default value.
 
-###### A.2.2.10.1.1.1.2.4.1.2.1 - Max Change Definition [Core]  <!-- UUID: 942d6607-b92c-4779-8012-ea3b259ebf2b -->
+###### A.2.2.10.1.1.1.2.4.1.1.2.1 - Max Change Definition [Core]  <!-- UUID: 942d6607-b92c-4779-8012-ea3b259ebf2b -->
 
 The `maxChange` parameter, defined per `RateLimits` contract, bounds how far a cBEAM may raise a rate limit's `maxAmount` or `slope` in a single adjustment: the new value cannot exceed the higher of the current value multiplied by `maxChange`, or that rate limit's own registered default.
 
 `maxChange` itself can only be set to zero or to `WAD` (`10**18`, a multiplier of one (1)) or more; it cannot be set to a fractional multiplier below one (1).
 
-Changes to the `maxChange` parameter are proposed by the Core Council Multisig, as specified in [A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), or made directly via an Executive Vote at any time, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4 - PAS](989171ed-5424-42ee-83f4-199e1149699c).
+Changes to the `maxChange` parameter are proposed by the Core Council Multisig, as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), or made directly via an Executive Vote at any time, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4 - PAS](989171ed-5424-42ee-83f4-199e1149699c).
 
-###### A.2.2.10.1.1.1.2.4.1.2.2 - Max Change Default Value [Core]  <!-- UUID: 0414677e-d79e-4d84-b0aa-209f0fa3ffe3 -->
+###### A.2.2.10.1.1.1.2.4.1.1.2.2 - Max Change Default Value [Core]  <!-- UUID: 0414677e-d79e-4d84-b0aa-209f0fa3ffe3 -->
 
-All `RateLimits` contracts use a single, shared `maxChange` value unless the Core Council Multisig or an Executive Vote sets one specifically for a given contract. That shared value is 1.20.
+All `RateLimits` contracts on Ethereum Mainnet use a single, shared `maxChange` value unless the Core Council Multisig or an Executive Vote sets one specifically for a given contract. That shared value is 1.20.
 
-###### A.2.2.10.1.1.1.2.4.1.3 - Locked Unlimited Rate Limit Definition [Core]  <!-- UUID: 92a74fe1-3115-4cd7-bbf8-4e16fb4b0aa8 -->
+###### A.2.2.10.1.1.1.2.4.1.1.3 - Locked Unlimited Rate Limit Definition [Core]  <!-- UUID: 92a74fe1-3115-4cd7-bbf8-4e16fb4b0aa8 -->
 
 A rate limit is locked as unlimited, and a cBEAM must keep it at a `maxAmount` equal to the maximum uint256 value with a zero slope, in either of two (2) cases:
 
@@ -3470,51 +3649,51 @@ A rate limit is locked as unlimited, and a cBEAM must keep it at a `maxAmount` e
 
 Registering a default other than the unlimited value removes that lock.
 
-###### A.2.2.10.1.1.1.2.4.2 - Enabled Diamond PAUs [Core]  <!-- UUID: 9593a6c6-521b-4680-8119-cb1f08b9a3e3 -->
+###### A.2.2.10.1.1.1.2.4.1.2 - Enabled Diamond PAUs [Core]  <!-- UUID: 9593a6c6-521b-4680-8119-cb1f08b9a3e3 -->
 
 The Diamond PAUs with the Configurator enabled are defined in the subdocuments herein.
 
-###### A.2.2.10.1.1.1.2.4.2.1 - Grove Diamond PAU [Core]  <!-- UUID: e9b6e62c-a902-431d-8691-abf052919813 -->
+###### A.2.2.10.1.1.1.2.4.1.2.1 - Grove Diamond PAU [Core]  <!-- UUID: e9b6e62c-a902-431d-8691-abf052919813 -->
 
-The Configurator is granted `DEFAULT_ADMIN_ROLE` on the Grove Diamond PAU `AccessControls` and `RateLimits` contracts. The Grove Diamond PAU `RateLimits` contract is paired to the Operator specified in [A.2.2.10.1.1.1.2.4.4.3.1 - Operator For The Grove Diamond PAU](da8d9885-3b28-478c-bbaa-ec88bdde91a9). The bounds within which cBEAMs may adjust rate limits on the Grove Diamond PAU `RateLimits` are:
+The Configurator is granted `DEFAULT_ADMIN_ROLE` on the Grove Diamond PAU `AccessControls` and `RateLimits` contracts. The Grove Diamond PAU `RateLimits` contract is paired to the Operator specified in [A.2.2.10.1.1.1.2.4.1.4.3.1 - Operator For The Grove Diamond PAU](da8d9885-3b28-478c-bbaa-ec88bdde91a9). The bounds within which cBEAMs may adjust rate limits on the Grove Diamond PAU `RateLimits` are:
 
-- `hop`: as specified in [A.2.2.10.1.1.1.2.4.1.1.2 - Hop Default Value](f86fe54a-9770-41ad-8ad2-7c58090224ce)
-- `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.1.2.2 - Max Change Default Value](0414677e-d79e-4d84-b0aa-209f0fa3ffe3)
+- `hop`: as specified in [A.2.2.10.1.1.1.2.4.1.1.1.2 - Hop Default Value](f86fe54a-9770-41ad-8ad2-7c58090224ce)
+- `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.1.1.2.2 - Max Change Default Value](0414677e-d79e-4d84-b0aa-209f0fa3ffe3)
 
-###### A.2.2.10.1.1.1.2.4.2.2 - Osero Diamond PAU [Core]  <!-- UUID: 9606346b-a7d3-4acf-93e3-c5f188504b83 -->
+###### A.2.2.10.1.1.1.2.4.1.2.2 - Osero Diamond PAU [Core]  <!-- UUID: 9606346b-a7d3-4acf-93e3-c5f188504b83 -->
 
-The Configurator is granted `DEFAULT_ADMIN_ROLE` on the Osero Diamond PAU `AccessControls` and `RateLimits` contracts. The Osero Diamond PAU `RateLimits` contract is paired to the Operator specified in [A.2.2.10.1.1.1.2.4.4.3.2 - Operator For The Osero Diamond PAU](e896c546-06e1-4bf7-83a1-d91fc5cfa71a). The bounds within which cBEAMs may adjust rate limits on the Osero Diamond PAU `RateLimits` are:
+The Configurator is granted `DEFAULT_ADMIN_ROLE` on the Osero Diamond PAU `AccessControls` and `RateLimits` contracts. The Osero Diamond PAU `RateLimits` contract is paired to the Operator specified in [A.2.2.10.1.1.1.2.4.1.4.3.2 - Operator For The Osero Diamond PAU](e896c546-06e1-4bf7-83a1-d91fc5cfa71a). The bounds within which cBEAMs may adjust rate limits on the Osero Diamond PAU `RateLimits` are:
 
-- `hop`: as specified in [A.2.2.10.1.1.1.2.4.1.1.2 - Hop Default Value](f86fe54a-9770-41ad-8ad2-7c58090224ce)
-- `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.1.2.2 - Max Change Default Value](0414677e-d79e-4d84-b0aa-209f0fa3ffe3)
+- `hop`: as specified in [A.2.2.10.1.1.1.2.4.1.1.1.2 - Hop Default Value](f86fe54a-9770-41ad-8ad2-7c58090224ce)
+- `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.1.1.2.2 - Max Change Default Value](0414677e-d79e-4d84-b0aa-209f0fa3ffe3)
 
-###### A.2.2.10.1.1.1.2.4.3 - BeamState [Core]  <!-- UUID: 2091d01d-461a-4a02-9e82-986cc51960d4 -->
+###### A.2.2.10.1.1.1.2.4.1.3 - BeamState [Core]  <!-- UUID: 2091d01d-461a-4a02-9e82-986cc51960d4 -->
 
-BeamState holds the registries and bounds that govern the PAS: which `RateLimits` contracts, Controllers, and cBEAMs are registered, and how far rate limits may be adjusted in a single step. The documents herein define the Core Council Multisig that may change BeamState's rules, the Timelock that delays certain changes, the delayed and immediate processes for making them, how Configurator operations are halted and restarted, and PASMom's independent power to halt or pause the system.
+BeamState holds the registries and bounds that govern the PAS: which `RateLimits` contracts, Controllers, and cBEAMs are registered, and how far rate limits may be adjusted in a single step. The documents herein define the Core Council Multisig that may change BeamState's rules, the Timelock that delays certain changes, the delayed and immediate processes for making them, how Configurator operations are halted and restarted, and PASMom's independent power to halt or pause the system. Its address is specified in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129).
 
-###### A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig [Core]  <!-- UUID: 666cf6b3-6d7a-40f7-99fb-b6e2e4375754 -->
+###### A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig [Core]  <!-- UUID: 666cf6b3-6d7a-40f7-99fb-b6e2e4375754 -->
 
-The Core Council Multisig (`coreCouncil`) can call any of BeamState's immediate functions directly, without a Spell, as specified in [A.2.2.10.1.1.1.2.4.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6), including halting Configurator operations as an emergency action. Sky Governance can independently halt Configurator operations or pause the Timelock through the PASMom contract, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71) and [A.2.2.10.1.1.1.2.4.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8).
+The Core Council Multisig (`coreCouncil`) can call any of BeamState's immediate functions directly, without a Spell, as specified in [A.2.2.10.1.1.1.2.4.1.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6), including halting Configurator operations as an emergency action. Sky Governance can independently halt Configurator operations or pause the Timelock through the PASMom contract, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71) and [A.2.2.10.1.1.1.2.4.1.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8).
 
-The Core Council Multisig proposes and can cancel changes to BeamState's delayed registries and bounds on the Timelock, as specified in [A.2.2.10.1.1.1.2.4.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb). The Core Council Multisig also proposes restarting Configurator operations, as specified in [A.2.2.10.1.1.1.2.4.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b). Once the minimum delay has passed, any address may execute the proposed change, as specified in [A.2.2.10.1.1.1.2.4.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103); proposing, cancelling, and executing are all blocked while the Timelock is paused.
+The Core Council Multisig proposes and can cancel changes to BeamState's delayed registries and bounds on the Timelock, as specified in [A.2.2.10.1.1.1.2.4.1.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb). The Core Council Multisig also proposes restarting Configurator operations, as specified in [A.2.2.10.1.1.1.2.4.1.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b). Once the minimum delay has passed, any address may execute the proposed change, as specified in [A.2.2.10.1.1.1.2.4.1.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103); proposing, canceling, and executing are all blocked while the Timelock is paused.
 
-###### A.2.2.10.1.1.1.2.4.3.1.1 - Core Council Multisig Address [Core]  <!-- UUID: 41157518-ec2f-4c4f-a112-5a1f07fc71dc -->
+###### A.2.2.10.1.1.1.2.4.1.3.1.1 - Core Council Multisig Address [Core]  <!-- UUID: 41157518-ec2f-4c4f-a112-5a1f07fc71dc -->
 
 The address of the Core Council Multisig on the Ethereum Mainnet is `0x148eF923d764CBdc1597CcADBbbC66499C1A1432`.
 
-###### A.2.2.10.1.1.1.2.4.3.1.2 - Core Council Multisig Required Number Of Signers [Core]  <!-- UUID: 70ce8011-7126-440d-b90d-010a3d97b43f -->
+###### A.2.2.10.1.1.1.2.4.1.3.1.2 - Core Council Multisig Required Number Of Signers [Core]  <!-- UUID: 70ce8011-7126-440d-b90d-010a3d97b43f -->
 
 The Core Council Multisig's required number of signers is five (5) out of six (6).
 
-###### A.2.2.10.1.1.1.2.4.3.1.3 - Core Council Multisig Signers [Core]  <!-- UUID: 366436ae-0bab-4fce-a144-64660ac47366 -->
+###### A.2.2.10.1.1.1.2.4.1.3.1.3 - Core Council Multisig Signers [Core]  <!-- UUID: 366436ae-0bab-4fce-a144-64660ac47366 -->
 
 The signers of the Core Council Multisig are four (4) addresses controlled by Operational GovOps Soter Labs, and two (2) addresses controlled by the Core Facilitator.
 
-###### A.2.2.10.1.1.1.2.4.3.1.4 - Core Council Multisig Usage Standards [Core]  <!-- UUID: c53506aa-7919-41b4-847b-28a015145f66 -->
+###### A.2.2.10.1.1.1.2.4.1.3.1.4 - Core Council Multisig Usage Standards [Core]  <!-- UUID: c53506aa-7919-41b4-847b-28a015145f66 -->
 
-The signers of the Core Council Multisig must use the multisig in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb) and [A.2.2.10.1.1.1.2.4.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6).
+The signers of the Core Council Multisig must use the multisig in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.1.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb) and [A.2.2.10.1.1.1.2.4.1.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6).
 
-###### A.2.2.10.1.1.1.2.4.3.1.5 - Core Council Multisig Modification [Core]  <!-- UUID: 61f08711-db44-4c9f-98ad-f330e729398f -->
+###### A.2.2.10.1.1.1.2.4.1.3.1.5 - Core Council Multisig Modification [Core]  <!-- UUID: 61f08711-db44-4c9f-98ad-f330e729398f -->
 
 Operational GovOps Soter Labs and the Core Facilitator can change the signers of the Core Council Multisig so long as:
 
@@ -3523,202 +3702,315 @@ Operational GovOps Soter Labs and the Core Facilitator can change the signers of
 - four (4) signers are controlled by Operational GovOps Soter Labs; and
 - two (2) signers are controlled by the Core Facilitator.
 
-###### A.2.2.10.1.1.1.2.4.3.2 - Timelock [Core]  <!-- UUID: a824d088-be58-4163-b382-54a95a728103 -->
+###### A.2.2.10.1.1.1.2.4.1.3.2 - Timelock [Core]  <!-- UUID: a824d088-be58-4163-b382-54a95a728103 -->
 
-The Timelock gates delayed changes to BeamState's registries and bounds: the Core Council Multisig proposes and can cancel a change, as specified in [A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), and once the minimum delay has passed, any address may execute it, since the Timelock's `EXECUTOR_ROLE` is granted to `address(0)`, making execution permissionless. Proposing, cancelling, and executing are all blocked while the Timelock is paused; only unpausing restores them. The minimum delay is fourteen (14) days.
+The Timelock gates delayed changes to BeamState's registries and bounds: the Core Council Multisig proposes and can cancel a change, as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), and once the minimum delay has passed, any address may execute it, since the Timelock's `EXECUTOR_ROLE` is granted to `address(0)`, making execution permissionless. Proposing, canceling, and executing are all blocked while the Timelock is paused; only unpausing restores them. The minimum delay is fourteen (14) days.
 
-The Timelock's `PROPOSER_ROLE` and `CANCELLER_ROLE` are held by the Core Council Multisig. Its `PAUSER_ROLE`, which can pause the Timelock, is held by PASMom, as specified in [A.2.2.10.1.1.1.2.4.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8). The Timelock's `DEFAULT_ADMIN_ROLE`, which can grant and revoke its other roles and change its minimum delay, is held by the Sky Pause Proxy.
+The Timelock's `PROPOSER_ROLE` and `CANCELLER_ROLE` are held by the Core Council Multisig. Its `PAUSER_ROLE`, which can pause the Timelock, is held by PASMom, as specified in [A.2.2.10.1.1.1.2.4.1.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8). The Timelock's `DEFAULT_ADMIN_ROLE`, which can grant and revoke its other roles and change its minimum delay, is held by the Sky Pause Proxy. Its address is specified in [A.2.2.10.1.1.1.2.3.1.8 - Timelock](f6791cf7-f3aa-49da-9691-73e480bf3328).
 
-###### A.2.2.10.1.1.1.2.4.3.3 - Delayed Function Calls [Core]  <!-- UUID: 4a388764-7469-4efb-84f0-6b91278428fb -->
+###### A.2.2.10.1.1.1.2.4.1.3.3 - Delayed Function Calls [Core]  <!-- UUID: 4a388764-7469-4efb-84f0-6b91278428fb -->
 
 The documents herein define the changes to the PAS registries and bounds proposed by the Core Council Multisig through the Timelock, taking effect only after a minimum delay has passed since being proposed.
 
-###### A.2.2.10.1.1.1.2.4.3.3.1 - Set Hop Function Call [Core]  <!-- UUID: 8ead8771-c769-48d0-af2a-802099c61d42 -->
+###### A.2.2.10.1.1.1.2.4.1.3.3.1 - Set Hop Function Call [Core]  <!-- UUID: 8ead8771-c769-48d0-af2a-802099c61d42 -->
 
-The `setHop()` function sets `hop` for a `RateLimits` contract, as specified in [A.2.2.10.1.1.1.2.4.1.1.1 - Hop Definition](dc0e3a84-b542-4985-a41b-7ae2a3921cf3).
+The `setHop()` function sets `hop` for a `RateLimits` contract, as specified in [A.2.2.10.1.1.1.2.4.1.1.1.1 - Hop Definition](dc0e3a84-b542-4985-a41b-7ae2a3921cf3).
 
-###### A.2.2.10.1.1.1.2.4.3.3.2 - Set Max Change Function Call [Core]  <!-- UUID: da93e0a7-5fa1-4d93-af72-24557fbd9f24 -->
+###### A.2.2.10.1.1.1.2.4.1.3.3.2 - Set Max Change Function Call [Core]  <!-- UUID: da93e0a7-5fa1-4d93-af72-24557fbd9f24 -->
 
-The `setMaxChange()` function sets `maxChange` for a `RateLimits` contract, as specified in [A.2.2.10.1.1.1.2.4.1.2.1 - Max Change Definition](942d6607-b92c-4779-8012-ea3b259ebf2b).
+The `setMaxChange()` function sets `maxChange` for a `RateLimits` contract, as specified in [A.2.2.10.1.1.1.2.4.1.1.2.1 - Max Change Definition](942d6607-b92c-4779-8012-ea3b259ebf2b).
 
-###### A.2.2.10.1.1.1.2.4.3.3.3 - Add Rate Limits Function Call [Core]  <!-- UUID: 87da775d-430e-4db9-b58e-bbcf323e375a -->
+###### A.2.2.10.1.1.1.2.4.1.3.3.3 - Add Rate Limits Function Call [Core]  <!-- UUID: 87da775d-430e-4db9-b58e-bbcf323e375a -->
 
 The `addRateLimits()` function registers a `RateLimits` contract as a valid cBEAM pairing target.
 
-###### A.2.2.10.1.1.1.2.4.3.3.4 - Add Controller Function Call [Core]  <!-- UUID: 2ef770b2-3636-4545-9aad-0f7cf94c0619 -->
+###### A.2.2.10.1.1.1.2.4.1.3.3.4 - Add Controller Function Call [Core]  <!-- UUID: 2ef770b2-3636-4545-9aad-0f7cf94c0619 -->
 
 The `addController()` function registers a Controller as a valid cBEAM pairing target.
 
-###### A.2.2.10.1.1.1.2.4.3.3.5 - Add Init Rate Limits Function Call [Core]  <!-- UUID: bbdf1e6a-821b-43ec-aabf-e43a3bd6e113 -->
+###### A.2.2.10.1.1.1.2.4.1.3.3.5 - Add Init Rate Limits Function Call [Core]  <!-- UUID: bbdf1e6a-821b-43ec-aabf-e43a3bd6e113 -->
 
-The `addInitRateLimits()` function registers a rate limit's default on a `RateLimits` contract, including the locked-unlimited case, as specified in [A.2.2.10.1.1.1.2.4.1.3 - Locked Unlimited Rate Limit Definition](92a74fe1-3115-4cd7-bbf8-4e16fb4b0aa8).
+The `addInitRateLimits()` function registers a rate limit's default on a `RateLimits` contract, including the locked-unlimited case, as specified in [A.2.2.10.1.1.1.2.4.1.1.3 - Locked Unlimited Rate Limit Definition](92a74fe1-3115-4cd7-bbf8-4e16fb4b0aa8).
 
-###### A.2.2.10.1.1.1.2.4.3.3.6 - Add Init Controller Actions Function Call [Core]  <!-- UUID: 010a904e-e0e0-4c1d-8460-b8e3118b680f -->
+###### A.2.2.10.1.1.1.2.4.1.3.3.6 - Add Init Controller Actions Function Call [Core]  <!-- UUID: 010a904e-e0e0-4c1d-8460-b8e3118b680f -->
 
 The `addInitControllerActions()` function registers an enabled controller action's default.
 
-###### A.2.2.10.1.1.1.2.4.3.3.7 - Add cBEAM Function Call [Core]  <!-- UUID: 33d6773e-d3d8-4141-943b-bfac186574b1 -->
+###### A.2.2.10.1.1.1.2.4.1.3.3.7 - Add cBEAM Function Call [Core]  <!-- UUID: 33d6773e-d3d8-4141-943b-bfac186574b1 -->
 
 The `addCBeam()` function registers a new cBEAM as an Operator.
 
-###### A.2.2.10.1.1.1.2.4.3.3.8 - Start Function Call [Core]  <!-- UUID: 032164e4-cf66-4e79-bb8c-18f095a1cdef -->
+###### A.2.2.10.1.1.1.2.4.1.3.3.8 - Start Function Call [Core]  <!-- UUID: 032164e4-cf66-4e79-bb8c-18f095a1cdef -->
 
 The `start()` function sets BeamState's `stopped` flag to false, restoring Configurator operations.
 
-###### A.2.2.10.1.1.1.2.4.3.4 - Immediate Function Calls [Core]  <!-- UUID: 2c82cfd0-7a9a-464f-844d-ebc43b31c2a6 -->
+###### A.2.2.10.1.1.1.2.4.1.3.4 - Immediate Function Calls [Core]  <!-- UUID: 2c82cfd0-7a9a-464f-844d-ebc43b31c2a6 -->
 
 The documents herein define the changes to the PAS registries and bounds called directly by the Core Council Multisig, taking effect immediately, with no delay. `stop()` can also be triggered independently by PASMom, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
 
-###### A.2.2.10.1.1.1.2.4.3.4.1 - Del Rate Limits Function Call [Core]  <!-- UUID: b6693635-4fc9-4a91-9c39-1cc075da506c -->
+###### A.2.2.10.1.1.1.2.4.1.3.4.1 - Del Rate Limits Function Call [Core]  <!-- UUID: b6693635-4fc9-4a91-9c39-1cc075da506c -->
 
 The `delRateLimits()` function removes a `RateLimits` contract as a valid cBEAM pairing target.
 
-###### A.2.2.10.1.1.1.2.4.3.4.2 - Del Controller Function Call [Core]  <!-- UUID: 61b01ab8-6c82-4ce6-91fd-cc5ffb7e1530 -->
+###### A.2.2.10.1.1.1.2.4.1.3.4.2 - Del Controller Function Call [Core]  <!-- UUID: 61b01ab8-6c82-4ce6-91fd-cc5ffb7e1530 -->
 
 The `delController()` function removes a Controller as a valid cBEAM pairing target.
 
-###### A.2.2.10.1.1.1.2.4.3.4.3 - Del Init Rate Limits Function Call [Core]  <!-- UUID: 623fe784-cca1-423d-b207-1990e903126d -->
+###### A.2.2.10.1.1.1.2.4.1.3.4.3 - Del Init Rate Limits Function Call [Core]  <!-- UUID: 623fe784-cca1-423d-b207-1990e903126d -->
 
-The `delInitRateLimits()` function removes a rate limit's default on a `RateLimits` contract, including the locked-unlimited case, as specified in [A.2.2.10.1.1.1.2.4.1.3 - Locked Unlimited Rate Limit Definition](92a74fe1-3115-4cd7-bbf8-4e16fb4b0aa8).
+The `delInitRateLimits()` function removes a rate limit's default on a `RateLimits` contract, including the locked-unlimited case, as specified in [A.2.2.10.1.1.1.2.4.1.1.3 - Locked Unlimited Rate Limit Definition](92a74fe1-3115-4cd7-bbf8-4e16fb4b0aa8).
 
-###### A.2.2.10.1.1.1.2.4.3.4.4 - Del Init Controller Actions Function Call [Core]  <!-- UUID: 88c0c2dd-f974-4690-8477-06e22d6dcd08 -->
+###### A.2.2.10.1.1.1.2.4.1.3.4.4 - Del Init Controller Actions Function Call [Core]  <!-- UUID: 88c0c2dd-f974-4690-8477-06e22d6dcd08 -->
 
 The `delInitControllerActions()` function removes an enabled controller action's default.
 
-###### A.2.2.10.1.1.1.2.4.3.4.5 - Del cBEAM Function Call [Core]  <!-- UUID: 03280c06-8cab-47e0-acb7-9c7a30a5bf6a -->
+###### A.2.2.10.1.1.1.2.4.1.3.4.5 - Del cBEAM Function Call [Core]  <!-- UUID: 03280c06-8cab-47e0-acb7-9c7a30a5bf6a -->
 
-The `delCBeam()` function removes a cBEAM's registration as an Operator. This does not unpair it from any `RateLimits` contract or Controller it already holds; each existing pairing must be individually unpaired via [A.2.2.10.1.1.1.2.4.3.4.7 - Unset cBEAM For Rate Limits Function Call](9d6d19de-6a1c-410e-984a-3a7cbaf1e71d) or [A.2.2.10.1.1.1.2.4.3.4.9 - Unset cBEAM For Controller Function Call](0b853079-1362-45d8-99a4-a31bb584ef6c).
+The `delCBeam()` function removes a cBEAM's registration as an Operator. This does not unpair it from any `RateLimits` contract or Controller it already holds; each existing pairing must be individually unpaired via [A.2.2.10.1.1.1.2.4.1.3.4.7 - Unset cBEAM For Rate Limits Function Call](9d6d19de-6a1c-410e-984a-3a7cbaf1e71d) or [A.2.2.10.1.1.1.2.4.1.3.4.9 - Unset cBEAM For Controller Function Call](0b853079-1362-45d8-99a4-a31bb584ef6c).
 
-###### A.2.2.10.1.1.1.2.4.3.4.6 - Set cBEAM For Rate Limits Function Call [Core]  <!-- UUID: b18f6ed9-06c6-41a6-a54e-3e0e7f3c38bf -->
+###### A.2.2.10.1.1.1.2.4.1.3.4.6 - Set cBEAM For Rate Limits Function Call [Core]  <!-- UUID: b18f6ed9-06c6-41a6-a54e-3e0e7f3c38bf -->
 
 The `setCBeamForRateLimits()` function pairs a cBEAM to a `RateLimits` contract.
 
-###### A.2.2.10.1.1.1.2.4.3.4.7 - Unset cBEAM For Rate Limits Function Call [Core]  <!-- UUID: 9d6d19de-6a1c-410e-984a-3a7cbaf1e71d -->
+###### A.2.2.10.1.1.1.2.4.1.3.4.7 - Unset cBEAM For Rate Limits Function Call [Core]  <!-- UUID: 9d6d19de-6a1c-410e-984a-3a7cbaf1e71d -->
 
 The `unsetCBeamForRateLimits()` function unpairs a cBEAM from a `RateLimits` contract.
 
-###### A.2.2.10.1.1.1.2.4.3.4.8 - Set cBEAM For Controller Function Call [Core]  <!-- UUID: c645c0d3-0282-4e93-a2ae-c99db3bcd421 -->
+###### A.2.2.10.1.1.1.2.4.1.3.4.8 - Set cBEAM For Controller Function Call [Core]  <!-- UUID: c645c0d3-0282-4e93-a2ae-c99db3bcd421 -->
 
 The `setCBeamForController()` function pairs a cBEAM to a Controller.
 
-###### A.2.2.10.1.1.1.2.4.3.4.9 - Unset cBEAM For Controller Function Call [Core]  <!-- UUID: 0b853079-1362-45d8-99a4-a31bb584ef6c -->
+###### A.2.2.10.1.1.1.2.4.1.3.4.9 - Unset cBEAM For Controller Function Call [Core]  <!-- UUID: 0b853079-1362-45d8-99a4-a31bb584ef6c -->
 
 The `unsetCBeamForController()` function unpairs a cBEAM from a Controller.
 
-###### A.2.2.10.1.1.1.2.4.3.4.10 - Stop Function Call [Core]  <!-- UUID: 52895c20-8322-4cbf-800f-8ea107f00f85 -->
+###### A.2.2.10.1.1.1.2.4.1.3.4.10 - Stop Function Call [Core]  <!-- UUID: 52895c20-8322-4cbf-800f-8ea107f00f85 -->
 
 The `stop()` function sets BeamState's `stopped` flag to true, halting Configurator operations.
 
-###### A.2.2.10.1.1.1.2.4.3.5 - Restart After Halt [Core]  <!-- UUID: e049feea-5af3-4a8d-8766-36e348fd5d7b -->
+###### A.2.2.10.1.1.1.2.4.1.3.5 - Restart After Halt [Core]  <!-- UUID: e049feea-5af3-4a8d-8766-36e348fd5d7b -->
 
-Restarting Configurator operations after a halt is done via BeamState's `start()` function, as specified in [A.2.2.10.1.1.1.2.4.3.3.8 - Start Function Call](032164e4-cf66-4e79-bb8c-18f095a1cdef). `start()` is proposed by the Core Council Multisig, as specified in [A.2.2.10.1.1.1.2.4.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), and takes effect only after a minimum delay has passed since being proposed. While the Timelock is paused, `start()` cannot take effect this way; restarting instead requires an Executive Vote, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4.5 - Transitional Measures](d5240aa5-72c1-4f92-b22c-7a80a35d733c).
+Restarting Configurator operations after a halt is done via BeamState's `start()` function, as specified in [A.2.2.10.1.1.1.2.4.1.3.3.8 - Start Function Call](032164e4-cf66-4e79-bb8c-18f095a1cdef). `start()` is proposed by the Core Council Multisig, as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), and takes effect only after a minimum delay has passed since being proposed. While the Timelock is paused, `start()` cannot take effect this way; restarting instead requires an Executive Vote, without requiring a prior Governance Poll, as specified in [A.2.2.10.1.1.1.2.4.1.5 - Transitional Measures](d5240aa5-72c1-4f92-b22c-7a80a35d733c).
 
 Unpausing the Timelock does not route through this minimum delay, since it is gated by the Timelock's own access control rather than BeamState's role system. This holds regardless of how the Timelock came to be paused, and requires an Executive Vote, without requiring a prior Governance Poll — the same process specified for reversing PASMom's `pause()` in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
 
-###### A.2.2.10.1.1.1.2.4.3.6 - PASMom [Core]  <!-- UUID: 88e11076-5fe1-42a5-b2ba-bdb1bc929ec8 -->
+###### A.2.2.10.1.1.1.2.4.1.3.6 - PASMom [Core]  <!-- UUID: 88e11076-5fe1-42a5-b2ba-bdb1bc929ec8 -->
 
-PASMom is a ward on BeamState and holds the Timelock's `PAUSER_ROLE`, as specified in [A.2.2.10.1.1.1.2.4.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103). Through these, Sky Governance can independently halt Configurator operations or pause the Timelock, bypassing the GSM Pause Delay, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
+PASMom is a ward on BeamState and holds the Timelock's `PAUSER_ROLE`, as specified in [A.2.2.10.1.1.1.2.4.1.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103). Through these, Sky Governance can independently halt Configurator operations or pause the Timelock, bypassing the GSM Pause Delay, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71). Its address is specified in [A.2.2.10.1.1.1.2.3.1.9 - PASMom](781172a1-e2b2-4c7b-852a-3f8e89fec8ca).
 
-###### A.2.2.10.1.1.1.2.4.4 - Configurator [Core]  <!-- UUID: 45840a10-6c7c-453a-8218-4ab4d705012d -->
+###### A.2.2.10.1.1.1.2.4.1.4 - Configurator [Core]  <!-- UUID: 45840a10-6c7c-453a-8218-4ab4d705012d -->
 
-The Configurator is the contract through which a cBEAM (Configurator Bounded External Access Module) adjusts rate limits or executes enabled controller actions, within the bounds the Configurator enforces, once registered and paired to a specific Diamond PAU `RateLimits` contract or Controller. A cBEAM is an Operator of the PAS. The same cBEAM may be paired to more than one `RateLimits` contract or Controller.
+The Configurator is the contract through which a cBEAM (Configurator Bounded External Access Module) adjusts rate limits or executes enabled controller actions, within the bounds the Configurator enforces, once registered and paired to a specific Diamond PAU `RateLimits` contract or Controller. A cBEAM is an Operator of the PAS. The same cBEAM may be paired to more than one `RateLimits` contract or Controller. Its address is specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
 
-Removing an Operator's registration does not itself unpair it from any `RateLimits` contract or Controller it already holds, as specified in [A.2.2.10.1.1.1.2.4.3.4.5 - Del cBEAM Function Call](03280c06-8cab-47e0-acb7-9c7a30a5bf6a).
+Removing an Operator's registration does not itself unpair it from any `RateLimits` contract or Controller it already holds, as specified in [A.2.2.10.1.1.1.2.4.1.3.4.5 - Del cBEAM Function Call](03280c06-8cab-47e0-acb7-9c7a30a5bf6a).
 
 The documents herein define how an Operator exercises its adjustments, its public communication obligation, and the Operators registered to the Configurator.
 
-###### A.2.2.10.1.1.1.2.4.4.1 - Operator Execution [Core]  <!-- UUID: 7a98000b-c069-42f3-b1a4-8a3e7323a960 -->
+###### A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution [Core]  <!-- UUID: 7a98000b-c069-42f3-b1a4-8a3e7323a960 -->
 
-An Operator exercises a rate limit adjustment by calling the Configurator directly. A rate limit locked as unlimited, as specified in [A.2.2.10.1.1.1.2.4.1.3 - Locked Unlimited Rate Limit Definition](92a74fe1-3115-4cd7-bbf8-4e16fb4b0aa8), cannot be raised or lowered. Otherwise, an Operator may lower a rate limit's `maxAmount` or `slope` to any value, including to zero, at any time. It may raise either value up to the bound set by [A.2.2.10.1.1.1.2.4.1.2.1 - Max Change Definition](942d6607-b92c-4779-8012-ea3b259ebf2b), and only after the interval set by [A.2.2.10.1.1.1.2.4.1.1.1 - Hop Definition](dc0e3a84-b542-4985-a41b-7ae2a3921cf3) has passed since its last raise to that rate limit.
+An Operator exercises a rate limit adjustment by calling the Configurator directly. A rate limit locked as unlimited, as specified in [A.2.2.10.1.1.1.2.4.1.1.3 - Locked Unlimited Rate Limit Definition](92a74fe1-3115-4cd7-bbf8-4e16fb4b0aa8), cannot be raised or lowered. Otherwise, an Operator may lower a rate limit's `maxAmount` or `slope` to any value, including to zero, at any time. It may raise either value up to the bound set by [A.2.2.10.1.1.1.2.4.1.1.2.1 - Max Change Definition](942d6607-b92c-4779-8012-ea3b259ebf2b), and only after the interval set by [A.2.2.10.1.1.1.2.4.1.1.1.1 - Hop Definition](dc0e3a84-b542-4985-a41b-7ae2a3921cf3) has passed since its last raise to that rate limit.
 
 An Operator exercises a controller action by calling the Configurator to execute an enabled action on its paired Controller.
 
-Both are unaffected by whether the Timelock is paused, but are blocked while Configurator operations are halted, as specified in [A.2.2.10.1.1.1.2.4.3.4.10 - Stop Function Call](52895c20-8322-4cbf-800f-8ea107f00f85).
+Both are unaffected by whether the Timelock is paused, but are blocked while Configurator operations are halted, as specified in [A.2.2.10.1.1.1.2.4.1.3.4.10 - Stop Function Call](52895c20-8322-4cbf-800f-8ea107f00f85).
 
-###### A.2.2.10.1.1.1.2.4.4.2 - Public Communication [Core]  <!-- UUID: e1a96b57-9c5e-469f-b7ac-5dac028eb726 -->
+###### A.2.2.10.1.1.1.2.4.1.4.2 - Public Communication [Core]  <!-- UUID: e1a96b57-9c5e-469f-b7ac-5dac028eb726 -->
 
 Each Operator maintains a single, ongoing Forum post, under its Prime Agent's Forum category, as an action log. Once a rate limit or controller action adjustment has been executed, the execution must be publicly communicated as a reply to that Forum post.
 
-###### A.2.2.10.1.1.1.2.4.4.3 - Registered Operators [Core]  <!-- UUID: c9019bfd-424e-4284-b349-c8e5d9ed5c2d -->
+###### A.2.2.10.1.1.1.2.4.1.4.3 - Registered Operators [Core]  <!-- UUID: c9019bfd-424e-4284-b349-c8e5d9ed5c2d -->
 
 The Operators registered to the Configurator are defined in the subdocuments herein.
 
-###### A.2.2.10.1.1.1.2.4.4.3.1 - Operator For The Grove Diamond PAU [Core]  <!-- UUID: da8d9885-3b28-478c-bbaa-ec88bdde91a9 -->
+###### A.2.2.10.1.1.1.2.4.1.4.3.1 - Operator For The Grove Diamond PAU [Core]  <!-- UUID: da8d9885-3b28-478c-bbaa-ec88bdde91a9 -->
 
 The Grove Diamond PAU's Operator, the cBEAM authorized to adjust the Diamond PAU's rate limits through the Configurator, is the Grove Operator Multisig, as specified in the documents herein.
 
-###### A.2.2.10.1.1.1.2.4.4.3.1.1 - Grove Operator Multisig Address [Core]  <!-- UUID: 5a5e59fd-693f-4511-b4b8-e2619ae60f89 -->
+###### A.2.2.10.1.1.1.2.4.1.4.3.1.1 - Grove Operator Multisig Address [Core]  <!-- UUID: 5a5e59fd-693f-4511-b4b8-e2619ae60f89 -->
 
 The address of the Grove Operator Multisig on the Ethereum Mainnet is `0x91dC2F6DbB8Adf76d373A54D408EDd7D736046C4`.
 
-###### A.2.2.10.1.1.1.2.4.4.3.1.2 - Grove Operator Multisig Required Number Of Signers [Core]  <!-- UUID: dbbfa844-428c-4815-a657-6735c2361ebe -->
+###### A.2.2.10.1.1.1.2.4.1.4.3.1.2 - Grove Operator Multisig Required Number Of Signers [Core]  <!-- UUID: dbbfa844-428c-4815-a657-6735c2361ebe -->
 
 The Grove Operator Multisig's required number of signers is two (2) out of three (3).
 
-###### A.2.2.10.1.1.1.2.4.4.3.1.3 - Grove Operator Multisig Signers [Core]  <!-- UUID: 776677da-0601-4b25-97f0-619cb8978415 -->
+###### A.2.2.10.1.1.1.2.4.1.4.3.1.3 - Grove Operator Multisig Signers [Core]  <!-- UUID: 776677da-0601-4b25-97f0-619cb8978415 -->
 
 The signers of the Grove Operator Multisig are controlled by Operational GovOps Soter Labs.
 
-###### A.2.2.10.1.1.1.2.4.4.3.1.4 - Grove Operator Multisig Usage Standards [Core]  <!-- UUID: 6618063e-89c7-4ff0-806a-d46b32029dc6 -->
+###### A.2.2.10.1.1.1.2.4.1.4.3.1.4 - Grove Operator Multisig Usage Standards [Core]  <!-- UUID: 6618063e-89c7-4ff0-806a-d46b32029dc6 -->
 
-The signers of the Grove Operator Multisig must use the multisig to operate the Configurator in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960) and [A.2.2.10.1.1.1.2.4.4.2 - Public Communication](e1a96b57-9c5e-469f-b7ac-5dac028eb726).
+The signers of the Grove Operator Multisig must use the multisig to operate the Configurator in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960) and [A.2.2.10.1.1.1.2.4.1.4.2 - Public Communication](e1a96b57-9c5e-469f-b7ac-5dac028eb726).
 
-###### A.2.2.10.1.1.1.2.4.4.3.1.5 - Grove Operator Multisig Modification [Core]  <!-- UUID: e3f61226-0c1a-4d83-9007-9ac2d21ed3da -->
+###### A.2.2.10.1.1.1.2.4.1.4.3.1.5 - Grove Operator Multisig Modification [Core]  <!-- UUID: e3f61226-0c1a-4d83-9007-9ac2d21ed3da -->
 
 Operational GovOps Soter Labs can change the signers of the Grove Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
 
-###### A.2.2.10.1.1.1.2.4.4.3.2 - Operator For The Osero Diamond PAU [Core]  <!-- UUID: e896c546-06e1-4bf7-83a1-d91fc5cfa71a -->
+###### A.2.2.10.1.1.1.2.4.1.4.3.2 - Operator For The Osero Diamond PAU [Core]  <!-- UUID: e896c546-06e1-4bf7-83a1-d91fc5cfa71a -->
 
 The Osero Diamond PAU's Operator, the cBEAM authorized to adjust the Diamond PAU's rate limits through the Configurator, is the Osero Operator Multisig, as specified in the documents herein.
 
-###### A.2.2.10.1.1.1.2.4.4.3.2.1 - Osero Operator Multisig Address [Core]  <!-- UUID: 9c59a5c5-300a-4694-99ed-46a43dfc7a67 -->
+###### A.2.2.10.1.1.1.2.4.1.4.3.2.1 - Osero Operator Multisig Address [Core]  <!-- UUID: 9c59a5c5-300a-4694-99ed-46a43dfc7a67 -->
 
 The address of the Osero Operator Multisig on the Ethereum Mainnet is `0x42D1038017E466b413aa44Ae798E30FB80b2E180`.
 
-###### A.2.2.10.1.1.1.2.4.4.3.2.2 - Osero Operator Multisig Required Number Of Signers [Core]  <!-- UUID: 95aa5811-78f3-4c71-b037-fa81d95e166d -->
+###### A.2.2.10.1.1.1.2.4.1.4.3.2.2 - Osero Operator Multisig Required Number Of Signers [Core]  <!-- UUID: 95aa5811-78f3-4c71-b037-fa81d95e166d -->
 
 The Osero Operator Multisig's required number of signers is two (2) out of three (3).
 
-###### A.2.2.10.1.1.1.2.4.4.3.2.3 - Osero Operator Multisig Signers [Core]  <!-- UUID: 9882bb18-4f6b-4fa3-8d7f-d8dfbf9f25dc -->
+###### A.2.2.10.1.1.1.2.4.1.4.3.2.3 - Osero Operator Multisig Signers [Core]  <!-- UUID: 9882bb18-4f6b-4fa3-8d7f-d8dfbf9f25dc -->
 
 The signers of the Osero Operator Multisig are controlled by Operational GovOps Soter Labs.
 
-###### A.2.2.10.1.1.1.2.4.4.3.2.4 - Osero Operator Multisig Usage Standards [Core]  <!-- UUID: 212ba83e-6552-4130-bc0e-c0b687601b4e -->
+###### A.2.2.10.1.1.1.2.4.1.4.3.2.4 - Osero Operator Multisig Usage Standards [Core]  <!-- UUID: 212ba83e-6552-4130-bc0e-c0b687601b4e -->
 
-The signers of the Osero Operator Multisig must use the multisig to operate the Configurator in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960) and [A.2.2.10.1.1.1.2.4.4.2 - Public Communication](e1a96b57-9c5e-469f-b7ac-5dac028eb726).
+The signers of the Osero Operator Multisig must use the multisig to operate the Configurator in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960) and [A.2.2.10.1.1.1.2.4.1.4.2 - Public Communication](e1a96b57-9c5e-469f-b7ac-5dac028eb726).
 
-###### A.2.2.10.1.1.1.2.4.4.3.2.5 - Osero Operator Multisig Modification [Core]  <!-- UUID: 3375bcc9-aca7-47be-b243-bee6d4126d7c -->
+###### A.2.2.10.1.1.1.2.4.1.4.3.2.5 - Osero Operator Multisig Modification [Core]  <!-- UUID: 3375bcc9-aca7-47be-b243-bee6d4126d7c -->
 
 Operational GovOps Soter Labs can change the signers of the Osero Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
 
-###### A.2.2.10.1.1.1.2.4.4.4 - Registered Controllers [Core]  <!-- UUID: 301e33b9-545f-4150-a14b-b0775096c2ea -->
+###### A.2.2.10.1.1.1.2.4.1.4.4 - Registered Controllers [Core]  <!-- UUID: 301e33b9-545f-4150-a14b-b0775096c2ea -->
 
 The Controllers registered to the Configurator, and the controller actions enabled for each, are defined in the subdocuments herein.
 
-###### A.2.2.10.1.1.1.2.4.4.4.1 - Controller For The Grove Diamond PAU [Core]  <!-- UUID: d60d9a19-5661-42ac-9d52-11e3283e3740 -->
+###### A.2.2.10.1.1.1.2.4.1.4.4.1 - Controller For The Grove Diamond PAU [Core]  <!-- UUID: d60d9a19-5661-42ac-9d52-11e3283e3740 -->
 
 The Controller for the Grove Diamond PAU, as specified in [A.6.1.1.2.2.6.1.2.1.1.1.4.1.2 - Controller Contract](6c83e356-0ac3-47aa-8ae5-bad377564e7a), is registered with the Configurator. No controller actions have been enabled for it.
 
-###### A.2.2.10.1.1.1.2.4.4.4.2 - Controller For The Osero Diamond PAU [Core]  <!-- UUID: ee79ef13-d1ae-4fc7-9784-a5293c57bfe9 -->
+###### A.2.2.10.1.1.1.2.4.1.4.4.2 - Controller For The Osero Diamond PAU [Core]  <!-- UUID: ee79ef13-d1ae-4fc7-9784-a5293c57bfe9 -->
 
 The Controller for the Osero Diamond PAU, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.2 - Controller Contract](8e1d584f-6368-493d-a6c5-c5068250b63a), is not yet registered with the Configurator. No controller actions have been enabled for it.
 
-###### A.2.2.10.1.1.1.2.4.5 - Transitional Measures [Core]  <!-- UUID: d5240aa5-72c1-4f92-b22c-7a80a35d733c -->
+###### A.2.2.10.1.1.1.2.4.1.5 - Transitional Measures [Core]  <!-- UUID: d5240aa5-72c1-4f92-b22c-7a80a35d733c -->
 
 The PAS launches with the Timelock paused, as a transitional measure, via the August 27, 2026 Executive Vote. This means that, while the Timelock is paused, the functions described below, which the Core Council Multisig otherwise proposes through the Timelock, cannot take effect. Any updates instead require an Executive Vote, without requiring a prior Governance Poll:
 
-- `setHop()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.1 - Set Hop Function Call](8ead8771-c769-48d0-af2a-802099c61d42).
-- `setMaxChange()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.2 - Set Max Change Function Call](da93e0a7-5fa1-4d93-af72-24557fbd9f24).
-- `addRateLimits()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.3 - Add Rate Limits Function Call](87da775d-430e-4db9-b58e-bbcf323e375a).
-- `addController()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.4 - Add Controller Function Call](2ef770b2-3636-4545-9aad-0f7cf94c0619).
-- `addInitRateLimits()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.5 - Add Init Rate Limits Function Call](bbdf1e6a-821b-43ec-aabf-e43a3bd6e113).
-- `addInitControllerActions()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.6 - Add Init Controller Actions Function Call](010a904e-e0e0-4c1d-8460-b8e3118b680f).
-- `addCBeam()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.7 - Add cBEAM Function Call](33d6773e-d3d8-4141-943b-bfac186574b1).
-- `start()`, as specified in [A.2.2.10.1.1.1.2.4.3.3.8 - Start Function Call](032164e4-cf66-4e79-bb8c-18f095a1cdef).
+- `setHop()`, as specified in [A.2.2.10.1.1.1.2.4.1.3.3.1 - Set Hop Function Call](8ead8771-c769-48d0-af2a-802099c61d42).
+- `setMaxChange()`, as specified in [A.2.2.10.1.1.1.2.4.1.3.3.2 - Set Max Change Function Call](da93e0a7-5fa1-4d93-af72-24557fbd9f24).
+- `addRateLimits()`, as specified in [A.2.2.10.1.1.1.2.4.1.3.3.3 - Add Rate Limits Function Call](87da775d-430e-4db9-b58e-bbcf323e375a).
+- `addController()`, as specified in [A.2.2.10.1.1.1.2.4.1.3.3.4 - Add Controller Function Call](2ef770b2-3636-4545-9aad-0f7cf94c0619).
+- `addInitRateLimits()`, as specified in [A.2.2.10.1.1.1.2.4.1.3.3.5 - Add Init Rate Limits Function Call](bbdf1e6a-821b-43ec-aabf-e43a3bd6e113).
+- `addInitControllerActions()`, as specified in [A.2.2.10.1.1.1.2.4.1.3.3.6 - Add Init Controller Actions Function Call](010a904e-e0e0-4c1d-8460-b8e3118b680f).
+- `addCBeam()`, as specified in [A.2.2.10.1.1.1.2.4.1.3.3.7 - Add cBEAM Function Call](33d6773e-d3d8-4141-943b-bfac186574b1).
+- `start()`, as specified in [A.2.2.10.1.1.1.2.4.1.3.3.8 - Start Function Call](032164e4-cf66-4e79-bb8c-18f095a1cdef).
 
 The Core Council Multisig also cannot cancel an already-proposed delayed change while the Timelock is paused; only unpausing it, via an Executive Vote, restores that ability.
 
-The Core Council Multisig's immediate functions, as specified in [A.2.2.10.1.1.1.2.4.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6), are unaffected by the Timelock being paused, since they do not route through it.
+The Core Council Multisig's immediate functions, as specified in [A.2.2.10.1.1.1.2.4.1.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6), are unaffected by the Timelock being paused, since they do not route through it.
+
+###### A.2.2.10.1.1.1.2.4.2 - Arbitrum [Core]  <!-- UUID: 85c1aa51-b12d-44d1-a78b-833f1814fdeb -->
+
+The Arbitrum PAS deployment is defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.2.1 - Parameters [Core]  <!-- UUID: 851421ae-c530-4a2a-b22f-a541ba323186 -->
+
+The `hop` and `maxChange` mechanisms, and the locked-unlimited rate limit definition, are as specified in [A.2.2.10.1.1.1.2.4.1.1 - Parameters](422e200e-2a94-4bde-b718-328ff82d3bb8) and its subdocuments. The default values for Arbitrum are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.2.1.1 - Hop Default Value [Core]  <!-- UUID: fa19d030-49ef-4efa-a0a2-382c83c37161 -->
+
+All `RateLimits` contracts on Arbitrum use a single, shared `hop` value unless the Core Council Multisig or an Executive Vote sets one specifically for a given contract. That shared value is 57,600 seconds (16 hours).
+
+###### A.2.2.10.1.1.1.2.4.2.1.2 - Max Change Default Value [Core]  <!-- UUID: 88fbdb54-6e32-4d4a-b47b-36aea02a1e9a -->
+
+All `RateLimits` contracts on Arbitrum use a single, shared `maxChange` value unless the Core Council Multisig or an Executive Vote sets one specifically for a given contract. That shared value is 1.20.
+
+###### A.2.2.10.1.1.1.2.4.2.2 - Enabled Diamond PAUs [Core]  <!-- UUID: 9feaea6e-405b-41ef-afc7-b10f2fc3bf1c -->
+
+The Diamond PAUs on Arbitrum with the Configurator enabled are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.2.2.1 - Spark Diamond PAU [Core]  <!-- UUID: 735c6e3b-0828-40a9-84df-81d39bd137be -->
+
+The Configurator is granted `DEFAULT_ADMIN_ROLE` on the Spark Diamond PAU `AccessControls` and `RateLimits` contracts on Arbitrum. The Spark Diamond PAU `RateLimits` contract is paired to the Operator specified in [A.2.2.10.1.1.1.2.4.2.4.3.1 - Operator For The Spark Diamond PAU](c8db987b-c15d-4374-8af1-dfc34624001a). The bounds within which cBEAMs may adjust rate limits on the Spark Diamond PAU `RateLimits` are:
+
+- `hop`: as specified in [A.2.2.10.1.1.1.2.4.2.1.1 - Hop Default Value](fa19d030-49ef-4efa-a0a2-382c83c37161)
+- `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.2.1.2 - Max Change Default Value](88fbdb54-6e32-4d4a-b47b-36aea02a1e9a)
+
+###### A.2.2.10.1.1.1.2.4.2.3 - BeamState [Core]  <!-- UUID: a5c61288-2ff6-4241-b2b2-2a78ac8b47ba -->
+
+BeamState holds the registries and bounds that govern the Arbitrum PAS, as specified in [A.2.2.10.1.1.1.2.4.1.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4). The documents herein define the Core Council Multisig that may change BeamState's rules, the Timelock that delays certain changes, the delayed and immediate processes for making them, and how Configurator operations are halted and restarted, for the Arbitrum deployment. Its address is specified in [A.2.2.10.1.1.1.2.3.2.6 - BeamState](1e0bce04-7924-4d12-889f-cb7a17451a90).
+
+###### A.2.2.10.1.1.1.2.4.2.3.1 - Core Council Multisig [Core]  <!-- UUID: 5d26be25-bddc-4ede-8fa4-a092c610103e -->
+
+The Core Council Multisig's authority and process on the Arbitrum PAS are as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), applied to the Arbitrum BeamState and Timelock, except that Arbitrum has no PASMom, as specified in [A.2.2.10.1.1.1.2.4.2.3.2 - Timelock](4d5c2636-e5f6-4ac6-a5e6-9212aed5d825). It is the same multisig as on Ethereum Mainnet: its address, required number of signers, signers, and modification rules are as specified in [A.2.2.10.1.1.1.2.4.1.3.1.1 - Core Council Multisig Address](41157518-ec2f-4c4f-a112-5a1f07fc71dc), [A.2.2.10.1.1.1.2.4.1.3.1.2 - Core Council Multisig Required Number Of Signers](70ce8011-7126-440d-b90d-010a3d97b43f), [A.2.2.10.1.1.1.2.4.1.3.1.3 - Core Council Multisig Signers](366436ae-0bab-4fce-a144-64660ac47366), and [A.2.2.10.1.1.1.2.4.1.3.1.5 - Core Council Multisig Modification](61f08711-db44-4c9f-98ad-f330e729398f).
+
+###### A.2.2.10.1.1.1.2.4.2.3.1.1 - Core Council Multisig Usage Standards [Core]  <!-- UUID: 9e57ea27-2b98-4eac-8ec0-d83a8b24403f -->
+
+The signers of the Core Council Multisig must use the multisig in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.2.3.3 - Delayed Function Calls](128b88a8-d162-4b03-847e-239c1a859c37) and [A.2.2.10.1.1.1.2.4.2.3.4 - Immediate Function Calls](b4730d0b-409c-4d27-9db2-95455e3d3499).
+
+###### A.2.2.10.1.1.1.2.4.2.3.2 - Timelock [Core]  <!-- UUID: 4d5c2636-e5f6-4ac6-a5e6-9212aed5d825 -->
+
+The Timelock's mechanism is as specified in [A.2.2.10.1.1.1.2.4.1.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103). The minimum delay is fourteen (14) days. The Timelock launches paused, as a transitional measure, as specified in [A.2.2.10.1.1.1.2.4.2.5 - Transitional Measures](a819637b-04b7-4e1d-9e91-227a29ed6761). Its address is specified in [A.2.2.10.1.1.1.2.3.2.7 - Timelock](c0642bfe-493c-489d-9f9f-9171dbb99d99).
+
+The Timelock's `PROPOSER_ROLE` and `CANCELLER_ROLE` are held by the Core Council Multisig. Arbitrum has no PASMom equivalent, so no address holds the Timelock's `PAUSER_ROLE`; Sky Governance's emergency halt instead relies on the Core Council Multisig calling BeamState's `stop()` directly, as an immediate action, or, if the Core Council Multisig is itself unavailable, a Sky Core Spell relayed to Arbitrum. The Timelock's `DEFAULT_ADMIN_ROLE`, which can grant and revoke its other roles and change its minimum delay, is held by Sky Governance through the Governance Relay (`0x10E6593CDda8c58a1d0f14C5164B376352a55f2F`). If the Core Council Multisig itself is compromised or acting maliciously, Sky Governance can use this `DEFAULT_ADMIN_ROLE` to grant itself the Timelock's `PAUSER_ROLE` and pause it directly, via a Sky Core Spell relayed to Arbitrum.
+
+###### A.2.2.10.1.1.1.2.4.2.3.3 - Delayed Function Calls [Core]  <!-- UUID: 128b88a8-d162-4b03-847e-239c1a859c37 -->
+
+The same delayed function calls apply as specified in [A.2.2.10.1.1.1.2.4.1.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb) and its subdocuments, called on the Arbitrum BeamState and Timelock.
+
+###### A.2.2.10.1.1.1.2.4.2.3.4 - Immediate Function Calls [Core]  <!-- UUID: b4730d0b-409c-4d27-9db2-95455e3d3499 -->
+
+The same immediate function calls apply as specified in [A.2.2.10.1.1.1.2.4.1.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6) and its subdocuments, called on the Arbitrum BeamState, except that `stop()` cannot be triggered by PASMom on Arbitrum, as specified in [A.2.2.10.1.1.1.2.4.2.3.2 - Timelock](4d5c2636-e5f6-4ac6-a5e6-9212aed5d825).
+
+###### A.2.2.10.1.1.1.2.4.2.3.5 - Restart After Halt [Core]  <!-- UUID: a840a0dc-229e-4bff-b568-5f3f4ab903ee -->
+
+Restarting Configurator operations after a halt follows the same process as specified in [A.2.2.10.1.1.1.2.4.1.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b), applied to the Arbitrum BeamState and Timelock, except that Arbitrum has no PASMom, as specified in [A.2.2.10.1.1.1.2.4.2.3.2 - Timelock](4d5c2636-e5f6-4ac6-a5e6-9212aed5d825), and the Transitional Measures referenced there are the Arbitrum chain's own, as specified in [A.2.2.10.1.1.1.2.4.2.5 - Transitional Measures](a819637b-04b7-4e1d-9e91-227a29ed6761).
+
+###### A.2.2.10.1.1.1.2.4.2.4 - Configurator [Core]  <!-- UUID: dd6636c1-7c57-4e72-8828-8bc436911460 -->
+
+The Configurator's mechanism on the Arbitrum PAS is as specified in [A.2.2.10.1.1.1.2.4.1.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d). The documents herein define how an Operator exercises its adjustments, its public communication obligation, and the Operators and Controllers registered to the Arbitrum Configurator. Its address is specified in [A.2.2.10.1.1.1.2.3.2.5 - Configurator](34423259-8fc5-4761-af8b-734332d2ada5).
+
+###### A.2.2.10.1.1.1.2.4.2.4.1 - Operator Execution [Core]  <!-- UUID: ebc97af0-11d3-4c66-8a7d-bbd34fc92a9b -->
+
+Operator execution on the Arbitrum Configurator follows the same process as specified in [A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960).
+
+###### A.2.2.10.1.1.1.2.4.2.4.2 - Public Communication [Core]  <!-- UUID: 0aa60eac-690b-4c73-b791-ae91d60feda5 -->
+
+The public communication obligation for Arbitrum Operators is as specified in [A.2.2.10.1.1.1.2.4.1.4.2 - Public Communication](e1a96b57-9c5e-469f-b7ac-5dac028eb726).
+
+###### A.2.2.10.1.1.1.2.4.2.4.3 - Registered Operators [Core]  <!-- UUID: d2233818-2226-4a9a-8160-1b3536c1eb60 -->
+
+The Operators registered to the Arbitrum Configurator are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.2.4.3.1 - Operator For The Spark Diamond PAU [Core]  <!-- UUID: c8db987b-c15d-4374-8af1-dfc34624001a -->
+
+The Spark Diamond PAU's Operator, the cBEAM authorized to adjust the Diamond PAU's rate limits through the Configurator, is the Spark Operator Multisig, as specified in the documents herein.
+
+###### A.2.2.10.1.1.1.2.4.2.4.3.1.1 - Spark Operator Multisig Address [Core]  <!-- UUID: dc280a3d-63a1-4622-a27f-b1fe3a88ce0b -->
+
+The address of the Spark Operator Multisig on Arbitrum is `0x492aae70E59551768BAF3c7159d3f951B6ed76Fe`.
+
+###### A.2.2.10.1.1.1.2.4.2.4.3.1.2 - Spark Operator Multisig Required Number Of Signers [Core]  <!-- UUID: 248e84b2-42cd-4578-9120-d301db760859 -->
+
+The Spark Operator Multisig's required number of signers is two (2) out of three (3).
+
+###### A.2.2.10.1.1.1.2.4.2.4.3.1.3 - Spark Operator Multisig Signers [Core]  <!-- UUID: 2553550f-7d4e-454b-9627-0e5c9ee4db2b -->
+
+The signers of the Spark Operator Multisig are controlled by Operational GovOps Soter Labs.
+
+###### A.2.2.10.1.1.1.2.4.2.4.3.1.4 - Spark Operator Multisig Usage Standards [Core]  <!-- UUID: 9fb1b1fe-9ea8-46e8-8d81-71bef4602eaf -->
+
+The signers of the Spark Operator Multisig must use the multisig to operate the Configurator in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.2.4.1 - Operator Execution](ebc97af0-11d3-4c66-8a7d-bbd34fc92a9b) and [A.2.2.10.1.1.1.2.4.2.4.2 - Public Communication](0aa60eac-690b-4c73-b791-ae91d60feda5).
+
+###### A.2.2.10.1.1.1.2.4.2.4.3.1.5 - Spark Operator Multisig Modification [Core]  <!-- UUID: a9663954-c4f5-4102-9137-7c360a750377 -->
+
+Operational GovOps Soter Labs can change the signers of the Spark Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
+
+###### A.2.2.10.1.1.1.2.4.2.4.4 - Registered Controllers [Core]  <!-- UUID: 7619cc5d-6c9d-4889-bf4a-39b2e362c920 -->
+
+The Controllers registered to the Arbitrum Configurator, and the controller actions enabled for each, are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.2.4.4.1 - Controller For The Spark Diamond PAU [Core]  <!-- UUID: 7f52f1b2-106c-4f94-8c04-0b4cc9e07bf4 -->
+
+The Controller for the Spark Diamond PAU, at address `0x04ACB9e9bbd64A425677edC535D6B30cfD74E42f` on Arbitrum, is registered with the Configurator. The following controller actions are enabled:
+
+- `removeIntegrations`
+
+This action is enabled specifically for the integration registered to the CCTP Facet, as specified in [A.2.2.10.1.1.1.2.3.2.2.1 - CCTP Facet](fe17841c-2898-4ce6-b1c4-2e64b0a7f91b).
+
+###### A.2.2.10.1.1.1.2.4.2.5 - Transitional Measures [Core]  <!-- UUID: a819637b-04b7-4e1d-9e91-227a29ed6761 -->
+
+The Arbitrum PAS launches with the Timelock paused, as a transitional measure, mirroring [A.2.2.10.1.1.1.2.4.1.5 - Transitional Measures](d5240aa5-72c1-4f92-b22c-7a80a35d733c). The same function calls listed there are affected, called on the Arbitrum BeamState and Timelock instead.
 
 ###### A.2.2.10.1.1.1.2.5 - Liquidity Layer Operational Processes [Core]  <!-- UUID: 3b387169-c279-4d0f-918c-e6c424c6ea2c -->
 
@@ -3738,11 +4030,11 @@ The process for removing a Facet will be specified in a future iteration of the 
 
 ###### A.2.2.10.1.1.1.2.5.2 - Diamond PAU Controller Functions [Core]  <!-- UUID: 5e941add-bf8d-4623-95a1-69795e7f7034 -->
 
-The documents herein define the functions performed through the Diamond PAU Controller contract. The Controller dispatches each function to the corresponding Facet contract, which performs the operation on behalf of the ALM Proxy.
+The documents herein define the functions performed through the Diamond PAU Controller contract. The Controller dispatches each function to the corresponding Facet contract. Functions that move assets do so on behalf of the ALM Proxy.
 
 ###### A.2.2.10.1.1.1.2.5.2.1 - USDS Facet [Core]  <!-- UUID: cc0dd1cb-5377-4186-be60-1112ba0340e4 -->
 
-The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346).
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.1.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346).
 
 ###### A.2.2.10.1.1.1.2.5.2.1.1 - Mint USDS [Core]  <!-- UUID: d9173f82-6a6b-432a-a6e4-c8f80f70ba35 -->
 
@@ -3778,7 +4070,7 @@ The USDS Facet's `burn` function transfers the specified amount of USDS from the
 
 ###### A.2.2.10.1.1.1.2.5.2.2 - Aave v3 Facet [Core]  <!-- UUID: e679e470-17f3-40ef-b455-dd424a498992 -->
 
-The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.2.1 - Aave v3 Facet](c9ecd9c2-dd1b-426b-8e52-66a2b1892289).
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.1.2.1 - Aave v3 Facet](c9ecd9c2-dd1b-426b-8e52-66a2b1892289).
 
 ###### A.2.2.10.1.1.1.2.5.2.2.1 - Deposit To Aave v3 Market [Core]  <!-- UUID: 5592661d-78e9-4185-9c6e-15ffa47e0aef -->
 
@@ -3814,7 +4106,7 @@ The Aave v3 Facet's `withdraw` function withdraws the specified amount of the as
 
 ###### A.2.2.10.1.1.1.2.5.2.3 - Basin Facet [Core]  <!-- UUID: 7ab0c0f2-fc41-4b3f-9dc8-e62463bb3e62 -->
 
-The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.2.2 - Basin Facet](d9cbf883-119e-403d-8efa-125997cd8897).
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.1.2.2 - Basin Facet](d9cbf883-119e-403d-8efa-125997cd8897).
 
 ###### A.2.2.10.1.1.1.2.5.2.3.1 - Deposit To Basin [Core]  <!-- UUID: d0c0a142-6ed5-4423-acbd-35ae6fdacb9f -->
 
@@ -3850,7 +4142,7 @@ The Basin Facet's `withdraw` function withdraws up to the specified maximum amou
 
 ###### A.2.2.10.1.1.1.2.5.2.4 - PSM Facet [Core]  <!-- UUID: 6d22c2b8-bc80-4248-a690-7b858c925014 -->
 
-The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842).
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.1.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842).
 
 ###### A.2.2.10.1.1.1.2.5.2.4.1 - Swap USDS To USDC [Core]  <!-- UUID: bff6ae57-ce3e-4520-ad46-5fe87b721408 -->
 
@@ -3886,7 +4178,7 @@ The PSM Facet's `swapUSDCToUSDS` function swaps the specified amount of USDC hel
 
 ###### A.2.2.10.1.1.1.2.5.2.5 - Uniswap v3 Facet [Core]  <!-- UUID: 417edcc0-3d50-48ba-8fc2-38b361dbc297 -->
 
-The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.2.20 - Uniswap v3 Facet](b808a829-2f31-42f1-ac9f-6801d3eb8437). Each function is restricted to an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a).
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.1.2.20 - Uniswap v3 Facet](b808a829-2f31-42f1-ac9f-6801d3eb8437). Each function is restricted to an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a).
 
 ###### A.2.2.10.1.1.1.2.5.2.5.1 - Add Liquidity To Uniswap v3 [Core]  <!-- UUID: 32d3213a-e40a-4169-94d7-e65bb6c23c19 -->
 
@@ -3944,7 +4236,7 @@ The Uniswap v3 Facet's `swap` function attempts to sell the specified amount of 
 
 ###### A.2.2.10.1.1.1.2.5.2.6 - ERC-4626 Facet [Core]  <!-- UUID: 22251fe1-fabd-42e0-a11b-8fea8fead748 -->
 
-The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.2.7 - ERC-4626 Facet](05f5d939-712b-4204-8f77-4ef5ea598dcc).
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.1.2.7 - ERC-4626 Facet](05f5d939-712b-4204-8f77-4ef5ea598dcc).
 
 ###### A.2.2.10.1.1.1.2.5.2.6.1 - Deposit To ERC-4626 Vault [Core]  <!-- UUID: 84567da1-17f2-4239-8ba2-270ce4469af6 -->
 
@@ -3956,11 +4248,11 @@ Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd
 
 ###### A.2.2.10.1.1.1.2.5.2.6.1.2 - Rate Limit [Core]  <!-- UUID: 5ad1a8cc-4a0a-43da-bab0-3fc087c84184 -->
 
-The deposit is subject to the on-chain rate limit identified by `LIMIT_4626_DEPOSIT` for the address of the underlying asset and the address of the vault. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. A vault for which no rate limit is configured cannot be deposited into, so the rate limit configuration also determines which vaults are available to the Diamond PAU.
+The deposit is subject to the on-chain rate limit identified by `LIMIT_4626_DEPOSIT` for the address of the underlying asset and the address of the vault. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. A successful deposit decreases this rate limit by the amount deposited, consuming deposit capacity, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5). A vault for which no rate limit is configured cannot be deposited into, so the rate limit configuration also determines which vaults are available to the Diamond PAU.
 
 ###### A.2.2.10.1.1.1.2.5.2.6.1.3 - Deposit Asset Into ERC-4626 Vault [Core]  <!-- UUID: 24b65a81-c816-480d-ad05-6161d9f01613 -->
 
-The ERC-4626 Facet's `deposit` function deposits the specified amount of the underlying asset from the ALM Proxy into the vault, and the ALM Proxy receives the resulting vault shares. The deposit does not complete unless the number of shares received is at least the specified minimum and the vault's exchange rate is within the maximum exchange rate configured for that vault.
+The ERC-4626 Facet's `deposit` function deposits the specified amount of the underlying asset from the ALM Proxy into the vault, and the ALM Proxy receives the resulting vault shares. The deposit does not complete unless the number of shares received is at least the specified minimum and the vault's exchange rate is within the maximum exchange rate configured for that vault, as specified in [A.2.2.10.1.1.1.2.5.2.6.4 - Set Maximum Exchange Rate For ERC-4626 Vault](3cbc5171-858d-4e36-bc81-da1b323052de).
 
 ###### A.2.2.10.1.1.1.2.5.2.6.2 - Withdraw From ERC-4626 Vault [Core]  <!-- UUID: 28ad3b8a-3089-44db-9f60-ff6e7bdfa6bf -->
 
@@ -3972,7 +4264,7 @@ Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd
 
 ###### A.2.2.10.1.1.1.2.5.2.6.2.2 - Rate Limit [Core]  <!-- UUID: 45751856-0a7a-451e-bd01-4bb3cf1e9b33 -->
 
-The withdrawal is subject to the on-chain rate limit identified by `LIMIT_4626_WITHDRAW` for the specified vault. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit.
+The withdrawal is subject to the on-chain rate limit identified by `LIMIT_4626_WITHDRAW` for the specified vault. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. The withdrawal additionally increases the `LIMIT_4626_DEPOSIT` rate limit for the same underlying asset and vault by the amount withdrawn, where that rate limit is configured, restoring deposit capacity up to the rate limit's `maxAmount`, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5) and its subdocuments.
 
 ###### A.2.2.10.1.1.1.2.5.2.6.2.3 - Withdraw Asset From ERC-4626 Vault [Core]  <!-- UUID: 3ed97ddc-8198-4b8b-98aa-28c31c068de0 -->
 
@@ -3988,11 +4280,23 @@ Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd
 
 ###### A.2.2.10.1.1.1.2.5.2.6.3.2 - Rate Limit [Core]  <!-- UUID: 47a492dd-f4e6-4381-b432-d12bd3111c37 -->
 
-The redemption is subject to the same on-chain rate limit as a withdrawal, identified by `LIMIT_4626_WITHDRAW` for the specified vault, so redemptions and withdrawals draw on a single shared capacity. The limit is applied to the amount of the underlying asset actually received, after the shares are redeemed, rather than to an amount specified in advance.
+The redemption is subject to the same on-chain rate limit as a withdrawal, identified by `LIMIT_4626_WITHDRAW` for the specified vault, so redemptions and withdrawals draw on a single shared capacity. The limit is applied to the amount of the underlying asset actually received, after the shares are redeemed, rather than to an amount specified in advance. The redemption additionally increases the `LIMIT_4626_DEPOSIT` rate limit for the same underlying asset and vault by the amount received, where that rate limit is configured, restoring deposit capacity up to the rate limit's `maxAmount`, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5) and its subdocuments.
 
 ###### A.2.2.10.1.1.1.2.5.2.6.3.3 - Redeem Shares From ERC-4626 Vault [Core]  <!-- UUID: 99ab3862-8eb2-4cbe-b67b-c8fbb5c2133f -->
 
 The ERC-4626 Facet's `redeem` function redeems the specified number of vault shares held by the ALM Proxy, and the resulting underlying asset is sent to the ALM Proxy. The redemption does not complete unless the amount of the underlying asset received is at least the specified minimum.
+
+###### A.2.2.10.1.1.1.2.5.2.6.4 - Set Maximum Exchange Rate For ERC-4626 Vault [Core]  <!-- UUID: 3cbc5171-858d-4e36-bc81-da1b323052de -->
+
+The documents herein define the steps to set the maximum exchange rate applied to deposits into an ERC-4626 vault.
+
+###### A.2.2.10.1.1.1.2.5.2.6.4.1 - Default Admin Role [Core]  <!-- UUID: 8515b078-799a-4653-b320-5e4dee14249a -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.1 - Default Admin Role](b76195f2-7494-43a4-919e-fa823303ad06) (`DEFAULT_ADMIN_ROLE`) may set the maximum exchange rate for an ERC-4626 vault by calling the `erc4626_setMaxExchangeRate` function on the Diamond PAU Controller, passing the address of the vault, a number of vault shares, and the maximum amount of the underlying asset those shares may represent. The Controller dispatches the call to the ERC-4626 Facet, which records the resulting rate.
+
+###### A.2.2.10.1.1.1.2.5.2.6.4.2 - Record Maximum Exchange Rate For ERC-4626 Vault [Core]  <!-- UUID: 82272a6f-1f1c-402a-9adf-74eea27a7e25 -->
+
+The ERC-4626 Facet's `setMaxExchangeRate` function records the maximum exchange rate for the specified vault. The rate is computed as `1e36 * assets / shares`, where `assets` is the maximum amount of the underlying asset those shares may represent and `shares` is the given number of vault shares, and is recorded at `1e36` precision. A deposit into that vault does not complete unless the vault's exchange rate is within this maximum, as specified in [A.2.2.10.1.1.1.2.5.2.6.1.3 - Deposit Asset Into ERC-4626 Vault](24b65a81-c816-480d-ad05-6161d9f01613). Withdrawals and redemptions are not bounded by this maximum.
 
 ###### A.2.2.10.1.1.1.2.5.3 - Rate Limit Management [Core]  <!-- UUID: 6f5bc654-a053-4b1f-9ada-6aa13d0a2109 -->
 
@@ -4231,7 +4535,11 @@ Morpho vaults may initially be deployed on Ethereum Mainnet, Base, and Robinhood
 
 Notwithstanding the other requirements of the Morpho Vault Curation Framework, Morpho vault exposure existing as of August 17, 2026, must be migrated to new vaults or upgraded to comply with the framework no later than the execution of the October 8, 2026 Executive Vote. Migration may be staged to account for underlying market utilization and existing vault configurations, but must be completed by that time.
 
-Following the execution of the October 8, 2026 Executive Vote, noncompliant Morpho vault allocations are subject to the Instance Financial CRR specified in [A.3.2.2.1.1.1.1.3.8.2 - Noncompliant Morpho Vault Allocations](20aa9663-214b-46f5-8b37-53be387b996b).
+Following that deadline, noncompliant Morpho vault allocations are subject to the Instance Financial CRR specified in [A.3.2.2.1.1.1.1.3.8.2 - Noncompliant Morpho Vault Allocations](20aa9663-214b-46f5-8b37-53be387b996b).
+
+###### A.2.2.10.1.1.1.3.5.1 - Grove Exception [Core]  <!-- UUID: d0c9f234-cc27-4575-86c5-3c2affb285af -->
+
+For Grove's Morpho vault exposure, the deadline specified in [A.2.2.10.1.1.1.3.5 - Transition And Compliance](41824fb1-a4e0-4f58-9095-0b3e646fb42c) is extended by three (3) days beyond the execution of the October 8, 2026 Executive Vote, to account for daily rate limits on migrating that exposure to compliant vaults.
 
 ###### A.2.2.10.1.1.1.6 - Security Specifications [Core]  <!-- UUID: 905a0c30-5758-48e8-9006-b52ced11fa42 -->
 
@@ -4486,7 +4794,7 @@ The Total Risk Capital (TRC) Report submitted by a Prime Agent must provide an a
         - Capital buffer = TRC – Aggregate RRC
         - Effective ratios
             - EPI = EJRC-via-EPI ÷ IJRC
-            - SPJ utilisation:
+            - SPJ utilization:
                 - enabled SRC ÷ total SPJ capacity
                 - EJRC-via-SPJ ÷ total SPJ capacity
 - Dynamic Period Attestation and Disclosures: In addition to the end-of-period snapshot figures, the TRC Report must include an Attestation from the Prime Agent confirming it maintained TRC at or above its Aggregate RRC at all times throughout the entire reporting period. In addition, the TRC Report must include disclosure of any events, Prime-initiated off-chain contractual obligations, impairments to the value or redeemability of held assets (such as RWA backing or bridged asset viability), encumbrances, or other conditions that occurred at any point during the reporting period which materially affected its TRC, even if such conditions were temporary or not continuously visible to on-chain monitoring systems. This disclosure must include the nature of the event/condition, its precise timing and duration, and its quantified impact on the Prime Agent's TRC.
@@ -5087,7 +5395,7 @@ Third, Adjusted Allocation System Profit is calculated for each Prime for the mo
 
 The Distortion Penalty is a discretionary penalty designed to mitigate the potential misalignment caused by the asymmetric nature of the Simplified Profit And Loss Calculation, where Primes earn profits on Allocation System Instances that earn more than the Agent Credit Line Borrow Rate but do not suffer losses when Instances earn less than the Agent Credit Line Borrow Rate.
 
-The Core Executor Agents, in consultation with the Core Council Risk Advisor, may assess a penalty of up to 100% of Total Allocation System Profit (see [A.2.4.1.2.2.1.1.2.2 - Step 2: Calculate Total Allocation System Profit](1eaa2350-e354-4000-baa6-be250853bddc)) if it determines that a Prime’s decisions were distorted by this incentive structure.
+The Core Executor Agents, in consultation with the Core Council Risk Advisor, may assess a penalty of up to 100% of Total Allocation System Profit (see [A.2.4.1.2.2.1.1.2.2 - Step 2: Calculate Total Allocation System Profit](1eaa2350-e354-4000-baa6-be250853bddc)) if they determine that a Prime’s decisions were distorted by this incentive structure.
 
 ###### A.2.4.1.2.2.1.1.2.3.2 - Low Yield Actively Stabilizing Collateral Penalty [Core]  <!-- UUID: 631e7c75-375f-4298-9d85-b17cb2eb019f -->
 
@@ -5375,7 +5683,7 @@ Where identity can be proven, the ban on unbanned users will be lifted across al
 
 ###### A.2.7.1.2.1.1.4 - Intrinsic Limitations [Core]  <!-- UUID: 9e2d25b0-227c-4f08-a466-c99dc7243d92 -->
 
-Given the digital nature of these communication channels and the consequent practical unenforceability of permanent bannings, responsible moderators are expected to have to deal with recurring banned users under new aliases. Responsible moderators must exercise best judgement when suspecting a user to be a banned user under a different guise and when assessing whether they pose a risk of recidivism.
+Given the digital nature of these communication channels and the consequent practical unenforceability of permanent bannings, responsible moderators are expected to have to deal with recurring banned users under new aliases. Responsible moderators must exercise best judgment when suspecting a user to be a banned user under a different guise and when assessing whether they pose a risk of recidivism.
 
 ##### A.2.7.1.2.2 - List of Responsible Moderators [Core]  <!-- UUID: 1f76a652-0958-4165-8183-51c9eaccdbaa -->
 
@@ -7763,7 +8071,7 @@ When an emergency incident occurs, the following steps must be completed:
 - The reporting signer must take immediate actions to secure the situation and prevent further risk, including isolating affected devices or systems where appropriate.
 - The reporting signer must notify the Multisig Administrator and other participants through the primary communication channel.
 - The Multisig Administrator must ensure that the reporting signer immediately reports the incident to the Protocol Security Workstream Lead, following the documentation requirements outlined in [A.2.11.1.3.2.2.1.2.2.1 - Emergency Incident Documentation Requirements](6d6e7b53-8fcb-4ecb-8428-e07f682d13d4).
-- The Multisig Administrator must ensure that the reporting signer follows up with the Protocol Security Workstream Lead if no acknowledgement is received within 24 hours.
+- The Multisig Administrator must ensure that the reporting signer follows up with the Protocol Security Workstream Lead if no acknowledgment is received within 24 hours.
 
 ###### A.2.11.1.3.2.2.1.2.2.1 - Emergency Incident Documentation Requirements [Core]  <!-- UUID: 6d6e7b53-8fcb-4ecb-8428-e07f682d13d4 -->
 
@@ -7784,7 +8092,7 @@ All emergency incident reports must include sufficient documentation to allow re
 When a standard incident occurs, the following steps must be completed:
 
 - The Multisig Administrator must ensure that the reporting signer immediately reports the incident to the Protocol Security Workstream Lead, following the documentation requirements outlined in [A.2.11.1.3.2.2.1.2.3.1 - Standard Incident Documentation Requirements](0aec011a-18d2-4945-90b5-8089fa01cefb).
-- Follow-up with the Protocol Security Workstream Lead if no acknowledgement is received within 48 hours.
+- Follow-up with the Protocol Security Workstream Lead if no acknowledgment is received within 48 hours.
 
 ###### A.2.11.1.3.2.2.1.2.3.1 - Standard Incident Documentation Requirements [Core]  <!-- UUID: 0aec011a-18d2-4945-90b5-8089fa01cefb -->
 
