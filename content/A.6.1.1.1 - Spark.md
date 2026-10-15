@@ -10263,7 +10263,7 @@ The current WETH risk parameters are:
 - Base Rate: 0%
 - Slope 1: N/A
 - Slope 1 Spread: -0.10%
-- Slope 2: 75%
+- Slope 2: 30%
 - Reserve State: Active
 - Collateral: Yes
 - Borrowing: Yes
