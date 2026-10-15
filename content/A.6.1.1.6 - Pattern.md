@@ -1132,6 +1132,14 @@ The Ethereum Mainnet Instances Directory of the Maple Protocol with `Active` Sta
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.6.2.6.1.3.1.1.1 - Ethereum Mainnet - Maple USDC Instance Configuration Document](50d86fb7-cacd-4f9b-adf4-7056cfe8cd97).
 
+###### A.6.1.1.6.2.6.1.1.2.1.2 - River [Core]  <!-- UUID: efa428ed-6e6b-433a-a7e0-2ae781167940 -->
+
+The Ethereum Mainnet Instances Directory of River deals with `Active` Status are stored herein.
+
+###### A.6.1.1.6.2.6.1.1.2.1.2.1 - Ethereum Mainnet - River I (River SPV II) Instance Configuration Document Location [Core]  <!-- UUID: a539183f-7062-4ee4-b4da-3a86dbe3bfef -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.6.2.6.1.3.1.2.1 - Ethereum Mainnet - River I (River SPV II) Instance Configuration Document](1e9275a1-93a2-4bb6-a022-a4c8de62e864).
+
 ###### A.6.1.1.6.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: d447c96a-dec9-4ce7-87fa-44291e6a4c32 -->
 
 This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of `Completed`.
@@ -1389,7 +1397,7 @@ The documents herein define roles (Admin, Relayer, ALM Controller, and Freezer) 
 
 ###### A.6.1.1.6.2.6.1.2.2.1.1.1 - Default Admin Role [Core]  <!-- UUID: 6434ee18-27d9-4dcc-9895-0bbf316b8144 -->
 
-The admin role (DEFAULT_ADMIN_ROLE) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Pattern Proxy.
+The admin role (DEFAULT_ADMIN_ROLE) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Pattern SubProxy.
 
 ```solidity
 constructor(address admin_) {
@@ -1900,7 +1908,7 @@ The documents herein define the actions that should be performed by an operator 
 
 ###### A.6.1.1.6.2.6.1.2.2.3.2.1 - ERC-4626 Withdrawal Action [Core]  <!-- UUID: 872a4857-504e-4795-9cbd-2a6f159c1ea0 -->
 
-In order to withdraw all ERC-4626 balances, the operator must call the `redeemERC4626` function.
+In order to withdraw all ERC-4626 balances, the Relayer must call the `redeemERC4626` function.
 
 The function call is as follows:
 
@@ -1912,7 +1920,7 @@ For more detailed instructions on the code to execute this, see [A.6.1.1.6.2.6.1
 
 ###### A.6.1.1.6.2.6.1.2.2.3.3 - USDC To USDS Swap Action [Core]  <!-- UUID: c30c1496-0eff-4199-9c18-eb72fb486aac -->
 
-This document defines the action that should be performed by an operator if there is a need to centralize all recovered liquidity in USDS. The operator must call the `swapUSDCToUSDS` function.
+In order to centralize all recovered liquidity in USDS, the Relayer must call the `swapUSDCToUSDS` function.
 
 The function call is as follows:
 
@@ -1924,7 +1932,7 @@ For more detailed instructions on the code to execute this see [A.6.1.1.6.2.6.1.
 
 ###### A.6.1.1.6.2.6.1.2.2.3.4 - USDS Burn Action [Core]  <!-- UUID: 451ccaa5-640c-423d-b816-de953edbf115 -->
 
-This document defines the action that should be performed if there is a need to repay and then burn Pattern's USDS debt. The operator must call the `burnUSDS` function.
+In order to repay and then burn Pattern's USDS debt, the Relayer must call the `burnUSDS` function.
 
 The function call is as follows:
 
@@ -1933,6 +1941,18 @@ burnUSDS(usds.balanceOf(address(proxy)))
 ```
 
 More detailed instructions on the code to execute this, see [A.6.1.1.6.2.6.1.2.2.1.2.1.2.1.2 - Burn USDS](886d04ba-23c3-45fb-ac5d-044288a621e1).
+
+###### A.6.1.1.6.2.6.1.2.2.3.5 - Disable Transfer Asset Destination [Core]  <!-- UUID: fed5f63a-c61d-4c4b-b713-c7881a88c7d9 -->
+
+In order to disable a Transfer Asset destination, preventing any further transfers to it without recovering funds already transferred, the `setRateLimitData` function must be called, setting both `maxAmount` and `slope` to zero for the destination's RateLimitID. Because `setRateLimitData` requires the admin role, which is controlled by Sky Governance via the Pattern SubProxy, this action can only be performed through a Pattern Prime Spell, and is not immediate. For an immediate response, the Freezer can instead remove the Relayer, as specified in [A.6.1.1.6.2.6.1.2.2.3.1 - Remove Compromised Relayer As Freezer](a7054e75-b492-4e49-bae6-41c786153fb2), but this affects all of Pattern's Instances.
+
+The function call is as follows:
+
+```solidity
+setRateLimitData(key, 0, 0)
+```
+
+For more detailed instructions on the code to execute this, see [A.6.1.1.6.2.6.1.2.2.1.3.2 - Set Rate Limit Data](89b060bd-1026-46ec-ab32-d032edb58f83).
 
 ###### A.6.1.1.6.2.6.1.2.3 - Allocation Strategy [Core]  <!-- UUID: e4bc88c1-a8b6-428a-aafd-2b03e7cb85ae -->
 
@@ -2062,6 +2082,65 @@ The function signature is as follows:
 ```solidity
 function cancelMapleRedemption(address mapleToken, uint256 shares) external
 ```
+
+###### A.6.1.1.6.2.6.1.3.1.2 - River [Core]  <!-- UUID: 2503b3b1-e0cc-477c-95b7-6fdf25a72ea4 -->
+
+The Ethereum Mainnet Instances of River deals with `Active` Status are stored herein.
+
+###### A.6.1.1.6.2.6.1.3.1.2.1 - Ethereum Mainnet - River I (River SPV II) Instance Configuration Document [Core]  <!-- UUID: 1e9275a1-93a2-4bb6-a022-a4c8de62e864 -->
+
+The documents herein contain the Instance Configuration Document for the River I (River SPV II) Instance.
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: d2a04f82-cc71-4b71-a8a9-ae910670060d -->
+
+**`Pending`**
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2 - Parameters [Core]  <!-- UUID: 5f713b1d-44b4-4599-a893-0ec44f6a4797 -->
+
+The documents herein define the parameters of the River I (River SPV II) Instance of the Allocation System Primitive.
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 657a71fe-8600-4fcf-a6be-12340f3a8453 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.1.1 - Network [Core]  <!-- UUID: 2e3bf626-0c59-43de-ba04-40210ce95aa1 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 2a237086-7f1c-4702-9399-6363d4e2e335 -->
+
+River
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.1.3 - Asset Supplied By Pattern Liquidity Layer [Core]  <!-- UUID: c5fcfcd6-c302-44a1-875c-8c6f1499e690 -->
+
+USDC
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.2 - Destination Address [Core]  <!-- UUID: b59307d6-ff9e-400a-abed-c4f4302acb12 -->
+
+The River SPV II Offramp address is `0xfD2cB7Ebbb339B9AA4E9C60e5aFa460F4888320F`, an externally owned account with an EIP-7702 delegation rather than a deployed contract.
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.3 - Transfer RateLimitID [Core]  <!-- UUID: ec3df6ee-7317-41fe-a7f6-894d97a42544 -->
+
+The Transfer RateLimitID is: `0x9e89eef868db62cc103dac9e8428957603e3ff835526132d10b5f1f327fc7605`.
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.4 - Transfer Rate Limits [Core]  <!-- UUID: 158d966f-bd51-4584-98fb-248164e201a3 -->
+
+The transfer rate limits are:
+
+- `maxAmount`: 35,000,000 USDC
+- `slope`: 10,000,000 USDC per day
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 7fdd3edf-3e33-4f5b-bc99-1dd8cf8a5f92 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.5.1 - Maximum Exposure [Core]  <!-- UUID: d09c32f6-204b-4a05-ba48-b145d3080379 -->
+
+The Maximum Exposure for this Instance is 70,000,000 USDC.
+
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.5.2 - Capital Ratio Requirement [Core]  <!-- UUID: 50178595-e88d-4f75-a08f-1506ba8f15f2 -->
+
+The CRR for this Instance will be specified in a future iteration of the Atlas.
 
 ##### A.6.1.1.6.2.6.1.4 - Completed Instances [Core]  <!-- UUID: f7a6d433-9be9-4140-89b4-eacf579522e4 -->
 

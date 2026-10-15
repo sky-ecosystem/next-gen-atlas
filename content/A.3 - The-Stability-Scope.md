@@ -2784,7 +2784,15 @@ The current values of the Lite Peg Stability Module parameters are:
 - DC-IAM `gap`: 800,000,000 DAI
 - DC-IAM `ttl`: 43,200 seconds
 - `buf`: 800,000,000 DAI
-- Authorized Parties: None
+- Authorized Parties:
+    - Sky Pause Proxy: `0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB`
+    - Spark ALM Proxy: `0x1601843c5E9bC251A3272907010AFa41Fa18347E`
+    - Grove ALM Proxy: `0x491EDFB0B8b608044e227225C715981a30F3A44E`
+    - Grove Diamond PAU ALM Proxy: `0x0DcD9298e163dFD3c0B5b00F0d9093C36e40A153`
+    - Keel ALM Proxy: `0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758`
+    - Obex ALM Proxy: `0xb6dD7ae22C9922AFEe0642f9Ac13e58633f715A2`
+    - Pattern ALM Proxy: `0xbA43325E91C79E500486a23E953ab3d8C46f169F`
+    - Osero Diamond PAU ALM Proxy: `0x6d370e359e9cbd0Fd35Bb38fAF705D84238CB884`
 
 ###### A.3.3.2.7.1.1.3 - Lite Peg Stability Module Parameter Modification [Core]  <!-- UUID: bf561ea8-ab09-4ff5-a84d-2e92bcff997b -->
 
@@ -2926,9 +2934,9 @@ The current Smart Burn Engine parameters are:
 
 - kicker.khump: -200 million USDS (Threshold of Surplus Buffer for Splitter to activate)
 - kicker.kbump: 6,000 USDS
-- splitter.hop: 2,504 seconds
+- splitter.hop: 2,693 seconds
 - burn (the percentage of the kicker.kbump to be moved to the underlying flapper): set as specified in [A.2.3.1.4.1 - Staking Rewards Rate Adjustment](de233df4-34cc-4e88-a065-9a9dde9add3c); the current value can be read by calling `burn()` on the Splitter contract
-- LSEV2-SKY-A USDS rewardsDuration: 2,504 seconds
+- LSEV2-SKY-A USDS rewardsDuration: 2,693 seconds
 
 The rewardsDuration for the LSEV2-SKY-A USDS rewards contract must be set such that it is equal to the splitter.hop parameter.
 
@@ -3571,9 +3579,9 @@ The parameters for the ALLOCATOR-GROVE-A Allocator Vault are:
 - `duty`: set by the SP-BEAM specified in [A.3.7.1.3 - Stability Parameter Bounded External Access Module](47b8b035-8abd-42e6-86b8-33f852fa953a).
 - `line`: controlled by DC-IAM
 - DC-IAM parameters:
-    - `gap`: 25 million USDS
-    - `line`: 500 million USDS
-    - `ttl`: 12 hours
+    - `gap`: 150 million USDS
+    - `line`: 1.5 billion USDS
+    - `ttl`: 24 hours
 
 ###### A.3.7.1.2.1.4 - ALLOCATOR-NOVA-A Parameters [Core]  <!-- UUID: 08321783-f31a-4a80-8f0c-898afb4d8f9b -->
 
