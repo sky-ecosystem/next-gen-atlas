@@ -4968,6 +4968,10 @@ This document defines the action that should be performed if there is a need to 
 `
 More detailed instructions on the code to execute this, see [A.6.1.1.2.2.6.1.2.2.1.2.1.2.1.2 - Burn USDS](25706c25-2b74-486e-8234-c45f6630f379).
 
+###### A.6.1.1.2.2.6.1.2.2.3.5 - Diamond PAU Emergency Protocol [Core]  <!-- UUID: cee6381b-80ea-48d6-aafc-a702bd4853ad -->
+
+The actions that can be taken in the event of an emergency within the Grove Diamond PAU's operations are specified in [A.2.2.10.1.1.1.2.5.4 - Emergency Protocol](874320e8-e7dd-430d-a1f4-30595aee6a9d).
+
 ###### A.6.1.1.2.2.6.1.2.3 - Allocation Strategy [Core]  <!-- UUID: 0806984d-5799-4c19-8eda-d355bcc43524 -->
 
 In the future, additional logic will be added herein regarding the strategy by which capital is allocated between different Instances of the Grove Liquidity Layer.

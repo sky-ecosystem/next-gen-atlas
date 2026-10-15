@@ -1091,11 +1091,19 @@ The Tracking Methodology for CoW Swap on the Ethereum Mainnet is the same as the
 
 The Tracking Methodology for Base is to specify the Reward Code as a parameter in calls to the Base PSM contract. Conversions from USDS or USDC to sUSDS are considered "deposits" and net deposits are calculated using an approach similar to that on Ethereum Mainnet.
 
-###### A.2.2.9.1.2.1.1.2.4 - Alternative Tracking Methodologies [Core]  <!-- UUID: 5eba1c21-4e93-4a0a-aa10-e99bcfa65f16 -->
+###### A.2.2.9.1.2.1.1.2.4 - Arbitrum Tracking Methodology [Core]  <!-- UUID: 92beb324-1782-444d-a520-7956987c2a51 -->
+
+The Tracking Methodology for Arbitrum is to specify the Reward Code as a parameter in calls to the Arbitrum PSM contract. Conversions from USDS or USDC to sUSDS are considered "deposits" and net deposits are calculated using an approach similar to that on Ethereum Mainnet.
+
+###### A.2.2.9.1.2.1.1.2.5 - Optimism Tracking Methodology [Core]  <!-- UUID: 4a02722d-91a1-43df-8657-7b9356f79550 -->
+
+The Tracking Methodology for Optimism is to specify the Reward Code as a parameter in calls to the Optimism PSM contract. Conversions from USDS or USDC to sUSDS are considered "deposits" and net deposits are calculated using an approach similar to that on Ethereum Mainnet.
+
+###### A.2.2.9.1.2.1.1.2.6 - Alternative Tracking Methodologies [Core]  <!-- UUID: 5eba1c21-4e93-4a0a-aa10-e99bcfa65f16 -->
 
 The Tracking Methodologies specified above are not exclusive. Prime Agents and Operational GovOps can develop additional Tracking Methodologies, so long as those methodologies reasonably estimate USDS balances that are attributable to the holder of the Reward Code and there is no possibility that the same USDS balances could be "double counted" for multiple Reward Code holders. Tracking methodologies must be based on either (1) on-chain data or (2) off-chain data that can be independently verified or attested to by a third party.
 
-###### A.2.2.9.1.2.1.1.2.5 - Lifetime [Core]  <!-- UUID: c0b77312-5e88-4311-bfe2-d95a1a2c5a7c -->
+###### A.2.2.9.1.2.1.1.2.7 - Lifetime [Core]  <!-- UUID: c0b77312-5e88-4311-bfe2-d95a1a2c5a7c -->
 
 USDS balances are eligible for a Distribution Reward for a period of ten (10) years from the date of the event marking the USDS balance with the Reward Code. The date of the marking event is determined based on the Primitive Instance’s specified Tracking Methodology.
 
@@ -1110,6 +1118,7 @@ The following Prime Agents are allocated reserved ranges of Reward Codes for use
 - Skybase: `0`, `1`, and `1000`–`1999`
 - Spark: `2`–`999`
 - Grove: `2000`–`2999`
+- Osero: `3000`–`3999`
 - Keel: `4000`–`4999`
 
 ###### A.2.2.9.1.2.1.2 - Distribution Reward Rate [Core]  <!-- UUID: 57384c49-e499-4c69-b22c-8e1f1dd34759 -->
@@ -3880,7 +3889,7 @@ The Controller for the Grove Diamond PAU, as specified in [A.6.1.1.2.2.6.1.2.1.1
 
 ###### A.2.2.10.1.1.1.2.4.1.4.4.2 - Controller For The Osero Diamond PAU [Core]  <!-- UUID: ee79ef13-d1ae-4fc7-9784-a5293c57bfe9 -->
 
-The Controller for the Osero Diamond PAU, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.2 - Controller Contract](8e1d584f-6368-493d-a6c5-c5068250b63a), is not yet registered with the Configurator. No controller actions have been enabled for it.
+The Controller for the Osero Diamond PAU, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.2 - Controller Contract](8e1d584f-6368-493d-a6c5-c5068250b63a), is registered with the Configurator. No controller actions have been enabled for it.
 
 ###### A.2.2.10.1.1.1.2.4.1.5 - Transitional Measures [Core]  <!-- UUID: d5240aa5-72c1-4f92-b22c-7a80a35d733c -->
 
@@ -4014,7 +4023,7 @@ The Arbitrum PAS launches with the Timelock paused, as a transitional measure, m
 
 ###### A.2.2.10.1.1.1.2.5 - Liquidity Layer Operational Processes [Core]  <!-- UUID: 3b387169-c279-4d0f-918c-e6c424c6ea2c -->
 
-The documents herein define the operational processes of the Diamond PAU implementation of the Allocation System — including the addition and removal of Facets approved on the Beacon, the functions performed through the Controller, and the management of rate limits.
+The documents herein define the operational processes of the Diamond PAU implementation of the Allocation System — including the addition and removal of Facets approved on the Beacon, the functions performed through the Controller, the management of rate limits, and the actions available in an emergency.
 
 ###### A.2.2.10.1.1.1.2.5.1 - Facet Management [Core]  <!-- UUID: 892588a3-c9ca-407d-a3d7-bbb25a57d4c6 -->
 
@@ -4416,6 +4425,38 @@ function triggerRateLimitIncrease(bytes32 key, uint256 amountToIncrease)
 }
 ```
 
+###### A.2.2.10.1.1.1.2.5.4 - Emergency Protocol [Core]  <!-- UUID: 874320e8-e7dd-430d-a1f4-30595aee6a9d -->
+
+The documents herein define the actions that can be taken in the event of an emergency within a Diamond PAU Instance's operations.
+
+###### A.2.2.10.1.1.1.2.5.4.1 - General Emergency Protocol [Core]  <!-- UUID: 5f5d6baf-6f74-455c-8f47-21f2f700a5b3 -->
+
+The documents herein define emergency actions that apply to a Diamond PAU Instance generally, rather than to a specific Facet.
+
+###### A.2.2.10.1.1.1.2.5.4.1.1 - Remove Compromised Actor As Freezer [Core]  <!-- UUID: 39b320a8-240c-487d-9c72-25b8a2457a4b -->
+
+In the event of a compromised or malicious Actor, the Freezer Multisig — registered as a Revoker on the AdministeredAgent, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e) — removes that Actor by calling `removeActor` on the AdministeredAgent contract. Removing the Actor prevents it from submitting further operations, while the Allocator Role itself remains with the AdministeredAgent. This action should only be taken if a Relayer Multisig's keys have been leaked or compromised and the Actor is in the control of an external bad actor.
+
+###### A.2.2.10.1.1.1.2.5.4.2 - Facet Specific Emergency Protocol [Core]  <!-- UUID: fd0fdef3-ab2b-4e65-b0cb-c0de810e21b0 -->
+
+The documents herein define emergency actions specific to a single Facet.
+
+###### A.2.2.10.1.1.1.2.5.4.2.1 - Withdraw All Positions From Aave v3 Facet [Core]  <!-- UUID: 7ba1cc79-9a9f-460c-85b8-72181788397f -->
+
+In the event that liquidity must be recovered from an Aave v3 market and centralized in the associated ALM Proxy, a Relayer Multisig, acting as an Actor, withdraws the Liquidity Layer's full position in that market through the Aave v3 Facet, as specified in [A.2.2.10.1.1.1.2.5.2.2.2 - Withdraw From Aave v3 Market](038eaa5c-d4c0-4a56-8d30-bc3a04508f0e). If the recovered asset is USDC rather than USDS, it is swapped to USDS through the PSM Facet, as specified in [A.2.2.10.1.1.1.2.5.2.4.2 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959). The recovered USDS is then repaid and burned through the USDS Facet, as specified in [A.2.2.10.1.1.1.2.5.2.1.2 - Burn USDS](f01e63b7-dde7-422a-89a1-6931839d49f5).
+
+###### A.2.2.10.1.1.1.2.5.4.2.2 - Withdraw All Positions From ERC-4626 Facet [Core]  <!-- UUID: 1dd13ef2-ee4a-4487-8fc3-0e9d83a3bbd1 -->
+
+In the event that liquidity must be recovered from an ERC-4626 vault Instance and centralized in the associated ALM Proxy, a Relayer Multisig, acting as an Actor, redeems the Liquidity Layer's full vault share balance through the ERC-4626 Facet by calling the `erc4626_redeem` function on the Diamond PAU Controller, as specified in [A.2.2.10.1.1.1.2.5.2.6.3 - Redeem From ERC-4626 Vault](36511d72-f1b3-479d-b0e9-445fdb960987). If the recovered asset is USDC rather than USDS, it is swapped to USDS through the PSM Facet, as specified in [A.2.2.10.1.1.1.2.5.2.4.2 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959). The recovered USDS is then repaid and burned through the USDS Facet, as specified in [A.2.2.10.1.1.1.2.5.2.1.2 - Burn USDS](f01e63b7-dde7-422a-89a1-6931839d49f5).
+
+###### A.2.2.10.1.1.1.2.5.4.2.3 - Withdraw All Positions From Basin Facet [Core]  <!-- UUID: 5938897f-e639-4568-8e84-556850a95867 -->
+
+In the event that liquidity must be recovered from a Basin and centralized in the associated ALM Proxy, a Relayer Multisig, acting as an Actor, withdraws the Liquidity Layer's full position from that Basin through the Basin Facet, as specified in [A.2.2.10.1.1.1.2.5.2.3.2 - Withdraw From Basin](8aad3588-6c58-4539-a1e2-46b0e6f97e92). If the recovered asset is USDC rather than USDS, it is swapped to USDS through the PSM Facet, as specified in [A.2.2.10.1.1.1.2.5.2.4.2 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959). The recovered USDS is then repaid and burned through the USDS Facet, as specified in [A.2.2.10.1.1.1.2.5.2.1.2 - Burn USDS](f01e63b7-dde7-422a-89a1-6931839d49f5).
+
+###### A.2.2.10.1.1.1.2.5.4.2.4 - Withdraw All Positions From Uniswap v3 Facet [Core]  <!-- UUID: fa303993-b430-45d4-a284-b8fce6b239b3 -->
+
+In the event that liquidity must be recovered from a Uniswap v3 pool and centralized in the associated ALM Proxy, a Relayer Multisig, acting as an Actor, removes the Liquidity Layer's full liquidity from each open position in that pool through the Uniswap v3 Facet, as specified in [A.2.2.10.1.1.1.2.5.2.5.2.3 - Remove Liquidity From Uniswap v3 Position](315b3614-18bb-4ca0-b1c7-3459fd449ad8). If a recovered asset is USDC, it is swapped to USDS through the PSM Facet, as specified in [A.2.2.10.1.1.1.2.5.2.4.2 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959), and then repaid and burned through the USDS Facet, as specified in [A.2.2.10.1.1.1.2.5.2.1.2 - Burn USDS](f01e63b7-dde7-422a-89a1-6931839d49f5). Consolidating a recovered asset that is neither USDC nor USDS will be specified in a future iteration of the Atlas.
+
 ###### A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework [Core]  <!-- UUID: 915a36c0-754c-41f9-ada1-2fec0816f7b8 -->
 
 The documents herein define the requirements for Morpho vaults used by Prime Agents to deploy capital through the Allocation System Primitive.
@@ -4455,29 +4496,35 @@ Lower liquidation loan-to-value tiers are permitted and may result in a lower In
 
 ###### A.2.2.10.1.1.1.3.2.3 - Oracle Requirements [Core]  <!-- UUID: be4f3bc0-70e4-478c-8c86-e889846198e3 -->
 
-The documents herein define oracle requirements for markets used by Morpho vaults.
+The documents herein define oracle requirements for markets used by Morpho vaults. Oracle feeds are the external price sources, such as those provided by Chainlink, RedStone, and Chronicle. They are distinct from the Morpho oracle contract attached to each market, as specified in [A.2.2.10.1.1.1.3.2.3.4 - Morpho Oracle Contract Requirements](8394d47c-af13-4d20-af8e-6441b944c895).
 
 ###### A.2.2.10.1.1.1.3.2.3.1 - Multi-Source Oracle Methodology [Core]  <!-- UUID: 191fbabc-d4e1-4ec4-9ea8-35b80eb809b0 -->
 
-Oracle-based market pricing must use Chainlink, RedStone, and Chronicle as its sources. When all three (3) sources are available and valid, the median of those sources must be used. If only two (2) valid sources are available, the average of those sources must be used. If only one (1) valid source is available, a credible fallback source must be used.
+Oracle-based market pricing must use Chainlink, RedStone, and Chronicle oracle feeds as its sources. When all three (3) sources are available and valid, the median of those sources must be used. If only two (2) valid sources are available, the average of those sources must be used. If only one (1) valid source is available, a credible fallback source must be used.
+
+###### A.2.2.10.1.1.1.3.2.3.1.1 - Temporary Single-Source Oracle Exception [Core]  <!-- UUID: 079d2e2c-fa22-4f3c-a929-82d45af38097 -->
+
+Single-source Chainlink oracle feeds may be used temporarily for a major collateral asset. Such a configuration should migrate toward the [A.2.2.10.1.1.1.3.2.3.1 - Multi-Source Oracle Methodology](191fbabc-d4e1-4ec4-9ea8-35b80eb809b0), following the structure used by SparkLend and on a schedule coordinated with the affected Prime Agent to avoid unnecessary operational disruption.
 
 ###### A.2.2.10.1.1.1.3.2.3.2 - Eligible Collateral Oracle Methodologies [Core]  <!-- UUID: fe7c0ccf-c570-471a-815a-6b4b9cda5e29 -->
 
-The following pricing methods apply to eligible collateral assets and must comply with the [A.2.2.10.1.1.1.3.2.3.1 - Multi-Source Oracle Methodology](191fbabc-d4e1-4ec4-9ea8-35b80eb809b0) for any market-pricing component:
+The following pricing methods apply to eligible collateral assets and must comply with the [A.2.2.10.1.1.1.3.2.3.1 - Multi-Source Oracle Methodology](191fbabc-d4e1-4ec4-9ea8-35b80eb809b0) for any price taken from oracle feeds:
 
-- ETH: oracle market pricing.
-- cbBTC: BTC oracle market pricing.
-- stETH: the wstETH-to-ETH contract exchange rate multiplied by the ETH oracle market price.
-- WBTC: oracle market pricing.
-- sUSDS: the sUSDS-to-USDS contract exchange rate multiplied by the USDS oracle market price.
+- ETH: the ETH price from oracle feeds.
+- cbBTC: the BTC price from oracle feeds.
+- stETH: the wstETH-to-ETH contract exchange rate multiplied by the ETH price from oracle feeds.
+- WBTC: the WBTC price from oracle feeds.
+- sUSDS: the sUSDS-to-USDS contract exchange rate multiplied by the USDS price from oracle feeds.
 
-###### A.2.2.10.1.1.1.3.2.3.3 - Temporary Single-Source Oracle Exception [Core]  <!-- UUID: 079d2e2c-fa22-4f3c-a929-82d45af38097 -->
+Where a method combines a contract exchange rate with a price from oracle feeds, as for stETH and sUSDS, the combination is computed within the Morpho oracle contract, which must meet [A.2.2.10.1.1.1.3.2.3.4 - Morpho Oracle Contract Requirements](8394d47c-af13-4d20-af8e-6441b944c895).
 
-A single-source Chainlink oracle may be used temporarily for a major collateral asset. Such a configuration should migrate toward the [A.2.2.10.1.1.1.3.2.3.1 - Multi-Source Oracle Methodology](191fbabc-d4e1-4ec4-9ea8-35b80eb809b0), following the structure used by SparkLend and on a schedule coordinated with the affected Prime Agent to avoid unnecessary operational disruption.
-
-###### A.2.2.10.1.1.1.3.2.3.4 - New Collateral Oracle Approval [Core]  <!-- UUID: c7723797-b2c8-4334-a185-592797456f87 -->
+###### A.2.2.10.1.1.1.3.2.3.3 - New Collateral Oracle Approval [Core]  <!-- UUID: c7723797-b2c8-4334-a185-592797456f87 -->
 
 The oracle methodology for any new collateral asset requires due diligence and approval by the [A.0.1.1.46 - Core Council](5a03a0c4-a47a-409c-9b23-52ac93e63d45) before adoption.
+
+###### A.2.2.10.1.1.1.3.2.3.4 - Morpho Oracle Contract Requirements [Core]  <!-- UUID: 8394d47c-af13-4d20-af8e-6441b944c895 -->
+
+A Morpho oracle contract is the contract attached to a Morpho market that reads one or more oracle feeds and provides the resulting price to the market. It is distinct from the oracle feeds it reads. A Morpho oracle contract may implement custom logic, provided that it has been audited.
 
 ###### A.2.2.10.1.1.1.3.2.4 - Interest Rate Requirements [Core]  <!-- UUID: 4d30ef6e-bed6-4abd-b6dd-7c748e9d7ef1 -->
 
@@ -4540,6 +4587,10 @@ Following that deadline, noncompliant Morpho vault allocations are subject to th
 ###### A.2.2.10.1.1.1.3.5.1 - Grove Exception [Core]  <!-- UUID: d0c9f234-cc27-4575-86c5-3c2affb285af -->
 
 For Grove's Morpho vault exposure, the deadline specified in [A.2.2.10.1.1.1.3.5 - Transition And Compliance](41824fb1-a4e0-4f58-9095-0b3e646fb42c) is extended by three (3) days beyond the execution of the October 8, 2026 Executive Vote, to account for daily rate limits on migrating that exposure to compliant vaults.
+
+###### A.2.2.10.1.1.1.3.5.2 - Spark Exception [Core]  <!-- UUID: 33e0e235-0031-4b44-9f56-c19df46daa02 -->
+
+For Spark's Morpho vault exposure, and only for compliance with [A.2.2.10.1.1.1.3.3 - Timelock Requirements](1078548f-1086-49d2-bc01-f5727f088e41), the deadline specified in [A.2.2.10.1.1.1.3.5 - Transition And Compliance](41824fb1-a4e0-4f58-9095-0b3e646fb42c) is extended by three (3) weeks beyond the execution of the October 8, 2026 Executive Vote, to account for the timelock changes required on Spark's Morpho vaults. Until that extended deadline, an allocation to a Spark Morpho vault whose only noncompliance is with the Timelock Requirements is not subject to the Instance Financial CRR specified in [A.3.2.2.1.1.1.1.3.8.2 - Noncompliant Morpho Vault Allocations](20aa9663-214b-46f5-8b37-53be387b996b).
 
 ###### A.2.2.10.1.1.1.6 - Security Specifications [Core]  <!-- UUID: 905a0c30-5758-48e8-9006-b52ced11fa42 -->
 
@@ -5512,6 +5563,7 @@ Interest is calculated on utilized USDS. Utilized USDS is the liquidity a Prime 
 - USDS attributable to a Sky Direct Exposure, as specified in [A.2.2.10.1.1.1.1 - Sky Direct Exposures](b3fb8653-8503-4a9e-81b2-5e9f49ad6703)
 - USDS held idle in an AMM pool
 - USDS supplied to a lending pool that is not borrowed from that pool
+- USDS held idle in a Tokenized Treasury Instance
 
 ##### A.2.4.2.1.3 - Netting [Core]  <!-- UUID: e1d1fda8-eac9-4b39-a750-42a2feee6768 -->
 
@@ -6165,6 +6217,12 @@ The founding team of Spark has proposed a cash grant of 865,000 USDS to the Spar
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads.
 
+###### A.2.8.2.2.2.4.5.1.6 - Spark Foundation Grant Authorization: November 2026 [Core]  <!-- UUID: cf767980-b05c-48bc-abc4-0d213728dfe8 -->
+
+The founding team of Spark has proposed a cash grant of 865,000 USDS to the Spark Foundation from Spark's Prime Treasury to cover November 2026 Spark Foundation expenses. Additionally, the founding team of Spark has proposed a grant of 45,000 USDS to the Spark Asset Foundation from Spark's Prime Treasury to cover November 2026 Spark Asset Foundation expenses.
+
+Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads.
+
 ###### A.2.8.2.2.2.4.5.2 - Grove Foundation Grant Authorizations [Core]  <!-- UUID: db86fa15-45c6-4a44-9c2a-652fd3d227b0 -->
 
 The documents herein record Sky Governance authorizations for grants to the Grove Foundation.
@@ -6202,6 +6260,12 @@ The grant authorized in this document was paid to the Grove Foundation Multisig 
 ###### A.2.8.2.2.2.4.5.2.4 - Grove Foundation Grant Authorization: September 2026 [Core]  <!-- UUID: bd2d15af-e32a-4ce9-a7ac-5a5ff1665fd4 -->
 
 The founding team of Grove has proposed a cash grant of 800,000 USDS to the Grove Foundation from Grove's Prime Treasury for September 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
+
+Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payload. The transfer must be made to the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in a Grove Spell included in a Sky Executive Vote unless otherwise agreed by Sky and Grove.
+
+###### A.2.8.2.2.2.4.5.2.5 - Grove Foundation Grant Authorization: October 2026 [Core]  <!-- UUID: 2ffbf166-edd8-4544-810c-d512fd784c8b -->
+
+The founding team of Grove has proposed a cash grant of 800,000 USDS to the Grove Foundation from Grove's Prime Treasury for October 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
 
 Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payload. The transfer must be made to the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in a Grove Spell included in a Sky Executive Vote unless otherwise agreed by Sky and Grove.
 
@@ -7642,9 +7706,9 @@ Payments are denominated in USD. However, payouts are done in USDS assuming a fu
 
 ###### A.2.11.1.1.3.3.2 - Rewards Payout Process [Core]  <!-- UUID: 07f4faa6-f900-46e6-87d4-137fe2e5cb99 -->
 
-All bounty payouts are handled by Sky Governance. Upon confirmation, bug bounty payouts should be included in the next possible Executive Vote. This would involve sending USDS directly from the protocol’s buffer to the whitehat hacker.
+Sky Core bug bounty payouts are paid from the [A.2.3.1.2.2.2.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7). Upon confirmation, the payout is sent in USDS directly from the Core Council Buffer to the whitehat hacker. If the payout exceeds 500,000 USDS or 50% of the USDS balance of the Core Council Buffer, the Core Facilitator may instead choose to include a payout in the next possible Executive Vote, sending USDS directly from the Surplus Buffer to the whitehat hacker.
 
-Immunefi will publicly contact the Core Facilitator with the request, including a specification of the respective vulnerability report, the requested amount and the Ethereum mainnet addresses of the beneficiaries. This should also include the payment details of the Immunefi fee, if it applies. Immunefi and the Core Facilitator should make sure the payout is made within one full calendar month after the report was approved.
+The [A.1.8.1.2 - Protocol Security Workstream Lead](93651fb8-13c5-46dd-93cb-33fa89671b4f) publicly requests each payout in a post on the Sky Forum, including a specification of the respective vulnerability report, the requested amount, and the Ethereum mainnet addresses of the beneficiaries. The request should also include the payment details of the Immunefi fee, if it applies. Any applicable Immunefi fee is paid in USDS from the same source as the payout. The Protocol Security Workstream Lead and the [A.2.3.1.2.2.2.1.3 - Core Council Buffer Multisig Signers](5aeba17d-3869-447d-adcd-8c55f41afc01), or the Core Facilitator for a payout included in an Executive Vote, should make sure the payout is made within one full calendar month after the report was approved.
 
 For Bug Bounty rewards over USD 1,000,000: after the first million is paid out, the remaining amount is paid out over time with up to USD 1,000,000 per consecutive month until the determined amount for payout is reached.
 
@@ -7652,7 +7716,7 @@ For Bug Bounty rewards over USD 1,000,000: after the first million is paid out, 
 
 The Bug Bounty Programs incur fixed and variable costs.
 
-- Variable costs: Bug bounty payouts including related fees to Immunefi are considered variable costs and are covered by the process described in [A.2.11.1.1.3.3 - Rewards Payment Terms](cf4e6968-18a3-48d8-b38e-15ae8009d03d).
+- Variable costs: Bug bounty payouts including related fees to Immunefi are considered variable costs and are covered by the process described in [A.2.11.1.1.3.3 - Rewards Payment Terms](cf4e6968-18a3-48d8-b38e-15ae8009d03d). When paid from the Core Council Buffer, they are funded from the [A.2.3.1.2.2.2 - Core Council Allocation](91b281c2-0687-45a3-939d-0480c7c33f9f). When paid through an Executive Vote from the Surplus Buffer, the payout and any Immunefi fee do not reduce [A.2.3.1.2.1.1 - Net Revenue](bddce7bf-c568-444b-b196-e15a99016696) for the Monthly Settlement Cycle. Instead, Core GovOps deducts the amount from the [A.2.3.1.2.2.2 - Core Council Allocation](91b281c2-0687-45a3-939d-0480c7c33f9f) in subsequent Monthly Settlement Cycles to repay the Surplus Buffer, and may spread the deduction across multiple Monthly Settlement Cycles.
 - Fixed costs: Fixed costs comprise service fees for the Immunefi Premium Triaging Service, and compensation of a part-time Bug Bounty program steward. These costs will be funded by Sky.
 
 #### A.2.11.1.2 - Safe Harbor [Core]  <!-- UUID: bb494bc1-f3cb-4b7f-826f-437c62d534c8 -->

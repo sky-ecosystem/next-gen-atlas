@@ -2784,7 +2784,15 @@ The current values of the Lite Peg Stability Module parameters are:
 - DC-IAM `gap`: 800,000,000 DAI
 - DC-IAM `ttl`: 43,200 seconds
 - `buf`: 800,000,000 DAI
-- Authorized Parties: None
+- Authorized Parties:
+    - Sky Pause Proxy: `0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB`
+    - Spark ALM Proxy: `0x1601843c5E9bC251A3272907010AFa41Fa18347E`
+    - Grove ALM Proxy: `0x491EDFB0B8b608044e227225C715981a30F3A44E`
+    - Grove Diamond PAU ALM Proxy: `0x0DcD9298e163dFD3c0B5b00F0d9093C36e40A153`
+    - Keel ALM Proxy: `0xa5139956eC99aE2e51eA39d0b57C42B6D8db0758`
+    - Obex ALM Proxy: `0xb6dD7ae22C9922AFEe0642f9Ac13e58633f715A2`
+    - Pattern ALM Proxy: `0xbA43325E91C79E500486a23E953ab3d8C46f169F`
+    - Osero Diamond PAU ALM Proxy: `0x6d370e359e9cbd0Fd35Bb38fAF705D84238CB884`
 
 ###### A.3.3.2.7.1.1.3 - Lite Peg Stability Module Parameter Modification [Core]  <!-- UUID: bf561ea8-ab09-4ff5-a84d-2e92bcff997b -->
 
