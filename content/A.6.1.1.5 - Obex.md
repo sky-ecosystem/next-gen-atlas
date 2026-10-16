@@ -1224,9 +1224,9 @@ The ALM_CONTROLLER contract version is: V.1.6.0
 
 The address of the Multisig that has the Freezer Role is specified in [A.6.1.1.5.2.6.1.2.1.2.2.3 - Freezer Multisig](49e6c234-7102-43e0-80a6-fb14e259e1f7).
 
-###### A.6.1.1.5.2.6.1.2.1.1.1.2.5 - ALM Relayer Multisig Address [Core]  <!-- UUID: 86586cb8-ccbb-4ab7-8244-add51cca65fe -->
+###### A.6.1.1.5.2.6.1.2.1.1.1.2.5 - ALM Relayer Multisig Addresses [Core]  <!-- UUID: 86586cb8-ccbb-4ab7-8244-add51cca65fe -->
 
-The address of the Multisigs that has the Relayer Role is specified in [A.6.1.1.5.2.6.1.2.1.2.2.1 - Prime Relayer Multisig](3b53c3b4-1d13-4197-8078-54523949784f) and [A.6.1.1.5.2.6.1.2.1.2.2.2 - Core Operator Relayer Multisig](b32dec2f-51e1-44b0-a81b-679b648ed659).
+The addresses of the Multisigs that have the Relayer Role are specified in [A.6.1.1.5.2.6.1.2.1.2.2.1 - Prime Relayer Multisig](3b53c3b4-1d13-4197-8078-54523949784f) and [A.6.1.1.5.2.6.1.2.1.2.2.2 - Core Operator Relayer Multisig](b32dec2f-51e1-44b0-a81b-679b648ed659).
 
 ###### A.6.1.1.5.2.6.1.2.1.1.1.2.6 - ALM Proxy Contract [Core]  <!-- UUID: 53aa9c70-f2c8-4c0b-a30c-9c541d7dbbd4 -->
 
@@ -2060,7 +2060,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.5.2.6.1.3.1.1.1.2.3 - RateLimitIDs [Core]  <!-- UUID: d2d46842-e9dd-4f88-bfa5-5e947381f70b -->
 
-The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Obex Artifact.
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
 
 ###### A.6.1.1.5.2.6.1.3.1.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 97344456-e215-42e5-a149-89f0276e1b4c -->
 
