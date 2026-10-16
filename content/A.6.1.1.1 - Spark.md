@@ -5173,7 +5173,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.2.4.2 - Timelock [Core]  <!-- UUID: f44940e3-fda2-444c-a2ae-bd91d00b411c -->
 
-Timelock: 240 hours (10 days)
+Timelock: 240 hours (10 days), except for `setIsAllocator` and `setForceDeallocatePenalty`, which have a timelock of 0 hours (no delay).
 
 ###### A.6.1.1.1.2.6.1.3.1.5.3 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 111e9f8c-170b-4373-827a-68f3277cacf1 -->
 
@@ -5294,7 +5294,11 @@ Timelock: 168 hours (7 days)
 
 ###### A.6.1.1.1.2.6.1.3.1.5.3.4.2.4 - setIsAllocator Timelock [Core]  <!-- UUID: 8a04d5cc-3647-40ff-aeeb-aa8473fe0e4c -->
 
-Timelock: 72 hours (3 days)
+Timelock: 0 hours (no delay)
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.2.5 - setForceDeallocatePenalty Timelock [Core]  <!-- UUID: 10565819-d5bc-47c3-ad2e-7b5979f69d46 -->
+
+Timelock: 0 hours (no delay)
 
 ###### A.6.1.1.1.2.6.1.3.1.5.3.4.3 - Max Exchange Rate [Core]  <!-- UUID: 3d2ac2f8-82a6-48bf-9c92-c8290fec64de -->
 
