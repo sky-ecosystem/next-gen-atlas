@@ -5025,7 +5025,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.2.3 - Allocator Role Address [Core]  <!-- UUID: b63d90f5-1c8a-41e0-8ada-5db9986ec4a2 -->
 
-`0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178`
+The Allocator role is held by Spark at `0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699`.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 5b0ead44-7dce-4af5-b750-422c8f97c4ce -->
 
@@ -5067,11 +5067,22 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.4.1.1 - Curator Role Address [Core]  <!-- UUID: ac41be8b-f6c9-4df2-9fac-c543c77e0166 -->
 
-`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
+The Curator role is held jointly by Soter Labs and Spark through the Curator Multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xAB5710211458FC8d7E0Be628202F47DdbD3F38Eb` |
+| Spark | `0x50c770E6dC6CfdEE33509273FA9a215bfAffF9B2` |
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.4.1.2 - Guardian Role Address [Core]  <!-- UUID: b7d0b9a8-4dba-4fba-8aab-b5afd645a6d0 -->
 
-`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+The Guardian role is held by Operational GovOps Soter Labs through a multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`.
+
+###### A.6.1.1.1.2.6.1.3.1.5.1.4.1.3 - Owner Role Address [Core]  <!-- UUID: 57a8386d-f7de-42f6-8e02-0a1874efee3c -->
+
+The Owner role is held by Spark through its SubProxy at `0x3300f198988e4C9C63F75dF86De36421f06af8c4`.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.4.2 - Timelock [Core]  <!-- UUID: d2692d99-d52c-4586-8dbe-b23d8f835f29 -->
 
@@ -5123,7 +5134,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.2.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 3d9e1745-e0c1-4b75-8c3e-04a87019d8db -->
 
-`0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699`
+The Allocator role is held by Spark at `0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699`.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 0e2d991d-9225-48f8-a9a3-dacf6c182181 -->
 
@@ -5165,11 +5176,22 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.2.4.1.1 - Curator Role Address [Core]  <!-- UUID: f9605664-b8e2-4efb-b4ef-c60d5d85ec8a -->
 
-`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
+The Curator role is held jointly by Soter Labs and Spark through the Curator Multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`.
 
-###### A.6.1.1.1.2.6.1.3.1.5.2.4.1.2 - Guardian Role Address [Core]  <!-- UUID: 9eeee40f-fb34-4ca0-922a-ad54fb4d30c1 -->
+The co-curator addresses are:
 
-`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xAB5710211458FC8d7E0Be628202F47DdbD3F38Eb` |
+| Spark | `0x50c770E6dC6CfdEE33509273FA9a215bfAffF9B2` |
+
+###### A.6.1.1.1.2.6.1.3.1.5.2.4.1.2 - Sentinel Role Address [Core]  <!-- UUID: 9eeee40f-fb34-4ca0-922a-ad54fb4d30c1 -->
+
+The Sentinel role is held by Operational GovOps Soter Labs through a multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`.
+
+###### A.6.1.1.1.2.6.1.3.1.5.2.4.1.3 - Owner Role Address [Core]  <!-- UUID: c218a5d5-57a3-4058-a50e-1aea75e57cdb -->
+
+The Owner role is held by Spark through its SubProxy at `0x3300f198988e4C9C63F75dF86De36421f06af8c4`.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.2.4.2 - Timelock [Core]  <!-- UUID: f44940e3-fda2-444c-a2ae-bd91d00b411c -->
 
@@ -5219,9 +5241,14 @@ The documents herein define the Instance contract addresses.
 
 `0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
 
-###### A.6.1.1.1.2.6.1.3.1.5.3.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 4310527e-f12c-42f8-92c5-99def334be77 -->
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.2.3 - Allocator Role Addresses [Core]  <!-- UUID: 4310527e-f12c-42f8-92c5-99def334be77 -->
 
-`0x9e396dE3312D373b87F9BD8763fb48184b42aac0`
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Sentora | `0x9e396dE3312D373b87F9BD8763fb48184b42aac0` |
+| Sentora | `0xC4Ba4e822C420452fe2BAB93211208D3CcBd79D3` |
 
 ###### A.6.1.1.1.2.6.1.3.1.5.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: a5ceda84-1a52-4b4b-8cbc-20947773f121 -->
 
@@ -5270,11 +5297,28 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.3.4.1.1 - Curator Role Address [Core]  <!-- UUID: 072ceda6-e5cd-4cce-b589-02d553bf5fee -->
 
-`0xff070333654aaE76A0A77465E4F0fd101C57c03F`
+The Curator role is held jointly by Soter Labs and Sentora through the Curator Multisig at `0xff070333654aaE76A0A77465E4F0fd101C57c03F`.
 
-###### A.6.1.1.1.2.6.1.3.1.5.3.4.1.2 - Guardian Role Address [Core]  <!-- UUID: f9522bc0-64b0-47e3-ae97-91380b31b9de -->
+The co-curator addresses are:
 
-`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xAB5710211458FC8d7E0Be628202F47DdbD3F38Eb` |
+| Sentora | `0x9e396dE3312D373b87F9BD8763fb48184b42aac0` |
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.1.2 - Sentinel Role Addresses [Core]  <!-- UUID: f9522bc0-64b0-47e3-ae97-91380b31b9de -->
+
+The Sentinel role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Operational GovOps Soter Labs | `0xf5748bBeFa17505b2F7222B23ae11584932C908B` |
+| Soter Labs | `0xb5bFd4883256089Dc58D962b80ab7068e71E7c80` |
+| Sentora | `0x9e396dE3312D373b87F9BD8763fb48184b42aac0` |
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.1.3 - Owner Role Address [Core]  <!-- UUID: 85f99501-6ca7-4ef0-b90b-0a1225afc1e3 -->
+
+The Owner role is held by Spark through its SubProxy at `0x3300f198988e4C9C63F75dF86De36421f06af8c4`.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.3.4.2 - Timelocks [Core]  <!-- UUID: d547c23a-049b-46b2-81fe-e6a4c0105555 -->
 
@@ -6788,7 +6832,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 64f057b6-40cc-4ef9-b1c5-36c7430b543f -->
 
-`0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d`
+The Allocator role is held by Spark at `0x92d7B06e5844e67174AE9E86bdCb06428482DDF9`.
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: c8ac360b-6c77-458f-a481-78b4554dd682 -->
 
@@ -6844,11 +6888,22 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.1 - Curator Role Address [Core]  <!-- UUID: 921d59d4-baaf-45a8-b6ff-93aa879e0e41 -->
 
-`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
+The Curator role is held jointly by Soter Labs and Spark through the Curator Multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xAB5710211458FC8d7E0Be628202F47DdbD3F38Eb` |
+| Spark | `0x50c770E6dC6CfdEE33509273FA9a215bfAffF9B2` |
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.2 - Guardian Role Address [Core]  <!-- UUID: edee318a-59b1-4ff1-9790-8d4606f2f7bd -->
 
-`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+The Guardian role is held by Operational GovOps Soter Labs through a multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`.
+
+###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.3 - Owner Role Address [Core]  <!-- UUID: a2e14ad7-a7d2-4837-8ce3-4166f0662efd -->
+
+The Owner role is held by Spark through its Executor at `0xF93B7122450A50AF3e5A76E1d546e95Ac1d0F579`.
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4.3 - Timelock [Core]  <!-- UUID: 63f24280-1724-4d2c-a0b8-aa8a2381afb8 -->
 
@@ -12479,7 +12534,7 @@ The Spark USDS Morpho Vault on Ethereum Mainnet is an approved instance with the
 
 - Instance Name: Spark USDS Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0xe41a0583334f0dc4E023Acd0bFef3667F6FE0597`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
+- Curator: Soter Labs and Spark, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold between a Soter Labs multisig and a Spark multisig
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
 - Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
@@ -12489,7 +12544,7 @@ The Spark Blue Chip USDC Morpho Vault on Ethereum mainnet is an approved instanc
 
 - Instance Name: Spark Blue Chip USDC Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0x56A76b428244a50513ec81e225a293d128fd581D`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
+- Curator: Soter Labs and Spark, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold between a Soter Labs multisig and a Spark multisig
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
 - Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
@@ -12499,7 +12554,7 @@ The Spark Blue Chip USDT Morpho Vault on Ethereum mainnet is an approved instanc
 
 - Instance Name: Spark Blue Chip USDT Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0xb0c424116172B55CbB6dD3136F5989F7959e5B91`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
+- Curator: Soter Labs and Spark, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold between a Soter Labs multisig and a Spark multisig
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
 - Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
@@ -12509,7 +12564,7 @@ The Spark USDC Morpho Vault on Base is an approved instance with the following d
 
 - Instance Name: Spark USDC Morpho Vault (Base)
 - Contract Address: `0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
+- Curator: Soter Labs and Spark, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold between a Soter Labs multisig and a Spark multisig
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
 - Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 

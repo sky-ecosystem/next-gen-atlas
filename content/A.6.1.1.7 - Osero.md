@@ -2273,7 +2273,7 @@ The current `maxAmount` and `slope` for this conduit's inflow/outflow are define
 
 The deposit rate limits are:
 - `maxAmount`: 5,000,000 USDC
-- `slope`: 0 USDC per day
+- `slope`: 650,000 USDC per day
 
 ###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.1.1 - Deposit Rate Limit Default [Core]  <!-- UUID: 8b15128c-5b5e-4936-b835-eee711617d61 -->
 
@@ -2318,19 +2318,36 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.1 - Owner Role Address [Core]  <!-- UUID: 69f43969-9da2-4bb1-98f8-58f166712ef5 -->
 
-`0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`
+The Owner role is held by Osero through its SubProxy at `0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`.
 
 ###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.2 - Curator Role Address [Core]  <!-- UUID: d13f341a-5471-42a2-ab00-a3148cd38917 -->
 
-`0x256DaC8fad2788F4182A42cE8F26029F0DEd7cf9`
+The Curator role is held jointly by Soter Labs and Gauntlet through the Curator Multisig at `0x256DaC8fad2788F4182A42cE8F26029F0DEd7cf9`.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.3 - Allocator Role Address [Core]  <!-- UUID: b0b73201-d985-4a71-84d9-05ae9f9320be -->
+The co-curator addresses are:
 
-The Allocator role is held by the Gauntlet Allocator address `0x6939A35d32E9bE623e08aA0bceD96D4baC170bB3` and the Vault Curator Multisig `0x256DaC8fad2788F4182A42cE8F26029F0DEd7cf9`.
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0x037A8456FB92dB66590C0060eE4174cC6812f518` |
+| Gauntlet | `0x9E33faAE38ff641094fa68c65c2cE600b3410585` |
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.4 - Sentinel Role Address [Core]  <!-- UUID: c2390e13-50af-4008-9474-ed4e99eac308 -->
+###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.3 - Allocator Role Addresses [Core]  <!-- UUID: b0b73201-d985-4a71-84d9-05ae9f9320be -->
 
-The Sentinel role is held by the Gauntlet Sentinel address `0x6a0dC94d80429dd4B03E8838CE8d6BEE725bE39B` and the Soter Labs Vault Sentinel Multisig `0xf51A112fB2cB63E3CB3eeB7feA8c7c58625868C7`.
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Gauntlet | `0x6939A35d32E9bE623e08aA0bceD96D4baC170bB3` |
+| Soter Labs and Gauntlet, through the Curator Multisig | `0x256DaC8fad2788F4182A42cE8F26029F0DEd7cf9` |
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.4 - Sentinel Role Addresses [Core]  <!-- UUID: c2390e13-50af-4008-9474-ed4e99eac308 -->
+
+The Sentinel role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Gauntlet | `0x6a0dC94d80429dd4B03E8838CE8d6BEE725bE39B` |
+| Soter Labs | `0xf51A112fB2cB63E3CB3eeB7feA8c7c58625868C7` |
 
 ###### A.6.1.1.7.2.6.1.3.1.2.1.4.2 - Maximum Exchange Rate [Core]  <!-- UUID: 5ca0988c-87d9-406e-86ff-2e719429b0a3 -->
 
