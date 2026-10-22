@@ -1551,71 +1551,15 @@ The Total Lines Of Code $\text{TotalLinesOfCode}$ is the total number of lines o
 
 ###### A.3.2.2.1.2.2.5.1.2 - Effectiveness Coefficient [Core]  <!-- UUID: d281c572-ff98-43ba-a01d-e54657b50ab9 -->
 
-The Effectiveness Coefficient $\text{effectivenessCoefficient}$ is a measure of the effectiveness of the particular audit firm and is estimated based on the tier of the audit firm.
+The Effectiveness Coefficient $\text{effectivenessCoefficient}$ is a measure of the effectiveness of the particular audit firm and is estimated based on the tier of the audit firm, as specified in [A.1.10.1.3.3 - Recognized Audit Firms](4a6e09e6-9e9d-45f0-923a-9c842faa7708). Audits from firms other than the ones specified therein may not be included in the calculation of the Audit Adjustment Factor.
 
-###### A.3.2.2.1.2.2.5.1.2.1 - Audit Firm Tiers [Core]  <!-- UUID: 97eee131-b5d6-4246-8631-fb077616b671 -->
-
-Audit firms are divided into two tiers: top-tier and mid-tier.
-
-###### A.3.2.2.1.2.2.5.1.2.1.1 - Top-Tier Effectiveness Coefficient [Core]  <!-- UUID: b4a13cfc-1fef-47da-a350-6e81346203f4 -->
+###### A.3.2.2.1.2.2.5.1.2.1 - Top-Tier Effectiveness Coefficient [Core]  <!-- UUID: b4a13cfc-1fef-47da-a350-6e81346203f4 -->
 
 The Effectiveness Coefficient of a top-tier audit firm is set to `0.8`.
 
-###### A.3.2.2.1.2.2.5.1.2.1.2 - Mid-Tier Effectiveness Coefficient [Core]  <!-- UUID: 18e07645-44c3-4175-8941-d7010233288a -->
+###### A.3.2.2.1.2.2.5.1.2.2 - Mid-Tier Effectiveness Coefficient [Core]  <!-- UUID: 18e07645-44c3-4175-8941-d7010233288a -->
 
 The Effectiveness Coefficient of a mid-tier audit firm is set to `0.5`.
-
-###### A.3.2.2.1.2.2.5.1.2.2 - Audit Firms By Tier [Core]  <!-- UUID: 5b542b65-2ef1-49e9-8995-122373f1b312 -->
-
-The subdocuments herein categorize specific audit firms into the top-tier and mid-tier categories. Audits from firms other than the ones specified herein may not be included in the calculation of the Audit Adjustment Factor.
-
-The Protocol Security Workstream Lead must review this categorization on a regular basis and update it as necessary.
-
-###### A.3.2.2.1.2.2.5.1.2.2.1 - List Of Top-Tier Audit Firms [Core]  <!-- UUID: 6ada67c6-0cf1-4456-b280-57e8ae7edc13 -->
-
-The top-tier audit firms are:
-
-- ChainSecurity
-- OpenZeppelin
-- ConsenSys Diligence
-- Trail Of Bits
-
-###### A.3.2.2.1.2.2.5.1.2.2.2 - List Of Mid-Tier Audit Firms [Core]  <!-- UUID: dea3a182-4b89-4fda-9eed-232562e5f057 -->
-
-The mid-tier audit firms are:
-
-- Quantstamp
-- SlowMist
-- PeckShield
-- Halborn
-- Certora
-- Hunter Security
-- Omniscia
-- Spearbit
-- Electisec
-- MixBytes
-- Cyfrin
-- SECBIT Labs
-- Bramah Systems
-- Zokyo
-- Guardian Audits
-- Zellic
-- Code4rena
-- Pashov
-- ABDK
-- Decurity
-- OtterSec
-- WatchPug
-- Sigma Prime
-- Cantina
-- Oxorio
-- Enigma Dark
-- Runtime Verification
-- Pessimistic
-- Solidified
-- StErMi
-- Sherlock
-- 0xMacro
 
 ###### A.3.2.2.1.2.2.5.2 - Decay Factor [Core]  <!-- UUID: 7ccfae3d-59ae-433e-adba-7822ae335755 -->
 

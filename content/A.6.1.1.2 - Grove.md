@@ -6968,15 +6968,37 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.3 - Owner Role Address [Core]  <!-- UUID: 71236b62-8283-4703-9d6a-04ccf6c06096 -->
 
-`0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.4 - Curator Role Address [Core]  <!-- UUID: dfd3a988-328e-4710-8049-fe1f5592fdcc -->
 
-`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: b0cd2f12-ad27-46ee-b482-89a07124598b -->
 
-`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: ba06cff1-b141-419a-8db2-cbfddc11300f -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 23ecc971-d297-4a06-98da-1e7620f5a823 -->
 
@@ -7067,15 +7089,37 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.3 - Owner Role Address [Core]  <!-- UUID: ef1ec372-a1dc-4824-94d2-7d955ea25a96 -->
 
-`0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.4 - Curator Role Address [Core]  <!-- UUID: a66421cd-3c15-4f43-a817-7b5262063361 -->
 
-`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
 
 ###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: e2466f53-ded7-458b-9004-ef07b7e1a8ef -->
 
-`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: 951859e9-8c18-4047-990b-935a70d1e541 -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 112d2a3d-0241-446e-96e8-36a25715c275 -->
 
@@ -7170,15 +7214,37 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.3 - Owner Role Address [Core]  <!-- UUID: 8364f790-0037-4d02-8bed-9bce1e9dbd86 -->
 
-`0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.4 - Curator Role Address [Core]  <!-- UUID: e37ccf22-627f-4c05-8861-63ff9c198ea6 -->
 
-`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
 
 ###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: 81672046-5627-4a09-b0d2-00079278a262 -->
 
-`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: a1982162-d3b7-4834-9037-0489f5035ee7 -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 41f9c281-d313-47d4-af75-8df48c9e260c -->
 
@@ -7270,6 +7336,40 @@ The documents herein define the Instance contract addresses.
 ###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: fad65025-4fb8-4826-9f39-d064bb6e065d -->
 
 `0xe343167631d89B6Ffc58B88d6b7fB0228795491D`
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.3 - Owner Role Address [Core]  <!-- UUID: 09f95a7f-7f72-414d-9dc8-d6f65f60b712 -->
+
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.4 - Curator Role Address [Core]  <!-- UUID: bbdcbffb-6116-48fd-a504-a280fa8a1344 -->
+
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: 03d66182-7a41-4183-9a78-209eb17e68a6 -->
+
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: 26b39807-1d1f-4714-8c80-a2ee072e1724 -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: 08381056-3b54-4728-8afa-017d8a52a624 -->
 
@@ -7364,11 +7464,36 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.5.2.2.3 - Curator Role Address [Core]  <!-- UUID: edc42fd3-d4f2-4ff1-9e1f-789ce3c0d74a -->
 
-`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
 
 ###### A.6.1.1.2.2.6.1.3.1.7.5.2.2.4 - Sentinel Role Address [Core]  <!-- UUID: 578c7d0e-2a17-4f10-9d9d-2e8fedac9aa0 -->
 
-`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.5.2.2.5 - Owner Role Address [Core]  <!-- UUID: 4d76bfca-7e5b-4f0f-ae09-2395bf5b97b8 -->
+
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.5.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: 80038f9f-d01e-45c1-8f51-cfb73cff1f6f -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.5.2.3 - Rate Limit IDs [Core]  <!-- UUID: 6a64a14d-3a64-43cc-bc96-ee7d3417f8da -->
 
@@ -9057,6 +9182,40 @@ The documents herein define the Instance contract addresses.
 ###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: a911bdd4-e5e8-47c7-81e6-f4b7600dc1c4 -->
 
 `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
+
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.3 - Owner Role Address [Core]  <!-- UUID: cc84f49f-3fee-45a3-9cce-b535d33c4534 -->
+
+The Owner role is held by Grove through its Executor at `0x491EDFB0B8b608044e227225C715981a30F3A44E`.
+
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.4 - Curator Role Address [Core]  <!-- UUID: fe0cc850-6315-4673-804d-27d2b419a3f7 -->
+
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
+
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: 8739171a-bdbb-437c-bc2b-b081bce4e1c7 -->
+
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: 278046bb-da04-46ce-8f9a-26557298522a -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Steakhouse Financial | `0x1be9b8C406120B2c2b8990d0522cD226A3D60e36` |
+| Morpho Blue Public Allocator | `0xAED282B8aD9257BB1272e93aE63A32A53621e412` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.3.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 80c5532f-a7c9-4f7e-9a33-6f10cd7f4af8 -->
 
