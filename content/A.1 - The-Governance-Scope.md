@@ -2389,6 +2389,104 @@ The Spell teams need not share their identities. Therefore, it is no longer a re
 
 The Chainlog is an on-chain, governance-managed registry that records the official addresses of Sky’s core smart contracts. Each contract entry in the Chainlog is identified by a unique key ("Chainlog key"), which is used to reference the contract in documentation, governance actions, and integrations. It serves as the single source of truth for contract addresses in the protocol. The Chainlog is available at [https://chainlog.skyeco.com/](https://chainlog.skyeco.com/). Updates to the Chainlog are defined as housekeeping items (see [A.1.11.1.5.1.1 - Definition Of Housekeeping Items](7648bf12-d600-4e0d-807b-5eb18e8d0f4f)) and can be included directly in an Executive Vote (see [A.1.11.1.5.1.2 - Process for Adding Housekeeping Item In Executive Vote](2d165c27-5daf-4a84-af8c-7c36f5de03d2)).
 
+#### A.1.10.1.3 - Standards For Audits Not Commissioned By Sky [Core]  <!-- UUID: 38057336-8638-49b6-85f6-cabcc27a74c4 -->
+
+The documents herein define the standards that apply to audits Sky did not commission through the process specified in [A.1.10.2.7 - Audit Process](a8334e19-fedb-48fb-a38c-f18666ccc8e6), including audits of external protocols and their contracts.
+
+These standards determine when Sky recognizes such an audit, and which contracts must be covered by recognized audits. They apply wherever such an audit is used or referenced in a governance process.
+
+##### A.1.10.1.3.1 - Audit Recognition Requirements [Core]  <!-- UUID: c4258c16-c199-4d5b-86f8-9acb74b7e40c -->
+
+An audit that Sky did not commission through the process specified in [A.1.10.2.7 - Audit Process](a8334e19-fedb-48fb-a38c-f18666ccc8e6) is a recognized audit where all of the following are satisfied:
+
+- The audit was performed by an audit firm recognized by Sky, as specified in [A.1.10.1.3.3 - Recognized Audit Firms](4a6e09e6-9e9d-45f0-923a-9c842faa7708).
+- The audit report provenance is independently verifiable. For example, the report is hosted on or linked from the auditor's website, or found in the auditor's official code repository. Files uploaded to the audited codebase do not satisfy this requirement.
+- The audit report contains a scope statement identifying the contracts, scripts, or artifacts reviewed.
+- The audit report contains the exact commit hash at which the audit was concluded. A linked pull request addressing findings, without that commit hash, does not satisfy this requirement.
+- The audit report records the severity and resolution status of any findings.
+- The audit report documents the trust assumptions of the audited system, or the audited codebase documents them at that commit hash.
+
+##### A.1.10.1.3.2 - Audit Coverage Requirements [Core]  <!-- UUID: 95669d2d-ef50-4109-b592-40a1d0bac8bb -->
+
+These requirements apply to smart contracts whose audits Sky did not commission through the process specified in [A.1.10.2.7 - Audit Process](a8334e19-fedb-48fb-a38c-f18666ccc8e6) and that are materially relevant to the security of the assets Sky holds or transacts through them.
+
+Contracts materially relevant to that security include the contracts in which the assets are held, the contracts the assets pass through on deposit, redemption, and withdrawal, the implementation of any of those that is a proxy, and the contracts that can alter the behavior, parameters, or price sources of any of them.
+
+The deployed code of those contracts must satisfy all of the following:
+
+- It is covered by at least two (2) recognized audits, as specified in [A.1.10.1.3.1 - Audit Recognition Requirements](c4258c16-c199-4d5b-86f8-9acb74b7e40c).
+- Each of those audits is performed by a different audit firm.
+- Each of those audits targets the deployed commit, or every difference between the commit at which each audit was concluded and the deployed code is covered by two (2) recognized audits performed by different audit firms.
+- Any finding of medium severity or higher identified in an audit used to satisfy these requirements has been confirmed by the auditor as resolved.
+
+Sky may rely on contracts that do not meet these requirements only with the approval of the Protocol Security Workstream Lead.
+
+##### A.1.10.1.3.3 - Recognized Audit Firms [Core]  <!-- UUID: 4a6e09e6-9e9d-45f0-923a-9c842faa7708 -->
+
+The documents herein specify the audit firms recognized by Sky and the tier to which each belongs. The Protocol Security Workstream Lead must review this categorization on a regular basis and update it as necessary.
+
+A firm is recognized under any name it publishes audits under. Audits published under different names by the same firm, or by firms under common ownership or control, count as one (1) audit firm.
+
+###### A.1.10.1.3.3.1 - Audit Firm Tiers [Core]  <!-- UUID: 97eee131-b5d6-4246-8631-fb077616b671 -->
+
+Audit firms are divided into two (2) tiers: top-tier and mid-tier.
+
+###### A.1.10.1.3.3.2 - Audit Firms By Tier [Core]  <!-- UUID: 5b542b65-2ef1-49e9-8995-122373f1b312 -->
+
+The documents herein categorize specific audit firms into the top-tier and mid-tier categories.
+
+###### A.1.10.1.3.3.2.1 - List Of Top-Tier Audit Firms [Core]  <!-- UUID: 6ada67c6-0cf1-4456-b280-57e8ae7edc13 -->
+
+The top-tier audit firms are:
+
+- ChainSecurity
+- Cantina
+
+###### A.1.10.1.3.3.2.2 - List Of Mid-Tier Audit Firms [Core]  <!-- UUID: dea3a182-4b89-4fda-9eed-232562e5f057 -->
+
+The mid-tier audit firms are:
+
+- Quantstamp
+- SlowMist
+- PeckShield
+- Halborn
+- Certora
+- Hunter Security
+- Omniscia
+- yAudit
+- MixBytes
+- Cyfrin
+- SECBIT Labs
+- Bramah Systems
+- Zokyo
+- Guardian Audits
+- Zellic
+- Code4rena
+- Pashov
+- ABDK
+- Decurity
+- OtterSec
+- WatchPug
+- Sigma Prime
+- Oxorio
+- Enigma Dark
+- Runtime Verification
+- Pessimistic
+- Solidified
+- StErMi
+- Sherlock
+- 0xMacro
+- OpenZeppelin
+- ConsenSys Diligence
+- Trail Of Bits
+
+##### A.1.10.1.3.4 - Short-Term Transitionary Measures [Core]  <!-- UUID: 19f5f5b9-be0d-4a91-a5aa-3888c1c9b7e8 -->
+
+The standards specified in [A.1.10.1.3 - Standards For Audits Not Commissioned By Sky](38057336-8638-49b6-85f6-cabcc27a74c4) apply as follows:
+
+- Contracts Sky first relies on after October 22, 2026, must meet the standards before Sky relies on them.
+- Contracts Sky already relies on as of October 22, 2026, must meet the standards by January 1, 2027. After that date, Sky may only continue to rely on such a contract that does not meet the standards with the approval of the Protocol Security Workstream Lead.
+
 ### A.1.10.2 - Executive Process Definition [Section]  <!-- UUID: 03d32549-1da5-4a9c-902f-196641370eaf -->
 
 This Section defines the Executive Process, which is the end-to-end process through which Sky makes changes to the Sky Protocol.
@@ -2892,7 +2990,7 @@ By Friday, 16:00 UTC of week 2, the Prime Agent must deliver the final Prime Spe
 
 ###### A.1.10.2.3.2.2.3.3.7 - Prime Spell Recorded In Executive Sheet [Core]  <!-- UUID: 0dbdbcca-5c94-448c-9ac4-03b53c58065d -->
 
-By Friday, 16:00 UTC of week 2, the Core Facilitator must record the Prime Spell address, codehash, and execution type in the Executive Sheet for the corresponding Executive Vote. The Executive Process Liaison must confirm the recorded Prime Spell address against the address delivered by the Prime Agent in [A.1.10.2.3.2.2.3.3.6 - Prime Agent Delivers Prime Spell Payload](d5223f2c-264f-47da-9e59-2574bdf9cfc2).
+By Friday, 16:00 UTC of week 2, the Core Facilitator must record the Prime Spell address, codehash, and execution type in the Executive Sheet for the corresponding Executive Vote. The Executive Process Liaison must confirm the recorded Prime Spell address against the address delivered by the Prime Agent in [A.1.10.2.3.2.2.3.3.6 - Prime Agent Delivers Prime Spell Payload](d5223f2c-264f-47da-9e59-2574bdf9cfc2). Before giving this confirmation, the Executive Process Liaison must make sure that each Prime Spell action is authorized in the Atlas. If any Prime Spell action lacks this authorization, the Executive Process Liaison must notify the Prime Agent and the Core Facilitator in the govops channel in Slack.
 
 ###### A.1.10.2.3.2.2.3.4 - Step 4: Crafting And Publication (Week 3) [Core]  <!-- UUID: 655923b3-0d0c-43da-898b-9adc71ae3e7e -->
 
@@ -4764,7 +4862,7 @@ This risk is partially mitigated: BeamState's `hop` and `maxChange` parameters b
 
 ###### A.1.10.3.2.10.6 - Core Council Multisig Exception [Core]  <!-- UUID: fbb0677a-3218-4649-9116-9f3c18e3ef90 -->
 
-The Core Council Multisig — the same multisig across all chains, as specified in [A.2.2.10.1.1.1.2.4.2.3.1 - Core Council Multisig](5d26be25-bddc-4ede-8fa4-a092c610103e) — can act on a given chain's BeamState without a separate Executive Vote for each change, as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754). Its immediate functions take effect directly, with no delay; its delayed functions take effect only after that chain's Timelock's minimum delay has passed.
+The Core Council Multisig — deployed separately on each chain on which the PAS runs, as specified in [A.2.2.10.1.1.1.2.4.2.3.1 - Core Council Multisig](5d26be25-bddc-4ede-8fa4-a092c610103e) — can act on a given chain's BeamState without a separate Executive Vote for each change, as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754). Its immediate functions take effect directly, with no delay; its delayed functions take effect only after that chain's Timelock's minimum delay has passed.
 
 This functionality allows the Core Council Multisig to respond to cBEAM misbehavior, and to adjust a chain's BeamState parameters, more quickly than waiting for a separate Executive Vote.
 

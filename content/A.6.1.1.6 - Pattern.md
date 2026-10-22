@@ -2140,7 +2140,7 @@ The Maximum Exposure for this Instance is 70,000,000 USDC.
 
 ###### A.6.1.1.6.2.6.1.3.1.2.1.2.5.2 - Capital Ratio Requirement [Core]  <!-- UUID: 50178595-e88d-4f75-a08f-1506ba8f15f2 -->
 
-The CRR for this Instance will be specified in a future iteration of the Atlas.
+The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 7%, applied to the full amount transferred to the River SPV II Offramp address, including funds that have not yet been drawn by the underlying borrower.
 
 ##### A.6.1.1.6.2.6.1.4 - Completed Instances [Core]  <!-- UUID: f7a6d433-9be9-4140-89b4-eacf579522e4 -->
 

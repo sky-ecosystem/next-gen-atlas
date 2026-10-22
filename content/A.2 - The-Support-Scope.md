@@ -3609,7 +3609,7 @@ The PAS consists of the following contracts:
 - Timelock: delays certain Core Council Multisig changes to BeamState's registries and bounds before they take effect.
 - PASMom: the PAS's emergency stop-and-pause switch, deployed on Ethereum Mainnet only.
 
-BeamState, the Configurator, and the Timelock are each deployed independently per chain. A Diamond PAU on a given chain is governed by that chain's own PAS deployment, with its own Timelock and registries, overseen by the same Core Council Multisig across all chains. Each chain's PAS deployment is defined in the subdocuments herein. For the emergency path itself, see [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
+BeamState, the Configurator, and the Timelock are each deployed independently per chain. A Diamond PAU on a given chain is governed by that chain's own PAS deployment, with its own Timelock and registries, overseen by that chain's deployment of the Core Council Multisig. Each chain's PAS deployment is defined in the subdocuments herein. For the emergency path itself, see [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
 
 ###### A.2.2.10.1.1.1.2.4.1 - Ethereum Mainnet [Core]  <!-- UUID: 9138461b-bff3-4c2e-8051-6e2f0401dc8a -->
 
@@ -3710,6 +3710,8 @@ Operational GovOps Soter Labs and the Core Facilitator can change the signers of
 - five (5) signers are required to execute transactions;
 - four (4) signers are controlled by Operational GovOps Soter Labs; and
 - two (2) signers are controlled by the Core Facilitator.
+
+These requirements apply on every network on which the Core Council Multisig is deployed, and a change to the signers or the required number of signers must be made on each of them.
 
 ###### A.2.2.10.1.1.1.2.4.1.3.2 - Timelock [Core]  <!-- UUID: a824d088-be58-4163-b382-54a95a728103 -->
 
@@ -3941,7 +3943,7 @@ BeamState holds the registries and bounds that govern the Arbitrum PAS, as speci
 
 ###### A.2.2.10.1.1.1.2.4.2.3.1 - Core Council Multisig [Core]  <!-- UUID: 5d26be25-bddc-4ede-8fa4-a092c610103e -->
 
-The Core Council Multisig's authority and process on the Arbitrum PAS are as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), applied to the Arbitrum BeamState and Timelock, except that Arbitrum has no PASMom, as specified in [A.2.2.10.1.1.1.2.4.2.3.2 - Timelock](4d5c2636-e5f6-4ac6-a5e6-9212aed5d825). It is the same multisig as on Ethereum Mainnet: its address, required number of signers, signers, and modification rules are as specified in [A.2.2.10.1.1.1.2.4.1.3.1.1 - Core Council Multisig Address](41157518-ec2f-4c4f-a112-5a1f07fc71dc), [A.2.2.10.1.1.1.2.4.1.3.1.2 - Core Council Multisig Required Number Of Signers](70ce8011-7126-440d-b90d-010a3d97b43f), [A.2.2.10.1.1.1.2.4.1.3.1.3 - Core Council Multisig Signers](366436ae-0bab-4fce-a144-64660ac47366), and [A.2.2.10.1.1.1.2.4.1.3.1.5 - Core Council Multisig Modification](61f08711-db44-4c9f-98ad-f330e729398f).
+The Core Council Multisig's authority and process on the Arbitrum PAS are as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), applied to the Arbitrum BeamState and Timelock, except that Arbitrum has no PASMom, as specified in [A.2.2.10.1.1.1.2.4.2.3.2 - Timelock](4d5c2636-e5f6-4ac6-a5e6-9212aed5d825). It is deployed separately on Arbitrum at the same address as on Ethereum Mainnet, as specified in [A.2.2.10.1.1.1.2.4.1.3.1.1 - Core Council Multisig Address](41157518-ec2f-4c4f-a112-5a1f07fc71dc). Its required number of signers, signers, and modification rules are as specified in [A.2.2.10.1.1.1.2.4.1.3.1.2 - Core Council Multisig Required Number Of Signers](70ce8011-7126-440d-b90d-010a3d97b43f), [A.2.2.10.1.1.1.2.4.1.3.1.3 - Core Council Multisig Signers](366436ae-0bab-4fce-a144-64660ac47366), and [A.2.2.10.1.1.1.2.4.1.3.1.5 - Core Council Multisig Modification](61f08711-db44-4c9f-98ad-f330e729398f).
 
 ###### A.2.2.10.1.1.1.2.4.2.3.1.1 - Core Council Multisig Usage Standards [Core]  <!-- UUID: 9e57ea27-2b98-4eac-8ec0-d83a8b24403f -->
 
@@ -4071,7 +4073,7 @@ Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd
 
 ###### A.2.2.10.1.1.1.2.5.2.1.2.2 - Rate Limit [Core]  <!-- UUID: b900fd43-5f7c-438f-a1dd-0e89db98f4db -->
 
-The burning of USDS is subject to the on-chain rate limit identified by `LIMIT_USDS_BURN`. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. The burn additionally increases the `LIMIT_USDS_MINT` rate limit by the same amount, where that rate limit is configured, restoring minting capacity.
+The burning of USDS is subject to the on-chain rate limit identified by `LIMIT_USDS_BURN`. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. The burn additionally increases the `LIMIT_USDS_MINT` rate limit by the same amount, where that rate limit is configured, restoring minting capacity up to the rate limit's `maxAmount`, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5) and its subdocuments.
 
 ###### A.2.2.10.1.1.1.2.5.2.1.2.3 - Burn USDS From ALM Proxy [Core]  <!-- UUID: feace76a-e48a-42da-8732-74bbf55c530f -->
 
@@ -4179,7 +4181,7 @@ Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd
 
 ###### A.2.2.10.1.1.1.2.5.2.4.2.2 - Rate Limit [Core]  <!-- UUID: b489a966-f631-429d-85da-cb6258f001c9 -->
 
-The swap is subject to the on-chain rate limit identified by `LIMIT_USDC_TO_USDS`. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. The swap additionally increases the `LIMIT_USDS_TO_USDC` rate limit by the same amount, where that rate limit is configured, restoring capacity in the opposite swap direction.
+The swap is subject to the on-chain rate limit identified by `LIMIT_USDC_TO_USDS`. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. The swap additionally increases the `LIMIT_USDS_TO_USDC` rate limit by the same amount, where that rate limit is configured, restoring capacity in the opposite swap direction, up to the rate limit's `maxAmount`, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5) and its subdocuments.
 
 ###### A.2.2.10.1.1.1.2.5.2.4.2.3 - Swap USDC For USDS [Core]  <!-- UUID: fa1364a3-081c-4327-8ef4-637a3fdd1105 -->
 
@@ -4465,10 +4467,18 @@ The documents herein define the requirements for Morpho vaults used by Prime Age
 
 Morpho vaults must use the following role configuration:
 
-- The Owner role must be held by the relevant Prime Agent's SubProxy.
+- The Owner role must be held by the relevant Prime Agent's SubProxy or, on another blockchain, by its governance Executor acting on instructions relayed from that SubProxy.
 - The Curator role must be held by a Multisig jointly controlled by the Operational Executor Agent and either the relevant Prime Agent or an external curator. The Multisig must require a 2 of 2 signer approval threshold.
 - The Allocator role may be held by an externally owned account or Multisig controlled by the relevant Prime Agent or an external curator, or by the Morpho Public Allocator contract. Where the Morpho Public Allocator contract holds the Allocator role, any emergency action that withdraws vault assets from a market must also set the Public Allocator's caps for that market to zero, so that the Public Allocator cannot reallocate assets back into that market.
 - The Sentinel role must be held by at least one (1) address controlled by the Operational Executor Agent, using a signer set separate from the signer set controlling the Curator role. Additional Sentinel addresses may be designated. These additional Sentinel addresses are recommended but not required, and no restriction applies to who may control them. Any automated monitoring solution serving as a Sentinel must be capable of automatically revoking pending actions when it detects a threat.
+
+###### A.2.2.10.1.1.1.3.1.1 - Permissioned Role Records [Core]  <!-- UUID: d1d1ee0e-4d57-4c01-8fad-ea360b5bee03 -->
+
+For each Morpho vault used by a Prime Agent, the relevant Instance Configuration Document must specify each permissioned role, the entity or entities holding that role, and each corresponding on-chain address. Where a role has multiple holders, each holder must be recorded separately. Where a role is held by a permissionless contract without a controlling entity, the record must identify that contract and its address.
+
+Where the Curator role is held by a Multisig jointly controlled by multiple entities, the record must distinguish the address of the Curator Multisig from the co-curator address controlled by each participating entity. The co-curator address may be an externally owned account or a Multisig. Individual signers of an entity's Multisig are not required to be listed.
+
+An approved change to a role holder or address that has not yet been implemented must be distinguished from the current configuration, with its condition for taking effect specified.
 
 ###### A.2.2.10.1.1.1.3.2 - Market Eligibility Requirements [Core]  <!-- UUID: 022092c0-7a70-4b74-94c6-ed1b58f42cd1 -->
 
