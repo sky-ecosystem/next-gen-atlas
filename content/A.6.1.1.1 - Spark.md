@@ -6379,6 +6379,18 @@ Max slippage: 0.1%
 
 The documents herein contain specific off-chain parameters for this Instance.
 
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.5.1 - Interim Deployment [Core]  <!-- UUID: b1e85213-c320-4fab-86da-8b3395f8e7fc -->
+
+This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 2428dc4b-b14b-4776-829a-905036e235e5 -->
+
+The maximum allocation for this Instance is 20,000,000 USD.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.5.1.2 - Rate Limits [Core]  <!-- UUID: 89954921-0896-46c3-871b-0ce478536990 -->
+
+The Rate Limits for this Interim Deployment are defined in [A.6.1.1.1.2.6.1.3.1.8.5.2.4 - Rate Limits](908bf4b2-0b28-4e2f-8928-4a4dd867b33f).
+
 ###### A.6.1.1.1.2.6.1.3.1.8.5.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 425d0ad3-ce70-45b8-807e-2817debb9e90 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
