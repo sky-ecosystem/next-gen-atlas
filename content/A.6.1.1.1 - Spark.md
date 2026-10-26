@@ -6836,11 +6836,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.12.1.2.2.1 - Token Address [Core]  <!-- UUID: 3fe57c33-4e6c-4090-b2f5-5267fac8c9e5 -->
 
-`0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48`
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
 ###### A.6.1.1.1.2.6.1.3.1.12.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: dbbc67f5-1a28-4947-b242-7692e5c8b7e7 -->
 
-`0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48`
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
 ###### A.6.1.1.1.2.6.1.3.1.12.1.2.2.3 - Bridge Deposit Address [Core]  <!-- UUID: 7a5ec4af-7524-448d-9cb3-68a211344961 -->
 
