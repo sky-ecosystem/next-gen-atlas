@@ -6369,6 +6369,7 @@ Max slippage: 0.1%
 
 - Min lower tick limit: 276,314 (-0.1%)
 - Max upper tick limit: 276,334 (+0.1%)
+- Max tick width: 10
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.4.6 - Swap Fee [Core]  <!-- UUID: e079a8e6-2862-494a-8155-0ea55454a3c7 -->
 
