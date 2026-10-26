@@ -2073,7 +2073,7 @@ The address of the ALM_RATE_LIMITS contract is: `0x7F7E2286983994c4403Cf2B86758c
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3 - Diamond PAU Contracts [Core]  <!-- UUID: 75d44d51-0d4f-4fa1-8a4e-bee115250d97 -->
 
-The documents herein define the addresses of the Diamond Parallelized Allocation Unit (Diamond PAU) contracts deployed for the Spark Liquidity Layer. The Diamond PAU is a modular implementation of the Allocation System in which the Controller dispatches operations to Facet contracts, with integration configurations held in a Beacon contract. The Beacon and Facet contracts follow the shared Diamond PAU architecture specified in [A.2.2.10.1.1.1.2.3 - Liquidity Layer Shared Contracts](a2677d19-1f2c-4361-bedc-34cb2e7eaab5). The addresses used by the Arbitrum deployment are specified below.
+The documents herein define the addresses of the Diamond Parallelized Allocation Unit (Diamond PAU) contracts deployed for the Spark Liquidity Layer. The Diamond PAU is a modular implementation of the Allocation System in which the Controller dispatches operations to Facet contracts, with integration configurations held in a Beacon contract. The Beacon and Facet contracts follow the shared Diamond PAU architecture specified in [A.2.2.10.1.1.1.2.3 - Liquidity Layer Shared Contracts](a2677d19-1f2c-4361-bedc-34cb2e7eaab5).
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.1 - Arbitrum [Core]  <!-- UUID: 2a6d1e9b-e36f-4678-9934-2a81820fcbf5 -->
 
@@ -2106,6 +2106,40 @@ The address of the Beacon contract is: `0x86036CE5d2f792367C0AA43164e688d13c5A60
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.7 - CCTP Facet Contract [Core]  <!-- UUID: 29be03da-9d81-487a-8d3a-7ebd80bffd44 -->
 
 The address of the CCTP Facet contract is: `0xeCCA0D296Cb133081d41E9772B60D57F5fd2798E`.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2 - Base [Core]  <!-- UUID: 59e2c1fc-2f61-48c3-b6fe-9dcd5b8851dc -->
+
+The documents herein define the addresses of the Diamond PAU contracts on Base.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.1 - ALM Proxy Contract [Core]  <!-- UUID: d9155572-79a6-4754-9ac8-3c4971681895 -->
+
+The address of the ALM Proxy contract is: `0x2917956eFF0B5eaF030abDB4EF4296DF775009cA`. The ALM Proxy custodies the Instance's funds and routes calls to external contracts as directed by the Controller contract. This is the existing Base ALM Proxy, shared with the monolithic ForeignController, which retains its `CONTROLLER` role.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.2 - Controller Contract [Core]  <!-- UUID: 21ab222d-1348-4178-b326-a627ca07e89a -->
+
+The address of the Controller contract is: `0xd864bF1Ea2f78Dc2013E3FC7e4C474383BE9d456`. The Controller is the entry point for all allocator operations; it synchronizes integration configurations from the Beacon contract and dispatches calls to the appropriate facet contract.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.3 - AccessControls Contract [Core]  <!-- UUID: b3152015-a34e-46d8-8a5a-0ded9348b91e -->
+
+The address of the AccessControls contract is: `0xE593c8c6a31d88cab100244Afd352efb127f9a16`. The AccessControls contract manages the roles and permissions of the Diamond PAU, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.4 - ALM Rate Limits Contract [Core]  <!-- UUID: e639902b-5c3b-498a-a7e9-25e9166ac38e -->
+
+The address of the ALM Rate Limits contract is: `0x5E311e8BCe95F4e8d4920E70985ED4aC122a838A`. The ALM Rate Limits contract enforces the rate limits on operations performed through the Controller contract.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.5 - AdministeredAgent Contract [Core]  <!-- UUID: a1b86c45-97a0-4b3c-94aa-73ecfa2333ab -->
+
+The address of the AdministeredAgent contract is: `0x70E46bAf2E3F27a119757D7b796c641C8bc087cE`. The AdministeredAgent holds the Allocator Role of the Diamond PAU and mediates relayer access to the Controller: the ALM Relayer Multisig and the Spark hot wallet are registered as its actors and submit operations through it, while the ALM Freezer Multisig and the Soter Labs freezer multisig are registered as revokers authorized to remove a compromised actor, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.6 - Ethereum Domain Parameters [Core]  <!-- UUID: f7fc9aab-df3e-4ba7-93f5-b2413bf1a827 -->
+
+The CCTP domain parameters for transfers from Base to Ethereum are:
+
+- Destination domain: `0` (Ethereum).
+- Mint recipient: Ethereum ALM Proxy (`0x1601843c5E9bC251A3272907010AFa41Fa18347E`), encoded as `bytes32(uint256(uint160(recipient)))`.
+- Both fee caps: `0`.
+
+The CCTP Facet fixes `destinationCaller` to `bytes32(0)` and `minFinalityThreshold` to `2000` (standard finalized tier).
 
 ###### A.6.1.1.1.2.6.1.2.1.1.2 - Off-Chain Operational Parameters [Core]  <!-- UUID: 257dcfcb-9bb8-4989-a063-69ae4f01f224 -->
 
@@ -2507,6 +2541,18 @@ The Aggregate CCTP RateLimitID (`cctp_toCCTPRateLimitKey()`) is: `0x0476a9fd902e
 
 The CCTP To Ethereum RateLimitID (`cctp_getToDomainRateLimitKey(0)`, Circle domain 0) is: `0x90b598dae614822d554ec4f627bb5feab505106473a7911f34b36c0b3b9695c7`.
 
+###### A.6.1.1.1.2.6.1.2.1.1.4.2 - Base [Core]  <!-- UUID: 24678ab1-1056-406a-ad4a-a3f38611a279 -->
+
+The documents herein define the CCTP rate limit IDs for the Base Diamond PAU.
+
+###### A.6.1.1.1.2.6.1.2.1.1.4.2.1 - Aggregate CCTP Rate Limit ID [Core]  <!-- UUID: cf58ffd1-3d0f-4427-9eb1-c1d4be2c78ba -->
+
+The Aggregate CCTP RateLimitID (`cctp_toCCTPRateLimitKey()`) is: `0x0476a9fd902eafdb5bcdabd9f0523dd7aacf7aa0c38c0e6ab912f5fed00f8e11`.
+
+###### A.6.1.1.1.2.6.1.2.1.1.4.2.2 - CCTP To Ethereum Rate Limit ID [Core]  <!-- UUID: e0c36c07-3b49-4630-96cb-910570621c20 -->
+
+The CCTP To Ethereum RateLimitID (`cctp_getToDomainRateLimitKey(0)`, Circle domain 0) is: `0x90b598dae614822d554ec4f627bb5feab505106473a7911f34b36c0b3b9695c7`.
+
 ###### A.6.1.1.1.2.6.1.2.1.1.5 - Diamond PAU Rate Limits [Core]  <!-- UUID: e3ecf860-59dc-4d7b-b3cd-fb4311f4c2a9 -->
 
 The documents herein list the rate limits for the Spark Diamond PAU deployments.
@@ -2524,6 +2570,23 @@ The aggregate CCTP limit is specified in the document herein.
 ###### A.6.1.1.1.2.6.1.2.1.1.5.1.2 - CCTP To Ethereum Limit [Core]  <!-- UUID: 6d726af1-e51f-4664-b5f2-bcb8caf07c03 -->
 
 The maximum amount of USDC that can be bridged from the Arbitrum ALM Proxy to the Ethereum ALM Proxy through CCTP v2 is specified in the document herein.
+
+- `maxAmount`: 5,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
+###### A.6.1.1.1.2.6.1.2.1.1.5.2 - Base [Core]  <!-- UUID: 88c9fce7-e442-44f5-b2cc-aec37a1f7b33 -->
+
+The documents herein list the controller-wide rate limits for the Spark Diamond PAU on Base. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.3.4.1 - Operator Execution](56da9559-54be-4fb5-b39d-8c31c4aeed67). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
+
+###### A.6.1.1.1.2.6.1.2.1.1.5.2.1 - Aggregate CCTP Limit [Core]  <!-- UUID: 10e1ccf4-86c0-4f9c-9a8c-aa56775b999a -->
+
+The aggregate CCTP limit is specified in the document herein.
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.2.1.1.5.2.2 - CCTP To Ethereum Limit [Core]  <!-- UUID: f8228556-9fa1-4bda-8e50-cf71c38b0c2d -->
+
+The maximum amount of USDC that can be bridged from the Base ALM Proxy to the Ethereum ALM Proxy through CCTP v2 is specified in the document herein.
 
 - `maxAmount`: 5,000,000 USDC
 - `slope`: 50,000,000 USDC per day
@@ -2715,6 +2778,35 @@ Removing an actor revokes its ability to submit operations through the Allocatio
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.5 - Grantor [Core]  <!-- UUID: 64f794c9-db5f-4875-a800-3da12f4c5bec -->
 
 The Grantor is authorized to add actors to the AdministeredAgent. The grantor is the Soter Labs grantor multisig: `0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7`. It replaces the PAU Grantor Multisig (`0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514`), whose grantor authorization is removed.
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.2 - Base [Core]  <!-- UUID: 9f23570b-83ac-4513-a431-6582576e8a57 -->
+
+The documents herein define the roles and permissions of the Diamond PAU Instance of the Allocation System Primitive on Base. Roles are managed by the AccessControls contract.
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.2.1 - Default Admin Role [Core]  <!-- UUID: bfc31251-e9ad-4d87-bb1b-3c20763dfa6d -->
+
+The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke all other roles of the Diamond PAU on the former, and to set rate limits on the latter. The Default Admin Role is held on both contracts by the Base Spark Executor (`0xF93B7122450A50AF3e5A76E1d546e95Ac1d0F579`) and by the Configurator, as specified in [A.2.2.10.1.1.1.2.3.3.5 - Configurator](e5cf7362-7ea2-4a33-8373-565d56c7da67).
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.2.2 - Controller Role [Core]  <!-- UUID: 80b9b8b2-ce9c-4c02-8892-bce9204fb2e9 -->
+
+The `CONTROLLER` role is authorized to call the `call` functions on the ALM Proxy contract and to update the ALM Rate Limits contract. The Controller Role is held by the Controller contract, which dispatches operations to the relevant Facet contract on behalf of the Allocator Role.
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.2.3 - Allocator Role [Core]  <!-- UUID: 53e4265a-19f9-4fb8-8f9d-4c6dcc2be66b -->
+
+The `ALLOCATOR_ROLE` is authorized to call functions on the Controller contract to perform operations on behalf of the ALM Proxy contract. The Allocator Role is held by the AdministeredAgent contract, as specified in [A.6.1.1.1.2.6.1.2.1.1.1.3.2.5 - AdministeredAgent Contract](a1b86c45-97a0-4b3c-94aa-73ecfa2333ab), which mediates access for the Spark Liquidity Layer relayer system. The ALM Relayer Multisig (`0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB`) and the Spark hot wallet (`0x062cE42caE04c51D04E77e3D64cc8953a2296FfE`) are registered as actors of the AdministeredAgent and submit operations through it. An actor may be removed from the AdministeredAgent by any address holding the Freezer Role, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5.2.4 - Freezer Role](21a91aa1-3a54-4616-8ebe-540676ddc48f).
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.2.4 - Freezer Role [Core]  <!-- UUID: 21a91aa1-3a54-4616-8ebe-540676ddc48f -->
+
+The Freezer Role is authorized to remove a compromised or malicious relayer actor from the AdministeredAgent contract as a rapid-response measure, without recourse to the standard governance process. Removing an actor revokes its ability to submit operations through the Allocation System, while the Allocator Role itself remains held by the AdministeredAgent. The Freezer Role is held by the following multisigs, registered as revokers of the AdministeredAgent:
+
+- ALM Freezer Multisig: `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431`.
+- Soter Labs freezer multisig: `0x747BF29B189e2a070a921Af7Cf65681E3d5F5967`.
+
+Removing an actor does not remove any relayer permission that the same address holds on the legacy ForeignController.
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.2.5 - Grantor [Core]  <!-- UUID: d5a4a7c7-24ad-490e-b057-710d3259a04a -->
+
+The Grantor is authorized to add actors to the AdministeredAgent. The grantor is the Soter Labs grantor multisig: `0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7`. The PAU Grantor Multisig (`0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514`) no longer holds grantor authorization.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 92e30e64-76dd-493d-be14-2088892e11b1 -->
 
@@ -3310,6 +3402,14 @@ This document defines the process to bridge USDC using the Circle Cross-Chain Tr
 
 The documents herein define the process to bridge USDS / sUSDS using the OP Token Bridge. This process will be specified in a future iteration of the Spark Artifact.
 
+###### A.6.1.1.1.2.6.1.2.2.1.2.3 - Diamond PAU Controller Functions [Core]  <!-- UUID: 583d17c9-77cf-4d15-b81b-9e51bfc8b3ca -->
+
+The Diamond PAU Controller functions for the Spark Liquidity Layer are the shared Diamond PAU Controller functions specified in [A.2.2.10.1.1.1.2.5.2 - Diamond PAU Controller Functions](5e941add-bf8d-4623-95a1-69795e7f7034). The Facets used by the Spark Liquidity Layer are specified in the documents herein.
+
+###### A.6.1.1.1.2.6.1.2.2.1.2.3.1 - CCTP Facet [Core]  <!-- UUID: 7f1d50f0-b2a8-4e57-83f5-758cbeacc469 -->
+
+The Spark Liquidity Layer uses the CCTP Facet to bridge USDC cross-chain through Circle's Cross-Chain Transfer Protocol (CCTP), as specified in [A.2.2.10.1.1.1.2.3.1.2.3 - CCTP Facet](ce25217f-c37d-4415-b0d6-adecab3c7855).
+
 ###### A.6.1.1.1.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: 554a654f-930a-419e-a8a4-f49dd5599ee8 -->
 
 The documents herein define the protocol for querying, setting, and adjusting `RateLimits` for Instances using their `RateLimitID`s. The ratelimits must be maintained in line with Spark’s strategy, market conditions, and security considerations.
@@ -3533,6 +3633,10 @@ This document defines the action that should be performed if there is a need to 
 `mainnetController.burnUSDS(usds.balanceOf(address(proxy))
 `
 More detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.1.2 - Burn USDS](fc8b57fd-c0c8-422d-b0a9-e124b3cac439).
+
+###### A.6.1.1.1.2.6.1.2.2.3.7 - Diamond PAU Emergency Protocol [Core]  <!-- UUID: dcaa4117-82de-4b31-9be4-538b454d5154 -->
+
+The actions that can be taken in the event of an emergency within the Spark Diamond PAU's operations are specified in [A.2.2.10.1.1.1.2.5.4 - Emergency Protocol](874320e8-e7dd-430d-a1f4-30595aee6a9d).
 
 ###### A.6.1.1.1.2.6.1.2.3 - Allocation Strategy [Core]  <!-- UUID: 138f0270-4aa7-41c4-9a00-c4c661d2d426 -->
 
