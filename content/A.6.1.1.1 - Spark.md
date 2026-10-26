@@ -6869,6 +6869,18 @@ The transfer rate limits are:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.5.1 - Interim Deployment [Core]  <!-- UUID: 4e55f1e5-9abc-4ee5-a622-6ff2c21171f4 -->
+
+This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 9b6859b3-120b-49b1-bbbe-1ff3f8628727 -->
+
+The maximum allocation for this Instance is 20,000,000 USD.
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.5.1.2 - Rate Limits [Core]  <!-- UUID: d038e63b-4375-460d-8ca8-f40fc2486d5c -->
+
+The Rate Limits for this Interim Deployment are defined in [A.6.1.1.1.2.6.1.3.1.12.1.2.4 - Rate Limits](9acde8fe-1f83-431d-bffa-8cde4e59cf93).
+
 ###### A.6.1.1.1.2.6.1.3.1.12.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: f29ce1df-c371-49be-9aa7-702d2aade17f -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
@@ -6943,6 +6955,18 @@ The transfer rate limits are:
 ###### A.6.1.1.1.2.6.1.3.1.12.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 68e347ec-63c1-4baf-97ae-a684b12c0a8f -->
 
 The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.5.1 - Interim Deployment [Core]  <!-- UUID: 38093d6d-a522-4019-b2c2-0ff011d283a4 -->
+
+This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 8cffc6d5-6617-4302-9e59-939159434e11 -->
+
+The maximum allocation for this Instance is 20,000,000 USD.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.5.1.2 - Rate Limits [Core]  <!-- UUID: 63322ab5-7158-4d4f-b6d7-7119739a63aa -->
+
+The Rate Limits for this Interim Deployment are defined in [A.6.1.1.1.2.6.1.3.1.12.2.2.4 - Rate Limits](be105566-7443-4628-bf7d-ace6b4850669).
 
 ###### A.6.1.1.1.2.6.1.3.1.12.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: b7c6fae8-b714-4d2f-b12a-e983a8b6a212 -->
 
