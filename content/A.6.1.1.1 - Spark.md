@@ -2131,7 +2131,15 @@ The address of the ALM Rate Limits contract is: `0x5E311e8BCe95F4e8d4920E70985ED
 
 The address of the AdministeredAgent contract is: `0x70E46bAf2E3F27a119757D7b796c641C8bc087cE`. The AdministeredAgent holds the Allocator Role of the Diamond PAU and mediates relayer access to the Controller: the ALM Relayer Multisig and the Spark hot wallet are registered as its actors and submit operations through it, while the ALM Freezer Multisig and the Soter Labs freezer multisig are registered as revokers authorized to remove a compromised actor, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
 
-###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.6 - Ethereum Domain Parameters [Core]  <!-- UUID: f7fc9aab-df3e-4ba7-93f5-b2413bf1a827 -->
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.6 - Beacon Contract [Core]  <!-- UUID: 7de4bbe2-e2db-47db-9454-99d2ec7082d2 -->
+
+The address of the Beacon contract is: `0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41`. The Beacon is controlled by Sky Governance through the Base Sky Governance Relay (`0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255`), which is the sole holder of its `DEFAULT_ADMIN_ROLE`.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.7 - CCTP Facet Contract [Core]  <!-- UUID: 05eafff8-084b-4158-8378-ef18502a9708 -->
+
+The address of the CCTP Facet contract is: `0xb22d50c393c6E1D13E3e05B172448dD8BF8DdC32`.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.8 - Ethereum Domain Parameters [Core]  <!-- UUID: f7fc9aab-df3e-4ba7-93f5-b2413bf1a827 -->
 
 The CCTP domain parameters for transfers from Base to Ethereum are:
 
@@ -2785,7 +2793,7 @@ The documents herein define the roles and permissions of the Diamond PAU Instanc
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.2.1 - Default Admin Role [Core]  <!-- UUID: bfc31251-e9ad-4d87-bb1b-3c20763dfa6d -->
 
-The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke all other roles of the Diamond PAU on the former, and to set rate limits on the latter. The Default Admin Role is held on both contracts by the Base Spark Executor (`0xF93B7122450A50AF3e5A76E1d546e95Ac1d0F579`) and by the Configurator, as specified in [A.2.2.10.1.1.1.2.3.3.5 - Configurator](e5cf7362-7ea2-4a33-8373-565d56c7da67).
+The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke roles on both contracts, to exercise Controller and facet admin functions through AccessControls, and to set rate limits on the ALM Rate Limits contract. The Default Admin Role is held on both contracts by the Base Spark Executor (`0xF93B7122450A50AF3e5A76E1d546e95Ac1d0F579`) and by the Base PAS Configurator (`0x458Acd38fD749F6325039e63e8Bc496dBc286D11`), as specified in [A.2.2.10.1.1.1.2.3.3.5 - Configurator](e5cf7362-7ea2-4a33-8373-565d56c7da67).
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.2.2 - Controller Role [Core]  <!-- UUID: 80b9b8b2-ce9c-4c02-8892-bce9204fb2e9 -->
 
