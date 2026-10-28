@@ -6381,7 +6381,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.5.1 - Interim Deployment [Core]  <!-- UUID: b1e85213-c320-4fab-86da-8b3395f8e7fc -->
 
-This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein.
+This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein. These parameters, including the CRR of 100% and the maximum allocation of 20,000,000 USD, apply once across this Instance, [A.6.1.1.1.2.6.1.3.1.12.1 - Ethereum Mainnet - USDC To OUSD Via Bridge Instance Configuration Document](ad4cd9c1-be82-4009-bbcd-7efd13086dd1) and [A.6.1.1.1.2.6.1.3.1.12.2 - Ethereum Mainnet - OUSD To USDC Via Bridge Instance Configuration Document](ab1fdc64-4e0a-449a-8f99-30d4672656c4), and not to each of them separately.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.5.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 2428dc4b-b14b-4776-829a-905036e235e5 -->
 
