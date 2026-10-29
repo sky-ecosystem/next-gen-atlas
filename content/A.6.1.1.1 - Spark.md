@@ -10656,10 +10656,10 @@ The current pyUSD risk parameters are:
 - Reserve Factor: 10%
 - Supply Cap: Set by cap automator
 - Borrow Cap: Set by cap automator
-- Optimal Utilization: 95%
+- Optimal Utilization: 80%
 - Isolated Debt Ceiling: N/A
-- Base Rate: 0%
-- Slope 1: SSR + 1.5%
+- Base Rate: SSR + 0.20%
+- Slope 1: 0.20%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: Yes
@@ -10679,10 +10679,10 @@ The current USDG risk parameters are:
 - Reserve Factor: 10%
 - Supply Cap: Unlimited
 - Borrow Cap: Unlimited
-- Optimal Utilization: 95%
+- Optimal Utilization: 80%
 - Isolated Debt Ceiling: N/A
-- Base Rate: SSR
-- Slope 1: 0.3%
+- Base Rate: SSR + 0.20%
+- Slope 1: 0.20%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: No
@@ -10703,10 +10703,10 @@ The current RLUSD risk parameters are:
 - Reserve Factor: 10%
 - Supply Cap: Unlimited
 - Borrow Cap: Unlimited
-- Optimal Utilization: 95%
+- Optimal Utilization: 80%
 - Isolated Debt Ceiling: N/A
-- Base Rate: SSR
-- Slope 1: 0.3%
+- Base Rate: SSR + 0.20%
+- Slope 1: 0.20%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: No
