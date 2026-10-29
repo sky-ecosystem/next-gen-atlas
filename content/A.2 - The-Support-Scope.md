@@ -3367,7 +3367,13 @@ The ERC-4626 Facet (`ERC4626Facet`) deposits, withdraws, and redeems against any
 
 ###### A.2.2.10.1.1.1.2.3.1.2.7.1 - Highest Production Rate Limit For ERC-4626 Facet [Core]  <!-- UUID: 24faa338-1e0b-41fb-b21c-82b12f0d01e4 -->
 
-Further details will be specified in a future iteration of the Atlas.
+The ERC-4626 Facet's highest production rate limit is:
+
+- Deposit
+    - `maxAmount`: 5,000,000 USDC
+    - `slope`: 0 USDC per day
+- Withdraw
+    - `maxAmount`: Unlimited
 
 ###### A.2.2.10.1.1.1.2.3.1.2.8 - ERC-7540 Facet [Core]  <!-- UUID: 83d0bf58-6a92-4873-ba9e-e5a23c8dca1c -->
 
@@ -3597,6 +3603,42 @@ The BeamState's role is as specified in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e3
 ###### A.2.2.10.1.1.1.2.3.2.7 - Timelock [Core]  <!-- UUID: c0642bfe-493c-489d-9f9f-9171dbb99d99 -->
 
 The Timelock's role is as specified in [A.2.2.10.1.1.1.2.3.1.8 - Timelock](f6791cf7-f3aa-49da-9691-73e480bf3328); its roles and their holders on Arbitrum are as specified in [A.2.2.10.1.1.1.2.4.2.3.2 - Timelock](4d5c2636-e5f6-4ac6-a5e6-9212aed5d825) instead. Its address on Arbitrum is `0x66d3653e66F7edb973549CFA3b46F22298B8f983`.
+
+###### A.2.2.10.1.1.1.2.3.3 - Base [Core]  <!-- UUID: d3fc5cd9-6aca-439a-847a-a440ee6bb2ba -->
+
+The Base deployment of the Liquidity Layer Shared Contracts is defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.3.3.1 - Beacon [Core]  <!-- UUID: eb4e8e2e-2a55-4c67-aa11-d26b07a481d9 -->
+
+The Beacon's role is as specified in [A.2.2.10.1.1.1.2.3.1.1 - Beacon](5b0627e8-102b-42ea-8d9b-38463591faf9). Its address on Base is `0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41`. Its `DEFAULT_ADMIN_ROLE` is currently held by the Spark Executor on Base (`0xF93B7122450A50AF3e5A76E1d546e95Ac1d0F579`). In the Spark Spell included in the November 5, 2026 Executive Vote, the Spark Executor will grant `DEFAULT_ADMIN_ROLE` to the Governance Relay (`0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255`) and revoke its own.
+
+###### A.2.2.10.1.1.1.2.3.3.2 - Facets [Core]  <!-- UUID: 2f52b12c-4e4e-46cf-9682-6e5f219666b2 -->
+
+The Facets currently approved on the Beacon for use by Diamond PAU Instances on Base are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.3.3.2.1 - CCTP Facet [Core]  <!-- UUID: 9bbe1ce3-06fc-46f2-8012-c1d612d1e182 -->
+
+The CCTP Facet's mechanism is as specified in [A.2.2.10.1.1.1.2.3.1.2.3 - CCTP Facet](ce25217f-c37d-4415-b0d6-adecab3c7855). Its address on Base is `0xb22d50c393c6E1D13E3e05B172448dD8BF8DdC32`.
+
+###### A.2.2.10.1.1.1.2.3.3.3 - PAU Factory [Core]  <!-- UUID: 5eaf6c6c-52c0-416d-94e7-b467fe533f73 -->
+
+The PAU Factory's role is as specified in [A.2.2.10.1.1.1.2.3.1.3 - PAU Factory](cc980032-b7e4-41c5-ac4d-2f99f89f51dc). Its address on Base is `0x011A115b5498B85b3d12245A3a7296F77325B5C3`.
+
+###### A.2.2.10.1.1.1.2.3.3.4 - Administered Agent Factory [Core]  <!-- UUID: 102b7264-c4ae-4f36-ad22-bbfc11707e92 -->
+
+The Administered Agent Factory's role is as specified in [A.2.2.10.1.1.1.2.3.1.5 - Administered Agent Factory](833a0750-ff91-4fdc-95a8-af77df301dbc). Its address on Base is `0xD711DbfD937a45e2C89CA0D4781cfa5BAb32e752`.
+
+###### A.2.2.10.1.1.1.2.3.3.5 - Configurator [Core]  <!-- UUID: e5cf7362-7ea2-4a33-8373-565d56c7da67 -->
+
+The Configurator's role is as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c); its operation on Base is as specified in [A.2.2.10.1.1.1.2.4.3.4 - Configurator](b8929202-92c3-4bbb-89c4-7dc73e557105) instead. Its address on Base is `0x458Acd38fD749F6325039e63e8Bc496dBc286D11`.
+
+###### A.2.2.10.1.1.1.2.3.3.6 - BeamState [Core]  <!-- UUID: ee66bdd5-5344-41e6-8063-c899d22e7f42 -->
+
+The BeamState's role is as specified in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129); its rules on Base are as specified in [A.2.2.10.1.1.1.2.4.3.3 - BeamState](36e7a9f1-1561-47b7-9478-e68c8c0a2d5a) instead. Its address on Base is `0x29840a8519013F483d94781b5C1671b552A109e1`.
+
+###### A.2.2.10.1.1.1.2.3.3.7 - Timelock [Core]  <!-- UUID: 72b0384e-0151-44f8-bd0f-c5d90d0fb037 -->
+
+The Timelock's role is as specified in [A.2.2.10.1.1.1.2.3.1.8 - Timelock](f6791cf7-f3aa-49da-9691-73e480bf3328); its roles and their holders on Base are as specified in [A.2.2.10.1.1.1.2.4.3.3.2 - Timelock](f890a7c2-17c0-4db4-9f73-f7c078a1061f) instead. Its address on Base is `0x2ACADc011b4fc13072F92231D1216c16deac5188`.
 
 ###### A.2.2.10.1.1.1.2.4 - PAS [Core]  <!-- UUID: 989171ed-5424-42ee-83f4-199e1149699c -->
 
@@ -4022,6 +4064,119 @@ This action is enabled specifically for the integration registered to the CCTP F
 ###### A.2.2.10.1.1.1.2.4.2.5 - Transitional Measures [Core]  <!-- UUID: a819637b-04b7-4e1d-9e91-227a29ed6761 -->
 
 The Arbitrum PAS launches with the Timelock paused, as a transitional measure, mirroring [A.2.2.10.1.1.1.2.4.1.5 - Transitional Measures](d5240aa5-72c1-4f92-b22c-7a80a35d733c). The same function calls listed there are affected, called on the Arbitrum BeamState and Timelock instead.
+
+###### A.2.2.10.1.1.1.2.4.3 - Base [Core]  <!-- UUID: 2b4706b4-a37f-43bb-a9ed-339c744f20a2 -->
+
+The Base PAS deployment is defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.3.1 - Parameters [Core]  <!-- UUID: 818dfc44-503d-4f25-820d-9df5d8e8fe82 -->
+
+The `hop` and `maxChange` mechanisms, and the locked-unlimited rate limit definition, are as specified in [A.2.2.10.1.1.1.2.4.1.1 - Parameters](422e200e-2a94-4bde-b718-328ff82d3bb8) and its subdocuments. The default values for Base are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.3.1.1 - Hop Default Value [Core]  <!-- UUID: eec7a3cd-ec19-421e-9cc5-e4b1d0e051d4 -->
+
+All `RateLimits` contracts on Base use a single, shared `hop` value unless the Core Council Multisig or an Executive Vote sets one specifically for a given contract. That shared value is 57,600 seconds (16 hours).
+
+###### A.2.2.10.1.1.1.2.4.3.1.2 - Max Change Default Value [Core]  <!-- UUID: ee33adfa-ad78-4161-b1bd-0703073c0ef4 -->
+
+All `RateLimits` contracts on Base use a single, shared `maxChange` value unless the Core Council Multisig or an Executive Vote sets one specifically for a given contract. That shared value is 1.20.
+
+###### A.2.2.10.1.1.1.2.4.3.2 - Enabled Diamond PAUs [Core]  <!-- UUID: 91731ccf-8a71-4c3f-a5d5-107dbf690478 -->
+
+The Diamond PAUs on Base with the Configurator enabled are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.3.2.1 - Spark Diamond PAU [Core]  <!-- UUID: e30ab84f-80f9-4933-b7f1-98c1adb8a001 -->
+
+In the Spark Spell included in the November 5, 2026 Executive Vote, the Spark Executor on Base will grant the Configurator `DEFAULT_ADMIN_ROLE` on the Spark Diamond PAU `AccessControls` and `RateLimits` contracts on Base. The Spark Diamond PAU `RateLimits` contract is paired to the Operator specified in [A.2.2.10.1.1.1.2.4.3.4.3.1 - Operator For The Spark Diamond PAU](085bf98e-d355-45b9-abc7-eb5ea50a29a4). The bounds within which cBEAMs may adjust rate limits on the Spark Diamond PAU `RateLimits` are:
+
+- `hop`: as specified in [A.2.2.10.1.1.1.2.4.3.1.1 - Hop Default Value](eec7a3cd-ec19-421e-9cc5-e4b1d0e051d4)
+- `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.3.1.2 - Max Change Default Value](ee33adfa-ad78-4161-b1bd-0703073c0ef4)
+
+###### A.2.2.10.1.1.1.2.4.3.3 - BeamState [Core]  <!-- UUID: 36e7a9f1-1561-47b7-9478-e68c8c0a2d5a -->
+
+BeamState holds the registries and bounds that govern the Base PAS, as specified in [A.2.2.10.1.1.1.2.4.1.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4). The documents herein define the Core Council Multisig that may change BeamState's rules, the Timelock that delays certain changes, the delayed and immediate processes for making them, and how Configurator operations are halted and restarted, for the Base deployment. Its address is specified in [A.2.2.10.1.1.1.2.3.3.6 - BeamState](ee66bdd5-5344-41e6-8063-c899d22e7f42).
+
+###### A.2.2.10.1.1.1.2.4.3.3.1 - Core Council Multisig [Core]  <!-- UUID: b696d4cd-c52b-4748-b76f-179f7a164ceb -->
+
+The Core Council Multisig's authority and process on the Base PAS are as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), applied to the Base BeamState and Timelock, except that Base has no PASMom, as specified in [A.2.2.10.1.1.1.2.4.3.3.2 - Timelock](f890a7c2-17c0-4db4-9f73-f7c078a1061f). It is deployed separately on Base at the same address as on Ethereum Mainnet, as specified in [A.2.2.10.1.1.1.2.4.1.3.1.1 - Core Council Multisig Address](41157518-ec2f-4c4f-a112-5a1f07fc71dc). Its required number of signers, signers, and modification rules are as specified in [A.2.2.10.1.1.1.2.4.1.3.1.2 - Core Council Multisig Required Number Of Signers](70ce8011-7126-440d-b90d-010a3d97b43f), [A.2.2.10.1.1.1.2.4.1.3.1.3 - Core Council Multisig Signers](366436ae-0bab-4fce-a144-64660ac47366), and [A.2.2.10.1.1.1.2.4.1.3.1.5 - Core Council Multisig Modification](61f08711-db44-4c9f-98ad-f330e729398f).
+
+###### A.2.2.10.1.1.1.2.4.3.3.1.1 - Core Council Multisig Usage Standards [Core]  <!-- UUID: c4666cda-ec0d-4353-b3a1-42b74670bdcb -->
+
+The signers of the Core Council Multisig must use the multisig in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.3.3.3 - Delayed Function Calls](57e8561a-110b-472b-82ec-161f444a3543) and [A.2.2.10.1.1.1.2.4.3.3.4 - Immediate Function Calls](ac24b08e-fa8d-4522-a5e7-bad37c6fd115).
+
+###### A.2.2.10.1.1.1.2.4.3.3.2 - Timelock [Core]  <!-- UUID: f890a7c2-17c0-4db4-9f73-f7c078a1061f -->
+
+The Timelock's mechanism is as specified in [A.2.2.10.1.1.1.2.4.1.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103). The minimum delay is fourteen (14) days. The Timelock launches paused, as a transitional measure, as specified in [A.2.2.10.1.1.1.2.4.3.5 - Transitional Measures](9f398df8-0484-4c16-8cb9-8d7b04a8b531). Its address is specified in [A.2.2.10.1.1.1.2.3.3.7 - Timelock](72b0384e-0151-44f8-bd0f-c5d90d0fb037).
+
+The Timelock's `PROPOSER_ROLE` and `CANCELLER_ROLE` are held by the Core Council Multisig. Base has no PASMom equivalent, so no address holds the Timelock's `PAUSER_ROLE`; Sky Governance's emergency halt instead relies on the Core Council Multisig calling BeamState's `stop()` directly, as an immediate action, or, if the Core Council Multisig is itself unavailable, a Sky Core Spell relayed to Base. The Timelock's `DEFAULT_ADMIN_ROLE`, which can grant and revoke its other roles and change its minimum delay, is held by Sky Governance through the Governance Relay (`0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255`). If the Core Council Multisig itself is compromised or acting maliciously, Sky Governance can use this `DEFAULT_ADMIN_ROLE` to grant itself the Timelock's `PAUSER_ROLE` and pause it directly, via a Sky Core Spell relayed to Base.
+
+###### A.2.2.10.1.1.1.2.4.3.3.3 - Delayed Function Calls [Core]  <!-- UUID: 57e8561a-110b-472b-82ec-161f444a3543 -->
+
+The same delayed function calls apply as specified in [A.2.2.10.1.1.1.2.4.1.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb) and its subdocuments, called on the Base BeamState and Timelock.
+
+###### A.2.2.10.1.1.1.2.4.3.3.4 - Immediate Function Calls [Core]  <!-- UUID: ac24b08e-fa8d-4522-a5e7-bad37c6fd115 -->
+
+The same immediate function calls apply as specified in [A.2.2.10.1.1.1.2.4.1.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6) and its subdocuments, called on the Base BeamState, except that `stop()` cannot be triggered by PASMom on Base, as specified in [A.2.2.10.1.1.1.2.4.3.3.2 - Timelock](f890a7c2-17c0-4db4-9f73-f7c078a1061f).
+
+###### A.2.2.10.1.1.1.2.4.3.3.5 - Restart After Halt [Core]  <!-- UUID: c349e09d-56ef-4993-8b9e-cd573056ef57 -->
+
+Restarting Configurator operations after a halt follows the same process as specified in [A.2.2.10.1.1.1.2.4.1.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b), applied to the Base BeamState and Timelock, except that Base has no PASMom, as specified in [A.2.2.10.1.1.1.2.4.3.3.2 - Timelock](f890a7c2-17c0-4db4-9f73-f7c078a1061f), and the Transitional Measures referenced there are the Base chain's own, as specified in [A.2.2.10.1.1.1.2.4.3.5 - Transitional Measures](9f398df8-0484-4c16-8cb9-8d7b04a8b531).
+
+###### A.2.2.10.1.1.1.2.4.3.4 - Configurator [Core]  <!-- UUID: b8929202-92c3-4bbb-89c4-7dc73e557105 -->
+
+The Configurator's mechanism on the Base PAS is as specified in [A.2.2.10.1.1.1.2.4.1.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d). The documents herein define how an Operator exercises its adjustments, its public communication obligation, and the Operators and Controllers registered to the Base Configurator. Its address is specified in [A.2.2.10.1.1.1.2.3.3.5 - Configurator](e5cf7362-7ea2-4a33-8373-565d56c7da67).
+
+###### A.2.2.10.1.1.1.2.4.3.4.1 - Operator Execution [Core]  <!-- UUID: 56da9559-54be-4fb5-b39d-8c31c4aeed67 -->
+
+Operator execution on the Base Configurator follows the same process as specified in [A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960).
+
+###### A.2.2.10.1.1.1.2.4.3.4.2 - Public Communication [Core]  <!-- UUID: 564d45c1-f02d-4c37-a5fe-76bfc91d44fe -->
+
+The public communication obligation for Base Operators is as specified in [A.2.2.10.1.1.1.2.4.1.4.2 - Public Communication](e1a96b57-9c5e-469f-b7ac-5dac028eb726).
+
+###### A.2.2.10.1.1.1.2.4.3.4.3 - Registered Operators [Core]  <!-- UUID: aa5f4ab8-55dc-4d9e-982f-dd349cdf19c7 -->
+
+The Operators registered to the Base Configurator are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.3.4.3.1 - Operator For The Spark Diamond PAU [Core]  <!-- UUID: 085bf98e-d355-45b9-abc7-eb5ea50a29a4 -->
+
+The Spark Diamond PAU's Operator, the cBEAM authorized to adjust the Diamond PAU's rate limits through the Configurator, is the Spark Operator Multisig, as specified in the documents herein.
+
+###### A.2.2.10.1.1.1.2.4.3.4.3.1.1 - Spark Operator Multisig Address [Core]  <!-- UUID: d4539884-c7e3-44ee-b487-fc6523762218 -->
+
+The address of the Spark Operator Multisig on Base is `0x492aae70E59551768BAF3c7159d3f951B6ed76Fe`.
+
+###### A.2.2.10.1.1.1.2.4.3.4.3.1.2 - Spark Operator Multisig Required Number Of Signers [Core]  <!-- UUID: 23ae088d-52b0-4321-bc54-dadac65afdf1 -->
+
+The Spark Operator Multisig's required number of signers is two (2) out of three (3).
+
+###### A.2.2.10.1.1.1.2.4.3.4.3.1.3 - Spark Operator Multisig Signers [Core]  <!-- UUID: 6a4be9f0-7e59-4a0a-a416-c86817aa7424 -->
+
+The signers of the Spark Operator Multisig are controlled by Operational GovOps Soter Labs.
+
+###### A.2.2.10.1.1.1.2.4.3.4.3.1.4 - Spark Operator Multisig Usage Standards [Core]  <!-- UUID: 2a837abe-b271-49cc-b4dc-397b26f1a950 -->
+
+The signers of the Spark Operator Multisig must use the multisig to operate the Configurator in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.3.4.1 - Operator Execution](56da9559-54be-4fb5-b39d-8c31c4aeed67) and [A.2.2.10.1.1.1.2.4.3.4.2 - Public Communication](564d45c1-f02d-4c37-a5fe-76bfc91d44fe).
+
+###### A.2.2.10.1.1.1.2.4.3.4.3.1.5 - Spark Operator Multisig Modification [Core]  <!-- UUID: e865b4b0-5f2e-4d9c-8960-4828ba3b4973 -->
+
+Operational GovOps Soter Labs can change the signers of the Spark Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
+
+###### A.2.2.10.1.1.1.2.4.3.4.4 - Registered Controllers [Core]  <!-- UUID: 62d63bd5-ffa8-427e-b2d4-fca4306dc091 -->
+
+The Controllers registered to the Base Configurator, and the controller actions enabled for each, are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.3.4.4.1 - Controller For The Spark Diamond PAU [Core]  <!-- UUID: e8c51802-a127-419f-a36d-b5435bcd1004 -->
+
+The Controller for the Spark Diamond PAU, at address `0xd864bF1Ea2f78Dc2013E3FC7e4C474383BE9d456` on Base, is registered with the Configurator. The following controller actions are enabled:
+
+- `removeIntegrations`
+
+This action is enabled specifically for the integration registered to the CCTP Facet, as specified in [A.2.2.10.1.1.1.2.3.3.2.1 - CCTP Facet](9bbe1ce3-06fc-46f2-8012-c1d612d1e182).
+
+###### A.2.2.10.1.1.1.2.4.3.5 - Transitional Measures [Core]  <!-- UUID: 9f398df8-0484-4c16-8cb9-8d7b04a8b531 -->
+
+The Base PAS launches with the Timelock paused, as a transitional measure, mirroring [A.2.2.10.1.1.1.2.4.1.5 - Transitional Measures](d5240aa5-72c1-4f92-b22c-7a80a35d733c). The same function calls listed there are affected, called on the Base BeamState and Timelock instead.
 
 ###### A.2.2.10.1.1.1.2.5 - Liquidity Layer Operational Processes [Core]  <!-- UUID: 3b387169-c279-4d0f-918c-e6c424c6ea2c -->
 
@@ -6496,7 +6651,7 @@ The subdocuments herein set out the substantive terms of Ecosystem Accord 3.
 
 Keel is eligible for a Pioneer Incentive Pool as specified in [A.2.2.9.3.1.4 - Pioneer Incentive Pool](04edac33-19d5-4a87-a8ab-945a0cd57771).
 
-The Pioneer Incentive Pool is calculated on a monthly basis as the Sky Savings Rate multiplied by all Unrewarded USDS on Solana. Payments are made on a monthly basis from the Demand Side Buffer (see [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) to a Pioneer Incentive Pool wallet controlled by the Pioneer Prime. The address of the Pioneer Incentive Pool wallet on Solana is `8JmDPG5BFQ6gpUPJV9xBixYJLqTKCSNotkXksTmNsQfj`.
+The Pioneer Incentive Pool is calculated on a monthly basis as the Sky Savings Rate multiplied by all Unrewarded USDS on Solana. Payments are made on a monthly basis from the Demand Side Buffer (see [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) to a Pioneer Incentive Pool Multisig controlled by the Pioneer Prime. The address of the Pioneer Incentive Pool Multisig on Solana is `8JmDPG5BFQ6gpUPJV9xBixYJLqTKCSNotkXksTmNsQfj`.
 
 ###### A.2.8.2.3.2.2 - Tokenomics [Core]  <!-- UUID: b0de2330-3678-4852-8c24-ce85445201a7 -->
 
@@ -6775,6 +6930,12 @@ Sky Governance hereby consents to this grant and authorizes the execution of the
 ###### A.2.8.2.7.2.2.3.1.1 - Transfer Of USDS To Skybase Foundation Operational Multisig [Core]  <!-- UUID: c6541e3b-628b-47a6-9f2b-b7b27df7913d -->
 
 The grant authorized in this document was paid to the Skybase Foundation Operational Multisig from the Skybase SubProxy in one (1) transfer of 700,000 USDS, made in a Skybase Spell included in the July 2, 2026 Executive Vote.
+
+###### A.2.8.2.7.2.2.3.2 - Skybase Foundation Grant Authorization: November 2026 [Core]  <!-- UUID: 6567f1e3-7c28-44ee-b46c-723f958b1817 -->
+
+The founding team of Skybase has proposed a cash grant of 900,000 USDS to the Skybase Foundation from Skybase's SubProxy to fund operational costs and partner payouts through the end of 2026, for inclusion in the November 2026 Executive Vote.
+
+Sky Governance hereby consents to this grant. The transfer must be made to the Skybase Foundation Operational Multisig at `0x58B945c8Ce34BD8cEA3Fc0437626F9F87d58A621` in the Sky Core Spell unless otherwise agreed by Sky and Skybase.
 
 #### A.2.8.2.8 - Ecosystem Accord 8: Sky And Amatsu [Core]  <!-- UUID: 9d187ae2-1106-4b43-a6a6-ff54c329d0da -->
 

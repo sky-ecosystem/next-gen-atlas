@@ -3356,7 +3356,7 @@ The USDS Demand Subsidies Multisig is controlled by two (2) signers from Operati
 
 ##### A.6.1.1.4.3.4.2.1 - Address [Core]  <!-- UUID: 615835d8-475b-48f6-9e0f-bcaf041a63ff -->
 
-The USDS Demand Subsidies Multisig address on Ethereum Mainnet is `0x3f32bc09d41ee699844f8296e806417d6bf61bba`.
+The USDS Demand Subsidies Multisig address on Ethereum Mainnet is `0x3F32bC09d41eE699844F8296e806417D6bf61Bba`.
 
 ##### A.6.1.1.4.3.4.2.2 - Required Number of Signers [Core]  <!-- UUID: 740a4a39-f560-437a-962c-4255384298a1 -->
 
