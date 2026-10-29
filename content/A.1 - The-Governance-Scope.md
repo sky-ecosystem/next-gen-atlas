@@ -2389,6 +2389,104 @@ The Spell teams need not share their identities. Therefore, it is no longer a re
 
 The Chainlog is an on-chain, governance-managed registry that records the official addresses of Sky’s core smart contracts. Each contract entry in the Chainlog is identified by a unique key ("Chainlog key"), which is used to reference the contract in documentation, governance actions, and integrations. It serves as the single source of truth for contract addresses in the protocol. The Chainlog is available at [https://chainlog.skyeco.com/](https://chainlog.skyeco.com/). Updates to the Chainlog are defined as housekeeping items (see [A.1.11.1.5.1.1 - Definition Of Housekeeping Items](7648bf12-d600-4e0d-807b-5eb18e8d0f4f)) and can be included directly in an Executive Vote (see [A.1.11.1.5.1.2 - Process for Adding Housekeeping Item In Executive Vote](2d165c27-5daf-4a84-af8c-7c36f5de03d2)).
 
+#### A.1.10.1.3 - Standards For Audits Not Commissioned By Sky [Core]  <!-- UUID: 38057336-8638-49b6-85f6-cabcc27a74c4 -->
+
+The documents herein define the standards that apply to audits Sky did not commission through the process specified in [A.1.10.2.7 - Audit Process](a8334e19-fedb-48fb-a38c-f18666ccc8e6), including audits of external protocols and their contracts.
+
+These standards determine when Sky recognizes such an audit, and which contracts must be covered by recognized audits. They apply wherever such an audit is used or referenced in a governance process.
+
+##### A.1.10.1.3.1 - Audit Recognition Requirements [Core]  <!-- UUID: c4258c16-c199-4d5b-86f8-9acb74b7e40c -->
+
+An audit that Sky did not commission through the process specified in [A.1.10.2.7 - Audit Process](a8334e19-fedb-48fb-a38c-f18666ccc8e6) is a recognized audit where all of the following are satisfied:
+
+- The audit was performed by an audit firm recognized by Sky, as specified in [A.1.10.1.3.3 - Recognized Audit Firms](4a6e09e6-9e9d-45f0-923a-9c842faa7708).
+- The audit report provenance is independently verifiable. For example, the report is hosted on or linked from the auditor's website, or found in the auditor's official code repository. Files uploaded to the audited codebase do not satisfy this requirement.
+- The audit report contains a scope statement identifying the contracts, scripts, or artifacts reviewed.
+- The audit report contains the exact commit hash at which the audit was concluded. A linked pull request addressing findings, without that commit hash, does not satisfy this requirement.
+- The audit report records the severity and resolution status of any findings.
+- The audit report documents the trust assumptions of the audited system, or the audited codebase documents them at that commit hash.
+
+##### A.1.10.1.3.2 - Audit Coverage Requirements [Core]  <!-- UUID: 95669d2d-ef50-4109-b592-40a1d0bac8bb -->
+
+These requirements apply to smart contracts whose audits Sky did not commission through the process specified in [A.1.10.2.7 - Audit Process](a8334e19-fedb-48fb-a38c-f18666ccc8e6) and that are materially relevant to the security of the assets Sky holds or transacts through them.
+
+Contracts materially relevant to that security include the contracts in which the assets are held, the contracts the assets pass through on deposit, redemption, and withdrawal, the implementation of any of those that is a proxy, and the contracts that can alter the behavior, parameters, or price sources of any of them.
+
+The deployed code of those contracts must satisfy all of the following:
+
+- It is covered by at least two (2) recognized audits, as specified in [A.1.10.1.3.1 - Audit Recognition Requirements](c4258c16-c199-4d5b-86f8-9acb74b7e40c).
+- Each of those audits is performed by a different audit firm.
+- Each of those audits targets the deployed commit, or every difference between the commit at which each audit was concluded and the deployed code is covered by two (2) recognized audits performed by different audit firms.
+- Any finding of medium severity or higher identified in an audit used to satisfy these requirements has been confirmed by the auditor as resolved.
+
+Sky may rely on contracts that do not meet these requirements only with the approval of the Protocol Security Workstream Lead.
+
+##### A.1.10.1.3.3 - Recognized Audit Firms [Core]  <!-- UUID: 4a6e09e6-9e9d-45f0-923a-9c842faa7708 -->
+
+The documents herein specify the audit firms recognized by Sky and the tier to which each belongs. The Protocol Security Workstream Lead must review this categorization on a regular basis and update it as necessary.
+
+A firm is recognized under any name it publishes audits under. Audits published under different names by the same firm, or by firms under common ownership or control, count as one (1) audit firm.
+
+###### A.1.10.1.3.3.1 - Audit Firm Tiers [Core]  <!-- UUID: 97eee131-b5d6-4246-8631-fb077616b671 -->
+
+Audit firms are divided into two (2) tiers: top-tier and mid-tier.
+
+###### A.1.10.1.3.3.2 - Audit Firms By Tier [Core]  <!-- UUID: 5b542b65-2ef1-49e9-8995-122373f1b312 -->
+
+The documents herein categorize specific audit firms into the top-tier and mid-tier categories.
+
+###### A.1.10.1.3.3.2.1 - List Of Top-Tier Audit Firms [Core]  <!-- UUID: 6ada67c6-0cf1-4456-b280-57e8ae7edc13 -->
+
+The top-tier audit firms are:
+
+- ChainSecurity
+- Cantina
+
+###### A.1.10.1.3.3.2.2 - List Of Mid-Tier Audit Firms [Core]  <!-- UUID: dea3a182-4b89-4fda-9eed-232562e5f057 -->
+
+The mid-tier audit firms are:
+
+- Quantstamp
+- SlowMist
+- PeckShield
+- Halborn
+- Certora
+- Hunter Security
+- Omniscia
+- yAudit
+- MixBytes
+- Cyfrin
+- SECBIT Labs
+- Bramah Systems
+- Zokyo
+- Guardian Audits
+- Zellic
+- Code4rena
+- Pashov
+- ABDK
+- Decurity
+- OtterSec
+- WatchPug
+- Sigma Prime
+- Oxorio
+- Enigma Dark
+- Runtime Verification
+- Pessimistic
+- Solidified
+- StErMi
+- Sherlock
+- 0xMacro
+- OpenZeppelin
+- ConsenSys Diligence
+- Trail Of Bits
+
+##### A.1.10.1.3.4 - Short-Term Transitionary Measures [Core]  <!-- UUID: 19f5f5b9-be0d-4a91-a5aa-3888c1c9b7e8 -->
+
+The standards specified in [A.1.10.1.3 - Standards For Audits Not Commissioned By Sky](38057336-8638-49b6-85f6-cabcc27a74c4) apply as follows:
+
+- Contracts Sky first relies on after October 22, 2026, must meet the standards before Sky relies on them.
+- Contracts Sky already relies on as of October 22, 2026, must meet the standards by January 1, 2027. After that date, Sky may only continue to rely on such a contract that does not meet the standards with the approval of the Protocol Security Workstream Lead.
+
 ### A.1.10.2 - Executive Process Definition [Section]  <!-- UUID: 03d32549-1da5-4a9c-902f-196641370eaf -->
 
 This Section defines the Executive Process, which is the end-to-end process through which Sky makes changes to the Sky Protocol.
@@ -2605,8 +2703,8 @@ The team that implemented and deployed the module publishes a Forum Post with th
 The Forum post must include the following:
 
 - The addresses of the deployed contracts
-- A link to the audit reports as specified in [A.1.10.2.7.6 - Audit Recordkeeping](610c8780-178b-4055-9387-373e014c8202), hosted on the auditor's website or another independently verifiable source.
-- Confirmation that the deployed code matches the commit hash that was sent for audit.
+- A link to the audit reports as specified in [A.1.10.2.7.7 - Audit Recordkeeping](610c8780-178b-4055-9387-373e014c8202), hosted on the auditor's website or another independently verifiable source.
+- Confirmation that the deployed code matches the commit hash that was sent for audit or, where remediated code was not re-audited, the commit hash approved as specified in [A.1.10.2.7.6 - Findings Remediation](80eab9dd-3833-4418-9845-b648e19fb72f), with a link to the approved Pull Request.
 - Constructor arguments are as expected in the Init script
 - (optional) Authority is given to the protocol owner: `MCD_PAUSE_PROXY` in the case of SKY and denied from the deployer address.
 - Include instructions to be added to the Executive Sheet, such as adding the module to the chainlog, defining parameters for the module (provided by the Risk Advisor), further authorization that needs to be done to different module elements.
@@ -2892,7 +2990,7 @@ By Friday, 16:00 UTC of week 2, the Prime Agent must deliver the final Prime Spe
 
 ###### A.1.10.2.3.2.2.3.3.7 - Prime Spell Recorded In Executive Sheet [Core]  <!-- UUID: 0dbdbcca-5c94-448c-9ac4-03b53c58065d -->
 
-By Friday, 16:00 UTC of week 2, the Core Facilitator must record the Prime Spell address, codehash, and execution type in the Executive Sheet for the corresponding Executive Vote. The Executive Process Liaison must confirm the recorded Prime Spell address against the address delivered by the Prime Agent in [A.1.10.2.3.2.2.3.3.6 - Prime Agent Delivers Prime Spell Payload](d5223f2c-264f-47da-9e59-2574bdf9cfc2).
+By Friday, 16:00 UTC of week 2, the Core Facilitator must record the Prime Spell address, codehash, and execution type in the Executive Sheet for the corresponding Executive Vote. The Executive Process Liaison must confirm the recorded Prime Spell address against the address delivered by the Prime Agent in [A.1.10.2.3.2.2.3.3.6 - Prime Agent Delivers Prime Spell Payload](d5223f2c-264f-47da-9e59-2574bdf9cfc2). Before giving this confirmation, the Executive Process Liaison must make sure that each Prime Spell action is authorized in the Atlas. If any Prime Spell action lacks this authorization, the Executive Process Liaison must notify the Prime Agent and the Core Facilitator in the govops channel in Slack.
 
 ###### A.1.10.2.3.2.2.3.4 - Step 4: Crafting And Publication (Week 3) [Core]  <!-- UUID: 655923b3-0d0c-43da-898b-9adc71ae3e7e -->
 
@@ -4474,20 +4572,36 @@ The voting outcome is determined by the amount of SKY vote-weight allocated to t
 
 The documents herein define the audit process for smart contracts and deployment scripts that require independent security review before inclusion in a Spell or deployment within the Sky Ecosystem. As part of this process, Sky Core engages independent third-party security firms to perform audits.
 
-##### A.1.10.2.7.1 - Audit Triggers [Core]  <!-- UUID: 696b13e9-d35b-407b-b436-aea7b77eecf6 -->
+##### A.1.10.2.7.1 - Definitions [Core]  <!-- UUID: a7fe579b-9e59-413b-8a12-763d1a7c240a -->
+
+The documents herein define terms used in the Audit Process.
+
+###### A.1.10.2.7.1.1 - Authoring Team Definition [Core]  <!-- UUID: b8c7abd2-863c-46a0-9136-66cf7932bea3 -->
+
+The Authoring Team is the team that authored the code to be audited.
+
+###### A.1.10.2.7.1.2 - Maintaining Team Definition [Core]  <!-- UUID: 61d93d59-9975-402b-96a7-b61c3968d8a5 -->
+
+A Maintaining Team is a team that maintains the codebase the code to be audited is intended to be merged into. Where more than one team maintains that codebase, each of those teams is a Maintaining Team. Where the Authoring Team maintains that codebase, the Authoring Team is also a Maintaining Team.
+
+###### A.1.10.2.7.1.3 - External Maintaining Team Definition [Core]  <!-- UUID: b84bdcd2-ad19-4467-a93c-3f8158a80b2f -->
+
+An External Maintaining Team is a Maintaining Team other than the Authoring Team.
+
+##### A.1.10.2.7.2 - Audit Triggers [Core]  <!-- UUID: 696b13e9-d35b-407b-b436-aea7b77eecf6 -->
 
 An audit is required before new smart contract code is introduced to the Sky Ecosystem, including:
 
 - Smart contracts and module onboardings
-- Deployment and initialization scripts required to deploy and configure smart contracts, which must comply with the structure and requirements defined in [A.1.10.2.7.1.1 - Deployment And Initialization Script Standards](5f6012ba-450b-4620-baad-e602ee3e69f7)
+- Deployment and initialization scripts required to deploy and configure smart contracts, which must comply with the structure and requirements defined in [A.1.10.2.7.2.1 - Deployment And Initialization Script Standards](5f6012ba-450b-4620-baad-e602ee3e69f7)
 
 This requirement does not extend to other code, such as off-chain services or user interfaces, unless separately specified.
 
-###### A.1.10.2.7.1.1 - Deployment And Initialization Script Standards [Core]  <!-- UUID: 5f6012ba-450b-4620-baad-e602ee3e69f7 -->
+###### A.1.10.2.7.2.1 - Deployment And Initialization Script Standards [Core]  <!-- UUID: 5f6012ba-450b-4620-baad-e602ee3e69f7 -->
 
 The documents herein define the structural standards and requirements for deployment and initialization scripts submitted for audit.
 
-###### A.1.10.2.7.1.1.1 - Deployment And Initialization Script Structure [Core]  <!-- UUID: 7bd3f4a0-899a-4954-a00e-48b6fbce922c -->
+###### A.1.10.2.7.2.1.1 - Deployment And Initialization Script Structure [Core]  <!-- UUID: 7bd3f4a0-899a-4954-a00e-48b6fbce922c -->
 
 Deployment logic and initialization logic must be structured as follows:
 
@@ -4497,11 +4611,11 @@ Deployment logic and initialization logic must be structured as follows:
 
 Deployment and initialization logic must be combined into a single library unless there is reasonable justification for separation.
 
-###### A.1.10.2.7.1.1.2 - Deployment And Initialization Script Requirements [Core]  <!-- UUID: b30a99c5-270e-48f8-aeeb-bd75ff70b195 -->
+###### A.1.10.2.7.2.1.2 - Deployment And Initialization Script Requirements [Core]  <!-- UUID: b30a99c5-270e-48f8-aeeb-bd75ff70b195 -->
 
 The documents herein define the requirements for deployment and initialization scripts submitted for audit.
 
-###### A.1.10.2.7.1.1.2.1 - General Requirements [Core]  <!-- UUID: f7e962d7-3f73-4b0e-97f2-1990a74ca224 -->
+###### A.1.10.2.7.2.1.2.1 - General Requirements [Core]  <!-- UUID: f7e962d7-3f73-4b0e-97f2-1990a74ca224 -->
 
 The following requirements apply to all deployment and initialization scripts:
 
@@ -4510,14 +4624,14 @@ The following requirements apply to all deployment and initialization scripts:
 
 Deployment verification, including confirmation of address correctness and on-chain state, is not within the scope of an audit of deployment and initialization scripts and must be performed as a separate deployment verification review.
 
-###### A.1.10.2.7.1.1.2.2 - Deployment Script Requirements [Core]  <!-- UUID: 14e60844-2620-45e0-9c46-8372cebd8bbe -->
+###### A.1.10.2.7.2.1.2.2 - Deployment Script Requirements [Core]  <!-- UUID: 14e60844-2620-45e0-9c46-8372cebd8bbe -->
 
 Deployment scripts must satisfy the following requirements:
 
 - Deployment scripts must yield ownership of deployed contracts to the relevant Governance proxy. Exceptions to this requirement must have reasonable justification.
 - Top-level deployment scripts must be included in the audit scope. Auditors must at minimum verify constructor parameters.
 
-###### A.1.10.2.7.1.1.2.3 - Initialization Script Requirements [Core]  <!-- UUID: 2c825419-d9a7-4da7-97b8-29e2c8b515a4 -->
+###### A.1.10.2.7.2.1.2.3 - Initialization Script Requirements [Core]  <!-- UUID: 2c825419-d9a7-4da7-97b8-29e2c8b515a4 -->
 
 Initialization scripts must satisfy the following requirements:
 
@@ -4525,21 +4639,31 @@ Initialization scripts must satisfy the following requirements:
 - Every initialization function must be audited.
 - Top-level initialization scripts that exist solely for test environments must not be included in the audit scope.
 
-##### A.1.10.2.7.2 - Audit Request And Intake [Core]  <!-- UUID: fcc17c4e-b1cd-4e62-bb2b-0aea02ee72d5 -->
+##### A.1.10.2.7.3 - Audit Request And Intake [Core]  <!-- UUID: fcc17c4e-b1cd-4e62-bb2b-0aea02ee72d5 -->
 
-The team responsible for the code to be audited fills in a standardized audit intake form containing, at minimum:
+The Authoring Team fills in a standardized audit intake form containing, at minimum:
 
 - The scope of the audit, identifying the specific contracts, scripts, or artifacts to be reviewed
-- The repository URL and exact commit hash of the code to be audited, which must have been reviewed as specified in [A.1.10.2.7.2.1 - Code Review Requirement](4bead31b-adee-4121-a966-d0e1c31f91e2)
+- The repository URL and exact commit hash of the code to be audited, which must have been reviewed as specified in [A.1.10.2.7.3.1 - Code Review Requirement](4bead31b-adee-4121-a966-d0e1c31f91e2)
 - Any context the auditor needs to understand the purpose and integration of the audited code within the Sky Ecosystem
 
 Core GovOps compiles the completed intake forms and submits them to the auditor. The audit request must be submitted with sufficient lead time for the auditor to complete the review before the target Spell or deployment date.
 
-###### A.1.10.2.7.2.1 - Code Review Requirement [Core]  <!-- UUID: 4bead31b-adee-4121-a966-d0e1c31f91e2 -->
+###### A.1.10.2.7.3.1 - Code Review Requirement [Core]  <!-- UUID: 4bead31b-adee-4121-a966-d0e1c31f91e2 -->
 
-The commit hash submitted for audit must correspond to a Pull Request that has been reviewed and approved by at least one (1) member of the team responsible for the code who is not an author of the Pull Request. Evidence of the review and approval must be available to Core GovOps as part of the audit request and intake process specified in [A.1.10.2.7.2 - Audit Request And Intake](fcc17c4e-b1cd-4e62-bb2b-0aea02ee72d5).
+The commit hash submitted for audit must correspond to a Pull Request that has been reviewed and approved by at least one (1) member of the Authoring Team who is not an author of the Pull Request. Evidence of the review and approval must be available to Core GovOps as part of the audit request and intake process specified in [A.1.10.2.7.3 - Audit Request And Intake](fcc17c4e-b1cd-4e62-bb2b-0aea02ee72d5).
 
-##### A.1.10.2.7.3 - Audit Execution And Report Delivery [Core]  <!-- UUID: 31544b57-28e8-4cee-b4ae-f73c2cacabad -->
+Where the code to be audited has one or more External Maintaining Teams, as defined in [A.1.10.2.7.1.3 - External Maintaining Team Definition](b84bdcd2-ad19-4467-a93c-3f8158a80b2f), additional review requirements apply, as specified in [A.1.10.2.7.3.1.1 - Review Of Changes To Codebases Maintained By Other Teams](555cfce5-ffb6-4466-8a9e-ff0ef1c78802).
+
+###### A.1.10.2.7.3.1.1 - Review Of Changes To Codebases Maintained By Other Teams [Core]  <!-- UUID: 555cfce5-ffb6-4466-8a9e-ff0ef1c78802 -->
+
+Where the code to be audited has one or more External Maintaining Teams, the following requirements apply in addition to those specified in [A.1.10.2.7.3.1 - Code Review Requirement](4bead31b-adee-4121-a966-d0e1c31f91e2):
+
+- The code must be submitted as a Pull Request against the repository that holds the codebase it is intended to be merged into.
+- The Pull Request must be reviewed and approved, at the commit hash submitted for audit, by at least one (1) member of each External Maintaining Team who is not an author of the Pull Request.
+- Evidence of these reviews and approvals must be available to Core GovOps as part of the audit request and intake process specified in [A.1.10.2.7.3 - Audit Request And Intake](fcc17c4e-b1cd-4e62-bb2b-0aea02ee72d5).
+
+##### A.1.10.2.7.4 - Audit Execution And Report Delivery [Core]  <!-- UUID: 31544b57-28e8-4cee-b4ae-f73c2cacabad -->
 
 The auditor performs the audit against the scope and commit hash specified in the audit request. Upon completion, the auditor delivers an interim audit report containing, at minimum:
 
@@ -4550,26 +4674,34 @@ The auditor performs the audit against the scope and commit hash specified in th
 
 The final audit report must be hosted on the auditor's website or another independently verifiable location. Internal documents, shared drives, or non-permanent links do not satisfy this requirement.
 
-##### A.1.10.2.7.4 - Report Review And Acceptance [Core]  <!-- UUID: 252e0d85-55ca-4fb5-8f44-a38b6ac65e81 -->
+##### A.1.10.2.7.5 - Report Review And Acceptance [Core]  <!-- UUID: 252e0d85-55ca-4fb5-8f44-a38b6ac65e81 -->
 
-Upon delivery of the interim audit report, the team responsible for the audited code reviews the report and confirms that the audited scope and commit hash match the audit request. The audited artifact must not proceed to deployment, Spell inclusion, or governance vote until the team has accepted the report.
+Upon delivery of the interim audit report, the Authoring Team reviews the report and confirms that the audited scope and commit hash match the audit request. The audited artifact must not be deployed, included in a Spell, or included in any other governance process until the Authoring Team has accepted the report.
 
-An audit is considered complete when the final audit report is published at the independently verifiable hosting location specified in [A.1.10.2.7.3 - Audit Execution And Report Delivery](31544b57-28e8-4cee-b4ae-f73c2cacabad).
+An audit is considered complete when the final audit report is published at the independently verifiable hosting location specified in [A.1.10.2.7.4 - Audit Execution And Report Delivery](31544b57-28e8-4cee-b4ae-f73c2cacabad).
 
-If the interim audit report identifies findings, the artifact must not proceed to deployment, Spell inclusion, or governance vote until the remediation process specified in [A.1.10.2.7.5 - Findings Remediation](80eab9dd-3833-4418-9845-b648e19fb72f) is completed.
+If the interim audit report identifies findings, the artifact must not be deployed, included in a Spell, or included in any other governance process until the remediation process specified in [A.1.10.2.7.6 - Findings Remediation](80eab9dd-3833-4418-9845-b648e19fb72f) is completed.
 
-##### A.1.10.2.7.5 - Findings Remediation [Core]  <!-- UUID: 80eab9dd-3833-4418-9845-b648e19fb72f -->
+##### A.1.10.2.7.6 - Findings Remediation [Core]  <!-- UUID: 80eab9dd-3833-4418-9845-b648e19fb72f -->
 
-If the interim audit report contains findings, the team responsible for the audited code must address each finding based on its severity:
+If the interim audit report contains findings, the Authoring Team must address each finding based on its severity:
 
 - Findings of low severity or below may be fixed or acknowledged. An acknowledged response must explain why the finding is accepted as-is, including the rationale and any mitigating factors.
-- Findings of medium severity or higher must be fixed. The updated code must be re-audited through a new audit request as specified in [A.1.10.2.7.2 - Audit Request And Intake](fcc17c4e-b1cd-4e62-bb2b-0aea02ee72d5), and the re-audit must be completed as specified in [A.1.10.2.7.4 - Report Review And Acceptance](252e0d85-55ca-4fb5-8f44-a38b6ac65e81) before the audited artifact can proceed to deployment, Spell inclusion, or governance vote. Where the code was submitted by a Prime Agent, the Prime Agent is responsible for the cost of the re-audit.
+- Findings of medium severity or higher must be fixed. The updated code must be re-audited through a new audit request as specified in [A.1.10.2.7.3 - Audit Request And Intake](fcc17c4e-b1cd-4e62-bb2b-0aea02ee72d5), and the re-audit must be completed as specified in [A.1.10.2.7.5 - Report Review And Acceptance](252e0d85-55ca-4fb5-8f44-a38b6ac65e81) before the audited artifact can be deployed, included in a Spell, or included in any other governance process. Where the code was submitted by a Prime Agent, the Prime Agent is responsible for the cost of the re-audit.
 
-All findings must be resolved or acknowledged before the audited artifact can proceed to deployment, Spell inclusion, or governance vote. The resolution status of each finding must be recorded in the final audit report or in a supplementary document referenced from the final audit report.
+All findings must be resolved or acknowledged before the audited artifact can be deployed, included in a Spell, or included in any other governance process. The resolution status of each finding must be recorded in the final audit report or in a supplementary document referenced from the final audit report.
 
-##### A.1.10.2.7.6 - Audit Recordkeeping [Core]  <!-- UUID: 610c8780-178b-4055-9387-373e014c8202 -->
+Where the audited code has one or more External Maintaining Teams, the following requirements apply to remediated code:
+
+- Remediated code that is re-audited is subject to the review requirements specified in [A.1.10.2.7.3.1.1 - Review Of Changes To Codebases Maintained By Other Teams](555cfce5-ffb6-4466-8a9e-ff0ef1c78802) as part of the new audit request.
+- Remediated code that is not re-audited must be in a Pull Request approved, at the commit hash to be deployed or included in a Spell, by at least one (1) member of each External Maintaining Team who is not an author of the Pull Request. The audited artifact must not be deployed, included in a Spell, or included in any other governance process until this approval is given.
+- Before approving remediated code that is not re-audited, an External Maintaining Team may require additional review of that code. The External Maintaining Team determines the scope of the additional review.
+
+##### A.1.10.2.7.7 - Audit Recordkeeping [Core]  <!-- UUID: 610c8780-178b-4055-9387-373e014c8202 -->
 
 The Forum post for the associated Spell or deployment must include a link to each applicable final audit report, the audited commit hash, and confirmation that the deployed code matches the audited commit, as specified in [A.1.10.2.3.2.1.2.1.2.1 - Requirements For Forum Post](3d031b7c-1b1f-4f84-8668-1cdf43cb2ab2). Where a Technical Scope is submitted for the deployment, the final audit report and audited commit hash must also be included in the Technical Scope as specified in the same requirements.
+
+Where remediated code was not re-audited and was approved as specified in [A.1.10.2.7.6 - Findings Remediation](80eab9dd-3833-4418-9845-b648e19fb72f), the Forum post must instead confirm that the deployed code matches the approved commit hash and must include a link to the approved Pull Request. Where a Technical Scope is submitted for the deployment, it must also include the approved commit hash and a link to the approved Pull Request.
 
 ### A.1.10.3 - Governance Security Delay Requirements [Section]  <!-- UUID: c5f0e955-0441-42e0-a6fc-eab875bba568 -->
 
@@ -4764,7 +4896,7 @@ This risk is partially mitigated: BeamState's `hop` and `maxChange` parameters b
 
 ###### A.1.10.3.2.10.6 - Core Council Multisig Exception [Core]  <!-- UUID: fbb0677a-3218-4649-9116-9f3c18e3ef90 -->
 
-The Core Council Multisig — the same multisig across all chains, as specified in [A.2.2.10.1.1.1.2.4.2.3.1 - Core Council Multisig](5d26be25-bddc-4ede-8fa4-a092c610103e) — can act on a given chain's BeamState without a separate Executive Vote for each change, as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754). Its immediate functions take effect directly, with no delay; its delayed functions take effect only after that chain's Timelock's minimum delay has passed.
+The Core Council Multisig — deployed separately on each chain on which the PAS runs, as specified in [A.2.2.10.1.1.1.2.4.2.3.1 - Core Council Multisig](5d26be25-bddc-4ede-8fa4-a092c610103e) — can act on a given chain's BeamState without a separate Executive Vote for each change, as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754). Its immediate functions take effect directly, with no delay; its delayed functions take effect only after that chain's Timelock's minimum delay has passed.
 
 This functionality allows the Core Council Multisig to respond to cBEAM misbehavior, and to adjust a chain's BeamState parameters, more quickly than waiting for a separate Executive Vote.
 
@@ -4774,7 +4906,7 @@ The Core Council Multisig's immediate functions are bounded: they cannot registe
 
 The Core Council Multisig's delayed functions, once a given chain's Timelock is unpaused, are subject to that Timelock's minimum delay. On Ethereum Mainnet, Sky Governance can additionally halt them by triggering `pause()` through the PASMom contract, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71); other chains have no PASMom equivalent, so pausing their Timelock instead requires a direct Sky Core Spell.
 
-A chain's PAS may launch with its Timelock paused, as a transitional measure specified for that chain's own deployment; until unpaused, none of that chain's delayed functions can take effect, and they must instead go through an Executive Vote, without requiring a prior Governance Poll. For the Ethereum Mainnet PAS, see [A.2.2.10.1.1.1.2.4.1.5 - Transitional Measures](d5240aa5-72c1-4f92-b22c-7a80a35d733c); for the Arbitrum PAS, see [A.2.2.10.1.1.1.2.4.2.5 - Transitional Measures](a819637b-04b7-4e1d-9e91-227a29ed6761).
+A chain's PAS may launch with its Timelock paused, as a transitional measure specified for that chain's own deployment; until unpaused, none of that chain's delayed functions can take effect, and they must instead go through an Executive Vote, without requiring a prior Governance Poll. For the Ethereum Mainnet PAS, see [A.2.2.10.1.1.1.2.4.1.5 - Transitional Measures](d5240aa5-72c1-4f92-b22c-7a80a35d733c); for the Arbitrum PAS, see [A.2.2.10.1.1.1.2.4.2.5 - Transitional Measures](a819637b-04b7-4e1d-9e91-227a29ed6761); for the Base PAS, see [A.2.2.10.1.1.1.2.4.3.5 - Transitional Measures](9f398df8-0484-4c16-8cb9-8d7b04a8b531).
 
 ##### A.1.10.3.2.11 - Stability Parameter Bounded External Access Module Breaker Exception [Core]  <!-- UUID: 1fd7d164-e9f3-4d6c-ab5e-0122bb415f8d -->
 
