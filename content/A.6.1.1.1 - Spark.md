@@ -1522,6 +1522,18 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.11.2 - Ethereum Mainnet - Transfer USDT to Binance (receive USDC) Instance Configuration Document](47a2b1c2-104c-4bb4-bb10-574cab86daf5).
 
+###### A.6.1.1.1.2.6.1.1.2.1.12 - Bridge [Core]  <!-- UUID: b46b0c6c-1b0b-42ce-8fd7-840e5e3f8000 -->
+
+The Ethereum Mainnet Instances Directory of Bridge with `Active` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.2.1.12.1 - Ethereum Mainnet - USDC To OUSD Via Bridge Instance Configuration Document Location [Core]  <!-- UUID: 5cf74e70-1af3-48c4-b110-f30736052982 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.12.1 - Ethereum Mainnet - USDC To OUSD Via Bridge Instance Configuration Document](ad4cd9c1-be82-4009-bbcd-7efd13086dd1).
+
+###### A.6.1.1.1.2.6.1.1.2.1.12.2 - Ethereum Mainnet - OUSD To USDC Via Bridge Instance Configuration Document Location [Core]  <!-- UUID: ad686265-9e3f-4cb7-b19e-8f099458c459 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.12.2 - Ethereum Mainnet - OUSD To USDC Via Bridge Instance Configuration Document](ab1fdc64-4e0a-449a-8f99-30d4672656c4).
+
 ###### A.6.1.1.1.2.6.1.1.2.2 - Base [Core]  <!-- UUID: 305a6351-bb16-4e4d-8912-7ef1c3ff26bb -->
 
 The documents herein contain a Directory of all Instances on Base of the Allocation System Primitive with Instance status of `Active`.
@@ -6891,6 +6903,184 @@ The transferAssets rate limits are:
 The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.11.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 54e39388-b13f-4b7b-8027-ec937f7f29a7 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.3.1.12 - Bridge [Core]  <!-- UUID: 11de1d21-97b4-4aae-b8ff-2a5e2b0e0e42 -->
+
+The Ethereum Mainnet Instances of Bridge with `Active` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.3.1.12.1 - Ethereum Mainnet - USDC To OUSD Via Bridge Instance Configuration Document [Core]  <!-- UUID: ad4cd9c1-be82-4009-bbcd-7efd13086dd1 -->
+
+The documents herein contain the Instance Configuration Document for the USDC To OUSD Via Bridge Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 282313a4-c17f-4be7-aa15-6a1f09fe2135 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2 - Parameters [Core]  <!-- UUID: 513d59be-0977-4c2b-a02b-548549dc1c12 -->
+
+The documents herein define the parameters of the USDC To OUSD Via Bridge Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.1 - Instance Identifiers [Core]  <!-- UUID: f2348250-7a73-4f5e-b23a-711a293954c6 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.1.1 - Network [Core]  <!-- UUID: fc555adf-f527-47ed-9f0a-b5b8163d739f -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.1.2 - Target Protocol [Core]  <!-- UUID: c4bbe327-ab18-4cf5-8b32-04f628ee58be -->
+
+Bridge
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 53178dfd-65ad-4dff-93d2-f845c4ff5444 -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.1.4 - Token to Receive [Core]  <!-- UUID: 5abaee29-736b-4975-bcd3-2e37bddb4a83 -->
+
+OUSD
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.2 - Contract Addresses [Core]  <!-- UUID: 7a28355e-6309-465e-83ee-c2edf42260f9 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.2.1 - Token Address [Core]  <!-- UUID: 3fe57c33-4e6c-4090-b2f5-5267fac8c9e5 -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: dbbc67f5-1a28-4947-b242-7692e5c8b7e7 -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.2.3 - Bridge Deposit Address [Core]  <!-- UUID: 7a5ec4af-7524-448d-9cb3-68a211344961 -->
+
+`0xCeB913e6CB36651af7FA4585F6C8F0e81C015A5F`
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 24d61f76-8344-4ba9-986c-ee4d465a7eba -->
+
+The specific `RateLimitID` for this conduit’s transfer operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: f1a459d6-61cd-4a0f-bc53-e6e90edb47c2 -->
+
+The transfer RateLimitID is: `0x27f2952439e9d07d66852cbf73db5448cee8947a445797fc1bfb1e5cd697d3aa`
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.4 - Rate Limits [Core]  <!-- UUID: 9acde8fe-1f83-431d-bffa-8cde4e59cf93 -->
+
+The current transfer rate limits for this conduit's transfer operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.4.1 - Transfer Rate Limits [Core]  <!-- UUID: 0794d336-f275-4e9f-8fa5-87127fc134ae -->
+
+The transfer rate limits are:
+
+- `maxAmount`: 5,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 0f341188-f3aa-43d6-a697-3b99de5f1784 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.5.1 - Interim Deployment [Core]  <!-- UUID: 4e55f1e5-9abc-4ee5-a622-6ff2c21171f4 -->
+
+This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein. These parameters, including the CRR of 100% and the maximum allocation of 20,000,000 USD, apply once across this Instance and [A.6.1.1.1.2.6.1.3.1.12.2 - Ethereum Mainnet - OUSD To USDC Via Bridge Instance Configuration Document](ab1fdc64-4e0a-449a-8f99-30d4672656c4), and not to each of them separately.
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 9b6859b3-120b-49b1-bbbe-1ff3f8628727 -->
+
+The maximum allocation for this Instance is 20,000,000 USD.
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.2.5.1.2 - Rate Limits [Core]  <!-- UUID: d038e63b-4375-460d-8ca8-f40fc2486d5c -->
+
+The Rate Limits for this Interim Deployment are defined in [A.6.1.1.1.2.6.1.3.1.12.1.2.4 - Rate Limits](9acde8fe-1f83-431d-bffa-8cde4e59cf93).
+
+###### A.6.1.1.1.2.6.1.3.1.12.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: f29ce1df-c371-49be-9aa7-702d2aade17f -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2 - Ethereum Mainnet - OUSD To USDC Via Bridge Instance Configuration Document [Core]  <!-- UUID: ab1fdc64-4e0a-449a-8f99-30d4672656c4 -->
+
+The documents herein contain the Instance Configuration Document for the OUSD To USDC Via Bridge Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 3a05ddf0-b5bb-4135-b8b7-4370ef390bd8 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2 - Parameters [Core]  <!-- UUID: 4cc08e37-3e6f-4205-8267-47ceb99160a3 -->
+
+The documents herein define the parameters of the OUSD To USDC Via Bridge Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 8e0c05ba-3b60-41ab-8ea7-8d36a26db2c8 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.1 - Network [Core]  <!-- UUID: 43a08e58-4321-4840-9b44-5bd61d191d6a -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 51b6d45c-5e7b-432e-a244-86a84af64f5f -->
+
+Bridge
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 79bd2b30-d856-4b17-b66f-bdca0764567c -->
+
+OUSD
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.1.4 - Token to Receive [Core]  <!-- UUID: 0b6e92af-2f8d-47d6-ae8c-13ed9ef0af4a -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.2 - Contract Addresses [Core]  <!-- UUID: 82dac5d6-3212-48e3-8169-7603a7d17b0e -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.2.1 - Token Address [Core]  <!-- UUID: c47bcbfb-1b6b-4cee-af9c-f77f68aff2f3 -->
+
+`0x9f6F3991D525015a6F8CaF062C83b62fD3AC4436`
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: fdc4475b-f456-42fc-ad7f-3ba378fea3f9 -->
+
+`0x9f6F3991D525015a6F8CaF062C83b62fD3AC4436`
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.2.3 - Bridge Deposit Address [Core]  <!-- UUID: b0c1a0e4-d579-4012-aed8-ed0c5ff0e89d -->
+
+`0x3539f3f7F3A368EAf87315cE56ea2834a6e6a195`
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7f1cfa08-f1b9-442c-8bcd-e7e817b47dbb -->
+
+The specific `RateLimitID` for this conduit’s transfer operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: c1d61da6-2282-4f62-ab6a-b6235ed0246d -->
+
+The transfer RateLimitID is: `0xeaede6d2668b62d77692d0302e30b600f6941ce6dd5badf8c3c4dd2f1a0bade2`
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.4 - Rate Limits [Core]  <!-- UUID: be105566-7443-4628-bf7d-ace6b4850669 -->
+
+The current transfer rate limits for this conduit's transfer operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.4.1 - Transfer Rate Limits [Core]  <!-- UUID: 8f9e8af8-3f47-4463-b59e-f7fc2feae060 -->
+
+The transfer rate limits are:
+
+- `maxAmount`: 5,000,000 OUSD
+- `slope`: 200,000,000 OUSD per day
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 68e347ec-63c1-4baf-97ae-a684b12c0a8f -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.5.1 - Interim Deployment [Core]  <!-- UUID: 38093d6d-a522-4019-b2c2-0ff011d283a4 -->
+
+This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein. These parameters, including the CRR of 100% and the maximum allocation of 20,000,000 USD, apply once across this Instance and [A.6.1.1.1.2.6.1.3.1.12.1 - Ethereum Mainnet - USDC To OUSD Via Bridge Instance Configuration Document](ad4cd9c1-be82-4009-bbcd-7efd13086dd1), and not to each of them separately.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 8cffc6d5-6617-4302-9e59-939159434e11 -->
+
+The maximum allocation for this Instance is 20,000,000 USD.
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.2.5.1.2 - Rate Limits [Core]  <!-- UUID: 63322ab5-7158-4d4f-b6d7-7119739a63aa -->
+
+The Rate Limits for this Interim Deployment are defined in [A.6.1.1.1.2.6.1.3.1.12.2.2.4 - Rate Limits](be105566-7443-4628-bf7d-ace6b4850669).
+
+###### A.6.1.1.1.2.6.1.3.1.12.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: b7c6fae8-b714-4d2f-b12a-e983a8b6a212 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
