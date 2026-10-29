@@ -10434,7 +10434,7 @@ The current WETH risk parameters are:
 - Base Rate: 0%
 - Slope 1: N/A
 - Slope 1 Spread: -0.10%
-- Slope 2: 75%
+- Slope 2: 30%
 - Reserve State: Active
 - Collateral: Yes
 - Borrowing: Yes
@@ -10768,10 +10768,10 @@ The current pyUSD risk parameters are:
 - Reserve Factor: 10%
 - Supply Cap: Set by cap automator
 - Borrow Cap: Set by cap automator
-- Optimal Utilization: 95%
+- Optimal Utilization: 80%
 - Isolated Debt Ceiling: N/A
-- Base Rate: 0%
-- Slope 1: SSR + 1.5%
+- Base Rate: SSR + 0.20%
+- Slope 1: 0.20%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: Yes
@@ -10791,10 +10791,10 @@ The current USDG risk parameters are:
 - Reserve Factor: 10%
 - Supply Cap: Unlimited
 - Borrow Cap: Unlimited
-- Optimal Utilization: 95%
+- Optimal Utilization: 80%
 - Isolated Debt Ceiling: N/A
-- Base Rate: SSR
-- Slope 1: 0.3%
+- Base Rate: SSR + 0.20%
+- Slope 1: 0.20%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: No
@@ -10815,10 +10815,10 @@ The current RLUSD risk parameters are:
 - Reserve Factor: 10%
 - Supply Cap: Unlimited
 - Borrow Cap: Unlimited
-- Optimal Utilization: 95%
+- Optimal Utilization: 80%
 - Isolated Debt Ceiling: N/A
-- Base Rate: SSR
-- Slope 1: 0.3%
+- Base Rate: SSR + 0.20%
+- Slope 1: 0.20%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: No

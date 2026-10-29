@@ -7020,8 +7020,8 @@ The current `maxAmount` and `slope` for this conduit’s inflow and outflow are 
 
 The deposit rate limits are:
 
-- `maxAmount`: 20,000,000 USDC
-- `slope`: 20,000,000 USDC per day
+- `maxAmount`: 100,000,000 USDC
+- `slope`: 100,000,000 USDC per day
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 7e38063c-c6a7-4d45-9344-bd3b22047019 -->
 
@@ -9237,8 +9237,8 @@ The current `maxAmount` and `slope` for this conduit’s inflow and outflow are 
 
 The deposit rate limits are:
 
-- `maxAmount`: 20,000,000 USDC
-- `slope`: 20,000,000 USDC per day
+- `maxAmount`: 100,000,000 USDC
+- `slope`: 100,000,000 USDC per day
 
 ###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3c8ca674-d0d1-43e8-a76d-b2fb07db3447 -->
 
