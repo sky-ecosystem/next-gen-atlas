@@ -1482,6 +1482,10 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.8.4 - Ethereum Mainnet - Uniswap v4 rlUSD/USDS Pool Instance Configuration Document](102ef022-a660-4942-8bf2-bb061a7a8f8a).
 
+###### A.6.1.1.1.2.6.1.1.2.1.8.5 - Ethereum Mainnet - Uniswap v4 OUSD/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 521ae308-2115-4cd2-8121-fd04de92e56a -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.8.5 - Ethereum Mainnet - Uniswap v4 OUSD/USDS Pool Instance Configuration Document](b80201fd-ef48-4d9e-b5b6-0b1d2a8b3769).
+
 ###### A.6.1.1.1.2.6.1.1.2.1.9 - Paxos [Core]  <!-- UUID: c6e67244-8bdc-487a-b5bf-61025f623d22 -->
 
 The Ethereum Mainnet Instances Directory of Paxos with `Active` Status are stored herein.
@@ -6401,6 +6405,120 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
+###### A.6.1.1.1.2.6.1.3.1.8.5 - Ethereum Mainnet - Uniswap v4 OUSD/USDS Pool Instance Configuration Document [Core]  <!-- UUID: b80201fd-ef48-4d9e-b5b6-0b1d2a8b3769 -->
+
+The documents herein contain the Instance Configuration Document for the Uniswap v4 OUSD/USDS Pool Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 81909f8c-a433-4d71-b955-a3b353fea9a2 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2 - Parameters [Core]  <!-- UUID: 5f3d76df-2c0d-466c-894a-a9cdfa7ff21b -->
+
+The documents herein define the parameters of the Uniswap v4 OUSD/USDS Pool Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1 - Instance Identifiers [Core]  <!-- UUID: aa7ff3e4-0161-4743-9a79-e2579642b4cf -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.1 - Network [Core]  <!-- UUID: daa0aa2d-0d0c-466c-8a29-ab4150a24ad5 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.2 - Target Protocol [Core]  <!-- UUID: 249cb350-1455-4855-815f-1d3609e520b1 -->
+
+Uniswap v4
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 3d69e62a-82af-4997-b561-2058e3808964 -->
+
+USDS and OUSD
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.1.4 - Token [Core]  <!-- UUID: c7b6ad97-5e83-488d-8aad-19a7ed272765 -->
+
+OUSDUSDS
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.2 - Contract Addresses [Core]  <!-- UUID: 02cb4f7a-b886-4e53-8afc-a12fefb38fd2 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.2.1 - Pool ID [Core]  <!-- UUID: e6c7ed38-a490-45cb-aaf7-ea8ef3c37359 -->
+
+`0x710254704dfff19aee863a784a36823eb9c926cae8d3d425080d7c88c144a9c7`
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.3 - Rate Limit IDs [Core]  <!-- UUID: b4b2426f-10a9-4a18-b279-d5ab76a22f91 -->
+
+The specific `RateLimitID`(s) for this conduit's inflow, outflow, and swap are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 4cfbb2ae-8e3c-4576-b8a5-5f0938b39f38 -->
+
+The inflow RateLimitID is: `0x373b12bda398628fb83cbe1f68bc0c669732689128fda1ef5c6eae0f9af93ab2`
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 625f94aa-1c49-43d5-9296-d6909a97089a -->
+
+The outflow RateLimitID is: `0x41824dce31313d425bc8fec75f008039fc773bc2038e50796eb930942291dde9`
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.3.3 - Swap Rate Limit ID [Core]  <!-- UUID: f11853fb-0fe6-4c89-bd6f-ab554b9c66b6 -->
+
+The swap RateLimitID is: `0x113444acb6714366bdd044b8b3961a443255da8524a984887bba16d283cb4e1c`
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.4 - Rate Limits [Core]  <!-- UUID: 908bf4b2-0b28-4e2f-8928-4a4dd867b33f -->
+
+The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9a541aa7-a734-4226-8695-8b61e13387e6 -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 10,000,000 OUSD/USDS
+- `slope`: 50,000,000 OUSD/USDS per day
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 206c76f4-bf01-46fc-b5f2-55678c661a54 -->
+
+The outflow rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 206d0012-0246-404d-ad3a-689bce86bd44 -->
+
+The swap rate limits are:
+
+- `maxAmount`: 5,000,000 OUSD/USDS
+- `slope`: 100,000,000 OUSD/USDS per day
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.4.4 - Maximum Slippage [Core]  <!-- UUID: 71ab146a-5be2-4eae-82c3-45e6e47703e4 -->
+
+Max slippage: 0.1%
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.4.5 - Tick Range and Width [Core]  <!-- UUID: 54d37f6a-9ecd-4bea-bc27-83315ae8c4a0 -->
+
+- Min lower tick limit: 276,314 (-0.1%)
+- Max upper tick limit: 276,334 (+0.1%)
+- Max tick width: 10 ticks
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.4.6 - Swap Fee [Core]  <!-- UUID: e079a8e6-2862-494a-8155-0ea55454a3c7 -->
+
+0.0005%
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: fa859fe7-b706-4af4-9f15-37edf22c694d -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.5.1 - Interim Deployment [Core]  <!-- UUID: b1e85213-c320-4fab-86da-8b3395f8e7fc -->
+
+This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein. These parameters, including the CRR of 100% and the maximum allocation of 20,000,000 USD, apply once across this Instance, [A.6.1.1.1.2.6.1.3.1.12.1 - Ethereum Mainnet - USDC To OUSD Via Bridge Instance Configuration Document](ad4cd9c1-be82-4009-bbcd-7efd13086dd1) and [A.6.1.1.1.2.6.1.3.1.12.2 - Ethereum Mainnet - OUSD To USDC Via Bridge Instance Configuration Document](ab1fdc64-4e0a-449a-8f99-30d4672656c4), and not to each of them separately.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 2428dc4b-b14b-4776-829a-905036e235e5 -->
+
+The maximum allocation for this Instance is 20,000,000 USD.
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.2.5.1.2 - Rate Limits [Core]  <!-- UUID: 89954921-0896-46c3-871b-0ce478536990 -->
+
+The Rate Limits for this Interim Deployment are defined in [A.6.1.1.1.2.6.1.3.1.8.5.2.4 - Rate Limits](908bf4b2-0b28-4e2f-8928-4a4dd867b33f).
+
+###### A.6.1.1.1.2.6.1.3.1.8.5.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 425d0ad3-ce70-45b8-807e-2817debb9e90 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
 ###### A.6.1.1.1.2.6.1.3.1.9 - Paxos [Core]  <!-- UUID: e01f0c20-5d3d-4ca4-ac9e-0a1e51780b19 -->
 
 The Ethereum Mainnet Instances of the Paxos Protocol with `Active` Status are stored herein.
@@ -6983,7 +7101,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.12.1.2.5.1 - Interim Deployment [Core]  <!-- UUID: 4e55f1e5-9abc-4ee5-a622-6ff2c21171f4 -->
 
-This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein. These parameters, including the CRR of 100% and the maximum allocation of 20,000,000 USD, apply once across this Instance and [A.6.1.1.1.2.6.1.3.1.12.2 - Ethereum Mainnet - OUSD To USDC Via Bridge Instance Configuration Document](ab1fdc64-4e0a-449a-8f99-30d4672656c4), and not to each of them separately.
+This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein. These parameters, including the CRR of 100% and the maximum allocation of 20,000,000 USD, apply once across this Instance, [A.6.1.1.1.2.6.1.3.1.12.2 - Ethereum Mainnet - OUSD To USDC Via Bridge Instance Configuration Document](ab1fdc64-4e0a-449a-8f99-30d4672656c4) and [A.6.1.1.1.2.6.1.3.1.8.5 - Ethereum Mainnet - Uniswap v4 OUSD/USDS Pool Instance Configuration Document](b80201fd-ef48-4d9e-b5b6-0b1d2a8b3769), and not to each of them separately.
 
 ###### A.6.1.1.1.2.6.1.3.1.12.1.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 9b6859b3-120b-49b1-bbbe-1ff3f8628727 -->
 
@@ -7070,7 +7188,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.12.2.2.5.1 - Interim Deployment [Core]  <!-- UUID: 38093d6d-a522-4019-b2c2-0ff011d283a4 -->
 
-This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein. These parameters, including the CRR of 100% and the maximum allocation of 20,000,000 USD, apply once across this Instance and [A.6.1.1.1.2.6.1.3.1.12.1 - Ethereum Mainnet - USDC To OUSD Via Bridge Instance Configuration Document](ad4cd9c1-be82-4009-bbcd-7efd13086dd1), and not to each of them separately.
+This Instance is currently defined as an Interim Deployment (see [A.1.10.2.3.2.2.2 - Interim Deployments](9b3edbbf-89d1-42da-a9c3-18f858f8471f)) and as such has CRR of 100%. The testing parameters of this Interim Deployment are specified in the documents herein. These parameters, including the CRR of 100% and the maximum allocation of 20,000,000 USD, apply once across this Instance, [A.6.1.1.1.2.6.1.3.1.12.1 - Ethereum Mainnet - USDC To OUSD Via Bridge Instance Configuration Document](ad4cd9c1-be82-4009-bbcd-7efd13086dd1) and [A.6.1.1.1.2.6.1.3.1.8.5 - Ethereum Mainnet - Uniswap v4 OUSD/USDS Pool Instance Configuration Document](b80201fd-ef48-4d9e-b5b6-0b1d2a8b3769), and not to each of them separately.
 
 ###### A.6.1.1.1.2.6.1.3.1.12.2.2.5.1.1 - Maximum Allocation [Core]  <!-- UUID: 8cffc6d5-6617-4302-9e59-939159434e11 -->
 
