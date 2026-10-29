@@ -1736,12 +1736,9 @@ The address of the Grove executor on Avalanche is: `0x4b803781828b76EaBF21AaF02e
 
 The address of the Grove LayerZero v2 governance relay receiver on Avalanche is: `0x380Be2b91B63BF75B194913b6e2C07Df09598c22`
 
-###### A.6.1.1.2.2.6.1.2.1.1.1.1.3.3 - Grove Circle CCTP Governance Relay Receivers [Core]  <!-- UUID: fa8dccc5-6a4d-4e3f-9359-17820060ebc4 -->
+###### A.6.1.1.2.2.6.1.2.1.1.1.1.3.3 - Grove Circle CCTP v2 Governance Relay Receiver [Core]  <!-- UUID: fa8dccc5-6a4d-4e3f-9359-17820060ebc4 -->
 
-The Grove Circle CCTP governance relay receivers on Avalanche are:
-
-- Circle CCTP v1: `0x26e9512547feC1906C55256e491DfB6673D8C23f`
-- Circle CCTP v2: `0x8Ea8Dff8c29f568eA1E716E2C3AfbD003EB83cfA`
+The address of the Grove Circle CCTP v2 governance relay receiver on Avalanche is: `0x8Ea8Dff8c29f568eA1E716E2C3AfbD003EB83cfA`
 
 ###### A.6.1.1.2.2.6.1.2.1.1.1.1.3.4 - Circle CCTP v2 TokenMessenger [Core]  <!-- UUID: 2d54c733-b341-41d3-83f2-d3c2d9b8b16d -->
 
@@ -2230,11 +2227,11 @@ The address of the Prime Secondary Relayer Multisig is `0x9187807e07112359C48187
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.2.2 - Required Number Of Signers [Core]  <!-- UUID: 8f0b88bf-0fcd-4103-a4c2-e03b61a2e8a7 -->
 
-The Prime Secondary Relayer Multisig currently has a 1/2 signing requirement.
+The Prime Secondary Relayer Multisig currently has a 2/3 signing requirement.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.2.3 - Signers [Core]  <!-- UUID: 2ff0395a-f47a-478a-8621-28bae36bc2f7 -->
 
-The signers of the Prime Secondary Relayer Multisig are two (2) addresses controlled by Grove.
+The signers of the Prime Secondary Relayer Multisig are three (3) addresses controlled by Grove.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.2.4 - Usage Standards [Core]  <!-- UUID: d50351e8-6cca-4d49-abb8-0c7ce3b16b92 -->
 
@@ -2338,7 +2335,7 @@ The documents herein define roles (Admin, Relayer, Freezer) and their responsibi
 
 ###### A.6.1.1.2.2.6.1.2.2.1.1.1.1 - Default Admin Role [Core]  <!-- UUID: dc515367-2fa0-4f98-b3d1-1b82d7ce782f -->
 
-The admin role (`DEFAULT_ADMIN_ROLE`) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Grove Proxy.
+The admin role (`DEFAULT_ADMIN_ROLE`) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Grove SubProxy.
 
 `constructor(address admin) {
         _grantRole(DEFAULT_ADMIN_ROLE, admin);`
@@ -2397,7 +2394,7 @@ The documents herein define the roles and permissions of the Diamond PAU Instanc
 
 ###### A.6.1.1.2.2.6.1.2.2.1.1.3.1 - Default Admin Role [Core]  <!-- UUID: 987dc000-4453-4beb-93b3-aad8a4d819fc -->
 
-The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke all other roles of the Diamond PAU on the former, and to set rate limits on the latter. The Default Admin Role is held on both contracts by the Grove Proxy and by the Configurator, as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
+The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke all other roles of the Diamond PAU on the former, and to set rate limits on the latter. The Default Admin Role is held on both contracts by the Grove SubProxy and by the Configurator, as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
 
 ###### A.6.1.1.2.2.6.1.2.2.1.1.3.2 - Controller Role [Core]  <!-- UUID: 1597253b-b936-46f6-98c7-d41d4306d2c5 -->
 
@@ -4968,6 +4965,10 @@ This document defines the action that should be performed if there is a need to 
 `
 More detailed instructions on the code to execute this, see [A.6.1.1.2.2.6.1.2.2.1.2.1.2.1.2 - Burn USDS](25706c25-2b74-486e-8234-c45f6630f379).
 
+###### A.6.1.1.2.2.6.1.2.2.3.5 - Diamond PAU Emergency Protocol [Core]  <!-- UUID: cee6381b-80ea-48d6-aafc-a702bd4853ad -->
+
+The actions that can be taken in the event of an emergency within the Grove Diamond PAU's operations are specified in [A.2.2.10.1.1.1.2.5.4 - Emergency Protocol](874320e8-e7dd-430d-a1f4-30595aee6a9d).
+
 ###### A.6.1.1.2.2.6.1.2.3 - Allocation Strategy [Core]  <!-- UUID: 0806984d-5799-4c19-8eda-d355bcc43524 -->
 
 In the future, additional logic will be added herein regarding the strategy by which capital is allocated between different Instances of the Grove Liquidity Layer.
@@ -6967,15 +6968,37 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.3 - Owner Role Address [Core]  <!-- UUID: 71236b62-8283-4703-9d6a-04ccf6c06096 -->
 
-`0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.4 - Curator Role Address [Core]  <!-- UUID: dfd3a988-328e-4710-8049-fe1f5592fdcc -->
 
-`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: b0cd2f12-ad27-46ee-b482-89a07124598b -->
 
-`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: ba06cff1-b141-419a-8db2-cbfddc11300f -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 23ecc971-d297-4a06-98da-1e7620f5a823 -->
 
@@ -6997,8 +7020,8 @@ The current `maxAmount` and `slope` for this conduit’s inflow and outflow are 
 
 The deposit rate limits are:
 
-- `maxAmount`: 20,000,000 USDC
-- `slope`: 20,000,000 USDC per day
+- `maxAmount`: 100,000,000 USDC
+- `slope`: 100,000,000 USDC per day
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 7e38063c-c6a7-4d45-9344-bd3b22047019 -->
 
@@ -7066,15 +7089,37 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.3 - Owner Role Address [Core]  <!-- UUID: ef1ec372-a1dc-4824-94d2-7d955ea25a96 -->
 
-`0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.4 - Curator Role Address [Core]  <!-- UUID: a66421cd-3c15-4f43-a817-7b5262063361 -->
 
-`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
 
 ###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: e2466f53-ded7-458b-9004-ef07b7e1a8ef -->
 
-`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: 951859e9-8c18-4047-990b-935a70d1e541 -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 112d2a3d-0241-446e-96e8-36a25715c275 -->
 
@@ -7169,15 +7214,37 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.3 - Owner Role Address [Core]  <!-- UUID: 8364f790-0037-4d02-8bed-9bce1e9dbd86 -->
 
-`0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.4 - Curator Role Address [Core]  <!-- UUID: e37ccf22-627f-4c05-8861-63ff9c198ea6 -->
 
-`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
 
 ###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: 81672046-5627-4a09-b0d2-00079278a262 -->
 
-`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: a1982162-d3b7-4834-9037-0489f5035ee7 -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 41f9c281-d313-47d4-af75-8df48c9e260c -->
 
@@ -7269,6 +7336,40 @@ The documents herein define the Instance contract addresses.
 ###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: fad65025-4fb8-4826-9f39-d064bb6e065d -->
 
 `0xe343167631d89B6Ffc58B88d6b7fB0228795491D`
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.3 - Owner Role Address [Core]  <!-- UUID: 09f95a7f-7f72-414d-9dc8-d6f65f60b712 -->
+
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.4 - Curator Role Address [Core]  <!-- UUID: bbdcbffb-6116-48fd-a504-a280fa8a1344 -->
+
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: 03d66182-7a41-4183-9a78-209eb17e68a6 -->
+
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: 26b39807-1d1f-4714-8c80-a2ee072e1724 -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.4.2.3 - Rate Limit IDs [Core]  <!-- UUID: 08381056-3b54-4728-8afa-017d8a52a624 -->
 
@@ -7363,11 +7464,36 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.5.2.2.3 - Curator Role Address [Core]  <!-- UUID: edc42fd3-d4f2-4ff1-9e1f-789ce3c0d74a -->
 
-`0x622E19d6903BD4507cfc70b31d5B99535114C0FC`
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
 
 ###### A.6.1.1.2.2.6.1.3.1.7.5.2.2.4 - Sentinel Role Address [Core]  <!-- UUID: 578c7d0e-2a17-4f10-9d9d-2e8fedac9aa0 -->
 
-`0xB597026150552bB3F6092aC685A2241C5FA77Ed0`
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.5.2.2.5 - Owner Role Address [Core]  <!-- UUID: 4d76bfca-7e5b-4f0f-ae09-2395bf5b97b8 -->
+
+The Owner role is held by Grove through its SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
+
+###### A.6.1.1.2.2.6.1.3.1.7.5.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: 80038f9f-d01e-45c1-8f51-cfb73cff1f6f -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Morpho Blue Public Allocator | `0x00b8e1509398ED692C3F326CbAf1694F9A881e27` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.1.7.5.2.3 - Rate Limit IDs [Core]  <!-- UUID: 6a64a14d-3a64-43cc-bc96-ee7d3417f8da -->
 
@@ -9057,6 +9183,40 @@ The documents herein define the Instance contract addresses.
 
 `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
 
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.3 - Owner Role Address [Core]  <!-- UUID: cc84f49f-3fee-45a3-9cce-b535d33c4534 -->
+
+The Owner role is held by Grove through its Executor at `0x491EDFB0B8b608044e227225C715981a30F3A44E`.
+
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.4 - Curator Role Address [Core]  <!-- UUID: fe0cc850-6315-4673-804d-27d2b419a3f7 -->
+
+The Curator role is held jointly by Soter Labs and Steakhouse Financial through the Curator Multisig at `0x622E19d6903BD4507cfc70b31d5B99535114C0FC`.
+
+The co-curator addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0xbCc126c3b6E2EbF0C895bb38c96D8afbEC126Ab3` |
+| Steakhouse Financial | `0x827e86072B06674a077f592A531dcE4590aDeCdB` |
+
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.5 - Sentinel Role Address [Core]  <!-- UUID: 8739171a-bdbb-437c-bc2b-b081bce4e1c7 -->
+
+The Sentinel role is held by Soter Labs at `0xB597026150552bB3F6092aC685A2241C5FA77Ed0`.
+
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.2.6 - Allocator Role Addresses [Core]  <!-- UUID: 278046bb-da04-46ce-8f9a-26557298522a -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial | `0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8` |
+| Steakhouse Financial | `0x1be9b8C406120B2c2b8990d0522cD226A3D60e36` |
+| Morpho Blue Public Allocator | `0xAED282B8aD9257BB1272e93aE63A32A53621e412` |
+| Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
+| Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
+
 ###### A.6.1.1.2.2.6.1.3.3.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 80c5532f-a7c9-4f7e-9a33-6f10cd7f4af8 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
@@ -9077,8 +9237,8 @@ The current `maxAmount` and `slope` for this conduit’s inflow and outflow are 
 
 The deposit rate limits are:
 
-- `maxAmount`: 20,000,000 USDC
-- `slope`: 20,000,000 USDC per day
+- `maxAmount`: 100,000,000 USDC
+- `slope`: 100,000,000 USDC per day
 
 ###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3c8ca674-d0d1-43e8-a76d-b2fb07db3447 -->
 

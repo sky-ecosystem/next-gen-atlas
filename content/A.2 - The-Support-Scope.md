@@ -1091,11 +1091,19 @@ The Tracking Methodology for CoW Swap on the Ethereum Mainnet is the same as the
 
 The Tracking Methodology for Base is to specify the Reward Code as a parameter in calls to the Base PSM contract. Conversions from USDS or USDC to sUSDS are considered "deposits" and net deposits are calculated using an approach similar to that on Ethereum Mainnet.
 
-###### A.2.2.9.1.2.1.1.2.4 - Alternative Tracking Methodologies [Core]  <!-- UUID: 5eba1c21-4e93-4a0a-aa10-e99bcfa65f16 -->
+###### A.2.2.9.1.2.1.1.2.4 - Arbitrum Tracking Methodology [Core]  <!-- UUID: 92beb324-1782-444d-a520-7956987c2a51 -->
+
+The Tracking Methodology for Arbitrum is to specify the Reward Code as a parameter in calls to the Arbitrum PSM contract. Conversions from USDS or USDC to sUSDS are considered "deposits" and net deposits are calculated using an approach similar to that on Ethereum Mainnet.
+
+###### A.2.2.9.1.2.1.1.2.5 - Optimism Tracking Methodology [Core]  <!-- UUID: 4a02722d-91a1-43df-8657-7b9356f79550 -->
+
+The Tracking Methodology for Optimism is to specify the Reward Code as a parameter in calls to the Optimism PSM contract. Conversions from USDS or USDC to sUSDS are considered "deposits" and net deposits are calculated using an approach similar to that on Ethereum Mainnet.
+
+###### A.2.2.9.1.2.1.1.2.6 - Alternative Tracking Methodologies [Core]  <!-- UUID: 5eba1c21-4e93-4a0a-aa10-e99bcfa65f16 -->
 
 The Tracking Methodologies specified above are not exclusive. Prime Agents and Operational GovOps can develop additional Tracking Methodologies, so long as those methodologies reasonably estimate USDS balances that are attributable to the holder of the Reward Code and there is no possibility that the same USDS balances could be "double counted" for multiple Reward Code holders. Tracking methodologies must be based on either (1) on-chain data or (2) off-chain data that can be independently verified or attested to by a third party.
 
-###### A.2.2.9.1.2.1.1.2.5 - Lifetime [Core]  <!-- UUID: c0b77312-5e88-4311-bfe2-d95a1a2c5a7c -->
+###### A.2.2.9.1.2.1.1.2.7 - Lifetime [Core]  <!-- UUID: c0b77312-5e88-4311-bfe2-d95a1a2c5a7c -->
 
 USDS balances are eligible for a Distribution Reward for a period of ten (10) years from the date of the event marking the USDS balance with the Reward Code. The date of the marking event is determined based on the Primitive Instance’s specified Tracking Methodology.
 
@@ -1110,6 +1118,7 @@ The following Prime Agents are allocated reserved ranges of Reward Codes for use
 - Skybase: `0`, `1`, and `1000`–`1999`
 - Spark: `2`–`999`
 - Grove: `2000`–`2999`
+- Osero: `3000`–`3999`
 - Keel: `4000`–`4999`
 
 ###### A.2.2.9.1.2.1.2 - Distribution Reward Rate [Core]  <!-- UUID: 57384c49-e499-4c69-b22c-8e1f1dd34759 -->
@@ -3358,7 +3367,13 @@ The ERC-4626 Facet (`ERC4626Facet`) deposits, withdraws, and redeems against any
 
 ###### A.2.2.10.1.1.1.2.3.1.2.7.1 - Highest Production Rate Limit For ERC-4626 Facet [Core]  <!-- UUID: 24faa338-1e0b-41fb-b21c-82b12f0d01e4 -->
 
-Further details will be specified in a future iteration of the Atlas.
+The ERC-4626 Facet's highest production rate limit is:
+
+- Deposit
+    - `maxAmount`: 5,000,000 USDC
+    - `slope`: 0 USDC per day
+- Withdraw
+    - `maxAmount`: Unlimited
 
 ###### A.2.2.10.1.1.1.2.3.1.2.8 - ERC-7540 Facet [Core]  <!-- UUID: 83d0bf58-6a92-4873-ba9e-e5a23c8dca1c -->
 
@@ -3589,6 +3604,42 @@ The BeamState's role is as specified in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e3
 
 The Timelock's role is as specified in [A.2.2.10.1.1.1.2.3.1.8 - Timelock](f6791cf7-f3aa-49da-9691-73e480bf3328); its roles and their holders on Arbitrum are as specified in [A.2.2.10.1.1.1.2.4.2.3.2 - Timelock](4d5c2636-e5f6-4ac6-a5e6-9212aed5d825) instead. Its address on Arbitrum is `0x66d3653e66F7edb973549CFA3b46F22298B8f983`.
 
+###### A.2.2.10.1.1.1.2.3.3 - Base [Core]  <!-- UUID: d3fc5cd9-6aca-439a-847a-a440ee6bb2ba -->
+
+The Base deployment of the Liquidity Layer Shared Contracts is defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.3.3.1 - Beacon [Core]  <!-- UUID: eb4e8e2e-2a55-4c67-aa11-d26b07a481d9 -->
+
+The Beacon's role is as specified in [A.2.2.10.1.1.1.2.3.1.1 - Beacon](5b0627e8-102b-42ea-8d9b-38463591faf9). Its address on Base is `0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41`. Its `DEFAULT_ADMIN_ROLE` is currently held by the Spark Executor on Base (`0xF93B7122450A50AF3e5A76E1d546e95Ac1d0F579`). In the Spark Spell included in the November 5, 2026 Executive Vote, the Spark Executor will grant `DEFAULT_ADMIN_ROLE` to the Governance Relay (`0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255`) and revoke its own.
+
+###### A.2.2.10.1.1.1.2.3.3.2 - Facets [Core]  <!-- UUID: 2f52b12c-4e4e-46cf-9682-6e5f219666b2 -->
+
+The Facets currently approved on the Beacon for use by Diamond PAU Instances on Base are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.3.3.2.1 - CCTP Facet [Core]  <!-- UUID: 9bbe1ce3-06fc-46f2-8012-c1d612d1e182 -->
+
+The CCTP Facet's mechanism is as specified in [A.2.2.10.1.1.1.2.3.1.2.3 - CCTP Facet](ce25217f-c37d-4415-b0d6-adecab3c7855). Its address on Base is `0xb22d50c393c6E1D13E3e05B172448dD8BF8DdC32`.
+
+###### A.2.2.10.1.1.1.2.3.3.3 - PAU Factory [Core]  <!-- UUID: 5eaf6c6c-52c0-416d-94e7-b467fe533f73 -->
+
+The PAU Factory's role is as specified in [A.2.2.10.1.1.1.2.3.1.3 - PAU Factory](cc980032-b7e4-41c5-ac4d-2f99f89f51dc). Its address on Base is `0x011A115b5498B85b3d12245A3a7296F77325B5C3`.
+
+###### A.2.2.10.1.1.1.2.3.3.4 - Administered Agent Factory [Core]  <!-- UUID: 102b7264-c4ae-4f36-ad22-bbfc11707e92 -->
+
+The Administered Agent Factory's role is as specified in [A.2.2.10.1.1.1.2.3.1.5 - Administered Agent Factory](833a0750-ff91-4fdc-95a8-af77df301dbc). Its address on Base is `0xD711DbfD937a45e2C89CA0D4781cfa5BAb32e752`.
+
+###### A.2.2.10.1.1.1.2.3.3.5 - Configurator [Core]  <!-- UUID: e5cf7362-7ea2-4a33-8373-565d56c7da67 -->
+
+The Configurator's role is as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c); its operation on Base is as specified in [A.2.2.10.1.1.1.2.4.3.4 - Configurator](b8929202-92c3-4bbb-89c4-7dc73e557105) instead. Its address on Base is `0x458Acd38fD749F6325039e63e8Bc496dBc286D11`.
+
+###### A.2.2.10.1.1.1.2.3.3.6 - BeamState [Core]  <!-- UUID: ee66bdd5-5344-41e6-8063-c899d22e7f42 -->
+
+The BeamState's role is as specified in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129); its rules on Base are as specified in [A.2.2.10.1.1.1.2.4.3.3 - BeamState](36e7a9f1-1561-47b7-9478-e68c8c0a2d5a) instead. Its address on Base is `0x29840a8519013F483d94781b5C1671b552A109e1`.
+
+###### A.2.2.10.1.1.1.2.3.3.7 - Timelock [Core]  <!-- UUID: 72b0384e-0151-44f8-bd0f-c5d90d0fb037 -->
+
+The Timelock's role is as specified in [A.2.2.10.1.1.1.2.3.1.8 - Timelock](f6791cf7-f3aa-49da-9691-73e480bf3328); its roles and their holders on Base are as specified in [A.2.2.10.1.1.1.2.4.3.3.2 - Timelock](f890a7c2-17c0-4db4-9f73-f7c078a1061f) instead. Its address on Base is `0x2ACADc011b4fc13072F92231D1216c16deac5188`.
+
 ###### A.2.2.10.1.1.1.2.4 - PAS [Core]  <!-- UUID: 989171ed-5424-42ee-83f4-199e1149699c -->
 
 The PAS (Parallelized Allocation System) is a permissioned layer that lets cBEAMs operate a Diamond PAU's rate limits and enabled controller actions, within the bounds BeamState sets, without direct administrative control over the Diamond PAU.
@@ -3600,7 +3651,7 @@ The PAS consists of the following contracts:
 - Timelock: delays certain Core Council Multisig changes to BeamState's registries and bounds before they take effect.
 - PASMom: the PAS's emergency stop-and-pause switch, deployed on Ethereum Mainnet only.
 
-BeamState, the Configurator, and the Timelock are each deployed independently per chain. A Diamond PAU on a given chain is governed by that chain's own PAS deployment, with its own Timelock and registries, overseen by the same Core Council Multisig across all chains. Each chain's PAS deployment is defined in the subdocuments herein. For the emergency path itself, see [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
+BeamState, the Configurator, and the Timelock are each deployed independently per chain. A Diamond PAU on a given chain is governed by that chain's own PAS deployment, with its own Timelock and registries, overseen by that chain's deployment of the Core Council Multisig. Each chain's PAS deployment is defined in the subdocuments herein. For the emergency path itself, see [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71).
 
 ###### A.2.2.10.1.1.1.2.4.1 - Ethereum Mainnet [Core]  <!-- UUID: 9138461b-bff3-4c2e-8051-6e2f0401dc8a -->
 
@@ -3701,6 +3752,8 @@ Operational GovOps Soter Labs and the Core Facilitator can change the signers of
 - five (5) signers are required to execute transactions;
 - four (4) signers are controlled by Operational GovOps Soter Labs; and
 - two (2) signers are controlled by the Core Facilitator.
+
+These requirements apply on every network on which the Core Council Multisig is deployed, and a change to the signers or the required number of signers must be made on each of them.
 
 ###### A.2.2.10.1.1.1.2.4.1.3.2 - Timelock [Core]  <!-- UUID: a824d088-be58-4163-b382-54a95a728103 -->
 
@@ -3880,7 +3933,7 @@ The Controller for the Grove Diamond PAU, as specified in [A.6.1.1.2.2.6.1.2.1.1
 
 ###### A.2.2.10.1.1.1.2.4.1.4.4.2 - Controller For The Osero Diamond PAU [Core]  <!-- UUID: ee79ef13-d1ae-4fc7-9784-a5293c57bfe9 -->
 
-The Controller for the Osero Diamond PAU, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.2 - Controller Contract](8e1d584f-6368-493d-a6c5-c5068250b63a), is not yet registered with the Configurator. No controller actions have been enabled for it.
+The Controller for the Osero Diamond PAU, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.2 - Controller Contract](8e1d584f-6368-493d-a6c5-c5068250b63a), is registered with the Configurator. No controller actions have been enabled for it.
 
 ###### A.2.2.10.1.1.1.2.4.1.5 - Transitional Measures [Core]  <!-- UUID: d5240aa5-72c1-4f92-b22c-7a80a35d733c -->
 
@@ -3932,7 +3985,7 @@ BeamState holds the registries and bounds that govern the Arbitrum PAS, as speci
 
 ###### A.2.2.10.1.1.1.2.4.2.3.1 - Core Council Multisig [Core]  <!-- UUID: 5d26be25-bddc-4ede-8fa4-a092c610103e -->
 
-The Core Council Multisig's authority and process on the Arbitrum PAS are as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), applied to the Arbitrum BeamState and Timelock, except that Arbitrum has no PASMom, as specified in [A.2.2.10.1.1.1.2.4.2.3.2 - Timelock](4d5c2636-e5f6-4ac6-a5e6-9212aed5d825). It is the same multisig as on Ethereum Mainnet: its address, required number of signers, signers, and modification rules are as specified in [A.2.2.10.1.1.1.2.4.1.3.1.1 - Core Council Multisig Address](41157518-ec2f-4c4f-a112-5a1f07fc71dc), [A.2.2.10.1.1.1.2.4.1.3.1.2 - Core Council Multisig Required Number Of Signers](70ce8011-7126-440d-b90d-010a3d97b43f), [A.2.2.10.1.1.1.2.4.1.3.1.3 - Core Council Multisig Signers](366436ae-0bab-4fce-a144-64660ac47366), and [A.2.2.10.1.1.1.2.4.1.3.1.5 - Core Council Multisig Modification](61f08711-db44-4c9f-98ad-f330e729398f).
+The Core Council Multisig's authority and process on the Arbitrum PAS are as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), applied to the Arbitrum BeamState and Timelock, except that Arbitrum has no PASMom, as specified in [A.2.2.10.1.1.1.2.4.2.3.2 - Timelock](4d5c2636-e5f6-4ac6-a5e6-9212aed5d825). It is deployed separately on Arbitrum at the same address as on Ethereum Mainnet, as specified in [A.2.2.10.1.1.1.2.4.1.3.1.1 - Core Council Multisig Address](41157518-ec2f-4c4f-a112-5a1f07fc71dc). Its required number of signers, signers, and modification rules are as specified in [A.2.2.10.1.1.1.2.4.1.3.1.2 - Core Council Multisig Required Number Of Signers](70ce8011-7126-440d-b90d-010a3d97b43f), [A.2.2.10.1.1.1.2.4.1.3.1.3 - Core Council Multisig Signers](366436ae-0bab-4fce-a144-64660ac47366), and [A.2.2.10.1.1.1.2.4.1.3.1.5 - Core Council Multisig Modification](61f08711-db44-4c9f-98ad-f330e729398f).
 
 ###### A.2.2.10.1.1.1.2.4.2.3.1.1 - Core Council Multisig Usage Standards [Core]  <!-- UUID: 9e57ea27-2b98-4eac-8ec0-d83a8b24403f -->
 
@@ -4012,9 +4065,122 @@ This action is enabled specifically for the integration registered to the CCTP F
 
 The Arbitrum PAS launches with the Timelock paused, as a transitional measure, mirroring [A.2.2.10.1.1.1.2.4.1.5 - Transitional Measures](d5240aa5-72c1-4f92-b22c-7a80a35d733c). The same function calls listed there are affected, called on the Arbitrum BeamState and Timelock instead.
 
+###### A.2.2.10.1.1.1.2.4.3 - Base [Core]  <!-- UUID: 2b4706b4-a37f-43bb-a9ed-339c744f20a2 -->
+
+The Base PAS deployment is defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.3.1 - Parameters [Core]  <!-- UUID: 818dfc44-503d-4f25-820d-9df5d8e8fe82 -->
+
+The `hop` and `maxChange` mechanisms, and the locked-unlimited rate limit definition, are as specified in [A.2.2.10.1.1.1.2.4.1.1 - Parameters](422e200e-2a94-4bde-b718-328ff82d3bb8) and its subdocuments. The default values for Base are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.3.1.1 - Hop Default Value [Core]  <!-- UUID: eec7a3cd-ec19-421e-9cc5-e4b1d0e051d4 -->
+
+All `RateLimits` contracts on Base use a single, shared `hop` value unless the Core Council Multisig or an Executive Vote sets one specifically for a given contract. That shared value is 57,600 seconds (16 hours).
+
+###### A.2.2.10.1.1.1.2.4.3.1.2 - Max Change Default Value [Core]  <!-- UUID: ee33adfa-ad78-4161-b1bd-0703073c0ef4 -->
+
+All `RateLimits` contracts on Base use a single, shared `maxChange` value unless the Core Council Multisig or an Executive Vote sets one specifically for a given contract. That shared value is 1.20.
+
+###### A.2.2.10.1.1.1.2.4.3.2 - Enabled Diamond PAUs [Core]  <!-- UUID: 91731ccf-8a71-4c3f-a5d5-107dbf690478 -->
+
+The Diamond PAUs on Base with the Configurator enabled are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.3.2.1 - Spark Diamond PAU [Core]  <!-- UUID: e30ab84f-80f9-4933-b7f1-98c1adb8a001 -->
+
+In the Spark Spell included in the November 5, 2026 Executive Vote, the Spark Executor on Base will grant the Configurator `DEFAULT_ADMIN_ROLE` on the Spark Diamond PAU `AccessControls` and `RateLimits` contracts on Base. The Spark Diamond PAU `RateLimits` contract is paired to the Operator specified in [A.2.2.10.1.1.1.2.4.3.4.3.1 - Operator For The Spark Diamond PAU](085bf98e-d355-45b9-abc7-eb5ea50a29a4). The bounds within which cBEAMs may adjust rate limits on the Spark Diamond PAU `RateLimits` are:
+
+- `hop`: as specified in [A.2.2.10.1.1.1.2.4.3.1.1 - Hop Default Value](eec7a3cd-ec19-421e-9cc5-e4b1d0e051d4)
+- `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.3.1.2 - Max Change Default Value](ee33adfa-ad78-4161-b1bd-0703073c0ef4)
+
+###### A.2.2.10.1.1.1.2.4.3.3 - BeamState [Core]  <!-- UUID: 36e7a9f1-1561-47b7-9478-e68c8c0a2d5a -->
+
+BeamState holds the registries and bounds that govern the Base PAS, as specified in [A.2.2.10.1.1.1.2.4.1.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4). The documents herein define the Core Council Multisig that may change BeamState's rules, the Timelock that delays certain changes, the delayed and immediate processes for making them, and how Configurator operations are halted and restarted, for the Base deployment. Its address is specified in [A.2.2.10.1.1.1.2.3.3.6 - BeamState](ee66bdd5-5344-41e6-8063-c899d22e7f42).
+
+###### A.2.2.10.1.1.1.2.4.3.3.1 - Core Council Multisig [Core]  <!-- UUID: b696d4cd-c52b-4748-b76f-179f7a164ceb -->
+
+The Core Council Multisig's authority and process on the Base PAS are as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), applied to the Base BeamState and Timelock, except that Base has no PASMom, as specified in [A.2.2.10.1.1.1.2.4.3.3.2 - Timelock](f890a7c2-17c0-4db4-9f73-f7c078a1061f). It is deployed separately on Base at the same address as on Ethereum Mainnet, as specified in [A.2.2.10.1.1.1.2.4.1.3.1.1 - Core Council Multisig Address](41157518-ec2f-4c4f-a112-5a1f07fc71dc). Its required number of signers, signers, and modification rules are as specified in [A.2.2.10.1.1.1.2.4.1.3.1.2 - Core Council Multisig Required Number Of Signers](70ce8011-7126-440d-b90d-010a3d97b43f), [A.2.2.10.1.1.1.2.4.1.3.1.3 - Core Council Multisig Signers](366436ae-0bab-4fce-a144-64660ac47366), and [A.2.2.10.1.1.1.2.4.1.3.1.5 - Core Council Multisig Modification](61f08711-db44-4c9f-98ad-f330e729398f).
+
+###### A.2.2.10.1.1.1.2.4.3.3.1.1 - Core Council Multisig Usage Standards [Core]  <!-- UUID: c4666cda-ec0d-4353-b3a1-42b74670bdcb -->
+
+The signers of the Core Council Multisig must use the multisig in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.3.3.3 - Delayed Function Calls](57e8561a-110b-472b-82ec-161f444a3543) and [A.2.2.10.1.1.1.2.4.3.3.4 - Immediate Function Calls](ac24b08e-fa8d-4522-a5e7-bad37c6fd115).
+
+###### A.2.2.10.1.1.1.2.4.3.3.2 - Timelock [Core]  <!-- UUID: f890a7c2-17c0-4db4-9f73-f7c078a1061f -->
+
+The Timelock's mechanism is as specified in [A.2.2.10.1.1.1.2.4.1.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103). The minimum delay is fourteen (14) days. The Timelock launches paused, as a transitional measure, as specified in [A.2.2.10.1.1.1.2.4.3.5 - Transitional Measures](9f398df8-0484-4c16-8cb9-8d7b04a8b531). Its address is specified in [A.2.2.10.1.1.1.2.3.3.7 - Timelock](72b0384e-0151-44f8-bd0f-c5d90d0fb037).
+
+The Timelock's `PROPOSER_ROLE` and `CANCELLER_ROLE` are held by the Core Council Multisig. Base has no PASMom equivalent, so no address holds the Timelock's `PAUSER_ROLE`; Sky Governance's emergency halt instead relies on the Core Council Multisig calling BeamState's `stop()` directly, as an immediate action, or, if the Core Council Multisig is itself unavailable, a Sky Core Spell relayed to Base. The Timelock's `DEFAULT_ADMIN_ROLE`, which can grant and revoke its other roles and change its minimum delay, is held by Sky Governance through the Governance Relay (`0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255`). If the Core Council Multisig itself is compromised or acting maliciously, Sky Governance can use this `DEFAULT_ADMIN_ROLE` to grant itself the Timelock's `PAUSER_ROLE` and pause it directly, via a Sky Core Spell relayed to Base.
+
+###### A.2.2.10.1.1.1.2.4.3.3.3 - Delayed Function Calls [Core]  <!-- UUID: 57e8561a-110b-472b-82ec-161f444a3543 -->
+
+The same delayed function calls apply as specified in [A.2.2.10.1.1.1.2.4.1.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb) and its subdocuments, called on the Base BeamState and Timelock.
+
+###### A.2.2.10.1.1.1.2.4.3.3.4 - Immediate Function Calls [Core]  <!-- UUID: ac24b08e-fa8d-4522-a5e7-bad37c6fd115 -->
+
+The same immediate function calls apply as specified in [A.2.2.10.1.1.1.2.4.1.3.4 - Immediate Function Calls](2c82cfd0-7a9a-464f-844d-ebc43b31c2a6) and its subdocuments, called on the Base BeamState, except that `stop()` cannot be triggered by PASMom on Base, as specified in [A.2.2.10.1.1.1.2.4.3.3.2 - Timelock](f890a7c2-17c0-4db4-9f73-f7c078a1061f).
+
+###### A.2.2.10.1.1.1.2.4.3.3.5 - Restart After Halt [Core]  <!-- UUID: c349e09d-56ef-4993-8b9e-cd573056ef57 -->
+
+Restarting Configurator operations after a halt follows the same process as specified in [A.2.2.10.1.1.1.2.4.1.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b), applied to the Base BeamState and Timelock, except that Base has no PASMom, as specified in [A.2.2.10.1.1.1.2.4.3.3.2 - Timelock](f890a7c2-17c0-4db4-9f73-f7c078a1061f), and the Transitional Measures referenced there are the Base chain's own, as specified in [A.2.2.10.1.1.1.2.4.3.5 - Transitional Measures](9f398df8-0484-4c16-8cb9-8d7b04a8b531).
+
+###### A.2.2.10.1.1.1.2.4.3.4 - Configurator [Core]  <!-- UUID: b8929202-92c3-4bbb-89c4-7dc73e557105 -->
+
+The Configurator's mechanism on the Base PAS is as specified in [A.2.2.10.1.1.1.2.4.1.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d). The documents herein define how an Operator exercises its adjustments, its public communication obligation, and the Operators and Controllers registered to the Base Configurator. Its address is specified in [A.2.2.10.1.1.1.2.3.3.5 - Configurator](e5cf7362-7ea2-4a33-8373-565d56c7da67).
+
+###### A.2.2.10.1.1.1.2.4.3.4.1 - Operator Execution [Core]  <!-- UUID: 56da9559-54be-4fb5-b39d-8c31c4aeed67 -->
+
+Operator execution on the Base Configurator follows the same process as specified in [A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960).
+
+###### A.2.2.10.1.1.1.2.4.3.4.2 - Public Communication [Core]  <!-- UUID: 564d45c1-f02d-4c37-a5fe-76bfc91d44fe -->
+
+The public communication obligation for Base Operators is as specified in [A.2.2.10.1.1.1.2.4.1.4.2 - Public Communication](e1a96b57-9c5e-469f-b7ac-5dac028eb726).
+
+###### A.2.2.10.1.1.1.2.4.3.4.3 - Registered Operators [Core]  <!-- UUID: aa5f4ab8-55dc-4d9e-982f-dd349cdf19c7 -->
+
+The Operators registered to the Base Configurator are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.3.4.3.1 - Operator For The Spark Diamond PAU [Core]  <!-- UUID: 085bf98e-d355-45b9-abc7-eb5ea50a29a4 -->
+
+The Spark Diamond PAU's Operator, the cBEAM authorized to adjust the Diamond PAU's rate limits through the Configurator, is the Spark Operator Multisig, as specified in the documents herein.
+
+###### A.2.2.10.1.1.1.2.4.3.4.3.1.1 - Spark Operator Multisig Address [Core]  <!-- UUID: d4539884-c7e3-44ee-b487-fc6523762218 -->
+
+The address of the Spark Operator Multisig on Base is `0x492aae70E59551768BAF3c7159d3f951B6ed76Fe`.
+
+###### A.2.2.10.1.1.1.2.4.3.4.3.1.2 - Spark Operator Multisig Required Number Of Signers [Core]  <!-- UUID: 23ae088d-52b0-4321-bc54-dadac65afdf1 -->
+
+The Spark Operator Multisig's required number of signers is two (2) out of three (3).
+
+###### A.2.2.10.1.1.1.2.4.3.4.3.1.3 - Spark Operator Multisig Signers [Core]  <!-- UUID: 6a4be9f0-7e59-4a0a-a416-c86817aa7424 -->
+
+The signers of the Spark Operator Multisig are controlled by Operational GovOps Soter Labs.
+
+###### A.2.2.10.1.1.1.2.4.3.4.3.1.4 - Spark Operator Multisig Usage Standards [Core]  <!-- UUID: 2a837abe-b271-49cc-b4dc-397b26f1a950 -->
+
+The signers of the Spark Operator Multisig must use the multisig to operate the Configurator in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.3.4.1 - Operator Execution](56da9559-54be-4fb5-b39d-8c31c4aeed67) and [A.2.2.10.1.1.1.2.4.3.4.2 - Public Communication](564d45c1-f02d-4c37-a5fe-76bfc91d44fe).
+
+###### A.2.2.10.1.1.1.2.4.3.4.3.1.5 - Spark Operator Multisig Modification [Core]  <!-- UUID: e865b4b0-5f2e-4d9c-8960-4828ba3b4973 -->
+
+Operational GovOps Soter Labs can change the signers of the Spark Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
+
+###### A.2.2.10.1.1.1.2.4.3.4.4 - Registered Controllers [Core]  <!-- UUID: 62d63bd5-ffa8-427e-b2d4-fca4306dc091 -->
+
+The Controllers registered to the Base Configurator, and the controller actions enabled for each, are defined in the subdocuments herein.
+
+###### A.2.2.10.1.1.1.2.4.3.4.4.1 - Controller For The Spark Diamond PAU [Core]  <!-- UUID: e8c51802-a127-419f-a36d-b5435bcd1004 -->
+
+The Controller for the Spark Diamond PAU, at address `0xd864bF1Ea2f78Dc2013E3FC7e4C474383BE9d456` on Base, is registered with the Configurator. The following controller actions are enabled:
+
+- `removeIntegrations`
+
+This action is enabled specifically for the integration registered to the CCTP Facet, as specified in [A.2.2.10.1.1.1.2.3.3.2.1 - CCTP Facet](9bbe1ce3-06fc-46f2-8012-c1d612d1e182).
+
+###### A.2.2.10.1.1.1.2.4.3.5 - Transitional Measures [Core]  <!-- UUID: 9f398df8-0484-4c16-8cb9-8d7b04a8b531 -->
+
+The Base PAS launches with the Timelock paused, as a transitional measure, mirroring [A.2.2.10.1.1.1.2.4.1.5 - Transitional Measures](d5240aa5-72c1-4f92-b22c-7a80a35d733c). The same function calls listed there are affected, called on the Base BeamState and Timelock instead.
+
 ###### A.2.2.10.1.1.1.2.5 - Liquidity Layer Operational Processes [Core]  <!-- UUID: 3b387169-c279-4d0f-918c-e6c424c6ea2c -->
 
-The documents herein define the operational processes of the Diamond PAU implementation of the Allocation System — including the addition and removal of Facets approved on the Beacon, the functions performed through the Controller, and the management of rate limits.
+The documents herein define the operational processes of the Diamond PAU implementation of the Allocation System — including the addition and removal of Facets approved on the Beacon, the functions performed through the Controller, the management of rate limits, and the actions available in an emergency.
 
 ###### A.2.2.10.1.1.1.2.5.1 - Facet Management [Core]  <!-- UUID: 892588a3-c9ca-407d-a3d7-bbb25a57d4c6 -->
 
@@ -4062,7 +4228,7 @@ Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd
 
 ###### A.2.2.10.1.1.1.2.5.2.1.2.2 - Rate Limit [Core]  <!-- UUID: b900fd43-5f7c-438f-a1dd-0e89db98f4db -->
 
-The burning of USDS is subject to the on-chain rate limit identified by `LIMIT_USDS_BURN`. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. The burn additionally increases the `LIMIT_USDS_MINT` rate limit by the same amount, where that rate limit is configured, restoring minting capacity.
+The burning of USDS is subject to the on-chain rate limit identified by `LIMIT_USDS_BURN`. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. The burn additionally increases the `LIMIT_USDS_MINT` rate limit by the same amount, where that rate limit is configured, restoring minting capacity up to the rate limit's `maxAmount`, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5) and its subdocuments.
 
 ###### A.2.2.10.1.1.1.2.5.2.1.2.3 - Burn USDS From ALM Proxy [Core]  <!-- UUID: feace76a-e48a-42da-8732-74bbf55c530f -->
 
@@ -4170,7 +4336,7 @@ Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd
 
 ###### A.2.2.10.1.1.1.2.5.2.4.2.2 - Rate Limit [Core]  <!-- UUID: b489a966-f631-429d-85da-cb6258f001c9 -->
 
-The swap is subject to the on-chain rate limit identified by `LIMIT_USDC_TO_USDS`. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. The swap additionally increases the `LIMIT_USDS_TO_USDC` rate limit by the same amount, where that rate limit is configured, restoring capacity in the opposite swap direction.
+The swap is subject to the on-chain rate limit identified by `LIMIT_USDC_TO_USDS`. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. The swap additionally increases the `LIMIT_USDS_TO_USDC` rate limit by the same amount, where that rate limit is configured, restoring capacity in the opposite swap direction, up to the rate limit's `maxAmount`, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5) and its subdocuments.
 
 ###### A.2.2.10.1.1.1.2.5.2.4.2.3 - Swap USDC For USDS [Core]  <!-- UUID: fa1364a3-081c-4327-8ef4-637a3fdd1105 -->
 
@@ -4416,6 +4582,38 @@ function triggerRateLimitIncrease(bytes32 key, uint256 amountToIncrease)
 }
 ```
 
+###### A.2.2.10.1.1.1.2.5.4 - Emergency Protocol [Core]  <!-- UUID: 874320e8-e7dd-430d-a1f4-30595aee6a9d -->
+
+The documents herein define the actions that can be taken in the event of an emergency within a Diamond PAU Instance's operations.
+
+###### A.2.2.10.1.1.1.2.5.4.1 - General Emergency Protocol [Core]  <!-- UUID: 5f5d6baf-6f74-455c-8f47-21f2f700a5b3 -->
+
+The documents herein define emergency actions that apply to a Diamond PAU Instance generally, rather than to a specific Facet.
+
+###### A.2.2.10.1.1.1.2.5.4.1.1 - Remove Compromised Actor As Freezer [Core]  <!-- UUID: 39b320a8-240c-487d-9c72-25b8a2457a4b -->
+
+In the event of a compromised or malicious Actor, the Freezer Multisig — registered as a Revoker on the AdministeredAgent, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e) — removes that Actor by calling `removeActor` on the AdministeredAgent contract. Removing the Actor prevents it from submitting further operations, while the Allocator Role itself remains with the AdministeredAgent. This action should only be taken if a Relayer Multisig's keys have been leaked or compromised and the Actor is in the control of an external bad actor.
+
+###### A.2.2.10.1.1.1.2.5.4.2 - Facet Specific Emergency Protocol [Core]  <!-- UUID: fd0fdef3-ab2b-4e65-b0cb-c0de810e21b0 -->
+
+The documents herein define emergency actions specific to a single Facet.
+
+###### A.2.2.10.1.1.1.2.5.4.2.1 - Withdraw All Positions From Aave v3 Facet [Core]  <!-- UUID: 7ba1cc79-9a9f-460c-85b8-72181788397f -->
+
+In the event that liquidity must be recovered from an Aave v3 market and centralized in the associated ALM Proxy, a Relayer Multisig, acting as an Actor, withdraws the Liquidity Layer's full position in that market through the Aave v3 Facet, as specified in [A.2.2.10.1.1.1.2.5.2.2.2 - Withdraw From Aave v3 Market](038eaa5c-d4c0-4a56-8d30-bc3a04508f0e). If the recovered asset is USDC rather than USDS, it is swapped to USDS through the PSM Facet, as specified in [A.2.2.10.1.1.1.2.5.2.4.2 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959). The recovered USDS is then repaid and burned through the USDS Facet, as specified in [A.2.2.10.1.1.1.2.5.2.1.2 - Burn USDS](f01e63b7-dde7-422a-89a1-6931839d49f5).
+
+###### A.2.2.10.1.1.1.2.5.4.2.2 - Withdraw All Positions From ERC-4626 Facet [Core]  <!-- UUID: 1dd13ef2-ee4a-4487-8fc3-0e9d83a3bbd1 -->
+
+In the event that liquidity must be recovered from an ERC-4626 vault Instance and centralized in the associated ALM Proxy, a Relayer Multisig, acting as an Actor, redeems the Liquidity Layer's full vault share balance through the ERC-4626 Facet by calling the `erc4626_redeem` function on the Diamond PAU Controller, as specified in [A.2.2.10.1.1.1.2.5.2.6.3 - Redeem From ERC-4626 Vault](36511d72-f1b3-479d-b0e9-445fdb960987). If the recovered asset is USDC rather than USDS, it is swapped to USDS through the PSM Facet, as specified in [A.2.2.10.1.1.1.2.5.2.4.2 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959). The recovered USDS is then repaid and burned through the USDS Facet, as specified in [A.2.2.10.1.1.1.2.5.2.1.2 - Burn USDS](f01e63b7-dde7-422a-89a1-6931839d49f5).
+
+###### A.2.2.10.1.1.1.2.5.4.2.3 - Withdraw All Positions From Basin Facet [Core]  <!-- UUID: 5938897f-e639-4568-8e84-556850a95867 -->
+
+In the event that liquidity must be recovered from a Basin and centralized in the associated ALM Proxy, a Relayer Multisig, acting as an Actor, withdraws the Liquidity Layer's full position from that Basin through the Basin Facet, as specified in [A.2.2.10.1.1.1.2.5.2.3.2 - Withdraw From Basin](8aad3588-6c58-4539-a1e2-46b0e6f97e92). If the recovered asset is USDC rather than USDS, it is swapped to USDS through the PSM Facet, as specified in [A.2.2.10.1.1.1.2.5.2.4.2 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959). The recovered USDS is then repaid and burned through the USDS Facet, as specified in [A.2.2.10.1.1.1.2.5.2.1.2 - Burn USDS](f01e63b7-dde7-422a-89a1-6931839d49f5).
+
+###### A.2.2.10.1.1.1.2.5.4.2.4 - Withdraw All Positions From Uniswap v3 Facet [Core]  <!-- UUID: fa303993-b430-45d4-a284-b8fce6b239b3 -->
+
+In the event that liquidity must be recovered from a Uniswap v3 pool and centralized in the associated ALM Proxy, a Relayer Multisig, acting as an Actor, removes the Liquidity Layer's full liquidity from each open position in that pool through the Uniswap v3 Facet, as specified in [A.2.2.10.1.1.1.2.5.2.5.2.3 - Remove Liquidity From Uniswap v3 Position](315b3614-18bb-4ca0-b1c7-3459fd449ad8). If a recovered asset is USDC, it is swapped to USDS through the PSM Facet, as specified in [A.2.2.10.1.1.1.2.5.2.4.2 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959), and then repaid and burned through the USDS Facet, as specified in [A.2.2.10.1.1.1.2.5.2.1.2 - Burn USDS](f01e63b7-dde7-422a-89a1-6931839d49f5). Consolidating a recovered asset that is neither USDC nor USDS will be specified in a future iteration of the Atlas.
+
 ###### A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework [Core]  <!-- UUID: 915a36c0-754c-41f9-ada1-2fec0816f7b8 -->
 
 The documents herein define the requirements for Morpho vaults used by Prime Agents to deploy capital through the Allocation System Primitive.
@@ -4424,10 +4622,18 @@ The documents herein define the requirements for Morpho vaults used by Prime Age
 
 Morpho vaults must use the following role configuration:
 
-- The Owner role must be held by the relevant Prime Agent's SubProxy.
+- The Owner role must be held by the relevant Prime Agent's SubProxy or, on another blockchain, by its governance Executor acting on instructions relayed from that SubProxy.
 - The Curator role must be held by a Multisig jointly controlled by the Operational Executor Agent and either the relevant Prime Agent or an external curator. The Multisig must require a 2 of 2 signer approval threshold.
 - The Allocator role may be held by an externally owned account or Multisig controlled by the relevant Prime Agent or an external curator, or by the Morpho Public Allocator contract. Where the Morpho Public Allocator contract holds the Allocator role, any emergency action that withdraws vault assets from a market must also set the Public Allocator's caps for that market to zero, so that the Public Allocator cannot reallocate assets back into that market.
 - The Sentinel role must be held by at least one (1) address controlled by the Operational Executor Agent, using a signer set separate from the signer set controlling the Curator role. Additional Sentinel addresses may be designated. These additional Sentinel addresses are recommended but not required, and no restriction applies to who may control them. Any automated monitoring solution serving as a Sentinel must be capable of automatically revoking pending actions when it detects a threat.
+
+###### A.2.2.10.1.1.1.3.1.1 - Permissioned Role Records [Core]  <!-- UUID: d1d1ee0e-4d57-4c01-8fad-ea360b5bee03 -->
+
+For each Morpho vault used by a Prime Agent, the relevant Instance Configuration Document must specify each permissioned role, the entity or entities holding that role, and each corresponding on-chain address. Where a role has multiple holders, each holder must be recorded separately. Where a role is held by a permissionless contract without a controlling entity, the record must identify that contract and its address.
+
+Where the Curator role is held by a Multisig jointly controlled by multiple entities, the record must distinguish the address of the Curator Multisig from the co-curator address controlled by each participating entity. The co-curator address may be an externally owned account or a Multisig. Individual signers of an entity's Multisig are not required to be listed.
+
+An approved change to a role holder or address that has not yet been implemented must be distinguished from the current configuration, with its condition for taking effect specified.
 
 ###### A.2.2.10.1.1.1.3.2 - Market Eligibility Requirements [Core]  <!-- UUID: 022092c0-7a70-4b74-94c6-ed1b58f42cd1 -->
 
@@ -4455,29 +4661,35 @@ Lower liquidation loan-to-value tiers are permitted and may result in a lower In
 
 ###### A.2.2.10.1.1.1.3.2.3 - Oracle Requirements [Core]  <!-- UUID: be4f3bc0-70e4-478c-8c86-e889846198e3 -->
 
-The documents herein define oracle requirements for markets used by Morpho vaults.
+The documents herein define oracle requirements for markets used by Morpho vaults. Oracle feeds are the external price sources, such as those provided by Chainlink, RedStone, and Chronicle. They are distinct from the Morpho oracle contract attached to each market, as specified in [A.2.2.10.1.1.1.3.2.3.4 - Morpho Oracle Contract Requirements](8394d47c-af13-4d20-af8e-6441b944c895).
 
 ###### A.2.2.10.1.1.1.3.2.3.1 - Multi-Source Oracle Methodology [Core]  <!-- UUID: 191fbabc-d4e1-4ec4-9ea8-35b80eb809b0 -->
 
-Oracle-based market pricing must use Chainlink, RedStone, and Chronicle as its sources. When all three (3) sources are available and valid, the median of those sources must be used. If only two (2) valid sources are available, the average of those sources must be used. If only one (1) valid source is available, a credible fallback source must be used.
+Oracle-based market pricing must use Chainlink, RedStone, and Chronicle oracle feeds as its sources. When all three (3) sources are available and valid, the median of those sources must be used. If only two (2) valid sources are available, the average of those sources must be used. If only one (1) valid source is available, a credible fallback source must be used.
+
+###### A.2.2.10.1.1.1.3.2.3.1.1 - Temporary Single-Source Oracle Exception [Core]  <!-- UUID: 079d2e2c-fa22-4f3c-a929-82d45af38097 -->
+
+Single-source Chainlink oracle feeds may be used temporarily for a major collateral asset. Such a configuration should migrate toward the [A.2.2.10.1.1.1.3.2.3.1 - Multi-Source Oracle Methodology](191fbabc-d4e1-4ec4-9ea8-35b80eb809b0), following the structure used by SparkLend and on a schedule coordinated with the affected Prime Agent to avoid unnecessary operational disruption.
 
 ###### A.2.2.10.1.1.1.3.2.3.2 - Eligible Collateral Oracle Methodologies [Core]  <!-- UUID: fe7c0ccf-c570-471a-815a-6b4b9cda5e29 -->
 
-The following pricing methods apply to eligible collateral assets and must comply with the [A.2.2.10.1.1.1.3.2.3.1 - Multi-Source Oracle Methodology](191fbabc-d4e1-4ec4-9ea8-35b80eb809b0) for any market-pricing component:
+The following pricing methods apply to eligible collateral assets and must comply with the [A.2.2.10.1.1.1.3.2.3.1 - Multi-Source Oracle Methodology](191fbabc-d4e1-4ec4-9ea8-35b80eb809b0) for any price taken from oracle feeds:
 
-- ETH: oracle market pricing.
-- cbBTC: BTC oracle market pricing.
-- stETH: the wstETH-to-ETH contract exchange rate multiplied by the ETH oracle market price.
-- WBTC: oracle market pricing.
-- sUSDS: the sUSDS-to-USDS contract exchange rate multiplied by the USDS oracle market price.
+- ETH: the ETH price from oracle feeds.
+- cbBTC: the BTC price from oracle feeds.
+- stETH: the wstETH-to-ETH contract exchange rate multiplied by the ETH price from oracle feeds.
+- WBTC: the WBTC price from oracle feeds.
+- sUSDS: the sUSDS-to-USDS contract exchange rate multiplied by the USDS price from oracle feeds.
 
-###### A.2.2.10.1.1.1.3.2.3.3 - Temporary Single-Source Oracle Exception [Core]  <!-- UUID: 079d2e2c-fa22-4f3c-a929-82d45af38097 -->
+Where a method combines a contract exchange rate with a price from oracle feeds, as for stETH and sUSDS, the combination is computed within the Morpho oracle contract, which must meet [A.2.2.10.1.1.1.3.2.3.4 - Morpho Oracle Contract Requirements](8394d47c-af13-4d20-af8e-6441b944c895).
 
-A single-source Chainlink oracle may be used temporarily for a major collateral asset. Such a configuration should migrate toward the [A.2.2.10.1.1.1.3.2.3.1 - Multi-Source Oracle Methodology](191fbabc-d4e1-4ec4-9ea8-35b80eb809b0), following the structure used by SparkLend and on a schedule coordinated with the affected Prime Agent to avoid unnecessary operational disruption.
-
-###### A.2.2.10.1.1.1.3.2.3.4 - New Collateral Oracle Approval [Core]  <!-- UUID: c7723797-b2c8-4334-a185-592797456f87 -->
+###### A.2.2.10.1.1.1.3.2.3.3 - New Collateral Oracle Approval [Core]  <!-- UUID: c7723797-b2c8-4334-a185-592797456f87 -->
 
 The oracle methodology for any new collateral asset requires due diligence and approval by the [A.0.1.1.46 - Core Council](5a03a0c4-a47a-409c-9b23-52ac93e63d45) before adoption.
+
+###### A.2.2.10.1.1.1.3.2.3.4 - Morpho Oracle Contract Requirements [Core]  <!-- UUID: 8394d47c-af13-4d20-af8e-6441b944c895 -->
+
+A Morpho oracle contract is the contract attached to a Morpho market that reads one or more oracle feeds and provides the resulting price to the market. It is distinct from the oracle feeds it reads. A Morpho oracle contract may implement custom logic, provided that it has been audited.
 
 ###### A.2.2.10.1.1.1.3.2.4 - Interest Rate Requirements [Core]  <!-- UUID: 4d30ef6e-bed6-4abd-b6dd-7c748e9d7ef1 -->
 
@@ -4540,6 +4752,10 @@ Following that deadline, noncompliant Morpho vault allocations are subject to th
 ###### A.2.2.10.1.1.1.3.5.1 - Grove Exception [Core]  <!-- UUID: d0c9f234-cc27-4575-86c5-3c2affb285af -->
 
 For Grove's Morpho vault exposure, the deadline specified in [A.2.2.10.1.1.1.3.5 - Transition And Compliance](41824fb1-a4e0-4f58-9095-0b3e646fb42c) is extended by three (3) days beyond the execution of the October 8, 2026 Executive Vote, to account for daily rate limits on migrating that exposure to compliant vaults.
+
+###### A.2.2.10.1.1.1.3.5.2 - Spark Exception [Core]  <!-- UUID: 33e0e235-0031-4b44-9f56-c19df46daa02 -->
+
+For Spark's Morpho vault exposure, and only for compliance with [A.2.2.10.1.1.1.3.3 - Timelock Requirements](1078548f-1086-49d2-bc01-f5727f088e41), the deadline specified in [A.2.2.10.1.1.1.3.5 - Transition And Compliance](41824fb1-a4e0-4f58-9095-0b3e646fb42c) is extended by three (3) weeks beyond the execution of the October 8, 2026 Executive Vote, to account for the timelock changes required on Spark's Morpho vaults. Until that extended deadline, an allocation to a Spark Morpho vault whose only noncompliance is with the Timelock Requirements is not subject to the Instance Financial CRR specified in [A.3.2.2.1.1.1.1.3.8.2 - Noncompliant Morpho Vault Allocations](20aa9663-214b-46f5-8b37-53be387b996b).
 
 ###### A.2.2.10.1.1.1.6 - Security Specifications [Core]  <!-- UUID: 905a0c30-5758-48e8-9006-b52ced11fa42 -->
 
@@ -5512,6 +5728,7 @@ Interest is calculated on utilized USDS. Utilized USDS is the liquidity a Prime 
 - USDS attributable to a Sky Direct Exposure, as specified in [A.2.2.10.1.1.1.1 - Sky Direct Exposures](b3fb8653-8503-4a9e-81b2-5e9f49ad6703)
 - USDS held idle in an AMM pool
 - USDS supplied to a lending pool that is not borrowed from that pool
+- USDS held idle in a Tokenized Treasury Instance
 
 ##### A.2.4.2.1.3 - Netting [Core]  <!-- UUID: e1d1fda8-eac9-4b39-a750-42a2feee6768 -->
 
@@ -6165,6 +6382,12 @@ The founding team of Spark has proposed a cash grant of 865,000 USDS to the Spar
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads.
 
+###### A.2.8.2.2.2.4.5.1.6 - Spark Foundation Grant Authorization: November 2026 [Core]  <!-- UUID: cf767980-b05c-48bc-abc4-0d213728dfe8 -->
+
+The founding team of Spark has proposed a cash grant of 865,000 USDS to the Spark Foundation from Spark's Prime Treasury to cover November 2026 Spark Foundation expenses. Additionally, the founding team of Spark has proposed a grant of 45,000 USDS to the Spark Asset Foundation from Spark's Prime Treasury to cover November 2026 Spark Asset Foundation expenses.
+
+Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads.
+
 ###### A.2.8.2.2.2.4.5.2 - Grove Foundation Grant Authorizations [Core]  <!-- UUID: db86fa15-45c6-4a44-9c2a-652fd3d227b0 -->
 
 The documents herein record Sky Governance authorizations for grants to the Grove Foundation.
@@ -6202,6 +6425,12 @@ The grant authorized in this document was paid to the Grove Foundation Multisig 
 ###### A.2.8.2.2.2.4.5.2.4 - Grove Foundation Grant Authorization: September 2026 [Core]  <!-- UUID: bd2d15af-e32a-4ce9-a7ac-5a5ff1665fd4 -->
 
 The founding team of Grove has proposed a cash grant of 800,000 USDS to the Grove Foundation from Grove's Prime Treasury for September 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
+
+Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payload. The transfer must be made to the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in a Grove Spell included in a Sky Executive Vote unless otherwise agreed by Sky and Grove.
+
+###### A.2.8.2.2.2.4.5.2.5 - Grove Foundation Grant Authorization: October 2026 [Core]  <!-- UUID: 2ffbf166-edd8-4544-810c-d512fd784c8b -->
+
+The founding team of Grove has proposed a cash grant of 800,000 USDS to the Grove Foundation from Grove's Prime Treasury for October 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
 
 Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payload. The transfer must be made to the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in a Grove Spell included in a Sky Executive Vote unless otherwise agreed by Sky and Grove.
 
@@ -6422,7 +6651,7 @@ The subdocuments herein set out the substantive terms of Ecosystem Accord 3.
 
 Keel is eligible for a Pioneer Incentive Pool as specified in [A.2.2.9.3.1.4 - Pioneer Incentive Pool](04edac33-19d5-4a87-a8ab-945a0cd57771).
 
-The Pioneer Incentive Pool is calculated on a monthly basis as the Sky Savings Rate multiplied by all Unrewarded USDS on Solana. Payments are made on a monthly basis from the Demand Side Buffer (see [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) to a Pioneer Incentive Pool wallet controlled by the Pioneer Prime. The address of the Pioneer Incentive Pool wallet on Solana is `8JmDPG5BFQ6gpUPJV9xBixYJLqTKCSNotkXksTmNsQfj`.
+The Pioneer Incentive Pool is calculated on a monthly basis as the Sky Savings Rate multiplied by all Unrewarded USDS on Solana. Payments are made on a monthly basis from the Demand Side Buffer (see [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) to a Pioneer Incentive Pool Multisig controlled by the Pioneer Prime. The address of the Pioneer Incentive Pool Multisig on Solana is `8JmDPG5BFQ6gpUPJV9xBixYJLqTKCSNotkXksTmNsQfj`.
 
 ###### A.2.8.2.3.2.2 - Tokenomics [Core]  <!-- UUID: b0de2330-3678-4852-8c24-ce85445201a7 -->
 
@@ -6701,6 +6930,12 @@ Sky Governance hereby consents to this grant and authorizes the execution of the
 ###### A.2.8.2.7.2.2.3.1.1 - Transfer Of USDS To Skybase Foundation Operational Multisig [Core]  <!-- UUID: c6541e3b-628b-47a6-9f2b-b7b27df7913d -->
 
 The grant authorized in this document was paid to the Skybase Foundation Operational Multisig from the Skybase SubProxy in one (1) transfer of 700,000 USDS, made in a Skybase Spell included in the July 2, 2026 Executive Vote.
+
+###### A.2.8.2.7.2.2.3.2 - Skybase Foundation Grant Authorization: November 2026 [Core]  <!-- UUID: 6567f1e3-7c28-44ee-b46c-723f958b1817 -->
+
+The founding team of Skybase has proposed a cash grant of 900,000 USDS to the Skybase Foundation from Skybase's SubProxy to fund operational costs and partner payouts through the end of 2026, for inclusion in the November 2026 Executive Vote.
+
+Sky Governance hereby consents to this grant. The transfer must be made to the Skybase Foundation Operational Multisig at `0x58B945c8Ce34BD8cEA3Fc0437626F9F87d58A621` in the Sky Core Spell unless otherwise agreed by Sky and Skybase.
 
 #### A.2.8.2.8 - Ecosystem Accord 8: Sky And Amatsu [Core]  <!-- UUID: 9d187ae2-1106-4b43-a6a6-ff54c329d0da -->
 
@@ -7642,9 +7877,9 @@ Payments are denominated in USD. However, payouts are done in USDS assuming a fu
 
 ###### A.2.11.1.1.3.3.2 - Rewards Payout Process [Core]  <!-- UUID: 07f4faa6-f900-46e6-87d4-137fe2e5cb99 -->
 
-All bounty payouts are handled by Sky Governance. Upon confirmation, bug bounty payouts should be included in the next possible Executive Vote. This would involve sending USDS directly from the protocol’s buffer to the whitehat hacker.
+Sky Core bug bounty payouts are paid from the [A.2.3.1.2.2.2.1 - Core Council Buffer](8b6781d7-f35c-4ffe-b8ed-299fa98e3da7). Upon confirmation, the payout is sent in USDS directly from the Core Council Buffer to the whitehat hacker. If the payout exceeds 500,000 USDS or 50% of the USDS balance of the Core Council Buffer, the Core Facilitator may instead choose to include a payout in the next possible Executive Vote, sending USDS directly from the Surplus Buffer to the whitehat hacker.
 
-Immunefi will publicly contact the Core Facilitator with the request, including a specification of the respective vulnerability report, the requested amount and the Ethereum mainnet addresses of the beneficiaries. This should also include the payment details of the Immunefi fee, if it applies. Immunefi and the Core Facilitator should make sure the payout is made within one full calendar month after the report was approved.
+The [A.1.8.1.2 - Protocol Security Workstream Lead](93651fb8-13c5-46dd-93cb-33fa89671b4f) publicly requests each payout in a post on the Sky Forum, including a specification of the respective vulnerability report, the requested amount, and the Ethereum mainnet addresses of the beneficiaries. The request should also include the payment details of the Immunefi fee, if it applies. Any applicable Immunefi fee is paid in USDS from the same source as the payout. The Protocol Security Workstream Lead and the [A.2.3.1.2.2.2.1.3 - Core Council Buffer Multisig Signers](5aeba17d-3869-447d-adcd-8c55f41afc01), or the Core Facilitator for a payout included in an Executive Vote, should make sure the payout is made within one full calendar month after the report was approved.
 
 For Bug Bounty rewards over USD 1,000,000: after the first million is paid out, the remaining amount is paid out over time with up to USD 1,000,000 per consecutive month until the determined amount for payout is reached.
 
@@ -7652,7 +7887,7 @@ For Bug Bounty rewards over USD 1,000,000: after the first million is paid out, 
 
 The Bug Bounty Programs incur fixed and variable costs.
 
-- Variable costs: Bug bounty payouts including related fees to Immunefi are considered variable costs and are covered by the process described in [A.2.11.1.1.3.3 - Rewards Payment Terms](cf4e6968-18a3-48d8-b38e-15ae8009d03d).
+- Variable costs: Bug bounty payouts including related fees to Immunefi are considered variable costs and are covered by the process described in [A.2.11.1.1.3.3 - Rewards Payment Terms](cf4e6968-18a3-48d8-b38e-15ae8009d03d). When paid from the Core Council Buffer, they are funded from the [A.2.3.1.2.2.2 - Core Council Allocation](91b281c2-0687-45a3-939d-0480c7c33f9f). When paid through an Executive Vote from the Surplus Buffer, the payout and any Immunefi fee do not reduce [A.2.3.1.2.1.1 - Net Revenue](bddce7bf-c568-444b-b196-e15a99016696) for the Monthly Settlement Cycle. Instead, Core GovOps deducts the amount from the [A.2.3.1.2.2.2 - Core Council Allocation](91b281c2-0687-45a3-939d-0480c7c33f9f) in subsequent Monthly Settlement Cycles to repay the Surplus Buffer, and may spread the deduction across multiple Monthly Settlement Cycles.
 - Fixed costs: Fixed costs comprise service fees for the Immunefi Premium Triaging Service, and compensation of a part-time Bug Bounty program steward. These costs will be funded by Sky.
 
 #### A.2.11.1.2 - Safe Harbor [Core]  <!-- UUID: bb494bc1-f3cb-4b7f-826f-437c62d534c8 -->
