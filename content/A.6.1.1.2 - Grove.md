@@ -2227,11 +2227,11 @@ The address of the Prime Secondary Relayer Multisig is `0x9187807e07112359C48187
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.2.2 - Required Number Of Signers [Core]  <!-- UUID: 8f0b88bf-0fcd-4103-a4c2-e03b61a2e8a7 -->
 
-The Prime Secondary Relayer Multisig currently has a 1/2 signing requirement.
+The Prime Secondary Relayer Multisig currently has a 2/3 signing requirement.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.2.3 - Signers [Core]  <!-- UUID: 2ff0395a-f47a-478a-8621-28bae36bc2f7 -->
 
-The signers of the Prime Secondary Relayer Multisig are two (2) addresses controlled by Grove.
+The signers of the Prime Secondary Relayer Multisig are three (3) addresses controlled by Grove.
 
 ###### A.6.1.1.2.2.6.1.2.1.2.2.2.4 - Usage Standards [Core]  <!-- UUID: d50351e8-6cca-4d49-abb8-0c7ce3b16b92 -->
 
@@ -2335,7 +2335,7 @@ The documents herein define roles (Admin, Relayer, Freezer) and their responsibi
 
 ###### A.6.1.1.2.2.6.1.2.2.1.1.1.1 - Default Admin Role [Core]  <!-- UUID: dc515367-2fa0-4f98-b3d1-1b82d7ce782f -->
 
-The admin role (`DEFAULT_ADMIN_ROLE`) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Grove Proxy.
+The admin role (`DEFAULT_ADMIN_ROLE`) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Grove SubProxy.
 
 `constructor(address admin) {
         _grantRole(DEFAULT_ADMIN_ROLE, admin);`
@@ -2394,7 +2394,7 @@ The documents herein define the roles and permissions of the Diamond PAU Instanc
 
 ###### A.6.1.1.2.2.6.1.2.2.1.1.3.1 - Default Admin Role [Core]  <!-- UUID: 987dc000-4453-4beb-93b3-aad8a4d819fc -->
 
-The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke all other roles of the Diamond PAU on the former, and to set rate limits on the latter. The Default Admin Role is held on both contracts by the Grove Proxy and by the Configurator, as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
+The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke all other roles of the Diamond PAU on the former, and to set rate limits on the latter. The Default Admin Role is held on both contracts by the Grove SubProxy and by the Configurator, as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
 
 ###### A.6.1.1.2.2.6.1.2.2.1.1.3.2 - Controller Role [Core]  <!-- UUID: 1597253b-b936-46f6-98c7-d41d4306d2c5 -->
 
@@ -7020,8 +7020,8 @@ The current `maxAmount` and `slope` for this conduit’s inflow and outflow are 
 
 The deposit rate limits are:
 
-- `maxAmount`: 20,000,000 USDC
-- `slope`: 20,000,000 USDC per day
+- `maxAmount`: 100,000,000 USDC
+- `slope`: 100,000,000 USDC per day
 
 ###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 7e38063c-c6a7-4d45-9344-bd3b22047019 -->
 

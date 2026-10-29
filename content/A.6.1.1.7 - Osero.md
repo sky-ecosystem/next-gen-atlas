@@ -2298,11 +2298,11 @@ The `maxSlippage` for this Instance will be specified in a future iteration of t
 
 ###### A.6.1.1.7.2.6.1.3.1.2.1.2.5.2 - Maximum Exposure [Core]  <!-- UUID: be1ab30f-c697-4dfd-a605-8ca22e28c06e -->
 
-The Maximum Exposure for this Instance is 5,000,000 USDC.
+The Maximum Exposure for this Instance is 10,000,000 USDC.
 
 ###### A.6.1.1.7.2.6.1.3.1.2.1.2.5.3 - Capital Ratio Requirement [Core]  <!-- UUID: f61b71cf-6b5b-41a8-8897-9f1289464745 -->
 
-The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 100%.
+The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 25%.
 
 ###### A.6.1.1.7.2.6.1.3.1.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c2c97076-4571-4299-94c6-eae2c99fa81b -->
 
