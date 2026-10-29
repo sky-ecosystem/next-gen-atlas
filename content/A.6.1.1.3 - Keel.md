@@ -2456,7 +2456,7 @@ The documents herein define roles (Admin, Relayer, ALM Controller and Freezer) a
 
 ###### A.6.1.1.3.2.6.1.2.2.1.1.1.1 - Default Admin Role [Core]  <!-- UUID: 26cac5a1-6313-4aff-952c-70eb84513815 -->
 
-The admin role (`DEFAULT_ADMIN_ROLE`) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Keel Proxy.
+The admin role (`DEFAULT_ADMIN_ROLE`) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Keel SubProxy.
 
 ```solidity
 constructor(address admin_) {
@@ -3006,7 +3006,7 @@ The documents herein define roles (Admin, Relayer, ALM Controller and Freezer) a
 
 ###### A.6.1.1.3.2.6.1.2.2.2.1.1.1 - Default Admin Role [Core]  <!-- UUID: 0270b595-8957-4fb2-a9cd-2bc197dc3367 -->
 
-The admin role is configured with the following permissions: `can_freeze_controller`, `can_unfreeze_controller`, `can_manage_permissions`, `can_suspend_permissions`, `can_manage_reserves_and_integrations`, `can_invoke_external_transfer`. This role can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Keel Proxy.
+The admin role is configured with the following permissions: `can_freeze_controller`, `can_unfreeze_controller`, `can_manage_permissions`, `can_suspend_permissions`, `can_manage_reserves_and_integrations`, `can_invoke_external_transfer`. This role can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Keel SubProxy.
 
 ```solidity
 constructor(address admin_) {
