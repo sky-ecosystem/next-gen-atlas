@@ -1981,11 +1981,11 @@ The ALM_CONTROLLER (ForeignController) contract version is: 1.8
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.3 - ALM Freezer Multisig (Avalanche) Address [Core]  <!-- UUID: abe7f425-65fd-4a3a-b70c-55a8f30e708d -->
 
-The address of the Multisig that has the Freezer Role is specified in TBD.
+The address of the Multisig that has the Freezer Role is: `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.4 - ALM Relayer Multisig (Avalanche) Address [Core]  <!-- UUID: 229a9ce0-30bd-4069-a8a9-2ff911185b66 -->
 
-The address of the Multisigs that has the Relayer Role will be specified in a future iteration of the artifact.
+The addresses of the Multisigs that have the Relayer Role are: `0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB` and `0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.5 - ALM Proxy (Avalanche) Contract [Core]  <!-- UUID: 179f186a-079b-4663-b06c-b21f9dec85ca -->
 
@@ -2069,11 +2069,11 @@ The ALM_CONTROLLER (ForeignController) contract version is: 1.10.0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.3 - ALM Freezer Multisig (X Layer) Address [Core]  <!-- UUID: ed5c698b-cca9-43b8-965f-1dacd3ec46b3 -->
 
-The address of the Multisig that has the Freezer Role is: `0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB`.
+The address of the Multisig that has the Freezer Role is: `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.4 - ALM Relayer Multisig (X Layer) Address [Core]  <!-- UUID: 7248a5ae-a45e-46a1-9cee-a8cb0b391ff8 -->
 
-The address of the Multisig that has the Relayer Role is: `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431`.
+The address of the Multisig that has the Relayer Role is: `0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.5 - ALM Proxy (X Layer) Contract [Core]  <!-- UUID: eac738f2-1b92-4ea2-a3e7-79fd528ae587 -->
 
@@ -2085,7 +2085,7 @@ The address of the ALM_RATE_LIMITS contract is: `0x7F7E2286983994c4403Cf2B86758c
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3 - Diamond PAU Contracts [Core]  <!-- UUID: 75d44d51-0d4f-4fa1-8a4e-bee115250d97 -->
 
-The documents herein define the addresses of the Diamond Parallelized Allocation Unit (Diamond PAU) contracts deployed for the Spark Liquidity Layer. The Diamond PAU is a modular implementation of the Allocation System in which the Controller dispatches operations to Facet contracts, with integration configurations held in a Beacon contract. The Beacon and Facet contracts follow the shared Diamond PAU architecture specified in [A.2.2.10.1.1.1.2.3 - Liquidity Layer Shared Contracts](a2677d19-1f2c-4361-bedc-34cb2e7eaab5). The addresses used by the Arbitrum deployment are specified below.
+The documents herein define the addresses of the Diamond Parallelized Allocation Unit (Diamond PAU) contracts deployed for the Spark Liquidity Layer. The Diamond PAU is a modular implementation of the Allocation System in which the Controller dispatches operations to Facet contracts, with integration configurations held in a Beacon contract. The Beacon and Facet contracts follow the shared Diamond PAU architecture specified in [A.2.2.10.1.1.1.2.3 - Liquidity Layer Shared Contracts](a2677d19-1f2c-4361-bedc-34cb2e7eaab5).
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.1 - Arbitrum [Core]  <!-- UUID: 2a6d1e9b-e36f-4678-9934-2a81820fcbf5 -->
 
@@ -2118,6 +2118,48 @@ The address of the Beacon contract is: `0x86036CE5d2f792367C0AA43164e688d13c5A60
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.7 - CCTP Facet Contract [Core]  <!-- UUID: 29be03da-9d81-487a-8d3a-7ebd80bffd44 -->
 
 The address of the CCTP Facet contract is: `0xeCCA0D296Cb133081d41E9772B60D57F5fd2798E`.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2 - Base [Core]  <!-- UUID: 59e2c1fc-2f61-48c3-b6fe-9dcd5b8851dc -->
+
+The documents herein define the addresses of the Diamond PAU contracts on Base.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.1 - ALM Proxy Contract [Core]  <!-- UUID: d9155572-79a6-4754-9ac8-3c4971681895 -->
+
+The address of the ALM Proxy contract is: `0x2917956eFF0B5eaF030abDB4EF4296DF775009cA`. The ALM Proxy custodies the Instance's funds and routes calls to external contracts as directed by the Controller contract. This is the existing Base ALM Proxy, shared with the monolithic ForeignController, which retains its `CONTROLLER` role.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.2 - Controller Contract [Core]  <!-- UUID: 21ab222d-1348-4178-b326-a627ca07e89a -->
+
+The address of the Controller contract is: `0xd864bF1Ea2f78Dc2013E3FC7e4C474383BE9d456`. The Controller is the entry point for all allocator operations; it synchronizes integration configurations from the Beacon contract and dispatches calls to the appropriate facet contract.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.3 - AccessControls Contract [Core]  <!-- UUID: b3152015-a34e-46d8-8a5a-0ded9348b91e -->
+
+The address of the AccessControls contract is: `0xE593c8c6a31d88cab100244Afd352efb127f9a16`. The AccessControls contract manages the roles and permissions of the Diamond PAU, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.4 - ALM Rate Limits Contract [Core]  <!-- UUID: e639902b-5c3b-498a-a7e9-25e9166ac38e -->
+
+The address of the ALM Rate Limits contract is: `0x5E311e8BCe95F4e8d4920E70985ED4aC122a838A`. The ALM Rate Limits contract enforces the rate limits on operations performed through the Controller contract.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.5 - AdministeredAgent Contract [Core]  <!-- UUID: a1b86c45-97a0-4b3c-94aa-73ecfa2333ab -->
+
+The address of the AdministeredAgent contract is: `0x70E46bAf2E3F27a119757D7b796c641C8bc087cE`. The AdministeredAgent holds the Allocator Role of the Diamond PAU and mediates relayer access to the Controller: the ALM Relayer Multisig and the Spark hot wallet are registered as its actors and submit operations through it, while the ALM Freezer Multisig and the Soter Labs freezer multisig are registered as revokers authorized to remove a compromised actor, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.6 - Beacon Contract [Core]  <!-- UUID: 7de4bbe2-e2db-47db-9454-99d2ec7082d2 -->
+
+The address of the Beacon contract is: `0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41`. The Beacon is controlled by Sky Governance through the Base Sky Governance Relay (`0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255`), which is the sole holder of its `DEFAULT_ADMIN_ROLE`.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.7 - CCTP Facet Contract [Core]  <!-- UUID: 05eafff8-084b-4158-8378-ef18502a9708 -->
+
+The address of the CCTP Facet contract is: `0xb22d50c393c6E1D13E3e05B172448dD8BF8DdC32`.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.2.8 - Ethereum Domain Parameters [Core]  <!-- UUID: f7fc9aab-df3e-4ba7-93f5-b2413bf1a827 -->
+
+The CCTP domain parameters for transfers from Base to Ethereum are:
+
+- Destination domain: `0` (Ethereum).
+- Mint recipient: Ethereum ALM Proxy (`0x1601843c5E9bC251A3272907010AFa41Fa18347E`), encoded as `bytes32(uint256(uint160(recipient)))`.
+- Both fee caps: `0`.
+
+The CCTP Facet fixes `destinationCaller` to `bytes32(0)` and `minFinalityThreshold` to `2000` (standard finalized tier).
 
 ###### A.6.1.1.1.2.6.1.2.1.1.2 - Off-Chain Operational Parameters [Core]  <!-- UUID: 257dcfcb-9bb8-4989-a063-69ae4f01f224 -->
 
@@ -2519,6 +2561,18 @@ The Aggregate CCTP RateLimitID (`cctp_toCCTPRateLimitKey()`) is: `0x0476a9fd902e
 
 The CCTP To Ethereum RateLimitID (`cctp_getToDomainRateLimitKey(0)`, Circle domain 0) is: `0x90b598dae614822d554ec4f627bb5feab505106473a7911f34b36c0b3b9695c7`.
 
+###### A.6.1.1.1.2.6.1.2.1.1.4.2 - Base [Core]  <!-- UUID: 24678ab1-1056-406a-ad4a-a3f38611a279 -->
+
+The documents herein define the CCTP rate limit IDs for the Base Diamond PAU.
+
+###### A.6.1.1.1.2.6.1.2.1.1.4.2.1 - Aggregate CCTP Rate Limit ID [Core]  <!-- UUID: cf58ffd1-3d0f-4427-9eb1-c1d4be2c78ba -->
+
+The Aggregate CCTP RateLimitID (`cctp_toCCTPRateLimitKey()`) is: `0x0476a9fd902eafdb5bcdabd9f0523dd7aacf7aa0c38c0e6ab912f5fed00f8e11`.
+
+###### A.6.1.1.1.2.6.1.2.1.1.4.2.2 - CCTP To Ethereum Rate Limit ID [Core]  <!-- UUID: e0c36c07-3b49-4630-96cb-910570621c20 -->
+
+The CCTP To Ethereum RateLimitID (`cctp_getToDomainRateLimitKey(0)`, Circle domain 0) is: `0x90b598dae614822d554ec4f627bb5feab505106473a7911f34b36c0b3b9695c7`.
+
 ###### A.6.1.1.1.2.6.1.2.1.1.5 - Diamond PAU Rate Limits [Core]  <!-- UUID: e3ecf860-59dc-4d7b-b3cd-fb4311f4c2a9 -->
 
 The documents herein list the rate limits for the Spark Diamond PAU deployments.
@@ -2536,6 +2590,23 @@ The aggregate CCTP limit is specified in the document herein.
 ###### A.6.1.1.1.2.6.1.2.1.1.5.1.2 - CCTP To Ethereum Limit [Core]  <!-- UUID: 6d726af1-e51f-4664-b5f2-bcb8caf07c03 -->
 
 The maximum amount of USDC that can be bridged from the Arbitrum ALM Proxy to the Ethereum ALM Proxy through CCTP v2 is specified in the document herein.
+
+- `maxAmount`: 5,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
+###### A.6.1.1.1.2.6.1.2.1.1.5.2 - Base [Core]  <!-- UUID: 88c9fce7-e442-44f5-b2cc-aec37a1f7b33 -->
+
+The documents herein list the controller-wide rate limits for the Spark Diamond PAU on Base. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.3.4.1 - Operator Execution](56da9559-54be-4fb5-b39d-8c31c4aeed67). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
+
+###### A.6.1.1.1.2.6.1.2.1.1.5.2.1 - Aggregate CCTP Limit [Core]  <!-- UUID: 10e1ccf4-86c0-4f9c-9a8c-aa56775b999a -->
+
+The aggregate CCTP limit is specified in the document herein.
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.2.1.1.5.2.2 - CCTP To Ethereum Limit [Core]  <!-- UUID: f8228556-9fa1-4bda-8e50-cf71c38b0c2d -->
+
+The maximum amount of USDC that can be bridged from the Base ALM Proxy to the Ethereum ALM Proxy through CCTP v2 is specified in the document herein.
 
 - `maxAmount`: 5,000,000 USDC
 - `slope`: 50,000,000 USDC per day
@@ -2558,7 +2629,7 @@ The Prime Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1.1.2.6.1
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.1.1 - Address [Core]  <!-- UUID: 67bf2799-8d57-44be-82e4-827912ff30df -->
 
-The address of the Prime Relayer Multisig on the Ethereum Mainnet, Base, and Arbitrum is `0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB`.
+The address of the Prime Relayer Multisig on the Ethereum Mainnet, Base, Arbitrum, Unichain, Optimism, Avalanche, and X Layer is `0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB`.
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.1.2 - Required Number Of Signers [Core]  <!-- UUID: 8deac2a8-c728-4d0c-9f05-6fcf3965bdc9 -->
 
@@ -2582,7 +2653,7 @@ The Core Operator Relayer Multisig has the `RELAYER_ROLE` as defined in [A.6.1.1
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.2.1 - Address [Core]  <!-- UUID: 567e4905-2b05-493e-95ac-8a4d20afed2b -->
 
-The address of the Core Operator Relayer Multisig on the Ethereum Mainnet, Base, and Arbitrum is `0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795`.
+The address of the Core Operator Relayer Multisig on the Ethereum Mainnet, Base, Arbitrum, Unichain, Optimism, and Avalanche is `0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795`.
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.2.2 - Required Number Of Signers [Core]  <!-- UUID: d397fcef-85da-4c07-b675-14ec66d4cff9 -->
 
@@ -2612,7 +2683,7 @@ The Freezer Multisig has the `FREEZER_ROLE` as defined in [A.6.1.1.1.2.6.1.2.2.1
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.3.1 - Address [Core]  <!-- UUID: 51777bdd-df5f-4a6e-93f5-8163d981f595 -->
 
-The address of the Freezer Multisig on the Ethereum Mainnet, Base, and Arbitrum is `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431`.
+The address of the Freezer Multisig on the Ethereum Mainnet, Base, Arbitrum, Unichain, Optimism, Avalanche, and X Layer is `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431`.
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.3.2 - Required Number Of Signers [Core]  <!-- UUID: cf7acab9-9363-402b-b636-395f6bb5f6f7 -->
 
@@ -2641,7 +2712,7 @@ Any changes to the multisig signers that do not fall within the two exceptions l
 
 ###### A.6.1.1.1.2.6.1.2.1.2.3 - Token Claim Authorization [Core]  <!-- UUID: ea73f176-0b94-4e93-b1ee-ca498ac5a6c6 -->
 
-Phoenix Labs is authorized to propose the inclusion of transfers of accrued treasury and collector revenues from the Active Instances to the Spark ALM Proxy in a Spark Spell. Additionally, for non-USD-denominated reserve assets, or USD-denominated reserve assets that are not supported by the Spark Liquidity Layer, the reserves can be transferred to the Spark Operations Multisig at address (`0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC`) to be liquidated for USDS, with the proceeds of sale transferred to the Spark SubDAO Proxy. This request must be posted to the Sky Forum under the Spark Prime category. The Operational Executor Agent must formally approve the inclusion of the transfer in a Spark Spell, with no token holder vote needed.
+Phoenix Labs is authorized to propose the inclusion of transfers of accrued treasury and collector revenues from the Active Instances to the Spark ALM Proxy in a Spark Spell. Additionally, for non-USD-denominated reserve assets, or USD-denominated reserve assets that are not supported by the Spark Liquidity Layer, the reserves can be transferred to the Spark Operations Multisig at address (`0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC`) to be liquidated for USDS, with the proceeds of sale transferred to the Spark SubProxy. This request must be posted to the Sky Forum under the Spark Prime category. The Operational Executor Agent must formally approve the inclusion of the transfer in a Spark Spell, with no token holder vote needed.
 
 ###### A.6.1.1.1.2.6.1.2.1.3 - Total Risk Capital (TRC) Management [Core]  <!-- UUID: ff7add39-b942-4df0-a710-75f70a05b49d -->
 
@@ -2669,7 +2740,7 @@ The documents herein defines roles (Admin, Relayer, Freezer) and their responsib
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.1 - Default Admin Role [Core]  <!-- UUID: da2e149b-e70c-4373-94da-6da6c4c26048 -->
 
-The admin role (`DEFAULT_ADMIN_ROLE`) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Spark Proxy.
+The admin role (`DEFAULT_ADMIN_ROLE`) is the role that can grant and revoke any role, including itself and all other roles defined in the contract. The admin role is also used for general admin functions in all contracts. This role is fully controlled by Sky Governance via the Spark SubProxy.
 
 `constructor(address admin) {
         _grantRole(DEFAULT_ADMIN_ROLE, admin);`
@@ -2727,6 +2798,35 @@ Removing an actor revokes its ability to submit operations through the Allocatio
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.5 - Grantor [Core]  <!-- UUID: 64f794c9-db5f-4875-a800-3da12f4c5bec -->
 
 The Grantor is authorized to add actors to the AdministeredAgent. The grantor is the Soter Labs grantor multisig: `0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7`. It replaces the PAU Grantor Multisig (`0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514`), whose grantor authorization is removed.
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.2 - Base [Core]  <!-- UUID: 9f23570b-83ac-4513-a431-6582576e8a57 -->
+
+The documents herein define the roles and permissions of the Diamond PAU Instance of the Allocation System Primitive on Base. Roles are managed by the AccessControls contract.
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.2.1 - Default Admin Role [Core]  <!-- UUID: bfc31251-e9ad-4d87-bb1b-3c20763dfa6d -->
+
+The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke roles on both contracts, to exercise Controller and facet admin functions through AccessControls, and to set rate limits on the ALM Rate Limits contract. The Default Admin Role is held on both contracts by the Base Spark Executor (`0xF93B7122450A50AF3e5A76E1d546e95Ac1d0F579`) and by the Base PAS Configurator (`0x458Acd38fD749F6325039e63e8Bc496dBc286D11`), as specified in [A.2.2.10.1.1.1.2.3.3.5 - Configurator](e5cf7362-7ea2-4a33-8373-565d56c7da67).
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.2.2 - Controller Role [Core]  <!-- UUID: 80b9b8b2-ce9c-4c02-8892-bce9204fb2e9 -->
+
+The `CONTROLLER` role is authorized to call the `call` functions on the ALM Proxy contract and to update the ALM Rate Limits contract. The Controller Role is held by the Controller contract, which dispatches operations to the relevant Facet contract on behalf of the Allocator Role.
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.2.3 - Allocator Role [Core]  <!-- UUID: 53e4265a-19f9-4fb8-8f9d-4c6dcc2be66b -->
+
+The `ALLOCATOR_ROLE` is authorized to call functions on the Controller contract to perform operations on behalf of the ALM Proxy contract. The Allocator Role is held by the AdministeredAgent contract, as specified in [A.6.1.1.1.2.6.1.2.1.1.1.3.2.5 - AdministeredAgent Contract](a1b86c45-97a0-4b3c-94aa-73ecfa2333ab), which mediates access for the Spark Liquidity Layer relayer system. The ALM Relayer Multisig (`0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB`) and the Spark hot wallet (`0x062cE42caE04c51D04E77e3D64cc8953a2296FfE`) are registered as actors of the AdministeredAgent and submit operations through it. An actor may be removed from the AdministeredAgent by any address holding the Freezer Role, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5.2.4 - Freezer Role](21a91aa1-3a54-4616-8ebe-540676ddc48f).
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.2.4 - Freezer Role [Core]  <!-- UUID: 21a91aa1-3a54-4616-8ebe-540676ddc48f -->
+
+The Freezer Role is authorized to remove a compromised or malicious relayer actor from the AdministeredAgent contract as a rapid-response measure, without recourse to the standard governance process. Removing an actor revokes its ability to submit operations through the Allocation System, while the Allocator Role itself remains held by the AdministeredAgent. The Freezer Role is held by the following multisigs, registered as revokers of the AdministeredAgent:
+
+- ALM Freezer Multisig: `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431`.
+- Soter Labs freezer multisig: `0x747BF29B189e2a070a921Af7Cf65681E3d5F5967`.
+
+Removing an actor does not remove any relayer permission that the same address holds on the legacy ForeignController.
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.2.5 - Grantor [Core]  <!-- UUID: d5a4a7c7-24ad-490e-b057-710d3259a04a -->
+
+The Grantor is authorized to add actors to the AdministeredAgent. The grantor is the Soter Labs grantor multisig: `0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7`. The PAU Grantor Multisig (`0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514`) no longer holds grantor authorization.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 92e30e64-76dd-493d-be14-2088892e11b1 -->
 
@@ -3322,6 +3422,14 @@ This document defines the process to bridge USDC using the Circle Cross-Chain Tr
 
 The documents herein define the process to bridge USDS / sUSDS using the OP Token Bridge. This process will be specified in a future iteration of the Spark Artifact.
 
+###### A.6.1.1.1.2.6.1.2.2.1.2.3 - Diamond PAU Controller Functions [Core]  <!-- UUID: 583d17c9-77cf-4d15-b81b-9e51bfc8b3ca -->
+
+The Diamond PAU Controller functions for the Spark Liquidity Layer are the shared Diamond PAU Controller functions specified in [A.2.2.10.1.1.1.2.5.2 - Diamond PAU Controller Functions](5e941add-bf8d-4623-95a1-69795e7f7034). The Facets used by the Spark Liquidity Layer are specified in the documents herein.
+
+###### A.6.1.1.1.2.6.1.2.2.1.2.3.1 - CCTP Facet [Core]  <!-- UUID: 7f1d50f0-b2a8-4e57-83f5-758cbeacc469 -->
+
+The Spark Liquidity Layer uses the CCTP Facet to bridge USDC cross-chain through Circle's Cross-Chain Transfer Protocol (CCTP), as specified in [A.2.2.10.1.1.1.2.3.1.2.3 - CCTP Facet](ce25217f-c37d-4415-b0d6-adecab3c7855).
+
 ###### A.6.1.1.1.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: 554a654f-930a-419e-a8a4-f49dd5599ee8 -->
 
 The documents herein define the protocol for querying, setting, and adjusting `RateLimits` for Instances using their `RateLimitID`s. The ratelimits must be maintained in line with Spark’s strategy, market conditions, and security considerations.
@@ -3545,6 +3653,10 @@ This document defines the action that should be performed if there is a need to 
 `mainnetController.burnUSDS(usds.balanceOf(address(proxy))
 `
 More detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.1.2 - Burn USDS](fc8b57fd-c0c8-422d-b0a9-e124b3cac439).
+
+###### A.6.1.1.1.2.6.1.2.2.3.7 - Diamond PAU Emergency Protocol [Core]  <!-- UUID: dcaa4117-82de-4b31-9be4-538b454d5154 -->
+
+The actions that can be taken in the event of an emergency within the Spark Diamond PAU's operations are specified in [A.2.2.10.1.1.1.2.5.4 - Emergency Protocol](874320e8-e7dd-430d-a1f4-30595aee6a9d).
 
 ###### A.6.1.1.1.2.6.1.2.3 - Allocation Strategy [Core]  <!-- UUID: 138f0270-4aa7-41c4-9a00-c4c661d2d426 -->
 
@@ -10512,7 +10624,7 @@ The current WETH risk parameters are:
 - Base Rate: 0%
 - Slope 1: N/A
 - Slope 1 Spread: -0.10%
-- Slope 2: 75%
+- Slope 2: 30%
 - Reserve State: Active
 - Collateral: Yes
 - Borrowing: Yes
@@ -10846,10 +10958,10 @@ The current pyUSD risk parameters are:
 - Reserve Factor: 10%
 - Supply Cap: Set by cap automator
 - Borrow Cap: Set by cap automator
-- Optimal Utilization: 95%
+- Optimal Utilization: 80%
 - Isolated Debt Ceiling: N/A
-- Base Rate: 0%
-- Slope 1: SSR + 1.5%
+- Base Rate: SSR + 0.20%
+- Slope 1: 0.20%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: Yes
@@ -10869,10 +10981,10 @@ The current USDG risk parameters are:
 - Reserve Factor: 10%
 - Supply Cap: Unlimited
 - Borrow Cap: Unlimited
-- Optimal Utilization: 95%
+- Optimal Utilization: 80%
 - Isolated Debt Ceiling: N/A
-- Base Rate: SSR
-- Slope 1: 0.3%
+- Base Rate: SSR + 0.20%
+- Slope 1: 0.20%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: No
@@ -10893,10 +11005,10 @@ The current RLUSD risk parameters are:
 - Reserve Factor: 10%
 - Supply Cap: Unlimited
 - Borrow Cap: Unlimited
-- Optimal Utilization: 95%
+- Optimal Utilization: 80%
 - Isolated Debt Ceiling: N/A
-- Base Rate: SSR
-- Slope 1: 0.3%
+- Base Rate: SSR + 0.20%
+- Slope 1: 0.20%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: No
@@ -11514,25 +11626,25 @@ Spark forwent exercising its Right of First Refusal in order to enable Grove to 
 
 Spark engaged in terms of agreement with Sky, Moonbow and Grove in Ecosystem Accord 2, located in [A.2.8.2.2 - Prime Program](aa3b8e65-0ded-48c2-9c40-812debf99f32).
 
-### A.6.1.1.1.3.4 - SubDAO Proxy Management [Core]  <!-- UUID: 2ad53f55-44cb-44fd-9e68-6c7ed128e360 -->
+### A.6.1.1.1.3.4 - SubProxy Management [Core]  <!-- UUID: 2ad53f55-44cb-44fd-9e68-6c7ed128e360 -->
 
-The documents herein specify Spark's strategy and operational processes for managing assets held in the Spark SubDAO Proxy, and obligations relating to these assets.
+The documents herein specify Spark's strategy and operational processes for managing assets held in the Spark SubProxy, and obligations relating to these assets.
 
 #### A.6.1.1.1.3.4.1 - Operational Process Definition [Core]  <!-- UUID: bfdc08d5-42f5-4d49-9390-b6ad210c5c40 -->
 
-The documents herein define the process for updating Spark's SubDAO Proxy management policies.
+The documents herein define the process for updating Spark's SubProxy management policies.
 
-##### A.6.1.1.1.3.4.1.1 - Spark SubDAO Proxy Policy Changes [Core]  <!-- UUID: 90240e75-6e5f-4a54-8999-ee430cfcf20d -->
+##### A.6.1.1.1.3.4.1.1 - Spark SubProxy Policy Changes [Core]  <!-- UUID: 90240e75-6e5f-4a54-8999-ee430cfcf20d -->
 
-Changes to Spark SubDAO Proxy management policies are implemented using the Root Edit Primitive.
+Changes to Spark SubProxy management policies are implemented using the Root Edit Primitive.
 
-##### A.6.1.1.1.3.4.1.2 - Preapproved Subdao Proxy Activities [Core]  <!-- UUID: 8a421648-d732-44c1-8666-bbbb9b7bfff2 -->
+##### A.6.1.1.1.3.4.1.2 - Preapproved SubProxy Activities [Core]  <!-- UUID: 8a421648-d732-44c1-8666-bbbb9b7bfff2 -->
 
-Dispositions of Spark SubDAO Proxy assets that have already been approved by governance and added to the Spark artifact, including periodic payments and disposal of non-core assets, can continue as planned until a superseding policy change is adopted via the Spark SubDAO Proxy Policy Changes process.
+Dispositions of Spark SubProxy assets that have already been approved by governance and added to the Spark artifact, including periodic payments and disposal of non-core assets, can continue as planned until a superseding policy change is adopted via the Spark SubProxy Policy Changes process.
 
 #### A.6.1.1.1.3.4.2 - Policies and Parameters [Core]  <!-- UUID: 262ff1c9-9634-45a4-9f18-ed222352ddb4 -->
 
-The documents herein define the currently active policies for managing the Spark SubDAO Proxy, alongside relevant parameters for implementing the policies.
+The documents herein define the currently active policies for managing the Spark SubProxy, alongside relevant parameters for implementing the policies.
 
 ##### A.6.1.1.1.3.4.2.1 - Encumbrance Ratio [Core]  <!-- UUID: 9995ba51-1de7-4b32-8b76-a71462dc4c5b -->
 
@@ -11558,29 +11670,29 @@ The current Target Encumbrance Ratio is 90%.
 
 This parameter will be maintained in parallel with the value specified in the Spark Artifact Allocation System Primitive section at [A.6.1.1.1.2.6.1.2.1.3.1 - Spark’s Operation Of Spark Liquidity Layer And Agreement Regarding Encumbrance Ratio](23f7ed09-99ca-45aa-8e12-dffcf55170af); any change to one section of the Spark Artifact will require a corresponding change in the other section.
 
-##### A.6.1.1.1.3.4.2.2 - Target SubDAO Proxy Value [Core]  <!-- UUID: 2e676b28-14e8-4536-ab70-c49b896da8b8 -->
+##### A.6.1.1.1.3.4.2.2 - Target SubProxy Value [Core]  <!-- UUID: 2e676b28-14e8-4536-ab70-c49b896da8b8 -->
 
-The documents herein define Spark’s policy for maintaining a SubDAO Proxy balance sufficient to cover anticipated risk exposures and operational expenses.
+The documents herein define Spark’s policy for maintaining a SubProxy balance sufficient to cover anticipated risk exposures and operational expenses.
 
 ###### A.6.1.1.1.3.4.2.2.1 - Definitions [Core]  <!-- UUID: fd1df613-3038-4f60-9156-ecd4335addb0 -->
 
-The subdocuments herein provide definitions of target SubDAO Proxy value and relevant parameters.
+The subdocuments herein provide definitions of target SubProxy value and relevant parameters.
 
-###### A.6.1.1.1.3.4.2.2.1.1 - Target SubDAO Proxy Value Definition [Core]  <!-- UUID: 3baabdcc-d715-419d-97b7-28936d4b0f95 -->
+###### A.6.1.1.1.3.4.2.2.1.1 - Target SubProxy Value Definition [Core]  <!-- UUID: 3baabdcc-d715-419d-97b7-28936d4b0f95 -->
 
-Target SubDAO Proxy Value is the minimum target value of the Spark DAO SubDAO Proxy, below which Spark will not undertake any non-critical and non-strategic dispositions of SubDAO Proxy assets such as SPK token purchases.
+Target SubProxy Value is the minimum target value of the Spark SubProxy, below which Spark will not undertake any non-critical and non-strategic dispositions of SubProxy assets such as SPK token purchases.
 
 ###### A.6.1.1.1.3.4.2.2.1.2 - RRC Lookback Period Definition [Core]  <!-- UUID: 6e832698-c71b-441c-9132-4df8d0357351 -->
 
-The Target SubDAO Proxy Value evaluation method ([A.6.1.1.1.3.4.2.2.2 - Evaluation Method](99d4b8da-fa5c-49ce-b93c-70d07334d7aa)) considers the higher of current Required Risk Capital (RRC) or highest RRC incurred within a trailing period. RRC Lookback Period defines the amount of time to review for the trailing period when evaluating the RRC component of Target SubDAO Proxy Value.
+The Target SubProxy Value evaluation method ([A.6.1.1.1.3.4.2.2.2 - Evaluation Method](99d4b8da-fa5c-49ce-b93c-70d07334d7aa)) considers the higher of current Required Risk Capital (RRC) or highest RRC incurred within a trailing period. RRC Lookback Period defines the amount of time to review for the trailing period when evaluating the RRC component of Target SubProxy Value.
 
 ###### A.6.1.1.1.3.4.2.2.1.3 - Spark Product Backstop Definition [Core]  <!-- UUID: ac10196b-18b2-4bc4-8627-0cacac8a3524 -->
 
-The Spark Product Backstop is a fixed value of USDS, updated from time to time by Spark governance via the Spark SubDAO Proxy Policy Changes process ([A.6.1.1.1.3.4.1.1 - Spark SubDAO Proxy Policy Changes](90240e75-6e5f-4a54-8999-ee430cfcf20d)), meant to cover the anticipated risk exposures to Spark products that are not covered under Sky’s Required Risk Capital framework.
+The Spark Product Backstop is a fixed value of USDS, updated from time to time by Spark governance via the Spark SubProxy Policy Changes process ([A.6.1.1.1.3.4.1.1 - Spark SubProxy Policy Changes](90240e75-6e5f-4a54-8999-ee430cfcf20d)), meant to cover the anticipated risk exposures to Spark products that are not covered under Sky’s Required Risk Capital framework.
 
 ###### A.6.1.1.1.3.4.2.2.1.4 - Target Runway Definition [Core]  <!-- UUID: 0bd4cd1e-1a37-4209-8ac4-45c17facafd3 -->
 
-Target Runway defines the amount of operational expenses Spark holds in reserve as part of the Target SubDAO Proxy Value. The operational expenses component of Target SubDAO Proxy Value counts the higher of past month’s operating expenses multiplied by Target Runway (in months), or total operating expenses incurred in trailing period equal to Target Runway.
+Target Runway defines the amount of operational expenses Spark holds in reserve as part of the Target SubProxy Value. The operational expenses component of Target SubProxy Value counts the higher of past month’s operating expenses multiplied by Target Runway (in months), or total operating expenses incurred in trailing period equal to Target Runway.
 
 ###### A.6.1.1.1.3.4.2.2.1.5 - Operating Expense Definition [Core]  <!-- UUID: 3ffad8de-515c-45e0-ac75-223d075cb9f8 -->
 
@@ -11588,7 +11700,7 @@ Operating Expense is defined as the sum of governance-approved transfers to the 
 
 ###### A.6.1.1.1.3.4.2.2.2 - Evaluation Method [Core]  <!-- UUID: 99d4b8da-fa5c-49ce-b93c-70d07334d7aa -->
 
-Target SubDAO Proxy Value is computed as the greater of Required Risk Capital (RRC) plus Spark Product Backstop, or Operational Expense Reserve.
+Target SubProxy Value is computed as the greater of Required Risk Capital (RRC) plus Spark Product Backstop, or Operational Expense Reserve.
 
 RRC is calculated as the higher of current RRC or highest RRC incurred within the RRC Lookback Period, divided by Risk Tolerance Ratio ([A.6.1.1.1.3.4.2.1 - Encumbrance Ratio](9995ba51-1de7-4b32-8b76-a71462dc4c5b)).
 
@@ -11604,15 +11716,15 @@ The Target SubProxy Value parameters in effect at this time are:
 - Spark Product Backstop: 5 million USDS
 - Target Runway: 12 months
 
-##### A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy [Core]  <!-- UUID: 6a4870fa-73f1-4d49-b7ee-d531fb59a971 -->
+##### A.6.1.1.1.3.4.2.3 - Excess SubProxy Funds Disposition Policy [Core]  <!-- UUID: 6a4870fa-73f1-4d49-b7ee-d531fb59a971 -->
 
-The documents herein define Spark’s policy for disposition of excess SubDAO Proxy funds above the target SubDAO Proxy value.
+The documents herein define Spark’s policy for disposition of excess SubProxy funds above the target SubProxy value.
 
 ###### A.6.1.1.1.3.4.2.3.1 - Definitions [Core]  <!-- UUID: 0da9928f-ae14-4869-b36b-761930422502 -->
 
 The subdocuments herein provide definitions for relevant parameters and values.
 
-###### A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value [Core]  <!-- UUID: 9705a4be-e92f-4195-8e85-1cfe19ec1a0d -->
+###### A.6.1.1.1.3.4.2.3.1.1 - Current SubProxy Value [Core]  <!-- UUID: 9705a4be-e92f-4195-8e85-1cfe19ec1a0d -->
 
 The Current SubProxy Value is defined as the sum of all USDS tokens held in the Spark SubProxy on Ethereum at wallet address 0x3300f198988e4C9C63F75dF86De36421f06af8c4, less the USDS value of the accrued but unrealized liabilities of Spark Savings vaults which, for the avoidance of doubt, consist of the yield that has accrued on Spark Savings depositors’ positions but that those users have not withdrawn.
 
@@ -11620,23 +11732,23 @@ The Spark SubProxy’s USDS balance and the USDS value of the accrued but unreal
 
 ###### A.6.1.1.1.3.4.2.3.1.2 - Standard Buyback Rate [Core]  <!-- UUID: 796dc640-03a7-4608-b676-a235a68174b1 -->
 
-The Standard Buyback Rate defines the percentage of excess SubDAO Proxy value that is used for buybacks during each monthly cycle, up to the Enhanced Buyback Threshold.
+The Standard Buyback Rate defines the percentage of excess SubProxy value that is used for buybacks during each monthly cycle, up to the Enhanced Buyback Threshold.
 
 ###### A.6.1.1.1.3.4.2.3.1.3 - Enhanced Buyback Rate [Core]  <!-- UUID: 0efbdfe8-3ccd-4e6a-8195-a52e7f63c1d9 -->
 
-The Enhanced Buyback Rate defines the percentage of SubDAO Proxy value in excess of the Enhanced Buyback Threshold that is used for buybacks during each monthly cycle.
+The Enhanced Buyback Rate defines the percentage of SubProxy value in excess of the Enhanced Buyback Threshold that is used for buybacks during each monthly cycle.
 
 ###### A.6.1.1.1.3.4.2.3.1.4 - Enhanced Buyback Threshold [Core]  <!-- UUID: e150176c-1da5-4adb-ba5d-f344d0be03ae -->
 
-The Enhanced Buyback Threshold defines the threshold over which the Enhanced Buyback Rate is applied to calculate buyback amounts. This variable is specified as a percentage of the Target SubDAO Proxy Value; for example, a 200% Enhanced Buyback Threshold means that the Enhanced Buyback Rate will apply to any subDAO proxy value over 2x the Target SubDAO Proxy Value.
+The Enhanced Buyback Threshold defines the threshold over which the Enhanced Buyback Rate is applied to calculate buyback amounts. This variable is specified as a percentage of the Target SubProxy Value; for example, a 200% Enhanced Buyback Threshold means that the Enhanced Buyback Rate will apply to any SubProxy value over 2x the Target SubProxy Value.
 
 ###### A.6.1.1.1.3.4.2.3.1.5 - Buyback Executor [Core]  <!-- UUID: d6be588d-e76e-4413-8a3e-c1b59e5bd106 -->
 
-The Buyback Executor is the entity responsible for receiving excess SubDAO Proxy funds in USDS, purchasing SPK, and returning the SPK to the Spark SubDAO Proxy. Initially, this role will be performed by the Spark Operations Multisig.
+The Buyback Executor is the entity responsible for receiving excess SubProxy funds in USDS, purchasing SPK, and returning the SPK to the Spark SubProxy. Initially, this role will be performed by the Spark Operations Multisig.
 
 ###### A.6.1.1.1.3.4.2.3.2 - Operational Process [Core]  <!-- UUID: dfa483c7-5adb-480e-9f82-c97cf4d0f74e -->
 
-For each monthly buyback cycle, Spark must calculate the Current SubProxy Value and Target SubProxy Value as of 16:00 UTC on the first (1st) day of that month. The Current SubProxy Value must be calculated in accordance with section [A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value](9705a4be-e92f-4195-8e85-1cfe19ec1a0d), and the Target SubProxy Value in accordance with section [A.6.1.1.1.3.4.2.2.2 - Evaluation Method](99d4b8da-fa5c-49ce-b93c-70d07334d7aa).
+For each monthly buyback cycle, Spark must calculate the Current SubProxy Value and Target SubProxy Value as of 16:00 UTC on the first (1st) day of that month. The Current SubProxy Value must be calculated in accordance with section [A.6.1.1.1.3.4.2.3.1.1 - Current SubProxy Value](9705a4be-e92f-4195-8e85-1cfe19ec1a0d), and the Target SubProxy Value in accordance with section [A.6.1.1.1.3.4.2.2.2 - Evaluation Method](99d4b8da-fa5c-49ce-b93c-70d07334d7aa).
 
 If the Current SubProxy Value is greater than the Target SubProxy Value, the excess is used to calculate the standard and enhanced buyback amounts. The Standard Buyback Rate applies to the portion of the Current SubProxy Value that is in excess of the Target SubProxy Value and up to the Enhanced Buyback Threshold. The Enhanced Buyback Rate applies to the portion of the Current SubProxy Value from and above the Enhanced Buyback Threshold. The Enhanced Buyback Threshold is determined as a percentage of the Target SubProxy Value in accordance with section [A.6.1.1.1.3.4.2.3.1.4 - Enhanced Buyback Threshold](e150176c-1da5-4adb-ba5d-f344d0be03ae).
 
@@ -11646,7 +11758,7 @@ Spark must include the relevant buyback transfer to the designated Buyback Execu
 
 In respect of each buyback transfer, the Buyback Executor must use an onchain time-weighted average price (TWAP) mechanism to purchase SPK tokens with the transferred USDS over a period of ninety (90) days beginning from the Buyback Executor’s receipt of the relevant buyback transfer. After using the transferred funds to purchase SPK, the Buyback Executor must transfer any and all SPK tokens purchased pursuant to the relevant buyback transfer to the Spark SubProxy as soon as is reasonably practicable. For the avoidance of doubt, buyback transfers executed onchain before this amendment comes into effect remain subject to the Operational Process that was in effect at the time of the buyback transfer.
 
-Spark remains subject at all times to the Target SubProxy Value restriction in section [A.6.1.1.1.3.4.2.2.1.1 - Target SubDAO Proxy Value Definition](3baabdcc-d715-419d-97b7-28936d4b0f95) and the capital management obligations in section [A.6.1.1.1.3.4.2.1.2 - Operational Process](7bc96051-ce11-4e29-aa30-b535183aeaa7), including during the time between the monthly valuation of the Spark SubProxy and execution of the buyback transfer.
+Spark remains subject at all times to the Target SubProxy Value restriction in section [A.6.1.1.1.3.4.2.2.1.1 - Target SubProxy Value Definition](3baabdcc-d715-419d-97b7-28936d4b0f95) and the capital management obligations in section [A.6.1.1.1.3.4.2.1.2 - Operational Process](7bc96051-ce11-4e29-aa30-b535183aeaa7), including during the time between the monthly valuation of the Spark SubProxy and execution of the buyback transfer.
 
 ###### A.6.1.1.1.3.4.2.3.3 - Parameters [Core]  <!-- UUID: b52a4011-5346-4de7-9522-90ae66b81600 -->
 
@@ -11677,7 +11789,7 @@ The current SPK contributor vesting parameters are:
     - End date: 16 June 2029
     - Vesting method: Linear per block with cliff
     - Claim auth: Permissionless
-- SubDAO Proxy actions
+- SubProxy actions
     - Approve SPK
         - Address: `0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09`
         - Amount: 1.2 billion SPK (12% of total supply)
