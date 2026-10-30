@@ -110,18 +110,6 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 The documents herein contain data relevant to the Single Instance of the Agent Creation Primitive.
 
-###### A.6.1.1.7.2.1.1.3.1.3.1 - Initial Planning [Core]  <!-- UUID: d58b413f-6fce-4b0d-80a8-aba5d74117b0 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.1.1.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0d4f2b2d-305b-4a23-9764-64fdf5a7bcc8 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.1.1.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: dc435918-f881-4d35-af7d-1640979cc9cd -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.7.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: ff4e7a8d-3832-40a3-b2b0-fec3831ed689 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
@@ -201,18 +189,6 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 ###### A.6.1.1.7.2.1.2.3.1.3 - Data Repository [Core]  <!-- UUID: fa03dbed-b41c-41db-8adb-826c991d64b8 -->
 
 The documents herein contain data relevant to the Single Instance of the Prime Transformation Primitive.
-
-###### A.6.1.1.7.2.1.2.3.1.3.1 - Initial Planning [Core]  <!-- UUID: 36e23c65-220f-43b9-ab14-6f0fe4a25524 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.1.2.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: d5c113e8-b4d2-40c4-80d8-5797f8833cd3 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.1.2.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 1b8cb6c6-0906-4c56-935f-ad8e43bb9a11 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.7.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 33beb09c-af1f-4d75-8307-d4546192acf8 -->
 
@@ -364,18 +340,6 @@ The documents herein define the operational processes for minting and initial di
 
 The documents herein contain data relevant to the Single Instance of the Agent Token Primitive.
 
-###### A.6.1.1.7.2.1.4.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 1d7df1bf-116c-451f-ad56-3fb899db577b -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.1.4.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: a56b88fe-398f-4384-ac87-4cd45c0290cf -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.1.4.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: cc30ee14-2850-45fa-bdf0-84d4789b7d3d -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.7.2.1.4.3 - Completed Instances [Core]  <!-- UUID: dc44ad54-7a03-43b0-8a1b-232353c163c3 -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
@@ -459,18 +423,6 @@ The documents herein define the process for the ongoing management of the Ozone 
 ###### A.6.1.1.7.2.2.1.2.1.3 - Data Repository [Core]  <!-- UUID: af743a8c-0d39-41ac-9898-0cdfac8e2c56 -->
 
 The documents herein contain data relevant to the Ozone Instance of the Executor Accord Primitive.
-
-###### A.6.1.1.7.2.2.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 23aab69c-d555-46d7-88ab-cb06303dc9af -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.2.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: d283179e-7527-4522-8935-5fe4d2442ed5 -->
-
-The materials associated with Operational GovOps review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.2.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 83075590-9293-4ae7-bdb0-701fd0689570 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.7.2.2.1.3 - Completed Instances [Core]  <!-- UUID: a1204555-a3db-4b2d-a965-5a8300d66b3e -->
 
@@ -595,18 +547,6 @@ In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.9.1.1 - Defi
 ###### A.6.1.1.7.2.2.2.2.1.3 - Data Repository [Core]  <!-- UUID: 08286cf1-8c6f-4cd2-9898-92e4147c60e8 -->
 
 The documents herein contain data relevant to the Single Instance of the Root Edit Primitive.
-
-###### A.6.1.1.7.2.2.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 9dbfdcc1-4908-489a-8887-a36628d0e2d6 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.2.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 7cfd996c-2a02-412b-8d65-0efbc88a6cdf -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.2.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: ade379d8-2b49-49d8-8425-8060c5bba942 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.7.2.2.2.3 - Completed Instances [Core]  <!-- UUID: e8c23769-6920-4fba-aebf-3051851be0fc -->
 
@@ -760,18 +700,6 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.7.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 1d31b5fd-d55c-4d8e-b554-d2d9f1e95a05 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.3.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 9e648afc-d5c5-4f2e-8026-71fede7b270b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.3.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: e5150ceb-77a8-468c-b202-19fefcb1f95d -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.7.2.3.1.3 - Completed Instances [Core]  <!-- UUID: bdcaed32-e33f-4426-b059-93dfe4fc1956 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
@@ -867,18 +795,6 @@ The documents herein define the protocol for handling emergency situations in th
 ###### A.6.1.1.7.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: 3a02223c-f21e-4fee-8bc8-36a4cf36366a -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
-
-###### A.6.1.1.7.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: e6be574b-1a20-4fbb-8ee9-43d649be4c0d -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 86a4e532-848d-4363-a87d-944176a3707f -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 54f739a5-7170-4bed-aa9b-67e6b4591786 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.7.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 6187f71c-8d4f-4a95-9aff-a87395f3f6b1 -->
 
@@ -1072,19 +988,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Osero Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: d62190e1-52af-452a-9108-e5a882c13722 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 93f31e74-0d9c-494f-8f04-181a471d433e -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 8608a9ab-30c5-4d14-8604-41109fc4b33a -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.1.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 8f1c5178-2123-4215-b49a-3df1b262a395 -->
+###### A.6.1.1.7.2.5.1.2.1.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 8f1c5178-2123-4215-b49a-3df1b262a395 -->
 
 The Distribution Reward payments for the Osero Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1093,7 +997,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.1.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 9bce120f-87d5-468c-8e16-eab9ded9285b -->
+###### A.6.1.1.7.2.5.1.2.1.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 9bce120f-87d5-468c-8e16-eab9ded9285b -->
 
 The Distribution Reward Payments are:
 
@@ -1145,19 +1049,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Nightly Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.2.3.1 - Initial Planning [Core]  <!-- UUID: 7130f5c5-80d1-4ffa-ac02-78af3276666c -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.2.3.2 - Operational GovOps Review [Core]  <!-- UUID: f108618f-d1c2-4984-aad0-4a8af0184c11 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.2.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 93282c5b-9bfb-4bfa-bcd2-2bf81678d99a -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.2.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 87aa35f1-8b39-4296-9dbc-fd4a90c54d8d -->
+###### A.6.1.1.7.2.5.1.2.2.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 87aa35f1-8b39-4296-9dbc-fd4a90c54d8d -->
 
 The Distribution Reward payments for the Nightly Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1166,7 +1058,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.2.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 8d4260fa-b6ae-4326-b6cc-b4276a3b7fe1 -->
+###### A.6.1.1.7.2.5.1.2.2.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 8d4260fa-b6ae-4326-b6cc-b4276a3b7fe1 -->
 
 The Distribution Reward Payments are:
 
@@ -1218,19 +1110,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Multiliquid Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.3.3.1 - Initial Planning [Core]  <!-- UUID: 2de6e2f5-06a8-4768-9769-1ccbcc07012f -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.3.3.2 - Operational GovOps Review [Core]  <!-- UUID: 2883e5c8-48c1-4d88-b516-00cbb922ccf5 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.3.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 8af0470c-9d13-41ca-9242-65f41320f8a9 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.3.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: d2143dfd-07c4-4107-9ac8-c71040441e10 -->
+###### A.6.1.1.7.2.5.1.2.3.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: d2143dfd-07c4-4107-9ac8-c71040441e10 -->
 
 The Distribution Reward payments for the Multiliquid Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1239,7 +1119,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.3.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 6762a58b-3199-46a0-8b38-01cce4b7cc5d -->
+###### A.6.1.1.7.2.5.1.2.3.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 6762a58b-3199-46a0-8b38-01cce4b7cc5d -->
 
 The Distribution Reward Payments are:
 
@@ -1291,19 +1171,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Anoma Pay Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.4.3.1 - Initial Planning [Core]  <!-- UUID: c3b4a5ae-859c-4961-a9b5-275acca7d036 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.4.3.2 - Operational GovOps Review [Core]  <!-- UUID: 6f015ed0-b3ef-442f-86d4-1f62c5c4ca1b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.4.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 9e35e242-270e-4300-a2ce-2133ebda0463 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.4.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 0a800cf6-6ba5-46f9-b4da-7aeee6b8990b -->
+###### A.6.1.1.7.2.5.1.2.4.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 0a800cf6-6ba5-46f9-b4da-7aeee6b8990b -->
 
 The Distribution Reward payments for the Anoma Pay Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1312,7 +1180,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.4.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 5b0eb309-d1b2-44be-9e93-21ebe6da6193 -->
+###### A.6.1.1.7.2.5.1.2.4.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 5b0eb309-d1b2-44be-9e93-21ebe6da6193 -->
 
 The Distribution Reward Payments are:
 
@@ -1364,19 +1232,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the LiFi Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.5.3.1 - Initial Planning [Core]  <!-- UUID: 6235ee39-d1b9-499d-8903-a88175199900 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.5.3.2 - Operational GovOps Review [Core]  <!-- UUID: 605ffedd-9677-44c5-90bb-78d883acf34b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.5.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 9b28a8e8-c17e-438b-bf9c-72e25ef4eee2 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.5.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: ad6367ad-e9c8-48fb-a6da-a29a6a8ca40d -->
+###### A.6.1.1.7.2.5.1.2.5.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: ad6367ad-e9c8-48fb-a6da-a29a6a8ca40d -->
 
 The Distribution Reward payments for the LiFi Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1385,7 +1241,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.5.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: f4dcae1d-7d08-4aa5-8df5-5f9e4c7f1e16 -->
+###### A.6.1.1.7.2.5.1.2.5.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: f4dcae1d-7d08-4aa5-8df5-5f9e4c7f1e16 -->
 
 The Distribution Reward Payments are:
 
@@ -1437,19 +1293,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Portals.fi Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.6.3.1 - Initial Planning [Core]  <!-- UUID: 8dd16fa8-6d42-49b2-a5a6-4552ef05bc27 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.6.3.2 - Operational GovOps Review [Core]  <!-- UUID: f50c60ab-5718-477c-98de-a11995f7e37b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.6.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 48d8e8ac-cc09-4059-9a41-b8e2734e1104 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.6.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 9f5f205b-8f0b-45a0-b5dc-54e048b3438a -->
+###### A.6.1.1.7.2.5.1.2.6.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 9f5f205b-8f0b-45a0-b5dc-54e048b3438a -->
 
 The Distribution Reward payments for the Portals.fi Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1458,7 +1302,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.6.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: b48df2a3-8041-4cdf-9325-8900dfeee61b -->
+###### A.6.1.1.7.2.5.1.2.6.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: b48df2a3-8041-4cdf-9325-8900dfeee61b -->
 
 The Distribution Reward Payments are:
 
@@ -1510,19 +1354,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Utila Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.7.3.1 - Initial Planning [Core]  <!-- UUID: 1cbc61c5-d411-4f50-ab02-a81395b55764 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.7.3.2 - Operational GovOps Review [Core]  <!-- UUID: de9c3d5f-50aa-41e3-b5cd-4c3fe6704973 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.7.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 5432ef34-4dfb-446c-8fe1-c7bb80334537 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.7.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 75302a2a-a146-4f4d-8560-f8dbb6ba2eaf -->
+###### A.6.1.1.7.2.5.1.2.7.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 75302a2a-a146-4f4d-8560-f8dbb6ba2eaf -->
 
 The Distribution Reward payments for the Utila Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1531,7 +1363,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.7.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 38d25c16-8377-47ff-aea3-8054d4396afa -->
+###### A.6.1.1.7.2.5.1.2.7.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 38d25c16-8377-47ff-aea3-8054d4396afa -->
 
 The Distribution Reward Payments are:
 
@@ -1583,19 +1415,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Gauntlet Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.7.2.5.1.2.8.3.1 - Initial Planning [Core]  <!-- UUID: adb743a1-14ce-4c1d-843f-abb1a26911ab -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.8.3.2 - Operational GovOps Review [Core]  <!-- UUID: 18f498ca-6cc0-4254-86db-d39d6b251248 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.8.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 753db04c-a883-4ba5-ab90-49dbcaf5b5b4 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.7.2.5.1.2.8.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: b272c08c-9145-44b2-88de-d6ecae6a27ca -->
+###### A.6.1.1.7.2.5.1.2.8.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: b272c08c-9145-44b2-88de-d6ecae6a27ca -->
 
 The Distribution Reward payments for the Gauntlet Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1604,7 +1424,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.7.2.5.1.2.8.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: cc1299ab-b9fb-41a0-8a95-4a6a174fac5a -->
+###### A.6.1.1.7.2.5.1.2.8.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: cc1299ab-b9fb-41a0-8a95-4a6a174fac5a -->
 
 The Distribution Reward Payments are:
 
@@ -1784,25 +1604,29 @@ This document contains a Directory of all Instances of the Allocation System Pri
 
 The documents herein contain a Directory of all Instances on the Ethereum Mainnet of the Allocation System Primitive with Instance status of `Active`.
 
-###### A.6.1.1.7.2.6.1.1.2.1.1 - SparkLend [Core]  <!-- UUID: 5d2cd0cf-2e73-490b-9d9c-a662e15688cb -->
-
-The Ethereum Mainnet Instances of the SparkLend Protocol with `Active` Status are stored herein.
-
-###### A.6.1.1.7.2.6.1.1.2.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document Location [Core]  <!-- UUID: 39dca6a6-fd8c-44fd-bd51-510d0cc9a122 -->
-
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39).
-
-###### A.6.1.1.7.2.6.1.1.2.1.2 - Morpho [Core]  <!-- UUID: f45a134b-6e24-4457-90ac-a93fe75f744e -->
+###### A.6.1.1.7.2.6.1.1.2.1.1 - Morpho [Core]  <!-- UUID: f45a134b-6e24-4457-90ac-a93fe75f744e -->
 
 The Ethereum Mainnet Instances of the Morpho Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.7.2.6.1.1.2.1.2.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 38d5861a-c16c-4e3b-9412-96037d403f8d -->
+###### A.6.1.1.7.2.6.1.1.2.1.1.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 38d5861a-c16c-4e3b-9412-96037d403f8d -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.3.1.2.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed).
 
 ###### A.6.1.1.7.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 4c12626b-272a-4886-b7af-c6968b021fc2 -->
 
 This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of `Completed`.
+
+###### A.6.1.1.7.2.6.1.1.3.1 - Ethereum Mainnet [Core]  <!-- UUID: 0d4d05b9-bdae-4704-a216-8c0efa7dffa3 -->
+
+The documents herein contain a Directory of all Instances on the Ethereum Mainnet of the Allocation System Primitive with Instance status of `Completed`.
+
+###### A.6.1.1.7.2.6.1.1.3.1.1 - SparkLend [Core]  <!-- UUID: 5d2cd0cf-2e73-490b-9d9c-a662e15688cb -->
+
+The Ethereum Mainnet Instances of the SparkLend Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.7.2.6.1.1.3.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document Location [Core]  <!-- UUID: 39dca6a6-fd8c-44fd-bd51-510d0cc9a122 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.4.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39).
 
 ###### A.6.1.1.7.2.6.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 759c5f6a-7c13-466f-9130-0801575b0145 -->
 
@@ -2088,7 +1912,7 @@ The Osero Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.2.3.1.2.16 - PSM F
 
 ###### A.6.1.1.7.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: a0fca594-a7b9-45fa-9be1-a209d5341029 -->
 
-The rate limits of the Osero Liquidity Layer are managed as specified in [A.2.2.10.1.1.1.2.5.3 - Rate Limit Management](6f5bc654-a053-4b1f-9ada-6aa13d0a2109). The Osero-specific rate limit values are specified under the [A.6.1.1.7.2.6.1.2.1.1 - Osero Liquidity Layer Architecture](e8f3afd5-d1a8-4379-826c-2c3bcc365947) and both Instance Configuration Documents: the [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39) and the [A.6.1.1.7.2.6.1.3.1.2.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed).
+The rate limits of the Osero Liquidity Layer are managed as specified in [A.2.2.10.1.1.1.2.5.3 - Rate Limit Management](6f5bc654-a053-4b1f-9ada-6aa13d0a2109). The Osero-specific rate limit values are specified under the [A.6.1.1.7.2.6.1.2.1.1 - Osero Liquidity Layer Architecture](e8f3afd5-d1a8-4379-826c-2c3bcc365947) and both Instance Configuration Documents: the [A.6.1.1.7.2.6.1.4.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39) and the [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed).
 
 ###### A.6.1.1.7.2.6.1.2.2.1.4 - Instance Lifecycle Management [Core]  <!-- UUID: bbbb38cb-5a0d-4f5f-9361-33ebb954e4ca -->
 
@@ -2110,217 +1934,122 @@ The Instances of the Allocation System Primitive with `Active` Status are stored
 
 The Ethereum Mainnet Instances of the Osero Liquidity Layer with `Active` Status are stored herein and are organized by target protocol.
 
-###### A.6.1.1.7.2.6.1.3.1.1 - SparkLend [Core]  <!-- UUID: a0487ced-39d2-487d-9415-55620a12ea3c -->
-
-The Ethereum Mainnet Instances of the SparkLend Protocol with `Active` Status are stored herein.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document [Core]  <!-- UUID: 80b9a7d4-e110-45ec-955b-ebd6d0c8aa39 -->
-
-The documents herein contain the Instance Configuration Document for the SparkLend USDS Instance.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: a68dddff-9e7a-461f-b56c-85e0614ad78e -->
-
-**`Covered`**
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2 - Parameters [Core]  <!-- UUID: 71bf4607-f3cc-45e6-a79d-917af5bd95ef -->
-
-The documents herein define the parameters of the SparkLend USDS Instance of the Allocation System Primitive.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 3f389fbe-9815-4728-bb34-e81aff55d8e7 -->
-
-The documents herein define the Instance identifiers.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.1 - Network [Core]  <!-- UUID: a49f2d1a-b8d1-4066-b656-28168366025e -->
-
-Ethereum Mainnet
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: ecc20a97-6e7f-4f12-8445-d3c1d687353b -->
-
-SparkLend
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.3 - Asset Supplied By Osero Liquidity Layer [Core]  <!-- UUID: 3d5895e3-8da8-46b5-82c0-bdef81c3346d -->
-
-USDS
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.4 - Token [Core]  <!-- UUID: 1a208cb9-a2c7-488f-af77-c97945169971 -->
-
-spUSDS
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: bd92de02-23e3-4572-912b-3f233c5b25d2 -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.2.1 - Token Address [Core]  <!-- UUID: 26708475-708e-450d-aa9b-9ef21b63af89 -->
-
-`0xC02aB1A5eaA8d1B114EF786D9bde108cD4364359`
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 96540b0d-ff98-46a9-b379-f1a5e0b9db93 -->
-
-`0xdC035D45d973E3EC169d2276DDab16f1e407384F`
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7955432c-9f6e-428f-81ed-107a4f78981a -->
-
-The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 5a8c4661-e07f-4182-becc-ff724b7d16e9 -->
-
-The inflow RateLimitID is: `0x5534da2f28b3dd200cb0042c0876cd6e2beca93d3232c366ec077018c82da73d`.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: b9360d7a-7cd4-4019-909d-bd729334cd5c -->
-
-The outflow RateLimitID is: `0xf9ac1455c7ba8e0bacb7a3eca4a2cf412eda3cbc0f6aa1b071d73b37d49925d8`.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.4 - Rate Limits [Core]  <!-- UUID: d0d163d7-b9d3-4e7d-9371-0a8c48bf2d9f -->
-
-The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.7.2.6.1.2.1.1.2.2 - Diamond PAU Rate Limits](325731dc-5e89-4a8a-9d64-91b203febf48).
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: e3b12e29-eb67-40be-8cac-85913eff958c -->
-
-The deposit rate limits are:
-- `maxAmount`: 50,000,000 USDS
-- `slope`: 50,000,000 USDS per day
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: b021fcff-b1e3-456d-a1e6-f14604784100 -->
-
-The withdrawal rate limits are:
-- `maxAmount`: Unlimited
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 9781b3b4-bc78-49e6-9f4d-8da869ee113f -->
-
-The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.1 - Max Slippage [Core]  <!-- UUID: b650660f-a579-42ce-bc7e-6f6046d9a7b4 -->
-
-The `maxSlippage` for this Instance is 0.01%.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.2 - Maximum Exposure [Core]  <!-- UUID: 7baff09a-9aae-4abc-9643-dcb20940fe4d -->
-
-The Maximum Exposure for this Instance is 100,000,000 USDS.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.3 - Capital Ratio Requirement [Core]  <!-- UUID: 771b1a44-5bb6-4c9b-92de-e45485c5a11f -->
-
-The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 5%.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: ff10e260-7465-4dd0-a1c3-899a66f3bbcb -->
-
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer processes.
-
-###### A.6.1.1.7.2.6.1.3.1.2 - Morpho [Core]  <!-- UUID: e4b5ea14-bfee-4b92-a242-3b031b89b7bd -->
+###### A.6.1.1.7.2.6.1.3.1.1 - Morpho [Core]  <!-- UUID: e4b5ea14-bfee-4b92-a242-3b031b89b7bd -->
 
 The Ethereum Mainnet Instances of the Morpho Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 6f00b7cd-21b5-4a8b-ae29-a97669d953ed -->
+###### A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 6f00b7cd-21b5-4a8b-ae29-a97669d953ed -->
 
 The documents herein contain the Instance Configuration Document for the Gauntlet USDC Prime Morpho Vault V2 Instance.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: ed1400d6-4bd6-4ea4-85ae-b6a2455ee5be -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: ed1400d6-4bd6-4ea4-85ae-b6a2455ee5be -->
 
 **`Pending`**
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2 - Parameters [Core]  <!-- UUID: 192cf8b5-2bd1-43a5-bfa1-5321e8ffd9e1 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2 - Parameters [Core]  <!-- UUID: 192cf8b5-2bd1-43a5-bfa1-5321e8ffd9e1 -->
 
 The documents herein define the parameters of the Gauntlet USDC Prime Morpho Vault V2 Instance of the Allocation System Primitive.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 0e23bfc6-19e5-4059-bad0-e5c306e5738c -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 0e23bfc6-19e5-4059-bad0-e5c306e5738c -->
 
 The documents herein define the Instance identifiers.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.1 - Network [Core]  <!-- UUID: 0dd995c2-5fd0-46f6-b790-dede5ab59dd4 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.1 - Network [Core]  <!-- UUID: 0dd995c2-5fd0-46f6-b790-dede5ab59dd4 -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 69564861-a1c6-497b-9608-227e033e9959 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 69564861-a1c6-497b-9608-227e033e9959 -->
 
 Morpho
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.3 - Asset Supplied By Osero Liquidity Layer [Core]  <!-- UUID: 8fd3fc18-8824-42ee-bedf-93b5f8f1445e -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.3 - Asset Supplied By Osero Liquidity Layer [Core]  <!-- UUID: 8fd3fc18-8824-42ee-bedf-93b5f8f1445e -->
 
 USDC
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.4 - Token [Core]  <!-- UUID: be9ca01f-1675-4d83-80af-b80789c3bd6f -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.1.4 - Token [Core]  <!-- UUID: be9ca01f-1675-4d83-80af-b80789c3bd6f -->
 
 ogusdcp
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.2 - Contract Addresses [Core]  <!-- UUID: ee317ae3-a7f8-4d29-8cb5-d43a9082a2e1 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: ee317ae3-a7f8-4d29-8cb5-d43a9082a2e1 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.2.1 - Token Address [Core]  <!-- UUID: ab5f16ef-d8d3-4af4-bc8c-15c928222ac8 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.2.1 - Token Address [Core]  <!-- UUID: ab5f16ef-d8d3-4af4-bc8c-15c928222ac8 -->
 
 `0x802148D518A6De2aF866f9A61ffB5e5C39156dB2`
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 15a30378-8d55-4f5b-9fcf-abb953b4b44c -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 15a30378-8d55-4f5b-9fcf-abb953b4b44c -->
 
 `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 3b6e99e5-8e18-4af7-bac6-3c2c90fbb864 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 3b6e99e5-8e18-4af7-bac6-3c2c90fbb864 -->
 
 The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 25e71c76-9cc0-4e2f-bf7a-8b1a27586b9b -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 25e71c76-9cc0-4e2f-bf7a-8b1a27586b9b -->
 
 The inflow RateLimitID is: `0xfc26a91cf7b79b531d45dcc431ee59e4f2504f51cb33e2b67960808a104c92ef`.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: d79cd4a4-7c53-4891-9dd1-b757f763cb1e -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: d79cd4a4-7c53-4891-9dd1-b757f763cb1e -->
 
 The outflow RateLimitID is: `0xcab6bfa8f90f2360ea56d52b48e71b2b98ee14414a2fd578d01dcfeb41cf97ca`.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.4 - Rate Limits [Core]  <!-- UUID: cb293144-de0c-4bd8-9971-d96327b38ae9 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.4 - Rate Limits [Core]  <!-- UUID: cb293144-de0c-4bd8-9971-d96327b38ae9 -->
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: cc2247bd-82cb-46af-a0eb-cf4bf253256c -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: cc2247bd-82cb-46af-a0eb-cf4bf253256c -->
 
-The deposit rate limits are:
-- `maxAmount`: 5,000,000 USDC
-- `slope`: 650,000 USDC per day
+The deposit rate limit parameters are:
+- `maxAmount`: 15,000,000 USDC
+- `slope`: 10,000,000 USDC per day
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.1.1 - Deposit Rate Limit Default [Core]  <!-- UUID: 8b15128c-5b5e-4936-b835-eee711617d61 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.1.1 - Deposit Rate Limit Default [Core]  <!-- UUID: 8b15128c-5b5e-4936-b835-eee711617d61 -->
 
-The default registered in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129) via [A.2.2.10.1.1.1.2.4.1.3.3.5 - Add Init Rate Limits Function Call](bbdf1e6a-821b-43ec-aabf-e43a3bd6e113) for this Instance's inflow `RateLimitID` ([A.6.1.1.7.2.6.1.3.1.2.1.2.3.1 - Inflow RateLimitID](25e71c76-9cc0-4e2f-bf7a-8b1a27586b9b)) is:
+The default registered in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129) via [A.2.2.10.1.1.1.2.4.1.3.3.5 - Add Init Rate Limits Function Call](bbdf1e6a-821b-43ec-aabf-e43a3bd6e113) for this Instance's inflow `RateLimitID` ([A.6.1.1.7.2.6.1.3.1.1.1.2.3.1 - Inflow RateLimitID](25e71c76-9cc0-4e2f-bf7a-8b1a27586b9b)) is:
 - `maxAmount`: 5,000,000 USDC
 - `slope`: 650,000 USDC per day
 
 A paired cBEAM may raise the live deposit rate limit's `maxAmount` or `slope` up to the higher of this registered default or the current value multiplied by `maxChange`, without a Spell, as specified in [A.2.2.10.1.1.1.2.4.1.1.2.1 - Max Change Definition](942d6607-b92c-4779-8012-ea3b259ebf2b) and [A.2.2.10.1.1.1.2.4 - PAS](989171ed-5424-42ee-83f4-199e1149699c). Each such raise may be made only after the `hop` interval set by [A.2.2.10.1.1.1.2.4.1.1.1.1 - Hop Definition](dc0e3a84-b542-4985-a41b-7ae2a3921cf3) has passed since the last raise to this rate limit.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: cf5305cb-703b-4e59-8cd8-e2f4a01f87e2 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: cf5305cb-703b-4e59-8cd8-e2f4a01f87e2 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: a72d35e7-811b-4a38-b261-ab6bb6100058 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: a72d35e7-811b-4a38-b261-ab6bb6100058 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.5.1 - Max Slippage [Core]  <!-- UUID: 69931712-13d4-4b45-a481-2e6d1111e031 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.1 - Max Slippage [Core]  <!-- UUID: 69931712-13d4-4b45-a481-2e6d1111e031 -->
 
 The `maxSlippage` for this Instance will be specified in a future iteration of the Osero Artifact.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.5.2 - Maximum Exposure [Core]  <!-- UUID: be1ab30f-c697-4dfd-a605-8ca22e28c06e -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.2 - Maximum Exposure [Core]  <!-- UUID: be1ab30f-c697-4dfd-a605-8ca22e28c06e -->
 
-The Maximum Exposure for this Instance is 10,000,000 USDC.
+The Maximum Exposure for this Instance is 25,000,000 USDC.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.2.5.3 - Capital Ratio Requirement [Core]  <!-- UUID: f61b71cf-6b5b-41a8-8897-9f1289464745 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.3 - Capital Ratio Requirement [Core]  <!-- UUID: f61b71cf-6b5b-41a8-8897-9f1289464745 -->
 
-The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 25%.
+The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 10%.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c2c97076-4571-4299-94c6-eae2c99fa81b -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c2c97076-4571-4299-94c6-eae2c99fa81b -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer processes.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: fb43210e-07b9-4f37-ad89-b231f61c8f0a -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: fb43210e-07b9-4f37-ad89-b231f61c8f0a -->
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer parameters.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.1 - Contract Addresses [Core]  <!-- UUID: fa043785-e6fb-404a-b23a-593fbee6d170 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.1 - Contract Addresses [Core]  <!-- UUID: fa043785-e6fb-404a-b23a-593fbee6d170 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.1 - Owner Role Address [Core]  <!-- UUID: 69f43969-9da2-4bb1-98f8-58f166712ef5 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.1.1 - Owner Role Address [Core]  <!-- UUID: 69f43969-9da2-4bb1-98f8-58f166712ef5 -->
 
 The Owner role is held by Osero through its SubProxy at `0x24fdcd3bFA5C2553e05B2f9AD0365EBC296278D3`.
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.2 - Curator Role Address [Core]  <!-- UUID: d13f341a-5471-42a2-ab00-a3148cd38917 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.1.2 - Curator Role Address [Core]  <!-- UUID: d13f341a-5471-42a2-ab00-a3148cd38917 -->
 
 The Curator role is held jointly by Soter Labs and Gauntlet through the Curator Multisig at `0x256DaC8fad2788F4182A42cE8F26029F0DEd7cf9`.
 
@@ -2331,7 +2060,7 @@ The co-curator addresses are:
 | Soter Labs | `0x037A8456FB92dB66590C0060eE4174cC6812f518` |
 | Gauntlet | `0x9E33faAE38ff641094fa68c65c2cE600b3410585` |
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.3 - Allocator Role Addresses [Core]  <!-- UUID: b0b73201-d985-4a71-84d9-05ae9f9320be -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.1.3 - Allocator Role Addresses [Core]  <!-- UUID: b0b73201-d985-4a71-84d9-05ae9f9320be -->
 
 The Allocator role is held by the following entities at the corresponding addresses:
 
@@ -2340,7 +2069,7 @@ The Allocator role is held by the following entities at the corresponding addres
 | Gauntlet | `0x6939A35d32E9bE623e08aA0bceD96D4baC170bB3` |
 | Soter Labs and Gauntlet, through the Curator Multisig | `0x256DaC8fad2788F4182A42cE8F26029F0DEd7cf9` |
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.1.4 - Sentinel Role Addresses [Core]  <!-- UUID: c2390e13-50af-4008-9474-ed4e99eac308 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.1.4 - Sentinel Role Addresses [Core]  <!-- UUID: c2390e13-50af-4008-9474-ed4e99eac308 -->
 
 The Sentinel role is held by the following entities at the corresponding addresses:
 
@@ -2349,15 +2078,161 @@ The Sentinel role is held by the following entities at the corresponding address
 | Gauntlet | `0x6a0dC94d80429dd4B03E8838CE8d6BEE725bE39B` |
 | Soter Labs | `0xf51A112fB2cB63E3CB3eeB7feA8c7c58625868C7` |
 
-###### A.6.1.1.7.2.6.1.3.1.2.1.4.2 - Maximum Exchange Rate [Core]  <!-- UUID: 5ca0988c-87d9-406e-86ff-2e719429b0a3 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.2 - Maximum Exchange Rate [Core]  <!-- UUID: 5ca0988c-87d9-406e-86ff-2e719429b0a3 -->
 
 The maximum exchange rate for this Instance is two (2) USDC per whole vault share, set by calling the `erc4626_setMaxExchangeRate` function on the Diamond PAU Controller, as specified in [A.2.2.10.1.1.1.2.5.2.6.4 - Set Maximum Exchange Rate For ERC-4626 Vault](3cbc5171-858d-4e36-bc81-da1b323052de).
 
 - `erc4626_setMaxExchangeRate(OGUSDCP_VAULT, 1e18, 2e6)`
 
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.3 - Timelocks [Core]  <!-- UUID: ce61a3fa-da14-4cb9-a573-4847bd210fdf -->
+
+The timelock configuration for this Instance is defined in the subdocuments herein. The minimum delays required of Morpho vaults are specified in [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569).
+
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.3.1 - Seven-Day Timelocks [Core]  <!-- UUID: 4c4b9e64-7733-4982-b6f0-fda89c61526b -->
+
+Of the functions subject to [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569), the following have a timelock delay of seven (7) days:
+
+- `abdicate`
+- `addAdapter`
+- `increaseAbsoluteCap`
+- `increaseRelativeCap`
+- `increaseTimelock`
+- `removeAdapter`
+- `setSendAssetsGate`
+
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.3.2 - Three-Day Timelocks [Core]  <!-- UUID: beba0d1e-2d47-4578-ac76-307d959724ef -->
+
+Of the functions subject to [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569), the following have a timelock delay of three (3) days:
+
+- `setManagementFee`
+- `setManagementFeeRecipient`
+- `setPerformanceFee`
+- `setPerformanceFeeRecipient`
+
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.3.3 - Functions Without A Timelock [Core]  <!-- UUID: 7ebf0b52-130b-461c-a07c-84ad794f6835 -->
+
+Of the functions subject to [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569), the following are not subject to a timelock delay:
+
+- `setForceDeallocatePenalty`
+- `setIsAllocator`
+
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.3.4 - Abdicated Functions [Core]  <!-- UUID: 789e37c6-e8b9-44c2-9b7e-05269aa1e2ab -->
+
+Of the functions subject to [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569), the following have been permanently abdicated and can never be called:
+
+- `setAdapterRegistry`
+- `setReceiveAssetsGate`
+- `setReceiveSharesGate`
+- `setSendSharesGate`
+
+###### A.6.1.1.7.2.6.1.3.1.1.1.4.4 - Force-Deallocate Penalty [Core]  <!-- UUID: 3a646898-4a70-4cf7-ab7a-9c2cb2cc28fe -->
+
+The force-deallocate penalty is withdrawn from the account that authorizes a forced withdrawal of assets from the Morpho Market V1 adapter at `0x9DD0Ceb7caC214777014d2f664dB3C20f0838D53`, as a percentage of the assets withdrawn:
+
+Force-Deallocate Penalty: 0.01%
+
 ##### A.6.1.1.7.2.6.1.4 - Completed Instances [Core]  <!-- UUID: 1292a07b-637f-4b35-adc1-1a9bdeee9566 -->
 
 The Instances of the Allocation System Primitive with `Completed` Status are stored herein.
+
+###### A.6.1.1.7.2.6.1.4.1 - Ethereum Mainnet Instances [Core]  <!-- UUID: 66a625e6-ed46-46a8-ae6b-b00ce7bb29bb -->
+
+The Ethereum Mainnet Instances of the Osero Liquidity Layer with `Completed` Status are stored herein and are organized by target protocol.
+
+###### A.6.1.1.7.2.6.1.4.1.1 - SparkLend [Core]  <!-- UUID: a0487ced-39d2-487d-9415-55620a12ea3c -->
+
+The Ethereum Mainnet Instances of the SparkLend Protocol with `Completed` Status are stored herein.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document [Core]  <!-- UUID: 80b9a7d4-e110-45ec-955b-ebd6d0c8aa39 -->
+
+The documents herein contain the Instance Configuration Document for the SparkLend USDS Instance.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: a68dddff-9e7a-461f-b56c-85e0614ad78e -->
+
+**`Covered`**
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2 - Parameters [Core]  <!-- UUID: 71bf4607-f3cc-45e6-a79d-917af5bd95ef -->
+
+The documents herein define the parameters of the SparkLend USDS Instance of the Allocation System Primitive.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 3f389fbe-9815-4728-bb34-e81aff55d8e7 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.1.1 - Network [Core]  <!-- UUID: a49f2d1a-b8d1-4066-b656-28168366025e -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: ecc20a97-6e7f-4f12-8445-d3c1d687353b -->
+
+SparkLend
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.1.3 - Asset Supplied By Osero Liquidity Layer [Core]  <!-- UUID: 3d5895e3-8da8-46b5-82c0-bdef81c3346d -->
+
+USDS
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.1.4 - Token [Core]  <!-- UUID: 1a208cb9-a2c7-488f-af77-c97945169971 -->
+
+spUSDS
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: bd92de02-23e3-4572-912b-3f233c5b25d2 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.2.1 - Token Address [Core]  <!-- UUID: 26708475-708e-450d-aa9b-9ef21b63af89 -->
+
+`0xC02aB1A5eaA8d1B114EF786D9bde108cD4364359`
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 96540b0d-ff98-46a9-b379-f1a5e0b9db93 -->
+
+`0xdC035D45d973E3EC169d2276DDab16f1e407384F`
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7955432c-9f6e-428f-81ed-107a4f78981a -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 5a8c4661-e07f-4182-becc-ff724b7d16e9 -->
+
+The inflow RateLimitID is: `0x5534da2f28b3dd200cb0042c0876cd6e2beca93d3232c366ec077018c82da73d`.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: b9360d7a-7cd4-4019-909d-bd729334cd5c -->
+
+The outflow RateLimitID is: `0xf9ac1455c7ba8e0bacb7a3eca4a2cf412eda3cbc0f6aa1b071d73b37d49925d8`.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.4 - Rate Limits [Core]  <!-- UUID: d0d163d7-b9d3-4e7d-9371-0a8c48bf2d9f -->
+
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.7.2.6.1.2.1.1.2.2 - Diamond PAU Rate Limits](325731dc-5e89-4a8a-9d64-91b203febf48).
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: e3b12e29-eb67-40be-8cac-85913eff958c -->
+
+The deposit rate limit parameters are:
+- `maxAmount`: 50,000,000 USDS
+- `slope`: 50,000,000 USDS per day
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: b021fcff-b1e3-456d-a1e6-f14604784100 -->
+
+The withdrawal rate limit parameter is:
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 9781b3b4-bc78-49e6-9f4d-8da869ee113f -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.5.1 - Max Slippage [Core]  <!-- UUID: b650660f-a579-42ce-bc7e-6f6046d9a7b4 -->
+
+The `maxSlippage` for this Instance is 0.01%.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.5.2 - Maximum Exposure [Core]  <!-- UUID: 7baff09a-9aae-4abc-9643-dcb20940fe4d -->
+
+The Maximum Exposure for this Instance is 100,000,000 USDS.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.2.5.3 - Capital Ratio Requirement [Core]  <!-- UUID: 771b1a44-5bb6-4c9b-92de-e45485c5a11f -->
+
+The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 5%.
+
+###### A.6.1.1.7.2.6.1.4.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: ff10e260-7465-4dd0-a1c3-899a66f3bbcb -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer processes.
 
 ##### A.6.1.1.7.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: 475822f8-5a16-48e3-8228-85785657b2ac -->
 

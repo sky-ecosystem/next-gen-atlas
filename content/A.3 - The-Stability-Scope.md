@@ -2101,6 +2101,16 @@ The Administrative CRR for Superstate is calculated as specified in [A.3.2.2.1.2
 
 The Administrative Risk Rating for Fluid is `25`.
 
+##### A.3.2.2.1.4 - Temporary Capital Ratio Requirements [Core]  <!-- UUID: b73bfcda-8adc-40d0-b327-c90b3693798e -->
+
+The Core Council has approved temporary Instance Total CRRs for Instances of the Allocation System Primitive. These apply from November 1, 2026, until a future iteration of the Atlas specifies otherwise.
+
+The Core Council Risk Advisor publishes these in a dashboard made available to Prime Agents and Core GovOps.
+
+For a listed Instance, the Instance Total CRR that the dashboard shows as in effect replaces the Instance Financial CRR, Instance Smart Contract CRR and Instance Administrative CRR that would otherwise apply under the Atlas. Where a Prime Agent Artifact specifies a CRR for that Instance, the higher of the two applies. An Instance that is not listed keeps the CRR specified in the Atlas.
+
+A 100% CRR that the Atlas requires is not replaced.
+
 #### A.3.2.2.2 - Core Risk Capital Parameters [Core]  <!-- UUID: 15276567-bf61-4c27-8aa2-2f27da831a48 -->
 
 The documents herein define the core risk capital parameters.
