@@ -102,18 +102,6 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 The documents herein contain data relevant to the Single Instance of the Agent Creation Primitive.
 
-###### A.6.1.1.8.2.1.1.3.1.3.1 - Initial Planning [Core]  <!-- UUID: e0b544df-ad91-46a7-8c4e-da665c1ba9f5 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.1.1.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: bc83f510-98d9-4088-b775-3fca976df4ed -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.1.1.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 904a4c5e-7d06-45ee-b0e5-b327f131276d -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.8.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 6cf9e5bd-a6a9-4f8c-b823-17c99c6d3805 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
@@ -193,18 +181,6 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 ###### A.6.1.1.8.2.1.2.3.1.3 - Data Repository [Core]  <!-- UUID: 7967c2b8-181c-4582-a265-7e60654503e1 -->
 
 The documents herein contain data relevant to the Single Instance of the Prime Transformation Primitive.
-
-###### A.6.1.1.8.2.1.2.3.1.3.1 - Initial Planning [Core]  <!-- UUID: cd906df7-aeb9-4859-a364-3fb03d4f2f78 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.1.2.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: dcbe59e5-5d72-49f3-92cc-fce16bd6d5f9 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.1.2.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 11420736-9467-412e-81ee-389e254b4ac3 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.8.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: ea18a0a9-b7dd-47d8-97da-3f55b3eeb645 -->
 
@@ -356,18 +332,6 @@ The documents herein define the operational processes for minting and initial di
 
 The documents herein contain data relevant to the Single Instance of the Agent Token Primitive.
 
-###### A.6.1.1.8.2.1.4.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 3fa4e43c-9de9-4778-92b2-2adfb9dfdc92 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.1.4.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 8ee40481-70c1-450b-b6e0-aa054cc8daca -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.1.4.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 293be631-ea6f-4a3c-a6db-f1cc99b322e9 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.8.2.1.4.3 - Completed Instances [Core]  <!-- UUID: 21ccd43b-b2e2-4404-bdf2-b041c42a8764 -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
@@ -451,18 +415,6 @@ The documents herein define the process for the ongoing management of the Ozone 
 ###### A.6.1.1.8.2.2.1.2.1.3 - Data Repository [Core]  <!-- UUID: ec907cef-df83-4502-ada8-920c3e020e1b -->
 
 The documents herein contain data relevant to the Ozone Instance of the Executor Accord Primitive.
-
-###### A.6.1.1.8.2.2.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: e60e7340-7e86-4207-b725-2b1380f637d4 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.2.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 15f11c14-4ae7-4e7b-84c8-211fb93b6f8b -->
-
-The materials associated with Operational GovOps review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.2.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: b2ef0e67-5e45-43f0-a62b-6a3669db4cc8 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.8.2.2.1.3 - Completed Instances [Core]  <!-- UUID: 0bf3b18f-3381-4f7d-be8d-20edbe53d69d -->
 
@@ -587,18 +539,6 @@ In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.9.1.1 - Defi
 ###### A.6.1.1.8.2.2.2.2.1.3 - Data Repository [Core]  <!-- UUID: 69761497-4868-413b-965d-ff1679ee3ed7 -->
 
 The documents herein contain data relevant to the Single Instance of the Root Edit Primitive.
-
-###### A.6.1.1.8.2.2.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: d29e42dd-0675-47b8-b0c9-8e88a7f17f14 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.2.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: f8798270-5625-496f-87f5-b79f8981fd54 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.2.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 19d6d80e-edfc-45ed-9909-8130a006c542 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.8.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 2ce26124-5604-42ae-a3ab-9790a4a9a702 -->
 
@@ -752,18 +692,6 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.8.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 1126acc9-9fb2-493b-b6ed-78cdccb75c5a -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.3.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 4d4d1a09-cb35-4582-bdb1-919ec4e52a16 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.3.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: c828c63f-634c-42f6-8741-27edbd83ff68 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.8.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 6aca1d4d-5962-4215-a778-cdad996dc4f8 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
@@ -859,18 +787,6 @@ The documents herein define the protocol for handling emergency situations in th
 ###### A.6.1.1.8.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: 9ac2f1d8-a349-4348-8f66-79fdc605eab8 -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
-
-###### A.6.1.1.8.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: d4946913-4550-4250-b48e-5fe97e30728c -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: e07b73b0-079a-45ba-a861-03d6f4d7ac49 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.8.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 990d5e1a-d9ac-4aa6-a663-ec310f193d84 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.8.2.3.2.3 - Completed Instances [Core]  <!-- UUID: ccc58c85-b8b2-429a-a95d-df91902a6697 -->
 
