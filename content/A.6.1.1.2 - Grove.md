@@ -92,7 +92,15 @@ The Grove Foundation is the Prime Foundation associated with Grove. Its mandate 
 
 ###### A.6.1.1.2.2.1.1.3.1.1.5 - Development Company [Core]  <!-- UUID: 830f6fb5-1037-4516-9efa-d7101553a3d0 -->
 
-Grove Development Company is a development company that provides services to the Grove Foundation. Grove Development Company is a "Nested Contributor", i.e., a core contributor to both Grove and Sky.
+Grove Labs (formerly Grove Development Company) is a development company that provides services to the Grove Foundation. Grove Labs is a "Nested Contributor", i.e., a core contributor to both Grove and Sky.
+
+###### A.6.1.1.2.2.1.1.3.1.1.6 - Custom Instance Parameters [Core]  <!-- UUID: 75a3ec3d-d2fc-4023-a75a-ffd0d7bb7d30 -->
+
+The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
+
+###### A.6.1.1.2.2.1.1.3.1.1.6.1 - Grove Group [Core]  <!-- UUID: 11094b97-c84d-43c1-97c5-7fefa3c048f1 -->
+
+Grove Group comprises the Grove Foundation and its subsidiaries, namely: Bamboo Grove Ltd, Cedar Grove Ltd, and Grove Labs.
 
 ###### A.6.1.1.2.2.1.1.3.1.2 - Operational Process Definition [Core]  <!-- UUID: 8ff8bfe6-5311-4f5f-9daf-c56219ac0a77 -->
 
@@ -2309,13 +2317,13 @@ Collections authorized under this provision may be included directly in a Grove 
 
 The documents herein specify requirements related to Grove’s Total Risk Capital (TRC) management.
 
-###### A.6.1.1.2.2.6.1.2.1.3.1 - Grove Development Company’s Operation Of Grove Liquidity Layer And Agreement Regarding Encumbrance Ratio [Core]  <!-- UUID: b5120b66-7007-4f0c-977f-a441a7067f92 -->
+###### A.6.1.1.2.2.6.1.2.1.3.1 - Grove Labs’ Operation Of Grove Liquidity Layer And Agreement Regarding Encumbrance Ratio [Core]  <!-- UUID: b5120b66-7007-4f0c-977f-a441a7067f92 -->
 
-Grove Development Company will operate the Grove Liquidity Layer and agrees to stay at or below a 90% Encumbrance Ratio. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9).
+Grove Labs will operate the Grove Liquidity Layer and agrees to stay at or below a 90% Encumbrance Ratio. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9).
 
-###### A.6.1.1.2.2.6.1.2.1.3.2 - Grove Development Company’s Total Risk Capital (TRC) Management Processes [Core]  <!-- UUID: 35b828fe-4bf3-49e3-a87b-95751562f2b5 -->
+###### A.6.1.1.2.2.6.1.2.1.3.2 - Grove Labs’ Total Risk Capital (TRC) Management Processes [Core]  <!-- UUID: 35b828fe-4bf3-49e3-a87b-95751562f2b5 -->
 
-As operators of the Grove Liquidity Layer, Grove Development Company automatically inherits, and is subject to, the base class of operational requirements related to Total Risk Capital management defined in [A.2.2.10.1.1.3.2.1.2 - Primes' Total Risk Capital (TRC) Management](3af8a3a2-25e5-44b3-87a4-7df1f2712685). Modifications to the base operational logic automatically propagate to the Grove Artifact.
+As operators of the Grove Liquidity Layer, Grove Labs automatically inherits, and is subject to, the base class of operational requirements related to Total Risk Capital management defined in [A.2.2.10.1.1.3.2.1.2 - Primes' Total Risk Capital (TRC) Management](3af8a3a2-25e5-44b3-87a4-7df1f2712685). Modifications to the base operational logic automatically propagate to the Grove Artifact.
 
 ###### A.6.1.1.2.2.6.1.2.2 - Grove Liquidity Layer Operational Processes [Core]  <!-- UUID: e5d30bed-ae48-459e-92f1-2a97f21855b7 -->
 
@@ -10776,7 +10784,7 @@ On October 16, 2025, Grove agreed to a DAO Resolution authorizing Grove Foundati
 
 #### A.6.1.1.2.3.6.2 - Onboard With Ethena [Core]  <!-- UUID: 9629b16e-4f11-49bc-80be-6c85d711716c -->
 
-On October 23, 2025, Grove agreed to a DAO Resolution authorizing Bamboo Grove to onboard with Ethena. See [https://ipfs.io/ipfs/bafkreic5vspzukckcgnx5ykwj2inqidvbfcknafa56jqgo25cveqyi565q](https://ipfs.io/ipfs/bafkreic5vspzukckcgnx5ykwj2inqidvbfcknafa56jqgo25cveqyi565q). The DAO Resolution makes reference to a Deed Poll that is approved as part of the DAO Resolution. See [https://ipfs.io/ipfs/bafkreibvyodjaosdfdzsrqjtuohwte46pol4zzmchky4t5xejaltonzi24](https://ipfs.io/ipfs/bafkreibvyodjaosdfdzsrqjtuohwte46pol4zzmchky4t5xejaltonzi24).
+On October 23, 2025, Grove agreed to a DAO Resolution authorizing Bamboo Grove Ltd to onboard with Ethena. See [https://ipfs.io/ipfs/bafkreic5vspzukckcgnx5ykwj2inqidvbfcknafa56jqgo25cveqyi565q](https://ipfs.io/ipfs/bafkreic5vspzukckcgnx5ykwj2inqidvbfcknafa56jqgo25cveqyi565q). The DAO Resolution makes reference to a Deed Poll that is approved as part of the DAO Resolution. See [https://ipfs.io/ipfs/bafkreibvyodjaosdfdzsrqjtuohwte46pol4zzmchky4t5xejaltonzi24](https://ipfs.io/ipfs/bafkreibvyodjaosdfdzsrqjtuohwte46pol4zzmchky4t5xejaltonzi24).
 
 #### A.6.1.1.2.3.6.3 - Onboard With Ripple, Agora And Paxos [Core]  <!-- UUID: 1890a855-9e68-4705-a20c-085ee8b5f463 -->
 
