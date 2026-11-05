@@ -1979,6 +1979,7 @@ Breaches of the Graduated Response Framework are recorded herein.
 | 2026-07-13 | AxisLegati | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/axislegati-ad-recognition-submission/27677/5) |
 | 2026-07-13 | OPEX | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/opex-aligned-delegate-communication-platform/27630/11) |
 | 2026-07-13 | Excel | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/excel-ad-recognition-submission/26227/68) |
+| 2026-11-05 | Brendan_Navigator | 1 | [Core Facilitator Post](https://forum.skyeco.com/t/brendan-navigator-ad-recognition-submission/27748/29) |
 
 #### A.1.6.6.2 - Voting Estoppel Rule [Core]  <!-- UUID: c1a5d22a-c30c-4445-80eb-caf3bd908d28 -->
 
