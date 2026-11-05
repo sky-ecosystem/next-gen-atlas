@@ -22,7 +22,7 @@ The amount of this payment is 1,806,670 USDS and the recipient address on the Et
 
 ###### A.4.1.1.1.1.1 - Transfer Of USDS To Gnosis [Core]  <!-- UUID: 418d496b-2e2e-4ee2-b37a-8178de5d656c -->
 
-The payment authorized in this document was made from the Surplus Buffer to the recipient address in one (1) transfer of 1,806,670 USDS, included in the November 27, 2025 Executive Vote.
+The payment authorized in [A.4.1.1.1.1 - Gnosis Payment](8f721d05-6f9b-4efe-b737-18f634f9703d) was made from the Surplus Buffer to Gnosis in one (1) transfer of 1,806,670 USDS, included in the November 27, 2025 Executive Vote.
 
 ### A.4.1.2 - SKY [Section]  <!-- UUID: 8e505278-67d9-4c89-afe4-992d5d846fb8 -->
 
