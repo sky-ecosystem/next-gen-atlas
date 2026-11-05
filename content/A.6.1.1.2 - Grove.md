@@ -92,7 +92,7 @@ The Grove Foundation is the Prime Foundation associated with Grove. Its mandate 
 
 ###### A.6.1.1.2.2.1.1.3.1.1.5 - Development Company [Core]  <!-- UUID: 830f6fb5-1037-4516-9efa-d7101553a3d0 -->
 
-Grove Labs (formerly Grove Development Company) is a development company that provides services to the Grove Foundation. Grove Labs is a "Nested Contributor", i.e., a core contributor to both Grove and Sky.
+Grove Labs (formerly referred to as Grove Development Company) is a development company that provides services to the Grove Foundation. Grove Labs is a "Nested Contributor", i.e., a core contributor to both Grove and Sky.
 
 ###### A.6.1.1.2.2.1.1.3.1.1.6 - Custom Instance Parameters [Core]  <!-- UUID: 75a3ec3d-d2fc-4023-a75a-ffd0d7bb7d30 -->
 
@@ -100,7 +100,7 @@ The documents herein define the custom parameters of the Single Instance of the 
 
 ###### A.6.1.1.2.2.1.1.3.1.1.6.1 - Grove Group [Core]  <!-- UUID: 11094b97-c84d-43c1-97c5-7fefa3c048f1 -->
 
-Grove Group comprises the Grove Foundation and its subsidiaries, namely: Bamboo Grove Ltd, Cedar Grove Ltd, and Grove Labs.
+Grove Group comprises the Grove Foundation and its subsidiaries, namely: Bamboo Grove Ltd and Cedar Grove Ltd.
 
 ###### A.6.1.1.2.2.1.1.3.1.2 - Operational Process Definition [Core]  <!-- UUID: 8ff8bfe6-5311-4f5f-9daf-c56219ac0a77 -->
 
