@@ -2960,6 +2960,10 @@ During week 2 of the Prime Spell Process, the Edit Proposal is voted on, the Pri
 
 By Monday, 08:00 UTC of week 2, the Prime Agent must deliver a signed-off Prime Spell Pull Request ready for external review. The internal review by the Prime Agent's team must be completed before this delivery.
 
+###### A.1.10.2.3.2.2.3.3.1.1 - Morpho Verification Report Requirements For Delivery [Core]  <!-- UUID: 8b808a90-d40c-493e-8859-dd0e09c0d7f6 -->
+
+Morpho Verification Report requirements applicable at this stage are specified in [A.1.10.2.5.2.3.3 - Morpho Verification Report Requirements](99d75e24-5ee2-4171-bc75-3cafa0170995).
+
 ###### A.1.10.2.3.2.2.3.3.2 - Governance Vote [Core]  <!-- UUID: 6457578f-cf6f-4caa-8abb-9774c560dfcf -->
 
 The governance vote on the Edit Proposal is published on Monday, 16:00 UTC of week 2 and runs through Thursday of week 2.
@@ -2971,6 +2975,10 @@ Under the Independent Governance path, the Operational Facilitator initiates the
 ###### A.1.10.2.3.2.2.3.3.3 - Prime Spell Review [Core]  <!-- UUID: d09636ee-de88-4134-9a00-0c3de80ca060 -->
 
 The Prime Spell delivered in [A.1.10.2.3.2.2.3.3.1 - Prime Agent Delivers Signed-Off Prime Spell For Review](b7e93d92-b433-40dd-bf6b-86a49b7ce9c6) must be externally reviewed during week 2, before the Prime Spell payload delivery specified in [A.1.10.2.3.2.2.3.3.6 - Prime Agent Delivers Prime Spell Payload](d5223f2c-264f-47da-9e59-2574bdf9cfc2). The reviewer must be either a member of a Core Spell Team that is not also serving as the Crafter for the Sky Core Spell of the same Executive Vote cycle, or an external reviewer engaged for the purpose.
+
+###### A.1.10.2.3.2.2.3.3.3.1 - Morpho Verification Report Requirements For Review [Core]  <!-- UUID: 0f9a4040-a05e-4a6b-bcf4-561f673d0568 -->
+
+Morpho Verification Report requirements applicable at this stage are specified in [A.1.10.2.5.2.3.3 - Morpho Verification Report Requirements](99d75e24-5ee2-4171-bc75-3cafa0170995).
 
 ###### A.1.10.2.3.2.2.3.3.4 - Sky Core GovOps Meeting [Core]  <!-- UUID: 3fe0d011-c7e9-4825-8b74-532e0e2f68f6 -->
 
@@ -4519,7 +4527,9 @@ The Technical Scope Template is a standardized template for announcing any infra
 
 The completed Technical Scope Template must be published as a Forum post on the Sky Forum, providing enough technical detail for an independent external team to review the proposed changes without requiring additional context. The Forum post creates a public record that can be challenged by the community before the action proceeds through governance. Sections that, if publicly disclosed, could compromise the security of the Sky Ecosystem must be withheld from the public post and submitted directly to Core GovOps.
 
-Where the Technical Scope concerns a vault or market that is deployed through a smart contract factory and holds no capital from Sky's Collateral Portfolio, a developer on the deploying team who did not perform the deployment must review the Technical Scope and conduct deployment verification, and must confirm the completed review and verification as a public reply to the Technical Scope Forum post. Where such a deployment holds capital from Sky's Collateral Portfolio, deployment verification is instead performed through the Executive Process as specified in [A.1.10.2.3.2.1 - Smart Contract Deployment Verification](55e774c1-dcef-4262-bc47-c32c94c0d557).
+For factory-deployed vaults and markets other than Morpho vaults used by Prime Agents, the following deployment verification rules apply. Where the vault or market holds no capital from the Sky Collateral Portfolio, a developer on the deploying team who did not perform the deployment must review the Technical Scope and conduct deployment verification, and confirm completion as a public reply to the Technical Scope Forum post. Where the vault or market holds capital from the Sky Collateral Portfolio, deployment verification is instead performed through the Executive Process as specified in [A.1.10.2.3.2.1 - Smart Contract Deployment Verification](55e774c1-dcef-4262-bc47-c32c94c0d557).
+
+Deployment verification of Morpho vaults used by Prime Agents is governed by [A.1.10.2.5.2.3.2 - Morpho Vault Deployment Verification Requirements](1a06cfc6-af59-418d-975d-edeec7d80991).
 
 ###### A.1.10.2.5.2.1.2 - Technical Scope Template Update Process [Core]  <!-- UUID: 3c374c29-b5c2-4812-bb99-de17f9116fa2 -->
 
@@ -4541,9 +4551,27 @@ The Deployment Checklist is maintained by Core GovOps. All changes must be submi
 
 The Morpho Deployment Verification Guide defines the steps for verifying vault and market deployments made through the Morpho protocol's smart contract factories, covering factory deployment provenance, market and oracle parameters, vault roles, and timelock settings. The guide is maintained as specified in [A.1.10.2.5.2.3.1 - Morpho Deployment Verification Guide Update Process](5df5c86a-7efa-4c04-afda-dd9f3a21e596). Morpho vaults used by Prime Agents must also comply with [A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework](915a36c0-754c-41f9-ada1-2fec0816f7b8).
 
+The output of the Morpho Deployment Verification Guide is the Morpho Verification Report, which records the results and supporting evidence of each check, including findings, corrective actions, and recheck results. The Morpho Verification Report must cover the vault, markets, and configuration relevant to the Prime Spell. For a Morpho vault, the deployment verification report in the [A.1.10.2.5.1.2.1.1 - Agent Spell Reviewer Checklist](badd8b62-dffe-4778-b5e2-78c76195242d) is the Morpho Verification Report.
+
 ###### A.1.10.2.5.2.3.1 - Morpho Deployment Verification Guide Update Process [Core]  <!-- UUID: 5df5c86a-7efa-4c04-afda-dd9f3a21e596 -->
 
 The Morpho Deployment Verification Guide is maintained by Core GovOps. All changes to the guide must be submitted as Pull Requests to the Ecosystem Operational References repository (https://github.com/soterlabs/ecosystem-operational-references) and require two (2) approvals, one (1) from each Core Spell Team, before they can be merged.
+
+###### A.1.10.2.5.2.3.2 - Morpho Vault Deployment Verification Requirements [Core]  <!-- UUID: 1a06cfc6-af59-418d-975d-edeec7d80991 -->
+
+The Prime Agent must ensure that verification, findings remediation, and report preparation are completed for every Morpho vault it deploys or enables to receive capital, including vaults deployed by external curators. Verification must follow [A.1.10.2.5.2.3 - Morpho Deployment Verification Guide](45adb133-13b4-402c-8c2b-2473d78ff72e). For new vault deployments made by or on behalf of a Prime Agent, verification must be completed immediately after deployment. In all cases, verification must be completed before the vault is first enabled to receive capital through the relevant Allocation System Instance.
+
+Verification must be performed by a person who did not perform the deployment and has the technical competence to complete the checks specified in [A.1.10.2.5.2.3 - Morpho Deployment Verification Guide](45adb133-13b4-402c-8c2b-2473d78ff72e). The Prime Agent may arrange verification through its team, an external curator, or another external verifier.
+
+The verifier must report failed checks and identified issues internally to the Prime Agent and coordinate their resolution with the responsible team. Before sharing the completed Morpho Verification Report with the Prime Spell reviewers, the verifier must confirm that identified noncompliance has been corrected and repeat the affected checks.
+
+For vaults already enabled to receive capital when these requirements take effect, verification must be completed before a subsequent Prime Spell enabling capital allocation to the vault is signed off for deployment.
+
+Existing verification results may be reused where they remain applicable. Where subsequent changes affect the applicability of those results, the Prime Agent must ensure that the affected verification checks are completed and the Morpho Verification Report is updated.
+
+###### A.1.10.2.5.2.3.3 - Morpho Verification Report Requirements [Core]  <!-- UUID: 99d75e24-5ee2-4171-bc75-3cafa0170995 -->
+
+For a Prime Spell that enables capital allocation to a Morpho vault through the relevant Allocation System Instance, the completed Morpho Verification Report is expected to be available to the Prime Spell reviewers when the Spell review process begins. The Spell review process may begin while the report is pending. Each Prime Spell reviewer must review the completed Morpho Verification Report before signing off the Prime Spell as ready for deployment. The reviewer must confirm that the report's scope matches the Prime Spell and verify that any identified noncompliance has been resolved and the affected checks have been rerun. The same availability expectation applies to an updated Morpho Verification Report. The Prime Spell reviewer records this review in the [A.1.10.2.5.1.2.1.1 - Agent Spell Reviewer Checklist](badd8b62-dffe-4778-b5e2-78c76195242d).
 
 #### A.1.10.2.6 - Voting Process For Executive Votes [Core]  <!-- UUID: 3aa5bc98-91ce-4588-b345-a96af8ba2366 -->
 

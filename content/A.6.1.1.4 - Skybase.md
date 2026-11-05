@@ -110,18 +110,6 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 The documents herein contain data relevant to the Single Instance of the Agent Creation Primitive.
 
-###### A.6.1.1.4.2.1.1.3.1.3.1 - Initial Planning [Core]  <!-- UUID: d6d7788a-4702-4e7f-8bd0-0e1bdb535e79 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.1.1.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: efc466bf-6681-4c38-ac6a-281d4c1593be -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.1.1.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 587c4557-6622-49af-b64b-9fd48dbc85b1 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.4.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 58ddd7d7-28af-4ca3-ac6a-f5d2105f9e79 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
@@ -201,18 +189,6 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 ###### A.6.1.1.4.2.1.2.3.1.3 - Data Repository [Core]  <!-- UUID: 6f45d32b-f377-480c-b67f-a1d7b2d09ba8 -->
 
 The documents herein contain data relevant to the Single Instance of the Prime Transformation Primitive.
-
-###### A.6.1.1.4.2.1.2.3.1.3.1 - Initial Planning [Core]  <!-- UUID: 70203ad1-71b6-4a80-97a4-d18227cd736e -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.1.2.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 84e3ba93-7ba4-4f52-b54e-5ea6e73da623 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.1.2.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 102b2492-34f9-4f2f-8f42-593aa8871129 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.4.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 42f47668-ba50-430e-ac11-245eef79e712 -->
 
@@ -364,18 +340,6 @@ The documents herein define the operational processes for minting and initial di
 
 The documents herein contain data relevant to the Single Instance of the Agent Token Primitive.
 
-###### A.6.1.1.4.2.1.4.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 05259bea-0f5e-4afc-8279-fbd98516d7ac -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.1.4.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: b146e772-2d00-456b-8ba7-536ea733c34a -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.1.4.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: a66316d6-e4be-4ff5-b894-4c8fa3d1285c -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.4.2.1.4.3 - Completed Instances [Core]  <!-- UUID: ba6be9cd-0812-4098-89f3-2e813948a3f8 -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
@@ -459,18 +423,6 @@ The documents herein define the process for the ongoing management of the Ozone 
 ###### A.6.1.1.4.2.2.1.2.1.3 - Data Repository [Core]  <!-- UUID: 5120e81d-c44f-47ec-a19a-dff5d4abf152 -->
 
 The documents herein contain data relevant to the Ozone Instance of the Executor Accord Primitive.
-
-###### A.6.1.1.4.2.2.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 0f2d0ae7-1aa7-4692-9f36-dd00b119885e -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.2.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0bb80f80-c2c0-43f1-8783-b2a2bdbcc09b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.2.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 659ad2e7-f1af-4bd4-b5c1-8624ba7f169e -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.4.2.2.1.3 - Completed Instances [Core]  <!-- UUID: 03bf33b4-f74d-4b40-a1a0-e34e19b30318 -->
 
@@ -599,18 +551,6 @@ In an Urgent or Emergency Situation, as defined by the Sky Core Atlas in [A.1.9.
 ###### A.6.1.1.4.2.2.2.2.1.3 - Data Repository [Core]  <!-- UUID: 6f533a79-4263-4b1b-9d47-9ab9e670f0f0 -->
 
 The documents herein contain data relevant to the Single Instance of the Root Edit Primitive.
-
-###### A.6.1.1.4.2.2.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 112386b9-0c60-4224-8d39-a43b2805f351 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.2.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: d9ebdf09-8d8e-4b14-a3f3-08a0d7579e92 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.2.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 91159367-dcf2-4c55-ae77-0ca91da4fb91 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.4.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 6840069f-a930-42ad-8fad-8224876da285 -->
 
@@ -764,18 +704,6 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.4.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 1285deb9-39ff-400c-a82c-2ec2e7b4d216 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.3.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: db3e6b81-f383-4269-8cab-e94e47abc891 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.3.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: e877196c-33d9-48dd-b188-fe5c70c68d00 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.4.2.3.1.3 - Completed Instances [Core]  <!-- UUID: ce66e2db-bbb6-4f33-9b3b-cc3b913f6459 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
@@ -871,18 +799,6 @@ The documents herein define the protocol for handling emergency situations in th
 ###### A.6.1.1.4.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: 2bc4f7e9-e9a2-465e-b6da-1032ce4a6f42 -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
-
-###### A.6.1.1.4.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: a7718626-05e0-4c62-86ae-62ff9f2fc785 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0e9c8eb9-ab4e-4240-9ea9-a2c810ea3698 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 89f2904b-d250-4643-a84a-083b54a572e0 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.4.2.3.2.3 - Completed Instances [Core]  <!-- UUID: aff0590c-e76d-4734-a139-ef7a67d9a619 -->
 
@@ -1117,19 +1033,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Sky.money App Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: c4fead38-31dc-4a6a-8d98-5f28b1a46f7a -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 919d7b43-51e1-4d53-93c6-ff84a633542b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 8bb175ef-0165-417c-9222-f4ed8df23b3f -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.1.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 8ece0051-0eee-427f-b2ea-1abfd52b80cd -->
+###### A.6.1.1.4.2.5.1.2.1.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 8ece0051-0eee-427f-b2ea-1abfd52b80cd -->
 
 The Distribution Reward payments for the Sky.money App Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1138,7 +1042,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.1.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 09282f1f-f4fa-40b6-9073-6adc42f31569 -->
+###### A.6.1.1.4.2.5.1.2.1.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 09282f1f-f4fa-40b6-9073-6adc42f31569 -->
 
 The Distribution Reward Payments are:
 
@@ -1190,19 +1094,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Sky.money Open Source Widgets Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.2.3.1 - Initial Planning [Core]  <!-- UUID: 8578558a-5bd3-4256-a8f6-0e14da879257 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.2.3.2 - Operational GovOps Review [Core]  <!-- UUID: f3de12e6-9ca6-4969-95a4-50b6c6b928b3 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.2.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 09c5171b-5fe5-4a37-ad78-0e4be7b4c0f9 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.2.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: d96439a8-df0d-4ba9-973e-896fac953fad -->
+###### A.6.1.1.4.2.5.1.2.2.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: d96439a8-df0d-4ba9-973e-896fac953fad -->
 
 The Distribution Reward payments for the Sky.money Open Source Widgets Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1211,7 +1103,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.2.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: ad573b24-befc-49f9-be30-6c65f8986c61 -->
+###### A.6.1.1.4.2.5.1.2.2.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: ad573b24-befc-49f9-be30-6c65f8986c61 -->
 
 The Distribution Reward Payments are:
 
@@ -1263,19 +1155,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the DeFi Saver Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.3.3.1 - Initial Planning [Core]  <!-- UUID: 3117ffa8-81bb-4fc3-ab15-2e2a41de26fa -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.3.3.2 - Operational GovOps Review [Core]  <!-- UUID: e4cdcd58-9f16-4efe-9671-a0b667267004 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.3.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 63a206b3-3bae-4c14-ac3c-e658b912b238 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.3.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 0f9d7876-d376-4f85-840d-c3cbb96872d3 -->
+###### A.6.1.1.4.2.5.1.2.3.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 0f9d7876-d376-4f85-840d-c3cbb96872d3 -->
 
 The Distribution Reward payments for the DeFi Saver Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1284,11 +1164,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.3.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 731c96eb-57a2-434c-852c-2c7f461efb46 -->
+###### A.6.1.1.4.2.5.1.2.3.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 731c96eb-57a2-434c-852c-2c7f461efb46 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.3.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: e2a262ce-e59a-421c-ab32-803fe41802c4 -->
+###### A.6.1.1.4.2.5.1.2.3.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: e2a262ce-e59a-421c-ab32-803fe41802c4 -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -1297,7 +1177,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.3.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 8fc2657e-fb6b-4d43-988c-6f47b71052f1 -->
+###### A.6.1.1.4.2.5.1.2.3.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 8fc2657e-fb6b-4d43-988c-6f47b71052f1 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -1308,7 +1188,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.3.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: da35cd2c-4113-4656-a5f5-5b804b5f894f -->
+###### A.6.1.1.4.2.5.1.2.3.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: da35cd2c-4113-4656-a5f5-5b804b5f894f -->
 
 DeFi Saver - `0x6467e807dB1E71B9Ef04E0E3aFb962E4B0900B2B`
 
@@ -1360,19 +1240,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the CoW Swap Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.4.3.1 - Initial Planning [Core]  <!-- UUID: d0dcbfc1-826f-4f68-ac22-f356f2b3d3f4 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.4.3.2 - Operational GovOps Review [Core]  <!-- UUID: 7b5a94d3-1bdd-4b06-823e-c31199717e29 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.4.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 4a803925-4c83-44a8-9530-4b0f30b6d928 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.4.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: dc323489-6f9b-4f0d-a5c6-3c74729cef7c -->
+###### A.6.1.1.4.2.5.1.2.4.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: dc323489-6f9b-4f0d-a5c6-3c74729cef7c -->
 
 The Distribution Reward payments for the CoW Swap Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1381,11 +1249,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.4.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 655886dc-7ca2-45cd-be2c-7be8421961c7 -->
+###### A.6.1.1.4.2.5.1.2.4.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 655886dc-7ca2-45cd-be2c-7be8421961c7 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.4.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 84df5c1e-86b7-431d-bb0e-8708f99a572e -->
+###### A.6.1.1.4.2.5.1.2.4.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 84df5c1e-86b7-431d-bb0e-8708f99a572e -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -1394,7 +1262,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.4.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 88f6d49f-9473-46c2-a030-d3f74f2d1377 -->
+###### A.6.1.1.4.2.5.1.2.4.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 88f6d49f-9473-46c2-a030-d3f74f2d1377 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -1405,7 +1273,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.4.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 910f8a42-b56c-4617-890a-d135b196b168 -->
+###### A.6.1.1.4.2.5.1.2.4.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 910f8a42-b56c-4617-890a-d135b196b168 -->
 
 CoW Swap - `0x616dE58c011F8736fa20c7Ae5352F7f6FB9F0669`
 
@@ -1457,19 +1325,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the ParaSwap Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.5.3.1 - Initial Planning [Core]  <!-- UUID: 32dfe611-a223-40af-9100-70688fa0f162 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.5.3.2 - Operational GovOps Review [Core]  <!-- UUID: 20e0c61c-70c8-4d68-b90e-ce664ca5097a -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.5.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 993a4e87-14d0-4d98-9477-446d4bbbfe12 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.5.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 3ea87681-b351-462c-b375-6fb60c817755 -->
+###### A.6.1.1.4.2.5.1.2.5.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 3ea87681-b351-462c-b375-6fb60c817755 -->
 
 The Distribution Reward payments for the ParaSwap Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1478,11 +1334,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.5.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 4588c98b-1c51-4f8c-8cc5-baab631950ef -->
+###### A.6.1.1.4.2.5.1.2.5.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 4588c98b-1c51-4f8c-8cc5-baab631950ef -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.5.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 81bafe53-8c66-43ec-82fd-5848b9d64555 -->
+###### A.6.1.1.4.2.5.1.2.5.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 81bafe53-8c66-43ec-82fd-5848b9d64555 -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -1491,7 +1347,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.5.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 3306dbf8-6c7c-4cfe-b98d-08105282272e -->
+###### A.6.1.1.4.2.5.1.2.5.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 3306dbf8-6c7c-4cfe-b98d-08105282272e -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -1502,7 +1358,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.5.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 8088e4e4-a594-448c-a3cb-752b907b4f3c -->
+###### A.6.1.1.4.2.5.1.2.5.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 8088e4e4-a594-448c-a3cb-752b907b4f3c -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -1554,19 +1410,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Yearn (Gimme) Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.6.3.1 - Initial Planning [Core]  <!-- UUID: 2a400f84-7251-41ed-a8ce-c3d091c90ad6 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.6.3.2 - Operational GovOps Review [Core]  <!-- UUID: 3bdf7ecb-accd-4b70-b956-a5e05cb60668 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.6.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 1816152b-22ea-4a5a-822f-88da78afe8cf -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.6.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 30be45d8-cd38-4c52-b4d0-ed7225c97b9a -->
+###### A.6.1.1.4.2.5.1.2.6.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 30be45d8-cd38-4c52-b4d0-ed7225c97b9a -->
 
 The Distribution Reward payments for the Yearn (Gimme) Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1575,11 +1419,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.6.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 707956cc-62f8-4620-a95f-b45ebf263218 -->
+###### A.6.1.1.4.2.5.1.2.6.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 707956cc-62f8-4620-a95f-b45ebf263218 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.6.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 690e54dd-c88a-422e-a06d-e6812035fc1c -->
+###### A.6.1.1.4.2.5.1.2.6.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 690e54dd-c88a-422e-a06d-e6812035fc1c -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -1588,7 +1432,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.6.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 034c4a3d-46fc-46b4-afd0-1187bc29ea07 -->
+###### A.6.1.1.4.2.5.1.2.6.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 034c4a3d-46fc-46b4-afd0-1187bc29ea07 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -1599,7 +1443,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.6.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: be1b9146-9d66-4ab1-a47d-724d0220f5ef -->
+###### A.6.1.1.4.2.5.1.2.6.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: be1b9146-9d66-4ab1-a47d-724d0220f5ef -->
 
 Yearn (Gimme) - `0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52`
 
@@ -1651,19 +1495,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the MOM Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.7.3.1 - Initial Planning [Core]  <!-- UUID: bea56b80-5d46-4a44-81a5-0df050a5255b -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.7.3.2 - Operational GovOps Review [Core]  <!-- UUID: 16f6bff2-ed77-4e02-806d-5fe7941f94ce -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.7.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: df961d91-acfd-45de-8fd6-f17237d34eb8 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.7.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: e1961614-467f-40b0-9e7a-f67e2a70cc97 -->
+###### A.6.1.1.4.2.5.1.2.7.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: e1961614-467f-40b0-9e7a-f67e2a70cc97 -->
 
 The Distribution Reward payments for the MOM Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1672,11 +1504,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.7.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 8520b41b-cf03-493b-a6ce-9314983f38b3 -->
+###### A.6.1.1.4.2.5.1.2.7.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 8520b41b-cf03-493b-a6ce-9314983f38b3 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.7.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 74b0e9af-0a6d-4cfc-988a-5621713772fc -->
+###### A.6.1.1.4.2.5.1.2.7.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 74b0e9af-0a6d-4cfc-988a-5621713772fc -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -1685,7 +1517,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.7.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: fc1a5e0b-0909-48d1-adc4-77e51a900050 -->
+###### A.6.1.1.4.2.5.1.2.7.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: fc1a5e0b-0909-48d1-adc4-77e51a900050 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -1696,7 +1528,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.7.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 4fc18aff-0fd6-41ea-a5e8-92ea54861c99 -->
+###### A.6.1.1.4.2.5.1.2.7.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 4fc18aff-0fd6-41ea-a5e8-92ea54861c99 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -1748,19 +1580,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Lazy Summer Protocol Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.8.3.1 - Initial Planning [Core]  <!-- UUID: 85861627-db6d-4be3-8057-8aff18035130 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.8.3.2 - Operational GovOps Review [Core]  <!-- UUID: 97a92e00-3f0e-481c-ab18-c3ceb1105d42 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.8.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: cd44d715-d147-42b9-b84b-9a8d370ca6bf -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.8.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 42349b55-1334-478b-bddd-d692e55e07b9 -->
+###### A.6.1.1.4.2.5.1.2.8.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 42349b55-1334-478b-bddd-d692e55e07b9 -->
 
 The Distribution Reward payments for the Lazy Summer Protocol Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1769,11 +1589,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for `Direct Edit`.
 
-###### A.6.1.1.4.2.5.1.2.8.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 928ecae3-ee6f-4961-bae0-90dbf42b3b4d -->
+###### A.6.1.1.4.2.5.1.2.8.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 928ecae3-ee6f-4961-bae0-90dbf42b3b4d -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.8.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 04d4fea9-cc1e-4275-af1a-27f8c9b15d0b -->
+###### A.6.1.1.4.2.5.1.2.8.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 04d4fea9-cc1e-4275-af1a-27f8c9b15d0b -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -1782,7 +1602,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for `Direct Edit`.
 
-###### A.6.1.1.4.2.5.1.2.8.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 0b55dd49-4787-4895-be75-091f9c2689f3 -->
+###### A.6.1.1.4.2.5.1.2.8.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 0b55dd49-4787-4895-be75-091f9c2689f3 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -1793,7 +1613,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.8.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 08771b54-8577-44ee-9edb-1915c0f6f050 -->
+###### A.6.1.1.4.2.5.1.2.8.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 08771b54-8577-44ee-9edb-1915c0f6f050 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -1845,19 +1665,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the 1inch Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.9.3.1 - Initial Planning [Core]  <!-- UUID: 2e3f0833-0f2f-4940-bc1e-e3adf68e41de -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.9.3.2 - Operational GovOps Review [Core]  <!-- UUID: a78d37f7-cb9d-47ba-a956-cbdabe547efb -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.9.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: d9d79d33-b9ee-4c8e-a90d-b84f71dd7d54 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.9.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: c3075307-a661-4128-882f-b07107b54659 -->
+###### A.6.1.1.4.2.5.1.2.9.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: c3075307-a661-4128-882f-b07107b54659 -->
 
 The Distribution Reward payments for the 1inch Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1866,11 +1674,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.9.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 4e79d3fa-29fc-41c6-b500-f379b5267416 -->
+###### A.6.1.1.4.2.5.1.2.9.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 4e79d3fa-29fc-41c6-b500-f379b5267416 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.9.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: dd244aef-f02b-43f9-af7d-74f26fdfd776 -->
+###### A.6.1.1.4.2.5.1.2.9.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: dd244aef-f02b-43f9-af7d-74f26fdfd776 -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -1879,7 +1687,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.9.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: c80530b0-c4df-4314-ab87-92055422707e -->
+###### A.6.1.1.4.2.5.1.2.9.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: c80530b0-c4df-4314-ab87-92055422707e -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -1890,7 +1698,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.9.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: fbfc957c-adc0-44b1-a16a-ceb0284a2a51 -->
+###### A.6.1.1.4.2.5.1.2.9.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: fbfc957c-adc0-44b1-a16a-ceb0284a2a51 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -1942,19 +1750,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Kyber Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.2.10.3.1 - Initial Planning [Core]  <!-- UUID: 7b6d6d5e-6256-4964-af7b-9abfeaceb732 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.10.3.2 - Operational GovOps Review [Core]  <!-- UUID: 9ead2507-fdaa-45d6-9f4d-d5783f425d39 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.10.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 763c9fbd-91ec-4d1b-bbfc-5690f4ae2989 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.2.10.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: a8d0e137-14f9-4f76-8ea1-eb525a9682cc -->
+###### A.6.1.1.4.2.5.1.2.10.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: a8d0e137-14f9-4f76-8ea1-eb525a9682cc -->
 
 The Distribution Reward payments for the Kyber Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1963,11 +1759,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.10.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: a3db4319-a749-4dee-a2a8-411cc9b83b05 -->
+###### A.6.1.1.4.2.5.1.2.10.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: a3db4319-a749-4dee-a2a8-411cc9b83b05 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.2.10.3.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: baddbc1d-cff5-4bc6-b3c2-f59db47e07bb -->
+###### A.6.1.1.4.2.5.1.2.10.3.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: baddbc1d-cff5-4bc6-b3c2-f59db47e07bb -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -1976,7 +1772,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.2.10.3.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: da19af0b-0eaa-489d-bf80-d1dae799d940 -->
+###### A.6.1.1.4.2.5.1.2.10.3.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: da19af0b-0eaa-489d-bf80-d1dae799d940 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -1987,7 +1783,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.2.10.3.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 3b8bc7f6-7b4c-4e46-ae98-4694cff0ace8 -->
+###### A.6.1.1.4.2.5.1.2.10.3.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 3b8bc7f6-7b4c-4e46-ae98-4694cff0ace8 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -2080,18 +1876,6 @@ The payment details consist of a table where each entry represents a single paym
 
 Summer.fi - `0xC7b548AD9Cf38721810246C079b2d8083aba8909`
 
-###### A.6.1.1.4.2.5.1.3.1.3.3 - Initial Planning [Core]  <!-- UUID: dabb169a-e7d5-44c2-9ed8-f0936aa9c22a -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.3.1.3.4 - Operational GovOps Review [Core]  <!-- UUID: cc50de8e-ac63-4254-bb24-8a4247b8d2b5 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.3.1.3.5 - Artifact Edit Proposal [Core]  <!-- UUID: bff7bad8-b9c9-4fb7-ae9c-08137f427f36 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.4.2.5.1.4 - In Progress Invocations [Core]  <!-- UUID: 05362fab-8fc5-487c-af2e-b6ebf6f4445e -->
 
 The in progress Invocations of the Distribution Reward Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.4.2.5.1.2 - Active Instances](cb0709e4-c51d-45cc-b385-0c20a0bf4b25).
@@ -2148,19 +1932,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the MetaMask Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.4.1.4.1 - Initial Planning [Core]  <!-- UUID: 177f02ea-cde5-4d68-b7de-c3cef1a47f32 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.1.4.2 - Operational GovOps Review [Core]  <!-- UUID: 2cc897a5-eb49-4766-9489-3cdca7c74196 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.1.4.3 - Artifact Edit Proposal [Core]  <!-- UUID: a7582742-03a8-4095-b394-6fe1b62f912a -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.1.4.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 6296fedf-c2f4-4cdc-a16f-a2b0e8bd19bc -->
+###### A.6.1.1.4.2.5.1.4.1.4.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 6296fedf-c2f4-4cdc-a16f-a2b0e8bd19bc -->
 
 The Distribution Reward payments for the MetaMask Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -2169,11 +1941,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.1.4.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 20376e25-f067-400e-be73-dc2552766c47 -->
+###### A.6.1.1.4.2.5.1.4.1.4.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 20376e25-f067-400e-be73-dc2552766c47 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.4.1.4.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: ded05ed5-e470-4cbc-b3f0-c7d8cd928584 -->
+###### A.6.1.1.4.2.5.1.4.1.4.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: ded05ed5-e470-4cbc-b3f0-c7d8cd928584 -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -2182,7 +1954,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.1.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: aa0ea344-4e89-4b6e-8c32-afc5c19cf8d0 -->
+###### A.6.1.1.4.2.5.1.4.1.4.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: aa0ea344-4e89-4b6e-8c32-afc5c19cf8d0 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -2193,7 +1965,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.4.1.4.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: b537c8e2-92b6-4d2f-88ff-337acb1e8357 -->
+###### A.6.1.1.4.2.5.1.4.1.4.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: b537c8e2-92b6-4d2f-88ff-337acb1e8357 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -2249,19 +2021,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the InstaDapp Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.4.2.4.1 - Initial Planning [Core]  <!-- UUID: f51aa574-e8c8-4e15-bfba-76082d40ac91 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.2.4.2 - Operational GovOps Review [Core]  <!-- UUID: d35d512a-2c81-4491-b966-6803b68f9834 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.2.4.3 - Artifact Edit Proposal [Core]  <!-- UUID: 57a3bfd7-83e2-4033-9dc0-d64274973784 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.2.4.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 38f84680-46ff-400b-baeb-62a0684d2aa7 -->
+###### A.6.1.1.4.2.5.1.4.2.4.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 38f84680-46ff-400b-baeb-62a0684d2aa7 -->
 
 The Distribution Reward payments for the InstaDapp Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -2270,11 +2030,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.2.4.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: a75fa6c5-8d93-43fe-acad-dfb07e226668 -->
+###### A.6.1.1.4.2.5.1.4.2.4.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: a75fa6c5-8d93-43fe-acad-dfb07e226668 -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.4.2.4.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 28b69d1f-44d3-4b97-8aff-809513145245 -->
+###### A.6.1.1.4.2.5.1.4.2.4.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 28b69d1f-44d3-4b97-8aff-809513145245 -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -2283,7 +2043,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.2.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 1d995038-ec86-4f39-a02c-21ee651dd3cc -->
+###### A.6.1.1.4.2.5.1.4.2.4.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 1d995038-ec86-4f39-a02c-21ee651dd3cc -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -2294,7 +2054,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.4.2.4.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 1438c4e7-e15b-443c-b9c6-dcdde63920c6 -->
+###### A.6.1.1.4.2.5.1.4.2.4.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 1438c4e7-e15b-443c-b9c6-dcdde63920c6 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -2350,19 +2110,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Gnosis Protocol Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.4.3.4.1 - Initial Planning [Core]  <!-- UUID: c2db568d-6c90-4a62-8fb9-33cfb504fc1d -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.3.4.2 - Operational GovOps Review [Core]  <!-- UUID: 446804db-4495-4621-a504-e3575e5be34b -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.3.4.3 - Artifact Edit Proposal [Core]  <!-- UUID: 711781c6-57a9-4813-9e4d-263f9a70384a -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.3.4.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 32c6b23b-8c5f-4798-97e2-84248365365d -->
+###### A.6.1.1.4.2.5.1.4.3.4.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 32c6b23b-8c5f-4798-97e2-84248365365d -->
 
 The Distribution Reward payments for the Gnosis Protocol Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -2371,11 +2119,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.3.4.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 3dd71633-a629-47af-b806-f7930f1332da -->
+###### A.6.1.1.4.2.5.1.4.3.4.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: 3dd71633-a629-47af-b806-f7930f1332da -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.4.3.4.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: efbea98b-9063-4706-a467-050eb2594339 -->
+###### A.6.1.1.4.2.5.1.4.3.4.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: efbea98b-9063-4706-a467-050eb2594339 -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -2384,7 +2132,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.3.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 985b10b4-837a-48c6-884b-80de88e2462a -->
+###### A.6.1.1.4.2.5.1.4.3.4.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: 985b10b4-837a-48c6-884b-80de88e2462a -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -2395,7 +2143,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.4.3.4.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 802462c0-d9d1-42fa-8729-54135634f7f5 -->
+###### A.6.1.1.4.2.5.1.4.3.4.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 802462c0-d9d1-42fa-8729-54135634f7f5 -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -2451,19 +2199,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Piku.co Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.4.2.5.1.4.4.4.1 - Initial Planning [Core]  <!-- UUID: 3fa947ef-d8e4-4315-bccb-b4a1b6e760ca -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.4.4.2 - Operational GovOps Review [Core]  <!-- UUID: 8dd619da-bb48-4efc-8a68-c21754a11372 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.4.4.3 - Artifact Edit Proposal [Core]  <!-- UUID: 7ccfd0ad-4d2c-441f-afbf-dd6f7b5d4293 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.1.4.4.4.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: a1f69b33-8bd2-4c68-b4d5-6b8d34ed763e -->
+###### A.6.1.1.4.2.5.1.4.4.4.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: a1f69b33-8bd2-4c68-b4d5-6b8d34ed763e -->
 
 The Distribution Reward payments for the Piku.co Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -2472,11 +2208,11 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.4.4.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: e05bf544-6a9c-42f5-9135-01a41887a75f -->
+###### A.6.1.1.4.2.5.1.4.4.4.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: e05bf544-6a9c-42f5-9135-01a41887a75f -->
 
 The Distribution Reward Payments are:
 
-###### A.6.1.1.4.2.5.1.4.4.4.5 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 55ab7dfa-57e5-49d2-9dc3-05b0bfe14d04 -->
+###### A.6.1.1.4.2.5.1.4.4.4.2 - Third Party Partner Payment Addresses And Transaction Records [Active Data Controller]  <!-- UUID: 55ab7dfa-57e5-49d2-9dc3-05b0bfe14d04 -->
 
 This Document records information pertaining to Skybase's payments to the Third Party Partner associated with this Instance. This information is defined as Active Data.
 
@@ -2485,7 +2221,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.1.4.4.4.5.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: e0517981-c05e-4f31-b8e0-51a690853132 -->
+###### A.6.1.1.4.2.5.1.4.4.4.2.0.6.1 - Payment Details Per Reward Period [Active Data]  <!-- UUID: e0517981-c05e-4f31-b8e0-51a690853132 -->
 
 The payment details consist of a table where each entry represents a single payment. Each entry has the following fields:
 
@@ -2496,7 +2232,7 @@ The payment details consist of a table where each entry represents a single paym
 - Transaction Hash
 - Transaction Date
 
-###### A.6.1.1.4.2.5.1.4.4.4.5.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 49aa9d18-aa7e-464d-a965-f56fd014c02f -->
+###### A.6.1.1.4.2.5.1.4.4.4.2.0.6.2 - Third Party Partner Payment Addresses [Active Data]  <!-- UUID: 49aa9d18-aa7e-464d-a965-f56fd014c02f -->
 
 The payment address of this Third Party Partner will be defined in a future iteration of the Skybase Artifact.
 
@@ -2632,19 +2368,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Euler Instance of the Integration Boost Primitive.
 
-###### A.6.1.1.4.2.5.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: abc0866d-8e3f-4bad-879d-6f82cee2b028 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: ec81388d-8320-47c6-8e13-2dbd5ad95dbe -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 81cff123-b17c-4208-9348-fcf2aaf99c4b -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.1.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 1f3904b0-28b7-48e2-8cc7-ed67f4b90b68 -->
+###### A.6.1.1.4.2.5.2.2.1.3.1 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 1f3904b0-28b7-48e2-8cc7-ed67f4b90b68 -->
 
 The Integration Boost payments for the Euler Instance of the Integration Boost Primitive are defined as Active Data.
 
@@ -2653,7 +2377,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.2.2.1.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 358530ef-9012-4e7f-8dc4-192930c180d0 -->
+###### A.6.1.1.4.2.5.2.2.1.3.1.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 358530ef-9012-4e7f-8dc4-192930c180d0 -->
 
 The Integration Boost Payments are:
 
@@ -2725,19 +2449,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Curve Instance of the Integration Boost Primitive.
 
-###### A.6.1.1.4.2.5.2.2.2.3.1 - Initial Planning [Core]  <!-- UUID: 00b3c481-bf1d-40a7-9fe8-aea7a99c0524 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.2.3.2 - Operational GovOps Review [Core]  <!-- UUID: 4cdcce5d-a4f5-4474-8818-72d13f6c6174 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.2.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 4c26b560-c84a-4e2b-882f-8ea4b821886f -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.2.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: d2f2c0be-765d-4f3b-9dac-e39ab0244a85 -->
+###### A.6.1.1.4.2.5.2.2.2.3.1 - Integration Boost Payments [Active Data Controller]  <!-- UUID: d2f2c0be-765d-4f3b-9dac-e39ab0244a85 -->
 
 The Integration Boost payments for the Curve Instance of the Integration Boost Primitive are defined as Active Data.
 
@@ -2746,7 +2458,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.4.2.5.2.2.2.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: af376688-bb97-4fe1-bda9-58a59f735a69 -->
+###### A.6.1.1.4.2.5.2.2.2.3.1.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: af376688-bb97-4fe1-bda9-58a59f735a69 -->
 
 The Integration Boost Payments are:
 
@@ -2814,23 +2526,11 @@ The documents herein define the protocol for non-routine ongoing management of t
 
 The documents herein define the protocol for handling emergency situations in the ongoing management of the Morpho Instance of this Integration Boost Primitive.
 
-###### A.6.1.1.4.2.5.2.2.3.3 - Date Repository [Core]  <!-- UUID: 88095904-1a04-449c-b421-3a3c7e4fa437 -->
+###### A.6.1.1.4.2.5.2.2.3.3 - Data Repository [Core]  <!-- UUID: 88095904-1a04-449c-b421-3a3c7e4fa437 -->
 
 The documents herein contain data relevant to the Morpho Instance of the Integration Boost Primitive.
 
-###### A.6.1.1.4.2.5.2.2.3.3.1 - Initial Planning [Core]  <!-- UUID: ef86b5b0-48ce-471e-8a26-dd59dfa09449 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.3.3.2 - Operational GovOps Review [Core]  <!-- UUID: c1e28481-d41d-40b8-96d9-cd372e46b45d -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.3.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 1024c532-ea70-4d0f-b178-b99529950f25 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.2.3.3.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 81ee6226-9067-4e72-bd0b-77773b581701 -->
+###### A.6.1.1.4.2.5.2.2.3.3.1 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 81ee6226-9067-4e72-bd0b-77773b581701 -->
 
 The Integration Boost payments for the Morpho Instance of the Integration Boost Primitive are defined as Active Data.
 
@@ -2839,7 +2539,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.4.2.5.2.2.3.3.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 71d49eb8-0224-4fe7-831e-e49467e2f90d -->
+###### A.6.1.1.4.2.5.2.2.3.3.1.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: 71d49eb8-0224-4fe7-831e-e49467e2f90d -->
 
 The Integration Boost Payments are:
 
@@ -2923,19 +2623,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Compound Instance of the Integration Boost Primitive.
 
-###### A.6.1.1.4.2.5.2.4.1.4.1 - Initial Planning [Core]  <!-- UUID: eecefb67-7692-48f7-9f5b-b4bfde253fac -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.4.1.4.2 - Operational GovOps Review [Core]  <!-- UUID: 28bf469c-af5c-4014-8947-035def7c4077 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.4.1.4.3 - Artifact Edit Proposal [Core]  <!-- UUID: 6543a665-e415-4b54-9c0b-5af10c14f5ce -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.4.2.5.2.4.1.4.4 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 55b46793-6543-4002-a1d7-9cc33ef46ab6 -->
+###### A.6.1.1.4.2.5.2.4.1.4.1 - Integration Boost Payments [Active Data Controller]  <!-- UUID: 55b46793-6543-4002-a1d7-9cc33ef46ab6 -->
 
 The Integration Boost payments for the Compound Instance of the Integration Boost Primitive are defined as Active Data.
 
@@ -2944,7 +2632,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for ‘Direct Edit’.
 
-###### A.6.1.1.4.2.5.2.4.1.4.4.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: afe3fba8-14b9-47b7-bd71-20be58c47f29 -->
+###### A.6.1.1.4.2.5.2.4.1.4.1.0.6.1 - List Of Integration Boost Payments [Active Data]  <!-- UUID: afe3fba8-14b9-47b7-bd71-20be58c47f29 -->
 
 The Integration Boost Payments are:
 
