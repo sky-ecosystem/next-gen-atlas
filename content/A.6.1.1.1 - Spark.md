@@ -530,17 +530,13 @@ The documents herein define the process for using the Root Edit Primitive to upd
 
 ###### A.6.1.1.1.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission [Core]  <!-- UUID: c9f7cc6e-0548-4599-9f9d-bfa1d2bb7577 -->
 
-The Root Edit process begins with a SPK token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A SPK token holder must hold at least 1% of the total token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Spark Prime" category. The proposal must include an upfront review of opportunities and associated risks, outlining expected benefits, potential risks, and corresponding mitigation strategies for consideration by the community.
+The Root Edit process begins with a SPK token holder submitting a proposal containing a draft Artifact Edit Proposal. A SPK token holder must hold at least 1% of the total token supply to submit a proposal. The proposal must be posted on the Sky Forum under the "Spark Prime" category. The title of the post must include the text "Spark Artifact Edit Proposal". Where the token-holding requirement applies, the post must include cryptographic proof that the author controls an account holding at least 1% of the total token supply. The proposal must include an upfront review of opportunities and associated risks, outlining expected benefits, potential risks, and corresponding mitigation strategies for consideration by the community.
 
 ###### A.6.1.1.1.2.2.2.2.1.2.1.1.1 - Root Edit Proposal Submission Requirements Exception For Nested Contributors [Core]  <!-- UUID: cc4e9d94-1cba-45c0-938e-9260f9d8e458 -->
 
 Nested Contributors are always authorized to submit Artifact Edit Proposals and do not have to fulfill the token-holding requirements defined in [A.6.1.1.1.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](c9f7cc6e-0548-4599-9f9d-bfa1d2bb7577). However, all other procedural requirements within the Root Edit process continue to apply.
 
 To see the Agent’s Nested Contributors, see [A.6.1.1.1.2.1.1.3.1.1.5 - Development Company](dd82336a-db68-4e58-a624-22d6de00be4c).
-
-###### A.6.1.1.1.2.2.2.2.1.2.1.1.2 - Short-Term Transitionary Measures [Core]  <!-- UUID: 3a6675c3-2bd6-49b0-8d2c-e9d4fe847a62 -->
-
-Until the Powerhouse system supports submitting Artifact Edit Proposals, SPK token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Spark Prime" category. The title of the post must include the text "Spark Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total SPK token supply specified in [A.6.1.1.1.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](c9f7cc6e-0548-4599-9f9d-bfa1d2bb7577).
 
 ###### A.6.1.1.1.2.2.2.2.1.2.1.2 - Root Edit Proposal Review By Operational Facilitator [Core]  <!-- UUID: 32bad904-ba90-4abb-9115-0b304a792521 -->
 
@@ -558,11 +554,7 @@ Spark’s governance runs in a weekly cycle that begins every Monday. Upon recei
 
 ###### A.6.1.1.1.2.2.2.2.1.2.1.4 - Root Edit Artifact Update [Core]  <!-- UUID: a9cecbeb-6f07-46fa-b5ad-68dd8ae4b0f0 -->
 
-At the conclusion of the poll, if the proposal is approved, the Operational Facilitator submits the edit to Powerhouse to formally update the Agent Artifact. Regardless of the outcome, the Operational Facilitator updates the Powerhouse System to include the result of the vote, including any pertinent documents.
-
-###### A.6.1.1.1.2.2.2.2.1.2.1.4.1 - Short Term Transitionary Measures [Core]  <!-- UUID: 6a9b3956-c4f0-4f59-bc7d-2028a642fc19 -->
-
-Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect proposals approved by Prime Governance.
+At the conclusion of the poll, if the proposal is approved, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect the approved proposal. Regardless of the outcome, the Operational Facilitator records the result of the vote, including any pertinent documents, in the Sky Forum post for the proposal.
 
 ###### A.6.1.1.1.2.2.2.2.1.2.1.5 - Artifact Edit Restrictions [Core]  <!-- UUID: 535cd1c9-1d4d-42e3-bb44-6c128690dd2d -->
 
@@ -11417,6 +11409,8 @@ The current weETH cap automator parameters are:
     - `gap`: N/A
     - `ttl`: N/A
     - `max`: N/A
+
+The weETH Supply Cap must not exceed Spark's allocation to SparkLend, as specified in [A.2.2.10.1.1.1.3.2.5.2 - weETH Allocation](d016e915-eea9-4dc1-8abf-6da358943c4f). Any increase beyond that allocation requires prior approval by the Core Council, and supply above the allocation is subject to a 100% Instance Financial CRR on the excess, as specified in [A.2.2.10.1.1.1.3.2.5.4 - weETH Excess Exposure](b18e5038-16b7-4168-9382-622bc7ac1994).
 
 ###### A.6.1.1.1.3.2.1.1.3.2.11 - SparkLend Cap Automator LBTC Parameters [Core]  <!-- UUID: b0837675-5d32-43ee-84f9-076fe644c61e -->
 
