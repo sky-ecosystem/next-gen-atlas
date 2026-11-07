@@ -7848,6 +7848,14 @@ The documents herein define the Instance contract addresses.
 
 `0xab8306d9FeFBE8183c3C59cA897A2E0Eb5beFE67`
 
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.2.5 - Mint Address [Core]  <!-- UUID: abcf442e-18fa-4251-a087-02d54b56562f -->
+
+`0xC6A7d3662e7d38f8e3a1e991116F6c3628bd7EDf`
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.2.6 - Redeem Address [Core]  <!-- UUID: 231842ff-06a7-4e12-95d0-a3aa12541c21 -->
+
+`0x9307672C95c7B92e659da63EF5ee64B0C0D14619`
+
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: c5462c4a-eb73-40c3-bc66-6224fb0d7359 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
@@ -7859,6 +7867,14 @@ The inflow RateLimitID is: `0xf49540d3618324319b2da1f511b10e85ace863c455904b9deb
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: d585ab62-9de7-4b98-88b3-c6b70428fd66 -->
 
 The outflow RateLimitID is: `0x42ad76bdc643205fd16f00e7e67f0d5e7ae13541010329da7677ea4ddc7e59e3`.
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.3.3 - Mint RateLimitID [Core]  <!-- UUID: 73648c5a-5b28-405f-bd21-e4bba460154f -->
+
+The mint RateLimitID is: `0xea0f33045eb082389eaf4712648922a79faf3b8e3ba1cfc06bb0df5675487b5b`.
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.3.4 - Redeem RateLimitID [Core]  <!-- UUID: d2f10851-7743-4f2c-9195-674a1af5ea33 -->
+
+The redeem RateLimitID is: `0xab0da394ddd0f939d9c635dce379700edf9baad5c1d8be5899a8ea9f0c2f6931`.
 
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.4 - Rate Limits [Core]  <!-- UUID: d60717bb-c122-49b9-9617-d121c05f60cb -->
 
@@ -7874,6 +7890,20 @@ The deposit rate limit parameters are:
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: ce3f0a10-568d-4525-b69d-1669c3cb2e8c -->
 
 The withdrawal rate limit parameters are:
+
+- `maxAmount`: 10,000,000 AUSD
+- `slope`: 100,000,000 AUSD per day
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.3 - Mint Rate Limit [Core]  <!-- UUID: ec87bf5f-c852-4a1b-8ff6-02b654fa8654 -->
+
+The mint rate limit parameters are:
+
+- `maxAmount`: 10,000,000 USDC
+- `slope`: 100,000,000 USDC per day
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.4 - Redeem Rate Limit [Core]  <!-- UUID: fc03258b-2654-4056-9503-0084b9f099a5 -->
+
+The redeem rate limit parameters are:
 
 - `maxAmount`: 10,000,000 AUSD
 - `slope`: 100,000,000 AUSD per day
