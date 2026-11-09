@@ -1867,9 +1867,9 @@ The address of the ALM_PROXY contract is: `0x876664f0c9Ff24D1aa355Ce9f1680AE1A5b
 
 The address of the ALM_RATE_LIMITS contract is: `0x6B34A6B84444dC3Fc692821D5d077a1e4927342d`
 
-###### A.6.1.1.1.2.6.1.2.1.1.1.2.6 - Avalanche (Deprecated) [Core]  <!-- UUID: 4299d551-8954-4290-acb8-e97b501f8f08 -->
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.6 - Avalanche [Core]  <!-- UUID: 4299d551-8954-4290-acb8-e97b501f8f08 -->
 
-This document contains the ALM Contract Addresses for the deprecated Spark Liquidity Layer on Avalanche.
+This document contains the ALM Contract Addresses for the Spark Liquidity Layer on Avalanche.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.1 - ALM Controller (ForeignController Avalanche) Contract Address [Core]  <!-- UUID: 2a9bf1bb-81f7-40d2-a26d-2cc7e729913f -->
 
@@ -2382,7 +2382,7 @@ The maximum amount of sUSDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHD
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.2.1.1.3.6 - Avalanche (Deprecated) [Core]  <!-- UUID: bf7f9935-ef38-4d33-a871-d4273cb341e0 -->
+###### A.6.1.1.1.2.6.1.2.1.1.3.6 - Avalanche [Core]  <!-- UUID: bf7f9935-ef38-4d33-a871-d4273cb341e0 -->
 
 The documents herein list the current `RateLimits` for the Spark Liquidity Layer on Avalanche.
 
