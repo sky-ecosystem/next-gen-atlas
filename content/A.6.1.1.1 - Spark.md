@@ -1835,9 +1835,9 @@ The address of the ALM_PROXY contract is: `0x345E368fcCd62266B3f5F37C9a131FD1c39
 
 The address of the ALM_RATE_LIMITS contract is: `0x5A1a44D2192Dd1e21efB9caA50E32D0716b35535`
 
-###### A.6.1.1.1.2.6.1.2.1.1.1.2.5 - Optimism (Deprecated) [Core]  <!-- UUID: 2c97bd03-ef58-411f-b2cc-1db6d8396d95 -->
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.5 - Optimism [Core]  <!-- UUID: 2c97bd03-ef58-411f-b2cc-1db6d8396d95 -->
 
-This document contains the ALM Contract Addresses for the deprecated Spark Liquidity Layer on Optimism.
+This document contains the ALM Contract Addresses for the Spark Liquidity Layer on Optimism.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.5.1 - ALM Controller (ForeignController Optimism) Contract Address [Core]  <!-- UUID: 1eaa9220-d5e2-44f2-83eb-232add8f04ff -->
 
@@ -2333,7 +2333,7 @@ The maximum amount of sUSDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHD
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.2.1.1.3.5 - Optimism (Deprecated) [Core]  <!-- UUID: 13bda6de-0abf-4b64-9379-4653c8f4875e -->
+###### A.6.1.1.1.2.6.1.2.1.1.3.5 - Optimism [Core]  <!-- UUID: 13bda6de-0abf-4b64-9379-4653c8f4875e -->
 
 The documents herein list the current `RateLimits` for the Spark Liquidity Layer on Optimism.
 
@@ -2375,6 +2375,13 @@ The maximum amount of sUSDS that can be deposited into the PSM (`LIMIT_PSM_DEPOS
 ###### A.6.1.1.1.2.6.1.2.1.1.3.5.6 - Optimism sUSDS Withdrawal Maximum [Core]  <!-- UUID: a9d4793d-da6a-440e-9435-993070700b60 -->
 
 The maximum amount of sUSDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_SUSDS`) is specified in the document herein.
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.2.1.1.3.5.7 - USDC Optimism ALM Proxy Maximum [Core]  <!-- UUID: a1f0fbfd-e6f1-4709-9d7c-e24a7b1201b6 -->
+
+The maximum amount of USDC that can be sent to the Optimism ALM Proxy (`LIMIT_USDC_TO_DOMAIN`, hashed with Optimism domain) is specified in the document herein.
 
 - `maxAmount`: 0
 - `slope`: 0
