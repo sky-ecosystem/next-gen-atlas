@@ -106,18 +106,6 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 The documents herein contain data relevant to the Single Instance of the Agent Creation Primitive.
 
-###### A.6.1.1.6.2.1.1.3.1.3.1 - Initial Planning [Core]  <!-- UUID: 23b86592-2145-4b96-b74f-7ce8e976b47d -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.1.1.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 79928bec-a87b-427b-9221-2bc19f92fc8d -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.1.1.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 63ba43df-c030-47a1-9563-75ee436969d9 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.6.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 38aff44f-e8ef-4734-8e11-fb7894d024a5 -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
@@ -197,18 +185,6 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 ###### A.6.1.1.6.2.1.2.3.1.3 - Data Repository [Core]  <!-- UUID: e88a0572-4a34-43f2-87df-397f568c1a6a -->
 
 The documents herein contain data relevant to the Single Instance of the Prime Transformation Primitive.
-
-###### A.6.1.1.6.2.1.2.3.1.3.1 - Initial Planning [Core]  <!-- UUID: f1d6c189-e998-4bfc-b7a0-322dffdf818e -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.1.2.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: f2188696-f28a-41ca-b1d9-7dba408089e7 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.1.2.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: f68d7dad-91a6-41df-8a4f-f0a51d1edcaa -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.6.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 92101482-3d95-4596-8caa-331a7b32362f -->
 
@@ -360,18 +336,6 @@ The documents herein define the operational processes for minting and initial di
 
 The documents herein contain data relevant to the Single Instance of the Agent Token Primitive.
 
-###### A.6.1.1.6.2.1.4.2.1.3.1 - Initial Planning [Core]  <!-- UUID: c900576f-7e31-40cc-8c2d-994b6b06bb5a -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.1.4.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 34f38616-01ff-4516-8ede-b553d2305fb8 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.1.4.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: bc407d25-c3f5-412e-bf72-4cab3189f9e4 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.6.2.1.4.3 - Completed Instances [Core]  <!-- UUID: abfc5286-88ee-4cb1-9610-ef45082019d6 -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
@@ -455,18 +419,6 @@ The documents herein define the process for the ongoing management of the Ozone 
 ###### A.6.1.1.6.2.2.1.2.1.3 - Data Repository [Core]  <!-- UUID: aa2c1044-4832-4e97-a2c9-36f4b872bd88 -->
 
 The documents herein contain data relevant to the Ozone Instance of the Executor Accord Primitive.
-
-###### A.6.1.1.6.2.2.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 5ac885aa-64f6-4400-82b9-d11a33470b28 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.2.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: b3a60a21-7f43-403f-9cfa-aa8bd29f0140 -->
-
-The materials associated with Operational GovOps review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.2.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: eb0aaebd-16e4-4955-b7c9-c1a778b4cf9e -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.6.2.2.1.3 - Completed Instances [Core]  <!-- UUID: 20a2abf2-ca4d-407e-8c23-2950271ffa19 -->
 
@@ -591,18 +543,6 @@ In an Emergency Situation, as defined by the Sky Core Atlas in [A.1.9.1.1 - Defi
 ###### A.6.1.1.6.2.2.2.2.1.3 - Data Repository [Core]  <!-- UUID: ffdbcc14-282a-47ae-81c6-7773b2cc09bf -->
 
 The documents herein contain data relevant to the Single Instance of the Root Edit Primitive.
-
-###### A.6.1.1.6.2.2.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: f4b2bc56-63d1-4b5b-8c84-8eccc1fa3218 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.2.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 10680aaa-0b55-4c66-b40d-9741bcd4dc6e -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.2.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 17aa4887-fc5d-4b66-8f3e-60a3490250a5 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.6.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 261adee1-2841-4c6b-937e-c5c86cf6cbac -->
 
@@ -756,18 +696,6 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.6.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 87094d8d-a42a-4665-8215-615124a8e123 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.3.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 0b1d35c9-7ae9-4b23-a5c8-360c5af2d58c -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.3.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: cf3abeef-7836-457a-a659-e432d1eb7c20 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.6.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 88e57951-b13f-4c14-8af1-c0b6f757df42 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
@@ -863,18 +791,6 @@ The documents herein define the protocol for handling emergency situations in th
 ###### A.6.1.1.6.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: c1002f65-de06-45e0-ab0b-99d44279ffb3 -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
-
-###### A.6.1.1.6.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 136d9a42-5b8f-4e7c-835a-bbcdff8e3d9a -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: e432bb7e-0054-4306-a573-494655454d35 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.6.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 1e486b02-fcb5-4c95-b832-153f592b5f13 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.6.2.3.2.3 - Completed Instances [Core]  <!-- UUID: 3aa8f9e7-67ca-4411-9938-d3e7472f3cfe -->
 
@@ -2030,16 +1946,16 @@ The outflow RateLimitID is: `0x64e6fd9d694640eebeeefc7b5abe32ef09bbabaa3d4e60221
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the documents herein.
 
-###### A.6.1.1.6.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: baf5e2d2-8d4f-4248-90ff-c3bb21972b62 -->
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: baf5e2d2-8d4f-4248-90ff-c3bb21972b62 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 100,000,000 USDC
 - `slope`: 20,000,000 USDC per day
 
-###### A.6.1.1.6.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 49a40f8d-e564-4cb3-bd6d-44d51bcba9c2 -->
+###### A.6.1.1.6.2.6.1.3.1.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 49a40f8d-e564-4cb3-bd6d-44d51bcba9c2 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -2123,9 +2039,9 @@ The River SPV II Offramp address is `0xfD2cB7Ebbb339B9AA4E9C60e5aFa460F4888320F`
 
 The Transfer RateLimitID is: `0x9e89eef868db62cc103dac9e8428957603e3ff835526132d10b5f1f327fc7605`.
 
-###### A.6.1.1.6.2.6.1.3.1.2.1.2.4 - Transfer Rate Limits [Core]  <!-- UUID: 158d966f-bd51-4584-98fb-248164e201a3 -->
+###### A.6.1.1.6.2.6.1.3.1.2.1.2.4 - Transfer Rate Limit [Core]  <!-- UUID: 158d966f-bd51-4584-98fb-248164e201a3 -->
 
-The transfer rate limits are:
+The transfer rate limit parameters are:
 
 - `maxAmount`: 35,000,000 USDC
 - `slope`: 10,000,000 USDC per day

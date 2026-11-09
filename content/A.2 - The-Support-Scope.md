@@ -1301,35 +1301,24 @@ The process flow is defined herein.
     - Long Term process:
         - The Prime Agent must first apply to the Integrator program and be approved by Operational GovOps pursuant to [A.2.2.4.1.2.2 - Long Term Process](6283379c-d871-40a9-a915-d716d7df5642). Post approval, Operational GovOps issues a Reward Code to the Prime Agent.
         - The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data.
+- The Prime Agent notifies Operational GovOps that it is drafting a request to Invoke a Distribution Reward Instance, then submits the request to Operational GovOps for review.
 
 ###### A.2.2.9.1.2.3.1.3 - Required Primitive Inputs [Core]  <!-- UUID: 4d5482ad-7944-4073-8fbe-b9dbcd1a27a3 -->
 
 The required Primitive Inputs for this process are defined herein and organized in sequential stages.
 
-- Drafting of Initial Planning Document
-    - Create `Initial Planning Document`
-        - Updated fields
-            - `Status`
-                - New value: set to `Drafting`
-            - `Integrator`
-                - New Value: set to Integrator Name
-            - `Reward Code`
-                - New Value: set to Reward Code
-            - `Tracking Methodology`
-                - New value: populate with details for tracking utilization
-            - `Custom Instance Parameters`
-                - New Value: populate with details for any custom parameters
-        - Responsible Party: Prime Agent Team
-        - Trigger - Required Output: After Prime Agent's `Initial planning document` Status is set to `Drafting`
-- Initial Planning Document Triggered For GovOps review
-    - Edit `Initial Planning Document`
-        - Updated fields
-            - `Tracking Methodology`
-                - New value: updated content, as applicable
-            - `Status`
-                - New value: set to `Ready for GovOps Review`
-        - Responsible party: Prime Agent
-        - Trigger - Required Output: After Prime Agent's `Initial planning document` Status is set to `Ready for GovOps review`.
+- Drafting of the request
+    - The Prime Agent notifies Operational GovOps and drafts its request to Invoke a Distribution Reward Instance, containing:
+        - `Integrator`: the Integrator name
+        - `Reward Code`: the Reward Code
+        - `Tracking Methodology`: details for tracking utilization
+        - `Custom Instance Parameters`: details for any custom parameters
+    - Responsible Party: Prime Agent
+    - Trigger - Required Output: After the Prime Agent notifies Operational GovOps that it is drafting a request
+- Request submitted for Operational GovOps review
+    - The Prime Agent submits the request to Operational GovOps.
+    - Responsible Party: Prime Agent
+    - Trigger - Required Output: After the Prime Agent submits the request to Operational GovOps
 
 ###### A.2.2.9.1.2.3.1.4 - Required Outputs [Core]  <!-- UUID: 1ad17e84-8bde-4669-9967-9f67d1d3c603 -->
 
@@ -1354,7 +1343,7 @@ The Sky Core Atlas is updated pursuant to the following requirements.
 
 The Agent Artifact is updated pursuant to the following requirements. Each Output "set" is triggered following the completion of its respective Input stage, defined in [A.2.2.9.1.2.3.1.3 - Required Primitive Inputs](4d5482ad-7944-4073-8fbe-b9dbcd1a27a3).
 
-- After Prime Agent's `Initial planning document` Status is set to `Drafting`
+- After the Prime Agent notifies Operational GovOps that it is drafting a request
     - Create `Instance Configuration` Document for prospective Primitive Instance. The Instance Configuration Document contains a `Data Repository.`
         - Instance Status: (automatically inherits from `Primitive Hub Document`)
     - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
@@ -1364,7 +1353,7 @@ The Agent Artifact is updated pursuant to the following requirements. Each Outpu
             - Instance Configuration Document Location
                 - New value: link to `Instance Configuration Document` (created at Create `Instance Configuration` Document for prospective Primitive Instance. The Instance Configuration Document contains a `Data Repository.`)
     - Responsible party: Operational GovOps [automated]
-- After Prime Agent's `Initial planning document` Status is set to `Ready for GovOps review`.
+- After the Prime Agent submits the request to Operational GovOps
     - Edit `Primitive Hub Document/In Progress Invocations/Instance Name`
         - Updated fields:
             - Invocation Status:
@@ -1400,23 +1389,22 @@ This process has no dependencies.
 
 The process flow is defined herein:
 
-- Operational GovOps reviews the `Initial Planning Document` to ensure:
+- Operational GovOps reviews the Prime Agent's request and checks its feasibility, ensuring that:
     - Operational GovOps has the ability to operationalize the proposed tracking mechanism, and
-    - The proposed tracking mechanism accurately reflects USDS usage attributable to the actor and there is no possibility that rewards could be "double counted" (i.e. multiple actors being paid for the same USDS balance).
-- Operational GovOps submits its feedback into the `Operational GovOps Review Document` (created at Create `Operational GovOps Review Document`.) along with suggested changes, if any.
-- The Prime Agent incorporates feedback from Operational GovOps and edits its `Initial Planning Document` as needed.
+    - the proposed tracking mechanism accurately reflects USDS usage attributable to the actor and there is no possibility that rewards could be "double counted" (i.e. multiple actors being paid for the same USDS balance).
+- Operational GovOps gives the Prime Agent its feedback, along with suggested changes, if any.
+- The Prime Agent incorporates the feedback from Operational GovOps and updates its request as needed.
+- Where Operational GovOps determines that the request is not feasible, the Invocation does not proceed to the Artifact Update Draft process.
 
 ###### A.2.2.9.1.2.3.2.3 - Required Primitive Inputs [Core]  <!-- UUID: 9c4653fa-6afe-4567-9e85-54c0a84b9311 -->
 
-The following inputs must be submitted into the Primitive using the Powerhouse interface.
+The required Primitive Inputs for this process are as follows.
 
-- Create `Operational GovOps Review Document`.
-    - Updated fields
-        - `Initial Planning Document`
-            - New Value: automatically links to respective Document
-        - `Feedback Summary`
-            - New Value: GovOps populates with its review commentary and suggested changes that are agreed to by Agent and GovOps, if any.
-        - Responsible party: Operational GovOps.
+- Operational GovOps gives the Prime Agent its feedback on the request, including any changes agreed by the Prime Agent and Operational GovOps.
+    - Responsible Party: Operational GovOps
+- Operational GovOps confirms that the request is feasible, or determines that it is not feasible.
+    - Responsible Party: Operational GovOps
+    - Trigger - Required Output: After Operational GovOps confirms that the request is feasible
 
 ###### A.2.2.9.1.2.3.2.4 - Required Outputs [Core]  <!-- UUID: a7a3e2d3-54bd-4c0f-a222-505b5e14a5e4 -->
 
@@ -1430,18 +1418,9 @@ No Sky Core Atlas documents are updated as the output of this process.
 
 The Agent Artifact is updated pursuant to the following requirements.
 
-###### A.2.2.9.1.2.3.2.4.2.1 - Initial Planning Document Update [Core]  <!-- UUID: 66a07769-2de9-4b15-a439-4fc84b6a1575 -->
+###### A.2.2.9.1.2.3.2.4.2.1 - Primitive Hub Document/In Progress Invocations Directory/Instance Name Update [Core]  <!-- UUID: 6f457b50-a98c-4516-9b37-932603a59627 -->
 
-The Document is updated as follows.
-
-- Updated fields
-    - `Tracking Methodology`
-        - New Value: as applicable, update to reflect any changes agreed to between the Prime Agent and Operational GovOps
-    - Responsible Party: Operational GovOps
-
-###### A.2.2.9.1.2.3.2.4.2.2 - Primitive Hub Document/In Progress Invocations Directory/Instance Name Update [Core]  <!-- UUID: 6f457b50-a98c-4516-9b37-932603a59627 -->
-
-The Document is updated as follows.
+After Operational GovOps confirms that the request is feasible, the Document is updated as follows.
 
 - Updated fields
     - Invocation Status
@@ -1467,7 +1446,7 @@ None.
 
 ###### A.2.2.9.1.2.3.3.1.1.2 - Document Update Triggers [Core]  <!-- UUID: 94d06bae-9bc9-4e8f-a38d-4b879466873b -->
 
-This process is triggered by the Document Update specified at [A.2.2.9.1.2.3.3.4.2.1 - Primitive Hub/In Progress Invocations Directory/Instance Name Update](b37c4266-2dd9-4cce-8b6b-cc35af2b94d9).
+This process is triggered by the Document Update specified at [A.2.2.9.1.2.3.2.4.2.1 - Primitive Hub Document/In Progress Invocations Directory/Instance Name Update](6f457b50-a98c-4516-9b37-932603a59627).
 
 ###### A.2.2.9.1.2.3.3.1.2 - Dependencies [Core]  <!-- UUID: a6f968d6-0e8c-4962-b982-43beffc602db -->
 
@@ -2276,43 +2255,28 @@ The process flow is defined herein.
 
 - The Prime Agent identifies a DeFi protocol or market where an Integration Boost would drive adoption. The Prime Agent estimates the potential earnings from the Distribution Reward associated with the incremental USDS usage versus the operational cost of funding the Sky Savings Rate payouts.
 - The Prime Agent and the prospective Integration Boost Partner discuss (1) the proposed Integration Boost cadence and (2) whether and how the Prime Agent will share a portion of the Distribution Reward with the Integration Boost Partner.
+- The Prime Agent notifies Operational GovOps that it is drafting a request to Invoke an Integration Boost Instance, then submits the request to Operational GovOps for review.
 
 ###### A.2.2.9.2.2.3.1.3 - Required Primitive Inputs [Core]  <!-- UUID: b91d0eb6-fa86-486c-8350-4564bdb5af09 -->
 
 The required Primitive Inputs for this process are defined herein and organized in sequential stages.
 
-- Drafting of Initial Planning Document
-    - Create `Initial Planning Document`
-        - Updated fields
-            - `Status`
-                - New value: set to `Drafting`
-            - `Integration Partner Name`
-                - New Value: set to Integration Partner name
-            - `Integration Partner Reward Address`
-                - New Value: set to Integration Partner reward address
-            - `Integration Partner Chain`
-                - New Value: set to Integration Partner chain
-            - `Integration Boost Cadence`
-                - New Value: set to Integration Boost cadence
-            - `Integration Boost Data Submission Format`
-                - New Value: populate with details for format of data submission
-            - `Integration Boost Data Submission Responsible Actor`
-                - New Value: set to Actor responsible for data submission
-            - `Integration Boost Savings Rate Adjustment Strategy`
-                - New Value: populate with details for handling adjustments to Sky Savings Rate
-            - `Custom Instance Parameters`
-                - New Value: populate with details for any custom parameters
-        - Responsible Party: Prime Agent Team
-        - Trigger - Required Output: After Prime Agent's `Initial planning document` Status is set to `Drafting`
-- Initial Planning Document triggered for GovOps review
-    - Edit `Initial Planning Document`
-        - Updated fields
-            - `Integration Boost Savings Rate Adjustment Strategy`
-                - New value: updated content, as applicable
-            - `Status`
-                - New value: set to `Ready for GovOps Review`
-        - Responsible party: Prime Agent
-        - Trigger - Required Output: After Prime Agent's `Initial planning document` Status is set to `Ready for GovOps review`.
+- Drafting of the request
+    - The Prime Agent notifies Operational GovOps and drafts its request to Invoke an Integration Boost Instance, containing:
+        - `Integration Partner Name`: the Integration Partner name
+        - `Integration Partner Reward Address`: the Integration Partner reward address
+        - `Integration Partner Chain`: the Integration Partner chain
+        - `Integration Boost Cadence`: the Integration Boost cadence
+        - `Integration Boost Data Submission Format`: details for the format of data submission
+        - `Integration Boost Data Submission Responsible Actor`: the actor responsible for data submission
+        - `Integration Boost Savings Rate Adjustment Strategy`: details for handling adjustments to the Sky Savings Rate
+        - `Custom Instance Parameters`: details for any custom parameters
+    - Responsible Party: Prime Agent
+    - Trigger - Required Output: After the Prime Agent notifies Operational GovOps that it is drafting a request
+- Request submitted for Operational GovOps review
+    - The Prime Agent submits the request to Operational GovOps.
+    - Responsible Party: Prime Agent
+    - Trigger - Required Output: After the Prime Agent submits the request to Operational GovOps
 
 ###### A.2.2.9.2.2.3.1.4 - Required Outputs [Core]  <!-- UUID: c0e07df6-d6b9-4268-95a6-f0f42877a639 -->
 
@@ -2335,7 +2299,7 @@ The Sky Core Atlas is updated pursuant to the following requirements.
 
 The Agent Artifact is updated pursuant to the following requirements. Each Output "set" is triggered following the completion of its respective Input stage, which latter is defined in [A.2.2.9.2.2.3.1.3 - Required Primitive Inputs](b91d0eb6-fa86-486c-8350-4564bdb5af09).
 
-- After Prime Agent's `Initial planning document` Status is set to `Drafting`
+- After the Prime Agent notifies Operational GovOps that it is drafting a request
     - Create `Instance Configuration` Document for prospective Primitive Instance. The Instance Configuration Document contains a `Data Repository`.
         - Instance Status: (automatically inherits from `Primitive Hub Document`)
     - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
@@ -2345,7 +2309,7 @@ The Agent Artifact is updated pursuant to the following requirements. Each Outpu
             - Instance Configuration Document Location
                 - New value: link to `Instance Configuration Document` (created at Create `Instance Configuration` Document for prospective Primitive Instance. The Instance Configuration Document contains a `Data Repository`.)
     - Responsible party: Operational GovOps [automated]
-- After Prime Agent's `Initial planning document` Status is set to `Ready for GovOps review`.
+- After the Prime Agent submits the request to Operational GovOps
     - Edit `Primitive Hub Document/In Progress Invocations/Instance Name`
         - Updated fields:
             - Invocation Status:
@@ -2381,24 +2345,23 @@ This process has no dependencies.
 
 The process flow is defined herein:
 
-- Operational GovOps reviews the `Initial Planning Document` to ensure:
-    - The submitted data can be verified using on-chain data;
+- Operational GovOps reviews the Prime Agent's request and checks its feasibility, ensuring that:
+    - the submitted data can be verified using on-chain data;
     - the Savings Rate Adjustment Strategy ensures that the payment on USDS balances equals the Sky Savings Rate, and
     - the submitted data accurately reflects USDS deposits in the Integration Partner protocol and there is no possibility that rewards could be "double counted" (i.e. multiple actors being paid for the same USDS balance).
-- Operational GovOps submits its feedback into the `Operational GovOps Review Document` (created at Create `Operational GovOps Review Document`) along with suggested changes, if any.
-- The Prime Agent incorporates feedback from Operational GovOps and edits its `Initial Planning Document` as needed.
+- Operational GovOps gives the Prime Agent its feedback, along with suggested changes, if any.
+- The Prime Agent incorporates the feedback from Operational GovOps and updates its request as needed.
+- Where Operational GovOps determines that the request is not feasible, the Invocation does not proceed to the Artifact Update Draft process.
 
 ###### A.2.2.9.2.2.3.2.3 - Required Primitive Inputs [Core]  <!-- UUID: 1eafc42a-1fd2-4f96-988c-8dc37c1ab317 -->
 
-The following inputs must be submitted into the Primitive using the Powerhouse interface.
+The required Primitive Inputs for this process are as follows.
 
-- Create `Operational GovOps Review Document`
-    - Updated fields
-        - `Initial Planning Document`
-            - New Value: automatically links to respective Document
-        - `Feedback Summary`
-            - New Value: GovOps populates with its review commentary and suggested changes that are agreed to by Agent and GovOps, if any.
-        - Responsible party: Operational GovOps.
+- Operational GovOps gives the Prime Agent its feedback on the request, including any changes agreed by the Prime Agent and Operational GovOps.
+    - Responsible Party: Operational GovOps
+- Operational GovOps confirms that the request is feasible, or determines that it is not feasible.
+    - Responsible Party: Operational GovOps
+    - Trigger - Required Output: After Operational GovOps confirms that the request is feasible
 
 ###### A.2.2.9.2.2.3.2.4 - Required Outputs [Core]  <!-- UUID: 0bce1c09-ba85-418f-8cf7-0f51c8fa0584 -->
 
@@ -2412,20 +2375,9 @@ No Sky Core Atlas documents are updated as the output of this process.
 
 The Agent Artifact is updated pursuant to the following requirements.
 
-###### A.2.2.9.2.2.3.2.4.2.1 - Initial Planning Document Update [Core]  <!-- UUID: ddcfe438-e322-425b-82c6-3bba3ce33823 -->
+###### A.2.2.9.2.2.3.2.4.2.1 - Primitive Hub Document Update [Core]  <!-- UUID: 09ddd2c5-3768-4538-b979-629e1b369299 -->
 
-The Document is updated as follows.
-
-- Updated fields
-    - `Integration Boost Savings Rate Adjustment Strategy`
-        - New Value: as applicable, update to reflect any changes agreed to between the Prime Agent and Operational GovOps
-    - `Integration Boost Data Submission Format`
-        - New Value: as applicable, update to reflect any changes agreed to between the Prime Agent and Operational GovOps
-    - Responsible Party: Operational GovOps
-
-###### A.2.2.9.2.2.3.2.4.2.2 - Primitive Hub Document Update [Core]  <!-- UUID: 09ddd2c5-3768-4538-b979-629e1b369299 -->
-
-The Document is updated as follows.
+After Operational GovOps confirms that the request is feasible, the Document is updated as follows.
 
 - Updated fields
     - Active instances/Instance name/Instance status -
@@ -2451,7 +2403,7 @@ None.
 
 ###### A.2.2.9.2.2.3.3.1.1.2 - Document Update Triggers [Core]  <!-- UUID: 98b5465e-add9-4ae0-a02e-1c5be6006410 -->
 
-This process is triggered by the Document Update specified at [A.2.2.9.2.2.3.2.4.2.2 - Primitive Hub Document Update](09ddd2c5-3768-4538-b979-629e1b369299).
+This process is triggered by the Document Update specified at [A.2.2.9.2.2.3.2.4.2.1 - Primitive Hub Document Update](09ddd2c5-3768-4538-b979-629e1b369299).
 
 ###### A.2.2.9.2.2.3.3.1.2 - Dependencies [Core]  <!-- UUID: a616c3f6-b252-4d85-996a-019dea9f01e7 -->
 
@@ -2532,7 +2484,7 @@ None.
 
 ###### A.2.2.9.2.2.3.4.1.1.2 - Document Update Triggers [Core]  <!-- UUID: 555a08a4-e028-44bd-9ba2-91e4bbf61644 -->
 
-This process is triggered by the Document Update specified at [A.2.2.9.2.2.3.2.4.2.2 - Primitive Hub Document Update](09ddd2c5-3768-4538-b979-629e1b369299).
+This process is triggered by the Document Update specified at [A.2.2.9.2.2.3.3.4.2.1 - Primitive Hub Document Update](e7fc7c2e-b6fc-4e0f-ae10-debb54124e8e).
 
 ###### A.2.2.9.2.2.3.4.1.2 - Dependencies [Core]  <!-- UUID: f19c7277-65b4-4755-8756-fb0a242ba6a2 -->
 
@@ -3371,7 +3323,7 @@ The ERC-4626 Facet's highest production rate limit is:
 
 - Deposit
     - `maxAmount`: 5,000,000 USDC
-    - `slope`: 0 USDC per day
+    - `slope`: 650,000 USDC per day
 - Withdraw
     - `maxAmount`: Unlimited
 
@@ -6310,7 +6262,7 @@ Sky Governance hereby consents to this cash grant. The first month’s transfer 
 
 ###### A.2.8.2.2.2.4.4.1.1 - Transfer Of USDS To Spark Foundation [Core]  <!-- UUID: 03f04153-de54-494b-8bb4-639865e85f2c -->
 
-The grant authorized in this document was paid to the Spark Foundation from the Spark SubProxy in three (3) transfers of 800,000 USDS each, made in Spark Spells included in the June 26, 2025, August 21, 2025 and September 4, 2025 Executive Votes.
+The grant authorized in [A.2.8.2.2.2.4.4.1 - Initial Cash Grant To Spark Foundation](9daea2fa-0fef-48a7-8633-fa33081236da) was paid to the Spark Foundation from the Spark SubProxy in three (3) transfers of 800,000 USDS each, made in Spark Spells included in the June 26, 2025, August 21, 2025 and September 4, 2025 Executive Votes.
 
 ###### A.2.8.2.2.2.4.5 - Subsequent Allocation Mechanism [Core]  <!-- UUID: aea8a2d8-2203-4123-8c09-17b2bb8427c1 -->
 
@@ -6332,7 +6284,7 @@ Sky Governance hereby consents to this cash grant. The transfer for October must
 
 ###### A.2.8.2.2.2.4.5.1.1.1 - Transfer Of USDS To Spark Foundation [Core]  <!-- UUID: 7ced22ef-d015-48f5-92f5-52ccdfd7eec2 -->
 
-The grant authorized in this document was paid to the Spark Foundation from the Spark SubProxy in three (3) transfers of 1,100,000 USDS each, covering October, November and December 2025, made in Spark Spells included in the October 2, 2025, October 30, 2025 and November 27, 2025 Executive Votes.
+The grant authorized in [A.2.8.2.2.2.4.5.1.1 - Spark Foundation Grant Authorization: October 2025](12425328-8344-4fbd-9afb-3ea6316972dd) was paid to the Spark Foundation from the Spark SubProxy in three (3) transfers of 1,100,000 USDS each, covering October, November and December 2025, made in Spark Spells included in the October 2, 2025, October 30, 2025 and November 27, 2025 Executive Votes.
 
 ###### A.2.8.2.2.2.4.5.1.2 - Spark Foundation Grant Authorization: December 2025 [Core]  <!-- UUID: bd9673db-225e-42f4-8f26-6e993dc72bd0 -->
 
@@ -6342,11 +6294,11 @@ Sky Governance hereby consents to these grants and authorizes the execution of t
 
 ###### A.2.8.2.2.2.4.5.1.2.1 - Transfer Of USDS To Spark Foundation [Core]  <!-- UUID: e62499b4-d444-40a6-8eea-9b5f6d85bbb6 -->
 
-The grant authorized in this document for the Spark Foundation was paid from the Spark SubProxy in three (3) transfers of 1,100,000 USDS each, covering January, February and March 2026, made in Spark Spells included in the December 11, 2025, January 29, 2026 and February 26, 2026 Executive Votes.
+The grant for the Spark Foundation authorized in [A.2.8.2.2.2.4.5.1.2 - Spark Foundation Grant Authorization: December 2025](bd9673db-225e-42f4-8f26-6e993dc72bd0) was paid from the Spark SubProxy in three (3) transfers of 1,100,000 USDS each, covering January, February and March 2026, made in Spark Spells included in the December 11, 2025, January 29, 2026 and February 26, 2026 Executive Votes.
 
 ###### A.2.8.2.2.2.4.5.1.2.2 - Transfer Of USDS To Spark Asset Foundation [Core]  <!-- UUID: b83a89eb-454b-413f-9d67-b4877a59a393 -->
 
-The grant authorized in this document for the Spark Asset Foundation was paid from the Spark SubProxy in one (1) transfer of 150,000 USDS, made in the Spark Spell included in the December 11, 2025 Executive Vote.
+The grant for the Spark Asset Foundation authorized in [A.2.8.2.2.2.4.5.1.2 - Spark Foundation Grant Authorization: December 2025](bd9673db-225e-42f4-8f26-6e993dc72bd0) was paid from the Spark SubProxy in one (1) transfer of 150,000 USDS, made in the Spark Spell included in the December 11, 2025 Executive Vote.
 
 ###### A.2.8.2.2.2.4.5.1.3 - Spark Foundation Grant Authorization: Q2 2026 [Core]  <!-- UUID: b69158da-476a-4d4b-b7ef-2f8b96b73d23 -->
 
@@ -6356,11 +6308,11 @@ Sky Governance hereby consents to these grants and authorizes the execution of t
 
 ###### A.2.8.2.2.2.4.5.1.3.1 - Transfer Of USDS To Spark Foundation [Core]  <!-- UUID: 9f4636c0-c658-42b7-9ac4-0dffe0e7f9f2 -->
 
-The grant authorized in this document for the Spark Foundation was paid from the Spark SubProxy in three (3) transfers of 1,100,000 USDS each, covering April, May and June 2026, made in Spark Spells included in the March 26, 2026, April 23, 2026 and May 7, 2026 Executive Votes.
+The grant for the Spark Foundation authorized in [A.2.8.2.2.2.4.5.1.3 - Spark Foundation Grant Authorization: Q2 2026](b69158da-476a-4d4b-b7ef-2f8b96b73d23) was paid from the Spark SubProxy in three (3) transfers of 1,100,000 USDS each, covering April, May and June 2026, made in Spark Spells included in the March 26, 2026, April 23, 2026 and May 7, 2026 Executive Votes.
 
 ###### A.2.8.2.2.2.4.5.1.3.2 - Transfer Of USDS To Spark Asset Foundation [Core]  <!-- UUID: a6c4def1-c286-4667-a861-34c8d8541180 -->
 
-The grant authorized in this document for the Spark Asset Foundation was paid from the Spark SubProxy in three (3) transfers of 100,000 USDS each, made in the Spark Spells included in the March 26, 2026, April 23, 2026 and May 7, 2026 Executive Votes.
+The grant for the Spark Asset Foundation authorized in [A.2.8.2.2.2.4.5.1.3 - Spark Foundation Grant Authorization: Q2 2026](b69158da-476a-4d4b-b7ef-2f8b96b73d23) was paid from the Spark SubProxy in three (3) transfers of 100,000 USDS each, made in the Spark Spells included in the March 26, 2026, April 23, 2026 and May 7, 2026 Executive Votes.
 
 ###### A.2.8.2.2.2.4.5.1.4 - Spark Foundation Grant Authorization: Q3 2026 [Core]  <!-- UUID: 8dd2eb27-a760-4287-89cf-7b5bdb0c5d7c -->
 
@@ -6370,17 +6322,25 @@ Sky Governance hereby consents to these grants and authorizes the execution of t
 
 ###### A.2.8.2.2.2.4.5.1.4.1 - Transfer Of USDS To Spark Foundation [Core]  <!-- UUID: aeaadaf7-b8a4-45ef-864f-5ecd2929ecce -->
 
-The grant authorized in this document for the Spark Foundation was paid from the Spark SubProxy in three (3) transfers of 1,100,000 USDS each, covering July, August and September 2026, made in Spark Spells included in the June 18, 2026, July 16, 2026 and August 27, 2026 Executive Votes.
+The grant for the Spark Foundation authorized in [A.2.8.2.2.2.4.5.1.4 - Spark Foundation Grant Authorization: Q3 2026](8dd2eb27-a760-4287-89cf-7b5bdb0c5d7c) was paid from the Spark SubProxy in three (3) transfers of 1,100,000 USDS each, covering July, August and September 2026, made in Spark Spells included in the June 18, 2026, July 16, 2026 and August 27, 2026 Executive Votes.
 
 ###### A.2.8.2.2.2.4.5.1.4.2 - Transfer Of USDS To Spark Asset Foundation [Core]  <!-- UUID: 991fafeb-2adf-4afd-97df-9cb3aad5fa99 -->
 
-The grant authorized in this document for the Spark Asset Foundation was paid from the Spark SubProxy in three (3) transfers of 155,000 USDS each, made in the Spark Spells included in the June 18, 2026, July 16, 2026 and August 27, 2026 Executive Votes.
+The grant for the Spark Asset Foundation authorized in [A.2.8.2.2.2.4.5.1.4 - Spark Foundation Grant Authorization: Q3 2026](8dd2eb27-a760-4287-89cf-7b5bdb0c5d7c) was paid from the Spark SubProxy in three (3) transfers of 155,000 USDS each, made in the Spark Spells included in the June 18, 2026, July 16, 2026 and August 27, 2026 Executive Votes.
 
 ###### A.2.8.2.2.2.4.5.1.5 - Spark Foundation Grant Authorization: October 2026 [Core]  <!-- UUID: 1deecbd9-c3d8-45c4-a407-28386735833d -->
 
 The founding team of Spark has proposed a cash grant of 865,000 USDS to the Spark Foundation from Spark's Prime Treasury to cover October 2026 Spark Foundation expenses. Additionally, the founding team of Spark has proposed a grant of 45,000 USDS to the Spark Asset Foundation from Spark's Prime Treasury to cover October 2026 Spark Asset Foundation expenses.
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads.
+
+###### A.2.8.2.2.2.4.5.1.5.1 - Transfer Of USDS To Spark Foundation [Core]  <!-- UUID: bdf84fb5-664c-44e2-9818-7774725a651e -->
+
+The grant for the Spark Foundation authorized in [A.2.8.2.2.2.4.5.1.5 - Spark Foundation Grant Authorization: October 2026](1deecbd9-c3d8-45c4-a407-28386735833d) was paid from the Spark SubProxy in one (1) transfer of 865,000 USDS, made in a Spark Spell included in the September 24, 2026 Executive Vote.
+
+###### A.2.8.2.2.2.4.5.1.5.2 - Transfer Of USDS To Spark Asset Foundation [Core]  <!-- UUID: 53d37c3d-d517-47ba-a2c9-9b4dc798123b -->
+
+The grant for the Spark Asset Foundation authorized in [A.2.8.2.2.2.4.5.1.5 - Spark Foundation Grant Authorization: October 2026](1deecbd9-c3d8-45c4-a407-28386735833d) was paid from the Spark SubProxy in one (1) transfer of 45,000 USDS, made in a Spark Spell included in the September 24, 2026 Executive Vote.
 
 ###### A.2.8.2.2.2.4.5.1.6 - Spark Foundation Grant Authorization: November 2026 [Core]  <!-- UUID: cf767980-b05c-48bc-abc4-0d213728dfe8 -->
 
@@ -6400,7 +6360,7 @@ Sky Governance hereby consents to this grant and authorizes the execution of the
 
 ###### A.2.8.2.2.2.4.5.2.1.1 - Transfer Of USDS To Grove Foundation Multisig [Core]  <!-- UUID: bf609e8f-a9ef-4787-846e-96a43028a216 -->
 
-The grant authorized in this document was paid to the Grove Foundation Multisig from the Grove SubProxy in two (2) transfers. The transfer for the first month, of 800,000 USDS, was made in a Grove Spell included in the May 7, 2026 Executive Vote. As agreed by Sky and Grove, the second and third months were paid together as a single transfer of 1,600,000 USDS, made in a Grove Spell included in the June 4, 2026 Executive Vote.
+The grant authorized in [A.2.8.2.2.2.4.5.2.1 - Grove Foundation Grant Authorization: Q2 2026](85f7d545-d56c-40b9-b1b4-05663cd7772a) was paid to the Grove Foundation Multisig from the Grove SubProxy in two (2) transfers. The transfer for the first month, of 800,000 USDS, was made in a Grove Spell included in the May 7, 2026 Executive Vote. As agreed by Sky and Grove, the second and third months were paid together as a single transfer of 1,600,000 USDS, made in a Grove Spell included in the June 4, 2026 Executive Vote.
 
 ###### A.2.8.2.2.2.4.5.2.2 - Grove Foundation Grant Authorization: July 2026 [Core]  <!-- UUID: 7b6820d0-1fc1-49e7-839a-240c6cc7ec74 -->
 
@@ -6410,7 +6370,7 @@ Sky Governance hereby consents to this grant and authorizes the execution of the
 
 ###### A.2.8.2.2.2.4.5.2.2.1 - Transfer Of USDS To Grove Foundation Multisig [Core]  <!-- UUID: 61625749-4df9-411e-b4dd-15c9e4b059d3 -->
 
-The grant authorized in this document was paid to the Grove Foundation Multisig from the Grove SubProxy in one (1) transfer of 800,000 USDS, made in a Grove Spell included in the July 2, 2026 Executive Vote.
+The grant authorized in [A.2.8.2.2.2.4.5.2.2 - Grove Foundation Grant Authorization: July 2026](7b6820d0-1fc1-49e7-839a-240c6cc7ec74) was paid to the Grove Foundation Multisig from the Grove SubProxy in one (1) transfer of 800,000 USDS, made in a Grove Spell included in the July 2, 2026 Executive Vote.
 
 ###### A.2.8.2.2.2.4.5.2.3 - Grove Foundation Grant Authorization: August 2026 [Core]  <!-- UUID: a8075d68-a5ba-4b4d-bce5-0ad58130f9e5 -->
 
@@ -6420,13 +6380,17 @@ Sky Governance hereby consents to this grant and authorizes the execution of the
 
 ###### A.2.8.2.2.2.4.5.2.3.1 - Transfer Of USDS To Grove Foundation Multisig [Core]  <!-- UUID: b5ab118c-b968-4e8b-ba13-7d745b1f4860 -->
 
-The grant authorized in this document was paid to the Grove Foundation Multisig from the Grove SubProxy in one (1) transfer of 800,000 USDS, made in a Grove Spell included in the August 27, 2026 Executive Vote.
+The grant authorized in [A.2.8.2.2.2.4.5.2.3 - Grove Foundation Grant Authorization: August 2026](a8075d68-a5ba-4b4d-bce5-0ad58130f9e5) was paid to the Grove Foundation Multisig from the Grove SubProxy in one (1) transfer of 800,000 USDS, made in a Grove Spell included in the August 27, 2026 Executive Vote.
 
 ###### A.2.8.2.2.2.4.5.2.4 - Grove Foundation Grant Authorization: September 2026 [Core]  <!-- UUID: bd2d15af-e32a-4ce9-a7ac-5a5ff1665fd4 -->
 
 The founding team of Grove has proposed a cash grant of 800,000 USDS to the Grove Foundation from Grove's Prime Treasury for September 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
 
 Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payload. The transfer must be made to the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in a Grove Spell included in a Sky Executive Vote unless otherwise agreed by Sky and Grove.
+
+###### A.2.8.2.2.2.4.5.2.4.1 - Transfer Of USDS To Grove Foundation Multisig [Core]  <!-- UUID: d4e37dc9-509a-4dcb-9ab6-450f485cf47a -->
+
+The grant authorized in [A.2.8.2.2.2.4.5.2.4 - Grove Foundation Grant Authorization: September 2026](bd2d15af-e32a-4ce9-a7ac-5a5ff1665fd4) was paid to the Grove Foundation Multisig from the Grove SubProxy in one (1) transfer of 800,000 USDS, made in a Grove Spell included in the September 24, 2026 Executive Vote.
 
 ###### A.2.8.2.2.2.4.5.2.5 - Grove Foundation Grant Authorization: October 2026 [Core]  <!-- UUID: 2ffbf166-edd8-4544-810c-d512fd784c8b -->
 
@@ -6929,7 +6893,7 @@ Sky Governance hereby consents to this grant and authorizes the execution of the
 
 ###### A.2.8.2.7.2.2.3.1.1 - Transfer Of USDS To Skybase Foundation Operational Multisig [Core]  <!-- UUID: c6541e3b-628b-47a6-9f2b-b7b27df7913d -->
 
-The grant authorized in this document was paid to the Skybase Foundation Operational Multisig from the Skybase SubProxy in one (1) transfer of 700,000 USDS, made in a Skybase Spell included in the July 2, 2026 Executive Vote.
+The grant authorized in [A.2.8.2.7.2.2.3.1 - Skybase Foundation Grant Authorization: July 2026](0f33f443-14d5-48b0-a20d-e35a44230cdc) was paid to the Skybase Foundation Operational Multisig from the Skybase SubProxy in one (1) transfer of 700,000 USDS, made in a Skybase Spell included in the July 2, 2026 Executive Vote.
 
 ###### A.2.8.2.7.2.2.3.2 - Skybase Foundation Grant Authorization: November 2026 [Core]  <!-- UUID: 6567f1e3-7c28-44ee-b46c-723f958b1817 -->
 
