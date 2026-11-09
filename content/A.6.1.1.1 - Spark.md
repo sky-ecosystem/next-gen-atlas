@@ -1807,9 +1807,9 @@ The address of the ALM_PROXY contract is: `0x92afd6F2385a90e44da3a8B60fe36f6cBe1
 
 The address of the ALM_RATE_LIMITS contract is: `0x19D08879851FB54C2dCc4bb32b5a1EA5E9Ad6838`
 
-###### A.6.1.1.1.2.6.1.2.1.1.1.2.4 - Unichain [Core]  <!-- UUID: 6cd31b91-4309-49ae-8d23-2486129f3b20 -->
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.4 - Unichain (Deprecated) [Core]  <!-- UUID: 6cd31b91-4309-49ae-8d23-2486129f3b20 -->
 
-This document contains the ALM Contract Addresses for the Spark Liquidity Layer on Unichain.
+This document contains the ALM Contract Addresses for the deprecated Spark Liquidity Layer on Unichain.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.4.1 - ALM Controller (ForeignController Unichain) Contract Address [Core]  <!-- UUID: bcc685eb-d28c-4306-8b78-5639b1d31f6b -->
 
@@ -2288,7 +2288,7 @@ The maximum amount of USDT that can be sent to the Arbitrum ALM Proxy (`LIMIT_US
 - `maxAmount` (USDT): 5,000,000
 - `slope` (USDT/ day): 50,000,000
 
-###### A.6.1.1.1.2.6.1.2.1.1.3.4 - Unichain [Core]  <!-- UUID: 40eb29f0-9d83-4c83-ae68-ea46b9f1bcac -->
+###### A.6.1.1.1.2.6.1.2.1.1.3.4 - Unichain (Deprecated) [Core]  <!-- UUID: 40eb29f0-9d83-4c83-ae68-ea46b9f1bcac -->
 
 The documents herein list the current `RateLimits` for the Spark Liquidity Layer on Unichain.
 
@@ -2296,42 +2296,43 @@ The documents herein list the current `RateLimits` for the Spark Liquidity Layer
 
 The maximum amount of USDC that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_USDC`) is specified in the document herein.
 
-- `maxAmount`: 50,000,000 USDC
-- `slope`: 50,000,000 USDC per day
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.4.2 - Unichain USDC Withdrawal Maximum [Core]  <!-- UUID: cb146c46-207d-4a52-be6d-9a4623f2d921 -->
 
 The maximum amount of USDC that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_USDC`) is specified in the document herein.
 
-- `maxAmount`: 50,000,000 USDC
-- `slope`: 50,000,000 USDC per day
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.4.3 - Unichain USDS Deposit Maximum [Core]  <!-- UUID: f998ce83-747f-4c60-95ba-26f1f2facdb8 -->
 
 The maximum amount of USDS that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_USDS`) is specified in the document herein.
 
-- `maxAmount`: Unlimited
-- `slope`: Unlimited
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.4.4 - Unichain USDS Withdrawal Maximum [Core]  <!-- UUID: 3a6e6efd-314a-4f21-b238-0ffa148fb8e3 -->
 
 The maximum amount of USDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_USDS`) is specified in the document herein.
 
-- `maxAmount`: Unlimited
-- `slope`: Unlimited
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.4.5 - Unichain sUSDS Deposit Maximum [Core]  <!-- UUID: 1741e5ba-e45a-4960-b193-f8bee9d595c9 -->
 
 The maximum amount of sUSDS that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_SUSDS`) is specified in the document herein.
 
-- `maxAmount`: Unlimited
-- `slope`: Unlimited
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.4.6 - Unichain sUSDS Withdrawal Maximum [Core]  <!-- UUID: 16004284-de05-4ee4-a9db-762de1270de9 -->
 
 The maximum amount of sUSDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_SUSDS`) is specified in the document herein.
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.5 - Optimism [Core]  <!-- UUID: 13bda6de-0abf-4b64-9379-4653c8f4875e -->
 
