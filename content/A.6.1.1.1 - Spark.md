@@ -1807,9 +1807,9 @@ The address of the ALM_PROXY contract is: `0x92afd6F2385a90e44da3a8B60fe36f6cBe1
 
 The address of the ALM_RATE_LIMITS contract is: `0x19D08879851FB54C2dCc4bb32b5a1EA5E9Ad6838`
 
-###### A.6.1.1.1.2.6.1.2.1.1.1.2.4 - Unichain (Deprecated) [Core]  <!-- UUID: 6cd31b91-4309-49ae-8d23-2486129f3b20 -->
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.4 - Unichain [Core]  <!-- UUID: 6cd31b91-4309-49ae-8d23-2486129f3b20 -->
 
-This document contains the ALM Contract Addresses for the deprecated Spark Liquidity Layer on Unichain.
+This document contains the ALM Contract Addresses for the Spark Liquidity Layer on Unichain.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.4.1 - ALM Controller (ForeignController Unichain) Contract Address [Core]  <!-- UUID: bcc685eb-d28c-4306-8b78-5639b1d31f6b -->
 
@@ -2288,7 +2288,7 @@ The maximum amount of USDT that can be sent to the Arbitrum ALM Proxy (`LIMIT_US
 - `maxAmount` (USDT): 5,000,000
 - `slope` (USDT/ day): 50,000,000
 
-###### A.6.1.1.1.2.6.1.2.1.1.3.4 - Unichain (Deprecated) [Core]  <!-- UUID: 40eb29f0-9d83-4c83-ae68-ea46b9f1bcac -->
+###### A.6.1.1.1.2.6.1.2.1.1.3.4 - Unichain [Core]  <!-- UUID: 40eb29f0-9d83-4c83-ae68-ea46b9f1bcac -->
 
 The documents herein list the current `RateLimits` for the Spark Liquidity Layer on Unichain.
 
@@ -2330,6 +2330,13 @@ The maximum amount of sUSDS that can be deposited into the PSM (`LIMIT_PSM_DEPOS
 ###### A.6.1.1.1.2.6.1.2.1.1.3.4.6 - Unichain sUSDS Withdrawal Maximum [Core]  <!-- UUID: 16004284-de05-4ee4-a9db-762de1270de9 -->
 
 The maximum amount of sUSDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_SUSDS`) is specified in the document herein.
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.2.1.1.3.4.7 - USDC Unichain ALM Proxy Maximum [Core]  <!-- UUID: 6041cc03-366a-4196-bffd-af38eb31070f -->
+
+The maximum amount of USDC that can be sent to the Unichain ALM Proxy (`LIMIT_USDC_TO_DOMAIN`, hashed with Unichain domain) is specified in the document herein.
 
 - `maxAmount`: 0
 - `slope`: 0
