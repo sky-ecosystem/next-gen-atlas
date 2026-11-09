@@ -7858,7 +7858,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: c5462c4a-eb73-40c3-bc66-6224fb0d7359 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+The specific `RateLimitID`(s) for this conduit’s inflow, outflow, mint, and redeem operations are defined in the subdocuments herein.
 
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 94e3de3e-d8b7-4d23-8b97-8fd6d4c56281 -->
 
@@ -7878,7 +7878,7 @@ The redeem RateLimitID is: `0xab0da394ddd0f939d9c635dce379700edf9baad5c1d8be5899
 
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.4 - Rate Limits [Core]  <!-- UUID: d60717bb-c122-49b9-9617-d121c05f60cb -->
 
-The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit’s inflow, outflow, mint, and redeem operations are defined in the subdocuments herein.
 
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 880c8154-4959-4875-b696-3133f795fe02 -->
 
