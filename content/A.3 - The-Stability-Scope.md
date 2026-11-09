@@ -3513,7 +3513,7 @@ The parameters for the Spark Allocator Vault are:
 - DC-IAM parameters:
     - `gap`: 1.5 billion USDS
     - `line`: 10 billion USDS
-    - `ttl`: 12 hours
+    - `ttl`: 24 hours
 
 ###### A.3.7.1.2.1.2 - ALLOCATOR-BLOOM-A Parameters [Core]  <!-- UUID: 53cba245-68c6-4af9-a280-b200dabebec7 -->
 
