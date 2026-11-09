@@ -8230,6 +8230,10 @@ The `SavingsVaultIntents` configuration for the whitelisted X Layer spUSDC vault
 - Maximum assets per intent: 500,000,000 USDC
 - Relayer (spUSDC PAU Administered Agent): `0x79b4055Eda153f739B5EA63C9B647c1a095059f5`
 
+###### A.6.1.1.1.2.6.1.3.6.1.3 - X Layer - Spark Savings V2 Spark-curated Morpho USDC Vault Instance Configuration Document [Core]  <!-- UUID: 589bf64d-ace2-4b42-b399-75d52dd31099 -->
+
+The documents herein contain the Instance Configuration Document for the Spark-curated Morpho USDC vault for the Spark Savings V2 USDC Instance.
+
 ##### A.6.1.1.1.2.6.1.4 - Completed Instances [Core]  <!-- UUID: ed8c3394-ee05-496c-8dd6-4d5275d2ed1f -->
 
 The Instances of the Spark Liquidity Layer with `Completed` Status are stored herein.
