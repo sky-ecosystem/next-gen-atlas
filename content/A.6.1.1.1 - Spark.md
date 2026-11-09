@@ -1526,6 +1526,14 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.6.1.2 - X Layer - Spark Savings v2 USDC Instance Configuration Document](e81abdf1-02ba-4363-835d-12ade226c2a3)
 
+###### A.6.1.1.1.2.6.1.1.2.6.2 - Morpho [Core]  <!-- UUID: e77b0b3a-0f00-42ea-afa8-0887493a6094 -->
+
+The X Layer Instances Directory of the Morpho Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.2.6.2.1 - X Layer - Spark-curated Morpho USDC Vault Instance Configuration Document Location [Core]  <!-- UUID: 67242c77-3b60-4e49-8251-8aa941363033 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.6.2.1 - X Layer - Spark-curated Morpho USDC Vault Instance Configuration Document](589bf64d-ace2-4b42-b399-75d52dd31099).
+
 ###### A.6.1.1.1.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 1df4d054-4443-4c64-b34b-c9fce456276b -->
 
 This document contains a Directory of all Instances of the Allocation System Primitive with Instance status of `Completed`.
@@ -8230,9 +8238,168 @@ The `SavingsVaultIntents` configuration for the whitelisted X Layer spUSDC vault
 - Maximum assets per intent: 500,000,000 USDC
 - Relayer (spUSDC PAU Administered Agent): `0x79b4055Eda153f739B5EA63C9B647c1a095059f5`
 
-###### A.6.1.1.1.2.6.1.3.6.1.3 - X Layer - Spark Savings V2 Spark-curated Morpho USDC Vault Instance Configuration Document [Core]  <!-- UUID: 589bf64d-ace2-4b42-b399-75d52dd31099 -->
+###### A.6.1.1.1.2.6.1.3.6.2 - Morpho [Core]  <!-- UUID: 382fb639-3ed4-4591-ae6c-cfec4c2db3f1 -->
 
-The documents herein contain the Instance Configuration Document for the Spark-curated Morpho USDC vault for the Spark Savings V2 USDC Instance.
+The X Layer Instances of the Morpho Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.3.6.2.1 - X Layer - Spark-curated Morpho USDC Vault Instance Configuration Document [Core]  <!-- UUID: 589bf64d-ace2-4b42-b399-75d52dd31099 -->
+
+The documents herein contain the Instance Configuration Document for the Spark-curated Morpho USDC Vault Instance.
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 6a0a4394-a03b-4288-90a2-b5dfc9bfad56 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2 - Parameters [Core]  <!-- UUID: c634e41a-784a-4693-91df-4d87407c05a2 -->
+
+The documents herein define the parameters of the Spark-curated Morpho USDC Vault Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.1 - Instance Identifiers [Core]  <!-- UUID: c486be64-981c-4ab8-8cae-90dfa81d1434 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.1.1 - Network [Core]  <!-- UUID: 6d0633de-b235-46bb-bf18-342f566094ef -->
+
+X Layer
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 555968ad-125f-4e99-b125-48c04891cf04 -->
+
+Morpho Vaults V2
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.1.3 - Asset Supplied By Spark Savings USDC PAU [Core]  <!-- UUID: 3bc09047-35a9-41fd-ba8f-ecad599b0ba4 -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.1.4 - Token [Core]  <!-- UUID: 6bf7f189-efdd-48ca-b2c8-ff313edb5d1d -->
+
+TBD
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.2 - Contract Addresses [Core]  <!-- UUID: f1c59f39-ec38-44cb-ab89-d4497923eeb1 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.2.1 - Token Address [Core]  <!-- UUID: 84520756-b684-4ee8-b15e-0e542ad5bcce -->
+
+`TBD`
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 942d74a9-279e-4388-9f82-4ddb644b7fa9 -->
+
+`0xB6CEceAB302E2E4948951eE7843FC24E92933061`
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 6377acc2-0626-4be4-a04a-0ad9f8259bff -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: d552e181-b436-40d8-9993-a3f5ea542318 -->
+
+The inflow RateLimitID is: `TBD`
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 4a997604-1304-4d9c-8b1c-4b10f7049572 -->
+
+The outflow RateLimitID is: `TBD`
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.4 - Rate Limits [Core]  <!-- UUID: 5ab7218c-23ff-449b-bdc4-b102a2098cb3 -->
+
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 1e9ce922-2bf9-4317-852c-57e9027e0e01 -->
+
+The inflow rate limit parameters are:
+
+- `maxAmount`: 15,000,000 USDC
+- `slope`: 10,000,000 USDC per day
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: afab974d-cd79-4031-9353-f82190f7cc82 -->
+
+The outflow rate limit parameter is:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 98d39b46-9ac9-4b60-9382-757dfe882216 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 8b86edf5-bd21-40bd-8075-ba2a7b2840d2 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 52f73c6b-5343-4bc0-bd9a-9e029463288a -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance.
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.4.1 - Contract Addresses [Core]  <!-- UUID: 1bf0fa28-8e52-4548-99b1-c13aeb44b420 -->
+
+The documents herein define the Instance role holders and PAU contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.4.1.1 - Curator Role Address [Core]  <!-- UUID: 66799887-71fc-478f-b6a3-83df779bf405 -->
+
+The Curator role is intended to be held jointly by Soter Labs and Spark through the Curator Multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`.
+
+The co-curator Safe addresses are:
+
+| Entity | Address |
+| --- | --- |
+| Soter Labs | `0x50c770E6dC6CfdEE33509273FA9a215bfAffF9B2` |
+| Spark | `0xAB5710211458FC8d7E0Be628202F47DdbD3F38Eb` |
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.4.1.2 - Sentinel Role Addresses [Core]  <!-- UUID: 13a93238-d281-46d4-a7ff-8806c0edbd32 -->
+
+The Sentinel roles are intended to be held at the following addresses:
+
+| Entity | Address |
+| --- | --- |
+| Operational GovOps Soter Labs | `0xf5748bBeFa17505b2F7222B23ae11584932C908B` |
+| Spark | `TBD` |
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.4.1.3 - Owner Role Address [Core]  <!-- UUID: daabe2b0-d0e1-47a9-ba61-60bb236090b9 -->
+
+The Owner role is intended to be held by the X Layer Spark Executor at `0xCF5af6F53ceC74B791cb4182aC778ca9CD323510`.
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.4.2 - Timelocks [Core]  <!-- UUID: b93cbb1b-486d-4129-8973-8af04ef00207 -->
+
+The vault timelocks for this Instance are defined in the subdocuments herein, following [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569).
+
+The following vault functions are intended to be permanently abdicated:
+
+- `setAdapterRegistry`
+- `setReceiveSharesGate`
+- `setSendSharesGate`
+- `setReceiveAssetsGate`
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.4.2.1 - Seven-Day Timelocks [Core]  <!-- UUID: 88c33ba7-ed86-4d4a-8286-d1efb0a2d823 -->
+
+The following functions have a timelock delay of 168 hours (7 days):
+
+- `addAdapter`
+- `removeAdapter`
+- `increaseAbsoluteCap`
+- `increaseRelativeCap`
+- `setSendAssetsGate`
+- `increaseTimelock`
+- `abdicate`
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.4.2.2 - Three-Day Timelocks [Core]  <!-- UUID: c9648097-4bb9-4eec-9c2b-2b03c31c3f93 -->
+
+The following functions have a timelock delay of 72 hours (3 days):
+
+- `setPerformanceFee`
+- `setManagementFee`
+- `setPerformanceFeeRecipient`
+- `setManagementFeeRecipient`
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.4.2.3 - Functions Without A Timelock [Core]  <!-- UUID: 4b9d124f-0bce-46db-9943-7c7ddf3a8ad1 -->
+
+The following functions have a timelock delay of 0 hours (no delay):
+
+- `setIsAllocator`
+- `setForceDeallocatePenalty`
+- `decreaseTimelock`
+
+###### A.6.1.1.1.2.6.1.3.6.2.1.4.3 - Max Exchange Rate [Core]  <!-- UUID: 68e4f40b-6ec2-4ea4-bdc0-033789e0c37e -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 USDC:
+
+- `setMaxExchangeRate(VAULT, 1e18, 3e6)`
 
 ##### A.6.1.1.1.2.6.1.4 - Completed Instances [Core]  <!-- UUID: ed8c3394-ee05-496c-8dd6-4d5275d2ed1f -->
 
