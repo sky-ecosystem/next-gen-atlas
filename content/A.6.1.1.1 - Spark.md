@@ -1490,14 +1490,6 @@ The Avalanche Instances Directory of the Aave Protocol with `Completed` Status a
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.4.1.1 - Avalanche - Aave v3 USDC Vault Instance Configuration Document](ae06054a-1ed8-410b-983d-1789b49f1f19).
 
-###### A.6.1.1.1.2.6.1.1.2.4.2 - Spark Savings V2 [Core]  <!-- UUID: 805d95ac-c6fa-4326-bade-380c3635306c -->
-
-The Avalanche Instances Directory of the Spark Savings v2 Protocol with `Active` Status are stored herein
-
-###### A.6.1.1.1.2.6.1.1.2.4.2.1 - Avalanche - Spark Savings v2 USDC Instance Configuration Document Location [Core]  <!-- UUID: 82ccfe21-2172-41cc-b845-231ed61b101d -->
-
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.4.2.1 - Avalanche - Spark Savings v2 USDC Instance Configuration Document](afa35a43-18e2-4084-b36c-eb584f4749ac)
-
 ###### A.6.1.1.1.2.6.1.1.2.5 - Robinhood Chain [Core]  <!-- UUID: f3ced164-396f-4014-ae27-e2ce7303a3b4 -->
 
 The documents herein contain a Directory of all Instances on Robinhood Chain of the Allocation System Primitive with Instance status of `Active`.
@@ -1641,6 +1633,18 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 ###### A.6.1.1.1.2.6.1.1.3.3.7.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document Location [Core]  <!-- UUID: 905c5726-8d51-4bf3-80c7-2b4f48bf66cd -->
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.7.2 - Ethereum Mainnet - Anchorage USDT Instance Configuration Document](4eee15e5-46e2-4438-8299-6c85c46bb85b).
+
+###### A.6.1.1.1.2.6.1.1.3.4 - Avalanche [Core]  <!-- UUID: 7866ccb6-b39d-44ba-b93a-93d512bcd9e3 -->
+
+The documents herein contain a Directory of all Instances on Avalanche of the Allocation System Primitive with Instance status of `Completed`.
+
+###### A.6.1.1.1.2.6.1.1.3.4.1 - Spark Savings V2 [Core]  <!-- UUID: 805d95ac-c6fa-4326-bade-380c3635306c -->
+
+The Avalanche Instances Directory of the Spark Savings v2 Protocol with `Completed` Status are stored herein
+
+###### A.6.1.1.1.2.6.1.1.3.4.1.1 - Avalanche - Spark Savings v2 USDC Instance Configuration Document Location [Core]  <!-- UUID: 82ccfe21-2172-41cc-b845-231ed61b101d -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.4.1.1 - Avalanche - Spark Savings v2 USDC Instance Configuration Document](afa35a43-18e2-4084-b36c-eb584f4749ac)
 
 ###### A.6.1.1.1.2.6.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: 73a22cb8-06cd-4324-b0fe-f37bf538f7a9 -->
 
@@ -1863,9 +1867,9 @@ The address of the ALM_PROXY contract is: `0x876664f0c9Ff24D1aa355Ce9f1680AE1A5b
 
 The address of the ALM_RATE_LIMITS contract is: `0x6B34A6B84444dC3Fc692821D5d077a1e4927342d`
 
-###### A.6.1.1.1.2.6.1.2.1.1.1.2.6 - Avalanche [Core]  <!-- UUID: 4299d551-8954-4290-acb8-e97b501f8f08 -->
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.6 - Avalanche (Deprecated) [Core]  <!-- UUID: 4299d551-8954-4290-acb8-e97b501f8f08 -->
 
-This document contains the ALM Contract Addresses for the Spark Liquidity Layer on Avalanche.
+This document contains the ALM Contract Addresses for the deprecated Spark Liquidity Layer on Avalanche.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.1 - ALM Controller (ForeignController Avalanche) Contract Address [Core]  <!-- UUID: 2a9bf1bb-81f7-40d2-a26d-2cc7e729913f -->
 
@@ -2378,7 +2382,7 @@ The maximum amount of sUSDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHD
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.2.1.1.3.6 - Avalanche [Core]  <!-- UUID: bf7f9935-ef38-4d33-a871-d4273cb341e0 -->
+###### A.6.1.1.1.2.6.1.2.1.1.3.6 - Avalanche (Deprecated) [Core]  <!-- UUID: bf7f9935-ef38-4d33-a871-d4273cb341e0 -->
 
 The documents herein list the current `RateLimits` for the Spark Liquidity Layer on Avalanche.
 
@@ -2400,15 +2404,15 @@ The maximum amount of USDC that can be withdrawn from the PSM (`LIMIT_PSM_WITHDR
 
 The maximum amount of USDC that can be sent to the Avalanche ALM Proxy (`LIMIT_USDC_TO_DOMAIN`, hashed with Avalanche domain) is specified in the document herein.
 
-- `maxAmount`: 100,000,000 USDC
-- `slope`: 50,000,000 USDC per day
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.6.3.1 - Maximum USDC Bridged From Ethereum Mainnet To Avalanche Via Circle CCTP [Core]  <!-- UUID: 0de9f0f1-ccef-4f17-b699-7dedb79673b9 -->
 
 The maximum amount of USDC that can be bridged to Avalanche ALM Proxy using the Circle Cross-Chain Transfer Protocol (`LIMIT_USDC_TO_CCTP_AVALANCHE`) is specified in the document herein.
 
-- `maxAmount`: 100,000,000 USDC
-- `slope`: 50,000,000 USDC per day
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.7 - Robinhood Chain [Core]  <!-- UUID: 0e4713f0-0f3c-42c8-8c28-9643febf8f5f -->
 
@@ -7753,122 +7757,6 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See Aave Functions and Aave AToken Withdrawal Action. For detailed example of the Spark Liquidity Layer interaction logic for depositing to and withdrawing from Aave see Process Definition For Depositing and Process Definition For Withdrawing.
 
-###### A.6.1.1.1.2.6.1.3.4.2 - Spark Savings V2 [Core]  <!-- UUID: 3224ce80-1f48-48d9-b0d3-058aebb4723c -->
-
-The Avalanche Instances of the Spark Savings v2 with `Active` Status are stored herein.
-
-###### A.6.1.1.1.2.6.1.3.4.2.1 - Avalanche - Spark Savings v2 USDC Instance Configuration Document [Core]  <!-- UUID: afa35a43-18e2-4084-b36c-eb584f4749ac -->
-
-The documents herein contain the Instance Configuration Document for the Spark Savings v2 USDC Instance.
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 6cdcf295-4999-4c30-8f72-1a840a40c10e -->
-
-**`Covered`**
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.2 - Parameters [Core]  <!-- UUID: 30cde382-587d-4cf2-b6a5-44918086131a -->
-
-The documents herein define the parameters of the Spark Savings v2 USDC Instance of the Allocation System Primitive.
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 6487fdd4-c5a7-458e-8117-6cb0645674f7 -->
-
-The documents herein define the Instance identifiers
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.2.1.1 - Network [Core]  <!-- UUID: ea9193c5-209b-464a-bfb5-5de47965f8c5 -->
-
-Avalanche
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.2.1.2 - Target Protocol [Core]  <!-- UUID: dbee4fe8-546f-4e9f-bd11-a27c5309b148 -->
-
-Spark Savings Protocol
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.2.1.3 - Asset Supplied By Users [Core]  <!-- UUID: fc1b9adf-616f-413b-9aa8-1977f30cdaea -->
-
-USDC
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.2.1.4 - Token [Core]  <!-- UUID: eda065b2-4338-42b1-aafb-bd297ccc8645 -->
-
-spUSDC
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.2.2 - Contract Addresses [Core]  <!-- UUID: e251ec36-6483-48f0-a78a-1d392c9f0c81 -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.2.2.1 - Token Address [Core]  <!-- UUID: 32e9d09c-1f8c-44b8-a281-f51a68351d41 -->
-
-`0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d`
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: f6168c84-306f-4f20-afd6-fd24e84d405e -->
-
-`0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E`
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: fb1032d9-61da-4bde-83b5-1410a53342d5 -->
-
-The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.2.4 - Rate Limits [Core]  <!-- UUID: bc158ad0-debd-4f56-af7e-d0655772f693 -->
-
-The specific `maxAmount` and `slope` for this conduit's inflow/outflow are not defined for this Instance.
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 382b30d4-e315-4622-b084-8b2ede0f37cd -->
-
-The documents herein contain specific off-chain parameters for this Instance.
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 5bba533c-caff-47b4-8236-06421a44533e -->
-
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 4df29394-5d9c-41ab-be95-886ea4b6f488 -->
-
-The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.4.1 - Contract Addresses [Core]  <!-- UUID: e6135b1d-16f8-4c3f-97fb-c811eae22ce2 -->
-
-The documents herein define the Instance contract addresses.
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.4.1.1 - Spark Vault v2 Implementation [Core]  <!-- UUID: ae89c0a6-c7a9-4c53-81b9-6cf980747ace -->
-
-`0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12`
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.4.1.2 - Default admin [Core]  <!-- UUID: 13349fb3-57ed-4ab8-b1e3-18be5874c43c -->
-
-`0x7566DEbC906C17338524A414343fA61BcA26A843`
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.4.1.3 - Setter [Core]  <!-- UUID: 5e5e0b85-842f-46fa-8124-6e272dd95351 -->
-
-`0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC`
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.4.1.4 - Taker [Core]  <!-- UUID: a0b65455-b90d-43a1-bedd-5eb9f9c1378f -->
-
-`0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC`
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.4.2 - Risk Parameters Current Configuration [Core]  <!-- UUID: 668577c4-a21f-417f-aad0-95dddfc78fe2 -->
-
-The subdocuments herein define the current configuration of the risk parameters.
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.4.2.1 - Spark Savings USDC Risk Parameters [Core]  <!-- UUID: 3d6a3fd3-4f36-45eb-9399-4eedfdc1c30d -->
-
-The Risk parameters are:
-
-- Supply cap: 500,000,000 USDC
-- Max yield: 10%
-- Current yield (at launch): 0%
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.4.2.2 - Rate Limits [Core]  <!-- UUID: 2b911731-5f03-41b0-afbd-41af37e8646f -->
-
-The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.4.2.3 - Take Rate Limit [Core]  <!-- UUID: 8507429b-f999-4990-825b-550ac91de996 -->
-
-The take rate limit parameter is:
-
-- `maxAmount`: Unlimited
-
-###### A.6.1.1.1.2.6.1.3.4.2.1.4.2.4 - TransferAssets Rate Limit [Core]  <!-- UUID: 4c7311c4-a8fa-4bba-88f7-09abe67a8709 -->
-
-The transferAssets rate limit parameter is:
-
-- `maxAmount`: Unlimited
-
 ###### A.6.1.1.1.2.6.1.3.5 - Robinhood Chain [Core]  <!-- UUID: 21c64d57-704c-4be8-9fea-a144f2f6d823 -->
 
 The Robinhood Chain Instances of the Spark Liquidity Layer with `Active` Status are stored herein.
@@ -9976,6 +9864,127 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
+###### A.6.1.1.1.2.6.1.4.4 - Avalanche [Core]  <!-- UUID: a1f5e88b-3770-419a-bb12-8ea09d0797e3 -->
+
+The Avalanche Instances of the Spark Liquidity Layer with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.4.4.1 - Spark Savings V2 [Core]  <!-- UUID: 3224ce80-1f48-48d9-b0d3-058aebb4723c -->
+
+The Avalanche Instances of the Spark Savings v2 with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.4.4.1.1 - Avalanche - Spark Savings v2 USDC Instance Configuration Document [Core]  <!-- UUID: afa35a43-18e2-4084-b36c-eb584f4749ac -->
+
+The documents herein contain the Instance Configuration Document for the Spark Savings v2 USDC Instance.
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 6cdcf295-4999-4c30-8f72-1a840a40c10e -->
+
+**`Covered`**
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.2 - Parameters [Core]  <!-- UUID: 30cde382-587d-4cf2-b6a5-44918086131a -->
+
+The documents herein define the parameters of the Spark Savings v2 USDC Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 6487fdd4-c5a7-458e-8117-6cb0645674f7 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.2.1.1 - Network [Core]  <!-- UUID: ea9193c5-209b-464a-bfb5-5de47965f8c5 -->
+
+Avalanche
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: dbee4fe8-546f-4e9f-bd11-a27c5309b148 -->
+
+Spark Savings Protocol
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.2.1.3 - Asset Supplied By Users [Core]  <!-- UUID: fc1b9adf-616f-413b-9aa8-1977f30cdaea -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.2.1.4 - Token [Core]  <!-- UUID: eda065b2-4338-42b1-aafb-bd297ccc8645 -->
+
+spUSDC
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: e251ec36-6483-48f0-a78a-1d392c9f0c81 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.2.2.1 - Token Address [Core]  <!-- UUID: 32e9d09c-1f8c-44b8-a281-f51a68351d41 -->
+
+`0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d`
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: f6168c84-306f-4f20-afd6-fd24e84d405e -->
+
+`0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E`
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: fb1032d9-61da-4bde-83b5-1410a53342d5 -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.2.4 - Rate Limits [Core]  <!-- UUID: bc158ad0-debd-4f56-af7e-d0655772f693 -->
+
+The specific `maxAmount` and `slope` for this conduit's inflow/outflow are not defined for this Instance.
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 382b30d4-e315-4622-b084-8b2ede0f37cd -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 5bba533c-caff-47b4-8236-06421a44533e -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 4df29394-5d9c-41ab-be95-886ea4b6f488 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.4.1 - Contract Addresses [Core]  <!-- UUID: e6135b1d-16f8-4c3f-97fb-c811eae22ce2 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.4.1.1 - Spark Vault v2 Implementation [Core]  <!-- UUID: ae89c0a6-c7a9-4c53-81b9-6cf980747ace -->
+
+`0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12`
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.4.1.2 - Default admin [Core]  <!-- UUID: 13349fb3-57ed-4ab8-b1e3-18be5874c43c -->
+
+`0x7566DEbC906C17338524A414343fA61BcA26A843`
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.4.1.3 - Setter [Core]  <!-- UUID: 5e5e0b85-842f-46fa-8124-6e272dd95351 -->
+
+`0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC`
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.4.1.4 - Taker [Core]  <!-- UUID: a0b65455-b90d-43a1-bedd-5eb9f9c1378f -->
+
+`0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC`
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.4.2 - Risk Parameters Current Configuration [Core]  <!-- UUID: 668577c4-a21f-417f-aad0-95dddfc78fe2 -->
+
+The subdocuments herein define the current configuration of the risk parameters.
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.4.2.1 - Spark Savings USDC Risk Parameters [Core]  <!-- UUID: 3d6a3fd3-4f36-45eb-9399-4eedfdc1c30d -->
+
+The Risk parameters are:
+
+- Supply cap: 0 USDC
+- Max yield: 0%
+- Current yield (at launch): 0%
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.4.2.2 - Rate Limits [Core]  <!-- UUID: 2b911731-5f03-41b0-afbd-41af37e8646f -->
+
+The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.4.2.3 - Take Rate Limit [Core]  <!-- UUID: 8507429b-f999-4990-825b-550ac91de996 -->
+
+The take rate limit parameter is:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.4.1.1.4.2.4 - TransferAssets Rate Limit [Core]  <!-- UUID: 4c7311c4-a8fa-4bba-88f7-09abe67a8709 -->
+
+The transferAssets rate limit parameter is:
+
+- `maxAmount`: Unlimited
+
 ##### A.6.1.1.1.2.6.1.5 - In Progress Invocations [Core]  <!-- UUID: 5b1ce161-fc9e-4c90-ac14-75cfbba6a213 -->
 
 The in progress Invocations of the Allocation System Primitive are contained herein. Once an Invocation is successfully completed, its subtree will be moved to [A.6.1.1.1.2.6.1.3 - Active Instances](f7c9fdda-3d42-4b9d-852d-610d7ae4f6c0).
@@ -11899,10 +11908,10 @@ The current parameters for Spark Savings USDC on Avalanche are:
 - Default admin role: 0x7566DEbC906C17338524A414343fA61BcA26A843
 - Setter role: 0x93c81ADc7F98FdBC8C7a15eCBeD312c8F6adbcB3
 - Taker role: 0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC
-- Take rate limit: unlimited
+- Take rate limit: 0
 - Min yield: 0%
-- Max yield: 10%
-- Supply cap: 500 million
+- Max yield: 0%
+- Supply cap: 0
 
 ###### A.6.1.1.1.3.5.2.2.5 - Spark Savings PYUSD on Ethereum [Core]  <!-- UUID: 18920d7a-1566-4296-8823-33ace94f0ddc -->
 
@@ -12056,7 +12065,7 @@ The Spark Savings ETH Spread will be defined as part of the ALM Planner configur
 
 ###### A.6.1.1.1.3.5.3.2.3.4 - Spark Savings USDC on Avalanche [Core]  <!-- UUID: afac32a3-7f73-4b24-8857-061eb5c6c264 -->
 
-The Rewards Rate for Spark Savings USDC on Avalanche will be maintained to be equal to the Sky Savings Rate.
+The Rewards Rate for Spark Savings USDC on Avalanche will be fixed at 0%.
 
 ###### A.6.1.1.1.3.5.3.2.3.5 - Spark Savings PYUSD on Ethereum [Core]  <!-- UUID: c54b370a-df10-4621-82a2-7fc4e5caf728 -->
 
