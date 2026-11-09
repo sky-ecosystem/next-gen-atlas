@@ -1835,9 +1835,9 @@ The address of the ALM_PROXY contract is: `0x345E368fcCd62266B3f5F37C9a131FD1c39
 
 The address of the ALM_RATE_LIMITS contract is: `0x5A1a44D2192Dd1e21efB9caA50E32D0716b35535`
 
-###### A.6.1.1.1.2.6.1.2.1.1.1.2.5 - Optimism [Core]  <!-- UUID: 2c97bd03-ef58-411f-b2cc-1db6d8396d95 -->
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.5 - Optimism (Deprecated) [Core]  <!-- UUID: 2c97bd03-ef58-411f-b2cc-1db6d8396d95 -->
 
-This document contains the ALM Contract Addresses for the Spark Liquidity Layer on Optimism.
+This document contains the ALM Contract Addresses for the deprecated Spark Liquidity Layer on Optimism.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.5.1 - ALM Controller (ForeignController Optimism) Contract Address [Core]  <!-- UUID: 1eaa9220-d5e2-44f2-83eb-232add8f04ff -->
 
@@ -2333,7 +2333,7 @@ The maximum amount of sUSDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHD
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.2.1.1.3.5 - Optimism [Core]  <!-- UUID: 13bda6de-0abf-4b64-9379-4653c8f4875e -->
+###### A.6.1.1.1.2.6.1.2.1.1.3.5 - Optimism (Deprecated) [Core]  <!-- UUID: 13bda6de-0abf-4b64-9379-4653c8f4875e -->
 
 The documents herein list the current `RateLimits` for the Spark Liquidity Layer on Optimism.
 
@@ -2341,42 +2341,43 @@ The documents herein list the current `RateLimits` for the Spark Liquidity Layer
 
 The maximum amount of USDC that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_USDC`) is specified in the document herein.
 
-- `maxAmount`: 50,000,000 USDC
-- `slope`: 50,000,000 USDC per day
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.5.2 - Optimism USDC Withdrawal Maximum [Core]  <!-- UUID: 90c809f2-3f2c-4a76-beb8-06140822e2cd -->
 
 The maximum amount of USDC that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_USDC`) is specified in the document herein.
 
-- `maxAmount`: 50,000,000 USDC
-- `slope`: 50,000,000 USDC per day
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.5.3 - Optimism USDS Deposit Maximum [Core]  <!-- UUID: f162baa7-9400-4368-adf8-5793415de5b3 -->
 
 The maximum amount of USDS that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_USDS`) is specified in the document herein.
 
-- `maxAmount`: Unlimited
-- `slope`: Unlimited
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.5.4 - Optimism USDS Withdrawal Maximum [Core]  <!-- UUID: f04f600b-3cc0-4c10-8540-1dce56d130e2 -->
 
 The maximum amount of USDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_USDS`) is specified in the document herein.
 
-- `maxAmount`: Unlimited
-- `slope`: Unlimited
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.5.5 - Optimism sUSDS Deposit Maximum [Core]  <!-- UUID: ae241843-1492-42b4-8a66-687701ba4dc0 -->
 
 The maximum amount of sUSDS that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_SUSDS`) is specified in the document herein.
 
-- `maxAmount`: Unlimited
-- `slope`: Unlimited
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.5.6 - Optimism sUSDS Withdrawal Maximum [Core]  <!-- UUID: a9d4793d-da6a-440e-9435-993070700b60 -->
 
 The maximum amount of sUSDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_SUSDS`) is specified in the document herein.
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.6 - Avalanche [Core]  <!-- UUID: bf7f9935-ef38-4d33-a871-d4273cb341e0 -->
 
