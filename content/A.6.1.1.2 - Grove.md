@@ -102,18 +102,6 @@ Because the Agent Creation Primitive is deployed solely for the one-time creatio
 
 The documents herein contain data relevant to the Single Instance of the Agent Creation Primitive.
 
-###### A.6.1.1.2.2.1.1.3.1.3.1 - Initial Planning [Core]  <!-- UUID: 8d9cbbed-b242-4ed5-8d87-bd9e84c68bc4 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.1.1.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 36e78589-bf94-4abc-b656-0041afb5062a -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.1.1.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 528d1e34-12b8-464f-bfbc-13daa1cd5047 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.2.2.1.1.4 - In Progress Invocations Directory [Core]  <!-- UUID: a7a1d15b-4d7f-4224-adc2-645c9b8dfdcb -->
 
 Because the Agent Creation Primitive is deployed solely for the one-time creation of the Agent, no further Instances of the Primitive can be Invoked.
@@ -193,18 +181,6 @@ Because the Prime Transformation Primitive is deployed solely for the one-time t
 ###### A.6.1.1.2.2.1.2.3.1.3 - Data Repository [Core]  <!-- UUID: fd32256c-72b5-4435-8fa1-b9de99b14a48 -->
 
 The documents herein contain data relevant to the Single Instance of the Prime Transformation Primitive.
-
-###### A.6.1.1.2.2.1.2.3.1.3.1 - Initial Planning [Core]  <!-- UUID: 51eb148f-c010-4e2a-a977-a6a2cb465e2d -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.1.2.3.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 69cbf93f-2d99-4900-af0e-8e5d5609e2ca -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.1.2.3.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 4bb102d6-3cdf-41c2-a285-20f2db76902c -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.2.2.1.2.4 - In Progress Invocations [Core]  <!-- UUID: 57c07fc2-51cc-442d-bf1b-326022ae71a2 -->
 
@@ -374,18 +350,6 @@ Grove will transfer 500 million GROVE tokens from the Grove SubProxy to the Grov
 
 The documents herein contain data relevant to the Single Instance of the Agent Token Primitive.
 
-###### A.6.1.1.2.2.1.4.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 7f6a1a86-3be4-450f-82fd-3c4b8ffa4c37 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.1.4.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 183d8611-6c51-4b92-ab69-d8cf00b68cb4 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.1.4.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: aefe1e9e-8bcb-4dfd-aa58-05778d4d4326 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.2.2.1.4.3 - Completed Instances [Core]  <!-- UUID: 573d5df7-1147-4735-b3a5-f2fea1c569c7 -->
 
 The Instances of the Agent Token Primitive with `Completed` Status are contained herein.
@@ -469,18 +433,6 @@ The documents herein define the process for the ongoing management of the Amatsu
 ###### A.6.1.1.2.2.2.1.2.1.3 - Data Repository [Core]  <!-- UUID: 03f354c3-72b7-4ed5-95c8-0ae8181fd33f -->
 
 The documents herein contain data relevant to the Amatsu Instance of the Executor Accord Primitive.
-
-###### A.6.1.1.2.2.2.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: ccb322ea-75dd-4c19-a95e-fd9d43f92f7a -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.2.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 977891ae-07b1-4330-9ce2-e2ea4a7e4f75 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.2.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: fb51f784-8c62-4bf9-92d1-f47e42c26439 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.2.2.2.1.3 - Completed Instances [Core]  <!-- UUID: bd479d49-6929-4eff-8809-2d440e541748 -->
 
@@ -635,18 +587,6 @@ This transitionary phase will last until Sky determines that the GROVE token is 
 
 The documents herein contain data relevant to the Single Instance of the Root Edit Primitive.
 
-###### A.6.1.1.2.2.2.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 07447068-8892-4154-b3d0-7a2b4f1412cc -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.2.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 619ee46a-6a8c-4f13-9a04-e8cf4f8f4b86 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.2.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: e02ff5f7-7a4f-48f6-a28e-1e1fc362072e -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.2.2.2.2.3 - Completed Instances [Core]  <!-- UUID: 9784ad9e-ecb8-49f1-95a6-fd3987482733 -->
 
 The Instances of the Root Edit Primitive with `Completed` Status are contained herein.
@@ -799,18 +739,6 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Single Instance of the Ecosystem Upkeep Fee Primitive.
 
-###### A.6.1.1.2.2.3.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 13c839b0-85fa-4582-a3e0-196627b68220 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.3.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 644df4fe-8018-42cb-aa19-611b7a2f35b1 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.3.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 7b2e3d7a-c6ee-4d20-911a-2ca78b8eb12e -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
 ##### A.6.1.1.2.2.3.1.3 - Completed Instances [Core]  <!-- UUID: 370e4310-69e9-40e9-ae26-46518187cd47 -->
 
 The Instances of the Ecosystem Upkeep Fee Primitive with `Completed` Status are stored herein.
@@ -906,18 +834,6 @@ The documents herein define the protocol for handling emergency situations in th
 ###### A.6.1.1.2.2.3.2.2.1.3 - Data Repository [Core]  <!-- UUID: bad21323-3b52-4851-85be-bdf165f0b560 -->
 
 The documents herein contain data relevant to the Single Instance of the Upkeep Rebate Primitive.
-
-###### A.6.1.1.2.2.3.2.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 0003325e-7d02-41af-b61b-110aba99540c -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.3.2.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 3753d344-3218-4171-be0e-9654f690439e -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.3.2.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 7b87b8a2-5e30-46a3-b12b-5fe0053eafc4 -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
 
 ##### A.6.1.1.2.2.3.2.3 - Completed Instances [Core]  <!-- UUID: d659568c-ebea-462e-8d75-0fd3d848c884 -->
 
@@ -1083,19 +999,7 @@ The documents herein define the protocol for handling emergency situations in th
 
 The documents herein contain data relevant to the Grove Finance Instance of the Distribution Reward Primitive.
 
-###### A.6.1.1.2.2.5.1.2.1.3.1 - Initial Planning [Core]  <!-- UUID: 7259ff43-eaf7-484e-af71-8b6a0ecdde09 -->
-
-The materials associated with initial planning of the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.5.1.2.1.3.2 - Operational GovOps Review [Core]  <!-- UUID: 06a7389f-65b0-48bb-a0ee-b7b9dcbeeaa6 -->
-
-The materials associated with Operational GovOps Review during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.5.1.2.1.3.3 - Artifact Edit Proposal [Core]  <!-- UUID: 74019895-896c-4ab1-bb8c-f0e9741e69eb -->
-
-The materials associated with preparing the Artifact Edit Proposal during the Invocation of this Instance are contained herein.
-
-###### A.6.1.1.2.2.5.1.2.1.3.4 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 698d68f4-8d3f-4ab4-bfd0-95dbd34b9099 -->
+###### A.6.1.1.2.2.5.1.2.1.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: 698d68f4-8d3f-4ab4-bfd0-95dbd34b9099 -->
 
 The Distribution Reward payments for the Grove Finance Instance of the Distribution Reward Primitive are defined as Active Data.
 
@@ -1104,7 +1008,7 @@ The Active Data is updated as follows:
 - The Responsible Party is Operational GovOps.
 - The Update Process must follow the protocol for 'Direct Edit'.
 
-###### A.6.1.1.2.2.5.1.2.1.3.4.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: bbd8de10-0899-4c16-ae48-a3d0afed9c6f -->
+###### A.6.1.1.2.2.5.1.2.1.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: bbd8de10-0899-4c16-ae48-a3d0afed9c6f -->
 
 The Distribution Reward Payments are:
 
@@ -5037,15 +4941,15 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 9af18990-c582-46f9-a78e-0c4e4ce233fc -->
+###### A.6.1.1.2.2.6.1.3.1.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 9af18990-c582-46f9-a78e-0c4e4ce233fc -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 - `maxAmount`: 500,000,000 USDC
 - `slope`: 500,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: ad10bea9-b609-4be9-bce8-56aba87da4c9 -->
+###### A.6.1.1.2.2.6.1.3.1.1.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: ad10bea9-b609-4be9-bce8-56aba87da4c9 -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -5109,16 +5013,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.1.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 52d37b01-d8f2-4b9f-b251-c0f6e025c078 -->
+###### A.6.1.1.2.2.6.1.3.1.1.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 52d37b01-d8f2-4b9f-b251-c0f6e025c078 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 100,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.1.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: f8705bd9-bc30-49c5-89fa-b529ebaee123 -->
+###### A.6.1.1.2.2.6.1.3.1.1.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: f8705bd9-bc30-49c5-89fa-b529ebaee123 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: This parameter will be specified in a future iteration of the Grove Artifact.
@@ -5195,16 +5099,16 @@ The outflow RateLimitID is: `0x58aa7b39a6c9894ea4a4cd6868d014c718d09913cdf5d793e
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.1.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 2305ac7b-a8dc-4611-b242-0996d4d22a88 -->
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 2305ac7b-a8dc-4611-b242-0996d4d22a88 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 20,000,000 USDC
 - `slope`: 20,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.1.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 512819c7-6e39-4bdc-add6-0fc892f54ccb -->
+###### A.6.1.1.2.2.6.1.3.1.1.3.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 512819c7-6e39-4bdc-add6-0fc892f54ccb -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -5280,16 +5184,16 @@ The outflow RateLimitID is: `0x90f60b9802ce2da6196f5558e32abf7b583c646525d836146
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.1.4.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: aac8ee49-9414-4fe5-8594-7ecdecdaddd4 -->
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: aac8ee49-9414-4fe5-8594-7ecdecdaddd4 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 500,000,000 USDS
 - `slope`: 500,000,000 USDS per day
 
-###### A.6.1.1.2.2.6.1.3.1.1.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: a1fa5391-2481-4e75-9070-4bb11d7598df -->
+###### A.6.1.1.2.2.6.1.3.1.1.4.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: a1fa5391-2481-4e75-9070-4bb11d7598df -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -5357,16 +5261,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.2.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 5edb937d-c579-42e3-ae25-821150cddda2 -->
+###### A.6.1.1.2.2.6.1.3.1.2.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 5edb937d-c579-42e3-ae25-821150cddda2 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.2.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 0b80d875-47a9-4863-8cf9-7a564e49d7ff -->
+###### A.6.1.1.2.2.6.1.3.1.2.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 0b80d875-47a9-4863-8cf9-7a564e49d7ff -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: This parameter will be specified in a future iteration of the Grove Artifact.
@@ -5435,16 +5339,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.3.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: bde14e56-5d3b-4797-9ab4-6cd689d74a8c -->
+###### A.6.1.1.2.2.6.1.3.1.3.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: bde14e56-5d3b-4797-9ab4-6cd689d74a8c -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: This parameter will be specified in a future iteration of the Grove Artifact.
 - `slope`: This parameter will be specified in a future iteration of the Grove Artifact.
 
-###### A.6.1.1.2.2.6.1.3.1.3.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 35aaf86f-8a8e-487a-8f1d-65f263223da1 -->
+###### A.6.1.1.2.2.6.1.3.1.3.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 35aaf86f-8a8e-487a-8f1d-65f263223da1 -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: This parameter will be specified in a future iteration of the Grove Artifact.
 - `slope`: This parameter will be specified in a future iteration of the Grove Artifact.
@@ -5517,16 +5421,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.4.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: cb1ffa0f-bdc8-4bd5-80ce-1592429758b8 -->
+###### A.6.1.1.2.2.6.1.3.1.4.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: cb1ffa0f-bdc8-4bd5-80ce-1592429758b8 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 250,000,000
 - `slope`: 100,000,000 per day
 
-###### A.6.1.1.2.2.6.1.3.1.4.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6cf9b977-565d-44f3-9400-0ad1b05f57bd -->
+###### A.6.1.1.2.2.6.1.3.1.4.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 6cf9b977-565d-44f3-9400-0ad1b05f57bd -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: 500,000,000
 - `slope`: 200,000,000 per day
@@ -5713,16 +5617,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.4.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: d25089f6-ed8a-4af9-adb1-9830e0daf0bc -->
+###### A.6.1.1.2.2.6.1.3.1.4.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: d25089f6-ed8a-4af9-adb1-9830e0daf0bc -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 250,000,000
 - `slope`: 100,000,000 per day
 
-###### A.6.1.1.2.2.6.1.3.1.4.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: d33504c7-812f-43fb-b825-fc23aa177a3e -->
+###### A.6.1.1.2.2.6.1.3.1.4.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: d33504c7-812f-43fb-b825-fc23aa177a3e -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: unlimited
 - `slope`: unlimited
@@ -5910,23 +5814,23 @@ The outflow RateLimitID is: `0x6dd53d41cd67732ec6166a0927bd9c2da9e20940bd174778b
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.4.3.2.4.1 - Deposit Rate Limits (via FalconX) [Core]  <!-- UUID: 7a93740b-d794-4ca9-aece-6c7db42bebf2 -->
+###### A.6.1.1.2.2.6.1.3.1.4.3.2.4.1 - Deposit Rate Limit (via FalconX) [Core]  <!-- UUID: 7a93740b-d794-4ca9-aece-6c7db42bebf2 -->
 
-The deposit rate limits are:
-
-- `maxAmount`: 50 million USDC
-- `slope`: 50 million USDC
-
-###### A.6.1.1.2.2.6.1.3.1.4.3.2.4.2 - Withdrawal Rate Limits (via FalconX) [Core]  <!-- UUID: e198f465-0b25-4f45-860f-66eacc575f9f -->
-
-The withdrawal rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50 million USDC
 - `slope`: 50 million USDC
 
-###### A.6.1.1.2.2.6.1.3.1.4.3.2.4.3 - Redemption Rate Limits (via Pendle Protocol) [Core]  <!-- UUID: 9dce58c1-0c6d-44f4-8145-c4243e8c02a9 -->
+###### A.6.1.1.2.2.6.1.3.1.4.3.2.4.2 - Withdrawal Rate Limit (via FalconX) [Core]  <!-- UUID: e198f465-0b25-4f45-860f-66eacc575f9f -->
 
-The redemption rate limits are:
+The withdrawal rate limit parameters are:
+
+- `maxAmount`: 50 million USDC
+- `slope`: 50 million USDC
+
+###### A.6.1.1.2.2.6.1.3.1.4.3.2.4.3 - Redemption Rate Limit (via Pendle Protocol) [Core]  <!-- UUID: 9dce58c1-0c6d-44f4-8145-c4243e8c02a9 -->
+
+The redemption rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: Unlimited
@@ -6007,23 +5911,23 @@ The outflow RateLimitID is: `0x027191d7c552bd41037422747bcde7caca7d1f6afc5ea9b85
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.4.4.2.4.1 - Deposit Rate Limits (via FalconX) [Core]  <!-- UUID: e66a0529-5419-46ef-8b9c-e6f6c255c3e3 -->
+###### A.6.1.1.2.2.6.1.3.1.4.4.2.4.1 - Deposit Rate Limit (via FalconX) [Core]  <!-- UUID: e66a0529-5419-46ef-8b9c-e6f6c255c3e3 -->
 
-The deposit rate limits are:
-
-- `maxAmount`: 50 million USDC
-- `slope`: 50 million USDC
-
-###### A.6.1.1.2.2.6.1.3.1.4.4.2.4.2 - Withdrawal Rate Limits (via FalconX) [Core]  <!-- UUID: c3fa15e7-7193-4e4d-9463-9dc6001f3d75 -->
-
-The withdrawal rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50 million USDC
 - `slope`: 50 million USDC
 
-###### A.6.1.1.2.2.6.1.3.1.4.4.2.4.3 - Redemption Rate Limits (via Pendle Protocol) [Core]  <!-- UUID: 5d0649b9-c4ce-4a8a-bd2c-c6c0cc3de322 -->
+###### A.6.1.1.2.2.6.1.3.1.4.4.2.4.2 - Withdrawal Rate Limit (via FalconX) [Core]  <!-- UUID: c3fa15e7-7193-4e4d-9463-9dc6001f3d75 -->
 
-The redemption rate limits are:
+The withdrawal rate limit parameters are:
+
+- `maxAmount`: 50 million USDC
+- `slope`: 50 million USDC
+
+###### A.6.1.1.2.2.6.1.3.1.4.4.2.4.3 - Redemption Rate Limit (via Pendle Protocol) [Core]  <!-- UUID: 5d0649b9-c4ce-4a8a-bd2c-c6c0cc3de322 -->
+
+The redemption rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: Unlimited
@@ -6100,16 +6004,16 @@ The outflow RateLimitID is: `0xc0a083c57c21570181e9781d750d04917923daac34e804bad
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.5.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 879f17bd-6d4a-48b4-8de7-cca31542ddfe -->
+###### A.6.1.1.2.2.6.1.3.1.5.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 879f17bd-6d4a-48b4-8de7-cca31542ddfe -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50 million USDC
 - `slope`: 25 million USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.5.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3c8495c0-5a34-48e6-9442-0c11420e2c79 -->
+###### A.6.1.1.2.2.6.1.3.1.5.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 3c8495c0-5a34-48e6-9442-0c11420e2c79 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -6181,16 +6085,16 @@ The outflow RateLimitID is: `0x574251b6fde351d987ce5235618a87bef48d50787414912b1
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.5.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 2826e338-7b71-4c03-8f6a-2c17fa45863f -->
+###### A.6.1.1.2.2.6.1.3.1.5.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 2826e338-7b71-4c03-8f6a-2c17fa45863f -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50 million RLUSD
 - `slope`: 25 million RLUSD per day
 
-###### A.6.1.1.2.2.6.1.3.1.5.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 2709008d-ca7f-45ab-a8c1-ef6bebedea30 -->
+###### A.6.1.1.2.2.6.1.3.1.5.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 2709008d-ca7f-45ab-a8c1-ef6bebedea30 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -6262,16 +6166,16 @@ The outflow RateLimitID is: `0xb890cfc1ed93b136aef2cb34337fae5000d57dd88285b4fd6
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.5.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: f8ef4e6d-aa05-4b8e-abcf-47afa908b1cc -->
+###### A.6.1.1.2.2.6.1.3.1.5.3.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: f8ef4e6d-aa05-4b8e-abcf-47afa908b1cc -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50 million USDC
 - `slope`: 25 million USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.5.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 08e95e2d-2390-40ed-8a79-f312162f7640 -->
+###### A.6.1.1.2.2.6.1.3.1.5.3.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 08e95e2d-2390-40ed-8a79-f312162f7640 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -6343,16 +6247,16 @@ The outflow RateLimitID is: `0xa33f2f500dd7f4baa10d882fd974f197a507f7b61f245ae26
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.5.4.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: f2f286bd-6cea-4010-81b5-ab11edbbe6ad -->
+###### A.6.1.1.2.2.6.1.3.1.5.4.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: f2f286bd-6cea-4010-81b5-ab11edbbe6ad -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50 million RLUSD
 - `slope`: 25 million RLUSD per day
 
-###### A.6.1.1.2.2.6.1.3.1.5.4.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: db19cefb-7b08-4d82-8a21-66e97b23d435 -->
+###### A.6.1.1.2.2.6.1.3.1.5.4.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: db19cefb-7b08-4d82-8a21-66e97b23d435 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -6436,22 +6340,22 @@ The swap RateLimitID is: `0x8dcb7a359e6824ce9fd1c1f50ba67cd468764f690da2589aa3c2
 
 The current `maxAmount`, `slope` and `maxSlippage` for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.6.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 172836ec-2f76-4e64-96db-fb60c9885d12 -->
+###### A.6.1.1.2.2.6.1.3.1.6.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 172836ec-2f76-4e64-96db-fb60c9885d12 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: N/A - swap only
 - `slope`: N/A - swap only
 
-###### A.6.1.1.2.2.6.1.3.1.6.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: a3a60b38-055f-42e4-b35d-bb04eb829b67 -->
+###### A.6.1.1.2.2.6.1.3.1.6.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: a3a60b38-055f-42e4-b35d-bb04eb829b67 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: N/A - swap only
 
-###### A.6.1.1.2.2.6.1.3.1.6.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 511cec98-4c5b-488e-8b5b-c088d04cd46b -->
+###### A.6.1.1.2.2.6.1.3.1.6.1.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: 511cec98-4c5b-488e-8b5b-c088d04cd46b -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 20 million
 - `slope`: 100 million per day
@@ -6533,22 +6437,22 @@ The swap RateLimitID is: `0x8dcb7a359e6824ce9fd1c1f50ba67cd468764f690da2589aa3c2
 
 The current `maxAmount`, `slope` and `maxSlippage` for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.6.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 84d948f0-8a23-4710-a6d4-8fc094befc91 -->
+###### A.6.1.1.2.2.6.1.3.1.6.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 84d948f0-8a23-4710-a6d4-8fc094befc91 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: N/A - swap only
 - `slope`: N/A - swap only
 
-###### A.6.1.1.2.2.6.1.3.1.6.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 91eeb3a6-3b06-4e33-b835-51614136ce2e -->
+###### A.6.1.1.2.2.6.1.3.1.6.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 91eeb3a6-3b06-4e33-b835-51614136ce2e -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: N/A - swap only
 
-###### A.6.1.1.2.2.6.1.3.1.6.2.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 8885e8e3-1ab5-4b0a-998c-07e692db7054 -->
+###### A.6.1.1.2.2.6.1.3.1.6.2.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: 8885e8e3-1ab5-4b0a-998c-07e692db7054 -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 20 million
 - `slope`: 100 million per day
@@ -6626,16 +6530,16 @@ The outflow RateLimitID is: `0xca9b793f7b515f76fb88684bec4850e8c12afbb7f27a81eab
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.6.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 15679304-3b86-43f4-be14-d02f33f72d2d -->
+###### A.6.1.1.2.2.6.1.3.1.6.3.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 15679304-3b86-43f4-be14-d02f33f72d2d -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 25,000,000 RLUSD or USDC
 - `slope`: 25,000,000 RLUSD or USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.6.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 34276745-bc02-4e02-aaac-20284debe350 -->
+###### A.6.1.1.2.2.6.1.3.1.6.3.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 34276745-bc02-4e02-aaac-20284debe350 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -6711,22 +6615,22 @@ The outflow RateLimitID is: N/A.
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.6.4.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 33800c50-8d1e-4339-88a1-8c07e5c35496 -->
+###### A.6.1.1.2.2.6.1.3.1.6.4.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 33800c50-8d1e-4339-88a1-8c07e5c35496 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: N/A - swaps only
 - `slope`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.1.6.4.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 1a78fd44-9483-4063-bbd5-80fef10bf85a -->
+###### A.6.1.1.2.2.6.1.3.1.6.4.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 1a78fd44-9483-4063-bbd5-80fef10bf85a -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.1.6.4.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 5fdeea04-0bf6-475f-b7ed-1232040c6a32 -->
+###### A.6.1.1.2.2.6.1.3.1.6.4.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: 5fdeea04-0bf6-475f-b7ed-1232040c6a32 -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDC/AUSD
 - `slope`: 100,000,000 USDC/AUSD per day
@@ -6804,16 +6708,16 @@ The outflow RateLimitID is: `0x8b0ebe103264ec6caf8c9a6b03eeb13f101d3d1ece1fe8b70
 
 The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.6.5.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: fe7ce511-f51b-4ed8-8ea1-30c4ae30e0bf -->
+###### A.6.1.1.2.2.6.1.3.1.6.5.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: fe7ce511-f51b-4ed8-8ea1-30c4ae30e0bf -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 25,000,000 USDC/AUSD
 - `slope`: 25,000,000 USDC/AUSD per day
 
-###### A.6.1.1.2.2.6.1.3.1.6.5.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 5968dc38-0ac9-4c05-83b1-117fbe71c64c -->
+###### A.6.1.1.2.2.6.1.3.1.6.5.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 5968dc38-0ac9-4c05-83b1-117fbe71c64c -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -6889,22 +6793,22 @@ The outflow RateLimitID is: N/A.
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.6.6.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: ad363791-a7e1-4a0c-8a8a-6102994c2876 -->
+###### A.6.1.1.2.2.6.1.3.1.6.6.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: ad363791-a7e1-4a0c-8a8a-6102994c2876 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: N/A - swaps only
 - `slope`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.1.6.6.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: b0b22bed-1cb0-43cd-bbdc-5f7fa48ebdab -->
+###### A.6.1.1.2.2.6.1.3.1.6.6.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: b0b22bed-1cb0-43cd-bbdc-5f7fa48ebdab -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.1.6.6.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: e3773f0c-33c5-4f55-93bf-69730b447deb -->
+###### A.6.1.1.2.2.6.1.3.1.6.6.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: e3773f0c-33c5-4f55-93bf-69730b447deb -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDS/PYUSD
 - `slope`: 100,000,000 USDS/PYUSD per day
@@ -7016,16 +6920,16 @@ The outflow RateLimitID is: `0xb6204f88cd26e1d2b5c27fe0beb10cc2c6a33aac17f228baf
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 506f5294-ad79-4ace-98b9-75d694072a3d -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 506f5294-ad79-4ace-98b9-75d694072a3d -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 100,000,000 USDC
 - `slope`: 100,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 7e38063c-c6a7-4d45-9344-bd3b22047019 -->
+###### A.6.1.1.2.2.6.1.3.1.7.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 7e38063c-c6a7-4d45-9344-bd3b22047019 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -7137,16 +7041,16 @@ The outflow RateLimitID is: `0xdd975e5dc9904260242e80bbe7035784e9108c619e23f21b6
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: c2b5471f-85af-4c3f-91af-3bf8d9492178 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: c2b5471f-85af-4c3f-91af-3bf8d9492178 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 20,000,000 AUSD
 - `slope`: 20,000,000 AUSD per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: ee2bb8e1-0e9d-4372-875c-22c8fbeafdf2 -->
+###### A.6.1.1.2.2.6.1.3.1.7.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: ee2bb8e1-0e9d-4372-875c-22c8fbeafdf2 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -7262,16 +7166,16 @@ The outflow RateLimitID is: `0xa6e68f8214d2fb32e0deb2888ef4644c36401d18605447843
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: adfeeede-027a-4b98-8636-c53975c4b7cf -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: adfeeede-027a-4b98-8636-c53975c4b7cf -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 100,000,000 RLUSD
 - `slope`: 100,000,000 RLUSD per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: c455e62e-79a6-478e-aa06-f35d2ab6779f -->
+###### A.6.1.1.2.2.6.1.3.1.7.3.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: c455e62e-79a6-478e-aa06-f35d2ab6779f -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -7387,16 +7291,16 @@ The outflow RateLimitID is: `0x0fceada3d6963c0045d4b0394172af9c863234669e3562519
 
 The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: cecb4643-70b0-40d7-a02f-87ddc8c60229 -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: cecb4643-70b0-40d7-a02f-87ddc8c60229 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDG
 - `slope`: 50,000,000 USDG per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.4.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: f28da041-3890-4f33-99f5-c851ec6b324f -->
+###### A.6.1.1.2.2.6.1.3.1.7.4.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: f28da041-3890-4f33-99f5-c851ec6b324f -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -7511,16 +7415,16 @@ The outflow RateLimitID is: `0xf5f57f4862971202d26fc6e1104f819c66667ef0329d7d041
 
 The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: f182ddac-d8f6-4868-8d5b-c4bf65c28276 -->
+###### A.6.1.1.2.2.6.1.3.1.7.5.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: f182ddac-d8f6-4868-8d5b-c4bf65c28276 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 20,000,000 PYUSD
 - `slope`: 20,000,000 PYUSD per day
 
-###### A.6.1.1.2.2.6.1.3.1.7.5.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 1d6dbd1d-b049-41b0-99c4-cbeb727684a3 -->
+###### A.6.1.1.2.2.6.1.3.1.7.5.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 1d6dbd1d-b049-41b0-99c4-cbeb727684a3 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -7606,16 +7510,16 @@ The outflow RateLimitID is: `0xcbb4d6e874245392c78f0f249b7dc876e5462bb0dce135a6e
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.8.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: ee33b709-1239-44c3-9c94-4211433877c4 -->
+###### A.6.1.1.2.2.6.1.3.1.8.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: ee33b709-1239-44c3-9c94-4211433877c4 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.8.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3cafebb2-cf4d-4830-9787-1c2d7d7da030 -->
+###### A.6.1.1.2.2.6.1.3.1.8.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 3cafebb2-cf4d-4830-9787-1c2d7d7da030 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -7695,16 +7599,16 @@ The outflow RateLimitID is: N/A.
 
 The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.9.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 2e5f7349-fe4b-4c1b-8cc2-541d2ce86bf5 -->
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 2e5f7349-fe4b-4c1b-8cc2-541d2ce86bf5 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.9.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: c2f613ac-e271-4cbc-9ca7-f644082e5e8e -->
+###### A.6.1.1.2.2.6.1.3.1.9.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: c2f613ac-e271-4cbc-9ca7-f644082e5e8e -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameters are:
 
 - `maxAmount`: N/A
 - `slope`: N/A
@@ -7777,16 +7681,16 @@ The outflow RateLimitID is: N/A.
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.9.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 282c02b2-9b9d-4934-be9d-5228d50a0918 -->
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 282c02b2-9b9d-4934-be9d-5228d50a0918 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.9.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: c38e4cd8-1be2-475d-8670-848d8eba3078 -->
+###### A.6.1.1.2.2.6.1.3.1.9.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: c38e4cd8-1be2-475d-8670-848d8eba3078 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: N/A
 
@@ -7866,16 +7770,16 @@ The outflow RateLimitID is:
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.10.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 1b66e040-0e9d-4fb7-a3a4-66068899c344 -->
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 1b66e040-0e9d-4fb7-a3a4-66068899c344 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.10.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 8cd46ad3-7589-4ac0-8cb6-a6dbe42bdc81 -->
+###### A.6.1.1.2.2.6.1.3.1.10.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 8cd46ad3-7589-4ac0-8cb6-a6dbe42bdc81 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
@@ -7960,16 +7864,16 @@ The outflow RateLimitID is: `0x42ad76bdc643205fd16f00e7e67f0d5e7ae13541010329da7
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 880c8154-4959-4875-b696-3133f795fe02 -->
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 880c8154-4959-4875-b696-3133f795fe02 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 10,000,000 USDC
 - `slope`: 100,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: ce3f0a10-568d-4525-b69d-1669c3cb2e8c -->
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: ce3f0a10-568d-4525-b69d-1669c3cb2e8c -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameters are:
 
 - `maxAmount`: 10,000,000 AUSD
 - `slope`: 100,000,000 AUSD per day
@@ -8050,22 +7954,22 @@ The outflow RateLimitID is: `0x7dd93dac252469b97c259284118454a6a09efd0e5f781dec5
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.12.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 37b74730-eeef-4f2a-89cc-699fa51b176b -->
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 37b74730-eeef-4f2a-89cc-699fa51b176b -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: N/A - swaps only
 - `slope`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.1.12.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 52f681eb-f0eb-4d36-95dd-4d239fef72b9 -->
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 52f681eb-f0eb-4d36-95dd-4d239fef72b9 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.1.12.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: e21c0b53-fc2a-46d1-b820-f9a5471c7efb -->
+###### A.6.1.1.2.2.6.1.3.1.12.1.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: e21c0b53-fc2a-46d1-b820-f9a5471c7efb -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 5,000,000 AUSD/USDC
 - `slope`: 100,000,000 AUSD/USDC per day
@@ -8401,16 +8305,16 @@ The outflow RateLimitID will be specified in a future iteration of the Atlas.
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.1.13.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 5ce46c5d-978e-4fe3-a109-8a11833b1b09 -->
+###### A.6.1.1.2.2.6.1.3.1.13.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 5ce46c5d-978e-4fe3-a109-8a11833b1b09 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.2.2.6.1.3.1.13.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 2068313d-3791-4771-9e0d-f74dffa4d729 -->
+###### A.6.1.1.2.2.6.1.3.1.13.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 2068313d-3791-4771-9e0d-f74dffa4d729 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: 0
 
@@ -8510,16 +8414,16 @@ The outflow RateLimitID is: `0x0d8db6f922b464d5eb8ac718bef62b82b05d9bd0ea5dafd09
 
 The inflow and outflow rate limit configuration for this conduit is specified in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.2.2.6.1.2.1.1.3.3 - Diamond PAU Rate Limits](c5d3d2f9-cd88-4b00-a6df-da369c27674f).
 
-###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 2e5234f6-0cae-4689-b8da-61ad99f20c31 -->
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 2e5234f6-0cae-4689-b8da-61ad99f20c31 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDS
 - `slope`: 50,000,000 USDS per day
 
-###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: e460967c-baf1-4c39-89c8-38bb329e492e -->
+###### A.6.1.1.2.2.6.1.3.1.14.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: e460967c-baf1-4c39-89c8-38bb329e492e -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -8654,16 +8558,16 @@ The outflow RateLimitID is: `0xac6b1419c7365d44c458289fbd4b91c1913427601113863b9
 
 The inflow and outflow rate limit configuration for this conduit is specified in the subdocuments herein. These values are set via a cBEAM, as specified in [A.6.1.1.2.2.6.1.2.1.1.3.3 - Diamond PAU Rate Limits](c5d3d2f9-cd88-4b00-a6df-da369c27674f).
 
-###### A.6.1.1.2.2.6.1.3.1.14.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 05baee1c-f5af-45e0-b6a9-e19a6fa443b8 -->
+###### A.6.1.1.2.2.6.1.3.1.14.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 05baee1c-f5af-45e0-b6a9-e19a6fa443b8 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDS
 - `slope`: 5,000,000 USDS per day
 
-###### A.6.1.1.2.2.6.1.3.1.14.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: ca94003e-2652-4ea5-8ade-a382975f44dd -->
+###### A.6.1.1.2.2.6.1.3.1.14.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: ca94003e-2652-4ea5-8ade-a382975f44dd -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -8776,11 +8680,11 @@ The transferAssets `RateLimitID` for this conduit is: `0x4139045de2f11ba23865c6c
 
 ###### A.6.1.1.2.2.6.1.3.1.15.1.2.4 - Rate Limits [Core]  <!-- UUID: a4419273-8de4-4d67-a438-6c356e9b85a4 -->
 
-The current TransferAsset rate limits for this conduit’s transferAssets operations are defined in the subdocuments herein.
+The current TransferAsset rate limit for this conduit’s transferAssets operations is defined in the subdocument herein.
 
-###### A.6.1.1.2.2.6.1.3.1.15.1.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 52a84bbf-b322-4705-9909-19cc3319b308 -->
+###### A.6.1.1.2.2.6.1.3.1.15.1.2.4.1 - TransferAssets Rate Limit [Core]  <!-- UUID: 52a84bbf-b322-4705-9909-19cc3319b308 -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
@@ -8853,16 +8757,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.2.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 0c432f68-5bbf-449e-b9fb-c089f3c750c7 -->
+###### A.6.1.1.2.2.6.1.3.2.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 0c432f68-5bbf-449e-b9fb-c089f3c750c7 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.2.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 6e549221-bbf2-4c58-922d-649e7beee41c -->
+###### A.6.1.1.2.2.6.1.3.2.1.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 6e549221-bbf2-4c58-922d-649e7beee41c -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: This parameter will be specified in a future iteration of the Grove Artifact.
@@ -8927,16 +8831,16 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be sp
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.2.1.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 338e8892-584c-4ca3-9a8c-8872e4105717 -->
+###### A.6.1.1.2.2.6.1.3.2.1.2.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 338e8892-584c-4ca3-9a8c-8872e4105717 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.2.1.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 9c214444-96bf-4982-9c96-7ae79769262a -->
+###### A.6.1.1.2.2.6.1.3.2.1.2.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 9c214444-96bf-4982-9c96-7ae79769262a -->
 
-The outflow rate limits are:
+The outflow rate limit parameters are:
 
 - `maxAmount`: Unlimited
 - `slope`: This parameter will be specified in a future iteration of the Grove Artifact.
@@ -9017,22 +8921,22 @@ The outflow RateLimitID is: N/A.
 
 The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 3fc2060c-29d2-41fa-a9e6-1b47e4073cee -->
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 3fc2060c-29d2-41fa-a9e6-1b47e4073cee -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: N/A - swaps only
 - `slope`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 67213d51-ed52-4c6d-96b6-bf0718b935b1 -->
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 67213d51-ed52-4c6d-96b6-bf0718b935b1 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: N/A - swaps only
 
-###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: e23f36a6-c5f5-40d4-bdd0-77e862d7a8bb -->
+###### A.6.1.1.2.2.6.1.3.2.2.1.2.4.3 - Swap Rate Limit [Core]  <!-- UUID: e23f36a6-c5f5-40d4-bdd0-77e862d7a8bb -->
 
-The swap rate limits are:
+The swap rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDS/USDC
 - `slope`: 100,000,000 USDS/USDC per day
@@ -9110,16 +9014,16 @@ The outflow RateLimitID is: `0x3361a251fa0f068ec6ce72e830c34ff0f5839a56c13e17e4c
 
 The current `maxAmount` and `slope` for this conduit's inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.2.2.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 2bc7c072-65e9-4b06-821c-3cc378758de1 -->
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 2bc7c072-65e9-4b06-821c-3cc378758de1 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDS/USDC
 - `slope`: 50,000,000 USDS/USDC per day
 
-###### A.6.1.1.2.2.6.1.3.2.2.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 7e5dd377-9028-4fa0-950f-d65f3364911a -->
+###### A.6.1.1.2.2.6.1.3.2.2.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 7e5dd377-9028-4fa0-950f-d65f3364911a -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -9233,16 +9137,16 @@ The outflow RateLimitID is: `0x44630fb26e1343e99745c4ae29b1587eeb182f2a1da8b0cbe
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: f62608af-4cbc-4018-875e-79b7c26d7115 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: f62608af-4cbc-4018-875e-79b7c26d7115 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 100,000,000 USDC
 - `slope`: 100,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3c8ca674-d0d1-43e8-a76d-b2fb07db3447 -->
+###### A.6.1.1.2.2.6.1.3.3.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 3c8ca674-d0d1-43e8-a76d-b2fb07db3447 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -9332,16 +9236,16 @@ The outflow RateLimitID is: `0xc170dc947a54b39bf03cfdfa8249447fdacf93d397502740f
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.4.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 3035fcf7-9426-46a7-9223-3204d922ca14 -->
+###### A.6.1.1.2.2.6.1.3.4.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: 3035fcf7-9426-46a7-9223-3204d922ca14 -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 20,000,000 USDT0
 - `slope`: 20,000,000 USDT0 per day
 
-###### A.6.1.1.2.2.6.1.3.4.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 8eeb5709-8e90-44ed-a384-d99df2a89e85 -->
+###### A.6.1.1.2.2.6.1.3.4.1.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: 8eeb5709-8e90-44ed-a384-d99df2a89e85 -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -9421,16 +9325,16 @@ The outflow RateLimitID is: `0x58aa7b39a6c9894ea4a4cd6868d014c718d09913cdf5d793e
 
 The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.5.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 1a7f2fdf-1c26-4638-881d-02f5cc1ae1b5 -->
+###### A.6.1.1.2.2.6.1.3.5.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 1a7f2fdf-1c26-4638-881d-02f5cc1ae1b5 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 20,000,000 USDC
 - `slope`: 20,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.5.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 7c1b8e7c-3004-4c98-a078-8ce0bbdf1141 -->
+###### A.6.1.1.2.2.6.1.3.5.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 7c1b8e7c-3004-4c98-a078-8ce0bbdf1141 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -9514,16 +9418,16 @@ The outflow RateLimitID is: N/A
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.6.1.1.2.4.1 - Deposit Rate Limits (via FalconX) [Core]  <!-- UUID: 607a906a-da69-4105-a519-6e4cfa529c1d -->
+###### A.6.1.1.2.2.6.1.3.6.1.1.2.4.1 - Deposit Rate Limit (via FalconX) [Core]  <!-- UUID: 607a906a-da69-4105-a519-6e4cfa529c1d -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
-###### A.6.1.1.2.2.6.1.3.6.1.1.2.4.2 - Withdrawal Rate Limits (via FalconX) [Core]  <!-- UUID: a3862cd4-ff0e-4f7d-bcf9-cc1a207c74d6 -->
+###### A.6.1.1.2.2.6.1.3.6.1.1.2.4.2 - Withdrawal Rate Limit (via FalconX) [Core]  <!-- UUID: a3862cd4-ff0e-4f7d-bcf9-cc1a207c74d6 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameters are:
 
 - `maxAmount`: N/A
 - `slope`: N/A
@@ -9604,16 +9508,16 @@ The outflow `RateLimitID` will be specified in a future iteration of the Grove A
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.3.7.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 7352db9b-9177-4ffb-8554-8d131008c607 -->
+###### A.6.1.1.2.2.6.1.3.7.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 7352db9b-9177-4ffb-8554-8d131008c607 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDG
 - `slope`: 50,000,000 USDG per day
 
-###### A.6.1.1.2.2.6.1.3.7.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 63c0f9fd-e862-4928-9e36-eaa13767ae90 -->
+###### A.6.1.1.2.2.6.1.3.7.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 63c0f9fd-e862-4928-9e36-eaa13767ae90 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -9697,11 +9601,11 @@ The transferAssets `RateLimitID` for this conduit is: `0x6514f636131e8989437496a
 
 ###### A.6.1.1.2.2.6.1.3.7.2.1.2.4 - Rate Limits [Core]  <!-- UUID: 5325d4d3-6e93-4ea1-86f3-91d538be03ed -->
 
-The current TransferAsset rate limits for this conduit’s transferAssets operations are defined in the subdocuments herein.
+The current TransferAsset rate limit for this conduit’s transferAssets operations is defined in the subdocument herein.
 
-###### A.6.1.1.2.2.6.1.3.7.2.1.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: e75d1516-8cd4-4a21-9441-e93f40692118 -->
+###### A.6.1.1.2.2.6.1.3.7.2.1.2.4.1 - TransferAssets Rate Limit [Core]  <!-- UUID: e75d1516-8cd4-4a21-9441-e93f40692118 -->
 
-The transferAssets rate limits are:
+The transferAssets rate limit parameters are:
 
 - `maxAmount`: 50,000,000 USDG
 - `slope`: 50,000,000 USDG per day
@@ -9786,16 +9690,16 @@ The inflow RateLimitID is: `0x82fb6a87781d1c18617960e9528d0633bfbc534f5ae8109347
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.4.1.1.1.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: dbb8ef9e-c2ce-43b5-b320-bae57f6cb993 -->
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: dbb8ef9e-c2ce-43b5-b320-bae57f6cb993 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.2.2.6.1.4.1.1.1.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: b4ca4845-a846-479b-aaf8-e83e73bf25f7 -->
+###### A.6.1.1.2.2.6.1.4.1.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: b4ca4845-a846-479b-aaf8-e83e73bf25f7 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -9867,16 +9771,16 @@ The outflow RateLimitID is: `0xa0c827fea02219c83969babf0bd29df5bb5fe923e6b38491a
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.4.1.1.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: aec6eb4d-103c-49e0-9d05-befc5dda716c -->
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: aec6eb4d-103c-49e0-9d05-befc5dda716c -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.2.2.6.1.4.1.1.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 77112a8a-c39e-49da-b476-c97ebcb2d197 -->
+###### A.6.1.1.2.2.6.1.4.1.1.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 77112a8a-c39e-49da-b476-c97ebcb2d197 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -9954,16 +9858,16 @@ The outflow RateLimitID is: `0x8edef92c8bf76460b6b832a88c63768022ac5aa2bd862fb85
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.4.1.1.3.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 0a4b26e1-5757-4ed9-bfc5-2614cc79500f -->
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 0a4b26e1-5757-4ed9-bfc5-2614cc79500f -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.2.2.6.1.4.1.1.3.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3d7d307c-ffdc-4ca3-b9fa-951b02d46e3f -->
+###### A.6.1.1.2.2.6.1.4.1.1.3.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 3d7d307c-ffdc-4ca3-b9fa-951b02d46e3f -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -10049,16 +9953,16 @@ The outflow RateLimitID is: `0xfc41a8cf89ec93b54bbf6960204c29c48a7ed98ec4a88dade
 
 The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.4.1.1.4.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: c7c4c3a1-ca25-4e9e-b4ab-cbcd01519535 -->
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: c7c4c3a1-ca25-4e9e-b4ab-cbcd01519535 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.2.2.6.1.4.1.1.4.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: 3593ce57-8cf0-42c8-b0ce-0bfef547e4a6 -->
+###### A.6.1.1.2.2.6.1.4.1.1.4.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 3593ce57-8cf0-42c8-b0ce-0bfef547e4a6 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -10152,16 +10056,16 @@ The outflow RateLimitID is: `0x13e37cfd8b7a0e3f59d4b4424894c2a3693ccf0c313905615
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.4.2.1.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: a1c1cca8-b6a3-440b-ae26-9393b95d328f -->
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.4.1 - Inflow Rate Limit [Core]  <!-- UUID: a1c1cca8-b6a3-440b-ae26-9393b95d328f -->
 
-The inflow rate limits are:
+The inflow rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.2.2.6.1.4.2.1.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: b39a0a7f-3e17-4cf3-b96b-a1a16fc8ae13 -->
+###### A.6.1.1.2.2.6.1.4.2.1.1.2.4.2 - Outflow Rate Limit [Core]  <!-- UUID: b39a0a7f-3e17-4cf3-b96b-a1a16fc8ae13 -->
 
-The outflow rate limits are:
+The outflow rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -10233,16 +10137,16 @@ The outflow RateLimitID is: `0x6cbf2a3469ddd029ba9744291f720dfed49b9d475ef870978
 
 The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
 
-###### A.6.1.1.2.2.6.1.4.2.1.2.2.4.1 - Deposit Rate Limits [Core]  <!-- UUID: 0ebb71f7-71c7-4668-9e70-1771e58cec79 -->
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 0ebb71f7-71c7-4668-9e70-1771e58cec79 -->
 
-The deposit rate limits are:
+The deposit rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
-###### A.6.1.1.2.2.6.1.4.2.1.2.2.4.2 - Withdrawal Rate Limits [Core]  <!-- UUID: bec9a1fa-aace-47eb-a663-08d1abd70b60 -->
+###### A.6.1.1.2.2.6.1.4.2.1.2.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: bec9a1fa-aace-47eb-a663-08d1abd70b60 -->
 
-The withdrawal rate limits are:
+The withdrawal rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
