@@ -508,17 +508,13 @@ The documents herein define the process for using the Root Edit Primitive to upd
 
 ###### A.6.1.1.2.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission [Core]  <!-- UUID: e9ae4a8a-3e61-488c-8f8b-d0062f46644d -->
 
-The Root Edit process begins with a GROVE token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A GROVE token holder must hold at least 1% of the total token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Grove Prime" category.
+The Root Edit process begins with a GROVE token holder submitting a proposal containing a draft Artifact Edit Proposal. A GROVE token holder must hold at least 1% of the total token supply to submit a proposal. The proposal must be posted on the Sky Forum under the "Grove Prime" category. The title of the post must include the text "Grove Artifact Edit Proposal". Where the token-holding requirement applies, the post must include cryptographic proof that the author controls an account holding at least 1% of the total token supply.
 
 ###### A.6.1.1.2.2.2.2.2.1.2.1.1.1 - Root Edit Proposal Submission Requirements Exception For Nested Contributors [Core]  <!-- UUID: 6120ba4b-afcf-49db-9a9a-55e1fd00e933 -->
 
 Nested Contributors are always authorized to submit Artifact Edit Proposals and do not have to fulfill the token-holding requirements defined in [A.6.1.1.2.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](e9ae4a8a-3e61-488c-8f8b-d0062f46644d). However, all other procedural requirements within the Root Edit process continue to apply.
 
 To see the Agent’s Nested Contributors, see [A.6.1.1.2.2.1.1.3.1.1.5 - Development Company](830f6fb5-1037-4516-9efa-d7101553a3d0).
-
-###### A.6.1.1.2.2.2.2.2.1.2.1.1.2 - Short-Term Transitionary Measures [Core]  <!-- UUID: a0b401ae-1ced-43af-ab0b-2eb16b797270 -->
-
-Until the Powerhouse system supports submitting Artifact Edit Proposals, GROVE token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Grove Prime" category. The title of the post must include the text "Grove Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total GROVE token supply specified in [A.6.1.1.2.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](e9ae4a8a-3e61-488c-8f8b-d0062f46644d).
 
 ###### A.6.1.1.2.2.2.2.2.1.2.1.2 - Root Edit Expert Advisor Review [Core]  <!-- UUID: 3cdc7302-7f68-4143-8243-685e0681991d -->
 
@@ -546,11 +542,7 @@ Proposals that do not require Core Council Risk Advisor approval may instead fol
 
 ###### A.6.1.1.2.2.2.2.2.1.2.1.5 - Root Edit Artifact Update [Core]  <!-- UUID: a3dcb3c9-7e5a-48b1-aac8-9af4b5dfcfc2 -->
 
-At the conclusion of the poll, if the proposal is approved, the Operational Facilitator submits the edit to Powerhouse to formally update the Agent Artifact. Regardless of the outcome, the Operational Facilitator updates the Powerhouse System to include the result of the vote, including any pertinent documents.
-
-###### A.6.1.1.2.2.2.2.2.1.2.1.5.1 - Short-Term Transitionary Measures [Core]  <!-- UUID: c05f5877-d0e5-49dd-9608-86aa70d58cc0 -->
-
-Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect proposals approved by Prime Governance.
+At the conclusion of the poll, if the proposal is approved, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect the approved proposal. Regardless of the outcome, the Operational Facilitator records the result of the vote, including any pertinent documents, in the Sky Forum post for the proposal.
 
 ###### A.6.1.1.2.2.2.2.2.1.2.1.6 - Artifact Edit Restrictions [Core]  <!-- UUID: d3c68da3-81ff-4b73-a50c-1f9de5b6ff7f -->
 

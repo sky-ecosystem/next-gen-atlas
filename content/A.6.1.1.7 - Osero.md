@@ -498,11 +498,7 @@ The documents herein define the process for using the Root Edit Primitive to upd
 
 ###### A.6.1.1.7.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission [Core]  <!-- UUID: 70c91853-b74b-4c6b-befb-8446f00c9691 -->
 
-The Root Edit process begins with an OSERO token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. An OSERO token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Osero Prime" category.
-
-###### A.6.1.1.7.2.2.2.2.1.2.1.1.1 - Short-Term Transitionary Measures [Core]  <!-- UUID: caafe932-8fa7-4ee6-ba0b-dd49bcef1ee1 -->
-
-Until the Powerhouse system supports submitting Artifact Edit Proposals, OSERO token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Osero Prime" category. The title of the post must include the text "Osero Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total OSERO token supply specified in [A.6.1.1.7.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](70c91853-b74b-4c6b-befb-8446f00c9691).
+The Root Edit process begins with an OSERO token holder submitting a proposal containing a draft Artifact Edit Proposal. An OSERO token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must be posted on the Sky Forum under the "Osero Prime" category. The title of the post must include the text "Osero Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding at least 1% of the circulating token supply.
 
 ###### A.6.1.1.7.2.2.2.2.1.2.1.2 - Root Edit Expert Advisor Review [Core]  <!-- UUID: baaa8a79-a8a9-4a90-b350-83e845b52895 -->
 
@@ -522,11 +518,7 @@ Where their review of the proposal results in a finding of alignment with the Sk
 
 ###### A.6.1.1.7.2.2.2.2.1.2.1.5 - Root Edit Artifact Update [Core]  <!-- UUID: 4328ddab-d71b-47bf-8ff7-d6f0a2e37c2f -->
 
-At the conclusion of the poll, if the proposal is approved, the Operational Facilitator submits the edit to Powerhouse to formally update the Agent Artifact. Regardless of the outcome, the Operational Facilitator updates the Powerhouse System to include the result of the vote, including any pertinent documents.
-
-###### A.6.1.1.7.2.2.2.2.1.2.1.5.1 - Short-Term Transitionary Measures [Core]  <!-- UUID: 6de8c6b8-2e65-4a0b-940f-c509eb0661cd -->
-
-Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect proposals approved by Prime Governance.
+At the conclusion of the poll, if the proposal is approved, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect the approved proposal. Regardless of the outcome, the Operational Facilitator records the result of the vote, including any pertinent documents, in the Sky Forum post for the proposal.
 
 ###### A.6.1.1.7.2.2.2.2.1.2.1.6 - Artifact Edit Restrictions [Core]  <!-- UUID: ad3c8df7-2df3-4bb3-8192-f97ba459de7b -->
 
@@ -1608,9 +1600,21 @@ The documents herein contain a Directory of all Instances on the Ethereum Mainne
 
 The Ethereum Mainnet Instances of the Morpho Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.7.2.6.1.1.2.1.1.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 38d5861a-c16c-4e3b-9412-96037d403f8d -->
+###### A.6.1.1.7.2.6.1.1.2.1.1.1 - Ethereum Mainnet - Osero x Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 38d5861a-c16c-4e3b-9412-96037d403f8d -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Osero x Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed).
+
+###### A.6.1.1.7.2.6.1.1.2.2 - Base [Core]  <!-- UUID: 6f48b718-3eec-47d4-92aa-0ab6739b5bbe -->
+
+The documents herein contain a Directory of all Instances on Base of the Allocation System Primitive with Instance status of `Active`.
+
+###### A.6.1.1.7.2.6.1.1.2.2.1 - Morpho [Core]  <!-- UUID: 4a725fec-6ca3-4ce5-92a8-516b395327e2 -->
+
+The Base Instances of the Morpho Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.7.2.6.1.1.2.2.1.1 - Base - Osero x Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 90945bec-7674-4ca0-8cdf-d641a42d5ff4 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.3.2.1.1 - Base - Osero x Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](45ea09fa-1aa7-4182-a784-456bedf62eb1).
 
 ###### A.6.1.1.7.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 4c12626b-272a-4886-b7af-c6968b021fc2 -->
 
@@ -1692,6 +1696,18 @@ The address of the ALLOCATOR_REGISTRY contract is: `0xCdCFA95343DA7821fdD01dc4d0
 
 The address of the ALLOCATOR_ROLES contract is: `0x9A865A710399cea85dbD9144b7a09C889e94E803`.
 
+###### A.6.1.1.7.2.6.1.2.1.1.1.1.2 - Base [Core]  <!-- UUID: c17e4f62-2744-474b-bc52-80948a028415 -->
+
+The documents herein contain the Allocator Contract Addresses on Base.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.1.2.1 - Osero Executor [Core]  <!-- UUID: b9b01ba6-426a-4fc4-a166-73ed8e7f8882 -->
+
+The address of the Osero Executor on Base is: `0x5528A5A043F74C2250c0d0983E4633F38395e19F`.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.1.2.2 - Osero Receiver [Core]  <!-- UUID: af28ef5a-2887-4ceb-923e-c6b0168023d3 -->
+
+The address of the Osero Receiver on Base is: `0x63B4A33770F58205F3D646C5A635fF417a3819C3`.
+
 ###### A.6.1.1.7.2.6.1.2.1.1.1.2 - Diamond PAU Contracts [Core]  <!-- UUID: 00360509-2608-4e2b-9551-769df2931173 -->
 
 The documents herein define the addresses of the Diamond Parallelized Allocation Unit (Diamond PAU) contracts deployed for the Osero Liquidity Layer. The Diamond PAU is a modular implementation of the Allocation System in which the Controller dispatches operations to shared Facet contracts, with integration configurations held in a shared Beacon contract. The Beacon and the Facet contracts are shared across Diamond PAU implementations and are specified in [A.2.2.10.1.1.1.2.3 - Liquidity Layer Shared Contracts](a2677d19-1f2c-4361-bedc-34cb2e7eaab5).
@@ -1720,13 +1736,37 @@ The address of the ALM Rate Limits contract is: `0xE9a78f34fe497e2186f81B8c014cd
 
 The address of the AdministeredAgent contract is: `0x1837505D104F7a6D8b7e19452610B0A3D652EF12`. The AdministeredAgent holds the Allocator Role as specified in [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) and mediates relayer access to the Controller: the Relayer Multisigs are registered as its Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55), and submit operations through it, while the Freezer Multisig is registered as a Revoker, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e), authorized to remove a compromised Actor.
 
+###### A.6.1.1.7.2.6.1.2.1.1.1.2.2 - Base [Core]  <!-- UUID: fca9a305-b33b-4d71-a772-6544f3db64df -->
+
+The documents herein define the addresses of the Diamond PAU contracts on Base.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.2.2.1 - ALM Proxy Contract [Core]  <!-- UUID: 7f33b800-40ef-4ab5-b6eb-63867d731c90 -->
+
+The address of the ALM Proxy contract on Base is: `0x61ee4C5157AC876D1F5132Dc6832AC4896F533C9`. The ALM Proxy custodies the Instance's funds and routes calls to external contracts as directed by the Controller contract.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.2.2.2 - Controller Contract [Core]  <!-- UUID: 7c5e883e-9388-4804-b79e-3897d7e8bcb8 -->
+
+The address of the Controller contract on Base is: `0x96F18963c1B1Dd83bB4D14119cF2C4b94F86d6a9`. The Controller is the entry point for all allocator operations; it synchronizes integration configurations from the shared Beacon contract specified in [A.2.2.10.1.1.1.2.3.3.1 - Beacon](eb4e8e2e-2a55-4c67-aa11-d26b07a481d9) and dispatches calls to the appropriate Facet contract specified in [A.2.2.10.1.1.1.2.3.3.2 - Facets](2f52b12c-4e4e-46cf-9682-6e5f219666b2).
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.2.2.3 - AccessControls Contract [Core]  <!-- UUID: eebf7fb2-4e3d-4758-bdc5-f2df020aa413 -->
+
+The address of the AccessControls contract on Base is: `0xBF79Eed65E43323893F604386CC2635C2cB03f2d`. The AccessControls contract manages the roles and permissions of the Diamond PAU, as specified in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550).
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.2.2.4 - ALM Rate Limits Contract [Core]  <!-- UUID: 5fe6470a-a7d3-46d6-9c6a-0c6217b1a10e -->
+
+The address of the ALM Rate Limits contract on Base is: `0xd9E629588c48722E4c1bfcfb17829FecAf73839f`. The ALM Rate Limits contract enforces the rate limits on operations performed through the Controller contract.
+
+###### A.6.1.1.7.2.6.1.2.1.1.1.2.2.5 - AdministeredAgent Contract [Core]  <!-- UUID: 2e9207c7-4fae-4bd7-a0b2-83c14e62825a -->
+
+The address of the AdministeredAgent contract on Base is: `0xFeC5e58eED607f240e73beA20F5b43c262bb61AB`. The AdministeredAgent holds the Allocator Role as specified in [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) and mediates relayer access to the Controller: the Relayer Multisigs are registered as its Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55), and submit operations through it, while the Freezer Multisig is registered as a Revoker, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e), authorized to remove a compromised Actor.
+
 ###### A.6.1.1.7.2.6.1.2.1.1.2 - RateLimits [Core]  <!-- UUID: cec50748-c32f-4496-8e8d-d4a38dbb0e63 -->
 
 The documents herein list the rate limits for the Osero Liquidity Layer Diamond PAU.
 
 ###### A.6.1.1.7.2.6.1.2.1.1.2.1 - Diamond PAU Rate Limit IDs [Core]  <!-- UUID: eeaa3936-6129-4af5-89a1-0a3c56c175aa -->
 
-The documents herein list the controller-wide `RateLimitID`(s) for the Osero Diamond PAU. Instance-specific `RateLimitID`(s) are specified in each Instance Configuration Document.
+The documents herein list the controller-wide `RateLimitID`(s) for the Osero Diamond PAU on Ethereum Mainnet. Instance-specific `RateLimitID`(s) are specified in each Instance Configuration Document.
 
 ###### A.6.1.1.7.2.6.1.2.1.1.2.1.1 - USDS Mint RateLimitID [Core]  <!-- UUID: faa9b57b-a127-433d-9330-b52f9c455108 -->
 
@@ -1744,9 +1784,17 @@ The LIMIT_USDS_TO_USDC RateLimitID is: `0x00d4cb8ac2838f11d95b0136a919a13b994f92
 
 The LIMIT_USDC_TO_USDS RateLimitID is: `0x87835797fec2ad9575bc1a7035e3c27b8a8b7db2c3d7118513baf081b3af06b3`.
 
+###### A.6.1.1.7.2.6.1.2.1.1.2.1.5 - USDC To CCTP RateLimitID [Core]  <!-- UUID: af429256-0e8e-4ecc-80e0-a833eefa2ef4 -->
+
+The LIMIT_USDC_TO_CCTP RateLimitID, which applies to transfers through CCTP to all destination domains, is: `0x0476a9fd902eafdb5bcdabd9f0523dd7aacf7aa0c38c0e6ab912f5fed00f8e11`.
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.1.6 - USDC To Base RateLimitID [Core]  <!-- UUID: 5d1838c0-7068-4fbb-9bd0-1228e4083609 -->
+
+The LIMIT_USDC_TO_DOMAIN RateLimitID for the Base domain is: `0xbab34b58275e6736d9a866c36a2d88d671ed8b627228e6bd17efb1b076a59881`.
+
 ###### A.6.1.1.7.2.6.1.2.1.1.2.2 - Diamond PAU Rate Limits [Core]  <!-- UUID: 325731dc-5e89-4a8a-9d64-91b203febf48 -->
 
-The documents herein list the controller-wide rate limits for the Osero Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a cBEAM, which updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
+The documents herein list the controller-wide rate limits for the Osero Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a Prime Spell or via a cBEAM. A cBEAM updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
 
 ###### A.6.1.1.7.2.6.1.2.1.1.2.2.1 - USDS Mint Maximum [Core]  <!-- UUID: c6456279-0dab-4517-aad9-46d9e8d4aede -->
 
@@ -1770,6 +1818,48 @@ The maximum amount that can be swapped from USDS to USDC by the Osero Diamond PA
 The maximum amount that can be swapped from USDC to USDS by the Osero Diamond PAU (`LIMIT_USDC_TO_USDS`) is specified in the document herein.
 - `maxAmount`: Unlimited
 
+###### A.6.1.1.7.2.6.1.2.1.1.2.2.5 - USDC To CCTP Maximum [Core]  <!-- UUID: c7188dd8-bee6-4b91-bcef-9f59e9013235 -->
+
+The maximum amount of USDC that can be transferred through CCTP by the Osero Diamond PAU on Ethereum Mainnet (`LIMIT_USDC_TO_CCTP`) is specified in the document herein.
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.2.6 - USDC To Base Maximum [Core]  <!-- UUID: d2127532-2566-461a-b580-ae4b3f161359 -->
+
+The maximum amount of USDC that can be transferred to Base by the Osero Diamond PAU on Ethereum Mainnet (`LIMIT_USDC_TO_DOMAIN`, for the Base domain) is specified in the document herein.
+
+- `maxAmount`: 10,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.3 - Base Diamond PAU Rate Limit IDs [Core]  <!-- UUID: eace0310-373f-45f3-9007-2dbf36d79cb2 -->
+
+The documents herein list the controller-wide `RateLimitID`(s) for the Osero Diamond PAU on Base. Instance-specific `RateLimitID`(s) are specified in each Instance Configuration Document.
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.3.1 - Base USDC To CCTP RateLimitID [Core]  <!-- UUID: 507747f6-2bd2-4fe9-b43f-f7e629d6477f -->
+
+The LIMIT_USDC_TO_CCTP RateLimitID on Base, which applies to transfers through CCTP to all destination domains, is: `0x0476a9fd902eafdb5bcdabd9f0523dd7aacf7aa0c38c0e6ab912f5fed00f8e11`.
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.3.2 - Base USDC To Ethereum Mainnet RateLimitID [Core]  <!-- UUID: 366ca8be-8620-4688-b4e6-81843fce89dc -->
+
+The LIMIT_USDC_TO_DOMAIN RateLimitID on Base for the Ethereum Mainnet domain is: `0x90b598dae614822d554ec4f627bb5feab505106473a7911f34b36c0b3b9695c7`.
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.4 - Base Diamond PAU Rate Limits [Core]  <!-- UUID: 4eb04548-5aee-48e7-bf07-a850f99c684f -->
+
+The documents herein list the controller-wide rate limits for the Osero Diamond PAU on Base. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a Prime Spell or via a cBEAM. A cBEAM updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.3.4.1 - Operator Execution](56da9559-54be-4fb5-b39d-8c31c4aeed67). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.4.1 - Base USDC To CCTP Maximum [Core]  <!-- UUID: bdb12c94-feaf-4d8b-b7d6-dfa63ad8d9d3 -->
+
+The maximum amount of USDC that can be transferred through CCTP by the Osero Diamond PAU on Base (`LIMIT_USDC_TO_CCTP`) is specified in the document herein.
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.4.2 - Base USDC To Ethereum Mainnet Maximum [Core]  <!-- UUID: f4c2692c-515f-41d7-8327-f133d51c3ee5 -->
+
+The maximum amount of USDC that can be transferred to Ethereum Mainnet by the Osero Diamond PAU on Base (`LIMIT_USDC_TO_DOMAIN`, for the Ethereum Mainnet domain) is specified in the document herein.
+
+- `maxAmount`: 10,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
 ###### A.6.1.1.7.2.6.1.2.1.1.3 - On-chain Parameters [Core]  <!-- UUID: 5b8cc141-bd99-4b69-b4de-854b4c7f5002 -->
 
 The documents herein list general on-chain parameters for the Osero Liquidity Layer.
@@ -1782,6 +1872,22 @@ The Allocator Vault parameters for ALLOCATOR-PRYSM-A are defined in [A.3.7.1.2.1
 
 The ALM Proxy for the Osero Diamond PAU is whitelisted on the Lite PSM. This allows it to call `buyGemNoFee` and `sellGemNoFee` on the `MCD_LITE_PSM_USDC_A` contract, enabling the PSM Facet swap operations, as specified in [A.2.2.10.1.1.1.2.5.2.4.1 - Swap USDS To USDC](bff6ae57-ce3e-4520-ad46-5fe87b721408) and [A.2.2.10.1.1.1.2.5.2.4.2 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959).
 
+###### A.6.1.1.7.2.6.1.2.1.1.3.3 - CCTP Domain Parameters On Ethereum Mainnet [Core]  <!-- UUID: 62821aad-89d4-4c78-bb40-1cda9036783e -->
+
+The CCTP domain parameters of the Osero Diamond PAU on Ethereum Mainnet for transfers to Base are:
+
+- Destination domain: `6` (Base)
+- Mint recipient: the ALM Proxy contract on Base, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.2.1 - ALM Proxy Contract](7f33b800-40ef-4ab5-b6eb-63867d731c90)
+- Fee caps: `minFeeCapRate` `0`, `maxFeeCapRate` `0`
+
+###### A.6.1.1.7.2.6.1.2.1.1.3.4 - CCTP Domain Parameters On Base [Core]  <!-- UUID: a8eb4a5c-d58c-4817-9758-b96d23493ff1 -->
+
+The CCTP domain parameters of the Osero Diamond PAU on Base for transfers to Ethereum Mainnet are:
+
+- Destination domain: `0` (Ethereum Mainnet)
+- Mint recipient: the ALM Proxy contract on Ethereum Mainnet, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.1 - ALM Proxy Contract](6869558b-7215-4bec-a93e-475c0963262b)
+- Fee caps: `minFeeCapRate` `0`, `maxFeeCapRate` `0`
+
 ###### A.6.1.1.7.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: d6410ff9-1cb6-4433-a455-15ba6d571b8f -->
 
 The documents herein describe the specific governance processes for the Osero Liquidity Layer.
@@ -1792,11 +1898,11 @@ The documents herein define the multisigs that hold privileged access in the Ose
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig [Core]  <!-- UUID: 1830fb80-a44b-4aaf-b72c-7c4997cb9486 -->
 
-The Osero Relayer Multisig is registered as an Actor on the AdministeredAgent, which holds the Allocator Role as specified in [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a), and is controlled by Osero.
+The Osero Relayer Multisig is controlled by Osero. On each network, it is registered as an Actor on the AdministeredAgent, which holds the Allocator Role as specified in [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a).
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.1.1 - Address [Core]  <!-- UUID: d39e8188-807c-4cf1-8952-e02e455e255b -->
 
-The address of the Osero Relayer Multisig on Ethereum Mainnet is `0x29c5A20A49A0D522A3714af97C517a908946b6A8`.
+The address of the Osero Relayer Multisig on Ethereum Mainnet is `0x29c5A20A49A0D522A3714af97C517a908946b6A8`. The Osero Relayer Multisig is deployed separately on Base at the same address.
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.1.2 - Required Number Of Signers [Core]  <!-- UUID: 9abbed49-3b16-4bb3-956c-7809958b1b9a -->
 
@@ -1808,19 +1914,19 @@ The signers of the Osero Relayer Multisig are three (3) addresses controlled by 
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.1.4 - Usage Standards [Core]  <!-- UUID: 4721045a-46d0-42b9-b763-9826b7c88735 -->
 
-The signers of the Osero Relayer Multisig must use the Multisig to submit allocator operations through the AdministeredAgent in accordance with the instructions specified in the Osero Artifact.
+The signers of the Osero Relayer Multisig must use the Multisig to submit allocator operations through the AdministeredAgent on each network in accordance with the instructions specified in the Osero Artifact.
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.1.5 - Modification [Core]  <!-- UUID: da68307c-23cb-48fa-b6cc-52a31f812dc5 -->
 
-Osero can change the signers of the Osero Relayer Multisig at any time, so long as there are at least two (2) signers and at least a majority of signers are required to execute transactions.
+Osero can change the signers of the Osero Relayer Multisig at any time, so long as there are at least two (2) signers and at least a majority of signers are required to execute transactions. The Osero Relayer Multisig must have the same signers and signing requirement on Ethereum Mainnet and Base.
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig [Core]  <!-- UUID: f48b14c7-6dd1-4d10-b546-a604be45758c -->
 
-The Core Operator Relayer Multisig is registered as an Actor on the AdministeredAgent, which holds the Allocator Role as specified in [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a), and is controlled by Operational GovOps Soter Labs.
+The Core Operator Relayer Multisig is controlled by Operational GovOps Soter Labs. On each network, it is registered as an Actor on the AdministeredAgent, which holds the Allocator Role as specified in [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a).
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.2.1 - Address [Core]  <!-- UUID: 92ed192c-7019-4864-b06d-c56fec8d3414 -->
 
-The address of the Core Operator Relayer Multisig on Ethereum Mainnet is `0x3dE688267Cf099307aBdd85F64D8efe03D0b2b26`.
+The address of the Core Operator Relayer Multisig on Ethereum Mainnet is `0x3dE688267Cf099307aBdd85F64D8efe03D0b2b26`. The Core Operator Relayer Multisig is deployed separately on Base at the same address.
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.2.2 - Required Number Of Signers [Core]  <!-- UUID: 4d53e814-8131-4fb9-b9d3-17e27ed04f9e -->
 
@@ -1832,19 +1938,19 @@ The signers of the Core Operator Relayer Multisig are three (3) addresses contro
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.2.4 - Usage Standards [Core]  <!-- UUID: 5c9542e5-bd8c-4c9d-a6d2-c2f8382f13d1 -->
 
-The signers of the Core Operator Relayer Multisig must use the Multisig to submit allocator operations through the AdministeredAgent in accordance with the instructions specified in the Osero Artifact.
+The signers of the Core Operator Relayer Multisig must use the Multisig to submit allocator operations through the AdministeredAgent on each network in accordance with the instructions specified in the Osero Artifact.
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.2.5 - Modification [Core]  <!-- UUID: 7c52496f-8863-44a1-8e62-119f755fc038 -->
 
-Soter Labs can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least two (2) signers and at least a majority of signers are required to execute transactions.
+Soter Labs can change the signers of the Core Operator Relayer Multisig at any time, so long as there are at least two (2) signers and at least a majority of signers are required to execute transactions. The Core Operator Relayer Multisig must have the same signers and signing requirement on Ethereum Mainnet and Base.
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig [Core]  <!-- UUID: 51460bc2-f5fb-4302-912a-ed3e6943aae0 -->
 
-The Freezer Multisig is registered as a Revoker on the AdministeredAgent, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
+On each network, the Freezer Multisig is registered as a Revoker on the AdministeredAgent, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.3.1 - Address [Core]  <!-- UUID: 3b22b5f4-3cc4-4c47-9b84-a64fb4f3b159 -->
 
-The address of the Freezer Multisig on Ethereum Mainnet is `0xF61F90907551a8A23f0f8EEE9658Fa53326de603`.
+The address of the Freezer Multisig on Ethereum Mainnet is `0xF61F90907551a8A23f0f8EEE9658Fa53326de603`. The Freezer Multisig is deployed separately on Base at the same address.
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.3.2 - Required Number Of Signers [Core]  <!-- UUID: 3639aaf9-48b9-4021-8ccc-76d956689c83 -->
 
@@ -1856,11 +1962,11 @@ The signers of the Freezer Multisig are three (3) addresses controlled by Operat
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.3.4 - Usage Standards [Core]  <!-- UUID: 0af92fed-3b01-40b2-95c7-a3726241906b -->
 
-The signers of the Freezer Multisig should exercise their authority to remove a compromised or malicious Actor from the AdministeredAgent in the event of an emergency. Each action executed by the Freezer Multisig must be reported to the Sky community within a reasonable time frame.
+The signers of the Freezer Multisig should exercise their authority to remove a compromised or malicious Actor from the AdministeredAgent on the affected network in the event of an emergency. Each action executed by the Freezer Multisig must be reported to the Sky community within a reasonable time frame.
 
 ###### A.6.1.1.7.2.6.1.2.1.2.1.3.5 - Modification [Core]  <!-- UUID: 72931c13-0cd1-44c9-80b7-eb9a83463758 -->
 
-Modification of the signers of the Freezer Multisig must be approved through an Atlas Edit Proposal.
+Modification of the signers of the Freezer Multisig must be approved through an Atlas Edit Proposal. The Freezer Multisig must have the same signers and signing requirement on Ethereum Mainnet and Base.
 
 ###### A.6.1.1.7.2.6.1.2.1.2.2 - Invoking New Instances [Core]  <!-- UUID: d00957a1-4de5-4234-ae4a-37fc96c975f8 -->
 
@@ -1888,31 +1994,51 @@ The documents herein define the protocol for routine ongoing management of the O
 
 ###### A.6.1.1.7.2.6.1.2.2.1.1 - Role Hierarchies And Permissions [Core]  <!-- UUID: aae0e1ba-4ed0-4484-9187-3e53f3695ae8 -->
 
-The roles and permissions of the Diamond PAU Instance are the Liquidity Layer roles defined in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550), managed by the AccessControls contract. For the Osero Liquidity Layer, the `DEFAULT_ADMIN_ROLE` is held by the Osero SubProxy, and the `CONTROLLER` role by the Controller contract. The Configurator also holds the `DEFAULT_ADMIN_ROLE` on both the AccessControls contract and the ALM Rate Limits contract, as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c). The `ALLOCATOR_ROLE` is held by the AdministeredAgent contract, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract](0eed3609-62a2-4c5b-ae5b-4f78212252ee). The Osero Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig](1830fb80-a44b-4aaf-b72c-7c4997cb9486)) and the Core Operator Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig](f48b14c7-6dd1-4d10-b546-a604be45758c)) are registered as its Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55). The Freezer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig](51460bc2-f5fb-4302-912a-ed3e6943aae0)) is registered as a Revoker, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
+The roles and permissions of the Diamond PAU Instance are the Liquidity Layer roles defined in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550), managed by the AccessControls contract. For the Osero Liquidity Layer, the `DEFAULT_ADMIN_ROLE` is held by the Osero SubProxy on Ethereum Mainnet and by the Osero Executor on Base, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.1.2.1 - Osero Executor](b9b01ba6-426a-4fc4-a166-73ed8e7f8882). The Configurator also holds the `DEFAULT_ADMIN_ROLE` on both the AccessControls contract and the ALM Rate Limits contract, as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c) for Ethereum Mainnet and [A.2.2.10.1.1.1.2.3.3.5 - Configurator](e5cf7362-7ea2-4a33-8373-565d56c7da67) for Base. On each network, the `CONTROLLER` role is held by the Controller contract, and the `ALLOCATOR_ROLE` by the AdministeredAgent contract, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract](0eed3609-62a2-4c5b-ae5b-4f78212252ee) for Ethereum Mainnet and [A.6.1.1.7.2.6.1.2.1.1.1.2.2.5 - AdministeredAgent Contract](2e9207c7-4fae-4bd7-a0b2-83c14e62825a) for Base. On each AdministeredAgent, the Osero Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig](1830fb80-a44b-4aaf-b72c-7c4997cb9486)) and the Core Operator Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig](f48b14c7-6dd1-4d10-b546-a604be45758c)) are registered as Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55). The Freezer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig](51460bc2-f5fb-4302-912a-ed3e6943aae0)) is registered as a Revoker on each AdministeredAgent, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 14aa9d85-4878-49b9-9cd7-d6a014bdecea -->
 
-The Diamond PAU Controller functions for the Osero Liquidity Layer are the shared Diamond PAU Controller functions specified in [A.2.2.10.1.1.1.2.5.2 - Diamond PAU Controller Functions](5e941add-bf8d-4623-95a1-69795e7f7034). The Facets used by the Osero Liquidity Layer are specified in the documents herein.
+The Diamond PAU Controller functions for the Osero Liquidity Layer are the shared Diamond PAU Controller functions specified in [A.2.2.10.1.1.1.2.5.2 - Diamond PAU Controller Functions](5e941add-bf8d-4623-95a1-69795e7f7034). The Facets used by the Osero Liquidity Layer on each network are specified in the documents herein.
 
-###### A.6.1.1.7.2.6.1.2.2.1.2.1 - USDS Facet [Core]  <!-- UUID: 9b35cae7-b629-4bf8-b2d1-472bedebae14 -->
+###### A.6.1.1.7.2.6.1.2.2.1.2.1 - Ethereum Mainnet Facets [Core]  <!-- UUID: 92354fc4-d071-4d59-91ff-bccf9d11d251 -->
+
+The Facets used by the Osero Liquidity Layer on Ethereum Mainnet are specified in the documents herein.
+
+###### A.6.1.1.7.2.6.1.2.2.1.2.1.1 - USDS Facet [Core]  <!-- UUID: 9b35cae7-b629-4bf8-b2d1-472bedebae14 -->
 
 The Osero Liquidity Layer uses the USDS Facet ([A.2.2.10.1.1.1.2.3.1.2.22 - USDS Facet](917e1162-3c06-4508-b0e9-02c5eefc1346)) to mint and burn USDS through the allocator vault.
 
-###### A.6.1.1.7.2.6.1.2.2.1.2.2 - Aave v3 Facet [Core]  <!-- UUID: f983e134-c97d-4e90-94d6-4cad14d0702f -->
+###### A.6.1.1.7.2.6.1.2.2.1.2.1.2 - Aave v3 Facet [Core]  <!-- UUID: f983e134-c97d-4e90-94d6-4cad14d0702f -->
 
 The Osero Liquidity Layer uses the Aave v3 Facet ([A.2.2.10.1.1.1.2.3.1.2.1 - Aave v3 Facet](c9ecd9c2-dd1b-426b-8e52-66a2b1892289)) to deposit into and withdraw from SparkLend USDS.
 
-###### A.6.1.1.7.2.6.1.2.2.1.2.3 - ERC-4626 Facet [Core]  <!-- UUID: ff53173e-9c7a-4a31-baeb-185339d0780e -->
+###### A.6.1.1.7.2.6.1.2.2.1.2.1.3 - ERC-4626 Facet [Core]  <!-- UUID: ff53173e-9c7a-4a31-baeb-185339d0780e -->
 
 The Osero Liquidity Layer uses the ERC-4626 Facet ([A.2.2.10.1.1.1.2.3.1.2.7 - ERC-4626 Facet](05f5d939-712b-4204-8f77-4ef5ea598dcc)) to deposit into, withdraw from, and redeem shares of ERC-4626-compliant tokenized vaults.
 
-###### A.6.1.1.7.2.6.1.2.2.1.2.4 - PSM Facet [Core]  <!-- UUID: b762ae11-c8fa-465d-a8a0-4909257551dd -->
+###### A.6.1.1.7.2.6.1.2.2.1.2.1.4 - PSM Facet [Core]  <!-- UUID: b762ae11-c8fa-465d-a8a0-4909257551dd -->
 
 The Osero Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.2.3.1.2.16 - PSM Facet](afa3da61-c32a-4efd-900b-16e1c262c842)) to swap between USDS and USDC via DAI, through the DAI-USDS migrator and the PSM. These swaps require the ALM Proxy to be whitelisted on the Lite PSM, as specified in [A.6.1.1.7.2.6.1.2.1.1.3.2 - Whitelisting Of ALM Proxy](817fabeb-fcd9-42f4-bcdb-863c67105ccf).
 
+###### A.6.1.1.7.2.6.1.2.2.1.2.1.5 - CCTP Facet [Core]  <!-- UUID: 98a72f0a-52cf-429f-a3ab-9a44bda21fc2 -->
+
+The Osero Liquidity Layer uses the CCTP Facet ([A.2.2.10.1.1.1.2.3.1.2.3 - CCTP Facet](ce25217f-c37d-4415-b0d6-adecab3c7855)) to transfer USDC from Ethereum Mainnet to Base.
+
+###### A.6.1.1.7.2.6.1.2.2.1.2.2 - Base Facets [Core]  <!-- UUID: aab59617-bc9c-4ef6-8d6b-13a0fa655a75 -->
+
+The Facets used by the Osero Liquidity Layer on Base are specified in the documents herein.
+
+###### A.6.1.1.7.2.6.1.2.2.1.2.2.1 - CCTP Facet [Core]  <!-- UUID: b2bad232-09d6-4487-b0c4-871b164e380f -->
+
+The Osero Liquidity Layer uses the CCTP Facet ([A.2.2.10.1.1.1.2.3.3.2.1 - CCTP Facet](9bbe1ce3-06fc-46f2-8012-c1d612d1e182)) to transfer USDC from Base to Ethereum Mainnet.
+
+###### A.6.1.1.7.2.6.1.2.2.1.2.2.2 - ERC-4626 Facet [Core]  <!-- UUID: 204a67a7-bf55-4212-b1cf-b54329df2018 -->
+
+The Osero Liquidity Layer uses the ERC-4626 Facet ([A.2.2.10.1.1.1.2.3.3.2.2 - ERC-4626 Facet](7a8d1c7d-60cd-4126-853d-28f5e8433fb6)) to deposit into, withdraw from, and redeem shares of ERC-4626-compliant tokenized vaults.
+
 ###### A.6.1.1.7.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: a0fca594-a7b9-45fa-9be1-a209d5341029 -->
 
-The rate limits of the Osero Liquidity Layer are managed as specified in [A.2.2.10.1.1.1.2.5.3 - Rate Limit Management](6f5bc654-a053-4b1f-9ada-6aa13d0a2109). The Osero-specific rate limit values are specified under the [A.6.1.1.7.2.6.1.2.1.1 - Osero Liquidity Layer Architecture](e8f3afd5-d1a8-4379-826c-2c3bcc365947) and both Instance Configuration Documents: the [A.6.1.1.7.2.6.1.4.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39) and the [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed).
+The rate limits of the Osero Liquidity Layer are managed as specified in [A.2.2.10.1.1.1.2.5.3 - Rate Limit Management](6f5bc654-a053-4b1f-9ada-6aa13d0a2109). The Osero-specific rate limit values are specified under the [A.6.1.1.7.2.6.1.2.1.1 - Osero Liquidity Layer Architecture](e8f3afd5-d1a8-4379-826c-2c3bcc365947) and the Instance Configuration Documents: the [A.6.1.1.7.2.6.1.4.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39), the [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Osero x Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed), and the [A.6.1.1.7.2.6.1.3.2.1.1 - Base - Osero x Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](45ea09fa-1aa7-4182-a784-456bedf62eb1).
 
 ###### A.6.1.1.7.2.6.1.2.2.1.4 - Instance Lifecycle Management [Core]  <!-- UUID: bbbb38cb-5a0d-4f5f-9361-33ebb954e4ca -->
 
@@ -1938,9 +2064,9 @@ The Ethereum Mainnet Instances of the Osero Liquidity Layer with `Active` Status
 
 The Ethereum Mainnet Instances of the Morpho Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 6f00b7cd-21b5-4a8b-ae29-a97669d953ed -->
+###### A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Osero x Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 6f00b7cd-21b5-4a8b-ae29-a97669d953ed -->
 
-The documents herein contain the Instance Configuration Document for the Gauntlet USDC Prime Morpho Vault V2 Instance.
+The documents herein contain the Instance Configuration Document for the Osero x Gauntlet USDC Prime Morpho Vault V2 Instance on Ethereum Mainnet.
 
 ###### A.6.1.1.7.2.6.1.3.1.1.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: ed1400d6-4bd6-4ea4-85ae-b6a2455ee5be -->
 
@@ -1948,7 +2074,7 @@ The documents herein contain the Instance Configuration Document for the Gauntle
 
 ###### A.6.1.1.7.2.6.1.3.1.1.1.2 - Parameters [Core]  <!-- UUID: 192cf8b5-2bd1-43a5-bfa1-5321e8ffd9e1 -->
 
-The documents herein define the parameters of the Gauntlet USDC Prime Morpho Vault V2 Instance of the Allocation System Primitive.
+The documents herein define the parameters of the Osero x Gauntlet USDC Prime Morpho Vault V2 Instance of the Allocation System Primitive on Ethereum Mainnet.
 
 ###### A.6.1.1.7.2.6.1.3.1.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 0e23bfc6-19e5-4059-bad0-e5c306e5738c -->
 
@@ -2021,17 +2147,13 @@ The withdrawal rate limit parameter is:
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.1 - Max Slippage [Core]  <!-- UUID: 69931712-13d4-4b45-a481-2e6d1111e031 -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.1 - Maximum Exposure [Core]  <!-- UUID: be1ab30f-c697-4dfd-a605-8ca22e28c06e -->
 
-The `maxSlippage` for this Instance will be specified in a future iteration of the Osero Artifact.
+The aggregate exposure of this Instance and the Instance specified in [A.6.1.1.7.2.6.1.3.2.1.1 - Base - Osero x Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](45ea09fa-1aa7-4182-a784-456bedf62eb1) must not exceed 80,000,000 USDC.
 
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.2 - Maximum Exposure [Core]  <!-- UUID: be1ab30f-c697-4dfd-a605-8ca22e28c06e -->
+###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.2 - Capital Ratio Requirement [Core]  <!-- UUID: f61b71cf-6b5b-41a8-8897-9f1289464745 -->
 
-The Maximum Exposure for this Instance is 25,000,000 USDC.
-
-###### A.6.1.1.7.2.6.1.3.1.1.1.2.5.3 - Capital Ratio Requirement [Core]  <!-- UUID: f61b71cf-6b5b-41a8-8897-9f1289464745 -->
-
-The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 10%.
+The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 5%.
 
 ###### A.6.1.1.7.2.6.1.3.1.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c2c97076-4571-4299-94c6-eae2c99fa81b -->
 
@@ -2128,6 +2250,185 @@ Of the functions subject to [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements]
 ###### A.6.1.1.7.2.6.1.3.1.1.1.4.4 - Force-Deallocate Penalty [Core]  <!-- UUID: 3a646898-4a70-4cf7-ab7a-9c2cb2cc28fe -->
 
 The force-deallocate penalty is withdrawn from the account that authorizes a forced withdrawal of assets from the Morpho Market V1 adapter at `0x9DD0Ceb7caC214777014d2f664dB3C20f0838D53`, as a percentage of the assets withdrawn:
+
+Force-Deallocate Penalty: 0.01%
+
+###### A.6.1.1.7.2.6.1.3.2 - Base Instances [Core]  <!-- UUID: fb173fd5-5e4f-42f4-a60f-d49751e4b8ee -->
+
+The Base Instances of the Osero Liquidity Layer with `Active` Status are stored herein and are organized by target protocol.
+
+###### A.6.1.1.7.2.6.1.3.2.1 - Morpho [Core]  <!-- UUID: 96800f39-91ba-49e6-aaf0-c12e7968592f -->
+
+The Base Instances of the Morpho Protocol with `Active` Status are stored herein.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1 - Base - Osero x Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 45ea09fa-1aa7-4182-a784-456bedf62eb1 -->
+
+The documents herein contain the Instance Configuration Document for the Osero x Gauntlet USDC Prime Morpho Vault V2 Instance on Base.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: b0168dcf-9fd4-444b-8070-143ca93514fd -->
+
+**`Pending`**
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2 - Parameters [Core]  <!-- UUID: e2b7ef44-bcba-4dd2-bd52-2a4201a84c72 -->
+
+The documents herein define the parameters of the Osero x Gauntlet USDC Prime Morpho Vault V2 Instance of the Allocation System Primitive on Base.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 757161e6-02e2-4ab3-b5e6-6ed0ceca12ac -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.1.1 - Network [Core]  <!-- UUID: 66654b6a-127b-48ff-a13f-3acb506d47c2 -->
+
+Base
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: c46d4ef5-ffa4-4b70-a9da-55af328d0db8 -->
+
+Morpho
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.1.3 - Asset Supplied By Osero Liquidity Layer [Core]  <!-- UUID: c2184afc-f40d-4207-8eef-d5b78211dade -->
+
+USDC
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.1.4 - Token [Core]  <!-- UUID: 92b273a7-638d-4596-baed-94006a2d4139 -->
+
+ogUSDCb
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: da926706-5fa1-4669-8d42-991496876fcc -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.2.1 - Token Address [Core]  <!-- UUID: e405eaf1-2625-4c2f-a0e5-d635e9356c98 -->
+
+`0x8c1e205C408b90A0dDDbD53594049a379557c651`
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: adb5c7a4-bf22-4ef9-a15b-ba985f5d348e -->
+
+`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 8e0fbaff-3fd6-430f-9517-c94d19a1110e -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 843f67fb-7df0-40cf-be78-3d407ff7181a -->
+
+The inflow RateLimitID is: `0x4530b5750e1bd4febbd736da62648a217afd5809f6d9f626fdae219ba97adf32`.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.3.2 - Outflow RateLimitID [Core]  <!-- UUID: 60d0456a-b574-4efe-904d-4de94b0e5aa4 -->
+
+The outflow RateLimitID is: `0x6962440fb603fec4e7a4a755188471e31b1701e8f60323358e62b6e0f0c596aa`.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.4 - Rate Limits [Core]  <!-- UUID: 12ead830-00ef-40ae-a520-db8495007efb -->
+
+The current `maxAmount` and `slope` for this conduit's inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 60890000-c9ca-4079-b40a-4bfef616685c -->
+
+The deposit rate limit parameters are:
+
+- `maxAmount`: 15,000,000 USDC
+- `slope`: 10,000,000 USDC per day
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 261f9090-504c-4b60-97bf-e33668ac3183 -->
+
+The withdrawal rate limit parameter is:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: edf5369c-df79-4dfb-830b-1407a6e652e6 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.5.1 - Maximum Exposure [Core]  <!-- UUID: 92cfd922-6c70-460c-a246-923d51b025ec -->
+
+The aggregate exposure of this Instance and the Instance specified in [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Osero x Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed) must not exceed 80,000,000 USDC.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.2.5.2 - Capital Ratio Requirement [Core]  <!-- UUID: 899b4c5a-bd4c-4e7e-a599-7e1265cde17b -->
+
+The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 5%.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 7768aef7-1d1a-4c35-a9c1-554fda13fde9 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer processes.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 4d652e87-e70a-40cb-a54e-a82ed9719e78 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer parameters.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.4.1 - Contract Addresses [Core]  <!-- UUID: a4c8b51d-24be-408f-9c62-df44cfe1b232 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.4.1.1 - Owner Role Address [Core]  <!-- UUID: f6ec82cb-5bd7-43b6-b8b5-dc620ce48277 -->
+
+The Owner role is held by Osero through the Osero Executor on Base, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.1.2.1 - Osero Executor](b9b01ba6-426a-4fc4-a166-73ed8e7f8882).
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.4.1.2 - Curator Role Address [Core]  <!-- UUID: 52aa69e0-fcba-42f4-b47d-f17235bab1fa -->
+
+The Curator role is held jointly by Soter Labs and Gauntlet through the Curator Multisig, which is deployed separately on Base at the same address and with the same co-curators as specified in [A.6.1.1.7.2.6.1.3.1.1.1.4.1.2 - Curator Role Address](d13f341a-5471-42a2-ab00-a3148cd38917).
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.4.1.3 - Allocator Role Addresses [Core]  <!-- UUID: 6f9fd076-ceaf-47f3-abbc-87257c60d6e7 -->
+
+The Allocator role is held by Gauntlet at `0x6939A35d32E9bE623e08aA0bceD96D4baC170bB3`.
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.4.1.4 - Sentinel Role Addresses [Core]  <!-- UUID: e1470452-db65-4320-a9f6-ea1007862f8a -->
+
+The Sentinel role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Gauntlet | `0x6a0dC94d80429dd4B03E8838CE8d6BEE725bE39B` |
+| Soter Labs | `0xf51A112fB2cB63E3CB3eeB7feA8c7c58625868C7` |
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.4.2 - Maximum Exchange Rate [Core]  <!-- UUID: 241871fb-8657-450a-b767-83ff2114c102 -->
+
+The maximum exchange rate for this Instance is two (2) USDC per whole vault share, set by calling the `erc4626_setMaxExchangeRate` function on the Diamond PAU Controller, as specified in [A.2.2.10.1.1.1.2.5.2.6.4 - Set Maximum Exchange Rate For ERC-4626 Vault](3cbc5171-858d-4e36-bc81-da1b323052de).
+
+- `erc4626_setMaxExchangeRate(OGUSDCB_VAULT, 1e18, 2e6)`
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.4.3 - Timelocks [Core]  <!-- UUID: 2e1ab72b-bbd1-4b39-aa6f-f56bc89c32ff -->
+
+The timelock configuration for this Instance is defined in the subdocuments herein. The minimum delays required of Morpho vaults are specified in [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569).
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.4.3.1 - Seven-Day Timelocks [Core]  <!-- UUID: e922490d-e0d5-4685-a48c-7b7dbe5423d6 -->
+
+Of the functions subject to [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569), the following have a timelock delay of seven (7) days:
+
+- `abdicate`
+- `addAdapter`
+- `increaseAbsoluteCap`
+- `increaseRelativeCap`
+- `increaseTimelock`
+- `removeAdapter`
+- `setSendAssetsGate`
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.4.3.2 - Three-Day Timelocks [Core]  <!-- UUID: 00aa02b7-dfe8-4ea8-8023-dec0c3c7bec3 -->
+
+Of the functions subject to [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569), the following have a timelock delay of three (3) days:
+
+- `setManagementFee`
+- `setManagementFeeRecipient`
+- `setPerformanceFee`
+- `setPerformanceFeeRecipient`
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.4.3.3 - Functions Without A Timelock [Core]  <!-- UUID: b561f87d-c756-4d71-bc7a-dd14fa7d74f5 -->
+
+Of the functions subject to [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569), the following are not subject to a timelock delay:
+
+- `setForceDeallocatePenalty`
+- `setIsAllocator`
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.4.3.4 - Abdicated Functions [Core]  <!-- UUID: 429912da-cc96-42ba-95e5-1a5a6ced1d60 -->
+
+Of the functions subject to [A.2.2.10.1.1.1.3.3.1 - Vault Timelock Requirements](14aba6cb-eb34-4780-84c1-908666835569), the following have been permanently abdicated and can never be called:
+
+- `setAdapterRegistry`
+- `setReceiveAssetsGate`
+- `setReceiveSharesGate`
+- `setSendSharesGate`
+
+###### A.6.1.1.7.2.6.1.3.2.1.1.4.4 - Force-Deallocate Penalty [Core]  <!-- UUID: b93e26ea-aee9-4d50-a5dd-864153d7b2d4 -->
+
+The force-deallocate penalty is withdrawn from the account that authorizes a forced withdrawal of assets from the Morpho Market V1 adapter at `0x8BA35B5303c5B2550fFE76dC9764458A1cE2ba8a`, as a percentage of the assets withdrawn:
 
 Force-Deallocate Penalty: 0.01%
 
