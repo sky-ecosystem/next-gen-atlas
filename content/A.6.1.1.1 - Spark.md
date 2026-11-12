@@ -8272,7 +8272,7 @@ USDC
 
 ###### A.6.1.1.1.2.6.1.3.6.2.1.2.1.4 - Token [Core]  <!-- UUID: 6bf7f189-efdd-48ca-b2c8-ff313edb5d1d -->
 
-TBD
+sparkUSDCbc
 
 ###### A.6.1.1.1.2.6.1.3.6.2.1.2.2 - Contract Addresses [Core]  <!-- UUID: f1c59f39-ec38-44cb-ab89-d4497923eeb1 -->
 
@@ -8280,7 +8280,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.6.2.1.2.2.1 - Token Address [Core]  <!-- UUID: 84520756-b684-4ee8-b15e-0e542ad5bcce -->
 
-`TBD`
+`0xDb6C283f8026a2D1D69b90464011baFB0A1090F4`
 
 ###### A.6.1.1.1.2.6.1.3.6.2.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 942d74a9-279e-4388-9f82-4ddb644b7fa9 -->
 
@@ -8292,11 +8292,11 @@ The specific `RateLimitID`(s) for this conduit’s inflow and outflow are define
 
 ###### A.6.1.1.1.2.6.1.3.6.2.1.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: d552e181-b436-40d8-9993-a3f5ea542318 -->
 
-The inflow RateLimitID is: `TBD`
+The inflow RateLimitID is: `0xec9ffae85e496cb8b63f0b185bdf59950217c687d55a1a11a27c81ec2eb933f5`
 
 ###### A.6.1.1.1.2.6.1.3.6.2.1.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 4a997604-1304-4d9c-8b1c-4b10f7049572 -->
 
-The outflow RateLimitID is: `TBD`
+The outflow RateLimitID is: `0x2c11311ef43793ee64f8eec120de75492c669640bb6ad573378b3bfe9d5a53d8`
 
 ###### A.6.1.1.1.2.6.1.3.6.2.1.2.4 - Rate Limits [Core]  <!-- UUID: 5ab7218c-23ff-449b-bdc4-b102a2098cb3 -->
 
