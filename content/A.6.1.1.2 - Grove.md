@@ -2011,15 +2011,15 @@ The maximum amount of USDC that can be sent to the Base ALM Proxy (`LIMIT_USDC_T
 
 The maximum amount of USDC that can be bridged to Base ALM Proxy using the Circle Cross-Chain Transfer Protocol (`LIMIT_USDC_TO_CCTP_Base`) is specified in the document herein.
 
-- `maxAmount`: 50,000,000 USDC
-- `slope`: 50,000,000 USDC per day
+- `maxAmount`: 100,000,000 USDC
+- `slope`: 100,000,000 USDC per day
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.1.3.3 - Maximum USDC Bridged From Base To Ethereum Mainnet Via Circle CCTP [Core]  <!-- UUID: 9575357d-2778-4556-80d8-ca1e4ab293a6 -->
 
 The maximum amount of USDC that can be bridged to Ethereum Mainnet from the Base ALM Proxy using the Circle Cross-Chain Transfer Protocol (`LIMIT_USDC_TO_CCTP_Ethereum`) is specified in the document herein.
 
-- `maxAmount`: 50,000,000 USDC
-- `slope`: 50,000,000 USDC per day
+- `maxAmount`: 100,000,000 USDC
+- `slope`: 100,000,000 USDC per day
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.2 - Diamond PAU Rate Limit IDs [Core]  <!-- UUID: 6becf94f-f2fc-4ac3-955b-61a10c738506 -->
 
