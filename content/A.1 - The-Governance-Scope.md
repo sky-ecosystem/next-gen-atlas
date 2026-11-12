@@ -2376,7 +2376,7 @@ The Core Facilitator has the discretion to decide if documentation supporting th
 
 ## A.1.10 - Sky Core Governance Security [Article]  <!-- UUID: de0cc370-de9c-48a4-b10e-91782df7abcd -->
 
-This Article governs the correct and secure execution of Sky Governance processes for deploying and reviewing Executive Votes. This Article must protect against all forms of attacks, disruption and accidental failure by maximizing the transparency and resilience of the Sky Executive Process.
+This Article governs the correct and secure execution of Sky Governance processes for Governance Polls and for deploying and reviewing Executive Votes. This Article must protect against all forms of attacks, disruption and accidental failure by maximizing the transparency and resilience of the Sky Executive Process.
 
 ### A.1.10.1 - General Provisions [Section]  <!-- UUID: 41600516-1414-4c52-86f6-de8393911cfa -->
 
@@ -2424,28 +2424,31 @@ Sky may rely on contracts that do not meet these requirements only with the appr
 
 ##### A.1.10.1.3.3 - Recognized Audit Firms [Core]  <!-- UUID: 4a6e09e6-9e9d-45f0-923a-9c842faa7708 -->
 
-The documents herein specify the audit firms recognized by Sky and the tier to which each belongs. The Protocol Security Workstream Lead must review this categorization on a regular basis and update it as necessary.
+The documents herein specify the audit firms recognized by Sky and the category to which each belongs. The Protocol Security Workstream Lead must review this categorization on a regular basis and update it as necessary.
 
 A firm is recognized under any name it publishes audits under. Audits published under different names by the same firm, or by firms under common ownership or control, count as one (1) audit firm.
 
-###### A.1.10.1.3.3.1 - Audit Firm Tiers [Core]  <!-- UUID: 97eee131-b5d6-4246-8631-fb077616b671 -->
+###### A.1.10.1.3.3.1 - Audit Firm Categories [Core]  <!-- UUID: 97eee131-b5d6-4246-8631-fb077616b671 -->
 
-Audit firms are divided into two (2) tiers: top-tier and mid-tier.
+Audit firms are divided into two (2) categories: Category 1 and Category 2. The category of an audit firm sets the Effectiveness Coefficient of its audits, as specified in [A.3.2.2.1.2.2.5.1.2 - Effectiveness Coefficient](d281c572-ff98-43ba-a01d-e54657b50ab9).
 
-###### A.1.10.1.3.3.2 - Audit Firms By Tier [Core]  <!-- UUID: 5b542b65-2ef1-49e9-8995-122373f1b312 -->
+###### A.1.10.1.3.3.2 - Audit Firms By Category [Core]  <!-- UUID: 5b542b65-2ef1-49e9-8995-122373f1b312 -->
 
-The documents herein categorize specific audit firms into the top-tier and mid-tier categories.
+The documents herein categorize specific audit firms into Category 1 and Category 2.
 
-###### A.1.10.1.3.3.2.1 - List Of Top-Tier Audit Firms [Core]  <!-- UUID: 6ada67c6-0cf1-4456-b280-57e8ae7edc13 -->
+###### A.1.10.1.3.3.2.1 - List Of Category 1 Audit Firms [Core]  <!-- UUID: 6ada67c6-0cf1-4456-b280-57e8ae7edc13 -->
 
-The top-tier audit firms are:
+The Category 1 audit firms are:
 
 - ChainSecurity
+- OpenZeppelin
+- ConsenSys Diligence
+- Trail Of Bits
 - Cantina
 
-###### A.1.10.1.3.3.2.2 - List Of Mid-Tier Audit Firms [Core]  <!-- UUID: dea3a182-4b89-4fda-9eed-232562e5f057 -->
+###### A.1.10.1.3.3.2.2 - List Of Category 2 Audit Firms [Core]  <!-- UUID: dea3a182-4b89-4fda-9eed-232562e5f057 -->
 
-The mid-tier audit firms are:
+The Category 2 audit firms are:
 
 - Quantstamp
 - SlowMist
@@ -2477,9 +2480,6 @@ The mid-tier audit firms are:
 - StErMi
 - Sherlock
 - 0xMacro
-- OpenZeppelin
-- ConsenSys Diligence
-- Trail Of Bits
 
 ##### A.1.10.1.3.4 - Short-Term Transitionary Measures [Core]  <!-- UUID: 19f5f5b9-be0d-4a91-a5aa-3888c1c9b7e8 -->
 
@@ -2524,7 +2524,7 @@ Executive Vote refers to the voting process of approving governance proposals wi
 
 ##### A.1.10.2.1.5 - Sky Governance Voting Portal [Core]  <!-- UUID: 0919d4bd-2050-43dc-a1b9-8cdfdf0cba54 -->
 
-The Voting Portal is the primary user interface where Executive Votes are published and where Aligned Delegates and SKY holders review and vote on proposals. It serves as the canonical location for viewing active and past Executive Votes, associated documentation, and vote tallies. The Voting Portal can be found at [https://vote.sky.money/executive](https://vote.sky.money/executive).
+The Voting Portal is the primary user interface where Executive Votes and Governance Polls are published and where Aligned Delegates and SKY holders review and vote on proposals. It serves as the canonical location for viewing active and past Executive Votes and Governance Polls, associated documentation, and vote tallies. Executive Votes can be found at [https://vote.sky.money/executive](https://vote.sky.money/executive) and Governance Polls at [https://vote.sky.money/polling](https://vote.sky.money/polling).
 
 ##### A.1.10.2.1.6 - Custom Spell Voting Page [Core]  <!-- UUID: 7171aa68-668e-49bb-bf00-511cb79eb5e9 -->
 
@@ -2704,8 +2704,7 @@ The team that implemented and deployed the module publishes a Forum Post with th
 The Forum post must include the following:
 
 - The addresses of the deployed contracts
-- A link to the audit reports as specified in [A.1.10.2.7.7 - Audit Recordkeeping](610c8780-178b-4055-9387-373e014c8202), hosted on the auditor's website or another independently verifiable source.
-- Confirmation that the deployed code matches the commit hash that was sent for audit or, where remediated code was not re-audited, the commit hash approved as specified in [A.1.10.2.7.6 - Findings Remediation](80eab9dd-3833-4418-9845-b648e19fb72f), with a link to the approved Pull Request.
+- The audit record specified in [A.1.10.2.7.7 - Audit Recordkeeping](610c8780-178b-4055-9387-373e014c8202).
 - Constructor arguments are as expected in the Init script
 - (optional) Authority is given to the protocol owner: `MCD_PAUSE_PROXY` in the case of SKY and denied from the deployer address.
 - Include instructions to be added to the Executive Sheet, such as adding the module to the chainlog, defining parameters for the module (provided by the Risk Advisor), further authorization that needs to be done to different module elements.
@@ -2969,7 +2968,7 @@ Morpho Verification Report requirements applicable at this stage are specified i
 
 The governance vote on the Edit Proposal is published on Monday, 16:00 UTC of week 2 and runs through Thursday of week 2.
 
-Under the Sky Governance path, the Core Facilitator publishes the Governance Poll on the Sky voting portal, in accordance with [A.1.11.2 - Atlas Edit Weekly Cycle](14e99d92-71fc-44d9-9dbf-933bce2e1b32). Aligned Delegates vote on the Governance Poll.
+Under the Sky Governance path, the Poll Administrator publishes the Governance Poll on the Sky voting portal, in accordance with [A.1.11.2 - Atlas Edit Weekly Cycle](14e99d92-71fc-44d9-9dbf-933bce2e1b32). Aligned Delegates vote on the Governance Poll.
 
 Under the Independent Governance path, the Operational Facilitator initiates the vote in accordance with the voting process defined in the Prime Agent's Root Edit Primitive. The Prime Agent's token holders vote in accordance with that process.
 
@@ -4522,7 +4521,7 @@ The registered Spell Checklists are:
 The documents herein define Operational Reference Materials used in connection with infrastructure changes and contract deployments. Operational Reference Materials are maintained in the Ecosystem Operational References repository (https://github.com/soterlabs/ecosystem-operational-references). Users must verify their local copy is aligned with the latest version in the Ecosystem Operational References repository before each use of the reference materials.
 ###### A.1.10.2.5.2.1 - Technical Scope Template [Core]  <!-- UUID: b9ba6658-87a9-4421-9d20-386df8cea450 -->
 
-The Technical Scope Template is a standardized template for announcing any infrastructure changes, whether on-chain or off-chain. The Technical Scope Template must be completed for all infrastructure changes and submitted as specified in [A.1.10.2.5.2.1.1 - Technical Scope Template Submission Requirements](a6acd80e-289a-4159-ba51-3399c5d90f3d).
+The Technical Scope Template is a standardized template for announcing any infrastructure changes, whether on-chain or off-chain. The Technical Scope Template must be completed for all infrastructure changes and submitted as specified in [A.1.10.2.5.2.1.1 - Technical Scope Template Submission Requirements](a6acd80e-289a-4159-ba51-3399c5d90f3d). For a change to a Morpho vault that meets the conditions specified in [A.1.10.2.5.2.4 - Morpho Vault Change Note Template](f82537ec-50d1-44a0-ae01-0270cc091793), a completed Morpho Vault Change Note may be used instead of the Technical Scope Template.
 
 ###### A.1.10.2.5.2.1.1 - Technical Scope Template Submission Requirements [Core]  <!-- UUID: a6acd80e-289a-4159-ba51-3399c5d90f3d -->
 
@@ -4573,6 +4572,18 @@ Existing verification results may be reused where they remain applicable. Where 
 ###### A.1.10.2.5.2.3.3 - Morpho Verification Report Requirements [Core]  <!-- UUID: 99d75e24-5ee2-4171-bc75-3cafa0170995 -->
 
 For a Prime Spell that enables capital allocation to a Morpho vault through the relevant Allocation System Instance, the completed Morpho Verification Report is expected to be available to the Prime Spell reviewers when the Spell review process begins. The Spell review process may begin while the report is pending. Each Prime Spell reviewer must review the completed Morpho Verification Report before signing off the Prime Spell as ready for deployment. The reviewer must confirm that the report's scope matches the Prime Spell and verify that any identified noncompliance has been resolved and the affected checks have been rerun. The same availability expectation applies to an updated Morpho Verification Report. The Prime Spell reviewer records this review in the [A.1.10.2.5.1.2.1.1 - Agent Spell Reviewer Checklist](badd8b62-dffe-4778-b5e2-78c76195242d).
+
+###### A.1.10.2.5.2.4 - Morpho Vault Change Note Template [Core]  <!-- UUID: f82537ec-50d1-44a0-ae01-0270cc091793 -->
+
+The Morpho Vault Change Note Template will be maintained in the Ecosystem Operational References repository (https://github.com/soterlabs/ecosystem-operational-references). Its location within that repository will be specified in a future iteration of the Atlas. The Morpho Vault Change Note Template is a standardized template for announcing a change to a Morpho vault that is already recorded in a Prime Agent Artifact as an Instance of the Allocation System Primitive. It may be used instead of the Technical Scope Template only where the change involves no deployment of a new contract and no creation of a new market, and falls within [A.2.2.10.1.1.1.3.6.1.1 - Morpho Vault Changes Requiring Governance Approval](f68aa50e-0eb4-4fb4-b145-616a06d8b646) or [A.2.2.10.1.1.1.3.6.1.2 - Morpho Vault Changes Requiring Disclosure Only](cd925225-9ff5-4efc-9e72-45d5bee862aa). A completed Morpho Vault Change Note must reference the Technical Scope through which the vault was onboarded. Where a vault was onboarded without a Technical Scope, the first change to it must be announced using the Technical Scope Template, published as specified in [A.1.10.2.5.2.1.1 - Technical Scope Template Submission Requirements](a6acd80e-289a-4159-ba51-3399c5d90f3d), and later Morpho Vault Change Notes for that vault must reference that Technical Scope.
+
+###### A.1.10.2.5.2.4.1 - Morpho Vault Change Note Submission Requirements [Core]  <!-- UUID: 94f3fede-b2b2-4bc3-a3c7-f455e200508f -->
+
+The completed Morpho Vault Change Note must be published as a Forum post under the Prime Agent's Forum category. It must be published at the time specified in [A.2.2.10.1.1.1.3.6.2.1 - Morpho Vault Change Announcement](bf77c136-f7bb-45d6-b624-a3220d92ec23). When the Morpho Vault Change Note is published, any section of the Technical Scope it references that the Technical Scope Template marks as security-sensitive and that the change alters must be updated and submitted directly to Core GovOps, as [A.1.10.2.5.2.1.1 - Technical Scope Template Submission Requirements](a6acd80e-289a-4159-ba51-3399c5d90f3d) requires for sections that could compromise the security of the Sky Ecosystem if publicly disclosed. The original Technical Scope post must not be modified. The change must be reported as specified in [A.2.2.10.1.1.1.3.6.2.2 - Morpho Vault Execution Report](9fd23d82-efac-447b-a8bb-59cdcc974aa2). Core GovOps may require that a Technical Scope be submitted in place of a Morpho Vault Change Note.
+
+###### A.1.10.2.5.2.4.2 - Morpho Vault Change Note Template Update Process [Core]  <!-- UUID: c99d8ec4-dda5-4340-9c2e-ad5e358ae00f -->
+
+The Morpho Vault Change Note Template is maintained by Core GovOps. All changes to the template must be submitted as Pull Requests to the Ecosystem Operational References repository (https://github.com/soterlabs/ecosystem-operational-references) and require two (2) approvals, one (1) from each Core Spell Team, before they can be merged.
 
 #### A.1.10.2.6 - Voting Process For Executive Votes [Core]  <!-- UUID: 3aa5bc98-91ce-4588-b345-a96af8ba2366 -->
 
@@ -4728,9 +4739,9 @@ Where the audited code has one or more External Maintaining Teams, the following
 
 ##### A.1.10.2.7.7 - Audit Recordkeeping [Core]  <!-- UUID: 610c8780-178b-4055-9387-373e014c8202 -->
 
-The Forum post for the associated Spell or deployment must include a link to each applicable final audit report, the audited commit hash, and confirmation that the deployed code matches the audited commit, as specified in [A.1.10.2.3.2.1.2.1.2.1 - Requirements For Forum Post](3d031b7c-1b1f-4f84-8668-1cdf43cb2ab2). Where a Technical Scope is submitted for the deployment, the final audit report and audited commit hash must also be included in the Technical Scope as specified in the same requirements.
+The Forum post for the associated Spell or deployment must include a link to each applicable final audit report, hosted on the auditor's website or another independently verifiable source, the audited commit hash, and confirmation that the deployed code matches the audited commit. Where a Technical Scope is published for the Spell or deployment, this record must be in the Forum post that publishes it; for a module subject to [A.1.10.2.3.2.1 - Smart Contract Deployment Verification](55e774c1-dcef-4262-bc47-c32c94c0d557), that is the Forum post specified in [A.1.10.2.3.2.1.2.1.2 - Technical Scope Forum Post](ef6d73e5-cdcb-48dd-873c-264c07af80bf).
 
-Where remediated code was not re-audited and was approved as specified in [A.1.10.2.7.6 - Findings Remediation](80eab9dd-3833-4418-9845-b648e19fb72f), the Forum post must instead confirm that the deployed code matches the approved commit hash and must include a link to the approved Pull Request. Where a Technical Scope is submitted for the deployment, it must also include the approved commit hash and a link to the approved Pull Request.
+Where remediated code was not re-audited and was approved as specified in [A.1.10.2.7.6 - Findings Remediation](80eab9dd-3833-4418-9845-b648e19fb72f), the Forum post must also include the approved commit hash and a link to the approved Pull Request, and must confirm that the deployed code matches the approved commit instead of the audited commit.
 
 ### A.1.10.3 - Governance Security Delay Requirements [Section]  <!-- UUID: c5f0e955-0441-42e0-a6fc-eab875bba568 -->
 
@@ -5422,6 +5433,228 @@ It is severe misalignment for an Aligned Delegate to vote for an Emergency Drop 
 
 Breach of any requirement concerning Emergency Spells - including usage of Protego - constitutes misalignment and must be addressed pursuant to [A.1.9.1.6 - Accountability For Emergency Response Preparedness](8df982ee-754c-4cd9-a5f9-ce1c30e06cf8).
 
+### A.1.10.6 - Governance Poll Process Definition [Section]  <!-- UUID: 1832a6e8-63e6-4b84-a2dd-d3904044ffca -->
+
+This Section defines the Governance Poll Process, which covers how Governance Polls are created, reviewed, published and voted on, and how their outcomes are carried out. The rules of each governance process that uses Governance Polls, including who may submit a proposal and the deadlines that apply, are specified in [A.1.11.1 - Operational Weekly Cycle](999e4aff-e61b-4097-87a8-153afae5098b), [A.1.11.2 - Atlas Edit Weekly Cycle](14e99d92-71fc-44d9-9dbf-933bce2e1b32) and [A.1.12.2 - Atlas Edit Monthly Cycle](d2cbddd2-58ef-4311-a71d-d2c340364cb5).
+
+#### A.1.10.6.1 - Definitions [Core]  <!-- UUID: cfd427fe-29f6-4a75-b8eb-2cce0255f995 -->
+
+The documents herein contain definitions relevant to the Governance Poll Process.
+
+##### A.1.10.6.1.1 - Governance Poll [Core]  <!-- UUID: 416c18a1-f11a-4158-b00f-29f8822ca170 -->
+
+A Governance Poll is a poll used to measure the sentiment of SKY holders on proposals or decisions. Governance Polls are created through an on-chain transaction on Arbitrum One. Votes can be cast on Ethereum Mainnet or, through gasless voting, on Arbitrum One.
+
+Multiple Governance Polls can run concurrently, and voters can take part in any number of them. Concurrent Governance Polls do not necessarily have the same voting period.
+
+##### A.1.10.6.1.2 - Binding And Non-Binding Governance Polls [Core]  <!-- UUID: 2b6151d3-22a1-4209-b5a7-85adb811e2fc -->
+
+A non-binding Governance Poll authorizes an item for inclusion in an Executive Vote, or records the preferences of SKY holders, without itself changing the Sky Protocol or the Atlas.
+
+A binding Governance Poll commits Sky Governance to an action that its governance process allows without an Executive Vote, such as an edit to the Atlas through the Atlas Edit Weekly Cycle or the Atlas Edit Monthly Cycle.
+
+A single Governance Poll can contain a mixture of binding and non-binding items. A Governance Poll does not itself execute an on-chain action. How the outcome of a Governance Poll is carried out is specified in [A.1.10.6.5.5 - Carrying Out Governance Poll Outcomes (Step 5)](9f46e9fc-d906-4083-ad74-6b043925e44f).
+
+##### A.1.10.6.1.3 - Polls Repository [Core]  <!-- UUID: 4fce74d7-1f87-41bf-8fa6-f49864f92e17 -->
+
+The Polls Repository is the GitHub repository in which Governance Polls are drafted, reviewed and stored ([https://github.com/sky-ecosystem/polls](https://github.com/sky-ecosystem/polls)). It contains the Governance Poll templates, the poll files of Governance Polls from May 26, 2025 onwards, the poll tags file and the polls index. Earlier Governance Polls are stored in the governance polls directory of the community repository ([https://github.com/sky-ecosystem/community/tree/master/governance/polls](https://github.com/sky-ecosystem/community/tree/master/governance/polls)).
+
+##### A.1.10.6.1.4 - Voting Methods [Core]  <!-- UUID: 4a709b0d-04c5-4680-a8e8-d01c330ccf6e -->
+
+The documents herein define the voting methods available for Governance Polls. The Polls Repository contains templates for these voting methods.
+
+###### A.1.10.6.1.4.1 - Binary Voting [Core]  <!-- UUID: 10e33d9c-5f4a-422d-bdfc-2a4f33bd4d27 -->
+
+Binary voting lets voters choose Yes, No or Abstain. It is used where a proposal is either accepted or rejected, such as a parameter change or the adoption of a policy.
+
+###### A.1.10.6.1.4.2 - Plurality Voting [Core]  <!-- UUID: 353949b3-4365-4aa7-8095-c0c347bab3d1 -->
+
+Plurality voting lets voters choose one (1) of several options. The option with the most votes, excluding Abstain, wins.
+
+###### A.1.10.6.1.4.3 - Instant-Runoff Voting [Core]  <!-- UUID: ddfd94f8-ee7f-497b-924f-b0ccc52d49ca -->
+
+Instant-runoff voting lets voters rank options in order of preference. If no option receives a majority of first-choice votes, the option with the fewest first-choice votes is eliminated, and those votes count for each voter's next preference. This repeats until one option has a majority of non-Abstain votes.
+
+###### A.1.10.6.1.4.4 - Approval Voting [Core]  <!-- UUID: 30b91e2a-9880-49e4-be7a-bb9d1ba5b9d6 -->
+
+Approval voting lets voters select as many options as they wish. The option with the most approvals wins. A Governance Poll using approval voting may also require the winning option to receive more than half of the votes cast. Approval voting is used where the options are not mutually exclusive.
+
+#### A.1.10.6.2 - Roles In The Governance Poll Process [Core]  <!-- UUID: a715f3ab-f2ec-46b1-a312-6a3987d2cd93 -->
+
+The documents herein define the actors involved in the Governance Poll Process and their responsibilities.
+
+##### A.1.10.6.2.1 - Poll Administrator [Core]  <!-- UUID: ea3b3184-4b2f-405a-9522-13a46fb782ec -->
+
+The Poll Administrator administers the Governance Poll Process. The Poll Administrator role is currently held by the Core Facilitator, and members of the Core Facilitator team may perform its duties. The Poll Administrator must:
+
+- ensure that every Governance Poll required by the Atlas takes place as specified;
+- create, review and publish each Governance Poll as specified in [A.1.10.6.5 - Governance Poll Process Breakdown](a86cd594-a3ec-4eb6-aaee-58bfff907d84); and
+- ensure that the Voting Portal correctly supports the requirements of each Governance Poll.
+
+The Core Facilitator may also create proposals, as specified in [A.1.11.1.5 - Core Facilitator’s Authority To Create Proposals](2ef63f36-5550-420a-96ee-a99c09451afb), and run Bootstrapping Governance Polls, as specified in [A.0.1.2.1.1 - Authorization To Run Bootstrapping Governance Poll](abd2a3e6-897c-4a2a-af5c-b06da3429912).
+
+##### A.1.10.6.2.2 - Poll Creator [Core]  <!-- UUID: 46141a9b-bc82-4793-b01b-7721bf26fc2c -->
+
+The Poll Creator is the person acting for the Poll Administrator who creates a given Governance Poll in the Polls Repository.
+
+##### A.1.10.6.2.3 - Poll Reviewer [Core]  <!-- UUID: fea766f6-7f1e-4b91-8c78-ae8a803c6d59 -->
+
+The Poll Reviewer is the person acting for the Poll Administrator who reviews a given Governance Poll. The Poll Reviewer must not be the Poll Creator of that Governance Poll.
+
+#### A.1.10.6.3 - Principles For Governance Polls [Core]  <!-- UUID: a93837a1-0582-4d54-b510-a1d195265201 -->
+
+The Poll Administrator must uphold the principles specified in the documents herein when creating and publishing Governance Polls. Together, these principles support the legitimacy of each Governance Poll's outcome. Voters may disagree with the outcome of a Governance Poll or with the proposal that led to it, but the Governance Poll Process itself must not give cause for dissatisfaction.
+
+##### A.1.10.6.3.1 - Clarity [Core]  <!-- UUID: d49bb0d8-b043-4a7e-866b-ef32077be9db -->
+
+Every Governance Poll must be free of ambiguity. It must state the outcome of each option, how votes are counted, and how voters cast a vote that reflects their preference.
+
+##### A.1.10.6.3.2 - Transparency [Core]  <!-- UUID: 467ec6d6-7b75-46ad-8c74-051c6476579e -->
+
+Every Governance Poll must make its origin clear. It must state the process that led to the Governance Poll, the entity that published it and, where the governance process requires a trigger, the entity that triggered it. These identities may be pseudonymous.
+
+##### A.1.10.6.3.3 - Impartiality [Core]  <!-- UUID: 4c385bf6-29cd-4295-9340-bd8ff8776c43 -->
+
+Every Governance Poll must be run impartially and without bias towards any outcome. Any deviation from the Governance Poll Process erodes trust in it, and an intentional deviation erodes it further. If that trust is eroded too far, all decisions made under the Poll Administrator's purview become suspect.
+
+##### A.1.10.6.3.4 - Informed Decision-Making [Core]  <!-- UUID: ecf12bc7-fd52-4659-a8b4-ec48f4bffc11 -->
+
+Every Governance Poll must give voters enough information to cast an informed vote and to understand the impact of a successful proposal. In addition to the links specified in [A.1.10.6.4.4 - Review Section](9bba0011-67eb-479d-b625-ab7f8930173a) and [A.1.10.6.4.6 - Resources Section](6df740c5-7eac-4d7f-b348-f7be442c2fb4), this may include:
+
+- a summary of the proposal prepared by an unbiased and knowledgeable third party;
+- links to any analysis of the proposal published by entities funded by Sky; and
+- links to maintained resources that set out the parameters the proposal would change.
+
+The information must also be accessible to outside observers, since users of the protocol can be affected by the outcome of a Governance Poll without having the context of voters and delegates.
+
+#### A.1.10.6.4 - Structure Of A Governance Poll [Core]  <!-- UUID: 69af8737-9c12-4b4b-b1c4-1d7eb0dd605a -->
+
+Every Governance Poll template in the Polls Repository follows the structure specified in the documents herein.
+
+##### A.1.10.6.4.1 - Poll Metadata Block [Core]  <!-- UUID: 714dd0ec-269d-4bf4-aebc-38f1e8b38ab7 -->
+
+The Poll Metadata Block contains the details the Voting Portal uses to configure the Governance Poll: the title, summary, discussion link, input format, victory conditions, result display, version, voting options, and start and end dates. The victory conditions can include a default option, which wins if no other victory condition is met. The voting options are numbered sequentially and kept short, and the start and end dates are the period in which the Governance Poll is live on the Voting Portal.
+
+##### A.1.10.6.4.2 - Title [Core]  <!-- UUID: 1c5d1d1b-37eb-4340-a979-fe1ad22d595e -->
+
+The title states the proposed action concisely and includes the start date of the Governance Poll. It must not contain characters the Voting Portal does not accept.
+
+##### A.1.10.6.4.3 - Preamble [Core]  <!-- UUID: 236513b4-2a86-4a55-904f-23bc9e9c4644 -->
+
+The preamble states which actor placed the Governance Poll on the Voting Portal and, where applicable, on whose behalf. It specifies the start date, the duration, the voting method and the instructions for voters.
+
+##### A.1.10.6.4.4 - Review Section [Core]  <!-- UUID: 9bba0011-67eb-479d-b625-ab7f8930173a -->
+
+The review section sets out the proposal, including a summary of the proposal and any parameters or changes it proposes. It links to the materials voters need to understand its implications, such as the Forum discussion, the Pull Request containing the proposed change, the relevant Atlas documents, risk assessments, technical specifications and, for parameter changes, the affected contracts.
+
+##### A.1.10.6.4.5 - Outcomes Section [Core]  <!-- UUID: 614f2db9-38d7-416b-a469-032761b51fa7 -->
+
+The outcomes section specifies the action taken for each possible result of the Governance Poll. Defined terms used in the outcomes section must link to the relevant Atlas document.
+
+##### A.1.10.6.4.6 - Resources Section [Core]  <!-- UUID: 6df740c5-7eac-4d7f-b348-f7be442c2fb4 -->
+
+The resources section links to information that helps voters take part, such as the voting guide, governance documentation and the governance calendar.
+
+#### A.1.10.6.5 - Governance Poll Process Breakdown [Core]  <!-- UUID: a86cd594-a3ec-4eb6-aaee-58bfff907d84 -->
+
+The Governance Poll Process consists of the five (5) steps specified in the documents herein.
+
+##### A.1.10.6.5.1 - Submission Of Proposal (Step 1) [Core]  <!-- UUID: 5dc6eea5-e68e-4cef-b444-a706be2bf4ea -->
+
+A proposal enters the Governance Poll Process when it is published on the Sky Forum. A Bootstrapping Governance Poll is the exception: the Core Facilitator may run it on their own initiative, as specified in [A.0.1.2.1.1 - Authorization To Run Bootstrapping Governance Poll](abd2a3e6-897c-4a2a-af5c-b06da3429912).
+
+The Poll Administrator must confirm that a proposal meets the requirements of its governance process, as specified in [A.1.11.1 - Operational Weekly Cycle](999e4aff-e61b-4097-87a8-153afae5098b), [A.1.11.2 - Atlas Edit Weekly Cycle](14e99d92-71fc-44d9-9dbf-933bce2e1b32) and [A.1.12.2 - Atlas Edit Monthly Cycle](d2cbddd2-58ef-4311-a71d-d2c340364cb5), before creating the Governance Poll. The Core Facilitator may reject an Atlas Edit Weekly Cycle Proposal for misalignment, as specified in [A.1.11.2.3 - Rejecting A Proposal For Misalignment](94856ced-5c37-42e0-a756-0fa2ccd73180), and block an Atlas Edit Monthly Cycle Proposal for misalignment, as specified in [A.1.12.2.1.7.1 - Procedure For Blocking AEP For Misalignment](51dc4c3b-94cf-4fbc-bff2-648250a1f1ce).
+
+##### A.1.10.6.5.2 - Creation And Review Of Governance Poll (Step 2) [Core]  <!-- UUID: 03b01f17-f334-444b-9037-8649d746a17e -->
+
+The Poll Creator creates each Governance Poll in time for it to be published on the date its governance process requires, and the Poll Reviewer reviews it, as specified in the documents herein.
+
+###### A.1.10.6.5.2.1 - Identify Items To Include [Core]  <!-- UUID: 09bf8622-e8df-425a-a99b-8406d22ed7f1 -->
+
+The Poll Creator must read the proposal in full and identify the items to include in the Governance Poll.
+
+###### A.1.10.6.5.2.2 - Choose Voting Method And Template [Core]  <!-- UUID: 1927e8cf-22b5-4796-a8d9-6a11748326ea -->
+
+The Poll Creator must choose, from the voting methods specified in [A.1.10.6.1.4 - Voting Methods](4a709b0d-04c5-4680-a8e8-d01c330ccf6e), the one that best measures sentiment for the decision, and select the matching template in the Polls Repository.
+
+###### A.1.10.6.5.2.3 - Create Poll File [Core]  <!-- UUID: 05743ab4-c279-41d2-833f-cc20a9a441cb -->
+
+The Poll Creator must create a working branch from the latest main branch of the Polls Repository and copy the template into it. The poll file is saved in the directory of the year in which the Governance Poll starts, with a filename of the form `<YYYY-MM-DD>-<description>.md`. The date is the start date of the Governance Poll and the description is a short, hyphenated summary of its content. The filename must not contain characters the Voting Portal does not accept.
+
+###### A.1.10.6.5.2.4 - Complete Poll File [Core]  <!-- UUID: 11edd603-6109-4473-b4c3-512da887df1c -->
+
+The Poll Creator must complete the poll file so that it follows [A.1.10.6.4 - Structure Of A Governance Poll](69af8737-9c12-4b4b-b1c4-1d7eb0dd605a) and reflects the proposal. Every placeholder in the template must be replaced with an accurate value. The Poll Creator must confirm that the data and parameters will be accurate for the whole time the Governance Poll is live, since the poll file cannot be changed once the Governance Poll is published.
+
+###### A.1.10.6.5.2.5 - Inform Affected Parties [Core]  <!-- UUID: 0258dd91-07ec-4855-94ad-e62324fcefe6 -->
+
+The Poll Creator must ensure that the parties affected by the outcomes of the Governance Poll are aware of the outcome text.
+
+###### A.1.10.6.5.2.6 - Self-Review And Request For Review [Core]  <!-- UUID: addaf11f-2a1a-498c-8486-35ee2330d3a5 -->
+
+The Poll Creator must submit the poll file as a Pull Request and self-review it. The self-review confirms that the voting method and default option in the Poll Metadata Block are correct and that the preamble states the same voting method. It also confirms that every link is relevant and working. The Poll Creator then requests a review from the Poll Reviewer.
+
+###### A.1.10.6.5.2.7 - Review Of Governance Poll [Core]  <!-- UUID: e8579703-60f0-4750-b252-873665999110 -->
+
+The Poll Reviewer must confirm that the Governance Poll is expected in the current cycle, that the question it asks of Sky Governance is clear, and that the steps specified in A.1.10.6.5.2.1 to A.1.10.6.5.2.6 were followed. The Poll Reviewer raises any issues with the Poll Creator on the Pull Request and approves the Pull Request once they are resolved.
+
+##### A.1.10.6.5.3 - Publication Of Governance Poll (Step 3) [Core]  <!-- UUID: 737a6dd7-a064-47b3-a727-12ba5481bf2c -->
+
+Once the Pull Request is approved, the Poll Administrator publishes the Governance Poll as specified in the documents herein.
+
+###### A.1.10.6.5.3.1 - Merge Pull Request [Core]  <!-- UUID: 76ed67d8-bdb2-4d49-b554-fee4839dc4dd -->
+
+The Poll Administrator must merge the approved Pull Request into the main branch of the Polls Repository.
+
+###### A.1.10.6.5.3.2 - Submit Governance Poll On Voting Portal [Core]  <!-- UUID: 1105fdda-b7c3-4d6f-b453-021502897a81 -->
+
+The Poll Administrator must submit the Governance Poll on the Voting Portal from the raw URL of the poll file on the main branch of the Polls Repository. It must be submitted from an address the Voting Portal recognizes as authorized to create Governance Polls. Governance Polls created by other addresses do not appear on the Voting Portal.
+
+Before submitting, the Poll Administrator must confirm that every field the Voting Portal populates from the poll file is correct and that the victory conditions match the outcomes section. The polling contract assigns an identifier to the Governance Poll when it is created, and the Poll Administrator records it.
+
+###### A.1.10.6.5.3.3 - Tag Governance Polls And Update Index [Core]  <!-- UUID: 0b63ea51-36bc-4f21-b0db-8ef5b43e7856 -->
+
+Once all Governance Polls of the cycle are submitted, the Poll Administrator must add their tags to the poll tags file in the Polls Repository through a Pull Request and merge it. The Poll Administrator must also merge the automatically generated Pull Request that updates the polls index.
+
+###### A.1.10.6.5.3.4 - Confirm Governance Poll Is Live [Core]  <!-- UUID: 233b6920-7498-4183-9a0a-7b0f4c2e21b4 -->
+
+The Poll Administrator must confirm that every expected Governance Poll is live on the Voting Portal. The Poll Administrator must then announce the live Governance Polls in the official Sky Builder Discord server channel #governance.
+
+##### A.1.10.6.5.4 - Voting On Governance Poll (Step 4) [Core]  <!-- UUID: 37cbf08e-bb3a-4302-8b62-4c875e5fbae8 -->
+
+Once a Governance Poll is live on the Voting Portal, SKY holders may vote on it as specified in [A.1.10.2.2.4 - SKY Holders](3e1d0486-4805-4bed-a246-f75198e111e6).
+
+###### A.1.10.6.5.4.1 - Voting Period [Core]  <!-- UUID: f53911a4-c11a-4cff-959d-e2337bcd867c -->
+
+Governance Polls of the Operational Weekly Cycle and the Atlas Edit Weekly Cycle run for three (3) days, as specified in [A.1.11.1.3 - Full Cycle Breakdown](22508894-e015-4f7c-9ee8-24ac13756d31) and [A.1.11.2.2 - Preparation And Publication Of Governance Poll](f7e857e0-9de6-47ee-8817-966cb46ac9d6). They start on Monday at 16:00 UTC and end on Thursday at 16:00 UTC. Ratification Polls of the Atlas Edit Monthly Cycle run as specified in [A.1.12.2.6 - Ratification Poll Requirements](13e6da57-ee8e-4593-90f2-698642b1c82f). Reconciliation Process Polls run as specified in [A.1.11.2.5.2 - Simultaneous Edit Reconciliation Process Definition](edb3b979-b7b6-4728-9c26-cf768d8827ea) and [A.1.12.2.7.2 - Simultaneous Edit Reconciliation Process](3a7e2781-c6c4-4b0d-86c4-1c94abf010fc).
+
+###### A.1.10.6.5.4.2 - Valid Votes [Core]  <!-- UUID: c968c501-b955-4cdb-b06a-fa4c97a3a44f -->
+
+A vote on a Governance Poll is valid only if:
+
+1. the vote is recorded by a polling contract used by the Voting Portal;
+2. the vote is cast between the start and end time of the Governance Poll; and
+3. no later vote by the same voter on that Governance Poll meets the first two (2) conditions.
+
+###### A.1.10.6.5.4.3 - Minimum Positive Participation [Core]  <!-- UUID: e7bc5a58-beba-4d63-8eca-266585d69c4b -->
+
+The Minimum Positive Participation required for the Atlas Edit Weekly Cycle and the Atlas Edit Monthly Cycle is specified in [A.1.11.2.4 - Minimum Positive Participation](863b3e56-76c5-4448-b2b0-3b5e2d26a3fa) and [A.1.12.2.6 - Ratification Poll Requirements](13e6da57-ee8e-4593-90f2-698642b1c82f).
+
+##### A.1.10.6.5.5 - Carrying Out Governance Poll Outcomes (Step 5) [Core]  <!-- UUID: 9f46e9fc-d906-4083-ad74-6b043925e44f -->
+
+What follows an approved Governance Poll depends on the nature of the approved item, as specified in the documents herein.
+
+###### A.1.10.6.5.5.1 - Inclusion In An Executive Vote [Core]  <!-- UUID: ae250978-4ce0-4495-9132-0ed23c1964c4 -->
+
+Approved items that require an on-chain change through an Executive Vote, such as parameter changes or contract deployments, are included in an Executive Vote, as specified in [A.1.10.2.4.1.2.2 - Items From Approved Governance Polls Or Authorized Ecosystem Actor Requests](465c6f95-8ac0-4405-9443-bcf1e233aa82).
+
+###### A.1.10.6.5.5.2 - Edits To The Atlas [Core]  <!-- UUID: 869f3f98-eff8-4bef-b166-cd6aa3533fc6 -->
+
+Approved items that change the Atlas through the Atlas Edit Weekly Cycle, the Atlas Edit Monthly Cycle or a Bootstrapping Governance Poll are implemented by merging the approved edit into the Atlas. An Atlas edit through the Operational Weekly Cycle also requires an Executive Vote unless the pertinent Atlas document states an exception, as specified in [A.1.11.1.1 - Edits To The Atlas](6a1ef4ee-7f34-47ae-8018-dd4b059d495d). Where multiple approved proposals edit the same component of the Atlas, the Reconciliation Process specified in [A.1.11.2.5 - Reconciliation Process](9f8be4ba-170e-44c3-887e-c577c7b9394f) or [A.1.12.2.7 - Reconciliation Process](8fb17cf7-71bd-4248-9294-60c06ac5321f) applies.
+
+###### A.1.10.6.5.5.3 - Other Actions Specified In The Atlas [Core]  <!-- UUID: 6826881b-b85a-43bc-a9fd-3a576261e2b2 -->
+
+Approved items that the Atlas specifies as requiring only a Governance Poll, such as the change specified in [A.1.10.4.1.1.4 - SparkLend Multisig Signer Modifications](d8e0d76b-dd1f-4f3e-9a8b-7724ce4fc880), are carried out by the actor the Atlas names for that action.
+
 ## A.1.11 - Weekly Governance Cycle [Article]  <!-- UUID: 83edd4e1-692e-4566-a415-b8f272c33c5e -->
 
 This Article regulates the Weekly Governance Cycle which comprises two distinct subsets, the Operational Weekly Cycle and the Atlas Edit Weekly Cycle.
@@ -5444,9 +5677,7 @@ The subdocuments herein contain essential definitions pertinent to the Operation
 
 ##### A.1.11.1.2.1 - Definition Of Weekly Poll [Core]  <!-- UUID: cae731e3-0828-42ce-ae53-259c5c54cb79 -->
 
-A Weekly Poll ("Governance Poll" or "Poll") is a non-binding poll that determines the bi-weekly Executive Vote contents. In this context, a non-binding weekly poll refers to the fact that a weekly poll cannot change the system parameters independently; it merely dictates what will be included in the next Executive Vote.
-
-Governance Polls occur on-chain and are used to measure the sentiment of SKY voters. Polls often run concurrently, allowing voters to participate in any number of them at the same time. Polls may have different formats like Binary Voting, Instant Run-Off Voting, or Approval Voting depending on the topic. The voting period of a given Governance Poll varies; the most common are three (3) and fourteen (14) day periods. Concurrently-posted polls do not necessarily have the same voting periods.
+A Weekly Poll is a Governance Poll, as specified in [A.1.10.6.1.1 - Governance Poll](416c18a1-f11a-4158-b00f-29f8822ca170), used in the Operational Weekly Cycle. Its outcome determines which items are included in Executive Votes, as specified in [A.1.10.6.5.5.1 - Inclusion In An Executive Vote](ae250978-4ce0-4495-9132-0ed23c1964c4).
 
 ##### A.1.11.1.2.2 - Definition Of Executive Vote [Core]  <!-- UUID: 8bde129a-49a5-4f68-a82f-9995b86a1aa3 -->
 
@@ -5464,19 +5695,19 @@ The term ‘Spell process’ refers to the end-to-end process of developing a Sp
 
 #### A.1.11.1.3 - Full Cycle Breakdown [Core]  <!-- UUID: 22508894-e015-4f7c-9ee8-24ac13756d31 -->
 
-Every Monday, the Operational Weekly Cycle begins. It implements standard recurring operational decisions, proposed in the form of polls.
+Every Monday, the Operational Weekly Cycle begins. It implements standard recurring operational decisions, proposed in the form of Governance Polls.
 
-Operational Weekly Cycle proposals ("proposals") can be proposed by Facilitators and recognized Ecosystem Actors. The proposals should be posted to the Sky Forum by Friday at 8:00 am UTC to ensure the Core Facilitator has sufficient time to prepare the needed polls for the following Monday.
+Operational Weekly Cycle proposals ("proposals") can be proposed by Facilitators and recognized Ecosystem Actors. The proposals should be posted to the Sky Forum by Friday at 8:00 am UTC to ensure the Poll Administrator has sufficient time to prepare the needed Governance Polls for the following Monday.
 
-After confirming that the proposer has the authority to request a poll, the Facilitator must post an explicit approval of the poll request as a reply to the proposer’s Forum thread. The Core Facilitator must then prepare and publish the Governance Poll.
+The Poll Administrator must prepare and publish the Governance Poll, as specified in [A.1.10.6 - Governance Poll Process Definition](1832a6e8-63e6-4b84-a2dd-d3904044ffca).
 
-The Operational Weekly Cycle polls run for three days.
+Operational Weekly Cycle Governance Polls run for three (3) days.
 
-The outcome of the polls determines the contents of the upcoming Executive Vote.
+The outcome of the Governance Polls determines the contents of the upcoming Executive Vote.
 
-The Core Facilitator confirm the Executive Vote contents and deliver the Executive Sheet to the Spell team. The Spell team prepares and reviews the Mainnet Spell. The Spell team deploys the Mainnet Spell; and then creates and reviews a Mainnet fork.
+The Core Facilitator confirms the Executive Vote contents and delivers the Executive Sheet to the Spell team. The Spell team prepares and reviews the Mainnet Spell. The Spell team deploys the Mainnet Spell; and then creates and reviews a Mainnet fork.
 
-The Core Facilitator add the Executive Vote to the Voting Portal and communicate this to the Sky Ecosystem community. The Executive Vote has an expiration of thirty (30) days; if an Executive proposal does not pass within this timeframe, it expires and can no longer have any effect on the Sky Protocol.
+The Core Facilitator adds the Executive Vote to the Voting Portal and communicates this to the Sky Ecosystem community. The Executive Vote has an expiration of thirty (30) days; if an Executive proposal does not pass within this timeframe, it expires and can no longer have any effect on the Sky Protocol.
 
 ##### A.1.11.1.3.0.3.1 - Executive Sheet - Element Annotation [Annotation]  <!-- UUID: 52aef6ac-9eda-4795-9dab-73ea85b8ca31 -->
 
@@ -5618,13 +5849,13 @@ Aligned
 
 Paying out the AD Buffer would have led to Entity's AD Buffer dropping below the required Triggering Threshold while the Proposal was still unresolved. In this Scenario, the triggering AD cannot receive payout from the AD Buffer until the triggered Proposal is voted on and approved by Sky Governance. Assuming that the Proposal is approved, the Core Facilitator is authorized to disburse the entire contents of the AD Buffer to the triggering AD in the next AD compensation cycle. However, if the Proposal is rejected by the Core Facilitator for misalignment or voted down by Sky Governance, the triggering AD loses an amount of USDS from their AD Buffer equal to the Triggering Threshold.
 
-#### A.1.11.2.2 - Preparation And Publication of Governance Poll [Core]  <!-- UUID: f7e857e0-9de6-47ee-8817-966cb46ac9d6 -->
+#### A.1.11.2.2 - Preparation And Publication Of Governance Poll [Core]  <!-- UUID: f7e857e0-9de6-47ee-8817-966cb46ac9d6 -->
 
-An Atlas Edit Weekly Cycle Proposal should be posted to the Forum by Friday at 8:00 am UTC to ensure the Core Facilitator has sufficient time to prepare the needed polls for the following Monday.
+An Atlas Edit Weekly Cycle Proposal should be posted to the Forum by Friday at 8:00 am UTC to ensure the Poll Administrator has sufficient time to prepare the needed Governance Polls for the following Monday.
 
-Every Monday, the Atlas Edit Weekly Cycle is carried out via Governance Polls. The Core Facilitator must publish the set of Governance Polls to the community Github and the official Voting Portal.
+Every Monday, the Atlas Edit Weekly Cycle is carried out via Governance Polls. The Poll Administrator must publish the set of Governance Polls to the Polls Repository and the Voting Portal, as specified in [A.1.10.6 - Governance Poll Process Definition](1832a6e8-63e6-4b84-a2dd-d3904044ffca).
 
-The Polls run for three days. Successful polls trigger direct edits to the Atlas.
+The Governance Polls run for three (3) days. Successful Governance Polls trigger direct edits to the Atlas.
 
 #### A.1.11.2.3 - Rejecting A Proposal For Misalignment [Core]  <!-- UUID: 94856ced-5c37-42e0-a756-0fa2ccd73180 -->
 
@@ -5652,7 +5883,7 @@ Where simultaneous edits are non-conflicting / logically compatible: the Core Fa
 
 Where simultaneous edits are conflicting / logically incompatible and cannot be coherently reconciled: it falls to voters to decide which of the conflicting Atlas Edit Weekly Cycle Proposals they wish to accept. If there are two conflicting Atlas Edit Weekly Proposals, a subsequent binary vote actioned via a single Reconciliation Process Poll is appropriate.
 
-In the event there are more than two conflicting Atlas Edit Weekly Cycle Proposals, the Core Facilitator may choose a suitable polling method that allows voters to choose between multiple options. The difference between the conflicting amendments must be clearly presented so that voters can make an informed choice on their preferred option.
+In the event there are more than two conflicting Atlas Edit Weekly Cycle Proposals, the Poll Administrator may choose a suitable polling method that allows voters to choose between multiple options. The difference between the conflicting amendments must be clearly presented so that voters can make an informed choice on their preferred option.
 
 A Reconciliation Process Poll will take place during the Operational Weekly Cycle immediately following the closure of the originating polls. The Reconciliation Process Poll will last for three days.
 
@@ -5837,12 +6068,12 @@ Time is inclusive and based on UTC (Coordinated Universal Time) and the Gregoria
 After reviewing the AEPs, the Core Facilitator must decide whether each submitted AEP warrants moving forward to a Ratification Poll.
 
 **Week 2, Monday**
-The Core Facilitator publish the set of Ratification Polls. The format of these is defined in [A.1.12.2.6 - Ratification Poll Requirements](13e6da57-ee8e-4593-90f2-698642b1c82f).
+The Poll Administrator publishes the set of Ratification Polls. The format of these is defined in [A.1.12.2.6 - Ratification Poll Requirements](13e6da57-ee8e-4593-90f2-698642b1c82f).
 
-Ratification Polls are published to the community GitHub, submitted on-chain, and appear on the official Voting Portal.
+Ratification Polls are published to the Polls Repository, as specified in [A.1.10.6.1.3 - Polls Repository](4fce74d7-1f87-41bf-8fa6-f49864f92e17), submitted on-chain, and appear on the Voting Portal.
 
 **Week 4, Monday**
-The Ratification Polls conclude, and each proposal or set of proposals is marked as either Accepted or Rejected by the Core Facilitator.
+The Ratification Polls conclude, and each proposal or set of proposals is marked as either Accepted or Rejected by the Poll Administrator.
 
 #### A.1.12.2.6 - Ratification Poll Requirements [Core]  <!-- UUID: 13e6da57-ee8e-4593-90f2-698642b1c82f -->
 
@@ -5889,7 +6120,7 @@ Where simultaneous edits are non-conflicting / logically compatible: the Core Fa
 
 Where simultaneous edits are conflicting / logically incompatible and cannot be coherently reconciled: it falls to voters to decide which of the conflicting AEPs they wish to accept. If there are two conflicting AEPs, a subsequent binary vote is appropriate in the form of a Reconciliation Process Poll.
 
-In the event there are more than two conflicting AEPs, the Core Facilitator may choose a suitable polling method that allows voters to choose between multiple options. The difference between the conflicting amendments must be clearly presented so that voters can make an informed choice on their preferred option.
+In the event there are more than two conflicting AEPs, the Poll Administrator may choose a suitable polling method that allows voters to choose between multiple options. The difference between the conflicting amendments must be clearly presented so that voters can make an informed choice on their preferred option.
 
 A Reconciliation Process poll will take place during the Operational Weekly Cycle immediately following the closure of the ratification polls. The Reconciliation Process poll will last for three days.
 
