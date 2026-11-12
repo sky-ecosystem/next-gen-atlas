@@ -494,11 +494,7 @@ The documents herein define the process for using the Root Edit Primitive to upd
 
 ###### A.6.1.1.6.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission [Core]  <!-- UUID: a6261165-8c88-432f-a3c1-79465599d706 -->
 
-The Root Edit process begins with a PATTERN token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A PATTERN token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Pattern Prime" category.
-
-###### A.6.1.1.6.2.2.2.2.1.2.1.1.1 - Short-Term Transitionary Measures [Core]  <!-- UUID: 351f7eac-691a-4bcb-868e-5ca56787d53a -->
-
-Until the Powerhouse system supports submitting Artifact Edit Proposals, PATTERN token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Pattern Prime" category. The title of the post must include the text "Pattern Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total PATTERN token supply specified in [A.6.1.1.6.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](a6261165-8c88-432f-a3c1-79465599d706).
+The Root Edit process begins with a PATTERN token holder submitting a proposal containing a draft Artifact Edit Proposal. A PATTERN token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must be posted on the Sky Forum under the "Pattern Prime" category. The title of the post must include the text "Pattern Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding at least 1% of the circulating token supply.
 
 ###### A.6.1.1.6.2.2.2.2.1.2.1.2 - Root Edit Expert Advisor Review [Core]  <!-- UUID: 17be5231-4b3e-44ab-92ea-c7e259e633e1 -->
 
@@ -518,11 +514,7 @@ Where their review of the proposal results in a finding of alignment with the Sk
 
 ###### A.6.1.1.6.2.2.2.2.1.2.1.5 - Root Edit Artifact Update [Core]  <!-- UUID: d2543813-8897-48a1-968d-1cfd3a2d3068 -->
 
-At the conclusion of the poll, if the proposal is approved, the Operational Facilitator submits the edit to Powerhouse to formally update the Agent Artifact. Regardless of the outcome, the Operational Facilitator updates the Powerhouse System to include the result of the vote, including any pertinent documents.
-
-###### A.6.1.1.6.2.2.2.2.1.2.1.5.1 - Short-Term Transitionary Measures [Core]  <!-- UUID: 058a9110-5c05-4b0d-9602-1d0429ab6fbb -->
-
-Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect proposals approved by Prime Governance.
+At the conclusion of the poll, if the proposal is approved, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect the approved proposal. Regardless of the outcome, the Operational Facilitator records the result of the vote, including any pertinent documents, in the Sky Forum post for the proposal.
 
 ###### A.6.1.1.6.2.2.2.2.1.2.1.6 - Artifact Edit Restrictions [Core]  <!-- UUID: 4137d6f6-d330-4953-99e7-b17f2fb8ac55 -->
 
