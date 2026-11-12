@@ -12589,7 +12589,7 @@ The Rewards Rate for Spark Savings USDC on Ethereum will be maintained to be equ
 
 ###### A.6.1.1.1.3.5.3.2.3.2 - Spark Savings USDT on Ethereum [Core]  <!-- UUID: 087dc001-1a44-4096-acd1-feeb109f7ec0 -->
 
-The Rewards Rate for Spark Savings USDT on Ethereum is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.2 - Spark Savings USDT on Ethereum](39a398d7-600e-472a-ac85-c789866fddfc). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
+The Rewards Rate for Spark Savings USDT on Ethereum is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Rewards Rate Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.2 - Onchain Parameters](39a398d7-600e-472a-ac85-c789866fddfc). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Rewards Rate Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
 
 ###### A.6.1.1.1.3.5.3.2.3.3 - Spark Savings ETH on Ethereum [Core]  <!-- UUID: a2a900aa-a3d6-42d6-b491-cd1fb9701fce -->
 
@@ -12607,19 +12607,19 @@ The Rewards Rate for Spark Savings PYUSD on Ethereum will be maintained to be eq
 
 ###### A.6.1.1.1.3.5.3.2.3.6 - Spark Savings USDG on Robinhood Chain [Core]  <!-- UUID: ad064b08-8866-4c14-ad34-1275101032a5 -->
 
-The Rewards Rate for Spark Savings USDG on Robinhood Chain is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.6 - Spark Savings USDG on Robinhood Chain](398944f7-59c3-495c-900b-939358b76e68). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
+The Rewards Rate for Spark Savings USDG on Robinhood Chain is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Rewards Rate Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.6 - Onchain Parameters](398944f7-59c3-495c-900b-939358b76e68). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Rewards Rate Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
 
 ###### A.6.1.1.1.3.5.3.2.3.7 - Spark Savings USDT on Arbitrum [Core]  <!-- UUID: 2df1f51c-308f-4b29-90a7-7c01c35e891c -->
 
-The Rewards Rate for Spark Savings USDT on Arbitrum is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.7 - Spark Savings USDT on Arbitrum](5a2b0ec2-5358-4464-b6cb-0d39642a437d). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
+The Rewards Rate for Spark Savings USDT on Arbitrum is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Rewards Rate Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.7 - Onchain Parameters](5a2b0ec2-5358-4464-b6cb-0d39642a437d). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Rewards Rate Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
 
 ###### A.6.1.1.1.3.5.3.2.3.8 - Spark Savings USDT on X Layer [Core]  <!-- UUID: 40f91471-6b4c-4058-8917-d3b6d2a87f38 -->
 
-The Rewards Rate for Spark Savings USDT on X Layer is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.8 - Spark Savings USDT on X Layer](c6eb9203-a5af-4f9b-baaf-b70c4449d4a4). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
+The Rewards Rate for Spark Savings USDT on X Layer is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Rewards Rate Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.8 - Onchain Parameters](c6eb9203-a5af-4f9b-baaf-b70c4449d4a4). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Rewards Rate Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
 
 ###### A.6.1.1.1.3.5.3.2.3.9 - Spark Savings USDC on X Layer [Core]  <!-- UUID: fac0c3d0-03d4-4d0b-b1ef-50c14e126924 -->
 
-The Rewards Rate for Spark Savings USDC on X Layer is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.9 - Spark Savings USDC on X Layer](c5a6c702-dcbc-4c31-8c61-9ca1b9fdca20). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
+The Rewards Rate for Spark Savings USDC on X Layer is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Rewards Rate Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.9 - Onchain Parameters](c5a6c702-dcbc-4c31-8c61-9ca1b9fdca20). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Rewards Rate Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
 
 ### A.6.1.1.1.3.6 - Strategic Investments [Core]  <!-- UUID: a05cc5db-64e5-4279-84ed-e93d4aa67c38 -->
 
