@@ -8349,7 +8349,7 @@ The Sentinel roles are intended to be held at the following addresses:
 | Entity | Address |
 | --- | --- |
 | Operational GovOps Soter Labs | `0xf5748bBeFa17505b2F7222B23ae11584932C908B` |
-| Spark | `TBD` |
+| Spark | `0x50c770E6dC6CfdEE33509273FA9a215bfAffF9B2` |
 
 ###### A.6.1.1.1.2.6.1.3.6.2.1.4.1.3 - Owner Role Address [Core]  <!-- UUID: daabe2b0-d0e1-47a9-ba61-60bb236090b9 -->
 
