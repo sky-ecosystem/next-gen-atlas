@@ -100,7 +100,7 @@ Core GovOps validates the Founder’s inputs into the Agent Creation Primitive a
 
 ##### A.2.2.1.1.5 - Core GovOps Creates Genesis And SubProxy Accounts [Core]  <!-- UUID: 16d9dede-7fbf-4215-8e60-c06a8e6c3218 -->
 
-After validating the Scaffold Artifact and Agent Creation Primitive inputs, Core GovOps creates a Genesis Account and SubProxy Account for the Agent. This data is automatically added to the Agent Creation Primitive.
+After validating the Scaffold Artifact and Agent Creation Primitive inputs, Core GovOps creates a Genesis Account and SubProxy Account for the Agent. Core GovOps adds this data to the Agent Creation Primitive.
 
 ##### A.2.2.1.1.6 - Founder Invokes Prime / Executor Transformation Primitive [Core]  <!-- UUID: 2592b3d0-531e-42a3-a098-cf4b82bdd567 -->
 
@@ -250,10 +250,6 @@ The documents herein define the Statuses assigned to an Invocation that is in pr
 
 To Invoke a Primitive, an Agent must supply all required inputs as defined in the Sky Core Atlas. Every Primitive instance abides by a standardized data model specified at the Sky Core level, ensuring that all Prime Agents, Executor Agents and other actors are able to submit and track the necessary data reliably.
 
-###### A.2.2.1.4.2.1 - Required Inputs Submitted To Powerhouse [Core]  <!-- UUID: 3a8fe63b-a95d-4c6d-b8ae-48f4fe62e4c3 -->
-
-The actual submission and handling of these data inputs occurs exclusively through the Powerhouse interface, which serves as the Sky ecosystem’s shared data infrastructure. Powerhouse thus becomes the canonical gateway for exchanging information with the Primitive, enforcing consistency in both the format of the data and the steps taken to Invoke (and later update) the Primitive.
-
 ##### A.2.2.1.4.3 - Validation of Primitive Inputs [Core]  <!-- UUID: c1e8985f-a21d-4264-b0e3-7cebee40e062 -->
 
 Once the Agent has provided all required inputs to the relevant Primitive(s), the proposed Artifact Update undergoes review / validation by designated actors such as Operational Executor Facilitators. The identity and responsibilities of these actors are detailed in subsequent documents of this Article.
@@ -345,7 +341,7 @@ This field describes the step-by-step operational procedure that occurs once a P
 
 #### A.2.2.2.3 - Required Primitive Inputs [Core]  <!-- UUID: 1474b30b-7e2b-4c9a-8624-3c2c5f53abc8 -->
 
-This field specifies the Agent Artifact Documents and their associated fields that must be manipulated using the Powerhouse interface as part of a Process. If any of the required Inputs is missing or incorrect, the Process cannot be completed.
+This field specifies the Agent Artifact Documents and their associated fields that must be manipulated as part of a Process. If any of the required Inputs is missing or incorrect, the Process cannot be completed.
 
 ##### A.2.2.2.3.1 - Sequential Stages [Core]  <!-- UUID: e9422783-6196-4117-9099-b5ec0c338c05 -->
 
@@ -418,7 +414,7 @@ The address deploying the start-up capital is assigned `Founder Access` to the S
 
 ### A.2.2.4 - Primitive Reward Infrastructure [Section]  <!-- UUID: ef3539fe-6d92-491c-a6a5-301a7875888d -->
 
-The documents herein define the Integrator Program, the rules governing reward payments to Integrators across Sky Primitives, and the Demand Side Buffer that disburses such payments.
+The documents herein define the Integrator Program, the rules governing reward payments to Integrators across Sky Primitives, and the Demand Side Buffer that disburses such payments and, to the extent paid from the Demand Side Buffer, Pioneer Rewards (see [A.2.3.1.2.1.3.5 - Pioneer Rewards](33c56bad-c422-48f4-bcca-dc8794c6a0da)).
 
 #### A.2.2.4.1 - Integrator Program [Core]  <!-- UUID: 37c38f07-b5a0-40df-939c-a54330ea3c7b -->
 
@@ -489,7 +485,7 @@ All Sky Primitive reward payments associated with an Integrator, including those
 
 #### A.2.2.4.3 - Demand Side Buffer [Core]  <!-- UUID: 862b6d83-f464-4125-8259-233b7de75ec4 -->
 
-The Demand Side Buffer is the account used for disbursement of Distribution Reward and Integration Boost payments. The Demand Side Buffer is controlled by a multisig as specified in the documents herein. The balance of this account may be topped up through an Executive Vote.
+The Demand Side Buffer is the account used for disbursement of Distribution Reward and Integration Boost payments and, to the extent paid from the Demand Side Buffer, Pioneer Rewards (see [A.2.3.1.2.1.3.5 - Pioneer Rewards](33c56bad-c422-48f4-bcca-dc8794c6a0da)). The Demand Side Buffer is controlled by a multisig as specified in the documents herein. The Demand Side Buffer is replenished each month through the Monthly Settlement Cycle, as specified in [A.2.4.1.2.1.1.2 - Demand Side Buffer Replenishment](e87fe248-5983-41d5-9c7a-75064a18d476). Its balance may also be topped up through an Executive Vote.
 
 ##### A.2.2.4.3.1 - Demand Side Buffer Multisig Address [Core]  <!-- UUID: dadf97b5-1d71-42b2-9954-cd9a18d4345f -->
 
@@ -505,7 +501,7 @@ The signers of the Demand Side Buffer Multisig are three (3) addresses controlle
 
 ##### A.2.2.4.3.4 - Demand Side Buffer Multisig Usage Standards [Core]  <!-- UUID: f489f6b8-67a9-49bd-ad98-a543757214b8 -->
 
-The signers of the Demand Side Buffer Multisig must use the Multisig to disburse Distribution Reward and Integration Boost payments in accordance with the Atlas.
+The signers of the Demand Side Buffer Multisig must use the Multisig to disburse Distribution Reward and Integration Boost payments and, to the extent paid from the Demand Side Buffer, Pioneer Rewards, in accordance with the Atlas.
 
 ##### A.2.2.4.3.5 - Demand Side Buffer Multisig Modification [Core]  <!-- UUID: 379f5e3c-3ea4-4d82-a8bb-70e8d750e157 -->
 
@@ -513,7 +509,7 @@ Operational GovOps Soter Labs can change the signers of the Demand Side Buffer M
 
 ##### A.2.2.4.3.6 - Demand Side Buffer Auxiliary Accounts [Core]  <!-- UUID: dfc22e9d-139b-498c-a3d0-408503632f77 -->
 
-Operational GovOps Soter Labs may establish auxiliary accounts on other blockchains to facilitate efficient distribution of Distribution Reward and Integration Boost payments to Integrators operating on those blockchains. Operational GovOps Soter Labs may move funds from the Demand Side Buffer Multisig to auxiliary accounts as necessary to facilitate such payments. Each auxiliary account must conform to the same standards as the Demand Side Buffer Multisig, specifically:
+Operational GovOps Soter Labs may establish auxiliary accounts on other blockchains to facilitate efficient distribution of Distribution Reward and Integration Boost payments and, to the extent paid from the Demand Side Buffer, Pioneer Rewards to recipients operating on those blockchains. Operational GovOps Soter Labs may move funds from the Demand Side Buffer Multisig to auxiliary accounts as necessary to facilitate such payments. Each auxiliary account must conform to the same standards as the Demand Side Buffer Multisig, specifically:
 
 - a minimum of three (3) signers;
 - at least two-thirds of signers are required to execute transactions; and
@@ -552,7 +548,7 @@ The documents herein define the process for setting up an Instance of the Agent 
 
 ###### A.2.2.5.1.1.1.1 - Founder Inputs [Core]  <!-- UUID: cfde405d-e7e1-48eb-b044-3e9514c0aa96 -->
 
-The Founder uses the Powerhouse interface to input the Agent's name and an introduction outlining the Agent's vision.
+The Founder inputs the Agent's name and an introduction outlining the Agent's vision into the Primitive.
 
 ###### A.2.2.5.1.1.1.2 - Validation [Core]  <!-- UUID: d2b0f57b-1596-4355-9c63-aec6466cf316 -->
 
@@ -612,7 +608,7 @@ The documents herein define the process for setting up the Prime Transformation 
 
 ###### A.2.2.5.2.1.1.1 - Agent Inputs [Core]  <!-- UUID: aef13d1b-08d6-4c89-8858-65f8acbe4adc -->
 
-The Proto-Agent must use the Powerhouse interface to input their desired Agent Type into the Primitive. For the Prime Transformation Primitive process, the Proto-Agent must specify ‘Prime Agent’ as their desired Agent Type.
+The Proto-Agent must input their desired Agent Type into the Primitive. For the Prime Transformation Primitive process, the Proto-Agent must specify ‘Prime Agent’ as their desired Agent Type.
 
 ###### A.2.2.5.2.1.1.2 - Validation [Core]  <!-- UUID: 43598845-989e-44fc-8cb4-c60b67fd1f28 -->
 
@@ -660,7 +656,7 @@ The documents herein define the process for setting up the Agent Token Primitive
 
 ###### A.2.2.5.4.1.1.1 - Agent Inputs [Core]  <!-- UUID: f74588a5-cbde-4635-9e18-bca3d9c80612 -->
 
-The Agent must use the Powerhouse interface to input key data into the Agent Token Primitive, including token name, ticker, symbol, genesis supply, total supply, distribution rules, emissions schedule, pending token address and token admin address. The token admin address should be the Agent SubProxy Account. The Agent must also specify whether token emissions beyond the current supply have been irreversibly disabled.
+The Agent must input key data into the Agent Token Primitive, including token name, ticker, symbol, genesis supply, total supply, distribution rules, emissions schedule, pending token address and token admin address. The token admin address should be the Agent SubProxy Account. The Agent must also specify whether token emissions beyond the current supply have been irreversibly disabled.
 
 ###### A.2.2.5.4.1.1.2 - Validation [Core]  <!-- UUID: 6f63137d-5385-46e9-96ac-fc16a568f54a -->
 
@@ -672,7 +668,7 @@ After successful validation, the Agent Token Primitive is considered successfull
 
 ###### A.2.2.5.4.1.1.4 - Core GovOps Output [Core]  <!-- UUID: d26166c3-b07f-4583-8303-051a90468ed3 -->
 
-Upon successful validation, the token contract can now be deployed on-chain by Core GovOps. The minted supply must be allocated as specified in the Agent Token Primitive Instance. The Primitive is automatically updated to replace the pending token address with the actual token address.
+Upon successful validation, the token contract can now be deployed on-chain by Core GovOps. The minted supply must be allocated as specified in the Agent Token Primitive Instance. Core GovOps updates the Primitive to replace the pending token address with the actual token address.
 
 ###### A.2.2.5.4.1.2 - Agent Token Primitive Ongoing Management [Core]  <!-- UUID: d8f6b024-f4f8-4897-99f2-d433137c8850 -->
 
@@ -736,7 +732,7 @@ The documents herein define the process for setting up an Instance of the Execut
 
 ###### A.2.2.6.1.1.1.1 - Agent Inputs [Core]  <!-- UUID: d082d5de-a0b2-4441-8ba8-06d1e5fe2aed -->
 
-The Prime Agent and Operational Executor Agent must come to a consensus about the details of the Executor Accord. These details must be entered into the Powerhouse interface along with independent confirmation from each Agent that they agree to those terms.
+The Prime Agent and Operational Executor Agent must come to a consensus about the details of the Executor Accord. They submit these details to Core GovOps, along with independent confirmation from each Agent that they agree to those terms.
 
 ###### A.2.2.6.1.1.1.2 - Validation [Core]  <!-- UUID: dad19a7b-769c-43e3-a7b9-ce91d267c3b1 -->
 
@@ -784,7 +780,7 @@ The documents herein define the process for setting up an Instance of the Root E
 
 ###### A.2.2.6.2.1.1.1 - Agent Inputs [Core]  <!-- UUID: 131380cc-df22-4862-a275-49e6a7302cf8 -->
 
-The Agent must use the Powerhouse interface to specify the process by which Root Edits occur. See [A.1.14.2.7 - Artifact Edit Processes](2be8d2f0-bf02-4aa1-ad37-afb7a811a3b8).
+The Agent must specify the process by which Root Edits occur. See [A.1.14.2.7 - Artifact Edit Processes](2be8d2f0-bf02-4aa1-ad37-afb7a811a3b8).
 
 ###### A.2.2.6.2.1.1.2 - Validation [Core]  <!-- UUID: 2a466974-af55-4d3f-84a5-7ac840ffb620 -->
 
@@ -812,7 +808,7 @@ If the Operational Facilitator concludes that the proposal is aligned with the A
 
 ###### A.2.2.6.2.1.2.4 - Root Edit Primitive Artifact Update [Core]  <!-- UUID: 34d06691-afc4-4ade-9ada-ad180c2aef0f -->
 
-After the voting period ends, the Operational Facilitator reviews the outcome of the vote. If the vote is successful, the Operational Facilitator actions the Artifact Edit in the Powerhouse system. In either case, the Operational Facilitator records the outcome of the vote, including all pertinent materials, in the Powerhouse system.
+After the voting period ends, the Operational Facilitator reviews the outcome of the vote. If the vote is successful, the Operational Facilitator actions the Artifact Edit. In either case, the Operational Facilitator records the outcome of the vote, including all pertinent materials, in the Sky Forum post for the proposal.
 
 ##### A.2.2.6.2.2 - Root Edit Primitive Required Inputs [Core]  <!-- UUID: cec43505-2bf3-48ce-81d9-852f65edc468 -->
 
@@ -985,15 +981,15 @@ The Prime Agent contacts a reputable third-party security audit firm for reviewi
 
 ###### A.2.2.8.1.1.1.2 - Token SkyLink Setup Codification and Validation [Core]  <!-- UUID: 18ce8e21-898d-4bf9-9bf8-ef1c1e7266ee -->
 
-The documents herein define how agreements to setup an Instance of the Token SkyLink Primitive are codified and validated in the Powerhouse system and how governance votes happen.
+The documents herein define how agreements to setup an Instance of the Token SkyLink Primitive are codified and validated, and how governance votes happen.
 
 ###### A.2.2.8.1.1.1.2.1 - Agent Inputs [Core]  <!-- UUID: 5027bb60-ea5f-4f1a-9ce6-a9a0afae33e5 -->
 
-The Prime Agent drafts an update to the Prime Agent Artifact adding the Token SkyLink to the list of active Token SkyLink deployments and including the information specified in [A.2.2.8.1.2.2 - List of Active Token SkyLink Deployments](bf3ede73-bba3-4048-b105-a49400611fcb). The Prime Agent submits the draft to the Powerhouse system. The output of this step is a draft Prime Agent Artifact update in the Powerhouse system.
+The Prime Agent drafts an update to the Prime Agent Artifact adding the Token SkyLink to the list of active Token SkyLink deployments and including the information specified in [A.2.2.8.1.2.2 - List of Active Token SkyLink Deployments](bf3ede73-bba3-4048-b105-a49400611fcb). The Prime Agent submits the draft to the Operational Executor Facilitator. The output of this step is a draft Prime Agent Artifact update.
 
 ###### A.2.2.8.1.1.1.2.2 - Validation And Off-Chain Vote [Core]  <!-- UUID: cac40223-e628-4248-a44d-2aaa6f03ba00 -->
 
-The Operational Executor Facilitator reviews the proposal to ensure that it is complete and aligned with the Atlas. The Operational Executor Facilitator then initiates an off-chain snapshot vote, following the quorum and majority rules in the Prime Agent Artifact. When complete, the result of the vote is recorded in the Powerhouse system. The output of this step is the snapshot vote result recorded in the Powerhouse system.
+The Operational Executor Facilitator reviews the proposal to ensure that it is complete and aligned with the Atlas. The Operational Executor Facilitator then initiates an off-chain snapshot vote, following the quorum and majority rules in the Prime Agent Artifact. The output of this step is the snapshot vote result.
 
 ###### A.2.2.8.1.1.1.2.3 - Official Update of Artifact [Core]  <!-- UUID: 79abf483-f256-4ef6-9aa7-558a8800e7a8 -->
 
@@ -1017,7 +1013,7 @@ The documents herein define the process for managing an Instance of the Token Sk
 
 ###### A.2.2.8.1.1.2.1 - Token SkyLink Management Settlement Cycle [Core]  <!-- UUID: 97fb1954-b9f4-429e-bc29-e9eea9fe2e0e -->
 
-During each settlement cycle, the Prime Agent Reimbursement Module tallies the total token bridging volume on the new chain. The Prime Agent Reimbursement Module calculates the reimbursement due for bridge development costs as a percent of the token bridging volume, in addition to normal Distribution Rewards if applicable. Core GovOps executes a payment to the Prime Agent for the amount due for reimbursement of bridge development costs, to the extent that such costs have not already been fully reimbursed. Core GovOps updates the Powerhouse system to reflect the amount of bridge development costs that have been reimbursed.
+During each settlement cycle, the Prime Agent Reimbursement Module tallies the total token bridging volume on the new chain. The Prime Agent Reimbursement Module calculates the reimbursement due for bridge development costs as a percent of the token bridging volume, in addition to normal Distribution Rewards if applicable. Core GovOps executes a payment to the Prime Agent for the amount due for reimbursement of bridge development costs, to the extent that such costs have not already been fully reimbursed. Core GovOps records the amount of bridge development costs that have been reimbursed.
 
 ##### A.2.2.8.1.2 - Token SkyLink Input Requirements [Core]  <!-- UUID: 7d9a8373-ed56-4b01-8ec7-ebf2ed4ef8b0 -->
 
@@ -1230,11 +1226,11 @@ See [A.2.2.1.2.4.1 - Agent Launch And Sequence of Primitive Global Activation](2
 
 ###### A.2.2.9.1.2.2.2 - Process Flow [Core]  <!-- UUID: 89d26f82-b662-41df-8935-44aa7e93be6d -->
 
-The Prime Agent uses the Powerhouse interface to Globally Activate (toggle on) the Distribution Reward Primitive.
+The Prime Agent Globally Activates (toggles on) the Distribution Reward Primitive.
 
 ###### A.2.2.9.1.2.2.3 - Required Primitive Inputs [Core]  <!-- UUID: 108c6d9c-8ecf-48bf-bc8b-365f8cf65c0c -->
 
-The following inputs must be submitted into the Primitive using the Powerhouse interface:
+The following inputs must be submitted into the Primitive:
 
 - **Create** `Primitive Hub Document`
     - Updated Field: Global Activation Status
@@ -1345,20 +1341,20 @@ The Agent Artifact is updated pursuant to the following requirements. Each Outpu
 
 - After the Prime Agent notifies Operational GovOps that it is drafting a request
     - Create `Instance Configuration` Document for prospective Primitive Instance. The Instance Configuration Document contains a `Data Repository.`
-        - Instance Status: (automatically inherits from `Primitive Hub Document`)
+        - Instance Status: (inherits from `Primitive Hub Document`)
     - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
         - Updated fields:
             - Invocation Status:
                 - New value: set to `Planning`
             - Instance Configuration Document Location
                 - New value: link to `Instance Configuration Document` (created at Create `Instance Configuration` Document for prospective Primitive Instance. The Instance Configuration Document contains a `Data Repository.`)
-    - Responsible party: Operational GovOps [automated]
+    - Responsible party: Operational GovOps
 - After the Prime Agent submits the request to Operational GovOps
     - Edit `Primitive Hub Document/In Progress Invocations/Instance Name`
         - Updated fields:
             - Invocation Status:
                 - New value: set to `Pending GovOps review`
-        - Responsible party: Operational GovOps [automated]
+        - Responsible party: Operational GovOps
         - Trigger - Process: [A.2.2.9.1.2.3.2 - Process Definition For Operational GovOps Review](5fd265ef-17f0-4400-b06c-a6ce9fa87636).
 
 ###### A.2.2.9.1.2.3.2 - Process Definition For Operational GovOps Review [Core]  <!-- UUID: 5fd265ef-17f0-4400-b06c-a6ce9fa87636 -->
@@ -1425,7 +1421,7 @@ After Operational GovOps confirms that the request is feasible, the Document is 
 - Updated fields
     - Invocation Status
         - New value: set to `Proposal drafting in progress`
-- Responsible Party: Operational GovOps [automated]
+- Responsible Party: Operational GovOps
 - Triggers: [A.2.2.9.1.2.3.3 - Process Definition For Artifact Update Draft](240e0e2c-64b6-4290-aa23-ec19eb2f6e59)
 
 ###### A.2.2.9.1.2.3.3 - Process Definition For Artifact Update Draft [Core]  <!-- UUID: 240e0e2c-64b6-4290-aa23-ec19eb2f6e59 -->
@@ -1457,8 +1453,8 @@ This process has no dependencies.
 The process flow is defined herein:
 
 - The Prime Agent creates the `Artifact Edit Draft` Document and works to finalize its draft of the Artifact Edit per discussions with Operational GovOps.
-- When draft is finalized, the Prime Agent triggers the creation of the `Artifact Edit Proposal`, which inherits content from the finalized `Artifact Edit Draft` Document.
-- The Prime Agent submits the `Artifact Edit Proposal` Document to the Powerhouse system.
+- When draft is finalized, the Prime Agent creates the `Artifact Edit Proposal`, which inherits content from the finalized `Artifact Edit Draft` Document.
+- The Prime Agent submits the `Artifact Edit Proposal` Document for Operational Facilitator review.
 
 ###### A.2.2.9.1.2.3.3.3 - Required Primitive Inputs [Core]  <!-- UUID: 6f4e7971-1813-4ff6-9e4f-5953c8cb54af -->
 
@@ -1476,12 +1472,12 @@ The required Primitive Inputs for this process are defined herein and implemente
         - Updated fields
             - Status
                 - New value: set to `Draft Finalized`
-- Powerhouse System Creates `Artifact Edit Proposal` Document
+- Agent creates `Artifact Edit Proposal` Document
     - Updated fields
         - Content
             - New value: Inherits data from Artifact Edit Draft content field.
-    - Responsible party: Operational GovOps [if not automated]
-- Agent submits `Artifact Edit Proposal` Document to Powerhouse system
+    - Responsible party: Agent
+- Agent submits `Artifact Edit Proposal` Document
     - Updated fields
         - Status:
             - New value: set to `Pending Facilitator Review`
@@ -1553,7 +1549,7 @@ The required Primitive Inputs to this process are defined herein and organized a
             - `Commentary`
                 - New value (optional): populate with reasoning for Approval
             - `Status`
-                - New value: set to `Proposal Approved by Facilitator` [automated]
+                - New value: set to `Proposal Approved by Facilitator`
         - Responsible party: Operational Facilitator
         - Trigger-Process: [A.2.2.9.1.2.3.5 - Process Definition For Offchain Vote](3170b9a1-d074-4cbd-bb81-ae1661bc0ed8)
 - Operational Facilitator Rejects proposal
@@ -1564,7 +1560,7 @@ The required Primitive Inputs to this process are defined herein and organized a
             - `Commentary`
                 - New value (required): populate with reasoning for Rejection
             - `Status`
-                - New value: set to `Proposal Rejected By Facilitator` [automated]
+                - New value: set to `Proposal Rejected By Facilitator`
         - Responsible party: Operational Facilitator
 
 ###### A.2.2.9.1.2.3.4.4 - Required Outputs [Core]  <!-- UUID: b63e78d1-112d-4d48-a647-a1e3fc2f54a5 -->
@@ -1609,7 +1605,7 @@ The process flow for this process is defined herein:
 
 - Using the finalized `Atlas Edit Proposal` content, the Operational Facilitator sets up an offchain Snapshot vote.
 - Prime Agent token holders vote on the proposal.
-- After the voting concludes, the Operational Facilitator records the result of the vote in the Powerhouse system.
+- After the voting concludes, the Operational Facilitator records the result of the vote.
 
 ###### A.2.2.9.1.2.3.5.3 - Required Primitive Inputs [Core]  <!-- UUID: b593ff77-2c46-418d-a7b3-9730437ce804 -->
 
@@ -1697,22 +1693,22 @@ This process has no dependencies.
 
 The process flow is defined herein.
 
-- Using the Powerhouse interface, the Operational Facilitator updates the Agent Artifact with the approved Proposal content.
+- The Operational Facilitator updates the Agent Artifact with the approved Proposal content.
 
 ###### A.2.2.9.1.2.3.6.3 - Required Primitive Inputs [Core]  <!-- UUID: 6eb0901b-d324-4124-b27e-5f5416264f37 -->
 
-The following inputs must be submitted into the Primitive using the Powerhouse interface.
+The following inputs must be submitted into the Primitive.
 
 - Edit `Instance Configuration Document` to reflect ratified Primitive Instance.
     - Updated fields
-        - Parameters/Status - automatically inherits from `Primitive Hub Document`
+        - Parameters/Status - inherits from `Primitive Hub Document`
         - Parameters/Reward Code
             - New Value: set to `Reward Code` value from approved Proposal
         - Parameters/Tracking Methodology
             - New Value: set to `Tracking Methodology` value from the approved Proposal
         - Parameters/Custom Instance Parameters
             - New Value: set to `Custom Instance Parameters` value from approved Proposal
-        - Responsible Party: Operational GovOps [if not automated]
+        - Responsible Party: Operational Facilitator
 
 ###### A.2.2.9.1.2.3.6.4 - Required Outputs [Core]  <!-- UUID: 231e3527-5534-42d4-b83e-0f99cb40bf76 -->
 
@@ -1807,7 +1803,7 @@ The process flow is defined herein:
 
 - Operational GovOps calculates the eligible USDS and sUSDS balances using the Tracking Methodology specified in the Primitive Instance.
 - Operational GovOps calculates the Distribution Reward due based on the USDS and sUSDS balances and the Distribution Reward formula for each.
-- Operational GovOps updates the Powerhouse system with both the underlying data and their calculations.
+- Operational GovOps records both the underlying data and their calculations.
 
 ###### A.2.2.9.1.2.4.1.1.3 - Required Primitive Inputs [Core]  <!-- UUID: 57921647-2a63-4d01-907b-131a50510d76 -->
 
@@ -1869,7 +1865,7 @@ This process has no dependencies.
 The process flow is defined herein.
 
 - Operational GovOps makes the payment to the reward address specified in the Primitive Instance from the Operational Executor Agent Buffer.
-- Operational GovOps updates the Powerhouse system with the transaction details.
+- Operational GovOps records the transaction details.
 
 ###### A.2.2.9.1.2.4.1.2.3 - Required Primitive Inputs [Core]  <!-- UUID: 63ba8de2-55ed-4df5-9e11-016a006cf828 -->
 
@@ -1927,7 +1923,7 @@ This process has no dependencies.
 The process flow is defined herein.
 
 - Core GovOps reviews Distribution Rewards calculations, including underlying data and calculation of balances and rewards due.
-- Once Core GovOps has completed review, they update Powerhouse system to indicate that they confirm the accuracy of the Distribution Reward amounts.
+- Once Core GovOps has completed review, they record their confirmation of the accuracy of the Distribution Reward amounts.
 
 ###### A.2.2.9.1.2.4.1.3.3 - Required Primitive Inputs [Core]  <!-- UUID: b55afaef-db92-4bbf-8d80-258d5849ef1c -->
 
@@ -2011,7 +2007,7 @@ This process has no dependencies.
 The process flow is defined herein:
 
 - Core GovOps includes the Distribution Reward reimbursement in the next standard Executive Vote.
-- After the Executive Vote passes, Core GovOps updates the Powerhouse system with the transaction details.
+- After the Executive Vote passes, Core GovOps records the transaction details.
 
 ###### A.2.2.9.1.2.4.1.4.3 - Required Primitive Inputs [Core]  <!-- UUID: 6b90e3a1-48ce-4ac2-852e-00a8e4edf152 -->
 
@@ -2024,7 +2020,7 @@ The required Primitive Inputs to this process are specified herein and organized
                 - New value: links to proposal
             - Status
                 - New value: set to `Added to Executive Vote`
-- After Executive Vote passes, Core GovOps updates Powerhouse system
+- After Executive Vote passes, Core GovOps records transaction details
     - Edit `Sky Core Distribution Reward Reimbursement Amounts`
         - Updated fields
             - Executive Vote Settlement / Transaction Details/ Amount Paid
@@ -2199,11 +2195,11 @@ See [A.2.2.1.2.4 - Changing A Primitive’s Global Activation Status](51cfca28-c
 
 ###### A.2.2.9.2.2.2.2 - Process Flow [Core]  <!-- UUID: 163b998a-50fe-4bbe-872c-748f526f7604 -->
 
-The Prime Agent uses the Powerhouse interface to Globally Activate (toggle on) the Integration Boost Primitive.
+The Prime Agent Globally Activates (toggles on) the Integration Boost Primitive.
 
 ###### A.2.2.9.2.2.2.3 - Required Primitive Inputs [Core]  <!-- UUID: 5e673229-0130-4b2c-94ce-f8597babd9c1 -->
 
-The following inputs must be submitted into the Primitive using the Powerhouse interface:
+The following inputs must be submitted into the Primitive:
 
 - **Create** `Primitive Hub Document`
     - Updated Field: Global Activation Status
@@ -2301,20 +2297,20 @@ The Agent Artifact is updated pursuant to the following requirements. Each Outpu
 
 - After the Prime Agent notifies Operational GovOps that it is drafting a request
     - Create `Instance Configuration` Document for prospective Primitive Instance. The Instance Configuration Document contains a `Data Repository`.
-        - Instance Status: (automatically inherits from `Primitive Hub Document`)
+        - Instance Status: (inherits from `Primitive Hub Document`)
     - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
         - Updated fields:
             - Invocation Status:
                 - New value: set to `Planning`
             - Instance Configuration Document Location
                 - New value: link to `Instance Configuration Document` (created at Create `Instance Configuration` Document for prospective Primitive Instance. The Instance Configuration Document contains a `Data Repository`.)
-    - Responsible party: Operational GovOps [automated]
+    - Responsible party: Operational GovOps
 - After the Prime Agent submits the request to Operational GovOps
     - Edit `Primitive Hub Document/In Progress Invocations/Instance Name`
         - Updated fields:
             - Invocation Status:
                 - New value: set to `Pending GovOps review`
-        - Responsible party: Operational GovOps [ automated]
+        - Responsible party: Operational GovOps
         - Trigger - Process: [A.2.2.9.2.2.3.2 - Process Definition for Operational GovOps Review](38c54d2b-715b-433d-a9ff-af5cbecc89a2).
 
 ###### A.2.2.9.2.2.3.2 - Process Definition for Operational GovOps Review [Core]  <!-- UUID: 38c54d2b-715b-433d-a9ff-af5cbecc89a2 -->
@@ -2382,7 +2378,7 @@ After Operational GovOps confirms that the request is feasible, the Document is 
 - Updated fields
     - Active instances/Instance name/Instance status -
         - New value: set to `Proposal drafting in progress`
-- Responsible Party: Operational GovOps [automated]
+- Responsible Party: Operational GovOps
 - Triggers: [A.2.2.9.2.2.3.3 - Process Definition for Artifact Update Draft](6a8b5e8b-cca6-48be-b543-6db468f83ebb).
 
 ###### A.2.2.9.2.2.3.3 - Process Definition for Artifact Update Draft [Core]  <!-- UUID: 6a8b5e8b-cca6-48be-b543-6db468f83ebb -->
@@ -2414,8 +2410,8 @@ This process has no dependencies.
 The process flow is defined herein:
 
 - The Prime Agent creates the `Artifact Edit Draft` Document and works to finalize its draft of the Artifact Edit per discussions with Operational GovOps.
-- When draft is finalized, the Prime Agent triggers the creation of the `Artifact Edit Proposal`, which inherits content from the finalized `Artifact Edit Draft` Document.
-- The Prime Agent submits the `Artifact Edit Proposal` Document to the Powerhouse system.
+- When draft is finalized, the Prime Agent creates the `Artifact Edit Proposal`, which inherits content from the finalized `Artifact Edit Draft` Document.
+- The Prime Agent submits the `Artifact Edit Proposal` Document for Operational Facilitator review.
 
 ###### A.2.2.9.2.2.3.3.3 - Required Primitive Inputs [Core]  <!-- UUID: 01214a59-5119-4c77-ad41-c9d3dd72a517 -->
 
@@ -2433,12 +2429,12 @@ The required Primitive Inputs for this process are defined herein and implemente
         - Updated fields
             - Status
                 - New value: set to `Draft Finalized`
-- Powerhouse System Creates `Artifact Edit Proposal` Document
+- Agent creates `Artifact Edit Proposal` Document
     - Updated fields
         - Content
             - New value: Inherits data from `Artifact Edit Draft` Document’s Content field.
-    - Responsible party: Operational GovOps [if not automated]
-- Agent submits `Artifact Edit Proposal` Document to Powerhouse system
+    - Responsible party: Agent
+- Agent submits `Artifact Edit Proposal` Document
     - Updated fields
         - Status:
             - New value: set to `Pending Facilitator Review`
@@ -2510,7 +2506,7 @@ The required Primitive Inputs to this process are defined herein and organized a
             - `Commentary`
                 - New value (optional): populate with reasoning for Approval
             - `Status`
-                - New value: set to `Proposal Approved by Facilitator` [automated]
+                - New value: set to `Proposal Approved by Facilitator`
         - Responsible party: Operational Facilitator
         - Trigger-Process: [A.2.2.9.2.2.3.5 - Process Definition for Offchain Vote](24fa76f6-4728-4f1d-97ff-fd7e72dac2ac).
 - Operational Facilitator Rejects Proposal
@@ -2521,7 +2517,7 @@ The required Primitive Inputs to this process are defined herein and organized a
             - `Commentary`
                 - New value (required): populate with reasoning for Rejection
             - `Status`
-                - New value: set to `Proposal Rejected By Facilitator` [automated]
+                - New value: set to `Proposal Rejected By Facilitator`
         - Responsible party: Operational Facilitator
 
 ###### A.2.2.9.2.2.3.4.4 - Required Outputs [Core]  <!-- UUID: c7436489-4aac-47cb-be2d-31774bd7ee99 -->
@@ -2566,7 +2562,7 @@ The process flow for this process is defined herein:
 
 - Using the finalized `Atlas Edit Proposal` content, the Operational Facilitator sets up an offchain Snapshot vote.
 - Prime Agent token holders vote on the proposal.
-- After the voting concludes, the Operational Facilitator records the result of the vote in the Powerhouse system.
+- After the voting concludes, the Operational Facilitator records the result of the vote.
 
 ###### A.2.2.9.2.2.3.5.3 - Required Primitive Inputs [Core]  <!-- UUID: d247fec5-a19d-4307-94de-a2cbcc368d64 -->
 
@@ -2652,15 +2648,15 @@ This process has no dependencies.
 
 The process flow is defined herein.
 
-- Using the Powerhouse interface, the Operational Facilitator updates the Agent Artifact with the approved Proposal content.
+- The Operational Facilitator updates the Agent Artifact with the approved Proposal content.
 
 ###### A.2.2.9.2.2.3.6.3 - Required Primitive Inputs [Core]  <!-- UUID: 51ca2399-8c7f-4c2a-843a-c85f6c670d13 -->
 
-The following inputs must be submitted into the Primitive using the Powerhouse interface.
+The following inputs must be submitted into the Primitive.
 
 - Edit `Instance Configuration Document` to reflect ratified Primitive Instance.
     - Updated fields
-        - Parameters/Status - automatically inherits from `Primitive Hub Document`
+        - Parameters/Status - inherits from `Primitive Hub Document`
         - Parameters/Integration Partner Name
             - New Value: set to `Integration Partner Name` value from approved Proposal
         - Parameters/Integration Partner Reward Address
@@ -2677,7 +2673,7 @@ The following inputs must be submitted into the Primitive using the Powerhouse i
             - New Value: set to `Integration Boost Savings Rate Adjustment Strategy` value from approved Proposal
         - Parameters/Custom Instance Parameters
             - New Value: set to `Custom Instance Parameters` value from approved Proposal
-        - Responsible party: Operational GovOps [if not automated]
+        - Responsible party: Operational Facilitator
 
 ###### A.2.2.9.2.2.3.6.4 - Required Outputs [Core]  <!-- UUID: bd74388f-69d8-48fc-bab8-522f1b3b5806 -->
 
@@ -2763,7 +2759,7 @@ This process has no dependencies.
 
 The process flow is defined herein:
 
-- At the end of each Integration Boost period, the data provider submits the net USDS deposit data to Powerhouse.
+- At the end of each Integration Boost period, the data provider submits the net USDS deposit data to Operational GovOps.
 - Operational GovOps verifies this data by checking on-chain balances and confirms that there are no discrepancies.
 - Operational GovOps then calculates the payout based on the net USDS deposit data and the Sky Savings Rate.
 
@@ -2825,7 +2821,7 @@ This process has no dependencies.
 The process flow is defined herein.
 
 - Operational GovOps makes the payment to the reward address specified in the Primitive Instance from the Operational Executor Agent Buffer.
-- Operational GovOps updates the Powerhouse system with the transaction details.
+- Operational GovOps records the transaction details.
 
 ###### A.2.2.9.2.2.4.1.2.3 - Required Primitive Inputs [Core]  <!-- UUID: 862aff47-67fc-4b7f-bc16-b45b7edd9e83 -->
 
@@ -2883,7 +2879,7 @@ This process has no dependencies.
 The process flow is defined herein.
 
 - Core GovOps reviews Integration Boost calculations, including underlying data and calculation of balances and rewards due.
-- Once Core GovOps has completed review, they update Powerhouse system to indicate that they confirm the accuracy of the Integration Boost amounts.
+- Once Core GovOps has completed review, they record their confirmation of the accuracy of the Integration Boost amounts.
 
 ###### A.2.2.9.2.2.4.1.3.3 - Required Primitive Inputs [Core]  <!-- UUID: ebbfa305-4d56-45f4-8d06-180dc02cbb2f -->
 
@@ -2956,7 +2952,7 @@ This process has no dependencies.
 The process flow is defined herein:
 
 - Core GovOps includes the Integration Boost reimbursement in the next standard Executive Vote.
-- After the Executive Vote passes, Core GovOps updates the Powerhouse system with the transaction details.
+- After the Executive Vote passes, Core GovOps records the transaction details.
 
 ###### A.2.2.9.2.2.4.1.4.3 - Required Primitive Inputs [Core]  <!-- UUID: f54de74a-4208-4878-8049-3184ab3f9a0d -->
 
@@ -2969,7 +2965,7 @@ The required Primitive Inputs to this process are specified herein and organized
                 - New value: links to proposal
             - Status
                 - New value: set to `Added to Executive Vote`
-- After Executive Vote passes, Core GovOps updates Powerhouse system
+- After Executive Vote passes, Core GovOps records transaction details
     - Edit `Sky Core Integration Boost Reimbursement Amounts`
         - Updated fields
             - Executive Vote Settlement / Transaction Details/ Amount Paid
@@ -3209,7 +3205,7 @@ The documents herein define the access-control roles of the Diamond Parallelized
 
 ###### A.2.2.10.1.1.1.2.2.1 - Default Admin Role [Core]  <!-- UUID: b76195f2-7494-43a4-919e-fa823303ad06 -->
 
-The Default Admin Role (`DEFAULT_ADMIN_ROLE`) is the administrative role of an Instance's `AccessControls` contract, authorized to grant and revoke all other roles. It is held by Sky Governance through the Prime Agent's SubProxy. Where a Diamond PAU has the Configurator enabled, the Configurator is also granted this role on that Instance's `AccessControls` contract and `RateLimits` contract, as specified in [A.2.2.10.1.1.1.2.4.1.2 - Enabled Diamond PAUs](9593a6c6-521b-4680-8119-cb1f08b9a3e3) for Ethereum Mainnet and [A.2.2.10.1.1.1.2.4.2.2 - Enabled Diamond PAUs](9feaea6e-405b-41ef-afc7-b10f2fc3bf1c) for Arbitrum. This per-Instance role is distinct from the Beacon's own `DEFAULT_ADMIN_ROLE`, which is held by the Pause Proxy on Ethereum Mainnet and by the Governance Relay on Arbitrum.
+The Default Admin Role (`DEFAULT_ADMIN_ROLE`) is the administrative role of an Instance's `AccessControls` contract, authorized to grant and revoke all other roles. It is held by Sky Governance through the Prime Agent's SubProxy on Ethereum Mainnet and through the Prime Agent's Executor on other networks. Where a Diamond PAU has the Configurator enabled, the Configurator is also granted this role on that Instance's `AccessControls` contract and `RateLimits` contract, as specified in [A.2.2.10.1.1.1.2.4.1.2 - Enabled Diamond PAUs](9593a6c6-521b-4680-8119-cb1f08b9a3e3) for Ethereum Mainnet, [A.2.2.10.1.1.1.2.4.2.2 - Enabled Diamond PAUs](9feaea6e-405b-41ef-afc7-b10f2fc3bf1c) for Arbitrum, and [A.2.2.10.1.1.1.2.4.3.2 - Enabled Diamond PAUs](91731ccf-8a71-4c3f-a5d5-107dbf690478) for Base. This per-Instance role is distinct from the Beacon's own `DEFAULT_ADMIN_ROLE`, which is held by the Pause Proxy on Ethereum Mainnet and by the Governance Relay on Arbitrum and Base.
 
 ###### A.2.2.10.1.1.1.2.2.2 - Controller Role [Core]  <!-- UUID: 4f77eb6c-4b2f-4fa0-a7c0-d58e9b76ce8e -->
 
@@ -3562,7 +3558,7 @@ The Base deployment of the Liquidity Layer Shared Contracts is defined in the su
 
 ###### A.2.2.10.1.1.1.2.3.3.1 - Beacon [Core]  <!-- UUID: eb4e8e2e-2a55-4c67-aa11-d26b07a481d9 -->
 
-The Beacon's role is as specified in [A.2.2.10.1.1.1.2.3.1.1 - Beacon](5b0627e8-102b-42ea-8d9b-38463591faf9). Its address on Base is `0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41`. Its `DEFAULT_ADMIN_ROLE` is currently held by the Spark Executor on Base (`0xF93B7122450A50AF3e5A76E1d546e95Ac1d0F579`). In the Spark Spell included in the November 5, 2026 Executive Vote, the Spark Executor will grant `DEFAULT_ADMIN_ROLE` to the Governance Relay (`0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255`) and revoke its own.
+The Beacon's role is as specified in [A.2.2.10.1.1.1.2.3.1.1 - Beacon](5b0627e8-102b-42ea-8d9b-38463591faf9). Its address on Base is `0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41`, and its `DEFAULT_ADMIN_ROLE` is held by Sky Governance through the Governance Relay (`0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255`).
 
 ###### A.2.2.10.1.1.1.2.3.3.2 - Facets [Core]  <!-- UUID: 2f52b12c-4e4e-46cf-9682-6e5f219666b2 -->
 
@@ -3571,6 +3567,10 @@ The Facets currently approved on the Beacon for use by Diamond PAU Instances on 
 ###### A.2.2.10.1.1.1.2.3.3.2.1 - CCTP Facet [Core]  <!-- UUID: 9bbe1ce3-06fc-46f2-8012-c1d612d1e182 -->
 
 The CCTP Facet's mechanism is as specified in [A.2.2.10.1.1.1.2.3.1.2.3 - CCTP Facet](ce25217f-c37d-4415-b0d6-adecab3c7855). Its address on Base is `0xb22d50c393c6E1D13E3e05B172448dD8BF8DdC32`.
+
+###### A.2.2.10.1.1.1.2.3.3.2.2 - ERC-4626 Facet [Core]  <!-- UUID: 7a8d1c7d-60cd-4126-853d-28f5e8433fb6 -->
+
+The ERC-4626 Facet's mechanism is as specified in [A.2.2.10.1.1.1.2.3.1.2.7 - ERC-4626 Facet](05f5d939-712b-4204-8f77-4ef5ea598dcc). Its address on Base is `0xC6Fb54348feCdb2790Fa9130D1fc35d6E101C97D`.
 
 ###### A.2.2.10.1.1.1.2.3.3.3 - PAU Factory [Core]  <!-- UUID: 5eaf6c6c-52c0-416d-94e7-b467fe533f73 -->
 
@@ -4039,10 +4039,17 @@ The Diamond PAUs on Base with the Configurator enabled are defined in the subdoc
 
 ###### A.2.2.10.1.1.1.2.4.3.2.1 - Spark Diamond PAU [Core]  <!-- UUID: e30ab84f-80f9-4933-b7f1-98c1adb8a001 -->
 
-In the Spark Spell included in the November 5, 2026 Executive Vote, the Spark Executor on Base will grant the Configurator `DEFAULT_ADMIN_ROLE` on the Spark Diamond PAU `AccessControls` and `RateLimits` contracts on Base. The Spark Diamond PAU `RateLimits` contract is paired to the Operator specified in [A.2.2.10.1.1.1.2.4.3.4.3.1 - Operator For The Spark Diamond PAU](085bf98e-d355-45b9-abc7-eb5ea50a29a4). The bounds within which cBEAMs may adjust rate limits on the Spark Diamond PAU `RateLimits` are:
+The Configurator is granted `DEFAULT_ADMIN_ROLE` on the Spark Diamond PAU `AccessControls` and `RateLimits` contracts on Base. The Spark Diamond PAU `RateLimits` contract is paired to the Operator specified in [A.2.2.10.1.1.1.2.4.3.4.3.1 - Operator For The Spark Diamond PAU](085bf98e-d355-45b9-abc7-eb5ea50a29a4). The bounds within which cBEAMs may adjust rate limits on the Spark Diamond PAU `RateLimits` are:
 
 - `hop`: as specified in [A.2.2.10.1.1.1.2.4.3.1.1 - Hop Default Value](eec7a3cd-ec19-421e-9cc5-e4b1d0e051d4)
 - `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.3.1.2 - Max Change Default Value](ee33adfa-ad78-4161-b1bd-0703073c0ef4)
+
+###### A.2.2.10.1.1.1.2.4.3.2.2 - Osero Diamond PAU [Core]  <!-- UUID: 24c2fc14-448d-48be-a416-86bfad6f33fe -->
+
+In the Osero Spell included in the November 19, 2026 Executive Vote, Osero will grant the Configurator `DEFAULT_ADMIN_ROLE` on the Osero Diamond PAU `AccessControls` and `RateLimits` contracts on Base. The Osero Diamond PAU `RateLimits` contract will be paired to the Operator specified in [A.2.2.10.1.1.1.2.4.3.4.3.2 - Operator For The Osero Diamond PAU](b52fe20e-2927-4191-967f-73934e61a8af). The bounds within which cBEAMs may adjust rate limits on the Osero Diamond PAU `RateLimits` are:
+
+- `hop`: will be specified in a future iteration of the Atlas
+- `maxChange`: will be specified in a future iteration of the Atlas
 
 ###### A.2.2.10.1.1.1.2.4.3.3 - BeamState [Core]  <!-- UUID: 36e7a9f1-1561-47b7-9478-e68c8c0a2d5a -->
 
@@ -4114,6 +4121,14 @@ The signers of the Spark Operator Multisig must use the multisig to operate the 
 
 Operational GovOps Soter Labs can change the signers of the Spark Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
 
+###### A.2.2.10.1.1.1.2.4.3.4.3.2 - Operator For The Osero Diamond PAU [Core]  <!-- UUID: b52fe20e-2927-4191-967f-73934e61a8af -->
+
+The Osero Diamond PAU's Operator on Base, the cBEAM authorized to adjust the Diamond PAU's rate limits through the Configurator, is the Osero Operator Multisig. It is deployed separately on Base at the same address as on Ethereum Mainnet, as specified in [A.2.2.10.1.1.1.2.4.1.4.3.2.1 - Osero Operator Multisig Address](9c59a5c5-300a-4694-99ed-46a43dfc7a67). Its required number of signers, signers, and modification rules are as specified in [A.2.2.10.1.1.1.2.4.1.4.3.2.2 - Osero Operator Multisig Required Number Of Signers](95aa5811-78f3-4c71-b037-fa81d95e166d), [A.2.2.10.1.1.1.2.4.1.4.3.2.3 - Osero Operator Multisig Signers](9882bb18-4f6b-4fa3-8d7f-d8dfbf9f25dc), and [A.2.2.10.1.1.1.2.4.1.4.3.2.5 - Osero Operator Multisig Modification](3375bcc9-aca7-47be-b243-bee6d4126d7c). The Osero Operator Multisig on Base must have the same signers and required number of signers as on Ethereum Mainnet. Any change to the signers or the required number of signers must be made on both chains.
+
+###### A.2.2.10.1.1.1.2.4.3.4.3.2.1 - Osero Operator Multisig Usage Standards [Core]  <!-- UUID: 0385ad19-8751-41bd-8ed7-9553e419d489 -->
+
+The signers of the Osero Operator Multisig must use the multisig to operate the Configurator in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.3.4.1 - Operator Execution](56da9559-54be-4fb5-b39d-8c31c4aeed67) and [A.2.2.10.1.1.1.2.4.3.4.2 - Public Communication](564d45c1-f02d-4c37-a5fe-76bfc91d44fe).
+
 ###### A.2.2.10.1.1.1.2.4.3.4.4 - Registered Controllers [Core]  <!-- UUID: 62d63bd5-ffa8-427e-b2d4-fca4306dc091 -->
 
 The Controllers registered to the Base Configurator, and the controller actions enabled for each, are defined in the subdocuments herein.
@@ -4125,6 +4140,10 @@ The Controller for the Spark Diamond PAU, at address `0xd864bF1Ea2f78Dc2013E3FC7
 - `removeIntegrations`
 
 This action is enabled specifically for the integration registered to the CCTP Facet, as specified in [A.2.2.10.1.1.1.2.3.3.2.1 - CCTP Facet](9bbe1ce3-06fc-46f2-8012-c1d612d1e182).
+
+###### A.2.2.10.1.1.1.2.4.3.4.4.2 - Controller For The Osero Diamond PAU [Core]  <!-- UUID: b513d299-d79e-4388-a479-d411e8af10dd -->
+
+The Controller for the Osero Diamond PAU, at address `0x96F18963c1B1Dd83bB4D14119cF2C4b94F86d6a9` on Base, will be registered with the Configurator. No controller actions will be enabled for it.
 
 ###### A.2.2.10.1.1.1.2.4.3.5 - Transitional Measures [Core]  <!-- UUID: 9f398df8-0484-4c16-8cb9-8d7b04a8b531 -->
 
@@ -4416,6 +4435,38 @@ Only an address holding the [A.2.2.10.1.1.1.2.2.1 - Default Admin Role](b76195f2
 
 The ERC-4626 Facet's `setMaxExchangeRate` function records the maximum exchange rate for the specified vault. The rate is computed as `1e36 * assets / shares`, where `assets` is the maximum amount of the underlying asset those shares may represent and `shares` is the given number of vault shares, and is recorded at `1e36` precision. A deposit into that vault does not complete unless the vault's exchange rate is within this maximum, as specified in [A.2.2.10.1.1.1.2.5.2.6.1.3 - Deposit Asset Into ERC-4626 Vault](24b65a81-c816-480d-ad05-6161d9f01613). Withdrawals and redemptions are not bounded by this maximum.
 
+###### A.2.2.10.1.1.1.2.5.2.7 - CCTP Facet [Core]  <!-- UUID: a71a3107-2dc7-4b26-8224-6684ad5e1130 -->
+
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.1.2.3 - CCTP Facet](ce25217f-c37d-4415-b0d6-adecab3c7855).
+
+###### A.2.2.10.1.1.1.2.5.2.7.1 - Transfer USDC Through CCTP [Core]  <!-- UUID: ccb0c61d-0fa7-4cee-aa32-bc563cb2c787 -->
+
+The documents herein define the steps to transfer USDC held by the ALM Proxy to another chain through Circle's Cross-Chain Transfer Protocol (CCTP).
+
+###### A.2.2.10.1.1.1.2.5.2.7.1.1 - Allocator Role [Core]  <!-- UUID: 6afb04c4-7884-48b5-a36e-faf1c53e7d0b -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a transfer of USDC through CCTP by calling the `cctp_transfer` function on the Diamond PAU Controller, passing the amount of USDC to transfer, the CCTP domain of the destination chain, and the fee cap rate. The Controller dispatches the call to the CCTP Facet, which performs the transfer on behalf of the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.7.1.2 - Rate Limit [Core]  <!-- UUID: d12344e4-c166-4b71-83ca-bcecdefac5f6 -->
+
+The transfer is subject to two on-chain rate limits: the rate limit identified by `LIMIT_USDC_TO_CCTP`, which applies to transfers to all destination domains, and the rate limit identified by `LIMIT_USDC_TO_DOMAIN` for the destination domain. These limits are enforced automatically within the call; the transaction reverts if the amount exceeds either current rate limit. A successful transfer decreases both rate limits by the amount transferred, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5). A transfer cannot be made unless both rate limits are configured.
+
+###### A.2.2.10.1.1.1.2.5.2.7.1.3 - Burn USDC Through CCTP [Core]  <!-- UUID: b99a4221-8f17-4290-84b1-f93ad5279027 -->
+
+The CCTP Facet's `transfer` function burns the specified amount of USDC held by the ALM Proxy through CCTP. The USDC is minted on the destination chain to the mint recipient configured for the destination domain, as specified in [A.2.2.10.1.1.1.2.5.2.7.2 - Set Domain Parameters For CCTP](ec3b18cb-0a3b-4c43-b5e5-a6ddaca06438). The transfer does not complete unless a mint recipient is configured for the destination domain and the fee cap rate is within the minimum and maximum fee cap rates configured for that domain. An amount above CCTP's burn limit per message is split into several burns. For each burn, the maximum fee that CCTP may deduct is the amount of that burn multiplied by the fee cap rate and divided by 10,000, rounded down. Each burn uses CCTP's standard transfer, so the mint becomes available once the burn is finalized on the source chain and attested by Circle. Any address can then complete the mint on the destination chain.
+
+###### A.2.2.10.1.1.1.2.5.2.7.2 - Set Domain Parameters For CCTP [Core]  <!-- UUID: ec3b18cb-0a3b-4c43-b5e5-a6ddaca06438 -->
+
+The documents herein define the steps to set the mint recipient and the fee cap rates used for transfers through CCTP to a destination domain.
+
+###### A.2.2.10.1.1.1.2.5.2.7.2.1 - Default Admin Role [Core]  <!-- UUID: 38470c3e-d4d1-4497-a362-46610fb000be -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.1 - Default Admin Role](b76195f2-7494-43a4-919e-fa823303ad06) (`DEFAULT_ADMIN_ROLE`) may set the parameters for a destination domain by calling the `cctp_setDomainParameters` function on the Diamond PAU Controller, passing the destination domain, the mint recipient, and the minimum and maximum fee cap rates. The Controller dispatches the call to the CCTP Facet, which records the parameters.
+
+###### A.2.2.10.1.1.1.2.5.2.7.2.2 - Record Domain Parameters For CCTP [Core]  <!-- UUID: 2e717b5e-77b1-4028-ba03-6f35e555d06c -->
+
+The CCTP Facet's `setDomainParameters` function records the mint recipient and the minimum and maximum fee cap rates for the specified destination domain. Fee cap rates are expressed in basis points, where 10,000 is 100%. The parameters are not recorded unless the mint recipient is nonzero, the minimum fee cap rate is not greater than the maximum fee cap rate, and the maximum fee cap rate is below 100%.
+
 ###### A.2.2.10.1.1.1.2.5.3 - Rate Limit Management [Core]  <!-- UUID: 6f5bc654-a053-4b1f-9ada-6aa13d0a2109 -->
 
 The documents herein define the protocol for querying, setting, and adjusting `RateLimits` for Diamond PAU Instances using their `RateLimitID`s. Rate limits are maintained in line with the operating Prime Agent's strategy, market conditions, and security considerations.
@@ -4556,7 +4607,7 @@ In the event that liquidity must be recovered from an Aave v3 market and central
 
 ###### A.2.2.10.1.1.1.2.5.4.2.2 - Withdraw All Positions From ERC-4626 Facet [Core]  <!-- UUID: 1dd13ef2-ee4a-4487-8fc3-0e9d83a3bbd1 -->
 
-In the event that liquidity must be recovered from an ERC-4626 vault Instance and centralized in the associated ALM Proxy, a Relayer Multisig, acting as an Actor, redeems the Liquidity Layer's full vault share balance through the ERC-4626 Facet by calling the `erc4626_redeem` function on the Diamond PAU Controller, as specified in [A.2.2.10.1.1.1.2.5.2.6.3 - Redeem From ERC-4626 Vault](36511d72-f1b3-479d-b0e9-445fdb960987). If the recovered asset is USDC rather than USDS, it is swapped to USDS through the PSM Facet, as specified in [A.2.2.10.1.1.1.2.5.2.4.2 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959). The recovered USDS is then repaid and burned through the USDS Facet, as specified in [A.2.2.10.1.1.1.2.5.2.1.2 - Burn USDS](f01e63b7-dde7-422a-89a1-6931839d49f5).
+In the event that liquidity must be recovered from an ERC-4626 vault Instance and centralized in the associated ALM Proxy, a Relayer Multisig, acting as an Actor, redeems the Liquidity Layer's full vault share balance through the ERC-4626 Facet by calling the `erc4626_redeem` function on the Diamond PAU Controller, as specified in [A.2.2.10.1.1.1.2.5.2.6.3 - Redeem From ERC-4626 Vault](36511d72-f1b3-479d-b0e9-445fdb960987). On a chain other than Ethereum Mainnet, where the Diamond PAU has no PSM Facet or USDS Facet, recovered USDC is first transferred through the CCTP Facet to the Prime Agent's ALM Proxy on Ethereum Mainnet, which is the mint recipient configured for Ethereum Mainnet, as specified in [A.2.2.10.1.1.1.2.5.2.7.1 - Transfer USDC Through CCTP](ccb0c61d-0fa7-4cee-aa32-bc563cb2c787). Once the mint is completed on Ethereum Mainnet, a Relayer Multisig performs the swap and burn that follow through the Prime Agent's Liquidity Layer on Ethereum Mainnet. Where that Liquidity Layer is not a Diamond PAU, the Relayer Multisig uses its equivalent swap and burn functions. If the recovered asset is USDC rather than USDS, it is swapped to USDS through the PSM Facet, as specified in [A.2.2.10.1.1.1.2.5.2.4.2 - Swap USDC To USDS](3fd327ea-7043-434a-996a-3419e7692959). The recovered USDS is then repaid and burned through the USDS Facet, as specified in [A.2.2.10.1.1.1.2.5.2.1.2 - Burn USDS](f01e63b7-dde7-422a-89a1-6931839d49f5). Consolidating a recovered asset other than USDC on a chain other than Ethereum Mainnet will be specified in a future iteration of the Atlas.
 
 ###### A.2.2.10.1.1.1.2.5.4.2.3 - Withdraw All Positions From Basin Facet [Core]  <!-- UUID: 5938897f-e639-4568-8e84-556850a95867 -->
 
@@ -4608,8 +4659,9 @@ The eligible collateral assets and maximum liquidation loan-to-value limits are:
 | stETH | 86% |
 | WBTC | 86% |
 | sUSDS | 96.5% |
+| weETH | 77% |
 
-Lower liquidation loan-to-value tiers are permitted and may result in a lower Instance Financial CRR. The Instance Financial CRR for cbBTC, WBTC, and stETH markets using an 86% liquidation loan-to-value limit must account for any difference between that limit and the limit produced by the applicable risk model. Any collateral asset not listed herein requires due diligence and approval by the [A.0.1.1.46 - Core Council](5a03a0c4-a47a-409c-9b23-52ac93e63d45) before adoption.
+Lower liquidation loan-to-value tiers are permitted and may result in a lower Instance Financial CRR. The Instance Financial CRR for cbBTC, WBTC, and stETH markets using an 86% liquidation loan-to-value limit must account for any difference between that limit and the limit produced by the applicable risk model. weETH is eligible as collateral on Ethereum Mainnet only. weETH is subject to the weETH Exposure Cap specified in [A.2.2.10.1.1.1.3.2.5 - weETH Exposure Cap](c48c0416-46a3-47ee-845b-4b5f365bbf1c). Any collateral asset not listed herein requires due diligence and approval by the [A.0.1.1.46 - Core Council](5a03a0c4-a47a-409c-9b23-52ac93e63d45) before adoption.
 
 ###### A.2.2.10.1.1.1.3.2.3 - Oracle Requirements [Core]  <!-- UUID: be4f3bc0-70e4-478c-8c86-e889846198e3 -->
 
@@ -4632,8 +4684,9 @@ The following pricing methods apply to eligible collateral assets and must compl
 - stETH: the wstETH-to-ETH contract exchange rate multiplied by the ETH price from oracle feeds.
 - WBTC: the WBTC price from oracle feeds.
 - sUSDS: the sUSDS-to-USDS contract exchange rate multiplied by the USDS price from oracle feeds.
+- weETH: the weETH-to-ETH contract exchange rate multiplied by the ETH price from oracle feeds.
 
-Where a method combines a contract exchange rate with a price from oracle feeds, as for stETH and sUSDS, the combination is computed within the Morpho oracle contract, which must meet [A.2.2.10.1.1.1.3.2.3.4 - Morpho Oracle Contract Requirements](8394d47c-af13-4d20-af8e-6441b944c895).
+Where a method combines a contract exchange rate with a price from oracle feeds, as for stETH, sUSDS and weETH, the combination is computed within the Morpho oracle contract, which must meet [A.2.2.10.1.1.1.3.2.3.4 - Morpho Oracle Contract Requirements](8394d47c-af13-4d20-af8e-6441b944c895).
 
 ###### A.2.2.10.1.1.1.3.2.3.3 - New Collateral Oracle Approval [Core]  <!-- UUID: c7723797-b2c8-4334-a185-592797456f87 -->
 
@@ -4646,6 +4699,44 @@ A Morpho oracle contract is the contract attached to a Morpho market that reads 
 ###### A.2.2.10.1.1.1.3.2.4 - Interest Rate Requirements [Core]  <!-- UUID: 4d30ef6e-bed6-4abd-b6dd-7c748e9d7ef1 -->
 
 Morpho Blue variable-rate markets must use the Morpho Adaptive Curve Interest Rate Model (https://docs.morpho.org/developers/contracts/irm/#adaptivecurveirm). Morpho Midnight fixed-rate markets use market-set rates rather than an interest rate model. A maker posts an offer at a price in a fixed-maturity market, and the implied fixed rate for the remaining term is locked when a taker executes the offer.
+
+###### A.2.2.10.1.1.1.3.2.5 - weETH Exposure Cap [Core]  <!-- UUID: c48c0416-46a3-47ee-845b-4b5f365bbf1c -->
+
+Aggregate weETH exposure across all lending venues in the Sky Ecosystem must not exceed 60,000 weETH, except as specified in [A.2.2.10.1.1.1.3.2.5.4 - weETH Excess Exposure](b18e5038-16b7-4168-9382-622bc7ac1994). The Core Council may revise this cap based on an updated risk assessment.
+
+###### A.2.2.10.1.1.1.3.2.5.1 - weETH Exposure Counting [Core]  <!-- UUID: 751d8b2e-72dc-4c6b-bed3-38823763cfb1 -->
+
+weETH exposure is counted as follows:
+
+- SparkLend: the full amount of weETH supplied, regardless of the asset borrowed against it.
+- Morpho: the Prime Agent's aggregate supply across Morpho markets that use weETH as collateral, divided by the 30-day average weETH price and by the weETH maximum liquidation loan-to-value limit specified in [A.2.2.10.1.1.1.3.2.2 - Eligible Collateral And Liquidation Loan-To-Value Limits](fe70a940-5ada-48c5-8826-b361ef33275f).
+
+A Prime Agent's weETH exposure is the sum of its exposure across the venues it operates.
+
+The 30-day average weETH price is the average of the weETH price in USD over the preceding 30 days, calculated using the weETH method specified in [A.2.2.10.1.1.1.3.2.3.2 - Eligible Collateral Oracle Methodologies](fe7c0ccf-c570-471a-815a-6b4b9cda5e29).
+
+###### A.2.2.10.1.1.1.3.2.5.2 - weETH Allocation [Core]  <!-- UUID: d016e915-eea9-4dc1-8abf-6da358943c4f -->
+
+On November 12, 2026, the capacity remaining under the cap specified in [A.2.2.10.1.1.1.3.2.5 - weETH Exposure Cap](c48c0416-46a3-47ee-845b-4b5f365bbf1c), after counting weETH exposure across all venues, is divided equally between Spark and Grove. Spark's allocation also includes its SparkLend exposure on that date.
+
+###### A.2.2.10.1.1.1.3.2.5.3 - weETH Allocation Enforcement [Core]  <!-- UUID: 1a75baf4-4bd6-467f-9661-4ae66bd01973 -->
+
+Except as specified in [A.2.2.10.1.1.1.3.2.5.4 - weETH Excess Exposure](b18e5038-16b7-4168-9382-622bc7ac1994), each Prime Agent must enforce its allocation through the supply cap of each venue it operates:
+
+- SparkLend: the weETH Supply Cap must not exceed Spark's allocation to SparkLend.
+- Morpho: the Prime Agent's aggregate supply cap across Morpho markets that use weETH as collateral must not exceed its allocation to Morpho multiplied by the 30-day average weETH price and by the weETH maximum liquidation loan-to-value limit specified in [A.2.2.10.1.1.1.3.2.2 - Eligible Collateral And Liquidation Loan-To-Value Limits](fe70a940-5ada-48c5-8826-b361ef33275f).
+
+The Morpho supply cap is first set on November 12, 2026. It must be recalculated using the then-current 30-day average weETH price every 30 days thereafter.
+
+A Prime Agent operating more than one venue must divide its allocation between them and record the division.
+
+###### A.2.2.10.1.1.1.3.2.5.4 - weETH Excess Exposure [Core]  <!-- UUID: b18e5038-16b7-4168-9382-622bc7ac1994 -->
+
+A Prime Agent may exceed its allocation only if the Instance Financial CRR on the excess weETH exposure is 100%. Exposure above an allocation does not by itself make a Morpho vault noncompliant with the [A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework](915a36c0-754c-41f9-ada1-2fec0816f7b8), and the 100% Instance Financial CRR applies only to the excess weETH exposure.
+
+###### A.2.2.10.1.1.1.3.2.5.5 - Unused weETH Capacity [Core]  <!-- UUID: bc82068a-967d-474e-baf6-d5b2f79c89b3 -->
+
+On December 12, 2026, and every 30 days thereafter, any portion of a Prime Agent's allocation above its weETH exposure on that date is released to a shared pool. Either Prime Agent may use capacity in the shared pool on a first-used basis. Capacity a Prime Agent takes from the shared pool is added to its allocation.
 
 ###### A.2.2.10.1.1.1.3.3 - Timelock Requirements [Core]  <!-- UUID: 1078548f-1086-49d2-bc01-f5727f088e41 -->
 
@@ -4708,6 +4799,75 @@ For Grove's Morpho vault exposure, the deadline specified in [A.2.2.10.1.1.1.3.5
 ###### A.2.2.10.1.1.1.3.5.2 - Spark Exception [Core]  <!-- UUID: 33e0e235-0031-4b44-9f56-c19df46daa02 -->
 
 For Spark's Morpho vault exposure, and only for compliance with [A.2.2.10.1.1.1.3.3 - Timelock Requirements](1078548f-1086-49d2-bc01-f5727f088e41), the deadline specified in [A.2.2.10.1.1.1.3.5 - Transition And Compliance](41824fb1-a4e0-4f58-9095-0b3e646fb42c) is extended by three (3) weeks beyond the execution of the October 8, 2026 Executive Vote, to account for the timelock changes required on Spark's Morpho vaults. Until that extended deadline, an allocation to a Spark Morpho vault whose only noncompliance is with the Timelock Requirements is not subject to the Instance Financial CRR specified in [A.3.2.2.1.1.1.1.3.8.2 - Noncompliant Morpho Vault Allocations](20aa9663-214b-46f5-8b37-53be387b996b).
+
+###### A.2.2.10.1.1.1.3.6 - Morpho Vault Curation Governance Process [Core]  <!-- UUID: 4f81276e-01d0-4403-a91b-4604a00045ac -->
+
+The documents herein define the minimum governance approval, disclosure, and reporting requirements for changes to Morpho vaults used by Prime Agents. In the documents herein, governance approval means approval through the voting process defined in the Prime Agent's [A.2.2.6.2 - Root Edit Primitive](78488c6b-d77f-4344-b954-476e415a2c7d) or, where that Primitive is not operational, through the [A.2.2.6.2.3.2 - Atlas Edit Proposal Process For Prime Agents](364e52eb-4529-46a9-9852-edaaab88baeb). These requirements apply to every change to a Morpho vault, its adapters, or its markets made by a holder of the Owner, Curator, Allocator, or Sentinel role of the vault, of the Guardian role on Morpho Vaults V1.1, or of the corresponding roles of the vault's adapters. Onboarding a vault to a Prime Agent's Allocation System Primitive is governed by [A.2.2.10.1.1.2 - Allocation Instance Setup Process Definition](f47513f6-34e4-40a4-b7ff-8d68d75070be). Offboarding a vault from a Prime Agent's Allocation System Primitive requires an Artifact Edit Proposal, submitted through the process specified in [A.2.2.10.1.1.3.3.1 - Modification Of Existing Instances](c1b5708c-e88f-45e0-92e1-b76e68b34f13); the changes to the vault that the offboarding involves remain subject to the documents herein. Allocating vault assets between markets or adapters within the caps set on the vault, including, on Morpho Vaults V1.1, changes to the supply queue and to the order of the withdraw queue, and, on Morpho Vaults V2, changes to the liquidity adapter and the maximum rate, is routine operation of the vault and does not require governance approval, announcement, or reporting under the documents herein. A Prime Agent Artifact may impose stricter requirements as specified in [A.2.2.10.1.1.1.3.6.3 - Relationship To Prime Agent Artifacts](315fb6f3-2e15-445e-bfd5-4974a8bdfe2e).
+
+###### A.2.2.10.1.1.1.3.6.1 - Morpho Vault Change Categories [Core]  <!-- UUID: 2f9246e7-b8db-41da-b887-2174acc67276 -->
+
+Every change to a Morpho vault, its adapters, or its markets is classified into one of the categories defined in the documents herein. Where a change falls into more than one category, the stricter category applies, except as provided in [A.2.2.10.1.1.1.3.6.1.3 - Morpho Vault Urgent And Emergency Actions](61280f9b-b183-4a9f-bb19-0a44b747c90e). Where the category of a change is unclear, the Prime Agent's Operational Facilitator determines it. Core GovOps may require that the stricter category be applied to any change.
+
+###### A.2.2.10.1.1.1.3.6.1.1 - Morpho Vault Changes Requiring Governance Approval [Core]  <!-- UUID: f68aa50e-0eb4-4fb4-b145-616a06d8b646 -->
+
+The following changes to a Morpho vault require governance approval before they are executed:
+
+- Adding a market or an adapter to a vault, or setting or changing the adapter registry.
+- Increasing a cap: on Morpho Vaults V1.1, a market's supply cap; on Morpho Vaults V2, an absolute or relative cap.
+- Decreasing a timelock duration, except where the decrease is required to comply with [A.2.2.10.1.1.1.3.3 - Timelock Requirements](1078548f-1086-49d2-bc01-f5727f088e41).
+- Changing the holder of the Owner or Curator role, changing a Sentinel address required by [A.2.2.10.1.1.1.3.1 - Role Configuration](686b81a9-450d-4340-a25a-5a069cbe8788) except where the change is required to comply with it, or changing the Guardian on Morpho Vaults V1.1.
+- Adding an Allocator, other than the Morpho Public Allocator contract where its use is already recorded in the relevant Instance Configuration Document.
+- Setting or changing a gate.
+- Setting or changing a performance fee, a management fee, a fee recipient, or an adapter's skim recipient.
+- Abdicating a function.
+- Removing a market or an adapter from a vault, or burning an adapter's shares in a market, where the action writes off vault assets.
+- Any change not specified in [A.2.2.10.1.1.1.3.6.1.2 - Morpho Vault Changes Requiring Disclosure Only](cd925225-9ff5-4efc-9e72-45d5bee862aa) that alters a value recorded in the relevant Instance Configuration Document.
+- Any change that Operational GovOps determines to materially alter the Instance's risk profile as specified in [A.2.2.10.1.1.3.3.1.1 - Conditions Requiring Artifact Edit Proposal](3db4c73f-f480-4da4-9af3-8ecedd89e166).
+
+A change in this category must not be queued in a vault's timelock before it is approved, unless the Prime Agent Artifact defines conditions for queueing before approval.
+
+###### A.2.2.10.1.1.1.3.6.1.2 - Morpho Vault Changes Requiring Disclosure Only [Core]  <!-- UUID: cd925225-9ff5-4efc-9e72-45d5bee862aa -->
+
+The following changes to a Morpho vault do not require governance approval, but must be announced and reported as specified in [A.2.2.10.1.1.1.3.6.2 - Morpho Vault Disclosure And Reporting Requirements](d2876b82-becc-4222-bfbe-33cfebd365aa):
+
+- Setting a Sentinel address, a timelock duration, or another configuration value other than the holder of the Owner or Curator role, to the value required by the [A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework](915a36c0-754c-41f9-ada1-2fec0816f7b8), where the vault does not yet comply.
+- Decreasing a cap: on Morpho Vaults V1.1, a market's supply cap; on Morpho Vaults V2, an absolute or relative cap.
+- Increasing a timelock duration on a function for which [A.2.2.10.1.1.1.3.3 - Timelock Requirements](1078548f-1086-49d2-bc01-f5727f088e41) permits a delay.
+- Removing an Allocator.
+- Adding or removing a Sentinel address beyond those required by [A.2.2.10.1.1.1.3.1 - Role Configuration](686b81a9-450d-4340-a25a-5a069cbe8788).
+- Setting or changing the force deallocate penalty.
+- Removing a market or an adapter from a vault, where the removal does not write off any vault assets held in that market or adapter.
+- Revoking a change that is queued in a vault's timelock before it is executed.
+
+The changes listed in this document are authorized by [A.2.2.10.1.1.1.3.6 - Morpho Vault Curation Governance Process](4f81276e-01d0-4403-a91b-4604a00045ac). They are within the operational parameters of the Prime Agent Artifact for the purposes of [A.2.2.10.1.1.3.3 - Allocation Instance Adjustments, Scaling, And Settlement](93bfb0f9-d662-467d-b8bc-ef585e5b081e) and [A.2.2.10.1.1.3.3.1.1 - Conditions Requiring Artifact Edit Proposal](3db4c73f-f480-4da4-9af3-8ecedd89e166), and do not require governance approval or an Artifact Edit Proposal. Where such a change alters a value recorded in the relevant Instance Configuration Document, the change may be executed before the Artifact is updated. The Prime Agent's Operational Facilitator submits the corresponding Artifact update as a Pull Request on the basis of the change announcement, and merges it once the change has been executed and reported as specified in [A.2.2.10.1.1.1.3.6.2.2 - Morpho Vault Execution Report](9fd23d82-efac-447b-a8bb-59cdcc974aa2). The update must be completed in a timely manner and must not introduce changes beyond those necessitated by the executed change.
+
+###### A.2.2.10.1.1.1.3.6.1.3 - Morpho Vault Urgent And Emergency Actions [Core]  <!-- UUID: 61280f9b-b183-4a9f-bb19-0a44b747c90e -->
+
+In an Urgent or Emergency Situation, as defined in [A.1.9.1.1 - Definition Of Emergency Situations](5eafb29e-84a0-4a53-a798-3f958c880225), a change to a Morpho vault may be executed without the prior governance approval or announcement that [A.2.2.10.1.1.1.3.6.1.1 - Morpho Vault Changes Requiring Governance Approval](f68aa50e-0eb4-4fb4-b145-616a06d8b646) or [A.2.2.10.1.1.1.3.6.1.2 - Morpho Vault Changes Requiring Disclosure Only](cd925225-9ff5-4efc-9e72-45d5bee862aa) would otherwise require. For the purposes of this document, the situation is declared by the Prime Agent's Operational Facilitator. The declaration and its reasoning must be published in a Forum post under the Prime Agent's Forum category before the change is executed where feasible, and otherwise immediately after, unless doing so would endanger the Prime Agent, the Sky Ecosystem, or their users. Every change executed under this document must be reported as specified in [A.2.2.10.1.1.1.3.6.2.2 - Morpho Vault Execution Report](9fd23d82-efac-447b-a8bb-59cdcc974aa2). Any governance approval or Artifact update that the change would otherwise require must be sought in the next available cycle of the applicable governance process. If governance approval is not granted, the Prime Agent must restore the previous configuration, subject to the applicable timelocks, and report the restoration as specified in [A.2.2.10.1.1.1.3.6.2.2 - Morpho Vault Execution Report](9fd23d82-efac-447b-a8bb-59cdcc974aa2).
+
+###### A.2.2.10.1.1.1.3.6.2 - Morpho Vault Disclosure And Reporting Requirements [Core]  <!-- UUID: d2876b82-becc-4222-bfbe-33cfebd365aa -->
+
+The documents herein define how changes to Morpho vaults are announced before they are queued or executed, and reported after they are queued, executed, or revoked. A change is queued when it is submitted to a vault's timelock and not yet executed.
+
+###### A.2.2.10.1.1.1.3.6.2.1 - Morpho Vault Change Announcement [Core]  <!-- UUID: bf77c136-f7bb-45d6-b624-a3220d92ec23 -->
+
+Before a change specified in [A.2.2.10.1.1.1.3.6.1.1 - Morpho Vault Changes Requiring Governance Approval](f68aa50e-0eb4-4fb4-b145-616a06d8b646) or [A.2.2.10.1.1.1.3.6.1.2 - Morpho Vault Changes Requiring Disclosure Only](cd925225-9ff5-4efc-9e72-45d5bee862aa) is queued or, where no timelock applies, executed, the change must be announced in a Forum post under the Prime Agent's Forum category. For a change specified in [A.2.2.10.1.1.1.3.6.1.1 - Morpho Vault Changes Requiring Governance Approval](f68aa50e-0eb4-4fb4-b145-616a06d8b646), the announcement must be published before the vote on the change begins. The announcement is made by the holder of the role that will queue or execute the change. Where that role is held jointly by more than one entity, the Operational Executor Agent makes the announcement if it is one of them. Where that role is held by a contract, or where no joint holder is the Operational Executor Agent, the announcement is made by the entity designated for that role in the Prime Agent Artifact. Where the Artifact designates none, the Prime Agent's Operational Facilitator designates the announcing entity in a Forum post under the Prime Agent's Forum category. The announcement must use the [A.1.10.2.5.2.1 - Technical Scope Template](b9ba6658-87a9-4421-9d20-386df8cea450) or, where permitted, the [A.1.10.2.5.2.4 - Morpho Vault Change Note Template](f82537ec-50d1-44a0-ae01-0270cc091793). A change executed through an Executive Vote is announced through the Forum post required by [A.1.10.2.3.2.2.3.2.2 - Prime Agent Publishes Spell Actions On Sky Forum](2c577553-830f-4b9f-ab5f-dddd0fd62cfa) and requires no separate announcement. Revoking a queued change, removing an Allocator, decreasing a cap, and setting or changing the force deallocate penalty may be executed before they are announced by any role holder authorized to perform them, and must then be reported as specified in [A.2.2.10.1.1.1.3.6.2.2 - Morpho Vault Execution Report](9fd23d82-efac-447b-a8bb-59cdcc974aa2).
+
+###### A.2.2.10.1.1.1.3.6.2.2 - Morpho Vault Execution Report [Core]  <!-- UUID: 9fd23d82-efac-447b-a8bb-59cdcc974aa2 -->
+
+A change must be reported within twenty-four (24) hours of being queued or, where no timelock applies, executed. The report must be posted as a reply to the change's announcement or, where the change was executed before it was announced, in a new Forum post under the Prime Agent's Forum category. The report must include the transaction hash, the UTC time at which the change becomes executable or was executed, a description of the change, and a link to the related vote where applicable. A queued change that is revoked must be reported in the same way within twenty-four (24) hours of the revocation. A change executed through an Executive Vote is recorded through the spell process and requires no separate report. A change executed under [A.2.2.10.1.1.1.3.6.1.3 - Morpho Vault Urgent And Emergency Actions](61280f9b-b183-4a9f-bb19-0a44b747c90e) must be reported within twenty-four (24) hours of execution in a Forum post under the Prime Agent's Forum category, with the same information and, in addition, the reason for the change and any Artifact update that it requires. The report is made by the holder of the role that performed the action. Where a role is held jointly by more than one entity, the Operational Executor Agent makes the report if it is one of them. Where a role is held by a contract, or where no joint holder is the Operational Executor Agent, the report is made by the entity designated for that role in the Prime Agent Artifact. Where the Artifact designates none, the Prime Agent's Operational Facilitator designates the reporting entity in a Forum post under the Prime Agent's Forum category.
+
+###### A.2.2.10.1.1.1.3.6.3 - Relationship To Prime Agent Artifacts [Core]  <!-- UUID: 315fb6f3-2e15-445e-bfd5-4974a8bdfe2e -->
+
+The requirements specified in [A.2.2.10.1.1.1.3.6 - Morpho Vault Curation Governance Process](4f81276e-01d0-4403-a91b-4604a00045ac) are minimum requirements. A Prime Agent Artifact may:
+
+- require governance approval for changes that [A.2.2.10.1.1.1.3.6.1.2 - Morpho Vault Changes Requiring Disclosure Only](cd925225-9ff5-4efc-9e72-45d5bee862aa) requires only to be disclosed;
+- impose longer timelock delays where [A.2.2.10.1.1.1.3.3 - Timelock Requirements](1078548f-1086-49d2-bc01-f5727f088e41) specifies a minimum;
+- designate additional addresses that may revoke a queued change;
+- define the conditions under which a change may be queued before it is approved; and
+- designate the entities responsible for announcements and reports.
+
+A Prime Agent Artifact must not exempt a change from the requirements specified in [A.2.2.10.1.1.1.3.6 - Morpho Vault Curation Governance Process](4f81276e-01d0-4403-a91b-4604a00045ac).
 
 ###### A.2.2.10.1.1.1.6 - Security Specifications [Core]  <!-- UUID: 905a0c30-5758-48e8-9006-b52ced11fa42 -->
 
@@ -4820,15 +4980,15 @@ The Prime Agent presents the Capital and Operational Plan for the Allocation Ins
 
 ###### A.2.2.10.1.1.2.2 - Instance Codification and Validation [Core]  <!-- UUID: 410c84be-ab41-4444-a7cb-1c19a0448948 -->
 
-The documents herein define how agreements to set up an Allocation Instance are codified and validated in the Powerhouse system and how governance votes happen.
+The documents herein define how agreements to set up an Allocation Instance are codified and validated, and how governance votes happen.
 
 ###### A.2.2.10.1.1.2.2.1 - Agent Inputs [Core]  <!-- UUID: 7a36f228-0438-43da-ae5f-a43af70c0121 -->
 
-The Prime Agent drafts an update to the Prime Agent Artifact adding the Allocation Instance to the list of active Allocation Instances and including the information specified in [A.2.2.10.1.2.6 - List Of Allocation Instances](e4975062-6d19-438b-a5d5-cfc1a7fd8cb9). The Prime Agent submits the draft to the Powerhouse system. The output of this step is a draft Prime Agent Artifact update in the Powerhouse system.
+The Prime Agent drafts an update to the Prime Agent Artifact adding the Allocation Instance to the list of active Allocation Instances and including the information specified in [A.2.2.10.1.2.6 - List Of Allocation Instances](e4975062-6d19-438b-a5d5-cfc1a7fd8cb9). The Prime Agent submits the draft to the Operational Executor Facilitator. The output of this step is a draft Prime Agent Artifact update.
 
 ###### A.2.2.10.1.1.2.2.2 - Validation And Off-Chain Vote [Core]  <!-- UUID: dbae3918-75f7-469d-b623-8faa5ea7aa70 -->
 
-The Operational Executor Facilitator reviews the proposal to ensure that it is complete and aligned with the Atlas. The Operational Executor Facilitator then initiates an off-chain snapshot vote, following the quorum and majority rules in the Prime Agent Artifact. When complete, the result of the vote is recorded in the Powerhouse system. The output of this step is the snapshot vote result recorded in the Powerhouse system.
+The Operational Executor Facilitator reviews the proposal to ensure that it is complete and aligned with the Atlas. The Operational Executor Facilitator then initiates an off-chain snapshot vote, following the quorum and majority rules in the Prime Agent Artifact. The output of this step is the snapshot vote result.
 
 ###### A.2.2.10.1.1.2.2.3 - Official Update of Artifact [Core]  <!-- UUID: 2b1612b8-480c-49b3-a304-6a6f593340de -->
 
@@ -4848,7 +5008,7 @@ Once formally validated, the Prime Agent implements the new Allocation Instance 
 
 ###### A.2.2.10.1.1.2.3.2 - Initial Deployment and Required Risk Capital / Asset Liability Management Execution [Core]  <!-- UUID: 648bcae7-9723-4282-81fe-fcc77fd6f90e -->
 
-The Prime Agent finalizes JRC/SRC and Asset Liability Management Arrangements. Operational GovOps records these arrangements in the Powerhouse interface. If Operational GovOps is charged with operationalizing an Instance, it deploys funds from the Prime Agent’s Operational Buffer into the Allocation Instance, performing any necessary DEX exchanges. See [A.2.2.10.1.1.3.1 - Operationalization Of Allocation Instances](989512c2-4fa1-46b8-947c-00e3c0b56024). In doing so, Operational GovOps follows instructions in the Agent Artifact regarding the amount of capital to deploy and slippage tolerances. The output of this step is a fully deployed Allocation Instance conforming to Risk Capital and Asset Liability Management requirements.
+The Prime Agent finalizes JRC/SRC and Asset Liability Management Arrangements. Operational GovOps records these arrangements. If Operational GovOps is charged with operationalizing an Instance, it deploys funds from the Prime Agent’s Operational Buffer into the Allocation Instance, performing any necessary DEX exchanges. See [A.2.2.10.1.1.3.1 - Operationalization Of Allocation Instances](989512c2-4fa1-46b8-947c-00e3c0b56024). In doing so, Operational GovOps follows instructions in the Agent Artifact regarding the amount of capital to deploy and slippage tolerances. The output of this step is a fully deployed Allocation Instance conforming to Risk Capital and Asset Liability Management requirements.
 
 ###### A.2.2.10.1.1.3 - Allocation Instance Ongoing Management [Core]  <!-- UUID: 2db14aa7-ccfa-42f7-82a8-118048574d4c -->
 
@@ -4872,7 +5032,7 @@ The documents herein detail the obligations, processes, standards and infrastruc
 
 The Sky Core Required Risk Capital (RRC) Dashboard serves as the official system for determining and disseminating RRC figures for Prime Agents and their Allocation System Primitive Instances.
 
-Prior to the full operational deployment of the Powerhouse system, Prime Agents must utilize the Sky Core RRC Dashboard as the authoritative source for their official Instance Total RRCs and Aggregate RRC. Data from this source is to be used for all internal TRC management, required reporting and compliance assessments.
+Prime Agents must utilize the Sky Core RRC Dashboard as the authoritative source for their official Instance Total RRCs and Aggregate RRC. Data from this source is to be used for all internal TRC management, required reporting and compliance assessments.
 
 The Sky Core RRC Dashboard is located at [https://info.skyeco.com/required-risk-capital](https://info.skyeco.com/required-risk-capital).
 
@@ -4938,7 +5098,7 @@ This comprehensive reporting, encompassing both an end-of-period statement and d
 
 The TRC Report serves as an important basis for Core GovOps’ verification procedures. This entails: 1) reconciling reported end-of-period TRC components against the Sky Atlas, on-chain data, and other relevant sources to validate the period-end capital position and adherence to Atlas-defined capital requirements; and 2) reviewing Prime Agents’ attestations and disclosures regarding its TRC management and any material events throughout the reporting period to assess continuous compliance with its dynamically changing Aggregate RRC. The outcome of this validation is a critical input for the monthly settlement cycles, which latter includes the determination and retroactive application of penalties for any identified discrepancies or violations of capital requirements during the period.
 
-The long-term vision is for the Powerhouse system to enable the automation of TRC data aggregation and verification. The Powerhouse system will have capabilities such as directly querying Prime Agent SubProxy accounts for IJRC assets, programmatically accessing and interpreting Ecosystem Accords recorded in the Atlas, interfacing with TEJRC and OSRC smart contract systems, and automatically applying Atlas-defined eligibility rules. See [A.2.2.10.1.1.3.2.1.3.1 - Continuous Monitoring Of On-chain Verifiable Risk Capital (OVRC)](8048bdf0-84b7-4546-8f1a-98b62d073c84). Even in this advanced state, the TRC Report, or a similar form of periodic attestation, may remain necessary to cover elements of TRC verification that are not fully able to be automated or require explicit Prime Agent declaration.
+The long-term vision is to automate TRC data aggregation and verification, for example by directly querying Prime Agent SubProxy accounts for IJRC assets, programmatically accessing and interpreting Ecosystem Accords recorded in the Atlas, interfacing with TEJRC and OSRC smart contract systems, and automatically applying Atlas-defined eligibility rules. See [A.2.2.10.1.1.3.2.1.3.1 - Continuous Monitoring Of On-chain Verifiable Risk Capital (OVRC)](8048bdf0-84b7-4546-8f1a-98b62d073c84). Even with this automation, the TRC Report, or a similar form of periodic attestation, may remain necessary to cover elements of TRC verification that are not fully able to be automated or require explicit Prime Agent declaration.
 
 ###### A.2.2.10.1.1.3.2.1.2.3.2 - TRC Report Contents [Core]  <!-- UUID: 4887e971-be6c-4f98-9137-7cdec3ed0fa0 -->
 
@@ -5188,7 +5348,7 @@ The documents herein define the allocation steps of the Sky Treasury Management 
 
 The sole function of Step 0 is to establish the Net Revenue of the Sky Protocol. It performs no allocations to downstream functions or buffers, unlike subsequent steps for which this Net Revenue serves as the input.
 
-Net Revenue is calculated for a single calendar month. Income from and Expenses owed to Prime Agents that settle through the Monthly Settlement Cycle are recognized in the month covered by that cycle. Where an amount recognized in an earlier month is subsequently adjusted, the adjustment is likewise recognized in the month covered by the cycle that settles it, and the earlier month's Net Revenue is not changed, as specified in [A.2.4.1.2.1.4 - True Up In Subsequent Monthly Settlement Cycle](de1592f5-dbce-46de-913f-6ec9589d36e8). Stability Fees on crypto vaults, legacy Real World Assets, and the SKY-Backed Borrowing vaults are recognized as they accrue, as are the interest expenses of the Sky Savings Rate, the Dai Savings Rate, and stUSDS. All other items of Income and Expense are recognized when USDS or DAI enter or leave the Sky Surplus Buffer. Transfers out of accounts other than the Sky Surplus Buffer are not recognized as Expenses, except as provided in [A.2.3.1.2.2.2.1.6.4 - Expense Recognition For Legacy Account Consolidation](1760b35f-da5a-4504-a014-dd7a611b4c0e).
+Net Revenue is calculated for a single calendar month. Income from and Expenses owed to Prime Agents that settle through the Monthly Settlement Cycle are recognized in the month covered by that cycle. Where an amount recognized in an earlier month is subsequently adjusted, the adjustment is likewise recognized in the month covered by the cycle that settles it, and the earlier month's Net Revenue is not changed, as specified in [A.2.4.1.2.1.4 - True Up In Subsequent Monthly Settlement Cycle](de1592f5-dbce-46de-913f-6ec9589d36e8). Stability Fees on crypto vaults, legacy Real World Assets, and the SKY-Backed Borrowing vaults are recognized as they accrue, as are the interest expenses of the Sky Savings Rate, the Dai Savings Rate, and stUSDS. The Demand Side Buffer replenishment amount for a month, as specified in [A.2.4.1.2.1.1.2 - Demand Side Buffer Replenishment](e87fe248-5983-41d5-9c7a-75064a18d476) and finalized in the Final Calculation, is recognized as an Expense in that month, and not when it is transferred from the Sky Surplus Buffer. [A.2.3.1.2.1.3.3 - Distribution Rewards](2177f303-a0a7-4807-b815-d17aa76a264e), [A.2.3.1.2.1.3.2 - Sky Savings Rate Paid Through Integration Boost](feb95aa7-e1b1-4ba8-a9a5-f99b5a21477e), and [A.2.3.1.2.1.3.5 - Pioneer Rewards](33c56bad-c422-48f4-bcca-dc8794c6a0da), to the extent paid from the Demand Side Buffer or its auxiliary accounts, are recognized only through this replenishment. Other transfers between the Sky Surplus Buffer and the Demand Side Buffer, including top-ups through an Executive Vote, are transfers between accounts of Sky and are not recognized as Income or Expenses. All other items of Income and Expense are recognized when USDS or DAI enter or leave the Sky Surplus Buffer. Transfers out of accounts other than the Sky Surplus Buffer are not recognized as Expenses, except as provided in [A.2.3.1.2.2.2.1.6.4 - Expense Recognition For Legacy Account Consolidation](1760b35f-da5a-4504-a014-dd7a611b4c0e).
 
 ###### A.2.3.1.2.1.1 - Net Revenue [Core]  <!-- UUID: bddce7bf-c568-444b-b196-e15a99016696 -->
 
@@ -5252,7 +5412,7 @@ Reimbursement Rewards are paid to Prime Agents to reimburse them for the costs o
 
 ###### A.2.3.1.2.1.3.5 - Pioneer Rewards [Core]  <!-- UUID: 33c56bad-c422-48f4-bcca-dc8794c6a0da -->
 
-Pioneer Rewards are paid to Pioneer Primes as specified in [A.2.2.9.3.1.4 - Pioneer Incentive Pool](04edac33-19d5-4a87-a8ab-945a0cd57771).
+Pioneer Rewards are the Pioneer Incentive payments made to Pioneer Primes as specified in [A.2.2.9.3.1.4 - Pioneer Incentive Pool](04edac33-19d5-4a87-a8ab-945a0cd57771).
 
 ##### A.2.3.1.2.2 - Step 1: Security And Maintenance [Core]  <!-- UUID: 324e9d22-70fe-4e44-82ab-118815f5c42e -->
 
@@ -5320,7 +5480,9 @@ All funds that would otherwise be transferred into or out of Legacy Accounts mus
 
 ###### A.2.3.1.2.2.2.1.6.4 - Expense Recognition For Legacy Account Consolidation [Core]  <!-- UUID: 1760b35f-da5a-4504-a014-dd7a611b4c0e -->
 
-The consolidation of funds from Legacy Accounts into the Core Council Buffer or the Demand Side Buffer (see [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) is recognized as a one-time expense for purposes of [A.2.3.1.2.1 - Step 0: Net Revenue](c09435ff-d876-442a-899c-ad494175500b). This achieves the same result as if the funds in Legacy Accounts had been returned to the Sky Surplus Buffer and subsequently transferred to the relevant downstream account.
+The consolidation of funds from Legacy Accounts into the Core Council Buffer is recognized as a one-time Expense for purposes of [A.2.3.1.2.1 - Step 0: Net Revenue](c09435ff-d876-442a-899c-ad494175500b). This achieves the same result as if the funds in Legacy Accounts had been returned to the Sky Surplus Buffer and subsequently transferred to the Core Council Buffer.
+
+The consolidation of funds from Legacy Accounts into the Demand Side Buffer (see [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) is a transfer between accounts of Sky and is not recognized as an Expense. Payments made from those funds are recognized as Expenses through the Demand Side Buffer replenishment, as specified in [A.2.4.1.2.1.1.2 - Demand Side Buffer Replenishment](e87fe248-5983-41d5-9c7a-75064a18d476). Funds in the Demand Side Buffer at the start of October 2026 are addressed in [A.2.4.1.2.1.5.5 - Transition To Demand Side Buffer Replenishment](075ac7f9-4c78-4dd1-a9b2-225071c09cd2).
 
 ###### A.2.3.1.2.2.2.2 - Aligned Delegates Buffer [Core]  <!-- UUID: 05fa5c41-26ca-4c25-94dd-834ef72c318a -->
 
@@ -5435,9 +5597,17 @@ Within seven (7) calendar days of the end of each month, each Operational Execut
 
 For each Prime Agent, the Initial Calculation must specify whether payments with respect to Demand Side Stablecoin Primitives (see [A.2.2.9 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d)) have already been made by the Operational Executor Agent, and thus should be reimbursed to the Operational Executor Agent instead of being paid to the Prime Agent.
 
+###### A.2.4.1.2.1.1.2 - Demand Side Buffer Replenishment [Core]  <!-- UUID: e87fe248-5983-41d5-9c7a-75064a18d476 -->
+
+The last Initial Calculation posted for a given month must also include the amount to be transferred to the Demand Side Buffer (see [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) to replenish it. This amount is the total of the Distribution Reward and Integration Boost payments and the Pioneer Rewards (see [A.2.3.1.2.1.3.5 - Pioneer Rewards](33c56bad-c422-48f4-bcca-dc8794c6a0da)) paid from the Demand Side Buffer and its auxiliary accounts during that month, other than payments excluded under [A.2.4.1.2.1.5.5 - Transition To Demand Side Buffer Replenishment](075ac7f9-4c78-4dd1-a9b2-225071c09cd2), less any such amounts returned to the Demand Side Buffer or its auxiliary accounts during that month, with each of the three shown separately. Transfers between the Demand Side Buffer and its auxiliary accounts are disregarded.
+
+Any negative amount carried forward from the previous month is added to this amount. If the result is negative, no transfer is made to the Demand Side Buffer for that month, no Expense is recognized for it, and the negative amount is carried forward to the following month.
+
+The resulting amount is recognized as an Expense for that month as specified in [A.2.3.1.2.1 - Step 0: Net Revenue](c09435ff-d876-442a-899c-ad494175500b).
+
 ###### A.2.4.1.2.1.2 - Final Calculation By Core GovOps [Core]  <!-- UUID: 9de89bf3-9051-44f1-9ec0-d362ee4d4b38 -->
 
-Within twelve (12) calendar days of the end of each month, Core GovOps replies to the Monthly Settlement Cycle Post with the final calculation of the net amounts due to or from each Prime Agent (the "Final Calculation"). The Final Calculation should also include the final amounts to be transferred to the Core Council and Aligned Delegates Buffers (see [A.2.3.1.2.2 - Step 1: Security And Maintenance](324e9d22-70fe-4e44-82ab-118815f5c42e)). If there are any Disputed Amounts (see [A.2.4.1.2.1.2.2 - Disputed Amount](4ddda7cd-9942-4f60-9555-6b3f16770334)), then Core GovOps must resolve them. Core GovOps must work with the relevant Operational Executor Agent and relevant Prime Agents to reach a mutually acceptable resolution and may consult other parties to the extent it deems advisable. Where amounts settled are subsequently determined to be incorrect, they are trued up in a subsequent Monthly Settlement Cycle (see [A.2.4.1.2.1.4 - True Up In Subsequent Monthly Settlement Cycle](de1592f5-dbce-46de-913f-6ec9589d36e8)).
+Within twelve (12) calendar days of the end of each month, Core GovOps replies to the Monthly Settlement Cycle Post with the final calculation of the net amounts due to or from each Prime Agent (the "Final Calculation"). The Final Calculation should also include the final amounts to be transferred to the Core Council and Aligned Delegates Buffers (see [A.2.3.1.2.2 - Step 1: Security And Maintenance](324e9d22-70fe-4e44-82ab-118815f5c42e)) and to the Demand Side Buffer (see [A.2.4.1.2.1.1.2 - Demand Side Buffer Replenishment](e87fe248-5983-41d5-9c7a-75064a18d476)), showing separately any negative amount carried forward and any transfer to the Demand Side Buffer that is not recognized as an Expense. If there are any Disputed Amounts (see [A.2.4.1.2.1.2.2 - Disputed Amount](4ddda7cd-9942-4f60-9555-6b3f16770334)), then Core GovOps must resolve them. Core GovOps must work with the relevant Operational Executor Agent and relevant Prime Agents to reach a mutually acceptable resolution and may consult other parties to the extent it deems advisable. Where amounts settled are subsequently determined to be incorrect, they are trued up in a subsequent Monthly Settlement Cycle (see [A.2.4.1.2.1.4 - True Up In Subsequent Monthly Settlement Cycle](de1592f5-dbce-46de-913f-6ec9589d36e8)).
 
 Core GovOps makes the final decision in resolving any Disputed Amounts. The Final Calculation must specify the Final Amount and contain reasonable supporting detail. The required contents of the Final Calculation will be further specified in a future iteration of the Atlas.
 
@@ -5502,6 +5672,19 @@ For the Monthly Settlement Cycle conducted in October 2025, the Initial Calculat
 There was no Monthly Settlement Cycle conducted in December 2025. Instead, the Monthly Settlement Cycle conducted in January 2026 was for the two (2) month period from November 1, 2025 to December 31, 2025.
 
 For the Monthly Settlement Cycle conducted in January 2026, the Independent Calculation prepared by the Core Council Risk Advisor on behalf of the Core Council was required to include only calculations related to Spark. The Initial Calculation prepared by Operational Executor Agent Amatsu was required to be prepared normally. The calculations related to Spark were subject to the normal resolution process defined in [A.2.4.1.2.1.2 - Final Calculation By Core GovOps](9de89bf3-9051-44f1-9ec0-d362ee4d4b38). For all other calculations, the amounts in the Initial Calculation were treated as Agreed Amounts.
+
+###### A.2.4.1.2.1.5.5 - Transition To Demand Side Buffer Replenishment [Core]  <!-- UUID: 075ac7f9-4c78-4dd1-a9b2-225071c09cd2 -->
+
+The recognition of Demand Side Buffer payments and transfers specified in [A.2.3.1.2.1 - Step 0: Net Revenue](c09435ff-d876-442a-899c-ad494175500b), [A.2.3.1.2.2.2.1.6.4 - Expense Recognition For Legacy Account Consolidation](1760b35f-da5a-4504-a014-dd7a611b4c0e), and [A.2.4.1.2.1.1.2 - Demand Side Buffer Replenishment](e87fe248-5983-41d5-9c7a-75064a18d476) applies beginning with October 2026. Before then, transfers from the Sky Surplus Buffer to the Demand Side Buffer and consolidations of funds from Legacy Accounts into the Demand Side Buffer were recognized as Expenses when made.
+
+The combined balance of the Demand Side Buffer and its auxiliary accounts at 00:00 UTC on October 1, 2026 (the "Opening Balance") was funded from amounts already recognized as Expenses or already allocated through the Core Council Buffer. Beginning with October 2026, payments from the Demand Side Buffer and its auxiliary accounts are treated as funded first from the Opening Balance until it is exhausted, and these payments are excluded from the Demand Side Buffer replenishment amount. Until the Opening Balance is exhausted, each Final Calculation states the amount of it remaining.
+
+For the Monthly Settlement Cycle covering October 2026:
+
+- if the Initial Calculation does not include the Demand Side Buffer replenishment amount, the Final Calculation includes it; and
+- Core GovOps may include in the Final Calculation a one-time top-up of 1,000,000 USDS to the Demand Side Buffer, which is not recognized as an Expense.
+
+This document applies even if the Initial Calculation or the Final Calculation for the Monthly Settlement Cycle covering October 2026 is posted before this document takes effect. If the Final Calculation has been posted before then, Core GovOps posts a supplement to it including these amounts, and the resulting transfer is made in the same way as other transfers under the Final Calculation.
 
 ##### A.2.4.1.2.2 - Implementation Stages [Core]  <!-- UUID: cf1d76c1-fc9f-499d-866f-265276e421f0 -->
 
@@ -6348,6 +6531,12 @@ The founding team of Spark has proposed a cash grant of 865,000 USDS to the Spar
 
 Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads.
 
+###### A.2.8.2.2.2.4.5.1.7 - Spark Foundation Grant Authorization: December 2026 [Core]  <!-- UUID: 90eaac9a-c22d-44bf-9b7b-4c98f1be6c46 -->
+
+The founding team of Spark has proposed a cash grant of 865,000 USDS to the Spark Foundation from Spark's Prime Treasury to cover December 2026 Spark Foundation expenses. Additionally, the founding team of Spark has proposed a grant of 45,000 USDS to the Spark Asset Foundation from Spark's Prime Treasury to cover December 2026 Spark Asset Foundation expenses.
+
+Sky Governance hereby consents to these grants and authorizes the execution of the associated funding payloads. The grants are paid from the Spark SubProxy in a Spark Spell included in the November 19, 2026 Executive Vote.
+
 ###### A.2.8.2.2.2.4.5.2 - Grove Foundation Grant Authorizations [Core]  <!-- UUID: db86fa15-45c6-4a44-9c2a-652fd3d227b0 -->
 
 The documents herein record Sky Governance authorizations for grants to the Grove Foundation.
@@ -6397,6 +6586,12 @@ The grant authorized in [A.2.8.2.2.2.4.5.2.4 - Grove Foundation Grant Authorizat
 The founding team of Grove has proposed a cash grant of 800,000 USDS to the Grove Foundation from Grove's Prime Treasury for October 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
 
 Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payload. The transfer must be made to the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in a Grove Spell included in a Sky Executive Vote unless otherwise agreed by Sky and Grove.
+
+###### A.2.8.2.2.2.4.5.2.6 - Grove Foundation Grant Authorization: November 2026 [Core]  <!-- UUID: 00be9ea2-5227-4ce3-9a33-a58b8944c50c -->
+
+The founding team of Grove has proposed a cash grant of 800,000 USDS to the Grove Foundation from Grove's Prime Treasury for November 2026. The purpose of this grant is to enable the Grove Foundation to fulfill its purpose of promoting the growth and development of Grove. This funding will support essential activities such as engineering and product development, community engagement and growth initiatives, research and governance contributions, infrastructure and operational maintenance, and administrative operations.
+
+Sky Governance hereby consents to this grant and authorizes the execution of the associated funding payload. The grant is paid to the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` in a Grove Spell included in the November 19, 2026 Executive Vote.
 
 ###### A.2.8.2.2.2.4.6 - Genesis Capital Backstop [Core]  <!-- UUID: 20e8467f-561c-4020-bd26-e6c1601fb64d -->
 
