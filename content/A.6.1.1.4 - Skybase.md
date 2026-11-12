@@ -498,15 +498,11 @@ The documents herein define the process for using the Root Edit Primitive to upd
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission [Core]  <!-- UUID: f57f157c-c260-4671-8150-01acabcd286d -->
 
-The Root Edit process begins with a SKYBASE token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A SKYBASE token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Skybase Prime" category.
+The Root Edit process begins with a SKYBASE token holder submitting a proposal containing a draft Artifact Edit Proposal. A SKYBASE token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must be posted on the Sky Forum under the "Skybase Prime" category. The title of the post must include the text "Skybase Artifact Edit Proposal". Where the token-holding requirement applies, the post must include cryptographic proof that the author controls an account holding at least 1% of the circulating token supply.
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.1.1 - Root Edit Proposal Submission Requirements Exception [Core]  <!-- UUID: 502d08e5-d705-4443-bb71-f29580847d74 -->
 
 For proposals that solely entail a buyback or a grant of SKYBASE tokens, the requirement that SKYBASE token holders must hold at least 1% of the circulating token supply to submit a proposal is waived. However, all other procedural requirements within the Root Edit process continue to apply.
-
-###### A.6.1.1.4.2.2.2.2.1.2.1.1.2 - Short-Term Transitionary Measures [Core]  <!-- UUID: f88fc097-7e41-41d7-aac9-992a9a11919f -->
-
-Until the Powerhouse system supports submitting Artifact Edit Proposals, SKYBASE token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Skybase Prime" category. The title of the post must include the text "Skybase Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total SKYBASE token supply specified in [A.6.1.1.4.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](f57f157c-c260-4671-8150-01acabcd286d).
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.2 - Root Edit Expert Advisor Review [Core]  <!-- UUID: 451079fe-fd11-4fef-ae51-6cb533a644c5 -->
 
@@ -526,11 +522,7 @@ Where their review of the proposal results in a finding of alignment with the Sk
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.5 - Root Edit Artifact Update [Core]  <!-- UUID: b91f0f85-680d-4eeb-9a2e-7e0e245e4c6d -->
 
-At the conclusion of the poll, if the proposal is approved, the Operational Facilitator submits the edit to Powerhouse to formally update the Agent Artifact. Regardless of the outcome, the Operational Facilitator updates the Powerhouse System to include the result of the vote, including any pertinent documents.
-
-###### A.6.1.1.4.2.2.2.2.1.2.1.5.1 - Short-Term Transitionary Measures [Core]  <!-- UUID: 1adf5e90-53a8-4036-9964-11430891137e -->
-
-Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect proposals approved by Prime Governance.
+At the conclusion of the poll, if the proposal is approved, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect the approved proposal. Regardless of the outcome, the Operational Facilitator records the result of the vote, including any pertinent documents, in the Sky Forum post for the proposal.
 
 ###### A.6.1.1.4.2.2.2.2.1.2.1.6 - Artifact Edit Restrictions [Core]  <!-- UUID: f3e8ecec-cb08-4682-9218-d13f567fc00e -->
 

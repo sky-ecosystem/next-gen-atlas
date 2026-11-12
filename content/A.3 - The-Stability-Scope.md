@@ -1517,13 +1517,13 @@ $$
 AF = \Pi{[1 - \text{effAuditValue} \times \text{decayFactor}]}
 $$
 
-The audit from each audit firm with the highest product of Effective Audit Value and Delay factor should be included in this calculation.
+The audit from each audit firm with the highest product of Effective Audit Value and Decay Factor should be included in this calculation.
 
 The parameters of this formula are specified in the subdocuments herein.
 
 ###### A.3.2.2.1.2.2.5.1 - Effective Audit Value [Core]  <!-- UUID: ade75eba-ac08-465c-a8a1-4ccaf5b99109 -->
 
-The Effective Audit Value $\text{effAuditValue}$ measures the effectiveness of a single audit in reducing the risk of a set of smart contracts and is a function of the percent of the code covered by the audit and the reputation of the audit firm. The $\text{effAuditValue}$ is calculated as:
+The Effective Audit Value $\text{effAuditValue}$ measures the effectiveness of a single audit in reducing the risk of a set of smart contracts and is a function of the percent of the code covered by the audit and the category of the audit firm. The $\text{effAuditValue}$ is calculated as:
 
 $$
 \text{effAuditValue} = \text{effectivenessCoefficient} \times \text{coverage}
@@ -1551,15 +1551,15 @@ The Total Lines Of Code $\text{TotalLinesOfCode}$ is the total number of lines o
 
 ###### A.3.2.2.1.2.2.5.1.2 - Effectiveness Coefficient [Core]  <!-- UUID: d281c572-ff98-43ba-a01d-e54657b50ab9 -->
 
-The Effectiveness Coefficient $\text{effectivenessCoefficient}$ is a measure of the effectiveness of the particular audit firm and is estimated based on the tier of the audit firm, as specified in [A.1.10.1.3.3 - Recognized Audit Firms](4a6e09e6-9e9d-45f0-923a-9c842faa7708). Audits from firms other than the ones specified therein may not be included in the calculation of the Audit Adjustment Factor.
+The Effectiveness Coefficient $\text{effectivenessCoefficient}$ is the weight applied to an audit in the Effective Audit Value. It is set by the category of the audit firm that performed the audit, as specified in [A.1.10.1.3.3 - Recognized Audit Firms](4a6e09e6-9e9d-45f0-923a-9c842faa7708). Audits from other firms are excluded from the calculation of the Audit Factor.
 
-###### A.3.2.2.1.2.2.5.1.2.1 - Top-Tier Effectiveness Coefficient [Core]  <!-- UUID: b4a13cfc-1fef-47da-a350-6e81346203f4 -->
+###### A.3.2.2.1.2.2.5.1.2.1 - Category 1 Effectiveness Coefficient [Core]  <!-- UUID: b4a13cfc-1fef-47da-a350-6e81346203f4 -->
 
-The Effectiveness Coefficient of a top-tier audit firm is set to `0.8`.
+The Effectiveness Coefficient of a Category 1 audit firm is set to `0.8`.
 
-###### A.3.2.2.1.2.2.5.1.2.2 - Mid-Tier Effectiveness Coefficient [Core]  <!-- UUID: 18e07645-44c3-4175-8941-d7010233288a -->
+###### A.3.2.2.1.2.2.5.1.2.2 - Category 2 Effectiveness Coefficient [Core]  <!-- UUID: 18e07645-44c3-4175-8941-d7010233288a -->
 
-The Effectiveness Coefficient of a mid-tier audit firm is set to `0.5`.
+The Effectiveness Coefficient of a Category 2 audit firm is set to `0.5`.
 
 ###### A.3.2.2.1.2.2.5.2 - Decay Factor [Core]  <!-- UUID: 7ccfae3d-59ae-433e-adba-7822ae335755 -->
 
@@ -2232,7 +2232,7 @@ Total Senior Risk Capital (TSRC) is the amount of Senior Risk Capital that is av
 
 ###### A.3.2.2.4.3.3 - Bidding Process [Core]  <!-- UUID: 33ef06d4-6ee3-4302-943d-1b932d8c88b4 -->
 
-Participating Prime Agents submit bids via the Powerhouse interface during the defined bidding window. Each bid must specify: (1) The quantity of SRC the Prime seeks to originate, and (2) The maximum price the Prime is willing to pay (expressed in basis points above the Base Rate) for using the OSRC during the upcoming monthly period. Additional operational details will be specified in a future iteration of the Atlas.
+Participating Prime Agents submit bids during the defined bidding window. Each bid must specify: (1) The quantity of SRC the Prime seeks to originate, and (2) The maximum price the Prime is willing to pay (expressed in basis points above the Base Rate) for using the OSRC during the upcoming monthly period. Additional operational details will be specified in a future iteration of the Atlas.
 
 ###### A.3.2.2.4.3.4 - Allocation & Clearing Price Determination [Core]  <!-- UUID: 0234bb0c-4686-40bc-94e5-13cd8bcd0db7 -->
 

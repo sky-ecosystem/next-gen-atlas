@@ -482,15 +482,11 @@ The documents herein define the process for using the Root Edit Primitive to upd
 
 ###### A.6.1.1.3.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission [Core]  <!-- UUID: 98f59541-8896-4e64-8e99-2b25e7791bf0 -->
 
-The Root Edit process begins with a KEEL token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A KEEL token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Keel Prime" category.
+The Root Edit process begins with a KEEL token holder submitting a proposal containing a draft Artifact Edit Proposal. A KEEL token holder must hold at least 1% of the circulating token supply to submit a proposal. The proposal must be posted on the Sky Forum under the "Keel Prime" category. The title of the post must include the text "Keel Artifact Edit Proposal". Where the token-holding requirement applies, the post must include cryptographic proof that the author controls an account holding at least 1% of the circulating token supply.
 
 ###### A.6.1.1.3.2.2.2.2.1.2.1.1.1 - Root Edit Proposal Submission Requirements Exception [Core]  <!-- UUID: b3c428c6-d73f-4ed3-a876-dcc130e23ab4 -->
 
 For proposals that solely entail a buyback or a grant of KEEL tokens, the requirement that KEEL token holders must hold at least 1% of the circulating token supply to submit a proposal is waived. However, all other procedural requirements within the Root Edit process continue to apply.
-
-###### A.6.1.1.3.2.2.2.2.1.2.1.1.2 - Short-Term Transitionary Measures [Core]  <!-- UUID: d4c3c15b-7cdc-4c57-9bf0-53bbfd95e52c -->
-
-Until the Powerhouse system supports submitting Artifact Edit Proposals, KEEL token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Keel Prime" category. The title of the post must include the text "Keel Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total KEEL token supply specified in [A.6.1.1.3.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](98f59541-8896-4e64-8e99-2b25e7791bf0).
 
 ###### A.6.1.1.3.2.2.2.2.1.2.1.2 - Root Edit Expert Advisor Review [Core]  <!-- UUID: b9858413-c2da-4e8f-9945-b03acb0b64f6 -->
 
@@ -510,11 +506,7 @@ Where their review of the proposal results in a finding of alignment with the Sk
 
 ###### A.6.1.1.3.2.2.2.2.1.2.1.5 - Root Edit Artifact Update [Core]  <!-- UUID: 293c49b9-48f4-433c-820f-4915696f742f -->
 
-At the conclusion of the poll, if the proposal is approved, the Operational Facilitator submits the edit to Powerhouse to formally update the Agent Artifact. Regardless of the outcome, the Operational Facilitator updates the Powerhouse System to include the result of the vote, including any pertinent documents.
-
-###### A.6.1.1.3.2.2.2.2.1.2.1.5.1 - Short-Term Transitionary Measures [Core]  <!-- UUID: d76d266f-50b3-4100-b198-c9d403ad50fd -->
-
-Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect proposals approved by Prime Governance.
+At the conclusion of the poll, if the proposal is approved, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect the approved proposal. Regardless of the outcome, the Operational Facilitator records the result of the vote, including any pertinent documents, in the Sky Forum post for the proposal.
 
 ###### A.6.1.1.3.2.2.2.2.1.2.1.6 - Artifact Edit Restrictions [Core]  <!-- UUID: e86acb47-775f-4f02-8cef-26eac82dd358 -->
 
