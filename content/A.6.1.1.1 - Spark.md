@@ -1712,7 +1712,7 @@ The documents herein contain the ALM Contract Addresses for the Spark Liquidity 
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.1 - ALM Controller (MainnetController) Contract Address [Core]  <!-- UUID: 3546c2d3-7b7c-4446-aa16-ff357c1a7a0f -->
 
-The address of the ALM_CONTROLLER (MainnetController) contract is: `TBD`
+The address of the ALM_CONTROLLER (MainnetController) contract is: `0xc953972Cd006d1f12686fd7185c6D443b15900Cd`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.2 - ALM Controller (MainnetController) Contract Version [Core]  <!-- UUID: d7b0b6a0-0bac-4169-a006-4a375cba4baa -->
 
