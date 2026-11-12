@@ -508,17 +508,13 @@ The documents herein define the process for using the Root Edit Primitive to upd
 
 ###### A.6.1.1.2.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission [Core]  <!-- UUID: e9ae4a8a-3e61-488c-8f8b-d0062f46644d -->
 
-The Root Edit process begins with a GROVE token holder submitting a proposal through the Powerhouse system containing a draft Artifact Edit Proposal. A GROVE token holder must hold at least 1% of the total token supply to submit a proposal. The proposal must also be posted on the Sky Forum under the "Grove Prime" category.
+The Root Edit process begins with a GROVE token holder submitting a proposal containing a draft Artifact Edit Proposal. A GROVE token holder must hold at least 1% of the total token supply to submit a proposal. The proposal must be posted on the Sky Forum under the "Grove Prime" category. The title of the post must include the text "Grove Artifact Edit Proposal". Where the token-holding requirement applies, the post must include cryptographic proof that the author controls an account holding at least 1% of the total token supply.
 
 ###### A.6.1.1.2.2.2.2.2.1.2.1.1.1 - Root Edit Proposal Submission Requirements Exception For Nested Contributors [Core]  <!-- UUID: 6120ba4b-afcf-49db-9a9a-55e1fd00e933 -->
 
 Nested Contributors are always authorized to submit Artifact Edit Proposals and do not have to fulfill the token-holding requirements defined in [A.6.1.1.2.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](e9ae4a8a-3e61-488c-8f8b-d0062f46644d). However, all other procedural requirements within the Root Edit process continue to apply.
 
 To see the Agent’s Nested Contributors, see [A.6.1.1.2.2.1.1.3.1.1.5 - Development Company](830f6fb5-1037-4516-9efa-d7101553a3d0).
-
-###### A.6.1.1.2.2.2.2.2.1.2.1.1.2 - Short-Term Transitionary Measures [Core]  <!-- UUID: a0b401ae-1ced-43af-ab0b-2eb16b797270 -->
-
-Until the Powerhouse system supports submitting Artifact Edit Proposals, GROVE token holders may submit Artifact Edit Proposals by posting them to the Sky Forum under the "Grove Prime" category. The title of the post must include the text "Grove Artifact Edit Proposal". The post must include cryptographic proof that the author controls an account holding the required percentage of the total GROVE token supply specified in [A.6.1.1.2.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](e9ae4a8a-3e61-488c-8f8b-d0062f46644d).
 
 ###### A.6.1.1.2.2.2.2.2.1.2.1.2 - Root Edit Expert Advisor Review [Core]  <!-- UUID: 3cdc7302-7f68-4143-8243-685e0681991d -->
 
@@ -546,11 +542,7 @@ Proposals that do not require Core Council Risk Advisor approval may instead fol
 
 ###### A.6.1.1.2.2.2.2.2.1.2.1.5 - Root Edit Artifact Update [Core]  <!-- UUID: a3dcb3c9-7e5a-48b1-aac8-9af4b5dfcfc2 -->
 
-At the conclusion of the poll, if the proposal is approved, the Operational Facilitator submits the edit to Powerhouse to formally update the Agent Artifact. Regardless of the outcome, the Operational Facilitator updates the Powerhouse System to include the result of the vote, including any pertinent documents.
-
-###### A.6.1.1.2.2.2.2.2.1.2.1.5.1 - Short-Term Transitionary Measures [Core]  <!-- UUID: c05f5877-d0e5-49dd-9608-86aa70d58cc0 -->
-
-Until the Powerhouse system supports updating Agent Artifacts, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect proposals approved by Prime Governance.
+At the conclusion of the poll, if the proposal is approved, the Operational Facilitator works with the Core Facilitator to update the Atlas GitHub repository located at [https://github.com/sky-ecosystem/next-gen-atlas/pulls](https://github.com/sky-ecosystem/next-gen-atlas/pulls) to reflect the approved proposal. Regardless of the outcome, the Operational Facilitator records the result of the vote, including any pertinent documents, in the Sky Forum post for the proposal.
 
 ###### A.6.1.1.2.2.2.2.2.1.2.1.6 - Artifact Edit Restrictions [Core]  <!-- UUID: d3c68da3-81ff-4b73-a50c-1f9de5b6ff7f -->
 
@@ -2011,15 +2003,15 @@ The maximum amount of USDC that can be sent to the Base ALM Proxy (`LIMIT_USDC_T
 
 The maximum amount of USDC that can be bridged to Base ALM Proxy using the Circle Cross-Chain Transfer Protocol (`LIMIT_USDC_TO_CCTP_Base`) is specified in the document herein.
 
-- `maxAmount`: 50,000,000 USDC
-- `slope`: 50,000,000 USDC per day
+- `maxAmount`: 100,000,000 USDC
+- `slope`: 100,000,000 USDC per day
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.1.3.3 - Maximum USDC Bridged From Base To Ethereum Mainnet Via Circle CCTP [Core]  <!-- UUID: 9575357d-2778-4556-80d8-ca1e4ab293a6 -->
 
 The maximum amount of USDC that can be bridged to Ethereum Mainnet from the Base ALM Proxy using the Circle Cross-Chain Transfer Protocol (`LIMIT_USDC_TO_CCTP_Ethereum`) is specified in the document herein.
 
-- `maxAmount`: 50,000,000 USDC
-- `slope`: 50,000,000 USDC per day
+- `maxAmount`: 100,000,000 USDC
+- `slope`: 100,000,000 USDC per day
 
 ###### A.6.1.1.2.2.6.1.2.1.1.3.2 - Diamond PAU Rate Limit IDs [Core]  <!-- UUID: 6becf94f-f2fc-4ac3-955b-61a10c738506 -->
 
@@ -7848,9 +7840,17 @@ The documents herein define the Instance contract addresses.
 
 `0xab8306d9FeFBE8183c3C59cA897A2E0Eb5beFE67`
 
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.2.5 - Mint Address [Core]  <!-- UUID: abcf442e-18fa-4251-a087-02d54b56562f -->
+
+`0xC6A7d3662e7d38f8e3a1e991116F6c3628bd7EDf`
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.2.6 - Redeem Address [Core]  <!-- UUID: 231842ff-06a7-4e12-95d0-a3aa12541c21 -->
+
+`0x9307672C95c7B92e659da63EF5ee64B0C0D14619`
+
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: c5462c4a-eb73-40c3-bc66-6224fb0d7359 -->
 
-The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+The specific `RateLimitID`(s) for this conduit’s inflow, outflow, mint, and redeem operations are defined in the subdocuments herein.
 
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.3.1 - Inflow RateLimitID [Core]  <!-- UUID: 94e3de3e-d8b7-4d23-8b97-8fd6d4c56281 -->
 
@@ -7860,9 +7860,17 @@ The inflow RateLimitID is: `0xf49540d3618324319b2da1f511b10e85ace863c455904b9deb
 
 The outflow RateLimitID is: `0x42ad76bdc643205fd16f00e7e67f0d5e7ae13541010329da7677ea4ddc7e59e3`.
 
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.3.3 - Mint RateLimitID [Core]  <!-- UUID: 73648c5a-5b28-405f-bd21-e4bba460154f -->
+
+The mint RateLimitID is: `0xea0f33045eb082389eaf4712648922a79faf3b8e3ba1cfc06bb0df5675487b5b`.
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.3.4 - Redeem RateLimitID [Core]  <!-- UUID: d2f10851-7743-4f2c-9195-674a1af5ea33 -->
+
+The redeem RateLimitID is: `0xab0da394ddd0f939d9c635dce379700edf9baad5c1d8be5899a8ea9f0c2f6931`.
+
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.4 - Rate Limits [Core]  <!-- UUID: d60717bb-c122-49b9-9617-d121c05f60cb -->
 
-The current `maxAmount` and `slope` for this conduit’s inflow and outflow are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit’s inflow, outflow, mint, and redeem operations are defined in the subdocuments herein.
 
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: 880c8154-4959-4875-b696-3133f795fe02 -->
 
@@ -7874,6 +7882,20 @@ The deposit rate limit parameters are:
 ###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: ce3f0a10-568d-4525-b69d-1669c3cb2e8c -->
 
 The withdrawal rate limit parameters are:
+
+- `maxAmount`: 10,000,000 AUSD
+- `slope`: 100,000,000 AUSD per day
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.3 - Mint Rate Limit [Core]  <!-- UUID: ec87bf5f-c852-4a1b-8ff6-02b654fa8654 -->
+
+The mint rate limit parameters are:
+
+- `maxAmount`: 10,000,000 USDC
+- `slope`: 100,000,000 USDC per day
+
+###### A.6.1.1.2.2.6.1.3.1.11.1.2.4.4 - Redeem Rate Limit [Core]  <!-- UUID: fc03258b-2654-4056-9503-0084b9f099a5 -->
+
+The redeem rate limit parameters are:
 
 - `maxAmount`: 10,000,000 AUSD
 - `slope`: 100,000,000 AUSD per day
@@ -10701,3 +10723,47 @@ On December 11, 2025, a DAO Resolution was passed authorizing Grove Foundation a
 #### A.6.1.1.2.3.6.7 - Authorization To Subscribe And Purchase Notes Issued By Galaxy CLO [Core]  <!-- UUID: db2e4893-d315-4a65-a5cc-133d7763c693 -->
 
 On December 11, 2025, a DAO Resolution was passed authorizing Grove Foundation and Cedar Grove Ltd to subscribe for and purchase the Class B notes issued by Galaxy CLO 2025-1 LLC. See [https://gateway.pinata.cloud/ipfs/bafkreierc3rxu3d64xakeeibkqujkqbhlz3lcsnjymcckaacix55vhya6u](ttps://gateway.pinata.cloud/ipfs/bafkreierc3rxu3d64xakeeibkqujkqbhlz3lcsnjymcckaacix55vhya6u).
+
+### A.6.1.1.2.3.7 - GROVE Purchase Plan [Core]  <!-- UUID: d33f481e-7c93-4fd0-944b-1cdde5d863cb -->
+
+The documents herein define Grove’s plan for purchasing GROVE tokens. Changes to this plan are made through the [A.6.1.1.2.2.2.2 - Root Edit Primitive](da862b9f-ca77-443a-ac56-5a287c50b4db).
+
+#### A.6.1.1.2.3.7.1 - Definitions [Core]  <!-- UUID: 20371364-12dd-4bad-82a6-a8e23e783532 -->
+
+The documents herein define the terms used in the GROVE Purchase Plan.
+
+##### A.6.1.1.2.3.7.1.1 - Purchase Executor [Core]  <!-- UUID: eb9b5e8d-9f28-43bb-ad34-4d356226e2d2 -->
+
+The Purchase Executor is the entity that receives the funds of each Purchase Tranche, buys GROVE with them, and transfers the GROVE to the Purchase Recipient. This role is performed by the Grove Foundation, which may act through an Execution Agent.
+
+##### A.6.1.1.2.3.7.1.2 - Purchase Recipient [Core]  <!-- UUID: 6ba95e2c-6530-4e13-a572-bd71cc3b2205 -->
+
+The Purchase Recipient is the Grove SubProxy. All GROVE bought under this plan is transferred to it.
+
+##### A.6.1.1.2.3.7.1.3 - Purchase Tranche [Core]  <!-- UUID: a33916c0-e0cf-4430-9d24-8159d6c3e4ff -->
+
+A Purchase Tranche is an amount of USDS for purchases of GROVE, with its source and its purchase period, as specified in [A.6.1.1.2.3.7.4 - Parameters](76612d55-7c9a-45d6-8fea-8a949d869102). A Purchase Tranche sourced from the Grove SubProxy is transferred to the Purchase Executor in a Grove Spell included in a Sky Executive Vote; its specification in [A.6.1.1.2.3.7.4 - Parameters](76612d55-7c9a-45d6-8fea-8a949d869102) is Grove’s authorization for that transfer.
+
+##### A.6.1.1.2.3.7.1.4 - Execution Agent [Core]  <!-- UUID: fb29c47e-c030-4473-afd6-64eb846a8492 -->
+
+An Execution Agent is a third party that buys GROVE for the Purchase Executor on its instructions and delivers the GROVE to the Purchase Executor. The Purchase Executor chooses it, names it in [A.6.1.1.2.3.7.4 - Parameters](76612d55-7c9a-45d6-8fea-8a949d869102), and stays responsible for each Purchase Tranche.
+
+#### A.6.1.1.2.3.7.2 - Operational Process [Core]  <!-- UUID: d79aed30-65e9-4eae-858c-1a1a63caa6d9 -->
+
+The Purchase Executor buys GROVE with each Purchase Tranche over the purchase period set for it in [A.6.1.1.2.3.7.4 - Parameters](76612d55-7c9a-45d6-8fea-8a949d869102). It spreads the purchases evenly over the period through a time-weighted average price (TWAP) mechanism, and does not buy in single large orders. USDC may be used as an intermediary token for the purchases if needed, converted from and to USDS through the Lite PSM.
+
+After using a Purchase Tranche to buy GROVE, the Purchase Executor must transfer any and all GROVE bought with it to the Purchase Recipient as soon as is reasonably practicable.
+
+#### A.6.1.1.2.3.7.3 - Reporting [Core]  <!-- UUID: d82c0748-a475-4d69-b9df-7b86d8dacaeb -->
+
+For each calendar month in which funds of a Purchase Tranche are sent to an Execution Agent, GROVE is bought, or GROVE is transferred to the Purchase Recipient, Grove must post a report in the "Grove Prime" category of the Sky Forum within fifteen (15) days after the end of that month. For each Purchase Tranche, the report states: the funds sent to the Execution Agent in the month, with the transaction hashes; the number of purchase transactions, the total GROVE received and the average price paid; the fees charged by the Execution Agent; the GROVE transferred to the Purchase Recipient, with the transaction hashes; and the funds and GROVE held for the tranche by the Purchase Executor and the Execution Agent at the end of the month. The first report covers the month in which the first funds are sent.
+
+#### A.6.1.1.2.3.7.4 - Parameters [Core]  <!-- UUID: 76612d55-7c9a-45d6-8fea-8a949d869102 -->
+
+The current GROVE Purchase Plan parameters are:
+
+- Purchase Executor: the Grove Foundation, through the Grove Foundation Multisig at `0xE3EC4CC359E68c9dCE15Bf667b1aD37Df54a5a42` on the Ethereum Mainnet (see [A.6.1.1.2.2.1.4.2.1.2.3.2 - Transfer Of Tokens To Grove Foundation Multisig](0bff1d91-449d-4fc7-a1c6-ee9e033036a4))
+- Purchase Recipient: the Grove SubProxy at `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba` on the Ethereum Mainnet (see [A.6.1.1.2.2.1.1.3.1.1.2 - SubProxy Account](d143241d-5819-432d-a6ba-892961502838))
+- Execution Agent: FalconX, under the authorizations recorded in [A.6.1.1.2.3.6.1 - Onboard To FalconX](287ca9e6-e807-4565-a48d-83805be94b92) and [A.6.1.1.2.3.6.5 - Authorization With Respect To FalconX](062461fe-fc60-4f7c-ac28-2238756a67ea)
+- Purchase Tranche 1: 100,000 USDS; source: the Grove Foundation’s own funds; purchase period: the thirty (30) days after this plan is approved
+- Purchase Tranche 2: 300,000 USDS; source: the Grove SubProxy, transferred in a Grove Spell; purchase period: the ninety (90) days after Purchase Tranche 1’s purchase period ends, or the ninety (90) days after the Purchase Executor receives the funds if that is later, at about 100,000 USDS per thirty (30) days
