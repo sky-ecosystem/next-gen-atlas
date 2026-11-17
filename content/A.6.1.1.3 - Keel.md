@@ -82,7 +82,15 @@ The name of the Agent is Keel.
 
 The address of Keel's SubProxy Account on the Ethereum Mainnet is `0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310`.
 
-###### A.6.1.1.3.2.1.1.3.1.1.3 - Genesis Account [Core]  <!-- UUID: 79ef290b-94c8-420b-9e05-dbfa4156c5b4 -->
+###### A.6.1.1.3.2.1.1.3.1.1.3 - StarGuard Contract [Core]  <!-- UUID: 444972a8-d1a0-4e70-9525-028f3107968b -->
+
+The address of Keel's StarGuard contract on the Ethereum Mainnet is `0xe8fF70481d653Ec31AB9E0cB2A8B316afF8D84ee`.
+
+###### A.6.1.1.3.2.1.1.3.1.1.3.1 - StarGuard Max Delay [Core]  <!-- UUID: ae4d75f2-0094-4674-86ac-783d5718ba3a -->
+
+The Keel StarGuard `maxDelay` is seven (7) days.
+
+###### A.6.1.1.3.2.1.1.3.1.1.4 - Genesis Account [Core]  <!-- UUID: 79ef290b-94c8-420b-9e05-dbfa4156c5b4 -->
 
 The address of Keel’s Genesis Account will be specified in a future iteration of the Keel Artifact.
 
