@@ -884,7 +884,7 @@ In the short term, usage of the Root Edit Primitive by Prime Agents will be limi
 
 ###### A.2.2.6.2.3.1 - Limitations On Usage Of Root Edit Primitive Prior To Independent Governance [Core]  <!-- UUID: 8c15762a-ea7e-4c6d-9089-60d30c219c0f -->
 
-Until a Prime Agent has [A.0.1.1.54 - Independent Governance](6e1c1d71-7f57-4842-9767-7de8f27a532a), the Root Edit Primitive will not be operational. Instead, if a Prime Agent wishes to edit its Agent Artifact, it must use the customary Atlas Edit Proposal processes specified in the Sky Core Atlas at [A.1.11.2 - Atlas Edit Weekly Cycle](14e99d92-71fc-44d9-9dbf-933bce2e1b32) or [A.1.12.2 - Atlas Edit Monthly Cycle](d2cbddd2-58ef-4311-a71d-d2c340364cb5). The process for Prime Agents to use the Atlas Edit Proposal process is further specified in [A.2.2.6.2.3.2 - Atlas Edit Proposal Process For Prime Agents](364e52eb-4529-46a9-9852-edaaab88baeb).
+Until a Prime Agent has [A.0.1.1.55 - Independent Governance](6e1c1d71-7f57-4842-9767-7de8f27a532a), the Root Edit Primitive will not be operational. Instead, if a Prime Agent wishes to edit its Agent Artifact, it must use the customary Atlas Edit Proposal processes specified in the Sky Core Atlas at [A.1.11.2 - Atlas Edit Weekly Cycle](14e99d92-71fc-44d9-9dbf-933bce2e1b32) or [A.1.12.2 - Atlas Edit Monthly Cycle](d2cbddd2-58ef-4311-a71d-d2c340364cb5). The process for Prime Agents to use the Atlas Edit Proposal process is further specified in [A.2.2.6.2.3.2 - Atlas Edit Proposal Process For Prime Agents](364e52eb-4529-46a9-9852-edaaab88baeb).
 
 ###### A.2.2.6.2.3.2 - Atlas Edit Proposal Process For Prime Agents [Core]  <!-- UUID: 364e52eb-4529-46a9-9852-edaaab88baeb -->
 
@@ -1297,24 +1297,24 @@ The process flow is defined herein.
     - Long Term process:
         - The Prime Agent must first apply to the Integrator program and be approved by Operational GovOps pursuant to [A.2.2.4.1.2.2 - Long Term Process](6283379c-d871-40a9-a915-d716d7df5642). Post approval, Operational GovOps issues a Reward Code to the Prime Agent.
         - The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data.
-- The Prime Agent notifies Operational GovOps that it is drafting a request to Invoke a Distribution Reward Instance, then submits the request to Operational GovOps for review.
+- The Prime Agent notifies Operational GovOps that it is drafting a request to Invoke a Distribution Reward Instance.
+- The Prime Agent submits the request to Operational GovOps for review.
 
 ###### A.2.2.9.1.2.3.1.3 - Required Primitive Inputs [Core]  <!-- UUID: 4d5482ad-7944-4073-8fbe-b9dbcd1a27a3 -->
 
 The required Primitive Inputs for this process are defined herein and organized in sequential stages.
 
 - Drafting of the request
-    - The Prime Agent notifies Operational GovOps and drafts its request to Invoke a Distribution Reward Instance, containing:
+    - The Prime Agent notifies Operational GovOps that it is drafting a request.
+    - The Prime Agent drafts its request to Invoke a Distribution Reward Instance, containing:
         - `Integrator`: the Integrator name
         - `Reward Code`: the Reward Code
         - `Tracking Methodology`: details for tracking utilization
         - `Custom Instance Parameters`: details for any custom parameters
     - Responsible Party: Prime Agent
-    - Trigger - Required Output: After the Prime Agent notifies Operational GovOps that it is drafting a request
 - Request submitted for Operational GovOps review
     - The Prime Agent submits the request to Operational GovOps.
     - Responsible Party: Prime Agent
-    - Trigger - Required Output: After the Prime Agent submits the request to Operational GovOps
 
 ###### A.2.2.9.1.2.3.1.4 - Required Outputs [Core]  <!-- UUID: 1ad17e84-8bde-4669-9967-9f67d1d3c603 -->
 
@@ -1322,40 +1322,11 @@ The documents herein specify the required outputs from this process.
 
 ###### A.2.2.9.1.2.3.1.4.1 - Sky Core Atlas Updates [Core]  <!-- UUID: bab05cb6-532f-41e0-8fba-203b1b92294b -->
 
-The Sky Core Atlas is updated pursuant to the following requirements.
-
-###### A.2.2.9.1.2.3.1.4.1.1 - Onboarding Integrators Active Data Update [Core]  <!-- UUID: 6857396f-f0ce-4471-8e48-ed5f06b86830 -->
-
-[A.2.2.9.1.2.1.4.2.0.6.1 - List Of Onboarding Integrators](eb644108-94fc-430f-ae5a-e3294b9dd9be) is updated as follows:
-
-- Updated fields
-    - `Onboarding Integrators/Integrator Name`
-        - New value: set to the name of the Integrator
-    - `Integrator Name/Reward Code`
-        - New value: set to Reward Code
-- Responsible Party: Operational GovOps
+No Sky Core Atlas documents are updated as the output of this process.
 
 ###### A.2.2.9.1.2.3.1.4.2 - Agent Artifact Updates [Core]  <!-- UUID: 11161730-6568-445f-a250-ba5c67857390 -->
 
-The Agent Artifact is updated pursuant to the following requirements. Each Output "set" is triggered following the completion of its respective Input stage, defined in [A.2.2.9.1.2.3.1.3 - Required Primitive Inputs](4d5482ad-7944-4073-8fbe-b9dbcd1a27a3).
-
-- After the Prime Agent notifies Operational GovOps that it is drafting a request
-    - Create `Instance Configuration` Document for prospective Primitive Instance. The Instance Configuration Document contains a `Data Repository.`
-        - Instance Status: (inherits from `Primitive Hub Document`)
-    - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
-        - Updated fields:
-            - Invocation Status:
-                - New value: set to `Planning`
-            - Instance Configuration Document Location
-                - New value: link to `Instance Configuration Document` (created at Create `Instance Configuration` Document for prospective Primitive Instance. The Instance Configuration Document contains a `Data Repository.`)
-    - Responsible party: Operational GovOps
-- After the Prime Agent submits the request to Operational GovOps
-    - Edit `Primitive Hub Document/In Progress Invocations/Instance Name`
-        - Updated fields:
-            - Invocation Status:
-                - New value: set to `Pending GovOps review`
-        - Responsible party: Operational GovOps
-        - Trigger - Process: [A.2.2.9.1.2.3.2 - Process Definition For Operational GovOps Review](5fd265ef-17f0-4400-b06c-a6ce9fa87636).
+No Agent Artifact documents are updated as the output of this process.
 
 ###### A.2.2.9.1.2.3.2 - Process Definition For Operational GovOps Review [Core]  <!-- UUID: 5fd265ef-17f0-4400-b06c-a6ce9fa87636 -->
 
@@ -1375,11 +1346,11 @@ None.
 
 ###### A.2.2.9.1.2.3.2.1.1.2 - Document Update Triggers [Core]  <!-- UUID: fd211726-1576-4b0a-8489-6e76e83ee92b -->
 
-This process is triggered by the Artifact Document Update specified at Edit `Primitive Hub Document/In Progress Invocations/Instance Name`.
+None.
 
 ###### A.2.2.9.1.2.3.2.1.2 - Dependencies [Core]  <!-- UUID: abb8f0ef-eae6-4af5-8a70-20630a33e7c9 -->
 
-This process has no dependencies.
+This process is dependent on the Prime Agent submitting its request to Operational GovOps, as specified in [A.2.2.9.1.2.3.1.3 - Required Primitive Inputs](4d5482ad-7944-4073-8fbe-b9dbcd1a27a3).
 
 ###### A.2.2.9.1.2.3.2.2 - Process Flow [Core]  <!-- UUID: ef743f33-32b0-4a51-af00-a9e35c2e1017 -->
 
@@ -1408,21 +1379,41 @@ The documents herein specify the required outputs from this process.
 
 ###### A.2.2.9.1.2.3.2.4.1 - Sky Core Atlas Updates [Core]  <!-- UUID: 9a94a573-8a51-4b04-9704-d84dc0623bb8 -->
 
-No Sky Core Atlas documents are updated as the output of this process.
+The Sky Core Atlas is updated pursuant to the following requirements.
+
+###### A.2.2.9.1.2.3.2.4.1.1 - Onboarding Integrators Active Data Update [Core]  <!-- UUID: 6857396f-f0ce-4471-8e48-ed5f06b86830 -->
+
+After Operational GovOps confirms that the request is feasible, [A.2.2.9.1.2.1.4.2.0.6.1 - List Of Onboarding Integrators](eb644108-94fc-430f-ae5a-e3294b9dd9be) is updated as follows:
+
+- Updated fields
+    - `Onboarding Integrators/Integrator Name`
+        - New value: set to the name of the Integrator
+    - `Integrator Name/Reward Code`
+        - New value: set to Reward Code
+- Responsible Party: Operational GovOps
 
 ###### A.2.2.9.1.2.3.2.4.2 - Agent Artifact Updates [Core]  <!-- UUID: ec050d61-1d48-453a-ac13-4cea23c68292 -->
 
 The Agent Artifact is updated pursuant to the following requirements.
 
-###### A.2.2.9.1.2.3.2.4.2.1 - Primitive Hub Document/In Progress Invocations Directory/Instance Name Update [Core]  <!-- UUID: 6f457b50-a98c-4516-9b37-932603a59627 -->
+###### A.2.2.9.1.2.3.2.4.2.1 - Instance Configuration Document Creation [Core]  <!-- UUID: f201d7e8-61cb-4bf7-b9fb-eb247e16f4ce -->
 
-After Operational GovOps confirms that the request is feasible, the Document is updated as follows.
+After Operational GovOps confirms that the request is feasible, the Document is created as follows.
 
-- Updated fields
+- Create the `Instance Configuration Document` for the prospective Primitive Instance in the `In Progress Invocations` subtree. The `Instance Configuration Document` contains a `Data Repository`.
+- Responsible Party: Operational GovOps
+
+###### A.2.2.9.1.2.3.2.4.2.2 - Primitive Hub Document/In Progress Invocations Directory/Instance Name Creation [Core]  <!-- UUID: 6f457b50-a98c-4516-9b37-932603a59627 -->
+
+After Operational GovOps confirms that the request is feasible, the Document is created as follows.
+
+- Fields
     - Invocation Status
         - New value: set to `Proposal drafting in progress`
+    - Instance Configuration Document Location
+        - New value: link to the `Instance Configuration Document` created as specified in [A.2.2.9.1.2.3.2.4.2.1 - Instance Configuration Document Creation](f201d7e8-61cb-4bf7-b9fb-eb247e16f4ce)
 - Responsible Party: Operational GovOps
-- Triggers: [A.2.2.9.1.2.3.3 - Process Definition For Artifact Update Draft](240e0e2c-64b6-4290-aa23-ec19eb2f6e59)
+- Trigger - Process: [A.2.2.9.1.2.3.3 - Process Definition For Artifact Update Draft](240e0e2c-64b6-4290-aa23-ec19eb2f6e59)
 
 ###### A.2.2.9.1.2.3.3 - Process Definition For Artifact Update Draft [Core]  <!-- UUID: 240e0e2c-64b6-4290-aa23-ec19eb2f6e59 -->
 
@@ -1442,7 +1433,7 @@ None.
 
 ###### A.2.2.9.1.2.3.3.1.1.2 - Document Update Triggers [Core]  <!-- UUID: 94d06bae-9bc9-4e8f-a38d-4b879466873b -->
 
-This process is triggered by the Document Update specified at [A.2.2.9.1.2.3.2.4.2.1 - Primitive Hub Document/In Progress Invocations Directory/Instance Name Update](6f457b50-a98c-4516-9b37-932603a59627).
+This process is triggered by the Document Update specified at [A.2.2.9.1.2.3.2.4.2.2 - Primitive Hub Document/In Progress Invocations Directory/Instance Name Creation](6f457b50-a98c-4516-9b37-932603a59627).
 
 ###### A.2.2.9.1.2.3.3.1.2 - Dependencies [Core]  <!-- UUID: a6f968d6-0e8c-4962-b982-43beffc602db -->
 
@@ -1453,7 +1444,7 @@ This process has no dependencies.
 The process flow is defined herein:
 
 - The Prime Agent creates the `Artifact Edit Draft` Document and works to finalize its draft of the Artifact Edit per discussions with Operational GovOps.
-- When draft is finalized, the Prime Agent creates the `Artifact Edit Proposal`, which inherits content from the finalized `Artifact Edit Draft` Document.
+- When the draft is finalized, the Prime Agent creates the `Artifact Edit Proposal` from the content of the finalized `Artifact Edit Draft` Document.
 - The Prime Agent submits the `Artifact Edit Proposal` Document for Operational Facilitator review.
 
 ###### A.2.2.9.1.2.3.3.3 - Required Primitive Inputs [Core]  <!-- UUID: 6f4e7971-1813-4ff6-9e4f-5953c8cb54af -->
@@ -1475,7 +1466,7 @@ The required Primitive Inputs for this process are defined herein and implemente
 - Agent creates `Artifact Edit Proposal` Document
     - Updated fields
         - Content
-            - New value: Inherits data from Artifact Edit Draft content field.
+            - New value: set to the content of the finalized `Artifact Edit Draft`
     - Responsible party: Agent
 - Agent submits `Artifact Edit Proposal` Document
     - Updated fields
@@ -1495,7 +1486,7 @@ No Sky Core Atlas documents are updated as the output of this process.
 
 The Agent Artifact documents specified herein are updated as the output of this process.
 
-###### A.2.2.9.1.2.3.3.4.2.1 - Primitive Hub/In Progress Invocations Directory/Instance Name Update [Core]  <!-- UUID: b37c4266-2dd9-4cce-8b6b-cc35af2b94d9 -->
+###### A.2.2.9.1.2.3.3.4.2.1 - Primitive Hub Document/In Progress Invocations Directory/Instance Name Update [Core]  <!-- UUID: b37c4266-2dd9-4cce-8b6b-cc35af2b94d9 -->
 
 The Document is updated as follows:
 
@@ -1503,7 +1494,7 @@ The Document is updated as follows:
     - Invocation Status
         - New value: `Proposal Pending Facilitator Review`
 - Responsible Party: Operational GovOps
-- Triggers: [A.2.2.9.1.2.3.4 - Process Definition For Operational Facilitator Review](fd9aac63-00a0-4fc5-ad7c-8bb131322bd7).
+- Trigger - Process: [A.2.2.9.1.2.3.4 - Process Definition For Operational Facilitator Review](fd9aac63-00a0-4fc5-ad7c-8bb131322bd7)
 
 ###### A.2.2.9.1.2.3.4 - Process Definition For Operational Facilitator Review [Core]  <!-- UUID: fd9aac63-00a0-4fc5-ad7c-8bb131322bd7 -->
 
@@ -1523,7 +1514,7 @@ None.
 
 ###### A.2.2.9.1.2.3.4.1.1.2 - Document Update Triggers [Core]  <!-- UUID: bee5a2d9-1e98-4918-a77d-3e3607b51f0f -->
 
-This process is triggered by the Document Update specified at [A.2.2.9.1.2.3.3.4.2.1 - Primitive Hub/In Progress Invocations Directory/Instance Name Update](b37c4266-2dd9-4cce-8b6b-cc35af2b94d9).
+This process is triggered by the Document Update specified at [A.2.2.9.1.2.3.3.4.2.1 - Primitive Hub Document/In Progress Invocations Directory/Instance Name Update](b37c4266-2dd9-4cce-8b6b-cc35af2b94d9).
 
 ###### A.2.2.9.1.2.3.4.1.2 - Dependencies [Core]  <!-- UUID: 967572c4-ba29-4a98-ae05-e3698457d440 -->
 
@@ -1551,8 +1542,8 @@ The required Primitive Inputs to this process are defined herein and organized a
             - `Status`
                 - New value: set to `Proposal Approved by Facilitator`
         - Responsible party: Operational Facilitator
-        - Trigger-Process: [A.2.2.9.1.2.3.5 - Process Definition For Offchain Vote](3170b9a1-d074-4cbd-bb81-ae1661bc0ed8)
-- Operational Facilitator Rejects proposal
+        - Trigger - Required Output: Operational Facilitator Approves Proposal
+- Operational Facilitator Rejects Proposal
     - Edit `Artifact Edit Proposal`
         - Updated fields
             - `Operational Facilitator Review/Review Decision`
@@ -1562,6 +1553,7 @@ The required Primitive Inputs to this process are defined herein and organized a
             - `Status`
                 - New value: set to `Proposal Rejected By Facilitator`
         - Responsible party: Operational Facilitator
+        - Trigger - Required Output: Operational Facilitator Rejects Proposal
 
 ###### A.2.2.9.1.2.3.4.4 - Required Outputs [Core]  <!-- UUID: b63e78d1-112d-4d48-a647-a1e3fc2f54a5 -->
 
@@ -1569,11 +1561,40 @@ The documents herein specify the required outputs from this process, if any.
 
 ###### A.2.2.9.1.2.3.4.4.1 - Sky Core Atlas Updates [Core]  <!-- UUID: dfdf873a-c24a-4856-a3e9-717ea09dd9bb -->
 
-No Sky Core Atlas documents are updated as the output of this process.
+The Sky Core Atlas documents specified herein are updated as the output of this process.
+
+###### A.2.2.9.1.2.3.4.4.1.1 - Onboarding Integrators Active Data Update [Core]  <!-- UUID: 41640d2d-5665-4268-ba7b-0361ccd775ac -->
+
+[A.2.2.9.1.2.1.4.2.0.6.1 - List Of Onboarding Integrators](eb644108-94fc-430f-ae5a-e3294b9dd9be) is updated as follows:
+
+- Required Primitive Input Trigger: Operational Facilitator Rejects Proposal (see [A.2.2.9.1.2.3.4.3 - Required Primitive Inputs](967f54c6-9a51-4225-a8fd-e366f7a3d91e))
+- Updated fields
+    - `Onboarding Integrators`
+        - New value: Delete the Integrator.
+- Responsible Party: Operational GovOps
+- Trigger - Process: None
 
 ###### A.2.2.9.1.2.3.4.4.2 - Agent Artifact Updates [Core]  <!-- UUID: 9cb3ab72-37f5-4501-8661-a204d0747dd8 -->
 
-No Agent Artifact documents are updated as the output of this process. The requirements specified in [A.2.2.9.1.2.3.4.3 - Required Primitive Inputs](967f54c6-9a51-4225-a8fd-e366f7a3d91e) fully complete the Process.
+The Agent Artifact documents specified herein are updated as the output of this process. The Output "sets" are mutually exclusive.
+
+- Operational Facilitator Approves Proposal
+    - Required Primitive Input Trigger: Operational Facilitator Approves Proposal (see [A.2.2.9.1.2.3.4.3 - Required Primitive Inputs](967f54c6-9a51-4225-a8fd-e366f7a3d91e))
+    - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
+        - Updated fields
+            - Invocation Status
+                - New value: set to `Proposal Pending Poll`
+        - Responsible Party: Operational GovOps
+        - Trigger - Process: [A.2.2.9.1.2.3.5 - Process Definition For Offchain Vote](3170b9a1-d074-4cbd-bb81-ae1661bc0ed8)
+- Operational Facilitator Rejects Proposal
+    - Required Primitive Input Trigger: Operational Facilitator Rejects Proposal (see [A.2.2.9.1.2.3.4.3 - Required Primitive Inputs](967f54c6-9a51-4225-a8fd-e366f7a3d91e))
+    - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
+        - Updated fields
+            - Invocation Status
+                - New value: set to `Proposal Rejected`
+        - Other Document Operations:
+            - `Instance Configuration Document` is `Archived` in Primitive Hub Document/Hub Data Repository
+        - Responsible Party: Operational GovOps
 
 ###### A.2.2.9.1.2.3.5 - Process Definition For Offchain Vote [Core]  <!-- UUID: 3170b9a1-d074-4cbd-bb81-ae1661bc0ed8 -->
 
@@ -1593,7 +1614,7 @@ None.
 
 ###### A.2.2.9.1.2.3.5.1.1.2 - Document Update Triggers [Core]  <!-- UUID: b43edb36-1255-4e9d-92e2-9e4435c7bb2f -->
 
-This process is triggered by the Artifact Update specified at Operational Facilitator Approves Proposal.
+This process is triggered by the Document Update specified at [A.2.2.9.1.2.3.4.4.2 - Agent Artifact Updates](9cb3ab72-37f5-4501-8661-a204d0747dd8) for the Operational Facilitator Approves Proposal pathway.
 
 ###### A.2.2.9.1.2.3.5.1.2 - Dependencies [Core]  <!-- UUID: 174e41b1-0e93-491c-8da1-50c0845947c3 -->
 
@@ -1603,7 +1624,7 @@ This process has no dependencies.
 
 The process flow for this process is defined herein:
 
-- Using the finalized `Atlas Edit Proposal` content, the Operational Facilitator sets up an offchain Snapshot vote.
+- Using the finalized `Artifact Edit Proposal` content, the Operational Facilitator sets up an offchain Snapshot vote.
 - Prime Agent token holders vote on the proposal.
 - After the voting concludes, the Operational Facilitator records the result of the vote.
 
@@ -1622,18 +1643,18 @@ The required Primitive Inputs to this process are defined herein.
 - Mutually Exclusive Input Pathways: The two Primitive Inputs below are mutually exclusive pathways. Once the vote concludes, the corresponding Pathway is followed to the exclusion of the other.
     - Proposal Passes
         - Edit `Artifact Edit Proposal` Document
-            - Update fields
+            - Updated fields
                 - Status
                     - New value: set to `Poll Approved`
             - Responsible party: Operational Facilitator.
             - Trigger - Required Output: Proposal Passes
     - Proposal Fails
-        - Updated fields
-            - Edit `Artifact Edit Proposal` Document
+        - Edit `Artifact Edit Proposal` Document
+            - Updated fields
                 - Status
                     - New value: set to `Poll Rejected`
-        - Responsible party: Operational Facilitator.
-        - Trigger - Required Output: Proposal Fails
+            - Responsible party: Operational Facilitator.
+            - Trigger - Required Output: Proposal Fails
 
 ###### A.2.2.9.1.2.3.5.4 - Required Outputs [Core]  <!-- UUID: 1e95dff0-2a7f-461f-86f9-70433b888650 -->
 
@@ -1641,14 +1662,25 @@ The documents herein specify the required outputs from this process.
 
 ###### A.2.2.9.1.2.3.5.4.1 - Sky Core Atlas Updates [Core]  <!-- UUID: cc530c80-0c89-4c4a-b108-46a623f4f4c6 -->
 
-No Sky Core Atlas documents are updated as the output of this process.
+The Sky Core Atlas documents specified herein are updated as the output of this process.
+
+###### A.2.2.9.1.2.3.5.4.1.1 - Onboarding Integrators Active Data Update [Core]  <!-- UUID: 0053204e-b511-4744-a996-1e5332e45d6e -->
+
+[A.2.2.9.1.2.1.4.2.0.6.1 - List Of Onboarding Integrators](eb644108-94fc-430f-ae5a-e3294b9dd9be) is updated as follows:
+
+- Required Primitive Input Trigger: Proposal Fails (see [A.2.2.9.1.2.3.5.3 - Required Primitive Inputs](b593ff77-2c46-418d-a7b3-9730437ce804))
+- Updated fields
+    - `Onboarding Integrators`
+        - New value: Delete the Integrator.
+- Responsible Party: Operational GovOps
+- Trigger - Process: None
 
 ###### A.2.2.9.1.2.3.5.4.2 - Agent Artifact Updates [Core]  <!-- UUID: 1efa0fc5-5377-428f-a203-8c3c10dcc153 -->
 
 The Agent Artifact documents specified herein are updated as the output of this process. The Output "sets" are mutually exclusive.
 
 - Proposal Passes
-    - Required Primitive Input Trigger: Proposal Passes see [A.2.2.9.1.2.3.5.3 - Required Primitive Inputs](b593ff77-2c46-418d-a7b3-9730437ce804)
+    - Required Primitive Input Trigger: Proposal Passes (see [A.2.2.9.1.2.3.5.3 - Required Primitive Inputs](b593ff77-2c46-418d-a7b3-9730437ce804))
     - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
         - Updated fields
             - Invocation Status
@@ -1656,7 +1688,7 @@ The Agent Artifact documents specified herein are updated as the output of this 
         - Responsible Party: Operational GovOps
         - Trigger - Process: [A.2.2.9.1.2.3.6 - Process Definition For Artifact Update](b3ed1e74-7ec2-4537-8e1d-2098dc17d984)
 - Proposal Fails
-    - Required Primitive Input Trigger: Proposal Fails see [A.2.2.9.1.2.3.5.3 - Required Primitive Inputs](b593ff77-2c46-418d-a7b3-9730437ce804)
+    - Required Primitive Input Trigger: Proposal Fails (see [A.2.2.9.1.2.3.5.3 - Required Primitive Inputs](b593ff77-2c46-418d-a7b3-9730437ce804))
     - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
         - Updated fields
             - Invocation Status
@@ -1683,7 +1715,7 @@ None.
 
 ###### A.2.2.9.1.2.3.6.1.1.2 - Document Update Triggers [Core]  <!-- UUID: 309ac677-8841-4821-aba5-6cf637b8e7a7 -->
 
-This process is triggered by the Artifact update specified in Proposal passes.
+This process is triggered by the Document Update specified at [A.2.2.9.1.2.3.5.4.2 - Agent Artifact Updates](1efa0fc5-5377-428f-a203-8c3c10dcc153) for the Proposal Passes pathway.
 
 ###### A.2.2.9.1.2.3.6.1.2 - Dependencies [Core]  <!-- UUID: d7ec33fc-6c67-4632-80b2-1fab854699bc -->
 
@@ -1697,17 +1729,16 @@ The process flow is defined herein.
 
 ###### A.2.2.9.1.2.3.6.3 - Required Primitive Inputs [Core]  <!-- UUID: 6eb0901b-d324-4124-b27e-5f5416264f37 -->
 
-The following inputs must be submitted into the Primitive.
+The required Primitive Inputs for this process are as follows.
 
 - Edit `Instance Configuration Document` to reflect ratified Primitive Instance.
     - Updated fields
-        - Parameters/Status - inherits from `Primitive Hub Document`
         - Parameters/Reward Code
-            - New Value: set to `Reward Code` value from approved Proposal
+            - New value: set to `Reward Code` value from approved Proposal
         - Parameters/Tracking Methodology
-            - New Value: set to `Tracking Methodology` value from the approved Proposal
+            - New value: set to `Tracking Methodology` value from the approved Proposal
         - Parameters/Custom Instance Parameters
-            - New Value: set to `Custom Instance Parameters` value from approved Proposal
+            - New value: set to `Custom Instance Parameters` value from approved Proposal
         - Responsible Party: Operational Facilitator
 
 ###### A.2.2.9.1.2.3.6.4 - Required Outputs [Core]  <!-- UUID: 231e3527-5534-42d4-b83e-0f99cb40bf76 -->
@@ -1726,7 +1757,7 @@ The Sky Core Documents specified herein are updated as the output of this proces
     - `Onboarding Integrators`
         - New value: Delete the Integrator.
 - Responsible Party: Operational GovOps
-- Triggers: None
+- Trigger - Process: None
 
 ###### A.2.2.9.1.2.3.6.4.1.2 - Current Integrators Active Data Update [Core]  <!-- UUID: 1c0708d0-6388-4264-90f2-7a0d0b877012 -->
 
@@ -1740,7 +1771,7 @@ The Sky Core Documents specified herein are updated as the output of this proces
     - `Tracking Methodology`
         - New value: set to the tracking methodology from the approved Proposal
 - Responsible Party: Operational GovOps
-- Triggers: None
+- Trigger - Process: None
 
 ###### A.2.2.9.1.2.3.6.4.2 - Agent Artifact Updates [Core]  <!-- UUID: 8336c1ad-e182-4c91-b4f9-b5f743500457 -->
 
@@ -1761,9 +1792,10 @@ The Document is updated as follows:
 - Document Operations:
     - Document is converted into `Active Instances Directory` schema and moved into that subtree
 - Updated fields
-    - Instance Configuration Document location: link to `Instance Configuration Document` in `Active Instances` subtree
+    - Instance Configuration Document Location
+        - New value: link to `Instance Configuration Document` in `Active Instances` subtree
 - Responsible Party: Operational Facilitator
-- Trigger-Process: None.
+- Trigger - Process: None
 
 ###### A.2.2.9.1.2.4 - Instance Ongoing Management Protocol [Core]  <!-- UUID: 3af0e156-b5c0-493b-bd6f-80185072b7b1 -->
 
@@ -2251,14 +2283,16 @@ The process flow is defined herein.
 
 - The Prime Agent identifies a DeFi protocol or market where an Integration Boost would drive adoption. The Prime Agent estimates the potential earnings from the Distribution Reward associated with the incremental USDS usage versus the operational cost of funding the Sky Savings Rate payouts.
 - The Prime Agent and the prospective Integration Boost Partner discuss (1) the proposed Integration Boost cadence and (2) whether and how the Prime Agent will share a portion of the Distribution Reward with the Integration Boost Partner.
-- The Prime Agent notifies Operational GovOps that it is drafting a request to Invoke an Integration Boost Instance, then submits the request to Operational GovOps for review.
+- The Prime Agent notifies Operational GovOps that it is drafting a request to Invoke an Integration Boost Instance.
+- The Prime Agent submits the request to Operational GovOps for review.
 
 ###### A.2.2.9.2.2.3.1.3 - Required Primitive Inputs [Core]  <!-- UUID: b91d0eb6-fa86-486c-8350-4564bdb5af09 -->
 
 The required Primitive Inputs for this process are defined herein and organized in sequential stages.
 
 - Drafting of the request
-    - The Prime Agent notifies Operational GovOps and drafts its request to Invoke an Integration Boost Instance, containing:
+    - The Prime Agent notifies Operational GovOps that it is drafting a request.
+    - The Prime Agent drafts its request to Invoke an Integration Boost Instance, containing:
         - `Integration Partner Name`: the Integration Partner name
         - `Integration Partner Reward Address`: the Integration Partner reward address
         - `Integration Partner Chain`: the Integration Partner chain
@@ -2268,11 +2302,9 @@ The required Primitive Inputs for this process are defined herein and organized 
         - `Integration Boost Savings Rate Adjustment Strategy`: details for handling adjustments to the Sky Savings Rate
         - `Custom Instance Parameters`: details for any custom parameters
     - Responsible Party: Prime Agent
-    - Trigger - Required Output: After the Prime Agent notifies Operational GovOps that it is drafting a request
 - Request submitted for Operational GovOps review
     - The Prime Agent submits the request to Operational GovOps.
     - Responsible Party: Prime Agent
-    - Trigger - Required Output: After the Prime Agent submits the request to Operational GovOps
 
 ###### A.2.2.9.2.2.3.1.4 - Required Outputs [Core]  <!-- UUID: c0e07df6-d6b9-4268-95a6-f0f42877a639 -->
 
@@ -2280,38 +2312,11 @@ The documents herein specify the required outputs from this process.
 
 ###### A.2.2.9.2.2.3.1.4.1 - Sky Core Atlas Updates [Core]  <!-- UUID: 991aaf4f-3d85-41c3-b0c3-d1cf3a84ec0d -->
 
-The Sky Core Atlas is updated pursuant to the following requirements.
-
-###### A.2.2.9.2.2.3.1.4.1.1 - Onboarding Integrators Active Data Update [Core]  <!-- UUID: a227491c-903f-4571-aad0-b76422a5ea7f -->
-
-[A.2.2.9.1.2.1.4.2.0.6.1 - List Of Onboarding Integrators](eb644108-94fc-430f-ae5a-e3294b9dd9be) is updated as follows:
-
-- Updated fields
-    - `Onboarding Integrators/Integrator Name`
-        - New value: set to the name of the Integrator
-- Responsible Party: Operational GovOps
+No Sky Core Atlas documents are updated as the output of this process.
 
 ###### A.2.2.9.2.2.3.1.4.2 - Agent Artifact Updates [Core]  <!-- UUID: d86e5f9f-7b1c-4605-9253-4281a6bdbc13 -->
 
-The Agent Artifact is updated pursuant to the following requirements. Each Output "set" is triggered following the completion of its respective Input stage, which latter is defined in [A.2.2.9.2.2.3.1.3 - Required Primitive Inputs](b91d0eb6-fa86-486c-8350-4564bdb5af09).
-
-- After the Prime Agent notifies Operational GovOps that it is drafting a request
-    - Create `Instance Configuration` Document for prospective Primitive Instance. The Instance Configuration Document contains a `Data Repository`.
-        - Instance Status: (inherits from `Primitive Hub Document`)
-    - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
-        - Updated fields:
-            - Invocation Status:
-                - New value: set to `Planning`
-            - Instance Configuration Document Location
-                - New value: link to `Instance Configuration Document` (created at Create `Instance Configuration` Document for prospective Primitive Instance. The Instance Configuration Document contains a `Data Repository`.)
-    - Responsible party: Operational GovOps
-- After the Prime Agent submits the request to Operational GovOps
-    - Edit `Primitive Hub Document/In Progress Invocations/Instance Name`
-        - Updated fields:
-            - Invocation Status:
-                - New value: set to `Pending GovOps review`
-        - Responsible party: Operational GovOps
-        - Trigger - Process: [A.2.2.9.2.2.3.2 - Process Definition for Operational GovOps Review](38c54d2b-715b-433d-a9ff-af5cbecc89a2).
+No Agent Artifact documents are updated as the output of this process.
 
 ###### A.2.2.9.2.2.3.2 - Process Definition for Operational GovOps Review [Core]  <!-- UUID: 38c54d2b-715b-433d-a9ff-af5cbecc89a2 -->
 
@@ -2331,11 +2336,11 @@ None.
 
 ###### A.2.2.9.2.2.3.2.1.1.2 - Document Update Triggers [Core]  <!-- UUID: 4290c4b4-5c4d-4de5-bcbe-7d4d6db8b755 -->
 
-This process is triggered by the Artifact Update specified at Edit `Primitive Hub Document/In Progress Invocations/Instance Name`.
+None.
 
 ###### A.2.2.9.2.2.3.2.1.2 - Dependencies [Core]  <!-- UUID: 921d945d-5e36-4ffd-8c30-447aeca18045 -->
 
-This process has no dependencies.
+This process is dependent on the Prime Agent submitting its request to Operational GovOps, as specified in [A.2.2.9.2.2.3.1.3 - Required Primitive Inputs](b91d0eb6-fa86-486c-8350-4564bdb5af09).
 
 ###### A.2.2.9.2.2.3.2.2 - Process Flow [Core]  <!-- UUID: 0eba9704-14c9-4be3-ab41-62129ff9f162 -->
 
@@ -2365,21 +2370,39 @@ The documents herein specify the required outputs from this process.
 
 ###### A.2.2.9.2.2.3.2.4.1 - Sky Core Atlas Updates [Core]  <!-- UUID: 689a6ce6-0091-4e6a-b634-27ade6064e6b -->
 
-No Sky Core Atlas documents are updated as the output of this process.
+The Sky Core Atlas is updated pursuant to the following requirements.
+
+###### A.2.2.9.2.2.3.2.4.1.1 - Onboarding Integrators Active Data Update [Core]  <!-- UUID: a227491c-903f-4571-aad0-b76422a5ea7f -->
+
+After Operational GovOps confirms that the request is feasible, [A.2.2.9.1.2.1.4.2.0.6.1 - List Of Onboarding Integrators](eb644108-94fc-430f-ae5a-e3294b9dd9be) is updated as follows:
+
+- Updated fields
+    - `Onboarding Integrators/Integrator Name`
+        - New value: set to the name of the Integrator
+- Responsible Party: Operational GovOps
 
 ###### A.2.2.9.2.2.3.2.4.2 - Agent Artifact Updates [Core]  <!-- UUID: 22166d2b-40bc-4094-a3d8-fce46699a905 -->
 
 The Agent Artifact is updated pursuant to the following requirements.
 
-###### A.2.2.9.2.2.3.2.4.2.1 - Primitive Hub Document Update [Core]  <!-- UUID: 09ddd2c5-3768-4538-b979-629e1b369299 -->
+###### A.2.2.9.2.2.3.2.4.2.1 - Instance Configuration Document Creation [Core]  <!-- UUID: 42b08b36-0aee-4148-83f2-e0e89c53a16a -->
 
-After Operational GovOps confirms that the request is feasible, the Document is updated as follows.
+After Operational GovOps confirms that the request is feasible, the Document is created as follows.
 
-- Updated fields
-    - Active instances/Instance name/Instance status -
-        - New value: set to `Proposal drafting in progress`
+- Create the `Instance Configuration Document` for the prospective Primitive Instance in the `In Progress Invocations` subtree. The `Instance Configuration Document` contains a `Data Repository`.
 - Responsible Party: Operational GovOps
-- Triggers: [A.2.2.9.2.2.3.3 - Process Definition for Artifact Update Draft](6a8b5e8b-cca6-48be-b543-6db468f83ebb).
+
+###### A.2.2.9.2.2.3.2.4.2.2 - Primitive Hub Document/In Progress Invocations Directory/Instance Name Creation [Core]  <!-- UUID: 09ddd2c5-3768-4538-b979-629e1b369299 -->
+
+After Operational GovOps confirms that the request is feasible, the Document is created as follows.
+
+- Fields
+    - Invocation Status
+        - New value: set to `Proposal drafting in progress`
+    - Instance Configuration Document Location
+        - New value: link to the `Instance Configuration Document` created as specified in [A.2.2.9.2.2.3.2.4.2.1 - Instance Configuration Document Creation](42b08b36-0aee-4148-83f2-e0e89c53a16a)
+- Responsible Party: Operational GovOps
+- Trigger - Process: [A.2.2.9.2.2.3.3 - Process Definition for Artifact Update Draft](6a8b5e8b-cca6-48be-b543-6db468f83ebb)
 
 ###### A.2.2.9.2.2.3.3 - Process Definition for Artifact Update Draft [Core]  <!-- UUID: 6a8b5e8b-cca6-48be-b543-6db468f83ebb -->
 
@@ -2399,7 +2422,7 @@ None.
 
 ###### A.2.2.9.2.2.3.3.1.1.2 - Document Update Triggers [Core]  <!-- UUID: 98b5465e-add9-4ae0-a02e-1c5be6006410 -->
 
-This process is triggered by the Document Update specified at [A.2.2.9.2.2.3.2.4.2.1 - Primitive Hub Document Update](09ddd2c5-3768-4538-b979-629e1b369299).
+This process is triggered by the Document Update specified at [A.2.2.9.2.2.3.2.4.2.2 - Primitive Hub Document/In Progress Invocations Directory/Instance Name Creation](09ddd2c5-3768-4538-b979-629e1b369299).
 
 ###### A.2.2.9.2.2.3.3.1.2 - Dependencies [Core]  <!-- UUID: a616c3f6-b252-4d85-996a-019dea9f01e7 -->
 
@@ -2410,7 +2433,7 @@ This process has no dependencies.
 The process flow is defined herein:
 
 - The Prime Agent creates the `Artifact Edit Draft` Document and works to finalize its draft of the Artifact Edit per discussions with Operational GovOps.
-- When draft is finalized, the Prime Agent creates the `Artifact Edit Proposal`, which inherits content from the finalized `Artifact Edit Draft` Document.
+- When the draft is finalized, the Prime Agent creates the `Artifact Edit Proposal` from the content of the finalized `Artifact Edit Draft` Document.
 - The Prime Agent submits the `Artifact Edit Proposal` Document for Operational Facilitator review.
 
 ###### A.2.2.9.2.2.3.3.3 - Required Primitive Inputs [Core]  <!-- UUID: 01214a59-5119-4c77-ad41-c9d3dd72a517 -->
@@ -2432,7 +2455,7 @@ The required Primitive Inputs for this process are defined herein and implemente
 - Agent creates `Artifact Edit Proposal` Document
     - Updated fields
         - Content
-            - New value: Inherits data from `Artifact Edit Draft` Document’s Content field.
+            - New value: set to the content of the finalized `Artifact Edit Draft`
     - Responsible party: Agent
 - Agent submits `Artifact Edit Proposal` Document
     - Updated fields
@@ -2452,15 +2475,15 @@ No Sky Core Atlas documents are updated as the output of this process.
 
 The Agent Artifact documents specified herein are updated as the output of this process.
 
-###### A.2.2.9.2.2.3.3.4.2.1 - Primitive Hub Document Update [Core]  <!-- UUID: e7fc7c2e-b6fc-4e0f-ae10-debb54124e8e -->
+###### A.2.2.9.2.2.3.3.4.2.1 - Primitive Hub Document/In Progress Invocations Directory/Instance Name Update [Core]  <!-- UUID: e7fc7c2e-b6fc-4e0f-ae10-debb54124e8e -->
 
-The Document in the Agent Artifact is updated as follows:
+The Document is updated as follows:
 
 - Updated fields
-    - Active Instances/Instance Name/Instance Status
+    - Invocation Status
         - New value: `Proposal Pending Facilitator Review`
 - Responsible Party: Operational GovOps
-- Triggers: [A.2.2.9.2.2.3.4 - Process Definition for Operational Facilitator Review](2d1d83ea-2a90-4c34-93ea-5bea390f3f62).
+- Trigger - Process: [A.2.2.9.2.2.3.4 - Process Definition for Operational Facilitator Review](2d1d83ea-2a90-4c34-93ea-5bea390f3f62)
 
 ###### A.2.2.9.2.2.3.4 - Process Definition for Operational Facilitator Review [Core]  <!-- UUID: 2d1d83ea-2a90-4c34-93ea-5bea390f3f62 -->
 
@@ -2480,7 +2503,7 @@ None.
 
 ###### A.2.2.9.2.2.3.4.1.1.2 - Document Update Triggers [Core]  <!-- UUID: 555a08a4-e028-44bd-9ba2-91e4bbf61644 -->
 
-This process is triggered by the Document Update specified at [A.2.2.9.2.2.3.3.4.2.1 - Primitive Hub Document Update](e7fc7c2e-b6fc-4e0f-ae10-debb54124e8e).
+This process is triggered by the Document Update specified at [A.2.2.9.2.2.3.3.4.2.1 - Primitive Hub Document/In Progress Invocations Directory/Instance Name Update](e7fc7c2e-b6fc-4e0f-ae10-debb54124e8e).
 
 ###### A.2.2.9.2.2.3.4.1.2 - Dependencies [Core]  <!-- UUID: f19c7277-65b4-4755-8756-fb0a242ba6a2 -->
 
@@ -2508,7 +2531,7 @@ The required Primitive Inputs to this process are defined herein and organized a
             - `Status`
                 - New value: set to `Proposal Approved by Facilitator`
         - Responsible party: Operational Facilitator
-        - Trigger-Process: [A.2.2.9.2.2.3.5 - Process Definition for Offchain Vote](24fa76f6-4728-4f1d-97ff-fd7e72dac2ac).
+        - Trigger - Required Output: Operational Facilitator Approves Proposal
 - Operational Facilitator Rejects Proposal
     - Edit `Artifact Edit Proposal`
         - Updated fields
@@ -2519,6 +2542,7 @@ The required Primitive Inputs to this process are defined herein and organized a
             - `Status`
                 - New value: set to `Proposal Rejected By Facilitator`
         - Responsible party: Operational Facilitator
+        - Trigger - Required Output: Operational Facilitator Rejects Proposal
 
 ###### A.2.2.9.2.2.3.4.4 - Required Outputs [Core]  <!-- UUID: c7436489-4aac-47cb-be2d-31774bd7ee99 -->
 
@@ -2526,11 +2550,40 @@ The documents herein specify the required outputs from this process, if any.
 
 ###### A.2.2.9.2.2.3.4.4.1 - Sky Core Atlas Updates [Core]  <!-- UUID: d7e64cf2-9f1a-4057-8395-fc1eca5c3059 -->
 
-No Sky Core Atlas documents are updated as the output of this process.
+The Sky Core Atlas documents specified herein are updated as the output of this process.
+
+###### A.2.2.9.2.2.3.4.4.1.1 - Onboarding Integrators Active Data Update [Core]  <!-- UUID: 24c0ee2e-5a73-42d3-8ecb-f8d568a0a5cb -->
+
+[A.2.2.9.1.2.1.4.2.0.6.1 - List Of Onboarding Integrators](eb644108-94fc-430f-ae5a-e3294b9dd9be) is updated as follows:
+
+- Required Primitive Input Trigger: Operational Facilitator Rejects Proposal (see [A.2.2.9.2.2.3.4.3 - Required Primitive Inputs](7f991abf-3395-4f92-82e1-88e991ebd97a))
+- Updated fields
+    - `Onboarding Integrators`
+        - New value: Delete the Integrator.
+- Responsible Party: Operational GovOps
+- Trigger - Process: None
 
 ###### A.2.2.9.2.2.3.4.4.2 - Agent Artifact Updates [Core]  <!-- UUID: d5cce836-259e-48df-ba77-89d58d1476cc -->
 
-No Agent Artifact documents are updated as the output of this process. The requirements specified in [A.2.2.9.2.2.3.4.3 - Required Primitive Inputs](7f991abf-3395-4f92-82e1-88e991ebd97a) fully complete the Process.
+The Agent Artifact documents specified herein are updated as the output of this process. The Output "sets" are mutually exclusive.
+
+- Operational Facilitator Approves Proposal
+    - Required Primitive Input Trigger: Operational Facilitator Approves Proposal (see [A.2.2.9.2.2.3.4.3 - Required Primitive Inputs](7f991abf-3395-4f92-82e1-88e991ebd97a))
+    - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
+        - Updated fields
+            - Invocation Status
+                - New value: set to `Proposal Pending Poll`
+        - Responsible Party: Operational GovOps
+        - Trigger - Process: [A.2.2.9.2.2.3.5 - Process Definition for Offchain Vote](24fa76f6-4728-4f1d-97ff-fd7e72dac2ac)
+- Operational Facilitator Rejects Proposal
+    - Required Primitive Input Trigger: Operational Facilitator Rejects Proposal (see [A.2.2.9.2.2.3.4.3 - Required Primitive Inputs](7f991abf-3395-4f92-82e1-88e991ebd97a))
+    - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
+        - Updated fields
+            - Invocation Status
+                - New value: set to `Proposal Rejected`
+        - Other Document Operations:
+            - `Instance Configuration Document` is `Archived` in Primitive Hub Document/Hub Data Repository
+        - Responsible Party: Operational GovOps
 
 ###### A.2.2.9.2.2.3.5 - Process Definition for Offchain Vote [Core]  <!-- UUID: 24fa76f6-4728-4f1d-97ff-fd7e72dac2ac -->
 
@@ -2550,7 +2603,7 @@ None.
 
 ###### A.2.2.9.2.2.3.5.1.1.2 - Document Update Triggers [Core]  <!-- UUID: bac65a98-2e36-471a-8d3b-68d207ede4e2 -->
 
-This process is triggered by the Artifact Update specified at Operational Facilitator Approves Proposal.
+This process is triggered by the Document Update specified at [A.2.2.9.2.2.3.4.4.2 - Agent Artifact Updates](d5cce836-259e-48df-ba77-89d58d1476cc) for the Operational Facilitator Approves Proposal pathway.
 
 ###### A.2.2.9.2.2.3.5.1.2 - Dependencies [Core]  <!-- UUID: bfdafaa4-e8bb-499b-99e6-f748d86cc569 -->
 
@@ -2560,7 +2613,7 @@ This process has no dependencies.
 
 The process flow for this process is defined herein:
 
-- Using the finalized `Atlas Edit Proposal` content, the Operational Facilitator sets up an offchain Snapshot vote.
+- Using the finalized `Artifact Edit Proposal` content, the Operational Facilitator sets up an offchain Snapshot vote.
 - Prime Agent token holders vote on the proposal.
 - After the voting concludes, the Operational Facilitator records the result of the vote.
 
@@ -2579,18 +2632,18 @@ The required Primitive Inputs to this process are defined herein.
 - Mutually Exclusive Input Pathways: The two Primitive Inputs below are mutually exclusive pathways. Once the vote concludes, the corresponding Pathway is followed to the exclusion of the other.
     - Proposal Passes
         - Edit `Artifact Edit Proposal` Document
-            - Update fields
+            - Updated fields
                 - Status
                     - New value: set to `Poll Approved`
             - Responsible party: Operational Facilitator.
-            - Trigger - Required Output: Proposal passes
+            - Trigger - Required Output: Proposal Passes
     - Proposal Fails
-        - Updated fields
-            - Edit `Artifact Edit Proposal` Document
+        - Edit `Artifact Edit Proposal` Document
+            - Updated fields
                 - Status
                     - New value: set to `Poll Rejected`
             - Responsible party: Operational Facilitator.
-            - Trigger - Required Output: Proposal fails
+            - Trigger - Required Output: Proposal Fails
 
 ###### A.2.2.9.2.2.3.5.4 - Required Outputs [Core]  <!-- UUID: bae40b55-4f53-4992-a872-228fd3d87671 -->
 
@@ -2598,26 +2651,39 @@ The documents herein specify the required outputs from this process.
 
 ###### A.2.2.9.2.2.3.5.4.1 - Sky Core Atlas Updates [Core]  <!-- UUID: 43a3722c-97d0-4389-9d3b-4ac24901d365 -->
 
-No Sky Core Atlas documents are updated as the output of this process.
+The Sky Core Atlas documents specified herein are updated as the output of this process.
+
+###### A.2.2.9.2.2.3.5.4.1.1 - Onboarding Integrators Active Data Update [Core]  <!-- UUID: d772d321-0f36-46fb-b66a-97cd1f0d6c68 -->
+
+[A.2.2.9.1.2.1.4.2.0.6.1 - List Of Onboarding Integrators](eb644108-94fc-430f-ae5a-e3294b9dd9be) is updated as follows:
+
+- Required Primitive Input Trigger: Proposal Fails (see [A.2.2.9.2.2.3.5.3 - Required Primitive Inputs](d247fec5-a19d-4307-94de-a2cbcc368d64))
+- Updated fields
+    - `Onboarding Integrators`
+        - New value: Delete the Integrator.
+- Responsible Party: Operational GovOps
+- Trigger - Process: None
 
 ###### A.2.2.9.2.2.3.5.4.2 - Agent Artifact Updates [Core]  <!-- UUID: adfb66a3-4f73-4fcc-bfa2-f5126503187c -->
 
 The Agent Artifact documents specified herein are updated as the output of this process. The Output "sets" are mutually exclusive.
 
-- Proposal passes
-    - Required Primitive Input Trigger: Proposal Passes
-    - **Edit** `Primitive Hub Document`
-        - Fields Updated
-            - Active instances/instance name/instance status - set to `Approved`
+- Proposal Passes
+    - Required Primitive Input Trigger: Proposal Passes (see [A.2.2.9.2.2.3.5.3 - Required Primitive Inputs](d247fec5-a19d-4307-94de-a2cbcc368d64))
+    - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
+        - Updated fields
+            - Invocation Status
+                - New value: set to `Proposal Approved`
         - Responsible Party: Operational GovOps
-        - Trigger - Process: [A.2.2.9.2.2.3.6 - Process Definition for Artifact Update](182ca3dc-108f-4941-ae2e-eb01c345125b).
-- Proposal fails
-    - Required Primitive Input Trigger: Proposal Fails
-    - **Edit** `Primitive Hub Document`
-        - Fields Updated
-            - Active instances/instance name/instance status - set to `Rejected`
+        - Trigger - Process: [A.2.2.9.2.2.3.6 - Process Definition for Artifact Update](182ca3dc-108f-4941-ae2e-eb01c345125b)
+- Proposal Fails
+    - Required Primitive Input Trigger: Proposal Fails (see [A.2.2.9.2.2.3.5.3 - Required Primitive Inputs](d247fec5-a19d-4307-94de-a2cbcc368d64))
+    - Edit `Primitive Hub Document/In Progress Invocations Directory/Instance Name`
+        - Updated fields
+            - Invocation Status
+                - New value: set to `Proposal Rejected`
         - Other Document Operations:
-            - `Instance Configuration Document` is `Archived` in Primitive Hub Document/Data Repository
+            - `Instance Configuration Document` is `Archived` in Primitive Hub Document/Hub Data Repository
         - Responsible Party: Operational GovOps
 
 ###### A.2.2.9.2.2.3.6 - Process Definition for Artifact Update [Core]  <!-- UUID: 182ca3dc-108f-4941-ae2e-eb01c345125b -->
@@ -2638,7 +2704,7 @@ None.
 
 ###### A.2.2.9.2.2.3.6.1.1.2 - Document Update Triggers [Core]  <!-- UUID: 97e2c2b5-f17b-46a4-9e01-9b782429bd39 -->
 
-This process is triggered by the Artifact update specified in Proposal passes.
+This process is triggered by the Document Update specified at [A.2.2.9.2.2.3.5.4.2 - Agent Artifact Updates](adfb66a3-4f73-4fcc-bfa2-f5126503187c) for the Proposal Passes pathway.
 
 ###### A.2.2.9.2.2.3.6.1.2 - Dependencies [Core]  <!-- UUID: 1c0ce5c0-df9a-417e-a3d4-2b09e96787f6 -->
 
@@ -2652,27 +2718,26 @@ The process flow is defined herein.
 
 ###### A.2.2.9.2.2.3.6.3 - Required Primitive Inputs [Core]  <!-- UUID: 51ca2399-8c7f-4c2a-843a-c85f6c670d13 -->
 
-The following inputs must be submitted into the Primitive.
+The required Primitive Inputs for this process are as follows.
 
 - Edit `Instance Configuration Document` to reflect ratified Primitive Instance.
     - Updated fields
-        - Parameters/Status - inherits from `Primitive Hub Document`
         - Parameters/Integration Partner Name
-            - New Value: set to `Integration Partner Name` value from approved Proposal
+            - New value: set to `Integration Partner Name` value from approved Proposal
         - Parameters/Integration Partner Reward Address
-            - New Value: set to `Integration Partner Reward Address` value from approved Proposal
+            - New value: set to `Integration Partner Reward Address` value from approved Proposal
         - Parameters/Integration Partner Chain
-            - New Value: set to `Integration Partner Chain` value from approved Proposal
+            - New value: set to `Integration Partner Chain` value from approved Proposal
         - Parameters/Integration Boost Cadence
-            - New Value: set to `Integration Boost Cadence` value from approved Proposal
+            - New value: set to `Integration Boost Cadence` value from approved Proposal
         - Parameters/Integration Boost Data Submission Format
-            - New Value: set to `Integration Boost Data Submission Format` value from approved Proposal
+            - New value: set to `Integration Boost Data Submission Format` value from approved Proposal
         - Parameters/Integration Boost Data Submission Responsible Actor
-            - New Value: set to `Integration Boost Data Submission Responsible Actor` value from approved Proposal
+            - New value: set to `Integration Boost Data Submission Responsible Actor` value from approved Proposal
         - Parameters/Integration Boost Savings Rate Adjustment Strategy
-            - New Value: set to `Integration Boost Savings Rate Adjustment Strategy` value from approved Proposal
+            - New value: set to `Integration Boost Savings Rate Adjustment Strategy` value from approved Proposal
         - Parameters/Custom Instance Parameters
-            - New Value: set to `Custom Instance Parameters` value from approved Proposal
+            - New value: set to `Custom Instance Parameters` value from approved Proposal
         - Responsible party: Operational Facilitator
 
 ###### A.2.2.9.2.2.3.6.4 - Required Outputs [Core]  <!-- UUID: bd74388f-69d8-48fc-bab8-522f1b3b5806 -->
@@ -2691,7 +2756,7 @@ The Sky Core Documents specified herein are updated as the output of this proces
     - `Onboarding Integrators`
         - New value: Delete the Integrator.
 - Responsible Party: Operational GovOps
-- Triggers: None
+- Trigger - Process: None
 
 ###### A.2.2.9.2.2.3.6.4.1.2 - Current Integrators Active Data Update [Core]  <!-- UUID: 1b03bc85-a7f4-4cc5-be41-d13a16b8c379 -->
 
@@ -2705,23 +2770,31 @@ The Sky Core Documents specified herein are updated as the output of this proces
     - `Tracking Methodology`
         - New value: set to the tracking methodology from the approved Proposal
 - Responsible Party: Operational GovOps
-- Triggers: None
+- Trigger - Process: None
 
 ###### A.2.2.9.2.2.3.6.4.2 - Agent Artifact Updates [Core]  <!-- UUID: 1ba7ea74-00a7-4e45-9fd4-d5222e40746b -->
 
 The Agent Artifact documents specified herein are updated as the output of this process.
 
-###### A.2.2.9.2.2.3.6.4.2.1 - Primitive Hub Document Update [Core]  <!-- UUID: f4323202-b7ef-437b-9667-226dea4f9dce -->
+###### A.2.2.9.2.2.3.6.4.2.1 - Instance Configuration Document Update [Core]  <!-- UUID: 5094572b-df4f-44d2-8445-7f2649cc69e1 -->
 
-The Document in the Agent Artifact is updated as follows:
+The Document is updated as follows:
 
-- Required Primitive Input Trigger: Proposal passes
-- Updated fields
-    - Active Instances/Instance Name/Instance Status
-        - New value: `Active`
-    - Instance Location: [links to `Instance Configuration Document` subtree]
+- Document Operations:
+    - Document is moved from `In Progress Invocations` to `Active Instances`
 - Responsible Party: Operational Facilitator
-- Trigger-Process: None.
+
+###### A.2.2.9.2.2.3.6.4.2.2 - Primitive Hub Document/In Progress Invocations Directory/Instance Name Update [Core]  <!-- UUID: f4323202-b7ef-437b-9667-226dea4f9dce -->
+
+The Document is updated as follows:
+
+- Document Operations:
+    - Document is converted into `Active Instances Directory` schema and moved into that subtree
+- Updated fields
+    - Instance Configuration Document Location
+        - New value: link to `Instance Configuration Document` in `Active Instances` subtree
+- Responsible Party: Operational Facilitator
+- Trigger - Process: None
 
 ###### A.2.2.9.2.2.4 - Instance Ongoing Management Protocol [Core]  <!-- UUID: 805381e5-89e7-4fb9-bda7-a97e84b531ba -->
 
@@ -3318,8 +3391,8 @@ The ERC-4626 Facet (`ERC4626Facet`) deposits, withdraws, and redeems against any
 The ERC-4626 Facet's highest production rate limit is:
 
 - Deposit
-    - `maxAmount`: 5,000,000 USDC
-    - `slope`: 650,000 USDC per day
+    - `maxAmount`: 12,441,600 USDC
+    - `slope`: 2,329,067 USDC per day
 - Withdraw
     - `maxAmount`: Unlimited
 
@@ -4048,8 +4121,8 @@ The Configurator is granted `DEFAULT_ADMIN_ROLE` on the Spark Diamond PAU `Acces
 
 In the Osero Spell included in the November 19, 2026 Executive Vote, Osero will grant the Configurator `DEFAULT_ADMIN_ROLE` on the Osero Diamond PAU `AccessControls` and `RateLimits` contracts on Base. The Osero Diamond PAU `RateLimits` contract will be paired to the Operator specified in [A.2.2.10.1.1.1.2.4.3.4.3.2 - Operator For The Osero Diamond PAU](b52fe20e-2927-4191-967f-73934e61a8af). The bounds within which cBEAMs may adjust rate limits on the Osero Diamond PAU `RateLimits` are:
 
-- `hop`: will be specified in a future iteration of the Atlas
-- `maxChange`: will be specified in a future iteration of the Atlas
+- `hop`: as specified in [A.2.2.10.1.1.1.2.4.3.1.1 - Hop Default Value](eec7a3cd-ec19-421e-9cc5-e4b1d0e051d4)
+- `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.3.1.2 - Max Change Default Value](ee33adfa-ad78-4161-b1bd-0703073c0ef4)
 
 ###### A.2.2.10.1.1.1.2.4.3.3 - BeamState [Core]  <!-- UUID: 36e7a9f1-1561-47b7-9478-e68c8c0a2d5a -->
 
@@ -4661,7 +4734,7 @@ The eligible collateral assets and maximum liquidation loan-to-value limits are:
 | sUSDS | 96.5% |
 | weETH | 77% |
 
-Lower liquidation loan-to-value tiers are permitted and may result in a lower Instance Financial CRR. The Instance Financial CRR for cbBTC, WBTC, and stETH markets using an 86% liquidation loan-to-value limit must account for any difference between that limit and the limit produced by the applicable risk model. weETH is eligible as collateral on Ethereum Mainnet only. weETH is subject to the weETH Exposure Cap specified in [A.2.2.10.1.1.1.3.2.5 - weETH Exposure Cap](c48c0416-46a3-47ee-845b-4b5f365bbf1c). Any collateral asset not listed herein requires due diligence and approval by the [A.0.1.1.46 - Core Council](5a03a0c4-a47a-409c-9b23-52ac93e63d45) before adoption.
+Lower liquidation loan-to-value tiers are permitted and may result in a lower Instance Financial CRR. The Instance Financial CRR for cbBTC, WBTC, and stETH markets using an 86% liquidation loan-to-value limit must account for any difference between that limit and the limit produced by the applicable risk model. weETH is eligible as collateral on Ethereum Mainnet only. weETH is subject to the weETH Exposure Cap specified in [A.2.2.10.1.1.1.3.2.5 - weETH Exposure Cap](c48c0416-46a3-47ee-845b-4b5f365bbf1c). Any collateral asset not listed herein requires due diligence and approval by the [A.0.1.1.47 - Core Council](5a03a0c4-a47a-409c-9b23-52ac93e63d45) before adoption.
 
 ###### A.2.2.10.1.1.1.3.2.3 - Oracle Requirements [Core]  <!-- UUID: be4f3bc0-70e4-478c-8c86-e889846198e3 -->
 
@@ -4690,7 +4763,7 @@ Where a method combines a contract exchange rate with a price from oracle feeds,
 
 ###### A.2.2.10.1.1.1.3.2.3.3 - New Collateral Oracle Approval [Core]  <!-- UUID: c7723797-b2c8-4334-a185-592797456f87 -->
 
-The oracle methodology for any new collateral asset requires due diligence and approval by the [A.0.1.1.46 - Core Council](5a03a0c4-a47a-409c-9b23-52ac93e63d45) before adoption.
+The oracle methodology for any new collateral asset requires due diligence and approval by the [A.0.1.1.47 - Core Council](5a03a0c4-a47a-409c-9b23-52ac93e63d45) before adoption.
 
 ###### A.2.2.10.1.1.1.3.2.3.4 - Morpho Oracle Contract Requirements [Core]  <!-- UUID: 8394d47c-af13-4d20-af8e-6441b944c895 -->
 
@@ -6894,7 +6967,7 @@ The subdocuments herein set out the substantive terms of Ecosystem Accord 5. Add
 
 ###### A.2.8.2.5.2.1 - Role As Core Executor Agent [Core]  <!-- UUID: fbf36985-ee32-4426-b809-b26f36c6e8a7 -->
 
-Core Council Executor Agent 1 will serve as the first Core Executor Agent and must carry out the responsibilities of the Core Council. See [A.0.1.1.46 - Core Council](5a03a0c4-a47a-409c-9b23-52ac93e63d45).
+Core Council Executor Agent 1 will serve as the first Core Executor Agent and must carry out the responsibilities of the Core Council. See [A.0.1.1.47 - Core Council](5a03a0c4-a47a-409c-9b23-52ac93e63d45).
 
 ###### A.2.8.2.5.2.2 - Genesis Capital Allocation [Core]  <!-- UUID: 6dc349a3-183e-4074-8f6e-cff39867363e -->
 
