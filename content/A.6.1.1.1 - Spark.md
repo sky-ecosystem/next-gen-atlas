@@ -2381,6 +2381,20 @@ The maximum amount of USDC that can be sent to the Unichain ALM Proxy (`LIMIT_US
 - `maxAmount`: 0
 - `slope`: 0
 
+###### A.6.1.1.1.2.6.1.2.1.1.3.4.8 - Unichain USDC CCTP Maximum [Core]  <!-- UUID: 5b083c5a-083d-411d-80f9-9681505601f3 -->
+
+The maximum amount of USDC that can be bridged from Unichain using the Circle Cross-Chain Transfer Protocol (`LIMIT_USDC_TO_CCTP`) is specified in the document herein.
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.2.1.1.3.4.9 - Unichain USDC To Ethereum Mainnet Maximum [Core]  <!-- UUID: 5933d6ba-bc74-4da1-ae8d-1fc606625183 -->
+
+The maximum amount of USDC that can be sent from the Unichain ALM Proxy to the Ethereum Mainnet ALM Proxy (`LIMIT_USDC_TO_DOMAIN`, hashed with Ethereum Mainnet domain) is specified in the document herein.
+
+- `maxAmount`: 0
+- `slope`: 0
+
 ###### A.6.1.1.1.2.6.1.2.1.1.3.5 - Optimism [Core]  <!-- UUID: 13bda6de-0abf-4b64-9379-4653c8f4875e -->
 
 The documents herein list the current `RateLimits` for the Spark Liquidity Layer on Optimism.
@@ -2434,6 +2448,20 @@ The maximum amount of USDC that can be sent to the Optimism ALM Proxy (`LIMIT_US
 - `maxAmount`: 0
 - `slope`: 0
 
+###### A.6.1.1.1.2.6.1.2.1.1.3.5.8 - Optimism USDC CCTP Maximum [Core]  <!-- UUID: 5b9ec66b-be12-4df6-bd78-dc37cb49a1a4 -->
+
+The maximum amount of USDC that can be bridged from Optimism using the Circle Cross-Chain Transfer Protocol (`LIMIT_USDC_TO_CCTP`) is specified in the document herein.
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.2.1.1.3.5.9 - Optimism USDC To Ethereum Mainnet Maximum [Core]  <!-- UUID: 62fd344b-fd69-4fdb-8f49-820f3875548d -->
+
+The maximum amount of USDC that can be sent from the Optimism ALM Proxy to the Ethereum Mainnet ALM Proxy (`LIMIT_USDC_TO_DOMAIN`, hashed with Ethereum Mainnet domain) is specified in the document herein.
+
+- `maxAmount`: 0
+- `slope`: 0
+
 ###### A.6.1.1.1.2.6.1.2.1.1.3.6 - Avalanche [Core]  <!-- UUID: bf7f9935-ef38-4d33-a871-d4273cb341e0 -->
 
 The documents herein list the current `RateLimits` for the Spark Liquidity Layer on Avalanche.
@@ -2462,6 +2490,20 @@ The maximum amount of USDC that can be sent to the Avalanche ALM Proxy (`LIMIT_U
 ###### A.6.1.1.1.2.6.1.2.1.1.3.6.3.1 - Maximum USDC Bridged From Ethereum Mainnet To Avalanche Via Circle CCTP [Core]  <!-- UUID: 0de9f0f1-ccef-4f17-b699-7dedb79673b9 -->
 
 The maximum amount of USDC that can be bridged to Avalanche ALM Proxy using the Circle Cross-Chain Transfer Protocol (`LIMIT_USDC_TO_CCTP_AVALANCHE`) is specified in the document herein.
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.2.1.1.3.6.4 - Avalanche USDC CCTP Maximum [Core]  <!-- UUID: 9ebfad4d-882a-405d-954f-39f9bb57c052 -->
+
+The maximum amount of USDC that can be bridged from Avalanche using the Circle Cross-Chain Transfer Protocol (`LIMIT_USDC_TO_CCTP`) is specified in the document herein.
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.2.1.1.3.6.5 - Avalanche USDC To Ethereum Mainnet Maximum [Core]  <!-- UUID: e1310b63-ff86-4e77-ab31-20605c37b704 -->
+
+The maximum amount of USDC that can be sent from the Avalanche ALM Proxy to the Ethereum Mainnet ALM Proxy (`LIMIT_USDC_TO_DOMAIN`, hashed with Ethereum Mainnet domain) is specified in the document herein.
 
 - `maxAmount`: 0
 - `slope`: 0

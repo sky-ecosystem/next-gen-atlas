@@ -203,7 +203,7 @@ The Sky Forum serves as a dedicated platform for governance across the Sky Ecosy
 
 #### A.0.1.1.39 - Agent [Core]  <!-- UUID: 3c18e6a7-95b8-44e9-8da6-1eadf3fdd356 -->
 
-Agents are first-class economic citizens of Sky that autonomously pursue business opportunities. Each Agent has its own Agent Artifact and token. Initially, the creation of an Agent results in a Proto-Agent, which lacks any specialized role. To gain functionality within the Sky ecosystem, a Proto-Agent must deploy a special Transformation Primitive to transform into a specific Agent sub-type. The Agent sub-types currently defined in the Atlas include 1) Prime Agent and 2) Executor Agent, with the Executor Agent sub-type further divided into Operational Executor Agents and Core Executor Agents.
+Agents are first-class economic citizens of Sky that autonomously pursue business opportunities. Each Agent has its own Agent Artifact and token. Initially, the creation of an Agent results in a Proto-Agent, which lacks any specialized role. To gain functionality within the Sky ecosystem, a Proto-Agent must deploy a special Transformation Primitive to transform into a Prime Agent or an Executor Agent. The Agent sub-types currently defined in the Atlas include 1) Prime Agent, 2) Executor Agent, and 3) Halo Agent, with the Executor Agent sub-type further divided into Operational Executor Agents and Core Executor Agents.
 
 Although Executor Agents are not yet operational, the Atlas nonetheless defines the foundational rules, processes, and governance structures necessary for their eventual activation. In the medium to long term, these Executor Agents will become fully operative and perform an essential function in facilitating the activities of Prime Agents across the Sky ecosystem.
 
@@ -223,7 +223,13 @@ Prime Agents maintain and automate Sky features in new markets, and innovate cus
 - When a Prime Agent formulates a new initiative, it encodes the relevant instructions and parameters into its Agent Artifact. Insofar as the Prime Agent’s Artifact requires protocol-level interactions, the Operational Executors use the Artifact as a detailed operational blueprint for implementing the Prime Agent’s directives—ensuring consistency with the Atlas and minimizing risk.
 - This ensures a robust division between Prime Agents’ strategic, externally facing activities and the specialized operational activities that directly interface with Sky’s core systems.
 
-#### A.0.1.1.43 - Executor Agent [Core]  <!-- UUID: ac514975-66ad-4b43-8f76-42cac5ca599d -->
+#### A.0.1.1.43 - Halo Agent [Core]  <!-- UUID: 38cdad10-b80d-4b80-af94-79768fcc1818 -->
+
+Halo Agents are Agents that wrap assets, such as real-world assets and business infrastructure, and provide a standardized interface through which Prime Agents can invest in those assets. Halo Agents do not access the Sky Primitives directly. Halo Agents will be further specified in a future iteration of the Atlas.
+
+The Agent Artifact of a Halo Agent is located inside the Agent Artifact of a Prime Agent. Sky Core Halos have no Agent Artifact, as specified in [A.1.14.6.1 - Definition Of Sky Core Halos](097be889-3e2c-463a-ac49-8fc79059253c).
+
+#### A.0.1.1.44 - Executor Agent [Core]  <!-- UUID: ac514975-66ad-4b43-8f76-42cac5ca599d -->
 
 Executor Agents ("Executors") are specialized Agents that implement those elements of a Prime Agent’s activities that directly interface with the Sky Protocol or shared ecosystem resources, leaving Prime Agents free to focus on strategic, business development, and marketing efforts. There are two Executor sub-types: Core Executor Agents ("Core Executor Agents") and Operational Executor Agents ("Operational Executors").
 
@@ -231,59 +237,59 @@ Executor Agents ("Executors") are specialized Agents that implement those elemen
 - Core Executor Agents, on the other hand, oversee the activities of Operational Executors, ensuring that the implementation of Prime Agent strategies aligns with the Atlas.
 - By separating strategy from operations, this division of labor empowers Prime Agents to innovate rapidly and expand their ventures without needing to develop specialized operational expertise, as Operational Executors manage the day-to-day technical implementation under the oversight of Core Executor Agents.
 
-#### A.0.1.1.44 - Operational Executor Agent [Core]  <!-- UUID: 23253343-23e3-440f-90c0-43d3437c2098 -->
+#### A.0.1.1.45 - Operational Executor Agent [Core]  <!-- UUID: 23253343-23e3-440f-90c0-43d3437c2098 -->
 
 Operational Executor Agents ("Operational Executors") are specialized Executor Agents tasked with implementing and verifying those elements of a Prime Agent’s strategy that directly interface with the Sky Protocol or shared ecosystem resources. While Prime Agents autonomously set strategic direction, Operational Executors are responsible for operationalizing those activities that modify on-chain or protocol-level state, relying on the relevant Primitive Configuration Documents in the Agent Artifact.
 
 Each Operational Executor Agent must comprise at least one Facilitator and at least one GovOps actor. Facilitators are responsible for interpreting the Atlas and the Agent Artifact and instructing GovOps actors to carry out the corresponding actions. To ensure accountability and mitigate potential risks, Operational Executor Agents must maintain Operational Collateral, which serves as a guarantee to cover losses or damages resulting from negligence or malicious behavior by either Facilitators or GovOps actors.
 
-#### A.0.1.1.45 - Core Council Executor Agent [Core]  <!-- UUID: 2a440474-20d1-4703-a57b-35e0cebb881c -->
+#### A.0.1.1.46 - Core Council Executor Agent [Core]  <!-- UUID: 2a440474-20d1-4703-a57b-35e0cebb881c -->
 
 Core Council Executor Agents ("Core Executor Agents") are Executor Agents who serve on the Core Council and act as checks on Operational Executor Agents.
 
-#### A.0.1.1.46 - Core Council [Core]  <!-- UUID: 5a03a0c4-a47a-409c-9b23-52ac93e63d45 -->
+#### A.0.1.1.47 - Core Council [Core]  <!-- UUID: 5a03a0c4-a47a-409c-9b23-52ac93e63d45 -->
 
 The Core Council is a group of Executors responsible for operationalizing the protocol at the Sky Core level. It monitors Operational Executor compliance and enforces the Sky Core Atlas. It also oversees Sky Core governance processes, evolves the Risk Framework, monitors Alignment Conservers, and addresses governance disputes. The Council begins with a single seat held by Core Council Executor Agent 1 and will expand over time to multiple elected seats on a rotational basis, targeting up to seven members in the long term.
 
-#### A.0.1.1.47 - GovOps [Core]  <!-- UUID: 1e73ee4b-823d-406a-af54-223b43bc8e42 -->
+#### A.0.1.1.48 - GovOps [Core]  <!-- UUID: 1e73ee4b-823d-406a-af54-223b43bc8e42 -->
 
 Governance Operations ("GovOps") actors are specialized Ecosystem Actors operating within Executor Agent entities. They manage the technical implementation of Prime Agents’ Instances of Sky Primitives by carrying out on-chain/off-chain tasks necessary for Prime Agents’ operational and governance processes. They work in tandem with Executor Facilitators, who interpret the Atlas and the Agent Artifact.
 
-#### A.0.1.1.48 - Operational Executor GovOps [Core]  <!-- UUID: 80c7e2e1-a2af-47dd-80c7-aee6823cca91 -->
+#### A.0.1.1.49 - Operational Executor GovOps [Core]  <!-- UUID: 80c7e2e1-a2af-47dd-80c7-aee6823cca91 -->
 
 Operational Executor GovOps ("Operational GovOps") actors are GovOps actors that operate within Operational Executor Agents. Operational GovOps play a crucial role in implementing Prime Agent strategies, doing so by executing the technical specifications outlined in Primitive Configuration Documents of Agent Artifacts.
 
-#### A.0.1.1.49 - Core Council GovOps [Core]  <!-- UUID: e512e890-629f-450f-a14d-a3ea06a369c0 -->
+#### A.0.1.1.50 - Core Council GovOps [Core]  <!-- UUID: e512e890-629f-450f-a14d-a3ea06a369c0 -->
 
 Core Council GovOps ("Core GovOps") actors are GovOps actors that operate within Core Executor Agents.
 
-#### A.0.1.1.50 - Operational Executor Facilitator [Core]  <!-- UUID: 2d984fe4-c1d7-4ac3-835b-19f19a3a5505 -->
+#### A.0.1.1.51 - Operational Executor Facilitator [Core]  <!-- UUID: 2d984fe4-c1d7-4ac3-835b-19f19a3a5505 -->
 
 Operational Executor Facilitators are Facilitators that interpret Artifacts and the Atlas on behalf of Operational Executor Agents.
 
-#### A.0.1.1.51 - Core Council Executor Facilitator [Core]  <!-- UUID: 453e9bfb-2776-486d-b451-35742e49e0ab -->
+#### A.0.1.1.52 - Core Council Executor Facilitator [Core]  <!-- UUID: 453e9bfb-2776-486d-b451-35742e49e0ab -->
 
 Core Council Executor Facilitators ("Core Facilitator") interpret Artifacts and the Atlas on behalf of Core Executor Agents.
 
-#### A.0.1.1.52 - Sky Primitives [Core]  <!-- UUID: ae14941a-635e-4022-af4d-2bec2827fbbf -->
+#### A.0.1.1.53 - Sky Primitives [Core]  <!-- UUID: ae14941a-635e-4022-af4d-2bec2827fbbf -->
 
 Sky Primitives are the core building blocks of the Sky ecosystem, serving as the primary interface between Agents and the Atlas. By providing a standardized set of tools and interfaces, Sky Primitives empower Prime Agents to create, innovate, and evolve the Sky Protocol in a decentralized manner. The Sky Primitives are also used by Executor Agents, which serve as the robust and standardized intermediary layer between Prime Agents and the Sky Protocol.
 
-#### A.0.1.1.53 - Conformance [Core]  <!-- UUID: cb66c28b-c05f-4ccc-ad44-f05aacf78b9c -->
+#### A.0.1.1.54 - Conformance [Core]  <!-- UUID: cb66c28b-c05f-4ccc-ad44-f05aacf78b9c -->
 
 Conformance characterizes the state in which a Synome Document accurately operationalizes the principles, rules, and processes specified by the Atlas Documents.
 
-#### A.0.1.1.54 - Independent Governance [Core]  <!-- UUID: 6e1c1d71-7f57-4842-9767-7de8f27a532a -->
+#### A.0.1.1.55 - Independent Governance [Core]  <!-- UUID: 6e1c1d71-7f57-4842-9767-7de8f27a532a -->
 
 Independent Governance is the state of a Prime Agent that has a token and an established governance process by which the token's holders can produce binding decisions directing the Agent.
 
-#### A.0.1.1.55 - Sky Frontier Foundation [Core]  <!-- UUID: 05d714e5-9428-4978-ac57-e3885b4e4c41 -->
+#### A.0.1.1.56 - Sky Frontier Foundation [Core]  <!-- UUID: 05d714e5-9428-4978-ac57-e3885b4e4c41 -->
 
 The Sky Frontier Foundation is a foundation that supports the innovation, development, and acceleration of the Sky Ecosystem. Its mandate is to fund public goods infrastructure and self-sustainable activities to support long-term ecosystem growth.
 
 The Sky Frontier Foundation's multisig address is `0xca5183FB9997046fbd9bA8113139bf5a5Af122A0`.
 
-#### A.0.1.1.56 - Fortification Foundation [Core]  <!-- UUID: f44e6bf3-acf2-483e-af99-7cbee48c0c56 -->
+#### A.0.1.1.57 - Fortification Foundation [Core]  <!-- UUID: f44e6bf3-acf2-483e-af99-7cbee48c0c56 -->
 
 The Fortification Foundation is a foundation that addresses existential, long-term legal and political issues of the Sky Ecosystem. Its responsibilities include legal defense, IP protection, regulatory engagement, resilience, and unquantifiable risk management.
 

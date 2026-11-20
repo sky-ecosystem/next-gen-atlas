@@ -1119,7 +1119,7 @@ The Synome Editor role is held by Archon Tech.
 
 #### A.1.3.2.2 - Review Obligation [Core]  <!-- UUID: 907407a8-123f-47bd-a120-9ce8f15c6c48 -->
 
-Core GovOps, the Core Facilitator, and the Aligned Delegates must review modifications to Synome Documents made by the Synome Editor for conformance with the Atlas Documents as specified in [A.0.1.1.53 - Conformance](cb66c28b-c05f-4ccc-ad44-f05aacf78b9c) and for misalignment of the Synome Editor as specified in [A.0.1.1.11 - Misalignment](60066e0f-3db7-45c7-9664-8120a4fbd38b).
+Core GovOps, the Core Facilitator, and the Aligned Delegates must review modifications to Synome Documents made by the Synome Editor for conformance with the Atlas Documents as specified in [A.0.1.1.54 - Conformance](cb66c28b-c05f-4ccc-ad44-f05aacf78b9c) and for misalignment of the Synome Editor as specified in [A.0.1.1.11 - Misalignment](60066e0f-3db7-45c7-9664-8120a4fbd38b).
 
 #### A.1.3.2.3 - Correction Of Non-Conformance [Core]  <!-- UUID: 4e6ae30e-862c-4ca5-be64-c54b226c2ec0 -->
 
@@ -4521,7 +4521,7 @@ The registered Spell Checklists are:
 The documents herein define Operational Reference Materials used in connection with infrastructure changes and contract deployments. Operational Reference Materials are maintained in the Ecosystem Operational References repository (https://github.com/soterlabs/ecosystem-operational-references). Users must verify their local copy is aligned with the latest version in the Ecosystem Operational References repository before each use of the reference materials.
 ###### A.1.10.2.5.2.1 - Technical Scope Template [Core]  <!-- UUID: b9ba6658-87a9-4421-9d20-386df8cea450 -->
 
-The Technical Scope Template is a standardized template for announcing any infrastructure changes, whether on-chain or off-chain. The Technical Scope Template must be completed for all infrastructure changes and submitted as specified in [A.1.10.2.5.2.1.1 - Technical Scope Template Submission Requirements](a6acd80e-289a-4159-ba51-3399c5d90f3d). For a change to a Morpho vault that meets the conditions specified in [A.1.10.2.5.2.4 - Morpho Vault Change Note Template](f82537ec-50d1-44a0-ae01-0270cc091793), a completed Morpho Vault Change Note may be used instead of the Technical Scope Template.
+The Technical Scope Template is a standardized template for announcing any infrastructure changes, whether on-chain or off-chain. The Technical Scope Template is located at https://github.com/soterlabs/ecosystem-operational-references/blob/main/templates/technical-scope-template.md. The Technical Scope Template must be completed for all infrastructure changes and submitted as specified in [A.1.10.2.5.2.1.1 - Technical Scope Template Submission Requirements](a6acd80e-289a-4159-ba51-3399c5d90f3d). For a change to a Morpho vault that meets the conditions specified in [A.1.10.2.5.2.4 - Morpho Vault Change Note Template](f82537ec-50d1-44a0-ae01-0270cc091793), a completed Morpho Vault Change Note may be used instead of the Technical Scope Template.
 
 ###### A.1.10.2.5.2.1.1 - Technical Scope Template Submission Requirements [Core]  <!-- UUID: a6acd80e-289a-4159-ba51-3399c5d90f3d -->
 
@@ -4537,7 +4537,7 @@ The Technical Scope Template is maintained by Core GovOps. All changes must be s
 
 ###### A.1.10.2.5.2.2 - Deployment Checklist [Core]  <!-- UUID: 2ac3532b-784f-4a09-be7f-b3d0ca360fe7 -->
 
-The Deployment Checklist defines standardized steps for contract deployments, covering deployer hygiene, foundry setup, test deployments, and verification. The Deployment Checklist must be followed and completed for all contract deployments and submitted as specified in [A.1.10.2.5.2.2.1 - Deployment Checklist Submission Requirements](25477ece-2fbc-4341-92e5-f596e151534d).
+The Deployment Checklist defines standardized steps for contract deployments, covering deployer hygiene, foundry setup, test deployments, and verification. The Deployment Checklist is located at https://github.com/soterlabs/ecosystem-operational-references/blob/main/checklists/deployment-checklist.md. The Deployment Checklist must be followed and completed for all contract deployments and submitted as specified in [A.1.10.2.5.2.2.1 - Deployment Checklist Submission Requirements](25477ece-2fbc-4341-92e5-f596e151534d).
 
 ###### A.1.10.2.5.2.2.1 - Deployment Checklist Submission Requirements [Core]  <!-- UUID: 25477ece-2fbc-4341-92e5-f596e151534d -->
 
@@ -4549,7 +4549,7 @@ The Deployment Checklist is maintained by Core GovOps. All changes must be submi
 
 ###### A.1.10.2.5.2.3 - Morpho Deployment Verification Guide [Core]  <!-- UUID: 45adb133-13b4-402c-8c2b-2473d78ff72e -->
 
-The Morpho Deployment Verification Guide defines the steps for verifying vault and market deployments made through the Morpho protocol's smart contract factories, covering factory deployment provenance, market and oracle parameters, vault roles, and timelock settings. The guide is maintained as specified in [A.1.10.2.5.2.3.1 - Morpho Deployment Verification Guide Update Process](5df5c86a-7efa-4c04-afda-dd9f3a21e596). Morpho vaults used by Prime Agents must also comply with [A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework](915a36c0-754c-41f9-ada1-2fec0816f7b8).
+The Morpho Deployment Verification Guide defines the steps for verifying vault and market deployments made through the Morpho protocol's smart contract factories, covering factory deployment provenance, market and oracle parameters, vault roles, and timelock settings. The guide is located at https://github.com/soterlabs/ecosystem-operational-references/blob/main/guides/morpho-deployment-verification-guide.md. The guide is maintained as specified in [A.1.10.2.5.2.3.1 - Morpho Deployment Verification Guide Update Process](5df5c86a-7efa-4c04-afda-dd9f3a21e596). Morpho vaults used by Prime Agents must also comply with [A.2.2.10.1.1.1.3 - Morpho Vault Curation Framework](915a36c0-754c-41f9-ada1-2fec0816f7b8).
 
 The output of the Morpho Deployment Verification Guide is the Morpho Verification Report, which records the results and supporting evidence of each check, including findings, corrective actions, and recheck results. The Morpho Verification Report must cover the vault, markets, and configuration relevant to the Prime Spell. For a Morpho vault, the deployment verification report in the [A.1.10.2.5.1.2.1.1 - Agent Spell Reviewer Checklist](badd8b62-dffe-4778-b5e2-78c76195242d) is the Morpho Verification Report.
 
@@ -6225,7 +6225,7 @@ The first five (5) Scopes of the Sky Atlas, together with the Preamble, serve as
 
 #### A.1.14.1.4 - Agent Artifacts and the Agent Scope [Core]  <!-- UUID: 178d80c7-832e-4b0c-b2f1-79b718f11e78 -->
 
-The Agent Scope consists of all Agent-specific governance and operational documents, referred to as Agent Artifacts. Although Agent Artifacts are part of the Sky Atlas, they remain subordinate to the Sky Core Atlas. Any Agent Artifact provision that conflicts with the Sky Core Atlas is invalid to the extent of that conflict.
+The Agent Scope consists of all Agent-specific governance and operational documents, referred to as Agent Artifacts. As an exception, the documents of Sky Core Halos are located in [A.1.14.6.3 - List Of Sky Core Halos](dc48d6fa-6831-4c06-ab0e-e3bf42fc0553). Although Agent Artifacts are part of the Sky Atlas, they remain subordinate to the Sky Core Atlas. Any Agent Artifact provision that conflicts with the Sky Core Atlas is invalid to the extent of that conflict.
 
 #### A.1.14.1.5 - Conflict Protocol Between Agent Artifacts And The Sky Core Atlas [Core]  <!-- UUID: ecb0b102-fe9a-41b0-9fab-ba229764fa2b -->
 
@@ -6297,7 +6297,7 @@ While the text of Agent Artifacts may be copied and made accessible in other loc
 
 #### A.1.14.2.4 - Agent Artifact Primitives [Core]  <!-- UUID: a132233a-8ec0-44d5-b93a-3cff6ca49ad6 -->
 
-All Agent Artifacts contain a set of configured Primitive Instances, as set out in the Sky Primitives Article in the Support Scope see [A.2.2 - Sky Primitives](fcde2604-a138-4c1b-9d9a-14895835c907).
+All Agent Artifacts, except the Agent Artifacts of Halo Agents, contain a set of configured Primitive Instances, as set out in the Sky Primitives Article in the Support Scope see [A.2.2 - Sky Primitives](fcde2604-a138-4c1b-9d9a-14895835c907).
 
 ##### A.1.14.2.4.1 - Agent Artifact Instance Configuration Requirements [Core]  <!-- UUID: 3d7f42a5-8c7d-44ed-9a85-2ab8e7cca2f5 -->
 
@@ -6559,6 +6559,46 @@ Once the Executor Agent has ensured that all operational activities and function
 #### A.1.14.5.4 - Agent Termination Process Dispute Resolution [Core]  <!-- UUID: 065c176d-4a7e-4944-babb-43b325e33cf4 -->
 
 In the event of any dispute between the Agent or Agent token holders, and the designated Executor Agent carrying out the Agent Termination Process, the Core Facilitator must mediate. If there are operational disagreements between an Agent’s Founder or Agent token holders and the Executor Agent, the Core Facilitator has discretion to direct the Executor Agent to take a particular action as consistent with the Sky Core Atlas and the relevant Agent Artifact.
+
+### A.1.14.6 - Sky Core Halos [Section]  <!-- UUID: 7a90e53d-3115-4bd0-a354-6c0aac682eeb -->
+
+The documents herein define Sky Core Halos, the general rules that apply to them, and the list of Sky Core Halos.
+
+#### A.1.14.6.1 - Definition Of Sky Core Halos [Core]  <!-- UUID: 097be889-3e2c-463a-ac49-8fc79059253c -->
+
+A Sky Core Halo is a Halo Agent that is controlled directly by the Core Council rather than by a Prime Agent. Sky Core Halos have no Agent Artifact. This is an exception to the rule that each Agent has its own Agent Artifact (see [A.0.1.1.39 - Agent](3c18e6a7-95b8-44e9-8da6-1eadf3fdd356)) and to the rule that the Agent Artifact of a Halo Agent is located inside the Agent Artifact of a Prime Agent (see [A.0.1.1.43 - Halo Agent](38cdad10-b80d-4b80-af94-79768fcc1818)). Instead, each Sky Core Halo is specified in [A.1.14.6.3 - List Of Sky Core Halos](dc48d6fa-6831-4c06-ab0e-e3bf42fc0553).
+
+#### A.1.14.6.2 - General Rules For Sky Core Halos [Core]  <!-- UUID: 9dea3146-d110-49be-8952-08cba5c42403 -->
+
+The documents herein define the rules that apply to all Sky Core Halos.
+
+##### A.1.14.6.2.1 - Spells For Sky Core Halos [Core]  <!-- UUID: 69928d95-cfb3-4251-96a8-2e3737f7c61c -->
+
+Spell content for a Sky Core Halo follows the Prime Spell Process (see [A.1.10.2.3.2.2.3 - Prime Spell Process Breakdown](a67d672a-83f4-46db-adfc-f08004d3f152)), except that a Core Spell Team crafts the spell content.
+
+##### A.1.14.6.2.2 - Operational Executor Agent For Sky Core Halos [Core]  <!-- UUID: 690b47e7-a688-47d2-ac3f-6fd17528efd5 -->
+
+Sky Core Halos are operated by Operational Executor Agent Ozone. See [A.6.1.2.2 - Operational Executor Agent Ozone](565660dd-7850-4c3a-8dba-554542bf103a).
+
+#### A.1.14.6.3 - List Of Sky Core Halos [Core]  <!-- UUID: dc48d6fa-6831-4c06-ab0e-e3bf42fc0553 -->
+
+The documents herein list and specify each Sky Core Halo. Currently, the only Sky Core Halo is Test Halo.
+
+##### A.1.14.6.3.1 - Test Halo [Core]  <!-- UUID: 59d23e0e-dcf8-4fdb-937a-678023849cf6 -->
+
+The documents herein specify Test Halo. Test Halo is used to test new Agent architecture and operations, and to prove the related on-chain architecture in production before wider use.
+
+###### A.1.14.6.3.1.1 - Test Halo SubProxy Account [Core]  <!-- UUID: 9e0b9059-b850-4dcb-bb0b-b34a3e97e479 -->
+
+The address of Test Halo's SubProxy Account on the Ethereum Mainnet is `0xF12Be1673758f8fBC275755401774Ec45C80c0F0`.
+
+###### A.1.14.6.3.1.2 - Test Halo StarGuard Contract [Core]  <!-- UUID: c86c090c-8982-45c1-9454-2dd36723b99c -->
+
+The address of Test Halo's StarGuard contract on the Ethereum Mainnet is `0x5dc7A3700Dc0508f5E127FA23acd83cc2E1D6056`.
+
+###### A.1.14.6.3.1.2.1 - Test Halo StarGuard Max Delay [Core]  <!-- UUID: ca45b70f-b230-4d2c-85ae-61e63be78c26 -->
+
+The Test Halo StarGuard `maxDelay` is seven (7) days.
 
 ## A.1.15 - Scope Bootstrapping [Article]  <!-- UUID: ba97b4dd-c4e0-4d12-8769-423f6ecdc6bf -->
 
