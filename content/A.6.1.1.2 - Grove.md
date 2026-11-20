@@ -82,15 +82,23 @@ The name of the Agent is Grove.
 
 The address of Grove’s SubProxy Account on the Ethereum Mainnet is `0x1369f7b2b38c76B6478c0f0E66D94923421891Ba`.
 
-###### A.6.1.1.2.2.1.1.3.1.1.3 - Genesis Account [Core]  <!-- UUID: 9f6f0416-1efa-4986-aec9-0ee66cd13758 -->
+###### A.6.1.1.2.2.1.1.3.1.1.3 - StarGuard Contract [Core]  <!-- UUID: d6c55c27-21aa-4a03-90da-338273e304ff -->
+
+The address of Grove’s StarGuard contract on the Ethereum Mainnet is `0xfc51CAa049E8894bEcFfB68c61095C3F3Ec8a880`.
+
+###### A.6.1.1.2.2.1.1.3.1.1.3.1 - StarGuard Max Delay [Core]  <!-- UUID: 38ec0c96-b564-48cc-b99b-9d780eb7b82e -->
+
+The Grove StarGuard `maxDelay` is seven (7) days.
+
+###### A.6.1.1.2.2.1.1.3.1.1.4 - Genesis Account [Core]  <!-- UUID: 9f6f0416-1efa-4986-aec9-0ee66cd13758 -->
 
 The address of Grove’s Genesis Account will be specified in a future iteration of the Grove Artifact.
 
-###### A.6.1.1.2.2.1.1.3.1.1.4 - Foundation [Core]  <!-- UUID: 70d75e6f-009f-4ac0-b430-881b86d573ca -->
+###### A.6.1.1.2.2.1.1.3.1.1.5 - Foundation [Core]  <!-- UUID: 70d75e6f-009f-4ac0-b430-881b86d573ca -->
 
 The Grove Foundation is the Prime Foundation associated with Grove. Its mandate is to support the development, growth, and adoption of Grove.
 
-###### A.6.1.1.2.2.1.1.3.1.1.5 - Development Company [Core]  <!-- UUID: 830f6fb5-1037-4516-9efa-d7101553a3d0 -->
+###### A.6.1.1.2.2.1.1.3.1.1.6 - Development Company [Core]  <!-- UUID: 830f6fb5-1037-4516-9efa-d7101553a3d0 -->
 
 Grove Development Company is a development company that provides services to the Grove Foundation. Grove Development Company is a "Nested Contributor", i.e., a core contributor to both Grove and Sky.
 
@@ -514,7 +522,7 @@ The Root Edit process begins with a GROVE token holder submitting a proposal con
 
 Nested Contributors are always authorized to submit Artifact Edit Proposals and do not have to fulfill the token-holding requirements defined in [A.6.1.1.2.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](e9ae4a8a-3e61-488c-8f8b-d0062f46644d). However, all other procedural requirements within the Root Edit process continue to apply.
 
-To see the Agent’s Nested Contributors, see [A.6.1.1.2.2.1.1.3.1.1.5 - Development Company](830f6fb5-1037-4516-9efa-d7101553a3d0).
+To see the Agent’s Nested Contributors, see [A.6.1.1.2.2.1.1.3.1.1.6 - Development Company](830f6fb5-1037-4516-9efa-d7101553a3d0).
 
 ###### A.6.1.1.2.2.2.2.2.1.2.1.2 - Root Edit Expert Advisor Review [Core]  <!-- UUID: 3cdc7302-7f68-4143-8243-685e0681991d -->
 

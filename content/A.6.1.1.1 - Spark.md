@@ -86,23 +86,31 @@ The name of the Agent is Spark.
 
 The address of Spark’s SubProxy Account on the Ethereum Mainnet is `0x3300f198988e4C9C63F75dF86De36421f06af8c4`.
 
-###### A.6.1.1.1.2.1.1.3.1.1.3 - Genesis Account [Core]  <!-- UUID: e160e2e9-a1f2-4beb-af44-b7bc86ab163f -->
+###### A.6.1.1.1.2.1.1.3.1.1.3 - StarGuard Contract [Core]  <!-- UUID: 536588d4-3839-493f-833a-b3fc88cc33e5 -->
+
+The address of Spark’s StarGuard contract on the Ethereum Mainnet is `0x6605aa120fe8b656482903E7757BaBF56947E45E`.
+
+###### A.6.1.1.1.2.1.1.3.1.1.3.1 - StarGuard Max Delay [Core]  <!-- UUID: 5db8ad09-ff78-41a0-a186-1f93043ceba6 -->
+
+The Spark StarGuard `maxDelay` is seven (7) days.
+
+###### A.6.1.1.1.2.1.1.3.1.1.4 - Genesis Account [Core]  <!-- UUID: e160e2e9-a1f2-4beb-af44-b7bc86ab163f -->
 
 The address of Spark’s Genesis Account will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.2.1.1.3.1.1.4 - Foundation [Core]  <!-- UUID: 166669dd-467a-4d82-b7e5-5ea18cae5b61 -->
+###### A.6.1.1.1.2.1.1.3.1.1.5 - Foundation [Core]  <!-- UUID: 166669dd-467a-4d82-b7e5-5ea18cae5b61 -->
 
 The Spark Foundation is the Prime Foundation associated with Spark. Its mandate is to support the development, growth, and adoption of Spark.
 
-###### A.6.1.1.1.2.1.1.3.1.1.5 - Development Company [Core]  <!-- UUID: dd82336a-db68-4e58-a624-22d6de00be4c -->
+###### A.6.1.1.1.2.1.1.3.1.1.6 - Development Company [Core]  <!-- UUID: dd82336a-db68-4e58-a624-22d6de00be4c -->
 
 Phoenix Labs is a development company that provides services to the Spark Foundation. Phoenix Labs is a "Nested Contributor", i.e., a core contributor to both Spark and Sky.
 
-###### A.6.1.1.1.2.1.1.3.1.1.6 - Custom Instance Parameters [Core]  <!-- UUID: 4bc28587-5f7f-4297-840d-ec2109f2e6be -->
+###### A.6.1.1.1.2.1.1.3.1.1.7 - Custom Instance Parameters [Core]  <!-- UUID: 4bc28587-5f7f-4297-840d-ec2109f2e6be -->
 
 The documents herein define the custom parameters of the Single Instance of the Agent Creation Primitive, if any.
 
-###### A.6.1.1.1.2.1.1.3.1.1.6.1 - Spark Assets Foundation [Core]  <!-- UUID: 4d70e4a7-6f65-421c-b22a-ac5a6eae8170 -->
+###### A.6.1.1.1.2.1.1.3.1.1.7.1 - Spark Assets Foundation [Core]  <!-- UUID: 4d70e4a7-6f65-421c-b22a-ac5a6eae8170 -->
 
 Spark Assets Foundation is an entity, the purpose of which is to support the Spark Liquidity Layer through real world engagements and allocations. Spark Assets Foundation will deploy assets which are held in the ALM Contracts.
 
@@ -536,7 +544,7 @@ The Root Edit process begins with a SPK token holder submitting a proposal conta
 
 Nested Contributors are always authorized to submit Artifact Edit Proposals and do not have to fulfill the token-holding requirements defined in [A.6.1.1.1.2.2.2.2.1.2.1.1 - Root Edit Proposal Submission](c9f7cc6e-0548-4599-9f9d-bfa1d2bb7577). However, all other procedural requirements within the Root Edit process continue to apply.
 
-To see the Agent’s Nested Contributors, see [A.6.1.1.1.2.1.1.3.1.1.5 - Development Company](dd82336a-db68-4e58-a624-22d6de00be4c).
+To see the Agent’s Nested Contributors, see [A.6.1.1.1.2.1.1.3.1.1.6 - Development Company](dd82336a-db68-4e58-a624-22d6de00be4c).
 
 ###### A.6.1.1.1.2.2.2.2.1.2.1.2 - Root Edit Proposal Review By Operational Facilitator [Core]  <!-- UUID: 32bad904-ba90-4abb-9115-0b304a792521 -->
 
@@ -2635,7 +2643,7 @@ Ecosystem Actor Phoenix Labs can change the signers of the Prime Relayer Multisi
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.2 - Core Operator Relayer Multisig [Core]  <!-- UUID: 8286092a-69f2-46af-a989-c694a1756753 -->
 
-The Core Operator Relayer Multisig has the `RELAYER` role as defined in [A.6.1.1.1.2.6.1.2.2.1.1.2 - Relayer Role](cc2f7956-90ce-4025-9642-bfe403dc3ccc) and is jointly controlled by Operational GovOps Soter Labs and the Spark Assets Foundation in accordance with [A.6.1.1.1.2.1.1.3.1.1.6.1 - Spark Assets Foundation](4d70e4a7-6f65-421c-b22a-ac5a6eae8170).
+The Core Operator Relayer Multisig has the `RELAYER` role as defined in [A.6.1.1.1.2.6.1.2.2.1.1.2 - Relayer Role](cc2f7956-90ce-4025-9642-bfe403dc3ccc) and is jointly controlled by Operational GovOps Soter Labs and the Spark Assets Foundation in accordance with [A.6.1.1.1.2.1.1.3.1.1.7.1 - Spark Assets Foundation](4d70e4a7-6f65-421c-b22a-ac5a6eae8170).
 
 ###### A.6.1.1.1.2.6.1.2.1.2.2.2.1 - Address [Core]  <!-- UUID: 567e4905-2b05-493e-95ac-8a4d20afed2b -->
 
