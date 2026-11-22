@@ -6901,6 +6901,7 @@ The Allocator role is held by the following entities at the corresponding addres
 | Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
 | Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
 | Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+| Steakhouse Financial (SteakhouseOperator) | `0xBEEF5F9f39e684CF39e0770fa57a43Fa46a3BEef` |
 
 The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
@@ -7022,6 +7023,7 @@ The Allocator role is held by the following entities at the corresponding addres
 | Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
 | Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
 | Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+| Steakhouse Financial (SteakhouseOperator) | `0xBEEF5F9f39e684CF39e0770fa57a43Fa46a3BEef` |
 
 The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
@@ -7147,6 +7149,7 @@ The Allocator role is held by the following entities at the corresponding addres
 | Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
 | Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
 | Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+| Steakhouse Financial (SteakhouseOperator) | `0xBEEF5F9f39e684CF39e0770fa57a43Fa46a3BEef` |
 
 The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
@@ -7272,6 +7275,7 @@ The Allocator role is held by the following entities at the corresponding addres
 | Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
 | Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
 | Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+| Steakhouse Financial (SteakhouseOperator) | `0xBEEF5F9f39e684CF39e0770fa57a43Fa46a3BEef` |
 
 The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
@@ -7396,6 +7400,7 @@ The Allocator role is held by the following entities at the corresponding addres
 | Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
 | Steakhouse Financial | `0xaaD84c80b013c34D70E54fB343D0C2f309F635E7` |
 | Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
+| Steakhouse Financial (SteakhouseOperator) | `0xBEEF5F9f39e684CF39e0770fa57a43Fa46a3BEef` |
 
 The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
@@ -9148,6 +9153,7 @@ The Allocator role is held by the following entities at the corresponding addres
 | Steakhouse Financial | `0xBBF1ad10455EeD600Cd78A1702F7AcA41C9aBceb` |
 | Steakhouse Financial | `0xfC580f2a77e85f1F47b60F096D36fDc97cE2d827` |
 | Steakhouse Financial | `0xfeed46c11F57B7126a773EeC6ae9cA7aE1C03C9a` |
+| Steakhouse Financial (SteakhouseOperator) | `0xBEEF5F9f39e684CF39e0770fa57a43Fa46a3BEef` |
 
 The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
@@ -9521,6 +9527,18 @@ The documents herein define the Instance contract addresses.
 ###### A.6.1.1.2.2.6.1.3.7.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: e767deb9-75d4-493a-992e-3691e666ab2f -->
 
 `0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168`
+
+###### A.6.1.1.2.2.6.1.3.7.1.1.2.2.3 - Allocator Role Addresses [Core]  <!-- UUID: 4896e30a-42ce-4dc5-946c-e8527da531fa -->
+
+The Allocator role is held by the following entities at the corresponding addresses:
+
+| Entity | Address |
+| --- | --- |
+| Steakhouse Financial (SteakhouseOperator) | `0xBEEF5F9f39e684CF39e0770fa57a43Fa46a3BEef` |
+| Morpho Blue Public Allocator | `0xCe5c1aFa115fF8b1D6913509bfc79D9AE08CC857` |
+| Steakhouse Financial (USDG Faucet) | `0x69DD1f11da2d97b88B1f61F21724aFB681B52717` |
+
+The Morpho Blue Public Allocator is a permissionless contract. Public allocation calls are subject to the vault caps and the settings configured by the vault's Allocators.
 
 ###### A.6.1.1.2.2.6.1.3.7.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 674c9991-ba05-4bc9-8de0-9b1ea52d8a3d -->
 
