@@ -2663,15 +2663,15 @@ The documents herein list the controller-wide rate limits for the Spark Diamond 
 
 The maximum amount of USDS that can be sent from the Spark Liquidity Layer ALM Proxy to the Ethereum Spark Savings USDT Diamond PAU ALM Proxy in exchange for USDT is specified in the document herein.
 
-- `maxAmount`: 100,000,000 USDS
-- `slope`: 500,000,000 USDS per day
+- `maxAmount`: 10,000,000 USDS
+- `slope`: 200,000,000 USDS per day
 
 ###### A.6.1.1.1.2.6.1.2.1.1.5.3.2 - USDT Swap Initiation Limit [Core]  <!-- UUID: 2664ab1c-78ec-4bbf-ab18-cfd4d930608d -->
 
 The maximum amount of USDT that can be sent from the Spark Liquidity Layer ALM Proxy to the Ethereum Spark Savings USDT Diamond PAU ALM Proxy in exchange for USDS is specified in the document herein.
 
-- `maxAmount`: 100,000,000 USDT
-- `slope`: 500,000,000 USDT per day
+- `maxAmount`: 10,000,000 USDT
+- `slope`: 200,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 9e74aa40-898f-4389-ba3d-8590c12f075d -->
 
