@@ -5556,15 +5556,17 @@ The current `maxAmount` for this conduit's take and transfer operations are defi
 
 ###### A.6.1.1.1.2.6.1.3.1.4.4.4.2.3.1 - Take Rate Limit [Core]  <!-- UUID: 57d3c62e-4228-449c-85a5-e1113abdb51d -->
 
-The take rate limit parameter is:
+The take rate limit parameters are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 10,000,000 USDT
+- `slope`: 200,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.4.4.4.2.3.2 - Transfer Rate Limit [Core]  <!-- UUID: 94135e76-ac12-446c-9591-ab6ed7e6379b -->
 
-The transfer rate limit parameter is:
+The transfer rate limit parameters are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 10,000,000 USDT
+- `slope`: 200,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.3.1.5 - Arkis [Core]  <!-- UUID: 61ad54f3-9faa-4a9a-9cee-e685fb8fc4cf -->
 
@@ -13126,41 +13128,43 @@ The rate limits for the Ethereum Spark Savings USDT Diamond PAU are specified in
 
 The sUSDS Deposit rate limit parameters are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 50,000,000 USDS
+- `slope`: 50,000,000 USDS per day
 
 ###### A.6.1.1.1.3.5.4.1.1.5.2 - sUSDS Withdrawal Rate Limit [Core]  <!-- UUID: d65406d5-c256-4d0f-843b-cb96e883469b -->
 
 The sUSDS Withdrawal rate limit parameters are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 50,000,000 USDS
+- `slope`: 200,000,000 USDS per day
 
 ###### A.6.1.1.1.3.5.4.1.1.5.3 - LayerZero To Arbitrum Rate Limit [Core]  <!-- UUID: 4404b3e2-0ba4-46ea-ad37-671308a7b634 -->
 
 The LayerZero To Arbitrum rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDT
-- `slope`: 50,000,000 USDT per day
+- `slope`: 25,000,000 USDT per day
 
 ###### A.6.1.1.1.3.5.4.1.1.5.4 - LayerZero To X Layer Rate Limit [Core]  <!-- UUID: 07221513-5231-47a1-b62c-ed26df3fcb90 -->
 
 The LayerZero To X Layer rate limit parameters are:
 
 - `maxAmount`: 5,000,000 USDT
-- `slope`: 100,000,000 USDT per day
+- `slope`: 25,000,000 USDT per day
 
 ###### A.6.1.1.1.3.5.4.1.1.5.5 - USDT Swap Completion Rate Limit [Core]  <!-- UUID: c7d9846d-df95-4a30-8aae-f9a2cc2853ec -->
 
 The USDT Swap Completion rate limit parameters are:
 
-- `maxAmount`: 100,000,000 USDT
-- `slope`: 1,000,000,000 USDT per day
+- `maxAmount`: 10,000,000 USDT
+- `slope`: 200,000,000 USDT per day
 
 ###### A.6.1.1.1.3.5.4.1.1.5.6 - USDS Swap Completion Rate Limit [Core]  <!-- UUID: ff5f679f-2a36-47f9-9129-51dd9ede75a9 -->
 
 The USDS Swap Completion rate limit parameters are:
 
-- `maxAmount`: 100,000,000 USDS
-- `slope`: 1,000,000,000 USDS per day
+- `maxAmount`: 10,000,000 USDS
+- `slope`: 200,000,000 USDS per day
 
 ###### A.6.1.1.1.3.5.4.1.1.6 - Operational Configuration [Core]  <!-- UUID: 54fbe1c0-7c23-4385-b47a-cf9a91f54140 -->
 
