@@ -13064,7 +13064,7 @@ The Spark Vaults Administered Agent's roles are:
 The Spark Planner Administered Agent's roles are:
 
 - Admin: Spark SubProxy (`0x3300f198988e4C9C63F75dF86De36421f06af8c4`).
-- Actor: Spark planner hot wallet (`0x062cE42caE04c51D04E77e3D64cc8953a2296FfE`).
+- Actors: Spark planner hot wallet (`0x062cE42caE04c51D04E77e3D64cc8953a2296FfE`) and ALM Relayer Multisig (`0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB`).
 - Revoker: Spark Low Threshold Multisig (`0xeC7edCD85460018BA71823076343Cd8D1721972b`).
 - Grantor: Spark Medium Threshold Multisig (`0x71c738C6838A5491d9b9226eCBc2E74794855153`).
 
@@ -13128,15 +13128,13 @@ The rate limits for the Ethereum Spark Savings USDT Diamond PAU are specified in
 
 The sUSDS Deposit rate limit parameters are:
 
-- `maxAmount`: 50,000,000 USDS
-- `slope`: 50,000,000 USDS per day
+- `maxAmount`: Unlimited
 
 ###### A.6.1.1.1.3.5.4.1.1.5.2 - sUSDS Withdrawal Rate Limit [Core]  <!-- UUID: d65406d5-c256-4d0f-843b-cb96e883469b -->
 
 The sUSDS Withdrawal rate limit parameters are:
 
-- `maxAmount`: 50,000,000 USDS
-- `slope`: 200,000,000 USDS per day
+- `maxAmount`: Unlimited
 
 ###### A.6.1.1.1.3.5.4.1.1.5.3 - LayerZero To Arbitrum Rate Limit [Core]  <!-- UUID: 4404b3e2-0ba4-46ea-ad37-671308a7b634 -->
 
