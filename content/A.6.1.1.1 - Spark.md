@@ -5544,11 +5544,11 @@ The specific `RateLimitID`(s) for this conduit's take and transfer operations ar
 
 ###### A.6.1.1.1.2.6.1.3.1.4.4.4.2.2.1 - Take Rate Limit ID [Core]  <!-- UUID: 69c467c5-7a1c-494c-aa21-1e8d2f85b987 -->
 
-The Take RateLimitID is: `TBD`
+The Take RateLimitID is: `0x0335f36b87501deed8fd62dd9d0a4b0c149568bf2a7e3dc2ffb0920a60d5ba46`
 
 ###### A.6.1.1.1.2.6.1.3.1.4.4.4.2.2.2 - Transfer Rate Limit ID [Core]  <!-- UUID: 387c6d49-2401-4e73-808b-406224723bb7 -->
 
-The Transfer RateLimitID is: `TBD`
+The Transfer RateLimitID is: `0xe3efee79202351ad64bb73712079e37726f09bcdd2010725adb10a4b569deb93`
 
 ###### A.6.1.1.1.2.6.1.3.1.4.4.4.2.3 - Rate Limits [Core]  <!-- UUID: aba5c9dc-79aa-4cd4-8d0f-47760b3deb13 -->
 
@@ -13098,27 +13098,27 @@ The rate limit IDs for the Ethereum Spark Savings USDT Diamond PAU are specified
 
 ###### A.6.1.1.1.3.5.4.1.1.4.1 - sUSDS Deposit Rate Limit ID [Core]  <!-- UUID: eec37d2a-39f6-4512-8662-c041b999d6e7 -->
 
-The sUSDS Deposit RateLimitID is: `TBD`
+The sUSDS Deposit RateLimitID is: `0xfbbbd09071ebea2547c782b262294ad415fc461fb9749d35fa4569ec1f43c644`
 
 ###### A.6.1.1.1.3.5.4.1.1.4.2 - sUSDS Withdrawal Rate Limit ID [Core]  <!-- UUID: 15d58a4f-06fb-4ffc-a728-bfbe8b035907 -->
 
-The sUSDS Withdrawal RateLimitID is: `TBD`
+The sUSDS Withdrawal RateLimitID is: `0x545658e11eef7c07257b7c8c8143f20f61b952c9e6371f8c64378e27b61fbad6`
 
 ###### A.6.1.1.1.3.5.4.1.1.4.3 - LayerZero To Arbitrum Rate Limit ID [Core]  <!-- UUID: 9804eb3a-520f-4736-9c44-1612d75fa1c3 -->
 
-The LayerZero To Arbitrum RateLimitID is: `TBD`
+The LayerZero To Arbitrum RateLimitID is: `0xf8bd106f07ccc5db04c54a164e868c809cc624d434815c0e5ac6e77656d6b9f9`
 
 ###### A.6.1.1.1.3.5.4.1.1.4.4 - LayerZero To X Layer Rate Limit ID [Core]  <!-- UUID: a6fbdc13-380d-473a-bdfb-09e598a269c3 -->
 
-The LayerZero To X Layer RateLimitID is: `TBD`
+The LayerZero To X Layer RateLimitID is: `0x3588d8d5b032013d7ec8b1270acc68c8ec5736cd4319fb235cb206abd62c7dcf`
 
 ###### A.6.1.1.1.3.5.4.1.1.4.5 - USDT Swap Completion Rate Limit ID [Core]  <!-- UUID: e84027e6-4239-461b-be04-24ec18586e6c -->
 
-The USDT Swap Completion RateLimitID is: `TBD`
+The USDT Swap Completion RateLimitID is: `0x8c46110fd7b308879cef76601c9133bec9da229836d2e1cac78981210dc52979`
 
 ###### A.6.1.1.1.3.5.4.1.1.4.6 - USDS Swap Completion Rate Limit ID [Core]  <!-- UUID: f0ee01e2-6522-431a-a9d6-aa7e907acfef -->
 
-The USDS Swap Completion RateLimitID is: `TBD`
+The USDS Swap Completion RateLimitID is: `0x3f3fdc4f78de1d3a90711c409338f933f91d9cdb80af815f97d6c1997defbdd7`
 
 ###### A.6.1.1.1.3.5.4.1.1.5 - Rate Limits [Core]  <!-- UUID: 18b0df9a-acb0-401e-8bbf-c5d25d21216a -->
 
