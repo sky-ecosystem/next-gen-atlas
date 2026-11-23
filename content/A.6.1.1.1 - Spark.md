@@ -2053,7 +2053,7 @@ The address of the ALM Rate Limits contract is: `0x4824C4336a1a11979068A544958dC
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.5 - AdministeredAgent Contract [Core]  <!-- UUID: 3afc0502-e0ba-45a1-ae05-fe539053cf07 -->
 
-The address of the AdministeredAgent contract is: `0x0745aae633E8318a063D383791bCc0d8C82F46C6`. The AdministeredAgent holds the Allocator Role of the Diamond PAU and mediates relayer access to the Controller: the ALM Relayer Multisig and the Spark hot wallet are registered as its actors and submit operations through it, while the ALM Freezer Multisig and the Soter Labs freezer multisig are registered as revokers authorized to remove a compromised actor, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
+The address of the AdministeredAgent contract is: `0x0745aae633E8318a063D383791bCc0d8C82F46C6`. The AdministeredAgent holds the Allocator Role of the Diamond PAU and mediates relayer access to the Controller: the Spark Planner Administered Agent (`TBD`) is registered as its sole actor and submits operations through it, while the ALM Freezer Multisig and the Soter Labs freezer multisig are registered as revokers authorized to remove a compromised actor, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.6 - Beacon Contract [Core]  <!-- UUID: e7ef2fd6-d98a-454d-9dd5-1cb0dc739101 -->
 
@@ -2062,6 +2062,10 @@ The address of the Beacon contract is: `0x86036CE5d2f792367C0AA43164e688d13c5A60
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.7 - CCTP Facet Contract [Core]  <!-- UUID: 29be03da-9d81-487a-8d3a-7ebd80bffd44 -->
 
 The address of the CCTP Facet contract is: `0xeCCA0D296Cb133081d41E9772B60D57F5fd2798E`.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.8 - Spark Planner Administered Agent Contract [Core]  <!-- UUID: 4f4ef175-bc10-4146-9dc9-72a4e9032d73 -->
+
+`TBD`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.2 - Base [Core]  <!-- UUID: 59e2c1fc-2f61-48c3-b6fe-9dcd5b8851dc -->
 
@@ -2784,12 +2788,7 @@ The `CONTROLLER` role is authorized to call the `call` functions on the ALM Prox
 
 The `ALLOCATOR_ROLE` is authorized to call functions on the Controller contract to perform operations on behalf of the ALM Proxy contract. The Allocator Role is held by the AdministeredAgent contract, as specified in [A.6.1.1.1.2.6.1.2.1.1.1.3.1.5 - AdministeredAgent Contract](3afc0502-e0ba-45a1-ae05-fe539053cf07), which mediates access for the Spark Liquidity Layer relayer system. This role was granted at deployment; actor changes do not transfer the Allocator Role to those actors.
 
-Actors submit allocation operations through the AdministeredAgent. The Arbitrum Diamond PAU actors are:
-
-- ALM Relayer Multisig: `0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB`.
-- Spark hot wallet: `0x062cE42caE04c51D04E77e3D64cc8953a2296FfE`.
-
-Actors can initiate `cctp_transfer` through the Controller within its configured limits and to the Ethereum ALM Proxy only. If the Spark hot wallet is an EOA, a single key can exercise this operational access.
+The Spark Planner Administered Agent, as specified in [A.6.1.1.1.2.6.1.2.1.1.1.3.1.8 - Spark Planner Administered Agent Contract](4f4ef175-bc10-4146-9dc9-72a4e9032d73), is registered as the sole actor of the AdministeredAgent and submits allocation operations through it. The Spark planner hot wallet and the ALM Relayer Multisig operate through the Spark Planner Administered Agent. The actor can initiate `cctp_transfer` through the Controller within its configured limits and to the Ethereum ALM Proxy only.
 
 An actor may be removed from the AdministeredAgent by an address holding the Freezer Role, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5.1.4 - Freezer Role](bd20f786-b4af-4d5b-b29a-d84050a8fa2d).
 
@@ -2805,6 +2804,15 @@ Removing an actor revokes its ability to submit operations through the Allocatio
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.5 - Grantor [Core]  <!-- UUID: 64f794c9-db5f-4875-a800-3da12f4c5bec -->
 
 The Grantor is authorized to add actors to the AdministeredAgent. The grantor is the Soter Labs grantor multisig: `0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7`. It replaces the PAU Grantor Multisig (`0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514`), whose grantor authorization is removed.
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.6 - Spark Planner Administered Agent Roles [Core]  <!-- UUID: b1ac0b24-fa8b-461e-8e4d-03eb0d405ccb -->
+
+The Spark Planner Administered Agent is shared by the Arbitrum Spark Liquidity Layer and Spark Savings USDT Diamond PAUs. Its roles are:
+
+- Admin: Arbitrum Spark Executor (`0x65d946e533748A998B1f0E430803e39A6388f7a1`).
+- Actors: Spark planner hot wallet (`0x062cE42caE04c51D04E77e3D64cc8953a2296FfE`) and ALM Relayer Multisig (`0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB`).
+- Revoker: Spark Low Threshold Multisig (`0xeC7edCD85460018BA71823076343Cd8D1721972b`).
+- Grantor: Spark Medium Threshold Multisig (`0x71c738C6838A5491d9b9226eCBc2E74794855153`).
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.2 - Base [Core]  <!-- UUID: 9f23570b-83ac-4513-a431-6582576e8a57 -->
 
@@ -13035,11 +13043,7 @@ The documents herein define the addresses of the Arbitrum Spark Savings USDT Dia
 
 `TBD`
 
-###### A.6.1.1.1.3.5.4.1.1.1.6 - Spark Planner Administered Agent Contract [Core]  <!-- UUID: 4f4ef175-bc10-4146-9dc9-72a4e9032d73 -->
-
-`TBD`
-
-###### A.6.1.1.1.3.5.4.1.1.1.7 - Spark Beacon Contract [Core]  <!-- UUID: 8297b1e0-fa9b-406f-87b0-f8087a1ab518 -->
+###### A.6.1.1.1.3.5.4.1.1.1.6 - Spark Beacon Contract [Core]  <!-- UUID: 8297b1e0-fa9b-406f-87b0-f8087a1ab518 -->
 
 `0x53ecE26171B716e5F4D03eAF70844F0a34E368f7`
 
@@ -13056,18 +13060,11 @@ The Arbitrum Spark Executor (`0x65d946e533748A998B1f0E430803e39A6388f7a1`) is th
 The Spark Vaults Administered Agent's roles are:
 
 - Admin: Arbitrum Spark Executor (`0x65d946e533748A998B1f0E430803e39A6388f7a1`).
-- Actor: Arbitrum Spark Planner Administered Agent.
+- Actor: Arbitrum Spark Planner Administered Agent, as specified in [A.6.1.1.1.2.6.1.2.1.1.1.3.1.8 - Spark Planner Administered Agent Contract](4f4ef175-bc10-4146-9dc9-72a4e9032d73).
 - Revokers: Spark Low Threshold Multisig (`0xeC7edCD85460018BA71823076343Cd8D1721972b`) and Soter Labs Revoker Multisig (`0x747BF29B189e2a070a921Af7Cf65681E3d5F5967`).
 - Grantor: Soter Labs Grantor Multisig (`0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7`).
 
-###### A.6.1.1.1.3.5.4.1.1.2.3 - Spark Planner Administered Agent Roles [Core]  <!-- UUID: b1ac0b24-fa8b-461e-8e4d-03eb0d405ccb -->
-
-The Spark Planner Administered Agent's roles are:
-
-- Admin: Arbitrum Spark Executor (`0x65d946e533748A998B1f0E430803e39A6388f7a1`).
-- Actor: Spark planner hot wallet (`0x062cE42caE04c51D04E77e3D64cc8953a2296FfE`).
-- Revoker: Spark Low Threshold Multisig (`0xeC7edCD85460018BA71823076343Cd8D1721972b`).
-- Grantor: Spark Medium Threshold Multisig (`0x71c738C6838A5491d9b9226eCBc2E74794855153`).
+The Spark Planner Administered Agent's roles are specified in [A.6.1.1.1.2.6.1.2.2.1.1.5.1.6 - Spark Planner Administered Agent Roles](b1ac0b24-fa8b-461e-8e4d-03eb0d405ccb).
 
 ###### A.6.1.1.1.3.5.4.1.1.3 - Diamond PAU Controller Functions [Core]  <!-- UUID: b9f576e4-ef51-4361-9a9a-cafebab05f17 -->
 
@@ -13075,15 +13072,15 @@ The Facets used by the Spark Savings USDT Diamond PAU on Arbitrum are specified 
 
 ###### A.6.1.1.1.3.5.4.1.1.3.1 - Spark Vault Facet [Core]  <!-- UUID: 296a3dcf-3d8a-4b04-b52d-f14d3c1e2e96 -->
 
-The Spark Savings USDT Diamond PAU uses the Spark Vault Facet (`SPARK_VAULT_FACET`) to take USDT0 from the Spark Savings USDT vault. Its address on Arbitrum is `0xa293a5CAdC903B005af0cc531BFEEc05213d233C`.
+The Spark Savings USDT Diamond PAU uses the Spark Vault Facet (`SPARK_VAULT_FACET`) to take USDT0 from the Spark Savings USDT vault. Its address on Arbitrum is `TBD`.
 
 ###### A.6.1.1.1.3.5.4.1.1.3.2 - Transfer Asset Facet [Core]  <!-- UUID: 6d3df7d5-eee4-449f-b076-d9ffc1862b7d -->
 
-The Spark Savings USDT Diamond PAU uses the Transfer Asset Facet (`TRANSFER_ASSET_FACET`) to transfer USDT0 from its ALM Proxy to the Spark Savings USDT vault. Its address on Arbitrum is `0xe94A71345C2774f48fE1D6FEa23FdCf906668897`.
+The Spark Savings USDT Diamond PAU uses the Transfer Asset Facet (`TRANSFER_ASSET_FACET`) to transfer USDT0 from its ALM Proxy to the Spark Savings USDT vault. Its address on Arbitrum is `TBD`.
 
 ###### A.6.1.1.1.3.5.4.1.1.3.3 - LayerZero Facet [Core]  <!-- UUID: 5f6240f1-805a-4eab-a780-20e74cda5b36 -->
 
-The Spark Savings USDT Diamond PAU uses the LayerZero Facet (`LAYER_ZERO_FACET`) to send USDT0 to the Ethereum Spark Savings USDT Diamond PAU ALM Proxy. Its address on Arbitrum is `0x21783460499b5a4b2fEA8c9c9B7833420aE5a560`.
+The Spark Savings USDT Diamond PAU uses the LayerZero Facet (`LAYER_ZERO_FACET`) to send USDT0 to the Ethereum Spark Savings USDT Diamond PAU ALM Proxy. Its address on Arbitrum is `TBD`.
 
 ###### A.6.1.1.1.3.5.4.1.1.4 - Rate Limit IDs [Core]  <!-- UUID: 12c50ead-185a-4bc7-bb4a-97b3d2e1f3ab -->
 
