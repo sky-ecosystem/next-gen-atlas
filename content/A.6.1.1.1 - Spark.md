@@ -1422,9 +1422,9 @@ The documents herein contain a Directory of all Instances on Arbitrum of the All
 
 The Arbitrum Instances Directory of the Spark Savings v2 Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.1.2.3.1.1 - Arbitrum - Spark Savings v2 USDT Instance Configuration Document Location [Core]  <!-- UUID: 83e8fd47-6b16-4400-8a93-e7b5e5f0e99e -->
+###### A.6.1.1.1.2.6.1.1.2.3.1.1 - Arbitrum - Spark Savings v2 USDT Diamond PAU Instance Configuration Document Location [Core]  <!-- UUID: bc38ac22-7723-4dd7-8f06-e74e54878d15 -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.3.1.1 - Arbitrum - Spark Savings v2 USDT Instance Configuration Document](1185b8bc-532d-4f34-93f3-1906bce1e119).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.3.1.1 - Arbitrum - Spark Savings v2 USDT Diamond PAU Instance Configuration Document](c3fa1778-6694-46d7-8801-2f35525ef67e).
 
 ###### A.6.1.1.1.2.6.1.1.2.4 - Robinhood Chain [Core]  <!-- UUID: f3ced164-396f-4014-ae27-e2ce7303a3b4 -->
 
@@ -1661,6 +1661,14 @@ The Arbitrum Instances Directory of the Aave Protocol with `Completed` Status ar
 ###### A.6.1.1.1.2.6.1.1.3.3.2.1 - Arbitrum - Aave USDC Instance Configuration Document Location [Core]  <!-- UUID: 6a9a6b83-5337-4f61-b01c-757809bd90b9 -->
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.2.1 - Arbitrum - Aave USDC Instance Configuration Document](e11091aa-e569-4ca9-9151-dc5e1a8e1062).
+
+###### A.6.1.1.1.2.6.1.1.3.3.3 - Spark Savings V2 [Core]  <!-- UUID: a9c0f7b9-ff83-49cb-922b-f281a0c1c097 -->
+
+The Arbitrum Instances Directory of the Spark Savings v2 with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.3.3.3.1 - Arbitrum - Spark Savings v2 USDT Instance Configuration Document Location [Core]  <!-- UUID: 83e8fd47-6b16-4400-8a93-e7b5e5f0e99e -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.3.3.1 - Arbitrum - Spark Savings v2 USDT Instance Configuration Document](1185b8bc-532d-4f34-93f3-1906bce1e119).
 
 ###### A.6.1.1.1.2.6.1.1.3.4 - Avalanche [Core]  <!-- UUID: 9e754677-be19-447f-a7cd-0cb03ed647da -->
 
@@ -7036,95 +7044,95 @@ The Arbitrum Instances of the Spark Liquidity Layer with `Active` Status are sto
 
 The Arbitrum Instances of the Spark Savings v2 with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.3.3.1.1 - Arbitrum - Spark Savings v2 USDT Instance Configuration Document [Core]  <!-- UUID: 1185b8bc-532d-4f34-93f3-1906bce1e119 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1 - Arbitrum - Spark Savings v2 USDT Diamond PAU Instance Configuration Document [Core]  <!-- UUID: c3fa1778-6694-46d7-8801-2f35525ef67e -->
 
-The documents herein contain the Instance Configuration Document for the Spark Savings v2 USDT Instance on Arbitrum.
+The documents herein contain the Instance Configuration Document for the Spark Savings v2 USDT Diamond PAU Instance on Arbitrum.
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: bb1848fe-9e77-4b88-8d72-81720d43a8d4 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: c4b5b402-dc20-4f52-82dd-a73e50bc79ee -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2 - Parameters [Core]  <!-- UUID: c513d81f-468c-443d-a347-e4ac1f1e13a9 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2 - Parameters [Core]  <!-- UUID: a7f67bbd-0930-4d28-b12e-e1348174025a -->
 
 The documents herein define the parameters of the Spark Savings v2 USDT Instance on Arbitrum of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 36ed03cc-4d66-44e6-9a61-ec91a74c2df4 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: e1983e92-886e-405e-b930-4ca521ff076a -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.1 - Network [Core]  <!-- UUID: 5fc5b168-7bf1-4d0f-b670-ffc371f4a2b4 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.1 - Network [Core]  <!-- UUID: 0020221a-dbe5-44d1-b161-8cd7391cdcba -->
 
 Arbitrum
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: cd865020-3ae2-4536-9611-3c6f615ba276 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 2c87a53f-2fd3-410c-b047-632b1bc5df50 -->
 
 Spark Savings Protocol
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.3 - Asset Supplied By Users [Core]  <!-- UUID: 64058ff5-bd62-4857-a800-7dfe14778b47 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.3 - Asset Supplied By Users [Core]  <!-- UUID: 66e78bd4-a007-4176-8580-e56e88748aeb -->
 
 USDT
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.4 - Token [Core]  <!-- UUID: 4cf98a3c-0682-43dd-9285-7870c73c1e97 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.1.4 - Token [Core]  <!-- UUID: a7cfedf1-98db-4b52-b4f9-06d14dba2f92 -->
 
 spUSDT
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: 1fe8e6dd-f492-402e-b1d6-5573f5794724 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.2 - Contract Addresses [Core]  <!-- UUID: 455db67a-cdb2-448b-a3cb-7028e5443265 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.2.1 - Token Address [Core]  <!-- UUID: a455756e-8476-443b-9d98-afee0bee28e5 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.2.1 - Token Address [Core]  <!-- UUID: 2314ed3c-dff3-4026-ab71-c8291089e14a -->
 
 `0x45d91340B3B7B96985A72b5c678F7D9e8D664b62`
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 580ecc7a-ce02-4c7c-bd90-7f5bba059670 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 5d669dc3-2f23-4b51-b665-d8d82b406ef9 -->
 
 `0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9`
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 6c53c9b0-8956-4c25-a6c5-ed7c254c276e -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 78c96418-965f-46f1-bfed-2b21b1508c34 -->
 
 The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.4 - Rate Limits [Core]  <!-- UUID: bfb9bfe1-e90b-4955-aa23-9892c2c85f2d -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.4 - Rate Limits [Core]  <!-- UUID: a0c7c243-f759-4737-9cf5-8d4fa40b22f7 -->
 
 The specific `maxAmount` and `slope` for this conduit's inflow/outflow are not defined for this Instance.
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: e56ed430-1635-46b3-80d2-835443bc4988 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 93fbe32b-9b06-475d-aad9-79cfbd18d4e2 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 07a4d26b-f250-4f37-b1b1-0974ed8138b6 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 412472ab-93de-4067-a36b-6ce49e9ed3fe -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: c9140abd-2dd0-4055-918d-72302b90b4f5 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: 0e328eec-c499-4915-ab96-acebb47c5ade -->
 
 The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.4.1 - Contract Addresses [Core]  <!-- UUID: 55c38842-e297-4273-8d35-941d6c3beb71 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.1 - Contract Addresses [Core]  <!-- UUID: 439ab03e-2e58-4c60-8043-1571c97b198e -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.1 - Spark Vault v2 Implementation [Core]  <!-- UUID: bfa35719-77b3-4fbf-b8a3-329238b66c86 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.1 - Spark Vault v2 Implementation [Core]  <!-- UUID: 5b63ce95-9062-49ed-8088-bcd9c770555c -->
 
 `0x282dAfE8B97e2Db5053761a4601ab2E1CB976318`
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.2 - Default admin [Core]  <!-- UUID: 079a23a2-8b55-4cfa-859e-0c3d5bbe9f80 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.2 - Default admin [Core]  <!-- UUID: 1c0c4e1c-cf64-4377-9c3e-b26ea8485b9f -->
 
 `0x65d946e533748A998B1f0E430803e39A6388f7a1`
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.3 - Setter [Core]  <!-- UUID: 60113aaa-8464-4417-9344-8594b5a2d23f -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.3 - Setter [Core]  <!-- UUID: 79f22817-f58b-4411-8ec9-fb17c934a089 -->
 
-`0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38`
+`TBD`
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.4 - Taker [Core]  <!-- UUID: 19011642-44ea-44d6-b5fa-74483f22692a -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.4 - Taker [Core]  <!-- UUID: 6c66439e-93c5-4db2-9d89-917bedaca0bf -->
 
-`0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709` (ALM_PROXY)
+`TBD`
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.4.2 - Risk Parameters Current Configuration [Core]  <!-- UUID: eda78c7f-9e42-447f-ae44-fbe2ce987036 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2 - Risk Parameters Current Configuration [Core]  <!-- UUID: abc91d15-dfb3-439b-b725-7de77fd09f35 -->
 
 The subdocuments herein define the current configuration of the risk parameters.
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.1 - Spark Savings USDT Risk Parameters [Core]  <!-- UUID: 36a496db-20c1-4d34-810e-518c4f99a755 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.1 - Spark Savings USDT Risk Parameters [Core]  <!-- UUID: d571fc6b-c298-4dc1-b43a-5a5b77731f32 -->
 
 The Risk parameters are:
 
@@ -7132,25 +7140,31 @@ The Risk parameters are:
 - Max yield: 6%
 - Current yield (at launch): 0%
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.2 - Rate Limits [Core]  <!-- UUID: e9b62d67-cb5d-4bcb-9f5d-90688a85f123 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.2 - Rate Limit IDs [Core]  <!-- UUID: 051a0536-d2e1-4b71-a402-b3970a08345a -->
 
-The current `maxAmount` for this conduit's take, transfer, and bridge operations are defined in the subdocuments herein.
+The specific `RateLimitID`(s) for this conduit's take and transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.2.1 - Take Rate Limit [Core]  <!-- UUID: 430776a5-cc59-4904-a2c7-65bd5ee8e4ca -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.2.1 - Take Rate Limit ID [Core]  <!-- UUID: 31a278b5-167c-4433-ac32-62b16c91ad4d -->
+
+The Take RateLimitID is: `TBD`
+
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.2.2 - Transfer Rate Limit ID [Core]  <!-- UUID: 384aa853-841e-4269-b4c4-449811fd6bfb -->
+
+The Transfer RateLimitID is: `TBD`
+
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.3 - Rate Limits [Core]  <!-- UUID: 06818fd8-4be6-4e6e-b3b0-9771d7018614 -->
+
+The current `maxAmount` for this conduit's take and transfer operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.3.1 - Take Rate Limit [Core]  <!-- UUID: 2cbaab8c-0f32-4277-96e7-81b92ec831d5 -->
 
 The take rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.2.2 - Transfer Rate Limit [Core]  <!-- UUID: 9496a85f-d220-4827-b7f4-b8b21c90b131 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.3.2 - Transfer Rate Limit [Core]  <!-- UUID: f215f7fb-edb9-44a0-9efe-0529972b4906 -->
 
 The transfer rate limit parameter is:
-
-- `maxAmount`: Unlimited
-
-###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.2.3 - Bridge to Ethereum Rate Limit [Core]  <!-- UUID: 26c7a10c-dc71-4ccd-a3d3-706549b2e4aa -->
-
-The bridge-to-Ethereum rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
@@ -10544,6 +10558,131 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 This Instance follows the general Aave procedures specified in [A.6.1.1.1.2.6.1.2.2.1.2.2.2.2 - Aave Functions](652877a2-0d8f-42cf-afef-8721fc988046) and, for emergency procedures, [A.6.1.1.1.2.6.1.2.2.3.2.3 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836). No operational procedures unique to this Instance deviate from or supplement the general Spark Liquidity Layer processes.
 
+###### A.6.1.1.1.2.6.1.4.3.3 - Spark Savings V2 [Core]  <!-- UUID: 107b15a1-0a73-4fb5-988b-88bcf5edab6d -->
+
+The Arbitrum Instances of the Spark Savings v2 with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.4.3.3.1 - Arbitrum - Spark Savings v2 USDT Instance Configuration Document [Core]  <!-- UUID: 1185b8bc-532d-4f34-93f3-1906bce1e119 -->
+
+The documents herein contain the Instance Configuration Document for the Spark Savings v2 USDT Instance on Arbitrum.
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: bb1848fe-9e77-4b88-8d72-81720d43a8d4 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2 - Parameters [Core]  <!-- UUID: c513d81f-468c-443d-a347-e4ac1f1e13a9 -->
+
+The documents herein define the parameters of the Spark Savings v2 USDT Instance on Arbitrum of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 36ed03cc-4d66-44e6-9a61-ec91a74c2df4 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.1.1 - Network [Core]  <!-- UUID: 5fc5b168-7bf1-4d0f-b670-ffc371f4a2b4 -->
+
+Arbitrum
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.1.2 - Target Protocol [Core]  <!-- UUID: cd865020-3ae2-4536-9611-3c6f615ba276 -->
+
+Spark Savings Protocol
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.1.3 - Asset Supplied By Users [Core]  <!-- UUID: 64058ff5-bd62-4857-a800-7dfe14778b47 -->
+
+USDT
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.1.4 - Token [Core]  <!-- UUID: 4cf98a3c-0682-43dd-9285-7870c73c1e97 -->
+
+spUSDT
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.2 - Contract Addresses [Core]  <!-- UUID: 1fe8e6dd-f492-402e-b1d6-5573f5794724 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.2.1 - Token Address [Core]  <!-- UUID: a455756e-8476-443b-9d98-afee0bee28e5 -->
+
+`0x45d91340B3B7B96985A72b5c678F7D9e8D664b62`
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 580ecc7a-ce02-4c7c-bd90-7f5bba059670 -->
+
+`0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9`
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 6c53c9b0-8956-4c25-a6c5-ed7c254c276e -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.4 - Rate Limits [Core]  <!-- UUID: bfb9bfe1-e90b-4955-aa23-9892c2c85f2d -->
+
+The specific `maxAmount` and `slope` for this conduit's inflow/outflow are not defined for this Instance.
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: e56ed430-1635-46b3-80d2-835443bc4988 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 07a4d26b-f250-4f37-b1b1-0974ed8138b6 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: c9140abd-2dd0-4055-918d-72302b90b4f5 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.4.1 - Contract Addresses [Core]  <!-- UUID: 55c38842-e297-4273-8d35-941d6c3beb71 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.4.1.1 - Spark Vault v2 Implementation [Core]  <!-- UUID: bfa35719-77b3-4fbf-b8a3-329238b66c86 -->
+
+`0x282dAfE8B97e2Db5053761a4601ab2E1CB976318`
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.4.1.2 - Default admin [Core]  <!-- UUID: 079a23a2-8b55-4cfa-859e-0c3d5bbe9f80 -->
+
+`0x65d946e533748A998B1f0E430803e39A6388f7a1`
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.4.1.3 - Setter [Core]  <!-- UUID: 60113aaa-8464-4417-9344-8594b5a2d23f -->
+
+`0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38`
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.4.1.4 - Taker [Core]  <!-- UUID: 19011642-44ea-44d6-b5fa-74483f22692a -->
+
+`0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709` (ALM_PROXY)
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.4.2 - Risk Parameters Current Configuration [Core]  <!-- UUID: eda78c7f-9e42-447f-ae44-fbe2ce987036 -->
+
+The subdocuments herein define the current configuration of the risk parameters.
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.4.2.1 - Spark Savings USDT Risk Parameters [Core]  <!-- UUID: 36a496db-20c1-4d34-810e-518c4f99a755 -->
+
+The Risk parameters are:
+
+- Supply cap: 250,000,000 USDT
+- Max yield: 6%
+- Current yield (at launch): 0%
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.4.2.2 - Rate Limits [Core]  <!-- UUID: e9b62d67-cb5d-4bcb-9f5d-90688a85f123 -->
+
+The current `maxAmount` for this conduit's take, transfer, and bridge operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.4.2.2.1 - Take Rate Limit [Core]  <!-- UUID: 430776a5-cc59-4904-a2c7-65bd5ee8e4ca -->
+
+The take rate limit parameter is:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.4.2.2.2 - Transfer Rate Limit [Core]  <!-- UUID: 9496a85f-d220-4827-b7f4-b8b21c90b131 -->
+
+The transfer rate limit parameter is:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.3.3.1.4.2.2.3 - Bridge to Ethereum Rate Limit [Core]  <!-- UUID: 26c7a10c-dc71-4ccd-a3d3-706549b2e4aa -->
+
+The bridge-to-Ethereum rate limit parameter is:
+
+- `maxAmount`: 0
+- `slope`: 0
+
 ###### A.6.1.1.1.2.6.1.4.4 - Avalanche [Core]  <!-- UUID: bbdf2be6-a5f3-4053-baae-2361d0a51905 -->
 
 The Avalanche Instances of the Spark Liquidity Layer with `Completed` Status are stored herein and are organized by target protocol.
@@ -12711,8 +12850,8 @@ The current parameters for Spark Savings USDG on Robinhood Chain are:
 The current parameters for Spark Savings USDT on Arbitrum are:
 
 - Default admin role: 0x65d946e533748A998B1f0E430803e39A6388f7a1
-- Setter role: 0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38
-- Taker role: 0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709
+- Setter role: `TBD`
+- Taker role: `TBD`
 - Take rate limit: unlimited
 - Min yield: 0%
 - Max yield: 6%
@@ -12857,6 +12996,128 @@ The Rewards Rate for Spark Savings USDT on X Layer is set via the vault’s sett
 ###### A.6.1.1.1.3.5.3.2.3.9 - Spark Savings USDC on X Layer [Core]  <!-- UUID: fac0c3d0-03d4-4d0b-b1ef-50c14e126924 -->
 
 The Rewards Rate for Spark Savings USDC on X Layer is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Rewards Rate Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.9 - Onchain Parameters](c5a6c702-dcbc-4c31-8c61-9ca1b9fdca20). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Rewards Rate Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
+
+#### A.6.1.1.1.3.5.4 - Spark Savings Diamond PAUs [Core]  <!-- UUID: ebb6cfac-e1a1-4df4-9455-48c5490f05f4 -->
+
+The documents herein specify the Diamond PAUs for Spark Savings.
+
+##### A.6.1.1.1.3.5.4.1 - Arbitrum [Core]  <!-- UUID: 17aba051-2fff-4f5f-a200-f8e86c57c213 -->
+
+The documents herein specify the Spark Savings Diamond PAUs on Arbitrum.
+
+###### A.6.1.1.1.3.5.4.1.1 - Spark Savings USDT Diamond PAU [Core]  <!-- UUID: 1e33e4bd-ab36-4ca1-85b6-46d4ea8c91e7 -->
+
+The documents herein specify the Spark Savings USDT Diamond PAU on Arbitrum.
+
+###### A.6.1.1.1.3.5.4.1.1.1 - Contract Addresses [Core]  <!-- UUID: 907c29c3-2982-4fc2-83de-0d42e170f7d7 -->
+
+The documents herein define the addresses of the Arbitrum Spark Savings USDT Diamond PAU contracts.
+
+###### A.6.1.1.1.3.5.4.1.1.1.1 - Controller Contract [Core]  <!-- UUID: d7fda3f5-f885-4dcf-9d7c-50fd955023f0 -->
+
+`TBD`
+
+###### A.6.1.1.1.3.5.4.1.1.1.2 - ALM Proxy Contract [Core]  <!-- UUID: ed75efe0-018c-4d7e-ac96-cea418798767 -->
+
+`TBD`
+
+###### A.6.1.1.1.3.5.4.1.1.1.3 - AccessControls Contract [Core]  <!-- UUID: e16b3fb4-1776-4b9c-91b2-b9f92fd30767 -->
+
+`TBD`
+
+###### A.6.1.1.1.3.5.4.1.1.1.4 - RateLimits Contract [Core]  <!-- UUID: f57e29ee-d6b7-4a06-913b-1649039fb9a7 -->
+
+`TBD`
+
+###### A.6.1.1.1.3.5.4.1.1.1.5 - Spark Vaults Administered Agent Contract [Core]  <!-- UUID: 6fc04e6e-b30c-4297-8ecf-f2e5d926c84e -->
+
+`TBD`
+
+###### A.6.1.1.1.3.5.4.1.1.1.6 - Spark Planner Administered Agent Contract [Core]  <!-- UUID: 4f4ef175-bc10-4146-9dc9-72a4e9032d73 -->
+
+`TBD`
+
+###### A.6.1.1.1.3.5.4.1.1.1.7 - Spark Beacon Contract [Core]  <!-- UUID: 8297b1e0-fa9b-406f-87b0-f8087a1ab518 -->
+
+`0x53ecE26171B716e5F4D03eAF70844F0a34E368f7`
+
+###### A.6.1.1.1.3.5.4.1.1.2 - Roles and Permissions [Core]  <!-- UUID: 6ee58ef7-9d6b-4a6f-abc7-490b21479d00 -->
+
+The documents herein define the Arbitrum Spark Savings USDT Diamond PAU roles and permissions. The Diamond PAU has no PAS Configurator.
+
+###### A.6.1.1.1.3.5.4.1.1.2.1 - Diamond PAU Roles [Core]  <!-- UUID: 990cdbc2-3be5-4658-9d42-911d93ff5554 -->
+
+The Arbitrum Spark Executor (`0x65d946e533748A998B1f0E430803e39A6388f7a1`) is the sole holder of `DEFAULT_ADMIN_ROLE` on the Spark Beacon and the Diamond PAU's `AccessControls`, `RateLimits` and `ALMProxy`. The Controller holds `CONTROLLER` on its `ALMProxy` and `RateLimits`. The Spark Vaults Administered Agent holds `ALLOCATOR_ROLE` on `AccessControls`. Changes to the Diamond PAU's facets or rate limits require a Spark spell.
+
+###### A.6.1.1.1.3.5.4.1.1.2.2 - Spark Vaults Administered Agent Roles [Core]  <!-- UUID: db8e2e60-2be7-4a26-a416-c22e8f909d2b -->
+
+The Spark Vaults Administered Agent's roles are:
+
+- Admin: Arbitrum Spark Executor (`0x65d946e533748A998B1f0E430803e39A6388f7a1`).
+- Actor: Arbitrum Spark Planner Administered Agent.
+- Revokers: Spark Low Threshold Multisig (`0xeC7edCD85460018BA71823076343Cd8D1721972b`) and Soter Labs Revoker Multisig (`0x747BF29B189e2a070a921Af7Cf65681E3d5F5967`).
+- Grantor: Soter Labs Grantor Multisig (`0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7`).
+
+###### A.6.1.1.1.3.5.4.1.1.2.3 - Spark Planner Administered Agent Roles [Core]  <!-- UUID: b1ac0b24-fa8b-461e-8e4d-03eb0d405ccb -->
+
+The Spark Planner Administered Agent's roles are:
+
+- Admin: Arbitrum Spark Executor (`0x65d946e533748A998B1f0E430803e39A6388f7a1`).
+- Actor: Spark planner hot wallet (`0x062cE42caE04c51D04E77e3D64cc8953a2296FfE`).
+- Revoker: Spark Low Threshold Multisig (`0xeC7edCD85460018BA71823076343Cd8D1721972b`).
+- Grantor: Spark Medium Threshold Multisig (`0x71c738C6838A5491d9b9226eCBc2E74794855153`).
+
+###### A.6.1.1.1.3.5.4.1.1.3 - Diamond PAU Controller Functions [Core]  <!-- UUID: b9f576e4-ef51-4361-9a9a-cafebab05f17 -->
+
+The Facets used by the Spark Savings USDT Diamond PAU on Arbitrum are specified in the documents herein. The Controller obtains these integrations from the Arbitrum Spark Beacon.
+
+###### A.6.1.1.1.3.5.4.1.1.3.1 - Spark Vault Facet [Core]  <!-- UUID: 296a3dcf-3d8a-4b04-b52d-f14d3c1e2e96 -->
+
+The Spark Savings USDT Diamond PAU uses the Spark Vault Facet (`SPARK_VAULT_FACET`) to take USDT0 from the Spark Savings USDT vault. Its address on Arbitrum is `0xa293a5CAdC903B005af0cc531BFEEc05213d233C`.
+
+###### A.6.1.1.1.3.5.4.1.1.3.2 - Transfer Asset Facet [Core]  <!-- UUID: 6d3df7d5-eee4-449f-b076-d9ffc1862b7d -->
+
+The Spark Savings USDT Diamond PAU uses the Transfer Asset Facet (`TRANSFER_ASSET_FACET`) to transfer USDT0 from its ALM Proxy to the Spark Savings USDT vault. Its address on Arbitrum is `0xe94A71345C2774f48fE1D6FEa23FdCf906668897`.
+
+###### A.6.1.1.1.3.5.4.1.1.3.3 - LayerZero Facet [Core]  <!-- UUID: 5f6240f1-805a-4eab-a780-20e74cda5b36 -->
+
+The Spark Savings USDT Diamond PAU uses the LayerZero Facet (`LAYER_ZERO_FACET`) to send USDT0 to the Ethereum Spark Savings USDT Diamond PAU ALM Proxy. Its address on Arbitrum is `0x21783460499b5a4b2fEA8c9c9B7833420aE5a560`.
+
+###### A.6.1.1.1.3.5.4.1.1.4 - Rate Limit IDs [Core]  <!-- UUID: 12c50ead-185a-4bc7-bb4a-97b3d2e1f3ab -->
+
+The rate limit IDs for the Arbitrum Spark Savings USDT Diamond PAU are specified in the subdocuments herein.
+
+###### A.6.1.1.1.3.5.4.1.1.4.1 - LayerZero To Ethereum Rate Limit ID [Core]  <!-- UUID: 2fa1bc11-7fd6-4cc3-a133-e8fd0be63789 -->
+
+The LayerZero To Ethereum RateLimitID is: `TBD`
+
+###### A.6.1.1.1.3.5.4.1.1.5 - Rate Limits [Core]  <!-- UUID: e31cce3b-04b5-4b4f-886b-09c34358ff91 -->
+
+The rate limits for the Arbitrum Spark Savings USDT Diamond PAU are specified in the subdocuments herein.
+
+###### A.6.1.1.1.3.5.4.1.1.5.1 - LayerZero To Ethereum Rate Limit [Core]  <!-- UUID: 1f8a1366-b2a9-443a-a13e-bd7bb49af79d -->
+
+The LayerZero To Ethereum rate limit parameter is:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.3.5.4.1.1.6 - Operational Configuration [Core]  <!-- UUID: 2cd96737-9c95-48f0-91a6-a619b9659f53 -->
+
+The documents herein specify the LayerZero route and monitoring of the Arbitrum Spark Savings USDT Diamond PAU.
+
+###### A.6.1.1.1.3.5.4.1.1.6.1 - LayerZero Recipient [Core]  <!-- UUID: d657d773-fd01-4667-834e-340dad6baca2 -->
+
+The Arbitrum Spark Savings USDT Diamond PAU sends USDT0 through LayerZero to Ethereum, endpoint 30101. The recipient is the Ethereum Spark Savings USDT Diamond PAU ALM Proxy (`TBD`), replacing the Ethereum Spark Liquidity Layer ALM Proxy as recipient for the Savings route.
+
+###### A.6.1.1.1.3.5.4.1.1.6.2 - Monitoring [Core]  <!-- UUID: 2eba2790-fa93-4164-8fa8-3b7742a96eba -->
+
+Phoenix Labs monitors takes, transfers, LayerZero sends and role changes on the Diamond PAU, Administered Agents and Spark Savings USDT vault. LayerZero transfers to Ethereum are checked to confirm receipt by the Ethereum Spark Savings USDT Diamond PAU ALM Proxy.
+
+###### A.6.1.1.1.3.5.4.1.1.7 - Emergency Protocol [Core]  <!-- UUID: 1405e0cd-c5db-4ecb-9ae8-1344f2416530 -->
+
+A revoker may call `removeActor(actor)` on an Administered Agent without a spell or delay. Removing the Spark Vaults Administered Agent's actor stops Diamond PAU operations. Withdrawals beyond the vault's available USDT wait until operations resume.
+
+A Spark spell may zero an affected rate limit or call `removeIntegrations` on the Spark Savings USDT Diamond PAU Controller.
 
 ### A.6.1.1.1.3.6 - Strategic Investments [Core]  <!-- UUID: a05cc5db-64e5-4279-84ed-e93d4aa67c38 -->
 
