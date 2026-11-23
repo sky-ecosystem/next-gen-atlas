@@ -7158,15 +7158,17 @@ The current `maxAmount` for this conduit's take and transfer operations are defi
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.3.1 - Take Rate Limit [Core]  <!-- UUID: 2cbaab8c-0f32-4277-96e7-81b92ec831d5 -->
 
-The take rate limit parameter is:
+The take rate limit parameters are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 10,000,000 USDT0
+- `slope`: 200,000,000 USDT0 per day
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.3.2 - Transfer Rate Limit [Core]  <!-- UUID: f215f7fb-edb9-44a0-9efe-0529972b4906 -->
 
-The transfer rate limit parameter is:
+The transfer rate limit parameters are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 10,000,000 USDT0
+- `slope`: 200,000,000 USDT0 per day
 
 ###### A.6.1.1.1.2.6.1.3.4 - Robinhood Chain [Core]  <!-- UUID: 21c64d57-704c-4be8-9fea-a144f2f6d823 -->
 
@@ -13097,9 +13099,10 @@ The rate limits for the Arbitrum Spark Savings USDT Diamond PAU are specified in
 
 ###### A.6.1.1.1.3.5.4.1.1.5.1 - LayerZero To Ethereum Rate Limit [Core]  <!-- UUID: 1f8a1366-b2a9-443a-a13e-bd7bb49af79d -->
 
-The LayerZero To Ethereum rate limit parameter is:
+The LayerZero To Ethereum rate limit parameters are:
 
-- `maxAmount`: Unlimited
+- `maxAmount`: 5,000,000 USDT0
+- `slope`: 25,000,000 USDT0 per day
 
 ###### A.6.1.1.1.3.5.4.1.1.6 - Operational Configuration [Core]  <!-- UUID: 2cd96737-9c95-48f0-91a6-a619b9659f53 -->
 
