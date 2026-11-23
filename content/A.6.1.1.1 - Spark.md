@@ -7146,11 +7146,11 @@ The specific `RateLimitID`(s) for this conduit's take and transfer operations ar
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.2.1 - Take Rate Limit ID [Core]  <!-- UUID: 31a278b5-167c-4433-ac32-62b16c91ad4d -->
 
-The Take RateLimitID is: `TBD`
+The Take RateLimitID is: `0x848f12eb0a19b9a33294615f6ba284a2f74a1d98d218fec1ce52f19e106c9ac2`
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.2.2 - Transfer Rate Limit ID [Core]  <!-- UUID: 384aa853-841e-4269-b4c4-449811fd6bfb -->
 
-The Transfer RateLimitID is: `TBD`
+The Transfer RateLimitID is: `0xa55538975929472a1a221101825aabfc029a2d978dc641996bb2804531e2b200`
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.3 - Rate Limits [Core]  <!-- UUID: 06818fd8-4be6-4e6e-b3b0-9771d7018614 -->
 
@@ -13091,7 +13091,7 @@ The rate limit IDs for the Arbitrum Spark Savings USDT Diamond PAU are specified
 
 ###### A.6.1.1.1.3.5.4.1.1.4.1 - LayerZero To Ethereum Rate Limit ID [Core]  <!-- UUID: 2fa1bc11-7fd6-4cc3-a133-e8fd0be63789 -->
 
-The LayerZero To Ethereum RateLimitID is: `TBD`
+The LayerZero To Ethereum RateLimitID is: `0xdb48540e73f39416116d98cb5a757eb84bd98f718175a0cbfacff5f594ca1466`
 
 ###### A.6.1.1.1.3.5.4.1.1.5 - Rate Limits [Core]  <!-- UUID: e31cce3b-04b5-4b4f-886b-09c34358ff91 -->
 
