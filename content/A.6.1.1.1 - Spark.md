@@ -7394,6 +7394,14 @@ The transfer rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.3 - LayerZero Recipient [Core]  <!-- UUID: 421bb572-302b-482d-b912-3b98d3e0b147 -->
+
+The LayerZero recipient for transfers from X Layer to Ethereum is:
+
+- Destination endpoint ID: `30101`.
+- Recipient: Ethereum Spark Savings USDT Diamond PAU ALM Proxy.
+- Recipient address: `TBD`.
+
 ###### A.6.1.1.1.2.6.1.3.5.1.2 - X Layer - Spark Savings v2 USDC Instance Configuration Document [Core]  <!-- UUID: e81abdf1-02ba-4363-835d-12ade226c2a3 -->
 
 The documents herein contain the Instance Configuration Document for the Spark Savings v2 USDC Instance.
