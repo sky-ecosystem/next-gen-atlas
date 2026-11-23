@@ -13066,15 +13066,29 @@ The Spark Planner Administered Agent's roles are:
 - Revoker: Spark Low Threshold Multisig (`0xeC7edCD85460018BA71823076343Cd8D1721972b`).
 - Grantor: Spark Medium Threshold Multisig (`0x71c738C6838A5491d9b9226eCBc2E74794855153`).
 
-###### A.6.1.1.1.3.5.4.1.1.3 - Enabled Integrations [Core]  <!-- UUID: 4bbd884b-d47d-4fd1-b15a-1bd3691461ff -->
+###### A.6.1.1.1.3.5.4.1.1.3 - Diamond PAU Controller Functions [Core]  <!-- UUID: 4bbd884b-d47d-4fd1-b15a-1bd3691461ff -->
 
-The Controller enables the following integrations from the Ethereum Spark Beacon:
+The Facets used by the Spark Savings USDT Diamond PAU on Ethereum Mainnet are specified in the documents herein. The Controller obtains these integrations from the Ethereum Spark Beacon.
 
-- `ERC4626_FACET`: `0x1dCA18608c89174181153E786778705b4A0E1a06`.
-- `SPARK_VAULT_FACET`: `0xff0d19920E207e3A17eb5A2E5bA3AFA44836362b`.
-- `TRANSFER_ASSET_FACET`: `0x4DA7608C331b8f135df5b985018933780eCd089D`.
-- `LAYER_ZERO_FACET`: `TBD`.
-- `SWAP_ASSET_FACET`: `0xdEF461199cAd81c65AbA3Ab406743fC40c68C5B6`.
+###### A.6.1.1.1.3.5.4.1.1.3.1 - ERC-4626 Facet [Core]  <!-- UUID: 9d019bb7-a931-4aca-96c5-42c7f7bb43b9 -->
+
+The Spark Savings USDT Diamond PAU uses the ERC-4626 Facet (`ERC4626_FACET`) to deposit USDS into sUSDS and redeem sUSDS for USDS, as specified in [A.2.2.10.1.1.1.2.3.1.2.7 - ERC-4626 Facet](05f5d939-712b-4204-8f77-4ef5ea598dcc).
+
+###### A.6.1.1.1.3.5.4.1.1.3.2 - Spark Vault Facet [Core]  <!-- UUID: 06042ba0-b19b-47f4-ab8b-6e679c458088 -->
+
+The Spark Savings USDT Diamond PAU uses the Spark Vault Facet (`SPARK_VAULT_FACET`) to take USDT from the Spark Savings USDT vault, as specified in [A.2.2.10.1.1.1.2.3.1.2.17 - Spark Vault Facet](ad11b1de-41d7-4529-920b-55583445648e).
+
+###### A.6.1.1.1.3.5.4.1.1.3.3 - Transfer Asset Facet [Core]  <!-- UUID: 77695548-65ca-45b5-b7c7-03a866e5c902 -->
+
+The Spark Savings USDT Diamond PAU uses the Transfer Asset Facet (`TRANSFER_ASSET_FACET`) to transfer USDT from its ALM Proxy to the Spark Savings USDT vault, as specified in [A.2.2.10.1.1.1.2.3.1.2.19 - Transfer Asset Facet](e59b91c8-05c9-47b2-a115-8a41b12de659).
+
+###### A.6.1.1.1.3.5.4.1.1.3.4 - LayerZero Facet [Core]  <!-- UUID: 8195c358-2b4e-4da8-8a0f-542dd3a39768 -->
+
+The Spark Savings USDT Diamond PAU uses the LayerZero Facet (`LAYER_ZERO_FACET`) to send USDT to the Arbitrum Spark Savings USDT Diamond PAU ALM Proxy and the X Layer ALM Proxy. Its address on Ethereum Mainnet is `TBD`.
+
+###### A.6.1.1.1.3.5.4.1.1.3.5 - Swap Asset Facet [Core]  <!-- UUID: 02fda9c8-195d-4860-a646-eaf7b3c119cc -->
+
+The Spark Savings USDT Diamond PAU uses the Swap Asset Facet (`SWAP_ASSET_FACET`) to complete USDS / USDT swaps initiated by the Spark Liquidity Layer. Its address on Ethereum Mainnet is `0xdEF461199cAd81c65AbA3Ab406743fC40c68C5B6`.
 
 ###### A.6.1.1.1.3.5.4.1.1.4 - Rate Limit IDs [Core]  <!-- UUID: 947c99af-6104-4fc7-9e55-af58525c8371 -->
 
