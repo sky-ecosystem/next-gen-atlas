@@ -13086,7 +13086,7 @@ The Spark Savings USDT Diamond PAU uses the Transfer Asset Facet (`TRANSFER_ASSE
 
 ###### A.6.1.1.1.3.5.4.1.1.3.4 - LayerZero Facet [Core]  <!-- UUID: 8195c358-2b4e-4da8-8a0f-542dd3a39768 -->
 
-The Spark Savings USDT Diamond PAU uses the LayerZero Facet (`LAYER_ZERO_FACET`) to send USDT to the Arbitrum Spark Savings USDT Diamond PAU ALM Proxy and the X Layer ALM Proxy. Its address on Ethereum Mainnet is `TBD`.
+The Spark Savings USDT Diamond PAU uses the LayerZero Facet (`LAYER_ZERO_FACET`) to send USDT to the Arbitrum Spark Savings USDT Diamond PAU ALM Proxy and the X Layer ALM Proxy. Its address on Ethereum Mainnet is `0x8AEb6C95D842F8bc12CA4341dD014047D964a5c0`.
 
 ###### A.6.1.1.1.3.5.4.1.1.3.5 - Swap Asset Facet [Core]  <!-- UUID: 02fda9c8-195d-4860-a646-eaf7b3c119cc -->
 
