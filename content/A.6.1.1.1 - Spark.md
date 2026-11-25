@@ -7400,7 +7400,7 @@ The LayerZero recipient for transfers from X Layer to Ethereum is:
 
 - Destination endpoint ID: `30101`.
 - Recipient: Ethereum Spark Savings USDT Diamond PAU ALM Proxy.
-- Recipient address: `TBD`.
+- Recipient address: `0x982e90885e21cfDE0557A96bac1a65Fdafc0D29b`.
 
 ###### A.6.1.1.1.2.6.1.3.5.1.2 - X Layer - Spark Savings v2 USDC Instance Configuration Document [Core]  <!-- UUID: e81abdf1-02ba-4363-835d-12ade226c2a3 -->
 
