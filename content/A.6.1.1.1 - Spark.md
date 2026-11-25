@@ -2107,19 +2107,19 @@ The address of the ALM Proxy contract is: `0x1601843c5E9bC251A3272907010AFa41Fa1
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.3.2 - Controller Contract [Core]  <!-- UUID: 62714a83-23fe-4de0-89ce-4fdb6ce5256d -->
 
-The address of the Controller contract is: `TBD`. The Controller is the entry point for all allocator operations. It synchronizes integration configurations from the Beacon contract and dispatches calls to the appropriate facet contract.
+The address of the Controller contract is: `0x27d6e586b81ec506B620D80Dfd59eB810dC1e988`. The Controller is the entry point for all allocator operations. It synchronizes integration configurations from the Beacon contract and dispatches calls to the appropriate facet contract.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.3.3 - AccessControls Contract [Core]  <!-- UUID: 1f7af5e7-4cbe-4faf-bb6d-8094d6985866 -->
 
-The address of the AccessControls contract is: `TBD`. The AccessControls contract manages the roles and permissions of the Diamond PAU, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
+The address of the AccessControls contract is: `0x113CcAE7b41752A86247da68Aa385d3C9e4b9bfc`. The AccessControls contract manages the roles and permissions of the Diamond PAU, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.3.4 - ALM Rate Limits Contract [Core]  <!-- UUID: 9b7520e1-5913-4977-b899-87919a4e48a6 -->
 
-The address of the ALM Rate Limits contract is: `TBD`. The ALM Rate Limits contract enforces the rate limits on operations performed through the Controller contract.
+The address of the ALM Rate Limits contract is: `0x03ab480f320fdb14a2e17eD7aaE230acf7bA7661`. The ALM Rate Limits contract enforces the rate limits on operations performed through the Controller contract.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.3.5 - AdministeredAgent Contract [Core]  <!-- UUID: 1e0db21e-0063-4f17-adae-d502efe16ecb -->
 
-The address of the AdministeredAgent contract is: `TBD`. The AdministeredAgent holds the Allocator Role of the Diamond PAU and mediates access to the Controller. The Spark Planner Administered Agent is registered as its actor, while the Spark Low Threshold Multisig and the Soter Labs Revoker Multisig are registered as revokers authorized to remove a compromised actor, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
+The address of the AdministeredAgent contract is: `0x6C8d1618e051160445dA2590Bb8E5156d8743eAE`. The AdministeredAgent holds the Allocator Role of the Diamond PAU and mediates access to the Controller. The Spark Planner Administered Agent is registered as its actor, while the Spark Low Threshold Multisig and the Soter Labs Revoker Multisig are registered as revokers authorized to remove a compromised actor, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.3.6 - Beacon Contract [Core]  <!-- UUID: 363060f0-1dc5-478f-a3b3-62f819275e06 -->
 
@@ -2127,7 +2127,7 @@ The address of the Beacon contract is: `0x829dC2b7E94B1954F0764E573f2E0d45Afa281
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.3.7 - Swap Asset Facet Contract [Core]  <!-- UUID: 09187da3-4034-4ff1-bc7c-e6a851db9fa6 -->
 
-The address of the Swap Asset Facet contract is: `0xdEF461199cAd81c65AbA3Ab406743fC40c68C5B6`.
+The address of the Swap Asset Facet contract is: `0x68A6f3b1d189d00A226A8C710B45a4bb93A74B79`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.3.8 - Swap Counterparty Parameters [Core]  <!-- UUID: 4472f593-8955-4ec1-a937-ddf7cea73231 -->
 
@@ -2611,11 +2611,11 @@ The documents herein define the swap rate limit IDs for the Ethereum Diamond PAU
 
 ###### A.6.1.1.1.2.6.1.2.1.1.4.3.1 - USDS Swap Initiation Rate Limit ID [Core]  <!-- UUID: 9f058f7a-1a0c-4392-bccc-59987c99f606 -->
 
-The USDS Swap Initiation RateLimitID is: `TBD`.
+The USDS Swap Initiation RateLimitID is: `0x5f00748b7c4ab712176d8c8fd5aa13827a010c43b3c624cfa4caf56fc588b39e`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.4.3.2 - USDT Swap Initiation Rate Limit ID [Core]  <!-- UUID: 4d6972f1-fecb-4e14-8d48-30db23f0cda4 -->
 
-The USDT Swap Initiation RateLimitID is: `TBD`.
+The USDT Swap Initiation RateLimitID is: `0xc2c667eed28a94ce69475599aa8145917a447a9c6259b084a78e763dc090c294`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.5 - Diamond PAU Rate Limits [Core]  <!-- UUID: e3ecf860-59dc-4d7b-b3cd-fb4311f4c2a9 -->
 
@@ -2909,7 +2909,7 @@ The `CONTROLLER` role is authorized to call the `call` functions on the ALM Prox
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.3.3 - Allocator Role [Core]  <!-- UUID: 556be3dd-e839-49af-8ed3-754f84eee774 -->
 
-The `ALLOCATOR_ROLE` is authorized to call functions on the Controller contract to perform operations on behalf of the ALM Proxy contract. The Allocator Role is held by the AdministeredAgent contract, as specified in [A.6.1.1.1.2.6.1.2.1.1.1.3.3.5 - AdministeredAgent Contract](1e0db21e-0063-4f17-adae-d502efe16ecb), which mediates access for the Spark Liquidity Layer relayer system. The Spark Planner Administered Agent (`TBD`) is registered as its actor and submits operations through it. An actor may be removed from the AdministeredAgent by any address holding the Freezer Role, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5.3.4 - Freezer Role](897a18b4-c1bd-496d-a935-b2b0ac3b63db). The Spark SubProxy is the sole admin of the AdministeredAgent.
+The `ALLOCATOR_ROLE` is authorized to call functions on the Controller contract to perform operations on behalf of the ALM Proxy contract. The Allocator Role is held by the AdministeredAgent contract, as specified in [A.6.1.1.1.2.6.1.2.1.1.1.3.3.5 - AdministeredAgent Contract](1e0db21e-0063-4f17-adae-d502efe16ecb), which mediates access for the Spark Liquidity Layer relayer system. The Spark Planner Administered Agent (`0x9439560FA9a4751CF011d398fDFb6d70ec25ba6c`) is registered as its actor and submits operations through it. An actor may be removed from the AdministeredAgent by any address holding the Freezer Role, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5.3.4 - Freezer Role](897a18b4-c1bd-496d-a935-b2b0ac3b63db). The Spark SubProxy is the sole admin of the AdministeredAgent.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.3.4 - Freezer Role [Core]  <!-- UUID: 897a18b4-c1bd-496d-a935-b2b0ac3b63db -->
 
