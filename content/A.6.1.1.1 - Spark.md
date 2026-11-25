@@ -12862,7 +12862,7 @@ The current parameters for Spark Savings USDT on Arbitrum are:
 - Default admin role: 0x65d946e533748A998B1f0E430803e39A6388f7a1
 - Setter role: `TBD`
 - Taker role: `TBD`
-- Take rate limit: unlimited
+- Take rate limit: 10,000,000 USDT0 maximum and 200,000,000 USDT0 per day
 - Min yield: 0%
 - Max yield: 6%
 - Supply cap: 250 million
@@ -13045,7 +13045,7 @@ The documents herein define the addresses of the Arbitrum Spark Savings USDT Dia
 
 ###### A.6.1.1.1.3.5.4.1.1.1.6 - Spark Beacon Contract [Core]  <!-- UUID: 8297b1e0-fa9b-406f-87b0-f8087a1ab518 -->
 
-`0x53ecE26171B716e5F4D03eAF70844F0a34E368f7`
+`0xd4E518B9874a3DFa5EcE965342b51e6CCc3c216F`
 
 ###### A.6.1.1.1.3.5.4.1.1.2 - Roles and Permissions [Core]  <!-- UUID: 6ee58ef7-9d6b-4a6f-abc7-490b21479d00 -->
 
@@ -13072,15 +13072,15 @@ The Facets used by the Spark Savings USDT Diamond PAU on Arbitrum are specified 
 
 ###### A.6.1.1.1.3.5.4.1.1.3.1 - Spark Vault Facet [Core]  <!-- UUID: 296a3dcf-3d8a-4b04-b52d-f14d3c1e2e96 -->
 
-The Spark Savings USDT Diamond PAU uses the Spark Vault Facet (`SPARK_VAULT_FACET`) to take USDT0 from the Spark Savings USDT vault. Its address on Arbitrum is `TBD`.
+The Spark Savings USDT Diamond PAU uses the Spark Vault Facet (`SPARK_VAULT_FACET`) to take USDT0 from the Spark Savings USDT vault. Its address on Arbitrum is `0xa293a5CAdC903B005af0cc531BFEEc05213d233C`.
 
 ###### A.6.1.1.1.3.5.4.1.1.3.2 - Transfer Asset Facet [Core]  <!-- UUID: 6d3df7d5-eee4-449f-b076-d9ffc1862b7d -->
 
-The Spark Savings USDT Diamond PAU uses the Transfer Asset Facet (`TRANSFER_ASSET_FACET`) to transfer USDT0 from its ALM Proxy to the Spark Savings USDT vault. Its address on Arbitrum is `TBD`.
+The Spark Savings USDT Diamond PAU uses the Transfer Asset Facet (`TRANSFER_ASSET_FACET`) to transfer USDT0 from its ALM Proxy to the Spark Savings USDT vault. Its address on Arbitrum is `0xE86548955Ced4d942C794AC506736769Efc18178`.
 
 ###### A.6.1.1.1.3.5.4.1.1.3.3 - LayerZero Facet [Core]  <!-- UUID: 5f6240f1-805a-4eab-a780-20e74cda5b36 -->
 
-The Spark Savings USDT Diamond PAU uses the LayerZero Facet (`LAYER_ZERO_FACET`) to send USDT0 to the Ethereum Spark Savings USDT Diamond PAU ALM Proxy. Its address on Arbitrum is `TBD`.
+The Spark Savings USDT Diamond PAU uses the LayerZero Facet (`LAYER_ZERO_FACET`) to send USDT0 to the Ethereum Spark Savings USDT Diamond PAU ALM Proxy. Its address on Arbitrum is `0x07E815d85C633513046F414fA615cfc9c52369EF`.
 
 ###### A.6.1.1.1.3.5.4.1.1.4 - Rate Limit IDs [Core]  <!-- UUID: 12c50ead-185a-4bc7-bb4a-97b3d2e1f3ab -->
 
@@ -13107,7 +13107,7 @@ The documents herein specify the LayerZero route and monitoring of the Arbitrum 
 
 ###### A.6.1.1.1.3.5.4.1.1.6.1 - LayerZero Recipient [Core]  <!-- UUID: d657d773-fd01-4667-834e-340dad6baca2 -->
 
-The Arbitrum Spark Savings USDT Diamond PAU sends USDT0 through LayerZero to Ethereum, endpoint 30101. The recipient is the Ethereum Spark Savings USDT Diamond PAU ALM Proxy (`TBD`), replacing the Ethereum Spark Liquidity Layer ALM Proxy as recipient for the Savings route.
+The Arbitrum Spark Savings USDT Diamond PAU sends USDT0 through LayerZero to Ethereum, endpoint 30101. The recipient is the Ethereum Spark Savings USDT Diamond PAU ALM Proxy (`0x982e90885e21cfDE0557A96bac1a65Fdafc0D29b`), replacing the Ethereum Spark Liquidity Layer ALM Proxy as recipient for the Savings route.
 
 ###### A.6.1.1.1.3.5.4.1.1.6.2 - Monitoring [Core]  <!-- UUID: 2eba2790-fa93-4164-8fa8-3b7742a96eba -->
 
