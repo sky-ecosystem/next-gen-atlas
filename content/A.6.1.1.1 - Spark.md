@@ -5520,11 +5520,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.4.4.4.1.3 - Setter [Core]  <!-- UUID: 23c6e4eb-d617-4d77-97ed-46b1e853f350 -->
 
-`TBD`
+`0x7c9879C80B3B00D3965545e751784f44a3376098`
 
 ###### A.6.1.1.1.2.6.1.3.1.4.4.4.1.4 - Taker [Core]  <!-- UUID: 3365e28a-8e62-4370-8e28-4d60f964c5ed -->
 
-`TBD`
+`0x982e90885e21cfDE0557A96bac1a65Fdafc0D29b`
 
 ###### A.6.1.1.1.2.6.1.3.1.4.4.4.2 - Risk Parameters Current Configuration [Core]  <!-- UUID: 9dc88fba-dd7b-4742-aee9-efa28b4b79c2 -->
 
@@ -12791,9 +12791,9 @@ The current parameters for Spark Savings USDC on Ethereum are:
 The current parameters for Spark Savings USDT on Ethereum are:
 
 - Default admin role: 0x3300f198988e4C9C63F75dF86De36421f06af8c4
-- Setter role: `TBD`
-- Taker role: `TBD`
-- Take rate limit: unlimited
+- Setter role: `0x7c9879C80B3B00D3965545e751784f44a3376098`
+- Taker role: `0x982e90885e21cfDE0557A96bac1a65Fdafc0D29b`
+- Take rate limit: 10,000,000 USDT maximum and 200,000,000 USDT per day
 - Min yield: 0%
 - Max yield: 10%
 - Supply cap: 4 billion
@@ -13016,27 +13016,27 @@ The documents herein define the addresses of the Ethereum Spark Savings USDT Dia
 
 ###### A.6.1.1.1.3.5.4.1.1.1.1 - Controller Contract [Core]  <!-- UUID: cdb80b6c-c1ba-47c9-b9ec-fc5508de16a6 -->
 
-`TBD`
+`0x7AF1b9f9c505AA96a80455C79b90076cD6fC6b1B`
 
 ###### A.6.1.1.1.3.5.4.1.1.1.2 - ALM Proxy Contract [Core]  <!-- UUID: 2e7405c4-66e9-4635-83ce-4b09001806c1 -->
 
-`TBD`
+`0x982e90885e21cfDE0557A96bac1a65Fdafc0D29b`
 
 ###### A.6.1.1.1.3.5.4.1.1.1.3 - AccessControls Contract [Core]  <!-- UUID: 33dd5e76-037a-44b9-ab44-d28e8031360c -->
 
-`TBD`
+`0x77cE4402F2e010790EdAfE523BdCB21576164FA4`
 
 ###### A.6.1.1.1.3.5.4.1.1.1.4 - RateLimits Contract [Core]  <!-- UUID: 44a2d75a-729b-456d-9552-dc87dedbb18d -->
 
-`TBD`
+`0xf5D3Fa896A15e824cab4CdB1bCA5fc4C35F6fe53`
 
 ###### A.6.1.1.1.3.5.4.1.1.1.5 - Spark Vaults Administered Agent Contract [Core]  <!-- UUID: a7a6b457-9237-49a1-bd06-822af8e2fbe9 -->
 
-`TBD`
+`0x7c9879C80B3B00D3965545e751784f44a3376098`
 
 ###### A.6.1.1.1.3.5.4.1.1.1.6 - Spark Planner Administered Agent Contract [Core]  <!-- UUID: 6b536895-9a73-43c1-8553-d79fd4bafba2 -->
 
-`TBD`
+`0x9439560FA9a4751CF011d398fDFb6d70ec25ba6c`
 
 ###### A.6.1.1.1.3.5.4.1.1.1.7 - Spark Beacon Contract [Core]  <!-- UUID: c12d8b55-3207-4309-a584-5135bc91d430 -->
 
@@ -13055,7 +13055,7 @@ The Spark SubProxy (`0x3300f198988e4C9C63F75dF86De36421f06af8c4`) is the sole ho
 The Spark Vaults Administered Agent's roles are:
 
 - Admin: Spark SubProxy (`0x3300f198988e4C9C63F75dF86De36421f06af8c4`).
-- Actor: Spark Planner Administered Agent.
+- Actor: Spark Planner Administered Agent (`0x9439560FA9a4751CF011d398fDFb6d70ec25ba6c`).
 - Revokers: Spark Low Threshold Multisig (`0xeC7edCD85460018BA71823076343Cd8D1721972b`) and Soter Labs Revoker Multisig (`0x747BF29B189e2a070a921Af7Cf65681E3d5F5967`).
 - Grantor: Soter Labs Grantor Multisig (`0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7`).
 
@@ -13086,11 +13086,11 @@ The Spark Savings USDT Diamond PAU uses the Transfer Asset Facet (`TRANSFER_ASSE
 
 ###### A.6.1.1.1.3.5.4.1.1.3.4 - LayerZero Facet [Core]  <!-- UUID: 8195c358-2b4e-4da8-8a0f-542dd3a39768 -->
 
-The Spark Savings USDT Diamond PAU uses the LayerZero Facet (`LAYER_ZERO_FACET`) to send USDT to the Arbitrum Spark Savings USDT Diamond PAU ALM Proxy and the X Layer ALM Proxy. Its address on Ethereum Mainnet is `0x8AEb6C95D842F8bc12CA4341dD014047D964a5c0`.
+The Spark Savings USDT Diamond PAU uses the LayerZero Facet (`LAYER_ZERO_FACET`) to send USDT to the Arbitrum Spark Savings USDT Diamond PAU ALM Proxy and the X Layer ALM Proxy. Its address on Ethereum Mainnet is `0xA0c323a0acb20F259eA4ff343319D450BE6472e5`.
 
 ###### A.6.1.1.1.3.5.4.1.1.3.5 - Swap Asset Facet [Core]  <!-- UUID: 02fda9c8-195d-4860-a646-eaf7b3c119cc -->
 
-The Spark Savings USDT Diamond PAU uses the Swap Asset Facet (`SWAP_ASSET_FACET`) to complete USDS / USDT swaps initiated by the Spark Liquidity Layer. Its address on Ethereum Mainnet is `0xdEF461199cAd81c65AbA3Ab406743fC40c68C5B6`.
+The Spark Savings USDT Diamond PAU uses the Swap Asset Facet (`SWAP_ASSET_FACET`) to complete USDS / USDT swaps initiated by the Spark Liquidity Layer. Its address on Ethereum Mainnet is `0x68A6f3b1d189d00A226A8C710B45a4bb93A74B79`.
 
 ###### A.6.1.1.1.3.5.4.1.1.4 - Rate Limit IDs [Core]  <!-- UUID: 947c99af-6104-4fc7-9e55-af58525c8371 -->
 
