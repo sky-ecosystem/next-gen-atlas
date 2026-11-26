@@ -2131,7 +2131,7 @@ The address of the Swap Asset Facet contract is: `0x68A6f3b1d189d00A226A8C710B45
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.3.8 - Swap Counterparty Parameters [Core]  <!-- UUID: 4472f593-8955-4ec1-a937-ddf7cea73231 -->
 
-The swap counterparty is the Ethereum Spark Savings USDT Diamond PAU, using its ALM Proxy and Controller contracts.
+The swap counterparty is the Ethereum Spark Savings USDT Diamond PAU, whose ALM Proxy and Controller contracts are specified in [A.6.1.1.1.3.5.4.1.1.1 - Contract Addresses](a8a7ab4c-f9ad-4d08-ae2e-0202907c4e4f).
 
 The supported asset pairs are USDS out for USDT in, and USDT out for USDS in.
 
@@ -2901,7 +2901,7 @@ The documents herein define the roles and permissions of the Diamond PAU Instanc
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.3.1 - Default Admin Role [Core]  <!-- UUID: 6a3ed36e-869b-4609-9550-87d4a9dfc666 -->
 
-The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke roles on both contracts, to exercise Controller and facet admin functions through AccessControls, and to set rate limits on the ALM Rate Limits contract. The Default Admin Role is held on both contracts by the Spark SubProxy and by the Sky PAS Configurator (`0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929`), as specified in [A.2.2.10.1.1.1.2.3.1.5 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
+The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke roles on both contracts, to exercise Controller and facet admin functions through AccessControls, and to set rate limits on the ALM Rate Limits contract. The Default Admin Role is held on both contracts by the Spark SubProxy (`0x3300f198988e4C9C63F75dF86De36421f06af8c4`) and by the Sky PAS Configurator (`0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929`), as specified in [A.2.2.10.1.1.1.2.3.1.5 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
 
 ###### A.6.1.1.1.2.6.1.2.2.1.1.5.3.2 - Controller Role [Core]  <!-- UUID: 7c10ec61-0313-4186-a5d6-88c9f9b2dd6c -->
 
