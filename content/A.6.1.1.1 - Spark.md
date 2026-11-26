@@ -2224,6 +2224,20 @@ The maximum amount of USDC that can be bridged to Ethereum Mainnet ALM Proxy usi
 - `maxAmount`: 200,000,000 USDC
 - `slope`: 500,000,000 USDC per day
 
+###### A.6.1.1.1.2.6.1.2.1.1.3.1.5 - Maximum USDT Bridged From Ethereum Mainnet To Arbitrum Via LayerZero [Core]  <!-- UUID: 8540aa47-8c02-49cb-8a7c-ccd34a9cd6cd -->
+
+The maximum amount of USDT that can be bridged from the Ethereum Mainnet ALM Proxy to Arbitrum through the monolithic MainnetController (`LIMIT_LAYERZERO_TRANSFER`, hashed with the Ethereum USDT OFT address and destination endpoint ID 30110) is specified in the document herein.
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.2.1.1.3.1.6 - Maximum USDT Bridged From Ethereum Mainnet To X Layer Via LayerZero [Core]  <!-- UUID: eb62aab2-b15d-4a6f-b9fb-6aa8b5051a57 -->
+
+The maximum amount of USDT that can be bridged from the Ethereum Mainnet ALM Proxy to X Layer through the monolithic MainnetController (`LIMIT_LAYERZERO_TRANSFER`, hashed with the Ethereum USDT OFT address and destination endpoint ID 30274) is specified in the document herein.
+
+- `maxAmount`: 0
+- `slope`: 0
+
 ###### A.6.1.1.1.2.6.1.2.1.1.3.2 - Base [Core]  <!-- UUID: e2055ff1-f601-4923-b186-57513a2cf682 -->
 
 The documents herein list the current `RateLimits` for the Spark Liquidity Layer on Base.
