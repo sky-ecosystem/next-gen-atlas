@@ -5452,11 +5452,11 @@ The documents herein contain the Instance Configuration Document for the Spark S
 
 ###### A.6.1.1.1.2.6.1.3.1.4.4.2 - Parameters [Core]  <!-- UUID: 0d33feac-4664-4b5a-997b-6b910bd57be9 -->
 
-The documents herein define the parameters of the Spark Savings v2 USDT Instance of the Allocation System Primitive.
+The documents herein define the parameters of the Spark Savings v2 USDT Diamond PAU Instance of the Allocation System Primitive.
 
 ###### A.6.1.1.1.2.6.1.3.1.4.4.2.1 - Instance Identifiers [Core]  <!-- UUID: 08beded3-7853-46a3-9254-097fb690df0f -->
 
-The documents herein define the Instance identifiers
+The documents herein define the Instance identifiers.
 
 ###### A.6.1.1.1.2.6.1.3.1.4.4.2.1.1 - Network [Core]  <!-- UUID: 94bacd88-8b64-4b21-8df2-a6ecfc04b52a -->
 
@@ -10232,7 +10232,7 @@ The documents herein define the parameters of the Spark Savings v2 USDT Instance
 
 ###### A.6.1.1.1.2.6.1.4.1.12.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 90db3809-ee39-43de-9a3a-07c9c3be77cc -->
 
-The documents herein define the Instance identifiers
+The documents herein define the Instance identifiers.
 
 ###### A.6.1.1.1.2.6.1.4.1.12.1.2.1.1 - Network [Core]  <!-- UUID: 5f4150e0-c263-49b9-802f-acbc93f9e5d7 -->
 
@@ -10320,14 +10320,14 @@ The current `maxAmount` for this conduit's take and transfer operations are defi
 
 ###### A.6.1.1.1.2.6.1.4.1.12.1.4.2.2.1 - Take Rate Limit [Core]  <!-- UUID: fc186f71-dce3-46d8-bf50-fcccdfad5e5d -->
 
-The take rate limit parameter is:
+The take rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.4.1.12.1.4.2.2.2 - Transfer Rate Limit [Core]  <!-- UUID: 9c92bc84-cfdf-4356-8fc4-4df33937ec89 -->
 
-The transfer rate limit parameter is:
+The transfer rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -12791,8 +12791,8 @@ The current parameters for Spark Savings USDC on Ethereum are:
 The current parameters for Spark Savings USDT on Ethereum are:
 
 - Default admin role: 0x3300f198988e4C9C63F75dF86De36421f06af8c4
-- Setter role: `0x7c9879C80B3B00D3965545e751784f44a3376098`
-- Taker role: `0x982e90885e21cfDE0557A96bac1a65Fdafc0D29b`
+- Setter role: 0x7c9879C80B3B00D3965545e751784f44a3376098
+- Taker role: 0x982e90885e21cfDE0557A96bac1a65Fdafc0D29b
 - Take rate limit: 10,000,000 USDT maximum and 200,000,000 USDT per day
 - Min yield: 0%
 - Max yield: 10%
@@ -13086,7 +13086,7 @@ The Spark Savings USDT Diamond PAU uses the Transfer Asset Facet (`TRANSFER_ASSE
 
 ###### A.6.1.1.1.3.5.4.1.1.3.4 - LayerZero Facet [Core]  <!-- UUID: 8195c358-2b4e-4da8-8a0f-542dd3a39768 -->
 
-The Spark Savings USDT Diamond PAU uses the LayerZero Facet (`LAYER_ZERO_FACET`) to send USDT to the Arbitrum Spark Savings USDT Diamond PAU ALM Proxy and the X Layer ALM Proxy. Its address on Ethereum Mainnet is `0xA0c323a0acb20F259eA4ff343319D450BE6472e5`.
+The Spark Savings USDT Diamond PAU uses the LayerZero Facet (`LAYER_ZERO_FACET`) to send USDT to the Arbitrum Spark Savings USDT Diamond PAU ALM Proxy and the X Layer ALM Proxy, as specified in [A.2.2.10.1.1.1.2.3.1.2.11 - LayerZero Facet](17b0a239-b0b0-476e-9a67-b8b6e3156507).
 
 ###### A.6.1.1.1.3.5.4.1.1.3.5 - Swap Asset Facet [Core]  <!-- UUID: 02fda9c8-195d-4860-a646-eaf7b3c119cc -->
 
