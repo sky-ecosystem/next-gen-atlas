@@ -13184,7 +13184,7 @@ The ERC-4626 Facet requires a `maxExchangeRate` to be set for deposits into sUSD
 
 The USDT OFT adapter is `0x6C96dE32CEa08842dcc4058c14d3aaAD7Fa41dee`. The Ethereum Spark Savings USDT Diamond PAU's outbound recipients are:
 
-- Arbitrum, endpoint 30110: the Arbitrum Spark Savings USDT Diamond PAU ALM Proxy (`TBD`).
+- Arbitrum, endpoint 30110: the Arbitrum Spark Savings USDT Diamond PAU ALM Proxy (`0x6172A812bd36a7C21733bFc99991250E81768aaf`).
 - X Layer, endpoint 30274: the existing X Layer ALM Proxy (`0x83A914C361bB729EB6BEBC8C7bA993667A0E6Df8`).
 
 ###### A.6.1.1.1.3.5.4.1.1.6.4 - Swap Counterparty [Core]  <!-- UUID: 5f85a67a-18a6-4e70-98e3-14b814120ae9 -->
