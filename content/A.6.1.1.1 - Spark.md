@@ -2065,7 +2065,7 @@ The address of the CCTP Facet contract is: `0xeCCA0D296Cb133081d41E9772B60D57F5f
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.8 - Spark Planner Administered Agent Contract [Core]  <!-- UUID: 4f4ef175-bc10-4146-9dc9-72a4e9032d73 -->
 
-`TBD`
+The address of the Spark Planner Administered Agent contract is: `TBD`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.2 - Base [Core]  <!-- UUID: 59e2c1fc-2f61-48c3-b6fe-9dcd5b8851dc -->
 
@@ -7062,7 +7062,7 @@ The documents herein contain the Instance Configuration Document for the Spark S
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.2 - Parameters [Core]  <!-- UUID: a7f67bbd-0930-4d28-b12e-e1348174025a -->
 
-The documents herein define the parameters of the Spark Savings v2 USDT Instance on Arbitrum of the Allocation System Primitive.
+The documents herein define the parameters of the Spark Savings v2 USDT Diamond PAU Instance on Arbitrum of the Allocation System Primitive.
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.2.1 - Instance Identifiers [Core]  <!-- UUID: e1983e92-886e-405e-b930-4ca521ff076a -->
 
@@ -7162,7 +7162,7 @@ The Transfer RateLimitID is: `0xa55538975929472a1a221101825aabfc029a2d978dc64199
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.3 - Rate Limits [Core]  <!-- UUID: 06818fd8-4be6-4e6e-b3b0-9771d7018614 -->
 
-The current `maxAmount` for this conduit's take and transfer operations are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit's take and transfer operations are defined in the subdocuments herein.
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.3.1 - Take Rate Limit [Core]  <!-- UUID: 2cbaab8c-0f32-4277-96e7-81b92ec831d5 -->
 
@@ -10670,25 +10670,25 @@ The Risk parameters are:
 
 ###### A.6.1.1.1.2.6.1.4.3.3.1.4.2.2 - Rate Limits [Core]  <!-- UUID: e9b62d67-cb5d-4bcb-9f5d-90688a85f123 -->
 
-The current `maxAmount` for this conduit's take, transfer, and bridge operations are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit's take, transfer, and bridge operations are defined in the subdocuments herein.
 
 ###### A.6.1.1.1.2.6.1.4.3.3.1.4.2.2.1 - Take Rate Limit [Core]  <!-- UUID: 430776a5-cc59-4904-a2c7-65bd5ee8e4ca -->
 
-The take rate limit parameter is:
+The take rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.4.3.3.1.4.2.2.2 - Transfer Rate Limit [Core]  <!-- UUID: 9496a85f-d220-4827-b7f4-b8b21c90b131 -->
 
-The transfer rate limit parameter is:
+The transfer rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.4.3.3.1.4.2.2.3 - Bridge to Ethereum Rate Limit [Core]  <!-- UUID: 26c7a10c-dc71-4ccd-a3d3-706549b2e4aa -->
 
-The bridge-to-Ethereum rate limit parameter is:
+The bridge-to-Ethereum rate limit parameters are:
 
 - `maxAmount`: 0
 - `slope`: 0
