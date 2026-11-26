@@ -5552,7 +5552,7 @@ The Transfer RateLimitID is: `0xe3efee79202351ad64bb73712079e37726f09bcdd2010725
 
 ###### A.6.1.1.1.2.6.1.3.1.4.4.4.2.3 - Rate Limits [Core]  <!-- UUID: aba5c9dc-79aa-4cd4-8d0f-47760b3deb13 -->
 
-The current `maxAmount` for this conduit's take and transfer operations are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit's take and transfer operations are defined in the subdocuments herein.
 
 ###### A.6.1.1.1.2.6.1.3.1.4.4.4.2.3.1 - Take Rate Limit [Core]  <!-- UUID: 57d3c62e-4228-449c-85a5-e1113abdb51d -->
 
@@ -10316,7 +10316,7 @@ The Risk parameters are:
 
 ###### A.6.1.1.1.2.6.1.4.1.12.1.4.2.2 - Rate Limits [Core]  <!-- UUID: 3802d641-27cf-4ec1-bba4-6a09a84071af -->
 
-The current `maxAmount` for this conduit's take and transfer operations are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit's take and transfer operations are defined in the subdocuments herein.
 
 ###### A.6.1.1.1.2.6.1.4.1.12.1.4.2.2.1 - Take Rate Limit [Core]  <!-- UUID: fc186f71-dce3-46d8-bf50-fcccdfad5e5d -->
 
