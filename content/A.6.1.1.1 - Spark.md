@@ -2053,7 +2053,7 @@ The address of the ALM Rate Limits contract is: `0x4824C4336a1a11979068A544958dC
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.5 - AdministeredAgent Contract [Core]  <!-- UUID: 3afc0502-e0ba-45a1-ae05-fe539053cf07 -->
 
-The address of the AdministeredAgent contract is: `0x0745aae633E8318a063D383791bCc0d8C82F46C6`. The AdministeredAgent holds the Allocator Role of the Diamond PAU and mediates relayer access to the Controller: the Spark Planner Administered Agent (`TBD`) is registered as its sole actor and submits operations through it, while the ALM Freezer Multisig and the Soter Labs freezer multisig are registered as revokers authorized to remove a compromised actor, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
+The address of the AdministeredAgent contract is: `0x0745aae633E8318a063D383791bCc0d8C82F46C6`. The AdministeredAgent holds the Allocator Role of the Diamond PAU and mediates relayer access to the Controller: the Spark Planner Administered Agent (`0xB56d9D463661DF1325A16a56cF273881eCD6AA22`) is registered as its sole actor and submits operations through it, while the ALM Freezer Multisig and the Soter Labs freezer multisig are registered as revokers authorized to remove a compromised actor, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.6 - Beacon Contract [Core]  <!-- UUID: e7ef2fd6-d98a-454d-9dd5-1cb0dc739101 -->
 
@@ -2065,7 +2065,7 @@ The address of the CCTP Facet contract is: `0xeCCA0D296Cb133081d41E9772B60D57F5f
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.8 - Spark Planner Administered Agent Contract [Core]  <!-- UUID: 4f4ef175-bc10-4146-9dc9-72a4e9032d73 -->
 
-The address of the Spark Planner Administered Agent contract is: `TBD`.
+The address of the Spark Planner Administered Agent contract is: `0xB56d9D463661DF1325A16a56cF273881eCD6AA22`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.3.2 - Base [Core]  <!-- UUID: 59e2c1fc-2f61-48c3-b6fe-9dcd5b8851dc -->
 
@@ -7130,11 +7130,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.3 - Setter [Core]  <!-- UUID: 79f22817-f58b-4411-8ec9-fb17c934a089 -->
 
-`TBD`
+`0x01F45C14E8A56560b84a8CcB422ca75379224951`
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.4 - Taker [Core]  <!-- UUID: 6c66439e-93c5-4db2-9d89-917bedaca0bf -->
 
-`TBD`
+`0x6172A812bd36a7C21733bFc99991250E81768aaf`
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.2 - Risk Parameters Current Configuration [Core]  <!-- UUID: abc91d15-dfb3-439b-b725-7de77fd09f35 -->
 
@@ -12860,8 +12860,8 @@ The current parameters for Spark Savings USDG on Robinhood Chain are:
 The current parameters for Spark Savings USDT on Arbitrum are:
 
 - Default admin role: 0x65d946e533748A998B1f0E430803e39A6388f7a1
-- Setter role: `TBD`
-- Taker role: `TBD`
+- Setter role: 0x01F45C14E8A56560b84a8CcB422ca75379224951
+- Taker role: 0x6172A812bd36a7C21733bFc99991250E81768aaf
 - Take rate limit: 10,000,000 USDT0 maximum and 200,000,000 USDT0 per day
 - Min yield: 0%
 - Max yield: 6%
@@ -13025,23 +13025,23 @@ The documents herein define the addresses of the Arbitrum Spark Savings USDT Dia
 
 ###### A.6.1.1.1.3.5.4.1.1.1.1 - Controller Contract [Core]  <!-- UUID: d7fda3f5-f885-4dcf-9d7c-50fd955023f0 -->
 
-`TBD`
+`0x4004B6c44c92B7293C409B6DC4FA47D9029151E5`
 
 ###### A.6.1.1.1.3.5.4.1.1.1.2 - ALM Proxy Contract [Core]  <!-- UUID: ed75efe0-018c-4d7e-ac96-cea418798767 -->
 
-`TBD`
+`0x6172A812bd36a7C21733bFc99991250E81768aaf`
 
 ###### A.6.1.1.1.3.5.4.1.1.1.3 - AccessControls Contract [Core]  <!-- UUID: e16b3fb4-1776-4b9c-91b2-b9f92fd30767 -->
 
-`TBD`
+`0xCC727Ca10D614A28Af2B3b6CaCBdDCE489448a9C`
 
 ###### A.6.1.1.1.3.5.4.1.1.1.4 - RateLimits Contract [Core]  <!-- UUID: f57e29ee-d6b7-4a06-913b-1649039fb9a7 -->
 
-`TBD`
+`0x2a29f549191d705C82EC490FF7063ADA41df93Ce`
 
 ###### A.6.1.1.1.3.5.4.1.1.1.5 - Spark Vaults Administered Agent Contract [Core]  <!-- UUID: 6fc04e6e-b30c-4297-8ecf-f2e5d926c84e -->
 
-`TBD`
+`0x01F45C14E8A56560b84a8CcB422ca75379224951`
 
 ###### A.6.1.1.1.3.5.4.1.1.1.6 - Spark Beacon Contract [Core]  <!-- UUID: 8297b1e0-fa9b-406f-87b0-f8087a1ab518 -->
 
