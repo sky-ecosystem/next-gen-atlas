@@ -1119,7 +1119,7 @@ The Synome Editor role is held by Archon Tech.
 
 #### A.1.3.2.2 - Review Obligation [Core]  <!-- UUID: 907407a8-123f-47bd-a120-9ce8f15c6c48 -->
 
-Core GovOps, the Core Facilitator, and the Aligned Delegates must review modifications to Synome Documents made by the Synome Editor for conformance with the Atlas Documents as specified in [A.0.1.1.54 - Conformance](cb66c28b-c05f-4ccc-ad44-f05aacf78b9c) and for misalignment of the Synome Editor as specified in [A.0.1.1.11 - Misalignment](60066e0f-3db7-45c7-9664-8120a4fbd38b).
+Core GovOps, the Core Facilitator, and the Aligned Delegates must review modifications to Synome Documents made by the Synome Editor for conformance with the Atlas Documents as specified in [A.0.1.1.56 - Conformance](cb66c28b-c05f-4ccc-ad44-f05aacf78b9c) and for misalignment of the Synome Editor as specified in [A.0.1.1.11 - Misalignment](60066e0f-3db7-45c7-9664-8120a4fbd38b).
 
 #### A.1.3.2.3 - Correction Of Non-Conformance [Core]  <!-- UUID: 4e6ae30e-862c-4ca5-be64-c54b226c2ec0 -->
 
@@ -4575,7 +4575,7 @@ For a Prime Spell that enables capital allocation to a Morpho vault through the 
 
 ###### A.1.10.2.5.2.4 - Morpho Vault Change Note Template [Core]  <!-- UUID: f82537ec-50d1-44a0-ae01-0270cc091793 -->
 
-The Morpho Vault Change Note Template will be maintained in the Ecosystem Operational References repository (https://github.com/soterlabs/ecosystem-operational-references). Its location within that repository will be specified in a future iteration of the Atlas. The Morpho Vault Change Note Template is a standardized template for announcing a change to a Morpho vault that is already recorded in a Prime Agent Artifact as an Instance of the Allocation System Primitive. It may be used instead of the Technical Scope Template only where the change involves no deployment of a new contract and no creation of a new market, and falls within [A.2.2.10.1.1.1.3.6.1.1 - Morpho Vault Changes Requiring Governance Approval](f68aa50e-0eb4-4fb4-b145-616a06d8b646) or [A.2.2.10.1.1.1.3.6.1.2 - Morpho Vault Changes Requiring Disclosure Only](cd925225-9ff5-4efc-9e72-45d5bee862aa). A completed Morpho Vault Change Note must reference the Technical Scope through which the vault was onboarded. Where a vault was onboarded without a Technical Scope, the first change to it must be announced using the Technical Scope Template, published as specified in [A.1.10.2.5.2.1.1 - Technical Scope Template Submission Requirements](a6acd80e-289a-4159-ba51-3399c5d90f3d), and later Morpho Vault Change Notes for that vault must reference that Technical Scope.
+The Morpho Vault Change Note Template is a standardized template for announcing a change to a Morpho vault that is already recorded in a Prime Agent Artifact as an Instance of the Allocation System Primitive. The Morpho Vault Change Note Template is located at https://github.com/soterlabs/ecosystem-operational-references/blob/main/templates/morpho-vault-change-note-template.md. It may be used instead of the Technical Scope Template only where the change involves no deployment of a new contract and no creation of a new market, and falls within [A.2.2.10.1.1.1.3.6.1.1 - Morpho Vault Changes Requiring Governance Approval](f68aa50e-0eb4-4fb4-b145-616a06d8b646) or [A.2.2.10.1.1.1.3.6.1.2 - Morpho Vault Changes Requiring Disclosure Only](cd925225-9ff5-4efc-9e72-45d5bee862aa). A completed Morpho Vault Change Note must reference the Technical Scope through which the vault was onboarded. Where a vault was onboarded without a Technical Scope, the first change to it must be announced using the Technical Scope Template, published as specified in [A.1.10.2.5.2.1.1 - Technical Scope Template Submission Requirements](a6acd80e-289a-4159-ba51-3399c5d90f3d), and later Morpho Vault Change Notes for that vault must reference that Technical Scope.
 
 ###### A.1.10.2.5.2.4.1 - Morpho Vault Change Note Submission Requirements [Core]  <!-- UUID: 94f3fede-b2b2-4bc3-a3c7-f455e200508f -->
 
@@ -6580,6 +6580,10 @@ Spell content for a Sky Core Halo follows the Prime Spell Process (see [A.1.10.2
 
 Sky Core Halos are operated by Operational Executor Agent Ozone. See [A.6.1.2.2 - Operational Executor Agent Ozone](565660dd-7850-4c3a-8dba-554542bf103a).
 
+##### A.1.14.6.2.3 - NFAT Facility Registration Requirement [Core]  <!-- UUID: 43cedb28-6113-43b1-8c9a-64b590116bfa -->
+
+The specification of each Sky Core Halo in [A.1.14.6.3 - List Of Sky Core Halos](dc48d6fa-6831-4c06-ab0e-e3bf42fc0553) must record all NFAT Facilities that the Sky Core Halo initializes and operates.
+
 #### A.1.14.6.3 - List Of Sky Core Halos [Core]  <!-- UUID: dc48d6fa-6831-4c06-ab0e-e3bf42fc0553 -->
 
 The documents herein list and specify each Sky Core Halo. Currently, the only Sky Core Halo is Test Halo.
@@ -6587,6 +6591,8 @@ The documents herein list and specify each Sky Core Halo. Currently, the only Sk
 ##### A.1.14.6.3.1 - Test Halo [Core]  <!-- UUID: 59d23e0e-dcf8-4fdb-937a-678023849cf6 -->
 
 The documents herein specify Test Halo. Test Halo is used to test new Agent architecture and operations, and to prove the related on-chain architecture in production before wider use.
+
+Test Halo initializes and operates the Test NFAT Facility as part of the [A.2.2.10.1.1.1.4.8 - NFAT Pilot](31a31991-9ece-4b75-80f1-60e8c0b9b258). The Test NFAT Facility will remain operational for the duration of the NFAT Pilot only.
 
 ###### A.1.14.6.3.1.1 - Test Halo SubProxy Account [Core]  <!-- UUID: 9e0b9059-b850-4dcb-bb0b-b34a3e97e479 -->
 
@@ -6599,6 +6605,187 @@ The address of Test Halo's StarGuard contract on the Ethereum Mainnet is `0x5dc7
 ###### A.1.14.6.3.1.2.1 - Test Halo StarGuard Max Delay [Core]  <!-- UUID: ca45b70f-b230-4d2c-85ae-61e63be78c26 -->
 
 The Test Halo StarGuard `maxDelay` is seven (7) days.
+
+###### A.1.14.6.3.1.3 - NFAT Facilities [Core]  <!-- UUID: 489e8d21-518a-4577-89c3-1e62cb4cca56 -->
+
+The documents herein contain the registry, data, and specifications of all NFAT Facilities initialized and operated by Test Halo.
+
+###### A.1.14.6.3.1.3.1 - Active NFAT Facilities [Core]  <!-- UUID: d81fcdc6-64e8-4b57-ad00-9e8956aae6bd -->
+
+The documents herein contain the registry, data, and specifications of all NFAT Facilities initialized and operated by Test Halo with `Active` status. An NFAT Facility is considered `Active` when it is approved and ready to receive capital subscriptions from Prime Agents.
+
+###### A.1.14.6.3.1.3.1.1 - Ethereum Mainnet [Core]  <!-- UUID: b87916d5-d1e2-4fc9-8cf4-b8547ae6a1b7 -->
+
+The documents herein list NFAT Facilities with Active status on Ethereum Mainnet.
+
+###### A.1.14.6.3.1.3.1.1.1 - Test NFAT Facility [Core]  <!-- UUID: 8c029467-3c5b-46ae-8a0a-39663427cf9f -->
+
+The documents herein specify the NFAT Facility used in the [A.2.2.10.1.1.1.4.8 - NFAT Pilot](31a31991-9ece-4b75-80f1-60e8c0b9b258).
+
+###### A.1.14.6.3.1.3.1.1.1.1 - Parameters [Core]  <!-- UUID: 47a1ae26-1106-475b-8565-9ebb07dc16ce -->
+
+The documents herein specify the parameters of the Test NFAT Facility.
+
+###### A.1.14.6.3.1.3.1.1.1.1.1 - Asset Type/ Strategy [Core]  <!-- UUID: dfb8b0b8-62c2-409a-857a-e8573b230673 -->
+
+The asset type and strategy of the Test NFAT Facility are specified in [A.2.2.10.1.1.1.4.8.2 - Asset And Strategy](28548f36-a44a-4124-a02a-05b627b4e2fd).
+
+###### A.1.14.6.3.1.3.1.1.1.1.2 - Deal Size [Core]  <!-- UUID: 867aaea2-015f-4793-8642-3a69feeb914b -->
+
+The deal size of the Test NFAT Facility is equal to the size of the [A.2.2.10.1.1.1.4.8 - NFAT Pilot](31a31991-9ece-4b75-80f1-60e8c0b9b258), as specified in [A.2.2.10.1.1.1.4.8.3 - Pilot Size](947368eb-3091-4513-824c-519e96c8bb08).
+
+###### A.1.14.6.3.1.3.1.1.1.1.3 - Yield [Core]  <!-- UUID: b8da9efa-ba4d-46d6-bb56-1225074d12bc -->
+
+The yield treatment for the Test NFAT Facility is specified in [A.2.2.10.1.1.1.4.8.6.1 - Yield Treatment Exception](d5ad0fc3-277c-4ee2-9128-3f22f320b7e0). The interest that Test Halo may repay on each NFAT is capped as specified in [A.1.14.6.3.1.3.1.1.1.2.2.4 - Maximum Annual Growth Rate](903cf43b-bfe6-43bc-b994-e0de019d9b13).
+
+###### A.1.14.6.3.1.3.1.1.1.1.4 - Term [Core]  <!-- UUID: 02588819-4604-4e7d-beb3-c3263f447e24 -->
+
+The term of the Test NFAT Facility is equal to the duration of the [A.2.2.10.1.1.1.4.8 - NFAT Pilot](31a31991-9ece-4b75-80f1-60e8c0b9b258), as specified in [A.2.2.10.1.1.1.4.8.4 - Duration](e6fbb35f-cc70-49ba-ab34-80a58895f144).
+
+###### A.1.14.6.3.1.3.1.1.1.1.5 - Eligible Prime Agents [Core]  <!-- UUID: c5fe6f2f-1e25-494c-b1b8-d015ebb4306d -->
+
+The Prime Agents eligible to subscribe to the Test NFAT Facility are specified in [A.2.2.10.1.1.1.4.8.1 - Participating Agents](2580dbb1-7e0f-4cc7-87c6-6de89483920a).
+
+###### A.1.14.6.3.1.3.1.1.1.1.6 - Attestation [Core]  <!-- UUID: ca6b2c28-2acd-45fa-9424-b95c8f560511 -->
+
+The Test NFAT Facility has no external borrower, so the attestation requirement specified in [A.2.2.10.1.1.1.4.4 - Attestation](d6a20032-cb17-40b6-8360-ebc344c46789) is not applicable.
+
+###### A.1.14.6.3.1.3.1.1.1.1.7 - Redemption [Core]  <!-- UUID: 6f946f54-4723-4d31-bc83-d362afeef29b -->
+
+The Halo Agent must repay all amounts due to the NFAT Facility Contract by the end of the [A.2.2.10.1.1.1.4.8 - NFAT Pilot](31a31991-9ece-4b75-80f1-60e8c0b9b258), as specified in [A.2.2.10.1.1.1.4.8.4 - Duration](e6fbb35f-cc70-49ba-ab34-80a58895f144). The Prime Agent collects those amounts against the NFAT.
+
+###### A.1.14.6.3.1.3.1.1.1.1.7.1 - Recourse Terms [Core]  <!-- UUID: 7f963804-600b-47d4-bccb-f43454236a47 -->
+
+The Test NFAT Facility has no external borrower, so no recourse to a third party applies.
+
+###### A.1.14.6.3.1.3.1.1.1.1.8 - Risk Treatment [Core]  <!-- UUID: b2970713-1723-4e09-a9fc-19d54a67171f -->
+
+The risk treatment of the Test NFAT Facility is specified in [A.2.2.10.1.1.1.4.8.5 - Risk Treatment](86be70f3-5caa-4f1a-a002-fbd53ba26070).
+
+###### A.1.14.6.3.1.3.1.1.1.2 - Technical Architecture [Core]  <!-- UUID: 6bd13651-ad18-452b-8dce-c6bd32d2ee28 -->
+
+The documents herein specify the two parts of the Test NFAT Facility, the NFAT Facility Contract and the NFAT Facility Diamond PAU, as required by [A.2.2.10.1.1.1.4.1 - Facility Requirements](cb0160b9-d804-4a3d-a6e0-233dab98c2c5).
+
+###### A.1.14.6.3.1.3.1.1.1.2.1 - NFAT Facility Contract [Core]  <!-- UUID: 1b454742-20e3-446c-a7bd-5bc56409c13a -->
+
+The documents herein specify the NFAT Facility Contract of the Test NFAT Facility, as required by [A.2.2.10.1.1.1.4.1 - Facility Requirements](cb0160b9-d804-4a3d-a6e0-233dab98c2c5).
+
+###### A.1.14.6.3.1.3.1.1.1.2.1.1 - NFAT Facility Contract Address [Core]  <!-- UUID: f34d512c-f157-487f-b6cc-7ee8a5f49764 -->
+
+The address of the Test NFAT Facility Contract on Ethereum Mainnet is `0x02Cb9629B0806b11202C59433eCe4e664C521128`.
+
+###### A.1.14.6.3.1.3.1.1.1.2.1.2 - NFAT Identifiers [Core]  <!-- UUID: e4570241-cb6b-4224-acc0-5f65ab9c7386 -->
+
+- `name`: Pilot Test Allocation
+- `symbol`: $PTA
+
+###### A.1.14.6.3.1.3.1.1.1.2.2 - NFAT Facility Diamond PAU [Core]  <!-- UUID: b2326892-7cd6-4752-ac35-d47e80c26992 -->
+
+The documents herein define the Diamond PAU that operates the Test NFAT Facility, as required by [A.2.2.10.1.1.1.4.1 - Facility Requirements](cb0160b9-d804-4a3d-a6e0-233dab98c2c5).
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.1 - Contract Addresses [Core]  <!-- UUID: eeb6a5dd-b0a0-4b27-a3fc-f8d6de4d74af -->
+
+The addresses of the Test NFAT Facility Diamond PAU contracts on Ethereum Mainnet are:
+
+- ALM Proxy: `0xBEE5C2E8436e9834e6890A528E5B294D93b2Eec7`
+- Controller: `0x37F628D95ceC5aDA038A1cca734573dbcb79d1cB`
+- `RateLimits`: `0x372d6D3f411039B2341203EAB3CCC89D799aC0AE`
+- `AccessControls`: `0x241c83227a30D5C28Ab8641F99B2708ffb8B11e7`
+- AdministeredAgent: `0x1BbfC98a7d11E007CFA4119f8014Df42A4D55577`
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.2 - Facets [Core]  <!-- UUID: 21c78f9c-827b-459b-8069-3b0f0a3ad5b0 -->
+
+The Test NFAT Facility Diamond PAU uses the [A.2.2.10.1.1.1.2.3.1.2.27 - NFAT Halo Facet](cf231b22-ce7f-4719-b592-6c539c63cb22) to issue NFATs to subscribing Prime Agents and to repay principal and interest to the Test NFAT Facility.
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.3 - Rate Limits [Core]  <!-- UUID: e9922fc4-20d7-4127-aacf-b16ed11e1eb4 -->
+
+The rate limits of the Test NFAT Facility Diamond PAU are specified in the documents herein.
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.3.1 - Issue Rate Limit [Core]  <!-- UUID: ddbdc989-353a-4596-9ab2-2dd87daa7fdb -->
+
+The issue rate limit is set for each subscribing Prime Agent, keyed on that Prime Agent's ALM Proxy. For Osero, the values for each phase of the [A.2.2.10.1.1.1.4.8 - NFAT Pilot](31a31991-9ece-4b75-80f1-60e8c0b9b258), as specified in [A.2.2.10.1.1.1.4.8.7 - NFAT Pilot Phases](33f421ba-fe7e-4547-9491-f4ec2fb0f879), are:
+
+| Phase | `maxAmount` | `slope` |
+| --- | --- | --- |
+| 1 | 5,000,000 USDS | 1,000,000 USDS per day |
+| 2 | 5,000,000 USDS | 2,500,000 USDS per day |
+| 3 | 15,000,000 USDS | 10,000,000 USDS per day |
+| 4 | 25,000,000 USDS | 25,000,000 USDS per day |
+| 5 | 50,000,000 USDS | 50,000,000 USDS per day |
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.3.2 - Repay Principal Rate Limit [Core]  <!-- UUID: e44ad873-c388-45f8-9220-51e3e56c14b3 -->
+
+The repay principal rate limit, for USDS and the Test NFAT Facility, is:
+
+- `maxAmount`: 50,000,000 USDS
+- `slope`: 50,000,000 USDS per day
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.3.3 - Repay Interest Rate Limit [Core]  <!-- UUID: be34efcb-e681-4a4e-8a4a-7c29d79dc525 -->
+
+The repay interest rate limit, for USDS and the Test NFAT Facility, is:
+
+- `maxAmount`: 1,000,000 USDS
+- `slope`: 1,000,000 USDS per day
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.4 - Maximum Annual Growth Rate [Core]  <!-- UUID: 903cf43b-bfe6-43bc-b994-e0de019d9b13 -->
+
+The maximum annual growth rate, set through `nfatHalo_setMaxAnnualGrowthRate`, is 20%. It caps the interest that Test Halo may repay on each NFAT.
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.5 - Test NFAT Facility Relayer Multisig [Core]  <!-- UUID: 6b0e4732-18d5-43ee-9de2-b1d7d77c4def -->
+
+The Test NFAT Facility Relayer Multisig is registered as an Actor on the AdministeredAgent, which holds the Allocator Role as specified in [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a).
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.5.1 - Address [Core]  <!-- UUID: cb38b73d-9ea1-4a51-b308-fabf4c7c7672 -->
+
+The address of the Test NFAT Facility Relayer Multisig on Ethereum Mainnet is `0xfc6C70F76143565989385aB6B7F5acFa351c04e5`.
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.5.2 - Required Number Of Signers [Core]  <!-- UUID: 4aa2c4f5-0be2-480e-b41f-4d0c61917b63 -->
+
+The required number of signers of the Test NFAT Facility Relayer Multisig is two (2) out of three (3).
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.5.3 - Signers [Core]  <!-- UUID: 6a042449-1bb2-49a9-b6e0-246192f529f7 -->
+
+The signers of the Test NFAT Facility Relayer Multisig are three (3) addresses controlled by Operational GovOps Soter Labs.
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.5.4 - Usage Standards [Core]  <!-- UUID: aff3f1a0-d87a-423e-9f05-9c7289894989 -->
+
+The signers of the Test NFAT Facility Relayer Multisig must use the multisig to submit operations through the AdministeredAgent in accordance with the instructions specified in [A.2.2.10.1.1.1.4.8 - NFAT Pilot](31a31991-9ece-4b75-80f1-60e8c0b9b258).
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.5.5 - Modification [Core]  <!-- UUID: 64392bbd-b111-4482-aab4-241c66a997cb -->
+
+Operational GovOps Soter Labs can change the signers of the Test NFAT Facility Relayer Multisig at any time, so long as there are at least three (3) signers and at least two-thirds of signers are required to execute transactions.
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.6 - Test NFAT Facility Freezer Multisig [Core]  <!-- UUID: 49bdf660-7489-499f-aad1-31a1355d78c9 -->
+
+The Test NFAT Facility Freezer Multisig is registered as a Revoker on the AdministeredAgent, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.6.1 - Address [Core]  <!-- UUID: 78cc09de-ce5b-4e4b-aac4-40339f777245 -->
+
+The address of the Test NFAT Facility Freezer Multisig on Ethereum Mainnet is `0xAc18FBCA42aC8cE3A22a5B057c88A877AAB38DFd`.
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.6.2 - Required Number Of Signers [Core]  <!-- UUID: 9d8e9bcb-a5aa-4a38-9b64-2972bef7d471 -->
+
+The required number of signers of the Test NFAT Facility Freezer Multisig is two (2) out of five (5).
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.6.3 - Signers [Core]  <!-- UUID: 9c27b915-f194-4922-b1f7-9ddb40f623a5 -->
+
+The signers of the Test NFAT Facility Freezer Multisig are three (3) addresses controlled by Operational GovOps Soter Labs and two (2) addresses controlled by the Core Facilitator.
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.6.4 - Usage Standards [Core]  <!-- UUID: 2a8bd875-400b-4751-8d89-76477b1be1b1 -->
+
+The signers of the Test NFAT Facility Freezer Multisig should exercise their authority to remove a compromised or malicious Actor from the AdministeredAgent in the event of an emergency. Each action executed by the Test NFAT Facility Freezer Multisig must be reported to the Sky community within a reasonable time frame.
+
+###### A.1.14.6.3.1.3.1.1.1.2.2.6.5 - Modification [Core]  <!-- UUID: d62117e6-c4dd-4786-974b-ba9162ffef53 -->
+
+Modification of the signers of the Test NFAT Facility Freezer Multisig must be approved through an Atlas Edit Proposal.
+
+The only exceptions to this are if: 1) a signer self-reports a loss of access to their private key due to any reason; or 2) a signer explicitly expresses their wish to be removed as a signer. In both cases, the signer is required to communicate the loss of access to their private key, or the wish to be removed as a signer, in the form of a public Sky Forum post. The specific signer should be replaced as soon as possible.
+
+Any changes to the signers of the Test NFAT Facility Freezer Multisig that do not fall within the two exceptions listed above, or that have not been ratified by Sky Governance, should be questioned immediately and treated as malicious. Where malicious activity is suspected, the Core Facilitator must prepare an expedited Executive Vote so that Sky Governance can vote on removing external security access from the Test NFAT Facility Freezer Multisig.
+
+###### A.1.14.6.3.1.3.2 - Completed NFAT Facilities [Core]  <!-- UUID: adfdffda-c03a-4ed6-8456-105ed243d566 -->
+
+The documents herein contain the registry, data, and specifications of all NFAT Facilities initialized and operated by Test Halo with `Completed` status. An NFAT Facility is considered `Completed` once its underlying deal has terminated and all due interest and principal have been repaid. NFAT Facilities with `Completed` status cannot receive any further capital subscriptions from Prime Agents.
 
 ## A.1.15 - Scope Bootstrapping [Article]  <!-- UUID: ba97b4dd-c4e0-4d12-8769-423f6ecdc6bf -->
 
