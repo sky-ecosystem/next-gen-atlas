@@ -2624,8 +2624,8 @@ The aggregate CCTP limit is specified in the document herein.
 
 The maximum amount of USDC that can be bridged from the Base ALM Proxy to the Ethereum ALM Proxy through CCTP v2 is specified in the document herein.
 
-- `maxAmount`: 5,000,000 USDC
-- `slope`: 50,000,000 USDC per day
+- `maxAmount`: 25,000,000 USDC
+- `slope`: 100,000,000 USDC per day
 
 ###### A.6.1.1.1.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 9e74aa40-898f-4389-ba3d-8590c12f075d -->
 
@@ -7430,6 +7430,14 @@ The transfer rate limit parameter is:
 
 - `maxAmount`: Unlimited
 
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.3 - LayerZero Recipient [Core]  <!-- UUID: 421bb572-302b-482d-b912-3b98d3e0b147 -->
+
+The LayerZero recipient for transfers from X Layer to Ethereum is:
+
+- Destination endpoint ID: `30101`.
+- Recipient: Ethereum Spark Savings USDT Diamond PAU ALM Proxy.
+- Recipient address: `0x982e90885e21cfDE0557A96bac1a65Fdafc0D29b`.
+
 ###### A.6.1.1.1.2.6.1.3.5.1.2 - X Layer - Spark Savings v2 USDC Instance Configuration Document [Core]  <!-- UUID: e81abdf1-02ba-4363-835d-12ade226c2a3 -->
 
 The documents herein contain the Instance Configuration Document for the Spark Savings v2 USDC Instance.
@@ -7646,18 +7654,18 @@ The documents herein define the Instance role holders and PAU contract addresses
 
 ###### A.6.1.1.1.2.6.1.3.5.2.1.4.1.1 - Curator Role Address [Core]  <!-- UUID: 66799887-71fc-478f-b6a3-83df779bf405 -->
 
-The Curator role is intended to be held jointly by Soter Labs and Spark through the Curator Multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`.
+The Curator role is held jointly by Soter Labs and Spark through the Curator Multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`.
 
 The co-curator Safe addresses are:
 
 | Entity | Address |
 | --- | --- |
-| Soter Labs | `0x50c770E6dC6CfdEE33509273FA9a215bfAffF9B2` |
-| Spark | `0xAB5710211458FC8d7E0Be628202F47DdbD3F38Eb` |
+| Soter Labs | `0xAB5710211458FC8d7E0Be628202F47DdbD3F38Eb` |
+| Spark | `0x50c770E6dC6CfdEE33509273FA9a215bfAffF9B2` |
 
 ###### A.6.1.1.1.2.6.1.3.5.2.1.4.1.2 - Sentinel Role Addresses [Core]  <!-- UUID: 13a93238-d281-46d4-a7ff-8806c0edbd32 -->
 
-The Sentinel roles are intended to be held at the following addresses:
+The Sentinel roles are held at the following addresses:
 
 | Entity | Address |
 | --- | --- |
@@ -7666,7 +7674,7 @@ The Sentinel roles are intended to be held at the following addresses:
 
 ###### A.6.1.1.1.2.6.1.3.5.2.1.4.1.3 - Owner Role Address [Core]  <!-- UUID: daabe2b0-d0e1-47a9-ba61-60bb236090b9 -->
 
-The Owner role is intended to be held by the X Layer Spark Executor at `0xCF5af6F53ceC74B791cb4182aC778ca9CD323510`.
+The Owner role is held by the X Layer Spark Executor at `0xCF5af6F53ceC74B791cb4182aC778ca9CD323510`.
 
 ###### A.6.1.1.1.2.6.1.3.5.2.1.4.2 - Timelocks [Core]  <!-- UUID: b93cbb1b-486d-4129-8973-8af04ef00207 -->
 
