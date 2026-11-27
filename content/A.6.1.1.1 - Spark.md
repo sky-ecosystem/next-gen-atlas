@@ -2602,8 +2602,8 @@ The aggregate CCTP limit is specified in the document herein.
 
 The maximum amount of USDC that can be bridged from the Base ALM Proxy to the Ethereum ALM Proxy through CCTP v2 is specified in the document herein.
 
-- `maxAmount`: 5,000,000 USDC
-- `slope`: 50,000,000 USDC per day
+- `maxAmount`: 25,000,000 USDC
+- `slope`: 100,000,000 USDC per day
 
 ###### A.6.1.1.1.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 9e74aa40-898f-4389-ba3d-8590c12f075d -->
 
