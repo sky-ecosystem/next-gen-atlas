@@ -2888,9 +2888,9 @@ The current Smart Burn Engine parameters are:
 
 - kicker.khump: -200 million USDS (Threshold of Surplus Buffer for Splitter to activate)
 - kicker.kbump: 6,000 USDS
-- splitter.hop: 2,693 seconds
+- splitter.hop: 550 seconds
 - burn (the percentage of the kicker.kbump to be moved to the underlying flapper): set as specified in [A.2.3.1.4.1 - Staking Rewards Rate Adjustment](de233df4-34cc-4e88-a065-9a9dde9add3c); the current value can be read by calling `burn()` on the Splitter contract
-- LSEV2-SKY-A USDS rewardsDuration: 2,693 seconds
+- LSEV2-SKY-A USDS rewardsDuration: 550 seconds
 
 The rewardsDuration for the LSEV2-SKY-A USDS rewards contract must be set such that it is equal to the splitter.hop parameter.
 
@@ -3214,9 +3214,7 @@ Current ETH-A parameters are:
 
 - Stability Fee: set by the SP-BEAM specified in A.3.9 - Measures For Endgame Transition - Stability Parameter Bounded External Access Module,
 - Liquidation Ratio: 145%,
-- DC-IAM `line`: 15,000,000,000 Dai,
-- DC-IAM `gap`: 150,000,000 Dai,
-- DC-IAM `ttl`: 21,600 seconds,
+- Debt Ceiling: 0 Dai,
 - `cut`: 99.00%,
 - `step`: 90 seconds,
 - `buf`: 110.00%,
@@ -3234,9 +3232,7 @@ Current ETH-B parameters are:
 
 - Stability Fee: set by the SP-BEAM specified in A.3.9 - Measures For Endgame Transition - Stability Parameter Bounded External Access Module,
 - Liquidation Ratio: 130%,
-- DC-IAM `line`: 250,000,000 Dai,
-- DC-IAM `gap`: 20,000,000 Dai,
-- DC-IAM `ttl`: 21,600 seconds,
+- Debt Ceiling: 0 Dai,
 - `cut`: 99.00%,
 - `step`: 60 seconds,
 - `buf`: 110.00%,
@@ -3254,9 +3250,7 @@ Current ETH-C parameters are:
 
 - Stability Fee: set by the SP-BEAM specified in A.3.9 - Measures For Endgame Transition - Stability Parameter Bounded External Access Module,
 - Liquidation Ratio: 170%,
-- DC-IAM `line`: 2,000,000,000 Dai,
-- DC-IAM `gap`: 100,000,000 Dai,
-- DC-IAM `ttl`: 28,800 seconds,
+- Debt Ceiling: 0 Dai,
 - `cut`: 99.00%,
 - `step`: 90 seconds,
 - `buf`: 110.00%,
@@ -3274,9 +3268,7 @@ Current WSTETH-A parameters are:
 
 - Stability Fee: set by the SP-BEAM specified in A.3.9 - Measures For Endgame Transition - Stability Parameter Bounded External Access Module,
 - Liquidation Ratio: 150%,
-- DC-IAM `line`: 750,000,000 Dai,
-- DC-IAM `gap`: 30,000,000 Dai,
-- DC-IAM `ttl`: 43,200 seconds,
+- Debt Ceiling: 0 Dai,
 - `cut`: 99.00%,
 - `step`: 90 seconds,
 - `buf`: 110.00%,
@@ -3294,9 +3286,7 @@ Current WSTETH-B parameters are:
 
 - Stability Fee: set by the SP-BEAM specified in A.3.9 - Measures For Endgame Transition - Stability Parameter Bounded External Access Module,
 - Liquidation Ratio: 175%,
-- DC-IAM `line`: 1,000,000,000 Dai,
-- DC-IAM `gap`: 45,000,000 Dai,
-- DC-IAM `ttl`: 43,200 seconds,
+- Debt Ceiling: 0 Dai,
 - `cut`: 99.00%,
 - `step`: 90 seconds,
 - `buf`: 110.00%,
@@ -3315,8 +3305,6 @@ Current WBTC-A parameters are:
 - Stability Fee: set by the SP-BEAM specified in A.3.9 - Measures For Endgame Transition - Stability Parameter Bounded External Access Module,
 - Liquidation Ratio: 150%,
 - DC-IAM `line`: 0 Dai,
-- DC-IAM `gap`: 4,000,000 Dai,
-- DC-IAM `ttl`: 86,400 seconds,
 - `cut`: 99.00%,
 - `step`: 90 seconds,
 - `buf`: 110.00%,
@@ -3335,8 +3323,6 @@ Current WBTC-B parameters are:
 - Stability Fee: set by the SP-BEAM specified in A.3.9 - Measures For Endgame Transition - Stability Parameter Bounded External Access Module,
 - Liquidation Ratio: 150%,
 - DC-IAM `line`: 0 Dai,
-- DC-IAM `gap`: 2,000,000 Dai,
-- DC-IAM `ttl`: 86,400 seconds,
 - `cut`: 99.00%,
 - `step`: 60 seconds,
 - `buf`: 110.00%,
@@ -3355,8 +3341,6 @@ Current WBTC-C parameters are:
 - Stability Fee: set by the SP-BEAM specified in A.3.9 - Measures For Endgame Transition - Stability Parameter Bounded External Access Module,
 - Liquidation Ratio: 175%,
 - DC-IAM `line`: 0 Dai,
-- DC-IAM `gap`: 8,000,000 Dai,
-- DC-IAM `ttl`: 86,400 seconds,
 - `cut`: 99.00%,
 - `step`: 90 seconds,
 - `buf`: 110.00%,

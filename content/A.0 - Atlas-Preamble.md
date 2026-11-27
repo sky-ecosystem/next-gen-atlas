@@ -275,21 +275,29 @@ Core Council Executor Facilitators ("Core Facilitator") interpret Artifacts and 
 
 Sky Primitives are the core building blocks of the Sky ecosystem, serving as the primary interface between Agents and the Atlas. By providing a standardized set of tools and interfaces, Sky Primitives empower Prime Agents to create, innovate, and evolve the Sky Protocol in a decentralized manner. The Sky Primitives are also used by Executor Agents, which serve as the robust and standardized intermediary layer between Prime Agents and the Sky Protocol.
 
-#### A.0.1.1.54 - Conformance [Core]  <!-- UUID: cb66c28b-c05f-4ccc-ad44-f05aacf78b9c -->
+#### A.0.1.1.54 - NFAT [Core]  <!-- UUID: c267ea1f-c071-4cd7-822f-fa75d8461986 -->
+
+A Non-Fungible Allocation Token (NFAT) is an ERC-721 token that represents a claim on the repayments of a bespoke capital deployment deal administered through an NFAT Facility. Each NFAT corresponds to a single issuance of capital under that deal.
+
+#### A.0.1.1.55 - NFAT Facility [Core]  <!-- UUID: fbbf140d-41dc-42af-afc6-e49f3ed6f71c -->
+
+An NFAT Facility administers a single credit deal between a Halo Agent and one or more Prime Agents. It consists of an NFAT Facility Contract and an NFAT Facility Diamond PAU. The Halo Agent initializes the NFAT Facility, operates the [A.2.2.10.1.1.1.2.3.1.2.27 - NFAT Halo Facet](cf231b22-ce7f-4719-b592-6c539c63cb22) on the Controller of the NFAT Facility Diamond PAU, and owns the ALM Proxy of the NFAT Facility Diamond PAU, which is the designated recipient of the NFAT Facility Contract. Prime Agents act as subscribers, committing USDS to the NFAT Facility through the [A.2.2.10.1.1.1.2.3.1.2.26 - NFAT Prime Facet](78e90576-2104-4331-ad42-f60a937a2a45).
+
+#### A.0.1.1.56 - Conformance [Core]  <!-- UUID: cb66c28b-c05f-4ccc-ad44-f05aacf78b9c -->
 
 Conformance characterizes the state in which a Synome Document accurately operationalizes the principles, rules, and processes specified by the Atlas Documents.
 
-#### A.0.1.1.55 - Independent Governance [Core]  <!-- UUID: 6e1c1d71-7f57-4842-9767-7de8f27a532a -->
+#### A.0.1.1.57 - Independent Governance [Core]  <!-- UUID: 6e1c1d71-7f57-4842-9767-7de8f27a532a -->
 
 Independent Governance is the state of a Prime Agent that has a token and an established governance process by which the token's holders can produce binding decisions directing the Agent.
 
-#### A.0.1.1.56 - Sky Frontier Foundation [Core]  <!-- UUID: 05d714e5-9428-4978-ac57-e3885b4e4c41 -->
+#### A.0.1.1.58 - Sky Frontier Foundation [Core]  <!-- UUID: 05d714e5-9428-4978-ac57-e3885b4e4c41 -->
 
 The Sky Frontier Foundation is a foundation that supports the innovation, development, and acceleration of the Sky Ecosystem. Its mandate is to fund public goods infrastructure and self-sustainable activities to support long-term ecosystem growth.
 
 The Sky Frontier Foundation's multisig address is `0xca5183FB9997046fbd9bA8113139bf5a5Af122A0`.
 
-#### A.0.1.1.57 - Fortification Foundation [Core]  <!-- UUID: f44e6bf3-acf2-483e-af99-7cbee48c0c56 -->
+#### A.0.1.1.59 - Fortification Foundation [Core]  <!-- UUID: f44e6bf3-acf2-483e-af99-7cbee48c0c56 -->
 
 The Fortification Foundation is a foundation that addresses existential, long-term legal and political issues of the Sky Ecosystem. Its responsibilities include legal defense, IP protection, regulatory engagement, resilience, and unquantifiable risk management.
 

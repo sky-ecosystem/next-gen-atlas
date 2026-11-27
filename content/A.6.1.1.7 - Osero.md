@@ -904,6 +904,10 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.5.1.2.8 - Gauntlet Instance Configuration Document](df144196-1c4c-4dfa-8a32-512d511bf316).
 
+###### A.6.1.1.7.2.5.1.1.2.9 - Yearn Finance Instance Configuration Document Location [Core]  <!-- UUID: fea979e1-7ed4-43a9-bdfb-82ec11889010 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.5.1.2.9 - Yearn Finance Instance Configuration Document](ec94063c-4d4d-4fa7-922d-34b3702d3938).
+
 ###### A.6.1.1.7.2.5.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: d495c6cf-095e-4257-b54a-59139110bd3e -->
 
 This document contains a Directory of all Instances of the Distribution Reward Primitive with Instance status of `Completed`.
@@ -1420,6 +1424,67 @@ The Active Data is updated as follows:
 
 The Distribution Reward Payments are:
 
+###### A.6.1.1.7.2.5.1.2.9 - Yearn Finance Instance Configuration Document [Core]  <!-- UUID: ec94063c-4d4d-4fa7-922d-34b3702d3938 -->
+
+The documents herein contain the Instance Configuration Document for the Yearn Finance Distribution Reward Primitive Instance.
+
+###### A.6.1.1.7.2.5.1.2.9.1 - Parameters [Core]  <!-- UUID: 04dfb560-7ab4-4d00-abe7-70a2496efa10 -->
+
+The documents herein define the parameters of the Yearn Finance Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.9.1.1 - Reward Code [Core]  <!-- UUID: 14a8c5be-39e4-4347-a70d-7cc123b0c4a8 -->
+
+`3017`.
+
+###### A.6.1.1.7.2.5.1.2.9.1.2 - Tracking Methodology [Core]  <!-- UUID: 9bd40725-2891-4c77-9c22-65618e7eec60 -->
+
+This Instance uses the Tracking Methodology specified in [A.2.2.9.1.2.1.1.2.1 - Ethereum Mainnet General Tracking Methodology](87fd6861-ba8a-4bde-945e-ee9ad37ae3e2).
+
+###### A.6.1.1.7.2.5.1.2.9.1.3 - Custom Instance Parameters [Core]  <!-- UUID: 11980f86-b489-4dfd-a27c-07448c98685d -->
+
+The documents herein define the custom parameters of the Yearn Finance Instance of the Distribution Reward Primitive, if any.
+
+###### A.6.1.1.7.2.5.1.2.9.2 - Operational Process Definition [Core]  <!-- UUID: 7e194878-2076-46ee-b6a1-8b638c1f31c3 -->
+
+The documents herein define the process for the ongoing management of the Yearn Finance Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.9.2.1 - Routine Protocol [Core]  <!-- UUID: 4796879a-c3f6-4f36-8780-b516a903309f -->
+
+This document defines the protocol for routine ongoing management of the Yearn Finance Instance. This Instance inherits the base class of operational logic defined in [A.2.2.9.1.2.4.1 - Routine Protocol](c2abdd22-fe0f-489e-b281-450e066db701), subject to the qualifications specified in [A.2.2.9.1.2.1.3.3.1 - Near-Term Process](05fb732b-de55-4886-81a7-7c5d4c13d2d2).
+
+Modifications to the base operational logic automatically propagate to this Instance. In future iterations of the Osero Artifact, a version of the full process definition customized to Osero will be included herein.
+
+###### A.6.1.1.7.2.5.1.2.9.2.1.1 - Agent Customizations [Core]  <!-- UUID: aff0c3d1-836d-4e7c-b465-926235508586 -->
+
+The Prime Agent may define instance-specific customization of the routine protocol to extend the baseline functionality defined in the Sky Core Atlas. This can include custom routines or processes layered on top of the inherited Sky Core logic. Any extensions must remain fully aligned with the requirements specified in the Sky Core Atlas. This document defines those customizations, if any.
+
+[No customization presently.]
+
+###### A.6.1.1.7.2.5.1.2.9.2.2 - Non-Routine Protocol [Core]  <!-- UUID: ad014423-4054-4d6a-b10f-17f5e505e808 -->
+
+The documents herein define the protocol for non-routine ongoing management of the Yearn Finance Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.9.2.3 - Emergency Protocol [Core]  <!-- UUID: 7692fc38-d5fd-44c4-ad48-e0ea7775e61e -->
+
+The documents herein define the protocol for handling emergency situations in the ongoing management of the Yearn Finance Instance of this Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.9.3 - Data Repository [Core]  <!-- UUID: 1c0fc6d3-484f-42db-82a0-c0f4e6350f30 -->
+
+The documents herein contain data relevant to the Yearn Finance Instance of the Distribution Reward Primitive.
+
+###### A.6.1.1.7.2.5.1.2.9.3.1 - Distribution Reward Payments [Active Data Controller]  <!-- UUID: f2451003-5401-41ed-a291-86e83cc1ae8c -->
+
+The Distribution Reward payments for the Yearn Finance Instance of the Distribution Reward Primitive are defined as Active Data.
+
+The Active Data is updated as follows:
+
+- The Responsible Party is Operational GovOps.
+- The Update Process must follow the protocol for 'Direct Edit'.
+
+###### A.6.1.1.7.2.5.1.2.9.3.1.0.6.1 - List Of Distribution Reward Payments [Active Data]  <!-- UUID: d904073a-ab17-4efb-a8fd-1b9f85a5e84e -->
+
+The Distribution Reward Payments are:
+
 ##### A.6.1.1.7.2.5.1.3 - Completed Instances [Core]  <!-- UUID: 4e7b84d1-356c-437a-9aa2-3a569c0c29ab -->
 
 The Instances of the Distribution Reward Primitive with `Completed` Status are stored herein.
@@ -1603,6 +1668,14 @@ The Ethereum Mainnet Instances of the Morpho Protocol with `Active` Status are s
 ###### A.6.1.1.7.2.6.1.1.2.1.1.1 - Ethereum Mainnet - Osero x Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 38d5861a-c16c-4e3b-9412-96037d403f8d -->
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Osero x Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed).
+
+###### A.6.1.1.7.2.6.1.1.2.1.2 - NFAT Facilities [Core]  <!-- UUID: 565549f1-868e-4d67-a5d1-029e365d29d6 -->
+
+The Ethereum Mainnet Instances of NFAT Facilities with `Active` Status are stored herein.
+
+###### A.6.1.1.7.2.6.1.1.2.1.2.1 - Ethereum Mainnet - Test NFAT Facility Instance Configuration Document Location [Core]  <!-- UUID: b118dadf-617a-4696-a5da-5e1d700b4fd1 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.7.2.6.1.3.1.2.1 - Ethereum Mainnet - Test NFAT Facility Instance Configuration Document](1c712262-17ff-4008-b500-1f2b5912fd90).
 
 ###### A.6.1.1.7.2.6.1.1.2.2 - Base [Core]  <!-- UUID: 6f48b718-3eec-47d4-92aa-0ab6739b5bbe -->
 
@@ -1792,6 +1865,10 @@ The LIMIT_USDC_TO_CCTP RateLimitID, which applies to transfers through CCTP to a
 
 The LIMIT_USDC_TO_DOMAIN RateLimitID for the Base domain is: `0xbab34b58275e6736d9a866c36a2d88d671ed8b627228e6bd17efb1b076a59881`.
 
+###### A.6.1.1.7.2.6.1.2.1.1.2.1.7 - USDS Transfer To Test NFAT Facility ALM Proxy Rate Limit ID [Core]  <!-- UUID: d9959b27-347c-4dbc-9000-9c889cdcd5a3 -->
+
+The `LIMIT_ASSET_TRANSFER` Rate Limit ID for USDS transfers to the ALM Proxy of the Test NFAT Facility Diamond PAU is: `0xdc1d794c3b887903c7ddbbd9993389bb07143e4becb9aa609297dc205c77505d`.
+
 ###### A.6.1.1.7.2.6.1.2.1.1.2.2 - Diamond PAU Rate Limits [Core]  <!-- UUID: 325731dc-5e89-4a8a-9d64-91b203febf48 -->
 
 The documents herein list the controller-wide rate limits for the Osero Diamond PAU on Ethereum Mainnet. Instance-specific rate limits are specified in each Instance Configuration Document. These values are set via a Prime Spell or via a cBEAM. A cBEAM updates the on-chain value incrementally, through bounded adjustments, as specified in [A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960). The current on-chain value can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
@@ -1828,8 +1905,15 @@ The maximum amount of USDC that can be transferred through CCTP by the Osero Dia
 
 The maximum amount of USDC that can be transferred to Base by the Osero Diamond PAU on Ethereum Mainnet (`LIMIT_USDC_TO_DOMAIN`, for the Base domain) is specified in the document herein.
 
-- `maxAmount`: 10,000,000 USDC
+- `maxAmount`: 25,000,000 USDC
 - `slope`: 50,000,000 USDC per day
+
+###### A.6.1.1.7.2.6.1.2.1.1.2.2.7 - USDS Transfer To Test NFAT Facility ALM Proxy Maximum [Core]  <!-- UUID: 59f0accf-aff4-4780-808c-8e2aa7c952db -->
+
+The maximum amount of USDS that can be transferred to the ALM Proxy of the Test NFAT Facility Diamond PAU by the Osero Diamond PAU (`LIMIT_ASSET_TRANSFER`, for USDS and that ALM Proxy) is specified in the document herein. This rate limit applies to the USDS that funds the interest payments of the [A.2.2.10.1.1.1.4.8 - NFAT Pilot](31a31991-9ece-4b75-80f1-60e8c0b9b258). It does not change between the phases specified in [A.2.2.10.1.1.1.4.8.7 - NFAT Pilot Phases](33f421ba-fe7e-4547-9491-f4ec2fb0f879).
+
+- `maxAmount`: 1,000,000 USDS
+- `slope`: 1,000,000 USDS per day
 
 ###### A.6.1.1.7.2.6.1.2.1.1.2.3 - Base Diamond PAU Rate Limit IDs [Core]  <!-- UUID: eace0310-373f-45f3-9007-2dbf36d79cb2 -->
 
@@ -1857,7 +1941,7 @@ The maximum amount of USDC that can be transferred through CCTP by the Osero Dia
 
 The maximum amount of USDC that can be transferred to Ethereum Mainnet by the Osero Diamond PAU on Base (`LIMIT_USDC_TO_DOMAIN`, for the Ethereum Mainnet domain) is specified in the document herein.
 
-- `maxAmount`: 10,000,000 USDC
+- `maxAmount`: 25,000,000 USDC
 - `slope`: 50,000,000 USDC per day
 
 ###### A.6.1.1.7.2.6.1.2.1.1.3 - On-chain Parameters [Core]  <!-- UUID: 5b8cc141-bd99-4b69-b4de-854b4c7f5002 -->
@@ -1994,7 +2078,7 @@ The documents herein define the protocol for routine ongoing management of the O
 
 ###### A.6.1.1.7.2.6.1.2.2.1.1 - Role Hierarchies And Permissions [Core]  <!-- UUID: aae0e1ba-4ed0-4484-9187-3e53f3695ae8 -->
 
-The roles and permissions of the Diamond PAU Instance are the Liquidity Layer roles defined in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550), managed by the AccessControls contract. For the Osero Liquidity Layer, the `DEFAULT_ADMIN_ROLE` is held by the Osero SubProxy on Ethereum Mainnet and by the Osero Executor on Base, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.1.2.1 - Osero Executor](b9b01ba6-426a-4fc4-a166-73ed8e7f8882). The Configurator also holds the `DEFAULT_ADMIN_ROLE` on both the AccessControls contract and the ALM Rate Limits contract, as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c) for Ethereum Mainnet and [A.2.2.10.1.1.1.2.3.3.5 - Configurator](e5cf7362-7ea2-4a33-8373-565d56c7da67) for Base. On each network, the `CONTROLLER` role is held by the Controller contract, and the `ALLOCATOR_ROLE` by the AdministeredAgent contract, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract](0eed3609-62a2-4c5b-ae5b-4f78212252ee) for Ethereum Mainnet and [A.6.1.1.7.2.6.1.2.1.1.1.2.2.5 - AdministeredAgent Contract](2e9207c7-4fae-4bd7-a0b2-83c14e62825a) for Base. On each AdministeredAgent, the Osero Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig](1830fb80-a44b-4aaf-b72c-7c4997cb9486)) and the Core Operator Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig](f48b14c7-6dd1-4d10-b546-a604be45758c)) are registered as Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55). The Freezer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig](51460bc2-f5fb-4302-912a-ed3e6943aae0)) is registered as a Revoker on each AdministeredAgent, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
+The roles and permissions of the Diamond PAU Instance are the Liquidity Layer roles defined in [A.2.2.10.1.1.1.2.2 - Liquidity Layer Role Definitions](2ae4b91a-6900-41e8-9718-32805b956550), managed by the AccessControls contract. For the Osero Liquidity Layer, the `DEFAULT_ADMIN_ROLE` is held by the Osero SubProxy on Ethereum Mainnet and by the Osero Executor on Base, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.1.2.1 - Osero Executor](b9b01ba6-426a-4fc4-a166-73ed8e7f8882). The Configurator also holds the `DEFAULT_ADMIN_ROLE` on both the AccessControls contract and the ALM Rate Limits contract, as specified in [A.2.2.10.1.1.1.2.3.1.5 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c) for Ethereum Mainnet and [A.2.2.10.1.1.1.2.3.3.5 - Configurator](e5cf7362-7ea2-4a33-8373-565d56c7da67) for Base. On each network, the `CONTROLLER` role is held by the Controller contract, and the `ALLOCATOR_ROLE` by the AdministeredAgent contract, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.5 - AdministeredAgent Contract](0eed3609-62a2-4c5b-ae5b-4f78212252ee) for Ethereum Mainnet and [A.6.1.1.7.2.6.1.2.1.1.1.2.2.5 - AdministeredAgent Contract](2e9207c7-4fae-4bd7-a0b2-83c14e62825a) for Base. On each AdministeredAgent, the Osero Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.1 - Osero Relayer Multisig](1830fb80-a44b-4aaf-b72c-7c4997cb9486)) and the Core Operator Relayer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.2 - Core Operator Relayer Multisig](f48b14c7-6dd1-4d10-b546-a604be45758c)) are registered as Actors, as specified in [A.2.2.10.1.1.1.2.2.4 - Actor](636a39e4-5908-4fee-bae8-e0b11e0d9c55). The Freezer Multisig ([A.6.1.1.7.2.6.1.2.1.2.1.3 - Freezer Multisig](51460bc2-f5fb-4302-912a-ed3e6943aae0)) is registered as a Revoker on each AdministeredAgent, as specified in [A.2.2.10.1.1.1.2.2.5 - Revoker](cc7cb4b7-981e-44f5-a0d5-62e5b47d112e).
 
 ###### A.6.1.1.7.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 14aa9d85-4878-49b9-9cd7-d6a014bdecea -->
 
@@ -2024,6 +2108,14 @@ The Osero Liquidity Layer uses the PSM Facet ([A.2.2.10.1.1.1.2.3.1.2.16 - PSM F
 
 The Osero Liquidity Layer uses the CCTP Facet ([A.2.2.10.1.1.1.2.3.1.2.3 - CCTP Facet](ce25217f-c37d-4415-b0d6-adecab3c7855)) to transfer USDC from Ethereum Mainnet to Base.
 
+###### A.6.1.1.7.2.6.1.2.2.1.2.1.6 - Transfer Asset Facet [Core]  <!-- UUID: ad7725f9-7b9b-40b9-a721-fd03bb3406e9 -->
+
+The Osero Liquidity Layer uses the Transfer Asset Facet ([A.2.2.10.1.1.1.2.3.1.2.19 - Transfer Asset Facet](e59b91c8-05c9-47b2-a115-8a41b12de659)) to transfer USDS from the ALM Proxy to the ALM Proxy of the Test NFAT Facility Diamond PAU ([A.1.14.6.3.1.3.1.1.1.2.2 - NFAT Facility Diamond PAU](b2326892-7cd6-4752-ac35-d47e80c26992)), to fund the interest payments of the [A.2.2.10.1.1.1.4.8 - NFAT Pilot](31a31991-9ece-4b75-80f1-60e8c0b9b258), as specified in [A.2.2.10.1.1.1.4.8.6.1 - Yield Treatment Exception](d5ad0fc3-277c-4ee2-9128-3f22f320b7e0).
+
+###### A.6.1.1.7.2.6.1.2.2.1.2.1.7 - NFAT Prime Facet [Core]  <!-- UUID: 57fe3002-80f4-4c6f-98ad-7b3937913c23 -->
+
+The Osero Liquidity Layer uses the NFAT Prime Facet ([A.2.2.10.1.1.1.2.3.1.2.26 - NFAT Prime Facet](78e90576-2104-4331-ad42-f60a937a2a45)) to subscribe to, withdraw from, and collect from NFAT Facilities.
+
 ###### A.6.1.1.7.2.6.1.2.2.1.2.2 - Base Facets [Core]  <!-- UUID: aab59617-bc9c-4ef6-8d6b-13a0fa655a75 -->
 
 The Facets used by the Osero Liquidity Layer on Base are specified in the documents herein.
@@ -2038,7 +2130,7 @@ The Osero Liquidity Layer uses the ERC-4626 Facet ([A.2.2.10.1.1.1.2.3.3.2.2 - E
 
 ###### A.6.1.1.7.2.6.1.2.2.1.3 - Rate Limit Management [Core]  <!-- UUID: a0fca594-a7b9-45fa-9be1-a209d5341029 -->
 
-The rate limits of the Osero Liquidity Layer are managed as specified in [A.2.2.10.1.1.1.2.5.3 - Rate Limit Management](6f5bc654-a053-4b1f-9ada-6aa13d0a2109). The Osero-specific rate limit values are specified under the [A.6.1.1.7.2.6.1.2.1.1 - Osero Liquidity Layer Architecture](e8f3afd5-d1a8-4379-826c-2c3bcc365947) and the Instance Configuration Documents: the [A.6.1.1.7.2.6.1.4.1.1.1 - Ethereum Mainnet - SparkLend USDS Instance Configuration Document](80b9a7d4-e110-45ec-955b-ebd6d0c8aa39), the [A.6.1.1.7.2.6.1.3.1.1.1 - Ethereum Mainnet - Osero x Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](6f00b7cd-21b5-4a8b-ae29-a97669d953ed), and the [A.6.1.1.7.2.6.1.3.2.1.1 - Base - Osero x Gauntlet USDC Prime Morpho Vault V2 Instance Configuration Document](45ea09fa-1aa7-4182-a784-456bedf62eb1).
+The rate limits of the Osero Liquidity Layer are managed as specified in [A.2.2.10.1.1.1.2.5.3 - Rate Limit Management](6f5bc654-a053-4b1f-9ada-6aa13d0a2109). The Osero-specific rate limit values are specified under the [A.6.1.1.7.2.6.1.2.1.1 - Osero Liquidity Layer Architecture](e8f3afd5-d1a8-4379-826c-2c3bcc365947) and in the Rate Limits document of each Instance Configuration Document.
 
 ###### A.6.1.1.7.2.6.1.2.2.1.4 - Instance Lifecycle Management [Core]  <!-- UUID: bbbb38cb-5a0d-4f5f-9361-33ebb954e4ca -->
 
@@ -2127,12 +2219,12 @@ The current `maxAmount` and `slope` for this conduit's inflow/outflow are define
 ###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.1 - Deposit Rate Limit [Core]  <!-- UUID: cc2247bd-82cb-46af-a0eb-cf4bf253256c -->
 
 The deposit rate limit parameters are:
-- `maxAmount`: 15,000,000 USDC
-- `slope`: 10,000,000 USDC per day
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 50,000,000 USDC per day
 
 ###### A.6.1.1.7.2.6.1.3.1.1.1.2.4.1.1 - Deposit Rate Limit Default [Core]  <!-- UUID: 8b15128c-5b5e-4936-b835-eee711617d61 -->
 
-The default registered in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129) via [A.2.2.10.1.1.1.2.4.1.3.3.5 - Add Init Rate Limits Function Call](bbdf1e6a-821b-43ec-aabf-e43a3bd6e113) for this Instance's inflow `RateLimitID` ([A.6.1.1.7.2.6.1.3.1.1.1.2.3.1 - Inflow RateLimitID](25e71c76-9cc0-4e2f-bf7a-8b1a27586b9b)) is:
+The default registered in [A.2.2.10.1.1.1.2.3.1.6 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129) via [A.2.2.10.1.1.1.2.4.1.3.3.5 - Add Init Rate Limits Function Call](bbdf1e6a-821b-43ec-aabf-e43a3bd6e113) for this Instance's inflow `RateLimitID` ([A.6.1.1.7.2.6.1.3.1.1.1.2.3.1 - Inflow RateLimitID](25e71c76-9cc0-4e2f-bf7a-8b1a27586b9b)) is:
 - `maxAmount`: 5,000,000 USDC
 - `slope`: 650,000 USDC per day
 
@@ -2253,6 +2345,114 @@ The force-deallocate penalty is withdrawn from the account that authorizes a for
 
 Force-Deallocate Penalty: 0.01%
 
+###### A.6.1.1.7.2.6.1.3.1.2 - NFAT Facilities [Core]  <!-- UUID: 6cea0f0e-7681-48d1-b243-eb111d480611 -->
+
+The Ethereum Mainnet Instances of NFAT Facilities with `Active` Status are stored herein.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1 - Ethereum Mainnet - Test NFAT Facility Instance Configuration Document [Core]  <!-- UUID: 1c712262-17ff-4008-b500-1f2b5912fd90 -->
+
+The documents herein contain the Instance Configuration Document for the Test NFAT Facility Instance on Ethereum Mainnet, as required by [A.2.2.10.1.1.1.4.2 - Onboarding](e728cd9a-395b-4f1d-99bf-f45eaaa93c32). The Instance is part of the [A.2.2.10.1.1.1.4.8 - NFAT Pilot](31a31991-9ece-4b75-80f1-60e8c0b9b258).
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.1 - RRC Framework Full Implementation Coverage [Core]  <!-- UUID: be2f927d-39d3-41cf-876f-a9283b8d6544 -->
+
+**`Pending`**
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2 - Parameters [Core]  <!-- UUID: 98fce148-9496-4409-a729-da96142de5be -->
+
+The documents herein define the parameters of the Test NFAT Facility Instance of the Allocation System Primitive on Ethereum Mainnet.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 627e782e-2d20-4668-aa21-e377c74f28c4 -->
+
+The documents herein define the Instance identifiers.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.1 - Network [Core]  <!-- UUID: bb01656f-c906-4861-98af-54c53ed5b72a -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.2 - Target Protocol [Core]  <!-- UUID: eed9b0d4-750a-4f0a-bf89-c7cf98ce375e -->
+
+Test NFAT Facility
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.3 - Asset Supplied By Osero Liquidity Layer [Core]  <!-- UUID: fd853039-b748-42d1-9a97-30cb964b18ef -->
+
+USDS
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.1.4 - NFAT Identifiers [Core]  <!-- UUID: 8ca4f24f-61d1-4154-bda6-1165615b336d -->
+
+The NFAT identifiers of the Test NFAT Facility are specified in [A.1.14.6.3.1.3.1.1.1.2.1.2 - NFAT Identifiers](e4570241-cb6b-4224-acc0-5f65ab9c7386).
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.2 - Contract Addresses [Core]  <!-- UUID: 650a751e-3eec-419f-b4a5-4cab4e9f0bf8 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.2.1 - NFAT Facility Address [Core]  <!-- UUID: fca58cec-d32e-4c9a-b71a-8af4f3e705a3 -->
+
+The address of the Test NFAT Facility is specified in [A.1.14.6.3.1.3.1.1.1.2.1.1 - NFAT Facility Contract Address](f34d512c-f157-487f-b6cc-7ee8a5f49764).
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 069cc144-83cd-4c84-a1a8-92467ce56632 -->
+
+`0xdC035D45d973E3EC169d2276DDab16f1e407384F`
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 795e0c99-a67d-4558-9d70-7d857a8555b5 -->
+
+The specific Rate Limit ID(s) for this Instance are defined in the subdocuments herein.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.3.1 - Subscribe Rate Limit ID [Core]  <!-- UUID: 6f1ae060-d940-439c-8fe3-2ec36c5ee193 -->
+
+The subscribe Rate Limit ID is: `0x4f1900e2604bdf2ad80de16402ae5bb5ae9196fe59d4377629cc546cd78d6d98`.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.3.2 - Withdraw Rate Limit ID [Core]  <!-- UUID: 7730775b-1653-471a-8af2-7f68aa4333e5 -->
+
+The withdraw Rate Limit ID is: `0x3ec73e26bc851816b1ea627ba14b63765e90b7885b507ed7757fa47bb23774eb`.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.3.3 - Collect Rate Limit ID [Core]  <!-- UUID: a3075cdd-5d57-4f6f-8fa6-4b36452041f7 -->
+
+The collect Rate Limit ID is: `0x33d797249dda8ed1272964e57b594ab4b6b20d8a66cdfaa248fdbb9d32458c75`.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.4 - Rate Limits [Core]  <!-- UUID: 59d4c914-c63b-4348-afa3-32d49e1c49ed -->
+
+The `maxAmount` and `slope` for this Instance are defined in the subdocuments herein.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.1 - Subscribe Rate Limit [Core]  <!-- UUID: 768c48fe-7f35-443e-8ab4-0e5644555069 -->
+
+The subscribe rate limit has the following values for each phase of the NFAT Pilot, as specified in [A.2.2.10.1.1.1.4.8.7 - NFAT Pilot Phases](33f421ba-fe7e-4547-9491-f4ec2fb0f879):
+
+| Phase | `maxAmount` | `slope` |
+| --- | --- | --- |
+| 1 | 5,000,000 USDS | 1,000,000 USDS per day |
+| 2 | 5,000,000 USDS | 2,500,000 USDS per day |
+| 3 | 15,000,000 USDS | 10,000,000 USDS per day |
+| 4 | 25,000,000 USDS | 25,000,000 USDS per day |
+| 5 | 50,000,000 USDS | 50,000,000 USDS per day |
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.2 - Withdraw Rate Limit [Core]  <!-- UUID: 3b5c74f9-f2aa-4643-a34e-02804569d8ed -->
+
+The withdraw rate limit parameter is:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.4.3 - Collect Rate Limit [Core]  <!-- UUID: 9cdc2778-f9e4-4f3e-a1bf-03d3f5463428 -->
+
+The collect rate limit parameter is:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 5b874129-3838-452a-8bfb-935012cdff0f -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.2.5.1 - Capital Ratio Requirement [Core]  <!-- UUID: 883a2d87-b843-43c7-957c-5c07b39d5018 -->
+
+The Capital Ratio Requirement for this Instance, as specified in [A.3.2.1.1.1 - Capital Ratio Requirement](3828778e-0197-4ce9-a836-6770d04f2ea9), is 0%.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: b30f3c25-c6b6-481e-83e3-9d9fddb851fe -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer processes.
+
+###### A.6.1.1.7.2.6.1.3.1.2.1.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: f51700e5-1ca0-47e2-977c-ce0ae793a5d1 -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Osero Liquidity Layer parameters.
+
 ###### A.6.1.1.7.2.6.1.3.2 - Base Instances [Core]  <!-- UUID: fb173fd5-5e4f-42f4-a60f-d49751e4b8ee -->
 
 The Base Instances of the Osero Liquidity Layer with `Active` Status are stored herein and are organized by target protocol.
@@ -2325,8 +2525,8 @@ The current `maxAmount` and `slope` for this conduit's inflow/outflow are define
 
 The deposit rate limit parameters are:
 
-- `maxAmount`: 15,000,000 USDC
-- `slope`: 10,000,000 USDC per day
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 50,000,000 USDC per day
 
 ###### A.6.1.1.7.2.6.1.3.2.1.1.2.4.2 - Withdrawal Rate Limit [Core]  <!-- UUID: 261f9090-504c-4b60-97bf-e33668ac3183 -->
 
