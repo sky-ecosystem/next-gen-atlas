@@ -414,7 +414,7 @@ The address deploying the start-up capital is assigned `Founder Access` to the S
 
 ### A.2.2.4 - Primitive Reward Infrastructure [Section]  <!-- UUID: ef3539fe-6d92-491c-a6a5-301a7875888d -->
 
-The documents herein define the Integrator Program, the rules governing reward payments to Integrators across Sky Primitives, and the Demand Side Buffer that disburses such payments and, to the extent paid from the Demand Side Buffer, Pioneer Rewards (see [A.2.3.1.2.1.3.5 - Pioneer Rewards](33c56bad-c422-48f4-bcca-dc8794c6a0da)).
+The documents herein define the Integrator Program, the rules governing reward payments to Integrators across Sky Primitives, and the Demand Side Buffer that disburses such payments and Pioneer Rewards (see [A.2.3.1.2.1.3.5 - Pioneer Rewards](33c56bad-c422-48f4-bcca-dc8794c6a0da)) to the extent paid from the Demand Side Buffer.
 
 #### A.2.2.4.1 - Integrator Program [Core]  <!-- UUID: 37c38f07-b5a0-40df-939c-a54330ea3c7b -->
 
@@ -485,7 +485,7 @@ All Sky Primitive reward payments associated with an Integrator, including those
 
 #### A.2.2.4.3 - Demand Side Buffer [Core]  <!-- UUID: 862b6d83-f464-4125-8259-233b7de75ec4 -->
 
-The Demand Side Buffer is the account used for disbursement of Distribution Reward and Integration Boost payments and, to the extent paid from the Demand Side Buffer, Pioneer Rewards (see [A.2.3.1.2.1.3.5 - Pioneer Rewards](33c56bad-c422-48f4-bcca-dc8794c6a0da)). The Demand Side Buffer is controlled by a multisig as specified in the documents herein. The Demand Side Buffer is replenished each month through the Monthly Settlement Cycle, as specified in [A.2.4.1.2.1.1.2 - Demand Side Buffer Replenishment](e87fe248-5983-41d5-9c7a-75064a18d476). Its balance may also be topped up through an Executive Vote.
+Distribution Reward and Integration Boost payments and Pioneer Rewards (see [A.2.3.1.2.1.3.5 - Pioneer Rewards](33c56bad-c422-48f4-bcca-dc8794c6a0da)) are made either from the Demand Side Buffer or by inclusion in the amounts due to the relevant Prime Agent in the Monthly Settlement Cycle (see [A.2.4.1.2.1.3.1 - Payment Of Amounts Due To Prime Agents](1816e5eb-3cf1-427f-b831-8eeb9408887c)). Operational GovOps determines which payments are made through each. Each payment is made through only one of these routes. The Demand Side Buffer is controlled by a multisig as specified in the documents herein. The Demand Side Buffer is replenished each month through the Monthly Settlement Cycle, as specified in [A.2.4.1.2.1.1.2 - Demand Side Buffer Replenishment](e87fe248-5983-41d5-9c7a-75064a18d476). Its balance may also be topped up from the Sky Surplus Buffer through an Executive Vote.
 
 ##### A.2.2.4.3.1 - Demand Side Buffer Multisig Address [Core]  <!-- UUID: dadf97b5-1d71-42b2-9954-cd9a18d4345f -->
 
@@ -501,7 +501,7 @@ The signers of the Demand Side Buffer Multisig are three (3) addresses controlle
 
 ##### A.2.2.4.3.4 - Demand Side Buffer Multisig Usage Standards [Core]  <!-- UUID: f489f6b8-67a9-49bd-ad98-a543757214b8 -->
 
-The signers of the Demand Side Buffer Multisig must use the Multisig to disburse Distribution Reward and Integration Boost payments and, to the extent paid from the Demand Side Buffer, Pioneer Rewards, in accordance with the Atlas.
+The signers of the Demand Side Buffer Multisig must use the Multisig to disburse Distribution Reward and Integration Boost payments and Pioneer Rewards, to the extent paid from the Demand Side Buffer, in accordance with the Atlas.
 
 ##### A.2.2.4.3.5 - Demand Side Buffer Multisig Modification [Core]  <!-- UUID: 379f5e3c-3ea4-4d82-a8bb-70e8d750e157 -->
 
@@ -509,7 +509,7 @@ Operational GovOps Soter Labs can change the signers of the Demand Side Buffer M
 
 ##### A.2.2.4.3.6 - Demand Side Buffer Auxiliary Accounts [Core]  <!-- UUID: dfc22e9d-139b-498c-a3d0-408503632f77 -->
 
-Operational GovOps Soter Labs may establish auxiliary accounts on other blockchains to facilitate efficient distribution of Distribution Reward and Integration Boost payments and, to the extent paid from the Demand Side Buffer, Pioneer Rewards to recipients operating on those blockchains. Operational GovOps Soter Labs may move funds from the Demand Side Buffer Multisig to auxiliary accounts as necessary to facilitate such payments. Each auxiliary account must conform to the same standards as the Demand Side Buffer Multisig, specifically:
+Operational GovOps Soter Labs may establish auxiliary accounts on other blockchains to facilitate efficient distribution of Distribution Reward and Integration Boost payments and Pioneer Rewards, to the extent paid from the Demand Side Buffer, to recipients operating on those blockchains. Operational GovOps Soter Labs may move funds from the Demand Side Buffer Multisig to auxiliary accounts as necessary to facilitate such payments. Each auxiliary account must conform to the same standards as the Demand Side Buffer Multisig, specifically:
 
 - a minimum of three (3) signers;
 - at least two-thirds of signers are required to execute transactions; and
@@ -884,7 +884,7 @@ In the short term, usage of the Root Edit Primitive by Prime Agents will be limi
 
 ###### A.2.2.6.2.3.1 - Limitations On Usage Of Root Edit Primitive Prior To Independent Governance [Core]  <!-- UUID: 8c15762a-ea7e-4c6d-9089-60d30c219c0f -->
 
-Until a Prime Agent has [A.0.1.1.55 - Independent Governance](6e1c1d71-7f57-4842-9767-7de8f27a532a), the Root Edit Primitive will not be operational. Instead, if a Prime Agent wishes to edit its Agent Artifact, it must use the customary Atlas Edit Proposal processes specified in the Sky Core Atlas at [A.1.11.2 - Atlas Edit Weekly Cycle](14e99d92-71fc-44d9-9dbf-933bce2e1b32) or [A.1.12.2 - Atlas Edit Monthly Cycle](d2cbddd2-58ef-4311-a71d-d2c340364cb5). The process for Prime Agents to use the Atlas Edit Proposal process is further specified in [A.2.2.6.2.3.2 - Atlas Edit Proposal Process For Prime Agents](364e52eb-4529-46a9-9852-edaaab88baeb).
+Until a Prime Agent has [A.0.1.1.57 - Independent Governance](6e1c1d71-7f57-4842-9767-7de8f27a532a), the Root Edit Primitive will not be operational. Instead, if a Prime Agent wishes to edit its Agent Artifact, it must use the customary Atlas Edit Proposal processes specified in the Sky Core Atlas at [A.1.11.2 - Atlas Edit Weekly Cycle](14e99d92-71fc-44d9-9dbf-933bce2e1b32) or [A.1.12.2 - Atlas Edit Monthly Cycle](d2cbddd2-58ef-4311-a71d-d2c340364cb5). The process for Prime Agents to use the Atlas Edit Proposal process is further specified in [A.2.2.6.2.3.2 - Atlas Edit Proposal Process For Prime Agents](364e52eb-4529-46a9-9852-edaaab88baeb).
 
 ###### A.2.2.6.2.3.2 - Atlas Edit Proposal Process For Prime Agents [Core]  <!-- UUID: 364e52eb-4529-46a9-9852-edaaab88baeb -->
 
@@ -1143,7 +1143,7 @@ The documents herein define the treasury management process.
 
 ###### A.2.2.9.1.2.1.3.3.1 - Near-Term Process [Core]  <!-- UUID: 05fb732b-de55-4886-81a7-7c5d4c13d2d2 -->
 
-In the near term, Operational GovOps calculates the Distribution Reward. The Distribution Reward is paid from the Demand Side Buffer (see [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) within seven (7) days of the end of every month.
+In the near term, Operational GovOps calculates the Distribution Reward. The Distribution Reward is paid from the Demand Side Buffer or through the Monthly Settlement Cycle, as specified in [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4). Distribution Reward payments made from the Demand Side Buffer are made within seven (7) days of the end of every month.
 
 ###### A.2.2.9.1.2.1.3.3.2 - Long Term Process [Core]  <!-- UUID: 07953e87-c201-4ad5-9c1e-b32efc5fba94 -->
 
@@ -2158,7 +2158,7 @@ The documents herein define the treasury management process.
 
 ###### A.2.2.9.2.2.1.3.2.1 - Near Term Process [Core]  <!-- UUID: 4ab621b4-ef8e-4b01-a6aa-9296601033c5 -->
 
-In the short term, Integration Boost payments are made from the Demand Side Buffer (see [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)).
+In the short term, Integration Boost payments are made from the Demand Side Buffer or through the Monthly Settlement Cycle, as specified in [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4).
 
 ###### A.2.2.9.2.2.1.3.2.2 - Long Term Process [Core]  <!-- UUID: 787276c9-728b-491f-84d6-c1303fe72986 -->
 
@@ -3125,7 +3125,7 @@ For purposes of [A.2.2.9.3.1.3 - Pioneer Prime Benefits](f0d5ab5e-bf35-4a9d-a73f
 
 ###### A.2.2.9.3.1.4 - Pioneer Incentive Pool [Core]  <!-- UUID: 04edac33-19d5-4a87-a8ab-945a0cd57771 -->
 
-All Pioneer Incentive payments are paid through the Monthly Settlement Cycle. Each Monthly Settlement Cycle, an amount of funds equivalent to the Sky Savings Rate multiplied by the balance of Unrewarded USDS is paid into a separate account controlled by the Pioneer Prime (the "Pioneer Incentive Pool"). The Pioneer Prime retains one hundred percent (100%) of the funds in the Pioneer Incentive Pool.
+Pioneer Incentive payments are made as specified in [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4). Each month, an amount of funds equivalent to the Sky Savings Rate multiplied by the balance of Unrewarded USDS is paid into a separate account controlled by the Pioneer Prime (the "Pioneer Incentive Pool"), whichever route is used. The Pioneer Prime retains one hundred percent (100%) of the funds in the Pioneer Incentive Pool.
 
 ###### A.2.2.9.3.1.4.1 - Pre-Pioneer Incentive Pool [Core]  <!-- UUID: 15e14f25-8d56-4699-ac37-0cef4f0503c5 -->
 
@@ -3318,7 +3318,7 @@ The Beacon (`Beacon`) is the registry that whitelists the Facets approved for us
 
 ###### A.2.2.10.1.1.1.2.3.1.2 - Facets [Core]  <!-- UUID: b7c73a0c-456d-4e75-93ac-8eec185ece31 -->
 
-The documents herein define the Facets currently approved on the Beacon for use by Diamond PAU Instances on Ethereum Mainnet. Each Facet is shared across all such Instances. The set of approved Facets is maintained by Sky Governance.
+The documents herein define the Facets approved, or to be approved, on the Beacon for use by Diamond PAU Instances on Ethereum Mainnet. Each Facet is shared across all such Instances. The set of approved Facets is maintained by Sky Governance.
 
 Each Facet's subdocuments include its highest production rate limit: the highest `maxAmount` and `slope` any Diamond PAU Instance has operated at in production for that Facet. This is a historical limit, not any Instance's currently configured rate limit. It documents a Facet's operational track record, as precedent when evaluating a new Instance's proposed rate limits for that Facet.
 
@@ -3391,8 +3391,8 @@ The ERC-4626 Facet (`ERC4626Facet`) deposits, withdraws, and redeems against any
 The ERC-4626 Facet's highest production rate limit is:
 
 - Deposit
-    - `maxAmount`: 12,441,600 USDC
-    - `slope`: 2,329,067 USDC per day
+    - `maxAmount`: 15,000,000 USDC
+    - `slope`: 10,000,000 USDC per day
 - Withdraw
     - `maxAmount`: Unlimited
 
@@ -3561,31 +3561,51 @@ The wstETH Facet (`WSTETHFacet`) converts WETH to ETH to wstETH (Lido) and handl
 
 Further details will be specified in a future iteration of the Atlas.
 
+###### A.2.2.10.1.1.1.2.3.1.2.26 - NFAT Prime Facet [Core]  <!-- UUID: 78e90576-2104-4331-ad42-f60a937a2a45 -->
+
+The NFAT Prime Facet (`NFATPrimeFacet`) subscribes an asset held by the ALM Proxy to an NFAT Facility, withdraws unissued deposits, and collects repayments on NFATs that the ALM Proxy holds. Its address on Ethereum Mainnet is `0x74d139d6e730F29D62F2Acc6A3b59dF2f2d6D9A8`.
+
+###### A.2.2.10.1.1.1.2.3.1.2.26.1 - Highest Production Rate Limit For NFAT Prime Facet [Core]  <!-- UUID: 4c62875c-61f6-490e-b58e-caf47e5c286f -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.27 - NFAT Halo Facet [Core]  <!-- UUID: cf231b22-ce7f-4719-b592-6c539c63cb22 -->
+
+The NFAT Halo Facet (`NFATHaloFacet`) issues NFATs from an NFAT Facility, drawing their principal into the ALM Proxy, and repays principal and interest on those NFATs to the NFAT Facility. Its address on Ethereum Mainnet is `0xFB0b4Ff6507d57a0ac7BD10b53C1F2De827F87C1`.
+
+###### A.2.2.10.1.1.1.2.3.1.2.27.1 - Highest Production Rate Limit For NFAT Halo Facet [Core]  <!-- UUID: b5b54c8e-1edb-4deb-963e-713468a60635 -->
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.2.3.1.2.28 - Swap Asset Facet [Core]  <!-- UUID: 768c5e08-f749-41ac-b96a-a67bb87cd90d -->
+
+The Swap Asset Facet (`SwapAssetFacet`) swaps one asset for another between the ALM Proxies of two Diamond PAUs, at a one for one rate adjusted for token decimals, with a Rate Limit on each side of the swap. Its address on Ethereum Mainnet is `0xdEF461199cAd81c65AbA3Ab406743fC40c68C5B6`. The Swap Asset Facet will be approved on the Beacon in a future Executive Vote.
+
+###### A.2.2.10.1.1.1.2.3.1.2.28.1 - Highest Production Rate Limit For Swap Asset Facet [Core]  <!-- UUID: 5555f221-a8c2-426e-89bc-454f5fcd0765 -->
+
+Further details will be specified in a future iteration of the Atlas.
+
 ###### A.2.2.10.1.1.1.2.3.1.3 - PAU Factory [Core]  <!-- UUID: cc980032-b7e4-41c5-ac4d-2f99f89f51dc -->
 
-The PAU Factory (`PAUFactory`) is the contract that deploys new Diamond PAU Instances. Its address on Ethereum Mainnet is `0x69A5d548830AC2A4Ba90A44a2C75BDA71f97fc66`.
+The PAU Factory (`PAUFactory`) is the contract that deploys new Diamond PAU Instances. Its address on Ethereum Mainnet is `0x2ABf3A4d45Ad58c6e44897e117b4A173DfD76317`.
 
-###### A.2.2.10.1.1.1.2.3.1.4 - PAU Assembler [Core]  <!-- UUID: 8772a459-55ea-4387-889d-08fb01ad40d4 -->
+###### A.2.2.10.1.1.1.2.3.1.4 - Administered Agent Factory [Core]  <!-- UUID: 833a0750-ff91-4fdc-95a8-af77df301dbc -->
 
-The PAU Assembler (`DefaultPAUAssembler`) is the contract that assembles a Diamond PAU Instance from its Beacon-approved Facets at deployment. Its address on Ethereum Mainnet is `0xc812aAD3FaE2D3511C664374B601a9BeBFeCCa2E`.
+The Administered Agent Factory (`AdministeredAgentFactory`) is the contract that deploys the `AdministeredAgent` contracts that hold the Allocator Role on the Controller of a Diamond PAU Instance, with the Prime Agent's Relayer system registered as their Actors. Its address on Ethereum Mainnet is `0x73EE3d0398BaF9ef5731Eb35ea7BFa7B741067b4`.
 
-###### A.2.2.10.1.1.1.2.3.1.5 - Administered Agent Factory [Core]  <!-- UUID: 833a0750-ff91-4fdc-95a8-af77df301dbc -->
-
-The Administered Agent Factory (`AdministeredAgentFactory`) is the contract that deploys the `AdministeredAgent` contracts that hold the Allocator Role on the Controller of a Diamond PAU Instance, with the Prime Agent's Relayer system registered as their Actors. Its address on Ethereum Mainnet is `0x2968c3b5478cF93B70aB1e24255d4EDBBd27a089`.
-
-###### A.2.2.10.1.1.1.2.3.1.6 - Configurator [Core]  <!-- UUID: 5e1f82c7-bcd6-46f8-aec0-3e767e55a93c -->
+###### A.2.2.10.1.1.1.2.3.1.5 - Configurator [Core]  <!-- UUID: 5e1f82c7-bcd6-46f8-aec0-3e767e55a93c -->
 
 The Configurator (`PAS_CONFIGURATOR`) is the contract through which cBEAMs operate Diamond PAUs' rate limits and enabled controller actions, within the bounds, as specified in [A.2.2.10.1.1.1.2.4.1.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4), and once registered and paired, as specified in [A.2.2.10.1.1.1.2.4.1.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d). Its address on Ethereum Mainnet is `0xb7E61Df6CAb0A51E9A5dab1A7DD3f942dDe5b929`.
 
-###### A.2.2.10.1.1.1.2.3.1.7 - BeamState [Core]  <!-- UUID: 2e36bb4f-91db-4dca-bdb1-e4aa385b1129 -->
+###### A.2.2.10.1.1.1.2.3.1.6 - BeamState [Core]  <!-- UUID: 2e36bb4f-91db-4dca-bdb1-e4aa385b1129 -->
 
 The BeamState (`PAS_STATE`) is the contract that records which cBEAMs, `RateLimits` contracts, and Controllers are registered, as specified in [A.2.2.10.1.1.1.2.4.1.4 - Configurator](45840a10-6c7c-453a-8218-4ab4d705012d), and holds the bounds within which rate limits and controller actions may be adjusted, as specified in [A.2.2.10.1.1.1.2.4.1.3 - BeamState](2091d01d-461a-4a02-9e82-986cc51960d4). Its address on Ethereum Mainnet is `0x1A1879E66547F90bfF87D45A5b0335950E019E02`.
 
-###### A.2.2.10.1.1.1.2.3.1.8 - Timelock [Core]  <!-- UUID: f6791cf7-f3aa-49da-9691-73e480bf3328 -->
+###### A.2.2.10.1.1.1.2.3.1.7 - Timelock [Core]  <!-- UUID: f6791cf7-f3aa-49da-9691-73e480bf3328 -->
 
 The Timelock (`PAS_TIMELOCK`) is the contract that delays certain changes to BeamState's registries and bounds before they take effect, as specified in [A.2.2.10.1.1.1.2.4.1.3.3 - Delayed Function Calls](4a388764-7469-4efb-84f0-6b91278428fb), and also delays restarting Configurator operations after a halt, as specified in [A.2.2.10.1.1.1.2.4.1.3.5 - Restart After Halt](e049feea-5af3-4a8d-8766-36e348fd5d7b). Its own operational details, including its roles and their holders, are specified in [A.2.2.10.1.1.1.2.4.1.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103). Its address on Ethereum Mainnet is `0xB50a06Af02dDE44dB6EA7ee729403848c2B35293`.
 
-###### A.2.2.10.1.1.1.2.3.1.9 - PASMom [Core]  <!-- UUID: 781172a1-e2b2-4c7b-852a-3f8e89fec8ca -->
+###### A.2.2.10.1.1.1.2.3.1.8 - PASMom [Core]  <!-- UUID: 781172a1-e2b2-4c7b-852a-3f8e89fec8ca -->
 
 The PASMom (`PAS_MOM`) is the contract that lets Sky Governance bypass the GSM Pause Delay to halt Configurator operations or pause the Timelock in an emergency, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71) and [A.2.2.10.1.1.1.2.4.1.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8). Its address on Ethereum Mainnet is `0xD44B8d01D5207aA792C666d0A712A1A161CD6171`.
 
@@ -3611,19 +3631,19 @@ The PAU Factory's role is as specified in [A.2.2.10.1.1.1.2.3.1.3 - PAU Factory]
 
 ###### A.2.2.10.1.1.1.2.3.2.4 - Administered Agent Factory [Core]  <!-- UUID: 8db42e70-ed35-4628-94ec-614482582b2d -->
 
-The Administered Agent Factory's role is as specified in [A.2.2.10.1.1.1.2.3.1.5 - Administered Agent Factory](833a0750-ff91-4fdc-95a8-af77df301dbc). Its address on Arbitrum is `0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d`.
+The Administered Agent Factory's role is as specified in [A.2.2.10.1.1.1.2.3.1.4 - Administered Agent Factory](833a0750-ff91-4fdc-95a8-af77df301dbc). Its address on Arbitrum is `0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d`.
 
 ###### A.2.2.10.1.1.1.2.3.2.5 - Configurator [Core]  <!-- UUID: 34423259-8fc5-4761-af8b-734332d2ada5 -->
 
-The Configurator's role is as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c); its operation on Arbitrum is as specified in [A.2.2.10.1.1.1.2.4.2.4 - Configurator](dd6636c1-7c57-4e72-8828-8bc436911460) instead. Its address on Arbitrum is `0xd11Dc57F3eF23bb7b3142588a461F68460a7C474`.
+The Configurator's role is as specified in [A.2.2.10.1.1.1.2.3.1.5 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c); its operation on Arbitrum is as specified in [A.2.2.10.1.1.1.2.4.2.4 - Configurator](dd6636c1-7c57-4e72-8828-8bc436911460) instead. Its address on Arbitrum is `0xd11Dc57F3eF23bb7b3142588a461F68460a7C474`.
 
 ###### A.2.2.10.1.1.1.2.3.2.6 - BeamState [Core]  <!-- UUID: 1e0bce04-7924-4d12-889f-cb7a17451a90 -->
 
-The BeamState's role is as specified in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129); its rules on Arbitrum are as specified in [A.2.2.10.1.1.1.2.4.2.3 - BeamState](a5c61288-2ff6-4241-b2b2-2a78ac8b47ba) instead. Its address on Arbitrum is `0x11CFefeA67B18de9046a6250555D438854fFEEDa`.
+The BeamState's role is as specified in [A.2.2.10.1.1.1.2.3.1.6 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129); its rules on Arbitrum are as specified in [A.2.2.10.1.1.1.2.4.2.3 - BeamState](a5c61288-2ff6-4241-b2b2-2a78ac8b47ba) instead. Its address on Arbitrum is `0x11CFefeA67B18de9046a6250555D438854fFEEDa`.
 
 ###### A.2.2.10.1.1.1.2.3.2.7 - Timelock [Core]  <!-- UUID: c0642bfe-493c-489d-9f9f-9171dbb99d99 -->
 
-The Timelock's role is as specified in [A.2.2.10.1.1.1.2.3.1.8 - Timelock](f6791cf7-f3aa-49da-9691-73e480bf3328); its roles and their holders on Arbitrum are as specified in [A.2.2.10.1.1.1.2.4.2.3.2 - Timelock](4d5c2636-e5f6-4ac6-a5e6-9212aed5d825) instead. Its address on Arbitrum is `0x66d3653e66F7edb973549CFA3b46F22298B8f983`.
+The Timelock's role is as specified in [A.2.2.10.1.1.1.2.3.1.7 - Timelock](f6791cf7-f3aa-49da-9691-73e480bf3328); its roles and their holders on Arbitrum are as specified in [A.2.2.10.1.1.1.2.4.2.3.2 - Timelock](4d5c2636-e5f6-4ac6-a5e6-9212aed5d825) instead. Its address on Arbitrum is `0x66d3653e66F7edb973549CFA3b46F22298B8f983`.
 
 ###### A.2.2.10.1.1.1.2.3.3 - Base [Core]  <!-- UUID: d3fc5cd9-6aca-439a-847a-a440ee6bb2ba -->
 
@@ -3651,19 +3671,19 @@ The PAU Factory's role is as specified in [A.2.2.10.1.1.1.2.3.1.3 - PAU Factory]
 
 ###### A.2.2.10.1.1.1.2.3.3.4 - Administered Agent Factory [Core]  <!-- UUID: 102b7264-c4ae-4f36-ad22-bbfc11707e92 -->
 
-The Administered Agent Factory's role is as specified in [A.2.2.10.1.1.1.2.3.1.5 - Administered Agent Factory](833a0750-ff91-4fdc-95a8-af77df301dbc). Its address on Base is `0xD711DbfD937a45e2C89CA0D4781cfa5BAb32e752`.
+The Administered Agent Factory's role is as specified in [A.2.2.10.1.1.1.2.3.1.4 - Administered Agent Factory](833a0750-ff91-4fdc-95a8-af77df301dbc). Its address on Base is `0xD711DbfD937a45e2C89CA0D4781cfa5BAb32e752`.
 
 ###### A.2.2.10.1.1.1.2.3.3.5 - Configurator [Core]  <!-- UUID: e5cf7362-7ea2-4a33-8373-565d56c7da67 -->
 
-The Configurator's role is as specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c); its operation on Base is as specified in [A.2.2.10.1.1.1.2.4.3.4 - Configurator](b8929202-92c3-4bbb-89c4-7dc73e557105) instead. Its address on Base is `0x458Acd38fD749F6325039e63e8Bc496dBc286D11`.
+The Configurator's role is as specified in [A.2.2.10.1.1.1.2.3.1.5 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c); its operation on Base is as specified in [A.2.2.10.1.1.1.2.4.3.4 - Configurator](b8929202-92c3-4bbb-89c4-7dc73e557105) instead. Its address on Base is `0x458Acd38fD749F6325039e63e8Bc496dBc286D11`.
 
 ###### A.2.2.10.1.1.1.2.3.3.6 - BeamState [Core]  <!-- UUID: ee66bdd5-5344-41e6-8063-c899d22e7f42 -->
 
-The BeamState's role is as specified in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129); its rules on Base are as specified in [A.2.2.10.1.1.1.2.4.3.3 - BeamState](36e7a9f1-1561-47b7-9478-e68c8c0a2d5a) instead. Its address on Base is `0x29840a8519013F483d94781b5C1671b552A109e1`.
+The BeamState's role is as specified in [A.2.2.10.1.1.1.2.3.1.6 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129); its rules on Base are as specified in [A.2.2.10.1.1.1.2.4.3.3 - BeamState](36e7a9f1-1561-47b7-9478-e68c8c0a2d5a) instead. Its address on Base is `0x29840a8519013F483d94781b5C1671b552A109e1`.
 
 ###### A.2.2.10.1.1.1.2.3.3.7 - Timelock [Core]  <!-- UUID: 72b0384e-0151-44f8-bd0f-c5d90d0fb037 -->
 
-The Timelock's role is as specified in [A.2.2.10.1.1.1.2.3.1.8 - Timelock](f6791cf7-f3aa-49da-9691-73e480bf3328); its roles and their holders on Base are as specified in [A.2.2.10.1.1.1.2.4.3.3.2 - Timelock](f890a7c2-17c0-4db4-9f73-f7c078a1061f) instead. Its address on Base is `0x2ACADc011b4fc13072F92231D1216c16deac5188`.
+The Timelock's role is as specified in [A.2.2.10.1.1.1.2.3.1.7 - Timelock](f6791cf7-f3aa-49da-9691-73e480bf3328); its roles and their holders on Base are as specified in [A.2.2.10.1.1.1.2.4.3.3.2 - Timelock](f890a7c2-17c0-4db4-9f73-f7c078a1061f) instead. Its address on Base is `0x2ACADc011b4fc13072F92231D1216c16deac5188`.
 
 ###### A.2.2.10.1.1.1.2.4 - PAS [Core]  <!-- UUID: 989171ed-5424-42ee-83f4-199e1149699c -->
 
@@ -3743,9 +3763,23 @@ The Configurator is granted `DEFAULT_ADMIN_ROLE` on the Osero Diamond PAU `Acces
 - `hop`: as specified in [A.2.2.10.1.1.1.2.4.1.1.1.2 - Hop Default Value](f86fe54a-9770-41ad-8ad2-7c58090224ce)
 - `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.1.1.2.2 - Max Change Default Value](0414677e-d79e-4d84-b0aa-209f0fa3ffe3)
 
+###### A.2.2.10.1.1.1.2.4.1.2.3 - Test NFAT Facility Diamond PAU [Core]  <!-- UUID: f61cfbba-2d0a-4c61-ae25-0bfc8ccd38da -->
+
+The Configurator is granted `DEFAULT_ADMIN_ROLE` on the Test NFAT Facility Diamond PAU `AccessControls` and `RateLimits` contracts. The Test NFAT Facility Diamond PAU `RateLimits` contract is paired to the Operator specified in [A.2.2.10.1.1.1.2.4.1.4.3.3 - Operator For The Test NFAT Facility Diamond PAU](86f5b102-1029-4980-91f2-dbfc5bf8d2ae). The bounds within which cBEAMs may adjust rate limits on the Test NFAT Facility Diamond PAU `RateLimits` are:
+
+- `hop`: as specified in [A.2.2.10.1.1.1.2.4.1.1.1.2 - Hop Default Value](f86fe54a-9770-41ad-8ad2-7c58090224ce)
+- `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.1.1.2.2 - Max Change Default Value](0414677e-d79e-4d84-b0aa-209f0fa3ffe3)
+
+###### A.2.2.10.1.1.1.2.4.1.2.4 - Spark Diamond PAU [Core]  <!-- UUID: d4f794f0-667c-4d44-ae21-9e28854877ad -->
+
+The Configurator will be granted `DEFAULT_ADMIN_ROLE` on the Spark Diamond PAU `AccessControls` and `RateLimits` contracts in a future Executive Vote. The Spark Diamond PAU `RateLimits` contract will be paired to the Operator specified in [A.2.2.10.1.1.1.2.4.1.4.3.4 - Operator For The Spark Diamond PAU](1e9b4e92-8097-4383-ae54-a7f22f4a114b). The bounds within which cBEAMs may adjust rate limits on the Spark Diamond PAU `RateLimits` are:
+
+- `hop`: will be specified in a future iteration of the Atlas
+- `maxChange`: will be specified in a future iteration of the Atlas
+
 ###### A.2.2.10.1.1.1.2.4.1.3 - BeamState [Core]  <!-- UUID: 2091d01d-461a-4a02-9e82-986cc51960d4 -->
 
-BeamState holds the registries and bounds that govern the PAS: which `RateLimits` contracts, Controllers, and cBEAMs are registered, and how far rate limits may be adjusted in a single step. The documents herein define the Core Council Multisig that may change BeamState's rules, the Timelock that delays certain changes, the delayed and immediate processes for making them, how Configurator operations are halted and restarted, and PASMom's independent power to halt or pause the system. Its address is specified in [A.2.2.10.1.1.1.2.3.1.7 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129).
+BeamState holds the registries and bounds that govern the PAS: which `RateLimits` contracts, Controllers, and cBEAMs are registered, and how far rate limits may be adjusted in a single step. The documents herein define the Core Council Multisig that may change BeamState's rules, the Timelock that delays certain changes, the delayed and immediate processes for making them, how Configurator operations are halted and restarted, and PASMom's independent power to halt or pause the system. Its address is specified in [A.2.2.10.1.1.1.2.3.1.6 - BeamState](2e36bb4f-91db-4dca-bdb1-e4aa385b1129).
 
 ###### A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig [Core]  <!-- UUID: 666cf6b3-6d7a-40f7-99fb-b6e2e4375754 -->
 
@@ -3784,7 +3818,7 @@ These requirements apply on every network on which the Core Council Multisig is 
 
 The Timelock gates delayed changes to BeamState's registries and bounds: the Core Council Multisig proposes and can cancel a change, as specified in [A.2.2.10.1.1.1.2.4.1.3.1 - Core Council Multisig](666cf6b3-6d7a-40f7-99fb-b6e2e4375754), and once the minimum delay has passed, any address may execute it, since the Timelock's `EXECUTOR_ROLE` is granted to `address(0)`, making execution permissionless. Proposing, canceling, and executing are all blocked while the Timelock is paused; only unpausing restores them. The minimum delay is fourteen (14) days.
 
-The Timelock's `PROPOSER_ROLE` and `CANCELLER_ROLE` are held by the Core Council Multisig. Its `PAUSER_ROLE`, which can pause the Timelock, is held by PASMom, as specified in [A.2.2.10.1.1.1.2.4.1.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8). The Timelock's `DEFAULT_ADMIN_ROLE`, which can grant and revoke its other roles and change its minimum delay, is held by the Sky Pause Proxy. Its address is specified in [A.2.2.10.1.1.1.2.3.1.8 - Timelock](f6791cf7-f3aa-49da-9691-73e480bf3328).
+The Timelock's `PROPOSER_ROLE` and `CANCELLER_ROLE` are held by the Core Council Multisig. Its `PAUSER_ROLE`, which can pause the Timelock, is held by PASMom, as specified in [A.2.2.10.1.1.1.2.4.1.3.6 - PASMom](88e11076-5fe1-42a5-b2ba-bdb1bc929ec8). The Timelock's `DEFAULT_ADMIN_ROLE`, which can grant and revoke its other roles and change its minimum delay, is held by the Sky Pause Proxy. Its address is specified in [A.2.2.10.1.1.1.2.3.1.7 - Timelock](f6791cf7-f3aa-49da-9691-73e480bf3328).
 
 ###### A.2.2.10.1.1.1.2.4.1.3.3 - Delayed Function Calls [Core]  <!-- UUID: 4a388764-7469-4efb-84f0-6b91278428fb -->
 
@@ -3874,11 +3908,11 @@ Unpausing the Timelock does not route through this minimum delay, since it is ga
 
 ###### A.2.2.10.1.1.1.2.4.1.3.6 - PASMom [Core]  <!-- UUID: 88e11076-5fe1-42a5-b2ba-bdb1bc929ec8 -->
 
-PASMom is a ward on BeamState and holds the Timelock's `PAUSER_ROLE`, as specified in [A.2.2.10.1.1.1.2.4.1.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103). Through these, Sky Governance can independently halt Configurator operations or pause the Timelock, bypassing the GSM Pause Delay, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71). Its address is specified in [A.2.2.10.1.1.1.2.3.1.9 - PASMom](781172a1-e2b2-4c7b-852a-3f8e89fec8ca).
+PASMom is a ward on BeamState and holds the Timelock's `PAUSER_ROLE`, as specified in [A.2.2.10.1.1.1.2.4.1.3.2 - Timelock](a824d088-be58-4163-b382-54a95a728103). Through these, Sky Governance can independently halt Configurator operations or pause the Timelock, bypassing the GSM Pause Delay, as specified in [A.1.10.3.2.13 - PASMom Exception](2171fb2b-de83-44f2-92bf-26b59a1e8c71). Its address is specified in [A.2.2.10.1.1.1.2.3.1.8 - PASMom](781172a1-e2b2-4c7b-852a-3f8e89fec8ca).
 
 ###### A.2.2.10.1.1.1.2.4.1.4 - Configurator [Core]  <!-- UUID: 45840a10-6c7c-453a-8218-4ab4d705012d -->
 
-The Configurator is the contract through which a cBEAM (Configurator Bounded External Access Module) adjusts rate limits or executes enabled controller actions, within the bounds the Configurator enforces, once registered and paired to a specific Diamond PAU `RateLimits` contract or Controller. A cBEAM is an Operator of the PAS. The same cBEAM may be paired to more than one `RateLimits` contract or Controller. Its address is specified in [A.2.2.10.1.1.1.2.3.1.6 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
+The Configurator is the contract through which a cBEAM (Configurator Bounded External Access Module) adjusts rate limits or executes enabled controller actions, within the bounds the Configurator enforces, once registered and paired to a specific Diamond PAU `RateLimits` contract or Controller. A cBEAM is an Operator of the PAS. The same cBEAM may be paired to more than one `RateLimits` contract or Controller. Its address is specified in [A.2.2.10.1.1.1.2.3.1.5 - Configurator](5e1f82c7-bcd6-46f8-aec0-3e767e55a93c).
 
 Removing an Operator's registration does not itself unpair it from any `RateLimits` contract or Controller it already holds, as specified in [A.2.2.10.1.1.1.2.4.1.3.4.5 - Del cBEAM Function Call](03280c06-8cab-47e0-acb7-9c7a30a5bf6a).
 
@@ -3948,6 +3982,54 @@ The signers of the Osero Operator Multisig must use the multisig to operate the 
 
 Operational GovOps Soter Labs can change the signers of the Osero Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
 
+###### A.2.2.10.1.1.1.2.4.1.4.3.3 - Operator For The Test NFAT Facility Diamond PAU [Core]  <!-- UUID: 86f5b102-1029-4980-91f2-dbfc5bf8d2ae -->
+
+The Test NFAT Facility Diamond PAU's Operator, the cBEAM authorized to adjust the Diamond PAU's rate limits through the Configurator, is the Test NFAT Facility Operator Multisig, as specified in the documents herein.
+
+###### A.2.2.10.1.1.1.2.4.1.4.3.3.1 - Test NFAT Facility Operator Multisig Address [Core]  <!-- UUID: 6ec36c2a-ac2e-40f8-8731-1c1d46bfbc87 -->
+
+The address of the Test NFAT Facility Operator Multisig on the Ethereum Mainnet is `0x5913E9E1E5833Fd942957b094eBbA55743ccf95E`.
+
+###### A.2.2.10.1.1.1.2.4.1.4.3.3.2 - Test NFAT Facility Operator Multisig Required Number Of Signers [Core]  <!-- UUID: 2772ee0e-fd31-4973-bd03-0666dc59c862 -->
+
+The Test NFAT Facility Operator Multisig's required number of signers is two (2) out of three (3).
+
+###### A.2.2.10.1.1.1.2.4.1.4.3.3.3 - Test NFAT Facility Operator Multisig Signers [Core]  <!-- UUID: 991c4ec1-f37c-425f-aae7-def941c80880 -->
+
+The signers of the Test NFAT Facility Operator Multisig are controlled by Operational GovOps Soter Labs.
+
+###### A.2.2.10.1.1.1.2.4.1.4.3.3.4 - Test NFAT Facility Operator Multisig Usage Standards [Core]  <!-- UUID: dbe35ed4-1c2d-4479-802a-98e4038a810a -->
+
+The signers of the Test NFAT Facility Operator Multisig must use the multisig to operate the Configurator in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960) and [A.2.2.10.1.1.1.2.4.1.4.2 - Public Communication](e1a96b57-9c5e-469f-b7ac-5dac028eb726).
+
+###### A.2.2.10.1.1.1.2.4.1.4.3.3.5 - Test NFAT Facility Operator Multisig Modification [Core]  <!-- UUID: 37c95ecd-8737-4f44-910a-51a0e84acb58 -->
+
+Operational GovOps Soter Labs can change the signers of the Test NFAT Facility Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
+
+###### A.2.2.10.1.1.1.2.4.1.4.3.4 - Operator For The Spark Diamond PAU [Core]  <!-- UUID: 1e9b4e92-8097-4383-ae54-a7f22f4a114b -->
+
+The Spark Diamond PAU's Operator, the cBEAM authorized to adjust the Diamond PAU's rate limits through the Configurator, will be the Spark Operator Multisig, as specified in the documents herein. The Spark Operator Multisig will be registered as an Operator with the Configurator in a future Executive Vote.
+
+###### A.2.2.10.1.1.1.2.4.1.4.3.4.1 - Spark Operator Multisig Address [Core]  <!-- UUID: d957d6d2-71d3-4b10-a702-78ed11bff739 -->
+
+The address of the Spark Operator Multisig on the Ethereum Mainnet is `0x492aae70E59551768BAF3c7159d3f951B6ed76Fe`.
+
+###### A.2.2.10.1.1.1.2.4.1.4.3.4.2 - Spark Operator Multisig Required Number Of Signers [Core]  <!-- UUID: 6246d43d-a4d3-4593-b5e7-2dc89d2c21c8 -->
+
+The Spark Operator Multisig's required number of signers is two (2) out of three (3).
+
+###### A.2.2.10.1.1.1.2.4.1.4.3.4.3 - Spark Operator Multisig Signers [Core]  <!-- UUID: 2621a25a-6199-44a1-98bc-7175b2746a64 -->
+
+The signers of the Spark Operator Multisig are controlled by Operational GovOps Soter Labs.
+
+###### A.2.2.10.1.1.1.2.4.1.4.3.4.4 - Spark Operator Multisig Usage Standards [Core]  <!-- UUID: d4d804c1-0c5a-40fc-a948-3250d90015c9 -->
+
+The signers of the Spark Operator Multisig must use the multisig to operate the Configurator in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.1.4.1 - Operator Execution](7a98000b-c069-42f3-b1a4-8a3e7323a960) and [A.2.2.10.1.1.1.2.4.1.4.2 - Public Communication](e1a96b57-9c5e-469f-b7ac-5dac028eb726).
+
+###### A.2.2.10.1.1.1.2.4.1.4.3.4.5 - Spark Operator Multisig Modification [Core]  <!-- UUID: b2504704-b869-4573-9c99-a394e7fdb614 -->
+
+Operational GovOps Soter Labs can change the signers of the Spark Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
+
 ###### A.2.2.10.1.1.1.2.4.1.4.4 - Registered Controllers [Core]  <!-- UUID: 301e33b9-545f-4150-a14b-b0775096c2ea -->
 
 The Controllers registered to the Configurator, and the controller actions enabled for each, are defined in the subdocuments herein.
@@ -3959,6 +4041,18 @@ The Controller for the Grove Diamond PAU, as specified in [A.6.1.1.2.2.6.1.2.1.1
 ###### A.2.2.10.1.1.1.2.4.1.4.4.2 - Controller For The Osero Diamond PAU [Core]  <!-- UUID: ee79ef13-d1ae-4fc7-9784-a5293c57bfe9 -->
 
 The Controller for the Osero Diamond PAU, as specified in [A.6.1.1.7.2.6.1.2.1.1.1.2.1.2 - Controller Contract](8e1d584f-6368-493d-a6c5-c5068250b63a), is registered with the Configurator. No controller actions have been enabled for it.
+
+###### A.2.2.10.1.1.1.2.4.1.4.4.3 - Controller For The Test NFAT Facility Diamond PAU [Core]  <!-- UUID: 2bc1359e-07bd-4b6c-ab53-3f2ffeb6626b -->
+
+The Controller for the Test NFAT Facility Diamond PAU, as specified in [A.1.14.6.3.1.3.1.1.1.2.2 - NFAT Facility Diamond PAU](b2326892-7cd6-4752-ac35-d47e80c26992), will be registered with the Configurator in the December 3, 2026 Executive Vote. No controller actions will be enabled for it.
+
+###### A.2.2.10.1.1.1.2.4.1.4.4.4 - Controller For The Spark Diamond PAU [Core]  <!-- UUID: a5fc25de-7dca-4296-8afe-0db97d829ce0 -->
+
+The Controller for the Spark Diamond PAU will be registered with the Configurator in a future Executive Vote. Its address on Ethereum Mainnet will be specified in a future iteration of the Atlas. The following controller actions will be enabled:
+
+- `removeIntegrations`
+
+This action will be enabled specifically for the integration registered to the Swap Asset Facet, as specified in [A.2.2.10.1.1.1.2.3.1.2.28 - Swap Asset Facet](768c5e08-f749-41ac-b96a-a67bb87cd90d).
 
 ###### A.2.2.10.1.1.1.2.4.1.5 - Transitional Measures [Core]  <!-- UUID: d5240aa5-72c1-4f92-b22c-7a80a35d733c -->
 
@@ -4052,27 +4146,11 @@ The Operators registered to the Arbitrum Configurator are defined in the subdocu
 
 ###### A.2.2.10.1.1.1.2.4.2.4.3.1 - Operator For The Spark Diamond PAU [Core]  <!-- UUID: c8db987b-c15d-4374-8af1-dfc34624001a -->
 
-The Spark Diamond PAU's Operator, the cBEAM authorized to adjust the Diamond PAU's rate limits through the Configurator, is the Spark Operator Multisig, as specified in the documents herein.
+The Spark Diamond PAU's Operator on Arbitrum, the cBEAM authorized to adjust the Diamond PAU's rate limits through the Configurator, is the Spark Operator Multisig. It is deployed separately on Arbitrum at the same address as on Ethereum Mainnet, as specified in [A.2.2.10.1.1.1.2.4.1.4.3.4.1 - Spark Operator Multisig Address](d957d6d2-71d3-4b10-a702-78ed11bff739). Its required number of signers, signers, and modification rules are as specified in [A.2.2.10.1.1.1.2.4.1.4.3.4.2 - Spark Operator Multisig Required Number Of Signers](6246d43d-a4d3-4593-b5e7-2dc89d2c21c8), [A.2.2.10.1.1.1.2.4.1.4.3.4.3 - Spark Operator Multisig Signers](2621a25a-6199-44a1-98bc-7175b2746a64), and [A.2.2.10.1.1.1.2.4.1.4.3.4.5 - Spark Operator Multisig Modification](b2504704-b869-4573-9c99-a394e7fdb614). The Spark Operator Multisig on Arbitrum must have the same signers and required number of signers as on Ethereum Mainnet. Any change to the signers or the required number of signers must be made on Ethereum Mainnet, Arbitrum, and Base.
 
-###### A.2.2.10.1.1.1.2.4.2.4.3.1.1 - Spark Operator Multisig Address [Core]  <!-- UUID: dc280a3d-63a1-4622-a27f-b1fe3a88ce0b -->
-
-The address of the Spark Operator Multisig on Arbitrum is `0x492aae70E59551768BAF3c7159d3f951B6ed76Fe`.
-
-###### A.2.2.10.1.1.1.2.4.2.4.3.1.2 - Spark Operator Multisig Required Number Of Signers [Core]  <!-- UUID: 248e84b2-42cd-4578-9120-d301db760859 -->
-
-The Spark Operator Multisig's required number of signers is two (2) out of three (3).
-
-###### A.2.2.10.1.1.1.2.4.2.4.3.1.3 - Spark Operator Multisig Signers [Core]  <!-- UUID: 2553550f-7d4e-454b-9627-0e5c9ee4db2b -->
-
-The signers of the Spark Operator Multisig are controlled by Operational GovOps Soter Labs.
-
-###### A.2.2.10.1.1.1.2.4.2.4.3.1.4 - Spark Operator Multisig Usage Standards [Core]  <!-- UUID: 9fb1b1fe-9ea8-46e8-8d81-71bef4602eaf -->
+###### A.2.2.10.1.1.1.2.4.2.4.3.1.1 - Spark Operator Multisig Usage Standards [Core]  <!-- UUID: 9fb1b1fe-9ea8-46e8-8d81-71bef4602eaf -->
 
 The signers of the Spark Operator Multisig must use the multisig to operate the Configurator in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.2.4.1 - Operator Execution](ebc97af0-11d3-4c66-8a7d-bbd34fc92a9b) and [A.2.2.10.1.1.1.2.4.2.4.2 - Public Communication](0aa60eac-690b-4c73-b791-ae91d60feda5).
-
-###### A.2.2.10.1.1.1.2.4.2.4.3.1.5 - Spark Operator Multisig Modification [Core]  <!-- UUID: a9663954-c4f5-4102-9137-7c360a750377 -->
-
-Operational GovOps Soter Labs can change the signers of the Spark Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
 
 ###### A.2.2.10.1.1.1.2.4.2.4.4 - Registered Controllers [Core]  <!-- UUID: 7619cc5d-6c9d-4889-bf4a-39b2e362c920 -->
 
@@ -4119,7 +4197,7 @@ The Configurator is granted `DEFAULT_ADMIN_ROLE` on the Spark Diamond PAU `Acces
 
 ###### A.2.2.10.1.1.1.2.4.3.2.2 - Osero Diamond PAU [Core]  <!-- UUID: 24c2fc14-448d-48be-a416-86bfad6f33fe -->
 
-In the Osero Spell included in the November 19, 2026 Executive Vote, Osero will grant the Configurator `DEFAULT_ADMIN_ROLE` on the Osero Diamond PAU `AccessControls` and `RateLimits` contracts on Base. The Osero Diamond PAU `RateLimits` contract will be paired to the Operator specified in [A.2.2.10.1.1.1.2.4.3.4.3.2 - Operator For The Osero Diamond PAU](b52fe20e-2927-4191-967f-73934e61a8af). The bounds within which cBEAMs may adjust rate limits on the Osero Diamond PAU `RateLimits` are:
+The Configurator is granted `DEFAULT_ADMIN_ROLE` on the Osero Diamond PAU `AccessControls` and `RateLimits` contracts on Base. The Osero Diamond PAU `RateLimits` contract is paired to the Operator specified in [A.2.2.10.1.1.1.2.4.3.4.3.2 - Operator For The Osero Diamond PAU](b52fe20e-2927-4191-967f-73934e61a8af). The bounds within which cBEAMs may adjust rate limits on the Osero Diamond PAU `RateLimits` are:
 
 - `hop`: as specified in [A.2.2.10.1.1.1.2.4.3.1.1 - Hop Default Value](eec7a3cd-ec19-421e-9cc5-e4b1d0e051d4)
 - `maxChange`: as specified in [A.2.2.10.1.1.1.2.4.3.1.2 - Max Change Default Value](ee33adfa-ad78-4161-b1bd-0703073c0ef4)
@@ -4172,27 +4250,11 @@ The Operators registered to the Base Configurator are defined in the subdocument
 
 ###### A.2.2.10.1.1.1.2.4.3.4.3.1 - Operator For The Spark Diamond PAU [Core]  <!-- UUID: 085bf98e-d355-45b9-abc7-eb5ea50a29a4 -->
 
-The Spark Diamond PAU's Operator, the cBEAM authorized to adjust the Diamond PAU's rate limits through the Configurator, is the Spark Operator Multisig, as specified in the documents herein.
+The Spark Diamond PAU's Operator on Base, the cBEAM authorized to adjust the Diamond PAU's rate limits through the Configurator, is the Spark Operator Multisig. It is deployed separately on Base at the same address as on Ethereum Mainnet, as specified in [A.2.2.10.1.1.1.2.4.1.4.3.4.1 - Spark Operator Multisig Address](d957d6d2-71d3-4b10-a702-78ed11bff739). Its required number of signers, signers, and modification rules are as specified in [A.2.2.10.1.1.1.2.4.1.4.3.4.2 - Spark Operator Multisig Required Number Of Signers](6246d43d-a4d3-4593-b5e7-2dc89d2c21c8), [A.2.2.10.1.1.1.2.4.1.4.3.4.3 - Spark Operator Multisig Signers](2621a25a-6199-44a1-98bc-7175b2746a64), and [A.2.2.10.1.1.1.2.4.1.4.3.4.5 - Spark Operator Multisig Modification](b2504704-b869-4573-9c99-a394e7fdb614). The Spark Operator Multisig on Base must have the same signers and required number of signers as on Ethereum Mainnet. Any change to the signers or the required number of signers must be made on Ethereum Mainnet, Arbitrum, and Base.
 
-###### A.2.2.10.1.1.1.2.4.3.4.3.1.1 - Spark Operator Multisig Address [Core]  <!-- UUID: d4539884-c7e3-44ee-b487-fc6523762218 -->
-
-The address of the Spark Operator Multisig on Base is `0x492aae70E59551768BAF3c7159d3f951B6ed76Fe`.
-
-###### A.2.2.10.1.1.1.2.4.3.4.3.1.2 - Spark Operator Multisig Required Number Of Signers [Core]  <!-- UUID: 23ae088d-52b0-4321-bc54-dadac65afdf1 -->
-
-The Spark Operator Multisig's required number of signers is two (2) out of three (3).
-
-###### A.2.2.10.1.1.1.2.4.3.4.3.1.3 - Spark Operator Multisig Signers [Core]  <!-- UUID: 6a4be9f0-7e59-4a0a-a416-c86817aa7424 -->
-
-The signers of the Spark Operator Multisig are controlled by Operational GovOps Soter Labs.
-
-###### A.2.2.10.1.1.1.2.4.3.4.3.1.4 - Spark Operator Multisig Usage Standards [Core]  <!-- UUID: 2a837abe-b271-49cc-b4dc-397b26f1a950 -->
+###### A.2.2.10.1.1.1.2.4.3.4.3.1.1 - Spark Operator Multisig Usage Standards [Core]  <!-- UUID: 2a837abe-b271-49cc-b4dc-397b26f1a950 -->
 
 The signers of the Spark Operator Multisig must use the multisig to operate the Configurator in accordance with the instructions specified in [A.2.2.10.1.1.1.2.4.3.4.1 - Operator Execution](56da9559-54be-4fb5-b39d-8c31c4aeed67) and [A.2.2.10.1.1.1.2.4.3.4.2 - Public Communication](564d45c1-f02d-4c37-a5fe-76bfc91d44fe).
-
-###### A.2.2.10.1.1.1.2.4.3.4.3.1.5 - Spark Operator Multisig Modification [Core]  <!-- UUID: e865b4b0-5f2e-4d9c-8960-4828ba3b4973 -->
-
-Operational GovOps Soter Labs can change the signers of the Spark Operator Multisig at any time, so long as there are at least three (3) signers and at least a majority of signers are required to execute transactions.
 
 ###### A.2.2.10.1.1.1.2.4.3.4.3.2 - Operator For The Osero Diamond PAU [Core]  <!-- UUID: b52fe20e-2927-4191-967f-73934e61a8af -->
 
@@ -4216,7 +4278,7 @@ This action is enabled specifically for the integration registered to the CCTP F
 
 ###### A.2.2.10.1.1.1.2.4.3.4.4.2 - Controller For The Osero Diamond PAU [Core]  <!-- UUID: b513d299-d79e-4388-a479-d411e8af10dd -->
 
-The Controller for the Osero Diamond PAU, at address `0x96F18963c1B1Dd83bB4D14119cF2C4b94F86d6a9` on Base, will be registered with the Configurator. No controller actions will be enabled for it.
+The Controller for the Osero Diamond PAU, at address `0x96F18963c1B1Dd83bB4D14119cF2C4b94F86d6a9` on Base, is registered with the Configurator. No controller actions have been enabled for it.
 
 ###### A.2.2.10.1.1.1.2.4.3.5 - Transitional Measures [Core]  <!-- UUID: 9f398df8-0484-4c16-8cb9-8d7b04a8b531 -->
 
@@ -4540,6 +4602,178 @@ Only an address holding the [A.2.2.10.1.1.1.2.2.1 - Default Admin Role](b76195f2
 
 The CCTP Facet's `setDomainParameters` function records the mint recipient and the minimum and maximum fee cap rates for the specified destination domain. Fee cap rates are expressed in basis points, where 10,000 is 100%. The parameters are not recorded unless the mint recipient is nonzero, the minimum fee cap rate is not greater than the maximum fee cap rate, and the maximum fee cap rate is below 100%.
 
+###### A.2.2.10.1.1.1.2.5.2.8 - NFAT Prime Facet [Core]  <!-- UUID: b421bd33-1c74-4276-b837-2855dca73458 -->
+
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.1.2.26 - NFAT Prime Facet](78e90576-2104-4331-ad42-f60a937a2a45).
+
+###### A.2.2.10.1.1.1.2.5.2.8.1 - Subscribe To NFAT Facility [Core]  <!-- UUID: 9595c161-bdd6-4570-98db-27bb2d5bfaa3 -->
+
+The documents herein define the steps to subscribe an asset held by the ALM Proxy to an NFAT Facility.
+
+###### A.2.2.10.1.1.1.2.5.2.8.1.1 - Allocator Role [Core]  <!-- UUID: 7963258a-c420-47f0-b64d-e39d64fcdf53 -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a subscription to an NFAT Facility by calling the `nfatPrime_subscribe` function on the Diamond PAU Controller, passing the address of the NFAT Facility, the amount to subscribe, and any data the NFAT Facility requires. The Controller dispatches the call to the NFAT Prime Facet, which performs the subscription on behalf of the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.8.1.2 - Rate Limit [Core]  <!-- UUID: 7f1f0a21-27ed-4f24-9092-3a3ee3089eec -->
+
+The subscription is subject to the on-chain rate limit identified by `LIMIT_NFAT_PRIME_SUBSCRIBE` for the address of the NFAT Facility's asset and the address of the NFAT Facility. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. A successful subscription decreases this rate limit, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5). The decrease is the amount that actually leaves the ALM Proxy, not the amount requested. An NFAT Facility for which no rate limit is configured cannot be subscribed to, so the rate limit configuration also determines which NFAT Facilities are available to the Diamond PAU.
+
+###### A.2.2.10.1.1.1.2.5.2.8.1.3 - Subscribe Asset To NFAT Facility [Core]  <!-- UUID: 92a9ef8c-0b93-40f0-be5f-1c934825ba12 -->
+
+The NFAT Prime Facet's `subscribe` function approves the NFAT Facility to take the specified amount of its asset from the ALM Proxy, and calls the NFAT Facility's `subscribe` function. After the call, the approval is reset to zero.
+
+###### A.2.2.10.1.1.1.2.5.2.8.2 - Withdraw From NFAT Facility [Core]  <!-- UUID: b45e7fc5-41b3-4f95-a2c7-4fa3ffad0d1d -->
+
+The documents herein define the steps to withdraw subscribed funds that have not been issued from an NFAT Facility to the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.8.2.1 - Allocator Role [Core]  <!-- UUID: 3dfeabc5-e3bf-4f7d-ba85-c9a93f350f4e -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a withdrawal from an NFAT Facility by calling the `nfatPrime_withdraw` function on the Diamond PAU Controller, passing the address of the NFAT Facility and the amount to withdraw. The amount must not be zero. The Controller dispatches the call to the NFAT Prime Facet, which performs the withdrawal on behalf of the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.8.2.2 - Rate Limit [Core]  <!-- UUID: f8ab6052-fe7e-4ecf-a24a-d72a1b9007ef -->
+
+The withdrawal is subject to the on-chain rate limit identified by `LIMIT_NFAT_PRIME_WITHDRAW` for the address of the NFAT Facility. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. A successful withdrawal decreases this rate limit, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5). The decrease is the amount that actually reaches the ALM Proxy, not the amount requested. A withdrawal does not restore subscription capacity.
+
+###### A.2.2.10.1.1.1.2.5.2.8.2.3 - Withdraw Asset From NFAT Facility [Core]  <!-- UUID: 03cb1781-e449-4b03-a18a-cc88554a4a3e -->
+
+The NFAT Prime Facet's `withdraw` function calls the NFAT Facility's `withdraw` function, and the withdrawn asset is sent to the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.8.3 - Collect From NFAT Facility [Core]  <!-- UUID: 4c9f53be-75db-4c11-8e5d-4442c012754a -->
+
+The documents herein define the steps to collect repaid interest and principal on an NFAT from an NFAT Facility to the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.8.3.1 - Allocator Role [Core]  <!-- UUID: 0550b341-fbe1-4723-bb46-8f3b52384e8a -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a collection from an NFAT Facility by calling the `nfatPrime_collect` function on the Diamond PAU Controller, passing the address of the NFAT Facility, the NFAT's token ID, and the amount to collect. The amount must not be zero. The Controller dispatches the call to the NFAT Prime Facet, which performs the collection on behalf of the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.8.3.2 - Rate Limit [Core]  <!-- UUID: b57a6c9a-41ee-4138-ba94-92e9aabb11d9 -->
+
+The collection is subject to the on-chain rate limit identified by `LIMIT_NFAT_PRIME_COLLECT` for the address of the NFAT Facility. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. A successful collection decreases this rate limit, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5). The decrease is the amount that actually reaches the ALM Proxy, not the amount requested.
+
+###### A.2.2.10.1.1.1.2.5.2.8.3.3 - Collect Repayments From NFAT Facility [Core]  <!-- UUID: f3ff67f0-ac1f-44a3-9f8b-bd2e6b47480e -->
+
+The NFAT Prime Facet's `collect` function calls the NFAT Facility's `collect` function for the specified NFAT, and the collected asset is sent to the ALM Proxy. The NFAT Facility allows only the owner of the NFAT to collect, so the NFAT must be held by the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.9 - Transfer Asset Facet [Core]  <!-- UUID: fd953fd3-f292-496d-a6ac-e01325593345 -->
+
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.1.2.19 - Transfer Asset Facet](e59b91c8-05c9-47b2-a115-8a41b12de659).
+
+###### A.2.2.10.1.1.1.2.5.2.9.1 - Transfer Asset [Core]  <!-- UUID: 05991dbb-aca3-4891-8dfc-77b15d1eef13 -->
+
+The documents herein define the steps to transfer an asset held by the ALM Proxy to a destination address.
+
+###### A.2.2.10.1.1.1.2.5.2.9.1.1 - Allocator Role [Core]  <!-- UUID: 4604bbc1-8e8a-43c1-8fe8-0710062480af -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a transfer by calling the `transferAsset_transfer` function on the Diamond PAU Controller, passing the asset, the destination address, and the amount to transfer. The Controller dispatches the call to the Transfer Asset Facet, which performs the transfer on behalf of the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.9.1.2 - Rate Limit [Core]  <!-- UUID: c9d7ff89-5e75-4a4c-a11b-64bacb953af3 -->
+
+The transfer is subject to the on-chain rate limit identified by `LIMIT_ASSET_TRANSFER` for the asset and the destination address. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. A successful transfer decreases this rate limit by the amount transferred, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5). An asset cannot be transferred to a destination for which no rate limit is configured, so the rate limit configuration also determines which destinations the Diamond PAU may send each asset to.
+
+###### A.2.2.10.1.1.1.2.5.2.9.1.3 - Transfer Asset To Destination [Core]  <!-- UUID: c4464d92-6508-4fe3-bd14-c697554b8974 -->
+
+The Transfer Asset Facet's `transfer` function transfers the specified amount of the asset from the ALM Proxy to the destination address. The Diamond PAU cannot recall an asset after the transfer.
+
+###### A.2.2.10.1.1.1.2.5.2.10 - NFAT Halo Facet [Core]  <!-- UUID: 39142938-0db8-47ab-9056-406746b4ca78 -->
+
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.1.2.27 - NFAT Halo Facet](cf231b22-ce7f-4719-b592-6c539c63cb22).
+
+###### A.2.2.10.1.1.1.2.5.2.10.1 - Issue NFAT [Core]  <!-- UUID: 3ed6a3da-d651-45ec-b07c-a671929358fe -->
+
+The documents herein define the steps to issue an NFAT from an NFAT Facility and draw its principal into the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.10.1.1 - Allocator Role [Core]  <!-- UUID: 5c972c9a-8d90-42c3-ae02-e72ea9f7bcd9 -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may issue an NFAT by calling the `nfatHalo_issue` function on the Diamond PAU Controller, passing the address of the NFAT Facility, the address that receives the NFAT, the token ID, and the amount to issue. The Controller dispatches the call to the NFAT Halo Facet, which performs the issuance on behalf of the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.10.1.2 - Rate Limit [Core]  <!-- UUID: 55db7662-ab99-496e-b999-27e1d057a0bc -->
+
+The issuance is subject to the on-chain rate limit identified by `LIMIT_NFAT_HALO_ISSUE` for the address of the NFAT Facility and the address that receives the NFAT. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. A successful issuance decreases this rate limit by the principal that the ALM Proxy receives, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5). An NFAT cannot be issued to an address for which no rate limit is configured, so the rate limit configuration also determines which addresses, such as a Prime Agent's ALM Proxy, may receive NFATs from the Diamond PAU.
+
+###### A.2.2.10.1.1.1.2.5.2.10.1.3 - Issue NFAT From NFAT Facility [Core]  <!-- UUID: a3d51dbe-ae08-45da-a01a-b8466f724879 -->
+
+The NFAT Halo Facet's `issue` function calls the NFAT Facility's `issue` function, which issues an NFAT with the specified token ID to the receiving address and sends the principal to the NFAT Facility's `recipient`, the ALM Proxy. The NFAT Halo Facet records a position for the NFAT, with the principal that the ALM Proxy receives as its outstanding principal. Each token ID can be issued only once for each NFAT Facility.
+
+###### A.2.2.10.1.1.1.2.5.2.10.2 - Repay Principal [Core]  <!-- UUID: 6538df00-d09c-4b68-af27-46177df5cda4 -->
+
+The documents herein define the steps to repay principal on an NFAT to the NFAT Facility.
+
+###### A.2.2.10.1.1.1.2.5.2.10.2.1 - Allocator Role [Core]  <!-- UUID: 1e1262bd-1784-4765-a20c-875b57ac985c -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may repay principal by calling the `nfatHalo_repayPrincipal` function on the Diamond PAU Controller, passing the address of the NFAT Facility, the token ID of the NFAT, and the amount to repay. The Controller dispatches the call to the NFAT Halo Facet, which performs the repayment on behalf of the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.10.2.2 - Rate Limit [Core]  <!-- UUID: 343dbb90-165f-42d9-ab78-9613cdc4d1d1 -->
+
+The repayment is subject to the on-chain rate limit identified by `LIMIT_NFAT_HALO_REPAY_PRINCIPAL` for the address of the NFAT Facility's asset and the address of the NFAT Facility. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. A successful repayment decreases this rate limit by the amount that leaves the ALM Proxy, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5).
+
+###### A.2.2.10.1.1.1.2.5.2.10.2.3 - Repay Principal To NFAT Facility [Core]  <!-- UUID: 27f49407-3d13-4dfb-8ce0-4fe028eb8eac -->
+
+The NFAT Halo Facet's `repayPrincipal` function approves the NFAT Facility to take the specified amount of its asset from the ALM Proxy, and calls the NFAT Facility's `repay` function for the NFAT. After the call, the approval is reset to zero. The amount cannot exceed the outstanding principal of the NFAT, which decreases by the amount repaid. The repaid amount is then collectable by the owner of the NFAT.
+
+###### A.2.2.10.1.1.1.2.5.2.10.3 - Repay Interest [Core]  <!-- UUID: 2774f0f9-8f0d-416e-9e4f-31cd13119654 -->
+
+The documents herein define the steps to repay interest on an NFAT to the NFAT Facility.
+
+###### A.2.2.10.1.1.1.2.5.2.10.3.1 - Allocator Role [Core]  <!-- UUID: 98383d7a-51a8-4a23-a1ad-103c131ddeef -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may repay interest by calling the `nfatHalo_repayInterest` function on the Diamond PAU Controller, passing the address of the NFAT Facility, the token ID of the NFAT, and the amount to repay. The Controller dispatches the call to the NFAT Halo Facet, which performs the repayment on behalf of the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.10.3.2 - Rate Limit [Core]  <!-- UUID: 2d34271b-37d7-477f-b71b-5865af6b032f -->
+
+The repayment is subject to the on-chain rate limit identified by `LIMIT_NFAT_HALO_REPAY_INTEREST` for the address of the NFAT Facility's asset and the address of the NFAT Facility. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current rate limit. A successful repayment decreases this rate limit by the amount that leaves the ALM Proxy, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5).
+
+###### A.2.2.10.1.1.1.2.5.2.10.3.3 - Repay Interest To NFAT Facility [Core]  <!-- UUID: e25bc74b-ecc2-4764-8ec7-76d093d69aed -->
+
+The NFAT Halo Facet's `repayInterest` function repays interest to the NFAT Facility in the same way as principal, as specified in [A.2.2.10.1.1.1.2.5.2.10.2.3 - Repay Principal To NFAT Facility](27f49407-3d13-4dfb-8ce0-4fe028eb8eac). The amount cannot exceed the maximum outstanding interest of the NFAT, as specified in [A.2.2.10.1.1.1.2.5.2.10.4.2 - Record Maximum Annual Growth Rate](9846bc64-3beb-4274-bb68-aabb10c3d396). The maximum outstanding interest decreases by the amount repaid.
+
+###### A.2.2.10.1.1.1.2.5.2.10.4 - Set Maximum Annual Growth Rate [Core]  <!-- UUID: 950268db-01f5-49ef-9517-ab4efc440b1c -->
+
+The documents herein define the steps to set the maximum annual growth rate that caps the interest repaid on the NFATs of an NFAT Facility.
+
+###### A.2.2.10.1.1.1.2.5.2.10.4.1 - Default Admin Role [Core]  <!-- UUID: 1a174a1d-6cf6-48c0-b645-32cda5fd656a -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.1 - Default Admin Role](b76195f2-7494-43a4-919e-fa823303ad06) (`DEFAULT_ADMIN_ROLE`) may set the maximum annual growth rate by calling the `nfatHalo_setMaxAnnualGrowthRate` function on the Diamond PAU Controller, passing the address of the NFAT Facility and the rate. The Controller dispatches the call to the NFAT Halo Facet, which records the rate.
+
+###### A.2.2.10.1.1.1.2.5.2.10.4.2 - Record Maximum Annual Growth Rate [Core]  <!-- UUID: 9846bc64-3beb-4274-bb68-aabb10c3d396 -->
+
+The NFAT Halo Facet's `setMaxAnnualGrowthRate` function records the maximum annual growth rate for the NFAT Facility. The maximum outstanding interest of each NFAT accrues linearly on its outstanding principal at that rate. Before recording a new rate, the function brings the accrual up to date at the previous rate, so the new rate applies only from then on.
+
+###### A.2.2.10.1.1.1.2.5.2.11 - Swap Asset Facet [Core]  <!-- UUID: 054ed277-e5ed-4aaf-b927-4769f1a270fd -->
+
+The documents herein define the Controller functions available for the [A.2.2.10.1.1.1.2.3.1.2.28 - Swap Asset Facet](768c5e08-f749-41ac-b96a-a67bb87cd90d).
+
+###### A.2.2.10.1.1.1.2.5.2.11.1 - Initiate Swap [Core]  <!-- UUID: e6bffbef-626c-450a-bf22-35a2143f1c0a -->
+
+The documents herein define the steps to swap an asset held by the ALM Proxy for an asset held by the ALM Proxy of another Diamond PAU, the counterparty.
+
+###### A.2.2.10.1.1.1.2.5.2.11.1.1 - Allocator Role [Core]  <!-- UUID: 1dda5fea-1beb-4ffc-8a7d-4ca26d961a90 -->
+
+Only an address holding the [A.2.2.10.1.1.1.2.2.3 - Allocator Role](e7a97395-ddd5-4ae8-874f-1bb3f247446a) (`ALLOCATOR_ROLE`) may initiate a swap by calling the `swapAsset_initiateSwap` function on the Diamond PAU Controller, passing the address of the counterparty's Controller, the asset to send, the asset to receive, and the amount to send. The Controller dispatches the call to the Swap Asset Facet, which performs the swap on behalf of the ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.11.1.2 - Rate Limit [Core]  <!-- UUID: ca4d4d24-b060-418b-8735-e1be7002edb9 -->
+
+The swap is subject to the on-chain Rate Limit identified by `LIMIT_SWAP_ASSET_INITIATE` for the asset to send, the address of the counterparty's ALM Proxy, the address of the counterparty's Controller, and the asset to receive. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current Rate Limit. A successful swap decreases this Rate Limit by the amount to send, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5). It also increases the Rate Limit for the opposite direction by the amount to receive, where that Rate Limit is configured, up to its `maxAmount`. A swap cannot be initiated with a counterparty for which no Rate Limit is configured.
+
+###### A.2.2.10.1.1.1.2.5.2.11.1.3 - Swap Assets With Counterparty [Core]  <!-- UUID: 06e8e163-6c66-4214-8e25-38e396a3fa9b -->
+
+The Swap Asset Facet's `initiateSwap` function first checks that the counterparty's Controller holds the [A.2.2.10.1.1.1.2.2.2 - Controller Role](4f77eb6c-4b2f-4fa0-a7c0-d58e9b76ce8e) on the counterparty's ALM Proxy. The amount to receive equals the amount to send at a one for one rate, adjusted for the decimals of the two assets. The function approves the counterparty's ALM Proxy to take the amount to send from the ALM Proxy, and calls the `swapAsset_completeSwap` function on the counterparty's Controller. After the call, the approval is reset to zero. The swap reverts unless exactly the amount to send leaves the ALM Proxy and exactly the amount to receive arrives. It also reverts if the decimal adjustment would lose precision.
+
+###### A.2.2.10.1.1.1.2.5.2.11.2 - Complete Swap [Core]  <!-- UUID: 394c604c-b839-4acb-8f3d-2c01d99d9991 -->
+
+The documents herein define the steps by which the counterparty completes a swap initiated by another Diamond PAU. In these documents, the asset to send and the asset to receive are those of the counterparty, the reverse of those of the initiating Diamond PAU.
+
+###### A.2.2.10.1.1.1.2.5.2.11.2.1 - Calling ALM Proxy [Core]  <!-- UUID: f454f24f-b688-497c-afac-50a133ea994d -->
+
+The `swapAsset_completeSwap` function on the Diamond PAU Controller does not require a role. It is called by the ALM Proxy of the Diamond PAU that initiates the swap, and the Rate Limit for the swap identifies that ALM Proxy.
+
+###### A.2.2.10.1.1.1.2.5.2.11.2.2 - Rate Limit [Core]  <!-- UUID: 20931c95-6148-471e-adab-af9b5b20366c -->
+
+The swap is subject to the on-chain Rate Limit identified by `LIMIT_SWAP_ASSET_COMPLETE` for the asset to send, the address of the calling ALM Proxy, and the asset to receive. This limit is enforced automatically within the call; the transaction reverts if the amount exceeds the current Rate Limit. A successful swap decreases this Rate Limit by the amount to send, as specified in [A.2.2.10.1.1.1.2.1.2 - Rate Limits](8efb0a11-b798-48eb-af19-f65b38f039b5). It also increases the Rate Limit for the opposite direction by the amount to receive, where that Rate Limit is configured, up to its `maxAmount`. A swap can be completed only with an ALM Proxy for which a Rate Limit is configured, so the Rate Limit configuration also determines which Diamond PAUs may swap with the Diamond PAU.
+
+###### A.2.2.10.1.1.1.2.5.2.11.2.3 - Complete Swap With Initiator [Core]  <!-- UUID: afd5b9e1-9a35-40bd-bb3d-e643165d5098 -->
+
+The Swap Asset Facet's `completeSwap` function takes the asset to receive from the calling ALM Proxy, through the approval that the initiating Diamond PAU set, and sends the asset to send to that ALM Proxy. The amount to receive equals the amount to send at a one for one rate, adjusted for the decimals of the two assets.
+
 ###### A.2.2.10.1.1.1.2.5.3 - Rate Limit Management [Core]  <!-- UUID: 6f5bc654-a053-4b1f-9ada-6aa13d0a2109 -->
 
 The documents herein define the protocol for querying, setting, and adjusting `RateLimits` for Diamond PAU Instances using their `RateLimitID`s. Rate limits are maintained in line with the operating Prime Agent's strategy, market conditions, and security considerations.
@@ -4700,7 +4934,7 @@ Morpho vaults must use the following role configuration:
 
 - The Owner role must be held by the relevant Prime Agent's SubProxy or, on another blockchain, by its governance Executor acting on instructions relayed from that SubProxy.
 - The Curator role must be held by a Multisig jointly controlled by the Operational Executor Agent and either the relevant Prime Agent or an external curator. The Multisig must require a 2 of 2 signer approval threshold.
-- The Allocator role may be held by an externally owned account or Multisig controlled by the relevant Prime Agent or an external curator, or by the Morpho Public Allocator contract. Where the Morpho Public Allocator contract holds the Allocator role, any emergency action that withdraws vault assets from a market must also set the Public Allocator's caps for that market to zero, so that the Public Allocator cannot reallocate assets back into that market.
+- The Allocator role may be held by the Multisig that holds the Curator role, by the Morpho Public Allocator contract, or by an externally owned account, a Multisig, or a smart contract controlled by the relevant Prime Agent or an external curator. Where the Morpho Public Allocator contract holds the Allocator role, any emergency action that withdraws vault assets from a market must also set the Public Allocator's caps for that market to zero, so that the Public Allocator cannot reallocate assets back into that market.
 - The Sentinel role must be held by at least one (1) address controlled by the Operational Executor Agent, using a signer set separate from the signer set controlling the Curator role. Additional Sentinel addresses may be designated. These additional Sentinel addresses are recommended but not required, and no restriction applies to who may control them. Any automated monitoring solution serving as a Sentinel must be capable of automatically revoking pending actions when it detects a threat.
 
 ###### A.2.2.10.1.1.1.3.1.1 - Permissioned Role Records [Core]  <!-- UUID: d1d1ee0e-4d57-4c01-8fad-ea360b5bee03 -->
@@ -4941,6 +5175,122 @@ The requirements specified in [A.2.2.10.1.1.1.3.6 - Morpho Vault Curation Govern
 - designate the entities responsible for announcements and reports.
 
 A Prime Agent Artifact must not exempt a change from the requirements specified in [A.2.2.10.1.1.1.3.6 - Morpho Vault Curation Governance Process](4f81276e-01d0-4403-a91b-4604a00045ac).
+
+###### A.2.2.10.1.1.1.4 - NFAT Facilities [Core]  <!-- UUID: c13b04c4-1087-4240-a1a9-18912a656944 -->
+
+The documents herein define the requirements for NFAT Facilities used by Prime Agents to deploy capital through the Allocation System Primitive into deals operated by Halo Agents.
+
+###### A.2.2.10.1.1.1.4.1 - Facility Requirements [Core]  <!-- UUID: cb0160b9-d804-4a3d-a6e0-233dab98c2c5 -->
+
+Each NFAT Facility consists of two parts. The NFAT Facility Contract holds the USDS that Prime Agents subscribe, mints an NFAT for each issuance, and holds repayments until Prime Agents collect them. The NFAT Facility Diamond PAU is the Diamond PAU through which the Halo Agent operates the NFAT Facility. Its ALM Proxy receives the USDS claimed from the NFAT Facility Contract and makes repayments to it.
+
+Each NFAT Facility must be operated by a single Diamond PAU administered by the SubProxy of the Halo Agent managing the underlying deal. The parameters, roles, contracts, and operational processes of the NFAT Facility Diamond PAU follow the architecture outlined in [A.2.2.10.1.1.1.2 - Diamond PAU](d5cfb5ed-20a9-42a0-9838-ef21e1115648).
+
+Further details will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.4.2 - Onboarding [Core]  <!-- UUID: e728cd9a-395b-4f1d-99bf-f45eaaa93c32 -->
+
+Each NFAT Facility a Prime Agent subscribes to must be onboarded as an Instance of that Prime Agent’s Allocation System Primitive, following the same Instance onboarding process that applies to any other allocation target.
+
+###### A.2.2.10.1.1.1.4.3 - Subscription And Claim [Core]  <!-- UUID: 2ad64c00-28f9-4ac2-a4cd-308f0e631889 -->
+
+A Prime Agent subscribes by depositing into its queue in the NFAT Facility Contract. Queued funds remain the Prime Agent’s and may be withdrawn at any time before they are claimed. The Halo Agent claims a specified amount from a Prime Agent’s queue. The claimed funds move to the ALM Proxy of the NFAT Facility Diamond PAU, and an NFAT is minted to the Prime Agent. Deal terms must fall within the Buybox, or within an Ecosystem Accord that expressly overrides it. The Buybox is the common set of parameter ranges within which the Halo Agent may set deal terms without further approval.
+
+###### A.2.2.10.1.1.1.4.4 - Attestation [Core]  <!-- UUID: d6a20032-cb17-40b6-8360-ebc344c46789 -->
+
+The Attestor is an independent party, approved by Sky Governance, that attests to the risk characteristics of the deal.
+
+A Halo Agent cannot deploy claimed capital until the Attestor has published a pre-deployment attestation. The Attestor must publish a further attestation once the assets are deployed, and must re-attest at the cadence set for the asset type.
+
+###### A.2.2.10.1.1.1.4.5 - Redemption [Core]  <!-- UUID: c6f16373-51d2-4321-aa58-fe7a3ef237d5 -->
+
+The Halo Agent must repay amounts due to the NFAT Facility Contract following the repayment calendar. The Prime Agent collects those amounts against the NFAT.
+
+###### A.2.2.10.1.1.1.4.6 - Risk Treatment [Core]  <!-- UUID: e5aaa732-4dcd-45cc-804e-8f08c0bd7676 -->
+
+All obligations arising from capital deployed into a Halo Agent remain with the allocating Prime Agent. The methodology for calculating each Prime Agent’s Instance Total RRC and Asset Liability Management requirements will be specified in a future iteration of the Atlas.
+
+###### A.2.2.10.1.1.1.4.7 - Approved NFAT Facilities [Active Data Controller]  <!-- UUID: c9805e00-1464-44c8-b727-6d0494a6da7e -->
+
+The list of approved NFAT Facilities is maintained in [A.2.2.10.1.1.1.4.7.0.6.1 - List Of Approved NFAT Facilities](0b4f2a6e-7d1c-4e8a-9f35-2c6d8e1a4b70).
+
+The Active Data is updated as follows:
+
+- The Responsible Party is the Core Facilitator.
+- The Update Process must follow the protocol for ‘Direct Edit’.
+
+###### A.2.2.10.1.1.1.4.7.0.6.1 - List Of Approved NFAT Facilities [Active Data]  <!-- UUID: 0b4f2a6e-7d1c-4e8a-9f35-2c6d8e1a4b70 -->
+
+| NFAT Facility | Halo Agent | Specification |
+|---|---|---|
+| Test NFAT Facility | Test Halo | [A.1.14.6.3.1.3.1.1.1 - Test NFAT Facility](8c029467-3c5b-46ae-8a0a-39663427cf9f) |
+
+###### A.2.2.10.1.1.1.4.8 - NFAT Pilot [Core]  <!-- UUID: 31a31991-9ece-4b75-80f1-60e8c0b9b258 -->
+
+The NFAT Pilot is a time-limited test of the NFAT Facility architecture in production on Ethereum Mainnet.
+
+###### A.2.2.10.1.1.1.4.8.1 - Participating Agents [Core]  <!-- UUID: 2580dbb1-7e0f-4cc7-87c6-6de89483920a -->
+
+The Agents participating in the NFAT Pilot are:
+
+- Prime Agent: [A.6.1.1.7 - Osero](eba0dcc7-e135-496f-b866-342deeb91dc4)
+- Halo Agent: [A.1.14.6.3.1 - Test Halo](59d23e0e-dcf8-4fdb-937a-678023849cf6), which initializes and operates the [A.1.14.6.3.1.3.1.1.1 - Test NFAT Facility](8c029467-3c5b-46ae-8a0a-39663427cf9f)
+
+###### A.2.2.10.1.1.1.4.8.2 - Asset And Strategy [Core]  <!-- UUID: 28548f36-a44a-4124-a02a-05b627b4e2fd -->
+
+The NFAT Pilot proves the NFAT Facility architecture in production. The Test NFAT Facility has no external borrower and no external strategy. The asset is USDS. Test Halo holds the USDS it claims in the ALM Proxy of the Test NFAT Facility Diamond PAU. The USDS that Osero has subscribed and that is not issued is held in the Test NFAT Facility Contract.
+
+###### A.2.2.10.1.1.1.4.8.3 - Pilot Size [Core]  <!-- UUID: 947368eb-3091-4513-824c-519e96c8bb08 -->
+
+Osero subscribes up to 100,000,000 USDS in total. Test Halo claims up to 50,000,000 USDS of this amount, issuing an NFAT for each claim. The other 50,000,000 USDS stays subscribed and not issued, and will be withdrawn from the NFAT Facility Contract by Osero at the end of the NFAT Pilot. The amounts increase in phases, as specified in [A.2.2.10.1.1.1.4.8.7 - NFAT Pilot Phases](33f421ba-fe7e-4547-9491-f4ec2fb0f879). A separate opening test of 1,000,000 USDS is subscribed, issued and repaid before Phase 1, and is not counted in these amounts. Before issuance in the opening test, 1,000 USDS is withdrawn and subscribed again.
+
+###### A.2.2.10.1.1.1.4.8.4 - Duration [Core]  <!-- UUID: e6fbb35f-cc70-49ba-ab34-80a58895f144 -->
+
+The NFAT Pilot starts with the opening test, after the December 3, 2026 Executive Vote has executed. It ends with settlement of all outstanding principal and interest, after the Phase 5 holding period specified in [A.2.2.10.1.1.1.4.8.7 - NFAT Pilot Phases](33f421ba-fe7e-4547-9491-f4ec2fb0f879).
+
+###### A.2.2.10.1.1.1.4.8.5 - Risk Treatment [Core]  <!-- UUID: 86be70f3-5caa-4f1a-a002-fbd53ba26070 -->
+
+The Capital Ratio Requirement for the Test NFAT Facility Instance is specified in [A.6.1.1.7.2.6.1.3.1.2.1.2.5.1 - Capital Ratio Requirement](883a2d87-b843-43c7-957c-5c07b39d5018).
+
+###### A.2.2.10.1.1.1.4.8.6 - Exceptional Treatment [Core]  <!-- UUID: 881e0d85-2d54-4d38-9157-37258a3dcb22 -->
+
+The documents herein specify the conditions that apply only to the Test NFAT Facility and the NFAT Pilot.
+
+###### A.2.2.10.1.1.1.4.8.6.1 - Yield Treatment Exception [Core]  <!-- UUID: d5ad0fc3-277c-4ee2-9128-3f22f320b7e0 -->
+
+The Test NFAT Facility earns no yield from a borrower. Osero draws the USDS that funds the interest payments, for testing purposes only. In the opening test, Osero draws 100 USDS and sends it directly to the ALM Proxy of the Test NFAT Facility Diamond PAU using the [A.2.2.10.1.1.1.2.3.1.2.19 - Transfer Asset Facet](e59b91c8-05c9-47b2-a115-8a41b12de659). Test Halo directly repays 100 USDS on the NFAT issued in the opening test. Osero collects and burns the 100 USDS. The process is repeated at the end of the NFAT Pilot with 700,000 USDS of interest.
+
+###### A.2.2.10.1.1.1.4.8.6.2 - Monthly Settlement Cycle Exception [Core]  <!-- UUID: 4f8e841d-af56-49d1-8ff5-566603936f7d -->
+
+The operations within the NFAT Pilot have no net effect on the Monthly Settlement Cycle, as specified in [A.2.4.2.1.2.1 - Test NFAT Facility NFATs Held By Osero](5874483e-4036-4a74-960f-86ff9aae815f).
+
+###### A.2.2.10.1.1.1.4.8.7 - NFAT Pilot Phases [Core]  <!-- UUID: 33f421ba-fe7e-4547-9491-f4ec2fb0f879 -->
+
+The documents herein specify the target balances of each phase of the NFAT Pilot, when the rate limits may be raised to the values of the next phase, and how long each phase must be held.
+
+The values for each phase are specified for each rate limit in [A.6.1.1.7.2.6.1.3.1.2.1.2.4.1 - Subscribe Rate Limit](768c48fe-7f35-443e-8ab4-0e5644555069) and [A.1.14.6.3.1.3.1.1.1.2.2.3.1 - Issue Rate Limit](ddbdc989-353a-4596-9ab2-2dd87daa7fdb). The other rate limits of the NFAT Pilot do not change between phases.
+
+###### A.2.2.10.1.1.1.4.8.7.1 - Target Balances [Core]  <!-- UUID: 224380d8-85e3-4f8c-8b37-2ea5b9541a94 -->
+
+Each phase has two target balances: the USDS that Osero has subscribed and that is not issued, held in the Test NFAT Facility Contract, and the claimed USDS for which Test Halo has issued NFATs to Osero, held in the ALM Proxy of the Test NFAT Facility Diamond PAU. The target balances and holding periods are:
+
+| Phase | Subscribed, not issued | Issued | Holding period |
+| --- | --- | --- | --- |
+| 1 | 2,500,000 USDS | 2,500,000 USDS | 12 days |
+| 2 | 5,000,000 USDS | 5,000,000 USDS | 14 days |
+| 3 | 12,500,000 USDS | 12,500,000 USDS | 14 days |
+| 4 | 25,000,000 USDS | 25,000,000 USDS | 14 days |
+| 5 | 50,000,000 USDS | 50,000,000 USDS | 14 days |
+
+Operational GovOps Soter Labs records the block and time at which both target balances of a phase are reached.
+
+###### A.2.2.10.1.1.1.4.8.7.2 - Rate Limit Increases [Core]  <!-- UUID: 9e2f2f1e-8f43-442d-8a32-060b7c4e9ba0 -->
+
+The Phase 1 values are set at the start of the NFAT Pilot. When both target balances of a phase are reached, the cBEAMs may raise each rate limit to the values of the next phase. The cBEAMs raise each rate limit in steps, within the `hop` and `maxChange` bounds held in BeamState.
+
+###### A.2.2.10.1.1.1.4.8.7.3 - Holding Period [Core]  <!-- UUID: f3b0915b-302a-45cf-aa64-2f5056e9c52a -->
+
+Osero may subscribe for the next phase only after both target balances of the current phase have been held for the full holding period. If either balance falls below its target, the holding period restarts when both balances are restored, unless the Core Council Risk Advisor approves an exception.
 
 ###### A.2.2.10.1.1.1.6 - Security Specifications [Core]  <!-- UUID: 905a0c30-5758-48e8-9006-b52ced11fa42 -->
 
@@ -5668,11 +6018,11 @@ Within seven (7) calendar days of the end of each month, each Operational Execut
 
 ###### A.2.4.1.2.1.1.1 - Demand Side Stablecoin Primitive Recipients [Core]  <!-- UUID: f62602a6-1c1a-44d4-9c9f-a903ce433330 -->
 
-For each Prime Agent, the Initial Calculation must specify whether payments with respect to Demand Side Stablecoin Primitives (see [A.2.2.9 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d)) have already been made by the Operational Executor Agent, and thus should be reimbursed to the Operational Executor Agent instead of being paid to the Prime Agent.
+For each Prime Agent, the Initial Calculation must specify whether payments with respect to Demand Side Stablecoin Primitives (see [A.2.2.9 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d)) have already been made by the Operational Executor Agent, and thus should be reimbursed to the Operational Executor Agent instead of being paid to the Prime Agent. For each Prime Agent, the Initial Calculation must also show the Distribution Reward and Integration Boost payments and Pioneer Rewards included in the amounts due to that Prime Agent (see [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)).
 
 ###### A.2.4.1.2.1.1.2 - Demand Side Buffer Replenishment [Core]  <!-- UUID: e87fe248-5983-41d5-9c7a-75064a18d476 -->
 
-The last Initial Calculation posted for a given month must also include the amount to be transferred to the Demand Side Buffer (see [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) to replenish it. This amount is the total of the Distribution Reward and Integration Boost payments and the Pioneer Rewards (see [A.2.3.1.2.1.3.5 - Pioneer Rewards](33c56bad-c422-48f4-bcca-dc8794c6a0da)) paid from the Demand Side Buffer and its auxiliary accounts during that month, other than payments excluded under [A.2.4.1.2.1.5.5 - Transition To Demand Side Buffer Replenishment](075ac7f9-4c78-4dd1-a9b2-225071c09cd2), less any such amounts returned to the Demand Side Buffer or its auxiliary accounts during that month, with each of the three shown separately. Transfers between the Demand Side Buffer and its auxiliary accounts are disregarded.
+The last Initial Calculation posted for a given month must also include the amount to be transferred from the Sky Surplus Buffer to the Demand Side Buffer (see [A.2.2.4.3 - Demand Side Buffer](862b6d83-f464-4125-8259-233b7de75ec4)) to replenish it. This amount is the total of the Distribution Reward and Integration Boost payments and the Pioneer Rewards (see [A.2.3.1.2.1.3.5 - Pioneer Rewards](33c56bad-c422-48f4-bcca-dc8794c6a0da)) paid from the Demand Side Buffer and its auxiliary accounts during that month, other than payments excluded under [A.2.4.1.2.1.5.5 - Transition To Demand Side Buffer Replenishment](075ac7f9-4c78-4dd1-a9b2-225071c09cd2), less any such amounts returned to the Demand Side Buffer or its auxiliary accounts during that month, with each of the three shown separately. Transfers between the Demand Side Buffer and its auxiliary accounts are disregarded.
 
 Any negative amount carried forward from the previous month is added to this amount. If the result is negative, no transfer is made to the Demand Side Buffer for that month, no Expense is recognized for it, and the negative amount is carried forward to the following month.
 
@@ -5718,6 +6068,10 @@ Amounts due from Prime Agents, excluding reimbursements made to Operational Exec
 
 Reimbursements of payments already made by the Operational Executor Agent with respect to Demand Side Stablecoin Primitives (see [A.2.2.9 - Demand Side Stablecoin Primitives](26415305-432d-423b-9553-3f325279712d)) are transferred to the Operational Executor Agent’s Buffer through an Executive Vote.
 
+###### A.2.4.1.2.1.3.4 - Transfers To Buffers [Core]  <!-- UUID: 77fd76fa-8f44-4ac4-8d4e-ef1713c8b638 -->
+
+Amounts to be transferred to the Core Council and Aligned Delegates Buffers, as specified in [A.2.3.1.2.2 - Step 1: Security And Maintenance](324e9d22-70fe-4e44-82ab-118815f5c42e), and to the Demand Side Buffer, as specified in [A.2.4.1.2.1.1.2 - Demand Side Buffer Replenishment](e87fe248-5983-41d5-9c7a-75064a18d476), are transferred from the Sky Surplus Buffer to the relevant buffer through an Executive Vote.
+
 ###### A.2.4.1.2.1.4 - True Up In Subsequent Monthly Settlement Cycle [Core]  <!-- UUID: de1592f5-dbce-46de-913f-6ec9589d36e8 -->
 
 If the amounts of any payments included in the Sky Core Executive Vote (see [A.2.4.1.2.1.3 - Settlement Through Sky Core Executive Vote](0d561ea6-8689-459c-85eb-7c861553e116)) are subsequently determined to be incorrect, adjustments are included in a subsequent Monthly Settlement Cycle to ensure that each party pays the amount it owes or receives the amount to which it is entitled.
@@ -5755,7 +6109,7 @@ The combined balance of the Demand Side Buffer and its auxiliary accounts at 00:
 For the Monthly Settlement Cycle covering October 2026:
 
 - if the Initial Calculation does not include the Demand Side Buffer replenishment amount, the Final Calculation includes it; and
-- Core GovOps may include in the Final Calculation a one-time top-up of 1,000,000 USDS to the Demand Side Buffer, which is not recognized as an Expense.
+- Core GovOps may include in the Final Calculation a one-time top-up of 1,000,000 USDS from the Sky Surplus Buffer to the Demand Side Buffer, which is not recognized as an Expense.
 
 This document applies even if the Initial Calculation or the Final Calculation for the Monthly Settlement Cycle covering October 2026 is posted before this document takes effect. If the Final Calculation has been posted before then, Core GovOps posts a supplement to it including these amounts, and the resulting transfer is made in the same way as other transfers under the Final Calculation.
 
@@ -5937,6 +6291,15 @@ Interest is calculated on utilized USDS. Utilized USDS is the liquidity a Prime 
 - USDS held idle in an AMM pool
 - USDS supplied to a lending pool that is not borrowed from that pool
 - USDS held idle in a Tokenized Treasury Instance
+- USDS attributable to the Test NFAT Facility during the [A.2.2.10.1.1.1.4.8 - NFAT Pilot](31a31991-9ece-4b75-80f1-60e8c0b9b258), as specified in [A.2.4.2.1.2.1 - Test NFAT Facility NFATs Held By Osero](5874483e-4036-4a74-960f-86ff9aae815f)
+
+###### A.2.4.2.1.2.1 - Test NFAT Facility NFATs Held By Osero [Core]  <!-- UUID: 5874483e-4036-4a74-960f-86ff9aae815f -->
+
+USDS that Osero borrows from Sky under the scope of the [A.2.2.10.1.1.1.4.8 - NFAT Pilot](31a31991-9ece-4b75-80f1-60e8c0b9b258) and that Test Halo claims from the [A.1.14.6.3.1.3.1.1.1 - Test NFAT Facility](8c029467-3c5b-46ae-8a0a-39663427cf9f), issuing NFATs to Osero, is excluded from utilized USDS. Osero owes no interest to Sky on that USDS. Interest that Osero collects on those NFATs is not revenue of Osero. The Test NFAT Facility therefore has no net effect on the amounts settled between Sky and Osero in the Monthly Settlement Cycle. This exception applies for the duration of the NFAT Pilot, as specified in [A.2.2.10.1.1.1.4.8.4 - Duration](e6fbb35f-cc70-49ba-ab34-80a58895f144).
+
+###### A.2.4.2.1.2.1.1 - Unissued Subscriptions And Interest Funding [Core]  <!-- UUID: 12ba7d60-983b-4141-85a5-dc56c96af83a -->
+
+The exception specified in [A.2.4.2.1.2.1 - Test NFAT Facility NFATs Held By Osero](5874483e-4036-4a74-960f-86ff9aae815f) also applies to (1) USDS that Osero has subscribed to the Test NFAT Facility and for which no NFAT has been issued, and (2) USDS that Osero borrows from Sky to fund the interest payments of the Test NFAT Facility, as specified in [A.2.2.10.1.1.1.4.8.6.1 - Yield Treatment Exception](d5ad0fc3-277c-4ee2-9128-3f22f320b7e0).
 
 ##### A.2.4.2.1.3 - Netting [Core]  <!-- UUID: e1d1fda8-eac9-4b39-a750-42a2feee6768 -->
 
